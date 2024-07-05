@@ -1,0 +1,26 @@
+runtime: php
+env: flex
+
+runtime_config: document_root: public
+
+# Ensure we skip ".env", which is only for local development
+skip_files:
+    - .env
+
+automatic_scaling:
+    min_num_instances: 1
+    max_num_instances: 1
+
+resources:
+    cpu: 2
+    memory_gb: 4
+    disk_size_gb: 100
+
+env_variables:
+    # Put production environment variables here.
+    APP_DEBUG: true
+    APP_ENV: production
+    APP_KEY: base64:d98gzsMg2HI8dcrdRnZa3sejVlcDwZLbfPbep8lQL5U=
+    APP_NAME: "Formative Assessment - Oriented Learning Management System"
+
+    LOG_LEVEL: debug
