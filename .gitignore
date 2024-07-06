@@ -16,6 +16,8 @@ auth.json
 npm-debug.log
 yarn-error.log
 .editorconfig
+app.yaml
+cloudbuild.yaml
 /.fleet
 /.idea
 /.vscode
