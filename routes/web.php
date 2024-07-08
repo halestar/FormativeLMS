@@ -9,7 +9,10 @@ Route::prefix('cms')->name('cms.')->group(function()
 });
 Route::get('/cms/posts/{post}', [\App\Http\Controllers\CMS\BlogPostController::class, 'show'])->name('blog.show');
 
-Auth::routes();
+Route::get('/login', [\App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'login']);
+Route::post('/logout', [\App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
