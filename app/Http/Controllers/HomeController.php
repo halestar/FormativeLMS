@@ -23,6 +23,17 @@ class HomeController extends Controller
      */
     public function index()
     {
+
         return view('home');
+    }
+
+    public function front()
+    {
+        $template =
+            [
+                'page_title' => "Formative Assessment - Based Learning Management System",
+                'page_subtitle' => "A development blog for an LMS",
+            ];
+        return view('welcome');
     }
 }
