@@ -24,10 +24,19 @@ return new class extends Migration
             throw new \Exception('Error: team_foreign_key on config/permission.php not loaded. Run [php artisan config:clear] and try again.');
         }
 
+        Schema::create('permission_categories', function (Blueprint $table) {
+            $table->bigIncrements('id'); // category id
+            $table->string('name')->unique();       // category name
+            $table->timestamps();
+        });
+
         Schema::create($tableNames['permissions'], function (Blueprint $table) {
             //$table->engine('InnoDB');
             $table->bigIncrements('id'); // permission id
+            $table->unsignedBigInteger('category_id')->nullable();
+            $table->foreign('category_id')->references('id')->on('permission_categories')->onDelete('set null');
             $table->string('name');       // For MyISAM use string('name', 225); // (or 166 for InnoDB with Redundant/Compact row format)
+            $table->string('description')->nullable();
             $table->string('guard_name'); // For MyISAM use string('guard_name', 25);
             $table->timestamps();
 

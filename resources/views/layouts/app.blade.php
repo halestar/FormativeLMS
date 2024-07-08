@@ -12,14 +12,19 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d18ee59f88.js" crossorigin="anonymous"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+    @stack('stylesheets')
 
     <!-- Scripts -->
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
-    <script src="{{ mix('js/app.js') }}" defer></script>
+    <script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ mix('js/lms-tools.js') }}"></script>
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -31,31 +36,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Authentication Links -->
-                        @guest
-                            @if (Route::has('login'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                </li>
-                            @endif
-
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                        @else
+                        @auth
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('settings.permissions.index') }}">
+                                        {{ __('settings.permissions') }}
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('settings.roles.index') }}">
+                                        {{ __('settings.roles') }}
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -67,15 +60,66 @@
                                     </form>
                                 </div>
                             </li>
-                        @endguest
+                        @endauth
                     </ul>
+                    @auth
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    @else
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Authentication Links -->
+                        @if (Route::has('login'))
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                        @endif
+
+                        @if (Route::has('register'))
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            </li>
+                        @endif
+                    </ul>
+                    @endauth
                 </div>
             </div>
         </nav>
+        @isset($breadcrumb)
+        <div class="bg-primary-subtle rounded">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ route('home') }}"><span class="fa fa-home"></span></a></li>
+                @foreach($breadcrumb as $crumb => $url)
+                    @if($loop->last)
+                        <li class="breadcrumb-item active" aria-current="page">{{ $crumb }}</li>
+                    @else
+                        <li class="breadcrumb-item"><a href="{{ $url }}">{{ $crumb }}</a></li>
+                    @endif
+                @endforeach
+            </ol>
+        </div>
+        @endisset
 
         <main class="py-4">
             @yield('content')
         </main>
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            @session('success-status')
+            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header bg-primary-subtle">
+                    <img src="/images/fablms-32.png" class="rounded me-2" alt="fablms-logo">
+                    <strong class="me-auto">{{ __('common.success') }}</strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    {{ $value }}
+                </div>
+            </div>
+            @endsession
+        </div>
     </div>
+    @stack('scripts')
 </body>
 </html>

@@ -2,8 +2,23 @@
 @import url('https://fonts.bunny.net/css?family=Nunito');
 
 // Variables
-@import 'variables';
+@import '_variables';
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'bootswatch';
+
+.breadcrumb-item::before {
+    font-family: 'FontAwesome';
+}
+
+.count-message {
+    margin-top: -20px;
+    margin-right: 5px;
+    font-size: .8em;
+}
+
+.no-resize {
+    resize: none;
+}

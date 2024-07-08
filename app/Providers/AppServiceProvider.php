@@ -2,6 +2,10 @@
 
 namespace App\Providers;
 
+use App\Models\People\Person;
+use App\Models\Utilities\SchoolRoles;
+use Illuminate\Support\Facades\Blade;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        Gate::define('has-permission', function (Person $person, string $permission)
+        {
+            return $person->hasRole(SchoolRoles::$ADMIN) || $person->hasPermissionTo($permission);
+        });
     }
 }

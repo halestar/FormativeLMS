@@ -3045,7 +3045,10 @@ __webpack_require__.r(__webpack_exports__);
  */
 
 
-window.$ = (jquery__WEBPACK_IMPORTED_MODULE_1___default());
+window.$ = window.jQuery = (jquery__WEBPACK_IMPORTED_MODULE_1___default());
+
+// Jquery Widgets go here
+
 window.axios = axios__WEBPACK_IMPORTED_MODULE_2__["default"];
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 

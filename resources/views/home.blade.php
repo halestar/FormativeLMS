@@ -15,6 +15,7 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    Welcome {{ Auth::user()->email }}. Your roles are: {{ Auth::user()->getRoleNames() }}
                 </div>
             </div>
         </div>

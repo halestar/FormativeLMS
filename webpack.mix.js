@@ -12,4 +12,12 @@ let mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
+mix.scripts(
+    [
+        'resources/js/tools.js',
+        'resources/js/text_counter.js',
+    ],
+    'public/js/lms-tools.js'
+);
+
 

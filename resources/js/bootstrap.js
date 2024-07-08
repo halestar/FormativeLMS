@@ -5,10 +5,13 @@ import 'bootstrap';
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
-import jQuery from 'jquery';
+import $ from 'jquery';
 import axios from 'axios';
 
-window.$ = jQuery;
+window.$ = window.jQuery = $;
+
+// Jquery Widgets go here
+
 
 window.axios = axios;
 
