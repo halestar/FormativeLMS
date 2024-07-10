@@ -20,23 +20,100 @@ class PersonSeeder extends Seeder
      */
     public function run(): void
     {
-        //first, we add the admin
+        //first, we add the super admin
         $admin = Person::create(
             [
                 'first' => "Admin",
                 'middle' => null,
                 'last' => "Kalinec",
-                'email' => "admin@kalinec.net",
+                'email' => config('lms.superadmin_email'),
                 'nick' => null,
                 'pronouns' => 'He/Him',
                 'dob' => "1969-06-09",
                 'ethnicity' => 'Hispanic',
-                'password' => Hash::make("admin"),
+                'password' => Hash::make(config('lms.superadmin_password')),
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
             ]);
         $admin->assignRole(SchoolRoles::$ADMIN);
         $admin->assignRole(SchoolRoles::$STAFF);
+
+        //now we make some other fake people for testing.
+        $staff = Person::create(
+            [
+                'first' => "Staff",
+                'middle' => null,
+                'last' => "Kalinec",
+                'email' => 'staff@kalinec.net',
+                'nick' => null,
+                'pronouns' => 'He/Him',
+                'dob' => "1969-06-09",
+                'ethnicity' => 'Hispanic',
+                'password' => Hash::make('staff'),
+                'email_verified_at' => now(),
+                'remember_token' => Str::random(10),
+            ]);
+        $staff->assignRole(SchoolRoles::$STAFF);
+        $faculty = Person::create(
+            [
+                'first' => "Faculty",
+                'middle' => null,
+                'last' => "Kalinec",
+                'email' => 'faculty@kalinec.net',
+                'nick' => null,
+                'pronouns' => 'He/Him',
+                'dob' => "1969-06-09",
+                'ethnicity' => 'Hispanic',
+                'password' => Hash::make('faculty'),
+                'email_verified_at' => now(),
+                'remember_token' => Str::random(10),
+            ]);
+        $faculty->assignRole(SchoolRoles::$FACULTY);
+        $student = Person::create(
+            [
+                'first' => "Student",
+                'middle' => null,
+                'last' => "Kalinec",
+                'email' => 'student@kalinec.net',
+                'nick' => null,
+                'pronouns' => 'He/Him',
+                'dob' => "2010-06-09",
+                'ethnicity' => 'Hispanic',
+                'password' => Hash::make('student'),
+                'email_verified_at' => now(),
+                'remember_token' => Str::random(10),
+            ]);
+        $student->assignRole(SchoolRoles::$STUDENT);
+        $parent = Person::create(
+            [
+                'first' => "Parent",
+                'middle' => null,
+                'last' => "Kalinec",
+                'email' => 'parent@kalinec.net',
+                'nick' => null,
+                'pronouns' => 'He/Him',
+                'dob' => "2010-06-09",
+                'ethnicity' => 'Hispanic',
+                'password' => Hash::make('parent'),
+                'email_verified_at' => now(),
+                'remember_token' => Str::random(10),
+            ]);
+        $parent->assignRole(SchoolRoles::$PARENT);
+        $coach = Person::create(
+            [
+                'first' => "Parent",
+                'middle' => null,
+                'last' => "Kalinec",
+                'email' => 'coach@kalinec.net',
+                'nick' => null,
+                'pronouns' => 'He/Him',
+                'dob' => "2010-06-09",
+                'ethnicity' => 'Hispanic',
+                'password' => Hash::make('coach'),
+                'email_verified_at' => now(),
+                'remember_token' => Str::random(10),
+            ]);
+        $coach->assignRole(SchoolRoles::$COACH);
         //now we do some people. for a school of 100, we will do 20 faculty, 7 staff, 2 coaches and 70 students, with 100 parents.
         //faculty
         try

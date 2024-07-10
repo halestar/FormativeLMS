@@ -10,15 +10,22 @@ class PermissionSeeder extends Seeder
 {
     private static array $categories =
         [
-            'Settings',
-            'Personal Information'
+            'Roles/Permissions',
+            'Personal Information',
+            'System',
         ];
     private static array $permissions =
         [
-            'Settings' =>
+            'Roles/Permissions' =>
                 [
-                    ['name' => 'settings.permissions', 'description' => 'Change permissions in the system'],
-                    ['name' => 'settings.roles', 'description' => 'Change roles in the system'],
+                    ['name' => 'settings.permissions.view', 'description' => 'View permissions in the system'],
+                    ['name' => 'settings.permissions.edit', 'description' => 'Edit permissions in the system'],
+                    ['name' => 'settings.permissions.create', 'description' => 'Create permissions in the system'],
+                    ['name' => 'settings.permissions.delete', 'description' => 'Delete permissions in the system'],
+                    ['name' => 'settings.roles.view', 'description' => 'View roles in the system'],
+                    ['name' => 'settings.roles.edit', 'description' => 'Edit roles in the system'],
+                    ['name' => 'settings.roles.create', 'description' => 'Create roles in the system'],
+                    ['name' => 'settings.roles.delete', 'description' => 'Delete roles in the system'],
                 ],
             'Personal Information' =>
                 [
@@ -28,6 +35,11 @@ class PermissionSeeder extends Seeder
                     ['name' => 'people.delete', 'description' => 'Soft Delete a person'],
                     ['name' => 'people.merge', 'description' => 'Merge two person records into one.'],
                     ['name' => 'people.search', 'description' => 'Search for people in the system'],
+                ],
+            'System' =>
+                [
+                    ['name' => 'cms', 'description' => 'Access to the site\'s CSM'],
+                    ['name' => 'crud', 'description' => 'Access to the dmin dashboard for CRUD editors'],
                 ],
         ];
     /**

@@ -11,12 +11,20 @@
             </h4>
             <div class="card=body">
                 <div class="list-group">
-                    @foreach(\App\Models\CMS\BlogPost::orderBy('created_at')->get() as $post)
+                    @foreach(\App\Models\CMS\BlogPost::orderBy('created_at', 'desc')->get() as $post)
                         <a
                             href="{{ route('cms.posts.edit', ['post' => $post->id]) }}"
-                            class="list-group-item list-group-item-action"
+                            class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
                         >
                             <div class="post-name">{{ $post->title }}</div>
+                            <div>
+                                created: {{ $post->created_at->format('m/d/Y h:i A') }}
+                                @if($post->published)
+                                    <span class="badge bg-primary ms-3">published</span>
+                                @else
+                                    <span class="badge bg-danger ms-3">unpublished</span>
+                                @endif
+                            </div>
                         </a>
                     @endforeach
                 </div>

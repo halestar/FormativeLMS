@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @push('head_scripts')
-    <x-tinymce-config />
+    <x-editor-config />
 @endpush
 
 @section('content')
@@ -40,7 +40,7 @@
             </div>
             <div class="mb-3">
                 <label for="body" class="form-label">Post Body</label>
-                <x-tinymce-editor name="body">{{ old('body') }}</x-tinymce-editor>
+                <x-editor name="body">{{ old('body') }}</x-editor>
             </div>
 
             <div class="row">

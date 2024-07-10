@@ -24,7 +24,7 @@ class SchoolRoles extends Role
         [
             "Student" => ['people.view', 'people.search'],
             "Faculty" => ['people.view', 'people.search'],
-            "Staff" => ['people.view', 'people.search'],
+            "Staff" => ['people.view', 'people.search','settings.permissions.view', 'settings.roles.view','crud'],
             "Coach" => ['people.view', 'people.search'],
             "Parent" => ['people.view', 'people.search'],
             "Old Student" => ['people.view', 'people.search'],

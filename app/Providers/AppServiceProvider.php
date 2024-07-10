@@ -23,6 +23,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        Gate::before(function(Person $person, $ability)
+        {
+            return $person->hasRole(SchoolRoles::$ADMIN)? true: null;
+        });
         Gate::define('has-permission', function (Person $person, string $permission)
         {
             return $person->hasRole(SchoolRoles::$ADMIN) || $person->hasPermissionTo($permission);

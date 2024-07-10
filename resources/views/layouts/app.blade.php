@@ -38,21 +38,40 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                         @auth
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('cms.posts.index') }}">CMS</a>
+                            <li class="nav-item dropdown">
+                                <a id="adminDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ __('system.menu.admin') }}
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="adminDD">
+                                    @can('crud')
+                                    <a class="dropdown-item" href="/crud">
+                                        {{ __('system.menu.crud') }}
+                                    </a>
+                                    @endcan
+                                    @can('cms')
+                                    <a class="dropdown-item" href="{{ route('cms.posts.index') }}">
+                                        {{ __('system.menu.cms') }}
+                                    </a>
+                                    @endcan
+                                </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="userDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
                                 </a>
 
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDD">
+                                    @can('settings.permissions.view')
                                     <a class="dropdown-item" href="{{ route('settings.permissions.index') }}">
                                         {{ __('settings.permissions') }}
                                     </a>
+                                    @endcan
+                                    @can('settings.roles.view')
                                     <a class="dropdown-item" href="{{ route('settings.roles.index') }}">
                                         {{ __('settings.roles') }}
                                     </a>
+                                    @endcan
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -105,7 +124,23 @@
             </ol>
         </div>
         @endisset
-
+        @if($errors->count() > 0)
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="alert alert-danger">
+                            <strong>Whoops! Something went wrong!</strong>
+                            <br><br>
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endif
         <main class="py-4">
             @yield('content')
         </main>

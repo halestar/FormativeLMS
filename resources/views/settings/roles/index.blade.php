@@ -4,7 +4,11 @@
     <div class="list-group">
         @foreach(\Spatie\Permission\Models\Role::where('name', '<>', \App\Models\Utilities\SchoolRoles::$ADMIN)->orderBy('name')->get() as $role)
             <a
+                @can('settings.roles.edit')
                 href="{{ route('settings.roles.edit', ['role' => $role->id]) }}"
+                @else
+                    href="#"
+                @endcan
                 class="list-group-item list-group-item-action"
             >
                 <div class="role-name">{{ $role->name }}</div>

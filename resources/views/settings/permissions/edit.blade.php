@@ -65,11 +65,13 @@
 
             <div class="row">
                 <button class="btn btn-primary col-md m-1" type="submit">{{ __('settings.permission.edit') }}</button>
+                @can('settings.permissions.delete')
                 <button
                     class="btn btn-danger col-md m-1"
                     type="button"
                     onclick="confirmDelete('{{ __('settings.permission.delete.confirm') }}', '{{ route('settings.permissions.destroy', ['permission' => $permission->id]) }}')"
                 >{{ __('settings.permission.delete') }}</button>
+                @endcan
                 <a class="btn btn-secondary col-md m-1" role="button" href="{{ route('settings.permissions.index') }}">{{ __('common.cancel') }}</a>
             </div>
         </form>

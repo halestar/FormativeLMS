@@ -21,7 +21,11 @@
                         <div class="list-group list-group-flush">
                         @foreach($category->permissions as $permission)
                             <a
+                                @can('settings.permissions.edit')
                                 href="{{ route('settings.permissions.edit', ['permission' => $permission->id]) }}"
+                                @else
+                                    href="#"
+                                @endcan
                                 class="list-group-item list-group-item-action"
                             >
                                 <div class="d-flex justify-content-between align-items-center">

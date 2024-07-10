@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
                 RoleSeeder::class,
                 PersonSeeder::class,
                 FrontWebSiteSeeder::class,
+                EthnicitySeeder::class,
             ]);
     }
 }

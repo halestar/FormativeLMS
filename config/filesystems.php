@@ -56,6 +56,19 @@ return [
             'throw' => false,
         ],
 
+        'cms' => [
+            'driver' => 'gcs',
+            'key_file_path' => env('GOOGLE_SECRETS_FILE', null), // optional: /path/to/service-account.json
+            'project_id' => env('GOOGLE_CLOUD_PROJECT_ID', ''), // optional: is included in key file
+            'bucket' => env('GOOGLE_CLOUD_STORAGE_BUCKET', ''),
+            'path_prefix' => env('GOOGLE_CLOUD_CMS_STORAGE_PREFIX', 'cms/'), // optional: /default/path/to/apply/in/bucket
+            'visibility' => 'public', // optional: public|private
+            'storage_api_uri' => env('GOOGLE_CLOUD_STORAGE_API_URI', null),
+            'api_endpoint' => env('GOOGLE_CLOUD_STORAGE_API_ENDPOINT', null), // set storageClient apiEndpoint
+            'visibility_handler' => null, // optional: set to \League\Flysystem\GoogleCloudStorage\UniformBucketLevelAccessVisibility::class to enable uniform bucket level access
+            'metadata' => ['cacheControl' => 'public,max-age=86400'], // optional: default metadata
+        ],
+
     ],
 
     /*

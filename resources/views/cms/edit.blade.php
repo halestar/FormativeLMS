@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @push('head_scripts')
-    <x-tinymce-config />
+    <x-editor-config />
 @endpush
 
 @section('content')
@@ -9,6 +9,19 @@
         <form action="{{ route('cms.posts.update', ['post' => $post->id]) }}" method="POST">
             @csrf
             @method('PUT')
+            <div class="form-check form-switch mb-3">
+                <input
+                    class="form-check-input"
+                    type="checkbox"
+                    role="switch"
+                    id="published"
+                    name="published"
+                    value="1"
+                    @if($post->published) checked @endif
+                >
+                <label class="form-check-label" for="published">Publish Post</label>
+            </div>
+
             <div class="mb-3">
                 <label for="name" class="form-label">Post Title</label>
                 <input
@@ -44,7 +57,7 @@
             </div>
             <div class="mb-3">
                 <label for="body" class="form-label">Post Body</label>
-                <x-tinymce-editor name="body">{{ $post->body }}</x-tinymce-editor>
+                <x-editor name="body">{{ $post->body }}</x-editor>
             </div>
 
             <div class="row">

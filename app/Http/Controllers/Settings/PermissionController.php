@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Settings;
 use App\Http\Controllers\Controller;
 use App\Models\Utilities\SchoolPermission;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\Rule;
 
@@ -22,12 +23,16 @@ class PermissionController extends Controller
 
     public function index()
     {
-        Gate::authorize('has-permission', 'settings.roles');
+        Gate::authorize('has-permission', 'settings.permissions.view');
         $template =
             [
                 'breadcrumb' => [ __('settings.settings') => '#', __('settings.permissions') => '#'],
                 'title' => __('settings.permissions'),
-                'buttons' =>
+                'buttons' =>[],
+            ];
+        if(Auth::user()->can('settings.permissions.create'))
+        {
+            $template['buttons'] =
                 [
                     'create' =>
                         [
@@ -35,14 +40,14 @@ class PermissionController extends Controller
                             'classes' => 'btn btn-primary',
                             'text' => __('settings.permission.new'),
                         ],
-                ],
-            ];
+                ];
+        }
         return view('settings.permissions.index', compact('template'));
     }
 
     public function create()
     {
-        Gate::authorize('has-permission', 'settings.permissions');
+        Gate::authorize('has-permission', 'settings.permissions.create');
         $breadcrumb =
             [
                 __('settings.settings') => '#',
@@ -54,7 +59,7 @@ class PermissionController extends Controller
 
     public function store(Request $request)
     {
-        Gate::authorize('has-permission', 'settings.permissions');
+        Gate::authorize('has-permission', 'settings.permissions.create');
         $data = $request->validate([
             'category_id' => 'required|numeric|exists:permission_categories,id',
             'name' => 'required|unique:permissions,name|max:255',
@@ -70,7 +75,7 @@ class PermissionController extends Controller
 
     public function edit(Request $request, SchoolPermission $permission)
     {
-        Gate::authorize('has-permission', 'settings.permissions');
+        Gate::authorize('has-permission', 'settings.permissions.edit');
         $breadcrumb =
             [
                 __('settings.settings') => '#',
@@ -82,7 +87,7 @@ class PermissionController extends Controller
 
     public function update(Request $request, SchoolPermission $permission)
     {
-        Gate::authorize('has-permission', 'settings.permissions');
+        Gate::authorize('has-permission', 'settings.permissions.edit');
         $data = $request->validate([
             'category_id' => 'required|numeric|exists:permission_categories,id',
             'name' => ['required', 'max:255', Rule::unique('permissions')->ignore($permission)],
@@ -97,6 +102,7 @@ class PermissionController extends Controller
 
     public function destroy(SchoolPermission $permission)
     {
+        Gate::authorize('has-permission', 'settings.permissions.delete');
         $permission->delete();
         return redirect()->route('settings.permissions.index')->with('success-status', __('settings.permission.deleted'));
     }

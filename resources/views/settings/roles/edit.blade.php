@@ -43,11 +43,13 @@
 
             <div class="row">
                 <button class="btn btn-primary col-md m-1" type="submit">{{ __('settings.role.edit') }}</button>
+                @can('settings.roles.delete')
                 <button
                     class="btn btn-danger col-md m-1"
                     type="button"
                     onclick="confirmDelete('{{ __('settings.role.delete.confirm') }}', '{{ route('settings.roles.destroy', ['role' => $role->id]) }}')"
                 >{{ __('settings.role.delete') }}</button>
+                @endcan
                 <a class="btn btn-secondary col-md m-1" role="button" href="{{ route('settings.roles.index') }}">{{ __('common.cancel') }}</a>
             </div>
         </form>

@@ -4,8 +4,11 @@ namespace App\Http\Controllers\CMS;
 
 use App\Http\Controllers\Controller;
 use App\Models\CMS\BlogPost;
+use Google\Cloud\Storage\StorageClient;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
 
 class BlogPostController extends Controller
 {
@@ -55,10 +58,29 @@ class BlogPostController extends Controller
             'slug' => 'required',
             'posted_by' => 'required',
             'body' => 'required',
+            'published' => 'nullable|boolean',
         ]);
-        Log::debug($data['body']);
         $post->fill($data);
         $post->save();
         return redirect()->route('cms.posts.index');
+    }
+
+    public function listImgs()
+    {
+        $imgs = [];
+        foreach(BlogPost::files() as $path)
+            $imgs[] =
+                [
+                    'title' => basename($path),
+                    'value' => Storage::disk('cms')->url($path),
+                ];
+        return response()->json($imgs, 200);
+    }
+    public function upload(Request $request)
+    {
+        $request->validate(['file' => 'required|image']);
+        $img = $request->file('file');
+        $path = BlogPost::uploadFile($img);
+        return response()->json(['location' => $path], 200);
     }
 }
