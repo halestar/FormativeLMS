@@ -1,5 +1,7 @@
 .env
 .env.production
 /vendor/
-/storage/logs/laravel.log
+/storage/logs/
+/storage/app/public/
+/storage/tmp/
 /node_modules/
