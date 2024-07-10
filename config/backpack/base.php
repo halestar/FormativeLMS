@@ -161,7 +161,7 @@ return [
     // of your project and it's used throughout all Backpack packages.
     //
     // You can rename this disk here. Default: root
-    'root_disk_name' => 'root',
+    'root_disk_name' => 'backpack',
 
     /*
     |--------------------------------------------------------------------------

@@ -15,7 +15,7 @@ class Ethnicity extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'ethnicities';
+    protected $table = 'crud_ethnicities';
     // protected $primaryKey = 'id';
     public $timestamps = false;
     protected $guarded = ['id'];

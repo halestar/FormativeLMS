@@ -34,11 +34,7 @@ class BlogPost extends Model
 
     public static function uploadFile(UploadedFile $file): string
     {
-        $path = config('lms.google.cms_storage_path') . static::$objPrefix . "/" . $file->getClientOriginalName();
-        $obj = GoogleFileUpload::upload($file, $path);
-        $path = Storage::disk('cms')->url(static::$objPrefix . "/" . $file->getClientOriginalName());
-        //$path = Storage::putFileAs(static::$objPrefix, $file, $file->getClientOriginalName(), ['disk' => "cms"]);
-        //$path = $file->storeAs(static::$objPrefix, $file->getClientOriginalName(), ['disk' => "cms"]);
-        return $path;
+        $path = $file->storeAs(static::$objPrefix, $file->getClientOriginalName(), ['disk' => "cms"]);
+        return Storage::disk('cms')->url($path);
     }
 }

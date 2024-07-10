@@ -79,8 +79,7 @@ class BlogPostController extends Controller
     public function upload(Request $request)
     {
         $request->validate(['file' => 'required|image']);
-        $img = $request->file('file');
-        $path = BlogPost::uploadFile($img);
+        $path = BlogPost::uploadFile($request->file('file'));
         return response()->json(['location' => $path], 200);
     }
 }

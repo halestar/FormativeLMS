@@ -57,16 +57,29 @@ return [
         ],
 
         'cms' => [
-            'driver' => 'gcs',
-            'key_file_path' => env('GOOGLE_SECRETS_FILE', null), // optional: /path/to/service-account.json
-            'project_id' => env('GOOGLE_CLOUD_PROJECT_ID', ''), // optional: is included in key file
-            'bucket' => env('GOOGLE_CLOUD_STORAGE_BUCKET', ''),
-            'path_prefix' => env('GOOGLE_CLOUD_CMS_STORAGE_PREFIX', 'cms/'), // optional: /default/path/to/apply/in/bucket
-            'visibility' => 'public', // optional: public|private
-            'storage_api_uri' => env('GOOGLE_CLOUD_STORAGE_API_URI', null),
-            'api_endpoint' => env('GOOGLE_CLOUD_STORAGE_API_ENDPOINT', null), // set storageClient apiEndpoint
-            'visibility_handler' => null, // optional: set to \League\Flysystem\GoogleCloudStorage\UniformBucketLevelAccessVisibility::class to enable uniform bucket level access
-            'metadata' => ['cacheControl' => 'public,max-age=86400'], // optional: default metadata
+            'driver' => 's3',
+            'key' => env('S3_ACCESS_KEY'),
+            'secret' => env('S3_SECRET'),
+            'region' => env('S3_REGION'),
+            'bucket' => env('S3_BUCKET'),
+            'url' => env('S3_ENDPOINT'),
+            'endpoint' => env('S3_ENDPOINT', "https://storage.googleapis.com"),
+            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+            'throw' => false,
+            'root' => 'cms/'
+        ],
+
+        'backpack' => [
+            'driver' => 's3',
+            'key' => env('S3_ACCESS_KEY'),
+            'secret' => env('S3_SECRET'),
+            'region' => env('S3_REGION'),
+            'bucket' => env('S3_BUCKET'),
+            'url' => env('S3_ENDPOINT'),
+            'endpoint' => env('S3_ENDPOINT', "https://storage.googleapis.com"),
+            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+            'throw' => false,
+            'root' => 'backpack/'
         ],
 
     ],
