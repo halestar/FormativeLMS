@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b53c4fa0c713b744518b2ab52b9d6ab",
+    "content-hash": "98cc86af05e8289393a7712863233c68",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1198,6 +1198,104 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "halestar/dicms-blogger",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/halestar/DiCmsBlogger.git",
+                "reference": "2bd16b2fa650670e6b3748177169568289e3a4f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/halestar/DiCmsBlogger/zipball/2bd16b2fa650670e6b3748177169568289e3a4f8",
+                "reference": "2bd16b2fa650670e6b3748177169568289e3a4f8",
+                "shasum": ""
+            },
+            "require": {
+                "halestar/laravel-drop-in-cms": "^0.3.0"
+            },
+            "type": "plugin",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "halestar\\DiCmsBlogger\\Providers\\DiCmsBloggerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "halestar\\DiCmsBlogger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "German Kalinec",
+                    "email": "german@kalinec.net"
+                }
+            ],
+            "description": "A plugin to the halestar/laravel-drop-in-cms that adds blogging capabilities to the CMS.",
+            "support": {
+                "issues": "https://github.com/halestar/DiCmsBlogger/issues",
+                "source": "https://github.com/halestar/DiCmsBlogger/tree/0.3.1"
+            },
+            "time": "2024-08-04T19:42:26+00:00"
+        },
+        {
+            "name": "halestar/laravel-drop-in-cms",
+            "version": "0.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/halestar/LaravelDropInCms.git",
+                "reference": "8aca11b92addee2cee8eddc7fb0bb564cfcb06b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/halestar/LaravelDropInCms/zipball/8aca11b92addee2cee8eddc7fb0bb564cfcb06b1",
+                "reference": "8aca11b92addee2cee8eddc7fb0bb564cfcb06b1",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^11.0.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.2"
+            },
+            "type": "add-on",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "halestar\\LaravelDropInCms\\Providers\\CmsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "halestar\\LaravelDropInCms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "German Kalinec",
+                    "email": "german@kalinec.net"
+                }
+            ],
+            "description": "An extremely simple content management system meant to be dropped into existing laravel projects. It makes no assumptions about users and permissions and uses as much as possible from the host's project. It has plugins to add functionality, but at it's hears it is simply meant to build pages. Initial release will also come with a Blogging plugin.",
+            "support": {
+                "issues": "https://github.com/halestar/LaravelDropInCms/issues",
+                "source": "https://github.com/halestar/LaravelDropInCms/tree/0.3.5"
+            },
+            "time": "2024-08-04T19:41:08+00:00"
         },
         {
             "name": "laravel/framework",

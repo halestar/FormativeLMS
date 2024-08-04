@@ -6,6 +6,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "halestar/dicms-blogger": "^0.3.1",
+        "halestar/laravel-drop-in-cms": "*",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "laravel/ui": "^4.5",
