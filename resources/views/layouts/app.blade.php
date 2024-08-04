@@ -15,10 +15,12 @@
     <script src="https://kit.fontawesome.com/d18ee59f88.js" crossorigin="anonymous"></script>
 
     <!-- Stylesheets -->
+    @livewireStyles
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
     @stack('stylesheets')
 
     <!-- Scripts -->
+    @livewireScripts
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ mix('js/lms-tools.js') }}"></script>
     @stack('head_scripts')
@@ -45,12 +47,12 @@
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="adminDD">
                                     @can('crud')
-                                    <a class="dropdown-item" href="/crud">
+                                    <a class="dropdown-item" href="{{ route('crud') }}">
                                         {{ __('system.menu.crud') }}
                                     </a>
                                     @endcan
                                     @can('cms')
-                                    <a class="dropdown-item" href="{{ route('cms.posts.index') }}">
+                                    <a class="dropdown-item" href="/cms">
                                         {{ __('system.menu.cms') }}
                                     </a>
                                     @endcan

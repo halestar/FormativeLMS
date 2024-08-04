@@ -25,15 +25,20 @@ class Person extends Authenticatable
         'password',
         'remember_token',
     ];
-    protected $casts =
-        [
-            'dob' => 'date: m/d/Y',
-            'global_log' => LogItem::class,
-            'email_verified_at' => 'datetime',
-            'password' => 'hashed',
-            'created_at' => 'datetime: m/d/Y h:i A',
-            'updated_at' => 'datetime: m/d/Y h:i A',
-        ];
+
+    protected function casts(): array
+    {
+        return
+            [
+                'dob' => 'date: m/d/Y',
+                'global_log' => LogItem::class,
+                'email_verified_at' => 'datetime',
+                'password' => 'hashed',
+                'created_at' => 'datetime: m/d/Y h:i A',
+                'updated_at' => 'datetime: m/d/Y h:i A',
+            ];
+    }
+
     protected static string $logField = 'global_log';
 
     /**********
@@ -43,8 +48,8 @@ class Person extends Authenticatable
     {
         return Attribute::make
         (
-            get: fn(mixed $value, array $atttributes) =>
-            ($atttributes['nick']?? $atttributes['first']) . " " . $atttributes['last']
+            get: fn(mixed $value, array $attributes) =>
+            ($attributes['nick']?? $attributes['first']) . " " . $attributes['last']
         );
     }
 

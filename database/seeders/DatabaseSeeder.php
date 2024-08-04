@@ -17,9 +17,8 @@ class DatabaseSeeder extends Seeder
             [
                 PermissionSeeder::class,
                 RoleSeeder::class,
+                CrudSeeder::class,
                 PersonSeeder::class,
-                FrontWebSiteSeeder::class,
-                EthnicitySeeder::class,
             ]);
     }
 }

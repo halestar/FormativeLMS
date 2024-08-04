@@ -21,6 +21,8 @@ return Application::configure(basePath: dirname(__DIR__))
                 ->prefix('settings')
                 ->name('settings.')
                 ->group(base_path('routes/settings.php'));
+
+            \halestar\LaravelDropInCms\DiCMS::publicRoutes();
         },
     )
     ->withMiddleware(function (Middleware $middleware) {

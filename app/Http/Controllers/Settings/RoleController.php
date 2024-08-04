@@ -12,6 +12,12 @@ use Spatie\Permission\Models\Role;
 
 class RoleController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     private static function errors(): array
     {
         return [

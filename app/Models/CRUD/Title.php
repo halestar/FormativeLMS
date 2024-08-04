@@ -4,14 +4,14 @@ namespace App\Models\CRUD;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Ethnicity extends CrudItem
+class Title extends CrudItem
 {
 
-    protected $table = 'crud_ethnicities';
+    protected $table = 'crud_titles';
 
     public static function getCrudModel(): string
     {
-        return Ethnicity::class;
+        return Title::class;
     }
 
     public function canDelete(): bool
@@ -21,6 +21,6 @@ class Ethnicity extends CrudItem
 
     public static function getCrudModelName(): string
     {
-        return __('crud.ethnicities');
+        return __('crud.title');
     }
 }

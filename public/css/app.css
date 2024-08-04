@@ -14311,3 +14311,7 @@ textarea.form-control-lg {
 .no-resize {
   resize: none;
 }
+
+.show-as-action {
+  cursor: pointer;
+}
