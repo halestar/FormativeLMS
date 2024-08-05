@@ -3,11 +3,16 @@
 namespace App\Models\People;
 
 use App\Casts\LogItem;
+use App\Models\CRUD\Ethnicity;
+use App\Models\CRUD\Gender;
+use App\Models\CRUD\Honors;
+use App\Models\CRUD\Pronouns;
+use App\Models\CRUD\Suffix;
+use App\Models\CRUD\Title;
 use App\Traits\HasLogs;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Spatie\Permission\Traits\HasRoles;
@@ -20,7 +25,26 @@ class Person extends Authenticatable
     protected $table = "people";
     protected $primaryKey = "id";
     public $incrementing = true;
-    protected $guarded = ['id', 'global_log'];
+    protected $fillable =
+        [
+            'first',
+            'middle',
+            'last',
+            'nick',
+            'email',
+            'dob',
+            'ethnicity_id',
+            'title_id',
+            'suffix_id',
+            'honors_id',
+            'gender_id',
+            'pronoun_id',
+            'occupation',
+            'job_title',
+            'work_company',
+            'salutation',
+            'family_salutation'
+        ];
     protected $hidden = [
         'password',
         'remember_token',
@@ -30,7 +54,7 @@ class Person extends Authenticatable
     {
         return
             [
-                'dob' => 'date: m/d/Y',
+                'dob' => 'date: m/d/y',
                 'global_log' => LogItem::class,
                 'email_verified_at' => 'datetime',
                 'password' => 'hashed',
@@ -56,6 +80,33 @@ class Person extends Authenticatable
     /**********
      * Relationships
      */
+    public function ethnicity(): BelongsTo
+    {
+        return $this->belongsTo(Ethnicity::class, 'ethnicity_id');
+    }
 
+    public function title(): BelongsTo
+    {
+        return $this->belongsTo(Title::class, 'title_id');
+    }
 
+    public function suffix(): BelongsTo
+    {
+        return $this->belongsTo(Suffix::class, 'suffix_id');
+    }
+
+    public function honors(): BelongsTo
+    {
+        return $this->belongsTo(Honors::class, 'honors_id');
+    }
+
+    public function gender(): BelongsTo
+    {
+        return $this->belongsTo(Gender::class, 'gender_id');
+    }
+
+    public function pronouns(): BelongsTo
+    {
+        return $this->belongsTo(Pronouns::class, 'pronoun_id');
+    }
 }

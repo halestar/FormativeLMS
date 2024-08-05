@@ -64,6 +64,9 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDD">
+                                    <a class="dropdown-item" href="{{ route('people.show', ['person' => Auth::user()->id]) }}">
+                                        {{ __('people.profile.mine') }}
+                                    </a>
                                     @can('settings.permissions.view')
                                     <a class="dropdown-item" href="{{ route('settings.permissions.index') }}">
                                         {{ __('settings.permissions') }}
@@ -88,10 +91,9 @@
                         @endauth
                     </ul>
                     @auth
-                    <form class="d-flex">
-                        <input class="form-control me-sm-2" type="search" placeholder="Search">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                    <div>
+                        <button type="button" class="btn btn-success rounded rounded-5" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
                     @else
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
@@ -99,12 +101,6 @@
                         @if (Route::has('login'))
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
-                            </li>
-                        @endif
-
-                        @if (Route::has('register'))
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                             </li>
                         @endif
                     </ul>
@@ -161,6 +157,12 @@
             @endsession
         </div>
     </div>
+    <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="#search" aria-hidden="true">
+            <livewire:search />
+    </div>
+    <script>
+        $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() })
+    </script>
     @stack('scripts')
 </body>
 </html>

@@ -2,6 +2,9 @@
 
 namespace Database\Factories\People;
 
+use App\Models\CRUD\Ethnicity;
+use App\Models\CRUD\Gender;
+use App\Models\CRUD\Pronouns;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -29,6 +32,9 @@ class PersonFactory extends Factory
             'nick' => null,
             'dob' => fake()->dateTimeBetween('-18 years', 'now'),
             'password' => null,
+            'ethnicity_id' => Ethnicity::inRandomOrder()->first()->id,
+            'gender_id' => Gender::inRandomOrder()->first()->id,
+            'pronoun_id' => Pronouns::inRandomOrder()->first()->id,
             'email_verified_at' => now(),
             'remember_token' => Str::random(10),
         ];

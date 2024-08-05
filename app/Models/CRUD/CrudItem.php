@@ -4,6 +4,7 @@ namespace App\Models\CRUD;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Log;
 
 abstract class CrudItem extends Model
 {
@@ -58,4 +59,21 @@ abstract class CrudItem extends Model
     abstract public static function getCrudModel(): string;
     abstract public static function getCrudModelName(): string;
     abstract public function canDelete(): bool;
+    public function __toString():string
+    {
+        return $this->name;
+    }
+
+    public static function htmlOptions(CrudItem $selected = null): string
+    {
+        $html = "";
+        foreach(self::crudItems() as $crudItem)
+        {
+            $html .= '<option value="' . $crudItem->crudKey() . '"';
+            if($selected && $selected->crudKey() === $crudItem->crudKey())
+                $html .= ' selected';
+            $html .= '>' . $crudItem->crudName() . '</option>';
+        }
+        return $html;
+    }
 }

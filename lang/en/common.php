@@ -17,4 +17,5 @@ return [
     'external_user' => 'External User',
     'cancel' => 'Cancel',
     'success' => 'Success',
+    'search' => 'Search',
 ];

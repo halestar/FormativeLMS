@@ -17,8 +17,11 @@ class LogItem implements CastsAttributes
     {
         $logItems =  json_decode($value, true);
         $logs = [];
-        foreach($logItems as $log)
-            $logs[] = new \App\Models\Utilities\LogItem($log);
+        if($logItems)
+        {
+            foreach ($logItems as $log)
+                $logs[] = new \App\Models\Utilities\LogItem($log);
+        }
         return $logs;
     }
 

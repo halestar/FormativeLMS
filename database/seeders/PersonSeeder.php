@@ -2,6 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\CRUD\Ethnicity;
+use App\Models\CRUD\Gender;
+use App\Models\CRUD\Pronouns;
+use App\Models\CRUD\Title;
 use App\Models\People\InternalUser;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
@@ -32,6 +36,14 @@ class PersonSeeder extends Seeder
                 'password' => Hash::make(config('lms.superadmin_password')),
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
+                'ethnicity_id' => Ethnicity::where('name', 'LIKE', 'Hispanic or Latino')->first()->id,
+                'title_id' => Title::where('name', 'LIKE', 'Mr.')->first()->id,
+                'gender_id' => Gender::where('name', 'LIKE', 'Male')->first()->id,
+                'pronoun_id' => Pronouns::where('name', 'LIKE', 'He/Him')->first()->id,
+                'occupation' => 'IT',
+                'job_title' => 'Director of Technology',
+                'work_company' => 'New Roads School',
+                'portrait_url' => 'https://storage.googleapis.com/deep-citizen-425500-e0.appspot.com/cms/xTaR4dVm43h9gJT4sn7v9zjcp9vTnYKkNHIhVXSr.jpg',
             ]);
         $admin->assignRole(SchoolRoles::$ADMIN);
         $admin->assignRole(SchoolRoles::$STAFF);
