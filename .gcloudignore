@@ -1,6 +1,7 @@
 .env
 .env.production
 /vendor/
+/storage/debugbar/
 /storage/logs/
 /storage/app/public/
 /storage/tmp/

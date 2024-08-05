@@ -33,5 +33,7 @@ class FreshDb extends Command
         //resfresh the db
         $this->call('migrate:fresh', ['--seed' => true]);
         $cmsSave->restore($cmsData);
+        $this->call('optimize:clear');
+        $this->call('optimize');
     }
 }
