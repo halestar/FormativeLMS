@@ -20,6 +20,7 @@ app.yaml
 cloudbuild.yaml
 cron.yaml
 dispatch.yaml
+googleCORS.json
 /.fleet
 /.idea
 /.vscode

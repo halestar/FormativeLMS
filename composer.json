@@ -33,7 +33,9 @@
             "Database\\Seeders\\": "database/seeders/",
             "halestar\\DiCmsBlogger\\": "packages/halestar/DiCmsBlogger/src",
             "halestar\\LaravelDropInCms\\": "packages/halestar/LaravelDropInCms/src"
-        }
+        },
+        "exclude-from-classmap": ["vendor/livewire/livewire/src/Features/SupportFileUploads/WithFileUploads.php", "vendor/livewire/livewire/src/Features/SupportFileUploads/GenerateSignedUploadUrl.php"],
+        "files": ["app/Overrides/WithFileUploads.php", "app/Overrides/GenerateSignedUploadUrl.php"]
     },
     "autoload-dev": {
         "psr-4": {
