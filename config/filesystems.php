@@ -74,7 +74,7 @@ return [
             'root' => 'cms/'
         ],
 
-        'google' => [
+        'livewire' => [
             'driver' => 's3',
             'key' => env('S3_ACCESS_KEY'),
             'secret' => env('S3_SECRET'),
@@ -84,7 +84,7 @@ return [
             'endpoint' => env('S3_ENDPOINT', "https://storage.googleapis.com"),
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
             'throw' => false,
-            'root' => 'backpack/'
+            'root' => 'livewire/'
         ],
 
     ],

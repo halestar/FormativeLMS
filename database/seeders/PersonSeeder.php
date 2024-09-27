@@ -43,7 +43,7 @@ class PersonSeeder extends Seeder
                 'occupation' => 'IT',
                 'job_title' => 'Director of Technology',
                 'work_company' => 'New Roads School',
-                'portrait_url' => 'https://storage.googleapis.com/deep-citizen-425500-e0.appspot.com/cms/xTaR4dVm43h9gJT4sn7v9zjcp9vTnYKkNHIhVXSr.jpg',
+                'portrait_url' => 'https://storage.googleapis.com/deep-citizen-425500-e0.appspot.com/cms/3366701.png',
             ]);
         $admin->assignRole(SchoolRoles::$ADMIN);
         $admin->assignRole(SchoolRoles::$EMPLOYEE);
