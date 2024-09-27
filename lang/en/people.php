@@ -39,4 +39,39 @@ return
     'profile.fields.salutation' => 'Salutation',
     'profile.fields.family_salutation' => 'Family Salutation',
 
+    'profile.links.groups.settings' => 'Personal Settings',
+    'profile.links.settings.personal_view_policy' => 'Privacy Settings',
+
+
+    'policies.employee' => 'Employee Policy',
+    'policies.student' => 'Student Policy',
+    'policies.parent' => 'Parent Policy',
+
+    'policies.view.viewable_policy' => 'Viewable Policy',
+    'policies.view.viewable_policy.new' => 'New Viewable Policy',
+    'policies.view.viewable_policy.update' => 'Update Viewable Policy',
+    'policies.view.viewable_policy.name' => 'Viewable Policy Name',
+    'policies.view.viewable_policy.name.error' => 'Please enter a policy name. Max 255 characters',
+    'policies.view.viewable_policy.base_role' => 'Viewable Policy Base Role',
+    'policies.view.viewable_policy.base_role.error' => 'Select a valid option for the base role.',
+    'policies.view.viewable_policy.role' => 'Viewable Policy Role',
+    'policies.view.viewable_policy.role.error' => 'Select a valid option for the policy role.',
+    'policies.view.created' => 'View Policy Created Successfully',
+    'policies.view.updated' => 'View Policy Updated Successfully',
+    'policies.view.deleted' => 'View Policy Deleted Successfully',
+    'policies.view.deleted.confirm' => 'Are you sure you wish to delete this View Policy?',
+
+    'policies.view.fields' => 'Fields',
+    'policies.view.enforce' => 'Enforceable',
+    'policies.view.viewable' => 'Viewable',
+    'policies.view.editable' => 'Editable',
+    'policies.view.viewable.by' => 'Being Viewed By',
+    'policies.view.self' => 'By Self',
+    'policies.view.employee' => 'By Employees',
+    'policies.view.student' => 'By Students',
+    'policies.view.parent' => 'By Parents',
+    'policies.view.show.question' => 'Show?',
+
+
+
 ];

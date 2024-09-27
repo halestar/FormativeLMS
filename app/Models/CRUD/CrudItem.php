@@ -2,10 +2,13 @@
 
 namespace App\Models\CRUD;
 
+use App\Models\Scopes\OrderByOrderScope;
+use Illuminate\Database\Eloquent\Attributes\ScopedBy;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Log;
 
+#[ScopedBy([OrderByOrderScope::class])]
 abstract class CrudItem extends Model
 {
     public $timestamps = false;
@@ -44,6 +47,11 @@ abstract class CrudItem extends Model
         return self::orderBy('order')->get();
     }
 
+    public function scopeViewable(Builder $query): void
+    {
+        $query->whereNot('id', ViewableGroup::HIDDEN);
+    }
+
     public static function crudModels(): array
     {
         return
@@ -53,7 +61,8 @@ abstract class CrudItem extends Model
             Suffix::class,
             Honors::class,
             Gender::class,
-            Pronouns::class
+            Pronouns::class,
+            ViewableGroup::class,
         ];
     }
     abstract public static function getCrudModel(): string;

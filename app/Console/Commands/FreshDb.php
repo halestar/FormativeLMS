@@ -13,7 +13,7 @@ class FreshDb extends Command
      *
      * @var string
      */
-    protected $signature = 'fablms:fresh-db';
+    protected $signature = 'fablms:fresh {--no-optimize}';
 
     /**
      * The console command description.
@@ -33,7 +33,10 @@ class FreshDb extends Command
         //resfresh the db
         $this->call('migrate:fresh', ['--seed' => true]);
         $cmsSave->restore($cmsData);
-        $this->call('optimize:clear');
-        $this->call('optimize');
+        if(!$this->option('no-optimize'))
+        {
+            $this->call('optimize:clear');
+            $this->call('optimize');
+        }
     }
 }

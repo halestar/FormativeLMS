@@ -53,7 +53,7 @@ class PersonFactory extends Factory
                 ->afterCreating(function (Person $person)
                 {
                     $person->assignRole(SchoolRoles::$FACULTY);
-                    $person->assignRole(SchoolRoles::$INTERNAL_USER);
+                    $person->assignRole(SchoolRoles::$EMPLOYEE);
                 });
     }
 
@@ -69,8 +69,7 @@ class PersonFactory extends Factory
                     })
                 ->afterCreating(function (Person $person)
                 {
-                    $person->assignRole(Role::findById(SchoolRoles::$STUDENT));
-                    $person->assignRole(SchoolRoles::$INTERNAL_USER);
+                    $person->assignRole(SchoolRoles::$STUDENT);
                 });
     }
 
@@ -86,8 +85,8 @@ class PersonFactory extends Factory
                         })
                     ->afterCreating(function (Person $person)
                     {
-                        $person->assignRole(Role::findById(SchoolRoles::$STAFF));
-                        $person->assignRole(SchoolRoles::$INTERNAL_USER);
+                        $person->assignRole(SchoolRoles::$STAFF);
+                        $person->assignRole(SchoolRoles::$EMPLOYEE);
                     });
     }
 
@@ -103,8 +102,7 @@ class PersonFactory extends Factory
                         })
                     ->afterCreating(function (Person $person)
                     {
-                        $person->assignRole(Role::findById(SchoolRoles::$PARENT));
-                        $person->assignRole(SchoolRoles::$EXTERNAL_USER);
+                        $person->assignRole(SchoolRoles::$PARENT);
                     });
     }
 
@@ -120,8 +118,8 @@ class PersonFactory extends Factory
                     })
                 ->afterCreating(function (Person $person)
                 {
-                    $person->assignRole(Role::findById(SchoolRoles::$COACH));
-                    $person->assignRole(SchoolRoles::$INTERNAL_USER);
+                    $person->assignRole(SchoolRoles::$COACH);
+                    $person->assignRole(SchoolRoles::$EMPLOYEE);
                 });
     }
 

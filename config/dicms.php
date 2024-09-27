@@ -3,11 +3,12 @@ return
 [
     'table_prefix' => env('DICMS_TABLE_PREFIX', 'dicms_'),
     'media_upload_disk' => env('DICMS_MEDIA_UPLOAD_DISK', 'cms'),
+    'thumb_folder' => env('DICMS_IMAGE_THUMB_FOLDER', '.thmb'),
+    'thumb_max_height' => env('DICMS_IMAGE_THUMB_MAX_HEIGHT', 64),
+    'img_max_height' => env('DICMS_IMAGE_MAX_HEIGHT', 768),
     'datetime_format' => env('DICMS_DT_FORMAT', 'm/d/Y h:i A'),
     'date_format' => env('DICMS_DATE_FORMAT', 'm/d/Y'),
-    'back_to_url' => env('DICMS_BACK_TO_URL', '/home'),
-    'editor_config' => env('DICMS_EDITOR_CONFIG', 'dicms::layouts.editor'),
-    'img_mimes_allowed' => [ 'jpeg', 'png', 'gif', 'bmp', 'webp' ],
+    'back_to_url' => env('DICMS_BACK_TO_URL', '/'),
     'settings_class' => env('DICMS_SETTINGS_CLASS', \halestar\LaravelDropInCms\Models\DiCmsDbSetting::class),
 
     'policies' =>

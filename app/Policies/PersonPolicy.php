@@ -3,7 +3,6 @@
 namespace App\Policies;
 
 use App\Models\People\Person;
-use Illuminate\Auth\Access\Response;
 
 class PersonPolicy
 {
@@ -20,9 +19,7 @@ class PersonPolicy
      */
     public function view(Person $user, Person $person): bool
     {
-        if($user->id == $person->id)
-            return true;
-        return false;
+        return true;
     }
 
     /**
@@ -30,23 +27,17 @@ class PersonPolicy
      */
     public function create(Person $user): bool
     {
-        return true;
+
+        return $user->can('people.create');
     }
     /**
      * Determine whether the user can edit a profile
      */
-    public function edit(Person $user): bool
+    public function edit(Person $user, Person $person): bool
     {
-        return true;
-    }
-
-
-    /**
-     * Determine whether the user can update the model's basic information
-     */
-    public function updateBasic(Person $user, Person $person): bool
-    {
-        return true;
+        if($user->id == $person->id)
+            return true;
+        return $user->can('people.edit');
     }
 
     /**
@@ -54,7 +45,7 @@ class PersonPolicy
      */
     public function delete(Person $user, Person $person): bool
     {
-        return true;
+        return $user->can('people.delete');
     }
 
     /**
@@ -62,7 +53,7 @@ class PersonPolicy
      */
     public function restore(Person $user, Person $person): bool
     {
-        return true;
+        return $user->can('people.delete');
     }
 
     /**
@@ -70,6 +61,6 @@ class PersonPolicy
      */
     public function forceDelete(Person $user, Person $person): bool
     {
-        return true;
+        return $user->can('people.delete');
     }
 }

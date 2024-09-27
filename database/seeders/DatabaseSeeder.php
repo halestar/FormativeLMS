@@ -19,6 +19,8 @@ class DatabaseSeeder extends Seeder
                 RoleSeeder::class,
                 CrudSeeder::class,
                 PersonSeeder::class,
+                ViewableFieldsSeeder::class,
+                ViewPolicySeeder::class,
             ]);
     }
 }

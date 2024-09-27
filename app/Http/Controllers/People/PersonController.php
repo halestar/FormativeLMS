@@ -28,42 +28,26 @@ class PersonController extends Controller
         $breadcrumb = [ __('people.profile.view') => "#" ];
         if(Auth::user()->id == $person->id)
             $breadcrumb = [ __('people.profile.mine') => "#" ];
-        return view('people.show', compact('person', 'breadcrumb'));
+        $self = Auth::user();
+        $isSelf = $self->id == $person->id;
+        return view('people.show', compact('person', 'breadcrumb', 'self', 'isSelf'));
     }
 
     public function edit(Person $person)
     {
         Gate::authorize('edit', $person);
         $breadcrumb = [ __('people.profile.view') => route('people.show', ['person' => $person->id]), __('people.profile.edit') => "#" ];
-        if(Auth::user()->id == $person->id)
+        $self = Auth::user();
+        $isSelf = $person->id == $self->id;
+        if($isSelf)
             $breadcrumb = [ __('people.profile.mine') => route('people.show', ['person' => $person->id]), __('people.profile.edit') => "#" ];
-        return view('people.edit', compact('person', 'breadcrumb'));
+        return view('people.edit', compact('person', 'breadcrumb', 'self', 'isSelf'));
     }
 
     public function updateBasic(Request $request, Person $person)
     {
-        Gate::authorize('updateBasic', $person);
-        $data = $request->validate(
-            [
-                'first' => 'nullable|max:255',
-                'middle' => 'nullable|max:255',
-                'last' => 'required|max:255',
-                'nick' => 'nullable|max:255',
-                'email' => 'nullable|email|max:255',
-                'dob' => 'nullable|date',
-                'ethnicity_id' => 'nullable|exists:crud_ethnicities,id',
-                'title_id' => 'nullable|exists:crud_titles,id',
-                'suffix_id' => 'nullable|exists:crud_suffixes,id',
-                'honors_id' => 'nullable|exists:crud_honors,id',
-                'gender_id' => 'nullable|exists:crud_gender,id',
-                'pronoun_id' => 'nullable|exists:crud_pronouns,id',
-                'occupation' => 'nullable|max:255',
-                'job_title' => 'nullable|max:255',
-                'work_company' => 'nullable|max:255',
-                'salutation' => 'nullable|max:255',
-                'family_salutation' => 'nullable|max:255',
-            ], $this->errors());
-        $person->fill($data);
+        Gate::authorize('edit', $person);
+        $person->fill($request->all());
         $person->save();
         return redirect(route('people.show', ['person' => $person->id]));
     }

@@ -6,4 +6,5 @@ return
         'menu.cms' => 'CMS',
         'menu.crud' => 'CRUD',
         'menu.home' => 'Home',
+        'menu.view_policies' => 'Viewing Policies',
     ];

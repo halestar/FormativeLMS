@@ -15,6 +15,7 @@ class RoleSeeder extends Seeder
     public function run(): void
     {
         Role::create(['name' => SchoolRoles::$ADMIN])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$ADMIN));
+        Role::create(['name' => SchoolRoles::$EMPLOYEE])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$EMPLOYEE));
         Role::create(['name' => SchoolRoles::$STUDENT])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$STUDENT));
         Role::create(['name' => SchoolRoles::$FACULTY])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$FACULTY));
         Role::create(['name' => SchoolRoles::$STAFF])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$STAFF));

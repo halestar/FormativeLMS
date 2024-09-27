@@ -29,17 +29,18 @@ class PermissionSeeder extends Seeder
                 ],
             'Personal Information' =>
                 [
-                    ['name' => 'people.view', 'description' => 'View all people\'s profiles'],
-                    ['name' => 'people.edit', 'description' => 'Edit person\'s basic information only'],
+                    ['name' => 'people.view', 'description' => 'This permission allows full view into a person\'s profile'],
+                    ['name' => 'people.edit', 'description' => 'This permission allows full edit of a person\'s information'],
                     ['name' => 'people.create', 'description' => 'Create a new Person'],
                     ['name' => 'people.delete', 'description' => 'Soft Delete a person'],
                     ['name' => 'people.merge', 'description' => 'Merge two person records into one.'],
                     ['name' => 'people.search', 'description' => 'Search for people in the system'],
+                    ['name' => 'people.view.policies', 'description' => 'Admin access to View Policies'],
                 ],
             'System' =>
                 [
                     ['name' => 'cms', 'description' => 'Access to the site\'s CSM'],
-                    ['name' => 'crud', 'description' => 'Access to the dmin dashboard for CRUD editors'],
+                    ['name' => 'crud', 'description' => 'Access to the admin dashboard for CRUD editors'],
                 ],
         ];
     /**

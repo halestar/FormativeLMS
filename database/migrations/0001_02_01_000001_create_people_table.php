@@ -44,6 +44,9 @@ return new class extends Migration
             $table->string('thumbnail_url')->nullable();
 
             $table->json('global_log')->nullable();
+            $table->json('prefs')->nullable();
+
+
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
             $table->rememberToken();

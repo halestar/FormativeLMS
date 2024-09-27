@@ -7,6 +7,7 @@ use Spatie\Permission\Models\Role;
 class SchoolRoles extends Role
 {
     public static string $ADMIN = "Super Admin";
+    public static string $EMPLOYEE = "Employee";
     public static string $STUDENT = "Student";
     public static string $FACULTY = "Faculty";
     public static string $STAFF = "Staff";
@@ -22,16 +23,17 @@ class SchoolRoles extends Role
 
     public static array $defaultPermissions =
         [
-            "Student" => ['people.view', 'people.search'],
-            "Faculty" => ['people.view', 'people.search'],
-            "Staff" => ['people.view', 'people.search','settings.permissions.view', 'settings.roles.view','crud'],
-            "Coach" => ['people.view', 'people.search'],
-            "Parent" => ['people.view', 'people.search'],
-            "Old Student" => ['people.view', 'people.search'],
-            "Old Faculty" => ['people.view', 'people.search'],
-            "Old Staff" => ['people.view', 'people.search'],
-            "Old Coach" => ['people.view', 'people.search'],
-            "Old Parent" => ['people.view', 'people.search'],
+            "Student" => [],
+            "Employee" => [],
+            "Faculty" => [],
+            "Staff" => ['settings.permissions.view', 'settings.roles.view','crud'],
+            "Coach" => [],
+            "Parent" => [],
+            "Old Student" => [],
+            "Old Faculty" => [],
+            "Old Staff" => [],
+            "Old Coach" => [],
+            "Old Parent" => [],
         ];
 
     public static function getDefaultPermissions(string $role): array
@@ -44,6 +46,7 @@ class SchoolRoles extends Role
         return
         [
             SchoolRoles::$ADMIN,
+            SchoolRoles::$EMPLOYEE,
             SchoolRoles::$STUDENT,
             SchoolRoles::$FACULTY,
             SchoolRoles::$STAFF,
@@ -57,5 +60,25 @@ class SchoolRoles extends Role
             SchoolRoles::$INTERNAL_USER,
             SchoolRoles::$EXTERNAL_USER,
         ];
+    }
+
+    public static function EmployeeRole(): SchoolRoles
+    {
+        return SchoolRoles::where('name', '=', self::$EMPLOYEE)->first();
+    }
+
+    public static function StudentRole(): SchoolRoles
+    {
+        return SchoolRoles::where('name', '=', self::$STUDENT)->first();
+    }
+
+    public static function ParentRole(): SchoolRoles
+    {
+        return SchoolRoles::where('name', '=', self::$PARENT)->first();
+    }
+
+    public static function setDefaultPermissions(array $defaultPermissions): void
+    {
+        self::$defaultPermissions = $defaultPermissions;
     }
 }

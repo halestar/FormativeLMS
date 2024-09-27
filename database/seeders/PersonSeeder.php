@@ -46,6 +46,7 @@ class PersonSeeder extends Seeder
                 'portrait_url' => 'https://storage.googleapis.com/deep-citizen-425500-e0.appspot.com/cms/xTaR4dVm43h9gJT4sn7v9zjcp9vTnYKkNHIhVXSr.jpg',
             ]);
         $admin->assignRole(SchoolRoles::$ADMIN);
+        $admin->assignRole(SchoolRoles::$EMPLOYEE);
         $admin->assignRole(SchoolRoles::$STAFF);
 
         //now we make some other fake people for testing.
@@ -61,6 +62,7 @@ class PersonSeeder extends Seeder
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
             ]);
+        $staff->assignRole(SchoolRoles::$EMPLOYEE);
         $staff->assignRole(SchoolRoles::$STAFF);
         $faculty = Person::create(
             [
@@ -75,6 +77,7 @@ class PersonSeeder extends Seeder
                 'remember_token' => Str::random(10),
             ]);
         $faculty->assignRole(SchoolRoles::$FACULTY);
+        $staff->assignRole(SchoolRoles::$EMPLOYEE);
         $student = Person::create(
             [
                 'first' => "Student",
@@ -114,12 +117,13 @@ class PersonSeeder extends Seeder
                 'remember_token' => Str::random(10),
             ]);
         $coach->assignRole(SchoolRoles::$COACH);
-        //now we do some people. for a school of 100, we will do 20 faculty, 7 staff, 2 coaches and 70 students, with 100 parents.
+        $staff->assignRole(SchoolRoles::$EMPLOYEE);
+        //now we do some people. for a school of 50, we will do 10 faculty, 4 staff, 1 coaches and 35 students, with 50 parents.
         //faculty
         try
         {
             Person::factory()
-                ->count(20)
+                ->count(10)
                 ->faculty()
                 ->create();
         }
@@ -131,7 +135,7 @@ class PersonSeeder extends Seeder
         try
         {
             Person::factory()
-                ->count(8)
+                ->count(4)
                 ->staff()
                 ->create();
         }
@@ -140,7 +144,7 @@ class PersonSeeder extends Seeder
         try
         {
             Person::factory()
-                ->count(2)
+                ->count(1)
                 ->coach()
                 ->create();
         }
@@ -149,7 +153,7 @@ class PersonSeeder extends Seeder
         try
         {
             Person::factory()
-                ->count(70)
+                ->count(35)
                 ->student()
                 ->create();
         }
@@ -158,7 +162,7 @@ class PersonSeeder extends Seeder
         try
         {
             Person::factory()
-                ->count(100)
+                ->count(50)
                 ->parents()
                 ->create();
         }

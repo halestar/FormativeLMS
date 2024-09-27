@@ -56,6 +56,11 @@
                                         {{ __('system.menu.cms') }}
                                     </a>
                                     @endcan
+                                    @can('people.view.policies')
+                                        <a class="dropdown-item" href="{{ route('people.policies.view.index') }}">
+                                            {{ __('system.menu.view_policies') }}
+                                        </a>
+                                    @endcan
                                 </div>
                             </li>
                             <li class="nav-item dropdown">

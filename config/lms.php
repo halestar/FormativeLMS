@@ -12,4 +12,7 @@ return [
             'secrets_location' => env('GOOGLE_SECRETS_FILE', storage_path('app/google_cloud.json')),
             'cms_storage_path' => env('GOOGLE_CLOUD_CMS_STORAGE_PREFIX', 'cms/'),
         ],
+    'viewable_classes' => [],
+    'date_format' => env('DATE_FORMAT', 'm/d/Y'),
+    'datetime_format' => env('DATETIME_FORMAT', 'm/d/Y h:i A'),
 ];
