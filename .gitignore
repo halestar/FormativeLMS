@@ -21,6 +21,7 @@ cloudbuild.yaml
 cron.yaml
 dispatch.yaml
 googleCORS.json
+php.ini
 /.fleet
 /.idea
 /.vscode

@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create(config('dicms.table_prefix') . 'blog_posts', function (Blueprint $table) {
             $table->id();
+            $table->bigInteger('blog_id')->unsigned();
+            $table->foreign('blog_id')
+                ->references('id')
+                ->on(config('dicms.table_prefix') . 'blogs')
+                ->onDelete('cascade');
             $table->string('title');
             $table->string('subtitle')->nullable();
             $table->string('slug');
