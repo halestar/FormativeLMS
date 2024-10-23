@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec4b538201a793dd9ad923d2ac4d8056",
+    "content-hash": "f1e6caa929b4820dcb33d1f416883a6c",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1208,16 +1208,16 @@
         },
         {
             "name": "halestar/dicms-blogger",
-            "version": "0.5.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/halestar/DiCmsBlogger.git",
-                "reference": "086b5b24a0785f862fe62a27a01086157d22a904"
+                "reference": "def22007427dc7f8b3cef3af13039cdca72f1259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/halestar/DiCmsBlogger/zipball/086b5b24a0785f862fe62a27a01086157d22a904",
-                "reference": "086b5b24a0785f862fe62a27a01086157d22a904",
+                "url": "https://api.github.com/repos/halestar/DiCmsBlogger/zipball/def22007427dc7f8b3cef3af13039cdca72f1259",
+                "reference": "def22007427dc7f8b3cef3af13039cdca72f1259",
                 "shasum": ""
             },
             "require": {
@@ -1250,22 +1250,22 @@
             "description": "A plugin to the halestar/laravel-drop-in-cms that adds blogging capabilities to the CMS.",
             "support": {
                 "issues": "https://github.com/halestar/DiCmsBlogger/issues",
-                "source": "https://github.com/halestar/DiCmsBlogger/tree/0.5.0"
+                "source": "https://github.com/halestar/DiCmsBlogger/tree/0.5.1"
             },
-            "time": "2024-10-23T22:33:20+00:00"
+            "time": "2024-10-23T23:13:42+00:00"
         },
         {
             "name": "halestar/laravel-drop-in-cms",
-            "version": "0.5.1",
+            "version": "0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/halestar/LaravelDropInCms.git",
-                "reference": "5c886cbe84a37aa230a07b489d91010dce63e061"
+                "reference": "36ce65a9723a1ee90ec25bd35a15f216e759885a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/halestar/LaravelDropInCms/zipball/5c886cbe84a37aa230a07b489d91010dce63e061",
-                "reference": "5c886cbe84a37aa230a07b489d91010dce63e061",
+                "url": "https://api.github.com/repos/halestar/LaravelDropInCms/zipball/36ce65a9723a1ee90ec25bd35a15f216e759885a",
+                "reference": "36ce65a9723a1ee90ec25bd35a15f216e759885a",
                 "shasum": ""
             },
             "require": {
@@ -1304,9 +1304,9 @@
             "description": "An extremely simple content management system meant to be dropped into existing laravel projects. It makes no assumptions about users and permissions and uses as much as possible from the host's project. It has plugins to add functionality, but at it's hears it is simply meant to build pages. Initial release will also come with a Blogging plugin.",
             "support": {
                 "issues": "https://github.com/halestar/LaravelDropInCms/issues",
-                "source": "https://github.com/halestar/LaravelDropInCms/tree/0.5.1"
+                "source": "https://github.com/halestar/LaravelDropInCms/tree/0.5.2"
             },
-            "time": "2024-10-23T22:52:35+00:00"
+            "time": "2024-10-23T23:12:52+00:00"
         },
         {
             "name": "intervention/gif",
