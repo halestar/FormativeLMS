@@ -8,6 +8,7 @@ return
         'suffixes' => "Suffixes Table",
         'gender' => "Genders Table",
         'pronouns' => "Pronouns Table",
+        'relationships' => "Relationships Table",
         'view_categories' => "Profile Categories",
         "now_editing" => "Editing",
         'autosort' => 'Auto Sort',

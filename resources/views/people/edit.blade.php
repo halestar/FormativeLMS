@@ -5,21 +5,26 @@
         <div class="row profile-head-row">
             <div class="col-md-4">
                 <div class="profile-img">
-                    <form>
-                        <img
-                            class="img-fluid img-thumbnail"
-                            @if($person->portrait_url)
-                                src="{{ $person->portrait_url }}"
-                            @else
-                                src='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>'
-                            @endif
-                            alt="{{ __('people.profile.image') }}"
-                        />
-                        <div class="file btn btn-lg btn-primary">
+                    <img
+                        class="img-fluid img-thumbnail"
+                        src="{{ $person->portrait_url }}"
+                        alt="{{ __('people.profile.image') }}"
+                    />
+                    <form id="portrait_form" action="{{ route('people.update.portrait', ['person' => $person->id]) }}" method="POST" enctype="multipart/form-data">
+                        @csrf
+                        <div class="file btn btn-lg btn-dark">
                             {{ __('people.profile.image.update') }}
-                            <input type="file" name="portrait"/>
+                            <input type="file" name="portrait" onchange="$('#portrait_form').submit()" />
                         </div>
                     </form>
+                    @if($person->hasPortrait())
+                    <button
+                        class="remove btn btn-lg btn-danger"
+                        onclick="confirmDelete('{{ __('people.profile.image.remove.confirm') }}', '{{ route('people.delete.portrait', ['person' => $person->id]) }}')"
+                    >
+                        {{ __('people.profile.image.remove') }}
+                    </button>
+                    @endif
                 </div>
             </div>
             <div class="col-md-6">
@@ -27,9 +32,7 @@
                     <h5>
                         {{ $person->name }}
                     </h5>
-                    <h6>
-                        {{ $person->roles->pluck('name')->join(', ') }}
-                    </h6>
+                    <livewire:role-assigner :person="$person" />
                     <ul class="nav nav-tabs mt-auto" id="profile-tab" role="tablist">
                         @foreach(\App\Models\CRUD\ViewableGroup::viewable()->get() as $tab)
                             <li class="nav-item">
@@ -52,7 +55,7 @@
                 <a type="button" class="btn btn-danger profile-edit-btn" href="{{ route('people.show', ['person' => $person->id]) }}">{{ __('people.profile.editing') }}</a>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-4">
                 <div class="profile-work">
                     <p>Link Group 2</p>
@@ -63,7 +66,13 @@
             </div>
             <div class="col-md-6">
                 <div class="tab-content profile-tab" id="profile-tab-content">
-                    <div class="tab-pane fade show active" id="basic-tab-pane" role="tabpanel" aria-labelledby="basic-tab" tabindex="0">
+                    <div
+                        class="tab-pane fade show active"
+                        id="tab-pane-{{ \App\Models\CRUD\ViewableGroup::BASIC_INFO }}"
+                        role="tabpanel"
+                        aria-labelledby="tab-{{ \App\Models\CRUD\ViewableGroup::BASIC_INFO }}"
+                        tabindex="0"
+                    >
                         <form action="{{ route('people.update.basic', ['person' => $person->id]) }}" method="POST">
                             @csrf
                             @method('PUT')
@@ -150,7 +159,7 @@
                                         <label for="dob" class="col-form-label">{{ __('people.profile.fields.dob') }}</label>
                                         @if($self->canEditField($self->viewableField('dob')))
                                         <span class="w-50">
-                                            <input type="date" name="dob" id="dob" value="{{ $person->dob->format('Y-m-d') }}" class="form-control form-control-sm text-end" />
+                                            <input type="date" name="dob" id="dob" value="{{ $person->dob? $person->dob->format('Y-m-d'): "" }}" class="form-control form-control-sm text-end" />
                                         </span>
                                         @else
                                             <span>{{ $person->dob->format('Y-m-d') }}</span>
@@ -336,8 +345,30 @@
                             </div>
                         </form>
                     </div>
-                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="1">
-                        content here
+                    <div
+                        class="tab-pane fade"
+                        id="tab-pane-{{ \App\Models\CRUD\ViewableGroup::CONTACT_INFO }}"
+                        aria-labelledby="tab-{{ \App\Models\CRUD\ViewableGroup::CONTACT_INFO }}"
+                        role="tabpanel"
+                        tabindex="0"
+                    >
+                        <div class="mb-3 p-1">
+                            <livewire:address-editor :person="$person" />
+                        </div>
+                        <div class="mb-3 p-1">
+                            <livewire:phone-editor :person="$person" />
+                        </div>
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="tab-pane-{{ \App\Models\CRUD\ViewableGroup::RELATIONSHIPS }}"
+                        aria-labelledby="tab-{{ \App\Models\CRUD\ViewableGroup::RELATIONSHIPS }}"
+                        role="tabpanel"
+                        tabindex="0"
+                    >
+                        <div class="mb-3 p-1">
+                            <livewire:relationship-creator :person="$person" />
+                        </div>
                     </div>
                 </div>
             </div>

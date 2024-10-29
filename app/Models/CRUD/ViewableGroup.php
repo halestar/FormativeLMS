@@ -11,6 +11,8 @@ class ViewableGroup extends CrudItem
     protected $table = 'crud_viewable_groups';
     public const HIDDEN = 1;
     public const BASIC_INFO = 2;
+    public const CONTACT_INFO = 3;
+    public const RELATIONSHIPS = 4;
 
 
     public static function getCrudModel(): string

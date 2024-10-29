@@ -63,6 +63,7 @@ abstract class CrudItem extends Model
             Gender::class,
             Pronouns::class,
             ViewableGroup::class,
+            Relationship::class,
         ];
     }
     abstract public static function getCrudModel(): string;

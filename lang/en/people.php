@@ -8,6 +8,8 @@ return
     'profile.image' => 'Profile Image',
     'profile.thumb' => 'Profile Thumbnail',
     'profile.image.update' => 'Update Profile Image',
+    'profile.image.remove' => 'Remove Profile Image',
+    'profile.image.remove.confirm' => 'Are you sure you want to remove this profile image?',
     'profile.edit' => 'Edit Profile',
     'profile.editing' => 'Editing Profile',
     'profile.basic' => 'Basic Information',
@@ -73,5 +75,26 @@ return
     'policies.view.show.question' => 'Show?',
 
 
-
+    'relationships' => 'Relationships',
+	'portrait' => 'Portrait',
+    'name' => 'Name',
+    'primary_roles' => 'Primary Role(s)',
+    'add_new_person' => '<i class="fa fa-plus border-end pe-1 me-1"></i>Add New Person',
+    'employee' => 'Employee',
+    'add_person' => 'Add Person',
+    'are_you_trying_to_add_any_of_these_people' => 'Are you trying to add any of these people?',
+    'employee2' => 'Employee',
+    'is_a' => ':name is a',
+    'update_reciprocal' => 'Update Reciprocal',
+    'to2' => 'to :name',
+    'update_relation' => 'Update Relation',
+    'search_for_person' => 'Search for Person',
+    'add_reciprocal' => 'Add Reciprocal',
+    'establish_relation' => 'Establish Relation',
+    'is_a_to' => ':name is a :expr to <a href=":route"> :name_2 </a>',
+    'delete_relationship_oneway' => 'Delete relationship one-way',
+    'delete_relationship_and_its_reciprocal' => 'Delete relationship and its reciprocal',
+    'add_new_relationship' => 'Add New Relationship',
+    'assign_roles_to_users' => 'Assign Roles to Users',
+    'editing_roles' => 'Editing Roles'
 ];

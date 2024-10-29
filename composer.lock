@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1e6caa929b4820dcb33d1f416883a6c",
+    "content-hash": "7181c9aff02dc280a278c30c6fa0c160",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1256,16 +1256,16 @@
         },
         {
             "name": "halestar/laravel-drop-in-cms",
-            "version": "0.5.2",
+            "version": "0.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/halestar/LaravelDropInCms.git",
-                "reference": "36ce65a9723a1ee90ec25bd35a15f216e759885a"
+                "reference": "9211da821856f76c9e3dbfbe6645d9fdc2db72f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/halestar/LaravelDropInCms/zipball/36ce65a9723a1ee90ec25bd35a15f216e759885a",
-                "reference": "36ce65a9723a1ee90ec25bd35a15f216e759885a",
+                "url": "https://api.github.com/repos/halestar/LaravelDropInCms/zipball/9211da821856f76c9e3dbfbe6645d9fdc2db72f1",
+                "reference": "9211da821856f76c9e3dbfbe6645d9fdc2db72f1",
                 "shasum": ""
             },
             "require": {
@@ -1304,9 +1304,9 @@
             "description": "An extremely simple content management system meant to be dropped into existing laravel projects. It makes no assumptions about users and permissions and uses as much as possible from the host's project. It has plugins to add functionality, but at it's hears it is simply meant to build pages. Initial release will also come with a Blogging plugin.",
             "support": {
                 "issues": "https://github.com/halestar/LaravelDropInCms/issues",
-                "source": "https://github.com/halestar/LaravelDropInCms/tree/0.5.2"
+                "source": "https://github.com/halestar/LaravelDropInCms/tree/0.5.3"
             },
-            "time": "2024-10-23T23:12:52+00:00"
+            "time": "2024-10-24T01:52:40+00:00"
         },
         {
             "name": "intervention/gif",

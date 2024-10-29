@@ -3,7 +3,10 @@
 namespace Database\Seeders;
 
 use App\Models\CRUD\ViewableGroup;
+use App\Models\People\Address;
 use App\Models\People\Person;
+use App\Models\People\PersonalAddress;
+use App\Models\People\Phone;
 use App\Models\People\ViewPolicies\ViewableField;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Log;
@@ -71,6 +74,14 @@ class ViewableFieldsSeeder extends Seeder
                 ['id' => '18', 'group_id' => ViewableGroup::HIDDEN, 'name' => __('people.profile.image'), 'field' => 'portrait_url',
                     'parent_class' => Person::class, 'format_as_date' => false, 'format_as_datetime' => false, 'order' => 18],
 
+                ['id' => '19', 'group_id' => ViewableGroup::CONTACT_INFO, 'name' => __('addresses.address'), 'field' => 'prettyAddress',
+                    'parent_class' => Address::class, 'format_as_date' => false, 'format_as_datetime' => false, 'order' => 1],
+
+                ['id' => '20', 'group_id' => ViewableGroup::CONTACT_INFO, 'name' => __('phones.phone'), 'field' => 'prettyphone',
+                    'parent_class' => Phone::class, 'format_as_date' => false, 'format_as_datetime' => false, 'order' => 2],
+
+                ['id' => '21', 'group_id' => ViewableGroup::RELATIONSHIPS, 'name' => __('people.relationships'), 'field' => 'relationships',
+                    'parent_class' => Person::class, 'format_as_date' => false, 'format_as_datetime' => false, 'order' => 1],
             ]
         );
     }

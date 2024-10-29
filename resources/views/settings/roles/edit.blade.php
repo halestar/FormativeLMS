@@ -4,6 +4,9 @@
 @section('content')
     <div class="container">
         <div class="border-bottom display-4 text-primary mb-5">{{ __('settings.role.edit') }}</div>
+        <div class="alert alert-danger">
+            <strong>{{ __('common.warning') }}!</strong> {{ __('settings.role.base.warning') }}
+        </div>
         <form action="{{ route('settings.roles.update', ['role' => $role->id]) }}" method="POST">
             @csrf
             @method('PUT')
@@ -13,6 +16,7 @@
                     type="text"
                     name="name"
                     id="name"
+                    @if($role->base_role) disabled @endif
                     class="form-control @error('name') is-invalid @enderror"
                     value="{{ $role->name }}"
                 />
@@ -44,11 +48,13 @@
             <div class="row">
                 <button class="btn btn-primary col-md m-1" type="submit">{{ __('settings.role.edit') }}</button>
                 @can('settings.roles.delete')
-                <button
-                    class="btn btn-danger col-md m-1"
-                    type="button"
-                    onclick="confirmDelete('{{ __('settings.role.delete.confirm') }}', '{{ route('settings.roles.destroy', ['role' => $role->id]) }}')"
-                >{{ __('settings.role.delete') }}</button>
+                    @if(!$role->base_role)
+                        <button
+                            class="btn btn-danger col-md m-1"
+                            type="button"
+                            onclick="confirmDelete('{{ __('settings.role.delete.confirm') }}', '{{ route('settings.roles.destroy', ['role' => $role->id]) }}')"
+                        >{{ __('settings.role.delete') }}</button>
+                    @endif
                 @endcan
                 <a class="btn btn-secondary col-md m-1" role="button" href="{{ route('settings.roles.index') }}">{{ __('common.cancel') }}</a>
             </div>

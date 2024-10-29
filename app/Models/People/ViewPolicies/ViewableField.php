@@ -60,9 +60,9 @@ class ViewableField extends Model
         if($obj instanceof $this->parent_class)
         {
             $field = $this->field;
-            if($this->format_as_date)
+            if($obj->$field && $this->format_as_date)
                 return $obj->$field->format(config('lms.date_format'));
-            if($this->format_as_datetime)
+            if($obj->$field && $this->format_as_datetime)
                 return $obj->$field->format(config('lms.datetime_format'));
             return $obj->$field;
         }

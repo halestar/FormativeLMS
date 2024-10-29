@@ -9,6 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link rel="icon" href="https://storage.googleapis.com/deep-citizen-425500-e0.appspot.com/cms/krTY3jXltMsvfKcCgM5ZB7rXegNfoB70hGgV3ce6.ico"/>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
@@ -41,6 +42,11 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                         @auth
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('people.index') }}" >
+                                    {{ __('system.school_directory') }}
+                                </a>
+                            </li>
                             <li class="nav-item dropdown">
                                 <a id="adminDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ __('system.menu.admin') }}
@@ -133,7 +139,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="alert alert-danger">
-                            <strong>Whoops! Something went wrong!</strong>
+                            <strong>{{ __('errors.whoops_something_went_wrong') }}</strong>
                             <br><br>
                             <ul>
                                 @foreach ($errors->all() as $error)
@@ -154,7 +160,7 @@
                 <div class="toast-header bg-primary-subtle">
                     <img src="/images/fablms-32.png" class="rounded me-2" alt="fablms-logo">
                     <strong class="me-auto">{{ __('common.success') }}</strong>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="{{ trans('common.close') }}"></button>
                 </div>
                 <div class="toast-body">
                     {{ $value }}

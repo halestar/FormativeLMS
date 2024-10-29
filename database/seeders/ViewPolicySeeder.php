@@ -34,6 +34,11 @@ class ViewPolicySeeder extends Seeder
         $salutation = 16;
         $family_salutation = 17;
         $profile_img = 18;
+        //contact fields
+        $address = 19;
+        $phones = 20;
+        //relationships
+        $relationships = 21;
 
         // Employees
         $policy = new ViewPolicy();
@@ -169,7 +174,29 @@ class ViewPolicySeeder extends Seeder
                 'student_enforce' => true, 'student_viewable' => true,
                 'parent_enforce' => true, 'parent_viewable' => true,
             ]);
-
+        //Contact Info
+        $policy->fields()->attach($address,
+            [
+                'self_viewable' => true, 'editable' => true,
+                'employee_enforce' => false, 'employee_viewable' => false,
+                'student_enforce' => true, 'student_viewable' => false,
+                'parent_enforce' => true, 'parent_viewable' => false,
+            ]);
+        $policy->fields()->attach($phones,
+            [
+                'self_viewable' => true, 'editable' => true,
+                'employee_enforce' => false, 'employee_viewable' => false,
+                'student_enforce' => true, 'student_viewable' => false,
+                'parent_enforce' => true, 'parent_viewable' => false,
+            ]);
+        //Relationships
+        $policy->fields()->attach($relationships,
+            [
+                'self_viewable' => true, 'editable' => false,
+                'employee_enforce' => true, 'employee_viewable' => true,
+                'student_enforce' => true, 'student_viewable' => true,
+                'parent_enforce' => true, 'parent_viewable' => true,
+            ]);
 
 
         // Students
@@ -300,6 +327,29 @@ class ViewPolicySeeder extends Seeder
                 'parent_enforce' => true, 'parent_viewable' => false,
             ]);
         $policy->fields()->attach($profile_img,
+            [
+                'self_viewable' => true, 'editable' => false,
+                'employee_enforce' => true, 'employee_viewable' => true,
+                'student_enforce' => true, 'student_viewable' => true,
+                'parent_enforce' => true, 'parent_viewable' => true,
+            ]);
+        //Contact Info
+        $policy->fields()->attach($address,
+            [
+                'self_viewable' => true, 'editable' => false,
+                'employee_enforce' => true, 'employee_viewable' => false,
+                'student_enforce' => true, 'student_viewable' => false,
+                'parent_enforce' => true, 'parent_viewable' => false,
+            ]);
+        $policy->fields()->attach($phones,
+            [
+                'self_viewable' => true, 'editable' => false,
+                'employee_enforce' => true, 'employee_viewable' => false,
+                'student_enforce' => true, 'student_viewable' => false,
+                'parent_enforce' => true, 'parent_viewable' => false,
+            ]);
+        //Relationships
+        $policy->fields()->attach($relationships,
             [
                 'self_viewable' => true, 'editable' => false,
                 'employee_enforce' => true, 'employee_viewable' => true,
@@ -440,6 +490,29 @@ class ViewPolicySeeder extends Seeder
                 'employee_enforce' => false, 'employee_viewable' => true,
                 'student_enforce' => false, 'student_viewable' => true,
                 'parent_enforce' => false, 'parent_viewable' => true,
+            ]);
+        //Contact Info
+        $policy->fields()->attach($address,
+            [
+                'self_viewable' => true, 'editable' => false,
+                'employee_enforce' => true, 'employee_viewable' => false,
+                'student_enforce' => true, 'student_viewable' => false,
+                'parent_enforce' => true, 'parent_viewable' => false,
+            ]);
+        $policy->fields()->attach($phones,
+            [
+                'self_viewable' => true, 'editable' => false,
+                'employee_enforce' => true, 'employee_viewable' => false,
+                'student_enforce' => true, 'student_viewable' => false,
+                'parent_enforce' => true, 'parent_viewable' => false,
+            ]);
+        //Relationships
+        $policy->fields()->attach($relationships,
+            [
+                'self_viewable' => true, 'editable' => false,
+                'employee_enforce' => true, 'employee_viewable' => true,
+                'student_enforce' => true, 'student_viewable' => true,
+                'parent_enforce' => true, 'parent_viewable' => true,
             ]);
     }
 }

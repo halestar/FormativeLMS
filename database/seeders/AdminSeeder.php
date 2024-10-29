@@ -17,7 +17,7 @@ use Illuminate\Support\Str;
 use Spatie\Permission\Exceptions\RoleDoesNotExist;
 use Spatie\Permission\Models\Role;
 
-class PersonSeeder extends Seeder
+class AdminSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -106,7 +106,7 @@ class PersonSeeder extends Seeder
         $parent->assignRole(SchoolRoles::$PARENT);
         $coach = Person::create(
             [
-                'first' => "Parent",
+                'first' => "Coach",
                 'middle' => null,
                 'last' => "Kalinec",
                 'email' => 'coach@kalinec.net',
@@ -118,55 +118,6 @@ class PersonSeeder extends Seeder
             ]);
         $coach->assignRole(SchoolRoles::$COACH);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
-        //now we do some people. for a school of 50, we will do 10 faculty, 4 staff, 1 coaches and 35 students, with 50 parents.
-        //faculty
-        try
-        {
-            Person::factory()
-                ->count(10)
-                ->faculty()
-                ->create();
-        }
-        catch(RoleDoesNotExist $e)
-        {
-            Log::debug($e);
-        }
-        //staff
-        try
-        {
-            Person::factory()
-                ->count(4)
-                ->staff()
-                ->create();
-        }
-        catch(RoleDoesNotExist $e){}
-        //coaches
-        try
-        {
-            Person::factory()
-                ->count(1)
-                ->coach()
-                ->create();
-        }
-        catch(RoleDoesNotExist $e){}
-        //students
-        try
-        {
-            Person::factory()
-                ->count(35)
-                ->student()
-                ->create();
-        }
-        catch(RoleDoesNotExist $e){}
-        //parents
-        try
-        {
-            Person::factory()
-                ->count(50)
-                ->parents()
-                ->create();
-        }
-        catch(RoleDoesNotExist $e){}
 
     }
 }

@@ -33,7 +33,7 @@
                                     <span class="text-muted text-sm">{{ $permission->description }}</span>
                                 </div>
                                 @if($permission->roles()->count() > 0)
-                                <strong>Roles:</strong> {{ $permission->roles->pluck('name')->join(', ') }}
+                                <strong>{{ __('settings.roles') }}:</strong> {{ $permission->roles->pluck('name')->join(', ') }}
                                 @endif
                             </a>
                         @endforeach

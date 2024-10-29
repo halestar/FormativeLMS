@@ -7,4 +7,5 @@ return
         'permissions.description' => 'The description for a permission cannot be blank and must be less than 255 characters.',
         'roles.name' => 'The role name must be unique and less than 255 characters',
         'roles.permissions' => 'The role must contain at least one permission assigned to it',
+	    'whoops_something_went_wrong' => 'Whoops! Something went wrong!'
     ];

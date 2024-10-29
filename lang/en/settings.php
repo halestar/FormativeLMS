@@ -14,6 +14,8 @@ return
         'role.updated' => 'Role was successfully updated',
         'role.deleted' => 'Role was successfully deleted',
         'role.assign' => 'Assign Roles',
+        'role.base' => 'Base Role',
+        'role.base.warning' => 'This is a base role, which means it cannot be deleted or altered in a major way',
         //Permissions
         'permissions' => 'Permissions',
         'permission.name' => 'Permission Name',
@@ -28,4 +30,7 @@ return
         'permission.updated' => 'Permission was successfully updated',
         'permission.deleted' => 'Permission was successfully deleted',
         'permission.assign' => 'Assign Permissions',
+	    'base_roles' => 'Base Roles',
+        'additional_roles' => 'Additional Roles',
+        'edit_roles' => 'Edit Roles'
     ];

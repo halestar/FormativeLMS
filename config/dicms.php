@@ -2,7 +2,7 @@
 return
 [
     'table_prefix' => env('DICMS_TABLE_PREFIX', 'dicms_'),
-    'media_upload_disk' => env('DICMS_MEDIA_UPLOAD_DISK', 'cms'),
+    'media_upload_disk' => env('DICMS_MEDIA_UPLOAD_DISK', 'public'),
     'thumb_folder' => env('DICMS_IMAGE_THUMB_FOLDER', '.thmb'),
     'thumb_max_height' => env('DICMS_IMAGE_THUMB_MAX_HEIGHT', 64),
     'img_max_height' => env('DICMS_IMAGE_MAX_HEIGHT', 768),

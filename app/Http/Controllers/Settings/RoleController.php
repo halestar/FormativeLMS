@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Settings;
 
 use App\Http\Controllers\Controller;
 use App\Models\Utilities\SchoolPermission;
+use App\Models\Utilities\SchoolRole;
+use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
@@ -31,7 +33,7 @@ class RoleController extends Controller
      */
     public function index()
     {
-        Gate::authorize('has-permission', 'settings.roles.view');
+        Gate::authorize('viewAny', Role::class);
         $template =
             [
                 'breadcrumb' => [ __('settings.settings') => '#', __('settings.roles') => '#'],
@@ -58,7 +60,7 @@ class RoleController extends Controller
      */
     public function create()
     {
-        Gate::authorize('has-permission', 'settings.roles.create');
+        Gate::authorize('create', Role::class);
         $breadcrumb =
             [
                 __('settings.settings') => '#',
@@ -73,12 +75,12 @@ class RoleController extends Controller
      */
     public function store(Request $request)
     {
-        Gate::authorize('has-permission', 'settings.roles.create');
+        Gate::authorize('create', Role::class);
         $data = $request->validate([
             'name' => 'required|unique:roles,name|max:255',
             'permissions' => 'required|array|min:1',
         ], static::errors());
-        $role = new Role();
+        $role = new SchoolRoles();
         $role->name = $data['name'];
         $role->save();
         $role->syncPermissions($request->input('permissions', []));
@@ -88,9 +90,9 @@ class RoleController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Role $role)
+    public function edit(SchoolRoles $role)
     {
-        Gate::authorize('has-permission', 'settings.roles.edit');
+        Gate::authorize('update', $role);
         $breadcrumb =
             [
                 __('settings.settings') => '#',
@@ -103,14 +105,15 @@ class RoleController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Role $role)
+    public function update(Request $request, SchoolRoles $role)
     {
-        Gate::authorize('has-permission', 'settings.roles.edit');
+        Gate::authorize('update', $role);
         $data = $request->validate([
             'name' => ['required', 'max:255', Rule::unique('roles')->ignore($role)],
             'permissions' => 'required|array|min:1',
         ], static::errors());
-        $role->name = $data['name'];
+        if(!$role->base_role)
+            $role->name = $data['name'];
         $role->syncPermissions($request->input('permissions', []));
         $role->save();
         return redirect()->route('settings.roles.index')->with('success-status', __('settings.role.updated'));
@@ -119,10 +122,11 @@ class RoleController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Role $role)
+    public function destroy(SchoolRoles $role)
     {
-        Gate::authorize('has-permission', 'settings.roles.delete');
-        $role->delete();
+        Gate::authorize('delete', $role);
+        if(!$role->base_role)
+            $role->delete();
         return redirect()->route('settings.roles.index')->with('success-status', __('settings.role.deleted'));
     }
 }

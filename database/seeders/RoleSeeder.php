@@ -9,24 +9,28 @@ use Spatie\Permission\Models\Role;
 
 class RoleSeeder extends Seeder
 {
+    private array $baseRolePermissions =
+        [
+            "DB Editor" => ['people.assign.roles', 'people.create', 'people.delete', 'people.edit', 'people.merge', 'people.view'],
+            "CRUD Editor" => ['crud'],
+            "Impersonator" => [],
+            "Web Designer" => [],
+            "Role Editor" => [],
+            "Permission Editor" => [],
+            "Person Contact Editor" => [],
+        ];
+
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        Role::create(['name' => SchoolRoles::$ADMIN])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$ADMIN));
-        Role::create(['name' => SchoolRoles::$EMPLOYEE])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$EMPLOYEE));
-        Role::create(['name' => SchoolRoles::$STUDENT])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$STUDENT));
-        Role::create(['name' => SchoolRoles::$FACULTY])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$FACULTY));
-        Role::create(['name' => SchoolRoles::$STAFF])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$STAFF));
-        Role::create(['name' => SchoolRoles::$COACH])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$COACH));
-        Role::create(['name' => SchoolRoles::$PARENT])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$PARENT));
-        Role::create(['name' => SchoolRoles::$OLD_STUDENT])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$OLD_STUDENT));
-        Role::create(['name' => SchoolRoles::$OLD_FACULTY])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$OLD_FACULTY));
-        Role::create(['name' => SchoolRoles::$OLD_STAFF])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$OLD_STAFF));
-        Role::create(['name' => SchoolRoles::$OLD_COACH])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$OLD_COACH));
-        Role::create(['name' => SchoolRoles::$OLD_PARENT])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$OLD_PARENT));
-        Role::create(['name' => SchoolRoles::$INTERNAL_USER])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$INTERNAL_USER));
-        Role::create(['name' => SchoolRoles::$EXTERNAL_USER])->syncPermissions(SchoolRoles::getDefaultPermissions(SchoolRoles::$EXTERNAL_USER));
+        foreach(SchoolRoles::$baseRolePermissions as $roleName => $permissions)
+            SchoolRoles::create(['name' => $roleName, 'base_role' => true])
+                ->syncPermissions($permissions);
+
+        foreach($this->baseRolePermissions as $roleName => $permissions)
+            SchoolRoles::create(['name' => $roleName])->syncPermissions($permissions);
+
     }
 }

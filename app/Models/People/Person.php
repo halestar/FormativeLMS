@@ -14,14 +14,20 @@ use App\Models\People\ViewPolicies\ViewPolicy;
 use App\Models\Utilities\SchoolRoles;
 use App\Traits\HasLogs;
 use App\Traits\HasViewableFields;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Drivers\Imagick\Driver;
+use Intervention\Image\ImageManager;
 use Spatie\Permission\Traits\HasRoles;
 
 class Person extends Authenticatable
@@ -73,6 +79,14 @@ class Person extends Authenticatable
 
     protected static string $logField = 'global_log';
 
+    protected static function booted(): void
+    {
+        static::addGlobalScope('name_order', function (Builder $builder)
+        {
+            $builder->orderBy('last')->orderBy('first');
+        });
+    }
+
     /**********
      * Mutators/Accessors
      */
@@ -81,7 +95,61 @@ class Person extends Authenticatable
         return Attribute::make
         (
             get: fn(mixed $value, array $attributes) =>
-            ($attributes['nick']?? $attributes['first']) . " " . $attributes['last']
+                ($attributes['nick']?? $attributes['first']) . " " . $attributes['last']
+        );
+    }
+
+    public function portraitUrl(): Attribute
+    {
+        return Attribute::make
+        (
+            get: function(mixed $value, array $attributes)
+            {
+                if($attributes['portrait_url'])
+                    return $attributes['portrait_url'];
+                return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
+            },
+            set: function(null|UploadedFile|string $value, array $attributes)
+            {
+                $portraitDisk = config('lms.profile_pics_disk');
+                if(!$value)
+                {
+                    //we should probably try to remove the image
+                    Storage::disk($portraitDisk)
+                        ->delete(str_replace(Storage::disk($portraitDisk)->url(''), '', $attributes['portrait_url']));
+                    Storage::disk($portraitDisk)
+                        ->delete(str_replace(Storage::disk($portraitDisk)->url(''), '', $attributes['thumbnail_url']));
+                    return ['portrait_url' => null, 'thumbnail_url' => null];
+                }
+                elseif(is_string($value))
+                {
+                    return ['portrait_url' => $value, 'thumbnail_url' => null];
+                }
+                $attr = [];
+                $portraitPath = $value->store('', $portraitDisk);
+                $attr['portrait_url'] = Storage::disk($portraitDisk)->url($portraitPath);
+                $manager = new ImageManager(new Driver());
+                $thmb = $manager->read(Storage::disk($portraitDisk)->get($portraitPath));
+                if($thmb)
+                    $thmb->scaleDown(height: config('lms.thumb_max_height'));
+                $thmbPath = config('lms.profile_thumbs_path') . "/" . pathinfo($portraitPath, PATHINFO_FILENAME) . ".png";
+                $path = Storage::disk($portraitDisk)->put($thmbPath, $thmb->toPng());
+                $attr['thumbnail_url'] = Storage::disk($portraitDisk)->url($path);
+                return $attr;
+            }
+        );
+    }
+
+    public function thumbnailUrl(): Attribute
+    {
+        return Attribute::make
+        (
+            get: function(mixed $value, array $attributes)
+            {
+                if($attributes['thumbnail_url'])
+                    return $attributes['thumbnail_url'];
+                return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
+            }
         );
     }
 
@@ -128,7 +196,7 @@ class Person extends Authenticatable
             ->get();
         /*return Cache::rememberForever('view-policies-' . $this->id, function()
         {
-            return ViewPolicy::select('view_policies.*')
+            ViewPolicy::select('view_policies.*')
                 ->with(['fields'])
                 ->join('model_has_roles', 'model_has_roles.role_id', '=', 'view_policies.role_id')
                 ->where('model_has_roles.model_type', '=', Person::class)
@@ -137,6 +205,48 @@ class Person extends Authenticatable
         });*/
 
     }
+
+    public function addresses(): BelongsToMany
+    {
+        return $this->belongsToMany(Address::class, 'people_addresses')
+            ->using(PersonalAddress::class)
+            ->as('personal')
+            ->withPivot(
+                [
+                    'primary', 'work', 'seasonal',
+                    'season_start','season_end',
+                ])
+            ->orderBy('people_addresses.primary', 'desc')
+            ->orderBy('people_addresses.work', 'desc');
+    }
+
+    public function phones(): BelongsToMany
+    {
+        return $this->belongsToMany(Phone::class, 'people_phones')
+            ->using(PersonalPhone::class)
+            ->as('personal')
+            ->withPivot(
+                [
+                    'primary', 'work',
+                ])
+            ->orderBy('people_phones.primary', 'desc')
+            ->orderBy('people_phones.work', 'desc');
+    }
+
+    public function relationships(): BelongsToMany
+    {
+        return $this->belongsToMany(Person::class, "people_relations", "from_person_id", "to_person_id")
+            ->as('personal')
+            ->using(PersonalRelations::class)
+            ->withPivot(
+                [
+                    'relationship_id',
+                ]);
+    }
+
+    /**********
+     * Boolean Functions
+     */
 
     public function isEmployee(): bool
     {
@@ -153,10 +263,19 @@ class Person extends Authenticatable
         return $this->hasRole(SchoolRoles::$PARENT);
     }
 
-    public function canViewField(ViewableField $testingField, Person $target): bool
+    public function hasPortrait(): bool
+    {
+        return ($this->attributes['portrait_url'] != null && $this->attributes['portrait_url'] != '');
+    }
+
+    public function canViewField(ViewableField|string $testingField, Person $target): bool
     {
         if($this->can('people.view'))
             return true;
+        if(is_string($testingField))
+            $testingField = ViewableField::where('name', $testingField)->first();
+        if(!$testingField)
+            return false;
         //find the fields specifically in relation to the policicies that
         //belong to this person.
         $policyFields = [];
@@ -255,7 +374,7 @@ class Person extends Authenticatable
     }
 
     /**
-     * Preferences
+     * Viewable Fields
      */
     public function unenforcedFields(): Collection
     {
@@ -299,6 +418,22 @@ class Person extends Authenticatable
         $prefs['viewing'] = $viewingPrefs;
         $this->prefs = $prefs;
         $this->save();
+    }
+
+    /**
+     * Addresses
+     */
+    public function primaryAddress(): Address
+    {
+        return $this->addresses()->wherePivot('primary', true)->first();
+    }
+
+    /**
+     * Phones
+     */
+    public function primaryPhone(): Phone
+    {
+        return $this->phones()->wherePivot('primary', true)->first();
     }
 
 }

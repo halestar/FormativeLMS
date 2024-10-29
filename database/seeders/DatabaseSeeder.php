@@ -18,7 +18,11 @@ class DatabaseSeeder extends Seeder
                 PermissionSeeder::class,
                 RoleSeeder::class,
                 CrudSeeder::class,
-                PersonSeeder::class,
+                AdminSeeder::class,
+                FacultySeeder::class,
+                StaffSeeder::class,
+                CoachSeeder::class,
+                FamilySeeder::class,
                 ViewableFieldsSeeder::class,
                 ViewPolicySeeder::class,
             ]);

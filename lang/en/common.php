@@ -28,4 +28,8 @@ return [
     'disable' => 'Disable',
     'copy' => 'Copy',
     'close' => 'Close',
+    'disabled' => 'Disabled',
+    'warning' => 'Warning!',
+	'adding' => 'Adding',
+    'to' => 'to'
 ];

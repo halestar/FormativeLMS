@@ -6,9 +6,11 @@ use App\Models\CRUD\Ethnicity;
 use App\Models\CRUD\Gender;
 use App\Models\CRUD\Honors;
 use App\Models\CRUD\Pronouns;
+use App\Models\CRUD\Relationship;
 use App\Models\CRUD\Suffix;
 use App\Models\CRUD\Title;
 use App\Models\CRUD\ViewableGroup;
+use App\Models\People\PersonalRelations;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -68,7 +70,19 @@ class CrudSeeder extends Seeder
         ViewableGroup::insert(
             [
                 ['id' => ViewableGroup::HIDDEN, 'name' => "Other Information"],
-                ['id' => ViewableGroup::BASIC_INFO, 'name' => "Basic Information"]
+                ['id' => ViewableGroup::BASIC_INFO, 'name' => "Basic Information"],
+                ['id' => ViewableGroup::CONTACT_INFO, 'name' => "Contact Information"],
+                ['id' => ViewableGroup::RELATIONSHIPS, 'name' => "Relationships"],
+            ]);
+
+        Relationship::insert(
+            [
+                ['id' => Relationship::PARENT, 'name' => "Parent"],
+                ['id' => Relationship::STEPPARENT, 'name' => "Step Parent"],
+                ['id' => Relationship::GUARDIAN, 'name' => "Guardian"],
+                ['id' => Relationship::CHILD, 'name' => "Child"],
+                ['id' => Relationship::SPOUSE, 'name' => "Spouse"],
+                ['id' => Relationship::GRANDPARENT, 'name' => "Grandparent"],
             ]);
 
     }

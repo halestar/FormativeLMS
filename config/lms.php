@@ -15,4 +15,8 @@ return [
     'viewable_classes' => [],
     'date_format' => env('DATE_FORMAT', 'm/d/Y'),
     'datetime_format' => env('DATETIME_FORMAT', 'm/d/Y h:i A'),
+    'default_country' => env('DEFAULT_COUNTRY', 'US'),
+    'profile_pics_disk' => env('PROFILE_PICS_DISK', 'idpics'),
+    'thumb_max_height' => env('THUMB_MAX_SIZE', 64),
+    'profile_thumbs_path' => env('PROFILE_THUMBS_PATH', 'thmb'),
 ];

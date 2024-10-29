@@ -22,7 +22,10 @@
                         {{ $person->name }}
                     </h5>
                     <h6>
-                        {{ $person->roles->pluck('name')->join(', ') }}
+                        <div>
+                            <strong class="me-2">{{ __('settings.roles') }}:</strong> {{ $person->roles->pluck('name')->join(', ') }}
+                        </div>
+
                     </h6>
                     <ul class="nav nav-tabs mt-auto" id="profile-tab" role="tablist">
                         @foreach(\App\Models\CRUD\ViewableGroup::viewable()->get() as $tab)
@@ -70,6 +73,61 @@
                         class="tab-pane fade show @if($loop->first) active @endif"
                         id="tab-pane-{{ $tab->id }}" role="tabpanel" aria-labelledby="tab-{{ $tab->id }}" tabindex="{{ $tab->order }}"
                     >
+                        @if($tab->id == \App\Models\CRUD\ViewableGroup::CONTACT_INFO)
+                            <ul class="list-group">
+                                @if($self->canViewField('address', $person))
+                                    @foreach($person->addresses as $address)
+                                        <li class="list-group list-group-flush border-bottom mb-2 pb-1">
+                                            <div class="d-flex justify-content-between align-items-top">
+                                                <label>
+                                                    @if($address->personal->primary) {{ __('addresses.primary') }} @endif
+                                                    @if($address->personal->work) {{ __('addresses.work') }} @endif
+                                                    @if($address->personal->seasonal)
+                                                    {{ __('addresses.seasonal_address', ['season_start' => $address->personal->season_start, 'season_end' => $address->personal->season_end]) }}
+                                                    @endif
+                                                    {{ __('addresses.address') }}:
+                                                </label>
+                                                <span>{!! nl2br($address->prettyAddress) !!}</span>
+                                            </div>
+                                        </li>
+                                    @endforeach
+                                @endif
+                                @if($self->canViewField('phone', $person))
+                                        @foreach($person->phones as $phone)
+                                            <li class="list-group list-group-flush border-bottom mb-2 pb-1">
+                                                <div class="d-flex justify-content-between align-items-top">
+                                                    <label>
+                                                        @if($phone->personal->primary) {{ __('addresses.primary') }} @endif
+                                                        @if($phone->personal->work) {{ __('addresses.work') }} @endif
+                                                        @if($phone->mobile) {{ __('phones.mobile') }} @endif
+                                                        {{ __('phones.phone') }}:
+                                                    </label>
+                                                    <span>{!! $phone->prettyPhone !!}</span>
+                                                </div>
+                                            </li>
+                                        @endforeach
+                                @endif
+                            </ul>
+                        @elseif($tab->id == \App\Models\CRUD\ViewableGroup::RELATIONSHIPS)
+                            <ul class="list-group">
+                                @if($self->canViewField('relationships', $person))
+                                    @foreach($person->relationships as $relation)
+                                        <li class="list-group list-group-flush border-bottom mb-2 pb-1">
+                                            <div class="d-flex justify-content-between align-items-top">
+                                                <label>
+                                                    {{ ($relation->personal->relationship? $relation->personal->relationship->name: "?") . " " . __('common.to') }}
+                                                </label>
+                                                <span>
+                                                    <a href="{{ route('people.show', ['person' => $relation->id]) }}">
+                                                        {{ $relation->name }}
+                                                    </a>
+                                                </span>
+                                            </div>
+                                        </li>
+                                    @endforeach
+                                @endif
+                            </ul>
+                        @else
                         <ul class="list-group">
                             @foreach($tab->fields as $field)
                                 @if($self->canViewField($field, $person))
@@ -82,6 +140,7 @@
                                 @endif
                             @endforeach
                         </ul>
+                        @endif
                     </div>
                     @endforeach
                 </div>
@@ -100,4 +159,5 @@
         </div>
     </div>
     @endif
+
 @endsection

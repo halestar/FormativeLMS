@@ -23,7 +23,7 @@ class PermissionSeeder extends Seeder
                     ['name' => 'settings.permissions.create', 'description' => 'Create permissions in the system'],
                     ['name' => 'settings.permissions.delete', 'description' => 'Delete permissions in the system'],
                     ['name' => 'settings.roles.view', 'description' => 'View roles in the system'],
-                    ['name' => 'settings.roles.edit', 'description' => 'Edit roles in the system'],
+                    ['name' => 'settings.roles.update', 'description' => 'Edit roles in the system'],
                     ['name' => 'settings.roles.create', 'description' => 'Create roles in the system'],
                     ['name' => 'settings.roles.delete', 'description' => 'Delete roles in the system'],
                 ],
@@ -36,6 +36,7 @@ class PermissionSeeder extends Seeder
                     ['name' => 'people.merge', 'description' => 'Merge two person records into one.'],
                     ['name' => 'people.search', 'description' => 'Search for people in the system'],
                     ['name' => 'people.view.policies', 'description' => 'Admin access to View Policies'],
+                    ['name' => 'people.assign.roles', 'description' => 'Ability to assign roles to users.'],
                 ],
             'System' =>
                 [

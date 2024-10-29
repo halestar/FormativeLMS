@@ -36,7 +36,6 @@ class FreshDb extends Command
         if(!$this->option('no-optimize'))
         {
             $this->call('optimize:clear');
-            $this->call('optimize');
         }
     }
 }

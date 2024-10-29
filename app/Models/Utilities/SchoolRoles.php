@@ -2,6 +2,7 @@
 
 namespace App\Models\Utilities;
 
+use Illuminate\Database\Eloquent\Builder;
 use Spatie\Permission\Models\Role;
 
 class SchoolRoles extends Role
@@ -18,11 +19,40 @@ class SchoolRoles extends Role
     public static string $OLD_STAFF = "Old Staff";
     public static string $OLD_COACH = "Old Coach";
     public static string $OLD_PARENT = "Old Parent";
-    public static string $INTERNAL_USER = "Internal User";
-    public static string $EXTERNAL_USER = "External User";
 
-    public static array $defaultPermissions =
+    protected function casts(): array
+    {
+        return [
+            'base_role' => 'boolean',
+        ];
+    }
+
+    protected static function booted(): void
+    {
+        static::addGlobalScope('base_name_order', function (Builder $builder)
+        {
+            $builder->orderBy('base_role')->orderBy('name');
+        });
+    }
+
+    public function scopeBaseRoles(Builder $query): void
+    {
+        $query->where('base_role', true);
+    }
+
+    public function scopeNormalRoles(Builder $query): void
+    {
+        $query->where('base_role', false);
+    }
+
+    public function scopeExcludeAdmin(Builder $query): void
+    {
+        $query->where('name', '<>', SchoolRoles::$ADMIN);
+    }
+
+    public static array $baseRolePermissions =
         [
+            "Super Admin" => [],
             "Student" => [],
             "Employee" => [],
             "Faculty" => [],
@@ -38,28 +68,7 @@ class SchoolRoles extends Role
 
     public static function getDefaultPermissions(string $role): array
     {
-        return SchoolRoles::$defaultPermissions[$role] ?? [];
-    }
-
-    public static function reservedRoles(): array
-    {
-        return
-        [
-            SchoolRoles::$ADMIN,
-            SchoolRoles::$EMPLOYEE,
-            SchoolRoles::$STUDENT,
-            SchoolRoles::$FACULTY,
-            SchoolRoles::$STAFF,
-            SchoolRoles::$COACH,
-            SchoolRoles::$PARENT,
-            SchoolRoles::$OLD_STUDENT,
-            SchoolRoles::$OLD_FACULTY,
-            SchoolRoles::$OLD_STAFF,
-            SchoolRoles::$OLD_COACH,
-            SchoolRoles::$OLD_PARENT,
-            SchoolRoles::$INTERNAL_USER,
-            SchoolRoles::$EXTERNAL_USER,
-        ];
+        return SchoolRoles::$baseRolePermissions[$role] ?? [];
     }
 
     public static function EmployeeRole(): SchoolRoles
@@ -79,6 +88,6 @@ class SchoolRoles extends Role
 
     public static function setDefaultPermissions(array $defaultPermissions): void
     {
-        self::$defaultPermissions = $defaultPermissions;
+        self::$baseRolePermissions = $defaultPermissions;
     }
 }

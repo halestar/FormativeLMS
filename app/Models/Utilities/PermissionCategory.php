@@ -26,6 +26,7 @@ class PermissionCategory extends Model
         ];
     public function permissions(): HasMany
     {
-        return $this->hasMany(SchoolPermission::class, 'category_id');
+        return $this->hasMany(SchoolPermission::class, 'category_id')
+            ->orderBy('name');
     }
 }
