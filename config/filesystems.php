@@ -38,66 +38,27 @@ return [
 
         'public' =>
             [
-            'driver' => 's3',
-            'key' => env('S3_ACCESS_KEY'),
-            'secret' => env('S3_SECRET'),
-            'region' => env('S3_REGION'),
-            'bucket' => env('S3_BUCKET'),
-            'url' => env('S3_BASE_URL'),
-            'endpoint' => env('S3_ENDPOINT', "https://storage.googleapis.com"),
-            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+            'driver' => 'local',
+            'root' => storage_path('app/public'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
             'throw' => false,
             ],
 
-        's3' => [
-            'driver' => 's3',
-            'key' => env('AWS_ACCESS_KEY_ID'),
-            'secret' => env('AWS_SECRET_ACCESS_KEY'),
-            'region' => env('AWS_DEFAULT_REGION'),
-            'bucket' => env('AWS_BUCKET'),
-            'url' => env('AWS_URL'),
-            'endpoint' => env('AWS_ENDPOINT'),
-            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
-            'throw' => false,
-        ],
-
         'cms' => [
-            'driver' => 's3',
-            'key' => env('S3_ACCESS_KEY'),
-            'secret' => env('S3_SECRET'),
-            'region' => env('S3_REGION'),
-            'bucket' => env('S3_BUCKET'),
-            'url' => env('S3_BASE_URL'),
-            'endpoint' => env('S3_ENDPOINT', "https://storage.googleapis.com"),
-            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+            'driver' => 'local',
+            'root' => storage_path('app/public/cms'),
+            'url' => env('APP_URL').'/storage/cms',
+            'visibility' => 'public',
             'throw' => false,
-            'root' => 'cms/'
-        ],
-
-        'livewire' => [
-            'driver' => 's3',
-            'key' => env('S3_ACCESS_KEY'),
-            'secret' => env('S3_SECRET'),
-            'region' => env('S3_REGION'),
-            'bucket' => env('S3_BUCKET'),
-            'url' => env('S3_BASE_URL'),
-            'endpoint' => env('S3_ENDPOINT', "https://storage.googleapis.com"),
-            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
-            'throw' => false,
-            'root' => 'livewire/'
         ],
 
         'idpics' => [
-            'driver' => 's3',
-            'key' => env('S3_ACCESS_KEY'),
-            'secret' => env('S3_SECRET'),
-            'region' => env('S3_REGION'),
-            'bucket' => env('S3_BUCKET'),
-            'url' => env('S3_BASE_URL'),
-            'endpoint' => env('S3_ENDPOINT', "https://storage.googleapis.com"),
-            'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
+            'driver' => 'local',
+            'root' => storage_path('app/public/idpics'),
+            'url' => env('APP_URL').'/storage/idpics',
+            'visibility' => 'public',
             'throw' => false,
-            'root' => 'idpics/'
         ],
 
     ],
