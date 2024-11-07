@@ -7,25 +7,26 @@ use App\Models\People\Person;
 use App\Models\People\Phone;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Livewire\Component;
 
 class PhoneEditor extends Component
 {
-    public Person $person;
+    public mixed $phoneable;
     public Collection $phones;
     public ?Phone $editing = null;
     public bool $adding = false;
     public string $phone = "";
-    public string $ext = "";
-    public string $mobile = "";
+    public ?string $ext = "";
+    public bool $mobile = false;
     public bool $primary = false;
-    public bool $work = false;
+    public string $label = "";
     public ?Phone $linking = null;
 
-    public function mount(Person $person):void
+    public function mount(mixed $phoneable):void
     {
-        $this->person = $person;
-        $this->phones = $person->phones;
+        $this->phoneable = $phoneable;
+        $this->phones = $phoneable->phones;
     }
 
     public function clearForm()
@@ -36,15 +37,18 @@ class PhoneEditor extends Component
         $this->phone = "";
         $this->ext = "";
         $this->primary = false;
-        $this->work = false;
+        $this->label = "";
         $this->mobile = false;
-        $this->phones = $this->person->phones;
+        $this->phones = $this->phoneable->phones;
     }
 
     public function suggestPhone()
     {
-        return Phone::where('phone', 'LIKE',  '%' . $this->phone . '%')
-            ->limit(10)->get();
+        $query = Phone::where('phone', 'LIKE',  '%' . $this->phone . '%');
+        if($this->editing)
+            $query->whereNot('id', $this->editing->id);
+
+        return $query->limit(10)->get();
     }
 
     public function addPhone()
@@ -57,23 +61,26 @@ class PhoneEditor extends Component
                 'mobile' => $this->mobile,
             ]);
         $newPhone->save();
+        $order = $this->phoneable->phones()->count();
+        $this->phoneable->phones()->attach($newPhone,
+            [
+                'primary' => $this->primary,
+                'label' => $this->label,
+                'order' => $order,
+            ]);
         if($this->primary)
-        {
-            //we need to make the other ones not-primary
-            DB::update("UPDATE people_phones SET people_phones.primary=0 WHERE person_id=?", [$this->person->id]);
-        }
-        $this->person->phones()->save($newPhone, ['primary' => $this->primary,'work' => $this->work]);
+            $this->phoneable->makePrimary($newPhone);
         $this->clearForm();
     }
 
     public function editPhone(Phone $phone)
     {
-        $this->editing = $this->person->phones()->find($phone->id);
-        $this->phone = $phone->line1;
+        $this->editing = $this->phoneable->phones()->find($phone->id);
+        $this->phone = $phone->phone;
         $this->ext = $phone->ext;
         $this->mobile = $phone->mobile;
         $this->primary = $this->editing->personal->primary;
-        $this->work = $this->editing->personal->work;
+        $this->label = $this->editing->personal->label;
     }
 
     public function updatePhone()
@@ -82,15 +89,17 @@ class PhoneEditor extends Component
         $this->editing->ext = $this->ext;
         $this->editing->mobile = $this->mobile;
         $this->editing->save();
-        $this->person->phones()
-            ->updateExistingPivot($this->editing->id, ['primary' => $this->primary,'work' => $this->work]);
+        $this->phoneable->phones()
+            ->updateExistingPivot($this->editing->id, ['primary' => $this->primary,'label' => $this->label]);
+        if($this->primary)
+            $this->phoneable->makePrimary($this->editing);
         $this->clearForm();
     }
 
     public function removePhone(Phone $phone)
     {
-        $this->person->phones()->detach($phone);
-        if($phone->people()->count() == 0)
+        $this->phoneable->phones()->detach($phone);
+        if($phone->canDelete())
             $phone->delete();
         $this->clearForm();
     }
@@ -104,8 +113,27 @@ class PhoneEditor extends Component
     public function linkPhone()
     {
         if($this->linking)
-            $this->person->phones()->attach($this->linking, ['primary' => $this->primary,'work' => $this->work]);
+        {
+            $order = $this->phoneable->phones()->count();
+            $this->phoneable->phones()->attach($this->linking,
+                [
+                    'primary' => $this->primary,
+                    'label' => $this->label,
+                    'order' => $order,
+                ]);
+        }
         $this->clearForm();
+    }
+
+    public function updatePhoneOrder($models)
+    {
+        foreach ($models as $model)
+        {
+            Log::debug("Attempting update pivot on id " . $model['value'] . " setting order to " . $model['order']);
+            $this->phoneable->phones()
+                ->updateExistingPivot($model['value'], ['order' => $model['order']]);
+        }
+        $this->phones = $this->phoneable->phones;
     }
     public function render()
     {

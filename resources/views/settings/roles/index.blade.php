@@ -2,7 +2,7 @@
 
 @section('settings_content')
     <div class="list-group">
-        @foreach(\App\Models\Utilities\SchoolRole::all() as $role)
+        @foreach(\App\Models\Utilities\SchoolRoles::all() as $role)
             <a
                 @can('settings.roles.edit')
                 href="{{ route('settings.roles.edit', ['role' => $role->id]) }}"

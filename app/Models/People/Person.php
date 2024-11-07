@@ -14,11 +14,13 @@ use App\Models\People\ViewPolicies\ViewPolicy;
 use App\Models\Utilities\SchoolRoles;
 use App\Traits\HasLogs;
 use App\Traits\HasViewableFields;
+use App\Traits\Phoneable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Http\UploadedFile;
@@ -32,7 +34,7 @@ use Spatie\Permission\Traits\HasRoles;
 
 class Person extends Authenticatable
 {
-    use HasFactory, HasLogs, SoftDeletes, HasRoles, HasViewableFields;
+    use HasFactory, HasLogs, SoftDeletes, HasRoles, HasViewableFields, Phoneable;
     protected $with = ['roles'];
     public $timestamps = true;
     protected $table = "people";
@@ -218,19 +220,6 @@ class Person extends Authenticatable
                 ])
             ->orderBy('people_addresses.primary', 'desc')
             ->orderBy('people_addresses.work', 'desc');
-    }
-
-    public function phones(): BelongsToMany
-    {
-        return $this->belongsToMany(Phone::class, 'people_phones')
-            ->using(PersonalPhone::class)
-            ->as('personal')
-            ->withPivot(
-                [
-                    'primary', 'work',
-                ])
-            ->orderBy('people_phones.primary', 'desc')
-            ->orderBy('people_phones.work', 'desc');
     }
 
     public function relationships(): BelongsToMany

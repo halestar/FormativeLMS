@@ -3,12 +3,6 @@
 use App\Http\Controllers\Admin\CrudController;
 use Illuminate\Support\Facades\Route;
 
-//unauth pages
-Route::get('/scheduler', function()
-{
-    \Illuminate\Support\Facades\Artisan::call('schedule:run');
-});
-
 //Auth Routes
 Route::get('/login', [\App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'login']);

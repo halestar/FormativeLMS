@@ -7,6 +7,7 @@ use App\Models\People\Person;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Livewire\Attributes\Validate;
 use Livewire\Component;
 
 class AddressEditor extends Component
@@ -15,6 +16,7 @@ class AddressEditor extends Component
     public Collection $addresses;
     public ?Address $editing = null;
     public bool $adding = false;
+    #[Validate('required|max:255')]
     public string $line1 = "";
     public string $line2 = "";
     public string $line3 = "";

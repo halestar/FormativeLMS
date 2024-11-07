@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\CRUD\Ethnicity;
 use App\Models\CRUD\Gender;
 use App\Models\CRUD\Honors;
+use App\Models\CRUD\Level;
 use App\Models\CRUD\Pronouns;
 use App\Models\CRUD\Relationship;
 use App\Models\CRUD\Suffix;
@@ -83,6 +84,23 @@ class CrudSeeder extends Seeder
                 ['id' => Relationship::CHILD, 'name' => "Child"],
                 ['id' => Relationship::SPOUSE, 'name' => "Spouse"],
                 ['id' => Relationship::GRANDPARENT, 'name' => "Grandparent"],
+            ]);
+
+        Level::insert(
+            [
+                ['name' => '12th Grade'],
+                ['name' => '11th Grade'],
+                ['name' => '10th Grade'],
+                ['name' => '9th Grade'],
+                ['name' => '8th Grade'],
+                ['name' => '7th Grade'],
+                ['name' => '6th Grade'],
+                ['name' => '5th Grade'],
+                ['name' => '4th Grade'],
+                ['name' => '3rd Grade'],
+                ['name' => '2nd Grade'],
+                ['name' => '1st Grade'],
+                ['name' => 'Kindergarten'],
             ]);
 
     }

@@ -10,6 +10,7 @@ return
         'pronouns' => "Pronouns Table",
         'relationships' => "Relationships Table",
         'view_categories' => "Profile Categories",
+        'level' => "Grades|Grades",
         "now_editing" => "Editing",
         'autosort' => 'Auto Sort',
         'add' => 'New Entry',

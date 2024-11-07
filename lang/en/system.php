@@ -7,5 +7,7 @@ return
         'menu.crud' => 'CRUD',
         'menu.home' => 'Home',
         'menu.view_policies' => 'Viewing Policies',
-	    'school_directory' => 'School Directory'
+        'menu.campuses' => 'Campuses',
+	    'menu.school.directory' => 'School Directory',
+	    'menu.school.administration' => 'School Administration',
     ];

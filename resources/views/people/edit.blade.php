@@ -356,7 +356,7 @@
                             <livewire:address-editor :person="$person" />
                         </div>
                         <div class="mb-3 p-1">
-                            <livewire:phone-editor :person="$person" />
+                            <livewire:phone-editor :phoneable="$person" />
                         </div>
                     </div>
                     <div

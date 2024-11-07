@@ -55,8 +55,6 @@
                             {{ __('phones.mobile_phone') }}
                         </label>
                     </div>
-                </div>
-                <div class="col-3 mt-3">
                     <div class="form-check">
                         <input
                             class="form-check-input"
@@ -68,16 +66,18 @@
                             {{ __('phones.primary_phone') }}
                         </label>
                     </div>
-                    <div class="form-check">
+                </div>
+                <div class="col-3 mt-3">
+                    <div class="form-floating mb-0">
                         <input
-                            class="form-check-input"
-                            type="checkbox"
-                            id="work"
-                            wire:model="work"
+                            type="text"
+                            class="form-control"
+                            id="label"
+                            placeholder="{{ __('phones.label') }}"
+                            autocomplete="off"
+                            wire:model.live.debounce="label"
                         />
-                        <label class="form-check-label" for="work">
-                            {{ __('phones.work_phone') }}
-                        </label>
+                        <label for="label">{{ __('phones.label') }}</label>
                     </div>
                 </div>
                 <div class="col-md-6 mt-3 align-self-center text-end">
@@ -105,34 +105,74 @@
     @elseif($linking)
 
     @else
-        @foreach($phones as $phone)
-            <div class="border rounded p-2 mb-2 text-bg-secondary" wire:key="{{ $phone->id }}">
-                <div class=" d-flex justify-content-between align-items-center">
-                    <div>
-                        <strong>
-                            @if($phone->personal->primary){{ __('addresses.primary') }} @endif
-                            @if($phone->personal->work){{ __('addresses.work') }} @endif
-                            @if($phone->mobile){{ __('phones.mobile') }} @endif
-                            {{ __('phones.phone') }}
-                        </strong>
-                            {!! $phone->prettyPhone !!}
+        @if($phones->first() && $phones->first()->personal->primary)
+            <ul class="list-group mb-1 shadow ">
+                <li class="list-group-item text-bg-secondary border-2 border-primary-subtle" wire:key="{{ $phones->first()->id }}">
+                    <div class=" d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>
+                                {{ __('addresses.primary') }}
+                                @if($phones->first()->mobile){{ __('phones.mobile') }} @endif
+                                @if($phones->first()->personal->label){{ $phones->first()->personal->label }}@endif
+                                {{ __('phones.phone') }}
+                            </strong>
+                            {!! $phones->first()->prettyPhone !!}
+                        </div>
+                        <div>
+                            <button
+                                type="button"
+                                class="btn btn-sm btn-primary p-1"
+                                wire:click="editPhone({{ $phones->first()->id }})"
+                            ><i class="fa fa-edit"></i></button>
+                            <button
+                                type="button"
+                                class="btn btn-sm btn-danger p-1"
+                                wire:confirm="Are you sure you wish to unlink this phone?"
+                                wire:click="removePhone({{ $phones->first()->id }})"
+                            ><i class="fa fa-times"></i></button>
+                        </div>
                     </div>
-                    <div>
-                        <button
-                            type="button"
-                            class="btn btn-sm btn-primary p-1"
-                            wire:click="editPhone({{ $phone->id }})"
-                        ><i class="fa fa-edit"></i></button>
-                        <button
-                            type="button"
-                            class="btn btn-sm btn-danger p-1"
-                            wire:confirm="Are you sure you wish to unlink this phone?"
-                            wire:click="removePhone({{ $phone->id }})"
-                        ><i class="fa fa-times"></i></button>
+                </li>
+            </ul>
+        @endif
+        <ul class="list-group" wire:sortable="updatePhoneOrder">
+            @foreach($phones as $phone)
+                @if($loop->first && $phone->personal->primary)
+                    @continue
+                @endif
+                <li class="list-group-item text-bg-secondary" wire:key="{{ $phone->id }}" wire:sortable.item="{{ $phone->id }}">
+                    <div class=" d-flex justify-content-between align-items-center">
+                        <div>
+                            @if($loop->first)
+                                <span class="me-2">&nbsp;</span>
+                            @else
+                            <span wire:sortable.handle class="show-as-action me-2"><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                            @endif
+                            <strong>
+                                @if($phone->personal->primary){{ __('addresses.primary') }} @endif
+                                @if($phone->mobile){{ __('phones.mobile') }} @endif
+                                @if($phone->personal->label){{ $phone->personal->label }}@endif
+                                {{ __('phones.phone') }}
+                            </strong>
+                                {!! $phone->prettyPhone !!}
+                        </div>
+                        <div>
+                            <button
+                                type="button"
+                                class="btn btn-sm btn-primary p-1"
+                                wire:click="editPhone({{ $phone->id }})"
+                            ><i class="fa fa-edit"></i></button>
+                            <button
+                                type="button"
+                                class="btn btn-sm btn-danger p-1"
+                                wire:confirm="Are you sure you wish to unlink this phone?"
+                                wire:click="removePhone({{ $phone->id }})"
+                            ><i class="fa fa-times"></i></button>
+                        </div>
                     </div>
-                </div>
-            </div>
-        @endforeach
+                </li>
+            @endforeach
+        </ul>
         <div class="d-flex justify-content-center">
             <button
                 class="btn btn-success mx-auto"

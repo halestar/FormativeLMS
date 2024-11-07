@@ -46,7 +46,7 @@ class FamilySeeder extends Seeder
                     Person::factory()
                         ->count(2)
                         ->parents()
-                        ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => false, 'work' => true]),
+                        ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => false, 'label' => "Work"]),
                     ['relationship_id' => Relationship::CHILD], 'relationships'
                 )
                 ->attachParents()
@@ -66,7 +66,7 @@ class FamilySeeder extends Seeder
                     Person::factory()
                         ->count(2)
                         ->parents()
-                        ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => false, 'work' => true]),
+                        ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => false, 'label' => "Work"]),
                     ['relationship_id' => Relationship::CHILD], 'relationships'
                 )
                 ->attachParents()

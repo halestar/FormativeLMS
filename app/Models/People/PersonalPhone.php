@@ -2,38 +2,32 @@
 
 namespace App\Models\People;
 
-use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Database\Eloquent\Relations\MorphPivot;
 
-class PersonalPhone extends Pivot
+class PersonalPhone extends MorphPivot
 {
 
     public $timestamps = false;
-    protected $table = "people_phones";
+    protected $table = "phoneables";
     protected function casts(): array
     {
         return
             [
                 'primary' => 'boolean',
-                'work' => 'boolean',
             ];
     }
 
     protected $fillable =
         [
             'primary',
-            'work',
+            'label',
+            'order',
         ];
 
     public function phone(): BelongsTo
     {
         return $this->belongsTo(Phone::class, 'phone_id');
-    }
-
-    public function person(): BelongsTo
-    {
-        return $this->belongsTo(Person::class, 'person_id');
     }
 
     public function __toString(): string

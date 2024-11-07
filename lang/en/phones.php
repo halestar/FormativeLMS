@@ -7,7 +7,7 @@ return
     'ext' => 'Ext',
     'mobile_phone' => 'Mobile Phone',
     'primary_phone' => 'Primary Phone',
-    'work_phone' => 'Work Phone',
+    'label' => 'Phone Label',
     'add_phone' => 'Add Phone',
     'update_phone' => 'Update Phone',
     'mobile' => 'Mobile'

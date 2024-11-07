@@ -12,6 +12,7 @@ class PermissionSeeder extends Seeder
         [
             'Roles/Permissions',
             'Personal Information',
+            'Locations',
             'System',
         ];
     private static array $permissions =
@@ -37,6 +38,13 @@ class PermissionSeeder extends Seeder
                     ['name' => 'people.search', 'description' => 'Search for people in the system'],
                     ['name' => 'people.view.policies', 'description' => 'Admin access to View Policies'],
                     ['name' => 'people.assign.roles', 'description' => 'Ability to assign roles to users.'],
+                ],
+            'Locations' =>
+                [
+                    ['name' => 'locations.campuses', 'description' => 'Ability to edit campuses in the system'],
+                    ['name' => 'locations.years', 'description' => 'Ability to edit years in the system'],
+                    ['name' => 'locations.semesters', 'description' => 'Ability to edit semesters in the system'],
+                    ['name' => 'locations.rooms', 'description' => 'Ability to edit rooms in the system'],
                 ],
             'System' =>
                 [

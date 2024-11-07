@@ -16,7 +16,6 @@ auth.json
 npm-debug.log
 yarn-error.log
 .editorconfig
-app.yaml
 cloudbuild.yaml
 cron.yaml
 dispatch.yaml

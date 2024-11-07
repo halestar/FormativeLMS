@@ -27,7 +27,7 @@ class PersonController extends Controller
     public function index()
     {
         Gate::authorize('viewAny', Person::class);
-        $breadcrumb = [ "School Directory" => "#" ];
+        $breadcrumb = [ __('people.school.directory') => "#" ];
         $people = Person::paginate(10);
         $self = Auth::user();
         return view('people.index', compact('breadcrumb', 'people', 'self'));

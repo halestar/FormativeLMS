@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -44,8 +43,21 @@
                         @auth
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('people.index') }}" >
-                                    {{ __('system.school_directory') }}
+                                    {{ __('system.menu.school.directory') }}
                                 </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a id="adminDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ __('system.menu.school.administration') }}
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="adminDD">
+                                    @can('campuses')
+                                        <a class="dropdown-item" href="{{ route('locations.campuses.index') }}">
+                                            {{ __('system.menu.campuses') }}
+                                        </a>
+                                    @endcan
+                                </div>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="adminDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -156,7 +168,7 @@
         </main>
         <div class="toast-container position-fixed bottom-0 end-0 p-3">
             @session('success-status')
-            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" id="success-toast">
                 <div class="toast-header bg-primary-subtle">
                     <img src="/images/fablms-32.png" class="rounded me-2" alt="fablms-logo">
                     <strong class="me-auto">{{ __('common.success') }}</strong>
@@ -166,6 +178,15 @@
                     {{ $value }}
                 </div>
             </div>
+            <script>
+                $(document).ready(function()
+                {
+                    setTimeout(function()
+                    {
+                        $('#success-toast').hide();
+                    }, 3000)
+                })
+            </script>
             @endsession
         </div>
     </div>

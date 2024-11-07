@@ -11,14 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('people_phones', function (Blueprint $table) {
-            $table->bigInteger('person_id')->unsigned();
-            $table->foreign('person_id')->references('id')->on('people')->onDelete('cascade');
+        Schema::create('phoneables', function (Blueprint $table) {
             $table->bigInteger('phone_id')->unsigned();
             $table->foreign('phone_id')->references('id')->on('phones')->onDelete('cascade');
+            $table->bigInteger('phoneable_id')->unsigned()->index();
+            $table->string('phoneable_type');
             $table->boolean('primary')->default(true);
-            $table->boolean('work')->default(false);
-            $table->primary(['person_id', 'phone_id']);
+            $table->string('label')->nullable();
+            $table->tinyInteger('order')->unsigned()->default(1);
+            $table->primary(['phone_id', 'phoneable_id', 'phoneable_type']);
         });
     }
 
@@ -27,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('people_phones');
+        Schema::dropIfExists('phoneables');
     }
 };

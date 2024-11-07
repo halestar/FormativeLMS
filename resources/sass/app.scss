@@ -74,6 +74,16 @@
     opacity: 0.5;
 }
 
+.profile-img .input-group {
+    position: relative;
+    overflow: hidden;
+    margin-top: -10%;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+}
+
 .profile-head h5{
     color: #333;
 }
@@ -128,5 +138,36 @@
 }
 
 .img-mini{
-    height: 32px;
+    max-height: 3em;
+    max-width: 3em;
+    height: 3em;
+    width: 3em;
+}
+.img-mini svg
+{
+    fill: currentColor;
+}
+
+.img-tiny{
+    max-height: 2em;
+    max-width: 2em;
+}
+.img-smallest{
+    max-height: 1em;
+    max-width: 1em;
+}
+
+.img-mini svg,
+.img-tiny svg,
+.img-smallest svg,
+{
+    fill: currentColor;
+}
+
+
+.campus-back-img
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }

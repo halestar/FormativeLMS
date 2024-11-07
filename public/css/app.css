@@ -2172,7 +2172,7 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?39795c0b4513de014cf8685fc
   --bs-tertiary-color-rgb: 73, 80, 87;
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
-  --bs-heading-color: #2fa4e7;
+  --bs-heading-color: #033c73;
   --bs-link-color: #2fa4e7;
   --bs-link-color-rgb: 47, 164, 231;
   --bs-link-decoration: underline;
@@ -7910,7 +7910,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 0.9rem;
-  --bs-popover-header-color: #2fa4e7;
+  --bs-popover-header-color: #033c73;
   --bs-popover-header-bg: var(--bs-secondary-bg);
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
@@ -14365,6 +14365,16 @@ textarea.form-control-lg {
   opacity: 0.5;
 }
 
+.profile-img .input-group {
+  position: relative;
+  overflow: hidden;
+  margin-top: -10%;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+}
+
 .profile-head h5, .profile-head .h5 {
   color: #333;
 }
@@ -14428,5 +14438,34 @@ textarea.form-control-lg {
 }
 
 .img-mini {
-  height: 32px;
+  max-height: 3em;
+  max-width: 3em;
+  height: 3em;
+  width: 3em;
+}
+
+.img-mini svg {
+  fill: currentColor;
+}
+
+.img-tiny {
+  max-height: 2em;
+  max-width: 2em;
+}
+
+.img-smallest {
+  max-height: 1em;
+  max-width: 1em;
+}
+
+.img-mini svg,
+.img-tiny svg,
+.img-smallest svg {
+  fill: currentColor;
+}
+
+.campus-back-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }

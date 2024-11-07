@@ -96,5 +96,7 @@ return
     'delete_relationship_and_its_reciprocal' => 'Delete relationship and its reciprocal',
     'add_new_relationship' => 'Add New Relationship',
     'assign_roles_to_users' => 'Assign Roles to Users',
-    'editing_roles' => 'Editing Roles'
+    'editing_roles' => 'Editing Roles',
+
+    "school.directory" => "School Directory",
 ];

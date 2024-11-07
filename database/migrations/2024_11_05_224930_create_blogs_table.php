@@ -26,6 +26,13 @@ return new class extends Migration
                 ->references('id')
                 ->on(config('dicms.table_prefix') . 'pages')
                 ->onDelete('set null');
+            $table->bigInteger('archive_id')->unsigned()->nullable();
+            $table->foreign('archive_id')
+                ->references('id')
+                ->on(config('dicms.table_prefix') . 'pages')
+                ->onDelete('set null');
+            $table->boolean('auto_archive')->default(true);
+            $table->tinyInteger('archive_after')->unsigned()->default(5);
             $table->timestamps();
         });
     }
