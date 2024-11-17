@@ -27,8 +27,7 @@ Route::resource('buildings', BuildingController::class)->except(['create', 'upda
 
 //Building Areas
 Route::get('/maps/area/{area}', [AreaController::class, 'areaMap'])
-    ->name('maps.area')
-    ->middleware('can:locations.area');
+    ->name('maps.area');
 Route::resource('areas', AreaController::class)->only('show');
 
 //Rooms

@@ -27,6 +27,8 @@ class AreaController extends Controller
 
     public function areaMap(BuildingArea $area)
     {
+        if(!Gate::allows('has-permission', 'locations.areas'))
+            return response()->json([], 401);
         return new BuildingAreaResource($area);
     }
 }

@@ -56,7 +56,12 @@ class SchoolRoles extends Role
             "Student" => [],
             "Employee" => [],
             "Faculty" => [],
-            "Staff" => ['settings.permissions.view', 'settings.roles.view','crud', 'locations.campuses', 'locations.years', 'locations.terms'],
+            "Staff" =>
+                [
+                    'settings.permissions.view', 'settings.roles.view', 'crud',
+                    'locations.campuses', 'locations.years', 'locations.terms',
+                    'locations.buildings', 'locations.areas', 'locations.rooms',
+                ],
             "Coach" => [],
             "Parent" => [],
             "Old Student" => [],
