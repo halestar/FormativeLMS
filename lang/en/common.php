@@ -31,5 +31,6 @@ return [
     'disabled' => 'Disabled',
     'warning' => 'Warning!',
 	'adding' => 'Adding',
+    'linking' => 'Linking',
     'to' => 'to'
 ];

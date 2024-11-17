@@ -3054,6 +3054,8 @@ window.$ = window.jQuery = (jquery__WEBPACK_IMPORTED_MODULE_1___default());
 
 window.axios = axios__WEBPACK_IMPORTED_MODULE_2__["default"];
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.axios.defaults.withCredentials = true;
+window.axios.defaults.withXSRFToken = true;
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

@@ -3,36 +3,47 @@
 namespace App\Livewire;
 
 use App\Models\People\Address;
-use App\Models\People\Person;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Log;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
 
 class AddressEditor extends Component
 {
-    public Person $person;
+    public mixed $addressable;
     public Collection $addresses;
     public ?Address $editing = null;
     public bool $adding = false;
+    public ?Address $primaryAddress = null;
     #[Validate('required|max:255')]
-    public string $line1 = "";
-    public string $line2 = "";
-    public string $line3 = "";
-    public string $city = "";
-    public string $state = "";
-    public string $zip = "";
-    public string $country = "";
+    public ?string $line1 = "";
+    public ?string $line2 = "";
+    public ?string $line3 = "";
+    public ?string $city = "";
+    public ?string $state = "";
+    public ?string $zip = "";
+    public ?string $country = "";
     public bool $primary = false;
-    public bool $work = false;
+    public ?string $label = null;
     public ?Address $linking = null;
+    public bool $singleAddressable;
 
-    public function mount(Person $person):void
+    public function mount(mixed $addressable):void
     {
-        $this->person = $person;
-        $this->addresses = $person->addresses;
+        $this->addressable = $addressable;
+        $this->singleAddressable = $this->addressable->isSingleAddressable();
+        $this->addresses = $this->singleAddressable? collect($this->addressable->address): $this->addressable->addresses;
         $this->country = config('lms.default_country');
+        if($this->addresses->count() == 0)
+            $this->adding = true;
+        $this->determinePrimary();
+    }
+
+    private function determinePrimary()
+    {
+        if($this->singleAddressable)
+            $this->primaryAddress = $this->addressable->address;
+        else
+            $this->primaryAddress = $this->addressable->addresses()->wherePivot('primary', true)->first();
     }
 
     public function clearForm()
@@ -48,8 +59,11 @@ class AddressEditor extends Component
         $this->zip = "";
         $this->country = config('lms.default_country');
         $this->primary = false;
-        $this->work = false;
-        $this->addresses = $this->person->addresses;
+        $this->label = null;
+        $this->addresses = $this->singleAddressable? collect($this->addressable->address): $this->addressable->addresses;
+        if($this->addresses->count() == 0)
+            $this->adding = true;
+        $this->determinePrimary();
     }
 
     public function addAddress()
@@ -66,18 +80,30 @@ class AddressEditor extends Component
                 'country' => $this->country,
             ]);
         $newAddress->save();
-        if($this->primary)
+        if($this->singleAddressable)
         {
-            //we need to make the other ones not-primary
-            DB::update("UPDATE people_addresses SET people_addresses.primary=0 WHERE person_id=?", [$this->person->id]);
+            $this->addressable->address()->associate($newAddress->id);
+            $this->addressable->save();
         }
-        $this->person->addresses()->save($newAddress, ['primary' => $this->primary,'work' => $this->work]);
+        else
+        {
+            $order = $this->addressable->addresses()->count();
+            $this->addressable->addresses()->attach($newAddress,
+                [
+                    'primary' => $this->primary,
+                    'label' => $this->label,
+                    'order' => $order,
+                ]);
+            if($this->primary)
+                $this->addressable->makeAddressPrimary($newAddress);
+        }
+
         $this->clearForm();
     }
 
     public function editAddress(Address $address)
     {
-        $this->editing = $this->person->addresses()->find($address->id);
+        $this->editing = $this->singleAddressable? $this->addressable->address: $this->addressable->addresses()->find($address->id);
         $this->line1 = $address->line1;
         $this->line2 = $address->line2;
         $this->line3 = $address->line3;
@@ -85,8 +111,11 @@ class AddressEditor extends Component
         $this->state = $address->state;
         $this->zip = $address->zip;
         $this->country = $address->country;
-        $this->primary = $this->editing->personal->primary;
-        $this->work = $this->editing->personal->work;
+        if(!$this->singleAddressable)
+        {
+            $this->primary = $this->editing->personal->primary;
+            $this->label = $this->editing->personal->label;
+        }
     }
 
     public function updateAddress()
@@ -99,39 +128,86 @@ class AddressEditor extends Component
         $this->editing->zip = $this->zip;
         $this->editing->country = $this->country;
         $this->editing->save();
-        $this->person->addresses()
-            ->updateExistingPivot($this->editing->id, ['primary' => $this->primary,'work' => $this->work]);
+        if(!$this->singleAddressable)
+        {
+            $this->addressable->addresses()
+                ->updateExistingPivot($this->editing->id, ['primary' => $this->primary,'label' => $this->label]);
+            if($this->primary)
+                $this->addressable->makeAddressPrimary($this->editing);
+        }
         $this->clearForm();
     }
 
     public function removeAddress(Address $address)
     {
-        $this->person->addresses()->detach($address);
-        if($address->people()->count() == 0)
+        if($this->singleAddressable)
+        {
+            $this->addressable->address()->dissociate();
+            $this->addressable->save();
+        }
+        else
+            $this->addressable->addresses()->detach($address);
+        if($address->canDelete())
             $address->delete();
         $this->clearForm();
     }
 
     public function suggestAddresses()
     {
-         $suggestions = Address::where('line1', 'LIKE',  '%' . $this->line1 . '%')
-            ->orWhere('line2', 'LIKE',  '%' . $this->line1 . '%')
-            ->orWhere('line3', 'LIKE',  '%' . $this->line1 . '%')
-            ->limit(10);
-         return $suggestions->get();
+        $query = Address::where(function ($query)
+        {
+            $query->where('line1', 'LIKE',  '%' . $this->line1 . '%')
+                ->orWhere('line2', 'LIKE',  '%' . $this->line1 . '%')
+                ->orWhere('line3', 'LIKE',  '%' . $this->line1 . '%');
+        });
+
+        if($this->editing)
+            $query->whereNot('id', $this->editing->id);
+        return $query->limit(10)->get();
     }
 
     public function setLinking(Address $address)
     {
         $this->clearForm();
+        $this->adding = false;
         $this->linking = $address;
     }
 
     public function linkAddress()
     {
         if($this->linking)
-            $this->person->addresses()->attach($this->linking, ['primary' => $this->primary,'work' => $this->work]);
+        {
+            if($this->singleAddressable)
+            {
+                $this->addressable->address()->associate($this->linking);
+                $this->addressable->save();
+            }
+            else
+            {
+                $order = $this->phoneable->phones()->count();
+                $this->addressable->addresses()->attach($this->linking,
+                    [
+                        'primary' => $this->primary,
+                        'label' => $this->label,
+                        'order' => $order,
+                    ]);
+            }
+        }
         $this->clearForm();
+    }
+
+    public function updateAddressOrder($models)
+    {
+        if(!$this->singleAddressable)
+        {
+            foreach ($models as $model)
+            {
+                $this->addressable->addresses()
+                    ->updateExistingPivot($model['value'], ['order' => $model['order']]);
+            }
+            $this->addresses = $this->addressable->addresses;
+            $this->determinePrimary();
+        }
     }
 
     public function render()

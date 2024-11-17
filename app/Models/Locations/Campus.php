@@ -2,25 +2,21 @@
 
 namespace App\Models\Locations;
 
-use App\Casts\LogItem;
 use App\Models\CRUD\Level;
-use App\Models\People\Address;
-use App\Models\People\PersonalPhone;
-use App\Models\People\Phone;
 use App\Models\Scopes\OrderByOrderScope;
+use App\Traits\Addressable;
 use App\Traits\Phoneable;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Casts\Attribute;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Collection;
 
 #[ScopedBy(OrderByOrderScope::class)]
 class Campus extends Model
 {
-    use Phoneable;
+    use Phoneable, Addressable;
     public $timestamps = true;
     protected $table = "campuses";
     protected $primaryKey = "id";
@@ -35,13 +31,6 @@ class Campus extends Model
             'img',
             'color_pri',
             'color_sec',
-            'line1',
-            'line2',
-            'line3',
-            'city',
-            'state',
-            'zip',
-            'country',
         ];
 
     protected function casts(): array
@@ -71,54 +60,65 @@ class Campus extends Model
         return true;
     }
 
-    public function prettyAddress($includeCountry = true): string
-    {
-        $address = null;
-        if($this->line1)
-            $address = $this->line1;
-        if($this->line2)
-            $address = ($address? $address . "\n": "") . $this->line2;
-        if($this->line3)
-            $address = ($address? $address . "\n": "") . $this->line3;
-
-        if($this->city)
-            $address = ($address? $address . "\n": "") . $this->city;
-
-        if($this->state)
-        {
-            if($this->city)
-                $address .= ", " . $this->state;
-            elseif($address)
-                $address .= "\n" . $this->state;
-            else
-                $address = $this->state;
-        }
-
-        if($this->zip)
-        {
-            if($this->state)
-                $address .= " " . $this->zip;
-            elseif($this->city)
-                $address .= ", " . $this->zip;
-            elseif($address)
-                $address .= "\n" . $this->zip;
-            else
-                $address .= $this->zip;
-        }
-
-        if($includeCountry)
-        {
-            if($address)
-                $address .= "\n" . $this->country;
-            else
-                $address .= $this->country;
-        }
-
-        return $address;
-    }
-
     public function canRemoveLevel(Level|int $level): bool
     {
         return true;
+    }
+
+    public function terms():HasMany
+    {
+        return $this->hasMany(Term::class, 'campus_id');
+    }
+
+    public function yearTerms(Year $year): HasMany
+    {
+        return $this->terms()->where('year_id', $year->id);
+    }
+
+    public function years(): BelongsToMany
+    {
+        return $this->belongsToMany(Year::class, 'campuses_years', 'campus_id', 'year_id')
+            ->groupBy('years.id');
+    }
+
+    public function iconHtml($size = "normal", $css = null): string
+    {
+        return '<div class="border rounded p-2 icon-container ' . $css . '" style="background-color:' .
+                $this->color_pri . ';"><div class="campus-icon-' . $size .
+                '" style="color: ' . $this->color_sec . ';">' . $this->icon . '</div></div>';
+    }
+
+    public function rooms(): BelongsToMany
+    {
+        return $this->belongsToMany(Room::class, 'campuses_rooms', 'campus_id', 'room_id')
+            ->using(CampusRoom::class)
+            ->as('info')
+            ->withPivot(
+                [
+                    'label', 'classroom',
+                ]);
+    }
+
+    public function buildings(): Collection
+    {
+        return Building::select('buildings.*')
+            ->join('buildings_areas', 'buildings.id', '=', 'buildings_areas.building_id')
+            ->join('rooms', 'rooms.area_id', '=', 'buildings_areas.id')
+            ->join('campuses_rooms', 'rooms.id', '=', 'campuses_rooms.room_id')
+            ->where('campuses_rooms.campus_id', $this->id)
+            ->groupBy('buildings.id')
+            ->get();
+    }
+
+    public function buildingAreas(Building $building = null): Collection
+    {
+        $query = BuildingArea::select('buildings_areas.*')
+            ->join('rooms', 'rooms.area_id', '=', 'buildings_areas.id')
+            ->join('campuses_rooms', 'rooms.id', '=', 'campuses_rooms.room_id')
+            ->where('campuses_rooms.campus_id', $this->id);
+        if($building)
+            $query->where('buildings_areas.building_id', $building->id);
+        $query->groupBy('buildings_areas.id');
+        return $query->get();
     }
 }

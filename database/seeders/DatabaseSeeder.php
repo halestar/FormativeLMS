@@ -3,8 +3,9 @@
 namespace Database\Seeders;
 
 use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class DatabaseSeeder extends Seeder
 {
@@ -18,7 +19,10 @@ class DatabaseSeeder extends Seeder
                 PermissionSeeder::class,
                 RoleSeeder::class,
                 CrudSeeder::class,
+                BuildingSeeder::class,
                 CampusSeeder::class,
+                YearSeeder::class,
+                RoomSeeder::class,
                 AdminSeeder::class,
                 FacultySeeder::class,
                 StaffSeeder::class,

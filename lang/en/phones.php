@@ -10,5 +10,6 @@ return
     'label' => 'Phone Label',
     'add_phone' => 'Add Phone',
     'update_phone' => 'Update Phone',
-    'mobile' => 'Mobile'
+    'mobile' => 'Mobile',
+    'link' => 'Link',
 ];

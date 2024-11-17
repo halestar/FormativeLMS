@@ -137,31 +137,15 @@
     color: #0062cc;
 }
 
-.img-mini{
-    max-height: 3em;
-    max-width: 3em;
-    height: 3em;
-    width: 3em;
-}
-.img-mini svg
-{
-    fill: currentColor;
-}
-
-.img-tiny{
-    max-height: 2em;
-    max-width: 2em;
-}
-.img-smallest{
-    max-height: 1em;
-    max-width: 1em;
-}
-
-.img-mini svg,
-.img-tiny svg,
-.img-smallest svg,
-{
-    fill: currentColor;
+$campus-icon-sizes: ("xl": 3em, "large": 2em, "normal": 1em, "small": 0.5em, "tiny": 0.25em);
+@each $name, $size in $campus-icon-sizes {
+    .campus-icon-#{$name} {
+        max-width: $size;
+        width: $size;
+    }
+    .campus-icon-#{$name} svg{
+        fill: currentColor;
+    }
 }
 
 
@@ -170,4 +154,15 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.blueprint-container
+{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
 }

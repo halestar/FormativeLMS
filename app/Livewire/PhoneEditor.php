@@ -2,11 +2,8 @@
 
 namespace App\Livewire;
 
-use App\Models\People\Address;
-use App\Models\People\Person;
 use App\Models\People\Phone;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Livewire\Component;
 
@@ -15,6 +12,7 @@ class PhoneEditor extends Component
     public mixed $phoneable;
     public Collection $phones;
     public ?Phone $editing = null;
+    public ?Phone $primaryPhone = null;
     public bool $adding = false;
     public string $phone = "";
     public ?string $ext = "";
@@ -22,11 +20,24 @@ class PhoneEditor extends Component
     public bool $primary = false;
     public string $label = "";
     public ?Phone $linking = null;
+    public bool $singlePhoneable;
 
     public function mount(mixed $phoneable):void
     {
         $this->phoneable = $phoneable;
-        $this->phones = $phoneable->phones;
+        $this->singlePhoneable = $this->phoneable->isSinglePhoneable();
+        $this->phones = $this->singlePhoneable? collect($this->phoneable->phone): $this->phoneable->phones;
+        if($this->phones->count() == 0)
+            $this->adding = true;
+        $this->determinePrimary();
+    }
+
+    private function determinePrimary()
+    {
+        if($this->singlePhoneable)
+            $this->primaryPhone = $this->phoneable->phone;
+        else
+            $this->primaryPhone = $this->phoneable->phones()->wherePivot('primary', true)->first();
     }
 
     public function clearForm()
@@ -39,7 +50,10 @@ class PhoneEditor extends Component
         $this->primary = false;
         $this->label = "";
         $this->mobile = false;
-        $this->phones = $this->phoneable->phones;
+        $this->phones = $this->singlePhoneable? collect($this->phoneable->phone): $this->phoneable->phones;
+        if($this->phones->count() == 0)
+            $this->adding = true;
+        $this->determinePrimary();
     }
 
     public function suggestPhone()
@@ -61,15 +75,23 @@ class PhoneEditor extends Component
                 'mobile' => $this->mobile,
             ]);
         $newPhone->save();
-        $order = $this->phoneable->phones()->count();
-        $this->phoneable->phones()->attach($newPhone,
-            [
-                'primary' => $this->primary,
-                'label' => $this->label,
-                'order' => $order,
-            ]);
-        if($this->primary)
-            $this->phoneable->makePrimary($newPhone);
+        if($this->singlePhoneable)
+        {
+            $this->phoneable->phone()->associate($newPhone->id);
+            $this->phoneable->save();
+        }
+        else
+        {
+            $order = $this->phoneable->phones()->count();
+            $this->phoneable->phones()->attach($newPhone,
+                [
+                    'primary' => $this->primary,
+                    'label' => $this->label,
+                    'order' => $order,
+                ]);
+            if ($this->primary)
+                $this->phoneable->makePhonePrimary($newPhone);
+        }
         $this->clearForm();
     }
 
@@ -89,16 +111,25 @@ class PhoneEditor extends Component
         $this->editing->ext = $this->ext;
         $this->editing->mobile = $this->mobile;
         $this->editing->save();
-        $this->phoneable->phones()
-            ->updateExistingPivot($this->editing->id, ['primary' => $this->primary,'label' => $this->label]);
-        if($this->primary)
-            $this->phoneable->makePrimary($this->editing);
+        if(!$this->singlePhoneable)
+        {
+            $this->phoneable->phones()
+                ->updateExistingPivot($this->editing->id, ['primary' => $this->primary, 'label' => $this->label]);
+            if ($this->primary)
+                $this->phoneable->makePhonePrimary($this->editing);
+        }
         $this->clearForm();
     }
 
     public function removePhone(Phone $phone)
     {
-        $this->phoneable->phones()->detach($phone);
+        if($this->singlePhoneable)
+        {
+            $this->phoneable->phone()->dissociate();
+            $this->phoneable->save();
+        }
+        else
+            $this->phoneable->phones()->detach($phone);
         if($phone->canDelete())
             $phone->delete();
         $this->clearForm();
@@ -107,6 +138,7 @@ class PhoneEditor extends Component
     public function setLinking(Phone $phone)
     {
         $this->clearForm();
+        $this->adding = false;
         $this->linking = $phone;
     }
 
@@ -114,13 +146,21 @@ class PhoneEditor extends Component
     {
         if($this->linking)
         {
-            $order = $this->phoneable->phones()->count();
-            $this->phoneable->phones()->attach($this->linking,
-                [
-                    'primary' => $this->primary,
-                    'label' => $this->label,
-                    'order' => $order,
-                ]);
+            if($this->singlePhoneable)
+            {
+                $this->phoneable->phone()->associate($this->linking);
+                $this->phoneable->save();
+            }
+            else
+            {
+                $order = $this->phoneable->phones()->count();
+                $this->phoneable->phones()->attach($this->linking,
+                    [
+                        'primary' => $this->primary,
+                        'label' => $this->label,
+                        'order' => $order,
+                    ]);
+            }
         }
         $this->clearForm();
     }

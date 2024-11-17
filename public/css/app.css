@@ -14437,30 +14437,48 @@ textarea.form-control-lg {
   color: #0062cc;
 }
 
-.img-mini {
-  max-height: 3em;
+.campus-icon-xl {
   max-width: 3em;
-  height: 3em;
   width: 3em;
 }
 
-.img-mini svg {
+.campus-icon-xl svg {
   fill: currentColor;
 }
 
-.img-tiny {
-  max-height: 2em;
+.campus-icon-large {
   max-width: 2em;
+  width: 2em;
 }
 
-.img-smallest {
-  max-height: 1em;
+.campus-icon-large svg {
+  fill: currentColor;
+}
+
+.campus-icon-normal {
   max-width: 1em;
+  width: 1em;
 }
 
-.img-mini svg,
-.img-tiny svg,
-.img-smallest svg {
+.campus-icon-normal svg {
+  fill: currentColor;
+}
+
+.campus-icon-small {
+  max-width: 0.5em;
+  width: 0.5em;
+}
+
+.campus-icon-small svg {
+  fill: currentColor;
+}
+
+.campus-icon-tiny {
+  max-width: 0.25em;
+  width: 0.25em;
+}
+
+.campus-icon-tiny svg {
   fill: currentColor;
 }
 
@@ -14468,4 +14486,14 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.blueprint-container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 2px solid black;
 }

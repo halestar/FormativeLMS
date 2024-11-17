@@ -22,13 +22,6 @@ return new class extends Migration
             $table->text('icon')->nullable();
             $table->string('color_pri')->default('#000000');
             $table->string('color_sec')->default('#ffffff');
-            $table->string('line1')->nullable();
-            $table->string('line2')->nullable();
-            $table->string('line3')->nullable();
-            $table->string('city')->nullable();
-            $table->string('state')->nullable();
-            $table->string('zip')->nullable();
-            $table->string('country')->nullable();
             $table->timestamps();
         });
     }

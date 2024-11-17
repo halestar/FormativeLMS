@@ -5,6 +5,7 @@
         <div class="row profile-head-row">
             <div class="col-md-4">
                 <div class="profile-img">
+                    <!-------- Campus Image -->
                     <img
                         class="img-fluid img-thumbnail"
                         src="{{ $campus->img }}"
@@ -29,6 +30,8 @@
                     </form>
                 </div>
             </div>
+
+            <!-------- Basic Info Form -->
             <div class="col-md-6">
                 <div class="profile-head d-flex align-items-start flex-column h-100">
                     <form
@@ -88,6 +91,8 @@
                             </div>
                         </h6>
                     </form>
+
+                    <!-------- Tabs -->
                     <ul class="nav nav-tabs mt-auto" id="profile-tab" role="tablist">
                         <li class="nav-item">
                             <a
@@ -110,12 +115,26 @@
                                 href="#tab-pane-levels"
                                 role="tab"
                                 aria-controls="#tab-pane-levels"
-                                aria-selected="true"
+                                aria-selected="false"
                             >{{ __('locations.campus.information.levels') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="tab-rooms"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tab-pane-rooms"
+                                href="#tab-pane-rooms"
+                                role="tab"
+                                aria-controls="#tab-pane-rooms"
+                                aria-selected="false"
+                            >{{ trans_choice('locations.rooms', 2) }}</a>
                         </li>
                     </ul>
                 </div>
             </div>
+
+            <!-------- Edit Button -->
             <div class="col-md-2">
                 <a
                     type="button"
@@ -125,6 +144,8 @@
             </div>
         </div>
         <div class="row">
+
+            <!-------- Side Menu -->
             <div class="col-md-4">
                 <div class="profile-work">
                     <form
@@ -135,9 +156,7 @@
                     >
                         @csrf
                         @method('PUT')
-                        <div class="border rounded p-2 align-self-center" style="background-color: {{ $campus->color_pri }};" id="icon-container">
-                            <div class="img-mini" style="color: {{ $campus->color_sec }};">{!! $campus->icon !!}</div>
-                        </div>
+                        {!! $campus->iconHtml("xl", "align-self-center") !!}
                         <strong class="align-self-center">{{ __('locations.campus.icon') }}</strong>
                         <div class="form-floating">
                             <input
@@ -147,7 +166,7 @@
                                 name="color_pri"
                                 placeholder="{{ __('locations.campus.color_pri') }}"
                                 value="{{ $campus->color_pri }}"
-                                onchange="$('#icon-container').css('background-color', $(this).val())"
+                                onchange="$('.icon-container').css('background-color', $(this).val())"
                             />
                             <label for="abbr">{{ __('locations.campus.color_pri') }}</label>
                         </div>
@@ -159,7 +178,7 @@
                                 name="color_sec"
                                 placeholder="{{ __('locations.campus.color_sec') }}"
                                 value="{{ $campus->color_sec }}"
-                                onchange="$('#icon-container .img-mini').css('color', $(this).val())"
+                                onchange="$('.icon-container .campus-icon-xl').css('color', $(this).val())"
                             />
                             <label for="abbr">{{ __('locations.campus.color_sec') }}</label>
                         </div>
@@ -183,124 +202,19 @@
                 </div>
             </div>
             <div class="col-md-6">
+                <!-------- Tab Content -->
                 <div class="tab-content profile-tab" id="profile-tab-content">
                     <div
                         class="tab-pane fade show active"
                         id="tab-pane-contact" role="tabpanel" aria-labelledby="tab-contact" tabindex="0"
                     >
-                        <form
-                            class="border rounded p-2 text-bg-light mb-3"
-                            action="{{ route('locations.campuses.update.address', ['campus' => $campus->id]) }}"
-                            method="POST"
-                        >
-                            @csrf
-                            @method('PUT')
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-floating mb-0">
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="line1"
-                                            name="line1"
-                                            placeholder="{{ __('addresses.street_address') }}"
-                                            autocomplete="off"
-                                            value="{{ $campus->line1 }}"
-                                        />
-                                        <label for="line1">{{ __('addresses.address_line_1') }}</label>
-                                    </div>
-                                </div>
+                        <div class="mb-3 p-1">
+                            <livewire:address-editor :addressable="$campus" />
+                        </div>
 
-                                <div class="col-md-12 mt-3">
-                                    <div class="form-floating mb-3">
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="line2"
-                                            name="line2"
-                                            placeholder="{{ __('addresses.address_line_2') }}"
-                                            value="{{ $campus->line2 }}"
-                                        />
-                                        <label for="line2">{{ __('addresses.address_line_2') }}</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="form-floating mb-3">
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="line3"
-                                            name="line3"
-                                            placeholder="{{ __('addresses.address_line_3') }}"
-                                            value="{{ $campus->line3 }}"
-                                        />
-                                        <label for="line3">{{ __('addresses.address_line_3') }}</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-floating mb-3">
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="city"
-                                            name="city"
-                                            placeholder="{{ __('addresses.city') }}"
-                                            value="{{ $campus->city }}"
-                                        />
-                                        <label for="city" class="form-label">{{ __('addresses.city') }}</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-floating mb-3">
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="state"
-                                            name="state"
-                                            placeholder="{{ __('addresses.state') }}"
-                                            value="{{ $campus->state }}"
-                                        />
-                                        <label for="state" class="form-label">{{ __('addresses.state') }}</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-floating mb-3">
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="zip"
-                                            name="zip"
-                                            placeholder="{{ __('addresses.zip') }}"
-                                            value="{{ $campus->zip }}"
-                                        >
-                                        <label for="zip" class="form-label">{{ __('addresses.zip') }}</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-floating mb-3">
-                                        <input
-                                            type="text"
-                                            class="form-control"
-                                            id="country"
-                                            name="country"
-                                            placeholder="{{ __('addresses.country') }}"
-                                            value="{{ $campus->country }}"
-                                        />
-                                        <label for="country" class="form-label">{{ __('addresses.country') }}</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 align-self-center text-center">
-                                    <button
-                                        type="submit"
-                                        class="btn btn-primary"
-                                    >{{ __('addresses.update_address') }}</button>
-                                </div>
-                            </div>
-                        </form>
-                        <livewire:phone-editor :phoneable="$campus" />
+                        <div class="mb-3 p-1">
+                            <livewire:phone-editor :phoneable="$campus" />
+                        </div>
                     </div>
                     <div
                         class="tab-pane fade"
@@ -334,6 +248,9 @@
                                                 @endif
                                             />
                                         </span>
+                                        @if(!$campus->canRemoveLevel($level))
+                                            <input type="hidden" name="areas[]" value="{{ $level->id }}" />
+                                        @endif
                                     </div>
                                 </li>
                                 @endforeach
@@ -341,6 +258,15 @@
                             <button type="submit" class=" mt-3 btn btn-primary w-100">{{ __('common.update') }}</button>
                         </form>
                     </div>
+                    <div
+                        class="tab-pane fade"
+                        id="tab-pane-rooms" role="tabpanel" aria-labelledby="tab-rooms" tabindex="0"
+                    >
+                        <div class="mb-3 p-1">
+                            <livewire:locations.campus-room-assigner :campus="$campus" />
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

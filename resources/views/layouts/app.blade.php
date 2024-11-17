@@ -52,9 +52,19 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="adminDD">
-                                    @can('campuses')
+                                    @can('locations.campuses')
                                         <a class="dropdown-item" href="{{ route('locations.campuses.index') }}">
                                             {{ __('system.menu.campuses') }}
+                                        </a>
+                                    @endcan
+                                    @can('locations.years')
+                                        <a class="dropdown-item" href="{{ route('locations.years.index') }}">
+                                            {{ __('system.menu.years') }}
+                                        </a>
+                                    @endcan
+                                    @can('locations.buildings')
+                                        <a class="dropdown-item" href="{{ route('locations.buildings.index') }}">
+                                            {{ __('system.menu.rooms') }}
                                         </a>
                                     @endcan
                                 </div>

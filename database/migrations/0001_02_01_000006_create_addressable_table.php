@@ -11,17 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('people_addresses', function (Blueprint $table) {
-            $table->bigInteger('person_id')->unsigned();
-            $table->foreign('person_id')->references('id')->on('people')->onDelete('cascade');
+        Schema::create('addressable', function (Blueprint $table) {
             $table->bigInteger('address_id')->unsigned();
             $table->foreign('address_id')->references('id')->on('addresses')->onDelete('cascade');
+            $table->bigInteger('addressable_id')->unsigned()->index();
+            $table->string('addressable_type');
             $table->boolean('primary')->default(true);
-            $table->boolean('work')->default(false);
-            $table->boolean('seasonal')->default(false);
-            $table->date('season_start')->nullable();
-            $table->date('season_end')->nullable();
-            $table->primary(['person_id', 'address_id']);
+            $table->string('label')->nullable();
+            $table->tinyInteger('order')->unsigned()->default(1);
+            $table->primary(['address_id', 'addressable_id', 'addressable_type']);
         });
     }
 
@@ -30,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('people_addresses');
+        Schema::dropIfExists('addressable');
     }
 };

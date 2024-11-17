@@ -2,47 +2,33 @@
 
 namespace App\Models\People;
 
-use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\Pivot;
+use Illuminate\Database\Eloquent\Relations\MorphPivot;
 
-class PersonalAddress extends Pivot
+class PersonalAddress extends MorphPivot
 {
 
     public $timestamps = false;
-    protected $table = "view_policies_fields";
+    protected $table = "addressable";
     protected function casts(): array
     {
         return
             [
                 'primary' => 'boolean',
-                'work' => 'boolean',
-                'seasonal' => 'boolean',
-                'season_start' => 'date',
-                'season_end' => 'date',
             ];
     }
 
     protected $fillable =
         [
             'primary',
-            'work',
-            'seasonal',
-            'season_start',
-            'season_end',
+            'label',
+            'order',
         ];
 
     public function address(): BelongsTo
     {
         return $this->belongsTo(Address::class, 'address_id');
     }
-
-    public function person(): BelongsTo
-    {
-        return $this->belongsTo(Person::class, 'person_id');
-    }
-
-
 
 
     public function __toString(): string

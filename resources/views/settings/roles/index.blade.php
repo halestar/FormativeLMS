@@ -1,7 +1,7 @@
 @extends('settings.layout', $template)
 
 @section('settings_content')
-    <div class="list-group">
+    <div class="list-group list-group-flush m-0">
         @foreach(\App\Models\Utilities\SchoolRoles::all() as $role)
             <a
                 @can('settings.roles.edit')

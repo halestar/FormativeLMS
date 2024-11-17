@@ -51,7 +51,7 @@
                     style="background-color: {{ $campus->color_pri }} !important; color: {{ $campus->color_sec }} !important;"
                 >
                     <span class="campus-header">{{ $campus->name }} ({{ $campus->abbr }})</span>
-                    <img src='data:image/svg+xml;base64,{!! base64_encode($campus->icon) !!}' class="img-smallest" />
+                    {!! $campus->iconHtml() !!}
                 </h3>
                 <div
                     class="card-body campus-back-img"
@@ -64,7 +64,7 @@
                                 <p class="lead mb-0">"{{ $campus->title }}"</p>
                             @endif
                             <address>
-                                {!! nl2br($campus->prettyAddress()) !!}
+                                {!! nl2br($campus->address? $campus->address->pretty_address: "") !!}
                             </address>
                             @if($campus->phones()->count() > 0)
                                 <address>
@@ -86,7 +86,7 @@
                                 <span class="statistic">### Coaches</span>
                                 <span class="statistic">### Students</span>
                                 <span class="statistic">### Parents</span>
-                                <span class="statistic">### Rooms</span>
+                                <span class="statistic">{{ $campus->rooms()->count() }} {{ trans_choice('locations.rooms',$campus->rooms()->count()) }}</span>
                             </div>
                         </div>
                         <div class="col-3">

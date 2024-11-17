@@ -12,6 +12,7 @@ use App\Models\CRUD\Title;
 use App\Models\People\ViewPolicies\ViewableField;
 use App\Models\People\ViewPolicies\ViewPolicy;
 use App\Models\Utilities\SchoolRoles;
+use App\Traits\Addressable;
 use App\Traits\HasLogs;
 use App\Traits\HasViewableFields;
 use App\Traits\Phoneable;
@@ -20,21 +21,19 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Cache;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Drivers\Imagick\Driver;
 use Intervention\Image\ImageManager;
+use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 
 class Person extends Authenticatable
 {
-    use HasFactory, HasLogs, SoftDeletes, HasRoles, HasViewableFields, Phoneable;
+    use HasFactory, HasLogs, SoftDeletes, HasRoles, HasViewableFields, Phoneable, Addressable;
     protected $with = ['roles'];
     public $timestamps = true;
     protected $table = "people";
@@ -206,20 +205,6 @@ class Person extends Authenticatable
                 ->get();
         });*/
 
-    }
-
-    public function addresses(): BelongsToMany
-    {
-        return $this->belongsToMany(Address::class, 'people_addresses')
-            ->using(PersonalAddress::class)
-            ->as('personal')
-            ->withPivot(
-                [
-                    'primary', 'work', 'seasonal',
-                    'season_start','season_end',
-                ])
-            ->orderBy('people_addresses.primary', 'desc')
-            ->orderBy('people_addresses.work', 'desc');
     }
 
     public function relationships(): BelongsToMany

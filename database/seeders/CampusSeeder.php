@@ -2,10 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Locations\Building;
 use App\Models\Locations\Campus;
-use App\Models\People\Address;
 use App\Models\People\Phone;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class CampusSeeder extends Seeder
@@ -15,8 +14,9 @@ class CampusSeeder extends Seeder
      */
     public function run(): void
     {
+        $buildingA = Building::where('id', '1')->first();
+        $buildingB = Building::where('id', '2')->first();
         // make the campus address
-        $address = Address::factory()->make();
         $faxPhone = Phone::factory()->create();
         $admissionPhone = Phone::factory()->create();
         $hs = Campus::create(
@@ -30,22 +30,14 @@ class CampusSeeder extends Seeder
                 'color_pri' => '#0096FF',// HS is blue
                 'color_sec' => '#000000',
                 'order' => '1',
-                'line1' => $address->line1,
-                'line2' => $address->line2,
-                'line3' => $address->line3,
-                'city' => $address->city,
-                'state' => $address->state,
-                'zip' => $address->zip,
-                'country' => $address->country,
             ]);
         $hs->levels()->sync([1, 2, 3, 4]);
-        $mainLine = Phone::factory()->create();
-        $hs->phones()->sync(
-            [
-                $mainLine->id => ['primary' => true, 'label' => 'Main Line', 'order' => 0],
-                $faxPhone->id => ['primary' => false, 'label' => 'Fax Line', 'order' => 1],
-                $admissionPhone->id => ['primary' => false, 'label' => 'Admission Line', 'order' => 2],
-            ]);
+        $hs->addresses()->sync([$buildingA->address_id]);
+        $hs->phones()->sync($buildingA->phones->merge([$faxPhone, $admissionPhone])->pluck('id')->toArray());
+        $hs->rooms()->sync($buildingA->rooms->pluck('id')->toArray());
+
+        $faxPhone = Phone::factory()->create();
+        $admissionPhone = Phone::factory()->create();
         $ms = Campus::create(
             [
                 'name' => 'Kalinec Middle School',
@@ -57,22 +49,14 @@ class CampusSeeder extends Seeder
                 'color_pri' => '#D70040',// MS is red
                 'color_sec' => '#FFFFFF',
                 'order' => '2',
-                'line1' => $address->line1,
-                'line2' => $address->line2,
-                'line3' => $address->line3,
-                'city' => $address->city,
-                'state' => $address->state,
-                'zip' => $address->zip,
-                'country' => $address->country,
             ]);
         $ms->levels()->sync([5, 6, 7]);
-        $mainLine = Phone::factory()->create();
-        $ms->phones()->sync(
-            [
-                $mainLine->id => ['primary' => true, 'label' => 'Main Line', 'order' => 0],
-                $faxPhone->id => ['primary' => false, 'label' => 'Fax Line', 'order' => 1],
-                $admissionPhone->id => ['primary' => false, 'label' => 'Admission Line', 'order' => 2],
-            ]);
+        $ms->addresses()->sync([$buildingB->address_id]);
+        $ms->phones()->sync($buildingB->phones->merge([$faxPhone, $admissionPhone])->pluck('id')->toArray());
+        $ms->rooms()->sync($buildingB->rooms->pluck('id')->toArray());
+
+        $faxPhone = Phone::factory()->create();
+        $admissionPhone = Phone::factory()->create();
         $es = Campus::create(
             [
                 'name' => 'Kalinec Elementary School',
@@ -84,21 +68,12 @@ class CampusSeeder extends Seeder
                 'color_pri' => '#50C878',// ES is green
                 'color_sec' => '#000000',
                 'order' => '3',
-                'line1' => $address->line1,
-                'line2' => $address->line2,
-                'line3' => $address->line3,
-                'city' => $address->city,
-                'state' => $address->state,
-                'zip' => $address->zip,
-                'country' => $address->country,
             ]);
         $es->levels()->sync([8, 9, 10, 11, 12, 13]);
-        $mainLine = Phone::factory()->create();
-        $es->phones()->sync(
-            [
-                $mainLine->id => ['primary' => true, 'label' => 'Main Line', 'order' => 0],
-                $faxPhone->id => ['primary' => false, 'label' => 'Fax Line', 'order' => 1],
-                $admissionPhone->id => ['primary' => false, 'label' => 'Admission Line', 'order' => 2],
-            ]);
+        $es->addresses()->sync([$buildingA->address_id, $buildingB->address_id]);
+        $es->phones()->sync($buildingA->phones->merge($buildingB->phones)->merge([$faxPhone, $admissionPhone])->pluck('id')->toArray());
+        $es->rooms()->sync($buildingB->rooms()->inRandomOrder()->limit(5)->get()
+            ->merge($buildingB->rooms()->inRandomOrder()->limit(5)->get())
+            ->pluck('id')->toArray());
     }
 }

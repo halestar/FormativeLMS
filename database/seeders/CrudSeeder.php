@@ -8,11 +8,10 @@ use App\Models\CRUD\Honors;
 use App\Models\CRUD\Level;
 use App\Models\CRUD\Pronouns;
 use App\Models\CRUD\Relationship;
+use App\Models\CRUD\SchoolArea;
 use App\Models\CRUD\Suffix;
 use App\Models\CRUD\Title;
 use App\Models\CRUD\ViewableGroup;
-use App\Models\People\PersonalRelations;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class CrudSeeder extends Seeder
@@ -88,20 +87,32 @@ class CrudSeeder extends Seeder
 
         Level::insert(
             [
-                ['name' => '12th Grade'],
-                ['name' => '11th Grade'],
-                ['name' => '10th Grade'],
-                ['name' => '9th Grade'],
-                ['name' => '8th Grade'],
-                ['name' => '7th Grade'],
-                ['name' => '6th Grade'],
-                ['name' => '5th Grade'],
-                ['name' => '4th Grade'],
-                ['name' => '3rd Grade'],
-                ['name' => '2nd Grade'],
-                ['name' => '1st Grade'],
-                ['name' => 'Kindergarten'],
+                ['name' => '12th Grade', 'order' => 1],
+                ['name' => '11th Grade', 'order' => 2],
+                ['name' => '10th Grade', 'order' => 3],
+                ['name' => '9th Grade', 'order' => 4],
+                ['name' => '8th Grade', 'order' => 5],
+                ['name' => '7th Grade', 'order' => 6],
+                ['name' => '6th Grade', 'order' => 7],
+                ['name' => '5th Grade', 'order' => 8],
+                ['name' => '4th Grade', 'order' => 9],
+                ['name' => '3rd Grade', 'order' => 10],
+                ['name' => '2nd Grade', 'order' => 11],
+                ['name' => '1st Grade', 'order' => 12],
+                ['name' => 'Kindergarten', 'order' => 13],
             ]);
 
+        SchoolArea::insert(
+            [
+                ['name' => '1st Floor'],
+                ['name' => '2nd Floor'],
+                ['name' => '3rd Floor'],
+                ['name' => '4th Floor'],
+                ['name' => '5th Floor'],
+                ['name' => 'School Yard'],
+                ['name' => 'Theater'],
+                ['name' => 'Garden'],
+                ['name' => 'Off-Campus'],
+            ]);
     }
 }

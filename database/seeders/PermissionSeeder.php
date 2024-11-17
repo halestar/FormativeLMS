@@ -43,7 +43,9 @@ class PermissionSeeder extends Seeder
                 [
                     ['name' => 'locations.campuses', 'description' => 'Ability to edit campuses in the system'],
                     ['name' => 'locations.years', 'description' => 'Ability to edit years in the system'],
-                    ['name' => 'locations.semesters', 'description' => 'Ability to edit semesters in the system'],
+                    ['name' => 'locations.terms', 'description' => 'Ability to edit terms in the system'],
+                    ['name' => 'locations.buildings', 'description' => 'Ability to buildings and rooms in the system'],
+                    ['name' => 'locations.areas', 'description' => 'Ability to edit areas in the system'],
                     ['name' => 'locations.rooms', 'description' => 'Ability to edit rooms in the system'],
                 ],
             'System' =>

@@ -65,6 +65,7 @@ abstract class CrudItem extends Model
             ViewableGroup::class,
             Relationship::class,
             Level::class,
+            SchoolArea::class,
         ];
     }
     abstract public static function getCrudModel(): string;

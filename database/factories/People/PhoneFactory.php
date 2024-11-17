@@ -38,4 +38,12 @@ class PhoneFactory extends Factory
             'mobile' => true
         ]);
     }
+
+    public function extensionOnly(): static
+    {
+        return $this->state(fn (array $attributes) =>
+        [
+            'phone' => $this->faker->numberBetween(100, 999),
+        ]);
+    }
 }

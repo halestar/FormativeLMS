@@ -16,6 +16,6 @@ return
     'add_address' => 'Add Address',
     'update_address' => 'Update Address',
     'primary' => 'Primary',
-    'work' => 'Work',
-    'seasonal_address' => 'Seasonal Address (:season_start &mdash; :season_end)'
+    'label' => 'Label',
+    'link' => 'Link',
 ];

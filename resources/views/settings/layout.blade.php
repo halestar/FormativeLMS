@@ -11,7 +11,7 @@
                     @endforeach
                 </div>
             </h4>
-            <div class="card=body">
+            <div class="card-body">
                 @yield('settings_content')
             </div>
         </div>

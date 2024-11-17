@@ -4,10 +4,8 @@ namespace App\Http\Controllers\Locations;
 
 use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
-use App\Models\People\Person;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rules\File;
 
 class CampusController extends Controller
@@ -86,24 +84,6 @@ class CampusController extends Controller
             ->with('success-status', __('locations.campus.updated'));
     }
 
-    public function updateAddress(Request $request, Campus $campus)
-    {
-        Gate::authorize('has-permission', 'locations.campuses');
-        $data = $request->validate([
-            'line1' => 'nullable|max:255',
-            'line2' => 'nullable|max:255',
-            'line3' => 'nullable|max:255',
-            'city' => 'nullable|max:255',
-            'state' => 'nullable|max:255',
-            'zip' => 'nullable|max:255',
-            'country' => 'nullable|max:255',
-        ], static::errors());
-        $campus->fill($data);
-        $campus->save();
-        return redirect()->back()
-            ->with('success-status', __('locations.campus.updated'));
-    }
-
     public function updateImg(Request $request, Campus $campus)
     {
         Gate::authorize('has-permission', 'locations.campuses');
@@ -140,7 +120,6 @@ class CampusController extends Controller
         $data = $request->validate([
             'levels' => 'required|array|min:1',
         ], static::errors());
-        Log::debug($data['levels']);
         // we need to make sure that we're not trying to deactivate something we shoulnd't
         foreach($campus->levels as $level)
         {

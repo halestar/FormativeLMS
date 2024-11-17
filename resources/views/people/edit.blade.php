@@ -353,7 +353,7 @@
                         tabindex="0"
                     >
                         <div class="mb-3 p-1">
-                            <livewire:address-editor :person="$person" />
+                            <livewire:address-editor :addressable="$person" />
                         </div>
                         <div class="mb-3 p-1">
                             <livewire:phone-editor :phoneable="$person" />

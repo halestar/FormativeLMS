@@ -21,7 +21,7 @@ trait Phoneable
             ->orderByPivot('order', 'asc');
     }
 
-    public function makePrimary(Phone $phone):void
+    public function makePhonePrimary(Phone $phone):void
     {
         //first, we update th main entry to be the primary and order 0
         $pri = $this->primaryKey;
@@ -36,4 +36,10 @@ trait Phoneable
             ->where('phoneable_type', get_class($this))
             ->increment('order', 1, ['primary' => false]);
     }
+
+    public function isSinglePhoneable(): bool
+    {
+        return false;
+    }
+
 }
