@@ -32,8 +32,10 @@ class CampusSeeder extends Seeder
                 'order' => '1',
             ]);
         $hs->levels()->sync([1, 2, 3, 4]);
-        $hs->addresses()->sync([$buildingA->address_id]);
-        $hs->phones()->sync($buildingA->phones->merge([$faxPhone, $admissionPhone])->pluck('id')->toArray());
+        $hs->addresses()->attach($buildingA->address_id, ['primary' => true]);
+        $hs->phones()->attach($buildingA->phones()->first()->id, ['primary' => true]);
+        $hs->phones()->attach($faxPhone->id, ['primary' => false, 'label' => 'Fax Line']);
+        $hs->phones()->attach($admissionPhone->id, ['primary' => false, 'label' => 'Admissions Line']);
         $hs->rooms()->sync($buildingA->rooms->pluck('id')->toArray());
 
         $faxPhone = Phone::factory()->create();
@@ -51,8 +53,10 @@ class CampusSeeder extends Seeder
                 'order' => '2',
             ]);
         $ms->levels()->sync([5, 6, 7]);
-        $ms->addresses()->sync([$buildingB->address_id]);
-        $ms->phones()->sync($buildingB->phones->merge([$faxPhone, $admissionPhone])->pluck('id')->toArray());
+        $ms->addresses()->attach($buildingB->address_id, ['primary' => true]);
+        $ms->phones()->attach($buildingB->phones()->first()->id, ['primary' => true]);
+        $ms->phones()->attach($faxPhone->id, ['primary' => false, 'label' => 'Fax Line']);
+        $ms->phones()->attach($admissionPhone->id, ['primary' => false, 'label' => 'Admissions Line']);
         $ms->rooms()->sync($buildingB->rooms->pluck('id')->toArray());
 
         $faxPhone = Phone::factory()->create();
@@ -70,8 +74,12 @@ class CampusSeeder extends Seeder
                 'order' => '3',
             ]);
         $es->levels()->sync([8, 9, 10, 11, 12, 13]);
-        $es->addresses()->sync([$buildingA->address_id, $buildingB->address_id]);
-        $es->phones()->sync($buildingA->phones->merge($buildingB->phones)->merge([$faxPhone, $admissionPhone])->pluck('id')->toArray());
+        $es->addresses()->attach($buildingA->address_id, ['primary' => true]);
+        $es->addresses()->attach($buildingB->address_id, ['primary' => false]);
+        $es->phones()->attach($buildingA->phones()->first()->id, ['primary' => true]);
+        $es->phones()->attach($buildingB->phones()->first()->id, ['primary' => false, 'label' => '2nd Campus']);
+        $es->phones()->attach($faxPhone->id, ['primary' => false, 'label' => 'Fax Line']);
+        $es->phones()->attach($admissionPhone->id, ['primary' => false, 'label' => 'Admissions Line']);
         $es->rooms()->sync($buildingB->rooms()->inRandomOrder()->limit(5)->get()
             ->merge($buildingB->rooms()->inRandomOrder()->limit(5)->get())
             ->pluck('id')->toArray());

@@ -63,13 +63,19 @@
                             @if($campus->title)
                                 <p class="lead mb-0">"{{ $campus->title }}"</p>
                             @endif
-                            <address>
-                                {!! nl2br($campus->address? $campus->address->pretty_address: "") !!}
-                            </address>
+                            @foreach($campus->addresses as $address)
+                                <address>
+                                    {!! nl2br($address->pretty_address) !!}
+                                </address>
+                            @endforeach
                             @if($campus->phones()->count() > 0)
                                 <address>
                                     @foreach($campus->phones as $phone)
-                                        <strong>{{ $phone->personal->label }}:</strong>
+                                        <strong>
+                                            @if($phone->personal->primary){{ __('addresses.primary') }}@endif
+                                            {{ $phone->personal->label }}
+                                            {{ __('phones.phone') }}:
+                                        </strong>
                                         {{ $phone->pretty_phone }}
                                         @if(!$loop->last)
                                             <br/>

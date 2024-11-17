@@ -81,22 +81,26 @@
                         id="tab-pane-contact" role="tabpanel" aria-labelledby="tab-contact" tabindex="0"
                     >
                             <ul class="list-group">
-                                @if($campus->address)
+                                @foreach($campus->addresses as $address)
                                 <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                     <div class="d-flex justify-content-between align-items-top">
                                         <label>
-                                            {{ __('locations.campus.address') }}
+                                            @if($address->personal->primary){{ __('addresses.primary') }}@endif
+                                            {{ $address->personal->label }}
+                                            {{ __('addresses.address') }}:
                                         </label>
-                                        <span>{!! nl2br($campus->address->pretty_address) !!}</span>
+                                        <span>{!! nl2br($address->pretty_address) !!}</span>
                                     </div>
                                 </li>
-                                @endif
+                                @endforeach
                                 @if($campus->phones()->count() > 0)
                                     @foreach($campus->phones as $phone)
                                             <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                                 <div class="d-flex justify-content-between align-items-top">
                                                     <label>
+                                                        @if($phone->personal->primary){{ __('addresses.primary') }}@endif
                                                         {{ $phone->personal->label }}
+                                                        {{ __('phones.phone') }}:
                                                     </label>
                                                     <span>{{ $phone->pretty_phone }}</span>
                                                 </div>
@@ -125,7 +129,12 @@
                                                     @if($room->info->classroom) {{ __('locations.rooms.classroom') }}@endif
                                                     {{ $room->info->label }}
                                                 </span>
-                                                <span>{{ $room->name }}</span>
+                                                <span>
+                                                    <a
+                                                        href="{{ route('locations.rooms.show', $room) }}"
+                                                        class="text-decoration-none"
+                                                    >{{ $room->name }}</a>
+                                                </span>
                                             </div>
                                         @endforeach
                                     </div>
