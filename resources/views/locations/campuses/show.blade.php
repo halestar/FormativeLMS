@@ -72,6 +72,11 @@
                     @foreach($campus->buildings() as $building)
                         <a href="{{ route('locations.buildings.show', ['building' => $building->id]) }}">{{ $building->name }}</a><br/>
                     @endforeach
+
+                    <p>{{ __('locations.academics') }}</p>
+                    <a href="{{ route('subjects.subjects.index', ['campus' => $campus->id]) }}">{{ trans_choice('subjects.subject', 2) }}</a><br/>
+                    <a href="{{ route('subjects.courses.index', ['subject' => $campus->subjects()->first()->id]) }}">{{ trans_choice('subjects.course', 2) }}</a><br/>
+
                 </div>
             </div>
             <div class="col-md-6">

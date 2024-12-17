@@ -5,17 +5,17 @@ namespace Database\Seeders;
 use App\Models\CRUD\Ethnicity;
 use App\Models\CRUD\Gender;
 use App\Models\CRUD\Pronouns;
+use App\Models\CRUD\Relationship;
 use App\Models\CRUD\Title;
+use App\Models\Locations\Campus;
+use App\Models\Locations\Year;
 use App\Models\People\InternalUser;
 use App\Models\People\Person;
+use App\Models\People\StudentRecord;
 use App\Models\Utilities\SchoolRoles;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Str;
-use Spatie\Permission\Exceptions\RoleDoesNotExist;
-use Spatie\Permission\Models\Role;
 
 class AdminSeeder extends Seeder
 {
@@ -49,6 +49,7 @@ class AdminSeeder extends Seeder
         $admin->assignRole(SchoolRoles::$EMPLOYEE);
         $admin->assignRole(SchoolRoles::$STAFF);
 
+
         //now we make some other fake people for testing.
         $staff = Person::create(
             [
@@ -64,6 +65,8 @@ class AdminSeeder extends Seeder
             ]);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
         $staff->assignRole(SchoolRoles::$STAFF);
+
+
         $faculty = Person::create(
             [
                 'first' => "Faculty",
@@ -78,32 +81,8 @@ class AdminSeeder extends Seeder
             ]);
         $faculty->assignRole(SchoolRoles::$FACULTY);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
-        $student = Person::create(
-            [
-                'first' => "Student",
-                'middle' => null,
-                'last' => "Kalinec",
-                'email' => 'student@kalinec.net',
-                'nick' => null,
-                'dob' => "2010-06-09",
-                'password' => Hash::make('student'),
-                'email_verified_at' => now(),
-                'remember_token' => Str::random(10),
-            ]);
-        $student->assignRole(SchoolRoles::$STUDENT);
-        $parent = Person::create(
-            [
-                'first' => "Parent",
-                'middle' => null,
-                'last' => "Kalinec",
-                'email' => 'parent@kalinec.net',
-                'nick' => null,
-                'dob' => "2010-06-09",
-                'password' => Hash::make('parent'),
-                'email_verified_at' => now(),
-                'remember_token' => Str::random(10),
-            ]);
-        $parent->assignRole(SchoolRoles::$PARENT);
+
+
         $coach = Person::create(
             [
                 'first' => "Coach",
@@ -118,6 +97,55 @@ class AdminSeeder extends Seeder
             ]);
         $coach->assignRole(SchoolRoles::$COACH);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
+
+        //to the admin accounts, we add all the campuses
+        foreach(Campus::all() as $campus)
+        {
+            $admin->employeeCampuses()->attach($campus);
+            $staff->employeeCampuses()->attach($campus);
+            $faculty->employeeCampuses()->attach($campus);
+            $coach->employeeCampuses()->attach($campus);
+        }
+
+        $student = Person::create(
+            [
+                'first' => "Student",
+                'middle' => null,
+                'last' => "Kalinec",
+                'email' => 'student@kalinec.net',
+                'nick' => null,
+                'dob' => "2010-06-09",
+                'password' => Hash::make('student'),
+                'email_verified_at' => now(),
+                'remember_token' => Str::random(10),
+            ]);
+        $student->assignRole(SchoolRoles::$STUDENT);
+        //to this student, we assign a student role of a 9th grader at the HS campus
+        $studentRecord = StudentRecord::create(
+            [
+                'campus_id' => 1,
+                'person_id' => $student->id,
+                'year_id' => 1,
+                'level_id' => 4,
+                'start_date' => Year::find(1)->year_start,
+            ]);
+
+        $parent = Person::create(
+            [
+                'first' => "Parent",
+                'middle' => null,
+                'last' => "Kalinec",
+                'email' => 'parent@kalinec.net',
+                'nick' => null,
+                'dob' => "2010-06-09",
+                'password' => Hash::make('parent'),
+                'email_verified_at' => now(),
+                'remember_token' => Str::random(10),
+            ]);
+        $parent->assignRole(SchoolRoles::$PARENT);
+        //next, we assign the bi-directinal child-parent relationship between the parent and child accounts.
+        $student->relationships()->attach($parent->id, ['relationship_id' => Relationship::CHILD]);
+        $parent->relationships()->attach($student->id, ['relationship_id' => Relationship::PARENT]);
 
     }
 }

@@ -90,6 +90,11 @@
                                             {{ __('system.menu.view_policies') }}
                                         </a>
                                     @endcan
+                                    @can('people.roles.fields')
+                                        <a class="dropdown-item" href="{{ route('people.roles.fields') }}">
+                                            {{ __('people.fields.roles') }}
+                                        </a>
+                                    @endcan
                                 </div>
                             </li>
                             <li class="nav-item dropdown">

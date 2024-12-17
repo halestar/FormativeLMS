@@ -10,7 +10,7 @@ return
         'pronouns' => "Pronouns Table",
         'relationships' => "Relationships Table",
         'view_categories' => "Profile Categories",
-        'level' => "Grades|Grades",
+        'level' => "Grade|Grades",
         "now_editing" => "Editing",
         'autosort' => 'Auto Sort',
         'add' => 'New Entry',
@@ -18,4 +18,6 @@ return
         'remove' => 'delete',
         'remove.confirm' => 'Are you sure you want to delete this entry?',
         'system_tables' => 'System Tables',
+        'dismissal_reasons' => 'Dismissal Reasons',
+
     ];

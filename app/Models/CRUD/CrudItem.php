@@ -66,6 +66,7 @@ abstract class CrudItem extends Model
             Relationship::class,
             Level::class,
             SchoolArea::class,
+            DismissalReason::class,
         ];
     }
     abstract public static function getCrudModel(): string;

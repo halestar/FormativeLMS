@@ -27,6 +27,8 @@ return [
     'campus.updated' => 'Campus was successfully updated',
     'campus.deleted' => 'Campus was successfully deleted',
 
+    'campus.user.assign' => 'Assign Campuses to Users',
+
     'years' => 'Year|Years',
     'years.current' => 'Current Year',
     'years.add' => 'Add Year',
@@ -114,4 +116,6 @@ return [
     'areas.bounds.clear' => 'Clear Bounds',
     'areas.bounds.save' => 'Save Bounds',
     'areas.maps' => 'Area Maps',
+
+    'academics' => 'Academics',
 ];

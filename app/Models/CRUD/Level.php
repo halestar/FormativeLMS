@@ -3,9 +3,7 @@
 namespace App\Models\CRUD;
 
 use App\Models\Locations\Campus;
-use App\Models\People\ViewPolicies\ViewableField;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Level extends CrudItem
 {
@@ -30,7 +28,7 @@ class Level extends CrudItem
 
     public function campuses(): BelongsToMany
     {
-        return $this->belongsToMany(Campus::class, 'crud_level_campuses', 'level_id', 'campus_id');
+        return $this->belongsToMany(Campus::class, 'campuses_levels', 'level_id', 'campus_id');
     }
 }
 

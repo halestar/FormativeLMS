@@ -23,6 +23,11 @@ return Application::configure(basePath: dirname(__DIR__))
                 ->group(base_path('routes/locations.php'));
 
             Route::middleware(['web', 'auth'])
+                ->prefix('academics')
+                ->name('subjects.')
+                ->group(base_path('routes/subjects.php'));
+
+            Route::middleware(['web', 'auth'])
                 ->prefix('settings')
                 ->name('settings.')
                 ->group(base_path('routes/settings.php'));

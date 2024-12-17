@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Classes\RoleFieldSynth;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use App\Policies\PersonPolicy;
@@ -9,6 +10,7 @@ use App\Policies\RolePolicy;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
+use Livewire\Livewire;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -37,5 +39,6 @@ class AppServiceProvider extends ServiceProvider
         Gate::policy(SchoolRoles::class, RolePolicy::class);
         Gate::policy(Person::class, PersonPolicy::class);
         Paginator::useBootstrapFive();
+        Livewire::propertySynthesizer(RoleFieldSynth::class);
     }
 }

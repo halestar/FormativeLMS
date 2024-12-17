@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\CRUD\DismissalReason;
 use App\Models\CRUD\Ethnicity;
 use App\Models\CRUD\Gender;
 use App\Models\CRUD\Honors;
@@ -87,19 +88,19 @@ class CrudSeeder extends Seeder
 
         Level::insert(
             [
-                ['name' => '12th Grade', 'order' => 1],
-                ['name' => '11th Grade', 'order' => 2],
-                ['name' => '10th Grade', 'order' => 3],
-                ['name' => '9th Grade', 'order' => 4],
-                ['name' => '8th Grade', 'order' => 5],
-                ['name' => '7th Grade', 'order' => 6],
+                ['name' => '12th Grade', 'order' => 13],
+                ['name' => '11th Grade', 'order' => 12],
+                ['name' => '10th Grade', 'order' => 11],
+                ['name' => '9th Grade', 'order' => 10],
+                ['name' => '8th Grade', 'order' => 9],
+                ['name' => '7th Grade', 'order' => 8],
                 ['name' => '6th Grade', 'order' => 7],
-                ['name' => '5th Grade', 'order' => 8],
-                ['name' => '4th Grade', 'order' => 9],
-                ['name' => '3rd Grade', 'order' => 10],
-                ['name' => '2nd Grade', 'order' => 11],
-                ['name' => '1st Grade', 'order' => 12],
-                ['name' => 'Kindergarten', 'order' => 13],
+                ['name' => '5th Grade', 'order' => 6],
+                ['name' => '4th Grade', 'order' => 5],
+                ['name' => '3rd Grade', 'order' => 4],
+                ['name' => '2nd Grade', 'order' => 3],
+                ['name' => '1st Grade', 'order' => 2],
+                ['name' => 'Kindergarten', 'order' => 1],
             ]);
 
         SchoolArea::insert(
@@ -113,6 +114,13 @@ class CrudSeeder extends Seeder
                 ['name' => 'Theater'],
                 ['name' => 'Garden'],
                 ['name' => 'Off-Campus'],
+            ]);
+
+        DismissalReason::insert(
+            [
+                ['name' => 'Left'],
+                ['name' => 'Expelled'],
+                ['name' => 'Attrition'],
             ]);
     }
 }

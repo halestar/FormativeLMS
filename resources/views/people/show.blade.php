@@ -25,8 +25,39 @@
                         <div>
                             <strong class="me-2">{{ __('settings.roles') }}:</strong> {{ $person->roles->pluck('name')->join(', ') }}
                         </div>
-
                     </h6>
+                    @if($person->isEmployee())
+                        <h6>
+                            <div>
+                                <strong class="me-2">Campuses:</strong> {{ $person->employeeCampuses->pluck('name')->join(', ') }}
+                            </div>
+                        </h6>
+                    @endif
+                    @if($person->isStudent())
+                        <h6>
+                            <div>
+                                <strong class="me-2">{{ trans_choice('crud.level', 1) }}:</strong>
+                                @if($person->student())
+                                    {{ $person->student()->level->name }}
+                                    ({{ $person->student()->campus->name }})
+                                @endif
+                            </div>
+                        </h6>
+                    @endif
+                    @if($person->isParent() && $person->currentChildStudents()->count() > 0)
+                        <h6>
+                            <div>
+                                <strong class="me-2">Students:</strong>
+                                @foreach($person->currentChildStudents() as $student)
+                                    <a href="{{ route('people.show', ['person' => $student->person_id]) }}">
+                                        {{ $student->person->name }}
+                                        ({{ $student->level->name }}, {{ $student->campus->name }})
+                                    </a>
+                                    @if(!$loop->last), @endif
+                                @endforeach
+                            </div>
+                        </h6>
+                    @endif
                     <ul class="nav nav-tabs mt-auto" id="profile-tab" role="tablist">
                         @foreach(\App\Models\CRUD\ViewableGroup::viewable()->get() as $tab)
                         <li class="nav-item">
@@ -38,9 +69,25 @@
                                 href="#tab-pane-{{ $tab->id }}"
                                 role="tab"
                                 aria-controls="#tab-pane-{{ $tab->id }}"
-                                aria-selected="true"
+                                aria-selected="@if($loop->first) true @else false @endif"
                             >{{ $tab->name }}</a>
                         </li>
+                        @endforeach
+                        @foreach($person->roles as $role)
+                            @if(count($role->fields) > 0)
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        id="tab-role-{{ $role->id }}"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#tab-pane-role-{{ $role->id }}"
+                                        href="#tab-pane-role-{{ $role->id }}"
+                                        role="tab"
+                                        aria-controls="#tab-pane-role-{{ $role->id }}"
+                                        aria-selected="false"
+                                    >{{ $role->name }}</a>
+                                </li>
+                            @endif
                         @endforeach
                     </ul>
                 </div>
@@ -70,7 +117,7 @@
                 <div class="tab-content profile-tab" id="profile-tab-content">
                     @foreach(\App\Models\CRUD\ViewableGroup::viewable()->get() as $tab)
                     <div
-                        class="tab-pane fade show @if($loop->first) active @endif"
+                        class="tab-pane fade @if($loop->first) show active @endif"
                         id="tab-pane-{{ $tab->id }}" role="tabpanel" aria-labelledby="tab-{{ $tab->id }}" tabindex="{{ $tab->order }}"
                     >
                         @if($tab->id == \App\Models\CRUD\ViewableGroup::CONTACT_INFO)
@@ -142,6 +189,26 @@
                         </ul>
                         @endif
                     </div>
+                    @endforeach
+                    @foreach($person->schoolRoles as $role)
+                        @if(count($role->fields) > 0)
+                            <div
+                                class="tab-pane fade"
+                                id="tab-pane-role-{{ $role->id }}" role="tabpanel" aria-labelledby="tab-role-{{ $role->id }}"
+                                tabindex="{{ $loop->iteration + 10 }}"
+                            >
+                                <ul class="list-group">
+                                    @foreach($role->fields as $field)
+                                        <li class="list-group list-group-flush border-bottom mb-2 pb-1">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <label>{{ $field->fieldName }}</label>
+                                                <span>{{ is_array($field->fieldValue)? implode(", ", $field->fieldValue): $field->fieldValue }}</span>
+                                            </div>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
                     @endforeach
                 </div>
             </div>

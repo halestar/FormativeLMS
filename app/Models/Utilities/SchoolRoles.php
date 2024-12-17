@@ -2,7 +2,10 @@
 
 namespace App\Models\Utilities;
 
+use App\Classes\RoleField;
+use App\Models\People\RoleFields;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Spatie\Permission\Models\Role;
 
 class SchoolRoles extends Role
@@ -94,5 +97,38 @@ class SchoolRoles extends Role
     public static function setDefaultPermissions(array $defaultPermissions): void
     {
         self::$baseRolePermissions = $defaultPermissions;
+    }
+
+    protected function fields(): Attribute
+    {
+        if($this->pivot)
+            $fieldValues = json_decode($this->pivot->field_values, true);
+        else
+            $fieldValues = null;
+        return Attribute::make(
+            get: function(?string $value) use ($fieldValues)
+            {
+                if(!$value)
+                    return [];
+                $fields = [];
+                $value = json_decode($value, true);
+                foreach($value as $field)
+                {
+                    if($fieldValues)
+                        $field['fieldValue'] = $fieldValues[$field['fieldId']]?? null;
+                    $fields[$field['fieldId']] = new RoleField($field);
+                }
+                return $fields;
+            },
+            set: function (?array $value)
+            {
+                if(!$value)
+                    return json_encode([]);
+                $fields = [];
+                foreach($value as $field)
+                    $fields[$field->fieldId] = $field->toArray();
+                return json_encode($fields);
+            }
+        );
     }
 }

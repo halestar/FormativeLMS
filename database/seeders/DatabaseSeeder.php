@@ -30,6 +30,8 @@ class DatabaseSeeder extends Seeder
                 FamilySeeder::class,
                 ViewableFieldsSeeder::class,
                 ViewPolicySeeder::class,
+                SubjectSeeder::class,
+                CourseSeeder::class,
             ]);
     }
 }

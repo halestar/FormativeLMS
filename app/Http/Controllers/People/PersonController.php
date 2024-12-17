@@ -4,11 +4,10 @@ namespace App\Http\Controllers\People;
 
 use App\Http\Controllers\Controller;
 use App\Models\People\Person;
+use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
-use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Storage;
 
 class PersonController extends Controller
 {
@@ -67,7 +66,8 @@ class PersonController extends Controller
         Gate::authorize('edit', $person);
         $person->fill($request->all());
         $person->save();
-        return redirect(route('people.show', ['person' => $person->id]));
+        return redirect(route('people.show', ['person' => $person->id]))
+            ->with('success-status', __('people.registered.updated'));
     }
 
     public function updatePortrait(Request $request, Person $person)
@@ -78,13 +78,32 @@ class PersonController extends Controller
         ]);
         $person->portrait_url = $request->file('portrait');
         $person->save();
-        return redirect(route('people.edit', ['person' => $person->id]));
+        return redirect(route('people.edit', ['person' => $person->id]))
+            ->with('success-status', __('people.registered.updated'));
     }
 
+    public function updateRoleFields(Request $request, Person $person, SchoolRoles $role)
+    {
+        Gate::authorize('edit', $person);
+        $values = [];
+        $existingFields = $role->fields;
+        foreach($existingFields as $field)
+            $values[$field->fieldId] = $request->input($field->fieldId);
+        $person->schoolRoles()->updateExistingPivot($role->id, ['field_values' => json_encode($values)]);
+        return redirect(route('people.edit', ['person' => $person->id]))
+            ->with('success-status', __('people.record.updated'));
+    }
     public function deletePortrait(Request $request, Person $person)
     {
         Gate::authorize('edit', $person);
         $person->portrait_url = null;
         return redirect(route('people.edit', ['person' => $person->id]));
+    }
+
+    public function roleFields()
+    {
+        Gate::authorize('has-permission', 'people.roles.fields');
+        $breadcrumb = [ __('people.fields.roles') => "#" ];
+        return view('people.fields', compact('breadcrumb'));
     }
 }

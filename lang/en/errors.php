@@ -24,4 +24,6 @@ return
         'rooms.capacity' => 'You must provide a room max capacity',
         'rooms.campuses' => 'You must select at least one campus',
         'rooms.areas' => 'You must select the area the this room resides in.',
+        'subjects.name' => 'You must provide a subject name, max 255 characters',
+        'courses.name' => 'You must provide a course name, max 255 characters',
     ];

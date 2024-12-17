@@ -38,6 +38,7 @@ class PermissionSeeder extends Seeder
                     ['name' => 'people.search', 'description' => 'Search for people in the system'],
                     ['name' => 'people.view.policies', 'description' => 'Admin access to View Policies'],
                     ['name' => 'people.assign.roles', 'description' => 'Ability to assign roles to users.'],
+                    ['name' => 'people.roles.fields', 'description' => 'Ability to define special fields for roles'],
                 ],
             'Locations' =>
                 [
@@ -47,6 +48,11 @@ class PermissionSeeder extends Seeder
                     ['name' => 'locations.buildings', 'description' => 'Ability to buildings and rooms in the system'],
                     ['name' => 'locations.areas', 'description' => 'Ability to edit areas in the system'],
                     ['name' => 'locations.rooms', 'description' => 'Ability to edit rooms in the system'],
+                ],
+            'Subject Matter' =>
+                [
+                    ['name' => 'subjects.subjects', 'description' => 'Ability to edit Subjects in the system'],
+                    ['name' => 'subjects.courses', 'description' => 'Ability to edit Courses in the system'],
                 ],
             'System' =>
                 [

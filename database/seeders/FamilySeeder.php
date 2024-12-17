@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
+use App\Models\CRUD\Level;
 use App\Models\CRUD\Relationship;
 use App\Models\People\Address;
 use App\Models\People\Person;
 use App\Models\People\Phone;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Log;
 use Spatie\Permission\Exceptions\RoleDoesNotExist;
@@ -32,52 +32,35 @@ class FamilySeeder extends Seeder
          * students should have nicknames, but only some should have middle names.
          */
 
-        try
+        foreach(Level::all() as $level)
         {
-            // Kindergarten
-            Person::factory()
-                ->count(5)
-                ->student()
-                ->nick()
-                ->hasAttached(Address::factory()->count(1), ['primary' => true])
-                ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => true])
-                ->hasAttached
-                (
-                    Person::factory()
-                        ->count(2)
-                        ->parents()
-                        ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => false, 'label' => "Work"]),
-                    ['relationship_id' => Relationship::CHILD], 'relationships'
-                )
-                ->attachParents()
-                ->sharePrimaryAddress()
-                ->sharePrimaryPhone()
-                ->create();
+            try
+            {
+                // Kindergarten
+                Person::factory()
+                    ->count(5)
+                    ->student($level)
+                    ->nick()
+                    ->hasAttached(Address::factory()->count(1), ['primary' => true])
+                    ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => true])
+                    ->hasAttached
+                    (
+                        Person::factory()
+                            ->count(2)
+                            ->parents()
+                            ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => false, 'label' => "Work"]),
+                        ['relationship_id' => Relationship::CHILD], 'relationships'
+                    )
+                    ->attachParents()
+                    ->sharePrimaryAddress()
+                    ->sharePrimaryPhone()
+                    ->create();
 
-            //1st grade
-            Person::factory()
-                ->count(5)
-                ->student()
-                ->nick()
-                ->hasAttached(Address::factory()->count(1), ['primary' => true])
-                ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => true])
-                ->hasAttached
-                (
-                    Person::factory()
-                        ->count(2)
-                        ->parents()
-                        ->hasAttached(Phone::factory()->mobile()->count(1), ['primary' => false, 'label' => "Work"]),
-                    ['relationship_id' => Relationship::CHILD], 'relationships'
-                )
-                ->attachParents()
-                ->sharePrimaryAddress()
-                ->sharePrimaryPhone()
-                ->create();
-
-        }
-        catch(RoleDoesNotExist $e)
-        {
-            Log::debug($e);
+            }
+            catch (RoleDoesNotExist $e)
+            {
+                Log::debug($e);
+            }
         }
     }
 }

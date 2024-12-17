@@ -3,7 +3,12 @@
 namespace App\Models\Locations;
 
 use App\Models\CRUD\Level;
+use App\Models\CRUD\Relationship;
+use App\Models\People\Person;
+use App\Models\People\StudentRecord;
 use App\Models\Scopes\OrderByOrderScope;
+use App\Models\SubjectMatter\Course;
+use App\Models\SubjectMatter\Subject;
 use App\Traits\Addressable;
 use App\Traits\Phoneable;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
@@ -11,6 +16,7 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Support\Collection;
 
 #[ScopedBy(OrderByOrderScope::class)]
@@ -120,5 +126,52 @@ class Campus extends Model
             $query->where('buildings_areas.building_id', $building->id);
         $query->groupBy('buildings_areas.id');
         return $query->get();
+    }
+
+    public function subjects(): HasMany
+    {
+        return $this->hasMany(Subject::class, 'campus_id');
+    }
+
+    public function courses(): HasManyThrough
+    {
+        return $this->hasManyThrough(Course::class, Subject::class, 'campus_id', 'subject_id');
+    }
+
+    public function employees(): BelongsToMany
+    {
+        return $this->belongsToMany(Person::class, 'employee_campuses', 'campus_id', 'person_id');
+    }
+
+    public function students(Year $year = null): HasMany
+    {
+        if(!$year)
+            $year = Year::currentYear();
+        return $this->hasMany(StudentRecord::class, 'campus_id')
+            ->where('year_id', $year->id);
+    }
+
+    public function parents(Year $year = null): ?Collection
+    {
+        if(!$year)
+            $year = Year::currentYear();
+        return Person::select('people.*')
+            ->join('people_relations', 'people.id', '=', 'people_relations.to_person_id')
+            ->join('student_records', 'people_relations.from_person_id', '=', 'student_records.person_id')
+            ->where('student_records.year_id', $year->id)
+            ->where('student_records.campus_id', $this->id)
+            ->where('people_relations.relationship_id', Relationship::CHILD)
+            ->groupBy('people.id')
+            ->get();
+    }
+
+    public function employeesByRole(string $role): ?Collection
+    {
+        return $this->employees()
+            ->join('model_has_roles', 'model_has_roles.model_id', '=', 'people.id')
+            ->join('roles', 'roles.id', '=', 'model_has_roles.role_id')
+            ->where('model_has_roles.model_type', Person::class)
+            ->where('roles.name', '=', $role)
+            ->get();
     }
 }

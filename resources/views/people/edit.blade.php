@@ -33,6 +33,12 @@
                         {{ $person->name }}
                     </h5>
                     <livewire:role-assigner :person="$person" />
+                    @if($person->isEmployee())
+                        <livewire:people.campus-assigner :person="$person" />
+                    @endif
+                    @if($person->isStudent() || $person->hasRole(\App\Models\Utilities\SchoolRoles::$OLD_STUDENT))
+                        <livewire:people.student-record-manager :person="$person" />
+                    @endif
                     <ul class="nav nav-tabs mt-auto" id="profile-tab" role="tablist">
                         @foreach(\App\Models\CRUD\ViewableGroup::viewable()->get() as $tab)
                             <li class="nav-item">
@@ -47,6 +53,22 @@
                                     aria-selected="true"
                                 >{{ $tab->name }}</a>
                             </li>
+                        @endforeach
+                        @foreach($person->roles as $role)
+                            @if(count($role->fields) > 0)
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        id="tab-role-{{ $role->id }}"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#tab-pane-role-{{ $role->id }}"
+                                        href="#tab-pane-role-{{ $role->id }}"
+                                        role="tab"
+                                        aria-controls="#tab-pane-role-{{ $role->id }}"
+                                        aria-selected="false"
+                                    >{{ $role->name }}</a>
+                                </li>
+                            @endif
                         @endforeach
                     </ul>
                 </div>
@@ -370,6 +392,30 @@
                             <livewire:relationship-creator :person="$person" />
                         </div>
                     </div>
+                    @foreach($person->schoolRoles as $role)
+                        @if(count($role->fields) > 0)
+                            <div
+                                class="tab-pane fade"
+                                id="tab-pane-role-{{ $role->id }}" role="tabpanel" aria-labelledby="tab-role-{{ $role->id }}"
+                                tabindex="{{ $loop->iteration + 10 }}"
+                            >
+                                <form action="{{ route('people.roles.fields.update', ['person' => $person->id, 'role' => $role->id]) }}" method="POST">
+                                    @csrf
+                                    @method('PUT')
+                                    <ul class="list-group my-3">
+                                        @foreach($role->fields as $field)
+                                            <li class="list-group list-group-flush border-bottom mb-2 pb-1">
+                                                {!! $field->getHTML() !!}
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                    <div class="d-grid gap-2">
+                                        <button class="btn btn-primary" type="submit">{{ __('people.profile.fields.update') }}</button>
+                                    </div>
+                                </form>
+                            </div>
+                        @endif
+                    @endforeach
                 </div>
             </div>
         </div>

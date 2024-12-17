@@ -77,7 +77,7 @@
                                     <span class="badge text-bg-primary">{{ __('common.parent') }}</span>
                                 @endif
                                 @if($suggestion->isEmployee())
-                                    <span class="badge text-bg-primary">{{ __('people.employee') }}</span>
+                                    <span class="badge text-bg-primary">{{ trans_choice('people.employee', 1) }}</span>
                                 @endif
                             </div>
                         </div>

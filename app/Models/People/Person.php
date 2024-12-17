@@ -7,8 +7,11 @@ use App\Models\CRUD\Ethnicity;
 use App\Models\CRUD\Gender;
 use App\Models\CRUD\Honors;
 use App\Models\CRUD\Pronouns;
+use App\Models\CRUD\Relationship;
 use App\Models\CRUD\Suffix;
 use App\Models\CRUD\Title;
+use App\Models\Locations\Campus;
+use App\Models\Locations\Year;
 use App\Models\People\ViewPolicies\ViewableField;
 use App\Models\People\ViewPolicies\ViewPolicy;
 use App\Models\Utilities\SchoolRoles;
@@ -21,6 +24,7 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Http\UploadedFile;
@@ -34,7 +38,7 @@ use Spatie\Permission\Traits\HasRoles;
 class Person extends Authenticatable
 {
     use HasFactory, HasLogs, SoftDeletes, HasRoles, HasViewableFields, Phoneable, Addressable;
-    protected $with = ['roles'];
+    protected $with = ['schoolRoles'];
     public $timestamps = true;
     protected $table = "people";
     protected $primaryKey = "id";
@@ -217,6 +221,23 @@ class Person extends Authenticatable
                     'relationship_id',
                 ]);
     }
+
+    public function employeeCampuses(): BelongsToMany
+    {
+        return $this->belongsToMany(Campus::class, "employee_campuses", "person_id", "campus_id");
+    }
+
+    public function schoolRoles(): BelongsToMany
+    {
+        return $this->roles()->withPivot('field_values');
+    }
+
+    public function studentRecords(): HasMany
+    {
+        return $this->hasMany(StudentRecord::class, 'person_id');
+    }
+
+
 
     /**********
      * Boolean Functions
@@ -408,6 +429,46 @@ class Person extends Authenticatable
     public function primaryPhone(): Phone
     {
         return $this->phones()->wherePivot('primary', true)->first();
+    }
+
+    /**
+     * Student Functions
+     */
+    public function student(): ?StudentRecord
+    {
+        $year = Year::currentYear();
+        return $this->studentRecords()->where('year_id', $year->id)->whereNull('end_date')->first();
+    }
+
+    /**
+     * Parent Functions
+     */
+    public function currentChildStudents(): ?Collection
+    {
+        $currentYear = Year::currentYear();
+        return StudentRecord::select('student_records.*')
+                    ->join('people', 'people.id', '=', 'student_records.person_id')
+                    ->join('people_relations', 'people_relations.from_person_id', '=', 'people.id')
+                    ->where('people_relations.to_person_id', $this->id)
+                    ->where('student_records.year_id', $currentYear->id)
+                    ->whereNull('student_records.end_date')
+                    ->where('people_relations.relationship_id', Relationship::CHILD)
+                    ->get();
+    }
+
+    public function parentCampuses(): ?Collection
+    {
+        $currentYear = Year::currentYear();
+        return Campus::select('campuses.*')
+            ->join('student_records', 'student_records.campus_id', '=', 'campuses.id')
+            ->join('people', 'people.id', '=', 'student_records.person_id')
+            ->join('people_relations', 'people_relations.from_person_id', '=', 'people.id')
+            ->where('people_relations.to_person_id', $this->id)
+            ->where('student_records.year_id', $currentYear->id)
+            ->whereNull('student_records.end_date')
+            ->where('people_relations.relationship_id', Relationship::CHILD)
+            ->groupBy('campuses.id')
+            ->get();
     }
 
 }

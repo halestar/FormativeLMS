@@ -2,6 +2,11 @@
 
 return
 [
+
+    'record.created' => 'Person Record was successfully created',
+    'record.updated' => 'Person Record was successfully updated',
+    'record.deleted' => 'Person Record was successfully deleted',
+
     'profile' => 'Profile',
     'profile.mine' => 'My Profile',
     'profile.view' => 'View Person Profile',
@@ -14,6 +19,7 @@ return
     'profile.editing' => 'Editing Profile',
     'profile.basic' => 'Basic Information',
     'profile.basic.update' => 'Update Basic Information',
+    'profile.fields.update' => 'Update Fields Information',
     'profile.contact' => 'Contact Information',
 
     'profile.fields.first' => 'First Name',
@@ -80,10 +86,8 @@ return
     'name' => 'Name',
     'primary_roles' => 'Primary Role(s)',
     'add_new_person' => '<i class="fa fa-plus border-end pe-1 me-1"></i>Add New Person',
-    'employee' => 'Employee',
     'add_person' => 'Add Person',
     'are_you_trying_to_add_any_of_these_people' => 'Are you trying to add any of these people?',
-    'employee2' => 'Employee',
     'is_a' => ':name is a',
     'update_reciprocal' => 'Update Reciprocal',
     'to2' => 'to :name',
@@ -99,4 +103,49 @@ return
     'editing_roles' => 'Editing Roles',
 
     "school.directory" => "School Directory",
+    'fields.roles' => 'Role Fields',
+    'fields.types.text' => 'Text',
+    'fields.types.textarea' => 'Notes',
+    'fields.types.date' => 'Date',
+    'fields.types.datetime' => 'Date-Time',
+    'fields.types.select' => 'Drop Down',
+    'fields.types.checkbox' => 'Check Box',
+    'fields.types.email' => 'Email Input',
+    'fields.types.url' => 'URL',
+    'fields.types.radio' => 'Radio Button',
+
+    'roles.field.select' => 'Select a Role to Manage Fields',
+    'roles.select' => 'Select a Role',
+    'roles.field.create' => 'Create Field',
+    'roles.field.name' => 'Field Name',
+    'roles.field.type' => 'Field Type',
+    'roles.field.help' => 'Field Help',
+    'roles.field.options' => 'Field Options',
+    'roles.field.options.help' => 'Enter the option and click add to add it. Click the option in the existing options container to delete it.',
+    'roles.field.placeholder' => 'Field Placeholder',
+    'roles.field.add' => 'Add Field',
+    'roles.field.preview' => 'Field Preview',
+    'roles.field.existing' => 'Existing Fields',
+    'roles.field.copy' => 'Copy This Field To|Copy All Fields To',
+
+    'student' => 'Student|Students',
+    'student.record' => 'Student Record|Student Records',
+    'student.record.add' => 'Add Student Record|Add Student Records',
+    'student.record.edit' => 'Edit Student Record|Edit Student Records',
+    'student.record.manage' => 'Manage Student Records',
+    'student.withdrawn' => 'Withdrawn',
+    'student.withdraw' => 'Withdraw',
+    'student.withdraw.reason' => 'Withdraw Reason',
+    'student.withdraw.date' => 'Withdraw Date',
+    'student.withdraw.notes' => 'Withdraw Notes',
+    'student.withdraw.undo' => 'Undo Withdraw',
+    'student.withdraw.reason.select' => 'Select a withdraw reason',
+
+    'employee' => 'Employee|Employees',
+    'staff' => 'Staff Member|Staff Members',
+    'faculty' => 'Faculty Member|Faculty Members',
+    'parent' => 'Parent|Parents',
+    'coach' => 'Coach|Coaches',
+
+
 ];

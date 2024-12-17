@@ -4,15 +4,17 @@ namespace Database\Factories\People;
 
 use App\Models\CRUD\Ethnicity;
 use App\Models\CRUD\Gender;
+use App\Models\CRUD\Level;
 use App\Models\CRUD\Pronouns;
 use App\Models\CRUD\Relationship;
+use App\Models\Locations\Campus;
+use App\Models\Locations\Year;
 use App\Models\People\Person;
-use App\Models\People\PersonalRelations;
+use App\Models\People\StudentRecord;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
-use Spatie\Permission\Models\Role;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\People\Person>
@@ -63,6 +65,7 @@ class PersonFactory extends Factory
                 {
                     $person->assignRole(SchoolRoles::$FACULTY);
                     $person->assignRole(SchoolRoles::$EMPLOYEE);
+                    $person->employeeCampuses()->attach(Campus::inRandomOrder()->limit(rand(1, 3))->get()->pluck('id')->toArray());
                 });
     }
 
@@ -81,6 +84,7 @@ class PersonFactory extends Factory
             {
                 $person->assignRole(SchoolRoles::$STAFF);
                 $person->assignRole(SchoolRoles::$EMPLOYEE);
+                $person->employeeCampuses()->attach(Campus::inRandomOrder()->limit(rand(1, 3))->get()->pluck('id')->toArray());
             });
     }
 
@@ -99,6 +103,7 @@ class PersonFactory extends Factory
             {
                 $person->assignRole(SchoolRoles::$COACH);
                 $person->assignRole(SchoolRoles::$EMPLOYEE);
+                $person->employeeCampuses()->attach(Campus::inRandomOrder()->limit(rand(1, 3))->get()->pluck('id')->toArray());
             });
     }
 
@@ -106,7 +111,7 @@ class PersonFactory extends Factory
      * STUDENT FUNCTIONS
      */
 
-    public function student(): Factory
+    public function student(Level $level): Factory
     {
         return $this->state(function (array $attributes)
                     {
@@ -115,9 +120,17 @@ class PersonFactory extends Factory
                                 'dob' => fake()->dateTimeBetween('-18 years', '-4 years'),
                             ];
                     })
-                ->afterCreating(function (Person $person)
+                ->afterCreating(function (Person $person) use ($level)
                 {
                     $person->assignRole(SchoolRoles::$STUDENT);
+                    //for now, we will simply be attaching a single, current student record.
+                    $year = Year::currentYear();
+                    $studentRecord = new StudentRecord();
+                    $studentRecord->year_id = $year->id;
+                    $studentRecord->level_id = $level->id;
+                    $studentRecord->campus_id = $level->campuses()->first()->id;
+                    $studentRecord->start_date = $year->year_start;
+                    $person->studentRecords()->save($studentRecord);
                 });
     }
 

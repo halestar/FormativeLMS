@@ -37,12 +37,19 @@
                     <div class="col-2 align-self-center text-center">
                         @if($person->isStudent())
                             <span class="badge text-bg-primary">{{ __('common.student') }}</span>
+                            <span class="badge text-bg-info">{{ $person->student()->level->name }}</span>
                         @endif
                         @if($person->isParent())
                             <span class="badge text-bg-primary">{{ __('common.parent') }}</span>
+                            @foreach($person->parentCampuses() as $campus)
+                                <span class="badge text-bg-info">{{ $campus->abbr }}</span>
+                            @endforeach
                         @endif
                         @if($person->isEmployee())
-                            <span class="badge text-bg-primary">{{ __('people.employee') }}</span>
+                            <span class="badge text-bg-primary">{{ trans_choice('people.employee', 1) }}</span>
+                            @foreach($person->employeeCampuses as $campus)
+                                <span class="badge text-bg-info">{{ $campus->abbr }}</span>
+                            @endforeach
                         @endif
                     </div>
                     <div class="col-5 align-self-center text-end">
