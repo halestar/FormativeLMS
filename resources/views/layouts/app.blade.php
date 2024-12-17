@@ -67,6 +67,11 @@
                                             {{ __('system.menu.rooms') }}
                                         </a>
                                     @endcan
+                                    @can('subjects.subjects')
+                                        <a class="dropdown-item" href="{{ route('subjects.subjects.index') }}">
+                                            {{ trans_choice('subjects.subject',2) }}
+                                        </a>
+                                    @endcan
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
