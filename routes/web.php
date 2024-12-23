@@ -20,6 +20,10 @@ Route::prefix('cms')->middleware(['can:cms', 'auth'])->group(function()
 //crud
 Route::get('/crud', [CrudController::class, 'index'])->name('crud');
 
+//settings
+Route::post('/settings', [\App\Http\Controllers\HomeController::class, 'setSessionSetting']);
+Route::get('/settings', [\App\Http\Controllers\HomeController::class, 'getSessionSetting']);
+
 
 
 

@@ -37,6 +37,7 @@ class RoleField implements Arrayable, JsonSerializable
     public string|array $fieldPlaceholder;
     public array $fieldOptions = [];
     public null|string|array $fieldValue = null;
+    public ?int $roleId;
 
     private function generateId(): string
     {
@@ -55,6 +56,7 @@ class RoleField implements Arrayable, JsonSerializable
                 $this->fieldPlaceholder = $attributes['fieldPlaceholder']?? "";
             $this->fieldOptions = $attributes['fieldOptions']?? [];
             $this->fieldValue = $attributes['fieldValue']?? null;
+            $this->roleId = $attributes['roleId']?? null;
         }
         $this->fieldId = $this->generateId();
     }

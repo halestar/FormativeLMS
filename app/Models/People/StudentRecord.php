@@ -6,8 +6,10 @@ use App\Models\CRUD\DismissalReason;
 use App\Models\CRUD\Level;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
+use App\Models\SubjectMatter\ClassSession;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class StudentRecord extends Model
 {
@@ -66,5 +68,10 @@ class StudentRecord extends Model
     public function canRemove(): bool
     {
         return true;
+    }
+
+    public function classSessions(): BelongsToMany
+    {
+        return $this->belongsToMany(ClassSession::class, 'class_sessions_students', 'student_id', 'session_id');
     }
 }

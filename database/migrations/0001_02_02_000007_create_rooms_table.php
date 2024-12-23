@@ -21,6 +21,7 @@ return new class extends Migration
             $table->bigInteger('phone_id')->unsigned()->nullable();
             $table->foreign('phone_id')->references('id')->on('phones')->onDelete('set null');
             $table->text('notes')->nullable();
+            $table->boolean('classroom')->default(false);
             $table->timestamps();
         });
     }

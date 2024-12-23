@@ -69,6 +69,8 @@ class RoleFieldsManager extends Component
         $existingFields[] = $this->fieldPreview;
         $this->role->fields = $existingFields;
         $this->role->save();
+        // and we sync the field permissions
+        $this->role->syncFieldPermissions();
         $this->loadRole();
     }
 
@@ -92,6 +94,8 @@ class RoleFieldsManager extends Component
         unset($fields[$fieldId]);
         $this->role->fields = $fields;
         $this->role->save();
+        // and we sync the field permissions
+        $this->role->syncFieldPermissions();
     }
 
     public function copyAllToRole($role_id)
@@ -104,6 +108,8 @@ class RoleFieldsManager extends Component
             $existingFields = array_merge($this->role->fields, $existingFields);
             $role->fields = $existingFields;
             $role->save();
+            // and we sync the field permissions
+            $role->syncFieldPermissions();
             $this->role_id = $role_id;
             $this->loadRole();
         }
@@ -122,6 +128,8 @@ class RoleFieldsManager extends Component
                 $existingFields[$fieldId] = $fieldToCopy;
                 $role->fields = $existingFields;
                 $role->save();
+                // and we sync the field permissions
+                $role->syncFieldPermissions();
                 $this->role_id = $role_id;
                 $this->loadRole();
             }

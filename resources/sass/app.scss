@@ -2,12 +2,14 @@
 @import url('https://fonts.bunny.net/css?family=Nunito');
 
 // Variables
+$enable-negative-margins: true;
 @import '_variables';
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 @import 'bootswatch';
+
 
 .breadcrumb-item::before {
     font-family: 'FontAwesome';
@@ -148,6 +150,13 @@ $campus-icon-sizes: ("xl": 3em, "large": 2em, "normal": 1em, "small": 0.5em, "ti
     }
 }
 
+$img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "tiny": 16px);
+@each $name, $size in $img-icon-sizes {
+    .img-icon-#{$name} {
+        max-width: $size;
+        width: $size;
+    }
+}
 
 .campus-back-img
 {
@@ -165,4 +174,14 @@ $campus-icon-sizes: ("xl": 3em, "large": 2em, "normal": 1em, "small": 0.5em, "ti
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border: 2px solid black;
+}
+
+select[multiple]
+{
+    overflow-y: auto;
+}
+
+.text-sm
+{
+    font-size: 0.8rem;
 }

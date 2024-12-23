@@ -3,26 +3,20 @@
 namespace App\Models\People;
 
 use App\Casts\LogItem;
-use App\Models\CRUD\Ethnicity;
-use App\Models\CRUD\Gender;
-use App\Models\CRUD\Honors;
-use App\Models\CRUD\Pronouns;
+use App\Classes\RoleField;
 use App\Models\CRUD\Relationship;
-use App\Models\CRUD\Suffix;
-use App\Models\CRUD\Title;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
-use App\Models\People\ViewPolicies\ViewableField;
-use App\Models\People\ViewPolicies\ViewPolicy;
 use App\Models\Utilities\SchoolRoles;
 use App\Traits\Addressable;
 use App\Traits\HasLogs;
 use App\Traits\HasViewableFields;
 use App\Traits\Phoneable;
+use Auth;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -37,7 +31,7 @@ use Spatie\Permission\Traits\HasRoles;
 
 class Person extends Authenticatable
 {
-    use HasFactory, HasLogs, SoftDeletes, HasRoles, HasViewableFields, Phoneable, Addressable;
+    use HasFactory, HasLogs, SoftDeletes, HasRoles, Phoneable, Addressable;
     protected $with = ['schoolRoles'];
     public $timestamps = true;
     protected $table = "people";
@@ -51,17 +45,6 @@ class Person extends Authenticatable
             'nick',
             'email',
             'dob',
-            'ethnicity_id',
-            'title_id',
-            'suffix_id',
-            'honors_id',
-            'gender_id',
-            'pronoun_id',
-            'occupation',
-            'job_title',
-            'work_company',
-            'salutation',
-            'family_salutation'
         ];
     protected $hidden = [
         'password',
@@ -104,13 +87,63 @@ class Person extends Authenticatable
         );
     }
 
+    public function first(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('first', $this)? $value: null,
+        );
+    }
+
+    public function middle(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('middle', $this)? $value: null,
+        );
+    }
+
+    public function last(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('last', $this)? $value: null,
+        );
+    }
+
+    public function email(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('email', $this)? $value: null,
+        );
+    }
+
+
+    public function nick(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('nick', $this)? $value: null,
+        );
+    }
+
+
+    public function dob(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('dob', $this)? Carbon::parse($value): null,
+        );
+    }
+
     public function portraitUrl(): Attribute
     {
         return Attribute::make
         (
             get: function(mixed $value, array $attributes)
             {
-                if($attributes['portrait_url'])
+                if(Auth::user()->canViewField('portrait', $this) && $attributes['portrait_url'])
                     return $attributes['portrait_url'];
                 return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
             },
@@ -151,9 +184,9 @@ class Person extends Authenticatable
         (
             get: function(mixed $value, array $attributes)
             {
-                if($attributes['thumbnail_url'])
+                if(Auth::user()->canViewField('portrait', $this) && $attributes['thumbnail_url'])
                     return $attributes['thumbnail_url'];
-                return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
+                return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
             }
         );
     }
@@ -161,55 +194,6 @@ class Person extends Authenticatable
     /**********
      * Relationships
      */
-    public function ethnicity(): BelongsTo
-    {
-        return $this->belongsTo(Ethnicity::class, 'ethnicity_id');
-    }
-
-    public function title(): BelongsTo
-    {
-        return $this->belongsTo(Title::class, 'title_id');
-    }
-
-    public function suffix(): BelongsTo
-    {
-        return $this->belongsTo(Suffix::class, 'suffix_id');
-    }
-
-    public function honors(): BelongsTo
-    {
-        return $this->belongsTo(Honors::class, 'honors_id');
-    }
-
-    public function gender(): BelongsTo
-    {
-        return $this->belongsTo(Gender::class, 'gender_id');
-    }
-
-    public function pronouns(): BelongsTo
-    {
-        return $this->belongsTo(Pronouns::class, 'pronoun_id');
-    }
-
-    public function viewPolicies(): Collection
-    {
-        return ViewPolicy::select('view_policies.*')
-            ->with(['fields'])
-            ->join('model_has_roles', 'model_has_roles.role_id', '=', 'view_policies.role_id')
-            ->where('model_has_roles.model_type', '=', Person::class)
-            ->where('model_id', $this->id)
-            ->get();
-        /*return Cache::rememberForever('view-policies-' . $this->id, function()
-        {
-            ViewPolicy::select('view_policies.*')
-                ->with(['fields'])
-                ->join('model_has_roles', 'model_has_roles.role_id', '=', 'view_policies.role_id')
-                ->where('model_has_roles.model_type', '=', Person::class)
-                ->where('model_id', $this->id)
-                ->get();
-        });*/
-
-    }
 
     public function relationships(): BelongsToMany
     {
@@ -238,7 +222,6 @@ class Person extends Authenticatable
     }
 
 
-
     /**********
      * Boolean Functions
      */
@@ -263,156 +246,80 @@ class Person extends Authenticatable
         return ($this->attributes['portrait_url'] != null && $this->attributes['portrait_url'] != '');
     }
 
-    public function canViewField(ViewableField|string $testingField, Person $target): bool
+    /**
+     * FIELD PERMISSIONS
+     */
+
+    public function viewableFields(): Collection
+    {
+        $query = FieldPermission::where('editable', '>', 10);
+        if($this->isEmployee())
+            $query = $query->orWhere('by_employees', true);
+        if($this->isStudent())
+            $query = $query->orWhere('by_students', true);
+        if($this->isParent())
+            $query = $query->orWhere('by_parents', true);
+        return $query->get();
+    }
+
+    public function editableFields(): Collection
+    {
+        return FieldPermission::where('editable', true)->get();
+    }
+
+    public function selfViewableFields(): Collection
+    {
+        return FieldPermission::where('by_self', true)->get();
+    }
+
+    public function canViewField(RoleField|string $testingField, Person $target): bool
     {
         if($this->can('people.view'))
             return true;
-        if(is_string($testingField))
-            $testingField = ViewableField::where('name', $testingField)->first();
-        if(!$testingField)
-            return false;
-        //find the fields specifically in relation to the policicies that
-        //belong to this person.
-        $policyFields = [];
-        foreach($target->viewPolicies() as $policy)
-        {
-            if($policy->fields->where('id', '=', $testingField->id)->count() > 0)
-                $policyFields[] = $policy->fields->where('id', '=', $testingField->id)->first();
-        }
-        //when deciding the priorities of the policies, we always go through a allow, deny method. Meaning that if we find
-        //any policy where we're  allowed to see it, then it is allowed. Default is always to deny though.
         if($target->id == $this->id)
         {
-            //self: There is only one field that we care in here, and that is the view or not.
-            foreach($policyFields as $field)
-            {
-                if ($field->permissions->self_viewable)
-                    return true;
-            }
-            return false;
+            if ($testingField instanceof RoleField)
+                return $this->selfViewableFields()
+                        ->where('field', '=', $testingField->fieldId)
+                        ->where('role_id', '=', $testingField->roleId)
+                        ->count() > 0;
+            else
+                return $this->selfViewableFields()
+                        ->where('field', '=', $testingField)
+                        ->where('role_id', '=', '')
+                        ->count() > 0;
         }
-        elseif($this->isEmployee())
+        else
         {
-            //employee: an enforced field is always prioritized, with it showing as a priority, else if not enforced, we go to settings.
-            $isEnforced = false;
-            foreach($policyFields as $field)
-            {
-                if($field->permissions->employee_enforce)
-                {
-                    if($field->permissions->employee_viewable)
-                        return true;
-                    $isEnforced = true;
-                }
-            }
-            if($isEnforced)
-                return false;
-            return ($target->viewingPreferences())[$testingField->id]?? false;
-
+            if ($testingField instanceof RoleField)
+                return $this->viewableFields()
+                        ->where('field', '=', $testingField->fieldId)
+                        ->where('role_id', '=', $testingField->roleId)
+                        ->count() > 0;
+            else
+                return $this->viewableFields()
+                        ->where('field', '=', $testingField)
+                        ->where('role_id', '=', '')
+                        ->count() > 0;
         }
-        elseif($this->isStudent())
-        {
-            //student: an enforced field is always prioritized, with it showing as a priority, else if not enforced, we go to settings.
-            $isEnforced = false;
-            foreach($policyFields as $field)
-            {
-                if($field->permissions->student_enforce)
-                {
-                    if($field->permissions->student_viewable)
-                        return true;
-                    $isEnforced = true;
-                }
-            }
-            if($isEnforced)
-                return false;
-            return ($target->viewingPreferences())[$testingField->id]?? false;
-        }
-        elseif($this->isParent())
-        {
-            //parent: an enforced field is always prioritized, with it showing as a priority, else if not enforced, we go to settings.
-            $isEnforced = false;
-            foreach($policyFields as $field)
-            {
-                if($field->permissions->parent_enforce)
-                {
-                    if($field->permissions->parent_viewable)
-                        return true;
-                    $isEnforced = true;
-                }
-            }
-            if($isEnforced)
-                return false;
-            return ($target->viewingPreferences())[$testingField->id]?? false;
-        }
-        return false;
     }
 
-    public function canEditField(ViewableField $testingField): bool
+    public function canEditOwnField(RoleField|string $testingField): bool
     {
-        //if we have the global edit, then we can just return true.
         if($this->can('people.edit'))
             return true;
-        //find the fields specifically in relation to the policicies that
-        //belong to this person.
-        $policyFields = [];
-        foreach($this->viewPolicies() as $policy)
+        if($testingField instanceof RoleField)
         {
-            if($policy->fields->where('id', '=', $testingField->id)->count() > 0)
-                $policyFields[] = $policy->fields->where('id', '=', $testingField->id)->first();
+            return $this->editableFields()
+                    ->where('field', '=', $testingField->fieldId)
+                    ->where('role_id', '=', $testingField->roleId)
+                    ->count() > 0;
         }
-        //if a policy exists that we can edit, then we return true
-        foreach($policyFields as $field)
-        {
-            if ($field->permissions->editable)
-                return true;
-        }
-        return false;
-    }
-
-    /**
-     * Viewable Fields
-     */
-    public function unenforcedFields(): Collection
-    {
-        return ViewableField::select('viewable_fields.*')
-            ->join('view_policies_fields', 'view_policies_fields.field_id', '=', 'viewable_fields.id')
-            ->join('view_policies', 'view_policies.id', '=', 'view_policies_fields.policy_id')
-            ->join('model_has_roles', 'model_has_roles.role_id', '=', 'view_policies.role_id')
-            ->where('model_has_roles.model_type', '=', Person::class)
-            ->where('model_id', $this->id)
-            ->where(function($query)
-            {
-                $query->where('view_policies_fields.employee_enforce', false)
-                    ->orWhere('view_policies_fields.parent_enforce', false)
-                    ->orWhere('view_policies_fields.student_enforce', false);
-            })
-            ->groupBy('viewable_fields.id')
-            ->orderBy('group_id')
-            ->orderBy('order')
-            ->get();
-    }
-
-    public function viewingPreferences(): array
-    {
-        if(!isset($this->prefs['viewing']))
-        {
-            //create the base one based on the all the policies.
-            $viewingPrefs = [];
-            foreach($this->unenforcedFields() as $field)
-                $viewingPrefs[$field->id] = false;
-            $prefs = $this->prefs;
-            $prefs['viewing'] = $viewingPrefs;
-            $this->prefs = $prefs;
-            $this->save();
-        }
-        return $this->prefs['viewing'];
-    }
-
-    public function updateViewingPreferences(array $viewingPrefs): void
-    {
-        $prefs = $this->prefs;
-        $prefs['viewing'] = $viewingPrefs;
-        $this->prefs = $prefs;
-        $this->save();
+        else
+            return $this->editableFields()
+                    ->where('field', '=', $testingField)
+                    ->where('role_id', '=', '')
+                    ->count() > 0;
     }
 
     /**

@@ -3,6 +3,7 @@
 namespace App\Models\Utilities;
 
 use App\Classes\RoleField;
+use App\Models\People\FieldPermission;
 use App\Models\People\RoleFields;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
@@ -59,12 +60,7 @@ class SchoolRoles extends Role
             "Student" => [],
             "Employee" => [],
             "Faculty" => [],
-            "Staff" =>
-                [
-                    'settings.permissions.view', 'settings.roles.view', 'crud',
-                    'locations.campuses', 'locations.years', 'locations.terms',
-                    'locations.buildings', 'locations.areas', 'locations.rooms',
-                ],
+            "Staff" => [],
             "Coach" => [],
             "Parent" => [],
             "Old Student" => [],
@@ -101,7 +97,7 @@ class SchoolRoles extends Role
 
     protected function fields(): Attribute
     {
-        if($this->pivot)
+        if($this->pivot && $this->pivot->field_values)
             $fieldValues = json_decode($this->pivot->field_values, true);
         else
             $fieldValues = null;
@@ -116,6 +112,7 @@ class SchoolRoles extends Role
                 {
                     if($fieldValues)
                         $field['fieldValue'] = $fieldValues[$field['fieldId']]?? null;
+                    $field['roleId'] = $this->id;
                     $fields[$field['fieldId']] = new RoleField($field);
                 }
                 return $fields;
@@ -130,5 +127,28 @@ class SchoolRoles extends Role
                 return json_encode($fields);
             }
         );
+    }
+
+    public function syncFieldPermissions(): void
+    {
+        $fields = $this->fields;
+        $fieldIds = [];
+        foreach($fields as $field)
+        {
+            //we will check if we have permissions for this field.
+            if(!FieldPermission::where('field', $field->fieldId)->where('role_id', $this->id)->exists())
+            {
+                //we don't have an entry, so we create one.
+                FieldPermission::create(
+                    [
+                        'field' => $field->fieldId,
+                        'role_id' => $this->id,
+                    ]);
+            }
+            // and we save the field name
+            $fieldIds[] = $field->fieldId;
+        }
+        // at this point all the permissions are there, so we prune any extraneous ones.
+        FieldPermission::where('role_id', $this->id)->whereNotIn('field', $fieldIds)->delete();
     }
 }

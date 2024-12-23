@@ -35,6 +35,7 @@
                                 role="tab"
                                 aria-controls="#tab-pane-contact"
                                 aria-selected="true"
+                                save-tab="contact"
                             >{{ __('locations.campus.information.contact') }}</a>
                         </li>
                         <li class="nav-item">
@@ -47,7 +48,34 @@
                                 role="tab"
                                 aria-controls="#tab-pane-rooms"
                                 aria-selected="false"
+                                save-tab="rooms"
                             >{{ trans_choice('locations.rooms',2) }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="tab-periods"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tab-pane-periods"
+                                href="#tab-pane-periods"
+                                role="tab"
+                                aria-controls="#tab-pane-periods"
+                                aria-selected="false"
+                                save-tab="periods"
+                            >{{ trans_choice('locations.period',2) }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="tab-blocks"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tab-pane-blocks"
+                                href="#tab-pane-blocks"
+                                role="tab"
+                                aria-controls="#tab-pane-blocks"
+                                aria-selected="false"
+                                save-tab="blocks"
+                            >{{ trans_choice('locations.block',2) }}</a>
                         </li>
                     </ul>
                 </div>
@@ -146,6 +174,125 @@
                                 @endforeach
                             </div>
                         @endforeach
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="tab-pane-periods" role="tabpanel" aria-labelledby="tab-periods" tabindex="0"
+                    >
+                        <div class="mb-3 row">
+                            <a
+                                class="btn btn-primary col mx-2"
+                                href="{{ route('locations.periods.create', ['campus' => $campus]) }}"
+                            >{{ __('locations.period.new') }}</a>
+                            <a
+                                class="col btn btn-info mx-2"
+                                href="{{ route('locations.periods.edit.mass', ['campus' => $campus]) }}"
+                            >{{ __('locations.period.create.mass') }}</a>
+                        </div>
+                        <div class="form-check form-switch mb-3">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                role="switch"
+                                onclick="$('.period.inactive').toggleClass('d-none')"
+                                id="show-inactive-periods"
+                            />
+                            <label class="form-check-label" for="show-inactive-periods">{{ __('locations.period.inactive.show') }}</label>
+                        </div>
+                        @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                            <div class="mb-3">
+                                <h3 class="border-bottom d-flex justify-content-between align-items-end">
+                                    {{ $dayName }}
+                                </h3>
+                                @forelse($campus->periods($dayId)->get() as $period)
+                                    <div class="period d-flex border-bottom justify-content-between align-items-end @if(!$period->active) inactive d-none @endif">
+                                        <span class="col-4 @if(!$period->active) text-warning @endif">
+                                            {{ $period->name }} ( {{ $period->abbr }})
+                                        </span>
+                                        <span>
+                                            @can('edit', $period)
+                                            <a
+                                                href="{{ route('locations.periods.edit', $period) }}"
+                                                class="text-decoration-none"
+                                            >
+                                                {{ $period->dayStr() }} {{ $period->start->format('g:i A') }} &mdash; {{ $period->end->format('g:i A') }}
+                                            </a>
+                                            @else
+                                            {{ $period->dayStr() }} {{ $period->start->format('g:i A') }} &mdash; {{ $period->end->format('g:i A') }}
+                                            @endcan
+                                        </span>
+                                    </div>
+                                @empty
+                                    <h4 class="text-center mb-5">{{ __('locations.period.no') }}</h4>
+                                @endforelse
+                            </div>
+                        @endforeach
+                    </div>
+                    <div
+                        class="tab-pane fade"
+                        id="tab-pane-blocks" role="tabpanel" aria-labelledby="tab-blocks" tabindex="0"
+                    >
+                        @can('create', \App\Models\Schedules\Block::class, $campus)
+                            <div class="row" id="block-add-control">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary col mx-2"
+                                    onclick="$('#block-add-control,#block-add-form').toggleClass('d-none')"
+                                >{{ __('locations.block.create') }}</button>
+                            </div>
+                            <form action="{{ route('locations.blocks.store', ['campus' => $campus]) }}" method="POST" id="block-add-form-container" class="mb-4">
+                                @csrf
+                                <div class="row d-none" id="block-add-form">
+                                    <div class="col-sm-8">
+                                        <label for="block_name" class="form-label">{{ __('locations.block.name') }}</label>
+                                        <input
+                                            type="text"
+                                            class="form-control @error('block_name') is-invalid @enderror"
+                                            id="block_name"
+                                            name="block_name"
+                                        />
+                                        <x-error-display key="block_name">{{ $errors->first('block_name') }}</x-error-display>
+                                    </div>
+                                    <div class="col-sm-4 align-self-end">
+                                        <button type="submit" class="btn btn-primary">{{ __('locations.block.create') }}</button>
+                                        <button
+                                            type="button"
+                                            class="btn btn-secondary"
+                                            onclick="$('#block-add-control,#block-add-form').toggleClass('d-none')"
+                                        >{{ __('common.cancel') }}</button>
+                                    </div>
+                                </div>
+                            </form>
+                        @endcan
+                        <div class="form-check form-switch mb-3">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                role="switch"
+                                onclick="$('.block.inactive').toggleClass('d-none')"
+                                id="show-inactive-blocks"
+                            />
+                            <label class="form-check-label" for="show-inactive-blocks">{{ __('locations.block.inactive.show') }}</label>
+                        </div>
+                        @forelse($campus->blocks as $block)
+                            <div class="d-flex border-bottom justify-content-between align-items-end block @if(!$block->active) inactive d-none @endif">
+                                <span class="col-4 @if(!$block->active) text-warning @endif">{{ $block->name }}</span>
+                                <span>
+                                        @can('edit', $block)
+                                        <a
+                                            href="{{ route('locations.blocks.edit', $block) }}"
+                                            class="text-decoration-none"
+                                        >
+                                            {{ $block->periods->implode('abbr', ', ') }}
+                                        </a>
+                                        @else
+                                            {{ $block->periods->implode('abbr', ', ') }}
+                                        @endcan
+                                    </span>
+                            </div>
+                        @empty
+                            <h4 class="text-center mb-5">{{ __('locations.block.no') }}</h4>
+                        @endforelse
                     </div>
                 </div>
             </div>

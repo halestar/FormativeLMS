@@ -6,9 +6,11 @@ use App\Models\Locations\Campus;
 use App\Models\Scopes\OrderByOrderScope;
 use App\Traits\DeterminesTextColor;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
 #[ScopedBy(OrderByOrderScope::class)]
 class Subject extends Model
@@ -53,4 +55,15 @@ class Subject extends Model
     {
         return $this->hasMany(Course::class, 'subject_id');
     }
+
+    public function schoolClasses(): HasManyThrough
+    {
+        return $this->hasManyThrough(SchoolClass::class, Course::class, 'subject_id', 'course_id');
+    }
+
+    public function scopeActive(Builder $builder)
+    {
+        $builder->where('active', true);
+    }
+
 }

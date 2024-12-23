@@ -6,6 +6,8 @@ use App\Models\CRUD\Level;
 use App\Models\CRUD\Relationship;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
+use App\Models\Schedules\Block;
+use App\Models\Schedules\Period;
 use App\Models\Scopes\OrderByOrderScope;
 use App\Models\SubjectMatter\Course;
 use App\Models\SubjectMatter\Subject;
@@ -79,12 +81,6 @@ class Campus extends Model
     public function yearTerms(Year $year): HasMany
     {
         return $this->terms()->where('year_id', $year->id);
-    }
-
-    public function years(): BelongsToMany
-    {
-        return $this->belongsToMany(Year::class, 'campuses_years', 'campus_id', 'year_id')
-            ->groupBy('years.id');
     }
 
     public function iconHtml($size = "normal", $css = null): string
@@ -173,5 +169,18 @@ class Campus extends Model
             ->where('model_has_roles.model_type', Person::class)
             ->where('roles.name', '=', $role)
             ->get();
+    }
+
+    public function periods(int $day = null): HasMany
+    {
+        $query = $this->hasMany(Period::class, 'campus_id');
+        if($day)
+            $query->where('day', $day);
+        return $query;
+    }
+
+    public function blocks(): HasMany
+    {
+        return $this->hasMany(Block::class, 'campus_id');
     }
 }

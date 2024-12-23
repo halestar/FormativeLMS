@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Classes\SessionSettings;
+use Illuminate\Http\Request;
+
 class HomeController extends Controller
 {
     /**
@@ -11,7 +14,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->only('index');
+        $this->middleware('auth');
     }
 
     /**
@@ -22,6 +25,23 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function getSessionSetting(Request $request)
+    {
+        $key = $request->input('key');
+        $s = SessionSettings::instance();
+        $default = $request->input('default', []);
+        return response()->json($s->get($key, $default), 200);
+    }
+
+    public function setSessionSetting(Request $request)
+    {
+        $s = SessionSettings::instance();
+        $key = $request->input('key');
+        $value = $request->input('value');
+        $s->set($key, $value);
+        return response()->json([], 200);
     }
 
 }

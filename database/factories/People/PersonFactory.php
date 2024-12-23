@@ -2,10 +2,7 @@
 
 namespace Database\Factories\People;
 
-use App\Models\CRUD\Ethnicity;
-use App\Models\CRUD\Gender;
 use App\Models\CRUD\Level;
-use App\Models\CRUD\Pronouns;
 use App\Models\CRUD\Relationship;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
@@ -36,9 +33,6 @@ class PersonFactory extends Factory
             'nick' => null,
             'dob' => fake()->dateTimeBetween('-18 years', 'now'),
             'password' => Hash::make(fake()->password(20, 30)),
-            'ethnicity_id' => Ethnicity::inRandomOrder()->first()->id,
-            'gender_id' => Gender::inRandomOrder()->first()->id,
-            'pronoun_id' => Pronouns::inRandomOrder()->first()->id,
             'email_verified_at' => now(),
             'remember_token' => Str::random(10),
             'portrait_url' => $this->faker->imageUrl(),
@@ -52,16 +46,7 @@ class PersonFactory extends Factory
 
     public function faculty(): static
     {
-        return $this->state(function (array $attributes)
-                    {
-                        return
-                            [
-                                'job_title' =>  'Faculty',
-                                'work_company' => 'My School',
-                                'occupation' => 'Teacher',
-                            ];
-                    })
-                ->afterCreating(function (Person $person)
+        return $this->afterCreating(function (Person $person)
                 {
                     $person->assignRole(SchoolRoles::$FACULTY);
                     $person->assignRole(SchoolRoles::$EMPLOYEE);
@@ -71,16 +56,7 @@ class PersonFactory extends Factory
 
     public function staff(): Factory
     {
-        return $this->state(function (array $attributes)
-        {
-            return
-                [
-                    'job_title' =>  'Staff',
-                    'work_company' => 'My School',
-                    'occupation' => 'Staff',
-                ];
-        })
-            ->afterCreating(function (Person $person)
+        return $this->afterCreating(function (Person $person)
             {
                 $person->assignRole(SchoolRoles::$STAFF);
                 $person->assignRole(SchoolRoles::$EMPLOYEE);
@@ -90,16 +66,7 @@ class PersonFactory extends Factory
 
     public function coach(): Factory
     {
-        return $this->state(function (array $attributes)
-        {
-            return
-                [
-                    'job_title' =>  'Coach',
-                    'work_company' => 'My School',
-                    'occupation' => 'Coach',
-                ];
-        })
-            ->afterCreating(function (Person $person)
+        return $this->afterCreating(function (Person $person)
             {
                 $person->assignRole(SchoolRoles::$COACH);
                 $person->assignRole(SchoolRoles::$EMPLOYEE);
@@ -183,9 +150,6 @@ class PersonFactory extends Factory
                             return
                                 [
                                     'email' => fake()->email(),
-                                    'job_title' =>  $this->faker->jobTitle(),
-                                    'work_company' => $this->faker->company(),
-                                    'occupation' => $this->faker->jobTitle(),
                                 ];
                         })
                     ->afterCreating(function (Person $person)

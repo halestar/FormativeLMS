@@ -4,7 +4,6 @@ namespace App\Models\People;
 
 use App\Models\Locations\Building;
 use App\Models\Locations\Campus;
-use App\Traits\HasViewableFields;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -13,7 +12,7 @@ use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 class Address extends Model
 {
-    use HasFactory, HasViewableFields;
+    use HasFactory;
     protected  $fillable = [ 'line1', 'line2', 'line3', 'city', 'state', 'zip', 'country' ];
     public $timestamps = true;
     protected $table = "addresses";

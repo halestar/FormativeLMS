@@ -2,11 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\CRUD\Ethnicity;
-use App\Models\CRUD\Gender;
-use App\Models\CRUD\Pronouns;
 use App\Models\CRUD\Relationship;
-use App\Models\CRUD\Title;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
 use App\Models\People\InternalUser;
@@ -36,14 +32,7 @@ class AdminSeeder extends Seeder
                 'password' => Hash::make(config('lms.superadmin_password')),
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
-                'ethnicity_id' => Ethnicity::where('name', 'LIKE', 'Hispanic or Latino')->first()->id,
-                'title_id' => Title::where('name', 'LIKE', 'Mr.')->first()->id,
-                'gender_id' => Gender::where('name', 'LIKE', 'Male')->first()->id,
-                'pronoun_id' => Pronouns::where('name', 'LIKE', 'He/Him')->first()->id,
-                'occupation' => 'IT',
-                'job_title' => 'Director of Technology',
-                'work_company' => 'New Roads School',
-                'portrait_url' => 'https://storage.googleapis.com/deep-citizen-425500-e0.appspot.com/cms/3366701.png',
+                'portrait_url' => 'https://dev.kalinec.net/storage/cms/TE2rVueMTcPsC6SlC5lLHjW0ljbyfYJUZBAu422O.png',
             ]);
         $admin->assignRole(SchoolRoles::$ADMIN);
         $admin->assignRole(SchoolRoles::$EMPLOYEE);
@@ -65,6 +54,11 @@ class AdminSeeder extends Seeder
             ]);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
         $staff->assignRole(SchoolRoles::$STAFF);
+        $staff->assignRole("DB Editor");
+        $staff->assignRole("Academic Manager");
+        $staff->assignRole("Locations Manager");
+        $staff->assignRole("Schedule Manager");
+
 
 
         $faculty = Person::create(

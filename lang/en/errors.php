@@ -26,4 +26,11 @@ return
         'rooms.areas' => 'You must select the area the this room resides in.',
         'subjects.name' => 'You must provide a subject name, max 255 characters',
         'courses.name' => 'You must provide a course name, max 255 characters',
+        'periods.name' => 'You must provide a period name, max 255 characters',
+        'periods.abbr' => 'You must provide a period abbreviation, max 10 characters',
+        'periods.start' => 'You must provide a start time for the period',
+        'periods.end' => 'You must provide an end time for the period',
+        'blocks.name' => 'You must provide a block name, max 20 characters',
+        'blocks.periods' => 'Your block must contain at least one period',
+        'classes.terms' => 'You must select at least one term for this class',
     ];

@@ -1,4 +1,5 @@
 @extends('layouts.app', ['breadcrumb' => $breadcrumb])
+
 @section('content')
     <div class="container">
         <div class="border-bottom d-flex justify-content-between align-items-baseline mb-3 pb-2" id="add-header">
@@ -170,7 +171,10 @@
                             @endif
                         </span>
                         <span class="col-sm-1 align-self-center text-center">
-                            XXX
+                            <a href="{{ route('subjects.classes.index', ['course' => $course->id]) }}">
+                                {{ $course->schoolClasses()->count() }}
+                                {{ trans_choice('subjects.class',$course->schoolClasses()->count()) }}
+                            </a>
                         </span>
                         <div class="col-sm-2 align-self-center text-end">
                             <a

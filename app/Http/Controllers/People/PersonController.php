@@ -42,7 +42,11 @@ class PersonController extends Controller
     public function show(Person $person)
     {
         Gate::authorize('view', $person);
-        $breadcrumb = [ __('people.profile.view') => "#" ];
+        $breadcrumb =
+            [
+                __('people.school.directory') => route('people.index'),
+                __('people.profile.view') => "#"
+            ];
         if(Auth::user()->id == $person->id)
             $breadcrumb = [ __('people.profile.mine') => "#" ];
         $self = Auth::user();
@@ -105,5 +109,15 @@ class PersonController extends Controller
         Gate::authorize('has-permission', 'people.roles.fields');
         $breadcrumb = [ __('people.fields.roles') => "#" ];
         return view('people.fields', compact('breadcrumb'));
+    }
+
+    public function fieldPermissions()
+    {
+        Gate::authorize('has-permission', 'people.field.permissions');
+        $breadcrumb =
+            [
+                __('system.menu.fields') => '#'
+            ];
+        return view('people.permissions', compact('breadcrumb'));
     }
 }

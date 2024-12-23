@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             [
                 PermissionSeeder::class,
                 RoleSeeder::class,
+                FieldPermissionsSeeder::class,
                 CrudSeeder::class,
                 BuildingSeeder::class,
                 CampusSeeder::class,
@@ -28,10 +29,13 @@ class DatabaseSeeder extends Seeder
                 StaffSeeder::class,
                 CoachSeeder::class,
                 FamilySeeder::class,
-                ViewableFieldsSeeder::class,
-                ViewPolicySeeder::class,
                 SubjectSeeder::class,
                 CourseSeeder::class,
+                PeriodSeeder::class,
+                BlockSeeder::class,
+                SchoolClassSeeder::class,
+                ClassSessionSeeder::class,
+                StudentEnrollmentSeeder::class,
             ]);
     }
 }

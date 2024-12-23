@@ -28,6 +28,7 @@
                                 role="tab"
                                 aria-controls="#tab-pane-contact"
                                 aria-selected="true"
+                                save-tab="contact"
                             >{{ __('locations.campus.information.contact') }}</a>
                         </li>
                         <li class="nav-item">
@@ -40,6 +41,7 @@
                                 role="tab"
                                 aria-controls="#tab-pane-rooms"
                                 aria-selected="false"
+                                save-tab="rooms"
                             >{{ trans_choice('locations.rooms',2) }}</a>
                         </li>
                         <li class="nav-item">
@@ -52,6 +54,7 @@
                                 role="tab"
                                 aria-controls="#tab-pane-maps"
                                 aria-selected="false"
+                                save-tab="maps"
                             >{{ __('locations.areas.maps') }}</a>
                         </li>
                     </ul>
@@ -81,6 +84,7 @@
                                     <button
                                         onclick="filterArea({{ $area->id }})"
                                         class="btn btn-outline-success btn-sm ms-1"
+                                        save-fn="filterArea({{ $area->id }})"
                                     ><i class="fa-solid fa-filter"></i></button>
                                 </div>
 

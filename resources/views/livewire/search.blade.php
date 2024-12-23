@@ -11,8 +11,8 @@
                     <a class="list-group list-group-item-action text-decoration-none my-1 py-1" href="{{ route('people.show', ['person' => $person->id]) }}">
                         <div class="d-flex justify-content-start align-items-start">
                             <img
-                                class="img-mini"
-                                src="{{ $person->thumbnail_url }}"
+                                class="img-fluid img-thumbnail img-icon-normal"
+                                src='{!! $person->thumbnail_url !!}'
                                 alt="{{ __('people.profile.thumb') }}"
                             />
                             <h3 class="ms-3 p-0 align-self-center">{{ $person->name }}</h3>

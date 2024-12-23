@@ -18,6 +18,7 @@ mix.scripts(
         'resources/js/text_counter.js',
         'resources/js/area_drawing.js',
         'resources/js/map_drawings.js',
+        'resources/js/session_settings.js',
     ],
     'public/js/lms-tools.js'
 );

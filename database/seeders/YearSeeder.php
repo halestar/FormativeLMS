@@ -18,7 +18,7 @@ class YearSeeder extends Seeder
                     [
                         'campus_id' => $campus['id'],
                         'year_id' => $year->id,
-                        'label' => 'Fall Semester',
+                        'label' => 'Fall',
                         'term_start' => $year->year_start->format('Y-m-d'),
                         'term_end' => $year->year_start->format('Y') . "-12-31",
                     ]);
@@ -26,7 +26,7 @@ class YearSeeder extends Seeder
                     [
                         'campus_id' => $campus['id'],
                         'year_id' => $year->id,
-                        'label' => 'Spring Semester',
+                        'label' => 'Spring',
                         'term_start' => $year->year_end->format('Y') . "-01-01",
                         'term_end' => $year->year_end->format('Y') . "-06-10",
                     ]);

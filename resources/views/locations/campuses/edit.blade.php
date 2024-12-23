@@ -1,5 +1,7 @@
 @extends('layouts.app', ['breadcrumb' => $breadcrumb])
-
+@push('head_scripts')
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable/build/umd/index.min.js"></script>
+@endpush
 @section('content')
     <div class="container">
         <div class="row profile-head-row">
@@ -129,6 +131,18 @@
                                 aria-controls="#tab-pane-rooms"
                                 aria-selected="false"
                             >{{ trans_choice('locations.rooms', 2) }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="tab-blocks"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tab-pane-blocks"
+                                href="#tab-pane-blocks"
+                                role="tab"
+                                aria-controls="#tab-pane-blocks"
+                                aria-selected="false"
+                            >{{ trans_choice('locations.block',2) }}</a>
                         </li>
                     </ul>
                 </div>
@@ -267,6 +281,36 @@
                         </div>
                     </div>
 
+                    <div
+                        class="tab-pane fade"
+                        id="tab-pane-blocks" role="tabpanel" aria-labelledby="tab-blocks" tabindex="0"
+                    >
+                        <ul class="list-group block-list">
+                            @forelse($campus->blocks()->active()->get() as $block)
+                                <li class="list-group-item d-flex justify-content-between align-items-end block" block-id="{{ $block->id }}">
+                                    <div class="col-4 @if(!$block->active) text-warning @endif">
+                                        <span class="block-move-handle me-2"><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                                        {{ $block->name }}
+                                    </div>
+                                    <span>
+                                            @can('edit', $block)
+                                            <a
+                                                href="{{ route('locations.blocks.edit', $block) }}"
+                                                class="text-decoration-none"
+                                            >
+                                                {{ $block->periods->implode('abbr', ', ') }}
+                                            </a>
+                                        @else
+                                            {{ $block->periods->implode('abbr', ', ') }}
+                                        @endcan
+                                        </span>
+                                </li>
+                            @empty
+                                <li><h4 class="text-center mb-5">{{ __('locations.block.no') }}</h4></li>
+                            @endforelse
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -298,5 +342,41 @@
             // Read the file as text.
             reader.readAsText( fl_file );
         }
+
+        const sortable = new Draggable.Sortable(document.querySelectorAll('.block-list'), {
+            draggable: '.block',
+            handle: '.block-move-handle',
+            mirror: {
+                constrainDimensions: true
+            }
+        });
+
+        sortable.on('sortable:stop', () => {
+            let sorted = [];
+            $('.block:not(.draggable--original):not(.draggable-mirror)').each((index, block) => {
+                sorted.push($(block).attr('block-id'))
+            });
+
+            var form = document.createElement('form');
+            form.method = 'POST';
+            form.action = '{{ route('locations.blocks.update.order') }}';
+            var putInput = document.createElement('input');
+            putInput.type = 'hidden';
+            putInput.name = '_method';
+            putInput.value = 'PUT';
+            form.appendChild(putInput);
+            var csrf = document.createElement('input');
+            csrf.type = 'hidden';
+            csrf.name = '_token';
+            csrf.value = jQuery('meta[name="csrf-token"]').attr('content');
+            form.appendChild(csrf);
+            var sortInput = document.createElement('input');
+            sortInput.type = 'hidden';
+            sortInput.name = 'blocks';
+            sortInput.value = JSON.stringify(sorted);
+            form.appendChild(sortInput);
+            document.body.appendChild(form);
+            form.submit();
+        })
     </script>
 @endpush

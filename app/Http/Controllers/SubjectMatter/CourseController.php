@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers\SubjectMatter;
 
+use App\Classes\SessionSettings;
 use App\Http\Controllers\Controller;
 use App\Models\SubjectMatter\Course;
 use App\Models\SubjectMatter\Subject;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
-use Illuminate\Support\Facades\Log;
 
 class CourseController extends Controller
 {
@@ -23,18 +23,28 @@ class CourseController extends Controller
         $this->middleware('auth');
     }
 
-    public function index(Subject $subject)
+    public function index(?Subject $subject = null)
     {
+        //get the first subject from the working campus
+        if(!$subject)
+        {
+            //first, do we have a saved subjects.subject_id?
+            if(SessionSettings::instance()->has('subjects.subject_id'))
+                $subject = Subject::find(SessionSettings::instance()->get('subjects.subject_id'));
+            else
+                $subject = SessionSettings::instance()->workingCampus()->subjects()->first();
+        }
+        //save the subject.
+        SessionSettings::instance()->set('subjects.subject_id', $subject->id);
+        //and save the campus
+        SessionSettings::instance()->workingCampus($subject->campus_id);
         Gate::authorize('viewAny', Course::class);
         $breadcrumb =
             [
-                trans_choice('locations.campus', 2) => route('locations.campuses.index'),
                 $subject->campus->name => route('locations.campuses.show', ['campus' => $subject->campus_id]),
-                trans_choice('subjects.subject', 2) => route('subjects.subjects.index', ['campus' => $subject->campus_id]),
                 $subject->name => route('subjects.subjects.index', ['campus' => $subject->campus_id]),
                 trans_choice('subjects.course', 2) => '#'
             ];
-        Log::debug(print_r($subject, true));
         return view('subjects.courses.index', compact('subject', 'breadcrumb'));
     }
 

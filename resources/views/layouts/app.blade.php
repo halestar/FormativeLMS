@@ -46,12 +46,13 @@
                                     {{ __('system.menu.school.directory') }}
                                 </a>
                             </li>
+                            @canany(['locations.campuses', 'locations.years', 'locations.buildings', 'subjects.subjects', 'subjects.courses', 'subjects.classes'])
                             <li class="nav-item dropdown">
-                                <a id="adminDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="schoolAdminDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ __('system.menu.school.administration') }}
                                 </a>
 
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="adminDD">
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="schoolAdminDD">
                                     @can('locations.campuses')
                                         <a class="dropdown-item" href="{{ route('locations.campuses.index') }}">
                                             {{ __('system.menu.campuses') }}
@@ -72,8 +73,35 @@
                                             {{ trans_choice('subjects.subject',2) }}
                                         </a>
                                     @endcan
+                                    @can('subjects.courses')
+                                        <a class="dropdown-item" href="{{ route('subjects.courses.index') }}">
+                                            {{ trans_choice('subjects.course',2) }}
+                                        </a>
+                                    @endcan
+                                    @can('subjects.classes')
+                                        <a class="dropdown-item" href="{{ route('subjects.classes.index') }}">
+                                            {{ trans_choice('subjects.class',2) }}
+                                        </a>
+                                    @endcan
                                 </div>
                             </li>
+                            @endcanany
+                            @canany(['classes.enrollment'])
+                            <li class="nav-item dropdown">
+                                <a id="classManagementDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ __('system.menu.classes') }}
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="classManagementDD">
+                                    @can('classes.enrollment')
+                                        <a class="dropdown-item" href="{{ route('subjects.enrollment.general') }}">
+                                            {{ __('system.menu.classes.enrollment.general') }}
+                                        </a>
+                                    @endcan
+                                </div>
+                            </li>
+                            @endcanany
+                            @canany(['crud', 'cms', 'people.roles.fields', 'people.field.permissions'])
                             <li class="nav-item dropdown">
                                 <a id="adminDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ __('system.menu.admin') }}
@@ -90,18 +118,19 @@
                                         {{ __('system.menu.cms') }}
                                     </a>
                                     @endcan
-                                    @can('people.view.policies')
-                                        <a class="dropdown-item" href="{{ route('people.policies.view.index') }}">
-                                            {{ __('system.menu.view_policies') }}
-                                        </a>
-                                    @endcan
                                     @can('people.roles.fields')
                                         <a class="dropdown-item" href="{{ route('people.roles.fields') }}">
                                             {{ __('people.fields.roles') }}
                                         </a>
                                     @endcan
+                                    @can('people.field.permissions')
+                                        <a class="dropdown-item" href="{{ route('people.fields.permissions') }}">
+                                            {{ __('system.menu.fields') }}
+                                        </a>
+                                    @endcan
                                 </div>
                             </li>
+                            @endcanany
                             <li class="nav-item dropdown">
                                 <a id="userDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
@@ -215,6 +244,9 @@
     </div>
     <script>
         $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() })
+        @auth
+            window.sessionSettings = new SessionSettings('{{ Route::currentRouteName() }}');
+        @endauth
     </script>
     @stack('scripts')
 </body>

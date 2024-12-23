@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\SubjectMatter;
 
+use App\Classes\SessionSettings;
 use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
 use App\Models\SubjectMatter\Subject;
@@ -21,10 +22,13 @@ class SubjectsController extends Controller
     {
         $this->middleware('auth');
     }
+
     public function index(Campus $campus = null)
     {
         if(!$campus)
-            $campus = \Auth::user()->employeeCampuses()->first();
+            $campus = SessionSettings::instance()->workingCampus();
+        else
+            SessionSettings::instance()->workingCampus($campus);
         Gate::authorize('viewAny', Subject::class, $campus);
         $breadcrumb =
             [

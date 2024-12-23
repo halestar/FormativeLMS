@@ -35,3 +35,30 @@ Route::put('/rooms/{room}/basic', [RoomController::class, 'updateBasicInfo'])->n
 Route::put('/rooms/{room}/campuses', [RoomController::class, 'updateCampuses'])->name('rooms.update.campuses');
 Route::get('/rooms/create/{building?}', [RoomController::class, 'create'])->name('rooms.create');
 Route::resource('rooms', RoomController::class)->except(['create','index']);
+
+//periods
+Route::name('periods.')
+    ->controller(\App\Http\Controllers\Locations\PeriodController::class)
+    ->group(function ()
+    {
+        Route::get('/periods/{campus?}', 'index')->name('index');
+        Route::get('/periods/{campus}/create', 'create')->name('create');
+        Route::post('/periods/{campus}/create', 'store')->name('store');
+        Route::get('/periods/{period}/edit', 'edit')->name('edit');
+        Route::put('/periods/{period}', 'update')->name('update');
+        Route::delete('/periods/{period}', 'destroy')->name('destroy');
+        Route::get('/periods/{campus}/edit/mass', 'massEdit')->name('edit.mass');
+    });
+
+//blocks
+Route::name('blocks.')
+    ->controller(\App\Http\Controllers\Locations\BlockController::class)
+    ->group(function ()
+    {
+        Route::put('/blocks/order', 'updateOrder')->name('update.order');
+        Route::post('/blocks/{campus}/create', 'store')->name('store');
+        Route::get('/blocks/{block}/edit', 'edit')->name('edit');
+        Route::put('/blocks/{block}', 'update')->name('update');
+        Route::delete('/blocks/{block}', 'destroy')->name('destroy');
+        Route::put('/blocks/order', 'updateOrder')->name('update.order');
+    });

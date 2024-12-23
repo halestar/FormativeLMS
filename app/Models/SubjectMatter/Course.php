@@ -3,12 +3,15 @@
 namespace App\Models\SubjectMatter;
 
 use App\Models\Locations\Campus;
+use App\Models\Locations\Year;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
-use Illuminate\Database\Eloquent\Relations\Pivot;
 
-class Course extends Pivot
+class Course extends Model
 {
     protected $with = ['subject'];
     public $timestamps = true;
@@ -69,4 +72,15 @@ class Course extends Pivot
         return $this->hasOneThrough(Campus::class, Subject::class, 'id', 'id', 'subject_id', 'campus_id');
     }
 
+    public function scopeActive(Builder $builder)
+    {
+        $builder->where('active', true);
+    }
+
+    public function schoolClasses(Year $year = null): HasMany
+    {
+        if(!$year)
+            $year = Year::currentYear();
+        return $this->hasMany(SchoolClass::class, 'course_id')->where('year_id', $year->id);
+    }
 }

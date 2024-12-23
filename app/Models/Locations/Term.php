@@ -4,6 +4,8 @@ namespace App\Models\Locations;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Facades\Cache;
 
 class Term extends Model
 {
@@ -40,5 +42,26 @@ class Term extends Model
     public function canDelete(): bool
     {
         return true;
+    }
+
+    public function year(): BelongsTo
+    {
+        return $this->belongsTo(Year::class, 'year_id');
+    }
+
+    public function campus(): BelongsTo
+    {
+        return $this->belongsTo(Campus::class, 'campus_id');
+    }
+
+    public static function currentTerm(): ?Term
+    {
+        return Cache::rememberForever('current-term', function()
+            {
+                $now = date('Y-m-d');
+                return Term::whereDate('term_start', '<=', $now)
+                    ->whereDate('term_end', '>=', $now)
+                    ->first();
+            });
     }
 }
