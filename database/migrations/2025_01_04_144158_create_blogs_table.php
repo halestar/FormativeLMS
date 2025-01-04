@@ -33,6 +33,9 @@ return new class extends Migration
                 ->onDelete('set null');
             $table->boolean('auto_archive')->default(true);
             $table->tinyInteger('archive_after')->unsigned()->default(5);
+            $table->string('image')->nullable();
+            $table->json('metadata')->nullable();
+            $table->json('social_media')->nullable();
             $table->timestamps();
         });
     }

@@ -22,8 +22,11 @@ return new class extends Migration
             $table->string('subtitle')->nullable();
             $table->string('slug');
             $table->string('posted_by');
-            $table->text('body')->nullable();
+            $table->text('description')->nullable();
+            $table->longText('body')->nullable();
             $table->dateTime('published')->nullable();
+            $table->string('image')->nullable();
+            $table->tinyInteger('highlighted')->unsigned()->nullable();
             $table->timestamps();
         });
     }
