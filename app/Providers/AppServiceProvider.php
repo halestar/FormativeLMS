@@ -2,7 +2,14 @@
 
 namespace App\Providers;
 
-use App\Classes\RoleFieldSynth;
+use App\Classes\Synths\ClassSessionLayoutManagerSynth;
+use App\Classes\Synths\ClassTabsSynth;
+use App\Classes\Synths\ClassTabSynth;
+use App\Classes\Synths\ClassWidgetSynth;
+use App\Classes\Synths\NameConstructorSynth;
+use App\Classes\Synths\NameTokenSynth;
+use App\Classes\Synths\RoleFieldSynth;
+use App\Classes\Synths\TopAnnouncementWidgetSynth;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use App\Policies\PersonPolicy;
@@ -39,6 +46,16 @@ class AppServiceProvider extends ServiceProvider
         Gate::policy(SchoolRoles::class, RolePolicy::class);
         Gate::policy(Person::class, PersonPolicy::class);
         Paginator::useBootstrapFive();
-        Livewire::propertySynthesizer(RoleFieldSynth::class);
+        Livewire::propertySynthesizer(
+            [
+                RoleFieldSynth::class,
+                NameConstructorSynth::class,
+                NameTokenSynth::class,
+                TopAnnouncementWidgetSynth::class,
+                ClassSessionLayoutManagerSynth::class,
+                ClassTabsSynth::class,
+                ClassTabSynth::class,
+                ClassWidgetSynth::class,
+            ]);
     }
 }

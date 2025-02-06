@@ -105,4 +105,9 @@ class Days
     {
         return array_combine(self::getDays(), self::dayNames());
     }
+
+    public static function schoolDaysOptions(): array
+    {
+        return SchoolSettings::instance()->days;
+    }
 }

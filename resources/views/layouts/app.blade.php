@@ -15,6 +15,7 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d18ee59f88.js" crossorigin="anonymous"></script>
 
+
     <!-- Stylesheets -->
     @livewireStyles
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
@@ -24,7 +25,11 @@
     @livewireScripts
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ mix('js/lms-tools.js') }}"></script>
+    <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
     @stack('head_scripts')
+    @auth
+        @include('layouts.echo')
+    @endauth
 </head>
 <body>
     <div id="app">
@@ -128,6 +133,11 @@
                                             {{ __('system.menu.fields') }}
                                         </a>
                                     @endcan
+                                    @can('school')
+                                        <a class="dropdown-item" href="{{ route('school.settings') }}">
+                                            {{ __('system.menu.school.settings') }}
+                                        </a>
+                                    @endcan
                                 </div>
                             </li>
                             @endcanany
@@ -164,19 +174,22 @@
                         @endauth
                     </ul>
                     @auth
-                    <div>
-                        <button type="button" class="btn btn-success rounded rounded-5" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                    @else
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
-                        <!-- Authentication Links -->
-                        @if (Route::has('login'))
+                        <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <button type="button" class="btn btn-success rounded rounded-5" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="fa-solid fa-magnifying-glass"></i></button>
                             </li>
-                        @endif
-                    </ul>
+                            <li class="nav-item dropdown ms-3  @if(Auth::user()->unreadNotifications()->count() == 0) d-none @endif" id="notification-menu">
+                                <a id="user-notifications" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    <i class="fa-solid fa-bell fs-4 text-bright-alert glowing"></i>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="user-notifications" id="notifications-dropdown-container">
+                                    @foreach(Auth::user()->unreadNotifications as $notification)
+                                        <x-notification :notification="$notification" />
+                                    @endforeach
+                                </div>
+                            </li>
+                        </ul>
                     @endauth
                 </div>
             </div>
@@ -215,7 +228,7 @@
         <main class="py-4">
             @yield('content')
         </main>
-        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast-container position-fixed bottom-0 end-0 p-3" id="toast-container">
             @session('success-status')
             <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" id="success-toast">
                 <div class="toast-header bg-primary-subtle">
@@ -237,11 +250,30 @@
                 })
             </script>
             @endsession
+            <template id="toast-template">
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <span class="toast-icon me-3"></span>
+                        <strong class="me-auto toast-title"></strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="{{ trans('common.close') }}"></button>
+                    </div>
+                    <div class="toast-body"></div>
+                </div>
+            </template>
         </div>
     </div>
     <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="#search" aria-hidden="true">
             <livewire:search />
     </div>
+    <template id="notification-template">
+        <a class="dropdown-item notification" href="#">
+            <div class="notification-header d-flex justify-content-between align-items-center">
+                <strong class="notification-title"></strong>
+                <span class="notification-icon"></span>
+            </div>
+            <div class="notification-body"></div>
+        </a>
+    </template>
     <script>
         $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() })
         @auth

@@ -21,6 +21,8 @@ return
     'profile.basic.update' => 'Update Basic Information',
     'profile.fields.update' => 'Update Fields Information',
     'profile.contact' => 'Contact Information',
+    'profile.schedule.student' => 'Student Schedule',
+    'profile.schedule.teacher' => 'Teaching Schedule',
 
     'profile.fields.first' => 'First Name',
     'profile.fields.last' => 'Last Name',
@@ -28,6 +30,7 @@ return
     'profile.fields.middle' => 'Middle Name',
     'profile.fields.nick' => 'Nick Name',
     'profile.fields.email' => 'Email',
+    'profile.fields.preferred_name' => 'Preferred Name',
     'profile.fields.dob' => 'Date of Birth',
     'profile.fields.portrait' => 'User Portrait',
     'profile.fields.addresses' => 'Addresses',
@@ -133,5 +136,12 @@ return
     'parent' => 'Parent|Parents',
     'coach' => 'Coach|Coaches',
 
+    'name.creator.space' => 'Space After',
+    'name.creator.basic' => 'Basic Field',
+    'name.creator.role' => 'Role Field',
+    'name.creator.text' => 'Text Field',
+    'name.creator.sample' => 'Sample Name:',
+    'name.creator.random' => 'New Random Person',
+    'name.creator.reset' => 'Reset Name',
 
 ];

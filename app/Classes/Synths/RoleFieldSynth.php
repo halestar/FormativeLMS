@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Classes;
+namespace App\Classes\Synths;
 
+use App\Classes\RoleField;
 use Livewire\Mechanisms\HandleComponents\Synthesizers\Synth;
 
 class RoleFieldSynth extends Synth

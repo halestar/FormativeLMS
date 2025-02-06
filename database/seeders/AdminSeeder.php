@@ -51,6 +51,8 @@ class AdminSeeder extends Seeder
                 'password' => Hash::make('staff'),
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
+                'portrait_url' => env('APP_URL').'/storage/idpics/2.jpg',
+                'thumbnail_url' => env('APP_URL').'/storage/idpics/2.jpg',
             ]);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
         $staff->assignRole(SchoolRoles::$STAFF);
@@ -72,6 +74,8 @@ class AdminSeeder extends Seeder
                 'password' => Hash::make('faculty'),
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
+                'portrait_url' => env('APP_URL').'/storage/idpics/3.jpg',
+                'thumbnail_url' => env('APP_URL').'/storage/idpics/3.jpg',
             ]);
         $faculty->assignRole(SchoolRoles::$FACULTY);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
@@ -88,6 +92,8 @@ class AdminSeeder extends Seeder
                 'password' => Hash::make('coach'),
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
+                'portrait_url' => env('APP_URL').'/storage/idpics/4.jpg',
+                'thumbnail_url' => env('APP_URL').'/storage/idpics/4.jpg',
             ]);
         $coach->assignRole(SchoolRoles::$COACH);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
@@ -112,6 +118,8 @@ class AdminSeeder extends Seeder
                 'password' => Hash::make('student'),
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
+                'portrait_url' => env('APP_URL').'/storage/idpics/5.jpg',
+                'thumbnail_url' => env('APP_URL').'/storage/idpics/5.jpg',
             ]);
         $student->assignRole(SchoolRoles::$STUDENT);
         //to this student, we assign a student role of a 9th grader at the HS campus
@@ -135,6 +143,8 @@ class AdminSeeder extends Seeder
                 'password' => Hash::make('parent'),
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
+                'portrait_url' => env('APP_URL').'/storage/idpics/6.jpg',
+                'thumbnail_url' => env('APP_URL').'/storage/idpics/6.jpg',
             ]);
         $parent->assignRole(SchoolRoles::$PARENT);
         //next, we assign the bi-directinal child-parent relationship between the parent and child accounts.

@@ -154,12 +154,18 @@
                                 </div>
                             </div>
                             <div class="card-body p-0" style="height: 400px;">
-                                <select id="enrolled-students-{{ $schoolClass->id }}" class="form-select h-100" multiple>
+                                <select
+                                    id="enrolled-students-{{ $schoolClass->id }}"
+                                    class="form-select h-100 @if(isset($highlight) && $highlight == $schoolClass->id) glow-{{ $enroll? 'success': 'danger' }} @endif"
+                                    multiple
+                                >
                                     @foreach($schoolClass->students($this->termIds)->sortBy('person.last') as $student)
                                         <option
                                             value="{{ $student->id }}"
                                             @if(!$schoolClass->isEnrolled($student, $termIds))
-                                                class="bg-danger-subtle"
+                                                class="bg-danger-subtle @if(isset($highlight) && $enroll && in_array($student->id, $studentIds)) glow-success @endif"
+                                            @elseif(isset($highlight) && $enroll && in_array($student->id, $studentIds))
+                                                class="glow-success"
                                             @endif
                                         >
                                             {{ $student->level->name }} &nbsp;
@@ -195,3 +201,15 @@
         </div>
     </div>
 </div>
+@script
+    <script>
+        $wire.on('unhighlight-changes', () =>
+        {
+            setTimeout(() =>
+            {
+                $('.glow-danger').removeClass('glow-danger');
+                $('.glow-success').removeClass('glow-success');
+            }, 3000)
+        });
+    </script>
+@endscript

@@ -47,3 +47,5 @@ Route::prefix('enrollment')
     {
         Route::get('/enrollment/general', 'general')->name('general');
     });
+
+Route::get('/school/classes/{classSession}', [\App\Http\Controllers\School\ClassController::class, 'show'])->name('school.classes.show');

@@ -9,8 +9,11 @@ $enable-negative-margins: true;
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 @import 'bootswatch';
+@import 'profile';
+@import 'schedule';
+@import 'school_layout';
 
-
+// Global CSS
 .breadcrumb-item::before {
     font-family: 'FontAwesome';
 }
@@ -30,132 +33,14 @@ $enable-negative-margins: true;
     cursor: pointer;
 }
 
-.emp-profile{
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    border-radius: 0.5rem;
-}
-
-.profile-head-row{
-    max-height: 200px;
-}
-.profile-img{
-    text-align: center;
-}
-.profile-img img
+select[multiple]
 {
-    height: 100%;
-    max-height: 200px;
-}
-.profile-img .file {
-    position: relative;
-    overflow: hidden;
-    margin-top: -30%;
-    width: 70%;
-    border: none;
-    border-radius: 0;
-    font-size: 15px;
-    opacity: 0.7;
-}
-.profile-img .file input {
-    position: absolute;
-    opacity: 0;
-    right: 0;
-    top: 0;
+    overflow-y: auto;
 }
 
-.profile-img .remove {
-    position: relative;
-    overflow: hidden;
-    margin-top: -20%;
-    width: 70%;
-    border: none;
-    border-radius: 0;
-    font-size: 15px;
-    opacity: 0.5;
-}
-
-.profile-img .input-group {
-    position: relative;
-    overflow: hidden;
-    margin-top: -10%;
-    width: 100%;
-    border: none;
-    border-radius: 0;
-    font-size: 15px;
-}
-
-.profile-head h5{
-    color: #333;
-}
-.profile-head h6{
-    color: #0062cc;
-}
-.profile-edit-btn{
-    border: none;
-    border-radius: 1.5rem;
-    width: 70%;
-    padding: 2%;
-    font-weight: 600;
-}
-
-
-.profile-head .nav-tabs{
-    margin-bottom:5%;
-}
-.profile-head .nav-tabs .nav-link{
-    font-weight:600;
-    border: none;
-}
-.profile-head .nav-tabs .nav-link.active{
-    border: none;
-    border-bottom:2px solid #0062cc;
-}
-.profile-work{
-    padding: 14%;
-    margin-top: -15%;
-}
-.profile-work p{
-    font-size: 12px;
-    color: #818182;
-    font-weight: 600;
-    margin-top: 10%;
-}
-.profile-work a{
-    text-decoration: none;
-    color: #495057;
-    font-weight: 600;
-    font-size: 14px;
-}
-.profile-work ul{
-    list-style: none;
-}
-.profile-tab label{
-    font-weight: 600;
-}
-.profile-tab span{
-    font-weight: 600;
-    color: #0062cc;
-}
-
-$campus-icon-sizes: ("xl": 3em, "large": 2em, "normal": 1em, "small": 0.5em, "tiny": 0.25em);
-@each $name, $size in $campus-icon-sizes {
-    .campus-icon-#{$name} {
-        max-width: $size;
-        width: $size;
-    }
-    .campus-icon-#{$name} svg{
-        fill: currentColor;
-    }
-}
-
-$img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "tiny": 16px);
-@each $name, $size in $img-icon-sizes {
-    .img-icon-#{$name} {
-        max-width: $size;
-        width: $size;
-    }
+.text-sm
+{
+    font-size: 0.8rem;
 }
 
 .campus-back-img
@@ -176,12 +61,109 @@ $img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "t
     border: 2px solid black;
 }
 
-select[multiple]
+.text-bright-alert
 {
-    overflow-y: auto;
+    color: red;
 }
 
-.text-sm
+.glowing
 {
-    font-size: 0.8rem;
+    animation-name: pulse-glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes pulse-glow {
+    0% {
+        opacity: 50%;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 100%;
+        transform: scale(1.2);
+    }
+    100% {
+        opacity: 50%;
+        transform: scale(1);
+    }
+}
+
+// Notifications
+.notification
+{
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 !important;
+    margin-bottom: 0.25em;
+}
+
+.notification:hover
+{
+    opacity: 0.8;
+}
+
+.notification-header
+{
+    font-size: 1.0em;
+    font-weight: bold;
+    width: 100%;
+    padding: 0.2em 0.5em 0 0.5em;
+}
+
+.notification-body
+{
+    padding: 0.5em;
+    font-size: 0.8em;
+    background-color: white;
+    color: black;
+}
+
+// Additional Mixins
+$campus-icon-sizes: ("xl": 3em, "large": 2em, "normal": 1em, "small": 0.5em, "tiny": 0.25em);
+@each $name, $size in $campus-icon-sizes {
+    .campus-icon-#{$name} {
+        max-width: $size;
+        width: $size;
+    }
+    .campus-icon-#{$name} svg{
+        fill: currentColor;
+    }
+}
+
+$img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "tiny": 16px);
+@each $name, $size in $img-icon-sizes {
+    .img-icon-#{$name} {
+        max-width: $size;
+        width: $size;
+    }
+}
+
+@each $name, $color in $theme-colors
+{
+    .glow-#{$name}
+    {
+        border-color: $color;
+        animation-name: animate-glow-#{$name};
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes animate-glow-#{$name} {
+        0%, 100% {
+            box-shadow: 0 0 5px $color;
+        }
+        25%, 75%
+        {
+            box-shadow: 0 0 10px $color;
+        }
+        50% {
+            box-shadow: 0 0 15px $color;
+        }
+    }
+}
+
+
+
+

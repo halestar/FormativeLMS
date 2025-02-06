@@ -4,7 +4,6 @@ namespace App\Console\Commands;
 
 use halestar\LaravelDropInCms\Models\SystemBackup;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Artisan;
 
 class FreshDb extends Command
 {
@@ -33,9 +32,11 @@ class FreshDb extends Command
         //resfresh the db
         $this->call('migrate:fresh', ['--seed' => true]);
         $cmsSave->restore($cmsData);
+        $this->info('CMS Data Restored.');
         if(!$this->option('no-optimize'))
         {
             $this->call('optimize:clear');
+            $this->info('All optimizations are cleared.');
         }
     }
 }

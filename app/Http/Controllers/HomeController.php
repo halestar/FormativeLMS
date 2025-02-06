@@ -24,7 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $person = auth()->user();
+        return view('home', compact('person'));
     }
 
     public function getSessionSetting(Request $request)

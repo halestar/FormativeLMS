@@ -45,6 +45,7 @@
                                 role="tab"
                                 aria-controls="#tab-pane-basic"
                                 aria-selected="true"
+                                save-tab="basic"
                             >{{ __('people.profile.basic') }}</a>
                         </li>
                         <li class="nav-item">
@@ -57,7 +58,8 @@
                                 role="tab"
                                 aria-controls="#tab-pane-schedule"
                                 aria-selected="false"
-                            >to come: schedule</a>
+                                save-tab="schedule"
+                            >{{ __('locations.rooms.schedule') }}</a>
                         </li>
                     </ul>
                 </div>
@@ -147,7 +149,7 @@
                         class="tab-pane fade"
                         id="tab-pane-schedule" role="tabpanel" aria-labelledby="tab-schedule" tabindex="0"
                     >
-                        To come: Schedules
+                        <x-schedule-viewer :schedule-sources="$room->currentClassSessions()" :width="700" />
                     </div>
                 </div>
             </div>

@@ -20,6 +20,35 @@ function confirmDelete(msg, url)
     }
 }
 
+function showClassNotification(notification) {
+    //first, set up a toast
+    let template = $($('#toast-template').html());
+    template.css('border-color', notification.borderColor);
+    template.find('.toast-header')
+        .css('background-color', notification.bgColor)
+        .css('color', notification.textColor);
+    template.find('.toast-icon').append($(notification.icon));
+    template.find('.toast-title').html(notification.title);
+    template.find('.toast-body').html(notification.message);
+    $('#toast-container').append(template);
+    template.toast({autohide: true, delay: 5000}).toast('show');
+    //next we add the notification to the menu
+    let notificationTemplate = $($('#notification-template').html());
+    notificationTemplate.attr('href', notification.url)
+        .css('border-color', notification.borderColor);
+    notificationTemplate.find('.notification-header')
+        .css('background-color', notification.bgColor)
+        .css('color', notification.textColor);
+    notificationTemplate.find('.notification-title')
+        .html(notification.title);
+    notificationTemplate.find('.notification-icon')
+        .append($(notification.icon));
+    notificationTemplate.find('.notification-body').html(notification.message);
+    $('#notifications-dropdown-container').prepend(notificationTemplate);
+    //and we make the menu visible
+    $('#notification-menu').removeClass('d-none');
+}
+
 let TextCounter = (function()
 {
     function TextCounter(container, max_chars = 255, min_chars = -1)

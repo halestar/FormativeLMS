@@ -12,7 +12,7 @@ class ClassSessionPolicy
      */
     public function viewAny(Person $person): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -20,46 +20,32 @@ class ClassSessionPolicy
      */
     public function view(Person $person, ClassSession $classSession): bool
     {
+        //if you have the classes.view
+        if($person->can('subjects.classes.view'))
+            return true;
+        //you can see this class if you'\re a teacher for this class.
+        if($classSession->teachers()->where('person_id', $person->id)->exists())
+            return true;
+        //or if you're a student enrolled in the class.
+        if($classSession->students()->where('person_id', $person->id)->exists())
+            return true;
+        //else if it's a parent and on of their kids can see the class.
+        if($person->isParent())
+            return $classSession
+                ->students()
+                ->whereIn('person_id', $person->currentChildStudents()->pluck('person_id')->toArray())
+                ->exists();
         return false;
     }
 
     /**
-     * Determine whether the user can create models.
+     *  Determine if user can manage the model.
      */
-    public function create(Person $person): bool
+    public function manage(Person $person, ClassSession $classSession): bool
     {
-        return false;
-    }
-
-    /**
-     * Determine whether the user can update the model.
-     */
-    public function update(Person $person, ClassSession $classSession): bool
-    {
-        return false;
-    }
-
-    /**
-     * Determine whether the user can delete the model.
-     */
-    public function delete(Person $person, ClassSession $classSession): bool
-    {
-        return false;
-    }
-
-    /**
-     * Determine whether the user can restore the model.
-     */
-    public function restore(Person $person, ClassSession $classSession): bool
-    {
-        return false;
-    }
-
-    /**
-     * Determine whether the user can permanently delete the model.
-     */
-    public function forceDelete(Person $person, ClassSession $classSession): bool
-    {
-        return false;
+        if($person->can('subjects.classes.manage'))
+            return true;
+        //else, only the teacher for the class can do it.
+        return $classSession->teachers()->where('person_id', $person->id)->exists();
     }
 }

@@ -9,7 +9,7 @@ class RoleSeeder extends Seeder
 {
     private array $baseRolePermissions =
         [
-            "DB Editor" => ['people.assign.roles', 'people.create', 'people.delete', 'people.edit', 'people.merge', 'people.view'],
+            "DB Editor" => ['people.assign.roles', 'people.create', 'people.delete', 'people.edit', 'people.merge', 'people.view', 'school'],
             "CRUD Editor" => ['crud'],
             "Impersonator" => [],
             "Web Designer" => [],

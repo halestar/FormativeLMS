@@ -1,0 +1,196 @@
+.schedule-viewer
+{
+    width: 100%;
+}
+
+.schedule-empty,
+.schedule-header-day,
+.schedule-times,
+.schedule-day-column
+{
+    display: inline-block;
+}
+
+.schedule-day-column:not(.first)
+{
+    border-left: 1px solid black;
+}
+
+.schedule-day-column
+{
+    position: absolute;
+    top: 0;
+}
+
+.schedule-day
+{
+    border-bottom: 1px dotted black;
+}
+
+.schedule-times
+{
+    border-right: 2px double black;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.schedule-time-slot
+{
+    vertical-align: top;
+    padding: 0.5em;
+    border-bottom: 1px dotted black;
+}
+
+
+.schedule-header
+{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    background-color: #0dcaf0;
+    font-weight: bold;
+    font-size: 1em;
+    position: relative;
+}
+
+.schedule-header-day
+{
+    height: 100%;
+    vertical-align: top;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+.schedule-empty
+{
+    background-color: #969896;
+    border-top-left-radius: 0.5em;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.schedule-body
+{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: #F5F5F5;
+    position: relative;
+}
+
+.schedule-event
+{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.schedule-event-start,
+.schedule-event-end
+{
+    font-size: 0.8em;
+}
+
+.schedule-event-start
+{
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.schedule-event-end
+{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+.schedule-event-label {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1em;
+    vertical-align: baseline;
+    position: absolute;
+    top: 0;
+}
+
+.schedule-event i:hover {
+    display: inline-block;
+    animation-name: marquee;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+.now-bar {
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: red;
+}
+
+.now-bar::before,
+.now-bar::after {
+    content: '';
+    flex: 1;
+    border-bottom: 3px solid red;
+}
+
+.now-bar:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.now-bar:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.marquee-text
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: right;
+}
+.marquee-text span:hover
+{
+    display: inline-block;
+    animation-name: marquee;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+/* Make it move */
+@keyframes marquee {
+    0% {
+        transform: translateX(0px)
+    }
+
+
+    40%, 60% {
+        transform: translateX(-33%)
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+}

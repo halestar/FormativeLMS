@@ -60,6 +60,13 @@ class FieldPermissionsSeeder extends Seeder
                     'by_parents' => true,
                 ],
                 [
+                    'field' => 'preferred_first',
+                    'by_self' => true,
+                    'by_employees' => true,
+                    'by_students' => true,
+                    'by_parents' => true,
+                ],
+                [
                     'field' => 'dob',
                     'by_self' => true,
                     'by_employees' => false,

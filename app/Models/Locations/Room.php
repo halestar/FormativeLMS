@@ -2,6 +2,7 @@
 
 namespace App\Models\Locations;
 
+use App\Models\SubjectMatter\ClassSession;
 use App\Traits\SinglePhoneable;
 use halestar\LaravelDropInCms\Models\Scopes\OrderByNameScope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
@@ -11,6 +12,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
 
 #[ScopedBy(OrderByNameScope::class)]
 class Room extends Model
@@ -77,5 +80,19 @@ class Room extends Model
     public function isPhysical(): bool
     {
         return $this->area_id != null;
+    }
+
+    public function currentClassSessions(): Collection
+    {
+        $classSessionRooms = ClassSession::join('terms', 'terms.id', '=', 'class_sessions.term_id')
+            ->whereBetweenColumns(DB::raw(date("'Y-m-d'")), ['terms.term_start', 'terms.term_end'] )
+            ->where('class_sessions.room_id', $this->id)
+            ->select('class_sessions.*');
+        $periodRooms = ClassSession::join('class_sessions_periods', 'class_sessions_periods.session_id', '=', 'class_sessions.id')
+            ->join('terms', 'terms.id', '=', 'class_sessions.term_id')
+            ->whereBetweenColumns(DB::raw(date("'Y-m-d'")), ['terms.term_start', 'terms.term_end'] )
+            ->where('class_sessions_periods.room_id', $this->id)
+            ->select('class_sessions.*');
+        return $classSessionRooms->union($periodRooms)->get();
     }
 }

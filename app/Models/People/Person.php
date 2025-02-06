@@ -4,9 +4,11 @@ namespace App\Models\People;
 
 use App\Casts\LogItem;
 use App\Classes\RoleField;
+use App\Classes\SchoolSettings;
 use App\Models\CRUD\Relationship;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
+use App\Models\SubjectMatter\ClassSession;
 use App\Models\Utilities\SchoolRoles;
 use App\Traits\Addressable;
 use App\Traits\HasLogs;
@@ -22,7 +24,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Http\UploadedFile;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Drivers\Imagick\Driver;
 use Intervention\Image\ImageManager;
@@ -31,7 +35,7 @@ use Spatie\Permission\Traits\HasRoles;
 
 class Person extends Authenticatable
 {
-    use HasFactory, HasLogs, SoftDeletes, HasRoles, Phoneable, Addressable;
+    use HasFactory, HasLogs, SoftDeletes, HasRoles, Phoneable, Addressable, Notifiable;
     protected $with = ['schoolRoles'];
     public $timestamps = true;
     protected $table = "people";
@@ -75,15 +79,31 @@ class Person extends Authenticatable
         });
     }
 
+    public function receivesBroadcastNotificationsOn(): string
+    {
+        return 'people.' . $this->id;
+    }
+
     /**********
      * Mutators/Accessors
      */
+
     public function name(): Attribute
     {
         return Attribute::make
         (
-            get: fn(mixed $value, array $attributes) =>
-                ($attributes['nick']?? $attributes['first']) . " " . $attributes['last']
+            get: function(mixed $value, array $attributes)
+                {
+                    if($this->isStudent())
+                        $name = SchoolSettings::instance()->studentName->applyName($this);
+                    elseif($this->isEmployee())
+                        $name = SchoolSettings::instance()->employeeName->applyName($this);
+                    elseif($this->isParent())
+                        $name = SchoolSettings::instance()->parentName->applyName($this);
+                    else
+                        $name = $this->first . " " . $this->last;
+                    return $name;
+                }
         );
     }
 
@@ -125,6 +145,14 @@ class Person extends Authenticatable
         return Attribute::make
         (
             get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('nick', $this)? $value: null,
+        );
+    }
+
+    public function preferredFirst(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('preferred_first', $this)? $attributes['nick']?? $attributes['first']: null,
         );
     }
 
@@ -229,6 +257,11 @@ class Person extends Authenticatable
     public function isEmployee(): bool
     {
         return $this->hasRole(SchoolRoles::$EMPLOYEE);
+    }
+
+    public function isTeacher(): bool
+    {
+        return $this->hasRole(SchoolRoles::$FACULTY);
     }
 
     public function isStudent(): bool
@@ -376,6 +409,21 @@ class Person extends Authenticatable
             ->where('people_relations.relationship_id', Relationship::CHILD)
             ->groupBy('campuses.id')
             ->get();
+    }
+
+    /**
+     * Teacher functions
+     */
+    public function currentClassSessions():BelongsToMany
+    {
+        return $this->belongsToMany(ClassSession::class, 'class_sessions_teachers', 'person_id', 'session_id')
+            ->join('terms', 'terms.id', '=', 'class_sessions.term_id')
+            ->whereBetweenColumns(DB::raw(date("'Y-m-d'")), ['terms.term_start', 'terms.term_end'] );
+    }
+
+    public function teachesClassSession(ClassSession $session): bool
+    {
+        return $this->currentClassSessions()->where('class_sessions.id', $session->id)->exists();
     }
 
 }

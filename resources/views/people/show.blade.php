@@ -85,6 +85,21 @@
                                 </li>
                             @endif
                         @endforeach
+                        @if($person->isStudent() || $person->isTeacher())
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    id="tab-schedule"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#tab-pane-schedule"
+                                    href="#tab-pane-schedule"
+                                    role="tab"
+                                    aria-controls="#tab-pane-schedule"
+                                    save-tab="schedule"
+                                    aria-selected="false"
+                                >{{ $person->isStudent()? __('people.profile.schedule.student'): __('people.profile.schedule.teacher') }}</a>
+                            </li>
+                        @endif
                     </ul>
                 </div>
             </div>
@@ -235,6 +250,20 @@
                             </div>
                         @endif
                     @endforeach
+
+                    @if($person->isStudent() || $person->isTeacher())
+                        <div
+                            class="tab-pane fade"
+                            id="tab-pane-schedule" role="tabpanel" aria-labelledby="tab-schedule"
+                            tabindex="1"
+                        >
+                            @if($person->isStudent())
+                            <x-schedule-viewer :schedule-sources="$person->student()->classSessions" :width="700" />
+                            @else
+                                <x-schedule-viewer :schedule-sources="$person->currentClassSessions" :width="700" />
+                            @endif
+                        </div>
+                    @endif
                 </div>
             </div>
         </div>

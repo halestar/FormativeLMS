@@ -90,6 +90,7 @@ return [
     'rooms.classroom' => 'Classroom',
     'rooms.notes' => 'Notes',
     'rooms.location' => 'Room is located in :building \'s',
+    'rooms.schedule' => 'Room Schedule',
 
     'rooms.created' => 'Room was successfully created',
     'rooms.updated' => 'Room was successfully updated',

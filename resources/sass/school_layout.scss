@@ -1,0 +1,68 @@
+.top-announcement
+{
+    border: 2px solid rgba(0,0,0, 0.25);
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.top-announcement-edit
+{
+    border: 1px solid black;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    width: 100%;
+    background-color: lightgray;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.tab-editor
+{
+    margin-top: 0;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    background-color: #F5F5F5;
+    padding: 1em 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.announcement-container
+{
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border: 2px solid rgba(0,0,0, 0.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h3.announcement-title
+{
+    color: inherit;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+}
+
+p.announcement-body
+{
+    text-align: justify;
+}
+
+.announcement-footer
+{
+    border-top: 1px dotted black;
+    padding-top: 0.25em;
+    font-size: 0.7em;
+}
+
+h3.class-announcements-title
+{
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 0.5em;
+}

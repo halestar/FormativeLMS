@@ -3,15 +3,24 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Illuminate\Support\Facades\Broadcast;
 use Illuminate\Support\Facades\Route;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
         commands: __DIR__.'/../routes/console.php',
+        //channels: __DIR__.'/../routes/channels.php',
         health: '/up',
         then: function()
         {
+            //define broadcasting here instead
+            Broadcast::routes(null);
+            $channels = __DIR__.'/../routes/channels.php';
+            if (file_exists($channels)) {
+                require $channels;
+            }
+
             Route::middleware(['web', 'auth'])
                 ->prefix('people')
                 ->name('people.')

@@ -21,6 +21,7 @@ return new class extends Migration
             $table->foreign('room_id')->references('id')->on('rooms')->nullOnDelete();
             $table->foreignId('block_id')->nullable();
             $table->foreign('block_id')->references('id')->on('blocks')->nullOnDelete();
+            $table->json('layout')->nullable();
             $table->timestamps();
         });
     }

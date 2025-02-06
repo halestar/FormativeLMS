@@ -58,6 +58,8 @@ class PermissionSeeder extends Seeder
                     ['name' => 'subjects.subjects', 'description' => 'Ability to edit Subjects in the system'],
                     ['name' => 'subjects.courses', 'description' => 'Ability to edit Courses in the system'],
                     ['name' => 'subjects.classes', 'description' => 'Ability to edit year-long classes in the system'],
+                    ['name' => 'subjects.classes.view', 'description' => 'Ability to view details about a class'],
+                    ['name' => 'subjects.classes.manage', 'description' => 'Global permission to manage any class in the system'],
                 ],
             'Class Management' =>
                 [
@@ -67,6 +69,7 @@ class PermissionSeeder extends Seeder
                 [
                     ['name' => 'cms', 'description' => 'Access to the site\'s CSM'],
                     ['name' => 'crud', 'description' => 'Access to the admin dashboard for CRUD editors'],
+                    ['name' => 'school', 'description' => 'Access to the global school settings'],
                 ],
         ];
     /**

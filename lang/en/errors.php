@@ -33,4 +33,11 @@ return
         'blocks.name' => 'You must provide a block name, max 20 characters',
         'blocks.periods' => 'Your block must contain at least one period',
         'classes.terms' => 'You must select at least one term for this class',
+        'school.settings.days' => 'You must select at least one day for the school to be open.',
+        'school.settings.start' => 'You must select a start time for the school to be open.',
+        'school.settings.end' => 'You must select an end time for the school to be open.',
+        'top-announcement.text' => 'You must provide an announcement text.',
+        'top-announcement.color' => 'You must select a color for the announcement.',
+        'top-announcement.expires' => 'You must select a date for the announcement to expire.',
+        'tabs.name' => 'You must provide a tab name, max 255 characters',
     ];

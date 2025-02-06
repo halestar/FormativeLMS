@@ -35,9 +35,17 @@ class PersonFactory extends Factory
             'password' => Hash::make(fake()->password(20, 30)),
             'email_verified_at' => now(),
             'remember_token' => Str::random(10),
-            'portrait_url' => $this->faker->imageUrl(),
-            'thumbnail_url' => $this->faker->imageUrl(64, 64)
         ];
+    }
+
+    public function configure()
+    {
+        return $this->afterCreating(function (Person $person)
+        {
+            $person->portrait_url = env('APP_URL').'/storage/idpics/' . $person->id . '.jpg';
+            $person->thumbnail_url = env('APP_URL').'/storage/idpics/' . $person->id . '.jpg';
+            $person->save();
+        });
     }
 
     /**

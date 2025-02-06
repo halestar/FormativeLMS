@@ -54,13 +54,14 @@ class Term extends Model
         return $this->belongsTo(Campus::class, 'campus_id');
     }
 
-    public static function currentTerm(): ?Term
+    public static function currentTerm(Campus $campus): ?Term
     {
-        return Cache::rememberForever('current-term', function()
+        return Cache::rememberForever('current-term-' . $campus->id, function() use ($campus)
             {
                 $now = date('Y-m-d');
                 return Term::whereDate('term_start', '<=', $now)
                     ->whereDate('term_end', '>=', $now)
+                    ->where('campus_id', $campus->id)
                     ->first();
             });
     }

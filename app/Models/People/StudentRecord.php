@@ -5,6 +5,7 @@ namespace App\Models\People;
 use App\Models\CRUD\DismissalReason;
 use App\Models\CRUD\Level;
 use App\Models\Locations\Campus;
+use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use App\Models\SubjectMatter\ClassSession;
 use Illuminate\Database\Eloquent\Model;
@@ -70,8 +71,11 @@ class StudentRecord extends Model
         return true;
     }
 
-    public function classSessions(): BelongsToMany
+    public function classSessions(Term $term = null): BelongsToMany
     {
-        return $this->belongsToMany(ClassSession::class, 'class_sessions_students', 'student_id', 'session_id');
+        if(!$term)
+            $term = Term::currentTerm($this->campus);
+        return $this->belongsToMany(ClassSession::class, 'class_sessions_students', 'student_id', 'session_id')
+            ->where('term_id', $term->id);
     }
 }

@@ -178,7 +178,7 @@
                     @endif
                 </div>
                 <div class="col-md-6">
-                    <h3 class="border-bottom pb-2 mb-3">{{ __('subjects.class.teacher') }}</h3>
+                    <h3 class="border-bottom pb-2 mb-3">{{ trans_choice('subjects.class.teacher', $teachers->count()) }}</h3>
 
                     <ul class="list-group my-3">
                         @foreach($teachers as $teacher)

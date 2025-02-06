@@ -37,8 +37,8 @@ class SessionSettings
         if(!isset($this->settings['working_year_id']))
             $this->settings['working_year_id'] = Year::currentYear()->id;
         //terms is the same as years.
-        if(!isset($this->settings['working_term_id']))
-            $this->settings['working_term_id'] = Term::currentTerm()->id;
+        if(!isset($this->settings['working_term_id']) && isset($this->settings['working_campus_id']))
+            $this->settings['working_term_id'] = Term::currentTerm(Campus::find($this->settings['working_campus_id']))->id;
         self::$instance = $this;
     }
 

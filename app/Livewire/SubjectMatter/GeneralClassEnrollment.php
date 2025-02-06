@@ -3,6 +3,7 @@
 namespace App\Livewire\SubjectMatter;
 
 use App\Classes\SessionSettings;
+use App\Events\EnrollmentChange;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
 use App\Models\SubjectMatter\Course;
@@ -54,6 +55,11 @@ class GeneralClassEnrollment extends Component
     //Students
     public Collection $students;
 
+    //Event variables
+    private ?int $highlight = null;
+    private bool $enroll = true;
+    private ?array $studentIds = null;
+
 
     public function mount()
     {
@@ -71,12 +77,11 @@ class GeneralClassEnrollment extends Component
         $this->termIds = $this->terms->pluck('id')->toArray();
         //subjects
         $this->subjects = $this->selectedCampus->subjects;
-        if(SessionSettings::has('subjects.subject_id'))
+        if (SessionSettings::has('subjects.subject_id'))
         {
             $this->subjectId = SessionSettings::get('subjects.subject_id');
             $this->selectedSubject = Subject::find($this->subjectId);
-        }
-        else
+        } else
         {
             $this->selectedSubject = $this->subjects->first();
             $this->subjectId = $this->selectedSubject->id;
@@ -84,12 +89,11 @@ class GeneralClassEnrollment extends Component
         }
         //courses
         $this->courses = $this->selectedSubject->courses;
-        if(SessionSettings::has('subjects.course_id'))
+        if (SessionSettings::has('subjects.course_id'))
         {
             $this->courseId = SessionSettings::get('subjects.course_id');
             $this->selectedCourse = Course::find($this->courseId);
-        }
-        else
+        } else
         {
             $this->selectedCourse = $this->courses->first();
             $this->courseId = $this->selectedCourse->id;
@@ -149,14 +153,13 @@ class GeneralClassEnrollment extends Component
         //classes
         $this->schoolClasses = $this->selectedCourse->schoolClasses($this->selectedYear)->get();
         $this->students = new Collection();
-        if($this->studentFilter == "all")
+        if ($this->studentFilter == "all")
         {
             $this->students = $this->selectedCampus
                 ->students($this->selectedYear)
                 ->whereIn('level_id', $this->levelIds)
                 ->get();
-        }
-        elseif($this->studentFilter == "enrolled")
+        } elseif ($this->studentFilter == "enrolled")
         {
             $enrolled = DB::table('class_sessions_students')->select('student_id')
                 ->join('class_sessions', 'class_sessions_students.session_id', '=', 'class_sessions.id')
@@ -168,8 +171,7 @@ class GeneralClassEnrollment extends Component
                 ->whereIn('level_id', $this->levelIds)
                 ->whereIn('student_records.id', $enrolled)
                 ->get();
-        }
-        elseif($this->studentFilter == "unenrolled")
+        } elseif ($this->studentFilter == "unenrolled")
         {
             $enrolled = DB::table('class_sessions_students')->select('student_id')
                 ->join('class_sessions', 'class_sessions_students.session_id', '=', 'class_sessions.id')
@@ -187,20 +189,56 @@ class GeneralClassEnrollment extends Component
 
     public function enrollStudents(SchoolClass $schoolClass, array $studentIds): void
     {
-        foreach($schoolClass->sessions()->whereIn('term_id', $this->termIds)->get() as $session)
+        foreach ($schoolClass->sessions()->whereIn('term_id', $this->termIds)->get() as $session)
             $session->students()->attach($studentIds);
         $this->refreshStudents();
+        broadcast(new EnrollmentChange(EnrollmentChange::ENROLL, $schoolClass, $studentIds))->toOthers();
     }
 
     public function unenrollStudents(SchoolClass $schoolClass, array $studentIds): void
     {
-        foreach($schoolClass->sessions()->whereIn('term_id', $this->termIds)->get() as $session)
+        foreach ($schoolClass->sessions()->whereIn('term_id', $this->termIds)->get() as $session)
             $session->students()->detach($studentIds);
         $this->refreshStudents();
+        broadcast(new EnrollmentChange(EnrollmentChange::UNENROLL, $schoolClass, $studentIds))->toOthers();
+    }
+
+    public function getListeners()
+    {
+        return
+        [
+            "echo-private:enrollment,.enrollmentChange" => "enrollmentChange",
+        ];
+    }
+
+    public function enrollmentChange($event): void
+    {
+        if(isset($event['schoolClass']['course_id']) && $event['schoolClass']['course_id'] == $this->courseId)
+        {
+            //in this case, the enrollment change affects us.
+            $this->refreshStudents();
+            $this->highlight = $event['schoolClass']['id'];
+            $this->enroll = ($event['enrollmentType'] == EnrollmentChange::ENROLL);
+            $this->studentIds = $event['studentIds'];
+            $this->dispatch('unhighlight-changes');
+        }
     }
 
     public function render()
     {
+        if($this->highlight)
+        {
+            $arr =
+                [
+                    'highlight' => $this->highlight,
+                    'studentIds' => $this->studentIds,
+                    'enroll' => $this->enroll,
+                ];
+            $this->highlight = null;
+            $this->enroll = true;
+            $this->studentIds = null;
+            return view('livewire.subject-matter.general-class-enrollment')->with($arr);
+        }
         return view('livewire.subject-matter.general-class-enrollment');
     }
 }

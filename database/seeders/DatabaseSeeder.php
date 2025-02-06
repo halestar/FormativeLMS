@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             [
                 PermissionSeeder::class,
                 RoleSeeder::class,
+                SystemSettingsSeeder::class,
                 FieldPermissionsSeeder::class,
                 CrudSeeder::class,
                 BuildingSeeder::class,
@@ -36,6 +37,7 @@ class DatabaseSeeder extends Seeder
                 SchoolClassSeeder::class,
                 ClassSessionSeeder::class,
                 StudentEnrollmentSeeder::class,
+                WebSeeder::class
             ]);
     }
 }

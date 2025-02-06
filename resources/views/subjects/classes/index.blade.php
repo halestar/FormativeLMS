@@ -94,7 +94,7 @@
                 <tr>
                     <th>{{ __('subjects.class.name') }}</th>
                     <th></th>
-                    <th>{{ __('subjects.class.teacher') }}</th>
+                    <th>{{ trans_choice('subjects.class.teacher', 2) }}</th>
                     <th>{{ __('subjects.class.schedule') }}</th>
                     <th>{{ __('subjects.class.location') }}</th>
                     <th></th>
@@ -110,9 +110,14 @@
                     </td>
                     @endif
                     <td>{{ $session->term->label }}</td>
-                    <td>{{ $session->teachers->pluck('name')->join(', ') }}</td>
+                    <td>
+                        @foreach($session->teachers as $teacher)
+                            <a href="{{ route('people.show', $teacher) }}">{{ $teacher->name }}</a>
+                            @if(!$loop->last) ,@endif
+                        @endforeach
+                    </td>
                     <td>{{ $session->scheduleString() }}</td>
-                    <td>{{ $session->locationString() }}</td>
+                    <td>{!! $session->locationString(true) !!}</td>
                     @if($loop->first)
                     <td class="align-middle text-end" rowspan="{{ $schoolClass->sessions->count() }}">
                         <a

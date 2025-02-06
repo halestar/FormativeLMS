@@ -69,4 +69,5 @@ return [
     'tbd' => 'TBD',
     'enroll' => 'Enroll',
     'unenroll' => 'Unenroll',
+    'now' => 'Now',
 ];
