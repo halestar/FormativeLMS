@@ -1,6 +1,6 @@
 <?php
 
-use halestar\LaravelDropInCms\Enums\FooterTagType;
+use halestar\LaravelDropInCms\Enums\HeaderTagType;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -12,8 +12,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create(config('dicms.table_prefix') . 'footers', function (Blueprint $table) {
+        Schema::create(config('dicms.table_prefix') . 'headers', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('site_id');
+            $table->foreign('site_id')
+                ->references('id')
+                ->on(config('dicms.table_prefix') . 'sites')
+                ->onDelete('cascade');
             $table->string('name');
             $table->string('description')->nullable();
             $table->longText('html')->nullable();
@@ -28,6 +33,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists(config('dicms.table_prefix') . 'footers');
+        Schema::dropIfExists(config('dicms.table_prefix') . 'headers');
     }
 };

@@ -18,12 +18,12 @@ return new class extends Migration
                 ->references('id')
                 ->on(config('dicms.table_prefix') . 'blogs')
                 ->onDelete('cascade');
-            $table->string('title');
-            $table->string('subtitle')->nullable();
+            $table->string('title')->fulltext();
+            $table->string('subtitle')->nullable()->fulltext();
             $table->string('slug');
-            $table->string('posted_by');
-            $table->text('description')->nullable();
-            $table->longText('body')->nullable();
+            $table->string('posted_by')->fulltext();
+            $table->text('description')->nullable()->fulltext();
+            $table->longText('body')->nullable()->fulltext();
             $table->dateTime('published')->nullable();
             $table->string('image')->nullable();
             $table->tinyInteger('highlighted')->unsigned()->nullable();
