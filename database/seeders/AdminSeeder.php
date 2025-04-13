@@ -78,7 +78,7 @@ class AdminSeeder extends Seeder
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/3.jpg',
             ]);
         $faculty->assignRole(SchoolRoles::$FACULTY);
-        $staff->assignRole(SchoolRoles::$EMPLOYEE);
+        $faculty->assignRole(SchoolRoles::$EMPLOYEE);
 
 
         $coach = Person::create(
@@ -96,7 +96,7 @@ class AdminSeeder extends Seeder
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/4.jpg',
             ]);
         $coach->assignRole(SchoolRoles::$COACH);
-        $staff->assignRole(SchoolRoles::$EMPLOYEE);
+        $coach->assignRole(SchoolRoles::$EMPLOYEE);
 
         //to the admin accounts, we add all the campuses
         foreach(Campus::all() as $campus)

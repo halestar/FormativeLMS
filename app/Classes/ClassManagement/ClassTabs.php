@@ -13,11 +13,37 @@ class ClassTabs
         // add the assignments widget here
         $this->tabs[] = $assignmentTab;
     }
+
+    private function addMessagesTab():void
+    {
+        $messagesTab = new ClassTab(trans_choice('subjects.school.message', 2));
+        $messagesTab->lock();
+        $messagesTab->addWidget(ClassMessagesWidget::create(0));
+        $this->tabs[] = $messagesTab;
+    }
+
+    public function syncTabs(): void
+    {
+        $has_assignments = false;
+        $has_messages = false;
+        foreach($this->tabs as $tab)
+        {
+            if($tab->name == trans_choice('subjects.school.assignment', 2))
+                $has_assignments = true;
+            if($tab->name == trans_choice('subjects.school.message', 2))
+                $has_messages = true;
+        }
+        if(!$has_assignments)
+            $this->addAssignmentsTab();
+        if(!$has_messages)
+            $this->addMessagesTab();
+    }
+
     public function __construct(array $tabs = [])
     {
         $this->tabs = $tabs;
-        if(count($this->tabs) == 0)
-            $this->addAssignmentsTab();
+        if(count($this->tabs) < 2)
+            $this->syncTabs();
     }
 
     public function getTabs(): array

@@ -11,6 +11,7 @@ class NotificationPayload
     public string $textColor = "#000000";
     public string $borderColor = "#000000";
     public ?string $url = null;
+    public ?array $misc = null;
 
     public function __construct(string $title, string $message)
     {
@@ -29,6 +30,7 @@ class NotificationPayload
             'textColor' => $this->textColor,
             'borderColor' => $this->borderColor,
             'url' => $this->url,
+            'misc' => $this->misc,
         ];
     }
 
@@ -40,6 +42,7 @@ class NotificationPayload
         $notification->textColor = $data['textColor'];
         $notification->borderColor = $data['borderColor'];
         $notification->url = $data['url'];
+        $notification->misc = $data['misc'];
         return $notification;
     }
 }

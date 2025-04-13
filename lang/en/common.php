@@ -70,4 +70,8 @@ return [
     'enroll' => 'Enroll',
     'unenroll' => 'Unenroll',
     'now' => 'Now',
+    'child' => 'Child|Children',
+    'results' => 'Results',
+    'results.no' => 'No Results',
+    'results.no.found' => 'No Results Found',
 ];

@@ -32,6 +32,14 @@ return
         'settings.names.title' => 'Name Format for :role',
         'settings.names.parent' => 'Format for Parent Names: ',
         'settings.names.parent.help' => 'This is the format for which all parents names will be displayed, for example: :sample .',
+        'settings.tabs.school' => 'Global School Settings',
+        'settings.tabs.classes' => 'Global Class Settings',
+        'settings.classes.max_msg' => "Messages Per Page",
+        'settings.classes.max_msg.help' => "Max number of messages on each page of the school chat.",
+        'settings.classes.year_messages' => "Show Messages for",
+        'settings.classes.year_messages.help' => "Whether to show messages for the whole year or just the current term in class messages.",
+        'settings.classes.year_messages.year' => "The Whole Year",
+        'settings.classes.year_messages.term' => "The Current Term",
 
 
     ];

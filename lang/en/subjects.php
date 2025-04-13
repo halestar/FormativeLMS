@@ -92,8 +92,14 @@ return
         'school.top-announcement.color' => 'Announcement Color',
         'school.top-announcement.expiry' => 'Announcement Expires On',
         'school.assignment' => 'Learning Demonstrations|Learning Demonstrations',
+        'school.message' => 'Message|Messages',
+        'school.message.view.as' => 'View Messages as',
+        'school.message.view.messages' => 'View Messages for',
+        'school.message.type' => 'Type Message',
+
         'school.tabs.name' => 'Tab Name',
         'school.tabs.name.update' => 'Update Tab Name',
+        'school.tabs.add' => 'Add Tab',
         'school.tabs.delete' => 'Delete Tab',
         'school.tabs.delete.prompt' => 'Are you sure you wish to delete this tab? All information will be lost!',
         'school.widgets.add' => 'Add a widget',
@@ -126,5 +132,7 @@ return
         'school.widgets.class-links.add.notification.body' => 'A new link was posted to :class on :postedOn.',
         'school.widgets.class-links.updated.notification.title' => 'A link was updated in :class',
         'school.widgets.class-links.updated.notification.body' => 'A link was updated in :class on :postedOn.',
+
+        'school.widgets.class-messages' => 'Class Messages',
 
     ];

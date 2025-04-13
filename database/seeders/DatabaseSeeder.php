@@ -37,6 +37,8 @@ class DatabaseSeeder extends Seeder
                 SchoolClassSeeder::class,
                 ClassSessionSeeder::class,
                 StudentEnrollmentSeeder::class,
+                ClassMessageSeeder::class,
+                StudentTrackerSeeder::class,
                 WebSeeder::class
             ]);
     }

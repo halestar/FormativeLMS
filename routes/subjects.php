@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\School\StudentTrackerController;
 use Illuminate\Support\Facades\Route;
 
 //Subjects
@@ -48,4 +49,17 @@ Route::prefix('enrollment')
         Route::get('/enrollment/general', 'general')->name('general');
     });
 
-Route::get('/school/classes/{classSession}', [\App\Http\Controllers\School\ClassController::class, 'show'])->name('school.classes.show');
+//Anything related to the school's class management system
+Route::prefix('school/classes')
+    ->name('school.classes.')
+    ->controller(\App\Http\Controllers\School\ClassController::class)
+    ->group(function ()
+    {
+        Route::get('/messages', 'classMessages')->name('messages');
+        Route::get('/{classSession}', 'show')->name('show');
+    });
+
+//student tracking
+Route::delete('/student-tracker/{student_tracker}/unlink/{student}', [StudentTrackerController::class, 'unlink'])
+    ->name('student-tracker.unlink');
+Route::resource('student-tracker', StudentTrackerController::class)->only(['index', 'edit', 'update', 'destroy']);

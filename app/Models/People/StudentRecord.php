@@ -8,9 +8,13 @@ use App\Models\Locations\Campus;
 use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use App\Models\SubjectMatter\ClassSession;
+use App\Models\SubjectMatter\Components\ClassMessage;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Collection;
 
 class StudentRecord extends Model
 {
@@ -66,16 +70,48 @@ class StudentRecord extends Model
         return $this->belongsTo(DismissalReason::class, 'dismissal_reason_id');
     }
 
+    public function classMessages(): HasMany
+    {
+        return $this->hasMany(ClassMessage::class, 'student_id');
+    }
+
     public function canRemove(): bool
     {
         return true;
     }
 
-    public function classSessions(Term $term = null): BelongsToMany
+    public function classSessions(Term|Collection $term = null): BelongsToMany
     {
-        if(!$term)
-            $term = Term::currentTerm($this->campus);
+        if($term && $term instanceof Term)
+            $terms = collect([$term]);
+        elseif($term && $term instanceof Collection)
+            $terms = $term;
+        else
+            $terms = Term::currentTerms();
         return $this->belongsToMany(ClassSession::class, 'class_sessions_students', 'student_id', 'session_id')
-            ->where('term_id', $term->id);
+            ->whereIn('term_id', $terms->pluck('id')->toArray());
+    }
+
+    public function latestTerm(): Term
+    {
+        return $this->year->terms()->orderBy('term_start', 'desc')->first();
+    }
+
+    public function tracker(): BelongsToMany
+    {
+        return $this->belongsToMany(Person::class, 'student_trackers', 'person_id', 'student_id');
+    }
+
+    public function name(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => $this->person->name,
+        );
+    }
+
+    public function trackers(): BelongsToMany
+    {
+        return $this->belongsToMany(Person::class, 'student_trackers', 'student_id', 'person_id');
     }
 }

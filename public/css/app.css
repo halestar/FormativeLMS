@@ -4670,7 +4670,7 @@ textarea.form-control-lg {
 .form-floating > .form-control-plaintext::placeholder {
   color: transparent;
 }
-.form-floating > .form-control:not(:-moz-placeholder-shown), .form-floating > .form-control-plaintext:not(:-moz-placeholder-shown) {
+.form-floating > .form-control:not(:-moz-placeholder), .form-floating > .form-control-plaintext:not(:-moz-placeholder) {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
 }
@@ -4689,7 +4689,7 @@ textarea.form-control-lg {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
 }
-.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
+.form-floating > .form-control:not(:-moz-placeholder) ~ label {
   color: rgba(var(--bs-body-color-rgb), 0.65);
   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
@@ -4700,7 +4700,7 @@ textarea.form-control-lg {
   color: rgba(var(--bs-body-color-rgb), 0.65);
   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
-.form-floating > .form-control:not(:-moz-placeholder-shown) ~ label::after {
+.form-floating > .form-control:not(:-moz-placeholder) ~ label::after {
   position: absolute;
   inset: 1rem 0.375rem;
   z-index: -1;
@@ -6744,7 +6744,7 @@ textarea.form-control-lg {
   --bs-breadcrumb-margin-bottom: 1rem;
   --bs-breadcrumb-bg: ;
   --bs-breadcrumb-border-radius: ;
-  --bs-breadcrumb-divider-color: var(--bs-secondary-color);
+  --bs-breadcrumb-divider-color: #868e96;
   --bs-breadcrumb-item-padding-x: 0.5rem;
   --bs-breadcrumb-item-active-color: var(--bs-secondary-color);
   display: flex;
@@ -6764,7 +6764,7 @@ textarea.form-control-lg {
   float: left;
   padding-right: var(--bs-breadcrumb-item-padding-x);
   color: var(--bs-breadcrumb-divider-color);
-  content: var(--bs-breadcrumb-divider, "\f0da") /* rtl: var(--bs-breadcrumb-divider, "\f0da") */;
+  content: var(--bs-breadcrumb-divider, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512' width='12' height='12'%3e%3c!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--%3e%3cpath fill='%23868e96' d='M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z'/%3e%3c/svg%3e")) /* rtl: var(--bs-breadcrumb-divider, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512' width='12' height='12'%3e%3c!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--%3e%3cpath fill='%23868e96' d='M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z'/%3e%3c/svg%3e")) */;
 }
 .breadcrumb-item.active {
   color: var(--bs-breadcrumb-item-active-color);
@@ -15381,10 +15381,6 @@ h3.class-announcements-title, .class-announcements-title.h3 {
   margin-bottom: 0.5em;
 }
 
-.breadcrumb-item::before {
-  font-family: "FontAwesome";
-}
-
 .count-message {
   margin-top: -20px;
   margin-right: 5px;
@@ -15547,7 +15543,7 @@ select[multiple] {
   border-color: #2fa4e7;
   animation-name: animate-glow-primary;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
@@ -15566,7 +15562,7 @@ select[multiple] {
   border-color: #e9ecef;
   animation-name: animate-glow-secondary;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
@@ -15585,7 +15581,7 @@ select[multiple] {
   border-color: #73a839;
   animation-name: animate-glow-success;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
@@ -15604,7 +15600,7 @@ select[multiple] {
   border-color: #033c73;
   animation-name: animate-glow-info;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
@@ -15623,7 +15619,7 @@ select[multiple] {
   border-color: #dd5600;
   animation-name: animate-glow-warning;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
@@ -15642,7 +15638,7 @@ select[multiple] {
   border-color: #c71c22;
   animation-name: animate-glow-danger;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
@@ -15661,7 +15657,7 @@ select[multiple] {
   border-color: #f8f9fa;
   animation-name: animate-glow-light;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
@@ -15680,7 +15676,7 @@ select[multiple] {
   border-color: #343a40;
   animation-name: animate-glow-dark;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
@@ -15694,4 +15690,120 @@ select[multiple] {
   50% {
     box-shadow: 0 0 15px #343a40;
   }
+}
+.chat-container {
+  height: 400px;
+}
+
+.chat-container-lg {
+  height: 600px;
+}
+
+.chat-container-sm {
+  height: 200px;
+}
+
+.from-student {
+  background-color: #0dcaf0;
+  border-color: #17a3c1;
+}
+
+.from-parent {
+  background-color: #f8b258;
+  border-color: #c88e47;
+}
+
+.from-admin {
+  background-color: #f86c6b;
+  border-color: #c85c5c;
+}
+
+.from-teacher {
+  background-color: #b2e1a4;
+  border-color: #65ed3f;
+}
+
+.legend-box {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+
+.person-thumbnail {
+  max-height: 32px;
+  max-width: 32px;
+}
+
+.avatar-list-container {
+  margin: 0;
+  padding: 0;
+}
+
+.avatar-img-xl {
+  max-width: 96px;
+  max-height: 96px;
+  width: 96px;
+}
+
+.avatar-list-item:nth-child(n+2):has(> .avatar-img-xl),
+.avatar-list-item:nth-child(n+2).avatar-img-xl {
+  margin-left: calc(-1 * 96px - 10px);
+}
+
+.avatar-img-large {
+  max-width: 48px;
+  max-height: 48px;
+  width: 48px;
+}
+
+.avatar-list-item:nth-child(n+2):has(> .avatar-img-large),
+.avatar-list-item:nth-child(n+2).avatar-img-large {
+  margin-left: calc(-1 * 48px - 10px);
+}
+
+.avatar-img-normal {
+  max-width: 32px;
+  max-height: 32px;
+  width: 32px;
+}
+
+.avatar-list-item:nth-child(n+2):has(> .avatar-img-normal),
+.avatar-list-item:nth-child(n+2).avatar-img-normal {
+  margin-left: calc(-1 * 32px - 10px);
+}
+
+.avatar-img-small {
+  max-width: 24px;
+  max-height: 24px;
+  width: 24px;
+}
+
+.avatar-list-item:nth-child(n+2):has(> .avatar-img-small),
+.avatar-list-item:nth-child(n+2).avatar-img-small {
+  margin-left: calc(-1 * 24px - 10px);
+}
+
+.avatar-img-tiny {
+  max-width: 16px;
+  max-height: 16px;
+  width: 16px;
+}
+
+.avatar-list-item:nth-child(n+2):has(> .avatar-img-tiny),
+.avatar-list-item:nth-child(n+2).avatar-img-tiny {
+  margin-left: calc(-1 * 16px - 10px);
+}
+
+.avatar-list-item {
+  border: 2px solid white;
+  display: inline-block !important;
+  position: relative;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
+}
+
+.avatar-list-container:hover .avatar-list-item:nth-child(n+2) {
+  margin-left: -20px;
 }

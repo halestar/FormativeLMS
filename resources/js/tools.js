@@ -48,3 +48,17 @@ function showClassNotification(notification) {
     //and we make the menu visible
     $('#notification-menu').removeClass('d-none');
 }
+
+function showClassMessageNotification(notification) {
+    //first, set up a toast
+    let template = $($('#toast-template').html());
+    template.css('border-color', notification.borderColor);
+    template.find('.toast-header')
+        .css('background-color', notification.bgColor)
+        .css('color', notification.textColor);
+    template.find('.toast-icon').append($(notification.icon));
+    template.find('.toast-title').html(notification.title);
+    template.find('.toast-body').html(notification.message);
+    $('#toast-container').append(template);
+    template.toast({autohide: true, delay: 5000}).toast('show');
+}

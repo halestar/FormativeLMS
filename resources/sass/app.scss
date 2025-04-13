@@ -4,6 +4,8 @@
 // Variables
 $enable-negative-margins: true;
 @import '_variables';
+$breadcrumb-divider-color: $gray-600;
+$breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512' width='12' height='12'><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill='#{$breadcrumb-divider-color}' d='M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z'/></svg>");
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
@@ -13,10 +15,7 @@ $enable-negative-margins: true;
 @import 'schedule';
 @import 'school_layout';
 
-// Global CSS
-.breadcrumb-item::before {
-    font-family: 'FontAwesome';
-}
+
 
 .count-message {
     margin-top: -20px;
@@ -164,6 +163,97 @@ $img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "t
     }
 }
 
+//Messages
+.chat-container
+{
+    height: 400px;
+}
 
+.chat-container-lg
+{
+    height: 600px;
+}
 
+.chat-container-sm
+{
+    height: 200px;
+}
+
+.from-student
+{
+    background-color: #0dcaf0;
+    border-color: #17a3c1;
+}
+
+.from-parent
+{
+    background-color: #f8b258;
+    border-color: #c88e47;
+}
+
+.from-admin
+{
+    background-color: #f86c6b;
+    border-color: #c85c5c;
+}
+
+.from-teacher
+{
+    background-color: #b2e1a4;
+    border-color: #65ed3f;
+}
+
+.legend-box
+{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+//avatar list
+//global thumbnail pics
+.person-thumbnail
+{
+    max-height: 32px;
+    max-width: 32px;
+}
+
+.avatar-list-container
+{
+    margin: 0;
+    padding: 0;
+}
+
+$img-icon-sizes: ("xl": 96px, "large": 48px, "normal": 32px, "small": 24px, "tiny": 16px);
+@each $name, $size in $img-icon-sizes {
+    .avatar-img-#{$name} {
+        max-width: $size;
+        max-height: $size;
+        width: $size;
+    }
+
+    .avatar-list-item:nth-child(n+2):has(> .avatar-img-#{$name}),
+    .avatar-list-item:nth-child(n+2).avatar-img-#{$name}
+    {
+        margin-left: calc(-1 * #{$size} - 10px);
+    }
+
+}
+
+.avatar-list-item
+{
+    border: 2px solid white;
+    display: inline-block !important;
+    position: relative;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.avatar-list-container:hover .avatar-list-item:nth-child(n+2)
+{
+    margin-left: -20px;
+}
 

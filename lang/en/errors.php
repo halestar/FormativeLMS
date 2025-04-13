@@ -40,4 +40,6 @@ return
         'top-announcement.color' => 'You must select a color for the announcement.',
         'top-announcement.expires' => 'You must select a date for the announcement to expire.',
         'tabs.name' => 'You must provide a tab name, max 255 characters',
+        'school.student-tracking.person_id' => 'You must select a student to track.',
+        'school.student-tracking.student' => 'You must select a student to unlink.',
     ];

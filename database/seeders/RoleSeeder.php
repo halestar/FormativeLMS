@@ -16,10 +16,11 @@ class RoleSeeder extends Seeder
             "Role Editor" => [],
             "Permission Editor" => [],
             "Person Contact Editor" => [],
-            "Academic Manager" => ['subjects.subjects', 'subjects.courses', 'subjects.classes', 'classes.enrollment'],
+            "Academic Manager" => ['subjects.subjects', 'subjects.courses', 'subjects.classes', 'classes.enrollment', 'school.tracker.admin'],
             "Locations Manager" => ['locations.campuses', 'locations.years', 'locations.terms', 'locations.buildings',
                 'locations.areas', 'locations.rooms'],
             "Schedule Manager" => ['locations.periods', 'locations.blocks', 'classes.enrollment'],
+            "Student Tracker" => ['school.tracker'],
         ];
 
     private string $employeeField = '{"pronouns": {"fieldId": "pronouns", "fieldHelp": "Personal pronouns", "fieldName": "Pronouns", "fieldType": "SELECT", "fieldValue": null, "fieldOptions": ["He/Him", "She/Her", "They/Them"], "fieldPlaceholder": ""}, "extension": {"fieldId": "extension", "fieldHelp": "Employee Extension", "fieldName": "Extension", "fieldType": "TEXT", "fieldValue": null, "fieldOptions": [], "fieldPlaceholder": "ext"}}';

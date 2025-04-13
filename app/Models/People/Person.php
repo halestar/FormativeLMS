@@ -3,19 +3,23 @@
 namespace App\Models\People;
 
 use App\Casts\LogItem;
+use App\Classes\PrefenceManager;
 use App\Classes\RoleField;
 use App\Classes\SchoolSettings;
 use App\Models\CRUD\Relationship;
 use App\Models\Locations\Campus;
+use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use App\Models\SubjectMatter\ClassSession;
+use App\Models\SubjectMatter\Components\ClassMessage;
 use App\Models\Utilities\SchoolRoles;
+use App\Notifications\NewClassMessageNotification;
 use App\Traits\Addressable;
 use App\Traits\HasLogs;
-use App\Traits\HasViewableFields;
 use App\Traits\Phoneable;
 use Auth;
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -30,12 +34,13 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Drivers\Imagick\Driver;
 use Intervention\Image\ImageManager;
-use Laravel\Sanctum\HasApiTokens;
+use Laravel\Scout\Searchable;
 use Spatie\Permission\Traits\HasRoles;
+
 
 class Person extends Authenticatable
 {
-    use HasFactory, HasLogs, SoftDeletes, HasRoles, Phoneable, Addressable, Notifiable;
+    use HasFactory, HasLogs, SoftDeletes, HasRoles, Phoneable, Addressable, Notifiable, Searchable;
     protected $with = ['schoolRoles'];
     public $timestamps = true;
     protected $table = "people";
@@ -54,6 +59,7 @@ class Person extends Authenticatable
         'password',
         'remember_token',
     ];
+    public const UKN_IMG = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
 
     protected function casts(): array
     {
@@ -82,6 +88,18 @@ class Person extends Authenticatable
     public function receivesBroadcastNotificationsOn(): string
     {
         return 'people.' . $this->id;
+    }
+
+    public function toSearchableArray(): array
+    {
+        return
+            [
+                'first' => $this->first,
+                'middle' => $this->middle,
+                'last' => $this->last,
+                'email' => $this->email,
+                'nick' => $this->nick,
+            ];
     }
 
     /**********
@@ -173,7 +191,7 @@ class Person extends Authenticatable
             {
                 if(Auth::user()->canViewField('portrait', $this) && $attributes['portrait_url'])
                     return $attributes['portrait_url'];
-                return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
+                return self::UKN_IMG;
             },
             set: function(null|UploadedFile|string $value, array $attributes)
             {
@@ -214,7 +232,22 @@ class Person extends Authenticatable
             {
                 if(Auth::user()->canViewField('portrait', $this) && $attributes['thumbnail_url'])
                     return $attributes['thumbnail_url'];
-                return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
+                return self::UKN_IMG;
+            }
+        );
+    }
+
+    public function prefs(): Attribute
+    {
+        return Attribute::make
+        (
+            get: function(mixed $value, array $attributes)
+            {
+                return new PrefenceManager($this, $value);
+            },
+            set: function(PrefenceManager $value, array $attributes)
+            {
+                return json_encode($value->getData());
             }
         );
     }
@@ -249,6 +282,64 @@ class Person extends Authenticatable
         return $this->hasMany(StudentRecord::class, 'person_id');
     }
 
+    public function classMessages(): HasMany
+    {
+        return $this->hasMany(ClassMessage::class, 'person_id');
+    }
+
+    public function studentTrackee(): BelongsToMany
+    {
+        return $this->belongsToMany(StudentRecord::class, 'student_trackers', 'person_id', 'student_id');
+    }
+
+    /**********
+     * Scopes
+     */
+    #[Scope]
+    protected function teachers(Builder $query): void
+    {
+        $query->whereHas('schoolRoles', function (Builder $query)
+        {
+            $query->where('name', SchoolRoles::$FACULTY);
+        });
+    }
+
+    #[Scope]
+    protected function students(Builder $query): void
+    {
+        $query->whereHas('schoolRoles', function (Builder $query)
+        {
+            $query->where('name', SchoolRoles::$STUDENT);
+        });
+    }
+
+    #[Scope]
+    protected function staff(Builder $query): void
+    {
+        $query->whereHas('schoolRoles', function (Builder $query)
+        {
+            $query->where('name', SchoolRoles::$STAFF);
+        });
+    }
+
+    #[Scope]
+    protected function childParents(Builder $query): void
+    {
+        $query->whereHas('schoolRoles', function (Builder $query)
+        {
+            $query->where('name', SchoolRoles::$PARENT);
+        });
+    }
+
+    #[Scope]
+    protected function coaches(Builder $query): void
+    {
+        $query->whereHas('schoolRoles', function (Builder $query)
+        {
+            $query->where('name', SchoolRoles::$COACH);
+        });
+    }
+
 
     /**********
      * Boolean Functions
@@ -277,6 +368,17 @@ class Person extends Authenticatable
     public function hasPortrait(): bool
     {
         return ($this->attributes['portrait_url'] != null && $this->attributes['portrait_url'] != '');
+    }
+
+    public function hasChildren(): bool
+    {
+        return $this->relationships()->where('relationship_id', Relationship::CHILD)->count() > 0;
+    }
+
+    public function isParentOfPerson(Person $target): bool
+    {
+        return $target->relationships()->where('to_person_id', $this->id)
+            ->where('relationship_id', Relationship::CHILD)->count() > 0;
     }
 
     /**
@@ -380,6 +482,21 @@ class Person extends Authenticatable
         return $this->studentRecords()->where('year_id', $year->id)->whereNull('end_date')->first();
     }
 
+    public function studentInTerm(Term $term): ?StudentRecord
+    {
+        return $this->studentRecords()->where('year_id', $term->year_id)->whereNull('end_date')->first();
+    }
+
+    public function studentInYear(Year $year): ?StudentRecord
+    {
+        return $this->studentRecords()->where('year_id', $year->id)->whereNull('end_date')->first();
+    }
+
+    public function parents(): BelongsToMany
+    {
+        return $this->relationships()->wherePivot('relationship_id', Relationship::CHILD);
+    }
+
     /**
      * Parent Functions
      */
@@ -411,6 +528,21 @@ class Person extends Authenticatable
             ->get();
     }
 
+    public function allChildren(): BelongsToMany
+    {
+        return $this->relationships()->wherePivot('relationship_id', Relationship::CHILD);
+    }
+
+    public function allStudentRecords(): Collection
+    {
+        return StudentRecord::select('student_records.*')
+            ->join('people', 'people.id', '=', 'student_records.person_id')
+            ->join('people_relations', 'people_relations.from_person_id', '=', 'people.id')
+            ->where('people_relations.relationship_id', Relationship::CHILD)
+            ->where('people_relations.to_person_id', $this->id)
+            ->get();
+    }
+
     /**
      * Teacher functions
      */
@@ -421,9 +553,33 @@ class Person extends Authenticatable
             ->whereBetweenColumns(DB::raw(date("'Y-m-d'")), ['terms.term_start', 'terms.term_end'] );
     }
 
+    public function classesTaught(): BelongsToMany
+    {
+        return $this->belongsToMany(ClassSession::class, 'class_sessions_teachers', 'person_id', 'session_id');
+    }
+
     public function teachesClassSession(ClassSession $session): bool
     {
-        return $this->currentClassSessions()->where('class_sessions.id', $session->id)->exists();
+        return $this->classesTaught()->where('class_sessions.id', $session->id)->exists();
+    }
+
+    /**
+     * Admin Functions
+     */
+
+
+
+    /**
+     * Notifications
+     */
+    public function alertNotifications()
+    {
+        return $this->notifications()->unread()->whereNot('type', NewClassMessageNotification::class);
+    }
+
+    public function classMessageNotifications()
+    {
+        return $this->notifications()->unread()->where('type', NewClassMessageNotification::class);
     }
 
 }

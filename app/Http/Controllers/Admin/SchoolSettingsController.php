@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 
 class SchoolSettingsController extends Controller
 {
@@ -61,6 +62,20 @@ class SchoolSettingsController extends Controller
         $settings->days = $days;
         $settings->startTime = $data['start_time'];
         $settings->endTime = $data['end_time'];
+        $settings->save();
+        return redirect()->route('school.settings')->with('success-status', __('system.settings.update.success'));
+    }
+
+    public function updateClasses(Request $request)
+    {
+        $data = $request->validate([
+            'max_msg' => 'required|numeric|min:1',
+            'year_messages' => ['required','numeric', Rule::in([1, 2])],
+        ], static::errors());
+        $settings = SchoolSettings::instance();
+        //update days
+        $settings->max_msg = $data['max_msg'];
+        $settings->year_messages = $data['year_messages'];
         $settings->save();
         return redirect()->route('school.settings')->with('success-status', __('system.settings.update.success'));
     }

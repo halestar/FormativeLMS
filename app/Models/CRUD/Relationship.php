@@ -3,7 +3,6 @@
 namespace App\Models\CRUD;
 
 use App\Models\People\PersonalRelations;
-use Illuminate\Database\Eloquent\Model;
 
 class Relationship extends CrudItem
 {
@@ -30,5 +29,15 @@ class Relationship extends CrudItem
     public function canDelete(): bool
     {
         return PersonalRelations::where('relationship_id', $this->id)->count() == 0;
+    }
+
+    public static function parentalRelationshipTypes(): array
+    {
+        return [
+            self::PARENT,
+            self::STEPPARENT,
+            self::GUARDIAN,
+            self::GRANDPARENT
+        ];
     }
 }

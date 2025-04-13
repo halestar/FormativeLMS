@@ -16,6 +16,7 @@ class PermissionSeeder extends Seeder
             'Subject Matter',
             'Class Management',
             'System',
+            'School Administration'
         ];
     private static array $permissions =
         [
@@ -65,6 +66,11 @@ class PermissionSeeder extends Seeder
                 [
                     ['name' => 'classes.enrollment', 'description' => 'Ability to enroll students in classes'],
                 ],
+            'School Administration' =>
+            [
+                ['name' => 'school.tracker', 'description' => "Ability to be a tracker for a student"],
+                ['name' => 'school.tracker.admin', 'description' => "Ability to assign trackers to students"],
+            ],
             'System' =>
                 [
                     ['name' => 'cms', 'description' => 'Access to the site\'s CSM'],

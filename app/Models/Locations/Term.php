@@ -5,6 +5,7 @@ namespace App\Models\Locations;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 
 class Term extends Model
@@ -64,5 +65,22 @@ class Term extends Model
                     ->where('campus_id', $campus->id)
                     ->first();
             });
+    }
+
+    public static function currentTerms(): Collection
+    {
+        return Cache::rememberForever('current-terms', function()
+        {
+            $now = date('Y-m-d');
+            return Term::whereDate('term_start', '<=', $now)
+                ->whereDate('term_end', '>=', $now)
+                ->get();
+        });
+    }
+
+    public function isCurrent(): bool
+    {
+        $now = date('Y-m-d');
+        return $this->term_start <= $now && $this->term_end >= $now;
     }
 }

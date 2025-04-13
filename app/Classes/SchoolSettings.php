@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 
 class SchoolSettings extends SystemSetting
 {
+    public const TERM = 1;
+    public const YEAR = 2;
     protected $table = "system_settings";
     private static string $key = "school";
     private static ?SchoolSettings $instance = null;
@@ -128,6 +130,28 @@ class SchoolSettings extends SystemSetting
             {
                 return $this->updateValue($attributes['value'], 'parentName', $value->tokens);
             },
+        );
+    }
+
+    public function maxMsg(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) =>
+                $this->getValue($attributes['value'], 'max_msg', "10"),
+            set: fn(mixed $value, array $attributes) =>
+                $this->updateValue($attributes['value'], 'max_msg', $value),
+        );
+    }
+
+    public function yearMessages(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) =>
+                $this->getValue($attributes['value'], 'year_msg', self::YEAR),
+            set: fn(int $value, array $attributes) =>
+                $this->updateValue($attributes['value'], 'year_msg', $value),
         );
     }
 }

@@ -50,7 +50,7 @@
                     @if($editing)
                     <li class="nav-item">
                         <button type="button" class="btn btn-outline-primary btm-sm" data-bs-toggle="modal" data-bs-target="#class-modal">
-                            <i class="fas fa-plus me-2 pe-2 border-end"></i>Add Tab
+                            <i class="fas fa-plus me-2 pe-2 border-end"></i>{{ __('subjects.school.tabs.add') }}
                         </button>
                     </li>
                     @endif
@@ -78,7 +78,18 @@
     <div class="row">
         <div class="col-md-4">
             <div class="profile-work">
-
+                <ul class="list-group mt-3 list-group-flush">
+                    @foreach($classSession->students as $student)
+                        <li class="list-group-item list-group-item-action">
+                            <img
+                                class="img-fluid img-thumbnail person-thumbnail"
+                                src="{{ $student->person->thumbnail_url }}"
+                                alt="{{ $student->person->name }}"
+                            />
+                            <a href="{{ route('people.show', ['person' => $student->person_id]) }}" class="fs-5">{{ $student->person->name }}</a>
+                        </li>
+                    @endforeach
+                </ul>
             </div>
         </div>
         <div class="col-md-6">

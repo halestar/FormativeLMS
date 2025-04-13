@@ -13,12 +13,15 @@ use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\Schedules\Block;
 use App\Models\Schedules\Period;
+use App\Models\SubjectMatter\Components\ClassMessage;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Auth;
 
 class ClassSession extends Model implements HasSchedule
 {
@@ -81,6 +84,21 @@ class ClassSession extends Model implements HasSchedule
         return $this->belongsToMany(Person::class, 'class_sessions_teachers', 'session_id', 'person_id');
     }
 
+    public function messages(): HasMany
+    {
+        return $this->hasMany(ClassMessage::class, 'session_id');
+    }
+
+    public function isClassTeacher(Person $person): bool
+    {
+        return $this->teachers()->where('person_id', $person->id)->exists();
+    }
+
+    public function isClassStudent(StudentRecord $student): bool
+    {
+        return $this->students()->where('student_records.id', $student->id)->exists();
+    }
+
     public function teachersString(): string
     {
         return $this->teachers->pluck('name')->join(', ');
@@ -103,6 +121,13 @@ class ClassSession extends Model implements HasSchedule
     {
         return Attribute::make(
             get: fn() => $this->course->name
+        );
+    }
+
+    public function fullName(): Attribute
+    {
+        return Attribute::make(
+            get: fn() => $this->name . ' (' . $this->teachersString() . ') [' . $this->scheduleString() . ']'
         );
     }
 
@@ -186,5 +211,21 @@ class ClassSession extends Model implements HasSchedule
     public function getScheduleLink(): ?string
     {
         return null;
+    }
+
+    public function hasUnseenMessages(StudentRecord $student): bool
+    {
+        return false;
+        //what kind of user is this?
+        $viewer = Auth::user();
+        $type = null;
+        if($viewer->isTeacher() && $this->isClassTeacher($viewer))
+            $type = 'teacher_read';
+        elseif($viewer->isStudent() && $viewer->student->id == $student->id)
+            $type = 'student_read';
+        elseif($viewer->isParent() && $viewer->isParentOfPerson($student->person))
+            $type = 'parent_read';
+        return $this->messages()->where('student_id', $student->id)->where($type, false)->count() > 0;
+
     }
 }
