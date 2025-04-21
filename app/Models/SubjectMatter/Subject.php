@@ -4,6 +4,7 @@ namespace App\Models\SubjectMatter;
 
 use App\Models\Locations\Campus;
 use App\Models\Scopes\OrderByOrderScope;
+use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
 use App\Traits\DeterminesTextColor;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
@@ -64,6 +65,11 @@ class Subject extends Model
     public function scopeActive(Builder $builder)
     {
         $builder->where('active', true);
+    }
+
+    public function skills(): HasMany
+    {
+        return $this->hasMany(KnowledgeSkill::class, 'subject_id');
     }
 
 }

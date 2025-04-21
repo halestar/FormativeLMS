@@ -42,4 +42,11 @@ return
         'tabs.name' => 'You must provide a tab name, max 255 characters',
         'school.student-tracking.person_id' => 'You must select a student to track.',
         'school.student-tracking.student' => 'You must select a student to unlink.',
+        'skills.knowledge.subject_id' => 'You must select a valid subject to attach this skill to.',
+        'skills.knowledge.designation' => 'You must enter a designation for this skill.',
+        'skills.knowledge.cat_designation_id' => 'You must select a valid designation for he skill category.',
+        'skills.knowledge.levels' => 'You must select at least one level that this skill applies to.',
+        'skills.knowledge.description' => 'You must enter a description for this skill.',
+        'skills.knowledge.category_id' => 'You must select a category to link.',
+
     ];

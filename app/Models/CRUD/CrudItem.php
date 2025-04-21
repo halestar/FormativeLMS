@@ -4,7 +4,6 @@ namespace App\Models\CRUD;
 
 use App\Models\Scopes\OrderByOrderScope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 
@@ -47,26 +46,15 @@ abstract class CrudItem extends Model
         return self::orderBy('order')->get();
     }
 
-    public function scopeViewable(Builder $query): void
-    {
-        $query->whereNot('id', ViewableGroup::HIDDEN);
-    }
-
     public static function crudModels(): array
     {
         return
         [
-            Ethnicity::class,
-            Title::class,
-            Suffix::class,
-            Honors::class,
-            Gender::class,
-            Pronouns::class,
-            ViewableGroup::class,
             Relationship::class,
             Level::class,
             SchoolArea::class,
             DismissalReason::class,
+            SkillCategoryDesignation::class,
         ];
     }
     abstract public static function getCrudModel(): string;

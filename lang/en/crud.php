@@ -19,5 +19,5 @@ return
         'remove.confirm' => 'Are you sure you want to delete this entry?',
         'system_tables' => 'System Tables',
         'dismissal_reasons' => 'Dismissal Reasons',
-
+        'skill_category_designation' => 'Skill Category Designation',
     ];

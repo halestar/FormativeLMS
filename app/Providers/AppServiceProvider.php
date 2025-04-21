@@ -9,6 +9,7 @@ use App\Classes\Synths\ClassWidgetSynth;
 use App\Classes\Synths\NameConstructorSynth;
 use App\Classes\Synths\NameTokenSynth;
 use App\Classes\Synths\RoleFieldSynth;
+use App\Classes\Synths\RubricSynth;
 use App\Classes\Synths\TopAnnouncementWidgetSynth;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
@@ -56,6 +57,7 @@ class AppServiceProvider extends ServiceProvider
                 ClassTabsSynth::class,
                 ClassTabSynth::class,
                 ClassWidgetSynth::class,
+                RubricSynth::class
             ]);
     }
 }

@@ -39,6 +39,8 @@ class DatabaseSeeder extends Seeder
                 StudentEnrollmentSeeder::class,
                 ClassMessageSeeder::class,
                 StudentTrackerSeeder::class,
+                SkillCategorySeeder::class,
+                KnowledgeSkillSeeder::class,
                 WebSeeder::class
             ]);
     }

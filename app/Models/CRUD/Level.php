@@ -3,6 +3,7 @@
 namespace App\Models\CRUD;
 
 use App\Models\Locations\Campus;
+use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Level extends CrudItem
@@ -29,6 +30,11 @@ class Level extends CrudItem
     public function campuses(): BelongsToMany
     {
         return $this->belongsToMany(Campus::class, 'campuses_levels', 'level_id', 'campus_id');
+    }
+
+    public function skills(): BelongsToMany
+    {
+        return $this->belongsToMany(KnowledgeSkill::class, 'knowledge_skill_levels', 'level_id', 'skill_id');
     }
 }
 

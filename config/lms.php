@@ -20,6 +20,7 @@ return [
     'thumb_max_height' => env('THUMB_MAX_SIZE', 64),
     'profile_thumbs_path' => env('PROFILE_THUMBS_PATH', 'thmb'),
     'campus_img_width' => env('CAMPUS_IMG_WIDTH', 400),
+    'rubric_max_points' => env('RUBRIC_MAX_POINTS', 3),
     'prefs' =>
         [
             'defaults' =>

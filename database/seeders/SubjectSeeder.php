@@ -16,7 +16,7 @@ class SubjectSeeder extends Seeder
         foreach(Campus::all() as $campus)
         {
             $idx = 0;
-            foreach(['English','Math','Science','Social Studies','Art','Music','Health','Languages']as $subject)
+            foreach(['English','Math','Science','Social Studies','Art','Health','Languages']as $subject)
             {
                 Subject::create(
                     [

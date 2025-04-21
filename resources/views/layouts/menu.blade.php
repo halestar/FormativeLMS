@@ -62,7 +62,7 @@
                             </div>
                         </li>
                     @endcanany
-                    @canany(['classes.enrollment'])
+                    @canany(['classes.enrollment','subjects.skills'])
                         <li class="nav-item dropdown">
                             <a id="classManagementDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 {{ __('system.menu.classes') }}
@@ -72,6 +72,11 @@
                                 @can('classes.enrollment')
                                     <a class="dropdown-item" href="{{ route('subjects.enrollment.general') }}">
                                         {{ __('system.menu.classes.enrollment.general') }}
+                                    </a>
+                                @endcan
+                                @can('subjects.skills')
+                                    <a class="dropdown-item" href="{{ route('subjects.skills.index') }}">
+                                        {{ trans_choice('subjects.skills', 2) }}
                                     </a>
                                 @endcan
                             </div>

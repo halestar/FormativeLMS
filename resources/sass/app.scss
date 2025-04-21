@@ -15,7 +15,10 @@ $breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/
 @import 'schedule';
 @import 'school_layout';
 
-
+.border-dotted
+{
+    border-style: dotted;
+}
 
 .count-message {
     margin-top: -20px;
@@ -30,6 +33,11 @@ $breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/
 .show-as-action
 {
     cursor: pointer;
+}
+
+.show-as-grab
+{
+    cursor: grab;
 }
 
 select[multiple]
@@ -255,5 +263,11 @@ $img-icon-sizes: ("xl": 96px, "large": 48px, "normal": 32px, "small": 24px, "tin
 .avatar-list-container:hover .avatar-list-item:nth-child(n+2)
 {
     margin-left: -20px;
+}
+
+.text-justify
+{
+    text-align: justify;
+    text-justify: inter-word;
 }
 

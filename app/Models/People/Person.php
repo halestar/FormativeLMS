@@ -3,7 +3,7 @@
 namespace App\Models\People;
 
 use App\Casts\LogItem;
-use App\Classes\PrefenceManager;
+use App\Classes\PreferenceManager;
 use App\Classes\RoleField;
 use App\Classes\SchoolSettings;
 use App\Models\CRUD\Relationship;
@@ -243,9 +243,9 @@ class Person extends Authenticatable
         (
             get: function(mixed $value, array $attributes)
             {
-                return new PrefenceManager($this, $value);
+                return new PreferenceManager($this, $value);
             },
-            set: function(PrefenceManager $value, array $attributes)
+            set: function(PreferenceManager $value, array $attributes)
             {
                 return json_encode($value->getData());
             }

@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col">
-                <livewire:crud-item-update :model="\App\Models\CRUD\Ethnicity::class" />
+                <livewire:crud-item-update :model="\App\Models\CRUD\Relationship::class" />
             </div>
         </div>
     </div>

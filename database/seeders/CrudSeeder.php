@@ -6,6 +6,7 @@ use App\Models\CRUD\DismissalReason;
 use App\Models\CRUD\Level;
 use App\Models\CRUD\Relationship;
 use App\Models\CRUD\SchoolArea;
+use App\Models\CRUD\SkillCategoryDesignation;
 use Illuminate\Database\Seeder;
 
 class CrudSeeder extends Seeder
@@ -62,5 +63,28 @@ class CrudSeeder extends Seeder
                 ['name' => 'Expelled'],
                 ['name' => 'Attrition'],
             ]);
+
+        SkillCategoryDesignation::insert(
+            [
+                ['name' => 'Subject Area'],
+                ['name' => 'Domain'],
+                ['name' => 'Cluster'],
+                ['name' => 'Discipline'],
+                ['name' => 'Subdiscipline'],
+                ['name' => 'Conceptual Category'],
+                ['name' => 'Discipline'],
+                ['name' => 'Artistic Process'],
+                ['name' => 'Anchor Standard'],
+                ['name' => 'Course'],
+                ['name' => 'Disciplinary Core Idea'],
+                ['name' => 'Cross Cutting Concept'],
+                ['name' => 'Science & Engineering Practice'],
+                ['name' => 'Content Area'],
+                ['name' => 'Overarching Content Standard'],
+                ['name' => 'Strand'],
+                ['name' => 'Substrand'],
+                ['name' => 'Subdiscipline'],
+            ]
+        );
     }
 }

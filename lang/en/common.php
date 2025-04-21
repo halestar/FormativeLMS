@@ -74,4 +74,6 @@ return [
     'results' => 'Results',
     'results.no' => 'No Results',
     'results.no.found' => 'No Results Found',
+    'active' => 'Active',
+    'inactive' => 'Inactive',
 ];

@@ -63,3 +63,28 @@ Route::prefix('school/classes')
 Route::delete('/student-tracker/{student_tracker}/unlink/{student}', [StudentTrackerController::class, 'unlink'])
     ->name('student-tracker.unlink');
 Route::resource('student-tracker', StudentTrackerController::class)->only(['index', 'edit', 'update', 'destroy']);
+
+//skill management
+Route::prefix('skills')
+    ->name('skills.')
+    ->controller(\App\Http\Controllers\ClassManagement\SkillsController::class)
+    ->group(function ()
+    {
+        Route::get('/', 'index')->name('index');
+        Route::post('/store/knowledge', 'storeKnowledge')->name('store.knowledge');
+        Route::post('/store/character', 'storeCharacter')->name('store.character');
+        Route::get('/create/{category}/knowledge', 'createKnowledge')->name('create.knowledge');
+        Route::get('/create/{category}/character', 'createCharacter')->name('create.character');
+        Route::get('/knowledge/{skill}/rubric', 'knowledgeRubric')->name('rubric.knowledge');
+        Route::get('/character/{skill}/rubric', 'characterRubric')->name('rubric.character');
+        Route::get('/knowledge/{skill}/edit', 'editKnowledge')->name('edit.knowledge');
+        Route::get('/character/{skill}/edit', 'editCharacter')->name('edit.character');
+        Route::put('/knowledge/{skill}/update', 'updateKnowledge')->name('update.knowledge');
+        Route::put('/character/{skill}/update', 'updateCharacter')->name('update.character');
+        Route::delete('/knowledge/{skill}/unlink/{category}', 'unlinkKnowledgeCategory')->name('unlink.knowledge');
+        Route::delete('/character/{skill}/unlink/{category}', 'unlinkCharacterCategory')->name('unlink.character');
+        Route::post('/knowledge/{skill}/link', 'linkKnowledgeCategory')->name('link.knowledge');
+        Route::post('/character/{skill}/link', 'linkCharacterCategory')->name('link.character');
+        Route::get('/knowledge/{skill}', 'showKnowledge')->name('show.knowledge');
+        Route::get('/character/{skill}', 'showCharacter')->name('show.character');
+    });

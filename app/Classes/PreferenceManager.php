@@ -4,7 +4,7 @@ namespace App\Classes;
 
 use App\Models\People\Person;
 
-class PrefenceManager
+class PreferenceManager
 {
     private array $data;
     private Person $owner;

@@ -16,7 +16,7 @@
         "league/flysystem-aws-s3-v3": "^3.28",
         "livewire/livewire": "^3.5",
         "spatie/laravel-permission": "^6.9",
-        "tinymce/tinymce": "^7.6"
+        "tinymce/tinymce": "^7.8"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.13",
