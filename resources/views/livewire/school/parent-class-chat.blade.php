@@ -17,7 +17,7 @@
                                 class="rounded list-group-item list-group-item-action show-as-action p-2 border-bottom d-flex justify-content-between @if($selectedSession && $session->id == $selectedSession->id) active @endif"
                                 wire:click="setSession({{ $session->id }})"
                                 wire:key="{{ $session->id }}"
-                            >z
+                            >
                                 <div class="d-flex flex-row">
                                     <div>
                                         <img

@@ -61,7 +61,7 @@ class PermissionSeeder extends Seeder
                     ['name' => 'subjects.classes', 'description' => 'Ability to edit year-long classes in the system'],
                     ['name' => 'subjects.classes.view', 'description' => 'Ability to view details about a class'],
                     ['name' => 'subjects.classes.manage', 'description' => 'Global permission to manage any class in the system'],
-                    ['name' => '', 'description' => 'Ability to manage skills in the system'],
+                    ['name' => 'subjects.skills', 'description' => 'Ability to manage skills in the system'],
                 ],
             'Class Management' =>
                 [

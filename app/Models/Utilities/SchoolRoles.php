@@ -60,7 +60,7 @@ class SchoolRoles extends Role
             "Student" => [],
             "Employee" => [],
             "Faculty" => [],
-            "Staff" => ['school.tracker'],
+            "Staff" => ['school.tracker', 'subjects.skills'],
             "Coach" => ['school.tracker'],
             "Parent" => [],
             "Old Student" => [],
