@@ -49,7 +49,7 @@ class KnowledgeSkillSeeder extends Seeder
                 $subject_id = $startGrade <= 6 ? $subjects['es'] : ($startGrade <= 9 ? $subjects['ms'] : $subjects['hs']);
                 //Create a random rubric
                 $points = [];
-                foreach([0,1,2,3,4] as $score)
+                foreach([4,3,2,1,0] as $score)
                     $points[] = $score;
                 //and between 2-5 criteria
                 $numCrit = random_int(2, 5);
