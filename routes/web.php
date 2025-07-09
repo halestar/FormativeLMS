@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\Admin\CrudController;
-use App\Http\Controllers\Admin\SchoolSettingsController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
@@ -22,12 +21,6 @@ Route::prefix('cms')->middleware(['can:cms', 'auth'])->group(function()
 
 //crud
 Route::get('/crud', [CrudController::class, 'index'])->name('crud');
-
-//school Settings
-Route::get('/school/settings', [SchoolSettingsController::class, 'show'])->name('school.settings');
-Route::patch('/school/settings/school', [SchoolSettingsController::class, 'update'])->name('school.settings.update.school');
-Route::patch('/school/settings/classes', [SchoolSettingsController::class, 'updateClasses'])->name('school.settings.update.classes');
-Route::get('/school/settings/name/{role}', [SchoolSettingsController::class, 'nameCreator'])->name('school.settings.name');
 
 //settings
 Route::post('/settings', [HomeController::class, 'setSessionSetting']);

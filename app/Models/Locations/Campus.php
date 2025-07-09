@@ -12,6 +12,7 @@ use App\Models\Scopes\OrderByOrderScope;
 use App\Models\SubjectMatter\Course;
 use App\Models\SubjectMatter\Subject;
 use App\Traits\Addressable;
+use App\Traits\Leveable;
 use App\Traits\Phoneable;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Casts\Attribute;
@@ -24,7 +25,7 @@ use Illuminate\Support\Collection;
 #[ScopedBy(OrderByOrderScope::class)]
 class Campus extends Model
 {
-    use Phoneable, Addressable;
+    use Phoneable, Addressable, Leveable;
     public $timestamps = true;
     protected $table = "campuses";
     protected $primaryKey = "id";
@@ -48,12 +49,6 @@ class Campus extends Model
                 'established' => 'date: Y',
             ];
     }
-
-    public function levels(): BelongsToMany
-    {
-        return $this->belongsToMany(Level::class, 'campuses_levels', 'campus_id', 'level_id');
-    }
-
 
     public function img(): Attribute
     {
@@ -136,7 +131,7 @@ class Campus extends Model
 
     public function employees(): BelongsToMany
     {
-        return $this->belongsToMany(Person::class, 'employee_campuses', 'campus_id', 'person_id');
+        return $this->morphedByMany(Person::class, 'campusable', 'campusables');
     }
 
     public function students(Year $year = null): HasMany

@@ -112,7 +112,7 @@
                     <td>{{ $session->term->label }}</td>
                     <td>
                         @foreach($session->teachers as $teacher)
-                            <a href="{{ route('people.show', $teacher) }}">{{ $teacher->name }}</a>
+                            <a href="{{ route('people.show', $teacher->school_id) }}">{{ $teacher->name }}</a>
                             @if(!$loop->last) ,@endif
                         @endforeach
                     </td>

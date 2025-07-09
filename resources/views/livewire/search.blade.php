@@ -8,7 +8,7 @@
         <div class="modal-body">
             <div class="list-group">
                 @foreach($results as $person)
-                    <a class="list-group list-group-item-action text-decoration-none my-1 py-1" href="{{ route('people.show', ['person' => $person->id]) }}">
+                    <a class="list-group list-group-item-action text-decoration-none my-1 py-1" href="{{ route('people.show', ['person' => $person->school_id]) }}">
                         <div class="d-flex justify-content-start align-items-start">
                             <img
                                 class="img-fluid img-thumbnail img-icon-normal"

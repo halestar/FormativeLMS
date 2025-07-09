@@ -5,7 +5,7 @@ namespace App\Models\People;
 use App\Casts\LogItem;
 use App\Classes\PreferenceManager;
 use App\Classes\RoleField;
-use App\Classes\SchoolSettings;
+use App\Classes\Settings\SchoolSettings;
 use App\Models\CRUD\Relationship;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Term;
@@ -15,16 +15,19 @@ use App\Models\SubjectMatter\Components\ClassMessage;
 use App\Models\Utilities\SchoolRoles;
 use App\Notifications\NewClassMessageNotification;
 use App\Traits\Addressable;
+use App\Traits\Campuseable;
 use App\Traits\HasLogs;
 use App\Traits\Phoneable;
 use Auth;
 use Carbon\Carbon;
+use Hashids\Hashids;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Http\UploadedFile;
@@ -40,7 +43,7 @@ use Spatie\Permission\Traits\HasRoles;
 
 class Person extends Authenticatable
 {
-    use HasFactory, HasLogs, SoftDeletes, HasRoles, Phoneable, Addressable, Notifiable, Searchable;
+    use HasFactory, HasLogs, SoftDeletes, HasRoles, Phoneable, Addressable, Notifiable, Searchable, Campuseable;
     protected $with = ['schoolRoles'];
     public $timestamps = true;
     protected $table = "people";
@@ -83,6 +86,21 @@ class Person extends Authenticatable
         {
             $builder->orderBy('last')->orderBy('first');
         });
+        static::creating(function (Person $person)
+        {
+            $person->school_id = time();
+        });
+        static::created(function (Person $person)
+        {
+            $hashids = new Hashids('FabLMS', config('lms.school_id_length'), '0123456789cfhistu');
+            $person->school_id = $hashids->encode($person->id);
+            $person->save();
+        });
+    }
+
+    public function getRouteKeyName(): string
+    {
+        return 'school_id';
     }
 
     public function receivesBroadcastNotificationsOn(): string
@@ -252,6 +270,17 @@ class Person extends Authenticatable
         );
     }
 
+    public function schoolId(): Attribute
+    {
+        return Attribute::make
+        (
+            get: function(mixed $value, array $attributes)
+            {
+                return str_pad($value, 10, '0', STR_PAD_LEFT);
+            },
+        );
+    }
+
     /**********
      * Relationships
      */
@@ -267,9 +296,9 @@ class Person extends Authenticatable
                 ]);
     }
 
-    public function employeeCampuses(): BelongsToMany
+    public function employeeCampuses(): MorphToMany
     {
-        return $this->belongsToMany(Campus::class, "employee_campuses", "person_id", "campus_id");
+        return $this->campuses();
     }
 
     public function schoolRoles(): BelongsToMany

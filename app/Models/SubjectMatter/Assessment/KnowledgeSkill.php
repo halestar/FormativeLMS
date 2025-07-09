@@ -4,17 +4,16 @@ namespace App\Models\SubjectMatter\Assessment;
 
 use App\Casts\Rubric;
 use App\Interfaces\HasRubric;
-use App\Models\CRUD\Level;
 use App\Models\SubjectMatter\Subject;
+use App\Traits\Leveable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Laravel\Scout\Searchable;
 
 class KnowledgeSkill extends Model implements HasRubric
 {
-    use Searchable;
+    use Searchable, Leveable;
     protected $with = ['subject'];
     public $timestamps = true;
     protected $table = "knowledge_skills";
@@ -50,12 +49,6 @@ class KnowledgeSkill extends Model implements HasRubric
     public function subject(): BelongsTo
     {
         return $this->belongsTo(Subject::class);
-    }
-
-    public function levels(): BelongsToMany
-    {
-        return $this->belongsToMany(Level::class, 'knowledge_skill_levels',
-            'skill_id', 'level_id');
     }
 
     public function categories(): MorphToMany

@@ -2,7 +2,7 @@
 
 namespace App\View\Components;
 
-use App\Classes\SchoolSettings;
+use App\Classes\Settings\SchoolSettings;
 use App\Interfaces\HasSchedule;
 use App\Models\Schedules\Period;
 use Carbon\Carbon;

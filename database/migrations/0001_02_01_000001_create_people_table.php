@@ -31,6 +31,7 @@ return new class extends Migration
 
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
+            $table->bigInteger('school_id')->unsigned()->unique()->index();
             $table->rememberToken();
             $table->softDeletes();
             $table->timestamps();

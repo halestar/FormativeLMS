@@ -30,6 +30,7 @@ class DatabaseSeeder extends Seeder
                 StaffSeeder::class,
                 CoachSeeder::class,
                 FamilySeeder::class,
+                SchoolIdSeeder::class,
                 SubjectSeeder::class,
                 CourseSeeder::class,
                 PeriodSeeder::class,

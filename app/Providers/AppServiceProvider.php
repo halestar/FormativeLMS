@@ -6,6 +6,8 @@ use App\Classes\Synths\ClassSessionLayoutManagerSynth;
 use App\Classes\Synths\ClassTabsSynth;
 use App\Classes\Synths\ClassTabSynth;
 use App\Classes\Synths\ClassWidgetSynth;
+use App\Classes\Synths\IdCardElementSynth;
+use App\Classes\Synths\IdCardSynth;
 use App\Classes\Synths\NameConstructorSynth;
 use App\Classes\Synths\NameTokenSynth;
 use App\Classes\Synths\RoleFieldSynth;
@@ -57,7 +59,9 @@ class AppServiceProvider extends ServiceProvider
                 ClassTabsSynth::class,
                 ClassTabSynth::class,
                 ClassWidgetSynth::class,
-                RubricSynth::class
+                RubricSynth::class,
+                IdCardSynth::class,
+                IdCardElementSynth::class,
             ]);
     }
 }

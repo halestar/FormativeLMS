@@ -4,15 +4,14 @@ namespace App\Models\SubjectMatter\Assessment;
 
 use App\Casts\Rubric;
 use App\Interfaces\HasRubric;
-use App\Models\CRUD\Level;
+use App\Traits\Leveable;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Laravel\Scout\Searchable;
 
 class CharacterSkill extends Model implements HasRubric
 {
-    use Searchable;
+    use Searchable, Leveable;
     public $timestamps = true;
     protected $table = "character_skills";
     protected $primaryKey = "id";
@@ -41,12 +40,6 @@ class CharacterSkill extends Model implements HasRubric
                 'name' => $this->name,
                 'description' => $this->description,
             ];
-    }
-
-    public function levels(): BelongsToMany
-    {
-        return $this->belongsToMany(Level::class, 'character_skill_levels',
-            'skill_id', 'level_id');
     }
 
     public function categories(): MorphToMany

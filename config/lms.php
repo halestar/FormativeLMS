@@ -21,11 +21,42 @@ return [
     'profile_thumbs_path' => env('PROFILE_THUMBS_PATH', 'thmb'),
     'campus_img_width' => env('CAMPUS_IMG_WIDTH', 400),
     'rubric_max_points' => env('RUBRIC_MAX_POINTS', 3),
+    'school_id_length' => env('SCHOOL_ID_LENGTH', 10),
     'prefs' =>
         [
             'defaults' =>
                 [
 
                 ],
-        ]
+        ],
+    'school_id_elements' =>
+    [
+        \App\Classes\IdCard\CustomText::class,
+        \App\Classes\IdCard\ParentChildren::class,
+        \App\Classes\IdCard\PersonName::class,
+        \App\Classes\IdCard\PersonPicture::class,
+        \App\Classes\IdCard\SchoolId::class,
+        \App\Classes\IdCard\SchoolIdBarcode::class,
+        \App\Classes\IdCard\SchoolYear::class,
+        \App\Classes\IdCard\StudentGrade::class,
+    ],
+    'fonts' =>
+    [
+        'Arial',
+        'Brush Script MT',
+        'Courier New',
+        'Garamond',
+        'Georgia',
+        'monospace',
+        'Tahoma',
+        'Times New Roman',
+        'Trebuchet MS',
+        'Verdana',
+    ],
+    'id_sizes' =>
+    [
+        'sm' => 400,
+        'md' => 600,
+        'lg' => 800,
+    ],
 ];

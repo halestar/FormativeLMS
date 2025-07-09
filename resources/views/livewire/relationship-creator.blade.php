@@ -15,7 +15,7 @@
                     </select>
                     <label class="input-group-text">
                         {!! __('common.to') !!} &nbsp;
-                        <a href="{{ route('people.show', ['person' => $editing->id]) }}" target="_new">
+                        <a href="{{ route('people.show', ['person' => $editing->school_id]) }}" target="_new">
                             {{ $editing->name }}
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </a>
@@ -96,7 +96,7 @@
                                 <li
                                     class="list-group-item list-group-item-action"
                                     wire:key="{{ $suggestion->id }}"
-                                    wire:click="linkTarget({{ $suggestion->id }})"
+                                    wire:click="linkTarget({{ $suggestion->school_id }})"
                                 >
                                     <div class="row">
                                         <div class="col-md-2">
@@ -171,7 +171,7 @@
                     <button
                         type="button"
                         class="btn btn-primary btn-sm"
-                        wire:click="setEditing({{ $relation->id }})"
+                        wire:click="setEditing({{ $relation->school_id }})"
                     ><i class="fa fa-edit"></i></button>
                     <button
                         type="button"

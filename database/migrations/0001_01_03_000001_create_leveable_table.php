@@ -11,9 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('character_skill_levels', function (Blueprint $table) {
-            $table->foreignId('skill_id')->constrained('character_skills')->onDelete('cascade');
-            $table->foreignId('level_id')->constrained('crud_levels')->onDelete('cascade');
+        Schema::create('leveables', function (Blueprint $table) {
+            $table->foreignId('level_id')->constrained('crud_levels')->cascadeOnDelete();
+            $table->bigInteger('leveable_id');
+            $table->string('leveable_type');
+            $table->primary(['level_id', 'leveable_id', 'leveable_type']);
         });
     }
 
@@ -22,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('character_skill_levels');
+        Schema::dropIfExists('leveable');
     }
 };

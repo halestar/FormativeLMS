@@ -4,7 +4,6 @@ namespace App\Livewire;
 
 use App\Models\People\Person;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Log;
 use Livewire\Component;
 
 class RelationshipCreator extends Component
@@ -41,7 +40,7 @@ class RelationshipCreator extends Component
 
     public function linkTarget(Person $person)
     {
-        $this->to_person_id = $person->id;
+        $this->to_person_id = $person->school_id;
         $this->to_person = Person::find($this->to_person_id);
         $this->relation_search = "";
     }

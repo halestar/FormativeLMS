@@ -60,10 +60,16 @@ class Term extends Model
         return Cache::rememberForever('current-term-' . $campus->id, function() use ($campus)
             {
                 $now = date('Y-m-d');
-                return Term::whereDate('term_start', '<=', $now)
+                $term = Term::whereDate('term_start', '<=', $now)
                     ->whereDate('term_end', '>=', $now)
                     ->where('campus_id', $campus->id)
                     ->first();
+                //if not, return the latest term
+                if(!$term)
+                    $term = Term::where('campus_id', $campus->id)
+                        ->orderByDesc('term_end')
+                        ->first();
+                return $term;
             });
     }
 

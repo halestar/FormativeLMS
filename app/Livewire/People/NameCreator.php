@@ -4,7 +4,7 @@ namespace App\Livewire\People;
 
 use App\Classes\NameConstructor;
 use App\Classes\NameToken;
-use App\Classes\SchoolSettings;
+use App\Classes\Settings\SchoolSettings;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use Livewire\Component;

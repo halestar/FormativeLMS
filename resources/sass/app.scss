@@ -15,10 +15,8 @@ $breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/
 @import 'schedule';
 @import 'school_layout';
 
-.border-dotted
-{
-    border-style: dotted;
-}
+
+
 
 .count-message {
     margin-top: -20px;
@@ -124,6 +122,32 @@ select[multiple]
     font-size: 0.8em;
     background-color: white;
     color: black;
+}
+
+//border addons
+.border-dotted
+{
+    border-style: dotted;
+}
+$pos-values: ("top": top, "bottom": bottom, "start": left, "end": right);
+@each $name, $pos in $pos-values
+{
+    .border-#{$name}-dotted
+    {
+        border-#{$pos}-style: dotted !important;
+    }
+
+    .border-#{$name}-dashed
+    {
+        border-#{$pos}-style: dashed !important;
+    }
+    @each $width, $pxWidth in $border-widths
+    {
+        .border-#{$name}-#{$width}
+        {
+            border-#{$pos}-width: $pxWidth !important;
+        }
+    }
 }
 
 // Additional Mixins

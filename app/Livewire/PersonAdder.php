@@ -42,13 +42,14 @@ class PersonAdder extends Component
         $newPerson->last = $this->last;
         $newPerson->email = $this->email;
         $newPerson->save();
-        return redirect(route('people.show', ['person' => $newPerson->id]));
+        return redirect(route('people.show', ['person' => $newPerson->school_id]));
     }
 
     public function showPerson($person_id)
     {
         return redirect(route('people.show', ['person' => $person_id]));
     }
+
     public function render()
     {
         $suggestedPeople = null;

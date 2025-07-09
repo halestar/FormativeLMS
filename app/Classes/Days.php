@@ -2,6 +2,8 @@
 
 namespace App\Classes;
 
+use App\Classes\Settings\SchoolSettings;
+
 class Days
 {
     public const MONDAY = 1;

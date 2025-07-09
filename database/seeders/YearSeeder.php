@@ -28,7 +28,7 @@ class YearSeeder extends Seeder
                         'year_id' => $year->id,
                         'label' => 'Spring',
                         'term_start' => $year->year_end->format('Y') . "-01-01",
-                        'term_end' => $year->year_end->format('Y') . "-06-10",
+                        'term_end' => $year->year_end->format('Y-m-d'),
                     ]);
         }
     }

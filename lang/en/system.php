@@ -12,6 +12,8 @@ return
         'menu.rooms' => 'Buildings & Rooms',
 	    'menu.school.directory' => 'School Directory',
 	    'menu.school.administration' => 'School Administration',
+        'menu.id' => 'Manage School Ids',
+        'menu.people' => 'People',
         'menu.classes' => 'Class Management',
         'menu.classes.enrollment.general' => 'General Class Enrollment',
         'menu.classes.enrollment.student' => 'Student Schedule Builder',

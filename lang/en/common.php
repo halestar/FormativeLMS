@@ -76,4 +76,8 @@ return [
     'results.no.found' => 'No Results Found',
     'active' => 'Active',
     'inactive' => 'Inactive',
+    'import' => 'Import',
+
+    'px' => 'px',
+    'em' => 'em',
 ];

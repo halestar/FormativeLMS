@@ -57,11 +57,11 @@ class PersonController extends Controller
     public function edit(Person $person)
     {
         Gate::authorize('edit', $person);
-        $breadcrumb = [ __('people.profile.view') => route('people.show', ['person' => $person->id]), __('people.profile.edit') => "#" ];
+        $breadcrumb = [ __('people.profile.view') => route('people.show', ['person' => $person->school_id]), __('people.profile.edit') => "#" ];
         $self = Auth::user();
         $isSelf = $person->id == $self->id;
         if($isSelf)
-            $breadcrumb = [ __('people.profile.mine') => route('people.show', ['person' => $person->id]), __('people.profile.edit') => "#" ];
+            $breadcrumb = [ __('people.profile.mine') => route('people.show', ['person' => $person->school_id]), __('people.profile.edit') => "#" ];
         return view('people.edit', compact('person', 'breadcrumb', 'self', 'isSelf'));
     }
 
@@ -70,7 +70,7 @@ class PersonController extends Controller
         Gate::authorize('edit', $person);
         $person->fill($request->all());
         $person->save();
-        return redirect(route('people.show', ['person' => $person->id]))
+        return redirect(route('people.show', ['person' => $person->school_id]))
             ->with('success-status', __('people.registered.updated'));
     }
 
@@ -82,7 +82,7 @@ class PersonController extends Controller
         ]);
         $person->portrait_url = $request->file('portrait');
         $person->save();
-        return redirect(route('people.edit', ['person' => $person->id]))
+        return redirect(route('people.edit', ['person' => $person->school_id]))
             ->with('success-status', __('people.registered.updated'));
     }
 
@@ -94,14 +94,14 @@ class PersonController extends Controller
         foreach($existingFields as $field)
             $values[$field->fieldId] = $request->input($field->fieldId);
         $person->schoolRoles()->updateExistingPivot($role->id, ['field_values' => json_encode($values)]);
-        return redirect(route('people.edit', ['person' => $person->id]))
+        return redirect(route('people.edit', ['person' => $person->school_id]))
             ->with('success-status', __('people.record.updated'));
     }
     public function deletePortrait(Request $request, Person $person)
     {
         Gate::authorize('edit', $person);
         $person->portrait_url = null;
-        return redirect(route('people.edit', ['person' => $person->id]));
+        return redirect(route('people.edit', ['person' => $person->school_id]));
     }
 
     public function roleFields()

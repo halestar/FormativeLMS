@@ -1,7 +1,10 @@
 <?php
 
-namespace App\Classes;
+namespace App\Classes\Settings;
 
+use App\Classes\Days;
+use App\Classes\NameConstructor;
+use App\Classes\NameToken;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 

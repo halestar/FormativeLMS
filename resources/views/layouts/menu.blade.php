@@ -11,10 +11,18 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav me-auto">
                 @auth
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('people.index') }}" >
-                            {{ __('system.menu.school.directory') }}
+                    <li class="nav-item dropdown">
+                        <a id="peopleAdminDD" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            {{ __('system.menu.people') }}
                         </a>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="schoolAdminDD">
+                            <a class="dropdown-item" href="{{ route('people.school-ids.show') }}">
+                                {{ __('people.id.mine') }}
+                            </a>
+                            <a class="dropdown-item" href="{{ route('people.index') }}">
+                                {{ __('system.menu.school.directory') }}
+                            </a>
+                        </div>
                     </li>
                     @canany(['locations.campuses', 'locations.years', 'locations.buildings', 'subjects.subjects',
                         'subjects.courses', 'subjects.classes', 'school.tracker.admin'])
@@ -110,7 +118,7 @@
                                     </a>
                                 @endcan
                                 @can('school')
-                                    <a class="dropdown-item" href="{{ route('school.settings') }}">
+                                    <a class="dropdown-item" href="{{ route('settings.school') }}">
                                         {{ __('system.menu.school.settings') }}
                                     </a>
                                 @endcan
@@ -123,7 +131,7 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDD">
-                            <a class="dropdown-item" href="{{ route('people.show', ['person' => Auth::user()->id]) }}">
+                            <a class="dropdown-item" href="{{ route('people.show', ['person' => Auth::user()->school_id]) }}">
                                 {{ __('people.profile.mine') }}
                             </a>
                             @can('settings.permissions.view')

@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link rel="icon" href="https://storage.googleapis.com/deep-citizen-425500-e0.appspot.com/cms/krTY3jXltMsvfKcCgM5ZB7rXegNfoB70hGgV3ce6.ico"/>
+    <link rel="icon" href="https://dev.kalinec.net/storage/cms/qwo7N9rHAFb0JiCJPvavXYzHn2Vz9T0F5ap8I4GV.ico"/>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">

@@ -33,6 +33,7 @@ class AdminSeeder extends Seeder
                 'email_verified_at' => now(),
                 'remember_token' => Str::random(10),
                 'portrait_url' => 'https://dev.kalinec.net/storage/cms/TE2rVueMTcPsC6SlC5lLHjW0ljbyfYJUZBAu422O.png',
+                'school_id' => 1,
             ]);
         $admin->assignRole(SchoolRoles::$ADMIN);
         $admin->assignRole(SchoolRoles::$EMPLOYEE);
@@ -53,6 +54,7 @@ class AdminSeeder extends Seeder
                 'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/2.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/2.jpg',
+                'school_id' => 2,
             ]);
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
         $staff->assignRole(SchoolRoles::$STAFF);
@@ -76,6 +78,7 @@ class AdminSeeder extends Seeder
                 'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/3.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/3.jpg',
+                'school_id' => 3,
             ]);
         $faculty->assignRole(SchoolRoles::$FACULTY);
         $faculty->assignRole(SchoolRoles::$EMPLOYEE);
@@ -94,6 +97,7 @@ class AdminSeeder extends Seeder
                 'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/4.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/4.jpg',
+                'school_id' => 4,
             ]);
         $coach->assignRole(SchoolRoles::$COACH);
         $coach->assignRole(SchoolRoles::$EMPLOYEE);
@@ -120,6 +124,7 @@ class AdminSeeder extends Seeder
                 'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/5.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/5.jpg',
+                'school_id' => 5,
             ]);
         $student->assignRole(SchoolRoles::$STUDENT);
         //to this student, we assign a student role of a 9th grader at the HS campus
@@ -145,6 +150,7 @@ class AdminSeeder extends Seeder
                 'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/6.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/6.jpg',
+                'school_id' => 6,
             ]);
         $parent->assignRole(SchoolRoles::$PARENT);
         //next, we assign the bi-directinal child-parent relationship between the parent and child accounts.

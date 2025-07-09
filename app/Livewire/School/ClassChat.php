@@ -2,7 +2,7 @@
 
 namespace App\Livewire\School;
 
-use App\Classes\SchoolSettings;
+use App\Classes\Settings\SchoolSettings;
 use App\Events\NewClassMessage;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;

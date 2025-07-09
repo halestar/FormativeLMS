@@ -25,7 +25,7 @@
                     @if($person->isEmployee())
                         <h6>
                             <div>
-                                <strong class="me-2">Campuses:</strong> {{ $person->employeeCampuses->pluck('name')->join(', ') }}
+                                <strong class="me-2">{{ trans_choice('locations.campus',2) }}:</strong> {{ $person->employeeCampuses->pluck('name')->join(', ') }}
                             </div>
                         </h6>
                     @endif
@@ -54,6 +54,12 @@
                             </div>
                         </h6>
                     @endif
+                    <h6>
+                        <div>
+                            <strong class="me-2">{{ __('people.profile.school_id') }}:</strong>
+                            {{ $person->school_id }}
+                        </div>
+                    </h6>
                     <ul class="nav nav-tabs mt-auto" id="profile-tab" role="tablist">
                         <li class="nav-item">
                             <a
@@ -105,7 +111,7 @@
             </div>
             @can('edit', $person)
             <div class="col-md-2">
-                <a type="button" class="btn btn-secondary profile-edit-btn" href="{{ route('people.edit', ['person' => $person->id]) }}">{{ __('people.profile.edit') }}</a>
+                <a type="button" class="btn btn-secondary profile-edit-btn" href="{{ route('people.edit', ['person' => $person->school_id]) }}">{{ __('people.profile.edit') }}</a>
             </div>
             @endcan
         </div>
@@ -114,7 +120,7 @@
                 <div class="profile-work">
                     @if($isSelf)
                     <p>{{ __('people.profile.links.groups.settings') }}</p>
-                    <a href="">Link 2</a><br/>
+                    <a href="{{ route('people.school-ids.show') }}">{{ __('people.id.mine') }}</a><br/>
                     <a href="">Link 3</a><br/>
                     @endif
                     <p>Link Group 2</p>
@@ -219,7 +225,7 @@
                                             {{ ($relation->personal->relationship? $relation->personal->relationship->name: "?") . " " . __('common.to') }}
                                         </label>
                                         <span>
-                                            <a href="{{ route('people.show', ['person' => $relation->id]) }}">
+                                            <a href="{{ route('people.show', ['person' => $relation->school_id]) }}">
                                                 {{ $relation->name }}
                                             </a>
                                         </span>

@@ -11,7 +11,7 @@
                         alt="{{ __('people.profile.image') }}"
                     />
                     @if(!$isSelf || $self->canEditOwnField('portrait'))
-                        <form id="portrait_form" action="{{ route('people.update.portrait', ['person' => $person->id]) }}" method="POST" enctype="multipart/form-data">
+                        <form id="portrait_form" action="{{ route('people.update.portrait', ['person' => $person->school_id]) }}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="file btn btn-lg btn-dark">
                                 {{ __('people.profile.image.update') }}
@@ -21,7 +21,7 @@
                         @if($person->hasPortrait())
                         <button
                             class="remove btn btn-lg btn-danger"
-                            onclick="confirmDelete('{{ __('people.profile.image.remove.confirm') }}', '{{ route('people.delete.portrait', ['person' => $person->id]) }}')"
+                            onclick="confirmDelete('{{ __('people.profile.image.remove.confirm') }}', '{{ route('people.delete.portrait', ['person' => $person->school_id]) }}')"
                         >
                             {{ __('people.profile.image.remove') }}
                         </button>
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="col-md-2">
-                <a type="button" class="btn btn-danger profile-edit-btn" href="{{ route('people.show', ['person' => $person->id]) }}">{{ __('people.profile.editing') }}</a>
+                <a type="button" class="btn btn-danger profile-edit-btn" href="{{ route('people.show', ['person' => $person->school_id]) }}">{{ __('people.profile.editing') }}</a>
             </div>
         </div>
         <div class="row mt-3">
@@ -123,7 +123,7 @@
                         aria-labelledby="tab-basic"
                         tabindex="0"
                     >
-                        <form action="{{ route('people.update.basic', ['person' => $person->id]) }}" method="POST">
+                        <form action="{{ route('people.update.basic', ['person' => $person->school_id]) }}" method="POST">
                             @csrf
                             @method('PUT')
                             <ul class="list-group">
@@ -237,7 +237,7 @@
                                 id="tab-pane-role-{{ $role->id }}" role="tabpanel" aria-labelledby="tab-role-{{ $role->id }}"
                                 tabindex="{{ $loop->iteration + 10 }}"
                             >
-                                <form action="{{ route('people.roles.fields.update', ['person' => $person->id, 'role' => $role->id]) }}" method="POST">
+                                <form action="{{ route('people.roles.fields.update', ['person' => $person->school_id, 'role' => $role->id]) }}" method="POST">
                                     @csrf
                                     @method('PUT')
                                     <ul class="list-group my-3">

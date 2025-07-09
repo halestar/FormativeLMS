@@ -52,13 +52,13 @@
                         <a
                             role="button"
                             class="btn btn-primary"
-                            href="{{ route('people.show', ['person' => $person->id]) }}"
+                            href="{{ route('people.show', ['person' => $person->school_id]) }}"
                         ><i class="fa fa-eye"></i></a>
                         @can('update', $person)
                             <a
                                 role="button"
                                 class="btn btn-danger"
-                                href="{{ route('people.edit', ['person' => $person->id]) }}"
+                                href="{{ route('people.edit', ['person' => $person->school_id]) }}"
                             ><i class="fa fa-edit"></i></a>
                         @endcan
                     </div>

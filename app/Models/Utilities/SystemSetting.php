@@ -11,7 +11,7 @@ class SystemSetting extends Model
     public $incrementing = false;
     public $timestamps = false;
 
-    public function casts()
+    protected function casts()
     {
         return [
             'value' => 'array',

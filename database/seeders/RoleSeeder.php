@@ -9,16 +9,28 @@ class RoleSeeder extends Seeder
 {
     private array $baseRolePermissions =
         [
-            "DB Editor" => ['people.assign.roles', 'people.create', 'people.delete', 'people.edit', 'people.merge', 'people.view', 'school'],
+            "DB Editor" =>
+                [
+                    'people.assign.roles', 'people.create', 'people.delete',
+                    'people.edit', 'people.merge', 'people.view', 'school',
+                    'people.ids.manage',
+                ],
             "CRUD Editor" => ['crud'],
             "Impersonator" => [],
             "Web Designer" => [],
             "Role Editor" => [],
             "Permission Editor" => [],
             "Person Contact Editor" => [],
-            "Academic Manager" => ['subjects.subjects', 'subjects.courses', 'subjects.classes', 'classes.enrollment', 'school.tracker.admin'],
-            "Locations Manager" => ['locations.campuses', 'locations.years', 'locations.terms', 'locations.buildings',
-                'locations.areas', 'locations.rooms'],
+            "Academic Manager" =>
+                [
+                    'subjects.subjects', 'subjects.courses', 'subjects.classes', 'classes.enrollment',
+                    'school.tracker.admin'
+                ],
+            "Locations Manager" =>
+                [
+                    'locations.campuses', 'locations.years', 'locations.terms', 'locations.buildings',
+                    'locations.areas', 'locations.rooms'
+                ],
             "Schedule Manager" => ['locations.periods', 'locations.blocks', 'classes.enrollment'],
             "Student Tracker" => ['school.tracker'],
             "Skills Administrator" => ['subjects.skills'],

@@ -3,8 +3,7 @@
 namespace App\Models\CRUD;
 
 use App\Models\Locations\Campus;
-use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 class Level extends CrudItem
 {
@@ -27,14 +26,10 @@ class Level extends CrudItem
         return trans_choice('crud.level', 2);
     }
 
-    public function campuses(): BelongsToMany
+    public function campuses(): MorphToMany
     {
-        return $this->belongsToMany(Campus::class, 'campuses_levels', 'level_id', 'campus_id');
+        return $this->morphedByMany(Campus::class, 'leveable', 'leveables');
     }
 
-    public function skills(): BelongsToMany
-    {
-        return $this->belongsToMany(KnowledgeSkill::class, 'knowledge_skill_levels', 'level_id', 'skill_id');
-    }
 }
 

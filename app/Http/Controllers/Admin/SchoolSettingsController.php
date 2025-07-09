@@ -3,7 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Classes\Days;
-use App\Classes\SchoolSettings;
+use App\Classes\Settings\IdSettings;
+use App\Classes\Settings\SchoolSettings;
 use App\Http\Controllers\Controller;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
@@ -44,7 +45,8 @@ class SchoolSettingsController extends Controller
             ->where('model_has_roles.role_id', $parentRole->id)
             ->inRandomOrder()
             ->first();
-        return view('admin.school.show', compact('schoolSettings', 'breadcrumb', 'studentRole', 'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole'));
+        $idSettings = IdSettings::instance();
+        return view('admin.school.show', compact('schoolSettings', 'breadcrumb', 'studentRole', 'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole', 'idSettings'));
     }
 
     public function update(Request $request)
@@ -63,7 +65,7 @@ class SchoolSettingsController extends Controller
         $settings->startTime = $data['start_time'];
         $settings->endTime = $data['end_time'];
         $settings->save();
-        return redirect()->route('school.settings')->with('success-status', __('system.settings.update.success'));
+        return redirect()->route('settings.school')->with('success-status', __('system.settings.update.success'));
     }
 
     public function updateClasses(Request $request)
@@ -77,7 +79,7 @@ class SchoolSettingsController extends Controller
         $settings->max_msg = $data['max_msg'];
         $settings->year_messages = $data['year_messages'];
         $settings->save();
-        return redirect()->route('school.settings')->with('success-status', __('system.settings.update.success'));
+        return redirect()->route('settings.school')->with('success-status', __('system.settings.update.success'));
     }
 
     public function nameCreator(SchoolRoles $role)
@@ -89,5 +91,22 @@ class SchoolSettingsController extends Controller
 
             ];
         return view('admin.school.names', compact('role', 'breadcrumb'));
+    }
+
+    public function updateId(Request $request)
+    {
+        $idSettings = IdSettings::instance();
+        $data = $request->validate([
+            'id_strategy' => ['required', Rule::in(
+                [
+                    IdSettings::ID_STRATEGY_GLOBAL,
+                    IdSettings::ID_STRATEGY_ROLES,
+                    IdSettings::ID_STRATEGY_CAMPUSES,
+                    IdSettings::ID_STRATEGY_BOTH,
+                ])],
+        ], static::errors());
+        $idSettings->idStrategy = $data['id_strategy'];
+        $idSettings->save();
+        return redirect()->route('settings.school')->with('success-status', __('system.settings.update.success'));
     }
 }

@@ -35,6 +35,7 @@ class PersonFactory extends Factory
             'password' => Hash::make(fake()->password(20, 30)),
             'email_verified_at' => now(),
             'remember_token' => Str::random(10),
+            'school_id' => hrtime(true),
         ];
     }
 
