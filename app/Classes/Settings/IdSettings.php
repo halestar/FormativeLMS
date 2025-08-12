@@ -3,6 +3,7 @@
 namespace App\Classes\Settings;
 
 use App\Casts\IdCard;
+use App\Classes\Days;
 use App\Models\Locations\Campus;
 use App\Models\Utilities\SchoolRoles;
 use App\Models\Utilities\SystemSetting;
@@ -14,49 +15,21 @@ class IdSettings extends SystemSetting
     public const ID_STRATEGY_ROLES = "roles";
     public const ID_STRATEGY_CAMPUSES = "campuses";
     public const ID_STRATEGY_BOTH = "both";
-    protected $table = "system_settings";
-    private static string $key = "school-id-settings";
-    private static ?IdSettings $instance = null;
-    public $timestamps = false;
 
-    public static function instance(): IdSettings
-    {
-        if(self::$instance === null)
-            self::$instance = IdSettings::find(self::$key);
-        if(self::$instance === null)
-        {
-            //in this case, there's no data, so make an empty space
-            $setting = new IdSettings();
-            $setting->name = self::$key;
-            $setting->value = [];
-            $setting->save();
-            self::$instance = $setting;
-        }
-        return self::$instance;
-    }
+    protected static string $settingKey = "school-id-settings";
 
-    private function updateValue(string $values, string $key, mixed $value)
-    {
-        $data = json_decode($values, true);
-        $data[$key] = $value;
-        return ['value' => json_encode($data)];
-    }
-
-    private function getValue(string $values, string $key, mixed $default = null)
-    {
-        $data = json_decode($values, true);
-        return $data[$key] ?? $default;
-    }
+	protected static function defaultValue(): array
+	{
+		return
+			[
+				"id_strategy" => IdSettings::ID_STRATEGY_GLOBAL,
+				"global_id" => new IdCard(),
+			];
+	}
 
     public function idStrategy(): Attribute
     {
-        return Attribute::make
-        (
-            get: fn(mixed $value, array $attributes) =>
-                $this->getValue($attributes['value'], 'id_strategy', self::ID_STRATEGY_GLOBAL),
-            set: fn(mixed $value, array $attributes) =>
-                $this->updateValue($attributes['value'], 'id_strategy', $value),
-        );
+	    return $this->basicProperty('id_strategy');
     }
 
     public function getGlobalId(): idCard

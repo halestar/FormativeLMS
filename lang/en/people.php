@@ -198,6 +198,7 @@ return
     'id.barcode.fs' => 'Barcode Text Size',
     'id.barcode.ff' => 'Barcode Text Font',
     'id.barcode.fc' => 'Barcode Text Color',
+	'id.strategy' => 'School ID Strategy',
 
 
 

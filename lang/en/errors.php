@@ -48,5 +48,10 @@ return
         'skills.knowledge.levels' => 'You must select at least one level that this skill applies to.',
         'skills.knowledge.description' => 'You must enter a description for this skill.',
         'skills.knowledge.category_id' => 'You must select a category to link.',
-
+	    'auth.password' => 'The provided password is incorrect.',
+	    'auth.account' => 'There is a problem with your account. Please contact your administrator.',
+	    'auth.locked' => 'This user is locked out for :time',
+	    'auth.locked.admin' => 'This user is locked out by the administrator.',
+	    'auth.verification.timeout' => 'The verification code has expired',
+	    'auth.verification.incorrect' => 'That is not the correct verification code, please try again.',
     ];

@@ -27,9 +27,9 @@ class FacultyClassChat extends Component
     public SchoolSettings $schoolSettings;
     public int $selectedSessionId;
 
-    public function mount(int $selectedSessionId = null, string $size = "", int $selectedStudentId = null)
+    public function mount(SchoolSettings $settings, int $selectedSessionId = null, string $size = "", int $selectedStudentId = null)
     {
-        $this->schoolSettings = SchoolSettings::instance();
+        $this->schoolSettings = $settings;
         $selectedStudent = null;
         if($selectedStudentId)
             $selectedStudent = StudentRecord::find($selectedStudentId);

@@ -33,7 +33,7 @@ class StudentClassChat extends Component
 
     public function mount(string $size = "", int $selectedSessionId = null)
     {
-        $this->schoolSettings = SchoolSettings::instance();
+        $this->schoolSettings = app(SchoolSettings::class);
         $selectedSession = null;
         if($selectedSessionId)
             $selectedSession = ClassSession::find($selectedSessionId);

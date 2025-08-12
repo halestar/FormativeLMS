@@ -121,7 +121,9 @@
                     @if($isSelf)
                     <p>{{ __('people.profile.links.groups.settings') }}</p>
                     <a href="{{ route('people.school-ids.show') }}">{{ __('people.id.mine') }}</a><br/>
-                    <a href="">Link 3</a><br/>
+                    @if($person->auth_driver && $person->auth_driver->canResetPassword())
+                    <a href="{{ route('people.password') }}">{{ __('settings.auth.password.change') }}</a><br/>
+                    @endif
                     @endif
                     <p>Link Group 2</p>
                     <a href="">Link 1</a><br/>

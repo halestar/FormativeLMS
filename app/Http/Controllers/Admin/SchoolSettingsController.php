@@ -3,21 +3,18 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Classes\Days;
+use App\Classes\Settings\AuthSettings;
 use App\Classes\Settings\IdSettings;
 use App\Classes\Settings\SchoolSettings;
 use App\Http\Controllers\Controller;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Validation\Rule;
 
-class SchoolSettingsController extends Controller
+class SchoolSettingsController extends Controller implements HasMiddleware
 {
-    public function __construct()
-    {
-        $this->middleware(['auth', 'can:school']);
-    }
-
     private static function errors(): array
     {
         return [
@@ -28,7 +25,6 @@ class SchoolSettingsController extends Controller
     }
     public function show()
     {
-        $schoolSettings = SchoolSettings::instance();
         $breadcrumb = [ __('system.menu.school.settings') => "#" ];
         $studentRole = SchoolRoles::findByName(SchoolRoles::$STUDENT);
         $sampleStudent = Person::join('model_has_roles', 'model_has_roles.model_id', '=', 'people.id')
@@ -45,18 +41,18 @@ class SchoolSettingsController extends Controller
             ->where('model_has_roles.role_id', $parentRole->id)
             ->inRandomOrder()
             ->first();
-        $idSettings = IdSettings::instance();
-        return view('admin.school.show', compact('schoolSettings', 'breadcrumb', 'studentRole', 'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole', 'idSettings'));
+        return view('admin.school.show',
+	        compact('breadcrumb', 'studentRole',
+		        'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole'));
     }
 
-    public function update(Request $request)
+    public function update(Request $request, SchoolSettings $settings)
     {
         $data = $request->validate([
             'days' => 'required|array|min:1',
             'start_time' => 'required|date_format:H:i',
             'end_time' => 'required|date_format:H:i',
         ], static::errors());
-        $settings = SchoolSettings::instance();
         //update days
         $days = [];
         foreach($data['days'] as $dayId)
@@ -68,13 +64,12 @@ class SchoolSettingsController extends Controller
         return redirect()->route('settings.school')->with('success-status', __('system.settings.update.success'));
     }
 
-    public function updateClasses(Request $request)
+    public function updateClasses(Request $request, SchoolSettings $settings)
     {
         $data = $request->validate([
             'max_msg' => 'required|numeric|min:1',
             'year_messages' => ['required','numeric', Rule::in([1, 2])],
         ], static::errors());
-        $settings = SchoolSettings::instance();
         //update days
         $settings->max_msg = $data['max_msg'];
         $settings->year_messages = $data['year_messages'];
@@ -86,16 +81,15 @@ class SchoolSettingsController extends Controller
     {
         $breadcrumb =
             [
-                __('system.menu.school.settings') => route('school.settings'),
+                __('system.menu.school.settings') => route('settings.school'),
                 __('system.settings.names.title', ['role' => $role->name]) => '#',
 
             ];
         return view('admin.school.names', compact('role', 'breadcrumb'));
     }
 
-    public function updateId(Request $request)
+    public function updateId(Request $request, IdSettings $idSettings)
     {
-        $idSettings = IdSettings::instance();
         $data = $request->validate([
             'id_strategy' => ['required', Rule::in(
                 [
@@ -109,4 +103,22 @@ class SchoolSettingsController extends Controller
         $idSettings->save();
         return redirect()->route('settings.school')->with('success-status', __('system.settings.update.success'));
     }
+
+	public function updateAuth(Request $request, AuthSettings $settings)
+	{
+		$data = $request->validate([
+			'min_password_length' => 'required|numeric|min:8',
+		], static::errors());
+		$settings->min_password_length = $data['min_password_length'];
+		$settings->numbers = $request->has('numbers');
+		$settings->upper = $request->has('upper');
+		$settings->symbols = $request->has('symbols');
+		$settings->save();
+		return redirect()->route('settings.school')->with('success-status', __('system.settings.update.success'));
+	}
+
+	public static function middleware()
+	{
+		return ['auth', 'can:school'];
+	}
 }

@@ -7,18 +7,14 @@ use App\Models\Utilities\SchoolPermission;
 use App\Models\Utilities\SchoolRole;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\Rule;
 use Spatie\Permission\Models\Role;
 
-class RoleController extends Controller
+class RoleController extends Controller implements HasMiddleware
 {
-
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     private static function errors(): array
     {
@@ -129,4 +125,9 @@ class RoleController extends Controller
             $role->delete();
         return redirect()->route('settings.roles.index')->with('success-status', __('settings.role.deleted'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

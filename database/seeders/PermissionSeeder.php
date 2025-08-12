@@ -43,6 +43,7 @@ class PermissionSeeder extends Seeder
                     ['name' => 'people.assign.roles', 'description' => 'Ability to assign roles to users.'],
                     ['name' => 'people.roles.fields', 'description' => 'Ability to define special fields for roles'],
                     ['name' => 'people.ids.manage', 'description' => 'Ability to manage IDs for people in the system'],
+	                ['name' => 'people.password', 'description' => 'Ability to change user\'s passwords'],
                 ],
             'Locations' =>
                 [

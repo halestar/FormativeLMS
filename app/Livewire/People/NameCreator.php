@@ -11,7 +11,7 @@ use Livewire\Component;
 
 class NameCreator extends Component
 {
-
+	public SchoolSettings $settings;
     public SchoolRoles $role;
 
     public array $tokens;
@@ -24,15 +24,16 @@ class NameCreator extends Component
         $this->sampleName = $nConstructor->applyName($this->samplePerson);
     }
 
-    public function mount(SchoolRoles $role)
+    public function mount(SchoolRoles $role, SchoolSettings $settings)
     {
+		$this->settings = $settings;
         $this->role = $role;
         if($this->role->name == SchoolRoles::$STUDENT)
-            $nConstructor = SchoolSettings::instance()->studentName;
+            $nConstructor = $this->settings->studentName;
         elseif($this->role->name == SchoolRoles::$EMPLOYEE)
-            $nConstructor = SchoolSettings::instance()->employeeName;
+            $nConstructor = $this->settings->employeeName;
         else
-            $nConstructor = SchoolSettings::instance()->parentName;
+            $nConstructor = $this->settings->parentName;
         $this->tokens = $nConstructor->tokens;
         $this->samplePerson = Person::join('model_has_roles', 'model_has_roles.model_id', '=', 'people.id')
             ->where('model_has_roles.role_id', $this->role->id)
@@ -114,24 +115,23 @@ class NameCreator extends Component
     public function saveName()
     {
         $nConstructor = new NameConstructor($this->tokens);
-        $settings = SchoolSettings::instance();
         if($this->role->name == SchoolRoles::$STUDENT)
-            $settings->studentName = $nConstructor;
+	        $this->settings->studentName = $nConstructor;
         elseif($this->role->name == SchoolRoles::$EMPLOYEE)
-            $settings->employeeName = $nConstructor;
+	        $this->settings->employeeName = $nConstructor;
         else
-            $settings->parentName = $nConstructor;
-        $settings->save();
+	        $this->settings->parentName = $nConstructor;
+	    $this->settings->save();
     }
 
     public function resetName()
     {
         if($this->role->name == SchoolRoles::$STUDENT)
-            $nConstructor = SchoolSettings::instance()->studentName;
+            $nConstructor = $this->settings->studentName;
         elseif($this->role->name == SchoolRoles::$EMPLOYEE)
-            $nConstructor = SchoolSettings::instance()->employeeName;
+            $nConstructor = $this->settings->employeeName;
         else
-            $nConstructor = SchoolSettings::instance()->parentName;
+            $nConstructor = $this->settings->parentName;
         $this->tokens = $nConstructor->tokens;
         $this->updateSampleName();
     }

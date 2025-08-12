@@ -110,6 +110,6 @@ class Days
 
     public static function schoolDaysOptions(): array
     {
-        return SchoolSettings::instance()->days;
+        return app(SchoolSettings::class)->days;
     }
 }

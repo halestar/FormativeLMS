@@ -9,6 +9,7 @@ use Carbon\Carbon;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\App;
 use Illuminate\View\Component;
 
 class ScheduleViewer extends Component
@@ -41,18 +42,18 @@ class ScheduleViewer extends Component
             $this->scheduleSources = collect([$scheduleSources]);
         $this->width = $width;
         $this->height = $height;
-        $settings = SchoolSettings::instance();
+        $settings = App::make(SchoolSettings::class);
         $this->start = Carbon::parse($settings->startTime);
         $this->end = Carbon::parse($settings->endTime)->addHour();
         $this->totalHours = $this->start->diffInHours($this->end) + 1;
-        $this->totalDays = count(SchoolSettings::instance()->days);
+        $this->totalDays = count($settings->days);
         //some calculations
         $this->bodyHeight = $this->height - $this->headerHeight;
         $this->hourHeight = (int)floor($this->bodyHeight / $this->totalHours);
         $this->hourWidth = (int)floor(($this->width /($this->totalDays + 1)));
         //next, we parse the schedule.
         $this->schedule = [];
-        foreach(SchoolSettings::instance()->days as $dayId => $dayName)
+        foreach($settings->days as $dayId => $dayName)
             $this->schedule[$dayId] = [];
         foreach($this->scheduleSources as $source)
         {
@@ -88,9 +89,10 @@ class ScheduleViewer extends Component
         //first, we check the day
         if(date('N') != $dayId)
             return false;
+	    $settings = App::make(SchoolSettings::class);
         // since we're in the right day, are we between the right times?
-        $start = Carbon::createFromTimeString(SchoolSettings::instance()->startTime);
-        $end = Carbon::createFromTimeString(SchoolSettings::instance()->endTime);
+        $start = Carbon::createFromTimeString($settings->startTime);
+        $end = Carbon::createFromTimeString($settings->endTime);
         $now = Carbon::now();
         $now = Carbon::createFromTimeString("10:15");
         return $now->between($start, $end);
@@ -100,7 +102,8 @@ class ScheduleViewer extends Component
     {
         $now = Carbon::now();
         $now = Carbon::createFromTimeString("10:15");
-        return floor(abs($this->hourHeight * $now->diffInHours(SchoolSettings::instance()->startTime))) - 1;
+	    $settings = App::make(SchoolSettings::class);
+        return floor(abs($this->hourHeight * $now->diffInHours($settings->startTime))) - 1;
     }
 
     public function getEventHeight(Period $period): int
@@ -110,7 +113,8 @@ class ScheduleViewer extends Component
 
     public function getEventTop(Period $period): int
     {
-        return floor(abs($this->hourHeight * $period->start->diffInHours(SchoolSettings::instance()->startTime))) - 1;
+	    $settings = App::make(SchoolSettings::class);
+        return floor(abs($this->hourHeight * $period->start->diffInHours($settings->startTime))) - 1;
     }
 
     /**

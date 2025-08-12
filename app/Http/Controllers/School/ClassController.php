@@ -8,15 +8,12 @@ use App\Models\SubjectMatter\Components\ClassMessage;
 use App\Notifications\ClassAlert;
 use App\Notifications\NewClassMessageNotification;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 
-class ClassController extends Controller
+class ClassController extends Controller implements HasMiddleware
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     public function show(ClassSession $classSession)
     {
@@ -96,4 +93,9 @@ class ClassController extends Controller
         }
         return view('school.class.messages', compact( 'breadcrumb', 'type', 'data'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

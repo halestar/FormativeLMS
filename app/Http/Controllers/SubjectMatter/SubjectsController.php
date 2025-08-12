@@ -7,20 +7,16 @@ use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
 use App\Models\SubjectMatter\Subject;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 
-class SubjectsController extends Controller
+class SubjectsController extends Controller implements HasMiddleware
 {
     private static function errors(): array
     {
         return [
             'name' => __('errors.subjects.name'),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function index(Campus $campus = null)
@@ -113,4 +109,9 @@ class SubjectsController extends Controller
         return redirect(route('subjects.subjects.index', ['campus' => $subject->campus->id]))
             ->with('success-status', __('subjects.subject.deleted'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

@@ -28,7 +28,7 @@ class AdminClassChat extends Component
 
     public function mount(int $selectedSessionId = null, string $size = "", int $selectedStudentId = null)
     {
-        $this->schoolSettings = SchoolSettings::instance();
+        $this->schoolSettings = app(SchoolSettings::class);
         $selectedSession = null;
         if($selectedSessionId)
             $selectedSession = ClassSession::find($selectedSessionId);

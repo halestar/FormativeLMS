@@ -8,8 +8,9 @@ use App\Models\SubjectMatter\Assessment\CharacterSkill;
 use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
 use App\Models\SubjectMatter\Assessment\SkillCategory;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 
-class SkillsController extends Controller
+class SkillsController extends Controller implements HasMiddleware
 {
     private static function errors(): array
     {
@@ -23,10 +24,6 @@ class SkillsController extends Controller
         ];
     }
 
-    public function __construct()
-    {
-        $this->middleware(['auth', 'permission:subjects.skills']);
-    }
     /**
      * Display a listing of the resource.
      */
@@ -247,4 +244,9 @@ class SkillsController extends Controller
             ];
         return view('subjects.skills.rubric', compact('breadcrumb', 'skill'));
     }
+
+	public static function middleware()
+	{
+		return ['auth', 'permission:subjects.skills'];
+	}
 }

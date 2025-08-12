@@ -32,9 +32,6 @@ class PersonFactory extends Factory
             'email' => fake()->userName() . config('lms.internal_email_suffix') ,
             'nick' => null,
             'dob' => fake()->dateTimeBetween('-18 years', 'now'),
-            'password' => Hash::make(fake()->password(20, 30)),
-            'email_verified_at' => now(),
-            'remember_token' => Str::random(10),
             'school_id' => hrtime(true),
         ];
     }
@@ -49,11 +46,22 @@ class PersonFactory extends Factory
         });
     }
 
+	/**
+	 * AUTHENTICATION FUNCTIONS
+	 */
+	public function password(string $password): Factory
+	{
+		return $this->afterCreating(function (Person $person) use ($password)
+		{
+			$authDriver = $person->auth_driver->setPassword($password);
+		});
+	}
+
     /**
      * EMPLOYEE FUNCTIONS
      */
 
-    public function faculty(): static
+    public function faculty(): Factory
     {
         return $this->afterCreating(function (Person $person)
                 {

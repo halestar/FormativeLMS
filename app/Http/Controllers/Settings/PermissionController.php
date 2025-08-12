@@ -5,11 +5,12 @@ namespace App\Http\Controllers\Settings;
 use App\Http\Controllers\Controller;
 use App\Models\Utilities\SchoolPermission;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\Rule;
 
-class PermissionController extends Controller
+class PermissionController extends Controller implements HasMiddleware
 {
 
     private static function errors(): array
@@ -19,11 +20,6 @@ class PermissionController extends Controller
             'category_id' => __('errors.permissions.category'),
             'description' => __('errors.permissions.description'),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function index()
@@ -111,4 +107,9 @@ class PermissionController extends Controller
         $permission->delete();
         return redirect()->route('settings.permissions.index')->with('success-status', __('settings.permission.deleted'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

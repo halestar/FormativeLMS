@@ -5,9 +5,10 @@ namespace App\Http\Controllers\Locations;
 use App\Http\Controllers\Controller;
 use App\Models\Locations\Building;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 
-class BuildingController extends Controller
+class BuildingController extends Controller implements HasMiddleware
 {
     private static function errors(): array
     {
@@ -15,11 +16,6 @@ class BuildingController extends Controller
             'name' => __('errors.buildings.name'),
             'areas' => __('errors.buildings.areas'),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function index()
@@ -116,4 +112,9 @@ class BuildingController extends Controller
         }
         return redirect(route('locations.buildings.index'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

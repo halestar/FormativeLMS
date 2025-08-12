@@ -7,8 +7,13 @@ use Illuminate\Support\Facades\Route;
 
 //Auth Routes
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
-Route::post('/login', [LoginController::class, 'login']);
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+//callback routes
+foreach(config('auth.drivers') as $driver)
+{
+	if(($driver['class'])::requiresRedirection())
+		Route::get("/auth/" . ($driver['class'])::driverName() . "/callback", [$driver['class'], 'callback']);
+}
 
 //auth pages
 Route::get('/home', [HomeController::class, 'index'])->name('home');

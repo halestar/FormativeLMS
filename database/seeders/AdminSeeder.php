@@ -29,15 +29,16 @@ class AdminSeeder extends Seeder
                 'email' => config('lms.superadmin_email'),
                 'nick' => null,
                 'dob' => "1969-06-09",
-                'password' => Hash::make(config('lms.superadmin_password')),
-                'email_verified_at' => now(),
-                'remember_token' => Str::random(10),
                 'portrait_url' => 'https://dev.kalinec.net/storage/cms/TE2rVueMTcPsC6SlC5lLHjW0ljbyfYJUZBAu422O.png',
                 'school_id' => 1,
+	            'auth_driver' => config('lms.superadmin_auth'),
             ]);
+		$admin->refresh();
         $admin->assignRole(SchoolRoles::$ADMIN);
         $admin->assignRole(SchoolRoles::$EMPLOYEE);
         $admin->assignRole(SchoolRoles::$STAFF);
+		if(config('lms.superadmin_auth') == "local")
+			$admin->auth_driver->setPassword(config('lms.superadmin_password'));
 
 
         //now we make some other fake people for testing.
@@ -49,19 +50,19 @@ class AdminSeeder extends Seeder
                 'email' => 'staff@kalinec.net',
                 'nick' => null,
                 'dob' => "1969-06-09",
-                'password' => Hash::make('staff'),
-                'email_verified_at' => now(),
-                'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/2.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/2.jpg',
                 'school_id' => 2,
+	            'auth_driver' => 'local',
             ]);
+	    $staff->refresh();
         $staff->assignRole(SchoolRoles::$EMPLOYEE);
         $staff->assignRole(SchoolRoles::$STAFF);
         $staff->assignRole("DB Editor");
         $staff->assignRole("Academic Manager");
         $staff->assignRole("Locations Manager");
         $staff->assignRole("Schedule Manager");
+	    $staff->auth_driver->setPassword('staff');
 
 
 
@@ -73,15 +74,15 @@ class AdminSeeder extends Seeder
                 'email' => 'faculty@kalinec.net',
                 'nick' => null,
                 'dob' => "1969-06-09",
-                'password' => Hash::make('faculty'),
-                'email_verified_at' => now(),
-                'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/3.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/3.jpg',
                 'school_id' => 3,
+	            'auth_driver' => 'local',
             ]);
+	    $faculty->refresh();
         $faculty->assignRole(SchoolRoles::$FACULTY);
         $faculty->assignRole(SchoolRoles::$EMPLOYEE);
+	    $faculty->auth_driver->setPassword('faculty');
 
 
         $coach = Person::create(
@@ -92,15 +93,15 @@ class AdminSeeder extends Seeder
                 'email' => 'coach@kalinec.net',
                 'nick' => null,
                 'dob' => "2010-06-09",
-                'password' => Hash::make('coach'),
-                'email_verified_at' => now(),
-                'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/4.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/4.jpg',
                 'school_id' => 4,
+	            'auth_driver' => 'local',
             ]);
+	    $coach->refresh();
         $coach->assignRole(SchoolRoles::$COACH);
         $coach->assignRole(SchoolRoles::$EMPLOYEE);
+	    $coach->auth_driver->setPassword('coach');
 
         //to the admin accounts, we add all the campuses
         foreach(Campus::all() as $campus)
@@ -119,14 +120,14 @@ class AdminSeeder extends Seeder
                 'email' => 'student@kalinec.net',
                 'nick' => null,
                 'dob' => "2010-06-09",
-                'password' => Hash::make('student'),
-                'email_verified_at' => now(),
-                'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/5.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/5.jpg',
                 'school_id' => 5,
+	            'auth_driver' => 'local',
             ]);
+	    $student->refresh();
         $student->assignRole(SchoolRoles::$STUDENT);
+	    $student->auth_driver->setPassword('student');
         //to this student, we assign a student role of a 9th grader at the HS campus
         $studentRecord = StudentRecord::create(
             [
@@ -145,14 +146,14 @@ class AdminSeeder extends Seeder
                 'email' => 'parent@kalinec.net',
                 'nick' => null,
                 'dob' => "2010-06-09",
-                'password' => Hash::make('parent'),
-                'email_verified_at' => now(),
-                'remember_token' => Str::random(10),
                 'portrait_url' => env('APP_URL').'/storage/idpics/6.jpg',
                 'thumbnail_url' => env('APP_URL').'/storage/idpics/6.jpg',
                 'school_id' => 6,
+	            'auth_driver' => 'local',
             ]);
+	    $parent->refresh();
         $parent->assignRole(SchoolRoles::$PARENT);
+	    $parent->auth_driver->setPassword('parent');
         //next, we assign the bi-directinal child-parent relationship between the parent and child accounts.
         $student->relationships()->attach($parent->id, ['relationship_id' => Relationship::CHILD]);
         $parent->relationships()->attach($student->id, ['relationship_id' => Relationship::PARENT]);

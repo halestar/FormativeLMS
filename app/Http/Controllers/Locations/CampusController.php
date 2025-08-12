@@ -5,10 +5,11 @@ namespace App\Http\Controllers\Locations;
 use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Validation\Rules\File;
 
-class CampusController extends Controller
+class CampusController extends Controller implements HasMiddleware
 {
 
     private static function errors(): array
@@ -18,11 +19,6 @@ class CampusController extends Controller
             'abbr' => __('errors.campuses.abbr'),
             'levels' => __('errors.campuses.levels'),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function index()
@@ -164,4 +160,9 @@ class CampusController extends Controller
         }
         return redirect(route('locations.campuses.index'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

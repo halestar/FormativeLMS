@@ -4,6 +4,7 @@ return [
     'internal_email_suffix' => env('INTERNAL_EMAIL_SUFFIX', '@kalinec.net'),
     'superadmin_email' => env('ADMIN_USERNAME', 'admin@kalinec.net'),
     'superadmin_password' => env('ADMIN_PASSWORD', 'admin'),
+	'superadmin_auth' => env('ADMIN_AUTH', 'local'),
     'google' =>
         [
             'project_id' => env('GOOGLE_CLOUD_PROJECT_ID'),
@@ -59,4 +60,6 @@ return [
         'md' => 600,
         'lg' => 800,
     ],
+	'auth_code_length' => 6,
+	'auth_code_timeout' => 10,
 ];

@@ -11,20 +11,16 @@ use App\Models\SubjectMatter\Course;
 use App\Models\SubjectMatter\SchoolClass;
 use App\Models\SubjectMatter\Subject;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 
-class SchoolClassController extends Controller
+class SchoolClassController extends Controller implements HasMiddleware
 {
     private static function errors(): array
     {
         return [
             'terms' => __('errors.classes.terms'),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function index(Request $request, ?Course $course = null)
@@ -113,4 +109,9 @@ class SchoolClassController extends Controller
         return redirect(route('subjects.classes.index', ['course' => $course_id]))
             ->with('success-status', __('subjects.class.deleted'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

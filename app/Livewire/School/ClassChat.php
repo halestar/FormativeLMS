@@ -28,7 +28,7 @@ class ClassChat extends Component
 
     public function mount(ClassSession $session, StudentRecord $student)
     {
-	    $this->schoolSettings = SchoolSettings::instance();
+	    $this->schoolSettings = app(SchoolSettings::class);
 		$this->maxMessages = $this->schoolSettings->max_msg;
         $this->session = $session;
         $this->student = $student;

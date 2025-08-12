@@ -6,9 +6,10 @@ use App\Http\Controllers\Controller;
 use App\Models\Locations\Building;
 use App\Models\Locations\Room;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 
-class RoomController extends Controller
+class RoomController extends Controller implements HasMiddleware
 {
 	private static function errors(): array
 	{
@@ -18,12 +19,6 @@ class RoomController extends Controller
 			'campuses' => __('errors.rooms.campuses'),
             'area_id' => __('errors.rooms.area'),
 		];
-	}
-
-
-	public function __construct()
-	{
-		$this->middleware('auth');
 	}
 
     public function create(Building $building = null)
@@ -105,5 +100,10 @@ class RoomController extends Controller
 		$room->campuses()->sync($sync);
 		return redirect(route('locations.rooms.edit', $room))
 			->with('success-status', __('locations.rooms.updated'));
+	}
+
+	public static function middleware()
+	{
+		return ['auth'];
 	}
 }

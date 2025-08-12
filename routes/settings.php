@@ -14,5 +14,6 @@ Route::get('/school/settings', [SchoolSettingsController::class, 'show'])->name(
 Route::patch('/school/settings/school', [SchoolSettingsController::class, 'update'])->name('school.update.school');
 Route::patch('/school/settings/classes', [SchoolSettingsController::class, 'updateClasses'])->name('school.update.classes');
 Route::patch('/school/settings/ids', [SchoolSettingsController::class, 'updateId'])->name('school.update.ids');
+Route::patch('/school/settings/auth', [SchoolSettingsController::class, 'updateAuth'])->name('school.update.auth');
 Route::get('/school/settings/name/{role}', [SchoolSettingsController::class, 'nameCreator'])->name('school.name');
 

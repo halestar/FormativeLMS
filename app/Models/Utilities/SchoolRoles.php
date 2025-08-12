@@ -5,10 +5,12 @@ namespace App\Models\Utilities;
 use App\Classes\RoleField;
 use App\Models\People\FieldPermission;
 use App\Models\People\RoleFields;
+use halestar\LaravelDropInCms\Models\Scopes\OrderByNameScope;
+use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Spatie\Permission\Models\Role;
-
+#[ScopedBy(OrderByNameScope::class)]
 class SchoolRoles extends Role
 {
     public static string $ADMIN = "Super Admin";

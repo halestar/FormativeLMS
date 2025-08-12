@@ -7,11 +7,12 @@ use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
 use App\Models\Schedules\Period;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rule;
 
-class PeriodController extends Controller
+class PeriodController extends Controller implements HasMiddleware
 {
     private static function errors(): array
     {
@@ -21,11 +22,6 @@ class PeriodController extends Controller
             'start' => __('errors.periods.abbr'),
             'end' => __('errors.periods.abbr'),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function create(Campus $campus)
@@ -109,4 +105,9 @@ class PeriodController extends Controller
         return view('locations.periods.mass', compact('campus', 'breadcrumb'));
 
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

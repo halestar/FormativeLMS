@@ -4,18 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Classes\SessionSettings;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 
-class HomeController extends Controller
+class HomeController extends Controller implements HasMiddleware
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     /**
      * Show the application dashboard.
@@ -45,4 +37,8 @@ class HomeController extends Controller
         return response()->json([], 200);
     }
 
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

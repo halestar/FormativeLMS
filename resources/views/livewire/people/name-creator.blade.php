@@ -57,10 +57,10 @@
     <div class="alert alert-info mb-3 d-flex justify-content-between align-items-center">
         <div class="display-6">{{ __('people.name.creator.sample') }}</div>
         <div class="display-6">{{ $sampleName }}</div>
-        <button type="button" class="btn btn-primary" wire:click="newSamplePerson()"></button>
+        <button type="button" class="btn btn-primary" wire:click="newSamplePerson()">{{ __('people.name.creator.random') }}</button>
     </div>
     <div class="row">
-        <button type="button" class="col mx-2 btn btn-primary" wire:click="saveName()">{{ __('people.name.creator.random') }}</button>
-        <button type="button" class="col mx-2 btn btn-secondary" wire:click="resetName()">{{ __('people.name.creator.random') }}</button>
+        <button type="button" class="col mx-2 btn btn-primary" wire:click="saveName()">{{ __('common.apply.changes') }}</button>
+        <button type="button" class="col mx-2 btn btn-secondary" wire:click="resetName()">{{ __('common.revert.changes') }}</button>
     </div>
 </div>

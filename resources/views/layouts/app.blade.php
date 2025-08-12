@@ -101,9 +101,17 @@
             </template>
         </div>
     </div>
+    @auth
     <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="#search" aria-hidden="true">
             <livewire:search />
     </div>
+    <script>
+        $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() })
+        @auth
+            window.sessionSettings = new SessionSettings('{{ Route::currentRouteName() }}');
+        @endauth
+    </script>
+    @endauth
     <template id="notification-template">
         <a class="dropdown-item notification" href="#">
             <div class="notification-header d-flex justify-content-between align-items-center">
@@ -113,12 +121,6 @@
             <div class="notification-body"></div>
         </a>
     </template>
-    <script>
-        $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() })
-        @auth
-            window.sessionSettings = new SessionSettings('{{ Route::currentRouteName() }}');
-        @endauth
-    </script>
     @stack('scripts')
 </body>
 </html>

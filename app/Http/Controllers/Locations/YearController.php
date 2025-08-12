@@ -6,9 +6,10 @@ use App\Http\Controllers\Controller;
 use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 
-class YearController extends Controller
+class YearController extends Controller implements HasMiddleware
 {
     private static function errors(): array
     {
@@ -35,11 +36,6 @@ class YearController extends Controller
                     'end' => $year->year_end->format(config('lms.date_format')),
                 ]),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function index()
@@ -124,4 +120,9 @@ class YearController extends Controller
         return redirect()->back()
             ->with('success-status', __('locations.terms.created'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

@@ -108,10 +108,7 @@
         <div class="row mt-3">
             <div class="col-md-4">
                 <div class="profile-work">
-                    <p>Link Group 2</p>
-                    <a href="">Link 1</a><br/>
-                    <a href="">Link 2</a><br/>
-                    <a href="">Link 3</a><br/>
+                    <livewire:auth.user-auth-manager :person="$person" />
                 </div>
             </div>
             <div class="col-md-6">

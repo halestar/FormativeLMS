@@ -15,7 +15,6 @@ return [
 
     'defaults' => [
         'guard' => env('AUTH_GUARD', 'web'),
-        'passwords' => env('AUTH_PASSWORD_BROKER', 'users'),
     ],
 
     /*
@@ -106,5 +105,35 @@ return [
     */
 
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
+
+	/*
+    |--------------------------------------------------------------------------
+    | Authentication Drivers
+    |--------------------------------------------------------------------------
+    |
+    | Here we define all the different drivers available for authentication. They're
+	| keyed by the name of the driver that will be stored in the people table under
+	| the auth_driver field.
+    |
+    */
+
+	'drivers' =>
+	[
+		'local' =>
+		[
+			'class' => \App\Classes\Auth\LocalAuthenticator::class,
+			//Max number of attempts per lockout_dey before user is locked out.
+			'max_attempts' => 5,
+			//How long, in minutes, to timeout the user for too many invalid tries
+			'lockout_timeout' => 1,
+			//Time period that the user must exceed max_attempts before lockout.
+			'lockout_decay' => 1,
+		],
+
+		'google' =>
+		[
+			'class' => \App\Classes\Auth\GoogleAuthenticator::class,
+		],
+	],
 
 ];

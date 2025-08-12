@@ -25,7 +25,7 @@ class IdCreator extends Component
     public array $imports;
     public string $importName;
 
-    public function mount(IdCard $schoolIdCard)
+    public function mount(IdCard $schoolIdCard, IdSettings $idSettings)
     {
         $this->idCard = $schoolIdCard;
         $this->originalCard = clone $schoolIdCard;
@@ -33,7 +33,6 @@ class IdCreator extends Component
         $this->viewingPerson = auth()->user();
         //create the import array
         $this->imports = [];
-        $idSettings = IdSettings::instance();
         //global
         if($idSettings->getGlobalId()->preview)
             $this->imports[trans_choice('people.id.global', 1)] = $idSettings->getGlobalId();

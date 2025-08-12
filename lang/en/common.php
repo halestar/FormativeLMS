@@ -80,4 +80,18 @@ return [
 
     'px' => 'px',
     'em' => 'em',
+	'next' => 'Next',
+	'prev' => 'Prev',
+	'previous' => 'Previous',
+	'apply' => 'Apply',
+	'apply.changes' => 'Apply Changes',
+	'cancel.changes' => 'Cancel Changes',
+	'revert.changes' => 'Revert Changes',
+	'revert' => 'Revert',
+	'assign' => 'Assign',
+	'change' => 'Change',
+	'locked' => 'Locked',
+	'unlocked' => 'Unlocked',
+	'lock' => 'Lock',
+	'unlock' => 'Unlock',
 ];

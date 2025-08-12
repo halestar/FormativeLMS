@@ -6,10 +6,12 @@ use App\Http\Controllers\Controller;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Log;
 
-class PersonController extends Controller
+class PersonController extends Controller implements HasMiddleware
 {
     private function errors(): array
     {
@@ -17,10 +19,6 @@ class PersonController extends Controller
         [
             'last' => __('people.profile.fields.last.error'),
         ];
-    }
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function index()
@@ -120,4 +118,19 @@ class PersonController extends Controller
             ];
         return view('people.permissions', compact('breadcrumb'));
     }
+
+	public function changeSelfPassword()
+	{
+		Gate::authorize('changeSelfPassword', Auth::user());
+		$breadcrumb =
+			[
+				"Change Password" => '#'
+			];
+		$person = Auth::user();
+		return view('people.password', compact('breadcrumb', 'person'));
+	}
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

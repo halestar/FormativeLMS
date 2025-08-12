@@ -63,6 +63,12 @@ function showClassMessageNotification(notification) {
     template.toast({autohide: true, delay: 5000}).toast('show');
 }
 
+function generatePassword()
+{
+    return Array(8).fill('123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz!@#$')
+        .map(x => x[Math.floor(crypto.getRandomValues(new Uint32Array(1))[0] / (0xffffffff + 1) * x.length)]).join('');
+}
+
 let TextCounter = (function()
 {
     function TextCounter(container, max_chars = 255, min_chars = -1)

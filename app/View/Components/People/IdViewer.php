@@ -14,12 +14,14 @@ class IdViewer extends Component
 {
     public Person $person;
     public ?IdCard $idCard;
+	public IdSettings $idSettings;
     public string $idWidth = "600";
     /**
      * Create a new component instance.
      */
-    public function __construct(Person $person = null, IdCard $idCard = null, string $size = "md")
+    public function __construct(IdSettings $idSettings, Person $person = null, IdCard $idCard = null, string $size = "md")
     {
+		$this->idSettings = $idSettings;
         $this->person = $person?? auth()->user();
         if($idCard)
             $this->idCard = $idCard;
@@ -27,20 +29,20 @@ class IdViewer extends Component
         {
             $this->idCard = null;
             //determine the card.
-            $idSettings = IdSettings::instance();
-            if($idSettings->idStrategy == IdSettings::ID_STRATEGY_GLOBAL)
-                $this->idCard = $idSettings->getGlobalId();
-            elseif($idSettings->idStrategy == IdSettings::ID_STRATEGY_ROLES)
+            if($this->idSettings->idStrategy == IdSettings::ID_STRATEGY_GLOBAL)
+                $this->idCard = $this->idSettings->getGlobalId();
+            elseif($this->idSettings->idStrategy == IdSettings::ID_STRATEGY_ROLES)
             {
                 if($this->person->isStudent())
-                    $this->idCard = $idSettings->getRoleId(SchoolRoles::StudentRole());
+                    $this->idCard = $this->idSettings->getRoleId(SchoolRoles::StudentRole());
                 elseif($this->person->isEmployee())
-                    $this->idCard = $idSettings->getRoleId(SchoolRoles::EmployeeRole());
+                    $this->idCard = $this->idSettings->getRoleId(SchoolRoles::EmployeeRole());
                 elseif($this->person->isParent())
-                    $this->idCard = $idSettings->getRoleId(SchoolRoles::ParentRole());
+                    $this->idCard = $this->idSettings->getRoleId(SchoolRoles::ParentRole());
             }
-            elseif($idSettings->idStrategy == IdSettings::ID_STRATEGY_CAMPUSES)
+            elseif($this->idSettings->idStrategy == IdSettings::ID_STRATEGY_CAMPUSES)
             {
+				$campus = null;
                 if($this->person->isStudent())
                     $campus = $this->person->student()->campus;
                 elseif($this->person->isEmployee())
@@ -54,10 +56,12 @@ class IdViewer extends Component
                         $campus = $student->campus;
                 }
                 if($campus)
-                    $this->idCard = $idSettings->getCampusId($campus);
+                    $this->idCard = $this->idSettings->getCampusId($campus);
             }
             else
             {
+				$campus = null;
+				$role = null;
                 if($this->person->isStudent())
                 {
                     $role = SchoolRoles::StudentRole();
@@ -76,7 +80,7 @@ class IdViewer extends Component
                         $campus = $student->campus;
                 }
                 if($campus && $role)
-                    $this->idCard = $idSettings->getRoleCampusId($role, $campus);
+                    $this->idCard = $this->idSettings->getRoleCampusId($role, $campus);
             }
         }
         $idSizes = config('lms.id_sizes', []);

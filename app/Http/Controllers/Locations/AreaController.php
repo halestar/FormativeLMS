@@ -5,14 +5,11 @@ namespace App\Http\Controllers\Locations;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\Locations\BuildingAreaResource;
 use App\Models\Locations\BuildingArea;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 
-class AreaController extends Controller
+class AreaController extends Controller implements HasMiddleware
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
     public function show(BuildingArea $area)
     {
         Gate::authorize('has-permission', 'locations.areas');
@@ -31,4 +28,9 @@ class AreaController extends Controller
             return response()->json([], 401);
         return new BuildingAreaResource($area);
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

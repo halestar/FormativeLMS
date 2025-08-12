@@ -7,9 +7,10 @@ use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 
 
-class StudentTrackerController extends Controller
+class StudentTrackerController extends Controller implements HasMiddleware
 {
     private static function errors(): array
     {
@@ -17,15 +18,6 @@ class StudentTrackerController extends Controller
             'person_id' => __('errors.school.student-tracking.person_id'),
             'student' => __('errors.school.student-tracking.student'),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware(
-            [
-                'auth',
-                'permission:school.tracker.admin'
-            ]);
     }
     public function index()
     {
@@ -73,4 +65,13 @@ class StudentTrackerController extends Controller
         $studentTracker->studentTrackee()->detach($student->id);
         return redirect()->route('subjects.student-tracker.edit', $studentTracker);
     }
+
+	public static function middleware()
+	{
+		return
+			[
+				'auth',
+				'permission:school.tracker.admin'
+			];
+	}
 }

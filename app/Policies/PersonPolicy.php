@@ -63,4 +63,13 @@ class PersonPolicy
     {
         return $user->can('people.delete');
     }
+
+	public function changeSelfPassword(Person $user, Person $person): bool
+	{
+		if($user->can('people.password'))
+			return true;
+		if($user->id == $person->id)
+			return true;
+		return false;
+	}
 }

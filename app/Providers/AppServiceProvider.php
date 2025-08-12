@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Classes\Synths\AuthenticationDesignationSynth;
 use App\Classes\Synths\ClassSessionLayoutManagerSynth;
 use App\Classes\Synths\ClassTabsSynth;
 use App\Classes\Synths\ClassTabSynth;
@@ -18,7 +19,9 @@ use App\Models\Utilities\SchoolRoles;
 use App\Policies\PersonPolicy;
 use App\Policies\RolePolicy;
 use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
 
@@ -37,6 +40,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+		if(app()->environment('production') || env('FORCE_SSL', false))
+			URL::forceScheme('https');
         Gate::before(function(Person $person, $ability)
         {
             return $person->hasRole(SchoolRoles::$ADMIN)? true: null;
@@ -62,6 +67,7 @@ class AppServiceProvider extends ServiceProvider
                 RubricSynth::class,
                 IdCardSynth::class,
                 IdCardElementSynth::class,
+	            AuthenticationDesignationSynth::class,
             ]);
     }
 }

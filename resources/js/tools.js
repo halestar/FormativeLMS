@@ -62,3 +62,9 @@ function showClassMessageNotification(notification) {
     $('#toast-container').append(template);
     template.toast({autohide: true, delay: 5000}).toast('show');
 }
+
+function generatePassword()
+{
+    return Array(8).fill('123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz!@#$')
+        .map(x => x[Math.floor(crypto.getRandomValues(new Uint32Array(1))[0] / (0xffffffff + 1) * x.length)]).join('');
+}

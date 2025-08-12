@@ -9,7 +9,8 @@ Route::controller(\App\Http\Controllers\People\PersonController::class)
         Route::get('/', 'index')->name('index');
         Route::get('/create', 'create')->name('create');
         Route::get('/roles/fields', 'roleFields')->name('roles.fields');
-        Route::get('/{person}', 'show')->name('show');
+	    Route::get('/password', 'changeSelfPassword')->name('password');
+	    Route::get('/{person}', 'show')->name('show');
         Route::get('/{person}/edit', 'edit')->name('edit');
         Route::put('/{person}/basic','updateBasic')->name('update.basic');
         Route::post('/{person}/portrait', 'updatePortrait')->name('update.portrait');

@@ -6,9 +6,10 @@ use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
 use App\Models\Schedules\Block;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
 
-class BlockController extends Controller
+class BlockController extends Controller implements HasMiddleware
 {
     private static function errors(): array
     {
@@ -17,11 +18,6 @@ class BlockController extends Controller
             'block_name' => __('errors.blocks.name'),
             'periods' => __('errors.blocks.periods'),
         ];
-    }
-
-    public function __construct()
-    {
-        $this->middleware('auth');
     }
 
     public function store(Request $request, Campus $campus)
@@ -92,4 +88,9 @@ class BlockController extends Controller
         return redirect(route('locations.campuses.show', ['campus' => $campus_id]))
             ->with('success-status', __('locations.period.deleted'));
     }
+
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 }

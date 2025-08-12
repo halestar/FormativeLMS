@@ -3,8 +3,10 @@
 namespace App\Models\People;
 
 use App\Casts\LogItem;
+use App\Classes\Auth\Authenticator;
 use App\Classes\PreferenceManager;
 use App\Classes\RoleField;
+use App\Classes\Settings\AuthSettings;
 use App\Classes\Settings\SchoolSettings;
 use App\Models\CRUD\Relationship;
 use App\Models\Locations\Campus;
@@ -59,7 +61,6 @@ class Person extends Authenticatable
             'dob',
         ];
     protected $hidden = [
-        'password',
         'remember_token',
     ];
     public const UKN_IMG = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
@@ -71,8 +72,6 @@ class Person extends Authenticatable
                 'dob' => 'date: m/d/y',
                 'global_log' => LogItem::class,
                 'prefs' => 'array',
-                'email_verified_at' => 'datetime',
-                'password' => 'hashed',
                 'created_at' => 'datetime: m/d/Y h:i A',
                 'updated_at' => 'datetime: m/d/Y h:i A',
             ];
@@ -126,63 +125,31 @@ class Person extends Authenticatable
 
     public function name(): Attribute
     {
-        return Attribute::make
-        (
-            get: function(mixed $value, array $attributes)
-                {
-                    if($this->isStudent())
-                        $name = SchoolSettings::instance()->studentName->applyName($this);
-                    elseif($this->isEmployee())
-                        $name = SchoolSettings::instance()->employeeName->applyName($this);
-                    elseif($this->isParent())
-                        $name = SchoolSettings::instance()->parentName->applyName($this);
-                    else
-                        $name = $this->first . " " . $this->last;
-                    return $name;
-                }
-        );
+	    return Attribute::make
+	    (
+		    get: function (mixed $value, array $attributes)
+		    {
+			    $settings = app(SchoolSettings::class);
+			    if ($this->isStudent())
+				    $name = $settings->studentName->applyName($this);
+			    elseif ($this->isEmployee())
+				    $name = $settings->employeeName->applyName($this);
+			    elseif ($this->isParent())
+				    $name = $settings->parentName->applyName($this);
+			    else
+				    $name = $this->first . " " . $this->last;
+			    return $name;
+		    }
+	    );
     }
 
-    public function first(): Attribute
-    {
-        return Attribute::make
-        (
-            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('first', $this)? $value: null,
-        );
-    }
-
-    public function middle(): Attribute
-    {
-        return Attribute::make
-        (
-            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('middle', $this)? $value: null,
-        );
-    }
-
-    public function last(): Attribute
-    {
-        return Attribute::make
-        (
-            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('last', $this)? $value: null,
-        );
-    }
-
-    public function email(): Attribute
-    {
-        return Attribute::make
-        (
-            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('email', $this)? $value: null,
-        );
-    }
-
-
-    public function nick(): Attribute
-    {
-        return Attribute::make
-        (
-            get: fn(mixed $value, array $attributes) => Auth::user()->canViewField('nick', $this)? $value: null,
-        );
-    }
+	public function systemEmail():Attribute
+	{
+		return Attribute::make
+		(
+			get: fn(mixed $value, array $attributes) => $attributes['email'],
+		);
+	}
 
     public function preferredFirst(): Attribute
     {
@@ -280,6 +247,24 @@ class Person extends Authenticatable
             },
         );
     }
+
+	public function authDriver(): Attribute
+	{
+		return Attribute::make
+		(
+			get: function (?string $value, array $attributes): ?Authenticator
+			{
+				if(!$value)
+				{
+					$settings = app(AuthSettings::class);
+					$value = $settings->determineAuthentication($this);
+					if(is_array($value))
+						return null;
+				}
+				return $value? new (config('auth.drivers.' . $value . '.class'))($this): null;
+			},
+		);
+	}
 
     /**********
      * Relationships
