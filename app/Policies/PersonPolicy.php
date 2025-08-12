@@ -37,6 +37,8 @@ class PersonPolicy
     {
         if($user->id == $person->id)
             return true;
+		if($person->hasRole('Super Admin'))
+			return false;
         return $user->can('people.edit');
     }
 

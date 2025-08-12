@@ -46,6 +46,7 @@ return
 	    'auth.change.to' => 'Change Auth to',
 	    'auth.reset.success' => 'Authentication has been reset',
 	    'auth.reset.confirm' => 'Are you sure you wish to reset this account? It will force the user to-relog.',
+	    'auth.reset' => 'Reset Authentication',
 
 
 	    'auth.priorities' => 'Authentication Priorities',

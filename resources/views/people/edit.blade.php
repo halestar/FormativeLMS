@@ -106,7 +106,7 @@
             </div>
         </div>
         <div class="row mt-3">
-            <div class="col-md-4">
+            <div class="col-md-4 mt-3">
                 <div class="profile-work">
                     <livewire:auth.user-auth-manager :person="$person" />
                 </div>

@@ -5,6 +5,7 @@ namespace App\Livewire\Auth;
 use App\Classes\Settings\AuthSettings;
 use App\Mail\ResetPasswordMail;
 use App\Models\People\Person;
+use App\Models\Utilities\SystemSetting;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Mail;
@@ -21,7 +22,7 @@ class LoginForm extends Component
 	// User Authentication
 	public ?Person $user = null;
 	public array $methodOptions = [];
-	public AuthSettings $authSettings;
+	public SystemSetting $authSettings;
 
 	//Stage Tracking
 	public bool $promptEmail = true;

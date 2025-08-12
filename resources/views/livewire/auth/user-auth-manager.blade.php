@@ -55,9 +55,9 @@
                     <button
                             class="btn btn-primary"
                             type="button"
-                            wire:confirm="Are you sure you wish to reset this account? It will force the user to-relog."
+                            wire:confirm="{{ __('settings.auth.reset.confirm') }}"
                             wire:click="resetAuth()"
-                    >{{ __('settings.auth.reset.confirm') }}</button>
+                    >{{ __('settings.auth.reset') }}</button>
                     @if($person->auth_driver->canChangePassword())
                         <button
                             class="btn @if($passwordWasChanged) btn-success @else btn-danger @endif"
