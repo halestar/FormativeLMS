@@ -24,4 +24,5 @@ return [
 	'google.description' => 'Relies on Google to authenticate all requests.',
 	'login' => 'Login',
 	'forgot' => 'I forgot!',
+    'storage' => 'Storage',
 ];

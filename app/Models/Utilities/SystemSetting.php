@@ -38,7 +38,7 @@ class SystemSetting extends Model
 		return [];
 	}
 
-	public static function instance(): self
+	public static function instance(): static
 	{
 		$setting = static::find(static::$settingKey);
 		if(!$setting)

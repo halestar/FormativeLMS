@@ -54,20 +54,5 @@ class AppServiceProvider extends ServiceProvider
         Gate::policy(SchoolRoles::class, RolePolicy::class);
         Gate::policy(Person::class, PersonPolicy::class);
         Paginator::useBootstrapFive();
-        Livewire::propertySynthesizer(
-            [
-                RoleFieldSynth::class,
-                NameConstructorSynth::class,
-                NameTokenSynth::class,
-                TopAnnouncementWidgetSynth::class,
-                ClassSessionLayoutManagerSynth::class,
-                ClassTabsSynth::class,
-                ClassTabSynth::class,
-                ClassWidgetSynth::class,
-                RubricSynth::class,
-                IdCardSynth::class,
-                IdCardElementSynth::class,
-	            AuthenticationDesignationSynth::class,
-            ]);
     }
 }

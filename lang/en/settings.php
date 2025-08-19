@@ -82,5 +82,24 @@ return
 	    'auth.unlock' => 'Unlock Account',
 	    'auth.verify.code' => 'Password Reset Code',
 	    'auth.verify.request' => 'Request a New Password Reset Code',
-	    'auth.verify.instructions' => 'An email has been sent to :email with a password reset code. Please enter the code below to reset your password. This code will remain active for :time minutes.'
+	    'auth.verify.instructions' => 'An email has been sent to :email with a password reset code. Please enter the code below to reset your password. This code will remain active for :time minutes.',
+
+        'storage' => 'Storage Settings',
+        'storage.documents' => 'Document Storage',
+        'storage.documents.employee' => 'Employee Document Storage',
+        'storage.documents.student' => 'Student Document Storage',
+        'storage.documents.local' => 'Local Document Storage',
+        'storage.documents.local.instance' => 'Folder Name',
+        'storage.documents.local.instance.help' => 'Name of the folder that these documents will reside. Use only letters, numbers and underscores "_"',
+        'storage.work' => 'Work Storage',
+        'storage.work.employee' => 'Employee Work Storage',
+        'storage.work.student' => 'Student Work Storage',
+        'storage.work.class' => 'Class Work Storage',
+        'storage.work.email' => 'Email Work Storage',
+        'storage.work.local' => 'Local Work Storage',
+        'storage.work.local.instance' => 'Folder Name',
+        'storage.work.local.instance.help' => 'Name of the folder that these documents will reside. Use only letters, numbers and underscores "_"',
+        'storage.display' => 'Display Name',
+        'storage.display.help' => 'This field is used to describe this document space. Give it a pretty name like "Student Documents"',
+        
     ];

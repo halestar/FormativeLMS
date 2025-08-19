@@ -21,7 +21,7 @@ return [
     'thumb_max_height' => env('THUMB_MAX_SIZE', 64),
     'profile_thumbs_path' => env('PROFILE_THUMBS_PATH', 'thmb'),
     'campus_img_width' => env('CAMPUS_IMG_WIDTH', 400),
-    'rubric_max_points' => env('RUBRIC_MAX_POINTS', 3),
+    'rubric_max_points' => env('RUBRIC_MAX_POINTS', 6),
     'school_id_length' => env('SCHOOL_ID_LENGTH', 10),
     'prefs' =>
         [
@@ -62,4 +62,9 @@ return [
     ],
 	'auth_code_length' => 6,
 	'auth_code_timeout' => 10,
+    'storage' =>
+    [
+        'documents' => 'local-document-storage',
+        'work' => 'local-work-storage',
+    ],
 ];

@@ -5,6 +5,7 @@ namespace App\Providers;
 use App\Classes\Settings\AuthSettings;
 use App\Classes\Settings\IdSettings;
 use App\Classes\Settings\SchoolSettings;
+use App\Classes\Settings\StorageSettings;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
@@ -20,6 +21,7 @@ class SystemSettingsProvider extends ServiceProvider implements DeferrableProvid
         $this->app->singleton(AuthSettings::class, fn(Application $app) => AuthSettings::instance());
 	    $this->app->singleton(SchoolSettings::class, fn(Application $app) => SchoolSettings::instance());
 	    $this->app->singleton(IdSettings::class, fn(Application $app) => IdSettings::instance());
+        $this->app->singleton(StorageSettings::class, fn(Application $app) => StorageSettings::instance());
     }
 
     /**
@@ -43,6 +45,6 @@ class SystemSettingsProvider extends ServiceProvider implements DeferrableProvid
 
 	public function provides(): array
 	{
-		return [AuthSettings::class, SchoolSettings::class, IdSettings::class];
+		return [AuthSettings::class, SchoolSettings::class, IdSettings::class, StorageSettings::class];
 	}
 }

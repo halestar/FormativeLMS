@@ -6,6 +6,8 @@ use App\Classes\Auth\AuthenticationDesignation;
 use App\Mail\ResetPasswordMail;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Support\Facades\Blade;
+use PharIo\Manifest\Email;
 
 class EmailSetting extends SystemSetting
 {
@@ -17,6 +19,8 @@ class EmailSetting extends SystemSetting
 			[
 				"subject" => '',
 				"content" => '',
+				"setting_name" => '',
+				"setting_description" => '',
 			];
 	}
 	public function content(): Attribute
@@ -27,8 +31,16 @@ class EmailSetting extends SystemSetting
 	{
 		return $this->basicProperty('subject');
 	}
+	public function settingName(): Attribute
+	{
+		return $this->basicProperty('setting_name');
+	}
+	public function settingDescription(): Attribute
+	{
+		return $this->basicProperty('setting_description');
+	}
 
-	public static function loadEmail(string $key, array $defaults): ?SystemSetting
+	public static function loadEmail(string $key, array $defaults): ?EmailSetting
 	{
 		$template = EmailSetting::where('name', EmailSetting::$settingKey . $key)->first();
 		if(!$template)

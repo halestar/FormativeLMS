@@ -18,6 +18,7 @@
         "laravel/ui": "^4.5",
         "league/flysystem-aws-s3-v3": "^3.28",
         "livewire/livewire": "^3.5",
+        "prism-php/prism": "^0.85.0",
         "spatie/laravel-permission": "^6.9",
         "tinymce/tinymce": "^7.8"
     },
@@ -42,7 +43,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "halestar\\DiCmsBlogger\\": "packages/halestar/DiCmsBlogger/src",
+            "halestar\\LaravelDropInCms\\": "packages/halestar/LaravelDropInCms/src"
         }
     },
     "scripts": {

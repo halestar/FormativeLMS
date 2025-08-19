@@ -55,7 +55,7 @@ class CharacterSkill extends Model implements HasRubric
         return ($this->rubric != null);
     }
 
-    public function getRubric()
+    public function getRubric(): ?Rubric
     {
         return $this->rubric;
     }
@@ -74,4 +74,8 @@ class CharacterSkill extends Model implements HasRubric
     {
         return $this->id;
     }
+	public function getSkillName(): string
+	{
+		return $this->name?? $this->designation;
+	}
 }

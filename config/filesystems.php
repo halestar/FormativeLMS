@@ -69,6 +69,22 @@ return [
             'throw' => false,
         ],
 
+        'local-document-storage' =>
+            [
+                'driver' => 'local',
+                'root' => storage_path('documents'),
+                'visibility' => 'private',
+                'throw' => false,
+            ],
+
+        'local-work-storage' =>
+            [
+                'driver' => 'local',
+                'root' => storage_path('work'),
+                'visibility' => 'private',
+                'throw' => false,
+            ],
+
     ],
 
     /*

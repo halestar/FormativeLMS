@@ -47,37 +47,12 @@ class KnowledgeSkillSeeder extends Seeder
                 $startGrade = $row[$minGrade] + 1;
                 $endGrade = $row[$maxGrade] + 1;
                 $subject_id = $startGrade <= 6 ? $subjects['es'] : ($startGrade <= 9 ? $subjects['ms'] : $subjects['hs']);
-                //Create a random rubric
-                $points = [];
-                foreach([4,3,2,1,0] as $score)
-                    $points[] = $score;
-                //and between 2-5 criteria
-                $numCrit = random_int(2, 5);
-                $criteria = [];
-                for($i = 0; $i < $numCrit; $i++)
-                    $criteria[] = $faker->paragraph();
-                //and finally, descriptions
-                $descriptions = [];
-                for($i = 0; $i < $numCrit; $i++)
-                {
-                    $descriptionRow = [];
-                    for ($j = 0; $j < 5; $j++)
-                        $descriptionRow[] = $faker->paragraph();
-                    $descriptions[] = $descriptionRow;
-                }
-                $data =
-                    [
-                        'points' =>$points,
-                        'criteria' => $criteria,
-                        'descriptions' => $descriptions,
-                    ];
-                $rubric = Rubric::hydrate($data);
                 $skill = KnowledgeSkill::create(
                     [
                         'subject_id' => $subject_id,
                         'designation' => $row[$designation],
                         'description' => nl2br($row[$description]),
-                        'rubric' => $rubric,
+                        'rubric' => null,
                         'active' => true,
                     ]);
                 //next, we attach the grades

@@ -15969,3 +15969,8 @@ select[multiple] {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.asset-drop {
+  border: 2px dashed black !important;
+  background-color: lightgray !important;
+}

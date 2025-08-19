@@ -79,6 +79,7 @@ class PermissionSeeder extends Seeder
                     ['name' => 'cms', 'description' => 'Access to the site\'s CSM'],
                     ['name' => 'crud', 'description' => 'Access to the admin dashboard for CRUD editors'],
                     ['name' => 'school', 'description' => 'Access to the global school settings'],
+                    ['name' => 'school.emails', 'description' => 'Access to edit what the school email\'s look like.'],
                 ],
         ];
     /**

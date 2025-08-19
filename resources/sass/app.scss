@@ -17,7 +17,6 @@ $breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/
 
 
 
-
 .count-message {
     margin-top: -20px;
     margin-right: 5px;
@@ -295,3 +294,8 @@ $img-icon-sizes: ("xl": 96px, "large": 48px, "normal": 32px, "small": 24px, "tin
     text-justify: inter-word;
 }
 
+.asset-drop
+{
+  border: 2px dashed black !important;
+  background-color: lightgray !important;
+}

@@ -10,7 +10,13 @@
  */
 let mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css',
+        {
+            sassOptions:
+                {
+                    includePaths: ['node_modules'],
+                }
+        });
 
 mix.scripts(
     [
@@ -22,4 +28,5 @@ mix.scripts(
     ],
     'public/js/lms-tools.js'
 );
+
 mix.copyDirectory('vendor/tinymce/tinymce', 'public/js/tinymce');

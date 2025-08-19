@@ -2,3 +2,7 @@
 !public/
 !.gitignore
 !standards
+!private
+!private/backups
+!private/backups/develop-rubrics
+!private/backups/develop-rubrics/*

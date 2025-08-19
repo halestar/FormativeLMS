@@ -24,6 +24,12 @@ trait IsSchoolEmail
 			$this->emailSetting->save();
 		}
 	}
+	
+	public static function createSettings(): void
+	{
+		$emailSettings = EmailSetting::loadEmail(static::$key, static::defaults());
+		$emailSettings->save();
+	}
 	/**
 	 * Get the message envelope.
 	 */
@@ -52,5 +58,10 @@ trait IsSchoolEmail
 	public function attachments(): array
 	{
 		return [];
+	}
+	
+	public static function getSetting(): EmailSetting
+	{
+		return EmailSetting::loadEmail(static::$key, static::defaults());
 	}
 }

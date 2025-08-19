@@ -2,6 +2,8 @@
 
 return
     [
+		'subject' => 'Subject',
+		'content' => 'Email Body',
         'password.reset' => 'Password Reset Email Template',
 	    'password.reset.subject' => 'A request to reset your password has been received.',
 	    'password.reset.description' => 'Email template sent to users when they\'re trying to reset their password.',

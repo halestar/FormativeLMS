@@ -102,15 +102,16 @@
         </div>
     </div>
     @auth
-    <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="#search" aria-hidden="true">
+    <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="#search" aria-hidden="true" data-bs-keyboard="false">
             <livewire:search />
     </div>
     <script>
         $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() })
-        @auth
             window.sessionSettings = new SessionSettings('{{ Route::currentRouteName() }}');
-        @endauth
     </script>
+    <div class="modal fade" id="document-browser-modal" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
+        <livewire:storage.document-storage-browser />
+    </div>
     @endauth
     <template id="notification-template">
         <a class="dropdown-item notification" href="#">

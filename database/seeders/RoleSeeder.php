@@ -13,7 +13,7 @@ class RoleSeeder extends Seeder
                 [
                     'people.assign.roles', 'people.create', 'people.delete',
                     'people.edit', 'people.merge', 'people.view', 'school',
-                    'people.ids.manage',
+                    'people.ids.manage', 'school.emails',
                 ],
             "CRUD Editor" => ['crud'],
             "Impersonator" => [],

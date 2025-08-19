@@ -122,6 +122,11 @@
                                         {{ __('system.menu.school.settings') }}
                                     </a>
                                 @endcan
+                                @can('school.emails')
+                                    <a class="dropdown-item" href="{{ route('settings.school.emails') }}">
+                                        {{ __('system.menu.school.emails') }}
+                                    </a>
+                                @endcan
                             </div>
                         </li>
                     @endcanany
@@ -157,28 +162,32 @@
                     </li>
                 @endauth
             </ul>
-            @auth
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-success rounded rounded-5 btn-sm" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </li>
-                    <li class="ms-3 nav-item">
-                        <livewire:message-notifier />
-                    </li>
-                    <li class="nav-item dropdown ms-3  @if(Auth::user()->alertNotifications()->count() == 0) d-none @endif" id="notification-menu">
-                        <a id="user-notifications" class="nav-link dropdown-toggle p-0" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            <i class="fa-solid fa-bell fs-1 text-bright-alert"></i>
-                        </a>
+            <ul class="navbar-nav ms-auto">
+                @auth
+                <li class="nav-item">
+                    <button type="button" class="btn btn-success rounded rounded-5 btn-sm" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </li>
+                <li class="ms-3 nav-item">
+                    <livewire:message-notifier />
+                </li>
+                <li class="nav-item dropdown ms-3  @if(Auth::user()->alertNotifications()->count() == 0) d-none @endif" id="notification-menu">
+                    <a id="user-notifications" class="nav-link dropdown-toggle p-0" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        <i class="fa-solid fa-bell fs-1 text-bright-alert"></i>
+                    </a>
 
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="user-notifications" id="notifications-dropdown-container">
-                            @foreach(Auth::user()->alertNotifications as $notification)
-                                @continue($notification->type == \App\Notifications\NewClassMessageNotification::class)
-                                <x-notification :notification="$notification" />
-                            @endforeach
-                        </div>
-                    </li>
-                </ul>
-            @endauth
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="user-notifications" id="notifications-dropdown-container">
+                        @foreach(Auth::user()->alertNotifications as $notification)
+                            @continue($notification->type == \App\Notifications\NewClassMessageNotification::class)
+                            <x-notification :notification="$notification" />
+                        @endforeach
+                    </div>
+                </li>
+                @endauth
+
+                <li class="nav-item">
+                    <x-utilities.language-switcher />
+                </li>
+            </ul>
         </div>
     </div>
 </nav>

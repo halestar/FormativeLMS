@@ -21,6 +21,16 @@ class ResetPasswordMail extends Mailable implements SchoolEmail, ShouldQueue
 	public Person $recipient;
 	public string $token;
 	private static string $key = 'passwords.reset';
+	
+	/**
+	 * Create a new message instance.
+	 */
+	public function __construct(Person $recipient, string $token)
+	{
+		$this->recipient = $recipient;
+		$this->token = $token;
+		$this->loadSettings();
+	}
 
 	public static function defaults(): array
 	{
@@ -28,6 +38,8 @@ class ResetPasswordMail extends Mailable implements SchoolEmail, ShouldQueue
 		[
 			'subject' => __('emails.password.reset.subject'),
 			'content' => __('emails.password.reset.body'),
+			"setting_name" => __('emails.password.reset'),
+			"setting_description" => __('emails.password.reset.description'),
 		];
 	}
 
@@ -55,25 +67,4 @@ class ResetPasswordMail extends Mailable implements SchoolEmail, ShouldQueue
 	{
 		return [ 'token' ];
 	}
-
-	public static function emailName(): string
-	{
-		return __('emails.password.reset');
-	}
-
-	public static function emailDescription(): string
-	{
-		return __('emails.password.reset.description');
-	}
-
-    /**
-     * Create a new message instance.
-     */
-    public function __construct(Person $recipient, string $token)
-    {
-		$this->recipient = $recipient;
-		$this->token = $token;
-		$this->loadSettings();
-    }
-
 }

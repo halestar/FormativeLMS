@@ -18,6 +18,7 @@ return
         'menu.classes.enrollment.general' => 'General Class Enrollment',
         'menu.classes.enrollment.student' => 'Student Schedule Builder',
         'menu.school.settings' => 'School Settings',
+        'menu.school.emails' => 'School Emails',
 
         'settings.days' => 'Days School Meets',
         'settings.days.help' => 'Select the days that this school has classes',

@@ -10,8 +10,8 @@
             </select>
         </div>
         <div class="d-flex justify-content-between align-items-center">
-            <button type="button" class="btn btn-primary" wire:click="applyChangeAuth">{{ __('common.cancel') }}</button>
-            <button type="button" class="btn btn-secondary" wire:click="cancelChangeAuth">{{ __('common.assign') }}</button>
+            <button type="button" class="btn btn-primary" wire:click="applyChangeAuth">{{ __('common.assign') }}</button>
+            <button type="button" class="btn btn-secondary" wire:click="cancelChangeAuth">{{ __('common.cancel') }}</button>
         </div>
     @elseif($changingPasswd)
         <form wire:submit="resetPassword">
