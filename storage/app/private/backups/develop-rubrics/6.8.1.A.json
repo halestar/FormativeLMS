@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of Arguments: How well the student constructs arguments against substance use.",
+    "Understanding of Health Risks: Demonstrates knowledge of the risks associated with alcohol, tobacco, and other drugs.",
+    "Communication Skills: Clarity, tone, and engagement of the persuasive message."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Arguments are unclear, irrelevant, or missing. Shows no understanding of persuasive techniques.",
+      "Arguments are weak and lack clarity. Demonstrates minimal understanding of persuasive techniques.",
+      "Arguments are somewhat relevant but lack depth. Shows a basic understanding of persuasive techniques but struggles with application.",
+      "Arguments are generally clear and relevant, with some supporting evidence. Demonstrates a satisfactory understanding of persuasive techniques.",
+      "Arguments are clear, relevant, and supported by evidence. Demonstrates a strong understanding of persuasive techniques and uses them effectively.",
+      "Arguments are compelling, well-reasoned, and persuasively delivered with strong supporting evidence. Demonstrates a mastery of persuasive techniques, tailored to the audience."
+    ],
+    [
+      "Demonstrates no understanding of the health risks associated with substance use.",
+      "Demonstrates very limited understanding of the health risks; inaccuracies present.",
+      "Demonstrates a basic understanding of some health risks, but lacks detail or accuracy in some areas.",
+      "Demonstrates a satisfactory understanding of the primary health risks associated with substance use.",
+      "Demonstrates a comprehensive understanding of the health risks, including short-term and long-term effects.",
+      "Demonstrates an exceptional and nuanced understanding of health risks, including physiological and psychological effects, and can articulate them clearly."
+    ],
+    [
+      "Message is unclear, disorganized, and difficult to understand. Poor tone and no audience engagement.",
+      "Message lacks clarity and organization. Tone is inappropriate or ineffective, with minimal audience engagement.",
+      "Message is somewhat clear but lacks consistent organization. Tone is occasionally appropriate, with some attempt at audience engagement.",
+      "Message is generally clear and organized. Tone is mostly appropriate, and the student attempts to engage the audience.",
+      "Message is clear, concise, and well-organized. Tone is appropriate and engaging, capturing the audience's attention.",
+      "Message is exceptionally clear, compelling, and tailored to the audience. Tone is highly effective, creating a strong connection and inspiring action."
+    ]
+  ]
+}

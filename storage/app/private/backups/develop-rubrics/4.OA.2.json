@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately represent word problems involving multiplicative comparison using drawings and equations.",
+    "Skill in distinguishing multiplicative comparison from additive comparison in word problems.",
+    "Accuracy in solving word problems involving multiplicative comparison using multiplication or division."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to represent the problem or representation is completely inaccurate.",
+      "Representation is attempted but contains significant errors and does not accurately reflect the problem.",
+      "Representation contains some inaccuracies or is incomplete, hindering understanding of the problem.",
+      "Representation is mostly accurate but may lack clarity or precision in some aspects.",
+      "Representation is accurate and clearly reflects the problem, aiding in the solution process.",
+      "Representation is exceptionally clear, accurate, and insightful, demonstrating a deep understanding of the multiplicative comparison."
+    ],
+    [
+      "No recognition of the difference between multiplicative and additive comparison.",
+      "Shows confusion between multiplicative and additive comparison, leading to incorrect problem setup.",
+      "Demonstrates some awareness of the difference but struggles to consistently apply it.",
+      "Can usually distinguish between the two types of comparisons, but makes occasional errors.",
+      "Consistently and accurately distinguishes between multiplicative and additive comparison in various contexts.",
+      "Demonstrates a nuanced understanding of the distinction, able to explain the differences clearly and apply them effectively to complex problems."
+    ],
+    [
+      "No attempt to solve the problem or the approach is completely incorrect.",
+      "Attempts a solution, but uses the wrong operation or makes significant calculation errors.",
+      "Chooses the correct operation but makes calculation errors that lead to an incorrect answer.",
+      "Mostly accurate in calculations, but minor errors may lead to a slightly incorrect answer or incomplete solution.",
+      "Accurately solves the problem with correct calculations and a clear explanation of the process.",
+      "Solves the problem flawlessly, demonstrating a strong command of multiplication and division and providing a clear, concise, and insightful solution."
+    ]
+  ]
+}

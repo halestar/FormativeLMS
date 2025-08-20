@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Appeasement",
+    "Understanding of Nonintervention (Isolationism)",
+    "Understanding of Domestic Distractions",
+    "Analysis of Causes and Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of appeasement.",
+      "Shows a very limited understanding of appeasement with significant inaccuracies.",
+      "Shows a basic understanding of appeasement, but lacks depth or detail.",
+      "Demonstrates a satisfactory understanding of appeasement with some supporting details.",
+      "Demonstrates a strong understanding of appeasement, explaining its key aspects and implications.",
+      "Demonstrates a comprehensive and nuanced understanding of appeasement, including its historical context and long-term consequences."
+    ],
+    [
+      "Demonstrates no understanding of nonintervention (isolationism).",
+      "Shows a very limited understanding of nonintervention (isolationism) with significant inaccuracies.",
+      "Shows a basic understanding of nonintervention (isolationism), but lacks depth or detail.",
+      "Demonstrates a satisfactory understanding of nonintervention (isolationism) with some supporting details.",
+      "Demonstrates a strong understanding of nonintervention (isolationism), explaining its key aspects and implications.",
+      "Demonstrates a comprehensive and nuanced understanding of nonintervention (isolationism), including its historical context and long-term consequences."
+    ],
+    [
+      "Demonstrates no understanding of domestic distractions.",
+      "Shows a very limited understanding of domestic distractions with significant inaccuracies.",
+      "Shows a basic understanding of domestic distractions, but lacks depth or detail.",
+      "Demonstrates a satisfactory understanding of domestic distractions with some supporting details.",
+      "Demonstrates a strong understanding of domestic distractions, explaining its key aspects and implications.",
+      "Demonstrates a comprehensive and nuanced understanding of domestic distractions, including its historical context and long-term consequences."
+    ],
+    [
+      "Unable to analyze the causes and consequences of appeasement, nonintervention, and domestic distractions.",
+      "Provides a superficial analysis with significant inaccuracies.",
+      "Identifies some causes and consequences, but lacks depth and connection.",
+      "Presents a satisfactory analysis of causes and consequences with some supporting evidence.",
+      "Presents a strong analysis, clearly connecting causes and consequences with relevant historical context.",
+      "Presents a comprehensive and insightful analysis, demonstrating a deep understanding of the complex interplay of causes and consequences."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Military Alliances' Purpose",
+    "Knowledge of NATO and SEATO",
+    "Analysis of Impact on Cold War Security"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of why military alliances like NATO and SEATO were formed.",
+      "Shows a limited awareness of military alliances' purpose, with significant gaps in understanding.",
+      "Identifies the general purpose of military alliances but lacks depth in explaining their specific goals.",
+      "Explains the purpose of military alliances like NATO and SEATO in general terms, connecting them to deterring aggression.",
+      "Clearly explains the role of NATO and SEATO in deterring communist aggression, providing relevant details and context.",
+      "Offers a comprehensive analysis of the role of military alliances, including NATO and SEATO, in deterring communist aggression and maintaining security, demonstrating a nuanced understanding of their strategies and impact."
+    ],
+    [
+      "Cannot identify NATO or SEATO.",
+      "Identifies NATO or SEATO but demonstrates no understanding of their composition or activities.",
+      "Shows basic awareness of NATO and SEATO, but struggles to recall specific details about their membership or functions.",
+      "Recalls some details about the membership and functions of NATO and SEATO, but may have some inaccuracies.",
+      "Accurately describes the membership, structure, and key activities of both NATO and SEATO.",
+      "Demonstrates expert knowledge of NATO and SEATO, including their historical context, evolution, and significance in maintaining security during the Cold War."
+    ],
+    [
+      "Does not connect military alliances to the broader context of the Cold War.",
+      "Mentions the Cold War but does not explain how military alliances influenced security during that period.",
+      "Attempts to link military alliances to Cold War security but lacks a clear and logical explanation.",
+      "Explains how military alliances contributed to maintaining security during the Cold War, but the analysis is somewhat superficial.",
+      "Provides a well-reasoned analysis of how NATO and SEATO contributed to deterring communist aggression and maintaining security, with specific examples.",
+      "Presents a sophisticated analysis of the complex interplay between military alliances, communist aggression, and Cold War security, offering insightful perspectives and drawing well-supported conclusions."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the U.S. Constitution's Definition and Importance",
+    "Knowledge of the Structure and Purpose of the U.S. Government",
+    "Understanding the Shared Powers of Federal, State, and Local Governments"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of what the U.S. Constitution is or its importance.",
+      "Student shows a very limited understanding of the U.S. Constitution, struggling to define it or explain its significance.",
+      "Student identifies the U.S. Constitution but provides a superficial explanation of its importance, missing key details.",
+      "Student adequately defines the U.S. Constitution as a document that structures the U.S. government and explains its importance in general terms.",
+      "Student clearly defines the U.S. Constitution and explains its importance, including its role in defining the structure and purpose of the U.S. government.",
+      "Student comprehensively defines the U.S. Constitution, elucidating its historical context, key principles, and its enduring importance in shaping the U.S. government and society."
+    ],
+    [
+      "Student demonstrates no understanding of the structure or purpose of the U.S. government as defined by the Constitution.",
+      "Student shows a very limited understanding of the U.S. government's structure and purpose, struggling to identify any of its components.",
+      "Student identifies some parts of the U.S. government but provides a superficial explanation of its structure and purpose, missing key details.",
+      "Student adequately describes the basic structure and purpose of the U.S. government as defined by the Constitution.",
+      "Student clearly explains the structure and purpose of the U.S. government, including the roles of its three branches and the concept of separation of powers.",
+      "Student comprehensively explains the structure and purpose of the U.S. government, including the roles of its three branches, the concept of separation of powers, and the system of checks and balances."
+    ],
+    [
+      "Student demonstrates no understanding of how powers are distributed between federal, state, and local governments.",
+      "Student shows a very limited understanding of the shared powers, struggling to identify any responsibilities of different levels of government.",
+      "Student identifies some powers of federal, state, and local governments but struggles to explain how these powers are shared.",
+      "Student adequately describes how powers are distributed and shared between federal, state, and local governments, providing some examples.",
+      "Student clearly explains the shared powers of federal, state, and local governments, providing specific examples and demonstrating an understanding of federalism.",
+      "Student comprehensively explains the shared powers of federal, state, and local governments, providing detailed examples, demonstrating an understanding of federalism, and analyzing the tensions and conflicts that can arise from this distribution of power."
+    ]
+  ]
+}

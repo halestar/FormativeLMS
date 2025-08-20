@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Planning the Investigation",
+    "Conducting the Investigation",
+    "Data Collection and Representation",
+    "Analysis and Interpretation of Results",
+    "Conclusion and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No clear plan is evident; the investigation lacks a defined question or hypothesis.",
+      "A basic plan is present, but the question or hypothesis is unclear, and the variables are not well-defined.",
+      "A plan is described with a stated question or hypothesis, but some variables are not controlled or measured appropriately.",
+      "A detailed plan is provided, including a testable question or hypothesis and identification of independent, dependent, and controlled variables.",
+      "A comprehensive and well-reasoned plan is presented, showing a clear understanding of experimental design, including controls and appropriate measurements.",
+      "An exemplary plan is detailed, showcasing sophisticated understanding of experimental design, including potential confounding variables and strategies to mitigate them."
+    ],
+    [
+      "The investigation was not conducted, or the process was not documented.",
+      "The investigation was started but not completed, or the procedure was poorly executed and not documented.",
+      "The investigation was conducted with some errors in procedure or documentation.",
+      "The investigation was conducted correctly, and the procedure was clearly documented.",
+      "The investigation was conducted meticulously, with careful attention to detail and thorough documentation of the procedure.",
+      "The investigation was conducted with exceptional precision, demonstrating proactive problem-solving and comprehensive documentation of the procedure and any modifications."
+    ],
+    [
+      "No data was collected, or the data is not relevant to the investigation.",
+      "Data was collected, but it is incomplete or poorly organized.",
+      "Data was collected and organized, but there are errors or inconsistencies.",
+      "Data was collected, accurately recorded, and organized in a table or chart.",
+      "Data was collected, accurately recorded, and effectively represented using appropriate graphs or charts, with clear labels and units.",
+      "Data was collected, meticulously recorded, and insightfully represented with multiple formats, demonstrating sophisticated understanding of data analysis and presentation."
+    ],
+    [
+      "No analysis or interpretation of results is provided.",
+      "A basic attempt is made to interpret the results, but it lacks depth or connection to the hypothesis.",
+      "The results are interpreted, but the analysis is superficial or contains inaccuracies.",
+      "The results are accurately analyzed and interpreted, with clear connections to the hypothesis.",
+      "The results are thoroughly analyzed and interpreted, drawing logical conclusions supported by the data and addressing potential sources of error.",
+      "The results are insightfully analyzed and interpreted, demonstrating a sophisticated understanding of the underlying scientific principles and providing nuanced explanations for observed phenomena."
+    ],
+    [
+      "No conclusion is provided, or the conclusion is not related to the investigation.",
+      "A weak conclusion is presented, with little or no supporting evidence.",
+      "A conclusion is stated, but it is not well-supported by the data or evidence.",
+      "A clear and concise conclusion is presented, supported by the data and evidence from the investigation.",
+      "A well-reasoned conclusion is presented, thoroughly supported by the data, and effectively communicated with clear and precise language.",
+      "An insightful and compelling conclusion is presented, demonstrating a deep understanding of the scientific concepts and effectively communicated with clarity, precision, and eloquence."
+    ]
+  ]
+}

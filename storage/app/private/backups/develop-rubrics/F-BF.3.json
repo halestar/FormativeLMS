@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifying Transformations",
+    "Recognizing Even and Odd Functions",
+    "Experimentation and Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of transformations.",
+      "Student can identify transformations of f(x) + k or f(x + k) but struggles with kf(x) or f(kx).",
+      "Student can identify transformations of f(x) + k, kf(x), f(kx), and f(x + k) for positive values of k.",
+      "Student can identify transformations of f(x) + k, kf(x), f(kx), and f(x + k) for both positive and negative values of k but struggles with fractional values.",
+      "Student can accurately identify transformations of f(x) + k, kf(x), f(kx), and f(x + k) for both positive, negative, and fractional values of k.",
+      "Student can accurately identify transformations and explain the effects on the graph of f(x) + k, kf(x), f(kx), and f(x + k) for all values of k, and can find the value of k given the graphs."
+    ],
+    [
+      "Student cannot differentiate between even and odd functions.",
+      "Student can differentiate between even and odd functions given their graphs, but not from algebraic expressions.",
+      "Student can differentiate between even and odd functions given algebraic expressions, but not from their graphs.",
+      "Student can differentiate between even and odd functions from both their graphs and algebraic expressions with some errors.",
+      "Student can accurately differentiate between even and odd functions from both their graphs and algebraic expressions.",
+      "Student can accurately differentiate between even and odd functions from both their graphs and algebraic expressions and explain their properties."
+    ],
+    [
+      "Student does not use technology to experiment with transformations.",
+      "Student uses technology to experiment with transformations but struggles to explain the effects on the graph.",
+      "Student can use technology to experiment with transformations and explain the effects on the graph for simple cases.",
+      "Student can use technology to experiment with transformations and explain the effects on the graph for most cases with minor errors.",
+      "Student can effectively use technology to experiment with transformations and accurately explain the effects on the graph.",
+      "Student can effectively use technology to experiment with transformations, accurately explain the effects on the graph, and provide a clear and concise explanation supported by examples."
+    ]
+  ]
+}

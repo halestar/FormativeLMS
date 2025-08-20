@@ -1,8 +1,8 @@
 <?php
 
 use App\Http\Controllers\Settings\SchoolSettingsController;
+use App\Livewire\Utilities\SchoolEmailsEditor;
 use Illuminate\Support\Facades\Route;
-use \App\Livewire\Utilities\SchoolEmailsEditor;
 
 Route::resource('permissions', \App\Http\Controllers\Settings\PermissionController::class)
     ->except(['show']);
@@ -18,3 +18,7 @@ Route::patch('/school/settings/ids', [SchoolSettingsController::class, 'updateId
 Route::patch('/school/settings/auth', [SchoolSettingsController::class, 'updateAuth'])->name('school.update.auth');
 Route::get('/school/settings/name/{role}', [SchoolSettingsController::class, 'nameCreator'])->name('school.name');
 Route::get('/school/settings/emails', SchoolEmailsEditor::class)->name('school.emails')->middleware('can:school.emails');
+
+//storage settings
+Route::get('/work-files/{work_file}', [\App\Http\Controllers\Storage\StorageController::class, 'downloadWorkFile'])
+     ->name('work.file.get');

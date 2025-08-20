@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Drawings",
+    "Identification of Geometric Elements",
+    "Understanding of Relationships (Parallel and Perpendicular)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Drawings are completely inaccurate or missing. No understanding of the concepts is demonstrated.",
+      "Drawings are largely inaccurate with significant errors in representing points, lines, angles, and relationships.",
+      "Drawings contain some inaccuracies, but basic shapes are recognizable. Some understanding of relationships may be flawed.",
+      "Drawings are mostly accurate with minor errors that do not significantly affect the representation of the geometric concepts.",
+      "Drawings are accurate and clearly represent points, lines, line segments, rays, and angles. Relationships are mostly correct.",
+      "Drawings are precise, accurate, and demonstrate a thorough understanding of geometric concepts and their relationships. Excellent attention to detail."
+    ],
+    [
+      "Unable to identify any of the geometric elements (points, lines, angles) in two-dimensional figures.",
+      "Identifies only a few geometric elements, with many errors in classification.",
+      "Identifies some geometric elements correctly, but struggles with more complex elements or relationships.",
+      "Identifies most geometric elements correctly, with only occasional errors.",
+      "Accurately identifies nearly all geometric elements in two-dimensional figures, including right, acute, and obtuse angles.",
+      "Consistently and accurately identifies all geometric elements, including complex relationships and classifications, with precision and clarity."
+    ],
+    [
+      "Shows no understanding of parallel and perpendicular lines.",
+      "Demonstrates minimal understanding of parallel and perpendicular lines; unable to accurately represent or identify them.",
+      "Shows some understanding of parallel and perpendicular lines but makes frequent errors in representation or identification.",
+      "Understands the basic concepts of parallel and perpendicular lines but may have difficulty applying them in complex figures.",
+      "Accurately represents and identifies parallel and perpendicular lines in most situations.",
+      "Demonstrates a comprehensive understanding of parallel and perpendicular lines and can apply this knowledge to complex geometric figures with precision."
+    ]
+  ]
+}

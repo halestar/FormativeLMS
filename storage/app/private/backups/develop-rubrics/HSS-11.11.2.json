@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Significant Domestic Policy Speeches",
+    "Understanding of Policy Issues",
+    "Contextual Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any significant domestic policy speeches from the specified presidents.",
+      "The student identifies only one significant domestic policy speech with minimal context.",
+      "The student identifies 2-3 significant domestic policy speeches but lacks detailed explanation.",
+      "The student identifies 4-5 significant domestic policy speeches with some explanation of their context and impact.",
+      "The student identifies 6-7 significant domestic policy speeches, providing clear explanations of their context and impact.",
+      "The student identifies 8 or more significant domestic policy speeches with comprehensive explanations of their historical context, intended goals, and actual impact on American society."
+    ],
+    [
+      "The student demonstrates no understanding of the domestic policy issues addressed in the speeches.",
+      "The student shows a basic, superficial understanding of the policy issues.",
+      "The student understands some of the policy issues but struggles to explain their relevance or complexities.",
+      "The student demonstrates a good understanding of the policy issues, explaining their relevance and some complexities.",
+      "The student demonstrates a strong understanding of the policy issues, explaining their relevance, complexities, and connections to broader social problems.",
+      "The student demonstrates an exceptional understanding of the policy issues, analyzing their historical roots, complexities, and long-term consequences for American society."
+    ],
+    [
+      "The student provides no historical or social context for the speeches or policies.",
+      "The student provides minimal or inaccurate context for the speeches or policies.",
+      "The student provides some context but lacks depth or accuracy.",
+      "The student provides adequate context, explaining the key historical and social factors influencing the speeches and policies.",
+      "The student provides strong context, analyzing the complex interplay of historical, social, and political factors surrounding the speeches and policies.",
+      "The student provides insightful and nuanced context, demonstrating a sophisticated understanding of the historical, social, and political forces that shaped the speeches, policies, and their lasting impact."
+    ]
+  ]
+}

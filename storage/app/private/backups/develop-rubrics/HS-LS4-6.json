@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Simulation Design and Functionality: Assesses the design and functionality of the simulation in modeling the impact of human activity on biodiversity.",
+    "Solution Testing: Assesses the simulation's ability to test a solution to mitigate the adverse impacts of human activity on biodiversity.",
+    "Scientific Accuracy: Assesses the simulation's alignment with established scientific principles and data related to biodiversity and human impacts.",
+    "Clarity and Communication: Assesses how clearly the simulation and its results are communicated."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Simulation is not created, or is completely non-functional and does not relate to the topic.",
+      "Simulation is rudimentary, with significant functional issues and a weak connection to the impact of human activity on biodiversity.",
+      "Simulation has basic functionality, but contains several errors or limitations that affect its accuracy in modeling the impact of human activity on biodiversity. The connection to the issue is superficial.",
+      "Simulation is functional and mostly accurate in modeling the impact of human activity on biodiversity, but lacks sophistication or detail. The connection is clear, but not deeply explored.",
+      "Simulation is well-designed, functional, and provides a relatively accurate model of the impact of human activity on biodiversity, with some attention to detail and sophistication. The connection is well-developed.",
+      "Simulation is sophisticated, fully functional, and accurately models the complex impact of human activity on biodiversity with a high level of detail and nuance. The connection is thoroughly and insightful explored."
+    ],
+    [
+      "No solution is tested, or the testing methodology is completely absent.",
+      "A solution is vaguely identified, but is not tested using the simulation.",
+      "A solution is tested, but the methodology is flawed or poorly executed, leading to unreliable results.",
+      "A solution is tested using the simulation, but the analysis of the results is superficial or incomplete.",
+      "A solution is effectively tested using the simulation, and the results are analyzed with reasonable insight.",
+      "A solution is rigorously tested using the simulation, and the results are thoroughly and insightfully analyzed to draw meaningful conclusions about its effectiveness."
+    ],
+    [
+      "Simulation demonstrates no understanding of scientific concepts related to biodiversity and human impacts.",
+      "Simulation contains significant scientific inaccuracies or misconceptions.",
+      "Simulation includes some scientific inaccuracies that undermine the validity of the model.",
+      "Simulation is mostly scientifically accurate, with only minor flaws that do not significantly impact the model.",
+      "Simulation is scientifically sound and aligns with established principles, with no significant inaccuracies.",
+      "Simulation is rigorously grounded in scientific principles, accurately reflects real-world data, and demonstrates a sophisticated understanding of biodiversity and human impacts."
+    ],
+    [
+      "Simulation and results are presented incomprehensibly.",
+      "Simulation and results are poorly presented and difficult to understand.",
+      "Simulation and results are somewhat understandable, but lack clarity.",
+      "Simulation and results are presented clearly, but lack detail.",
+      "Simulation and results are clearly presented with sufficient detail.",
+      "Simulation and results are communicated with exceptional clarity, insight, and attention to detail, enhancing understanding."
+    ]
+  ]
+}

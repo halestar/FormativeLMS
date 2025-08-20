@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting and Specificity",
+    "Feasibility and Safety",
+    "Commitment and Planning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal is set or the goal is completely vague and unmeasurable.",
+      "A goal is mentioned, but it is very general with no specific details.",
+      "A short-term goal is identified, but lacks clarity in terms of the type, duration, or intensity of physical activity.",
+      "A specific short-term goal is set, including the type of vigorous physical activity and the desired frequency.",
+      "A specific and measurable short-term goal is set, detailing the type, frequency, intensity, and duration of the vigorous physical activity.",
+      "A well-defined, realistic, and measurable short-term goal is set that includes specific details about the type, frequency, intensity, and duration of vigorous physical activity, demonstrating a clear understanding of personal fitness needs."
+    ],
+    [
+      "The goal is unrealistic or unsafe.",
+      "The goal is mentioned without consideration of personal limitations or safety.",
+      "The goal seems ambitious, with limited consideration of feasibility and safety.",
+      "The goal is feasible, and potential safety concerns are acknowledged.",
+      "The goal is realistic and considers personal limitations, with clear strategies for addressing safety concerns.",
+      "The goal is highly feasible and takes into account personal limitations and potential safety concerns. Strategies for gradual progression and injury prevention are clearly outlined."
+    ],
+    [
+      "No commitment to the goal is expressed, and there is no evidence of planning.",
+      "Some commitment is voiced, but no planning is evident.",
+      "A commitment is expressed, and basic planning is mentioned, but details are lacking.",
+      "A clear commitment is stated, and a basic plan is outlined with some specifics.",
+      "A strong commitment is demonstrated, and a detailed plan is developed, including strategies for overcoming barriers.",
+      "An unwavering commitment is clearly communicated, and a comprehensive plan is developed, including specific strategies for overcoming potential barriers and maintaining motivation over time."
+    ]
+  ]
+}

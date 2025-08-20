@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Clarity and Focus",
+    "Development and Elaboration",
+    "Organization and Structure",
+    "Style and Voice",
+    "Conventions and Mechanics"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The writing lacks a clear purpose and focus; the central idea is vague or missing.",
+      "The writing attempts to establish a purpose, but it is not consistently maintained; the focus drifts or is too broad.",
+      "The writing generally maintains a clear purpose and focus, but there are some digressions or inconsistencies.",
+      "The writing demonstrates a clear purpose and focus; the central idea is well-defined and consistently maintained.",
+      "The writing exhibits a sharp, distinct purpose and focus; the central idea is compelling and tightly woven throughout.",
+      "The writing exemplifies exceptional clarity and focus; the central idea is original, insightful, and masterfully sustained, creating a powerful impact on the reader."
+    ],
+    [
+      "The writing lacks development; supporting details are missing or irrelevant.",
+      "The writing includes some supporting details, but they are weak, insufficient, or not clearly connected to the central idea.",
+      "The writing provides adequate supporting details, but some may be underdeveloped or lack depth.",
+      "The writing effectively develops the central idea with relevant and sufficient supporting details.",
+      "The writing thoroughly and insightfully develops the central idea with a wealth of compelling and well-reasoned supporting details.",
+      "The writing showcases exceptional development and elaboration; the supporting details are rich, nuanced, and seamlessly integrated, revealing a profound understanding of the subject matter."
+    ],
+    [
+      "The writing lacks organization; ideas are presented randomly and incoherently.",
+      "The writing attempts to organize ideas, but the structure is weak, confusing, or inconsistent.",
+      "The writing generally follows a logical organization, but there may be some lapses in coherence or transitions.",
+      "The writing demonstrates a clear and logical organization with effective transitions between ideas.",
+      "The writing exhibits a sophisticated and purposeful organization; the structure enhances the clarity and impact of the ideas.",
+      "The writing showcases masterful organization and structure; the ideas flow seamlessly and logically, creating a cohesive and compelling narrative that elevates the reader's understanding."
+    ],
+    [
+      "The writing lacks a distinct style or voice; the tone is inappropriate or inconsistent.",
+      "The writing attempts to establish a style or voice, but it is weak, generic, or unsuited to the task.",
+      "The writing generally demonstrates an appropriate style and voice, but there may be some inconsistencies or lapses in tone.",
+      "The writing effectively employs a style and voice that are appropriate to the task, purpose, and audience.",
+      "The writing exhibits a distinctive and engaging style and voice that enhance the overall quality of the work.",
+      "The writing showcases exceptional style and voice; the language is vivid, precise, and artfully crafted, creating a memorable and impactful reading experience."
+    ],
+    [
+      "The writing contains numerous errors in grammar, mechanics, and usage that impede understanding.",
+      "The writing contains frequent errors in grammar, mechanics, and usage that distract the reader.",
+      "The writing contains some errors in grammar, mechanics, and usage, but they do not significantly impede understanding.",
+      "The writing demonstrates a good command of grammar, mechanics, and usage with few errors.",
+      "The writing exhibits a strong command of grammar, mechanics, and usage with minimal errors.",
+      "The writing is virtually error-free and demonstrates a mastery of grammar, mechanics, and usage; the language is polished and precise, enhancing the overall impact of the work."
+    ]
+  ]
+}

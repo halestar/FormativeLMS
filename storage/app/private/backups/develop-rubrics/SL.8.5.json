@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity of Information",
+    "Strength of Claims and Evidence",
+    "Engagement and Interest",
+    "Technical Execution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No multimedia or visual displays are used, or they detract from the presentation.",
+      "Multimedia and visual displays are used, but they do not clarify information or are confusing.",
+      "Multimedia and visual displays are somewhat relevant but do not significantly enhance understanding.",
+      "Multimedia and visual displays generally clarify information and support the presentation's purpose.",
+      "Multimedia and visual displays clearly enhance understanding and provide relevant support for claims and evidence.",
+      "Multimedia and visual displays significantly clarify complex information, strengthen claims, and captivate the audience."
+    ],
+    [
+      "Multimedia and visual displays do not support claims or evidence, or no claims or evidence are present.",
+      "Multimedia and visual displays are vaguely related to claims but do not provide strong support.",
+      "Multimedia and visual displays offer some support for claims and evidence, but the connection is weak.",
+      "Multimedia and visual displays effectively support claims and evidence, enhancing the persuasiveness of the presentation.",
+      "Multimedia and visual displays strongly reinforce claims and evidence, making the presentation highly convincing.",
+      "Multimedia and visual displays powerfully enhance the strength and credibility of claims and evidence, leaving a lasting impact on the audience."
+    ],
+    [
+      "Multimedia and visual displays are absent or detract from audience engagement.",
+      "Multimedia and visual displays are uninspired and fail to capture the audience's attention.",
+      "Multimedia and visual displays generate minimal interest or engagement.",
+      "Multimedia and visual displays are somewhat engaging and contribute to audience interest.",
+      "Multimedia and visual displays are highly engaging and hold the audience's attention throughout the presentation.",
+      "Multimedia and visual displays are exceptionally captivating, creating a memorable and immersive experience for the audience."
+    ],
+    [
+      "The multimedia has technical issues that distract from the presentation.",
+      "There are multiple technical difficulties with the multimedia that require intervention.",
+      "The multimedia displays are largely functional, but still have a few small errors.",
+      "The multimedia displays are well executed and don't provide any distractions.",
+      "The multimedia displays have a level of creativity that raises the level of the presentation.",
+      "The multimedia displays were executed perfectly and act as an example of excellence for the class."
+    ]
+  ]
+}

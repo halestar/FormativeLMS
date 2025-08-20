@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Fundamental Theorem of Algebra",
+    "Ability to verify the Fundamental Theorem of Algebra for quadratic polynomials",
+    "Use of complex numbers in polynomial identities and equations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Fundamental Theorem of Algebra.",
+      "Student shows minimal understanding of the theorem, with significant misconceptions.",
+      "Student demonstrates partial understanding of the theorem but struggles with its implications.",
+      "Student understands the theorem and can state it correctly, but has difficulty applying it.",
+      "Student understands the theorem and can apply it in simple cases.",
+      "Student demonstrates a thorough understanding of the Fundamental Theorem of Algebra and can apply it effectively in various contexts."
+    ],
+    [
+      "Student is unable to verify the theorem for quadratic polynomials.",
+      "Student attempts to verify the theorem but makes significant errors in the process.",
+      "Student shows some progress in verifying the theorem, but struggles with the algebraic manipulations.",
+      "Student can verify the theorem for specific examples of quadratic polynomials but struggles with generalization.",
+      "Student can verify the theorem for quadratic polynomials, but the explanation lacks clarity.",
+      "Student provides a clear and concise verification of the Fundamental Theorem of Algebra for quadratic polynomials, demonstrating a strong understanding of the underlying concepts."
+    ],
+    [
+      "Student cannot use complex numbers in polynomial identities and equations.",
+      "Student attempts to use complex numbers but makes significant errors in application.",
+      "Student demonstrates limited ability to use complex numbers in polynomial identities and equations.",
+      "Student can use complex numbers in basic polynomial identities and equations, but struggles with more complex problems.",
+      "Student uses complex numbers effectively in polynomial identities and equations, with minor errors.",
+      "Student demonstrates mastery in the use of complex numbers within polynomial identities and equations, showcasing a sophisticated understanding."
+    ]
+  ]
+}

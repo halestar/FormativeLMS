@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of Multimedia Integration",
+    "Clarity and Relevance of Visuals",
+    "Emphasis of Salient Points"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No multimedia components or visual displays are included.",
+      "Multimedia components or visual displays are included, but they are irrelevant or distracting.",
+      "Multimedia components or visual displays are included, but they do not clearly support the claims and findings.",
+      "Multimedia components or visual displays are included and generally support the claims and findings, but the connection could be stronger.",
+      "Multimedia components or visual displays are thoughtfully integrated to clarify claims and findings and emphasize some salient points.",
+      "Multimedia components and visual displays are seamlessly integrated to clarify claims and findings, emphasizing salient points effectively and enhancing audience understanding."
+    ],
+    [
+      "Visuals are absent or completely unclear.",
+      "Visuals are included but are difficult to understand or irrelevant to the content.",
+      "Visuals are somewhat clear and relevant, but do not significantly enhance understanding.",
+      "Visuals are generally clear and relevant, supporting the presentation's content.",
+      "Visuals are clear, relevant, and contribute to a better understanding of the claims and findings.",
+      "Visuals are exceptionally clear, highly relevant, and powerfully enhance the audience's understanding of the presentation's key points."
+    ],
+    [
+      "No salient points are emphasized through multimedia or visuals.",
+      "An attempt is made to emphasize salient points, but it is ineffective.",
+      "Some salient points are emphasized, but the emphasis is weak or inconsistent.",
+      "Salient points are generally emphasized through multimedia and visuals.",
+      "Salient points are effectively emphasized, enhancing the audience's retention.",
+      "Salient points are masterfully emphasized, ensuring the audience grasps the most critical information."
+    ]
+  ]
+}

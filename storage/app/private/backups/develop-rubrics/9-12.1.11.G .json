@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Benefits to the Mother",
+    "Understanding of Benefits to the Father",
+    "Understanding of Benefits to the Child",
+    "Overall Evaluation and Synthesis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the benefits to the mother is demonstrated.",
+      "Demonstrates a minimal understanding of one or two benefits to the mother.",
+      "Identifies a few benefits to the mother, but lacks depth in explanation.",
+      "Explains several benefits to the mother with reasonable depth.",
+      "Thoroughly explains multiple benefits to the mother with detailed examples.",
+      "Provides a comprehensive and insightful analysis of the benefits to the mother, showing a deep understanding of the topic."
+    ],
+    [
+      "No understanding of the benefits to the father is demonstrated.",
+      "Demonstrates a minimal understanding of one or two benefits to the father.",
+      "Identifies a few benefits to the father, but lacks depth in explanation.",
+      "Explains several benefits to the father with reasonable depth.",
+      "Thoroughly explains multiple benefits to the father with detailed examples.",
+      "Provides a comprehensive and insightful analysis of the benefits to the father, showing a deep understanding of the topic."
+    ],
+    [
+      "No understanding of the benefits to the child is demonstrated.",
+      "Demonstrates a minimal understanding of one or two benefits to the child.",
+      "Identifies a few benefits to the child, but lacks depth in explanation.",
+      "Explains several benefits to the child with reasonable depth.",
+      "Thoroughly explains multiple benefits to the child with detailed examples.",
+      "Provides a comprehensive and insightful analysis of the benefits to the child, showing a deep understanding of the topic."
+    ],
+    [
+      "Fails to provide an overall evaluation or synthesis of the benefits.",
+      "Provides a weak or incomplete evaluation, lacking synthesis.",
+      "Offers a basic evaluation but shows limited ability to synthesize information.",
+      "Presents a reasonable evaluation and begins to synthesize information effectively.",
+      "Provides a strong evaluation, effectively synthesizing information from multiple perspectives.",
+      "Offers an exceptionally insightful and comprehensive evaluation, demonstrating a masterful synthesis of information."
+    ]
+  ]
+}

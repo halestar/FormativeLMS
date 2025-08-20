@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Germ Sources in Food",
+    "Explanation of Illness Caused by Germs in Food",
+    "Application of Knowledge to Real-World Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of how food can contain germs or cause illness.",
+      "The student shows minimal awareness that food might contain germs, but struggles to explain how.",
+      "The student acknowledges that food can contain germs and cause illness but provides vague or incomplete explanations.",
+      "The student explains how food can contain germs that cause illness with some detail, identifying one or two potential sources or pathways.",
+      "The student thoroughly explains how food can contain germs that cause illness, identifying several potential sources and pathways of contamination.",
+      "The student comprehensively explains how food can contain germs, detailing sources, pathways, and specific types of germs involved in foodborne illnesses."
+    ],
+    [
+      "The student fails to connect germs in food with any form of illness.",
+      "The student vaguely mentions illness related to food but does not connect it to germs.",
+      "The student identifies that germs in food can cause illness but does not elaborate on the type of illness or mechanism.",
+      "The student explains how germs in food can lead to common foodborne illnesses, providing basic symptoms or examples.",
+      "The student details the process by which germs in food can cause illness, describing the effects on the body and mentioning specific diseases.",
+      "The student provides an in-depth explanation of the pathogenesis of foodborne illnesses, detailing the interaction between germs, food, and the human body, including preventative measures."
+    ],
+    [
+      "The student cannot relate the concept to real-world scenarios.",
+      "The student vaguely attempts to relate the concept to real-world scenarios but struggles to make a clear connection.",
+      "The student identifies a real-world scenario where food can contain germs but does not fully explain the implications.",
+      "The student applies their knowledge to a real-world scenario, explaining how food contamination can occur and result in illness.",
+      "The student analyzes a real-world scenario, identifying potential sources of contamination and suggesting preventative measures based on their understanding of germs and illness.",
+      "The student evaluates complex real-world scenarios, proposing comprehensive strategies to prevent foodborne illnesses, integrating knowledge of germ sources, illness mechanisms, and public health practices."
+    ]
+  ]
+}

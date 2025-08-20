@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Social Environments",
+    "Description of Effects on Health",
+    "Description of Effects on Well-being",
+    "Use of Examples and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any social environments relevant to health and well-being.",
+      "Identifies only one social environment without explaining its relevance.",
+      "Identifies a few social environments but lacks depth in explaining their impact.",
+      "Identifies several social environments and provides a basic explanation of their influence on health and well-being.",
+      "Clearly identifies and explains multiple social environments and their impact on health and well-being with specific examples.",
+      "Provides a comprehensive identification and explanation of various social environments, thoroughly analyzing their complex impacts on health and well-being with insightful examples."
+    ],
+    [
+      "Does not describe how social environments affect health and well-being.",
+      "Provides a vague or inaccurate description of the effects.",
+      "Describes some effects of social environments on health, but lacks detail and accuracy.",
+      "Describes how social environments can affect health and well-being in a general way.",
+      "Clearly describes specific effects of social environments on health and well-being, providing examples.",
+      "Provides a detailed and nuanced description of how social environments significantly impact health and well-being, offering comprehensive examples and insights."
+    ],
+    [
+      "Does not describe how social environments affect well-being.",
+      "Provides a vague or inaccurate description of the effects on well-being.",
+      "Describes some effects of social environments on well-being, but lacks detail and accuracy.",
+      "Describes how social environments can affect well-being in a general way.",
+      "Clearly describes specific effects of social environments on well-being, providing examples.",
+      "Provides a detailed and nuanced description of how social environments significantly impact well-being, offering comprehensive examples and insights."
+    ],
+    [
+      "Provides no examples or evidence to support claims.",
+      "Provides limited or irrelevant examples or evidence.",
+      "Provides some examples or evidence, but they are not well-explained or connected to the description.",
+      "Provides examples and evidence that support the description of how social environments affect health and well-being.",
+      "Uses relevant and specific examples and evidence to strengthen the explanation of the effects of social environments on health and well-being.",
+      "Integrates compelling and thoroughly explained examples and evidence to provide a sophisticated and insightful analysis of the effects of social environments on health and well-being."
+    ]
+  ]
+}

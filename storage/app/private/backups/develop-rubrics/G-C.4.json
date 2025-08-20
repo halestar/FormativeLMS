@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Construction",
+    "Use of Tools and Techniques",
+    "Explanation of Steps"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The tangent line is not constructed or is completely inaccurate.",
+      "The tangent line is attempted but significantly deviates from the correct tangent, showing a lack of understanding of tangent properties.",
+      "The tangent line is close but has noticeable inaccuracies, such as not quite touching the circle at a single point or not being perfectly straight.",
+      "The tangent line is mostly accurate, with minor deviations that do not significantly affect the overall construction.",
+      "The tangent line is accurately constructed, touching the circle at a single point and extending correctly from the exterior point, with precise straightness.",
+      "The tangent line is perfectly constructed and clearly demonstrates a deep understanding of tangent properties and geometric precision."
+    ],
+    [
+      "No appropriate tools or techniques are used in the construction.",
+      "Tools are used incorrectly, or the techniques employed do not align with geometric principles.",
+      "Tools are used with limited effectiveness, showing a basic understanding of geometric techniques but lacking precision.",
+      "Tools are used effectively, demonstrating a good understanding of geometric techniques, with only minor errors.",
+      "Tools and techniques are skillfully used, showcasing geometric principles and demonstrating a strong understanding of tangent construction.",
+      "Masterful use of tools and techniques to accurately construct the tangent line and an exceptional understanding of underlying mathematical principles."
+    ],
+    [
+      "No explanation is provided or the explanation is completely irrelevant.",
+      "The explanation is unclear, incomplete, or demonstrates a misunderstanding of the construction process.",
+      "The explanation is partially complete, but some steps are missing or lack clarity.",
+      "The explanation describes most of the steps in the construction process but may lack detail or precision in certain areas.",
+      "The explanation is clear, concise, and accurately describes each step in the construction process, demonstrating a solid understanding.",
+      "The explanation is exceptionally clear, insightful, and provides a comprehensive and mathematically sound rationale for each step in the construction."
+    ]
+  ]
+}

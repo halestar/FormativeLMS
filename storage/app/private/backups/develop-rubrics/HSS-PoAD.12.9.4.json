@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Conditions Leading to Tyranny",
+    "Description of Consequences",
+    "Historical Context and Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No conditions leading to tyranny are identified for either country.",
+      "Identifies only one condition for one country or provides a vague, inaccurate condition for one or both countries.",
+      "Identifies one relevant condition for each of the two countries, but lacks detail or accuracy.",
+      "Identifies two relevant conditions for one country and one condition for the other country with some detail and accuracy.",
+      "Identifies two relevant conditions for each of the two countries with good detail and accuracy.",
+      "Identifies multiple relevant conditions for each of the two countries with excellent detail, accuracy, and insightful connections."
+    ],
+    [
+      "No consequences of tyranny are described for either country.",
+      "Describes only one consequence for one country or provides a vague, inaccurate consequence for one or both countries.",
+      "Describes one relevant consequence for each of the two countries, but lacks detail or accuracy.",
+      "Describes two relevant consequences for one country and one consequence for the other country with some detail and accuracy.",
+      "Describes two relevant consequences for each of the two countries with good detail and accuracy.",
+      "Describes multiple relevant consequences for each of the two countries with excellent detail, accuracy, and insightful connections."
+    ],
+    [
+      "Demonstrates no understanding of the historical context.",
+      "Demonstrates minimal understanding of the historical context with significant inaccuracies.",
+      "Demonstrates some understanding of the historical context but with noticeable inaccuracies.",
+      "Demonstrates a generally accurate understanding of the historical context with minor inaccuracies.",
+      "Demonstrates a strong and accurate understanding of the historical context with very few inaccuracies.",
+      "Demonstrates a comprehensive and nuanced understanding of the historical context with no inaccuracies and insightful analysis."
+    ]
+  ]
+}

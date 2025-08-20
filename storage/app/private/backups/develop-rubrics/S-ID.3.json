@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying Shape of Data Distribution",
+    "Determining Center of Data",
+    "Determining Spread of Data",
+    "Identifying Outliers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to describe the shape of the data distribution.",
+      "Identifies the shape of the distribution incorrectly or with minimal detail.",
+      "Describes the shape of the distribution (e.g., symmetric, skewed) but lacks precision.",
+      "Accurately describes the shape of the distribution with some relevant details.",
+      "Accurately and thoroughly describes the shape of the distribution, including relevant features like modality or uniformity.",
+      "Provides a comprehensive and insightful description of the shape of the data distribution, including nuanced observations."
+    ],
+    [
+      "No attempt to identify or interpret the center of the data.",
+      "Incorrectly identifies the center of the data or provides a definition.",
+      "Identifies the center (mean, median) but does not relate it to the data's context.",
+      "Correctly identifies the center and provides some interpretation in context.",
+      "Accurately determines the center and interprets its meaning within the context of the data set.",
+      "Demonstrates a deep understanding of the center, comparing and contrasting mean and median appropriately for the distribution."
+    ],
+    [
+      "No attempt to describe the spread of the data.",
+      "Describes the spread incorrectly or with a vague understanding.",
+      "Identifies measures of spread (range, IQR, standard deviation) but does not interpret them.",
+      "Calculates and describes the spread, relating it to the variability in the data.",
+      "Accurately determines and interprets the spread, explaining its implications for the data set.",
+      "Provides a sophisticated analysis of the spread, including the effects of outliers and its impact on statistical inferences."
+    ],
+    [
+      "No attempt to identify outliers in the data.",
+      "Incorrectly identifies outliers or does not provide justification.",
+      "Identifies potential outliers but does not analyze their impact.",
+      "Correctly identifies outliers and describes their potential effects on the data's shape, center, and spread.",
+      "Provides a thorough analysis of outliers, discussing their potential causes and their influence on statistical measures.",
+      "Demonstrates a comprehensive understanding of outliers, including methods for dealing with them and their implications for data interpretation."
+    ]
+  ]
+}

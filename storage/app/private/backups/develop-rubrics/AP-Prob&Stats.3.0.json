@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Discrete Random Variables",
+    "Application of Probability Concepts",
+    "Problem-Solving and Calculations",
+    "Interpretation of Results"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of discrete random variables.",
+      "Student shows minimal understanding of discrete random variables; struggles to define or identify them.",
+      "Student demonstrates a basic understanding of discrete random variables but has difficulty applying the concept.",
+      "Student demonstrates a satisfactory understanding of discrete random variables and can apply the concept to simple problems.",
+      "Student demonstrates a strong understanding of discrete random variables and can apply the concept to solve moderately complex problems.",
+      "Student demonstrates a comprehensive understanding of discrete random variables and can apply the concept to solve complex problems, including providing thorough explanations and justifications."
+    ],
+    [
+      "Student is unable to apply probability concepts to solve problems.",
+      "Student struggles to apply probability concepts and makes significant errors in calculations.",
+      "Student applies probability concepts with limited accuracy and requires assistance to solve problems.",
+      "Student applies probability concepts with reasonable accuracy and can solve basic problems independently.",
+      "Student applies probability concepts accurately and can solve moderately complex problems independently.",
+      "Student applies probability concepts with a high degree of accuracy and can solve complex problems independently, including providing detailed solutions and interpretations."
+    ],
+    [
+      "Student is unable to set up or perform calculations related to probability problems.",
+      "Student attempts to set up calculations but makes significant errors and cannot arrive at a solution.",
+      "Student can set up basic calculations but struggles with accuracy and completing the problem.",
+      "Student can set up and perform calculations with reasonable accuracy, arriving at a correct solution for simple problems.",
+      "Student can set up and perform calculations accurately, arriving at correct solutions for moderately complex problems.",
+      "Student can set up and perform calculations with a high degree of accuracy and efficiency, arriving at correct solutions for complex problems while showing all work in a clear and organized fashion."
+    ],
+    [
+      "Student does not attempt to interpret the results of probability calculations.",
+      "Student attempts to interpret results but provides incorrect or nonsensical interpretations.",
+      "Student provides a basic interpretation of results but lacks depth or understanding.",
+      "Student provides a reasonable interpretation of results, connecting calculations to the context of the problem.",
+      "Student provides a thorough and insightful interpretation of results, drawing meaningful conclusions.",
+      "Student provides a comprehensive and nuanced interpretation of results, drawing insightful conclusions and providing clear explanations of the implications."
+    ]
+  ]
+}

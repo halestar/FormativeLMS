@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Recognition of Potentially Violent Situations",
+    "Application of Avoidance Strategies",
+    "Application of Escape Strategies",
+    "Decision-Making Skills in High-Stress Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not recognize any signs of potential violence.",
+      "Recognizes one or two basic signs of potential violence.",
+      "Identifies several signs of potential violence in familiar situations.",
+      "Consistently identifies multiple signs of potential violence in various situations, including dating scenarios.",
+      "Accurately assesses and articulates the level of risk in potentially violent situations, including those that are nuanced or complex.",
+      "Expertly analyzes and predicts the escalation of violent situations, providing comprehensive insights and demonstrating foresight."
+    ],
+    [
+      "Unable to describe any strategies for avoiding potentially violent situations.",
+      "Lists one or two basic avoidance strategies.",
+      "Describes several avoidance strategies but struggles to apply them to real-life scenarios.",
+      "Demonstrates a good understanding of avoidance strategies and can apply them to common potentially violent situations.",
+      "Effectively uses a variety of avoidance strategies to de-escalate or escape from potentially violent situations, adapting to different contexts.",
+      "Masterfully navigates and resolves potentially violent situations using a comprehensive range of avoidance strategies, demonstrating adaptability and composure under pressure."
+    ],
+    [
+      "Unable to describe any strategies for escaping potentially violent situations.",
+      "Lists one or two basic escape strategies.",
+      "Describes several escape strategies but struggles to apply them to real-life scenarios.",
+      "Demonstrates a good understanding of escape strategies and can apply them to common potentially violent situations.",
+      "Effectively uses a variety of escape strategies to de-escalate or escape from potentially violent situations, adapting to different contexts.",
+      "Masterfully navigates and resolves potentially violent situations using a comprehensive range of escape strategies, demonstrating adaptability and composure under pressure."
+    ],
+    [
+      "Demonstrates poor decision-making skills and panics in simulated high-stress situations.",
+      "Struggles to make effective decisions under pressure.",
+      "Makes some reasonable decisions but can be easily overwhelmed.",
+      "Demonstrates sound decision-making skills in most simulated high-stress situations.",
+      "Consistently makes effective decisions under pressure, prioritizing safety and well-being.",
+      "Exhibits exceptional decision-making skills in the most challenging high-stress scenarios, demonstrating quick thinking and resourcefulness."
+    ]
+  ]
+}

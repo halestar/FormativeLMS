@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Diverse Sources",
+    "Coherent Understanding of Idea or Event",
+    "Noting Discrepancies Among Sources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify or include any sources in their analysis.",
+      "Identifies only one type of source (primary or secondary) with minimal integration.",
+      "Identifies both primary and secondary sources but struggles to integrate them effectively.",
+      "Identifies and integrates primary and secondary sources, but the connection between them is not always clear.",
+      "Effectively integrates information from diverse sources, showing a good understanding of their relevance to the idea or event.",
+      "Masterfully integrates information from diverse sources, demonstrating a sophisticated understanding of their relevance and contribution to a comprehensive understanding."
+    ],
+    [
+      "Demonstrates no coherent understanding of the idea or event.",
+      "Shows a limited understanding of the idea or event, with significant gaps in comprehension.",
+      "Presents a basic understanding of the idea or event, but lacks depth and coherence.",
+      "Demonstrates a reasonably coherent understanding of the idea or event, with some areas needing further clarification.",
+      "Presents a clear and coherent understanding of the idea or event, supported by integrated information from sources.",
+      "Exhibits a comprehensive and insightful understanding of the idea or event, synthesizing information from diverse sources into a cohesive and nuanced perspective."
+    ],
+    [
+      "Fails to recognize or address any discrepancies among sources.",
+      "Acknowledges discrepancies but does not explain them, with a poor understanding of what the discrepancies mean.",
+      "Identifies discrepancies among sources but struggles to explain their significance or resolve conflicts.",
+      "Notes some discrepancies among sources and attempts to explain their significance, but analysis is superficial.",
+      "Effectively identifies and analyzes discrepancies among sources, offering reasonable explanations for differences.",
+      "Masterfully identifies and critically analyzes discrepancies among sources, providing insightful explanations for differences and their implications for understanding the idea or event."
+    ]
+  ]
+}

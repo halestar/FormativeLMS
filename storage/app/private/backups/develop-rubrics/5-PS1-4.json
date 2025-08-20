@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Experimental Design: The student designs a controlled experiment to test the mixing of substances, identifying variables and controls effectively.",
+    "Data Collection: The student accurately collects and records data during the investigation.",
+    "Analysis and Interpretation: The student analyzes the data and draws appropriate conclusions about whether new substances were formed.",
+    "Cause and Effect Reasoning: The student identifies and explains cause-and-effect relationships in the mixing of substances."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to design an experiment or the design lacks any controls.",
+      "The experimental design is missing key elements, such as a control or clearly defined variables.",
+      "The experimental design is rudimentary, with some attempt to control variables, but lacks detail.",
+      "The experimental design is adequate, with identified variables and controls, but could be improved for clarity.",
+      "The experimental design is well-thought-out, clearly identifying variables and controls to ensure a fair test.",
+      "The experimental design is comprehensive and sophisticated, demonstrating a deep understanding of experimental controls and variables, ensuring a robust investigation."
+    ],
+    [
+      "No data is collected or the data is completely inaccurate.",
+      "Data collection is minimal or contains significant inaccuracies.",
+      "Data is collected inconsistently, with some errors or omissions.",
+      "Data is collected adequately, with minor errors or omissions.",
+      "Data is collected accurately and completely, with clear and organized records.",
+      "Data is collected meticulously and comprehensively, with detailed and well-organized records that facilitate analysis."
+    ],
+    [
+      "No attempt to analyze the data or draw conclusions.",
+      "Analysis is missing or the conclusions are not supported by the data.",
+      "Analysis is superficial, and the conclusions are weakly supported by the data.",
+      "Analysis is adequate, and the conclusions are generally supported by the data.",
+      "Analysis is thorough, and the conclusions are clearly supported by the data, with reasonable explanations.",
+      "Analysis is insightful, and the conclusions are strongly supported by the data, demonstrating a deep understanding of the chemical processes involved."
+    ],
+    [
+      "No cause-and-effect relationships are identified.",
+      "Attempts to identify cause-and-effect relationships are incorrect or irrelevant.",
+      "Cause-and-effect relationships are identified but not clearly explained.",
+      "Cause-and-effect relationships are identified and explained adequately.",
+      "Cause-and-effect relationships are identified and explained clearly, demonstrating a good understanding.",
+      "Cause-and-effect relationships are identified and explained insightfully, demonstrating a comprehensive understanding of the underlying principles."
+    ]
+  ]
+}

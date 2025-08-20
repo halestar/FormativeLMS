@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Undefined Notions",
+    "Definition of Angle and Circle",
+    "Definition of Perpendicular and Parallel Lines",
+    "Definition of Line Segment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of point, line, distance along a line, and distance around a circular arc.",
+      "Student demonstrates minimal understanding of point, line, distance along a line, and distance around a circular arc; definitions are unclear or inaccurate.",
+      "Student demonstrates partial understanding of undefined notions but struggles to apply them to definitions.",
+      "Student accurately defines at least three of the terms using undefined notions.",
+      "Student demonstrates a clear and mostly accurate understanding of point, line, distance along a line, and distance around a circular arc and uses them effectively in defining other geometric terms.",
+      "Student demonstrates a complete and accurate understanding of undefined notions and uses them fluently and precisely to define other geometric terms."
+    ],
+    [
+      "Student cannot provide a definition for angle or circle.",
+      "Student provides definitions for angle and circle that are vague, circular, or inaccurate.",
+      "Student provides definitions for angle and circle that have some correct elements but are incomplete or contain inaccuracies.",
+      "Student provides reasonably accurate definitions for angle and circle, but may lack precision or clarity.",
+      "Student provides accurate and clear definitions for angle and circle, demonstrating a solid understanding of their fundamental properties.",
+      "Student provides precise, accurate, and insightful definitions for angle and circle, demonstrating a deep understanding of their properties and relationships to undefined terms."
+    ],
+    [
+      "Student cannot provide a definition for perpendicular or parallel lines.",
+      "Student provides definitions for perpendicular and parallel lines that are vague, circular, or inaccurate.",
+      "Student provides definitions for perpendicular and parallel lines that have some correct elements but are incomplete or contain inaccuracies.",
+      "Student provides reasonably accurate definitions for perpendicular and parallel lines, but may lack precision or clarity.",
+      "Student provides accurate and clear definitions for perpendicular and parallel lines, demonstrating a solid understanding of their fundamental properties.",
+      "Student provides precise, accurate, and insightful definitions for perpendicular and parallel lines, demonstrating a deep understanding of their properties and relationships to undefined terms."
+    ],
+    [
+      "Student cannot provide a definition for line segment.",
+      "Student provides a definition for line segment that is vague, circular, or inaccurate.",
+      "Student provides a definition for line segment that has some correct elements but is incomplete or contains inaccuracies.",
+      "Student provides a reasonably accurate definition for line segment, but may lack precision or clarity.",
+      "Student provides an accurate and clear definition for line segment, demonstrating a solid understanding of its fundamental properties.",
+      "Student provides a precise, accurate, and insightful definition for line segment, demonstrating a deep understanding of its properties and relationships to undefined terms."
+    ]
+  ]
+}

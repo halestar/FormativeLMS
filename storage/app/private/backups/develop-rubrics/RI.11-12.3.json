@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Ideas or Events",
+    "Analysis of Interactions",
+    "Explanation of Development",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any relevant ideas or events from the text.",
+      "Identifies a few ideas or events, but they are vague and lack connection to the text.",
+      "Identifies some key ideas or events, but the selection is incomplete or somewhat inaccurate.",
+      "Identifies most of the key ideas or events in the text with reasonable accuracy.",
+      "Identifies nearly all key ideas and events accurately and provides a clear overview.",
+      "Identifies all key ideas and events comprehensively and accurately, demonstrating a strong understanding of the text's content."
+    ],
+    [
+      "Provides no analysis of how the ideas or events interact.",
+      "Offers a superficial or confused analysis of the interactions between ideas or events.",
+      "Analyzes some interactions, but the explanation is unclear or lacks supporting evidence.",
+      "Clearly explains how several ideas or events interact with supporting details from the text.",
+      "Provides a thorough analysis of the interactions, exploring multiple layers of cause and effect.",
+      "Presents a nuanced and insightful analysis of the interactions, revealing complex relationships with textual evidence."
+    ],
+    [
+      "Does not explain how ideas or events develop over the course of the text.",
+      "Attempts to explain development, but the explanation is confusing or unsubstantiated.",
+      "Explains how some ideas or events develop, but the explanation is simplistic or incomplete.",
+      "Explains the development of ideas or events with adequate detail and textual support.",
+      "Clearly articulates how the ideas or events evolve and change throughout the text, providing strong support.",
+      "Demonstrates a deep understanding of the development, tracing the evolution of ideas or events with insightful analysis and strong textual evidence."
+    ],
+    [
+      "The response is disorganized and difficult to understand.",
+      "The response lacks a clear structure and contains significant issues in clarity.",
+      "The response has some organization, but ideas are not always presented clearly.",
+      "The response is generally clear and organized, with a logical flow of ideas.",
+      "The response is well-organized and clearly written, enhancing the effectiveness of the analysis.",
+      "The response is exceptionally clear, concise, and logically organized, presenting a compelling and insightful analysis."
+    ]
+  ]
+}

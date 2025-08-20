@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to construct a linear function from a description, two points, a table, or a graph.",
+    "Ability to determine the rate of change and initial value from various representations.",
+    "Ability to interpret the rate of change and initial value in the context of the situation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot construct a linear function from any representation.",
+      "Student can construct a linear function from one type of representation (e.g., description) with significant errors.",
+      "Student can construct a linear function from one type of representation with minor errors, or from two types with significant errors.",
+      "Student can construct a linear function from two types of representations with minor errors, or from three types with significant errors.",
+      "Student can construct a linear function from three types of representations with only minor errors.",
+      "Student can accurately construct a linear function from a description, two points, a table, and a graph."
+    ],
+    [
+      "Student cannot identify the rate of change or initial value from any representation.",
+      "Student can identify either the rate of change or initial value from one representation with significant errors.",
+      "Student can identify either the rate of change or initial value from one representation with minor errors, or from two representations with significant errors.",
+      "Student can identify both the rate of change and initial value from two representations with minor errors, or from three representations with significant errors.",
+      "Student can accurately determine the rate of change and initial value from three representations.",
+      "Student can accurately determine the rate of change and initial value from a description, two points, a table, and a graph."
+    ],
+    [
+      "Student cannot interpret the rate of change or initial value in context.",
+      "Student attempts to interpret but demonstrates a significant misunderstanding.",
+      "Student can interpret either the rate of change or initial value with some accuracy, but not both.",
+      "Student can interpret both the rate of change and initial value but lacks clear connection to the context.",
+      "Student interprets the rate of change and initial value in the context, but explanation lacks depth or clarity.",
+      "Student clearly and accurately interprets the rate of change and initial value in terms of the situation and connects it effectively to the graph or table."
+    ]
+  ]
+}

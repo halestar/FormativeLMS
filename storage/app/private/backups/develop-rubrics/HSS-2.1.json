@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately place historical events on a timeline.",
+    "Understanding the relative scale of historical time periods.",
+    "Application of temporal understanding to analyze historical cause and effect."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot distinguish between past and present events; shows no understanding of chronological order.",
+      "Student struggles to differentiate between events, frequently misplacing them on a timeline or confusing their order.",
+      "Student demonstrates some understanding of chronological order but makes significant errors in placing events on a timeline.",
+      "Student can generally place events in the correct order but may have some difficulty with specific dates or time periods.",
+      "Student accurately places most events on a timeline and demonstrates a good understanding of chronological order.",
+      "Student expertly places events on a timeline, demonstrating a sophisticated understanding of chronological order and historical context."
+    ],
+    [
+      "Student shows no understanding of how long ago certain events occurred.",
+      "Student demonstrates a limited sense of the duration of historical periods and struggles to differentiate between recent and ancient history.",
+      "Student begins to grasp the scale of historical time but makes frequent errors in estimating the duration of events or periods.",
+      "Student demonstrates a reasonable understanding of the scale of historical time, accurately differentiating between events that happened long ago and more recently.",
+      "Student accurately distinguishes between events across different time scales and demonstrates a strong understanding of the relative duration of historical periods.",
+      "Student possesses a nuanced understanding of the scale of historical time, skillfully comparing the duration and significance of events across vast time scales."
+    ],
+    [
+      "Student is unable to make connections between past and present events.",
+      "Student struggles to identify cause-and-effect relationships between events and fails to understand how past events influence the present.",
+      "Student can identify some basic cause-and-effect relationships but struggles to analyze more complex connections between past and present.",
+      "Student is able to explain simple cause-and-effect relationships and can analyze how past events have shaped the present.",
+      "Student accurately analyzes cause-and-effect relationships and demonstrates a strong understanding of how historical events have influenced the present.",
+      "Student skillfully analyzes complex cause-and-effect relationships, demonstrating a profound understanding of how past events continue to shape the present and future."
+    ]
+  ]
+}

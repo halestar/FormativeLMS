@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Stressors",
+    "Description of Coping Mechanisms",
+    "Application of Coping Strategies",
+    "Self-Reflection and Adjustment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any personal stressors.",
+      "The student identifies one or two stressors vaguely.",
+      "The student identifies some personal stressors but lacks detail.",
+      "The student identifies several personal stressors with some detail.",
+      "The student clearly identifies and describes multiple personal stressors.",
+      "The student comprehensively identifies, describes, and analyzes their personal stressors, demonstrating a strong understanding of the causes of stress."
+    ],
+    [
+      "The student does not describe any coping mechanisms.",
+      "The student mentions one or two coping mechanisms without explanation.",
+      "The student describes some coping mechanisms, but the descriptions are unclear or not effective.",
+      "The student describes several coping mechanisms with some explanation of how they work.",
+      "The student clearly describes multiple coping mechanisms and explains how they can be used to manage stress.",
+      "The student comprehensively describes and evaluates a variety of coping mechanisms, demonstrating a nuanced understanding of their effectiveness and appropriateness for different situations."
+    ],
+    [
+      "The student does not demonstrate the application of any coping strategies.",
+      "The student attempts to apply a coping strategy, but it is inappropriate or ineffective.",
+      "The student applies a coping strategy with limited success.",
+      "The student applies coping strategies with some success in managing stress.",
+      "The student effectively applies coping strategies to manage stress in various situations.",
+      "The student consistently and effectively applies a range of coping strategies to manage stress, demonstrating resilience and adaptability in challenging situations."
+    ],
+    [
+      "The student does not reflect on their stress management strategies.",
+      "The student briefly mentions their experience with stress management but provides no analysis.",
+      "The student reflects on their stress management strategies but offers limited insight.",
+      "The student reflects on their stress management strategies and identifies areas for improvement.",
+      "The student thoughtfully reflects on their stress management strategies and proposes adjustments for better outcomes.",
+      "The student demonstrates deep self-awareness, critically evaluates their stress management strategies, and develops a comprehensive plan for ongoing personal growth and resilience."
+    ]
+  ]
+}

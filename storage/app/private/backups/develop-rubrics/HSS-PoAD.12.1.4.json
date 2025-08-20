@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Founding Fathers' View of Human Nature",
+    "Explanation of the Link to Constitutional System",
+    "Reference to the Federalist Papers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Founding Fathers' view of human nature.",
+      "Student demonstrates a very limited understanding of the Founding Fathers' view of human nature.",
+      "Student demonstrates a basic understanding of the Founding Fathers' view of human nature but struggles to articulate it clearly.",
+      "Student demonstrates a satisfactory understanding of the Founding Fathers' view of human nature and can articulate it.",
+      "Student demonstrates a strong understanding of the Founding Fathers' view of human nature, including its complexities and nuances.",
+      "Student demonstrates a comprehensive and insightful understanding of the Founding Fathers' view of human nature, including its historical context and philosophical underpinnings."
+    ],
+    [
+      "Student does not explain the link between the Founding Fathers' view of human nature and the establishment of a constitutional system.",
+      "Student attempts to explain the link but the explanation is unclear and incomplete.",
+      "Student provides a limited explanation of the link between the Founding Fathers' view and the constitutional system.",
+      "Student explains the link between the Founding Fathers' view and the establishment of a constitutional system that limited power.",
+      "Student clearly explains the link between the Founding Fathers' view and the constitutional system, including specific examples of limitations on power.",
+      "Student provides a thorough and insightful explanation of the link, demonstrating a deep understanding of how the Founding Fathers' view of human nature shaped the structure and function of the constitutional system, with specific reference to the Federalist Papers."
+    ],
+    [
+      "Student makes no reference to the Federalist Papers.",
+      "Student mentions the Federalist Papers but does not elaborate.",
+      "Student vaguely references the Federalist Papers in relation to the topic.",
+      "Student references the Federalist Papers to support their explanation.",
+      "Student cites specific arguments from the Federalist Papers to support their explanation of the constitutional system.",
+      "Student demonstrates a sophisticated understanding of the relevant arguments in the Federalist Papers and effectively integrates them into their explanation, showing a nuanced grasp of the historical and intellectual context."
+    ]
+  ]
+}

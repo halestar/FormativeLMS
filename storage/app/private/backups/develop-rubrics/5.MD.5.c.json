@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Volume Concepts",
+    "Application of Volume Formulas",
+    "Solving Real-World Problems",
+    "Additive Volume of Composite Figures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of volume or how it relates to multiplication and addition is demonstrated.",
+      "Shows minimal understanding of volume as a measurable attribute and struggles to connect it to multiplication or addition.",
+      "Demonstrates a basic understanding of volume but has difficulty relating it to multiplication and addition in a consistent manner.",
+      "Understands volume as a measurable attribute and can relate it to multiplication and addition in simple scenarios.",
+      "Clearly understands the relationship between volume, multiplication, and addition, and can apply this understanding to solve most problems.",
+      "Demonstrates a comprehensive understanding of volume and its relationship to multiplication and addition, applying this knowledge to solve complex problems effectively."
+    ],
+    [
+      "Unable to apply any volume formulas or techniques to solve problems.",
+      "Attempts to use volume formulas but makes significant errors in application.",
+      "Can apply volume formulas in simple cases but struggles with more complex or real-world problems.",
+      "Applies volume formulas correctly in most scenarios, including some real-world applications.",
+      "Consistently applies volume formulas accurately and efficiently to solve a variety of problems, including real-world contexts.",
+      "Masterfully applies and adapts volume formulas to solve complex, multi-step problems, demonstrating a deep understanding of their application."
+    ],
+    [
+      "Unable to approach or solve real-world problems involving volume.",
+      "Struggles to interpret and set up real-world problems related to volume.",
+      "Can solve simple real-world problems with direct application of volume concepts but struggles with more complex scenarios.",
+      "Solves most real-world problems involving volume with reasonable accuracy and understanding.",
+      "Effectively translates real-world scenarios into mathematical problems and solves them accurately using volume concepts.",
+      "Demonstrates exceptional problem-solving skills by independently applying volume concepts to complex real-world situations and providing clear, logical solutions."
+    ],
+    [
+      "Does not recognize volume as additive or how to find the volume of composite figures.",
+      "Shows limited understanding of additive volume and struggles to decompose composite figures.",
+      "Can identify component shapes of composite figures but has difficulty calculating total volume accurately.",
+      "Correctly applies the concept of additive volume to find the volume of most composite figures.",
+      "Accurately and efficiently calculates the volume of complex composite figures by breaking them into non-overlapping parts.",
+      "Demonstrates a sophisticated understanding of additive volume, creatively solving challenging problems involving composite figures with accuracy and precision."
+    ]
+  ]
+}

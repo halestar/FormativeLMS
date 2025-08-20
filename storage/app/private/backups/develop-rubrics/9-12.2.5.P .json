@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Social Influences",
+    "Analysis of Encouraging Influences",
+    "Analysis of Discouraging Influences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any social influences related to sun-safety practices.",
+      "Identifies one or two social influences, but lacks detail or accuracy.",
+      "Identifies some social influences (3-4), but the explanation of their impact is superficial.",
+      "Identifies several social influences (5-6) with a basic explanation of how they affect sun-safety practices.",
+      "Clearly identifies and explains multiple social influences (7-8) and provides relevant examples of their effects on sun-safety.",
+      "Thoroughly analyzes a wide range of social influences (8+) with insightful explanations and specific examples demonstrating their impact on sun-safety practices."
+    ],
+    [
+      "Does not identify or analyze any social influences that encourage sun-safety practices.",
+      "Identifies one encouraging influence with minimal explanation.",
+      "Identifies a few (2-3) encouraging influences, but analysis is weak.",
+      "Identifies and provides a basic analysis of several (3-4) encouraging influences.",
+      "Offers a detailed analysis of multiple (4-5) encouraging social influences, including their mechanisms of action.",
+      "Provides a comprehensive and nuanced analysis of numerous (5+) encouraging social influences, demonstrating a deep understanding of their impact on behavior."
+    ],
+    [
+      "Does not identify or analyze any social influences that discourage sun-safety practices.",
+      "Identifies one discouraging influence with minimal explanation.",
+      "Identifies a few (2-3) discouraging influences, but analysis is weak.",
+      "Identifies and provides a basic analysis of several (3-4) discouraging influences.",
+      "Offers a detailed analysis of multiple (4-5) discouraging social influences, including their mechanisms of action.",
+      "Provides a comprehensive and nuanced analysis of numerous (5+) discouraging social influences, demonstrating a deep understanding of their impact on behavior."
+    ]
+  ]
+}

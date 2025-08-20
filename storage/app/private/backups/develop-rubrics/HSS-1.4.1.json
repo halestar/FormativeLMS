@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Past School Structures",
+    "Understanding of Past Community Structures",
+    "Comparison of Past and Present Structures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of school structures in the past.",
+      "Student shows a minimal understanding of past school structures with significant inaccuracies.",
+      "Student identifies one or two basic elements of past school structures but lacks depth in explanation.",
+      "Student accurately describes several aspects of school structures in the past, showing a general understanding.",
+      "Student provides a detailed and accurate description of school structures in the past, including specific examples and relevant details.",
+      "Student demonstrates a comprehensive understanding of school structures in the past, providing insightful analysis and drawing connections to broader historical context."
+    ],
+    [
+      "Student demonstrates no understanding of community structures in the past.",
+      "Student shows a minimal understanding of past community structures with significant inaccuracies.",
+      "Student identifies one or two basic elements of past community structures but lacks depth in explanation.",
+      "Student accurately describes several aspects of community structures in the past, showing a general understanding.",
+      "Student provides a detailed and accurate description of community structures in the past, including specific examples and relevant details.",
+      "Student demonstrates a comprehensive understanding of community structures in the past, providing insightful analysis and drawing connections to broader historical context."
+    ],
+    [
+      "Student makes no attempt to compare past and present school or community structures.",
+      "Student attempts to compare past and present structures but demonstrates significant misunderstandings.",
+      "Student identifies a few superficial differences between past and present structures.",
+      "Student accurately compares several aspects of past and present structures, identifying key similarities and differences.",
+      "Student provides a thorough comparison of past and present structures, explaining the reasons behind the changes or continuities.",
+      "Student offers a nuanced and insightful comparison of past and present structures, demonstrating a deep understanding of historical context and societal influences."
+    ]
+  ]
+}

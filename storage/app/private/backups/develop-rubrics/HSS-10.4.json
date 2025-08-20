@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Regions\/Countries Affected by New Imperialism",
+    "Analysis of Patterns of Global Change",
+    "Depth of Understanding of New Imperialism"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any of the regions or countries listed.",
+      "Student identifies only one region\/country with inaccuracies.",
+      "Student identifies one region\/country accurately.",
+      "Student identifies two regions\/countries with minor inaccuracies.",
+      "Student identifies two regions\/countries accurately.",
+      "Student identifies more than two regions\/countries accurately."
+    ],
+    [
+      "Student demonstrates no understanding of patterns of global change.",
+      "Student attempts to describe a pattern but provides insufficient detail or accuracy.",
+      "Student describes one pattern of global change superficially.",
+      "Student describes one pattern of global change with reasonable detail and accuracy.",
+      "Student analyzes two patterns of global change with good detail and accuracy.",
+      "Student analyzes multiple patterns of global change with exceptional detail, accuracy, and insight."
+    ],
+    [
+      "Student demonstrates no understanding of New Imperialism.",
+      "Student shows minimal understanding of New Imperialism, with significant misconceptions.",
+      "Student shows basic understanding of New Imperialism but lacks depth.",
+      "Student demonstrates a solid understanding of New Imperialism.",
+      "Student demonstrates a comprehensive understanding of New Imperialism, including its causes and effects.",
+      "Student demonstrates an exceptional and nuanced understanding of New Imperialism, including its long-term consequences and diverse interpretations."
+    ]
+  ]
+}

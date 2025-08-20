@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Rules and Laws",
+    "Understanding the Intent of Rules and Laws",
+    "Examples of Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify any rules or laws related to injury prevention.",
+      "Identifies only one rule or law, but it is vague or partially incorrect.",
+      "Identifies one rule or law accurately but provides no context or explanation.",
+      "Identifies two rules or laws accurately, providing minimal context.",
+      "Identifies three or more rules and laws accurately, providing context for at least two.",
+      "Identifies multiple rules and laws accurately, providing clear context and explaining their purpose in preventing injuries."
+    ],
+    [
+      "Shows no understanding of why rules and laws are in place to prevent injuries.",
+      "Demonstrates a limited or flawed understanding of the intent behind one rule or law.",
+      "Understands the intent of at least one rule or law, but the explanation is superficial.",
+      "Explains the intent behind two rules or laws with some clarity.",
+      "Clearly explains the intent behind multiple rules and laws and how they contribute to safety.",
+      "Demonstrates a comprehensive understanding of the intent behind numerous rules and laws, explaining their societal impact on injury prevention."
+    ],
+    [
+      "Provides no relevant examples of how these rules and laws are applied.",
+      "Provides an irrelevant or incorrect example.",
+      "Provides one basic example of how a rule or law is applied.",
+      "Provides two examples of how rules or laws are applied, but lacks detail.",
+      "Gives at least three clear and relevant examples of rules and laws being applied to prevent injuries.",
+      "Offers multiple detailed and relevant examples, demonstrating a thorough understanding of how rules and laws are applied in real-world scenarios to prevent injuries."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Private Property Rights",
+    "Evaluation of Resource Conservation",
+    "Application to Renewable and Non-Renewable Resources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of private property rights and their implications.",
+      "Student demonstrates a very limited understanding of private property rights, with significant misconceptions.",
+      "Student demonstrates a basic understanding of private property rights but struggles to explain their role in resource management.",
+      "Student demonstrates a satisfactory understanding of private property rights and can explain their role in resource management with some clarity.",
+      "Student demonstrates a strong understanding of private property rights and clearly explains their role in incentivizing resource conservation and improvement.",
+      "Student demonstrates a comprehensive understanding of private property rights, clearly explains their role as incentives, and provides insightful examples of their impact on resource management."
+    ],
+    [
+      "Student does not address the concept of resource conservation or improvement.",
+      "Student mentions resource conservation but provides no evaluation of its connection to private property.",
+      "Student attempts to connect private property and resource conservation but offers a superficial evaluation.",
+      "Student provides a reasonable evaluation of how private property can lead to resource conservation, but lacks depth.",
+      "Student provides a thorough evaluation of the incentives created by private property for resource conservation and improvement.",
+      "Student offers a nuanced and insightful evaluation, considering various perspectives and potential drawbacks of private property in resource management."
+    ],
+    [
+      "Student does not distinguish between renewable and non-renewable resources.",
+      "Student mentions renewable and non-renewable resources but does not apply the concept of private property to both.",
+      "Student attempts to apply private property concepts to both types of resources but shows limited understanding.",
+      "Student applies private property incentives to both renewable and non-renewable resources, but with some generalizations.",
+      "Student clearly explains how private property rights affect conservation and improvement differently for renewable and non-renewable resources.",
+      "Student provides a sophisticated analysis of the complexities of applying private property incentives to both renewable and non-renewable resources, with specific examples."
+    ]
+  ]
+}

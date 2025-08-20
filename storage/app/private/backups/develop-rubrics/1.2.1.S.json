@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Explanation of how Internal Influences lead to\/prevent Injury or Violence",
+    "Identification of External Influences",
+    "Explanation of how External Influences lead to\/prevent Injury or Violence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any internal influences on injury or violence.",
+      "Student identifies one internal influence with limited accuracy or detail.",
+      "Student identifies two internal influences with basic accuracy.",
+      "Student identifies three internal influences with reasonable accuracy and some detail.",
+      "Student identifies multiple internal influences with good accuracy and clear examples.",
+      "Student comprehensively identifies and explains various internal influences, providing insightful examples and demonstrating a strong understanding."
+    ],
+    [
+      "Student does not explain how internal influences affect injury or violence.",
+      "Student offers a vague or unclear explanation of the relationship between internal influences and injury\/violence.",
+      "Student provides a basic explanation of how one or two internal influences can lead to or prevent injury\/violence.",
+      "Student explains how multiple internal influences can lead to or prevent injury\/violence, with some supporting details.",
+      "Student clearly and accurately explains the mechanisms by which internal influences increase or decrease the risk of injury\/violence, providing relevant examples.",
+      "Student provides a sophisticated and nuanced explanation of the complex interplay between internal influences and the likelihood of injury\/violence, demonstrating critical thinking."
+    ],
+    [
+      "Student does not identify any external influences on injury or violence.",
+      "Student identifies one external influence with limited accuracy or detail.",
+      "Student identifies two external influences with basic accuracy.",
+      "Student identifies three external influences with reasonable accuracy and some detail.",
+      "Student identifies multiple external influences with good accuracy and clear examples.",
+      "Student comprehensively identifies and explains various external influences, providing insightful examples and demonstrating a strong understanding."
+    ],
+    [
+      "Student does not explain how external influences affect injury or violence.",
+      "Student offers a vague or unclear explanation of the relationship between external influences and injury\/violence.",
+      "Student provides a basic explanation of how one or two external influences can lead to or prevent injury\/violence.",
+      "Student explains how multiple external influences can lead to or prevent injury\/violence, with some supporting details.",
+      "Student clearly and accurately explains the mechanisms by which external influences increase or decrease the risk of injury\/violence, providing relevant examples.",
+      "Student provides a sophisticated and nuanced explanation of the complex interplay between external influences and the likelihood of injury\/violence, demonstrating critical thinking."
+    ]
+  ]
+}

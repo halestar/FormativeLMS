@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Goal Setting",
+    "Progress Tracking",
+    "Adaptation and Adjustment",
+    "Reflection and Learning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal is set.",
+      "A goal is vaguely defined.",
+      "A goal is set but not measurable or time-bound.",
+      "A specific, measurable goal is set, but the timeline is unclear.",
+      "A specific, measurable, achievable, relevant, and time-bound (SMART) goal is set.",
+      "A SMART goal is clearly articulated and shows a deep understanding of personal fitness needs and aspirations."
+    ],
+    [
+      "No tracking of progress.",
+      "Progress is tracked sporadically with no clear method.",
+      "Progress is tracked, but the method is inconsistent or incomplete.",
+      "Progress is tracked regularly using a defined method, but data interpretation is limited.",
+      "Progress is tracked consistently with a clear method, and data is interpreted to some extent.",
+      "Progress is tracked meticulously using a variety of methods, data is thoroughly analyzed, and insights are used to adjust the activity plan effectively."
+    ],
+    [
+      "No adjustments made to the activity plan.",
+      "Attempted adjustments are ineffective.",
+      "Adjustments are made without clear reasoning or connection to progress data.",
+      "Adjustments are made based on progress data, but effectiveness is questionable.",
+      "Effective adjustments are made to the activity plan based on progress data and personal feedback.",
+      "Adaptive strategies are innovatively employed, demonstrating resilience and a deep understanding of personal capabilities and limitations in achieving the goal."
+    ],
+    [
+      "No reflection on the process.",
+      "Reflection is superficial with no actionable insights.",
+      "Reflection identifies some challenges but lacks depth.",
+      "Reflection identifies specific challenges and suggests potential improvements.",
+      "Reflection demonstrates a comprehensive understanding of the challenges and successes, with clear strategies for future improvement.",
+      "Reflection is insightful and transformative, showing a profound understanding of personal growth through the process and a commitment to lifelong fitness."
+    ]
+  ]
+}

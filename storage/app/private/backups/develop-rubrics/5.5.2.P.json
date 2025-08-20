@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Symptoms Requiring Medical Assistance",
+    "Application of Decision-Making Process",
+    "Consideration of Contextual Factors",
+    "Appropriateness of Actions Taken"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not recognize or identify any symptoms that would require medical assistance.",
+      "Identifies one or two common symptoms inaccurately.",
+      "Identifies some common symptoms but misses key indicators of serious conditions.",
+      "Identifies most common symptoms and some indicators of serious conditions with minor inaccuracies.",
+      "Accurately identifies common symptoms and key indicators of serious conditions in most scenarios.",
+      "Consistently and accurately identifies a wide range of symptoms and key indicators, demonstrating a comprehensive understanding of when medical assistance is needed."
+    ],
+    [
+      "Unable to apply any decision-making steps or processes to determine when medical assistance is needed.",
+      "Attempts to apply a decision-making process but does so inconsistently and without clear reasoning.",
+      "Applies a basic decision-making process but omits crucial steps or considers irrelevant factors.",
+      "Applies a structured decision-making process with minor omissions or misapplications.",
+      "Effectively applies a comprehensive decision-making process, considering relevant factors and potential outcomes.",
+      "Masterfully applies a nuanced and comprehensive decision-making process, adapting strategies based on the unique circumstances and demonstrating foresight in predicting outcomes and consequences."
+    ],
+    [
+      "Fails to consider any contextual factors that may influence the need for medical assistance.",
+      "Considers one or two basic contextual factors (e.g., presence of pain) without understanding their implications.",
+      "Considers some contextual factors but misses critical elements or misinterprets their significance.",
+      "Considers most contextual factors and understands their general implications, but may overlook subtle nuances.",
+      "Thoroughly considers all relevant contextual factors, including individual history, environmental conditions, and available resources.",
+      "Demonstrates exceptional awareness of contextual factors, integrating them seamlessly into the decision-making process to make informed and ethical decisions that prioritize the well-being of themselves and others."
+    ],
+    [
+      "Suggests actions that are entirely inappropriate or harmful in response to the situation.",
+      "Suggests actions that are partially appropriate but may exacerbate the situation or delay necessary care.",
+      "Suggests actions that are generally safe but may not address the underlying medical need effectively.",
+      "Suggests appropriate actions that address the immediate medical need, but may overlook long-term implications or preventative measures.",
+      "Suggests comprehensive and appropriate actions that address both the immediate medical need and long-term preventative measures.",
+      "Consistently advocates for actions that are not only appropriate but also ethical, culturally sensitive, and aligned with best practices, demonstrating a commitment to promoting health equity and access to care for all individuals."
+    ]
+  ]
+}

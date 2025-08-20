@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Unscientific Diet Practices",
+    "Analysis of Harmful Effects",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes an unscientific diet practice.",
+      "Identifies some diet practices but struggles to classify them as scientific or unscientific.",
+      "Identifies a few unscientific diet practices but lacks depth in explanation.",
+      "Identifies several unscientific diet practices and provides a basic explanation of each.",
+      "Clearly identifies multiple unscientific diet practices with detailed explanations and relevant examples.",
+      "Provides a comprehensive overview of various unscientific diet practices, demonstrating a nuanced understanding with clear, detailed examples and justifications."
+    ],
+    [
+      "Does not identify any harmful effects associated with unscientific diet practices.",
+      "Mentions some potential negative consequences but lacks specific details or explanations.",
+      "Identifies a few harmful effects, but the analysis is superficial and lacks supporting information.",
+      "Explains several harmful effects of unscientific diet practices with some supporting details.",
+      "Provides a thorough analysis of various harmful effects, including physical and psychological consequences, with supporting evidence.",
+      "Offers an in-depth and insightful analysis of the short-term and long-term harmful effects, demonstrating a comprehensive understanding of the consequences with supporting research or examples."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it challenging to follow the analysis.",
+      "Communicates some ideas clearly but struggles with organization and coherent analysis.",
+      "Presents ideas in a generally clear and organized manner, demonstrating a reasonable level of communication.",
+      "Communicates ideas clearly and logically, with well-organized thoughts and coherent analysis.",
+      "Communicates ideas with exceptional clarity, precision, and organization, presenting a sophisticated and compelling analysis."
+    ]
+  ]
+}

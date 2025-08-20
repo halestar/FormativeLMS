@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Observation and Data Collection",
+    "Relating Daylight Amount to Time of Year",
+    "Understanding of Patterns"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No observations are made, and no data is collected.",
+      "Attempts to make observations are minimal, and data collection is largely absent or irrelevant.",
+      "Basic observations are recorded, but data collection lacks detail and accuracy.",
+      "Relevant observations are made, and data is collected with reasonable accuracy, though some improvements could be made.",
+      "Thorough observations are made, and data is collected accurately and systematically, showing attention to detail.",
+      "Comprehensive and insightful observations are made, and data is collected meticulously with a clear understanding of its relevance to the time of year."
+    ],
+    [
+      "No connection is made between daylight amount and the time of year.",
+      "A vague or incorrect relationship is suggested between daylight amount and the time of year.",
+      "Identifies a general relationship, such as longer days in summer, but lacks detail and accuracy.",
+      "Accurately relates daylight amount to different times of the year, providing basic comparisons.",
+      "Clearly relates daylight amount to the seasons, providing accurate and well-supported comparisons.",
+      "Demonstrates a comprehensive understanding of the relationship between daylight amount and the time of year, including nuanced observations and insightful explanations."
+    ],
+    [
+      "No patterns are recognized or mentioned.",
+      "Identifies patterns incorrectly, or fails to connect them to daylight or time of year.",
+      "Identifies a basic pattern, such as days getting longer, but does not explain its broader significance.",
+      "Recognizes and describes patterns in daylight and relates them to the time of year, such as longer days in summer.",
+      "Explains patterns in daylight and relates them to seasonal changes, providing relevant evidence.",
+      "Demonstrates a deep understanding of patterns in daylight and their connection to the Earth's orbit, axial tilt, and seasonal changes, providing insightful and nuanced explanations."
+    ]
+  ]
+}

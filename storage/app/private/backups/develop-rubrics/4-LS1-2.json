@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation",
+    "Explanation of Sensory Information Processing",
+    "Application of Systems Thinking"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing key components or inaccurately represents the system of information transfer in animals.",
+      "The model includes some components, but there are significant inaccuracies in how they represent the system.",
+      "The model represents most of the components of the system with some inaccuracies that do not significantly impact understanding.",
+      "The model accurately represents the main components and interactions within the system of information transfer in animals.",
+      "The model is detailed and accurately represents the components and interactions, demonstrating a strong understanding of the system.",
+      "The model is exceptionally detailed, accurate, and provides additional insights into the system of information transfer in animals beyond the basic requirements."
+    ],
+    [
+      "The explanation does not identify different types of sensory information or how animals receive them.",
+      "The explanation identifies some types of sensory information, but does not clearly link them to how animals receive and process them.",
+      "The explanation identifies multiple types of sensory information and provides a basic description of how animals receive and process them.",
+      "The explanation clearly describes how different types of sensory information are received and processed by animals, including the role of the brain.",
+      "The explanation provides a comprehensive description of sensory information processing, including the specific roles of sensory receptors and the brain in animals.",
+      "The explanation is insightful and provides a nuanced understanding of sensory information processing, including comparative examples across different species."
+    ],
+    [
+      "The response fails to describe the system in terms of its components and their interactions.",
+      "The response attempts to describe the system but does not clearly articulate the interactions between components.",
+      "The response describes the system's components and mentions some interactions, but the connections are weak.",
+      "The response clearly describes the components of the system and explains their interactions in information processing.",
+      "The response demonstrates a strong understanding of systems thinking by thoroughly explaining the components and their complex interactions.",
+      "The response extends beyond the basics, showing mastery of systems thinking by explaining the emergent properties of the system and how changes in one component affect the entire system."
+    ]
+  ]
+}

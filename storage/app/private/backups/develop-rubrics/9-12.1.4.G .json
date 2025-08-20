@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Abstinence as a Preventive Method",
+    "Comparison to Other Methods",
+    "Accuracy of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not understand or incorrectly identifies abstinence as a method for prevention.",
+      "Demonstrates minimal understanding of abstinence, with significant misconceptions about its effectiveness.",
+      "Shows some understanding of abstinence but struggles to articulate its benefits as a preventive method.",
+      "Can generally explain abstinence as a preventive method but lacks depth in explaining its effectiveness.",
+      "Clearly explains abstinence as a preventive method and its effectiveness in preventing HIV, other STDs, and pregnancy.",
+      "Comprehensively explains abstinence as the MOST effective method for prevention, providing detailed reasons and accurate information."
+    ],
+    [
+      "Unable to compare abstinence to other preventive methods.",
+      "Attempts to compare abstinence to other methods but provides inaccurate or irrelevant information.",
+      "Makes a basic comparison of abstinence to other methods but lacks specific details.",
+      "Compares abstinence to other preventive methods, identifying some advantages of abstinence.",
+      "Effectively compares abstinence to other methods, clearly articulating the advantages of abstinence in preventing HIV, other STDs, and pregnancy.",
+      "Provides a comprehensive comparison of abstinence to other methods, highlighting the unique benefits and effectiveness of abstinence with supporting evidence."
+    ],
+    [
+      "Presents information with significant inaccuracies or misinformation.",
+      "Presents some accurate information but includes several inaccuracies or misunderstandings.",
+      "Presents mostly accurate information with minor errors or omissions.",
+      "Presents accurate information with a few minor details missing.",
+      "Presents accurate and detailed information about abstinence and its preventive benefits.",
+      "Presents exceptionally accurate, detailed, and comprehensive information, demonstrating a deep understanding of the topic."
+    ]
+  ]
+}

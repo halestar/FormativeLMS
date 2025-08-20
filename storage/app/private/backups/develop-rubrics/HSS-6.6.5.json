@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy of Listed Policies",
+    "Understanding of Unification under the Qin Dynasty"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No policies or achievements of Shi Huangdi are listed.",
+      "Lists one policy or achievement with inaccuracies.",
+      "Lists one policy or achievement of Shi Huangdi accurately.",
+      "Lists two policies or achievements of Shi Huangdi accurately.",
+      "Lists three policies or achievements of Shi Huangdi accurately.",
+      "Lists more than three policies or achievements of Shi Huangdi accurately, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Demonstrates no understanding of the context of the Qin Dynasty or unification.",
+      "Demonstrates a limited understanding of the Qin Dynasty or unification, with significant gaps.",
+      "Demonstrates a basic understanding of the Qin Dynasty and unification but lacks depth.",
+      "Demonstrates a good understanding of the Qin Dynasty and unification and connects policies to unification efforts.",
+      "Demonstrates a strong understanding of the Qin Dynasty and unification and explains how specific policies contributed to unifying northern China.",
+      "Demonstrates a comprehensive understanding of the Qin Dynasty, unification, and the lasting impact of Shi Huangdi's policies on China."
+    ]
+  ]
+}

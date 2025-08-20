@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Describing Cross-Sections",
+    "Identification of Shapes",
+    "Clarity and Precision in Explanations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to describe the cross-sections or descriptions are completely inaccurate.",
+      "Descriptions of cross-sections are attempted but are largely incorrect or incomplete.",
+      "Describes cross-sections with limited accuracy, missing key features or misidentifying shapes.",
+      "Describes most cross-sections accurately but may have minor errors or omissions.",
+      "Accurately describes the cross-sections resulting from various slices but lacks detail.",
+      "Provides accurate and detailed descriptions of all cross-sections, demonstrating a clear understanding of the shapes formed."
+    ],
+    [
+      "Fails to identify any shapes correctly.",
+      "Identifies only a few basic shapes with frequent errors.",
+      "Identifies basic shapes with some errors or confusion, especially with more complex shapes.",
+      "Identifies most shapes correctly but may hesitate or make minor errors with complex shapes.",
+      "Confidently and accurately identifies most shapes resulting from slices.",
+      "Demonstrates mastery in identifying all shapes, including complex and irregular cross-sections, with no errors."
+    ],
+    [
+      "Explanations are unclear, confusing, or absent.",
+      "Explanations lack clarity and are difficult to understand, with significant ambiguity.",
+      "Provides explanations that are somewhat understandable but lack precision and detail.",
+      "Provides clear explanations with reasonable precision but may lack depth or sophistication.",
+      "Communicates ideas clearly and precisely, providing well-reasoned explanations.",
+      "Explains concepts with exceptional clarity, precision, and sophistication, demonstrating a deep understanding of the underlying principles."
+    ]
+  ]
+}

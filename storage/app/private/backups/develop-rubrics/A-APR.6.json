@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to rewrite rational expressions using inspection.",
+    "Ability to rewrite rational expressions using long division.",
+    "Ability to rewrite rational expressions in the form q(x) + r(x)\/b(x).",
+    "Understanding of the relationship between the degrees of r(x) and b(x)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rational expressions or how to rewrite them.",
+      "Student attempts to rewrite rational expressions using inspection but shows significant errors and misunderstandings.",
+      "Student can rewrite simple rational expressions using inspection, but struggles with more complex expressions or makes frequent errors.",
+      "Student can generally rewrite rational expressions using inspection with minor errors or omissions.",
+      "Student accurately rewrites rational expressions using inspection with only occasional minor errors.",
+      "Student consistently and accurately rewrites rational expressions using inspection, demonstrating a strong understanding of the underlying principles."
+    ],
+    [
+      "Student demonstrates no understanding of long division or its application to rational expressions.",
+      "Student attempts to use long division to rewrite rational expressions but shows significant errors and misunderstandings.",
+      "Student can perform long division on simple rational expressions, but struggles with more complex expressions or makes frequent errors.",
+      "Student can generally perform long division on rational expressions with minor errors or omissions.",
+      "Student accurately performs long division on rational expressions with only occasional minor errors.",
+      "Student consistently and accurately performs long division on rational expressions, demonstrating a strong understanding of the process."
+    ],
+    [
+      "Student does not demonstrate an understanding of how to rewrite rational expressions in the specified form.",
+      "Student attempts to rewrite rational expressions in the specified form but shows significant errors and misunderstandings.",
+      "Student can rewrite simple rational expressions in the specified form, but struggles with more complex expressions or makes frequent errors.",
+      "Student can generally rewrite rational expressions in the specified form with minor errors or omissions.",
+      "Student accurately rewrites rational expressions in the specified form with only occasional minor errors.",
+      "Student consistently and accurately rewrites rational expressions in the specified form, demonstrating a strong understanding of polynomial division and remainders."
+    ],
+    [
+      "Student does not understand that the degree of r(x) must be less than the degree of b(x).",
+      "Student demonstrates a limited understanding of the degree relationship, often resulting in incorrect rewrites.",
+      "Student sometimes shows an understanding of the degree relationship, but not consistently, leading to some errors.",
+      "Student generally understands that the degree of r(x) must be less than the degree of b(x), with occasional oversight.",
+      "Student consistently applies the degree relationship correctly when rewriting rational expressions.",
+      "Student demonstrates a thorough understanding of the degree relationship and can explain why it must be maintained when rewriting rational expressions."
+    ]
+  ]
+}

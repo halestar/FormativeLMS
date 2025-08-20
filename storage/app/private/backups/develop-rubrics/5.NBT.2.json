@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Patterns in Zeros When Multiplying by Powers of 10",
+    "Understanding Decimal Placement When Multiplying or Dividing by Powers of 10",
+    "Using Whole-Number Exponents to Denote Powers of 10"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding demonstrated.",
+      "Cannot explain any patterns in the number of zeros when multiplying by powers of 10.",
+      "Can identify some patterns but struggles to explain them clearly or accurately.",
+      "Can explain simple patterns in the number of zeros when multiplying by powers of 10, but not complex ones.",
+      "Can clearly explain most patterns in the number of zeros when multiplying by powers of 10.",
+      "Demonstrates a comprehensive understanding of patterns in the number of zeros when multiplying by powers of 10, including complex cases, with clear and accurate explanations."
+    ],
+    [
+      "No understanding demonstrated.",
+      "Cannot explain the placement of the decimal point when multiplying or dividing by a power of 10.",
+      "Can identify some shifts in decimal placement but struggles to explain the underlying reasons.",
+      "Can explain decimal placement for simple cases, but not for more complex powers of 10.",
+      "Can accurately explain decimal placement for most powers of 10, with minor errors.",
+      "Demonstrates a comprehensive understanding of decimal placement when multiplying or dividing by any power of 10 with clear and accurate explanations."
+    ],
+    [
+      "No understanding demonstrated.",
+      "Does not use or incorrectly uses whole-number exponents to denote powers of 10.",
+      "Can sometimes use whole-number exponents, but with frequent errors.",
+      "Uses whole-number exponents correctly for simple powers of 10 (e.g., 10^2, 10^3), but struggles with larger exponents.",
+      "Uses whole-number exponents correctly to denote most powers of 10.",
+      "Consistently and accurately uses whole-number exponents to denote powers of 10, including very large exponents, and can explain the relationship between the exponent and the number of zeros."
+    ]
+  ]
+}

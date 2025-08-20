@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Word Meaning",
+    "Analysis of Cumulative Impact of Word Choices",
+    "Understanding of Tone and Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of word meanings, including figurative and connotative.",
+      "Struggles to determine the meaning of words and phrases; limited understanding of figurative\/connotative meanings.",
+      "Identifies basic word meanings but has difficulty with figurative or connotative meanings in context.",
+      "Determines the meaning of most words and phrases, including some figurative and connotative meanings, but analysis is superficial.",
+      "Accurately determines the meaning of words and phrases, including figurative and connotative meanings; provides a satisfactory analysis of their impact.",
+      "Masterfully determines the meaning of words and phrases, including nuanced figurative and connotative meanings; provides insightful analysis of their impact on the text."
+    ],
+    [
+      "Shows no recognition of how word choices impact meaning and tone.",
+      "Unable to analyze the cumulative impact of specific word choices on meaning and tone.",
+      "Attempts to analyze the cumulative impact of word choices but struggles to connect them to meaning and tone.",
+      "Analyzes the cumulative impact of some word choices on meaning and tone, but the connections are not always clear.",
+      "Analyzes the cumulative impact of specific word choices on meaning and tone, providing relevant examples from the text.",
+      "Provides a compelling and thorough analysis of the cumulative impact of specific word choices on meaning and tone, demonstrating a deep understanding of the text's nuances."
+    ],
+    [
+      "Demonstrates no understanding of how language evokes a sense of time and place or sets a tone.",
+      "Struggles to identify how language evokes a sense of time and place or sets a tone.",
+      "Identifies basic elements of tone and setting but does not connect them to the language used.",
+      "Connects language to tone, time and place with general understanding, analysis is limited.",
+      "Analyzes how the language evokes a sense of time and place and\/or how it sets a formal or informal tone.",
+      "Insightfully analyzes how the language evokes a sense of time and place and how it sets a formal or informal tone, demonstrating a sophisticated understanding of the text."
+    ]
+  ]
+}

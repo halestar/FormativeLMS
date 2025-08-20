@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Preventative Measures",
+    "Understanding of Risk Factors",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No preventative measures for vision or hearing damage are identified.",
+      "Identifies one vague or inaccurate preventative measure for either vision or hearing damage.",
+      "Identifies one specific and accurate preventative measure for either vision or hearing damage.",
+      "Identifies two specific and accurate preventative measures, one for vision and one for hearing damage.",
+      "Identifies three or more specific and accurate preventative measures, covering both vision and hearing damage.",
+      "Identifies multiple specific and accurate preventative measures, covering both vision and hearing damage, and explains the rationale behind each."
+    ],
+    [
+      "Demonstrates no understanding of risk factors associated with vision or hearing damage.",
+      "Demonstrates limited understanding of risk factors associated with vision or hearing damage.",
+      "Identifies some risk factors but lacks detail or accuracy.",
+      "Accurately identifies common risk factors for both vision and hearing damage.",
+      "Accurately identifies common risk factors and provides some context regarding their impact.",
+      "Demonstrates a comprehensive understanding of risk factors, their impact, and how preventative measures mitigate these risks."
+    ],
+    [
+      "Unable to apply preventative measures to real-life scenarios.",
+      "Struggles to apply preventative measures to real-life scenarios.",
+      "Can apply preventative measures to simple, straightforward scenarios.",
+      "Can apply preventative measures to a variety of real-life scenarios with some accuracy.",
+      "Confidently and accurately applies preventative measures to a variety of real-life scenarios.",
+      "Demonstrates a sophisticated understanding of how to apply preventative measures in complex and nuanced real-life scenarios."
+    ]
+  ]
+}

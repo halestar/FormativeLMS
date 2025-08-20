@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Economic Principles Guiding Agricultural Production",
+    "Understanding of Economic Principles Guiding Industrial Location",
+    "Understanding of Economic Principles Guiding Spatial Distribution of Transportation and Retail Facilities",
+    "Application of Concepts to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the economic principles influencing agricultural production.",
+      "Demonstrates a minimal understanding of economic principles with significant inaccuracies.",
+      "Identifies a few economic principles but struggles to explain their influence on agricultural production.",
+      "Explains some economic principles (e.g., land cost, climate) and their basic influence on agricultural production, but lacks depth.",
+      "Clearly explains multiple economic principles (e.g., land cost, climate, market access) and their influence on agricultural production with supporting examples.",
+      "Provides a comprehensive explanation of various economic principles and their complex interactions shaping agricultural production, including nuanced examples and real-world applications."
+    ],
+    [
+      "Demonstrates no understanding of the economic principles influencing industrial location.",
+      "Demonstrates a minimal understanding of economic principles with significant inaccuracies.",
+      "Identifies a few economic principles but struggles to explain their influence on industrial location.",
+      "Explains some economic principles (e.g., labor costs, access to resources) and their basic influence on industrial location, but lacks depth.",
+      "Clearly explains multiple economic principles (e.g., labor costs, access to resources, transportation costs) and their influence on industrial location with supporting examples.",
+      "Provides a comprehensive explanation of various economic principles and their complex interactions shaping industrial location, including nuanced examples and real-world applications."
+    ],
+    [
+      "Demonstrates no understanding of the economic principles influencing the spatial distribution of transportation and retail facilities.",
+      "Demonstrates a minimal understanding of economic principles with significant inaccuracies.",
+      "Identifies a few economic principles but struggles to explain their influence on spatial distribution.",
+      "Explains some economic principles (e.g., population density, transportation networks) and their basic influence on spatial distribution, but lacks depth.",
+      "Clearly explains multiple economic principles (e.g., population density, transportation networks, consumer demand) and their influence on spatial distribution with supporting examples.",
+      "Provides a comprehensive explanation of various economic principles and their complex interactions shaping the spatial distribution of transportation and retail facilities, including nuanced examples and real-world applications."
+    ],
+    [
+      "Unable to apply any of the concepts to real-world scenarios.",
+      "Attempts to apply concepts but demonstrates significant misunderstandings of real-world scenarios.",
+      "Applies concepts to real-world scenarios with limited accuracy and detail.",
+      "Applies concepts to real-world scenarios with reasonable accuracy, providing some supporting details.",
+      "Effectively applies concepts to real-world scenarios, providing clear and relevant supporting details and demonstrating a good understanding of the complexities involved.",
+      "Masterfully applies concepts to complex real-world scenarios, providing insightful analysis, comprehensive supporting details, and demonstrating a deep understanding of the economic forces at play."
+    ]
+  ]
+}

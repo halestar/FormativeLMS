@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Newton's Law of Gravitation and Coulomb's Law",
+    "Ability to Use Mathematical Representations",
+    "Application of Laws to Predict Forces",
+    "Description of Gravitational and Electric Fields"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of either Newton's Law of Gravitation or Coulomb's Law is demonstrated.",
+      "Demonstrates minimal understanding of either Newton's Law of Gravitation or Coulomb's Law.",
+      "Demonstrates partial understanding of both Newton's Law of Gravitation and Coulomb's Law, but with significant gaps.",
+      "Demonstrates a solid understanding of both Newton's Law of Gravitation and Coulomb's Law, with minor inaccuracies.",
+      "Demonstrates a comprehensive understanding of both Newton's Law of Gravitation and Coulomb's Law, with only minor errors.",
+      "Demonstrates a thorough and accurate understanding of both Newton's Law of Gravitation and Coulomb's Law."
+    ],
+    [
+      "Unable to use mathematical representations of Newton's Law of Gravitation or Coulomb's Law.",
+      "Attempts to use mathematical representations but struggles with basic concepts.",
+      "Can use mathematical representations with significant errors and inconsistencies.",
+      "Uses mathematical representations correctly, but with some minor errors or omissions.",
+      "Uses mathematical representations accurately and effectively, with only minor errors.",
+      "Uses mathematical representations flawlessly and effectively to describe and predict gravitational and electrostatic forces."
+    ],
+    [
+      "Unable to apply Newton's Law of Gravitation or Coulomb's Law to predict forces between objects.",
+      "Attempts to apply the laws but struggles to make accurate predictions.",
+      "Can apply the laws with some success, but makes frequent errors in predicting forces.",
+      "Applies the laws to predict forces accurately in simple scenarios but struggles with more complex situations.",
+      "Applies the laws to predict forces accurately in most scenarios, with only minor errors.",
+      "Applies the laws flawlessly to predict forces accurately and consistently in a variety of scenarios."
+    ],
+    [
+      "Unable to describe gravitational or electric fields.",
+      "Provides a very basic description of either gravitational or electric fields with significant inaccuracies.",
+      "Provides a partial description of both gravitational and electric fields, but with significant gaps and inaccuracies.",
+      "Provides a solid description of both gravitational and electric fields, with minor inaccuracies.",
+      "Provides a comprehensive and mostly accurate description of both gravitational and electric fields.",
+      "Provides a thorough, accurate, and insightful description of both gravitational and electric fields."
+    ]
+  ]
+}

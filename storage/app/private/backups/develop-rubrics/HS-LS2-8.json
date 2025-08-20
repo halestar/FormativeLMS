@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to distinguish between individual and group behavior in ecosystems.",
+    "Ability to evaluate evidence supporting the outcomes of group behavior on survival and reproduction.",
+    "Ability to construct logical arguments based on evidence for the role of group behavior.",
+    "Understanding of cause-and-effect relationships within group behavior and ecosystem dynamics."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot differentiate between individual and group behavior.",
+      "Student shows minimal understanding of the difference between individual and group behavior.",
+      "Student identifies some differences between individual and group behavior but lacks depth.",
+      "Student clearly distinguishes between individual and group behavior with relevant examples.",
+      "Student provides a comprehensive explanation of the differences between individual and group behavior, including nuanced examples.",
+      "Student demonstrates an advanced understanding of individual vs. group behavior, providing insightful analysis and real-world applications."
+    ],
+    [
+      "Student provides no relevant evidence or explanation.",
+      "Student presents evidence with limited connection to survival and reproduction.",
+      "Student provides evidence and a basic explanation of its impact on survival and reproduction.",
+      "Student effectively evaluates evidence to support the outcomes of group behavior, explaining its effect on survival and reproduction.",
+      "Student thoroughly evaluates evidence, providing detailed explanations of how group behavior impacts survival and reproduction, including specific examples.",
+      "Student critically evaluates evidence, demonstrating a deep understanding of the complex relationships between group behavior, survival, and reproduction, including potential limitations and alternative interpretations."
+    ],
+    [
+      "Student fails to construct a logical argument.",
+      "Student attempts an argument but lacks logical structure or supporting evidence.",
+      "Student presents a somewhat logical argument with limited supporting evidence.",
+      "Student constructs a logical argument with clear supporting evidence for the role of group behavior.",
+      "Student develops a well-reasoned and logical argument with strong evidence, addressing potential counterarguments.",
+      "Student constructs a sophisticated and nuanced argument, demonstrating a comprehensive understanding of the evidence and its implications, while also acknowledging limitations and alternative perspectives."
+    ],
+    [
+      "Student does not demonstrate an understanding of cause-and-effect relationships.",
+      "Student shows a limited understanding of cause-and-effect relationships in the context of group behavior.",
+      "Student identifies some cause-and-effect relationships, but the explanation lacks depth.",
+      "Student clearly explains cause-and-effect relationships related to group behavior and ecosystem dynamics.",
+      "Student thoroughly explains cause-and-effect relationships, providing specific examples and considering multiple factors.",
+      "Student demonstrates an advanced understanding of complex cause-and-effect relationships, including feedback loops and cascading effects, within group behavior and ecosystem dynamics."
+    ]
+  ]
+}

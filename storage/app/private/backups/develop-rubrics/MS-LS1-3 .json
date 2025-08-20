@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Body Systems and Subsystems",
+    "Use of Evidence to Support Arguments",
+    "Application of Systems and System Models Concept"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the body as a system or its subsystems.",
+      "Shows a limited understanding of body systems, with difficulty identifying subsystems or their interactions.",
+      "Identifies some major body systems but struggles to explain how they interact or are composed of subsystems.",
+      "Explains how major body systems interact and are composed of subsystems (tissues, organs, cells), but with some inaccuracies or omissions.",
+      "Clearly explains how the body is a system of interacting subsystems composed of tissues, organs, and cells, providing accurate examples.",
+      "Provides a comprehensive and insightful explanation of the body as a complex system of interacting subsystems, including detailed examples and accurate terminology."
+    ],
+    [
+      "Provides no evidence or argument related to the body as a system.",
+      "Attempts to provide evidence but it is irrelevant or does not support the argument.",
+      "Provides some relevant evidence but struggles to connect it to the argument about body systems.",
+      "Supports arguments with relevant evidence, but the explanation of the connection between evidence and argument is not always clear.",
+      "Effectively uses evidence to support a clear and logical argument about how the body is a system of interacting subsystems.",
+      "Constructs a compelling and well-supported argument using a variety of evidence to demonstrate a deep understanding of the body as an interconnected system."
+    ],
+    [
+      "Does not demonstrate an understanding of systems or system models.",
+      "Shows limited awareness of systems concepts; unable to apply it to the human body.",
+      "Identifies the body as a system but does not explain how it relates to other systems or subsystems.",
+      "Describes the body as a system with subsystems but struggles to explain the interactions between them.",
+      "Demonstrates a good understanding of systems and system models by explaining how the body interacts with other systems and how its subsystems function together.",
+      "Demonstrates a sophisticated understanding of systems and system models, applying it to explain the complex interactions within the body and its relationship to larger systems, including potential impacts of external factors."
+    ]
+  ]
+}

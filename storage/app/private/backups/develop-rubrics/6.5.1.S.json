@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Risks",
+    "Evaluation of Options",
+    "Decision-Making Process",
+    "Safety Prioritization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any risks associated with the situation.",
+      "Identifies some superficial risks but misses key dangers.",
+      "Identifies most of the significant risks but lacks detail.",
+      "Clearly identifies the major risks involved and provides some detail.",
+      "Thoroughly identifies all relevant risks with clear and specific details.",
+      "Exhaustively identifies all potential risks, providing nuanced details and demonstrating a deep understanding of the situation's complexities."
+    ],
+    [
+      "Does not consider any alternative courses of action.",
+      "Considers only one course of action without evaluating its safety.",
+      "Considers a limited number of options with minimal safety evaluation.",
+      "Evaluates several options and identifies some potential safety concerns.",
+      "Thoroughly evaluates multiple options, considering the safety implications of each.",
+      "Critically evaluates a comprehensive range of options, weighing the safety implications with insightful analysis and foresight."
+    ],
+    [
+      "Demonstrates no logical decision-making process.",
+      "Attempts a decision but shows no clear reasoning or justification.",
+      "Follows a basic decision-making process but with limited reasoning.",
+      "Uses a clear decision-making process with adequate reasoning to support choices.",
+      "Employs a well-reasoned decision-making process, clearly articulating the rationale behind the safe course of action.",
+      "Exhibits a sophisticated decision-making process, integrating ethical considerations and long-term consequences to determine the safest and most responsible course of action."
+    ],
+    [
+      "Shows no awareness of safety as a priority in decision-making.",
+      "Mentions safety but does not prioritize it in the decision.",
+      "Recognizes safety as important but does not fully integrate it into the decision-making process.",
+      "Prioritizes safety and makes a decision that addresses immediate safety concerns.",
+      "Clearly prioritizes safety, making a decision that mitigates risks and promotes well-being.",
+      "Demonstrates an unwavering commitment to safety, proactively anticipating potential hazards and making a decision that safeguards the well-being of self and others."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Life-Threatening Conditions",
+    "Understanding of the Underlying Mechanisms",
+    "Ability to Differentiate Between Conditions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any life-threatening conditions or provides incorrect identifications.",
+      "Identifies one life-threatening condition with significant inaccuracies.",
+      "Identifies one or two life-threatening conditions with some inaccuracies or omissions.",
+      "Identifies most common life-threatening conditions (e.g., heart attack, asthma attack) with minor inaccuracies.",
+      "Accurately identifies several life-threatening conditions, demonstrating a good understanding.",
+      "Accurately and comprehensively identifies a wide range of life-threatening conditions, demonstrating excellent understanding."
+    ],
+    [
+      "Shows no understanding of the physiological mechanisms behind life-threatening conditions.",
+      "Demonstrates minimal understanding of the mechanisms involved.",
+      "Demonstrates some understanding of the mechanisms, but explanations are vague or incomplete.",
+      "Explains the basic mechanisms behind common life-threatening conditions with reasonable accuracy.",
+      "Clearly explains the mechanisms behind several life-threatening conditions, demonstrating a solid understanding.",
+      "Provides detailed and accurate explanations of the mechanisms behind a wide range of life-threatening conditions, demonstrating comprehensive knowledge."
+    ],
+    [
+      "Unable to differentiate between different life-threatening conditions.",
+      "Shows difficulty in differentiating between conditions; confused explanations.",
+      "Can differentiate between a few conditions, but struggles with specifics.",
+      "Differentiates between common life-threatening conditions, highlighting key differences.",
+      "Clearly differentiates between various life-threatening conditions, providing accurate distinctions.",
+      "Expertly differentiates between a wide array of life-threatening conditions, demonstrating nuanced understanding of their unique characteristics."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the effects of alcohol, tobacco, and other drugs on relationships.",
+    "Ability to analyze decision-making processes related to substance use.",
+    "Clarity and organization of analysis."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how substance use affects relationships.",
+      "Shows a minimal understanding of how substance use can affect relationships, with significant gaps in knowledge.",
+      "Identifies some ways substance use can affect relationships, but lacks depth and detail.",
+      "Explains several ways substance use can affect relationships with reasonable detail.",
+      "Analyzes and explains multiple ways substance use can significantly impact relationships, providing specific examples.",
+      "Provides a comprehensive and insightful analysis of how decisions to use alcohol, tobacco, and other drugs profoundly affect relationships with friends and family, including long-term consequences."
+    ],
+    [
+      "Unable to identify any decision-making processes related to substance use.",
+      "Shows difficulty in recognizing decision-making processes and their influence on substance use.",
+      "Identifies simple decision-making scenarios but struggles to connect them to relationship effects.",
+      "Explains how certain decisions related to substance use can affect relationships, providing some context.",
+      "Analyzes the decision-making processes involved in substance use and explains their impact on relationships with clarity.",
+      "Provides a sophisticated analysis of decision-making processes, demonstrating a deep understanding of how these choices influence and shape relationships, and offers insightful alternatives."
+    ],
+    [
+      "Analysis is unclear, disorganized, and difficult to follow.",
+      "Analysis lacks clarity and organization, making it hard to understand the connections.",
+      "Analysis is somewhat organized but may lack clear connections between ideas.",
+      "Analysis is generally clear and organized with logical connections.",
+      "Analysis is clear, well-organized, and logically presented, enhancing understanding.",
+      "Analysis is exceptionally clear, coherent, and insightful, demonstrating a mastery of communication skills."
+    ]
+  ]
+}

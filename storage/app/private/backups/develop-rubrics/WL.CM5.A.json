@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Topics of General Public Interest",
+    "Use of Sentence-Level Elements (Morphology and Syntax)",
+    "Use of Paragraph-Level Discourse (Text Structure)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of topics of general public interest. Unable to identify or recall any information related to the topic.",
+      "Demonstrates minimal understanding of topics of general public interest. Struggles to identify or recall basic information related to the topic.",
+      "Demonstrates some understanding of topics of general public interest. Can identify or recall some basic information related to the topic, but struggles with details.",
+      "Demonstrates satisfactory understanding of topics of general public interest. Can identify and recall most information related to the topic, with some minor gaps.",
+      "Demonstrates good understanding of topics of general public interest. Can identify and recall information accurately and provide some explanation or interpretation.",
+      "Demonstrates excellent understanding of topics of general public interest. Can identify, recall, and synthesize information accurately and provide insightful explanation or interpretation."
+    ],
+    [
+      "Demonstrates no understanding of sentence-level elements. Sentences are incomprehensible or non-existent.",
+      "Demonstrates minimal understanding of sentence-level elements. Sentences are poorly constructed with frequent errors in morphology and syntax.",
+      "Demonstrates some understanding of sentence-level elements. Sentences are simple and contain noticeable errors in morphology and syntax.",
+      "Demonstrates satisfactory understanding of sentence-level elements. Sentences are generally correct with occasional errors in morphology and syntax.",
+      "Demonstrates good understanding of sentence-level elements. Sentences are varied and mostly correct with few errors in morphology and syntax.",
+      "Demonstrates excellent understanding of sentence-level elements. Sentences are complex, varied, and correct with sophisticated use of morphology and syntax."
+    ],
+    [
+      "Demonstrates no understanding of paragraph-level discourse. Paragraphs are non-existent or completely disorganized.",
+      "Demonstrates minimal understanding of paragraph-level discourse. Paragraphs are poorly structured with no clear topic sentences or transitions.",
+      "Demonstrates some understanding of paragraph-level discourse. Paragraphs have some structure, but lack clear topic sentences and transitions.",
+      "Demonstrates satisfactory understanding of paragraph-level discourse. Paragraphs are generally well-structured with clear topic sentences and transitions, but may lack coherence.",
+      "Demonstrates good understanding of paragraph-level discourse. Paragraphs are well-structured with clear topic sentences and effective transitions, demonstrating good coherence.",
+      "Demonstrates excellent understanding of paragraph-level discourse. Paragraphs are masterfully structured with clear topic sentences and seamless transitions, demonstrating exceptional coherence and cohesion."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Number Line Representation",
+    "Representation of Sums and Differences",
+    "Understanding of the Relationship Between Addition\/Subtraction and Length"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The number line is missing or fundamentally incorrect, showing no understanding of representing whole numbers as lengths.",
+      "The number line is present but contains significant errors in spacing or labeling, indicating a limited understanding.",
+      "The number line has some inaccuracies in spacing or labeling, but generally represents whole numbers as lengths.",
+      "The number line is mostly accurate, with minor errors that do not significantly impact the representation of whole numbers as lengths.",
+      "The number line is accurate and clearly represents whole numbers as lengths from 0 with equally spaced points.",
+      "The number line is exceptionally clear, accurate, and effectively represents whole numbers as lengths. It is well-labeled and easy to understand."
+    ],
+    [
+      "Sums and differences are not represented on the number line, or the representation is completely incorrect.",
+      "Sums and differences are attempted on the number line, but there are major errors in calculations or representation.",
+      "Sums and differences are represented with some errors in calculations or in showing the process on the number line.",
+      "Sums and differences are mostly accurate, with only minor errors in calculation or representation.",
+      "Sums and differences are accurately represented on the number line, clearly showing the process of addition and subtraction.",
+      "Sums and differences are expertly represented on the number line, with clear, accurate, and efficient demonstrations of addition and subtraction processes. Shows creative problem solving."
+    ],
+    [
+      "Demonstrates no understanding of how addition and subtraction relate to length on a number line.",
+      "Shows a very limited understanding of the relationship, with significant misconceptions.",
+      "Shows some understanding of the relationship, but struggles to articulate or apply it correctly.",
+      "Demonstrates a general understanding of the relationship, but may have occasional difficulties in application.",
+      "Clearly understands and demonstrates the relationship between addition\/subtraction and length on the number line.",
+      "Exemplifies a deep understanding of the relationship, able to explain and apply it in various contexts. Can connect the visual to the concept"
+    ]
+  ]
+}

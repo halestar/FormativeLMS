@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Concept of Division",
+    "Applying Division to Solve Problems",
+    "Explaining Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of division or quotients.",
+      "Student shows minimal understanding of division, struggling to explain what a quotient represents.",
+      "Student demonstrates a basic understanding of division but struggles to apply it to real-world scenarios or interpret quotients accurately.",
+      "Student can interpret quotients in simple scenarios but may struggle with more complex problems or remainders.",
+      "Student consistently and accurately interprets quotients in a variety of scenarios, including those with remainders.",
+      "Student demonstrates a deep understanding of division, including the ability to apply it to complex problems, explain its relationship to multiplication, and interpret quotients with precision and insight."
+    ],
+    [
+      "Student is unable to apply division to solve any problems.",
+      "Student attempts to use division but is unsuccessful in solving problems.",
+      "Student can solve simple division problems but struggles with more complex or word-based problems.",
+      "Student can solve most division problems accurately, including word problems, but may make occasional errors.",
+      "Student consistently solves division problems accurately and efficiently, including multi-step problems.",
+      "Student demonstrates mastery in applying division to solve complex and novel problems, and can explain their reasoning clearly and concisely."
+    ],
+    [
+      "Student is unable to explain their reasoning or the steps they took to solve a problem.",
+      "Student struggles to explain their reasoning, providing incomplete or unclear explanations.",
+      "Student can explain their reasoning for simple problems but struggles with more complex problems.",
+      "Student usually explains their reasoning adequately but may miss key steps or assumptions.",
+      "Student clearly and logically explains their reasoning, showing a strong understanding of the division process.",
+      "Student provides insightful and comprehensive explanations of their reasoning, demonstrating a deep understanding of the underlying mathematical concepts."
+    ]
+  ]
+}

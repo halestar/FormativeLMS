@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Similarity Criteria (AA, SAS, SSS) and Congruence Criteria (SSS, SAS, ASA, AAS, HL)",
+    "Application of Similarity and Congruence Criteria in Proofs",
+    "Problem Solving Using Similarity and Congruence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of similarity or congruence criteria.",
+      "Student shows minimal understanding, struggling to recall or identify criteria.",
+      "Student can recall some criteria but has difficulty applying them correctly.",
+      "Student accurately identifies and recalls similarity and congruence criteria but may struggle to explain their application in detail.",
+      "Student demonstrates a strong understanding of similarity and congruence criteria, accurately applying them in most situations.",
+      "Student demonstrates a comprehensive understanding of all similarity and congruence criteria and can explain and apply them flawlessly."
+    ],
+    [
+      "Student is unable to construct any proofs or apply criteria.",
+      "Student attempts to construct proofs but makes significant errors in logic or application of criteria.",
+      "Student can construct basic proofs but struggles with more complex problems or justifications.",
+      "Student constructs proofs with minor errors and generally applies similarity and congruence criteria correctly.",
+      "Student constructs accurate and well-reasoned proofs using similarity and congruence criteria effectively.",
+      "Student constructs flawless and elegant proofs, demonstrating a deep understanding of geometric relationships and providing clear, concise justifications."
+    ],
+    [
+      "Student is unable to solve problems related to similarity and congruence.",
+      "Student attempts to solve problems but demonstrates a lack of understanding of the concepts.",
+      "Student can solve some basic problems but struggles with multi-step problems or real-world applications.",
+      "Student can solve most problems involving similarity and congruence with reasonable accuracy.",
+      "Student solves problems accurately and efficiently, demonstrating a strong understanding of how to apply the criteria.",
+      "Student solves complex and novel problems related to similarity and congruence with ease, demonstrating a mastery of the concepts."
+    ]
+  ]
+}

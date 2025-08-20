@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and Application of the Law of Sines",
+    "Understanding and Application of the Law of Cosines",
+    "Ability to Prove the Laws of Sines and Cosines",
+    "Problem-Solving Skills in Trigonometry"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the Law of Sines is demonstrated; unable to apply it in any context.",
+      "Demonstrates minimal understanding of the Law of Sines. Struggles to apply it, even in simple scenarios.",
+      "Shows some understanding of the Law of Sines but makes frequent errors in its application. Can apply it only in very basic cases.",
+      "Demonstrates a satisfactory understanding of the Law of Sines and can apply it to solve problems with occasional errors.",
+      "Demonstrates a strong understanding of the Law of Sines and can apply it effectively to solve a variety of problems with minor errors.",
+      "Demonstrates a comprehensive understanding of the Law of Sines. Applies it flawlessly to solve complex problems and can explain the underlying principles clearly."
+    ],
+    [
+      "No understanding of the Law of Cosines is demonstrated; unable to apply it in any context.",
+      "Demonstrates minimal understanding of the Law of Cosines. Struggles to apply it, even in simple scenarios.",
+      "Shows some understanding of the Law of Cosines but makes frequent errors in its application. Can apply it only in very basic cases.",
+      "Demonstrates a satisfactory understanding of the Law of Cosines and can apply it to solve problems with occasional errors.",
+      "Demonstrates a strong understanding of the Law of Cosines and can apply it effectively to solve a variety of problems with minor errors.",
+      "Demonstrates a comprehensive understanding of the Law of Cosines. Applies it flawlessly to solve complex problems and can explain the underlying principles clearly."
+    ],
+    [
+      "Unable to attempt any proof of the Laws of Sines or Cosines.",
+      "Attempts to prove the Laws, but the approach is fundamentally flawed and shows little understanding of mathematical proof.",
+      "Begins to construct a proof, but makes significant errors in logic or application of trigonometric identities.",
+      "Constructs a partially correct proof but misses key steps or makes minor logical errors.",
+      "Presents a mostly correct proof with only minor omissions or errors.",
+      "Provides a complete, clear, and mathematically sound proof of both the Laws of Sines and Cosines."
+    ],
+    [
+      "Unable to identify or apply trigonometric principles to solve problems.",
+      "Struggles to identify appropriate trigonometric laws or strategies for solving problems.",
+      "Can identify appropriate laws but makes frequent errors in calculations or setting up the problem.",
+      "Solves problems using the Laws of Sines and Cosines with some accuracy, but may struggle with more complex scenarios.",
+      "Effectively uses the Laws of Sines and Cosines to solve a variety of trigonometric problems with minimal errors.",
+      "Demonstrates mastery in solving complex trigonometric problems, selecting and applying the most efficient methods with impeccable accuracy."
+    ]
+  ]
+}

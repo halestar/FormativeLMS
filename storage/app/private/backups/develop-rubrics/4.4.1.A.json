@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identifying Pressure Situations",
+    "Verbal Refusal Skills",
+    "Non-Verbal Refusal Skills",
+    "Suggesting Alternatives",
+    "Understanding Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any pressure situations related to alcohol, tobacco, and other drugs.",
+      "Identifies pressure situations with significant inaccuracies or omissions.",
+      "Identifies some pressure situations but misses key aspects or details.",
+      "Identifies common pressure situations with reasonable accuracy.",
+      "Clearly identifies a variety of pressure situations and their potential triggers.",
+      "Masterfully identifies complex and subtle pressure situations, demonstrating a comprehensive understanding of triggers and contexts."
+    ],
+    [
+      "Unable to verbalize any refusal strategies.",
+      "Attempts refusal but uses ineffective or easily countered statements.",
+      "Verbal refusals are weak, hesitant, or easily swayed by peer pressure.",
+      "States refusal using basic 'no' statements, but lacks assertiveness or follow-through.",
+      "Demonstrates clear, firm, and assertive verbal refusal skills.",
+      "Demonstrates highly effective and persuasive verbal refusal skills, adapting strategies to different social dynamics."
+    ],
+    [
+      "Displays non-verbal cues that contradict or undermine refusal efforts.",
+      "Shows minimal awareness of non-verbal communication in refusal.",
+      "Inconsistent non-verbal cues; may show nervousness or uncertainty.",
+      "Uses some appropriate non-verbal cues like eye contact and posture, but lacks consistency.",
+      "Consistently employs confident and assertive non-verbal cues to reinforce refusal.",
+      "Expertly uses non-verbal communication to strengthen refusal, demonstrating excellent self-assurance and control."
+    ],
+    [
+      "Does not offer any alternative activities or solutions.",
+      "Offers alternatives that are unrealistic, irrelevant, or unappealing.",
+      "Suggests one basic alternative without much enthusiasm.",
+      "Suggests relevant alternatives to engaging in risky behavior",
+      "Suggests creative and appealing alternatives that address the underlying social needs.",
+      "Proposes inventive and compelling alternatives that redirect the group dynamic and promote positive choices."
+    ],
+    [
+      "Demonstrates no understanding of the potential consequences of succumbing to pressure.",
+      "Shows limited awareness of the potential consequences.",
+      "Recognizes some consequences but does not fully grasp the impact.",
+      "Identifies several potential short and long-term consequences.",
+      "Clearly articulates a range of potential consequences (health, legal, social).",
+      "Demonstrates a deep understanding of consequences, tailoring explanations to resonate with different audiences and scenarios."
+    ]
+  ]
+}

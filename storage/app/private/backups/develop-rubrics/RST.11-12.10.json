@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Reading Comprehension Accuracy: Demonstrates understanding of explicit meanings within the text.",
+    "Inference and Interpretation: Draws logical inferences and interprets implicit meanings from the text.",
+    "Analysis of Text Structure: Analyzes how the text structure (e.g., headings, subheadings, formatting) contributes to meaning.",
+    "Integration of Knowledge: Connects information from multiple sources to deepen understanding of the subject."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Misunderstands or cannot identify explicit information in the text.",
+      "Struggles to understand explicit information; frequent inaccuracies.",
+      "Understands some explicit information, but with occasional errors.",
+      "Accurately comprehends most explicit information presented in the text.",
+      "Comprehends explicit information accurately and consistently.",
+      "Demonstrates comprehensive and precise understanding of all explicit information; identifies subtle details."
+    ],
+    [
+      "Unable to make inferences or interpret implicit meanings.",
+      "Rarely makes appropriate inferences; struggles with interpretation.",
+      "Makes some inferences, but with limited accuracy or depth.",
+      "Draws logical inferences and interprets implicit meanings with reasonable accuracy.",
+      "Consistently makes accurate and insightful inferences; supports interpretations with evidence.",
+      "Demonstrates advanced inferential skills; interprets complex implicit meanings with nuance and depth."
+    ],
+    [
+      "Does not recognize or understand the significance of text structure.",
+      "Struggles to identify or explain the impact of text structure.",
+      "Identifies some elements of text structure but struggles to explain their function.",
+      "Analyzes how text structure contributes to the organization and meaning of the text.",
+      "Analyzes text structure effectively, explaining how it guides understanding.",
+      "Demonstrates a sophisticated understanding of text structure; analyzes how it shapes the reader\u2019s experience."
+    ],
+    [
+      "Does not attempt to integrate information from other sources.",
+      "Struggles to connect information or misinterprets external sources.",
+      "Attempts to integrate information but with limited success or accuracy.",
+      "Integrates knowledge from multiple sources to enhance understanding.",
+      "Skillfully integrates information from various sources, drawing meaningful connections.",
+      "Synthesizes information from diverse sources, demonstrating expert-level understanding and insight."
+    ]
+  ]
+}

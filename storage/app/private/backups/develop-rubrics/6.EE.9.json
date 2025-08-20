@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify independent and dependent variables in real-world scenarios.",
+    "Skill in writing equations to represent the relationship between dependent and independent variables.",
+    "Ability to analyze the relationship between variables using graphs and tables.",
+    "Capacity to relate graphs and tables to the corresponding equation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify either independent or dependent variables.",
+      "Student can identify either the independent OR the dependent variable, but not both.",
+      "Student can identify both variables, but with some difficulty or minor inaccuracies.",
+      "Student can accurately identify independent and dependent variables in most real-world scenarios.",
+      "Student can consistently and accurately identify independent and dependent variables in complex real-world scenarios.",
+      "Student demonstrates a deep understanding of independent and dependent variables, accurately identifying them in novel and complex situations, and can explain their relationship effectively."
+    ],
+    [
+      "Student cannot write an equation to represent the relationship.",
+      "Student attempts to write an equation, but it is incorrect or incomplete.",
+      "Student can write a basic equation, but struggles with more complex relationships.",
+      "Student can write equations to represent most relationships, but may make minor errors.",
+      "Student can accurately write equations to represent the relationship between variables in a variety of scenarios.",
+      "Student demonstrates mastery in writing equations, including complex relationships, and can explain the equation's meaning in context."
+    ],
+    [
+      "Student cannot analyze the relationship using graphs or tables.",
+      "Student attempts to analyze the relationship, but struggles to interpret the data.",
+      "Student can analyze basic relationships using graphs and tables, but struggles with more complex scenarios.",
+      "Student can analyze most relationships accurately using graphs and tables.",
+      "Student can analyze complex relationships accurately using graphs and tables, and can identify trends.",
+      "Student demonstrates a deep understanding of graphical and tabular analysis, accurately interpreting complex relationships and identifying subtle trends with insightful explanations."
+    ],
+    [
+      "Student cannot relate graphs and tables to the equation.",
+      "Student attempts to relate graphs and tables, but struggles to make connections.",
+      "Student can relate basic graphs and tables to the equation, but struggles with more complex scenarios.",
+      "Student can accurately relate most graphs and tables to the equation.",
+      "Student can accurately relate complex graphs and tables to the equation, and can explain the connections.",
+      "Student demonstrates a comprehensive understanding of the connections between graphs, tables, and equations, providing insightful explanations and accurately predicting outcomes."
+    ]
+  ]
+}

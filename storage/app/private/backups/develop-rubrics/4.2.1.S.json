@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Emotions: Accurately identifies a range of emotions and their potential influence on behavior.",
+    "Analysis of Safe Behaviors: Explains how emotions can lead to safe and prosocial behaviors.",
+    "Analysis of Violent Behaviors: Explains how emotions can lead to violent or harmful behaviors.",
+    "Application of Concepts: Applies understanding of emotions and behaviors to real-world scenarios or case studies."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any emotions or their relation to behavior.",
+      "Identifies only basic emotions (e.g., happiness, sadness) without linking them to behaviors.",
+      "Identifies some emotions and attempts to link them to behaviors, but with limited accuracy.",
+      "Identifies a moderate range of emotions and provides generally accurate connections to behaviors.",
+      "Identifies a broad range of emotions and accurately explains their influence on behaviors.",
+      "Demonstrates a sophisticated understanding of a wide array of emotions and provides nuanced insights into their impact on both safe and violent behaviors."
+    ],
+    [
+      "Does not explain how emotions relate to safe behaviors.",
+      "Mentions safe behaviors but does not connect them to specific emotions.",
+      "Provides a limited explanation of how emotions can contribute to safe behaviors.",
+      "Explains how several emotions can lead to safe behaviors with some examples.",
+      "Clearly analyzes how a variety of emotions contribute to safe behaviors, providing detailed examples.",
+      "Offers a comprehensive and insightful analysis of the complex interplay between emotions and safe behaviors, including specific scenarios and outcomes."
+    ],
+    [
+      "Does not explain how emotions relate to violent behaviors.",
+      "Mentions violent behaviors but does not connect them to specific emotions.",
+      "Provides a limited explanation of how emotions can contribute to violent behaviors.",
+      "Explains how several emotions can lead to violent behaviors with some examples.",
+      "Clearly analyzes how a variety of emotions contribute to violent behaviors, providing detailed examples.",
+      "Offers a comprehensive and insightful analysis of the complex interplay between emotions and violent behaviors, including specific scenarios and outcomes."
+    ],
+    [
+      "Does not apply concepts to real-world scenarios.",
+      "Attempts to apply concepts but demonstrates a lack of understanding or provides irrelevant examples.",
+      "Applies concepts to scenarios with limited accuracy or detail.",
+      "Applies concepts to scenarios with reasonable accuracy and provides some relevant details.",
+      "Applies concepts effectively to a variety of scenarios, providing accurate and detailed explanations.",
+      "Demonstrates exceptional ability to apply concepts to complex real-world scenarios, providing insightful and nuanced analysis with well-reasoned conclusions."
+    ]
+  ]
+}

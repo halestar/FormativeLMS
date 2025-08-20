@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Strength of Argument",
+    "Use of Evidence",
+    "Understanding of Gravitational Interactions",
+    "Clarity of Presentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No argument presented or argument is completely irrelevant.",
+      "Argument is weak and lacks a clear claim. No evidence is presented.",
+      "Argument presents a claim, but it is not well-supported by evidence. Reasoning is weak or missing.",
+      "Argument presents a clear claim with some evidence to support it. Reasoning connects evidence to claim, but connections are superficial.",
+      "Argument presents a clear and logical claim supported by relevant evidence. Reasoning clearly connects evidence to claim.",
+      "Argument is compelling and insightful, presenting a well-supported claim with strong evidence and clear, logical reasoning. Demonstrates a deep understanding of gravitational interactions."
+    ],
+    [
+      "No evidence presented.",
+      "Evidence presented is irrelevant or inaccurate.",
+      "Evidence presented is limited and not clearly connected to the claim.",
+      "Evidence presented is relevant but may not fully support the claim.",
+      "Evidence presented is relevant and supports the claim.",
+      "Evidence presented is compelling, relevant, and strongly supports the claim, demonstrating a sophisticated understanding of the data."
+    ],
+    [
+      "Demonstrates no understanding of gravitational interactions.",
+      "Demonstrates a very limited understanding of gravitational interactions, with significant misconceptions.",
+      "Demonstrates a basic understanding of gravitational interactions, but with some misconceptions.",
+      "Demonstrates a general understanding of gravitational interactions, but lacks depth.",
+      "Demonstrates a solid understanding of gravitational interactions, including the attractive nature and dependence on mass.",
+      "Demonstrates a comprehensive and nuanced understanding of gravitational interactions, including the attractive nature, dependence on mass, and implications for systems like the solar system."
+    ],
+    [
+      "Presentation is unclear and disorganized.",
+      "Presentation is difficult to follow and lacks logical flow.",
+      "Presentation is somewhat organized, but clarity is lacking.",
+      "Presentation is generally clear and organized.",
+      "Presentation is clear, organized, and easy to follow.",
+      "Presentation is exceptionally clear, engaging, and logically organized, enhancing the overall impact of the argument."
+    ]
+  ]
+}

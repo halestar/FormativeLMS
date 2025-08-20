@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information:",
+    "Analysis of Sources:",
+    "Relevance to Safety and Violence Prevention:"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of information sources; presents inaccurate or irrelevant details.",
+      "Presents mostly inaccurate information from unreliable sources.",
+      "Presents some accurate information, but sources are questionable or not clearly identified.",
+      "Presents generally accurate information from identified sources, but some details may be lacking or incomplete.",
+      "Presents accurate and relevant information from credible sources; details are mostly complete and well-explained.",
+      "Presents highly accurate, comprehensive, and insightful information from diverse, credible sources; demonstrates a deep understanding."
+    ],
+    [
+      "Unable to identify or analyze sources.",
+      "Attempts to identify sources but shows no analysis or understanding of their relevance.",
+      "Identifies sources but provides a superficial analysis with limited understanding of their strengths or weaknesses.",
+      "Analyzes sources with some understanding of their relevance and credibility, but the analysis lacks depth.",
+      "Provides a thorough analysis of sources, demonstrating a good understanding of their strengths, weaknesses, and relevance.",
+      "Presents a sophisticated and critical analysis of sources, demonstrating a deep understanding of their biases, perspectives, and impact on safety and violence prevention."
+    ],
+    [
+      "Information and services are not relevant to safety and violence prevention.",
+      "Information and services have minimal relevance to safety and violence prevention.",
+      "Information and services are somewhat relevant, but the connection to safety and violence prevention is not clear.",
+      "Information and services are generally relevant to safety and violence prevention, but some connections are weak.",
+      "Information and services are clearly relevant and well-connected to safety and violence prevention strategies.",
+      "Information and services are highly relevant and effectively integrated into comprehensive safety and violence prevention strategies; demonstrates a clear understanding of their impact."
+    ]
+  ]
+}

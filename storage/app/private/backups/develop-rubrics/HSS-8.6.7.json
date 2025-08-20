@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Common Themes in American Art",
+    "Understanding of Transcendentalism and Individualism",
+    "Use of Specific Examples from Authors\/Works"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any common themes in American art from the specified period.",
+      "Student identifies one common theme superficially, lacking depth and specific examples.",
+      "Student identifies two common themes, providing limited explanation and few specific examples.",
+      "Student identifies three common themes, offering some explanation and relevant examples from American art.",
+      "Student identifies at least four common themes with clear explanations and specific examples, demonstrating a solid understanding of the artistic context.",
+      "Student identifies multiple common themes comprehensively, providing insightful explanations, relevant examples, and demonstrating a nuanced understanding of the artistic context."
+    ],
+    [
+      "Student demonstrates no understanding of transcendentalism or individualism.",
+      "Student shows a minimal awareness of either transcendentalism or individualism, without clear definitions or examples.",
+      "Student provides basic definitions of transcendentalism and individualism but struggles to connect them to specific authors or works.",
+      "Student explains transcendentalism and individualism and connects them to at least two authors or works from the specified list, though with limited depth.",
+      "Student thoroughly explains transcendentalism and individualism, connecting them to multiple authors and works with relevant details and analysis.",
+      "Student demonstrates a sophisticated understanding of transcendentalism and individualism, providing insightful analysis of their influence on multiple authors and works, and exploring nuances within these philosophies."
+    ],
+    [
+      "Student does not reference any specific authors or works from the provided list.",
+      "Student mentions one author or work but provides no context or explanation.",
+      "Student references two authors or works but struggles to explain their relevance to the themes being discussed.",
+      "Student references three authors or works, providing some explanation of their relevance to American art, transcendentalism, or individualism.",
+      "Student effectively uses specific examples from at least four authors or works to support their analysis, demonstrating a strong command of the material.",
+      "Student skillfully integrates specific examples from multiple authors and works to create a compelling and insightful analysis, showcasing a deep understanding of the material."
+    ]
+  ]
+}

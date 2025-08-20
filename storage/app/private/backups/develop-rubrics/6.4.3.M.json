@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Diverse Groups",
+    "Respectful Language and Tone",
+    "Demonstration of Empathy and Understanding",
+    "Communication Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any diverse groups or demonstrates a lack of understanding of diversity.",
+      "Identifies only one or two diverse groups with limited understanding.",
+      "Identifies some diverse groups but lacks depth in understanding their characteristics or needs.",
+      "Identifies several diverse groups and demonstrates a basic understanding of their characteristics and needs.",
+      "Identifies most diverse groups relevant to the context and demonstrates a good understanding of their characteristics and needs.",
+      "Thoroughly identifies diverse groups and demonstrates a comprehensive and nuanced understanding of their characteristics, needs, and intersectionality."
+    ],
+    [
+      "Uses disrespectful or offensive language when discussing diversity.",
+      "Uses occasionally insensitive language or tone.",
+      "Generally uses respectful language but may occasionally slip into stereotypes or generalizations.",
+      "Consistently uses respectful and inclusive language, avoiding stereotypes and generalizations.",
+      "Uses highly respectful and inclusive language, demonstrating sensitivity and awareness of diverse perspectives.",
+      "Models exemplary respectful and inclusive language, demonstrating deep understanding and empathy towards diverse perspectives; proactively addresses potential microaggressions."
+    ],
+    [
+      "Shows no empathy or understanding towards diverse perspectives.",
+      "Shows limited empathy or understanding towards diverse perspectives.",
+      "Demonstrates some empathy and understanding but struggles to articulate different viewpoints.",
+      "Demonstrates empathy and understanding towards diverse perspectives and articulates different viewpoints with some clarity.",
+      "Demonstrates strong empathy and understanding towards diverse perspectives, articulates different viewpoints clearly, and acknowledges potential biases.",
+      "Demonstrates exceptional empathy and understanding towards diverse perspectives, articulates different viewpoints with nuance, actively challenges biases, and promotes inclusivity."
+    ],
+    [
+      "Does not demonstrate any effective communication strategies.",
+      "Suggests ineffective or inappropriate communication strategies.",
+      "Suggests basic communication strategies but lacks specificity or practicality.",
+      "Suggests some effective communication strategies for promoting respect for diversity.",
+      "Suggests clear, effective, and practical communication strategies for promoting respect for diversity in various contexts.",
+      "Suggests innovative and highly effective communication strategies, tailored to specific contexts and audiences, demonstrating a deep understanding of intercultural communication principles."
+    ]
+  ]
+}

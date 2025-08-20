@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifies the sources of influence",
+    "Evaluates the impact of media",
+    "Evaluates the impact of culture",
+    "Evaluates the impact of other people"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any sources of influence on perceptions.",
+      "Identifies one source of influence on perceptions.",
+      "Identifies a few sources of influence on perceptions with limited accuracy.",
+      "Identifies several sources of influence on perceptions with reasonable accuracy.",
+      "Accurately identifies multiple sources of influence on perceptions, providing some context.",
+      "Insightfully identifies and explains a wide range of sources of influence on perceptions, demonstrating a strong understanding of their impact."
+    ],
+    [
+      "Does not evaluate the impact of media on perceptions.",
+      "Attempts to evaluate the impact of media but lacks clarity or accuracy.",
+      "Offers a basic evaluation of the impact of media on perceptions.",
+      "Provides a clear evaluation of the impact of media on perceptions, with supporting examples.",
+      "Critically evaluates the impact of media on perceptions, discussing both positive and negative aspects.",
+      "Demonstrates a sophisticated understanding of media's complex impact on perceptions, offering nuanced insights and well-supported arguments."
+    ],
+    [
+      "Does not evaluate the impact of culture on perceptions.",
+      "Attempts to evaluate the impact of culture but lacks clarity or accuracy.",
+      "Offers a basic evaluation of the impact of culture on perceptions.",
+      "Provides a clear evaluation of the impact of culture on perceptions, with supporting examples.",
+      "Critically evaluates the impact of culture on perceptions, discussing both positive and negative aspects.",
+      "Demonstrates a sophisticated understanding of culture's complex impact on perceptions, offering nuanced insights and well-supported arguments."
+    ],
+    [
+      "Does not evaluate the impact of other people on perceptions.",
+      "Attempts to evaluate the impact of other people, but lacks clarity or accuracy.",
+      "Offers a basic evaluation of the impact of other people on perceptions.",
+      "Provides a clear evaluation of the impact of other people on perceptions, with supporting examples.",
+      "Critically evaluates the impact of other people on perceptions, discussing both positive and negative aspects.",
+      "Demonstrates a sophisticated understanding of other people's complex impact on perceptions, offering nuanced insights and well-supported arguments."
+    ]
+  ]
+}

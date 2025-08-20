@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Data Representation: How accurately the student represents the amounts of salt water and fresh water in various reservoirs.",
+    "Clarity of Graph and Description: How clearly the student presents the information in graph form and describes the distribution of water.",
+    "Use of Mathematical Thinking: How effectively the student uses mathematical thinking (e.g., proportions, percentages) to represent the distribution of water.",
+    "Evidence-Based Reasoning: How well the student provides evidence from their data to support their description of water distribution."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to represent the data, or the representation is completely inaccurate.",
+      "The student's data representation contains significant inaccuracies and omissions, indicating a poor understanding of the data.",
+      "The student's data representation has some inaccuracies and omissions, but the overall trend is discernible.",
+      "The student's data representation is mostly accurate with only minor errors. All required reservoirs are represented.",
+      "The student's data representation is accurate and complete, showing a clear understanding of the distribution of water on Earth.",
+      "The student's data representation is exceptionally accurate, complete, and insightful, demonstrating a deep understanding of the distribution of water on Earth, and providing additional relevant details."
+    ],
+    [
+      "The student does not present a graph or description, or they are completely incomprehensible.",
+      "The graph and description are unclear and difficult to understand, with significant issues in labeling and organization.",
+      "The graph and description are somewhat clear, but there are noticeable issues with labeling, organization, or explanation.",
+      "The graph and description are mostly clear and easy to understand, with minor issues in labeling or organization.",
+      "The graph is clear, well-labeled, and easy to understand. The description is thorough and clearly explains the distribution of water on Earth.",
+      "The graph and description are exceptionally clear, insightful, and well-organized. The student demonstrates a sophisticated understanding through effective communication."
+    ],
+    [
+      "The student does not use mathematical thinking to represent the distribution of water.",
+      "The student's use of mathematical thinking is minimal and inaccurate, indicating a lack of understanding.",
+      "The student attempts to use mathematical thinking, but there are significant errors in calculations or application.",
+      "The student uses mathematical thinking appropriately, with only minor errors in calculations or application.",
+      "The student effectively uses mathematical thinking to accurately represent the proportions and distribution of water in various reservoirs.",
+      "The student expertly uses mathematical thinking to provide deep insights into the distribution of water, demonstrating a sophisticated understanding of scale, proportion, and quantity."
+    ],
+    [
+      "The student provides no evidence or reasoning to support their description.",
+      "The student's reasoning is weak and unsupported by their data.",
+      "The student provides some evidence, but the reasoning is unclear or incomplete.",
+      "The student provides adequate evidence and reasoning to support their description of water distribution.",
+      "The student provides strong evidence from their data and clear reasoning to support their description of water distribution, drawing logical conclusions.",
+      "The student provides comprehensive evidence and insightful reasoning, demonstrating a deep understanding of the data and its implications for water distribution on Earth."
+    ]
+  ]
+}

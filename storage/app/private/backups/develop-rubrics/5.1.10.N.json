@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the relationship between physical activity and sleep.",
+    "Understanding the relationship between rest and sleep.",
+    "Understanding the relationship between physical activity and rest."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the relationship between physical activity and sleep is demonstrated.",
+      "Demonstrates a minimal understanding of the relationship. The student mentions physical activity and sleep but doesn't connect them accurately.",
+      "Demonstrates a basic understanding of the relationship. The student makes a simple connection, such as 'exercise makes you tired'.",
+      "Demonstrates a satisfactory understanding of the relationship. The student explains that physical activity can improve sleep quality or vice versa.",
+      "Demonstrates a strong understanding of the relationship. The student explains how different types of physical activity can affect sleep, or how sleep affects physical performance.",
+      "Demonstrates a comprehensive understanding of the relationship. The student clearly and accurately explains how physical activity and sleep affect each other, including specific examples and potential consequences."
+    ],
+    [
+      "No understanding of the relationship between rest and sleep is demonstrated.",
+      "Demonstrates a minimal understanding of the relationship. The student mentions rest and sleep but doesn't connect them accurately.",
+      "Demonstrates a basic understanding of the relationship. The student makes a simple connection, such as 'rest helps you sleep'.",
+      "Demonstrates a satisfactory understanding of the relationship. The student explains that rest can improve sleep quality.",
+      "Demonstrates a strong understanding of the relationship. The student explains how different types of rest (active vs passive) can affect sleep.",
+      "Demonstrates a comprehensive understanding of the relationship. The student clearly and accurately explains how rest and sleep affect each other, including specific examples and potential consequences."
+    ],
+    [
+      "No understanding of the relationship between physical activity and rest is demonstrated.",
+      "Demonstrates a minimal understanding of the relationship. The student mentions physical activity and rest but doesn't connect them accurately.",
+      "Demonstrates a basic understanding of the relationship. The student makes a simple connection, such as 'rest after exercise'.",
+      "Demonstrates a satisfactory understanding of the relationship. The student explains that rest is important for recovery after physical activity.",
+      "Demonstrates a strong understanding of the relationship. The student explains how different types of physical activity and rest are related.",
+      "Demonstrates a comprehensive understanding of the relationship. The student clearly and accurately explains how physical activity and rest affect each other, including specific examples and potential consequences."
+    ]
+  ]
+}

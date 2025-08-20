@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Information Transfer",
+    "Solution Generation and Comparison",
+    "Application of Patterns",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how patterns can be used to transfer information is demonstrated.",
+      "Demonstrates a minimal understanding of information transfer, with significant gaps in knowledge.",
+      "Demonstrates a partial understanding of information transfer, but struggles with explaining the underlying principles.",
+      "Demonstrates a satisfactory understanding of information transfer, explaining the basic principles with some clarity.",
+      "Demonstrates a strong understanding of information transfer, clearly explaining the principles and providing relevant examples.",
+      "Demonstrates a comprehensive understanding of information transfer, clearly and insightfully explaining the principles, providing relevant examples, and connecting it to real-world applications."
+    ],
+    [
+      "No solutions are generated or compared.",
+      "Generates only one solution or struggles to compare multiple solutions effectively.",
+      "Generates a few solutions, but the comparison is superficial and lacks depth.",
+      "Generates multiple solutions and compares them based on some criteria and constraints.",
+      "Generates multiple solutions and effectively compares them based on well-defined criteria and constraints.",
+      "Generates multiple innovative solutions and provides a thorough comparison based on clearly defined criteria and constraints, justifying the selection of the best solution."
+    ],
+    [
+      "No patterns are identified or applied in the solutions.",
+      "Identifies patterns superficially, with little connection to information transfer.",
+      "Identifies and attempts to apply patterns, but the connection to information transfer is weak.",
+      "Applies patterns effectively to transfer information, demonstrating a clear understanding of their role.",
+      "Applies patterns creatively and effectively to transfer information, optimizing the solutions for clarity and efficiency.",
+      "Applies patterns in an innovative and sophisticated manner to transfer information, demonstrating a deep understanding of their properties and potential applications."
+    ],
+    [
+      "Explanations are unclear and difficult to understand.",
+      "Explanations are partially clear, but lack detail and organization.",
+      "Explanations are generally clear, but could benefit from more detail and organization.",
+      "Explanations are clear, well-organized, and easy to understand.",
+      "Explanations are exceptionally clear, concise, and well-organized, demonstrating a strong command of the subject matter.",
+      "Explanations are articulate, insightful, and demonstrate a deep understanding of the concepts, effectively communicating complex ideas in a clear and engaging manner."
+    ]
+  ]
+}

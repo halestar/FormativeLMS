@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Community Health Factors",
+    "Analysis of Global Environmental Impact",
+    "Clarity and Organization of Presentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of factors influencing community health is demonstrated.",
+      "Demonstrates minimal awareness of factors influencing community health.",
+      "Identifies some factors influencing community health but lacks depth.",
+      "Describes several factors influencing community health with reasonable accuracy.",
+      "Explains factors influencing community health with detail and provides examples.",
+      "Demonstrates comprehensive understanding of factors influencing community health, providing insightful examples and connections."
+    ],
+    [
+      "No analysis of the relationship between the global environment and community health is presented.",
+      "Attempts to connect the global environment to community health, but connections are vague.",
+      "Identifies some ways the global environment affects community health, but analysis is superficial.",
+      "Analyzes the impact of the global environment on community health with supporting details.",
+      "Provides a thorough analysis of the global environment's impact on community health, including multiple perspectives.",
+      "Demonstrates insightful and comprehensive analysis of the intricate relationships between the global environment and community health, offering innovative solutions."
+    ],
+    [
+      "Presentation is unclear, disorganized, and difficult to understand.",
+      "Presentation lacks clarity and organization, making it challenging to follow.",
+      "Presentation is somewhat organized but clarity is lacking in parts.",
+      "Presentation is clear and organized, allowing for easy understanding.",
+      "Presentation is well-organized, clear, and engaging.",
+      "Presentation is exceptionally clear, well-organized, and persuasively communicates complex ideas."
+    ]
+  ]
+}

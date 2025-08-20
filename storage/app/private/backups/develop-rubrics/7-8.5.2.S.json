@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Potential Dangers",
+    "Application of Decision-Making Process",
+    "Strategies for Avoiding Dangerous Situations",
+    "Understanding Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify potential dangers in social situations.",
+      "Identifies potential dangers with significant prompting.",
+      "Identifies some potential dangers in social situations.",
+      "Identifies most potential dangers in social situations with minor oversights.",
+      "Clearly identifies potential dangers in various social situations.",
+      "Thoroughly identifies and analyzes potential dangers in a wide range of complex social situations, demonstrating keen awareness."
+    ],
+    [
+      "Does not apply a decision-making process.",
+      "Attempts to apply a decision-making process but struggles significantly.",
+      "Applies a basic decision-making process inconsistently.",
+      "Applies a decision-making process adequately in some situations.",
+      "Consistently applies a clear and logical decision-making process.",
+      "Applies a sophisticated decision-making process, adapting strategies effectively to different scenarios and justifying choices."
+    ],
+    [
+      "Unable to suggest strategies to avoid dangerous situations.",
+      "Suggests inappropriate or ineffective strategies.",
+      "Suggests a few basic strategies with limited effectiveness.",
+      "Suggests several appropriate strategies for avoiding dangerous situations.",
+      "Suggests a variety of effective strategies and explains their benefits.",
+      "Develops innovative and highly effective strategies for avoiding and de-escalating dangerous situations, considering various perspectives."
+    ],
+    [
+      "Demonstrates no understanding of potential consequences.",
+      "Shows a limited awareness of potential consequences.",
+      "Recognizes some consequences but overlooks others.",
+      "Understands most potential consequences of dangerous situations.",
+      "Clearly understands and articulates potential consequences.",
+      "Critically analyzes and evaluates the short-term and long-term consequences of decisions in dangerous situations, demonstrating foresight."
+    ]
+  ]
+}

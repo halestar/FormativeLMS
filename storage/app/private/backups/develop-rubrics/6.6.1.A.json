@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Specificity of Goals",
+    "Understanding of Drug-Free Strategies",
+    "Personal Relevance and Commitment",
+    "Identification of Support Systems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goals are identified or goals are vague and unfocused.",
+      "Goals are somewhat identified but lack clarity and specificity.",
+      "Goals are identified with some clarity but could be more specific and measurable.",
+      "Goals are clear and specific, outlining desired outcomes for remaining drug-free.",
+      "Goals are very clear, specific, and include measurable components and timelines.",
+      "Goals are exceptionally clear, specific, measurable, achievable, relevant, and time-bound (SMART goals) demonstrating a strong commitment to remaining drug-free."
+    ],
+    [
+      "Demonstrates no understanding of strategies for remaining drug-free.",
+      "Demonstrates limited understanding of strategies; strategies are unrealistic or ineffective.",
+      "Demonstrates a basic understanding of some strategies, but application is unclear.",
+      "Demonstrates a solid understanding of effective strategies and their application to personal circumstances.",
+      "Demonstrates a comprehensive understanding of a wide range of strategies and can adapt them to various situations.",
+      "Demonstrates exceptional understanding of drug-free strategies, including prevention and coping mechanisms, tailored to personal needs."
+    ],
+    [
+      "Goals show no personal relevance or commitment to remaining drug-free.",
+      "Goals show minimal personal relevance or commitment; motivation is unclear.",
+      "Goals show some personal relevance and a limited commitment to remaining drug-free.",
+      "Goals are personally relevant and demonstrate a moderate commitment to remaining drug-free.",
+      "Goals are highly personally relevant and reflect a strong commitment to remaining drug-free; identifies personal values that support the goal.",
+      "Goals are deeply personally relevant, reflecting a profound commitment to remaining drug-free, and are integrated into a broader vision for a healthy life."
+    ],
+    [
+      "No support systems are identified.",
+      "Identifies a limited or inappropriate support system.",
+      "Identifies at least one support system, but its effectiveness is questionable.",
+      "Identifies appropriate support systems and explains how they can be utilized.",
+      "Identifies multiple robust support systems and explains how they will be actively engaged for support.",
+      "Identifies a comprehensive network of support systems, including family, friends, and professional resources, and has a clear plan for utilizing them effectively."
+    ]
+  ]
+}

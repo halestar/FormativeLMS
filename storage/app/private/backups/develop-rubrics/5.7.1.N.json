@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Research-Based Guidelines",
+    "Ability to Identify Healthy Snacks",
+    "Application of Knowledge to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of research-based guidelines for healthy snacks.",
+      "Shows a minimal understanding of research-based guidelines with significant misconceptions.",
+      "Displays a basic understanding of some research-based guidelines but lacks depth.",
+      "Demonstrates a satisfactory understanding of research-based guidelines for selecting healthy snacks.",
+      "Exhibits a strong understanding of research-based guidelines, accurately identifying key components.",
+      "Shows a comprehensive and nuanced understanding of research-based guidelines, including the ability to critically evaluate them."
+    ],
+    [
+      "Unable to identify any healthy snacks based on provided information.",
+      "Identifies very few healthy snacks, with many incorrect choices.",
+      "Identifies some healthy snacks, but also includes unhealthy options.",
+      "Accurately identifies most healthy snacks based on research-based guidelines.",
+      "Consistently identifies healthy snacks and can explain why they are considered healthy.",
+      "Demonstrates the ability to identify healthy snacks in diverse and complex scenarios, justifying choices with detailed explanations."
+    ],
+    [
+      "Unable to apply knowledge of healthy snacks to real-life scenarios.",
+      "Struggles to apply knowledge and makes poor choices in real-life scenarios.",
+      "Applies knowledge inconsistently, with some appropriate choices and some poor choices.",
+      "Generally applies knowledge effectively in real-life scenarios.",
+      "Consistently applies knowledge of healthy snacks in real-life scenarios, making informed and healthy choices.",
+      "Proactively applies knowledge in real-life scenarios, adapting strategies to different contexts and demonstrating a commitment to healthy eating."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Ecosystem Components and Dynamics: Demonstrates comprehension of the interconnectedness within ecosystems and how disruptions affect populations.",
+    "Use of Empirical Evidence: Supports arguments with relevant data and observations.",
+    "Scientific Reasoning and Argumentation: Constructs a logical argument that connects evidence to claims about ecosystem changes.",
+    "Understanding of Stability and Change: Recognizes how small changes can cause large effects in ecosystems and how ecosystems maintain stability."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of ecosystem components or how changes affect populations.",
+      "Minimal understanding of ecosystem components; struggles to connect changes to population effects.",
+      "Basic understanding of ecosystem components but limited explanation of how changes impact populations.",
+      "Adequate understanding of ecosystem components and can explain some effects of changes on populations with limited evidence.",
+      "Clear understanding of ecosystem components and explains effects of changes on populations using relevant evidence.",
+      "Comprehensive understanding of ecosystem components and explains complex effects of changes on populations, providing strong evidence and reasoning."
+    ],
+    [
+      "No evidence provided to support arguments.",
+      "Provides irrelevant or very weak evidence.",
+      "Provides some evidence, but it is not clearly connected to the argument.",
+      "Supports arguments with adequate evidence that is generally relevant.",
+      "Supports arguments with strong and relevant evidence from multiple sources.",
+      "Supports arguments with comprehensive and compelling evidence, demonstrating a deep understanding of empirical data."
+    ],
+    [
+      "Fails to construct a logical argument or connect evidence to claims.",
+      "Argument is weak and illogical; struggles to connect evidence to claims.",
+      "Argument is partially logical but contains gaps in reasoning or weak connections between evidence and claims.",
+      "Constructs a mostly logical argument with reasonable connections between evidence and claims.",
+      "Constructs a clear and logical argument with strong connections between evidence and claims.",
+      "Constructs a compelling and insightful argument, demonstrating sophisticated reasoning and clear connections between evidence and claims, also considers counterarguments."
+    ],
+    [
+      "No recognition of stability and change concepts in ecosystems.",
+      "Minimal awareness of how small changes can affect ecosystems or how ecosystems maintain stability.",
+      "Basic understanding of stability and change but struggles to apply these concepts to specific examples.",
+      "Adequate understanding of stability and change in ecosystems, providing some examples of how small changes can cause larger effects.",
+      "Clear understanding of stability and change, explaining how ecosystems respond to and recover from disruptions.",
+      "Comprehensive understanding of stability and change, analyzing complex interactions and feedback loops that maintain ecosystem balance and resilience."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Author's Point of View or Purpose",
+    "Analysis of How the Author Distinguishes Their Position",
+    "Clarity and Coherence of Response"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify the author's point of view or purpose.",
+      "The student identifies the author's point of view or purpose with significant inaccuracies.",
+      "The student identifies the author's point of view or purpose with some inaccuracies.",
+      "The student accurately identifies the author's point of view or purpose but provides limited explanation.",
+      "The student accurately identifies the author's point of view or purpose and provides a clear explanation.",
+      "The student accurately and insightfully identifies the author's point of view or purpose, providing a thorough and nuanced explanation."
+    ],
+    [
+      "The student does not attempt to analyze how the author distinguishes their position from others.",
+      "The student's analysis of how the author distinguishes their position is unclear or inaccurate.",
+      "The student attempts to analyze how the author distinguishes their position but demonstrates a limited understanding.",
+      "The student identifies some ways the author distinguishes their position but lacks depth in analysis.",
+      "The student provides a solid analysis of how the author distinguishes their position, citing specific examples.",
+      "The student provides a comprehensive and insightful analysis of how the author distinguishes their position, demonstrating a deep understanding of rhetorical strategies and their effects."
+    ],
+    [
+      "The student's response is unclear and lacks coherence.",
+      "The student's response is difficult to understand and lacks logical organization.",
+      "The student's response is somewhat clear but lacks consistent organization.",
+      "The student's response is generally clear and organized with minor lapses.",
+      "The student's response is clear, well-organized, and easy to follow.",
+      "The student's response is exceptionally clear, coherent, and logically structured, enhancing the overall understanding of the analysis."
+    ]
+  ]
+}

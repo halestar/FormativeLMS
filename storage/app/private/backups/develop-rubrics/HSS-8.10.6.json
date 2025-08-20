@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Key Battles",
+    "Awareness of Geographical Advantages and Obstacles",
+    "Knowledge of Technological Advances",
+    "Understanding of Lee's Surrender at Appomattox"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of any major battles of the Civil War.",
+      "Student can name one major battle but provides no further details.",
+      "Student can name a few major battles but lacks detailed descriptions or accurate timelines.",
+      "Student describes several major battles with some accurate details regarding their significance and outcomes.",
+      "Student accurately describes several major battles, explaining their strategic importance and impact on the war's progression.",
+      "Student demonstrates comprehensive knowledge of major battles, including detailed analysis of their strategies, key figures, and long-term consequences on the Civil War."
+    ],
+    [
+      "Student shows no understanding of how geography influenced the Civil War.",
+      "Student mentions geography in passing but does not explain its impact.",
+      "Student identifies one or two geographical factors but struggles to explain their significance.",
+      "Student describes how geographical features affected military strategies and logistics during the war.",
+      "Student analyzes the significant geographical advantages and obstacles for both the Union and the Confederacy.",
+      "Student provides an in-depth analysis of the critical role geography played in determining the outcomes of battles and the overall course of the Civil War."
+    ],
+    [
+      "Student is unaware of any technological advancements during the Civil War.",
+      "Student vaguely mentions technology but provides no specific examples or details.",
+      "Student identifies one or two technological innovations but does not explain their impact on warfare.",
+      "Student describes several technological advancements and explains their immediate effects on military tactics.",
+      "Student analyzes the impact of key technological advancements on Civil War strategies, including weaponry and communication.",
+      "Student demonstrates comprehensive knowledge of technological advancements, analyzing their long-term effects on warfare and society, beyond just the Civil War."
+    ],
+    [
+      "Student is unaware of General Lee's surrender or the location of Appomattox.",
+      "Student identifies Lee's surrender at Appomattox but knows little beyond that.",
+      "Student provides basic details of the surrender but does not explain its significance.",
+      "Student describes the circumstances surrounding Lee's surrender at Appomattox and its immediate impact on the war.",
+      "Student analyzes the significance of Lee's surrender at Appomattox, including its impact on the Union and Confederacy and the terms of surrender.",
+      "Student provides an in-depth analysis of Lee's surrender, including the motivations behind it, the long-term implications for reconciliation, and its symbolic importance in American history."
+    ]
+  ]
+}

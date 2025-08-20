@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and application of i^2 = -1",
+    "Application of commutative, associative, and distributive properties",
+    "Accuracy in performing addition and subtraction of complex numbers",
+    "Accuracy in performing multiplication of complex numbers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of i^2 = -1.",
+      "Student shows limited understanding of i^2 = -1, with frequent errors in application.",
+      "Student demonstrates a basic understanding of i^2 = -1, but makes some errors in application.",
+      "Student accurately uses i^2 = -1 in most calculations, with occasional minor errors.",
+      "Student consistently and accurately uses i^2 = -1 in calculations.",
+      "Student demonstrates thorough understanding and accurate use of i^2 = -1, and can explain its significance in complex number arithmetic."
+    ],
+    [
+      "Student does not apply commutative, associative, and distributive properties.",
+      "Student attempts to use these properties, but with significant errors and inconsistencies.",
+      "Student uses these properties with limited accuracy and frequent errors.",
+      "Student generally applies these properties correctly, with occasional errors.",
+      "Student consistently and accurately applies commutative, associative, and distributive properties.",
+      "Student expertly applies these properties to simplify and solve complex number problems, and can explain their importance."
+    ],
+    [
+      "Student cannot add or subtract complex numbers.",
+      "Student attempts to add or subtract complex numbers, but demonstrates no understanding of how to group real and imaginary parts.",
+      "Student shows limited ability to add or subtract complex numbers, making frequent errors in grouping real and imaginary parts.",
+      "Student can generally add and subtract complex numbers with some errors.",
+      "Student accurately adds and subtracts complex numbers with minimal errors.",
+      "Student flawlessly adds and subtracts complex numbers, demonstrating a strong understanding of real and imaginary components."
+    ],
+    [
+      "Student cannot multiply complex numbers.",
+      "Student attempts to multiply complex numbers, but demonstrates no understanding of distribution.",
+      "Student shows limited ability to multiply complex numbers, making frequent errors in distribution and simplification.",
+      "Student can generally multiply complex numbers with some errors.",
+      "Student accurately multiplies complex numbers with minimal errors.",
+      "Student flawlessly multiplies complex numbers, demonstrating a strong understanding of distribution and simplification."
+    ]
+  ]
+}

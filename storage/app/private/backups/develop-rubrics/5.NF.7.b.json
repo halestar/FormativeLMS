@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Division as Partitioning",
+    "Computational Accuracy",
+    "Interpretation in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of division as partitioning or sharing.",
+      "Student shows minimal understanding, with significant errors in partitioning.",
+      "Student demonstrates some understanding but struggles with accuracy in partitioning whole numbers by unit fractions.",
+      "Student accurately divides whole numbers by unit fractions and starts to explain their partitioning strategy.",
+      "Student demonstrates strong understanding of dividing whole numbers by unit fractions, clearly explaining partitioning strategies.",
+      "Student demonstrates a comprehensive understanding of partitioning and can flexibly apply it to divide whole numbers by unit fractions, including complex scenarios."
+    ],
+    [
+      "Student makes frequent computational errors, indicating a lack of fluency with division.",
+      "Student makes several computational errors, hindering their ability to find correct quotients.",
+      "Student makes occasional computational errors but can often correct them with guidance.",
+      "Student accurately computes quotients in most cases with minimal errors.",
+      "Student consistently computes accurate quotients with efficiency and precision.",
+      "Student demonstrates mastery of computational skills, solving complex division problems accurately and efficiently."
+    ],
+    [
+      "Student cannot create a story context for division of a whole number by a unit fraction.",
+      "Student struggles to create a relevant story context, with limited connection to the division problem.",
+      "Student creates a story context that is somewhat relevant but lacks clarity or coherence.",
+      "Student creates a story context that accurately represents the division of a whole number by a unit fraction.",
+      "Student creates a clear, relevant, and insightful story context that demonstrates a strong understanding of the division problem.",
+      "Student creates a sophisticated and creative story context that showcases a deep understanding of division and its real-world applications."
+    ]
+  ]
+}

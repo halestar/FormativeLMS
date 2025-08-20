@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Resources Used",
+    "Description of Environmental Modification",
+    "Explanation of Causality"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any resources used in the local region.",
+      "The student identifies at least one resource used in the local region with significant inaccuracies.",
+      "The student identifies one resource used in the local region, but the description lacks detail.",
+      "The student identifies two resources used in the local region, providing basic descriptions of each.",
+      "The student identifies two or more resources used in the local region with clear and accurate descriptions.",
+      "The student identifies multiple resources and provides insightful commentary on their historical or contemporary significance in the local region."
+    ],
+    [
+      "The student does not describe any modifications to the physical environment.",
+      "The student attempts to describe a modification but demonstrates a lack of understanding or provides irrelevant information.",
+      "The student vaguely describes a modification to the physical environment, but the connection to resource use is unclear.",
+      "The student describes how a resource was used to modify the physical environment, providing some relevant details.",
+      "The student clearly explains how people used a specific resource to modify the physical environment, including specific examples.",
+      "The student provides a detailed explanation of how a resource was used to modify the physical environment, and critically assesses the impact and consequences of these changes."
+    ],
+    [
+      "The student fails to make a connection between resource use and environmental modification.",
+      "The student makes a vague or illogical attempt to connect resource use and environmental modification.",
+      "The student identifies a link between resource use and environmental modification, but does not elaborate.",
+      "The student explains how a specific instance of resource use led to a particular environmental modification.",
+      "The student clearly explains the causal relationship between resource use and environmental modification, providing supporting evidence.",
+      "The student thoroughly explains the direct and indirect causal relationships between resource use and environmental modification, considering both intended and unintended consequences."
+    ]
+  ]
+}

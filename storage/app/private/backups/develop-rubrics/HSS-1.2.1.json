@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Location Identification",
+    "Use of Map\/Globe Skills",
+    "Understanding of Relative vs. Absolute Location"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any of the required locations (local community, California, USA, seven continents, and four oceans) on a map or globe.",
+      "Student can identify only 1-2 of the required locations with accuracy.",
+      "Student can identify 3-4 of the required locations with reasonable accuracy, but makes several errors.",
+      "Student can identify most (5-6) of the required locations with minor errors in precision.",
+      "Student can accurately identify all of the required locations on a map or globe with only slight imprecision.",
+      "Student can precisely and accurately identify all of the required locations on a map or globe, demonstrating a strong understanding of global geography."
+    ],
+    [
+      "Student does not demonstrate the ability to use a map or globe to locate places.",
+      "Student attempts to use a map\/globe but struggles significantly with basic features (e.g., finding places).",
+      "Student shows some ability to use a map\/globe, but requires assistance and makes frequent errors in using scale, key, or coordinates.",
+      "Student independently uses map\/globe features with general accuracy, but may need occasional help with more complex aspects.",
+      "Student skillfully uses map\/globe features such as scale, key, and coordinates to accurately locate places.",
+      "Student expertly uses map\/globe features to accurately locate places and can explain the significance of map projections and spatial relationships."
+    ],
+    [
+      "Student does not demonstrate any understanding of the difference between relative and absolute location.",
+      "Student shows a limited awareness of relative vs. absolute location, but cannot articulate the difference.",
+      "Student can somewhat distinguish between relative and absolute location, but struggles to apply the concepts.",
+      "Student can generally explain the difference between relative and absolute location and provide simple examples.",
+      "Student clearly understands and explains the difference between relative and absolute location, using relevant examples related to the identified locations.",
+      "Student demonstrates a sophisticated understanding of relative and absolute location, explaining the nuances of how these concepts are used in geography and real-world scenarios."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy and Depth of Theological Ideas Description",
+    "Accuracy and Depth of Political Ideas Description",
+    "Accuracy and Depth of Economic Ideas Description",
+    "Breadth of Coverage of Major Figures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the theological ideas of the major figures during the Reformation.",
+      "The student demonstrates a minimal understanding of the theological ideas, with significant inaccuracies.",
+      "The student identifies some theological ideas but struggles to explain them accurately or in detail.",
+      "The student accurately describes the theological ideas of at least one major figure, with some depth.",
+      "The student accurately describes the theological ideas of multiple major figures, demonstrating good depth and understanding.",
+      "The student comprehensively and accurately describes the theological ideas of multiple major figures, demonstrating a deep and nuanced understanding."
+    ],
+    [
+      "The student demonstrates no understanding of the political ideas of the major figures during the Reformation.",
+      "The student demonstrates a minimal understanding of the political ideas, with significant inaccuracies.",
+      "The student identifies some political ideas but struggles to explain them accurately or in detail.",
+      "The student accurately describes the political ideas of at least one major figure, with some depth.",
+      "The student accurately describes the political ideas of multiple major figures, demonstrating good depth and understanding.",
+      "The student comprehensively and accurately describes the political ideas of multiple major figures, demonstrating a deep and nuanced understanding."
+    ],
+    [
+      "The student demonstrates no understanding of the economic ideas of the major figures during the Reformation.",
+      "The student demonstrates a minimal understanding of the economic ideas, with significant inaccuracies.",
+      "The student identifies some economic ideas but struggles to explain them accurately or in detail.",
+      "The student accurately describes the economic ideas of at least one major figure, with some depth.",
+      "The student accurately describes the economic ideas of multiple major figures, demonstrating good depth and understanding.",
+      "The student comprehensively and accurately describes the economic ideas of multiple major figures, demonstrating a deep and nuanced understanding."
+    ],
+    [
+      "The student does not mention any of the major figures (Erasmus, Luther, Calvin, Tyndale).",
+      "The student mentions only one major figure with minimal discussion of their ideas.",
+      "The student mentions two major figures but provides limited information about their ideas.",
+      "The student discusses the ideas of three major figures with reasonable accuracy and detail.",
+      "The student discusses the ideas of all four major figures with good accuracy and detail.",
+      "The student comprehensively discusses the ideas of all four major figures, demonstrating a strong understanding of their context and impact."
+    ]
+  ]
+}

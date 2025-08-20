@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Depression Signs",
+    "Understanding of Potential Suicide Indicators",
+    "Recognition of Other Self-Destructive Behaviors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No signs of depression are identified or the explanation demonstrates a complete misunderstanding.",
+      "Identifies only one sign of depression with a limited or inaccurate explanation.",
+      "Identifies two signs of depression with a basic but somewhat unclear explanation.",
+      "Identifies three signs of depression with a reasonably clear explanation.",
+      "Identifies four signs of depression with a clear and accurate explanation.",
+      "Identifies multiple signs of depression comprehensively, with a clear, accurate, and nuanced explanation demonstrating a strong understanding."
+    ],
+    [
+      "No indicators of potential suicide are identified, or the information is completely inaccurate.",
+      "Identifies one indicator of potential suicide with a vague or partially inaccurate explanation.",
+      "Identifies two indicators of potential suicide with a basic but not fully clear explanation.",
+      "Identifies three indicators of potential suicide with a reasonably clear explanation.",
+      "Identifies four indicators of potential suicide with a clear and mostly accurate explanation.",
+      "Identifies multiple indicators of potential suicide comprehensively, with a clear, accurate, and nuanced explanation demonstrating a strong understanding."
+    ],
+    [
+      "No self-destructive behaviors are identified or the information provided is incorrect.",
+      "Identifies one self-destructive behavior with a limited and possibly inaccurate explanation.",
+      "Identifies two self-destructive behaviors with a basic but somewhat unclear explanation.",
+      "Identifies three self-destructive behaviors with a reasonably clear explanation.",
+      "Identifies four self-destructive behaviors with a clear and generally accurate explanation.",
+      "Identifies multiple self-destructive behaviors comprehensively, with a clear, accurate, and nuanced explanation demonstrating a strong understanding."
+    ]
+  ]
+}

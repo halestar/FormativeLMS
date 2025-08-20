@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Systematic Evaluation Process",
+    "Criteria and Constraints Application",
+    "Evidence-Based Justification",
+    "Consideration of Trade-offs"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use a systematic process is evident.",
+      "The student mentions a process but does not follow through with it.",
+      "The student attempts a systematic process, but it is incomplete or flawed.",
+      "The student employs a systematic process to evaluate solutions, but with minor inconsistencies.",
+      "The student consistently applies a systematic process, with clear steps to evaluate solutions.",
+      "The student employs and optimizes a systematic process, adapting it thoughtfully to the specific design solutions with clear steps and justifications."
+    ],
+    [
+      "The student shows no understanding of the design criteria or constraints.",
+      "The student identifies criteria and constraints superficially, without applying them.",
+      "The student lists criteria and constraints but struggles to relate them to the solutions.",
+      "The student applies criteria and constraints to assess how well design solutions meet them.",
+      "The student skillfully applies criteria and constraints, providing a clear rationale for each.",
+      "The student expertly applies criteria and constraints, weighing their relative importance and providing insightful justification."
+    ],
+    [
+      "The student makes claims without any supporting evidence.",
+      "The student offers weak or irrelevant evidence.",
+      "The student provides some evidence, but it is not well-connected to the solutions.",
+      "The student uses evidence to support their evaluation of solutions.",
+      "The student effectively uses specific and relevant evidence to justify their assessment.",
+      "The student thoroughly justifies their evaluation with compelling evidence, showing a deep understanding of the solution\u2019s strengths and weaknesses."
+    ],
+    [
+      "The student does not acknowledge any trade-offs between competing design solutions.",
+      "The student vaguely mentions trade-offs, without specifics.",
+      "The student identifies some trade-offs but doesn't explore their implications.",
+      "The student discusses trade-offs and their impact on the overall design.",
+      "The student analyzes the trade-offs between solutions, making reasoned judgments about the best compromise.",
+      "The student expertly weighs the trade-offs, proposing innovative ways to optimize solutions given the constraints."
+    ]
+  ]
+}

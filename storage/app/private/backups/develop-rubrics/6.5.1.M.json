@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifying the decision-making process steps",
+    "Applying the decision-making process to health-related scenarios",
+    "Analyzing the impact of decisions on health outcomes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any steps of a decision-making process.",
+      "Identifies one or two steps of a decision-making process but with inaccuracies.",
+      "Identifies some of the steps of a decision-making process (3-4 steps) but lacks clarity or detail.",
+      "Identifies most of the steps of a decision-making process (5-6 steps) with reasonable accuracy.",
+      "Clearly identifies all key steps of a decision-making process with detail and accuracy.",
+      "Demonstrates a comprehensive understanding by accurately identifying all steps of a decision-making process, explaining each step's importance and providing a relevant example."
+    ],
+    [
+      "Unable to apply the decision-making process to a given health scenario.",
+      "Attempts to apply the decision-making process, but application is flawed and demonstrates little understanding.",
+      "Applies the decision-making process to a health scenario with limited success; struggles to connect steps to the scenario.",
+      "Applies the decision-making process to a health scenario adequately, demonstrating a basic understanding of its relevance.",
+      "Applies the decision-making process effectively to a health scenario, showing clear connections between steps and outcomes.",
+      "Applies the decision-making process exceptionally well to a complex health scenario, demonstrating critical thinking and insightful connections between each step and the overall health outcome."
+    ],
+    [
+      "Shows no understanding of how decisions impact health outcomes.",
+      "Demonstrates a very limited understanding of the relationship between decisions and health outcomes.",
+      "Identifies a superficial connection between decisions and health outcomes but lacks depth.",
+      "Analyzes the impact of decisions on health outcomes with some accuracy, identifying both positive and negative consequences.",
+      "Provides a thorough analysis of the impact of decisions on health outcomes, considering short-term and long-term effects.",
+      "Offers a comprehensive and insightful analysis of the multifaceted impacts of decisions on health outcomes, including potential unforeseen consequences and nuanced considerations."
+    ]
+  ]
+}

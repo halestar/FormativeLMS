@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and describing emotional consequences",
+    "Understanding and describing psychological consequences",
+    "Understanding and describing physical consequences",
+    "Clarity and accuracy of information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any emotional consequences of rape and sexual assault.",
+      "Identifies one or two emotional consequences with limited understanding.",
+      "Identifies some emotional consequences but lacks depth in explanation.",
+      "Clearly identifies several emotional consequences of rape and sexual assault with adequate explanations.",
+      "Thoroughly describes multiple emotional consequences, demonstrating a strong understanding of their impact.",
+      "Provides a comprehensive and insightful analysis of the emotional consequences, including nuanced understanding of complex reactions."
+    ],
+    [
+      "Does not identify any psychological consequences of rape and sexual assault.",
+      "Identifies one or two psychological consequences with limited understanding.",
+      "Identifies some psychological consequences but lacks depth in explanation.",
+      "Clearly identifies several psychological consequences of rape and sexual assault with adequate explanations.",
+      "Thoroughly describes multiple psychological consequences, demonstrating a strong understanding of their impact.",
+      "Provides a comprehensive and insightful analysis of the psychological consequences, including nuanced understanding of complex reactions and potential long-term effects."
+    ],
+    [
+      "Does not identify any physical consequences of rape and sexual assault.",
+      "Identifies one or two physical consequences with limited understanding.",
+      "Identifies some physical consequences but lacks depth in explanation.",
+      "Clearly identifies several physical consequences of rape and sexual assault with adequate explanations.",
+      "Thoroughly describes multiple physical consequences, demonstrating a strong understanding of their impact.",
+      "Provides a comprehensive and insightful analysis of the physical consequences, including nuanced understanding of immediate and potential long-term health issues."
+    ],
+    [
+      "Information is inaccurate, unclear, or missing.",
+      "Information contains significant inaccuracies and lacks clarity.",
+      "Information is mostly accurate but may have some minor inaccuracies or lacks detail.",
+      "Information is accurate and presented clearly.",
+      "Information is highly accurate, clear, and well-organized.",
+      "Information is exceptionally accurate, insightful, and presented with a high degree of clarity and sophistication."
+    ]
+  ]
+}

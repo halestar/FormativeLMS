@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in telling and writing time to the nearest minute",
+    "Ability to measure time intervals in minutes",
+    "Problem-solving skills in addition and subtraction of time intervals",
+    "Representation of time intervals using number line diagrams"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to tell or write time to the nearest hour.",
+      "Can tell and write time to the nearest hour, but struggles with minutes.",
+      "Can tell and write time to the nearest 15 minutes with some errors.",
+      "Can tell and write time to the nearest 5 minutes with occasional errors.",
+      "Can tell and write time to the nearest minute with minor errors or inconsistencies.",
+      "Consistently and accurately tells and writes time to the nearest minute."
+    ],
+    [
+      "Unable to measure or identify time intervals.",
+      "Can measure time intervals in hours, but not accurately in minutes.",
+      "Can measure simple time intervals (e.g., 30 minutes) but struggles with more complex intervals.",
+      "Can measure most time intervals in minutes, but makes errors when crossing the hour mark.",
+      "Accurately measures time intervals in minutes with only occasional errors.",
+      "Consistently and accurately measures a variety of time intervals in minutes, including those crossing the hour mark."
+    ],
+    [
+      "Unable to solve word problems involving time intervals.",
+      "Attempts to solve word problems but struggles with the concept of time intervals.",
+      "Can solve simple addition and subtraction problems involving time intervals with significant errors.",
+      "Solves most addition and subtraction problems involving time intervals, but makes calculation errors.",
+      "Accurately solves addition and subtraction problems involving time intervals, with only minor errors in calculations or representation.",
+      "Consistently and accurately solves complex word problems involving addition and subtraction of time intervals, demonstrating a strong understanding of time concepts and problem-solving strategies."
+    ],
+    [
+      "Unable to create or use a number line diagram to represent time intervals.",
+      "Attempts to create a number line but is unable to accurately represent time intervals.",
+      "Can create a basic number line diagram with some correct representations of time intervals, but significant gaps in understanding.",
+      "Creates a number line diagram that accurately represents most time intervals, but may have minor inconsistencies in scale or labeling.",
+      "Effectively uses number line diagrams to accurately represent and solve problems involving time intervals.",
+      "Creates clear, accurate, and detailed number line diagrams to effectively represent and solve complex problems involving addition and subtraction of time intervals, demonstrating a thorough understanding of the concept."
+    ]
+  ]
+}

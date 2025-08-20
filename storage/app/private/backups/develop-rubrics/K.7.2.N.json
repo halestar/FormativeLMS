@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Nutrient Balance",
+    "Portion Control and Calorie Awareness",
+    "Practicality and Feasibility"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Breakfast plan lacks essential nutrients and demonstrates no understanding of balanced nutrition.",
+      "Breakfast plan is missing several key nutrients or food groups and has limited understanding of balanced nutrition.",
+      "Breakfast plan includes some key nutrients but lacks balance and variety, showing a basic understanding of nutrition.",
+      "Breakfast plan includes most key nutrients and food groups with a fair balance, showing a moderate understanding of nutrition.",
+      "Breakfast plan includes a good balance of key nutrients and food groups, demonstrating a strong understanding of nutrition.",
+      "Breakfast plan is comprehensive, well-balanced, and demonstrates an excellent understanding of nutrient needs and dietary guidelines."
+    ],
+    [
+      "Breakfast plan demonstrates no awareness of portion sizes or calorie content, with potentially excessive servings.",
+      "Breakfast plan shows little awareness of portion sizes or calorie content, with unrealistic or unhealthy serving sizes.",
+      "Breakfast plan includes some consideration of portion sizes but may still have inconsistencies or lack of appropriate calorie levels.",
+      "Breakfast plan demonstrates a moderate understanding of portion sizes and calorie content, with reasonably sized portions.",
+      "Breakfast plan accurately reflects appropriate portion sizes and calorie content for a healthy breakfast.",
+      "Breakfast plan expertly balances portion sizes and calorie content, showing advanced understanding of energy needs."
+    ],
+    [
+      "Breakfast plan is unrealistic and impractical for daily implementation due to complexity or resource constraints.",
+      "Breakfast plan presents significant challenges for daily implementation and lacks consideration of time or resources.",
+      "Breakfast plan has some practical elements but may be difficult to implement regularly due to complexity or cost.",
+      "Breakfast plan is reasonably practical and feasible for regular consumption with some adjustments.",
+      "Breakfast plan is highly practical and feasible, considering time, cost, and availability of ingredients.",
+      "Breakfast plan is exceptionally practical and sustainable, integrating personal preferences and dietary needs seamlessly into a realistic daily routine."
+    ]
+  ]
+}

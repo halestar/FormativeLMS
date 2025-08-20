@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to rewrite quadratic functions to reveal key features such as vertex, intercepts, and maximum\/minimum values.",
+    "Understanding of how different algebraic forms (standard, vertex, factored) relate to the graph of a quadratic function.",
+    "Application of rewriting functions to solve real-world problems or make predictions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to rewrite the function or demonstrates no understanding of equivalent forms.",
+      "Attempts to rewrite the function but makes significant errors in algebraic manipulation, or identifies only one key feature.",
+      "Rewrites the function with some errors, identifies two key features but may misinterpret their meaning in the context of the problem.",
+      "Successfully rewrites the function but provides a limited explanation of how the different form reveals specific properties. Identifies key features correctly.",
+      "Accurately rewrites the function in different forms and explains how each form reveals different properties of the function with clear reasoning. Demonstrates full command of key features.",
+      "Demonstrates a sophisticated understanding by rewriting the function and providing insightful explanations of the connections between different forms and their implications for understanding the function\u2019s behavior. Can generalize key feature properties and extrapolate to different function types."
+    ],
+    [
+      "Shows no connection between algebraic forms and graphical representation.",
+      "Attempts to relate algebraic forms to the graph but displays significant misunderstandings or inaccuracies.",
+      "Relates one form to the graph correctly but struggles with others, or misinterprets the graphical features.",
+      "Relates the standard, vertex, and factored form to the graph, but explanations are simplistic and lack depth.",
+      "Clearly explains the relationship between the algebraic forms and the graph, and can identify key features from both representations.",
+      "Demonstrates a deep understanding of the relationship between algebraic forms and the graph, can apply this understanding to solve complex problems, and can teach the concepts to others effectively."
+    ],
+    [
+      "Unable to apply function rewriting to problem-solving.",
+      "Attempts to apply function rewriting to problem-solving but makes fundamental errors or gets incorrect results.",
+      "Applies function rewriting to problem-solving with some errors, but arrives at a reasonable answer.",
+      "Applies function rewriting correctly to solve problems and make predictions, but explanations lack depth.",
+      "Effectively uses function rewriting to solve real-world problems, provides clear and accurate explanations of the problem-solving process.",
+      "Demonstrates exceptional problem-solving skills by applying function rewriting to complex, real-world scenarios and provides a deep understanding of the implications and limitations of the results."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying absolute locations (latitude and longitude)",
+    "Clarity in describing relative locations using directional terms and landmarks",
+    "Understanding of the relationship between people, places, and environments"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify absolute locations or uses incorrect coordinates.",
+      "Student struggles to identify absolute locations and provides inaccurate coordinates.",
+      "Student identifies absolute locations with limited accuracy.",
+      "Student accurately identifies most absolute locations with minor errors.",
+      "Student consistently identifies absolute locations with precision.",
+      "Student expertly identifies absolute locations and explains their significance."
+    ],
+    [
+      "Student cannot describe relative locations or uses vague and unclear language.",
+      "Student struggles to describe relative locations and provides confusing descriptions.",
+      "Student describes relative locations with limited clarity.",
+      "Student clearly describes most relative locations using appropriate terms.",
+      "Student consistently describes relative locations with precision and detail.",
+      "Student expertly describes relative locations and explains how location influences human activity."
+    ],
+    [
+      "Student shows no understanding of the connections between people, places, and environments.",
+      "Student struggles to explain the connections between people, places, and environments.",
+      "Student demonstrates a basic understanding of the relationship between people, places, and environments.",
+      "Student explains how people, places, and environments interact with some examples.",
+      "Student clearly explains the interactions between people, places, and environments with well-developed examples.",
+      "Student expertly analyzes the complex relationships between people, places, and environments and provides insightful examples."
+    ]
+  ]
+}

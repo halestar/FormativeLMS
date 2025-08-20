@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Knowledge of School Layout",
+    "Understanding of School Environs",
+    "Awareness of Staff Roles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no awareness of the school layout.",
+      "Student shows minimal awareness of the school's layout, knowing only a few key locations.",
+      "Student identifies some locations within the school but struggles to navigate or describe their relationships.",
+      "Student demonstrates a general understanding of the school's layout, able to locate most common areas.",
+      "Student demonstrates a comprehensive understanding of the school's layout and is able to describe the location of all areas within the school.",
+      "Student demonstrates an expert level of knowledge of the school's layout, able to navigate the school efficiently, describe relationships between locations, and give directions to others."
+    ],
+    [
+      "Student is unaware of the areas surrounding the school.",
+      "Student recognizes some of the areas immediately adjacent to the school.",
+      "Student identifies a few key landmarks near the school but lacks a broader understanding of the environs.",
+      "Student demonstrates a general understanding of the school's surroundings, identifying major roads and nearby buildings.",
+      "Student demonstrates a comprehensive understanding of the school's environs, describing the surrounding neighborhood and its key features.",
+      "Student demonstrates an expert level of knowledge of the school's environs, able to discuss the history, geography, and significance of the area surrounding the school."
+    ],
+    [
+      "Student is unaware of the jobs people do at the school.",
+      "Student recognizes the roles of a few prominent staff members (e.g., teachers, principal).",
+      "Student identifies the roles of some staff members but has limited understanding of their responsibilities.",
+      "Student demonstrates a general understanding of the jobs performed by various staff members at the school.",
+      "Student demonstrates a comprehensive understanding of the roles of staff members and how they contribute to the school community.",
+      "Student demonstrates an expert level of awareness of staff roles, able to discuss the importance of each role and how they contribute to the functioning of the school."
+    ]
+  ]
+}

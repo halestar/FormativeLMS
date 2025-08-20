@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the relationship between healthy eating and good health.",
+    "Understanding of the relationship between physical activity and good health.",
+    "Ability to provide specific examples of healthy eating and physical activity.",
+    "Clarity and coherence of explanation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how healthy eating influences good health.",
+      "Shows a minimal understanding of the link between healthy eating and good health, with significant misconceptions.",
+      "Identifies some connections between healthy eating and good health but lacks depth and detail.",
+      "Explains the relationship between healthy eating and good health with reasonable clarity and accuracy.",
+      "Clearly explains how healthy eating habits directly contribute to various aspects of good health, providing specific examples.",
+      "Provides a comprehensive and nuanced explanation of how healthy eating impacts overall health, including long-term benefits and potential risks of poor nutrition."
+    ],
+    [
+      "Demonstrates no understanding of how physical activity influences good health.",
+      "Shows a minimal understanding of the link between physical activity and good health, with significant misconceptions.",
+      "Identifies some connections between physical activity and good health but lacks depth and detail.",
+      "Explains the relationship between physical activity and good health with reasonable clarity and accuracy.",
+      "Clearly explains how physical activity habits directly contribute to various aspects of good health, providing specific examples.",
+      "Provides a comprehensive and nuanced explanation of how physical activity impacts overall health, including different types of activity and their specific benefits."
+    ],
+    [
+      "Unable to provide any examples of healthy eating or physical activity.",
+      "Provides vague or inaccurate examples of healthy eating and physical activity.",
+      "Provides some examples of healthy eating and physical activity, but they are limited or not fully explained.",
+      "Provides relevant examples of healthy eating and physical activity, explaining their benefits.",
+      "Offers a variety of specific and well-explained examples of both healthy eating and physical activity, tailored to different needs and preferences.",
+      "Presents a wide range of detailed examples of healthy eating and physical activity, demonstrating an understanding of individual needs and long-term health implications."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation lacks clarity and organization, making it hard to follow.",
+      "Explanation is somewhat clear but could be better organized and more coherent.",
+      "Explanation is generally clear and organized, with a logical flow of ideas.",
+      "Explanation is clear, concise, and well-organized, presenting information in a logical and engaging manner.",
+      "Explanation is exceptionally clear, coherent, and insightful, demonstrating a deep understanding of the topic."
+    ]
+  ]
+}

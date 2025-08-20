@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Individual Differences in Growth and Development",
+    "Recognizing Variations in Physical Appearance",
+    "Understanding Diversity in Gender Roles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of individual differences in growth and development.",
+      "Student shows minimal understanding of individual differences in growth and development, with significant misconceptions.",
+      "Student identifies some individual differences in growth and development but struggles to explain them clearly.",
+      "Student accurately describes several individual differences in growth and development with reasonable clarity.",
+      "Student thoroughly explains various individual differences in growth and development, providing supporting examples.",
+      "Student demonstrates comprehensive understanding of individual differences in growth and development, analyzing the factors that contribute to these differences with insightful examples."
+    ],
+    [
+      "Student does not recognize variations in physical appearance.",
+      "Student shows difficulty recognizing variations in physical appearance, displaying potential biases or stereotypes.",
+      "Student acknowledges variations in physical appearance but with limited understanding or explanation.",
+      "Student recognizes and describes variations in physical appearance with some understanding of genetic and environmental factors.",
+      "Student thoroughly explains variations in physical appearance, including genetic, environmental, and lifestyle factors.",
+      "Student comprehensively analyzes the interplay of genetic, environmental, and lifestyle factors that contribute to variations in physical appearance, demonstrating nuanced understanding and challenging societal norms."
+    ],
+    [
+      "Student does not demonstrate any understanding of gender roles.",
+      "Student expresses limited understanding of gender roles, potentially reinforcing stereotypes.",
+      "Student identifies traditional gender roles but struggles to recognize diversity within these roles.",
+      "Student recognizes various gender roles and expresses some understanding of the social and cultural influences.",
+      "Student explains diversity in gender roles, including social, cultural, and historical influences, with supporting examples.",
+      "Student demonstrates a comprehensive and nuanced understanding of diversity in gender roles, analyzing the interplay of social, cultural, and historical factors while challenging stereotypes and promoting inclusivity."
+    ]
+  ]
+}

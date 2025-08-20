@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the concept of a fraction as division.",
+    "Applying fraction-as-division understanding to solve problems.",
+    "Accuracy and precision in calculations and explanations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of fractions as division.",
+      "Student can partially identify fractions but struggles to connect them to division.",
+      "Student can identify fractions and shows a basic understanding of their relationship to division, but with significant errors or gaps.",
+      "Student can accurately interpret fractions as division in simple cases, with some minor errors or need for assistance.",
+      "Student consistently and accurately interprets fractions as division, demonstrating a solid understanding.",
+      "Student demonstrates a deep understanding of fractions as division and can explain the concept clearly and accurately, even in complex scenarios."
+    ],
+    [
+      "Student is unable to apply the concept to solve any problems.",
+      "Student attempts to apply the concept but is unsuccessful in solving problems.",
+      "Student can apply the concept to solve very simple problems, but struggles with more complex ones.",
+      "Student can solve problems of moderate complexity using the concept, but may make some errors.",
+      "Student can solve a variety of problems accurately and efficiently using the concept.",
+      "Student can solve complex problems accurately and efficiently, and can explain their reasoning clearly and logically."
+    ],
+    [
+      "Work is completely inaccurate with no correct steps.",
+      "Work contains significant errors and lacks clear explanations.",
+      "Work contains some errors, but the student attempts to explain their reasoning.",
+      "Work is mostly accurate with clear explanations, but may contain minor errors.",
+      "Work is accurate and precise with clear and logical explanations.",
+      "Work is exceptionally accurate, precise, and well-explained, demonstrating a deep understanding of the concepts."
+    ]
+  ]
+}

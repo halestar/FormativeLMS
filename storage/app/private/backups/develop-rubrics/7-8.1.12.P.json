@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of sun safety strategies",
+    "Understanding of UV Radiation",
+    "Application of sun safety strategies to different scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No strategies identified or strategies are completely irrelevant.",
+      "Identifies one strategy, but it is vague or not clearly related to sun exposure reduction.",
+      "Identifies two sun safety strategies, but explanations lack detail or clarity.",
+      "Identifies three sun safety strategies with some explanation of how they reduce sun exposure.",
+      "Identifies four relevant sun safety strategies and explains how they reduce sun exposure with reasonable clarity and detail.",
+      "Identifies five or more relevant sun safety strategies, clearly and thoroughly explaining how each reduces sun exposure, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Demonstrates no understanding of UV radiation or its dangers.",
+      "Demonstrates minimal understanding of UV radiation; explanations are unclear or incorrect.",
+      "Understands that UV radiation is harmful but provides limited detail.",
+      "Describes UV radiation and its potential harm, but the explanation lacks depth.",
+      "Explains UV radiation, including the types (UVA, UVB), and describes its potential harm with reasonable detail.",
+      "Provides a comprehensive explanation of UV radiation, including types, sources, and potential harm, demonstrating a deep understanding."
+    ],
+    [
+      "Unable to apply sun safety strategies to different scenarios.",
+      "Attempts to apply strategies to a scenario, but the application is inappropriate or ineffective.",
+      "Applies one or two strategies to a scenario with limited effectiveness or appropriateness.",
+      "Applies sun safety strategies to a scenario with reasonable effectiveness, but may miss some opportunities.",
+      "Applies multiple sun safety strategies effectively to a scenario, demonstrating good judgment.",
+      "Applies a wide range of sun safety strategies effectively and appropriately to various scenarios, showing excellent judgment and adaptability."
+    ]
+  ]
+}

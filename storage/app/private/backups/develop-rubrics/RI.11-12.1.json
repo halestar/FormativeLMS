@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Explicit Textual Evidence",
+    "Quality of Inferences Drawn",
+    "Identification of Uncertainties in the Text"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is provided, or the evidence provided is completely irrelevant to the analysis.",
+      "The textual evidence is minimal, inaccurate, or does not support the analysis.",
+      "The textual evidence is partially accurate but weakly supports the analysis.",
+      "The textual evidence is generally accurate and supports the analysis, but there are minor inaccuracies or omissions.",
+      "The textual evidence is accurate and clearly supports the analysis.",
+      "The textual evidence is not only accurate but is also strategically selected to provide the strongest possible support for the analysis."
+    ],
+    [
+      "No inferences are drawn, or the inferences made are illogical and completely unsupported by the text.",
+      "The inferences drawn are superficial, lack textual support, or contradict the text.",
+      "The inferences drawn are somewhat logical but require more textual support or deeper analysis.",
+      "The inferences drawn are logical and have some textual support, but there is room for more nuanced understanding.",
+      "The inferences drawn are logical, well-supported by the text, and show a good understanding of the material.",
+      "The inferences drawn demonstrate a sophisticated understanding of the text, going beyond the obvious to uncover deeper meanings and implications."
+    ],
+    [
+      "No attempt is made to identify uncertainties or ambiguities in the text.",
+      "Uncertainties are mentioned but without any supporting evidence or explanation.",
+      "Some uncertainties are identified, but the explanation is superficial or lacks depth.",
+      "Uncertainties are identified with reasonable explanations, but some key ambiguities may be overlooked.",
+      "Uncertainties are clearly identified and thoroughly explained, showing a strong understanding of the text's complexities.",
+      "Demonstrates exceptional insight by identifying subtle uncertainties and exploring their implications with sophisticated reasoning and textual support."
+    ]
+  ]
+}

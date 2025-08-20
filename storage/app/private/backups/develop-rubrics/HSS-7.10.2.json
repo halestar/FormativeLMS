@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Scientific Theories",
+    "Understanding of New Inventions",
+    "Significance of Scientific Revolution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the scientific theories of Copernicus, Galileo, Kepler, or Newton.",
+      "Shows a minimal understanding of one of the scientific theories (Copernicus, Galileo, Kepler, or Newton).",
+      "Shows a basic understanding of two of the scientific theories, but lacks depth or detail.",
+      "Demonstrates a satisfactory understanding of three of the scientific theories, including some key concepts.",
+      "Demonstrates a strong understanding of all four scientific theories, including their key concepts and significance.",
+      "Demonstrates a comprehensive understanding of the scientific theories, including their historical context, impact, and interconnections."
+    ],
+    [
+      "Demonstrates no understanding of the significance of new inventions like the telescope, microscope, thermometer, or barometer.",
+      "Shows a minimal understanding of one of the new inventions.",
+      "Shows a basic understanding of two of the new inventions, but lacks depth or detail.",
+      "Demonstrates a satisfactory understanding of three of the new inventions, including some key functions.",
+      "Demonstrates a strong understanding of all four new inventions, including their functions and importance in the Scientific Revolution.",
+      "Demonstrates a comprehensive understanding of the new inventions, including their impact on scientific observation, experimentation, and knowledge."
+    ],
+    [
+      "Demonstrates no understanding of the broader significance of the Scientific Revolution.",
+      "Shows a minimal awareness of the Scientific Revolution's impact.",
+      "Shows a basic understanding of the Scientific Revolution's impact on one area (religious, political, or cultural institutions).",
+      "Demonstrates a satisfactory understanding of the Scientific Revolution's impact on two areas (religious, political, and cultural institutions).",
+      "Demonstrates a strong understanding of the Scientific Revolution's impact on all three areas (religious, political, and cultural institutions).",
+      "Demonstrates a comprehensive understanding of the Scientific Revolution's lasting effects on religious, political, and cultural institutions, including nuanced perspectives."
+    ]
+  ]
+}

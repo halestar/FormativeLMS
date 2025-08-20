@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Injury Risks",
+    "Explanation of Risk Reduction Strategies",
+    "Application to Oral Injuries",
+    "Clarity and Accuracy of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any injury risks associated with sports and recreational activities.",
+      "Identifies one or two injury risks with limited detail.",
+      "Identifies some common injury risks but lacks depth in explanation.",
+      "Identifies several injury risks, providing a basic explanation for each.",
+      "Clearly identifies and explains multiple injury risks, demonstrating a good understanding.",
+      "Comprehensively identifies and explains a wide range of injury risks with detailed understanding and insightful examples."
+    ],
+    [
+      "Does not explain any strategies to reduce injury risks.",
+      "Offers one or two vague or impractical risk reduction strategies.",
+      "Explains a few basic strategies but lacks detail or feasibility.",
+      "Explains several relevant strategies for reducing injury risks with some practical considerations.",
+      "Clearly explains and justifies multiple effective strategies, showing good understanding of their application.",
+      "Provides a comprehensive explanation of a wide array of effective and innovative strategies, demonstrating excellent understanding and practical application."
+    ],
+    [
+      "Does not address oral injuries or their prevention.",
+      "Briefly mentions oral injuries without providing specific prevention strategies.",
+      "Identifies oral injuries as a potential risk and offers one or two general prevention tips.",
+      "Explains specific strategies for reducing the risk of oral injuries during sports and recreation.",
+      "Clearly explains and justifies multiple effective strategies for preventing oral injuries, showing good understanding of their specific application.",
+      "Provides a comprehensive explanation of a wide array of effective and innovative strategies for preventing oral injuries, demonstrating excellent understanding and practical application, including the use of protective equipment."
+    ],
+    [
+      "Information is unclear, inaccurate, or demonstrates a lack of understanding.",
+      "Information is partially accurate but lacks clarity and detail.",
+      "Information is generally accurate but may contain some minor inaccuracies or omissions.",
+      "Information is clear, accurate, and well-organized, demonstrating a solid understanding of the topic.",
+      "Information is presented with exceptional clarity, accuracy, and organization, demonstrating a strong command of the subject matter.",
+      "Information is presented with exceptional clarity, accuracy, and insight, demonstrating a comprehensive and nuanced understanding of the topic; response is exceptionally well-written and engaging."
+    ]
+  ]
+}

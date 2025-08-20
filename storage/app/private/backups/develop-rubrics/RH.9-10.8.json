@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Claims",
+    "Assessment of Reasoning",
+    "Evaluation of Evidence",
+    "Overall Assessment of Support"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the author's claims or identifies them inaccurately.",
+      "Identifies the author's claims with significant inaccuracies or omissions.",
+      "Identifies the author's main claims, but may miss nuances or secondary claims.",
+      "Accurately identifies the author's main claims and most secondary claims.",
+      "Accurately identifies all of the author's claims, including nuances and subtle points.",
+      "Masterfully identifies all claims, demonstrating a comprehensive understanding of the author's argument."
+    ],
+    [
+      "Demonstrates no understanding of the author's reasoning or logic.",
+      "Shows a limited understanding of the author's reasoning, with significant misunderstandings.",
+      "Understands the basic reasoning used by the author, but misses key connections or flaws.",
+      "Evaluates the author's reasoning effectively, identifying both strengths and weaknesses.",
+      "Provides a thorough and insightful assessment of the author's reasoning, including logical fallacies or biases.",
+      "Critically analyzes the author's reasoning with exceptional insight, revealing subtle strengths, weaknesses, and underlying assumptions."
+    ],
+    [
+      "Fails to address the evidence presented or misinterprets it entirely.",
+      "Shows a limited understanding of the evidence, with significant misinterpretations or omissions.",
+      "Identifies some of the evidence, but struggles to assess its relevance or strength.",
+      "Evaluates the evidence, explaining how it supports or weakens the author's claims.",
+      "Provides a comprehensive assessment of the evidence, considering its credibility, relevance, and potential biases.",
+      "Masterfully analyzes the evidence, demonstrating a sophisticated understanding of its impact on the author's claims and the overall argument."
+    ],
+    [
+      "Unable to determine the extent to which the reasoning and evidence support the claims.",
+      "Provides a vague or unsubstantiated assessment of the support.",
+      "Offers a basic assessment of the support, but lacks depth or specific examples.",
+      "Clearly assesses the extent of support, providing relevant examples and explanations.",
+      "Provides a well-reasoned and comprehensive assessment of the support, considering multiple perspectives.",
+      "Presents a nuanced and insightful evaluation of the support, demonstrating a deep understanding of the relationship between claims, reasoning, and evidence."
+    ]
+  ]
+}

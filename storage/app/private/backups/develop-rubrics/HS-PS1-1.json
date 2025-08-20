@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Atomic Structure",
+    "Ability to Use the Periodic Table",
+    "Prediction of Element Properties",
+    "Explanation of Patterns of Electrons"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of atomic structure is demonstrated.",
+      "Demonstrates minimal understanding of atomic structure (protons, neutrons, electrons).",
+      "Identifies the components of atomic structure but struggles to relate them to the periodic table.",
+      "Describes atomic structure and its relation to the number of protons in the nucleus, with some inaccuracies.",
+      "Accurately explains atomic structure and its direct relationship to the organization of elements in the periodic table.",
+      "Provides a comprehensive explanation of atomic structure and its role in determining an element's placement and properties within the periodic table."
+    ],
+    [
+      "Unable to locate elements on the periodic table or identify basic information.",
+      "Can locate elements but cannot extract meaningful information about their properties.",
+      "Identifies groups and periods but struggles to relate them to element properties.",
+      "Uses the periodic table to identify some trends in element properties (e.g., reactivity of metals) with limited accuracy.",
+      "Effectively uses the periodic table to predict trends in element properties, such as reactivity and bonding, with some minor errors.",
+      "Expertly uses the periodic table to accurately predict and explain trends in element properties, including reactivity, types of bonds formed, and numbers of bonds."
+    ],
+    [
+      "Unable to predict any element properties based on periodic table position.",
+      "Attempts to predict properties but demonstrates no understanding of the underlying principles.",
+      "Predicts basic properties (e.g., metal vs. nonmetal) with limited accuracy.",
+      "Predicts some properties based on group or period trends but struggles with more complex properties like bond types.",
+      "Predicts various properties, including reactivity and bond formation, with reasonable accuracy and justification.",
+      "Provides accurate and insightful predictions of element properties, supported by a thorough understanding of electron configuration and periodic trends."
+    ],
+    [
+      "Demonstrates no understanding of electron patterns or their significance.",
+      "Mentions electrons but does not connect them to element properties.",
+      "Identifies that elements in the same group have similar electron configurations, but cannot explain why.",
+      "Explains the relationship between electron configuration and group number with some inaccuracies.",
+      "Accurately explains how the patterns of electrons in the outermost energy level determine element properties.",
+      "Provides a detailed explanation of how electron configuration dictates chemical behavior and accurately relates it to element placement in the periodic table."
+    ]
+  ]
+}

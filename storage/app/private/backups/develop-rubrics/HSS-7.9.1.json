@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Causes",
+    "Explanation of Tax Policies",
+    "Explanation of Selling of Indulgences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student identifies no causes for the internal turmoil and weakening of the Catholic Church.",
+      "Student identifies one cause vaguely, lacking specific details or historical context.",
+      "Student identifies two causes with limited explanation or accuracy.",
+      "Student identifies three causes with reasonable accuracy but may lack depth in explanation.",
+      "Student identifies four causes accurately and provides some explanation of their impact.",
+      "Student comprehensively identifies and explains at least five causes for the internal turmoil and weakening of the Catholic Church, demonstrating a strong understanding of their historical context and impact."
+    ],
+    [
+      "Student does not mention or understand the role of tax policies in the weakening of the Church.",
+      "Student vaguely mentions tax policies but shows no understanding of their impact.",
+      "Student identifies tax policies as a cause but struggles to explain their effects.",
+      "Student accurately identifies tax policies and provides a basic explanation of their role in weakening the Church.",
+      "Student clearly explains how specific tax policies contributed to internal turmoil and weakening of the Church.",
+      "Student provides a detailed analysis of the impact of various tax policies on the Catholic Church, demonstrating a nuanced understanding of their economic and social effects."
+    ],
+    [
+      "Student does not mention or understand the concept of selling indulgences.",
+      "Student vaguely mentions indulgences but demonstrates no understanding of their significance.",
+      "Student identifies the selling of indulgences as a cause but struggles to explain its effects.",
+      "Student accurately identifies the selling of indulgences and provides a basic explanation of its role.",
+      "Student clearly explains how the selling of indulgences contributed to internal turmoil and weakening of the Church.",
+      "Student provides a detailed analysis of the selling of indulgences, demonstrating a nuanced understanding of its religious, economic, and social implications and accurately using them in the historical context of the Reformation."
+    ]
+  ]
+}

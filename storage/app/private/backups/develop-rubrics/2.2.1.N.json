@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Influences",
+    "Depth of Discussion",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify any influences on food choices.",
+      "Student identifies one influence (family, friends, or media) with limited explanation.",
+      "Student identifies two influences on food choices with basic explanations.",
+      "Student identifies three influences (family, friends, and media) with some explanation of their impact.",
+      "Student identifies and explains how family, friends, and media influence food choices with specific examples.",
+      "Student comprehensively discusses how family, friends, and media influence food choices, providing insightful examples and demonstrating a nuanced understanding of the different types of influences."
+    ],
+    [
+      "Student provides no discussion or explanation of the influences.",
+      "Student provides a superficial discussion without exploring the underlying factors.",
+      "Student offers some discussion of the influences, but lacks depth or specific examples.",
+      "Student provides a moderately detailed discussion, including some relevant examples.",
+      "Student engages in a thoughtful and detailed discussion, providing relevant examples and exploring the underlying factors.",
+      "Student engages in a comprehensive discussion, offering insightful analysis, relevant examples, and a nuanced understanding of the complexities involved."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it challenging to follow.",
+      "Response demonstrates some clarity and organization, but could be improved.",
+      "Response is generally clear and organized, making it easy to follow the main points.",
+      "Response is clear, well-organized, and logically structured, enhancing comprehension.",
+      "Response is exceptionally clear, coherent, and logically structured, demonstrating exemplary communication skills."
+    ]
+  ]
+}

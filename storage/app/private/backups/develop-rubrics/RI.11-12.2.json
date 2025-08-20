@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Central Ideas",
+    "Analysis of Development",
+    "Objective Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any central ideas in the text.",
+      "Identifies only one central idea, but it is vague or inaccurate.",
+      "Identifies two central ideas, but one is not clearly stated or relevant.",
+      "Identifies two central ideas, but the explanation of their relevance is superficial.",
+      "Identifies two clear and relevant central ideas with a reasonable explanation of their importance.",
+      "Accurately identifies two or more central ideas that are thoroughly explained with clear relevance to the text."
+    ],
+    [
+      "Provides no analysis of how the central ideas develop over the course of the text.",
+      "Attempts to describe the development of the central ideas, but the analysis is unclear or irrelevant.",
+      "Describes the development of one central idea with limited coherence.",
+      "Describes the development of both central ideas, but the analysis lacks depth or insight.",
+      "Provides a coherent analysis of how the central ideas develop, but it may not fully explore their interaction.",
+      "Offers a thorough and insightful analysis of how the central ideas develop and interact to provide a complex understanding of the text."
+    ],
+    [
+      "The summary is missing or completely inaccurate.",
+      "The summary is very brief and includes significant inaccuracies or biases.",
+      "The summary includes some key points but is too brief or contains minor inaccuracies.",
+      "The summary is generally accurate but may include some subjective interpretations or omit some important details.",
+      "Provides an accurate and relatively complete summary of the text, with minimal bias.",
+      "Provides a concise, accurate, and objective summary of the text, capturing all key points without personal opinions or misrepresentations."
+    ]
+  ]
+}

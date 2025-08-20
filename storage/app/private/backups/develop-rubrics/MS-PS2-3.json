@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to formulate relevant questions about electric and magnetic forces.",
+    "Understanding of the relationship between electric and magnetic forces and related factors.",
+    "Application of cause and effect relationships to predict phenomena."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No questions are asked or questions are unrelated to the topic.",
+      "Asks a question, but it is vague or demonstrates a limited understanding of electric and magnetic forces.",
+      "Asks a question that shows some relevance to factors affecting electric and magnetic forces, but lacks depth.",
+      "Asks a clear question about the factors affecting the strength of electric and magnetic forces.",
+      "Asks insightful and relevant questions that identify specific factors affecting the strength of electric and magnetic forces.",
+      "Asks perceptive, probing questions that demonstrate a deep understanding of the factors influencing electric and magnetic forces and their interactions."
+    ],
+    [
+      "Demonstrates no understanding of electric and magnetic forces.",
+      "Demonstrates a minimal understanding of electric and magnetic forces and their basic properties.",
+      "Demonstrates a partial understanding of the factors that influence electric and magnetic forces, such as charge, current, magnetic strength, and distance.",
+      "Demonstrates a satisfactory understanding of how factors like charge, current, magnetic strength, and distance affect electric and magnetic forces.",
+      "Demonstrates a strong understanding of the relationships between electric and magnetic forces and the factors that influence them.",
+      "Demonstrates a comprehensive and nuanced understanding of the intricate relationships between electric and magnetic forces, including quantitative aspects."
+    ],
+    [
+      "Does not apply cause and effect relationships.",
+      "Attempts to apply cause and effect, but explanation is unclear or inaccurate.",
+      "Identifies a cause and effect relationship, but the explanation is superficial.",
+      "Uses cause and effect relationships to explain phenomena related to electric and magnetic forces.",
+      "Effectively uses cause and effect relationships to predict phenomena in natural or designed systems involving electric and magnetic forces.",
+      "Masterfully uses cause and effect relationships to predict and explain complex phenomena, demonstrating a deep understanding of the underlying principles of electric and magnetic forces."
+    ]
+  ]
+}

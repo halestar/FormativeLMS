@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding of the limit definition of the derivative.",
+    "Ability to determine differentiability of a function at a point."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the limit definition of the derivative.",
+      "Student shows minimal understanding of the limit definition, with significant errors in application.",
+      "Student demonstrates a partial understanding, able to identify some components of the limit definition but struggles with applying it.",
+      "Student correctly states the limit definition of the derivative and attempts to apply it, but makes minor errors in algebraic manipulation or limit evaluation.",
+      "Student accurately applies the limit definition of the derivative to find the derivative of simple functions, demonstrating a solid understanding.",
+      "Student fluently and accurately applies the limit definition of the derivative to find the derivative of a variety of functions, including those requiring advanced algebraic manipulation or limit techniques."
+    ],
+    [
+      "Student does not attempt to determine differentiability or incorrectly states conditions for differentiability.",
+      "Student attempts to determine differentiability but demonstrates a misunderstanding of the necessary conditions.",
+      "Student identifies some conditions for differentiability (e.g., continuity) but not all, and struggles to apply them correctly.",
+      "Student knows that continuity is necessary for differentiability but does not show understanding of other conditions.",
+      "Student correctly assesses differentiability of functions at given points, considering both continuity and smoothness.",
+      "Student comprehensively analyzes the differentiability of functions, including piecewise functions, and justifies conclusions with rigorous arguments."
+    ]
+  ]
+}

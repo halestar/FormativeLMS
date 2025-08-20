@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Risk Factors",
+    "Analysis of Consequences",
+    "Decision-Making Process Application",
+    "Identification of Alternatives"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of risk factors associated with gang involvement.",
+      "Identifies one or two risk factors vaguely.",
+      "Identifies several risk factors but struggles to explain them clearly.",
+      "Clearly identifies and explains several risk factors for gang involvement.",
+      "Thoroughly identifies and explains numerous risk factors with specific examples.",
+      "Demonstrates comprehensive understanding of a wide range of risk factors, including social determinants, and provides insightful examples."
+    ],
+    [
+      "Unable to analyze the consequences of gang involvement.",
+      "Lists one or two consequences without analysis.",
+      "Describes several consequences with limited analysis.",
+      "Analyzes several consequences of gang involvement on individuals and the community.",
+      "Provides a detailed analysis of the consequences, including legal, social, emotional, and physical impacts.",
+      "Offers a nuanced and insightful analysis of the far-reaching consequences, considering diverse perspectives and long-term impacts."
+    ],
+    [
+      "Does not apply any decision-making process.",
+      "Attempts to apply a decision-making process but does so incorrectly or incompletely.",
+      "Applies a basic decision-making process with some flaws.",
+      "Applies a clear decision-making process to analyze the consequences of gang involvement.",
+      "Effectively applies a comprehensive decision-making process, weighing pros and cons with supporting evidence.",
+      "Demonstrates masterful application of a sophisticated decision-making process, justifying choices with well-reasoned arguments and ethical considerations."
+    ],
+    [
+      "Does not identify any alternatives to gang involvement.",
+      "Identifies one or two vague or unrealistic alternatives.",
+      "Identifies several alternatives but doesn't explain them clearly.",
+      "Clearly identifies and explains several realistic alternatives to gang involvement.",
+      "Provides detailed descriptions of various alternatives, including resources and support systems.",
+      "Demonstrates comprehensive knowledge of a wide range of alternatives, tailoring solutions to specific situations and individual needs."
+    ]
+  ]
+}

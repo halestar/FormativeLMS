@@ -2,15 +2,15 @@
 
 namespace App\Classes\Settings;
 
-use App\Classes\Auth\AuthenticationDesignation;
+use App\Interfaces\Fileable;
 use App\Mail\ResetPasswordMail;
 use App\Models\Utilities\SystemSetting;
+use App\Traits\HasWorkFiles;
 use Illuminate\Database\Eloquent\Casts\Attribute;
-use Illuminate\Support\Facades\Blade;
-use PharIo\Manifest\Email;
 
-class EmailSetting extends SystemSetting
+class EmailSetting extends SystemSetting implements Fileable
 {
+	use HasWorkFiles;
 	protected static string $settingKey = "emails.";
 
 	protected static function defaultValue(): array

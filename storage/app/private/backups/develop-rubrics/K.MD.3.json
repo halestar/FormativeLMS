@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in classifying objects into categories.",
+    "Accuracy in counting objects within each category.",
+    "Accuracy in sorting categories by object count.",
+    "Demonstrates understanding of the 'less than or equal to 10' footnote."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to classify objects into the given categories.",
+      "Student attempts to classify objects but makes numerous errors and struggles to categorize correctly.",
+      "Student classifies objects with some errors and inconsistencies; struggles to maintain accurate categorization.",
+      "Student generally classifies objects correctly into given categories, with only minor errors.",
+      "Student accurately classifies almost all objects into the appropriate categories with minimal errors.",
+      "Student flawlessly classifies all objects into the appropriate categories with precision and demonstrates a clear understanding of categorization."
+    ],
+    [
+      "Student is unable to count the number of objects in each category.",
+      "Student attempts to count objects but frequently miscounts and struggles to determine the quantity accurately.",
+      "Student counts objects with some errors; struggles to maintain an accurate count across all categories.",
+      "Student generally counts objects correctly in each category, with only minor discrepancies.",
+      "Student accurately counts almost all objects in each category with minimal errors.",
+      "Student flawlessly counts all objects in each category with precision and demonstrates a clear understanding of quantity."
+    ],
+    [
+      "Student is unable to sort the categories by count.",
+      "Student attempts to sort categories but makes numerous errors; struggles to arrange categories in the correct order.",
+      "Student sorts categories with some errors; struggles to maintain an accurate sorting based on object count.",
+      "Student generally sorts categories correctly by count, with only minor discrepancies.",
+      "Student accurately sorts almost all categories by count with minimal errors.",
+      "Student flawlessly sorts all categories by count with precision and demonstrates a clear understanding of sorting principles."
+    ],
+    [
+      "Student does not acknowledge the constraint that category counts must be less than or equal to 10.",
+      "Student shows minimal awareness of the count limit, and often exceeds it without explanation.",
+      "Student sometimes adheres to the limit, but often exceeds it or incorrectly applies it in some categories.",
+      "Student mostly adheres to the limit, showing an understanding that category counts should not exceed 10, but occasionally makes errors.",
+      "Student consistently adheres to the limit, and clearly demonstrates an understanding that category counts should be less than or equal to 10.",
+      "Student not only adheres to the limit but also explains and justifies the adherence, showing a sophisticated understanding of the footnote."
+    ]
+  ]
+}

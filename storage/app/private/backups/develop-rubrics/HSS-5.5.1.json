@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Political Ideas and Interests",
+    "Understanding of Religious Ideas and Interests",
+    "Understanding of Economic Ideas and Interests",
+    "Understanding of Key Events and Policies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the political ideas and interests leading to the Revolution.",
+      "Identifies a single political idea or interest with limited explanation.",
+      "Identifies multiple political ideas or interests with superficial explanations.",
+      "Explains several political ideas or interests and their basic impact on revolutionary sentiment (e.g., representation, liberty).",
+      "Analyzes the complex interplay of various political ideas and interests and how they fueled revolutionary fervor (e.g., evolving views on governance, colonial rights).",
+      "Provides a nuanced and insightful analysis of the political motivations behind the Revolution, demonstrating a deep understanding of concepts like republicanism, natural rights, and colonial self-governance."
+    ],
+    [
+      "Demonstrates no understanding of the religious ideas and interests leading to the Revolution.",
+      "Identifies a single religious factor with limited explanation (e.g., The Great Awakening).",
+      "Identifies multiple religious factors with superficial explanations.",
+      "Explains the influence of religious beliefs and movements on the Revolution (e.g., dissenting sects, calls for moral reform).",
+      "Analyzes how religious fervor and the desire for religious freedom contributed to revolutionary sentiment and resistance to British rule.",
+      "Provides a nuanced and insightful analysis of the role of religion in shaping revolutionary ideology and mobilizing colonists against British authority, including the impact of the separation of church and state."
+    ],
+    [
+      "Demonstrates no understanding of the economic ideas and interests leading to the Revolution.",
+      "Identifies a single economic grievance with limited explanation (e.g., taxes).",
+      "Identifies multiple economic grievances with superficial explanations.",
+      "Explains the economic policies and grievances that fueled colonial discontent (e.g., mercantilism, taxation without representation).",
+      "Analyzes the economic factors driving the Revolution, including trade restrictions, taxation policies, and colonial economic dependence.",
+      "Provides a nuanced and insightful analysis of the complex economic motivations behind the Revolution, demonstrating a deep understanding of concepts like mercantilism, free trade, and colonial economic development."
+    ],
+    [
+      "Demonstrates no understanding of the key events and policies leading to the Revolution.",
+      "Identifies one or two key events or policies (e.g., Stamp Act) with little to no explanation.",
+      "Identifies several key events and policies with limited explanation.",
+      "Explains the significance of key events and policies such as the Stamp Act, Townshend Acts, taxes on tea, and Coercive Acts.",
+      "Analyzes the causes and consequences of these acts, demonstrating how they escalated tensions between Britain and the colonies.",
+      "Provides a comprehensive and nuanced analysis of the chain of events and policies that led to the American Revolution, including their short-term and long-term effects on colonial society and governance."
+    ]
+  ]
+}

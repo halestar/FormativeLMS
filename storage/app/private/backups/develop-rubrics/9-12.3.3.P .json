@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Environmental Issues",
+    "Explanation of Health Consequences",
+    "Use of Research",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any environmental issues.",
+      "Identifies one environmental issue without providing any context.",
+      "Identifies one environmental issue with minimal context.",
+      "Identifies two environmental issues and provides some context for each.",
+      "Identifies three environmental issues and provides adequate context for each.",
+      "Identifies multiple environmental issues and provides detailed context for each, demonstrating a clear understanding of their impact."
+    ],
+    [
+      "Does not explain any health consequences.",
+      "Attempts to explain a health consequence, but the explanation is unclear or inaccurate.",
+      "Explains one health consequence with limited accuracy.",
+      "Explains two health consequences with reasonable accuracy.",
+      "Explains multiple health consequences with good accuracy, linking them to specific environmental issues.",
+      "Explains multiple health consequences with excellent accuracy and provides in-depth analysis of the cause-and-effect relationships."
+    ],
+    [
+      "Does not reference any research.",
+      "References research inappropriately or without proper citation.",
+      "References one source of research, but does not properly explain it.",
+      "Cites two sources of research to support claims.",
+      "Cites multiple sources of research and explains the relevance of the findings.",
+      "Synthesizes information from multiple research sources to provide a comprehensive and well-supported evaluation."
+    ],
+    [
+      "Response is disorganized and difficult to understand.",
+      "Response lacks organization and is somewhat difficult to follow.",
+      "Response is somewhat organized but could be clearer.",
+      "Response is organized and generally clear.",
+      "Response is well-organized, clear, and easy to follow.",
+      "Response is exceptionally well-organized, clear, concise, and demonstrates sophisticated communication skills."
+    ]
+  ]
+}

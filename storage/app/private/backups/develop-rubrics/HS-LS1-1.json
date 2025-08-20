@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the relationship between DNA, proteins, and cell function",
+    "Quality of Evidence-Based Explanation",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the relationship between DNA, protein structure, and cell function.",
+      "The student shows a limited understanding of the relationship between DNA, protein structure, and cell function, with significant misconceptions.",
+      "The student identifies DNA as important but struggles to connect it to protein structure or cell function.",
+      "The student can describe the role of DNA in coding for proteins and acknowledges that proteins perform functions within cells, but the connections are vague.",
+      "The student clearly explains that DNA codes for proteins, which in turn carry out essential functions in specialized cells. Explanation lacks some detail or clarity.",
+      "The student provides a comprehensive explanation of how DNA structure determines protein structure and how proteins carry out the essential functions of life in specialized cells, demonstrating a strong understanding of the central dogma of molecular biology."
+    ],
+    [
+      "The student's explanation is not based on evidence or includes irrelevant information.",
+      "The student attempts to provide evidence, but it is weak, unreliable, or not properly cited.",
+      "The student provides some evidence, but the link to the explanation is unclear or not well-explained.",
+      "The student provides adequate evidence to support their explanation, citing sources, but there may be minor gaps or inconsistencies.",
+      "The student's explanation is supported by strong and reliable evidence, properly cited, with clear connections made to the explanation.",
+      "The student provides a compelling explanation supported by comprehensive, reliable, and well-cited evidence, demonstrating a deep understanding of the scientific concepts."
+    ],
+    [
+      "The student's explanation is unclear, disorganized, and difficult to understand.",
+      "The student's explanation lacks logical organization, making it difficult to follow the argument.",
+      "The student's explanation has some organization but may lack clarity in certain areas.",
+      "The student presents a reasonably clear and organized explanation, with a logical flow of ideas.",
+      "The student's explanation is clear, well-organized, and easy to follow, with a logical progression of ideas.",
+      "The student presents a highly articulate, coherent, and exceptionally well-organized explanation that demonstrates mastery of the subject matter."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Orthographic Similarities and Differences",
+    "Analysis of Phonological Similarities and Differences",
+    "Recognition of ASL Parameter Similarities and Differences",
+    "Understanding of Basic Sentence-Level Elements (Morphology and\/or Syntax)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify similarities or differences in orthography between languages.",
+      "Attempts to identify orthographic features, but with significant inaccuracies or omissions.",
+      "Identifies some basic similarities and differences in orthography with limited accuracy.",
+      "Identifies several similarities and differences in orthography with reasonable accuracy.",
+      "Clearly identifies most similarities and differences in orthography between languages with high accuracy.",
+      "Thoroughly and accurately identifies similarities and differences in orthography, demonstrating a nuanced understanding."
+    ],
+    [
+      "No attempt to analyze phonological features of the languages.",
+      "Attempts to address phonology, but demonstrates little understanding or accuracy.",
+      "Identifies some basic phonological elements with limited comparison between languages.",
+      "Analyzes several phonological similarities and differences with reasonable accuracy and comparison.",
+      "Clearly analyzes most phonological features, accurately comparing the languages.",
+      "Provides a comprehensive and accurate analysis of phonological features, demonstrating a deep understanding of their similarities and differences."
+    ],
+    [
+      "No attempt to recognize or discuss ASL parameters.",
+      "Attempts to address ASL parameters, but shows significant misunderstanding or inaccuracies.",
+      "Identifies some basic ASL parameters with limited comparison.",
+      "Recognizes several ASL parameter similarities and differences with reasonable accuracy.",
+      "Clearly recognizes most ASL parameters, accurately comparing the languages.",
+      "Demonstrates a comprehensive understanding of ASL parameters, thoroughly comparing similarities and differences."
+    ],
+    [
+      "No demonstration of understanding of morphology or syntax.",
+      "Attempts to address sentence-level elements, but with significant errors or misunderstandings.",
+      "Identifies some basic sentence structures or morphological elements with limited accuracy.",
+      "Demonstrates understanding of several sentence-level elements with reasonable accuracy.",
+      "Clearly identifies and explains most sentence-level elements accurately.",
+      "Provides a thorough and accurate analysis of sentence-level elements, demonstrating a sophisticated understanding of morphology and\/or syntax."
+    ]
+  ]
+}

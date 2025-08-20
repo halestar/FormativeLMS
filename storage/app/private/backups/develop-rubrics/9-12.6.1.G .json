@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the impact of HIV\/AIDS on life goals",
+    "Understanding the impact of STDs on life goals",
+    "Understanding the impact of Pregnancy on life goals",
+    "Evaluating preventative measures and decision-making skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how HIV\/AIDS can impact life goals is demonstrated.",
+      "Demonstrates a minimal understanding of how HIV\/AIDS can impact life goals.",
+      "Demonstrates a basic understanding of how HIV\/AIDS can impact life goals, with some inaccuracies or omissions.",
+      "Demonstrates a clear understanding of how HIV\/AIDS can impact life goals, with minor details missing.",
+      "Demonstrates a comprehensive understanding of how HIV\/AIDS can impact life goals, providing specific examples.",
+      "Demonstrates an insightful and thorough understanding of how HIV\/AIDS can significantly impact various life goals, including career, relationships, and personal well-being, offering well-reasoned and detailed examples."
+    ],
+    [
+      "No understanding of how other STDs can impact life goals is demonstrated.",
+      "Demonstrates a minimal understanding of how other STDs can impact life goals.",
+      "Demonstrates a basic understanding of how other STDs can impact life goals, with some inaccuracies or omissions.",
+      "Demonstrates a clear understanding of how other STDs can impact life goals, with minor details missing.",
+      "Demonstrates a comprehensive understanding of how other STDs can impact life goals, providing specific examples.",
+      "Demonstrates an insightful and thorough understanding of how other STDs can significantly impact various life goals, offering well-reasoned and detailed examples."
+    ],
+    [
+      "No understanding of how pregnancy can impact life goals is demonstrated.",
+      "Demonstrates a minimal understanding of how pregnancy can impact life goals.",
+      "Demonstrates a basic understanding of how pregnancy can impact life goals, with some inaccuracies or omissions.",
+      "Demonstrates a clear understanding of how pregnancy can impact life goals, with minor details missing.",
+      "Demonstrates a comprehensive understanding of how pregnancy can impact life goals, providing specific examples.",
+      "Demonstrates an insightful and thorough understanding of how pregnancy can significantly impact various life goals, offering well-reasoned and detailed examples."
+    ],
+    [
+      "Fails to identify or evaluate any preventative measures or responsible decision-making skills related to HIV, AIDS, other STDs, or pregnancy.",
+      "Identifies at least one preventative measure or decision-making skill but struggles to evaluate its effectiveness or relevance to life goals.",
+      "Identifies a few preventative measures or decision-making skills and provides a superficial evaluation with limited connection to life goals.",
+      "Evaluates preventative measures and decision-making skills with some depth but may overlook certain aspects or offer limited examples.",
+      "Presents a well-reasoned evaluation of preventative measures and decision-making skills, illustrating their connection to life goals with specific examples.",
+      "Demonstrates a sophisticated ability to evaluate preventative measures and decision-making skills, providing nuanced insights and practical strategies for aligning them with life goals."
+    ]
+  ]
+}

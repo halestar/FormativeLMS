@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of diverse locations for physical activity, considering accessibility and inclusivity.",
+    "Explanation of how each location supports physical activity, considering specific activities and resources available.",
+    "Analysis of factors influencing access to physical activity locations, such as cost, transportation, and safety."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any locations for physical activity or provides irrelevant responses.",
+      "Student identifies only one or two general locations without considering specific needs or accessibility.",
+      "Student identifies a few locations but lacks detail on their suitability or accessibility for diverse groups.",
+      "Student identifies several locations and provides some detail on their potential use and accessibility.",
+      "Student thoroughly identifies various locations, detailing their benefits, accessibility features, and suitability for different age groups and abilities.",
+      "Student comprehensively identifies a wide array of locations, thoroughly detailing their benefits, accessibility, and inclusivity, while also proposing innovative solutions to enhance physical activity opportunities for youths and families."
+    ],
+    [
+      "Student does not explain how the identified locations support physical activity.",
+      "Student provides a minimal explanation with vague references to physical activity support.",
+      "Student offers a basic explanation, mentioning some activities or resources without detailed elaboration.",
+      "Student clearly explains how each location supports physical activity, providing examples of specific activities and resources.",
+      "Student provides detailed explanations of how each location supports physical activity, including a comprehensive overview of available activities and resources.",
+      "Student offers insightful explanations of how each location optimizes physical activity, going beyond the basics to include specific program details, unique features, and potential improvements."
+    ],
+    [
+      "Student does not analyze factors influencing access to physical activity locations.",
+      "Student mentions one or two factors without detailed analysis.",
+      "Student identifies some factors but lacks in-depth analysis of their impact on access.",
+      "Student analyzes several factors influencing access to physical activity locations, discussing their impact on participation.",
+      "Student provides a comprehensive analysis of factors influencing access, thoroughly examining cost, transportation, safety, and other relevant considerations.",
+      "Student offers a nuanced analysis of factors influencing access, providing actionable insights to address barriers and improve participation rates for diverse populations."
+    ]
+  ]
+}

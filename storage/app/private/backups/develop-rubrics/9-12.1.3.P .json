@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Common Symptoms",
+    "Understanding of Severity and Urgency",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any symptoms that would prompt seeking health care.",
+      "Identifies only one symptom, but it is vague or not clearly linked to a need for health care.",
+      "Identifies a few common symptoms (2-3) that might warrant seeking health care, but lacks detail or accuracy.",
+      "Identifies several common symptoms (3-4) that should prompt seeking health care with reasonable accuracy.",
+      "Identifies most common symptoms (4-5) accurately and provides some context for when to seek care.",
+      "Thoroughly identifies numerous common symptoms and provides a comprehensive understanding of when and why individuals should seek health care, including specific examples."
+    ],
+    [
+      "Demonstrates no understanding of the severity or urgency of symptoms.",
+      "Shows minimal awareness of the importance of seeking timely health care.",
+      "Demonstrates some understanding of the need to seek care for certain symptoms, but struggles to differentiate between urgent and non-urgent situations.",
+      "Understands the need to seek timely care and generally differentiates between urgent and non-urgent symptoms.",
+      "Clearly understands the severity and urgency of various symptoms, accurately distinguishing between conditions requiring immediate attention and those that can be monitored.",
+      "Exhibits a nuanced understanding of the spectrum of symptom severity, providing comprehensive insights into appropriate response times and levels of care needed based on specific symptom presentation."
+    ],
+    [
+      "Unable to apply knowledge to real-life scenarios.",
+      "Struggles to apply knowledge of symptoms to practical situations.",
+      "Can identify symptoms in basic scenarios but has difficulty with complex or nuanced situations.",
+      "Can apply knowledge to a variety of real-life scenarios with reasonable accuracy.",
+      "Confidently applies knowledge to a wide range of scenarios, demonstrating an ability to assess situations and make informed decisions about seeking health care.",
+      "Masterfully applies knowledge to complex, real-life scenarios, offering insightful and well-reasoned recommendations for seeking appropriate health care, demonstrating critical thinking and problem-solving skills."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Medicine Use: Assesses the student's comprehension regarding the reasons and circumstances for medicine utilization.",
+    "Knowledge of Different Types of Medicines: Assesses the student's knowledge of various types of medicines and their specific applications.",
+    "Awareness of Safe Medicine Practices: Assesses the student's understanding of safe medicine practices, including dosage, storage, and potential risks."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of why medicines are used.",
+      "Shows a very limited understanding of medicine use, possibly with misconceptions.",
+      "Identifies one or two basic reasons for medicine use, but lacks depth.",
+      "Explains several common reasons for medicine use, such as treating illnesses and managing symptoms.",
+      "Clearly explains a variety of reasons for medicine use, including prevention, treatment, and symptom management, with specific examples.",
+      "Provides a comprehensive explanation of the multifaceted uses of medicines, including nuanced reasons and examples across diverse health conditions and contexts."
+    ],
+    [
+      "Unable to identify any types of medicines or their uses.",
+      "Identifies one type of medicine but cannot explain its use.",
+      "Identifies a couple of common types of medicines (e.g., antibiotics, pain relievers) but lacks specific details on their applications.",
+      "Describes several types of medicines and their general uses, such as antibiotics for infections and analgesics for pain.",
+      "Explains various types of medicines and their specific uses, providing examples of when each type is appropriate.",
+      "Demonstrates in-depth knowledge of a wide range of medicines, including their classifications, mechanisms of action, and specific applications in different medical scenarios."
+    ],
+    [
+      "Shows no awareness of safe medicine practices.",
+      "Demonstrates very limited awareness of safe medicine practices, possibly with dangerous misconceptions.",
+      "Identifies one or two safe medicine practices, such as following dosage instructions.",
+      "Explains several safe medicine practices, including proper dosage, storage, and potential side effects.",
+      "Clearly explains multiple safe medicine practices and their importance in preventing harm, providing relevant examples.",
+      "Provides a comprehensive explanation of safe medicine practices, including nuanced considerations for different populations and medical conditions, as well as strategies for mitigating potential risks."
+    ]
+  ]
+}

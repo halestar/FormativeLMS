@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Core Principles: Demonstrates knowledge of fundamental principles such as separation of powers, checks and balances, and federalism.",
+    "Knowledge of Citizen Participation: Demonstrates knowledge of various ways citizens can participate in the American political system.",
+    "Understanding of Political Processes: Demonstrates understanding of how laws are made and implemented, and how policies are shaped.",
+    "Application to Current Events: Applies knowledge of the American political system to analyze current events and political issues."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of core principles.",
+      "Struggles to identify or explain any core principles.",
+      "Identifies at least one core principle, but explanation is vague or inaccurate.",
+      "Identifies and explains two core principles with reasonable accuracy.",
+      "Clearly explains three core principles and how they function within the American political system.",
+      "Provides a comprehensive explanation of core principles, including historical context and contemporary relevance, demonstrating deep understanding."
+    ],
+    [
+      "No understanding of citizen participation.",
+      "Struggles to identify any form of citizen participation.",
+      "Identifies at least one way citizens participate, but explanation is vague or inaccurate.",
+      "Identifies and explains two ways citizens participate, such as voting and contacting representatives.",
+      "Clearly explains three ways citizens participate and the impact of their participation.",
+      "Provides a comprehensive explanation of various avenues for citizen participation, including grassroots movements, advocacy, and civil disobedience, demonstrating a nuanced understanding."
+    ],
+    [
+      "No understanding of political processes.",
+      "Struggles to describe any aspect of political processes.",
+      "Identifies at least one step in the political process, but explanation is vague or inaccurate.",
+      "Explains the basic steps of how a bill becomes a law with some accuracy.",
+      "Clearly explains the legislative process, including the roles of different branches of government.",
+      "Provides a comprehensive explanation of the entire political process, including lobbying, public opinion, and judicial review, demonstrating a sophisticated understanding."
+    ],
+    [
+      "Unable to connect knowledge to current events.",
+      "Struggles to apply knowledge to any current event.",
+      "Attempts to relate knowledge to a current event, but connection is superficial or inaccurate.",
+      "Relates knowledge to a current event, such as explaining how a bill relates to citizen participation.",
+      "Analyzes a current event using concepts related to the American political system.",
+      "Provides a sophisticated analysis of current events using a comprehensive understanding of the American political system, including its strengths and weaknesses."
+    ]
+  ]
+}

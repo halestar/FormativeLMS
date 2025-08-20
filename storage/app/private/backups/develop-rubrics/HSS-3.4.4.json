@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Legislative Branch",
+    "Understanding of the Executive Branch",
+    "Understanding of the Judicial Branch",
+    "Understanding of Checks and Balances"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the legislative branch's function or role.",
+      "Demonstrates a very limited understanding of the legislative branch; struggles to identify its basic function.",
+      "Identifies the legislative branch but demonstrates a superficial understanding of its powers and responsibilities.",
+      "Explains the basic structure and function of the legislative branch with some accuracy.",
+      "Explains the structure, function, and key powers of the legislative branch in detail, including local government legislative bodies.",
+      "Demonstrates a comprehensive understanding of the legislative branch, its role in creating laws, and its impact on society. Provides specific examples of local legislative actions."
+    ],
+    [
+      "Demonstrates no understanding of the executive branch's function or role.",
+      "Demonstrates a very limited understanding of the executive branch; struggles to identify its basic function.",
+      "Identifies the executive branch but demonstrates a superficial understanding of its powers and responsibilities.",
+      "Explains the basic structure and function of the executive branch with some accuracy.",
+      "Explains the structure, function, and key powers of the executive branch in detail, including local government executive positions.",
+      "Demonstrates a comprehensive understanding of the executive branch, its role in enforcing laws, and its impact on society. Provides specific examples of local executive actions."
+    ],
+    [
+      "Demonstrates no understanding of the judicial branch's function or role.",
+      "Demonstrates a very limited understanding of the judicial branch; struggles to identify its basic function.",
+      "Identifies the judicial branch but demonstrates a superficial understanding of its powers and responsibilities.",
+      "Explains the basic structure and function of the judicial branch with some accuracy.",
+      "Explains the structure, function, and key powers of the judicial branch in detail, including local government judicial systems where applicable.",
+      "Demonstrates a comprehensive understanding of the judicial branch, its role in interpreting laws, and its impact on society. Provides specific examples of judicial review at the local level."
+    ],
+    [
+      "Shows no understanding of the concept of checks and balances between the branches.",
+      "Demonstrates a vague awareness of checks and balances but cannot explain how they work.",
+      "Identifies that the branches have some limitations on each other, but with limited accuracy.",
+      "Describes checks and balances with general accuracy, but lacks specific examples.",
+      "Explains the system of checks and balances with specific examples of how each branch can limit the power of the others.",
+      "Articulates a sophisticated understanding of checks and balances, including their importance in preventing tyranny and promoting a balance of power, relating it to local government dynamics."
+    ]
+  ]
+}

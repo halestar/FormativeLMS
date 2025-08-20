@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Classes\Settings\EmailSetting;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
@@ -44,6 +43,9 @@ class DatabaseSeeder extends Seeder
                 StudentTrackerSeeder::class,
                 SkillCategorySeeder::class,
                 KnowledgeSkillSeeder::class,
+                StorageSeeder::class,
+                RubricRestoreSeeder::class,
+                SchoolEmailSeeder::class,
             ]);
     }
 }

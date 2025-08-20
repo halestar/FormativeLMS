@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Identification of safety measures.",
+    "Understanding of risk reduction."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any safety measures.",
+      "Identifies only one general safety measure with no specific details.",
+      "Identifies two general safety measures, lacking specifics or clear understanding.",
+      "Identifies three relevant safety measures, but explanations lack depth.",
+      "Identifies four relevant safety measures with reasonably detailed explanations.",
+      "Clearly and comprehensively identifies at least five relevant safety measures with detailed explanations and demonstrates a strong understanding of their importance."
+    ],
+    [
+      "Shows no understanding of how the identified measures reduce the risk of injury.",
+      "Demonstrates a minimal understanding of risk reduction.",
+      "Shows a basic understanding of how safety measures reduce risk, but explanations are superficial.",
+      "Explains the connection between safety measures and risk reduction with some clarity.",
+      "Clearly explains how the identified safety measures reduce the risk of injury.",
+      "Provides a comprehensive and insightful explanation of how the identified safety measures significantly reduce the risk of injury, demonstrating a nuanced understanding of the underlying principles."
+    ]
+  ]
+}

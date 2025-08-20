@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Risks: Accurately identifies potential risks to sexual health in various scenarios.",
+    "Preventative Strategies: Demonstrates understanding and application of strategies to minimize exposure to sexual health risks.",
+    "Decision-Making Skills: Applies sound decision-making processes when faced with situations that pose a risk to sexual health.",
+    "Communication Skills: Effectively communicates about sexual health risks and preventative measures."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any risks to sexual health.",
+      "Identifies risks vaguely or with significant inaccuracies.",
+      "Identifies some risks, but misses key elements or provides incomplete information.",
+      "Identifies most common risks accurately; may overlook less obvious risks.",
+      "Identifies almost all risks to sexual health accurately and provides relevant details.",
+      "Comprehensively identifies all potential risks to sexual health with clear, accurate, and insightful details."
+    ],
+    [
+      "Shows no understanding of preventative strategies.",
+      "Suggests strategies that are ineffective or inappropriate.",
+      "Suggests some basic strategies with limited understanding of their application.",
+      "Suggests appropriate strategies, but lacks detail or clarity in their application.",
+      "Clearly articulates and applies effective strategies to minimize risks.",
+      "Demonstrates comprehensive understanding and innovative application of preventative strategies, including nuanced and complex scenarios."
+    ],
+    [
+      "Demonstrates poor decision-making skills and\/or impulsivity.",
+      "Shows limited ability to apply rational decision-making.",
+      "Applies some decision-making processes, but inconsistently or with flawed reasoning.",
+      "Generally makes sound decisions, but may overlook potential consequences.",
+      "Consistently makes well-reasoned decisions, considering potential consequences and ethical implications.",
+      "Demonstrates exceptional decision-making skills, considering diverse perspectives, long-term consequences, and ethical considerations in complex scenarios."
+    ],
+    [
+      "Unable to communicate about sexual health risks.",
+      "Communicates unclearly or inappropriately about risks.",
+      "Communicates basic information, but struggles with clarity or sensitivity.",
+      "Communicates effectively in most situations, but may struggle with sensitive topics.",
+      "Communicates clearly, respectfully, and effectively about sexual health risks.",
+      "Demonstrates exceptional communication skills, adapting to diverse audiences and handling sensitive topics with empathy, clarity, and respect."
+    ]
+  ]
+}

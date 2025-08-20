@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation: How accurately does the model depict the components and processes of the water cycle?",
+    "Explanation of Driving Forces: How well does the student explain the roles of solar energy and gravity in driving the water cycle?",
+    "Clarity and Communication: How clear and understandable is the model and its accompanying explanation?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing key components or processes of the water cycle.",
+      "The model includes some components and processes, but with significant inaccuracies.",
+      "The model includes most components and processes, but some inaccuracies are present.",
+      "The model accurately represents the main components and processes of the water cycle with minor omissions or inaccuracies.",
+      "The model accurately represents all major components and processes of the water cycle with only very minor imperfections.",
+      "The model is a comprehensive and accurate representation of the water cycle, demonstrating a strong understanding of its components and processes."
+    ],
+    [
+      "The explanation does not mention or misunderstands the roles of solar energy and gravity.",
+      "The explanation mentions solar energy and gravity but does not clearly explain their roles.",
+      "The explanation describes solar energy and gravity with limited clarity on how they drive the water cycle.",
+      "The explanation describes how solar energy and gravity drive the water cycle, but lacks depth or detail.",
+      "The explanation clearly describes the roles of solar energy and gravity in driving the water cycle with good detail.",
+      "The explanation thoroughly and clearly explains the roles of solar energy and gravity, demonstrating a deep understanding of their influence on the water cycle."
+    ],
+    [
+      "The model and explanation are confusing and difficult to understand.",
+      "The model and\/or explanation are somewhat unclear and require significant interpretation.",
+      "The model and explanation are understandable with some effort, but clarity could be improved.",
+      "The model and explanation are generally clear and easy to understand.",
+      "The model and explanation are clear, concise, and easy to understand, using appropriate terminology.",
+      "The model and explanation are exceptionally clear, well-organized, and effectively communicate a sophisticated understanding of the water cycle."
+    ]
+  ]
+}

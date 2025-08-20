@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Natural Resource Influence",
+    "Understanding of Natural Hazard Influence",
+    "Understanding of Climate Change Influence",
+    "Use of Evidence",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how natural resources influence human activity.",
+      "Shows a limited understanding of how natural resources influence human activity, with significant inaccuracies.",
+      "Identifies some ways natural resources influence human activity, but lacks depth and supporting evidence.",
+      "Explains how natural resources influence human activity with reasonable clarity and provides some supporting evidence.",
+      "Clearly explains how the availability of natural resources has influenced human activity, providing specific and relevant evidence.",
+      "Provides a comprehensive and insightful explanation of how the availability of natural resources has influenced human activity, using detailed evidence and demonstrating a deep understanding of the connections."
+    ],
+    [
+      "Demonstrates no understanding of how natural hazards influence human activity.",
+      "Shows a limited understanding of how natural hazards influence human activity, with significant inaccuracies.",
+      "Identifies some ways natural hazards influence human activity, but lacks depth and supporting evidence.",
+      "Explains how natural hazards influence human activity with reasonable clarity and provides some supporting evidence.",
+      "Clearly explains how the occurrence of natural hazards has influenced human activity, providing specific and relevant evidence.",
+      "Provides a comprehensive and insightful explanation of how the occurrence of natural hazards has influenced human activity, using detailed evidence and demonstrating a deep understanding of the connections."
+    ],
+    [
+      "Demonstrates no understanding of how changes in climate influence human activity.",
+      "Shows a limited understanding of how changes in climate influence human activity, with significant inaccuracies.",
+      "Identifies some ways changes in climate influence human activity, but lacks depth and supporting evidence.",
+      "Explains how changes in climate influence human activity with reasonable clarity and provides some supporting evidence.",
+      "Clearly explains how changes in climate have influenced human activity, providing specific and relevant evidence.",
+      "Provides a comprehensive and insightful explanation of how changes in climate have influenced human activity, using detailed evidence and demonstrating a deep understanding of the connections."
+    ],
+    [
+      "Provides no evidence or uses irrelevant evidence.",
+      "Provides minimal evidence, most of which is irrelevant or inaccurate.",
+      "Provides some evidence, but it is weak, lacks citation, or is not clearly connected to the explanation.",
+      "Provides relevant evidence to support the explanation, with some citation, but could be more thorough.",
+      "Provides strong and relevant evidence from multiple sources to support the explanation, with proper citation.",
+      "Provides compelling and comprehensive evidence from diverse and reliable sources to support the explanation, with meticulous citation and clear connection to the argument."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation is poorly organized and difficult to follow, with significant gaps in logic.",
+      "Explanation is somewhat organized but lacks clarity and contains some logical inconsistencies.",
+      "Explanation is generally clear and organized, with a logical flow of ideas.",
+      "Explanation is clear, well-organized, and easy to follow, with a logical progression of ideas.",
+      "Explanation is exceptionally clear, concise, and logically structured, demonstrating a mastery of communication."
+    ]
+  ]
+}

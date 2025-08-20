@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Engagement and Orientation of the Reader",
+    "Use of Narrative Techniques",
+    "Sequencing of Events",
+    "Use of Language",
+    "Conclusion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to engage or orient the reader; no clear problem, situation, or observation is presented. Point of view is absent or confusing.",
+      "Attempts to engage the reader, but the orientation is weak. A problem, situation, or observation is vaguely presented. Point of view is inconsistent.",
+      "Engages the reader with a basic orientation. A problem, situation, or observation is identifiable. Point of view is present but may be unclear at times.",
+      "Effectively engages and orients the reader by clearly setting out a problem, situation, or observation. Establishes a consistent point of view.",
+      "Skillfully engages and orients the reader, creating a smooth progression of experiences or events. Establishes a clear and compelling point of view.",
+      "Masterfully engages and orients the reader, captivating them from the outset. Creates a seamless progression of experiences or events with a distinct and effective point of view."
+    ],
+    [
+      "Narrative techniques (dialogue, pacing, description, reflection, plot lines) are absent or ineffectively used.",
+      "Limited use of narrative techniques; techniques are underdeveloped and do not enhance the narrative.",
+      "Some narrative techniques are used, but their impact on the development of experiences, events, and\/or characters is minimal.",
+      "Narrative techniques are used effectively to develop experiences, events, and\/or characters.",
+      "Narrative techniques are skillfully employed to enrich the narrative and deepen the reader's understanding of experiences, events, and\/or characters.",
+      "Narrative techniques are masterfully woven into the narrative, creating a rich and immersive experience for the reader. The development of experiences, events, and characters is exceptional."
+    ],
+    [
+      "Events are disjointed and lack a logical sequence; the narrative lacks coherence.",
+      "Events are loosely sequenced, but the connections between them are weak. The narrative lacks a clear sense of progression.",
+      "Events are sequenced in a generally logical order, but the narrative may still lack coherence in places.",
+      "Events are sequenced effectively, building on one another to create a coherent whole.",
+      "Events are skillfully sequenced to create a compelling and engaging narrative with a strong sense of progression.",
+      "Events are masterfully sequenced, creating a seamless and captivating narrative that builds to a satisfying climax."
+    ],
+    [
+      "Language is imprecise and lacks detail; sensory language is absent.",
+      "Language is basic and lacks vividness; sensory language is used sparingly.",
+      "Language is generally precise, but details are limited; some sensory language is used.",
+      "Precise words and phrases, telling details, and sensory language are used to convey a vivid picture of the experiences, events, setting, and\/or characters.",
+      "Language is used artfully to create a rich and immersive experience for the reader; vivid details and sensory language are abundant.",
+      "Language is used with exceptional precision and artistry, creating a stunningly vivid and memorable narrative. The use of detail and sensory language is masterful."
+    ],
+    [
+      "Conclusion is abrupt or missing; it does not follow from or reflect on the narrative.",
+      "Conclusion is weak and does not adequately reflect on the narrative.",
+      "Conclusion is present but offers a limited reflection on the narrative.",
+      "Conclusion follows from and reflects on what is experienced, observed, or resolved over the course of the narrative.",
+      "Conclusion is insightful and provides a thoughtful reflection on the narrative, leaving the reader with a sense of closure.",
+      "Conclusion is profound and leaves a lasting impression on the reader; it offers a deep and meaningful reflection on the narrative's themes and implications."
+    ]
+  ]
+}

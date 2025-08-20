@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation",
+    "Clarity and Communication of Information",
+    "Inclusion of Key Life Cycle Stages (Birth, Growth, Reproduction, Death)",
+    "Connection to California Environmental Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Model is missing key components or contains significant inaccuracies regarding life cycles.",
+      "Model includes some components, but several inaccuracies or omissions are present.",
+      "Model includes most components with minor inaccuracies or omissions.",
+      "Model accurately represents the basic life cycle stages but lacks detail or complexity.",
+      "Model accurately represents life cycle stages with good detail and minor enhancements.",
+      "Model is exceptionally accurate, detailed, and insightful, demonstrating a deep understanding of life cycles."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation lacks clarity and organization; key concepts are poorly communicated.",
+      "Explanation is understandable but lacks clarity and precision in certain areas.",
+      "Explanation is clear and organized, effectively communicating basic concepts.",
+      "Explanation is very clear, well-organized, and effectively communicates detailed concepts.",
+      "Explanation is exceptionally clear, concise, and insightful, demonstrating mastery of the subject matter."
+    ],
+    [
+      "Model fails to represent most of the key life cycle stages.",
+      "Model includes only 1-2 key life cycle stages.",
+      "Model includes 3 key life cycle stages, but one is poorly represented.",
+      "Model includes all 4 key life cycle stages with basic representation.",
+      "Model includes all 4 key life cycle stages with good detail and accurate representation.",
+      "Model includes all 4 key life cycle stages with exceptional detail, accuracy, and insightful connections."
+    ],
+    [
+      "There is no discernible connection to the California Environmental Principles.",
+      "A vague or superficial attempt is made to connect the model to the California Environmental Principles.",
+      "The model makes a basic connection to Principle III but lacks depth.",
+      "The model clearly connects to Principle III, explaining how natural systems proceed through cycles.",
+      "The model thoroughly connects to Principle III, explaining human dependence and alteration of natural cycles.",
+      "The model provides an insightful and nuanced connection to Principle III, demonstrating a deep understanding of environmental interactions."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Healthy Behaviors",
+    "Explanation of the Impact of Behaviors on Growth and Development",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any behaviors that promote healthy growth and development.",
+      "The student identifies one behavior that promotes healthy growth and development, but the explanation is unclear or incorrect.",
+      "The student identifies one behavior that promotes healthy growth and development with a basic explanation.",
+      "The student identifies two behaviors that promote healthy growth and development with clear explanations.",
+      "The student identifies three behaviors that promote healthy growth and development with detailed explanations.",
+      "The student identifies multiple behaviors (more than 3) that promote healthy growth and development, providing detailed explanations and demonstrating a comprehensive understanding."
+    ],
+    [
+      "The student does not explain how the identified behaviors impact growth and development.",
+      "The student attempts to explain the impact, but the explanation is vague or inaccurate.",
+      "The student provides a limited explanation of how the identified behaviors impact growth and development.",
+      "The student clearly explains how the identified behaviors positively impact growth and development.",
+      "The student provides a detailed explanation of how the identified behaviors impact multiple aspects of growth and development (physical, mental, social).",
+      "The student provides a comprehensive and nuanced explanation of how the identified behaviors impact short-term and long-term growth and development, including potential consequences of not adopting these behaviors."
+    ],
+    [
+      "The student cannot apply the knowledge of healthy behaviors to real-life scenarios.",
+      "The student struggles to apply the knowledge of healthy behaviors to real-life scenarios, with limited success.",
+      "The student can apply the knowledge of healthy behaviors to a simple real-life scenario.",
+      "The student can apply the knowledge of healthy behaviors to several real-life scenarios.",
+      "The student can effectively apply the knowledge of healthy behaviors to complex real-life scenarios, demonstrating critical thinking.",
+      "The student can analyze and evaluate various real-life scenarios, providing insightful recommendations for promoting healthy growth and development in diverse contexts."
+    ]
+  ]
+}

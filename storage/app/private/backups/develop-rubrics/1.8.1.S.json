@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of safe behaviors.",
+    "Encourages peers to adopt safe behaviors.",
+    "Applies safe behaviors in practical situations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of safe behaviors or their importance.",
+      "Shows limited understanding of safe behaviors; struggles to identify them.",
+      "Identifies some safe behaviors but struggles to explain their importance or application.",
+      "Demonstrates a satisfactory understanding of safe behaviors and can explain their importance in some contexts.",
+      "Clearly understands and explains various safe behaviors and their importance in different settings.",
+      "Exhibits a comprehensive understanding of safe behaviors, their importance, and can adapt their application to novel situations."
+    ],
+    [
+      "Does not encourage peers to practice safe behaviors.",
+      "Rarely encourages safe behaviors among peers; may passively observe unsafe actions.",
+      "Sometimes encourages peers to adopt safe behaviors, but inconsistently or without explanation.",
+      "Regularly encourages peers to adopt safe behaviors, providing basic explanations or reminders.",
+      "Actively and consistently encourages peers to practice safe behaviors, providing clear explanations and positive reinforcement.",
+      "Serves as a role model, consistently advocating for safe behaviors among peers and taking initiative to correct unsafe actions, providing leadership in promoting a safe environment."
+    ],
+    [
+      "Does not apply safe behaviors in practical situations.",
+      "Rarely applies safe behaviors independently; requires constant reminders and guidance.",
+      "Applies safe behaviors inconsistently, especially in new or challenging situations.",
+      "Consistently applies safe behaviors in common situations, demonstrating competence and awareness.",
+      "Proactively applies safe behaviors in a variety of settings, adapting their approach as needed to maintain safety.",
+      "Masterfully applies safe behaviors in all situations, consistently prioritizing safety and serving as a resource for others."
+    ]
+  ]
+}

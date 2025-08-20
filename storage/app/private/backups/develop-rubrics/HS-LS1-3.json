@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Investigation Design and Planning",
+    "Data Collection and Analysis",
+    "Evidence-Based Reasoning and Conclusions",
+    "Understanding of Homeostasis and Feedback Mechanisms"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No investigation plan is presented, or the proposed plan is completely irrelevant to the concept of homeostasis and feedback mechanisms.",
+      "The investigation plan is rudimentary and shows a limited understanding of the scientific method. Key elements such as controls or variables are missing or poorly defined.",
+      "The investigation plan includes basic elements but lacks detail or clarity. The connection to homeostasis and feedback mechanisms is superficial.",
+      "The investigation plan is generally sound, with most elements adequately defined. The connection to homeostasis and feedback mechanisms is clear.",
+      "The investigation plan is well-developed, with clear controls, variables, and data collection methods. The plan demonstrates a solid understanding of homeostasis and feedback mechanisms.",
+      "The investigation plan is comprehensive, innovative, and demonstrates a deep understanding of experimental design principles and their application to studying homeostasis and feedback mechanisms. The plan anticipates potential challenges and includes appropriate solutions."
+    ],
+    [
+      "No data is collected, or the data collected is completely irrelevant to the investigation.",
+      "Data collection is haphazard and incomplete. Analysis is missing or fundamentally flawed.",
+      "Data collection is inconsistent, with significant gaps or errors. Analysis is superficial and lacks clear conclusions.",
+      "Data collection is reasonably thorough, with some minor errors. Analysis is adequate and provides some support for conclusions.",
+      "Data collection is thorough and accurate. Analysis is well-organized and provides strong support for conclusions.",
+      "Data collection is meticulous and comprehensive, demonstrating a high level of precision. Analysis is insightful, rigorous, and reveals nuanced patterns and relationships within the data, leading to well-supported and insightful conclusions."
+    ],
+    [
+      "No conclusions are presented, or the conclusions are completely unrelated to the data.",
+      "Conclusions are not supported by the data, or the reasoning is illogical.",
+      "Conclusions are weakly supported by the data, and the reasoning contains flaws.",
+      "Conclusions are generally supported by the data, and the reasoning is mostly sound.",
+      "Conclusions are strongly supported by the data, and the reasoning is clear and logical. The connection to homeostasis is well-articulated.",
+      "Conclusions are compelling and insightful, demonstrating a deep understanding of the relationship between evidence, homeostasis, and feedback mechanisms. The reasoning is sophisticated and considers alternative explanations."
+    ],
+    [
+      "Demonstrates no understanding of homeostasis or feedback mechanisms.",
+      "Demonstrates a very limited understanding of homeostasis and feedback mechanisms.",
+      "Demonstrates a basic understanding of homeostasis and feedback mechanisms but struggles to apply it to the investigation.",
+      "Demonstrates a satisfactory understanding of homeostasis and feedback mechanisms and can apply it to the investigation.",
+      "Demonstrates a strong understanding of homeostasis and feedback mechanisms and can effectively apply it to the investigation.",
+      "Demonstrates a comprehensive and nuanced understanding of homeostasis and feedback mechanisms, integrating it seamlessly into the investigation and offering insightful interpretations."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Human Impact",
+    "Proposed Solutions",
+    "Communication of Solutions",
+    "Understanding of Cause and Effect"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any human impacts on the environment.",
+      "The student identifies a human impact on the environment, but it is vague or inaccurate.",
+      "The student identifies a relevant human impact on the environment with some accuracy, but lacks detail.",
+      "The student clearly identifies a relevant human impact on the environment, providing some specific details.",
+      "The student thoroughly identifies a relevant human impact on the environment, providing specific details and demonstrating understanding of its consequences.",
+      "The student thoroughly and insightfully identifies a relevant human impact on the environment, providing specific details, demonstrating a deep understanding of its consequences, and connecting it to broader environmental issues."
+    ],
+    [
+      "The student does not propose any solutions to reduce human impact.",
+      "The student proposes a solution that is not feasible or relevant to the identified impact.",
+      "The student proposes a solution that is somewhat relevant but lacks detail or practicality.",
+      "The student proposes a feasible and relevant solution with some supporting details.",
+      "The student proposes a well-developed and feasible solution with clear supporting details and justification.",
+      "The student proposes an innovative, well-developed, and feasible solution with strong supporting details, justification, and consideration of potential challenges and unintended consequences."
+    ],
+    [
+      "The student's communication is unclear and lacks organization.",
+      "The student's communication is difficult to understand and lacks logical structure.",
+      "The student communicates the solution with some clarity but lacks detail or supporting evidence.",
+      "The student clearly communicates the solution with supporting details and evidence.",
+      "The student effectively communicates the solution with compelling supporting details, evidence, and visual aids (e.g., models, drawings).",
+      "The student communicates the solution in a highly effective and engaging manner, using compelling supporting details, evidence, visual aids, and persuasive rhetoric to advocate for its implementation."
+    ],
+    [
+      "The student demonstrates no understanding of cause and effect relationships related to human impact.",
+      "The student shows a limited understanding of cause and effect relationships, with inaccuracies or oversimplifications.",
+      "The student identifies a basic cause and effect relationship between human actions and environmental impact.",
+      "The student explains cause and effect relationships between human actions and environmental impact with some detail.",
+      "The student clearly explains cause and effect relationships between human actions and environmental impact, demonstrating a solid understanding of the interconnectedness of systems.",
+      "The student demonstrates a sophisticated understanding of cause and effect relationships, including complex interactions and feedback loops, and applies this understanding to develop effective solutions."
+    ]
+  ]
+}

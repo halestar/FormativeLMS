@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Mathematical Representation and Conservation of Mass",
+    "Application of Chemical Properties and Prediction of Reactions",
+    "Understanding and Application of the Mole Concept"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use mathematical representations to support the claim of mass conservation.",
+      "Uses mathematical representations incorrectly or with significant errors in supporting the claim of mass conservation.",
+      "Uses mathematical representations with some inconsistencies or minor errors in supporting the claim of mass conservation.",
+      "Adequately uses mathematical representations to support the claim that atoms, and therefore mass, are conserved during a chemical reaction. The student provides correct calculations.",
+      "Effectively uses mathematical representations to support the claim that atoms, and therefore mass, are conserved during a chemical reaction. Demonstrates a clear understanding of proportional relationships.",
+      "Masterfully uses mathematical representations to support the claim that atoms, and therefore mass, are conserved during a chemical reaction. Demonstrates a sophisticated understanding of proportional relationships and the mole concept, with accurate translation between atomic and macroscopic scales."
+    ],
+    [
+      "Unable to apply knowledge of chemical properties to describe or predict chemical reactions.",
+      "Attempts to apply knowledge of chemical properties, but demonstrates significant misunderstandings or inaccuracies.",
+      "Applies knowledge of chemical properties with some inconsistencies or minor inaccuracies in describing or predicting chemical reactions.",
+      "Uses basic knowledge of chemical properties to describe and predict simple chemical reactions. Shows basic knowledge of elements.",
+      "Effectively uses knowledge of chemical properties to describe and predict a variety of chemical reactions. Explains most of the basic elements and how they react..",
+      "Expertly uses knowledge of chemical properties to describe and predict a wide range of chemical reactions, demonstrating a deep understanding of the underlying principles and nuances."
+    ],
+    [
+      "No understanding of the mole concept or its application in chemical reactions.",
+      "Demonstrates a limited understanding of the mole concept with significant difficulties in its application.",
+      "Shows a basic understanding of the mole concept but struggles with applying it accurately in calculations.",
+      "Understands the mole concept and applies it correctly in simple calculations related to chemical reactions. Can explain simple molecular structures.",
+      "Demonstrates a strong understanding of the mole concept and applies it effectively in complex calculations, including conversions between atomic and macroscopic scales. Explains most molecular structures.",
+      "Demonstrates a comprehensive and nuanced understanding of the mole concept, applying it seamlessly in advanced calculations and providing insightful explanations of its significance in chemical reactions. Explains complex molecular structures."
+    ]
+  ]
+}

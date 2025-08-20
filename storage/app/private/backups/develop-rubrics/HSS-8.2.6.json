@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Enumerating Powers of Government",
+    "Accuracy in Enumerating Fundamental Liberties Ensured by the Bill of Rights",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the enumerated powers of government.",
+      "The student can list one or two powers of the government with significant inaccuracies.",
+      "The student lists a few powers of the government with some inaccuracies or omissions.",
+      "The student lists most of the key powers of the government with minor inaccuracies or omissions.",
+      "The student accurately lists most of the key powers of the government, demonstrating a solid understanding.",
+      "The student accurately and comprehensively lists the key powers of the government, demonstrating a thorough understanding."
+    ],
+    [
+      "The student demonstrates no understanding of the fundamental liberties ensured by the Bill of Rights.",
+      "The student can list one or two liberties with significant inaccuracies.",
+      "The student lists a few liberties with some inaccuracies or omissions.",
+      "The student lists most of the key liberties with minor inaccuracies or omissions.",
+      "The student accurately lists most of the key liberties, demonstrating a solid understanding.",
+      "The student accurately and comprehensively lists the key liberties, demonstrating a thorough understanding."
+    ],
+    [
+      "The student's explanation is unclear and disorganized, making it difficult to understand.",
+      "The student's explanation lacks clarity and organization, with significant gaps in understanding.",
+      "The student's explanation has some clarity and organization, but there are areas that need improvement.",
+      "The student's explanation is generally clear and organized, with minor areas for improvement.",
+      "The student's explanation is clear, well-organized, and easy to follow, demonstrating a good understanding.",
+      "The student's explanation is exceptionally clear, well-organized, and insightful, demonstrating a deep understanding."
+    ]
+  ]
+}

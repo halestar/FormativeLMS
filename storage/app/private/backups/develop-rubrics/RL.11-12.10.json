@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Reading Comprehension of Complex Literary Texts",
+    "Analysis and Interpretation",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the text; unable to identify basic plot elements or themes.",
+      "Struggles to understand the text; identifies plot elements with significant inaccuracies; misinterprets themes.",
+      "Demonstrates a basic understanding of the text; identifies plot elements with some inaccuracies; struggles to articulate themes.",
+      "Demonstrates a satisfactory understanding of the text; accurately identifies most plot elements; articulates themes with some prompting.",
+      "Demonstrates a strong understanding of the text; accurately identifies plot elements and themes with minimal prompting; begins to analyze the author's choices.",
+      "Demonstrates a comprehensive understanding of the text; accurately identifies plot elements and themes independently; analyzes the author's choices and their impact on the text."
+    ],
+    [
+      "Provides no analysis or interpretation of the text.",
+      "Offers superficial analysis with no supporting evidence; interpretations are illogical or irrelevant.",
+      "Provides basic analysis with limited supporting evidence; interpretations are somewhat relevant but lack depth.",
+      "Offers reasonable analysis with adequate supporting evidence; interpretations are generally relevant and demonstrate some insight.",
+      "Provides insightful analysis with strong supporting evidence; interpretations are thoughtful and demonstrate a clear understanding of literary devices.",
+      "Offers sophisticated analysis with compelling supporting evidence; interpretations are original, insightful, and demonstrate a nuanced understanding of literary devices and their effect."
+    ],
+    [
+      "Provides no evidence from the text to support claims.",
+      "Attempts to use evidence, but it is irrelevant or inaccurately cited.",
+      "Uses limited evidence that is weakly connected to claims; citations may be inaccurate.",
+      "Uses relevant evidence to support claims, but connections could be stronger; citations are mostly accurate.",
+      "Uses strong and relevant evidence to effectively support claims; citations are accurate and well-integrated.",
+      "Uses compelling and insightful evidence to convincingly support claims; citations are flawless and enhance the analysis."
+    ]
+  ]
+}

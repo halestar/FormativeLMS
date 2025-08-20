@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Hazards",
+    "Understanding of Safe Use Instructions",
+    "Knowledge of Proper Storage Procedures",
+    "Awareness of Correct Disposal Methods"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any hazards or incorrectly identifies most hazards on common household product labels.",
+      "Identifies very few hazards on common household product labels and\/or misinterprets their meaning.",
+      "Identifies some hazards on common household product labels but misses key warnings or misinterprets a few.",
+      "Identifies most hazards on common household product labels with minor omissions or slight misinterpretations.",
+      "Accurately identifies nearly all hazards on common household product labels.",
+      "Consistently and accurately identifies all hazards and potential dangers on common household product labels with a comprehensive understanding."
+    ],
+    [
+      "Does not understand or follow safe use instructions provided on the labels; demonstrates unsafe practices.",
+      "Shows limited understanding of safe use instructions and is unable to apply them correctly.",
+      "Understands some safe use instructions but struggles to apply them in practical scenarios.",
+      "Generally understands and follows safe use instructions with occasional errors or omissions.",
+      "Clearly understands and correctly applies safe use instructions in almost all situations.",
+      "Demonstrates a complete understanding of safe use instructions and consistently applies them with precision and care."
+    ],
+    [
+      "Is unaware of or ignores proper storage guidelines for household products.",
+      "Has minimal knowledge of proper storage and does not follow recommended practices.",
+      "Knows some storage guidelines but inconsistently applies them or makes errors.",
+      "Generally follows proper storage procedures with minor lapses or uncertainties.",
+      "Consistently follows proper storage procedures, ensuring safety and preventing accidents.",
+      "Exhibits expert knowledge of proper storage procedures and proactively implements them to maximize safety and minimize risks."
+    ],
+    [
+      "Is unaware of correct disposal methods and\/or disposes of products improperly, posing environmental risks.",
+      "Demonstrates little awareness of correct disposal and struggles to follow appropriate guidelines.",
+      "Knows some correct disposal methods but makes errors or omissions in their application.",
+      "Generally follows correct disposal methods with minor exceptions or uncertainties.",
+      "Consistently follows correct disposal methods, minimizing environmental impact and ensuring safety.",
+      "Demonstrates extensive knowledge of correct disposal methods and advocates for responsible waste management practices."
+    ]
+  ]
+}

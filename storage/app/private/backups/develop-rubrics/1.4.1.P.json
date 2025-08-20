@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Directness of Request",
+    "Use of Appropriate Language and Tone",
+    "Identification of Needs and Concerns"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The request for assistance is unclear, vague, or missing. It does not effectively communicate the health-related problem.",
+      "The request for assistance lacks clarity and may not directly address the health-related problem. Some details are missing or confusing.",
+      "The request for assistance is somewhat clear but could be more direct. Some relevant information is present, but not effectively organized.",
+      "The request for assistance is clear and mostly direct, providing relevant information about the health-related problem.",
+      "The request for assistance is clear, direct, and provides sufficient detail about the health-related problem, facilitating a targeted response.",
+      "The request for assistance is exceptionally clear, direct, and comprehensive, ensuring that the health-related problem is fully understood and easily addressed."
+    ],
+    [
+      "The language used is inappropriate, disrespectful, or insensitive. The tone is not conducive to seeking help.",
+      "The language used is somewhat inappropriate or the tone is not entirely suitable for seeking help. There may be elements of disrespect or insensitivity.",
+      "The language and tone are generally appropriate, but there may be minor instances of insensitivity or misjudgment.",
+      "The language and tone are appropriate and respectful, demonstrating an understanding of the sensitive nature of health-related problems.",
+      "The language and tone are highly appropriate, respectful, and considerate, fostering a comfortable environment for seeking assistance.",
+      "The language and tone are exemplary, demonstrating exceptional sensitivity, respect, and awareness in seeking assistance with a health-related problem."
+    ],
+    [
+      "The request fails to identify any specific needs or concerns related to the health-related problem.",
+      "The request vaguely identifies some needs or concerns, but lacks specificity and detail.",
+      "The request identifies some relevant needs and concerns, but could benefit from further clarification or elaboration.",
+      "The request clearly identifies the primary needs and concerns related to the health-related problem, demonstrating self-awareness.",
+      "The request effectively identifies and articulates all relevant needs and concerns, demonstrating a comprehensive understanding of the situation.",
+      "The request demonstrates exceptional insight by identifying subtle and complex needs and concerns, fostering a proactive approach to addressing the health-related problem."
+    ]
+  ]
+}

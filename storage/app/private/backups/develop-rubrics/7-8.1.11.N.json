@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Cognitive Benefits",
+    "Identification of Physical Benefits",
+    "Analysis of the Link Between Eating Breakfast and the Indentified Benefits"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No cognitive benefits of eating breakfast are identified.",
+      "Identifies one vague or incorrect cognitive benefit.",
+      "Identifies one general cognitive benefit of eating breakfast daily (e.g., 'helps you think').",
+      "Identifies two distinct cognitive benefits of eating breakfast daily (e.g., improved focus, better memory).",
+      "Identifies and explains two distinct cognitive benefits of eating breakfast daily with some elaboration.",
+      "Identifies and thoroughly explains at least two distinct cognitive benefits of eating breakfast daily, demonstrating a strong understanding of the connection between breakfast and cognitive function."
+    ],
+    [
+      "No physical benefits of eating breakfast are identified.",
+      "Identifies one vague or incorrect physical benefit.",
+      "Identifies one general physical benefit of eating breakfast daily (e.g., 'gives you energy').",
+      "Identifies two distinct physical benefits of eating breakfast daily (e.g., sustained energy, weight management).",
+      "Identifies and explains two distinct physical benefits of eating breakfast daily with some elaboration.",
+      "Identifies and thoroughly explains at least two distinct physical benefits of eating breakfast daily, demonstrating a strong understanding of the connection between breakfast and physical health."
+    ],
+    [
+      "No analysis of the link between eating breakfast and its benefits.",
+      "Attempts to link eating breakfast with a cognitive or physical benefit, but the explanation is unclear or illogical.",
+      "Provides a basic explanation of how eating breakfast can lead to one cognitive or physical benefit.",
+      "Provides a clear explanation of how eating breakfast can lead to at least one cognitive and one physical benefit.",
+      "Analyzes the process through which eating breakfast leads to cognitive and physical benefits with supporting details.",
+      "Provides a comprehensive analysis, explaining the physiological processes involved in how eating breakfast leads to specific cognitive and physical benefits; demonstrates advanced understanding."
+    ]
+  ]
+}

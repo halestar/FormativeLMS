@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and Use of Units",
+    "Interpretation of Scale and Origin",
+    "Application in Multi-Step Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use or understand units is made.",
+      "Units are mentioned, but there is no clear understanding or consistent use.",
+      "Units are used, but inconsistently or incorrectly, leading to errors in problem-solving.",
+      "Units are generally used correctly, but there may be minor errors or inconsistencies.",
+      "Units are consistently used correctly to guide problem-solving, with clear interpretation of their meaning.",
+      "Units are expertly used to solve and interpret multi-step problems, demonstrating a deep understanding of their role and implications. Demonstrates the use of units to check answer for reasonability."
+    ],
+    [
+      "No attempt to interpret scale or origin in graphs or data displays.",
+      "Scale or origin is mentioned, but there is no clear interpretation or understanding.",
+      "Attempts to interpret scale or origin are made, but with significant errors or misconceptions.",
+      "Scale and origin are generally interpreted correctly, but there may be minor inaccuracies.",
+      "Scale and origin are interpreted correctly with a good understanding of their implications in the given context.",
+      "Scale and origin are expertly interpreted, demonstrating a deep understanding of their role in representing data and solving problems. Connections are drawn to real-world implications and demonstrates the limitations of the data being displayed."
+    ],
+    [
+      "Unable to apply unit understanding to solve multi-step problems.",
+      "Begins to apply unit understanding, but struggles to complete multi-step problems.",
+      "Inconsistently applies unit understanding in multi-step problems, leading to errors.",
+      "Generally applies unit understanding correctly in multi-step problems, with occasional errors.",
+      "Consistently and correctly applies unit understanding to solve multi-step problems effectively.",
+      "Expertly applies unit understanding to solve complex multi-step problems, demonstrating a clear and efficient problem-solving strategy. Able to compare different strategies and identify the most optimal way of approaching a problem."
+    ]
+  ]
+}

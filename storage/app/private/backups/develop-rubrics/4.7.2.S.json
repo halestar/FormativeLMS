@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Disaster Preparedness Procedures",
+    "Application of Procedures at Home",
+    "Application of Procedures at School"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of disaster preparedness procedures.",
+      "The student shows minimal understanding of disaster preparedness procedures, struggling to identify key steps.",
+      "The student demonstrates basic understanding of disaster preparedness procedures but has gaps in knowledge.",
+      "The student demonstrates a satisfactory understanding of disaster preparedness procedures at home and school.",
+      "The student demonstrates a strong understanding of disaster preparedness procedures at home and school, identifying most key steps.",
+      "The student demonstrates a comprehensive understanding of disaster preparedness procedures, explaining key steps and their importance in detail."
+    ],
+    [
+      "The student does not describe or suggest any disaster preparedness procedures for home.",
+      "The student suggests one basic disaster preparedness procedure for home with limited detail.",
+      "The student suggests a few disaster preparedness procedures for home, but some may be incomplete or impractical.",
+      "The student suggests appropriate disaster preparedness procedures for home, including a basic emergency kit.",
+      "The student thoroughly describes disaster preparedness procedures for home, including a well-stocked emergency kit and family communication plan.",
+      "The student comprehensively outlines disaster preparedness procedures for home, demonstrating a sophisticated understanding of risk mitigation and family safety."
+    ],
+    [
+      "The student does not describe or suggest any disaster preparedness procedures for school.",
+      "The student suggests one basic disaster preparedness procedure for school with limited detail.",
+      "The student suggests a few disaster preparedness procedures for school, but some may be incomplete or impractical.",
+      "The student suggests appropriate disaster preparedness procedures for school, such as evacuation routes and meeting points.",
+      "The student thoroughly describes disaster preparedness procedures for school, including evacuation routes, meeting points, and communication protocols.",
+      "The student comprehensively outlines disaster preparedness procedures for school, demonstrating an understanding of school-specific safety protocols and student responsibilities."
+    ]
+  ]
+}

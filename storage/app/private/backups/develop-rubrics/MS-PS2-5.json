@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Experimental Design and Procedure",
+    "Evidence and Data Interpretation",
+    "Understanding of Fields and Interactions",
+    "Cause and Effect Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to design or conduct an investigation; procedure is completely absent or irrelevant.",
+      "Investigation design is flawed; procedure lacks essential steps and controls.",
+      "Investigation design has significant weaknesses; procedure is unclear or missing some controls; data collection is incomplete.",
+      "Investigation design is adequate but could be improved; procedure is generally clear with some controls; data collection is mostly complete.",
+      "Well-designed investigation with a clear, logical procedure including appropriate controls; data collection is thorough and organized.",
+      "Exemplary investigation design demonstrating a deep understanding of experimental controls and variables; procedure is meticulously detailed and data collection is comprehensive."
+    ],
+    [
+      "No evidence presented or data misinterpreted.",
+      "Evidence is weak and does not support the claim; data interpretation is incorrect.",
+      "Evidence is limited and only partially supports the claim; data interpretation contains errors.",
+      "Evidence supports the claim with minor inconsistencies; data interpretation is generally accurate but lacks depth.",
+      "Strong evidence clearly supports the claim; data interpretation is accurate and insightful.",
+      "Compelling evidence provides strong support for the claim; sophisticated data interpretation demonstrates a comprehensive understanding."
+    ],
+    [
+      "Demonstrates no understanding of fields or their role in forces at a distance.",
+      "Shows a very limited understanding of fields and interactions; misconceptions are evident.",
+      "Demonstrates a basic understanding of fields but struggles to explain interactions.",
+      "Understands that fields mediate forces at a distance but explanation lacks clarity.",
+      "Clearly explains how fields mediate electric and magnetic forces at a distance.",
+      "Provides a comprehensive and nuanced explanation of fields, including their properties and effects on objects, relating it to real-world phenomena."
+    ],
+    [
+      "Fails to identify any cause and effect relationships related to fields and forces.",
+      "Identifies cause and effect relationships incorrectly or with significant flaws.",
+      "Identifies some cause and effect relationships, but explanation is superficial or incomplete.",
+      "Adequately describes cause and effect relationships related to fields and forces.",
+      "Clearly and accurately explains cause and effect relationships related to fields and forces, using evidence from the investigation.",
+      "Demonstrates a sophisticated understanding of cause and effect, predicting phenomena and explaining relationships with insightful detail and real-world examples."
+    ]
+  ]
+}

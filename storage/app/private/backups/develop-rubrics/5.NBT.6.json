@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Place Value and Number Sense",
+    "Application of Division Strategies",
+    "Illustration and Explanation of Calculation",
+    "Accuracy and Precision"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of place value or how it relates to division. Struggles to estimate or recognize reasonable quotients.",
+      "Shows limited understanding of place value. Attempts division but struggles with estimation and recognizing reasonable quotients.",
+      "Demonstrates some understanding of place value and attempts to use it in division. Can sometimes estimate quotients, but makes frequent errors.",
+      "Understands place value and uses it to estimate quotients with some accuracy. Can perform division with guidance.",
+      "Clearly understands place value and uses it effectively to estimate and check quotients. Performs division accurately with minimal errors.",
+      "Exhibits a strong understanding of place value and number sense, using it to efficiently and accurately estimate and perform division. Explains the reasoning clearly."
+    ],
+    [
+      "Unable to apply any division strategies or algorithms. Makes random guesses without a clear process.",
+      "Attempts to apply a division strategy but does so incorrectly and inefficiently. Struggles to follow a logical process.",
+      "Applies division strategies inconsistently and with frequent errors. Can sometimes perform division with simpler problems.",
+      "Applies division strategies with some accuracy, but still makes occasional errors. Can generally solve problems with guidance.",
+      "Competently applies division strategies and algorithms to solve problems accurately. Explains the steps taken with some clarity.",
+      "Masterfully applies division strategies, selecting the most efficient method for each problem. Explains the process clearly and logically."
+    ],
+    [
+      "Provides no illustration or explanation of the division process. Unable to represent the problem visually or verbally.",
+      "Attempts to illustrate or explain the division process, but does so unclearly and inaccurately. Representation is difficult to understand.",
+      "Illustrates or explains the division process with limited clarity. The connection between the representation and the calculation is not always clear.",
+      "Illustrates and explains the division process adequately, using equations, arrays, or area models. The connection to the calculation is understandable.",
+      "Clearly illustrates and explains the division process, using appropriate representations (equations, arrays, area models) to demonstrate understanding.",
+      "Creatively andinsightfully illustrates and explains the division process, providing a deep understanding of the underlying concepts. Chooses the most effective representation to enhance clarity."
+    ],
+    [
+      "Consistently arrives at incorrect solutions due to fundamental errors in the division process.",
+      "Makes frequent errors in the division process, leading to inaccurate solutions.",
+      "Makes occasional errors in the division process, resulting in solutions that are sometimes incorrect.",
+      "Generally performs division accurately, with only minor errors that do not significantly impact the solution.",
+      "Consistently performs division accurately and precisely, arriving at correct solutions.",
+      "Demonstrates exceptional accuracy and precision in division, consistently arriving at correct solutions with efficient calculations."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Conditional Probability",
+    "Understanding of Independence",
+    "Interpretation of Data",
+    "Comparison of Conflicting Probabilities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of conditional probability.",
+      "Student struggles to define or recognize conditional probability in simple scenarios.",
+      "Student can define conditional probability but has difficulty applying it to everyday situations.",
+      "Student can explain conditional probability and provide basic examples in everyday scenarios.",
+      "Student demonstrates a solid understanding of conditional probability and can apply it to a variety of everyday situations with clear explanations.",
+      "Student demonstrates a comprehensive understanding of conditional probability, can apply it to complex everyday situations, and clearly explains the reasoning behind their conclusions."
+    ],
+    [
+      "Student demonstrates no understanding of independence.",
+      "Student struggles to define or recognize independence in simple scenarios.",
+      "Student can define independence but has difficulty applying it to everyday situations.",
+      "Student can explain independence and provide basic examples in everyday scenarios.",
+      "Student demonstrates a solid understanding of independence and can apply it to a variety of everyday situations with clear explanations.",
+      "Student demonstrates a comprehensive understanding of independence, can apply it to complex everyday situations, and clearly explains the reasoning behind their conclusions."
+    ],
+    [
+      "Student is unable to interpret data related to conditional probability or independence.",
+      "Student struggles to extract relevant information from data sets related to conditional probability or independence.",
+      "Student can extract basic information from data sets but has difficulty drawing meaningful conclusions about conditional probability or independence.",
+      "Student can interpret data and draw some conclusions about conditional probability and independence, but the explanations may lack clarity or depth.",
+      "Student can effectively interpret data, draw accurate conclusions about conditional probability and independence, and provide clear explanations.",
+      "Student demonstrates a sophisticated ability to interpret data, draw nuanced conclusions about conditional probability and independence, and provide insightful explanations supported by evidence."
+    ],
+    [
+      "Student is unable to compare conflicting probabilities, like the example given.",
+      "Student struggles to compare conflicting probabilities, like the example given.",
+      "Student can perform comparison but struggles to give a proper justification.",
+      "Student can provide a justifcation but it is not fully realized.",
+      "Student can compare conflicting probabilities and provide a justifcation that is easily understood",
+      "Student can compare conflicting probabilities and provide a justifcation that is easily understood and also can provide caveats."
+    ]
+  ]
+}

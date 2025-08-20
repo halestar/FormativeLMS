@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Decomposing fractions into unit fractions",
+    "Adding and subtracting mixed numbers with like denominators",
+    "Using properties of operations and the relationship between addition and subtraction"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to decompose fractions or understand the concept of unit fractions.",
+      "Student can identify unit fractions but struggles to decompose fractions into unit fractions.",
+      "Student can decompose simple fractions into unit fractions but struggles with more complex fractions or mixed numbers.",
+      "Student can decompose most fractions into unit fractions, including some mixed numbers, but may make occasional errors.",
+      "Student can consistently and accurately decompose fractions, including mixed numbers, into unit fractions.",
+      "Student demonstrates a thorough understanding of decomposing fractions into unit fractions and can explain the concept clearly and accurately, including complex fractions and mixed numbers."
+    ],
+    [
+      "Student cannot add or subtract mixed numbers or does not understand the concept of like denominators.",
+      "Student attempts to add or subtract mixed numbers but struggles with the process and makes frequent errors.",
+      "Student can add or subtract mixed numbers with like denominators in simple cases but struggles with more complex problems or when regrouping is required.",
+      "Student can add and subtract mixed numbers with like denominators in most cases but may make occasional errors, especially when regrouping is needed.",
+      "Student can consistently and accurately add and subtract mixed numbers with like denominators, including problems that require regrouping.",
+      "Student demonstrates a thorough understanding of adding and subtracting mixed numbers with like denominators and can explain the process clearly and accurately, including problems requiring regrouping and simplification."
+    ],
+    [
+      "Student does not demonstrate any understanding of properties of operations or the relationship between addition and subtraction in the context of fractions.",
+      "Student shows limited awareness of properties of operations or the relationship between addition and subtraction but cannot apply them effectively to solve problems with fractions.",
+      "Student attempts to use properties of operations or the relationship between addition and subtraction but struggles to apply them correctly or efficiently.",
+      "Student can use properties of operations or the relationship between addition and subtraction to solve some problems with fractions but may make occasional errors or struggle with more complex problems.",
+      "Student can consistently and accurately use properties of operations and the relationship between addition and subtraction to solve problems with fractions.",
+      "Student demonstrates a thorough understanding of properties of operations and the relationship between addition and subtraction and can apply them flexibly and efficiently to solve a wide range of problems with fractions, including complex and multi-step problems."
+    ]
+  ]
+}

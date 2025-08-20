@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Nuclear Composition Models",
+    "Representation of Energy Release",
+    "Clarity and Organization of the Model",
+    "Application of Scientific Practices and Crosscutting Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Model is missing or completely inaccurate, showing no understanding of nuclear composition changes.",
+      "Model contains significant inaccuracies in representing the composition of the nucleus during nuclear processes.",
+      "Model demonstrates some understanding of nuclear composition but contains several inaccuracies or omissions.",
+      "Model accurately represents the main changes in nuclear composition during fission, fusion, or radioactive decay but may lack detail.",
+      "Model is mostly accurate and detailed, illustrating the changes in nuclear composition during nuclear processes with only minor errors.",
+      "Model is highly accurate, detailed, and clearly illustrates the changes in nuclear composition during fission, fusion, and radioactive decay, demonstrating a strong understanding."
+    ],
+    [
+      "Model does not address energy release or incorrectly represents it.",
+      "Model mentions energy release but provides no context or inaccurate information.",
+      "Model includes some information about energy release, but the explanation is vague or partially incorrect.",
+      "Model adequately represents energy release during nuclear processes, showing a basic understanding of the concept.",
+      "Model clearly represents energy release and provides a good qualitative comparison to other types of transformations.",
+      "Model accurately and comprehensively represents energy release, providing a clear qualitative comparison to other transformations and demonstrating a deep understanding."
+    ],
+    [
+      "Model is disorganized and unclear, making it difficult to understand the represented processes.",
+      "Model is somewhat disorganized and lacks clarity in representing the nuclear processes.",
+      "Model is understandable but could benefit from improved organization and clearer labels.",
+      "Model is organized and mostly clear, effectively communicating the nuclear processes being illustrated.",
+      "Model is well-organized, clear, and easy to understand, enhancing the communication of nuclear processes.",
+      "Model is exceptionally well-organized, clear, and visually appealing, providing an insightful representation of nuclear processes."
+    ],
+    [
+      "Model fails to apply relevant scientific practices or crosscutting concepts.",
+      "Model attempts to apply scientific practices or crosscutting concepts but does so incorrectly or superficially.",
+      "Model applies some scientific practices or crosscutting concepts, but the connection is weak or not fully explained.",
+      "Model demonstrates a reasonable application of scientific practices (Developing and Using Models) and crosscutting concepts (Energy and Matter).",
+      "Model effectively applies scientific practices and crosscutting concepts to enhance the understanding of nuclear processes.",
+      "Model expertly applies scientific practices and crosscutting concepts, providing a sophisticated understanding of nuclear processes and their broader implications."
+    ]
+  ]
+}

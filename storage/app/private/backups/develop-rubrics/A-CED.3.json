@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to represent constraints using equations or inequalities.",
+    "Ability to represent constraints using systems of equations and\/or inequalities.",
+    "Ability to interpret solutions as viable or non-viable options in a modeling context."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how to represent constraints using equations or inequalities.",
+      "Student can represent simple constraints using equations or inequalities with significant errors.",
+      "Student can represent basic constraints using equations or inequalities with some errors.",
+      "Student can represent most constraints using equations or inequalities with minor errors.",
+      "Student can accurately represent constraints using equations or inequalities in most contexts.",
+      "Student can accurately and effectively represent constraints using equations or inequalities in all contexts."
+    ],
+    [
+      "Student demonstrates no understanding of how to represent constraints using systems of equations and\/or inequalities.",
+      "Student attempts to represent constraints using systems of equations\/inequalities but with major flaws and misunderstandings.",
+      "Student can represent simple constraints using systems of equations\/inequalities with some errors.",
+      "Student can represent most constraints using systems of equations\/inequalities with minor errors.",
+      "Student can accurately represent constraints using systems of equations\/inequalities in most contexts.",
+      "Student can accurately and effectively represent constraints using systems of equations\/inequalities in various complex contexts."
+    ],
+    [
+      "Student cannot interpret solutions in a modeling context and does not identify viable or non-viable options.",
+      "Student attempts to interpret solutions but shows significant misunderstanding of viability in a modeling context.",
+      "Student can identify some viable or non-viable options with significant prompting.",
+      "Student can interpret solutions and identify viable or non-viable options in simple modeling contexts.",
+      "Student can interpret solutions and identify viable or non-viable options in most modeling contexts with minimal guidance.",
+      "Student can effectively interpret solutions and justify viable or non-viable options in complex modeling contexts with clear explanations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to read and write decimals to thousandths.",
+    "Ability to compare two decimals to thousandths using >, =, and < symbols.",
+    "Understanding of place value when comparing decimals."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot read or write decimals to the thousandths place.",
+      "Student can read and write whole numbers, but struggles with decimals. Student can read and write decimals to the tenths place.",
+      "Student can read and write decimals to the hundredths place, but not consistently to the thousandths place. Makes frequent errors.",
+      "Student can read and write decimals to the thousandths place with occasional errors.",
+      "Student consistently and accurately reads and writes decimals to the thousandths place. Minor mistakes may be present, but are easily corrected.",
+      "Student demonstrates a complete understanding of reading and writing decimals to the thousandths place.  Can also convert between decimal and fraction forms with ease."
+    ],
+    [
+      "Student cannot compare decimals or use the correct symbols.",
+      "Student can compare whole numbers, but struggles to compare decimals. Confuses the meaning of the symbols.",
+      "Student can compare decimals to the tenths place, but has trouble with hundredths and thousandths. Has some understanding of the symbols, but uses them incorrectly.",
+      "Student can compare decimals to the hundredths place, but not consistently to the thousandths place. Mostly uses the symbols correctly.",
+      "Student consistently and accurately compares decimals to the thousandths place using >, =, and < symbols.  May make minor errors, but self-corrects.",
+      "Student demonstrates a complete understanding of comparing decimals to the thousandths place. Justifies their comparisons with place value reasoning."
+    ],
+    [
+      "Student does not demonstrate understanding of place value.",
+      "Student shows limited understanding of place value with whole numbers, but not with decimals.",
+      "Student understands place value to the tenths place, but not beyond.",
+      "Student understands place value to the hundredths place, but struggles with thousandths.",
+      "Student generally understands place value to the thousandths place, but has minor gaps in their explanation.",
+      "Student demonstrates a strong understanding of place value to the thousandths place and explains how it relates to comparing decimals."
+    ]
+  ]
+}

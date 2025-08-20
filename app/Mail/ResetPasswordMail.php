@@ -2,18 +2,13 @@
 
 namespace App\Mail;
 
-use App\Classes\Settings\EmailSetting;
 use App\Interfaces\SchoolEmail;
 use App\Models\People\Person;
-use App\Models\Utilities\SystemSetting;
 use App\Traits\IsSchoolEmail;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Content;
-use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Blade;
 
 class ResetPasswordMail extends Mailable implements SchoolEmail, ShouldQueue
 {
@@ -57,9 +52,9 @@ class ResetPasswordMail extends Mailable implements SchoolEmail, ShouldQueue
 	{
 		return
 		[
-			'recipient' => __('emails.password.reset.recipient'),
-			'recipient_email' => __('emails.password.reset.recipient_email'),
-			'token' => __('emails.password.reset.token'),
+			'{!! $recipient !!}' => __('emails.password.reset.recipient'),
+			'{!! $recipient_email !!}' => __('emails.password.reset.recipient_email'),
+			'{!! $token !!}' => __('emails.password.reset.token'),
 		];
 	}
 

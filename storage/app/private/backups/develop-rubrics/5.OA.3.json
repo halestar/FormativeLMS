@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Generating Numerical Patterns",
+    "Identifying Relationships Between Terms",
+    "Forming Ordered Pairs and Graphing",
+    "Explanation of Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot generate numerical patterns based on given rules.",
+      "The student can generate one numerical pattern with significant errors or struggles to follow the given rule.",
+      "The student can generate two numerical patterns but makes some errors in following the given rules or has inconsistencies.",
+      "The student can generate two numerical patterns accurately following the given rules with minimal errors.",
+      "The student can accurately generate two numerical patterns following the given rules and can extend the patterns further.",
+      "The student can accurately generate two numerical patterns following the given rules, extends the patterns, and explains the process clearly."
+    ],
+    [
+      "The student cannot identify any relationships between corresponding terms of the two patterns.",
+      "The student attempts to identify relationships but is unsuccessful or identifies incorrect relationships.",
+      "The student identifies a relationship between the terms but struggles to articulate it clearly or makes some errors.",
+      "The student correctly identifies a relationship between the terms of the two patterns and articulates it clearly.",
+      "The student correctly identifies a relationship and provides a reasonable explanation for why the relationship exists.",
+      "The student identifies complex relationships, provides a thorough explanation, and connects it to mathematical principles."
+    ],
+    [
+      "The student cannot form ordered pairs or graph them on a coordinate plane.",
+      "The student attempts to form ordered pairs and graph them but makes significant errors in both processes.",
+      "The student forms ordered pairs with some errors or graphs them incorrectly on the coordinate plane.",
+      "The student forms ordered pairs correctly and graphs them on a coordinate plane with minor inaccuracies.",
+      "The student accurately forms ordered pairs, graphs them correctly, and labels the axes appropriately.",
+      "The student accurately forms ordered pairs, graphs them effectively, labels the axes, and provides a title that describes the graph."
+    ],
+    [
+      "The student provides no explanation.",
+      "The student's explanation is unclear and shows little understanding.",
+      "The student attempts to explain the relationship but the explanation contains inaccuracies or is incomplete.",
+      "The student explains the relationship informally with reasonable accuracy.",
+      "The student explains the relationship clearly and provides some justification.",
+      "The student provides a clear, concise, and mathematically sound explanation of why the relationship exists, using appropriate terminology."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Choosing the Appropriate Method",
+    "Accuracy in Execution",
+    "Understanding of Solutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to solve the equation or chooses a completely inappropriate method.",
+      "Student attempts to solve the equation but struggles to choose an efficient method or makes significant errors in the initial setup.",
+      "Student selects a method but demonstrates a limited understanding of its application, leading to errors in the solving process.",
+      "Student generally chooses an appropriate method (factoring, square roots, completing the square, or quadratic formula) but may have minor errors in execution.",
+      "Student selects and applies an appropriate method with reasonable accuracy, showing a good understanding of the strengths and weaknesses of each method.",
+      "Student skillfully selects and efficiently applies the most appropriate method to solve the quadratic equation with no errors."
+    ],
+    [
+      "Student's execution is completely incorrect, showing no understanding of algebraic manipulation.",
+      "Student makes multiple critical errors in algebraic manipulation, demonstrating a lack of understanding of fundamental concepts.",
+      "Student makes several errors in execution that impede progress toward the solution.",
+      "Student makes minor errors in execution, but generally arrives at a reasonable solution.",
+      "Student demonstrates accurate algebraic manipulation with only minor slips or errors.",
+      "Student demonstrates flawless execution of algebraic manipulation, leading to a correct solution."
+    ],
+    [
+      "Student does not find a solution or provides a nonsensical answer.",
+      "Student attempts to find a solution but does not understand the meaning of the solution in the context of the equation.",
+      "Student finds a solution but does not verify or understand if the solution is correct.",
+      "Student finds a correct solution but shows limited understanding of why it is a solution.",
+      "Student finds a correct solution and demonstrates a good understanding of why it is a solution to the equation.",
+      "Student finds all correct solutions, explains the significance of the solution(s), and relates it to the original equation with clarity and precision."
+    ]
+  ]
+}

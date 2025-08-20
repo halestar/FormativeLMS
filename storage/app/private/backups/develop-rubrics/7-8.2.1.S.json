@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Identification of Media Portrayals",
+    "Depth of Analysis",
+    "Understanding of Health Implications",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any media portrayals of fire and explosives or the identifications are completely inaccurate.",
+      "Identifies one media portrayal, but the identification lacks accuracy or detail.",
+      "Identifies a few media portrayals with some inaccuracies or generalizations.",
+      "Identifies several media portrayals with reasonable accuracy, but may miss subtle nuances.",
+      "Identifies most media portrayals accurately, demonstrating a good understanding of the topic.",
+      "Accurately and comprehensively identifies a wide range of media portrayals of fire and explosives, demonstrating a deep understanding."
+    ],
+    [
+      "Provides no analysis or the analysis is irrelevant to the topic.",
+      "Offers a superficial analysis with minimal connection to the health implications.",
+      "Presents a basic analysis, but lacks depth and critical thinking.",
+      "Analyzes the portrayals with some insights, but could benefit from a more thorough examination.",
+      "Provides a detailed analysis, exploring various aspects and implications of the media portrayals.",
+      "Offers a comprehensive and insightful analysis, demonstrating a sophisticated understanding of the media's influence on perceptions of fire and explosives."
+    ],
+    [
+      "Shows no understanding of the potential health implications related to the media portrayals.",
+      "Demonstrates a limited awareness of health implications.",
+      "Recognizes some health implications, but struggles to connect them directly to the media portrayals.",
+      "Connects media portrayals to specific health implications with reasonable clarity.",
+      "Clearly and accurately explains the health implications associated with different media portrayals.",
+      "Demonstrates a nuanced understanding of the complex relationship between media portrayals and various health outcomes, providing insightful connections."
+    ],
+    [
+      "The analysis is unclear, disorganized, and difficult to follow.",
+      "The analysis lacks clarity and organization, making it challenging to understand the main points.",
+      "The analysis is somewhat organized, but clarity could be improved.",
+      "The analysis is generally clear and organized, but there may be occasional lapses in coherence.",
+      "The analysis is clear, well-organized, and easy to follow.",
+      "The analysis is exceptionally clear, logically organized, and effectively communicates the key ideas."
+    ]
+  ]
+}

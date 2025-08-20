@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Caloric Calculation",
+    "Nutritional Value Analysis",
+    "Application of Standard"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to calculate caloric value.",
+      "Caloric calculation is attempted but is significantly inaccurate, missing key components or showing misunderstanding.",
+      "Caloric calculation is attempted and is somewhat accurate, but contains noticeable errors or omissions.",
+      "Caloric calculation is mostly accurate, with minor errors that do not significantly impact the overall understanding.",
+      "Caloric calculation is accurate and complete, demonstrating a clear understanding of caloric values in foods and beverages.",
+      "Caloric calculation is precise and demonstrates a sophisticated understanding of caloric density, considering portion sizes and nutritional context."
+    ],
+    [
+      "No attempt to analyze nutritional value.",
+      "Nutritional analysis is attempted but is superficial, only mentioning basic food groups without detail.",
+      "Nutritional analysis identifies some key nutrients but lacks depth or accuracy in describing their roles.",
+      "Nutritional analysis is reasonably comprehensive, discussing macronutrients and some micronutrients with fair accuracy.",
+      "Nutritional analysis is thorough, accurately detailing the roles of macronutrients and micronutrients in the context of health.",
+      "Nutritional analysis is insightful, providing nuanced perspectives on the impact of specific nutrients and their interactions, showing excellent comprehension."
+    ],
+    [
+      "No connection made between food\/beverage analysis and health standards.",
+      "Attempts to link analysis to health standards are vague or incorrect.",
+      "Links analysis to health standards with some inaccuracies.",
+      "Demonstrates a general understanding of health standards in the context of food\/beverage analysis.",
+      "Clearly applies health standards to justify food\/beverage analysis.",
+      "Insightfully and thoroughly applies health standards, demonstrating a deep understanding of nutrition's impact on well-being."
+    ]
+  ]
+}

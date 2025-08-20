@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Claims",
+    "Evaluation of Reasoning",
+    "Relevance and Sufficiency of Evidence",
+    "Identification of Irrelevant Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the speaker's argument or specific claims.",
+      "Identifies the speaker's argument but struggles to identify specific claims.",
+      "Identifies the speaker's argument and some specific claims, but misses others.",
+      "Identifies the speaker's argument and most specific claims accurately.",
+      "Accurately identifies the speaker's argument and all specific claims.",
+      "Accurately and comprehensively identifies the speaker's argument and all specific claims, demonstrating a deep understanding of their nuances."
+    ],
+    [
+      "Unable to evaluate the soundness of the speaker's reasoning.",
+      "Attempts to evaluate the reasoning, but analysis is superficial and lacks depth.",
+      "Identifies some strengths and weaknesses in the reasoning, but evaluation is incomplete.",
+      "Provides a sound evaluation of the reasoning, identifying both strengths and weaknesses.",
+      "Provides a comprehensive and insightful evaluation of the reasoning, demonstrating a strong understanding of logical fallacies and persuasive techniques.",
+      "Provides an exceptionally insightful and nuanced evaluation of the reasoning, demonstrating a mastery of logical fallacies, persuasive techniques, and rhetorical strategies."
+    ],
+    [
+      "Fails to assess the relevance or sufficiency of the evidence presented.",
+      "Attempts to assess the evidence, but analysis is superficial and lacks specific examples.",
+      "Identifies some instances of relevant or irrelevant evidence, but analysis is incomplete.",
+      "Provides a sound assessment of the relevance and sufficiency of the evidence, citing specific examples.",
+      "Provides a comprehensive and insightful assessment of the relevance and sufficiency of the evidence, demonstrating a strong understanding of its impact on the argument.",
+      "Provides an exceptionally insightful and nuanced assessment of the relevance and sufficiency of the evidence, demonstrating a mastery of rhetorical strategies and persuasive techniques."
+    ],
+    [
+      "Does not identify any instances of irrelevant evidence.",
+      "Attempts to identify irrelevant evidence, but analysis is inaccurate or incomplete.",
+      "Identifies some instances of irrelevant evidence, but misses others.",
+      "Accurately identifies most instances of irrelevant evidence.",
+      "Accurately identifies all instances of irrelevant evidence, explaining why it is irrelevant.",
+      "Accurately and comprehensively identifies all instances of irrelevant evidence, explaining why it is irrelevant and analyzing its potential impact on the audience."
+    ]
+  ]
+}

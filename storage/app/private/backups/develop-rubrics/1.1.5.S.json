@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Risk Factors",
+    "Proposed Risk Reduction Strategies",
+    "Application of Knowledge to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any risk factors for injuries.",
+      "The student identifies one or two risk factors, but lacks detail or clarity.",
+      "The student identifies some risk factors in one setting (home, school, or community) with basic explanations.",
+      "The student identifies several risk factors across multiple settings, providing adequate explanations.",
+      "The student comprehensively identifies a wide range of risk factors across all three settings with clear and detailed explanations.",
+      "The student expertly identifies and explains an extensive range of risk factors across all settings, demonstrating a deep understanding of potential hazards."
+    ],
+    [
+      "The student does not propose any strategies for reducing injury risks.",
+      "The student proposes one or two vague or impractical strategies.",
+      "The student proposes some basic strategies for risk reduction in one setting.",
+      "The student proposes relevant and feasible strategies across multiple settings.",
+      "The student proposes well-developed and practical strategies that address multiple risks in all three settings.",
+      "The student proposes innovative, comprehensive, and highly effective strategies that demonstrate a thorough understanding of risk reduction principles in all settings."
+    ],
+    [
+      "The student fails to apply knowledge of risk reduction to real-world scenarios.",
+      "The student struggles to apply knowledge to specific scenarios; application is unclear or inaccurate.",
+      "The student applies knowledge to one or two simple scenarios with limited detail.",
+      "The student effectively applies knowledge to several realistic scenarios, showing a good understanding.",
+      "The student skillfully applies knowledge to a variety of complex, real-world scenarios with detailed explanations.",
+      "The student masterfully applies knowledge to diverse and challenging scenarios, demonstrating insightful understanding and nuanced problem-solving."
+    ]
+  ]
+}

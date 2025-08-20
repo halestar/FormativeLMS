@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Demonstrates understanding and application of online safety practices.",
+    "Identifies and avoids potential online risks and threats.",
+    "Protects personal information and privacy online.",
+    "Practices responsible and ethical online behavior."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding or application of online safety practices is demonstrated.",
+      "Minimal understanding of online safety practices is demonstrated; struggles to apply them effectively.",
+      "Basic understanding of online safety practices is demonstrated, but application is inconsistent.",
+      "Solid understanding of online safety practices is demonstrated, and they are generally applied effectively.",
+      "Strong understanding of online safety practices is demonstrated, and they are consistently applied effectively.",
+      "Exceptional understanding of online safety practices is demonstrated, and they are consistently and effectively applied, even in complex situations."
+    ],
+    [
+      "Unable to identify any potential online risks or threats.",
+      "Struggles to identify potential online risks and threats, requiring significant guidance.",
+      "Identifies some common online risks and threats with occasional guidance.",
+      "Identifies most common online risks and threats and takes appropriate precautions.",
+      "Identifies a wide range of online risks and threats and proactively takes preventative measures.",
+      "Demonstrates exceptional awareness of online risks and threats, proactively mitigating them and educating others."
+    ],
+    [
+      "Does not demonstrate any awareness of the need to protect personal information online.",
+      "Demonstrates minimal awareness of protecting personal information online; shares information inappropriately.",
+      "Understands the importance of protecting personal information but sometimes makes errors in judgment.",
+      "Consistently protects personal information online and understands privacy settings.",
+      "Proactively protects personal information online and adjusts privacy settings to maximize security.",
+      "Exemplary protection of personal information online, demonstrating a deep understanding of privacy settings and data security."
+    ],
+    [
+      "Engages in irresponsible or unethical online behavior.",
+      "Demonstrates limited understanding of responsible online behavior; may engage in inappropriate conduct.",
+      "Generally practices responsible online behavior but occasionally makes mistakes.",
+      "Consistently practices responsible and ethical online behavior, respecting others.",
+      "Models responsible and ethical online behavior, promoting a positive online environment.",
+      "Exemplifies responsible and ethical online behavior, advocating for digital citizenship and positive online interactions."
+    ]
+  ]
+}

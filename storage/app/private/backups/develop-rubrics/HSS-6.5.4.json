@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Caste System Description",
+    "Understanding of Social Hierarchy",
+    "Explanation of the Impact of the Caste System"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student's description of the caste system is completely inaccurate or missing.",
+      "The student attempts to describe the caste system, but the description contains significant inaccuracies and misunderstandings.",
+      "The student provides a basic description of the caste system, but it contains some inaccuracies or omissions.",
+      "The student accurately describes the main components of the caste system, including the main categories (Brahmins, Kshatriyas, Vaishyas, Shudras) and their general roles.",
+      "The student provides a detailed and mostly accurate description of the caste system, including the main categories, their roles, and some of the social implications.",
+      "The student provides a comprehensive and accurate description of the caste system, including the origins, the main categories with their roles, the social implications, and the concept of untouchability, demonstrating a deep understanding."
+    ],
+    [
+      "The student demonstrates no understanding of the hierarchical nature of the caste system.",
+      "The student shows limited awareness of the hierarchical structure of the caste system.",
+      "The student acknowledges the hierarchical structure but struggles to explain the relationships between the castes.",
+      "The student explains the hierarchical structure of the caste system and the general order of social status.",
+      "The student clearly explains the social hierarchy, the relationships between castes, and the implications for social mobility.",
+      "The student demonstrates a sophisticated understanding of the social hierarchy, including the complexities of social mobility, the concept of dharma, and the impact on individuals and society."
+    ],
+    [
+      "The student does not address the impact of the caste system on individuals or society.",
+      "The student vaguely mentions the impact of the caste system but provides no specific details.",
+      "The student identifies a few basic impacts of the caste system but struggles to explain them.",
+      "The student explains some of the social, economic, or political impacts of the caste system on individuals and society.",
+      "The student clearly explains several significant impacts of the caste system, providing examples and demonstrating an understanding of the consequences.",
+      "The student provides a comprehensive analysis of the far-reaching impacts of the caste system, including social, economic, political, and cultural consequences, demonstrating critical thinking and insight."
+    ]
+  ]
+}

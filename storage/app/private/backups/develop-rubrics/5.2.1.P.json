@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Connection Between Influences and Health Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No identification of internal influences on personal health practices.",
+      "Identifies one basic internal influence (e.g., emotions) with no explanation.",
+      "Identifies one internal influence with a limited explanation or lists multiple influences without detail.",
+      "Identifies a few key internal influences (e.g., emotions, thoughts, beliefs) and provides a basic explanation of their impact.",
+      "Clearly identifies and explains several internal influences, demonstrating an understanding of how they can affect health practices.",
+      "Thoroughly identifies and analyzes a wide range of internal influences, providing insightful examples of their complex effects on personal health practices."
+    ],
+    [
+      "No identification of external influences on personal health practices.",
+      "Identifies one basic external influence (e.g., family) with no explanation.",
+      "Identifies one external influence with a limited explanation or lists multiple influences without detail.",
+      "Identifies a few key external influences (e.g., family, friends, culture, media) and provides a basic explanation of their impact.",
+      "Clearly identifies and explains several external influences, demonstrating an understanding of how they can affect health practices.",
+      "Thoroughly identifies and analyzes a wide range of external influences, providing insightful examples of their complex effects on personal health practices."
+    ],
+    [
+      "No connection made between influences and health practices.",
+      "Attempts to connect an influence to a health practice, but connection is vague or inaccurate.",
+      "Identifies a link between an influence and a health practice, but explanation lacks detail.",
+      "Explains how a few identified influences can impact specific health practices with some clarity.",
+      "Clearly explains how multiple internal and external influences can impact a variety of personal health practices.",
+      "Provides a comprehensive analysis of how internal and external influences interact to shape personal health practices, with specific and insightful examples."
+    ]
+  ]
+}

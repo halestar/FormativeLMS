@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning and Organization",
+    "Revisions and Editing",
+    "Purpose and Audience",
+    "Command of Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence of planning or organization. The writing is disjointed and lacks a clear direction.",
+      "Minimal planning is evident. The organization is weak, and ideas are presented randomly.",
+      "Some planning is evident, but the organization is inconsistent. Ideas may not flow logically.",
+      "Adequate planning and organization. The writing has a discernible structure, and ideas are generally connected.",
+      "Well-planned and organized writing. The structure is clear, and ideas flow logically, enhancing the overall message.",
+      "Exceptional planning and organization. The writing exhibits a sophisticated structure that significantly enhances clarity and impact."
+    ],
+    [
+      "No revisions or editing are evident. Numerous errors distract from the message.",
+      "Minimal revisions or editing. The writing contains many errors that impede understanding.",
+      "Some revisions and editing are apparent, but errors persist. The writing is not polished.",
+      "Adequate revisions and editing. The writing is generally clear with few errors.",
+      "Thorough revisions and editing. The writing is clear, concise, and demonstrates careful attention to detail.",
+      "Exceptional revisions and editing. The writing is polished to a professional standard, demonstrating mastery of language conventions."
+    ],
+    [
+      "The writing shows no awareness of purpose or audience. It is unclear who the writing is for or why it was written.",
+      "Minimal awareness of purpose or audience. The writing may be inappropriate for the intended reader.",
+      "Some awareness of purpose and audience. The writing attempts to address the intended reader but may not be fully effective.",
+      "Adequate awareness of purpose and audience. The writing is generally appropriate for the intended reader and fulfills its purpose.",
+      "Clear awareness of purpose and audience. The writing is tailored to the intended reader and effectively achieves its purpose.",
+      "Sophisticated awareness of purpose and audience. The writing is expertly crafted to engage the intended reader and achieve a specific, impactful purpose."
+    ],
+    [
+      "Demonstrates no command of language standards 1-3.",
+      "Demonstrates very limited command of language standards 1-3.",
+      "Demonstrates limited command of language standards 1-3.",
+      "Demonstrates adequate command of language standards 1-3.",
+      "Demonstrates thorough command of language standards 1-3.",
+      "Demonstrates exceptional command of language standards 1-3."
+    ]
+  ]
+}

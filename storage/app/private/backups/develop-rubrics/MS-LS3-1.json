@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Model Development: Accuracy and Completeness",
+    "Explanation of the impact of mutations",
+    "Connection to Real-World Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No model is presented, or the model is completely irrelevant to the concept.",
+      "The model is rudimentary and lacks essential components. It shows a minimal understanding of the relationship between genes, mutations, and proteins.",
+      "The model includes some relevant components, but contains inaccuracies or omissions that significantly impact its ability to explain the effects of mutations.",
+      "The model is generally accurate but may lack detail or clarity in some areas. It adequately represents the relationship between genes, mutations, and proteins.",
+      "The model is accurate, detailed, and clearly represents the relationship between genes, mutations, and proteins. It effectively illustrates how changes to genes can affect the structure and function of organisms.",
+      "The model is exceptionally clear, accurate, and insightful. It demonstrates a deep understanding of the relationship between genes, mutations, and proteins and provides nuanced explanations of the potential effects on organisms, including harmful, beneficial, and neutral outcomes."
+    ],
+    [
+      "The explanation is missing or completely incorrect.",
+      "The explanation provides a vague or inaccurate description of how mutations may affect proteins and organismal traits.",
+      "The explanation identifies some potential effects of mutations but lacks depth or clarity.",
+      "The explanation describes how mutations may affect protein structure and function, and how this, in turn, can impact organismal traits. It includes some examples or generalizations to support the explanation.",
+      "The explanation clearly articulates how mutations can lead to changes in proteins, which can result in harmful, beneficial, or neutral effects on the structure and function of the organism.",
+      "The explanation provides a comprehensive and insightful analysis of how mutations can lead to changes in proteins and the resulting spectrum of effects (harmful, beneficial, neutral) on the organism. It demonstrates a sophisticated understanding of the underlying mechanisms and provides relevant examples."
+    ],
+    [
+      "No real-world examples are provided.",
+      "Attempt to connect concepts to a real world example is made, but it is inappropriate or does not further the explanation.",
+      "The real-world example is inappropriate or inaccurate.",
+      "Real-world examples are connected correctly, but no explanation is made to how this exemplifies mutations.",
+      "The real-world example given exemplifies mutations, but the link to the model is weak.",
+      "A concrete real-world example is given and properly connected to the model provided."
+    ]
+  ]
+}

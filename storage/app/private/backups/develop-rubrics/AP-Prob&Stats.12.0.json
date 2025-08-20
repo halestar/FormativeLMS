@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of the Line of Best Fit",
+    "Understanding of Least Squares Regression",
+    "Interpretation of Slope and Intercept"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to find the line of best fit or completely inaccurate.",
+      "Attempts to find the line of best fit, but the equation is significantly different from the correct one. Shows misunderstanding of the concept.",
+      "Finds a line of best fit, but there are noticeable errors in the slope or y-intercept calculation. The line does not closely fit the data.",
+      "Calculates the line of best fit with minor errors. The line generally fits the data but could be improved.",
+      "Determines the line of best fit accurately, with only very minor discrepancies. The line closely fits the data.",
+      "Accurately determines the line of best fit using least squares regression. The line perfectly fits the data, demonstrating a strong understanding of the concept."
+    ],
+    [
+      "No understanding of least squares regression is demonstrated.",
+      "Demonstrates a limited understanding of least squares regression, with significant misconceptions.",
+      "Shows some understanding of least squares regression, but struggles to apply the concept correctly.",
+      "Understands the basic principles of least squares regression and applies them with some success.",
+      "Demonstrates a solid understanding of least squares regression and applies it effectively to find the line of best fit.",
+      "Exhibits a comprehensive understanding of least squares regression, including the underlying principles and assumptions. Can explain the process clearly."
+    ],
+    [
+      "No attempt to interpret the slope and y-intercept or interpretation is completely incorrect.",
+      "Attempts to interpret the slope and y-intercept, but the interpretations are flawed or lack context.",
+      "Provides a basic interpretation of the slope and y-intercept but may lack depth or connection to the data.",
+      "Interprets the slope and y-intercept with reasonable accuracy, relating them to the context of the data.",
+      "Provides a clear and accurate interpretation of the slope and y-intercept, explaining their significance in the context of the data.",
+      "Offers a sophisticated interpretation of the slope and y-intercept, including potential limitations and implications within the context of the data. Provides nuanced insights."
+    ]
+  ]
+}

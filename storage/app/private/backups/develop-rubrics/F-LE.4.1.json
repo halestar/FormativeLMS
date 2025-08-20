@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Logarithmic Properties",
+    "Ability to Apply Laws of Logarithms",
+    "Proof Construction",
+    "Mathematical Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of logarithmic properties is demonstrated.",
+      "Demonstrates minimal understanding of logarithmic properties, with significant errors in application.",
+      "Demonstrates partial understanding of logarithmic properties, with some errors in application.",
+      "Demonstrates adequate understanding of logarithmic properties, with minor errors in application.",
+      "Demonstrates strong understanding of logarithmic properties, with rare errors in application.",
+      "Demonstrates comprehensive understanding of logarithmic properties, with flawless application."
+    ],
+    [
+      "Unable to apply any laws of logarithms.",
+      "Attempts to apply laws of logarithms, but with frequent and significant errors.",
+      "Applies laws of logarithms with limited success, making several errors.",
+      "Applies laws of logarithms correctly in some cases, but with occasional errors.",
+      "Applies laws of logarithms correctly in most cases, with only minor errors.",
+      "Consistently and correctly applies laws of logarithms in all cases."
+    ],
+    [
+      "No attempt to construct a logical proof.",
+      "Attempts to construct a proof, but lacks logical structure and contains major flaws.",
+      "Constructs a partially logical proof, but with significant gaps or incorrect steps.",
+      "Constructs a mostly logical proof, with some minor gaps or unclear steps.",
+      "Constructs a clear and logical proof, with only minor omissions or simplifications.",
+      "Constructs a rigorous, clear, and concise proof with complete justification of each step."
+    ],
+    [
+      "Mathematical notation and terminology are used incorrectly or are absent.",
+      "Uses some mathematical notation and terminology, but with frequent errors and lack of clarity.",
+      "Uses mathematical notation and terminology with some accuracy, but clarity is lacking.",
+      "Uses mathematical notation and terminology appropriately, with generally clear communication.",
+      "Uses mathematical notation and terminology effectively and clearly, with only minor lapses.",
+      "Uses mathematical notation and terminology precisely and effectively, resulting in exceptionally clear and rigorous communication."
+    ]
+  ]
+}

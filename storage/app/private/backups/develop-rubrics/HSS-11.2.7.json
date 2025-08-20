@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Social Darwinism",
+    "Understanding of Social Gospel",
+    "Comparison of Social Darwinism and Social Gospel",
+    "Use of Biographical Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of Social Darwinism.",
+      "Student demonstrates a minimal understanding of Social Darwinism, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of Social Darwinism, but lacks depth and detail.",
+      "Student demonstrates a satisfactory understanding of Social Darwinism, including key concepts.",
+      "Student demonstrates a strong understanding of Social Darwinism, including nuances and complexities.",
+      "Student demonstrates a comprehensive and insightful understanding of Social Darwinism, including its historical context and impact."
+    ],
+    [
+      "Student demonstrates no understanding of Social Gospel.",
+      "Student demonstrates a minimal understanding of Social Gospel, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of Social Gospel, but lacks depth and detail.",
+      "Student demonstrates a satisfactory understanding of Social Gospel, including key concepts.",
+      "Student demonstrates a strong understanding of Social Gospel, including nuances and complexities.",
+      "Student demonstrates a comprehensive and insightful understanding of Social Gospel, including its historical context and impact."
+    ],
+    [
+      "Student makes no attempt to compare Social Darwinism and Social Gospel.",
+      "Student attempts to compare the ideologies but provides inaccurate or irrelevant information.",
+      "Student identifies a few similarities or differences, but lacks clear explanations.",
+      "Student identifies several similarities and differences between the ideologies with reasonable explanations.",
+      "Student provides a thorough comparison of the ideologies, including insightful analysis of their core tenets.",
+      "Student offers a nuanced and sophisticated comparison, demonstrating a deep understanding of the ideologies and their implications, including specific examples."
+    ],
+    [
+      "Student does not use any biographical examples.",
+      "Student mentions biographical examples but does not explain their relevance.",
+      "Student briefly discusses biographical examples, but lacks clear connections to the ideologies.",
+      "Student effectively uses biographical examples to illustrate aspects of Social Darwinism or Social Gospel.",
+      "Student thoughtfully analyzes biographical examples to support a deeper understanding of both ideologies.",
+      "Student skillfully integrates biographical examples into a comprehensive analysis, demonstrating a sophisticated understanding of the relationship between individuals and ideologies."
+    ]
+  ]
+}

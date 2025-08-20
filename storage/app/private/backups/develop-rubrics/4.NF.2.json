@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Fraction Equivalence",
+    "Comparing Fractions with Different Numerators and Denominators",
+    "Justification and Reasoning",
+    "Use of Symbols"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of fraction equivalence is demonstrated.",
+      "Demonstrates minimal understanding of fraction equivalence; struggles to identify equivalent fractions.",
+      "Demonstrates partial understanding of fraction equivalence; can identify some equivalent fractions with guidance.",
+      "Demonstrates satisfactory understanding of fraction equivalence; can identify equivalent fractions and explain the concept.",
+      "Demonstrates strong understanding of fraction equivalence; can fluently identify equivalent fractions and explain the concept clearly.",
+      "Demonstrates excellent understanding of fraction equivalence; can apply the concept to solve complex problems and explain it with precision."
+    ],
+    [
+      "Unable to compare fractions with different numerators and denominators.",
+      "Struggles to compare fractions with different numerators and denominators even with significant guidance.",
+      "Can compare fractions with different numerators and denominators with some guidance, but makes frequent errors.",
+      "Can compare fractions with different numerators and denominators using methods such as common denominators or benchmark fractions.",
+      "Can accurately compare fractions with different numerators and denominators and justify the comparison.",
+      "Can efficiently compare fractions with different numerators and denominators, justify the comparison, and apply this skill to solve related problems."
+    ],
+    [
+      "No justification is provided for fraction comparisons.",
+      "Provides inadequate justification for fraction comparisons.",
+      "Attempts to justify fraction comparisons, but the reasoning is unclear or flawed.",
+      "Provides satisfactory justification for fraction comparisons using appropriate methods.",
+      "Provides clear and logical justification for fraction comparisons, using visual models or other representations effectively.",
+      "Provides insightful and sophisticated justification for fraction comparisons, demonstrating a deep understanding of the underlying concepts."
+    ],
+    [
+      "Incorrectly uses or omits comparison symbols.",
+      "Struggles to use comparison symbols (>, =, <) correctly.",
+      "Uses comparison symbols with some errors or inconsistencies.",
+      "Uses comparison symbols correctly to record the results of fraction comparisons.",
+      "Uses comparison symbols accurately and consistently to record the results of fraction comparisons.",
+      "Uses comparison symbols effectively to represent and communicate the results of complex fraction comparisons."
+    ]
+  ]
+}

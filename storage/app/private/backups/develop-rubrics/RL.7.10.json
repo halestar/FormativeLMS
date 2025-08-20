@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Comprehension of Literary Texts",
+    "Analysis of Literary Devices",
+    "Textual Evidence and Support",
+    "Clarity and Coherence of Response"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the text; unable to identify basic elements or themes.",
+      "Shows minimal understanding; struggles to identify key elements and themes.  Interpretation is largely inaccurate.",
+      "Demonstrates partial understanding; can identify some elements and themes but struggles with more complex aspects. Interpretation is sometimes inaccurate.",
+      "Demonstrates adequate understanding; identifies most key elements and themes with reasonable accuracy. Interpretation shows some insight.",
+      "Demonstrates strong understanding; identifies key elements and themes accurately and provides insightful interpretation.",
+      "Demonstrates exceptional understanding; provides a nuanced and insightful interpretation of complex elements and themes, demonstrating a comprehensive grasp of the text."
+    ],
+    [
+      "Unable to identify or explain any literary devices used in the text.",
+      "Identifies few literary devices but cannot explain their purpose or effect.",
+      "Identifies some literary devices and attempts to explain their purpose, but explanations are superficial or inaccurate.",
+      "Identifies several literary devices and explains their purpose and effect with reasonable accuracy.",
+      "Identifies literary devices and explains their purpose and effect in a clear and insightful manner.",
+      "Identifies and analyzes literary devices with sophistication, demonstrating a deep understanding of their impact on the text's meaning and effect."
+    ],
+    [
+      "Provides no textual evidence to support claims or interpretations.",
+      "Provides minimal or irrelevant textual evidence.",
+      "Provides some textual evidence, but it is weak or not clearly connected to the claims.",
+      "Provides adequate textual evidence to support most claims and interpretations.",
+      "Provides strong and relevant textual evidence to support all claims and interpretations.",
+      "Uses textual evidence skillfully and effectively to support a nuanced and compelling interpretation of the text."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat unclear and disorganized, with significant gaps in reasoning.",
+      "Response is generally understandable but lacks clarity and coherence in places.",
+      "Response is clear and organized, with logical reasoning and transitions.",
+      "Response is very clear, well-organized, and logically compelling.",
+      "Response is exceptionally clear, coherent, and persuasive, demonstrating sophisticated reasoning and expression."
+    ]
+  ]
+}

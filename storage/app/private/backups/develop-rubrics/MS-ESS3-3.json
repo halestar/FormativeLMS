@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Human Impact on Earth Systems",
+    "Application of Scientific Principles in Design",
+    "Design of a Method for Monitoring and Minimizing Impact",
+    "Consideration of Cause and Effect Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how human activities impact Earth's systems is demonstrated.",
+      "Demonstrates a minimal understanding of human activities impacting Earth's systems. Mentions one impact without detail.",
+      "Demonstrates a basic understanding of human activities and their impacts on Earth's systems. Provides a brief explanation of one or two impacts.",
+      "Demonstrates a satisfactory understanding of human activities and their impacts on Earth's systems. Explains several impacts with some detail.",
+      "Demonstrates a strong understanding of human activities and their impacts on Earth's systems. Provides detailed explanations of multiple impacts, including both negative and positive effects.",
+      "Demonstrates a comprehensive understanding of human activities and their impacts on Earth's systems. Provides insightful and nuanced explanations of various impacts, including the interconnectedness of different systems."
+    ],
+    [
+      "No application of scientific principles is evident in the design.",
+      "Attempts to apply scientific principles but lacks clarity or accuracy.",
+      "Applies basic scientific principles to the design with some accuracy.",
+      "Applies relevant scientific principles effectively to the design, demonstrating a clear connection between principles and design choices.",
+      "Applies scientific principles thoughtfully and effectively to the design, justifying choices with sound reasoning and evidence.",
+      "Applies scientific principles in an innovative and insightful manner to the design, demonstrating a deep understanding of the underlying science and its implications."
+    ],
+    [
+      "No method for monitoring and minimizing human impact is proposed.",
+      "Proposes a method that is vague, unrealistic, or not clearly linked to the identified impact.",
+      "Proposes a basic method for monitoring and minimizing human impact with some connection to the identified impact.",
+      "Proposes a method for monitoring and minimizing human impact that is feasible and reasonably effective.",
+      "Proposes a well-designed method for monitoring and minimizing human impact, including specific steps and considerations for implementation.",
+      "Proposes an innovative and highly effective method for monitoring and minimizing human impact, demonstrating a deep understanding of the challenges and potential solutions."
+    ],
+    [
+      "No consideration of cause-and-effect relationships is evident.",
+      "Identifies a cause-and-effect relationship but lacks detail or accuracy.",
+      "Identifies and explains a basic cause-and-effect relationship related to the human impact.",
+      "Analyzes cause-and-effect relationships effectively, demonstrating an understanding of the connections between human activities and environmental impacts.",
+      "Analyzes complex cause-and-effect relationships, considering multiple factors and potential unintended consequences.",
+      "Demonstrates a deep and nuanced understanding of cause-and-effect relationships, considering long-term and systemic impacts."
+    ]
+  ]
+}

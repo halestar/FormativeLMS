@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model: How accurately does the model represent Earth's internal and surface processes?",
+    "Representation of Spatial and Temporal Scales: How well does the model illustrate the different spatial and temporal scales at which Earth's processes operate?",
+    "Explanation of Constructive and Destructive Forces: How well does the model explain the role of constructive (e.g., volcanism, tectonic uplift) and destructive (e.g., weathering, erosion) forces?",
+    "Connections to Earth Systems and Feedback Effects: How well does the model illustrate the interactions between Earth's systems and the concept of feedback effects?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of Earth's processes.",
+      "The model has significant inaccuracies and\/or omissions, demonstrating a limited understanding of Earth's processes.",
+      "The model has some inaccuracies or omissions, but generally represents Earth's processes with a basic level of understanding.",
+      "The model is mostly accurate with minor inaccuracies or omissions. Demonstrates a solid understanding of Earth's processes.",
+      "The model is accurate and complete, demonstrating a strong understanding of Earth's processes and their interactions.",
+      "The model is highly accurate, complete, and insightful, demonstrating a comprehensive understanding of Earth's processes and their complex interactions."
+    ],
+    [
+      "The model does not address spatial or temporal scales.",
+      "The model makes a limited attempt to represent spatial or temporal scales, but with significant inaccuracies or omissions.",
+      "The model includes some representation of spatial and temporal scales, but it is not clear or fully accurate.",
+      "The model adequately represents spatial and temporal scales, showing an understanding of their importance in Earth's processes.",
+      "The model clearly and accurately illustrates the different spatial and temporal scales at which Earth's processes operate.",
+      "The model expertly illustrates the different spatial and temporal scales, providing insightful connections between scales and Earth's processes."
+    ],
+    [
+      "The model fails to identify or explain constructive and destructive forces.",
+      "The model identifies constructive and destructive forces but provides little or no explanation of their roles.",
+      "The model provides a basic explanation of constructive and destructive forces, but with limited detail or accuracy.",
+      "The model adequately explains the roles of constructive and destructive forces in shaping Earth's features.",
+      "The model clearly and accurately explains the roles of both constructive and destructive forces, providing relevant examples.",
+      "The model provides a sophisticated and insightful explanation of constructive and destructive forces, demonstrating a deep understanding of their interactions and impacts."
+    ],
+    [
+      "The model does not address Earth systems or feedback effects.",
+      "The model makes a limited attempt to connect to Earth systems or feedback effects, but with significant inaccuracies or omissions.",
+      "The model includes some representation of Earth systems and feedback effects, but the connections are not clear or fully accurate.",
+      "The model adequately represents interactions between Earth's systems and the concept of feedback effects.",
+      "The model clearly and accurately illustrates the interactions between Earth's systems and feedback effects.",
+      "The model expertly illustrates the interactions between Earth's systems and feedback effects, providing insightful analysis of their complex relationships."
+    ]
+  ]
+}

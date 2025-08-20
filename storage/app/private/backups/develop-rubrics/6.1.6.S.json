@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of safety procedures related to public transportation (e.g., buses, trains, subways).",
+    "Knowledge of safety precautions for traveling in vehicles (e.g., cars, trucks).",
+    "Ability to analyze potential risks and hazards associated with public transportation and vehicle travel.",
+    "Awareness of emergency procedures and resources available during travel."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of safety procedures for public transportation.",
+      "Shows minimal awareness of basic safety procedures, with significant misunderstandings.",
+      "Identifies a few safety procedures but struggles to explain their importance or application.",
+      "Describes several safety procedures for public transportation but may omit some important details.",
+      "Explains most important safety procedures for various forms of public transportation, demonstrating good understanding.",
+      "Comprehensively explains and applies safety procedures for diverse public transportation scenarios, demonstrating excellent understanding and critical thinking."
+    ],
+    [
+      "Demonstrates no understanding of safety precautions when traveling in vehicles.",
+      "Shows minimal awareness of vehicle safety precautions, with significant misunderstandings.",
+      "Identifies a few vehicle safety precautions but struggles to explain their importance or application.",
+      "Describes several safety precautions for traveling in vehicles but may omit some important details.",
+      "Explains most important safety precautions, demonstrating good understanding. Includes seatbelt use, safe driving practices, and awareness of distractions.",
+      "Comprehensively explains and applies safety precautions for various vehicle travel scenarios, demonstrating excellent understanding and critical thinking. Includes defensive driving and awareness of road conditions."
+    ],
+    [
+      "Unable to identify any risks or hazards associated with public transportation or vehicle travel.",
+      "Identifies very few risks and hazards, with limited understanding of their potential impact.",
+      "Recognizes some common risks and hazards but struggles to analyze their causes or consequences.",
+      "Analyzes several risks and hazards associated with public transportation and vehicle travel, providing some relevant details.",
+      "Thoroughly analyzes most significant risks and hazards, demonstrating a strong understanding of their causes and consequences.",
+      "Critically analyzes a wide range of risks and hazards, offering insightful perspectives and potential solutions for mitigating them."
+    ],
+    [
+      "Demonstrates no awareness of emergency procedures or resources available during travel.",
+      "Shows minimal awareness of basic emergency procedures, with significant misunderstandings.",
+      "Identifies a few emergency procedures or resources but struggles to explain their application.",
+      "Describes several emergency procedures and resources available during travel but may omit some important details.",
+      "Explains most important emergency procedures and resources, demonstrating good understanding. Includes knowing how to contact emergency services and basic first aid.",
+      "Comprehensively explains and applies emergency procedures and knowledge of resources for diverse travel scenarios, demonstrating excellent understanding and critical thinking."
+    ]
+  ]
+}

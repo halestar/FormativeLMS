@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Potential Risks",
+    "Strategies for Risk Mitigation",
+    "Personalization and Feasibility",
+    "Plan Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The plan does not identify any potential risks to personal safety and injury.",
+      "The plan identifies very few potential risks to personal safety and injury.",
+      "The plan identifies some potential risks to personal safety and injury, but misses important ones.",
+      "The plan identifies most potential risks to personal safety and injury.",
+      "The plan identifies almost all potential risks to personal safety and injury, with only minor omissions.",
+      "The plan comprehensively identifies all relevant potential risks to personal safety and injury."
+    ],
+    [
+      "The plan does not include any strategies for mitigating identified risks.",
+      "The plan includes very few strategies for mitigating identified risks, and they are not well-developed.",
+      "The plan includes some strategies for mitigating identified risks, but they are not comprehensive or effective.",
+      "The plan includes generally effective strategies for mitigating most identified risks.",
+      "The plan includes well-developed and effective strategies for mitigating almost all identified risks.",
+      "The plan includes comprehensive, well-developed, and highly effective strategies for mitigating all identified risks."
+    ],
+    [
+      "The plan is generic and does not appear to be tailored to the student's personal circumstances or feasible to implement.",
+      "The plan shows limited personalization to the student's personal circumstances and may not be entirely feasible.",
+      "The plan shows some personalization to the student's personal circumstances and is generally feasible.",
+      "The plan is well-tailored to the student's personal circumstances and is mostly feasible to implement.",
+      "The plan is highly personalized to the student's circumstances and is very feasible to implement with minor adjustments.",
+      "The plan is perfectly tailored to the student's personal circumstances and is entirely feasible to implement as described."
+    ],
+    [
+      "The plan is unclear, poorly organized, and difficult to understand.",
+      "The plan lacks clarity, has minimal organization, and has several areas that are difficult to understand.",
+      "The plan is somewhat clear and organized, but could benefit from improvements in both areas.",
+      "The plan is generally clear, well-organized, and easy to understand.",
+      "The plan is very clear, well-organized, and easy to follow.",
+      "The plan is exceptionally clear, logically organized, and presents information in a highly accessible manner."
+    ]
+  ]
+}

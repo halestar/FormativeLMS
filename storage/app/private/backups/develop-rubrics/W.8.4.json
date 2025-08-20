@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Focus",
+    "Development and Support",
+    "Organization and Structure",
+    "Style and Tone"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Writing lacks a clear purpose or central idea. The main point is difficult to identify.",
+      "Writing attempts to establish a purpose but is vague or unclear. The central idea is present but underdeveloped.",
+      "Writing presents a discernible purpose and central idea. Focus may drift occasionally, but the main point is generally maintained.",
+      "Writing demonstrates a clear purpose and central idea that are consistently maintained throughout the piece. There is a good sense of focus.",
+      "Writing exhibits a sharp, well-defined purpose and central idea that are sustained with precision and clarity. Focus is strong and deliberate.",
+      "Writing showcases an exceptionally clear, insightful, and compelling purpose and central idea that captivates the reader. The focus is unwavering and enhances the overall impact."
+    ],
+    [
+      "Ideas are presented without any supporting details or evidence. The writing is superficial and lacks depth.",
+      "Ideas are supported with minimal details that are often irrelevant or weak. Development is lacking, and the writing feels incomplete.",
+      "Ideas are supported with some relevant details, but further development is needed. The writing shows potential but lacks depth in certain areas.",
+      "Ideas are adequately developed and supported with relevant details and evidence. The writing demonstrates a sufficient level of depth and understanding.",
+      "Ideas are thoroughly developed and supported with strong evidence and insightful details. The writing demonstrates a comprehensive understanding of the topic.",
+      "Ideas are masterfully developed and supported with compelling evidence and original insights. The writing demonstrates an exceptional depth of understanding and critical thinking."
+    ],
+    [
+      "Writing lacks a logical organization or structure. Ideas are disjointed and difficult to follow.",
+      "Writing attempts to organize ideas, but the structure is weak or inconsistent. Transitions are lacking, and the flow is disrupted.",
+      "Writing demonstrates a basic organizational structure with a clear beginning, middle, and end. Transitions are present but may be awkward or ineffective.",
+      "Writing exhibits a logical and coherent organization with well-defined paragraphs and effective transitions. The structure enhances the clarity of the writing.",
+      "Writing showcases a sophisticated and purposeful organization that enhances the overall impact of the piece. Transitions are seamless and contribute to a smooth flow of ideas.",
+      "Writing demonstrates a masterful command of organization and structure, creating a seamless and engaging reading experience. The arrangement of ideas is strategic and enhances the overall effectiveness of the piece."
+    ],
+    [
+      "Writing lacks a distinct style or tone. The language is bland or inappropriate for the task, purpose, and audience.",
+      "Writing attempts to establish a style and tone, but it is inconsistent or ineffective. The language may be too informal or too formal for the intended audience.",
+      "Writing demonstrates an awareness of style and tone, but it may not be fully developed or consistently maintained. The language is generally appropriate for the task, purpose, and audience.",
+      "Writing exhibits a clear and appropriate style and tone that enhances the overall effectiveness of the piece. The language is precise and engaging, and it suits the intended audience.",
+      "Writing showcases a sophisticated and engaging style and tone that captivates the reader. The language is precise, vivid, and memorable, and it effectively communicates the writer's message.",
+      "Writing demonstrates a masterful command of style and tone, creating a unique and compelling voice that resonates with the reader. The language is artful, evocative, and perfectly tailored to the task, purpose, and audience."
+    ]
+  ]
+}

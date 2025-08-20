@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Ear Examination Symptoms",
+    "Identification of Eye Examination Symptoms",
+    "Identification of Dental Examination Symptoms"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any symptoms requiring an ear examination.",
+      "The student identifies only one symptom inaccurately or vaguely related to ear issues.",
+      "The student identifies 1-2 common symptoms that may indicate the need for an ear examination with limited accuracy.",
+      "The student identifies 2-3 relevant symptoms indicating a potential ear problem, such as ear pain or hearing loss, with reasonable accuracy.",
+      "The student accurately identifies at least 3 key symptoms that necessitate an ear examination and understands their implications.",
+      "The student comprehensively identifies multiple symptoms requiring an ear examination, explains why these symptoms are concerning, and suggests appropriate next steps."
+    ],
+    [
+      "The student does not identify any symptoms requiring an eye examination.",
+      "The student identifies only one symptom inaccurately or vaguely related to eye issues.",
+      "The student identifies 1-2 common symptoms that may indicate the need for an eye examination with limited accuracy.",
+      "The student identifies 2-3 relevant symptoms indicating a potential eye problem, such as blurred vision or eye pain, with reasonable accuracy.",
+      "The student accurately identifies at least 3 key symptoms that necessitate an eye examination and understands their implications.",
+      "The student comprehensively identifies multiple symptoms requiring an eye examination, explains why these symptoms are concerning, and suggests appropriate next steps."
+    ],
+    [
+      "The student does not identify any symptoms requiring a dental examination.",
+      "The student identifies only one symptom inaccurately or vaguely related to dental issues.",
+      "The student identifies 1-2 common symptoms that may indicate the need for a dental examination with limited accuracy.",
+      "The student identifies 2-3 relevant symptoms indicating a potential dental problem, such as tooth pain or bleeding gums, with reasonable accuracy.",
+      "The student accurately identifies at least 3 key symptoms that necessitate a dental examination and understands their implications.",
+      "The student comprehensively identifies multiple symptoms requiring a dental examination, explains why these symptoms are concerning, and suggests appropriate next steps."
+    ]
+  ]
+}

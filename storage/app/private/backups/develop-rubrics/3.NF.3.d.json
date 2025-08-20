@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Fraction Equivalence",
+    "Comparing Fractions with Same Numerator or Denominator",
+    "Using Visual Fraction Models",
+    "Recording Comparisons with Symbols"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of fraction equivalence.",
+      "Student shows minimal understanding of fraction equivalence, with significant errors and misconceptions.",
+      "Student demonstrates a basic understanding of fraction equivalence but struggles to explain it clearly or apply it consistently.",
+      "Student can explain fraction equivalence in some cases but may struggle with more complex examples or justifications.",
+      "Student consistently and accurately explains fraction equivalence using various methods (e.g., visual models, common denominators).",
+      "Student demonstrates a deep and nuanced understanding of fraction equivalence, explaining it clearly and accurately in all contexts and providing insightful justifications."
+    ],
+    [
+      "Student cannot compare fractions with the same numerator or denominator.",
+      "Student attempts to compare fractions but makes frequent errors and does not understand the relationship between numerator\/denominator and size.",
+      "Student can compare simple fractions with the same numerator or denominator but struggles with more complex comparisons.",
+      "Student accurately compares fractions with the same numerator or denominator but may not fully justify their reasoning.",
+      "Student accurately compares fractions and provides clear and logical reasoning based on the numerator and denominator.",
+      "Student demonstrates a sophisticated understanding of fraction comparison, providing insightful justifications and applying their knowledge to complex problems."
+    ],
+    [
+      "Student does not use or understand visual fraction models.",
+      "Student attempts to use visual fraction models but does so incorrectly or ineffectively.",
+      "Student uses visual fraction models with limited accuracy and understanding.",
+      "Student uses visual fraction models effectively to compare fractions in simple cases.",
+      "Student consistently and accurately uses visual fraction models to compare and justify fraction sizes.",
+      "Student expertly uses visual fraction models to demonstrate a deep understanding of fraction comparison, providing clear and insightful explanations."
+    ],
+    [
+      "Student does not use or understand the symbols >, =, or <.",
+      "Student attempts to use comparison symbols but does so incorrectly and inconsistently.",
+      "Student uses comparison symbols with limited accuracy and understanding.",
+      "Student accurately records comparisons using the symbols >, =, and < in most cases.",
+      "Student consistently and accurately records comparisons using the correct symbols and provides appropriate justifications.",
+      "Student demonstrates a thorough understanding of comparison symbols, using them accurately and providing insightful justifications for their choices in all contexts."
+    ]
+  ]
+}

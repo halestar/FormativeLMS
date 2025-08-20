@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Textual Evidence",
+    "Relevance and Sufficiency of Evidence",
+    "Analysis and Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited, or the evidence provided is completely irrelevant to the analysis.",
+      "The textual evidence cited is inaccurate or does not support the analysis; understanding of the text is lacking.",
+      "Some textual evidence is cited, but it is partially accurate and\/or weakly connected to the analysis.",
+      "Textual evidence is generally accurate and supports the analysis, but connections could be stronger or more explicit.",
+      "Textual evidence is accurate and clearly supports the analysis; inferences are logical and well-reasoned.",
+      "Textual evidence is precise, insightful, and strongly supports a sophisticated analysis; inferences demonstrate a deep understanding of the text."
+    ],
+    [
+      "No evidence presented.",
+      "One or no pieces of textual evidence is cited, and it is insufficient to support the analysis or inferences drawn.",
+      "Few pieces of textual evidence are cited; may be insufficient to fully support the analysis or inferences drawn.",
+      "Several pieces of textual evidence are cited, providing adequate support for the analysis and inferences.",
+      "Multiple pieces of textual evidence are effectively used to comprehensively support the analysis and inferences.",
+      "A wide range of relevant textual evidence is expertly integrated to provide compelling support for a nuanced and insightful analysis."
+    ],
+    [
+      "No analysis or interpretation is provided; understanding of the text is not demonstrated.",
+      "Analysis is superficial or relies heavily on summarizing; interpretations are literal and lack depth.",
+      "Analysis is present but somewhat simplistic; interpretations are basic and may overlook nuances in the text.",
+      "Analysis demonstrates a good understanding of the text; interpretations are reasonable and supported by evidence.",
+      "Analysis is thoughtful and insightful, demonstrating a strong understanding of the text; interpretations are well-supported and consider multiple perspectives.",
+      "Analysis is sophisticated and original, revealing a deep understanding of complex themes and nuances in the text; interpretations are insightful, nuanced, and persuasively argued."
+    ]
+  ]
+}

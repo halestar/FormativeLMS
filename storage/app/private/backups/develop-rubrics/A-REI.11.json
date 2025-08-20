@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Relationship Between Intersections and Solutions",
+    "Finding Solutions Graphically Using Technology",
+    "Finding Solutions Using Tables of Values"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of how the intersection points of two graphs relate to the solutions of an equation.",
+      "Student shows limited understanding, struggling to connect intersection points to solutions or explain the underlying principle.",
+      "Student can identify intersection points on a graph but has difficulty explaining their significance as solutions to the equation f(x) = g(x).",
+      "Student understands that intersection points represent solutions but may struggle to articulate the reasoning clearly or apply it to different types of functions.",
+      "Student clearly explains that the x-coordinates of intersection points are the solutions to f(x) = g(x) and demonstrates this understanding with linear and polynomial functions.",
+      "Student provides a thorough explanation of why intersection points yield solutions, applying this knowledge effectively to linear, polynomial, rational, absolute value, exponential, and logarithmic functions."
+    ],
+    [
+      "Student is unable to use technology to graph functions or find intersection points.",
+      "Student attempts to use technology but struggles to graph the functions correctly or identify intersection points.",
+      "Student can graph functions using technology but has difficulty accurately determining the coordinates of intersection points.",
+      "Student can use technology to find intersection points but requires guidance to interpret these points as solutions.",
+      "Student independently uses technology to graph functions and accurately identify intersection points, relating them to the solutions of the equation.",
+      "Student expertly uses technology to graph complex functions, accurately finds intersection points, interprets them as solutions, and explains the process clearly and efficiently."
+    ],
+    [
+      "Student does not attempt to use tables of values to approximate solutions or cannot create appropriate tables.",
+      "Student creates tables of values but struggles to identify approximate solutions from the data.",
+      "Student can identify approximate solutions from tables of values but has difficulty explaining the level of accuracy.",
+      "Student uses tables of values to find approximate solutions, demonstrating understanding of the method, but may have some inaccuracies.",
+      "Student accurately uses tables of values to approximate solutions and explains the limitations of this method in terms of precision.",
+      "Student skillfully uses tables of values to find successive approximations, demonstrating a deep understanding of the method's strengths and limitations, and communicates the results effectively."
+    ]
+  ]
+}

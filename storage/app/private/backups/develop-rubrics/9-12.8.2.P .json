@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Societal and Environmental Influences",
+    "Advocacy and Action",
+    "Critical Thinking and Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how societal and environmental conditions impact health.",
+      "Shows a limited understanding of the connection between societal\/environmental factors and health.",
+      "Identifies some societal and environmental factors that influence health, but lacks depth.",
+      "Explains how several societal and environmental conditions affect health with reasonable depth.",
+      "Analyzes the complex interplay between societal\/environmental conditions and health outcomes, providing specific examples.",
+      "Critically evaluates and synthesizes information about the impact of societal and environmental conditions on health, proposing innovative solutions for improvement."
+    ],
+    [
+      "No evidence of advocating for or taking action to improve societal or environmental conditions for health.",
+      "Expresses an intention to advocate for healthier conditions, but takes no concrete steps.",
+      "Participates in a minimal way to support healthier societal or environmental conditions.",
+      "Actively participates in efforts to improve societal or environmental conditions related to health.",
+      "Leads or initiates efforts to promote healthier societal and environmental conditions, demonstrating a clear impact.",
+      "Champions significant changes in societal or environmental conditions that benefit health, serving as a role model for others."
+    ],
+    [
+      "Unable to identify problems related to societal and environmental health conditions.",
+      "Identifies some problems, but struggles to propose solutions.",
+      "Proposes simple solutions to address societal and environmental health issues.",
+      "Analyzes problems critically and develops feasible solutions with some consideration of potential consequences.",
+      "Develops comprehensive and well-reasoned solutions, considering potential challenges and unintended consequences.",
+      "Creates and implements innovative and effective strategies for addressing complex societal and environmental health problems, demonstrating a deep understanding of systems thinking."
+    ]
+  ]
+}

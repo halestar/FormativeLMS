@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of General Meaning",
+    "Recognition of Memorized Words and Phrases",
+    "Comprehension of Basic Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of the general meaning of familiar topics.",
+      "Struggles to grasp the general meaning, with minimal comprehension.",
+      "Demonstrates partial understanding of the general meaning in very familiar topics.",
+      "Understands the general meaning of familiar common daily topics with some clarity.",
+      "Clearly understands the general meaning of most familiar common daily topics.",
+      "Demonstrates thorough and nuanced understanding of the general meaning across a wide range of familiar common daily topics."
+    ],
+    [
+      "Unable to recognize any memorized words or phrases.",
+      "Recognizes very few memorized words or phrases.",
+      "Recognizes some memorized words and phrases with difficulty.",
+      "Recognizes memorized words, phrases, and simple sentences in structured contexts.",
+      "Recognizes most memorized words, phrases, and simple sentences in authentic texts.",
+      "Quickly and accurately recognizes a wide range of memorized words, phrases, and simple sentences even in complex authentic texts."
+    ],
+    [
+      "Does not comprehend any basic information on familiar topics.",
+      "Struggles to comprehend basic information, demonstrating very limited understanding.",
+      "Comprehends a minimal amount of basic information with significant effort.",
+      "Demonstrates comprehension of some basic information on very familiar common daily topics.",
+      "Demonstrates good comprehension of basic information on familiar common daily topics.",
+      "Demonstrates excellent comprehension of basic information, including subtle details, across a variety of familiar common daily topics."
+    ]
+  ]
+}

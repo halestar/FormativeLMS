@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Calculations",
+    "Application of Properties of Operations",
+    "Understanding of Rational Number Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of multiplying or dividing rational numbers; calculations are incorrect and show no logical process.",
+      "Demonstrates very limited understanding; calculations are often incorrect with minimal logical process.",
+      "Demonstrates some understanding; calculations have errors, but shows some logical process.",
+      "Demonstrates reasonable understanding; most calculations are correct, and the logical process is evident.",
+      "Demonstrates strong understanding; calculations are mostly correct with a clear and logical process.",
+      "Demonstrates complete understanding; calculations are entirely correct with a clear, efficient, and logical process."
+    ],
+    [
+      "Unable to apply properties of operations (e.g., commutative, associative, distributive) when multiplying or dividing rational numbers.",
+      "Rarely applies properties of operations and shows little understanding of their purpose.",
+      "Applies properties of operations inconsistently, with some errors in application.",
+      "Generally applies properties of operations correctly, but may miss opportunities for efficient problem-solving.",
+      "Consistently and correctly applies properties of operations to simplify and solve problems.",
+      "Skillfully and strategically applies properties of operations to solve problems efficiently and demonstrates a deep understanding of their effects."
+    ],
+    [
+      "Shows no understanding of rational numbers; unable to identify or differentiate between different types of rational numbers.",
+      "Demonstrates very limited understanding of rational numbers; struggles to identify or compare rational numbers.",
+      "Demonstrates a basic understanding of rational numbers but has difficulty applying this knowledge in calculations.",
+      "Demonstrates a solid understanding of rational numbers and can generally apply this knowledge in calculations.",
+      "Demonstrates a strong understanding of rational numbers and applies this knowledge effectively in calculations.",
+      "Demonstrates a comprehensive understanding of rational numbers, including their properties and relationships, and applies this knowledge seamlessly in complex calculations."
+    ]
+  ]
+}

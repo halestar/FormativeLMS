@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding of Place Value Relationships",
+    "Application of Place Value Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of place value relationships.",
+      "Student struggles to explain the relationship between adjacent place values.",
+      "Student partially understands the relationship between adjacent place values, with some inaccuracies.",
+      "Student accurately explains that a digit in one place represents 10 times as much as it represents in the place to its right or 1\/10 of what it represents in the place to its left, but struggles to provide clear examples.",
+      "Student clearly explains that a digit in one place represents 10 times as much as it represents in the place to its right and 1\/10 of what it represents in the place to its left, and provides accurate examples.",
+      "Student demonstrates a comprehensive understanding of place value relationships, clearly explaining and illustrating with multiple examples how digits in different places relate to each other, including non-adjacent places."
+    ],
+    [
+      "Student cannot apply place value understanding to solve problems.",
+      "Student attempts to apply place value understanding but makes significant errors.",
+      "Student can apply place value understanding to solve simple problems, but struggles with more complex scenarios.",
+      "Student consistently applies place value understanding to accurately solve most problems.",
+      "Student effectively applies place value understanding to accurately solve complex problems and explain their reasoning.",
+      "Student expertly applies place value understanding to solve complex problems, explains their reasoning clearly, and can generalize the concept to novel situations."
+    ]
+  ]
+}

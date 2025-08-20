@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Appropriateness of Request",
+    "Justification and Explanation",
+    "Consideration of Family Dynamics"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to formulate a request or the request is completely unclear or inappropriate.",
+      "The student attempts a request, but it lacks clarity and is not entirely appropriate for family communication.",
+      "The student formulates a request, but it could be clearer or more appropriate for family dynamics.",
+      "The student presents a reasonably clear and appropriate request for healthy food options.",
+      "The student presents a clear and appropriate request, tailored to their family's communication style, and includes a simple explanation for the request.",
+      "The student presents a very clear, appropriate, and persuasive request, tailored to their family's communication style, with a well-articulated explanation of benefits and consideration for family preferences."
+    ],
+    [
+      "No attempt to justify or explain the need for healthier options.",
+      "Provides a minimal or vague justification for healthier options.",
+      "Offers a basic explanation for wanting healthier options, but lacks detail.",
+      "Explains the reasons for requesting healthier options with some supporting details.",
+      "Provides a comprehensive explanation for requesting healthier options, including nutritional benefits or personal health goals.",
+      "Offers a compelling and insightful justification for healthier options, demonstrating a deep understanding of health benefits and potential positive impacts on the family."
+    ],
+    [
+      "Demonstrates no awareness or consideration of family preferences, dietary needs, or potential constraints.",
+      "Shows limited awareness of family dynamics and does not tailor the request accordingly.",
+      "Acknowledges family dynamics but does not fully integrate them into the request.",
+      "Considers family preferences and constraints when formulating the request.",
+      "Demonstrates a thoughtful consideration of family dynamics, tailoring the request to accommodate preferences, dietary needs, and potential constraints.",
+      "Shows exceptional insight into family dynamics, crafting a request that is sensitive to individual needs, preferences, and potential challenges, maximizing the likelihood of a positive response."
+    ]
+  ]
+}

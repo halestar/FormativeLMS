@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Photosynthesis Role in Matter Cycling",
+    "Understanding of Photosynthesis Role in Energy Flow",
+    "Use of Evidence to Support Explanation",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of photosynthesis or its role in matter cycling is demonstrated.",
+      "Demonstrates a minimal understanding of photosynthesis; struggles to connect it to matter cycling.",
+      "Shows a basic understanding of photosynthesis and its connection to matter cycling, but explanation lacks detail.",
+      "Demonstrates a clear understanding of photosynthesis and its role in cycling matter, providing a moderately detailed explanation.",
+      "Demonstrates a strong understanding of photosynthesis and its role in cycling matter, providing a detailed and accurate explanation.",
+      "Demonstrates a comprehensive understanding of photosynthesis and its role in cycling matter, providing a thorough, accurate, and insightful explanation."
+    ],
+    [
+      "No understanding of photosynthesis or its role in energy flow is demonstrated.",
+      "Demonstrates a minimal understanding of photosynthesis; struggles to connect it to energy flow.",
+      "Shows a basic understanding of photosynthesis and its connection to energy flow, but explanation lacks detail.",
+      "Demonstrates a clear understanding of photosynthesis and its role in energy flow, providing a moderately detailed explanation.",
+      "Demonstrates a strong understanding of photosynthesis and its role in energy flow, providing a detailed and accurate explanation.",
+      "Demonstrates a comprehensive understanding of photosynthesis and its role in energy flow, providing a thorough, accurate, and insightful explanation."
+    ],
+    [
+      "No evidence is used to support the explanation.",
+      "Uses minimal or irrelevant evidence to support the explanation.",
+      "Uses some evidence to support the explanation, but it is not well-integrated or explained.",
+      "Uses relevant evidence to support the explanation, with some explanation of the connection.",
+      "Uses strong and relevant evidence to support the explanation, clearly explaining the connection between evidence and claim.",
+      "Uses compelling and comprehensive evidence to support the explanation, thoroughly and insightfully explaining the connection between evidence and claim."
+    ],
+    [
+      "The explanation is unclear, disorganized, and difficult to understand.",
+      "The explanation is somewhat unclear and disorganized, making it difficult to follow.",
+      "The explanation is generally clear and organized, but could benefit from further refinement.",
+      "The explanation is clear, logically organized, and easy to follow.",
+      "The explanation is exceptionally clear, logically organized, and effectively communicates the concepts.",
+      "The explanation is exceptionally clear, logically organized, effectively communicates the concepts, and demonstrates sophisticated scientific reasoning."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Information",
+    "Clarity and Organization of Presentation",
+    "Effectiveness of Educational Strategies",
+    "Use of Supporting Materials (e.g., visuals, handouts)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Information provided is inaccurate or misleading.",
+      "Information contains significant inaccuracies and\/or omissions.",
+      "Information is mostly accurate, but contains some minor errors or lacks detail.",
+      "Information is accurate and generally well-explained, but could benefit from additional detail or clarification.",
+      "Information is accurate, well-explained, and includes relevant details, demonstrating a good understanding of healthy food choices.",
+      "Information is exceptionally accurate, comprehensive, and clearly communicated, demonstrating a deep understanding of healthy food choices and their impact on health."
+    ],
+    [
+      "Presentation is disorganized and difficult to understand.",
+      "Presentation lacks clear organization and contains significant grammatical errors.",
+      "Presentation is somewhat organized, but contains some confusing elements or grammatical errors.",
+      "Presentation is generally clear and organized, with few grammatical errors.",
+      "Presentation is clear, well-organized, and uses appropriate language for the intended audience.",
+      "Presentation is exceptionally clear, engaging, and effectively communicates information in a logical and compelling manner."
+    ],
+    [
+      "No attempt is made to educate or persuade the audience.",
+      "Educational strategies are ineffective or inappropriate for the audience.",
+      "Educational strategies are used, but with limited effectiveness or engagement.",
+      "Educational strategies are used and are moderately effective in engaging the audience.",
+      "Educational strategies are well-chosen and effectively engage the audience in learning about healthy food choices.",
+      "Educational strategies are highly effective, creative, and inspire the audience to make positive changes in their food choices."
+    ],
+    [
+      "No supporting materials are used.",
+      "Supporting materials are irrelevant or detract from the presentation.",
+      "Supporting materials are used, but are poorly designed or presented.",
+      "Supporting materials are used and are generally helpful in illustrating key points.",
+      "Supporting materials are well-designed, informative, and enhance the overall presentation.",
+      "Supporting materials are exceptionally creative, engaging, and contribute significantly to the audience's understanding of healthy food choices."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Relationship Between Solutions and Graphs",
+    "Accuracy in Plotting Solutions on the Coordinate Plane",
+    "Recognizing and Interpreting the Shape of the Graph"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding that the graph of an equation represents its solutions.",
+      "The student shows a limited understanding, possibly identifying a single solution but not the entire set.",
+      "The student identifies some solutions on the graph but struggles to connect them to the equation.",
+      "The student generally understands that points on the graph are solutions but may have minor inaccuracies or omissions.",
+      "The student accurately explains that the graph represents all solutions to the equation and can identify solutions on the graph.",
+      "The student provides a comprehensive explanation, including why the graph represents ALL solutions, and can accurately identify and explain solutions and non-solutions on the graph, while also articulating how minor changes to the equation would change the resultant graph."
+    ],
+    [
+      "The student is unable to plot solutions on the coordinate plane or does so with significant errors.",
+      "The student attempts to plot solutions but makes frequent errors in identifying coordinates or axes.",
+      "The student plots some solutions correctly but also makes noticeable errors or omissions.",
+      "The student accurately plots most solutions but may have minor errors in precision or a few omissions.",
+      "The student accurately plots solutions on the coordinate plane with precision and minimal errors.",
+      "The student plots solutions with complete accuracy and precision, demonstrating a strong understanding of the coordinate plane and solution representation, and can explain why the specific coordinate plane is useful for visualization."
+    ],
+    [
+      "The student does not recognize the shape of the graph or its relationship to the equation.",
+      "The student shows a limited ability to recognize the shape of the graph, possibly confusing it with other types of equations.",
+      "The student recognizes the general shape but struggles to interpret its specific features or meaning.",
+      "The student correctly identifies the shape of the graph and relates it to the type of equation, but may not fully explain why.",
+      "The student accurately identifies the shape of the graph and explains its relationship to the equation, including key features like slope or intercepts.",
+      "The student provides a comprehensive analysis of the graph's shape, relating it to the equation's properties, and can discuss transformations or variations of the equation and their impact on the graph, and can also comment on why that shape arises from the source equation."
+    ]
+  ]
+}

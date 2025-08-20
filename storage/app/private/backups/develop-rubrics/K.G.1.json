@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Shapes",
+    "Use of Positional Words",
+    "Application to Real-World Objects"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to identify basic shapes (squares, circles, triangles, rectangles, hexagons, cubes, cones, cylinders, and spheres).",
+      "The student can identify a few basic shapes with significant errors.",
+      "The student can identify most basic shapes but makes occasional errors.",
+      "The student accurately identifies all basic shapes.",
+      "The student accurately identifies all basic shapes and can provide examples from the real world.",
+      "The student accurately identifies all basic shapes, provides real-world examples, and explains the properties of each shape."
+    ],
+    [
+      "The student does not use positional words (above, below, beside, in front of, behind, next to) or uses them incorrectly.",
+      "The student uses a limited number of positional words with frequent errors.",
+      "The student uses some positional words but still makes errors in their application.",
+      "The student accurately uses positional words to describe the location of objects.",
+      "The student accurately and consistently uses a variety of positional words to describe the relative positions of objects.",
+      "The student accurately and creatively uses a wide range of positional words to describe complex spatial relationships between objects."
+    ],
+    [
+      "The student cannot relate shapes and positions to real-world objects.",
+      "The student struggles to connect shapes and positions to real-world objects.",
+      "The student can identify some real-world objects that match the shapes and positions described, but with limited success.",
+      "The student effectively describes real-world objects using shape names and positional words.",
+      "The student consistently and accurately describes a wide range of real-world objects using appropriate shape names and positional words.",
+      "The student demonstrates a sophisticated understanding of shapes and positions by accurately and creatively describing complex real-world scenarios and objects."
+    ]
+  ]
+}

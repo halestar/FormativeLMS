@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of identifying the locations of settlements and movements of Hebrew peoples",
+    "Explanation of the significance of the Exodus to the Jewish and other peoples",
+    "Clarity and coherence of explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any locations or movements of Hebrew peoples.",
+      "The student identifies one or two locations or movements with significant inaccuracies.",
+      "The student identifies some locations and movements, but with several inaccuracies or omissions.",
+      "The student accurately identifies most of the key locations and movements of Hebrew peoples, including the Exodus and movements to\/from Egypt, with minor omissions.",
+      "The student accurately identifies the key locations and movements of Hebrew peoples, including the Exodus and movements to\/from Egypt, with clear understanding.",
+      "The student accurately and comprehensively identifies the locations and movements of Hebrew peoples, including the Exodus and movements to\/from Egypt, demonstrating a deep and nuanced understanding."
+    ],
+    [
+      "The student does not explain the significance of the Exodus.",
+      "The student offers a vague or inaccurate explanation of the Exodus's significance.",
+      "The student provides a basic explanation of the Exodus's significance to the Jewish people, but lacks depth or understanding of its broader impact.",
+      "The student explains the significance of the Exodus to the Jewish people and touches on its influence on other cultures or religions.",
+      "The student clearly explains the significance of the Exodus to the Jewish people and provides a detailed explanation of its influence on other cultures and religions.",
+      "The student provides a comprehensive and insightful explanation of the Exodus's significance, demonstrating a sophisticated understanding of its religious, cultural, and historical impact on the Jewish people and other societies."
+    ],
+    [
+      "The student's explanation is unclear and incoherent.",
+      "The student's explanation is difficult to follow and lacks organization.",
+      "The student's explanation is somewhat organized but contains some confusing or irrelevant information.",
+      "The student presents information in a clear and organized manner with minimal irrelevant information.",
+      "The student presents information in a clear, concise, and well-organized manner.",
+      "The student presents information in a highly articulate, coherent, and insightful manner, demonstrating a mastery of communication."
+    ]
+  ]
+}

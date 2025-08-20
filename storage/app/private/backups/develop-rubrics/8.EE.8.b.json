@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to solve systems of linear equations algebraically.",
+    "Ability to estimate solutions by graphing the equations.",
+    "Ability to recognize and solve simple cases by inspection."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how to solve systems of equations algebraically.",
+      "Student attempts to solve systems of equations algebraically but makes significant errors, indicating a lack of understanding of basic algebraic principles.",
+      "Student can solve simple systems of equations algebraically with some errors. Struggles with more complex systems or requires significant assistance.",
+      "Student can solve most systems of equations algebraically with minor errors. Shows a general understanding of the methods involved.",
+      "Student can consistently and accurately solve systems of equations algebraically, demonstrating a strong understanding of the methods involved.",
+      "Student demonstrates a sophisticated understanding of solving systems of equations algebraically, including the ability to explain and justify their methods and solutions clearly and effectively."
+    ],
+    [
+      "Student does not attempt to graph the equations or is unable to create a graph that represents the equations.",
+      "Student attempts to graph the equations but the resulting graph is inaccurate and does not allow for a reasonable estimation of the solution.",
+      "Student can graph the equations with some inaccuracies. The graph provides a rough estimate of the solution, but it may not be precise.",
+      "Student can accurately graph the equations and use the graph to estimate the solution with reasonable precision.",
+      "Student consistently and accurately graphs the equations and uses the graph to provide a precise estimate of the solution.",
+      "Student can explain the relationship between the graphical representation of the equations and the algebraic solution. Student is able to apply their understanding to more complex or abstract systems of equations."
+    ],
+    [
+      "Student cannot identify or solve any systems of equations by inspection.",
+      "Student attempts to solve systems of equations by inspection but is generally unsuccessful.",
+      "Student can solve some very simple systems of equations by inspection, but struggles with anything slightly more complex.",
+      "Student can solve simple systems of equations by inspection and recognizes when this method is appropriate.",
+      "Student can quickly and accurately solve a variety of simple systems of equations by inspection.",
+      "Student can explain the properties of systems of equations that allow them to be solved by inspection, and can create their own examples of such systems."
+    ]
+  ]
+}

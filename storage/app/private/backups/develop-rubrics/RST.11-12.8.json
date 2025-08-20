@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Evaluation of Hypotheses",
+    "Analysis of Data",
+    "Assessment of Conclusions",
+    "Verification and Corroboration"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify or evaluate the hypotheses presented in the text.",
+      "Identifies the hypotheses but does not evaluate their validity or relevance.",
+      "Attempts to evaluate hypotheses with limited understanding or accuracy.",
+      "Evaluates hypotheses with reasonable accuracy, but lacks depth or corroboration.",
+      "Clearly evaluates hypotheses, providing valid reasons and demonstrating understanding of their significance.",
+      "Critically evaluates hypotheses, providing insightful analysis, and connects them to broader scientific concepts."
+    ],
+    [
+      "Fails to recognize or analyze the data presented in the text.",
+      "Recognizes the data but does not attempt to analyze its meaning or significance.",
+      "Analyzes the data superficially with limited understanding.",
+      "Provides a basic analysis of the data with some understanding of its implications.",
+      "Conducts a thorough analysis of the data, explaining its implications and limitations effectively.",
+      "Conducts a sophisticated analysis of the data, revealing nuanced insights and connections to the hypotheses and conclusions."
+    ],
+    [
+      "Does not identify or assess the conclusions drawn in the text.",
+      "Identifies the conclusions but does not evaluate their validity or support.",
+      "Attempts to assess conclusions with limited understanding or justification.",
+      "Assesses conclusions with reasonable accuracy, but lacks depth or corroboration.",
+      "Clearly assesses conclusions, providing valid reasons and evidence from the text.",
+      "Critically assesses conclusions, offering insightful critiques and considering alternative interpretations."
+    ],
+    [
+      "Does not attempt to verify data or corroborate conclusions with other sources.",
+      "Attempts to verify data or corroborate conclusions, but efforts are minimal or ineffective.",
+      "Verifies data and corroborates conclusions with limited success or relevance.",
+      "Verifies data and corroborates conclusions using appropriate sources and methods with moderate success.",
+      "Successfully verifies data and corroborates conclusions using a variety of relevant sources and methods.",
+      "Demonstrates exceptional ability to verify data and corroborate conclusions, identifying discrepancies and inconsistencies across multiple sources."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Recommended Physical Activity Amounts",
+    "Identification of Types of Recommended Physical Activity",
+    "Connection Between Physical Activity and Overall Health",
+    "Connection Between Physical Activity and Maintaining Healthy Body Weight"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of recommended physical activity amounts for teenagers.",
+      "Student shows minimal understanding, with significant misconceptions about the amount of physical activity needed.",
+      "Student demonstrates a basic understanding but struggles to accurately quantify the recommended amounts.",
+      "Student can generally describe the recommended amounts of physical activity, but lacks specificity.",
+      "Student accurately describes the recommended amounts of physical activity for teenagers, including specific durations and frequencies.",
+      "Student comprehensively describes the recommended amounts of physical activity and explains the rationale behind these recommendations."
+    ],
+    [
+      "Student cannot identify any types of physical activity suitable for teenagers.",
+      "Student identifies very few types of physical activity and\/or names activities that are not generally recommended.",
+      "Student identifies some types of physical activity, but demonstrates a limited range of options.",
+      "Student identifies a variety of physical activities suitable for teenagers but does not categorize them effectively.",
+      "Student identifies a broad range of physical activities, categorizing them appropriately (e.g., aerobic, muscle-strengthening).",
+      "Student provides an extensive list of physical activities, categorizes them effectively, and explains the benefits of each type for teenagers."
+    ],
+    [
+      "Student does not make any connection between physical activity and overall health.",
+      "Student makes a vague connection between physical activity and health, but it is unclear and lacks detail.",
+      "Student identifies a few benefits of physical activity but does not provide a comprehensive explanation.",
+      "Student connects physical activity to some aspects of health, such as cardiovascular health or weight management.",
+      "Student clearly explains the relationship between physical activity and various aspects of overall health, including physical, mental, and social well-being.",
+      "Student thoroughly explains the interconnectedness of physical activity and overall health, including its role in disease prevention and healthy development, including citing sources."
+    ],
+    [
+      "Student does not make any connection between physical activity and maintaining a healthy body weight.",
+      "Student makes a weak connection between physical activity and weight management, but explanation is inaccurate.",
+      "Student vaguely connects physical activity to weight management but fails to provide a solid explanation.",
+      "Student explains how physical activity contributes to burning calories and building muscle, but lacks details.",
+      "Student explains how physical activity affects metabolism, energy balance, and body composition to maintain a healthy weight.",
+      "Student provides a detailed and nuanced explanation of the relationship between physical activity, diet, genetics, and maintaining a healthy body weight, including citing sources."
+    ]
+  ]
+}

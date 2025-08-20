@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Physical Risks",
+    "Understanding of Social Risks",
+    "Understanding of Emotional Risks",
+    "Understanding of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the physical risks associated with sexual activity.",
+      "The student identifies one or two physical risks associated with sexual activity, but lacks detail.",
+      "The student identifies some physical risks associated with sexual activity, with limited explanation.",
+      "The student explains several physical risks associated with sexual activity, such as STIs and pregnancy, but may have minor inaccuracies.",
+      "The student thoroughly explains the physical risks associated with sexual activity, including STIs, pregnancy, and other potential health consequences.",
+      "The student comprehensively explains the physical risks associated with sexual activity, including STIs, pregnancy, and other health consequences, demonstrating a deep understanding and providing accurate details."
+    ],
+    [
+      "The student demonstrates no understanding of the social risks associated with sexual activity.",
+      "The student identifies one or two social risks associated with sexual activity, but lacks detail.",
+      "The student identifies some social risks associated with sexual activity, with limited explanation.",
+      "The student explains several social risks associated with sexual activity, such as impact on relationships and reputation, but may have minor inaccuracies.",
+      "The student thoroughly explains the social risks associated with sexual activity, including impact on relationships, reputation, and community standing.",
+      "The student comprehensively explains the social risks associated with sexual activity, including impact on relationships, reputation, and community standing, demonstrating a deep understanding and providing accurate details and insightful observations."
+    ],
+    [
+      "The student demonstrates no understanding of the emotional risks associated with sexual activity.",
+      "The student identifies one or two emotional risks associated with sexual activity, but lacks detail.",
+      "The student identifies some emotional risks associated with sexual activity, with limited explanation.",
+      "The student explains several emotional risks associated with sexual activity, such as feelings of regret, guilt, or anxiety, but may have minor inaccuracies.",
+      "The student thoroughly explains the emotional risks associated with sexual activity, including feelings of regret, guilt, anxiety, and potential impact on self-esteem and mental health.",
+      "The student comprehensively explains the emotional risks associated with sexual activity, including feelings of regret, guilt, anxiety, and potential impact on self-esteem and mental health, demonstrating a deep understanding of emotional complexities and providing insightful observations."
+    ],
+    [
+      "The student demonstrates no understanding of the consequences associated with sexual activity.",
+      "The student identifies one or two consequences associated with sexual activity, but lacks detail.",
+      "The student identifies some consequences associated with sexual activity, with limited explanation.",
+      "The student explains several consequences associated with sexual activity, but may have minor inaccuracies.",
+      "The student thoroughly explains the consequences associated with sexual activity, detailing immediate and potential long-term effects.",
+      "The student comprehensively explains the consequences associated with sexual activity, detailing immediate and potential long-term effects, while demonstrating a nuanced understanding of the complexities involved."
+    ]
+  ]
+}

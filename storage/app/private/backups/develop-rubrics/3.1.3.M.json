@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the concept of positive relationships",
+    "Ability to explain benefits of positive relationships with family",
+    "Ability to explain benefits of positive relationships with friends",
+    "Clarity and coherence of explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of what positive relationships entail is demonstrated.",
+      "Demonstrates minimal understanding of positive relationships.",
+      "Demonstrates a basic understanding of positive relationships but lacks depth.",
+      "Demonstrates a satisfactory understanding of positive relationships.",
+      "Demonstrates a strong understanding of positive relationships and their components.",
+      "Demonstrates a comprehensive and nuanced understanding of positive relationships, including complex dynamics."
+    ],
+    [
+      "Unable to identify any benefits of positive family relationships.",
+      "Identifies one or two basic benefits of positive family relationships.",
+      "Explains a few benefits of positive family relationships with limited detail.",
+      "Clearly explains several key benefits of positive family relationships.",
+      "Explains the benefits of positive family relationships with supporting examples.",
+      "Insightfully explains numerous benefits of positive family relationships, providing a comprehensive perspective and examples."
+    ],
+    [
+      "Unable to identify any benefits of positive friendships.",
+      "Identifies one or two basic benefits of positive friendships.",
+      "Explains a few benefits of positive friendships with limited detail.",
+      "Clearly explains several key benefits of positive friendships.",
+      "Explains the benefits of positive friendships with supporting examples.",
+      "Insightfully explains numerous benefits of positive friendships, providing a comprehensive perspective and examples."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation lacks clarity and organization; difficult to follow.",
+      "Explanation is somewhat clear but could be better organized.",
+      "Explanation is clear and well-organized.",
+      "Explanation is very clear, well-organized, and easy to understand.",
+      "Explanation is exceptionally clear, coherent, and persuasive, demonstrating excellent communication skills."
+    ]
+  ]
+}

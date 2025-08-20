@@ -15511,7 +15511,11 @@ select[multiple] {
 }
 
 .border-dotted {
-  border-style: dotted;
+    border-style: dotted !important;
+}
+
+.border-dashed {
+    border-style: dashed !important;
 }
 
 .border-top-dotted {

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of Identification",
+    "Understanding of Services Provided",
+    "Awareness of Accessibility and Resources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding or ability to identify any health care providers for reproductive and sexual health services.",
+      "The student identifies only one or two health care providers, but the information provided is inaccurate or incomplete.",
+      "The student identifies some health care providers (3-4), but the information provided contains inaccuracies or lacks detail.",
+      "The student identifies several health care providers (5-6), but the information may lack some detail or have minor inaccuracies.",
+      "The student accurately identifies most health care providers (7-8) with sufficient detail and minimal inaccuracies.",
+      "The student accurately and comprehensively identifies a wide range of health care providers (9+) for reproductive and sexual health services with detailed information."
+    ],
+    [
+      "The student shows no understanding of the services provided by reproductive and sexual health care providers.",
+      "The student demonstrates a very limited understanding of the services provided.",
+      "The student demonstrates a basic understanding of some of the services offered.",
+      "The student demonstrates a general understanding of most of the services offered by the identified providers.",
+      "The student demonstrates a clear understanding of the key services offered and can differentiate between providers.",
+      "The student demonstrates a comprehensive understanding of the range of services provided and can explain how different providers meet specific needs."
+    ],
+    [
+      "The student shows no awareness of how to access reproductive and sexual health services.",
+      "The student has minimal awareness of accessibility and available resources.",
+      "The student identifies one or two ways to access services or resources, but lacks detail.",
+      "The student identifies several ways to access services and resources, but the information may be incomplete.",
+      "The student identifies multiple ways to access services and resources with reasonable detail.",
+      "The student demonstrates a thorough understanding of accessibility, available resources, and how to navigate the health care system for reproductive and sexual health services."
+    ]
+  ]
+}

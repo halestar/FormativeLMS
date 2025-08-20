@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the components of a nutritious breakfast",
+    "Explaining the immediate benefits of eating a nutritious breakfast",
+    "Explaining the long-term benefits of eating a nutritious breakfast",
+    "Analyzing the impact of skipping breakfast on health and academic performance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes a nutritious breakfast.",
+      "Identifies one or two components of a nutritious breakfast (e.g., protein, whole grains) but lacks depth.",
+      "Identifies some key components of a nutritious breakfast but with limited explanation or examples.",
+      "Identifies and explains most key components of a nutritious breakfast, providing relevant examples.",
+      "Clearly identifies and explains all key components of a nutritious breakfast, providing detailed examples and demonstrating a solid understanding.",
+      "Comprehensively identifies and explains all key components of a nutritious breakfast, providing insightful examples and demonstrating a thorough and nuanced understanding."
+    ],
+    [
+      "Cannot explain any immediate benefits of eating a nutritious breakfast.",
+      "Mentions one vague or inaccurate immediate benefit.",
+      "Identifies one accurate immediate benefit (e.g., energy) but lacks detail or explanation.",
+      "Identifies several accurate immediate benefits and provides some explanation.",
+      "Clearly explains multiple immediate benefits of eating a nutritious breakfast with supporting details.",
+      "Articulates several immediate benefits of eating a nutritious breakfast with in-depth explanations and connects them to daily performance and well-being."
+    ],
+    [
+      "Cannot explain any long-term benefits of eating a nutritious breakfast.",
+      "Mentions one vague or inaccurate long-term benefit.",
+      "Identifies one accurate long-term benefit (e.g., weight management) but lacks detail or explanation.",
+      "Identifies several accurate long-term benefits and provides some explanation.",
+      "Clearly explains multiple long-term benefits of eating a nutritious breakfast with supporting details.",
+      "Articulates several long-term benefits of eating a nutritious breakfast with in-depth explanations, linking them to overall health and disease prevention."
+    ],
+    [
+      "Unable to analyze or describe any impact of skipping breakfast.",
+      "Offers a superficial or inaccurate statement about the impact of skipping breakfast.",
+      "Identifies a basic negative impact of skipping breakfast, such as lack of energy.",
+      "Describes several negative impacts of skipping breakfast on health or academic performance.",
+      "Analyzes the negative impacts of skipping breakfast on both health and academic performance with supporting evidence.",
+      "Provides a comprehensive analysis of the interconnected negative impacts of skipping breakfast on health, academic performance, and overall well-being, offering insightful observations."
+    ]
+  ]
+}

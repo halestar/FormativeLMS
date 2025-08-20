@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Representation of Addition and Subtraction",
+    "Accuracy of Mathematical Representation",
+    "Clarity of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to represent addition or subtraction or the attempt is completely irrelevant.",
+      "The student attempts to represent addition or subtraction, but the representation is unclear or inaccurate.",
+      "The student represents addition or subtraction with limited accuracy, and the connection to the operation is not always clear.",
+      "The student accurately represents addition or subtraction using objects, fingers, or simple drawings, but lacks detail or explanation.",
+      "The student effectively represents addition and subtraction using a variety of methods (objects, drawings, expressions), providing a clear connection to the mathematical operation.",
+      "The student skillfully represents addition and subtraction in multiple ways (e.g., drawings, equations, verbal explanations), demonstrating a deep understanding of the relationship between the representation and the operation."
+    ],
+    [
+      "The mathematical representation is completely inaccurate and does not reflect the addition or subtraction problem.",
+      "The mathematical representation contains significant errors, indicating a misunderstanding of basic addition or subtraction principles.",
+      "The mathematical representation has some inaccuracies that affect the outcome or understanding of the addition or subtraction problem.",
+      "The mathematical representation is mostly accurate, with minor errors that do not significantly impact the result.",
+      "The mathematical representation is accurate and clearly demonstrates the addition or subtraction process and its result.",
+      "The mathematical representation is precise, efficient, and insightful, showing a comprehensive understanding of addition and subtraction principles. The representation is mathematically sound and easily understandable."
+    ],
+    [
+      "There is no explanation provided, or the explanation is incomprehensible.",
+      "The explanation is minimal and does not clarify the representation or the mathematical operation.",
+      "The explanation is vague and only partially clarifies the representation or the mathematical operation.",
+      "The explanation is understandable and provides some context for the representation and the mathematical operation.",
+      "The explanation is clear, concise, and accurately describes the representation and the mathematical operation.",
+      "The explanation is exceptionally clear, insightful, and thoroughly explains the representation, the mathematical operation, and the underlying mathematical concepts. The student uses precise language and demonstrates a comprehensive understanding."
+    ]
+  ]
+}

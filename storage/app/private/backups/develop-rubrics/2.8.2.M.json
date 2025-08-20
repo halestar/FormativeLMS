@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Initiative in Offering Support",
+    "Quality of Support Provided",
+    "Inclusivity and Respect"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not offer support or participate in collaborative activities.",
+      "Student occasionally offers support but requires prompting.",
+      "Student sometimes offers support and participates in collaborative activities with minor prompting.",
+      "Student regularly offers support to peers and actively participates in school and community activities.",
+      "Student consistently takes initiative to support peers and demonstrates leadership in school and community activities.",
+      "Student proactively seeks opportunities to support peers, leads initiatives in school and community activities, and inspires others to participate."
+    ],
+    [
+      "Support provided is unhelpful or inappropriate.",
+      "Support provided is sometimes helpful but lacks depth or relevance.",
+      "Support provided is generally helpful and relevant to the situation.",
+      "Support provided is effective and contributes positively to peer success in activities.",
+      "Support provided is highly effective, tailored to individual needs, and enhances peer performance.",
+      "Support provided is transformative, empowering peers to overcome challenges and excel in activities."
+    ],
+    [
+      "Student demonstrates disrespectful behavior and excludes peers.",
+      "Student shows limited respect and sometimes excludes peers.",
+      "Student generally treats peers with respect but may occasionally show bias.",
+      "Student consistently treats all peers with respect and promotes inclusivity.",
+      "Student actively promotes inclusivity, celebrates diversity, and advocates for equitable treatment of all peers.",
+      "Student champions inclusivity, fosters a welcoming environment for all, and stands up against discrimination."
+    ]
+  ]
+}

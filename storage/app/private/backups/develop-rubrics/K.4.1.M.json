@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Directness: How clearly and directly does the student express their needs and wants?",
+    "Appropriateness of Expression: How appropriately does the student express their needs and wants in various contexts?",
+    "Assertiveness and Respect: How effectively does the student balance assertiveness in expressing their needs with respect for others' feelings and boundaries?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to express personal needs and wants or does so in a completely unclear manner.",
+      "The student attempts to express needs and wants, but the message is highly unclear or confusing.",
+      "The student expresses needs and wants, but there is significant room for improvement in clarity and directness. The message may be somewhat vague or ambiguous.",
+      "The student generally expresses needs and wants clearly and directly. The message is understandable, but there may be minor areas for refinement.",
+      "The student expresses needs and wants with a high degree of clarity and directness. The message is easily understandable and leaves little room for misinterpretation.",
+      "The student expresses needs and wants with exceptional clarity, directness, and precision. The message is not only easily understandable but also impactful and persuasive."
+    ],
+    [
+      "The student expresses needs and wants in a manner that is entirely inappropriate for the context, potentially causing offense or harm.",
+      "The student demonstrates a lack of awareness of appropriate expression, with significant inappropriateness in their communication.",
+      "The student's expression of needs and wants is somewhat inappropriate for the context, with noticeable missteps in tone or language.",
+      "The student generally expresses needs and wants appropriately, with only minor instances of questionable language or tone.",
+      "The student consistently expresses needs and wants in a manner that is appropriate for the context, showing sensitivity to the audience and situation.",
+      "The student demonstrates exceptional skill in expressing needs and wants appropriately across a wide range of contexts, adapting their communication style with finesse and empathy."
+    ],
+    [
+      "The student is either overly aggressive or completely passive in expressing needs and wants, showing no regard for others' feelings or boundaries.",
+      "The student struggles to balance assertiveness and respect, often leaning too far in one direction or the other, leading to either aggressive or passive communication.",
+      "The student attempts to balance assertiveness and respect, but their communication may still come across as either too aggressive or too passive in certain situations.",
+      "The student generally balances assertiveness and respect in expressing needs and wants, showing an awareness of others' feelings and boundaries, though there may be occasional missteps.",
+      "The student skillfully balances assertiveness and respect, effectively advocating for their needs while demonstrating empathy and consideration for others.",
+      "The student demonstrates mastery in balancing assertiveness and respect, expressing needs and wants with grace and diplomacy, while fostering positive and collaborative interactions."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of identifying colonial powers and their respective territories in the specified regions (Africa, Southeast Asia, China, India, Latin America, and the Philippines).",
+    "Depth of discussion regarding the motivations and methods of colonial rule by the identified nations.",
+    "Clarity and organization of presentation. (This includes the quality of writing, logical flow of information, and use of supporting evidence.)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of colonial powers or their territories.",
+      "Identifies only one or two colonial powers with significant inaccuracies regarding their territories.",
+      "Identifies some colonial powers but struggles to accurately match them to their respective territories; several inaccuracies present.",
+      "Identifies most of the major colonial powers and their territories with some minor inaccuracies or omissions.",
+      "Accurately identifies nearly all colonial powers and their territories within the specified regions, with only very minor errors.",
+      "Comprehensively and accurately identifies all colonial powers and their territories within the specified regions, demonstrating a strong understanding of colonial rule."
+    ],
+    [
+      "Provides no discussion or understanding of the motivations or methods of colonial rule.",
+      "Offers a superficial or irrelevant discussion of colonial motivations or methods.",
+      "Attempts to discuss motivations or methods of colonial rule but demonstrates a limited or incomplete understanding.",
+      "Provides a basic discussion of the motivations and methods of colonial rule, but lacks depth or specific examples.",
+      "Discusses the motivations and methods of colonial rule with reasonable depth and provides some specific examples.",
+      "Offers a comprehensive and insightful discussion of the motivations and methods of colonial rule, supported by specific and relevant examples, demonstrating a nuanced understanding."
+    ],
+    [
+      "Presentation is unclear, disorganized, and lacks logical flow. Writing is difficult to understand.",
+      "Presentation is somewhat disorganized and lacks clarity in several areas. Writing contains errors that impede understanding.",
+      "Presentation has some organization but may lack clarity in places. Writing contains some errors.",
+      "Presentation is generally clear and organized with a logical flow of information. Writing is mostly clear with few errors.",
+      "Presentation is clear, well-organized, and demonstrates a logical flow of information. Writing is clear and concise with minimal errors.",
+      "Presentation is exceptionally clear, well-organized, and presents information in a compelling and logical manner. Writing is polished and error-free."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to locate relevant information on personal health products.",
+    "Ability to evaluate the validity of health product information.",
+    "Understanding of different types of personal health products."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no ability to locate information on personal health products.",
+      "Student can locate very limited information on personal health products with significant difficulty.",
+      "Student can locate some information on personal health products, but struggles with identifying relevant sources.",
+      "Student can locate relevant information on personal health products from common sources with some guidance.",
+      "Student can effectively locate relevant information on personal health products from various sources.",
+      "Student can efficiently and comprehensively locate relevant information on a wide range of personal health products from diverse and reliable sources."
+    ],
+    [
+      "Student demonstrates no understanding of how to evaluate the validity of health product information.",
+      "Student attempts to evaluate information but shows no understanding of validity criteria.",
+      "Student identifies some basic criteria for validity but struggles to apply them effectively.",
+      "Student evaluates the validity of information using common criteria (e.g., source reliability) with some inconsistencies.",
+      "Student consistently evaluates the validity of information using appropriate criteria and identifies potential biases or inaccuracies.",
+      "Student expertly evaluates the validity of information, demonstrating a deep understanding of research methodologies, source credibility, and potential biases, and synthesizes information from multiple sources to form well-supported conclusions."
+    ],
+    [
+      "Student demonstrates no knowledge of any personal health products.",
+      "Student identifies only one type of personal health product.",
+      "Student can name a few personal health products but shows no understanding of their usage or benefits.",
+      "Student can name several personal health products and shows a limited understanding of their usage and benefits.",
+      "Student understands the different types of personal health products, their purposes, and their benefits.",
+      "Student has excellent knowledge of personal health products and demonstrates a clear understanding of their purpose, benefits, and potential risks."
+    ]
+  ]
+}

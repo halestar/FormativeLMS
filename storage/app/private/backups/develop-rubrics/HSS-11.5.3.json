@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the historical context surrounding the Eighteenth Amendment and the Volstead Act.",
+    "Knowledge of the key provisions and consequences of the Eighteenth Amendment.",
+    "Knowledge of the key provisions and consequences of the Volstead Act.",
+    "Ability to analyze the social, political, and economic factors that led to Prohibition."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the historical context.",
+      "Shows minimal understanding of the historical context, with significant inaccuracies or omissions.",
+      "Demonstrates basic understanding of the historical context, but lacks depth or detail.",
+      "Demonstrates a solid understanding of the historical context, including key events and social conditions.",
+      "Demonstrates a comprehensive understanding of the historical context, showing nuanced insights.",
+      "Demonstrates an exceptional understanding of the historical context, providing insightful analysis and connections to broader historical themes."
+    ],
+    [
+      "Demonstrates no knowledge of the Eighteenth Amendment.",
+      "Shows minimal knowledge of the Eighteenth Amendment, with significant inaccuracies.",
+      "Demonstrates basic knowledge of the Eighteenth Amendment, but lacks key details.",
+      "Demonstrates a solid knowledge of the key provisions and consequences of the Eighteenth Amendment.",
+      "Demonstrates a comprehensive knowledge of the Eighteenth Amendment, including both intended and unintended consequences.",
+      "Demonstrates an exceptional knowledge of the Eighteenth Amendment, offering insightful analysis of its long-term effects and historical significance."
+    ],
+    [
+      "Demonstrates no knowledge of the Volstead Act.",
+      "Shows minimal knowledge of the Volstead Act, with significant inaccuracies.",
+      "Demonstrates basic knowledge of the Volstead Act, but lacks key details.",
+      "Demonstrates a solid knowledge of the key provisions and consequences of the Volstead Act.",
+      "Demonstrates a comprehensive knowledge of the Volstead Act, including its enforcement mechanisms and challenges.",
+      "Demonstrates an exceptional knowledge of the Volstead Act, offering insightful analysis of its impact on society and government."
+    ],
+    [
+      "Unable to analyze the factors leading to Prohibition.",
+      "Offers a superficial analysis of the factors leading to Prohibition, with limited supporting evidence.",
+      "Analyzes some of the factors leading to Prohibition, but lacks depth or complexity.",
+      "Analyzes the social, political, and economic factors that led to Prohibition with reasonable supporting evidence.",
+      "Analyzes the factors leading to Prohibition with insightful observations and supporting evidence.",
+      "Presents a comprehensive and nuanced analysis of the factors leading to Prohibition, demonstrating exceptional critical thinking skills."
+    ]
+  ]
+}

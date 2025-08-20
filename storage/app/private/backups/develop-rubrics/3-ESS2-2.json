@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to obtain information about climates in different regions of the world from various sources.",
+    "Understanding and description of climate patterns and their variations across different regions.",
+    "Application of scientific and mathematical reasoning to interpret and present climate information.",
+    "Effective communication of climate information, including clear explanations and relevant details."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to gather information or information is completely irrelevant.",
+      "Gathers information from a single unreliable source, showing limited understanding.",
+      "Obtains information from limited sources (1-2), with questionable reliability. Shows basic understanding.",
+      "Combines information from 2-3 sources, some of which may lack reliability. Demonstrates a general understanding of different climates.",
+      "Obtains and combines information from 3-4 reliable sources to describe climates in different regions, demonstrating good understanding.",
+      "Obtains and synthesizes information from multiple (4+) reliable sources to comprehensively describe climates, demonstrating excellent understanding and insight."
+    ],
+    [
+      "Demonstrates no understanding of climate patterns or regional variations.",
+      "Shows minimal understanding of climate, with inaccurate descriptions of regional differences.",
+      "Identifies basic climate patterns but struggles to explain variations across regions.",
+      "Describes general climate patterns and some regional variations, but lacks detail and accuracy.",
+      "Clearly describes climate patterns and variations across different regions, demonstrating accurate understanding.",
+      "Provides a detailed and insightful description of climate patterns, accurately explaining regional variations and underlying causes."
+    ],
+    [
+      "Fails to apply any scientific or mathematical reasoning.",
+      "Attempts to apply reasoning but makes significant errors in interpretation or presentation.",
+      "Applies basic reasoning with some inaccuracies in interpreting or presenting climate information.",
+      "Uses appropriate reasoning to interpret and present climate information, but with limited detail or sophistication.",
+      "Effectively applies scientific and mathematical reasoning to interpret and present climate information accurately.",
+      "Demonstrates sophisticated use of reasoning to interpret and present climate information with clarity, precision, and insightful analysis."
+    ],
+    [
+      "Communication is unclear, disorganized, and lacks relevant details.",
+      "Communication is difficult to understand and missing key information.",
+      "Communicates basic climate information, but explanations lack clarity and detail.",
+      "Clearly communicates climate information with relevant details and explanations.",
+      "Presents climate information effectively, with clear explanations, supporting details, and accurate terminology.",
+      "Communicates climate information exceptionally well, with engaging explanations, comprehensive details, and sophisticated use of scientific terminology."
+    ]
+  ]
+}

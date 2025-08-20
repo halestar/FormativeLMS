@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Addition and Subtraction",
+    "Application of the Standard Algorithm",
+    "Understanding of Place Value"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Consistently makes errors in addition and subtraction, demonstrating a lack of understanding of basic operations.",
+      "Makes frequent errors in addition and subtraction, struggling with carrying and borrowing.",
+      "Makes occasional errors in addition and subtraction, particularly with more complex problems involving multiple steps.",
+      "Generally accurate in addition and subtraction, with occasional minor errors that do not significantly impact the solution.",
+      "Demonstrates a high level of accuracy in addition and subtraction, with errors being rare and easily corrected.",
+      "Consistently performs addition and subtraction flawlessly, demonstrating a strong understanding of the operations and their properties."
+    ],
+    [
+      "Unable to apply the standard algorithm for addition and subtraction, relying on inefficient or incorrect methods.",
+      "Struggles to apply the standard algorithm, making significant errors in the process and demonstrating a lack of understanding of its steps.",
+      "Applies the standard algorithm inconsistently, sometimes using it correctly but often reverting to other methods or making errors in its application.",
+      "Generally applies the standard algorithm correctly, with occasional minor errors in carrying, borrowing, or alignment.",
+      "Applies the standard algorithm effectively and efficiently, demonstrating a strong understanding of its steps and rationale.",
+      "Masterfully applies the standard algorithm with precision and accuracy, demonstrating a deep understanding of its underlying principles and adaptability to various problem types."
+    ],
+    [
+      "Demonstrates a lack of understanding of place value, unable to correctly identify or utilize the value of digits in multi-digit numbers.",
+      "Struggles with place value concepts, making frequent errors in identifying or utilizing the value of digits in addition and subtraction.",
+      "Demonstrates a limited understanding of place value, with occasional errors in identifying or utilizing the value of digits, particularly in more complex problems.",
+      "Generally understands place value, with occasional minor errors in identifying or utilizing the value of digits in addition and subtraction.",
+      "Demonstrates a strong understanding of place value, accurately identifying and utilizing the value of digits in addition and subtraction.",
+      "Exhibits a deep understanding of place value, seamlessly applying it to solve complex addition and subtraction problems and explain the underlying mathematical principles."
+    ]
+  ]
+}

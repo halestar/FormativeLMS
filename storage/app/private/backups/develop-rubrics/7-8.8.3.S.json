@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of persuasive techniques used to promote safety behaviors",
+    "Clarity and accuracy of information presented about safety behaviors",
+    "Demonstrates understanding of factors that influence safety behaviors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to influence safety behaviors or uses ineffective methods.",
+      "Attempts to influence safety behaviors with limited effectiveness; persuasive techniques are weak or inappropriate.",
+      "Uses basic persuasive techniques to promote safety behaviors, but the impact is minimal.",
+      "Employs moderately effective persuasive techniques to encourage safety behaviors, showing some understanding of the target audience.",
+      "Demonstrates effective use of persuasive techniques to promote safety behaviors, tailoring the approach to the specific audience and context.",
+      "Masterfully uses persuasive techniques to create a compelling message that significantly influences others' safety behaviors, demonstrating a deep understanding of communication strategies."
+    ],
+    [
+      "Presents inaccurate or unclear information about safety behaviors, leading to confusion or misunderstanding.",
+      "Presents some accurate information about safety behaviors, but lacks clarity or contains minor inaccuracies.",
+      "Presents generally accurate information about safety behaviors with reasonable clarity.",
+      "Presents clear and accurate information about safety behaviors, supporting claims with evidence.",
+      "Presents highly accurate and clear information about safety behaviors, addressing potential counterarguments and misconceptions.",
+      "Presents exceptionally clear, accurate, and comprehensive information about safety behaviors, demonstrating a mastery of the subject matter and anticipating audience needs."
+    ],
+    [
+      "Shows no understanding of factors influencing safety behaviors.",
+      "Shows minimal understanding of factors influencing safety behaviors.",
+      "Identifies some factors influencing safety behaviors, but lacks depth of understanding.",
+      "Explains several factors that influence safety behaviors, such as social norms or personal beliefs.",
+      "Analyzes various factors influencing safety behaviors and how they interact.",
+      "Provides a comprehensive analysis of the complex interplay of factors that influence safety behaviors, demonstrating sophisticated insight."
+    ]
+  ]
+}

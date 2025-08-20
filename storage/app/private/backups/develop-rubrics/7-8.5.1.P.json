@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Personal Health Problems",
+    "Application of a Decision-Making Process",
+    "Selection of Safe and Healthy Strategies",
+    "Consideration of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any personal health problems or identifies problems that are not related to health.",
+      "Identifies one personal health problem but provides minimal detail or inaccurate information.",
+      "Identifies a few personal health problems with some relevant details, but may lack depth or accuracy in certain areas.",
+      "Identifies relevant personal health problems and provides adequate details, demonstrating a basic understanding of the issues.",
+      "Clearly identifies relevant personal health problems, provides detailed information, and demonstrates a comprehensive understanding of the issues.",
+      "Masterfully identifies relevant personal health problems, provides extensive details, and demonstrates a sophisticated understanding of the issues, including potential long-term implications."
+    ],
+    [
+      "Does not apply any decision-making process or uses a process that is inappropriate or ineffective.",
+      "Attempts to apply a decision-making process, but it is poorly executed and lacks logical steps.",
+      "Applies a basic decision-making process with some logical steps, but may miss key considerations or have inconsistencies.",
+      "Applies a relevant decision-making process with logical steps and considers most key factors.",
+      "Applies a well-reasoned decision-making process with clear, logical steps and considers all key factors effectively.",
+      "Applies a sophisticated and nuanced decision-making process with clear, logical steps, thoroughly considers all key factors, and justifies each step with insightful reasoning."
+    ],
+    [
+      "Does not suggest any strategies or suggests strategies that are unsafe or unhealthy.",
+      "Suggests one strategy, but it is not safe, healthy, or appropriate for the identified problem.",
+      "Suggests a few strategies, but they may have limitations in terms of safety, healthiness, or appropriateness.",
+      "Suggests safe and healthy strategies that are generally appropriate for the identified problems.",
+      "Suggests safe, healthy, and highly appropriate strategies that address the identified problems effectively.",
+      "Suggests innovative and highly effective strategies that are safe, healthy, and tailored to the specific needs of the identified problems, demonstrating a deep understanding of health principles."
+    ],
+    [
+      "Does not consider the consequences of the selected strategies.",
+      "Briefly mentions potential consequences, but lacks detail and accuracy.",
+      "Identifies some potential consequences, but may miss important factors or lack a comprehensive understanding.",
+      "Adequately considers the potential consequences (pros and cons) of the strategies.",
+      "Thoroughly considers the potential consequences, including both short-term and long-term effects, with insightful analysis.",
+      "Demonstrates exceptional foresight by comprehensively evaluating potential consequences, including nuanced considerations of ethical and social implications, and provides a well-reasoned justification for the chosen strategies."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Translation of Quantitative\/Technical Information",
+    "Clarity and Precision in Representing Information",
+    "Effective Use of Visual Form (Tables, Charts, etc.) or Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to translate or the translation is completely inaccurate and incomprehensible.",
+      "The translation shows a minimal understanding, with significant inaccuracies and omissions.",
+      "The translation captures some key elements but contains several inaccuracies or lacks clarity in certain areas.",
+      "The translation is mostly accurate, but some details are missing or slightly misinterpreted.",
+      "The translation is accurate and clear, with only minor imperfections.",
+      "The translation is exceptionally accurate, comprehensive, and demonstrates a deep understanding of the material."
+    ],
+    [
+      "The visual\/verbal representation is confusing, disorganized, and lacks precision.",
+      "The visual\/verbal representation is difficult to understand and contains significant ambiguities.",
+      "The visual\/verbal representation is somewhat clear but lacks precision in some areas.",
+      "The visual\/verbal representation is generally clear and precise, with only minor areas for improvement.",
+      "The visual\/verbal representation is clear, precise, and easy to understand.",
+      "The visual\/verbal representation is exceptionally clear, precise, and insightful, enhancing understanding of the information."
+    ],
+    [
+      "The visual form or language used is inappropriate or completely ineffective in conveying the information.",
+      "The visual form or language used is poorly chosen and hinders understanding.",
+      "The visual form or language used is somewhat effective but could be improved.",
+      "The visual form or language used is generally effective in conveying the information.",
+      "The visual form or language used is highly effective and enhances understanding.",
+      "The visual form or language used is exceptionally effective, creative, and insightful, providing new perspectives on the information."
+    ]
+  ]
+}

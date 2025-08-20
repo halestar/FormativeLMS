@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Basic Economic Principles",
+    "Analysis of the Elements of America's Market Economy",
+    "Understanding of Global Interdependence",
+    "Application to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of basic economic principles such as supply and demand, scarcity, and opportunity cost.",
+      "Student demonstrates a minimal understanding of basic economic principles, with significant misconceptions.",
+      "Student demonstrates a partial understanding of basic economic principles but struggles to apply them in context.",
+      "Student demonstrates a satisfactory understanding of basic economic principles and can apply them to simple scenarios.",
+      "Student demonstrates a strong understanding of basic economic principles and can apply them to complex scenarios.",
+      "Student demonstrates a comprehensive understanding of basic economic principles and can apply them to novel and complex global scenarios."
+    ],
+    [
+      "Student is unable to identify or analyze any elements of America's market economy.",
+      "Student identifies few elements of America's market economy, with no analysis.",
+      "Student identifies some elements of America's market economy but struggles to analyze their impact.",
+      "Student identifies and analyzes several elements of America's market economy, but with limited depth.",
+      "Student identifies and analyzes most elements of America's market economy with reasonable depth.",
+      "Student comprehensively identifies and analyzes all relevant elements of America's market economy with significant depth and insight."
+    ],
+    [
+      "Student shows no awareness of America's economic interdependence with the rest of the world.",
+      "Student demonstrates a minimal awareness of America's economic interdependence, with no specific examples.",
+      "Student identifies some ways in which America's economy is connected to the global economy but struggles to explain the relationships.",
+      "Student explains several ways in which America's economy is connected to the global economy.",
+      "Student thoroughly explains multiple aspects of America's economic connections with the global economy, providing specific examples.",
+      "Student demonstrates a sophisticated understanding of America's economic interdependence within the global setting, including nuanced relationships and potential impacts."
+    ],
+    [
+      "Student is unable to apply their knowledge to real-world scenarios.",
+      "Student attempts to apply their knowledge to real-world scenarios but demonstrates significant misunderstandings.",
+      "Student applies their knowledge to real-world scenarios with limited success and some inaccuracies.",
+      "Student applies their knowledge to real-world scenarios adequately.",
+      "Student effectively applies their knowledge to real-world scenarios, drawing reasonable conclusions.",
+      "Student insightfully applies their knowledge to complex, real-world scenarios, demonstrating a comprehensive understanding of potential outcomes."
+    ]
+  ]
+}

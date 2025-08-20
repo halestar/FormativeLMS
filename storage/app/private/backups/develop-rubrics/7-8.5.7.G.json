@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of FDA-approved Condoms: Demonstrates comprehension of what constitutes an FDA-approved condom and its significance.",
+    "Application of Decision-Making Process: Employs a structured decision-making process to evaluate the use of condoms.",
+    "Evaluation of Pregnancy Prevention: Assesses the effectiveness of condoms in preventing pregnancy.",
+    "Evaluation of STD Prevention: Assesses the effectiveness of condoms in preventing STDs.",
+    "Consideration of Value: Evaluates the overall value (benefits vs. drawbacks) of using condoms."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of FDA-approved condoms or their relevance.",
+      "Shows minimal understanding of FDA-approved condoms, with significant misconceptions.",
+      "Demonstrates a basic understanding of FDA-approved condoms but lacks depth.",
+      "Demonstrates a clear understanding of FDA-approved condoms and their importance.",
+      "Demonstrates a thorough understanding of FDA-approved condoms, including different types and materials.",
+      "Demonstrates an exceptional understanding of FDA-approved condoms, including nuances and current issues."
+    ],
+    [
+      "Does not use a decision-making process.",
+      "Attempts to use a decision-making process, but it is poorly structured and ineffective.",
+      "Uses a basic decision-making process with limited effectiveness.",
+      "Applies a clear decision-making process to evaluate condom use.",
+      "Applies a comprehensive decision-making process, considering multiple factors.",
+      "Applies a sophisticated and nuanced decision-making process, demonstrating critical thinking."
+    ],
+    [
+      "Does not address pregnancy prevention or demonstrates misinformation.",
+      "Shows minimal understanding of condoms' role in pregnancy prevention.",
+      "Identifies condoms as a method of pregnancy prevention but lacks detail.",
+      "Evaluates the effectiveness of condoms in pregnancy prevention with reasonable accuracy.",
+      "Provides a detailed evaluation of condoms' effectiveness, including factors affecting it.",
+      "Offers a comprehensive and insightful evaluation of condoms' role in pregnancy prevention, including statistical data and limitations."
+    ],
+    [
+      "Does not address STD prevention or demonstrates misinformation.",
+      "Shows minimal understanding of condoms' role in STD prevention.",
+      "Identifies condoms as a method of STD prevention but lacks detail.",
+      "Evaluates the effectiveness of condoms in STD prevention with reasonable accuracy.",
+      "Provides a detailed evaluation of condoms' effectiveness, including types of STDs and proper usage.",
+      "Offers a comprehensive and insightful evaluation of condoms' role in STD prevention, including statistical data, limitations, and comparison with other methods."
+    ],
+    [
+      "Does not consider the value of using condoms.",
+      "Presents a one-sided view of condom use, either positive or negative.",
+      "Acknowledges both benefits and drawbacks but lacks depth in evaluation.",
+      "Provides a balanced evaluation of the benefits and drawbacks of condom use.",
+      "Offers a nuanced evaluation, considering various factors influencing the value of condom use (e.g., personal beliefs, relationship status).",
+      "Presents a comprehensive and insightful evaluation of the value of condom use, considering ethical, social, and personal perspectives."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Main Ideas",
+    "Analysis of Supporting Details",
+    "Explanation of Clarification",
+    "Understanding of Diverse Media and Formats"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any main ideas in the media or format presented.",
+      "The student struggles to identify main ideas, offering vague or inaccurate interpretations.",
+      "The student identifies some main ideas, but the selection is incomplete or partially inaccurate.",
+      "The student correctly identifies most main ideas presented in the media or format.",
+      "The student accurately identifies the main ideas in the media or format, demonstrating a clear understanding.",
+      "The student expertly identifies and articulates the main ideas, demonstrating a comprehensive grasp of the content."
+    ],
+    [
+      "The student does not identify any supporting details or provides irrelevant information.",
+      "The student struggles to identify relevant supporting details, offering vague or inaccurate examples.",
+      "The student identifies some supporting details, but the selection is incomplete or connection to main idea is unclear.",
+      "The student correctly identifies most supporting details and relates them to the main ideas.",
+      "The student accurately identifies and analyzes the supporting details, explaining their relevance to the main ideas.",
+      "The student expertly analyzes supporting details, demonstrating a sophisticated understanding of how they reinforce main ideas and clarify the topic."
+    ],
+    [
+      "The student fails to explain how the ideas clarify the topic, text, or issue.",
+      "The student attempts to explain clarification, but the explanation is unclear or lacks logical reasoning.",
+      "The student provides a basic explanation of how the ideas clarify the topic, text, or issue, but it is superficial.",
+      "The student explains how the ideas clarify the topic, text, or issue with reasonable clarity and coherence.",
+      "The student clearly and thoroughly explains how the ideas clarify the topic, text, or issue, demonstrating a solid understanding.",
+      "The student expertly explains how the ideas clarify the topic, text, or issue, offering insightful connections and nuanced interpretations."
+    ],
+    [
+      "The student shows no understanding of the media or format presented.",
+      "The student shows limited understanding of the media or format, struggling to interpret its content.",
+      "The student demonstrates some understanding of the media or format, but the interpretation is basic.",
+      "The student understands the media or format and can interpret its content with reasonable accuracy.",
+      "The student demonstrates a strong understanding of the media or format, interpreting its content accurately and thoughtfully.",
+      "The student expertly understands and interprets the media or format, offering insightful analysis of its effectiveness and impact."
+    ]
+  ]
+}

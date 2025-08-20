@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Complexity of Sentence-Level Elements (Morphology and Syntax)",
+    "Effectiveness and Coherence of Extended Discourse (Text Structure)",
+    "Range of Topics and Vocabulary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates minimal understanding of sentence-level elements; frequent errors impede communication.",
+      "Demonstrates limited understanding of basic sentence-level elements; errors often impede communication.",
+      "Demonstrates partial understanding of common sentence-level elements; errors sometimes impede communication.",
+      "Demonstrates adequate understanding of common sentence-level elements with reasonable accuracy; occasional errors do not significantly impede communication.",
+      "Demonstrates thorough understanding of sentence-level elements, including uncommon structures, with good accuracy; minor errors do not impede communication.",
+      "Demonstrates masterful command of sentence-level elements, including complex and uncommon structures, with high accuracy; errors are minimal and do not impede communication."
+    ],
+    [
+      "Demonstrates minimal ability to organize thoughts into a coherent discourse; lacks text structure.",
+      "Demonstrates limited ability to organize thoughts into a basic discourse; rudimentary text structure.",
+      "Demonstrates partial ability to organize thoughts into a somewhat coherent discourse; text structure is present but inconsistent.",
+      "Demonstrates adequate ability to organize thoughts into a coherent discourse with a recognizable text structure.",
+      "Demonstrates thorough ability to organize thoughts into a well-developed and coherent extended discourse with a clear text structure.",
+      "Demonstrates masterful ability to create a highly coherent, cohesive, and sophisticated extended discourse with an effective and nuanced text structure."
+    ],
+    [
+      "Vocabulary and topics are extremely limited.",
+      "Vocabulary and topics are very limited.",
+      "Vocabulary and topics are somewhat limited.",
+      "Vocabulary and topics are appropriately varied for most situations.",
+      "Vocabulary and topics are varied and nuanced.",
+      "Vocabulary and topics are extensive and sophisticated."
+    ]
+  ]
+}

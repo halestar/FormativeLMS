@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Clarity and Focus: Establishes a clear context, point of view, and introduces characters effectively.",
+    "Narrative Techniques: Skillful use of dialogue, pacing, description, and reflection.",
+    "Transitions and Sequencing: Uses transitions to create a logical flow of events.",
+    "Descriptive Language: Employs precise, descriptive, and sensory language to enhance the narrative.",
+    "Conclusion: Provides a conclusion that logically follows from the narrative and reflects on the events."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to establish a context or point of view; characters are undefined or missing.",
+      "Struggles to establish a clear context or point of view; character introductions are weak.",
+      "Establishes a basic context and point of view; characters are introduced but lack depth.",
+      "Clearly establishes a context and point of view; introduces characters with some detail.",
+      "Effectively establishes a compelling context and point of view; introduces well-developed characters.",
+      "Masterfully establishes a vivid context and engaging point of view; introduces memorable and well-defined characters."
+    ],
+    [
+      "Demonstrates no use of narrative techniques; story lacks development and engagement.",
+      "Limited or ineffective use of narrative techniques; story feels underdeveloped.",
+      "Uses basic narrative techniques with limited success; story shows some development.",
+      "Effectively uses a variety of narrative techniques to develop experiences and characters.",
+      "Skillfully employs narrative techniques to create a dynamic and engaging narrative.",
+      "Masterfully crafts narrative using techniques to create a compelling, immersive experience."
+    ],
+    [
+      "Lacks transitions, making the sequence of events confusing and disjointed.",
+      "Few or ineffective transitions, resulting in a choppy or unclear sequence of events.",
+      "Uses some transitions, but the sequence of events may still be unclear at times.",
+      "Uses a variety of transitions to effectively convey sequence and relationships between events.",
+      "Skillfully employs transitions to create a smooth and logical flow of events; enhances clarity.",
+      "Masterfully uses transitions to create a seamless and compelling flow of events; elevates the narrative."
+    ],
+    [
+      "Lacks descriptive language; writing is vague and fails to capture experiences or events.",
+      "Limited descriptive language; struggles to convey experiences or events vividly.",
+      "Uses some descriptive language, but details are often generic or uninspired.",
+      "Uses precise, descriptive, and sensory language to capture the action and convey experiences.",
+      "Vividly uses descriptive language to create sensory experiences for the reader.",
+      "Uses sensory language to create an immersive experience that captivates the reader."
+    ],
+    [
+      "Lacks a conclusion or the conclusion is abrupt and unrelated to the narrative.",
+      "Weak conclusion that does not fully resolve the narrative or offer meaningful reflection.",
+      "Provides a basic conclusion that summarizes the narrative without significant reflection.",
+      "Offers a conclusion that logically follows from the narrative and provides some reflection.",
+      "Provides a thoughtful and insightful conclusion that enhances the narrative's impact.",
+      "Crafts a powerful and reflective conclusion that lingers with the reader, elevating the narrative's meaning."
+    ]
+  ]
+}

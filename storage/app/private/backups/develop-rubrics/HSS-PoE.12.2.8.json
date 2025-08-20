@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Profit as Incentive",
+    "Explanation of the Role of Entrepreneurs",
+    "Application to a Market Economy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of profit as an incentive for entrepreneurs.",
+      "Student demonstrates a very limited understanding of profit as an incentive, with significant misconceptions.",
+      "Student demonstrates a basic understanding of profit as an incentive but struggles to explain it clearly or accurately.",
+      "Student demonstrates a satisfactory understanding of profit as an incentive and can explain it with some clarity.",
+      "Student demonstrates a strong understanding of profit as an incentive and can explain it clearly with relevant examples.",
+      "Student demonstrates a comprehensive understanding of profit as an incentive, explains it clearly and insightful, and connects it to broader economic concepts."
+    ],
+    [
+      "Student does not explain the role of entrepreneurs in a market economy.",
+      "Student attempts to explain the role of entrepreneurs but provides an inaccurate or incomplete description.",
+      "Student provides a limited explanation of the role of entrepreneurs, lacking key details or clarity.",
+      "Student provides an adequate explanation of the role of entrepreneurs in a market economy.",
+      "Student provides a thorough and accurate explanation of the role of entrepreneurs, including their impact on the market.",
+      "Student provides a comprehensive and insightful explanation of the role of entrepreneurs, demonstrating a deep understanding of their significance in driving innovation and economic growth."
+    ],
+    [
+      "Student fails to connect the concept of profit to a market economy.",
+      "Student attempts to connect profit to a market economy but demonstrates a lack of understanding of the system.",
+      "Student makes a weak connection between profit and a market economy, with limited supporting details.",
+      "Student adequately connects profit to a market economy, explaining the basic relationship.",
+      "Student clearly connects profit to a market economy, providing relevant examples and explanations.",
+      "Student insightfully connects profit to a market economy, analyzing its impact on competition, innovation, and overall economic health."
+    ]
+  ]
+}

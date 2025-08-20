@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Polls and Their Impact",
+    "Analysis of Campaign Advertising Techniques",
+    "Knowledge of Campaign Funding and Related Controversies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of polls or their influence on campaigns.",
+      "Shows minimal understanding of polls; struggles to explain their role.",
+      "Identifies polls but provides a limited explanation of their impact on campaigns.",
+      "Explains how polls are used in campaigns and their general influence, but lacks depth.",
+      "Analyzes the role of polls in shaping campaign strategies and public perception with supporting details.",
+      "Critically evaluates the strengths and limitations of polls, and explains how they strategically influence campaign outcomes."
+    ],
+    [
+      "Unable to identify or describe campaign advertising techniques.",
+      "Identifies campaign ads but cannot explain the techniques used.",
+      "Describes basic advertising techniques with limited examples from campaigns.",
+      "Explains common advertising techniques used in campaigns and their intended effects.",
+      "Analyzes specific campaign ads, explaining the techniques used and their potential impact on voters.",
+      "Deconstructs campaign advertising, evaluating the effectiveness and ethical implications of various persuasive techniques."
+    ],
+    [
+      "Shows no awareness of campaign funding or related controversies.",
+      "Has limited awareness of campaign funding but cannot discuss related issues.",
+      "Identifies campaign funding as a topic but provides superficial information.",
+      "Describes the basics of campaign funding and some common controversies.",
+      "Explains the sources of campaign funding, and analyzes controversies related to campaign finance regulations.",
+      "Evaluates the impact of campaign funding on election outcomes, and proposes solutions to address related controversies."
+    ]
+  ]
+}

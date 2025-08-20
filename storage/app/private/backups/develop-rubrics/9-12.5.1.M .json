@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Personal Stressors",
+    "Assessment of Stress Management Techniques",
+    "Application of Stress Management Techniques"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of personal stressors.",
+      "The student struggles to identify any personal stressors.",
+      "The student identifies one or two potential stressors but lacks depth in understanding.",
+      "The student identifies several personal stressors with a basic understanding of their impact.",
+      "The student accurately identifies multiple personal stressors and demonstrates a good understanding of their effects.",
+      "The student comprehensively identifies a wide range of personal stressors, demonstrating a deep understanding of their complex impact on well-being."
+    ],
+    [
+      "The student is unaware of any stress management techniques.",
+      "The student knows a few stress management techniques, but doesn't show how they are useful.",
+      "The student describes one or two stress management techniques but struggles to explain how they work.",
+      "The student identifies several stress management techniques and provides a basic explanation of their application.",
+      "The student describes a variety of stress management techniques and explains how they can be effectively used.",
+      "The student comprehensively assesses a wide range of stress management techniques, providing insightful explanations of their mechanisms and appropriate application in various scenarios."
+    ],
+    [
+      "The student does not apply any stress management techniques.",
+      "The student attempts to apply a stress management technique, but shows little to no utility.",
+      "The student attempts to apply a stress management technique, but struggles to use it correctly or effectively.",
+      "The student applies one or two stress management techniques with some success.",
+      "The student effectively applies several stress management techniques to manage personal stressors.",
+      "The student skillfully and consistently applies a variety of stress management techniques, demonstrating adaptability and resilience in managing personal stressors."
+    ]
+  ]
+}

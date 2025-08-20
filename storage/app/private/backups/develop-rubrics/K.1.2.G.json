@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of Description",
+    "Use of Appropriate Terminology",
+    "Self-Awareness and Reflection"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student provides no description or the description is entirely inaccurate.",
+      "The student provides a minimal description with significant inaccuracies and omissions.",
+      "The student provides a basic description with some inaccuracies or omissions.",
+      "The student provides a generally accurate and complete description with minor omissions.",
+      "The student provides a detailed and accurate description covering most physical characteristics.",
+      "The student provides a comprehensive, detailed, and accurate description of their physical characteristics, demonstrating a strong understanding."
+    ],
+    [
+      "The student does not use any appropriate terminology or uses it incorrectly.",
+      "The student uses very limited appropriate terminology, with frequent errors.",
+      "The student uses some appropriate terminology, but with noticeable errors or limitations.",
+      "The student generally uses appropriate terminology with few errors.",
+      "The student consistently uses appropriate terminology correctly and effectively.",
+      "The student demonstrates mastery by consistently and accurately using a wide range of appropriate terminology."
+    ],
+    [
+      "The student shows no self-awareness or reflection in their description.",
+      "The student demonstrates minimal self-awareness or reflection.",
+      "The student demonstrates some self-awareness and reflection, but it is superficial.",
+      "The student demonstrates adequate self-awareness and reflection.",
+      "The student demonstrates thoughtful self-awareness and reflection, showing insight into their physical characteristics.",
+      "The student demonstrates exceptional self-awareness and reflection, providing insightful observations about their physical characteristics and how they relate to their overall health."
+    ]
+  ]
+}

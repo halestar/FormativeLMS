@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Successes and Challenges",
+    "Understanding of Ideas and Leaders",
+    "Analysis of Societal Conditions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify any successes or challenges of new democracies.",
+      "Student identifies one success or challenge with limited detail.",
+      "Student identifies at least two successes or challenges with some detail.",
+      "Student identifies several successes and challenges with reasonable detail and accuracy.",
+      "Student comprehensively identifies multiple successes and challenges with strong detail and accuracy, demonstrating good understanding.",
+      "Student thoroughly identifies and analyzes successes and challenges with insightful detail, accuracy, and synthesis of information."
+    ],
+    [
+      "Student does not identify relevant ideas or leaders associated with new democracies.",
+      "Student identifies one idea or leader with limited context.",
+      "Student identifies a few ideas or leaders with some context.",
+      "Student identifies several ideas and leaders and provides a basic explanation of their role.",
+      "Student explains multiple ideas and leaders with clear explanations of their influence on the success or failure of democracies.",
+      "Student demonstrates a sophisticated understanding of the complex interplay between ideas, leaders, and democratic outcomes."
+    ],
+    [
+      "Student fails to mention societal conditions influencing new democracies.",
+      "Student mentions one societal condition vaguely.",
+      "Student mentions a few societal conditions with limited explanation.",
+      "Student describes several societal conditions and their impact on democratic development.",
+      "Student analyzes societal conditions effectively, demonstrating how they have helped or hindered the establishment and sustainability of democracies.",
+      "Student provides a nuanced analysis of societal conditions, demonstrating a deep understanding of their complex and multifaceted impact on democratic processes."
+    ]
+  ]
+}

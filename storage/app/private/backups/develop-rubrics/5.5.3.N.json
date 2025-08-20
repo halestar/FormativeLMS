@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Comparison of personal eating habits to dietary guidelines",
+    "Comparison of personal physical activity patterns to exercise guidelines",
+    "Application of age-appropriate health guidelines"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to compare personal eating habits or misinterprets dietary guidelines.",
+      "Attempts to compare personal eating habits to dietary guidelines but shows significant misunderstandings or omissions.",
+      "Identifies some similarities or differences between personal eating habits and dietary guidelines, but lacks depth or accuracy in the comparison.",
+      "Compares personal eating habits to dietary guidelines, identifying several similarities and differences with reasonable accuracy.",
+      "Comprehensively compares personal eating habits to dietary guidelines, accurately identifying multiple similarities and differences with supporting details.",
+      "Demonstrates a deep and insightful comparison of personal eating habits to dietary guidelines, providing accurate details and a nuanced understanding of the implications."
+    ],
+    [
+      "Does not address personal physical activity patterns or exercise guidelines.",
+      "Attempts to address personal physical activity patterns or exercise guidelines but with significant inaccuracies or missing information.",
+      "Identifies basic aspects of personal physical activity but struggles to compare them to guidelines effectively.",
+      "Compares personal physical activity patterns to exercise guidelines, noting key aspects of alignment and discrepancies.",
+      "Provides a thorough comparison of personal physical activity patterns and exercise guidelines, supporting observations with specific examples.",
+      "Offers a detailed and insightful analysis of personal physical activity patterns in relation to exercise guidelines, demonstrating a strong understanding of the benefits and risks."
+    ],
+    [
+      "Shows no understanding of age-appropriate health guidelines.",
+      "Demonstrates a limited understanding of age-appropriate health guidelines, with several inaccuracies or omissions.",
+      "Identifies some age-appropriate health guidelines but struggles to apply them to personal habits.",
+      "Applies age-appropriate health guidelines when comparing personal habits, showing a general understanding of their relevance.",
+      "Applies age-appropriate health guidelines effectively, explaining how they relate to personal eating and activity patterns.",
+      "Critically evaluates the applicability of age-appropriate health guidelines to personal circumstances, demonstrating a nuanced understanding of individual needs."
+    ]
+  ]
+}

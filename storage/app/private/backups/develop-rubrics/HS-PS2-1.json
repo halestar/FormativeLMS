@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation: Ability to analyze provided data (tables, graphs) to discern relationships between force, mass, and acceleration, and to use this analysis to support claims related to Newton's Second Law.",
+    "Application of Newton's Second Law: Skill in applying Newton's Second Law to solve problems involving macroscopic objects in one-dimensional motion.",
+    "Communication of Scientific Understanding: Clarity and precision in communicating the relationship between net force, mass, and acceleration, supported by evidence and reasoning."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze the data or draw conclusions.",
+      "Attempts to analyze data, but struggles to identify relationships between force, mass, and acceleration. Conclusions are unsupported or incorrect.",
+      "Identifies some relationships between force, mass, and acceleration, but analysis is incomplete or contains inaccuracies. Conclusions are partially supported by the data.",
+      "Analyzes data effectively and identifies clear relationships between force, mass, and acceleration. Draws reasonable conclusions that are generally supported by the data.",
+      "Conducts a thorough and accurate analysis of the data, clearly identifying the mathematical relationships between force, mass, and acceleration as described by Newton's Second Law. Conclusions are well-supported by the data.",
+      "Demonstrates a sophisticated understanding of Newton's Second Law through insightful and comprehensive data analysis. Conclusions are thoroughly supported, and the analysis reveals a deeper understanding of the underlying principles."
+    ],
+    [
+      "Unable to apply Newton's Second Law to solve problems.",
+      "Attempts to apply Newton's Second Law, but demonstrates significant errors in calculations or conceptual understanding.",
+      "Applies Newton's Second Law with some accuracy, but struggles with more complex problems or requires significant guidance.",
+      "Can generally apply Newton's Second Law to solve standard problems involving force, mass, and acceleration.",
+      "Applies Newton's Second Law accurately and efficiently to solve a variety of problems, including those with multiple steps or requiring algebraic manipulation.",
+      "Demonstrates a mastery of Newton's Second Law by solving complex and novel problems with accuracy and insight. Can explain the underlying principles and assumptions of the law."
+    ],
+    [
+      "Unable to articulate the relationship between net force, mass, and acceleration.",
+      "Attempts to describe the relationship, but explanation is unclear, incomplete, or contains inaccuracies.",
+      "Describes the relationship between net force, mass, and acceleration with some clarity, but lacks sufficient supporting evidence or reasoning.",
+      "Clearly explains the relationship between net force, mass, and acceleration, providing relevant evidence and logical reasoning to support their explanation.",
+      "Communicates a comprehensive and nuanced understanding of Newton's Second Law, using precise language and providing strong evidence and reasoning to support their explanation.",
+      "Presents a masterful explanation of Newton's Second Law, demonstrating a deep understanding of the concepts and their implications. Communication is clear, concise, and compelling."
+    ]
+  ]
+}

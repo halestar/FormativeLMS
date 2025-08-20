@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Historical Context: Demonstrates comprehension of the historical period, social norms, and cultural values relevant to the story and characters.",
+    "Analysis of Characters' Beliefs and Behaviors: Analyzes the characters' beliefs and behaviors, explaining how these beliefs influenced their actions within the story.",
+    "Understanding of Consequences: Explains the consequences of the characters' actions and relates them back to their initial beliefs and behaviors."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of the historical context or relevance to the characters' actions.",
+      "Demonstrates minimal awareness of the historical context; struggles to connect it to the characters' beliefs or behaviors.",
+      "Displays some understanding of the historical context, but the connection to characters' actions and beliefs is superficial.",
+      "Exhibits a clear understanding of the historical context and can link it to the characters' beliefs and behaviors with moderate detail.",
+      "Demonstrates a strong understanding of the historical context, providing specific details to explain how it influenced the characters' actions and beliefs.",
+      "Shows an exceptional understanding of the historical context, offering nuanced insights into how it shaped the characters' beliefs, behaviors, and the consequences of their actions."
+    ],
+    [
+      "Fails to identify or describe the characters' beliefs and behaviors.",
+      "Identifies characters' beliefs and behaviors but provides no analysis of their influence on actions.",
+      "Offers a basic analysis of how characters' beliefs influenced their actions, but lacks depth and specific examples.",
+      "Provides a detailed analysis of how characters' beliefs shaped their actions, with relevant examples from the story.",
+      "Demonstrates a comprehensive analysis of the intricate relationship between characters' beliefs, behaviors, and actions, supported by strong evidence.",
+      "Offers an insightful and nuanced analysis of the complex interplay between characters' beliefs, behaviors, and actions, demonstrating a sophisticated understanding."
+    ],
+    [
+      "Does not identify or explain the consequences of the characters' actions.",
+      "Identifies consequences but does not connect them to the characters' beliefs or behaviors.",
+      "Connects consequences to characters' beliefs and behaviors with limited explanation.",
+      "Clearly explains how the consequences of characters' actions relate to their initial beliefs and behaviors, providing logical connections.",
+      "Provides a detailed explanation of the consequences, effectively linking them back to the characters' underlying beliefs and behaviors, and explores broader implications.",
+      "Offers a profound analysis of the consequences, demonstrating a deep understanding of how characters' beliefs and behaviors led to specific outcomes, and analyzes the significance of these outcomes."
+    ]
+  ]
+}

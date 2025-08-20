@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Personal Stressors",
+    "Assessment of Stress Management Techniques",
+    "Application to Personal Stressors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to identify any personal stressors.",
+      "The student identifies one or two stressors with limited accuracy.",
+      "The student identifies some personal stressors, but the description lacks detail and clarity.",
+      "The student accurately identifies several personal stressors with a reasonable level of detail.",
+      "The student comprehensively identifies most personal stressors with clear and insightful descriptions.",
+      "The student expertly identifies and articulates a wide range of personal stressors with nuanced understanding."
+    ],
+    [
+      "The student demonstrates no understanding of stress management techniques.",
+      "The student mentions one or two stress management techniques without explaining how they work.",
+      "The student lists a few stress management techniques but struggles to assess their effectiveness.",
+      "The student describes several stress management techniques and offers a basic assessment of their potential benefits.",
+      "The student thoroughly assesses a variety of stress management techniques, explaining their mechanisms and potential benefits with clarity.",
+      "The student critically evaluates a wide range of stress management techniques, providing insightful analysis of their effectiveness and applicability to different situations."
+    ],
+    [
+      "The student does not attempt to connect stress management techniques to personal stressors.",
+      "The student makes a weak connection between one stress management technique and a personal stressor.",
+      "The student attempts to connect a few stress management techniques to personal stressors, but the application is superficial.",
+      "The student reasonably connects several stress management techniques to specific personal stressors, providing some justification for their choices.",
+      "The student thoughtfully connects a variety of stress management techniques to relevant personal stressors, explaining why they might be effective.",
+      "The student expertly tailors stress management techniques to address specific personal stressors, providing insightful justifications for their choices based on a deep understanding of both the stressors and the techniques."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying relative locations using near\/far.",
+    "Accuracy in identifying relative locations using left\/right.",
+    "Accuracy in identifying relative locations using behind\/in front."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of near\/far concepts.",
+      "Student struggles to identify relative locations using near\/far with significant errors.",
+      "Student can identify some relative locations using near\/far but makes frequent errors.",
+      "Student accurately identifies most relative locations using near\/far with occasional minor errors.",
+      "Student consistently and accurately identifies relative locations using near\/far.",
+      "Student expertly identifies relative locations using near\/far, providing clear and nuanced explanations and demonstrating a thorough understanding of proximity and distance."
+    ],
+    [
+      "Student does not demonstrate understanding of left\/right concepts.",
+      "Student struggles to identify relative locations using left\/right with significant errors.",
+      "Student can identify some relative locations using left\/right but makes frequent errors.",
+      "Student accurately identifies most relative locations using left\/right with occasional minor errors.",
+      "Student consistently and accurately identifies relative locations using left\/right.",
+      "Student expertly identifies relative locations using left\/right, providing clear explanations and demonstrating a thorough understanding of directional relationships."
+    ],
+    [
+      "Student does not demonstrate understanding of behind\/in front concepts.",
+      "Student struggles to identify relative locations using behind\/in front with significant errors.",
+      "Student can identify some relative locations using behind\/in front but makes frequent errors.",
+      "Student accurately identifies most relative locations using behind\/in front with occasional minor errors.",
+      "Student consistently and accurately identifies relative locations using behind\/in front.",
+      "Student expertly identifies relative locations using behind\/in front, providing clear explanations and demonstrating a thorough understanding of spatial relationships and perspectives."
+    ]
+  ]
+}

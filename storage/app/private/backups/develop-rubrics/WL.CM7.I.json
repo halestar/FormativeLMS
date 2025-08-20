@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identification of Morphological Elements",
+    "Recognition of Syntactic Structures",
+    "Comparison of Similarities",
+    "Comparison of Differences",
+    "Use of Linguistic Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify morphological elements in any language.",
+      "Attempts to identify morphological elements are inaccurate and demonstrate no understanding of morphology.",
+      "Identifies a few morphological elements in one language with limited accuracy.",
+      "Identifies basic morphological elements in one or two languages with some accuracy.",
+      "Identifies most morphological elements accurately in two or more languages.",
+      "Accurately identifies and explains a wide range of morphological elements in multiple languages."
+    ],
+    [
+      "No attempt to recognize syntactic structures in any language.",
+      "Attempts to recognize syntactic structures are inaccurate and show no understanding of syntax.",
+      "Recognizes a few basic syntactic structures in one language with limited accuracy.",
+      "Recognizes basic syntactic structures in one or two languages with some accuracy.",
+      "Recognizes most common syntactic structures accurately in two or more languages.",
+      "Accurately recognizes and explains a wide range of syntactic structures in multiple languages."
+    ],
+    [
+      "No comparison of similarities is made.",
+      "Attempts to compare similarities are vague and inaccurate.",
+      "Identifies superficial similarities between languages.",
+      "Identifies some basic similarities between languages with limited explanation.",
+      "Clearly identifies and explains significant similarities between languages.",
+      "Provides insightful and comprehensive analysis of similarities between languages with supporting evidence."
+    ],
+    [
+      "No comparison of differences is made.",
+      "Attempts to compare differences are vague and inaccurate.",
+      "Identifies superficial differences between languages.",
+      "Identifies some basic differences between languages with limited explanation.",
+      "Clearly identifies and explains significant differences between languages.",
+      "Provides insightful and comprehensive analysis of differences between languages with supporting evidence."
+    ],
+    [
+      "No linguistic terminology is used.",
+      "Incorrect or inappropriate use of linguistic terminology.",
+      "Limited and sometimes inaccurate use of linguistic terminology.",
+      "Uses basic linguistic terminology correctly.",
+      "Uses a range of linguistic terminology accurately and appropriately.",
+      "Demonstrates mastery of linguistic terminology with precise and nuanced application."
+    ]
+  ]
+}

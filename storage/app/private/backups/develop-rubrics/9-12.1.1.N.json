@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information",
+    "Application to Real-World Scenarios",
+    "Critical Evaluation of Sources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of factual nutrition information and perpetuates common myths without recognition.",
+      "Displays minimal understanding, with significant inaccuracies and confusion between facts and myths.",
+      "Shows a basic understanding but includes some inaccuracies or struggles to differentiate between facts and myths consistently.",
+      "Demonstrates a satisfactory understanding, mostly accurately distinguishing between facts and myths with minor oversights.",
+      "Exhibits a strong understanding, accurately differentiating between facts and myths with clear and well-supported reasoning.",
+      "Demonstrates a comprehensive and nuanced understanding, expertly differentiating between facts and myths with insightful analysis and evidence-based reasoning."
+    ],
+    [
+      "Unable to apply knowledge to real-world scenarios or make informed decisions about nutrition practices and products.",
+      "Struggles to apply knowledge, making poor choices or demonstrating unsafe practices.",
+      "Applies knowledge inconsistently, sometimes making appropriate choices but still influenced by myths or misinformation.",
+      "Generally applies knowledge effectively to make informed decisions, demonstrating a good understanding of nutrition principles.",
+      "Consistently applies knowledge effectively, demonstrating a strong ability to make informed decisions and promote healthy practices.",
+      "Demonstrates exceptional application of knowledge, critically evaluating nutrition practices and products and advocating for evidence-based approaches."
+    ],
+    [
+      "Accepts information without question, failing to evaluate the credibility or reliability of sources.",
+      "Shows minimal awareness of source credibility, accepting information from unreliable sources.",
+      "Begins to evaluate sources but lacks critical analysis skills, sometimes accepting biased or misleading information.",
+      "Evaluates sources with some critical analysis, identifying potential biases or limitations.",
+      "Critically evaluates sources, discerning credible information from misinformation and identifying potential biases.",
+      "Demonstrates sophisticated critical evaluation skills, analyzing sources with nuance and precision and recognizing the complexities of nutrition research."
+    ]
+  ]
+}

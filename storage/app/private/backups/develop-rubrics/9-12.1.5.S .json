@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and completeness of the description of rules and laws intended to prevent injuries.",
+    "Ability to differentiate between various types of rules and laws and their specific focus areas (e.g., traffic laws, sports regulations, workplace safety).",
+    "Understanding of the rationale behind rules and laws designed to prevent injuries, including their impact on public health and safety."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of rules and laws intended to prevent injuries.",
+      "The student provides a minimal or inaccurate description of rules and laws intended to prevent injuries.",
+      "The student provides a basic description of rules and laws intended to prevent injuries, but with some inaccuracies or omissions.",
+      "The student accurately describes several rules and laws intended to prevent injuries.",
+      "The student accurately and thoroughly describes multiple rules and laws intended to prevent injuries, providing context and examples.",
+      "The student demonstrates a comprehensive understanding of rules and laws intended to prevent injuries, including their purpose, application, and impact, and can explain how these rules contribute to overall health and safety."
+    ],
+    [
+      "The student does not differentiate between types of rules and laws.",
+      "The student struggles to differentiate between different types of rules and laws intended to prevent injuries.",
+      "The student identifies a few different types of rules and laws but does not clearly explain their focus areas.",
+      "The student differentiates between several types of rules and laws and identifies their specific focus areas.",
+      "The student clearly differentiates between various types of rules and laws and provides detailed explanations of their specific focus areas and contexts.",
+      "The student expertly differentiates between numerous types of rules and laws, providing comprehensive examples of their application across various settings and demonstrating a nuanced understanding of their impact."
+    ],
+    [
+      "The student shows no understanding of the rationale behind rules and laws preventing injuries.",
+      "The student demonstrates limited understanding of the rationale behind rules and laws intended to prevent injuries.",
+      "The student identifies some reasons behind rules and laws intended to prevent injuries but struggles to explain their impact.",
+      "The student understands the rationale behind several rules and laws and explains their impact on public health and safety.",
+      "The student demonstrates a strong understanding of the rationale behind rules and laws and clearly explains their impact on public health and safety with supporting evidence.",
+      "The student demonstrates a sophisticated understanding of the rationale behind rules and laws, comprehensively explaining their impact on public health and safety, and critically analyzes their effectiveness and potential improvements."
+    ]
+  ]
+}

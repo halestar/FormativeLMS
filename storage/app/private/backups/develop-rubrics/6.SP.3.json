@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Measures of Center",
+    "Understanding Measures of Variation",
+    "Summarizing Data Sets"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of measures of center (mean, median, mode).",
+      "Student demonstrates minimal understanding of measures of center, with significant errors or omissions.",
+      "Student demonstrates basic understanding of measures of center but struggles to apply them correctly.",
+      "Student demonstrates satisfactory understanding of measures of center and can apply them with some accuracy.",
+      "Student demonstrates strong understanding of measures of center and can accurately apply them in most situations.",
+      "Student demonstrates excellent understanding of measures of center and can accurately apply them in all situations, including complex problems."
+    ],
+    [
+      "Student does not demonstrate understanding of measures of variation (range, interquartile range, standard deviation).",
+      "Student demonstrates minimal understanding of measures of variation, with significant errors or omissions.",
+      "Student demonstrates basic understanding of measures of variation but struggles to apply them correctly.",
+      "Student demonstrates satisfactory understanding of measures of variation and can apply them with some accuracy.",
+      "Student demonstrates strong understanding of measures of variation and can accurately apply them in most situations.",
+      "Student demonstrates excellent understanding of measures of variation and can accurately apply them in all situations, including complex problems."
+    ],
+    [
+      "Student is unable to summarize a data set using measures of center and variation.",
+      "Student attempts to summarize a data set but makes significant errors in selecting or interpreting the measures.",
+      "Student summarizes a data set with limited accuracy, showing some understanding of how measures of center and variation relate to the data.",
+      "Student provides a generally accurate summary of a data set using measures of center and variation.",
+      "Student provides a clear and accurate summary of a data set, effectively using measures of center and variation to describe its key features.",
+      "Student provides a comprehensive and insightful summary of a data set, skillfully using measures of center and variation to reveal patterns and trends."
+    ]
+  ]
+}

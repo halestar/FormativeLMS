@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Completing the Square and Standard Form Conversion",
+    "Identification of Conic Section",
+    "Graphing the Equation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of completing the square or converting to standard form.",
+      "Student attempts to complete the square but makes significant errors, unable to convert the equation to standard form.",
+      "Student can complete the square with some errors, showing a limited ability to convert to standard form.",
+      "Student accurately completes the square and converts the equation to standard form with minor errors.",
+      "Student accurately completes the square and converts the equation to standard form efficiently.",
+      "Student demonstrates a thorough understanding of completing the square, converting equations to standard form, and can explain the process clearly."
+    ],
+    [
+      "Student cannot identify the type of conic section represented by the equation.",
+      "Student incorrectly identifies the type of conic section.",
+      "Student can identify the conic section with prompting or after correction.",
+      "Student correctly identifies the conic section.",
+      "Student correctly identifies the conic section and can justify their answer based on the equation's characteristics.",
+      "Student can accurately identify various conic sections from different forms of equations and explain the key features that distinguish them."
+    ],
+    [
+      "Student does not attempt to graph the equation, or the attempt is completely incorrect.",
+      "Student attempts to graph the equation, but the graph is significantly flawed and does not represent the equation.",
+      "Student graphs the equation with major inaccuracies in key features (e.g., center, vertices).",
+      "Student graphs the equation with minor inaccuracies, but the overall shape and key features are generally correct.",
+      "Student accurately graphs the equation, labeling all key features correctly.",
+      "Student accurately graphs the equation, labels key features, and can explain how changes to the equation would affect the graph."
+    ]
+  ]
+}

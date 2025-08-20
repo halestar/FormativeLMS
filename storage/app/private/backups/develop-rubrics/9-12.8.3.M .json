@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectively objecting to teasing based on perceived personal characteristics",
+    "Effectively objecting to teasing based on sexual orientation",
+    "Clarity and respect in communication when objecting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not object to teasing or appears to condone it.",
+      "Student weakly objects to teasing or shows discomfort but does not actively intervene.",
+      "Student occasionally objects to teasing but may not do so consistently.",
+      "Student usually objects to teasing but may need prompting or support.",
+      "Student consistently objects to teasing and clearly articulates why it is inappropriate.",
+      "Student consistently and confidently objects to teasing, providing clear explanations of why such behavior is harmful and unacceptable. Actively promotes a culture of respect."
+    ],
+    [
+      "Student does not object to teasing or appears to condone it.",
+      "Student weakly objects to teasing or shows discomfort but does not actively intervene.",
+      "Student occasionally objects to teasing but may not do so consistently.",
+      "Student usually objects to teasing but may need prompting or support.",
+      "Student consistently objects to teasing and clearly articulates why it is inappropriate.",
+      "Student consistently and confidently objects to teasing, providing clear explanations of why such behavior is harmful and unacceptable. Actively promotes a culture of respect."
+    ],
+    [
+      "Student's response is unclear, disrespectful, or escalates the situation.",
+      "Student's response lacks clarity or may inadvertently perpetuate harmful stereotypes.",
+      "Student's response is somewhat clear but could be more respectful or effective.",
+      "Student's response is generally clear and respectful but may lack confidence or conviction.",
+      "Student's response is clear, respectful, and effectively addresses the teasing behavior.",
+      "Student's response is articulate, empathetic, and promotes understanding. Models respectful communication while strongly objecting to harmful behavior."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Qur'an and Sunnah as Primary Sources",
+    "Explanation of Influence on Daily Life",
+    "Accuracy and Use of Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Qur'an or Sunnah.",
+      "Student shows minimal understanding, with significant inaccuracies.",
+      "Student identifies the Qur'an and Sunnah but struggles to explain their significance.",
+      "Student explains the Qur'an and Sunnah as sources of Islamic beliefs, practice, and law, but lacks depth.",
+      "Student thoroughly explains the Qur'an and Sunnah and their importance and provides accurate details.",
+      "Student provides a comprehensive and nuanced explanation of the Qur'an and Sunnah, demonstrating a deep understanding of their role as primary sources."
+    ],
+    [
+      "Student does not address the influence of the Qur'an and Sunnah on daily life.",
+      "Student offers a vague or inaccurate description of the influence on daily life.",
+      "Student identifies some ways the Qur'an and Sunnah influence daily life but lacks specific examples.",
+      "Student describes how the Qur'an and Sunnah influence daily life, providing a few relevant examples.",
+      "Student gives clear and specific examples of how the Qur'an and Sunnah affect Muslims' daily life.",
+      "Student provides a detailed analysis of how the Qur'an and Sunnah influence various aspects of Muslims' daily life, demonstrating insight."
+    ],
+    [
+      "Student uses inaccurate terminology and demonstrates misunderstanding.",
+      "Student uses some correct terminology but with errors and confusion.",
+      "Student generally uses correct terminology but with occasional errors.",
+      "Student uses correct terminology effectively.",
+      "Student uses precise and accurate terminology.",
+      "Student uses terminology expertly."
+    ]
+  ]
+}

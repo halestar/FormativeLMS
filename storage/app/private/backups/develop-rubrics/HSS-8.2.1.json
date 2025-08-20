@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Magna Carta's Significance",
+    "Understanding of the English Bill of Rights' Significance",
+    "Understanding of the Mayflower Compact's Significance",
+    "Ability to Compare and Contrast Documents"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Magna Carta or its historical context.",
+      "Shows a limited awareness of the Magna Carta but struggles to explain its significance.",
+      "Identifies the Magna Carta as an important historical document but provides a superficial explanation of its impact on the development of political principles.",
+      "Explains the Magna Carta's key principles, such as limitations on royal power and protection of certain rights, and its influence on later political thought.",
+      "Analyzes the Magna Carta's specific clauses and their long-term impact on the development of constitutionalism and the rule of law, connecting it to the U.S. Constitution.",
+      "Critically evaluates the Magna Carta's historical context, limitations, and enduring legacy, drawing connections to contemporary debates about individual rights and government power."
+    ],
+    [
+      "Demonstrates no understanding of the English Bill of Rights or its historical context.",
+      "Shows a limited awareness of the English Bill of Rights but struggles to explain its significance.",
+      "Identifies the English Bill of Rights as an important historical document but provides a superficial explanation of its impact on the development of political principles.",
+      "Explains the English Bill of Rights' key principles, such as parliamentary supremacy and individual liberties, and its influence on later political thought.",
+      "Analyzes the English Bill of Rights' specific provisions and their impact on the development of constitutional government, connecting it to the U.S. Bill of Rights.",
+      "Critically evaluates the English Bill of Rights' historical context, limitations, and enduring legacy, drawing connections to contemporary debates about individual rights and government power."
+    ],
+    [
+      "Demonstrates no understanding of the Mayflower Compact or its historical context.",
+      "Shows a limited awareness of the Mayflower Compact but struggles to explain its significance.",
+      "Identifies the Mayflower Compact as an important historical document but provides a superficial explanation of its impact on the development of political principles.",
+      "Explains the Mayflower Compact's key principles, such as self-government and the establishment of a social contract, and its influence on later political thought.",
+      "Analyzes the Mayflower Compact's specific provisions and their impact on the development of democratic institutions in the American colonies.",
+      "Critically evaluates the Mayflower Compact's historical context, limitations, and enduring legacy, drawing connections to contemporary debates about self-government and civic engagement."
+    ],
+    [
+      "Unable to compare and contrast the documents.",
+      "Attempts to compare and contrast the documents but struggles to identify meaningful similarities or differences.",
+      "Identifies some basic similarities or differences between the documents but lacks depth in analysis.",
+      "Compares and contrasts the documents, highlighting key similarities and differences in their principles and purposes.",
+      "Analyzes the documents, explaining how they reflect different historical contexts and contribute to the evolution of political thought.",
+      "Synthesizes information from the documents to construct a nuanced understanding of the development of political principles, considering their respective strengths and limitations."
+    ]
+  ]
+}

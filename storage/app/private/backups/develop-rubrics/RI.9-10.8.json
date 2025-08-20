@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Claims and Arguments",
+    "Evaluation of Reasoning Validity",
+    "Relevance and Sufficiency of Evidence",
+    "Identification of False Statements and Fallacious Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any claims or arguments within the text.",
+      "Identifies only the main claim with significant inaccuracies.",
+      "Identifies the main claim and some supporting arguments, but with limited accuracy.",
+      "Identifies the main claim and most supporting arguments with reasonable accuracy.",
+      "Accurately identifies the main claim and all significant supporting arguments.",
+      "Masterfully identifies and clearly articulates the main claim and all supporting arguments, demonstrating a comprehensive understanding of the text's structure."
+    ],
+    [
+      "Unable to assess the validity of the reasoning presented.",
+      "Attempts to assess validity but demonstrates a lack of understanding of logical reasoning.",
+      "Identifies obvious flaws in reasoning but misses more subtle issues.",
+      "Provides a generally accurate assessment of the reasoning's validity, identifying most logical fallacies.",
+      "Critically assesses the validity of reasoning, identifying logical fallacies and explaining their impact on the argument.",
+      "Demonstrates a sophisticated understanding of logical reasoning, providing a nuanced and insightful evaluation of the argument's validity, including subtle fallacies and their implications."
+    ],
+    [
+      "Does not address the relevance or sufficiency of the evidence.",
+      "Attempts to discuss evidence but struggles to connect it to the argument.",
+      "Identifies some evidence as relevant or irrelevant but with limited explanation.",
+      "Evaluates the relevance and sufficiency of most evidence, providing reasonable explanations.",
+      "Provides a thorough evaluation of the relevance and sufficiency of all key pieces of evidence, supporting judgments with clear reasoning.",
+      "Offers a comprehensive and insightful analysis of the evidence, demonstrating a deep understanding of its role in supporting (or undermining) the argument, and assesses the evidence's impact on the argument's persuasiveness."
+    ],
+    [
+      "Fails to identify any false statements or instances of fallacious reasoning.",
+      "Incorrectly identifies statements as false or fallacious without justification.",
+      "Identifies some false statements or fallacies, but explanation is weak or missing.",
+      "Identifies most false statements and fallacies with adequate explanations.",
+      "Accurately identifies false statements and fallacies, clearly explaining the flaws in reasoning.",
+      "Expertly identifies even subtle false statements and fallacies, providing insightful explanations of their impact on the argument's credibility and effectiveness."
+    ]
+  ]
+}

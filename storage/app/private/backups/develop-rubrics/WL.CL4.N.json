@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Cultural Borrowings",
+    "Depth of Investigation into Cultural Influence",
+    "Use of Target Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify cultural borrowings or identification is completely inaccurate.",
+      "Identifies cultural borrowings with significant inaccuracies and misunderstandings.",
+      "Identifies some cultural borrowings with minor inaccuracies or omissions.",
+      "Identifies most cultural borrowings accurately, demonstrating a basic understanding of the concept.",
+      "Accurately identifies cultural borrowings and explains their origins with good understanding.",
+      "Masterfully identifies cultural borrowings, thoroughly explains their origins, and provides insightful analysis of their impact."
+    ],
+    [
+      "No investigation into how cultures influence each other is evident.",
+      "Superficial attempt to investigate cultural influence with little relevant information.",
+      "Basic investigation into cultural influence, but lacks depth and detail.",
+      "Adequate investigation into cultural influence, providing relevant details and examples.",
+      "In-depth investigation into cultural influence, providing clear explanations and relevant historical context.",
+      "Comprehensive investigation into cultural influence, providing insightful analysis, historical context, and nuanced understanding of the complexities involved."
+    ],
+    [
+      "Demonstrates no ability to use the target language to express understanding.",
+      "Uses the target language with significant errors that impede understanding.",
+      "Uses the target language with frequent errors, but the overall meaning is somewhat clear.",
+      "Uses the target language with some errors, but the meaning is generally clear.",
+      "Uses the target language effectively with few errors.",
+      "Uses the target language fluently and accurately to express complex ideas and nuanced understanding."
+    ]
+  ]
+}

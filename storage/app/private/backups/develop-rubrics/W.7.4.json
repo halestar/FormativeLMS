@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Coherence",
+    "Development and Organization",
+    "Style and Appropriateness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Writing lacks clarity and coherence; difficult to understand the main points.",
+      "Writing shows minimal clarity and coherence; main points are difficult to follow.",
+      "Writing demonstrates some clarity and coherence; main points are somewhat understandable.",
+      "Writing is generally clear and coherent; main points are mostly easy to follow.",
+      "Writing is clear and coherent; main points are easy to follow and well-supported.",
+      "Writing is exceptionally clear, coherent, and engaging; main points are compelling and effectively supported."
+    ],
+    [
+      "Writing lacks development and organization; ideas are underdeveloped and disorganized.",
+      "Writing shows minimal development and organization; ideas are underdeveloped and poorly organized.",
+      "Writing demonstrates some development and organization; ideas are somewhat developed and organized.",
+      "Writing is generally well-developed and organized; ideas are mostly clear and logical.",
+      "Writing is well-developed and organized; ideas are clear, logical, and effectively presented.",
+      "Writing is exceptionally well-developed and organized; ideas are compelling, insightful, and skillfully presented."
+    ],
+    [
+      "Writing lacks style and is inappropriate for the task, purpose, and audience.",
+      "Writing shows minimal style and is somewhat inappropriate for the task, purpose, and audience.",
+      "Writing demonstrates some style and is generally appropriate for the task, purpose, and audience.",
+      "Writing has a discernible style and is mostly appropriate for the task, purpose, and audience.",
+      "Writing exhibits a strong style and is well-suited for the task, purpose, and audience.",
+      "Writing showcases an exceptional style and is perfectly tailored for the task, purpose, and audience, enhancing the overall impact."
+    ]
+  ]
+}

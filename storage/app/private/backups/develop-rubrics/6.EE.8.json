@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to represent real-world constraints with inequalities.",
+    "Understanding and representation of inequality solutions on a number line.",
+    "Recognition of infinite solutions for inequalities."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to represent constraints with inequalities.",
+      "Struggles to represent constraints and conditions using inequalities; representation is often inaccurate or incomplete.",
+      "Represents simple constraints with inequalities but struggles with more complex scenarios; some inaccuracies present.",
+      "Consistently represents constraints with inequalities accurately, though some minor errors may be present in complex problems.",
+      "Accurately represents a wide range of real-world constraints with appropriate inequalities, demonstrating a strong understanding.",
+      "Masterfully represents complex and nuanced real-world constraints with precise inequalities; demonstrates keen insight."
+    ],
+    [
+      "No attempt to represent solutions on a number line.",
+      "Unable to accurately represent inequality solutions on a number line; struggles with basic concepts.",
+      "Represents solutions on a number line with significant errors, such as incorrect direction or endpoint notation.",
+      "Generally represents solutions correctly on a number line, but may make minor errors with endpoint notation (open vs. closed circles).",
+      "Accurately represents solutions of inequalities on a number line, including correct endpoint notation and direction.",
+      "Demonstrates a comprehensive understanding of inequality solutions by accurately representing them on a number line and explaining the significance of endpoint notation."
+    ],
+    [
+      "Does not recognize that inequalities of the form x > c or x < c have infinitely many solutions.",
+      "Shows limited awareness of the concept of infinite solutions; unable to articulate why inequalities have infinite solutions.",
+      "Recognizes that inequalities have multiple solutions, but does not explicitly acknowledge the concept of infinite solutions.",
+      "Acknowledges that inequalities have infinitely many solutions but struggles to explain the concept clearly.",
+      "Clearly understands and articulates that inequalities of the form x > c or x < c have infinitely many solutions.",
+      "Provides a sophisticated explanation of why inequalities have infinite solutions, connecting the concept to the number line and the density of real numbers."
+    ]
+  ]
+}

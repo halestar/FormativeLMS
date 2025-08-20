@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Physical Activity Opportunities",
+    "Exploration of Regular Participation",
+    "Relevance and Appropriateness of Opportunities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No opportunities are identified.",
+      "One opportunity is vaguely mentioned without specific details.",
+      "One opportunity is identified with some details, but lacks depth.",
+      "Two or three opportunities are identified with moderate detail.",
+      "Multiple opportunities are clearly identified with good details and some exploration.",
+      "A comprehensive list of opportunities is provided with detailed explanations and thoughtful exploration."
+    ],
+    [
+      "No exploration of regular participation is evident.",
+      "Limited exploration of participation, lacking specific plans or considerations.",
+      "Basic exploration of participation, mentioning potential benefits or challenges.",
+      "Adequate exploration, discussing practical aspects of regular participation.",
+      "Thorough exploration, including considerations for scheduling, resources, and personal preferences.",
+      "In-depth exploration, demonstrating a comprehensive understanding of how to integrate physical activity into a regular routine, addressing potential barriers and solutions."
+    ],
+    [
+      "Opportunities mentioned are not relevant or appropriate for the student's age or abilities.",
+      "Opportunities mentioned have questionable relevance or appropriateness.",
+      "Opportunities mentioned are generally relevant but may not be the best fit.",
+      "Opportunities mentioned are relevant and mostly appropriate for the student.",
+      "Opportunities mentioned are highly relevant and appropriate, showing good judgment.",
+      "Opportunities are exceptionally relevant and appropriate, tailored to the student's interests, abilities, and local context, demonstrating insightful decision-making."
+    ]
+  ]
+}

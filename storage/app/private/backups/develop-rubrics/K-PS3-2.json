@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Energy Transfer Concepts: Demonstrates knowledge of how sunlight warms the Earth's surface and the principles of energy transfer.",
+    "Design and Construction: Effectively uses tools and materials to design and build a structure that reduces the warming effect of sunlight.",
+    "Application of Cause and Effect: Explains how the structure's design causes a reduction in the warming effect of sunlight.",
+    "Use of Tools and Materials: Demonstrates proficiency in using tools and materials provided to construct the structure."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of energy transfer or how sunlight warms the Earth is demonstrated.",
+      "Shows minimal understanding of energy transfer and the warming effect of sunlight, with significant misconceptions.",
+      "Demonstrates a basic understanding of energy transfer and the warming effect of sunlight, but lacks depth.",
+      "Shows a moderate understanding of energy transfer and the warming effect of sunlight, with minor gaps in knowledge.",
+      "Demonstrates a strong understanding of energy transfer and the warming effect of sunlight, with few misconceptions.",
+      "Exhibits a comprehensive understanding of energy transfer and the warming effect of sunlight, accurately explaining key concepts and principles."
+    ],
+    [
+      "Unable to design or build a structure that addresses the problem.",
+      "Attempts to design and build a structure, but it is ineffective and poorly constructed.",
+      "Designs and builds a structure with limited effectiveness in reducing the warming effect of sunlight.",
+      "Designs and builds a moderately effective structure that reduces the warming effect of sunlight.",
+      "Designs and builds an effective structure that significantly reduces the warming effect of sunlight, demonstrating good craftsmanship.",
+      "Designs and builds a highly effective and innovative structure that maximizes the reduction of the warming effect of sunlight, demonstrating excellent craftsmanship and attention to detail."
+    ],
+    [
+      "Unable to explain the cause-and-effect relationship between the structure's design and its effect on sunlight.",
+      "Provides a vague or inaccurate explanation of the cause-and-effect relationship.",
+      "Explains the cause-and-effect relationship with limited clarity and detail.",
+      "Clearly explains the cause-and-effect relationship between the structure's design and its effect on sunlight.",
+      "Provides a detailed and accurate explanation of the cause-and-effect relationship, including relevant scientific principles.",
+      "Offers a comprehensive and insightful explanation of the cause-and-effect relationship, demonstrating a deep understanding of the underlying scientific principles and potential unintended consequences."
+    ],
+    [
+      "Unable to use the tools and materials effectively, hindering the construction process.",
+      "Shows limited proficiency in using the tools and materials, requiring significant assistance.",
+      "Uses the tools and materials with some proficiency, but makes errors that affect the quality of the construction.",
+      "Demonstrates adequate proficiency in using the tools and materials, with minor errors that do not significantly impact the construction.",
+      "Uses the tools and materials skillfully and efficiently, resulting in a well-constructed structure.",
+      "Demonstrates exceptional skill and precision in using the tools and materials, resulting in a flawless and durable structure."
+    ]
+  ]
+}

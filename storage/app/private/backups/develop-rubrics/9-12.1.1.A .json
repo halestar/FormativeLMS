@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and Describing Health Benefits",
+    "Clarity and Accuracy of Information",
+    "Breadth of Substances Addressed"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the health benefits of abstaining from or discontinuing use of alcohol, tobacco, and other drugs.",
+      "The student demonstrates a minimal understanding of the health benefits, with significant inaccuracies or omissions.",
+      "The student demonstrates a limited understanding of the health benefits, with some inaccuracies or omissions.",
+      "The student demonstrates a satisfactory understanding of the health benefits, with minor inaccuracies or omissions.",
+      "The student demonstrates a comprehensive understanding of the health benefits, with few inaccuracies or omissions.",
+      "The student demonstrates a thorough and nuanced understanding of the health benefits, accurately describing them with supporting details and examples."
+    ],
+    [
+      "The information provided is unclear, inaccurate, and difficult to understand.",
+      "The information is mostly unclear and contains major inaccuracies.",
+      "The information has some clarity, but also contains some inaccuracies that show a lack of understanding.",
+      "The information is generally clear and accurate, but there may be minor inaccuracies or omissions.",
+      "The information is presented clearly and accurately, with only minor omissions.",
+      "The information is presented clearly, accurately, and comprehensively, demonstrating a strong grasp of the subject matter."
+    ],
+    [
+      "The student fails to address any of the substances (alcohol, tobacco, and other drugs).",
+      "The student only addresses one substance with limited detail.",
+      "The student addresses two substances with some detail.",
+      "The student addresses all three substances, but the coverage is superficial.",
+      "The student addresses all three substances with adequate detail.",
+      "The student comprehensively addresses all three substances, providing thorough explanations and relevant examples for each."
+    ]
+  ]
+}

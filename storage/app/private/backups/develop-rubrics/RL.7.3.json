@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Story Elements",
+    "Analysis of Element Interaction",
+    "Clarity and Coherence of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any relevant story elements (e.g., setting, characters, plot).",
+      "Identifies only one story element with minimal accuracy.",
+      "Identifies at least two story elements, but understanding of their role is superficial.",
+      "Identifies key story elements and demonstrates a basic understanding of their individual roles.",
+      "Accurately identifies key story elements and demonstrates a clear understanding of their individual roles and some interaction.",
+      "Accurately and comprehensively identifies key story elements, demonstrating a sophisticated understanding of their individual roles and complex interactions."
+    ],
+    [
+      "Provides no analysis of how story elements interact.",
+      "Attempts to describe the interaction between elements, but the analysis is unclear or inaccurate.",
+      "Describes a simple interaction between two elements (e.g., setting and character), but lacks depth.",
+      "Analyzes how one element influences another with some supporting reasoning.",
+      "Analyzes how multiple elements interact, providing clear reasoning and textual examples.",
+      "Provides a nuanced and insightful analysis of how multiple story elements intricately interact, supported by compelling evidence and logical reasoning."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation lacks clarity and contains significant organizational issues.",
+      "Explanation is somewhat understandable but lacks focus and coherence.",
+      "Explanation is generally clear and organized, but may contain minor lapses in coherence.",
+      "Explanation is clear, well-organized, and coherent, demonstrating a strong understanding of the analysis.",
+      "Explanation is exceptionally clear, concise, and insightful, demonstrating a mastery of analytical skills and writing conventions."
+    ]
+  ]
+}

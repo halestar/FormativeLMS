@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Personal Behaviors",
+    "Analysis of Potential Harm and Injuries",
+    "Application of Knowledge to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any personal behaviors that could lead to injuries or cause harm.",
+      "The student identifies one personal behavior with limited accuracy or detail.",
+      "The student identifies a few personal behaviors, but the explanation of their potential harm is superficial.",
+      "The student identifies several personal behaviors and provides a basic explanation of the potential risks.",
+      "The student thoroughly identifies several personal behaviors and provides a clear explanation of the potential risks and consequences.",
+      "The student comprehensively identifies a wide range of personal behaviors, providing detailed explanations of the potential risks, consequences, and relevant examples."
+    ],
+    [
+      "The student does not analyze how personal behaviors can lead to injuries or harm.",
+      "The student attempts to analyze the link between behaviors and harm, but the analysis is unclear or inaccurate.",
+      "The student provides a limited analysis of how personal behaviors can lead to injuries or harm.",
+      "The student analyzes the relationship between personal behaviors and potential injuries or harm with reasonable clarity.",
+      "The student provides a detailed analysis of how personal behaviors can directly lead to specific injuries or harm, demonstrating strong understanding.",
+      "The student provides a comprehensive and insightful analysis, exploring both direct and indirect pathways through which personal behaviors can lead to injuries or harm, showcasing excellent understanding."
+    ],
+    [
+      "The student does not apply their knowledge to real-life scenarios or examples.",
+      "The student attempts to apply knowledge to a scenario, but the connection is weak or irrelevant.",
+      "The student provides a basic example of how personal behaviors relate to real-life situations.",
+      "The student uses relevant examples to illustrate how personal behaviors can affect outcomes in real-life scenarios.",
+      "The student effectively uses a variety of real-life scenarios to demonstrate a deep understanding of how personal behaviors impact health and safety.",
+      "The student expertly applies their knowledge to diverse real-life scenarios, offering insightful perspectives and demonstrating a sophisticated understanding of the complexities involved."
+    ]
+  ]
+}

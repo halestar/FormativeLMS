@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Corporate Mergers, Trusts, and Cartels",
+    "Knowledge of Economic and Political Policies of Industrial Leaders",
+    "Analysis of the Impact of Industrial Leaders' Policies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of corporate mergers, trusts, or cartels.",
+      "Demonstrates minimal understanding of corporate mergers, trusts, or cartels; struggles to define the terms.",
+      "Demonstrates basic understanding of corporate mergers, trusts, and cartels; can define the terms but struggles to explain their purpose.",
+      "Demonstrates satisfactory understanding of corporate mergers, trusts, and cartels; can define the terms and explain their purpose with some prompting.",
+      "Demonstrates thorough understanding of corporate mergers, trusts, and cartels; can define the terms and explain their purpose effectively.",
+      "Demonstrates comprehensive understanding of corporate mergers, trusts, and cartels; can define the terms, explain their purpose, and analyze their impact on the economy."
+    ],
+    [
+      "Demonstrates no knowledge of the economic and political policies of industrial leaders.",
+      "Demonstrates minimal knowledge of the economic and political policies of industrial leaders; struggles to name any policies.",
+      "Demonstrates basic knowledge of the economic and political policies of industrial leaders; can name a few policies but struggles to explain their effects.",
+      "Demonstrates satisfactory knowledge of the economic and political policies of industrial leaders; can name and explain the effects of some policies with some prompting.",
+      "Demonstrates thorough knowledge of the economic and political policies of industrial leaders; can name and explain the effects of several policies effectively.",
+      "Demonstrates comprehensive knowledge of the economic and political policies of industrial leaders; can name, explain the effects of, and analyze the motivations behind several policies."
+    ],
+    [
+      "Provides no analysis of the impact of industrial leaders' policies.",
+      "Offers a superficial or inaccurate analysis of the impact of industrial leaders' policies.",
+      "Presents a limited analysis of the impact of industrial leaders' policies, focusing on obvious or immediate effects.",
+      "Provides a satisfactory analysis of the impact of industrial leaders' policies, considering both positive and negative effects with some prompting.",
+      "Delivers a thorough analysis of the impact of industrial leaders' policies, considering both positive and negative effects effectively.",
+      "Presents a comprehensive and nuanced analysis of the impact of industrial leaders' policies, considering both positive and negative effects, long-term consequences, and alternative perspectives."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify emergency situations requiring 9-1-1 or adult assistance.",
+    "Understanding of the appropriate steps to take in different emergency scenarios.",
+    "Awareness of resources and how to access them in an emergency (e.g., knowing how to call 9-1-1, finding a responsible adult)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any emergency situations or when to seek help.",
+      "Student identifies only one basic emergency situation.",
+      "Student identifies a few emergency situations but lacks detail on when to seek help.",
+      "Student identifies common emergency situations and generally knows when to seek help, but may miss some nuances.",
+      "Student identifies a wide range of emergency situations and provides clear guidelines on when to seek help or call 9-1-1.",
+      "Student comprehensively identifies a very wide range of emergency situations, provides nuanced guidelines on when to seek help or call 9-1-1, and articulates the importance of timely action."
+    ],
+    [
+      "Student demonstrates no understanding of steps to take in an emergency.",
+      "Student lists one or two basic actions but without context or correct order.",
+      "Student lists some actions but lacks a clear understanding of the proper sequence or priority.",
+      "Student generally understands appropriate steps but may miss critical details.",
+      "Student demonstrates a solid understanding of appropriate steps to take in various emergency scenarios, including the order of actions.",
+      "Student demonstrates expert understanding of appropriate steps, including nuanced actions based on specific scenarios, and can explain the rationale behind each step."
+    ],
+    [
+      "Student is unaware of basic emergency resources like 9-1-1.",
+      "Student knows about 9-1-1 but doesn't know how to access it.",
+      "Student knows how to call 9-1-1 but is unaware of other resources.",
+      "Student knows how to call 9-1-1 and identifies one or two other relevant resources.",
+      "Student identifies multiple emergency resources and understands how to access them quickly.",
+      "Student demonstrates comprehensive knowledge of a wide range of emergency resources and can explain how to access them efficiently and effectively in various situations, including alternative methods when primary options are unavailable."
+    ]
+  ]
+}

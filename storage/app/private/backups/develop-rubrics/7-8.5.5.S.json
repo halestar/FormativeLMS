@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identification of the Problem: Accurately identifies the core issue in the hypothetical situation involving assault, intimidation, or sexual harassment.",
+    "Generation of Solutions: Proposes a range of potential solutions or courses of action to address the situation.",
+    "Analysis of Consequences: Analyzes the potential consequences (positive and negative) of each proposed solution.",
+    "Selection of Best Solution: Selects the most appropriate solution based on a clear rationale and well-justified reasoning.",
+    "Application of Problem-Solving Steps: Systematically applies problem-solving steps to resolve the hypothetical situation effectively."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the problem or misinterprets the situation.",
+      "Identifies the problem vaguely or with significant inaccuracies.",
+      "Identifies the problem but misses some important details or nuances.",
+      "Clearly identifies the core problem with reasonable accuracy.",
+      "Accurately and thoroughly identifies the core problem, including underlying issues.",
+      "Demonstrates exceptional insight in identifying the problem, including subtle and complex aspects of the situation."
+    ],
+    [
+      "Offers no solutions or solutions are completely irrelevant.",
+      "Offers one solution that is unrealistic or inappropriate.",
+      "Offers a limited number of solutions, some of which may be impractical or have negative consequences.",
+      "Proposes several reasonable solutions with some consideration of potential outcomes.",
+      "Proposes a variety of well-considered solutions, demonstrating an understanding of different approaches.",
+      "Demonstrates creativity and insight in generating innovative and effective solutions, considering long-term impacts."
+    ],
+    [
+      "Fails to consider the consequences of any solutions.",
+      "Mentions consequences superficially or inaccurately.",
+      "Identifies some consequences but misses key impacts or oversimplifies the analysis.",
+      "Analyzes the consequences of solutions with reasonable accuracy and depth.",
+      "Thoroughly analyzes the consequences of each solution, considering a range of potential outcomes.",
+      "Demonstrates exceptional analytical skills in evaluating consequences, including nuanced and far-reaching impacts."
+    ],
+    [
+      "Selects a solution arbitrarily or with no justification.",
+      "Selects a solution with a weak or flawed rationale.",
+      "Selects a solution with a reasonable rationale, but lacks strong justification or overlooks potential drawbacks.",
+      "Selects a solution with a clear rationale and provides adequate justification.",
+      "Selects the most appropriate solution with a well-reasoned rationale, considering ethical and practical implications.",
+      "Demonstrates exceptional judgment in selecting the optimal solution, with a comprehensive and insightful justification."
+    ],
+    [
+      "Fails to apply any problem-solving steps or demonstrates a completely disorganized approach.",
+      "Applies a few problem-solving steps haphazardly with little coherence.",
+      "Applies some problem-solving steps, but the process is incomplete or disorganized.",
+      "Applies problem-solving steps in a generally systematic and logical manner.",
+      "Applies problem-solving steps systematically and effectively to reach a well-reasoned resolution.",
+      "Demonstrates mastery of problem-solving steps, applying them with precision and adaptability to achieve an optimal outcome."
+    ]
+  ]
+}

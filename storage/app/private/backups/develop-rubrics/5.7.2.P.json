@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Health Habits: Demonstrates comprehension of various health habits and their impact on personal well-being.",
+    "Application of Knowledge: Actively applies learned health habits in personal life and decision-making.",
+    "Self-Assessment and Reflection: Demonstrates ability to assess personal health habits and reflect on areas for improvement.",
+    "Responsibility and Accountability: Takes responsibility for personal health choices and accepts accountability for the outcomes."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of health habits or their impact.",
+      "Demonstrates minimal understanding of basic health habits.",
+      "Identifies some health habits but struggles to explain their importance.",
+      "Explains several health habits and their relevance to personal health.",
+      "Demonstrates a thorough understanding of a wide range of health habits and their effects.",
+      "Exhibits comprehensive knowledge of health habits, explaining their physiological and psychological impacts with clarity."
+    ],
+    [
+      "Does not apply any learned health habits in personal life.",
+      "Rarely applies health habits, even when prompted.",
+      "Occasionally attempts to apply health habits but inconsistently.",
+      "Applies several health habits in daily routines.",
+      "Consistently applies health habits, adapting them to different situations.",
+      "Serves as a role model, consistently and effectively applying comprehensive health habits in all aspects of life."
+    ],
+    [
+      "Shows no ability to assess personal health habits.",
+      "Struggles to identify personal health habits that need improvement.",
+      "Identifies some areas for improvement but lacks a plan for change.",
+      "Reflects on personal health habits and identifies realistic areas for improvement.",
+      "Routinely assesses personal health habits, setting goals for improvement and tracking progress.",
+      "Conducts in-depth self-assessments, creating comprehensive plans for continuous improvement of health habits."
+    ],
+    [
+      "Avoids taking responsibility for personal health choices.",
+      "Blames external factors for poor health choices.",
+      "Acknowledges some responsibility but struggles with accountability.",
+      "Accepts responsibility for most personal health choices and their consequences.",
+      "Consistently takes responsibility for health choices, learning from both successes and setbacks.",
+      "Demonstrates exceptional responsibility and accountability, proactively managing health choices and their long-term impacts."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Themes",
+    "Understanding of Purposes",
+    "Analysis of Rhetorical Features",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any relevant themes in the documents.",
+      "The student identifies a theme, but it is vague or inaccurate.",
+      "The student identifies a theme, but the explanation lacks depth or connection to the text.",
+      "The student identifies a central theme in the document and provides a basic explanation.",
+      "The student clearly identifies a central theme in the document and explains it with supporting evidence.",
+      "The student expertly identifies and analyzes multiple complex themes in the document, providing insightful commentary and strong textual support."
+    ],
+    [
+      "The student demonstrates no understanding of the document's purpose.",
+      "The student provides an inaccurate or irrelevant purpose for the document.",
+      "The student states a purpose, but it is superficial or incomplete.",
+      "The student identifies the main purpose of the document.",
+      "The student explains the purpose of the document with some supporting details.",
+      "The student thoroughly explains the document's purpose, including its historical context and intended audience."
+    ],
+    [
+      "The student does not identify any rhetorical features.",
+      "The student attempts to identify a rhetorical feature, but it is incorrect or misapplied.",
+      "The student identifies a rhetorical feature but cannot explain its effect.",
+      "The student identifies a rhetorical feature and offers a simple explanation of its effect.",
+      "The student analyzes how rhetorical features contribute to the document's persuasiveness and meaning.",
+      "The student provides a sophisticated analysis of multiple rhetorical features and their cumulative impact on the document's message and audience."
+    ],
+    [
+      "The student provides no textual evidence to support claims.",
+      "The student attempts to use evidence, but it is irrelevant or inaccurately cited.",
+      "The student provides limited or weak evidence to support claims.",
+      "The student includes relevant evidence from the text to support analysis.",
+      "The student effectively uses direct quotes and paraphrasing to support claims.",
+      "The student skillfully integrates textual evidence to build a compelling and insightful argument."
+    ]
+  ]
+}

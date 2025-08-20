@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Author's Point of View or Purpose",
+    "Analysis of How the Author Acknowledges Conflicting Evidence or Viewpoints",
+    "Analysis of How the Author Responds to Conflicting Evidence or Viewpoints"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the author's point of view or purpose.",
+      "Identifies the author's point of view or purpose with significant inaccuracies.",
+      "Identifies the author's point of view or purpose with some inaccuracies or lack of clarity.",
+      "Identifies the author's point of view or purpose adequately but lacks depth or nuance.",
+      "Clearly and accurately identifies the author's point of view or purpose.",
+      "Clearly, accurately, and insightfully identifies the author's point of view or purpose, demonstrating a deep understanding."
+    ],
+    [
+      "Fails to analyze how the author acknowledges conflicting evidence or viewpoints.",
+      "Attempts to analyze how the author acknowledges conflicting evidence or viewpoints, but the analysis is superficial or inaccurate.",
+      "Analyzes how the author acknowledges conflicting evidence or viewpoints with some inaccuracies or omissions.",
+      "Adequately analyzes how the author acknowledges conflicting evidence or viewpoints but lacks depth or specific examples.",
+      "Clearly and accurately analyzes how the author acknowledges conflicting evidence or viewpoints, providing relevant examples.",
+      "Clearly, accurately, and insightfully analyzes how the author acknowledges conflicting evidence or viewpoints, providing insightful examples and demonstrating a comprehensive understanding."
+    ],
+    [
+      "Fails to analyze how the author responds to conflicting evidence or viewpoints.",
+      "Attempts to analyze how the author responds to conflicting evidence or viewpoints, but the analysis is superficial or inaccurate.",
+      "Analyzes how the author responds to conflicting evidence or viewpoints with some inaccuracies or omissions.",
+      "Adequately analyzes how the author responds to conflicting evidence or viewpoints but lacks depth or specific examples.",
+      "Clearly and accurately analyzes how the author responds to conflicting evidence or viewpoints, providing relevant examples.",
+      "Clearly, accurately, and insightfully analyzes how the author responds to conflicting evidence or viewpoints, providing insightful examples and demonstrating a comprehensive understanding of the author's rhetorical strategies."
+    ]
+  ]
+}

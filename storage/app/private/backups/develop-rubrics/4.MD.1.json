@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Relative Sizes of Measurement Units",
+    "Conversion of Measurements",
+    "Recording Measurement Equivalents in a Table",
+    "Problem Solving and Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of relative sizes of measurement units.",
+      "Student demonstrates minimal understanding of relative sizes of measurement units, with significant errors.",
+      "Student demonstrates partial understanding of relative sizes of measurement units, with some errors.",
+      "Student demonstrates adequate understanding of relative sizes of measurement units, with minor errors.",
+      "Student demonstrates strong understanding of relative sizes of measurement units, with minimal errors.",
+      "Student demonstrates excellent understanding of relative sizes of measurement units with no errors.  Student is able to explain reasoning."
+    ],
+    [
+      "Student is unable to convert measurements from a larger unit to a smaller unit.",
+      "Student attempts to convert measurements but makes significant errors, demonstrating a lack of understanding of the process.",
+      "Student converts measurements with some errors, showing partial understanding of the conversion process.",
+      "Student converts measurements accurately in most cases, with only minor errors.",
+      "Student consistently converts measurements accurately and efficiently.",
+      "Student flawlessly converts measurements accurately and efficiently and can articulate the conversion process."
+    ],
+    [
+      "Student does not record measurement equivalents in a two-column table or the table is completely inaccurate.",
+      "Student attempts to record measurement equivalents in a table, but the table contains many errors and omissions.",
+      "Student records some measurement equivalents in a table, but there are noticeable errors or omissions.",
+      "Student accurately records most measurement equivalents in a table with only minor errors.",
+      "Student accurately and completely records measurement equivalents in a well-organized table.",
+      "Student accurately, completely, and clearly records measurement equivalents in a well-organized table.  The student provides clear labels and headings."
+    ],
+    [
+      "Student is unable to apply measurement concepts to solve problems.",
+      "Student attempts to solve problems involving measurement but is unsuccessful and demonstrates little understanding of how to apply the concepts.",
+      "Student attempts to solve problems but makes significant errors in applying measurement concepts.",
+      "Student solves problems involving measurement with some accuracy but may struggle with more complex problems.",
+      "Student solves problems involving measurement accurately and demonstrates a good understanding of how to apply the concepts.",
+      "Student solves complex problems involving measurement accurately and demonstrates a deep understanding of how to apply the concepts. Student can explain their problem solving strategy."
+    ]
+  ]
+}

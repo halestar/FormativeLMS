@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of Refusal Skills",
+    "Application of Negotiation Skills",
+    "Understanding of Risks Associated with Impaired Driving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any refusal skills or puts themselves at risk.",
+      "Student demonstrates minimal refusal skills; hesitantly expresses discomfort but ultimately complies.",
+      "Student attempts to refuse, but their approach is not assertive or convincing; Shows some resistance but yields to pressure.",
+      "Student clearly refuses but could use stronger language or strategies to reinforce their decision; Offers a weak alternative or explanation.",
+      "Student confidently and clearly refuses to ride with someone impaired; Provides a solid reason for refusal and suggests an alternative plan.",
+      "Student assertively and effectively refuses to ride with someone impaired, using strong and convincing language; Offers alternative solutions and demonstrates leadership in discouraging the risky behavior."
+    ],
+    [
+      "Student does not attempt any negotiation and passively accepts the risky situation.",
+      "Student makes a weak attempt at negotiation, easily giving in to the other person's arguments.",
+      "Student engages in negotiation, but their arguments are not well-reasoned or persuasive; Focuses on self rather than broader safety concerns.",
+      "Student negotiates by offering alternative solutions that address the immediate situation but does not address the underlying risk.",
+      "Student effectively negotiates by clearly stating their concerns and proposing alternatives that prioritize safety and minimize risk.",
+      "Student masterfully negotiates, proactively addressing the risks, involving others in the solution, and reinforcing safe behavior."
+    ],
+    [
+      "Student demonstrates no awareness of the dangers of riding with someone under the influence.",
+      "Student vaguely acknowledges the dangers but does not show a clear understanding of the potential consequences.",
+      "Student recognizes some risks but underestimates the severity or likelihood of negative outcomes.",
+      "Student acknowledges the risks and consequences of impaired driving in a general sense.",
+      "Student clearly understands and articulates the risks associated with riding with someone under the influence, including potential legal and personal consequences.",
+      "Student demonstrates a comprehensive understanding of the immediate and long-term risks associated with impaired driving, and effectively communicates these dangers to others."
+    ]
+  ]
+}

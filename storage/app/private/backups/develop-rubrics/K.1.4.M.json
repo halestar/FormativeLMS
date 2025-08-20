@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Uniqueness Factors",
+    "Clarity and Accuracy",
+    "Use of Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of any factors contributing to individual uniqueness.",
+      "Student identifies one or two basic factors (e.g., appearance) but lacks depth in explanation.",
+      "Student identifies several factors (e.g., appearance, interests) but descriptions are superficial.",
+      "Student describes multiple factors (e.g., appearance, interests, personality) with some explanation of how they contribute to uniqueness.",
+      "Student thoroughly describes various factors (e.g., genetics, environment, experiences, personality) and explains how they interact to shape individual uniqueness.",
+      "Student provides an insightful and comprehensive analysis of the complex interplay of factors (genetics, environment, experiences, personality, values) that contribute to individual uniqueness, demonstrating a nuanced understanding."
+    ],
+    [
+      "Explanation is unclear and contains inaccuracies.",
+      "Explanation is somewhat unclear and contains several inaccuracies.",
+      "Explanation is generally clear but may contain a few minor inaccuracies.",
+      "Explanation is clear and mostly accurate, with only minor errors.",
+      "Explanation is clear, accurate, and well-organized.",
+      "Explanation is exceptionally clear, accurate, well-organized, and demonstrates a sophisticated understanding of the concepts."
+    ],
+    [
+      "No examples are provided.",
+      "Provides one irrelevant or unclear example.",
+      "Provides one basic example that is somewhat relevant.",
+      "Provides several relevant examples that support the explanation.",
+      "Provides detailed and relevant examples that clearly illustrate the factors of uniqueness.",
+      "Provides insightful and diverse examples that demonstrate a deep understanding of how various factors shape individual uniqueness."
+    ]
+  ]
+}

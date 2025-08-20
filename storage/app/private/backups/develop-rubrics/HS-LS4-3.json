@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Natural Selection Principles",
+    "Application of Statistical and Probabilistic Concepts",
+    "Interpretation of Data and Graphical Representations",
+    "Explanation of Adaptation and its Relationship to Natural Selection"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of natural selection principles.",
+      "Identifies natural selection but misunderstands key components (e.g., heritability, variation).",
+      "Describes natural selection with some inaccuracies or omissions. Struggles to connect variation, inheritance, and differential survival.",
+      "Explains natural selection, including variation, heritability, and differential survival, but lacks depth or clarity.",
+      "Clearly and accurately explains the principles of natural selection, including the roles of variation, heritability, and differential survival and reproduction.",
+      "Provides a comprehensive and nuanced explanation of natural selection, including the interplay of variation, heritability, differential survival, and reproductive success. Demonstrates insightful understanding."
+    ],
+    [
+      "Unable to apply statistical or probabilistic concepts to explain trait distribution.",
+      "Attempts to use statistical concepts but demonstrates significant errors or misunderstandings.",
+      "Applies basic statistical concepts (e.g., mean) with limited success. Struggles to interpret data or connect it to natural selection.",
+      "Uses statistical concepts to analyze trait distribution data, but with some limitations in accuracy or interpretation.",
+      "Effectively applies statistical and probabilistic concepts to analyze trait distribution data and support explanations of natural selection.",
+      "Masterfully applies statistical and probabilistic concepts to analyze complex trait distribution data, providing compelling evidence and nuanced explanations of natural selection.  May use digital tools effectively."
+    ],
+    [
+      "Unable to interpret data or graphical representations related to trait distribution.",
+      "Misinterprets data or graphical representations, drawing incorrect conclusions.",
+      "Identifies basic trends in data or graphs but struggles to connect them to natural selection.",
+      "Interprets data and graphical representations with some accuracy, linking them to natural selection with limited explanation.",
+      "Accurately interprets data and graphical representations, explaining how they support explanations of natural selection and adaptation.",
+      "Provides insightful and comprehensive interpretations of data and graphical representations, drawing strong connections to natural selection, adaptation, and evolutionary processes. Identifies potential limitations or biases in the data."
+    ],
+    [
+      "Demonstrates no understanding of adaptation or its connection to natural selection.",
+      "Confuses adaptation with other evolutionary processes or provides inaccurate definitions.",
+      "Describes adaptation as a general process but struggles to explain its relationship to natural selection.",
+      "Explains how natural selection can lead to adaptation, but with limited detail or specific examples.",
+      "Clearly explains how natural selection leads to adaptation, providing relevant examples and explaining the relationship between traits and environment.",
+      "Provides a sophisticated explanation of adaptation, including the interplay of natural selection, environmental factors, and genetic variation.  May discuss trade-offs or constraints on adaptation."
+    ]
+  ]
+}

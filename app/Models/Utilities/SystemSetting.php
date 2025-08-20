@@ -44,7 +44,7 @@ class SystemSetting extends Model
 		if(!$setting)
 		{
 			//in this case, there's no data, so make an empty space
-			$setting = new self();
+			$setting = new static();
 			$setting->name = static::$settingKey;
 			$setting->value = static::defaultValue();
 			$setting->save();

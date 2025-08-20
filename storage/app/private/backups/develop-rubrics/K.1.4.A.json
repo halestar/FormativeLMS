@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Harmful Household Products",
+    "Understanding of the Routes of Exposure",
+    "Awareness of Preventative Measures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any household products that are harmful if ingested or inhaled.",
+      "Student can identify one household product that is potentially harmful, but explanation lacks detail.",
+      "Student can identify a few (2-3) household products that are potentially harmful, but descriptions of the harm are vague or incomplete.",
+      "Student can identify several (3-4) common household products and provide a basic explanation of their potential harm upon ingestion or inhalation.",
+      "Student can accurately identify multiple (4-5) common household products, explaining their specific harmful effects when ingested or inhaled.",
+      "Student demonstrates comprehensive knowledge by identifying numerous (5+) household products and detailing the specific health risks associated with ingestion and inhalation, including potential long-term effects."
+    ],
+    [
+      "Student demonstrates no understanding of how household products can be ingested or inhaled.",
+      "Student shows a limited understanding of only one route of exposure (either ingestion or inhalation).",
+      "Student acknowledges both ingestion and inhalation but struggles to explain how these exposures occur.",
+      "Student can explain how some household products can be harmful if ingested or inhaled.",
+      "Student clearly explains the processes of both ingestion and inhalation as routes of exposure to harmful household products, providing relevant examples.",
+      "Student provides a detailed explanation of ingestion and inhalation, including factors that increase risk (e.g., improper ventilation, lack of safety caps) and vulnerable populations (e.g., children, pets)."
+    ],
+    [
+      "Student is unaware of any preventative measures to avoid harm from household products.",
+      "Student suggests one vague or impractical preventative measure.",
+      "Student mentions 1-2 basic preventative measures, such as keeping products out of reach, but without clear explanation.",
+      "Student identifies 2-3 relevant preventative measures (e.g., storing products properly, reading labels) and explains them adequately.",
+      "Student thoroughly explains several (3-4) key preventative measures, demonstrating an understanding of why they are important.",
+      "Student articulates a comprehensive set of preventative measures, including specific storage techniques, safe usage practices, and proper disposal methods, demonstrating a commitment to safety."
+    ]
+  ]
+}

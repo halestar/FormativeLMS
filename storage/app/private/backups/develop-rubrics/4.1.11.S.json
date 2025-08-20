@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Risks",
+    "Understanding of Social Impact",
+    "Personal Safety Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any risks associated with gang activity.",
+      "The student identifies only one general risk associated with gang activity.",
+      "The student identifies a few risks associated with gang activity, but lacks detail.",
+      "The student accurately identifies several risks associated with gang activity, providing some details.",
+      "The student comprehensively identifies numerous risks associated with gang activity, providing clear details and examples.",
+      "The student thoroughly identifies and explains a wide range of risks associated with gang activity, providing detailed examples and demonstrating a deep understanding of the potential consequences."
+    ],
+    [
+      "The student demonstrates no understanding of the social impact of gang activity.",
+      "The student shows a limited understanding of the social impact of gang activity.",
+      "The student describes some social impacts of gang activity, but the explanation lacks depth.",
+      "The student explains several social impacts of gang activity with reasonable detail.",
+      "The student analyzes and explains multiple social impacts of gang activity, demonstrating a good understanding of the effects on communities.",
+      "The student critically analyzes the extensive social impacts of gang activity, demonstrating a deep understanding of the far-reaching effects on communities and individuals, offering potential solutions."
+    ],
+    [
+      "The student does not suggest any personal safety strategies related to gang activity.",
+      "The student suggests one vague or ineffective personal safety strategy.",
+      "The student suggests a few basic personal safety strategies, but they are not well-explained.",
+      "The student describes several appropriate personal safety strategies related to gang activity.",
+      "The student clearly explains and justifies multiple effective personal safety strategies, demonstrating an understanding of how to avoid dangerous situations.",
+      "The student articulates a comprehensive set of personal safety strategies, justifying each with insightful reasoning and demonstrating a sophisticated understanding of risk avoidance and de-escalation techniques in the context of gang activity."
+    ]
+  ]
+}

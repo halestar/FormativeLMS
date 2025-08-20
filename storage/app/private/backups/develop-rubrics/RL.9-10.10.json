@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Reading Comprehension: Ability to understand explicit meanings and infer implicit meanings within literary texts.",
+    "Textual Analysis: Ability to analyze literary devices, techniques, and structural elements within stories, dramas, and poems.",
+    "Interpretation and Synthesis: Ability to interpret literary texts and synthesize information from multiple sources to develop a cohesive understanding.",
+    "Vocabulary and Language Use: Skill in using context clues to determine the meaning of unfamiliar words and phrases, and effectively using academic language to discuss and analyze literature."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the text; unable to identify key details or make basic inferences.",
+      "Struggles to understand the text; identifies few key details and makes inaccurate inferences.",
+      "Demonstrates a partial understanding of the text; identifies some key details but struggles with more complex inferences.",
+      "Demonstrates a general understanding of the text; identifies most key details and makes logical inferences with some support.",
+      "Demonstrates a strong understanding of the text; identifies key details and makes well-supported inferences independently.",
+      "Demonstrates a comprehensive understanding of the text; identifies nuanced details and makes insightful inferences, demonstrating a deep engagement with the material."
+    ],
+    [
+      "Unable to identify any literary devices or structural elements in the text.",
+      "Identifies literary devices or structural elements inaccurately or with significant prompting.",
+      "Identifies some basic literary devices or structural elements but struggles to explain their purpose or effect.",
+      "Identifies and explains the purpose or effect of several literary devices or structural elements with some guidance.",
+      "Independently identifies and analyzes the purpose and effect of various literary devices and structural elements.",
+      "Provides a sophisticated and insightful analysis of literary devices and structural elements, demonstrating a nuanced understanding of their impact on the text as a whole."
+    ],
+    [
+      "Unable to interpret the text or synthesize information from other sources.",
+      "Struggles to interpret the text or synthesize information, providing inaccurate or incomplete interpretations.",
+      "Offers a basic interpretation of the text but struggles to synthesize information from multiple sources.",
+      "Provides a reasonable interpretation of the text and synthesizes information from some sources with moderate success.",
+      "Develops a well-supported interpretation of the text and effectively synthesizes information from multiple sources to enhance understanding.",
+      "Constructs a complex and insightful interpretation of the text, skillfully synthesizing information from various sources to create a comprehensive and nuanced understanding."
+    ],
+    [
+      "Unable to determine the meaning of unfamiliar words or use academic language.",
+      "Struggles to determine the meaning of unfamiliar words or use academic language effectively.",
+      "Uses context clues to determine the meaning of some unfamiliar words and uses academic language inconsistently.",
+      "Uses context clues to determine the meaning of most unfamiliar words and uses academic language appropriately in discussions and analyses.",
+      "Consistently uses context clues to determine the meaning of unfamiliar words and effectively uses academic language to discuss and analyze literature.",
+      "Demonstrates a mastery of vocabulary and academic language, using them skillfully to enhance comprehension and analysis of literary texts."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Property Rights",
+    "Understanding of Competition",
+    "Understanding of Profit",
+    "Application of Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of property rights in a market economy.",
+      "Student demonstrates a very limited understanding of property rights, with significant misconceptions.",
+      "Student demonstrates a basic understanding of property rights, but struggles to explain its role in a market economy.",
+      "Student demonstrates a satisfactory understanding of property rights and can explain its role with some clarity.",
+      "Student demonstrates a strong understanding of property rights and clearly explains its role in incentivizing investment and protecting ownership.",
+      "Student demonstrates a comprehensive understanding of property rights, including nuances and complexities, and articulates its critical role in a thriving market economy with supporting examples."
+    ],
+    [
+      "Student demonstrates no understanding of competition in a market economy.",
+      "Student demonstrates a very limited understanding of competition, confusing it with other economic concepts.",
+      "Student demonstrates a basic understanding of competition but struggles to explain its role in driving innovation and efficiency.",
+      "Student demonstrates a satisfactory understanding of competition and can explain its role with some clarity, but lacks depth.",
+      "Student demonstrates a strong understanding of competition and clearly explains its role in benefiting consumers through lower prices and better quality.",
+      "Student demonstrates a comprehensive understanding of competition, including different types of competition (e.g., perfect, monopolistic) and its dynamic effects on the market, supported by examples."
+    ],
+    [
+      "Student demonstrates no understanding of the concept of profit in a market economy.",
+      "Student demonstrates a very limited understanding of profit, viewing it negatively or as simply 'making money'.",
+      "Student demonstrates a basic understanding of profit as revenue minus costs, but struggles to explain its role as an incentive.",
+      "Student demonstrates a satisfactory understanding of profit and can explain its role in motivating entrepreneurs and businesses.",
+      "Student demonstrates a strong understanding of profit and clearly explains its role in allocating resources efficiently and signaling market opportunities.",
+      "Student demonstrates a comprehensive understanding of profit, including its role in risk-taking, innovation, and long-term economic growth, providing relevant examples."
+    ],
+    [
+      "Student cannot apply the concepts of property rights, competition, and profit to real-world examples.",
+      "Student struggles to apply the concepts, providing inaccurate or irrelevant examples.",
+      "Student can identify basic examples, but struggles to explain how property rights, competition, and profit are at play.",
+      "Student provides satisfactory examples and explanations, but lacks depth and critical thinking.",
+      "Student provides strong examples and clearly explains the interplay of property rights, competition, and profit in driving market outcomes.",
+      "Student provides insightful and nuanced examples, demonstrating a sophisticated understanding of how property rights, competition, and profit interact to shape market dynamics and economic incentives."
+    ]
+  ]
+}

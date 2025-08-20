@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Influences",
+    "Analysis of Influences",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any influences on safe or violent behaviors.",
+      "Identifies only one influence on either safe or violent behaviors, but not both.",
+      "Identifies at least two influences, but struggles to differentiate between safe and violent behaviors.",
+      "Identifies some influences on both safe and violent behaviors but explanation lacks depth or accuracy.",
+      "Clearly identifies and explains multiple influences on both safe and violent behaviors with reasonable accuracy.",
+      "Provides a comprehensive analysis of numerous influences on both safe and violent behaviors, demonstrating a deep understanding."
+    ],
+    [
+      "Provides no analysis or explanation of how influences affect behaviors.",
+      "Offers a superficial or unclear analysis of how influences may affect behaviors.",
+      "Analyzes the effects of influences with some inaccuracies or omissions.",
+      "Offers a basic analysis of how influences impact safe and violent behaviors.",
+      "Provides a detailed and accurate analysis of how different influences can lead to safe or violent behaviors.",
+      "Demonstrates a sophisticated understanding of the complex interplay between various influences and their impact on safe and violent behaviors, including potential long-term effects."
+    ],
+    [
+      "Response is disorganized and difficult to understand.",
+      "Response lacks clear organization and contains significant grammatical errors.",
+      "Response is somewhat organized but contains grammatical errors that impede understanding.",
+      "Response is generally clear and organized with few grammatical errors.",
+      "Response is well-organized, clear, and concise with minimal grammatical errors.",
+      "Response is exceptionally clear, well-organized, and articulate, demonstrating a mastery of communication skills."
+    ]
+  ]
+}

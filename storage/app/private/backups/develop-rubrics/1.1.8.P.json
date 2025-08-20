@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of recyclable materials",
+    "Understanding of the 'Reduce' concept",
+    "Understanding of the 'Reuse' concept",
+    "Understanding of the 'Recycle' concept"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any materials that can be reduced, reused, or recycled.",
+      "Identifies only one material that can be reduced, reused, or recycled.",
+      "Identifies a few common materials that can be reduced, reused, or recycled, but lacks depth.",
+      "Identifies several materials that can be reduced, reused, or recycled with reasonable accuracy.",
+      "Identifies a wide range of materials and provides specific examples of how they can be reduced, reused, or recycled.",
+      "Demonstrates comprehensive knowledge by identifying numerous materials, explaining their reduction\/reuse\/recycling processes, and discussing the environmental benefits."
+    ],
+    [
+      "Shows no understanding of what 'reduce' means in the context of waste management.",
+      "Displays a limited understanding of 'reduce', possibly confusing it with other concepts.",
+      "Understands that 'reduce' involves using less material, but lacks specific examples.",
+      "Provides basic examples of how to 'reduce' consumption and waste.",
+      "Explains the concept of 'reduce' effectively with various practical examples relevant to daily life.",
+      "Demonstrates a deep understanding of 'reduce' by providing innovative strategies and analyzing the long-term impact of reducing consumption."
+    ],
+    [
+      "Shows no understanding of what 'reuse' means in the context of waste management.",
+      "Displays a limited understanding of 'reuse', possibly confusing it with other concepts.",
+      "Understands that 'reuse' involves using items more than once, but lacks specific examples.",
+      "Provides basic examples of how to 'reuse' items instead of discarding them.",
+      "Explains the concept of 'reuse' effectively with various practical examples and creative ideas.",
+      "Demonstrates a deep understanding of 'reuse' by providing innovative strategies, discussing the benefits of reuse programs, and analyzing the environmental impact."
+    ],
+    [
+      "Shows no understanding of what 'recycle' means in the context of waste management.",
+      "Displays a limited understanding of 'recycle', possibly confusing it with other concepts.",
+      "Understands that 'recycle' involves processing waste into new materials, but lacks specific examples.",
+      "Provides basic examples of how materials are recycled and the types of products they become.",
+      "Explains the concept of 'recycle' effectively, describing the recycling process for various materials and their end products.",
+      "Demonstrates a deep understanding of 'recycle' by explaining the complexities of the recycling process, including limitations, contamination issues, and the importance of proper sorting."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Influences",
+    "Analysis of Impact",
+    "Application to Personal Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any influences on personal health practices.",
+      "Identifies one or two general influences without specific examples.",
+      "Identifies a few influences (3-4) with limited detail and connection to personal health.",
+      "Identifies several influences (5+) with some explanation of their impact on personal health practices.",
+      "Clearly identifies multiple influences and explains their impact with specific examples related to personal health.",
+      "Identifies and thoroughly analyzes a comprehensive range of influences, providing insightful examples and demonstrating a deep understanding of their effects on personal health practices."
+    ],
+    [
+      "No analysis of how influences affect health practices.",
+      "Offers a vague or superficial analysis of the impact of influences.",
+      "Provides a basic analysis, but lacks depth or specific examples.",
+      "Analyzes the impact of influences with some detail and relevance to personal health.",
+      "Provides a clear and detailed analysis of how influences affect health practices, including both positive and negative impacts.",
+      "Demonstrates a sophisticated understanding of the complex interactions between various influences and their profound effects on personal health practices, offering nuanced insights."
+    ],
+    [
+      "Fails to connect influences to personal health practices.",
+      "Makes a weak or unclear connection to personal health.",
+      "Connects influences to personal health with limited explanation.",
+      "Applies the analysis of influences to personal health practices with some specific examples.",
+      "Clearly applies the analysis to personal health, demonstrating an understanding of how these influences shape personal choices and behaviors.",
+      "Critically reflects on personal health practices in light of the analyzed influences, demonstrating a capacity for self-awareness and informed decision-making for optimal health outcomes."
+    ]
+  ]
+}

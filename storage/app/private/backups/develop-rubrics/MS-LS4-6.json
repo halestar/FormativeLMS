@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Mathematical Representation of Trait Changes",
+    "Explanation of Natural Selection and Trait Distribution",
+    "Understanding of Cause and Effect Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use mathematical representations.",
+      "Uses mathematical representations, but they are inaccurate or irrelevant to the explanation.",
+      "Uses basic mathematical representations with limited connection to the explanation of trait changes.",
+      "Uses mathematical representations to support the explanation of trait changes, but with some inaccuracies or omissions.",
+      "Effectively uses mathematical representations, including probability and proportional reasoning, to support explanations of trends in trait changes within populations over time. Shows minor errors.",
+      "Masterfully uses mathematical representations, including probability and proportional reasoning, to provide clear, accurate, and thorough explanations of trends in trait changes within populations over time."
+    ],
+    [
+      "No explanation of natural selection or trait distribution is provided.",
+      "Provides a vague or inaccurate description of natural selection and its effect on trait distribution.",
+      "Describes natural selection and trait distribution, but lacks depth or connection to mathematical representations.",
+      "Explains how natural selection may lead to increases and decreases of specific traits in populations, but the explanation is incomplete or contains minor inaccuracies.",
+      "Clearly explains how natural selection leads to changes in the distribution of traits in a population over time, connecting it to environmental conditions and mathematical representations. Shows minor errors.",
+      "Provides a comprehensive and insightful explanation of how natural selection drives changes in trait distribution, thoroughly integrating mathematical representations and demonstrating a deep understanding of adaptation."
+    ],
+    [
+      "Demonstrates no understanding of cause-and-effect relationships in the context of natural selection.",
+      "Identifies cause-and-effect relationships, but the explanation is unclear or inaccurate.",
+      "Describes cause-and-effect relationships in natural selection, but lacks specific examples or mathematical support.",
+      "Explains cause-and-effect relationships related to how environmental changes influence trait prevalence with some omissions.",
+      "Clearly explains cause-and-effect relationships between environmental factors, natural selection, and changes in trait distribution, supported by mathematical reasoning.",
+      "Provides a sophisticated analysis of cause-and-effect relationships, including the role of probability, to explain complex patterns of trait distribution within populations, thoroughly integrating mathematical support."
+    ]
+  ]
+}

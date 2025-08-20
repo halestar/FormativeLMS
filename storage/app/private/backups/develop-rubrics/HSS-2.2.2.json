@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Accuracy of labeling North American countries (Canada, USA, Mexico)",
+    "Accuracy of labeling oceans surrounding North America (Atlantic, Pacific, Arctic)",
+    "Accuracy of labeling the Great Lakes (Superior, Michigan, Huron, Erie, Ontario)",
+    "Accuracy of labeling major rivers (Mississippi, Missouri, St. Lawrence)",
+    "Accuracy of labeling major mountain ranges (Rocky Mountains, Appalachian Mountains)",
+    "Identification of essential map elements (title, legend, directional indicator, scale, date)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to label any of the countries correctly.",
+      "Labels only one country correctly.",
+      "Labels two countries correctly.",
+      "Labels all three countries, but with significant errors in placement or spelling.",
+      "Labels all three countries correctly with minor errors.",
+      "Labels all three countries correctly and accurately."
+    ],
+    [
+      "Fails to label any of the oceans correctly.",
+      "Labels only one ocean correctly.",
+      "Labels two oceans correctly.",
+      "Labels all three oceans, but with significant errors in placement or spelling.",
+      "Labels all three oceans correctly with minor errors.",
+      "Labels all three oceans correctly and accurately."
+    ],
+    [
+      "Fails to label any of the Great Lakes correctly.",
+      "Labels only 1-2 Great Lakes correctly.",
+      "Labels 3 Great Lakes correctly.",
+      "Labels 4 Great Lakes correctly, but with significant errors in placement or spelling.",
+      "Labels all 5 Great Lakes correctly with minor errors.",
+      "Labels all 5 Great Lakes correctly and accurately."
+    ],
+    [
+      "Fails to label any of the major rivers correctly.",
+      "Labels only one major river correctly.",
+      "Labels two major rivers correctly.",
+      "Labels all three major rivers, but with significant errors in placement or spelling.",
+      "Labels all three major rivers correctly with minor errors.",
+      "Labels all three major rivers correctly and accurately."
+    ],
+    [
+      "Fails to label any of the major mountain ranges correctly.",
+      "Labels only one major mountain range correctly.",
+      "Labels both major mountain ranges, but with significant errors in placement or spelling.",
+      "Labels both major mountain ranges correctly with minor errors.",
+      "Labels both major mountain ranges correctly and accurately.",
+      "Labels both major mountain ranges correctly, accurately and includes minor mountain ranges"
+    ],
+    [
+      "Fails to identify any of the essential map elements.",
+      "Identifies only 1 element correctly.",
+      "Identifies 2 elements correctly.",
+      "Identifies 3 elements correctly, but with a flawed understanding.",
+      "Identifies all 5 elements correctly, but with a superficial understanding.",
+      "Identifies all 5 elements correctly and demonstrates a clear understanding of their purpose."
+    ]
+  ]
+}

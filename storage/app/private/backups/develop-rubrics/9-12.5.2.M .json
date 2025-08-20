@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Coping Mechanisms",
+    "Comparison of Coping Mechanisms",
+    "Understanding of Stress Management"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any coping mechanisms for stress.",
+      "Identifies one coping mechanism but lacks detail or accuracy.",
+      "Identifies two coping mechanisms with some detail but may have minor inaccuracies.",
+      "Identifies three coping mechanisms with reasonable detail and accuracy.",
+      "Identifies four coping mechanisms with good detail and accuracy.",
+      "Identifies multiple coping mechanisms (more than 4) with comprehensive detail and accuracy, demonstrating a strong understanding."
+    ],
+    [
+      "Provides no comparison of coping mechanisms.",
+      "Attempts to compare coping mechanisms but lacks clarity or depth.",
+      "Compares coping mechanisms on one or two basic factors (e.g., ease of use, accessibility).",
+      "Compares coping mechanisms on several factors, including benefits and drawbacks.",
+      "Compares coping mechanisms in detail, discussing benefits, drawbacks, and suitability for different situations.",
+      "Provides a nuanced and insightful comparison of coping mechanisms, demonstrating a thorough understanding of their strengths, weaknesses, and contextual relevance."
+    ],
+    [
+      "Demonstrates no understanding of stress management principles.",
+      "Demonstrates a limited understanding of stress management, with significant misconceptions.",
+      "Shows basic understanding of stress management but struggles to connect coping mechanisms to stress reduction.",
+      "Connects coping mechanisms to stress reduction, explaining how they can help manage stress.",
+      "Explains how coping mechanisms manage stress, discussing physiological or psychological processes involved.",
+      "Demonstrates a sophisticated understanding of stress management, explaining the complex interplay between stress, coping mechanisms, and overall well-being."
+    ]
+  ]
+}

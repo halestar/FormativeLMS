@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Prevention Methods",
+    "Understanding Risk Reduction",
+    "Accuracy and Completeness of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any methods to prevent or reduce the risk of HIV, AIDS, and other STDs.",
+      "Identifies one method to prevent or reduce the risk of HIV, AIDS, and other STDs, but the method is vague or inaccurate.",
+      "Identifies one accurate method to prevent or reduce the risk of HIV, AIDS, and other STDs with some level of detail.",
+      "Identifies two accurate methods to prevent or reduce the risk of HIV, AIDS, and other STDs with reasonable detail.",
+      "Identifies three or more accurate methods to prevent or reduce the risk of HIV, AIDS, and other STDs with good detail.",
+      "Identifies multiple accurate methods to prevent or reduce the risk of HIV, AIDS, and other STDs with comprehensive detail and explains how each method works."
+    ],
+    [
+      "Demonstrates no understanding of how the identified methods reduce the risk of contracting HIV, AIDS, and other STDs.",
+      "Demonstrates a minimal understanding of how the identified methods reduce the risk, with significant inaccuracies.",
+      "Demonstrates a basic understanding of how the identified methods reduce risk, but lacks depth.",
+      "Demonstrates a clear understanding of how the identified methods reduce the risk of contracting HIV, AIDS, and other STDs.",
+      "Demonstrates a strong understanding of how the identified methods reduce the risk, including specific mechanisms or factors.",
+      "Demonstrates a comprehensive understanding of how the identified methods reduce the risk, including specific mechanisms and factors, and can apply this understanding to different scenarios."
+    ],
+    [
+      "Information presented is inaccurate, incomplete, or misleading.",
+      "Information presented contains significant inaccuracies or omissions.",
+      "Information presented is mostly accurate but lacks key details or contains minor inaccuracies.",
+      "Information presented is accurate and reasonably complete, with only minor omissions.",
+      "Information presented is accurate, complete, and well-supported.",
+      "Information presented is accurate, complete, well-supported, and demonstrates a nuanced understanding of the topic, addressing potential misconceptions or controversies."
+    ]
+  ]
+}

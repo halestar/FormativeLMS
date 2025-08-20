@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Syntax",
+    "Ability to Vary Syntax for Effect",
+    "Effective Use of References",
+    "Comprehension of Complex Texts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of syntax and its function in constructing meaning.",
+      "Shows minimal understanding of syntax, with frequent errors that impede comprehension.",
+      "Displays a basic understanding of syntax but struggles to apply it effectively in analysis or writing.",
+      "Demonstrates a satisfactory understanding of syntax and can apply it in relatively simple contexts.",
+      "Exhibits a strong understanding of syntax and can apply it effectively in various contexts to enhance meaning.",
+      "Shows a sophisticated understanding of syntax and skillfully manipulates it to create nuanced and impactful communication."
+    ],
+    [
+      "Unable to vary syntax or demonstrates no awareness of the impact of syntax on style and meaning.",
+      "Attempts to vary syntax are unsuccessful or create awkward and confusing sentences.",
+      "Can occasionally vary syntax but struggles to do so purposefully or effectively.",
+      "Demonstrates a moderate ability to vary syntax to achieve specific effects in writing and speaking.",
+      "Variations in syntax are deliberate and enhance the overall impact and clarity of communication.",
+      "Masterfully manipulates syntax to create sophisticated and highly effective communication, demonstrating a keen awareness of stylistic nuances."
+    ],
+    [
+      "Does not consult references or fails to apply guidance from references effectively.",
+      "Consults references superficially, with little or no impact on improving syntax or style.",
+      "Uses references with limited success, occasionally misinterpreting or misapplying guidance.",
+      "Consults references appropriately and generally applies guidance to improve syntax and style.",
+      "Uses references strategically and effectively, demonstrating a clear understanding of how to enhance syntax and style.",
+      "Demonstrates a mastery of reference materials, skillfully integrating guidance to create polished and impactful communication."
+    ],
+    [
+      "Struggles to comprehend complex texts due to a lack of understanding of syntax.",
+      "Demonstrates minimal comprehension of complex texts, with frequent misinterpretations due to syntactic confusion.",
+      "Can understand basic elements of complex texts but struggles with nuanced or intricate syntactic structures.",
+      "Generally comprehends complex texts but may miss subtle nuances or complexities.",
+      "Demonstrates a strong understanding of complex texts, accurately interpreting syntactic structures and their impact on meaning.",
+      "Exhibits a deep and nuanced understanding of complex texts, skillfully analyzing syntactic structures to uncover layers of meaning and interpretation."
+    ]
+  ]
+}

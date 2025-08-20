@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Assistance Resources",
+    "Description of Seeking Assistance Methods",
+    "Understanding of When to Seek Assistance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any resources for assistance.",
+      "Student identifies only one resource for assistance, but it may be vague or inappropriate.",
+      "Student identifies two resources for assistance, but descriptions lack detail or relevance.",
+      "Student identifies three relevant resources for assistance with some explanation.",
+      "Student identifies four relevant resources for assistance with clear descriptions.",
+      "Student identifies multiple relevant resources for assistance with thorough explanations, demonstrating a strong understanding of available support systems."
+    ],
+    [
+      "Student does not describe any methods to seek assistance.",
+      "Student provides a vague or unclear description of one method to seek assistance.",
+      "Student describes two methods to seek assistance, but descriptions lack detail or feasibility.",
+      "Student describes three methods to seek assistance with some explanation of how to access them.",
+      "Student describes four methods to seek assistance with clear and practical advice on how to access them.",
+      "Student describes multiple methods to seek assistance with detailed and practical advice, showing a comprehensive understanding of the process."
+    ],
+    [
+      "Student does not demonstrate an understanding of when to seek assistance.",
+      "Student shows minimal awareness of situations requiring assistance.",
+      "Student recognizes a couple of situations requiring assistance but lacks specific examples.",
+      "Student identifies several situations requiring assistance with some explanation of the potential risks involved.",
+      "Student identifies numerous situations requiring assistance and provides a clear explanation of the potential risks and consequences.",
+      "Student demonstrates a comprehensive understanding of when to seek assistance by identifying a wide range of situations, explaining the potential risks, and advocating for proactive help-seeking behavior."
+    ]
+  ]
+}

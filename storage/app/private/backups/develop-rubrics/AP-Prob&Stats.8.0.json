@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Calculation of the Mean",
+    "Calculation of the Standard Deviation",
+    "Understanding of Normal Distribution Properties"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to calculate the mean.",
+      "Incorrectly identifies how to calculate the mean for a normal distribution.",
+      "Attempts to calculate the mean but makes significant errors in the process.",
+      "Calculates the mean with minor errors.",
+      "Accurately calculates the mean of the normally distributed random variable.",
+      "Accurately calculates the mean and explains its significance in the context of the distribution."
+    ],
+    [
+      "No attempt to calculate the standard deviation.",
+      "Incorrectly identifies how to calculate the standard deviation for a normal distribution.",
+      "Attempts to calculate the standard deviation but makes significant errors in the process.",
+      "Calculates the standard deviation with minor errors.",
+      "Accurately calculates the standard deviation of the normally distributed random variable.",
+      "Accurately calculates the standard deviation and explains its significance in the context of the distribution."
+    ],
+    [
+      "Demonstrates no understanding of the normal distribution.",
+      "Shows minimal understanding of the properties of a normal distribution.",
+      "Identifies some properties of the normal distribution but struggles to apply them.",
+      "Understands and applies basic properties of the normal distribution but lacks depth.",
+      "Demonstrates a solid understanding of the properties of the normal distribution and applies them correctly.",
+      "Demonstrates a deep understanding of the normal distribution, its properties, and can apply them in varied contexts."
+    ]
+  ]
+}

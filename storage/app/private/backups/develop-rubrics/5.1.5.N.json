@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Safe Food Temperatures",
+    "Application of Proper Handwashing Techniques",
+    "Implementation of Cross-Contamination Prevention",
+    "Knowledge of Safe Food Storage Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of safe internal temperatures for various foods, leading to potential health risks.",
+      "Shows minimal understanding; identifies only a few safe temperatures, with significant gaps in knowledge.",
+      "Demonstrates a basic understanding; identifies safe temperatures for some common foods but lacks specifics and detail.",
+      "Demonstrates a satisfactory understanding; identifies safe temperatures for most common foods, with minor inaccuracies.",
+      "Demonstrates a strong understanding of safe temperatures, including less common foods and specific temperature ranges.",
+      "Exhibits a comprehensive understanding of safe food temperatures, including the rationale behind them and their impact on preventing foodborne illnesses."
+    ],
+    [
+      "Does not demonstrate or describe proper handwashing techniques, showing a lack of awareness of basic hygiene.",
+      "Attempts to describe handwashing but misses key steps or demonstrates incorrect techniques.",
+      "Describes basic handwashing steps, but the technique is incomplete or lacks detail (e.g., duration, use of soap).",
+      "Demonstrates or describes proper handwashing techniques, including soap use and duration, but may overlook other aspects.",
+      "Demonstrates and accurately describes thorough handwashing techniques, including specific duration and attention to all surfaces.",
+      "Exhibits exemplary handwashing techniques and provides a comprehensive explanation of the importance of each step in preventing contamination."
+    ],
+    [
+      "Shows no awareness of cross-contamination risks or demonstrates practices that could lead to cross-contamination.",
+      "Identifies cross-contamination as a concern but does not provide specific methods to prevent it.",
+      "Describes basic methods for preventing cross-contamination, such as using separate cutting boards, but lacks consistent application.",
+      "Demonstrates or describes consistent use of separate cutting boards and utensils for raw and cooked foods.",
+      "Implements effective cross-contamination prevention strategies, including proper storage techniques and cleaning protocols.",
+      "Provides a thorough and comprehensive plan for preventing cross-contamination in all stages of food handling, from purchasing to serving."
+    ],
+    [
+      "Does not demonstrate understanding of proper food storage methods and their impact on food safety.",
+      "Demonstrates limited knowledge of safe food storage practices, with significant gaps in understanding.",
+      "Identifies some safe food storage practices, but lacks consistency or detail in application.",
+      "Demonstrates understanding of safe food storage practices, including refrigeration and freezing, for most food types.",
+      "Demonstrates a strong understanding of safe food storage, including FIFO, proper labeling, and optimal storage conditions.",
+      "Exhibits comprehensive knowledge of safe food storage practices, including long-term storage methods and their impact on nutritional value."
+    ]
+  ]
+}

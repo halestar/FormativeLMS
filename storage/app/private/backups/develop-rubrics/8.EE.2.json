@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Square Roots",
+    "Understanding Cube Roots",
+    "Solving Equations with Radicals",
+    "Knowledge of Irrational Numbers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of square root notation or perfect squares is demonstrated.",
+      "Struggles to identify square roots and perfect squares. Makes frequent errors in calculations.",
+      "Identifies some square roots and perfect squares but requires assistance. Limited accuracy in calculations.",
+      "Can accurately evaluate square roots of small perfect squares with minimal assistance.",
+      "Demonstrates a strong understanding of square roots of perfect squares, including the ability to simplify expressions.",
+      "Demonstrates a comprehensive understanding of square roots, perfect squares, and their properties. Can apply this knowledge to solve complex problems."
+    ],
+    [
+      "No understanding of cube root notation or perfect cubes is demonstrated.",
+      "Struggles to identify cube roots and perfect cubes. Makes frequent errors in calculations.",
+      "Identifies some cube roots and perfect cubes but requires assistance. Limited accuracy in calculations.",
+      "Can accurately evaluate cube roots of small perfect cubes with minimal assistance.",
+      "Demonstrates a strong understanding of cube roots of perfect cubes, including the ability to simplify expressions.",
+      "Demonstrates a comprehensive understanding of cube roots, perfect cubes, and their properties. Can apply this knowledge to solve complex problems."
+    ],
+    [
+      "Unable to represent solutions to equations of the form x^2 = p or x^3 = p using radical symbols.",
+      "Attempts to represent solutions using radical symbols but makes significant errors.",
+      "Can represent solutions with radical symbols with assistance but struggles with accuracy.",
+      "Can accurately represent solutions to equations of the form x^2 = p and x^3 = p using radical symbols.",
+      "Can accurately represent solutions and solve equations involving square roots and cube roots.",
+      "Demonstrates a deep understanding of solving equations with radicals and can apply this knowledge to more complex equations and problems."
+    ],
+    [
+      "Does not demonstrate an understanding that \u221a2 is irrational.",
+      "Demonstrates confusion about the concept of irrational numbers, specifically \u221a2.",
+      "Acknowledges that \u221a2 is irrational but struggles to explain why.",
+      "Knows that \u221a2 is irrational and can provide a basic explanation.",
+      "Can clearly explain why \u221a2 is irrational and its significance.",
+      "Demonstrates a deep understanding of irrational numbers and their properties, including the ability to provide a formal proof of \u221a2's irrationality."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Inverse Functions",
+    "Ability to Solve for Inverse Functions",
+    "Expression of Inverse Functions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of inverse functions is demonstrated.",
+      "Demonstrates a minimal understanding of inverse functions with significant errors.",
+      "Demonstrates a partial understanding of inverse functions, but struggles with applying the concept.",
+      "Demonstrates a satisfactory understanding of inverse functions and can apply the concept to simple functions.",
+      "Demonstrates a strong understanding of inverse functions and can apply the concept to a variety of functions, but with minor errors.",
+      "Demonstrates a comprehensive understanding of inverse functions and can apply the concept to a variety of functions accurately and efficiently."
+    ],
+    [
+      "Unable to solve for the inverse of a simple function.",
+      "Attempts to solve for the inverse, but makes fundamental errors in algebraic manipulation.",
+      "Solves for the inverse with significant errors or omissions in steps.",
+      "Solves for the inverse of simple functions with minor errors.",
+      "Solves for the inverse of more complex functions with only occasional errors.",
+      "Solves for the inverse of functions accurately and efficiently, including complex functions."
+    ],
+    [
+      "Unable to express the inverse function correctly.",
+      "Attempts to express the inverse function, but with significant errors in notation or setup.",
+      "Expresses the inverse function with some errors or omissions.",
+      "Expresses the inverse function correctly for simple functions.",
+      "Expresses the inverse function correctly for a variety of functions with only minor errors.",
+      "Expresses the inverse function correctly and clearly for a variety of functions, demonstrating a strong command of notation."
+    ]
+  ]
+}

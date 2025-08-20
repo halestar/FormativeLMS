@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Basic Probability Rules",
+    "Application to Finite Sample Spaces",
+    "Handling Independent Events",
+    "Problem Solving and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of addition, multiplication, or complementation rules.",
+      "Shows minimal understanding of basic probability rules; struggles to apply them in simple scenarios.",
+      "Demonstrates partial understanding of probability rules; can apply them inconsistently.",
+      "Demonstrates understanding of basic probability rules and can apply them in straightforward problems.",
+      "Demonstrates strong understanding of basic probability rules and can apply them effectively in most problems.",
+      "Demonstrates comprehensive understanding of basic probability rules and applies them effectively and accurately in complex problems."
+    ],
+    [
+      "Unable to apply probability rules to finite sample spaces.",
+      "Struggles to define and work with finite sample spaces in probability problems.",
+      "Can identify finite sample spaces but has difficulty applying probability rules within them.",
+      "Applies probability rules to solve problems within clearly defined finite sample spaces.",
+      "Effectively uses finite sample spaces to solve a variety of probability problems.",
+      "Expertly manipulates finite sample spaces to solve complex probability problems with efficiency and accuracy."
+    ],
+    [
+      "Does not recognize or understand the concept of independent events.",
+      "Confuses independent and dependent events; unable to simplify calculations based on independence.",
+      "Shows some understanding of independent events but struggles with applying the simplifications.",
+      "Correctly identifies independent events and applies simplifications in calculations.",
+      "Skillfully uses the independence of events to simplify and solve complex probability problems.",
+      "Masterfully uses understanding of independent events to design and solve intricate probability scenarios with clarity and precision."
+    ],
+    [
+      "Unable to approach or solve probability problems effectively.",
+      "Attempts to solve problems but lacks a clear strategy or logical reasoning.",
+      "Can follow provided steps to solve problems but struggles with independent reasoning.",
+      "Solves problems logically and can explain the reasoning behind each step.",
+      "Demonstrates excellent problem-solving skills and clearly articulates the reasoning.",
+      "Demonstrates exceptional problem-solving skills, innovatively applying concepts to solve novel and complex probability problems with clear and insightful reasoning."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Differential Equations Concepts",
+    "Application of Solution Techniques",
+    "Application to Real-World Problems",
+    "Mathematical Reasoning and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of differential equations concepts is demonstrated.",
+      "Demonstrates minimal understanding of differential equations concepts.",
+      "Demonstrates basic understanding of differential equations concepts but struggles with application.",
+      "Demonstrates a solid understanding of differential equations concepts and some ability to apply them.",
+      "Demonstrates a strong understanding of differential equations concepts and can apply them effectively.",
+      "Demonstrates an exceptional understanding of differential equations concepts and can apply them creatively and independently."
+    ],
+    [
+      "Unable to apply any solution techniques for differential equations.",
+      "Attempts to apply solution techniques but is largely unsuccessful.",
+      "Applies solution techniques with frequent errors and requires significant guidance.",
+      "Applies solution techniques with occasional errors but generally arrives at a correct solution.",
+      "Applies solution techniques accurately and efficiently with minimal errors.",
+      "Applies solution techniques flawlessly and can adapt them to solve complex problems."
+    ],
+    [
+      "Unable to apply differential equations to real-world problems.",
+      "Attempts to apply differential equations to real-world problems but fails to make meaningful connections.",
+      "Applies differential equations to real-world problems with limited success and some irrelevant information.",
+      "Applies differential equations to real-world problems effectively, but the explanation lacks detail.",
+      "Applies differential equations to real-world problems clearly and provides a detailed explanation.",
+      "Applies differential equations to real-world problems insightfully, providing a comprehensive and nuanced explanation."
+    ],
+    [
+      "No mathematical reasoning or justification is present.",
+      "Minimal mathematical reasoning or justification is provided.",
+      "Mathematical reasoning or justification is weak and unclear.",
+      "Mathematical reasoning or justification is adequate but lacks depth.",
+      "Mathematical reasoning or justification is strong and well-supported.",
+      "Mathematical reasoning or justification is exceptional, demonstrating a deep understanding of the underlying principles."
+    ]
+  ]
+}

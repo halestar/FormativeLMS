@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Focus and Question Development",
+    "Source Integration and Synthesis",
+    "Scope Adjustment and Inquiry",
+    "Understanding of Subject"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The research question is unclear or missing. There is no discernible focus in the project.",
+      "The research question is vague and poorly defined. The focus of the project is broad and lacks direction.",
+      "The research question is somewhat defined but could be more focused. The project's focus is present but may wander.",
+      "The research question is clear and relevant. The project maintains a generally consistent focus.",
+      "The research question is well-defined, specific, and clearly relevant. The project demonstrates a sharp and consistent focus.",
+      "The research question is insightful and precisely crafted, demonstrating a deep understanding of the topic. The project maintains an unwavering and compelling focus."
+    ],
+    [
+      "No sources are used or cited. There is no evidence of understanding the subject.",
+      "Few sources are used, and they are poorly integrated. There is minimal understanding of the subject.",
+      "Some sources are used, but the synthesis is weak. The understanding of the subject is basic.",
+      "Sources are adequately integrated, and synthesis is present. The understanding of the subject is solid.",
+      "Sources are well-integrated, and synthesis is effective, demonstrating a strong grasp of the subject.",
+      "Sources are seamlessly integrated to create new meaning; synthesis is insightful, displaying a comprehensive and nuanced understanding of the subject."
+    ],
+    [
+      "The project shows no attempt to adjust the scope or deepen the inquiry.",
+      "There is a minimal attempt to adjust the scope or deepen the inquiry.",
+      "The scope is adjusted or the inquiry is deepened superficially.",
+      "The scope is appropriately adjusted as needed, and the inquiry shows some depth.",
+      "The scope is effectively narrowed or broadened to enhance the focus, and the inquiry is thoughtfully deepened.",
+      "The scope is masterfully adjusted to optimize the research, and the inquiry is exceptionally insightful, leading to a profound understanding."
+    ],
+    [
+      "Demonstrates no understanding of the subject under investigation.",
+      "Demonstrates very limited understanding of the subject; relies heavily on direct quotes without explanation.",
+      "Demonstrates a basic understanding of the subject, but struggles with more complex aspects.",
+      "Demonstrates a good understanding of the subject, with clear explanations and interpretations.",
+      "Demonstrates a strong understanding of the subject, including nuances and complexities.",
+      "Demonstrates an exceptional and nuanced understanding of the subject, synthesizing information to form original insights."
+    ]
+  ]
+}

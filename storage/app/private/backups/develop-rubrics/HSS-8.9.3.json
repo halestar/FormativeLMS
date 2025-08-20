@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Northwest Ordinance's Provisions",
+    "Significance of Education in the Northwest Ordinance",
+    "Impact on Slavery in New States"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Northwest Ordinance.",
+      "Student shows minimal understanding of the Northwest Ordinance, with significant inaccuracies.",
+      "Student identifies the Northwest Ordinance but struggles to explain its key provisions regarding education or slavery.",
+      "Student accurately describes the Northwest Ordinance and its impact on either education or the banning of slavery, but not both.",
+      "Student accurately describes the Northwest Ordinance and its impact on both education and the banning of slavery, but lacks depth or connection to overarching ideals.",
+      "Student demonstrates a comprehensive understanding of the Northwest Ordinance, clearly articulating its provisions for education and the banning of slavery, and connecting it to the broader context of abolitionist efforts and the ideals of the Declaration of Independence."
+    ],
+    [
+      "Student fails to recognize any role of education in the Northwest Ordinance.",
+      "Student vaguely mentions education but does not explain its importance within the context of the Ordinance.",
+      "Student identifies education as a component of the Northwest Ordinance but does not elaborate on its intended purpose or impact.",
+      "Student explains that the Northwest Ordinance promoted education and its importance in the new territories but misses key details.",
+      "Student explains the importance of education in the Northwest Ordinance, linking it to the development of civic virtue and an informed citizenry.",
+      "Student thoroughly analyzes the role of education in the Northwest Ordinance, explaining its long-term significance in shaping the values and development of the Northwest Territory, including its influence on subsequent state constitutions and educational policies."
+    ],
+    [
+      "Student does not understand the Northwest Ordinance's stance on slavery.",
+      "Student incorrectly states that the Northwest Ordinance allowed slavery.",
+      "Student acknowledges the ban on slavery but is unable to specify the geographical area or rationale.",
+      "Student correctly identifies that the Northwest Ordinance banned slavery in the territories north of the Ohio River but doesn't elaborate.",
+      "Student explains the ban on slavery in the Northwest Territory, understanding that it was the start of federal restrictions on slavery expansion, and how this was an attempt to realize the ideals of the Declaration of Independence.",
+      "Student provides a nuanced explanation of the Northwest Ordinance's prohibition of slavery, including its historical context, its limitations, and its impact on the future debates and conflicts over slavery in the United States."
+    ]
+  ]
+}

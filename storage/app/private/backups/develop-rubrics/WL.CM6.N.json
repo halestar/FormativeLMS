@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Vocabulary and Phrases",
+    "Sentence Formation",
+    "Pronunciation\/Sign Clarity",
+    "Comprehension"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Uses no recognizable vocabulary or phrases related to the topic.",
+      "Uses very limited, isolated words and phrases. Communication is difficult to understand.",
+      "Uses some vocabulary and phrases, but with frequent errors that impede communication.",
+      "Uses vocabulary and phrases adequately to communicate about familiar topics, with some errors.",
+      "Uses a good range of vocabulary and phrases with minor errors that do not impede communication.",
+      "Uses a wide range of vocabulary and phrases accurately and effectively to communicate about familiar topics."
+    ],
+    [
+      "Does not form any recognizable sentences.",
+      "Attempts to form simple sentences, but they are largely incomprehensible.",
+      "Forms simple sentences with significant errors in structure and grammar.",
+      "Forms simple sentences that are generally comprehensible, with some grammatical errors.",
+      "Forms mostly correct simple sentences with occasional errors.",
+      "Forms correct and varied simple sentences with ease."
+    ],
+    [
+      "Pronunciation or signs are unintelligible.",
+      "Pronunciation or signs are very difficult to understand, requiring significant effort from the listener\/viewer.",
+      "Pronunciation or signs contain frequent errors that sometimes obscure meaning.",
+      "Pronunciation or signs are generally clear, with some minor errors.",
+      "Pronunciation or signs are clear and easily understood with only occasional errors.",
+      "Pronunciation or signs are consistently clear, accurate, and natural-sounding."
+    ],
+    [
+      "Demonstrates no understanding of the topic.",
+      "Demonstrates very limited understanding, struggling to grasp the basic concept.",
+      "Demonstrates partial understanding, with some confusion or misinterpretations.",
+      "Demonstrates adequate understanding of familiar topics.",
+      "Demonstrates good understanding and can answer simple questions about the topic.",
+      "Demonstrates thorough understanding and can elaborate on the topic with confidence."
+    ]
+  ]
+}

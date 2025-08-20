@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Partitioning",
+    "Correctness of Unit Fraction Representation",
+    "Explanation and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The shape is not partitioned at all, or the partitioning is completely inaccurate with no resemblance to equal areas.",
+      "The shape is partitioned, but the areas are grossly unequal and the student demonstrates no understanding of equal parts.",
+      "The shape is partitioned, but the areas are noticeably unequal. There is a limited understanding of equal parts.",
+      "The shape is partitioned into parts with reasonable accuracy. The areas are close to equal, demonstrating a basic understanding of fractions.",
+      "The shape is partitioned accurately into equal parts. The student demonstrates a good understanding of fractions and equal areas.",
+      "The shape is partitioned precisely into equal parts, demonstrating a comprehensive understanding of fractions and area. The student can explain the partitioning strategy clearly."
+    ],
+    [
+      "No fractions are used, or the fractions used are completely incorrect and do not represent the partitioned parts.",
+      "Fractions are used, but they do not correspond to the number of partitioned parts or are written incorrectly.",
+      "Fractions are used, but there are errors in the numerator or denominator. The student struggles to relate the fraction to the partitioned area.",
+      "Fractions are mostly correct, with minor errors in representation. The student can generally relate the fraction to the partitioned area.",
+      "Fractions are correctly written as unit fractions representing the partitioned areas. The student demonstrates a solid understanding of the relationship.",
+      "Fractions are precisely and correctly written as unit fractions, and the student clearly explains the relationship between the fraction and the partitioned area. Demonstrates ability to generalize to other shapes and partitions."
+    ],
+    [
+      "No explanation is provided, or the explanation shows no understanding of partitioning and fractions.",
+      "The explanation is unclear and does not relate to the partitioning or fractional representation.",
+      "The explanation is limited and shows some understanding of partitioning and fractions but lacks clarity.",
+      "The explanation is adequate and shows a reasonable understanding of partitioning and fractions.",
+      "The explanation is clear and demonstrates a good understanding of partitioning, equal areas, and fractional representation.",
+      "The explanation is comprehensive and insightful, demonstrating a deep understanding of partitioning, equal areas, and fractional representation. The student can justify their approach and reasoning effectively."
+    ]
+  ]
+}

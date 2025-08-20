@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Protective Actions",
+    "Accuracy and Relevance",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No actions are identified.",
+      "Identifies one or two actions vaguely related to reproductive and sexual health.",
+      "Identifies one or two specific actions to protect reproductive and sexual health, but lacks detail.",
+      "Identifies three to four specific actions, with some explanation of how they protect health.",
+      "Identifies five or more specific actions, explaining how they protect health.",
+      "Identifies five or more specific actions, thoroughly explaining how they protect reproductive and sexual health, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Information provided is inaccurate or irrelevant.",
+      "Information provided has significant inaccuracies or is not relevant to reproductive and sexual health.",
+      "Information is mostly accurate but may contain minor inaccuracies or some irrelevant details.",
+      "Information is accurate and relevant, with only minor omissions.",
+      "Information is accurate, relevant, and comprehensive.",
+      "Information is exceptionally accurate, relevant, and demonstrates a deep understanding of reproductive and sexual health protection."
+    ],
+    [
+      "Description is unclear and difficult to understand.",
+      "Description lacks clarity and contains significant grammatical errors.",
+      "Description is somewhat clear but could be improved with better organization and grammar.",
+      "Description is clear and well-organized, with few grammatical errors.",
+      "Description is clear, concise, and well-organized, with excellent grammar.",
+      "Description is exceptionally clear, articulate, and persuasive, demonstrating excellent communication skills."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Effectively gathers relevant information from multiple sources (print and digital) using appropriate search terms.",
+    "Accurately assesses the credibility and accuracy of each source.",
+    "Skillfully quotes or paraphrases the data and conclusions of others while avoiding plagiarism.",
+    "Consistently follows a standard format for citation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not gather information or uses irrelevant sources and search terms.",
+      "Gathers information from only one or two sources with ineffective search terms; sources may be irrelevant.",
+      "Gathers information from a limited number of sources (mostly irrelevant) and uses basic, sometimes ineffective, search terms.",
+      "Gathers information from multiple sources with moderately effective search terms. Some sources may lack relevance.",
+      "Gathers relevant information from multiple sources, using mostly effective search terms.",
+      "Gathers highly relevant information from a wide range of sources, employing sophisticated and effective search terms."
+    ],
+    [
+      "Does not assess the credibility or accuracy of sources.",
+      "Attempts to assess credibility and accuracy, but assessment is flawed or superficial.",
+      "Limited assessment of credibility and accuracy; relies on easily verifiable information without critical evaluation.",
+      "Adequately assesses credibility and accuracy, but may overlook subtle biases or inaccuracies.",
+      "Thoroughly assesses the credibility and accuracy of sources, identifying potential biases and limitations.",
+      "Critically and insightfully assesses the credibility and accuracy of sources, demonstrating a nuanced understanding of potential biases, limitations, and agendas."
+    ],
+    [
+      "Extensive plagiarism is present, or there is no attempt to use source material appropriately.",
+      "Significant instances of plagiarism or improper citation; relies heavily on direct quotes without proper integration.",
+      "Some instances of plagiarism or improper citation; struggles to paraphrase effectively.",
+      "Generally avoids plagiarism, but may have minor citation errors or awkward paraphrasing.",
+      "Effectively quotes and paraphrases source material, with proper citation and clear distinction between own ideas and others'.",
+      "Masterfully integrates quoted and paraphrased material, enhancing understanding and avoiding any possibility of plagiarism through meticulous citation and original synthesis."
+    ],
+    [
+      "No attempt to follow a standard citation format.",
+      "Attempts to follow a citation format, but with numerous and significant errors.",
+      "Inconsistent application of a standard citation format, with several errors.",
+      "Generally follows a standard citation format with few errors or omissions.",
+      "Consistently follows a standard citation format accurately and completely.",
+      "Exemplifies mastery of a standard citation format, demonstrating meticulous attention to detail and providing a flawless presentation of sources."
+    ]
+  ]
+}

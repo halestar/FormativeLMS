@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Number Line Representation",
+    "Interpretation of Inequality Statements",
+    "Ordering of Rational Numbers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of how to represent rational numbers on a number line.",
+      "Student struggles to place rational numbers on a number line; placements are often incorrect or illogical.",
+      "Student can place integers on a number line, but struggles with fractions or decimals, or the negative signs.",
+      "Student can accurately place positive and negative integers, fractions, and decimals on a number line, but struggles with more complex numbers.",
+      "Student accurately represents most rational numbers on a number line and can generally explain their placement.",
+      "Student flawlessly represents rational numbers on a number line and explains their placement with clarity and precision."
+    ],
+    [
+      "Student cannot interpret inequality statements or relate them to the position of numbers on a number line.",
+      "Student struggles to understand the meaning of inequality symbols (>, <, =).",
+      "Student can identify the larger or smaller number in a simple inequality but does not connect it to the number line.",
+      "Student can relate simple inequality statements to the relative position of numbers on a number line with some errors.",
+      "Student accurately interprets inequality statements and connects them to the position of numbers on a number line.",
+      "Student demonstrates a deep understanding of inequality statements and can fluently explain the relationship between the symbols and the number line, including complex scenarios."
+    ],
+    [
+      "Student cannot order rational numbers.",
+      "Student can only order integers. They do not understand how to order decimals or fractions.",
+      "Student can order positive rational numbers. Struggles ordering with negative signs.",
+      "Student can order most rational numbers, but makes some errors with negative numbers, fractions, or decimals.",
+      "Student accurately orders rational numbers with minimal errors. Numbers can be in any form.",
+      "Student accurately orders any rational numbers, regardless of sign or form."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Orientation and Context: Establishes a clear context, point of view, and introduces characters\/narrator effectively; organizes events logically.",
+    "Narrative Techniques: Employs dialogue, pacing, and description to develop experiences, events, and characters.",
+    "Transitions: Uses transition words, phrases, and clauses to convey sequence and signal shifts in time frame or setting.",
+    "Language and Detail: Uses precise words and phrases, relevant descriptive details, and sensory language to capture action and convey experiences.",
+    "Conclusion: Provides a conclusion that follows from and reflects on the narrated experiences or events."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to establish a context, point of view, or introduce characters\/narrator. The event sequence is disorganized and illogical.",
+      "Struggles to establish a clear context or point of view. The introduction of characters\/narrator is weak, and the event sequence lacks logical organization.",
+      "Establishes a basic context and point of view, but may lack detail or clarity. Characters\/narrator are introduced, but the event sequence may have minor lapses in logic.",
+      "Clearly establishes a context and point of view, introducing characters\/narrator adequately. The event sequence is generally logical with few inconsistencies.",
+      "Effectively engages the reader by establishing a vivid context and point of view. Characters\/narrator are well-introduced, and the event sequence unfolds naturally and logically.",
+      "Masterfully orients the reader with a compelling context and distinct point of view. The introduction of characters\/narrator is seamless, and the event sequence is impeccably organized."
+    ],
+    [
+      "Demonstrates no use of narrative techniques. Dialogue, pacing, and description are absent or ineffective.",
+      "Limited use of narrative techniques. Dialogue, pacing, and description are attempted but lack impact or relevance.",
+      "Basic use of narrative techniques. Dialogue, pacing, and description are present but may be underdeveloped or inconsistent.",
+      "Adequate use of narrative techniques. Dialogue, pacing, and description are employed to develop experiences, events, and characters with some effectiveness.",
+      "Effective use of narrative techniques. Dialogue, pacing, and description enhance the development of experiences, events, and characters, creating a more engaging narrative.",
+      "Skillful and nuanced use of narrative techniques. Dialogue, pacing, and description are masterfully woven into the narrative, creating depth, complexity, and a captivating reading experience."
+    ],
+    [
+      "Lacks transitions, resulting in abrupt shifts and a disjointed narrative.",
+      "Transitions are minimal or used inappropriately, causing confusion in the sequence of events and shifts in time or setting.",
+      "Transitions are present but may be overused, awkward, or ineffective in signaling sequence and shifts.",
+      "Uses a variety of transition words, phrases, and clauses to convey sequence and signal shifts in time frame or setting with general clarity.",
+      "Employs transitions smoothly and effectively to enhance the flow of the narrative and create clear connections between events and settings.",
+      "Transitions are artfully integrated into the narrative, creating a seamless and immersive reading experience. The shifts in time frame or setting are subtle yet impactful."
+    ],
+    [
+      "Uses vague or imprecise language. Descriptive details are lacking, and sensory language is absent.",
+      "Language is simplistic and lacks precision. Descriptive details are minimal, and sensory language is used sparingly or ineffectively.",
+      "Language is adequate but may lack vividness. Descriptive details are present but may not always be relevant or impactful. Sensory language is used occasionally.",
+      "Uses precise words and phrases, relevant descriptive details, and some sensory language to capture action and convey experiences with moderate effectiveness.",
+      "Language is vivid and engaging. Descriptive details are carefully chosen to enhance the reader's understanding and connection to the narrative. Sensory language is used effectively to create a rich and immersive experience.",
+      "Language is evocative and precise. Descriptive details are masterfully crafted to create a vivid and memorable experience. Sensory language is used artfully to immerse the reader in the action and emotions of the narrative."
+    ],
+    [
+      "Lacks a conclusion or the conclusion is unrelated to the narrated experiences or events.",
+      "Conclusion is weak or abrupt, failing to provide closure or reflection on the narrative.",
+      "Conclusion is present but may be formulaic or superficial, offering limited insight or reflection.",
+      "Provides a conclusion that follows from the narrated experiences or events, offering some reflection or insight.",
+      "Crafts a thoughtful and satisfying conclusion that ties together the narrative elements and offers a meaningful reflection on the experiences or events.",
+      "Delivers a profound and resonant conclusion that lingers in the reader's mind, offering a unique perspective or transformative insight into the narrated experiences or events."
+    ]
+  ]
+}

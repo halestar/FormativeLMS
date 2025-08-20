@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Selection of Appropriate Tools",
+    "Accurate Measurement Technique",
+    "Understanding of Units"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not select any measuring tools or selects tools completely inappropriate for measuring length (e.g., a scale for weight).",
+      "Student selects a tool, but it is clearly not suitable for the object's length (e.g., using a ruler to measure a football field).",
+      "Student selects a tool that could measure the object, but it's not the most efficient or accurate choice (e.g., using a ruler to measure a long table).",
+      "Student selects an appropriate tool for measuring the object's length but shows some inefficiency or awkwardness in their choice (e.g. using multiple rulers).",
+      "Student selects an appropriate tool for measuring the object's length and demonstrates understanding of its suitability.",
+      "Student expertly selects the most efficient and accurate tool for measuring the object's length, justifying their choice with clear reasoning."
+    ],
+    [
+      "Student does not attempt to measure or uses the tool in a way that is completely incorrect, resulting in a nonsensical measurement.",
+      "Student attempts to measure, but the technique is flawed, leading to a significant error (e.g., not aligning the tool correctly, skipping units, etc.).",
+      "Student demonstrates some understanding of measurement technique, but makes several errors that affect the accuracy of the measurement.",
+      "Student generally uses the tool correctly, but there are minor errors in technique that lead to a slight inaccuracy in the measurement.",
+      "Student uses the measurement tool correctly, following proper technique and demonstrating attention to detail.",
+      "Student uses the measurement tool with precision and accuracy, demonstrating a mastery of measurement technique and consistently achieving accurate results."
+    ],
+    [
+      "Student does not indicate any units of measurement or uses incorrect units that are not related to length (e.g., grams, liters).",
+      "Student uses a unit of measurement, but it is inappropriate for the tool used or the size of the object (e.g., using inches to measure the length of a room).",
+      "Student uses a unit of measurement that is somewhat appropriate, but demonstrates a misunderstanding of its scale or relationship to other units.",
+      "Student uses an appropriate unit of measurement, but there are some inconsistencies in its application or conversion.",
+      "Student uses appropriate units of measurement correctly, demonstrating a clear understanding of their scale and relationship to the object being measured.",
+      "Student expertly uses and converts between different units of measurement as needed, demonstrating a comprehensive understanding of units and their relationships."
+    ]
+  ]
+}

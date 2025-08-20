@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Safe Food Purchasing Practices",
+    "Understanding of Safe Food Preparation Practices",
+    "Understanding of Safe Food Storage Practices",
+    "Application of Knowledge to Prevent Foodborne Illness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of safe food purchasing practices.",
+      "Identifies one or two safe food purchasing practices.",
+      "Lists several safe food purchasing practices but lacks detail.",
+      "Explains common safe food purchasing practices, such as checking expiration dates and proper packaging.",
+      "Describes safe food purchasing practices with specific examples and reasoning.",
+      "Thoroughly explains and provides detailed examples of diverse safe food purchasing practices, including considerations for different food types."
+    ],
+    [
+      "Demonstrates no understanding of safe food preparation practices.",
+      "Identifies one or two safe food preparation practices.",
+      "Lists several safe food preparation practices but lacks detail.",
+      "Explains common safe food preparation practices, such as washing hands and preventing cross-contamination.",
+      "Describes safe food preparation practices with specific examples and reasoning.",
+      "Thoroughly explains and provides detailed examples of diverse safe food preparation practices, including proper cooking temperatures and sanitation."
+    ],
+    [
+      "Demonstrates no understanding of safe food storage practices.",
+      "Identifies one or two safe food storage practices.",
+      "Lists several safe food storage practices but lacks detail.",
+      "Explains common safe food storage practices, such as refrigerating perishable foods and proper labeling.",
+      "Describes safe food storage practices with specific examples and reasoning.",
+      "Thoroughly explains and provides detailed examples of diverse safe food storage practices, including strategies for different food types and long-term storage."
+    ],
+    [
+      "Does not connect safe food practices to the prevention of foodborne illness.",
+      "Makes a weak connection between some practices and illness prevention.",
+      "Identifies some connections between practices and illness prevention, but lacks depth.",
+      "Explains how each category of safe food practice contributes to preventing foodborne illness.",
+      "Provides detailed explanations and examples of how safe food practices directly prevent specific foodborne illnesses.",
+      "Demonstrates a comprehensive understanding of how all areas of safe food practices work together to minimize the risk of foodborne illness, including identifying high-risk foods and populations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Behaviors Promoting Healthy Growth and Development",
+    "Explanation of the Impact of Behaviors on Healthy Growth and Development",
+    "Variety of Behaviors Examined"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any behaviors that promote healthy growth and development.",
+      "The student identifies one behavior that promotes healthy growth and development, but the explanation is unclear or inaccurate.",
+      "The student identifies two behaviors that promote healthy growth and development, but the explanations lack depth.",
+      "The student identifies three behaviors that promote healthy growth and development and provides adequate explanations for each.",
+      "The student identifies four behaviors that promote healthy growth and development and provides detailed explanations for each, showing a good understanding of their impact.",
+      "The student identifies multiple behaviors that promote healthy growth and development, provides comprehensive and insightful explanations for each, and demonstrates a deep understanding of their impact on overall well-being."
+    ],
+    [
+      "The student provides no explanation of how the identified behaviors impact healthy growth and development.",
+      "The student's explanation is vague and does not clearly connect the behavior to its impact on growth and development.",
+      "The student provides a basic explanation of how the behavior impacts growth and development, but lacks specific details.",
+      "The student provides a clear explanation of how the behavior impacts growth and development, including some specific details.",
+      "The student provides a thorough and well-supported explanation of how the behavior impacts growth and development, including specific examples and evidence.",
+      "The student provides an in-depth and nuanced explanation of how the behavior impacts growth and development, demonstrating a sophisticated understanding of the underlying mechanisms and potential long-term effects."
+    ],
+    [
+      "The student does not mention a variety of behaviors.",
+      "The student only mentions one type of behavior.",
+      "The student mentions similar types of behaviors without much variety.",
+      "The student mentions a few different behaviors.",
+      "The student mentions a good range of different behaviors.",
+      "The student has great coverage of all types of different behaviors and how those impact growth"
+    ]
+  ]
+}

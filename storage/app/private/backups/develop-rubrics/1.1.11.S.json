@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Posture and Body Alignment",
+    "Lifting Technique",
+    "Carrying Technique",
+    "Awareness and Planning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates consistently incorrect posture, leading to a high risk of injury.",
+      "Student sometimes shows correct posture but frequently lapses into incorrect form, increasing risk of injury.",
+      "Student demonstrates adequate posture most of the time but occasionally makes errors.",
+      "Student mostly keeps a correct posture while demonstrating but needs to be reminded a few times.",
+      "Student consistently demonstrates correct posture and body alignment, maintaining a safe stance throughout the demonstration.",
+      "Student demonstrates impeccable posture and body alignment, exhibiting full understanding of how to keep body safe and prevent injury in all phases of lifting and carrying."
+    ],
+    [
+      "Student lifts with back muscles, no knee bend, and arms extended, creating a very high risk of injury.",
+      "Student inconsistently uses leg muscles and bends knees; lifting is often back-dominant and potentially harmful.",
+      "Student attempts to use legs and keep back straight, but there are inconsistencies that show a moderate risk of injury.",
+      "Student regularly uses leg muscles and keeps back straight, exhibiting a safe lifting technique with minor inconsistencies.",
+      "Student consistently uses leg muscles and keeps back straight; shows smooth and efficient lifting motion with high potential of safety and injury prevention.",
+      "Student lifts with flawless technique; optimizes biomechanics for maximal safety and full injury prevention. Explains why they perform the lift in a certain manner."
+    ],
+    [
+      "Student carries the object far from the body, with poor balance and control.",
+      "Student usually carries the object far from the body, compromising balance and control with a potential to cause injury.",
+      "Student carries the object mostly close to the body but with some lapses in balance and control.",
+      "Student usually carries the object close to the body, maintains adequate balance, and demonstrates basic control.",
+      "Student keeps object close to body, maintains excellent balance, and demonstrates full control throughout the task, minimizing potential strain or accidents.",
+      "Student keeps object perfectly aligned with the body\u2019s center of gravity; moves with fluidity, maintaining excellent balance and precise control; explains why the carrying technique is optimum for safety."
+    ],
+    [
+      "Student shows no awareness of surroundings or potential hazards; attempts to lift or carry without prior planning.",
+      "Student is sometimes aware of surroundings but does not consistently identify or address hazards.",
+      "Student mostly shows awareness of surroundings and identifies some potential hazards, but planning is minimal or inefficient.",
+      "Student usually checks the area for hazards and plans the lift\/carry, but may overlook some factors.",
+      "Student thoroughly assesses surroundings for hazards and plans the lift\/carry in advance, demonstrating thoughtful preparation.",
+      "Student carefully assesses all environmental factors, plans the entire process meticulously, and adjusts for unforeseen hazards, exhibiting excellent anticipation and planning."
+    ]
+  ]
+}

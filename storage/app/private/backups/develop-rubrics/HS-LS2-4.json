@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Mathematical Representation of Energy Flow and Matter Cycling",
+    "Application of Conservation of Energy and Matter Principles",
+    "Explanation of Trophic Levels and Energy Transfer Efficiency"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use mathematical representations to describe energy flow or matter cycling in ecosystems.",
+      "Uses mathematical representations with significant inaccuracies or omissions in describing energy flow or matter cycling.",
+      "Uses mathematical representations with some inaccuracies in describing energy flow or matter cycling, demonstrating a limited understanding.",
+      "Uses mathematical representations to describe energy flow and matter cycling in ecosystems, but with limited detail or clarity.",
+      "Uses mathematical representations to accurately describe energy flow and matter cycling in ecosystems, providing clear and relevant details.",
+      "Uses sophisticated mathematical representations to accurately and comprehensively describe energy flow and matter cycling in ecosystems, demonstrating a deep understanding of the underlying principles."
+    ],
+    [
+      "Does not mention or incorrectly states the principles of conservation of energy and matter within the ecosystem context.",
+      "Mentions conservation principles but does not accurately apply them to the explanation of energy flow and matter cycling.",
+      "Applies conservation principles with some inconsistencies or misunderstandings in the context of energy flow and matter cycling.",
+      "Applies conservation principles to explain energy flow and matter cycling, but the explanation lacks depth or specific examples.",
+      "Clearly applies conservation principles to accurately explain how energy and matter are conserved as they move through the ecosystem, providing relevant examples.",
+      "Demonstrates a thorough understanding of conservation principles, applying them insightfully to explain the complexities of energy flow and matter cycling, including detailed examples and nuanced explanations."
+    ],
+    [
+      "Shows no understanding of trophic levels or the efficiency of energy transfer between them.",
+      "Demonstrates a vague or inaccurate understanding of trophic levels and energy transfer efficiency.",
+      "Identifies trophic levels but struggles to explain energy transfer efficiency or the implications of this efficiency.",
+      "Explains the basic concept of trophic levels and energy transfer efficiency, but lacks specific details or mathematical support.",
+      "Accurately explains trophic levels and energy transfer efficiency, using mathematical reasoning to support claims about the structure of food webs.",
+      "Provides a comprehensive and nuanced explanation of trophic levels and energy transfer efficiency, including the mathematical relationships that govern energy transfer and detailed examples of different ecosystems."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Model Accuracy and Relevance: How well does the computer simulation accurately represent the real-world problem and its relevant systems?",
+    "Impact of Proposed Solutions: How effectively does the simulation model the impact of proposed solutions on the problem and its systems?",
+    "Consideration of Criteria and Constraints: To what extent does the simulation account for the numerous criteria and constraints relevant to the problem?",
+    "Mathematical and Computational Thinking: How effectively does the student use mathematical models and computational thinking in their simulation?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The simulation does not represent the real-world problem or relevant systems.",
+      "The simulation vaguely touches upon the real-world problem, but lacks accuracy and relevance.",
+      "The simulation attempts to model the real-world problem but contains significant inaccuracies or omits key systems.",
+      "The simulation generally represents the real-world problem and relevant systems, with some minor inaccuracies.",
+      "The simulation accurately represents the real-world problem and most of the relevant systems with clear connections.",
+      "The simulation provides a highly accurate and relevant representation of the real-world problem and all relevant systems, demonstrating a deep understanding of their interactions."
+    ],
+    [
+      "The simulation does not model any proposed solutions or their impacts.",
+      "The simulation attempts to model solutions, but the impacts are not clearly defined or relevant.",
+      "The simulation models solutions with limited insight into their impacts on the system.",
+      "The simulation models solutions and their general impacts, but lacks detail or consideration of complex interactions.",
+      "The simulation effectively models solutions and their impacts, demonstrating a good understanding of system interactions and potential consequences.",
+      "The simulation expertly models solutions and their impacts, thoroughly analyzing system interactions, potential consequences, and providing valuable insights into optimal solutions."
+    ],
+    [
+      "The simulation ignores the criteria and constraints of the problem.",
+      "The simulation mentions criteria and constraints but does not integrate them into the model.",
+      "The simulation incorporates some criteria and constraints, but significant factors are overlooked.",
+      "The simulation considers most of the relevant criteria and constraints, with some minor omissions.",
+      "The simulation thoughtfully incorporates nearly all relevant criteria and constraints into the model, demonstrating a comprehensive understanding of the problem's complexities.",
+      "The simulation masterfully integrates all relevant criteria and constraints, showcasing an exceptional understanding of the problem and enabling nuanced evaluation of potential solutions."
+    ],
+    [
+      "The simulation lacks mathematical or computational elements.",
+      "The simulation includes some mathematical or computational elements, but they are not effectively used or are inaccurate.",
+      "The simulation uses basic mathematical and computational elements with limited sophistication.",
+      "The simulation effectively incorporates mathematical and computational elements to model the problem.",
+      "The simulation uses advanced mathematical and computational thinking to create a robust and insightful model.",
+      "The simulation demonstrates mastery of mathematical and computational thinking, resulting in a highly sophisticated and predictive model."
+    ]
+  ]
+}

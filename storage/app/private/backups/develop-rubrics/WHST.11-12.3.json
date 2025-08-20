@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Focus and Thesis Clarity",
+    "Development and Support",
+    "Organization and Structure",
+    "Language and Style"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The response lacks a clear focus or thesis statement. The purpose of the writing is not evident.",
+      "The response has a vague or unclear focus. The thesis statement, if present, is weak or does not directly address the prompt.",
+      "The response demonstrates a somewhat clear focus, but the thesis statement could be more precise or directly relevant to the prompt.",
+      "The response maintains a clear focus with a discernible thesis statement that addresses the prompt. The connection between the thesis and supporting points is generally clear.",
+      "The response exhibits a sharp, distinct focus with a clear and concise thesis statement that directly responds to the prompt. The thesis provides a strong framework for the writing.",
+      "The response showcases an exceptionally clear and insightful focus with a compelling thesis statement that offers a unique perspective on the prompt. The thesis statement expertly guides the writing."
+    ],
+    [
+      "The response lacks development and provides no supporting evidence. Ideas are presented without explanation or examples.",
+      "The response offers minimal development with limited or irrelevant support. Claims are made without sufficient evidence.",
+      "The response provides some development, but supporting details are superficial or general. The connection between evidence and claims is weak.",
+      "The response offers adequate development with relevant supporting details. Evidence is used to support claims, but analysis may be basic.",
+      "The response demonstrates strong development with well-chosen and specific supporting details. Evidence is effectively analyzed to support claims and enhance understanding.",
+      "The response showcases exceptional development with compelling and insightful supporting details. Evidence is expertly analyzed to strengthen claims and demonstrate a deep understanding of the topic."
+    ],
+    [
+      "The response lacks organization and structure. Ideas are presented randomly, without coherence.",
+      "The response exhibits a weak or confusing organizational structure. Transitions are lacking, and ideas are poorly connected.",
+      "The response demonstrates a basic organizational structure, but transitions may be awkward or ineffective. Ideas are generally connected but lack flow.",
+      "The response maintains a logical organizational structure with clear transitions. Ideas are presented in a coherent and orderly manner.",
+      "The response exhibits a well-developed organizational structure with smooth and effective transitions. Ideas flow seamlessly, enhancing the overall impact of the writing.",
+      "The response showcases an exceptionally sophisticated organizational structure with seamless transitions. Ideas are masterfully arranged to create a cohesive and compelling argument."
+    ],
+    [
+      "The response contains frequent errors in grammar, mechanics, and usage, hindering comprehension. Language is simplistic or inappropriate.",
+      "The response contains numerous errors in grammar, mechanics, and usage that impede comprehension. Language is basic and lacks precision.",
+      "The response contains some errors in grammar, mechanics, and usage, but meaning is generally clear. Language is adequate but lacks sophistication.",
+      "The response demonstrates control of grammar, mechanics, and usage with few errors. Language is clear and appropriate for the task.",
+      "The response exhibits strong command of grammar, mechanics, and usage with minimal errors. Language is precise, engaging, and enhances the effectiveness of the writing.",
+      "The response showcases exceptional command of grammar, mechanics, and usage with virtually no errors. Language is sophisticated, eloquent, and elevates the overall quality of the writing."
+    ]
+  ]
+}

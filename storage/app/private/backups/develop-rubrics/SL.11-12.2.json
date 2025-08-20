@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Integration of Information from Multiple Sources",
+    "Evaluation of Source Credibility and Accuracy",
+    "Identification and Explanation of Discrepancies Among Data",
+    "Informed Decision-Making and Problem-Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no attempt to integrate information from multiple sources.",
+      "Student attempts to integrate information from multiple sources, but the connections are unclear or inaccurate.",
+      "Student integrates information from multiple sources, but the synthesis is superficial and lacks depth.",
+      "Student effectively integrates information from multiple sources to support their ideas and arguments.",
+      "Student skillfully integrates information from multiple sources, demonstrating a comprehensive understanding of the topic and its nuances.",
+      "Student masterfully integrates information from multiple sources, demonstrating exceptional insight and originality in their analysis and synthesis."
+    ],
+    [
+      "Student does not evaluate the credibility or accuracy of any sources.",
+      "Student mentions credibility or accuracy but does not provide specific reasons or evidence for their evaluation.",
+      "Student identifies some aspects of source credibility and accuracy but the evaluation is incomplete or superficial.",
+      "Student provides a reasonable evaluation of the credibility and accuracy of sources, with some supporting evidence.",
+      "Student thoroughly evaluates the credibility and accuracy of sources, providing clear and convincing evidence to support their claims.",
+      "Student demonstrates a sophisticated understanding of source credibility and accuracy, considering potential biases and limitations in their evaluation."
+    ],
+    [
+      "Student does not identify any discrepancies among the data.",
+      "Student identifies discrepancies without explanation.",
+      "Student identifies some discrepancies but struggles to explain their significance.",
+      "Student identifies discrepancies and provides reasonable explanations for their existence.",
+      "Student identifies discrepancies and provides insightful explanations of their significance, connecting them to broader themes or issues.",
+      "Student skillfully identifies and explains subtle discrepancies among the data, demonstrating a deep understanding of the topic and its complexities."
+    ],
+    [
+      "Student does not demonstrate the use of sources to make informed decisions or solve problems.",
+      "Student attempts to use sources for decision-making or problem-solving, but the connection is weak or unclear.",
+      "Student makes some attempt to use sources for decision-making or problem-solving, but the approach is not always logical or effective.",
+      "Student demonstrates the ability to use sources to make informed decisions or solve problems in a logical and effective manner.",
+      "Student uses sources effectively to make well-reasoned decisions or solve problems, demonstrating a clear understanding of the relevant information.",
+      "Student skillfully uses sources to make insightful and well-supported decisions or solve complex problems, demonstrating exceptional critical thinking and analytical skills."
+    ]
+  ]
+}

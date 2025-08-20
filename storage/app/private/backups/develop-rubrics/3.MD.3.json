@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Data Representation in Picture Graph",
+    "Accuracy of Data Representation in Bar Graph",
+    "Ability to Solve 'How Many More' and 'How Many Less' Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to represent data in a picture graph.",
+      "Picture graph is attempted, but data is inaccurate or poorly represented with no clear scale.",
+      "Picture graph contains significant inaccuracies in data representation or the scale is inconsistent.",
+      "Picture graph is mostly accurate, but contains minor errors in data representation or scale.",
+      "Picture graph accurately represents the data with a consistent scale and clear labels.",
+      "Picture graph flawlessly represents the data with a precise and consistent scale. Graph is exceptionally clear, well-organized, and easy to interpret."
+    ],
+    [
+      "No attempt to represent data in a bar graph.",
+      "Bar graph is attempted, but data is inaccurate or poorly represented with no clear scale.",
+      "Bar graph contains significant inaccuracies in data representation or the scale is inconsistent.",
+      "Bar graph is mostly accurate, but contains minor errors in data representation or scale.",
+      "Bar graph accurately represents the data with a consistent scale and clear labels.",
+      "Bar graph flawlessly represents the data with a precise and consistent scale. Graph is exceptionally clear, well-organized, and easy to interpret."
+    ],
+    [
+      "No attempt to solve 'how many more' or 'how many less' problems.",
+      "Attempts to solve problems, but solutions are incorrect and show no understanding of the data.",
+      "Provides incorrect solutions to the problems, with limited understanding of how to use the data.",
+      "Solves one-step problems correctly, but struggles with two-step problems or makes minor errors in calculations.",
+      "Accurately solves both one- and two-step problems using the information presented in the bar graphs.",
+      "Accurately and efficiently solves both one- and two-step problems and can explain the reasoning and process clearly."
+    ]
+  ]
+}

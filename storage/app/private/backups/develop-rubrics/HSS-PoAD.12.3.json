@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Fundamental Values and Principles",
+    "Articulation of Interdependence",
+    "Defense of Positions and Critical Thinking",
+    "Application to a Free Society"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of fundamental values and principles of civil society.",
+      "Demonstrates a very limited understanding of fundamental values and principles of civil society; struggles to identify even basic values.",
+      "Demonstrates a basic understanding of some fundamental values and principles of civil society, but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of fundamental values and principles of civil society; can identify several key values and principles.",
+      "Demonstrates a strong understanding of fundamental values and principles of civil society; can clearly explain their meaning and importance.",
+      "Demonstrates a comprehensive and insightful understanding of fundamental values and principles of civil society; can articulate nuanced perspectives and connections."
+    ],
+    [
+      "Fails to recognize any interdependence between fundamental values and principles.",
+      "Shows minimal awareness of interdependence; struggles to connect different values and principles.",
+      "Identifies some connections between values and principles, but lacks clear explanation or examples.",
+      "Explains how different values and principles are interdependent and provide examples.",
+      "Clearly articulates the complex interdependence between fundamental values and principles, providing thoughtful examples.",
+      "Insightfully analyzes the intricate web of interdependence between values and principles; demonstrates a sophisticated understanding of their interconnectedness."
+    ],
+    [
+      "Unable to take or defend a position on the importance of values and principles.",
+      "Struggles to take or defend a position; arguments are unclear and unsupported.",
+      "Takes a position but provides limited support or reasoning.",
+      "Takes and defends a position with some logical reasoning and evidence.",
+      "Takes and defends a well-reasoned position with strong evidence and logical arguments.",
+      "Takes and defends a nuanced and well-supported position, demonstrating critical thinking and ability to address counterarguments."
+    ],
+    [
+      "Cannot connect values and principles to the concept of a free society.",
+      "Shows a vague understanding of how values and principles relate to a free society.",
+      "Identifies some connections, but explanation lacks depth and specific examples.",
+      "Explains how values and principles are important for maintaining a free society.",
+      "Clearly articulates the critical role of these values and principles in sustaining a free society, providing concrete examples.",
+      "Demonstrates an exceptional understanding of how these values and principles are essential for a thriving free society, offering insightful analysis and forward-thinking perspectives."
+    ]
+  ]
+}

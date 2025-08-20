@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Effects",
+    "Accuracy and Depth of Explanation",
+    "Examples and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No effects of foreign policy on domestic policies or vice versa are identified.",
+      "One vague or inaccurate effect is mentioned with no supporting details.",
+      "One specific effect is identified, but the explanation is minimal and may lack clarity.",
+      "Two specific effects are identified, with a basic explanation of the relationship between foreign and domestic policies.",
+      "Three specific effects are identified, with a clear explanation of how foreign policy influenced domestic policy, or vice versa.",
+      "Four or more specific effects are identified, demonstrating a comprehensive understanding of the interplay between foreign and domestic policies, including nuanced examples."
+    ],
+    [
+      "Explanations are entirely missing or demonstrate significant misunderstandings.",
+      "Explanations are brief, contain inaccuracies, or are not clearly connected to the identified effects.",
+      "Explanations are somewhat accurate but lack depth and detail. Connections may be superficial.",
+      "Explanations are generally accurate and provide some relevant details to support the identified effects.",
+      "Explanations are accurate, detailed, and provide strong support for the identified effects, demonstrating a solid understanding of the historical context.",
+      "Explanations are exceptionally thorough, insightful, and demonstrate a nuanced understanding of the complex relationship between foreign and domestic policies, including consideration of multiple perspectives."
+    ],
+    [
+      "No examples or evidence are provided.",
+      "One example is provided, but it is irrelevant or inaccurate.",
+      "One relevant example is provided, but it lacks detail or explanation.",
+      "Two relevant examples are provided with some supporting details.",
+      "Three relevant examples are provided with clear and detailed explanations.",
+      "Multiple compelling examples are provided with insightful analysis and demonstrate a mastery of the topic."
+    ]
+  ]
+}

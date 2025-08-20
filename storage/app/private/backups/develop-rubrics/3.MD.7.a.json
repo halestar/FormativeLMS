@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Area as Tiling",
+    "Relating Area to Multiplication",
+    "Connecting Area to Addition",
+    "Application and Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of area as the space covered by tiling.",
+      "Student attempts to tile a rectangle but makes significant errors, not understanding the relationship between tiles and area.",
+      "Student tiles a rectangle with some errors or inconsistencies, showing a partial understanding of area.",
+      "Student accurately tiles a rectangle with whole-number side lengths, demonstrating an understanding of area.",
+      "Student accurately tiles rectangles of varying sizes and explains the relationship between tiling and area.",
+      "Student can explain and demonstrate tiling to find the area of various rectangles and relate this to real-world contexts."
+    ],
+    [
+      "Student does not relate area to multiplication.",
+      "Student attempts to relate area to multiplication but makes significant errors.",
+      "Student shows some understanding of the relationship between area and multiplication but cannot consistently apply it.",
+      "Student accurately calculates the area of a rectangle by multiplying the side lengths, demonstrating understanding of the relationship.",
+      "Student can explain why multiplying side lengths gives the area and can apply this to solve problems.",
+      "Student can derive and explain the formula for the area of a rectangle and apply it to solve complex problems."
+    ],
+    [
+      "Student does not connect area to addition.",
+      "Student attempts to connect area to addition but makes significant errors or cannot explain the connection.",
+      "Student shows some understanding of how area can be found by adding smaller areas but struggles with accuracy or consistency.",
+      "Student accurately finds the area of a rectangle by dividing it into smaller parts and adding their areas.",
+      "Student can explain the relationship between addition and area and use this to solve problems.",
+      "Student can decompose complex shapes into smaller rectangles, find their areas, and add them to find the total area."
+    ],
+    [
+      "Student cannot apply the concept of area to solve problems.",
+      "Student attempts to solve problems related to area but struggles to apply the concepts correctly.",
+      "Student solves simple problems related to area with some errors or inconsistencies.",
+      "Student solves problems related to area, demonstrating a solid understanding of the concepts.",
+      "Student solves complex problems related to area, including those with multiple steps.",
+      "Student can create and solve their own complex problems related to area, demonstrating mastery of the concept."
+    ]
+  ]
+}

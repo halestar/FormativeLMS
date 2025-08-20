@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Transformed Figure",
+    "Appropriate Tools Used",
+    "Specification of Transformation Sequence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The transformed figure is completely inaccurate or missing.",
+      "The transformed figure has significant errors in shape or position.",
+      "The transformed figure has some errors in shape or position.",
+      "The transformed figure is mostly accurate with minor errors.",
+      "The transformed figure is accurate with minimal errors.",
+      "The transformed figure is perfectly accurate."
+    ],
+    [
+      "No appropriate tools (graph paper, tracing paper, or geometry software) are used.",
+      "Inappropriate tools are used, hindering the transformation process.",
+      "Appropriate tools are attempted but used incorrectly.",
+      "Appropriate tools are used with some guidance.",
+      "Appropriate tools are used effectively and independently.",
+      "Appropriate tools are used expertly to enhance the transformation process."
+    ],
+    [
+      "No sequence of transformations is specified.",
+      "The specified sequence is completely incorrect or nonsensical.",
+      "The specified sequence is partially correct but incomplete or out of order.",
+      "The specified sequence is mostly correct but with minor omissions or errors.",
+      "The specified sequence is correct and complete with clear steps.",
+      "The specified sequence is elegant, efficient, and clearly explained, demonstrating deep understanding."
+    ]
+  ]
+}

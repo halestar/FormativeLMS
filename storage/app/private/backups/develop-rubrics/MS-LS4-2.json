@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Anatomical Similarities and Differences",
+    "Inference of Evolutionary Relationships",
+    "Application of Scientific Ideas",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of anatomical similarities and differences among organisms.",
+      "The student demonstrates a minimal understanding of anatomical similarities and differences, with significant gaps in knowledge.",
+      "The student identifies some anatomical similarities and differences but struggles to connect them to evolutionary relationships.",
+      "The student accurately identifies anatomical similarities and differences among modern and fossil organisms.",
+      "The student effectively explains anatomical similarities and differences and relates them to potential evolutionary relationships with minor inconsistencies.",
+      "The student thoroughly explains anatomical similarities and differences, providing strong evidence for evolutionary relationships and demonstrating a deep understanding of the concepts."
+    ],
+    [
+      "The student cannot infer evolutionary relationships based on anatomical data.",
+      "The student attempts to infer evolutionary relationships but provides inaccurate or irrelevant information.",
+      "The student infers some evolutionary relationships with limited accuracy or justification.",
+      "The student infers evolutionary relationships based on anatomical similarities and differences, providing a basic explanation.",
+      "The student effectively infers and explains evolutionary relationships, using anatomical data as evidence.",
+      "The student skillfully infers and explains complex evolutionary relationships, providing comprehensive and accurate evidence based on anatomical data and demonstrating nuanced understanding."
+    ],
+    [
+      "The student does not apply scientific ideas to explain evolutionary relationships.",
+      "The student struggles to apply relevant scientific ideas and provides a vague or inaccurate explanation.",
+      "The student applies some scientific ideas but struggles to connect them effectively to the explanation of evolutionary relationships.",
+      "The student applies appropriate scientific ideas to construct a reasonable explanation of evolutionary relationships.",
+      "The student effectively applies scientific ideas to construct a clear and well-supported explanation of evolutionary relationships.",
+      "The student skillfully applies scientific ideas to construct a comprehensive and insightful explanation of evolutionary relationships, demonstrating a mastery of the relevant scientific concepts."
+    ],
+    [
+      "The student provides no evidence to support their explanation.",
+      "The student provides minimal or irrelevant evidence.",
+      "The student provides some evidence, but it is weak or poorly connected to the explanation.",
+      "The student provides relevant evidence to support their explanation.",
+      "The student provides strong and well-explained evidence to support their explanation.",
+      "The student provides comprehensive and compelling evidence to support their explanation, demonstrating a deep understanding of the topic."
+    ]
+  ]
+}

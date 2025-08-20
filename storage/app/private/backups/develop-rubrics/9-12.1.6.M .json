@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Disordered Eating Signs",
+    "Understanding of Common Mental Health Conditions",
+    "Importance of Recognizing Signs"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of signs of disordered eating.",
+      "Student can identify a few basic signs of disordered eating with significant inaccuracies.",
+      "Student identifies some signs of disordered eating, but understanding is superficial and lacks depth.",
+      "Student accurately describes several signs of disordered eating, demonstrating a moderate understanding.",
+      "Student comprehensively describes most signs of disordered eating, showing a strong understanding of the topic.",
+      "Student thoroughly and insightfully describes numerous signs of disordered eating, demonstrating a deep and nuanced understanding. Goes beyond the basic signs to explore underlying factors."
+    ],
+    [
+      "Student demonstrates no understanding of common mental health conditions.",
+      "Student identifies one or two common mental health conditions, but definitions are vague and inaccurate.",
+      "Student identifies a few common mental health conditions, but explanations are incomplete and lack detail.",
+      "Student accurately describes several common mental health conditions, demonstrating a moderate understanding.",
+      "Student comprehensively describes most common mental health conditions, showing a strong understanding of the topic.",
+      "Student thoroughly and insightfully describes numerous common mental health conditions, demonstrating a deep and nuanced understanding. Explores complexities and overlaps between conditions."
+    ],
+    [
+      "Student does not explain why recognizing signs of disordered eating or mental health conditions is important.",
+      "Student provides a weak or illogical explanation of the importance of recognizing signs.",
+      "Student provides a basic explanation of the importance of recognizing signs, but lacks detail and clarity.",
+      "Student explains the importance of recognizing signs in a general way, with some supporting reasons.",
+      "Student clearly explains the importance of recognizing signs, providing specific and relevant reasons.",
+      "Student eloquently and persuasively explains the importance of recognizing signs, providing compelling reasons and real-world examples. Demonstrates awareness of the potential consequences of not recognizing signs."
+    ]
+  ]
+}

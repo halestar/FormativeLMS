@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Adolescent Roles in the Family",
+    "Understanding of Adolescent Roles in the Community",
+    "Awareness of the Changing Nature of Roles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of adolescent roles or responsibilities within the family.",
+      "Shows a very limited understanding of adolescent roles, primarily focusing on basic expectations with major misconceptions.",
+      "Identifies a few roles adolescents play in the family, but explanation lacks depth and clarity; some inaccuracies are present.",
+      "Describes several roles and responsibilities of adolescents within the family, showing a general understanding.",
+      "Explains adolescent roles in the family with clear examples and shows a solid understanding of diverse family structures and dynamics.",
+      "Provides a comprehensive analysis of adolescent roles in the family, showing deep insight into how these roles evolve and affect family functioning. Gives specific personalized examples."
+    ],
+    [
+      "Demonstrates no understanding of adolescent roles or responsibilities within the community.",
+      "Shows a very limited understanding of adolescent roles, primarily focusing on basic expectations with major misconceptions.",
+      "Identifies a few roles adolescents play in the community, but explanation lacks depth and clarity; some inaccuracies are present.",
+      "Describes several roles and responsibilities of adolescents within the community, showing a general understanding.",
+      "Explains adolescent roles in the community with clear examples and shows a solid understanding of the effects of these roles.",
+      "Provides a comprehensive analysis of adolescent roles in the community, showing deep insight into how these roles evolve and affect the community. Gives specific personalized examples."
+    ],
+    [
+      "Shows no awareness of how adolescent roles and responsibilities change over time.",
+      "Shows minimal awareness of changing roles, with no specific examples or details.",
+      "Identifies that roles change, but cannot provide concrete examples or explain the reasons behind the changes.",
+      "Describes how some roles and responsibilities change during adolescence, providing general examples.",
+      "Explains how adolescent roles evolve with age and experience, giving specific examples related to both family and community.",
+      "Analyzes the complex factors that influence the evolution of adolescent roles, demonstrating a nuanced understanding of personal growth, societal expectations, and cultural influences. Gives specific personalized examples."
+    ]
+  ]
+}

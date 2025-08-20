@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Comprehensiveness of Research on Current Nutritional Guidelines",
+    "Application of Guidelines to Practical Use",
+    "Clarity and Organization of Discussion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or understanding of current research-based guidelines is demonstrated.",
+      "Demonstrates minimal understanding; research is inaccurate or incomplete.",
+      "Demonstrates some understanding; research includes basic guidelines but lacks detail or accuracy.",
+      "Demonstrates adequate understanding; research is generally accurate and includes several key guidelines.",
+      "Demonstrates strong understanding; research is comprehensive, accurate, and covers most relevant guidelines.",
+      "Demonstrates excellent understanding; research is exceptionally thorough, accurate, and covers all relevant guidelines with insightful detail."
+    ],
+    [
+      "No attempt to discuss practical use is evident.",
+      "Discussion of practical use is vague, unrealistic, or unrelated to the research.",
+      "Discussion of practical use is basic and somewhat related to the research, but lacks depth.",
+      "Discussion of practical use is relevant and provides some actionable examples.",
+      "Discussion of practical use is well-developed, insightful, and offers several specific, realistic examples.",
+      "Discussion of practical use is exceptionally insightful, providing nuanced, realistic examples and demonstrating a comprehensive understanding of implementation challenges and solutions."
+    ],
+    [
+      "Discussion is incomprehensible and disorganized.",
+      "Discussion is difficult to follow, with poor organization and unclear language.",
+      "Discussion is somewhat organized but lacks clarity in places.",
+      "Discussion is generally clear and organized with a logical flow.",
+      "Discussion is clear, well-organized, and easy to follow with strong supporting evidence.",
+      "Discussion is exceptionally clear, concise, and persuasively organized, demonstrating a mastery of communication skills."
+    ]
+  ]
+}

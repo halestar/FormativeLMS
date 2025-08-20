@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Community Resources",
+    "Analysis of Resource Accessibility",
+    "Understanding of Resource Limitations",
+    "Application of Knowledge to Disaster Preparedness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any community resources for disaster preparedness.",
+      "The student identifies one or two community resources but provides inaccurate or irrelevant information.",
+      "The student identifies a few community resources but lacks detail in their descriptions.",
+      "The student identifies several community resources and provides basic information about their roles in disaster preparedness.",
+      "The student identifies multiple relevant community resources and provides clear and accurate descriptions of their roles.",
+      "The student comprehensively identifies a wide range of relevant community resources and provides detailed, accurate explanations of their specific roles and functions in disaster preparedness."
+    ],
+    [
+      "The student does not address the accessibility of community resources.",
+      "The student mentions accessibility but provides no supporting details or examples.",
+      "The student briefly discusses accessibility with limited consideration of specific challenges or barriers.",
+      "The student analyzes the accessibility of some community resources, identifying potential challenges like location or availability.",
+      "The student thoroughly analyzes the accessibility of various community resources, discussing factors like transportation, cost, and language barriers.",
+      "The student provides a comprehensive analysis of accessibility, including nuanced discussions of vulnerable populations and innovative solutions to improve resource access during disasters."
+    ],
+    [
+      "The student demonstrates no understanding of the limitations of community resources.",
+      "The student vaguely acknowledges limitations without providing specifics.",
+      "The student identifies a few general limitations but does not connect them to real-world scenarios.",
+      "The student discusses some limitations of community resources, such as funding or staffing shortages.",
+      "The student analyzes the limitations of resources in detail, providing specific examples of how these limitations may affect disaster response.",
+      "The student offers an insightful and comprehensive analysis of resource limitations, proposing strategies to mitigate these limitations and improve community resilience."
+    ],
+    [
+      "The student fails to connect community resources to practical disaster preparedness strategies.",
+      "The student makes a superficial connection between resources and preparedness, lacking clear examples.",
+      "The student provides a basic overview of how community resources can be used for disaster preparedness.",
+      "The student explains how specific community resources can be utilized for preparedness, providing a few practical examples.",
+      "The student demonstrates a clear understanding of how to effectively leverage community resources for various aspects of disaster preparedness, including specific action plans.",
+      "The student develops a comprehensive and innovative disaster preparedness plan, demonstrating an exceptional ability to integrate and optimize the use of community resources to address a wide range of potential needs."
+    ]
+  ]
+}

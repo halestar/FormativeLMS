@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in adding and subtracting 10 mentally.",
+    "Accuracy in adding and subtracting 100 mentally.",
+    "Accuracy in subtracting 10 mentally.",
+    "Accuracy in subtracting 100 mentally."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to add 10 to numbers between 100-900 mentally and\/or provides incorrect answers with no clear strategy.",
+      "Student can add 10 to numbers between 100-900 mentally, but makes frequent errors or hesitates significantly.",
+      "Student can add 10 to most numbers between 100-900 mentally with few errors.",
+      "Student consistently and accurately adds 10 to numbers between 100-900 mentally.",
+      "Student consistently and accurately adds 10 to numbers between 100-900 mentally and can explain their strategy.",
+      "Student demonstrates mastery in mentally adding 10 to numbers between 100-900, efficiently and accurately and can apply this skill in varied contexts."
+    ],
+    [
+      "Student is unable to add 100 to numbers between 100-900 mentally and\/or provides incorrect answers with no clear strategy.",
+      "Student can add 100 to numbers between 100-900 mentally, but makes frequent errors or hesitates significantly.",
+      "Student can add 100 to most numbers between 100-900 mentally with few errors.",
+      "Student consistently and accurately adds 100 to numbers between 100-900 mentally.",
+      "Student consistently and accurately adds 100 to numbers between 100-900 mentally and can explain their strategy.",
+      "Student demonstrates mastery in mentally adding 100 to numbers between 100-900, efficiently and accurately and can apply this skill in varied contexts."
+    ],
+    [
+      "Student is unable to subtract 10 from numbers between 100-900 mentally and\/or provides incorrect answers with no clear strategy.",
+      "Student can subtract 10 from numbers between 100-900 mentally, but makes frequent errors or hesitates significantly.",
+      "Student can subtract 10 from most numbers between 100-900 mentally with few errors.",
+      "Student consistently and accurately subtracts 10 from numbers between 100-900 mentally.",
+      "Student consistently and accurately subtracts 10 from numbers between 100-900 mentally and can explain their strategy.",
+      "Student demonstrates mastery in mentally subtracting 10 from numbers between 100-900, efficiently and accurately and can apply this skill in varied contexts."
+    ],
+    [
+      "Student is unable to subtract 100 from numbers between 100-900 mentally and\/or provides incorrect answers with no clear strategy.",
+      "Student can subtract 100 from numbers between 100-900 mentally, but makes frequent errors or hesitates significantly.",
+      "Student can subtract 100 from most numbers between 100-900 mentally with few errors.",
+      "Student consistently and accurately subtracts 100 from numbers between 100-900 mentally.",
+      "Student consistently and accurately subtracts 100 from numbers between 100-900 mentally and can explain their strategy.",
+      "Student demonstrates mastery in mentally subtracting 100 from numbers between 100-900, efficiently and accurately and can apply this skill in varied contexts."
+    ]
+  ]
+}

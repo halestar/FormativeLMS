@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Slope as a Constant Rate of Change",
+    "Application of Similar Triangles to Justify Slope",
+    "Derivation and Understanding of Linear Equations (y = mx and y = mx + b)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of slope or rate of change.",
+      "Student shows a limited understanding of slope as rise over run, but cannot consistently apply it.",
+      "Student can calculate slope given a graph or two points, but struggles to explain it as a constant rate of change.",
+      "Student understands slope as a constant rate of change and can calculate it accurately.",
+      "Student can explain and calculate slope as a constant rate of change and can relate it to real-world contexts.",
+      "Student demonstrates a deep understanding of slope as a constant rate of change, can apply it in various contexts, and can explain its significance in linear relationships."
+    ],
+    [
+      "Student does not use or understand similar triangles in the context of slope.",
+      "Student attempts to use similar triangles but struggles to connect them to the concept of slope.",
+      "Student can identify similar triangles on a line but cannot fully explain how they justify the constant slope.",
+      "Student uses similar triangles to explain why the slope is the same between any two points on a line.",
+      "Student clearly and accurately uses similar triangles to justify the constant slope and explains the proportional relationship.",
+      "Student provides a sophisticated explanation of how similar triangles prove the consistency of slope on a line and extends this understanding to more complex scenarios."
+    ],
+    [
+      "Student does not demonstrate understanding of linear equations or their components.",
+      "Student recognizes the equations but cannot explain the meaning of 'm' and 'b'.",
+      "Student can identify 'm' as slope and 'b' as y-intercept, but struggles to derive the equations.",
+      "Student can derive the equation y = mx for a line through the origin and y = mx + b for a line intercepting the y-axis.",
+      "Student clearly derives and explains the meaning of each component (m, b) in the linear equations and relates them to graphical representations.",
+      "Student demonstrates a comprehensive understanding of linear equations, can derive them from various starting points, and can explain how changes in 'm' and 'b' affect the line."
+    ]
+  ]
+}

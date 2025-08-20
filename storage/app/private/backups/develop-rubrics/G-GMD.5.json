@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the effect of scale factor 'k' on length.",
+    "Understanding the effect of scale factor 'k' on area.",
+    "Understanding the effect of scale factor 'k' on volume.",
+    "Ability to determine length, area, and volume measures using scale factors."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how a scale factor affects length.",
+      "Struggles to explain the effect of a scale factor on length with significant errors.",
+      "Understands that a scale factor affects length, but explanation lacks clarity and precision. May make minor calculation errors.",
+      "Correctly explains how a scale factor 'k' affects length (multiplies by k) with minor inaccuracies.",
+      "Clearly and accurately explains how a scale factor 'k' affects length (multiplies by k).",
+      "Provides a comprehensive and insightful explanation of how a scale factor 'k' affects length (multiplies by k), including examples and demonstrating a strong understanding of the concept."
+    ],
+    [
+      "No understanding of how a scale factor affects area.",
+      "Struggles to explain the effect of a scale factor on area with significant errors.",
+      "Understands that a scale factor affects area, but explanation lacks clarity and precision. May make minor calculation errors.",
+      "Correctly explains how a scale factor 'k' affects area (multiplies by k^2) with minor inaccuracies.",
+      "Clearly and accurately explains how a scale factor 'k' affects area (multiplies by k^2).",
+      "Provides a comprehensive and insightful explanation of how a scale factor 'k' affects area (multiplies by k^2), including examples and demonstrating a strong understanding of the concept."
+    ],
+    [
+      "No understanding of how a scale factor affects volume.",
+      "Struggles to explain the effect of a scale factor on volume with significant errors.",
+      "Understands that a scale factor affects volume, but explanation lacks clarity and precision. May make minor calculation errors.",
+      "Correctly explains how a scale factor 'k' affects volume (multiplies by k^3) with minor inaccuracies.",
+      "Clearly and accurately explains how a scale factor 'k' affects volume (multiplies by k^3).",
+      "Provides a comprehensive and insightful explanation of how a scale factor 'k' affects volume (multiplies by k^3), including examples and demonstrating a strong understanding of the concept."
+    ],
+    [
+      "Unable to determine length, area, or volume measures using scale factors.",
+      "Attempts to determine measures using scale factors, but calculations are consistently incorrect.",
+      "Can determine some measures using scale factors, but struggles with more complex problems or makes frequent calculation errors.",
+      "Can determine length, area, or volume measures using scale factors with occasional minor errors.",
+      "Accurately determines length, area, and volume measures using scale factors.",
+      "Demonstrates a mastery of determining length, area, and volume measures using scale factors, including complex problems and providing clear, step-by-step solutions."
+    ]
+  ]
+}

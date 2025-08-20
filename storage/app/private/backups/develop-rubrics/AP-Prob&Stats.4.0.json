@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Continuous Random Variables",
+    "Interpretation of Probability as Area Under the Curve",
+    "Application of Knowledge in Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of continuous random variables.",
+      "Student can identify a continuous random variable but struggles to explain its properties.",
+      "Student can define a continuous random variable and identify its key properties, but shows difficulty in applying this knowledge.",
+      "Student demonstrates a solid understanding of continuous random variables and can explain their properties with reasonable accuracy.",
+      "Student demonstrates a strong understanding of continuous random variables, explaining their properties clearly and accurately.",
+      "Student demonstrates a comprehensive understanding of continuous random variables, explaining their properties with precision and insight."
+    ],
+    [
+      "Student does not understand the relationship between probability and the area under a probability density function.",
+      "Student vaguely recognizes the connection between probability and area under the curve but cannot explain it.",
+      "Student can describe the relationship between probability and area under the curve but struggles to apply this knowledge in calculations.",
+      "Student can interpret probability as the area under the curve and can perform basic calculations with some errors.",
+      "Student accurately interprets probability as the area under the curve and can perform calculations with minimal errors.",
+      "Student expertly interprets probability as the area under the curve, performs accurate calculations, and can explain the concept clearly and concisely."
+    ],
+    [
+      "Student cannot apply the concept of continuous random variables to solve problems.",
+      "Student attempts to solve problems involving continuous random variables but struggles to apply the correct concepts.",
+      "Student can solve simple problems involving continuous random variables with significant errors.",
+      "Student can solve moderately complex problems involving continuous random variables with some errors.",
+      "Student can solve complex problems involving continuous random variables with minimal errors.",
+      "Student can solve complex problems involving continuous random variables accurately and efficiently, demonstrating a deep understanding of the concepts."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and defining conflict resolution techniques",
+    "Identification of various conflict resolution methods",
+    "Application of conflict resolution techniques in different scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of conflict resolution techniques and cannot provide any definitions.",
+      "Student demonstrates minimal understanding of conflict resolution techniques and struggles to provide definitions.",
+      "Student demonstrates a basic understanding of conflict resolution techniques and can provide limited definitions with some inaccuracies.",
+      "Student demonstrates a satisfactory understanding of conflict resolution techniques and can provide definitions with reasonable accuracy.",
+      "Student demonstrates a strong understanding of conflict resolution techniques and can provide clear and accurate definitions.",
+      "Student demonstrates a comprehensive understanding of conflict resolution techniques and can provide detailed and insightful definitions, including examples."
+    ],
+    [
+      "Student is unable to identify any conflict resolution methods.",
+      "Student can identify only one conflict resolution method and demonstrates limited understanding.",
+      "Student can identify a few conflict resolution methods but struggles to explain them accurately.",
+      "Student can identify several conflict resolution methods and explains them with reasonable accuracy.",
+      "Student can identify many conflict resolution methods and explains them clearly and accurately.",
+      "Student can identify a wide range of conflict resolution methods and explains them in detail, including their appropriate applications."
+    ],
+    [
+      "Student cannot apply conflict resolution techniques to any given scenarios.",
+      "Student struggles to apply conflict resolution techniques to given scenarios and provides inappropriate responses.",
+      "Student attempts to apply conflict resolution techniques to given scenarios but with limited success and some inaccuracies.",
+      "Student can apply conflict resolution techniques to given scenarios with reasonable accuracy and appropriateness.",
+      "Student can effectively apply conflict resolution techniques to given scenarios with clear and accurate solutions.",
+      "Student can skillfully apply conflict resolution techniques to complex scenarios, demonstrating nuanced understanding and providing insightful solutions."
+    ]
+  ]
+}

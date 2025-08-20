@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Physical Activities",
+    "Application of Decision-Making Process",
+    "Consideration of Personal Factors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any physical activities related to improving physical fitness.",
+      "Identifies one physical activity with limited relevance to improving physical fitness.",
+      "Identifies two physical activities, but the connection to physical fitness is not clearly explained.",
+      "Identifies three physical activities and briefly explains how they contribute to physical fitness.",
+      "Identifies four or more physical activities and clearly explains how each contributes to physical fitness.",
+      "Identifies multiple physical activities, clearly explains their benefits, and provides specific examples of how to incorporate them into a routine."
+    ],
+    [
+      "Does not demonstrate any use of a decision-making process.",
+      "Attempts to use a decision-making process, but it is incomplete or illogical.",
+      "Uses a basic decision-making process (e.g., listing pros and cons) but lacks depth and analysis.",
+      "Applies a structured decision-making process (e.g., defining goals, exploring options) with some analysis of personal factors.",
+      "Applies a comprehensive decision-making process, considering personal preferences, resources, and potential challenges.",
+      "Demonstrates a sophisticated decision-making process, including risk assessment, contingency planning, and evaluation criteria for selecting activities."
+    ],
+    [
+      "Does not consider personal factors (e.g., interests, abilities, resources).",
+      "Mention of personal factors is superficial or irrelevant.",
+      "Identifies one or two personal factors that may influence activity choices.",
+      "Considers several personal factors (e.g., time, cost, access) when evaluating activities.",
+      "Analyzes how personal factors (e.g., fitness level, health conditions, goals) impact the suitability of different activities.",
+      "Provides a nuanced analysis of how a wide range of personal factors interact to influence the selection and modification of physical activities."
+    ]
+  ]
+}

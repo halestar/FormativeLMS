@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Evolutionary Factors",
+    "Explanation of Natural Selection",
+    "Use of Evidence",
+    "Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the four factors of evolution is demonstrated.",
+      "Demonstrates a minimal understanding of only one of the four factors of evolution (potential for increase, heritable variation, competition, proliferation).",
+      "Demonstrates a basic understanding of two of the four factors of evolution, but lacks depth.",
+      "Demonstrates a satisfactory understanding of three of the four factors of evolution, with some connection to real-world examples.",
+      "Demonstrates a strong understanding of all four factors of evolution and provides clear examples.",
+      "Demonstrates a comprehensive understanding of all four factors of evolution, provides insightful examples, and explains their interrelationship."
+    ],
+    [
+      "Fails to explain the role of natural selection in the evolutionary process.",
+      "Provides a vague or inaccurate description of natural selection.",
+      "Describes natural selection, but struggles to connect it to the four factors of evolution.",
+      "Explains how natural selection acts on heritable variation and competition for resources.",
+      "Clearly explains how natural selection leads to the proliferation of organisms better suited to their environment.",
+      "Provides a nuanced explanation of natural selection, including its limitations and potential for adaptation."
+    ],
+    [
+      "Provides no evidence to support claims about evolution.",
+      "Provides weak or irrelevant evidence.",
+      "Uses some evidence, but it is not well-integrated or explained.",
+      "Uses evidence to support claims, but may rely on a single source.",
+      "Uses evidence from multiple sources to construct a well-supported explanation.",
+      "Critically evaluates and synthesizes evidence from diverse sources to construct a compelling and nuanced explanation."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to follow.",
+      "Explanation lacks logical flow and contains significant grammatical errors.",
+      "Explanation is somewhat organized, but contains some ambiguities or inconsistencies.",
+      "Explanation is generally clear and organized, with minor areas for improvement.",
+      "Explanation is clear, concise, and logically organized.",
+      "Explanation is exceptionally clear, engaging, and demonstrates a sophisticated understanding of the topic."
+    ]
+  ]
+}

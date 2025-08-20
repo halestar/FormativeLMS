@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Recreational Activities",
+    "Understanding of Physical Activity Benefits",
+    "Application to Personal Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any recreational activities that increase physical activity.",
+      "Student identifies one recreational activity with limited understanding of its impact on physical activity.",
+      "Student identifies two recreational activities, showing a basic understanding of their impact on physical activity.",
+      "Student identifies three recreational activities and explains how they contribute to physical activity.",
+      "Student identifies four or more recreational activities, explaining their contribution to physical activity with some detail.",
+      "Student identifies multiple recreational activities, comprehensively explains their contribution to physical activity, and provides examples of how they can be incorporated into a healthy lifestyle."
+    ],
+    [
+      "Student does not demonstrate an understanding of the benefits of physical activity.",
+      "Student shows a minimal understanding of the benefits of physical activity.",
+      "Student identifies one or two benefits of physical activity.",
+      "Student identifies several benefits of physical activity, such as improved cardiovascular health or weight management.",
+      "Student explains the benefits of physical activity in detail, including physical, mental, and social aspects.",
+      "Student comprehensively explains the physical, mental, and social benefits of physical activity and can discuss how these benefits contribute to overall well-being."
+    ],
+    [
+      "Student cannot apply knowledge of recreational activities to personal health.",
+      "Student shows difficulty in applying knowledge of recreational activities to personal health.",
+      "Student suggests one way recreational activities could impact personal health.",
+      "Student explains a couple of ways recreational activities can be incorporated into personal health.",
+      "Student provides detailed examples of how recreational activities can be incorporated into a personal health plan and discusses potential challenges.",
+      "Student creates a comprehensive plan for incorporating recreational activities into their lifestyle, addresses potential barriers, and sets realistic goals for improving physical activity."
+    ]
+  ]
+}

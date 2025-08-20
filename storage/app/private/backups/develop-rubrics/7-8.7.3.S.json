@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Adherence to digital safety guidelines and protocols.",
+    "Responsible online communication and interaction.",
+    "Protection of personal information and privacy."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to follow digital safety guidelines.",
+      "Rarely follows digital safety guidelines; shows minimal awareness of potential risks.",
+      "Inconsistently follows digital safety guidelines; requires frequent reminders.",
+      "Generally follows digital safety guidelines with occasional lapses.",
+      "Consistently follows digital safety guidelines, demonstrating a strong understanding of potential risks.",
+      "Exemplary adherence to digital safety guidelines, actively promotes safe technology use to peers."
+    ],
+    [
+      "Engages in inappropriate or harmful online behavior.",
+      "Demonstrates poor online communication skills; struggles to interact respectfully with others.",
+      "Occasionally engages in inappropriate online behavior; needs guidance on responsible online communication.",
+      "Generally communicates respectfully online; avoids engaging in harmful behavior.",
+      "Consistently communicates respectfully and responsibly online, demonstrating empathy and understanding.",
+      "Models responsible online communication and interaction; actively promotes positive online behavior."
+    ],
+    [
+      "Shares personal information carelessly online, with no consideration for privacy.",
+      "Demonstrates limited awareness of personal information and privacy risks.",
+      "Occasionally shares personal information inappropriately; requires reminders about privacy settings.",
+      "Generally protects personal information online; understands the importance of privacy.",
+      "Consistently protects personal information and privacy online, using appropriate security measures.",
+      "Demonstrates a strong understanding of personal information protection and privacy; educates others on safe practices."
+    ]
+  ]
+}

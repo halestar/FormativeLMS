@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Potential Dangers",
+    "Evaluation of Avoidance Strategies",
+    "Understanding Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any potential dangers in given situations.",
+      "Identifies a few obvious dangers but misses several key risks.",
+      "Identifies some potential dangers with limited detail or accuracy.",
+      "Identifies most potential dangers with reasonable accuracy and detail.",
+      "Identifies almost all potential dangers with good accuracy and detail.",
+      "Thoroughly identifies all potential dangers with excellent accuracy, providing comprehensive detail and insight."
+    ],
+    [
+      "Unable to suggest any strategies to avoid dangerous situations.",
+      "Suggests strategies that are inappropriate or ineffective in avoiding danger.",
+      "Suggests strategies to avoid danger, but they are simplistic or not fully thought out.",
+      "Suggests effective strategies to avoid danger, but lacks depth in explaining why they work.",
+      "Suggests well-reasoned and effective strategies to avoid danger with clear explanations.",
+      "Presents comprehensive and innovative strategies to avoid danger, demonstrating a deep understanding of risk mitigation."
+    ],
+    [
+      "Shows no understanding of the potential consequences of dangerous situations.",
+      "Demonstrates limited awareness of the possible outcomes of risky behaviors.",
+      "Shows some understanding of consequences, but the connection to specific actions is weak.",
+      "Understands the consequences of dangerous situations and relates them to specific choices.",
+      "Clearly understands and articulates the consequences of dangerous situations, providing relevant examples.",
+      "Demonstrates a sophisticated understanding of consequences, including long-term and indirect impacts, with insightful analysis."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Emergency Situations",
+    "Knowledge of Appropriate Steps",
+    "Ability to Analyze and Prioritize Actions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any emergency or potentially dangerous situations.",
+      "The student can identify one emergency or potentially dangerous situation but struggles with others.",
+      "The student can identify a few emergency or potentially dangerous situations with some prompting.",
+      "The student can identify most emergency or potentially dangerous situations with minimal prompting.",
+      "The student can accurately identify a wide range of emergency or potentially dangerous situations.",
+      "The student demonstrates comprehensive understanding and can identify even subtle indicators of potential emergencies."
+    ],
+    [
+      "The student does not know any appropriate steps to take in emergency situations.",
+      "The student knows one or two basic steps but cannot apply them correctly.",
+      "The student knows some appropriate steps but misses key actions or sequences.",
+      "The student knows most of the appropriate steps but may need prompting to recall all of them.",
+      "The student demonstrates a strong understanding of appropriate steps to take in various emergency situations.",
+      "The student exhibits expert knowledge and can adapt steps based on the specific context of the emergency, including knowing who to contact."
+    ],
+    [
+      "The student cannot analyze or prioritize actions in emergency situations.",
+      "The student struggles to analyze and prioritize actions, often suggesting inappropriate responses.",
+      "The student can analyze and prioritize some actions but struggles with complex scenarios.",
+      "The student can generally analyze and prioritize actions, though may occasionally miss optimal strategies.",
+      "The student demonstrates the ability to effectively analyze and prioritize actions in most emergency situations.",
+      "The student excels at analyzing and prioritizing actions, consistently selecting the most effective responses to maximize safety and minimize harm."
+    ]
+  ]
+}

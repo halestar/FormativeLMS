@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information Identification: How accurately the student identifies key nutrition information (serving size, calories, fats, carbohydrates, protein, vitamins, minerals) on food labels.",
+    "Ability to Compare Products: Demonstrates the ability to use nutrition information to compare two or more food products.",
+    "Understanding of Nutritional Value: Understanding and articulation of the nutritional value of the information presented (e.g., recognizing high vs. low values for different nutrients)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any nutrition information on food labels.",
+      "Identifies only one or two components of nutrition information with inaccuracies.",
+      "Identifies some nutrition information, but with several inaccuracies or omissions.",
+      "Identifies most of the nutrition information with minor inaccuracies.",
+      "Accurately identifies all key nutrition information with only minor errors.",
+      "Accurately and comprehensively identifies all key nutrition information on food labels."
+    ],
+    [
+      "Unable to compare products using nutrition information.",
+      "Attempts to compare products but provides irrelevant or inaccurate comparisons.",
+      "Compares products but misses key differences in nutrition information.",
+      "Compares products using some nutrition information, but the comparison lacks depth.",
+      "Effectively compares products using most of the relevant nutrition information.",
+      "Demonstrates a comprehensive comparison of products using all relevant nutrition information to make informed decisions."
+    ],
+    [
+      "Shows no understanding of the nutritional value of the information.",
+      "Demonstrates very limited understanding of nutritional value.",
+      "Shows some understanding of nutritional value but struggles to interpret the information.",
+      "Understands nutritional value but provides superficial interpretations.",
+      "Demonstrates a good understanding of nutritional value and provides clear interpretations.",
+      "Exhibits a deep understanding of nutritional value, offering insightful and nuanced interpretations."
+    ]
+  ]
+}

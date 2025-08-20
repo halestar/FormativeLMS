@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Area as Additive",
+    "Decomposition of Rectilinear Figures",
+    "Application to Real-World Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding that area can be found by adding the areas of non-overlapping parts.",
+      "Student shows limited understanding, with significant errors in calculating areas or combining them.",
+      "Student demonstrates some understanding but struggles to accurately decompose figures or add the areas of the parts.  Errors are frequent.",
+      "Student generally understands that area is additive, but may make minor errors in decomposing figures or calculating total area.",
+      "Student consistently decomposes rectilinear figures into non-overlapping rectangles and accurately adds the areas to find the total area.",
+      "Student demonstrates a complete understanding of area as additive, accurately decomposing complex figures and finding the total area with clear and concise explanations. Can apply this to novel situations."
+    ],
+    [
+      "Student cannot decompose rectilinear figures into rectangles.",
+      "Student attempts to decompose figures but is unable to create appropriate rectangles or makes numerous errors.",
+      "Student can decompose some figures but struggles with more complex shapes or makes errors in determining the dimensions of the rectangles.",
+      "Student can decompose most rectilinear figures into rectangles, but may require some guidance or make minor errors.",
+      "Student accurately decomposes rectilinear figures into non-overlapping rectangles with no errors.",
+      "Student demonstrates mastery in decomposing complex rectilinear figures into rectangles efficiently and can explain the process clearly."
+    ],
+    [
+      "Student cannot apply the concept of area to solve real-world problems.",
+      "Student attempts to apply the concept, but the approach is flawed or results in an incorrect answer.",
+      "Student can apply the concept with significant guidance, but makes errors in setting up the problem or calculating the area.",
+      "Student can solve some real-world problems involving area, but may struggle with more complex scenarios or require some assistance.",
+      "Student can accurately solve real-world problems involving area, showing a clear understanding of the concept and its application.",
+      "Student can solve complex real-world problems involving area, and can explain and justify the solution strategy effectively."
+    ]
+  ]
+}

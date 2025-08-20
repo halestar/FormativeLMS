@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Conversion and Calculations",
+    "Understanding of Terminating and Repeating Decimals",
+    "Application of Properties and Rules"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to convert rational numbers to decimals or perform multiplication\/division.",
+      "Demonstrates minimal understanding; calculations are incorrect with no clear strategy.",
+      "Conversion to decimals attempted but with significant errors. Multiplication\/division shows limited understanding of rules.",
+      "Converts rational numbers to decimals with some errors. Multiplication\/division performed with occasional mistakes.",
+      "Accurately converts rational numbers to decimals using long division. Multiplies and divides rational numbers with minor errors.",
+      "Consistently and accurately converts rational numbers to decimals and performs multiplication\/division, showing a strong understanding of the relationship between rational numbers and their decimal representations."
+    ],
+    [
+      "No understanding of terminating or repeating decimals is shown.",
+      "Unable to identify terminating or repeating decimals.",
+      "Identifies some terminating decimals, but unable to differentiate between repeating and non-repeating decimals.",
+      "Can differentiate between terminating and repeating decimals, but explanation lacks clarity.",
+      "Clearly explains the difference between terminating and repeating decimals with relevant examples.",
+      "Provides a comprehensive explanation of terminating and repeating decimals, including why some rational numbers result in each type, demonstrating deep understanding."
+    ],
+    [
+      "Does not apply any relevant properties or rules of multiplication\/division of rational numbers.",
+      "Attempts to apply properties but does so incorrectly or inconsistently.",
+      "Applies some properties correctly in simple problems but struggles with more complex scenarios.",
+      "Generally applies properties and rules correctly, but may overlook nuances in certain situations.",
+      "Consistently applies properties and rules of multiplication\/division of rational numbers, with clear justifications.",
+      "Masterfully applies properties and rules, providing insightful justifications and using them to solve complex problems efficiently."
+    ]
+  ]
+}

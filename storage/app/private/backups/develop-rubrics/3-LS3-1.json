@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation",
+    "Evidence-Based Reasoning",
+    "Understanding of Core Concepts",
+    "Application of Scientific Practices (Analyzing and Interpreting Data)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze or interpret data.",
+      "Identifies data but provides no interpretation or inaccurate interpretations.",
+      "Provides a basic interpretation of the data but lacks depth and connection to the concept of inherited traits.",
+      "Analyzes data and provides a reasonable interpretation, linking it to the concept of inherited traits with some clarity.",
+      "Thoroughly analyzes data and provides a clear interpretation, explicitly connecting it to the concept of inherited traits and variation.",
+      "Performs a sophisticated analysis and interpretation of data, clearly connecting it to inherited traits and variation, while also considering potential sources of error or uncertainty in the data."
+    ],
+    [
+      "No evidence provided to support claims.",
+      "Provides claims without supporting evidence or with irrelevant evidence.",
+      "Provides limited evidence that vaguely supports claims about inherited traits.",
+      "Provides evidence that supports claims about inherited traits, but the connection may not be explicit or fully explained.",
+      "Provides clear and relevant evidence to support claims about inherited traits and variation, explaining the connection effectively.",
+      "Constructs a compelling argument with strong evidence to support claims about inherited traits and variation, demonstrating a deep understanding of the relationship between evidence and conclusions."
+    ],
+    [
+      "Demonstrates no understanding of inherited traits or variation.",
+      "Shows minimal understanding of inherited traits or variation with significant misconceptions.",
+      "Demonstrates a basic understanding of inherited traits and variation, but with some inaccuracies or gaps.",
+      "Shows a solid understanding of inherited traits and variation, with accurate descriptions and examples.",
+      "Demonstrates a comprehensive understanding of inherited traits and variation, explaining key concepts clearly and accurately.",
+      "Exhibits a sophisticated understanding of inherited traits and variation, integrating related concepts and providing insightful explanations."
+    ],
+    [
+      "Does not attempt to use data analysis skills.",
+      "Attempts to use data analysis but makes significant errors or misinterpretations.",
+      "Uses basic data analysis skills but struggles with interpretation.",
+      "Competently analyzes and interprets data with minor errors.",
+      "Effectively analyzes and interprets data to draw valid conclusions.",
+      "Skillfully analyzes and interprets complex data to draw insightful and well-supported conclusions."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Signs and Symbols: Correctly identifies various safety-related signs and symbols.",
+    "Understanding of Warning Labels: Demonstrates comprehension of the information conveyed by warning labels.",
+    "Application of Safety Knowledge: Applies knowledge of signs, symbols, and labels to potential safety scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any safety-related signs or symbols, or provides completely incorrect identifications.",
+      "Identifies only one or two basic safety signs or symbols with limited accuracy.",
+      "Identifies some common safety signs and symbols but may confuse their meanings or purposes.",
+      "Identifies most common safety signs and symbols accurately, with minor errors or omissions.",
+      "Identifies nearly all safety signs and symbols accurately and demonstrates a good understanding of their meanings.",
+      "Accurately identifies and explains the meaning and purpose of a wide range of safety signs and symbols, including less common ones."
+    ],
+    [
+      "Shows no understanding of warning labels or their purpose.",
+      "Demonstrates a very basic understanding of warning labels, but misinterprets key information.",
+      "Understands the general purpose of warning labels but struggles with specific details or instructions.",
+      "Generally understands warning labels and can interpret basic instructions or warnings with some accuracy.",
+      "Demonstrates a clear understanding of warning labels and can accurately interpret most instructions and warnings.",
+      "Demonstrates a comprehensive understanding of warning labels, including the ability to interpret complex information and apply it to real-world situations."
+    ],
+    [
+      "Unable to apply knowledge of safety signs, symbols, or labels to any practical scenario.",
+      "Struggles to apply safety knowledge and makes significant errors in judgment regarding safety practices.",
+      "Can sometimes apply safety knowledge to simple scenarios but demonstrates inconsistencies.",
+      "Applies safety knowledge to most common scenarios effectively but may struggle with unfamiliar situations.",
+      "Consistently applies safety knowledge to a variety of scenarios, demonstrating sound judgment.",
+      "Expertly applies safety knowledge to complex and novel scenarios, demonstrating excellent judgment and proactive safety measures."
+    ]
+  ]
+}

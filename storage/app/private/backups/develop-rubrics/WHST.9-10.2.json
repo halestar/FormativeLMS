@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Topic Introduction and Organization",
+    "Development of Topic with Evidence",
+    "Use of Transitions and Sentence Structure",
+    "Language Precision and Vocabulary",
+    "Formal Style and Objective Tone",
+    "Concluding Statement or Section"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The topic is not introduced, or the organization is unclear and lacks logical connections.",
+      "The topic is vaguely introduced with minimal organization; connections are weak or missing.",
+      "The topic is introduced, but the organization is inconsistent; some connections are attempted but not always clear.",
+      "The topic is clearly introduced, and the organization is generally logical, with mostly clear connections.",
+      "The topic is effectively introduced with a well-organized structure that enhances understanding; connections are clear and logical.",
+      "The topic is introduced in an engaging manner with a sophisticated organizational structure that seamlessly connects ideas and enhances comprehension. Formatting, graphics, and multimedia are strategically used."
+    ],
+    [
+      "Lacks relevant facts, details, quotations, or examples to support the topic; information is insufficient.",
+      "Provides few relevant facts, details, quotations, or examples; information is superficial or limited.",
+      "Offers some relevant facts, details, quotations, or examples, but they may be underdeveloped or lack clarity.",
+      "Develops the topic with generally well-chosen and relevant facts, details, quotations, or examples appropriate for the audience.",
+      "Develops the topic thoroughly with well-chosen, relevant, and sufficient facts, extended definitions, concrete details, quotations, or other information and examples tailored to the audience's knowledge.",
+      "Masterfully develops the topic with an abundance of compelling and insightful evidence that significantly enhances the audience's understanding. Demonstrates a deep understanding of the subject matter."
+    ],
+    [
+      "Lacks transitions and variety in sentence structure; ideas are disjointed and unclear.",
+      "Minimal transitions and little variety in sentence structure; cohesion is weak.",
+      "Some transitions are present, but sentence structure is repetitive; cohesion is inconsistent.",
+      "Uses transitions to link sections, and sentence structure is somewhat varied, creating reasonable cohesion.",
+      "Uses varied transitions and sentence structures effectively to link major sections, create cohesion, and clarify relationships among ideas.",
+      "Skillfully employs a wide range of transitions and sentence structures to create seamless connections, enhance cohesion, and clearly articulate the relationships among complex ideas and concepts."
+    ],
+    [
+      "Language is imprecise, and vocabulary is inappropriate; complexity is not managed effectively.",
+      "Language is vague, and vocabulary is limited; struggles to manage the complexity of the topic.",
+      "Language is generally precise, and vocabulary is adequate, but may not always be appropriate for the discipline or context.",
+      "Uses precise language and domain-specific vocabulary to manage the complexity of the topic and convey a style appropriate to the discipline and context.",
+      "Uses precise and sophisticated language and domain-specific vocabulary to expertly manage the complexity of the topic, conveying a style that is highly appropriate for the discipline and context.",
+      "Demonstrates a masterful command of language and vocabulary, using terminology with precision and nuance to elevate the text's sophistication and impact, tailored to the expertise of likely readers."
+    ],
+    [
+      "Lacks a formal style and objective tone; does not adhere to the conventions of the discipline.",
+      "Inconsistent in maintaining a formal style and objective tone; limited attention to disciplinary conventions.",
+      "Attempts to establish a formal style and objective tone, but may lapse at times; some awareness of disciplinary conventions.",
+      "Establishes and maintains a generally formal style and objective tone while attending to the norms and conventions of the discipline.",
+      "Consistently maintains a formal style and objective tone, adhering closely to the norms and conventions of the discipline.",
+      "Exemplifies a refined and impeccable formal style with an unwavering objective tone, demonstrating a deep understanding and skillful application of disciplinary norms and conventions."
+    ],
+    [
+      "Lacks a concluding statement or section, or it is irrelevant to the information presented.",
+      "Provides a weak or underdeveloped concluding statement or section with a tenuous connection to the information presented.",
+      "Offers a concluding statement or section that is somewhat related to the information presented but lacks depth or clarity.",
+      "Provides a concluding statement or section that follows from and generally supports the information or explanation presented.",
+      "Provides a compelling concluding statement or section that effectively summarizes and reinforces the information or explanation presented, articulating implications or the significance of the topic.",
+      "Crafts a powerful and insightful concluding statement or section that not only summarizes the information but also offers profound reflections and broader implications, leaving a lasting impression on the reader."
+    ]
+  ]
+}

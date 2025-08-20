@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Dietary Guidelines",
+    "Knowledge of Food Groups",
+    "Identification of Key Nutrients",
+    "Understanding of Serving Sizes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of dietary guidelines.",
+      "Shows minimal understanding of dietary guidelines; struggles to identify key recommendations.",
+      "Identifies some dietary guidelines but demonstrates difficulty explaining their importance.",
+      "Explains dietary guidelines with reasonable accuracy but lacks detail.",
+      "Clearly explains dietary guidelines and their importance for healthy eating.",
+      "Provides a comprehensive and insightful explanation of dietary guidelines, including their rationale and application."
+    ],
+    [
+      "Unable to identify any food groups.",
+      "Identifies only 1-2 food groups with limited accuracy.",
+      "Identifies several food groups but struggles to differentiate between them.",
+      "Accurately identifies most food groups and provides basic examples.",
+      "Identifies all food groups and provides relevant examples for each.",
+      "Demonstrates in-depth knowledge of food groups, including their nutritional benefits and recommended proportions in a healthy diet."
+    ],
+    [
+      "Unable to identify any key nutrients.",
+      "Identifies 1-2 key nutrients with limited accuracy.",
+      "Identifies some key nutrients but struggles to explain their functions.",
+      "Accurately identifies most key nutrients and provides basic functions.",
+      "Identifies all key nutrients and explains their functions in the body.",
+      "Demonstrates comprehensive understanding of key nutrients, including their roles, sources, and effects on health."
+    ],
+    [
+      "Demonstrates no understanding of serving sizes.",
+      "Shows minimal understanding of serving sizes; provides inaccurate estimates.",
+      "Understands the concept of serving sizes but struggles to apply it to different foods.",
+      "Provides reasonable estimates of serving sizes for common foods.",
+      "Accurately describes serving sizes for various foods and explains their importance.",
+      "Demonstrates a thorough understanding of serving sizes and their role in maintaining a balanced and healthy diet, including practical application."
+    ]
+  ]
+}

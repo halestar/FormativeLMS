@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Identification of Trusted Adults",
+    "Understanding of Roles and Responsibilities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any trusted adults.",
+      "Student identifies only one adult, but demonstrates limited understanding of why the adult is trustworthy.",
+      "Student identifies two adults, but struggles to articulate the reasons for trusting them for reproductive and sexual health advice.",
+      "Student identifies three adults and provides basic reasons for trusting them, but lacks depth in explanation.",
+      "Student identifies at least three adults across different settings (family, school, community) and clearly explains why they are trusted sources of advice for reproductive and sexual health.",
+      "Student confidently identifies multiple trusted adults across various settings, providing insightful explanations of their trustworthiness based on their expertise, experience, and demonstrated support for reproductive and sexual health."
+    ],
+    [
+      "Student does not understand the roles and responsibilities of trusted adults in providing advice and counseling.",
+      "Student demonstrates a limited understanding of the roles and responsibilities of trusted adults.",
+      "Student identifies roles, but can't explain responsibilities.",
+      "Student identifies roles and explains basic responsibilities.",
+      "Student identifies roles and provides detail explanation of responsibilities.",
+      "Student identifies roles and provides insightful explanations of responsibilities."
+    ]
+  ]
+}

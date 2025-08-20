@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Healthy Weight Management Approaches",
+    "Identification of Risky Weight Management Approaches",
+    "Ability to Contrast Healthy and Risky Approaches"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of healthy approaches to weight management.",
+      "Identifies only one or two basic healthy approaches with limited explanation.",
+      "Identifies some healthy approaches but lacks depth in explaining how they contribute to weight management.",
+      "Describes several healthy approaches, providing a general understanding of their benefits.",
+      "Explains multiple healthy approaches in detail, demonstrating a clear understanding of how they support weight management.",
+      "Provides a comprehensive and nuanced explanation of various healthy approaches to weight management, including their physiological and psychological benefits."
+    ],
+    [
+      "Unable to identify any risky approaches to weight management.",
+      "Identifies one or two risky approaches without explaining why they are harmful.",
+      "Identifies some risky approaches but lacks clarity on their potential negative consequences.",
+      "Describes several risky approaches and provides a basic understanding of their dangers.",
+      "Explains multiple risky approaches in detail, clearly outlining their potential health risks.",
+      "Offers a comprehensive analysis of various risky approaches, thoroughly detailing the short-term and long-term health consequences."
+    ],
+    [
+      "Unable to differentiate between healthy and risky approaches.",
+      "Shows minimal contrast between healthy and risky approaches, with limited justification.",
+      "Presents some contrast but lacks a clear explanation of the differences and potential impacts.",
+      "Provides a general comparison of healthy and risky approaches, highlighting some key differences.",
+      "Clearly contrasts healthy and risky approaches, providing strong justifications for their classifications.",
+      "Offers a sophisticated comparison, deeply analyzing the benefits of healthy approaches versus the risks of unhealthy ones, with a clear articulation of the underlying principles."
+    ]
+  ]
+}

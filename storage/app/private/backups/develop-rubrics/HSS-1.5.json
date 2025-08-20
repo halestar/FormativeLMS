@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Human Characteristics: Demonstrates the ability to identify and describe human characteristics of familiar places.",
+    "Understanding of Varied Backgrounds: Shows an understanding of the diverse backgrounds of American citizens and residents in those places.",
+    "Connection Between Characteristics and Backgrounds: Establishes a clear connection between human characteristics and the varied backgrounds of people in familiar places."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify or describe any human characteristics of familiar places.",
+      "Identifies one or two human characteristics, but descriptions are vague or inaccurate.",
+      "Identifies some human characteristics with basic descriptions, but lacks depth or detail.",
+      "Identifies and describes several human characteristics of familiar places with reasonable detail and accuracy.",
+      "Identifies and describes multiple human characteristics with specific examples and accurate details.",
+      "Provides a comprehensive and insightful description of numerous human characteristics, demonstrating a deep understanding of their impact on familiar places."
+    ],
+    [
+      "Shows no understanding of the varied backgrounds of American citizens and residents.",
+      "Demonstrates a limited awareness of different backgrounds, with minimal understanding.",
+      "Acknowledges the existence of varied backgrounds, but lacks specific details or examples.",
+      "Describes several varied backgrounds with some level of detail and accuracy.",
+      "Explains the varied backgrounds of American citizens and residents with specific examples and accurate details.",
+      "Provides a comprehensive and nuanced explanation of the diverse backgrounds, demonstrating a deep understanding of their significance and impact."
+    ],
+    [
+      "Fails to make any connection between human characteristics and varied backgrounds.",
+      "Attempts to connect human characteristics and backgrounds, but the connection is unclear or illogical.",
+      "Identifies a basic connection between human characteristics and backgrounds, but lacks supporting details.",
+      "Establishes a reasonable connection between human characteristics and backgrounds with some supporting details.",
+      "Clearly connects human characteristics and varied backgrounds with specific examples and accurate supporting details.",
+      "Provides a sophisticated and insightful analysis of the interconnectedness between human characteristics and diverse backgrounds, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

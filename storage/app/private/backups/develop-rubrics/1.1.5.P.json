@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Symptom Descriptions",
+    "Breadth of Health Problems\/Illnesses Addressed",
+    "Understanding of Chronic vs. Acute Conditions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student provides no descriptions of symptoms or descriptions are entirely inaccurate.",
+      "Student attempts to describe symptoms but descriptions contain significant inaccuracies or are very vague.",
+      "Student describes symptoms with some inaccuracies or lacks detail in multiple areas.",
+      "Student accurately describes symptoms for some health problems\/illnesses, but may have minor inaccuracies or omissions for others.",
+      "Student accurately describes symptoms for most health problems\/illnesses, with only minor omissions or slight lack of detail.",
+      "Student provides thorough and accurate descriptions of symptoms for all listed health problems\/illnesses."
+    ],
+    [
+      "Student does not describe symptoms for any of the listed health problems\/illnesses.",
+      "Student describes symptoms for only one health problem\/illness.",
+      "Student describes symptoms for two health problems\/illnesses.",
+      "Student describes symptoms for three health problems\/illnesses.",
+      "Student describes symptoms for four health problems\/illnesses.",
+      "Student describes symptoms for all five health problems\/illnesses (asthma, allergies, diabetes, influenza, and one other chronic disease)."
+    ],
+    [
+      "Student demonstrates no understanding of the difference between chronic and acute conditions.",
+      "Student shows a limited understanding of the difference, with significant confusion between chronic and acute illnesses.",
+      "Student shows some understanding but misidentifies chronic illnesses or confuses symptoms with acute conditions.",
+      "Student mostly understands the difference but has some difficulty categorizing specific illnesses as chronic or acute.",
+      "Student demonstrates a good understanding of the difference, accurately identifying most illnesses as chronic or acute.",
+      "Student clearly demonstrates a thorough understanding of the differences between chronic and acute conditions, accurately categorizing illnesses and explaining why."
+    ]
+  ]
+}

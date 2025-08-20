@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Source Relevance and Authority",
+    "Search Effectiveness and Information Gathering",
+    "Integration of Information",
+    "Avoidance of Plagiarism and Overreliance",
+    "Citation and Formatting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No sources are gathered or sources are irrelevant and\/or not authoritative.",
+      "Sources are gathered, but relevance or authority is questionable.",
+      "Most sources are relevant, but authority is not consistently demonstrated or assessed.",
+      "Sources are relevant and generally authoritative, with some assessment of their strengths and limitations.",
+      "Sources are highly relevant and authoritative, with a clear assessment of their strengths and limitations related to the task, purpose, and audience.",
+      "Sources are expertly chosen for relevance and authority, demonstrating a sophisticated understanding of their strengths and limitations, and how they impact the task, purpose, and audience."
+    ],
+    [
+      "No advanced search techniques are used; little to no relevant information is gathered.",
+      "Basic searches are used; minimal relevant information is gathered.",
+      "Some advanced search techniques are attempted; some relevant information is gathered.",
+      "Advanced search techniques are used effectively; a good amount of relevant information is gathered.",
+      "Advanced searches are used effectively to gather a comprehensive collection of relevant information.",
+      "Demonstrates masterful use of advanced searches, gathering an extensive and highly relevant collection of information, showing insight in search strategy."
+    ],
+    [
+      "Information is not integrated, or is copied directly without any attempt at synthesis.",
+      "Information is poorly integrated, disrupting the flow of ideas.",
+      "Information is integrated with some awkwardness, occasionally disrupting the flow of ideas.",
+      "Information is integrated reasonably well, maintaining the flow of ideas in most places.",
+      "Information is integrated seamlessly, enhancing the flow of ideas and supporting the text effectively.",
+      "Information is masterfully integrated, creating a compelling and insightful narrative that demonstrates a deep understanding of the sources."
+    ],
+    [
+      "Plagiarism is evident, or there is extreme overreliance on a single source.",
+      "Some instances of plagiarism or overreliance on a single source are present.",
+      "Minor issues with plagiarism or overreliance are present, but generally avoided.",
+      "Plagiarism is avoided, and reliance on any one source is balanced.",
+      "Demonstrates skillful synthesis of information from multiple sources, avoiding both plagiarism and overreliance.",
+      "Demonstrates exemplary synthesis of information, transforming source material into a unique and insightful argument while scrupulously avoiding plagiarism."
+    ],
+    [
+      "No citations are present, or formatting is completely incorrect.",
+      "Citations are attempted, but mostly incorrect or missing.",
+      "Citations are present, but with numerous errors in formatting.",
+      "Citations are mostly correct and follow a standard format with only minor errors.",
+      "Citations are accurate and consistently follow a standard format.",
+      "Citations are flawless and expertly formatted, enhancing the credibility and authority of the work."
+    ]
+  ]
+}

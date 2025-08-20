@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Central Idea",
+    "Analysis of Development of Central Idea",
+    "Relationship to Supporting Ideas",
+    "Objectivity of Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The central idea is not identified or is completely inaccurate.",
+      "The central idea is vaguely identified but lacks clarity or is partially inaccurate.",
+      "The central idea is identified, but the explanation is superficial or incomplete.",
+      "The central idea is clearly identified and accurately stated.",
+      "The central idea is clearly and accurately identified, demonstrating a strong understanding of the text's primary focus.",
+      "The central idea is insightfully identified, demonstrating a deep understanding of the text's primary focus and nuances."
+    ],
+    [
+      "No attempt is made to analyze the development of the central idea.",
+      "Analysis of the central idea's development is attempted but is minimal and lacks coherence.",
+      "The analysis of the central idea's development is present but is basic and lacks depth.",
+      "The development of the central idea is analyzed with relevant details and examples from the text.",
+      "The analysis is thorough and insightful, tracing the evolution of the central idea throughout the text with well-chosen textual evidence.",
+      "The analysis demonstrates a sophisticated understanding of how the central idea evolves, connecting it to the text's broader themes and purpose."
+    ],
+    [
+      "The relationship between the central idea and supporting ideas is not addressed.",
+      "The relationship is mentioned but is vague and lacks connection to specific supporting ideas.",
+      "An attempt is made to explain the relationship, but it is superficial or incomplete.",
+      "The relationship between the central idea and supporting ideas is clearly explained with specific examples from the text.",
+      "The explanation demonstrates a strong understanding of how supporting ideas contribute to the development and understanding of the central idea.",
+      "The explanation is insightful, revealing nuanced connections between the central idea and supporting ideas, and demonstrating a comprehensive understanding of the text's structure."
+    ],
+    [
+      "The summary is missing or is heavily influenced by personal opinions and biases.",
+      "The summary includes some objective elements, but is noticeably influenced by personal opinions.",
+      "The summary is mostly objective, but some personal opinions or interpretations are present.",
+      "The summary is objective and accurately reflects the main points of the text without personal bias.",
+      "The summary is concise, objective, and accurately represents the text's main points, demonstrating a clear understanding of its content.",
+      "The summary is exceptionally objective and insightful, capturing the essence of the text without injecting personal bias, and demonstrating a mastery of summarizing techniques."
+    ]
+  ]
+}

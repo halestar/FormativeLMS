@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Valid Sources",
+    "Distinguishes Invalid Sources",
+    "Explanation of Bias and Credibility"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any valid sources of nutrition information.",
+      "Identifies one or two sources, but explanation is lacking or inaccurate.",
+      "Identifies some valid sources of nutrition information (e.g., government health websites, registered dietitians) with limited explanation.",
+      "Identifies valid sources (e.g., .gov, .edu, registered dietitians) and provides a basic explanation of why they are valid.",
+      "Clearly identifies valid sources and explains the credentials, research, or affiliations that make them trustworthy.",
+      "Masterfully identifies valid sources, providing a comprehensive explanation of their credibility, referencing specific examples of research or expertise."
+    ],
+    [
+      "Unable to identify any invalid sources of nutrition information.",
+      "Attempts to identify invalid sources, but reasoning is unclear or inaccurate.",
+      "Identifies some invalid sources (e.g., celebrity endorsements, biased websites) but with limited explanation.",
+      "Identifies invalid sources (e.g., personal blogs, opinion pieces) and provides a basic explanation of why they are invalid.",
+      "Clearly identifies invalid sources, providing a detailed explanation of the biases, lack of research, or credentials that make them untrustworthy.",
+      "Expertly identifies invalid sources, thoroughly explaining their potential for misinformation, citing specific examples of misleading claims or conflicts of interest."
+    ],
+    [
+      "Does not explain the concepts of bias or credibility in nutrition information.",
+      "Attempts to explain bias and credibility, but explanation is confusing or irrelevant.",
+      "Provides a limited explanation of bias and credibility in the context of nutrition information.",
+      "Explains how bias and credibility affect the validity of nutrition information sources.",
+      "Clearly articulates how bias, conflicts of interest, and lack of credentials can undermine the validity of nutrition information.",
+      "Demonstrates a sophisticated understanding of bias and credibility, providing insightful analysis of how they influence nutrition recommendations and public perception."
+    ]
+  ]
+}

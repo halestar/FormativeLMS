@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Healthy Expressions",
+    "Understanding of Emotional Expression",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any healthy ways to express caring, friendship, affection, or love.",
+      "Identifies only one healthy way to express caring, friendship, affection, or love with limited detail.",
+      "Identifies a few healthy ways, but descriptions are superficial and lack depth.",
+      "Identifies several healthy ways with some explanation, but may miss key aspects or nuances.",
+      "Clearly describes multiple healthy ways to express caring, friendship, affection, and love, demonstrating a solid understanding.",
+      "Provides a comprehensive and insightful description of various healthy expressions, demonstrating a nuanced understanding and ability to apply the concepts."
+    ],
+    [
+      "Demonstrates no understanding of the differences between healthy and unhealthy emotional expression.",
+      "Shows a limited understanding of the differences between healthy and unhealthy emotional expression.",
+      "Demonstrates basic understanding of the differences, but struggles to articulate the implications.",
+      "Explains the differences between healthy and unhealthy emotional expression, but lacks depth or examples.",
+      "Clearly articulates the importance of healthy emotional expression and provides relevant examples.",
+      "Demonstrates a deep understanding of emotional expression, offering nuanced insights and considering various factors like context and individual differences."
+    ],
+    [
+      "Unable to apply the concepts to real-life scenarios or provides irrelevant examples.",
+      "Attempts to apply the concepts but provides unrealistic or flawed examples.",
+      "Applies the concepts to simple scenarios, but struggles with complexity or nuance.",
+      "Provides reasonable examples of healthy expressions in different scenarios, showing some practical application.",
+      "Offers well-reasoned examples of how to apply healthy expressions in various real-life scenarios.",
+      "Demonstrates exceptional ability to apply the concepts to diverse and complex scenarios, offering insightful solutions and considering potential challenges."
+    ]
+  ]
+}

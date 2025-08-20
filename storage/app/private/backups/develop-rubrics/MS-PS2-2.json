@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning the Investigation",
+    "Evidence of understanding of Forces and Motion",
+    "Connections to Empirical Evidence and Explanations",
+    "Application of Mathematical Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not plan an investigation or the plan is completely irrelevant to the research question.",
+      "The student attempts to plan an investigation, but the plan is unclear or missing key components.",
+      "The student plans an investigation with some relevant components, but lacks clarity or detail in variable identification, controls, tools, measurements, or data needs.",
+      "The student plans a mostly complete investigation, identifying independent and dependent variables, controls, and necessary tools, but may have minor gaps in measurement recording or determining sufficient data.",
+      "The student collaboratively and individually plans a well-structured investigation, clearly identifying independent and dependent variables, controls, appropriate tools, measurement recording methods, and a reasonable amount of data needed to support a claim.",
+      "The student collaboratively and individually plans a comprehensive and insightful investigation, clearly identifying and justifying independent and dependent variables, controls, appropriate tools, detailed measurement recording methods, and a robust amount of data needed to strongly support a claim. Demonstrates foresight and addresses potential challenges."
+    ],
+    [
+      "No evidence of understanding of forces and motion is displayed.",
+      "Displays minimal understanding of forces and motion.",
+      "Displays an incomplete or superficial understanding of forces and motion, with key concepts missing or misunderstood.",
+      "Demonstrates a satisfactory understanding of forces and motion, including balanced and unbalanced forces, mass, and changes in motion, but lacks depth or clarity.",
+      "Demonstrates a strong understanding of forces and motion, including balanced and unbalanced forces, mass, changes in motion, frame of reference, and appropriate units. Explanations are clear and mostly complete.",
+      "Demonstrates a comprehensive and nuanced understanding of forces and motion, including balanced and unbalanced forces, mass, changes in motion, frame of reference, appropriate units, and their interrelationships. Explanations are clear, precise, and insightful."
+    ],
+    [
+      "The student does not connect their investigation or explanation to empirical evidence.",
+      "The student makes a weak or unclear attempt to connect their investigation or explanation to empirical evidence.",
+      "The student makes a connection to empirical evidence, but the connection is superficial or not well-explained.",
+      "The student logically connects their investigation or explanation to empirical evidence, but the explanation lacks depth.",
+      "The student logically and clearly connects their investigation or explanation to empirical evidence, providing a solid explanation.",
+      "The student expertly and insightfully connects their investigation or explanation to empirical evidence, providing a comprehensive and nuanced explanation."
+    ],
+    [
+      "The student does not apply mathematical reasoning or applies it incorrectly.",
+      "The student attempts to apply mathematical reasoning, but the application is flawed or unclear.",
+      "The student applies mathematical reasoning with some errors or inconsistencies.",
+      "The student correctly applies mathematical reasoning to solve problems related to forces and motion, but the explanation is basic.",
+      "The student effectively applies mathematical reasoning to solve problems related to forces and motion, providing a clear and logical explanation.",
+      "The student skillfully and insightfully applies mathematical reasoning to solve complex problems related to forces and motion, providing a comprehensive and nuanced explanation."
+    ]
+  ]
+}

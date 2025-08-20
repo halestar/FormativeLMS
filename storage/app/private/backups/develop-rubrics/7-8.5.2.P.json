@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Decision-Making Process",
+    "Ability to Identify Relevant Health Care Products",
+    "Application of Information to Product Selection",
+    "Consideration of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of a decision-making process is evident.",
+      "Demonstrates minimal understanding of a decision-making process; struggles to apply it.",
+      "Shows basic understanding of a decision-making process but application is inconsistent.",
+      "Demonstrates a clear understanding of a decision-making process and generally applies it when selecting healthcare products.",
+      "Demonstrates a comprehensive understanding of a decision-making process and consistently applies it effectively.",
+      "Demonstrates an exceptional understanding of the decision-making process, applying it skillfully and adapting it to various scenarios."
+    ],
+    [
+      "Unable to identify any relevant health care products related to the decision-making process.",
+      "Struggles to identify relevant health care products; choices are often inappropriate.",
+      "Identifies some relevant health care products but may include irrelevant or inappropriate options.",
+      "Consistently identifies relevant health care products suitable for the decision-making process.",
+      "Identifies a wide range of relevant health care products, demonstrating a solid understanding of their applications.",
+      "Identifies and evaluates a comprehensive range of health care products, demonstrating expertise in selecting the most suitable options."
+    ],
+    [
+      "Unable to apply any information or criteria when selecting health care products.",
+      "Applies information inconsistently or inappropriately when selecting health care products.",
+      "Applies basic information when selecting health care products but misses key considerations.",
+      "Applies relevant information and criteria when selecting health care products, demonstrating sound judgment.",
+      "Thoroughly applies relevant information and criteria when selecting health care products, justifying choices effectively.",
+      "Demonstrates a sophisticated ability to integrate and apply complex information when selecting health care products, optimizing the decision-making process."
+    ],
+    [
+      "Fails to consider consequences when selecting health care products.",
+      "Demonstrates minimal awareness of consequences; unable to articulate potential outcomes.",
+      "Considers some consequences but may overlook important factors.",
+      "Considers potential consequences when selecting health care products, demonstrating responsible decision-making.",
+      "Thoroughly evaluates potential consequences, including both positive and negative outcomes.",
+      "Demonstrates exceptional foresight by anticipating and evaluating a wide range of consequences, making well-informed choices."
+    ]
+  ]
+}

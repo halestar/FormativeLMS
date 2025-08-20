@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Temporal Ordering",
+    "Use of Calendar",
+    "Understanding of Temporal Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of temporal order and cannot place events in the correct sequence.",
+      "Student struggles to place events in temporal order; demonstrates significant errors in sequencing.",
+      "Student demonstrates a limited ability to place events in temporal order; makes frequent errors.",
+      "Student demonstrates a moderate ability to place events in temporal order; makes some errors.",
+      "Student accurately places most events in temporal order with minimal errors.",
+      "Student accurately places all events in temporal order, demonstrating a comprehensive understanding of chronology."
+    ],
+    [
+      "Student does not attempt to use a calendar or any time-measuring instrument.",
+      "Student attempts to use a calendar but is unable to interpret or apply it correctly.",
+      "Student uses the calendar with frequent errors; misinterprets days, weeks, or months.",
+      "Student uses the calendar with some errors; misinterprets days, weeks, or months.",
+      "Student uses a calendar effectively with minimal errors; can place events on a timeline.",
+      "Student uses a calendar flawlessly, accurately placing events and dates in temporal order, and using it to show relationships between events."
+    ],
+    [
+      "Student does not demonstrate any understanding of the relationship between days, weeks, and months.",
+      "Student demonstrates a basic understanding of the relationship between days, weeks, and months but struggles to apply it.",
+      "Student demonstrates a limited understanding of the relationship between days, weeks, and months; makes frequent errors.",
+      "Student demonstrates a moderate understanding of the relationship between days, weeks, and months; makes some errors.",
+      "Student demonstrates a solid understanding of the relationship between days, weeks, and months with minimal errors.",
+      "Student demonstrates a comprehensive understanding of the relationship between days, weeks, and months, accurately placing events on a timeline and connecting them."
+    ]
+  ]
+}

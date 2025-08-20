@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Situations Requiring Caring vs. Adult Intervention",
+    "Analysis of Potential Consequences",
+    "Justification of Chosen Course of Action"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to differentiate between situations requiring peer caring and those needing adult intervention.",
+      "Student demonstrates minimal ability to distinguish between situations, with significant misunderstandings.",
+      "Student can identify some differences between situations but struggles to articulate clear distinctions or rationales.",
+      "Student can generally differentiate between situations requiring caring and those needing adult intervention, providing basic rationales.",
+      "Student effectively analyzes situations, clearly distinguishing between the need for peer caring and adult intervention with sound reasoning.",
+      "Student demonstrates exceptional analytical skills, providing nuanced explanations for when peer caring is appropriate versus when adult intervention is necessary, considering various contextual factors."
+    ],
+    [
+      "Student does not consider the consequences of either acting alone or seeking adult help.",
+      "Student mentions consequences superficially, without detailed consideration.",
+      "Student identifies some consequences but does not fully analyze their potential impact.",
+      "Student analyzes potential consequences of both caring and seeking adult help, linking actions to outcomes.",
+      "Student thoroughly analyzes a range of potential consequences, demonstrating a strong understanding of possible impacts.",
+      "Student provides insightful and comprehensive analysis of consequences, weighing short-term and long-term impacts and considering various perspectives."
+    ],
+    [
+      "Student provides no justification for a chosen course of action.",
+      "Student's justification is unclear, illogical, or unsupported.",
+      "Student provides a weak or incomplete justification with limited reasoning.",
+      "Student justifies their chosen course of action with adequate reasoning and support.",
+      "Student provides a well-reasoned and logical justification, supported by evidence and thoughtful consideration.",
+      "Student offers a compelling and insightful justification, demonstrating a deep understanding of the situation and the rationale behind their choice."
+    ]
+  ]
+}

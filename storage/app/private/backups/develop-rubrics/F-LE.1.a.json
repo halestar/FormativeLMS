@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Linear Functions",
+    "Understanding of Exponential Functions",
+    "Distinguishing Between Linear and Exponential Models",
+    "Mathematical Proof and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of linear functions or their growth patterns.",
+      "Student shows limited understanding of linear functions; struggles to identify equal differences over equal intervals.",
+      "Student demonstrates basic understanding of linear functions but needs prompting to explain equal differences over equal intervals.",
+      "Student demonstrates satisfactory understanding of linear functions and can explain equal differences over equal intervals with minor errors.",
+      "Student demonstrates strong understanding of linear functions and can accurately explain equal differences over equal intervals.",
+      "Student demonstrates excellent understanding of linear functions, clearly articulating and proving the concept of equal differences over equal intervals with mathematical precision."
+    ],
+    [
+      "Student does not demonstrate understanding of exponential functions or their growth patterns.",
+      "Student shows limited understanding of exponential functions; struggles to identify equal factors over equal intervals.",
+      "Student demonstrates basic understanding of exponential functions but needs prompting to explain equal factors over equal intervals.",
+      "Student demonstrates satisfactory understanding of exponential functions and can explain equal factors over equal intervals with minor errors.",
+      "Student demonstrates strong understanding of exponential functions and can accurately explain equal factors over equal intervals.",
+      "Student demonstrates excellent understanding of exponential functions, clearly articulating and proving the concept of equal factors over equal intervals with mathematical precision."
+    ],
+    [
+      "Student cannot distinguish between linear and exponential situations.",
+      "Student struggles to differentiate between linear and exponential situations, with frequent errors.",
+      "Student can differentiate between linear and exponential situations with significant prompting.",
+      "Student can usually differentiate between linear and exponential situations, but makes occasional errors.",
+      "Student consistently differentiates between linear and exponential situations with clear explanations.",
+      "Student expertly differentiates between linear and exponential situations, providing comprehensive justifications based on growth patterns."
+    ],
+    [
+      "Student provides no mathematical proof or justification for growth patterns.",
+      "Student attempts to provide proof but demonstrates significant errors in reasoning or calculation.",
+      "Student provides rudimentary proof with some gaps in logic or mathematical accuracy.",
+      "Student provides adequate proof with minor errors or omissions.",
+      "Student provides strong mathematical proof to support claims about linear and exponential growth.",
+      "Student provides rigorous, clear, and mathematically sound proof to support claims, demonstrating deep understanding of underlying principles."
+    ]
+  ]
+}

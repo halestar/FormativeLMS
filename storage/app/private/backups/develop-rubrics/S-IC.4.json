@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately estimate a population mean or proportion from sample survey data.",
+    "Competence in developing a margin of error using simulation models for random sampling.",
+    "Understanding of the limitations and assumptions in using sample data to make inferences about a population."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to estimate the population mean or proportion.",
+      "Attempts to estimate, but the method used is inappropriate or contains significant errors.",
+      "Estimates the population mean or proportion with some errors in calculation or application of the method.",
+      "Estimates the population mean or proportion reasonably well, with only minor errors.",
+      "Accurately estimates the population mean or proportion from the sample data using appropriate methods.",
+      "Accurately estimates the population mean or proportion and justifies the choice of method with clear reasoning."
+    ],
+    [
+      "No attempt to develop a margin of error.",
+      "Attempts to develop a margin of error, but the simulation model is inappropriate or poorly executed.",
+      "Develops a margin of error using simulation, but there are errors in the model or interpretation of results.",
+      "Develops a reasonable margin of error using simulation, with only minor flaws in the model or interpretation.",
+      "Effectively develops a margin of error using appropriate simulation models for random sampling.",
+      "Develops a margin of error with a sophisticated simulation model and clearly explains the implications of the margin of error in context."
+    ],
+    [
+      "Shows no awareness of the limitations or assumptions involved in making inferences.",
+      "Demonstrates limited understanding of the limitations and assumptions.",
+      "Acknowledges some limitations and assumptions, but does not fully explain their impact.",
+      "Understands and explains most of the important limitations and assumptions.",
+      "Clearly articulates the key limitations and assumptions and how they affect the reliability of the inferences.",
+      "Provides a comprehensive analysis of the limitations and assumptions, including strategies to mitigate their impact on the validity of the conclusions."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Ratios and Proportional Relationships",
+    "Application to Real-World Problems",
+    "Use of Mathematical Representations (Tables, Diagrams, Equations)",
+    "Percent Calculations and Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of ratios, rates, or proportional relationships.",
+      "Student shows minimal understanding; struggles to identify ratios or set up proportions.",
+      "Student demonstrates some understanding of ratios and proportions but makes frequent errors in calculations and problem-solving.",
+      "Student can correctly set up and solve basic ratio and proportion problems but struggles with more complex scenarios.",
+      "Student demonstrates a strong understanding of ratios and proportions, accurately solving most problems, including those with multiple steps.",
+      "Student demonstrates a comprehensive understanding of ratios and proportions, solving complex problems efficiently and accurately, and can explain their reasoning clearly."
+    ],
+    [
+      "Student is unable to apply ratio and rate reasoning to real-world problems.",
+      "Student struggles to connect ratio concepts to real-world scenarios; attempts are unsuccessful or irrelevant.",
+      "Student can identify some real-world applications but struggles to set up and solve the problems accurately.",
+      "Student can solve some real-world problems involving ratios and rates but may require guidance or make occasional errors.",
+      "Student can apply ratio and rate reasoning to solve a variety of real-world problems with accuracy and efficiency.",
+      "Student consistently and accurately applies ratio and rate reasoning to solve complex, real-world problems and can explain the implications of their solutions."
+    ],
+    [
+      "Student does not use tables, diagrams, or equations to represent or solve ratio problems.",
+      "Student attempts to use mathematical representations but does so incorrectly or ineffectively.",
+      "Student can create basic tables, diagrams, or equations but struggles to use them to solve problems accurately.",
+      "Student uses tables, diagrams, and equations to solve ratio problems but may make errors or require assistance.",
+      "Student effectively uses tables, diagrams, and equations to accurately solve a variety of ratio problems.",
+      "Student skillfully and creatively uses tables, diagrams, and equations to solve complex ratio problems and can explain the connections between different representations."
+    ],
+    [
+      "Student demonstrates no understanding of percent concepts.",
+      "Student struggles to calculate percentages or solve basic percent problems.",
+      "Student can calculate simple percentages but makes frequent errors in more complex problems.",
+      "Student can find a percent of a quantity and solve basic percent problems but struggles with finding the whole given a part and the percent.",
+      "Student can accurately solve a variety of percent problems, including finding the whole given a part and the percent.",
+      "Student demonstrates a comprehensive understanding of percent concepts, solving complex percent problems efficiently and accurately, and can explain the underlying principles."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to define variables to represent unknown quantities in real-world or mathematical problems.",
+    "Skill in writing algebraic expressions that accurately model real-world or mathematical scenarios.",
+    "Understanding that a variable can represent a specific unknown or any number within a defined set."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to define variables or representation is unclear.",
+      "Defines variables, but the connection to the problem is vague or incorrect.",
+      "Defines variables, but with minor inaccuracies or lack of clarity.",
+      "Clearly defines variables, accurately representing quantities in the problem.",
+      "Clearly and precisely defines variables, demonstrating a strong understanding of their role in the problem.",
+      "Clearly, precisely, and insightfully defines variables, demonstrating a comprehensive understanding of their role in the problem and potential variations."
+    ],
+    [
+      "No attempt to write an expression, or the expression is completely irrelevant.",
+      "Attempts to write an expression, but it contains significant errors or omissions.",
+      "Writes an expression with some accuracy, but contains minor errors or lacks precision.",
+      "Writes an accurate expression that correctly models the scenario.",
+      "Writes a precise and accurate expression, demonstrating a strong grasp of algebraic representation.",
+      "Writes an insightful and nuanced expression, demonstrating a comprehensive understanding and ability to manipulate the expression for further analysis."
+    ],
+    [
+      "Demonstrates no understanding of the variable's role or its possible values.",
+      "Shows a limited understanding of the variable, struggling to identify its possible values or role.",
+      "Understands that a variable can represent a number, but struggles with specific vs. general representation.",
+      "Understands and clearly explains that a variable can represent an unknown number or a value within a specified set.",
+      "Demonstrates a strong understanding of the dual nature of variables and can explain with examples.",
+      "Demonstrates a comprehensive and nuanced understanding of the flexibility of variables, explaining implications and providing sophisticated examples."
+    ]
+  ]
+}

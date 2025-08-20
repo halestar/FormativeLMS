@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of How Organisms Change the Environment",
+    "Quality of Evidence Supporting Argument",
+    "Understanding of Earth Systems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of how plants, animals, or humans can change the environment.",
+      "The student shows a minimal understanding, with vague or inaccurate statements about how organisms change the environment.",
+      "The student identifies that organisms can change the environment but provides limited examples or explanations.",
+      "The student provides several examples of how organisms change the environment but lacks detailed explanations of the mechanisms.",
+      "The student thoroughly explains how organisms change the environment, providing specific examples and clear explanations of the cause-and-effect relationships.",
+      "The student demonstrates a comprehensive understanding of how various organisms (plants, animals, and humans) can significantly alter their environment, providing detailed examples and insightful analysis of the ecological impacts."
+    ],
+    [
+      "The student provides no evidence or the evidence provided is irrelevant to the claim.",
+      "The student provides minimal evidence that is weak or loosely related to the claim.",
+      "The student provides some evidence to support the claim, but the evidence is not always clear or convincing.",
+      "The student provides relevant evidence to support the claim, but the explanation connecting the evidence to the claim is superficial.",
+      "The student provides strong evidence to support the claim and clearly explains how the evidence supports the argument.",
+      "The student presents compelling evidence, thoroughly analyzed, to support a sophisticated argument, demonstrating a deep understanding of the environmental changes caused by organisms."
+    ],
+    [
+      "The student shows no understanding of Earth systems or their interconnectedness.",
+      "The student's understanding of Earth systems is very limited and unclear.",
+      "The student identifies basic components of Earth systems but does not explain their interactions.",
+      "The student describes some interactions within Earth systems but lacks detail and comprehensive understanding.",
+      "The student explains how changes caused by organisms affect different Earth systems and their interactions.",
+      "The student demonstrates a sophisticated understanding of Earth systems, thoroughly explaining the complex interactions and cascading effects of organism-induced environmental changes across multiple systems."
+    ]
+  ]
+}

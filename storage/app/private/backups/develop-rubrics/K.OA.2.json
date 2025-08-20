@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in solving addition word problems",
+    "Accuracy in solving subtraction word problems",
+    "Use of objects or drawings to represent and solve problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely incorrect solutions to addition word problems.",
+      "Rarely solves addition word problems correctly; demonstrates little to no understanding of addition concepts.",
+      "Sometimes solves addition word problems correctly; shows some understanding of addition but makes frequent errors.",
+      "Generally solves addition word problems correctly; demonstrates a good understanding of addition concepts with occasional errors.",
+      "Consistently solves addition word problems correctly; demonstrates a strong understanding of addition concepts with minimal errors.",
+      "Masterfully solves addition word problems correctly and efficiently; demonstrates a comprehensive understanding of addition concepts and can apply them to novel situations."
+    ],
+    [
+      "No attempt or completely incorrect solutions to subtraction word problems.",
+      "Rarely solves subtraction word problems correctly; demonstrates little to no understanding of subtraction concepts.",
+      "Sometimes solves subtraction word problems correctly; shows some understanding of subtraction but makes frequent errors.",
+      "Generally solves subtraction word problems correctly; demonstrates a good understanding of subtraction concepts with occasional errors.",
+      "Consistently solves subtraction word problems correctly; demonstrates a strong understanding of subtraction concepts with minimal errors.",
+      "Masterfully solves subtraction word problems correctly and efficiently; demonstrates a comprehensive understanding of subtraction concepts and can apply them to novel situations."
+    ],
+    [
+      "Does not use objects or drawings, or the representations are irrelevant to the problem.",
+      "Attempts to use objects or drawings, but the representations are unclear, inaccurate, or do not aid in solving the problem.",
+      "Uses objects or drawings with limited effectiveness; representations are sometimes unclear or inaccurate.",
+      "Uses objects or drawings effectively to represent the problem, but the representations may lack detail or precision.",
+      "Uses clear and accurate objects or drawings to effectively represent and solve the problem; representations are well-organized and easy to understand.",
+      "Masterfully uses objects or drawings to represent and solve problems with exceptional clarity, precision, and insight; demonstrates a deep understanding of how representations can aid problem-solving."
+    ]
+  ]
+}

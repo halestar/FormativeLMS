@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Geographic Descriptions",
+    "Effective Use of Maps, Tables, Graphs, Photographs, and Charts",
+    "Organization and Clarity of Information",
+    "Demonstration of Spatial Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No geographic descriptions are provided or are completely inaccurate.",
+      "Provides minimal geographic descriptions with significant inaccuracies.",
+      "Describes some geographic features and human elements, but with noticeable inaccuracies.",
+      "Describes the physical and human geography with reasonable accuracy.",
+      "Provides accurate and detailed descriptions of physical and human geography, demonstrating good understanding.",
+      "Provides comprehensive and insightful descriptions of physical and human geography, demonstrating excellent understanding and nuanced detail."
+    ],
+    [
+      "No maps, tables, graphs, photographs or charts are used.",
+      "Uses maps, tables, graphs, photographs or charts ineffectively or inappropriately.",
+      "Uses some maps, tables, graphs, photographs or charts, but they are not well-integrated or explained.",
+      "Uses maps, tables, graphs, photographs or charts to support information, but the connection could be stronger.",
+      "Effectively integrates maps, tables, graphs, photographs or charts to organize and present information clearly.",
+      "Masterfully uses a variety of maps, tables, graphs, photographs or charts to present information in a compelling and insightful manner."
+    ],
+    [
+      "Information is disorganized and unclear.",
+      "Information is poorly organized and difficult to follow.",
+      "Information is somewhat organized but lacks clarity in places.",
+      "Information is organized and presented in a generally clear manner.",
+      "Information is well-organized and clearly presented, enhancing understanding.",
+      "Information is exceptionally well-organized and presented with outstanding clarity, providing profound insight."
+    ],
+    [
+      "Fails to demonstrate understanding of spatial context.",
+      "Demonstrates a very limited understanding of spatial context.",
+      "Shows some awareness of spatial context, but the connection is weak.",
+      "Connects information to spatial context in a basic way.",
+      "Clearly demonstrates understanding of spatial context and its relevance.",
+      "Demonstrates a deep and nuanced understanding of spatial context, offering insightful connections and implications."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Conciseness: How clearly and concisely the student conveys critical information.",
+    "Accuracy and Relevance: The accuracy and relevance of the information provided in the emergency situation.",
+    "Use of Appropriate Language and Tone: How appropriate their language and tone are for the emergency context.",
+    "Active Listening and Responsiveness: How well the student listens to and responds to instructions or questions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Communication is unclear, disorganized, and lacks essential information. The message is confusing and ineffective.",
+      "Communication is somewhat unclear and lacks focus. Important information is missing or difficult to understand. The message is partially effective.",
+      "Communication is generally clear but could be more concise. Most important information is present, but some details are vague. The message is moderately effective.",
+      "Communication is clear and concise, conveying essential information accurately. The message is effective and easy to understand.",
+      "Communication is exceptionally clear, concise, and well-organized. All critical information is conveyed with precision and confidence. The message is highly effective and leaves no room for ambiguity.",
+      "Communication is exceptionally clear, concise, and persuasive, leaving no room for misinterpretation. Demonstrates expert-level ability to prioritize and convey crucial information under pressure, maximizing the impact of the message."
+    ],
+    [
+      "Information provided is inaccurate, irrelevant, or misleading, potentially exacerbating the emergency.",
+      "Information provided contains inaccuracies or irrelevant details that could hinder effective response.",
+      "Information provided is mostly accurate and relevant, but some minor inaccuracies or omissions are present.",
+      "Information provided is accurate, relevant, and directly applicable to the emergency situation.",
+      "Information provided is highly accurate, relevant, and comprehensive, demonstrating a strong understanding of the emergency and its context.",
+      "Information provided is exceptionally accurate, relevant, and insightful, demonstrating expert-level awareness and ability to anticipate needs and provide critical details that significantly enhance the effectiveness of the emergency response."
+    ],
+    [
+      "Language and tone are inappropriate for an emergency, displaying panic, aggression, or indifference.",
+      "Language and tone are somewhat inappropriate, displaying mild anxiety or uncertainty.",
+      "Language and tone are generally appropriate, but there may be some moments of uncertainty or hesitation.",
+      "Language and tone are appropriate and convey a sense of calm and control.",
+      "Language and tone are highly appropriate, demonstrating empathy, reassurance, and confidence.",
+      "Language and tone are exceptionally appropriate, demonstrating composure, authority, and the ability to instill calm and confidence in others while clearly conveying critical information."
+    ],
+    [
+      "Fails to listen to or respond to instructions or questions, hindering effective communication.",
+      "Struggles to listen to or respond to instructions or questions, leading to misunderstandings.",
+      "Listens to and responds to instructions or questions, but may miss some important details.",
+      "Actively listens to and responds to instructions or questions, demonstrating comprehension and cooperation.",
+      "Actively listens to and responds to instructions or questions with insightful and thoughtful answers.",
+      "Demonstrates exceptional active listening skills and responsiveness, anticipating needs and providing proactive support and clarification, optimizing communication and coordination in the emergency situation."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Landmark Supreme Court Cases: Assesses the student's comprehension of significant Supreme Court decisions related to the Bill of Rights and the Fourteenth Amendment.",
+    "Explanation of Changing Interpretations: Evaluates the student's ability to explain how interpretations of the Bill of Rights and Fourteenth Amendment have evolved over time.",
+    "Application to Basic Freedoms: Assesses the student's ability to apply Supreme Court interpretations to the basic freedoms (religion, speech, press, etc.) and the due process\/equal protection clauses."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of landmark Supreme Court cases or their interpretations.",
+      "Shows minimal understanding of landmark Supreme Court cases, with significant inaccuracies or omissions.",
+      "Displays a basic understanding of a few landmark Supreme Court cases, but struggles to explain their interpretations or relevance.",
+      "Demonstrates a satisfactory understanding of several landmark Supreme Court cases and can generally explain their interpretations.",
+      "Exhibits a strong understanding of multiple landmark Supreme Court cases, accurately explaining their interpretations and relevance to the Bill of Rights and Fourteenth Amendment.",
+      "Demonstrates a comprehensive and nuanced understanding of numerous landmark Supreme Court cases, expertly explaining their interpretations, historical context, and ongoing relevance to contemporary issues."
+    ],
+    [
+      "Unable to explain how interpretations of the Bill of Rights and Fourteenth Amendment have changed over time.",
+      "Offers a vague or inaccurate explanation of how interpretations have changed, with little supporting evidence.",
+      "Provides a limited explanation of how interpretations have changed, focusing on only one or two aspects without much detail.",
+      "Explains several ways in which interpretations have changed over time, providing some supporting evidence.",
+      "Clearly and thoroughly explains how interpretations have changed, providing specific examples and historical context.",
+      "Provides a sophisticated and insightful analysis of how interpretations have changed, demonstrating a deep understanding of the legal, social, and political factors that have influenced these changes."
+    ],
+    [
+      "Unable to apply Supreme Court interpretations to basic freedoms or the due process\/equal protection clauses.",
+      "Attempts to apply interpretations but demonstrates significant misunderstandings or inaccuracies.",
+      "Applies interpretations to one or two basic freedoms or clauses, but with limited accuracy or depth.",
+      "Applies interpretations to several basic freedoms and clauses, demonstrating a general understanding.",
+      "Accurately and effectively applies interpretations to multiple basic freedoms and clauses, providing clear examples.",
+      "Demonstrates a masterful ability to apply interpretations to a wide range of basic freedoms and clauses, providing nuanced examples and insightful analysis of complex legal issues."
+    ]
+  ]
+}

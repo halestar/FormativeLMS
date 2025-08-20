@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Mitosis Representation",
+    "Accuracy of Differentiation Representation",
+    "Clarity of Explanations",
+    "Use of Visuals"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model does not accurately represent the stages of mitosis or contains significant errors in the process.",
+      "The model has major inaccuracies in the depiction of mitosis.",
+      "The model represents some stages of mitosis correctly, but contains a few inaccuracies or omissions.",
+      "The model mostly accurately represents the stages of mitosis, with only minor inaccuracies.",
+      "The model accurately represents the stages of mitosis with clear and correct depictions of chromosome behavior.",
+      "The model flawlessly represents the stages of mitosis, clearly showing chromosome behavior and including details like spindle fibers and centrioles."
+    ],
+    [
+      "The model does not accurately represent the process of cell differentiation or contains significant errors in the explanation.",
+      "The model has major inaccuracies in the depiction of cell differentiation.",
+      "The model represents some aspects of cell differentiation correctly, but contains a few inaccuracies or omissions.",
+      "The model mostly accurately represents cell differentiation, with only minor inaccuracies.",
+      "The model accurately represents cell differentiation, providing a clear and correct explanation of how cells specialize.",
+      "The model flawlessly represents cell differentiation, clearly explaining how genetic information leads to specialized cell structure and function."
+    ],
+    [
+      "The explanation of the model is unclear, incomplete, or contains significant misconceptions.",
+      "The explanation is difficult to understand and lacks key details.",
+      "The explanation covers some aspects of the processes but lacks depth or clarity.",
+      "The explanation is mostly clear and provides a reasonable understanding of mitosis and differentiation.",
+      "The explanation is clear, concise, and provides a strong understanding of how mitosis and differentiation contribute to complex organisms.",
+      "The explanation is exceptionally clear, thoroughly explaining the processes and their significance in maintaining complex organisms, and demonstrates a deep understanding of the material."
+    ],
+    [
+      "The model lacks visuals or the visuals are confusing and detract from understanding.",
+      "The visuals are poorly designed and do not effectively support the explanation.",
+      "The visuals are adequate but could be improved for clarity and effectiveness.",
+      "The visuals are clear and helpful in understanding the processes of mitosis and differentiation.",
+      "The visuals are well-designed, clearly labeled, and effectively support the explanation of the processes.",
+      "The visuals are exceptional, enhancing understanding through detailed and accurate representations, and are integral to the overall effectiveness of the model."
+    ]
+  ]
+}

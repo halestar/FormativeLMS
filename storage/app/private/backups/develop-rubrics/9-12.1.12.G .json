@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Condom and Contraceptive Effectiveness",
+    "Evaluation of Safety and Effectiveness (Success\/Failure Rates)",
+    "Application to Prevention of HIV, STDs, and Pregnancy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the effectiveness or safety of condoms or other contraceptives.",
+      "Student demonstrates minimal understanding of the effectiveness or safety of condoms or other contraceptives; information is largely inaccurate or incomplete.",
+      "Student demonstrates a basic understanding of the effectiveness and safety of condoms and other contraceptives but lacks detail or accuracy in some areas.",
+      "Student demonstrates a satisfactory understanding of the effectiveness and safety of condoms and other contraceptives, with minor inaccuracies or omissions.",
+      "Student demonstrates a strong understanding of the effectiveness and safety of condoms and other contraceptives, providing accurate and detailed information.",
+      "Student demonstrates a comprehensive and nuanced understanding of the effectiveness and safety of condoms and other contraceptives, including success and failure rates, with insightful analysis."
+    ],
+    [
+      "Student does not attempt to evaluate the safety and effectiveness of condoms or other contraceptives.",
+      "Student attempts to evaluate safety and effectiveness but provides little to no evidence or inaccurate information.",
+      "Student offers a limited evaluation of safety and effectiveness with some reference to success and failure rates, but lacks depth.",
+      "Student provides a moderate evaluation of safety and effectiveness, referencing success and failure rates with reasonable accuracy.",
+      "Student provides a thorough evaluation of safety and effectiveness, accurately citing success and failure rates with supporting evidence.",
+      "Student provides an exceptionally thorough and critical evaluation of safety and effectiveness, including a detailed analysis of success and failure rates with comprehensive supporting evidence and insightful comparisons."
+    ],
+    [
+      "Student does not connect the information to the prevention of HIV, other STDs, or pregnancy.",
+      "Student makes a minimal or unclear connection between the information and the prevention of HIV, other STDs, or pregnancy.",
+      "Student makes a basic connection between the information and the prevention of HIV, other STDs, and pregnancy but lacks detail.",
+      "Student clearly connects the information to the prevention of HIV, other STDs, and pregnancy, providing some relevant details.",
+      "Student effectively connects the information to the prevention of HIV, other STDs, and pregnancy, providing detailed and accurate information.",
+      "Student expertly connects the information to the prevention of HIV, other STDs, and pregnancy, providing comprehensive, nuanced, and insightful explanations."
+    ]
+  ]
+}

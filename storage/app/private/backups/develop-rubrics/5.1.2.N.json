@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identification of Serving Size and Servings Per Container",
+    "Understanding and Identification of Calories",
+    "Understanding and Identification of Macronutrients (Total Fat, Cholesterol, Sodium, Total Carbohydrate, Protein)",
+    "Understanding and Identification of Micronutrients (Vitamins and Minerals)",
+    "Percent Daily Value (%DV) Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify serving size or servings per container.",
+      "Incorrectly identifies serving size and servings per container.",
+      "Identifies either serving size or servings per container correctly.",
+      "Correctly identifies serving size and servings per container but does not explain the importance of this information.",
+      "Correctly identifies serving size and servings per container and explains the importance of managing intake based on these values.",
+      "Correctly identifies serving size and servings per container, explains the importance, and provides an example of how serving size impacts overall nutritional intake."
+    ],
+    [
+      "Does not identify calories information.",
+      "Incorrectly identifies calorie information.",
+      "Identifies calorie information but does not explain its relevance.",
+      "Correctly identifies calorie information and explains its general relevance to energy intake.",
+      "Correctly identifies calorie information and explains its relevance to energy balance and weight management.",
+      "Correctly identifies calorie information, explains its relevance to energy balance, and relates it to personal dietary needs or goals."
+    ],
+    [
+      "Does not identify any macronutrients.",
+      "Identifies only one macronutrient incorrectly.",
+      "Correctly identifies at least two macronutrients without explaining their roles.",
+      "Correctly identifies at least three macronutrients and briefly describes their roles in the body.",
+      "Correctly identifies all macronutrients and explains their roles in the body.",
+      "Correctly identifies all macronutrients, explains their roles, and discusses the importance of balanced macronutrient intake."
+    ],
+    [
+      "Does not identify any micronutrients.",
+      "Identifies at least one micronutrient incorrectly.",
+      "Correctly identifies at least one micronutrient without explaining their roles.",
+      "Correctly identifies at least two micronutrients and briefly describes their roles in the body.",
+      "Correctly identifies at least three micronutrients and explains their roles in the body.",
+      "Correctly identifies several key micronutrients, explains their roles, and relates their importance to overall health."
+    ],
+    [
+      "Does not identify or attempt to interpret %DV.",
+      "Incorrectly identifies %DV or provides an inaccurate interpretation.",
+      "Identifies %DV but does not explain its meaning.",
+      "Explains that %DV indicates how much of a nutrient is in a single serving, as part of a daily diet.",
+      "Explains that %DV is based on a 2,000 calorie diet and explains the general guidelines (e.g., 5% or less is low, 20% or more is high).",
+      "Explains %DV, interprets its meaning, and can use it to make informed decisions about nutrient intake in the context of a balanced diet."
+    ]
+  ]
+}

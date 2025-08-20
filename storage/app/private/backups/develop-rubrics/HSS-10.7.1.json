@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Causes of the Russian Revolution",
+    "Understanding the Consequences of the Russian Revolution",
+    "Understanding of Lenin's Use of Totalitarian Means",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the causes of the Russian Revolution.",
+      "Identifies only one or two causes of the Russian Revolution with limited accuracy.",
+      "Identifies some causes of the Russian Revolution but lacks depth and detail.",
+      "Explains several causes of the Russian Revolution with reasonable accuracy and detail.",
+      "Clearly explains the main causes of the Russian Revolution, providing supporting details.",
+      "Provides a comprehensive analysis of the multiple interacting causes of the Russian Revolution, demonstrating deep understanding."
+    ],
+    [
+      "Demonstrates no understanding of the consequences of the Russian Revolution.",
+      "Identifies only one or two consequences of the Russian Revolution with limited accuracy.",
+      "Identifies some consequences of the Russian Revolution but lacks depth and detail.",
+      "Explains several consequences of the Russian Revolution with reasonable accuracy and detail.",
+      "Clearly explains the main consequences of the Russian Revolution, providing supporting details.",
+      "Provides a comprehensive analysis of the multiple interacting consequences of the Russian Revolution, demonstrating deep understanding."
+    ],
+    [
+      "Demonstrates no understanding of Lenin's methods for seizing and maintaining control.",
+      "Mentions Lenin's name but shows no understanding of his totalitarian tactics.",
+      "Identifies one or two of Lenin's methods with limited accuracy.",
+      "Explains some of Lenin's methods, such as the use of the Gulag, with reasonable accuracy.",
+      "Clearly explains multiple methods Lenin used to seize and maintain control, providing supporting details.",
+      "Provides a comprehensive analysis of Lenin's totalitarian methods, explaining their impact on Russian society."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat unclear and disorganized.",
+      "Response is understandable but could be better organized.",
+      "Response is generally clear and organized.",
+      "Response is clear, well-organized, and easy to follow.",
+      "Response is exceptionally clear, logically organized, and demonstrates sophisticated communication skills."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Healthy Expressions of Affection",
+    "Understanding of 'Healthy'",
+    "Variety and Appropriateness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to list any healthy ways to express affection, love, friendship, or concern.",
+      "The student lists one unhealthy way to express affection, love, friendship, or concern.",
+      "The student lists one healthy way to express affection, love, friendship, or concern.",
+      "The student lists two healthy ways to express affection, love, friendship, or concern, but they are basic and lack detail.",
+      "The student lists three or four healthy ways to express affection, love, friendship, or concern with some detail.",
+      "The student lists five or more healthy ways to express affection, love, friendship, or concern with detailed explanations and examples."
+    ],
+    [
+      "The student does not demonstrate an understanding of what makes an expression of affection, love, friendship or concern 'healthy'.",
+      "The student demonstrates a limited and\/or incorrect understanding of what makes an expression of affection, love, friendship or concern 'healthy'.",
+      "The student uses only broad and poorly-explained criteria of what makes an expression of affection, love, friendship or concern 'healthy'.",
+      "The student explains what makes an expression of affection, love, friendship or concern 'healthy', but the explanation is missing criteria.",
+      "The student adequately explains what makes an expression of affection, love, friendship or concern 'healthy'.",
+      "The student clearly and comprehensively explains what makes an expression of affection, love, friendship or concern 'healthy', going beyond the course material."
+    ],
+    [
+      "The student's list lacks variety and includes inappropriate expressions.",
+      "The student's list lacks variety and\/or includes inappropriate expressions.",
+      "The student's list has limited variety and\/or includes expressions that may be questionable in certain contexts.",
+      "The student's list demonstrates some variety, with most expressions being appropriate.",
+      "The student's list demonstrates good variety and appropriateness in different situations.",
+      "The student's list demonstrates exceptional variety, showing a nuanced understanding of appropriate expressions in diverse contexts."
+    ]
+  ]
+}

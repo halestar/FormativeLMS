@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification and Explanation of Leaders",
+    "Understanding of Cooperation and Conflict",
+    "Historical Accuracy and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify or explain the influence and achievements of any significant leaders from the time period.",
+      "The student identifies at least one significant leader but provides no explanation of their influence or achievements.",
+      "The student identifies at least one significant leader and provides a limited or vague explanation of their influence or achievements.",
+      "The student identifies at least two significant leaders and provides a basic explanation of their influence and achievements.",
+      "The student identifies at least three significant leaders and provides a clear and detailed explanation of their influence and achievements.",
+      "The student identifies multiple significant leaders, provides a thorough and insightful explanation of their influence and achievements, and connects their actions to broader historical trends."
+    ],
+    [
+      "The student demonstrates no understanding of the cooperation or conflict among American Indians and between Indian nations and new settlers.",
+      "The student mentions either cooperation or conflict but does not provide any specific examples or explanations.",
+      "The student identifies at least one instance of cooperation or conflict but provides limited details or context.",
+      "The student explains the interactions of cooperation and conflict but doesn't explain the reasons behind the interactions.",
+      "The student describes the interactions of cooperation and conflict with an understanding of the context behind these interactions.",
+      "The student analyzes the cooperation and conflict among the American Indians and between Indian nations and new settlers, relating these interactions to the actions of the leaders they identified and their long-term consequences."
+    ],
+    [
+      "The student's response contains significant historical inaccuracies or lacks any supporting evidence.",
+      "The student's response contains some historical inaccuracies or includes limited supporting evidence.",
+      "The student's response is generally accurate but lacks detailed supporting evidence.",
+      "The student's response is accurate and includes relevant supporting evidence, but the evidence is not always well-integrated.",
+      "The student's response is accurate and includes well-integrated supporting evidence from credible sources.",
+      "The student's response demonstrates a sophisticated understanding of the historical context, uses evidence persuasively, and cites sources accurately."
+    ]
+  ]
+}

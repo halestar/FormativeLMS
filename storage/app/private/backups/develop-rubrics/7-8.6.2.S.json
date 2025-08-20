@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Potential Risks",
+    "Strategies for Avoiding or Mitigating Risks",
+    "Resources and Support Systems",
+    "Action Plan for Crisis Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No risks identified; plan is absent.",
+      "Plan does not mention risk identification.",
+      "Identifies minimal potential risks with no detail or explanation.",
+      "Identifies some potential risks with basic explanations.",
+      "Identifies potential risks and explains implications.",
+      "Thoroughly identifies potential risks, explains the implications and consequences in detail."
+    ],
+    [
+      "No strategies present in plan.",
+      "Plan contains no risk mitigation strategies.",
+      "Lists only one or two strategies, that are vague or unrealistic.",
+      "Presents a few strategies, but explanations are weak or missing.",
+      "Presents clear and realistic strategies with some explanation of how to implement them.",
+      "Offers an extensive list of effective strategies and explains how to implement them with useful details."
+    ],
+    [
+      "No external resources identified.",
+      "Plan contains no support resources.",
+      "Identifies one or two resources, with minimal explanation.",
+      "Lists a few resources, but lacks detail on how to access them.",
+      "Includes clear and accessible resources with contact information and usage explanation.",
+      "Identifies a wide range of resources and support systems with detailed access information and utilization strategies."
+    ],
+    [
+      "No action plan provided.",
+      "Plan contains no crisis action plan.",
+      "Vague crisis actions, unrealistic.",
+      "Includes basic steps with missing details.",
+      "Presents clear, detailed steps for potential crisis scenarios.",
+      "Comprehensive, step-by-step crisis plan, adapted to diverse situations."
+    ]
+  ]
+}

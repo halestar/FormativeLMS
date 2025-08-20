@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Healthy Body Image",
+    "Steps to Achieve a Healthy Body Image",
+    "Strategies for Maintaining a Healthy Body Image"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes a healthy body image.",
+      "Identifies a body image, but it is inaccurate or unhealthy.",
+      "Identifies a generally healthy body image but lacks specific details.",
+      "Describes a healthy body image with some specific details, but may have minor inaccuracies.",
+      "Clearly describes a healthy body image with accurate and specific details.",
+      "Provides a comprehensive and nuanced understanding of a healthy body image, including its psychological and social dimensions."
+    ],
+    [
+      "Does not identify any steps to achieve a healthy body image.",
+      "Suggests steps that are irrelevant or detrimental to achieving a healthy body image.",
+      "Identifies one or two basic steps, such as 'exercise' or 'eat well', without elaboration.",
+      "Lists several steps, but the explanation of each step is vague or incomplete.",
+      "Explains multiple steps to achieve a healthy body image, including diet, exercise, and mental well-being.",
+      "Provides a detailed and actionable plan with personalized and sustainable steps to achieve and maintain a healthy body image, including strategies for overcoming challenges."
+    ],
+    [
+      "Does not suggest any strategies for maintaining a healthy body image over time.",
+      "Suggests strategies that are unrealistic or unsustainable.",
+      "Mentions the need for consistency but offers no concrete strategies.",
+      "Identifies strategies for maintaining a healthy body image, such as regular exercise and balanced eating.",
+      "Explains strategies for maintaining a healthy body image, including self-compassion and positive self-talk.",
+      "Presents a comprehensive set of strategies for maintaining a healthy body image, including relapse prevention, social support, and continuous self-assessment and adjustment."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to translate word problems into algebraic equations or inequalities.",
+    "Skill in solving equations of the form px + q = r and p(x + q) = r.",
+    "Ability to compare an algebraic solution to an arithmetic solution and identify the sequence of operations.",
+    "Accuracy and Fluency"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify variables or construct an equation\/inequality from the word problem.",
+      "Student struggles to identify variables or incorrectly sets up the equation\/inequality, showing little understanding of the relationships.",
+      "Student can identify variables, but has difficulty setting up the equation\/inequality, resulting in a flawed representation of the problem.",
+      "Student correctly identifies variables and sets up the equation\/inequality, but may have minor errors in representing the relationships.",
+      "Student accurately translates the word problem into an algebraic equation\/inequality, demonstrating a strong understanding of the relationships between quantities.",
+      "Student flawlessly translates the word problem into an algebraic equation\/inequality, demonstrating a sophisticated understanding of the relationships and can explain the reasoning clearly."
+    ],
+    [
+      "Student is unable to attempt solving the equation or demonstrates no understanding of how to isolate the variable.",
+      "Student attempts to solve the equation, but makes significant errors in applying algebraic operations.",
+      "Student can perform some correct algebraic operations, but struggles to isolate the variable and arrives at an incorrect solution.",
+      "Student solves the equation with minor errors, demonstrating a general understanding of algebraic principles.",
+      "Student solves the equation correctly and efficiently, demonstrating a solid understanding of algebraic principles.",
+      "Student solves the equation correctly and efficiently, demonstrating a deep understanding of algebraic principles. Student can explain the steps and reasoning in a clear and concise manner."
+    ],
+    [
+      "Student cannot provide an arithmetic solution or compare it to the algebraic solution.",
+      "Student attempts an arithmetic solution but cannot accurately compare it to the algebraic solution, or identify the sequence of operations in each.",
+      "Student provides a partially correct arithmetic solution but struggles to compare it to the algebraic approach effectively, or has limited understanding of the sequence of operations.",
+      "Student can provide a correct arithmetic solution and identifies some similarities and differences between the algebraic and arithmetic approaches, with some understanding of the sequence of operations.",
+      "Student can provide a correct arithmetic solution and effectively compares it to the algebraic approach, clearly identifying the sequence of operations used in each.",
+      "Student provides a correct arithmetic solution and expertly compares it to the algebraic approach, clearly and concisely identifying the sequence of operations used in each, while also discussing the efficiency and advantages\/disadvantages of each approach."
+    ],
+    [
+      "The student makes numerous errors and demonstrates a lack of fluency in solving the problem.",
+      "The student makes several errors and demonstrates limited fluency in solving the problem.",
+      "The student makes some errors and demonstrates some fluency in solving the problem.",
+      "The student makes few errors and demonstrates reasonable fluency in solving the problem.",
+      "The student makes minimal errors and demonstrates good fluency in solving the problem.",
+      "The student makes no errors and demonstrates excellent fluency in solving the problem."
+    ]
+  ]
+}

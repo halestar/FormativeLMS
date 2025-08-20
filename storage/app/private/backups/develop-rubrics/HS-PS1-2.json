@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Atomic Structure and Electron States",
+    "Application of Periodic Table Trends",
+    "Explanation of Chemical Reactions",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of atomic structure or electron states.",
+      "The student shows a limited understanding of atomic structure or electron states, with significant inaccuracies.",
+      "The student demonstrates a basic understanding of atomic structure and electron states, but struggles to connect it to chemical properties.",
+      "The student demonstrates a satisfactory understanding of atomic structure and electron states and can connect it to basic chemical properties.",
+      "The student demonstrates a strong understanding of atomic structure and electron states and can explain how they influence chemical properties.",
+      "The student demonstrates a comprehensive understanding of atomic structure and electron states and can expertly explain and predict how they influence chemical properties in various reactions."
+    ],
+    [
+      "The student does not use or reference the periodic table in their explanation.",
+      "The student attempts to use the periodic table but demonstrates a misunderstanding of its trends.",
+      "The student identifies some trends in the periodic table but struggles to apply them to explain chemical properties.",
+      "The student correctly identifies and applies basic trends in the periodic table to explain chemical properties.",
+      "The student effectively uses trends in the periodic table to explain and predict chemical properties in simple reactions.",
+      "The student expertly applies trends in the periodic table to explain and predict chemical properties in a variety of complex reactions."
+    ],
+    [
+      "The student is unable to provide any explanation for the outcome of the chemical reaction.",
+      "The student provides a vague or inaccurate explanation for the outcome of the chemical reaction.",
+      "The student provides a basic explanation for the outcome of the chemical reaction, but it lacks detail or accuracy.",
+      "The student provides a clear explanation for the outcome of the chemical reaction, based on outermost electron states and chemical properties.",
+      "The student provides a detailed and accurate explanation for the outcome of the chemical reaction, linking outermost electron states, periodic trends, and chemical properties.",
+      "The student provides a comprehensive and insightful explanation for the outcome of the chemical reaction, demonstrating a deep understanding of the underlying principles and potential variations."
+    ],
+    [
+      "The explanation is unclear, disorganized, and difficult to understand.",
+      "The explanation is somewhat unclear and disorganized, making it difficult to follow.",
+      "The explanation is generally clear but could benefit from improved organization and detail.",
+      "The explanation is clear, well-organized, and easy to understand.",
+      "The explanation is clear, concise, well-organized, and uses appropriate scientific terminology.",
+      "The explanation is exceptionally clear, concise, well-organized, and demonstrates excellent communication of scientific concepts."
+    ]
+  ]
+}

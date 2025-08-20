@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Author's Choices",
+    "Analysis of Contribution to Overall Structure and Meaning",
+    "Assessment of Aesthetic Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any author's choices related to text structure.",
+      "Identifies an author's choice but struggles to accurately describe it.",
+      "Identifies an author's choice but the description lacks detail or relevance.",
+      "Identifies and accurately describes an author's choice regarding text structure (e.g., beginning, ending, resolution).",
+      "Identifies and describes an author's choice with clear understanding and provides a relevant example from the text.",
+      "Identifies and thoroughly describes an author's choice with insightful understanding and provides a compelling example from the text."
+    ],
+    [
+      "Fails to connect the author's choice to the text's overall structure or meaning.",
+      "Attempts to connect the author's choice to the text's structure or meaning, but the connection is vague or unclear.",
+      "Connects the author's choice to either the text's overall structure or its meaning, but not both.",
+      "Analyzes how the author's choice contributes to both the text's overall structure and meaning, with a basic explanation.",
+      "Provides a well-reasoned analysis of how the author's choice significantly contributes to the text's overall structure and meaning.",
+      "Offers a sophisticated and insightful analysis of how the author's choice intricately shapes the text's overall structure and meaning, demonstrating a deep understanding of the author's craft."
+    ],
+    [
+      "Does not address the aesthetic impact of the author's choice.",
+      "Mentions the aesthetic impact of the author's choice, but the comment is superficial or irrelevant.",
+      "Attempts to describe the aesthetic impact, but the description lacks clarity or supporting evidence.",
+      "Describes the aesthetic impact (e.g., comedic, tragic) of the author's choice and its effect on the reader.",
+      "Evaluates the aesthetic impact of the author's choice with specific examples and explains its effectiveness.",
+      "Critically evaluates the aesthetic impact of the author's choice, demonstrating a nuanced understanding of its effect on the reader and the text's overall artistic merit."
+    ]
+  ]
+}

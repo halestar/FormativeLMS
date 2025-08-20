@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Technique Accuracy: Demonstrates correct brushing and flossing methods.",
+    "Rationale and Explanation: Provides clear explanations of why specific techniques are effective for oral health.",
+    "Consistency and Thoroughness: Indicates the importance of consistent and thorough oral care practices."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate or incorrectly demonstrates brushing and flossing techniques.",
+      "Demonstrates minimal understanding of brushing and flossing techniques; major errors present.",
+      "Demonstrates some understanding of brushing and flossing, but with noticeable errors.",
+      "Demonstrates a generally correct understanding of brushing and flossing techniques with minor errors.",
+      "Demonstrates accurate brushing and flossing techniques with minimal errors.",
+      "Demonstrates precise and accurate brushing and flossing techniques without any errors."
+    ],
+    [
+      "Unable to explain the rationale behind any brushing or flossing techniques.",
+      "Provides a very limited or unclear explanation of the rationale; lacks understanding.",
+      "Provides a basic explanation of the rationale, but lacks depth or detail.",
+      "Explains the rationale behind brushing and flossing techniques adequately.",
+      "Clearly explains the rationale behind brushing and flossing techniques, demonstrating a solid understanding.",
+      "Clearly and thoroughly explains the rationale behind brushing and flossing techniques, demonstrating comprehensive understanding and insight."
+    ],
+    [
+      "Does not mention or demonstrate the importance of consistent and thorough oral care.",
+      "Mentions the importance of consistent and thorough oral care superficially, lacking depth.",
+      "Acknowledges the importance of consistency and thoroughness but does not elaborate.",
+      "Discusses the importance of consistent and thorough oral care with some detail.",
+      "Clearly emphasizes the importance of consistent and thorough oral care practices.",
+      "Emphasizes the importance of consistent and thorough oral care, providing detailed explanations of the benefits and potential consequences of neglecting these practices."
+    ]
+  ]
+}

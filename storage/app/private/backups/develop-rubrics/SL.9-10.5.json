@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Selection and Relevance of Digital Media",
+    "Enhancement of Understanding",
+    "Engagement and Interest",
+    "Technical Execution and Integration"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No digital media is used or the media used is completely irrelevant to the presentation's content.",
+      "Digital media is used, but it is largely irrelevant to the presentation's content or distracts from the message.",
+      "Some digital media is used, and it has a weak connection to the presentation's content.",
+      "Digital media is generally relevant to the presentation's content, but the connection could be stronger.",
+      "Digital media is relevant and enhances the presentation's content, demonstrating a clear connection to the findings, reasoning, and evidence.",
+      "Digital media is strategically selected and seamlessly integrated to enhance understanding, reinforce key points, and add significant interest, demonstrating a strong connection to the findings, reasoning, and evidence."
+    ],
+    [
+      "The presentation lacks clarity and the use of digital media does not improve understanding.",
+      "The presentation is somewhat unclear, and the digital media fails to clarify findings, reasoning, or evidence.",
+      "The presentation is moderately clear, and digital media contributes slightly to the audience's understanding.",
+      "The presentation is clear, and digital media enhances the audience's understanding of some findings, reasoning, and evidence.",
+      "The presentation is very clear, and digital media significantly enhances the audience's understanding of the key findings, reasoning, and evidence.",
+      "The presentation is exceptionally clear, and digital media transforms the audience's understanding of complex findings, reasoning, and evidence, leaving a lasting impact."
+    ],
+    [
+      "The presentation is dull and fails to engage the audience's interest.",
+      "The presentation has minimal engagement and the use of digital media does not add interest.",
+      "The presentation has some engaging elements, but the digital media's contribution to audience interest is limited.",
+      "The presentation is generally engaging, and the digital media adds some interest for the audience.",
+      "The presentation is engaging and holds the audience's attention, and the digital media enhances the presentation's overall appeal.",
+      "The presentation is captivating and enthralls the audience, and the digital media elevates the presentation to an exceptional level of interest and memorability."
+    ],
+    [
+      "Digital media is poorly executed, distracting, or technically flawed.",
+      "Digital media is used but is poorly integrated or contains technical issues.",
+      "Digital media is adequately executed but lacks seamless integration.",
+      "Digital media is well-executed with generally smooth integration into the presentation.",
+      "Digital media is expertly executed and seamlessly integrated to enhance the presentation.",
+      "Digital media is flawlessly executed and integrated, showcasing advanced technical skills and elevating the presentation to a professional level."
+    ]
+  ]
+}

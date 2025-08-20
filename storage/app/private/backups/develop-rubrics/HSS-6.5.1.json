@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Major River Systems",
+    "Description of Physical Setting and Support for Civilization",
+    "Accuracy and Use of Geographic Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any major river systems of early India.",
+      "Identifies only one major river system but with significant inaccuracies or omissions.",
+      "Identifies two major river systems but lacks detail or contains minor inaccuracies.",
+      "Identifies major river systems (Indus, Ganges, Brahmaputra) but provides limited descriptive information.",
+      "Accurately identifies and describes the Indus and Ganges river systems, mentioning their importance.",
+      "Accurately identifies and describes the Indus, Ganges, and Brahmaputra river systems, highlighting their geographical locations and significance to the civilization."
+    ],
+    [
+      "Does not describe the physical setting or its role in supporting the civilization.",
+      "Provides a vague description of the physical setting with no connection to the rise of the civilization.",
+      "Describes the physical setting but struggles to explain how it supported the civilization's rise.",
+      "Connects some aspects of the physical setting (e.g., fertile land) to the support of the civilization but lacks depth.",
+      "Clearly describes the physical setting (river valleys, climate, resources) and explains how these elements supported the rise of the civilization.",
+      "Provides a comprehensive description of the physical setting, thoroughly explaining how factors like fertile land, water availability, and geographical protection supported the rise and sustainability of the civilization, including specific examples."
+    ],
+    [
+      "Demonstrates no understanding of geographic terms or concepts.",
+      "Uses inaccurate geographic terms or demonstrates a misunderstanding of basic concepts.",
+      "Uses some geographic terms correctly but lacks consistency.",
+      "Generally uses accurate geographic terms but may have minor errors.",
+      "Uses accurate geographic terminology appropriately and consistently.",
+      "Demonstrates sophisticated understanding of geographic terms and concepts, using them precisely and effectively to enhance descriptions and explanations."
+    ]
+  ]
+}

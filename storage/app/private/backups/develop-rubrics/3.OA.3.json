@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Solving Word Problems",
+    "Representation of Word Problems with Drawings or Equations",
+    "Use of Symbols for Unknown Numbers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or the student is unable to identify the operation needed or set up the problem.",
+      "The student attempts to solve the problem but uses the incorrect operation or sets up the problem incorrectly, leading to an inaccurate answer.",
+      "The student identifies the correct operation but makes a calculation error, or has minor issues in setting up the problem, leading to an inaccurate answer.",
+      "The student mostly solves the problem accurately, with only one minor calculation error or a slight misunderstanding of the problem's context.",
+      "The student solves the problem accurately, demonstrating a clear understanding of the relationship between quantities, with a correct setup and accurate calculations.",
+      "The student solves the problem accurately and efficiently, demonstrating a deep understanding of the relationship between quantities, using advanced strategies or multiple approaches, and can explain their reasoning clearly."
+    ],
+    [
+      "No attempt or the student does not use drawings or equations to represent the word problem.",
+      "The student attempts to use drawings or equations, but they are unclear, inaccurate, or do not correctly represent the problem's information.",
+      "The student uses drawings or equations, but there are significant errors or omissions that affect the representation of the problem.",
+      "The student mostly represents the word problem accurately with drawings or equations, with only minor errors or omissions.",
+      "The student accurately represents the word problem with clear and correct drawings or equations, demonstrating a solid understanding of the problem's information.",
+      "The student innovatively represents the word problem with drawings or equations, providing multiple representations or using them to explain the problem's solution strategy effectively."
+    ],
+    [
+      "No attempt or the student does not use symbols to represent the unknown number in the problem.",
+      "The student attempts to use a symbol, but it is used incorrectly or inconsistently, leading to confusion.",
+      "The student uses a symbol for the unknown number, but there are errors in its placement or application within the equation.",
+      "The student mostly uses symbols correctly, with only minor errors or inconsistencies.",
+      "The student consistently and correctly uses symbols to represent the unknown number in the equation, demonstrating a good understanding of algebraic representation.",
+      "The student fluently and accurately uses symbols to represent the unknown number, manipulating equations to solve the problem efficiently and can explain the meaning of the symbol in the context of the problem."
+    ]
+  ]
+}

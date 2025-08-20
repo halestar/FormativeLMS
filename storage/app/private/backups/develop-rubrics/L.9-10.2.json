@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Use of Semicolons and Conjunctive Adverbs",
+    "Use of Colons",
+    "Spelling Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to use semicolons or conjunctive adverbs.",
+      "Attempts to use semicolons or conjunctive adverbs, but usage is incorrect and frequent errors impede understanding.",
+      "Uses semicolons and conjunctive adverbs with limited success; errors are noticeable and sometimes affect clarity.",
+      "Generally uses semicolons and conjunctive adverbs correctly, with occasional errors that do not significantly impede understanding.",
+      "Uses semicolons and conjunctive adverbs correctly and effectively to link related independent clauses, enhancing sentence structure.",
+      "Masterfully uses semicolons and conjunctive adverbs to create sophisticated and clear connections between independent clauses, demonstrating a strong command of sentence structure."
+    ],
+    [
+      "Does not attempt to use colons.",
+      "Attempts to use colons, but usage is incorrect and confusing.",
+      "Uses colons with limited success; errors are noticeable, and understanding is occasionally affected.",
+      "Generally uses colons correctly to introduce lists or quotations, with only minor errors.",
+      "Uses colons correctly and effectively to introduce lists or quotations, adding clarity to the writing.",
+      "Uses colons with precision and flair to introduce lists or quotations, enhancing the overall impact and readability of the text."
+    ],
+    [
+      "Spelling errors are pervasive and severely impede understanding.",
+      "Numerous spelling errors distract the reader and often obscure meaning.",
+      "Several spelling errors are present, occasionally affecting clarity.",
+      "Few spelling errors are present; they do not significantly impede understanding.",
+      "Spelling is generally accurate with only very minor errors that do not detract from the overall quality.",
+      "Spelling is consistently accurate and demonstrates a strong command of English orthography."
+    ]
+  ]
+}

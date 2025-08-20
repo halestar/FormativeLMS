@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Dilations and Parallel Lines",
+    "Experimental Verification of Dilation Properties",
+    "Clarity and Precision in Explanations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of dilations or parallel lines.",
+      "Student shows minimal understanding of dilations and struggles to identify parallel lines after dilation.",
+      "Student can identify dilations but has difficulty explaining the relationship between the original line and its dilated image in terms of parallelism.",
+      "Student accurately identifies dilations and can describe the parallel relationship between the original line and its dilated image, but struggles with lines passing through the center.",
+      "Student accurately identifies dilations, describes the parallel relationship, and recognizes that lines passing through the center remain unchanged.",
+      "Student provides a clear and comprehensive explanation of dilations, accurately describes the parallel relationship between original and dilated lines, and explains why lines through the center are unchanged, supported by experimental verification."
+    ],
+    [
+      "Student provides no experimental verification of dilation properties.",
+      "Student attempts to provide experimental verification but makes significant errors in the process.",
+      "Student provides some experimental verification but lacks precision or clarity in their methods.",
+      "Student provides adequate experimental verification, demonstrating the properties of dilations with some accuracy.",
+      "Student provides clear and accurate experimental verification of dilation properties, showing a strong understanding of the process.",
+      "Student provides thorough, accurate, and well-documented experimental verification of dilation properties, demonstrating a deep understanding and ability to apply the concepts effectively."
+    ],
+    [
+      "Student's explanations are unclear and lack precision.",
+      "Student's explanations are difficult to understand and contain inaccuracies.",
+      "Student's explanations are somewhat clear but lack precision and detail.",
+      "Student's explanations are generally clear and precise, with minor areas for improvement.",
+      "Student's explanations are clear, precise, and easy to understand, demonstrating a solid grasp of the concepts.",
+      "Student's explanations are exceptionally clear, precise, and insightful, demonstrating a mastery of the concepts and the ability to communicate them effectively."
+    ]
+  ]
+}

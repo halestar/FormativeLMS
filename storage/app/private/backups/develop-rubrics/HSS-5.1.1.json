@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Geographical and Climatic Influences",
+    "Description of Settlements and Adaptations",
+    "Clarity and Organization of Response"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how geography and climate influenced the lives of pre-Columbian civilizations.",
+      "Demonstrates a minimal understanding of how geography and climate influenced the lives of pre-Columbian civilizations; provides limited or inaccurate information.",
+      "Demonstrates a basic understanding of how geography and climate influenced the lives of pre-Columbian civilizations; identifies a few relevant factors but lacks depth.",
+      "Demonstrates a satisfactory understanding of how geography and climate influenced the lives of pre-Columbian civilizations; provides accurate information with some details.",
+      "Demonstrates a strong understanding of how geography and climate significantly influenced the lives of pre-Columbian civilizations, including their settlement patterns, structures, and resource acquisition.",
+      "Demonstrates a comprehensive and insightful understanding of how geography and climate profoundly shaped the lives of various pre-Columbian civilizations, providing detailed examples and nuanced analysis of their adaptations."
+    ],
+    [
+      "Unable to describe any pre-Columbian settlements or their adaptations to the environment.",
+      "Provides a vague or inaccurate description of one or two pre-Columbian settlements with minimal details about their adaptations.",
+      "Describes a few pre-Columbian settlements and their adaptations with limited accuracy and detail.",
+      "Describes several pre-Columbian settlements and their adaptations to the environment with reasonable accuracy and detail, including location, structures, and resource use.",
+      "Provides detailed descriptions of multiple pre-Columbian settlements, accurately explaining how their locations, structures, and methods of obtaining food, clothing, and tools were influenced by the environment.",
+      "Offers comprehensive and insightful descriptions of a wide range of pre-Columbian settlements, demonstrating a deep understanding of their complex adaptations to diverse geographical and climatic conditions, including specific examples of their innovations and challenges."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand; lacks coherent structure and contains significant errors.",
+      "Response is somewhat unclear and disorganized; lacks a clear structure and contains several errors.",
+      "Response is generally clear but could be better organized; follows a basic structure and contains some errors.",
+      "Response is clear, well-organized, and easy to understand; follows a logical structure and contains few errors.",
+      "Response is clear, concise, and well-organized; presents information in a coherent and engaging manner with minimal errors.",
+      "Response is exceptionally clear, well-organized, and insightful; presents information in a compelling and sophisticated manner with no errors."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of safe and healthy behaviors",
+    "Offers encouragement to others engaging in safe and healthy behaviors",
+    "Uses appropriate and respectful language when encouraging others."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of safe and healthy behaviors.",
+      "Demonstrates a limited understanding of safe and healthy behaviors.",
+      "Demonstrates a basic understanding of safe and healthy behaviors.",
+      "Demonstrates a satisfactory understanding of safe and healthy behaviors.",
+      "Demonstrates a strong understanding of safe and healthy behaviors.",
+      "Demonstrates a comprehensive understanding of safe and healthy behaviors."
+    ],
+    [
+      "Does not offer encouragement to others engaging in safe and healthy behaviors.",
+      "Rarely offers encouragement to others engaging in safe and healthy behaviors.",
+      "Occasionally offers encouragement to others engaging in safe and healthy behaviors.",
+      "Offers encouragement to others engaging in safe and healthy behaviors on a regular basis.",
+      "Frequently offers encouragement to others engaging in safe and healthy behaviors.",
+      "Consistently and enthusiastically offers encouragement to others engaging in safe and healthy behaviors, acting as a positive role model."
+    ],
+    [
+      "Does not use appropriate or respectful language when attempting to encourage others; may be offensive or demeaning.",
+      "Language used is sometimes inappropriate or disrespectful.",
+      "Language is generally appropriate and respectful, but there are some lapses.",
+      "Language is consistently appropriate and respectful.",
+      "Language is consistently appropriate, respectful, and tailored to the individual and situation.",
+      "Language is exceptionally appropriate, respectful, and persuasive, effectively motivating others to adopt safe and healthy behaviors."
+    ]
+  ]
+}

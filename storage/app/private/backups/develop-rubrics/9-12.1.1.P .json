@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Importance of Personal Health Behaviors",
+    "Application of Knowledge to Real-Life Scenarios",
+    "Explanation of Specific Health Behaviors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the importance of personal health behaviors.",
+      "The student shows a minimal understanding of the importance of personal health behaviors, mentioning one or two behaviors.",
+      "The student identifies several personal health behaviors but struggles to explain their importance.",
+      "The student discusses personal health behaviors and provides a basic explanation of their importance.",
+      "The student clearly explains the importance of actively managing personal health behaviors and provides relevant examples.",
+      "The student comprehensively discusses the value of actively managing personal health behaviors, providing detailed examples and explaining the potential consequences of neglect."
+    ],
+    [
+      "The student cannot apply knowledge of personal health behaviors to real-life scenarios.",
+      "The student struggles to apply knowledge of personal health behaviors to real-life scenarios, with limited success.",
+      "The student attempts to apply knowledge of personal health behaviors to real-life scenarios but with some inaccuracies or omissions.",
+      "The student applies knowledge of personal health behaviors to real-life scenarios with reasonable accuracy.",
+      "The student effectively applies knowledge of personal health behaviors to various real-life scenarios, demonstrating a solid understanding.",
+      "The student expertly applies knowledge of personal health behaviors to complex real-life scenarios, showcasing a deep understanding and critical thinking."
+    ],
+    [
+      "The student is unable to explain any specific health behaviors.",
+      "The student can vaguely explain one or two specific health behaviors.",
+      "The student explains several specific health behaviors but lacks detail.",
+      "The student explains specific health behaviors such as getting adequate sleep, practicing ergonomics, and performing self-examinations with some detail.",
+      "The student thoroughly explains specific health behaviors and their benefits, providing accurate and comprehensive information.",
+      "The student expertly explains specific health behaviors, including getting adequate sleep, practicing ergonomics, and performing self-examinations, providing in-depth analysis and insightful perspectives."
+    ]
+  ]
+}

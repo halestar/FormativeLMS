@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Human Capital: Assesses the student's comprehension of human capital and its relevance to their education and future career prospects.",
+    "Connection Between Schoolwork and Future Career: Evaluates the student's ability to link their current academic activities to potential career pathways and the development of relevant skills.",
+    "Application of Economic Reasoning: Assesses the student's use of economic principles to analyze the value and implications of their educational choices in the context of human capital development."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of human capital or its connection to education and future work.",
+      "Shows a minimal understanding of human capital, struggling to connect it to their schoolwork or future prospects.",
+      "Exhibits a basic understanding of human capital, with some difficulty in explaining its relationship to their education.",
+      "Demonstrates a satisfactory understanding of human capital, connecting it to their schoolwork and future aspirations with moderate clarity.",
+      "Shows a strong understanding of human capital, clearly articulating its relationship to their education and potential career paths.",
+      "Demonstrates a comprehensive understanding of human capital, providing insightful analysis of its impact on their educational journey and future career opportunities."
+    ],
+    [
+      "Fails to make any connection between their schoolwork and potential future career paths.",
+      "Struggles to identify any relevance of their schoolwork to future career options, with no clear connection made.",
+      "Identifies a vague connection between their schoolwork and potential career paths, lacking specific examples or explanations.",
+      "Connects their schoolwork to potential career paths with some clarity, providing general examples of relevant skills or knowledge gained.",
+      "Clearly articulates the connection between their schoolwork and specific career paths, providing detailed examples of relevant skills and knowledge.",
+      "Demonstrates a sophisticated understanding of how their schoolwork directly contributes to their future career aspirations, providing insightful examples and analysis."
+    ],
+    [
+      "Does not apply any economic reasoning to analyze the value of their education or its impact on human capital.",
+      "Attempts to apply economic reasoning but struggles to articulate the value of their education in economic terms.",
+      "Uses basic economic concepts to describe the value of education, but lacks depth in analyzing the implications for human capital.",
+      "Applies economic reasoning to explain how their education enhances their human capital, providing some analysis of the implications.",
+      "Effectively uses economic reasoning to analyze the value and implications of their educational choices, demonstrating a clear understanding of human capital development.",
+      "Demonstrates a sophisticated application of economic reasoning, providing a nuanced analysis of how their educational choices optimize their human capital and future economic opportunities."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Historical Context",
+    "Application of Historical Knowledge",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the historical context of events, people, or places.",
+      "Demonstrates a minimal understanding of the historical context, with significant gaps or inaccuracies.",
+      "Demonstrates a basic understanding of the historical context, but struggles to connect events, people, and places.",
+      "Demonstrates a satisfactory understanding of the historical context, making connections between events, people, and places with some clarity.",
+      "Demonstrates a strong understanding of the historical context, clearly connecting events, people, and places and providing relevant details.",
+      "Demonstrates a comprehensive and nuanced understanding of the historical context, providing insightful connections between events, people, and places and demonstrating a sophisticated grasp of the complexities involved."
+    ],
+    [
+      "Unable to apply historical knowledge to analyze or interpret events, people, or places.",
+      "Struggles to apply historical knowledge, offering superficial or inaccurate interpretations.",
+      "Applies historical knowledge with limited success, demonstrating some understanding but lacking depth or insight.",
+      "Applies historical knowledge effectively, offering reasonable interpretations and drawing logical conclusions.",
+      "Applies historical knowledge skillfully, providing well-supported interpretations and insightful analysis.",
+      "Applies historical knowledge masterfully, demonstrating sophisticated analytical skills and offering nuanced, well-supported interpretations that reveal a deep understanding of the subject matter."
+    ],
+    [
+      "Presents no evidence to support claims.",
+      "Presents minimal evidence, which is often irrelevant or inaccurate.",
+      "Presents some evidence, but it is weakly connected to claims or lacks credibility.",
+      "Presents relevant evidence to support claims, but may not fully explain the connection or address counterarguments.",
+      "Presents strong evidence to support claims, clearly explaining the connection and addressing potential counterarguments effectively.",
+      "Presents compelling and diverse evidence to support claims, demonstrating a sophisticated understanding of the evidence and its implications, while also anticipating and effectively addressing potential counterarguments."
+    ]
+  ]
+}

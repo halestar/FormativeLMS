@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Accurate Sources",
+    "Understanding of Mental Health Information",
+    "Application of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any accurate sources of information about mental, emotional, and social health.",
+      "Student identifies one source, but it is not entirely accurate or reliable.",
+      "Student identifies two sources, but their accuracy or reliability is questionable.",
+      "Student identifies three sources, with at least two being accurate and reliable.",
+      "Student identifies four sources, all of which are accurate and reliable.",
+      "Student identifies multiple (five or more) sources, all of which are highly accurate, reliable, and diverse in perspective."
+    ],
+    [
+      "Student demonstrates no understanding of the information provided by the sources.",
+      "Student demonstrates a limited understanding, with significant misconceptions or inaccuracies.",
+      "Student demonstrates some understanding, but struggles to explain key concepts or details.",
+      "Student demonstrates a satisfactory understanding of the information, accurately explaining most concepts.",
+      "Student demonstrates a strong understanding of the information, explaining concepts clearly and accurately with relevant details.",
+      "Student demonstrates a comprehensive understanding of the information, explaining concepts with nuance, insight, and the ability to synthesize information from multiple sources."
+    ],
+    [
+      "Student cannot apply the information to real-life scenarios or personal well-being.",
+      "Student attempts to apply the information but does so ineffectively or inappropriately.",
+      "Student can apply the information to simple scenarios with guidance.",
+      "Student can apply the information to various scenarios, demonstrating an understanding of its relevance to personal well-being.",
+      "Student can effectively apply the information to complex scenarios, demonstrating critical thinking and problem-solving skills.",
+      "Student demonstrates exceptional ability to apply the information to real-life situations, advocating for mental health awareness and promoting positive change."
+    ]
+  ]
+}

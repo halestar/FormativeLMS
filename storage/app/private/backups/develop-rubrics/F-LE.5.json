@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Parameters in Linear Functions",
+    "Understanding of Parameters in Exponential Functions",
+    "Contextual Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student shows no understanding of parameters in linear functions.",
+      "Student can identify parameters but struggles to relate them to the context.",
+      "Student identifies parameters and attempts to explain their meaning, but explanations are unclear or partially incorrect.",
+      "Student correctly identifies parameters and explains their meaning in the context with some minor inaccuracies.",
+      "Student clearly and accurately interprets the parameters (slope and y-intercept) in a linear function within the given context.",
+      "Student provides a comprehensive and insightful interpretation of parameters in linear functions, including their units and significance in the real-world context."
+    ],
+    [
+      "Student shows no understanding of parameters in exponential functions.",
+      "Student can identify parameters but struggles to relate them to the context.",
+      "Student identifies parameters and attempts to explain their meaning, but explanations are unclear or partially incorrect.",
+      "Student correctly identifies parameters and explains their meaning in the context with some minor inaccuracies.",
+      "Student clearly and accurately interprets the parameters (initial value and growth\/decay rate) in an exponential function within the given context.",
+      "Student provides a comprehensive and insightful interpretation of parameters in exponential functions, including their units, how the change affects the function, and significance in the real-world context."
+    ],
+    [
+      "Student fails to connect mathematical parameters to the real-world context.",
+      "Student attempts to connect parameters to the context, but connections are vague or illogical.",
+      "Student makes some relevant connections between parameters and context, but struggles with comprehensive explanations.",
+      "Student generally relates parameters to the context, but may miss some nuances or details.",
+      "Student effectively relates mathematical parameters to the real-world context, providing clear and logical explanations.",
+      "Student demonstrates a deep understanding of how parameters influence the real-world context, providing insightful and nuanced interpretations."
+    ]
+  ]
+}

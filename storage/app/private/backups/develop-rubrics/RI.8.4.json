@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Literal and Figurative Meanings",
+    "Analysis of Word Choices on Meaning and Tone",
+    "Recognition and Understanding of Analogies and Allusions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of words or phrases in the text.",
+      "Struggles to identify the meaning of basic words and phrases; shows no recognition of figurative language.",
+      "Identifies the meaning of some words and phrases, but struggles with figurative language and nuanced meanings.",
+      "Generally understands the literal meanings of words and phrases and can identify some instances of figurative language, but struggles to explain their effect.",
+      "Clearly understands the literal meanings of words and phrases, identifies figurative language, and begins to analyze its impact on the text.",
+      "Demonstrates a comprehensive understanding of literal and figurative meanings, and effectively analyzes the impact of specific word choices."
+    ],
+    [
+      "Unable to identify any impact of word choices on the meaning or tone of the text.",
+      "Shows minimal awareness of how word choices might affect the meaning or tone.",
+      "Identifies a basic connection between word choices and meaning or tone, but lacks detail.",
+      "Analyzes how specific word choices affect the meaning and tone of the text with some supporting details.",
+      "Provides a thorough analysis of how specific word choices shape the meaning and tone, using relevant examples.",
+      "Offers a sophisticated and insightful analysis of how word choices shape meaning and tone, including subtle nuances."
+    ],
+    [
+      "Does not recognize analogies or allusions in the text.",
+      "Identifies but misunderstands or cannot explain analogies and allusions.",
+      "Recognizes and offers a limited explanation of analogies or allusions.",
+      "Explains most analogies and allusions and their basic connection to the text.",
+      "Clearly explains analogies and allusions, analyzing their impact on the text's meaning.",
+      "Demonstrates a deep understanding of analogies and allusions, skillfully analyzing their complex impact on the text's meaning and broader themes."
+    ]
+  ]
+}

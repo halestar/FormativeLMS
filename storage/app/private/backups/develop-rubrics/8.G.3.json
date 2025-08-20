@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Transformations",
+    "Use of Coordinates",
+    "Effect on Two-Dimensional Figures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of dilations, translations, rotations, or reflections.",
+      "Student can identify at least one transformation (dilation, translation, rotation, or reflection) but struggles with the concept.",
+      "Student can identify and describe at least two transformations but has difficulty applying them in coordinate geometry.",
+      "Student can describe dilations, translations, rotations, and reflections but struggles with accurately representing them using coordinates.",
+      "Student accurately describes and applies dilations, translations, rotations, and reflections on two-dimensional figures using coordinates, but with minor errors.",
+      "Student demonstrates a comprehensive understanding of transformations, accurately describing and applying dilations, translations, rotations, and reflections on two-dimensional figures using coordinates."
+    ],
+    [
+      "Student cannot use coordinates to represent transformations.",
+      "Student attempts to use coordinates but demonstrates little to no accuracy.",
+      "Student can use coordinates to represent simple transformations (e.g., translations) but struggles with more complex ones (e.g., rotations).",
+      "Student can represent most transformations using coordinates but makes errors in calculations or notation.",
+      "Student accurately represents transformations using coordinates, with only minor errors or omissions.",
+      "Student demonstrates mastery in using coordinates to represent transformations, with no errors and clear, precise notation."
+    ],
+    [
+      "Student does not understand how transformations affect two-dimensional figures.",
+      "Student demonstrates some awareness of how transformations affect figures but cannot describe the effects accurately.",
+      "Student can describe the effects of some transformations on figures but struggles with more complex cases or combinations of transformations.",
+      "Student can describe the effects of transformations on figures but may make errors in describing the changes in size, shape, or orientation.",
+      "Student accurately describes the effects of transformations on figures, with only minor errors or omissions.",
+      "Student demonstrates a deep understanding of how transformations affect two-dimensional figures, accurately describing changes in size, shape, orientation, and position."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of diversity and inclusion.",
+    "Supports and respects individuals with differences.",
+    "Demonstrates empathy and compassion towards others."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of diversity or inclusion; may exhibit disrespectful behavior or language.",
+      "Demonstrates minimal awareness of diversity and inclusion; may use stereotypes or insensitive language.",
+      "Acknowledges diversity and inclusion but lacks a deeper understanding; language may be respectful but superficial.",
+      "Understands and appreciates diversity and inclusion; uses respectful language and avoids stereotypes.",
+      "Actively promotes diversity and inclusion; challenges stereotypes and advocates for equity.",
+      "Serves as a role model for diversity and inclusion; demonstrates exceptional empathy and understanding, and actively works to create an inclusive environment."
+    ],
+    [
+      "Actively excludes or disrespects individuals with differences.",
+      "Shows discomfort or indifference towards individuals with differences; may engage in passive exclusion.",
+      "Tolerates individuals with differences but does not actively support or respect them.",
+      "Treats individuals with differences with basic respect and courtesy; avoids discriminatory behavior.",
+      "Actively supports and respects individuals with differences; stands up against discrimination and prejudice.",
+      "Champions the rights and dignity of individuals with differences; actively works to create a welcoming and inclusive environment for all."
+    ],
+    [
+      "Shows no empathy or compassion towards others; disregards their feelings and experiences.",
+      "Demonstrates limited empathy or compassion; may struggle to understand others' perspectives.",
+      "Acknowledges others' feelings but lacks a deeper understanding; may offer superficial support.",
+      "Demonstrates empathy and compassion towards others; attempts to understand their perspectives and offer support.",
+      "Actively seeks to understand others' perspectives and offers meaningful support and compassion.",
+      "Consistently demonstrates exceptional empathy and compassion; goes above and beyond to support and uplift others, creating a culture of kindness and understanding."
+    ]
+  ]
+}

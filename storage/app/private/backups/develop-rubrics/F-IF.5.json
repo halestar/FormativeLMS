@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Domain and Range",
+    "Application to Real-World Contexts",
+    "Interpretation of Quantitative Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of domain or range in the context of the function.",
+      "Student demonstrates minimal understanding of domain or range, with significant errors.",
+      "Student can identify the domain or range but struggles to relate it to the function's graph or context.",
+      "Student can identify the domain and range and relate them to the function's graph, but struggles with the quantitative relationship.",
+      "Student clearly relates the domain of a function to its graph and the quantitative relationship it describes but makes a small error.",
+      "Student clearly and accurately relates the domain of a function to its graph and the quantitative relationship it describes, providing a clear explanation."
+    ],
+    [
+      "Student fails to apply the function to the given real-world context.",
+      "Student attempts to apply the function but demonstrates a lack of understanding of the context.",
+      "Student applies the function to the context with some inaccuracies or misinterpretations.",
+      "Student correctly applies the function to the context, providing a reasonable interpretation.",
+      "Student applies the function to the real-world context effectively and provides minor justification.",
+      "Student applies the function to the real-world context effectively and provides a clear and insightful interpretation, demonstrating a strong understanding."
+    ],
+    [
+      "Student is unable to interpret any quantitative relationships.",
+      "Student attempts to interpret the relationships but shows significant misunderstanding.",
+      "Student identifies some quantitative relationships but struggles to explain their significance.",
+      "Student adequately interprets the quantitative relationships within the context.",
+      "Student effectively interprets quantitative relationships and the context but makes a minor error.",
+      "Student expertly interprets the quantitative relationships within the context, providing clear and accurate explanations."
+    ]
+  ]
+}

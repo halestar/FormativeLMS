@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying reporting methods",
+    "Understanding of the importance of reporting",
+    "Clarity and organization of information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any methods for reporting inappropriate touching or provides inaccurate information.",
+      "Identifies only one method for reporting inappropriate touching with limited accuracy.",
+      "Identifies two methods for reporting inappropriate touching with some inaccuracies or omissions.",
+      "Identifies three methods for reporting inappropriate touching with minor inaccuracies.",
+      "Identifies four methods for reporting inappropriate touching with clear and mostly accurate information.",
+      "Clearly and accurately identifies multiple methods (e.g., school authorities, trusted adults, hotlines, law enforcement) for reporting inappropriate touching, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Does not demonstrate an understanding of why reporting inappropriate touching is important.",
+      "Shows a limited understanding of the importance of reporting, focusing on only one aspect.",
+      "Demonstrates a basic understanding of the importance of reporting for personal safety.",
+      "Explains the importance of reporting for both personal safety and the safety of others.",
+      "Clearly articulates the importance of reporting for personal safety, the safety of others, and preventing future incidents.",
+      "Articulates the importance of reporting inappropriate touching, its impact on individuals and the community, and demonstrates empathy towards affected individuals."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it difficult to follow.",
+      "Response is somewhat clear but lacks logical organization.",
+      "Response is generally clear and organized, but with minor areas for improvement.",
+      "Response is clear, well-organized, and easy to understand.",
+      "Response is exceptionally clear, concise, and logically organized, demonstrating excellent communication skills."
+    ]
+  ]
+}

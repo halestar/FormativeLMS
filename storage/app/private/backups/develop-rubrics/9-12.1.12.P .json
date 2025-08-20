@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Global Environmental Issues",
+    "Description of Impact of Environmental Issues",
+    "Discussion of Potential Solutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any global environmental issues.",
+      "The student identifies one global environmental issue with significant inaccuracies.",
+      "The student identifies one global environmental issue with minor inaccuracies.",
+      "The student identifies two global environmental issues with some inaccuracies or lack of detail.",
+      "The student identifies three global environmental issues with reasonable accuracy and detail.",
+      "The student accurately identifies and describes three or more global environmental issues with supporting details and examples."
+    ],
+    [
+      "The student does not describe any impacts of environmental issues.",
+      "The student attempts to describe the impact of an environmental issue, but the description lacks clarity or accuracy.",
+      "The student describes the impact of one environmental issue with limited detail.",
+      "The student describes the impacts of two environmental issues with some detail.",
+      "The student describes the impacts of multiple environmental issues with reasonable detail and accuracy.",
+      "The student thoroughly and accurately describes the impacts of multiple environmental issues, demonstrating a strong understanding of their consequences."
+    ],
+    [
+      "The student does not discuss potential solutions to environmental issues.",
+      "The student mentions potential solutions but they are unrealistic or inappropriate.",
+      "The student suggests basic, common solutions with little explanation.",
+      "The student suggests feasible solutions to some issues with some explanation.",
+      "The student suggests feasible solutions to multiple issues with reasonable explanation and understanding.",
+      "The student provides well-reasoned and innovative solutions to multiple environmental issues, demonstrating a comprehensive understanding of their feasibility and impact."
+    ]
+  ]
+}

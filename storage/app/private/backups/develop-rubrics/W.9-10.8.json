@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Source Relevance and Authority",
+    "Information Integration and Flow",
+    "Citation and Formatting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No sources are gathered, or sources are irrelevant and\/or lack authority.",
+      "Sources are gathered, but relevance and authority are questionable; little connection to the research question.",
+      "Some relevant sources are gathered, but authority is not consistently demonstrated; connection to the research question is superficial.",
+      "Most sources are relevant and authoritative, with a clear connection to the research question.",
+      "All sources are relevant, authoritative, and clearly connected to the research question; demonstrates effective search strategies.",
+      "All sources are highly relevant, authoritative, and strategically selected to comprehensively address the research question; advanced search techniques are expertly employed."
+    ],
+    [
+      "Information is not integrated, or integration disrupts the flow of ideas; plagiarism is evident.",
+      "Information is poorly integrated, leading to disjointed ideas; plagiarism is a concern.",
+      "Information is integrated with some success, but the flow of ideas is occasionally disrupted; plagiarism is addressed but not consistently.",
+      "Information is integrated smoothly, generally maintaining the flow of ideas; plagiarism is avoided.",
+      "Information is seamlessly integrated, enhancing the flow of ideas; plagiarism is meticulously avoided, demonstrating strong ethical research practices.",
+      "Information is expertly synthesized and integrated to create a cohesive and compelling argument; plagiarism is completely absent, and ethical research practices are exemplary."
+    ],
+    [
+      "Citations are missing or completely incorrect; formatting is absent or significantly flawed.",
+      "Citations are inconsistent and often incorrect; formatting is attempted but contains major errors.",
+      "Citations are present but contain errors; formatting is inconsistent.",
+      "Citations are generally correct and follow a standard format; formatting is mostly consistent.",
+      "Citations are accurate and consistently follow a standard format (including footnotes\/endnotes); formatting is correct and enhances readability.",
+      "Citations are flawless and adhere to a sophisticated citation style (e.g., Chicago, MLA) with precision; formatting is impeccable and contributes to the overall professionalism of the work."
+    ]
+  ]
+}

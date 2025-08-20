@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Addition and Subtraction",
+    "Strategy Application",
+    "Explanation and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of addition or subtraction within 100.  Numerous errors are present.",
+      "The student demonstrates very limited accuracy in addition and subtraction.  Frequent errors indicate a lack of understanding of basic operations.",
+      "The student demonstrates some accuracy, but makes several errors in addition and subtraction within 100.  Shows partial understanding of place value or properties of operations.",
+      "The student generally adds and subtracts accurately, with only occasional minor errors.  Demonstrates a basic understanding of place value and related strategies.",
+      "The student consistently adds and subtracts accurately within 100. Demonstrates a strong understanding of place value and the relationship between addition and subtraction, with only very minor errors.",
+      "The student demonstrates flawless accuracy in addition and subtraction within 100.  Shows mastery of place value understanding and properties of operations; strategies are efficient and error-free."
+    ],
+    [
+      "The student does not attempt to use any strategies based on place value, properties of operations, or the relationship between addition and subtraction.",
+      "The student attempts to use strategies but does so incorrectly or ineffectively.  There is no clear connection to place value or properties of operations.",
+      "The student uses strategies inconsistently or with limited success. The application of place value or properties of operations is not always evident or correct.",
+      "The student applies strategies based on place value, properties of operations, or the relationship between addition and subtraction with reasonable effectiveness.",
+      "The student effectively uses strategies based on place value, properties of operations, and the relationship between addition and subtraction to solve problems.",
+      "The student fluently and efficiently applies a variety of strategies based on place value, properties of operations, and the relationship between addition and subtraction, demonstrating a deep understanding of their application."
+    ],
+    [
+      "The student provides no explanation or reasoning for their addition and subtraction processes.",
+      "The student attempts to explain their process, but the reasoning is unclear, incomplete, or incorrect.",
+      "The student provides a limited explanation of their process, but the reasoning may be partially flawed or lack clarity.",
+      "The student explains their addition and subtraction process with reasonable clarity and provides some justification for their strategies.",
+      "The student clearly explains their addition and subtraction process and provides sound reasoning for their strategies based on place value or properties of operations.",
+      "The student articulately explains their addition and subtraction process, providing insightful reasoning and demonstrating a comprehensive understanding of why their strategies work effectively."
+    ]
+  ]
+}

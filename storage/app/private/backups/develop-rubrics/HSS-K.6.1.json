@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Commemorative Holidays, People, and Events",
+    "Understanding of the Purposes of Commemorative Holidays",
+    "Knowledge of the Human Struggles Behind Commemorative Events"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any commemorative holidays, people, or events.",
+      "The student identifies at least one commemorative holiday, person, or event, but with significant inaccuracies.",
+      "The student identifies some commemorative holidays, people, and events, but with limited detail and some inaccuracies.",
+      "The student identifies most of the major commemorative holidays, people, and events with reasonable accuracy.",
+      "The student accurately identifies the major commemorative holidays, people, and events with specific details.",
+      "The student accurately identifies the major commemorative holidays, people, and events with specific details and provides additional relevant information beyond what was taught in class."
+    ],
+    [
+      "The student does not demonstrate any understanding of the purposes of commemorative holidays.",
+      "The student attempts to explain the purpose of a holiday, but the explanation is unclear or incorrect.",
+      "The student provides a basic explanation of the purpose of some holidays, but lacks depth or accuracy in several areas.",
+      "The student provides a clear explanation of the purpose of most holidays, with a few minor inaccuracies.",
+      "The student provides a clear and accurate explanation of the purpose of the major holidays.",
+      "The student provides a clear and accurate explanation of the purpose of the major holidays and relates them to contemporary issues or events."
+    ],
+    [
+      "The student demonstrates no awareness of the human struggles that led to the commemorative events.",
+      "The student mentions the concept of struggle in relation to the event, but provides no specific details.",
+      "The student identifies a human struggle associated with some commemorative events, but the explanation lacks detail or accuracy.",
+      "The student describes the human struggles associated with most commemorative events with reasonable accuracy.",
+      "The student clearly and accurately describes the human struggles associated with the major commemorative events, including specific details.",
+      "The student clearly and accurately describes the human struggles associated with the major commemorative events, including specific details, and connects these struggles to broader themes in history."
+    ]
+  ]
+}

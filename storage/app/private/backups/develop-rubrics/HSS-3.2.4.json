@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Historical Details",
+    "Understanding of Perspectives",
+    "Analysis of Impact",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the historical interactions; information is factually incorrect or missing.",
+      "Presents some historical details, but with significant inaccuracies or omissions.",
+      "Presents mostly accurate historical details but may have minor inaccuracies or omissions.",
+      "Presents accurate historical details about the interactions, with only minor omissions.",
+      "Presents accurate and detailed historical information about the interactions, demonstrating a strong understanding of the events.",
+      "Presents exceptionally accurate, detailed, and nuanced historical information, demonstrating a comprehensive understanding and insightful analysis of the events."
+    ],
+    [
+      "Shows no understanding of the perspectives of either settlers or indigenous peoples.",
+      "Shows limited awareness of the perspectives, primarily focusing on one group.",
+      "Acknowledges the existence of different perspectives but does not fully explore or explain them.",
+      "Explains the perspectives of both settlers and indigenous peoples with some depth, though may show bias.",
+      "Explains the perspectives of both settlers and indigenous peoples in a balanced and insightful manner, demonstrating empathy.",
+      "Demonstrates a deep and nuanced understanding of the perspectives, acknowledging complexities and contradictions, and avoids presentism."
+    ],
+    [
+      "Does not address the impact of interactions between settlers and indigenous peoples.",
+      "Briefly mentions the impact with little supporting evidence.",
+      "Describes some impacts but lacks depth or analysis.",
+      "Analyzes the impacts of the interactions, considering both positive and negative consequences, but may lack nuance.",
+      "Provides a thorough analysis of the impacts, including social, economic, and cultural consequences for both groups.",
+      "Offers a sophisticated and nuanced analysis of the long-term impacts, considering multiple perspectives and historical contexts, demonstrating critical thinking."
+    ],
+    [
+      "Provides no evidence to support claims or assertions.",
+      "Provides limited evidence, which may be irrelevant or inaccurate.",
+      "Uses some evidence, but it is not always relevant or effectively integrated.",
+      "Supports claims with relevant evidence, but may not fully explain the connection.",
+      "Effectively uses a variety of relevant evidence to support claims and assertions.",
+      "Skillfully integrates diverse evidence to create a compelling and well-supported argument, demonstrating source evaluation skills."
+    ]
+  ]
+}

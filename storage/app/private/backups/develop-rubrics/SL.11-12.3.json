@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Accuracy of Summary",
+    "Evaluation of Reasoning and Evidence",
+    "Assessment of Rhetorical Techniques"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The summary is missing or completely inaccurate, failing to capture the speaker's main points.",
+      "The summary is highly incomplete and contains several inaccuracies regarding the speaker's points.",
+      "The summary is somewhat incomplete or contains some inaccuracies, missing key points or misrepresenting the speaker's message.",
+      "The summary is mostly accurate but may lack detail or clarity in certain areas.",
+      "The summary is accurate and provides a clear overview of the speaker's main points and perspective.",
+      "The summary is exceptionally clear, concise, and accurately represents the speaker's point of view, reasoning, and main arguments."
+    ],
+    [
+      "No attempt to evaluate the speaker's reasoning or use of evidence.",
+      "Offers a superficial or irrelevant evaluation of the speaker's reasoning and evidence.",
+      "Identifies the speaker's reasoning and evidence but provides a weak or unclear evaluation.",
+      "Evaluates the speaker's reasoning and evidence, identifying some strengths and weaknesses.",
+      "Provides a comprehensive evaluation of the speaker's reasoning and evidence, with specific examples and clear explanations.",
+      "Offers a sophisticated and insightful evaluation of the speaker's reasoning and evidence, demonstrating a deep understanding of rhetorical strategies."
+    ],
+    [
+      "Fails to identify any rhetorical techniques used by the speaker.",
+      "Identifies rhetorical techniques inaccurately or without explanation.",
+      "Recognizes a few rhetorical techniques but does not fully explain their effect.",
+      "Identifies and explains the effect of several rhetorical techniques used by the speaker.",
+      "Analyzes the speaker's use of rhetoric with detailed explanations of its impact on the audience and message.",
+      "Provides an exceptional analysis of the speaker's rhetorical techniques, demonstrating a nuanced understanding of their strategic use and persuasive power."
+    ]
+  ]
+}

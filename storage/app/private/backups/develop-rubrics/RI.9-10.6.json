@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Author's Point of View or Purpose",
+    "Analysis of Rhetorical Devices",
+    "Clarity and Coherence of Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify the author's point of view or purpose.",
+      "The student attempts to identify the author's point of view or purpose but is largely inaccurate.",
+      "The student identifies the author's point of view or purpose, but the explanation is vague or superficial.",
+      "The student accurately identifies the author's point of view or purpose with some supporting details.",
+      "The student clearly identifies the author's point of view or purpose with relevant supporting details and demonstrates good understanding.",
+      "The student insightfully identifies the author's point of view or purpose, providing compelling supporting details and demonstrating a deep understanding."
+    ],
+    [
+      "The student does not identify or analyze any rhetorical devices used by the author.",
+      "The student attempts to identify rhetorical devices but is unsuccessful or provides incorrect examples.",
+      "The student identifies a few rhetorical devices but does not explain how they advance the author's point of view or purpose.",
+      "The student identifies and explains how some rhetorical devices advance the author's point of view or purpose.",
+      "The student effectively analyzes how multiple rhetorical devices advance the author's point of view or purpose, showing a clear understanding of their impact.",
+      "The student expertly analyzes how a variety of rhetorical devices advance the author's point of view or purpose, demonstrating a nuanced understanding of their effects and complexities."
+    ],
+    [
+      "The student's analysis is unclear, disorganized, and difficult to understand.",
+      "The student's analysis lacks clarity and coherence, making it challenging to follow the reasoning.",
+      "The student's analysis is somewhat clear but lacks sufficient organization or supporting evidence.",
+      "The student's analysis is generally clear and organized, with adequate supporting evidence.",
+      "The student's analysis is clear, well-organized, and supported by relevant evidence, demonstrating a strong understanding of the text.",
+      "The student's analysis is exceptionally clear, coherent, and insightful, demonstrating a sophisticated understanding of the text and its rhetorical strategies."
+    ]
+  ]
+}

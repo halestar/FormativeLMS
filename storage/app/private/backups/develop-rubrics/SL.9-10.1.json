@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Preparation and Use of Evidence",
+    "Collaboration and Rule Setting",
+    "Conversation Propulsion and Incorporation",
+    "Response to Diverse Perspectives"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student comes to the discussion unprepared, showing no evidence of having read or researched the material. They do not refer to texts or research to support their ideas.",
+      "Student shows minimal preparation, with little evidence of reading or research. They make only vague or unsubstantiated references to texts or research.",
+      "Student is somewhat prepared, showing some evidence of reading or research. They refer to texts or research occasionally, but the connections to their ideas are not always clear.",
+      "Student is generally prepared, showing adequate evidence of reading and research. They refer to texts and research to support some of their ideas, making reasonable connections.",
+      "Student is well-prepared, showing clear evidence of thorough reading and research. They effectively use texts and research to support their ideas, making clear and logical connections.",
+      "Student is exceptionally well-prepared, demonstrating in-depth knowledge of the material through extensive reading and research. They skillfully integrate textual evidence and research findings to strongly support and enhance their contributions."
+    ],
+    [
+      "Student does not participate in setting rules for discussion or decision-making. They do not work effectively with peers.",
+      "Student participates minimally in setting rules, showing little engagement with the process. Their collaboration with peers is limited.",
+      "Student participates somewhat in setting rules, but their contributions are not always helpful. They collaborate with peers to some extent.",
+      "Student actively participates in setting rules for collegial discussions and decision-making, contributing to the establishment of clear goals and deadlines.",
+      "Student takes a leadership role in setting rules and guidelines for discussions, ensuring that goals, deadlines, and individual roles are well-defined and understood by all participants.",
+      "Student leads the collaboration process, proactively establishing effective rules, clear goals, and well-defined roles that maximize group efficiency and foster a positive, inclusive discussion environment."
+    ],
+    [
+      "Student does not pose or respond to questions. They do not incorporate others into the discussion.",
+      "Student rarely poses or responds to questions, and their attempts to include others are infrequent and ineffective.",
+      "Student occasionally poses or responds to questions, but their contributions do not always relate to broader themes. They make limited attempts to include others.",
+      "Student poses and responds to questions that generally relate the current discussion to broader themes, and makes reasonable attempts to incorporate others into the discussion.",
+      "Student effectively propels conversations by posing insightful questions, actively incorporating others, and clarifying ideas and conclusions, demonstrating a strong understanding of the topic.",
+      "Student masterfully drives conversations by posing thought-provoking questions, seamlessly integrating diverse perspectives, and expertly clarifying and challenging ideas, fostering a dynamic and inclusive exchange of knowledge."
+    ],
+    [
+      "Student does not respond to diverse perspectives and does not summarize points of agreement or disagreement.",
+      "Student's responses to diverse perspectives are dismissive or disrespectful. They do not acknowledge or summarize points of agreement or disagreement.",
+      "Student demonstrates an unwillingness to consider alternative viewpoints or challenge their own assumptions. They struggle to find common ground with others.",
+      "Student is open to hearing diverse perspectives, but does not consistently engage with them in a meaningful way. They may summarize points of agreement and disagreement, but their analysis lacks depth.",
+      "Student thoughtfully responds to diverse perspectives, summarizing points of agreement and disagreement, and justifying their own views with sound reasoning and evidence.",
+      "Student skillfully navigates complex discussions by synthesizing diverse perspectives, identifying common ground, and offering insightful critiques of opposing viewpoints, enriching the overall understanding of the topic."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Chi-Square Distribution",
+    "Application of the Chi-Square Test",
+    "Interpretation of Chi-Square Test Results"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the chi-square distribution.",
+      "Student shows minimal understanding of the chi-square distribution, with significant misconceptions.",
+      "Student demonstrates a basic understanding of the chi-square distribution but struggles to explain its properties.",
+      "Student demonstrates a satisfactory understanding of the chi-square distribution and can explain its basic properties.",
+      "Student demonstrates a strong understanding of the chi-square distribution and can accurately explain its properties and applications.",
+      "Student demonstrates a comprehensive understanding of the chi-square distribution, can explain its properties in detail, and can connect it to related statistical concepts."
+    ],
+    [
+      "Student is unable to apply the chi-square test in any context.",
+      "Student attempts to apply the chi-square test but demonstrates a fundamental misunderstanding of its requirements and assumptions.",
+      "Student can identify situations where a chi-square test might be appropriate but struggles to set up the test correctly.",
+      "Student can set up and perform a chi-square test in simple scenarios but may struggle with more complex problems.",
+      "Student can confidently set up and perform a chi-square test in a variety of scenarios and can interpret the results.",
+      "Student can expertly set up, perform, and interpret chi-square tests in complex scenarios, and can explain the implications of the results in context."
+    ],
+    [
+      "Student cannot interpret the results of a chi-square test.",
+      "Student attempts to interpret the results but demonstrates a significant misunderstanding of p-values and significance levels.",
+      "Student can identify the p-value but struggles to relate it to the null hypothesis.",
+      "Student can interpret the results of a chi-square test in simple scenarios and can state whether the null hypothesis is rejected or not.",
+      "Student can accurately interpret the results of a chi-square test and can explain the implications for the variables being studied.",
+      "Student can expertly interpret the results of a chi-square test, can discuss the limitations of the test, and can suggest further analysis or data collection."
+    ]
+  ]
+}

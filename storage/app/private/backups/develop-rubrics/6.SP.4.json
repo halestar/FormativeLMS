@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Data Representation",
+    "Appropriateness of Plot Type",
+    "Clarity and Labeling"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or the plot is completely inaccurate and does not represent the data.",
+      "The plot contains significant errors, misrepresenting the data. Key features are missing or incorrect.",
+      "The plot has several inaccuracies and omissions. Some data is misrepresented, affecting overall understanding.",
+      "The plot is mostly accurate, with minor errors that do not significantly impact interpretation.",
+      "The plot is accurate and represents the data well. All key features are correctly displayed with only very minor errors.",
+      "The plot is perfectly accurate, clearly and effectively representing the data. All key features are displayed with precision."
+    ],
+    [
+      "No attempt or an inappropriate plot type is used for the given data.",
+      "An inappropriate plot type is used, making it difficult to interpret the data.",
+      "The plot type is somewhat appropriate, but another type would have been more suitable for clarity.",
+      "The plot type is generally appropriate for the data, aiding in basic interpretation.",
+      "The plot type is well-suited to the data, enhancing clarity and facilitating easy interpretation.",
+      "The plot type is ideally suited to the data, providing maximum clarity and insight into the distribution."
+    ],
+    [
+      "No attempt or the plot lacks labels, making it impossible to understand.",
+      "The plot has minimal labels, making it difficult to understand. Key components are unlabeled or poorly labeled.",
+      "The plot lacks some labels or has unclear labels, hindering understanding.",
+      "The plot is adequately labeled, but some improvements could be made for better clarity.",
+      "The plot is clearly and accurately labeled, facilitating easy understanding.",
+      "The plot is exceptionally clear and well-labeled, with all components clearly identified, enhancing comprehension."
+    ]
+  ]
+}

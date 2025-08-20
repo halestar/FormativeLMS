@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation: Ability to analyze fossil record data to identify patterns of existence, diversity, extinction, and change of life forms.",
+    "Understanding of Fossil Record Documentation: Comprehension of how the fossil record documents the history of life on Earth.",
+    "Application of Scientific Principles: Ability to apply the principle that natural laws operate consistently over time (uniformitarianism).",
+    "Connections to Broader Scientific Concepts: Connects fossil record patterns to broader concepts such as evolution, common ancestry, and environmental change."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze or interpret data. Fails to identify any patterns in the fossil record.",
+      "Struggles to analyze data; identifies only the most obvious patterns with significant inaccuracies.",
+      "Identifies basic patterns in the fossil record but misses key details or makes some incorrect interpretations.",
+      "Analyzes data and identifies several patterns in the fossil record with reasonable accuracy, though some details may be overlooked.",
+      "Thoroughly analyzes data, accurately interprets patterns of existence, diversity, extinction, and change, and provides supporting evidence.",
+      "Demonstrates a sophisticated understanding of the fossil record by accurately analyzing data, interpreting complex patterns, and providing insightful explanations with strong evidence."
+    ],
+    [
+      "Shows no understanding of the fossil record or its significance in documenting life's history.",
+      "Demonstrates a minimal understanding, with significant misconceptions about the fossil record.",
+      "Understands that the fossil record relates to life's history but lacks detail or accuracy.",
+      "Demonstrates a general understanding of how the fossil record documents changes in life forms over time.",
+      "Clearly explains how the fossil record documents the existence, diversity, extinction, and change of life forms throughout Earth's history.",
+      "Provides a comprehensive and nuanced explanation, demonstrating a deep understanding of the fossil record and its implications for understanding life's history, including the processes of fossilization and dating methods."
+    ],
+    [
+      "Fails to apply or recognize the principle of consistent natural laws in interpreting the fossil record.",
+      "Struggles to connect natural laws to the interpretation of the fossil record.",
+      "Recognizes the principle but does not effectively apply it to the analysis of fossil data.",
+      "Applies the principle of consistent natural laws to interpret the fossil record with some success.",
+      "Effectively applies the principle to analyze and interpret data, drawing logical conclusions about past life forms.",
+      "Demonstrates a mastery of the principle, using it to provide insightful interpretations of fossil data, including consideration of geological and environmental factors influencing the fossil record."
+    ],
+    [
+      "Unable to make any connections between fossil record patterns and broader scientific concepts.",
+      "Struggles to connect fossil data to concepts like evolution or environmental change.",
+      "Identifies some basic connections but lacks depth or accuracy in explanations.",
+      "Connects fossil record patterns to concepts like evolution and environmental change with reasonable clarity.",
+      "Clearly and accurately connects fossil patterns to concepts such as evolution, common ancestry, and environmental change, providing supporting evidence.",
+      "Demonstrates a sophisticated understanding by making insightful connections between fossil record patterns and a wide range of scientific concepts, including speciation, adaptation, and ecosystem dynamics."
+    ]
+  ]
+}

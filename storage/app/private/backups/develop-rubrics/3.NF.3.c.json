@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Fraction Equivalence and Whole Numbers",
+    "Comparison of Fractions and Reasoning About Size",
+    "Number Line Representation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of fraction equivalence or how whole numbers can be expressed as fractions.",
+      "Student struggles to explain fraction equivalence and has difficulty expressing whole numbers as fractions.",
+      "Student can explain fraction equivalence in simple cases but struggles with more complex examples. Shows basic understanding of expressing whole numbers as fractions.",
+      "Student can explain fraction equivalence in most cases and accurately expresses whole numbers as fractions. Demonstrates understanding with some examples.",
+      "Student clearly explains fraction equivalence, including special cases, and accurately expresses whole numbers as fractions. Provides clear examples and reasoning.",
+      "Student demonstrates a thorough understanding of fraction equivalence, including complex cases, and fluently expresses whole numbers as fractions. Provides insightful examples and justifications."
+    ],
+    [
+      "Student cannot compare fractions or reason about their relative size.",
+      "Student struggles to compare fractions and lacks understanding of relative size.",
+      "Student can compare some fractions with common denominators but struggles with different denominators. Limited reasoning about size.",
+      "Student can compare fractions and reason about their size using basic strategies such as common denominators or numerators. Shows understanding with number line diagrams.",
+      "Student compares fractions effectively and provides clear reasoning about their size using multiple strategies. Can accurately locate fractions on a number line.",
+      "Student demonstrates a deep understanding of comparing fractions and provides sophisticated reasoning about their size. Can use number line diagrams and other models effectively to justify comparisons."
+    ],
+    [
+      "Student does not demonstrate the ability to use a number line to represent fractions or whole numbers.",
+      "Student struggles to place fractions or whole numbers accurately on a number line.",
+      "Student can place simple fractions and whole numbers on a number line with some inaccuracies.",
+      "Student accurately places fractions and whole numbers on a number line, demonstrating understanding of their relative position.",
+      "Student skillfully uses a number line to represent and compare fractions and whole numbers, showing clear understanding of scale and proportion.",
+      "Student expertly uses a number line to represent and analyze fractions and whole numbers, demonstrating a sophisticated understanding of their properties and relationships."
+    ]
+  ]
+}

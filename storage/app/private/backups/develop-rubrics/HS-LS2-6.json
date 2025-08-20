@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Ecosystem Stability",
+    "Evaluation of Claims, Evidence, and Reasoning",
+    "Application of Scientific Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of how ecosystems maintain stability or how changing conditions affect them.",
+      "The student shows a minimal understanding of ecosystem stability, with significant misconceptions about the interactions and conditions that maintain it.",
+      "The student identifies some components of ecosystem stability but struggles to explain the complex interactions that maintain it or the impact of changing conditions.",
+      "The student generally understands that ecosystems maintain stability through interactions between organisms and their environment, but the explanation lacks depth or specific examples.",
+      "The student demonstrates a solid understanding of how complex interactions in ecosystems maintain stability and how changing conditions can lead to new ecosystems, providing relevant examples.",
+      "The student comprehensively evaluates how complex interactions in ecosystems maintain stability, thoroughly explaining how changing conditions can result in new ecosystems, and providing detailed, accurate examples and reasoning."
+    ],
+    [
+      "The student is unable to evaluate claims, evidence, or reasoning related to ecosystem dynamics.",
+      "The student attempts to evaluate claims, evidence, and reasoning but struggles to identify relevant information or logical fallacies.",
+      "The student identifies claims, evidence, and reasoning but shows limited ability to assess the quality or validity of each.",
+      "The student evaluates claims, evidence, and reasoning with some success, but the evaluation lacks depth or critical analysis.",
+      "The student effectively evaluates claims, evidence, and reasoning, identifying strengths and weaknesses and explaining the merits of arguments related to ecosystem dynamics.",
+      "The student expertly evaluates claims, evidence, and reasoning, providing insightful analysis of strengths and weaknesses, and thoroughly justifies the merits of arguments with clear, logical explanations and supporting evidence."
+    ],
+    [
+      "The student does not apply scientific knowledge to explain ecosystem dynamics or resilience.",
+      "The student attempts to apply scientific knowledge but demonstrates significant misunderstandings or inaccuracies.",
+      "The student applies some scientific knowledge to explain ecosystem dynamics, but the explanations are incomplete or contain errors.",
+      "The student applies relevant scientific knowledge to explain ecosystem dynamics and resilience, but the connection between knowledge and explanation is not always clear.",
+      "The student effectively applies scientific knowledge to explain ecosystem dynamics and resilience, providing clear and accurate explanations supported by relevant concepts.",
+      "The student expertly applies scientific knowledge to provide comprehensive and insightful explanations of ecosystem dynamics and resilience, demonstrating a deep understanding of underlying scientific principles and their application to real-world scenarios."
+    ]
+  ]
+}

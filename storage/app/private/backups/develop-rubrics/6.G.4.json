@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Net Representation",
+    "Calculation of Surface Area",
+    "Application to Real-World Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Net is completely inaccurate or missing. Does not represent the three-dimensional figure.",
+      "Net is poorly constructed with significant errors in shapes and dimensions. Demonstrates a lack of understanding of the figure's components.",
+      "Net has some inaccuracies, such as incorrect shapes or mismatched dimensions. Shows a partial understanding of the figure's components.",
+      "Net is mostly accurate but contains minor errors that do not significantly impact the overall representation. Demonstrates a good understanding of the figure's components.",
+      "Net is accurate with only very minor imperfections. Demonstrates a strong understanding of the figure's components and how they connect.",
+      "Net is perfectly accurate and clearly represents all faces and dimensions of the three-dimensional figure. Demonstrates a comprehensive understanding of the figure's structure."
+    ],
+    [
+      "No attempt to calculate surface area or the approach is fundamentally incorrect.",
+      "Attempt to calculate surface area is made, but calculations are riddled with errors and demonstrate a lack of understanding of area formulas.",
+      "Surface area calculation contains several errors, such as using incorrect formulas or miscalculating dimensions. Partial understanding of area calculation.",
+      "Surface area calculation is mostly correct with minor errors that do not significantly impact the final result. Demonstrates a good understanding of area formulas.",
+      "Surface area calculation is accurate with only minor calculation errors. Demonstrates a strong understanding of how to apply area formulas to the net.",
+      "Surface area calculation is perfectly accurate and clearly shows all steps, with correct units. Demonstrates a comprehensive understanding of surface area calculation and attention to detail."
+    ],
+    [
+      "No attempt to apply the concepts to real-world problems or the application is completely irrelevant.",
+      "Attempt to apply concepts to real-world problems is made, but the explanation is unclear and demonstrates a lack of understanding of the problem's context.",
+      "Application to real-world problems contains some relevant connections, but the explanation is incomplete or contains inaccuracies. Partial understanding of the problem.",
+      "Application to real-world problems is mostly correct with a clear explanation of how the concepts apply. Demonstrates a good understanding of the problem's context.",
+      "Application to real-world problems is accurate with a detailed explanation of the problem-solving process. Demonstrates a strong understanding of the concepts.",
+      "Application to real-world problems is perfectly accurate, insightful, and demonstrates a comprehensive understanding of how surface area relates to practical situations."
+    ]
+  ]
+}

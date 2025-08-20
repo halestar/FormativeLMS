@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Drug Dependence vs. Addiction",
+    "Explanation of the Dangers of Drug Dependence",
+    "Explanation of the Dangers of Drug Addiction",
+    "Use of Examples and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the difference between drug dependence and addiction.",
+      "Student demonstrates a minimal understanding, with significant misconceptions.",
+      "Student shows a basic understanding, but struggles to differentiate between dependence and addiction.",
+      "Student demonstrates a satisfactory understanding of the differences, but lacks depth.",
+      "Student clearly explains the differences between drug dependence and addiction with supporting details.",
+      "Student provides a comprehensive and nuanced explanation of the differences, including the physiological and psychological aspects."
+    ],
+    [
+      "Student fails to identify any dangers associated with drug dependence.",
+      "Student identifies only one or two dangers, with limited explanation.",
+      "Student identifies several dangers, but explanations are superficial.",
+      "Student explains several dangers of drug dependence with some supporting details.",
+      "Student thoroughly explains the physical, psychological, and social dangers of drug dependence.",
+      "Student provides a comprehensive analysis of the dangers of drug dependence, including long-term health consequences and societal impacts."
+    ],
+    [
+      "Student fails to identify any dangers associated with drug addiction.",
+      "Student identifies only one or two dangers, with limited explanation.",
+      "Student identifies several dangers, but explanations are superficial.",
+      "Student explains several dangers of drug addiction with some supporting details.",
+      "Student thoroughly explains the physical, psychological, and social dangers of drug addiction.",
+      "Student provides a comprehensive analysis of the dangers of drug addiction, including long-term health consequences and societal impacts."
+    ],
+    [
+      "Student provides no examples or evidence to support their explanations.",
+      "Student provides one or two weak or irrelevant examples.",
+      "Student provides a few examples, but they are not well-explained or connected to the dangers.",
+      "Student provides relevant examples and evidence to support their explanations.",
+      "Student effectively uses a variety of examples and evidence to strengthen their explanations.",
+      "Student expertly integrates examples and evidence, demonstrating a deep understanding of the dangers."
+    ]
+  ]
+}

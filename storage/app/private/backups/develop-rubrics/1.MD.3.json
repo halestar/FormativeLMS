@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Ability to accurately tell time in hours on an analog clock.",
+    "Ability to accurately tell time in half-hours on an analog clock.",
+    "Ability to accurately tell time in hours on a digital clock.",
+    "Ability to accurately tell time in half-hours on a digital clock.",
+    "Ability to write time correctly in hours and half-hours."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify the hour on an analog clock.",
+      "Student can identify the hour on an analog clock with significant difficulty and frequent errors.",
+      "Student can identify the hour on an analog clock, but makes occasional errors or requires assistance.",
+      "Student can accurately identify the hour on an analog clock most of the time with minimal errors.",
+      "Student can consistently and accurately identify the hour on an analog clock.",
+      "Student can consistently and accurately identify the hour on an analog clock and explain the concept of how the hour hand moves in relation to the minutes."
+    ],
+    [
+      "Student is unable to identify the half-hour on an analog clock.",
+      "Student can identify the half-hour on an analog clock with significant difficulty and frequent errors.",
+      "Student can identify the half-hour on an analog clock, but makes occasional errors or requires assistance.",
+      "Student can accurately identify the half-hour on an analog clock most of the time with minimal errors.",
+      "Student can consistently and accurately identify the half-hour on an analog clock.",
+      "Student can consistently and accurately identify the half-hour on an analog clock and can explain why the hour hand is halfway between the hours."
+    ],
+    [
+      "Student is unable to identify the hour on a digital clock.",
+      "Student can identify the hour on a digital clock with significant difficulty and frequent errors.",
+      "Student can identify the hour on a digital clock, but makes occasional errors or requires assistance.",
+      "Student can accurately identify the hour on a digital clock most of the time with minimal errors.",
+      "Student can consistently and accurately identify the hour on a digital clock.",
+      "Student can consistently and accurately identify the hour on a digital clock and can explain the concept of AM\/PM."
+    ],
+    [
+      "Student is unable to identify the half-hour on a digital clock.",
+      "Student can identify the half-hour on a digital clock with significant difficulty and frequent errors.",
+      "Student can identify the half-hour on a digital clock, but makes occasional errors or requires assistance.",
+      "Student can accurately identify the half-hour on a digital clock most of the time with minimal errors.",
+      "Student can consistently and accurately identify the half-hour on a digital clock.",
+      "Student can consistently and accurately identify the half-hour on a digital clock and explain how it relates to minutes past the hour."
+    ],
+    [
+      "Student is unable to write time in hours and half-hours.",
+      "Student attempts to write time, but the representation is incorrect and demonstrates a lack of understanding.",
+      "Student can write time with assistance, but the format or representation is not always accurate.",
+      "Student can write time in hours and half-hours correctly most of the time, with occasional errors in notation.",
+      "Student can consistently write time in hours and half-hours correctly using proper notation.",
+      "Student can consistently write time in hours and half-hours correctly and can explain the relationship between different time notations."
+    ]
+  ]
+}

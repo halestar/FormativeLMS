@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Feelings Associated with Loss or Grief",
+    "Understanding the Impact of Loss on Emotions",
+    "Differentiation Between Feelings and Emotions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of feelings associated with loss or grief.",
+      "Student identifies only one basic feeling (e.g., sadness) associated with loss or grief.",
+      "Student identifies a few feelings (2-3) but struggles to differentiate between them or connect them to loss.",
+      "Student identifies several feelings (3-4) associated with loss or grief but may not fully explain the intensity or range of emotions.",
+      "Student accurately identifies a wide range of feelings (4+) associated with loss or grief and can explain how these feelings manifest.",
+      "Student comprehensively identifies a wide range of feelings, including complex emotions, associated with loss or grief, providing insightful explanations and demonstrating empathy."
+    ],
+    [
+      "Student shows no awareness of how loss impacts emotions.",
+      "Student vaguely mentions that loss makes people sad without further explanation.",
+      "Student acknowledges that loss affects emotions but struggles to provide specific examples.",
+      "Student explains how loss can lead to common emotions like sadness, anger, or confusion.",
+      "Student discusses the emotional impact of loss, including potential long-term effects and individual differences in response.",
+      "Student provides a nuanced explanation of the emotional impact of loss, incorporating concepts like grief stages, coping mechanisms, and the importance of emotional support."
+    ],
+    [
+      "Student is unable to differentiate between feelings and emotions, using the terms interchangeably.",
+      "Student shows a limited understanding of the difference, possibly providing an incomplete definition.",
+      "Student can provide basic definitions of feelings and emotions but struggles to apply them in the context of loss or grief.",
+      "Student explains the difference between feelings and emotions, providing relevant examples related to loss.",
+      "Student clearly differentiates between feelings and emotions, demonstrating an understanding of their complexities and how they relate to grief.",
+      "Student offers a sophisticated explanation of the relationship between feelings and emotions, especially in the context of loss, discussing how they interact and influence behavior."
+    ]
+  ]
+}

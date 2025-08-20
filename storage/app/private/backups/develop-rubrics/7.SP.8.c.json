@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to construct organized lists, tables, or tree diagrams to represent sample spaces for compound events.",
+    "Ability to calculate probabilities of compound events using the representation of the sample space.",
+    "Ability to design and use a simulation to generate frequencies for compound events.",
+    "Ability to interpret and communicate the results of probability calculations and simulations in context."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to create a visual representation of the sample space.",
+      "Creates an incomplete or inaccurate list, table, or tree diagram. Shows significant misunderstanding of sample space.",
+      "Creates a partially complete or slightly inaccurate list, table, or tree diagram. Some misunderstanding of sample space is evident.",
+      "Creates a mostly complete and accurate list, table, or tree diagram with minor errors. Understands the concept of sample space.",
+      "Creates a complete and accurate list, table, or tree diagram. Demonstrates a strong understanding of sample space.",
+      "Creates a complete, accurate, and well-organized list, table, or tree diagram. Explains the sample space clearly and concisely."
+    ],
+    [
+      "No attempt to calculate probabilities.",
+      "Attempts to calculate probabilities but demonstrates significant errors and misunderstandings.",
+      "Calculates probabilities with some errors and misunderstandings. Can identify some favorable outcomes.",
+      "Calculates probabilities with mostly correct reasoning, but may have minor calculation errors.",
+      "Accurately calculates probabilities of compound events using the sample space representation.",
+      "Accurately and efficiently calculates probabilities. Can explain the reasoning and justify the answers."
+    ],
+    [
+      "No attempt to design or use a simulation.",
+      "Attempts to design a simulation, but the design is flawed and does not accurately represent the compound event.",
+      "Designs a simulation with some flaws, but is able to generate some frequencies. Shows some understanding of simulation.",
+      "Designs and uses a simulation that generates frequencies, but may have some inconsistencies or inaccuracies.",
+      "Designs and uses a simulation effectively to generate frequencies for compound events. Results are generally accurate.",
+      "Designs and implements a sophisticated simulation to accurately generate frequencies. Can analyze and interpret the simulation results effectively."
+    ],
+    [
+      "Unable to interpret or communicate results.",
+      "Attempts to interpret results but demonstrates significant misunderstanding and communication is unclear.",
+      "Interprets results with some accuracy, but communication is unclear or incomplete.",
+      "Interprets and communicates results with reasonable accuracy and clarity. Connects results to the context of the problem.",
+      "Clearly and accurately interprets and communicates results. Provides strong connections to the context of the problem.",
+      "Provides a thorough, insightful, and well-communicated interpretation of results. Demonstrates a deep understanding of the problem context and implications."
+    ]
+  ]
+}

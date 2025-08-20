@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding fractions as numbers on a number line",
+    "Marking off lengths of 1\/b from 0",
+    "Recognizing the interval size a\/b",
+    "Locating the number a\/b on the number line"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how to represent fractions on a number line.",
+      "Student can represent simple fractions (e.g., 1\/2, 1\/4) on a number line but struggles with more complex fractions.",
+      "Student can represent fractions with smaller denominators on a number line but has difficulty with larger denominators or non-unit fractions.",
+      "Student can accurately represent most fractions on a number line, including unit and non-unit fractions, but may make occasional errors in placement.",
+      "Student can accurately represent fractions on a number line and explain the relationship between the numerator, denominator, and position on the number line.",
+      "Student demonstrates a thorough understanding of fractions on a number line, accurately represents complex fractions, and can explain the concept clearly and precisely."
+    ],
+    [
+      "Student does not attempt to mark off lengths or shows no understanding of the concept.",
+      "Student attempts to mark off lengths but does so inaccurately or inconsistently.",
+      "Student can mark off lengths for simple fractions but struggles with more complex fractions or larger denominators.",
+      "Student can accurately mark off lengths for most fractions but may make occasional errors in spacing or labeling.",
+      "Student consistently and accurately marks off lengths for fractions, demonstrating a clear understanding of the unit fraction's role.",
+      "Student demonstrates expertise in marking off lengths, applies the concept to various fractions, and explains the process effectively."
+    ],
+    [
+      "Student does not recognize or identify the interval size.",
+      "Student attempts to identify the interval size but struggles to do so accurately.",
+      "Student can identify the interval size for simple fractions but struggles with more complex fractions or larger denominators.",
+      "Student can accurately identify the interval size for most fractions but may make occasional errors in calculations or labeling.",
+      "Student consistently and accurately identifies the interval size, demonstrating a clear understanding of its relationship to the fraction.",
+      "Student demonstrates a deep understanding of interval size, applies the concept to various fractions, and explains the connection effectively."
+    ],
+    [
+      "Student cannot locate the number on the number line.",
+      "Student attempts to locate the number but does so inaccurately or inconsistently.",
+      "Student can locate simple fractions but struggles with more complex fractions or larger denominators.",
+      "Student can accurately locate most fractions but may make occasional errors in placement or labeling.",
+      "Student consistently and accurately locates fractions on the number line, demonstrating a clear understanding of their position.",
+      "Student demonstrates expertise in locating fractions on the number line, applies the concept to various fractions, and explains the position effectively."
+    ]
+  ]
+}

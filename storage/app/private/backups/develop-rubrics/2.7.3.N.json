@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Knowledge of Healthy vs. Unhealthy Beverages",
+    "Ability to Apply Knowledge in Real-Life Scenarios",
+    "Understanding of Long-Term Health Implications"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes a healthy or unhealthy beverage choice.",
+      "Shows limited understanding, struggling to differentiate between healthy and unhealthy options; may choose unhealthy options without recognizing them as such.",
+      "Identifies some healthy and unhealthy beverages but lacks a comprehensive understanding of the nutritional aspects and health impacts.",
+      "Generally selects healthy beverage options but may occasionally choose less healthy ones without fully considering the implications.",
+      "Consistently selects healthy beverage options, demonstrating a good understanding of nutritional information and health benefits; explains choices adequately.",
+      "Demonstrates comprehensive knowledge of healthy beverage choices, explains the benefits and drawbacks of various options, and consistently makes informed decisions that reflect optimal health practices."
+    ],
+    [
+      "Unable to apply knowledge to choose healthy beverages in practical scenarios or when presented with real-life choices.",
+      "Struggles to apply knowledge; makes poor beverage choices in practical scenarios and needs guidance to identify healthier options.",
+      "Sometimes applies knowledge correctly but shows inconsistency in selecting healthy beverages in different situations or when faced with tempting alternatives.",
+      "Generally applies knowledge effectively but may occasionally make less healthy choices due to convenience or lack of available options.",
+      "Consistently applies knowledge to make healthy beverage choices in a variety of real-life scenarios, showing good judgment and understanding of context.",
+      "Proactively seeks out and chooses the healthiest beverage options in all scenarios, demonstrating excellent application of knowledge and a commitment to healthy habits."
+    ],
+    [
+      "Shows no awareness of the long-term health implications of beverage choices.",
+      "Demonstrates minimal understanding of how beverage choices can affect long-term health, focusing mainly on immediate effects.",
+      "Understands some basic long-term health implications but lacks depth in explaining the potential consequences of poor beverage choices.",
+      "Shows a general understanding of how beverage choices can impact long-term health but struggles to articulate specific connections.",
+      "Explains the long-term health implications of beverage choices with good detail, demonstrating a clear understanding of the impact on overall well-being.",
+      "Demonstrates comprehensive knowledge of the long-term health implications, providing detailed explanations of the positive and negative effects of various beverage choices on different systems in the body."
+    ]
+  ]
+}

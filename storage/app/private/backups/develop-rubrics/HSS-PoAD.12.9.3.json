@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Understanding of Federal Systems",
+    "Understanding of Confederal Systems",
+    "Understanding of Unitary Systems",
+    "Comparison of Advantages",
+    "Comparison of Disadvantages",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of federal systems of government.",
+      "Shows limited understanding; struggles to identify characteristics.",
+      "Identifies some characteristics, but explanation is unclear.",
+      "Clearly identifies and explains basic characteristics of federal systems.",
+      "Explains characteristics with specific examples and demonstrates good understanding.",
+      "Provides a comprehensive explanation of federal systems, including nuances and real-world examples."
+    ],
+    [
+      "Demonstrates no understanding of confederal systems of government.",
+      "Shows limited understanding; struggles to identify characteristics.",
+      "Identifies some characteristics, but explanation is unclear.",
+      "Clearly identifies and explains basic characteristics of confederal systems.",
+      "Explains characteristics with specific examples and demonstrates good understanding.",
+      "Provides a comprehensive explanation of confederal systems, including nuances and real-world examples."
+    ],
+    [
+      "Demonstrates no understanding of unitary systems of government.",
+      "Shows limited understanding; struggles to identify characteristics.",
+      "Identifies some characteristics, but explanation is unclear.",
+      "Clearly identifies and explains basic characteristics of unitary systems.",
+      "Explains characteristics with specific examples and demonstrates good understanding.",
+      "Provides a comprehensive explanation of unitary systems, including nuances and real-world examples."
+    ],
+    [
+      "Unable to identify any advantages of the systems of government.",
+      "Identifies advantages with significant inaccuracies.",
+      "Identifies at least one advantage for each system with limited explanation.",
+      "Clearly explains at least one advantage for each system.",
+      "Provides multiple advantages for each system with clear explanations.",
+      "Articulates multiple nuanced advantages for each system with sophisticated explanations."
+    ],
+    [
+      "Unable to identify any disadvantages of the systems of government.",
+      "Identifies disadvantages with significant inaccuracies.",
+      "Identifies at least one disadvantage for each system with limited explanation.",
+      "Clearly explains at least one disadvantage for each system.",
+      "Provides multiple disadvantages for each system with clear explanations.",
+      "Articulates multiple nuanced disadvantages for each system with sophisticated explanations."
+    ],
+    [
+      "Response is disorganized and difficult to understand.",
+      "Response lacks clear structure and contains significant grammatical errors.",
+      "Response is somewhat organized but contains noticeable grammatical errors.",
+      "Response is generally clear, organized, and contains few grammatical errors.",
+      "Response is clear, well-organized, and contains minimal grammatical errors.",
+      "Response is exceptionally clear, logically organized, and free of grammatical errors."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Goal Setting",
+    "Action Planning",
+    "Resource Identification",
+    "Community Health Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goals are established.",
+      "Goals are unrealistic or vague.",
+      "Goals are somewhat realistic but lack detail.",
+      "Goals are realistic, but some details are missing.",
+      "Goals are realistic and well-defined.",
+      "Goals are realistic, well-defined, and measurable."
+    ],
+    [
+      "No action plan is created.",
+      "The action plan is unclear or unrealistic.",
+      "The action plan is somewhat clear but lacks feasibility.",
+      "The action plan is feasible, but some steps are missing.",
+      "The action plan is feasible and includes all necessary steps.",
+      "The action plan is feasible, includes all necessary steps, and considers potential obstacles."
+    ],
+    [
+      "No resources are identified.",
+      "Few resources are identified.",
+      "Some resources are identified, but their relevance is unclear.",
+      "Relevant resources are identified, but there are some missing resources.",
+      "All resources identified are relevant and accessible.",
+      "All resources identified are relevant, accessible, and evaluated for their effectiveness."
+    ],
+    [
+      "No community health impact is considered.",
+      "The community health impact is unclear or unrealistic.",
+      "The community health impact is somewhat clear but lacks detail.",
+      "The community health impact is feasible, but some details are missing.",
+      "The community health impact is feasible and includes all necessary details.",
+      "The community health impact is feasible, includes all necessary details, and is measurable."
+    ]
+  ]
+}

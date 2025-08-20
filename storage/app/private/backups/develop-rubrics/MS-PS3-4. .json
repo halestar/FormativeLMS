@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning the Investigation",
+    "Understanding of Energy Transfer",
+    "Data Collection and Recording",
+    "Analysis and Interpretation of Results"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No clear plan is evident, and the investigation lacks focus.",
+      "The plan is incomplete, missing key elements such as variables or controls.",
+      "The plan identifies variables and controls but lacks detail on how they will be managed.",
+      "A detailed plan is present, with clear identification of variables, controls, and data collection methods.",
+      "The plan is comprehensive and includes consideration of potential sources of error and bias.",
+      "The plan demonstrates a sophisticated understanding of experimental design, including well-justified controls and methods for minimizing error."
+    ],
+    [
+      "Demonstrates no understanding of energy transfer concepts.",
+      "Shows limited understanding of energy transfer and its relationship to temperature change.",
+      "Describes energy transfer but struggles to connect it to the specific investigation.",
+      "Explains the relationship between energy transfer, matter, mass, and temperature change in the context of the investigation.",
+      "Applies understanding of energy transfer to explain the results of the investigation and make predictions.",
+      "Demonstrates a deep understanding of energy transfer principles and can apply them to novel situations, explaining the underlying mechanisms."
+    ],
+    [
+      "Data collection is absent or completely disorganized.",
+      "Data collection is inconsistent and lacks clear organization.",
+      "Data is collected but not recorded accurately or with appropriate units.",
+      "Data is collected systematically, recorded accurately, and includes appropriate units.",
+      "Data is organized effectively, and patterns or trends are identified.",
+      "Data is meticulously collected, recorded, and analyzed to draw meaningful conclusions supported by evidence."
+    ],
+    [
+      "No attempt is made to analyze or interpret the data.",
+      "Attempts to analyze the data are superficial and lack connection to the investigation's purpose.",
+      "Identifies basic trends in the data but struggles to explain their significance.",
+      "Analyzes the data and draws reasonable conclusions based on the evidence.",
+      "Interprets the results in the context of the investigation, considering limitations and potential sources of error.",
+      "Provides a comprehensive analysis of the results, drawing well-supported conclusions and relating them to broader scientific principles."
+    ]
+  ]
+}

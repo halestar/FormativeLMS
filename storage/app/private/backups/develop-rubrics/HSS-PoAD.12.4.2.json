@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the amendment process outlined in the Constitution",
+    "Clarity and coherence of explanation",
+    "Use of accurate and relevant terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the amendment process.",
+      "Shows minimal understanding, with significant inaccuracies.",
+      "Identifies some aspects of the amendment process but lacks detail and clarity.",
+      "Explains the basic steps of the amendment process with some accuracy.",
+      "Clearly explains the amendment process, including the roles of different governmental bodies, with few errors.",
+      "Provides a comprehensive and accurate explanation of the amendment process, including historical context or relevant examples."
+    ],
+    [
+      "Explanation is incomprehensible and lacks organization.",
+      "Explanation is difficult to follow and poorly organized.",
+      "Explanation is somewhat organized but contains significant gaps in logic.",
+      "Explanation is generally clear and organized, with minor lapses in coherence.",
+      "Explanation is clear, well-organized, and easy to follow.",
+      "Explanation is exceptionally clear, concise, and logically structured, demonstrating a mastery of the subject matter."
+    ],
+    [
+      "Uses incorrect or irrelevant terminology.",
+      "Uses terminology inappropriately or with significant errors.",
+      "Uses some relevant terminology but demonstrates a limited understanding of its meaning.",
+      "Uses accurate terminology appropriately, but with occasional imprecision.",
+      "Consistently uses accurate and relevant terminology.",
+      "Demonstrates a sophisticated understanding of terminology and uses it effectively to enhance the explanation."
+    ]
+  ]
+}

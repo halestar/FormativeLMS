@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effective Use of Technology",
+    "Linking and Integration of Information",
+    "Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not use technology to produce or publish writing.",
+      "The student attempts to use technology, but struggles with basic functions and the final product is lacking.",
+      "The student uses technology to produce writing, but does not take advantage of its unique capabilities.",
+      "The student effectively uses technology to produce and publish writing, incorporating some dynamic elements.",
+      "The student skillfully uses technology to enhance their writing, including linking to external sources and displaying information dynamically.",
+      "The student demonstrates mastery in using technology to create a sophisticated, interactive writing product that maximizes the capabilities of digital media."
+    ],
+    [
+      "The student does not include any external links or sources in their writing.",
+      "The student includes links, but they are irrelevant or do not function properly.",
+      "The student includes a few relevant links, but they are not well-integrated into the text.",
+      "The student integrates links to enhance the reader's understanding.",
+      "The student skillfully integrates a variety of sources and links to enrich the depth and credibility of their writing.",
+      "The student expertly uses links and dynamic elements to create a comprehensive and engaging experience for the reader, demonstrating a deep understanding of the topic."
+    ],
+    [
+      "The writing is unclear and difficult to understand.",
+      "The writing is somewhat clear, but lacks coherence.",
+      "The writing is generally clear and coherent, but could be improved.",
+      "The writing is clear, coherent, and well-organized.",
+      "The writing is exceptionally clear, coherent, and engaging, with a strong sense of purpose.",
+      "The writing is flawless in its clarity, coherence, and style, demonstrating a masterful command of language and technology."
+    ]
+  ]
+}

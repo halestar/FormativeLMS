@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Knowledge of First Aid Procedures",
+    "Application of First Aid Skills",
+    "Knowledge of CPR Procedures",
+    "Application of CPR Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of first aid procedures.",
+      "Demonstrates minimal understanding of first aid procedures; struggles to recall basic steps.",
+      "Demonstrates some understanding of first aid procedures; can recall some steps with prompting.",
+      "Demonstrates a general understanding of first aid procedures; can recall most steps with minor errors.",
+      "Demonstrates a clear understanding of first aid procedures; can accurately recall and explain most steps.",
+      "Demonstrates a comprehensive understanding of first aid procedures; can accurately recall, explain, and adapt steps as needed."
+    ],
+    [
+      "Unable to perform any first aid skills.",
+      "Struggles to perform basic first aid skills; requires significant assistance.",
+      "Can perform some basic first aid skills with guidance and support.",
+      "Can perform most first aid skills with minimal assistance.",
+      "Can confidently and accurately perform most first aid skills.",
+      "Can perform all first aid skills accurately and efficiently in simulated scenarios."
+    ],
+    [
+      "Demonstrates no understanding of CPR procedures.",
+      "Demonstrates minimal understanding of CPR procedures; struggles to recall basic steps.",
+      "Demonstrates some understanding of CPR procedures; can recall some steps with prompting.",
+      "Demonstrates a general understanding of CPR procedures; can recall most steps with minor errors.",
+      "Demonstrates a clear understanding of CPR procedures; can accurately recall and explain most steps.",
+      "Demonstrates a comprehensive understanding of CPR procedures; can accurately recall, explain, and adapt steps as needed."
+    ],
+    [
+      "Unable to perform any CPR skills.",
+      "Struggles to perform basic CPR skills; requires significant assistance.",
+      "Can perform some basic CPR skills with guidance and support.",
+      "Can perform most CPR skills with minimal assistance.",
+      "Can confidently and accurately perform most CPR skills.",
+      "Can perform all CPR skills accurately and efficiently in simulated scenarios."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Dangerous Situations",
+    "Application of Avoidance Strategies",
+    "Reporting Procedures",
+    "Understanding Legal Definitions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any dangerous situations involving weapons or gangs.",
+      "Student can identify a dangerous situation with prompting.",
+      "Student can identify a single dangerous situation involving weapons or gangs.",
+      "Student can identify multiple dangerous situations but lacks specific details.",
+      "Student can clearly identify and describe multiple dangerous situations involving weapons and gangs.",
+      "Student can clearly identify and describe multiple dangerous situations involving weapons and gangs and provide context."
+    ],
+    [
+      "Student does not suggest any avoidance strategies.",
+      "Student suggests inappropriate avoidance strategies.",
+      "Student suggests one basic avoidance strategy.",
+      "Student suggests multiple basic avoidance strategies.",
+      "Student suggests and explains multiple relevant avoidance strategies.",
+      "Student suggests and explains multiple relevant avoidance strategies and can predict their outcomes."
+    ],
+    [
+      "Student is unaware of reporting procedures.",
+      "Student is vague about reporting procedures.",
+      "Student identifies one appropriate reporting channel (e.g., teacher, police).",
+      "Student identifies multiple appropriate reporting channels.",
+      "Student identifies and explains the steps to report a dangerous situation through multiple channels.",
+      "Student identifies and explains the steps to report a dangerous situation through multiple channels, understanding the importance of each step."
+    ],
+    [
+      "Student does not know that weapon have legal definitions.",
+      "Student mentions that weapon have legal definitions.",
+      "Student is familiar with some of the legal definitions of what constitutes a weapon.",
+      "Student is familiar with most of the legal definitions of what constitutes a weapon.",
+      "Student clearly demonstrates knowledge of the legal definitions of weapons as described in EC Section 49330.",
+      "Student clearly demonstrates knowledge of the legal definitions of weapons as described in EC Section 49330 and can discuss the implications of these definitions."
+    ]
+  ]
+}

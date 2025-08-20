@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of common mental health conditions.",
+    "Explanation of the importance of seeking professional help.",
+    "Clarity and accuracy of information presented."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any mental health conditions.",
+      "Student identifies one common mental health condition with significant inaccuracies.",
+      "Student identifies one common mental health condition with minor inaccuracies, or identifies two conditions but lacks detail.",
+      "Student accurately identifies two common mental health conditions.",
+      "Student accurately identifies three common mental health conditions and provides basic descriptions.",
+      "Student accurately identifies multiple common mental health conditions and provides detailed descriptions."
+    ],
+    [
+      "Student does not explain why seeking professional help is important.",
+      "Student provides a vague or inaccurate reason for seeking professional help.",
+      "Student provides a basic reason for seeking professional help, but lacks detail or clarity.",
+      "Student explains one clear reason why seeking professional help is important.",
+      "Student explains two clear reasons why seeking professional help is important.",
+      "Student comprehensively explains multiple reasons why seeking professional help is important, including potential benefits and consequences of not seeking help."
+    ],
+    [
+      "Information presented is unclear, inaccurate, or irrelevant.",
+      "Information presented is somewhat unclear or contains significant inaccuracies.",
+      "Information presented is mostly clear, but contains some minor inaccuracies.",
+      "Information presented is clear and mostly accurate.",
+      "Information presented is clear, accurate, and well-organized.",
+      "Information presented is exceptionally clear, accurate, well-organized, and demonstrates a thorough understanding of the topic."
+    ]
+  ]
+}

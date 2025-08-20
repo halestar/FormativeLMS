@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Stressor Classification: How accurately does the student classify personal stressors into the categories of home, school, and peers?",
+    "Completeness of Identification: To what extent does the student identify a comprehensive range of potential stressors within each category?",
+    "Clarity of Explanation: How clearly and coherently does the student explain the reasons why specific situations or events are classified as stressors?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to classify stressors or demonstrates a complete misunderstanding of the concept.",
+      "The student attempts to classify stressors, but the classifications are largely inaccurate and demonstrate a limited understanding of the categories.",
+      "The student classifies some stressors correctly, but there are significant inaccuracies or omissions in the classifications.",
+      "The student classifies most stressors correctly, with only minor inaccuracies or omissions. Demonstrates a general understanding of the categories.",
+      "The student accurately classifies nearly all stressors into the correct categories (home, school, peers) with only very minor errors.",
+      "The student flawlessly classifies all stressors into the appropriate categories, demonstrating a comprehensive understanding of different stressors and their sources (home, school, peers)."
+    ],
+    [
+      "The student fails to identify any stressors within the categories of home, school, and peers.",
+      "The student identifies only one or two stressors, and does not cover stressors from all of the categories (home, school, peers)",
+      "The student identifies a few stressors, but misses many common or significant stressors within each category.",
+      "The student identifies a moderate range of stressors, covering most of the common stressors in each category.",
+      "The student identifies a broad range of stressors, including many less obvious or commonly recognized stressors within each category.",
+      "The student demonstrates an exceptional ability to identify a comprehensive range of stressors, including nuanced and less obvious stressors, providing a holistic view of potential stress triggers."
+    ],
+    [
+      "The student provides no explanation or the explanation is completely incomprehensible.",
+      "The student attempts to explain their classifications, but the explanation is vague, unclear, and lacks coherence.",
+      "The student provides some explanation, but it lacks detail and clarity. The reasoning behind the classification is difficult to follow.",
+      "The student provides a reasonably clear explanation for most classifications, with sufficient detail to understand the reasoning.",
+      "The student provides a clear and coherent explanation for each classification, demonstrating a strong understanding of why the situation or event is a stressor.",
+      "The student not only provides clear and coherent explanations but also demonstrates insight into the underlying causes and consequences of the stressors, offering a nuanced understanding of their impact."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Supply and Demand Principles",
+    "Application of Productivity Concept",
+    "Explanation of Wage Differences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of supply and demand principles.",
+      "Student shows a minimal understanding of supply and demand, with significant misconceptions.",
+      "Student demonstrates a basic understanding of supply and demand but struggles to apply it to real-world examples.",
+      "Student demonstrates a satisfactory understanding of supply and demand and can apply it to some examples.",
+      "Student demonstrates a strong understanding of supply and demand and can apply it to various examples with accuracy.",
+      "Student demonstrates a comprehensive understanding of supply and demand, can apply it accurately to complex scenarios, and can explain its impact on wage differences."
+    ],
+    [
+      "Student does not mention or demonstrate any understanding of productivity.",
+      "Student vaguely mentions productivity but shows no understanding of its relevance to wage differences.",
+      "Student demonstrates a limited understanding of productivity and its connection to wages.",
+      "Student demonstrates a satisfactory understanding of productivity and its relationship to wages, providing simple examples.",
+      "Student demonstrates a strong understanding of productivity and clearly explains its impact on wage differences with relevant examples.",
+      "Student demonstrates a comprehensive understanding of productivity, provides insightful analysis of its influence on wages, and considers various factors affecting productivity."
+    ],
+    [
+      "Student fails to explain any wage differences among jobs and professions.",
+      "Student offers a very limited and inaccurate explanation of wage differences.",
+      "Student provides a basic explanation of wage differences but lacks depth and accuracy.",
+      "Student adequately explains some wage differences using supply and demand and productivity, but some explanations are unclear or incomplete.",
+      "Student clearly and accurately explains wage differences among various jobs and professions using supply and demand and productivity.",
+      "Student provides a thorough and insightful explanation of wage differences, considering a wide range of factors and providing well-supported examples."
+    ]
+  ]
+}

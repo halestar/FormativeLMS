@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding of Tens and Ones",
+    "Understanding of 'A Bundle of Ten Ones'"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of tens and ones.",
+      "Student struggles to identify tens and ones in a two-digit number.",
+      "Student can identify tens and ones but has difficulty explaining their meaning.",
+      "Student can identify tens and ones and explain their meaning with some prompting.",
+      "Student can clearly identify and explain the meaning of tens and ones in a two-digit number.",
+      "Student demonstrates a thorough understanding of tens and ones, and can apply this knowledge to solve problems."
+    ],
+    [
+      "Student does not understand the concept of ten ones forming a ten.",
+      "Student struggles to relate ten individual units to a single group of ten.",
+      "Student can relate ten ones to a ten with some prompting.",
+      "Student understands that ten ones make a ten but struggles to explain the concept.",
+      "Student can explain the concept of ten ones making a ten, and provide examples.",
+      "Student demonstrates a deep understanding of how ten ones form a ten and can apply this concept in various contexts."
+    ]
+  ]
+}

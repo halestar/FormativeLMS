@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Nutritional Assessment",
+    "Goal Setting",
+    "Strategies and Action Plan",
+    "Incorporating Physical Activity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to assess current nutritional habits.",
+      "Demonstrates minimal awareness of current nutritional habits; lacks specific details.",
+      "Identifies some aspects of current nutritional habits with basic details; some inaccuracies present.",
+      "Accurately identifies most aspects of current nutritional habits with reasonable detail.",
+      "Provides a comprehensive and accurate assessment of current nutritional habits with specific details and examples.",
+      "Offers an exceptionally thorough and insightful nutritional assessment, demonstrating a deep understanding of personal dietary needs and habits."
+    ],
+    [
+      "No goals are identified.",
+      "Identifies vague goals with no clear connection to improving nutrition or physical activity.",
+      "Identifies basic goals that are somewhat related to nutrition or physical activity, but lacks detail.",
+      "Sets specific and measurable goals related to improving nutrition and incorporating physical activity, but lacks a timeline.",
+      "Sets SMART (Specific, Measurable, Achievable, Relevant, Time-bound) goals that are clearly linked to improving nutrition and incorporating physical activity.",
+      "Establishes exemplary SMART goals that demonstrate a comprehensive understanding of personal health needs, showing a strong commitment to improvement."
+    ],
+    [
+      "No strategies or action plan provided.",
+      "Offers minimal and unrealistic strategies with no actionable steps.",
+      "Suggests basic strategies with some actionable steps, but lacks feasibility or detail.",
+      "Develops a feasible action plan with realistic strategies for improving nutrition and incorporating physical activity, but lacks contingency plans.",
+      "Presents a well-developed and comprehensive action plan with detailed strategies, considering potential challenges and offering contingency plans.",
+      "Crafts an exceptional action plan with innovative and highly personalized strategies, demonstrating a deep understanding of behavior change and long-term sustainability."
+    ],
+    [
+      "No incorporation of physical activity is described.",
+      "Mentions physical activity but does not include it in the daily routine.",
+      "Includes general physical activity suggestions with no specifics about frequency, intensity, type, or time.",
+      "Describes specific physical activities to incorporate, but lacks detail or is unrealistic.",
+      "Develops a realistic plan for incorporating physical activity into daily routines with specific types of exercises, frequency, intensity, and time.",
+      "Creates a highly personalized and motivating plan for incorporating physical activity, demonstrating a deep understanding of personal preferences and long-term sustainability."
+    ]
+  ]
+}

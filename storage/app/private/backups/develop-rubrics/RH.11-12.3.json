@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Explanations",
+    "Evaluation and Accordance with Textual Evidence",
+    "Acknowledgment of Uncertainty"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any explanations for actions or events.",
+      "Identifies only one explanation without textual support.",
+      "Identifies multiple explanations but struggles to connect them to the text.",
+      "Identifies several explanations and attempts to link them to the text, but analysis is superficial.",
+      "Clearly identifies multiple explanations and effectively connects them to textual evidence.",
+      "Masterfully identifies various explanations, providing insightful connections to textual evidence."
+    ],
+    [
+      "Does not attempt to evaluate explanations or relate them to the text.",
+      "Attempts to evaluate explanations but does not use textual evidence.",
+      "Evaluates explanations with limited reference to the text.",
+      "Evaluates explanations using some textual evidence, but the connection is not always clear.",
+      "Clearly evaluates explanations and supports judgments with relevant textual evidence.",
+      "Insightfully evaluates explanations, expertly using textual evidence to support judgments and showing a nuanced understanding."
+    ],
+    [
+      "Does not acknowledge any uncertainty in the text.",
+      "Vaguely acknowledges uncertainty without specific examples.",
+      "Acknowledges uncertainty but does not explain its significance.",
+      "Acknowledges uncertainty and provides a basic explanation of its significance.",
+      "Clearly acknowledges uncertainty and explains its significance with textual support.",
+      "Insightfully acknowledges uncertainty, thoroughly explains its significance, and demonstrates a deep understanding of textual nuances."
+    ]
+  ]
+}

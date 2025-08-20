@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness in Encouraging Peers",
+    "Clarity and Accuracy of Information Provided",
+    "Respect and Sensitivity in Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no attempt to encourage peers or actively discourages the use of safety equipment.",
+      "Makes a minimal effort to encourage peers, with little to no impact on their behavior.",
+      "Occasionally encourages peers to use safety equipment, but lacks consistency and persuasive techniques.",
+      "Regularly encourages peers to use safety equipment, providing basic reasons for its importance.",
+      "Consistently and effectively encourages peers to use safety equipment, tailoring their approach to individual needs and providing clear explanations of benefits.",
+      "Serves as a role model and proactive advocate for safety equipment use, inspiring peers and creating a culture of safety within the group."
+    ],
+    [
+      "Provides inaccurate or misleading information about the importance of safety equipment.",
+      "Provides limited and potentially unclear information about the importance of safety equipment.",
+      "Provides generally accurate information, but lacks detail or specific examples.",
+      "Clearly explains the importance of safety equipment with accurate and relevant information.",
+      "Provides comprehensive and accurate information, including potential risks and benefits of using safety equipment.",
+      "Demonstrates expert knowledge and effectively communicates the importance of safety equipment with persuasive and evidence-based reasoning."
+    ],
+    [
+      "Uses disrespectful or insensitive language when encouraging peers, potentially causing offense.",
+      "Communication lacks sensitivity or awareness of peers' individual concerns or hesitations.",
+      "Generally respectful, but may occasionally dismiss or overlook peers' concerns.",
+      "Communicates respectfully and acknowledges peers' concerns, providing reassurance and support.",
+      "Demonstrates empathy and adapts their communication style to address individual peers' needs and preferences.",
+      "Creates a safe and supportive environment for peers to openly discuss their concerns and hesitations about safety equipment, fostering trust and encouraging informed decision-making."
+    ]
+  ]
+}

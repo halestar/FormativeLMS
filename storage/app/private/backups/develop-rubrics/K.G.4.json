@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of 2D and 3D Shapes: Demonstrates understanding of the basic properties of two-dimensional and three-dimensional shapes.",
+    "Comparison of Shapes: Compares shapes based on their attributes, such as number of sides, vertices, and equal length sides.",
+    "Use of Informal Language: Uses appropriate informal language to describe shapes and their attributes."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of basic shapes or their properties.",
+      "Struggles to identify basic shapes and their properties.",
+      "Identifies some shapes and properties but with inaccuracies.",
+      "Identifies most shapes and properties with minor errors.",
+      "Accurately identifies shapes and properties with clear understanding.",
+      "Demonstrates thorough and accurate understanding of shapes and their properties, including complex shapes."
+    ],
+    [
+      "Unable to compare shapes or identify similarities and differences.",
+      "Struggles to compare shapes, with difficulty identifying attributes.",
+      "Compares shapes with limited accuracy and struggles to articulate attributes.",
+      "Compares shapes accurately and identifies key attributes, but may miss subtle differences.",
+      "Compares shapes effectively, identifying similarities and differences with clear explanations.",
+      "Provides insightful and comprehensive comparisons of shapes, demonstrating a deep understanding of their attributes and relationships."
+    ],
+    [
+      "Unable to describe shapes or their attributes using any language.",
+      "Uses inappropriate or unclear language when describing shapes.",
+      "Uses limited and sometimes inaccurate language to describe shapes.",
+      "Uses appropriate informal language to describe shapes with occasional errors.",
+      "Uses clear and accurate informal language to describe shapes and their attributes.",
+      "Uses precise and descriptive informal language to articulate complex properties of shapes."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Scientific and Technological Changes",
+    "Analysis of Social, Economic, and Cultural Changes",
+    "Connection to Key Figures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of scientific or technological changes is demonstrated.",
+      "Minimal understanding of scientific or technological changes is demonstrated; information is inaccurate or incomplete.",
+      "Basic understanding of scientific or technological changes is demonstrated, but lacks depth or detail.",
+      "Adequate understanding of scientific or technological changes is demonstrated with some relevant details.",
+      "Clear and accurate understanding of scientific and technological changes is demonstrated with specific details and examples.",
+      "Comprehensive and insightful understanding of scientific and technological changes is demonstrated with well-developed examples and explanations."
+    ],
+    [
+      "No analysis of social, economic, or cultural changes is presented.",
+      "Minimal analysis of social, economic, or cultural changes is attempted; connections are unclear or unsupported.",
+      "Basic analysis of social, economic, or cultural changes is provided, but lacks depth or specific evidence.",
+      "Adequate analysis of social, economic, and cultural changes is provided with some supporting evidence.",
+      "Clear analysis of social, economic, and cultural changes is provided with relevant and specific evidence.",
+      "Comprehensive and insightful analysis of social, economic, and cultural changes is provided with well-developed evidence and clear explanations of causality."
+    ],
+    [
+      "No connection made to key figures like James Watt, Eli Whitney, Henry Bessemer, Louis Pasteur, or Thomas Edison.",
+      "Superficial connection made to one or more key figures; information is minimal or inaccurate.",
+      "Basic connection made to one or more key figures, but lacks depth or specific details about their contributions.",
+      "Adequate connection made to several key figures with some relevant details about their inventions or discoveries.",
+      "Clear and accurate connection made to multiple key figures, explaining their inventions\/discoveries and their impact.",
+      "Comprehensive and insightful connection made to all or most key figures, thoroughly explaining their contributions and broader historical significance."
+    ]
+  ]
+}

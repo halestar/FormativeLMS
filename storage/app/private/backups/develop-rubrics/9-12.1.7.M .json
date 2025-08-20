@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Signs and Symptoms",
+    "Analysis of Potential Contributing Factors",
+    "Understanding of Differentiating Self-Destructive Behaviors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the signs and symptoms of depression, potential suicide, and other self-destructive behaviors.",
+      "The student identifies very few signs and symptoms of depression, potential suicide, and other self-destructive behaviors.",
+      "The student identifies some signs and symptoms but struggles to differentiate between normal behaviors and warning signs.",
+      "The student accurately identifies several signs and symptoms of depression, potential suicide, and other self-destructive behaviors.",
+      "The student comprehensively identifies most key signs and symptoms and can provide examples.",
+      "The student thoroughly and accurately identifies a wide range of signs and symptoms, demonstrating a deep understanding of the nuances and complexities involved."
+    ],
+    [
+      "The student does not attempt to analyze potential contributing factors to depression, suicide, or self-destructive behaviors.",
+      "The student offers simplistic or irrelevant contributing factors.",
+      "The student identifies one or two potential contributing factors but lacks depth in their analysis.",
+      "The student analyzes several potential contributing factors, showing a basic understanding of their influence.",
+      "The student provides a well-reasoned analysis of multiple contributing factors and their interrelationships.",
+      "The student offers a sophisticated and insightful analysis of a wide range of contributing factors, including social, psychological, and environmental influences."
+    ],
+    [
+      "The student is unable to define what self-destructive behaviors are.",
+      "The student provides vague and overgeneralized definitions of self-destructive behaviors.",
+      "The student defines self-destructive behaviors but includes non-examples.",
+      "The student accurately defines self-destructive behaviors and provides several examples.",
+      "The student accurately defines self-destructive behaviors and provides different examples.",
+      "The student provides a nuanced definition of self-destructive behaviors while providing different examples that are correctly identified."
+    ]
+  ]
+}

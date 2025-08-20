@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the benefits to the mother of delaying parenthood until adulthood.",
+    "Understanding the benefits to the father of delaying parenthood until adulthood.",
+    "Understanding the benefits to the child of delaying parenthood until adulthood.",
+    "Overall clarity and organization of the evaluation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any benefits to the mother.",
+      "Identifies one or two vague or unclear benefits to the mother.",
+      "Identifies one clear benefit to the mother with limited explanation.",
+      "Identifies two clear benefits to the mother with some explanation.",
+      "Identifies three clear benefits to the mother with good explanation and some detail.",
+      "Identifies multiple clear benefits to the mother with thorough explanation, insightful details, and consideration of various aspects."
+    ],
+    [
+      "Does not identify any benefits to the father.",
+      "Identifies one or two vague or unclear benefits to the father.",
+      "Identifies one clear benefit to the father with limited explanation.",
+      "Identifies two clear benefits to the father with some explanation.",
+      "Identifies three clear benefits to the father with good explanation and some detail.",
+      "Identifies multiple clear benefits to the father with thorough explanation, insightful details, and consideration of various aspects."
+    ],
+    [
+      "Does not identify any benefits to the child.",
+      "Identifies one or two vague or unclear benefits to the child.",
+      "Identifies one clear benefit to the child with limited explanation.",
+      "Identifies two clear benefits to the child with some explanation.",
+      "Identifies three clear benefits to the child with good explanation and some detail.",
+      "Identifies multiple clear benefits to the child with thorough explanation, insightful details, and consideration of various aspects."
+    ],
+    [
+      "Evaluation is unclear, disorganized, and difficult to understand.",
+      "Evaluation is somewhat unclear and disorganized with significant issues in comprehension.",
+      "Evaluation is understandable but lacks clear organization and has some minor comprehension issues.",
+      "Evaluation is generally clear and organized with a logical flow of ideas.",
+      "Evaluation is clear, well-organized, and presents information in a logical and coherent manner.",
+      "Evaluation is exceptionally clear, well-organized, insightful, and presents information in a compelling and coherent manner."
+    ]
+  ]
+}

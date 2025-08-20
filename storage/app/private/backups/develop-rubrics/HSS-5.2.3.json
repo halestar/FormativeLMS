@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Mapped Routes and Distances",
+    "Inclusion of Key Explorers and Trade Connections",
+    "Clarity and Organization of Map Presentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The map is missing or contains numerous inaccuracies in routes and distances of major land explorers and Atlantic trade routes.",
+      "The map includes several inaccuracies or omissions regarding the routes and distances of major land explorers and Atlantic trade routes.",
+      "The map contains some inaccuracies or omissions regarding the routes and distances of major land explorers or Atlantic trade routes.",
+      "The map generally accurately depicts the routes and distances of major land explorers and Atlantic trade routes, with minor errors.",
+      "The map accurately depicts the routes and distances of major land explorers and Atlantic trade routes with only very minor imperfections.",
+      "The map is exceptionally accurate and detailed in its depiction of the routes and distances traveled by major land explorers and Atlantic trade routes."
+    ],
+    [
+      "The map fails to identify key land explorers of the United States or the connections within the Atlantic trade routes.",
+      "The map identifies few key land explorers and shows a limited understanding of the connections within the Atlantic trade routes.",
+      "The map identifies some key land explorers and provides a basic understanding of the connections within the Atlantic trade routes.",
+      "The map includes most major land explorers and illustrates the primary connections within the Atlantic trade routes effectively.",
+      "The map comprehensively includes all major land explorers and clearly illustrates the connections within the Atlantic trade routes.",
+      "The map demonstrates an advanced understanding by including lesser-known explorers and intricate connections within the Atlantic trade routes, going beyond the standard requirements."
+    ],
+    [
+      "The map is disorganized, difficult to read, and lacks clear labeling.",
+      "The map is somewhat disorganized with unclear labeling, making it difficult to follow the routes and connections.",
+      "The map is generally organized, but some labels are unclear or missing, affecting the understanding of the routes and connections.",
+      "The map is well-organized with mostly clear labeling, facilitating an understanding of the routes and connections.",
+      "The map is clearly and effectively organized with accurate labeling, making it easy to follow the routes and connections.",
+      "The map is exceptionally clear, visually appealing, and intuitively organized, enhancing the understanding of the historical context."
+    ]
+  ]
+}

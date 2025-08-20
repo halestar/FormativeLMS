@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Safe Relationships",
+    "Understanding of Respectful Relationships",
+    "Understanding of Responsible Relationships",
+    "Ability to Support Safe, Respectful, and Responsible Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes a safe relationship. Unable to identify any characteristics or boundaries.",
+      "Shows minimal understanding of safe relationships. Struggles to identify key characteristics or boundaries.",
+      "Displays a basic understanding of safe relationships, identifying some characteristics and boundaries with prompting.",
+      "Demonstrates a clear understanding of safe relationships, identifying key characteristics and boundaries. Can provide examples.",
+      "Demonstrates a thorough understanding of safe relationships, identifying key characteristics and boundaries with detailed examples. Can explain the importance of each.",
+      "Demonstrates a comprehensive understanding of safe relationships, identifying nuanced characteristics and boundaries. Can articulate the importance and impact of safe relationships on personal well-being and the community."
+    ],
+    [
+      "Demonstrates no understanding of what constitutes a respectful relationship. Unable to identify any elements of respect.",
+      "Shows minimal understanding of respectful relationships. Struggles to identify key elements of respect in interactions.",
+      "Displays a basic understanding of respectful relationships, identifying some elements of respect with prompting.",
+      "Demonstrates a clear understanding of respectful relationships, identifying key elements of respect. Can provide examples.",
+      "Demonstrates a thorough understanding of respectful relationships, identifying key elements of respect with detailed examples. Can explain the impact of respect on relationship dynamics.",
+      "Demonstrates a comprehensive understanding of respectful relationships, identifying nuanced elements of respect. Can articulate the importance of respect in fostering healthy, equitable, and positive relationships."
+    ],
+    [
+      "Demonstrates no understanding of what constitutes a responsible relationship. Unable to identify any elements of responsibility.",
+      "Shows minimal understanding of responsible relationships. Struggles to identify key elements of responsibility in interactions.",
+      "Displays a basic understanding of responsible relationships, identifying some elements of responsibility with prompting.",
+      "Demonstrates a clear understanding of responsible relationships, identifying key elements of responsibility. Can provide examples.",
+      "Demonstrates a thorough understanding of responsible relationships, identifying key elements of responsibility with detailed examples. Can explain the impact of responsibility on relationship dynamics.",
+      "Demonstrates a comprehensive understanding of responsible relationships, identifying nuanced elements of responsibility. Can articulate the importance of responsibility in maintaining healthy, equitable, and positive relationships, and can apply this knowledge to different relationship contexts."
+    ],
+    [
+      "Does not demonstrate any ability to support safe, respectful, or responsible relationships.",
+      "Shows minimal ability to support safe, respectful, or responsible relationships, requiring significant guidance.",
+      "Displays a basic ability to support safe, respectful, or responsible relationships with some prompting.",
+      "Demonstrates a clear ability to support safe, respectful, and responsible relationships in common scenarios.",
+      "Demonstrates a strong ability to support safe, respectful, and responsible relationships in a variety of scenarios, offering constructive suggestions.",
+      "Demonstrates an exceptional ability to support safe, respectful, and responsible relationships, proactively fostering these values within their sphere of influence and skillfully navigating complex scenarios with empathy and integrity."
+    ]
+  ]
+}

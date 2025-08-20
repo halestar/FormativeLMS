@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Causes: Assesses the student's comprehension of the various factors leading up to the Civil War.",
+    "Knowledge of Key Events: Evaluates the student's grasp of the significant events that occurred during the Civil War.",
+    "Analysis of Consequences: Measures the student's ability to analyze the short-term and long-term consequences of the Civil War."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the causes of the Civil War.",
+      "Identifies only one cause of the Civil War with minimal explanation.",
+      "Identifies a few causes of the Civil War but lacks depth in explanation and connection between them.",
+      "Identifies several causes of the Civil War with some explanation and attempts to connect them.",
+      "Clearly identifies and explains multiple causes of the Civil War, demonstrating a solid understanding of their connections.",
+      "Provides a comprehensive analysis of the multiple causes of the Civil War, clearly articulating their complex interrelationships and long-term impact."
+    ],
+    [
+      "Shows no knowledge of key events during the Civil War.",
+      "Identifies one key event of the Civil War with no details.",
+      "Identifies a few key events but provides limited details or context.",
+      "Identifies several key events with some details and attempts to place them in chronological order.",
+      "Accurately identifies and describes multiple key events of the Civil War, demonstrating a good understanding of their significance.",
+      "Provides a thorough and insightful account of key events during the Civil War, analyzing their impact on the war's trajectory and outcome."
+    ],
+    [
+      "Demonstrates no understanding of the consequences of the Civil War.",
+      "Identifies only one consequence of the Civil War with minimal explanation.",
+      "Identifies a few consequences of the Civil War but lacks depth in explanation and connection between them.",
+      "Identifies several consequences of the Civil War with some explanation and attempts to connect them.",
+      "Clearly identifies and explains multiple consequences of the Civil War, demonstrating a solid understanding of their impact.",
+      "Provides a comprehensive analysis of the consequences of the Civil War, clearly articulating their complex interrelationships and long-term effects on American society."
+    ]
+  ]
+}

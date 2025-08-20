@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of scarcity and its impact on economic decisions.",
+    "Application of economic concepts to real-world scenarios.",
+    "Analysis of resource allocation and its consequences."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of scarcity or its effects on production and consumption.",
+      "Shows minimal awareness of scarcity; struggles to connect it to economic choices.",
+      "Identifies scarcity but has difficulty explaining its influence on production and consumption decisions.",
+      "Explains how scarcity affects either production or consumption, but not both comprehensively.",
+      "Clearly explains how scarcity influences both production and consumption decisions, providing relevant examples.",
+      "Demonstrates a thorough understanding of scarcity and its complex effects on production and consumption; provides insightful examples and analysis."
+    ],
+    [
+      "Unable to apply economic concepts to real-world situations.",
+      "Struggles to relate economic concepts to practical examples.",
+      "Can identify economic concepts in real-world scenarios but lacks detailed explanation.",
+      "Applies economic concepts to some real-world scenarios with basic explanations.",
+      "Effectively applies economic concepts to various real-world scenarios, providing clear and relevant explanations.",
+      "Skillfully applies economic concepts to complex real-world scenarios, offering insightful analysis and implications."
+    ],
+    [
+      "Shows no ability to analyze resource allocation or its consequences.",
+      "Demonstrates limited ability to analyze resource allocation.",
+      "Identifies resource allocation issues but struggles to explain their consequences.",
+      "Analyzes resource allocation in simple scenarios and describes some consequences.",
+      "Analyzes resource allocation in various scenarios, explaining the consequences effectively.",
+      "Provides a comprehensive analysis of resource allocation, including its potential consequences and trade-offs, demonstrating a deep understanding of economic principles."
+    ]
+  ]
+}

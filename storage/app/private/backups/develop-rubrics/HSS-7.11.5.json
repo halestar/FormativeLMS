@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Enlightenment Thinkers' Influence",
+    "Connection to Democratic Institutions",
+    "Clarity and Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Enlightenment thinkers or their influence on democratic thought and institutions.",
+      "Demonstrates a minimal understanding of Enlightenment thinkers with significant misconceptions about their influence.",
+      "Identifies one or two Enlightenment thinkers but struggles to explain their specific contributions to democratic thought and institutions.",
+      "Identifies several Enlightenment thinkers and provides a basic explanation of their influence on democratic thought and institutions.",
+      "Clearly explains how key Enlightenment thinkers (e.g., Locke, Montesquieu) influenced the development of democratic thought and institutions, providing specific examples.",
+      "Provides a comprehensive and nuanced explanation of the profound influence of Enlightenment thinkers on democratic thought and institutions, connecting their ideas to the American founders and modern democracy."
+    ],
+    [
+      "Fails to connect Enlightenment thought to any democratic institutions or principles.",
+      "Makes vague or inaccurate connections between Enlightenment ideas and democratic institutions.",
+      "Identifies a democratic institution but struggles to link it directly to Enlightenment thought.",
+      "Links specific Enlightenment ideas to relevant democratic institutions (e.g., Locke's natural rights to the Bill of Rights).",
+      "Explains how Enlightenment ideas shaped the structure and function of specific democratic institutions, providing historical context.",
+      "Analyzes the lasting impact of Enlightenment thought on democratic institutions, discussing both intended and unintended consequences."
+    ],
+    [
+      "Response is unclear, inaccurate, and lacks supporting evidence.",
+      "Response contains significant inaccuracies and is difficult to understand.",
+      "Response contains some inaccuracies and lacks clarity in certain areas.",
+      "Response is generally clear and accurate but could benefit from more detail and evidence.",
+      "Response is clear, accurate, and supported by relevant historical evidence.",
+      "Response is exceptionally clear, accurate, well-supported, and demonstrates a deep understanding of the topic."
+    ]
+  ]
+}

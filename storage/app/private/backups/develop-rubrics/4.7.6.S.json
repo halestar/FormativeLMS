@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of the Escape Plan",
+    "Practicality and Feasibility of the Plan",
+    "Clarity and Communication of the Plan"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No escape plan is presented or the plan demonstrates no understanding of safety procedures.",
+      "The escape plan is incomplete and lacks essential elements, such as evacuation routes or meeting points.",
+      "The escape plan includes basic elements but contains inaccuracies or omits important details specific to the disaster scenarios.",
+      "The escape plan is generally accurate and complete, covering most essential elements for the given disasters, but may have minor omissions.",
+      "The escape plan is accurate, complete, and demonstrates a solid understanding of safety procedures for all disaster scenarios. All essential elements are clearly defined.",
+      "The escape plan is exceptionally thorough, accurate, and demonstrates an advanced understanding of safety procedures. It includes additional considerations for vulnerable populations and specific building layouts."
+    ],
+    [
+      "The escape plan is completely impractical and shows no consideration for real-world limitations or constraints.",
+      "The escape plan has limited practicality and does not consider realistic challenges or constraints that may arise during a disaster.",
+      "The escape plan has some practical elements, but it overlooks significant challenges or obstacles that could hinder its execution.",
+      "The escape plan is generally practical and feasible, considering most common challenges and constraints, but may have a few unrealistic elements.",
+      "The escape plan is highly practical and feasible, addressing potential challenges and offering alternative solutions. It demonstrates a strong understanding of real-world limitations.",
+      "The escape plan is exceptionally practical and adaptable, offering innovative solutions to overcome potential challenges. It includes contingency plans for various scenarios and demonstrates a comprehensive understanding of real-world constraints."
+    ],
+    [
+      "The escape plan is poorly communicated and difficult to understand. Key information is missing or presented in a confusing manner.",
+      "The escape plan lacks clarity and is difficult to follow. Instructions are vague or incomplete.",
+      "The escape plan is somewhat clear but could be improved with more precise language and better organization.",
+      "The escape plan is clear and easy to understand, with well-organized information and concise instructions.",
+      "The escape plan is exceptionally clear and well-communicated, with precise language, logical organization, and visual aids (if applicable) that enhance understanding.",
+      "The escape plan is communicated in a highly effective and engaging manner, using multimedia elements and interactive components to ensure maximum comprehension and retention."
+    ]
+  ]
+}

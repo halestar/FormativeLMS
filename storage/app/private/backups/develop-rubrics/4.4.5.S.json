@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Bullying Dynamics",
+    "Verbal Response Skills",
+    "Action and Intervention Skills",
+    "Empathy and Support for the Victim"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of bullying or its impact.",
+      "Shows minimal awareness of bullying, struggles to define or recognize it.",
+      "Identifies bullying but lacks depth in understanding the roles of the bully, victim, and bystander.",
+      "Understands the basic dynamics of bullying, including the roles and potential consequences.",
+      "Demonstrates a strong understanding of bullying dynamics, including power imbalances and the impact on individuals and the community.",
+      "Exhibits a comprehensive understanding of bullying, including various forms, motivations, and long-term effects. Can analyze complex scenarios and predict outcomes."
+    ],
+    [
+      "Unable to formulate any verbal response to witnessing bullying.",
+      "Offers a weak or inappropriate verbal response that does not address the bullying effectively.",
+      "Suggests a basic verbal response, but it may be unclear, hesitant, or lack assertiveness.",
+      "Formulates a clear and direct verbal response that could potentially interrupt the bullying.",
+      "Crafts an assertive and empathetic verbal response that challenges the bully and supports the victim.",
+      "Develops sophisticated and persuasive verbal strategies to de-escalate the situation, empower the victim, and address the bully's behavior."
+    ],
+    [
+      "Takes no action or demonstrates inaction when witnessing bullying.",
+      "Suggests an action that is unrealistic, unsafe, or unlikely to be effective.",
+      "Identifies a potential action to take, but lacks clarity on how to implement it safely and effectively.",
+      "Suggests a reasonable and safe action, such as reporting the incident or seeking help from an adult.",
+      "Demonstrates the ability to assess the situation and choose the most appropriate intervention strategy, considering safety and potential impact.",
+      "Develops a comprehensive intervention plan that includes immediate actions, long-term solutions, and strategies for creating a more inclusive and supportive environment."
+    ],
+    [
+      "Shows no empathy or concern for the victim of bullying.",
+      "Offers minimal or insincere support to the victim.",
+      "Acknowledges the victim's distress but struggles to provide meaningful support.",
+      "Offers words of comfort and support to the victim, demonstrating basic empathy.",
+      "Provides empathetic and validating support to the victim, actively listening and offering assistance.",
+      "Demonstrates exceptional empathy and advocacy for the victim, empowering them to seek help and recover from the experience."
+    ]
+  ]
+}

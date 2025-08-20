@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Positive Social Behaviors",
+    "Explanation of Helping Others",
+    "Explanation of Respectful Behavior",
+    "Explanation of Cooperation",
+    "Explanation of Consideration"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of positive social behaviors.",
+      "Student demonstrates a very limited understanding of positive social behaviors, with significant misconceptions.",
+      "Student demonstrates a basic understanding of positive social behaviors but struggles to provide specific examples or explain their importance.",
+      "Student demonstrates a satisfactory understanding of positive social behaviors, providing some examples and explaining their relevance.",
+      "Student demonstrates a strong understanding of positive social behaviors, providing clear examples and explaining their importance in various contexts.",
+      "Student demonstrates a comprehensive understanding of positive social behaviors, providing insightful examples, analyzing their impact, and applying them to real-world scenarios."
+    ],
+    [
+      "Student does not address the concept of helping others.",
+      "Student provides a vague or inaccurate explanation of helping others.",
+      "Student offers a limited explanation of helping others, lacking specific examples or details.",
+      "Student explains helping others with some clarity and provides a few examples.",
+      "Student clearly explains helping others, providing relevant examples and discussing its benefits.",
+      "Student provides a thorough and insightful explanation of helping others, including diverse examples and a nuanced understanding of its impact."
+    ],
+    [
+      "Student does not address the concept of respectful behavior.",
+      "Student provides a vague or inaccurate explanation of respectful behavior.",
+      "Student offers a limited explanation of respectful behavior, lacking specific examples or details.",
+      "Student explains respectful behavior with some clarity and provides a few examples.",
+      "Student clearly explains respectful behavior, providing relevant examples and discussing its benefits.",
+      "Student provides a thorough and insightful explanation of respectful behavior, including diverse examples and a nuanced understanding of its impact."
+    ],
+    [
+      "Student does not address the concept of cooperation.",
+      "Student provides a vague or inaccurate explanation of cooperation.",
+      "Student offers a limited explanation of cooperation, lacking specific examples or details.",
+      "Student explains cooperation with some clarity and provides a few examples.",
+      "Student clearly explains cooperation, providing relevant examples and discussing its benefits.",
+      "Student provides a thorough and insightful explanation of cooperation, including diverse examples and a nuanced understanding of its impact."
+    ],
+    [
+      "Student does not address the concept of consideration.",
+      "Student provides a vague or inaccurate explanation of consideration.",
+      "Student offers a limited explanation of consideration, lacking specific examples or details.",
+      "Student explains consideration with some clarity and provides a few examples.",
+      "Student clearly explains consideration, providing relevant examples and discussing its benefits.",
+      "Student provides a thorough and insightful explanation of consideration, including diverse examples and a nuanced understanding of its impact."
+    ]
+  ]
+}

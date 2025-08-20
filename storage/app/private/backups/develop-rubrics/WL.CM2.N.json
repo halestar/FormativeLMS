@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Participation and Comprehension",
+    "Use of Memorized Phrases and Simple Sentences",
+    "Negotiation of Meaning and Collaboration"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not participate in conversations or demonstrate comprehension of familiar topics.",
+      "The student attempts to participate but struggles significantly to comprehend or express themselves, relying heavily on prompting.",
+      "The student participates minimally, showing limited comprehension and using primarily memorized phrases with frequent errors.",
+      "The student participates in conversations on familiar topics, demonstrating basic comprehension and using simple sentences with some errors.",
+      "The student actively participates in conversations, showing good comprehension and using a variety of phrases and sentences with occasional errors.",
+      "The student confidently participates in conversations, demonstrating excellent comprehension, using complex sentences and a wide range of vocabulary with minimal errors."
+    ],
+    [
+      "The student is unable to use memorized words, phrases, or simple sentences.",
+      "The student struggles to recall and use memorized phrases or simple sentences, making frequent errors.",
+      "The student uses a limited number of memorized phrases and simple sentences, but with noticeable errors that impede communication.",
+      "The student uses memorized phrases and simple sentences appropriately in predictable settings with occasional errors.",
+      "The student effectively uses a variety of memorized phrases and simple sentences to communicate in common daily settings with few errors.",
+      "The student skillfully uses memorized phrases and simple sentences, demonstrating a natural and accurate command of the language."
+    ],
+    [
+      "The student does not attempt to negotiate meaning or collaborate with others.",
+      "The student struggles to negotiate meaning or collaborate, requiring significant assistance.",
+      "The student makes minimal attempts to negotiate meaning or collaborate, with limited success.",
+      "The student attempts to negotiate meaning and collaborate in simple tasks with some success.",
+      "The student effectively negotiates meaning and collaborates with others in a variety of tasks.",
+      "The student skillfully negotiates meaning and collaborates, demonstrating leadership and promoting effective communication within the group."
+    ]
+  ]
+}

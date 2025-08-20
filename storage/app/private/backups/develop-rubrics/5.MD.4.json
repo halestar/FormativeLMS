@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Counting Unit Cubes",
+    "Appropriate Use of Measurement Units",
+    "Understanding of Volume as Additive"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to count unit cubes or demonstrates no understanding of volume measurement.",
+      "The student attempts to count unit cubes but makes significant errors, misunderstanding the concept of a unit cube.",
+      "The student counts unit cubes with some inaccuracies and struggles with visualizing three-dimensional arrangements.",
+      "The student accurately counts most unit cubes in simple arrangements but may struggle with more complex or partially obscured arrangements.",
+      "The student accurately counts unit cubes in most arrangements and demonstrates a good understanding of volume as the sum of unit cubes.",
+      "The student consistently and accurately counts unit cubes in various complex arrangements, demonstrating a thorough understanding of volume measurement."
+    ],
+    [
+      "The student does not use or incorrectly identifies measurement units (cubic cm, cubic in, cubic ft, improvised units).",
+      "The student attempts to use measurement units but frequently confuses or misapplies them.",
+      "The student uses measurement units with some accuracy but may not consistently apply them correctly.",
+      "The student generally uses measurement units correctly but occasionally makes errors or omissions.",
+      "The student consistently uses appropriate measurement units and demonstrates a solid understanding of their meaning in the context of volume.",
+      "The student consistently and accurately uses appropriate measurement units and can explain their relevance in determining volume."
+    ],
+    [
+      "The student does not demonstrate an understanding of volume as the sum of unit cubes.",
+      "The student shows a limited understanding of volume as additive and struggles to combine unit cubes to find total volume.",
+      "The student attempts to relate volume to addition but makes significant errors in calculating total volume.",
+      "The student understands volume as additive in simple cases but struggles with more complex or multi-layered arrangements.",
+      "The student accurately calculates volume by adding unit cubes and demonstrates a good understanding of the additive nature of volume.",
+      "The student consistently and accurately calculates volume in complex arrangements and can explain the additive principle of volume in detail."
+    ]
+  ]
+}

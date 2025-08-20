@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Exponents",
+    "Accuracy in Calculations",
+    "Application of Order of Operations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of exponents is demonstrated.",
+      "Struggles to write or evaluate expressions with exponents; major errors are present.",
+      "Demonstrates a limited understanding of exponents; some errors in writing or evaluating expressions.",
+      "Can write and evaluate simple numerical expressions with exponents with minor errors.",
+      "Consistently writes and evaluates numerical expressions with exponents, demonstrating a solid understanding.",
+      "Mastery in writing and evaluating complex numerical expressions with exponents; demonstrates a thorough understanding and can explain the concepts clearly."
+    ],
+    [
+      "Calculations are consistently inaccurate.",
+      "Frequent errors in calculations involving exponents.",
+      "Some errors in calculations, but the process is generally understood.",
+      "Mostly accurate calculations; occasional minor errors.",
+      "Accurate calculations with exponents; minimal errors.",
+      "Perfectly accurate calculations; demonstrates precision in using exponents."
+    ],
+    [
+      "Does not apply order of operations when evaluating expressions.",
+      "Struggles to apply the correct order of operations; frequently makes errors.",
+      "Sometimes applies the correct order of operations, but inconsistencies are present.",
+      "Generally applies the correct order of operations with occasional oversight.",
+      "Consistently applies the correct order of operations; very few errors.",
+      "Expertly applies the correct order of operations in complex expressions; impeccable accuracy."
+    ]
+  ]
+}

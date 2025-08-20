@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Preventative Measures for Vision Health",
+    "Identification of Preventative Measures for Hearing Health",
+    "Identification of Preventative Measures for Dental Health",
+    "Understanding of Risks and Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No preventative measures for vision health are identified.",
+      "Identifies one vague or incorrect preventative measure for vision health.",
+      "Identifies one accurate preventative measure for vision health with limited detail.",
+      "Identifies two accurate preventative measures for vision health with some explanation.",
+      "Identifies three accurate preventative measures for vision health with clear explanations.",
+      "Identifies multiple accurate preventative measures for vision health with comprehensive explanations, demonstrating a strong understanding of vision health."
+    ],
+    [
+      "No preventative measures for hearing health are identified.",
+      "Identifies one vague or incorrect preventative measure for hearing health.",
+      "Identifies one accurate preventative measure for hearing health with limited detail.",
+      "Identifies two accurate preventative measures for hearing health with some explanation.",
+      "Identifies three accurate preventative measures for hearing health with clear explanations.",
+      "Identifies multiple accurate preventative measures for hearing health with comprehensive explanations, demonstrating a strong understanding of hearing health."
+    ],
+    [
+      "No preventative measures for dental health are identified.",
+      "Identifies one vague or incorrect preventative measure for dental health.",
+      "Identifies one accurate preventative measure for dental health with limited detail.",
+      "Identifies two accurate preventative measures for dental health with some explanation.",
+      "Identifies three accurate preventative measures for dental health with clear explanations.",
+      "Identifies multiple accurate preventative measures for dental health with comprehensive explanations, demonstrating a strong understanding of dental health."
+    ],
+    [
+      "Demonstrates no understanding of the risks to vision, hearing, or dental health.",
+      "Demonstrates minimal understanding of the risks, with vague or incomplete explanations.",
+      "Demonstrates basic understanding of the risks, identifying some potential consequences.",
+      "Demonstrates a clear understanding of the risks and consequences related to at least one area (vision, hearing, or dental health).",
+      "Demonstrates a comprehensive understanding of the risks and consequences related to at least two areas (vision, hearing, and\/or dental health).",
+      "Demonstrates a thorough and nuanced understanding of the risks and consequences related to vision, hearing, and dental health, including long-term impacts."
+    ]
+  ]
+}

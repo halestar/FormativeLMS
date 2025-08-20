@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Characteristics: Correctly identifies key characteristics of healthy, harmful, and abusive relationships.",
+    "Distinction Between Relationship Types: Clearly distinguishes between healthy, harmful, and abusive relationships.",
+    "Application to Scenarios: Applies knowledge of relationship characteristics to analyze hypothetical scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any characteristics of healthy, harmful, or abusive relationships.",
+      "Identifies only one or two basic characteristics, with significant inaccuracies.",
+      "Identifies some characteristics of healthy, harmful, and abusive relationships, but lacks depth and clarity.",
+      "Identifies most characteristics accurately, demonstrating a general understanding of different relationship dynamics.",
+      "Identifies nearly all key characteristics with good detail and understanding, showing a strong grasp of the concepts.",
+      "Comprehensively and accurately identifies all key characteristics, providing insightful analysis and demonstrating a deep understanding of relationship dynamics."
+    ],
+    [
+      "Unable to differentiate between healthy, harmful, and abusive relationships.",
+      "Shows minimal differentiation, with significant confusion between relationship types.",
+      "Demonstrates some ability to distinguish between the types of relationships, but the distinctions are not always clear.",
+      "Clearly distinguishes between healthy, harmful, and abusive relationships in most cases, with minor inconsistencies.",
+      "Consistently and clearly distinguishes between the three types of relationships, demonstrating a strong understanding of their differences.",
+      "Expertly distinguishes between healthy, harmful, and abusive relationships, providing nuanced insights into the subtle differences and complexities involved."
+    ],
+    [
+      "Unable to apply knowledge to analyze scenarios or recognize relationship dynamics.",
+      "Attempts to apply knowledge but demonstrates significant difficulty in analyzing scenarios.",
+      "Applies knowledge to analyze some scenarios, but analysis is superficial or inaccurate.",
+      "Applies knowledge to analyze most scenarios accurately, demonstrating a general understanding of how characteristics manifest in real-life situations.",
+      "Consistently applies knowledge to analyze scenarios with accuracy and insight, providing a strong understanding of the implications.",
+      "Masterfully applies knowledge to analyze complex scenarios, offering nuanced interpretations and demonstrating a profound understanding of the dynamics at play."
+    ]
+  ]
+}

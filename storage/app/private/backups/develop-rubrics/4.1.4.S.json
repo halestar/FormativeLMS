@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Bullying and Harassment Effects: Assesses the student's ability to identify and explain the various effects of bullying and harassment on individuals.",
+    "Analysis of Contributing Factors: Assesses the student's ability to analyze factors that contribute to bullying and harassment.",
+    "Application of Strategies to Combat Bullying: Assesses the student's ability to apply strategies to address and combat bullying and harassment."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the effects of bullying and harassment.",
+      "Identifies only one or two basic effects of bullying or harassment.",
+      "Identifies some effects of bullying and harassment, but lacks depth in explanation.",
+      "Explains several effects of bullying and harassment with some depth, but may miss nuanced impacts.",
+      "Thoroughly explains numerous effects of bullying and harassment, including psychological, social, and emotional impacts.",
+      "Insightfully explains a comprehensive range of effects of bullying and harassment, demonstrating a nuanced understanding of their impact on victims and bystanders."
+    ],
+    [
+      "Does not identify any contributing factors to bullying and harassment.",
+      "Identifies one or two superficial contributing factors.",
+      "Identifies a few contributing factors but does not analyze their significance.",
+      "Analyzes several contributing factors with some understanding of their impact.",
+      "Analyzes the key contributing factors to bullying and harassment, explaining their complex relationships.",
+      "Critically analyzes a wide range of contributing factors, demonstrating a sophisticated understanding of the root causes of bullying and harassment."
+    ],
+    [
+      "Unable to suggest any strategies to combat bullying and harassment.",
+      "Suggests one or two ineffective or inappropriate strategies.",
+      "Suggests a few basic strategies with limited understanding of their effectiveness.",
+      "Applies several appropriate strategies to address bullying and harassment with some explanation of their potential impact.",
+      "Applies well-reasoned and effective strategies to address bullying and harassment, justifying their choices with clear explanations.",
+      "Develops innovative and comprehensive strategies to combat bullying and harassment, demonstrating a deep understanding of intervention and prevention techniques."
+    ]
+  ]
+}

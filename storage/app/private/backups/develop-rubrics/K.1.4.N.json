@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Components of a Healthy Breakfast",
+    "Recognizing the Benefits of Eating a Healthy Breakfast",
+    "Application of Knowledge to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes a healthy breakfast.",
+      "Identifies only one component of a healthy breakfast (e.g., a food group) with no further explanation.",
+      "Identifies at least two components of a healthy breakfast but lacks depth in explaining their importance.",
+      "Identifies key components of a healthy breakfast (e.g., protein, whole grains, fruits) and briefly explains their benefits.",
+      "Clearly explains the essential components of a healthy breakfast and justifies their importance with some detail.",
+      "Provides a comprehensive explanation of a healthy breakfast, detailing various components, their specific benefits, and provides examples of balanced meal options."
+    ],
+    [
+      "Does not recognize any benefits of eating a healthy breakfast.",
+      "States only one general benefit (e.g., 'it's good for you') without specifics.",
+      "Identifies a couple of basic benefits (e.g., provides energy, helps with focus) without much detail.",
+      "Explains a few benefits of a healthy breakfast, such as improved energy levels and concentration, with some supporting details.",
+      "Clearly articulates multiple benefits of a healthy breakfast, including physical and cognitive advantages, with supporting explanations.",
+      "Offers an in-depth discussion of the wide-ranging benefits of a healthy breakfast, including long-term health impacts, and can connect it to overall well-being."
+    ],
+    [
+      "Unable to apply knowledge to real-life scenarios or provide examples of healthy breakfast choices.",
+      "Suggests a breakfast option but it is not necessarily healthy or balanced.",
+      "Provides a simple example of a potentially healthy breakfast but lacks details on why it is a good choice.",
+      "Suggests a reasonably healthy breakfast option and provides a basic explanation of why it's beneficial.",
+      "Provides well-thought-out examples of healthy breakfast options, explaining the nutritional value and benefits of each component.",
+      "Can create a variety of healthy breakfast plans tailored to different needs and preferences, justifying the choices with a strong understanding of nutrition."
+    ]
+  ]
+}

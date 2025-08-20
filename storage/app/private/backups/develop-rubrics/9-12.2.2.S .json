@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the effects of alcohol and drugs on personal safety.",
+    "Analysis of the effects of alcohol and drugs on family safety.",
+    "Analysis of the effects of alcohol and drugs on community safety.",
+    "Ability to connect alcohol and drug use to real-world scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how alcohol and drug use affects personal safety.",
+      "Shows a limited understanding of how alcohol and drug use affects personal safety with significant misconceptions.",
+      "Displays a basic understanding of how alcohol and drug use affects personal safety, but lacks depth and detail.",
+      "Exhibits a satisfactory understanding of how alcohol and drug use affects personal safety, providing some relevant examples.",
+      "Demonstrates a strong understanding of how alcohol and drug use affects personal safety, providing clear and accurate examples.",
+      "Shows a comprehensive understanding of how alcohol and drug use affects personal safety, providing insightful and well-supported examples."
+    ],
+    [
+      "Demonstrates no understanding of how alcohol and drug use affects family safety.",
+      "Shows a limited understanding of how alcohol and drug use affects family safety with significant misconceptions.",
+      "Displays a basic understanding of how alcohol and drug use affects family safety, but lacks depth and detail.",
+      "Exhibits a satisfactory understanding of how alcohol and drug use affects family safety, providing some relevant examples.",
+      "Demonstrates a strong understanding of how alcohol and drug use affects family safety, providing clear and accurate examples.",
+      "Shows a comprehensive understanding of how alcohol and drug use affects family safety, providing insightful and well-supported examples."
+    ],
+    [
+      "Demonstrates no understanding of how alcohol and drug use affects community safety.",
+      "Shows a limited understanding of how alcohol and drug use affects community safety with significant misconceptions.",
+      "Displays a basic understanding of how alcohol and drug use affects community safety, but lacks depth and detail.",
+      "Exhibits a satisfactory understanding of how alcohol and drug use affects community safety, providing some relevant examples.",
+      "Demonstrates a strong understanding of how alcohol and drug use affects community safety, providing clear and accurate examples.",
+      "Shows a comprehensive understanding of how alcohol and drug use affects community safety, providing insightful and well-supported examples."
+    ],
+    [
+      "Unable to connect alcohol and drug use to real-world scenarios or examples.",
+      "Struggles to connect alcohol and drug use to real-world scenarios; connections are vague and unclear.",
+      "Connects alcohol and drug use to real-world scenarios, but connections are simplistic and lack analysis.",
+      "Connects alcohol and drug use to real-world scenarios with some analysis and relevant details.",
+      "Clearly and effectively connects alcohol and drug use to real-world scenarios with thoughtful analysis and specific examples.",
+      "Insightfully connects alcohol and drug use to a wide range of real-world scenarios, demonstrating a deep understanding of the implications."
+    ]
+  ]
+}

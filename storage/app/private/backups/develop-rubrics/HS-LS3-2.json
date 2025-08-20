@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Genetic Variation Sources",
+    "Ability to Make a Claim",
+    "Use of Evidence to Support Claim",
+    "Defense of Claim",
+    "Understanding of Cause and Effect"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the sources of genetic variation.",
+      "Student identifies only one source of genetic variation (meiosis, replication errors, or mutations) with limited accuracy.",
+      "Student identifies two sources of genetic variation but lacks a clear explanation of how they lead to variation.",
+      "Student identifies all three sources of genetic variation but with superficial explanations.",
+      "Student accurately describes all three sources of genetic variation (meiosis, replication errors, and mutations) and provides a basic explanation of their impact.",
+      "Student comprehensively explains all three sources of genetic variation, including the mechanisms by which they introduce new genetic combinations or alter existing genes, and provides relevant examples."
+    ],
+    [
+      "Student does not make a claim about inheritable genetic variations.",
+      "Student makes a claim, but it is unclear or not directly related to the topic.",
+      "Student makes a claim, but it is not well-defined or lacks a clear connection to evidence.",
+      "Student makes a claim that is relevant but lacks sophistication or nuance.",
+      "Student makes a clear and relevant claim about the causes of inheritable genetic variations.",
+      "Student makes a clear, sophisticated, and nuanced claim about the causes of inheritable genetic variations, demonstrating a deep understanding of the topic."
+    ],
+    [
+      "Student provides no evidence to support their claim.",
+      "Student provides irrelevant or inaccurate evidence.",
+      "Student provides limited evidence that is weakly connected to the claim.",
+      "Student provides some relevant evidence, but the connection to the claim is not always clear.",
+      "Student provides relevant evidence that supports the claim, and the connection is mostly clear.",
+      "Student provides compelling and relevant evidence that strongly supports the claim, clearly explaining the connection between the evidence and the claim."
+    ],
+    [
+      "Student does not attempt to defend their claim.",
+      "Student attempts to defend their claim, but the defense is weak or irrelevant.",
+      "Student provides a limited defense of their claim with minimal reasoning.",
+      "Student provides a reasonable defense of their claim, but it may contain some flaws or gaps in reasoning.",
+      "Student provides a strong defense of their claim, addressing potential counterarguments and providing logical reasoning.",
+      "Student provides a comprehensive and compelling defense of their claim, thoroughly addressing potential counterarguments, providing strong logical reasoning, and demonstrating a deep understanding of the complexities of the topic."
+    ],
+    [
+      "Student does not demonstrate understanding of cause and effect relationships in genetic variation.",
+      "Student shows a limited understanding of cause and effect relationships, but struggles to apply it to the context of genetic variation.",
+      "Student identifies cause and effect, but does not differentiate between correlation and causation.",
+      "Student identifies some cause and effect relationships, but may confuse correlation with causation in certain instances.",
+      "Student correctly identifies cause and effect relationships and generally differentiates between correlation and causation.",
+      "Student clearly articulates cause and effect relationships, differentiates between correlation and causation, and provides nuanced examples in the context of genetic variation."
+    ]
+  ]
+}

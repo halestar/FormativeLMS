@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Environmentally Friendly Practices",
+    "Understanding of Resource Conservation",
+    "Awareness of Waste Reduction and Recycling",
+    "Demonstrates Litter Prevention"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any practices that benefit the environment.",
+      "Identifies one practice with limited understanding.",
+      "Identifies two practices with some understanding.",
+      "Identifies three practices with a general understanding of their benefits.",
+      "Identifies four or more practices and demonstrates a solid understanding of how they help the environment.",
+      "Identifies numerous practices, explains their environmental impact in detail, and suggests additional creative solutions."
+    ],
+    [
+      "Shows no understanding of resource conservation concepts.",
+      "Shows minimal understanding of resource conservation, such as knowing that water and electricity are limited.",
+      "Identifies the importance of conserving resources like water, electricity, and materials but doesn't provide specifics.",
+      "Explains how turning off lights and water conserves energy and resources, demonstrating a practical understanding.",
+      "Articulates the broader environmental and economic benefits of resource conservation, including reducing pollution and saving money.",
+      "Demonstrates a deep understanding of resource conservation, including systemic effects and proposes innovative strategies for conservation on a larger scale."
+    ],
+    [
+      "Shows no awareness of waste reduction or recycling practices.",
+      "Mentions recycling in passing without explaining its importance.",
+      "Identifies recycling as a positive activity but lacks detail about what materials can be recycled.",
+      "Knows that recycling reduces waste and identifies common recyclable materials like paper, plastic, and glass.",
+      "Explains the recycling process and its environmental benefits, such as reducing landfill waste and conserving resources.",
+      "Analyzes the entire lifecycle of materials, from production to disposal, and advocates for comprehensive waste reduction strategies beyond just recycling."
+    ],
+    [
+      "Does not acknowledge the issue of litter or its impact.",
+      "Recognizes that littering is bad, but does not offer solutions.",
+      "Understands that picking up trash is a good thing, but doesn't elaborate.",
+      "Explains why picking up trash is important for keeping the environment clean and safe.",
+      "Demonstrates a proactive approach to preventing litter, such as properly disposing of waste and encouraging others to do the same.",
+      "Leads initiatives to clean up litter in the community and educates others about the long-term consequences of littering."
+    ]
+  ]
+}

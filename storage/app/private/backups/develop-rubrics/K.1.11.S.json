@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifying Trusted Adults",
+    "Formulating Help-Seeking Questions",
+    "Demonstrating Approach Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any adults or identifies adults who are clearly not trustworthy or appropriate.",
+      "Identifies one adult, but the choice is questionable in terms of trustworthiness or appropriateness.",
+      "Identifies one trusted adult with a reasonable explanation, but lacks depth.",
+      "Identifies two trusted adults and provides a basic explanation for each choice.",
+      "Identifies three or more trusted adults, explaining why each is a safe and reliable resource.",
+      "Identifies multiple trusted adults, providing insightful and nuanced explanations of their trustworthiness based on specific qualities and past behavior."
+    ],
+    [
+      "Unable to formulate any questions or formulates questions that are unclear or irrelevant.",
+      "Formulates a question that is vague or difficult to understand.",
+      "Formulates a basic question related to a challenging situation.",
+      "Formulates a clear and direct question relevant to the situation, but lacks nuance.",
+      "Formulates well-thought-out questions that address the core issues of the situation and demonstrates self-awareness.",
+      "Formulates insightful and nuanced questions, demonstrating a deep understanding of the situation and the type of help needed.  The questions also show consideration for the adult's perspective."
+    ],
+    [
+      "Does not demonstrate any approach strategies or demonstrates strategies that are inappropriate or unsafe.",
+      "Suggests a single approach strategy that is passive or unlikely to be effective.",
+      "Suggests a basic approach strategy that could potentially work, but lacks detail.",
+      "Suggests two or more approach strategies that are reasonable and safe.",
+      "Demonstrates multiple approach strategies, including when, where, and how to ask for help. Considers the adult's availability and the urgency of the situation.",
+      "Demonstrates sophisticated and adaptable approach strategies, showing an understanding of different communication styles and potential barriers to seeking help.  Includes contingency plans if the initial approach is unsuccessful."
+    ]
+  ]
+}

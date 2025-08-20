@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Pythagorean Identity",
+    "Ability to Prove the Pythagorean Identity",
+    "Application to Find Trigonometric Values",
+    "Consideration of Quadrant"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of the Pythagorean identity.",
+      "Struggles to recall the Pythagorean identity or its components.",
+      "Recalls the Pythagorean identity but struggles to apply it.",
+      "Demonstrates understanding of the Pythagorean identity but makes minor errors in its application.",
+      "Correctly states and applies the Pythagorean identity in most cases.",
+      "Demonstrates a thorough understanding of the Pythagorean identity and can apply it accurately and efficiently."
+    ],
+    [
+      "Unable to attempt a proof of the Pythagorean identity.",
+      "Attempts to prove the identity but shows significant gaps in reasoning.",
+      "Begins to prove the identity but cannot complete the proof or makes major errors.",
+      "Presents a partial proof of the identity with some logical flaws.",
+      "Provides a mostly correct proof of the Pythagorean identity with minor omissions.",
+      "Constructs a clear, complete, and correct proof of the Pythagorean identity."
+    ],
+    [
+      "Cannot use the Pythagorean identity to find sine, cosine, or tangent values.",
+      "Attempts to find trigonometric values but demonstrates a lack of understanding of the relationship between them.",
+      "Can sometimes use the Pythagorean identity to find trigonometric values but makes frequent errors.",
+      "Applies the Pythagorean identity to find trigonometric values with occasional mistakes.",
+      "Accurately finds trigonometric values using the Pythagorean identity in most situations.",
+      "Consistently and accurately uses the Pythagorean identity to find trigonometric values, even in complex problems."
+    ],
+    [
+      "Does not consider the quadrant of the angle when determining the sign of trigonometric values.",
+      "Shows awareness of the need to consider the quadrant but struggles to apply it correctly.",
+      "Sometimes considers the quadrant when determining the sign of trigonometric values, but makes errors.",
+      "Usually considers the quadrant but occasionally makes mistakes in assigning the correct sign.",
+      "Correctly considers the quadrant of the angle to determine the sign of trigonometric values in most cases.",
+      "Consistently and accurately considers the quadrant of the angle when determining the sign of trigonometric values."
+    ]
+  ]
+}

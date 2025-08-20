@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Price Ceilings",
+    "Understanding of Price Floors",
+    "Application of Supply and Demand Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of price ceilings or their effects.",
+      "Student demonstrates a minimal understanding of price ceilings, but cannot explain their effects.",
+      "Student identifies price ceilings but struggles to accurately describe their impact on buyers and sellers.",
+      "Student correctly describes price ceilings and some of their effects on buyers and sellers, but with some inaccuracies or omissions.",
+      "Student accurately explains price ceilings and their effects on buyers and sellers, providing relevant examples.",
+      "Student demonstrates a comprehensive understanding of price ceilings, explaining their effects on buyers and sellers with nuanced examples and potential unintended consequences."
+    ],
+    [
+      "Student demonstrates no understanding of price floors or their effects.",
+      "Student demonstrates a minimal understanding of price floors, but cannot explain their effects.",
+      "Student identifies price floors but struggles to accurately describe their impact on buyers and sellers.",
+      "Student correctly describes price floors and some of their effects on buyers and sellers, but with some inaccuracies or omissions.",
+      "Student accurately explains price floors and their effects on buyers and sellers, providing relevant examples.",
+      "Student demonstrates a comprehensive understanding of price floors, explaining their effects on buyers and sellers with nuanced examples and potential unintended consequences."
+    ],
+    [
+      "Student does not demonstrate an understanding of how supply and demand interact with price controls.",
+      "Student demonstrates a limited ability to connect supply and demand concepts to price controls.",
+      "Student attempts to explain the relationship between supply\/demand and price controls, but with significant gaps or errors.",
+      "Student shows a basic understanding of how supply and demand influence the effects of price controls.",
+      "Student effectively applies supply and demand principles to explain the effects of price controls on market outcomes.",
+      "Student expertly uses supply and demand analysis to thoroughly explain and predict the complex effects of price controls, including potential surpluses or shortages."
+    ]
+  ]
+}

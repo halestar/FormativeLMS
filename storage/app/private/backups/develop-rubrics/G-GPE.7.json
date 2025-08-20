@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Application of the Distance Formula",
+    "Calculation of Perimeter",
+    "Calculation of Area",
+    "Geometric Theorem Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding or application of the distance formula.",
+      "Student demonstrates minimal understanding of the distance formula; calculations are incorrect or incomplete.",
+      "Student can state the distance formula but struggles with accurate application in geometric problems.",
+      "Student correctly applies the distance formula in simple cases to find the length of a line segment, but struggles with more complex shapes.",
+      "Student accurately applies the distance formula to calculate the sides of polygons and can find the perimeter with minor errors.",
+      "Student flawlessly applies the distance formula to compute the sides and perimeters of various polygons, demonstrating a strong command of the concept."
+    ],
+    [
+      "Student is unable to calculate the perimeter of any polygon.",
+      "Student attempts to calculate the perimeter but does not add all sides or uses incorrect measurements.",
+      "Student makes significant errors in calculating the perimeter due to misapplication of the distance formula or arithmetic mistakes.",
+      "Student can calculate the perimeter of simple polygons (e.g., triangles, rectangles) but struggles with irregular shapes.",
+      "Student calculates the perimeter of most polygons accurately, with only minor errors in addition or measurement.",
+      "Student accurately and efficiently calculates the perimeter of various polygons, demonstrating a comprehensive understanding of perimeter calculation."
+    ],
+    [
+      "Student is unable to calculate the area of any shapes.",
+      "Student demonstrates minimal understanding of area calculations.",
+      "Student demonstrates a rudimentary understanding of area calculations.",
+      "Student calculates the area of triangles and rectangles with some errors.",
+      "Student accurately calculates the area of triangles and rectangles but struggles with complex placement.",
+      "Student calculates the area of triangles and rectangles, demonstrating a comprehensive understanding of area calculation."
+    ],
+    [
+      "Student fails to use coordinates to prove simple geometric theorems algebraically.",
+      "Student attempts to use coordinates but shows no understanding of geometric theorems.",
+      "Student can state simple geometric theorems but fails to connect them to coordinate geometry.",
+      "Student starts to connect geometric theorems with coordinate geometry but struggles to form a coherent proof.",
+      "Student proves simple geometric theorems algebraically with minor errors.",
+      "Student effectively uses coordinates to prove simple geometric theorems algebraically."
+    ]
+  ]
+}

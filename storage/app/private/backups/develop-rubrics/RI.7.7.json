@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Subject Portrayal",
+    "Comparison of Mediums",
+    "Analysis of Medium's Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify the subject or any portrayal of it in either medium.",
+      "The student vaguely identifies the subject but does not accurately describe its portrayal in either the text or the multimedia version.",
+      "The student identifies the subject and provides a basic description of its portrayal in one of the mediums but struggles with the other.",
+      "The student identifies the subject and adequately describes its portrayal in both the text and the multimedia version, but the comparison is superficial.",
+      "The student clearly identifies the subject and provides a detailed description of its portrayal in both mediums, offering some comparison of the nuances.",
+      "The student expertly identifies the subject and provides an insightful and thorough analysis of its portrayal in both mediums, noting subtle differences and their potential impact."
+    ],
+    [
+      "The student makes no attempt to compare the text to the audio, video, or multimedia version.",
+      "The student attempts to compare the mediums but offers only generic or irrelevant observations.",
+      "The student makes a basic comparison of the mediums, noting one or two surface-level similarities or differences.",
+      "The student compares the mediums, identifying several key similarities and differences in their presentation of the subject.",
+      "The student provides a thoughtful comparison of the mediums, analyzing how each medium's unique characteristics shape the portrayal of the subject.",
+      "The student offers a sophisticated and nuanced comparison of the mediums, exploring how each medium's technical and artistic elements contribute to a distinct interpretation of the subject, demonstrating awareness of each medium's strengths and limitations."
+    ],
+    [
+      "The student does not analyze how the delivery of the text or multimedia affects the impact of the words.",
+      "The student vaguely mentions the delivery of the text or multimedia but does not connect it to the impact of the words.",
+      "The student identifies an element of delivery in either the text or multimedia version and makes a weak connection to its impact.",
+      "The student analyzes how specific elements of delivery (e.g., tone, visuals) in both the text and multimedia versions affect the impact of the words, but the analysis lacks depth.",
+      "The student effectively analyzes how various elements of delivery in both mediums shape the audience's understanding and emotional response to the subject.",
+      "The student provides a comprehensive and insightful analysis of how the delivery methods in both mediums (textual and multimedia) profoundly influence the audience's interpretation and experience of the subject, showing mastery of rhetorical techniques."
+    ]
+  ]
+}

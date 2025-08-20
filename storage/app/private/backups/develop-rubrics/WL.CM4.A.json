@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Initiation of Language Use Opportunities",
+    "Authenticity of Language Use",
+    "Reflection on Language Use and Goal Setting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not initiate any opportunities to use the target language in real-world settings.",
+      "Student rarely initiates opportunities to use the target language, even when prompted.",
+      "Student occasionally initiates opportunities to use the target language in highly predictable settings.",
+      "Student initiates opportunities to use the target language in some informal settings, demonstrating transactional language skills.",
+      "Student frequently initiates opportunities to use the target language in most informal and formal settings.",
+      "Student consistently and independently initiates opportunities to use the target language in a variety of informal, formal, and professional settings, demonstrating advanced language proficiency."
+    ],
+    [
+      "Language use is not authentic and does not reflect real-world or academic contexts.",
+      "Language use is minimally authentic and rarely reflects real-world or academic contexts.",
+      "Language use shows some authenticity in predictable daily settings.",
+      "Language use reflects authenticity in transactional and some informal settings.",
+      "Language use is culturally authentic and relevant in most informal and formal settings.",
+      "Language use is consistently culturally authentic, real-world relevant, and academically appropriate across a wide range of settings, including unfamiliar and problem situations."
+    ],
+    [
+      "Student does not reflect on language use or set goals for improvement.",
+      "Student rarely reflects on language use or sets goals for improvement, even when prompted.",
+      "Student recognizes language use opportunities but does not actively participate or set goals.",
+      "Student participates in language use opportunities and sets basic goals for progress.",
+      "Student initiates language use opportunities and reflects on progress, setting goals for enrichment and advancement.",
+      "Student sustains language use opportunities, reflects deeply on progress, and sets ambitious goals for enjoyment, enrichment, and advancement in diverse contexts."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Conversions",
+    "Application in Problem Solving",
+    "Understanding of Measurement Systems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or demonstrates no understanding of measurement units.",
+      "Incorrect conversions with no clear understanding of unit relationships.",
+      "Attempts conversions but makes frequent errors, showing a limited understanding of unit sizes.",
+      "Converts units with some accuracy, but may struggle with more complex conversions or multi-step problems.",
+      "Accurately converts most units and applies them correctly in problem-solving, with occasional minor errors.",
+      "Consistently and accurately converts units within the same measurement system, demonstrating a strong understanding of unit relationships."
+    ],
+    [
+      "Unable to apply conversions to solve real-world problems.",
+      "Attempts to use conversions in problem-solving but demonstrates significant errors or misunderstandings.",
+      "Can sometimes apply conversions to solve simple problems, but struggles with multi-step problems.",
+      "Solves some multi-step, real-world problems using conversions, but may require guidance or make occasional errors.",
+      "Effectively uses conversions to solve multi-step, real-world problems with minimal errors.",
+      "Masterfully applies conversions to accurately solve complex, multi-step, real-world problems, demonstrating a comprehensive understanding of measurement."
+    ],
+    [
+      "Shows no understanding of different-sized standard measurement units within a given measurement system.",
+      "Demonstrates a limited understanding of measurement units and their relationships within a system.",
+      "Understands basic measurement units but struggles with the relative sizes of units within the system.",
+      "Shows a general understanding of measurement systems, but may not fully grasp the relationships between different units.",
+      "Clearly understands the relationships between different units within a measurement system and can explain the conversions.",
+      "Demonstrates a deep and nuanced understanding of measurement systems, including the ability to explain and justify conversions with precision."
+    ]
+  ]
+}

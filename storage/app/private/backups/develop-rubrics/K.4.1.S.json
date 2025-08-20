@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifying a Trusted Adult",
+    "Simulating a 9-1-1 Call",
+    "Understanding the Importance of Seeking Help"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify a trusted adult.",
+      "Student can identify at least one adult, but unclear if trusted.",
+      "Student identifies a trusted adult but provides limited reasoning.",
+      "Student identifies a trusted adult and provides clear reasoning why this adult is trustworthy and safe.",
+      "Student confidently identifies multiple trusted adults and articulates specific qualities that make them trustworthy, such as reliability, respectfulness, and good communication skills.",
+      "Student confidently identifies multiple trusted adults, explains their trustworthiness, and understands the importance of seeking help from different adults based on the situation."
+    ],
+    [
+      "Student is unable to describe when or how to call 9-1-1.",
+      "Student can state the number to call in an emergency (9-1-1) but cannot describe the purpose or proper procedure.",
+      "Student begins to simulate a 9-1-1 call but misses critical information or struggles to communicate clearly.",
+      "Student accurately simulates a 9-1-1 call, providing their location and a brief description of the emergency, but may omit key details.",
+      "Student confidently simulates a 9-1-1 call, providing all necessary information clearly and concisely (location, type of emergency, assistance needed) and remains calm.",
+      "Student confidently and accurately simulates a 9-1-1 call, provides comprehensive information, answers questions effectively, and demonstrates an understanding of how to handle the situation until help arrives."
+    ],
+    [
+      "Student does not understand the importance of seeking help in emergency situations.",
+      "Student acknowledges that seeking help is sometimes necessary but cannot explain why.",
+      "Student recognizes the importance of seeking help in some situations but struggles to identify when it is most appropriate.",
+      "Student generally understands the importance of seeking help in emergency situations and can provide some examples.",
+      "Student clearly articulates the importance of seeking help in a variety of emergency situations, emphasizing safety and well-being.",
+      "Student comprehensively explains the importance of seeking help, providing specific examples and understanding the potential consequences of not seeking help."
+    ]
+  ]
+}

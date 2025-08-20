@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the problem: How well does the solution address the issue of wind or water changing the land?",
+    "Design and Feasibility: How practical and well-designed is the proposed solution?",
+    "Comparison of Multiple Solutions: Ability to compare different approaches and identify their strengths and weaknesses.",
+    "Consideration of Environmental Impact: How well does the solution account for its potential impact on the environment?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The solution does not address the problem or shows a lack of understanding of how wind or water changes the land.",
+      "The solution shows a minimal understanding of the problem and provides a solution that is not well-suited to address the issue.",
+      "The solution shows some understanding of the problem and provides a basic solution to prevent wind\/water from changing the shape of land with some flaws.",
+      "The solution demonstrates a moderate understanding of the problem and proposes a somewhat effective solution to slow or prevent wind\/water erosion. There is a good understanding of the relationship.",
+      "The solution demonstrates a strong understanding of the problem and proposes an effective solution to significantly slow or prevent wind\/water erosion. There is a clear understanding of the relationship between wind\/water and land.",
+      "The solution demonstrates a comprehensive understanding of the problem and proposes a highly effective and innovative solution to virtually eliminate wind\/water erosion. There is a sophisticated understanding of the complex relationship."
+    ],
+    [
+      "The solution is not practical and poorly designed, lacking logical coherence.",
+      "The solution is barely practical with significant design flaws and questionable feasibility.",
+      "The solution is somewhat practical, but contains several design flaws that limit its feasibility.",
+      "The solution demonstrates reasonable practicality and design quality, with minor limitations in feasibility.",
+      "The solution is highly practical and well-designed, demonstrating a strong likelihood of success.",
+      "The solution is exceptionally practical, creatively designed, and exhibits outstanding feasibility."
+    ],
+    [
+      "No comparison of multiple solutions is presented.",
+      "A limited attempt to compare solutions is made, but it lacks depth and accuracy.",
+      "A basic comparison of multiple solutions is provided, but the analysis of strengths and weaknesses is superficial.",
+      "A satisfactory comparison of multiple solutions is presented, with a reasonable analysis of their respective strengths and weaknesses.",
+      "A thorough and insightful comparison of multiple solutions is provided, with a well-reasoned analysis of their strengths and weaknesses.",
+      "An exceptional comparison of multiple solutions is presented, demonstrating a comprehensive understanding of their strengths and weaknesses, and how these factors impact overall effectiveness."
+    ],
+    [
+      "The solution does not consider environmental impact.",
+      "The solution minimally considers environmental impact, with little understanding of potential consequences.",
+      "The solution considers some potential environmental impacts, but lacks a comprehensive assessment.",
+      "The solution adequately considers environmental impacts, proposing some measures to mitigate potential harm.",
+      "The solution thoroughly considers environmental impacts, proposing effective and sustainable measures to minimize harm.",
+      "The solution proactively addresses environmental impacts, integrating innovative and sustainable practices to enhance the environment."
+    ]
+  ]
+}

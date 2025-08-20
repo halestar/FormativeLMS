@@ -87,13 +87,13 @@ class StorageSettings extends SystemSetting
 	public function getInstance(string $instance): ?LmsStorage
 	{
 		if($this->student_work && $this->student_work->instanceProperty == $instance)
-			return $this->student_work->instanceProperty;
+			return $this->student_work;
 		if($this->employee_work && $this->employee_work->instanceProperty == $instance)
-			return $this->employee_work->instanceProperty;
+			return $this->employee_work;
 		if($this->class_work && $this->class_work->instanceProperty == $instance)
-			return $this->class_work->instanceProperty;
+			return $this->class_work;
 		if($this->email_work && $this->email_work->instanceProperty == $instance)
-			return $this->email_work->instanceProperty;
+			return $this->email_work;
 		foreach($this->employee_documents as $doc)
 			if($doc->instanceProperty == $instance)
 				return $doc;

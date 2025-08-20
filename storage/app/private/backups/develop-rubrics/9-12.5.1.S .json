@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Potential Dangers",
+    "Application of Decision-Making Process",
+    "Strategies to Avoid Dangerous Situations",
+    "Consideration of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any potential dangers in given situations.",
+      "Identifies only the most obvious dangers, missing key risk factors.",
+      "Identifies some potential dangers, but analysis lacks depth and detail.",
+      "Identifies most potential dangers and provides a basic explanation of associated risks.",
+      "Thoroughly identifies potential dangers with clear and detailed explanations of risks.",
+      "Exhaustively identifies potential dangers, providing insightful and nuanced explanations of risks, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Does not apply any recognizable decision-making process.",
+      "Attempts to apply a decision-making process, but implementation is flawed and ineffective.",
+      "Applies a decision-making process inconsistently or with limited success.",
+      "Applies a decision-making process to some extent, but may not fully consider all relevant factors.",
+      "Effectively applies a decision-making process, considering most relevant factors and potential outcomes.",
+      "Applies a robust and well-reasoned decision-making process, thoroughly considering all relevant factors, potential outcomes, and ethical implications."
+    ],
+    [
+      "Unable to suggest any strategies to avoid dangerous situations.",
+      "Suggests strategies that are impractical, unsafe, or unlikely to be effective.",
+      "Suggests some strategies, but they are limited in scope and may not fully address the dangers.",
+      "Suggests appropriate strategies to avoid dangerous situations, with some justification.",
+      "Suggests well-reasoned and effective strategies to avoid dangerous situations, providing clear justification and considering potential challenges.",
+      "Suggests innovative and highly effective strategies to avoid dangerous situations, demonstrating a deep understanding of risk mitigation and proactive safety measures."
+    ],
+    [
+      "Fails to consider the potential consequences of decisions.",
+      "Demonstrates a limited awareness of potential consequences, overlooking key impacts.",
+      "Considers some potential consequences, but analysis lacks depth and scope.",
+      "Considers the potential consequences of decisions and actions, with some explanation.",
+      "Thoroughly considers the potential consequences of decisions and actions, providing clear and detailed explanations.",
+      "Insightfully analyzes the potential consequences of decisions and actions, considering short-term and long-term impacts, and demonstrating a nuanced understanding of complex relationships."
+    ]
+  ]
+}

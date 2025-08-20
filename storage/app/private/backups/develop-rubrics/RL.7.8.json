@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Relevance of Argument Reconstruction",
+    "Identification of Reasoning and Evidence",
+    "Clarity and Coherence of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The argument is not reconstructed, or the reconstruction is entirely inaccurate and irrelevant to the source material.",
+      "The argument reconstruction is attempted, but it contains significant inaccuracies or irrelevant information.",
+      "The argument reconstruction is partially accurate, but key components are missing or misinterpreted, and some irrelevant details are present.",
+      "The argument reconstruction is mostly accurate, capturing the main points, but some nuances are overlooked or slightly misrepresented.",
+      "The argument reconstruction is accurate and relevant, capturing the main points and key supporting details with only minor omissions.",
+      "The argument reconstruction is exceptionally accurate, insightful, and thoroughly relevant, demonstrating a comprehensive understanding of the argument's structure and purpose."
+    ],
+    [
+      "No reasoning or evidence is identified, or the identification is completely unrelated to the source material.",
+      "An attempt is made to identify reasoning or evidence, but the selections are largely inappropriate or unsubstantiated.",
+      "Some reasoning or evidence is identified, but the connections to the argument are weak or unclear.",
+      "Reasoning and evidence are identified with reasonable accuracy, and their relevance to the argument is generally clear.",
+      "Reasoning and evidence are clearly and accurately identified, and their contribution to the overall argument is well-explained.",
+      "Reasoning and evidence are identified with exceptional insight and precision, demonstrating a deep understanding of their role in shaping the argument's persuasiveness and validity."
+    ],
+    [
+      "The explanation is absent, incomprehensible, or completely disorganized.",
+      "The explanation is difficult to follow, lacking logical structure and coherence.",
+      "The explanation is somewhat understandable, but it suffers from vagueness, ambiguity, or inconsistencies.",
+      "The explanation is reasonably clear and coherent, presenting ideas in a logical order with supporting details.",
+      "The explanation is clear, coherent, and well-organized, effectively communicating the reconstructed argument and identified elements.",
+      "The explanation is exceptionally clear, concise, and insightful, demonstrating a masterful command of language and a deep understanding of the subject matter."
+    ]
+  ]
+}

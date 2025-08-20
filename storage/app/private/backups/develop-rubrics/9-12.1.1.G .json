@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Physical Changes",
+    "Understanding of Social Changes",
+    "Understanding of Emotional Changes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of physical changes associated with being a young adult.",
+      "Identifies only one or two physical changes with limited accuracy.",
+      "Lists several physical changes but lacks depth in explanation.",
+      "Describes multiple physical changes with reasonable accuracy and detail.",
+      "Explains physical changes comprehensively, including relevant biological processes.",
+      "Demonstrates a thorough and nuanced understanding of physical changes, including the variability and individual differences in development."
+    ],
+    [
+      "Demonstrates no understanding of social changes associated with being a young adult.",
+      "Identifies only one or two social changes with limited accuracy.",
+      "Lists several social changes but lacks depth in explanation.",
+      "Describes multiple social changes with reasonable accuracy and detail.",
+      "Explains social changes comprehensively, including the impact on relationships and identity.",
+      "Demonstrates a thorough and nuanced understanding of social changes, including the role of culture and peer influence."
+    ],
+    [
+      "Demonstrates no understanding of emotional changes associated with being a young adult.",
+      "Identifies only one or two emotional changes with limited accuracy.",
+      "Lists several emotional changes but lacks depth in explanation.",
+      "Describes multiple emotional changes with reasonable accuracy and detail.",
+      "Explains emotional changes comprehensively, including the impact on mental health and coping strategies.",
+      "Demonstrates a thorough and nuanced understanding of emotional changes, including the interplay of emotions and personal experiences."
+    ]
+  ]
+}

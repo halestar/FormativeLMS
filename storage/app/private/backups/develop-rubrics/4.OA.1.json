@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding Multiplication as Comparison",
+    "Applying Understanding to Solve Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of multiplication as a comparison.",
+      "Student struggles to interpret multiplication equations as comparisons and provides incorrect interpretations.",
+      "Student shows limited understanding of multiplication as a comparison, requiring significant prompting to interpret equations.",
+      "Student can interpret simple multiplication equations as comparisons but struggles with more complex examples.",
+      "Student consistently interprets multiplication equations as comparisons with minor errors or omissions.",
+      "Student accurately and thoroughly interprets multiplication equations as comparisons, providing clear and correct explanations."
+    ],
+    [
+      "Student cannot apply the concept of multiplication as comparison to solve problems.",
+      "Student attempts to apply the concept but makes significant errors and cannot arrive at correct solutions.",
+      "Student can apply the concept with significant guidance and assistance, but struggles independently.",
+      "Student applies the concept to solve simple problems but struggles with more complex scenarios.",
+      "Student can solve most problems using the concept of multiplication as comparison, with occasional errors.",
+      "Student expertly applies the concept of multiplication as comparison to solve a variety of complex problems accurately and efficiently."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Pathogen Types",
+    "Understanding Disease Causation",
+    "Clarity and Accuracy of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of pathogen types.",
+      "The student can list one type of pathogen but struggles to define it or provide examples.",
+      "The student can list two types of pathogens with basic definitions but may confuse specific examples.",
+      "The student can list three types of pathogens, define them accurately, and provide a relevant example for each.",
+      "The student accurately identifies and defines four types of pathogens, providing clear and relevant examples. Demonstrates a solid understanding of their basic characteristics.",
+      "The student comprehensively identifies and defines multiple types of pathogens (more than four), providing detailed examples and demonstrating a nuanced understanding of their characteristics and modes of transmission."
+    ],
+    [
+      "The student does not connect pathogens to disease causation.",
+      "The student vaguely connects pathogens to disease but cannot explain the relationship.",
+      "The student can state that pathogens cause disease but struggles to explain how different pathogens cause specific diseases.",
+      "The student explains how different types of pathogens cause disease with some accuracy, providing basic examples.",
+      "The student clearly explains how different types of pathogens cause specific diseases, providing relevant examples and demonstrating a good understanding of the disease process.",
+      "The student demonstrates a comprehensive understanding of how various pathogens cause disease, including detailed explanations of disease mechanisms, modes of transmission, and potential health impacts."
+    ],
+    [
+      "Explanation is absent or completely unclear and inaccurate.",
+      "Explanation is difficult to understand and contains significant inaccuracies.",
+      "Explanation is somewhat understandable but contains noticeable inaccuracies or lacks clarity.",
+      "Explanation is generally clear and accurate, with only minor areas for improvement.",
+      "Explanation is clear, accurate, and well-organized, demonstrating a strong understanding of the concepts.",
+      "Explanation is exceptionally clear, accurate, insightful, and well-organized, demonstrating a comprehensive mastery of the subject matter."
+    ]
+  ]
+}

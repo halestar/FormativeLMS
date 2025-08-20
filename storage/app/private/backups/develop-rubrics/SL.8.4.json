@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Focus of Claims and Findings",
+    "Evidence, Reasoning, and Details",
+    "Delivery and Presentation Skills",
+    "Narrative Techniques and Structure (if applicable)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The presentation lacks a clear claim or finding, is unfocused, and difficult to follow.",
+      "The presentation presents a claim or finding, but it is vague and lacks focus. The organization is weak.",
+      "The presentation presents a discernible claim or finding with some focus. The organization is generally coherent but may have some lapses.",
+      "The presentation clearly presents a claim or finding with good focus. The organization is coherent and logical.",
+      "The presentation presents a clear, focused, and compelling claim or finding. The organization is highly coherent and enhances understanding.",
+      "The presentation masterfully presents a clear, focused, and compelling claim or finding. The organization is seamless and significantly enhances understanding."
+    ],
+    [
+      "The presentation lacks relevant evidence, sound reasoning, and well-chosen details.",
+      "The presentation includes minimal and\/or irrelevant evidence, weak reasoning, and poorly chosen details.",
+      "The presentation includes some relevant evidence, reasoning, and details, but they may be underdeveloped or not clearly connected to the claim.",
+      "The presentation includes relevant evidence, sound reasoning, and well-chosen details to support the claim or finding.",
+      "The presentation includes strong and relevant evidence, sound valid reasoning, and well-chosen details that effectively support the claim or finding.",
+      "The presentation includes compelling and insightful evidence, sophisticated reasoning, and precise details that powerfully support the claim or finding."
+    ],
+    [
+      "Eye contact is minimal, volume is inadequate, pronunciation is unclear, and delivery is distracting.",
+      "Eye contact is infrequent, volume is inconsistent, pronunciation is sometimes unclear, and delivery is somewhat distracting.",
+      "Eye contact is present but inconsistent, volume is generally adequate, pronunciation is mostly clear, and delivery is occasionally distracting.",
+      "Eye contact is appropriate, volume is adequate, pronunciation is clear, and delivery is generally engaging.",
+      "Eye contact is consistent and engaging, volume is well-modulated, pronunciation is consistently clear, and delivery is polished and effective.",
+      "Eye contact is commanding, volume is expertly modulated, pronunciation is flawless, and delivery is captivating and highly effective."
+    ],
+    [
+      "Narrative lacks context, point of view, logical sequence, narrative techniques, transitions, and a conclusion.",
+      "Narrative attempts to establish context and point of view, but is weak, and lacks a logical sequence, narrative techniques, transitions, and a conclusion.",
+      "Narrative establishes some context and point of view with a somewhat logical sequence. Narrative techniques, transitions, and a conclusion are attempted but are not well-executed.",
+      "Narrative effectively establishes context and point of view with a clear logical sequence. Narrative techniques, transitions, and a conclusion are present and contribute to the overall presentation.",
+      "Narrative skillfully establishes context and point of view with a compelling logical sequence. Narrative techniques, transitions, and a conclusion are well-integrated and enhance the narrative's impact.",
+      "Narrative masterfully establishes context and point of view with a seamless logical sequence. Narrative techniques, transitions, and a conclusion are artfully woven into the narrative, creating a profound and lasting impact."
+    ]
+  ]
+}

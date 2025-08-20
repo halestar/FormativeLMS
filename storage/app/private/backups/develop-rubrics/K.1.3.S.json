@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Safety Procedures",
+    "Application of Knowledge to Real-Life Scenarios",
+    "Communication of Safety Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of safety procedures when riding in a bus or other vehicle.",
+      "Student shows minimal understanding of safety procedures, mentioning one or two basic rules.",
+      "Student identifies some safety procedures (e.g., seatbelt use) but lacks detail or completeness.",
+      "Student explains several safety procedures with reasonable accuracy, such as remaining seated and avoiding distractions.",
+      "Student comprehensively explains various safety procedures, including emergency protocols and respectful behavior towards the driver and other passengers.",
+      "Student demonstrates a thorough and nuanced understanding of safety procedures, including potential hazards and proactive measures to ensure safety in various vehicle scenarios."
+    ],
+    [
+      "Student cannot apply knowledge of safety procedures to real-life scenarios.",
+      "Student struggles to relate safety procedures to practical situations.",
+      "Student can provide basic examples of how to apply safety procedures in specific scenarios.",
+      "Student accurately applies safety procedures to common scenarios, such as boarding and disembarking the vehicle.",
+      "Student skillfully applies safety procedures to a variety of scenarios, including unusual or unexpected situations.",
+      "Student demonstrates exceptional ability to analyze complex scenarios and propose effective safety measures, showing critical thinking and adaptability."
+    ],
+    [
+      "Student is unable to communicate safety information effectively.",
+      "Student struggles to articulate safety procedures clearly.",
+      "Student communicates basic safety information with some clarity.",
+      "Student effectively communicates safety procedures to peers or younger students.",
+      "Student communicates safety information persuasively, demonstrating an understanding of the importance of following procedures.",
+      "Student delivers safety information with exceptional clarity, confidence, and enthusiasm, inspiring others to prioritize safety."
+    ]
+  ]
+}

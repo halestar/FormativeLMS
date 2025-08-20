@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Earth Systems and Their Components",
+    "Analysis of Feedbacks and Their Impact",
+    "Use of Geoscience Data to Support Claims",
+    "Understanding of Stability and Change in Earth Systems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The response does not identify any Earth systems or their components.",
+      "The response identifies at least one Earth system but fails to identify any of its components, or vice versa.",
+      "The response correctly identifies at least one Earth system and one component but demonstrates a limited understanding of their roles.",
+      "The response identifies multiple Earth systems and components, accurately describing their roles within their respective systems.",
+      "The response comprehensively identifies multiple Earth systems and components, accurately describing their roles and demonstrating a solid understanding of their interactions.",
+      "The response expertly identifies Earth systems and components, providing nuanced descriptions of their roles and interactions, demonstrating a deep understanding of Earth's interconnectedness."
+    ],
+    [
+      "The response does not analyze any feedback mechanisms or their impacts on Earth systems.",
+      "The response mentions feedback mechanisms but does not accurately describe their impact on Earth systems.",
+      "The response identifies a single feedback mechanism and attempts to describe its impact on Earth systems, but with limited accuracy.",
+      "The response analyzes one feedback mechanism and correctly describes its impact on multiple Earth systems.",
+      "The response analyzes multiple feedback mechanisms and accurately describes their impacts on interconnected Earth systems, demonstrating an understanding of cause-and-effect relationships.",
+      "The response expertly analyzes complex feedback mechanisms, providing nuanced descriptions of their impacts on Earth systems and demonstrating a comprehensive understanding of system dynamics."
+    ],
+    [
+      "The response does not use any geoscience data to support claims about Earth systems.",
+      "The response attempts to use geoscience data but does not accurately interpret or connect it to claims about Earth systems.",
+      "The response uses geoscience data to support claims, but the connection is weak or not clearly explained.",
+      "The response effectively uses geoscience data to support a claim about how changes to Earth's surface can create feedbacks.",
+      "The response analyzes geoscience data to provide strong evidence supporting claims about feedback mechanisms and their impact on Earth systems, clearly explaining the connections.",
+      "The response expertly analyzes and synthesizes geoscience data to construct compelling arguments about complex feedback mechanisms and their far-reaching impacts on Earth systems, demonstrating a sophisticated understanding of data interpretation."
+    ],
+    [
+      "The response demonstrates no understanding of stability and change in Earth systems.",
+      "The response acknowledges stability or change in Earth systems but provides no further explanation.",
+      "The response demonstrates a basic understanding of either stability or change in Earth systems, but not both.",
+      "The response explains how changes in one Earth system can lead to instability or further changes in other systems.",
+      "The response analyzes the interplay between stability and change in Earth systems, demonstrating a solid understanding of feedback loops and their effects.",
+      "The response expertly analyzes the complex dynamics of stability and change in Earth systems, providing nuanced insights into the factors that influence system resilience and vulnerability."
+    ]
+  ]
+}

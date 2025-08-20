@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Argument and Claims",
+    "Evaluation of Reasoning",
+    "Assessment of Evidence",
+    "Recognition of Irrelevant Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the central argument or any specific claims in the text.",
+      "Identifies the central argument vaguely but struggles to pinpoint specific claims.",
+      "Identifies the central argument and some specific claims, but with limited accuracy.",
+      "Accurately identifies the central argument and most of the key specific claims.",
+      "Clearly and accurately identifies the central argument and all key specific claims, demonstrating good comprehension.",
+      "Masterfully identifies the central argument and all specific claims, showcasing a deep understanding of the text's structure."
+    ],
+    [
+      "Unable to evaluate the reasoning presented in the text.",
+      "Attempts to evaluate the reasoning but provides illogical or unsupported analysis.",
+      "Provides a superficial evaluation of the reasoning with limited justification.",
+      "Evaluates the reasoning with generally sound analysis and some supporting evidence.",
+      "Presents a well-reasoned evaluation of the soundness of the argument, supported by relevant evidence.",
+      "Offers a sophisticated and insightful evaluation of the reasoning, demonstrating a comprehensive understanding of logical fallacies and argumentation."
+    ],
+    [
+      "Does not assess the relevance or sufficiency of the evidence provided.",
+      "Attempts to assess the evidence but struggles to determine relevance or sufficiency.",
+      "Provides a basic assessment of the evidence's relevance and sufficiency, but lacks depth.",
+      "Adequately assesses the relevance and sufficiency of the evidence with some supporting explanation.",
+      "Thoroughly assesses the relevance and sufficiency of the evidence, providing clear and logical justification.",
+      "Critically assesses the relevance and sufficiency of the evidence, demonstrating a nuanced understanding of its impact on the argument's validity."
+    ],
+    [
+      "Fails to recognize any instances of irrelevant evidence.",
+      "Identifies some potential irrelevant evidence, but the reasoning is unclear or flawed.",
+      "Recognizes a few instances of irrelevant evidence with limited explanation.",
+      "Identifies most instances of irrelevant evidence and provides a reasonable explanation for their irrelevance.",
+      "Clearly identifies all instances of irrelevant evidence and explains their irrelevance with sound reasoning.",
+      "Masterfully identifies all instances of irrelevant evidence, providing a comprehensive and insightful analysis of their impact on the argument."
+    ]
+  ]
+}

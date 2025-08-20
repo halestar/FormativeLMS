@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Response to Instructions",
+    "Safe Movement and Awareness",
+    "Composure and Calmness",
+    "Efficiency and Speed"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not follow instructions or participate in the drill.",
+      "Shows minimal awareness of instructions, hesitant to follow directions.",
+      "Follows most instructions with some prompting.",
+      "Responds appropriately to instructions in a timely manner.",
+      "Demonstrates a clear understanding of instructions and follows them effectively.",
+      "Proactively follows instructions and assists others in understanding them."
+    ],
+    [
+      "Exhibits unsafe behavior and is unaware of surroundings.",
+      "Shows limited awareness, moves unsafely with supervision.",
+      "Moves safely with occasional reminders, partially aware of surroundings.",
+      "Demonstrates safe movement and is generally aware of surroundings.",
+      "Consistently moves safely and demonstrates good awareness of surroundings.",
+      "Exhibits exceptional spatial awareness and proactively ensures the safety of self and others."
+    ],
+    [
+      "Displays panic or disrupts the drill.",
+      "Shows significant anxiety, struggles to maintain composure.",
+      "Shows some anxiety, needs reminders to stay calm.",
+      "Maintains composure and stays calm throughout the drill.",
+      "Demonstrates resilience and helps calm others.",
+      "Exemplifies calmness and provides support to peers, creating a reassuring environment."
+    ],
+    [
+      "Does not move to the designated location or significantly delays the process.",
+      "Moves slowly and inefficiently, causing delays.",
+      "Moves at an adequate pace but is somewhat inefficient.",
+      "Moves efficiently to the designated location in a reasonable time frame.",
+      "Demonstrates excellent efficiency and speed without compromising safety.",
+      "Moves swiftly and effectively, setting a positive example for others."
+    ]
+  ]
+}

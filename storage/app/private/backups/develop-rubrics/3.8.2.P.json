@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Effectiveness of Encouragement",
+    "Understanding of Healthy Environment Components",
+    "Impact and Reach of Promotional Efforts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to encourage or unclear messaging.",
+      "Encouragement is attempted but lacks clarity or effectiveness.",
+      "Encouragement is somewhat clear but lacks depth or impact.",
+      "Encouragement is clear and demonstrates a basic understanding of promoting a healthy environment.",
+      "Encouragement is clear, effective, and shows a good understanding of promoting a healthy environment.",
+      "Encouragement is highly effective, persuasive, and demonstrates a comprehensive understanding of promoting a healthy environment, inspiring others to take action."
+    ],
+    [
+      "No understanding of what constitutes a healthy environment.",
+      "Demonstrates minimal understanding of healthy environment components.",
+      "Demonstrates some understanding of healthy environment components but lacks detail.",
+      "Demonstrates a satisfactory understanding of the components of a healthy environment, such as clean air, water, and social well-being.",
+      "Demonstrates a strong understanding of the components of a healthy environment and their interconnections.",
+      "Demonstrates an exceptional understanding of the components of a healthy environment, including innovative approaches and solutions, and the ability to connect to a broader audience."
+    ],
+    [
+      "No promotional effort observed.",
+      "Promotional efforts are minimal and have little to no impact.",
+      "Promotional efforts are present but reach is limited.",
+      "Promotional efforts reach a small audience and have a noticeable impact.",
+      "Promotional efforts reach a moderate audience and create positive change.",
+      "Promotional efforts have a widespread impact, influencing positive change across the community and promoting long-term sustainability."
+    ]
+  ]
+}

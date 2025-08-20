@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of National Symbols",
+    "Understanding Symbol Significance",
+    "Identification of State Symbols",
+    "Understanding State Symbol Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any national symbols or icons.",
+      "Student can identify one national symbol or icon with prompting.",
+      "Student can identify two national symbols or icons with some prompting.",
+      "Student can identify three national symbols or icons with minimal prompting.",
+      "Student can independently identify at least four national symbols or icons.",
+      "Student can independently and accurately identify several national symbols and icons and provide context for their importance."
+    ],
+    [
+      "Student demonstrates no understanding of the significance or meaning behind any national symbol.",
+      "Student demonstrates a basic understanding of the significance of at least one national symbol.",
+      "Student demonstrates a limited understanding of the significance of at least two national symbols.",
+      "Student adequately explains the significance of multiple national symbols with minimal prompting.",
+      "Student clearly and accurately explains the significance of multiple national symbols and icons.",
+      "Student provides detailed explanations of the historical, cultural, and political significance of multiple national symbols and icons, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student cannot identify any state symbols or icons.",
+      "Student can identify one state symbol or icon with prompting.",
+      "Student can identify two state symbols or icons with some prompting.",
+      "Student can identify three state symbols or icons with minimal prompting.",
+      "Student can independently identify at least four state symbols or icons.",
+      "Student can independently and accurately identify several state symbols and icons and provide context for their importance."
+    ],
+    [
+      "Student demonstrates no understanding of the significance or meaning behind any state symbol.",
+      "Student demonstrates a basic understanding of the significance of at least one state symbol.",
+      "Student demonstrates a limited understanding of the significance of at least two state symbols.",
+      "Student adequately explains the significance of multiple state symbols with minimal prompting.",
+      "Student clearly and accurately explains the significance of multiple state symbols and icons.",
+      "Student provides detailed explanations of the historical, cultural, and political significance of multiple state symbols and icons, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

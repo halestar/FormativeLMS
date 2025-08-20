@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of the model in representing the conservation of atoms during a chemical reaction.",
+    "Clarity and effectiveness of the model in illustrating the rearrangement of atoms.",
+    "Explanation of how the model demonstrates that mass is conserved during the reaction."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Model is absent or completely irrelevant to the concept of conservation of atoms.",
+      "Model attempts to represent a chemical reaction, but shows no understanding of atom conservation.",
+      "Model vaguely represents a chemical reaction and makes a rudimentary attempt to show atom conservation, but contains significant inaccuracies.",
+      "Model represents a chemical reaction and demonstrates a basic understanding of atom conservation, but may have minor inaccuracies or omissions.",
+      "Model accurately represents a chemical reaction and clearly demonstrates the conservation of atoms with only minor omissions.",
+      "Model accurately represents a chemical reaction and comprehensively demonstrates the conservation of atoms in a clear and precise manner."
+    ],
+    [
+      "Model is unclear, disorganized, and does not effectively illustrate any rearrangement of atoms.",
+      "Model is difficult to understand and provides little insight into how atoms are rearranged during a chemical reaction.",
+      "Model is somewhat unclear, but hints at the rearrangement of atoms during a chemical reaction.",
+      "Model is generally clear and illustrates the basic rearrangement of atoms, but lacks detail.",
+      "Model is clear, well-organized, and effectively illustrates the rearrangement of atoms during a chemical reaction.",
+      "Model is exceptionally clear, concise, and provides a highly effective illustration of the rearrangement of atoms, enhancing understanding of the process."
+    ],
+    [
+      "No explanation is provided, or the explanation is completely unrelated to mass conservation.",
+      "Explanation is attempted but is unclear, inaccurate, or does not address the conservation of mass.",
+      "Explanation is weak and partially addresses mass conservation, but contains significant gaps in understanding.",
+      "Explanation is adequate and demonstrates a basic understanding of how the model relates to mass conservation, but lacks depth.",
+      "Explanation is clear and thoroughly explains how the model demonstrates the conservation of mass during the reaction.",
+      "Explanation is exceptionally clear, insightful, and provides a comprehensive understanding of how the model definitively proves the conservation of mass with a detailed justification."
+    ]
+  ]
+}

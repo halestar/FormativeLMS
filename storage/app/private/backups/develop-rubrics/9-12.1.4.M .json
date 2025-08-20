@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Positive Self-Image Qualities",
+    "Explanation of the Impact of Qualities on Self-Image",
+    "Examples and Relevance to Personal Well-being"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any qualities or provides irrelevant responses.",
+      "Student identifies one or two qualities that are vaguely related to self-image.",
+      "Student identifies a few qualities that contribute to self-image, but explanations are superficial.",
+      "Student identifies several qualities contributing to positive self-image with some explanation.",
+      "Student clearly identifies and explains multiple qualities contributing to a positive self-image, demonstrating good understanding.",
+      "Student comprehensively identifies and explains numerous qualities contributing to a positive self-image, demonstrating excellent understanding and insight."
+    ],
+    [
+      "Student provides no explanation of how the identified qualities affect self-image.",
+      "Student attempts to explain the impact, but the explanation is unclear or inaccurate.",
+      "Student provides a basic explanation of how some qualities impact self-image.",
+      "Student explains how most identified qualities affect self-image with reasonable clarity.",
+      "Student clearly explains the impact of multiple qualities on self-image, showing a good understanding of the connection.",
+      "Student insightfully explains the significant impact of various qualities on self-image, demonstrating a comprehensive grasp of the topic."
+    ],
+    [
+      "Student does not provide any examples or connect qualities to personal well-being.",
+      "Student provides an irrelevant example or a vague connection to personal well-being.",
+      "Student provides a simple example with a limited connection to personal well-being.",
+      "Student provides relevant examples and connects qualities to personal well-being.",
+      "Student provides insightful examples and effectively connects qualities to personal well-being, showing awareness of practical application.",
+      "Student provides compelling and nuanced examples, demonstrating a deep understanding of how these qualities relate to enhanced personal well-being."
+    ]
+  ]
+}

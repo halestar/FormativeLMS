@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting and Specificity",
+    "Monitoring and Adjustment",
+    "Understanding of Health Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal is identified or the goal is extremely vague and unrealistic.",
+      "A goal is identified, but it lacks detail and is not easily measurable. Unrealistic.",
+      "A goal is identified, but it lacks some detail. Partially measurable.",
+      "A specific and measurable health goal is identified.  The goal is attainable but not time-bound.",
+      "A specific, measurable, and attainable health goal is identified. A timeline is included but is not realistic.",
+      "A specific, measurable, attainable, relevant, and time-bound (SMART) health goal is clearly identified."
+    ],
+    [
+      "No attempt to monitor progress or adjust the plan is evident.",
+      "An attempt to monitor progress is mentioned, but no data is collected and no adjustments are made.",
+      "Monitoring is inconsistent and adjustments are minimal or not related to progress.",
+      "Progress is monitored periodically, and minor adjustments are made to the plan based on the data.",
+      "Progress is regularly monitored with relevant data, and adjustments are made proactively to overcome challenges.",
+      "Progress is continuously and systematically monitored with detailed data, and the plan is adapted effectively and efficiently based on ongoing analysis."
+    ],
+    [
+      "Demonstrates no understanding of relevant health concepts related to the goal.",
+      "Demonstrates limited understanding of relevant health concepts; some inaccuracies are present.",
+      "Demonstrates a basic understanding of health concepts but struggles to apply them to the goal.",
+      "Demonstrates a solid understanding of relevant health concepts and applies them appropriately to the goal.",
+      "Demonstrates a strong understanding of health concepts and can explain their relevance to the goal with some outside resources.",
+      "Demonstrates a comprehensive and nuanced understanding of health concepts and can critically analyze their relevance to the goal, providing outside resources."
+    ]
+  ]
+}

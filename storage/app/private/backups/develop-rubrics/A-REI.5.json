@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Properties of Equality",
+    "Skill in Algebraic Manipulation",
+    "Ability to Verify Solutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of properties of equality or how they apply to solving systems of equations.",
+      "Demonstrates a limited understanding of properties of equality with significant errors in application.",
+      "Shows some understanding of properties of equality but struggles to apply them correctly in solving systems of equations.",
+      "Understands and applies properties of equality with minor errors in solving systems of equations.",
+      "Demonstrates a strong understanding and accurate application of properties of equality in solving systems of equations.",
+      "Demonstrates a comprehensive understanding and skillful application of properties of equality to efficiently solve systems of equations and explain the reasoning."
+    ],
+    [
+      "Unable to perform basic algebraic manipulations required to transform equations.",
+      "Struggles with algebraic manipulations, leading to incorrect transformations of equations.",
+      "Can perform some algebraic manipulations but makes frequent errors that affect the solution.",
+      "Performs algebraic manipulations with reasonable accuracy, with only occasional errors.",
+      "Demonstrates accurate and consistent algebraic manipulation skills to correctly transform equations.",
+      "Exhibits mastery in algebraic manipulation, transforming equations efficiently and accurately to solve systems."
+    ],
+    [
+      "Does not attempt to verify solutions or incorrectly verifies them.",
+      "Attempts to verify solutions but makes significant errors in the verification process.",
+      "Verifies solutions with some errors, indicating a partial understanding of the verification process.",
+      "Verifies solutions correctly most of the time, demonstrating a good understanding of the process.",
+      "Consistently and accurately verifies solutions to systems of equations.",
+      "Demonstrates a thorough understanding of solution verification, explaining why the verification process confirms the solution's validity."
+    ]
+  ]
+}

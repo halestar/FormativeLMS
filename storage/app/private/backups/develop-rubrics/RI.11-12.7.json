@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Integration of Information from Multiple Sources",
+    "Evaluation of Sources",
+    "Use of Different Media and Formats",
+    "Addressing the Question or Solving the Problem"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to integrate information from multiple sources.",
+      "The student mentions multiple sources but does not connect the information.",
+      "The student attempts to integrate information from multiple sources, but the connections are unclear or superficial.",
+      "The student integrates information from multiple sources with some coherence, but there are gaps in understanding or inconsistencies.",
+      "The student effectively integrates information from multiple sources, demonstrating a good understanding of the connections between them.",
+      "The student skillfully integrates information from multiple sources, providing insightful connections and a comprehensive understanding."
+    ],
+    [
+      "The student does not evaluate the sources used.",
+      "The student mentions the sources but does not comment on their reliability or perspective.",
+      "The student makes basic evaluations of the sources (e.g., stating whether they agree or disagree) without providing justification.",
+      "The student evaluates the sources with some reasoning, but the evaluation may be limited or superficial.",
+      "The student provides a thoughtful evaluation of the sources, considering their reliability, perspective, and potential biases.",
+      "The student provides a sophisticated and nuanced evaluation of the sources, demonstrating a deep understanding of their strengths and limitations."
+    ],
+    [
+      "The student does not use or reference different media or formats.",
+      "The student mentions different media or formats but does not effectively integrate them.",
+      "The student attempts to use different media or formats, but the integration is awkward or unclear.",
+      "The student integrates different media or formats with some success, but the purpose or impact is not fully realized.",
+      "The student effectively integrates different media or formats to enhance understanding or solve a problem.",
+      "The student skillfully uses different media and formats, creating a compelling and insightful presentation."
+    ],
+    [
+      "The student does not address the question or attempt to solve the problem.",
+      "The student mentions the question or problem but does not provide a clear response or solution.",
+      "The student attempts to address the question or solve the problem, but the response is incomplete or irrelevant.",
+      "The student provides a reasonable response to the question or solution to the problem, but it may lack depth or clarity.",
+      "The student effectively addresses the question or solves the problem, providing a clear and well-supported response.",
+      "The student provides a thorough and insightful response to the question or solution to the problem, demonstrating a deep understanding of the issues involved."
+    ]
+  ]
+}

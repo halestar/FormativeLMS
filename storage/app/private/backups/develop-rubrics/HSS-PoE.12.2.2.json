@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Supply and Demand Concepts",
+    "Application to Relative Scarcity, Price, and Quantity",
+    "Clarity and Precision of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of supply and demand.",
+      "Student shows minimal understanding of supply and demand, with significant misconceptions.",
+      "Student identifies supply and demand but struggles to explain the concepts accurately.",
+      "Student demonstrates a basic understanding of supply and demand, with some inaccuracies.",
+      "Student accurately explains supply and demand and their relationship.",
+      "Student provides a thorough and nuanced explanation of supply and demand, including factors that influence them."
+    ],
+    [
+      "Student fails to connect changes in supply and demand to scarcity, price, and quantity.",
+      "Student attempts to connect supply and demand changes to scarcity, price, and quantity but makes significant errors.",
+      "Student identifies the relationship but struggles to explain how changes in supply or demand affect scarcity, price, and quantity.",
+      "Student explains how changes in either supply OR demand affect relative scarcity, price and quantity of products.",
+      "Student explains how changes in BOTH supply AND demand affect relative scarcity, price and quantity of products.",
+      "Student provides detailed examples and explains the complexities of how shifts in both supply and demand impact relative scarcity, price and quantity, including real-world scenarios."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation is somewhat unclear with significant gaps in logic.",
+      "Explanation is understandable but lacks precision and detail.",
+      "Explanation is generally clear and logical, with minor areas for improvement.",
+      "Explanation is clear, concise, and well-organized.",
+      "Explanation is exceptionally clear, precise, and insightful, demonstrating a deep understanding of the concepts."
+    ]
+  ]
+}

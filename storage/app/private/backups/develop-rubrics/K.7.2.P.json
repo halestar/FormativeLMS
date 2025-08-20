@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information on Germ Transmission Prevention",
+    "Application of Knowledge to Real-Life Scenarios",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding or demonstration of germ transmission prevention methods.",
+      "Demonstrates minimal understanding, with significant inaccuracies or omissions.",
+      "Identifies some methods, but with noticeable gaps in understanding or incorrect details.",
+      "Demonstrates a generally accurate understanding of common prevention methods, with minor omissions.",
+      "Clearly and accurately describes several effective methods to prevent germ transmission, demonstrating solid understanding.",
+      "Provides comprehensive and accurate explanations of various prevention methods, demonstrating a thorough understanding of germ transmission."
+    ],
+    [
+      "Unable to apply knowledge of germ prevention to practical situations.",
+      "Struggles to apply knowledge, with inappropriate or ineffective suggestions.",
+      "Offers basic suggestions, but relevance to real-life scenarios is limited.",
+      "Provides relevant suggestions for common scenarios, but lacks depth or detail.",
+      "Effectively applies knowledge to various real-life scenarios, demonstrating practical understanding.",
+      "Skillfully applies knowledge to diverse and complex scenarios, providing insightful and effective prevention strategies."
+    ],
+    [
+      "Communication is unclear and disorganized, hindering understanding.",
+      "Struggles to articulate prevention methods clearly; communication is confusing.",
+      "Communicates basic methods, but explanation lacks clarity and organization.",
+      "Communicates prevention methods clearly and with reasonable organization.",
+      "Communicates methods effectively and coherently, using appropriate language.",
+      "Communicates methods with exceptional clarity, precision, and engaging presentation."
+    ]
+  ]
+}

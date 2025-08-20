@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Decimal Notation",
+    "Describing Lengths in Decimal Notation",
+    "Locating Decimals on a Number Line"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of decimal notation for fractions with denominators of 10 or 100.",
+      "Student struggles to rewrite decimals as fractions with denominators of 10 or 100.",
+      "Student can rewrite some decimals as fractions with denominators of 10 or 100, but makes frequent errors.",
+      "Student can generally rewrite decimals as fractions with denominators of 10 or 100 with occasional errors.",
+      "Student accurately rewrites decimals as fractions with denominators of 10 or 100 and explains the relationship between them.",
+      "Student demonstrates a deep understanding of decimal notation, accurately rewrites decimals as fractions with denominators of 10 or 100, and can apply this knowledge to solve complex problems."
+    ],
+    [
+      "Student cannot describe lengths using decimal notation for fractions with denominators of 10 or 100.",
+      "Student struggles to describe lengths using decimal notation and makes significant errors.",
+      "Student can describe some lengths using decimal notation, but demonstrates inconsistency and makes errors.",
+      "Student can generally describe lengths using decimal notation with some accuracy.",
+      "Student accurately describes lengths using decimal notation for fractions with denominators of 10 or 100.",
+      "Student demonstrates a thorough understanding of decimal notation and accurately describes lengths in various contexts with denominators of 10 or 100."
+    ],
+    [
+      "Student is unable to locate decimals on a number line diagram.",
+      "Student struggles to locate decimals on a number line and shows little understanding of decimal placement.",
+      "Student can locate some decimals on a number line, but demonstrates inaccuracies and inconsistencies.",
+      "Student can generally locate decimals on a number line with reasonable accuracy.",
+      "Student accurately locates decimals on a number line diagram, demonstrating a solid understanding of decimal placement.",
+      "Student demonstrates a comprehensive understanding of decimal placement and accurately locates decimals on a number line, and can explain their reasoning."
+    ]
+  ]
+}

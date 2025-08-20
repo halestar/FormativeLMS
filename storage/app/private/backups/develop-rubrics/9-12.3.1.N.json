@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information Sources",
+    "Understanding of Key Concepts",
+    "Application of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Sources used are unreliable or irrelevant to weight management.",
+      "Sources are of questionable reliability and\/or relevance to weight management.",
+      "Sources include some accurate information, but reliability is inconsistent.",
+      "Sources are generally reliable, providing mostly accurate information about weight management.",
+      "Sources are reliable and provide accurate information about various aspects of safe weight management.",
+      "Sources are highly credible and offer comprehensive, accurate, and nuanced information on safe and healthy weight management strategies."
+    ],
+    [
+      "Demonstrates no understanding of key concepts related to safe weight management.",
+      "Demonstrates limited understanding of key concepts; significant misconceptions are present.",
+      "Demonstrates basic understanding of some key concepts, but struggles to connect them.",
+      "Demonstrates a solid understanding of key concepts such as balanced diet, exercise, and metabolism.",
+      "Demonstrates a strong understanding of key concepts and their interrelation in weight management.",
+      "Demonstrates a comprehensive and nuanced understanding of key concepts, including their application to individual needs and circumstances."
+    ],
+    [
+      "Unable to apply knowledge to practical scenarios related to weight management.",
+      "Struggles to apply knowledge, with frequent errors or misunderstandings.",
+      "Can apply knowledge to simple scenarios, but struggles with more complex situations.",
+      "Can apply knowledge to a variety of scenarios related to weight management, with few errors.",
+      "Can effectively apply knowledge to diverse and complex scenarios, demonstrating adaptability.",
+      "Demonstrates mastery in applying knowledge, offering insightful and practical solutions to weight management challenges."
+    ]
+  ]
+}

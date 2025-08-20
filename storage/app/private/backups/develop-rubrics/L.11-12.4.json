@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Contextual Understanding",
+    "Morphological Analysis",
+    "Reference Material Usage",
+    "Verification of Meaning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of word meaning within the context.",
+      "Struggles to use context to infer word meaning; interpretation is often incorrect.",
+      "Uses context with limited success; may misinterpret subtle cues.",
+      "Generally uses context effectively to determine word meaning, but occasionally misses nuances.",
+      "Uses context effectively and accurately to determine word meaning, showing good comprehension.",
+      "Masterfully uses context to determine precise word meaning, demonstrating sophisticated comprehension and awareness of subtleties."
+    ],
+    [
+      "Shows no recognition of word patterns or roots\/affixes.",
+      "Has difficulty identifying and using word patterns to infer meaning.",
+      "Identifies common word patterns but struggles with application to unfamiliar words.",
+      "Applies knowledge of word patterns and roots\/affixes to infer meaning with reasonable accuracy.",
+      "Demonstrates strong ability to use word patterns and roots\/affixes to accurately infer meaning.",
+      "Expertly applies knowledge of morphology to decipher complex words, demonstrating a deep understanding of language structure."
+    ],
+    [
+      "Does not consult reference materials to clarify word meaning.",
+      "Attempts to use reference materials but struggles with effective navigation and interpretation.",
+      "Uses reference materials with some success but may select inappropriate sources or misinterpret information.",
+      "Consults reference materials effectively to clarify word meaning, pronunciation, or etymology.",
+      "Selects and uses reference materials skillfully to gain a comprehensive understanding of word meaning and usage.",
+      "Demonstrates expert-level ability to use a variety of reference materials efficiently and effectively, gleaning nuanced information about words."
+    ],
+    [
+      "Does not attempt to verify the inferred meaning of words.",
+      "Attempts to verify meaning but struggles with the process or dismisses contradictory information.",
+      "Verifies meaning inconsistently or relies on a single source without cross-referencing.",
+      "Generally verifies the meaning of words through context or reference materials, but may overlook subtle inconsistencies.",
+      "Consistently verifies the meaning of words through multiple sources and contexts, ensuring accuracy.",
+      "Routinely and thoroughly verifies word meanings, demonstrating a commitment to precision and a nuanced understanding of language."
+    ]
+  ]
+}

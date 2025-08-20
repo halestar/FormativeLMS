@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Integration of Quantitative and Qualitative Analysis",
+    "Clarity and Accuracy of Analysis",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to integrate quantitative or technical analysis with qualitative analysis.",
+      "Limited attempt to integrate quantitative or technical analysis with qualitative analysis; integration is superficial or irrelevant.",
+      "Quantitative or technical analysis is present, but connection to qualitative analysis is weak; explanation is unclear or incomplete.",
+      "Quantitative or technical analysis is integrated with qualitative analysis, but the connection could be stronger; explanation is generally clear.",
+      "Quantitative or technical analysis is effectively integrated with qualitative analysis, enhancing understanding of the text; explanation is clear and logical.",
+      "Quantitative and qualitative analyses are seamlessly integrated, providing profound insights into the text; explanation is exceptionally clear, insightful, and well-supported."
+    ],
+    [
+      "Analysis is unclear, inaccurate, or missing.",
+      "Analysis is vague, contains inaccuracies, or demonstrates a misunderstanding of the data.",
+      "Analysis is somewhat clear but contains minor inaccuracies or lacks sufficient detail.",
+      "Analysis is generally clear and accurate, with sufficient detail to support claims.",
+      "Analysis is clear, accurate, and detailed, providing strong support for claims.",
+      "Analysis is exceptionally clear, accurate, insightful, and thoroughly supported with compelling evidence."
+    ],
+    [
+      "No evidence presented",
+      "Little evidence, inappropriate evidence.",
+      "Some use of evidence is presented but not well explained",
+      "Adequate evidence provided that helps explain the text.",
+      "Good, well-integrated evidence is used that enhances the text.",
+      "Evidence is used seamlessly and with impact to improve the text."
+    ]
+  ]
+}

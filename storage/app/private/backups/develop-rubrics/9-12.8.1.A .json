@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Active Participation and Engagement",
+    "Understanding of Substance Use Issues",
+    "Promotion of Positive Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student shows no participation in activities or engagement in promoting positive choices regarding substance use.",
+      "Student shows minimal participation with little to no active engagement in promoting positive choices.",
+      "Student participates in activities with some engagement, but demonstrates limited initiative.",
+      "Student actively participates in activities and shows a willingness to engage with peers and community members.",
+      "Student actively participates and demonstrates strong engagement, initiating conversations and promoting positive choices effectively.",
+      "Student consistently and actively participates, demonstrating exceptional engagement and leadership in promoting positive choices regarding substance use."
+    ],
+    [
+      "Student demonstrates no understanding of the issues related to alcohol, tobacco, and other drug use.",
+      "Student shows limited understanding of the risks and consequences associated with substance use.",
+      "Student demonstrates a basic understanding of some risks and consequences of substance use.",
+      "Student demonstrates a clear understanding of the risks, consequences, and factors influencing substance use.",
+      "Student demonstrates a comprehensive understanding, including social and personal factors, and can explain the complexities of substance use issues.",
+      "Student demonstrates expert-level understanding, including critical analysis of societal influences and effective strategies for prevention and intervention."
+    ],
+    [
+      "Student does not promote positive choices or provide alternatives to substance use.",
+      "Student occasionally mentions positive choices but provides limited information or support.",
+      "Student promotes positive choices in a general way but lacks specific examples or persuasive arguments.",
+      "Student effectively promotes positive choices by providing clear information, examples, and persuasive arguments.",
+      "Student actively promotes positive choices, provides tailored advice, and supports peers in making healthy decisions.",
+      "Student consistently and effectively promotes positive choices, serving as a role model and advocating for healthy lifestyles within the school and community."
+    ]
+  ]
+}

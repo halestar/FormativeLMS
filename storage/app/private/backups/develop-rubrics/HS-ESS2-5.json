@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning and Conducting an Investigation",
+    "Understanding Water's Properties and Effects",
+    "Data Collection and Analysis",
+    "Connections to California Environmental Principles and Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No clear plan for investigation; lacks identification of variables or controls.",
+      "Basic plan described, but lacks detail on controlling variables or accuracy of data.",
+      "Plan includes variables and some controls, but may not address data accuracy or limitations.",
+      "Clear plan outlined with identified variables, controls, and consideration of data accuracy.",
+      "Well-thought-out plan with detailed variables, controls, and limitations discussed; design is refined.",
+      "Comprehensive and refined plan, demonstrating a deep understanding of investigative design and data reliability."
+    ],
+    [
+      "Does not demonstrate understanding of water's properties or its effects on Earth's processes.",
+      "Limited understanding of water's properties with minimal connection to Earth's surface processes.",
+      "Basic understanding of water's properties; general connections to Earth's surface processes are mentioned.",
+      "Clear understanding of water's unique properties and direct connections to Earth's surface processes.",
+      "Strong understanding of water's properties and detailed connections to Earth's processes like the rock cycle.",
+      "Exceptional understanding of water's properties and complex connections to Earth's systems, including environmental impacts."
+    ],
+    [
+      "No data collected or analysis is attempted.",
+      "Data is collected but lacks organization or relevance; analysis is superficial.",
+      "Data is organized; basic analysis identifies trends but lacks depth.",
+      "Data is clearly presented with meaningful analysis and interpretation.",
+      "Detailed data analysis leads to insightful conclusions supported by evidence.",
+      "Comprehensive data analysis, leading to novel conclusions and an understanding of uncertainties."
+    ],
+    [
+      "Fails to recognize the relationship between natural systems, human dependency, and alteration.",
+      "Makes a vague attempt to connect natural cycles and human impact, but lacks specifics.",
+      "Identifies the basic interactions between natural systems and human society without much detail.",
+      "Clearly connects how humans rely on and can alter natural systems and their cycles.",
+      "Provides examples of how human societies affect the long-term functioning of natural systems.",
+      "Offers a comprehensive assessment of how human activities and natural systems interact, impacting long-term sustainability."
+    ]
+  ]
+}

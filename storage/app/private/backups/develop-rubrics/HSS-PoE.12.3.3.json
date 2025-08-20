@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Fiscal Policies",
+    "Influence on Production, Employment, and Price Levels",
+    "Accuracy and Use of Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of government fiscal policies is demonstrated.",
+      "Demonstrates a minimal understanding of government fiscal policies (taxation, borrowing, spending).",
+      "Demonstrates a basic understanding of government fiscal policies, but lacks detail.",
+      "Demonstrates a satisfactory understanding of government fiscal policies and their basic functions.",
+      "Demonstrates a strong understanding of government fiscal policies, including taxation, borrowing, and spending.",
+      "Demonstrates a comprehensive understanding of government fiscal policies, including nuances and complexities."
+    ],
+    [
+      "No understanding of the influence of fiscal policies on production, employment, and price levels is demonstrated.",
+      "Demonstrates a minimal understanding of how fiscal policies might influence production, employment, or price levels.",
+      "Demonstrates a basic understanding of the influence of fiscal policies on production, employment, and price levels, but explanation is vague.",
+      "Demonstrates a satisfactory understanding of the influence of fiscal policies on production, employment, and price levels with some supporting details.",
+      "Demonstrates a strong understanding of the influence of fiscal policies on production, employment, and price levels with clear examples.",
+      "Demonstrates a comprehensive understanding of the influence of fiscal policies on production, employment, and price levels, including in-depth analysis and real-world application."
+    ],
+    [
+      "Uses inaccurate terminology and demonstrates a lack of understanding of key concepts.",
+      "Uses some accurate terminology, but struggles to apply it correctly.",
+      "Uses generally accurate terminology, but may have some minor errors or omissions.",
+      "Uses accurate terminology and demonstrates a good understanding of key concepts.",
+      "Uses precise and accurate terminology and demonstrates a strong command of key concepts.",
+      "Uses sophisticated and accurate terminology and demonstrates an exceptional command of key concepts, including the ability to explain them clearly and concisely."
+    ]
+  ]
+}

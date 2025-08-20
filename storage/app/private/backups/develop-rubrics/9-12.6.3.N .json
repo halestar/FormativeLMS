@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Adherence to Current Nutritional Guidelines",
+    "Inclusion of Physical Activity Recommendations",
+    "Personalization and Feasibility of the Plan"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Plan shows no understanding or adherence to current nutritional guidelines; it may include unhealthy or harmful dietary practices.",
+      "Plan demonstrates minimal understanding of current nutritional guidelines; there are significant deviations from recommended practices.",
+      "Plan shows some understanding of nutritional guidelines but includes several areas where recommendations are not followed or are misunderstood.",
+      "Plan generally adheres to current nutritional guidelines but has a few minor areas where improvements could be made.",
+      "Plan is well-aligned with current nutritional guidelines, demonstrating a solid understanding of balanced dietary practices.",
+      "Plan expertly adheres to and integrates current nutritional guidelines, showing a comprehensive understanding of optimal dietary practices tailored to individual needs."
+    ],
+    [
+      "Plan lacks any physical activity component or includes activities that are inappropriate or unsafe.",
+      "Plan includes minimal physical activity suggestions that do not meet recommended guidelines for frequency, intensity, or type.",
+      "Plan includes some physical activity, but the activities are not well-integrated or do not consistently meet recommended guidelines.",
+      "Plan incorporates physical activity recommendations that generally align with current guidelines but may lack detail or personalization.",
+      "Plan effectively integrates physical activity recommendations, showing a good understanding of frequency, intensity, and variety.",
+      "Plan excels in its integration of physical activity recommendations, demonstrating a sophisticated understanding of how to tailor activities to individual fitness levels and preferences for optimal health benefits."
+    ],
+    [
+      "Plan is generic and shows no adaptation to the individual\u2019s needs, preferences, or resources; it is completely unrealistic.",
+      "Plan includes minimal personalization and is largely impractical given the individual\u2019s circumstances and available resources.",
+      "Plan has some elements of personalization but is not fully tailored to the individual\u2019s specific needs or realistically achievable.",
+      "Plan is reasonably personalized and considers some of the individual\u2019s needs and resources, though some aspects may be challenging to implement.",
+      "Plan is well-personalized, taking into account the individual\u2019s needs, preferences, and available resources, making it highly feasible.",
+      "Plan is exceptionally personalized, demonstrating a deep understanding of the individual\u2019s unique circumstances and preferences, resulting in a highly practical and sustainable plan for long-term health."
+    ]
+  ]
+}

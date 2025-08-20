@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Interpretations",
+    "Analysis of Interpretations",
+    "Evaluation of Interpretations",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any interpretations of the text.",
+      "Identifies only one interpretation with limited detail.",
+      "Identifies two interpretations with some detail but lacks depth.",
+      "Identifies multiple interpretations of the text.",
+      "Identifies multiple interpretations, providing clear examples from each.",
+      "Identifies multiple interpretations with detailed examples and insightful observations."
+    ],
+    [
+      "Offers no analysis of the interpretations.",
+      "Provides a superficial analysis with minimal support.",
+      "Analyzes interpretations but lacks depth or clear connections.",
+      "Presents a competent analysis of the interpretations.",
+      "Demonstrates a strong analysis, exploring the nuances of each interpretation.",
+      "Presents a comprehensive and insightful analysis, connecting interpretations to broader themes."
+    ],
+    [
+      "Does not attempt to evaluate the interpretations.",
+      "Offers a weak evaluation without clear reasoning.",
+      "Evaluates the interpretations with some justification.",
+      "Provides a balanced evaluation of the interpretations.",
+      "Presents a well-reasoned evaluation, highlighting strengths and weaknesses.",
+      "Offers a nuanced and insightful evaluation, demonstrating a deep understanding of the text and its interpretations."
+    ],
+    [
+      "Provides no evidence to support analysis or evaluation.",
+      "Provides limited or irrelevant evidence.",
+      "Includes some evidence, but it is not always relevant or well-explained.",
+      "Supports analysis and evaluation with relevant evidence from the text.",
+      "Uses evidence effectively to strengthen analysis and evaluation.",
+      "Skillfully integrates evidence, offering profound insights into the interpretations."
+    ]
+  ]
+}

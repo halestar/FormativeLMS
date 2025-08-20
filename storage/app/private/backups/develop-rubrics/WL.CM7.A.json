@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Sentence-Level Elements (Morphology and Syntax)",
+    "Analysis of Paragraph-Level Discourse (Text Structure)",
+    "Clarity and Precision of Language Comparison"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no ability to identify similarities and differences in sentence-level elements between languages.",
+      "The student can identify very basic similarities or differences in morphology or syntax with significant errors.",
+      "The student identifies some similarities and differences in morphology and syntax, but the analysis lacks depth and contains noticeable errors.",
+      "The student adequately identifies similarities and differences in sentence-level elements, showing a moderate understanding of morphology and syntax.",
+      "The student clearly identifies and explains similarities and differences in morphology and syntax, demonstrating a strong understanding of sentence-level elements.",
+      "The student expertly identifies, explains, and provides insightful comparisons of sentence-level elements, demonstrating a comprehensive understanding of morphology and syntax across languages."
+    ],
+    [
+      "The student shows no understanding of paragraph-level discourse or text structure in any language.",
+      "The student attempts to identify elements of text structure but fails to recognize key components or makes significant errors.",
+      "The student identifies basic text structures but struggles to compare them effectively across languages.",
+      "The student identifies and compares paragraph-level discourse and text structures with reasonable accuracy.",
+      "The student demonstrates a strong ability to analyze and compare paragraph-level discourse, explaining similarities and differences in text structure clearly.",
+      "The student provides a sophisticated analysis of paragraph-level discourse, offering nuanced comparisons of text structures and their impact on meaning across languages."
+    ],
+    [
+      "The student's comparison is unclear and lacks precision, making it difficult to understand the identified similarities and differences.",
+      "The student's language comparison is vague and contains errors that impede understanding.",
+      "The student's language comparison is somewhat clear but lacks detail and precision in explaining similarities and differences.",
+      "The student presents a reasonably clear comparison of languages, demonstrating an adequate level of precision.",
+      "The student effectively uses precise language to compare languages, clearly articulating similarities and differences.",
+      "The student expertly articulates the comparison of languages with exceptional clarity and precision, demonstrating a mastery of linguistic terminology and concepts."
+    ]
+  ]
+}

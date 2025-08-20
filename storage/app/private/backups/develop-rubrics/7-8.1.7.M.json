@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Benefits",
+    "Clarity and Accuracy",
+    "Elaboration and Support"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any benefits of positive relationships with trusted adults.",
+      "The student identifies one benefit vaguely.",
+      "The student identifies one benefit of positive relationships with trusted adults with some clarity.",
+      "The student identifies two benefits of positive relationships with trusted adults with reasonable clarity.",
+      "The student identifies three benefits of positive relationships with trusted adults with good clarity, demonstrating understanding.",
+      "The student identifies multiple benefits of positive relationships with trusted adults with excellent clarity, demonstrating a comprehensive understanding and providing insightful examples."
+    ],
+    [
+      "The explanation is unclear and contains significant inaccuracies.",
+      "The explanation lacks clarity and contains some inaccuracies.",
+      "The explanation is somewhat clear but may contain minor inaccuracies.",
+      "The explanation is generally clear and accurate, with few inaccuracies.",
+      "The explanation is clear, accurate, and demonstrates a solid understanding of the benefits.",
+      "The explanation is exceptionally clear, accurate, and insightful, demonstrating a deep understanding of the benefits."
+    ],
+    [
+      "The student provides no elaboration or supporting details.",
+      "The student provides minimal elaboration or supporting details.",
+      "The student provides some elaboration and basic supporting details.",
+      "The student provides adequate elaboration and relevant supporting details.",
+      "The student provides thorough elaboration and strong supporting details, enhancing the explanation.",
+      "The student provides comprehensive elaboration and compelling supporting details, demonstrating a mastery of the topic."
+    ]
+  ]
+}

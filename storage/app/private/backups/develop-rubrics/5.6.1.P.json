@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting and Planning",
+    "Consistent Monitoring and Tracking",
+    "Adaptability and Problem-Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal is identified, and there is no evidence of planning to protect the environment.",
+      "A goal is vaguely mentioned, but the plan lacks specific steps or timelines.",
+      "A goal is identified, and a basic plan is outlined, but it is missing key details or realistic steps.",
+      "A clear goal is established with a somewhat detailed plan that includes steps and a timeline, but some aspects are unclear or not fully developed.",
+      "A well-defined goal is established with a comprehensive and realistic plan that includes specific steps, timelines, and resource considerations.",
+      "A well-defined and ambitious goal is established with a highly detailed, proactive, and innovative plan that includes specific steps, timelines, resource considerations, and contingency plans."
+    ],
+    [
+      "There is no attempt to monitor or track progress toward the environmental goal.",
+      "Monitoring is sporadic with no records kept.",
+      "Monitoring occurs periodically, but tracking is inconsistent, and record-keeping is minimal.",
+      "Monitoring is performed regularly with some tracking of progress, but there are gaps in data or inconsistent measurements.",
+      "Monitoring is performed consistently with detailed tracking of progress, and data is accurately recorded and analyzed to inform adjustments.",
+      "Monitoring is continuous and comprehensive with meticulous tracking of progress, data is rigorously analyzed, and adjustments are proactively made based on real-time insights and predictive modeling."
+    ],
+    [
+      "Unable to identify any challenges or adapt the plan when faced with obstacles.",
+      "Recognizes basic challenges but struggles to adapt the plan.",
+      "Identifies challenges and suggests simple adjustments to the plan, but implementation is lacking.",
+      "Demonstrates ability to adapt the plan effectively in response to challenges, implementing practical solutions with moderate success.",
+      "Demonstrates a proactive approach to problem-solving, adapting the plan effectively in response to challenges, implementing innovative and practical solutions with notable success.",
+      "Demonstrates exceptional adaptability and problem-solving skills, proactively anticipating challenges, implementing highly innovative solutions, and achieving significant positive impact on the environmental goal."
+    ]
+  ]
+}

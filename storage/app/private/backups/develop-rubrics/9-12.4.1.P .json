@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Appropriateness of Request: How clearly and appropriately the student articulates their need for assistance to the chosen adult.",
+    "Justification for Seeking Assistance: The degree to which the student explains why they are seeking help and the importance of the issue.",
+    "Selection of Appropriate Resources: How well the student identifies and chooses the most suitable adult (parent, guardian, medical professional) for their specific health need.",
+    "Understanding of Health Literacy: Demonstrates understanding of health information and terminology related to their request."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The request is unclear or inappropriate, showing no understanding of how to communicate with adults for help.",
+      "The request is somewhat unclear or inappropriate, with limited understanding of effective communication.",
+      "The request is understandable but could be clearer; communication is mostly appropriate but has minor issues.",
+      "The request is clear and appropriate, showing a good understanding of how to communicate with adults for assistance.",
+      "The request is very clear, concise, and tailored to the specific adult; communication is highly appropriate and respectful.",
+      "The request is exceptionally clear, demonstrating advanced communication skills and a deep understanding of how to approach adults for assistance, fostering a positive and collaborative interaction."
+    ],
+    [
+      "No justification is provided, and the importance of the issue is not addressed.",
+      "Limited justification is provided, and the importance of the issue is vaguely addressed.",
+      "Some justification is provided, explaining why help is needed and touching on the importance of the issue.",
+      "A clear justification is given, explaining why help is needed and highlighting the importance of addressing the health concern.",
+      "A detailed justification is provided, thoroughly explaining why help is needed and emphasizing the significant impact of addressing the health concern.",
+      "An exceptionally thorough justification is provided, demonstrating a sophisticated understanding of the health issue and persuasively conveying the critical need for assistance, inspiring confidence and support."
+    ],
+    [
+      "The student chooses an entirely inappropriate resource, showing no understanding of who can provide the necessary assistance.",
+      "The student's choice of resource is questionable and lacks a clear connection to the health need.",
+      "The student identifies a resource that is somewhat suitable but may not be the most effective choice for the situation.",
+      "The student selects an appropriate and logical resource, demonstrating a good understanding of available support systems.",
+      "The student thoughtfully selects the most appropriate resource, considering their specific needs and the expertise of the chosen adult.",
+      "The student demonstrates exceptional insight in selecting the ideal resource, showcasing a deep understanding of available support systems and a strategic approach to seeking assistance, ensuring the most effective outcome."
+    ],
+    [
+      "Demonstrates no understanding of relevant health information or uses incorrect terminology.",
+      "Demonstrates minimal understanding of health information, with frequent misuse of terminology.",
+      "Demonstrates some understanding of health information but struggles with accurate use of terminology.",
+      "Demonstrates a good understanding of health information and uses terminology correctly in most instances.",
+      "Demonstrates a strong understanding of health information, using terminology accurately and effectively to communicate their needs.",
+      "Demonstrates an exceptional grasp of health information, using terminology with precision and clarity to articulate their needs and facilitate a comprehensive understanding from the chosen adult."
+    ]
+  ]
+}

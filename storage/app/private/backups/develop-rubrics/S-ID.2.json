@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in calculating measures of center (mean, median) and spread (IQR, standard deviation) for different data sets.",
+    "Appropriateness of statistical measures used based on the shape of the data distribution.",
+    "Quality of interpretation and comparison of center and spread between two or more data sets.",
+    "Clarity and accuracy of representation of data sets."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or calculations are completely incorrect.",
+      "Calculations are attempted but contain significant errors, demonstrating a lack of understanding of basic statistical measures.",
+      "Calculations contain some errors. The student demonstrates partial understanding of statistical measures.",
+      "Calculations are mostly correct with minor errors. Demonstrates a general understanding of statistical measures.",
+      "Calculations are accurate. Demonstrates a solid understanding of statistical measures.",
+      "Calculations are entirely accurate and precise, demonstrating mastery of statistical measures."
+    ],
+    [
+      "Does not use appropriate statistics. Little to no recognition of data distribution shapes.",
+      "Attempts to use appropriate statistics, but demonstrates a misunderstanding of when to apply each measure based on data distribution.",
+      "Sometimes uses appropriate statistics, but inconsistently. Shows some awareness of data distribution shapes.",
+      "Mostly uses appropriate statistics, with few errors. Demonstrates a good understanding of data distribution shapes.",
+      "Consistently uses appropriate statistics tailored to the shape of the data distribution. Demonstrates a strong understanding of data distribution shapes.",
+      "Expertly selects and justifies the use of statistical measures, demonstrating a deep understanding of data distribution and its impact on statistical analysis."
+    ],
+    [
+      "No attempt to interpret or compare data sets.",
+      "Attempts to interpret or compare data sets, but provides inaccurate or irrelevant statements.",
+      "Provides basic interpretations or comparisons but lacks depth or insight.",
+      "Provides reasonable interpretations and comparisons of data sets, highlighting some key differences or similarities.",
+      "Provides insightful interpretations and comparisons of data sets, clearly articulating differences or similarities and their significance.",
+      "Offers comprehensive and nuanced interpretations and comparisons, drawing insightful conclusions and implications from the data."
+    ],
+    [
+      "Data is not represented, or representation is completely unclear and inaccurate.",
+      "Representation of data is attempted but is largely unclear, inaccurate, or incomplete.",
+      "Data representation has some inaccuracies or missing elements.",
+      "Data representation is mostly clear and accurate with minor omissions.",
+      "Data representation is clear, accurate, and complete.",
+      "Data representation is exceptionally clear, accurate, visually appealing, and effectively highlights key features of the data sets."
+    ]
+  ]
+}

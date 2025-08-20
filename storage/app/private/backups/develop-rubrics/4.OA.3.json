@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in Calculations",
+    "Problem Representation Using Equations",
+    "Interpretation of Remainders",
+    "Reasonableness of Answers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely incorrect calculations, demonstrating no understanding of the operations involved.",
+      "Significant errors in calculations, leading to an incorrect answer. Demonstrates a limited understanding of the operations.",
+      "Several errors in calculations, affecting the final answer. Shows some understanding of the required operations.",
+      "Minor errors in calculations that do not significantly impact the final answer. Demonstrates a basic understanding of the operations.",
+      "Accurate calculations with minimal errors, leading to a correct answer. Demonstrates a good understanding of the operations.",
+      "Completely accurate calculations, arriving at the correct answer efficiently. Demonstrates an excellent understanding of the operations."
+    ],
+    [
+      "No attempt to represent the problem with an equation, or the equation is completely irrelevant.",
+      "An attempt to represent the problem with an equation, but it is fundamentally incorrect or does not include the unknown variable.",
+      "The equation contains significant errors or omissions, making it difficult to solve the problem accurately.",
+      "The equation is mostly correct but contains minor errors or omissions that do not prevent solving the problem.",
+      "The equation accurately represents the problem and includes the unknown variable, allowing for a clear solution.",
+      "The equation is perfectly formulated, clearly representing the problem with appropriate use of variables, facilitating an efficient and accurate solution."
+    ],
+    [
+      "No attempt to interpret the remainder, or the interpretation is completely incorrect or irrelevant.",
+      "Attempts to interpret the remainder, but the explanation is unclear or incorrect.",
+      "Provides an interpretation of the remainder, but it is incomplete or demonstrates a misunderstanding of its significance.",
+      "Correctly identifies the remainder but struggles to explain its impact on the problem's solution.",
+      "Interprets the remainder correctly and explains its relevance to the problem's solution.",
+      "Provides a thorough and insightful interpretation of the remainder, clearly articulating its impact on the problem's solution with precision."
+    ],
+    [
+      "No attempt to assess the reasonableness of the answer, or the assessment is completely off-base.",
+      "Attempts to assess the reasonableness of the answer, but the justification is unclear or incorrect.",
+      "Provides some justification for the answer's reasonableness, but it is weak or based on flawed assumptions.",
+      "Assesses the reasonableness of the answer using some mental computation or estimation strategies, but the explanation lacks detail.",
+      "Effectively assesses the reasonableness of the answer using mental computation and estimation strategies, providing a clear explanation.",
+      "Demonstrates exceptional skill in assessing the reasonableness of the answer, using a variety of mental computation and estimation strategies with detailed and insightful explanations."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Conflict",
+    "Communication Skills",
+    "Application of Resolution Techniques",
+    "Emotional Regulation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to recognize or identify the presence of conflict in a given situation.",
+      "Struggles to identify conflict and requires significant prompting.",
+      "Identifies conflict, but may oversimplify the issues or miss key elements.",
+      "Clearly identifies the conflict and its primary components.",
+      "Accurately identifies and describes the conflict, including underlying causes and potential impacts.",
+      "Demonstrates sophisticated understanding by identifying subtle nuances of the conflict and anticipating future implications."
+    ],
+    [
+      "Unable to express thoughts or ideas effectively or respectfully.",
+      "Demonstrates difficulty in expressing thoughts clearly and respectfully.",
+      "Communicates ideas with some clarity but may struggle with respectful language or active listening.",
+      "Communicates effectively and respectfully, demonstrating active listening skills.",
+      "Communicates clearly and empathetically, fostering open dialogue and mutual understanding.",
+      "Masterfully facilitates communication, promoting constructive dialogue and collaborative problem-solving."
+    ],
+    [
+      "Unable to propose or apply any conflict resolution techniques.",
+      "Attempts to apply resolution techniques, but implementation is ineffective.",
+      "Applies basic conflict resolution techniques with limited success.",
+      "Applies appropriate conflict resolution techniques to address the situation.",
+      "Effectively applies a range of conflict resolution techniques, adapting strategies as needed.",
+      "Demonstrates mastery in conflict resolution, skillfully employing techniques to achieve mutually beneficial outcomes."
+    ],
+    [
+      "Displays uncontrolled emotional responses that escalate the conflict.",
+      "Struggles to manage emotions, hindering effective communication.",
+      "Demonstrates some control over emotions but may still react defensively.",
+      "Manages emotions effectively, maintaining composure and respect during conflict.",
+      "Demonstrates emotional intelligence, displaying empathy and understanding towards others' perspectives.",
+      "Serves as a model for emotional regulation, fostering a calm and rational environment conducive to conflict resolution."
+    ]
+  ]
+}

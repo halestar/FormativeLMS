@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accurately describing the increasing or decreasing intervals of a function from a graph.",
+    "Identifying linear or non-linear sections of a function from a graph.",
+    "Sketching a graph from a verbal description of a function's qualitative features."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify or describe any increasing or decreasing intervals.",
+      "The student attempts to identify increasing or decreasing intervals but struggles with accuracy.",
+      "The student can identify either increasing or decreasing intervals with some accuracy, but not both.",
+      "The student accurately identifies either increasing or decreasing intervals but struggles with detailed explanations.",
+      "The student accurately describes both increasing and decreasing intervals with clear explanations.",
+      "The student provides a comprehensive and nuanced description of increasing and decreasing intervals, including rates of change and contextual interpretations."
+    ],
+    [
+      "The student cannot identify any linear or non-linear sections.",
+      "The student attempts to identify linear or non-linear sections but shows significant misunderstanding.",
+      "The student can identify either linear or non-linear sections with some accuracy.",
+      "The student identifies linear and non-linear sections but struggles to explain why.",
+      "The student accurately identifies and explains linear and non-linear sections with supporting reasoning.",
+      "The student offers a sophisticated analysis of linear and non-linear sections, including discussions of constant vs. changing rates and real-world implications."
+    ],
+    [
+      "The student does not attempt to sketch a graph or the sketch is completely unrelated to the description.",
+      "The student attempts a sketch, but it bears little resemblance to the described features.",
+      "The student captures one or two basic features of the function in their sketch.",
+      "The student includes most of the key qualitative features in their sketch, but with some inaccuracies or omissions.",
+      "The student accurately sketches a graph that includes all the key qualitative features described.",
+      "The student produces a highly accurate and detailed sketch, demonstrating a deep understanding of the relationship between verbal descriptions and graphical representations, and anticipates subtle functional behaviors."
+    ]
+  ]
+}

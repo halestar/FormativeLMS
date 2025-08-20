@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in listing reasons for immigration from Northern Europe to the U.S.",
+    "Description of the growth in the number, size, and spatial arrangements of cities.",
+    "Understanding of the connection between Irish immigration and the Great Irish Famine."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Lists no reasons or provides inaccurate information.",
+      "Lists one reason with limited accuracy.",
+      "Lists two reasons, but some inaccuracies are present.",
+      "Lists three reasons with general accuracy.",
+      "Lists four reasons accurately and provides some context.",
+      "Lists five or more reasons accurately, demonstrating a comprehensive understanding of the factors driving immigration."
+    ],
+    [
+      "Provides no description or an entirely inaccurate account of urban growth.",
+      "Offers a minimal description of one aspect of urban growth (number, size, or spatial arrangement).",
+      "Describes two aspects of urban growth with limited detail or accuracy.",
+      "Describes the growth in number, size, and spatial arrangement of cities with some accuracy.",
+      "Provides a detailed description of urban growth, including specific examples (e.g., Irish immigrants and the Great Irish Famine).",
+      "Offers a comprehensive and nuanced description of urban growth, including analysis of its causes and consequences, and specific historical examples."
+    ],
+    [
+      "Demonstrates no understanding of the connection.",
+      "Mentions either Irish immigration or the Great Irish Famine, but not the connection between them.",
+      "States that there is a connection between Irish immigration and the famine, but provides no details.",
+      "Describes the basic connection between the famine and immigration.",
+      "Explains how the Great Irish Famine contributed to the wave of immigration, including specific hardships that the Irish faced.",
+      "Analyzes the complex relationship between the Great Irish Famine and Irish immigration, including the social, economic, and political impacts."
+    ]
+  ]
+}

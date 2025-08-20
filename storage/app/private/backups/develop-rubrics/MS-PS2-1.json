@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Newton's Third Law",
+    "Application of Newton's Third Law to Collision Problems",
+    "Use of Scientific Principles in Design",
+    "Modeling Systems and Interactions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of Newton's Third Law is demonstrated.",
+      "Demonstrates minimal understanding of Newton's Third Law; struggles to explain the concept.",
+      "Demonstrates partial understanding of Newton's Third Law; can explain the concept with some inaccuracies.",
+      "Demonstrates a clear understanding of Newton's Third Law; can accurately explain the concept.",
+      "Demonstrates a strong understanding of Newton's Third Law; can accurately explain the concept and provide relevant examples.",
+      "Demonstrates a comprehensive understanding of Newton's Third Law; can accurately explain the concept, provide relevant examples, and apply it to complex scenarios."
+    ],
+    [
+      "Unable to apply Newton's Third Law to analyze or design solutions for collision problems.",
+      "Struggles to apply Newton's Third Law to collision problems; the solution is incomplete or incorrect.",
+      "Applies Newton's Third Law to collision problems with some errors or omissions in the solution.",
+      "Applies Newton's Third Law correctly to solve collision problems; the solution is generally accurate and complete.",
+      "Applies Newton's Third Law effectively to solve collision problems; the solution is accurate, complete, and considers various factors.",
+      "Applies Newton's Third Law proficiently to design innovative and effective solutions for complex collision problems; demonstrates a deep understanding of the underlying principles."
+    ],
+    [
+      "Does not apply scientific principles when designing a solution.",
+      "Attempts to apply scientific principles, but the application is flawed or irrelevant.",
+      "Applies some scientific principles correctly, but the design is not fully supported by scientific reasoning.",
+      "Applies relevant scientific principles to design a solution; the design is logically sound and supported by scientific reasoning.",
+      "Applies scientific principles effectively to design a well-reasoned and optimized solution; demonstrates a strong understanding of the connection between theory and application.",
+      "Applies scientific principles creatively and innovatively to design a highly effective and efficient solution; demonstrates a deep understanding of the underlying scientific concepts and their practical implications."
+    ],
+    [
+      "Unable to create or use models to represent systems and interactions.",
+      "Creates a model with significant inaccuracies or omissions that hinder understanding of the system.",
+      "Creates a model that partially represents the system and its interactions, but lacks detail or clarity.",
+      "Creates a model that accurately represents the system and its interactions, including inputs, processes, and outputs.",
+      "Creates a detailed and insightful model that effectively represents the system and its interactions, demonstrating a strong understanding of system dynamics.",
+      "Creates a sophisticated and comprehensive model that not only represents the system and its interactions but also predicts future behavior or optimizes system performance."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Graphing Linear Equations",
+    "Solving Systems of Equations Algebraically",
+    "Interpreting Solutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to graph the equations or the graphs are completely inaccurate.",
+      "Graphs one equation correctly but the other is either missing or significantly flawed.",
+      "Graphs both equations, but with noticeable errors that affect the solution.",
+      "Graphs both equations mostly correctly with only minor inaccuracies.",
+      "Accurately graphs both equations, demonstrating understanding of slope and y-intercept.",
+      "Graphs both equations perfectly and uses the graph to clearly identify the solution to the system."
+    ],
+    [
+      "No attempt to solve algebraically or uses inappropriate methods.",
+      "Attempts to use an algebraic method (substitution or elimination) but makes significant errors early in the process.",
+      "Uses an algebraic method but makes errors that prevent finding the correct solution.",
+      "Solves the system algebraically, but makes a minor error that leads to an incorrect answer.",
+      "Correctly solves the system of equations algebraically, showing each step clearly.",
+      "Solves the system efficiently and accurately, and clearly explains the algebraic steps."
+    ],
+    [
+      "Does not provide any interpretation of what the solution represents.",
+      "Attempts to interpret the solution, but the explanation is unclear or incorrect.",
+      "Provides a partial interpretation of the solution but misses key aspects.",
+      "Interprets the solution in context, but with some lack of clarity or detail.",
+      "Clearly interprets the solution in the context of the problem, explaining what the values represent.",
+      "Provides a thorough and insightful interpretation of the solution, demonstrating a deep understanding of its meaning and implications."
+    ]
+  ]
+}

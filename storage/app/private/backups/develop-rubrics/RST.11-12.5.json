@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Text Structure",
+    "Analysis of Hierarchical Relationships",
+    "Understanding of Information or Ideas"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any text structure used in the analyzed text.",
+      "The student identifies a text structure but the choice is inaccurate, or the text structure is named, but the student cannot demonstrate where it is in the analyzed text.",
+      "The student identifies a text structure, but the explanation of how it is used is superficial or partially inaccurate.",
+      "The student accurately identifies a primary text structure and provides a reasonable explanation of its use in organizing information or ideas.",
+      "The student accurately identifies a primary text structure and thoroughly explains its use, also identifying a secondary structure to compare and contrast to.",
+      "The student expertly identifies and explains the use of multiple text structures within the text, demonstrating a sophisticated understanding of how these structures contribute to the text's overall meaning and organization."
+    ],
+    [
+      "The student does not identify any hierarchical relationships within the text.",
+      "The student attempts to identify a hierarchical relationship, but the explanation is unclear or inaccurate.",
+      "The student identifies a hierarchical relationship but struggles to explain its significance or how it organizes information.",
+      "The student identifies and explains a key hierarchical relationship, demonstrating a basic understanding of how information is structured from broad to specific.",
+      "The student analyzes a hierarchical relationship in detail, explaining its function and impact on the reader's understanding of complex information.",
+      "The student provides a nuanced analysis of multiple layers of hierarchical relationships, demonstrating an advanced understanding of how these structures create depth and meaning in the text."
+    ],
+    [
+      "The student's analysis reveals a lack of understanding of the information or ideas presented in the text.",
+      "The student demonstrates a superficial understanding of the text, missing key details or misinterpreting important concepts.",
+      "The student demonstrates a partial understanding of the text, but struggles to connect specific details to overarching themes or arguments.",
+      "The student demonstrates a solid understanding of the text, accurately summarizing key information and ideas.",
+      "The student demonstrates a comprehensive understanding of the text, synthesizing information from multiple sources and drawing insightful conclusions.",
+      "The student demonstrates an exceptional understanding of the text, offering original insights and connecting the text to broader contexts or real-world applications."
+    ]
+  ]
+}

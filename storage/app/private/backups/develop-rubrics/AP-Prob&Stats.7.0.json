@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of the Correct Distribution",
+    "Application of Distribution Properties",
+    "Problem Solving and Calculation Accuracy",
+    "Interpretation of Results"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify the appropriate distribution for a given problem.",
+      "Student struggles to identify the appropriate distribution and makes frequent errors.",
+      "Student can sometimes identify the correct distribution, but makes occasional errors.",
+      "Student can usually identify the correct distribution, but requires some prompting or has minor inconsistencies.",
+      "Student consistently identifies the correct distribution for a given problem.",
+      "Student consistently and efficiently identifies the correct distribution and can explain why it is appropriate."
+    ],
+    [
+      "Student does not demonstrate understanding of distribution properties and cannot apply them.",
+      "Student struggles to apply distribution properties and makes significant errors.",
+      "Student can apply some distribution properties but makes frequent errors.",
+      "Student can apply most distribution properties but makes occasional errors or requires assistance.",
+      "Student consistently applies distribution properties to solve problems.",
+      "Student consistently and accurately applies distribution properties and can explain the reasoning behind their application."
+    ],
+    [
+      "Student cannot set up or solve problems related to standard distributions.",
+      "Student attempts to solve problems but makes significant errors in calculations and setup.",
+      "Student can set up some problems but struggles with calculations and solving.",
+      "Student can usually set up and solve problems, but makes occasional calculation errors.",
+      "Student consistently sets up and solves problems related to standard distributions with high accuracy.",
+      "Student consistently sets up and solves complex problems accurately and efficiently and can verify the solution."
+    ],
+    [
+      "Student cannot interpret the results of calculations in the context of the problem.",
+      "Student struggles to interpret results and provides incorrect or nonsensical explanations.",
+      "Student can interpret results but provides incomplete or unclear explanations.",
+      "Student can usually interpret results correctly but may lack depth in their explanations.",
+      "Student consistently interprets results accurately and provides clear explanations in the context of the problem.",
+      "Student consistently and insightfully interprets results and can explain the implications and limitations of the findings."
+    ]
+  ]
+}

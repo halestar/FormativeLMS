@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Ordering Rational Numbers",
+    "Understanding of Absolute Value",
+    "Distinguishing Absolute Value from Order",
+    "Real-World Application and Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how to order rational numbers or compare them.",
+      "Student shows minimal understanding; struggles to order rational numbers and makes frequent errors.",
+      "Student can order simple rational numbers (e.g., integers) but struggles with fractions and decimals.",
+      "Student can order rational numbers, including fractions and decimals, but may make occasional errors.",
+      "Student demonstrates a strong understanding of ordering rational numbers and can accurately compare them.",
+      "Student demonstrates a comprehensive understanding of ordering rational numbers, can accurately compare them, and explains the reasoning clearly."
+    ],
+    [
+      "Student does not understand the concept of absolute value.",
+      "Student shows limited understanding of absolute value and struggles to calculate it.",
+      "Student can calculate the absolute value of integers but struggles with fractions and decimals.",
+      "Student can calculate the absolute value of rational numbers but may make occasional errors.",
+      "Student demonstrates a strong understanding of absolute value and can accurately calculate it for all rational numbers.",
+      "Student demonstrates a comprehensive understanding of absolute value, can accurately calculate it, and explains its meaning in various contexts."
+    ],
+    [
+      "Student cannot differentiate between comparisons of absolute value and statements about order.",
+      "Student struggles to distinguish between absolute value and order, often confusing the two concepts.",
+      "Student can sometimes distinguish between absolute value and order but makes frequent errors in application.",
+      "Student generally distinguishes between absolute value and order but may make occasional errors in complex scenarios.",
+      "Student consistently distinguishes between absolute value and order, applying the concepts correctly in most situations.",
+      "Student demonstrates a clear and comprehensive understanding of the difference between absolute value and order, applying the concepts correctly and explaining the nuances."
+    ],
+    [
+      "Student cannot apply the concepts to real-world situations.",
+      "Student struggles to apply the concepts of ordering and absolute value to real-world contexts.",
+      "Student can apply the concepts to simple real-world situations but struggles with more complex scenarios.",
+      "Student can apply the concepts to most real-world situations but may need some guidance.",
+      "Student effectively applies the concepts to real-world situations and provides accurate interpretations.",
+      "Student expertly applies the concepts to real-world situations, providing clear and insightful interpretations and demonstrating a thorough understanding."
+    ]
+  ]
+}

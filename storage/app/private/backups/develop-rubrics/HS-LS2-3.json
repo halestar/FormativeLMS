@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Aerobic and Anaerobic Respiration",
+    "Explanation of Cycling of Matter",
+    "Explanation of Flow of Energy",
+    "Use of Evidence and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of aerobic or anaerobic respiration.",
+      "Student demonstrates a minimal understanding of either aerobic or anaerobic respiration, but not both.",
+      "Student demonstrates a basic understanding of either aerobic or anaerobic respiration, but struggles to explain the other.",
+      "Student demonstrates a satisfactory understanding of both aerobic and anaerobic respiration, but explanation lacks depth.",
+      "Student demonstrates a strong understanding of both aerobic and anaerobic respiration, explaining the key differences and similarities.",
+      "Student demonstrates a comprehensive and nuanced understanding of both aerobic and anaerobic respiration, including their roles in different environments and their significance in energy cycling."
+    ],
+    [
+      "Student provides no explanation of the cycling of matter.",
+      "Student provides a vague or inaccurate explanation of the cycling of matter.",
+      "Student identifies some components of the cycling of matter but struggles to connect them.",
+      "Student provides a satisfactory explanation of the cycling of matter, identifying key components and their relationships.",
+      "Student provides a strong explanation of the cycling of matter, detailing the processes involved and the importance of matter conservation.",
+      "Student provides a comprehensive and insightful explanation of the cycling of matter, including the impact of human activities and environmental factors."
+    ],
+    [
+      "Student provides no explanation of the flow of energy.",
+      "Student provides a vague or inaccurate explanation of the flow of energy.",
+      "Student identifies some components of the flow of energy but struggles to connect them.",
+      "Student provides a satisfactory explanation of the flow of energy, identifying key components and their relationships.",
+      "Student provides a strong explanation of the flow of energy, detailing the processes involved and the importance of energy transfer.",
+      "Student provides a comprehensive and insightful explanation of the flow of energy, including the impact of trophic levels and energy loss."
+    ],
+    [
+      "Student provides no evidence or reasoning to support their explanation.",
+      "Student provides minimal evidence or reasoning, which is weak or irrelevant.",
+      "Student provides some evidence and reasoning, but it is not well-connected to their explanation.",
+      "Student provides satisfactory evidence and reasoning to support their explanation.",
+      "Student provides strong evidence and reasoning from multiple sources to support their explanation.",
+      "Student provides compelling evidence and reasoning from diverse sources, demonstrating a deep understanding of the topic and its implications."
+    ]
+  ]
+}

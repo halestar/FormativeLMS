@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Information",
+    "Understanding of Nutritional Content",
+    "Application to Dietary Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any key information on food labels.",
+      "Identifies only one or two pieces of key information (e.g., serving size or calories).",
+      "Identifies some key information but misses important details (e.g., total fat, sugar content).",
+      "Identifies most key information, with minor omissions or inaccuracies.",
+      "Accurately identifies all key information, including serving size, calories, macronutrients, and micronutrients.",
+      "Accurately and comprehensively identifies all key information and can explain the purpose of each element on the label."
+    ],
+    [
+      "Demonstrates no understanding of the nutritional content listed on food labels.",
+      "Shows minimal understanding of the nutritional content; struggles to differentiate between nutrients.",
+      "Understands basic nutritional content but struggles with more complex concepts (e.g., % Daily Value).",
+      "Demonstrates a good understanding of nutritional content and can interpret % Daily Value with some assistance.",
+      "Clearly understands nutritional content, including macronutrients, micronutrients, and % Daily Value.",
+      "Demonstrates a thorough understanding of nutritional content and can explain the impact of different nutrients on health."
+    ],
+    [
+      "Unable to apply information from food labels to make informed dietary choices.",
+      "Attempts to apply information but makes inaccurate or irrelevant connections to dietary choices.",
+      "Applies information to dietary choices with limited success; provides incomplete or unclear explanations.",
+      "Applies information to make reasonable dietary choices but lacks detailed reasoning.",
+      "Effectively applies information to make informed dietary choices and provides clear, logical reasoning.",
+      "Consistently applies information to make optimal dietary choices and provides insightful explanations of the rationale behind those choices."
+    ]
+  ]
+}

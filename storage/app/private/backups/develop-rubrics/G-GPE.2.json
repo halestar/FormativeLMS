@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Focus and Directrix",
+    "Ability to Derive the Equation",
+    "Clarity and Precision of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of focus and directrix is demonstrated.",
+      "Demonstrates minimal understanding of focus and directrix; struggles to define them.",
+      "Demonstrates basic understanding of focus and directrix but has difficulty applying them.",
+      "Demonstrates a clear understanding of focus and directrix and can apply them in simple cases.",
+      "Demonstrates a strong understanding of focus and directrix and can apply them in most cases.",
+      "Demonstrates a comprehensive understanding of focus and directrix and can explain and apply them effectively in all cases."
+    ],
+    [
+      "Unable to derive the equation of a parabola.",
+      "Attempts to derive the equation but makes significant errors.",
+      "Derives the equation with some errors or omissions in the steps.",
+      "Derives the equation correctly with minor errors.",
+      "Derives the equation correctly and clearly, showing all necessary steps.",
+      "Derives the equation correctly, clearly, and efficiently, demonstrating a deep understanding of the process."
+    ],
+    [
+      "Explanation is unclear or missing.",
+      "Explanation is difficult to follow and lacks precision.",
+      "Explanation is understandable but lacks detail and precision.",
+      "Explanation is clear and precise, with adequate detail.",
+      "Explanation is very clear, precise, and detailed, showing a strong understanding.",
+      "Explanation is exceptionally clear, precise, and insightful, demonstrating mastery of the concept."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Variety in Food Selection",
+    "Understanding Moderation in Food Consumption",
+    "Connection Between Variety, Moderation, and Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of variety in food selection.",
+      "The student shows minimal understanding of variety in food selection, with significant misconceptions.",
+      "The student identifies some aspects of variety in food selection but lacks depth in explanation.",
+      "The student adequately explains the importance of variety in food selection with minor omissions.",
+      "The student thoroughly explains the importance of variety in food selection with clear examples.",
+      "The student comprehensively explains the importance of variety in food selection, providing insightful examples and demonstrating a deep understanding."
+    ],
+    [
+      "The student demonstrates no understanding of moderation in food consumption.",
+      "The student shows minimal understanding of moderation in food consumption, with significant misconceptions.",
+      "The student identifies some aspects of moderation in food consumption but lacks depth in explanation.",
+      "The student adequately explains the importance of moderation in food consumption with minor omissions.",
+      "The student thoroughly explains the importance of moderation in food consumption with clear examples.",
+      "The student comprehensively explains the importance of moderation in food consumption, providing insightful examples and demonstrating a deep understanding."
+    ],
+    [
+      "The student does not connect variety and moderation to health outcomes.",
+      "The student attempts to connect variety and moderation to health but demonstrates significant misunderstandings.",
+      "The student makes a weak connection between variety, moderation, and health with limited explanation.",
+      "The student adequately connects variety and moderation to overall health, explaining the relationship.",
+      "The student clearly connects variety and moderation to specific health outcomes, providing supporting details.",
+      "The student expertly connects variety and moderation to specific health outcomes, demonstrating a nuanced understanding of the long-term implications for health and well-being."
+    ]
+  ]
+}

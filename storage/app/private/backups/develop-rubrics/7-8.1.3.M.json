@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Qualities Contributing to Positive Self-Image",
+    "Explanation of the Impact of Identified Qualities",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any qualities contributing to a positive self-image.",
+      "Student identifies one quality, but it is vague or poorly explained.",
+      "Student identifies two qualities, but the connection to self-image is not clear.",
+      "Student identifies three qualities and provides a basic explanation of their impact on self-image.",
+      "Student identifies four qualities and explains how they contribute to a positive self-image with some detail.",
+      "Student comprehensively identifies and explains five or more qualities that contribute to a positive self-image, demonstrating a thorough understanding of their impact."
+    ],
+    [
+      "Student provides no explanation of how the identified qualities impact self-image.",
+      "Student's explanation is minimal and lacks clarity.",
+      "Student attempts to explain the impact, but the connection is weak or superficial.",
+      "Student adequately explains how the qualities contribute to self-image, but lacks depth.",
+      "Student explains the impact of the qualities on self-image with considerable detail and relevant examples.",
+      "Student provides a comprehensive and insightful explanation of the impact of the qualities on self-image, including nuanced perspectives."
+    ],
+    [
+      "Student does not connect the identified qualities to real-life scenarios.",
+      "Student's connection to real-life scenarios is forced or irrelevant.",
+      "Student provides a limited and generic connection to real-life scenarios.",
+      "Student connects the qualities to plausible real-life scenarios with some relevance.",
+      "Student effectively applies the qualities to specific and relevant real-life scenarios, demonstrating understanding.",
+      "Student demonstrates a sophisticated understanding by applying the qualities to complex and diverse real-life scenarios, offering insightful analysis."
+    ]
+  ]
+}

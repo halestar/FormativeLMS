@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Bill of Rights' Purpose",
+    "Knowledge of Specific Rights Guaranteed",
+    "Ability to Apply Knowledge to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Bill of Rights or its purpose in limiting government power.",
+      "Shows a very limited understanding of the Bill of Rights, with significant misconceptions about its purpose.",
+      "Identifies the Bill of Rights but struggles to explain how it limits the power of the federal and state governments.",
+      "Explains that the Bill of Rights limits government power but provides only a superficial explanation or incomplete examples.",
+      "Clearly explains how the Bill of Rights limits the power of both the federal and state governments, providing relevant examples.",
+      "Provides a comprehensive explanation of how the Bill of Rights limits federal and state power, including nuanced examples and demonstrating a deep understanding of its historical context and ongoing relevance."
+    ],
+    [
+      "Is unable to name any of the rights guaranteed by the Bill of Rights.",
+      "Names only one or two rights from the Bill of Rights, with inaccuracies.",
+      "Names a few rights from the Bill of Rights but struggles to accurately describe them.",
+      "Identifies several rights guaranteed by the Bill of Rights and provides basic descriptions.",
+      "Accurately identifies and describes several key rights guaranteed by the Bill of Rights, demonstrating a solid understanding.",
+      "Demonstrates comprehensive knowledge of the rights guaranteed by the Bill of Rights, accurately describing a wide range of rights and their implications."
+    ],
+    [
+      "Cannot apply knowledge of the Bill of Rights to any real-world scenarios.",
+      "Attempts to apply knowledge of the Bill of Rights but does so inaccurately or irrelevantly.",
+      "Struggles to connect the Bill of Rights to real-world scenarios, with limited success.",
+      "Applies knowledge of the Bill of Rights to simple real-world scenarios with some accuracy.",
+      "Applies knowledge of the Bill of Rights to a variety of real-world scenarios, demonstrating a strong understanding of its practical application.",
+      "Critically analyzes complex real-world scenarios in light of the Bill of Rights, demonstrating a sophisticated understanding of its implications and potential conflicts."
+    ]
+  ]
+}

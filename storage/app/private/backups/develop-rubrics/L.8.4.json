@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Contextual Understanding",
+    "Use of Affixes and Roots",
+    "Reference Material Usage",
+    "Verification of Word Meaning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how context clues can aid in determining word meaning.",
+      "Struggles to use context clues; meaning of unfamiliar words is largely unclear.",
+      "Identifies context clues but struggles to apply them effectively to determine word meaning.",
+      "Adequately uses context clues to infer the meaning of unfamiliar words with some accuracy.",
+      "Proficiently uses context clues to accurately determine the meaning of unfamiliar words and phrases.",
+      "Masterfully uses context clues to determine nuanced meanings of words and phrases, demonstrating a comprehensive understanding of context."
+    ],
+    [
+      "Unable to identify or use common Greek or Latin affixes and roots to determine word meaning.",
+      "Shows minimal awareness of affixes and roots; unable to apply this knowledge effectively.",
+      "Identifies some affixes and roots but struggles to connect them to word meanings.",
+      "Uses common affixes and roots to infer the general meaning of words with some success.",
+      "Effectively uses knowledge of affixes and roots to accurately determine the meaning of many words.",
+      "Demonstrates expert-level understanding of affixes and roots, using them to precisely determine the meaning of complex vocabulary."
+    ],
+    [
+      "Does not use reference materials (dictionaries, thesauruses, etc.) to clarify word meaning.",
+      "Attempts to use reference materials but is unable to locate relevant information or misinterprets the information found.",
+      "Uses reference materials with limited success; may struggle to find the correct definition or pronunciation.",
+      "Consults reference materials to find definitions, pronunciations, and parts of speech with reasonable accuracy.",
+      "Uses a variety of reference materials effectively to determine precise meanings, pronunciations, and etymologies.",
+      "Selects and uses reference materials expertly to gain a comprehensive understanding of words, including nuances of meaning and historical context."
+    ],
+    [
+      "Does not attempt to verify the meaning of unfamiliar words.",
+      "Attempts to verify meaning is absent or flawed.",
+      "Attempts to verify word meaning but verification strategies are inconsistent or inaccurate.",
+      "Verifies the meaning of words with moderate success.",
+      "Consistently verifies the inferred meaning of words through context and reference materials.",
+      "Analyzes and verifies preliminary word meanings through the use of context and reference materials."
+    ]
+  ]
+}

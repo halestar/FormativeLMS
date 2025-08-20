@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Confidence Intervals",
+    "Calculation of Confidence Intervals",
+    "Determination of Sample Size",
+    "Application to Normal Distribution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of confidence intervals.",
+      "Student shows minimal understanding of what a confidence interval represents.",
+      "Student can identify a confidence interval but struggles to explain its meaning.",
+      "Student can explain a confidence interval in basic terms but lacks precision.",
+      "Student clearly explains confidence intervals and their implications.",
+      "Student demonstrates a thorough understanding of confidence intervals, including their construction and interpretation."
+    ],
+    [
+      "Student is unable to calculate a confidence interval.",
+      "Student attempts to calculate a confidence interval but makes significant errors.",
+      "Student can perform some of the calculations but struggles with the process.",
+      "Student can calculate confidence intervals with some minor errors.",
+      "Student accurately calculates confidence intervals for a simple random sample.",
+      "Student accurately and efficiently calculates confidence intervals, showing proficiency in the process."
+    ],
+    [
+      "Student cannot determine the appropriate sample size for a desired margin of error.",
+      "Student attempts to determine sample size but is unsuccessful.",
+      "Student shows some understanding of the factors influencing sample size but struggles with the calculation.",
+      "Student can determine sample size with some guidance.",
+      "Student accurately determines the required sample size for a specified margin of error.",
+      "Student demonstrates a strong understanding of sample size determination and can explain the rationale behind their calculations."
+    ],
+    [
+      "Student does not relate confidence intervals or sample size to normal distributions.",
+      "Student struggles to apply the concepts of confidence intervals and sample size within the context of a normal distribution.",
+      "Student can apply the concepts with significant errors.",
+      "Student can apply confidence intervals and sample size concepts to normal distributions with minor errors.",
+      "Student correctly applies confidence intervals and sample size calculations to simple random samples from a normal distribution.",
+      "Student demonstrates a sophisticated understanding of applying confidence intervals and sample size calculations in the context of normal distributions."
+    ]
+  ]
+}

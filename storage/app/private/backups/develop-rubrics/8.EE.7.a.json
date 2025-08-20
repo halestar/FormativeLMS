@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and identifying linear equations with one variable.",
+    "Ability to solve linear equations in one variable.",
+    "Understanding different types of solutions (one solution, infinitely many, or no solution).",
+    "Ability to transform equations into simpler forms to determine the solution type."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of linear equations or variables.",
+      "Struggles to identify linear equations and variables.",
+      "Identifies linear equations and variables with some errors.",
+      "Correctly identifies linear equations and variables most of the time.",
+      "Consistently identifies linear equations and variables correctly.",
+      "Demonstrates a thorough understanding of linear equations and variables and can explain the concept effectively."
+    ],
+    [
+      "Unable to solve linear equations.",
+      "Attempts to solve equations, but makes significant errors.",
+      "Solves simple linear equations with some mistakes.",
+      "Solves most linear equations correctly with occasional errors.",
+      "Solves linear equations correctly and efficiently.",
+      "Solves complex linear equations accurately and can explain the steps clearly."
+    ],
+    [
+      "Does not understand the concept of different types of solutions.",
+      "Struggles to differentiate between the different solution types.",
+      "Identifies solution types with some errors.",
+      "Correctly identifies most solution types.",
+      "Consistently identifies the correct solution type for a given equation.",
+      "Demonstrates a comprehensive understanding of different solution types and can provide examples."
+    ],
+    [
+      "Unable to transform equations into simpler forms.",
+      "Attempts to transform equations, but cannot simplify them effectively.",
+      "Simplifies equations with some errors.",
+      "Simplifies equations correctly most of the time.",
+      "Consistently transforms equations into simpler forms accurately.",
+      "Transforms equations efficiently and accurately to determine the solution type and can justify each step."
+    ]
+  ]
+}

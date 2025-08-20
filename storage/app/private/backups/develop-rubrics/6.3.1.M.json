@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Valid Information Sources",
+    "Identification of Valid Service Sources",
+    "Understanding of Mental, Emotional, and Social Health Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any sources of information.",
+      "Identifies one or more sources, but they are unreliable or inappropriate.",
+      "Identifies a few sources, but the validity or appropriateness is questionable.",
+      "Identifies several sources, with some explanation of their potential use.",
+      "Identifies multiple valid sources and provides a reasonable explanation of their validity and appropriateness.",
+      "Identifies a comprehensive list of valid sources, providing a detailed explanation of why they are considered valid and appropriate for addressing mental, emotional, and social health problems."
+    ],
+    [
+      "Does not identify any service sources.",
+      "Identifies one or more service sources, but they are unreliable or inappropriate.",
+      "Identifies a few service sources, but the validity or appropriateness is questionable.",
+      "Identifies several service sources, with some explanation of their potential use.",
+      "Identifies multiple valid service sources and provides a reasonable explanation of their validity and appropriateness.",
+      "Identifies a comprehensive list of valid service sources, providing a detailed explanation of why they are considered valid and appropriate for addressing mental, emotional, and social health problems."
+    ],
+    [
+      "Demonstrates no understanding of mental, emotional, or social health problems.",
+      "Demonstrates a very limited understanding of mental, emotional, or social health problems.",
+      "Demonstrates a basic understanding of mental, emotional, or social health problems, but with significant gaps.",
+      "Demonstrates a general understanding of mental, emotional, and social health problems and how to seek help.",
+      "Demonstrates a clear understanding of mental, emotional, and social health problems and how to seek appropriate help.",
+      "Demonstrates a sophisticated understanding of mental, emotional, and social health problems, including nuances in seeking appropriate help and understanding the impact of these problems on individuals and communities."
+    ]
+  ]
+}

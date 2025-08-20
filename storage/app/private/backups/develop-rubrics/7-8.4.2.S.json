@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying and Describing Violence Prevention Strategies",
+    "Application of Refusal Skills in Risky Scenarios",
+    "Understanding the Dangers of Gang Involvement",
+    "Communication Skills for Avoiding Risky Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any violence prevention strategies.",
+      "Student identifies at least one violence prevention strategy, but the description is unclear or inaccurate.",
+      "Student identifies one violence prevention strategy and provides a basic description.",
+      "Student identifies two violence prevention strategies and provides a clear description for each.",
+      "Student identifies three violence prevention strategies and provides a detailed description for each, demonstrating good understanding.",
+      "Student identifies multiple violence prevention strategies and provides a comprehensive and nuanced description for each, demonstrating excellent understanding."
+    ],
+    [
+      "Student does not demonstrate any application of refusal skills.",
+      "Student attempts to apply refusal skills, but the approach is inappropriate or ineffective.",
+      "Student applies refusal skills in a limited manner, with some effectiveness.",
+      "Student consistently applies refusal skills in relevant scenarios, demonstrating moderate effectiveness.",
+      "Student confidently applies refusal skills in various scenarios, demonstrating high effectiveness and adaptability.",
+      "Student skillfully and strategically applies refusal skills in complex scenarios, demonstrating exceptional effectiveness and nuanced understanding of social dynamics."
+    ],
+    [
+      "Student demonstrates no understanding of the dangers of gang involvement.",
+      "Student shows minimal awareness of the dangers of gang involvement, with significant misconceptions.",
+      "Student identifies at least one danger of gang involvement, but the explanation is superficial.",
+      "Student identifies several dangers of gang involvement and provides a basic explanation for each.",
+      "Student identifies and explains the dangers of gang involvement in detail, demonstrating good comprehension of the potential consequences.",
+      "Student provides a comprehensive and insightful analysis of the dangers of gang involvement, demonstrating excellent understanding and awareness of the complex factors involved."
+    ],
+    [
+      "Student demonstrates no communication skills related to avoiding risky situations.",
+      "Student attempts to communicate, but the approach is unclear, passive, or aggressive.",
+      "Student uses basic communication skills to attempt to avoid risky situations, with limited effectiveness.",
+      "Student employs clear and assertive communication skills in relevant scenarios, demonstrating moderate effectiveness.",
+      "Student confidently and effectively communicates in various risky situations, demonstrating high adaptability.",
+      "Student skillfully and strategically uses nuanced communication techniques to navigate complex or high-pressure situations, demonstrating exceptional adaptability."
+    ]
+  ]
+}

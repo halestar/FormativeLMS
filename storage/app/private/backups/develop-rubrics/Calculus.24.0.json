@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Power Series Convergence",
+    "Application of Convergence Tests",
+    "Calculation of Radius of Convergence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of power series or convergence is demonstrated.",
+      "Struggles to define power series and convergence; significant errors present.",
+      "Demonstrates partial understanding; can define power series but struggles with convergence.",
+      "Defines power series and convergence with minor inaccuracies; demonstrates some computation ability.",
+      "Clearly defines power series and convergence; computes the radius of convergence with occasional errors.",
+      "Exemplary definition of power series and convergence; accurately computes the radius of convergence in all cases."
+    ],
+    [
+      "No attempt to apply convergence tests.",
+      "Attempts convergence tests but applies them incorrectly or without justification.",
+      "Applies convergence tests with significant errors; struggles to justify test selection.",
+      "Selects and applies appropriate convergence tests with minor calculation errors.",
+      "Applies convergence tests accurately and provides reasonable justification for test selection.",
+      "Masterful application of convergence tests; provides clear, concise, and correct justifications for each test selected."
+    ],
+    [
+      "No attempt to calculate the radius of convergence.",
+      "Attempts to calculate the radius of convergence but demonstrates no understanding of the limit process.",
+      "Calculates the radius of convergence but makes critical errors in the limit process.",
+      "Calculates the radius of convergence with minor errors in algebra or limit evaluation.",
+      "Accurately calculates the radius of convergence for basic power series.",
+      "Consistently and accurately calculates the radius of convergence for a wide range of power series, including complex cases."
+    ]
+  ]
+}

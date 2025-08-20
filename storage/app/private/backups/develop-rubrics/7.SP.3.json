@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and application of measures of center (mean, median) and variability (MAD, IQR) to describe and compare data distributions.",
+    "Ability to visually assess the overlap of two numerical data distributions and relate it to the difference in measures of center.",
+    "Communication and reasoning in drawing informal comparative inferences."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of measures of center and variability.",
+      "Student can identify measures of center and variability but cannot apply them to describe data distributions.",
+      "Student can calculate measures of center and variability but struggles to interpret them in the context of comparing two distributions.",
+      "Student can calculate and interpret measures of center and variability to compare two distributions, but may have minor errors in calculations or interpretations.",
+      "Student can accurately calculate and interpret measures of center and variability to compare two distributions, and can explain the significance of the difference between the centers in terms of variability.",
+      "Student demonstrates a thorough understanding of measures of center and variability, accurately compares two distributions, explains the significance of the difference between the centers in terms of variability, and can justify their conclusions with clear and concise reasoning."
+    ],
+    [
+      "Student is unable to visually assess the overlap of two data distributions.",
+      "Student can identify the two data distributions but cannot determine the degree of visual overlap.",
+      "Student attempts to assess the visual overlap but struggles to relate it to the difference in measures of center.",
+      "Student can assess the visual overlap of two data distributions and relate it to the difference in measures of center, but may have minor inconsistencies in their reasoning.",
+      "Student can accurately assess the visual overlap of two data distributions and relate it to the difference in measures of center, providing a clear explanation of the relationship.",
+      "Student demonstrates a sophisticated understanding of the relationship between visual overlap and measures of center, accurately assesses the overlap, provides a clear explanation, and can justify their conclusions with clear and concise reasoning."
+    ],
+    [
+      "Student is unable to communicate any inferences about the two populations.",
+      "Student attempts to draw inferences but struggles to provide any supporting evidence or reasoning.",
+      "Student draws inferences but the reasoning is unclear or incomplete.",
+      "Student draws inferences with some supporting evidence and reasoning, but the communication could be improved.",
+      "Student draws clear and well-supported inferences, effectively communicating their reasoning.",
+      "Student draws insightful and well-supported inferences, communicating their reasoning in a clear, concise, and compelling manner."
+    ]
+  ]
+}

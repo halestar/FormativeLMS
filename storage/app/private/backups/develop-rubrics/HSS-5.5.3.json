@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Key Figures and Events",
+    "Grasp of Political Concepts",
+    "Understanding of the Declaration's Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the key figures (e.g., Thomas Jefferson, John Adams) and events (e.g., Continental Congresses, drafting process) related to the Declaration of Independence.",
+      "Student demonstrates minimal understanding, with significant inaccuracies or omissions regarding key figures and events.",
+      "Student identifies some key figures and events but lacks depth in explaining their roles and significance.",
+      "Student accurately identifies key figures and events and provides a basic explanation of their roles in the context of the Declaration.",
+      "Student demonstrates a strong understanding of key figures and events, explaining their roles and significance with relevant details and connections.",
+      "Student demonstrates a comprehensive understanding of key figures and events, providing insightful analysis of their roles, motivations, and impact on the Declaration of Independence."
+    ],
+    [
+      "Student is unable to identify or explain any of the key political concepts (e.g., natural rights, popular sovereignty, consent of the governed) embodied in the Declaration.",
+      "Student attempts to identify political concepts but demonstrates significant misunderstanding or confusion.",
+      "Student identifies one or two key political concepts but struggles to explain their meaning or relevance to the Declaration.",
+      "Student identifies and explains several key political concepts, demonstrating a basic understanding of their meaning within the context of the Declaration.",
+      "Student demonstrates a strong understanding of key political concepts, explaining their meaning, historical origins, and significance in the Declaration with clarity and accuracy.",
+      "Student provides a sophisticated analysis of key political concepts, tracing their historical origins, explaining their philosophical underpinnings, and analyzing their enduring significance in shaping American political thought."
+    ],
+    [
+      "Student demonstrates no understanding of the Declaration's significance in severing ties with Great Britain or its broader historical impact.",
+      "Student demonstrates minimal understanding, with significant inaccuracies or omissions regarding the Declaration's significance.",
+      "Student acknowledges the Declaration's role in severing ties but lacks depth in explaining its broader significance.",
+      "Student explains the Declaration's role in severing ties with Great Britain and provides a basic overview of its historical impact.",
+      "Student demonstrates a strong understanding of the Declaration's significance, explaining its role in severing ties, its impact on the American Revolution, and its influence on subsequent movements for independence and self-government.",
+      "Student provides an insightful analysis of the Declaration's long-term significance, exploring its complex legacy, its influence on global political thought, and its ongoing relevance to contemporary debates about rights, freedom, and self-determination."
+    ]
+  ]
+}

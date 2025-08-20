@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Analysis of the Affect of Internal Influences",
+    "Analysis of the Affect of External Influences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any internal influences on physical activity.",
+      "The student identifies one internal influence, but the explanation is unclear or inaccurate.",
+      "The student identifies one internal influence and provides a basic explanation.",
+      "The student identifies two internal influences and provides clear explanations.",
+      "The student identifies three or more internal influences and provides detailed explanations.",
+      "The student comprehensively identifies and analyzes multiple internal influences, demonstrating a deep understanding of their impact on physical activity."
+    ],
+    [
+      "The student does not identify any external influences on physical activity.",
+      "The student identifies one external influence, but the explanation is unclear or inaccurate.",
+      "The student identifies one external influence and provides a basic explanation.",
+      "The student identifies two external influences and provides clear explanations.",
+      "The student identifies three or more external influences and provides detailed explanations.",
+      "The student comprehensively identifies and analyzes multiple external influences, demonstrating a deep understanding of their impact on physical activity."
+    ],
+    [
+      "The student does not analyze the impact of internal influences on physical activity.",
+      "The student attempts to analyze the impact, but the explanation is unclear or inaccurate.",
+      "The student provides a basic analysis of how internal influences can affect physical activity.",
+      "The student provides a clear analysis of how internal influences can affect physical activity, including specific examples.",
+      "The student provides a detailed analysis of how internal influences can affect physical activity, including multiple examples and considering both positive and negative impacts.",
+      "The student provides a comprehensive and insightful analysis of how internal influences can affect physical activity, demonstrating a nuanced understanding of the complexities involved."
+    ],
+    [
+      "The student does not analyze the impact of external influences on physical activity.",
+      "The student attempts to analyze the impact, but the explanation is unclear or inaccurate.",
+      "The student provides a basic analysis of how external influences can affect physical activity.",
+      "The student provides a clear analysis of how external influences can affect physical activity, including specific examples.",
+      "The student provides a detailed analysis of how external influences can affect physical activity, including multiple examples and considering both positive and negative impacts.",
+      "The student provides a comprehensive and insightful analysis of how external influences can affect physical activity, demonstrating a nuanced understanding of the complexities involved."
+    ]
+  ]
+}

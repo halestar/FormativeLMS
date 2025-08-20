@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Cited Evidence",
+    "Specificity of Evidence",
+    "Attention to Source Features"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited.",
+      "Cited evidence is irrelevant or inaccurately represents the source material.",
+      "Cited evidence is somewhat relevant but may lack precision or contain minor inaccuracies.",
+      "Cited evidence is generally accurate and relevant, but connections to the analysis may be weak or unclear.",
+      "Cited evidence is accurate, relevant, and clearly supports the analysis, demonstrating a good understanding of the source material.",
+      "Cited evidence is consistently accurate, highly relevant, and powerfully supports the analysis, demonstrating a sophisticated understanding of the nuances of the source material."
+    ],
+    [
+      "No specific textual evidence is used; generalizations are made without support.",
+      "Evidence is vague and lacks specific references to the text.",
+      "Evidence includes some specific references, but they are not consistently applied or fully developed.",
+      "Evidence is reasonably specific and supports some aspects of the analysis, but further detail could enhance the argument.",
+      "Evidence is specific, well-chosen, and clearly linked to the analysis, enhancing the persuasiveness of the argument.",
+      "Evidence is exceptionally specific, precisely chosen, and seamlessly integrated into the analysis, creating a compelling and insightful argument."
+    ],
+    [
+      "No attention is given to the date, origin, or other features of the sources.",
+      "Source features are mentioned superficially or inaccurately.",
+      "Some source features are noted, but their relevance to the analysis is not explained.",
+      "Source features are discussed and connected to the analysis in a basic way.",
+      "Source features are thoughtfully considered and their influence on the source's meaning or reliability is well-explained.",
+      "Source features are expertly analyzed to reveal subtle but significant insights about the source's context, purpose, or perspective."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Safe Food Handling Practices",
+    "Knowledge of Proper Food Storage Techniques",
+    "Ability to Apply Knowledge to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of safe food handling practices.",
+      "Identifies only one or two safe food handling practices with limited accuracy.",
+      "Identifies some safe food handling practices but with inaccuracies or omissions.",
+      "Describes several safe food handling practices with reasonable accuracy, but lacks detail.",
+      "Clearly describes most safe food handling practices with good accuracy and detail.",
+      "Thoroughly and accurately describes a comprehensive range of safe food handling practices, demonstrating excellent understanding."
+    ],
+    [
+      "Demonstrates no understanding of proper food storage techniques.",
+      "Identifies only one or two proper food storage techniques with limited accuracy.",
+      "Identifies some proper food storage techniques but with inaccuracies or omissions.",
+      "Describes several proper food storage techniques with reasonable accuracy, but lacks detail.",
+      "Clearly describes most proper food storage techniques with good accuracy and detail.",
+      "Thoroughly and accurately describes a comprehensive range of proper food storage techniques, demonstrating excellent understanding."
+    ],
+    [
+      "Unable to apply knowledge of food safety to real-world scenarios.",
+      "Attempts to apply knowledge to a real-world scenario, but demonstrates significant misunderstandings.",
+      "Applies knowledge to a real-world scenario with some accuracy, but misses key aspects.",
+      "Applies knowledge to a real-world scenario with reasonable accuracy, identifying most important factors.",
+      "Effectively applies knowledge to real-world scenarios, demonstrating a strong understanding of food safety principles.",
+      "Masterfully applies knowledge to complex, real-world scenarios, demonstrating a nuanced understanding and ability to problem-solve food safety challenges."
+    ]
+  ]
+}

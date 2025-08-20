@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Application of Kepler's Laws",
+    "Use of Newtonian Gravitational Laws",
+    "Mathematical Representation and Calculations",
+    "Prediction of Orbital Motion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to apply Kepler's laws or demonstrates a complete misunderstanding.",
+      "Attempts to apply Kepler's laws but makes significant errors in the application or understanding.",
+      "Applies Kepler's laws with some accuracy but demonstrates gaps in understanding or makes minor calculation errors.",
+      "Demonstrates a solid understanding of Kepler's laws and applies them correctly in most scenarios.",
+      "Demonstrates a strong understanding of Kepler's laws, applies them correctly, and can explain the underlying principles.",
+      "Demonstrates a comprehensive understanding of Kepler's laws, applies them flawlessly, and can explain the laws' implications in various contexts."
+    ],
+    [
+      "No attempt to use Newtonian gravitational laws or demonstrates a complete misunderstanding.",
+      "Attempts to use Newtonian gravitational laws but makes significant errors in the application or understanding.",
+      "Uses Newtonian gravitational laws with some accuracy but demonstrates gaps in understanding or makes minor calculation errors.",
+      "Demonstrates a solid understanding of Newtonian gravitational laws and applies them correctly in most scenarios.",
+      "Demonstrates a strong understanding of Newtonian gravitational laws, applies them correctly, and can explain the underlying principles.",
+      "Demonstrates a comprehensive understanding of Newtonian gravitational laws, applies them flawlessly, and can explain the laws' implications in various contexts."
+    ],
+    [
+      "No mathematical representation is provided, or calculations are entirely incorrect.",
+      "Provides a mathematical representation but with significant errors in setup or calculations.",
+      "Provides a partially correct mathematical representation with some errors in calculations.",
+      "Provides a correct mathematical representation and performs calculations accurately in most cases.",
+      "Provides a clear and correct mathematical representation and performs calculations accurately and efficiently.",
+      "Provides an exemplary mathematical representation, performs calculations flawlessly, and explains the reasoning behind the approach."
+    ],
+    [
+      "No prediction of orbital motion is attempted, or the prediction is completely unrelated to the given information.",
+      "Attempts to predict orbital motion but the prediction is highly inaccurate or based on flawed reasoning.",
+      "Predicts orbital motion with some accuracy but demonstrates gaps in understanding or makes minor errors.",
+      "Demonstrates a solid understanding of how to predict orbital motion and provides accurate predictions in most scenarios.",
+      "Demonstrates a strong understanding of how to predict orbital motion, provides accurate predictions, and can explain the factors influencing the motion.",
+      "Demonstrates a comprehensive understanding of orbital motion prediction, provides flawless predictions, and can explain the underlying principles in various contexts."
+    ]
+  ]
+}

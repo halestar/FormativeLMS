@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Major Responsibilities",
+    "Identification of Sources of Revenue",
+    "Accuracy and Clarity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any major responsibilities of state and local governments.",
+      "The student identifies one major responsibility of state or local governments, but with significant inaccuracies.",
+      "The student identifies one major responsibility accurately, or identifies two responsibilities with some inaccuracies.",
+      "The student identifies two major responsibilities of state and local governments accurately.",
+      "The student identifies three major responsibilities of state and local governments accurately and provides a basic explanation for each.",
+      "The student comprehensively identifies and explains at least three major responsibilities of state and local governments with clear and accurate details."
+    ],
+    [
+      "The student does not identify any sources of revenue for state and local governments.",
+      "The student identifies one source of revenue with significant inaccuracies.",
+      "The student identifies one source of revenue accurately or identifies two sources with inaccuracies.",
+      "The student identifies two sources of revenue for state and local governments accurately.",
+      "The student identifies three sources of revenue for state and local governments accurately, and provides a basic explanation for each.",
+      "The student comprehensively identifies and explains at least three major sources of revenue for state and local governments with clear and accurate details."
+    ],
+    [
+      "The student's response is entirely inaccurate or incomprehensible.",
+      "The student's response contains major inaccuracies or is very difficult to understand.",
+      "The student's response contains some inaccuracies or lacks clarity in certain areas.",
+      "The student's response is generally accurate and clear but may have minor areas for improvement.",
+      "The student's response is accurate, clear, and well-organized.",
+      "The student's response is exceptionally accurate, clear, well-organized, and demonstrates a strong understanding of the material."
+    ]
+  ]
+}

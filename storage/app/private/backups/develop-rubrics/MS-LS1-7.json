@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Model Accuracy: How accurately does the model represent the rearrangement of food molecules and energy transfer?",
+    "Explanation of Processes: How well does the student explain the processes of breaking down and rearranging molecules?",
+    "Application of Concepts: How well does the student apply the concepts of energy and matter conservation to the model?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of molecular rearrangement or energy transfer.",
+      "The model is rudimentary and contains significant inaccuracies regarding the rearrangement of molecules or energy transfer during digestion. Key components are missing or misrepresented.",
+      "The model identifies basic components of molecular rearrangement but contains some inaccuracies. The flow of energy is not clearly represented.",
+      "The model mostly accurately represents the rearrangement of molecules during digestion and energy transfer, but may lack detail or clarity in certain areas.",
+      "The model is accurate and clearly represents the rearrangement of molecules and transfer of energy. It demonstrates a good understanding of the processes.",
+      "The model is highly accurate, detailed, and clearly illustrates the rearrangement of food molecules, energy transfer, and conservation of matter. It provides a comprehensive understanding of the chemical reactions involved."
+    ],
+    [
+      "The student is unable to provide any explanation of the processes involved in breaking down and rearranging molecules.",
+      "The student attempts to explain the processes but demonstrates significant misunderstandings and provides minimal detail.",
+      "The student explains the basic idea of breaking down and rearranging molecules but lacks depth and accuracy in their explanation.",
+      "The student provides a reasonably clear explanation of the processes, including the role of chemical reactions, but may miss some key details.",
+      "The student clearly and accurately explains how food molecules are broken down and rearranged, including the role of energy release or storage.",
+      "The student provides a thorough, accurate, and insightful explanation of molecular rearrangement, energy transfer, and the conservation of matter, demonstrating a deep understanding of the underlying chemical processes."
+    ],
+    [
+      "The student does not demonstrate any understanding of energy and matter conservation.",
+      "The student mentions energy or matter conservation but cannot relate it to the model or processes described.",
+      "The student attempts to relate energy and matter conservation to the model but shows a limited understanding.",
+      "The student generally applies the concepts of energy and matter conservation to the model, but may have some inconsistencies or gaps in their explanation.",
+      "The student correctly applies the principles of energy and matter conservation to the model, explaining how atoms are conserved during the processes.",
+      "The student expertly applies the concepts of energy and matter conservation, providing a detailed explanation of how these principles are demonstrated in the rearrangement of food molecules. They demonstrate a complete understanding of their relationship."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Confucius's Life and Historical Context",
+    "Knowledge of Fundamental Teachings of Confucianism",
+    "Knowledge of Fundamental Teachings of Taoism",
+    "Comparison and Contrast of Confucianism and Taoism"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of Confucius's life or the historical context in which he lived.",
+      "Demonstrates a minimal understanding of Confucius's life, with significant inaccuracies or omissions regarding key events and influences.",
+      "Exhibits a basic comprehension of Confucius's life, mentioning some major events but lacking depth in understanding the historical context.",
+      "Displays a solid understanding of Confucius's life, including key events and influences, and relates them to the historical context of ancient China.",
+      "Shows a comprehensive understanding of Confucius's life, including nuanced details and their connection to the socio-political environment of his time.",
+      "Demonstrates an exceptional understanding of Confucius's life, including insightful analysis of his influences and a sophisticated grasp of the historical context."
+    ],
+    [
+      "Shows no understanding of the fundamental teachings of Confucianism.",
+      "Demonstrates a minimal understanding of Confucianism, with significant inaccuracies or omissions regarding core tenets such as filial piety, ren (benevolence), and the importance of ritual.",
+      "Exhibits a basic comprehension of Confucianism, mentioning some major concepts but lacking depth in understanding their meaning and application.",
+      "Displays a solid understanding of Confucianism, including key concepts such as filial piety, ren, and the importance of ritual, and can explain their significance in ancient Chinese society.",
+      "Shows a comprehensive understanding of Confucianism, including nuanced interpretations of its core tenets and their relevance to personal and social ethics.",
+      "Demonstrates an exceptional understanding of Confucianism, including insightful analysis of its philosophical underpinnings and a sophisticated grasp of its impact on Chinese culture and governance."
+    ],
+    [
+      "Shows no understanding of the fundamental teachings of Taoism.",
+      "Demonstrates a minimal understanding of Taoism, with significant inaccuracies or omissions regarding core tenets such as the Tao (the Way), wu wei (non-action), and the importance of living in harmony with nature.",
+      "Exhibits a basic comprehension of Taoism, mentioning some major concepts but lacking depth in understanding their meaning and application.",
+      "Displays a solid understanding of Taoism, including key concepts such as the Tao, wu wei, and the importance of living in harmony with nature, and can explain their significance in ancient Chinese society.",
+      "Shows a comprehensive understanding of Taoism, including nuanced interpretations of its core tenets and their relevance to personal and spiritual growth.",
+      "Demonstrates an exceptional understanding of Taoism, including insightful analysis of its philosophical underpinnings and a sophisticated grasp of its impact on Chinese culture and spirituality."
+    ],
+    [
+      "Unable to compare or contrast Confucianism and Taoism.",
+      "Offers a minimal comparison or contrast of Confucianism and Taoism, with significant inaccuracies or omissions regarding key differences and similarities.",
+      "Presents a basic comparison or contrast of Confucianism and Taoism, mentioning some differences and similarities but lacking depth in understanding their philosophical implications.",
+      "Provides a solid comparison and contrast of Confucianism and Taoism, including key differences and similarities in their teachings, values, and impact on Chinese society.",
+      "Shows a comprehensive comparison and contrast of Confucianism and Taoism, including nuanced interpretations of their philosophical underpinnings and their relevance to personal and social ethics.",
+      "Demonstrates an exceptional comparison and contrast of Confucianism and Taoism, including insightful analysis of their historical context and their impact on Chinese culture and governance."
+    ]
+  ]
+}

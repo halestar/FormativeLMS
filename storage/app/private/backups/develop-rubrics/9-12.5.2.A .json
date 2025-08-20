@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the risks associated with alcohol, tobacco, and other drug use",
+    "Identification of healthy alternatives",
+    "Ability to explain how healthy alternatives mitigate risks",
+    "Communication and Clarity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of the risks.",
+      "Demonstrates a minimal understanding of the risks; major misconceptions are present.",
+      "Demonstrates a basic understanding of the risks, but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of the risks with some details.",
+      "Demonstrates a thorough understanding of the risks with clear and accurate details.",
+      "Demonstrates a comprehensive and insightful understanding of the risks with specific examples and accurate details."
+    ],
+    [
+      "Unable to identify any healthy alternatives.",
+      "Identifies one or two healthy alternatives, but they are vague or unrealistic.",
+      "Identifies a few healthy alternatives, but lacks explanation or justification.",
+      "Identifies several healthy alternatives with some explanation of their benefits.",
+      "Identifies multiple relevant and realistic healthy alternatives with clear explanations of their benefits.",
+      "Identifies a wide range of innovative and relevant healthy alternatives, thoroughly explaining their benefits and potential impact."
+    ],
+    [
+      "Cannot explain how healthy alternatives mitigate risks.",
+      "Offers a vague or inaccurate explanation of how healthy alternatives mitigate risks.",
+      "Provides a basic explanation of how healthy alternatives mitigate risks, but lacks clarity.",
+      "Explains how healthy alternatives mitigate risks with reasonable clarity and accuracy.",
+      "Clearly and accurately explains how healthy alternatives mitigate risks, providing specific examples.",
+      "Provides a detailed and insightful explanation, demonstrating a deep understanding of the risk mitigation process with well-reasoned arguments and specific examples."
+    ],
+    [
+      "Response is unclear, incoherent, and difficult to understand.",
+      "Response is somewhat unclear and contains significant grammatical or spelling errors.",
+      "Response is generally clear but may lack organization or contain some errors.",
+      "Response is clear, organized, and contains few errors.",
+      "Response is articulate, well-organized, and free of errors.",
+      "Response is exceptionally clear, concise, and persuasive, demonstrating excellent communication skills."
+    ]
+  ]
+}

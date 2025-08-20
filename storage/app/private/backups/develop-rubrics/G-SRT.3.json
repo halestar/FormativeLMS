@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Similarity Transformations",
+    "Application of Angle-Angle (AA) Criterion",
+    "Establishing Similarity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of similarity transformations is demonstrated.",
+      "Demonstrates minimal understanding of similarity transformations; struggles to define or explain.",
+      "Demonstrates a basic understanding of similarity transformations but has difficulty applying it.",
+      "Demonstrates a satisfactory understanding of similarity transformations and can apply it in simple cases.",
+      "Demonstrates a strong understanding of similarity transformations and can apply it effectively.",
+      "Demonstrates a comprehensive understanding of similarity transformations and can apply it effectively and explain its properties."
+    ],
+    [
+      "Unable to apply the Angle-Angle (AA) criterion for triangle similarity.",
+      "Struggles to apply the Angle-Angle (AA) criterion; makes significant errors.",
+      "Applies the Angle-Angle (AA) criterion with some errors or omissions.",
+      "Applies the Angle-Angle (AA) criterion correctly in basic problems.",
+      "Applies the Angle-Angle (AA) criterion effectively in a variety of problems.",
+      "Applies the Angle-Angle (AA) criterion flawlessly and can explain why it proves similarity."
+    ],
+    [
+      "Cannot establish similarity between two triangles.",
+      "Attempts to establish similarity but demonstrates little understanding of the required properties.",
+      "Establishes similarity with significant gaps in reasoning or justification.",
+      "Establishes similarity with adequate reasoning and justification.",
+      "Clearly establishes similarity with strong reasoning and justification.",
+      "Establishes similarity with impeccable reasoning, clearly explains the logic, and justifies each step with precision."
+    ]
+  ]
+}

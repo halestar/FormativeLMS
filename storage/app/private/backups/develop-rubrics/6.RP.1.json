@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Ratio Concepts",
+    "Use of Ratio Language",
+    "Problem Solving with Ratios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of ratio concepts.",
+      "Struggles to define a ratio or identify its components.",
+      "Can define a ratio but struggles to apply it in simple scenarios.",
+      "Understands the basic concept of a ratio and can apply it to solve simple problems with prompting.",
+      "Demonstrates a solid understanding of ratio concepts and can apply them to solve a variety of problems. Can explain the relationship between two quantities using ratio language.",
+      "Demonstrates a comprehensive understanding of ratio concepts and can apply them to complex problems. Can clearly and accurately explain ratio relationships using precise language and different representations (e.g., fractions, decimals, percentages)."
+    ],
+    [
+      "Unable to use ratio language to describe relationships between quantities.",
+      "Uses inaccurate or inappropriate language when describing ratios.",
+      "Uses basic ratio language but struggles with more complex descriptions.",
+      "Can use ratio language to describe simple relationships between quantities with occasional errors.",
+      "Consistently uses accurate and appropriate ratio language to describe relationships between quantities in a variety of contexts.",
+      "Uses sophisticated and precise ratio language to effectively communicate complex ratio relationships. Can adapt language to suit different audiences and purposes."
+    ],
+    [
+      "Unable to solve problems involving ratios.",
+      "Struggles to set up and solve even simple ratio problems.",
+      "Can solve simple ratio problems with significant guidance.",
+      "Can solve routine ratio problems independently but struggles with non-routine problems.",
+      "Can solve a variety of ratio problems, including some non-routine problems. Shows clear steps in the problem-solving process.",
+      "Can solve complex and non-routine ratio problems accurately and efficiently. Demonstrates a deep understanding of proportional reasoning and can apply it to real-world situations."
+    ]
+  ]
+}

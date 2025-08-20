@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to locate first aid resources in school, community, and on the Internet.",
+    "Ability to assess the validity of first aid resources.",
+    "Demonstrates understanding of first aid information and training relevance."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to locate any first aid resources.",
+      "Student can locate one type of first aid resource with significant guidance.",
+      "Student can locate two types of first aid resources with some guidance.",
+      "Student can locate three types of first aid resources with minimal guidance.",
+      "Student can independently locate multiple first aid resources in various locations.",
+      "Student independently and efficiently locates a comprehensive range of first aid resources in diverse settings."
+    ],
+    [
+      "Student does not attempt to assess the validity of any resources.",
+      "Student attempts to assess validity but uses inappropriate or ineffective methods.",
+      "Student identifies one criterion for assessing validity with some prompting.",
+      "Student identifies and applies basic criteria for assessing validity (e.g., source, date) to some resources.",
+      "Student critically assesses the validity of multiple resources using established criteria.",
+      "Student thoroughly and accurately assesses the validity of resources, explaining their reasoning and potential biases."
+    ],
+    [
+      "Student shows no understanding of the relevance of first aid information or training.",
+      "Student vaguely identifies a single benefit of first aid training.",
+      "Student identifies a few reasons why first aid knowledge is important.",
+      "Student explains the general importance of first aid and its applications.",
+      "Student explains why first aid is important in specific scenarios.",
+      "Student articulates the benefits of first aid and personal preparedness with detailed justifications."
+    ]
+  ]
+}

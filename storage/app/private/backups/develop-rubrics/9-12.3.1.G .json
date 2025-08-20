@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Information Sources",
+    "Analysis of Validity",
+    "Application to Products and Services"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any sources of health information.",
+      "Student identifies sources of health information, but they are all unreliable.",
+      "Student identifies some reliable and some unreliable sources of health information.",
+      "Student identifies mostly reliable sources of health information with minor omissions or inaccuracies.",
+      "Student identifies reliable sources of health information and briefly explains their reliability.",
+      "Student identifies reliable sources of health information and thoroughly explains their reliability and potential biases."
+    ],
+    [
+      "Student demonstrates no understanding of how to analyze the validity of health information.",
+      "Student attempts to analyze validity, but their analysis is superficial and inaccurate.",
+      "Student identifies some factors that influence validity, but struggles to apply them effectively.",
+      "Student analyzes validity using appropriate factors, but their analysis lacks depth or supporting evidence.",
+      "Student provides a well-reasoned analysis of validity, considering multiple factors and providing supporting evidence.",
+      "Student provides a comprehensive and insightful analysis of validity, demonstrating a deep understanding of the complexities involved and providing strong supporting evidence."
+    ],
+    [
+      "Student does not relate their analysis to specific health products or services.",
+      "Student vaguely mentions health products or services, but does not apply their analysis to them.",
+      "Student attempts to apply their analysis to specific products or services, but their application is flawed or incomplete.",
+      "Student applies their analysis to specific products or services, but their conclusions are not always well-supported.",
+      "Student effectively applies their analysis to specific products or services, drawing logical conclusions based on evidence.",
+      "Student expertly applies their analysis to specific products or services, demonstrating a nuanced understanding of the implications for reproductive and sexual health."
+    ]
+  ]
+}

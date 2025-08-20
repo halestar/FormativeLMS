@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Decision-Making Process",
+    "Ability to Evaluate Personal Hygiene Behaviors",
+    "Connection Between Hygiene and Health",
+    "Application of the Decision-Making Process to Hygiene"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of a decision-making process.",
+      "Shows minimal understanding of a decision-making process; struggles to identify steps.",
+      "Identifies some steps of a decision-making process but lacks detail or accuracy.",
+      "Describes a decision-making process with some accuracy but may miss key steps or connections.",
+      "Clearly describes a decision-making process, including key steps and their relationships.",
+      "Thoroughly and accurately describes a decision-making process, demonstrating a strong understanding of each step and its importance."
+    ],
+    [
+      "Unable to identify or describe any personal hygiene behaviors.",
+      "Identifies very few personal hygiene behaviors and struggles to describe them.",
+      "Identifies some personal hygiene behaviors but provides limited or inaccurate descriptions.",
+      "Describes several personal hygiene behaviors with some accuracy but may miss key details.",
+      "Clearly and accurately describes a variety of personal hygiene behaviors.",
+      "Provides comprehensive and accurate descriptions of a wide range of personal hygiene behaviors, demonstrating a strong understanding of their importance."
+    ],
+    [
+      "Fails to connect personal hygiene behaviors to one's health.",
+      "Makes vague or inaccurate connections between personal hygiene behaviors and one's health.",
+      "Identifies some connections between personal hygiene behaviors and one's health but lacks detail.",
+      "Describes several connections between personal hygiene behaviors and one's health with some accuracy.",
+      "Clearly and accurately explains the connections between various personal hygiene behaviors and one's health.",
+      "Provides a comprehensive and insightful explanation of the connections between personal hygiene behaviors and one's health, demonstrating a deep understanding of the relationship."
+    ],
+    [
+      "Does not attempt to apply a decision-making process to evaluate personal hygiene behaviors.",
+      "Attempts to apply a decision-making process but is unsuccessful or unclear.",
+      "Applies some steps of a decision-making process to evaluate personal hygiene behaviors with limited success.",
+      "Applies a decision-making process to evaluate personal hygiene behaviors with some accuracy but may miss key considerations.",
+      "Effectively applies a decision-making process to evaluate personal hygiene behaviors, considering relevant factors and potential outcomes.",
+      "Masterfully applies a decision-making process to thoroughly evaluate personal hygiene behaviors, demonstrating critical thinking and a comprehensive understanding of health implications."
+    ]
+  ]
+}

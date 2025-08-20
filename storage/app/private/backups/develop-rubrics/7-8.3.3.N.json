@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Nutrition Information Sources",
+    "Description of Access Methods",
+    "Relevance to Community"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any sources of nutrition information in restaurants.",
+      "Student identifies only one limited or unreliable source of nutrition information.",
+      "Student identifies a few sources, but some may be unreliable or not readily accessible.",
+      "Student identifies several relevant sources of nutrition information, but may not fully explain how to access them.",
+      "Student identifies multiple reliable sources of nutrition information and provides a basic explanation of how to access them.",
+      "Student comprehensively identifies a variety of reliable and accessible sources of nutrition information in restaurants, detailing the steps to access and utilize each."
+    ],
+    [
+      "Student provides no description of how to access nutrition information.",
+      "Student's description of access methods is vague and incomplete.",
+      "Student provides a limited description of how to access information, with some inaccuracies.",
+      "Student accurately describes some methods to access nutrition information, but lacks detail.",
+      "Student clearly describes multiple methods to access nutrition information, including online and in-person options.",
+      "Student provides a thorough and detailed explanation of various methods to access nutrition information, including examples of specific apps, websites, or in-restaurant resources."
+    ],
+    [
+      "Student does not relate the information to restaurants in their community.",
+      "Student's information is not specific to restaurants within their local area.",
+      "Student mentions some restaurants in the community, but the link to nutrition information is unclear.",
+      "Student provides examples of local restaurants and vaguely suggests how to find nutrition information.",
+      "Student clearly identifies local restaurants and explains how to access nutrition information specific to those establishments.",
+      "Student provides detailed examples of how to access nutrition information from specific restaurants in their community, demonstrating a clear understanding of local resources."
+    ]
+  ]
+}

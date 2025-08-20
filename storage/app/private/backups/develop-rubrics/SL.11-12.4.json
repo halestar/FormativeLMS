@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity of Perspective and Argument",
+    "Addressing Alternative\/Opposing Perspectives",
+    "Organization, Development, Substance, and Style",
+    "Use of Eye Contact, Volume, and Pronunciation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The presentation lacks a clear perspective and argument. Listeners cannot follow the line of reasoning.",
+      "The presentation has a vague perspective and argument. The line of reasoning is difficult to follow.",
+      "The presentation presents a perspective and argument, but clarity is lacking in some areas. The line of reasoning is somewhat unclear.",
+      "The presentation conveys a mostly clear perspective and argument. The line of reasoning is generally easy to follow, but some aspects could be improved.",
+      "The presentation conveys a clear and distinct perspective and a logical argument. Listeners can follow the line of reasoning with ease.",
+      "The presentation conveys an exceptionally clear and distinct perspective and a compelling logical argument. Listeners can effortlessly follow the line of reasoning."
+    ],
+    [
+      "Alternative or opposing perspectives are not addressed.",
+      "Alternative or opposing perspectives are mentioned but not adequately addressed.",
+      "Alternative or opposing perspectives are addressed superficially.",
+      "Alternative or opposing perspectives are addressed with some consideration, but depth is lacking.",
+      "Alternative or opposing perspectives are thoughtfully addressed, demonstrating an understanding of different viewpoints.",
+      "Alternative or opposing perspectives are comprehensively and insightfully addressed, demonstrating a nuanced understanding of different viewpoints."
+    ],
+    [
+      "The presentation lacks organization, development, substance, and appropriate style.",
+      "The presentation shows minimal organization, development, substance, and appropriate style.",
+      "The presentation demonstrates some organization, development, substance, and appropriate style, but significant improvements are needed.",
+      "The presentation is generally well-organized, developed, and substantive, with a style that is mostly appropriate for the purpose, audience, and task.",
+      "The presentation is well-organized, developed, and substantive, with a style that is appropriate for the purpose, audience, and task.",
+      "The presentation is exceptionally well-organized, developed, and substantive, with a style that is perfectly tailored to the purpose, audience, and task."
+    ],
+    [
+      "Eye contact is minimal or nonexistent, volume is inadequate, and pronunciation is unclear.",
+      "Eye contact is infrequent, volume is inconsistent, and pronunciation is occasionally unclear.",
+      "Eye contact is somewhat maintained, volume is generally adequate, and pronunciation is mostly clear.",
+      "Eye contact is consistently maintained, volume is adequate, and pronunciation is clear.",
+      "Eye contact is engaging, volume is consistently appropriate, and pronunciation is exceptionally clear.",
+      "Eye contact is commanding, volume is dynamically varied for emphasis, and pronunciation is impeccable."
+    ]
+  ]
+}

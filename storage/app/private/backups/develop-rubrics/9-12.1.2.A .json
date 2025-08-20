@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Brain Chemistry Impact",
+    "Understanding of Brain Function Impact",
+    "Understanding of Behavioral Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how alcohol, tobacco, or other drugs impact brain chemistry.",
+      "Demonstrates a minimal understanding of how alcohol, tobacco, or other drugs impact brain chemistry.",
+      "Identifies some effects of alcohol, tobacco, or other drugs on brain chemistry with limited explanation.",
+      "Explains several effects of alcohol, tobacco, and other drugs on brain chemistry with reasonable accuracy.",
+      "Clearly explains multiple effects of alcohol, tobacco, and other drugs on brain chemistry, showing a solid understanding.",
+      "Provides a comprehensive explanation of the effects of alcohol, tobacco, and other drugs on brain chemistry, including detailed mechanisms and potential long-term consequences."
+    ],
+    [
+      "Demonstrates no understanding of how alcohol, tobacco, or other drugs impact brain function.",
+      "Demonstrates a minimal understanding of how alcohol, tobacco, or other drugs impact brain function.",
+      "Identifies some effects of alcohol, tobacco, or other drugs on brain function with limited explanation.",
+      "Explains several effects of alcohol, tobacco, and other drugs on brain function with reasonable accuracy.",
+      "Clearly explains multiple effects of alcohol, tobacco, and other drugs on brain function, showing a solid understanding.",
+      "Provides a comprehensive explanation of the effects of alcohol, tobacco, and other drugs on brain function, including specific brain regions affected and potential for recovery."
+    ],
+    [
+      "Demonstrates no understanding of how alcohol, tobacco, or other drugs impact behavior.",
+      "Demonstrates a minimal understanding of how alcohol, tobacco, or other drugs impact behavior.",
+      "Identifies some effects of alcohol, tobacco, or other drugs on behavior with limited explanation.",
+      "Explains several effects of alcohol, tobacco, and other drugs on behavior with reasonable accuracy.",
+      "Clearly explains multiple effects of alcohol, tobacco, and other drugs on behavior, showing a solid understanding.",
+      "Provides a comprehensive explanation of the effects of alcohol, tobacco, and other drugs on behavior, including the influence of dosage, individual differences, and social context."
+    ]
+  ]
+}

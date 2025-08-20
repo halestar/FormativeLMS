@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying Representations: Correctly identifies the different representations of the functions being compared (algebraic, graphical, numerical, verbal).",
+    "Determining Properties: Accurately determines the key properties of each function, such as rate of change, intercepts, and slope.",
+    "Comparison: Compares the identified properties of the two functions to determine which function exhibits the greater rate of change or other specified characteristic.",
+    "Justification and Reasoning: Provides clear and logical reasoning to support the comparison and determination."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the representations of either function.",
+      "Identifies the representation of only one function with significant errors.",
+      "Identifies the representations of both functions but with some inaccuracies or omissions.",
+      "Accurately identifies the representations of both functions but misses subtle details.",
+      "Accurately and clearly identifies the representations of both functions, noting key characteristics.",
+      "Masterfully identifies the representations of both functions with insightful observations about their forms."
+    ],
+    [
+      "Unable to determine any key properties of either function.",
+      "Incorrectly determines key properties or determines only one property for one function.",
+      "Determines some key properties but with errors or omissions for both functions.",
+      "Determines most key properties accurately but misses some nuances or makes minor errors.",
+      "Accurately determines all key properties for both functions with clear explanations.",
+      "Demonstrates a deep understanding by accurately determining all key properties and explaining their significance in context."
+    ],
+    [
+      "Unable to compare the properties or provides an illogical comparison.",
+      "Attempts a comparison but with significant errors or irrelevant information.",
+      "Compares some properties but with superficial analysis or incorrect conclusions.",
+      "Makes a reasonable comparison, identifying the function with the greater rate of change, but lacks detailed justification.",
+      "Clearly and accurately compares the properties, providing sound reasoning to support the determination of the function with the greater rate of change.",
+      "Provides a sophisticated comparison, thoroughly justifying the determination with insightful connections between the properties and representations."
+    ],
+    [
+      "Provides no justification or reasoning.",
+      "Provides minimal or unclear reasoning with little connection to the properties.",
+      "Offers some reasoning, but it is incomplete or contains logical flaws.",
+      "Provides reasonable justification that supports the comparison, but may lack depth.",
+      "Offers well-reasoned justification with clear connections between the properties and the conclusion.",
+      "Presents a comprehensive and insightful justification, demonstrating a deep understanding of the functions and their properties."
+    ]
+  ]
+}

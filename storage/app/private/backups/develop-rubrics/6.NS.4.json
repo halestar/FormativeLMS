@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Greatest Common Factor (GCF) Identification",
+    "Least Common Multiple (LCM) Identification",
+    "Application of the Distributive Property",
+    "Expressing Sums with a Common Factor"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any common factors between two numbers.",
+      "Student can identify some common factors, but not the greatest common factor.",
+      "Student can identify the GCF of simple number pairs (e.g., single-digit numbers) but struggles with larger numbers.",
+      "Student can identify the GCF of most number pairs up to 100 but makes occasional errors.",
+      "Student consistently and accurately identifies the GCF of number pairs up to 100.",
+      "Student demonstrates a thorough understanding of GCF and can explain the process of finding the GCF for numbers beyond 100."
+    ],
+    [
+      "Student is unable to identify any common multiples between two numbers.",
+      "Student can identify some common multiples, but not the least common multiple.",
+      "Student can identify the LCM of simple number pairs (e.g., single-digit numbers) but struggles with the number constraints.",
+      "Student can identify the LCM of most number pairs up to 12 but makes occasional errors.",
+      "Student consistently and accurately identifies the LCM of number pairs up to 12.",
+      "Student demonstrates a thorough understanding of LCM and can explain the process of finding the LCM for numbers beyond 12."
+    ],
+    [
+      "Student does not demonstrate any understanding of the distributive property.",
+      "Student attempts to use the distributive property but makes significant errors in application.",
+      "Student can apply the distributive property to simple expressions but struggles with more complex expressions or larger numbers.",
+      "Student can apply the distributive property to most expressions with numbers up to 100 but makes occasional errors.",
+      "Student consistently and accurately applies the distributive property to express sums with a common factor.",
+      "Student demonstrates a deep understanding of the distributive property and can apply it creatively in various problem-solving scenarios."
+    ],
+    [
+      "Student is unable to express sums with a common factor.",
+      "Student attempts to express sums, but does not correctly identify or factor out the greatest common factor.",
+      "Student can express sums with a common factor for simple expressions but struggles with more complex expressions.",
+      "Student can express most sums with a common factor, but has trouble reducing the expression to numbers with no common factor.",
+      "Student can express sums with a common factor, and reduce the expression to numbers with no common factor.",
+      "Student can express sums with a common factor for both simple and complex expressions."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Thermal Energy Transfer Principles",
+    "Application of Scientific Principles in Device Design",
+    "Quality of Device Construction",
+    "Effectiveness of Testing and Iteration",
+    "Consideration of Constraints and Optimization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of thermal energy transfer principles is demonstrated.",
+      "Demonstrates minimal understanding of thermal energy transfer principles; explanations are unclear or inaccurate.",
+      "Demonstrates a basic understanding of thermal energy transfer principles, but with some inaccuracies or omissions.",
+      "Demonstrates a satisfactory understanding of thermal energy transfer principles, with mostly accurate explanations.",
+      "Demonstrates a strong understanding of thermal energy transfer principles, with clear and accurate explanations.",
+      "Demonstrates a comprehensive and insightful understanding of thermal energy transfer principles, with clear, accurate, and detailed explanations."
+    ],
+    [
+      "No application of scientific principles in the design is evident.",
+      "Applies scientific principles incorrectly or irrelevantly to the device design.",
+      "Attempts to apply scientific principles to the device design, but with limited success or accuracy.",
+      "Applies scientific principles appropriately to the device design, with some effectiveness.",
+      "Applies scientific principles effectively to the device design, demonstrating a clear connection between principles and design choices.",
+      "Applies scientific principles expertly and innovatively to the device design, optimizing the device's performance."
+    ],
+    [
+      "Device is not constructed, or construction is incomplete and unusable.",
+      "Device construction is poor, with significant flaws that hinder its functionality.",
+      "Device construction is basic, with some flaws that affect its functionality.",
+      "Device construction is adequate, with minor flaws that do not significantly affect its functionality.",
+      "Device construction is well-executed, with few flaws and good functionality.",
+      "Device construction is exceptional, demonstrating precision, attention to detail, and optimal functionality."
+    ],
+    [
+      "No testing is conducted, or the testing method is irrelevant.",
+      "Testing is conducted poorly, with no clear method or interpretation of results.",
+      "Testing is conducted with a basic method, but analysis and iteration are limited.",
+      "Testing is conducted with an appropriate method, and results are used to make some improvements to the device.",
+      "Testing is conducted systematically, and results are analyzed effectively to make significant improvements to the device.",
+      "Testing is conducted rigorously and innovatively, with comprehensive analysis and iterative design improvements that optimize the device's performance."
+    ],
+    [
+      "No constraints are considered in the design or optimization process.",
+      "Constraints are superficially considered, with little impact on the design.",
+      "Some constraints are considered, but their impact on the design is limited.",
+      "Constraints are adequately considered, and the design is modified to address some of them.",
+      "Constraints are carefully considered, and the design is optimized to address them effectively.",
+      "Constraints are thoroughly and creatively considered, and the design is optimized to exceed expectations and achieve exceptional performance."
+    ]
+  ]
+}

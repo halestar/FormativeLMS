@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify nutritious snack options based on provided information.",
+    "Ability to compare and contrast the nutritional value of different snack options.",
+    "Ability to justify snack choices based on nutritional needs and health goals."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any nutritious snack options or demonstrates significant misunderstanding of nutritional information.",
+      "Student identifies one nutritious snack option but struggles to explain why it is nutritious or shows limited understanding of nutritional information.",
+      "Student identifies a few nutritious snack options with some explanation of their nutritional value, but may have inaccuracies or gaps in understanding.",
+      "Student identifies several nutritious snack options and provides a generally accurate explanation of their nutritional value, demonstrating a basic understanding of nutritional information.",
+      "Student confidently identifies a variety of nutritious snack options and clearly explains their nutritional benefits with accurate details, demonstrating a solid understanding of nutritional information.",
+      "Student expertly identifies a wide range of nutritious snack options and provides a comprehensive and insightful explanation of their nutritional benefits, demonstrating a deep and nuanced understanding of nutritional information."
+    ],
+    [
+      "Student is unable to compare or contrast snack options, or offers comparisons that are inaccurate and irrelevant.",
+      "Student attempts to compare snack options, but comparisons are superficial, lack detail, and may contain inaccuracies.",
+      "Student offers some comparisons of snack options, identifying a few relevant differences in nutritional value but may miss key aspects.",
+      "Student provides a balanced comparison of snack options, identifying several key differences in nutritional value with reasonable accuracy.",
+      "Student provides a detailed and insightful comparison of snack options, highlighting the significant differences in nutritional value with strong accuracy.",
+      "Student offers an expert-level comparison of snack options, analyzing the subtle nuances in nutritional value and their potential impact on health, with impeccable accuracy."
+    ],
+    [
+      "Student cannot justify snack choices or provides justifications that are completely unrelated to nutritional needs or health goals.",
+      "Student attempts to justify snack choices, but justifications are weak, illogical, or based on factors other than nutrition and health.",
+      "Student offers justifications that partially connect snack choices to nutritional needs or health goals, but explanations are incomplete or lack clarity.",
+      "Student provides justifications that clearly connect snack choices to nutritional needs and health goals, demonstrating a basic understanding of healthy eating principles.",
+      "Student offers well-reasoned justifications that strongly connect snack choices to specific nutritional needs and health goals, showcasing a solid understanding of healthy eating principles.",
+      "Student provides compelling and insightful justifications that demonstrate a deep understanding of how snack choices can optimize nutritional intake and support overall health and well-being, based on personalized needs and goals."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Healthy Social Behaviors",
+    "Clarity and Accuracy of Descriptions",
+    "Relevance to Social Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any healthy social behaviors or provides completely irrelevant examples.",
+      "The student identifies one healthy social behavior, but the example is vague or lacks clarity.",
+      "The student identifies two healthy social behaviors, but the explanations are basic and may lack depth.",
+      "The student identifies three healthy social behaviors and provides somewhat clear examples for each.",
+      "The student identifies four healthy social behaviors, providing clear and relevant examples that demonstrate understanding.",
+      "The student identifies multiple healthy social behaviors and provides detailed, insightful examples that demonstrate a comprehensive understanding. They may also explain the benefits of these behaviors."
+    ],
+    [
+      "The student's descriptions are unclear, inaccurate, or demonstrate a misunderstanding of social behaviors.",
+      "The student's descriptions are somewhat unclear or contain minor inaccuracies.",
+      "The student's descriptions are generally clear but may lack detail or contain minor inaccuracies.",
+      "The student's descriptions are clear and mostly accurate, with sufficient detail.",
+      "The student's descriptions are clear, accurate, and provide a good level of detail.",
+      "The student's descriptions are exceptionally clear, accurate, and detailed, demonstrating a thorough understanding of the behaviors."
+    ],
+    [
+      "The student's examples are not relevant to social interactions or do not demonstrate an understanding of social context.",
+      "The student's examples have limited relevance to social interactions or social context.",
+      "The student's examples are somewhat relevant to social interactions and demonstrate a basic understanding of social context.",
+      "The student's examples are relevant to social interactions and demonstrate a good understanding of social context.",
+      "The student's examples are highly relevant to social interactions and demonstrate a strong understanding of social context.",
+      "The student's examples are exceptionally relevant to social interactions and demonstrate a nuanced understanding of social context, including potential challenges and solutions."
+    ]
+  ]
+}

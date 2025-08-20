@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Recognition of Language Use Opportunities",
+    "Application of Language in Predictable Settings",
+    "Awareness of Cultural Authenticity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not recognize any opportunities to use the target language in daily settings.",
+      "The student recognizes very few opportunities to use the target language, even with prompting.",
+      "The student recognizes some opportunities to use the target language in highly predictable, common daily settings with assistance.",
+      "The student recognizes opportunities to use age-appropriate, culturally authentic, real-world, and academic language in highly predictable common daily settings within target-language communities, but needs occasional prompting.",
+      "The student consistently recognizes opportunities to use the target language in daily settings and can identify the appropriate context for language use with minimal guidance.",
+      "The student independently and consistently recognizes and seeks out opportunities to use the target language in various daily settings, demonstrating a strong understanding of context and cultural authenticity."
+    ],
+    [
+      "The student is unable to apply the target language in any predictable daily settings.",
+      "The student struggles to apply the target language, even in the most predictable and supported settings.",
+      "The student can apply some basic target language in limited, highly predictable settings with significant support.",
+      "The student uses language in highly predictable daily settings (Novice) with some accuracy.",
+      "The student demonstrates increasing confidence and accuracy in applying the target language in predictable daily settings, starting to venture into transactional settings.",
+      "The student confidently and accurately uses the target language in a variety of predictable and transactional settings, demonstrating a strong command of basic language functions."
+    ],
+    [
+      "The student shows no awareness of cultural authenticity or appropriate language use within target-language communities.",
+      "The student demonstrates minimal awareness of cultural authenticity, often using language in ways that are inappropriate or insensitive.",
+      "The student demonstrates some awareness of cultural authenticity but struggles to apply it in their language use.",
+      "The student attempts to use culturally authentic language in daily settings within target-language communities.",
+      "The student generally uses culturally authentic and appropriate language in predictable settings, showing a good understanding of cultural norms.",
+      "The student consistently uses culturally authentic and appropriate language in a wide range of settings, demonstrating a nuanced understanding of cultural context and sensitivity."
+    ]
+  ]
+}

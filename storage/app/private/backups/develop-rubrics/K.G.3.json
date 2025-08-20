@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Two-Dimensional Shapes",
+    "Accuracy in Identifying Three-Dimensional Shapes",
+    "Distinguishing Between Two-Dimensional and Three-Dimensional Shapes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any two-dimensional shapes.",
+      "Student can identify only one or two common two-dimensional shapes (e.g., square, circle) with prompting.",
+      "Student can identify several common two-dimensional shapes but makes frequent errors or requires assistance.",
+      "Student can accurately identify most common two-dimensional shapes with minimal errors.",
+      "Student can accurately identify a wide range of two-dimensional shapes, including less common ones, with occasional minor errors.",
+      "Student demonstrates complete and accurate identification of all two-dimensional shapes, including complex and irregular forms."
+    ],
+    [
+      "Student is unable to identify any three-dimensional shapes.",
+      "Student can identify only one or two common three-dimensional shapes (e.g., cube, sphere) with prompting.",
+      "Student can identify several common three-dimensional shapes but makes frequent errors or requires assistance.",
+      "Student can accurately identify most common three-dimensional shapes with minimal errors.",
+      "Student can accurately identify a wide range of three-dimensional shapes, including less common ones, with occasional minor errors.",
+      "Student demonstrates complete and accurate identification of all three-dimensional shapes, including complex and irregular forms."
+    ],
+    [
+      "Student cannot differentiate between two-dimensional and three-dimensional shapes.",
+      "Student shows some awareness of the difference between two-dimensional and three-dimensional shapes but struggles to articulate it or apply it consistently.",
+      "Student can sometimes differentiate between two-dimensional and three-dimensional shapes but makes frequent errors.",
+      "Student can generally differentiate between two-dimensional and three-dimensional shapes with occasional errors.",
+      "Student can consistently and accurately differentiate between two-dimensional and three-dimensional shapes, explaining the key differences.",
+      "Student demonstrates a comprehensive understanding of the distinction between two-dimensional and three-dimensional shapes, including their properties and representations, and can apply this knowledge in various contexts."
+    ]
+  ]
+}

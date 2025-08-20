@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of State Location",
+    "Accuracy of State Capitals",
+    "Correlation of State and Capital"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any states on a map.",
+      "Student can identify fewer than 10 states on a map.",
+      "Student can identify 10-25 states on a map with some errors in location.",
+      "Student can identify 26-40 states on a map with minor errors in location.",
+      "Student can accurately identify 41-49 states on a map.",
+      "Student can accurately identify all 50 states on a map."
+    ],
+    [
+      "Student cannot name the capital of any state.",
+      "Student can name the capitals of fewer than 10 states.",
+      "Student can name the capitals of 10-25 states with some errors.",
+      "Student can name the capitals of 26-40 states with minor errors.",
+      "Student can accurately name the capitals of 41-49 states.",
+      "Student can accurately name the capitals of all 50 states."
+    ],
+    [
+      "Student does not correlate any state with its correct capital.",
+      "Student correlates fewer than 10 states with their correct capitals.",
+      "Student correlates 10-25 states with their correct capitals, with some errors.",
+      "Student correlates 26-40 states with their correct capitals, with minor errors.",
+      "Student accurately correlates 41-49 states with their correct capitals.",
+      "Student accurately correlates all 50 states with their correct capitals."
+    ]
+  ]
+}

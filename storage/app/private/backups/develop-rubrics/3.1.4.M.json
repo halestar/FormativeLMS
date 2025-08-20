@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Personal Boundaries",
+    "Importance of Setting Boundaries",
+    "Ways to Set Personal Boundaries"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of personal boundaries.",
+      "Student demonstrates a minimal understanding of personal boundaries; struggles to define what they are.",
+      "Student demonstrates a basic understanding of personal boundaries, can provide a general definition but lacks depth.",
+      "Student demonstrates a satisfactory understanding of personal boundaries, can define them and provide some examples.",
+      "Student demonstrates a strong understanding of personal boundaries, can clearly define them and provide relevant examples related to privacy, safety, and expression of emotions.",
+      "Student demonstrates an excellent understanding of personal boundaries, can articulate them with clarity, provides insightful examples, and explains the nuances of boundaries in different contexts."
+    ],
+    [
+      "Student does not recognize the importance of setting personal boundaries.",
+      "Student vaguely acknowledges the importance of setting personal boundaries but cannot explain why.",
+      "Student identifies the importance of setting personal boundaries in a limited way, perhaps only mentioning one aspect (privacy, safety, or expression of emotions).",
+      "Student explains the importance of setting personal boundaries, covering two aspects: privacy, safety, and\/or expression of emotions.",
+      "Student comprehensively explains the importance of setting personal boundaries, covering all three aspects: privacy, safety, and expression of emotions.",
+      "Student provides a nuanced and insightful explanation of the importance of setting personal boundaries, including the impact on overall well-being and relationships, and demonstrates understanding of different contexts."
+    ],
+    [
+      "Student is unable to identify any ways to set personal boundaries.",
+      "Student suggests one ineffective or inappropriate way to set personal boundaries.",
+      "Student suggests one basic way to set personal boundaries.",
+      "Student suggests 2-3 appropriate ways to set personal boundaries.",
+      "Student suggests multiple effective ways to set personal boundaries and explains the reasoning behind them.",
+      "Student demonstrates a sophisticated understanding of setting personal boundaries, suggests a variety of effective strategies tailored to different situations, and discusses the importance of assertive communication."
+    ]
+  ]
+}

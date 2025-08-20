@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Active Participation and Relevance",
+    "Questioning and Answering",
+    "Negotiation of Meaning",
+    "Use of Technology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not participate or their contributions are completely irrelevant to the conversation.",
+      "Student participates minimally with contributions that are sometimes relevant.",
+      "Student participates occasionally with mostly relevant contributions.",
+      "Student participates regularly with relevant contributions, showing engagement with the topic.",
+      "Student actively participates with insightful and relevant contributions, enhancing the conversation.",
+      "Student leads the conversation with highly insightful, relevant, and thought-provoking contributions."
+    ],
+    [
+      "Student is unable to ask or answer simple questions.",
+      "Student struggles to ask or answer simple questions with frequent errors.",
+      "Student can ask and answer simple questions but with some errors.",
+      "Student asks and answers a variety of questions in transactional settings with minor errors.",
+      "Student confidently asks and answers a variety of questions in both transactional and informal settings.",
+      "Student skillfully asks and answers complex questions, demonstrating a strong command of the language in various settings."
+    ],
+    [
+      "Student does not attempt to clarify understanding or negotiate meaning.",
+      "Student attempts to clarify understanding but struggles to negotiate meaning effectively.",
+      "Student sometimes seeks clarification and negotiates meaning with limited success.",
+      "Student generally clarifies understanding and negotiates meaning effectively in simple exchanges.",
+      "Student effectively clarifies understanding and negotiates meaning in a variety of situations.",
+      "Student expertly clarifies understanding, anticipates potential misunderstandings, and skillfully negotiates meaning in complex conversations."
+    ],
+    [
+      "Student does not use technology or uses it inappropriately.",
+      "Student attempts to use technology but struggles or uses it ineffectively.",
+      "Student uses technology for collaboration and sharing information with limited success.",
+      "Student uses technology appropriately to collaborate and share information effectively.",
+      "Student effectively uses technology to enhance collaboration, share information, and express opinions.",
+      "Student innovatively uses technology to enhance collaboration, share information, express opinions, and create new possibilities in communication."
+    ]
+  ]
+}

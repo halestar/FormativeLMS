@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Observation and Evidence-Based Account",
+    "Understanding of Electromagnetic Radiation",
+    "Application of Scientific Practices",
+    "Understanding Cause and Effect"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to make observations or construct an account.",
+      "Makes minimal observations without connecting them to the phenomenon of objects being seen when illuminated.",
+      "Records some observations but struggles to form a coherent account or explanation.",
+      "Presents an account that includes basic observations and suggests a relationship between illumination and visibility.",
+      "Constructs a clear, evidence-based account linking observations to the principle that objects are visible when illuminated.",
+      "Provides a comprehensive and insightful evidence-based account, demonstrating a deep understanding of the relationship between illumination and visibility, potentially including variations in different contexts."
+    ],
+    [
+      "Demonstrates no understanding of electromagnetic radiation or its role in vision.",
+      "Shows a vague awareness of light but does not connect it to electromagnetic radiation.",
+      "Identifies light as a factor in seeing objects but lacks understanding of its nature as electromagnetic radiation.",
+      "Explains that light enables sight, and makes a basic connection to electromagnetic radiation.",
+      "Clearly explains the role of electromagnetic radiation (light) in enabling us to see objects.",
+      "Provides a detailed explanation of electromagnetic radiation, including properties like wavelength and energy, and how these properties interact with objects to enable vision."
+    ],
+    [
+      "Does not make any observations or attempt to construct an explanation.",
+      "Attempts to make observations but does not use them to construct an explanation.",
+      "Constructs a basic explanation with limited support from observations.",
+      "Applies observations to construct a satisfactory explanation.",
+      "Effectively uses observations to construct a detailed and logical explanation.",
+      "Masterfully uses observations to construct a nuanced and insightful explanation, demonstrating a sophisticated understanding of the scientific principles involved."
+    ],
+    [
+      "Does not consider cause-and-effect relationships in the context of the phenomenon.",
+      "Identifies a potential cause (illumination) but doesn't connect it directly to the effect (visibility).",
+      "Describes cause and effect but does not explain the relationship.",
+      "Explains the cause and effect relationship.",
+      "Clearly articulates the cause-and-effect relationship between illumination and visibility.",
+      "Critically analyzes the cause-and-effect relationship, considering alternative causes or conditions that may influence visibility."
+    ]
+  ]
+}

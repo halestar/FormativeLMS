@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Conflict-Inducing Behaviors",
+    "Providing Examples",
+    "Relevance and Accuracy of Identified Behaviors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any behaviors that may lead to conflict with others.",
+      "The student identifies only one behavior that may lead to conflict with others, but the explanation is vague or unclear.",
+      "The student identifies a few behaviors that may lead to conflict with others, but the explanation lacks depth.",
+      "The student identifies several behaviors that may lead to conflict with others and provides a somewhat clear explanation.",
+      "The student identifies most behaviors that may lead to conflict with others and provides a clear and detailed explanation.",
+      "The student comprehensively identifies behaviors that may lead to conflict with others, providing clear, detailed, and insightful explanations."
+    ],
+    [
+      "The student fails to provide any examples of behaviors that may lead to conflict with others.",
+      "The student provides one example of a behavior that may lead to conflict with others, but the example is unclear.",
+      "The student provides a few examples of behaviors that may lead to conflict with others, but the examples are not well-explained.",
+      "The student provides several examples of behaviors that may lead to conflict with others and explains them somewhat clearly.",
+      "The student provides appropriate examples of behaviors that may lead to conflict with others and explains them clearly.",
+      "The student provides multiple appropriate examples of behaviors that may lead to conflict with others and explains them clearly with insightful connections."
+    ],
+    [
+      "The student identifies behaviors that are irrelevant or inaccurate in relation to conflict.",
+      "The student identifies behaviors that are somewhat relevant to conflict, but there are inaccuracies.",
+      "The student identifies behaviors that are mostly relevant to conflict, but with some minor inaccuracies.",
+      "The student identifies behaviors that are relevant and mostly accurate in relation to conflict.",
+      "The student identifies behaviors that are clearly relevant and accurate in relation to conflict.",
+      "The student identifies behaviors that are highly relevant and accurate in relation to conflict, demonstrating a deep understanding."
+    ]
+  ]
+}

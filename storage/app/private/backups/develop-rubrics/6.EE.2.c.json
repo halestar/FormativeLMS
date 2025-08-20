@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in evaluating expressions with variables",
+    "Ability to apply the correct order of operations",
+    "Correct use of formulas in real-world problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to evaluate the expression or makes fundamental errors demonstrating a lack of understanding of variable substitution.",
+      "Attempts to evaluate the expression but makes significant arithmetic errors or misunderstands the order of operations.",
+      "Evaluates the expression with some errors in arithmetic or order of operations, showing partial understanding of variable substitution.",
+      "Evaluates the expression with minor errors, demonstrating a general understanding of variable substitution and order of operations.",
+      "Accurately evaluates the expression, showing a strong understanding of variable substitution and order of operations.",
+      "Accurately and efficiently evaluates the expression, demonstrating a comprehensive understanding and can explain the process clearly."
+    ],
+    [
+      "Demonstrates no understanding of the order of operations.",
+      "Shows limited understanding of the order of operations, often performing operations in the incorrect sequence.",
+      "Applies the order of operations with inconsistencies, making errors in some steps but not others.",
+      "Generally applies the correct order of operations but may make minor errors or omissions.",
+      "Consistently applies the correct order of operations to accurately evaluate expressions.",
+      "Masterfully applies the correct order of operations, including complex expressions, and can justify each step."
+    ],
+    [
+      "Unable to identify or apply the given formula in the context of the problem.",
+      "Attempts to use the formula but makes significant errors in substitution or application.",
+      "Applies the formula with some errors, demonstrating a partial understanding of its use in the problem.",
+      "Applies the formula correctly but may make minor errors in calculation or interpretation of the result.",
+      "Correctly applies the formula and accurately interprets the result in the context of the real-world problem.",
+      "Demonstrates a thorough understanding of the formula and its application, providing a clear and insightful interpretation of the result in the real-world context."
+    ]
+  ]
+}

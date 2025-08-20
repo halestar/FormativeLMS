@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to translate word problems into mathematical equations.",
+    "Skill in solving two-step equations.",
+    "Ability to assess the reasonableness of answers.",
+    "Correct application of the order of operations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to translate the word problem into a mathematical equation.",
+      "Student attempts to translate the word problem but struggles to form a correct equation.",
+      "Student can translate parts of the word problem into an equation, but the equation is incomplete or contains errors.",
+      "Student can translate the word problem into a mathematical equation with minor errors.",
+      "Student accurately translates the word problem into a mathematical equation.",
+      "Student accurately translates complex word problems into mathematical equations, demonstrating a strong understanding of the relationships between words and symbols."
+    ],
+    [
+      "Student is unable to solve the equation.",
+      "Student attempts to solve the equation but makes significant errors in the process.",
+      "Student can perform some steps in solving the equation, but struggles to arrive at the correct answer.",
+      "Student solves the equation but makes minor errors in calculations.",
+      "Student solves the equation accurately and efficiently.",
+      "Student solves the equation accurately and efficiently, demonstrating a deep understanding of algebraic principles."
+    ],
+    [
+      "Student does not attempt to assess the reasonableness of the answer.",
+      "Student attempts to assess reasonableness but uses inappropriate strategies or provides an illogical explanation.",
+      "Student uses mental computation or estimation strategies, but the assessment is inaccurate or incomplete.",
+      "Student uses mental computation or estimation strategies to assess the reasonableness of the answer, but the explanation is unclear.",
+      "Student effectively uses mental computation or estimation strategies to assess the reasonableness of the answer and provides a clear explanation.",
+      "Student demonstrates a sophisticated understanding of reasonableness by using multiple strategies and providing a detailed explanation of why the answer is appropriate in the context of the problem."
+    ],
+    [
+      "Student does not apply the correct order of operations and demonstrates no understanding.",
+      "Student attempts to apply the order of operations but makes significant errors.",
+      "Student correctly applies the order of operations in some steps but makes errors in others.",
+      "Student generally applies the correct order of operations but may make minor errors.",
+      "Student consistently applies the correct order of operations to solve the problem accurately.",
+      "Student demonstrates a thorough understanding of the order of operations and applies it flawlessly to solve complex problems."
+    ]
+  ]
+}

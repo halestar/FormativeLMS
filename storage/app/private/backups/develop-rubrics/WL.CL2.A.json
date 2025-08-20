@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Cultural Products",
+    "Understanding of Cultural Practices",
+    "Understanding of Cultural Perspectives",
+    "Appropriateness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of cultural products or their significance within the target culture.",
+      "Shows minimal awareness of cultural products, with difficulty identifying their origin or relevance.",
+      "Identifies basic cultural products but struggles to explain their connection to the target culture.",
+      "Describes a range of cultural products and provides a somewhat clear explanation of their cultural context.",
+      "Clearly explains the significance of various cultural products and their impact on the target culture.",
+      "Demonstrates a deep and nuanced understanding of cultural products, offering insightful analysis of their cultural importance and historical context."
+    ],
+    [
+      "Demonstrates no understanding of cultural practices or their role within the target culture.",
+      "Shows limited recognition of cultural practices, struggling to identify or describe them.",
+      "Identifies a few basic cultural practices but cannot explain their significance or purpose.",
+      "Describes several cultural practices and provides a reasonable explanation of their function within the culture.",
+      "Clearly explains the meaning and importance of various cultural practices and their influence on cultural norms.",
+      "Demonstrates a profound understanding of cultural practices, offering insightful analysis of their historical development and social impact."
+    ],
+    [
+      "Demonstrates no awareness of cultural perspectives or how they shape behavior and beliefs.",
+      "Shows minimal understanding of cultural perspectives, struggling to identify different viewpoints.",
+      "Recognizes that different cultures have different perspectives but cannot explain why or how they differ.",
+      "Explains that perspectives differ from culture to culture. Makes an attempt to explain why.",
+      "Demonstrates insightful analysis of cultural perspectives",
+      "Clearly articulates the significance of cultural perspectives and how they shape the cultural landscape."
+    ],
+    [
+      "Uses inappropriate language, makes no attempt to moderate their demonstration.",
+      "Uses language that is inappropriate to the setting.",
+      "Uses language that is not appropriate but makes an effort to adjust their language.",
+      "Usually uses language that is appropriate",
+      "Consistently uses appropriate language for the setting and audience.",
+      "Uses language that is appropriate and shows a mastery of register."
+    ]
+  ]
+}

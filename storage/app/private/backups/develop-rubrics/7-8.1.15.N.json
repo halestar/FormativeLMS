@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Concept of Physical Activity",
+    "Application to Personal Life",
+    "Explaining Benefits of Physical Activity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how daily activities can contribute to physical activity.",
+      "Student shows minimal understanding, with difficulty explaining how everyday actions relate to exercise.",
+      "Student can somewhat explain the relationship between daily activity and physical health, but lacks detail.",
+      "Student adequately explains how daily activities can be a form of moderate physical activity.",
+      "Student clearly explains and provides examples of how daily routines can incorporate physical activity without structured plans or equipment.",
+      "Student comprehensively explains and gives detailed examples, demonstrating a thorough understanding of integrating physical activity into daily life, and can suggest creative approaches."
+    ],
+    [
+      "Student cannot identify any ways to incorporate physical activity into their own daily routine.",
+      "Student struggles to suggest ways they could personally increase physical activity.",
+      "Student can suggest one or two basic ways to add physical activity to their day, but lacks enthusiasm or detail.",
+      "Student can suggest multiple ways to incorporate physical activity into their daily life.",
+      "Student provides specific, realistic examples of how they could personally incorporate physical activity into their day.",
+      "Student provides creative, insightful, and personalized strategies for integrating physical activity into their daily life, showing commitment to the concept."
+    ],
+    [
+      "Student is unable to describe any benefits of regular physical activity.",
+      "Student has difficulty listing any benefits of physical activity.",
+      "Student can list one or two basic benefits of physical activity, but lacks depth.",
+      "Student can adequately explain several benefits of incorporating physical activity into daily life.",
+      "Student clearly explains numerous benefits of physical activity, and links them to improved health outcomes.",
+      "Student provides a comprehensive explanation of the physical, mental, and social benefits of regular physical activity, and demonstrates a deep understanding of its importance."
+    ]
+  ]
+}

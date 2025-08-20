@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Family Influences",
+    "Analysis of Peer Pressure",
+    "Connection Between Influences and Substance Use"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any family influences on substance use.",
+      "The student identifies at least one family influence on substance use, but the description is vague or unclear.",
+      "The student identifies one or two family influences on substance use and provides a basic description of each.",
+      "The student identifies several family influences on substance use and describes them with some detail.",
+      "The student thoroughly identifies and describes multiple family influences, including how these influences can affect choices related to alcohol, tobacco, and other drugs.",
+      "The student comprehensively analyzes various family influences on substance use, providing insightful descriptions and demonstrating a deep understanding of their effects on decision-making."
+    ],
+    [
+      "The student does not address peer pressure as an influence.",
+      "The student acknowledges peer pressure as an influence but does not provide any analysis.",
+      "The student provides a basic description of how peer pressure can influence substance use.",
+      "The student analyzes several ways peer pressure influences substance use and provides examples.",
+      "The student thoroughly analyzes the role of peer pressure, providing specific examples and showing an understanding of different types of peer influence (e.g., direct, indirect).",
+      "The student critically analyzes the complexities of peer pressure, providing nuanced examples and demonstrating an understanding of both positive and negative peer influences on substance use."
+    ],
+    [
+      "The student fails to connect family or peer influences to actual substance use.",
+      "The student makes a weak connection between influences and substance use, with little explanation.",
+      "The student connects influences to substance use with some basic explanation.",
+      "The student clearly connects specific family and peer influences to the use of alcohol, tobacco, and other drugs.",
+      "The student provides a detailed explanation of how family and peer influences can lead to or prevent substance use, including short-term and long-term consequences.",
+      "The student provides an insightful and comprehensive analysis of the intricate relationship between family and peer influences and their potential impact on substance use behaviors, demonstrating a sophisticated understanding of the underlying dynamics."
+    ]
+  ]
+}

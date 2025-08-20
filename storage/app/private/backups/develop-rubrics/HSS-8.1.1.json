@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Great Awakening's Moral Ideas",
+    "Understanding of the Great Awakening's Political Ideas",
+    "Explanation of the Relationship between the Great Awakening and Revolutionary Fervor",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the moral ideas of the Great Awakening.",
+      "Student demonstrates a minimal understanding of the moral ideas of the Great Awakening.",
+      "Student demonstrates a basic understanding of the moral ideas of the Great Awakening, but with some inaccuracies or omissions.",
+      "Student demonstrates a satisfactory understanding of the moral ideas of the Great Awakening, identifying key concepts.",
+      "Student demonstrates a strong understanding of the moral ideas of the Great Awakening, explaining them clearly and accurately.",
+      "Student demonstrates a comprehensive understanding of the moral ideas of the Great Awakening, providing insightful analysis and connections to broader themes."
+    ],
+    [
+      "Student demonstrates no understanding of the political ideas of the Great Awakening.",
+      "Student demonstrates a minimal understanding of the political ideas of the Great Awakening.",
+      "Student demonstrates a basic understanding of the political ideas of the Great Awakening, but with some inaccuracies or omissions.",
+      "Student demonstrates a satisfactory understanding of the political ideas of the Great Awakening, identifying key concepts.",
+      "Student demonstrates a strong understanding of the political ideas of the Great Awakening, explaining them clearly and accurately.",
+      "Student demonstrates a comprehensive understanding of the political ideas of the Great Awakening, providing insightful analysis and connections to broader themes."
+    ],
+    [
+      "Student does not attempt to explain the relationship.",
+      "Student attempts to explain the relationship, but the explanation is unclear or inaccurate.",
+      "Student provides a vague or superficial explanation of the relationship.",
+      "Student explains the relationship between the Great Awakening and revolutionary fervor with some supporting details.",
+      "Student clearly explains the relationship between the Great Awakening and revolutionary fervor, providing specific examples and evidence.",
+      "Student provides a nuanced and insightful explanation of the relationship between the Great Awakening and revolutionary fervor, demonstrating a deep understanding of the historical context."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat unclear and disorganized, with significant issues in coherence.",
+      "Response is generally understandable but lacks clarity and organization in places.",
+      "Response is clear and organized, with a logical flow of ideas.",
+      "Response is very clear, well-organized, and easy to follow, with effective transitions.",
+      "Response is exceptionally clear, concise, and well-organized, demonstrating a mastery of communication skills."
+    ]
+  ]
+}

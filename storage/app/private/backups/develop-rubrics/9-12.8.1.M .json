@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Mental and Social Health Needs",
+    "Support and Advocacy",
+    "Respect for Rights"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of mental and social health needs or rights.",
+      "Demonstrates minimal awareness of mental and social health needs and rights.",
+      "Identifies basic mental and social health needs and rights but struggles to explain their importance.",
+      "Explains common mental and social health needs and rights with some clarity.",
+      "Clearly explains mental and social health needs and rights, providing relevant examples.",
+      "Demonstrates a comprehensive understanding of mental and social health needs and rights, advocating for their importance."
+    ],
+    [
+      "Provides no support or advocacy for others' mental and social health.",
+      "Offers limited support or advocacy, with minimal impact.",
+      "Attempts to support or advocate for others but lacks effectiveness.",
+      "Provides adequate support and advocacy for others, addressing basic needs and rights.",
+      "Effectively supports and advocates for others, promoting mental and social well-being.",
+      "Consistently and effectively supports and advocates for others, demonstrating leadership in promoting mental and social health."
+    ],
+    [
+      "Disregards the rights of others regarding mental and social health.",
+      "Shows minimal respect for the rights of others.",
+      "Acknowledges the rights of others but struggles to uphold them.",
+      "Respects the rights of others in most situations.",
+      "Consistently respects and upholds the rights of others, intervening when necessary.",
+      "Champions the rights of others, creating a supportive and inclusive environment."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of influences",
+    "Explanation of health consequences",
+    "Discussion of social pressures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any reasons why youths avoid substance use or incorrectly states that most youths use substances.",
+      "Identifies one or two superficial reasons, such as 'it's bad for you,' without further explanation.",
+      "Lists a few reasons (e.g., health concerns, legal issues) but lacks depth or understanding of the social and personal factors.",
+      "Explains several reasons why youths avoid alcohol, tobacco, or other drugs, including health, legal, and social factors, but may not fully elaborate on each.",
+      "Clearly explains multiple reasons, providing examples and showing an understanding of the complex interplay of factors that lead youths to abstain from substance use. Mentions social influences, personal values, and future goals.",
+      "Provides a comprehensive and nuanced explanation of the reasons why most youths do not use alcohol, tobacco, or other drugs. Includes detailed examples, addresses misconceptions, and demonstrates a deep understanding of the topic."
+    ],
+    [
+      "Does not mention any health consequences or provides inaccurate information.",
+      "Mentions health consequences in passing without detail.",
+      "Lists a few health consequences (e.g., lung cancer, liver damage) but doesn't explain how these relate to substance use.",
+      "Explains several health consequences of alcohol, tobacco, or other drug use and their relevance to youth.",
+      "Clearly explains multiple health consequences, relating them directly to the choices youths make. Shows an understanding of both short-term and long-term effects.",
+      "Provides a comprehensive explanation of the health consequences, including physical and mental health impacts. Explains the science behind these consequences and debunks common myths."
+    ],
+    [
+      "Does not address social pressures or incorrectly suggests that social pressures encourage substance use.",
+      "Acknowledges social pressures but does not explain them.",
+      "Lists a few social pressures (e.g., peer influence, advertising) without further explanation.",
+      "Explains several social pressures related to substance use, including peer influence, media, and advertising, and their impact on youth.",
+      "Clearly explains the role of social pressures in substance use and demonstrates an understanding of how youths can resist these pressures.",
+      "Provides a comprehensive analysis of social pressures, including societal norms, media influence, and peer dynamics. Explains how these factors can be counteracted through education, support networks, and personal empowerment."
+    ]
+  ]
+}

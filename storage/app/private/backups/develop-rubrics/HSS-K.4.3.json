@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Traffic Symbols",
+    "Identification of Map Symbols",
+    "Understanding the Purpose of Symbols"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any traffic symbols.",
+      "Student identifies 1-2 traffic symbols incorrectly.",
+      "Student identifies 1-2 basic traffic symbols correctly.",
+      "Student identifies several common traffic symbols correctly.",
+      "Student identifies most common traffic symbols correctly and explains their meaning.",
+      "Student accurately identifies a wide range of traffic symbols, including less common ones, and explains their purpose and importance for safety."
+    ],
+    [
+      "Student does not identify any map symbols.",
+      "Student attempts to identify 1-2 map symbols but misinterprets them.",
+      "Student identifies 1-2 basic map symbols (e.g., roads, water).",
+      "Student identifies several common map symbols (e.g., cities, rivers, mountains).",
+      "Student identifies most common map symbols and provides a basic explanation of what they represent.",
+      "Student accurately identifies a wide range of map symbols and explains their significance in representing geographical features and locations."
+    ],
+    [
+      "Student does not demonstrate any understanding of why traffic and map symbols are used.",
+      "Student offers a vague or inaccurate explanation of the purpose of symbols.",
+      "Student states that symbols are used for identification, but provides no further explanation.",
+      "Student explains that symbols are used for clarity and to save space, but lacks detail.",
+      "Student explains that symbols provide important information quickly and efficiently, but lacks specific examples.",
+      "Student comprehensively explains the importance of symbols in conveying information effectively, aiding navigation, and ensuring safety.  Student gives specific examples."
+    ]
+  ]
+}

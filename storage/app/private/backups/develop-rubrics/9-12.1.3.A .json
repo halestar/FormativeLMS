@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the link between alcohol and tobacco use and oral cancer risk.",
+    "Explanation of the synergistic effect of alcohol and tobacco.",
+    "Accuracy of information and use of supporting details."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the link between alcohol and tobacco use and oral cancer is demonstrated.",
+      "Demonstrates minimal understanding. Mentions alcohol or tobacco, but not their combined effect on oral cancer risk.",
+      "Shows a basic understanding. Identifies alcohol and tobacco as risk factors for oral cancer, but the connection is vague.",
+      "Demonstrates a clear understanding. Explains that alcohol and tobacco use increase the risk of oral cancer, but lacks depth.",
+      "Demonstrates a comprehensive understanding. Clearly explains the connection between alcohol and tobacco use and the increased risk of oral cancer, including synergistic effects.",
+      "Demonstrates an advanced understanding. Clearly explains the connection between alcohol and tobacco use and the increased risk of oral cancer. Provides detailed insights, including specific mechanisms or statistical data."
+    ],
+    [
+      "No mention of a synergistic effect.",
+      "Vague or incorrect understanding of synergism.",
+      "Attempts to explain synergism but lacks clarity.",
+      "Correctly identifies that alcohol and tobacco together are worse than either alone.",
+      "Explains the synergistic effect in detail, outlining potential mechanisms.",
+      "Provides a comprehensive explanation of synergism, including specific biochemical pathways."
+    ],
+    [
+      "Contains inaccurate information.",
+      "Includes some inaccuracies or lacks supporting details.",
+      "Information is mostly accurate but lacks detail.",
+      "Presents accurate information with some supporting details.",
+      "Presents accurate information with relevant and specific supporting details.",
+      "Presents accurate information with comprehensive and well-explained supporting details, including scientific evidence."
+    ]
+  ]
+}

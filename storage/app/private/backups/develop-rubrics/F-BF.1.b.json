@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify and use appropriate standard function types (linear, exponential, quadratic, etc.) in modeling.",
+    "Skill in combining standard function types using arithmetic operations (addition, subtraction, multiplication, division) to create a composite function.",
+    "Capacity to relate the functions and their combinations to the real-world context of the model.",
+    "Precision and correctness of the final function in modeling the relationship between two quantities."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify or use any standard function types.",
+      "Identifies a standard function type but cannot apply it to the modeling situation.",
+      "Identifies and attempts to use standard function types, but with significant errors or limitations.",
+      "Identifies and uses appropriate standard function types with some accuracy but may have minor errors.",
+      "Consistently identifies and uses appropriate standard function types effectively in modeling.",
+      "Masterfully identifies and uses appropriate standard function types, demonstrating a deep understanding of their characteristics and applicability."
+    ],
+    [
+      "Does not attempt to combine standard function types.",
+      "Attempts to combine function types but demonstrates no understanding of arithmetic operations.",
+      "Combines function types with significant errors in arithmetic operations, leading to an incorrect composite function.",
+      "Combines function types with some accuracy in arithmetic operations, but the composite function may have minor flaws.",
+      "Combines function types proficiently, using appropriate arithmetic operations to create a functional composite function.",
+      "Expertly combines function types, using arithmetic operations creatively and accurately to build a complex and effective composite function."
+    ],
+    [
+      "Shows no connection between the functions and the real-world context.",
+      "Attempts to relate functions to the real-world context but lacks understanding or clarity.",
+      "Relates functions to the real-world context with significant misconceptions or inaccuracies.",
+      "Relates functions to the real-world context with some accuracy, but the explanation is limited or incomplete.",
+      "Clearly relates the functions and their combinations to the real-world context, providing a coherent explanation.",
+      "Demonstrates a profound understanding of how the functions and their combinations model the real-world context, providing insightful and nuanced explanations."
+    ],
+    [
+      "The final function is completely incorrect and does not model the relationship.",
+      "The final function is highly inaccurate and bears little resemblance to the actual relationship.",
+      "The final function contains significant errors that prevent it from accurately modeling the relationship.",
+      "The final function models the relationship with some accuracy but has noticeable flaws or limitations.",
+      "The final function accurately models the relationship between two quantities with only minor imperfections.",
+      "The final function is precise, accurate, and effectively models the relationship between two quantities, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

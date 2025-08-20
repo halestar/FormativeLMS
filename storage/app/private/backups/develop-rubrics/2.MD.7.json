@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Telling Time",
+    "Use of a.m. and p.m.",
+    "Knowledge of Time Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to tell time to the nearest five minutes on either analog or digital clocks.",
+      "Student can tell time to the nearest hour on digital clocks, but struggles with analog clocks and finer increments.",
+      "Student can tell time to the nearest 15 minutes on digital and analog clocks with some errors.",
+      "Student can accurately tell time to the nearest five minutes on digital clocks and generally on analog clocks, with occasional minor errors.",
+      "Student can accurately tell time to the nearest five minutes on both analog and digital clocks consistently.",
+      "Student can accurately and quickly tell time to the nearest five minutes on both analog and digital clocks and explain the relationship between the two formats."
+    ],
+    [
+      "Student does not understand or incorrectly uses a.m. and p.m.",
+      "Student shows limited understanding of a.m. and p.m. and struggles to apply them correctly.",
+      "Student sometimes uses a.m. and p.m. correctly, but makes frequent errors.",
+      "Student generally uses a.m. and p.m. correctly, but occasionally makes errors in context.",
+      "Student consistently uses a.m. and p.m. correctly in various contexts.",
+      "Student demonstrates a thorough understanding of a.m. and p.m. and can explain their usage accurately in different scenarios."
+    ],
+    [
+      "Student shows no understanding of time relationships (minutes in an hour, days in a month, weeks in a year).",
+      "Student knows only one time relationship (e.g., minutes in an hour) but struggles with others.",
+      "Student knows two time relationships but struggles with the others.",
+      "Student knows most time relationships but makes occasional errors.",
+      "Student knows all listed time relationships accurately.",
+      "Student demonstrates a deep understanding of all listed time relationships and can apply them to solve complex problems."
+    ]
+  ]
+}

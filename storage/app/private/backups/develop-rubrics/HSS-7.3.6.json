@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the development of the imperial state.",
+    "Knowledge of the scholar-official class.",
+    "Ability to connect the imperial state and the scholar-official class."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the development of the imperial state in China.",
+      "Shows a very limited understanding of the development of the imperial state, with significant inaccuracies or omissions.",
+      "Displays a basic understanding of the development of the imperial state, but lacks depth and detail.",
+      "Exhibits a satisfactory understanding of the development of the imperial state, including some key factors and events.",
+      "Demonstrates a strong understanding of the development of the imperial state, including major political and social changes.",
+      "Shows a comprehensive and nuanced understanding of the development of the imperial state, including its long-term effects and significance."
+    ],
+    [
+      "Demonstrates no knowledge of the scholar-official class.",
+      "Shows a very limited awareness of the scholar-official class, with significant inaccuracies or omissions.",
+      "Displays a basic understanding of the scholar-official class, but lacks depth and detail.",
+      "Exhibits a satisfactory understanding of the scholar-official class, including their role in the government and society.",
+      "Demonstrates a strong understanding of the scholar-official class, including their recruitment, training, and responsibilities.",
+      "Shows a comprehensive and nuanced understanding of the scholar-official class, including their impact on Chinese culture and politics."
+    ],
+    [
+      "Unable to connect the development of the imperial state and the scholar-official class.",
+      "Shows a very weak connection between the development of the imperial state and the scholar-official class, with no supporting details.",
+      "Displays a tenuous connection between the development of the imperial state and the scholar-official class, but lacks detail.",
+      "Connects the development of the imperial state and the scholar-official class, including their role in the government and society.",
+      "Demonstrates a solid connection between the development of the imperial state and the scholar-official class, including their recruitment, training, and responsibilities.",
+      "Shows a comprehensive and nuanced connection between the development of the imperial state and the scholar-official class, including their impact on Chinese culture and politics."
+    ]
+  ]
+}

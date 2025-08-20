@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Environmental Conditions",
+    "Description of Health Effects",
+    "Explanation of the Relationship Between Environment and Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any environmental conditions that affect personal health.",
+      "The student identifies only one environmental condition with no link to health.",
+      "The student identifies one environmental condition and mentions its general effect on health.",
+      "The student identifies two environmental conditions and describes their general effects on health.",
+      "The student identifies three or more environmental conditions and describes their general effects on health.",
+      "The student comprehensively identifies multiple environmental conditions and provides detailed explanations of their effects on personal health, including specific examples."
+    ],
+    [
+      "The student does not describe any health effects related to environmental conditions.",
+      "The student vaguely mentions a health effect with no connection to a specific environmental condition.",
+      "The student describes a health effect loosely related to an environmental condition.",
+      "The student clearly describes a health effect associated with a specific environmental condition.",
+      "The student describes multiple health effects accurately linked to specific environmental conditions.",
+      "The student provides an in-depth explanation of how environmental conditions impact specific health outcomes, including physiological mechanisms and potential long-term effects."
+    ],
+    [
+      "The student shows no understanding of the relationship between environmental conditions and personal health.",
+      "The student attempts to explain the relationship but demonstrates significant misunderstandings.",
+      "The student provides a basic explanation of the relationship, but it lacks detail and accuracy.",
+      "The student provides a clear explanation of how environmental conditions can affect personal health.",
+      "The student effectively explains the complex interplay between environmental factors and personal health outcomes.",
+      "The student demonstrates a sophisticated understanding of the multifaceted relationship between environmental conditions and personal health, including discussion of vulnerable populations and preventative measures."
+    ]
+  ]
+}

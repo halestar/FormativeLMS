@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Commutative Property",
+    "Understanding of Associative Property",
+    "Strategic Application of Properties"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of the commutative property.",
+      "Student can state the commutative property but cannot apply it in simple addition problems.",
+      "Student can apply the commutative property in simple addition problems with guidance.",
+      "Student can independently apply the commutative property in a variety of addition problems.",
+      "Student can explain the commutative property and apply it to solve complex addition problems.",
+      "Student can teach the commutative property to others and apply it to novel mathematical problems, recognizing its limitations."
+    ],
+    [
+      "Student does not demonstrate understanding of the associative property.",
+      "Student can state the associative property but cannot apply it in simple addition problems.",
+      "Student can apply the associative property in simple addition problems with guidance.",
+      "Student can independently apply the associative property in a variety of addition problems to simplify calculations.",
+      "Student can explain the associative property and apply it to solve complex addition problems, strategically regrouping numbers.",
+      "Student can teach the associative property to others and apply it to novel mathematical problems, recognizing when it is beneficial to use."
+    ],
+    [
+      "Student does not attempt to use properties of operations.",
+      "Student attempts to use properties of operations but makes errors or is inefficient.",
+      "Student uses properties of operations with limited success and occasional errors.",
+      "Student strategically applies properties of operations to efficiently solve addition and subtraction problems.",
+      "Student consistently and efficiently applies properties of operations to solve complex problems, justifying their strategies.",
+      "Student demonstrates mastery in applying properties of operations, adapting their approach to optimize problem-solving strategies and explaining their reasoning effectively."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Model Accuracy: How accurately does the model represent the relationship between the needs of different plants or animals and their environment?",
+    "Identification of Needs: How well does the model identify the specific needs of the plants, animals, or humans?",
+    "Representation of Environment: How well does the model represent the key aspects of the environment that relate to the needs of the organisms?",
+    "Systems Thinking: How well does the model demonstrate an understanding of the system as a whole, including the interactions between the organisms and their environment?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely irrelevant to the relationship between living things and their environment.",
+      "The model attempts to represent the relationship but contains significant inaccuracies or omissions.",
+      "The model represents the relationship with several inaccuracies or omissions.",
+      "The model generally represents the relationship accurately but may have minor inaccuracies or omissions.",
+      "The model represents the relationship accurately with only very minor imperfections.",
+      "The model accurately and thoroughly represents the relationship between the needs of different plants or animals and the places they live, demonstrating a strong understanding of the concept."
+    ],
+    [
+      "The model fails to identify any specific needs of the organisms.",
+      "The model identifies only one need inaccurately or vaguely.",
+      "The model identifies a few needs with limited accuracy or detail.",
+      "The model identifies most of the key needs with reasonable accuracy and detail.",
+      "The model clearly and accurately identifies nearly all of the key needs.",
+      "The model comprehensively and accurately identifies all key needs of the organisms, demonstrating a deep understanding of their requirements for survival."
+    ],
+    [
+      "The model does not represent the environment at all or the representation is completely irrelevant.",
+      "The model attempts to represent the environment but is highly inaccurate or incomplete.",
+      "The model represents some aspects of the environment, but significant details are missing or incorrect.",
+      "The model represents the main aspects of the environment with reasonable accuracy and completeness.",
+      "The model represents the environment accurately and includes nearly all relevant details.",
+      "The model provides a comprehensive and accurate representation of the environment, including all relevant details and showcasing a strong understanding of environmental factors."
+    ],
+    [
+      "The model shows no understanding of the system as a whole or the interactions between organisms and their environment.",
+      "The model hints at a system but fails to demonstrate the interactions of the system.",
+      "The model shows a limited understanding of the system, with some of the interactions between the organisms and environment shown.",
+      "The model represents the system as a whole, including some of the interactions between organisms and environment.",
+      "The model represents the system well, including most of the significant interactions between organisms and environment.",
+      "The model represents the system holistically, showing all of the interactions between the organisms and the environment, highlighting their interdependencies."
+    ]
+  ]
+}

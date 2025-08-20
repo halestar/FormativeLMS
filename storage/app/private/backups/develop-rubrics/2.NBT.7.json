@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in Addition and Subtraction",
+    "Use of Models and Drawings",
+    "Application of Place Value and Properties",
+    "Explanation of Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of addition or subtraction within 1000.  Significant errors are present in all calculations.",
+      "Student attempts addition and subtraction but makes frequent errors, showing limited understanding of place value.",
+      "Student can add and subtract within 1000 with some accuracy, but errors occur when composing or decomposing tens and hundreds.",
+      "Student consistently adds and subtracts within 1000 accurately, demonstrating a good understanding of place value but may need some guidance when composing or decomposing.",
+      "Student adds and subtracts within 1000 accurately and efficiently, demonstrating a strong understanding of place value and can compose and decompose tens\/hundreds with minimal errors.",
+      "Student demonstrates mastery in adding and subtracting within 1000. Calculations are consistently accurate, efficient, and demonstrate a thorough understanding of composing and decomposing tens and hundreds, even in complex problems."
+    ],
+    [
+      "Student does not attempt to use concrete models or drawings to aid in addition or subtraction.",
+      "Student attempts to use models or drawings, but they are inaccurate or do not represent the problem correctly.",
+      "Student uses models or drawings with some success, but the connection to the numerical problem is not always clear.",
+      "Student effectively uses models or drawings to solve addition and subtraction problems, clearly connecting the visual representation to the numerical process.",
+      "Student uses models and drawings proficiently to solve problems and explain their reasoning, demonstrating a clear understanding of the relationship between the model and the numerical solution.",
+      "Student creatively and effectively uses models and drawings to solve complex problems and articulate their mathematical thinking, demonstrating a deep understanding of the underlying concepts."
+    ],
+    [
+      "Student shows no understanding of place value or properties of operations in the context of addition and subtraction.",
+      "Student demonstrates a limited understanding of place value and properties of operations, with frequent errors in application.",
+      "Student applies place value and properties of operations with some success, but understanding is inconsistent.",
+      "Student consistently applies place value and properties of operations to add and subtract within 1000.",
+      "Student demonstrates a strong understanding of place value and properties of operations, applying them flexibly and accurately to solve problems.",
+      "Student exhibits a deep understanding of place value and properties of operations, using them insightfully to solve complex problems and justify their solutions."
+    ],
+    [
+      "Student cannot explain their addition or subtraction strategy or provide any reasoning for their approach.",
+      "Student attempts to explain their strategy but is unclear or provides inaccurate information.",
+      "Student explains their strategy with some clarity, but the reasoning behind their approach is not fully developed.",
+      "Student clearly explains their strategy for addition and subtraction, providing logical reasoning for their approach.",
+      "Student articulates their strategy clearly and concisely, providing a well-reasoned explanation that demonstrates a deep understanding of the concepts involved.",
+      "Student provides a sophisticated and insightful explanation of their strategy, connecting it to underlying mathematical principles and demonstrating a comprehensive understanding of addition and subtraction within 1000."
+    ]
+  ]
+}

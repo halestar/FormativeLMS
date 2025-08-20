@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to formulate relevant questions about electric or magnetic interactions.",
+    "Understanding of the factors affecting the strength and direction of electric\/magnetic forces.",
+    "Application of cause and effect relationships to explain changes in electric\/magnetic interactions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No questions are formulated or questions are irrelevant to the concept of electric or magnetic interactions.",
+      "Formulates questions that are vaguely related to electric or magnetic interactions but lack clarity or focus.",
+      "Formulates questions that touch upon electric or magnetic interactions but do not clearly address cause and effect relationships.",
+      "Formulates questions that identify cause and effect relationships in electric or magnetic interactions, but lacks depth.",
+      "Formulates clear and relevant questions that effectively explore cause and effect relationships in electric or magnetic interactions.",
+      "Formulates insightful and probing questions that demonstrate a deep understanding of cause and effect relationships in electric or magnetic interactions, pushing beyond basic understanding."
+    ],
+    [
+      "Demonstrates no understanding of the factors influencing electric or magnetic forces.",
+      "Identifies some factors but demonstrates a limited understanding of how they affect the forces.",
+      "Describes factors such as distance and orientation but struggles to explain their impact on the strength or direction of forces.",
+      "Explains how factors like distance and orientation affect the strength and direction of electric or magnetic forces, with some minor inaccuracies.",
+      "Accurately explains how the properties of objects, their distances apart, and orientation influence the strength and direction of electric and magnetic forces.",
+      "Provides a comprehensive and nuanced explanation of how various factors interact to determine the strength and direction of electric and magnetic forces, including real-world applications."
+    ],
+    [
+      "Unable to identify or explain any cause and effect relationships in electric or magnetic interactions.",
+      "Identifies cause and effect relationships but struggles to explain the connection or provides inaccurate explanations.",
+      "Describes cause and effect relationships in simple scenarios but cannot apply this understanding to more complex situations.",
+      "Applies cause and effect relationships to explain changes in electric or magnetic interactions, but with some gaps in reasoning or understanding.",
+      "Clearly and accurately explains changes in electric or magnetic interactions using cause and effect relationships, providing relevant examples.",
+      "Demonstrates a sophisticated understanding of cause and effect relationships, using them to analyze and predict changes in electric and magnetic interactions across a variety of complex scenarios."
+    ]
+  ]
+}

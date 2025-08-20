@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying Risky Situations",
+    "Negotiation Strategies",
+    "Communication Skills",
+    "Assertiveness and Boundary Setting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any risky situations or demonstrates a lack of understanding of what constitutes a risky situation.",
+      "Identifies a few obvious risky situations but misses more subtle or complex scenarios.",
+      "Identifies most common risky situations but struggles with nuanced or less obvious scenarios.",
+      "Consistently identifies risky situations, including those that are not immediately apparent.",
+      "Accurately identifies and explains a wide range of risky situations, demonstrating a strong understanding of potential dangers.",
+      "Masterfully identifies and articulates the complexities of various risky situations, including underlying factors and potential consequences."
+    ],
+    [
+      "Unable to suggest any negotiation strategies or suggests strategies that are inappropriate or ineffective.",
+      "Suggests one or two basic negotiation strategies but struggles to explain how they could be used effectively.",
+      "Suggests several negotiation strategies but lacks the ability to tailor them to specific situations.",
+      "Demonstrates a good understanding of various negotiation strategies and can apply them to different risky scenarios.",
+      "Effectively uses a range of negotiation strategies, adapting their approach based on the specific situation and the other party's behavior.",
+      "Expertly employs advanced negotiation techniques, demonstrating a nuanced understanding of interpersonal dynamics and conflict resolution."
+    ],
+    [
+      "Communication is unclear, ineffective, or inappropriate for the situation.",
+      "Communication is somewhat clear but may be hesitant or lack confidence.",
+      "Communicates adequately but may struggle to express their needs and boundaries assertively.",
+      "Communicates clearly and effectively, expressing their needs and boundaries in a respectful manner.",
+      "Communicates persuasively, using active listening and empathy to build rapport and find common ground.",
+      "Communicates with exceptional clarity, confidence, and empathy, demonstrating mastery of verbal and nonverbal communication skills."
+    ],
+    [
+      "Demonstrates no assertiveness and is unable to set or maintain boundaries.",
+      "Shows limited assertiveness and struggles to set boundaries in challenging situations.",
+      "Demonstrates some assertiveness but may be easily swayed by others or give in to peer pressure.",
+      "Assertively expresses their needs and boundaries, standing up for themselves in a respectful manner.",
+      "Confidently sets and maintains boundaries, effectively navigating challenging social situations.",
+      "Empowers others to set boundaries, serving as a role model for assertiveness and self-advocacy."
+    ]
+  ]
+}

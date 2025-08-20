@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Cultural Appropriateness",
+    "Clarity and Conciseness",
+    "Use of Media and Technologies",
+    "Language Accuracy and Fluency"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of cultural norms or expectations in presentation.",
+      "Shows minimal awareness of cultural elements; presentation may contain inappropriate or insensitive content.",
+      "Attempts to incorporate cultural elements, but implementation is superficial or inconsistent.",
+      "Presents information in a generally culturally appropriate manner, with minor areas for improvement.",
+      "Demonstrates a strong understanding of cultural nuances; presentation is well-suited for the intended audience.",
+      "Masterfully integrates cultural understanding into the presentation, enhancing its impact and relevance for the audience."
+    ],
+    [
+      "Presentation is incomprehensible or disorganized; key information is missing.",
+      "Struggles to convey information clearly; presentation is rambling or confusing.",
+      "Presentation is somewhat understandable, but lacks focus and clarity in certain areas.",
+      "Presents information in a clear and organized manner, with most key points easily understood.",
+      "Demonstrates excellent clarity and conciseness; presentation is easy to follow and understand.",
+      "Presents information with exceptional clarity and precision; presentation is engaging and memorable."
+    ],
+    [
+      "Fails to utilize media or technologies effectively; presentation is solely reliant on spoken or written language.",
+      "Uses media or technologies inappropriately or ineffectively; presentation is hindered rather than enhanced.",
+      "Incorporates media or technologies, but integration is clumsy or distracting.",
+      "Utilizes media and technologies competently to enhance the presentation; selection is generally appropriate.",
+      "Demonstrates skillful use of media and technologies to engage the audience and support key points.",
+      "Masterfully integrates media and technologies to create a compelling and immersive presentation experience."
+    ],
+    [
+      "Demonstrates minimal language proficiency; presentation is riddled with errors and difficult to understand.",
+      "Struggles to communicate effectively; language errors impede comprehension.",
+      "Displays basic language skills, but with frequent errors and hesitations.",
+      "Communicates adequately with reasonable accuracy and fluency; minor errors do not detract from overall understanding.",
+      "Demonstrates strong language skills with few errors; communication is clear and fluent.",
+      "Exhibits exceptional language proficiency; presentation is articulate, engaging, and virtually error-free."
+    ]
+  ]
+}

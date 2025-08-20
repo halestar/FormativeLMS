@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Matching Descriptions to Jobs",
+    "Relevance of Job Examples Provided",
+    "Clarity and Coherence of Explanations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to match descriptions of work to job names.",
+      "Student can match one description to a job name, but with significant inaccuracies or irrelevant information.",
+      "Student can match some descriptions to job names, but with several inaccuracies or omissions.",
+      "Student accurately matches descriptions to job names for the school jobs, but struggles with local community or historical accounts.",
+      "Student accurately matches descriptions to job names for the school and local community jobs, but has minor inaccuracies with historical accounts.",
+      "Student accurately and thoroughly matches descriptions to job names across the school, local community, and historical accounts."
+    ],
+    [
+      "Student provides no relevant job examples.",
+      "Student provides one or two irrelevant job examples.",
+      "Student provides some job examples, but many are not relevant to the descriptions of work.",
+      "Student provides relevant job examples for school and local community settings, but struggles with historical examples.",
+      "Student consistently provides relevant job examples, including historical accounts, but may miss some nuances.",
+      "Student consistently provides insightful and relevant job examples across all settings, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student provides no explanations or explanations are completely unclear.",
+      "Student attempts to explain the matches, but explanations are vague and incoherent.",
+      "Student provides explanations, but they lack clarity and coherence, making it difficult to understand the rationale.",
+      "Student's explanations are generally clear and coherent for school and local community jobs, but less so for historical accounts.",
+      "Student's explanations are clear, coherent, and demonstrate a good understanding of the work and related jobs.",
+      "Student's explanations are exceptionally clear, coherent, and insightful, reflecting a deep understanding of the work, related jobs, and historical context."
+    ]
+  ]
+}

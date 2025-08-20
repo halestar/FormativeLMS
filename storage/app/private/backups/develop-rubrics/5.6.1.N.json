@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting and Specificity: How well does the student define their nutritional goal and how specific is it?",
+    "Monitoring Methods: How appropriate and consistent are the methods used to monitor progress?",
+    "Data Analysis and Reflection: How well does the student analyze the data collected and reflect on their progress?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No nutritional goal is identified or the goal is completely vague and unmeasurable.",
+      "A nutritional goal is mentioned, but lacks clarity and is difficult to measure progress.",
+      "The nutritional goal is somewhat defined, but lacks key details for effective monitoring.",
+      "The nutritional goal is clearly stated and includes some specific details that allow for basic monitoring.",
+      "The nutritional goal is well-defined with specific, measurable, achievable, relevant, and time-bound (SMART) elements.",
+      "The nutritional goal is exceptionally well-defined, incorporating all SMART elements and demonstrating a deep understanding of personal nutritional needs."
+    ],
+    [
+      "No monitoring methods are used or the methods are completely inappropriate for the stated goal.",
+      "Monitoring methods are mentioned, but are inconsistently applied or not suitable for tracking progress.",
+      "Monitoring methods are somewhat appropriate, but are applied sporadically or without a clear system.",
+      "Appropriate monitoring methods are used with some consistency, allowing for basic tracking of progress.",
+      "Effective monitoring methods are consistently used and are clearly linked to the nutritional goal, providing valuable data.",
+      "Highly effective and innovative monitoring methods are consistently applied, demonstrating a comprehensive approach to tracking progress and identifying areas for improvement."
+    ],
+    [
+      "No data is analyzed or there is no reflection on progress.",
+      "Minimal data analysis is attempted and reflection is superficial or absent.",
+      "Some data analysis is performed, but the reflection is limited and lacks depth.",
+      "Data is analyzed and progress is reflected upon, with some insights into challenges and successes.",
+      "Data is thoroughly analyzed, and the reflection demonstrates a clear understanding of progress, challenges, and strategies for improvement.",
+      "Data is expertly analyzed, and the reflection reveals profound insights into the nutritional goal, demonstrating a sophisticated understanding of personal health and wellness, as well as future planning based on the data."
+    ]
+  ]
+}

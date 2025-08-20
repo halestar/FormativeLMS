@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Place Value in Division",
+    "Application of Division Strategies",
+    "Illustration and Explanation of Calculation",
+    "Accuracy of Quotient and Remainder"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of place value concepts in division. Unable to estimate or break down numbers based on place value.",
+      "Shows limited understanding of place value. Attempts to break down numbers but struggles with accuracy and relevance to the division process.",
+      "Demonstrates basic understanding of place value. Can break down numbers into hundreds, tens, and ones but may struggle with larger numbers or relating it to the division.",
+      "Understands place value and uses it to estimate quotients. Can explain how place value affects the division process with some accuracy.",
+      "Clearly and effectively uses place value to simplify division problems. Explains the relationship between place value and division with accuracy.",
+      "Masterfully applies place value understanding to efficiently solve complex division problems. Demonstrates a deep and insightful understanding of the underlying mathematical concepts."
+    ],
+    [
+      "Unable to apply any appropriate division strategies. Shows no attempt to use strategies based on place value, properties of operations, or models.",
+      "Attempts to use a division strategy but struggles with implementation and accuracy. The chosen strategy is not effective or appropriate.",
+      "Applies a division strategy with limited success. Makes significant errors in the process, indicating a partial understanding of the strategy.",
+      "Applies a division strategy appropriately but may make some minor calculation errors. Can explain the reasoning behind the chosen strategy.",
+      "Effectively applies a division strategy to solve the problem accurately. Clearly explains the steps involved and the reasoning behind the strategy.",
+      "Selects and implements the most efficient division strategy to solve the problem with precision and clarity. Demonstrates a comprehensive understanding of multiple strategies and their applications."
+    ],
+    [
+      "Provides no illustration or explanation of the calculation process. Unable to represent the problem using equations, arrays, or area models.",
+      "Attempts to illustrate or explain the calculation but the representation is unclear, inaccurate, or incomplete. Shows limited understanding of how to connect the model to the division process.",
+      "Provides a basic illustration or explanation but struggles to connect it to the numerical calculation. The representation may contain errors or lack clarity.",
+      "Illustrates the calculation using equations, arrays, or area models with reasonable accuracy. Explains the connection between the model and the numerical process.",
+      "Clearly illustrates the calculation using appropriate models and provides a detailed explanation of the process. The representation accurately reflects the numerical calculation and enhances understanding.",
+      "Creates insightful and mathematically sound illustrations that enhance understanding of the division process. Explains the connections between the models, equations, and the solution in a clear and compelling manner."
+    ],
+    [
+      "Unable to determine the quotient or remainder. The answer provided is incorrect and shows no understanding of the division process.",
+      "Determines an incorrect quotient and remainder with significant errors. Shows limited understanding of the relationship between dividend, divisor, quotient, and remainder.",
+      "Calculates the quotient or remainder with some errors, indicating a partial understanding of the division process. May struggle with larger numbers or remainders.",
+      "Determines the correct quotient but may have minor errors in the remainder, or vice versa. Demonstrates a general understanding of the division process.",
+      "Accurately calculates both the quotient and the remainder. Shows a strong understanding of the relationship between these values and the division process.",
+      "Consistently and accurately calculates the quotient and remainder for complex division problems. Demonstrates a mastery of the division process and its applications."
+    ]
+  ]
+}

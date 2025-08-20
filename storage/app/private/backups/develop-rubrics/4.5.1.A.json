@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of High-Risk Situations",
+    "Evaluation of Avoidance Strategies",
+    "Understanding of Peer Influence and Social Pressure"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any situations where alcohol, tobacco, or other drugs are being used.",
+      "Identifies one situation with prompting.",
+      "Identifies one or two situations with limited understanding.",
+      "Identifies two or three situations with a basic understanding of risk factors.",
+      "Identifies multiple situations with a clear understanding of the associated risks and triggers.",
+      "Accurately and comprehensively identifies various high-risk situations, demonstrating a deep understanding of the underlying factors contributing to substance use."
+    ],
+    [
+      "Unable to suggest any strategies to avoid high-risk situations.",
+      "Suggests one strategy that is impractical or ineffective.",
+      "Suggests one or two strategies with limited understanding of their effectiveness.",
+      "Suggests two or three strategies with a basic understanding of how they can help avoid substance use.",
+      "Evaluates several strategies with a clear understanding of their effectiveness and suitability in different situations.",
+      "Critically evaluates a wide range of strategies, demonstrating a nuanced understanding of their effectiveness, limitations, and applicability in various contexts.  Considers personal and social factors in strategy selection."
+    ],
+    [
+      "Demonstrates no understanding of peer influence or social pressure related to substance use.",
+      "Shows a limited awareness of peer influence.",
+      "Recognizes peer influence but struggles to articulate its impact.",
+      "Explains how peer influence and social pressure can contribute to substance use.",
+      "Analyzes the role of peer influence and social pressure in decision-making related to alcohol, tobacco, and other drugs.",
+      "Deconstructs the complex interplay of peer influence, social pressure, and personal beliefs in shaping decisions about substance use. Proposes strategies for resisting negative influences and promoting positive social norms."
+    ]
+  ]
+}

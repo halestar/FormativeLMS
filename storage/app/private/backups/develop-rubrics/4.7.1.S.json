@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Bullying and Harassment",
+    "Strategies to Avoid Bullying (as a Target)",
+    "Strategies to Avoid Harassment (as a Target)",
+    "Intervention Strategies (Witnessing Bullying\/Harassment)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify bullying or harassment.",
+      "Identifies bullying or harassment, but with significant inaccuracies.",
+      "Identifies bullying and harassment with some inaccuracies.",
+      "Identifies bullying and harassment accurately, but lacks depth.",
+      "Clearly and accurately identifies bullying and harassment, demonstrating a solid understanding.",
+      "Demonstrates a comprehensive and nuanced understanding of bullying and harassment, including various forms and contexts."
+    ],
+    [
+      "Does not suggest any strategies to avoid bullying.",
+      "Suggests strategies that are not practical or safe.",
+      "Suggests basic strategies with limited effectiveness.",
+      "Suggests several appropriate strategies to avoid bullying.",
+      "Suggests effective and practical strategies, considering different situations.",
+      "Demonstrates a sophisticated understanding of strategies, tailoring them to specific scenarios and considering long-term impact."
+    ],
+    [
+      "Does not suggest any strategies to avoid harassment.",
+      "Suggests strategies that are not practical or safe.",
+      "Suggests basic strategies with limited effectiveness.",
+      "Suggests several appropriate strategies to avoid harassment.",
+      "Suggests effective and practical strategies, considering different situations.",
+      "Demonstrates a sophisticated understanding of strategies, tailoring them to specific scenarios and considering long-term impact."
+    ],
+    [
+      "Does not suggest any intervention strategies.",
+      "Suggests intervention strategies that are inappropriate or unsafe.",
+      "Suggests basic intervention strategies with limited effectiveness.",
+      "Suggests several appropriate intervention strategies, such as reporting or seeking help.",
+      "Suggests effective and safe intervention strategies, considering the safety of themselves and others.",
+      "Demonstrates a sophisticated understanding of intervention, considering ethical implications and potential consequences, advocating for a positive and inclusive environment."
+    ]
+  ]
+}

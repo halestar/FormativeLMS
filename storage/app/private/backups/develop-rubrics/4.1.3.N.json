@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the relationship between food intake and health",
+    "Understanding of the relationship between physical activity and health",
+    "Ability to connect food intake and physical activity to overall good health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how food intake affects health.",
+      "Student shows a limited understanding of the relationship between food intake and health, with significant misconceptions.",
+      "Student identifies some connections between food intake and health but lacks depth in explanation.",
+      "Student accurately describes the relationship between food intake and health, providing basic examples.",
+      "Student comprehensively explains the relationship between food intake and health, including specific nutrients and their impact.",
+      "Student provides an insightful and detailed explanation of the complex relationship between food intake, specific dietary choices, and long-term health outcomes, demonstrating a mastery of the concept."
+    ],
+    [
+      "Student demonstrates no understanding of how physical activity affects health.",
+      "Student shows a limited understanding of the relationship between physical activity and health, with significant misconceptions.",
+      "Student identifies some connections between physical activity and health but lacks depth in explanation.",
+      "Student accurately describes the relationship between physical activity and health, providing basic examples.",
+      "Student comprehensively explains the relationship between physical activity and health, including different types of activity and their impact.",
+      "Student provides an insightful and detailed explanation of the complex relationship between physical activity, different exercise modalities, and long-term health outcomes, demonstrating a mastery of the concept."
+    ],
+    [
+      "Student fails to connect food intake and physical activity to overall good health.",
+      "Student struggles to connect food intake and physical activity to overall good health, with unclear or inaccurate explanations.",
+      "Student makes a limited attempt to connect food intake and physical activity to overall good health, but the explanation is superficial.",
+      "Student adequately connects food intake and physical activity to overall good health, providing a general overview.",
+      "Student clearly connects food intake and physical activity to overall good health, providing specific examples and explaining the synergistic effects.",
+      "Student expertly connects food intake and physical activity to overall good health, providing a nuanced and comprehensive analysis of their combined impact on well-being and disease prevention, demonstrating a mastery of the concept."
+    ]
+  ]
+}

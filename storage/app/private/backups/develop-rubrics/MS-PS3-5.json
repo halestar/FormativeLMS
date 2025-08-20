@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Kinetic Energy Transfer",
+    "Use of Evidence and Reasoning",
+    "Clarity and Organization of Argument"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of kinetic energy or its transfer.",
+      "The student shows a minimal understanding of kinetic energy and transfer, with significant misconceptions.",
+      "The student identifies kinetic energy but struggles to explain its transfer or provides an incomplete explanation.",
+      "The student adequately explains kinetic energy transfer with some minor omissions or inaccuracies.",
+      "The student clearly explains kinetic energy transfer, providing a comprehensive explanation with supporting details.",
+      "The student demonstrates a thorough and nuanced understanding of kinetic energy transfer, including real-world applications and implications."
+    ],
+    [
+      "The student does not provide any evidence or reasoning to support their claims.",
+      "The student attempts to provide evidence, but it is irrelevant, inaccurate, or not connected to their claim.",
+      "The student provides weak or limited evidence with flawed reasoning to support their claim.",
+      "The student provides adequate evidence and reasoning, but the connection between them is not always clear or convincing.",
+      "The student provides strong evidence and clear reasoning to support their claim, establishing a logical connection between them.",
+      "The student provides compelling evidence and sophisticated reasoning to support their claim, demonstrating a deep understanding of the scientific concepts."
+    ],
+    [
+      "The student's argument is unclear, disorganized, and difficult to follow.",
+      "The student's argument is poorly organized with significant issues in clarity and coherence.",
+      "The student presents an argument with some organization, but clarity is lacking in several areas.",
+      "The student presents a reasonably clear and organized argument with minor areas for improvement.",
+      "The student presents a clear, well-organized, and easy-to-follow argument.",
+      "The student presents an exceptionally clear, concise, and logically organized argument that is persuasive and insightful."
+    ]
+  ]
+}

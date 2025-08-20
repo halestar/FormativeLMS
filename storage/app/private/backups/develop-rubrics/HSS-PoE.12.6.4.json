@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Foreign Exchange",
+    "Explanation of Exchange Rate Determination",
+    "Analysis of Dollar Value Fluctuations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of foreign exchange concepts.",
+      "Student struggles to define foreign exchange and its basic purpose.",
+      "Student can define foreign exchange but has difficulty explaining how it works.",
+      "Student can define foreign exchange and explain its basic mechanics, but lacks depth.",
+      "Student demonstrates a solid understanding of foreign exchange, explaining its mechanics and purpose clearly.",
+      "Student demonstrates a comprehensive understanding of foreign exchange, explaining its mechanics, purpose, and significance with clarity and insight."
+    ],
+    [
+      "Student is unable to explain how exchange rates are determined.",
+      "Student attempts to explain exchange rate determination but provides inaccurate or incomplete information.",
+      "Student offers a basic explanation of exchange rate determination, but with limited detail.",
+      "Student explains the basic factors influencing exchange rate determination (supply\/demand) but lacks specific examples.",
+      "Student accurately explains how exchange rates are determined, including the roles of supply, demand, and other influencing factors.",
+      "Student provides a detailed and nuanced explanation of exchange rate determination, including the interplay of various factors and potential market influences."
+    ],
+    [
+      "Student cannot explain the effects of the dollar's value fluctuating relative to other currencies.",
+      "Student struggles to articulate the effects of the dollar gaining or losing value.",
+      "Student identifies some basic effects but lacks a clear understanding of the implications.",
+      "Student explains the effects of dollar value fluctuations on trade and prices but lacks specific examples.",
+      "Student analyzes the effects of the dollar's value fluctuations on trade, investment, and the U.S. economy with supporting examples.",
+      "Student provides a comprehensive analysis of the effects of dollar value fluctuations, demonstrating a sophisticated understanding of the interconnectedness of global markets and the U.S. economy."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Linear vs. Exponential Growth",
+    "Understanding Quadratic vs. Exponential Growth",
+    "Graphical and Tabular Analysis",
+    "Problem Solving and Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of linear or exponential functions.",
+      "Student shows limited understanding, with difficulty differentiating between linear and exponential growth in simple scenarios.",
+      "Student can identify linear and exponential growth in basic graphs and tables but struggles to explain the key differences.",
+      "Student can generally distinguish between linear and exponential growth and explain how exponential growth can surpass linear growth.",
+      "Student clearly understands and explains with supporting work, how exponential growth surpasses linear growth, using examples from graphs and tables.",
+      "Student demonstrates a thorough understanding, providing clear explanations and examples, including real-world applications, of how exponential growth surpasses linear growth."
+    ],
+    [
+      "Student does not demonstrate understanding of quadratic or exponential functions.",
+      "Student shows limited understanding, with difficulty differentiating between quadratic and exponential growth in simple scenarios.",
+      "Student can identify quadratic and exponential growth in basic graphs and tables but struggles to explain the key differences.",
+      "Student can generally distinguish between quadratic and exponential growth and explain how exponential growth can surpass quadratic growth.",
+      "Student clearly understands and explains with supporting work, how exponential growth surpasses quadratic growth, using examples from graphs and tables.",
+      "Student demonstrates a thorough understanding, providing clear explanations and examples, including real-world applications, of how exponential growth surpasses quadratic growth."
+    ],
+    [
+      "Student is unable to interpret graphs or tables related to linear, quadratic, and exponential functions.",
+      "Student struggles to extract relevant information from graphs and tables, misinterpreting trends.",
+      "Student can identify basic trends in graphs and tables but has difficulty comparing the growth rates of different functions.",
+      "Student can compare growth rates using graphs and tables, identifying when exponential growth starts to dominate.",
+      "Student can accurately analyze graphs and tables to determine the long-term behavior of linear, quadratic, and exponential functions, justifying their reasoning.",
+      "Student provides comprehensive and insightful analysis, drawing connections between graphical\/tabular data and the mathematical properties of each function."
+    ],
+    [
+      "Student cannot apply the concepts of linear, quadratic, and exponential growth to solve problems.",
+      "Student attempts to solve problems but struggles to set up appropriate models or interpret results.",
+      "Student can solve basic problems but needs guidance in selecting the correct model (linear, quadratic, or exponential).",
+      "Student can solve problems using linear, quadratic, and exponential models, but explanations may lack clarity.",
+      "Student can accurately solve problems, justifying the choice of model and interpreting the results in the context of the problem.",
+      "Student demonstrates exceptional problem-solving skills, creating sophisticated models and providing clear, concise explanations of the results and their implications."
+    ]
+  ]
+}

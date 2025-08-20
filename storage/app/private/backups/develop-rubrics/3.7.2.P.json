@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Identification of Reduction Strategies",
+    "Identification of Reuse Strategies",
+    "Identification of Recycling Strategies",
+    "Application to Home Environment",
+    "Application to School Environment",
+    "Application to Community Environment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any reduction strategies.",
+      "Identifies only one reduction strategy with limited understanding.",
+      "Identifies two reduction strategies with basic understanding.",
+      "Identifies three reduction strategies with moderate understanding.",
+      "Identifies four reduction strategies with a clear understanding and provides relevant examples.",
+      "Identifies multiple reduction strategies with a comprehensive understanding, providing insightful examples and demonstrating a commitment to implementation."
+    ],
+    [
+      "Does not identify any reuse strategies.",
+      "Identifies only one reuse strategy with limited understanding.",
+      "Identifies two reuse strategies with basic understanding.",
+      "Identifies three reuse strategies with moderate understanding.",
+      "Identifies four reuse strategies with a clear understanding and provides relevant examples.",
+      "Identifies multiple reuse strategies with a comprehensive understanding, providing insightful examples and demonstrating a commitment to implementation."
+    ],
+    [
+      "Does not identify any recycling strategies.",
+      "Identifies only one recycling strategy with limited understanding.",
+      "Identifies two recycling strategies with basic understanding.",
+      "Identifies three recycling strategies with moderate understanding.",
+      "Identifies four recycling strategies with a clear understanding and provides relevant examples.",
+      "Identifies multiple recycling strategies with a comprehensive understanding, providing insightful examples and demonstrating a commitment to implementation."
+    ],
+    [
+      "Does not suggest any application of strategies at home.",
+      "Suggests one vague application of strategies at home.",
+      "Suggests two basic applications of strategies at home.",
+      "Suggests three practical applications of strategies at home.",
+      "Suggests multiple effective applications of strategies at home with clear reasoning.",
+      "Suggests comprehensive and innovative applications of strategies at home, demonstrating a deep understanding of personal responsibility and environmental impact."
+    ],
+    [
+      "Does not suggest any application of strategies at school.",
+      "Suggests one vague application of strategies at school.",
+      "Suggests two basic applications of strategies at school.",
+      "Suggests three practical applications of strategies at school.",
+      "Suggests multiple effective applications of strategies at school with clear reasoning.",
+      "Suggests comprehensive and innovative applications of strategies at school, demonstrating a deep understanding of collective responsibility and environmental impact."
+    ],
+    [
+      "Does not suggest any application of strategies in the community.",
+      "Suggests one vague application of strategies in the community.",
+      "Suggests two basic applications of strategies in the community.",
+      "Suggests three practical applications of strategies in the community.",
+      "Suggests multiple effective applications of strategies in the community with clear reasoning.",
+      "Suggests comprehensive and innovative applications of strategies in the community, demonstrating a deep understanding of global responsibility and environmental impact."
+    ]
+  ]
+}

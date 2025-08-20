@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of strategies proposed for communicating healthy eating and physical activity needs at home.",
+    "Relevance and feasibility of strategies for communicating healthy eating and physical activity needs at school.",
+    "Applicability and impact of strategies for communicating healthy eating and physical activity needs in the community."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No strategies are proposed or the strategies are completely unrelated to healthy eating and physical activity needs at home.",
+      "Strategies are mentioned but are vague, unclear, or not practical for the home environment.",
+      "Strategies are somewhat relevant, but lack detail and may not be easily implemented at home.",
+      "Relevant strategies are identified with some detail, showing a basic understanding of the home environment's dynamics.",
+      "Well-thought-out strategies are presented, showing a good understanding of how to effectively communicate these needs at home, including consideration of family dynamics.",
+      "Highly effective and innovative strategies are detailed, demonstrating a comprehensive understanding of family dynamics, and showing exceptional insight into fostering positive change in the home environment."
+    ],
+    [
+      "No strategies are proposed, or the strategies are completely irrelevant to the school environment.",
+      "Strategies are mentioned but lack relevance to the school setting or are entirely unfeasible.",
+      "Strategies are generally relevant to the school environment, but lack detail or a clear understanding of school policies.",
+      "Strategies are relevant and show a basic understanding of the school environment and policies, with some consideration for feasibility.",
+      "Strategies are well-suited for the school environment, showing a good understanding of school policies and demonstrating practical feasibility.",
+      "Strategies are exceptionally well-tailored to the school environment, demonstrating an in-depth understanding of school policies, culture, and resources, while also offering innovative solutions."
+    ],
+    [
+      "No strategies are proposed, or the strategies are entirely inappropriate for the community setting.",
+      "Strategies are mentioned but are not applicable to the community or show a misunderstanding of community resources.",
+      "Strategies have some relevance to the community but lack detail or a clear understanding of community dynamics.",
+      "Strategies are relevant to the community and show a basic understanding of community resources, with some consideration for impact.",
+      "Strategies are well-suited for the community, demonstrating a good understanding of community resources and demonstrating potential positive impact.",
+      "Strategies are exceptionally well-tailored to the community, demonstrating an in-depth understanding of community needs and resources, while also offering innovative solutions with potential for significant positive impact."
+    ]
+  ]
+}

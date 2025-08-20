@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Family Changes",
+    "Description of Coping Strategies",
+    "Application of Strategies to Specific Changes",
+    "Overall Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any changes within the family.",
+      "Identifies one change within the family but lacks detail.",
+      "Identifies a few changes within the family with some explanation.",
+      "Identifies several changes within the family, providing a clear explanation for each.",
+      "Identifies numerous changes within the family, providing a thorough and insightful explanation for each.",
+      "Identifies and thoroughly explains numerous changes within the family, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "Unable to describe any coping strategies.",
+      "Describes one ineffective or inappropriate coping strategy.",
+      "Describes a few coping strategies, but they are basic and may not be effective.",
+      "Describes several coping strategies that are somewhat effective in managing family changes.",
+      "Describes a variety of effective coping strategies with clear explanations of how they can be applied.",
+      "Describes a comprehensive range of highly effective and innovative coping strategies, tailored to specific family changes, demonstrating exceptional insight."
+    ],
+    [
+      "Does not connect coping strategies to specific family changes.",
+      "Attempts to connect coping strategies but demonstrates a weak understanding of their application.",
+      "Connects some coping strategies to family changes, but the connections are not always clear or logical.",
+      "Clearly connects several coping strategies to specific family changes, explaining how they can be used to address the changes.",
+      "Provides a detailed and logical connection between coping strategies and family changes, demonstrating a strong understanding of their application.",
+      "Demonstrates an exceptional ability to tailor coping strategies to specific family changes, providing nuanced and insightful explanations of their application and potential outcomes."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat unclear and disorganized, making it challenging to follow.",
+      "Response is generally clear but could benefit from better organization and structure.",
+      "Response is clear, organized, and easy to follow, with a logical flow of information.",
+      "Response is exceptionally clear, well-organized, and demonstrates a strong command of language.",
+      "Response is masterfully crafted, with impeccable clarity, organization, and a sophisticated use of language that enhances the overall impact."
+    ]
+  ]
+}

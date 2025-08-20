@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Pressure Situations",
+    "Understanding of HIV and STD Risks",
+    "Clarity and Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any situations that could lead to pressure for sexual activity or risk of contracting HIV\/STDs.",
+      "Student identifies one situation vaguely related to pressure for sexual activity or HIV\/STD risk.",
+      "Student identifies a few situations, but descriptions lack detail or clarity regarding pressure or risk.",
+      "Student identifies several situations with moderate detail, showing some understanding of pressure and risk factors.",
+      "Student clearly describes multiple situations, demonstrating a strong understanding of the pressures and risks associated with sexual activity and HIV\/STDs.",
+      "Student provides comprehensive and insightful descriptions of various situations, demonstrating a nuanced understanding of social pressures, risk factors, and potential consequences related to sexual activity and HIV\/STDs. Demonstrates how intersectionality plays a role."
+    ],
+    [
+      "Student demonstrates no understanding of the risks associated with HIV and other STDs.",
+      "Student mentions HIV\/STDs but shows minimal understanding of how they are contracted or their potential consequences.",
+      "Student describes some basic risks associated with HIV\/STDs but lacks specific details or accurate information.",
+      "Student demonstrates a general understanding of HIV\/STD risks, including modes of transmission and potential health consequences.",
+      "Student accurately describes various risks associated with HIV and STDs, including transmission methods, prevention strategies, and potential long-term health effects.",
+      "Student demonstrates a comprehensive and accurate understanding of HIV\/STD risks, including detailed knowledge of transmission, prevention, treatment options, and the impact on individual and public health. They are able to differentiate between curable and incurable STDs."
+    ],
+    [
+      "The description is unclear, inaccurate, and difficult to understand.",
+      "The description contains significant inaccuracies and lacks clarity.",
+      "The description has some inaccuracies or lacks clarity in certain areas.",
+      "The description is mostly clear and accurate, with minor areas for improvement.",
+      "The description is clear, accurate, and well-organized.",
+      "The description is exceptionally clear, accurate, well-organized, and insightful, demonstrating a deep understanding of the subject matter."
+    ]
+  ]
+}

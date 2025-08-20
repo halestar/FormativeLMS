@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Emotional Health Components",
+    "Understanding of Mental Health Components",
+    "Connection Between Emotional and Mental Health",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the components of emotional health.",
+      "Identifies one or two components of emotional health with limited accuracy.",
+      "Identifies some components of emotional health but struggles to define them clearly.",
+      "Identifies key components of emotional health and provides basic definitions.",
+      "Clearly defines and explains the key components of emotional health with good accuracy.",
+      "Provides a comprehensive and nuanced explanation of the components of emotional health, demonstrating a deep understanding."
+    ],
+    [
+      "Demonstrates no understanding of the components of mental health.",
+      "Identifies one or two components of mental health with limited accuracy.",
+      "Identifies some components of mental health but struggles to define them clearly.",
+      "Identifies key components of mental health and provides basic definitions.",
+      "Clearly defines and explains the key components of mental health with good accuracy.",
+      "Provides a comprehensive and nuanced explanation of the components of mental health, demonstrating a deep understanding."
+    ],
+    [
+      "Fails to recognize any connection between emotional and mental health.",
+      "Suggests a vague connection between emotional and mental health without specifics.",
+      "Identifies a general connection between emotional and mental health but lacks detail.",
+      "Explains a basic connection between emotional and mental health with some supporting details.",
+      "Clearly explains the interconnectedness of emotional and mental health with relevant examples.",
+      "Articulates a sophisticated understanding of the interplay between emotional and mental health, providing insightful examples and demonstrating a holistic perspective."
+    ],
+    [
+      "Cannot apply the concept of emotional\/mental health to any real-life scenario.",
+      "Attempts to apply the concept but demonstrates significant misunderstandings.",
+      "Applies the concept to a simple scenario with limited accuracy.",
+      "Applies the concept to a variety of scenarios with reasonable accuracy.",
+      "Applies the concept thoughtfully and accurately to complex scenarios, demonstrating practical understanding.",
+      "Demonstrates exceptional ability to apply the concepts of emotional and mental health to diverse and challenging real-life scenarios, offering insightful perspectives."
+    ]
+  ]
+}

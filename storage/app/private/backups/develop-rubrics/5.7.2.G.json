@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Bloodborne Diseases and Transmission",
+    "Identification of Protective Measures",
+    "Application of Protective Measures in Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of bloodborne diseases or how they are transmitted.",
+      "Shows a minimal understanding of bloodborne diseases and transmission, with significant inaccuracies.",
+      "Displays a basic understanding of bloodborne diseases and transmission, but with some gaps in knowledge.",
+      "Exhibits a satisfactory understanding of bloodborne diseases and transmission, with minor inaccuracies.",
+      "Presents a comprehensive understanding of bloodborne diseases and their transmission methods.",
+      "Demonstrates an exceptional and nuanced understanding of bloodborne diseases, including modes of transmission, risk factors, and prevention strategies."
+    ],
+    [
+      "Unable to identify any protective measures against bloodborne diseases.",
+      "Identifies one or two protective measures, but with limited explanation or understanding.",
+      "Identifies some protective measures, but with incomplete information or understanding.",
+      "Identifies several protective measures and provides a general explanation of their use.",
+      "Identifies and accurately describes a range of protective measures against bloodborne diseases.",
+      "Identifies and comprehensively explains a wide range of protective measures, including their proper implementation and limitations."
+    ],
+    [
+      "Unable to apply protective measures to real-life scenarios.",
+      "Struggles to apply protective measures to real-life scenarios, with many errors.",
+      "Applies protective measures to some real-life scenarios, but with inconsistencies.",
+      "Generally applies protective measures correctly to real-life scenarios, with minor errors.",
+      "Consistently and accurately applies protective measures to a variety of real-life scenarios.",
+      "Expertly analyzes and applies protective measures in complex and varied real-life scenarios, demonstrating critical thinking and problem-solving skills."
+    ]
+  ]
+}

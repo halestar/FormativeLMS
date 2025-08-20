@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Nutritional Content: Assesses the student's ability to identify and understand the nutritional content of various foods.",
+    "Application in Various Settings: Evaluates the student's ability to apply knowledge of healthy food choices in different environments (e.g., school cafeteria, restaurants, home).",
+    "Consideration of Variety: Assesses the student's ability to select a variety of healthy foods, ensuring a balanced diet."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of nutritional content or healthy food choices.",
+      "Struggles to identify nutritional content and healthy choices, relying on inaccurate information.",
+      "Shows basic understanding of nutritional content but has difficulty applying it to real-world food choices.",
+      "Demonstrates a moderate understanding of nutritional content, able to identify some healthy choices with guidance.",
+      "Exhibits a strong understanding of nutritional content and can independently make healthy food choices.",
+      "Shows comprehensive understanding of nutritional content, can analyze and justify healthy food choices in various settings."
+    ],
+    [
+      "Unable to apply knowledge of healthy food choices in any setting.",
+      "Has difficulty applying knowledge of healthy food choices, even in familiar settings.",
+      "Can apply knowledge of healthy food choices in limited settings with significant prompting.",
+      "Applies knowledge of healthy food choices in some settings with moderate prompting.",
+      "Applies knowledge of healthy food choices in most settings independently.",
+      "Consistently and effectively applies knowledge of healthy food choices in a variety of settings, adapting to different constraints and opportunities."
+    ],
+    [
+      "Selects only one type of food, showing no consideration for variety or balance.",
+      "Chooses a limited range of foods, with minimal consideration for nutritional balance.",
+      "Selects foods from a few different food groups, but the diet lacks balance.",
+      "Demonstrates an effort to include a variety of foods, but the selection could be more balanced.",
+      "Selects a reasonably varied and balanced diet, with foods from most food groups.",
+      "Consistently selects a wide variety of healthy foods, ensuring a well-balanced and nutritious diet."
+    ]
+  ]
+}

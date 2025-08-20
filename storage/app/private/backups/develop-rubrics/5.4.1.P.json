@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of communication in conveying the health issue or emergency.",
+    "Appropriateness of the method used to seek help.",
+    "Clarity and accuracy of information provided when seeking help."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to communicate the health issue or emergency.",
+      "Communication is unclear and does not effectively convey the health issue or emergency; key details are missing.",
+      "Communication is somewhat clear but lacks important details; the health issue or emergency is partially conveyed.",
+      "Communication is clear and conveys the health issue or emergency with sufficient detail.",
+      "Communication is very clear, detailed, and effectively conveys the health issue or emergency, demonstrating good articulation.",
+      "Communication is exceptionally clear, detailed, and effectively conveys the health issue or emergency with excellent articulation and precision; demonstrates a sophisticated understanding of communication techniques."
+    ],
+    [
+      "Uses a completely inappropriate method to seek help.",
+      "The method used to seek help is inappropriate for the situation and may cause further harm or delay.",
+      "The method used to seek help is partially appropriate but may not be the most effective choice.",
+      "The method used to seek help is appropriate for the situation and likely to yield positive results.",
+      "The method used to seek help is highly appropriate and demonstrates a thoughtful understanding of available resources.",
+      "The method used to seek help is exceptionally appropriate, demonstrating a deep understanding of available resources and strategic decision-making in seeking assistance."
+    ],
+    [
+      "Provides no information or completely inaccurate information.",
+      "Provides unclear and\/or inaccurate information, hindering the ability to receive appropriate help.",
+      "Provides some information, but key details are missing or inaccurate, limiting the effectiveness of the help-seeking process.",
+      "Provides clear and accurate information necessary for receiving appropriate help.",
+      "Provides very clear and accurate information, including relevant details that facilitate the help-seeking process.",
+      "Provides exceptionally clear, accurate, and comprehensive information, anticipating potential questions and facilitating an efficient and effective help-seeking process."
+    ]
+  ]
+}

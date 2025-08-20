@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Use of punctuation (comma, ellipsis, dash) to indicate a pause or break",
+    "Use of an ellipsis to indicate an omission",
+    "Correct spelling"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use punctuation to indicate a pause or break.",
+      "Incorrect or inconsistent use of punctuation; fails to indicate pauses or breaks effectively.",
+      "Uses commas, ellipsis, or dashes, but with errors that occasionally disrupt the flow.",
+      "Generally uses commas, ellipsis, and dashes correctly to indicate pauses or breaks, with minor inconsistencies.",
+      "Uses commas, ellipsis, and dashes effectively to create pauses and breaks, enhancing clarity and rhythm.",
+      "Masterfully uses a variety of punctuation marks (commas, ellipsis, dashes) to create nuanced pauses and breaks that significantly enhance the text's rhythm and clarity."
+    ],
+    [
+      "No attempt to use an ellipsis to indicate an omission.",
+      "Incorrect use of ellipsis or fails to indicate omissions clearly.",
+      "Uses ellipsis to indicate omissions, but with errors in formatting or context.",
+      "Generally uses ellipsis correctly to indicate omissions, with minor inconsistencies.",
+      "Uses ellipsis effectively to indicate omissions, maintaining clarity and flow.",
+      "Uses ellipsis skillfully to indicate omissions, enhancing the text by creating implied meaning and maintaining a smooth, logical flow."
+    ],
+    [
+      "Frequent spelling errors that impede understanding.",
+      "Numerous spelling errors that distract the reader and make the text difficult to understand.",
+      "Several spelling errors that occasionally disrupt the reader.",
+      "Few spelling errors that do not significantly impede understanding.",
+      "Very few spelling errors; demonstrates strong spelling skills.",
+      "No spelling errors; demonstrates mastery of spelling conventions."
+    ]
+  ]
+}

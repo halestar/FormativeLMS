@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Responsibilities",
+    "Understanding of Privileges",
+    "Analysis of Interrelation Between Responsibilities and Privileges"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any responsibilities of young adults.",
+      "Identifies one or two basic responsibilities with limited accuracy.",
+      "Identifies some responsibilities of young adults, but lacks detail or clarity.",
+      "Identifies several key responsibilities of young adults with reasonable accuracy.",
+      "Clearly identifies and explains multiple responsibilities of young adults, demonstrating a good understanding.",
+      "Thoroughly identifies and analyzes a wide range of responsibilities of young adults, showing excellent understanding and insight."
+    ],
+    [
+      "Fails to identify any privileges of young adults.",
+      "Identifies one or two basic privileges with limited accuracy.",
+      "Identifies some privileges of young adults, but lacks detail or clarity.",
+      "Identifies several key privileges of young adults with reasonable accuracy.",
+      "Clearly identifies and explains multiple privileges of young adults, demonstrating a good understanding.",
+      "Thoroughly identifies and analyzes a wide range of privileges of young adults, showing excellent understanding and insight."
+    ],
+    [
+      "Shows no understanding of how responsibilities and privileges are related.",
+      "Attempts to connect responsibilities and privileges, but connection is weak or inaccurate.",
+      "Shows a basic understanding of the relationship between responsibilities and privileges, but lacks depth.",
+      "Explains how responsibilities and privileges relate to each other with some clarity.",
+      "Clearly analyzes the interdependence of responsibilities and privileges of young adults.",
+      "Demonstrates a sophisticated understanding of the complex relationship between responsibilities and privileges, providing insightful analysis."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of risk factors leading to vision damage.",
+    "Identification of preventative measures for vision damage.",
+    "Identification of risk factors leading to hearing damage.",
+    "Identification of preventative measures for hearing damage."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No risk factors are identified.",
+      "Student identifies one risk factor for vision damage.",
+      "Student identifies some risk factors for vision damage, but lacks detail or accuracy.",
+      "Student identifies several risk factors for vision damage with reasonable accuracy.",
+      "Student comprehensively identifies common risk factors and provides accurate details on how they lead to damage.",
+      "Student thoroughly identifies common risk factors, accurately details their impact, and identifies uncommon risk factors."
+    ],
+    [
+      "No preventative measures are identified.",
+      "Student identifies one preventative measure for vision damage.",
+      "Student identifies some preventative measures for vision damage, but lacks detail or accuracy.",
+      "Student identifies several preventative measures for vision damage with reasonable accuracy.",
+      "Student comprehensively identifies common preventative measures and provides accurate details on how they prevent damage.",
+      "Student thoroughly identifies common preventative measures, accurately details their preventative action, and identifies less common preventative measures."
+    ],
+    [
+      "No risk factors are identified.",
+      "Student identifies one risk factor for hearing damage.",
+      "Student identifies some risk factors for hearing damage, but lacks detail or accuracy.",
+      "Student identifies several risk factors for hearing damage with reasonable accuracy.",
+      "Student comprehensively identifies common risk factors and provides accurate details on how they lead to damage.",
+      "Student thoroughly identifies common risk factors, accurately details their impact, and identifies uncommon risk factors."
+    ],
+    [
+      "No preventative measures are identified.",
+      "Student identifies one preventative measure for hearing damage.",
+      "Student identifies some preventative measures for hearing damage, but lacks detail or accuracy.",
+      "Student identifies several preventative measures for hearing damage with reasonable accuracy.",
+      "Student comprehensively identifies common preventative measures and provides accurate details on how they prevent damage.",
+      "Student thoroughly identifies common preventative measures, accurately details their preventative action, and identifies less common preventative measures."
+    ]
+  ]
+}

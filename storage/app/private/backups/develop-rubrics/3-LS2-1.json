@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Constructs an argument about how group behavior helps animals survive, using provided evidence.",
+    "Identifies and explains the cause-and-effect relationships within animal group behaviors.",
+    "Uses scientific reasoning to explain how being part of a group helps animals obtain food, defend themselves, and cope with changes."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No argument is presented.",
+      "An attempt to construct an argument is made, but it lacks a claim and\/or is not based on evidence.",
+      "An argument is constructed with a claim, but the evidence is weak, irrelevant, or missing.",
+      "An argument is constructed with a claim and some relevant evidence, but the reasoning linking the evidence to the claim is unclear or incomplete.",
+      "A clear and coherent argument is constructed with a claim, relevant evidence, and logical reasoning linking the evidence to the claim. There might be minor gaps in the explanation.",
+      "A well-developed and compelling argument is constructed with a clear claim, strong and relevant evidence, and thorough reasoning that clearly explains how the evidence supports the claim. Demonstrates a deep understanding of cause and effect relationships within social animal groups."
+    ],
+    [
+      "Cause and effect relationships are not identified or explained.",
+      "Cause and effect are mentioned, but not in the context of animal group behavior.",
+      "A cause or effect is identified, but the relationship is not clear or is inaccurate.",
+      "A cause and effect relationship is identified, but the explanation is superficial.",
+      "Relevant cause and effect relationships are identified and explained with reasonable clarity.",
+      "Demonstrates a thorough understanding of cause and effect relationships in animal group behavior, including complex interactions and potential consequences. Examples are clearly articulated."
+    ],
+    [
+      "No scientific reasoning is provided.",
+      "An attempt to use scientific reasoning is made, but is inaccurate or irrelevant.",
+      "Scientific reasoning is used, but only one benefit of group behavior is addressed.",
+      "Scientific reasoning is used to address two benefits of group behavior.",
+      "Scientific reasoning is used to address all three benefits of group behavior: obtaining food, defending themselves, and coping with changes.",
+      "Scientific reasoning is used effectively and comprehensively to explain how group behavior helps animals with food, defense, and coping with changes, demonstrating a strong understanding of the underlying principles and providing detailed examples."
+    ]
+  ]
+}

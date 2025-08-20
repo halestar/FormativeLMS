@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Nominal Data",
+    "Understanding of Real Data",
+    "Ability to Distinguish Between Nominal and Real Data"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of nominal data. They cannot define it or provide relevant examples.",
+      "Student shows minimal understanding of nominal data. Their definition is vague or incomplete, and examples are lacking or incorrect.",
+      "Student demonstrates a basic understanding of nominal data. They can provide a simple definition and may offer a somewhat relevant example.",
+      "Student shows a satisfactory understanding of nominal data. They provide a clear definition and can offer a relevant example. However, explanation might lack depth.",
+      "Student demonstrates a strong understanding of nominal data. They provide a precise definition and offer insightful examples, showcasing a solid grasp of the concept.",
+      "Student demonstrates an exceptional understanding of nominal data. They provide a comprehensive definition, offer multiple relevant examples, and can explain nuances of nominal data effectively."
+    ],
+    [
+      "Student does not demonstrate an understanding of real data. They cannot define it or provide relevant examples.",
+      "Student shows minimal understanding of real data. Their definition is vague or incomplete, and examples are lacking or incorrect.",
+      "Student demonstrates a basic understanding of real data. They can provide a simple definition and may offer a somewhat relevant example.",
+      "Student shows a satisfactory understanding of real data. They provide a clear definition and can offer a relevant example. However, explanation might lack depth.",
+      "Student demonstrates a strong understanding of real data. They provide a precise definition and offer insightful examples, showcasing a solid grasp of the concept.",
+      "Student demonstrates an exceptional understanding of real data. They provide a comprehensive definition, offer multiple relevant examples, and can explain nuances of real data effectively."
+    ],
+    [
+      "Student cannot distinguish between nominal and real data. They treat both concepts as identical or are unable to differentiate them.",
+      "Student struggles to distinguish between nominal and real data. They show confusion between the two concepts and are unable to provide clear differences.",
+      "Student demonstrates a limited ability to distinguish between nominal and real data. They can identify one or two basic differences but struggle with more complex distinctions.",
+      "Student can adequately distinguish between nominal and real data. They identify several key differences, but their explanation may lack depth or clarity.",
+      "Student clearly distinguishes between nominal and real data. They provide a comprehensive comparison of the two concepts, highlighting key differences with clarity and precision.",
+      "Student expertly distinguishes between nominal and real data. They demonstrate a nuanced understanding of the relationship between the two, providing insightful analysis and examples that showcase mastery of the concepts."
+    ]
+  ]
+}

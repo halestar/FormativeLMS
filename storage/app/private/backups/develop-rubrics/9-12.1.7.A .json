@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the immediate and long-term health consequences of binge drinking.",
+    "Ability to relate binge drinking to specific diseases and disorders.",
+    "Depth of analysis regarding the biological mechanisms affected by binge drinking."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the consequences of binge drinking.",
+      "Shows a limited understanding of one or two consequences of binge drinking.",
+      "Identifies some immediate consequences but lacks detail on long-term effects, or vice versa.",
+      "Describes several consequences of binge drinking, including short-term and long-term effects, but lacks specific details.",
+      "Explains the immediate and long-term consequences of binge drinking with reasonable detail and accuracy.",
+      "Provides a comprehensive analysis of the immediate and long-term consequences of binge drinking, demonstrating a deep understanding of the subject matter."
+    ],
+    [
+      "Cannot relate binge drinking to any specific diseases or disorders.",
+      "Mentions one or two diseases or disorders that may be related to binge drinking, but without explanation.",
+      "Identifies a few diseases and disorders related to binge drinking, but the connection is superficial.",
+      "Connects binge drinking to several diseases and disorders with some explanation of the relationship.",
+      "Clearly explains the relationship between binge drinking and specific diseases such as liver, pancreatic, and cardiovascular diseases.",
+      "Provides a detailed and nuanced explanation of the relationship between binge drinking and a wide range of diseases and disorders, including cancer, neurological disorders, and reproductive system disorders."
+    ],
+    [
+      "Shows no understanding of the biological mechanisms affected by binge drinking.",
+      "Mentions that binge drinking affects the body, but without any specific biological details.",
+      "Identifies one or two biological mechanisms (e.g., liver function) that are affected by binge drinking, but explanation is minimal.",
+      "Explains how binge drinking impacts several biological mechanisms, but lacks in-depth analysis.",
+      "Analyzes how binge drinking disrupts various biological mechanisms and body systems with reasonable depth.",
+      "Offers a comprehensive analysis of how binge drinking affects biological mechanisms, demonstrating a sophisticated understanding of the physiological impacts."
+    ]
+  ]
+}

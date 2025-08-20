@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Trusted Adults",
+    "Understanding of Support Resources",
+    "Confidence in Accessing Support"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any trusted adults or provides inaccurate information.",
+      "Student identifies one trusted adult but struggles to explain why they are trustworthy or appropriate to approach.",
+      "Student identifies 1-2 trusted adults but provides limited explanation of their roles and availability.",
+      "Student identifies 2-3 trusted adults and adequately explains their roles in providing support for mental, emotional, and social health.",
+      "Student identifies 3-4 trusted adults, clearly explaining their roles and potential availability for support.",
+      "Student confidently identifies multiple trusted adults across home, school, and community, thoroughly explaining their roles, availability, and specific areas of expertise in supporting mental, emotional, and social health."
+    ],
+    [
+      "Student demonstrates no understanding of the types of support adults can provide.",
+      "Student demonstrates a basic understanding of support but cannot clearly differentiate types of support.",
+      "Student shows some understanding of different types of support (e.g., listening, advice), but application is limited.",
+      "Student can differentiate between various types of support and provides relevant examples of how these adults can assist with specific health concerns.",
+      "Student clearly articulates different types of support and provides detailed examples tailored to mental, emotional, and social health needs.",
+      "Student demonstrates a comprehensive understanding of support resources, including specific expertise and when to seek different types of assistance for various mental, emotional, and social health challenges."
+    ],
+    [
+      "Student expresses significant hesitation or reluctance to approach any trusted adults.",
+      "Student expresses some reluctance or uncertainty about accessing support, even when prompted.",
+      "Student indicates willingness to approach trusted adults but lacks a clear plan or strategy.",
+      "Student demonstrates a general willingness to seek help and can outline basic steps for approaching a trusted adult.",
+      "Student demonstrates confidence in accessing support and can articulate specific strategies for initiating conversations and seeking assistance.",
+      "Student confidently articulates multiple strategies for accessing support and demonstrates proactive planning for seeking help from trusted adults in various situations."
+    ]
+  ]
+}

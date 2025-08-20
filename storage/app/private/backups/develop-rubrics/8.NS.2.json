@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Rational and Irrational Numbers",
+    "Approximation of Irrational Numbers",
+    "Comparison of Irrational Numbers",
+    "Location on a Number Line",
+    "Estimation of Expressions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot differentiate between rational and irrational numbers.",
+      "Student shows limited understanding of rational and irrational numbers; struggles to classify numbers correctly.",
+      "Student can differentiate between rational and irrational numbers in simple cases, but makes mistakes with more complex numbers or representations.",
+      "Student demonstrates a solid understanding of rational and irrational numbers and can classify most numbers correctly.",
+      "Student demonstrates a strong understanding of rational and irrational numbers, accurately classifying numbers and explaining the difference between them.",
+      "Student demonstrates a comprehensive understanding of rational and irrational numbers, providing clear explanations and examples, and accurately classifying all numbers presented."
+    ],
+    [
+      "Student cannot approximate irrational numbers using rational numbers.",
+      "Student attempts to approximate irrational numbers but struggles to find suitable rational approximations.",
+      "Student can approximate irrational numbers to a limited degree, but the approximations are not very accurate.",
+      "Student can approximate irrational numbers using rational numbers with reasonable accuracy.",
+      "Student accurately approximates irrational numbers using rational numbers and can explain the process used.",
+      "Student expertly approximates irrational numbers using rational numbers, providing accurate approximations and justifying the method with clear mathematical reasoning."
+    ],
+    [
+      "Student cannot compare the size of irrational numbers.",
+      "Student struggles to compare the size of irrational numbers, even with guidance.",
+      "Student can compare the size of some irrational numbers using approximations, but makes mistakes.",
+      "Student can generally compare the size of irrational numbers using rational approximations.",
+      "Student accurately compares the size of irrational numbers using rational approximations and explains their reasoning.",
+      "Student expertly compares the size of irrational numbers using rational approximations, providing clear explanations and justifications for their comparisons."
+    ],
+    [
+      "Student cannot locate irrational numbers on a number line.",
+      "Student attempts to locate irrational numbers on a number line but struggles with accuracy.",
+      "Student can locate irrational numbers on a number line with limited accuracy.",
+      "Student can approximately locate irrational numbers on a number line using rational approximations.",
+      "Student accurately locates irrational numbers on a number line using rational approximations.",
+      "Student precisely locates irrational numbers on a number line, demonstrating a strong understanding of their magnitude and position relative to rational numbers."
+    ],
+    [
+      "Student cannot estimate the value of expressions involving irrational numbers.",
+      "Student struggles to estimate the value of expressions involving irrational numbers.",
+      "Student can estimate the value of simple expressions involving irrational numbers, but with limited accuracy.",
+      "Student can estimate the value of expressions involving irrational numbers with reasonable accuracy.",
+      "Student accurately estimates the value of expressions involving irrational numbers using rational approximations.",
+      "Student expertly estimates the value of complex expressions involving irrational numbers, providing accurate estimations and justifying their approach with clear mathematical reasoning."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Coping Strategies",
+    "Application to Group Situations",
+    "Effectiveness of Coping Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any coping strategies.",
+      "Identifies one ineffective or inappropriate coping strategy.",
+      "Identifies one relevant coping strategy, but it is poorly explained.",
+      "Identifies two relevant coping strategies with basic explanations.",
+      "Identifies three relevant coping strategies with clear explanations.",
+      "Identifies multiple relevant coping strategies with detailed explanations, demonstrating a thorough understanding."
+    ],
+    [
+      "Unable to apply coping strategies to group scenarios.",
+      "Attempts to apply a coping strategy but the application is illogical or inappropriate.",
+      "Applies a coping strategy to a group situation, but the connection is vague.",
+      "Applies coping strategies to a group situation and the connection is somewhat evident.",
+      "Clearly applies coping strategies to relevant group scenarios related to alcohol, tobacco, or other drug use.",
+      "Skillfully applies coping strategies to complex group scenarios related to alcohol, tobacco, or other drug use, showing adaptability and awareness."
+    ],
+    [
+      "Proposed strategies are counterproductive or harmful.",
+      "Proposed strategies are unlikely to be effective in most situations.",
+      "Proposed strategies have a low chance of success and show a misunderstanding of group dynamics.",
+      "Proposed strategies have a moderate chance of success, but with limitations.",
+      "Proposed strategies are likely to be effective and promote positive outcomes in group situations.",
+      "Proposed strategies are highly effective, promoting resilience and positive decision-making within group situations, and accounts for long-term effectiveness."
+    ]
+  ]
+}

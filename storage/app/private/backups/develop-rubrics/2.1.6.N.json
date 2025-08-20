@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Germ Sources and Spread",
+    "Application of Safe Food Handling Practices",
+    "Knowledge of Proper Cooking and Storage Temperatures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any sources of germs or how they spread to food.",
+      "Identifies one potential source of germs or a vague method of spread to food.",
+      "Identifies some common sources of germs (e.g., raw meat, unclean surfaces) and a basic method of spread (e.g., direct contact).",
+      "Identifies several sources of germs and explains how they can spread to food through direct and indirect contact.",
+      "Clearly explains multiple sources of germs and comprehensively describes various methods of contamination, including cross-contamination.",
+      "Demonstrates a thorough and nuanced understanding of germ sources, transmission pathways, and factors influencing germ growth on food, providing detailed examples."
+    ],
+    [
+      "Does not mention any safe food handling practices.",
+      "Mentions one safe food handling practice without explaining its purpose.",
+      "Lists a few safe food handling practices (e.g., washing hands, cooking thoroughly) but lacks detail.",
+      "Describes several key safe food handling practices (e.g., proper handwashing, cooking temperatures, refrigeration) and explains their importance in preventing contamination.",
+      "Clearly explains how to implement a range of safe food handling practices at each stage of food preparation, from purchasing to storage.",
+      "Presents a comprehensive and practical strategy for maintaining food safety, integrating multiple safe handling practices and anticipating potential risks with detailed explanations."
+    ],
+    [
+      "Demonstrates no understanding of the importance of temperature in food safety.",
+      "Mentions that cooking or refrigeration is important but does not provide specific information.",
+      "Provides a general idea of safe cooking and storage temperatures but with inaccuracies.",
+      "Identifies correct temperature ranges for cooking and storing common foods and explains why these temperatures are necessary to kill germs or slow their growth.",
+      "Accurately specifies safe temperatures for a variety of foods and clearly explains the scientific principles behind temperature control for preventing bacterial growth.",
+      "Exhibits expert knowledge of temperature's role in food safety, including precise temperature guidelines, factors affecting temperature control, and strategies for maintaining optimal temperatures with supporting evidence."
+    ]
+  ]
+}

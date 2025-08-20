@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Analysis of Pictorial Data",
+    "Identification of Relationships Not Evident in Fully Formed Anatomy",
+    "Use of Evidence from Text"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze the provided pictorial data of embryological development.",
+      "Provides a superficial analysis, merely describing the pictures without comparing or identifying relationships.",
+      "Identifies some similarities or differences in the embryological development across species, but lacks depth or accuracy.",
+      "Compares patterns of similarities in embryological development across multiple species, but struggles to connect these to broader relationships.",
+      "Analyzes displays of pictorial data, comparing patterns of similarities in the embryological development across multiple species to identify relationships.",
+      "Performs a comprehensive analysis of pictorial data, identifying subtle patterns and relationships in embryological development across species, and explaining the significance of these relationships."
+    ],
+    [
+      "Fails to recognize that embryological development can reveal relationships not visible in fully formed anatomy.",
+      "Acknowledges that embryological development might show different relationships but does not provide any examples or reasoning.",
+      "Identifies a basic relationship revealed by embryological development but struggles to articulate why it is not evident in the fully formed anatomy.",
+      "Explains a relationship revealed by embryological development that is not obvious in the fully formed anatomy, providing a limited explanation.",
+      "Clearly identifies and explains relationships revealed by embryological development that are not evident in the fully formed anatomy, providing sound reasoning.",
+      "Masterfully elucidates complex relationships revealed by embryological development, providing insightful explanations as to why these relationships are obscured or absent in the fully formed anatomy."
+    ],
+    [
+      "No textual evidence is provided.",
+      "Irrelevant textual evidence is provided.",
+      "Limited textual evidence is provided.",
+      "Appropriate textual evidence is provided to support claims.",
+      "Strong textual evidence is provided to support claims.",
+      "Compelling textual evidence is provided to support claims."
+    ]
+  ]
+}

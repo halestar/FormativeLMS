@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation: How accurately does the student's model depict the flow of energy from the sun to plants and then to animals?",
+    "Clarity of Explanation: How well does the student explain the processes of energy transfer and transformation in their model?",
+    "Use of Scientific Vocabulary: How appropriately and accurately does the student use scientific vocabulary related to energy and its transformations?",
+    "Connections to Real-World Applications: How well does the student connect the concept of energy flow to real-world applications, such as food production or ecosystem health?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of the energy flow.",
+      "The model demonstrates a limited understanding of the energy flow, with significant inaccuracies or omissions.",
+      "The model shows a basic understanding of the energy flow but contains some inaccuracies or lacks detail.",
+      "The model is mostly accurate in representing the energy flow from the sun to plants and animals, with minor omissions or inaccuracies.",
+      "The model accurately represents the energy flow, demonstrating a strong understanding of the processes involved.",
+      "The model is exceptionally accurate and detailed, showing a comprehensive understanding of the energy flow and its transformations, including relevant details."
+    ],
+    [
+      "The explanation is absent or incomprehensible, showing no understanding of the energy transfer processes.",
+      "The explanation is unclear and demonstrates a weak understanding of how energy is transferred and transformed.",
+      "The explanation is somewhat clear but lacks detail and may contain some inaccuracies.",
+      "The explanation is clear and mostly accurate, providing a reasonable description of the energy transfer processes.",
+      "The explanation is very clear, accurate, and provides a detailed description of the energy transfer and transformation processes.",
+      "The explanation is exceptionally clear, insightful, and comprehensive, demonstrating a deep understanding of the energy transformations and their significance."
+    ],
+    [
+      "The student uses no relevant scientific vocabulary or uses it incorrectly.",
+      "The student uses limited scientific vocabulary, and its application is often inaccurate.",
+      "The student uses some scientific vocabulary, but its application may be inconsistent or not fully accurate.",
+      "The student generally uses scientific vocabulary accurately and appropriately.",
+      "The student consistently uses scientific vocabulary accurately and effectively to explain concepts.",
+      "The student demonstrates a mastery of scientific vocabulary, using it precisely and effectively to convey complex ideas and nuances related to energy transformations."
+    ],
+    [
+      "No attempt is made to connect the model or explanation to real-world applications.",
+      "The connection to real-world applications is vague and unclear.",
+      "The student makes a basic attempt to connect the concept to real-world applications, but the connection is weak.",
+      "The student makes a clear connection to relevant real-world applications.",
+      "The student provides a detailed and insightful connection to real-world applications, demonstrating a broader understanding.",
+      "The student offers an exceptionally insightful analysis of the connections to real-world applications, showcasing a comprehensive understanding of the broader implications of energy flow in ecosystems."
+    ]
+  ]
+}

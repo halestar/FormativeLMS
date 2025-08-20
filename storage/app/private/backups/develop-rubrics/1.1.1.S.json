@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Safe Places",
+    "Identification of Unsafe Places",
+    "Characteristics Describing Safe Places",
+    "Characteristics Describing Unsafe Places"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any safe places or provides inaccurate information.",
+      "Student identifies only one safe place with limited accuracy.",
+      "Student identifies a few safe places but lacks detail or provides some inaccuracies.",
+      "Student identifies several safe places with reasonable accuracy and some detail.",
+      "Student identifies most safe places with good accuracy and provides specific details.",
+      "Student comprehensively identifies safe places with excellent accuracy, providing thorough and insightful details."
+    ],
+    [
+      "Student cannot identify any unsafe places or provides inaccurate information.",
+      "Student identifies only one unsafe place with limited accuracy.",
+      "Student identifies a few unsafe places but lacks detail or provides some inaccuracies.",
+      "Student identifies several unsafe places with reasonable accuracy and some detail.",
+      "Student identifies most unsafe places with good accuracy and provides specific details.",
+      "Student comprehensively identifies unsafe places with excellent accuracy, providing thorough and insightful details."
+    ],
+    [
+      "Student fails to describe any characteristics of safe places or provides inaccurate descriptions.",
+      "Student describes only one characteristic of safe places with limited accuracy.",
+      "Student describes a few characteristics of safe places but lacks detail or provides some inaccuracies.",
+      "Student describes several characteristics of safe places with reasonable accuracy and some detail.",
+      "Student describes most characteristics of safe places with good accuracy and provides specific details.",
+      "Student comprehensively describes the characteristics of safe places with excellent accuracy, providing thorough and insightful details."
+    ],
+    [
+      "Student fails to describe any characteristics of unsafe places or provides inaccurate descriptions.",
+      "Student describes only one characteristic of unsafe places with limited accuracy.",
+      "Student describes a few characteristics of unsafe places but lacks detail or provides some inaccuracies.",
+      "Student describes several characteristics of unsafe places with reasonable accuracy and some detail.",
+      "Student describes most characteristics of unsafe places with good accuracy and provides specific details.",
+      "Student comprehensively describes the characteristics of unsafe places with excellent accuracy, providing thorough and insightful details."
+    ]
+  ]
+}

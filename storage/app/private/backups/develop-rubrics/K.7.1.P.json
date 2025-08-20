@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Demonstrates proper tooth brushing technique.",
+    "Demonstrates proper flossing technique.",
+    "Describes the importance of regular dental check-ups.",
+    "Demonstrates or describes appropriate personal hygiene practices (e.g., handwashing, showering, etc.)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No demonstration of tooth brushing technique or describes incorrect methods.",
+      "Demonstrates some elements of tooth brushing but misses key techniques.",
+      "Demonstrates basic tooth brushing technique with minor inconsistencies.",
+      "Demonstrates good tooth brushing technique with occasional attention to detail.",
+      "Demonstrates proper tooth brushing technique effectively and consistently.",
+      "Demonstrates exceptional tooth brushing technique with precise attention to detail, including hard-to-reach areas."
+    ],
+    [
+      "No demonstration of flossing technique or describes incorrect methods.",
+      "Demonstrates some elements of flossing but misses key techniques or avoids gums.",
+      "Demonstrates basic flossing technique with minor inconsistencies; some gum contact.",
+      "Demonstrates good flossing technique, including between all teeth and gentle gum contact.",
+      "Demonstrates proper flossing technique effectively and consistently, with attention to gum line.",
+      "Demonstrates exceptional flossing technique with precise attention to detail, including proper grip and technique to minimize gum irritation."
+    ],
+    [
+      "Does not mention the importance of regular dental check-ups.",
+      "Mentions dental check-ups but doesn't explain the reasons for them.",
+      "Briefly describes the importance of dental check-ups but lacks detail.",
+      "Describes the importance of regular dental check-ups and some benefits.",
+      "Clearly articulates the importance of regular dental check-ups, including preventative measures.",
+      "Explains the importance of regular dental check-ups in detail, including preventative measures, early detection, and specific procedures."
+    ],
+    [
+      "No demonstration or description of personal hygiene practices.",
+      "Demonstrates or describes a limited number of hygiene practices, lacking detail.",
+      "Demonstrates or describes some basic hygiene practices with minor inconsistencies.",
+      "Demonstrates or describes good personal hygiene practices with attention to frequency and methods.",
+      "Demonstrates or describes appropriate personal hygiene practices effectively and consistently.",
+      "Demonstrates or describes exceptional personal hygiene practices with precise attention to detail, including specific situations and products."
+    ]
+  ]
+}

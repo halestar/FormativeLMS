@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Barriers",
+    "Solution Development",
+    "Feasibility and Adaptability"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any barriers to healthy eating and physical activity.",
+      "Identifies one or two basic barriers with limited detail.",
+      "Identifies several barriers but lacks depth in explaining their impact.",
+      "Identifies most relevant barriers to healthy eating and physical activity, providing some explanation of their impact.",
+      "Clearly identifies and explains relevant barriers to healthy eating and physical activity, demonstrating a good understanding of their impact.",
+      "Thoroughly identifies, explains, and contextualizes complex barriers to healthy eating and physical activity, demonstrating a comprehensive understanding of their impact on diverse populations."
+    ],
+    [
+      "No solutions are proposed or solutions are completely impractical.",
+      "Proposes one or two superficial solutions with no practical application.",
+      "Proposes several solutions that are somewhat practical but lack detail or feasibility.",
+      "Proposes solutions that address some of the identified barriers and are generally practical with some supporting details.",
+      "Proposes well-thought-out solutions that directly address identified barriers and are practical with supporting details and considerations for implementation.",
+      "Develops innovative, practical, and comprehensive solutions that directly address identified barriers, including detailed implementation plans, resource considerations, and potential impact assessments."
+    ],
+    [
+      "Proposed solutions are completely unfeasible or irrelevant.",
+      "Solutions show minimal consideration for feasibility or adaptability.",
+      "Solutions address feasibility and adaptability in a limited or superficial way.",
+      "Solutions consider some aspects of feasibility and adaptability, such as resource availability and community needs.",
+      "Solutions demonstrate a strong understanding of feasibility and adaptability, considering various factors such as resources, community needs, and cultural contexts.",
+      "Solutions are highly feasible and adaptable, demonstrating a sophisticated understanding of various contextual factors, including resource optimization, community engagement, and cultural sensitivity, with plans for ongoing evaluation and adjustment."
+    ]
+  ]
+}

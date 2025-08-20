@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Emergency Situations",
+    "Comprehension of Emergency Characteristics",
+    "Ability to Prioritize Emergency Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any emergency situations accurately.",
+      "Identifies only one emergency situation accurately.",
+      "Identifies some emergency situations accurately, but misses crucial details.",
+      "Identifies most emergency situations accurately, with minor omissions.",
+      "Identifies emergency situations accurately and provides essential details.",
+      "Accurately identifies a comprehensive range of emergency situations, providing detailed and precise information."
+    ],
+    [
+      "Demonstrates no understanding of the characteristics of emergency situations.",
+      "Shows minimal understanding of the characteristics of an emergency.",
+      "Understands some characteristics, but lacks depth in comprehension.",
+      "Demonstrates a good understanding of the common characteristics of emergencies.",
+      "Exhibits a strong understanding of the characteristics of emergency situations.",
+      "Demonstrates expert-level comprehension of emergency characteristics, and can apply them to novel situations."
+    ],
+    [
+      "Unable to prioritize emergency situations.",
+      "Struggles to prioritize emergency situations effectively.",
+      "Can prioritize simple emergency scenarios, but struggles with complex ones.",
+      "Prioritizes most emergency situations appropriately.",
+      "Prioritizes emergency situations effectively, considering all relevant factors.",
+      "Expertly prioritizes complex emergency situations, demonstrating keen analytical skills."
+    ]
+  ]
+}

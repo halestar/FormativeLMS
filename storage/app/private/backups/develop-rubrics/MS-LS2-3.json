@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model",
+    "Representation of Energy Transfer",
+    "Representation of Matter Cycling",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or contains significant inaccuracies regarding the cycling of matter and flow of energy in an ecosystem.",
+      "The model demonstrates a limited understanding of the cycling of matter and flow of energy, with several inaccuracies.",
+      "The model shows a basic understanding of the cycling of matter and flow of energy, but contains some inaccuracies or omissions.",
+      "The model accurately represents the cycling of matter and flow of energy among most living and nonliving parts of an ecosystem.",
+      "The model accurately represents the cycling of matter and flow of energy among all living and nonliving parts of an ecosystem, with clear labels and explanations.",
+      "The model accurately and comprehensively represents the cycling of matter and flow of energy, including detailed interactions and boundaries of the ecosystem."
+    ],
+    [
+      "The model does not represent energy transfer within the ecosystem.",
+      "The model attempts to represent energy transfer, but it is unclear or inaccurate.",
+      "The model partially represents energy transfer between some components of the ecosystem.",
+      "The model accurately shows energy transfer between producers, consumers, and decomposers.",
+      "The model accurately depicts energy transfer and includes the role of decomposers in recycling nutrients.",
+      "The model comprehensively illustrates energy transfer, including quantitative aspects and the ultimate source and loss of energy."
+    ],
+    [
+      "The model does not represent matter cycling within the ecosystem.",
+      "The model attempts to represent matter cycling, but it is unclear or inaccurate.",
+      "The model partially represents matter cycling between some components of the ecosystem.",
+      "The model accurately shows matter cycling between living and nonliving parts of the ecosystem.",
+      "The model accurately depicts matter cycling and includes the role of decomposers in recycling nutrients.",
+      "The model comprehensively illustrates matter cycling, including specific elements (e.g., carbon, nitrogen) and their pathways through the ecosystem."
+    ],
+    [
+      "The model is disorganized and difficult to understand.",
+      "The model lacks clear labels and is somewhat difficult to follow.",
+      "The model is generally organized with some labels, but further clarity is needed.",
+      "The model is clearly organized with appropriate labels for most components.",
+      "The model is well-organized, clearly labeled, and easy to understand.",
+      "The model is exceptionally clear, well-organized, and visually appealing, enhancing understanding of ecosystem dynamics."
+    ]
+  ]
+}

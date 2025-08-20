@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Accurately identifies and differentiates between the North and South Poles.",
+    "Accurately identifies and differentiates between the equator and the prime meridian.",
+    "Accurately identifies and describes the tropics (Tropic of Cancer and Tropic of Capricorn).",
+    "Accurately identifies and describes the hemispheres (Northern, Southern, Eastern, and Western).",
+    "Uses coordinates (latitude and longitude) to accurately plot locations on a map or globe."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify or incorrectly identifies the North and South Poles.",
+      "Identifies the North and South Poles but struggles to differentiate them.",
+      "Identifies the North and South Poles and provides a basic differentiation.",
+      "Clearly identifies the North and South Poles and accurately differentiates them with some detail.",
+      "Clearly and accurately identifies and differentiates the North and South Poles with a thorough explanation.",
+      "Demonstrates a comprehensive understanding of the North and South Poles, accurately differentiating them and explaining their significance in geographical context."
+    ],
+    [
+      "Does not identify or incorrectly identifies the equator and the prime meridian.",
+      "Identifies the equator and the prime meridian but struggles to differentiate them.",
+      "Identifies the equator and the prime meridian and provides a basic differentiation.",
+      "Clearly identifies the equator and the prime meridian and accurately differentiates them with some detail.",
+      "Clearly and accurately identifies and differentiates the equator and the prime meridian with a thorough explanation.",
+      "Demonstrates a comprehensive understanding of the equator and the prime meridian, accurately differentiating them and explaining their significance in geographical context."
+    ],
+    [
+      "Does not identify or incorrectly identifies the tropics.",
+      "Identifies the tropics but provides an inaccurate or incomplete description.",
+      "Identifies the tropics and provides a basic description.",
+      "Clearly identifies the tropics and provides an accurate description with some detail.",
+      "Clearly and accurately identifies the tropics with a thorough description and explanation of their climatic significance.",
+      "Demonstrates a comprehensive understanding of the tropics, accurately describing them and explaining their impact on global climate patterns."
+    ],
+    [
+      "Does not identify or incorrectly identifies the hemispheres.",
+      "Identifies the hemispheres but provides an inaccurate or incomplete description.",
+      "Identifies the hemispheres and provides a basic description.",
+      "Clearly identifies the hemispheres and provides an accurate description with some detail.",
+      "Clearly and accurately identifies the hemispheres with a thorough description and provides relevant examples of countries\/regions located in each.",
+      "Demonstrates a comprehensive understanding of the hemispheres, accurately describing them and explaining their impact on global cultures and economies."
+    ],
+    [
+      "Unable to use coordinates to plot locations or plots locations incorrectly.",
+      "Attempts to use coordinates but struggles to accurately plot locations.",
+      "Uses coordinates to plot locations with limited accuracy.",
+      "Accurately uses coordinates to plot locations with minor errors.",
+      "Accurately uses coordinates to plot locations with precision.",
+      "Demonstrates a sophisticated understanding of coordinate systems, accurately plotting locations and explaining the relationship between latitude, longitude, and geographic positioning."
+    ]
+  ]
+}

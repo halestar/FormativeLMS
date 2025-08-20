@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Pollution Sources",
+    "Understanding of Harmful Health Effects",
+    "Proposed Methods to Reduce Pollution",
+    "Understanding Alternative Transportation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any sources of pollution.",
+      "Student identifies one source of pollution.",
+      "Student identifies a few common sources of pollution but lacks detail.",
+      "Student identifies several sources of pollution with some specific examples.",
+      "Student identifies multiple sources of pollution with clear and detailed examples.",
+      "Student comprehensively identifies various sources of pollution, including less obvious ones, with detailed explanations."
+    ],
+    [
+      "Student demonstrates no understanding of the health effects of pollution.",
+      "Student mentions that pollution is bad for health, without specifics.",
+      "Student identifies a few general health effects of pollution.",
+      "Student explains some specific health effects related to common pollutants.",
+      "Student details various health effects linked to specific pollutants, showing good understanding.",
+      "Student thoroughly explains the complex relationships between different pollutants and their wide-ranging health effects."
+    ],
+    [
+      "Student does not propose any methods to reduce pollution.",
+      "Student suggests one unrealistic or ineffective method to reduce pollution.",
+      "Student proposes a couple of basic methods to reduce pollution.",
+      "Student suggests several relevant methods to reduce pollution with some explanation.",
+      "Student details multiple effective methods to reduce pollution, explaining their impact.",
+      "Student comprehensively proposes and justifies a variety of innovative and effective methods to reduce pollution, considering different contexts."
+    ],
+    [
+      "Student does not mention alternative transportation methods.",
+      "Student lists alternative transportation with no explanation.",
+      "Student identifies a few alternative transportation methods with some basic understanding.",
+      "Student explains how alternative transportation methods reduce pollution and harmful health effects.",
+      "Student compares several alternative transportation methods, detailing their pollution reduction and health benefits.",
+      "Student critically analyzes the feasibility and impact of various alternative transportation methods in different scenarios, including potential drawbacks."
+    ]
+  ]
+}

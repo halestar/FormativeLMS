@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the relationship between multiplication and area in rectangles.",
+    "Application of addition in finding area.",
+    "Problem-solving and real-world application."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of how multiplication relates to finding the area of a rectangle.",
+      "Demonstrates minimal understanding. Struggles to connect multiplication with area; calculations are often incorrect.",
+      "Shows some understanding. Can sometimes calculate area by multiplying side lengths, but makes frequent errors or requires significant guidance.",
+      "Demonstrates a basic understanding. Can accurately calculate the area of rectangles with whole-number side lengths using multiplication, but struggles with problem-solving.",
+      "Shows a strong understanding. Can consistently and accurately calculate the area of rectangles using multiplication. Can apply this knowledge to solve most real-world and mathematical problems effectively.",
+      "Demonstrates an exceptional understanding. Consistently and accurately calculates area using multiplication and applies this knowledge to complex problems. Explains the relationship between multiplication and area clearly and provides alternative solutions."
+    ],
+    [
+      "Does not relate addition to finding area or solving problems.",
+      "Struggles to use addition in area calculations and problem-solving; calculations are incorrect or irrelevant.",
+      "Shows limited ability to use addition for finding area; makes frequent errors and needs help to connect it to problem-solving.",
+      "Demonstrates a basic ability to use addition to find area, but struggles with more complex problems or requires assistance.",
+      "Shows a strong grasp of using addition for area; proficient in most problems, but may struggle with very complex scenarios.",
+      "Exceptional ability to use addition for finding area; solves complex problems effectively and can explain the rationale."
+    ],
+    [
+      "Unable to apply area concepts to solve real-world or mathematical problems.",
+      "Struggles significantly with applying area concepts to problem-solving; cannot interpret or set up problems correctly.",
+      "Can sometimes attempt to solve problems, but struggles with accuracy and logical reasoning.",
+      "Solves straightforward problems correctly, but struggles with more complex or multi-step problems.",
+      "Solves most problems accurately and logically, with a good understanding of the context.",
+      "Demonstrates exceptional problem-solving skills; adept at solving complex problems and explaining solutions clearly."
+    ]
+  ]
+}

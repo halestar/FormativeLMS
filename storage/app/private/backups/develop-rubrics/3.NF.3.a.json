@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Fraction Equivalence",
+    "Comparing Fractions by Reasoning",
+    "Representing Fractions on a Number Line"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of fraction equivalence.",
+      "Student struggles to identify equivalent fractions and cannot explain why they are equivalent.",
+      "Student can identify some equivalent fractions but has difficulty explaining the reasoning behind their equivalence.",
+      "Student can identify equivalent fractions and provides a basic explanation of their equivalence, but the explanation may lack precision.",
+      "Student accurately identifies equivalent fractions and provides a clear explanation of their equivalence using visual models or number lines.",
+      "Student demonstrates a thorough understanding of fraction equivalence and can explain the concept using multiple representations and contexts."
+    ],
+    [
+      "Student is unable to compare fractions or reason about their size.",
+      "Student attempts to compare fractions but uses incorrect strategies or arrives at incorrect conclusions.",
+      "Student can compare some fractions with like numerators or denominators but struggles with fractions that have unlike numerators and denominators.",
+      "Student can compare fractions using benchmark fractions or common denominators but struggles to explain their reasoning.",
+      "Student accurately compares fractions and provides a logical explanation of their relative size using benchmark fractions, common denominators, or visual models.",
+      "Student demonstrates a deep understanding of fraction comparison and can justify their reasoning using multiple strategies and representations."
+    ],
+    [
+      "Student cannot represent fractions on a number line.",
+      "Student attempts to represent fractions on a number line but places them inaccurately.",
+      "Student can represent some fractions on a number line but struggles with fractions that are close in value or have large denominators.",
+      "Student can accurately represent fractions on a number line but may not label them clearly or explain their placement.",
+      "Student accurately represents fractions on a number line, labels them clearly, and explains their placement in relation to other fractions and whole numbers.",
+      "Student demonstrates a sophisticated understanding of fraction representation on a number line and can use it to compare and order fractions effectively."
+    ]
+  ]
+}

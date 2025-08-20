@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the selection process of Supreme Court justices.",
+    "Knowledge of the confirmation process of Supreme Court justices.",
+    "Ability to explain the roles and responsibilities of the three branches of government in the selection and confirmation processes."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the selection process.",
+      "Shows a minimal understanding, with significant inaccuracies.",
+      "Displays a basic understanding, but misses key steps or details.",
+      "Presents a satisfactory understanding of the process, with minor omissions.",
+      "Exhibits a strong understanding of the selection process, including the roles of different branches.",
+      "Demonstrates a comprehensive and nuanced understanding of the selection process, including historical context and potential influences."
+    ],
+    [
+      "Demonstrates no understanding of the confirmation process.",
+      "Shows a minimal understanding, with significant inaccuracies.",
+      "Displays a basic understanding, but misses key steps or details.",
+      "Presents a satisfactory understanding of the process, with minor omissions.",
+      "Exhibits a strong understanding of the confirmation process, including Senate's role and potential challenges.",
+      "Demonstrates a comprehensive and nuanced understanding of the confirmation process, including historical context, political factors, and impact on the court."
+    ],
+    [
+      "Unable to identify the roles of the three branches.",
+      "Identifies roles with significant inaccuracies or omissions.",
+      "Describes the roles of the branches vaguely or incompletely.",
+      "Explains the roles of the branches adequately, but lacks detail or connection between them.",
+      "Clearly explains the roles of each branch and their interactions in the selection and confirmation processes.",
+      "Demonstrates a sophisticated understanding of the checks and balances system and the unique responsibilities of each branch in ensuring a fair and balanced selection and confirmation process."
+    ]
+  ]
+}

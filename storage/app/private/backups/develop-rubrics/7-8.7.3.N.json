@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of Physical Activity Assessment",
+    "Appropriateness of Assessment Tools\/Methods Used",
+    "Analysis and Interpretation of Assessment Results",
+    "Application of Findings to Personal Health Goals"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The assessment is missing or fundamentally flawed, showing no understanding of how to accurately assess personal physical activity levels.",
+      "The assessment is incomplete and contains significant inaccuracies, demonstrating a limited understanding of physical activity assessment.",
+      "The assessment includes major gaps or inaccuracies, indicating a basic understanding of physical activity assessment but lacks detail.",
+      "The assessment is generally accurate but may have minor omissions or inaccuracies. Demonstrates a satisfactory understanding of physical activity assessment.",
+      "The assessment is comprehensive and mostly accurate, demonstrating a strong understanding of personal physical activity levels.",
+      "The assessment is exceptionally thorough, accurate, and insightful, demonstrating a comprehensive understanding of how to assess personal physical activity levels effectively."
+    ],
+    [
+      "The chosen tools or methods are completely inappropriate for assessing personal physical activity levels.",
+      "The tools or methods used are poorly chosen and largely ineffective, demonstrating a lack of understanding of appropriate assessment techniques.",
+      "The tools or methods used are questionable and partially effective, indicating a limited understanding of appropriate assessment techniques.",
+      "The tools or methods used are generally appropriate but could be improved for better assessment.",
+      "The tools or methods used are appropriate and effective for assessing personal physical activity levels.",
+      "The tools or methods used are exceptionally well-suited and highly effective for a comprehensive assessment of personal physical activity levels."
+    ],
+    [
+      "No attempt is made to analyze or interpret the assessment results.",
+      "The analysis and interpretation are superficial and lack understanding of the implications of the assessment results.",
+      "The analysis and interpretation are basic and show some understanding of the assessment results, but lack depth.",
+      "The analysis and interpretation are adequate and demonstrate a general understanding of the assessment results and their implications.",
+      "The analysis and interpretation are thorough and demonstrate a strong understanding of the assessment results and their implications.",
+      "The analysis and interpretation are insightful and demonstrate a comprehensive understanding of the assessment results, their implications, and potential interventions."
+    ],
+    [
+      "No connection is made between the assessment findings and personal health goals.",
+      "The connection between the assessment findings and personal health goals is weak and unclear.",
+      "The connection between the assessment findings and personal health goals is vague and lacks specific application.",
+      "The application of assessment findings to personal health goals is reasonable but could be more specific.",
+      "The application of assessment findings to personal health goals is clear and relevant, demonstrating an understanding of how to use the information.",
+      "The application of assessment findings to personal health goals is highly effective and demonstrates a deep understanding of how to use the information to improve personal health."
+    ]
+  ]
+}

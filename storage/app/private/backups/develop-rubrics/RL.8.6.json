@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Different Points of View",
+    "Analysis of Effects (Suspense or Humor)",
+    "Understanding of Dramatic Irony"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any points of view present in the text.",
+      "Identifies at least one point of view with significant inaccuracies.",
+      "Identifies the points of view of the characters OR the audience\/reader but not both, with minor inaccuracies.",
+      "Identifies the points of view of the characters AND the audience\/reader but struggles to clearly explain the distinction.",
+      "Clearly identifies the points of view of the characters and the audience\/reader, demonstrating understanding of their differences.",
+      "Masterfully identifies and articulates the distinct points of view of characters and audience\/reader, providing insightful examples."
+    ],
+    [
+      "Unable to connect the points of view to any effect such as suspense or humor.",
+      "Attempts to connect the points of view to effects, but the analysis is vague or unsupported.",
+      "Connects differences in points of view to EITHER suspense OR humor, with limited explanation.",
+      "Connects differences in points of view to BOTH suspense AND humor, but the analysis lacks depth.",
+      "Analyzes how differences in points of view create suspense OR humor with clear, specific examples from the text.",
+      "Expertly analyzes how differences in points of view create suspense AND humor, providing nuanced, well-supported interpretations from the text."
+    ],
+    [
+      "Does not recognize or define dramatic irony.",
+      "Attempts to define dramatic irony, but the definition is inaccurate or incomplete.",
+      "Recognizes dramatic irony in the text but does not explain its effect.",
+      "Understands and identifies dramatic irony, partially explaining its contribution to suspense or humor.",
+      "Clearly explains how dramatic irony contributes to the creation of suspense or humor within the text, with supporting details.",
+      "Demonstrates a sophisticated understanding of dramatic irony, thoroughly explaining its effects on the audience\/reader and its role in developing suspense or humor."
+    ]
+  ]
+}

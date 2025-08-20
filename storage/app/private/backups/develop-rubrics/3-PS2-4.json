@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Problem Definition Clarity: How well the student defines a simple design problem that can be solved using magnets.",
+    "Application of Scientific Ideas: How effectively the student applies scientific ideas about magnets to the proposed solution.",
+    "Design Solution Practicality: How practical and feasible the proposed design solution is.",
+    "Explanation of Magnetic Interactions: How well the student explains the magnetic forces and interactions relevant to their design."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify or define a problem related to magnets.",
+      "The student attempts to define a problem, but it is unclear or not related to magnets.",
+      "The student defines a problem, but the connection to magnets is weak or not clearly articulated.",
+      "The student defines a problem that can be solved using magnets, with some clarity.",
+      "The student clearly defines a problem that can be solved using magnets, explaining the context and constraints.",
+      "The student defines a compelling and clearly articulated problem that can be solved effectively using magnets, demonstrating a thorough understanding of the problem's scope and relevant factors."
+    ],
+    [
+      "The student does not apply any scientific ideas about magnets in their proposed solution.",
+      "The student vaguely mentions scientific ideas about magnets, but does not apply them effectively.",
+      "The student attempts to apply scientific ideas, but the application is incorrect or superficial.",
+      "The student applies some relevant scientific ideas about magnets, but may have gaps in understanding or application.",
+      "The student effectively applies scientific ideas about magnets to develop a solution, demonstrating a good understanding of the underlying principles.",
+      "The student expertly applies scientific ideas about magnets to develop an innovative and well-reasoned solution, demonstrating a deep and nuanced understanding of the relevant scientific principles."
+    ],
+    [
+      "The proposed solution is completely impractical or infeasible.",
+      "The proposed solution has major practical limitations that are not addressed.",
+      "The proposed solution has some practical limitations, but attempts are made to address them.",
+      "The proposed solution is reasonably practical, with some consideration given to feasibility.",
+      "The proposed solution is practical and feasible, demonstrating a good understanding of real-world constraints.",
+      "The proposed solution is highly practical, feasible, and innovative, demonstrating exceptional attention to detail and a sophisticated understanding of real-world applications."
+    ],
+    [
+      "The student does not explain any magnetic forces or interactions.",
+      "The student's explanation of magnetic forces is minimal and unclear.",
+      "The student attempts to explain magnetic forces, but the explanation contains inaccuracies or omissions.",
+      "The student explains the relevant magnetic forces and interactions with reasonable accuracy.",
+      "The student clearly and accurately explains the magnetic forces and interactions involved in their design, demonstrating a solid understanding of the underlying physics.",
+      "The student provides a comprehensive and insightful explanation of the magnetic forces and interactions, demonstrating a sophisticated understanding of the underlying physics and their application to the design problem."
+    ]
+  ]
+}

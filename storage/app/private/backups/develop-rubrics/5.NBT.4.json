@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Place Value",
+    "Accuracy in Rounding",
+    "Application in Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of place value and cannot identify the relevant place value for rounding.",
+      "Demonstrates limited understanding of place value and struggles to identify the relevant place value for rounding.",
+      "Demonstrates some understanding of place value but makes frequent errors when identifying the relevant place value for rounding.",
+      "Demonstrates a general understanding of place value and can usually identify the relevant place value for rounding with occasional errors.",
+      "Demonstrates a solid understanding of place value and accurately identifies the relevant place value for rounding in most cases.",
+      "Demonstrates a comprehensive understanding of place value and accurately identifies the relevant place value for rounding in all cases."
+    ],
+    [
+      "Rounding is consistently incorrect, showing no understanding of rounding rules.",
+      "Rounding is frequently incorrect, indicating a poor understanding of rounding rules.",
+      "Rounding is sometimes correct, but errors are common, suggesting a partial understanding of rounding rules.",
+      "Rounding is mostly correct, with occasional errors due to misunderstanding of rounding rules.",
+      "Rounding is accurate in most cases, demonstrating a strong understanding of rounding rules.",
+      "Rounding is consistently accurate, demonstrating a complete and thorough understanding of rounding rules."
+    ],
+    [
+      "Unable to apply rounding skills to solve problems.",
+      "Struggles to apply rounding skills to solve problems and is unable to provide explanations.",
+      "Can sometimes apply rounding skills to solve simple problems, but struggles with more complex scenarios.",
+      "Generally applies rounding skills to solve problems, but requires some assistance or makes minor errors.",
+      "Confidently applies rounding skills to solve a variety of problems.",
+      "Expertly applies rounding skills to solve complex problems and provides clear and accurate explanations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to differentiate between valid and invalid sources of information.",
+    "Comprehension of the information presented in the sources.",
+    "Understanding of the impact of alcohol, tobacco and drugs."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes a valid source of information. Unable to identify any credible sources.",
+      "Struggles to differentiate between valid and invalid sources. Identifies one or two sources but has trouble explaining why they are valid.",
+      "Identifies some valid sources but also includes questionable ones. Explanation of validity is superficial or incomplete.",
+      "Identifies mostly valid sources and provides a reasonable explanation for their credibility.",
+      "Confidently identifies valid sources of information regarding alcohol, tobacco, and other drug use and abuse, and clearly articulates the reasons for their validity.",
+      "Consistently identifies highly credible and diverse sources, providing nuanced explanations of their strengths and limitations, demonstrating a sophisticated understanding of information validity."
+    ],
+    [
+      "Demonstrates no comprehension of information from sources.",
+      "Struggles to comprehend and apply information from sources.",
+      "Understands some information but fails to apply it effectively.",
+      "Applies information correctly in some cases.",
+      "Applies information effectively in most cases.",
+      "Applies information effectively and creatively in all cases."
+    ],
+    [
+      "Demonstrates no understanding of the impact of alcohol, tobacco and drugs.",
+      "Struggles to demonstrate the impact of alcohol, tobacco and drugs.",
+      "Understands some of the impact but fails to apply it effectively.",
+      "Applies the impact correctly in some cases.",
+      "Applies the impact effectively in most cases.",
+      "Applies the impact effectively and creatively in all cases."
+    ]
+  ]
+}

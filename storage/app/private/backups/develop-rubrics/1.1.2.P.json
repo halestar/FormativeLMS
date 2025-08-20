@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the risks associated with sun exposure",
+    "Knowledge of sun safety practices",
+    "Ability to explain the importance of sun safety"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the risks of sun exposure.",
+      "Demonstrates a very limited understanding of the risks of sun exposure.",
+      "Identifies some risks of sun exposure, but with limited detail or accuracy.",
+      "Identifies several risks of sun exposure, including sunburn and premature aging.",
+      "Clearly explains several risks of sun exposure, including skin cancer, premature aging, and eye damage.",
+      "Comprehensively explains the various risks of sun exposure with supporting details."
+    ],
+    [
+      "Shows no awareness of sun safety practices.",
+      "Shows minimal awareness of sun safety practices.",
+      "Identifies one or two sun safety practices, such as wearing sunscreen.",
+      "Lists several sun safety practices, including seeking shade, wearing protective clothing, and using sunscreen.",
+      "Explains how to properly implement various sun safety practices.",
+      "Demonstrates comprehensive knowledge of sun safety practices and explains how to adapt them to different situations."
+    ],
+    [
+      "Unable to articulate any reasons why sun safety is important.",
+      "Struggles to explain the importance of sun safety.",
+      "Provides a vague explanation of why sun safety is important.",
+      "Explains the importance of sun safety in preventing sunburn.",
+      "Explains the importance of sun safety in preventing both short-term and long-term health problems.",
+      "Articulates the importance of sun safety with clear, persuasive reasoning, highlighting the benefits for overall health and well-being."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in stating recommended servings and serving sizes for fruits and vegetables.",
+    "Accuracy in stating recommended servings and serving sizes for grains.",
+    "Accuracy in stating recommended servings and serving sizes for protein sources.",
+    "Accuracy in stating recommended servings and serving sizes for dairy."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not state any recommended servings or serving sizes for fruits and vegetables.",
+      "Attempts to state servings\/sizes but with significant inaccuracies or omissions.",
+      "States some recommended servings\/sizes for fruits and vegetables, but with minor inaccuracies.",
+      "Generally states the recommended servings and serving sizes for fruits and vegetables with reasonable accuracy.",
+      "Accurately states the recommended servings and serving sizes for a wide variety of fruits and vegetables.",
+      "Demonstrates comprehensive knowledge, accurately stating recommended servings\/sizes for diverse fruits\/vegetables, exceeding expectations."
+    ],
+    [
+      "Does not state any recommended servings or serving sizes for grains.",
+      "Attempts to state servings\/sizes but with significant inaccuracies or omissions.",
+      "States some recommended servings\/sizes for grains, but with minor inaccuracies.",
+      "Generally states the recommended servings and serving sizes for grains with reasonable accuracy.",
+      "Accurately states the recommended servings and serving sizes for a variety of grains.",
+      "Demonstrates comprehensive knowledge, accurately stating recommended servings\/sizes for diverse grains, exceeding expectations."
+    ],
+    [
+      "Does not state any recommended servings or serving sizes for protein sources.",
+      "Attempts to state servings\/sizes but with significant inaccuracies or omissions.",
+      "States some recommended servings\/sizes for protein sources, but with minor inaccuracies.",
+      "Generally states the recommended servings and serving sizes for protein sources with reasonable accuracy.",
+      "Accurately states the recommended servings and serving sizes for a variety of protein sources.",
+      "Demonstrates comprehensive knowledge, accurately stating recommended servings\/sizes for diverse protein sources, exceeding expectations."
+    ],
+    [
+      "Does not state any recommended servings or serving sizes for dairy.",
+      "Attempts to state servings\/sizes but with significant inaccuracies or omissions.",
+      "States some recommended servings\/sizes for dairy, but with minor inaccuracies.",
+      "Generally states the recommended servings and serving sizes for dairy with reasonable accuracy.",
+      "Accurately states the recommended servings and serving sizes for a variety of dairy.",
+      "Demonstrates comprehensive knowledge, accurately stating recommended servings\/sizes for diverse dairy options, exceeding expectations."
+    ]
+  ]
+}

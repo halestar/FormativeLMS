@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Specialized Work",
+    "Understanding Contributions of Those Who Work in the Home",
+    "Connection Between Specialized Work and Free-Market Economy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of specialized work roles in manufacturing, transport, and marketing.",
+      "Student identifies one or two specialized work roles with limited accuracy.",
+      "Student identifies some specialized work roles but lacks detail or clarity in descriptions.",
+      "Student identifies several specialized work roles in manufacturing, transport, and marketing with reasonable accuracy.",
+      "Student clearly identifies and describes multiple specialized work roles in manufacturing, transport, and marketing, showing good understanding.",
+      "Student thoroughly identifies and explains a wide range of specialized work roles in manufacturing, transport, and marketing, demonstrating a comprehensive understanding of their importance."
+    ],
+    [
+      "Student demonstrates no understanding of the contributions of those who work in the home.",
+      "Student mentions work in the home but does not connect it to economic contributions.",
+      "Student identifies some contributions of those who work in the home but lacks detail or clarity.",
+      "Student describes several contributions of those who work in the home and recognizes their economic value.",
+      "Student explains the significant economic contributions of those who work in the home with clear examples.",
+      "Student thoroughly analyzes and explains the multifaceted economic contributions of those who work in the home, demonstrating a comprehensive understanding of their value."
+    ],
+    [
+      "Student does not make any connection between specialized work and the free-market economy.",
+      "Student vaguely mentions the free-market economy but does not link it to specialized work.",
+      "Student makes a basic connection between specialized work and the free-market economy but lacks depth.",
+      "Student explains how specialized work contributes to the functioning of a free-market economy with some examples.",
+      "Student clearly explains the relationship between specialized work and the efficiency\/productivity of a free-market economy, providing relevant examples.",
+      "Student thoroughly analyzes and explains the critical role of specialized work in driving innovation, competition, and overall success in a free-market economy."
+    ]
+  ]
+}

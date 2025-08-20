@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Variance and Standard Deviation Concepts",
+    "Accuracy in Computation",
+    "Application to Data Sets",
+    "Interpretation of Results"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of variance or standard deviation.",
+      "Student shows minimal understanding, struggling to define variance or standard deviation.",
+      "Student can define variance and standard deviation but struggles to explain their purpose or relationship.",
+      "Student understands and can explain the basic concepts of variance and standard deviation and their relationship to data spread.",
+      "Student demonstrates a solid understanding of variance and standard deviation, explaining their significance in analyzing data distributions.",
+      "Student demonstrates a comprehensive understanding of variance and standard deviation, including their applications in various statistical contexts."
+    ],
+    [
+      "Student is unable to perform any calculations related to variance or standard deviation.",
+      "Student attempts calculations but makes significant errors in all steps.",
+      "Student makes frequent calculation errors, impacting the final result.",
+      "Student makes some calculation errors, but the overall process is generally correct.",
+      "Student performs calculations with minor errors that do not significantly impact the result.",
+      "Student accurately computes variance and standard deviation with no errors."
+    ],
+    [
+      "Student cannot apply variance and standard deviation concepts to any data set.",
+      "Student struggles to apply concepts to data sets, even with guidance.",
+      "Student can apply concepts to simple data sets with significant errors.",
+      "Student can apply concepts to basic data sets with some accuracy.",
+      "Student can apply variance and standard deviation to a variety of data sets with reasonable accuracy.",
+      "Student can expertly apply variance and standard deviation to any data set, interpreting the results effectively."
+    ],
+    [
+      "Student provides no interpretation of the calculated variance and standard deviation.",
+      "Student attempts to interpret the results but offers nonsensical or irrelevant explanations.",
+      "Student's interpretation is superficial and lacks connection to the data.",
+      "Student provides a basic interpretation of the variance and standard deviation in relation to the data's spread.",
+      "Student offers a clear and relevant interpretation of the variance and standard deviation, relating it to the data's characteristics.",
+      "Student provides a comprehensive and insightful interpretation, drawing meaningful conclusions about the data distribution and its implications."
+    ]
+  ]
+}

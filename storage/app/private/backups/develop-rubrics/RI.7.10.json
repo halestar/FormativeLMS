@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Comprehension of Literary Nonfiction",
+    "Text Complexity",
+    "Application of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the text; unable to identify the main idea or supporting details.",
+      "Struggles to understand the text; identifies the main idea with significant inaccuracies and provides little to no supporting details.",
+      "Shows limited understanding of the text; identifies the main idea with some inaccuracies and provides few supporting details.",
+      "Demonstrates a basic understanding of the text; identifies the main idea accurately and provides some relevant supporting details.",
+      "Shows a strong understanding of the text; identifies the main idea accurately and provides relevant supporting details.",
+      "Demonstrates a comprehensive understanding of the text; identifies the main idea accurately and provides thorough, insightful supporting details, demonstrating a deep comprehension of the material."
+    ],
+    [
+      "Unable to engage with the text due to its complexity.",
+      "Requires significant scaffolding to understand basic elements of the text.",
+      "Needs some scaffolding to navigate the text, but demonstrates limited independence.",
+      "Engages with the text with minimal scaffolding; demonstrates an ability to understand the text with some support.",
+      "Independently navigates the text and demonstrates a solid understanding of its complexities.",
+      "Independently and proficiently comprehends the text's complexities; able to analyze and interpret sophisticated elements of the text."
+    ],
+    [
+      "Does not demonstrate any ability to apply knowledge gained from the text.",
+      "Struggles to relate information from the text to other contexts or ideas.",
+      "Attempts to connect information from the text, but connections are superficial or inaccurate.",
+      "Relates information from the text to other contexts with some accuracy and relevance.",
+      "Demonstrates a strong ability to apply knowledge from the text to other contexts and ideas with clear connections.",
+      "Synthesizes information from the text and applies it to other contexts, generating new insights and demonstrating sophisticated understanding."
+    ]
+  ]
+}

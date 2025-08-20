@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of sexual health topics.",
+    "Provides support and encouragement to peers in making positive sexual health choices.",
+    "Communicates effectively and respectfully when discussing sexual health topics."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of sexual health topics; provides incorrect information.",
+      "Displays limited understanding of sexual health topics; struggles to accurately explain concepts.",
+      "Shows basic understanding of sexual health topics; explanation may be incomplete or contain minor inaccuracies.",
+      "Demonstrates a solid understanding of sexual health topics; explains concepts accurately and completely.",
+      "Shows advanced understanding of sexual health topics; explains concepts clearly, accurately, and provides additional relevant details.",
+      "Demonstrates expert-level understanding of sexual health topics; provides comprehensive explanations with insightful details and connects concepts effectively."
+    ],
+    [
+      "Does not offer support or encouragement; may promote negative or harmful choices.",
+      "Offers limited support or encouragement; may struggle to effectively communicate positive choices.",
+      "Provides basic support and encouragement; may not fully address the needs of peers.",
+      "Offers consistent support and encouragement; effectively communicates positive choices and provides helpful advice.",
+      "Demonstrates strong support and encouragement; effectively communicates positive choices, actively listens to peers, and offers tailored advice.",
+      "Provides exceptional support and encouragement; empowers peers to make informed decisions, advocates for positive sexual health practices, and serves as a role model."
+    ],
+    [
+      "Communicates ineffectively or disrespectfully; uses inappropriate language or tone.",
+      "Struggles to communicate effectively or respectfully; may use insensitive language.",
+      "Communicates adequately but may lack clarity or sensitivity.",
+      "Communicates effectively and respectfully; uses appropriate language and tone.",
+      "Demonstrates strong communication skills; articulates ideas clearly and respectfully, adapting communication style to different audiences.",
+      "Communicates exceptionally well; demonstrates empathy, active listening, and provides thoughtful responses in diverse situations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information Provided",
+    "Clarity and Effectiveness of Communication",
+    "Scope of Education"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides inaccurate or misleading information about sun safety.",
+      "Provides mostly inaccurate information with some correct facts about sun safety.",
+      "Provides some accurate information but misses key details or includes minor inaccuracies.",
+      "Provides generally accurate information about sun safety but could include more detail.",
+      "Provides accurate and detailed information about sun safety, demonstrating good understanding.",
+      "Provides comprehensive, accurate, and insightful information about sun safety, showing mastery of the topic."
+    ],
+    [
+      "Unable to communicate any information regarding sun safety.",
+      "Communication is unclear and ineffective; struggles to convey basic sun safety concepts.",
+      "Communication is somewhat unclear; has difficulty explaining sun safety practices effectively.",
+      "Communication is generally clear and understandable; explains sun safety practices adequately.",
+      "Communication is clear, concise, and effective; explains sun safety practices in a way that is easy to understand.",
+      "Communication is exceptionally clear, engaging, and persuasive; inspires action and promotes sun-safe behaviors effectively."
+    ],
+    [
+      "Does not educate on any method of sun protection.",
+      "Only mentions one method of sun protection",
+      "Mentions one method of sun protection, but gives little details.",
+      "Mentions a few methods of sun protection.",
+      "Educates on most methods of sun protection.",
+      "Educates others on every method of sun protection."
+    ]
+  ]
+}

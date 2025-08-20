@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Political Principles Underlying the U.S. Constitution",
+    "Comparison of Enumerated and Implied Powers",
+    "Analysis of the Relationship Between Federal and State Power"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the political principles underlying the U.S. Constitution.",
+      "Demonstrates a very limited understanding of the political principles underlying the U.S. Constitution.",
+      "Demonstrates a basic understanding of some political principles underlying the U.S. Constitution.",
+      "Demonstrates a satisfactory understanding of the key political principles underlying the U.S. Constitution, but with some gaps.",
+      "Demonstrates a strong understanding of the key political principles underlying the U.S. Constitution.",
+      "Demonstrates a comprehensive and nuanced understanding of the political principles underlying the U.S. Constitution, including their historical context and contemporary relevance."
+    ],
+    [
+      "Unable to differentiate between enumerated and implied powers.",
+      "Struggles to differentiate between enumerated and implied powers; demonstrates significant confusion.",
+      "Identifies either enumerated or implied powers, but not both, or demonstrates a superficial understanding of the difference.",
+      "Can generally differentiate between enumerated and implied powers, but struggles to provide specific examples or explain the basis for implied powers.",
+      "Clearly differentiates between enumerated and implied powers and provides relevant examples of each.",
+      "Clearly differentiates between enumerated and implied powers, provides insightful examples, and explains the constitutional basis (e.g., Necessary and Proper Clause) for implied powers."
+    ],
+    [
+      "Demonstrates no understanding of the distribution of power between the federal government and the states.",
+      "Demonstrates a limited understanding of the distribution of power between the federal government and the states.",
+      "Identifies some powers belonging to the federal government or the states, but with significant inaccuracies.",
+      "Demonstrates a satisfactory understanding of the division of powers, but struggles to analyze specific examples or potential conflicts.",
+      "Analyzes the division of powers between the federal government and the states, providing relevant examples and identifying potential areas of conflict.",
+      "Analyzes the complex relationship between federal and state power, provides insightful examples, and understands the historical and contemporary debates surrounding federalism."
+    ]
+  ]
+}

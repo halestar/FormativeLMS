@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Central Ideas\/Information",
+    "Accuracy of Summary",
+    "Development of Ideas Over the Course of the Text"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any central ideas or information from the source.",
+      "The student identifies a central idea\/information, but it is vague, inaccurate, or incomplete.",
+      "The student identifies a central idea\/information with some accuracy, but misses key components or details.",
+      "The student identifies a central idea\/information accurately and provides sufficient details.",
+      "The student identifies multiple central ideas\/information accurately, demonstrating a strong understanding of the source.",
+      "The student identifies multiple central ideas\/information comprehensively and insightfully, demonstrating a deep understanding of the source."
+    ],
+    [
+      "The student provides no summary or a completely inaccurate summary of the text.",
+      "The student provides a summary with significant inaccuracies or omissions.",
+      "The student provides a somewhat accurate summary, but it is missing key events or ideas.",
+      "The student provides a generally accurate summary of the text, including most key events or ideas.",
+      "The student provides an accurate and detailed summary, capturing the essence of the text and its key components.",
+      "The student provides a highly accurate, comprehensive, and nuanced summary, demonstrating a thorough understanding of the text's content and structure."
+    ],
+    [
+      "The student does not address how key events or ideas develop over the course of the text.",
+      "The student attempts to describe the development of ideas, but the explanation is unclear or inaccurate.",
+      "The student describes the development of some ideas, but misses key connections or transitions.",
+      "The student describes how key events or ideas develop over the course of the text with reasonable clarity and accuracy.",
+      "The student clearly and accurately traces the development of key events or ideas, demonstrating an understanding of their progression.",
+      "The student insightfully analyzes the development of key events or ideas, revealing nuanced connections and implications within the text."
+    ]
+  ]
+}

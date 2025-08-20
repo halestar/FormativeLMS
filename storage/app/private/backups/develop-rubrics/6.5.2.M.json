@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Stressors and Their Impact",
+    "Recognizing When to Seek Help for Stress",
+    "Recognizing When to Seek Help for Loss",
+    "Recognizing When to Seek Help for Depression"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any stressors or their potential impact on mental health.",
+      "Student identifies a stressor but does not explain its impact.",
+      "Student identifies a stressor and vaguely describes its impact on mental health.",
+      "Student identifies common stressors and describes their general impact on mental health with some accuracy.",
+      "Student accurately identifies a range of stressors and thoroughly describes their potential impact on mental health and daily functioning.",
+      "Student expertly identifies a wide range of stressors and insightfully analyzes their profound impact on mental health, providing nuanced examples."
+    ],
+    [
+      "Student does not recognize any situations where seeking help for stress is necessary.",
+      "Student mentions seeking help but without specific context or reasoning.",
+      "Student identifies a vague situation where seeking help may be appropriate.",
+      "Student identifies a few situations where seeking help for stress might be necessary, such as during prolonged periods of stress.",
+      "Student clearly identifies several situations where seeking help for stress is necessary, including persistent symptoms and significant life changes.",
+      "Student comprehensively identifies numerous situations where seeking help for stress is crucial, including specific symptoms and proactive strategies for prevention."
+    ],
+    [
+      "Student does not recognize any situations where seeking help for loss is necessary.",
+      "Student mentions seeking help for loss, but without specific context or reasoning.",
+      "Student identifies a vague situation where seeking help for loss may be appropriate.",
+      "Student identifies a few situations where seeking help for loss might be necessary, such as during periods of intense grief.",
+      "Student clearly identifies several situations where seeking help for loss is necessary, including prolonged grief, functional impairment, and difficulty coping.",
+      "Student comprehensively identifies numerous situations where seeking help for loss is crucial, including complex grief reactions, traumatic loss, and proactive support strategies."
+    ],
+    [
+      "Student does not recognize any situations where seeking help for depression is necessary.",
+      "Student mentions seeking help for depression but without specific context or reasoning.",
+      "Student identifies a vague situation where seeking help for depression may be appropriate.",
+      "Student identifies a few situations where seeking help for depression might be necessary, such as during periods of prolonged sadness.",
+      "Student clearly identifies several situations where seeking help for depression is necessary, including persistent symptoms, functional impairment, and suicidal ideation.",
+      "Student comprehensively identifies numerous situations where seeking help for depression is crucial, including specific symptoms, co-occurring conditions, and proactive mental health strategies."
+    ]
+  ]
+}

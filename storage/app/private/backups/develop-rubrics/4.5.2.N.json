@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Decision-Making Process",
+    "Application to Physical Activity Options",
+    "Consideration of Health and Safety"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of a decision-making process.",
+      "Student identifies a decision-making process but cannot accurately describe its steps.",
+      "Student describes a decision-making process with some inaccuracies in the steps.",
+      "Student accurately describes a decision-making process and its key steps.",
+      "Student accurately describes a decision-making process and explains the importance of each step in the context of selecting healthy physical activity options.",
+      "Student thoroughly and accurately describes a decision-making process, explains the importance of each step, and provides a nuanced understanding of how it applies to various physical activity scenarios."
+    ],
+    [
+      "Student does not connect the decision-making process to the selection of physical activity options.",
+      "Student makes a vague connection between the decision-making process and physical activity but lacks specifics.",
+      "Student identifies some factors relevant to selecting physical activity options but does not fully integrate them into the decision-making process.",
+      "Student applies the decision-making process to select physical activity options, considering factors like personal interests and resources.",
+      "Student applies the decision-making process effectively, considering a range of factors (interests, resources, health benefits, safety) to select appropriate physical activity options.",
+      "Student expertly applies the decision-making process, thoroughly evaluating a wide range of factors and justifying the selection of physical activity options with detailed reasoning and insightful considerations."
+    ],
+    [
+      "Student does not mention health or safety considerations in the selection of physical activity options.",
+      "Student briefly mentions health or safety but does not elaborate or integrate it into the decision-making process.",
+      "Student identifies some health and safety considerations but does not fully explain their relevance to the selected physical activity options.",
+      "Student considers health and safety when selecting physical activity options, demonstrating an understanding of basic precautions.",
+      "Student thoroughly considers health and safety, explaining potential risks and benefits of different physical activity options and justifying their choices based on these factors.",
+      "Student demonstrates a comprehensive understanding of health and safety, critically evaluates potential risks and benefits, and proposes modifications or adaptations to physical activities to maximize safety and health outcomes."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Form\/Structure",
+    "Explanation of Contribution to Meaning",
+    "Analysis and Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify the form or structure of the drama or poem.",
+      "Student identifies the form or structure, but the identification is inaccurate or incomplete.",
+      "Student identifies the form or structure of the drama or poem.",
+      "Student accurately identifies the form or structure of the drama or poem and provides a basic definition.",
+      "Student accurately identifies the form or structure of the drama or poem and provides a clear definition with relevant examples.",
+      "Student accurately identifies the form or structure of the drama or poem, provides a comprehensive definition, and demonstrates a nuanced understanding of its characteristics."
+    ],
+    [
+      "Student does not explain how the form or structure contributes to the meaning of the drama or poem.",
+      "Student attempts to explain the contribution, but the explanation is vague, illogical, or incorrect.",
+      "Student provides a limited explanation of how the form or structure contributes to the meaning of the drama or poem.",
+      "Student explains how the form or structure contributes to the meaning of the drama or poem with some supporting details.",
+      "Student clearly explains how the form or structure contributes to the meaning of the drama or poem, providing specific and relevant details from the text.",
+      "Student insightfully explains how the form or structure contributes to the meaning of the drama or poem, providing compelling textual evidence and demonstrating a sophisticated understanding of the relationship between form and content."
+    ],
+    [
+      "Student provides no analysis or interpretation of the relationship between form\/structure and meaning.",
+      "Student's analysis is superficial and lacks depth.",
+      "Student offers a basic analysis of how form or structure influences meaning.",
+      "Student provides a detailed analysis of how form and structure shapes the overall meaning, but may not explore more subtle nuances.",
+      "Student provides a thoughtful and well-supported analysis that demonstrates understanding of the subtleties of how form\/structure contributes to meaning.",
+      "Student presents a highly insightful and original analysis of the interplay between form\/structure and meaning, demonstrating a mastery of the standard."
+    ]
+  ]
+}

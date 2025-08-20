@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of long-term causes (e.g., mercantilism, Enlightenment ideas, the Great Awakening).",
+    "Knowledge of short-term causes\/events (e.g., Stamp Act, Tea Act, Intolerable Acts, Boston Massacre).",
+    "Explanation of colonial grievances and resistance."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the long-term causes of the American Revolution.",
+      "Identifies one long-term cause with minimal explanation.",
+      "Identifies two long-term causes with superficial explanations.",
+      "Identifies three long-term causes with basic explanations but lacks depth.",
+      "Explains at least three long-term causes with good detail and connections to colonial discontent.",
+      "Provides a comprehensive explanation of multiple long-term causes, demonstrating a deep understanding of their impact on the growing tensions between Britain and the colonies."
+    ],
+    [
+      "Demonstrates no knowledge of the short-term causes or events leading to the Revolution.",
+      "Identifies one short-term cause\/event with minimal accuracy.",
+      "Identifies two short-term causes\/events with some inaccuracies.",
+      "Identifies three short-term causes\/events with basic accuracy.",
+      "Accurately explains several short-term causes\/events and their impact on colonial sentiment.",
+      "Provides a detailed and accurate explanation of numerous short-term causes\/events, demonstrating a strong understanding of their role in escalating the conflict."
+    ],
+    [
+      "Unable to identify any colonial grievances or forms of resistance.",
+      "Identifies a single grievance or act of resistance with little explanation.",
+      "Identifies multiple grievances or acts of resistance but struggles to explain their significance.",
+      "Explains some key grievances and resistance efforts, such as boycotts and protests.",
+      "Clearly explains the major grievances and various forms of colonial resistance, connecting them to the causes of the Revolution.",
+      "Provides a nuanced explanation of colonial grievances and resistance, demonstrating a deep understanding of colonial motivations and strategies."
+    ]
+  ]
+}

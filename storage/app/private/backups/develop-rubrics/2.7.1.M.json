@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifies Emotions",
+    "Demonstrates Appropriate Emotional Response",
+    "Utilizes Coping Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any emotions.",
+      "Student identifies only one or two basic emotions.",
+      "Student identifies several basic emotions but struggles with complex ones.",
+      "Student identifies a range of emotions, including some complex ones.",
+      "Student identifies a wide range of emotions, including nuanced and complex ones, and can explain the triggers for these emotions.",
+      "Student demonstrates exceptional ability to identify and articulate a comprehensive range of emotions, including subtle variations and complex emotional states, and thoroughly explains their triggers."
+    ],
+    [
+      "Student displays consistently inappropriate emotional responses.",
+      "Student sometimes shows appropriate emotional responses, but often struggles.",
+      "Student usually demonstrates appropriate emotional responses in familiar situations.",
+      "Student consistently demonstrates appropriate emotional responses in a variety of situations.",
+      "Student consistently demonstrates appropriate emotional responses, and adapts their responses based on the context of the situation.",
+      "Student consistently demonstrates exemplary emotional responses in all situations, adapting responses with exceptional awareness and empathy."
+    ],
+    [
+      "Student does not use any coping strategies.",
+      "Student attempts one or two coping strategies with little success.",
+      "Student uses some coping strategies with moderate success.",
+      "Student effectively uses a variety of coping strategies.",
+      "Student effectively uses a variety of coping strategies, and can explain why they are effective.",
+      "Student adeptly employs a diverse array of coping strategies, demonstrating a deep understanding of their effectiveness and customizing their approach with exceptional insight."
+    ]
+  ]
+}

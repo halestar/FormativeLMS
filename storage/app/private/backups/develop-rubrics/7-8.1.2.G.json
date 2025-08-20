@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Summary",
+    "Completeness of Information",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The summary is completely inaccurate or missing.",
+      "The summary contains significant inaccuracies and demonstrates a lack of understanding.",
+      "The summary contains some inaccuracies and demonstrates a limited understanding.",
+      "The summary is mostly accurate, but may have minor omissions or errors.",
+      "The summary is accurate and demonstrates a good understanding of the human reproduction cycle.",
+      "The summary is comprehensive, accurate, and demonstrates a thorough understanding of the human reproduction cycle."
+    ],
+    [
+      "Key stages\/components of the human reproduction cycle are missing from the summary.",
+      "The summary omits several important stages\/components of the human reproduction cycle.",
+      "The summary includes most stages\/components, but lacks detail or explanation.",
+      "The summary includes all key stages\/components with some detail.",
+      "The summary includes all key stages\/components with detailed explanations.",
+      "The summary includes all key stages\/components with comprehensive, detailed explanations and relevant examples."
+    ],
+    [
+      "The summary is disorganized and difficult to understand.",
+      "The summary lacks clear organization and is challenging to follow.",
+      "The summary is somewhat organized but lacks clarity in certain areas.",
+      "The summary is generally clear and organized, but could be improved.",
+      "The summary is clear, well-organized, and easy to follow.",
+      "The summary is exceptionally clear, well-organized, and presents information in a logical and coherent manner."
+    ]
+  ]
+}

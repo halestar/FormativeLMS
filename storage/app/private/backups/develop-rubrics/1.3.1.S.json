@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Ability to identify and list appropriate individuals to seek help from when feeling unsafe or threatened.",
+    "Understanding of the roles and responsibilities of the listed individuals in providing support and safety."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any individuals to seek help from or lists inappropriate individuals.",
+      "Student lists one appropriate individual or lists multiple individuals with limited explanation of their roles.",
+      "Student lists two appropriate individuals and briefly explains their roles in providing help.",
+      "Student lists three appropriate individuals and provides a clear explanation of their roles and how they can assist.",
+      "Student lists four appropriate individuals and provides a detailed explanation of their roles, including specific ways they can offer support.",
+      "Student lists five or more appropriate individuals, provides a comprehensive explanation of their roles, and demonstrates a thorough understanding of how to access their support in various situations."
+    ],
+    [
+      "Student demonstrates no understanding of the roles and responsibilities of the listed individuals.",
+      "Student demonstrates a limited understanding of the roles and responsibilities of the listed individuals.",
+      "Student demonstrates some understanding of the roles and responsibilities of the listed individuals but lacks detail.",
+      "Student demonstrates a clear understanding of the roles and responsibilities of the listed individuals.",
+      "Student demonstrates a detailed understanding of the roles and responsibilities of the listed individuals, including their limitations.",
+      "Student demonstrates a comprehensive understanding of the roles and responsibilities of the listed individuals, including their limitations and how to navigate different support systems."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Differentiability",
+    "Understanding of Continuity",
+    "Understanding the Relationship Between Differentiability and Continuity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of differentiability or its properties.",
+      "Student shows minimal understanding of differentiability; struggles to define it or provide examples.",
+      "Student can define differentiability but struggles to explain its implications.",
+      "Student understands differentiability and can explain its basic implications with some accuracy.",
+      "Student demonstrates a strong understanding of differentiability and can accurately explain its implications and provide relevant examples.",
+      "Student demonstrates a comprehensive understanding of differentiability, can explain its nuances, and apply it to complex problems effectively."
+    ],
+    [
+      "Student demonstrates no understanding of continuity or its properties.",
+      "Student shows minimal understanding of continuity; struggles to define it or provide examples.",
+      "Student can define continuity but struggles to explain its implications.",
+      "Student understands continuity and can explain its basic implications with some accuracy.",
+      "Student demonstrates a strong understanding of continuity and can accurately explain its implications and provide relevant examples.",
+      "Student demonstrates a comprehensive understanding of continuity, can explain its nuances, and apply it to complex problems effectively."
+    ],
+    [
+      "Student demonstrates no understanding of the relationship between differentiability and continuity.",
+      "Student shows confusion and incorrectly relates differentiability and continuity.",
+      "Student can state that differentiability implies continuity but lacks deeper understanding or justification.",
+      "Student can explain that differentiability implies continuity and provides some basic justification.",
+      "Student clearly explains that differentiability implies continuity, justifies the statement with supporting arguments, and provides counterexamples to illustrate limitations.",
+      "Student demonstrates a deep understanding of the relationship, can explain and justify with rigor, and apply the concepts to solve advanced problems."
+    ]
+  ]
+}

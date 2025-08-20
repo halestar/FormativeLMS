@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal and External Structures",
+    "Explanation of Structure-Function Relationship",
+    "Quality of Argument and Use of Evidence",
+    "Understanding of Systems and System Models"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No structures are identified or the structures listed are not relevant to plants or animals.",
+      "Identifies only one internal or external structure with limited relevance to plant or animal survival.",
+      "Identifies at least two internal or external structures but demonstrates a superficial understanding of their functions.",
+      "Identifies several internal and external structures and generally explains their functions related to survival, growth, behavior, and reproduction.",
+      "Accurately identifies multiple internal and external structures and thoroughly explains their functions in supporting survival, growth, behavior, and reproduction with specific examples.",
+      "Masterfully identifies a comprehensive range of internal and external structures, elucidating their complex roles in supporting survival, growth, behavior, and reproduction; demonstrates a deep understanding of interconnectedness."
+    ],
+    [
+      "No relationship between structure and function is mentioned.",
+      "Attempts to relate structure to function but is unclear or inaccurate.",
+      "Provides a basic explanation of how some structures relate to their functions.",
+      "Explains how internal and external structures function to support survival, growth, behavior, and reproduction.",
+      "Clearly explains how specific internal and external structures enable plants and animals to survive, grow, behave, and reproduce, providing detailed examples.",
+      "Insightfully and comprehensively explains the intricate relationship between internal and external structures and their functions, demonstrating a nuanced understanding of adaptive advantages."
+    ],
+    [
+      "No argument is presented or the argument lacks a clear point of view and supporting evidence.",
+      "Presents a weak argument with limited or irrelevant evidence.",
+      "Constructs a somewhat coherent argument but the evidence is not always clearly connected to the claim.",
+      "Constructs a clear argument with evidence supporting the claim that plants and animals have structures that function for survival.",
+      "Constructs a well-reasoned and supported argument with strong evidence, data, and\/or models that demonstrates a deep understanding of structure and function.",
+      "Presents a compelling, insightful, and meticulously supported argument, using comprehensive evidence, data, and\/or models to demonstrate a sophisticated understanding of the relationship between structure, function, and survival."
+    ],
+    [
+      "Does not demonstrate an understanding of systems or how components interact.",
+      "Shows a limited understanding of systems and their components.",
+      "Describes systems but does not adequately explain the interactions between components.",
+      "Describes plants and animals as systems, identifying key components and their interactions.",
+      "Explains how plants and animals function as systems, detailing the interactions between internal and external structures.",
+      "Demonstrates an advanced understanding of plants and animals as complex, interconnected systems, thoroughly explaining the intricate interactions between components and their impact on overall survival and adaptation."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Federalist Papers' Political Philosophy",
+    "Knowledge of Key Leaders' Roles",
+    "Explanation of the Constitution's Underpinnings"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the political philosophy in the Federalist Papers.",
+      "Shows minimal understanding; struggles to identify core principles.",
+      "Identifies some principles but lacks depth in explaining their significance.",
+      "Explains the main political philosophies of the Federalist Papers with reasonable clarity.",
+      "Demonstrates a strong understanding of the political philosophies, explaining their significance and interrelation.",
+      "Shows a comprehensive understanding of the political philosophies, including nuanced interpretations and historical context."
+    ],
+    [
+      "Unable to name or identify the roles of key leaders in the Constitution's creation and ratification.",
+      "Names a few leaders but cannot accurately describe their contributions.",
+      "Identifies several leaders and provides basic descriptions of their roles.",
+      "Describes the roles of key leaders with reasonable accuracy and detail.",
+      "Explains the specific contributions of key leaders and how they shaped the Constitution.",
+      "Provides in-depth analysis of the leaders' roles, including their motivations and impact on the Constitution's final form."
+    ],
+    [
+      "Cannot describe any political philosophy underpinning the constitution",
+      "Struggles to articulate the political underpinnings of the Constitution.",
+      "Identifies some political principles but struggles to connect them to the Constitution's structure or content.",
+      "Explains how political principles influenced the Constitution's creation.",
+      "Demonstrates a strong understanding of the political philosophies, explaining their significance and interrelation to the constitution.",
+      "Shows a comprehensive understanding of the political philosophies and explains how they directly impacted specific aspects of the Constitution with nuanced detail."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Goal Setting",
+    "Strategies Identification",
+    "Action Plan Development",
+    "Evaluation and Adjustment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal identified or goal is completely unrealistic and unachievable.",
+      "Goal is identified, but it is vague, unrealistic, or not related to stress management.",
+      "Goal is somewhat specific and related to stress management, but may lack a clear plan for achievement.",
+      "Goal is specific, realistic, and related to stress management with a basic plan for achievement.",
+      "Goal is well-defined, realistic, and directly addresses stress management with a detailed and feasible plan.",
+      "Goal is exemplary; it is specific, measurable, achievable, relevant, and time-bound (SMART), demonstrating a comprehensive and proactive approach to stress management."
+    ],
+    [
+      "No strategies identified or strategies are unhealthy or counterproductive.",
+      "Identifies one or two strategies that may not be effective or healthy.",
+      "Identifies a few strategies, but their relevance or effectiveness is questionable.",
+      "Identifies several relevant and potentially effective strategies for stress management.",
+      "Identifies a variety of effective and healthy strategies tailored to the specific stressor.",
+      "Identifies a comprehensive and personalized set of strategies, demonstrating a deep understanding of stress management techniques and their application."
+    ],
+    [
+      "No action plan developed.",
+      "Action plan is rudimentary or missing key components.",
+      "Action plan includes some steps, but lacks detail and feasibility.",
+      "Action plan is reasonably detailed with a clear sequence of steps.",
+      "Action plan is comprehensive, well-organized, and includes realistic timelines and resources.",
+      "Action plan is exceptionally detailed, proactive, and includes contingency plans for potential obstacles, demonstrating a high level of preparedness."
+    ],
+    [
+      "No evaluation or adjustment plan included.",
+      "Mentions evaluation, but lacks a clear method or criteria.",
+      "Includes a basic evaluation plan, but lacks specific criteria for adjustment.",
+      "Includes a plan for evaluating progress and making adjustments as needed.",
+      "Includes a detailed evaluation plan with specific criteria for adjustment and reflection.",
+      "Includes a sophisticated and insightful evaluation plan with clear metrics for success, proactive adjustment strategies, and a commitment to continuous improvement."
+    ]
+  ]
+}

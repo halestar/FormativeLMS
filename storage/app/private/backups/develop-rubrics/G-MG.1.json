@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Shape Identification and Application",
+    "Appropriateness of Shape Selection",
+    "Mathematical Justification and Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student incorrectly identifies geometric shapes or does not attempt to apply them to describe real-world objects.",
+      "Student identifies geometric shapes but struggles to apply them accurately to describe real-world objects; descriptions are vague or inappropriate.",
+      "Student identifies basic geometric shapes and attempts to apply them to describe real-world objects, but with some inaccuracies or oversimplifications.",
+      "Student accurately identifies common geometric shapes and applies them to describe real-world objects with reasonable accuracy, although some details may be overlooked.",
+      "Student accurately identifies a variety of geometric shapes and applies them effectively to describe real-world objects, demonstrating a good understanding of geometric properties.",
+      "Student expertly identifies and applies geometric shapes to create detailed and accurate models of real-world objects, demonstrating a comprehensive understanding of geometric properties and their applications."
+    ],
+    [
+      "The shapes chosen are not at all appropriate for modeling the given objects.",
+      "The shapes chosen are questionably appropriate for modeling the given objects, and there is little justification.",
+      "The shapes chosen are somewhat appropriate for modeling the given objects, but the reasoning is not strong.",
+      "The shapes chosen are generally appropriate for modeling the given objects, and the reasoning is adequate.",
+      "The shapes chosen are well-suited for modeling the given objects, and the reasoning is clear and logical.",
+      "The shapes chosen are exceptionally well-suited for modeling the given objects, demonstrating keen insight and a sophisticated understanding."
+    ],
+    [
+      "Student provides no mathematical justification for their shape selections or descriptions.",
+      "Student attempts to provide mathematical justification, but it is unclear, incomplete, or inaccurate.",
+      "Student provides some mathematical justification for their shape selections, but it lacks detail or contains minor errors.",
+      "Student provides adequate mathematical justification for their shape selections, demonstrating a basic understanding of relevant geometric properties.",
+      "Student provides clear and accurate mathematical justification for their shape selections, demonstrating a solid understanding of relevant geometric properties.",
+      "Student provides insightful and comprehensive mathematical justification for their shape selections, demonstrating a deep understanding of relevant geometric properties and their application in modeling."
+    ]
+  ]
+}

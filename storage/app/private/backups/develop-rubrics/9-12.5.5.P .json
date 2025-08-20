@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Risky Behaviors",
+    "Analysis of Consequences",
+    "Accuracy and Relevance of Information",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any risky hygienic or health behaviors\/fads.",
+      "Identifies one risky behavior\/fad, but lacks detail or accuracy.",
+      "Identifies 2 risky behaviors\/fads, but descriptions are basic.",
+      "Identifies 3 risky hygienic or health behaviors\/fads with adequate descriptions.",
+      "Identifies 4 risky hygienic or health behaviors\/fads with detailed and accurate descriptions.",
+      "Identifies multiple (5+) risky hygienic or health behaviors\/fads with comprehensive and insightful descriptions."
+    ],
+    [
+      "Unable to analyze any consequences of risky behaviors.",
+      "Attempts to analyze consequences, but analysis is superficial or inaccurate.",
+      "Analyzes one or two consequences with limited detail.",
+      "Analyzes several consequences for each behavior\/fad, showing some understanding.",
+      "Thoroughly analyzes numerous consequences for each behavior\/fad, demonstrating clear understanding.",
+      "Provides in-depth analysis of a wide range of consequences, including long-term and less obvious impacts, demonstrating exceptional understanding."
+    ],
+    [
+      "Information presented is inaccurate or irrelevant.",
+      "Contains significant inaccuracies or irrelevant information.",
+      "Includes some inaccuracies or irrelevant information.",
+      "Information is generally accurate and relevant with minor errors.",
+      "Information is accurate, relevant, and well-supported.",
+      "Information is exceptionally accurate, relevant, thoroughly researched, and well-supported with credible sources."
+    ],
+    [
+      "Information is presented in a disorganized and confusing manner.",
+      "Lacks clear organization; difficult to follow the analysis.",
+      "Organization is weak; some points are unclear.",
+      "Information is presented in a logical order with mostly clear explanations.",
+      "Well-organized and easy to understand with clear explanations.",
+      "Exceptionally clear, concise, and logically organized presentation that enhances understanding."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Absolute Value as Distance from Zero",
+    "Applying Absolute Value to Real-World Situations",
+    "Ordering of Rational Numbers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of absolute value as distance from zero on a number line.",
+      "Student shows limited understanding of absolute value as distance from zero, with significant errors.",
+      "Student demonstrates a basic understanding of absolute value as distance from zero but struggles with some examples.",
+      "Student accurately interprets absolute value as distance from zero on a number line in most situations.",
+      "Student consistently and accurately interprets absolute value as distance from zero on a number line, with clear explanations.",
+      "Student demonstrates a thorough understanding of absolute value as distance from zero and can explain the concept clearly and apply it to complex scenarios."
+    ],
+    [
+      "Student cannot apply the concept of absolute value to real-world situations.",
+      "Student attempts to apply absolute value to real-world situations but struggles with the concept and calculations.",
+      "Student can apply absolute value to simple real-world situations but needs help with more complex problems.",
+      "Student applies absolute value to real-world situations with reasonable accuracy, though there might be minor errors.",
+      "Student consistently applies absolute value to real-world situations accurately and provides clear interpretations.",
+      "Student expertly applies absolute value to complex real-world situations, demonstrating a deep understanding of its significance and implications."
+    ],
+    [
+      "Student cannot demonstrate understanding of ordering of rational numbers.",
+      "Student struggles to order rational numbers and frequently makes errors.",
+      "Student can order simple rational numbers but has difficulty with fractions and negative numbers.",
+      "Student accurately orders most rational numbers, including fractions and negative numbers, with minimal errors.",
+      "Student consistently orders rational numbers accurately and efficiently, including complex fractions and decimals.",
+      "Student demonstrates a comprehensive understanding of ordering rational numbers and can justify their ordering with clear mathematical reasoning."
+    ]
+  ]
+}

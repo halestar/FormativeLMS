@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Gravitational Force",
+    "Argumentation and Evidence",
+    "Application of Cause and Effect"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of gravitational force or its direction.",
+      "Demonstrates a minimal understanding of gravitational force, with significant misconceptions about its direction.",
+      "Demonstrates a basic understanding of gravitational force but struggles to accurately describe its direction as 'down'.",
+      "Demonstrates a satisfactory understanding of gravitational force and generally describes its direction as 'down,' but lacks clarity or precision.",
+      "Demonstrates a strong understanding of gravitational force and accurately describes its direction as 'down,' providing a clear explanation.",
+      "Demonstrates a comprehensive understanding of gravitational force, accurately describes its direction as 'down,' and provides insightful explanations and examples."
+    ],
+    [
+      "Fails to present an argument or provide any evidence to support the claim about gravitational force.",
+      "Presents a weak argument with irrelevant or insufficient evidence.",
+      "Presents a basic argument with limited evidence that partially supports the claim.",
+      "Presents a clear argument with relevant evidence that supports the claim about gravitational force.",
+      "Presents a well-reasoned argument with strong evidence, data, or a model to support the claim about gravitational force.",
+      "Presents a compelling and sophisticated argument with comprehensive evidence, data, or a model, demonstrating a deep understanding of the concept."
+    ],
+    [
+      "Does not identify or use cause and effect relationships to explain the effects of gravitational force.",
+      "Identifies cause and effect relationships superficially, with little connection to gravitational force.",
+      "Identifies basic cause and effect relationships related to gravitational force, but explanation lacks depth.",
+      "Uses cause and effect relationships to explain how gravitational force affects objects, providing a reasonable explanation.",
+      "Clearly and accurately explains cause and effect relationships to demonstrate a strong understanding of how gravitational force influences motion and stability.",
+      "Demonstrates a nuanced understanding of cause and effect relationships, providing insightful explanations of how gravitational force intricately affects motion, stability, and interactions."
+    ]
+  ]
+}

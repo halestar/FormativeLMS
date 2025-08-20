@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Explanation of How Influences Affect Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any internal influences on food choices.",
+      "The student identifies one internal influence on food choices with limited accuracy.",
+      "The student identifies two internal influences on food choices with some accuracy.",
+      "The student identifies three internal influences on food choices with good accuracy.",
+      "The student identifies four internal influences on food choices with accuracy and provides basic examples.",
+      "The student comprehensively identifies multiple internal influences (e.g., hunger, taste preferences, nutritional needs, mood) on food choices with detailed examples and explanations."
+    ],
+    [
+      "The student fails to identify any external influences on food choices.",
+      "The student identifies one external influence on food choices with limited accuracy.",
+      "The student identifies two external influences on food choices with some accuracy.",
+      "The student identifies three external influences on food choices with good accuracy.",
+      "The student identifies four external influences on food choices with accuracy and provides basic examples.",
+      "The student comprehensively identifies multiple external influences (e.g., culture, family, advertising, cost, availability) on food choices with detailed examples and explanations."
+    ],
+    [
+      "The student does not explain how internal or external influences affect food choices.",
+      "The student attempts to explain how one influence affects food choices, but the explanation is unclear or inaccurate.",
+      "The student provides a basic explanation of how one internal and one external influence affect food choices.",
+      "The student explains how multiple internal and external influences affect food choices with reasonable clarity.",
+      "The student clearly explains how multiple internal and external influences affect food choices, providing relevant examples.",
+      "The student thoroughly analyzes and explains how a wide range of internal and external influences interact to affect food choices, demonstrating a deep understanding of the complexities involved."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Key Terms",
+    "Analysis of Author's Use of Language",
+    "Application of Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of key terms within the text.",
+      "Student shows minimal understanding of key terms, with significant inaccuracies.",
+      "Student identifies key terms but struggles to define them accurately or provide context.",
+      "Student demonstrates a basic understanding of key terms and their definitions within the text.",
+      "Student accurately defines key terms and explains their significance to the text.",
+      "Student demonstrates a sophisticated understanding of key terms, including nuances and contextual variations."
+    ],
+    [
+      "Student does not analyze how the author uses language or refines meaning.",
+      "Student attempts to analyze author's language but provides superficial or inaccurate observations.",
+      "Student identifies instances of author's language use but struggles to explain their effect on meaning.",
+      "Student provides a basic analysis of how the author uses language to shape meaning.",
+      "Student offers a detailed analysis of the author's language choices and their impact on the text's meaning.",
+      "Student demonstrates a nuanced understanding of how the author strategically uses and refines language to convey complex ideas."
+    ],
+    [
+      "Student is unable to apply their understanding of language to interpret the text.",
+      "Student struggles to connect their understanding of language to the overall meaning of the text.",
+      "Student makes limited connections between language analysis and the text's interpretation.",
+      "Student applies their understanding of language to interpret the text with some success.",
+      "Student effectively uses language analysis to support their interpretation of the text.",
+      "Student synthesizes their understanding of language and textual analysis to offer a insightful and well-supported interpretation of the text."
+    ]
+  ]
+}

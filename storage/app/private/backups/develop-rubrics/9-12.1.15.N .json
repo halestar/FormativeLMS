@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Physical Benefits",
+    "Understanding of Academic Benefits",
+    "Understanding of Mental\/Emotional Benefits",
+    "Understanding of Social Benefits",
+    "Understanding of Sedentary Lifestyle and Chronic Disease"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the physical benefits of physical activity.",
+      "Identifies one physical benefit of physical activity with limited explanation.",
+      "Identifies two physical benefits of physical activity with basic explanations.",
+      "Identifies three physical benefits of physical activity with clear explanations.",
+      "Identifies multiple physical benefits of physical activity with detailed explanations and examples.",
+      "Provides a comprehensive explanation of numerous physical benefits, including nuanced effects and long-term advantages."
+    ],
+    [
+      "Demonstrates no understanding of the academic benefits of physical activity.",
+      "Identifies one academic benefit of physical activity with limited explanation.",
+      "Identifies two academic benefits of physical activity with basic explanations.",
+      "Identifies three academic benefits of physical activity with clear explanations.",
+      "Identifies multiple academic benefits of physical activity with detailed explanations and examples.",
+      "Provides a comprehensive explanation of numerous academic benefits, including nuanced effects on cognitive function and academic performance."
+    ],
+    [
+      "Demonstrates no understanding of the mental\/emotional benefits of physical activity.",
+      "Identifies one mental\/emotional benefit of physical activity with limited explanation.",
+      "Identifies two mental\/emotional benefits of physical activity with basic explanations.",
+      "Identifies three mental\/emotional benefits of physical activity with clear explanations.",
+      "Identifies multiple mental\/emotional benefits of physical activity with detailed explanations and examples.",
+      "Provides a comprehensive explanation of numerous mental\/emotional benefits, including detailed understanding of the psychological mechanisms and effects on stress reduction."
+    ],
+    [
+      "Demonstrates no understanding of the social benefits of physical activity.",
+      "Identifies one social benefit of physical activity with limited explanation.",
+      "Identifies two social benefits of physical activity with basic explanations.",
+      "Identifies three social benefits of physical activity with clear explanations.",
+      "Identifies multiple social benefits of physical activity with detailed explanations and examples.",
+      "Provides a comprehensive explanation of numerous social benefits, including how physical activity promotes community, teamwork, and reduces social isolation."
+    ],
+    [
+      "Demonstrates no understanding of the relationship between a sedentary lifestyle and chronic disease.",
+      "Identifies a link between sedentary lifestyle and chronic disease with limited explanation.",
+      "Explains how a sedentary lifestyle contributes to one chronic disease.",
+      "Explains how a sedentary lifestyle contributes to two chronic diseases.",
+      "Explains how a sedentary lifestyle contributes to multiple chronic diseases, providing specific examples.",
+      "Provides a comprehensive and nuanced explanation of how a sedentary lifestyle contributes to a wide range of chronic diseases, including physiological mechanisms and societal impacts."
+    ]
+  ]
+}

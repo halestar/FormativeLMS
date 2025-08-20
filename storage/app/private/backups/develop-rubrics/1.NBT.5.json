@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy in finding 10 more or 10 less than a given two-digit number mentally.",
+    "Clarity and correctness of the explanation of the reasoning used."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to find 10 more or 10 less than the given number and relies on counting.",
+      "Incorrectly finds 10 more or 10 less than the given number most of the time and struggles with mental calculation.",
+      "Sometimes finds 10 more or 10 less than the given number mentally, but makes frequent errors.",
+      "Usually finds 10 more or 10 less than the given number mentally with occasional errors.",
+      "Accurately finds 10 more or 10 less than the given number mentally most of the time.",
+      "Consistently and accurately finds 10 more or 10 less than the given number mentally without any errors."
+    ],
+    [
+      "Unable to explain the reasoning used or provides an explanation that is unclear and incorrect.",
+      "Provides a vague explanation of the reasoning, but it is difficult to understand and contains inaccuracies.",
+      "Attempts to explain the reasoning, but the explanation lacks clarity and may contain some errors.",
+      "Explains the reasoning used with some clarity, but may have minor gaps in understanding.",
+      "Clearly explains the reasoning used with a good understanding of place value and properties of operations.",
+      "Clearly, concisely, and correctly explains the reasoning used, demonstrating a thorough understanding of place value and properties of operations."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of the Main Idea:  Demonstrates the ability to accurately identify the central theme or argument of the speech.",
+    "Contextual Understanding: Demonstrates understanding of the historical and political context surrounding the speech.",
+    "Analysis of Policy Significance: Analyzes and explains the policy implications and long-term effects of the speech.",
+    "Use of Evidence and Examples: Uses specific evidence and examples from the speech to support their analysis and claims."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the main idea of the speech.",
+      "Struggles to identify the main idea; provides an inaccurate or incomplete summary.",
+      "Identifies the main idea but struggles to articulate it clearly or provides a superficial understanding.",
+      "Clearly identifies the main idea of the speech and provides a satisfactory summary.",
+      "Accurately and clearly identifies the main idea, providing a well-developed summary with supporting details.",
+      "Masterfully identifies the central theme, providing insightful analysis and a comprehensive summary that demonstrates a deep understanding."
+    ],
+    [
+      "Shows no understanding of the historical or political context of the speech.",
+      "Demonstrates minimal understanding of the context; presents inaccurate or irrelevant information.",
+      "Shows some understanding of the context but struggles to connect it to the speech's content or significance.",
+      "Demonstrates a satisfactory understanding of the historical and political context.",
+      "Clearly connects the speech to its historical and political context, explaining its relevance and impact.",
+      "Provides a nuanced and insightful analysis of the speech's context, demonstrating a comprehensive understanding of its historical and political significance."
+    ],
+    [
+      "Fails to analyze the policy significance of the speech.",
+      "Attempts to analyze the policy significance but provides a superficial or inaccurate explanation.",
+      "Identifies some policy implications but struggles to explain their significance or long-term effects.",
+      "Analyzes and explains the policy implications of the speech with reasonable accuracy.",
+      "Clearly explains the policy significance of the speech, demonstrating a strong understanding of its impact.",
+      "Provides a comprehensive and insightful analysis of the speech's policy significance, demonstrating a profound understanding of its long-term effects and implications."
+    ],
+    [
+      "Provides no evidence or examples from the speech to support their analysis.",
+      "Provides minimal or irrelevant evidence; evidence does not support their claims.",
+      "Uses some evidence but struggles to connect it to their analysis or explain its significance.",
+      "Provides relevant evidence and examples from the speech to support their analysis.",
+      "Uses strong and specific evidence to effectively support their analysis and claims.",
+      "Masterfully integrates evidence and examples from the speech to create a compelling and insightful analysis."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the legal definition of a weapon according to Education Code (EC) Section 49330 and the Glossary.",
+    "Explanation of the dangers associated with weapons.",
+    "Clarity and coherence of explanation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the legal definition of a weapon.",
+      "The student shows a very limited understanding of the legal definition of a weapon, with significant inaccuracies.",
+      "The student demonstrates a partial understanding of the legal definition of a weapon, but with some inaccuracies or omissions.",
+      "The student accurately defines the legal definition of a weapon, demonstrating a good understanding of the key components.",
+      "The student provides a comprehensive and accurate definition of a weapon, referencing specific aspects of the legal definition and demonstrating a strong understanding.",
+      "The student provides a nuanced and thorough understanding of the legal definition of a weapon, including the ability to apply the definition to various scenarios and explain its implications."
+    ],
+    [
+      "The student does not identify any dangers associated with weapons.",
+      "The student identifies only one or two dangers, and the explanation is vague or unclear.",
+      "The student identifies some dangers associated with weapons, but the explanation lacks detail or accuracy.",
+      "The student clearly explains several dangers associated with weapons, demonstrating a good understanding of the potential harm.",
+      "The student provides a detailed explanation of multiple dangers associated with weapons, including physical, psychological, and social consequences.",
+      "The student offers a comprehensive and insightful analysis of the dangers associated with weapons, including long-term consequences and the impact on individuals and communities."
+    ],
+    [
+      "The student's explanation is unclear, disorganized, and difficult to understand.",
+      "The student's explanation lacks clarity and coherence, with significant gaps in logic or reasoning.",
+      "The student's explanation is somewhat clear and organized, but with some confusing or incomplete elements.",
+      "The student presents a clear and organized explanation of the dangers of weapons, with logical reasoning and supporting evidence.",
+      "The student's explanation is exceptionally clear, concise, and well-organized, with a logical flow of ideas and strong supporting evidence.",
+      "The student delivers a compelling and insightful explanation of the dangers of weapons, demonstrating a mastery of communication skills and a deep understanding of the subject matter."
+    ]
+  ]
+}

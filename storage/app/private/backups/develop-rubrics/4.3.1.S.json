@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to differentiate between reliable and unreliable sources of health information regarding injury prevention and safety.",
+    "Understanding of the key factors that contribute to the reliability of a source (e.g., author expertise, evidence-based information, peer review, publication date).",
+    "Application of knowledge to select credible sources for injury prevention and safety information."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any sources or only identifies sources that are clearly unreliable without any justification.",
+      "Identifies one or more sources with limited justification for their reliability or unreliability. Demonstrates a basic misunderstanding of source credibility.",
+      "Identifies a few sources, but the justification for their reliability or unreliability is superficial or incomplete. Some misunderstanding of source credibility is evident.",
+      "Identifies several sources and provides adequate justification for their reliability or unreliability. Demonstrates a general understanding of source credibility.",
+      "Identifies multiple sources and provides clear and well-reasoned justification for their reliability or unreliability. Demonstrates a solid understanding of source credibility and potential biases.",
+      "Identifies a comprehensive range of sources and provides insightful, nuanced justification for their reliability or unreliability, including discussion of potential biases and conflicts of interest. Demonstrates a sophisticated understanding of source evaluation."
+    ],
+    [
+      "Shows no understanding of the key factors that contribute to source reliability.",
+      "Demonstrates a very limited understanding of the key factors contributing to source reliability; mentions one factor without adequate explanation.",
+      "Demonstrates a basic understanding of some key factors contributing to source reliability, but the explanation is superficial or incomplete.",
+      "Demonstrates a satisfactory understanding of the key factors contributing to source reliability and provides a reasonable explanation of each.",
+      "Demonstrates a strong understanding of the key factors contributing to source reliability and provides a clear and detailed explanation of each, including the importance of considering multiple factors.",
+      "Demonstrates a comprehensive and nuanced understanding of the key factors contributing to source reliability, and provides an insightful and detailed explanation of each, including the complex interplay of factors and potential limitations."
+    ],
+    [
+      "Unable to apply knowledge to select credible sources.",
+      "Attempts to apply knowledge, but selects sources that are largely unreliable or inappropriate.",
+      "Selects some credible sources, but also includes sources of questionable reliability or relevance.",
+      "Selects mostly credible sources that are relevant to injury prevention and safety.",
+      "Selects credible and relevant sources and demonstrates a clear rationale for their selection.",
+      "Selects a diverse range of highly credible and relevant sources, demonstrating a sophisticated understanding of source selection and evaluation in the context of injury prevention and safety."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Social Implications",
+    "Understanding Legal Implications",
+    "Application to Specific Substances (Alcohol, Tobacco, and Other Drugs)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the social implications of substance use and abuse.",
+      "Identifies one social implication of substance use or abuse.",
+      "Identifies some social implications of substance use and abuse with limited explanation.",
+      "Clearly identifies and explains several social implications of substance use and abuse.",
+      "Thoroughly explains multiple social implications of substance use and abuse, demonstrating a strong understanding.",
+      "Provides a comprehensive analysis of the social implications, including nuanced perspectives and real-world examples."
+    ],
+    [
+      "Demonstrates no understanding of the legal implications of substance use and abuse.",
+      "Identifies one legal implication of substance use or abuse.",
+      "Identifies some legal implications of substance use and abuse with limited explanation.",
+      "Clearly identifies and explains several legal implications of substance use and abuse.",
+      "Thoroughly explains multiple legal implications of substance use and abuse, demonstrating a strong understanding.",
+      "Provides a comprehensive analysis of the legal implications, including nuanced perspectives and real-world examples, while making connections between legal and social implications."
+    ],
+    [
+      "Does not relate the implications to specific substances.",
+      "Relates implications to only one type of substance (alcohol, tobacco, or other drugs).",
+      "Relates implications to two types of substances, but lacks depth.",
+      "Discusses implications for alcohol, tobacco, and other drugs, providing some specific examples.",
+      "Provides detailed examples of social and legal implications for alcohol, tobacco, and other drugs, demonstrating a strong understanding of their specific effects.",
+      "Critically evaluates and compares the social and legal implications across alcohol, tobacco, and other drugs, providing a sophisticated understanding of the nuances for each."
+    ]
+  ]
+}

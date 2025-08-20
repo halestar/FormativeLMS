@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Place Value",
+    "Accurate Comparison",
+    "Correct Use of Symbols (>, =, <)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of place value (tens and ones).",
+      "Student shows limited understanding of place value, struggling to identify the tens and ones digits.",
+      "Student can identify tens and ones digits but struggles to explain their value or compare numbers.",
+      "Student demonstrates a basic understanding of place value, able to identify and explain the value of tens and ones digits in isolation.",
+      "Student demonstrates a strong understanding of place value, accurately explaining the value of tens and ones digits and using this understanding to compare numbers.",
+      "Student demonstrates a comprehensive understanding of place value, accurately explaining the value of tens and ones digits, comparing numbers, and justifying their comparisons."
+    ],
+    [
+      "Student cannot compare two-digit numbers accurately.",
+      "Student attempts to compare numbers but makes frequent errors.",
+      "Student can compare numbers with guidance but struggles independently.",
+      "Student can accurately compare two-digit numbers in most cases but may make occasional errors.",
+      "Student consistently and accurately compares two-digit numbers.",
+      "Student consistently and accurately compares two-digit numbers and can explain the reasoning behind the comparison."
+    ],
+    [
+      "Student does not use the symbols >, =, and < correctly or does not use them at all.",
+      "Student uses the symbols inconsistently and often incorrectly.",
+      "Student can sometimes use the symbols correctly with prompting.",
+      "Student generally uses the symbols correctly but may make occasional errors.",
+      "Student consistently uses the symbols >, =, and < correctly to represent comparisons.",
+      "Student consistently uses the symbols correctly and can explain why a particular symbol is appropriate for a given comparison."
+    ]
+  ]
+}

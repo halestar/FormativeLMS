@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Landmark Supreme Court Cases",
+    "Explanation of Controversies and Changing Interpretations",
+    "Application of Cases to Modern Civil Rights Issues"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the cases or their significance.",
+      "Demonstrates minimal understanding of the cases and their significance; major inaccuracies present.",
+      "Identifies the cases but struggles to explain their relevance or impact on civil rights interpretations; some inaccuracies.",
+      "Explains the cases and their relevance to civil rights interpretations with moderate accuracy; may miss nuanced details.",
+      "Clearly explains the cases, their historical context, and their impact on civil rights interpretations with good accuracy.",
+      "Provides a comprehensive and insightful explanation of the cases, their historical context, their complex impact on civil rights interpretations, and demonstrates in-depth understanding."
+    ],
+    [
+      "Fails to explain the controversies surrounding the changing interpretations of civil rights.",
+      "Attempts to explain the controversies but demonstrates significant confusion or misunderstanding.",
+      "Identifies some controversies related to changing interpretations but struggles to explain them clearly.",
+      "Explains the controversies surrounding changing interpretations with moderate clarity; may lack depth.",
+      "Clearly explains the controversies and changing interpretations of civil rights, demonstrating a solid understanding.",
+      "Provides a thorough and nuanced explanation of the controversies, demonstrating a sophisticated understanding of the evolving interpretations of civil rights and their implications."
+    ],
+    [
+      "Unable to connect the cases to modern civil rights issues.",
+      "Attempts to connect the cases to modern issues but connections are unclear or inaccurate.",
+      "Draws some connections between the cases and modern issues but lacks depth and understanding.",
+      "Connects the cases to modern civil rights issues with moderate understanding and clarity.",
+      "Effectively connects the cases to modern civil rights issues, demonstrating a clear understanding of their continued relevance.",
+      "Insightfully connects the cases to contemporary civil rights issues, demonstrating a deep understanding of their enduring impact and offering thoughtful analysis."
+    ]
+  ]
+}

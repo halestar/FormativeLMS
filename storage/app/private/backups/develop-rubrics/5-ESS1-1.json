@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Apparent Brightness vs. Distance: Demonstrates comprehension of how the distance between stars and Earth affects their apparent brightness.",
+    "Argumentation with Evidence: Supports claims with relevant evidence to argue that differences in apparent brightness are due to relative distances.",
+    "Use of Scientific Vocabulary: Accurately uses scientific terms related to stars, brightness, and distance."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the relationship between distance and apparent brightness is demonstrated.",
+      "Demonstrates a limited understanding, with significant misconceptions about the relationship between distance and apparent brightness.",
+      "Demonstrates a basic understanding, but struggles to explain the concept clearly or accurately.",
+      "Demonstrates a satisfactory understanding and can explain that closer stars appear brighter, but lacks depth.",
+      "Demonstrates a strong understanding and clearly explains how the distance to stars affects their apparent brightness, providing accurate examples.",
+      "Demonstrates a comprehensive understanding, clearly articulating the relationship with insightful explanations and examples. Connects this understanding to real-world observations."
+    ],
+    [
+      "No argument is presented, or the argument is not related to the prompt.",
+      "Presents an argument with little or no evidence.",
+      "Presents a weak argument with limited evidence that may not directly support the claim.",
+      "Supports an argument with some relevant evidence, but the connection between evidence and claim could be stronger.",
+      "Supports a clear and logical argument with relevant evidence, demonstrating a good understanding of the concept.",
+      "Constructs a compelling argument with strong, relevant evidence, demonstrating a deep understanding and critical thinking."
+    ],
+    [
+      "Does not use any relevant scientific vocabulary or uses it incorrectly.",
+      "Uses limited scientific vocabulary, with frequent errors in usage.",
+      "Uses some scientific vocabulary, but with occasional errors or imprecision.",
+      "Uses appropriate scientific vocabulary accurately most of the time.",
+      "Uses a wide range of scientific vocabulary accurately and effectively.",
+      "Uses sophisticated scientific vocabulary precisely and demonstrates a nuanced understanding of the terms."
+    ]
+  ]
+}

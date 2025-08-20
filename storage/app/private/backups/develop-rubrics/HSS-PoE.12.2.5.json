@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Supply and Demand Concepts",
+    "Explanation of Market Price Determination",
+    "Application to Real-World Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of supply and demand concepts.",
+      "Student demonstrates minimal understanding of supply and demand, with significant misconceptions.",
+      "Student demonstrates a basic understanding of supply and demand but struggles to apply it to real-world scenarios.",
+      "Student demonstrates a satisfactory understanding of supply and demand and can apply it to simple scenarios.",
+      "Student demonstrates a strong understanding of supply and demand and can apply it to various scenarios with minor errors.",
+      "Student demonstrates a comprehensive understanding of supply and demand and can apply it effectively to complex, real-world scenarios."
+    ],
+    [
+      "Student cannot explain how competition among buyers and sellers determines market price.",
+      "Student attempts to explain market price determination but provides an inaccurate or incomplete explanation.",
+      "Student explains market price determination with limited accuracy and detail.",
+      "Student explains market price determination adequately, highlighting the roles of buyers and sellers.",
+      "Student explains market price determination clearly and accurately, detailing the interaction between supply, demand, and competition.",
+      "Student provides a thorough and insightful explanation of market price determination, including nuanced factors and potential market failures."
+    ],
+    [
+      "Student cannot provide any real-world examples of market price determination.",
+      "Student provides irrelevant or inaccurate examples.",
+      "Student provides basic examples with limited explanation of the connection to market price determination.",
+      "Student provides relevant examples and explains the connection to market price determination with some clarity.",
+      "Student provides several relevant examples and clearly explains the connection to market price determination, demonstrating a solid understanding.",
+      "Student provides insightful and diverse examples, demonstrating a deep understanding of how competition among buyers and sellers determines market prices in various contexts."
+    ]
+  ]
+}

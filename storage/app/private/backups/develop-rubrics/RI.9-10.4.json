@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Literal and Figurative Meanings",
+    "Analysis of Connotative and Technical Meanings",
+    "Impact of Word Choices on Meaning and Tone",
+    "Comparison of Language Across Contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of word meanings within the text; does not recognize literal or figurative language.",
+      "Struggles to identify word meanings; shows minimal awareness of literal and figurative language.",
+      "Identifies some word meanings but has difficulty distinguishing between literal and figurative uses; understanding is superficial.",
+      "Accurately determines the meaning of most words and phrases; shows a basic understanding of figurative language.",
+      "Demonstrates a strong understanding of word meanings, including literal and figurative language; identifies nuances in word choice.",
+      "Masterfully interprets word meanings, including complex figurative language; demonstrates a sophisticated understanding of nuances and subtleties."
+    ],
+    [
+      "Does not address connotative or technical meanings of words.",
+      "Attempts to address connotative or technical meanings but demonstrates confusion or misunderstanding.",
+      "Identifies some connotative or technical meanings, but analysis is limited and lacks depth.",
+      "Explains the connotative and technical meanings of words with reasonable accuracy.",
+      "Analyzes the connotative and technical meanings of words effectively, providing clear and insightful explanations.",
+      "Provides a nuanced and comprehensive analysis of connotative and technical meanings, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "Fails to recognize the impact of word choices on the overall meaning and tone of the text.",
+      "Shows a limited awareness of how word choices can affect meaning and tone.",
+      "Identifies some instances where word choices influence meaning and tone, but analysis is superficial.",
+      "Analyzes the impact of specific word choices on meaning and tone with reasonable accuracy.",
+      "Demonstrates a strong ability to analyze how word choices shape meaning and tone, providing specific examples from the text.",
+      "Offers a perceptive and insightful analysis of how word choices create specific effects, revealing a deep understanding of the author's craft."
+    ],
+    [
+      "Does not attempt to compare language across different types of texts.",
+      "Attempts to compare language across texts but demonstrates little understanding of the differences.",
+      "Identifies some differences in language use across contexts, but analysis is limited.",
+      "Compares language in different contexts (e.g., court opinion vs. newspaper) with some accuracy.",
+      "Provides a clear and effective comparison of language use in different contexts, highlighting key distinctions.",
+      "Offers a sophisticated and insightful comparison of language across contexts, demonstrating a nuanced understanding of register and audience."
+    ]
+  ]
+}

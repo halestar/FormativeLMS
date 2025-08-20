@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Theme or Central Idea",
+    "Analysis of Theme Development",
+    "Use of Specific Details",
+    "Objectivity of Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify a theme or central idea.",
+      "Identifies a theme or central idea, but it is vague or inaccurate.",
+      "Identifies a plausible theme or central idea, but lacks depth.",
+      "Clearly identifies a theme or central idea relevant to the text.",
+      "Identifies a nuanced theme or central idea, demonstrating strong comprehension.",
+      "Insightfully identifies a complex theme or central idea, revealing a deep understanding of the text."
+    ],
+    [
+      "Provides no analysis of the theme's development.",
+      "Attempts to analyze theme development, but analysis is superficial or unsupported.",
+      "Describes some aspects of theme development with limited explanation.",
+      "Analyzes how the theme develops over the course of the text with relevant details.",
+      "Provides a detailed analysis of theme development, including how it emerges, is shaped, and refined.",
+      "Offers a sophisticated and insightful analysis of theme development, demonstrating a comprehensive understanding of its evolution."
+    ],
+    [
+      "Includes no specific details from the text.",
+      "Includes few or irrelevant details.",
+      "Includes some relevant details, but they are not well-integrated or explained.",
+      "Effectively uses specific details to support analysis.",
+      "Skillfully uses specific details to illuminate the theme and its development.",
+      "Masterfully integrates specific details to provide a compelling and insightful interpretation of the theme."
+    ],
+    [
+      "Provides a summary that is heavily biased or inaccurate.",
+      "Struggles to provide an objective summary; summary includes personal opinions.",
+      "Provides a partially objective summary, but some biases are present.",
+      "Provides a generally objective summary of the text.",
+      "Provides a clear and objective summary, accurately representing the main points.",
+      "Provides a concise, comprehensive, and objective summary, demonstrating a thorough understanding of the text's content and purpose."
+    ]
+  ]
+}

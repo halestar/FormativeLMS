@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Nutrients",
+    "Definition of Nutrient Functions",
+    "Clarity and Accuracy of Explanations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any key nutrients.",
+      "Student identifies only one key nutrient with significant inaccuracies.",
+      "Student identifies 2 key nutrients but struggles to explain their role.",
+      "Student identifies 3-4 key nutrients and provides a basic description of their function.",
+      "Student identifies 4-5 key nutrients and accurately describes their primary functions.",
+      "Student accurately identifies more than 5 key nutrients and provides comprehensive details about their functions."
+    ],
+    [
+      "Student cannot define the functions of any nutrients.",
+      "Student provides an inaccurate or irrelevant definition of nutrient functions.",
+      "Student provides a vague or incomplete definition of nutrient functions.",
+      "Student defines the functions of nutrients with limited detail and some inaccuracies.",
+      "Student provides clear and accurate definitions of nutrient functions.",
+      "Student provides detailed and insightful definitions of nutrient functions, showcasing a comprehensive understanding."
+    ],
+    [
+      "Explanations are completely unclear and inaccurate.",
+      "Explanations are difficult to understand and contain significant inaccuracies.",
+      "Explanations lack clarity and contain several inaccuracies.",
+      "Explanations are generally clear but contain minor inaccuracies.",
+      "Explanations are clear, accurate, and easy to understand.",
+      "Explanations are exceptionally clear, accurate, and demonstrate a deep understanding of the material."
+    ]
+  ]
+}

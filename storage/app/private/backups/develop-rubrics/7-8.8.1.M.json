@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates respectful communication and behavior towards peers and staff.",
+    "Actively participates in creating a positive school environment.",
+    "Demonstrates an understanding of and respect for diversity and inclusion."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Consistently displays disrespectful behavior, uses offensive language, and disregards the feelings of others.",
+      "Often displays disrespectful behavior, sometimes uses offensive language, and occasionally disregards the feelings of others.",
+      "Occasionally displays disrespectful behavior, rarely uses offensive language, and sometimes disregards the feelings of others.",
+      "Generally displays respectful behavior, avoids offensive language, and usually considers the feelings of others.",
+      "Consistently displays respectful behavior, avoids offensive language, and considers the feelings of others.",
+      "Consistently models respectful behavior, uses inclusive language, and actively promotes the feelings of others."
+    ],
+    [
+      "Actively detracts from a positive school environment through negative actions or words.",
+      "Rarely participates in activities that promote a positive school environment.",
+      "Occasionally participates in activities that promote a positive school environment.",
+      "Regularly participates in activities that promote a positive school environment.",
+      "Actively participates in activities that promote a positive school environment and encourages others to do the same.",
+      "Leads initiatives and consistently promotes a positive school environment, inspiring others to participate."
+    ],
+    [
+      "Displays a lack of understanding or respect for diversity and inclusion, potentially making insensitive remarks.",
+      "Shows limited understanding or respect for diversity and inclusion, and may occasionally make insensitive remarks.",
+      "Demonstrates some understanding and respect for diversity and inclusion, but may still have some biases.",
+      "Demonstrates a solid understanding and respect for diversity and inclusion, and actively avoids insensitive remarks.",
+      "Consistently demonstrates a strong understanding and respect for diversity and inclusion, and challenges others' insensitive remarks.",
+      "Champions diversity and inclusion, educating others and creating an inclusive environment for all."
+    ]
+  ]
+}

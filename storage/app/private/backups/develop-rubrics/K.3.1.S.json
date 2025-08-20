@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately identify trusted adults and their roles in emergency situations.",
+    "Understanding of diverse emergency scenarios and when to seek help from trusted adults.",
+    "Awareness of resources and reporting mechanisms available when trusted adults are not immediately accessible."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any trusted adults or demonstrates misunderstanding of their role in emergencies.",
+      "Identifies one or two potential adults but struggles to articulate their specific roles during emergencies.",
+      "Identifies a few trusted adults and vaguely describes their roles in emergency support.",
+      "Identifies several trusted adults and provides a general description of the ways they can help in emergencies.",
+      "Identifies multiple trusted adults and accurately explains their specific roles and responsibilities in various emergency scenarios.",
+      "Thoroughly identifies a comprehensive list of trusted adults, accurately details their specific roles and responsibilities in a wide range of emergency scenarios, and demonstrates a clear understanding of when and how to seek their assistance."
+    ],
+    [
+      "Shows no understanding of different emergency scenarios or when to seek help.",
+      "Demonstrates a limited understanding of emergency situations and struggles to recognize when adult assistance is necessary.",
+      "Recognizes a few common emergency scenarios and vaguely describes when seeking help is appropriate.",
+      "Identifies several emergency scenarios and generally explains when to seek assistance from trusted adults.",
+      "Clearly understands a variety of emergency situations and accurately explains when and how to seek help from specific trusted adults.",
+      "Demonstrates a comprehensive understanding of a wide range of emergency situations, accurately assesses the appropriate response strategies, and articulates a clear plan for seeking assistance from trusted adults in each scenario."
+    ],
+    [
+      "Shows no awareness of alternative resources or reporting mechanisms.",
+      "Has minimal awareness of alternative options and cannot describe how to access them.",
+      "Identifies one or two alternative resources but lacks a clear understanding of how to utilize them effectively.",
+      "Lists several alternative resources and generally describes how to report emergencies when trusted adults are unavailable.",
+      "Demonstrates a strong understanding of available resources and clearly explains the steps for reporting emergencies through various channels.",
+      "Exhibits comprehensive knowledge of diverse resources and reporting mechanisms, confidently articulates the process for accessing each option, and demonstrates the ability to adapt their approach based on the specific emergency situation and available resources."
+    ]
+  ]
+}

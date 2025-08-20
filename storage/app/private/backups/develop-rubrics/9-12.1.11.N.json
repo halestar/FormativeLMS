@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifies the causes of eating disorders",
+    "Identifies the symptoms of eating disorders",
+    "Explains the harmful effects of eating disorders",
+    "Understanding of the complexities and co-occurring factors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any causes of eating disorders or provides inaccurate information.",
+      "Identifies only one cause of eating disorders with limited accuracy.",
+      "Identifies some causes of eating disorders with some accuracy.",
+      "Identifies several causes of eating disorders with reasonable accuracy.",
+      "Identifies most of the significant causes of eating disorders with high accuracy.",
+      "Identifies all the significant causes of eating disorders comprehensively and accurately, demonstrating a deep understanding."
+    ],
+    [
+      "Does not identify any symptoms of eating disorders or provides inaccurate information.",
+      "Identifies only one symptom of eating disorders with limited accuracy.",
+      "Identifies some symptoms of eating disorders with some accuracy.",
+      "Identifies several symptoms of eating disorders with reasonable accuracy.",
+      "Identifies most of the significant symptoms of eating disorders with high accuracy.",
+      "Identifies all the significant symptoms of eating disorders comprehensively and accurately, demonstrating a deep understanding."
+    ],
+    [
+      "Does not explain any harmful effects of eating disorders or provides inaccurate information.",
+      "Explains only one harmful effect of eating disorders with limited accuracy.",
+      "Explains some harmful effects of eating disorders with some accuracy.",
+      "Explains several harmful effects of eating disorders with reasonable accuracy.",
+      "Explains most of the significant harmful effects of eating disorders with high accuracy.",
+      "Explains all the significant harmful effects of eating disorders comprehensively and accurately, demonstrating a deep understanding of the physical and psychological consequences."
+    ],
+    [
+      "Demonstrates no understanding of the complexities of eating disorders",
+      "Demonstrates a limited understanding of the complexities of eating disorders",
+      "Demonstrates some awareness of the complexities of eating disorders",
+      "Demonstrates a good understanding of the complexities of eating disorders, like societal pressures and low self-esteem.",
+      "Demonstrates a strong understanding of the complexities of eating disorders, incorporating societal pressures and low self-esteem.",
+      "Demonstrates a comprehensive understanding of the complexities of eating disorders, discussing various factors such as societal pressures, low self-esteem, genetic predispositions, and psychological factors."
+    ]
+  ]
+}

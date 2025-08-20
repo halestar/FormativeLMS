@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Individual Physiological Differences",
+    "Awareness of Allergies and Sensitivities",
+    "Consideration of Drug Interactions",
+    "Understanding of Dosage and Formulation Differences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how individual body chemistry affects drug response.",
+      "Demonstrates a minimal understanding that people react differently to medications, but lacks specifics.",
+      "Identifies that body weight or size might affect drug response, but doesn't elaborate.",
+      "Explains that factors like weight, age, and allergies can influence how a medicine works.",
+      "Discusses physiological factors, such as liver and kidney function, genetic factors, and their impact on drug metabolism and effectiveness.",
+      "Provides a comprehensive explanation of how genetics, organ function, age, sex, and existing health conditions can significantly alter drug responses, and gives detailed examples."
+    ],
+    [
+      "No awareness of allergies or sensitivities as a factor.",
+      "Mentions allergies in passing, but doesn't connect them to medication safety.",
+      "Recognizes that allergies can cause reactions to medicines.",
+      "Explains how allergic reactions to inactive ingredients can make a medication unsafe for some individuals.",
+      "Details the process of how allergic reactions occur, including the body's immune response and potential severity.",
+      "Thoroughly explains the immunological basis of allergic reactions to medications, including cross-reactivity and the importance of reading labels for inactive ingredients; discusses anaphylaxis."
+    ],
+    [
+      "No recognition of drug interactions.",
+      "Vaguely acknowledges that medicines might interact.",
+      "States that some medicines shouldn't be taken together.",
+      "Provides examples of common drug interactions and their potential effects.",
+      "Explains how drug interactions can alter the metabolism or effects of medications, leading to increased side effects or reduced effectiveness.",
+      "Illustrates with specific examples how drug-drug, drug-food, and drug-supplement interactions can occur through various mechanisms (e.g., enzyme inhibition, altered absorption), and the importance of disclosing all substances taken to healthcare providers."
+    ],
+    [
+      "No understanding of different dosages or formulations.",
+      "Implies that all pills or liquid medicines are the same.",
+      "Identifies that medicines come in different forms and strengths.",
+      "Explains how different dosages are designed for different ages, weights, and conditions.",
+      "Details how the formulation of a medicine (e.g., extended release) affects how it is absorbed and used by the body, and how this can vary among individuals.",
+      "Presents a sophisticated understanding of bioavailability, first-pass metabolism, and how different formulations (e.g., intravenous vs. oral) can drastically change the effective dose and safety profile for different individuals."
+    ]
+  ]
+}

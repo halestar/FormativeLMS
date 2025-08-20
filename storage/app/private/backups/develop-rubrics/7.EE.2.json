@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to rewrite expressions using the distributive property.",
+    "Understanding the relationship between different forms of an expression within a problem context.",
+    "Ability to use properties of operations (commutative, associative, identity) to generate equivalent expressions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot apply the distributive property to rewrite expressions.",
+      "Student can apply the distributive property, but makes significant errors.",
+      "Student can apply the distributive property with some errors.",
+      "Student can correctly apply the distributive property to rewrite simple expressions.",
+      "Student can correctly apply the distributive property to rewrite complex expressions.",
+      "Student can fluently apply the distributive property to rewrite complex expressions and explain the process clearly."
+    ],
+    [
+      "Student does not understand how rewriting an expression can provide insights into a problem.",
+      "Student attempts to relate different forms of an expression to a problem context, but the explanation is unclear or incorrect.",
+      "Student identifies a relationship between different forms of an expression and the problem context, but the explanation is incomplete.",
+      "Student understands and explains how rewriting an expression can shed light on the problem.",
+      "Student clearly explains how rewriting an expression provides insight into the relationship between quantities in the problem.",
+      "Student provides a comprehensive and insightful explanation of how different forms of an expression reveal relationships between quantities, using specific examples from the problem context."
+    ],
+    [
+      "Student cannot apply properties of operations to rewrite expressions.",
+      "Student attempts to use properties of operations but demonstrates significant errors.",
+      "Student uses properties of operations with some errors in application.",
+      "Student correctly applies properties of operations to generate equivalent expressions in simple cases.",
+      "Student correctly applies properties of operations to generate equivalent expressions in complex cases.",
+      "Student demonstrates fluency in applying properties of operations to generate equivalent expressions and can justify each step."
+    ]
+  ]
+}

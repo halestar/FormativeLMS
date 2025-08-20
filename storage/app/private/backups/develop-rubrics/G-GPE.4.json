@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to set up a coordinate plane and accurately plot given points.",
+    "Application of distance formula and slope to prove geometric properties.",
+    "Logical reasoning and justification in proving geometric theorems.",
+    "Ability to use circle theorems related to coordinate geometry."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to set up a coordinate plane or plot points accurately.",
+      "Student struggles to set up a coordinate plane and plots points with significant errors.",
+      "Student sets up a coordinate plane with minor inaccuracies and makes some errors in plotting points.",
+      "Student accurately sets up a coordinate plane and plots most points correctly with only minor errors.",
+      "Student accurately sets up a coordinate plane and plots all points correctly.",
+      "Student accurately and efficiently sets up a coordinate plane and plots all points correctly, demonstrating a clear understanding of coordinate geometry principles."
+    ],
+    [
+      "Student does not attempt to use distance formula or slope to prove geometric properties.",
+      "Student attempts to use distance formula or slope but demonstrates significant errors in calculations or application.",
+      "Student uses distance formula and slope but makes several errors, hindering the proof.",
+      "Student correctly applies distance formula and slope with minor errors, partially supporting the proof.",
+      "Student correctly applies distance formula and slope to prove geometric properties with few or no errors.",
+      "Student skillfully applies distance formula and slope to rigorously prove geometric properties, demonstrating a deep understanding of the underlying concepts."
+    ],
+    [
+      "Student provides no logical reasoning or justification for their claims.",
+      "Student attempts to provide reasoning but it is unclear, illogical, or irrelevant.",
+      "Student provides some reasoning but it is incomplete or contains logical flaws.",
+      "Student provides mostly clear and logical reasoning to support their claims, with minor gaps.",
+      "Student provides clear, logical, and well-supported reasoning to justify their proof.",
+      "Student provides exceptionally clear, concise, and insightful reasoning, demonstrating a comprehensive understanding of geometric theorem proving and offering alternative perspectives or approaches."
+    ],
+    [
+      "Student does not demonstrate any understanding or application of circle theorems.",
+      "Student attempts to apply circle theorems but shows significant misunderstanding.",
+      "Student recalls and states circle theorems but struggles to apply them correctly in the context of coordinate geometry.",
+      "Student applies basic circle theorems with some accuracy but may struggle with more complex scenarios or theorems.",
+      "Student accurately applies relevant circle theorems to solve problems and prove statements.",
+      "Student expertly applies circle theorems, demonstrating a nuanced understanding of their relationship to coordinate geometry and provides creative solutions."
+    ]
+  ]
+}

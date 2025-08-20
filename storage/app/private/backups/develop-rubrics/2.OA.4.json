@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in representing arrays as addition equations",
+    "Correctness of total number of objects",
+    "Understanding of equal addends"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to represent the array as an addition equation or the attempt shows no understanding of the relationship between arrays and addition.",
+      "The addition equation does not accurately represent the array, and there are significant errors in the addends or the total.",
+      "The addition equation has some inaccuracies, such as minor errors in the addends or the total, but shows a basic understanding of the concept.",
+      "The addition equation mostly accurately represents the array, with only very minor errors or omissions.",
+      "The addition equation accurately represents the array, demonstrating a clear understanding of the relationship between the array and repeated addition.",
+      "The addition equation perfectly and efficiently represents the array, demonstrating a sophisticated understanding. The student may also provide a justification for their equation."
+    ],
+    [
+      "The total number of objects is not provided, or the provided total is completely incorrect.",
+      "The total number of objects is incorrect and shows a misunderstanding of basic addition or counting principles.",
+      "The total number of objects is close but contains an error, suggesting a partial understanding.",
+      "The total number of objects is correct.",
+      "The total number of objects is correct, and the student clearly shows their work.",
+      "The total number of objects is correct, and the student provides an alternative method to arrive at the same answer."
+    ],
+    [
+      "The equation does not use equal addends, or there's no equation shown.",
+      "The equation uses unequal addends, and there's a clear misunderstanding of what equal addends are.",
+      "The equation uses equal addends, but there are errors.",
+      "The equation mostly uses equal addends, but there is one case of unequal addends.",
+      "The equation accurately uses equal addends.",
+      "The equation accurately uses equal addends and explains why they need to be equal."
+    ]
+  ]
+}

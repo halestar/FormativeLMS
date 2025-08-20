@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Early American Education",
+    "Explanation of the Roles of Religious and Private Schools",
+    "Analysis of Horace Mann's Campaign and its Impact",
+    "Understanding of Assimilation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the early American education system or its development.",
+      "Shows minimal understanding of the early American education system, with significant gaps in knowledge.",
+      "Displays a basic understanding of the early American education system but struggles to explain its development.",
+      "Exhibits a satisfactory understanding of the development of the American education system, including the roles of religious and private schools.",
+      "Demonstrates a strong understanding of the development of the American education system, including the roles of religious and private schools and Horace Mann's contributions.",
+      "Shows a comprehensive understanding of the development of the American education system, including the roles of religious and private schools, Horace Mann's campaign, and the assimilating role in American culture."
+    ],
+    [
+      "Does not mention or understand the roles of religious and private schools in early American education.",
+      "Mentions religious and private schools but provides inaccurate or irrelevant information about their roles.",
+      "Offers a limited explanation of the roles of religious and private schools, missing key details.",
+      "Adequately explains the roles of religious and private schools in the early American education system.",
+      "Clearly explains the roles of religious and private schools and provides relevant examples.",
+      "Provides a detailed and insightful explanation of the roles of religious and private schools, demonstrating a nuanced understanding of their impact."
+    ],
+    [
+      "Shows no awareness of Horace Mann or his campaign for free public education.",
+      "Mentions Horace Mann but cannot accurately describe his campaign or its goals.",
+      "Provides a superficial description of Horace Mann's campaign with limited understanding of its impact.",
+      "Explains Horace Mann's campaign for free public education and its significance.",
+      "Analyzes Horace Mann's campaign, explaining its goals, challenges, and lasting impact on American education.",
+      "Offers a comprehensive analysis of Horace Mann's campaign, including its long-term effects and its role in shaping American educational ideals."
+    ],
+    [
+      "Does not understand the role that education played in the assimilation of immigrants.",
+      "Shows some understanding of the role that education played in the assimilation of immigrants but has many gaps in their understanding.",
+      "Has a satisfactory understanding of the role that education played in the assimilation of immigrants.",
+      "Exhibits a strong understanding of the role that education played in the assimilation of immigrants.",
+      "Explains in detail the role that education played in the assimilation of immigrants.",
+      "Offers a comprehensive analysis of how education has changed over the years in the assimilation of immigrants."
+    ]
+  ]
+}

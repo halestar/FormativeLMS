@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to make observations",
+    "Ability to make measurements",
+    "Ability to identify materials",
+    "Use of scientific vocabulary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No observations are made.",
+      "Attempts to make observations are incomplete or inaccurate.",
+      "Basic observations are made, but lack detail or accuracy.",
+      "Detailed and accurate observations are made, but may not be relevant to identifying the material.",
+      "Detailed and accurate observations are made and are relevant to identifying the material.",
+      "Exceptional observations are made with keen attention to detail, accuracy, and relevance, leading to a clear identification of the material."
+    ],
+    [
+      "No measurements are taken.",
+      "Measurements are attempted but are incorrect or not useful.",
+      "Basic measurements are taken, but may lack precision or accuracy.",
+      "Measurements are precise and accurate, but may not be appropriately applied to material identification.",
+      "Measurements are precise, accurate, and appropriately applied to material identification.",
+      "Measurements are exceptionally precise, accurate, and insightful, providing a strong basis for material identification and further analysis."
+    ],
+    [
+      "No attempt is made to identify the material.",
+      "An attempt is made to identify the material, but it is incorrect.",
+      "Material is identified, but the reasoning or evidence is weak.",
+      "Material is correctly identified based on some properties observed and measured.",
+      "Material is correctly identified based on a comprehensive set of properties observed and measured.",
+      "Material is expertly identified with a clear, logical explanation of how each property contributed to the identification, demonstrating a deep understanding."
+    ],
+    [
+      "No scientific vocabulary used.",
+      "Incorrect or inappropriate use of scientific vocabulary.",
+      "Limited and basic use of scientific vocabulary.",
+      "Appropriate use of scientific vocabulary related to properties and identification.",
+      "Effective and precise use of scientific vocabulary, enhancing the clarity of observations and identification.",
+      "Sophisticated and nuanced use of scientific vocabulary, demonstrating a comprehensive understanding and enhancing the depth of analysis."
+    ]
+  ]
+}

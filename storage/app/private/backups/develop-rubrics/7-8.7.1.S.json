@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Demonstrates knowledge of basic first aid procedures (e.g., cuts, burns, sprains).",
+    "Applies first aid procedures appropriately in simulated scenarios.",
+    "Recognizes and responds appropriately to emergency situations.",
+    "Demonstrates knowledge of emergency contact information and procedures."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of basic first aid demonstrated.",
+      "Minimal understanding; unable to describe any first aid procedures.",
+      "Identifies 1-2 first aid procedures with limited accuracy.",
+      "Identifies several first aid procedures with reasonable accuracy.",
+      "Clearly describes and explains most first aid procedures accurately.",
+      "Demonstrates comprehensive knowledge of first aid procedures, explaining them accurately and thoroughly."
+    ],
+    [
+      "Unable to apply any first aid in simulated scenarios.",
+      "Attempts application, but actions are incorrect or unsafe.",
+      "Applies some first aid steps correctly, but misses key elements.",
+      "Applies most first aid steps correctly with minor errors.",
+      "Applies first aid correctly and efficiently in most simulated scenarios.",
+      "Applies first aid correctly, efficiently, and safely in all simulated scenarios, adapting to changing conditions."
+    ],
+    [
+      "Fails to recognize emergency situations.",
+      "Recognizes an emergency but responds inappropriately or ineffectively.",
+      "Identifies some emergency situations and initiates a basic response.",
+      "Identifies most emergency situations and responds with appropriate actions.",
+      "Quickly identifies and responds effectively to emergency situations, prioritizing actions.",
+      "Demonstrates excellent judgment in emergency situations, taking decisive and appropriate action while ensuring safety."
+    ],
+    [
+      "No knowledge of emergency contact information or procedures.",
+      "Limited knowledge; unable to recall emergency numbers.",
+      "Recalls some emergency numbers but not procedures.",
+      "Recalls emergency numbers and some basic procedures.",
+      "Knows emergency numbers and procedures and can explain when to use them.",
+      "Demonstrates thorough knowledge of emergency protocols and can articulate them clearly and concisely."
+    ]
+  ]
+}

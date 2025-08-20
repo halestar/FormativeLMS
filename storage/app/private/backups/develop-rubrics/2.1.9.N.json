@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Physical Activity's Impact",
+    "Understanding of Eating Habits' Impact",
+    "Ability to Connect Physical Activity and Eating Habits"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how physical activity affects health.",
+      "Shows minimal understanding; struggles to explain the connection between physical activity and health.",
+      "Identifies some ways physical activity affects health, but explanations are vague or incomplete.",
+      "Clearly explains several ways physical activity affects health, such as cardiovascular health or weight management.",
+      "Provides a comprehensive explanation of how physical activity impacts various aspects of health, including physical and mental well-being.",
+      "Offers an insightful and detailed explanation of the multifaceted impact of physical activity on overall health, including long-term benefits and potential risks."
+    ],
+    [
+      "Demonstrates no understanding of how eating habits affect health.",
+      "Shows minimal understanding; struggles to explain the connection between eating habits and health.",
+      "Identifies some ways eating habits affect health, but explanations are vague or incomplete.",
+      "Clearly explains several ways eating habits affect health, such as energy levels or nutrient intake.",
+      "Provides a comprehensive explanation of how eating habits impact various aspects of health, including physical and mental well-being.",
+      "Offers an insightful and detailed explanation of the multifaceted impact of eating habits on overall health, including the role of specific nutrients and the consequences of poor dietary choices."
+    ],
+    [
+      "Unable to connect physical activity and eating habits to overall health.",
+      "Struggles to explain how physical activity and eating habits interact to affect health.",
+      "Identifies a basic connection between physical activity and eating habits, but explanation lacks depth.",
+      "Explains how physical activity and eating habits work together to influence health outcomes.",
+      "Provides a detailed explanation of the synergistic relationship between physical activity and eating habits, citing specific examples.",
+      "Offers an insightful analysis of the complex interplay between physical activity and eating habits, including their combined effects on chronic disease prevention and overall well-being."
+    ]
+  ]
+}

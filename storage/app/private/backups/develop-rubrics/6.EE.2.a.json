@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to translate verbal expressions into algebraic expressions.",
+    "Ability to read and interpret algebraic expressions.",
+    "Ability to evaluate algebraic expressions given specific values for variables."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot translate any verbal expressions into algebraic expressions.",
+      "Student can translate simple verbal expressions involving one operation into algebraic expressions with significant errors.",
+      "Student can translate simple verbal expressions involving one operation into algebraic expressions with some errors.",
+      "Student can accurately translate simple verbal expressions involving one or two operations into algebraic expressions.",
+      "Student can accurately translate most verbal expressions involving multiple operations and variables into algebraic expressions.",
+      "Student can accurately and fluently translate complex verbal expressions involving multiple operations, variables, and mathematical relationships into algebraic expressions."
+    ],
+    [
+      "Student cannot read or interpret algebraic expressions.",
+      "Student can identify basic components of an algebraic expression (e.g., variable, constant) but cannot explain its meaning.",
+      "Student can read an algebraic expression and provide a partially correct interpretation with some difficulty.",
+      "Student can accurately read and provide a basic interpretation of algebraic expressions.",
+      "Student can accurately read and interpret algebraic expressions, explaining the relationships between variables and operations.",
+      "Student can fluently read, interpret, and explain the meaning of complex algebraic expressions, including those with multiple operations and variables, demonstrating a deep understanding of their mathematical structure."
+    ],
+    [
+      "Student cannot evaluate algebraic expressions.",
+      "Student attempts to evaluate algebraic expressions but makes significant errors in substitution or order of operations.",
+      "Student can evaluate simple algebraic expressions with one variable, but makes errors with more complex expressions or multiple variables.",
+      "Student can accurately evaluate algebraic expressions involving one or two variables and basic operations.",
+      "Student can accurately evaluate most algebraic expressions, including those with multiple variables, exponents, and parentheses, showing a good understanding of order of operations.",
+      "Student can accurately and efficiently evaluate complex algebraic expressions, including those with fractions, radicals, and nested operations, demonstrating a strong command of algebraic principles."
+    ]
+  ]
+}

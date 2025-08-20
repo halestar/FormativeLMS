@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Area as an Attribute",
+    "Measuring Area with Unit Squares",
+    "Applying Area Measurement to Plane Figures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding that area is an attribute of plane figures.",
+      "Student shows limited understanding that area is an attribute of plane figures, with significant misconceptions.",
+      "Student recognizes area as an attribute but struggles to explain it clearly.",
+      "Student understands and explains that area is an attribute of plane figures, but may lack precision.",
+      "Student clearly and accurately explains that area is an attribute of plane figures and relates it to covering the figure.",
+      "Student provides a thorough and insightful explanation of area as an attribute, including detailed examples and connections to other geometric concepts."
+    ],
+    [
+      "Student does not demonstrate understanding of how to measure area using unit squares.",
+      "Student attempts to measure area with unit squares but makes significant errors and gaps.",
+      "Student measures area with unit squares, but has some gaps or overlaps, or miscounts the squares.",
+      "Student mostly accurately measures area with unit squares, with minimal gaps or overlaps.",
+      "Student accurately measures area with unit squares, demonstrating a clear understanding of the concept.",
+      "Student demonstrates an ability to measure area accurately with unit squares and can explain the importance of no gaps or overlaps."
+    ],
+    [
+      "Student cannot apply area measurement concepts to find the area of simple plane figures.",
+      "Student attempts to apply area measurement but struggles with even simple plane figures.",
+      "Student can find the area of some simple plane figures, but struggles with more complex shapes.",
+      "Student can find the area of most plane figures, showing competence in applying area measurement.",
+      "Student consistently and accurately determines the area of various plane figures.",
+      "Student demonstrates a deep understanding of area measurement by accurately determining the area of complex plane figures and explaining their strategies."
+    ]
+  ]
+}

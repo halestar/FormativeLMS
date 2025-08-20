@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification and factual recall of key entrepreneurs, industrialists, and bankers of the Industrial Revolution.",
+    "Understanding of the impact of entrepreneurs, industrialists, and bankers on the American economy during the Industrial Revolution.",
+    "Analysis of the social and political influence wielded by entrepreneurs, industrialists, and bankers."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any relevant figures or provide accurate factual information about them.",
+      "Student can identify one or two figures but struggles to provide accurate details about their roles or contributions.",
+      "Student identifies several figures and provides some basic factual information, but with inaccuracies or omissions.",
+      "Student accurately identifies several key figures (e.g., Carnegie, Rockefeller, Stanford) and provides generally accurate factual information about their roles.",
+      "Student demonstrates a strong understanding of multiple figures, providing accurate and detailed information about their roles in politics, commerce, and industry.",
+      "Student demonstrates comprehensive knowledge of key figures, providing insightful details about their multifaceted roles and offering nuanced perspectives."
+    ],
+    [
+      "Student demonstrates no understanding of the economic impact of these figures.",
+      "Student demonstrates a limited understanding of the economic impact, with significant misconceptions.",
+      "Student identifies some economic impacts but struggles to explain the mechanisms or significance.",
+      "Student explains the economic impact of these figures, describing both positive and negative effects with some supporting details.",
+      "Student demonstrates a clear understanding of the economic impact, providing well-supported explanations of both intended and unintended consequences.",
+      "Student provides a sophisticated analysis of the economic impact, connecting it to broader trends and offering insightful conclusions."
+    ],
+    [
+      "Student demonstrates no understanding of the social and political influence of these figures.",
+      "Student demonstrates a limited understanding of their social and political influence, with significant misconceptions.",
+      "Student identifies some instances of social or political influence but struggles to explain the mechanisms or significance.",
+      "Student explains how these figures exerted social and political influence, providing examples and supporting details.",
+      "Student demonstrates a clear understanding of the social and political influence, providing well-supported explanations of the impact on society and government.",
+      "Student offers a nuanced analysis of their social and political influence, considering multiple perspectives and drawing insightful conclusions."
+    ]
+  ]
+}

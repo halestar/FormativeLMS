@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Disillusionment: Assesses the student's comprehension of the widespread disillusionment following World War I.",
+    "Analysis of Prewar Institutions: Evaluates the student's ability to analyze the role and failure of prewar institutions.",
+    "Connection to Totalitarianism: Measures the student's ability to connect the disillusionment to the rise of totalitarian regimes."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the disillusionment with prewar institutions, authorities, and values.",
+      "Shows a limited understanding of the disillusionment, with significant gaps in comprehension.",
+      "Displays a basic understanding of the disillusionment but struggles to explain its causes or effects.",
+      "Exhibits a satisfactory understanding of the disillusionment and can identify some of its causes and effects.",
+      "Demonstrates a strong understanding of the disillusionment, explaining its causes, effects, and connection to the rise of totalitarian regimes.",
+      "Shows a comprehensive and insightful understanding of the disillusionment, providing nuanced explanations of its impact and long-term consequences, including the rise of totalitarianism."
+    ],
+    [
+      "Unable to identify or describe any prewar institutions, authorities, or values.",
+      "Identifies prewar institutions with inaccuracies and fails to adequately describe their role.",
+      "Describes prewar institutions but does not analyze their weaknesses or failures.",
+      "Analyzes the failures of some prewar institutions and their contribution to the disillusionment.",
+      "Provides a thorough analysis of the failures of multiple prewar institutions, linking them to the widespread disillusionment.",
+      "Offers a nuanced and insightful analysis of the systemic failures of prewar institutions and their profound impact on postwar society, leading to a void filled by totalitarian ideologies."
+    ],
+    [
+      "Does not make any connection between the disillusionment and the rise of totalitarian regimes.",
+      "Suggests a connection but fails to provide any supporting evidence or reasoning.",
+      "Describes the rise of totalitarian regimes but does not link it to the disillusionment after World War I.",
+      "Explains how the disillusionment contributed to an environment conducive to the rise of totalitarian regimes.",
+      "Clearly articulates and supports with evidence how the disillusionment directly facilitated the rise of specific totalitarian regimes.",
+      "Presents a sophisticated analysis of the complex relationship between postwar disillusionment, the resulting ideological void, and the opportunistic rise of totalitarian movements, providing specific examples and historical context."
+    ]
+  ]
+}

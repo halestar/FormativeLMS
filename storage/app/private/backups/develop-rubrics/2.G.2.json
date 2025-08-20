@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Partitioning Rectangles",
+    "Counting and Determining Total Number of Squares",
+    "Explanation and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to partition the rectangle or does so incorrectly, showing no understanding of rows and columns.",
+      "The student attempts to partition the rectangle but makes significant errors in creating rows and columns, demonstrating limited understanding.",
+      "The student partitions the rectangle with some errors in maintaining equal-sized rows and columns, indicating a partial understanding.",
+      "The student mostly accurately partitions the rectangle into rows and columns of same-size squares but may have a minor inconsistency.",
+      "The student accurately partitions the rectangle into rows and columns of same-size squares with clear and precise partitioning.",
+      "The student demonstrates mastery in partitioning rectangles into rows and columns of same-size squares with perfect accuracy and neatness."
+    ],
+    [
+      "The student does not attempt to count the squares or provides a completely incorrect number.",
+      "The student attempts to count the squares but makes numerous errors, resulting in an inaccurate total.",
+      "The student counts the squares with some errors, leading to an incorrect total number of squares.",
+      "The student mostly accurately counts the squares, arriving at a total close to the correct answer with a minor miscount.",
+      "The student accurately counts the squares and determines the total number of squares with precision.",
+      "The student efficiently and accurately counts the squares, clearly stating the total and demonstrating a strong understanding of the relationship between rows, columns, and the total number of squares."
+    ],
+    [
+      "The student provides no explanation or reasoning for their partitioning and counting process.",
+      "The student attempts to explain their process but their reasoning is unclear or incorrect.",
+      "The student provides a partial explanation of their partitioning and counting process but lacks clarity or detail.",
+      "The student explains their partitioning and counting process with reasonable clarity but could provide more detail.",
+      "The student clearly explains their partitioning and counting process, demonstrating logical reasoning.",
+      "The student clearly and thoroughly explains their partitioning and counting process, demonstrating deep understanding of the underlying mathematical concepts."
+    ]
+  ]
+}

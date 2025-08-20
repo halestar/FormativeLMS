@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Mathematical Representation and Relationships: Demonstrates the ability to use mathematical representations (formulas) to describe the relationships between frequency, wavelength, and speed of waves.",
+    "Application to Various Media: Demonstrates understanding of how the relationships between wave properties apply to different types of waves traveling through various media (e.g., electromagnetic radiation, sound waves, seismic waves).",
+    "Claim Support with Evidence: Supports claims about the relationships between wave properties with relevant mathematical evidence and reasoning."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use mathematical representations or incorrectly identifies relationships.",
+      "Uses mathematical representations but shows significant errors in applying them to the relationships between frequency, wavelength, and speed.",
+      "Uses mathematical representations with some accuracy but demonstrates a limited understanding of the relationships between frequency, wavelength, and speed.",
+      "Adequately uses mathematical representations to describe the relationships between frequency, wavelength, and speed, but with minor errors or omissions.",
+      "Accurately uses mathematical representations to describe the relationships between frequency, wavelength, and speed in most scenarios.",
+      "Consistently and accurately uses mathematical representations to describe and explain the relationships between frequency, wavelength, and speed in various scenarios, demonstrating a strong understanding."
+    ],
+    [
+      "Fails to apply the relationships between wave properties to any type of wave or medium.",
+      "Attempts to apply the relationships but demonstrates a misunderstanding of how they apply to different types of waves and media.",
+      "Applies the relationships to one type of wave or medium with limited accuracy.",
+      "Applies the relationships to a few types of waves and media with reasonable accuracy, but lacks depth in explanation.",
+      "Applies the relationships accurately to several types of waves and media, providing clear explanations.",
+      "Applies the relationships accurately and comprehensively to a wide range of wave types and media, demonstrating a deep understanding of the underlying principles."
+    ],
+    [
+      "No claim is made, or the claim is not supported by any evidence.",
+      "A claim is made but is not supported by relevant evidence or reasoning.",
+      "Provides limited evidence to support the claim, but the reasoning is unclear or flawed.",
+      "Provides adequate evidence to support the claim, with some reasoning to connect the evidence to the claim.",
+      "Provides strong evidence to support the claim, with clear and logical reasoning connecting the evidence to the claim.",
+      "Provides comprehensive and compelling evidence to support the claim, with sophisticated reasoning that demonstrates a thorough understanding of the concepts."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify healthy food choices for meals based on nutritional value.",
+    "Ability to identify healthy food choices for snacks based on nutritional value.",
+    "Ability to apply decision-making process to food choices."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any healthy food choices for meals; shows no understanding of nutritional value.",
+      "Identifies one or two healthy food choices, but explanation lacks depth and understanding.",
+      "Identifies some healthy food choices, and mentions nutritional value but explanation is vague.",
+      "Identifies appropriate healthy food choices for meals and snacks, providing a basic understanding of nutritional value.",
+      "Clearly identifies healthy food choices and provides a solid understanding of their nutritional benefits for meals.",
+      "Identifies healthy food choices, provides a detailed explanation of their nutritional benefits, and can tailor those choices to specific dietary needs for meals."
+    ],
+    [
+      "Does not identify any healthy food choices for snacks; shows no understanding of nutritional value.",
+      "Identifies one or two healthy food choices, but explanation lacks depth and understanding.",
+      "Identifies some healthy food choices, and mentions nutritional value but explanation is vague.",
+      "Identifies appropriate healthy food choices for meals and snacks, providing a basic understanding of nutritional value.",
+      "Clearly identifies healthy food choices and provides a solid understanding of their nutritional benefits for snacks.",
+      "Identifies healthy food choices, provides a detailed explanation of their nutritional benefits, and can tailor those choices to specific dietary needs for snacks."
+    ],
+    [
+      "Does not apply a decision-making process when selecting food.",
+      "Attempts to describe a decision-making process with unclear steps.",
+      "Applies a limited decision-making process to food choices, with inconsistent reasoning.",
+      "Applies a basic decision-making process, but may miss key factors when selecting food.",
+      "Demonstrates a clear decision-making process, considering relevant factors when selecting food.",
+      "Demonstrates a comprehensive and well-reasoned decision-making process that considers multiple factors and justifies choices."
+    ]
+  ]
+}

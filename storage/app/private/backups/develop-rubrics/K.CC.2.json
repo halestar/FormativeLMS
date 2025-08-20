@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Ability to accurately continue a number sequence from a given starting point.",
+    "Understanding of number patterns and relationships within the count sequence."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to count forward from a given number or struggles significantly with the counting sequence.",
+      "Student can count forward, but makes frequent errors in the number sequence or requires significant prompting.",
+      "Student can count forward from a given number with some errors or hesitations in the number sequence.",
+      "Student can count forward from a given number with generally accurate sequencing, but may have minor hesitations.",
+      "Student can fluently and accurately count forward from a given number with a strong understanding of the number sequence.",
+      "Student demonstrates mastery by fluently and accurately counting forward from any given number, including challenging or large numbers, showcasing a deep understanding of number sequence."
+    ],
+    [
+      "Student shows no understanding of number patterns or relationships when counting forward.",
+      "Student demonstrates minimal understanding of number patterns, struggling to identify relationships between numbers in the sequence.",
+      "Student recognizes some basic number patterns (e.g., even\/odd) but struggles to apply this understanding to more complex sequences.",
+      "Student demonstrates a solid understanding of number patterns and can identify relationships between numbers, but may not articulate them clearly.",
+      "Student clearly understands and articulates number patterns and relationships within the count sequence, using this knowledge to predict subsequent numbers.",
+      "Student exhibits a sophisticated understanding of number patterns, using this knowledge to count forward efficiently and accurately, even with unconventional sequences or large numbers."
+    ]
+  ]
+}

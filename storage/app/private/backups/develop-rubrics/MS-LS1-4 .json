@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Animal Behaviors and Reproductive Success",
+    "Understanding of Plant Structures and Reproductive Success",
+    "Use of Empirical Evidence and Scientific Reasoning",
+    "Argument Construction and Clarity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how animal behaviors affect reproductive success is demonstrated.",
+      "Demonstrates a minimal understanding, with significant gaps or inaccuracies in explaining the relationship between animal behaviors and reproductive success.",
+      "Demonstrates a basic understanding, but the explanation lacks depth or specific examples of how particular behaviors increase reproductive probability.",
+      "Demonstrates a satisfactory understanding, providing some relevant examples of animal behaviors (e.g., nest building, herding) and explaining their impact on reproductive success.",
+      "Demonstrates a strong understanding, providing clear and specific examples of various animal behaviors (e.g., vocalizations, plumage) and thoroughly explaining how they increase reproductive probability.",
+      "Demonstrates a comprehensive and insightful understanding, providing detailed examples and nuanced explanations of how a variety of animal behaviors, including less common ones, significantly enhance reproductive success. Includes discussion of cause and effect relationships."
+    ],
+    [
+      "No understanding of how specialized plant structures affect reproductive success is demonstrated.",
+      "Demonstrates a minimal understanding, with significant gaps or inaccuracies in explaining the relationship between plant structures and reproductive success.",
+      "Demonstrates a basic understanding, but the explanation lacks depth or specific examples of how plant structures contribute to reproductive probability.",
+      "Demonstrates a satisfactory understanding, providing some relevant examples of plant structures (e.g., bright flowers) and explaining their impact on reproductive success.",
+      "Demonstrates a strong understanding, providing clear and specific examples of various plant structures (e.g., nectar, hard shells) and thoroughly explaining how they increase reproductive probability.",
+      "Demonstrates a comprehensive and insightful understanding, providing detailed examples and nuanced explanations of how a variety of plant structures, including adaptations for seed dispersal, significantly enhance reproductive success. Includes discussion of cause and effect relationships."
+    ],
+    [
+      "No evidence or reasoning is used to support explanation.",
+      "Provides little to no empirical evidence or scientific reasoning to support the explanation.",
+      "Attempts to use evidence and reasoning, but it is weak, irrelevant, or poorly explained.",
+      "Uses some empirical evidence and scientific reasoning, but the connection to the explanation could be stronger.",
+      "Effectively uses empirical evidence and scientific reasoning to support the explanation, showing a clear connection between evidence and claim.",
+      "Masterfully uses empirical evidence and scientific reasoning to construct a compelling and well-supported explanation. Demonstrates a deep understanding of the underlying scientific principles."
+    ],
+    [
+      "No argument is presented or is completely unclear.",
+      "Presents a weak argument that is difficult to follow or understand.",
+      "Presents an argument, but it lacks clarity, organization, or sufficient supporting details.",
+      "Presents a reasonably clear and organized argument with some supporting details.",
+      "Presents a clear, well-organized, and logical argument with strong supporting details and accurate scientific terminology.",
+      "Presents a compelling, insightful, and exceptionally well-reasoned argument that demonstrates a sophisticated understanding of the topic and uses terminology precisely."
+    ]
+  ]
+}

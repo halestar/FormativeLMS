@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of relevant safety measures",
+    "Actionable steps to improve safety",
+    "Communication and advocacy for safety"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No safety measures identified.",
+      "Identifies one general safety measure with no specific details.",
+      "Identifies one specific safety measure relevant to home or school, but lacks explanation.",
+      "Identifies two specific safety measures, one for home and one for school, with brief explanations.",
+      "Identifies multiple specific safety measures for both home and school and explains their relevance.",
+      "Identifies comprehensive and specific safety measures for home and school, explains their relevance, and justifies their importance with supporting information."
+    ],
+    [
+      "No actionable steps proposed.",
+      "Proposes a vague, non-actionable step.",
+      "Proposes one actionable step that is poorly defined or impractical.",
+      "Proposes two actionable steps that are somewhat practical and defined for either home or school.",
+      "Proposes clear, practical, and actionable steps for both home and school settings.",
+      "Proposes innovative, well-defined, practical, and actionable steps for both home and school, demonstrating a deep understanding of safety improvement."
+    ],
+    [
+      "No communication or advocacy strategies suggested.",
+      "Suggests generic communication but lacks specific details.",
+      "Suggests basic communication methods directed to a vague audience.",
+      "Suggests communication strategies directed at specific stakeholders, with some rationale.",
+      "Proposes comprehensive communication and advocacy strategies targeting key stakeholders, with clear rationale and potential impact.",
+      "Demonstrates advanced communication and advocacy skills by tailoring strategies to diverse audiences, anticipating challenges, and providing persuasive arguments for safety improvements."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and application of the general Multiplication Rule: P(A and B) = P(A)P(B|A) = P(B)P(A|B).",
+    "Interpretation of the answer in the context of a uniform probability model.",
+    "Accuracy in calculations and application of the formula."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of the Multiplication Rule and cannot apply it.",
+      "Student shows minimal understanding of the Multiplication Rule and struggles to apply it correctly.",
+      "Student demonstrates some understanding of the Multiplication Rule but makes frequent errors in its application.",
+      "Student understands the Multiplication Rule and can apply it in simple scenarios with occasional errors.",
+      "Student demonstrates a solid understanding of the Multiplication Rule and can apply it accurately in most scenarios.",
+      "Student demonstrates a comprehensive understanding of the Multiplication Rule and can apply it accurately and efficiently in complex scenarios."
+    ],
+    [
+      "Student does not interpret the calculated probability in the context of the problem.",
+      "Student attempts to interpret the probability but provides an incorrect or irrelevant interpretation.",
+      "Student provides a vague or incomplete interpretation of the probability in the context of the model.",
+      "Student interprets the probability in the context of the model with some minor inaccuracies or omissions.",
+      "Student provides a clear and accurate interpretation of the probability in the context of the model.",
+      "Student provides a comprehensive and insightful interpretation of the probability, clearly explaining its meaning and implications within the context of the model."
+    ],
+    [
+      "Calculations are incorrect, and the formula is misapplied.",
+      "Frequent errors in calculations and formula application.",
+      "Some errors in calculations and formula application.",
+      "Generally accurate calculations with only minor errors in formula application.",
+      "Accurate calculations and correct application of the formula.",
+      "Consistently accurate calculations and flawless application of the formula."
+    ]
+  ]
+}

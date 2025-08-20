@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Structural Elements",
+    "Analysis of Emphasis",
+    "Understanding of the Author's Purpose"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any structural elements within the text.",
+      "The student identifies a structural element but it is inaccurate or irrelevant to the text's purpose.",
+      "The student identifies one or more structural elements (e.g., chapter headings, subheadings, topic sentences) but does not explain their purpose.",
+      "The student identifies and correctly describes a structural element (e.g., cause\/effect, compare\/contrast, chronological order) and its basic function in the text.",
+      "The student identifies and explains how multiple structural elements contribute to the text's explanation or analysis, but the connection to key points is superficial.",
+      "The student thoroughly analyzes how the text's structural elements (e.g., organization, formatting, transitions) are used to emphasize key points and advance the author's explanation or analysis, providing specific examples."
+    ],
+    [
+      "The student provides no analysis of how structure emphasizes key points.",
+      "The student attempts to explain how structure emphasizes key points but the explanation is vague or unrelated to the text.",
+      "The student superficially describes how structure might emphasize a point, but does not provide specific examples from the text.",
+      "The student identifies a specific point in the text and offers a basic explanation of how a structural element emphasizes that point.",
+      "The student effectively explains how the text's structure emphasizes several key points and their relative importance.",
+      "The student demonstrates a sophisticated understanding of how structural choices are used to strategically emphasize key points and their impact on the reader."
+    ],
+    [
+      "The student shows no understanding of the author's purpose in the text.",
+      "The student states an inaccurate or irrelevant author's purpose.",
+      "The student identifies a general purpose (e.g., to inform, to persuade) but does not connect it to the text's analysis or explanation.",
+      "The student identifies the author's purpose and connects it to a specific structural element in the text.",
+      "The student explains how the structure advances the author's explanation or analysis, providing relevant textual evidence.",
+      "The student offers a nuanced analysis of how the text's structure strategically advances the author's overall purpose, taking into account the intended audience and context."
+    ]
+  ]
+}

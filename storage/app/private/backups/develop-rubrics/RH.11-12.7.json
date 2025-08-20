@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Integration of Information from Multiple Sources",
+    "Evaluation of Source Reliability and Validity",
+    "Use of Diverse Formats and Media",
+    "Addressing the Question or Solving the Problem"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no attempt to integrate information from multiple sources. The response is either missing or completely irrelevant.",
+      "The student mentions multiple sources but fails to connect or integrate the information in a meaningful way. Information is presented in a disjointed manner.",
+      "The student attempts to integrate information from multiple sources, but the connections are superficial or unclear. Understanding of the sources' relationships is limited.",
+      "The student successfully integrates information from multiple sources to address the question or problem. Connections between sources are evident, but may lack depth or nuance.",
+      "The student effectively integrates information from multiple sources, demonstrating a clear understanding of the relationships between them. The synthesis of information enhances the response.",
+      "The student skillfully integrates information from diverse sources, providing insightful connections and a comprehensive understanding of the topic. The synthesis demonstrates a sophisticated grasp of the material."
+    ],
+    [
+      "The student does not evaluate the reliability or validity of any sources used. Sources are accepted without question.",
+      "The student makes a superficial attempt to evaluate the reliability or validity of sources, but the evaluation lacks depth or specific reasoning.",
+      "The student identifies some aspects of source reliability and validity, but the evaluation is inconsistent or incomplete.",
+      "The student evaluates the reliability and validity of sources, providing basic reasoning for their judgments. However, the evaluation may not be comprehensive.",
+      "The student thoroughly evaluates the reliability and validity of sources, providing well-reasoned justifications for their judgments. The evaluation demonstrates a critical approach to source material.",
+      "The student expertly evaluates the reliability and validity of sources, demonstrating a nuanced understanding of source bias and credibility. The evaluation is comprehensive and insightful."
+    ],
+    [
+      "The student relies solely on one type of source format\/media (e.g., only text) and does not demonstrate the ability to integrate diverse formats.",
+      "The student attempts to incorporate diverse formats\/media, but the integration is awkward or ineffective. The different formats do not enhance the response.",
+      "The student includes diverse formats\/media, but the connection to the overall question or problem is weak. The formats are not well-integrated.",
+      "The student integrates diverse formats\/media effectively, using them to support and enhance the response. The formats are relevant and contribute to understanding.",
+      "The student skillfully integrates diverse formats\/media, using them to present information in a clear and engaging manner. The formats complement each other effectively.",
+      "The student masterfully integrates diverse formats\/media, using them to create a compelling and insightful presentation of information. The formats are seamlessly woven together to maximize understanding."
+    ],
+    [
+      "The student fails to address the question or solve the problem. The response is completely off-topic or irrelevant.",
+      "The student makes a minimal attempt to address the question or solve the problem, but the response is vague or superficial.",
+      "The student partially addresses the question or problem, but key aspects are missing or misunderstood.",
+      "The student adequately addresses the question or solves the problem, providing a reasonable and coherent response.",
+      "The student thoroughly addresses the question or solves the problem, providing a well-developed and insightful response.",
+      "The student expertly addresses the question or solves the problem, providing a comprehensive and nuanced response that demonstrates a deep understanding of the issues involved."
+    ]
+  ]
+}

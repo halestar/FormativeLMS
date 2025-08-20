@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Research Skills: Ability to gather information from various sources in the target language.",
+    "Analytical Skills: Ability to break down complex topics and identify key elements in the target language.",
+    "Discussion and Hypothesis: Ability to engage in meaningful discussion and form hypotheses in the target language.",
+    "Application to Real-World Situations: Ability to connect learning to practical applications in the target language."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to research or utilize external sources in the target language.",
+      "Minimal research is evident; relies heavily on English sources or demonstrates poor understanding of target language sources.",
+      "Basic research is conducted, but sources are limited or not critically evaluated.",
+      "Adequate research is evident; a variety of sources in the target language are used, but analysis is superficial.",
+      "Comprehensive research is conducted, utilizing diverse and credible sources in the target language; demonstrates good analytical skills.",
+      "Extensive and insightful research is evident; sources are critically evaluated and synthesized to support well-reasoned arguments in the target language."
+    ],
+    [
+      "Demonstrates no ability to analyze topics or identify key elements.",
+      "Struggles to break down topics; analysis is confused or irrelevant.",
+      "Identifies some key elements but lacks depth in analysis.",
+      "Adequately analyzes topics and identifies key elements with some supporting evidence.",
+      "Demonstrates strong analytical skills, thoroughly examining key elements with clear supporting evidence.",
+      "Exhibits exceptional analytical skills, providing insightful and nuanced perspectives on complex topics in the target language."
+    ],
+    [
+      "Unable to participate in discussion or form hypotheses in the target language.",
+      "Attempts to participate in discussion or form hypotheses but struggles with language proficiency and coherence.",
+      "Participates in discussion and forms basic hypotheses, but lacks depth and originality.",
+      "Engages in meaningful discussion and formulates reasonable hypotheses with some justification.",
+      "Demonstrates strong discussion skills and formulates well-supported and insightful hypotheses.",
+      "Exhibits exceptional discussion skills, fostering critical thinking and formulating innovative and well-reasoned hypotheses in the target language."
+    ],
+    [
+      "Demonstrates no connection between learning and real-world applications.",
+      "Struggles to relate learning to practical situations; connections are unclear or irrelevant.",
+      "Makes basic connections between learning and real-world situations with limited explanation.",
+      "Adequately connects learning to practical applications with some supporting details in the target language.",
+      "Demonstrates a strong ability to connect learning to relevant and practical situations with clear examples in the target language.",
+      "Exhibits exceptional insight in connecting learning to innovative and impactful real-world applications, demonstrating a sophisticated understanding of the target language."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Unit Rate Concept",
+    "Ability to Compute Unit Rates with Fractions",
+    "Application to Real-World Problems",
+    "Understanding of Different Units"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of unit rate as a ratio between two quantities.",
+      "Student shows limited understanding of unit rate, struggling to define it or explain its purpose.",
+      "Student demonstrates a basic understanding of unit rate but has difficulty applying it in problem-solving.",
+      "Student understands the concept of unit rate and can apply it to simple problems.",
+      "Student demonstrates a strong understanding of unit rate and can accurately calculate it in most scenarios.",
+      "Student demonstrates a comprehensive understanding of unit rate, accurately calculates it, and explains its significance in various contexts."
+    ],
+    [
+      "Student is unable to perform any calculations involving ratios of fractions to find unit rates.",
+      "Student attempts to calculate unit rates with fractions but makes significant errors in the process.",
+      "Student can perform some calculations with fractions but struggles to accurately compute the unit rate.",
+      "Student can compute unit rates with fractions in straightforward problems but may struggle with more complex scenarios.",
+      "Student consistently and accurately computes unit rates with fractions, showing proficiency in the required calculations.",
+      "Student demonstrates mastery in computing unit rates with complex fractions and can clearly explain each step in the process."
+    ],
+    [
+      "Student cannot apply the concept of unit rates to any real-world scenarios.",
+      "Student struggles to relate unit rates to real-world problems and cannot set up appropriate calculations.",
+      "Student can identify real-world situations involving unit rates but has difficulty setting up and solving the problem.",
+      "Student can apply unit rates to solve simple real-world problems, but may struggle with multi-step problems.",
+      "Student can effectively use unit rates to solve a variety of real-world problems with accuracy.",
+      "Student demonstrates a sophisticated ability to apply unit rates to complex real-world problems, providing clear and accurate solutions."
+    ],
+    [
+      "Student shows no understanding of how to work with different units when calculating unit rates.",
+      "Student struggles to convert or reconcile different units when computing unit rates.",
+      "Student can sometimes work with different units but makes errors in conversion or application.",
+      "Student generally understands how to handle different units when calculating unit rates, but may need some assistance.",
+      "Student demonstrates competency in working with different units to accurately calculate unit rates.",
+      "Student expertly manipulates different units to compute unit rates and provides clear explanations of unit conversions."
+    ]
+  ]
+}

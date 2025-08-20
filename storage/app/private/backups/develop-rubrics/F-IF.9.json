@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify key features (intercepts, maxima, minima, symmetry, end behavior, and periodicity) from different representations (algebraic, graphical, numerical, verbal).",
+    "Skill in comparing properties of two functions presented in different forms.",
+    "Justification and reasoning in comparing properties."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any key features from any representation.",
+      "Student can identify some key features from only one representation.",
+      "Student can identify most key features from one representation or some key features from multiple representations.",
+      "Student can identify most key features from multiple representations.",
+      "Student can accurately identify almost all key features from various representations.",
+      "Student can accurately and thoroughly identify all key features from various representations, demonstrating a deep understanding."
+    ],
+    [
+      "Student cannot compare properties of functions presented in different forms.",
+      "Student can compare basic properties (e.g., intercepts) with significant difficulty.",
+      "Student can compare some properties with some accuracy but struggles with more complex features.",
+      "Student can compare most properties of the functions, identifying similarities and differences.",
+      "Student demonstrates a strong ability to compare properties, accurately identifying similarities and differences and providing some justification.",
+      "Student demonstrates a sophisticated ability to compare properties, providing insightful analysis and justification."
+    ],
+    [
+      "No justification or reasoning is provided.",
+      "Limited and unclear justification is provided.",
+      "Justification is provided but may contain inaccuracies or lack depth.",
+      "Clear justification is provided, supporting most comparisons.",
+      "Well-reasoned and accurate justification is provided, enhancing the comparison.",
+      "Comprehensive and insightful justification is provided, demonstrating a thorough understanding of the functions' properties."
+    ]
+  ]
+}

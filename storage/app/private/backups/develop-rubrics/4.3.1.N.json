@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Validity of Information",
+    "Diversity of Resources",
+    "Application to Safe and Healthy Food Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No resources are identified or the resources provided contain inaccurate or invalid information.",
+      "One resource is identified, but the information is questionable in terms of accuracy or validity.",
+      "One resource is identified and the information shows some accuracy, but lacks depth or proper backing.",
+      "Two resources are identified, with mostly accurate information, but some minor inaccuracies may be present.",
+      "Two or more resources are identified, all containing accurate and valid information regarding safe and healthy foods.",
+      "Multiple resources are identified, all containing accurate, valid, and in-depth information. Demonstrates a clear understanding of source reliability."
+    ],
+    [
+      "No resources identified.",
+      "Only one type of resource is identified (e.g., only websites).",
+      "Resources identified are of similar types or from limited perspectives.",
+      "Resources include at least two different types (e.g., website and government publication).",
+      "Resources include a variety of types and perspectives, showing an attempt to find a range of viewpoints.",
+      "Resources demonstrate a comprehensive understanding of available information channels."
+    ],
+    [
+      "Identified resources are not applicable to safe and healthy food choices.",
+      "Identified resources have very limited applicability.",
+      "Resources touch on relevant topics, but lack clear connections to food choices.",
+      "Resources are generally applicable to understanding food choices, with some specific examples given.",
+      "Resources provide direct and clear guidance for making informed food choices.",
+      "Resources offer an in-depth analysis of safe and healthy food choices."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rotations",
+    "Understanding of Reflections",
+    "Understanding of Translations",
+    "Experimental Verification and Parallel Lines"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rotations.",
+      "Student demonstrates a minimal understanding of rotations.  Can identify a rotation but cannot describe its properties.",
+      "Student demonstrates a partial understanding of rotations. Can describe rotations but struggles to apply them.",
+      "Student demonstrates a satisfactory understanding of rotations. Can apply rotations in simple scenarios.",
+      "Student demonstrates a strong understanding of rotations. Can apply rotations in a variety of scenarios and explain the effect on parallel lines.",
+      "Student demonstrates a comprehensive understanding of rotations. Can apply rotations creatively, explain the effect on parallel lines with justification, and connect to other geometric concepts."
+    ],
+    [
+      "Student demonstrates no understanding of reflections.",
+      "Student demonstrates a minimal understanding of reflections. Can identify a reflection but cannot describe its properties.",
+      "Student demonstrates a partial understanding of reflections. Can describe reflections but struggles to apply them.",
+      "Student demonstrates a satisfactory understanding of reflections. Can apply reflections in simple scenarios.",
+      "Student demonstrates a strong understanding of reflections. Can apply reflections in a variety of scenarios and explain the effect on parallel lines.",
+      "Student demonstrates a comprehensive understanding of reflections. Can apply reflections creatively, explain the effect on parallel lines with justification, and connect to other geometric concepts."
+    ],
+    [
+      "Student demonstrates no understanding of translations.",
+      "Student demonstrates a minimal understanding of translations. Can identify a translation but cannot describe its properties.",
+      "Student demonstrates a partial understanding of translations. Can describe translations but struggles to apply them.",
+      "Student demonstrates a satisfactory understanding of translations. Can apply translations in simple scenarios.",
+      "Student demonstrates a strong understanding of translations. Can apply translations in a variety of scenarios and explain the effect on parallel lines.",
+      "Student demonstrates a comprehensive understanding of translations. Can apply translations creatively, explain the effect on parallel lines with justification, and connect to other geometric concepts."
+    ],
+    [
+      "Student does not attempt to verify the properties or connect them to parallel lines.",
+      "Student attempts to verify the properties but struggles to connect them to parallel lines.",
+      "Student partially verifies the properties and makes a weak connection to parallel lines.",
+      "Student satisfactorily verifies the properties and shows a basic understanding of how they affect parallel lines.",
+      "Student thoroughly verifies the properties and clearly explains how they affect parallel lines.",
+      "Student rigorously verifies the properties, provides insightful explanations of their effect on parallel lines, and explores the implications of these transformations on geometric proofs."
+    ]
+  ]
+}

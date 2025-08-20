@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Judeo-Christian Views",
+    "Understanding of Greco-Roman Views",
+    "Analysis of Similarities",
+    "Analysis of Differences",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Judeo-Christian views on law, reason, faith, and duties of the individual.",
+      "Shows a minimal understanding of Judeo-Christian views with significant inaccuracies or omissions.",
+      "Identifies some aspects of Judeo-Christian views but struggles to explain them accurately or completely.",
+      "Explains Judeo-Christian views on law, reason, faith, and duties of the individual with reasonable accuracy.",
+      "Provides a comprehensive and accurate explanation of Judeo-Christian views, demonstrating a solid understanding.",
+      "Offers a nuanced and insightful explanation of Judeo-Christian views, including historical context and complexities."
+    ],
+    [
+      "Demonstrates no understanding of Greco-Roman views on law, reason, faith, and duties of the individual.",
+      "Shows a minimal understanding of Greco-Roman views with significant inaccuracies or omissions.",
+      "Identifies some aspects of Greco-Roman views but struggles to explain them accurately or completely.",
+      "Explains Greco-Roman views on law, reason, faith, and duties of the individual with reasonable accuracy.",
+      "Provides a comprehensive and accurate explanation of Greco-Roman views, demonstrating a solid understanding.",
+      "Offers a nuanced and insightful explanation of Greco-Roman views, including historical context and complexities."
+    ],
+    [
+      "Fails to identify any similarities between Judeo-Christian and Greco-Roman views.",
+      "Identifies superficial similarities without deeper analysis.",
+      "Identifies some similarities but struggles to explain their significance.",
+      "Analyzes several similarities between the two views with reasonable explanations.",
+      "Provides a detailed and insightful analysis of multiple similarities, demonstrating a strong understanding of the underlying concepts.",
+      "Offers a nuanced and sophisticated analysis of the similarities, considering historical and cultural contexts."
+    ],
+    [
+      "Fails to identify any differences between Judeo-Christian and Greco-Roman views.",
+      "Identifies superficial differences without deeper analysis.",
+      "Identifies some differences but struggles to explain their significance.",
+      "Analyzes several differences between the two views with reasonable explanations.",
+      "Provides a detailed and insightful analysis of multiple differences, demonstrating a strong understanding of the underlying concepts.",
+      "Offers a nuanced and sophisticated analysis of the differences, considering historical and cultural contexts."
+    ],
+    [
+      "Response is disorganized and difficult to understand.",
+      "Response lacks clear organization and contains significant grammatical errors.",
+      "Response is somewhat organized but contains grammatical errors that impede understanding.",
+      "Response is generally clear and organized with few grammatical errors.",
+      "Response is clear, well-organized, and free of significant grammatical errors.",
+      "Response is exceptionally clear, concise, and well-organized with sophisticated language and flawless grammar."
+    ]
+  ]
+}

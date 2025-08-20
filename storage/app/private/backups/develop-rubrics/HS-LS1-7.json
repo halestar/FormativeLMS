@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of the Model",
+    "Representation of Energy Transfer",
+    "Use of the Model to Explain Cellular Respiration"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or fundamentally flawed, demonstrating no understanding of cellular respiration.",
+      "The model contains significant inaccuracies regarding the inputs, outputs, or process of cellular respiration.",
+      "The model has some inaccuracies or omissions but generally represents the basic components of cellular respiration.",
+      "The model is mostly accurate, with only minor inaccuracies or omissions that do not detract from overall understanding.",
+      "The model is accurate and represents the key components and processes of cellular respiration effectively.",
+      "The model is exceptionally accurate, detailed, and clearly illustrates the inputs, outputs, and process of cellular respiration with a high degree of understanding."
+    ],
+    [
+      "The model fails to represent the concept of energy transfer in cellular respiration.",
+      "The model attempts to represent energy transfer, but the representation is unclear, inaccurate, or incomplete.",
+      "The model partially represents energy transfer, but lacks detail or clarity in explaining how energy is transferred and stored.",
+      "The model adequately represents energy transfer, showing the conversion of energy from food and oxygen molecules to usable forms.",
+      "The model clearly represents energy transfer, showing how energy is converted and stored in a way that is easily understood.",
+      "The model exceptionally represents energy transfer, illustrating the efficient conversion and storage of energy, and explains the implications of this energy transfer for living organisms."
+    ],
+    [
+      "The model is not used to explain or clarify the process of cellular respiration.",
+      "The model is used minimally, and the explanation is confusing or inaccurate.",
+      "The model is used to explain some aspects of cellular respiration, but the explanation lacks depth or clarity.",
+      "The model is used to explain the basic inputs, outputs, and energy transfer in cellular respiration.",
+      "The model is used effectively to explain the process of cellular respiration, including the role of key molecules and the importance of energy transfer.",
+      "The model is used exceptionally well to explain the process of cellular respiration, demonstrating a deep understanding of the concepts and their implications for living organisms."
+    ]
+  ]
+}

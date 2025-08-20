@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of active play and physical activities",
+    "Ability to describe ways to participate regularly in active play and enjoyable physical activities",
+    "Integration of personal preferences and enjoyment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of active play or physical activities.",
+      "Struggles to define active play and physical activities.",
+      "Can define active play and physical activities, but lacks depth.",
+      "Demonstrates a solid understanding of active play and physical activities.",
+      "Demonstrates a comprehensive understanding of active play and physical activities, providing clear examples.",
+      "Demonstrates an exceptional understanding of active play and physical activities, providing insightful analysis and examples."
+    ],
+    [
+      "Unable to describe any ways to participate regularly in active play or enjoyable physical activities.",
+      "Can only describe one way to participate regularly in active play or enjoyable physical activities.",
+      "Can describe a few ways to participate regularly in active play or enjoyable physical activities, but lacks detail.",
+      "Can describe several ways to participate regularly in active play or enjoyable physical activities with some detail.",
+      "Can describe multiple ways to participate regularly in active play or enjoyable physical activities with clear and practical details.",
+      "Can describe a wide range of ways to participate regularly in active play or enjoyable physical activities with comprehensive details and personalized insights."
+    ],
+    [
+      "Does not consider personal preferences or enjoyment when suggesting physical activities.",
+      "Briefly mentions personal preferences or enjoyment but lacks depth.",
+      "Acknowledges the importance of personal preferences and enjoyment in physical activities.",
+      "Integrates personal preferences and enjoyment when suggesting physical activities, providing relevant examples.",
+      "Demonstrates a strong understanding of how personal preferences and enjoyment can influence regular participation in physical activities, offering tailored suggestions.",
+      "Provides a nuanced understanding of how personal preferences and enjoyment can drive long-term participation in physical activities, offering personalized strategies for maximizing enjoyment."
+    ]
+  ]
+}

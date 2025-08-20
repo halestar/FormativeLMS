@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Use of Parallel Structure",
+    "Variety of Phrases and Clauses",
+    "Clarity and Meaning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use parallel structure, or structure is consistently incorrect.",
+      "Rarely uses parallel structure; attempts are often flawed.",
+      "Uses parallel structure inconsistently; errors sometimes obscure meaning.",
+      "Generally uses parallel structure correctly, with occasional minor errors.",
+      "Uses parallel structure effectively and correctly in most cases, enhancing clarity and style.",
+      "Masterfully uses parallel structure to create rhythm, balance, and emphasis, significantly improving the impact of the writing or speech."
+    ],
+    [
+      "Uses a very limited range of phrases and clauses, resulting in monotonous writing or speech.",
+      "Attempts to use different types of phrases and clauses are minimal and often incorrect or ineffective.",
+      "Includes some variety in phrase and clause types, but usage is inconsistent or sometimes inappropriate.",
+      "Demonstrates a good understanding of various phrases and clauses and uses them appropriately to add variety.",
+      "Skillfully uses a wide range of phrases and clauses to create nuanced meaning and stylistic interest.",
+      "Expertly manipulates a rich array of phrases and clauses to craft sophisticated, engaging, and precise writing or speech."
+    ],
+    [
+      "Sentences are confusing and do not convey meaning.",
+      "Sentences are often confusing or unclear; meaning is difficult to determine.",
+      "Sentences are sometimes awkward or unclear; meaning is occasionally obscured.",
+      "Sentences are generally clear and convey meaning effectively.",
+      "Sentences are clear, concise, and precisely convey the intended meaning.",
+      "Sentences are exceptionally clear, artfully constructed, and powerfully convey complex ideas with precision."
+    ]
+  ]
+}

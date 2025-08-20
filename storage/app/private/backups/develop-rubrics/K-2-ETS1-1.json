@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Asking Questions",
+    "Making Observations",
+    "Gathering Information",
+    "Defining the Problem"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not ask questions about the situation or problem.",
+      "Student asks a question that is not relevant to the situation or problem.",
+      "Student asks a simple question that is somewhat related to the situation or problem.",
+      "Student asks relevant questions to gather basic information about the situation or problem.",
+      "Student asks probing questions to gather detailed information about the situation or problem, showing some understanding of its complexities.",
+      "Student asks insightful and comprehensive questions that demonstrate a deep understanding of the situation or problem and its underlying causes."
+    ],
+    [
+      "Student makes no observations about the situation or problem.",
+      "Student makes superficial observations that are not relevant to the situation or problem.",
+      "Student makes basic observations that are somewhat related to the situation or problem.",
+      "Student makes relevant observations and provides some details about the situation or problem.",
+      "Student makes detailed observations, noting specific aspects and providing clear descriptions of the situation or problem.",
+      "Student makes insightful observations, identifying patterns, connections, and underlying causes within the situation or problem."
+    ],
+    [
+      "Student does not gather any information about the situation or problem.",
+      "Student gathers irrelevant or inaccurate information.",
+      "Student gathers a small amount of information, but it lacks depth or relevance.",
+      "Student gathers sufficient information from provided sources to address the basic problem.",
+      "Student gathers information from a variety of sources and begins to synthesize it to understand the problem more fully.",
+      "Student independently gathers comprehensive information from diverse sources, critically evaluates it, and synthesizes it to develop a deep understanding of the problem."
+    ],
+    [
+      "Student does not attempt to define the problem.",
+      "Student provides a vague or inaccurate definition of the problem.",
+      "Student identifies a general problem but lacks specific details.",
+      "Student defines a simple problem related to the situation that can be solved through a new or improved object or tool.",
+      "Student defines the problem clearly, including specific details and constraints, and links it to the desired change or improvement.",
+      "Student defines the problem comprehensively, including all relevant details, constraints, and stakeholders, and articulates its significance and potential impact."
+    ]
+  ]
+}

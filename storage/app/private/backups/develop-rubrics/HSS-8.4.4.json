@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Daily Life in Early National America",
+    "Knowledge of Traditions in Art, Music, and Literature",
+    "Use of Primary or Secondary Sources (e.g., Writings by Washington Irving, James Fenimore Cooper)",
+    "Clarity and Organization of Presentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of daily life in early national America.",
+      "Demonstrates a minimal understanding of daily life, with significant inaccuracies or omissions.",
+      "Demonstrates a basic understanding of daily life but lacks depth or specific examples.",
+      "Demonstrates a satisfactory understanding of daily life, providing some accurate details and examples.",
+      "Demonstrates a strong understanding of daily life, providing accurate and detailed examples of multiple aspects.",
+      "Demonstrates a comprehensive and nuanced understanding of daily life, providing insightful details and examples, and connecting it to broader historical contexts."
+    ],
+    [
+      "Shows no knowledge of traditions in art, music, and literature of early national America.",
+      "Shows minimal knowledge, with significant inaccuracies or omissions.",
+      "Identifies a few traditions but lacks depth and detail.",
+      "Describes some traditions in art, music, and literature with reasonable accuracy.",
+      "Describes multiple traditions with accurate and detailed examples, referencing specific works or figures.",
+      "Provides a comprehensive and insightful analysis of traditions in art, music, and literature, connecting them to the cultural and social values of the time."
+    ],
+    [
+      "Does not reference any primary or secondary sources.",
+      "References sources inappropriately or inaccurately.",
+      "Mentions relevant sources but does not use them to support claims.",
+      "Uses sources to support some claims, but the connection is not always clear or effective.",
+      "Effectively uses sources to support claims, providing relevant quotes or examples.",
+      "Skillfully integrates primary and secondary sources to develop a nuanced and well-supported argument, demonstrating critical analysis of the sources."
+    ],
+    [
+      "Presentation is unclear, disorganized, and difficult to follow.",
+      "Presentation lacks clarity and organization, making it difficult to understand key points.",
+      "Presentation is somewhat organized but lacks clear transitions and a logical flow.",
+      "Presentation is generally clear and organized, with some logical flow.",
+      "Presentation is clear, well-organized, and easy to follow, with smooth transitions.",
+      "Presentation is exceptionally clear, engaging, and logically structured, demonstrating a mastery of communication skills."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the necessity of water for bodily functions and performance",
+    "Knowledge of risks associated with dehydration during physical activity",
+    "Ability to explain when and how much to drink during physical activity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of why water is important.",
+      "Shows a limited awareness that water is somehow important for the body.",
+      "Recognizes water as important but lacks the ability to explain why.",
+      "Can articulate one basic reason for water's importance, such as preventing dehydration.",
+      "Explains multiple reasons why water is important, including regulation of body temperature, nutrient transport, and waste removal.",
+      "Provides a comprehensive explanation of water's multiple roles in the body and can discuss the impact of dehydration on these functions."
+    ],
+    [
+      "Does not identify any risks of dehydration during physical activity.",
+      "Mentions dehydration as a bad thing without any specific understanding of its dangers.",
+      "Can name one vague symptom of dehydration, such as thirst or fatigue.",
+      "Identifies one or two specific risks of dehydration, like muscle cramps or dizziness.",
+      "Identifies several risks of dehydration, including decreased performance, heat exhaustion, and muscle cramps.",
+      "Clearly explains the risks of dehydration during physical activity, including potential for serious conditions like heat stroke and can explain the physiological reasons behind the risks."
+    ],
+    [
+      "Unable to explain how much water is needed during physical activity.",
+      "Has no concept of drinking water before, during, and after physical activity.",
+      "Can vaguely state when to drink water (before, during, or after), but cannot identify the amount",
+      "Can state that one should drink water before, during, and after activity, but offers no specifics.",
+      "Offers general guidelines on how much to drink and when, such as drinking regularly throughout activity.",
+      "Provides precise recommendations on fluid intake, including specific amounts, timing, and types of fluids, tailored to different levels of physical activity and environmental conditions."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to write routinely for extended periods, showing reflection and revision.",
+    "Adaptability to different discipline-specific tasks.",
+    "Awareness and adjustment for different purposes and audiences."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student shows no evidence of routine writing or reflection.",
+      "The student attempts to write routinely but demonstrates minimal reflection or revision.",
+      "The student writes routinely for short periods, with limited evidence of reflection and revision.",
+      "The student writes routinely for extended periods, showing some reflection and minor revisions.",
+      "The student writes routinely, showing clear reflection and thoughtful revisions to improve their work.",
+      "The student consistently writes routinely over extended time, demonstrating deep reflection, significant revisions, and a commitment to improving their writing through iterative processes."
+    ],
+    [
+      "The student does not attempt discipline-specific tasks.",
+      "The student struggles significantly with discipline-specific tasks.",
+      "The student attempts discipline-specific tasks but demonstrates a lack of understanding of the requirements.",
+      "The student adequately completes discipline-specific tasks, meeting basic requirements.",
+      "The student effectively completes discipline-specific tasks, demonstrating a good understanding of the requirements and some independent thought.",
+      "The student expertly adapts to and completes a variety of discipline-specific tasks, demonstrating a deep understanding of the requirements and offering insightful, original work."
+    ],
+    [
+      "The student shows no awareness of purpose or audience in their writing.",
+      "The student's writing is inappropriate for the intended purpose or audience.",
+      "The student shows a limited understanding of how to tailor their writing for different purposes or audiences.",
+      "The student makes some adjustments to their writing based on purpose and audience, but these are superficial.",
+      "The student effectively tailors their writing for different purposes and audiences, demonstrating a strong understanding of rhetorical strategies.",
+      "The student skillfully crafts their writing to suit different purposes and audiences, demonstrating a sophisticated understanding of rhetorical strategies and achieving a powerful, engaging effect."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation:  The student analyzes the data from tests conducted on different design solutions.",
+    "Identification of Best Characteristics: The student identifies the best characteristics from multiple design solutions.",
+    "Combination into a New Solution: The student proposes a new solution that combines the best characteristics from multiple designs.",
+    "Meeting Criteria for Success:  The degree to which the proposed solution meets the initial criteria for success."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze the data is made, or the analysis is completely irrelevant.",
+      "The student attempts to analyze the data, but the analysis is superficial and does not identify meaningful patterns or differences.",
+      "The student identifies some patterns or differences in the data, but the analysis is incomplete or contains inaccuracies.",
+      "The student identifies most of the key patterns and differences in the data, and the analysis is generally accurate.",
+      "The student provides a thorough and accurate analysis of the data, identifying all key patterns and differences. Demonstrates good integration of provided data.",
+      "The student provides a comprehensive and insightful analysis of the data, identifying subtle patterns and differences and drawing well-supported conclusions. The analysis shows a deep understanding of the data's implications."
+    ],
+    [
+      "No attempt to identify the best characteristics is made, or the characteristics identified are irrelevant to the success criteria.",
+      "The student attempts to identify the best characteristics, but the choices are poorly justified or based on superficial observations.",
+      "The student identifies some potentially useful characteristics, but the explanation of their benefits is weak or unclear.",
+      "The student identifies several key characteristics and provides a reasonable explanation of why they are beneficial for meeting the success criteria.",
+      "The student identifies the most important characteristics and provides a clear and convincing explanation of their benefits, linking them directly to the success criteria.",
+      "The student demonstrates a nuanced understanding of the trade-offs between different characteristics, selecting those that offer the greatest overall improvement in performance and justifying their choices with sophisticated reasoning."
+    ],
+    [
+      "No new solution is proposed, or the proposed solution is simply a copy of one of the original designs.",
+      "The student proposes a new solution, but it does not effectively combine the best characteristics or is not well-aligned with the success criteria.",
+      "The student proposes a new solution that attempts to combine characteristics, but the integration is awkward or the resulting solution is not significantly better than the original designs.",
+      "The student proposes a new solution that successfully combines several key characteristics, resulting in a solution that is noticeably better than the original designs.",
+      "The student proposes a well-integrated solution that combines the best characteristics in a creative and effective way, leading to a significant improvement in performance.",
+      "The student proposes an innovative solution that seamlessly integrates the best characteristics, resulting in a design that far surpasses the original solutions in meeting the success criteria. Demonstrates a deep understanding of design principles and trade-offs."
+    ],
+    [
+      "The proposed solution fails to meet any of the criteria for success.",
+      "The proposed solution meets only one or two of the criteria for success, and those are met only partially.",
+      "The proposed solution meets some of the criteria for success, but there are significant shortcomings.",
+      "The proposed solution meets most of the criteria for success, with only minor shortcomings.",
+      "The proposed solution meets nearly all of the criteria for success, with only very minor imperfections.",
+      "The proposed solution fully meets all of the criteria for success and exceeds expectations in some areas."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Definition of Mean",
+    "Ability to Determine the Mean",
+    "Application and Contextualization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of the definition of the mean of a discrete random variable.",
+      "Student shows minimal understanding of the definition, with significant misconceptions.",
+      "Student demonstrates a partial understanding of the definition, but struggles to explain it accurately.",
+      "Student generally understands the definition of the mean of a discrete random variable and can explain it with some clarity.",
+      "Student clearly understands and accurately explains the definition of the mean of a discrete random variable.",
+      "Student demonstrates a comprehensive understanding of the definition, can explain it clearly, and can provide examples and non-examples."
+    ],
+    [
+      "Student cannot determine the mean for a given discrete random variable.",
+      "Student attempts to determine the mean, but the approach is fundamentally flawed.",
+      "Student makes significant errors in the process of determining the mean.",
+      "Student can determine the mean with some errors or inefficiencies in the calculations.",
+      "Student accurately determines the mean for a discrete random variable with clear and correct calculations.",
+      "Student accurately and efficiently determines the mean, and can explain the process and justify the answer."
+    ],
+    [
+      "Student cannot apply the concept of mean to any practical scenario.",
+      "Student struggles to relate the concept of mean to real-world examples.",
+      "Student shows a limited ability to contextualize the mean within practical problems.",
+      "Student can apply the concept of mean to solve basic problems, showing some understanding of its practical use.",
+      "Student applies the concept of mean to solve complex problems effectively.",
+      "Student can apply the concept of mean in different contexts, explains its significance, and relates it to other statistical concepts."
+    ]
+  ]
+}

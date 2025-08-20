@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of exchanged items and their origin continents.",
+    "Explanation of the economic effects of the exchanges on each continent.",
+    "Explanation of the social effects of the exchanges on each continent.",
+    "Demonstrates understanding of the interaction between economic and social effects."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any exchanged items or their continents of origin.",
+      "Identifies only one or two exchanged items, with inaccurate continents of origin.",
+      "Identifies some exchanged items (3-4) and their continents of origin, but with some inaccuracies.",
+      "Identifies several exchanged items (5-6) and generally accurately states their continents of origin.",
+      "Identifies numerous exchanged items (7-8), accurately stating their continents of origin.",
+      "Comprehensively identifies many exchanged items, detailing their specific origins within continents."
+    ],
+    [
+      "Provides no explanation of the economic effects on any continent.",
+      "Offers a vague or inaccurate explanation of the economic effects on one continent.",
+      "Explains economic effects on 2 continents with limited detail or accuracy.",
+      "Adequately explains the economic effects on 3 continents with some supporting details.",
+      "Clearly explains the economic effects on all 4 continents with relevant details.",
+      "Insightfully explains the nuanced economic effects on all 4 continents, including comparative analysis."
+    ],
+    [
+      "Provides no explanation of the social effects on any continent.",
+      "Offers a vague or inaccurate explanation of the social effects on one continent.",
+      "Explains social effects on 2 continents with limited detail or accuracy.",
+      "Adequately explains the social effects on 3 continents with some supporting details.",
+      "Clearly explains the social effects on all 4 continents with relevant details.",
+      "Insightfully explains the nuanced social effects on all 4 continents, including comparative analysis and long-term consequences."
+    ],
+    [
+      "Shows no understanding of the relationship between economic and social effects.",
+      "Implies a relationship between economic and social effects but does not explicitly state it.",
+      "Provides a basic explanation of how economic and social effects are related in one context.",
+      "Explains how economic and social effects are related in multiple contexts, providing examples.",
+      "Clearly articulates the complex interaction between economic and social effects, providing specific supporting evidence.",
+      "Demonstrates a sophisticated understanding of the intertwined nature of economic and social effects, including analysis of cause and effect and long-term impacts."
+    ]
+  ]
+}

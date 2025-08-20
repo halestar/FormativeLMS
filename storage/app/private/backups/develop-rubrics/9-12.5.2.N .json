@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify and select foods that contribute to a nutritionally adequate meal, considering all food groups.",
+    "Application of decision-making process to plan meals at home, considering availability, budget, and nutritional needs.",
+    "Adaptability in planning nutritionally adequate meals away from home, such as at restaurants or when traveling."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of food groups or nutritional content.",
+      "Struggles to identify foods from all food groups; nutritional awareness is very limited.",
+      "Identifies foods from most food groups, but selection for nutritional adequacy is inconsistent.",
+      "Consistently selects foods from all food groups, showing a basic understanding of nutritional balance.",
+      "Selects foods demonstrating good nutritional balance, considering variety and essential nutrients.",
+      "Exemplifies excellent nutritional planning, strategically selecting diverse foods to maximize nutrient intake for a balanced meal."
+    ],
+    [
+      "Unable to apply any decision-making process to meal planning; shows no awareness of constraints.",
+      "Attempts to plan meals but struggles to consider availability, budget, or nutritional needs effectively.",
+      "Plans meals with some consideration of either availability, budget, or nutritional needs, but lacks a comprehensive approach.",
+      "Plans meals at home considering most factors like availability, budget, and nutritional needs in the decision-making process.",
+      "Demonstrates effective decision-making by balancing availability, budget, and nutritional needs when planning meals at home.",
+      "Exhibits a refined decision-making process, optimizing meal plans at home by creatively addressing availability, budget, and specific nutritional needs."
+    ],
+    [
+      "Shows no understanding of how to make nutritious choices when eating away from home.",
+      "Struggles to adapt meal plans to off-site locations, making poor nutritional choices.",
+      "Recognizes the need to adapt, but makes limited or inconsistent nutritional choices when away from home.",
+      "Adapts meal plans reasonably well, making some good choices when eating at restaurants or traveling.",
+      "Consistently makes informed and nutritious choices when planning meals away from home.",
+      "Masterfully adapts nutritional planning for meals away from home, optimizing choices based on location and circumstances to maintain a balanced diet."
+    ]
+  ]
+}

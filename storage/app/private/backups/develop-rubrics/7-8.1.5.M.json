@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and acknowledgement of diversity dimensions (disability, gender, race, sexual orientation, body size).",
+    "Respectful and inclusive language and attitude towards diverse groups.",
+    "Application of diversity awareness to real-world scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of diversity dimensions.",
+      "Identifies one diversity dimension but lacks understanding.",
+      "Identifies at least two diversity dimensions with superficial understanding.",
+      "Identifies multiple diversity dimensions with moderate understanding and provides basic examples.",
+      "Clearly identifies and explains various diversity dimensions with specific examples and shows nuanced understanding.",
+      "Demonstrates comprehensive understanding of diversity dimensions, provides insightful examples, and analyzes the complexities within each dimension."
+    ],
+    [
+      "Uses disrespectful or exclusionary language.",
+      "Demonstrates unintentional biases through language or attitude.",
+      "Uses mostly respectful language but occasionally slips into stereotypes.",
+      "Consistently uses respectful language and shows a generally inclusive attitude.",
+      "Actively promotes inclusive language and challenges stereotypes; demonstrates a respectful attitude.",
+      "Exemplifies inclusive language and attitude, actively advocates for respect, and challenges discriminatory behavior."
+    ],
+    [
+      "Unable to apply diversity awareness to any real-world scenarios.",
+      "Attempts to apply diversity awareness to a scenario but misses key aspects.",
+      "Applies diversity awareness to simple scenarios with limited understanding of complexities.",
+      "Applies diversity awareness to a variety of scenarios, demonstrating an understanding of relevant issues.",
+      "Critically analyzes complex scenarios and applies diversity awareness to create inclusive solutions.",
+      "Develops innovative and effective solutions for promoting diversity and inclusion in complex real-world scenarios; addresses systemic issues."
+    ]
+  ]
+}

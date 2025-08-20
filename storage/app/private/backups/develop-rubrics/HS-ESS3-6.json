@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Earth Systems",
+    "Explanation of Human Impact",
+    "Use of Computational Representation",
+    "Connections to Environmental Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of Earth systems (hydrosphere, atmosphere, cryosphere, geosphere, and\/or biosphere).",
+      "The student demonstrates a minimal understanding of Earth systems, with significant misconceptions.",
+      "The student identifies at least two Earth systems but struggles to explain their basic functions.",
+      "The student adequately explains the functions of at least three Earth systems.",
+      "The student clearly explains the functions of the major Earth systems and provides relevant examples.",
+      "The student demonstrates a comprehensive understanding of Earth systems and their interactions, including nuanced examples."
+    ],
+    [
+      "The student fails to identify any human activities that impact Earth systems.",
+      "The student identifies a human activity but cannot explain its impact on Earth systems.",
+      "The student vaguely describes the impact of human activity on one Earth system.",
+      "The student explains how a specific human activity impacts multiple Earth systems.",
+      "The student thoroughly explains how human activities modify the relationships among Earth systems, providing clear examples.",
+      "The student provides a detailed and nuanced explanation of how human activities modify the relationships among Earth systems, including far-reaching and complex impacts."
+    ],
+    [
+      "The student does not use or reference any computational representation.",
+      "The student mentions a computational representation but does not explain it.",
+      "The student attempts to use a computational representation but misunderstands its output.",
+      "The student uses a computational representation to support their explanation, but the connection is weak.",
+      "The student effectively uses a computational representation to illustrate relationships among Earth systems and the impact of human activity.",
+      "The student skillfully uses a computational representation to provide a detailed and insightful analysis of the relationships among Earth systems and the complex impacts of human activity."
+    ],
+    [
+      "The student makes no connection to California Environmental Principles and Concepts.",
+      "The student vaguely mentions an environmental principle without explaining its relevance.",
+      "The student identifies one environmental principle and attempts to relate it to the topic.",
+      "The student connects two or more environmental principles to the explanation of Earth systems and human activity.",
+      "The student effectively integrates several environmental principles to support their analysis of the relationships between human activities and Earth systems.",
+      "The student demonstrates a deep understanding of environmental principles, using them to provide a comprehensive and insightful analysis of the complex interactions between human societies and natural systems."
+    ]
+  ]
+}

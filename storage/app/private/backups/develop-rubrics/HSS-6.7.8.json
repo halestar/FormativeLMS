@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Roman Art and Architecture Legacies",
+    "Understanding of Roman Technology and Science Legacies",
+    "Understanding of Roman Literature, Language, and Law Legacies",
+    "Ability to Connect Legacies to Modern World"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of Roman art and architecture legacies.",
+      "Student demonstrates a minimal understanding of Roman art and architecture legacies, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of Roman art and architecture legacies, but with some gaps in knowledge.",
+      "Student demonstrates a satisfactory understanding of Roman art and architecture legacies, with minor omissions or inaccuracies.",
+      "Student demonstrates a strong understanding of Roman art and architecture legacies, providing accurate and detailed information.",
+      "Student demonstrates a comprehensive and insightful understanding of Roman art and architecture legacies, providing nuanced analysis and relevant examples."
+    ],
+    [
+      "Student demonstrates no understanding of Roman technology and science legacies.",
+      "Student demonstrates a minimal understanding of Roman technology and science legacies, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of Roman technology and science legacies, but with some gaps in knowledge.",
+      "Student demonstrates a satisfactory understanding of Roman technology and science legacies, with minor omissions or inaccuracies.",
+      "Student demonstrates a strong understanding of Roman technology and science legacies, providing accurate and detailed information.",
+      "Student demonstrates a comprehensive and insightful understanding of Roman technology and science legacies, providing nuanced analysis and relevant examples."
+    ],
+    [
+      "Student demonstrates no understanding of Roman literature, language, and law legacies.",
+      "Student demonstrates a minimal understanding of Roman literature, language, and law legacies, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of Roman literature, language, and law legacies, but with some gaps in knowledge.",
+      "Student demonstrates a satisfactory understanding of Roman literature, language, and law legacies, with minor omissions or inaccuracies.",
+      "Student demonstrates a strong understanding of Roman literature, language, and law legacies, providing accurate and detailed information.",
+      "Student demonstrates a comprehensive and insightful understanding of Roman literature, language, and law legacies, providing nuanced analysis and relevant examples."
+    ],
+    [
+      "Student fails to connect Roman legacies to the modern world.",
+      "Student makes a weak connection between Roman legacies and the modern world, lacking depth or accuracy.",
+      "Student identifies some connections between Roman legacies and the modern world, but the explanation is superficial.",
+      "Student adequately connects Roman legacies to the modern world, providing relevant examples and explanations.",
+      "Student clearly and effectively connects Roman legacies to the modern world, demonstrating a strong understanding of their enduring impact.",
+      "Student provides a sophisticated analysis of the connections between Roman legacies and the modern world, offering insightful perspectives and nuanced understanding."
+    ]
+  ]
+}

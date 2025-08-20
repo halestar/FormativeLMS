@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Analysis of Individual Factors",
+    "Analysis of Family Factors",
+    "Analysis of Community Factors",
+    "Analysis of Cultural Norms",
+    "Integration and Synthesis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding shown of individual influences on substance use.",
+      "Identifies individual factors with limited analysis.",
+      "Analyzes individual factors but lacks depth or specific examples.",
+      "Provides a detailed analysis of individual factors and their influence on substance use.",
+      "Demonstrates comprehensive analysis of individual factors, including psychological and biological influences.",
+      "Shows exceptional insight into the complex interplay of individual factors and substance use, supported by research."
+    ],
+    [
+      "No understanding shown of family influences on substance use.",
+      "Identifies family factors with limited analysis.",
+      "Analyzes family factors but lacks depth or specific examples.",
+      "Provides a detailed analysis of family factors, such as parenting styles and family history.",
+      "Demonstrates comprehensive analysis of family dynamics, including communication patterns and support systems.",
+      "Shows exceptional insight into the nuanced effects of family on substance use behaviors, supported by evidence."
+    ],
+    [
+      "No understanding shown of community influences on substance use.",
+      "Identifies community factors with limited analysis.",
+      "Analyzes community factors (e.g., access, norms) but lacks specific examples.",
+      "Provides a detailed analysis of community factors, including peer influence and availability of substances.",
+      "Demonstrates comprehensive analysis of community resources and social determinants of health related to substance use.",
+      "Shows exceptional insight into the role of community-level interventions and policies in addressing substance use, supported by data."
+    ],
+    [
+      "No understanding shown of cultural influences on substance use.",
+      "Identifies cultural norms with limited analysis.",
+      "Analyzes cultural norms related to substance use but lacks specific examples.",
+      "Provides a detailed analysis of cultural norms and traditions influencing substance use behaviors.",
+      "Demonstrates comprehensive analysis of diverse cultural perspectives on substance use and their implications.",
+      "Shows exceptional insight into the complexities of cultural norms and their impact on substance use patterns, supported by research."
+    ],
+    [
+      "Fails to integrate the different factors (individual, family, community, cultural) in the analysis.",
+      "Attempts to integrate factors, but the connections are weak.",
+      "Integrates some factors but misses key relationships and interactions.",
+      "Synthesizes individual, family, community, and cultural factors in a coherent analysis.",
+      "Demonstrates a strong understanding of how these factors interact and influence substance use.",
+      "Offers a sophisticated and nuanced synthesis, highlighting the interconnectedness of all factors with exceptional clarity and supporting evidence."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Information Gathering and Synthesis: Ability to collect information from various sources and combine them into a coherent understanding of how sensory receptors function and transmit information.",
+    "Source Evaluation: Skill in assessing the credibility, accuracy, and potential biases of information sources used.",
+    "Explanation of Cause and Effect Relationships: Ability to explain the cause-and-effect relationships between stimuli, sensory receptors, brain processing, and resulting behaviors or memories."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to gather or synthesize information about sensory receptors and their function.",
+      "Limited attempt to gather information; synthesis is lacking or inaccurate. Shows minimal understanding of sensory receptors.",
+      "Gathers information from a limited range of sources. Synthesis is basic, with some inaccuracies in understanding sensory receptor function.",
+      "Gathers information from multiple sources, demonstrating a satisfactory synthesis. Understands the basic function of sensory receptors and their role in transmitting information.",
+      "Gathers information from a variety of sources and effectively synthesizes it to demonstrate a comprehensive understanding of how sensory receptors respond to stimuli.",
+      "Gathers and expertly synthesizes information from diverse and credible sources. Demonstrates a deep and nuanced understanding of sensory receptors, their function, and their role in behavior and memory."
+    ],
+    [
+      "No attempt to evaluate the credibility or accuracy of information sources.",
+      "Limited awareness of source credibility or accuracy. Relies on sources without evaluation.",
+      "Attempts to evaluate sources but lacks depth or consistency. Shows some awareness of potential biases.",
+      "Evaluates sources for credibility and accuracy with reasonable consistency. Identifies potential biases in some sources.",
+      "Critically evaluates the credibility, accuracy, and potential biases of all sources used, providing clear justifications.",
+      "Demonstrates exceptional skill in evaluating sources, providing insightful analysis of credibility, accuracy, and biases. Connects source evaluation to the validity of conclusions."
+    ],
+    [
+      "No explanation of cause-and-effect relationships related to sensory information processing.",
+      "Simplistic or inaccurate explanation of cause-and-effect relationships. Shows limited understanding of the connection between stimuli and response.",
+      "Identifies some cause-and-effect relationships but lacks depth or clarity in explaining the connections.",
+      "Explains the cause-and-effect relationships between stimuli, sensory receptors, and brain processing with reasonable clarity.",
+      "Clearly and accurately explains the cause-and-effect relationships, demonstrating a strong understanding of how sensory information leads to behavior and memory.",
+      "Provides a sophisticated and nuanced explanation of the cause-and-effect relationships. Demonstrates a deep understanding of the complex interactions between stimuli, sensory processing, and behavioral outcomes."
+    ]
+  ]
+}

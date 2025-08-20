@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Triangle Angle Sum Theorem",
+    "Logical Reasoning and Proof Construction",
+    "Mathematical Communication and Notation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of the theorem. Fails to identify or use angle relationships in a triangle.",
+      "Shows minimal understanding. Attempts to apply the theorem but makes significant errors in identifying angles or setting up equations.",
+      "Demonstrates partial understanding. Can identify angles in a simple triangle but struggles with more complex diagrams or multi-step problems.",
+      "Demonstrates satisfactory understanding. Correctly applies the theorem to find missing angles in most triangle problems, with occasional minor errors.",
+      "Demonstrates strong understanding. Accurately applies the theorem to solve for missing angles in various triangle problems, including those with algebraic expressions.",
+      "Demonstrates excellent understanding. Can fluently apply the theorem, solve complex problems involving multiple triangles, and explain the underlying reasoning clearly."
+    ],
+    [
+      "Unable to construct a logical argument or proof. Shows no understanding of deductive reasoning principles.",
+      "Attempts to construct a proof but relies on assumptions or irrelevant information. The reasoning is unclear and lacks logical flow.",
+      "Constructs a basic proof with some logical steps but misses key connections or justifications. The reasoning is partially sound but incomplete.",
+      "Constructs a coherent proof with mostly correct logical steps and justifications. Minor gaps in reasoning may be present.",
+      "Constructs a well-reasoned and logically sound proof with clear justifications for each step. Demonstrates strong deductive reasoning skills.",
+      "Constructs elegant and efficient proofs, demonstrating a deep understanding of logical reasoning. Can adapt proofs to different problem scenarios and explain the reasoning behind each step with precision."
+    ],
+    [
+      "Uses incorrect mathematical notation or terminology. Explanations are unclear and difficult to understand.",
+      "Uses some correct mathematical notation but makes frequent errors. Explanations are vague and lack precision.",
+      "Uses mostly correct mathematical notation and terminology. Explanations are generally understandable but could be more clear and concise.",
+      "Uses correct mathematical notation and terminology consistently. Explanations are clear and easy to follow.",
+      "Communicates mathematical ideas effectively using precise language and notation. Explanations are thorough and well-organized.",
+      "Presents mathematical arguments with exceptional clarity and precision. Demonstrates mastery of mathematical notation and terminology, enhancing the overall understanding of the proof."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and breadth of emotion description",
+    "Clarity and detail in describing emotional responses and triggers",
+    "Use of appropriate vocabulary related to emotions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to describe any emotions.",
+      "The student attempts to describe emotions, but descriptions are inaccurate or irrelevant.",
+      "The student describes a very limited range of emotions with basic accuracy.",
+      "The student describes a moderate range of emotions with reasonable accuracy.",
+      "The student describes a broad range of emotions accurately, including some nuanced feelings.",
+      "The student comprehensively describes a wide variety of emotions with precision and insight, demonstrating a strong understanding of emotional complexity."
+    ],
+    [
+      "The student provides no information about emotional responses or triggers.",
+      "The student's descriptions of emotional responses or triggers are vague and unclear.",
+      "The student identifies some basic emotional responses or triggers, but lacks detail.",
+      "The student describes emotional responses and triggers with some clarity and detail.",
+      "The student provides clear and detailed descriptions of emotional responses and triggers, demonstrating a good understanding of how emotions are elicited.",
+      "The student provides exceptionally clear, detailed, and insightful descriptions of emotional responses and triggers, demonstrating a sophisticated understanding of the interplay between situations and emotions."
+    ],
+    [
+      "The student uses inappropriate or no vocabulary related to emotions.",
+      "The student uses very limited and basic vocabulary related to emotions.",
+      "The student uses some appropriate vocabulary related to emotions, but lacks precision.",
+      "The student uses a range of appropriate vocabulary related to emotions with reasonable accuracy.",
+      "The student uses a rich and varied vocabulary to describe emotions with precision.",
+      "The student uses sophisticated and nuanced vocabulary related to emotions, demonstrating mastery of emotional language."
+    ]
+  ]
+}

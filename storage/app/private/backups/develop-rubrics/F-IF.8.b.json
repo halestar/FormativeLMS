@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to rewrite functions and identify key properties",
+    "Understanding and application of exponent properties",
+    "Interpretation of exponential function expressions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot rewrite the function or identify any key properties.",
+      "Student attempts to rewrite the function but struggles to identify key properties.",
+      "Student can rewrite the function but has difficulty explaining the properties revealed.",
+      "Student can rewrite the function and identify some key properties, but struggles with complete explanations.",
+      "Student can rewrite the function and accurately explain most of the key properties revealed.",
+      "Student can rewrite the function, accurately explain all key properties revealed, and provide insightful observations."
+    ],
+    [
+      "Student shows no understanding of exponent properties.",
+      "Student shows limited understanding of exponent properties.",
+      "Student can apply basic exponent properties but struggles with more complex expressions.",
+      "Student can apply most exponent properties correctly but makes occasional errors.",
+      "Student demonstrates a strong understanding and application of exponent properties.",
+      "Student demonstrates a comprehensive understanding and skillful application of exponent properties in various contexts."
+    ],
+    [
+      "Student cannot interpret exponential function expressions.",
+      "Student attempts to interpret exponential function expressions but struggles with the concept.",
+      "Student can identify growth or decay but struggles with the percent rate of change.",
+      "Student can identify growth or decay and calculate the percent rate of change with some errors.",
+      "Student can accurately identify growth or decay and calculate the percent rate of change.",
+      "Student can accurately interpret exponential function expressions, calculate the percent rate of change, and classify them as growth or decay with detailed explanations."
+    ]
+  ]
+}

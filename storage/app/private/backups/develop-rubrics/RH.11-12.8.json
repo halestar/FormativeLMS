@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Author's Premises and Claims",
+    "Evaluation of Evidence",
+    "Corroboration and Challenge with Other Information",
+    "Clarity and Organization of Evaluation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any premises or claims made by the author.",
+      "Identifies premises or claims vaguely or inaccurately.",
+      "Identifies some premises and claims, but with limited clarity.",
+      "Identifies most premises and claims accurately.",
+      "Clearly and accurately identifies the author's key premises and claims.",
+      "Masterfully identifies and explains the nuances of the author's premises and claims with exceptional clarity."
+    ],
+    [
+      "Does not evaluate the evidence provided by the author.",
+      "Attempts to evaluate the evidence, but the evaluation is superficial and lacks depth.",
+      "Provides a basic evaluation of the evidence, but misses key strengths or weaknesses.",
+      "Evaluates the evidence, considering both strengths and weaknesses.",
+      "Provides a thorough and insightful evaluation of the evidence, demonstrating a strong understanding of its validity and relevance.",
+      "Critically evaluates the evidence with sophisticated analysis, revealing subtle strengths, weaknesses, and biases."
+    ],
+    [
+      "Does not attempt to corroborate or challenge the author's points with external information.",
+      "Attempts to corroborate or challenge, but uses irrelevant or inaccurate information.",
+      "Corroborates or challenges with limited success or superficial connections to the author's claims.",
+      "Successfully corroborates or challenges the author's claims with relevant and accurate information.",
+      "Effectively corroborates and challenges the author's claims, demonstrating a comprehensive understanding of the topic and source material.",
+      "Skillfully integrates external information to provide a nuanced and insightful corroboration or challenge, demonstrating mastery of critical thinking."
+    ],
+    [
+      "Evaluation is unclear, disorganized, and difficult to follow.",
+      "Evaluation lacks clarity and organization, hindering understanding.",
+      "Evaluation is somewhat organized, but clarity is lacking in places.",
+      "Evaluation is clear and well-organized, making it easy to follow the reasoning.",
+      "Evaluation is exceptionally clear, concise, and logically organized, enhancing the persuasiveness of the argument.",
+      "Evaluation is presented with exceptional clarity, precision, and sophistication, demonstrating exemplary communication skills."
+    ]
+  ]
+}

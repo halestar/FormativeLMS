@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Labor Market Operations",
+    "Knowledge of Labor Union History and Procedures",
+    "Analysis of the Effects of Unionization, Minimum Wage, and Unemployment Insurance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of labor market operations or related concepts.",
+      "Shows a minimal understanding of labor market operations; struggles to define key terms.",
+      "Identifies basic elements of labor market operations but lacks depth in explanation.",
+      "Explains labor market operations with some accuracy, including basic union functions and minimum wage.",
+      "Demonstrates a solid understanding of labor market operations, including union procedures and effects of minimum wage and unemployment insurance.",
+      "Demonstrates a comprehensive and insightful understanding of labor market operations, including nuanced aspects of unions, minimum wage, and unemployment insurance, with real-world examples."
+    ],
+    [
+      "Shows no awareness of the history or procedures of American labor unions.",
+      "Has a vague awareness of labor unions but cannot describe their history or procedures.",
+      "Identifies a few major American labor unions but struggles to explain their establishment or procedures.",
+      "Describes the establishment of some principal American labor unions and their basic procedures for gaining benefits.",
+      "Explains the history and procedures of American labor unions in detail, including negotiation tactics and benefits gained.",
+      "Provides an in-depth analysis of the history and procedures of American labor unions, including their impact on workers' rights and the economy."
+    ],
+    [
+      "Unable to identify any effects of unionization, minimum wage, or unemployment insurance.",
+      "Lists one or two superficial effects of unionization, minimum wage, or unemployment insurance.",
+      "Describes some basic effects of unionization, minimum wage, and unemployment insurance but lacks analytical depth.",
+      "Analyzes the effects of unionization, minimum wage, and unemployment insurance with some accuracy, including both positive and negative impacts.",
+      "Provides a thorough analysis of the effects of unionization, minimum wage, and unemployment insurance, considering various perspectives and stakeholders.",
+      "Offers a sophisticated and well-supported analysis of the complex effects of unionization, minimum wage, and unemployment insurance, demonstrating critical thinking and nuanced understanding."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Evaluation of Management Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any internal influences on substance use.",
+      "Identifies one internal influence on substance use with limited accuracy.",
+      "Identifies at least two internal influences on substance use, but lacks depth in explanation.",
+      "Identifies several internal influences on substance use and provides a basic explanation of their impact.",
+      "Clearly identifies and explains multiple internal influences (e.g., stress, emotions, self-esteem) on substance use, demonstrating a good understanding.",
+      "Thoroughly analyzes and evaluates multiple internal influences on substance use, providing insightful explanations of their complex impact and interrelationships."
+    ],
+    [
+      "Does not identify any external influences on substance use.",
+      "Identifies one external influence on substance use with limited accuracy.",
+      "Identifies at least two external influences on substance use, but lacks depth in explanation.",
+      "Identifies several external influences on substance use and provides a basic explanation of their impact.",
+      "Clearly identifies and explains multiple external influences (e.g., peers, family, media) on substance use, demonstrating a good understanding.",
+      "Thoroughly analyzes and evaluates multiple external influences on substance use, providing insightful explanations of their complex impact and interrelationships."
+    ],
+    [
+      "Does not suggest any strategies for managing influences on substance use.",
+      "Suggests one strategy for managing influences on substance use, but it is not well-explained or appropriate.",
+      "Suggests a few strategies for managing influences on substance use, but lacks detail and justification.",
+      "Suggests several strategies for managing influences on substance use and provides a basic explanation of their potential effectiveness.",
+      "Evaluates and explains the effectiveness of various strategies for managing both internal and external influences on substance use, demonstrating a good understanding of their application.",
+      "Critically analyzes and evaluates a wide range of strategies for managing internal and external influences, providing insightful explanations of their effectiveness and limitations in different contexts."
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Interpretation of Figurative Language",
+    "Analysis of Word Relationships and Nuances"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify or interpret figurative language.",
+      "Identifies figurative language, but interpretation is missing or inaccurate.",
+      "Basic interpretation of figurative language with limited understanding of its role in the text.",
+      "Adequate interpretation of figurative language and some analysis of its role in the text.",
+      "Clear and accurate interpretation of figurative language with good analysis of its role in the text.",
+      "Insightful and nuanced interpretation of figurative language with thorough analysis of its role and impact on the text."
+    ],
+    [
+      "No attempt to analyze word relationships or nuances in word meanings.",
+      "Identifies word relationships but fails to analyze nuances in meaning.",
+      "Basic analysis of word relationships with limited understanding of nuances in word meanings.",
+      "Adequate analysis of word relationships and some understanding of nuances in word meanings.",
+      "Clear analysis of word relationships with good understanding of nuances in word meanings.",
+      "Sophisticated analysis of word relationships and insightful understanding of subtle nuances in word meanings and their impact."
+    ]
+  ]
+}

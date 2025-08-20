@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Binomial Theorem",
+    "Application of the Binomial Theorem",
+    "Accuracy in Coefficient Determination (Pascal's Triangle)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the Binomial Theorem is demonstrated.",
+      "Demonstrates a very limited understanding of the Binomial Theorem with significant errors.",
+      "Demonstrates a partial understanding of the Binomial Theorem, but struggles with application.",
+      "Demonstrates a satisfactory understanding of the Binomial Theorem and can apply it in simple cases.",
+      "Demonstrates a strong understanding of the Binomial Theorem and can apply it in most cases with accuracy.",
+      "Demonstrates a comprehensive understanding of the Binomial Theorem and can apply it accurately and efficiently in complex scenarios."
+    ],
+    [
+      "Unable to apply the Binomial Theorem to expand (x + y)^n.",
+      "Attempts to apply the Binomial Theorem but makes fundamental errors in the expansion process.",
+      "Applies the Binomial Theorem with limited success, often making errors in coefficient determination or exponentiation.",
+      "Successfully applies the Binomial Theorem to expand (x + y)^n in most cases, but may struggle with more complex problems.",
+      "Confidently and accurately applies the Binomial Theorem to expand (x + y)^n in a variety of problems.",
+      "Demonstrates mastery in applying the Binomial Theorem, including efficient calculation of coefficients and accurate expansion in all cases."
+    ],
+    [
+      "Unable to determine coefficients using Pascal's Triangle or other methods.",
+      "Attempts to use Pascal's Triangle but makes significant errors in coefficient determination.",
+      "Determines coefficients with limited accuracy, often making mistakes in Pascal's Triangle or calculations.",
+      "Accurately determines coefficients in most cases using Pascal's Triangle or other valid methods.",
+      "Consistently and accurately determines coefficients using Pascal's Triangle or other methods, with clear and organized work.",
+      "Demonstrates exceptional accuracy and efficiency in coefficient determination, using appropriate methods and providing clear justification."
+    ]
+  ]
+}

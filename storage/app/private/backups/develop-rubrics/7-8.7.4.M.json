@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Personal Boundaries",
+    "Application of Boundaries in Social Situations",
+    "Communication of Personal Boundaries",
+    "Response to Boundary Violations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of personal boundaries or their importance.",
+      "Shows a limited understanding of personal boundaries and may struggle to define them.",
+      "Understands the basic concept of personal boundaries but has difficulty applying it to different situations.",
+      "Can define personal boundaries and explain their importance in maintaining healthy relationships.",
+      "Demonstrates a strong understanding of personal boundaries and can explain how they vary in different contexts.",
+      "Exhibits a comprehensive understanding of personal boundaries, including their cultural and situational nuances."
+    ],
+    [
+      "Unable to identify or apply personal boundaries in any social situation.",
+      "Struggles to apply personal boundaries in social situations and may feel uncomfortable asserting them.",
+      "Can identify situations where personal boundaries are needed but struggles to assert them effectively.",
+      "Applies personal boundaries appropriately in most social situations, demonstrating self-awareness and respect for others.",
+      "Confidently and effectively applies personal boundaries in a variety of social situations, adapting to different contexts.",
+      "Skillfully navigates complex social situations while maintaining personal boundaries, serving as a role model for others."
+    ],
+    [
+      "Unable to communicate personal boundaries or needs effectively.",
+      "Struggles to communicate personal boundaries and may rely on passive or aggressive communication styles.",
+      "Can communicate personal boundaries verbally but may struggle to express them non-verbally.",
+      "Communicates personal boundaries clearly and respectfully, using assertive communication skills.",
+      "Communicates personal boundaries effectively in a variety of ways, adapting to different communication styles and preferences.",
+      "Masterfully communicates personal boundaries with empathy and diplomacy, fostering understanding and respect in others."
+    ],
+    [
+      "Does not recognize or respond to boundary violations.",
+      "May recognize boundary violations but struggles to respond assertively or appropriately.",
+      "Responds to boundary violations inconsistently and may feel uncomfortable asserting their rights.",
+      "Responds to boundary violations assertively and appropriately, protecting their personal space and well-being.",
+      "Handles boundary violations effectively and confidently, seeking support from trusted sources when needed.",
+      "Demonstrates resilience in the face of boundary violations, advocating for their rights and promoting a culture of respect."
+    ]
+  ]
+}

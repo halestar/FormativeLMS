@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Asthma Triggers and Prevention Strategies",
+    "Knowledge of Asthma Management Techniques",
+    "Ability to Recognize Asthma Symptoms and Respond Appropriately"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of asthma triggers or prevention strategies.",
+      "The student identifies one or two common asthma triggers but struggles to explain prevention strategies.",
+      "The student identifies several asthma triggers and lists a few basic prevention strategies with limited detail.",
+      "The student accurately identifies common asthma triggers and describes several prevention strategies, but explanations may lack depth.",
+      "The student comprehensively identifies a wide range of asthma triggers and thoroughly explains various prevention strategies, including environmental controls and lifestyle adjustments.",
+      "The student demonstrates an exceptional understanding of asthma triggers and prevention. They can articulate complex strategies, including personalized management plans and proactive measures, and discuss how to implement them effectively."
+    ],
+    [
+      "The student shows no awareness of asthma management techniques or rescue medications.",
+      "The student vaguely mentions the existence of asthma medications but cannot describe their use or purpose.",
+      "The student identifies a rescue inhaler as a tool for managing asthma symptoms but provides a limited description of its use.",
+      "The student accurately describes the use of a rescue inhaler during an asthma attack and mentions the importance of consulting a healthcare professional.",
+      "The student comprehensively explains the proper use of rescue inhalers and controller medications, including dosage, timing, and potential side effects. They understand the importance of adherence to prescribed medication regimens.",
+      "The student demonstrates expert knowledge of asthma management techniques, including medication administration, peak flow monitoring, and the development of personalized action plans. They can effectively educate others on these techniques."
+    ],
+    [
+      "The student cannot identify any asthma symptoms or describe appropriate responses.",
+      "The student identifies one or two common asthma symptoms but struggles to describe appropriate responses.",
+      "The student recognizes several asthma symptoms and suggests seeking help during an asthma attack.",
+      "The student accurately identifies common asthma symptoms and outlines basic steps to take during an asthma attack, such as using a rescue inhaler and seeking medical assistance.",
+      "The student comprehensively describes a wide range of asthma symptoms and articulates a detailed plan for responding to an asthma attack, including proper use of medication, positioning, and communication with healthcare providers.",
+      "The student demonstrates exceptional ability to recognize and respond to asthma symptoms. They can effectively assess the severity of an asthma attack, provide appropriate first aid, and communicate vital information to emergency personnel. They also demonstrate the ability to educate others on how to recognize and respond to asthma emergencies."
+    ]
+  ]
+}

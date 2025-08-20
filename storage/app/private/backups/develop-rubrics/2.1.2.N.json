@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Identifying Food Group Servings",
+    "Understanding of Serving Sizes",
+    "Application to Daily Needs"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any food group servings correctly.",
+      "Identifies only one food group serving correctly.",
+      "Identifies some food group servings correctly, but with significant errors or omissions.",
+      "Identifies most food group servings correctly, but with minor errors or omissions.",
+      "Identifies all food group servings correctly for a child\u2019s daily needs with only minor prompting.",
+      "Accurately and comprehensively identifies all food group servings necessary for a child\u2019s daily needs, demonstrating a clear understanding of nutritional guidelines without prompting."
+    ],
+    [
+      "Demonstrates no understanding of appropriate serving sizes.",
+      "Demonstrates a minimal understanding of appropriate serving sizes.",
+      "Shows some understanding of serving sizes, but struggles with specific examples.",
+      "Generally understands serving sizes, but may have slight inaccuracies.",
+      "Accurately identifies appropriate serving sizes for each food group with only minor prompting.",
+      "Demonstrates a thorough and accurate understanding of appropriate serving sizes for all food groups without prompting."
+    ],
+    [
+      "Unable to apply knowledge of food groups to daily nutritional needs.",
+      "Attempts to apply knowledge, but is largely incorrect.",
+      "Shows some ability to relate food groups to daily needs, but with limited success.",
+      "Can relate food groups to daily needs with some inaccuracies.",
+      "Accurately relates food groups to a child's daily nutritional needs, demonstrating comprehension with only minor prompting.",
+      "Consistently and accurately applies knowledge of food groups and serving sizes to a child's daily nutritional needs without prompting."
+    ]
+  ]
+}

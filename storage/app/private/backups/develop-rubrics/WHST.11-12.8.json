@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Gathering Relevant Information",
+    "Assessing Source Strengths and Weaknesses",
+    "Integration of Information",
+    "Citation and Avoiding Plagiarism"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to gather information from sources.",
+      "Gathers information from only one source, which may not be authoritative or relevant.",
+      "Gathers information from a limited number of sources, with little regard for authority or relevance.",
+      "Gathers information from multiple sources, but struggles to differentiate between authoritative and non-authoritative sources.",
+      "Gathers relevant information from multiple authoritative sources, using basic searches.",
+      "Gathers relevant information from multiple authoritative print and digital sources, using advanced searches effectively."
+    ],
+    [
+      "Does not assess the strengths and limitations of sources.",
+      "Attempts to assess sources, but demonstrates little understanding of strengths and limitations.",
+      "Identifies basic strengths and limitations of some sources, but not consistently.",
+      "Identifies strengths and limitations of most sources, but analysis lacks depth.",
+      "Effectively assesses the strengths and limitations of each source in terms of task and purpose.",
+      "Critically assesses the strengths and limitations of each source in terms of the specific task, purpose, and audience."
+    ],
+    [
+      "Does not integrate information from sources into the text.",
+      "Attempts to integrate information, but does so poorly, disrupting the flow of ideas.",
+      "Integrates information awkwardly, with minimal regard for flow or coherence.",
+      "Integrates information adequately, but may rely too heavily on direct quotes or one source.",
+      "Integrates information selectively to maintain the flow of ideas, avoiding overreliance on any one source.",
+      "Integrates information seamlessly into the text selectively to maintain the flow of ideas, avoiding plagiarism and overreliance on any one source."
+    ],
+    [
+      "No citations are present, and plagiarism is evident.",
+      "Citations are attempted, but are often incorrect or missing, with a risk of plagiarism.",
+      "Citations are present but inconsistent, with some instances of plagiarism.",
+      "Uses a standard format for citation, but with occasional errors or omissions. Some risk of unintentional plagiarism.",
+      "Consistently follows a standard format for citation, with minimal errors and no evidence of plagiarism.",
+      "Consistently and correctly follows a standard format for citation, demonstrating a strong understanding of academic integrity and avoiding plagiarism."
+    ]
+  ]
+}

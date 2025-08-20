@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Expected Value",
+    "Calculation Accuracy",
+    "Problem Solving Application",
+    "Interpretation of Results"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of expected value or its calculation.",
+      "Demonstrates minimal understanding of expected value; struggles to define or explain it.",
+      "Demonstrates basic understanding of expected value; can define it but struggles with its interpretation.",
+      "Demonstrates satisfactory understanding of expected value and its interpretation as the mean of a probability distribution.",
+      "Demonstrates strong understanding of expected value, can accurately interpret it and explain its significance.",
+      "Demonstrates comprehensive understanding of expected value, can clearly interpret it, and explain its significance and applications."
+    ],
+    [
+      "Unable to perform calculations related to expected value.",
+      "Struggles to perform calculations and makes significant errors in the process.",
+      "Performs calculations with frequent errors, showing a lack of precision.",
+      "Performs calculations with occasional errors, but generally arrives at the correct answer.",
+      "Performs calculations accurately with minimal errors.",
+      "Performs calculations flawlessly and efficiently, demonstrating a strong command of mathematical concepts."
+    ],
+    [
+      "Unable to apply the concept of expected value to solve problems.",
+      "Attempts to apply expected value to solve problems but is unsuccessful.",
+      "Applies expected value to solve problems with limited success and frequent errors.",
+      "Applies expected value to solve problems with reasonable success, though may require some guidance.",
+      "Applies expected value effectively to solve a variety of problems.",
+      "Applies expected value adeptly to solve complex problems, demonstrating a deep understanding of its applications."
+    ],
+    [
+      "Unable to interpret the results of expected value calculations.",
+      "Struggles to interpret the results of expected value calculations and lacks understanding of their meaning.",
+      "Provides superficial interpretations of results, missing key insights.",
+      "Provides adequate interpretations of results, but may overlook nuances.",
+      "Provides insightful interpretations of results, drawing meaningful conclusions.",
+      "Provides comprehensive and nuanced interpretations of results, demonstrating a sophisticated understanding of their implications."
+    ]
+  ]
+}

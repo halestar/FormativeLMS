@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Basic Nutritional Principles",
+    "Analysis of Impact on Reproductive Health",
+    "Analysis of Impact on Prenatal Health",
+    "Use of Evidence and Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic nutritional principles or their relevance to health.",
+      "Shows a limited understanding of basic nutritional principles with no connection to reproductive and prenatal health.",
+      "Identifies basic nutritional principles but struggles to explain their impact on reproductive and prenatal health.",
+      "Explains basic nutritional principles and links them to reproductive and prenatal health in a general way.",
+      "Clearly explains basic nutritional principles and analyzes their specific impact on reproductive and prenatal health with some examples.",
+      "Demonstrates a comprehensive understanding of basic nutritional principles and thoroughly analyzes their specific impacts on reproductive and prenatal health, providing detailed examples and insights."
+    ],
+    [
+      "Does not address the impact of nutritional choices on reproductive health.",
+      "Mentions reproductive health but does not connect it to nutritional choices.",
+      "Attempts to connect nutritional choices to reproductive health, but analysis is superficial and lacks detail.",
+      "Provides a basic analysis of how nutritional choices can impact reproductive health.",
+      "Offers a detailed analysis of the impact of specific nutritional choices on reproductive health, including potential risks and benefits.",
+      "Presents a sophisticated and nuanced analysis of the long-term impacts of various nutritional choices on reproductive health, demonstrating a clear understanding of complex relationships."
+    ],
+    [
+      "Does not address the impact of nutritional choices on prenatal health.",
+      "Mentions prenatal health but does not connect it to nutritional choices.",
+      "Attempts to connect nutritional choices to prenatal health, but analysis is superficial and lacks detail.",
+      "Provides a basic analysis of how nutritional choices can impact prenatal health.",
+      "Offers a detailed analysis of the impact of specific nutritional choices on prenatal health, including potential risks and benefits for both mother and child.",
+      "Presents a sophisticated and nuanced analysis of the long-term impacts of various nutritional choices on prenatal health, demonstrating a clear understanding of complex relationships and offering insightful recommendations."
+    ],
+    [
+      "Presents claims without any supporting evidence or examples.",
+      "Provides limited evidence or examples that are not clearly linked to the analysis.",
+      "Includes some evidence or examples, but they are not always relevant or well-explained.",
+      "Supports analysis with relevant evidence and examples, though some may lack detail.",
+      "Effectively uses a variety of evidence and detailed examples to support analysis and claims.",
+      "Masterfully integrates compelling evidence, diverse examples, and insightful explanations to create a persuasive and well-supported analysis."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Local Resources",
+    "Accuracy of Information on Contraceptives",
+    "Knowledge of HIV\/STD Testing and Medical Care"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No local resources are identified.",
+      "One local resource is identified, but it lacks specific details or contains inaccuracies.",
+      "Two local resources are identified, but details may be incomplete or have minor inaccuracies.",
+      "Three local resources are identified with generally accurate details.",
+      "Four local resources are accurately identified with specific details, demonstrating a good understanding.",
+      "Five or more local resources are accurately identified with comprehensive details, demonstrating excellent knowledge and understanding."
+    ],
+    [
+      "Information on FDA-approved contraceptives is missing or entirely inaccurate.",
+      "Limited and partially inaccurate information is provided on one or two FDA-approved contraceptives.",
+      "Information is provided on a few FDA-approved contraceptives, but there are some inaccuracies or omissions.",
+      "Accurate information is provided on several FDA-approved contraceptives.",
+      "Comprehensive and accurate information is provided on a wide range of FDA-approved contraceptives, demonstrating thorough understanding.",
+      "Provides exceptional detail on a comprehensive range of FDA-approved contraceptives, including their mechanisms, effectiveness, and proper usage, demonstrating mastery of the topic."
+    ],
+    [
+      "No mention or understanding of HIV\/STD testing or related medical care.",
+      "Basic mention of HIV\/STD testing or medical care, but lacks detail or contains inaccuracies.",
+      "Identifies HIV\/STD testing and medical care resources with some accurate details.",
+      "Provides accurate information about HIV\/STD testing procedures and available medical care.",
+      "Demonstrates a strong understanding of HIV\/STD testing, treatment options, and relevant medical care resources.",
+      "Exhibits comprehensive knowledge of HIV\/STD testing, treatment, prevention strategies, and related medical care, demonstrating expertise in the area."
+    ]
+  ]
+}

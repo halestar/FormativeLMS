@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Comprehension of Main Ideas and Supporting Details",
+    "Inference and Interpretation",
+    "Analysis of Unfamiliar or Specialized Topics",
+    "Use of Technology to Access Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the text; unable to identify the main idea or any supporting details.",
+      "Demonstrates very limited understanding; struggles to identify the main idea and identifies very few supporting details, if any.",
+      "Demonstrates some understanding; can identify the main idea with prompting but struggles with supporting details.",
+      "Demonstrates a general understanding; can identify the main idea and some supporting details, but may miss nuances or complexities.",
+      "Demonstrates a good understanding; clearly identifies the main idea and several supporting details, showing comprehension of the text's overall structure.",
+      "Demonstrates excellent understanding; accurately identifies the main idea and all key supporting details, demonstrating a comprehensive grasp of the text's content and structure."
+    ],
+    [
+      "Unable to make any inferences or interpret implied meanings within the text.",
+      "Struggles to make inferences, interpretations are illogical or unsupported by textual evidence.",
+      "Makes simple, surface-level inferences but misses deeper or more nuanced implied meanings.",
+      "Makes reasonable inferences and interpretations, but may occasionally oversimplify or misinterpret complex ideas.",
+      "Consistently makes accurate and insightful inferences, demonstrating the ability to interpret implied meanings and connect ideas within the text.",
+      "Demonstrates exceptional ability to infer and interpret complex and abstract ideas, providing insightful analysis supported by strong textual evidence."
+    ],
+    [
+      "Shows no ability to understand or analyze unfamiliar, abstract, or hypothetical areas of specialized expertise.",
+      "Struggles significantly with unfamiliar topics, demonstrating confusion and misinterpretation.",
+      "Can identify basic elements of unfamiliar topics but cannot analyze them or relate them to broader contexts.",
+      "Demonstrates a general understanding of unfamiliar topics and can analyze them at a basic level.",
+      "Demonstrates a solid understanding of unfamiliar topics and can analyze them with some depth, making connections to related concepts.",
+      "Demonstrates a sophisticated understanding of unfamiliar topics, providing insightful analysis and making insightful connections to broader academic or professional contexts."
+    ],
+    [
+      "Does not use technology or is unable to use technology to access relevant information.",
+      "Attempts to use technology but is unsuccessful in accessing relevant information or uses it ineffectively.",
+      "Uses technology to access information but struggles to evaluate the credibility or relevance of sources.",
+      "Uses technology to access relevant information and can generally evaluate the credibility of sources.",
+      "Uses technology effectively to access a variety of relevant information, critically evaluates sources, and synthesizes information effectively.",
+      "Demonstrates masterful use of technology to access, evaluate, and synthesize information from a wide range of sources, demonstrating advanced research skills."
+    ]
+  ]
+}

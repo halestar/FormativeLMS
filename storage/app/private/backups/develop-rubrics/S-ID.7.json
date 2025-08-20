@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Slope as Rate of Change",
+    "Interpretation of Y-Intercept as a Constant Term",
+    "Contextual Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of slope is demonstrated. The student cannot identify or explain the slope in any context.",
+      "The student shows a minimal understanding of slope, but struggles to explain it as a rate of change. The explanation may be unclear or inaccurate.",
+      "The student can identify the slope but demonstrates a limited ability to explain it as a rate of change. Explanation lacks detail or clarity.",
+      "The student correctly identifies the slope and provides a basic explanation of it as a rate of change. The explanation is generally accurate but lacks depth.",
+      "The student clearly explains the slope as a rate of change with supporting details and accurate interpretations. The explanation shows a solid understanding of the concept.",
+      "The student provides a comprehensive and insightful explanation of slope as a rate of change. They demonstrate a deep understanding of the concept and can apply it to various contexts with accuracy and precision."
+    ],
+    [
+      "No understanding of the y-intercept is demonstrated. The student cannot identify or explain the y-intercept in any context.",
+      "The student shows minimal understanding of the y-intercept, but struggles to explain it as a constant term. The explanation may be unclear or inaccurate.",
+      "The student can identify the y-intercept but demonstrates a limited ability to explain it as a constant term. Explanation lacks detail or clarity.",
+      "The student correctly identifies the y-intercept and provides a basic explanation of it as a constant term. The explanation is generally accurate but lacks depth.",
+      "The student clearly explains the y-intercept as a constant term with supporting details and accurate interpretations. The explanation shows a solid understanding of the concept.",
+      "The student provides a comprehensive and insightful explanation of the y-intercept as a constant term. They demonstrate a deep understanding of the concept and can apply it to various contexts with accuracy and precision."
+    ],
+    [
+      "The student does not attempt to relate the slope or y-intercept to the context of the data.",
+      "The student attempts to relate the slope or y-intercept to the context, but the explanation is unclear or inaccurate.",
+      "The student relates the slope and y-intercept to the context, but the interpretation is superficial or incomplete.",
+      "The student adequately interprets the slope and y-intercept in the context of the data, providing a reasonable explanation.",
+      "The student thoroughly interprets the slope and y-intercept in the context of the data, providing clear and accurate explanations.",
+      "The student provides a sophisticated and insightful interpretation of the slope and y-intercept within the context of the data, demonstrating a deep understanding of the relationship between the linear model and the real-world situation."
+    ]
+  ]
+}

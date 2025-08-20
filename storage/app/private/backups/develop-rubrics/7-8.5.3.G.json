@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Individual Differences",
+    "Application of Decision-Making Process",
+    "Evaluation of Growth and Development",
+    "Evaluation of Physical Appearance and Gender Roles",
+    "Evaluation of Sexual Orientation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of individual differences in growth\/development, physical appearance, gender roles, and sexual orientation.",
+      "Shows minimal understanding of individual differences; struggles to identify key aspects.",
+      "Displays basic understanding of individual differences but lacks depth or nuance in explanation.",
+      "Demonstrates a solid understanding of individual differences and can explain most aspects adequately.",
+      "Exhibits a strong understanding of individual differences and explains them clearly and thoughtfully.",
+      "Demonstrates a comprehensive and nuanced understanding of individual differences, including complex interrelationships and societal impacts."
+    ],
+    [
+      "Unable to apply a decision-making process to evaluate individual differences.",
+      "Attempts to use a decision-making process but struggles to apply it effectively.",
+      "Applies a decision-making process with limited success; some steps may be missing or unclear.",
+      "Effectively applies a decision-making process to evaluate individual differences in most scenarios.",
+      "Consistently and effectively applies a decision-making process, showing critical thinking and sound judgment.",
+      "Demonstrates mastery in applying a comprehensive decision-making process, exhibiting exceptional insight and ethical considerations."
+    ],
+    [
+      "Shows no ability to evaluate differences in growth and development.",
+      "Struggles to identify any factors related to growth and development.",
+      "Identifies a few basic factors related to growth and development but lacks detail.",
+      "Evaluates differences in growth and development, considering several relevant factors.",
+      "Provides a thorough evaluation of growth and development differences with clear examples.",
+      "Offers a comprehensive and insightful evaluation of differences in growth and development, demonstrating advanced understanding and critical analysis."
+    ],
+    [
+      "Shows no ability to evaluate differences in physical appearance and gender roles.",
+      "Struggles to identify any factors related to physical appearance and gender roles.",
+      "Identifies a few basic factors related to physical appearance and gender roles but lacks detail.",
+      "Evaluates differences in physical appearance and gender roles, considering several relevant factors.",
+      "Provides a thorough evaluation of physical appearance and gender roles with clear examples.",
+      "Offers a comprehensive and insightful evaluation of differences in physical appearance and gender roles, demonstrating advanced understanding and critical analysis."
+    ],
+    [
+      "Shows no ability to evaluate differences in sexual orientation.",
+      "Struggles to identify any factors related to sexual orientation.",
+      "Identifies a few basic factors related to sexual orientation but lacks detail and sensitivity.",
+      "Evaluates differences in sexual orientation, considering several relevant factors with respect.",
+      "Provides a thorough evaluation of sexual orientation with clear examples and demonstrates sensitivity.",
+      "Offers a comprehensive and insightful evaluation of differences in sexual orientation, demonstrating advanced understanding, empathy, and respect for diverse perspectives."
+    ]
+  ]
+}

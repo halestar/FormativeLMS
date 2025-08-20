@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Coherence",
+    "Development",
+    "Organization",
+    "Style"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Writing lacks clarity and coherence, making it difficult to understand the main idea.",
+      "Writing demonstrates minimal clarity and coherence; the main idea is difficult to follow.",
+      "Writing shows some clarity and coherence; the main idea is somewhat understandable but lacks smooth transitions.",
+      "Writing is generally clear and coherent; the main idea is understandable with some logical organization.",
+      "Writing is clear and coherent; the main idea is easily understandable with logical organization and effective transitions.",
+      "Writing is exceptionally clear, coherent, and compelling; the main idea is clearly articulated with seamless transitions and logical flow."
+    ],
+    [
+      "Ideas are not developed, and supporting details are absent.",
+      "Ideas are minimally developed, with few or irrelevant supporting details.",
+      "Ideas are somewhat developed, with some supporting details that may lack relevance or depth.",
+      "Ideas are adequately developed, with relevant supporting details that provide some depth.",
+      "Ideas are well-developed, with relevant and detailed support that enhances understanding.",
+      "Ideas are exceptionally well-developed, with rich, insightful, and compelling support that demonstrates a deep understanding of the topic."
+    ],
+    [
+      "Writing lacks organization, making it difficult to follow the writer's train of thought.",
+      "Writing demonstrates minimal organization; the structure is unclear and disjointed.",
+      "Writing shows some organization; the structure is somewhat evident but may lack logical progression.",
+      "Writing is generally well-organized; the structure is logical and easy to follow.",
+      "Writing is well-organized; the structure enhances the clarity and effectiveness of the writing.",
+      "Writing is exceptionally well-organized; the structure is sophisticated and contributes to the overall impact of the writing."
+    ],
+    [
+      "Writing style is inappropriate for the task, purpose, and audience.",
+      "Writing style is minimally appropriate for the task, purpose, and audience.",
+      "Writing style is somewhat appropriate for the task, purpose, and audience but may lack consistency.",
+      "Writing style is generally appropriate for the task, purpose, and audience.",
+      "Writing style is appropriate and effective for the task, purpose, and audience, enhancing the overall impact of the writing.",
+      "Writing style is sophisticated, engaging, and perfectly tailored to the task, purpose, and audience, demonstrating mastery of language."
+    ]
+  ]
+}

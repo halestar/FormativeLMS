@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Key Components",
+    "Analysis of Preparedness Plans",
+    "Application to Different Contexts",
+    "Understanding of Emergency Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any key components of emergency preparedness plans.",
+      "Identifies only one key component (e.g., communication, evacuation) of emergency preparedness plans.",
+      "Identifies some key components of emergency preparedness plans but lacks depth in explanation.",
+      "Identifies most key components of emergency preparedness plans with a basic explanation.",
+      "Identifies all key components of emergency preparedness plans with a clear explanation.",
+      "Identifies and thoroughly explains all key components of emergency preparedness plans, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Unable to analyze any emergency preparedness plans.",
+      "Attempts to analyze emergency preparedness plans but demonstrates significant misunderstandings.",
+      "Provides a superficial analysis of emergency preparedness plans with limited insights.",
+      "Analyzes emergency preparedness plans, identifying some strengths and weaknesses.",
+      "Provides a detailed analysis of emergency preparedness plans, clearly identifying strengths and weaknesses with supporting evidence.",
+      "Offers a comprehensive and insightful analysis of emergency preparedness plans, evaluating their effectiveness and suggesting improvements based on evidence."
+    ],
+    [
+      "Does not apply preparedness plans to any context (home, school, community).",
+      "Attempts to apply preparedness plans to one context, but application is flawed or incomplete.",
+      "Applies preparedness plans superficially to one or two contexts with limited understanding.",
+      "Applies preparedness plans to multiple contexts (home, school, community) with some degree of understanding.",
+      "Applies preparedness plans effectively to home, school, and community contexts, demonstrating an understanding of context-specific needs.",
+      "Skillfully adapts and applies preparedness plans to home, school, and community contexts, providing tailored solutions and demonstrating a deep understanding of diverse needs."
+    ],
+    [
+      "Demonstrates no understanding of potential emergency situations.",
+      "Demonstrates minimal understanding of potential emergency situations and their impact.",
+      "Identifies a few emergency situations but lacks understanding of their potential consequences.",
+      "Understands common emergency situations and their potential impact on individuals and the community.",
+      "Demonstrates a strong understanding of a wide range of emergency situations, including their potential consequences and necessary responses.",
+      "Exhibits expert-level understanding of complex emergency situations, including nuanced consequences and innovative response strategies."
+    ]
+  ]
+}

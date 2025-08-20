@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Perspectives: The student's ability to identify different perspectives presented in the material.",
+    "Understanding of Cultural Context: The student's comprehension of the cultural context influencing the perspectives.",
+    "Critical Evaluation: The student's ability to critically evaluate the viewpoints presented."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any perspectives or viewpoints presented in the material.",
+      "The student struggles to identify perspectives and provides inaccurate or irrelevant information.",
+      "The student identifies only one perspective with limited understanding and struggles to explain the viewpoints.",
+      "The student identifies multiple perspectives but shows a superficial understanding of the viewpoints presented.",
+      "The student accurately identifies multiple perspectives and demonstrates a good understanding of the viewpoints.",
+      "The student accurately and comprehensively identifies diverse perspectives, demonstrating a nuanced understanding of the viewpoints and their implications."
+    ],
+    [
+      "The student shows no understanding of the cultural context related to the perspectives presented.",
+      "The student demonstrates minimal understanding of the cultural context and its influence on perspectives.",
+      "The student shows some awareness of the cultural context but struggles to connect it to the perspectives.",
+      "The student connects the cultural context to the perspectives with moderate understanding, but lacks depth.",
+      "The student effectively connects the cultural context to the perspectives, demonstrating a strong understanding.",
+      "The student demonstrates a deep and insightful understanding of the cultural context and its significant influence on the diverse perspectives presented."
+    ],
+    [
+      "The student does not attempt to critically evaluate the viewpoints.",
+      "The student attempts to evaluate the viewpoints but provides superficial or irrelevant comments.",
+      "The student offers basic evaluations of the viewpoints but lacks depth or supporting evidence.",
+      "The student provides a fair evaluation of the viewpoints with some supporting evidence and reasoning.",
+      "The student critically evaluates the viewpoints with well-supported evidence and logical reasoning.",
+      "The student critically and insightfully evaluates the viewpoints, providing compelling evidence, nuanced reasoning, and thoughtful analysis."
+    ]
+  ]
+}

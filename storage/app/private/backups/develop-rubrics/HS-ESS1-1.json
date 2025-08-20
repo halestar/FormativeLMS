@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of the Model: How accurately does the model represent the life cycle of the sun and the process of nuclear fusion?",
+    "Evidence-Based Reasoning: How well does the model incorporate evidence to support its representation of the sun's life cycle and nuclear fusion?",
+    "Explanation of Energy Transfer: How well does the model explain the transfer of energy from the sun's core to Earth?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of the sun's life cycle or nuclear fusion.",
+      "The model has significant inaccuracies regarding the sun's life cycle or nuclear fusion. Key stages or processes are misrepresented.",
+      "The model contains some inaccuracies but generally represents the sun's life cycle and nuclear fusion. Some stages or processes may be unclear or oversimplified.",
+      "The model is mostly accurate in representing the sun's life cycle and nuclear fusion, with only minor inaccuracies or omissions.",
+      "The model is accurate and clearly represents the major stages of the sun's life cycle and the process of nuclear fusion, with a good level of detail.",
+      "The model is highly accurate, detailed, and insightful, demonstrating a comprehensive understanding of the sun's life cycle and the process of nuclear fusion, including energy transfer mechanisms."
+    ],
+    [
+      "The model does not incorporate any evidence or justification for its representation.",
+      "The model includes minimal evidence, and the connection to the representation is weak or unclear.",
+      "The model includes some evidence, but the justification is incomplete or not well-explained.",
+      "The model incorporates relevant evidence to support its representation, with a reasonable level of justification.",
+      "The model effectively integrates evidence from multiple sources to support its representation, providing clear and logical justification.",
+      "The model skillfully synthesizes evidence from various sources, providing compelling and insightful justification for its representation of the sun's life cycle and nuclear fusion."
+    ],
+    [
+      "The model does not address energy transfer from the sun's core to Earth.",
+      "The model mentions energy transfer but provides no explanation or a fundamentally incorrect one.",
+      "The model attempts to explain energy transfer, but the explanation is unclear, incomplete, or contains inaccuracies.",
+      "The model provides a basic explanation of energy transfer from the sun's core to Earth, identifying radiation as the primary mechanism.",
+      "The model clearly explains the process of energy transfer, including the role of radiation and its journey from the sun's core to Earth.",
+      "The model offers a comprehensive and nuanced explanation of energy transfer, including the role of radiation, its interaction with Earth's atmosphere, and the factors influencing its intensity."
+    ]
+  ]
+}

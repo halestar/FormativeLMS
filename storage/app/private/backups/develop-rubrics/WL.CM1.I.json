@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Main Idea",
+    "Understanding of Details",
+    "Comprehension of Sentences and Strings of Sentences",
+    "Ability to Interpret Authentic Texts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the main idea.",
+      "Student demonstrates a minimal understanding of the main idea with significant inaccuracies.",
+      "Student demonstrates a partial understanding of the main idea, but misses key elements.",
+      "Student demonstrates a satisfactory understanding of the main idea, but with minor omissions.",
+      "Student demonstrates a strong understanding of the main idea with few omissions.",
+      "Student demonstrates a comprehensive and accurate understanding of the main idea."
+    ],
+    [
+      "Student demonstrates no understanding of supporting details.",
+      "Student demonstrates a minimal understanding of supporting details with significant inaccuracies.",
+      "Student demonstrates a partial understanding of supporting details, but misses key elements.",
+      "Student demonstrates a satisfactory understanding of supporting details, but with minor omissions.",
+      "Student demonstrates a strong understanding of supporting details with few omissions.",
+      "Student demonstrates a comprehensive and accurate understanding of the supporting details."
+    ],
+    [
+      "Student demonstrates no comprehension of sentences.",
+      "Student demonstrates a minimal comprehension of sentences with frequent misinterpretations.",
+      "Student demonstrates a partial comprehension of sentences but struggles with complex structures.",
+      "Student demonstrates a satisfactory comprehension of most sentences, including some complex structures.",
+      "Student demonstrates a strong comprehension of sentences, including complex structures, with only minor errors.",
+      "Student demonstrates a comprehensive and nuanced comprehension of sentences and strings of sentences."
+    ],
+    [
+      "Student shows no ability to interpret authentic texts.",
+      "Student struggles significantly with interpreting authentic texts and relies heavily on translation.",
+      "Student demonstrates a limited ability to interpret authentic texts, with frequent misinterpretations.",
+      "Student demonstrates a moderate ability to interpret authentic texts, with some reliance on assistance.",
+      "Student demonstrates a good ability to interpret authentic texts with minimal assistance.",
+      "Student demonstrates an excellent ability to interpret authentic texts independently and accurately."
+    ]
+  ]
+}

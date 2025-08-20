@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Addition and Subtraction of Polynomials",
+    "Multiplication of Polynomials",
+    "Closure Property"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of how to add or subtract polynomials.",
+      "Student incorrectly adds\/subtracts polynomials with multiple errors in combining like terms and managing signs.",
+      "Student adds\/subtracts polynomials with some errors, such as incorrectly combining like terms or sign errors.",
+      "Student adds\/subtracts polynomials mostly correctly, with only minor errors.",
+      "Student accurately adds and subtracts polynomials, showing a clear understanding of combining like terms and managing signs.",
+      "Student accurately and efficiently adds and subtracts polynomials, including complex expressions, and explains the process clearly."
+    ],
+    [
+      "Student does not demonstrate an understanding of how to multiply polynomials.",
+      "Student attempts to multiply polynomials but makes significant errors in distribution and combining terms.",
+      "Student multiplies polynomials with several errors, particularly in distributing terms or managing exponents.",
+      "Student multiplies polynomials with some accuracy but makes occasional errors in distribution or simplification.",
+      "Student accurately multiplies polynomials, demonstrating a good understanding of distribution and exponent rules.",
+      "Student accurately and efficiently multiplies polynomials, including binomials and trinomials, and can explain the underlying principles."
+    ],
+    [
+      "Student does not understand the concept of closure under addition, subtraction, and multiplication for polynomials.",
+      "Student shows a limited understanding of closure, with no connection to polynomials.",
+      "Student vaguely understands closure but cannot relate it to polynomial operations.",
+      "Student explains closure with polynomials, but explanation is not precise or completely accurate.",
+      "Student accurately explains that polynomials are closed under addition, subtraction, and multiplication, providing examples.",
+      "Student thoroughly explains and demonstrates the closure property for polynomials under all three operations, and can provide counterexamples for division."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Precision of Expression and Cultural Appropriateness",
+    "Adaptation to Audience and Purpose",
+    "Use of Media and Technologies",
+    "Cohesion and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The presentation lacks clarity and contains significant errors in expression, demonstrating little to no awareness of cultural appropriateness.",
+      "The presentation shows limited clarity and contains noticeable errors in expression, with minimal attention to cultural appropriateness.",
+      "The presentation is somewhat clear but contains some errors in expression. Cultural appropriateness is addressed superficially.",
+      "The presentation is generally clear with few errors in expression. Cultural appropriateness is considered adequately for the intended audience.",
+      "The presentation is clear, precise, and engaging, demonstrating a strong understanding of cultural appropriateness for a diverse audience.",
+      "The presentation exhibits exceptional clarity, precision, and eloquence, demonstrating a nuanced and sophisticated understanding of cultural appropriateness across various audiences and contexts."
+    ],
+    [
+      "The presentation fails to adapt to the intended audience or purpose, showing a lack of understanding of their needs and expectations.",
+      "The presentation shows minimal adaptation to the audience or purpose, with limited adjustments made to content or delivery.",
+      "The presentation attempts to adapt to the audience and purpose, but the adjustments are superficial and not always effective.",
+      "The presentation demonstrates a reasonable adaptation to the audience and purpose, with appropriate adjustments made to content and delivery.",
+      "The presentation is well-adapted to the audience and purpose, with clear and effective adjustments made to engage and inform them.",
+      "The presentation is masterfully adapted to the audience and purpose, creating a highly engaging and impactful experience that resonates deeply with the audience's needs and expectations."
+    ],
+    [
+      "The presentation does not utilize media or technologies effectively, or the chosen media is inappropriate for the content and audience.",
+      "The presentation uses media or technologies in a limited and ineffective manner, with little impact on the overall presentation.",
+      "The presentation incorporates media or technologies, but their use is not always well-integrated or effective in enhancing the presentation.",
+      "The presentation makes appropriate use of media and technologies to enhance the delivery and engagement of the content.",
+      "The presentation uses media and technologies skillfully and creatively to enhance the impact and accessibility of the content for a wide audience.",
+      "The presentation demonstrates a masterful and innovative use of media and technologies to create a seamless, engaging, and immersive experience that significantly enhances the audience's understanding and appreciation of the content."
+    ],
+    [
+      "The presentation lacks cohesion and organization, making it difficult to follow and understand the main points.",
+      "The presentation shows some attempt at cohesion and organization, but the flow is disjointed and the main points are not clearly presented.",
+      "The presentation is generally organized but lacks clear transitions and cohesive elements to connect the ideas effectively.",
+      "The presentation is well-organized with clear transitions and cohesive elements that support the logical flow of ideas.",
+      "The presentation demonstrates excellent cohesion and organization, with seamless transitions and a clear, logical structure that enhances the audience's understanding.",
+      "The presentation exhibits exceptional cohesion and organization, with a masterful use of transitions and structural elements to create a compelling and memorable experience for the audience."
+    ]
+  ]
+}

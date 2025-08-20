@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Prince Shotoku's Reign",
+    "Knowledge of Japanese Society and Family Life",
+    "Ability to Discuss Characteristics",
+    "Historical Context and Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Prince Shotoku's reign or its significance.",
+      "Shows minimal understanding of Prince Shotoku, with significant inaccuracies.",
+      "Displays basic understanding of Prince Shotoku's reign but lacks depth and detail.",
+      "Demonstrates a solid understanding of Prince Shotoku's reign, including key policies and their impact.",
+      "Exhibits a comprehensive understanding of Prince Shotoku's reign, including nuanced aspects and long-term consequences.",
+      "Shows masterful understanding of Prince Shotoku's reign, offering insightful analysis and drawing connections to broader historical contexts."
+    ],
+    [
+      "Demonstrates no knowledge of Japanese society and family life during Prince Shotoku's reign.",
+      "Shows minimal and inaccurate understanding of Japanese society and family life.",
+      "Displays a basic understanding of Japanese society and family life, with some gaps in knowledge.",
+      "Demonstrates a solid understanding of Japanese society and family life, including social structures and customs.",
+      "Exhibits a comprehensive understanding of Japanese society and family life, including specific examples and cultural nuances.",
+      "Shows masterful understanding of Japanese society and family life, offering insightful comparisons and drawing connections to other cultures."
+    ],
+    [
+      "Unable to discuss characteristics of Japanese society and family life.",
+      "Struggles to articulate characteristics, with significant inaccuracies and lack of detail.",
+      "Lists some characteristics but lacks depth of explanation and historical context.",
+      "Discusses key characteristics of Japanese society and family life with reasonable clarity and accuracy.",
+      "Discusses characteristics in detail, providing relevant examples and demonstrating strong understanding.",
+      "Presents a nuanced and insightful discussion of characteristics, drawing connections between society, family life, and Prince Shotoku's reign."
+    ],
+    [
+      "Fails to provide any historical context or significance of the topic.",
+      "Provides minimal historical context, with significant inaccuracies.",
+      "Offers some basic historical context but lacks depth and relevance.",
+      "Demonstrates a good understanding of the historical context of Prince Shotoku's reign and its significance.",
+      "Exhibits a comprehensive understanding of the historical context and offers insightful analysis of its significance.",
+      "Demonstrates masterful understanding of the historical context, offering profound insights and drawing connections to broader historical trends."
+    ]
+  ]
+}

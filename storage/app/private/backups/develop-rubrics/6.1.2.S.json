@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Knowledge of Basic First Aid Procedures",
+    "Knowledge of Emergency Procedures",
+    "Specific Knowledge of First Aid for Dental Injuries",
+    "Ability to Apply Procedures in a Scenario"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of basic first aid procedures is demonstrated.",
+      "Demonstrates minimal understanding; struggles to identify even basic steps.",
+      "Identifies some basic first aid steps but lacks detail or accuracy.",
+      "Describes basic first aid procedures with reasonable accuracy, but may miss some important steps.",
+      "Describes most basic first aid procedures accurately and provides sufficient detail.",
+      "Demonstrates comprehensive knowledge of basic first aid procedures, explaining steps clearly and accurately."
+    ],
+    [
+      "No understanding of emergency procedures is demonstrated.",
+      "Demonstrates minimal understanding; struggles to identify even basic emergency steps.",
+      "Identifies some basic emergency steps but lacks detail or accuracy.",
+      "Describes basic emergency procedures with reasonable accuracy, but may miss some important steps.",
+      "Describes most basic emergency procedures accurately and provides sufficient detail.",
+      "Demonstrates comprehensive knowledge of basic emergency procedures, explaining steps clearly and accurately."
+    ],
+    [
+      "Shows no awareness of first aid specific to tooth injuries.",
+      "Identifies that tooth injuries require first aid but cannot explain any specific steps.",
+      "Mentions one or two basic steps for dental first aid (e.g., rinsing the mouth) but lacks detail.",
+      "Describes the key steps in dental first aid, such as rinsing and preserving a lost tooth, with some omissions or inaccuracies.",
+      "Accurately describes first aid steps for tooth injuries, including handling and preservation of a lost tooth.",
+      "Provides a thorough and accurate description of first aid for various dental injuries, including preventive measures and the importance of seeking professional dental care."
+    ],
+    [
+      "Unable to describe appropriate actions in a given first aid or emergency scenario.",
+      "Struggles to apply knowledge to a specific scenario; actions described are inappropriate or incomplete.",
+      "Applies some relevant procedures to a scenario but misses critical steps or provides them in the wrong order.",
+      "Generally applies appropriate procedures to a scenario, addressing most key elements but with some minor errors.",
+      "Confidently and accurately applies appropriate procedures to a given scenario, demonstrating a clear understanding of priorities.",
+      "Demonstrates exceptional ability to adapt and apply first aid and emergency procedures to complex or unusual scenarios, anticipating potential problems and adjusting actions accordingly."
+    ]
+  ]
+}

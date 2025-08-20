@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Conciseness of Information",
+    "Logical Organization and Development",
+    "Appropriate Use of Evidence and Supporting Details",
+    "Delivery Skills (Eye Contact, Volume, Pronunciation)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Information is presented in a disorganized and confusing manner. Listeners cannot follow the line of reasoning.",
+      "Information is presented with some clarity, but significant portions are disorganized or unclear. Listeners struggle to follow the reasoning.",
+      "Information is generally clear, but there are moments of confusion or lack of conciseness. Listeners may have difficulty following some parts.",
+      "Information is presented clearly and concisely for the most part. Listeners can generally follow the line of reasoning with minor difficulties.",
+      "Information is presented clearly and concisely throughout the presentation. Listeners can easily follow the line of reasoning and understand the main points.",
+      "Information is exceptionally clear, concise, and effectively communicated. The presentation is easy to follow and highly engaging for the audience."
+    ],
+    [
+      "The presentation lacks any discernible organization or logical flow. Ideas are presented randomly and without connection.",
+      "The presentation has minimal organization, and the logical flow is weak. Transitions between ideas are abrupt and unclear.",
+      "The presentation shows some organization, but the logical flow is inconsistent. Some transitions are unclear, and the development of ideas is uneven.",
+      "The presentation is generally well-organized with a logical flow. Transitions are mostly smooth, and ideas are developed adequately.",
+      "The presentation is logically organized and well-developed. Transitions are smooth and enhance the understanding of the content.",
+      "The presentation is masterfully organized with a clear and compelling logical flow. Transitions are seamless, and ideas are developed with depth and insight."
+    ],
+    [
+      "The presentation lacks any evidence or supporting details. Claims are made without any basis or justification.",
+      "The presentation includes minimal evidence or supporting details. The evidence is weak or irrelevant to the claims made.",
+      "The presentation includes some evidence and supporting details, but they are not always relevant or convincing. The evidence may be superficial or lack depth.",
+      "The presentation includes adequate evidence and supporting details that are generally relevant and support the claims made. The evidence is reasonably well-integrated.",
+      "The presentation includes strong evidence and compelling supporting details that effectively support the claims made. The evidence is well-integrated and enhances the presentation.",
+      "The presentation demonstrates masterful use of evidence and supporting details to create a highly persuasive and informative presentation. The evidence is compelling, insightful, and seamlessly integrated."
+    ],
+    [
+      "The presenter makes little to no eye contact, speaks inaudibly or too loudly, and has significant pronunciation errors that impede understanding.",
+      "The presenter makes minimal eye contact, speaks with inconsistent volume, and has noticeable pronunciation errors that occasionally distract from the presentation.",
+      "The presenter makes some eye contact, speaks with generally adequate volume, and has occasional pronunciation errors that do not significantly impede understanding.",
+      "The presenter makes good eye contact, speaks with appropriate volume, and has few pronunciation errors that do not distract from the presentation.",
+      "The presenter makes consistent and engaging eye contact, speaks with clear and controlled volume, and has excellent pronunciation throughout the presentation.",
+      "The presenter demonstrates exceptional delivery skills with captivating eye contact, perfect volume control, and flawless pronunciation, creating a highly polished and professional presentation."
+    ]
+  ]
+}

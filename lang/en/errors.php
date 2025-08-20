@@ -54,4 +54,7 @@ return
 	    'auth.locked.admin' => 'This user is locked out by the administrator.',
 	    'auth.verification.timeout' => 'The verification code has expired',
 	    'auth.verification.incorrect' => 'That is not the correct verification code, please try again.',
+        'storage.files.multiple' => 'You can only upload a single file.',
+        'storage.files.images' => 'You can only upload image files',
+        'storage.files.mimetype' => 'You cannot upload that type of file',
     ];

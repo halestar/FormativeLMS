@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Mapping the Plague's Spread",
+    "Description of Impact on Global Population",
+    "Overall Understanding of the Bubonic Plague"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The map is missing or completely inaccurate, showing no understanding of the plague's spread.",
+      "The map shows a basic understanding of the continents involved but lacks specific routes or regions of the plague's spread.",
+      "The map identifies some key regions and routes of the plague's spread, but with significant inaccuracies or omissions.",
+      "The map accurately depicts the main routes and regions of the plague's spread, including Central Asia, China, the Middle East, and Europe, with minor inaccuracies.",
+      "The map is highly accurate, showing detailed routes and regions of the plague's spread with only very minor errors.",
+      "The map is exceptionally accurate and detailed, clearly illustrating the plague's spread from Central Asia through China, the Middle East, and into Europe, demonstrating a comprehensive understanding of the historical routes."
+    ],
+    [
+      "No description of the plague's impact on global population is provided, or the information is entirely incorrect.",
+      "The description vaguely mentions a population impact but provides no specific details or understanding of the scale.",
+      "The description identifies that the plague caused a significant population decline but lacks specific details or accurate estimations.",
+      "The description accurately describes the plague's substantial impact on global population, providing some estimations or examples of population decline in specific regions.",
+      "The description thoroughly explains the devastating impact on global population, providing accurate estimations and discussing demographic shifts or societal consequences.",
+      "The description provides an insightful and comprehensive analysis of the plague's impact on global population, including detailed statistics, long-term demographic effects, and a nuanced understanding of the societal and economic consequences."
+    ],
+    [
+      "Demonstrates no understanding of the bubonic plague or its historical context.",
+      "Demonstrates a very limited understanding of the bubonic plague, with significant misconceptions.",
+      "Demonstrates a basic understanding of the bubonic plague but struggles to connect its spread with its impact.",
+      "Demonstrates a clear understanding of the bubonic plague, accurately mapping its spread and describing its impact on global population.",
+      "Demonstrates a strong understanding of the bubonic plague, providing insightful analysis of its spread and impact, and connecting it to broader historical contexts.",
+      "Demonstrates a comprehensive and nuanced understanding of the bubonic plague, offering original insights into its spread, impact, and long-term consequences, and synthesizing information from multiple sources."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Influences",
+    "Discussion of Positive vs. Negative Impacts",
+    "Application to Personal Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any influences on health practices.",
+      "Identifies one influence with no explanation.",
+      "Identifies one influence with a limited explanation or lists multiple influences without detail.",
+      "Identifies multiple influences (e.g., family, culture, media) with basic explanations.",
+      "Identifies several influences with clear explanations of how they affect health practices.",
+      "Identifies a comprehensive range of influences, providing detailed explanations and examples of their impact on health practices."
+    ],
+    [
+      "Does not differentiate between positive and negative influences.",
+      "Attempts to differentiate, but the explanation is unclear or inaccurate.",
+      "Briefly discusses positive and negative influences, but lacks depth.",
+      "Discusses how some influences promote positive health practices while others may hinder them.",
+      "Clearly explains the positive and negative impacts of various influences on health practices, providing relevant examples.",
+      "Provides a nuanced discussion of the positive and negative impacts, considering complexities and individual differences. Demonstrates comprehensive understanding."
+    ],
+    [
+      "Does not connect the influences to personal health practices.",
+      "Makes a vague or superficial connection to personal health.",
+      "Describes how some influences affect their own health practices in a limited way.",
+      "Relates several influences to their own health practices with some explanation.",
+      "Explains how various influences directly affect their personal health practices, demonstrating self-awareness.",
+      "Reflects deeply on how influences have shaped their health practices, showing insight and providing specific examples of choices and behaviors."
+    ]
+  ]
+}

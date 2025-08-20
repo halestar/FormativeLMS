@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Defining Random Variables and Assigning Numerical Values",
+    "Graphing Probability Distribution",
+    "Calculating Expected Values",
+    "Solving Problems Using Expected Values"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not define a random variable or assign numerical values to events.",
+      "The student attempts to define a random variable and assign numerical values, but the approach is flawed and lacks understanding.",
+      "The student defines a random variable and assigns numerical values with some errors or omissions.",
+      "The student correctly defines a random variable and assigns appropriate numerical values to most events in the sample space.",
+      "The student accurately defines a random variable and assigns appropriate numerical values to all events in the sample space with clear justification.",
+      "The student demonstrates a thorough understanding of random variables, defines them precisely, assigns accurate numerical values to all events, and explains the reasoning effectively."
+    ],
+    [
+      "The student does not attempt to graph the probability distribution or uses an inappropriate graphical display.",
+      "The student attempts to graph the probability distribution, but the graph is inaccurate, incomplete, or uses an inappropriate display.",
+      "The student creates a graph of the probability distribution with some errors or omissions in labeling or scaling.",
+      "The student accurately graphs the probability distribution using an appropriate graphical display, with clear labels and scales.",
+      "The student constructs a precise and accurate graph of the probability distribution, using an appropriate display, and includes all necessary labels and scales.",
+      "The student creates an exemplary graph of the probability distribution that is accurate, well-labeled, appropriately scaled, and effectively communicates the distribution of probabilities."
+    ],
+    [
+      "The student does not attempt to calculate expected values.",
+      "The student attempts to calculate expected values but demonstrates no understanding of the process.",
+      "The student attempts to calculate expected values but makes significant errors in the calculations.",
+      "The student calculates expected values with minor errors.",
+      "The student accurately calculates expected values and demonstrates an understanding of the process.",
+      "The student accurately calculates expected values and clearly explains the meaning of the expected value in the context of the problem."
+    ],
+    [
+      "The student does not attempt to use expected values to solve problems.",
+      "The student attempts to use expected values to solve problems but demonstrates no understanding of how to apply them.",
+      "The student attempts to use expected values to solve problems but makes significant errors in the application.",
+      "The student uses expected values to solve problems with minor errors.",
+      "The student accurately uses expected values to solve problems and demonstrates an understanding of the process.",
+      "The student accurately uses expected values to solve problems and clearly explains the reasoning behind the solution."
+    ]
+  ]
+}

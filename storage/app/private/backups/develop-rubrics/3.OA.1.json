@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Multiplication as Repeated Addition",
+    "Interpretation of Products",
+    "Problem Solving with Multiplication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of multiplication as repeated addition.",
+      "Student demonstrates minimal understanding of multiplication as repeated addition, with significant errors.",
+      "Student demonstrates partial understanding of multiplication as repeated addition, with some errors.",
+      "Student accurately represents simple multiplication problems as repeated addition.",
+      "Student accurately represents complex multiplication problems as repeated addition.",
+      "Student demonstrates a thorough understanding of multiplication as repeated addition and can explain the concept clearly and apply it to novel problems."
+    ],
+    [
+      "Student cannot interpret the product of whole numbers in context.",
+      "Student struggles to interpret the product of whole numbers and makes frequent errors.",
+      "Student partially interprets the product of whole numbers but needs prompting.",
+      "Student accurately interprets the product of whole numbers in simple contexts.",
+      "Student accurately interprets the product of whole numbers in complex, real-world contexts.",
+      "Student demonstrates a deep understanding of interpreting products and can apply this understanding to solve problems and explain their reasoning effectively."
+    ],
+    [
+      "Student cannot solve problems involving multiplication.",
+      "Student attempts to solve problems involving multiplication but is unsuccessful.",
+      "Student solves simple multiplication problems with some errors.",
+      "Student can solve straightforward multiplication problems accurately.",
+      "Student can solve complex multiplication problems accurately and efficiently.",
+      "Student can solve a wide variety of multiplication problems, including multi-step problems, and can explain their strategies clearly."
+    ]
+  ]
+}

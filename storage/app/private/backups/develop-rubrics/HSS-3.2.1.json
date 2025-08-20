@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Describing National Identities",
+    "Understanding and Explanation of Religious Beliefs",
+    "Clarity in Describing Customs and Traditions",
+    "Knowledge of Folklore Traditions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No mention of national identities.",
+      "Incorrect or very vague description of national identities.",
+      "Identifies national identities with significant inaccuracies.",
+      "Identifies national identities with minor inaccuracies.",
+      "Accurately describes the national identities of American Indian nations in the local region.",
+      "Accurately and comprehensively describes the national identities, including nuances and complexities, of American Indian nations in the local region."
+    ],
+    [
+      "No mention of religious beliefs.",
+      "Incorrect or superficial understanding of religious beliefs.",
+      "Demonstrates a basic understanding of religious beliefs but lacks depth.",
+      "Explains the religious beliefs of American Indian nations with some clarity.",
+      "Clearly explains the religious beliefs, providing relevant details and context.",
+      "Provides a comprehensive and insightful explanation of religious beliefs, including their impact on the culture and daily life of American Indian nations."
+    ],
+    [
+      "No mention of customs and traditions.",
+      "Describes customs and traditions inaccurately or vaguely.",
+      "Lists customs and traditions without sufficient explanation.",
+      "Describes some customs and traditions with reasonable clarity.",
+      "Clearly describes various customs and traditions, providing examples.",
+      "Provides a detailed and vivid description of customs and traditions, highlighting their significance and historical context."
+    ],
+    [
+      "No mention of folklore traditions.",
+      "Incorrect or irrelevant information about folklore traditions.",
+      "Identifies folklore traditions with limited understanding.",
+      "Describes folklore traditions with some accuracy.",
+      "Accurately describes folklore traditions, providing specific examples.",
+      "Provides an in-depth analysis of folklore traditions, exploring their meanings and cultural significance."
+    ]
+  ]
+}

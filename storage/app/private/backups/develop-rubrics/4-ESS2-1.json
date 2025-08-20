@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Observations and Measurements",
+    "Understanding of Weathering and Erosion Processes",
+    "Identification of Cause and Effect Relationships",
+    "Use of Scientific Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No observations or measurements are recorded.",
+      "Limited observations or measurements are recorded with no clear connection to weathering or erosion.",
+      "Basic observations and measurements are recorded, but the evidence of weathering or erosion is unclear or incomplete.",
+      "Adequate observations and measurements are recorded, providing some evidence of weathering or erosion. The data may lack precision or detail.",
+      "Detailed and relevant observations and measurements are recorded, providing clear evidence of the effects of weathering or the rate of erosion. Data is mostly accurate and sufficiently detailed.",
+      "Comprehensive and precise observations and measurements are recorded, providing strong and convincing evidence of the effects of weathering or the rate of erosion. Data is accurate, detailed, and well-organized."
+    ],
+    [
+      "Demonstrates no understanding of weathering or erosion processes.",
+      "Demonstrates a minimal understanding of weathering or erosion processes with significant misconceptions.",
+      "Demonstrates a basic understanding of weathering and erosion processes, but struggles to connect observations to the underlying science.",
+      "Demonstrates a satisfactory understanding of weathering and erosion processes and can make connections to observations with some guidance.",
+      "Demonstrates a strong understanding of weathering and erosion processes, explaining the connections to observations clearly and accurately.",
+      "Demonstrates a comprehensive understanding of weathering and erosion processes, explaining the connections to observations with depth and insight. Can articulate multiple factors influencing the rates."
+    ],
+    [
+      "Fails to identify any cause and effect relationships related to weathering or erosion.",
+      "Identifies cause and effect relationships incorrectly or with significant inaccuracies.",
+      "Identifies basic cause and effect relationships, but explanations are superficial or incomplete.",
+      "Identifies several cause and effect relationships, providing adequate explanations supported by observations and\/or measurements.",
+      "Clearly and accurately identifies key cause and effect relationships, providing strong explanations supported by observations and\/or measurements.",
+      "Insightfully identifies complex cause and effect relationships, providing thorough and nuanced explanations supported by comprehensive observations and\/or measurements."
+    ],
+    [
+      "No scientific practices are evident.",
+      "Attempts to use scientific practices are unsuccessful or inappropriate.",
+      "Uses some scientific practices, but implementation is flawed or incomplete.",
+      "Uses appropriate scientific practices to collect and analyze data, with some minor errors or omissions.",
+      "Effectively uses appropriate scientific practices to collect and analyze data, demonstrating a good understanding of the scientific method.",
+      "Demonstrates mastery of scientific practices, designing and executing a rigorous investigation to collect and analyze data with precision and accuracy."
+    ]
+  ]
+}

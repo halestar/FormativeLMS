@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Goods' Origins",
+    "Understanding of Economic Reasoning",
+    "Application to the Local Region"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify where any goods are made.",
+      "The student can identify where some goods are made, but shows significant inaccuracies or omissions.",
+      "The student identifies where goods are made with limited accuracy, struggling to differentiate between local, US, and international origins.",
+      "The student accurately identifies the origins of goods (local, US, abroad) with some minor inaccuracies.",
+      "The student accurately identifies the origins of a variety of goods (local, US, abroad) and provides reasonable examples.",
+      "The student comprehensively and accurately identifies the origins of a wide variety of goods (local, US, abroad) and can discuss the factors influencing their production location."
+    ],
+    [
+      "The student demonstrates no understanding of basic economic reasoning skills.",
+      "The student demonstrates a minimal understanding of basic economic reasoning skills, with significant misconceptions.",
+      "The student shows a limited grasp of economic reasoning, struggling to apply it to the origins of goods.",
+      "The student applies basic economic reasoning to the origins of goods with some inconsistencies.",
+      "The student consistently applies economic reasoning to explain why goods are made locally, in the US, or abroad.",
+      "The student demonstrates a sophisticated understanding of economic reasoning and can critically evaluate the factors determining the production location of goods, including implications for the local region."
+    ],
+    [
+      "The student cannot relate the origin of goods to the economy of the local region.",
+      "The student attempts to relate the origin of goods to the local economy, but the connection is unclear or inaccurate.",
+      "The student makes a weak connection between the origin of goods and the local economy, with limited supporting details.",
+      "The student connects the origin of goods to the local economy with some supporting details and examples.",
+      "The student clearly explains how the origin of goods impacts the economy of the local region, providing specific examples.",
+      "The student provides a nuanced and insightful analysis of how the origin of goods influences the local economy, considering diverse perspectives and potential long-term effects."
+    ]
+  ]
+}

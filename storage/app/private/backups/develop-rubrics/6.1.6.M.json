@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Appropriateness: Assessing the student's comprehension of when seeking help for mental, emotional, and social health issues is suitable.",
+    "Explaining Necessity: Evaluating the student's ability to articulate why addressing mental, emotional, and social health problems is crucial.",
+    "Clarity and Coherence: Assessing how clearly and logically the student presents their explanations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of when it is appropriate to seek help for mental, emotional, or social health problems.",
+      "Shows a minimal understanding of the appropriateness of seeking help, with significant misconceptions.",
+      "Displays a basic understanding of when seeking help is appropriate, but lacks depth.",
+      "Exhibits a satisfactory understanding of the appropriateness of seeking help, with minor gaps in knowledge.",
+      "Presents a strong understanding of the circumstances in which seeking help for mental, emotional, and social health is appropriate.",
+      "Demonstrates a comprehensive and nuanced understanding of the appropriateness of seeking help, including specific scenarios and considerations."
+    ],
+    [
+      "Fails to explain why it is necessary to address mental, emotional, and social health problems.",
+      "Provides a weak explanation of the necessity of addressing these health problems, with limited reasoning.",
+      "Offers a basic explanation of why it's necessary to get help, but lacks detail and supporting arguments.",
+      "Gives a satisfactory explanation of the necessity of addressing these issues, with some supporting arguments.",
+      "Presents a clear and well-reasoned explanation of why addressing mental, emotional, and social health problems is necessary.",
+      "Demonstrates an exceptional ability to articulate the necessity of addressing these issues, including potential consequences of neglect and benefits of intervention."
+    ],
+    [
+      "Explanation is unclear, incoherent, and difficult to understand.",
+      "Explanation lacks clarity and coherence, with significant organizational issues.",
+      "Explanation is somewhat clear but lacks logical flow and organization.",
+      "Explanation is generally clear and coherent, with minor organizational improvements needed.",
+      "Explanation is clear, coherent, and well-organized, making it easy to follow.",
+      "Explanation is exceptionally clear, coherent, and logically structured, demonstrating mastery of communication skills."
+    ]
+  ]
+}

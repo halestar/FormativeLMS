@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to count to 100 by ones.",
+    "Ability to count to 100 by tens.",
+    "Understanding of the number sequence."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to count beyond 10.",
+      "Student can count to 20 but makes frequent errors or requires significant prompting.",
+      "Student can count to 50 with some errors and\/or occasional prompting.",
+      "Student can count to 70 with minimal errors and only rare prompting.",
+      "Student can accurately count to 100 by ones, with only minor hesitations.",
+      "Student confidently and accurately counts to 100 by ones without hesitation."
+    ],
+    [
+      "Student is unable to count by tens or struggles to count beyond 30.",
+      "Student can count by tens to 40, but makes several errors or requires assistance.",
+      "Student can count by tens to 60 with some errors and\/or occasional prompting.",
+      "Student can count by tens to 80 with minimal errors and only rare prompting.",
+      "Student can accurately count to 100 by tens with only minor hesitations.",
+      "Student confidently and accurately counts to 100 by tens without hesitation."
+    ],
+    [
+      "Student demonstrates no understanding of the sequence of numbers, even with support.",
+      "Student shows a limited understanding of the number sequence; can identify the next number in a sequence with assistance.",
+      "Student can identify the next number in a sequence of ones to 20 and tens to 50 with some accuracy.",
+      "Student can identify the next number in a sequence of ones to 50 and tens to 80 with reasonable accuracy.",
+      "Student demonstrates a solid understanding of the number sequence and can accurately predict subsequent numbers in sequences of ones and tens.",
+      "Student demonstrates a thorough understanding of the number sequence and can easily identify patterns and predict numbers in sequences of ones and tens."
+    ]
+  ]
+}

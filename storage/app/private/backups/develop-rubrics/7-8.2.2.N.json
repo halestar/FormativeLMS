@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Evaluation of the Impact of Internal Influences",
+    "Evaluation of the Impact of External Influences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any internal influences on food choices.",
+      "Student identifies one internal influence on food choices with limited accuracy.",
+      "Student identifies two internal influences on food choices with some accuracy.",
+      "Student identifies three internal influences on food choices with reasonable accuracy.",
+      "Student identifies four internal influences on food choices with good accuracy.",
+      "Student accurately identifies multiple internal influences (e.g., hunger, taste preferences, mood, nutritional needs) on food choices, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student does not identify any external influences on food choices.",
+      "Student identifies one external influence on food choices with limited accuracy.",
+      "Student identifies two external influences on food choices with some accuracy.",
+      "Student identifies three external influences on food choices with reasonable accuracy.",
+      "Student identifies four external influences on food choices with good accuracy.",
+      "Student accurately identifies multiple external influences (e.g., culture, family, advertising, availability, cost) on food choices, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student does not evaluate the impact of internal influences.",
+      "Student attempts to evaluate the impact of one internal influence with limited understanding.",
+      "Student evaluates the impact of two internal influences with some understanding.",
+      "Student evaluates the impact of three internal influences with reasonable understanding.",
+      "Student evaluates the impact of four internal influences with good understanding.",
+      "Student effectively evaluates the impact of various internal influences on food choices, providing insightful analysis of their effects."
+    ],
+    [
+      "Student does not evaluate the impact of external influences.",
+      "Student attempts to evaluate the impact of one external influence with limited understanding.",
+      "Student evaluates the impact of two external influences with some understanding.",
+      "Student evaluates the impact of three external influences with reasonable understanding.",
+      "Student evaluates the impact of four external influences with good understanding.",
+      "Student effectively evaluates the impact of various external influences on food choices, providing insightful analysis of their effects."
+    ]
+  ]
+}

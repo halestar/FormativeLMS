@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Location and its Impact: Assesses the student's ability to describe how location influences various aspects of human life.",
+    "Analysis of Weather and its Influence: Assesses the student's ability to explain the impact of weather conditions on human activities.",
+    "Examination of Physical Environment: Assesses the student's ability to explain the impact of the physical environment on human activities."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how location affects people's lives.",
+      "Shows a very limited understanding of how location affects one or two aspects of human life (e.g., food or clothing).",
+      "Identifies a few ways location affects human life (e.g., food, clothing), but lacks detail or explanation.",
+      "Describes how location impacts several aspects of human life (e.g., food, clothing, shelter) with some supporting details.",
+      "Explains in detail how location affects multiple aspects of human life (food, clothing, shelter, transportation) with clear examples.",
+      "Provides a comprehensive and insightful analysis of how location shapes various aspects of human life (food, clothing, shelter, transportation, recreation), including specific examples and well-supported reasoning."
+    ],
+    [
+      "Demonstrates no understanding of the effects of weather on human life.",
+      "Shows a very limited awareness of how weather might affect one or two human activities.",
+      "Identifies a few ways weather affects human activities, but lacks specific details or explanations.",
+      "Describes how weather influences several aspects of human activities with some supporting details and examples.",
+      "Explains in detail how weather affects multiple aspects of human activities, such as agriculture, transportation, and recreation, with clear examples.",
+      "Provides a comprehensive and insightful analysis of how weather conditions shape various aspects of human activities, including specific examples, well-supported reasoning, and discussion of adaptations to weather."
+    ],
+    [
+      "Demonstrates no understanding of the effects of the physical environment on human life.",
+      "Shows a very limited awareness of how the physical environment might affect one or two human activities.",
+      "Identifies a few ways the physical environment affects human activities, but lacks specific details or explanations.",
+      "Describes how the physical environment influences several aspects of human activities with some supporting details and examples.",
+      "Explains in detail how the physical environment affects multiple aspects of human activities, such as agriculture, transportation, and settlement patterns, with clear examples.",
+      "Provides a comprehensive and insightful analysis of how the physical environment shapes various aspects of human activities, including specific examples, well-supported reasoning, and discussion of adaptations to the environment."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of California's contribution to the US",
+    "Understanding of other states' contributions to the US",
+    "Understanding of sovereign American Indian tribes' contributions to the US",
+    "Understanding of participation in the federal system of government"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of California's role or contribution to the US.",
+      "Student can identify California as a state but provides no specific examples of its contributions.",
+      "Student identifies California and mentions one general contribution (e.g., economy, population) with limited detail.",
+      "Student identifies California and provides two general contributions to the US with some supporting details.",
+      "Student identifies California and provides at least three specific contributions to the US (e.g., economy, innovation, culture) with supporting details.",
+      "Student comprehensively explains California's diverse contributions to the US, including specific examples and analysis of their impact."
+    ],
+    [
+      "Student demonstrates no understanding of other states' roles or contributions to the US.",
+      "Student mentions the existence of other states but provides no specific examples of their contributions.",
+      "Student identifies at least one other state and mentions one general contribution (e.g., agriculture, industry) with limited detail.",
+      "Student identifies at least two other states and provides a general contribution for each with some supporting details.",
+      "Student identifies at least three other states and provides a specific contribution for each (e.g., technology in Massachusetts, auto industry in Michigan, agriculture in Iowa) with supporting details.",
+      "Student comprehensively explains the diverse contributions of several states to the US, including specific examples and analysis of their impact on the nation's economy, culture, and society."
+    ],
+    [
+      "Student demonstrates no understanding of sovereign American Indian tribes' roles or contributions to the US.",
+      "Student mentions the existence of American Indian tribes but provides no specific examples of their contributions.",
+      "Student identifies at least one sovereign American Indian tribe and mentions one general contribution (e.g., culture, natural resources) with limited detail.",
+      "Student identifies at least two sovereign American Indian tribes and provides a general contribution for each with some supporting details.",
+      "Student identifies at least three sovereign American Indian tribes and provides a specific contribution for each (e.g., governance, environmental stewardship, arts) with supporting details.",
+      "Student comprehensively explains the diverse contributions of several sovereign American Indian tribes to the US, including specific examples and analysis of their historical and contemporary impact."
+    ],
+    [
+      "Student demonstrates no understanding of California, other states, or tribes participating in the federal system.",
+      "Student mentions participation in the federal system, but provides no details.",
+      "Student identifies at least one way California, another state or tribe participates in the federal system with limited detail.",
+      "Student identifies at least two ways California, other states, or tribes participate in the federal system with some supporting details.",
+      "Student identifies several specific ways California, other states, and sovereign American Indian tribes participate in the federal system (e.g., representation, legislation, policy) with supporting details.",
+      "Student comprehensively explains the various ways California, other states, and sovereign American Indian tribes participate in the federal system, including specific examples and analysis of their impact on governance and policy-making."
+    ]
+  ]
+}

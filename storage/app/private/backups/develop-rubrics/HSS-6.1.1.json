@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Hunter-Gatherer Societies",
+    "Knowledge of Tool Development",
+    "Understanding the Use of Fire",
+    "Ability to connect archaeological studies to our understanding of early human development"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of hunter-gatherer societies.",
+      "Shows minimal understanding of hunter-gatherer societies with significant misconceptions.",
+      "Displays basic understanding of hunter-gatherer societies but lacks depth and detail.",
+      "Exhibits a solid understanding of hunter-gatherer societies, including their social structures and lifestyles.",
+      "Demonstrates a comprehensive understanding of hunter-gatherer societies, including their adaptations to different environments and their impact on the environment.",
+      "Shows exceptional understanding of hunter-gatherer societies, including nuanced aspects of their culture, beliefs, and social organization. Can connect their practices to contemporary issues."
+    ],
+    [
+      "Demonstrates no knowledge of tool development in early human societies.",
+      "Shows minimal awareness of tool development with significant inaccuracies.",
+      "Displays basic knowledge of tool development but lacks specifics and context.",
+      "Exhibits a solid knowledge of tool development, including different types of tools and their uses.",
+      "Demonstrates a comprehensive knowledge of tool development, explaining the progression of tool technology and its impact on hunter-gatherer societies.",
+      "Shows exceptional knowledge of tool development, including the materials used, the manufacturing processes, and the cultural significance of tools. Can compare tool development across different regions."
+    ],
+    [
+      "Demonstrates no understanding of the use of fire in early human societies.",
+      "Shows minimal awareness of the use of fire with significant misconceptions.",
+      "Displays basic understanding of the use of fire but lacks specifics and its significance.",
+      "Exhibits a solid understanding of the use of fire, including its practical applications (cooking, warmth, protection).",
+      "Demonstrates a comprehensive understanding of the use of fire, explaining its impact on hunter-gatherer societies' diet, social life, and environment.",
+      "Shows exceptional understanding of the use of fire, including the methods of fire starting and maintenance, and the symbolic or ritualistic uses of fire. Can analyze the long-term consequences of fire usage."
+    ],
+    [
+      "Cannot connect archaeological findings to our understanding of early human development.",
+      "Struggles to connect archaeological findings to our understanding of early human development; connections are weak or inaccurate.",
+      "Makes basic connections between archaeological findings and our understanding of early human development but lacks depth.",
+      "Connects archaeological findings to our understanding of early human development, providing examples and explanations.",
+      "Effectively connects archaeological findings to our understanding of early human development, demonstrating a clear understanding of the archaeological process and its significance.",
+      "Demonstrates a sophisticated understanding of how archaeological studies inform our knowledge of early human development, analyzing the limitations and interpretations of archaeological evidence."
+    ]
+  ]
+}

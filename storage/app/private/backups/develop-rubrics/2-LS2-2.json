@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Model Accuracy: How accurately does the model represent the function of an animal in dispersing seeds or pollinating plants?",
+    "Model Design and Functionality: How well-designed and functional is the model in mimicking the animal's role?",
+    "Explanation of Interdependence: How well does the student explain the interdependent relationship between plants and animals in the process?",
+    "Use of Scientific Vocabulary: How accurately and appropriately does the student use scientific vocabulary related to ecosystems and interdependence?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model does not represent the function of animal seed dispersal or pollination.",
+      "The model vaguely represents the function of animal seed dispersal or pollination but contains significant inaccuracies.",
+      "The model partially represents the function of animal seed dispersal or pollination with some inaccuracies.",
+      "The model mostly accurately represents the function of animal seed dispersal or pollination with minor inaccuracies.",
+      "The model accurately represents the function of animal seed dispersal or pollination.",
+      "The model accurately and thoroughly represents the function of animal seed dispersal or pollination, demonstrating a strong understanding of the process."
+    ],
+    [
+      "The model is poorly designed and does not function as intended.",
+      "The model's design is rudimentary and has limited functionality in mimicking the animal's role.",
+      "The model's design is basic and partially functional in mimicking the animal's role.",
+      "The model is well-designed and mostly functional in mimicking the animal's role.",
+      "The model is well-designed, functional, and effectively mimics the animal's role.",
+      "The model is exceptionally well-designed, highly functional, and innovatively mimics the animal's role with clear attention to detail."
+    ],
+    [
+      "The student does not explain the interdependent relationship between plants and animals.",
+      "The student vaguely mentions the interdependent relationship with little explanation.",
+      "The student partially explains the interdependent relationship but lacks depth.",
+      "The student mostly explains the interdependent relationship with reasonable depth.",
+      "The student clearly explains the interdependent relationship between plants and animals in the process.",
+      "The student thoroughly and insightfully explains the interdependent relationship, demonstrating a deep understanding of ecosystem dynamics."
+    ],
+    [
+      "The student does not use relevant scientific vocabulary.",
+      "The student uses limited scientific vocabulary, often inaccurately.",
+      "The student uses some scientific vocabulary, but with occasional inaccuracies.",
+      "The student uses scientific vocabulary appropriately in most instances.",
+      "The student uses scientific vocabulary accurately and appropriately throughout the explanation.",
+      "The student demonstrates a sophisticated command of scientific vocabulary, using it precisely and effectively to enhance understanding."
+    ]
+  ]
+}

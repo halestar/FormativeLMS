@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of HIV\/AIDS Transmission",
+    "Knowledge of Protective Measures",
+    "Empathy and Reducing Stigma"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how HIV\/AIDS is transmitted and expresses unfounded fears about casual contact.",
+      "Displays significant misconceptions about HIV\/AIDS transmission, leading to hesitant or fearful attitudes toward individuals living with HIV\/AIDS.",
+      "Shows a basic understanding of HIV\/AIDS transmission routes but may still harbor some unfounded concerns about casual contact.",
+      "Accurately describes the primary modes of HIV\/AIDS transmission and acknowledges that casual contact is safe, but may not fully articulate why.",
+      "Clearly and accurately explains HIV\/AIDS transmission routes, emphasizing the lack of risk associated with casual contact and dispelling common myths.",
+      "Provides a comprehensive and nuanced explanation of HIV\/AIDS transmission, demonstrating a deep understanding of the science and advocating for safe and respectful interactions with individuals living with HIV\/AIDS."
+    ],
+    [
+      "Is unaware of protective measures that prevent HIV transmission.",
+      "Has limited knowledge of protective measures and demonstrates uncertainty about their effectiveness.",
+      "Identifies some protective measures but struggles to explain how they reduce the risk of HIV transmission.",
+      "Describes several protective measures and explains how they reduce the risk of HIV transmission but may not cover all relevant strategies.",
+      "Clearly explains a range of protective measures and accurately describes how they effectively prevent HIV transmission.",
+      "Demonstrates comprehensive knowledge of HIV prevention strategies, including biomedical, behavioral, and structural interventions, and can critically evaluate their effectiveness."
+    ],
+    [
+      "Expresses stigmatizing attitudes or beliefs about individuals living with HIV\/AIDS.",
+      "Displays some awareness of stigma but struggles to articulate how it affects individuals living with HIV\/AIDS.",
+      "Recognizes the existence of stigma but offers limited suggestions for reducing its impact.",
+      "Demonstrates empathy towards individuals living with HIV\/AIDS and suggests some ways to reduce stigma.",
+      "Articulates the harmful effects of stigma and advocates for specific actions to promote understanding and acceptance.",
+      "Actively challenges stigma, promotes inclusive language and behaviors, and demonstrates a commitment to creating a supportive environment for individuals living with HIV\/AIDS."
+    ]
+  ]
+}

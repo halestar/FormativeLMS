@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Food Groups",
+    "Understanding of Recommended Portions",
+    "Accuracy and Clarity of Description"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any food groups.",
+      "Identifies 1-2 food groups with inaccuracies.",
+      "Identifies 3-4 food groups, but lacks detail.",
+      "Identifies most food groups (5-6), but with minor inaccuracies or omissions.",
+      "Accurately identifies all major food groups (Carbohydrates, Proteins, Fats, Vitamins, Minerals, Water).",
+      "Identifies all food groups and provides specific examples of foods within each group."
+    ],
+    [
+      "Shows no understanding of recommended portions from each food group.",
+      "Demonstrates a limited understanding of portion sizes; provides incorrect information.",
+      "Mentions portion sizes, but inaccurately.",
+      "Gives general recommendations for portions but lacks specifics or balance.",
+      "Describes appropriate portion sizes for most food groups based on a balanced diet.",
+      "Explains recommended portions for each food group, referencing a specific dietary guideline and explaining how it promotes health."
+    ],
+    [
+      "Description is completely inaccurate and unclear.",
+      "Description contains significant inaccuracies and is difficult to understand.",
+      "Description has some inaccuracies and lacks clarity.",
+      "Description is generally accurate but could be clearer or more detailed.",
+      "Description is accurate, clear, and easy to understand.",
+      "Description is exceptionally clear, accurate, and provides additional relevant details (e.g., benefits of each food group)."
+    ]
+  ]
+}

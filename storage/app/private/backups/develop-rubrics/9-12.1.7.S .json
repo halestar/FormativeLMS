@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Characteristics",
+    "Understanding of Motivations",
+    "Discussion of Negative Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No characteristics of gang members are identified or the information is completely inaccurate.",
+      "Identifies only one or two characteristics of gang members with limited accuracy.",
+      "Identifies some characteristics of gang members, but with significant gaps in understanding or accuracy.",
+      "Identifies several characteristics of gang members with reasonable accuracy and detail.",
+      "Identifies most of the key characteristics of gang members with a good level of detail and accuracy.",
+      "Provides a comprehensive and accurate discussion of the key characteristics of gang members, demonstrating a thorough understanding."
+    ],
+    [
+      "Demonstrates no understanding of the reasons or motivations behind gang membership.",
+      "Shows minimal awareness of the motivations behind gang membership.",
+      "Shows some understanding of the motivations, but lacks depth or accuracy.",
+      "Explains several motivations for joining a gang with reasonable clarity.",
+      "Discusses the motivations for gang membership with good detail and accuracy, showing an understanding of contributing factors.",
+      "Provides a nuanced and insightful analysis of the motivations for gang membership, including social, economic, and psychological factors."
+    ],
+    [
+      "Does not address the negative consequences associated with gang involvement.",
+      "Briefly mentions one or two negative consequences without detail.",
+      "Identifies some negative consequences, but the discussion lacks depth.",
+      "Discusses several negative consequences of gang involvement with reasonable clarity.",
+      "Explains the negative consequences of gang involvement in detail, including impact on individuals and communities.",
+      "Provides a comprehensive discussion of the far-reaching negative consequences of gang involvement, including legal, social, and health-related issues."
+    ]
+  ]
+}

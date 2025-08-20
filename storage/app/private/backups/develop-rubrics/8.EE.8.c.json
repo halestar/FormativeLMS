@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Setting up the System of Equations",
+    "Solving the System of Equations",
+    "Interpretation of the Solution",
+    "Real-World Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to set up a system of equations from the given problem.",
+      "Student attempts to set up a system of equations, but does so incorrectly.",
+      "Student can set up one equation correctly, but struggles with the second.",
+      "Student correctly sets up the system of equations, but with minor errors.",
+      "Student correctly sets up the system of equations and identifies the variables.",
+      "Student correctly sets up the system of equations, identifies variables, and explains the meaning of the equations in the context of the problem."
+    ],
+    [
+      "Student is unable to attempt solving the system of equations.",
+      "Student attempts to solve the system, but uses an inappropriate method or makes significant errors early on.",
+      "Student attempts to solve the system, but struggles with the algebraic manipulation or arithmetic.",
+      "Student solves the system with minor errors, leading to an incorrect solution.",
+      "Student correctly solves the system of equations using an appropriate method.",
+      "Student correctly solves the system of equations and verifies the solution."
+    ],
+    [
+      "Student does not provide any interpretation of the solution.",
+      "Student attempts to interpret the solution, but the interpretation is nonsensical or unrelated to the problem.",
+      "Student provides a partial interpretation of the solution, but misses key aspects.",
+      "Student interprets the solution, but with some inaccuracies or lack of clarity.",
+      "Student correctly interprets the solution in the context of the problem.",
+      "Student correctly interprets the solution, clearly explains its significance, and relates it back to the original problem."
+    ],
+    [
+      "Student does not attempt to apply the solution to the real-world context.",
+      "Student attempts to apply the solution, but the application is unrealistic or illogical.",
+      "Student struggles to connect the mathematical solution to the real-world situation.",
+      "Student applies the solution to the real world with some inaccuracies or missing details.",
+      "Student correctly applies the solution to the real-world context, demonstrating understanding of the situation.",
+      "Student correctly and insightfully applies the solution to the real-world context, providing additional relevant details and considerations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Reliable Sources",
+    "Accuracy of Information",
+    "Comprehension of Diseases"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any sources of information.",
+      "Student identifies sources that are not related to diseases",
+      "Student identifies a source, but it is unreliable or questionable (e.g., personal blog, non-reputable website).",
+      "Student identifies one reliable source (e.g., government health website, reputable medical organization).",
+      "Student identifies two reliable sources of health information.",
+      "Student identifies multiple reliable sources and explains why they are considered trustworthy."
+    ],
+    [
+      "Student presents no information about common diseases.",
+      "Student presents information that is largely inaccurate or irrelevant.",
+      "Student presents some accurate information, but includes significant inaccuracies or misconceptions.",
+      "Student presents mostly accurate information about common diseases, but lacks detail or depth.",
+      "Student presents accurate and detailed information about common diseases, demonstrating a good understanding.",
+      "Student presents accurate, detailed, and nuanced information about common diseases, demonstrating a comprehensive understanding and the ability to synthesize information from multiple sources."
+    ],
+    [
+      "Student shows no understanding of the information presented.",
+      "Student has difficulty explaining the information about a disease",
+      "Student shows limited understanding, struggling to explain basic concepts related to the disease and its prevention.",
+      "Student demonstrates a basic understanding of common diseases, including causes, symptoms, and prevention methods.",
+      "Student demonstrates a solid understanding of common diseases, explaining causes, symptoms, prevention, and treatment options with clarity.",
+      "Student demonstrates a comprehensive understanding of common diseases, explaining causes, symptoms, prevention, treatment, and potential complications, while also addressing common misconceptions."
+    ]
+  ]
+}

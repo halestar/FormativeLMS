@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Risks",
+    "Awareness of Responsibilities",
+    "Evaluation of Preventative Measures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the risks associated with teen driving and auto accidents.",
+      "Demonstrates a minimal understanding of the risks associated with teen driving and auto accidents, with significant gaps in knowledge.",
+      "Demonstrates a basic understanding of some of the risks associated with teen driving and auto accidents, but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of the key risks associated with teen driving and auto accidents, including distracted driving, speeding, and impaired driving.",
+      "Demonstrates a thorough understanding of the various risks associated with teen driving and auto accidents, providing specific examples and explaining the potential consequences.",
+      "Demonstrates a comprehensive and insightful understanding of the multifaceted risks associated with teen driving and auto accidents, including statistical data and societal impacts."
+    ],
+    [
+      "Shows no awareness of the responsibilities associated with teen driving and auto accidents.",
+      "Shows minimal awareness of the responsibilities, unable to articulate key duties of a driver.",
+      "Shows some awareness of basic responsibilities, but lacks understanding of legal and ethical considerations.",
+      "Demonstrates an adequate understanding of the responsibilities of teen drivers, including adherence to traffic laws, maintaining vehicle safety, and avoiding distractions.",
+      "Demonstrates a strong understanding of the responsibilities of teen drivers, including the importance of responsible decision-making, peer influence, and the impact of driving on others.",
+      "Demonstrates a comprehensive understanding of the legal, ethical, and social responsibilities of teen drivers, advocating for safe driving practices and promoting awareness within their community."
+    ],
+    [
+      "Does not evaluate any preventative measures to avoid risks associated with teen driving and auto accidents.",
+      "Suggests very few, impractical or irrelevant preventative measures.",
+      "Suggests a few preventative measures but lacks detail on their effectiveness.",
+      "Evaluates common preventative measures, such as driver education, parental involvement, and graduated driver licensing, with some explanation.",
+      "Evaluates a range of preventative measures, analyzing their strengths and weaknesses in mitigating risks associated with teen driving and auto accidents.",
+      "Critically evaluates a variety of preventative measures, considering their long-term effectiveness, cost-benefit analysis, and impact on promoting a culture of safe driving among teens."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Opportunity Cost",
+    "Understanding of Marginal Benefit and Marginal Cost",
+    "Application of Economic Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of opportunity cost.",
+      "Student shows a limited understanding of opportunity cost, with significant inaccuracies.",
+      "Student identifies opportunity cost but struggles to apply it in real-world scenarios.",
+      "Student accurately defines opportunity cost and provides a basic example.",
+      "Student clearly explains opportunity cost and provides relevant examples, demonstrating a good understanding.",
+      "Student comprehensively explains opportunity cost, provides nuanced examples, and analyzes its implications in complex situations."
+    ],
+    [
+      "Student demonstrates no understanding of marginal benefit and marginal cost.",
+      "Student shows a limited understanding of marginal benefit and marginal cost, with significant inaccuracies.",
+      "Student identifies marginal benefit and marginal cost but struggles to differentiate between them.",
+      "Student accurately defines marginal benefit and marginal cost and provides a basic example of each.",
+      "Student clearly explains marginal benefit and marginal cost, provides relevant examples, and demonstrates an understanding of their relationship.",
+      "Student comprehensively explains marginal benefit and marginal cost, provides nuanced examples, analyzes their relationship, and discusses how they inform decision-making."
+    ],
+    [
+      "Student demonstrates no application of economic reasoning.",
+      "Student attempts to apply economic reasoning but demonstrates flawed logic.",
+      "Student applies economic reasoning in a limited way, with some inconsistencies.",
+      "Student applies economic reasoning to explain basic economic concepts.",
+      "Student effectively uses economic reasoning to analyze situations and make informed decisions.",
+      "Student skillfully uses economic reasoning to analyze complex situations, evaluate different perspectives, and make well-supported recommendations."
+    ]
+  ]
+}

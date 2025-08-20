@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Reliability of Identified Sources",
+    "Relevance and Specificity to Personal Health Products and Services",
+    "Ability to Differentiate Between Valid and Invalid Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No sources identified or sources provided are demonstrably inaccurate or unreliable.",
+      "Identifies at least one source with questionable accuracy or reliability.",
+      "Identifies a few sources, but some show signs of bias or lack of credibility.",
+      "Identifies multiple sources that are generally accurate and reliable, but with minor inconsistencies.",
+      "Identifies sources that are consistently accurate, reliable, and evidence-based, with clear justification.",
+      "Identifies a comprehensive range of highly credible sources, demonstrating a nuanced understanding of source evaluation."
+    ],
+    [
+      "Sources identified are completely unrelated to personal health products and services.",
+      "Identifies sources with only a vague connection to personal health products and services.",
+      "Identifies sources that are somewhat relevant but lack specific information about personal health.",
+      "Identifies sources that are mostly relevant to personal health products and services, but some information is generic.",
+      "Identifies sources that are directly relevant and provide specific details about personal health products and services.",
+      "Identifies a highly focused set of resources tailored to the specific product and service, showing evidence of skillful curation."
+    ],
+    [
+      "Unable to distinguish between valid and invalid health information.",
+      "Shows minimal understanding of the differences between valid and invalid health information.",
+      "Begins to recognize differences but struggles to explain why some sources are more valid than others.",
+      "Can usually distinguish between valid and invalid sources and provides some reasoning.",
+      "Consistently identifies valid sources and clearly explains the reasoning behind the choice based on the source's attributes.",
+      "Expertly evaluates sources, providing critical and insightful analysis of their validity, potential biases, and limitations."
+    ]
+  ]
+}

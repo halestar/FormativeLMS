@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Problem",
+    "Using Addition and Subtraction",
+    "Representing the Problem",
+    "Solving for Unknowns"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not understand the word problem and cannot identify what is being asked.",
+      "Shows minimal understanding of the word problem and struggles to identify what is being asked.",
+      "Understands the basic premise of the word problem but may misinterpret some details.",
+      "Clearly understands the word problem and correctly identifies what is being asked.",
+      "Demonstrates a strong understanding of the word problem, including nuances and underlying concepts.",
+      "Exhibits a comprehensive understanding of the word problem and can explain it clearly and concisely."
+    ],
+    [
+      "Unable to apply addition or subtraction to solve the word problem.",
+      "Attempts to use addition or subtraction but makes significant errors.",
+      "Applies addition or subtraction with some errors or inefficiencies.",
+      "Correctly uses addition and subtraction to solve the word problem.",
+      "Uses addition and subtraction effectively and efficiently, demonstrating a strong understanding of their application.",
+      "Applies addition and subtraction creatively and strategically to solve the word problem, showcasing mastery of these operations."
+    ],
+    [
+      "Cannot represent the word problem using objects, drawings, or equations.",
+      "Attempts to represent the word problem but struggles to create a meaningful representation.",
+      "Represents the word problem with some inaccuracies or omissions.",
+      "Accurately represents the word problem using objects, drawings, or equations.",
+      "Creates a clear and effective representation of the word problem, enhancing understanding and facilitating the solution.",
+      "Develops an innovative and insightful representation of the word problem, demonstrating a deep understanding of its structure and relationships."
+    ],
+    [
+      "Unable to solve for unknowns in the word problem.",
+      "Attempts to solve for unknowns but makes significant errors.",
+      "Solves for unknowns with some errors or inefficiencies.",
+      "Correctly solves for unknowns in the word problem.",
+      "Solves for unknowns effectively and efficiently, demonstrating a strong understanding of algebraic concepts.",
+      "Solves for unknowns creatively and strategically, showcasing mastery of algebraic techniques."
+    ]
+  ]
+}

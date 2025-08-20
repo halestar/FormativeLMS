@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Geographic Influence",
+    "Mapping Skills and Identification",
+    "Understanding of American Indian Presence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how location and physical setting influenced the founding of the colonies.",
+      "Demonstrates minimal understanding; struggles to connect geography to colonial development.",
+      "Demonstrates basic understanding; identifies some connections between geography and colonial development, but with limited detail.",
+      "Demonstrates satisfactory understanding; explains several ways location and physical setting influenced the founding of the colonies with reasonable detail.",
+      "Demonstrates thorough understanding; clearly explains how location and physical setting significantly shaped the founding and development of the colonies with specific examples.",
+      "Demonstrates comprehensive understanding; insightfully explains the multifaceted ways in which location and physical setting determined the distinct character and development of the colonies, including analysis of long-term impacts."
+    ],
+    [
+      "Unable to locate any of the 13 colonies or American Indian nations on a map.",
+      "Struggles to locate the colonies and American Indian nations on a map; many errors present.",
+      "Locates some of the colonies and American Indian nations on a map with some errors.",
+      "Accurately locates most of the colonies and American Indian nations on a map.",
+      "Accurately locates all 13 colonies and several major American Indian nations on a map.",
+      "Accurately locates all 13 colonies and a variety of American Indian nations on a map, demonstrating precise geographic knowledge and understanding of historical locations."
+    ],
+    [
+      "Shows no awareness of the presence or significance of American Indian nations in the colonial era.",
+      "Demonstrates minimal awareness; suggests American Indian nations were present but provides no detail or context.",
+      "Demonstrates basic awareness; acknowledges the presence of American Indian nations and provides limited context.",
+      "Demonstrates satisfactory understanding; identifies specific American Indian nations and their general locations relative to the colonies.",
+      "Demonstrates thorough understanding; explains the interactions and relationships between specific American Indian nations and the colonies, with attention to geographic context.",
+      "Demonstrates comprehensive understanding; analyzes the complex interactions, conflicts, and relationships between specific American Indian nations and the colonies, demonstrating a nuanced understanding of the geographic and historical context."
+    ]
+  ]
+}

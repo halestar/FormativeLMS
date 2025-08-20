@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Knowledge of Emergency Services",
+    "Effective Communication with Emergency Personnel",
+    "Understanding of Essential Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any knowledge of how to access emergency services.",
+      "Student demonstrates minimal knowledge of how to access emergency services, with significant gaps.",
+      "Student demonstrates some knowledge of how to access emergency services, but understanding is incomplete.",
+      "Student demonstrates adequate knowledge of how to access emergency services, with minor inaccuracies.",
+      "Student demonstrates strong knowledge of how to access emergency services, with only minor omissions.",
+      "Student demonstrates comprehensive and accurate knowledge of how to access emergency services."
+    ],
+    [
+      "Student is unable to communicate any information to emergency personnel.",
+      "Student struggles to communicate with emergency personnel; communication is unclear and ineffective.",
+      "Student communicates basic information to emergency personnel, but struggles with clarity and detail.",
+      "Student communicates effectively with emergency personnel, providing necessary information with reasonable clarity.",
+      "Student communicates clearly and effectively with emergency personnel, providing all necessary information with detail.",
+      "Student communicates exceptionally well with emergency personnel, providing comprehensive information in a clear, concise, and professional manner."
+    ],
+    [
+      "Student doesn't show essential information needed when communicating with emergency personnel.",
+      "Student is missing key pieces of essential information needed when communicating with emergency personnel.",
+      "Student shows some of the essential information needed when communicating with emergency personnel but not all.",
+      "Student shows all the essential information needed when communicating with emergency personnel but some areas are lacking detail.",
+      "Student shows all the essential information needed when communicating with emergency personnel with clarity.",
+      "Student communicates all essential information needed with clear delivery and concise detail."
+    ]
+  ]
+}

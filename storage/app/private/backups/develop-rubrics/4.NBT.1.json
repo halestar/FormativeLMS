@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Place Value Relationships",
+    "Applying Place Value Knowledge",
+    "Communicating Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of place value or the relationship between digits in different places.",
+      "Student demonstrates minimal understanding of place value and struggles to explain the relationship between digits.",
+      "Student shows some understanding of place value but has difficulty explaining the tenfold relationship consistently.",
+      "Student generally understands place value and can explain the relationship between adjacent digits with some accuracy.",
+      "Student demonstrates a strong understanding of place value and accurately explains the tenfold relationship between digits in most cases.",
+      "Student demonstrates a comprehensive understanding of place value and articulates the tenfold relationship between digits in various contexts with precision."
+    ],
+    [
+      "Student cannot apply place value concepts to solve problems or explain mathematical relationships.",
+      "Student struggles to apply place value knowledge and makes significant errors in problem-solving.",
+      "Student attempts to apply place value but makes frequent errors and shows limited understanding of its relevance.",
+      "Student applies place value knowledge with some success but may struggle with more complex problems.",
+      "Student effectively applies place value knowledge to solve a variety of problems and explain mathematical concepts.",
+      "Student skillfully applies place value knowledge to solve complex problems, explain mathematical concepts, and make generalizations."
+    ],
+    [
+      "Student is unable to communicate their understanding of place value concepts.",
+      "Student struggles to articulate their understanding of place value and uses inaccurate or unclear language.",
+      "Student communicates some understanding of place value but struggles to explain their reasoning clearly.",
+      "Student communicates their understanding of place value with reasonable clarity and provides some supporting reasoning.",
+      "Student effectively communicates their understanding of place value, providing clear explanations and supporting reasoning.",
+      "Student communicates a sophisticated understanding of place value with precision, clarity, and insightful reasoning."
+    ]
+  ]
+}

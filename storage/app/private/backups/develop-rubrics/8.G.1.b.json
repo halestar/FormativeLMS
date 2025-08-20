@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Rotations",
+    "Understanding Reflections",
+    "Understanding Translations",
+    "Experimental Verification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of rotations. Cannot identify or describe rotations.",
+      "Student shows limited understanding of rotations. Can identify rotations but struggles to explain the properties.",
+      "Student can identify rotations and provide a basic description of their properties, but lacks precision.",
+      "Student demonstrates a good understanding of rotations. Can accurately describe the properties of rotations and their effect on angles.",
+      "Student demonstrates a strong understanding of rotations. Can explain the properties of rotations and accurately predict their effect on angles in various scenarios.",
+      "Student demonstrates a comprehensive understanding of rotations. Can rigorously explain the properties of rotations, apply them to complex scenarios, and explain the preservation of angle measure."
+    ],
+    [
+      "Student does not demonstrate understanding of reflections. Cannot identify or describe reflections.",
+      "Student shows limited understanding of reflections. Can identify reflections but struggles to explain the properties.",
+      "Student can identify reflections and provide a basic description of their properties, but lacks precision.",
+      "Student demonstrates a good understanding of reflections. Can accurately describe the properties of reflections and their effect on angles.",
+      "Student demonstrates a strong understanding of reflections. Can explain the properties of reflections and accurately predict their effect on angles in various scenarios.",
+      "Student demonstrates a comprehensive understanding of reflections. Can rigorously explain the properties of reflections, apply them to complex scenarios, and explain the preservation of angle measure."
+    ],
+    [
+      "Student does not demonstrate understanding of translations. Cannot identify or describe translations.",
+      "Student shows limited understanding of translations. Can identify translations but struggles to explain the properties.",
+      "Student can identify translations and provide a basic description of their properties, but lacks precision.",
+      "Student demonstrates a good understanding of translations. Can accurately describe the properties of translations and their effect on angles.",
+      "Student demonstrates a strong understanding of translations. Can explain the properties of translations and accurately predict their effect on angles in various scenarios.",
+      "Student demonstrates a comprehensive understanding of translations. Can rigorously explain the properties of translations, apply them to complex scenarios, and explain the preservation of angle measure."
+    ],
+    [
+      "Student does not attempt or is unable to experimentally verify the properties of transformations.",
+      "Student attempts to verify properties experimentally but makes significant errors in procedure or interpretation.",
+      "Student performs basic experimental verification with some guidance, but has difficulty drawing conclusions.",
+      "Student can experimentally verify the properties of rotations, reflections, and translations, and draw reasonable conclusions.",
+      "Student independently and accurately verifies the properties of transformations through experimentation, providing clear explanations.",
+      "Student designs and conducts sophisticated experiments to verify the properties of transformations, providing rigorous, insightful analysis and justifications."
+    ]
+  ]
+}

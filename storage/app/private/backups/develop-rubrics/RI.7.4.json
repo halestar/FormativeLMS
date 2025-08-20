@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Word Meanings",
+    "Analysis of Impact of Word Choice on Meaning and Tone",
+    "Use of Context Clues"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any word meanings within the text.",
+      "The student identifies word meanings, but struggles with basic definitions and demonstrates limited understanding.",
+      "The student identifies literal word meanings with some accuracy, but struggles with figurative, connotative, or technical meanings.",
+      "The student identifies most word meanings, including literal meanings, but may have minor inaccuracies with figurative, connotative, or technical meanings.",
+      "The student accurately identifies word meanings, including figurative, connotative, and technical meanings, demonstrating a strong understanding.",
+      "The student expertly identifies word meanings, including nuanced figurative, connotative, and technical meanings, demonstrating a comprehensive understanding and insightful analysis."
+    ],
+    [
+      "The student does not attempt to analyze the impact of word choice on meaning and tone.",
+      "The student attempts to analyze the impact of word choice, but the analysis is superficial and lacks connection to the text's meaning and tone.",
+      "The student identifies some connections between word choice and meaning\/tone, but the analysis is limited and lacks depth.",
+      "The student analyzes the impact of word choice on meaning and tone with reasonable accuracy, providing some supporting evidence.",
+      "The student effectively analyzes the impact of specific word choices on both meaning and tone, providing clear and relevant examples from the text.",
+      "The student insightfully and thoroughly analyzes the impact of specific word choices on meaning and tone, demonstrating a sophisticated understanding of the author's craft and its effect on the reader."
+    ],
+    [
+      "The student fails to use context clues to determine word meanings.",
+      "The student attempts to use context clues, but struggles to derive accurate meanings.",
+      "The student uses context clues with limited success, occasionally misinterpreting the surrounding text.",
+      "The student generally uses context clues effectively to understand word meanings within the text.",
+      "The student skillfully uses context clues to accurately determine the meanings of unfamiliar words and phrases.",
+      "The student expertly uses context clues to determine nuanced and complex word meanings, demonstrating a mastery of reading comprehension."
+    ]
+  ]
+}

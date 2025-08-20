@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify and select relevant information from multiple sources.",
+    "Ability to integrate information from different formats and media.",
+    "Ability to evaluate the credibility and reliability of sources.",
+    "Ability to address a question or solve a problem using integrated information."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no ability to identify or select relevant information from any source.",
+      "Student struggles to identify relevant information and\/or can only use one source.",
+      "Student can identify some relevant information from a limited number of sources, but struggles with selection and relevance.",
+      "Student can identify and select mostly relevant information from multiple sources, but may have some minor gaps.",
+      "Student effectively identifies and selects relevant information from a variety of sources with minimal gaps.",
+      "Student skillfully identifies and selects pertinent information from diverse sources, demonstrating a comprehensive understanding of relevance."
+    ],
+    [
+      "Student shows no ability to integrate information from different formats and media.",
+      "Student struggles to integrate information and\/or can only work with one type of format or media.",
+      "Student attempts to integrate information from different sources but struggles to make meaningful connections.",
+      "Student integrates information from different formats and media, with some connections being more effective than others.",
+      "Student effectively integrates information from different sources to create a cohesive understanding.",
+      "Student seamlessly integrates information from diverse formats and media, synthesizing information for a sophisticated, unified understanding."
+    ],
+    [
+      "Student demonstrates no evaluation of source credibility or reliability.",
+      "Student attempts to evaluate sources but shows little understanding of credibility and reliability.",
+      "Student identifies some aspects of source credibility, but evaluation is superficial or inconsistent.",
+      "Student evaluates the credibility and reliability of sources with some justification, but some aspects may be overlooked.",
+      "Student effectively evaluates the credibility and reliability of sources, providing clear reasoning for their assessment.",
+      "Student critically evaluates the credibility and reliability of sources, demonstrating a nuanced understanding of source bias and validity."
+    ],
+    [
+      "Student fails to address the question or propose a solution.",
+      "Student makes a minimal attempt to address the question or problem, but the response is unclear or incomplete.",
+      "Student addresses the question or problem using integrated information, but the response is simplistic or lacks depth.",
+      "Student addresses the question or problem effectively using integrated information, providing a reasonable solution.",
+      "Student addresses the question or problem thoroughly using integrated information, offering a well-reasoned and supported solution.",
+      "Student expertly addresses the question or problem using integrated information, providing an insightful, comprehensive, and innovative solution."
+    ]
+  ]
+}

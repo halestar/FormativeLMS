@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Completeness of the Hygiene Plan",
+    "Feasibility and Practicality of the Plan",
+    "Understanding of Hygiene Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The plan is missing or incomprehensible, showing no understanding of hygiene practices.",
+      "The plan is very basic and lacks detail. It misses key aspects of dental and personal hygiene.",
+      "The plan is somewhat clear but incomplete, with some essential hygiene practices missing or vaguely described.",
+      "The plan is mostly clear and includes most essential hygiene practices, but lacks some details or specific instructions.",
+      "The plan is clear, complete, and includes all essential hygiene practices with specific instructions for implementation.",
+      "The plan is exceptionally clear, comprehensive, and includes detailed, personalized instructions demonstrating a strong understanding of hygiene principles."
+    ],
+    [
+      "The plan is entirely unrealistic and cannot be implemented in a practical setting.",
+      "The plan includes elements that are unrealistic or impractical, making consistent implementation difficult.",
+      "The plan has some practical elements but may require significant adjustments to be consistently feasible.",
+      "The plan is mostly practical and feasible, with minor adjustments needed for consistent implementation.",
+      "The plan is practical, feasible, and can be easily integrated into a daily routine.",
+      "The plan is highly practical, seamlessly integrates into a daily routine, and demonstrates exceptional consideration of personal circumstances."
+    ],
+    [
+      "Demonstrates no understanding of the principles behind dental and personal hygiene.",
+      "Demonstrates very limited understanding of the reasons behind hygiene practices.",
+      "Demonstrates some understanding of hygiene principles but with significant gaps.",
+      "Demonstrates a general understanding of hygiene principles but lacks depth.",
+      "Demonstrates a strong understanding of the principles behind recommended hygiene practices.",
+      "Demonstrates an exceptional understanding of hygiene principles, including the science behind the recommendations, and is able to adapt the plan based on individual needs and circumstances."
+    ]
+  ]
+}

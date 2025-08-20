@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Fluency with Addition within 10",
+    "Fluency with Subtraction within 10",
+    "Use of Addition Strategies within 20 (counting on, making ten, etc.)",
+    "Use of Subtraction Strategies within 20 (decomposing, relationship to addition, etc.)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot demonstrate addition within 10 and struggles with basic number concepts.",
+      "Student can sometimes add within 10 but requires significant support and struggles with accuracy.",
+      "Student can add within 10 with some accuracy but may need occasional support or exhibit inconsistent understanding.",
+      "Student demonstrates consistent addition within 10, showing accuracy and minor use of strategies.",
+      "Student demonstrates fluent and accurate addition within 10, utilizing efficient strategies.",
+      "Student demonstrates mastery of addition within 10, using a variety of strategies fluently and accurately, and can explain their reasoning."
+    ],
+    [
+      "Student cannot demonstrate subtraction within 10 and struggles with basic number concepts.",
+      "Student can sometimes subtract within 10 but requires significant support and struggles with accuracy.",
+      "Student can subtract within 10 with some accuracy but may need occasional support or exhibit inconsistent understanding.",
+      "Student demonstrates consistent subtraction within 10, showing accuracy and minor use of strategies.",
+      "Student demonstrates fluent and accurate subtraction within 10, utilizing efficient strategies.",
+      "Student demonstrates mastery of subtraction within 10, using a variety of strategies fluently and accurately, and can explain their reasoning."
+    ],
+    [
+      "Student does not attempt or is unable to use addition strategies for problems within 20.",
+      "Student attempts to use addition strategies but is largely unsuccessful and relies on counting one-by-one.",
+      "Student inconsistently uses addition strategies and may struggle to apply them correctly or efficiently.",
+      "Student generally uses addition strategies for problems within 20 but may make occasional errors or need prompting.",
+      "Student consistently and effectively uses addition strategies to solve problems within 20 with accuracy.",
+      "Student fluently and flexibly uses a variety of addition strategies to solve problems within 20, demonstrating a deep understanding of number relationships."
+    ],
+    [
+      "Student does not attempt or is unable to use subtraction strategies for problems within 20.",
+      "Student attempts to use subtraction strategies but is largely unsuccessful and relies on counting one-by-one.",
+      "Student inconsistently uses subtraction strategies and may struggle to apply them correctly or efficiently.",
+      "Student generally uses subtraction strategies for problems within 20 but may make occasional errors or need prompting.",
+      "Student consistently and effectively uses subtraction strategies to solve problems within 20 with accuracy.",
+      "Student fluently and flexibly uses a variety of subtraction strategies to solve problems within 20, demonstrating a deep understanding of number relationships."
+    ]
+  ]
+}

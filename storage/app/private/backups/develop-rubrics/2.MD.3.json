@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Estimation",
+    "Unit Selection and Application",
+    "Understanding of Scale and Proportion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to estimate lengths using any standard units or their estimates are completely inaccurate.",
+      "The student attempts to estimate lengths, but struggles significantly and the estimates are often far from the actual length.",
+      "The student can estimate lengths using standard units (inches, feet, centimeters, meters) but with limited accuracy; estimates are often off by a considerable margin.",
+      "The student can estimate lengths with reasonable accuracy, generally within an acceptable range of error for most measurements.",
+      "The student consistently estimates lengths with high accuracy, demonstrating a strong understanding of standard units and their relative sizes.",
+      "The student demonstrates exceptional skill in estimating lengths, consistently providing accurate estimates and explaining their reasoning effectively."
+    ],
+    [
+      "The student does not select appropriate units for measuring or estimating lengths.",
+      "The student struggles to select appropriate units for the given measurement, often choosing units that are not suitable.",
+      "The student selects appropriate units (inches, feet, centimeters, meters) for estimation, but may occasionally choose a less suitable unit.",
+      "The student consistently selects and applies appropriate units for measuring various lengths.",
+      "The student demonstrates a strong understanding of unit selection, applying units effectively and explaining why they chose them.",
+      "The student expertly selects and justifies the use of units, displaying an insightful understanding of the relationship between unit size and the object being measured."
+    ],
+    [
+      "The student shows no understanding of scale and proportion when estimating lengths.",
+      "The student struggles to grasp the relationship between scale and proportion in estimation, leading to inaccurate results.",
+      "The student shows some awareness of scale and proportion, but has difficulty applying it to improve the accuracy of estimations.",
+      "The student demonstrates a solid understanding of how scale and proportion impact estimation accuracy, applying this knowledge consistently.",
+      "The student uses their understanding of scale and proportion to refine estimates and improve accuracy, showing strong analytical skills.",
+      "The student expertly utilizes scale and proportion to generate precise estimates, explaining the underlying mathematical relationships with clarity and insight."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Child Labor and Working Conditions",
+    "Knowledge of Laissez-faire Policies and Big Business",
+    "Understanding of the Labor Movement and Collective Bargaining"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of child labor or working conditions during the Industrial Revolution.",
+      "Demonstrates a minimal understanding of child labor or working conditions, with significant gaps in knowledge.",
+      "Identifies child labor and working conditions but lacks detail or accuracy in the description.",
+      "Describes child labor and working conditions with some accuracy but misses key elements or provides limited context.",
+      "Explains child labor and working conditions in detail, providing accurate information about the challenges and impact on workers.",
+      "Provides a comprehensive and insightful analysis of child labor and working conditions, including specific examples and their broader social and economic consequences."
+    ],
+    [
+      "Shows no awareness of laissez-faire policies or their impact on big business during the Industrial Revolution.",
+      "Demonstrates a limited understanding of laissez-faire policies or big business, with significant inaccuracies.",
+      "Identifies laissez-faire policies and big business but cannot explain their relationship or consequences.",
+      "Describes laissez-faire policies and their general impact on big business but lacks specific examples or in-depth analysis.",
+      "Explains how laissez-faire policies supported the growth of big business, providing relevant examples and explaining the economic principles involved.",
+      "Offers a nuanced analysis of the complex relationship between laissez-faire policies and big business, including both positive and negative consequences and considering alternative perspectives."
+    ],
+    [
+      "Exhibits no knowledge of the labor movement, its leaders, or the concept of collective bargaining.",
+      "Demonstrates a minimal awareness of the labor movement or collective bargaining, with significant misunderstandings.",
+      "Identifies the labor movement and collective bargaining but cannot explain their purpose or significance.",
+      "Describes the labor movement and collective bargaining in general terms but lacks specific details or historical context.",
+      "Explains the goals of the labor movement, the role of collective bargaining, and the impact of strikes and protests on labor conditions, including specific examples like Samuel Gompers.",
+      "Provides a comprehensive analysis of the labor movement, its leaders, strategies, and impact on American society, evaluating the successes and failures of collective bargaining and labor actions in achieving better working conditions."
+    ]
+  ]
+}

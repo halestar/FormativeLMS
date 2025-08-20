@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Completeness of Examined Plans: Assesses how thoroughly the student examines disaster preparedness plans for both home and school settings, focusing on the inclusion of essential elements.",
+    "Understanding of Essential Elements: Evaluates the student's comprehension of what constitutes essential elements in a disaster preparedness plan (e.g., evacuation routes, communication strategies, emergency supplies).",
+    "Critical Analysis and Application: Measures the student's ability to critically analyze the strengths and weaknesses of existing plans and apply this knowledge to improve or adapt the plans to different contexts."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to examine any disaster preparedness plans.",
+      "Examines a single plan (either home OR school) but with significant omissions of key elements.",
+      "Examines plans for both home and school, but misses several important components in each.",
+      "Reviews both home and school plans with minor omissions, demonstrating a basic understanding of essential elements.",
+      "Thoroughly examines both home and school plans, including nearly all essential elements.",
+      "Examines home and school plans comprehensively, identifies all essential elements, and suggests improvements or adaptations based on specific needs."
+    ],
+    [
+      "Demonstrates no understanding of essential elements of a disaster preparedness plan.",
+      "Identifies only one or two essential elements with limited understanding.",
+      "Recognizes a few essential elements but struggles to explain their importance or application.",
+      "Understands and identifies most essential elements, explaining their basic purpose.",
+      "Clearly understands and explains the importance and application of essential elements in various disaster scenarios.",
+      "Demonstrates a deep understanding of essential elements, including nuanced aspects and the rationale behind their inclusion in preparedness plans."
+    ],
+    [
+      "Unable to analyze or critique the plans.",
+      "Offers superficial comments without critical evaluation.",
+      "Identifies one or two basic strengths or weaknesses but lacks deeper analysis.",
+      "Provides a balanced critique, identifying several strengths and weaknesses of the plans.",
+      "Offers insightful analysis, discussing the implications of strengths and weaknesses and suggesting practical improvements.",
+      "Conducts a comprehensive critical analysis, proposing innovative solutions and adaptations that demonstrate a sophisticated understanding of disaster preparedness planning."
+    ]
+  ]
+}

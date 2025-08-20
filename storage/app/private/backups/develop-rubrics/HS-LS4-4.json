@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Natural Selection",
+    "Use of Evidence to Support Explanation",
+    "Explanation of Adaptation",
+    "Connection to Environmental Factors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate understanding of natural selection.",
+      "The student shows a limited understanding of natural selection, with significant misconceptions.",
+      "The student demonstrates a basic understanding of natural selection, but struggles to explain it clearly.",
+      "The student accurately explains natural selection but provides limited supporting details or examples.",
+      "The student clearly explains natural selection with relevant supporting details and examples.",
+      "The student provides a comprehensive and nuanced explanation of natural selection, demonstrating a deep understanding of the concept."
+    ],
+    [
+      "The student does not provide any evidence to support their explanation.",
+      "The student provides irrelevant or inaccurate evidence.",
+      "The student provides some relevant evidence, but it is poorly explained or connected to the explanation.",
+      "The student provides relevant evidence and attempts to connect it to the explanation, but the connection is not always clear.",
+      "The student provides relevant evidence that clearly supports their explanation.",
+      "The student provides compelling and well-explained evidence from multiple sources to fully support their explanation."
+    ],
+    [
+      "The student does not demonstrate understanding of adaptation.",
+      "The student shows a limited understanding of adaptation, with significant misconceptions.",
+      "The student demonstrates a basic understanding of adaptation, but struggles to explain it clearly.",
+      "The student accurately explains adaptation but provides limited supporting details or examples.",
+      "The student clearly explains adaptation with relevant supporting details and examples.",
+      "The student provides a comprehensive and nuanced explanation of adaptation, demonstrating a deep understanding of the concept."
+    ],
+    [
+      "The student does not connect natural selection or adaptation to environmental factors.",
+      "The student makes a weak or inaccurate connection between natural selection\/adaptation and environmental factors.",
+      "The student identifies some relevant environmental factors, but the connection to natural selection\/adaptation is unclear.",
+      "The student explains how environmental factors influence natural selection and adaptation, but the explanation lacks detail.",
+      "The student clearly explains how specific environmental factors contribute to natural selection and adaptation within a population.",
+      "The student provides a detailed and nuanced explanation of how various biotic and abiotic environmental factors interact to drive natural selection and adaptation, demonstrating a sophisticated understanding of ecological dynamics."
+    ]
+  ]
+}

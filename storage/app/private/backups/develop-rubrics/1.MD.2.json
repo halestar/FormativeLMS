@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Length Measurement",
+    "Accuracy in Iterating Length Units",
+    "Application in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of length measurement or the concept of using units to measure length.",
+      "Student shows minimal understanding of length measurement. Struggles to use units or count them accurately.",
+      "Student demonstrates some understanding of length measurement, but makes frequent errors in using units or counting.",
+      "Student generally understands length measurement and can use units to measure, but may have occasional errors in counting or alignment.",
+      "Student accurately measures length using appropriate units and demonstrates a clear understanding of the concept.",
+      "Student demonstrates a thorough understanding of length measurement, accurately using units and explaining the concept with precision. Can apply this understanding to complex scenarios."
+    ],
+    [
+      "Student does not attempt to iterate length units or does so incorrectly, showing no understanding of the process.",
+      "Student attempts to iterate length units but makes significant errors in alignment, gaps, or overlaps.",
+      "Student iterates length units with some accuracy but has noticeable gaps or overlaps that affect the accuracy of the measurement.",
+      "Student iterates length units with reasonable accuracy, with only minor gaps or overlaps that have a minimal impact on the overall measurement.",
+      "Student accurately iterates length units with minimal gaps or overlaps, resulting in a precise measurement.",
+      "Student precisely iterates length units with no gaps or overlaps, demonstrating mastery of the technique and its impact on accurate measurement."
+    ],
+    [
+      "Student cannot apply length measurement concepts in any context.",
+      "Student struggles to apply length measurement concepts even in simple contexts.",
+      "Student can apply length measurement concepts in highly scaffolded contexts, but struggles with independent application.",
+      "Student can apply length measurement concepts in most contexts with some prompting.",
+      "Student confidently applies length measurement concepts in a variety of contexts.",
+      "Student creatively and effectively applies length measurement concepts in novel and complex contexts, demonstrating a deep understanding."
+    ]
+  ]
+}

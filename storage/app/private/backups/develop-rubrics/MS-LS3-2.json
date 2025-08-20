@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model: How accurately does the model represent the processes of asexual and sexual reproduction?",
+    "Explanation of Genetic Information Transfer: How well does the student explain the transfer of genetic information in asexual and sexual reproduction?",
+    "Understanding of Genetic Variation: How well does the student demonstrate an understanding of genetic variation in offspring resulting from sexual vs. asexual reproduction?",
+    "Use of Scientific Terminology: How effectively does the student use appropriate scientific terminology related to genetics and reproduction?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of reproductive processes.",
+      "The model has significant inaccuracies and demonstrates a limited understanding of reproductive processes.",
+      "The model has some inaccuracies but shows a basic understanding of asexual and sexual reproduction.",
+      "The model is mostly accurate but may have minor flaws in representing reproductive processes.",
+      "The model is accurate and clearly represents asexual and sexual reproduction with only minor omissions.",
+      "The model is highly accurate, detailed, and clearly illustrates the processes of both asexual and sexual reproduction."
+    ],
+    [
+      "The explanation is missing or demonstrates no understanding of how genetic information is transferred.",
+      "The explanation is unclear and shows a minimal understanding of genetic information transfer.",
+      "The explanation is basic but contains some inaccuracies regarding genetic information transfer.",
+      "The explanation is generally accurate but lacks detail in describing genetic information transfer.",
+      "The explanation is clear and accurately describes the transfer of genetic information in both asexual and sexual reproduction.",
+      "The explanation is comprehensive, accurate, and provides a detailed understanding of the mechanisms of genetic information transfer."
+    ],
+    [
+      "Shows no understanding of genetic variation or the differences between offspring from asexual and sexual reproduction.",
+      "Shows a very limited understanding of genetic variation and its causes.",
+      "Shows a basic understanding of genetic variation but struggles to explain the differences in offspring.",
+      "Shows a good understanding of genetic variation but could provide more detail about the causes and effects.",
+      "Clearly understands genetic variation and explains how it arises in sexual reproduction compared to the identical offspring in asexual reproduction.",
+      "Demonstrates a deep understanding of genetic variation, including the role of chromosomes, genes, and random contribution of genes from parents."
+    ],
+    [
+      "Uses no relevant scientific terminology or uses it incorrectly.",
+      "Uses very little scientific terminology, and some terms are misused.",
+      "Uses some scientific terminology but struggles with consistent and accurate application.",
+      "Uses scientific terminology appropriately most of the time but may have occasional errors.",
+      "Consistently uses appropriate scientific terminology accurately and effectively.",
+      "Demonstrates masterful use of scientific terminology, enhancing the clarity and precision of the explanation."
+    ]
+  ]
+}

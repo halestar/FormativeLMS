@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Themes\/Central Ideas",
+    "Analysis of Theme Development",
+    "Understanding of Theme Interaction",
+    "Objective Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The response demonstrates no understanding of the text's themes or central ideas.",
+      "The response identifies only one theme\/central idea, and it is vague or inaccurate.",
+      "The response identifies at least one theme\/central idea, but the understanding is superficial.",
+      "The response identifies two themes\/central ideas, with a basic understanding of their role in the text.",
+      "The response identifies two or more themes\/central ideas and demonstrates a clear understanding of their significance.",
+      "The response identifies two or more themes\/central ideas, demonstrating a sophisticated understanding of their nuances and complexities."
+    ],
+    [
+      "The response provides no analysis of how themes develop over the course of the text.",
+      "The response attempts to discuss theme development, but it is irrelevant or lacks textual evidence.",
+      "The response mentions theme development but offers little explanation or support.",
+      "The response provides a limited analysis of how themes develop, with some textual support.",
+      "The response provides a thorough analysis of how themes develop, using relevant textual evidence.",
+      "The response provides a nuanced and insightful analysis of how themes develop, tracing their evolution with compelling textual evidence and interpretation."
+    ],
+    [
+      "The response shows no awareness of how themes interact or build on one another.",
+      "The response suggests a possible connection between themes, but the explanation is unclear or unsupported.",
+      "The response identifies a basic interaction between themes but lacks depth.",
+      "The response explains how themes interact to a limited extent, providing some examples.",
+      "The response clearly explains how themes interact and build on one another to create a more complex understanding.",
+      "The response offers a sophisticated and insightful analysis of how the interaction of themes contributes to the text's overall complexity and meaning."
+    ],
+    [
+      "The response does not include an objective summary of the text.",
+      "The summary is missing or very short, or it lacks objectivity, including personal opinions.",
+      "The summary is somewhat objective but is incomplete or contains minor inaccuracies.",
+      "The summary is mostly objective and provides a basic overview of the text.",
+      "The summary is objective, thorough, and accurately represents the main ideas of the text.",
+      "The summary is exceptionally objective, concise, and captures the essence of the text without bias, demonstrating a deep understanding."
+    ]
+  ]
+}

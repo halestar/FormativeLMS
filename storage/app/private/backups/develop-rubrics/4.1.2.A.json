@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Coping Strategies",
+    "Application to Specific Scenarios",
+    "Understanding of ATOD Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any coping strategies.",
+      "Student identifies one coping strategy, but it is vague or not clearly related to ATOD situations.",
+      "Student identifies one relevant coping strategy with a basic explanation.",
+      "Student identifies two relevant coping strategies and provides a reasonable explanation for each.",
+      "Student identifies three relevant coping strategies and provides a clear explanation for each.",
+      "Student identifies multiple relevant coping strategies and provides comprehensive explanations for each, demonstrating a strong understanding of their application."
+    ],
+    [
+      "Student does not apply coping strategies to any specific scenarios.",
+      "Student attempts to apply a coping strategy to a scenario, but it is inappropriate or poorly explained.",
+      "Student applies a coping strategy to a scenario, but the connection is weak.",
+      "Student applies coping strategies to one or two scenarios with reasonable connections.",
+      "Student applies coping strategies to multiple scenarios effectively, demonstrating an understanding of context.",
+      "Student applies coping strategies thoughtfully and effectively to a variety of complex scenarios, demonstrating a nuanced understanding of context and potential challenges."
+    ],
+    [
+      "Student demonstrates no understanding of the impact of alcohol, tobacco, and other drugs.",
+      "Student demonstrates a limited or inaccurate understanding of the impact of ATOD.",
+      "Student demonstrates a basic understanding of some impacts of ATOD.",
+      "Student demonstrates a clear understanding of the impact of ATOD on individuals and\/or communities.",
+      "Student demonstrates a comprehensive understanding of the physical, psychological, and social impacts of ATOD.",
+      "Student demonstrates a sophisticated understanding of the complex and far-reaching impacts of ATOD, including long-term consequences and systemic issues."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information about Daily Life",
+    "Breadth of Coverage (Native and Non-Native Groups)",
+    "Contextual Understanding (Presidios, Missions, Ranchos, and Pueblos)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides no relevant information or demonstrates significant inaccuracies about the daily lives of people in California during the specified period.",
+      "Provides minimal information with several inaccuracies or demonstrates a very limited understanding of the daily lives of people in California during the specified period.",
+      "Provides some accurate information but lacks depth or detail regarding the daily lives of people in California during the specified period; may contain some inaccuracies.",
+      "Provides generally accurate information about the daily lives of people in California during the specified period, with some details and examples.",
+      "Provides accurate and detailed information about the daily lives of people in California during the specified period, including specific examples and demonstrating a good understanding.",
+      "Provides comprehensive, accurate, and insightful information about the daily lives of people in California during the specified period, demonstrating a deep understanding and nuanced perspective."
+    ],
+    [
+      "Focuses on only one group (either native or non-native) with no mention of the other.",
+      "Mentions both native and non-native groups, but provides details for only one or demonstrates a significant imbalance in coverage.",
+      "Attempts to address both native and non-native groups, but coverage is superficial or lacks specific examples for one group.",
+      "Provides balanced coverage of both native and non-native groups, including details about their daily lives in California during the specified period.",
+      "Provides detailed and well-integrated coverage of both native and non-native groups, highlighting similarities and differences in their daily lives.",
+      "Provides comprehensive and insightful coverage of both native and non-native groups, exploring the complexities and interactions of their daily lives within the historical context."
+    ],
+    [
+      "Shows no understanding of the different types of settlements (presidios, missions, ranchos, and pueblos) or their influence on daily life.",
+      "Identifies some of the settlement types but demonstrates a limited understanding of their impact on daily life.",
+      "Describes some of the settlement types and their general influence on daily life, but lacks specific examples or details.",
+      "Explains how the different types of settlements (presidios, missions, ranchos, and pueblos) shaped the daily lives of people in California during the specified period.",
+      "Provides a detailed analysis of how the different types of settlements influenced daily life, including specific examples and consideration of diverse perspectives.",
+      "Offers a nuanced and insightful analysis of the complex relationships between settlement types and daily life, demonstrating a deep understanding of the historical context and its impact on various groups."
+    ]
+  ]
+}

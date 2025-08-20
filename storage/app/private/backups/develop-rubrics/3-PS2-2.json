@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Observations and Measurements",
+    "Identification of Patterns",
+    "Prediction of Future Motion",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No observations or measurements are recorded.",
+      "Minimal observations or measurements are recorded, lacking detail or accuracy.",
+      "Basic observations and measurements are recorded, but some details are missing.",
+      "Clear and accurate observations and measurements are recorded with sufficient detail.",
+      "Detailed and precise observations and measurements are recorded, demonstrating a thorough understanding.",
+      "Comprehensive and insightful observations and measurements are recorded, exceeding expectations in detail and accuracy."
+    ],
+    [
+      "No patterns in the object's motion are identified.",
+      "An attempt is made to identify patterns, but it is inaccurate or incomplete.",
+      "Basic patterns in the object's motion are identified, but some connections are missing.",
+      "Clear patterns in the object's motion are identified and explained.",
+      "Detailed patterns in the object's motion are identified, with a clear explanation of their significance.",
+      "Comprehensive patterns in the object's motion are identified, with a deep understanding of underlying principles and relationships."
+    ],
+    [
+      "No attempt is made to predict future motion.",
+      "An attempt is made to predict future motion, but it is inaccurate or unsupported by evidence.",
+      "Basic predictions of future motion are made, but they are not well-supported by observations.",
+      "Clear predictions of future motion are made, supported by recorded observations.",
+      "Detailed predictions of future motion are made, demonstrating a strong connection between observations and predictions.",
+      "Comprehensive and accurate predictions of future motion are made, showing a deep understanding of the underlying principles."
+    ],
+    [
+      "No evidence is used to support claims or predictions.",
+      "Minimal evidence is used, and it is not clearly connected to claims or predictions.",
+      "Some evidence is used, but connections to claims or predictions are weak.",
+      "Evidence is used effectively to support claims and predictions.",
+      "Evidence is used thoughtfully and thoroughly to support claims and predictions, demonstrating a strong understanding of its relevance.",
+      "Evidence is used expertly to support claims and predictions, exceeding expectations in depth and insight."
+    ]
+  ]
+}

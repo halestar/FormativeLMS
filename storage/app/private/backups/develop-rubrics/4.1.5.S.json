@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Identification of Weather-Related Emergency Safety Guidelines",
+    "Understanding of Natural Disaster Safety Guidelines"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any safety guidelines related to weather emergencies or natural disasters.",
+      "Student identifies only one basic safety guideline with limited accuracy.",
+      "Student identifies a few basic safety guidelines but demonstrates some misunderstanding or omits important details.",
+      "Student identifies several key safety guidelines for weather-related emergencies, demonstrating a general understanding.",
+      "Student accurately identifies most essential safety guidelines for various weather emergencies and natural disasters, showing good comprehension.",
+      "Student comprehensively and accurately identifies a wide range of safety guidelines for various weather emergencies and natural disasters, demonstrating excellent understanding and awareness."
+    ],
+    [
+      "Student shows no understanding of safety guidelines related to natural disasters.",
+      "Student shows minimal understanding of safety guidelines related to natural disasters.",
+      "Student shows partial understanding of safety guidelines related to natural disasters.",
+      "Student shows an understanding of safety guidelines related to natural disasters.",
+      "Student shows a good understanding of safety guidelines related to natural disasters.",
+      "Student shows a comprehensive and nuanced understanding of safety guidelines related to natural disasters."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rotations",
+    "Understanding of Reflections",
+    "Understanding of Translations",
+    "Experimental Verification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of rotations and their properties.",
+      "The student demonstrates a minimal understanding of rotations, struggling to identify them or their basic properties.",
+      "The student shows some understanding of rotations, but has difficulty explaining their effects on lines and line segments.",
+      "The student accurately identifies rotations and describes their effects on lines, but struggles with segments.",
+      "The student accurately describes rotations and their effect on lines and line segments, recognizing that lengths are preserved.",
+      "The student comprehensively understands rotations, accurately describing their properties and effects on lines and line segments with clear and precise explanations, and can provide examples."
+    ],
+    [
+      "The student demonstrates no understanding of reflections and their properties.",
+      "The student demonstrates a minimal understanding of reflections, struggling to identify them or their basic properties.",
+      "The student shows some understanding of reflections, but has difficulty explaining their effects on lines and line segments.",
+      "The student accurately identifies reflections and describes their effects on lines, but struggles with segments.",
+      "The student accurately describes reflections and their effect on lines and line segments, recognizing that lengths are preserved.",
+      "The student comprehensively understands reflections, accurately describing their properties and effects on lines and line segments with clear and precise explanations, and can provide examples."
+    ],
+    [
+      "The student demonstrates no understanding of translations and their properties.",
+      "The student demonstrates a minimal understanding of translations, struggling to identify them or their basic properties.",
+      "The student shows some understanding of translations, but has difficulty explaining their effects on lines and line segments.",
+      "The student accurately identifies translations and describes their effects on lines, but struggles with segments.",
+      "The student accurately describes translations and their effect on lines and line segments, recognizing that lengths are preserved.",
+      "The student comprehensively understands translations, accurately describing their properties and effects on lines and line segments with clear and precise explanations, and can provide examples."
+    ],
+    [
+      "The student is unable to perform any experimental verification of transformations.",
+      "The student attempts experimental verification, but the approach is flawed and provides no meaningful results.",
+      "The student performs experimental verification with limited success, showing some understanding of the process but lacking precision.",
+      "The student performs experimental verification and can identify that lines transform to lines, but may miss the preservation of length in line segments.",
+      "The student successfully verifies the properties of transformations experimentally, showing that lines are taken to lines and segments to segments of the same length.",
+      "The student rigorously verifies the properties of transformations experimentally, providing detailed explanations of the process and results, demonstrating a deep understanding."
+    ]
+  ]
+}

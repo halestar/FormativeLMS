@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Converting fractions with a denominator of 10 to an equivalent fraction with a denominator of 100.",
+    "Adding fractions with denominators of 10 and 100.",
+    "Understanding the relationship between fractions with denominators of 10 and 100 and decimal notation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to convert fractions with denominator 10 to an equivalent fraction with denominator 100.",
+      "Student can sometimes convert fractions with denominator 10 to an equivalent fraction with denominator 100 with significant errors.",
+      "Student can convert fractions with denominator 10 to an equivalent fraction with denominator 100 with some errors.",
+      "Student can accurately convert fractions with denominator 10 to an equivalent fraction with denominator of 100 with minor errors.",
+      "Student can accurately and consistently convert fractions with denominator 10 to an equivalent fraction with denominator of 100.",
+      "Student can accurately and consistently convert fractions with denominator 10 to an equivalent fraction with denominator of 100 and explain the mathematical reasoning behind the conversion."
+    ],
+    [
+      "Student is unable to add fractions with denominators of 10 and 100.",
+      "Student attempts to add fractions with denominators of 10 and 100, but demonstrates no understanding of equivalent fractions or common denominators.",
+      "Student can add fractions with denominators of 10 and 100, but with significant errors in the conversion to equivalent fractions or addition.",
+      "Student can add fractions with denominators of 10 and 100, with only minor errors in the conversion or addition process.",
+      "Student can accurately and consistently add fractions with denominators of 10 and 100.",
+      "Student can accurately and consistently add fractions with denominators of 10 and 100 and explain the process used."
+    ],
+    [
+      "Student shows no understanding of the relationship between fractions with denominators of 10 and 100 and decimal notation.",
+      "Student shows a limited understanding of the relationship between fractions with denominators of 10 and 100 and decimal notation, struggling to connect them.",
+      "Student can sometimes relate fractions with denominators of 10 and 100 to decimal notation, but with some inconsistencies.",
+      "Student can generally relate fractions with denominators of 10 and 100 to decimal notation, with only occasional errors.",
+      "Student demonstrates a clear understanding of the relationship between fractions with denominators of 10 and 100 and decimal notation.",
+      "Student demonstrates a sophisticated understanding of the relationship between fractions with denominators of 10 and 100 and decimal notation, and can apply this knowledge in different contexts."
+    ]
+  ]
+}

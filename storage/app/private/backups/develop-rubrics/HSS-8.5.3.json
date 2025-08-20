@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of Treaty Identification",
+    "Understanding of Treaty Outcomes",
+    "Clarity and Organization of Outline",
+    "Historical Context and Connections"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of treaties with American Indian nations during the specified period.",
+      "Identifies one or two treaties with significant inaccuracies or omissions.",
+      "Identifies several treaties but lacks detail or includes some inaccuracies.",
+      "Identifies most major treaties with reasonable accuracy but misses some details or outcomes.",
+      "Accurately identifies all major treaties and provides key details about their provisions.",
+      "Accurately and comprehensively identifies all major treaties, providing extensive details and context."
+    ],
+    [
+      "Shows no understanding of the outcomes or consequences of these treaties.",
+      "Demonstrates a superficial understanding of outcomes, with significant misunderstandings.",
+      "Describes some outcomes but lacks depth or demonstrates limited understanding of their impact.",
+      "Explains most of the treaty outcomes with reasonable accuracy, but may lack in comprehensive understanding.",
+      "Clearly explains the various outcomes of the treaties, including political, social, and economic impacts.",
+      "Provides a nuanced and insightful analysis of the varying outcomes, demonstrating deep understanding of long-term impacts."
+    ],
+    [
+      "The outline is disorganized and incomprehensible.",
+      "The outline lacks structure and is difficult to follow.",
+      "The outline is somewhat organized but contains confusing elements.",
+      "The outline is generally clear and organized, facilitating understanding.",
+      "The outline is well-organized and clearly presents the information.",
+      "The outline is exceptionally clear, concise, and logically structured, enhancing comprehension."
+    ],
+    [
+      "Fails to provide any historical context or connections.",
+      "Provides minimal historical context with significant inaccuracies.",
+      "Includes some relevant historical context but lacks depth or accuracy.",
+      "Effectively incorporates historical context to explain the treaties, showing some synthesis.",
+      "Skillfully integrates historical context to explain the treaties, demonstrating a thorough understanding.",
+      "Demonstrates profound insight by connecting treaties to broader historical themes, events, and policies."
+    ]
+  ]
+}

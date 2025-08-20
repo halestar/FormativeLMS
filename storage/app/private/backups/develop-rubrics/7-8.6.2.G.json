@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of HIV, AIDS, and STDs",
+    "Understanding of pregnancy",
+    "Ability to describe the impact of HIV, AIDS, STDs, and pregnancy on life goals"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of HIV, AIDS, or STDs is demonstrated.",
+      "Demonstrates minimal understanding of HIV, AIDS, or STDs.",
+      "Demonstrates basic understanding of HIV, AIDS, and STDs but lacks detail.",
+      "Demonstrates a clear understanding of HIV, AIDS, and STDs, including transmission and prevention.",
+      "Demonstrates a thorough understanding of HIV, AIDS, and STDs, including transmission, prevention, and impact on health.",
+      "Demonstrates a comprehensive and nuanced understanding of HIV, AIDS, and STDs, including transmission, prevention, impact on health, and social implications."
+    ],
+    [
+      "No understanding of pregnancy is demonstrated.",
+      "Demonstrates minimal understanding of pregnancy.",
+      "Demonstrates basic understanding of pregnancy but lacks detail.",
+      "Demonstrates a clear understanding of pregnancy, including conception and prenatal care.",
+      "Demonstrates a thorough understanding of pregnancy, including conception, prenatal care, and childbirth.",
+      "Demonstrates a comprehensive and nuanced understanding of pregnancy, including conception, prenatal care, childbirth, and social implications."
+    ],
+    [
+      "Unable to describe how HIV, AIDS, other STDs, or pregnancy could impact life goals.",
+      "Struggles to describe how HIV, AIDS, other STDs, or pregnancy could impact life goals.",
+      "Describes some potential impacts of HIV, AIDS, other STDs, or pregnancy on life goals but lacks depth.",
+      "Clearly describes several ways that HIV, AIDS, other STDs, or pregnancy could impact life goals.",
+      "Thoroughly describes various ways that HIV, AIDS, other STDs, or pregnancy could impact life goals, including education, career, and relationships.",
+      "Insightfully and comprehensively describes various ways that HIV, AIDS, other STDs, or pregnancy could impact life goals, including education, career, relationships, and personal well-being; provides thoughtful examples."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to engage in conversations and discussions on topics of general public interest.",
+    "Use of connected sentences and paragraph-level discourse in informal and formal settings.",
+    "Ability to interact and negotiate meaning in real-world settings for multiple purposes.",
+    "Effective use of technology to collaborate and share information."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not participate in conversations or discussions, or their participation is irrelevant to the topic.",
+      "The student attempts to participate but struggles to stay on topic or contribute meaningfully.",
+      "The student participates in conversations and discussions with some relevance to the topic, but contributions are limited or unclear.",
+      "The student participates in conversations and discussions, addressing the topic with connected sentences, but may lack depth or detail.",
+      "The student actively engages in conversations and discussions, demonstrating a good understanding of the topic and contributing thoughtful ideas in connected sentences and paragraph-level discourse.",
+      "The student excels in conversations and discussions, demonstrating a comprehensive understanding of the topic, contributing insightful ideas, and effectively using connected sentences and paragraph-level discourse to enhance the interaction."
+    ],
+    [
+      "The student struggles to form complete sentences and cannot construct paragraphs.",
+      "The student attempts to use connected sentences but often makes errors that impede understanding. Paragraphs are absent or poorly formed.",
+      "The student can form some connected sentences and attempts paragraph-level discourse, but clarity and coherence are lacking.",
+      "The student generally uses connected sentences and paragraph-level discourse appropriately in informal settings, but struggles in formal settings.",
+      "The student effectively uses connected sentences and paragraph-level discourse in most informal and formal settings, demonstrating good command of language.",
+      "The student expertly uses connected sentences and paragraph-level discourse in all settings, demonstrating a sophisticated command of language and enhancing communication."
+    ],
+    [
+      "The student is unable to interact or negotiate meaning in real-world settings.",
+      "The student attempts to interact but struggles to convey or understand meaning.",
+      "The student can interact and negotiate meaning in simple, structured settings, but struggles with complexity or ambiguity.",
+      "The student interacts and negotiates meaning in a variety of settings for limited purposes.",
+      "The student interacts and negotiates meaning effectively in a variety of real-world settings for multiple purposes.",
+      "The student expertly interacts and negotiates meaning in complex real-world settings for diverse purposes, demonstrating cultural sensitivity and adaptability."
+    ],
+    [
+      "The student does not use technology or uses it ineffectively.",
+      "The student attempts to use technology but struggles to collaborate or share information.",
+      "The student uses technology for basic collaboration and information sharing, but lacks sophistication.",
+      "The student uses technology appropriately for collaboration and sharing information in some contexts.",
+      "The student effectively uses technology to collaborate and share information, reactions, feelings, and opinions.",
+      "The student creatively and strategically uses technology to enhance collaboration, share information, and express ideas in innovative ways."
+    ]
+  ]
+}

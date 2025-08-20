@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to research target cultures' products, practices, and perspectives.",
+    "Capacity to analyze and discuss the relationships among cultural elements.",
+    "Ability to hypothesize about cultural relationships from different viewpoints.",
+    "Use of culturally appropriate ways in discussing cultural relationships."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no ability to research target cultures' products, practices, and perspectives.",
+      "Shows a limited ability to research target cultures' products, practices, and perspectives. The research is minimal and lacks depth.",
+      "Demonstrates some ability to research target cultures' products, practices, and perspectives. The research is basic but may lack specific details or diverse viewpoints.",
+      "Demonstrates a satisfactory ability to research target cultures' products, practices, and perspectives. The research is adequate and includes relevant details, but could benefit from more analysis.",
+      "Demonstrates a strong ability to research target cultures' products, practices, and perspectives. The research is comprehensive and includes diverse viewpoints and specific details.",
+      "Demonstrates an exceptional ability to research target cultures' products, practices, and perspectives. The research is thorough, insightful, and demonstrates a deep understanding of the subject matter."
+    ],
+    [
+      "Unable to analyze or discuss the relationships among target cultures' products, practices, and perspectives.",
+      "Demonstrates a limited capacity to analyze or discuss the relationships among cultural elements. The analysis is superficial and lacks coherence.",
+      "Demonstrates some capacity to analyze and discuss the relationships among cultural elements. The analysis is basic, but the connections between cultural elements are not clearly articulated.",
+      "Demonstrates a satisfactory capacity to analyze and discuss the relationships among cultural elements. The analysis is adequate and identifies relevant connections, but could benefit from more depth.",
+      "Demonstrates a strong capacity to analyze and discuss the relationships among cultural elements. The analysis is insightful and clearly articulates the connections between cultural elements.",
+      "Demonstrates an exceptional capacity to analyze and discuss the relationships among cultural elements. The analysis is profound, nuanced, and demonstrates a deep understanding of the interconnections among cultural elements."
+    ],
+    [
+      "Unable to form hypotheses about cultural relationships from different viewpoints.",
+      "Demonstrates a limited ability to hypothesize about cultural relationships from different viewpoints. The hypotheses are simplistic and lack cultural sensitivity.",
+      "Demonstrates some ability to hypothesize about cultural relationships from different viewpoints. The hypotheses are basic and may lack depth or consideration of diverse perspectives.",
+      "Demonstrates a satisfactory ability to hypothesize about cultural relationships from different viewpoints. The hypotheses are adequate and consider multiple perspectives, but could benefit from more critical evaluation.",
+      "Demonstrates a strong ability to hypothesize about cultural relationships from different viewpoints. The hypotheses are well-reasoned, culturally sensitive, and consider diverse perspectives.",
+      "Demonstrates an exceptional ability to hypothesize about cultural relationships from different viewpoints. The hypotheses are insightful, nuanced, and demonstrate a deep understanding of cultural complexities."
+    ],
+    [
+      "Demonstrates no awareness of culturally appropriate ways in discussing cultural relationships.",
+      "Demonstrates a limited understanding of culturally appropriate ways in discussing cultural relationships. Communication is often insensitive or inappropriate.",
+      "Demonstrates some understanding of culturally appropriate ways in discussing cultural relationships. Communication is generally respectful, but may lack cultural nuance.",
+      "Demonstrates a satisfactory understanding of culturally appropriate ways in discussing cultural relationships. Communication is respectful and shows an awareness of cultural sensitivities.",
+      "Demonstrates a strong understanding of culturally appropriate ways in discussing cultural relationships. Communication is respectful, nuanced, and demonstrates a deep understanding of cultural sensitivities.",
+      "Demonstrates an exceptional understanding of culturally appropriate ways in discussing cultural relationships. Communication is highly respectful, nuanced, and fosters cross-cultural understanding and empathy."
+    ]
+  ]
+}

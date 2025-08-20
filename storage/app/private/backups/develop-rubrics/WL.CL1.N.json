@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of Gestures and Expressions",
+    "Relevance to Context",
+    "Clarity and Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no use of gestures or expressions.",
+      "Gestures and expressions are minimal and do not enhance communication; may be distracting or inappropriate.",
+      "Gestures and expressions are sometimes used but are not always appropriate or effective; limited cultural awareness.",
+      "Gestures and expressions are generally appropriate and enhance communication in familiar settings; shows some cultural awareness.",
+      "Gestures and expressions are consistently appropriate, natural, and effectively enhance communication in common daily settings; demonstrates good cultural competence.",
+      "Gestures and expressions are expertly used to enhance communication, showing a deep understanding of cultural nuances in various familiar settings; highly effective interaction."
+    ],
+    [
+      "Gestures and expressions are completely unrelated to the context.",
+      "Gestures and expressions are rarely relevant to the context and often confusing.",
+      "Gestures and expressions are sometimes relevant but may not always fit the situation.",
+      "Gestures and expressions are generally relevant to the context and aid in understanding.",
+      "Gestures and expressions are consistently relevant and appropriately used to enhance the interaction.",
+      "Gestures and expressions are perfectly aligned with the context, enhancing communication and cultural understanding seamlessly."
+    ],
+    [
+      "Gestures and expressions are unclear and detract from communication.",
+      "Gestures and expressions are often unclear or have a negative impact on communication.",
+      "Gestures and expressions are somewhat clear but do not significantly enhance communication.",
+      "Gestures and expressions are clear and generally enhance communication.",
+      "Gestures and expressions are clear, impactful, and enhance the message being conveyed.",
+      "Gestures and expressions are exceptionally clear, powerful, and significantly enhance the message, demonstrating mastery."
+    ]
+  ]
+}

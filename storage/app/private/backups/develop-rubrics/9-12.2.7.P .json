@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Importance of Rest and Sleep",
+    "Understanding the Importance of Exercise",
+    "Evaluating Personal Needs for Rest, Sleep, and Exercise",
+    "Applying Knowledge to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the importance of rest and sleep for health.",
+      "Student shows minimal understanding of the importance of rest and sleep, with significant misconceptions.",
+      "Student shows basic understanding of the importance of rest and sleep but lacks depth and detail.",
+      "Student adequately understands the importance of rest and sleep and can explain some benefits.",
+      "Student demonstrates a strong understanding of the importance of rest and sleep, explaining multiple benefits with supporting details.",
+      "Student demonstrates a comprehensive understanding of the importance of rest and sleep, explaining benefits thoroughly and connecting it to overall well-being."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of exercise for health.",
+      "Student shows minimal understanding of the importance of exercise, with significant misconceptions.",
+      "Student shows basic understanding of the importance of exercise but lacks depth and detail.",
+      "Student adequately understands the importance of exercise and can explain some benefits.",
+      "Student demonstrates a strong understanding of the importance of exercise, explaining multiple benefits with supporting details.",
+      "Student demonstrates a comprehensive understanding of the importance of exercise, explaining benefits thoroughly and connecting it to overall well-being."
+    ],
+    [
+      "Student cannot evaluate their personal needs for rest, sleep, and exercise.",
+      "Student attempts to evaluate their needs but provides inaccurate or irrelevant information.",
+      "Student identifies some of their needs but struggles to provide a coherent or complete evaluation.",
+      "Student provides a reasonable evaluation of their needs, identifying areas for improvement.",
+      "Student provides a thorough evaluation of their needs, explaining the reasoning behind their assessment.",
+      "Student provides an insightful and comprehensive evaluation of their needs, demonstrating self-awareness and a plan for improvement."
+    ],
+    [
+      "Student is unable to apply knowledge of rest, sleep, and exercise to real-life scenarios.",
+      "Student struggles to apply knowledge and provides unrealistic or ineffective solutions.",
+      "Student can apply knowledge to simple scenarios but struggles with more complex situations.",
+      "Student can apply knowledge to a variety of scenarios and provides generally effective solutions.",
+      "Student applies knowledge effectively to diverse scenarios, demonstrating critical thinking and problem-solving skills.",
+      "Student demonstrates exceptional ability to apply knowledge to complex, real-life scenarios, providing innovative and well-reasoned solutions."
+    ]
+  ]
+}

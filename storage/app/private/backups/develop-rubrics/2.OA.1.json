@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding the Problem",
+    "Choosing the Correct Operation(s)",
+    "Setting up the Equation",
+    "Solving the Equation and Finding the Solution",
+    "Answering the Question in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not understand the word problem or cannot identify the key information needed to solve it.",
+      "Shows limited understanding of the word problem; struggles to identify the key information.",
+      "Demonstrates partial understanding of the word problem; identifies some key information but misses others.",
+      "Understands the word problem and identifies most of the key information needed to solve it.",
+      "Clearly understands the word problem and accurately identifies all key information needed to solve it.",
+      "Demonstrates a complete and nuanced understanding of the word problem, including subtleties and underlying concepts."
+    ],
+    [
+      "Unable to choose the correct operation (addition or subtraction) needed to solve the problem.",
+      "Struggles to choose the correct operation; chooses the wrong operation or cannot identify the necessary operation.",
+      "Chooses the correct operation for one-step problems, but struggles with two-step problems or complex situations.",
+      "Consistently chooses the correct operation (addition or subtraction) for both one- and two-step problems.",
+      "Accurately chooses the correct operations and justifies the choice with clear reasoning related to the problem's context.",
+      "Demonstrates a deep understanding of why specific operations are appropriate, considering the relationships between quantities and the problem's structure."
+    ],
+    [
+      "Unable to set up an equation to represent the word problem.",
+      "Attempts to set up an equation, but it is incorrect or does not accurately represent the problem.",
+      "Sets up an equation that partially represents the problem, but contains errors or omissions.",
+      "Sets up an accurate equation using a symbol for the unknown number to represent the problem.",
+      "Sets up a clear and accurate equation, correctly placing the unknown and representing the problem's relationships.",
+      "Sets up a sophisticated and accurate equation, demonstrating a nuanced understanding of algebraic representation and problem structure."
+    ],
+    [
+      "Unable to solve the equation or find the correct solution.",
+      "Attempts to solve the equation, but makes significant errors in calculation or reasoning.",
+      "Solves the equation with some errors, leading to an incorrect solution.",
+      "Solves the equation correctly and finds the correct solution to the word problem.",
+      "Solves the equation efficiently and accurately, showing all steps clearly and arriving at the correct solution.",
+      "Solves the equation with elegance and precision, demonstrating a deep understanding of mathematical procedures and their application to the problem."
+    ],
+    [
+      "Does not provide an answer or provides an answer that is not related to the question.",
+      "Provides an answer, but it is unclear or does not include the correct units.",
+      "Provides a numerical answer but does not relate it back to the context of the word problem.",
+      "Provides the correct answer with appropriate units and in the context of the word problem.",
+      "Provides a clear, concise, and accurate answer with units, directly addressing the question posed in the word problem.",
+      "Provides an insightful and nuanced answer, interpreting the solution in the context of the problem and drawing meaningful conclusions."
+    ]
+  ]
+}

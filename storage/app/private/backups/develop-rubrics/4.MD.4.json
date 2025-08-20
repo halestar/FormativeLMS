@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Line Plot Representation",
+    "Ability to Solve Addition Problems Using Line Plot Data",
+    "Ability to Solve Subtraction Problems Using Line Plot Data",
+    "Interpretation of Data and Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Line plot is missing or fundamentally flawed, showing no understanding of data representation.",
+      "Line plot is attempted, but contains significant errors in plotting data points; fractions are not accurately represented.",
+      "Line plot contains some errors in plotting data points; there are inconsistencies in representing fractions.",
+      "Line plot is mostly accurate, with only minor errors in plotting data points or representing fractions.",
+      "Line plot is accurate and correctly represents the data set with fractions of a unit (1\/2, 1\/4, 1\/8).",
+      "Line plot is exceptionally clear, accurate, and effectively represents the data set, demonstrating a strong understanding of fractional units."
+    ],
+    [
+      "Unable to perform addition using the line plot data.",
+      "Attempts addition but struggles to identify and use appropriate data from the line plot; calculations are incorrect.",
+      "Performs addition with some errors, misinterpreting the data or making calculation mistakes.",
+      "Generally performs addition correctly but may have minor errors in calculations or data interpretation.",
+      "Accurately solves addition problems using data from the line plot, demonstrating a solid understanding of fractional addition.",
+      "Skillfully and accurately solves complex addition problems using the line plot data; provides clear and concise solutions."
+    ],
+    [
+      "Unable to perform subtraction using the line plot data.",
+      "Attempts subtraction but struggles to identify and use appropriate data from the line plot; calculations are incorrect.",
+      "Performs subtraction with some errors, misinterpreting the data or making calculation mistakes.",
+      "Generally performs subtraction correctly but may have minor errors in calculations or data interpretation.",
+      "Accurately solves subtraction problems using data from the line plot, demonstrating a solid understanding of fractional subtraction.",
+      "Skillfully and accurately solves complex subtraction problems using the line plot data; provides clear and concise solutions."
+    ],
+    [
+      "Unable to interpret the line plot or solve problems based on the data.",
+      "Attempts to interpret the data but shows minimal understanding of the context; struggles to solve basic problems.",
+      "Interprets some aspects of the data but has difficulty connecting it to problem-solving; solutions are often incorrect or incomplete.",
+      "Generally interprets the data correctly and attempts to solve problems, but may have difficulty with more complex scenarios.",
+      "Accurately interprets the data and solves problems using the line plot, demonstrating a strong understanding of the data's context.",
+      "Demonstrates exceptional insight in interpreting the data and skillfully solves complex problems, providing thorough and accurate solutions."
+    ]
+  ]
+}

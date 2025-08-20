@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in describing the short-term effects of alcohol, tobacco, and other drugs.",
+    "Accuracy in describing the long-term effects of alcohol, tobacco, and other drugs.",
+    "Inclusion of specific substances in describing effects.",
+    "Clarity and organization of the description."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding or provides inaccurate information about the short-term effects of alcohol, tobacco, and other drugs.",
+      "Demonstrates minimal understanding and struggles to accurately describe the short-term effects of alcohol, tobacco, and other drugs.",
+      "Demonstrates a basic understanding and describes some short-term effects of alcohol, tobacco, and other drugs, but with inaccuracies.",
+      "Demonstrates a satisfactory understanding and accurately describes the main short-term effects of alcohol, tobacco, and other drugs.",
+      "Demonstrates a strong understanding and accurately describes a wide range of short-term effects of alcohol, tobacco, and other drugs, providing relevant examples.",
+      "Demonstrates a comprehensive understanding and provides a detailed, accurate, and nuanced description of the short-term effects of alcohol, tobacco, and other drugs, including specific examples and potential variations."
+    ],
+    [
+      "Demonstrates no understanding or provides inaccurate information about the long-term effects of alcohol, tobacco, and other drugs.",
+      "Demonstrates minimal understanding and struggles to accurately describe the long-term effects of alcohol, tobacco, and other drugs.",
+      "Demonstrates a basic understanding and describes some long-term effects of alcohol, tobacco, and other drugs, but with inaccuracies.",
+      "Demonstrates a satisfactory understanding and accurately describes the main long-term effects of alcohol, tobacco, and other drugs.",
+      "Demonstrates a strong understanding and accurately describes a wide range of long-term effects of alcohol, tobacco, and other drugs, providing relevant examples.",
+      "Demonstrates a comprehensive understanding and provides a detailed, accurate, and nuanced description of the long-term effects of alcohol, tobacco, and other drugs, including specific examples and potential variations."
+    ],
+    [
+      "Fails to mention specific substances (alcohol, tobacco, steroids, performance-enhancing drugs, inhalants) when discussing effects.",
+      "Mentions only one or two substances, lacking detail on the effects of the others.",
+      "Mentions most of the substances but lacks depth in describing their specific effects.",
+      "Includes all substances (alcohol, tobacco, steroids, performance-enhancing drugs, inhalants) and describes the effects of each adequately.",
+      "Includes all substances and provides specific, detailed effects for each, demonstrating a clear understanding.",
+      "Provides an exhaustive list of substances and thoroughly explains the nuances and complexities of each substance's effects, including potential interactions and dependencies."
+    ],
+    [
+      "Description is unclear, disorganized, and difficult to understand.",
+      "Description is somewhat unclear and lacks logical organization.",
+      "Description is understandable but could benefit from better organization.",
+      "Description is clear and organized in a logical manner.",
+      "Description is very clear, well-organized, and easy to follow, using appropriate terminology.",
+      "Description is exceptionally clear, logically structured, and uses precise language to convey complex information effectively. Demonstrates mastery of communication skills."
+    ]
+  ]
+}

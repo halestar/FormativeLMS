@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Graphing Points",
+    "Application of Absolute Value for Distance",
+    "Problem-Solving in Real-World Contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to plot points in any quadrant or demonstrates significant errors.",
+      "Student can plot points primarily in the first quadrant with limited accuracy.",
+      "Student can plot points in all four quadrants but makes frequent errors in sign or placement.",
+      "Student accurately plots points in all four quadrants with only occasional minor errors.",
+      "Student consistently and accurately plots points in all four quadrants, demonstrating a strong understanding of the coordinate plane.",
+      "Student flawlessly plots points in all four quadrants and can explain the relationship between coordinates and their location with precision."
+    ],
+    [
+      "Student does not attempt to use absolute value or shows no understanding of its relevance to distance.",
+      "Student attempts to use absolute value but demonstrates significant errors in calculations or application.",
+      "Student uses absolute value to find distances, but makes frequent errors, particularly with negative coordinates.",
+      "Student accurately applies absolute value to find distances between points with the same x or y coordinate, with only minor errors.",
+      "Student consistently and accurately uses absolute value to find distances, demonstrating a strong understanding of its application.",
+      "Student flawlessly applies absolute value and explains its significance in determining distances on the coordinate plane."
+    ],
+    [
+      "Student does not attempt to solve real-world problems or demonstrates no understanding of how to apply coordinate plane concepts.",
+      "Student attempts to solve real-world problems but demonstrates significant errors in setting up the problem or interpreting the results.",
+      "Student solves real-world problems with limited success, making frequent errors in graphing or distance calculations.",
+      "Student solves real-world problems with reasonable accuracy, showing understanding of how to use coordinate plane concepts, with only minor errors.",
+      "Student consistently and accurately solves real-world problems using graphing and distance calculations, demonstrating a strong understanding of the application of these concepts.",
+      "Student flawlessly solves real-world problems, demonstrating exceptional problem-solving skills and a deep understanding of the coordinate plane and absolute value concepts; solutions are clearly explained."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Diverse Perspectives",
+    "Use of Authentic Materials",
+    "Clarity and Accuracy of Explanation",
+    "Language Proficiency"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any perspectives or viewpoints related to the topic.",
+      "The student identifies only one perspective with minimal supporting details.",
+      "The student identifies a limited number of perspectives (2-3) but lacks depth in explanation.",
+      "The student identifies several perspectives (3-4) and provides some explanation, but may miss nuances or complexities.",
+      "The student clearly identifies multiple perspectives (4-5) and provides a solid explanation for each, demonstrating understanding of different viewpoints.",
+      "The student comprehensively identifies a wide range of perspectives (5+) and provides insightful explanations, demonstrating a nuanced understanding of diverse viewpoints."
+    ],
+    [
+      "The student does not use any authentic materials.",
+      "The student uses one inauthentic material.",
+      "The student uses one authentic materials, but its relevance is questionable.",
+      "The student uses a limited range of authentic materials (2) with basic explanation.",
+      "The student uses authentic materials effectively (3) to support their explanations and demonstrate cultural understanding.",
+      "The student skillfully integrates a variety of authentic materials (4+) to provide rich context and enhance understanding of cultural perspectives."
+    ],
+    [
+      "The student's explanation is unclear, inaccurate, or irrelevant.",
+      "The student provides a vague or partially accurate explanation with significant gaps in understanding.",
+      "The student's explanation is somewhat clear but contains inaccuracies or lacks sufficient detail.",
+      "The student provides a generally clear and accurate explanation with minor omissions or areas for improvement.",
+      "The student provides a clear, accurate, and well-supported explanation that demonstrates a solid understanding of the topic.",
+      "The student provides an exceptionally clear, accurate, and insightful explanation that demonstrates a deep understanding of the topic and its complexities."
+    ],
+    [
+      "The student uses a lot of inauthentic language with no clear topic.",
+      "The student's use of the target language is minimal and hinders comprehension.",
+      "The student uses the target language with frequent errors that occasionally impede understanding.",
+      "The student uses the target language with some errors that do not significantly impede understanding.",
+      "The student uses the target language fluently and accurately with few errors.",
+      "The student uses the target language with a high level of fluency, accuracy, and sophistication."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of the Model",
+    "Clarity of Representation",
+    "Explanation of Cause and Effect"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is completely inaccurate and does not represent the concept of light reflecting from objects and entering the eye.",
+      "The model is somewhat inaccurate and\/or incomplete, with significant misconceptions about how light enables sight.",
+      "The model contains inaccuracies or omissions but generally shows an understanding of light reflecting from objects.",
+      "The model is mostly accurate, demonstrating a good understanding of the basic principles of light reflection and how it allows objects to be seen.",
+      "The model is accurate and clearly represents how light reflecting from objects enters the eye, enabling sight, with only minor details missing.",
+      "The model is exceptionally accurate, detailed, and insightful, providing a comprehensive understanding of the process of light reflecting from objects and entering the eye, demonstrating a deep understanding."
+    ],
+    [
+      "The model is unclear, disorganized, and difficult to understand.",
+      "The model is somewhat unclear and\/or disorganized, making it difficult to follow the explanation.",
+      "The model is understandable but could be clearer or more organized.",
+      "The model is clear and organized, effectively communicating the concept of light and vision.",
+      "The model is exceptionally clear, well-organized, and easy to understand, enhancing the explanation.",
+      "The model is presented with exceptional clarity, using innovative methods to enhance understanding and engagement."
+    ],
+    [
+      "The explanation does not address the cause-and-effect relationship between light, objects, and vision.",
+      "The explanation vaguely touches on cause and effect but lacks specific details or accurate connections.",
+      "The explanation identifies the cause-and-effect relationship but does not fully elaborate on the connections.",
+      "The explanation clearly describes the cause-and-effect relationship between light reflecting from objects and the ability to see them.",
+      "The explanation thoroughly explores the cause-and-effect relationship, providing detailed insights into how light enables vision.",
+      "The explanation offers a nuanced and insightful analysis of the cause-and-effect relationship, showcasing a deep understanding of the process."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Division as Sharing",
+    "Computational Accuracy",
+    "Contextual Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of dividing a unit fraction by a whole number or a whole number by a unit fraction.",
+      "Student shows minimal understanding. The story context is missing, nonsensical, or mathematically incorrect.",
+      "Student attempts to create a story context and compute the quotient but makes significant errors in either the interpretation or the computation.",
+      "Student creates a story context and computes the quotient, but there are minor errors or omissions in either the interpretation or the calculation.",
+      "Student correctly interprets the division of a unit fraction by a whole number or vice versa, and computes the quotient accurately within a story context.",
+      "Student expertly interprets the division of a unit fraction by a whole number or vice versa, computes the quotient accurately, and provides a clear, logical story context that exemplifies the division."
+    ],
+    [
+      "Quotient is not computed",
+      "Quotient is incorrectly computed with no explanation",
+      "Significant errors in computation of the quotient.",
+      "Some errors in the computation, but there is an attempt to show the steps",
+      "The quotient is computed correctly.",
+      "Quotient is computed correctly and is simplified when possible"
+    ],
+    [
+      "No context is provided.",
+      "The context provided is not appropriate for a division problem.",
+      "The context provided does not follow the formula of dividing a unit fraction by a whole number.",
+      "Context is appropriate, but the math is flawed",
+      "The student provides a real-world context that is clear and mathematically relevant to the division problem.",
+      "The student provides an insightful and creative real-world context that is clear, mathematically relevant, and demonstrates a deep understanding of the division problem."
+    ]
+  ]
+}

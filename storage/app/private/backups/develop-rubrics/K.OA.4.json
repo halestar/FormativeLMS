@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Finding the Number that Makes 10",
+    "Representation with Drawing or Equation",
+    "Understanding of Addition as Combining"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot demonstrate understanding of how to find the number that makes 10 when added to a given number.",
+      "Student struggles to find the number that makes 10, even with assistance or manipulatives. Errors are frequent.",
+      "Student can sometimes find the number that makes 10 for some numbers between 1 and 9 with some errors.",
+      "Student can find the number that makes 10 for most numbers between 1 and 9 but may need some prompting or have occasional errors.",
+      "Student consistently finds the number that makes 10 for any number between 1 and 9 using objects or drawings with minimal errors.",
+      "Student accurately and efficiently finds the number that makes 10 for any number between 1 and 9, and can explain their strategy clearly."
+    ],
+    [
+      "Student does not attempt to represent the answer with a drawing or equation.",
+      "Student attempts to represent the answer with a drawing or equation, but it is unclear or incorrect.",
+      "Student's representation with a drawing or equation is partially correct but contains significant errors or omissions.",
+      "Student represents the answer with a drawing or equation that is mostly correct but may have minor errors or lack clarity.",
+      "Student accurately represents the answer with a drawing or equation, demonstrating a clear understanding of the relationship.",
+      "Student skillfully and clearly represents the answer with a drawing or equation, showing a deep understanding and potentially using multiple representations."
+    ],
+    [
+      "Student does not demonstrate understanding of addition as putting together and adding to.",
+      "Student shows limited understanding of addition as combining, struggling to relate it to finding the number that makes 10.",
+      "Student's understanding of addition as combining is emerging but inconsistent. They can sometimes connect it to the task.",
+      "Student generally understands addition as combining and relates it to finding the number that makes 10 with some prompting.",
+      "Student clearly understands addition as combining and effectively applies this understanding to find the number that makes 10.",
+      "Student demonstrates a strong and nuanced understanding of addition as combining, explaining how it applies to finding the number that makes 10 in multiple ways."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the underlying causes of World War I, including militarism, alliances, imperialism, and nationalism.",
+    "Knowledge of the major events and turning points of the war.",
+    "Analysis of the impact of the war on different nations and groups."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the causes of World War I.",
+      "The student identifies one cause of World War I but cannot explain its significance.",
+      "The student identifies and explains two causes of World War I with limited detail.",
+      "The student identifies and explains three causes of World War I with some supporting details.",
+      "The student comprehensively explains four causes of World War I, providing relevant details and demonstrating a strong understanding of their interconnectedness.",
+      "The student provides an insightful and nuanced analysis of the causes of World War I, exploring the complex interplay of factors and offering original insights."
+    ],
+    [
+      "The student demonstrates no knowledge of the major events of World War I.",
+      "The student identifies one major event but cannot explain its significance.",
+      "The student identifies two major events with limited accuracy and detail.",
+      "The student describes three major events, providing some accurate details and demonstrating basic understanding of their impact.",
+      "The student accurately describes four major events, providing relevant details and demonstrating a clear understanding of their significance as turning points in the war.",
+      "The student provides a sophisticated analysis of key events, demonstrating an understanding of their long-term consequences and connections to broader historical themes."
+    ],
+    [
+      "The student demonstrates no understanding of the impact of World War I.",
+      "The student mentions one group affected by the war, but offers no analysis.",
+      "The student identifies two groups impacted, but provides only superficial analysis.",
+      "The student describes the impact on three different nations or groups with some supporting evidence.",
+      "The student analyzes the impact of the war on at least four different nations or groups, providing relevant evidence and demonstrating a clear understanding of diverse perspectives.",
+      "The student offers a nuanced and insightful comparative analysis of the war's impact on various nations and groups, considering social, political, and economic dimensions."
+    ]
+  ]
+}

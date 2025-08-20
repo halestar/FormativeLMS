@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Sun-Safety Practices",
+    "Description of Sun-Safety Practices",
+    "Application of Sun-Safety Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any sun-safety practices or provides incorrect information.",
+      "Identifies only one sun-safety practice with limited accuracy.",
+      "Identifies two sun-safety practices with some inaccuracies or omissions.",
+      "Identifies three sun-safety practices with generally accurate information.",
+      "Identifies four sun-safety practices with accurate and relevant details.",
+      "Identifies five or more sun-safety practices comprehensively and accurately, demonstrating a strong understanding."
+    ],
+    [
+      "Unable to describe any sun-safety practices or provides irrelevant information.",
+      "Provides a minimal description of one sun-safety practice, lacking detail.",
+      "Describes two sun-safety practices with limited clarity or depth.",
+      "Describes three sun-safety practices with reasonable clarity and some detail.",
+      "Describes four sun-safety practices clearly and with sufficient detail, showing understanding.",
+      "Describes five or more sun-safety practices comprehensively, accurately, and with insightful details, demonstrating a thorough understanding."
+    ],
+    [
+      "Does not demonstrate any understanding of how to apply sun-safety practices in real-life scenarios.",
+      "Shows a limited understanding of how to apply one sun-safety practice.",
+      "Demonstrates some understanding of how to apply two sun-safety practices, but with potential limitations.",
+      "Applies three sun-safety practices to real-life scenarios appropriately and with reasonable accuracy.",
+      "Applies four sun-safety practices effectively and accurately to various real-life scenarios.",
+      "Applies five or more sun-safety practices comprehensively, accurately, and insightfully to diverse real-life scenarios, demonstrating a deep understanding."
+    ]
+  ]
+}

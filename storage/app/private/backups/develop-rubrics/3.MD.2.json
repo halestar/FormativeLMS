@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Measurement and Estimation",
+    "Problem Solving with Measurement",
+    "Representation and Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to measure or estimate liquid volumes and masses, or the attempt is completely inaccurate.",
+      "Student attempts to measure or estimate, but the measurements and estimations are largely inaccurate, demonstrating little understanding of standard units.",
+      "Student can measure and estimate liquid volumes and masses, but with frequent errors and some misunderstanding of standard units (grams, kilograms, liters).",
+      "Student accurately measures and estimates liquid volumes and masses most of the time, showing a general understanding of standard units with occasional minor errors.",
+      "Student consistently and accurately measures and estimates liquid volumes and masses using standard units, demonstrating a strong understanding.",
+      "Student demonstrates a sophisticated understanding by accurately measuring and estimating in complex scenarios and providing reasonable justifications for estimations."
+    ],
+    [
+      "Student does not attempt to solve word problems or is unable to apply any relevant operations (addition, subtraction, multiplication, division).",
+      "Student attempts to solve word problems, but the approach is flawed, and the student is unable to perform the correct operations.",
+      "Student can solve some one-step word problems, but struggles with choosing the correct operation or setting up the problem.",
+      "Student can solve most one-step word problems involving masses or volumes with minor errors in calculations or setup.",
+      "Student can accurately solve one-step word problems involving masses or volumes, showing a clear understanding of when to add, subtract, multiply, or divide.",
+      "Student demonstrates mastery by solving complex, multi-step problems involving measurement with minimal guidance, explaining the reasoning behind the operations."
+    ],
+    [
+      "Student does not use drawings or other representations to support problem-solving, or the representations are completely unrelated to the problem.",
+      "Student attempts to use drawings or representations, but they are unclear or inaccurate and do not aid in solving the problem.",
+      "Student uses drawings or representations with some accuracy, but the explanation is unclear or missing.",
+      "Student effectively uses drawings or representations to solve word problems, providing a basic explanation of their process.",
+      "Student clearly and accurately uses drawings or representations to solve word problems, providing a detailed explanation of their process and reasoning.",
+      "Student innovatively uses drawings or representations to solve complex problems involving mass and volume, providing insightful explanations that demonstrate deep understanding."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Refusal Skills",
+    "Application of Refusal Skills",
+    "Understanding of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to identify any refusal skills.",
+      "The student identifies only one refusal skill, but the skill is vaguely described.",
+      "The student identifies one refusal skill and describes it with limited clarity.",
+      "The student identifies two refusal skills and describes them with some clarity.",
+      "The student identifies at least three refusal skills and describes them clearly.",
+      "The student identifies multiple refusal skills, describes them clearly, and provides examples of how they could be used effectively in real-life situations."
+    ],
+    [
+      "The student does not demonstrate the application of refusal skills in a given scenario.",
+      "The student attempts to apply a refusal skill, but it is inappropriate for the scenario.",
+      "The student applies a refusal skill, but the approach is weak or ineffective.",
+      "The student applies a refusal skill in a scenario with moderate effectiveness.",
+      "The student applies multiple refusal skills effectively in a given scenario.",
+      "The student expertly applies a range of refusal skills in a given scenario, demonstrating adaptability and a clear understanding of how to avoid pressure."
+    ],
+    [
+      "The student does not understand the consequences of succumbing to pressure to use alcohol, tobacco, or other drugs.",
+      "The student demonstrates a limited understanding of the consequences.",
+      "The student identifies some consequences but lacks detail or accuracy.",
+      "The student explains the potential consequences with moderate clarity and accuracy.",
+      "The student thoroughly explains the potential consequences of succumbing to peer pressure regarding substance use.",
+      "The student comprehensively explains the potential consequences and articulates the importance of resisting pressure in maintaining personal health and safety."
+    ]
+  ]
+}

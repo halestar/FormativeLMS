@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Fraction Multiplication Concepts",
+    "Application of Multiplication to Solve Word Problems",
+    "Use of Visual Fraction Models and Equations",
+    "Determining Whole Number Range"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of fraction multiplication is demonstrated.",
+      "Demonstrates minimal understanding of fraction multiplication concepts; struggles to apply the concept to simple problems.",
+      "Shows partial understanding of fraction multiplication; can solve simple problems with guidance but struggles with more complex scenarios.",
+      "Demonstrates a solid understanding of fraction multiplication; can solve most problems independently but may need some assistance with complex word problems.",
+      "Exhibits a strong understanding of fraction multiplication; can solve complex problems independently and accurately, including those with visual models.",
+      "Demonstrates a comprehensive understanding of fraction multiplication; can solve complex problems with visual models and explain the underlying mathematical principles effectively."
+    ],
+    [
+      "Unable to apply multiplication to solve any part of the word problem.",
+      "Struggles significantly to apply multiplication; unable to extract relevant information or set up the problem.",
+      "Can partially apply multiplication but struggles with the setup; may make errors in calculation or interpretation of the problem.",
+      "Generally able to apply multiplication to solve word problems; can set up the problem correctly and arrive at a reasonable answer, but may have minor calculation errors.",
+      "Effectively applies multiplication to solve word problems accurately; demonstrates a clear understanding of the context and correctly interprets the solution.",
+      "Masterfully applies multiplication to solve complex word problems; provides clear and accurate solutions, including interpretation and verification of the answer within the context of the problem."
+    ],
+    [
+      "Does not attempt to use visual fraction models or equations.",
+      "Attempts to use visual models or equations but is unable to create an accurate representation or solve the problem.",
+      "Can create a partially accurate visual model or equation but struggles with using it to find the correct solution.",
+      "Uses visual fraction models and equations effectively to solve problems; the representation is accurate, but the explanation might lack clarity.",
+      "Uses visual fraction models and equations proficiently to solve problems; can clearly explain the model or equation and how it relates to the solution.",
+      "Expertly uses visual fraction models and equations to solve complex problems; provides a detailed and insightful explanation of the model or equation and its connection to the solution, demonstrating a deep understanding of the concepts."
+    ],
+    [
+      "Unable to determine the whole number range the answer lies between.",
+      "Struggles to determine the whole number range and provides an incorrect or nonsensical answer.",
+      "Attempts to determine the whole number range but makes significant errors or requires considerable guidance.",
+      "Generally able to determine the whole number range but may need minor assistance or clarification.",
+      "Accurately determines the whole number range and provides a clear explanation of the reasoning.",
+      "Insightfully determines the whole number range and provides a comprehensive and logical explanation, demonstrating a strong understanding of number sense."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Fictional Portrayal and Historical Account: Accurately identifies a fictional portrayal and a historical account that depict the same time, place, or character.",
+    "Comparison of Fictional and Historical Elements: Compares specific elements (e.g., events, characters, settings) in both the fictional portrayal and the historical account.",
+    "Analysis of Authorial Choices: Analyzes how the author of the fictional work uses or alters historical elements for specific purposes (e.g., to create a particular mood, convey a message, explore a theme).",
+    "Understanding of Historical Context: Demonstrates an understanding of the historical context of the time, place, or character being portrayed."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify a fictional portrayal or a historical account, or identifies unrelated sources.",
+      "Identifies a fictional portrayal and a historical account, but the connection between them is vague or inaccurate.",
+      "Identifies a fictional portrayal and a historical account with some connection, but lacks specific details or clarity.",
+      "Clearly identifies a fictional portrayal and a historical account that depict the same time, place, or character with reasonable accuracy.",
+      "Accurately and thoroughly identifies a fictional portrayal and a historical account, demonstrating a clear understanding of their shared subject matter.",
+      "Masterfully identifies and contextualizes a fictional portrayal and a historical account, showcasing a nuanced understanding of their relationship and historical context."
+    ],
+    [
+      "Fails to compare elements in the fictional portrayal and historical account.",
+      "Attempts to compare elements, but the comparison is superficial or inaccurate.",
+      "Compares some elements, but lacks depth or clear connections between the fictional and historical versions.",
+      "Compares several elements with reasonable accuracy, identifying similarities and differences.",
+      "Provides a detailed comparison of multiple elements, clearly articulating similarities and differences between the fictional and historical versions.",
+      "Offers an insightful and comprehensive comparison, revealing subtle nuances and complexities in the portrayal of elements across both accounts."
+    ],
+    [
+      "Fails to analyze the author's choices or how history is used\/altered in the fictional work.",
+      "Attempts to analyze authorial choices, but the analysis is vague or unsupported.",
+      "Offers a basic analysis of authorial choices, but lacks depth or clear connections to the author's purpose.",
+      "Analyzes how the author uses or alters historical elements with reasonable explanations.",
+      "Provides a well-supported analysis of the author's choices, clearly explaining how historical elements are used or altered to achieve specific effects.",
+      "Presents a sophisticated and insightful analysis of authorial choices, demonstrating a deep understanding of the author's purpose and the impact of historical alterations on the work's meaning and interpretation."
+    ],
+    [
+      "Shows no understanding of the historical context.",
+      "Demonstrates minimal understanding of the historical context, with significant inaccuracies or omissions.",
+      "Displays some understanding of the historical context, but lacks depth or specific details.",
+      "Demonstrates a reasonable understanding of the historical context, providing relevant details and information.",
+      "Exhibits a strong understanding of the historical context, providing accurate and detailed information that enhances the analysis.",
+      "Reveals a comprehensive and nuanced understanding of the historical context, integrating historical insights seamlessly into the analysis and interpretation of the fictional and historical accounts."
+    ]
+  ]
+}

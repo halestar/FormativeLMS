@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of exponent properties (product of powers, quotient of powers, power of a power, zero exponent, negative exponent).",
+    "Ability to simplify expressions with integer exponents.",
+    "Application of exponent properties to generate equivalent numerical expressions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of exponent properties.",
+      "Shows limited understanding; struggles to apply exponent properties correctly.",
+      "Understands some exponent properties but makes frequent errors in application.",
+      "Demonstrates a general understanding of exponent properties but occasionally makes mistakes.",
+      "Applies exponent properties accurately in most cases, with only minor errors.",
+      "Demonstrates a thorough understanding of exponent properties and applies them accurately and efficiently."
+    ],
+    [
+      "Unable to simplify expressions with integer exponents.",
+      "Struggles to simplify expressions, even with guidance.",
+      "Can simplify basic expressions but has difficulty with more complex problems.",
+      "Simplifies most expressions correctly but may make errors with negative exponents or multiple operations.",
+      "Consistently simplifies expressions with integer exponents accurately.",
+      "Simplifies complex expressions with integer exponents efficiently and accurately, demonstrating a strong command of the rules."
+    ],
+    [
+      "Unable to generate equivalent numerical expressions using exponent properties.",
+      "Attempts to generate equivalent expressions but is unsuccessful or makes significant errors.",
+      "Can generate equivalent expressions for simple problems but struggles with more complex cases.",
+      "Generates equivalent numerical expressions but may not always choose the most efficient method.",
+      "Consistently generates correct equivalent numerical expressions using appropriate exponent properties.",
+      "Demonstrates a sophisticated understanding of how to manipulate exponent properties to generate a variety of equivalent numerical expressions effectively."
+    ]
+  ]
+}

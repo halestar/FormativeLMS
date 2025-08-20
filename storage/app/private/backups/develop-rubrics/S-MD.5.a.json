@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Probability Concepts",
+    "Calculating Expected Values",
+    "Application to Decision-Making",
+    "Communication and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic probability concepts.",
+      "Struggles to identify probabilities in simple scenarios.",
+      "Can identify probabilities in simple scenarios but struggles with more complex situations.",
+      "Understands basic probability concepts and can apply them to straightforward problems.",
+      "Demonstrates a strong understanding of probability concepts and can apply them to a variety of problems.",
+      "Shows a comprehensive understanding of probability concepts and can apply them creatively to solve complex and novel problems."
+    ],
+    [
+      "Unable to calculate expected values.",
+      "Attempts to calculate expected values but makes significant errors.",
+      "Can calculate expected values in simple scenarios but struggles with more complex calculations involving multiple outcomes.",
+      "Accurately calculates expected values in most scenarios.",
+      "Consistently calculates expected values accurately and efficiently.",
+      "Calculates expected values with accuracy and can explain the implications of the results in decision-making."
+    ],
+    [
+      "Unable to apply expected values to decision-making.",
+      "Struggles to connect expected values to real-world decisions.",
+      "Can make simple decisions based on expected values but struggles with more complex scenarios.",
+      "Uses expected values to make informed decisions in a variety of scenarios.",
+      "Analyzes and compares different decisions based on expected values, explaining the reasoning clearly.",
+      "Applies expected values to decision-making with sophistication, considering multiple factors and uncertainties."
+    ],
+    [
+      "Unable to communicate the reasoning behind calculations or decisions.",
+      "Struggles to explain the process of calculating expected values or justifying decisions.",
+      "Can explain the calculations and decisions in a basic way but lacks clarity or detail.",
+      "Clearly communicates the process of calculating expected values and justifying decisions.",
+      "Communicates calculations and decisions with clarity and provides strong justifications.",
+      "Communicates calculations and decisions with exceptional clarity, providing insightful justifications and considering alternative perspectives."
+    ]
+  ]
+}

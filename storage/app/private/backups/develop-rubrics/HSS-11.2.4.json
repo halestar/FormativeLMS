@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Urban Political Machines",
+    "Analysis of Immigrant Responses",
+    "Analysis of Middle-Class Reformer Responses",
+    "Understanding the Effects"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of urban political machines or their functions.",
+      "Shows minimal understanding of urban political machines; struggles to identify their purpose.",
+      "Identifies urban political machines but lacks depth in explaining their operations.",
+      "Explains the basic functions and structures of urban political machines with some detail.",
+      "Analyzes the operations of urban political machines, including their benefits and drawbacks.",
+      "Provides a comprehensive analysis of urban political machines, demonstrating a nuanced understanding of their complexities."
+    ],
+    [
+      "Does not address immigrant responses to urban political machines.",
+      "Mentions immigrant responses vaguely, without specific examples.",
+      "Identifies some responses by immigrants but lacks analysis of the reasons behind them.",
+      "Describes various responses by immigrants and provides some context for these responses.",
+      "Analyzes the diverse responses of immigrants to urban political machines, considering their motivations and impact.",
+      "Offers a sophisticated analysis of immigrant responses, exploring the complex interplay between political machines and immigrant communities."
+    ],
+    [
+      "Does not address responses from middle-class reformers.",
+      "Mentions middle-class reformer responses vaguely, without specific examples.",
+      "Identifies some responses by middle-class reformers but lacks analysis of the reasons behind them.",
+      "Describes various responses by middle-class reformers and provides some context for these responses.",
+      "Analyzes the responses of middle-class reformers, considering their motivations and impact on urban political machines.",
+      "Offers a sophisticated analysis of middle-class reformer responses, exploring the tensions and collaborations between reformers and other groups."
+    ],
+    [
+      "Shows no understanding of the effects of urban political machines.",
+      "Shows minimal understanding of the effects of urban political machines; struggles to identify their effects.",
+      "Identifies some effects of urban political machines but lacks depth in explaining their effects.",
+      "Explains the basic effects of urban political machines with some detail.",
+      "Analyzes the effects of urban political machines, including their benefits and drawbacks.",
+      "Provides a comprehensive analysis of the effects of urban political machines, demonstrating a nuanced understanding of their complexities."
+    ]
+  ]
+}

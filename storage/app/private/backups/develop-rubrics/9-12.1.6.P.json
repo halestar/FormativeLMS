@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Dangers",
+    "Description of Dangers",
+    "Strategies for Avoiding Exposure"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify any of the dangers listed (UV light, lead, asbestos, pesticides, unclean air\/water).",
+      "Student identifies only one danger with limited accuracy.",
+      "Student identifies two dangers, but descriptions lack detail or accuracy.",
+      "Student identifies three to four dangers with reasonable accuracy.",
+      "Student identifies all five dangers with good accuracy and some detail.",
+      "Student accurately identifies all five dangers and provides detailed explanations of their harmful effects."
+    ],
+    [
+      "Student provides no description of any of the dangers.",
+      "Student provides a vague or inaccurate description of one danger.",
+      "Student provides basic descriptions of two dangers with some inaccuracies.",
+      "Student provides reasonably accurate descriptions of three to four dangers.",
+      "Student provides accurate and detailed descriptions of all five dangers.",
+      "Student provides comprehensive and scientifically accurate descriptions of all five dangers, including their mechanisms of harm."
+    ],
+    [
+      "Student suggests no strategies for avoiding exposure to the listed dangers.",
+      "Student suggests one ineffective or impractical strategy.",
+      "Student suggests one to two basic strategies, but they are not fully explained or practical.",
+      "Student suggests three to four reasonable strategies for avoiding exposure.",
+      "Student suggests multiple practical and effective strategies for avoiding exposure to each danger.",
+      "Student suggests comprehensive and innovative strategies, demonstrating a deep understanding of preventative measures and their effectiveness."
+    ]
+  ]
+}

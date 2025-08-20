@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Information Gathering and Synthesis: Ability to obtain relevant information from multiple sources and synthesize it into a coherent understanding.",
+    "Understanding of Human Impact on Earth Systems: Demonstrates knowledge of how human activities affect the Earth's resources and environment.",
+    "Solutions and Protective Measures: Knowledge of how communities use science ideas to protect Earth's resources and environment.",
+    "Communication of Information: Clear and effective communication of information related to the topic."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to gather or synthesize information. Information presented is absent or completely irrelevant.",
+      "Gathers information from only one unreliable source. Shows minimal attempt to connect information.",
+      "Gathers information from a limited number of sources (mostly unreliable) and struggles to connect them meaningfully.",
+      "Gathers information from multiple sources, but synthesis is superficial. Some sources may be unreliable.",
+      "Gathers information from multiple reliable sources and demonstrates a good understanding of the topic, synthesizing information effectively.",
+      "Gathers information from a variety of reliable sources, synthesizes information exceptionally well, and demonstrates a comprehensive understanding of the topic with insightful connections."
+    ],
+    [
+      "Demonstrates no understanding of human impact on Earth's systems.",
+      "Shows a very basic or incorrect understanding of human activities and their environmental effects.",
+      "Identifies some human activities and their effects, but lacks depth and accuracy.",
+      "Describes several human activities and their impacts on the environment with some accuracy and detail.",
+      "Explains human activities and their impacts on various environmental systems with good detail and accuracy.",
+      "Provides a comprehensive explanation of human activities and their complex impacts on the Earth's systems, including specific examples and supporting evidence."
+    ],
+    [
+      "No understanding of solutions or protective measures.",
+      "Mention of solutions is vague and lacks scientific basis or connection to community action.",
+      "Identifies a few solutions or protective measures with limited explanation or scientific backing.",
+      "Describes some solutions or protective measures that communities are using, with some explanation of the science ideas behind them.",
+      "Explains multiple solutions and protective measures used by communities, detailing the science ideas and effectiveness of these actions.",
+      "Provides a detailed and insightful analysis of various solutions and protective measures used by different communities, including an evaluation of their effectiveness and potential limitations, grounded in solid scientific understanding."
+    ],
+    [
+      "Communication is unclear and disorganized. Difficult to understand the message.",
+      "Communication is basic and lacks clarity; contains significant errors that impede understanding.",
+      "Communication is somewhat clear, but contains some organizational issues and errors.",
+      "Communicates information clearly with a logical structure and few errors.",
+      "Communicates information very clearly and effectively, with a well-organized structure and minimal errors.",
+      "Communicates complex information in a compelling, clear, and concise manner, demonstrating excellent organization and attention to detail."
+    ]
+  ]
+}

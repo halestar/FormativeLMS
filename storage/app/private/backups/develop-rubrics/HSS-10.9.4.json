@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Causes and Key Events of the Chinese Civil War",
+    "Analysis of Mao Tse-tung's Rise to Power and Ideologies",
+    "Knowledge of Political and Economic Upheavals in China (Great Leap Forward, Cultural Revolution, Tiananmen Square Uprising)",
+    "Ability to Analyze the Causes and Effects of Events"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the causes or key events of the Chinese Civil War.",
+      "Demonstrates a very limited understanding of the causes or key events of the Chinese Civil War; significant misconceptions are evident.",
+      "Demonstrates a basic understanding of the causes and key events of the Chinese Civil War, but with some gaps in knowledge.",
+      "Demonstrates a satisfactory understanding of the causes and key events of the Chinese Civil War, with minor inaccuracies.",
+      "Demonstrates a strong understanding of the causes and key events of the Chinese Civil War, providing accurate and relevant details.",
+      "Demonstrates a comprehensive and insightful understanding of the causes and key events of the Chinese Civil War, providing nuanced details and showing clear connections between events."
+    ],
+    [
+      "Shows no understanding of Mao Tse-tung's rise to power or his ideologies.",
+      "Shows a very limited understanding of Mao Tse-tung's rise to power or his ideologies; significant misconceptions are evident.",
+      "Shows a basic understanding of Mao Tse-tung's rise to power and his ideologies, but with some gaps in knowledge.",
+      "Shows a satisfactory understanding of Mao Tse-tung's rise to power and ideologies, with minor inaccuracies.",
+      "Shows a strong understanding of Mao Tse-tung's rise to power and ideologies, providing accurate and relevant details.",
+      "Shows a comprehensive and insightful understanding of Mao Tse-tung's rise to power and ideologies, providing nuanced details and showing clear connections between his ideas and actions."
+    ],
+    [
+      "Demonstrates no knowledge of the Great Leap Forward, Cultural Revolution, or Tiananmen Square Uprising.",
+      "Demonstrates a very limited knowledge of the Great Leap Forward, Cultural Revolution, or Tiananmen Square Uprising; significant misconceptions are evident.",
+      "Demonstrates a basic knowledge of at least one of the Great Leap Forward, Cultural Revolution, or Tiananmen Square Uprising, but with some gaps in understanding.",
+      "Demonstrates a satisfactory knowledge of the Great Leap Forward, Cultural Revolution, and Tiananmen Square Uprising, with minor inaccuracies.",
+      "Demonstrates a strong knowledge of the Great Leap Forward, Cultural Revolution, and Tiananmen Square Uprising, providing accurate and relevant details.",
+      "Demonstrates a comprehensive and insightful knowledge of the Great Leap Forward, Cultural Revolution, and Tiananmen Square Uprising, providing nuanced details and showing clear connections between these events and their long-term impact."
+    ],
+    [
+      "Unable to identify any causes or effects related to the events in question.",
+      "Identifies superficial causes or effects with no real analysis.",
+      "Identifies some causes and effects but struggles to explain the relationship between them.",
+      "Adequately analyzes the causes and effects, explaining the relationships but not going into great detail.",
+      "Provides a comprehensive analysis of the causes and effects, demonstrating a strong understanding of the events.",
+      "Provides a thorough and insightful analysis of the causes and effects, making astute observations and demonstrating a high level of understanding."
+    ]
+  ]
+}

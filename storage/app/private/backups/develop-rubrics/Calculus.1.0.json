@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Formal Definition of a Limit",
+    "Graphical Interpretation of Limits",
+    "Knowledge of One-Sided Limits, Infinite Limits, and Limits at Infinity",
+    "Understanding of Convergence and Divergence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the formal definition of a limit is demonstrated.",
+      "Demonstrates minimal understanding of the formal definition of a limit. Key components are missing or misunderstood.",
+      "Demonstrates a partial understanding of the formal definition of a limit but struggles to apply it correctly.",
+      "Demonstrates a satisfactory understanding of the formal definition of a limit and can apply it in simple cases.",
+      "Demonstrates a strong understanding of the formal definition of a limit and can apply it in most cases.",
+      "Demonstrates a comprehensive understanding of the formal definition of a limit and can apply it correctly in all cases."
+    ],
+    [
+      "No understanding of the graphical interpretation of limits is demonstrated.",
+      "Demonstrates minimal understanding of graphical interpretation of limits. Struggles to identify limits on a graph.",
+      "Demonstrates a partial understanding of graphical interpretation of limits, but makes frequent errors.",
+      "Demonstrates a satisfactory understanding of graphical interpretation of limits and can identify limits on basic graphs.",
+      "Demonstrates a strong understanding of graphical interpretation of limits and can accurately determine limits on complex graphs.",
+      "Demonstrates a comprehensive understanding of graphical interpretation of limits and can explain the behavior of functions near limits with precision."
+    ],
+    [
+      "No knowledge of one-sided limits, infinite limits, or limits at infinity is demonstrated.",
+      "Demonstrates minimal knowledge of one-sided limits, infinite limits, or limits at infinity. Concepts are largely undefined or incorrect.",
+      "Demonstrates a partial knowledge of one-sided limits, infinite limits, or limits at infinity. Can identify some, but struggles with application.",
+      "Demonstrates a satisfactory knowledge of one-sided limits, infinite limits, and limits at infinity and can apply them in straightforward problems.",
+      "Demonstrates a strong knowledge of one-sided limits, infinite limits, and limits at infinity and can solve most related problems.",
+      "Demonstrates a comprehensive knowledge of one-sided limits, infinite limits, and limits at infinity and can apply them in complex and nuanced situations."
+    ],
+    [
+      "No understanding of convergence and divergence is demonstrated.",
+      "Demonstrates minimal understanding of convergence and divergence. Terms are misused or not understood.",
+      "Demonstrates a partial understanding of convergence and divergence but struggles to differentiate between the two.",
+      "Demonstrates a satisfactory understanding of convergence and divergence and can identify them in simple functions.",
+      "Demonstrates a strong understanding of convergence and divergence and can determine convergence or divergence for most functions.",
+      "Demonstrates a comprehensive understanding of convergence and divergence and can rigorously prove convergence or divergence."
+    ]
+  ]
+}

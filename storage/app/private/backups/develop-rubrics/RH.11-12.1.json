@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Selection of Textual Evidence",
+    "Quality of Analysis",
+    "Connection to the Whole Text"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited or the evidence is completely irrelevant to the analysis.",
+      "Textual evidence is either missing or vaguely related to the analysis.",
+      "Some textual evidence is provided, but it is weakly connected to the analysis.",
+      "Relevant textual evidence is provided to support the analysis.",
+      "Well-chosen textual evidence is provided to effectively support the analysis, demonstrating a clear understanding of the text.",
+      "Textual evidence is skillfully selected and seamlessly integrated to provide compelling support for the analysis, demonstrating a nuanced understanding of the text."
+    ],
+    [
+      "Analysis is absent or demonstrates a complete misunderstanding of the source material.",
+      "Analysis is superficial and lacks depth, providing minimal insight into the source material.",
+      "Analysis is present but underdeveloped, offering limited insight into the source material.",
+      "Analysis demonstrates a reasonable understanding of the source material, providing some insight into its meaning and significance.",
+      "Analysis is insightful and well-reasoned, demonstrating a strong understanding of the source material and its implications.",
+      "Analysis is sophisticated and insightful, demonstrating a deep understanding of the source material, its complexities, and its broader significance."
+    ],
+    [
+      "No connection is made between the textual evidence and an understanding of the text as a whole.",
+      "Connection to the text as a whole is weak and unclear.",
+      "A superficial connection is made between the textual evidence and the overall text.",
+      "Connection between specific details and the understanding of the text as a whole is evident.",
+      "Clear and logical connection is made between specific details and an insightful understanding of the text as a whole.",
+      "Compelling and insightful connection is made between specific details and a comprehensive understanding of the text, revealing a deep appreciation for its complexities."
+    ]
+  ]
+}

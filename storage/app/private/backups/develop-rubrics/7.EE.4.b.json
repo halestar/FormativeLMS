@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to translate word problems into algebraic inequalities.",
+    "Skill in solving inequalities.",
+    "Accuracy in graphing the solution set of the inequality.",
+    "Interpretation of the solution set in the context of the problem."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to translate the word problem into an inequality.",
+      "Attempts to translate the word problem, but the resulting inequality is incorrect or incomplete.",
+      "Translates the word problem into an inequality with minor errors or omissions.",
+      "Correctly translates the word problem into an appropriate algebraic inequality.",
+      "Correctly translates complex word problems into appropriate algebraic inequalities, demonstrating a strong understanding of the relationships between quantities.",
+      "Demonstrates mastery in translating complex and nuanced word problems into accurate algebraic inequalities, exhibiting a comprehensive understanding of quantitative relationships."
+    ],
+    [
+      "No attempt to solve the inequality.",
+      "Attempts to solve the inequality, but makes significant errors in algebraic manipulation.",
+      "Solves the inequality with some errors in algebraic manipulation, leading to an incorrect solution set.",
+      "Correctly solves the inequality, arriving at the correct solution set.",
+      "Solves inequalities involving multiple steps and rational numbers accurately and efficiently.",
+      "Exhibits mastery in solving complex inequalities, including those with rational coefficients and multiple steps, demonstrating precision and efficiency."
+    ],
+    [
+      "No attempt to graph the solution set.",
+      "Attempts to graph the solution set, but the graph is incorrect or incomplete.",
+      "Graphs the solution set with minor errors, such as incorrect endpoints or shading.",
+      "Correctly graphs the solution set of the inequality on a number line.",
+      "Graphs the solution set accurately and clearly, using appropriate notation to indicate inclusion or exclusion of endpoints.",
+      "Demonstrates mastery in graphing solution sets of complex inequalities, providing clear and precise visual representations of the solution, and using appropriate mathematical notation."
+    ],
+    [
+      "No attempt to interpret the solution set in the context of the problem.",
+      "Attempts to interpret the solution set, but the interpretation is unclear or inaccurate.",
+      "Provides a basic interpretation of the solution set, but lacks depth or context.",
+      "Correctly interprets the solution set in the context of the problem, providing a clear and relevant explanation.",
+      "Provides a thorough and insightful interpretation of the solution set, demonstrating a strong understanding of the problem context.",
+      "Offers a comprehensive and nuanced interpretation of the solution set, demonstrating a deep understanding of the problem context and its implications."
+    ]
+  ]
+}

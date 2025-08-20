@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Introduction and Organization",
+    "Development of Topic",
+    "Use of Transitions",
+    "Language and Vocabulary",
+    "Style and Tone",
+    "Concluding Statement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No introduction or thesis statement is present; ideas are disorganized and lack clear connections; no formatting, graphics, or multimedia are used.",
+      "A weak introduction is present, but the thesis is unclear. Organization is attempted, but connections are vague. Minimal formatting, graphics, or multimedia are used.",
+      "An adequate introduction and thesis statement are present. Ideas are organized, but connections are not always clear. Basic formatting is used, but graphics and multimedia are limited.",
+      "A clear introduction and thesis statement are present. Ideas are logically organized with evident connections. Effective formatting is used, with some relevant graphics or multimedia.",
+      "A compelling introduction and clear thesis statement are present. Ideas are thoughtfully organized with strong connections and distinctions. Formatting, graphics, and multimedia enhance comprehension.",
+      "An engaging and sophisticated introduction presents a nuanced thesis. Ideas are seamlessly organized with insightful connections and distinctions. Strategic use of formatting, graphics, and multimedia substantially aids comprehension."
+    ],
+    [
+      "Topic is not developed; lacks facts, definitions, details, quotations, or examples.",
+      "Topic is underdeveloped with insufficient or irrelevant facts, definitions, details, quotations, or examples.",
+      "Topic development is basic with some relevant facts, definitions, details, quotations, or examples, but depth is lacking.",
+      "Topic is well-developed with chosen facts, definitions, details, quotations, or examples appropriate to the audience's knowledge.",
+      "Topic is thoroughly developed with convincing and relevant facts, definitions, details, quotations, or examples tailored to the audience.",
+      "Topic is expertly developed with insightful and comprehensive facts, definitions, details, quotations, or examples that demonstrate a deep understanding of the audience."
+    ],
+    [
+      "No transitions are used; the text lacks cohesion and relationships between ideas are unclear.",
+      "Transitions are minimal, awkward, or repetitive; cohesion is weak, and relationships between ideas are vague.",
+      "Transitions are present but may be overused or ineffective; cohesion is inconsistent, and relationships between ideas are sometimes unclear.",
+      "Appropriate transitions are used to link sections, create cohesion, and clarify relationships between ideas.",
+      "Varied and effective transitions are used to enhance cohesion and clarify complex relationships between ideas.",
+      "Seamless and sophisticated transitions are used to create a fluid and coherent text, demonstrating a mastery of complex relationships between ideas."
+    ],
+    [
+      "Language is imprecise and vocabulary is limited; topic complexity is not managed.",
+      "Language is sometimes imprecise and vocabulary is basic; difficulty in managing topic complexity.",
+      "Language is generally precise and vocabulary is adequate; some attempt to manage topic complexity.",
+      "Precise language and domain-specific vocabulary are used to manage the complexity of the topic.",
+      "Sophisticated language and domain-specific vocabulary are used effectively to enhance the clarity and complexity of the topic.",
+      "Masterful command of language and domain-specific vocabulary demonstrates a deep understanding of the topic."
+    ],
+    [
+      "Formal style and objective tone are not established or maintained.",
+      "Attempts at formal style and objective tone are inconsistent and not maintained.",
+      "Formal style and objective tone are generally maintained, but there are lapses.",
+      "A formal style and objective tone are consistently maintained while attending to the norms and conventions of the disciplines.",
+      "A polished and refined formal style and objective tone are expertly maintained while adhering to the norms and conventions of the disciplines.",
+      "A sophisticated and nuanced formal style and objective tone are flawlessly maintained, demonstrating a deep understanding of the disciplinary norms and conventions."
+    ],
+    [
+      "No concluding statement or section is provided or does not follow from the information presented.",
+      "A weak concluding statement or section is provided but does not adequately support the information presented.",
+      "A concluding statement or section is provided but only summarizes the information with little additional insight.",
+      "A concluding statement or section follows from and supports the information or explanation presented.",
+      "A thoughtful concluding statement or section effectively synthesizes the information and articulates implications or the significance of the topic.",
+      "A compelling and insightful concluding statement or section leaves the reader with a deep understanding of the topic and its implications."
+    ]
+  ]
+}

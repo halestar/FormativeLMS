@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of verbal refusal",
+    "Understanding of consequences",
+    "Use of alternative strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or refusal is made.",
+      "Refusal is unclear, hesitant, or easily swayed.",
+      "Refusal is stated but lacks conviction or a clear reason.",
+      "Refusal is stated with a reason, but delivery could be stronger.",
+      "Clear and assertive refusal is made with a valid reason and confident delivery.",
+      "Clear, assertive refusal is made with a compelling reason, confident delivery, and effective non-verbal communication."
+    ],
+    [
+      "Demonstrates no understanding of the consequences of drug use.",
+      "Shows minimal awareness of potential consequences.",
+      "Identifies some consequences but lacks detail.",
+      "Identifies several consequences of drug use.",
+      "Clearly articulates multiple short-term and long-term consequences of drug use.",
+      "Demonstrates a thorough understanding of the physical, social, and emotional consequences of drug use, and can connect these to personal well-being."
+    ],
+    [
+      "Does not suggest any alternative strategies.",
+      "Suggests one unconvincing or unrealistic alternative.",
+      "Suggests one plausible alternative.",
+      "Suggests two plausible alternatives to drug use.",
+      "Suggests multiple realistic and healthy alternatives to drug use.",
+      "Suggests multiple proactive and personalized alternatives to drug use, demonstrating critical thinking and self-awareness."
+    ]
+  ]
+}

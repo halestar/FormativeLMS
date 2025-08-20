@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Transportation Methods: Accurately identifies various transportation methods used in earlier time periods.",
+    "Comparison of Transportation Methods: Compares transportation methods with modes in current times.",
+    "Understanding of Societal Impact: Explains how transportation methods affected society, economy, and culture."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any transportation methods from earlier days.",
+      "Identifies one or two transportation methods but lacks detail or accuracy.",
+      "Identifies a few transportation methods with some accuracy, but explanations are limited.",
+      "Identifies several transportation methods with good accuracy and provides basic explanations of their use.",
+      "Identifies multiple transportation methods with detailed and accurate descriptions, showing a strong understanding of their historical context.",
+      "Demonstrates comprehensive knowledge by identifying a wide range of transportation methods, providing insightful analysis of their impact and historical significance."
+    ],
+    [
+      "Does not compare modes of transportation or provide any historical context.",
+      "Attempts to compare transportation methods but lacks clarity and contains inaccuracies.",
+      "Provides some comparisons with limited detail and accuracy.",
+      "Compares earlier transportation methods accurately, while discussing the changes over time.",
+      "Presents clear and accurate comparisons, explaining the evolution of transportation.",
+      "Provides an in-depth comparison that shows insight into how transportation evolved."
+    ],
+    [
+      "Shows no understanding of the societal impact of transportation methods.",
+      "Has a minimal understanding of the societal impacts of transportation methods with little accuracy.",
+      "Identifies basic societal effects, but provides limited explanation.",
+      "Explains how transportation methods influenced society, economy and culture.",
+      "Explains how transportation methods influenced society, economy and culture with historical accuracy.",
+      "Insightfully discusses the impact of transportation on society, economy, and culture, including specific examples and well-reasoned arguments."
+    ]
+  ]
+}

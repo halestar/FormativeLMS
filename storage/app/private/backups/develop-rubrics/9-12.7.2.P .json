@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Personal Hygiene Practices",
+    "Application of Personal Hygiene Plan",
+    "Knowledge of Adequate Rest and Sleep"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of personal hygiene practices or their importance.",
+      "Shows limited understanding of basic personal hygiene practices; struggles to explain their significance.",
+      "Demonstrates a basic understanding of personal hygiene practices, such as hand washing and showering, but may not fully grasp their importance for overall health.",
+      "Demonstrates a clear understanding of essential personal hygiene practices and can explain their importance in preventing illness.",
+      "Demonstrates a comprehensive understanding of various personal hygiene practices, including oral hygiene, and can explain their impact on overall health and well-being.",
+      "Demonstrates an exceptional understanding of personal hygiene practices and their profound impact on health; proactively seeks out additional information and applies it effectively."
+    ],
+    [
+      "Does not follow any plan for personal hygiene or sleep.",
+      "Attempts to create a personal hygiene plan, but it is incomplete or unrealistic.",
+      "Creates a basic plan for personal hygiene and sleep, but struggles with consistent implementation.",
+      "Implements a personal hygiene plan with reasonable consistency, showing effort to maintain good habits.",
+      "Consistently follows a well-structured personal hygiene plan and adjusts it as needed based on individual needs and circumstances.",
+      "Exemplifies consistent adherence to a comprehensive personal hygiene plan, proactively adapting it to optimize health and well-being; serves as a role model for others."
+    ],
+    [
+      "Demonstrates no understanding of the importance of rest and sleep for health.",
+      "Shows limited awareness of the role of sleep in maintaining health; struggles to identify factors affecting sleep quality.",
+      "Understands that sleep is important for health but lacks specific knowledge about sleep duration and sleep hygiene practices.",
+      "Demonstrates a good understanding of the recommended sleep duration and basic sleep hygiene practices for optimal health.",
+      "Demonstrates a comprehensive understanding of the factors influencing sleep quality and implements strategies to improve sleep hygiene.",
+      "Possesses an exceptional understanding of sleep science and its impact on overall well-being; consistently prioritizes sleep and educates others on its importance."
+    ]
+  ]
+}

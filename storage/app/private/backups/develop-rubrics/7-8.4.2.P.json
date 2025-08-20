@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Risks",
+    "Application of Assertive Communication",
+    "Decision-Making Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how certain situations increase the risk of communicable diseases or illnesses.",
+      "Shows a minimal understanding of how some situations may increase risk, but struggles to identify specific dangers.",
+      "Identifies a few situations that increase risk, but the understanding is superficial or incomplete.",
+      "Understands several common situations that increase risk and can explain them adequately.",
+      "Demonstrates a strong understanding of a wide range of situations that increase risk, including specific examples.",
+      "Exhibits a comprehensive understanding of various risk factors and can analyze complex scenarios to identify potential dangers related to communicable diseases or illnesses."
+    ],
+    [
+      "Does not attempt to use assertive communication or uses it inappropriately in risky situations.",
+      "Attempts assertive communication, but it is ineffective or inconsistent.",
+      "Uses assertive communication in some situations, but struggles with more challenging scenarios.",
+      "Consistently uses assertive communication to navigate common risky situations effectively.",
+      "Skillfully employs assertive communication techniques and demonstrates the ability to tailor their approach based on the situation.",
+      "Masterfully uses assertive communication and consistently adapts their approach to maximize safety and minimize risk, while also advocating for others."
+    ],
+    [
+      "Makes poor decisions that increase the risk of communicable diseases or illnesses.",
+      "Shows limited ability to make informed decisions and often chooses less safe options.",
+      "Sometimes makes sound decisions, but can be swayed by peer pressure or misinformation.",
+      "Consistently makes informed decisions to avoid risky situations and protect their health.",
+      "Demonstrates excellent decision-making skills, weighing the potential risks and benefits of different options.",
+      "Exhibits exceptional decision-making skills, analyzing complex situations and making ethical and responsible choices that promote health and safety."
+    ]
+  ]
+}

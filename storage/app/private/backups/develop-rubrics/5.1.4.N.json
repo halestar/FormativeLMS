@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Food Groups and Recommended Portions",
+    "Application of Nutritional Concepts",
+    "Clarity and Accuracy of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of food groups or recommended portion sizes.",
+      "The student identifies some food groups but cannot explain why some have more recommended portions.",
+      "The student identifies major food groups and makes a limited attempt to explain the differences in recommended portions, but lacks depth.",
+      "The student accurately identifies major food groups and provides a basic explanation for why some have more recommended portions, such as energy content or essential nutrients.",
+      "The student demonstrates a strong understanding of different food groups and clearly explains the reasons behind varying recommended portion sizes, referencing nutritional needs and bodily functions.",
+      "The student demonstrates a comprehensive understanding of food groups, explains the rationale behind recommended portions in detail, and connects this knowledge to overall health and dietary guidelines, using scientific reasoning."
+    ],
+    [
+      "The student does not apply any nutritional concepts to the explanation.",
+      "The student mentions nutrition but does not connect it to the recommended portions.",
+      "The student attempts to connect nutrition to portion sizes but demonstrates a limited understanding.",
+      "The student correctly applies nutritional concepts to explain why some food groups have more recommended portions, mentioning concepts such as carbohydrates, proteins, and fats.",
+      "The student clearly applies nutritional concepts, such as macronutrient ratios and micronutrient needs, to justify the differences in recommended portions among food groups.",
+      "The student expertly applies nutritional concepts, explaining how varying needs for macronutrients, vitamins, and minerals influence the recommended portions of different food groups, showing an understanding of metabolic processes and health outcomes."
+    ],
+    [
+      "The explanation is unclear and contains significant inaccuracies.",
+      "The explanation is difficult to follow and contains multiple inaccuracies.",
+      "The explanation is somewhat unclear, with some inaccuracies.",
+      "The explanation is clear and accurate, with minor areas for improvement.",
+      "The explanation is very clear, accurate, and well-organized.",
+      "The explanation is exceptionally clear, accurate, well-organized, and demonstrates a deep understanding of the subject matter."
+    ]
+  ]
+}

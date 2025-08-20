@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Equilateral Triangle Construction",
+    "Accuracy of Square Construction Inscribed in a Circle",
+    "Accuracy of Regular Hexagon Construction Inscribed in a Circle",
+    "Clarity and Precision of Construction Marks"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Triangle is not equilateral or is not attempted.",
+      "Triangle is attempted, but sides are visibly unequal and construction marks are missing or incorrect.",
+      "Triangle is approximately equilateral, but noticeable errors in side length or angles are present. Some construction marks are visible.",
+      "Triangle is nearly equilateral with minor inaccuracies. Construction marks are present and mostly correct.",
+      "Triangle is accurately constructed as equilateral with clear and correct construction marks. Minor imperfections may be present.",
+      "Triangle is perfectly constructed as equilateral, demonstrating precise use of compass and straightedge. Construction marks are clear, accurate, and enhance the demonstration."
+    ],
+    [
+      "Square is not inscribed in a circle or is not attempted.",
+      "Square is attempted within a circle, but the corners do not touch the circumference, and construction marks are missing or incorrect.",
+      "Square is approximately inscribed, but corners are noticeably off the circumference, and some construction marks are visible but inaccurate.",
+      "Square is nearly inscribed with minor inaccuracies where corners meet the circumference. Construction marks are present and mostly correct.",
+      "Square is accurately inscribed in a circle with corners closely aligned to the circumference and clear, correct construction marks. Minor imperfections may be present.",
+      "Square is perfectly inscribed in a circle, demonstrating precise construction with corners exactly on the circumference. Construction marks are clear, accurate, and contribute to the demonstration."
+    ],
+    [
+      "Hexagon is not regular, not inscribed, or is not attempted.",
+      "Hexagon is attempted, but sides are unequal, corners do not touch the circumference, and construction marks are missing or incorrect.",
+      "Hexagon is approximately regular and inscribed, but noticeable errors in side length and corner placement. Some construction marks are visible but inaccurate.",
+      "Hexagon is nearly regular and inscribed with minor inaccuracies in side length or corner alignment. Construction marks are present and mostly correct.",
+      "Hexagon is accurately constructed as regular and inscribed in a circle, with sides of equal length and corners closely aligned to the circumference. Clear, correct construction marks are evident, with only minor imperfections possible.",
+      "Hexagon is perfectly constructed as a regular hexagon inscribed in a circle, demonstrating precise construction with corners exactly on the circumference and sides of equal length. Construction marks are clear, accurate, and enhance the demonstration."
+    ],
+    [
+      "No construction marks are present, or marks are random and unrelated to the geometric constructions.",
+      "Construction marks are minimal, difficult to interpret, or do not accurately reflect the construction process.",
+      "Construction marks are visible but may be incomplete or somewhat unclear. Some steps of the construction process are evident.",
+      "Construction marks are generally clear and accurate, showing most steps of the construction process.",
+      "Construction marks are clear, accurate, and enhance the understanding of the construction process. All essential steps are evident.",
+      "Construction marks are exceptionally clear, precise, and thoughtfully presented, demonstrating a deep understanding of geometric construction principles. The marks not only show each step but also highlight key geometric relationships."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Active participation in school-led drug-free initiatives and campaigns.",
+    "Engagement in community-based initiatives promoting a drug-free lifestyle.",
+    "Demonstrates understanding and promotion of the benefits of a drug-free lifestyle."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not participate in any school-led drug-free activities or campaigns.",
+      "The student shows minimal participation in school-led drug-free activities or campaigns.",
+      "The student participates in at least one school-led drug-free activity, but involvement is limited.",
+      "The student actively participates in multiple school-led drug-free activities and shows good involvement.",
+      "The student takes a leadership role in at least one school-led drug-free activity and shows strong involvement.",
+      "The student consistently takes a leadership role in multiple school-led drug-free activities and serves as a role model for peers."
+    ],
+    [
+      "The student is not involved in any community-based drug-free initiatives.",
+      "The student shows minimal awareness or involvement in community-based drug-free initiatives.",
+      "The student participates in at least one community-based drug-free activity, but involvement is limited.",
+      "The student actively participates in multiple community-based drug-free activities and shows good involvement.",
+      "The student takes a leadership role in at least one community-based drug-free activity and shows strong involvement.",
+      "The student consistently takes a leadership role in multiple community-based drug-free activities and serves as a role model for the community."
+    ],
+    [
+      "The student is unable to articulate the benefits of a drug-free lifestyle.",
+      "The student demonstrates a limited understanding of the benefits of a drug-free lifestyle.",
+      "The student can identify a few benefits of a drug-free lifestyle but struggles to elaborate.",
+      "The student can clearly articulate several benefits of a drug-free lifestyle and promote them to peers.",
+      "The student actively promotes the benefits of a drug-free lifestyle to peers and community members, providing examples and evidence.",
+      "The student consistently advocates for the benefits of a drug-free lifestyle, influencing peers and community members with compelling arguments and evidence-based information."
+    ]
+  ]
+}

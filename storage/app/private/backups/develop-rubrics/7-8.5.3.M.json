@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and describing healthy expressions of caring, friendship, affection, and love.",
+    "Application of healthy expressions in different scenarios.",
+    "Distinguishing between healthy and unhealthy expressions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of healthy expressions of caring, friendship, affection, and love.",
+      "The student demonstrates a minimal understanding of healthy expressions, with significant misconceptions or omissions.",
+      "The student demonstrates a basic understanding of healthy expressions, but the description lacks depth and detail.",
+      "The student adequately describes healthy expressions, providing some relevant examples and showing a moderate level of understanding.",
+      "The student clearly and accurately describes healthy expressions, providing detailed examples and demonstrating a strong understanding of the concepts.",
+      "The student comprehensively and insightfully describes healthy expressions, providing nuanced examples and demonstrating a sophisticated understanding of the concepts. Student goes beyond the material."
+    ],
+    [
+      "The student cannot apply healthy expressions to any scenario.",
+      "The student struggles to apply healthy expressions to scenarios, with responses being inappropriate or harmful.",
+      "The student can apply healthy expressions to simple scenarios, but struggles with more complex or nuanced situations.",
+      "The student generally applies healthy expressions appropriately to various scenarios, demonstrating some understanding of context.",
+      "The student consistently applies healthy expressions appropriately to a wide range of scenarios, demonstrating a strong understanding of context and potential consequences.",
+      "The student expertly applies healthy expressions to diverse and challenging scenarios, demonstrating a deep understanding of context, potential consequences, and ethical considerations. Student can analyze and improve other people's scenarios."
+    ],
+    [
+      "The student cannot distinguish between healthy and unhealthy expressions.",
+      "The student shows little ability to differentiate between healthy and unhealthy expressions, often confusing the two.",
+      "The student can identify some differences between healthy and unhealthy expressions, but struggles with subtle distinctions.",
+      "The student can generally distinguish between healthy and unhealthy expressions, providing some relevant examples of each.",
+      "The student clearly and accurately distinguishes between healthy and unhealthy expressions, providing detailed examples and explaining the potential consequences of each.",
+      "The student insightfully distinguishes between healthy and unhealthy expressions, providing nuanced examples and demonstrating a sophisticated understanding of the underlying dynamics and potential long-term effects. Student can provide steps to transition from unhealthy expressions to healthy ones."
+    ]
+  ]
+}

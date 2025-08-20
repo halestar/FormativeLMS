@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Integration of Information from Multiple Sources",
+    "Evaluation of Credibility and Accuracy",
+    "Use of Diverse Media and Formats"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to integrate information from multiple sources.",
+      "The student attempts to integrate information but struggles to connect ideas or sources effectively. Understanding of sources is superficial.",
+      "The student integrates information from multiple sources with some coherence, but connections may be unclear or lack depth. Accuracy and credibility of sources are not thoroughly evaluated.",
+      "The student effectively integrates information from multiple sources, demonstrating a clear understanding of the material. Evaluation of source credibility and accuracy is present but may lack detail.",
+      "The student skillfully integrates information from a variety of sources, making insightful connections and drawing well-supported conclusions. Source credibility and accuracy are evaluated with thoughtful consideration.",
+      "The student masterfully integrates information from diverse sources, synthesizing complex ideas and providing profound insights. Source credibility and accuracy are rigorously evaluated, demonstrating a sophisticated understanding of research and analysis."
+    ],
+    [
+      "The student does not evaluate the credibility or accuracy of any sources.",
+      "The student makes a minimal attempt to evaluate source credibility or accuracy, but demonstrates little understanding of relevant criteria.",
+      "The student identifies some aspects of source credibility and accuracy but the evaluation is superficial or incomplete.",
+      "The student evaluates the credibility and accuracy of sources using appropriate criteria, but the analysis may lack depth or consistency.",
+      "The student thoroughly evaluates the credibility and accuracy of sources, providing well-reasoned justifications for their assessments.",
+      "The student critically evaluates the credibility and accuracy of sources, demonstrating a nuanced understanding of bias, perspective, and reliability. Evaluation shows sophisticated reasoning."
+    ],
+    [
+      "The student does not use or reference diverse media or formats.",
+      "The student attempts to use diverse media or formats but struggles to incorporate them effectively. The choice of media may be irrelevant or poorly integrated.",
+      "The student incorporates some diverse media or formats, but the connection to the main points is weak or unclear.",
+      "The student effectively incorporates diverse media and formats to support their ideas, demonstrating a clear understanding of their relevance.",
+      "The student skillfully incorporates diverse media and formats, enhancing the clarity and impact of their communication.",
+      "The student masterfully integrates diverse media and formats, creating a compelling and insightful presentation that demonstrates a deep understanding of multimodal communication."
+    ]
+  ]
+}

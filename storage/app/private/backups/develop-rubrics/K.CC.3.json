@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy in Writing Numbers (0-20)",
+    "Representation of Objects with Numerals (0-20)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to write any numbers from 0 to 20.",
+      "Student can write only a few numbers (1-5) from 0 to 20 with frequent errors.",
+      "Student can write some numbers (6-10) from 0 to 20, but makes several errors.",
+      "Student can write most numbers (11-15) from 0 to 20 with occasional errors.",
+      "Student can accurately write almost all numbers (16-20) from 0 to 20 with very few errors.",
+      "Student can accurately and consistently write all numbers from 0 to 20 with no errors."
+    ],
+    [
+      "Student cannot represent any number of objects with a written numeral.",
+      "Student can represent a small quantity of objects (1-5) with a written numeral but struggles with accuracy.",
+      "Student can represent a quantity of objects (6-10) with a written numeral, but makes several mistakes.",
+      "Student can represent most quantities of objects (11-15) with a written numeral with occasional errors.",
+      "Student can accurately represent almost all quantities of objects (16-20) with a written numeral and makes very few errors.",
+      "Student can accurately and consistently represent any quantity of objects (0-20) with the correct written numeral and demonstrates understanding of '0' as representing no objects."
+    ]
+  ]
+}

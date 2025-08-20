@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Law of Sines",
+    "Understanding of the Law of Cosines",
+    "Application to Triangles",
+    "Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Law of Sines.",
+      "Student shows minimal understanding of the Law of Sines; struggles to apply it even in simple cases.",
+      "Student demonstrates a basic understanding of the Law of Sines but makes frequent errors in application.",
+      "Student can correctly apply the Law of Sines in straightforward problems but struggles with more complex scenarios.",
+      "Student demonstrates a strong understanding of the Law of Sines and can apply it accurately in most situations.",
+      "Student demonstrates a comprehensive understanding of the Law of Sines, applying it accurately and efficiently in complex and novel problems."
+    ],
+    [
+      "Student demonstrates no understanding of the Law of Cosines.",
+      "Student shows minimal understanding of the Law of Cosines; struggles to apply it even in simple cases.",
+      "Student demonstrates a basic understanding of the Law of Cosines but makes frequent errors in application.",
+      "Student can correctly apply the Law of Cosines in straightforward problems but struggles with more complex scenarios.",
+      "Student demonstrates a strong understanding of the Law of Cosines and can apply it accurately in most situations.",
+      "Student demonstrates a comprehensive understanding of the Law of Cosines, applying it accurately and efficiently in complex and novel problems."
+    ],
+    [
+      "Student is unable to apply either Law to find unknown measurements in any triangle.",
+      "Student struggles to identify when to use each Law and makes significant errors in application.",
+      "Student can apply the Laws in right triangles but not in non-right triangles, or vice versa.",
+      "Student can apply the Laws to find unknown measurements in most triangles but struggles with complex or multi-step problems.",
+      "Student accurately applies the Laws to find unknown measurements in both right and non-right triangles.",
+      "Student can expertly apply the Laws in a variety of contexts and can explain when and why each Law is most appropriate to use."
+    ],
+    [
+      "Student cannot solve any problems using Law of Sines or Law of Cosines.",
+      "Student attempts problems but makes significant errors in setting up equations or applying the Laws.",
+      "Student solves simple problems with guidance but struggles with independent problem-solving.",
+      "Student solves most problems correctly with minor errors.",
+      "Student consistently solves problems correctly and efficiently.",
+      "Student demonstrates exceptional problem-solving skills, including identifying the most efficient method for solving each problem."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Sequences as Functions",
+    "Application of Function Notation to Sequences",
+    "Recognition of Recursive Definitions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding that sequences can be represented as functions.",
+      "Student shows minimal understanding, with significant misconceptions about the relationship between sequences and functions.",
+      "Student recognizes that sequences involve ordered lists but struggles to connect them to function notation or domain\/range concepts.",
+      "Student understands that sequences can be functions but needs prompting to identify the domain as a subset of integers.",
+      "Student clearly articulates that sequences are functions with a domain that is a subset of integers and can provide simple examples.",
+      "Student comprehensively explains sequences as functions, accurately identifying the domain as a subset of integers, and provides sophisticated examples, including those defined recursively."
+    ],
+    [
+      "Student is unable to apply function notation to represent a sequence.",
+      "Student attempts to use function notation but does so incorrectly or with confusion.",
+      "Student can write basic terms of a sequence using function notation with significant errors.",
+      "Student uses function notation to represent sequences but makes occasional errors in notation or calculation.",
+      "Student accurately uses function notation to represent terms in a sequence and can evaluate simple sequences.",
+      "Student flawlessly applies function notation to represent and evaluate sequences, including those defined recursively, demonstrating a deep understanding of the notation."
+    ],
+    [
+      "Student does not recognize or understand recursive definitions of sequences.",
+      "Student shows minimal awareness of recursive definitions, unable to interpret or apply them.",
+      "Student recognizes that some sequences are defined by previous terms but struggles to apply the recursive definition.",
+      "Student can apply a recursive definition to find subsequent terms but may struggle with more complex examples or identifying the initial conditions.",
+      "Student accurately applies recursive definitions to determine terms in a sequence and can explain the role of initial conditions.",
+      "Student masterfully applies and interprets recursive definitions, including complex cases, and clearly explains the role and importance of initial conditions in defining the sequence."
+    ]
+  ]
+}

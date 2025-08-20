@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Data Collection and Representation",
+    "Explanation of Air Mass Interactions and Weather Changes",
+    "Use of Evidence and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No data collected or data is irrelevant and inaccurately represents weather conditions. No attempt to organize or represent data.",
+      "Minimal data collected, with significant inaccuracies. Representation of data is unclear or incomplete.",
+      "Some relevant data collected, but with noticeable gaps or inaccuracies. Data representation is basic and partially conveys information.",
+      "Adequate data collected to show motions and interactions of air masses and their impact on weather, with minor inaccuracies. Data is represented clearly.",
+      "Sufficient and accurate data collected, demonstrating a good understanding of air masses and weather conditions. Data representation is effective and informative.",
+      "Comprehensive, accurate, and meticulously collected data that offers deep insight on air masses, their interactions, and their effects on weather. Data is presented in a highly effective and insightful manner."
+    ],
+    [
+      "No explanation provided or explanation is completely incorrect regarding the relationship between air masses and weather.",
+      "Explanation is attempted but shows little understanding of how air masses influence weather conditions. Key concepts are missing or misunderstood.",
+      "Explanation identifies air masses, but struggles to connect their interactions to specific weather changes. Explanation is superficial.",
+      "Explanation describes how air mass movement and interactions can lead to changes in temperature, pressure, humidity, precipitation and wind but lacks depth.",
+      "Explanation clearly articulates how air mass interactions influence changes in multiple weather conditions. Demonstrates understanding of probabilistic ranges in weather prediction.",
+      "Explanation provides a comprehensive and nuanced understanding of air mass dynamics and their profound impact on weather, including insightful discussion of probabilistic forecasting, and clear discussion of cause and effect."
+    ],
+    [
+      "No evidence presented or reasoning is absent.",
+      "Little to no relevant evidence is presented. Reasoning is weak or flawed.",
+      "Some evidence presented, but connection to claims is not clear or fully supported. Reasoning is basic.",
+      "Adequate evidence is presented to support claims about weather changes. Reasoning connects evidence to conclusions effectively.",
+      "Strong evidence is strategically used to support claims about air mass interactions and weather changes. Reasoning is logical and clear.",
+      "Compelling evidence is skillfully used to construct persuasive arguments about the complex relationships between air masses and weather patterns. Reasoning is sophisticated and insightful."
+    ]
+  ]
+}

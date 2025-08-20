@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Ability to write routinely for extended time frames (research, reflection, and revision)",
+    "Ability to write routinely for shorter time frames (single sitting or a day or two)",
+    "Ability to adapt writing for a range of discipline-specific tasks",
+    "Ability to tailor writing for different purposes",
+    "Ability to tailor writing for different audiences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any ability to write routinely for extended time frames.",
+      "Student attempts to write for extended time frames, but struggles with research, reflection, or revision.",
+      "Student writes for extended time frames, demonstrating basic research, reflection, and revision skills.",
+      "Student writes routinely for extended time frames, showing adequate research, reflection, and revision skills.",
+      "Student writes routinely for extended time frames, demonstrating strong research, reflection, and revision skills.",
+      "Student writes routinely for extended time frames, demonstrating exceptional research, reflection, and revision skills, consistently producing high-quality work."
+    ],
+    [
+      "Student does not demonstrate any ability to write routinely for shorter time frames.",
+      "Student attempts to write for shorter time frames, but struggles to produce coherent or complete work.",
+      "Student writes for shorter time frames, demonstrating basic coherence and completeness.",
+      "Student writes routinely for shorter time frames, showing adequate coherence, focus and completeness.",
+      "Student writes routinely for shorter time frames, demonstrating strong coherence, focus and completeness.",
+      "Student writes routinely for shorter time frames, demonstrating exceptional coherence, focus and completeness, consistently producing high-quality work."
+    ],
+    [
+      "Student does not demonstrate any ability to adapt writing for different discipline-specific tasks.",
+      "Student struggles to adapt writing for different discipline-specific tasks.",
+      "Student attempts to adapt writing for different discipline-specific tasks, demonstrating limited success.",
+      "Student adapts writing for a range of discipline-specific tasks adequately.",
+      "Student adapts writing effectively for a range of discipline-specific tasks.",
+      "Student adapts writing expertly for a range of discipline-specific tasks, demonstrating a nuanced understanding of different disciplines."
+    ],
+    [
+      "Student does not demonstrate any ability to tailor writing for different purposes.",
+      "Student struggles to tailor writing for different purposes.",
+      "Student attempts to tailor writing for different purposes, demonstrating limited success.",
+      "Student tailors writing for different purposes adequately.",
+      "Student tailors writing effectively for different purposes.",
+      "Student tailors writing expertly for different purposes, demonstrating a sophisticated understanding of rhetorical strategies."
+    ],
+    [
+      "Student does not demonstrate any ability to tailor writing for different audiences.",
+      "Student struggles to tailor writing for different audiences.",
+      "Student attempts to tailor writing for different audiences, demonstrating limited success.",
+      "Student tailors writing for different audiences adequately.",
+      "Student tailors writing effectively for different audiences.",
+      "Student tailors writing expertly for different audiences, demonstrating a keen awareness of audience expectations and needs."
+    ]
+  ]
+}

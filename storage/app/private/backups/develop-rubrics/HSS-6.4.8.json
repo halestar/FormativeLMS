@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Figures and Their Fields",
+    "Description of Enduring Contributions",
+    "Historical Context and Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any Greek figures or their fields of contribution.",
+      "The student identifies at least one Greek figure, but does not accurately describe their field of contribution.",
+      "The student identifies at least two Greek figures and their respective fields, but with limited detail or accuracy.",
+      "The student identifies at least three Greek figures (e.g., Hypatia, Socrates, Plato) and correctly states their primary fields (e.g., mathematics, philosophy).",
+      "The student accurately identifies several Greek figures and their fields and provides some specific examples of their work or ideas.",
+      "The student comprehensively identifies numerous Greek figures across various disciplines, accurately details their fields, and provides detailed examples illustrating their contributions and lasting impact."
+    ],
+    [
+      "The student fails to describe any enduring contributions made by Greek figures.",
+      "The student attempts to describe a contribution but lacks clarity or accuracy.",
+      "The student describes at least one enduring contribution made by a Greek figure, but the explanation is superficial.",
+      "The student describes multiple enduring contributions made by Greek figures, providing adequate explanations of their significance.",
+      "The student thoroughly describes several enduring contributions, explaining their relevance and providing historical context.",
+      "The student comprehensively describes numerous enduring contributions, analyzing their long-term impact on subsequent societies and fields of study with insightful detail."
+    ],
+    [
+      "The student fails to provide any historical context or significance for the figures or their contributions.",
+      "The student provides minimal historical context with inaccuracies.",
+      "The student provides some historical context for Greek figures but struggles to explain the significance of their contributions.",
+      "The student explains how Greek figures contributions impacted their society.",
+      "The student provides relevant historical context, explaining the significance of Greek figures' contributions within their era and its lasting impact.",
+      "The student thoroughly explains the historical context, the immediate significance within ancient Greece, and the enduring relevance of Greek figures' contributions in shaping subsequent civilizations and intellectual traditions."
+    ]
+  ]
+}

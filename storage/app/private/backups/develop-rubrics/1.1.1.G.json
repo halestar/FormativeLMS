@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of growth stages",
+    "Accuracy of information",
+    "Clarity and organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of growth stages is demonstrated.",
+      "Demonstrates a minimal understanding of growth stages, with significant gaps in knowledge.",
+      "Identifies some growth stages but struggles to explain them fully.",
+      "Adequately describes most growth stages with reasonable clarity.",
+      "Clearly and accurately describes growth stages with supporting details.",
+      "Provides a comprehensive and insightful description of growth stages, demonstrating a deep understanding."
+    ],
+    [
+      "Information provided is largely inaccurate or irrelevant.",
+      "Contains several inaccuracies or misconceptions about growth and maturity.",
+      "Presents mostly accurate information but includes a few minor errors.",
+      "Information is accurate and generally well-explained.",
+      "Information is highly accurate and demonstrates a strong grasp of the concepts.",
+      "Information is impeccably accurate, demonstrating a mastery of the subject matter."
+    ],
+    [
+      "Response is disorganized and difficult to understand.",
+      "Lacks clarity and organization, making it challenging to follow the explanation.",
+      "Some organization is present, but clarity is lacking in certain areas.",
+      "Information is presented in a reasonably clear and organized manner.",
+      "Information is clearly presented and well-organized, making it easy to understand.",
+      "Information is exceptionally clear, logically organized, and highly engaging."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Personal Boundaries",
+    "Application to Privacy",
+    "Application to Safety",
+    "Application to Expressions of Emotions and Opinions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of personal boundaries or their importance.",
+      "Shows minimal understanding of personal boundaries; struggles to define or explain their purpose.",
+      "Identifies personal boundaries but has difficulty explaining their importance for privacy, safety, and emotional expression.",
+      "Explains personal boundaries and their importance for at least one of the following: privacy, safety, or emotional expression.",
+      "Clearly describes personal boundaries and their importance for two of the following: privacy, safety, and emotional expression, with examples.",
+      "Comprehensively explains personal boundaries and their importance for privacy, safety, and emotional expression, providing relevant and insightful examples."
+    ],
+    [
+      "Does not connect personal boundaries to privacy.",
+      "Shows a limited connection between personal boundaries and privacy.",
+      "Identifies that personal boundaries relate to privacy but cannot explain how.",
+      "Explains how setting personal boundaries can help protect privacy in some situations.",
+      "Provides a detailed explanation of how personal boundaries are crucial for maintaining privacy, with specific examples.",
+      "Demonstrates a nuanced understanding of how personal boundaries protect privacy in various contexts, including digital and social interactions, and proposes effective strategies."
+    ],
+    [
+      "Does not connect personal boundaries to safety.",
+      "Shows a limited connection between personal boundaries and safety.",
+      "Identifies that personal boundaries relate to safety but cannot explain how.",
+      "Explains how setting personal boundaries can help ensure personal safety in some situations.",
+      "Provides a detailed explanation of how personal boundaries are crucial for ensuring personal safety, with specific examples.",
+      "Demonstrates a nuanced understanding of how personal boundaries contribute to safety in various situations, including recognizing and avoiding potentially harmful interactions."
+    ],
+    [
+      "Does not connect personal boundaries to expressions of emotions and opinions.",
+      "Shows a limited connection between personal boundaries and expressions of emotions and opinions.",
+      "Identifies that personal boundaries relate to expressions of emotions and opinions but cannot explain how.",
+      "Explains how setting personal boundaries allows for healthy expression of emotions and opinions.",
+      "Provides a detailed explanation of how personal boundaries enable individuals to express their emotions and opinions respectfully and assertively.",
+      "Demonstrates a sophisticated understanding of how personal boundaries facilitate constructive communication and emotional well-being, including strategies for managing conflicts and differing viewpoints."
+    ]
+  ]
+}

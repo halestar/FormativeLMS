@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Stress-Related Situations",
+    "Understanding of Grief and Loss",
+    "Awareness of Unrealistic Body Image Issues",
+    "Recognition of Depression and When to Seek Help"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any stress-related situations or provides inaccurate examples.",
+      "Identifies one stress-related situation with limited accuracy or detail.",
+      "Identifies two stress-related situations with some accuracy but lacks depth in explanation.",
+      "Identifies three stress-related situations with reasonable accuracy and provides basic explanations.",
+      "Identifies four stress-related situations accurately, providing clear explanations and relevant details.",
+      "Identifies multiple stress-related situations comprehensively and accurately, demonstrating a strong understanding of the triggers and contexts."
+    ],
+    [
+      "Demonstrates no understanding of situations where help is needed for grief and loss.",
+      "Shows a minimal understanding of grief and loss, with vague examples.",
+      "Identifies situations related to grief and loss but lacks specific details.",
+      "Describes situations where help is needed for grief and loss with some clarity.",
+      "Clearly describes situations where seeking help for grief and loss is necessary, providing relevant examples.",
+      "Demonstrates a comprehensive understanding of situations involving grief and loss, articulating the importance of seeking support and providing insightful examples."
+    ],
+    [
+      "Shows no awareness of situations related to unrealistic body image issues.",
+      "Displays a limited awareness of unrealistic body image issues.",
+      "Identifies situations related to unrealistic body image but lacks detailed explanations.",
+      "Describes situations where seeking help for unrealistic body image issues is appropriate.",
+      "Clearly describes situations concerning unrealistic body image and explains the need for intervention or support.",
+      "Demonstrates a thorough understanding of situations involving unrealistic body image, discussing potential impacts and the importance of seeking professional help."
+    ],
+    [
+      "Does not recognize situations indicative of depression.",
+      "Shows minimal recognition of depression-related situations.",
+      "Identifies situations related to depression but lacks depth in understanding.",
+      "Describes situations where seeking help for depression is necessary with some clarity.",
+      "Clearly articulates situations that warrant seeking help for depression, providing relevant examples and explanations.",
+      "Demonstrates a comprehensive understanding of depression, thoroughly describing situations that require professional intervention and support, highlighting key symptoms and potential impacts."
+    ]
+  ]
+}

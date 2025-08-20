@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Coherence",
+    "Development of Ideas",
+    "Organization",
+    "Style and Tone"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Writing lacks clarity and coherence; ideas are difficult to follow.",
+      "Writing shows minimal clarity and coherence; ideas are loosely connected.",
+      "Writing demonstrates some clarity and coherence; main ideas are identifiable but connections could be stronger.",
+      "Writing is generally clear and coherent; ideas are logically connected with transitions.",
+      "Writing is clear, coherent, and flows smoothly; ideas are logically sequenced and well-connected.",
+      "Writing is exceptionally clear, coherent, and engaging; ideas are masterfully connected, enhancing the overall impact."
+    ],
+    [
+      "Ideas are undeveloped and lack supporting evidence.",
+      "Ideas are minimally developed with weak or irrelevant support.",
+      "Ideas are somewhat developed with basic supporting evidence.",
+      "Ideas are adequately developed with relevant supporting evidence.",
+      "Ideas are well-developed with strong and specific supporting evidence.",
+      "Ideas are thoroughly and insightfully developed with compelling and nuanced supporting evidence."
+    ],
+    [
+      "Writing lacks organization; ideas are presented randomly.",
+      "Writing shows minimal organization; structure is weak and confusing.",
+      "Writing demonstrates some organization; structure is present but inconsistent.",
+      "Writing is generally well-organized with a clear structure.",
+      "Writing is logically organized with a clear introduction, body, and conclusion.",
+      "Writing is exceptionally well-organized with a compelling structure that enhances the overall effectiveness."
+    ],
+    [
+      "Writing lacks appropriate style and tone for the task, purpose, and audience.",
+      "Writing shows minimal attention to style and tone; language is often inappropriate.",
+      "Writing demonstrates some awareness of style and tone; language is occasionally appropriate.",
+      "Writing generally uses appropriate style and tone for the task, purpose, and audience.",
+      "Writing consistently uses appropriate style and tone to engage the audience.",
+      "Writing masterfully uses style and tone to create a powerful and lasting impression on the audience."
+    ]
+  ]
+}

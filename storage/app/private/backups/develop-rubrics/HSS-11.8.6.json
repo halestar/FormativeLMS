@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Environmental Regions and their Economic Relationships",
+    "Understanding of Environmental Problems: Origins and Prospects",
+    "Clarity and Coherence of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any environmental regions or their relationship to local economies.",
+      "The student identifies one environmental region but struggles to connect it to its local economy.",
+      "The student identifies at least two environmental regions and attempts to describe their relationship to local economies, but with limited accuracy.",
+      "The student identifies several environmental regions and accurately describes their basic relationships to local economies.",
+      "The student comprehensively identifies multiple environmental regions and provides a detailed explanation of their complex relationships to local economies, demonstrating a strong understanding.",
+      "The student expertly identifies and analyzes multiple environmental regions, thoroughly explaining the nuanced relationships to their local economies, including historical context and future projections."
+    ],
+    [
+      "The student does not discuss environmental problems or their origins\/prospects.",
+      "The student mentions environmental problems but does not explain their origins or prospects.",
+      "The student identifies some environmental problems and offers a vague explanation of their origins or prospects.",
+      "The student describes specific environmental problems and explains the origins and potential prospects with reasonable accuracy.",
+      "The student provides a comprehensive analysis of environmental problems, clearly explaining their origins and evaluating potential future prospects with supporting evidence.",
+      "The student offers an insightful and nuanced examination of environmental problems, tracing their complex origins and providing a well-supported, critical evaluation of future prospects, including potential solutions and preventative measures."
+    ],
+    [
+      "The explanation is unclear, disorganized, and difficult to understand.",
+      "The explanation lacks clarity and is somewhat disorganized.",
+      "The explanation is understandable but could benefit from improved clarity and organization.",
+      "The explanation is clear, organized, and easy to follow.",
+      "The explanation is exceptionally clear, well-organized, and presents information in a coherent manner.",
+      "The explanation is masterfully articulated, demonstrating a sophisticated understanding of the subject matter, and is presented with exceptional clarity and coherence."
+    ]
+  ]
+}

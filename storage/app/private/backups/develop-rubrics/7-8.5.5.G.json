@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Good Health Practices",
+    "Explanation of Effects on Lifelong Health",
+    "Explanation of Effects on Future Children's Health",
+    "Connection Between Practices and Long-Term Outcomes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any good health practices.",
+      "The student identifies one good health practice but provides no explanation.",
+      "The student identifies one good health practice and provides a limited explanation.",
+      "The student identifies two to three good health practices and provides a basic explanation for each.",
+      "The student identifies three to four good health practices and provides a clear explanation for each.",
+      "The student identifies multiple good health practices and provides a thorough and insightful explanation for each."
+    ],
+    [
+      "The student does not explain how adolescent health practices affect lifelong health.",
+      "The student attempts to explain the effects but demonstrates a lack of understanding.",
+      "The student provides a vague or superficial explanation of the effects on lifelong health.",
+      "The student explains some effects of adolescent health practices on lifelong health with limited detail.",
+      "The student clearly explains how various adolescent health practices affect lifelong health.",
+      "The student comprehensively explains how adolescent health practices affect lifelong health, including specific examples and potential long-term consequences."
+    ],
+    [
+      "The student does not explain how adolescent health practices affect the health of future children.",
+      "The student attempts to explain the effects but demonstrates a lack of understanding.",
+      "The student provides a vague or superficial explanation of the effects on future children's health.",
+      "The student explains some effects of adolescent health practices on the health of future children with limited detail.",
+      "The student clearly explains how various adolescent health practices affect the health of future children.",
+      "The student comprehensively explains how adolescent health practices affect the health of future children, including genetic and environmental factors."
+    ],
+    [
+      "The student fails to connect adolescent health practices with any long-term health outcomes.",
+      "The student makes a weak connection between a health practice and a long-term outcome.",
+      "The student connects a few health practices with potential long-term outcomes, but lacks detail.",
+      "The student adequately connects several health practices with potential long-term outcomes, providing some details.",
+      "The student thoroughly connects various health practices with specific long-term outcomes, offering clear explanations.",
+      "The student insightfully connects a wide range of health practices with detailed explanations of their impact on long-term health outcomes for both the individual and future generations."
+    ]
+  ]
+}

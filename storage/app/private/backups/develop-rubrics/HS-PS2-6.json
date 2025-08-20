@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Accuracy of Scientific Information",
+    "Connection of Molecular Structure to Material Function",
+    "Use of Evidence and Examples",
+    "Organization and Clarity of Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student's communication lacks clarity and contains significant inaccuracies regarding the molecular-level structure and its relation to material function.",
+      "The student's communication is somewhat unclear and contains some inaccuracies regarding the molecular-level structure and its relation to material function.",
+      "The student communicates information about molecular-level structure and material function with reasonable clarity, but some minor inaccuracies are present.",
+      "The student clearly communicates scientific information about molecular-level structure and its importance to material function, with only minor omissions or errors.",
+      "The student communicates accurate and clear scientific information about molecular-level structure, its importance to material function, and attractive\/repulsive forces with only very minor omissions.",
+      "The student expertly communicates accurate, clear, and comprehensive scientific information about molecular-level structure, its importance to material function, and attractive\/repulsive forces, demonstrating a deep understanding."
+    ],
+    [
+      "The student fails to connect molecular-level structure to the functioning of designed materials.",
+      "The student makes a weak or unclear connection between molecular-level structure and the functioning of designed materials.",
+      "The student makes a reasonable connection between molecular-level structure and the functioning of designed materials, but lacks detail.",
+      "The student clearly connects molecular-level structure to the functioning of designed materials, providing relevant details and examples.",
+      "The student strongly connects molecular-level structure to the functioning of designed materials, providing detailed explanations and relevant examples.",
+      "The student expertly connects molecular-level structure to the functioning of designed materials, providing insightful explanations, diverse examples, and demonstrating a sophisticated understanding."
+    ],
+    [
+      "The student provides no evidence or examples to support their communication.",
+      "The student provides limited or irrelevant evidence\/examples.",
+      "The student provides some evidence\/examples, but they are not always clearly connected or explained.",
+      "The student provides relevant evidence and examples to support their claims, with clear explanations.",
+      "The student provides strong and varied evidence\/examples to support their claims, with thorough explanations.",
+      "The student provides compelling and insightful evidence\/examples to support their claims, demonstrating a mastery of the subject matter."
+    ],
+    [
+      "The communication is disorganized and difficult to understand.",
+      "The communication lacks clear organization and is somewhat difficult to follow.",
+      "The communication is reasonably organized, but some improvements in clarity are needed.",
+      "The communication is well-organized and easy to understand, with a logical flow of information.",
+      "The communication is exceptionally well-organized, clear, and concise, enhancing the overall understanding.",
+      "The communication is masterfully organized, engaging, and exceptionally clear, demonstrating superior communication skills."
+    ]
+  ]
+}

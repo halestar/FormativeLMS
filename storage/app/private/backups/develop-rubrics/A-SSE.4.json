@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Geometric Series",
+    "Derivation of the Formula",
+    "Application of the Formula",
+    "Problem-Solving Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of geometric series or its components.",
+      "Student can identify a geometric series but struggles to define its components (first term, common ratio, number of terms).",
+      "Student can identify a geometric series and define its components but struggles to apply the concepts.",
+      "Student demonstrates a basic understanding of geometric series and can identify its components and apply the concepts in simple scenarios.",
+      "Student demonstrates a strong understanding of geometric series, identifies its components, applies the concepts, and can solve problems in most scenarios.",
+      "Student demonstrates a comprehensive understanding of geometric series, identifies its components, applies the concepts, and can solve complex problems and explain the underlying principles."
+    ],
+    [
+      "Student is unable to attempt the derivation of the formula for the sum of a finite geometric series.",
+      "Student attempts to derive the formula but makes significant errors in the algebraic manipulation.",
+      "Student can partially derive the formula but struggles with key steps or makes some algebraic errors.",
+      "Student can derive the formula for the sum of a finite geometric series with minor errors or omissions.",
+      "Student can accurately derive the formula for the sum of a finite geometric series and explain the steps involved.",
+      "Student can fluently derive the formula for the sum of a finite geometric series, explain the steps, and justify the logic behind the derivation."
+    ],
+    [
+      "Student cannot apply the formula to solve problems related to geometric series.",
+      "Student attempts to apply the formula but makes significant errors in substitution or calculation.",
+      "Student can partially apply the formula but struggles with complex problems or makes some calculation errors.",
+      "Student can apply the formula to solve simple problems related to geometric series with minor errors.",
+      "Student can accurately apply the formula to solve a variety of problems related to geometric series, including those involving mortgage payments.",
+      "Student can accurately apply the formula to solve complex and novel problems related to geometric series, including real-world applications like mortgage payments, and can explain the implications of the results."
+    ],
+    [
+      "Student is unable to approach or solve problems related to geometric series.",
+      "Student attempts to solve problems but demonstrates a lack of understanding of the problem-solving process.",
+      "Student can partially solve problems but struggles with identifying relevant information or choosing the correct strategy.",
+      "Student can solve problems related to geometric series with guidance and demonstrates a basic understanding of the problem-solving process.",
+      "Student can independently solve problems related to geometric series and demonstrates a strong understanding of the problem-solving process.",
+      "Student can independently solve complex problems related to geometric series, demonstrates a deep understanding of the problem-solving process, and can justify their solutions effectively."
+    ]
+  ]
+}

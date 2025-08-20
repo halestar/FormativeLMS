@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation",
+    "Explanation of Wave Interactions",
+    "Application to Real-World Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate and does not represent wave behavior (reflection, absorption, transmission).",
+      "The model attempts to represent wave behavior but contains significant inaccuracies or omissions. Key components are missing or misrepresented.",
+      "The model represents wave behavior with some inaccuracies or omissions. Some key components may be unclear or missing.",
+      "The model generally accurately represents wave behavior, including reflection, absorption, and transmission, but may have minor inaccuracies or lack detail.",
+      "The model accurately represents wave behavior, including reflection, absorption, and transmission, with a good level of detail and clarity.",
+      "The model is exceptionally accurate and detailed in representing wave behavior. It clearly illustrates reflection, absorption, and transmission through various materials, demonstrating a deep understanding of the concepts."
+    ],
+    [
+      "The explanation of how waves interact with materials is missing or completely incorrect.",
+      "The explanation attempts to describe wave interactions but contains significant errors or lacks clarity. Key concepts are misunderstood.",
+      "The explanation describes wave interactions with some inaccuracies or omissions. Some concepts may be unclear or vaguely explained.",
+      "The explanation generally accurately describes how waves interact with materials, including reflection, absorption, and transmission, but may lack detail or clarity in certain areas.",
+      "The explanation accurately describes how waves interact with materials, including reflection, absorption, and transmission, with a good level of detail and clarity.",
+      "The explanation is exceptionally clear, detailed, and accurate in describing how waves interact with materials. It demonstrates a deep understanding of reflection, absorption, and transmission, providing insightful explanations of the underlying principles."
+    ],
+    [
+      "No real-world applications are provided, or the examples given are irrelevant or incorrect.",
+      "Attempts to provide real-world examples are made, but they are vague, unclear, or not directly related to wave behavior.",
+      "Real-world examples are provided, but the connection to wave behavior is weak or not fully explained.",
+      "Relevant real-world examples are provided to illustrate wave behavior, but the explanation of their connection is somewhat superficial.",
+      "Relevant real-world examples are provided to illustrate wave behavior, and their connection is clearly explained with sufficient detail.",
+      "Excellent and insightful real-world examples are provided to illustrate wave behavior. The connection between the examples and the concepts of reflection, absorption, and transmission is thoroughly and clearly explained, demonstrating a comprehensive understanding of the topic."
+    ]
+  ]
+}

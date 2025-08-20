@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Weather Observations",
+    "Identification of Weather Patterns",
+    "Use of Data to Support Conclusions",
+    "Communication of Findings"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to record weather observations or observations are completely inaccurate.",
+      "Weather observations are attempted but contain significant inaccuracies.",
+      "Weather observations are mostly accurate with some minor errors or omissions.",
+      "Weather observations are accurate and include basic elements like temperature, precipitation, and sky conditions.",
+      "Weather observations are detailed and accurate, including elements like temperature, precipitation type, wind speed\/direction, and cloud cover.",
+      "Weather observations are comprehensive, precise, and consistently accurate, demonstrating a thorough understanding of weather elements and their measurement."
+    ],
+    [
+      "No attempt to identify weather patterns or patterns are not related to the observations.",
+      "An attempt is made to identify weather patterns, but the reasoning is unclear or flawed.",
+      "Identifies simple weather patterns (e.g., it's usually warmer in the afternoon) but lacks detailed explanation.",
+      "Identifies multiple weather patterns and provides reasonable explanations based on observed data.",
+      "Identifies complex weather patterns and explains them using observed data and basic scientific principles.",
+      "Identifies intricate weather patterns, explains them with scientific rigor, and connects them to broader climate concepts."
+    ],
+    [
+      "No data is presented or used to support conclusions about weather patterns.",
+      "Data is presented, but it is not clearly linked to the conclusions about weather patterns.",
+      "Uses some data to support conclusions, but the connection is weak or incomplete.",
+      "Uses relevant data to support conclusions about weather patterns, demonstrating a clear connection.",
+      "Effectively uses a variety of data to strongly support conclusions about weather patterns, including quantitative and qualitative observations.",
+      "Masterfully uses a comprehensive set of data to rigorously support conclusions about complex weather patterns, demonstrating a deep understanding of data analysis."
+    ],
+    [
+      "Findings are not communicated clearly or are incomprehensible.",
+      "Communication of findings is difficult to understand and lacks organization.",
+      "Findings are communicated adequately, but there is room for improvement in clarity and organization.",
+      "Findings are communicated clearly and are logically organized, making it easy to follow the reasoning.",
+      "Findings are communicated in a compelling and well-organized manner, using appropriate vocabulary and visual aids.",
+      "Findings are communicated with exceptional clarity, precision, and sophistication, demonstrating mastery of scientific communication principles."
+    ]
+  ]
+}

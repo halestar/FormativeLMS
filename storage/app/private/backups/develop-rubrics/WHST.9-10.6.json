@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Effective Use of Technology Tools",
+    "Linking to Other Information",
+    "Dynamic Display of Information",
+    "Production and Publishing Quality"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not use technology to produce or publish writing.",
+      "The student attempts to use technology, but struggles significantly with basic functions. The final product shows little evidence of technological enhancement.",
+      "The student uses basic technology tools (e.g., word processor) with some proficiency, but does not explore advanced features or integrate other online resources effectively.",
+      "The student demonstrates competent use of technology to produce and publish writing. There is some integration of links or dynamic displays, but it may not always enhance the content.",
+      "The student skillfully uses a variety of technology tools to produce, publish, and enhance their writing. Links and dynamic displays are thoughtfully integrated to support the content.",
+      "The student expertly leverages technology to create a highly engaging and interactive writing product. Sophisticated use of links, dynamic displays, and multimedia elements significantly enhances the reader's experience and understanding."
+    ],
+    [
+      "No attempt is made to link to other information.",
+      "The student attempts to include links, but they are either broken, irrelevant, or poorly integrated.",
+      "The student includes a few links to external sources, but they are not always relevant or effectively integrated into the text.",
+      "The student integrates relevant links to external sources that provide additional information or context for the reader.",
+      "The student strategically incorporates a variety of relevant and credible links to enrich the content and provide a deeper understanding of the topic.",
+      "The student masterfully weaves a network of diverse and authoritative links that transform the writing into a dynamic and comprehensive resource for the reader."
+    ],
+    [
+      "The writing product is static and does not include any dynamic elements.",
+      "The student attempts to include dynamic elements, but they are poorly implemented or detract from the overall quality of the writing.",
+      "The student includes some dynamic elements (e.g., images, charts), but they are not effectively used to display information or enhance the reader's experience.",
+      "The student uses dynamic elements to present information in a clear and engaging manner.",
+      "The student skillfully incorporates interactive elements, such as charts, graphs, or timelines, to dynamically display information and enhance reader engagement.",
+      "The student creates a highly interactive and visually appealing writing product with seamless integration of multimedia elements that dynamically display information and create an immersive learning experience."
+    ],
+    [
+      "The writing product is incomplete, poorly formatted, and difficult to access.",
+      "The writing product is difficult to read and follow due to errors in formatting, layout, and organization.",
+      "The writing product meets basic formatting requirements, but lacks visual appeal and may contain minor errors.",
+      "The writing product is well-formatted, easy to read, and free of major errors. It is effectively published and accessible to the intended audience.",
+      "The writing product is professionally presented, visually appealing, and error-free. It is effectively published and promoted to maximize its reach and impact.",
+      "The writing product is a model of excellence in terms of production quality, design, and accessibility. It is strategically published and disseminated to achieve maximum impact and engagement."
+    ]
+  ]
+}

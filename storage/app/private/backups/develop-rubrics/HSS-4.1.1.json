@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in identifying latitude and longitude coordinates",
+    "Ability to use coordinates to determine absolute locations",
+    "Understanding of the coordinate grid system",
+    "Application of knowledge to locations in California and on Earth"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to identify or incorrectly identifies latitude and longitude coordinates.",
+      "Struggles to identify latitude and longitude coordinates, significant errors present.",
+      "Identifies latitude or longitude coordinates with frequent errors or confusion.",
+      "Identifies both latitude and longitude coordinates with minor errors or inconsistencies.",
+      "Accurately identifies latitude and longitude coordinates in most instances.",
+      "Consistently and accurately identifies latitude and longitude coordinates."
+    ],
+    [
+      "Unable to use coordinates to determine absolute locations.",
+      "Attempts to use coordinates, but struggles to find absolute locations, with significant errors.",
+      "Uses coordinates with frequent errors or confusion to find absolute locations.",
+      "Uses coordinates with minor errors or inconsistencies to find absolute locations.",
+      "Uses coordinates accurately in most instances to determine absolute locations.",
+      "Consistently and accurately uses coordinates to determine absolute locations."
+    ],
+    [
+      "Demonstrates no understanding of the coordinate grid system.",
+      "Demonstrates a minimal understanding of the coordinate grid system, with little practical application.",
+      "Demonstrates some understanding of the coordinate grid system, but struggles to apply it.",
+      "Demonstrates a general understanding of the coordinate grid system, with some ability to apply it.",
+      "Demonstrates a strong understanding of the coordinate grid system and its practical applications.",
+      "Demonstrates a comprehensive understanding of the coordinate grid system, including its intricacies and practical applications."
+    ],
+    [
+      "Unable to apply knowledge of coordinates to locations in California and on Earth.",
+      "Attempts to apply knowledge, but struggles to locate places in California and on Earth.",
+      "Applies knowledge with frequent errors or confusion to locations in California and on Earth.",
+      "Applies knowledge with minor errors or inconsistencies to locations in California and on Earth.",
+      "Applies knowledge accurately in most instances to locate places in California and on Earth.",
+      "Consistently and accurately applies knowledge to locate places in California and on Earth."
+    ]
+  ]
+}

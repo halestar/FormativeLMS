@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Momentum Conservation",
+    "Application of Mathematical Representations",
+    "System Boundary Definition"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of momentum conservation is demonstrated.",
+      "Demonstrates minimal understanding of momentum conservation; struggles to define momentum or identify relevant variables.",
+      "Demonstrates basic understanding of momentum conservation but has difficulty applying it in problem-solving scenarios.",
+      "Demonstrates a good understanding of momentum conservation and can apply it in simple problem-solving scenarios.",
+      "Demonstrates a strong understanding of momentum conservation and can apply it in complex problem-solving scenarios with minimal errors.",
+      "Demonstrates a comprehensive understanding of momentum conservation, applies it flawlessly in complex scenarios, and can explain the underlying principles effectively."
+    ],
+    [
+      "Unable to use mathematical representations to describe or explain momentum conservation.",
+      "Struggles to use mathematical representations; incorrectly sets up equations or uses incorrect units.",
+      "Uses mathematical representations with some errors; struggles to correctly apply formulas or solve for unknowns.",
+      "Adequately uses mathematical representations to support claims about momentum conservation, with only minor errors.",
+      "Effectively uses mathematical representations to support claims, solves problems accurately, and uses correct units.",
+      "Masterfully uses mathematical representations to precisely and accurately support claims, solve complex problems, and consistently uses correct units while providing clear explanations of the math involved."
+    ],
+    [
+      "Does not define the system or its boundaries.",
+      "Attempts to define the system but provides an incomplete or inaccurate definition.",
+      "Defines the system and its boundaries but struggles to explain their relevance to momentum conservation.",
+      "Clearly defines the system and its boundaries and explains their relevance to momentum conservation.",
+      "Clearly and accurately defines the system, its boundaries, and initial conditions, explaining their importance in analyzing momentum conservation.",
+      "Demonstrates a sophisticated understanding of system boundaries, defines them rigorously, and explains their implications for momentum conservation in various scenarios."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of the Health Issue or Problem",
+    "Application of Decision-Making Process Steps",
+    "Consideration of Potential Consequences",
+    "Selection of a Health-Enhancing Decision"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The health issue or problem is not identified or is completely unclear.",
+      "The health issue or problem is vaguely identified, but lacks clarity and detail.",
+      "The health issue or problem is generally identified, but could benefit from more specific details.",
+      "The health issue or problem is clearly identified with sufficient details.",
+      "The health issue or problem is clearly and thoroughly identified with specific and relevant details.",
+      "The health issue or problem is expertly identified with comprehensive details, demonstrating a deep understanding of the issue."
+    ],
+    [
+      "No steps of a decision-making process are evident.",
+      "One or two steps of a decision-making process are vaguely mentioned or attempted.",
+      "Some steps of a decision-making process are present, but are not clearly applied or logically sequenced.",
+      "Most steps of a decision-making process are applied in a generally logical sequence.",
+      "All key steps of a decision-making process are clearly applied in a logical and effective sequence.",
+      "All steps of a decision-making process are expertly applied in a highly logical, effective, and insightful manner, demonstrating mastery of the process."
+    ],
+    [
+      "Potential consequences of decisions are not considered.",
+      "One or two potential consequences are vaguely mentioned.",
+      "Some potential consequences are considered, but the analysis is superficial.",
+      "Potential consequences are considered with some analysis of their impact.",
+      "Potential consequences are thoroughly considered with a clear and insightful analysis of their impact.",
+      "Potential consequences are expertly considered with a comprehensive, insightful, and nuanced analysis of their short-term and long-term impact."
+    ],
+    [
+      "The decision is not health-enhancing or is completely unclear.",
+      "The decision has minimal connection to enhancing health.",
+      "The decision has some potential to enhance health, but the rationale is weak.",
+      "The decision is generally health-enhancing, and the rationale is sound.",
+      "The decision is clearly health-enhancing, and the rationale is strong and well-supported.",
+      "The decision is an optimal choice for enhancing health, and the rationale is exceptionally strong, insightful, and thoroughly supported."
+    ]
+  ]
+}

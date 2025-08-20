@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in solving word problems",
+    "Representation of the problem",
+    "Use of symbol for the unknown number"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to solve the problem or uses a completely incorrect strategy.",
+      "Attempts to solve the problem but makes significant errors in understanding the problem or applying appropriate operations.",
+      "Solves the problem with some errors, indicating a partial understanding of the problem and the required operations.",
+      "Solves the problem correctly but may show limited or unclear representation of the problem-solving process.",
+      "Accurately solves the problem and clearly represents the problem-solving process using objects, drawings, or equations.",
+      "Accurately solves the problem, clearly represents the problem-solving process, and demonstrates a strong understanding of addition with three whole numbers."
+    ],
+    [
+      "No attempt to represent the word problem using objects, drawings, or equations.",
+      "Attempts to represent the problem, but the representation is unclear, inaccurate, or does not match the problem's context.",
+      "Represents the problem with some inaccuracies or omissions, making it difficult to fully understand the problem-solving approach.",
+      "Clearly represents the problem using objects, drawings, or equations, but may lack detail or precision.",
+      "Clearly and accurately represents the problem using appropriate objects, drawings, or equations, enhancing understanding of the problem.",
+      "Masterfully represents the problem with detailed and accurate objects, drawings, or equations, demonstrating a deep understanding of the problem's structure."
+    ],
+    [
+      "Does not use a symbol to represent the unknown number.",
+      "Uses a symbol, but it is used incorrectly or inconsistently within the equation.",
+      "Uses a symbol to represent the unknown number, but the placement or use within the equation is not always accurate.",
+      "Correctly uses a symbol to represent the unknown number in the equation.",
+      "Skillfully uses a symbol to represent the unknown number, demonstrating a clear understanding of its role in solving for the unknown.",
+      "Expertly uses a symbol for the unknown number and explains its significance in solving the problem, showcasing a comprehensive understanding."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Shortcomings",
+    "Accuracy and Specificity",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the Articles of Confederation or its shortcomings.",
+      "The student mentions the Articles of Confederation but cannot identify any shortcomings.",
+      "The student identifies one or two general shortcomings of the Articles of Confederation.",
+      "The student identifies three specific shortcomings of the Articles of Confederation with limited detail.",
+      "The student identifies four or more specific shortcomings of the Articles of Confederation with reasonable detail.",
+      "The student comprehensively lists and explains five or more key shortcomings of the Articles of Confederation, demonstrating a strong understanding of their impact."
+    ],
+    [
+      "The student provides inaccurate information regarding the Articles or its problems.",
+      "The student's response contains significant inaccuracies or irrelevant points.",
+      "The student's response is mostly accurate, but lacks specific details or examples.",
+      "The student provides mostly accurate information with some specific examples of the Articles' shortcomings.",
+      "The student provides accurate and specific examples of several shortcomings of the Articles.",
+      "The student demonstrates a nuanced understanding by accurately detailing specific shortcomings and their consequences with supporting evidence."
+    ],
+    [
+      "The student's response is unclear, disorganized, and difficult to understand.",
+      "The student's response lacks organization and is difficult to follow.",
+      "The student's response is somewhat organized but lacks clarity in some areas.",
+      "The student's response is generally clear and organized, but could benefit from further refinement.",
+      "The student presents information in a clear and organized manner, making it easy to understand the shortcomings.",
+      "The student presents a well-organized, coherent, and insightful analysis of the Articles' shortcomings with exceptional clarity."
+    ]
+  ]
+}

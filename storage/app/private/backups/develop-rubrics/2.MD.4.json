@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Measurement",
+    "Comparison and Difference",
+    "Use of Standard Units"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to measure or the measurements are completely inaccurate with no clear understanding of units.",
+      "The student attempts to measure but struggles significantly, with measurements being largely inaccurate and demonstrating little understanding of standard units.",
+      "The student measures with some accuracy, but there are noticeable errors. Understanding of standard units is emerging but not consistent.",
+      "The student generally measures accurately, with only minor errors. Shows a good understanding of standard units and their application.",
+      "The student measures accurately in most cases, demonstrating a strong understanding of standard units and their relationship to each other.",
+      "The student consistently measures with precision and accuracy, demonstrating a comprehensive understanding of standard units and their appropriate use."
+    ],
+    [
+      "The student does not attempt to compare objects or determine the length difference.",
+      "The student attempts to compare, but is unable to determine the length difference, even with assistance.",
+      "The student struggles to accurately determine the length difference and may have difficulty expressing it in standard units.",
+      "The student can determine the length difference, but may make minor errors in calculations or when expressing it in standard units.",
+      "The student accurately determines the length difference and expresses it correctly in standard units with minimal errors.",
+      "The student precisely determines the length difference and clearly and accurately expresses it in standard units, demonstrating a complete understanding."
+    ],
+    [
+      "The student does not use or recognize standard units of measurement.",
+      "The student attempts to use standard units, but demonstrates significant confusion and misuse.",
+      "The student uses standard units inconsistently or incorrectly, showing a limited understanding.",
+      "The student generally uses standard units correctly, but may occasionally make mistakes or use inappropriate units.",
+      "The student consistently uses appropriate standard units correctly, demonstrating a solid understanding.",
+      "The student expertly and appropriately uses standard units, demonstrating a sophisticated understanding and ability to select the most suitable unit for the task."
+    ]
+  ]
+}

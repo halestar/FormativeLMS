@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Fractional Multiplication",
+    "Application of Area Calculation with Fractional Sides",
+    "Representation of Fraction Products as Rectangular Areas"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of multiplying fractions or whole numbers by fractions.",
+      "Student attempts to multiply fractions but makes significant errors in the process, indicating a lack of understanding of basic principles.",
+      "Student can multiply simple fractions with some accuracy but struggles with more complex problems or whole numbers.",
+      "Student can accurately multiply fractions and whole numbers by fractions in most cases but may occasionally make minor errors.",
+      "Student demonstrates a strong understanding of multiplying fractions and whole numbers by fractions, consistently arriving at correct solutions.",
+      "Student demonstrates a comprehensive understanding of multiplying fractions and whole numbers by fractions, accurately solving complex problems and explaining the underlying concepts clearly."
+    ],
+    [
+      "Student does not attempt to calculate the area of rectangles with fractional side lengths or demonstrates no understanding of the concept.",
+      "Student attempts to calculate the area but uses incorrect methods or formulas, showing a misunderstanding of how to apply fractional side lengths.",
+      "Student can calculate the area of rectangles with fractional side lengths in simple cases but struggles with more complex examples.",
+      "Student accurately calculates the area of rectangles with fractional side lengths in most cases but may make occasional errors.",
+      "Student consistently calculates the area of rectangles with fractional side lengths accurately and efficiently.",
+      "Student demonstrates a deep understanding of area calculation with fractional side lengths, accurately solving complex problems and explaining the reasoning behind the calculations."
+    ],
+    [
+      "Student does not attempt to represent fraction products as rectangular areas or demonstrates no understanding of the concept.",
+      "Student attempts to represent fraction products but the representation is inaccurate or unclear.",
+      "Student can represent simple fraction products as rectangular areas with some accuracy but struggles with more complex examples.",
+      "Student accurately represents fraction products as rectangular areas in most cases but may make occasional errors.",
+      "Student consistently represents fraction products as rectangular areas accurately and clearly.",
+      "Student demonstrates a comprehensive understanding of representing fraction products as rectangular areas, accurately solving complex problems and explaining the connection between multiplication and area."
+    ]
+  ]
+}

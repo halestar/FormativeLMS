@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Volume Concepts",
+    "Application of Volume Formulas",
+    "Problem Solving",
+    "Mathematical Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of volume as it relates to multiplication and addition.",
+      "Shows minimal understanding of volume concepts; struggles to relate volume to multiplication and addition.",
+      "Demonstrates basic understanding of volume but has difficulty connecting it to multiplication and addition.",
+      "Understands volume and can somewhat relate it to multiplication and addition in simple cases.",
+      "Clearly relates volume to multiplication and addition; explains the relationship effectively.",
+      "Demonstrates comprehensive understanding of volume and its connection to multiplication and addition; provides insightful explanations."
+    ],
+    [
+      "Unable to apply the formula V = l \u00d7 w \u00d7 h to calculate volume.",
+      "Struggles to use the formula V = l \u00d7 w \u00d7 h; makes frequent errors in calculation.",
+      "Can use the formula V = l \u00d7 w \u00d7 h with assistance, but accuracy is inconsistent.",
+      "Applies the formula V = l \u00d7 w \u00d7 h to calculate volume with reasonable accuracy.",
+      "Accurately and efficiently applies the formula V = l \u00d7 w \u00d7 h to calculate volume in various situations.",
+      "Masterfully applies the formula V = l \u00d7 w \u00d7 h and adapts it to solve complex volume problems."
+    ],
+    [
+      "Unable to solve real-world problems involving volume.",
+      "Struggles to approach real-world volume problems; cannot set up the problem correctly.",
+      "Attempts to solve real-world volume problems but makes significant errors in the process.",
+      "Solves simple real-world volume problems, but struggles with more complex scenarios.",
+      "Solves a variety of real-world volume problems accurately and efficiently.",
+      "Demonstrates exceptional problem-solving skills in complex, real-world volume scenarios; provides creative solutions."
+    ],
+    [
+      "Shows no evidence of mathematical reasoning related to volume.",
+      "Mathematical reasoning is unclear and does not support their solutions.",
+      "Demonstrates some mathematical reasoning, but it is inconsistent or incomplete.",
+      "Applies logical reasoning to solve volume problems and explain their solutions.",
+      "Uses sound mathematical reasoning to justify solutions and approaches to volume problems.",
+      "Exhibits sophisticated mathematical reasoning to analyze and solve challenging volume problems; communicates reasoning clearly and effectively."
+    ]
+  ]
+}

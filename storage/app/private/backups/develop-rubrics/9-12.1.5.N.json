@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Poor Eating Habits",
+    "Understanding of Chronic Diseases",
+    "Connection Between Eating Habits and Diseases",
+    "Providing Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of poor eating habits.",
+      "Identifies one or two examples of poor eating habits but struggles to explain them.",
+      "Identifies some poor eating habits but lacks depth in explanation.",
+      "Clearly identifies several poor eating habits, providing adequate explanations.",
+      "Demonstrates a comprehensive understanding of various poor eating habits with detailed explanations.",
+      "Exhibits an exceptional understanding of poor eating habits, including nuances and complexities."
+    ],
+    [
+      "Shows no understanding of any chronic diseases.",
+      "Identifies one or two chronic diseases but struggles to explain them.",
+      "Identifies some chronic diseases but lacks depth in explanation.",
+      "Clearly identifies several chronic diseases, providing adequate explanations.",
+      "Demonstrates a comprehensive understanding of various chronic diseases with detailed explanations.",
+      "Exhibits an exceptional understanding of chronic diseases, including nuances and complexities."
+    ],
+    [
+      "Fails to connect poor eating habits with any chronic diseases.",
+      "Attempts to connect poor eating habits with chronic diseases but makes inaccurate connections.",
+      "Makes basic connections between a few poor eating habits and chronic diseases.",
+      "Clearly connects several poor eating habits to specific chronic diseases, explaining the relationships.",
+      "Demonstrates a strong understanding of the cause-and-effect relationships between poor eating habits and chronic diseases.",
+      "Exhibits an exceptional understanding of the complex relationships between poor eating habits and chronic diseases, including long-term effects."
+    ],
+    [
+      "Provides no specific examples of how poor eating habits lead to chronic diseases.",
+      "Provides one or two vague or inaccurate examples.",
+      "Provides some examples, but they lack detail or clarity.",
+      "Provides clear and relevant examples to support explanations.",
+      "Provides detailed and accurate examples that show a deep understanding of the topic.",
+      "Provides insightful and comprehensive examples, demonstrating a nuanced understanding of the relationship between poor eating habits and chronic diseases."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Application of Safe Food Handling Techniques",
+    "Preventing Cross-Contamination",
+    "Proper Cooking and Storage Temperatures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to demonstrate safe food handling; practices are clearly unsafe and could lead to contamination.",
+      "Demonstrates minimal awareness of safe food handling; some practices are unsafe or incorrect.",
+      "Shows basic safe food handling practices, but inconsistently; some areas need improvement.",
+      "Consistently applies most safe food handling techniques correctly; minor errors may occur.",
+      "Demonstrates excellent safe food handling techniques; only very minor oversights are present.",
+      "Exemplary application of safe food handling techniques throughout the preparation process; models best practices."
+    ],
+    [
+      "No understanding of cross-contamination prevention; clearly contaminates different food groups.",
+      "Shows limited understanding of cross-contamination; may use same cutting board for raw meat and vegetables without cleaning.",
+      "Attempts to prevent cross-contamination, but some practices are inadequate or incorrect.",
+      "Generally prevents cross-contamination through proper hand washing and separating raw and cooked foods; may have occasional lapses.",
+      "Effectively prevents cross-contamination by consistently using separate cutting boards, utensils, and proper hand washing techniques.",
+      "Implements rigorous cross-contamination prevention strategies, showing a comprehensive understanding of food safety."
+    ],
+    [
+      "No awareness of proper cooking or storage temperatures; food is likely undercooked or stored improperly.",
+      "Shows limited awareness of proper cooking or storage temperatures; guesses temperatures or times.",
+      "Can identify some proper cooking and storage temperatures, but may not apply them correctly.",
+      "Generally adheres to proper cooking and storage temperatures using a thermometer; may need some reminders.",
+      "Consistently monitors and maintains proper cooking and storage temperatures to ensure food safety.",
+      "Demonstrates expert knowledge of temperature control, ensuring all foods are cooked and stored at safe temperatures to prevent bacterial growth."
+    ]
+  ]
+}

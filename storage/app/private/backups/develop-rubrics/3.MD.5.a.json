@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Area as an Attribute",
+    "Understanding Unit Squares",
+    "Application of Area Measurement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not recognize area as an attribute of plane figures.",
+      "Student shows minimal recognition of area as an attribute of plane figures, with significant misconceptions.",
+      "Student partially recognizes area as an attribute of plane figures but struggles with clear explanations.",
+      "Student generally recognizes area as an attribute of plane figures but may have minor inaccuracies.",
+      "Student clearly recognizes area as an attribute of plane figures and provides a solid explanation.",
+      "Student demonstrates a deep understanding of area as an attribute of plane figures, providing a comprehensive and accurate explanation."
+    ],
+    [
+      "Student does not understand the concept of a unit square as a measure of area.",
+      "Student shows minimal understanding of a unit square, struggling to relate it to area measurement.",
+      "Student partially understands unit squares but struggles with consistent application in measuring area.",
+      "Student generally understands unit squares but may have some difficulty in accurately measuring area.",
+      "Student clearly understands unit squares and uses them effectively to measure area.",
+      "Student demonstrates a comprehensive understanding of unit squares and accurately measures area, explaining the relationship effectively."
+    ],
+    [
+      "Student is unable to apply the concept of area measurement to simple plane figures.",
+      "Student struggles to apply area measurement, showing limited understanding of how to use unit squares.",
+      "Student partially applies area measurement but makes frequent errors in calculation or application.",
+      "Student generally applies area measurement to plane figures with some accuracy but may have occasional mistakes.",
+      "Student accurately applies area measurement to various plane figures.",
+      "Student proficiently applies area measurement to complex plane figures, demonstrating a strong grasp of the concept."
+    ]
+  ]
+}

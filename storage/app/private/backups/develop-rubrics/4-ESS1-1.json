@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Evidence",
+    "Explanation of Landscape Changes",
+    "Use of Patterns to Support Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence is identified from patterns in rock formations or fossils.",
+      "Identifies a single piece of evidence from rock formations or fossils, but it is not clearly linked to changes in the landscape.",
+      "Identifies multiple pieces of evidence from rock formations or fossils, but the explanation for landscape changes is vague or incomplete.",
+      "Identifies relevant evidence from rock formations and fossils and provides a basic explanation for how these patterns relate to changes in the landscape over time.",
+      "Identifies relevant evidence from rock formations and fossils, provides a clear explanation for how these patterns relate to changes in the landscape over time, and acknowledges some limitations or assumptions.",
+      "Identifies relevant evidence from rock formations and fossils, provides a comprehensive and nuanced explanation for how these patterns relate to changes in the landscape over time, and critically evaluates the evidence and its implications."
+    ],
+    [
+      "No explanation is provided for how the evidence supports changes in the landscape.",
+      "Provides a weak or inaccurate explanation for how the evidence supports changes in the landscape.",
+      "Provides a partial explanation for how the evidence supports changes in the landscape, but lacks depth or clarity.",
+      "Provides a clear explanation for how the identified evidence from rock formations and fossils supports an explanation for changes in a landscape over time.",
+      "Provides a thorough explanation for how the identified evidence supports changes in the landscape, incorporating relevant scientific concepts.",
+      "Provides a sophisticated and insightful explanation for how the identified evidence supports changes in the landscape, demonstrating a deep understanding of geological processes."
+    ],
+    [
+      "No patterns are identified or used to support the explanation.",
+      "Attempts to identify patterns, but they are not relevant or do not support the explanation.",
+      "Identifies some patterns in rock formations and fossils but does not effectively use them to support the explanation.",
+      "Uses patterns in rock formations and fossils as evidence to support the explanation for changes in a landscape over time.",
+      "Effectively uses patterns in rock formations and fossils as strong evidence to support a well-reasoned explanation for changes in a landscape over time.",
+      "Masterfully uses patterns in rock formations and fossils as compelling evidence to support a comprehensive and insightful explanation for changes in a landscape over time, demonstrating a sophisticated understanding of the interconnections."
+    ]
+  ]
+}

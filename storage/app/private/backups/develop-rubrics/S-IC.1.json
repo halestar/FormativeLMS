@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Random Sampling",
+    "Making Inferences about Population Parameters",
+    "Explaining the Statistical Process"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of random sampling and its importance in statistical inference.",
+      "Student shows minimal understanding of random sampling, struggling to explain its role in representing a population.",
+      "Student demonstrates some understanding of random sampling but has difficulty explaining how it allows for inferences about population parameters.",
+      "Student understands random sampling and can explain how it helps ensure the sample is representative of the population.",
+      "Student clearly understands random sampling, explaining its benefits in reducing bias and allowing for more accurate population inferences.",
+      "Student demonstrates a comprehensive understanding of random sampling, including its limitations and the potential impact of non-random sampling methods on statistical inferences."
+    ],
+    [
+      "Student is unable to make any inference about a population parameter based on a sample.",
+      "Student struggles to make appropriate inferences, often confusing sample statistics with population parameters.",
+      "Student makes basic inferences about population parameters but lacks confidence or justification for their conclusions.",
+      "Student makes reasonable inferences about population parameters based on sample data and provides some justification.",
+      "Student makes accurate inferences about population parameters, supporting their conclusions with clear explanations of the sample data.",
+      "Student demonstrates a sophisticated ability to make inferences about population parameters, including the ability to quantify the uncertainty in their estimates using confidence intervals or margin of error."
+    ],
+    [
+      "Student cannot explain how statistics is a process for making inferences.",
+      "Student attempts to explain the statistical process but demonstrates significant misunderstandings of the process.",
+      "Student explains some parts of the statistical process but omits crucial elements or provides unclear explanations.",
+      "Student accurately describes the main steps in the statistical process, including data collection, analysis, and inference.",
+      "Student clearly explains the statistical process and highlights the importance of each step in drawing valid conclusions about populations.",
+      "Student provides a detailed and insightful explanation of the statistical process, including discussion of potential sources of error and bias, and how these can be minimized or accounted for."
+    ]
+  ]
+}

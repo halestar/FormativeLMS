@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Renaissance Advances: Assesses the student's comprehension of the significant advancements during the Renaissance period across various fields.",
+    "Knowledge of Key Figures: Evaluates the student's familiarity with important figures of the Renaissance and their contributions.",
+    "Application of Knowledge: Assesses the student's ability to connect Renaissance advances to their historical context and modern relevance."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Renaissance advances.",
+      "Shows minimal understanding of one or two areas of Renaissance advancement.",
+      "Identifies several areas of Renaissance advancement with limited detail.",
+      "Explains multiple Renaissance advances with some supporting details.",
+      "Provides a comprehensive explanation of Renaissance advances across various fields, including literature, arts, science, and technology.",
+      "Demonstrates an in-depth understanding of Renaissance advances, providing detailed explanations and insightful analysis of their impact and significance."
+    ],
+    [
+      "Unable to name any key figures from the Renaissance.",
+      "Names one or two key figures with no details about their contributions.",
+      "Identifies several key figures but provides limited information about their works or impact.",
+      "Describes the contributions of multiple key figures with some specific examples of their work.",
+      "Provides detailed accounts of the contributions of key figures like Dante, Da Vinci, Michelangelo, Gutenberg, and Shakespeare.",
+      "Offers a nuanced understanding of the key figures, their works, and their lasting impact on Renaissance society and subsequent eras."
+    ],
+    [
+      "Shows no ability to connect Renaissance advances to their historical context.",
+      "Makes a superficial connection between Renaissance advances and their time period.",
+      "Relates Renaissance advances to their immediate historical context with limited elaboration.",
+      "Explains how Renaissance advances were influenced by and impacted their historical context.",
+      "Analyzes the relationship between Renaissance advances, their historical context, and their influence on later developments.",
+      "Demonstrates a sophisticated understanding of the interplay between Renaissance advances, historical context, and enduring relevance to modern society."
+    ]
+  ]
+}

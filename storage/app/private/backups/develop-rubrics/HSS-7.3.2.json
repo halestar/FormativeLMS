@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Agricultural Developments",
+    "Understanding of Technological Advancements",
+    "Understanding of Commercial Developments",
+    "Connections Between Developments"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of agricultural developments during the Tang and Sung periods.",
+      "Identifies a single agricultural development with limited accuracy.",
+      "Identifies a few agricultural developments but lacks depth in explanation.",
+      "Describes several agricultural developments with reasonable accuracy and some detail.",
+      "Explains multiple agricultural developments comprehensively, including their impact on society.",
+      "Provides an insightful analysis of agricultural developments, their interconnectedness, and long-term consequences."
+    ],
+    [
+      "Demonstrates no understanding of technological advancements during the Tang and Sung periods.",
+      "Identifies a single technological advancement with limited accuracy.",
+      "Identifies a few technological advancements but lacks depth in explanation.",
+      "Describes several technological advancements with reasonable accuracy and some detail.",
+      "Explains multiple technological advancements comprehensively, including their impact on society.",
+      "Provides an insightful analysis of technological advancements, their interconnectedness, and long-term consequences."
+    ],
+    [
+      "Demonstrates no understanding of commercial developments during the Tang and Sung periods.",
+      "Identifies a single commercial development with limited accuracy.",
+      "Identifies a few commercial developments but lacks depth in explanation.",
+      "Describes several commercial developments with reasonable accuracy and some detail.",
+      "Explains multiple commercial developments comprehensively, including their impact on society.",
+      "Provides an insightful analysis of commercial developments, their interconnectedness, and long-term consequences."
+    ],
+    [
+      "Fails to recognize any connections between agricultural, technological, and commercial developments.",
+      "Suggests a vague connection between at least two types of developments.",
+      "Identifies some basic relationships between agricultural, technological and commercial developments.",
+      "Explains several relationships between agricultural, technological, and commercial developments accurately.",
+      "Analyzes the complex relationships and feedback loops between agricultural, technological, and commercial developments.",
+      "Provides a nuanced and insightful analysis of the systemic connections between agricultural, technological, and commercial developments, demonstrating a holistic understanding."
+    ]
+  ]
+}

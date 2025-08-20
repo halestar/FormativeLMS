@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Rational Numbers",
+    "Understanding of the Sum of Rational and Irrational Numbers",
+    "Understanding of the Product of Rational and Irrational Numbers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rational numbers.",
+      "Student can identify rational numbers but cannot explain their properties.",
+      "Student can define rational numbers and give examples but struggles to explain why the sum\/product of two rational numbers is rational.",
+      "Student can explain why the sum of two rational numbers is rational but struggles with the product.",
+      "Student can explain why the sum and product of two rational numbers are rational with minor errors.",
+      "Student clearly and accurately explains why the sum and product of two rational numbers are rational, providing thorough justification."
+    ],
+    [
+      "Student demonstrates no understanding of irrational numbers or their relationship with rational numbers.",
+      "Student can identify irrational numbers but not explain the result of summing a rational and irrational number.",
+      "Student attempts to explain the sum of a rational and irrational number, but explanation is unclear or incorrect.",
+      "Student generally explains the sum of rational and irrational numbers but lacks precision or full understanding.",
+      "Student accurately explains why the sum of a rational and an irrational number is irrational with a good explanation.",
+      "Student clearly and thoroughly explains why the sum of a rational and an irrational number is irrational, providing clear and logical reasoning."
+    ],
+    [
+      "Student demonstrates no understanding of how multiplying rational and irrational numbers results in an irrational number.",
+      "Student can state that the product of a rational and irrational number is irrational but cannot explain why.",
+      "Student attempts to explain the product of rational and irrational numbers, but explanation contains significant errors or gaps.",
+      "Student generally explains the product of rational and irrational numbers but does not address the condition of a 'nonzero' rational number.",
+      "Student accurately explains why the product of a nonzero rational number and an irrational number is irrational but lacks clarity.",
+      "Student clearly, accurately, and thoroughly explains why the product of a nonzero rational number and an irrational number is irrational, including the importance of the 'nonzero' condition."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Stressors",
+    "Description of Stress Response Patterns",
+    "Application of Resources",
+    "Insight and Self-Reflection"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any personal stressors.",
+      "Student identifies one or two stressors, but they are vague or unclear.",
+      "Student identifies some stressors, but the connection to personal patterns is weak.",
+      "Student identifies several personal stressors and makes a reasonable connection to personal patterns.",
+      "Student clearly and accurately identifies multiple personal stressors and explains how they relate to personal patterns of response.",
+      "Student provides a comprehensive and insightful analysis of personal stressors and their deep impact on personal patterns, demonstrating keen self-awareness."
+    ],
+    [
+      "Student demonstrates no understanding of personal stress response patterns.",
+      "Student vaguely describes a stress response, but it is unclear or inaccurate.",
+      "Student describes a stress response pattern with limited detail or accuracy.",
+      "Student provides a moderate description of stress response patterns, including emotional, physical, or behavioral responses.",
+      "Student clearly describes personal stress response patterns, including specific emotional, physical, and behavioral responses.",
+      "Student provides an insightful and comprehensive analysis of personal stress response patterns, including the interconnectedness of emotional, physical, and behavioral responses and long-term impacts."
+    ],
+    [
+      "Student does not mention or suggest the use of any resources.",
+      "Student mentions one or two resources, but they are irrelevant or inappropriate.",
+      "Student suggests a few resources, but the explanation of their use is weak.",
+      "Student identifies and explains the potential use of a few relevant resources, such as exercise or meditation.",
+      "Student explains multiple relevant resources and how they can be effectively used to manage stress.",
+      "Student provides a thorough and insightful plan on how to use a variety of resources to effectively manage stress, reflecting on personal preferences and potential barriers."
+    ],
+    [
+      "Student shows no evidence of self-reflection or personal insight.",
+      "Student demonstrates minimal self-reflection, with superficial observations.",
+      "Student presents some self-reflection, but it lacks depth or critical analysis.",
+      "Student demonstrates moderate self-reflection, identifying personal strengths and areas for improvement.",
+      "Student shows strong self-reflection, demonstrating a clear understanding of personal strengths, weaknesses, and areas for growth.",
+      "Student provides a profound and insightful reflection on personal stress patterns, demonstrating a high degree of self-awareness, and a commitment to positive change."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Political Developments",
+    "Analysis of Social Changes",
+    "Examination of Economic Trends",
+    "Assessment of Technological and Cultural Advancements"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the political landscape of the 1920s.",
+      "Shows a limited understanding of one or two political events or figures of the 1920s.",
+      "Identifies some political events and figures but lacks depth in analysis.",
+      "Describes major political events and figures, such as the Red Scare or the Harding administration, with some analysis.",
+      "Analyzes the causes and effects of key political developments, demonstrating a solid understanding of the era.",
+      "Provides a comprehensive analysis of the political developments of the 1920s, including nuanced perspectives and connections to long-term impacts."
+    ],
+    [
+      "Demonstrates no understanding of the social changes that occurred during the 1920s.",
+      "Identifies one or two social trends with minimal explanation.",
+      "Lists several social trends (e.g., flappers, the Great Migration) but lacks analysis of their significance.",
+      "Explains some of the major social changes of the 1920s, such as the changing role of women or the impact of the automobile.",
+      "Analyzes the social transformations of the 1920s, exploring their causes and consequences with supporting evidence.",
+      "Offers an in-depth analysis of the social dynamics of the 1920s, including cultural clashes, shifts in demographics, and their lasting effects on American society."
+    ],
+    [
+      "Shows no awareness of the economic conditions or trends of the 1920s.",
+      "Mentions the stock market or economic prosperity but lacks details.",
+      "Identifies some economic factors, such as consumerism or the rise of credit, but does not analyze their impact.",
+      "Describes the economic boom of the 1920s, including factors like mass production and consumer culture.",
+      "Analyzes the economic trends of the 1920s, examining both the prosperity and underlying weaknesses of the economy.",
+      "Provides a detailed analysis of the economic factors at play during the 1920s, including the distribution of wealth, speculation, and the seeds of the Great Depression."
+    ],
+    [
+      "Demonstrates no understanding of the technological and cultural developments of the 1920s.",
+      "Names one or two technological inventions or cultural phenomena of the decade.",
+      "Lists several technological advancements and cultural trends (e.g., radio, jazz) without analyzing their significance.",
+      "Explains the impact of technology and culture on American society during the 1920s.",
+      "Analyzes the interplay between technological innovation, cultural expression, and social change in the 1920s.",
+      "Presents a comprehensive analysis of technological and cultural transformations, including their effects on American identity and the rise of mass culture."
+    ]
+  ]
+}

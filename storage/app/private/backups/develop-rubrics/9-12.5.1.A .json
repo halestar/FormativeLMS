@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the short-term effects of alcohol, tobacco, and other drugs on the body and mind.",
+    "Understanding the long-term effects of alcohol, tobacco, and other drugs on the body and mind.",
+    "Analyzing the impact of substance use on families and interpersonal relationships.",
+    "Evaluating the broader societal consequences of alcohol, tobacco, and other drug use."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the short-term effects.",
+      "Shows minimal understanding; provides inaccurate or incomplete information.",
+      "Identifies some short-term effects but lacks depth in explanation.",
+      "Accurately describes several short-term effects on the body and mind.",
+      "Explains the short-term effects comprehensively, including physiological and psychological impacts.",
+      "Provides a detailed and nuanced explanation of short-term effects, including variability based on individual factors and substances."
+    ],
+    [
+      "Demonstrates no understanding of the long-term effects.",
+      "Shows minimal understanding; provides inaccurate or incomplete information.",
+      "Identifies some long-term effects but lacks depth in explanation.",
+      "Accurately describes several long-term effects on the body and mind.",
+      "Explains the long-term effects comprehensively, including physiological and psychological impacts.",
+      "Provides a detailed and nuanced explanation of long-term effects, including variability based on individual factors and substances."
+    ],
+    [
+      "Demonstrates no understanding of the impact on families and relationships.",
+      "Shows minimal understanding; provides inaccurate or irrelevant information.",
+      "Identifies some impacts but lacks depth in analysis.",
+      "Describes several ways substance use can affect families and relationships.",
+      "Analyzes the impact of substance use with specific examples and demonstrates a good understanding of the complexities.",
+      "Provides a thorough analysis of the far-reaching impacts on family dynamics, communication, and support systems, with insightful examples."
+    ],
+    [
+      "Demonstrates no understanding of the societal consequences.",
+      "Shows minimal understanding; provides inaccurate or irrelevant information.",
+      "Identifies some societal consequences but lacks depth in analysis.",
+      "Describes several societal consequences, such as healthcare costs or crime rates.",
+      "Evaluates the societal consequences comprehensively, including economic, public health, and safety aspects.",
+      "Provides a detailed evaluation of the complex interplay of societal consequences, including policy implications and potential solutions."
+    ]
+  ]
+}

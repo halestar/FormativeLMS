@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Selection of Evidence",
+    "Quality of Analysis, Reflection, and Research",
+    "Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence is drawn from the text.",
+      "Evidence is irrelevant or demonstrates misunderstanding of the text.",
+      "Evidence is limited, vague, or not clearly connected to the analysis, reflection, or research.",
+      "Evidence is relevant but may lack depth or strong connection to the analysis, reflection, or research.",
+      "Evidence is well-chosen and supports the analysis, reflection, or research effectively.",
+      "Evidence is compelling, insightful, and strongly enhances the analysis, reflection, or research."
+    ],
+    [
+      "Analysis, reflection, or research is absent or demonstrates a complete misunderstanding of the text.",
+      "Analysis, reflection, or research is superficial or lacks a clear purpose.",
+      "Analysis, reflection, or research is present but underdeveloped and lacks depth.",
+      "Analysis, reflection, or research is adequate but may contain generalizations or unsupported claims.",
+      "Analysis, reflection, or research is thoughtful, well-reasoned, and supported by the evidence.",
+      "Analysis, reflection, or research is sophisticated, insightful, and demonstrates a comprehensive understanding of the text."
+    ],
+    [
+      "Writing is unclear, disorganized, and difficult to understand.",
+      "Writing lacks coherence and contains significant grammatical errors.",
+      "Writing is somewhat organized but may contain lapses in clarity and coherence.",
+      "Writing is generally clear and organized with minor grammatical errors.",
+      "Writing is clear, coherent, and effectively communicates the analysis, reflection, or research.",
+      "Writing is exceptionally clear, concise, and effectively engages the reader with the analysis, reflection, or research."
+    ]
+  ]
+}

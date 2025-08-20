@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Foods High in Iron, Calcium, and Fiber",
+    "Description of Benefits of Iron, Calcium, and Fiber",
+    "Understanding the Importance of Variety"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any foods high in iron, calcium, or fiber.",
+      "Student can identify a few foods high in either iron, calcium, or fiber, but lacks variety and accuracy.",
+      "Student identifies foods high in iron, calcium, and fiber, but the selection lacks variety.",
+      "Student identifies a moderate variety of foods high in iron, calcium, and fiber with reasonable accuracy.",
+      "Student identifies a good variety of foods high in iron, calcium, and fiber with high accuracy.",
+      "Student comprehensively identifies a wide variety of foods high in iron, calcium, and fiber with excellent accuracy and provides examples beyond the basics."
+    ],
+    [
+      "Student does not describe any benefits of iron, calcium, or fiber.",
+      "Student vaguely mentions benefits, but lacks clarity and accuracy.",
+      "Student describes some benefits of either iron, calcium, or fiber, but explanation is basic and incomplete.",
+      "Student adequately describes benefits of iron, calcium, and fiber, but lacks depth.",
+      "Student clearly describes benefits of iron, calcium, and fiber with supporting details.",
+      "Student thoroughly and accurately describes a wide range of benefits for iron, calcium, and fiber, including specific physiological effects, and connects them to overall health and well-being."
+    ],
+    [
+      "Student does not mention the importance of eating a variety of foods.",
+      "Student mentions variety but does not explain its importance.",
+      "Student partially explains the importance of variety, but the explanation is unclear or incomplete.",
+      "Student explains the importance of variety for balanced nutrition.",
+      "Student clearly explains the importance of variety for balanced nutrition and overall health, including specific examples.",
+      "Student comprehensively explains the importance of variety, detailing specific benefits such as nutrient synergy, gut health, and reduced risk of nutrient deficiencies."
+    ]
+  ]
+}

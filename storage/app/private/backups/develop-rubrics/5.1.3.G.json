@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Physical Changes During Puberty",
+    "Identification of Social Changes During Puberty",
+    "Identification of Emotional Changes During Puberty",
+    "Clarity and Accuracy of Explanations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of physical changes during puberty.",
+      "Student identifies one or two physical changes with limited accuracy.",
+      "Student identifies some physical changes, but explanations lack detail or contain minor inaccuracies.",
+      "Student accurately identifies several physical changes but may miss some less obvious ones.",
+      "Student comprehensively identifies most physical changes during puberty with clear and accurate explanations.",
+      "Student expertly identifies and explains a wide range of physical changes during puberty, demonstrating a deep understanding."
+    ],
+    [
+      "Student demonstrates no understanding of social changes during puberty.",
+      "Student identifies one or two social changes with limited accuracy.",
+      "Student identifies some social changes, but explanations lack detail or contain minor inaccuracies.",
+      "Student accurately identifies several social changes but may miss some less obvious ones.",
+      "Student comprehensively identifies most social changes during puberty with clear and accurate explanations.",
+      "Student expertly identifies and explains a wide range of social changes during puberty, demonstrating a deep understanding."
+    ],
+    [
+      "Student demonstrates no understanding of emotional changes during puberty.",
+      "Student identifies one or two emotional changes with limited accuracy.",
+      "Student identifies some emotional changes, but explanations lack detail or contain minor inaccuracies.",
+      "Student accurately identifies several emotional changes but may miss some less obvious ones.",
+      "Student comprehensively identifies most emotional changes during puberty with clear and accurate explanations.",
+      "Student expertly identifies and explains a wide range of emotional changes during puberty, demonstrating a deep understanding."
+    ],
+    [
+      "Explanations are unclear, inaccurate, or missing.",
+      "Explanations are difficult to understand and contain significant inaccuracies.",
+      "Explanations are somewhat clear but contain some inaccuracies or lack sufficient detail.",
+      "Explanations are generally clear and accurate with minor omissions.",
+      "Explanations are clear, accurate, and provide sufficient detail.",
+      "Explanations are exceptionally clear, accurate, and insightful, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

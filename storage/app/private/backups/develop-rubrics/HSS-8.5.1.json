@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the political causes of the War of 1812",
+    "Understanding of the economic causes of the War of 1812",
+    "Knowledge of major battles, leaders, and events",
+    "Understanding of the consequences of the War of 1812 and path to final peace"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the political causes of the War of 1812.",
+      "Identifies one or two political factors that may have contributed to the war, but lacks depth.",
+      "Identifies several political causes, such as impressment and trade disputes, but explanations are superficial.",
+      "Explains the major political causes, including impressment, trade restrictions, and maritime rights, with reasonable clarity.",
+      "Clearly explains the political causes of the war, providing context and demonstrating an understanding of their significance.",
+      "Provides a comprehensive and nuanced explanation of the political causes, including lesser-known factors and their complex interplay."
+    ],
+    [
+      "Demonstrates no understanding of the economic causes of the War of 1812.",
+      "Mentions one or two economic factors without elaborating on their impact.",
+      "Identifies some economic causes, like trade restrictions, but lacks a deeper understanding of their effects.",
+      "Explains the major economic causes, such as trade disputes and blockades, with reasonable clarity.",
+      "Clearly explains the economic causes of the war, providing context and demonstrating an understanding of their significance on both the US and Britain.",
+      "Provides a comprehensive and nuanced explanation of the economic causes, including the impact on different regions and industries."
+    ],
+    [
+      "Shows no awareness of the major battles, leaders, or events of the War of 1812.",
+      "Can name one or two battles or leaders, but provides no context or details.",
+      "Identifies several battles, leaders, or events, but descriptions are minimal and lack accuracy.",
+      "Accurately describes several major battles, leaders, and events, demonstrating a basic understanding of their significance.",
+      "Provides detailed descriptions of major battles, leaders, and events, explaining their impact on the course of the war.",
+      "Offers a comprehensive and insightful analysis of the major battles, leaders, and events, including their long-term consequences."
+    ],
+    [
+      "Shows no understanding of the consequences of the war or the path to peace.",
+      "Mentions one or two consequences without explaining their significance.",
+      "Identifies some consequences, such as the Treaty of Ghent, but lacks a deeper understanding.",
+      "Explains several consequences of the war, including economic changes and diplomatic outcomes, with reasonable clarity.",
+      "Clearly explains the consequences of the war, providing context and demonstrating an understanding of their long-term impact on US and Britain.",
+      "Provides a comprehensive and nuanced explanation of the consequences, including their effects on national identity and foreign policy."
+    ]
+  ]
+}

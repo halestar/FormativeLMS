@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Conditional Probability",
+    "Calculations and Accuracy",
+    "Interpretation and Application of the Model"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of conditional probability.",
+      "Student can identify events A and B but struggles to relate them in a conditional context.",
+      "Student can partially identify the outcomes of event B but has trouble finding those that also belong to A.",
+      "Student can usually determine the fraction of B's outcomes that also belong to A, but struggles to interpret it.",
+      "Student can accurately find the conditional probability of A given B and can explain it in the context of the problem, but the explanation is not complete.",
+      "Student can accurately find the conditional probability of A given B and provides a clear and thorough interpretation of the answer in terms of the model."
+    ],
+    [
+      "Student's calculations are incorrect or absent.",
+      "Student attempts calculations, but makes significant errors.",
+      "Student makes some errors in calculations, affecting the final probability.",
+      "Student's calculations are mostly accurate, with only minor errors that do not significantly impact the result.",
+      "Student's calculations are accurate, with only a few minor errors.",
+      "Student's calculations are entirely accurate, leading to the correct conditional probability."
+    ],
+    [
+      "Student cannot relate the calculated probability to the model.",
+      "Student attempts to explain the answer but fails to connect it to the initial model.",
+      "Student provides a vague interpretation of the answer in terms of the model.",
+      "Student can partially explain the meaning of the conditional probability within the context of the model.",
+      "Student interprets the conditional probability well, providing a clear connection to the model.",
+      "Student provides a sophisticated and insightful interpretation of the conditional probability, demonstrating a deep understanding of its implications within the model."
+    ]
+  ]
+}

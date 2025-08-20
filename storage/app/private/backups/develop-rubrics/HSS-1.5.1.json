@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Shared Community Principles",
+    "Recognition of Diversity Forms",
+    "Analysis of Benefits and Challenges of Diversity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of shared principles, goals, and traditions within the community.",
+      "Shows minimal understanding of shared community principles; struggles to identify common goals or traditions.",
+      "Identifies some shared principles and goals but lacks depth in explaining their significance.",
+      "Demonstrates a general understanding of shared principles, goals, and traditions within the community.",
+      "Clearly articulates shared principles, goals, and traditions and explains their importance in fostering community.",
+      "Provides insightful analysis of shared principles, goals, and traditions, connecting them to community cohesion and identity."
+    ],
+    [
+      "Fails to recognize different forms of diversity within the school or community.",
+      "Recognizes only one or two forms of diversity superficially.",
+      "Identifies a few forms of diversity but struggles to elaborate on their characteristics.",
+      "Recognizes several forms of diversity within the school and community, such as ethnicity, socioeconomic status, etc.",
+      "Demonstrates a comprehensive understanding of various diversity forms and provides examples from their school and community.",
+      "Offers nuanced insights into the complexity of diversity forms, including intersectionality and less visible aspects (e.g., neurodiversity)."
+    ],
+    [
+      "Unable to articulate any benefits or challenges associated with diversity.",
+      "Identifies only basic benefits or challenges, lacking specific examples or explanation.",
+      "Lists some benefits and challenges of a diverse population but struggles to explain them in detail.",
+      "Discusses both the benefits (e.g., cultural enrichment, innovation) and challenges (e.g., prejudice, communication barriers) of diversity in a balanced way.",
+      "Provides well-reasoned arguments about the benefits and challenges of diversity, supported by relevant examples and evidence.",
+      "Offers a sophisticated analysis of the complex interplay between the benefits and challenges of diversity, proposing solutions to mitigate challenges and maximize benefits."
+    ]
+  ]
+}

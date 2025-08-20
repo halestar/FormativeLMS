@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Cultural Influences",
+    "Understanding of Media Influences",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how culture influences alcohol and drug use.",
+      "Shows a minimal understanding of how culture influences alcohol and drug use; explanation is vague or superficial.",
+      "Identifies some ways culture influences alcohol and drug use but lacks depth and detail in explanation.",
+      "Explains how culture influences alcohol and drug use with some specific examples; demonstrates a general understanding.",
+      "Clearly and thoroughly explains how culture influences alcohol and drug use, providing detailed and relevant examples.",
+      "Demonstrates a comprehensive understanding of the nuanced ways culture influences alcohol and drug use; provides insightful examples and analysis."
+    ],
+    [
+      "Demonstrates no understanding of how media influences alcohol and drug use.",
+      "Shows a minimal understanding of how media influences alcohol and drug use; explanation is vague or superficial.",
+      "Identifies some ways media influences alcohol and drug use but lacks depth and detail in explanation.",
+      "Explains how media influences alcohol and drug use with some specific examples; demonstrates a general understanding.",
+      "Clearly and thoroughly explains how media influences alcohol and drug use, providing detailed and relevant examples.",
+      "Demonstrates a comprehensive understanding of the nuanced ways media influences alcohol and drug use; provides insightful examples and analysis."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization; difficult to follow the explanation.",
+      "Response is somewhat clear but could benefit from better organization and structure.",
+      "Response is generally clear and organized, making it easy to understand the explanation.",
+      "Response is clear, well-organized, and easy to follow, demonstrating thoughtful presentation.",
+      "Response is exceptionally clear, concise, and well-organized; demonstrates excellent communication skills."
+    ]
+  ]
+}

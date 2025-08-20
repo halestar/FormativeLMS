@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Biological Structures and Functions: How well does the student demonstrate an understanding of the specific biological structures (plant and animal parts) and their functions related to survival, growth, and meeting needs?",
+    "Mimicry and Application to Human Problem: How effectively does the designed solution mimic plant and\/or animal structures to solve the identified human problem?",
+    "Design Solution Effectiveness: How well does the designed solution address the identified human problem?",
+    "Use of Materials and Resources: How appropriately and effectively were materials used in the design?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of biological structures or their functions is demonstrated.",
+      "Demonstrates minimal understanding of biological structures and functions; explanations are vague or inaccurate.",
+      "Demonstrates a basic understanding of some biological structures and functions, but lacks depth or detail.",
+      "Demonstrates a clear understanding of biological structures and functions relevant to the problem, with accurate explanations.",
+      "Demonstrates a comprehensive understanding of biological structures and functions, providing detailed and accurate explanations with relevant examples.",
+      "Demonstrates an exceptional understanding of biological structures and functions, providing insightful and nuanced explanations that go beyond the basic requirements."
+    ],
+    [
+      "The designed solution does not mimic any plant or animal structures, or the connection to the human problem is unclear.",
+      "The designed solution attempts to mimic plant or animal structures, but the connection to the human problem is weak or ineffective.",
+      "The designed solution mimics plant or animal structures with some relevance to the human problem, but the application is limited.",
+      "The designed solution effectively mimics plant or animal structures to address the human problem, with a clear and logical connection.",
+      "The designed solution innovatively mimics plant or animal structures to provide a practical and efficient solution to the human problem.",
+      "The designed solution demonstrates a sophisticated and creative mimicry of plant or animal structures, resulting in an elegant and highly effective solution to the human problem."
+    ],
+    [
+      "The designed solution is not functional or does not address the identified human problem.",
+      "The designed solution has limited functionality and only partially addresses the identified human problem.",
+      "The designed solution is somewhat functional and addresses some aspects of the identified human problem.",
+      "The designed solution is functional and effectively addresses the identified human problem.",
+      "The designed solution is highly functional and effectively addresses the identified human problem, with consideration for potential limitations or challenges.",
+      "The designed solution is exceptionally functional, efficient, and thoroughly addresses the identified human problem, demonstrating a deep understanding of the problem's complexities."
+    ],
+    [
+      "Materials are used inappropriately or are completely missing.",
+      "Materials are used, but not in a way that contributes to the solution.",
+      "Appropriate materials are selected, but not used effectively.",
+      "Materials are selected and used effectively to contribute to the solution.",
+      "Materials are cleverly chosen and used to enhance the solution's effectiveness.",
+      "Materials are innovatively selected and expertly used to create a highly effective and sustainable solution."
+    ]
+  ]
+}

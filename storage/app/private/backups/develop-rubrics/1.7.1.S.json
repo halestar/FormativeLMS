@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of safety practices at home.",
+    "Demonstrates understanding of safety practices at school.",
+    "Demonstrates understanding of safety practices in the community."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any safety practices at home.",
+      "Identifies one or two basic safety practices at home with limited understanding.",
+      "Identifies several safety practices at home with some understanding of their importance.",
+      "Describes common safety practices at home and explains why they are important.",
+      "Explains in detail several safety practices at home, their importance, and potential consequences of not following them.",
+      "Provides a comprehensive overview of safety practices at home, including preventative measures and emergency procedures, demonstrating a deep understanding and ability to apply them in various scenarios."
+    ],
+    [
+      "Does not identify any safety practices at school.",
+      "Identifies one or two basic safety practices at school with limited understanding.",
+      "Identifies several safety practices at school with some understanding of their importance.",
+      "Describes common safety practices at school and explains why they are important.",
+      "Explains in detail several safety practices at school, their importance, and potential consequences of not following them.",
+      "Provides a comprehensive overview of safety practices at school, including preventative measures, emergency procedures, and reporting protocols, demonstrating a deep understanding and ability to apply them in various scenarios."
+    ],
+    [
+      "Does not identify any safety practices in the community.",
+      "Identifies one or two basic safety practices in the community with limited understanding.",
+      "Identifies several safety practices in the community with some understanding of their importance.",
+      "Describes common safety practices in the community and explains why they are important.",
+      "Explains in detail several safety practices in the community, their importance, and potential consequences of not following them.",
+      "Provides a comprehensive overview of safety practices in the community, including traffic safety, personal safety, and environmental awareness, demonstrating a deep understanding and ability to apply them in various scenarios."
+    ]
+  ]
+}

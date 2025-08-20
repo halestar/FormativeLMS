@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Fundamental Principles",
+    "Understanding of Moral Values",
+    "Application to Essential Documents",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of fundamental principles of American democracy.",
+      "Demonstrates a minimal understanding of fundamental principles, with significant inaccuracies.",
+      "Demonstrates a basic understanding of some fundamental principles but struggles with others.",
+      "Demonstrates a satisfactory understanding of most fundamental principles, with minor inaccuracies.",
+      "Demonstrates a strong understanding of fundamental principles with few inaccuracies.",
+      "Demonstrates a comprehensive and nuanced understanding of all fundamental principles of American democracy."
+    ],
+    [
+      "Demonstrates no understanding of the moral values of American democracy.",
+      "Demonstrates a minimal understanding of moral values, with significant inaccuracies.",
+      "Demonstrates a basic understanding of some moral values but struggles with others.",
+      "Demonstrates a satisfactory understanding of most moral values, with minor inaccuracies.",
+      "Demonstrates a strong understanding of moral values with few inaccuracies.",
+      "Demonstrates a comprehensive and nuanced understanding of all moral values of American democracy."
+    ],
+    [
+      "Unable to connect principles and values to any essential documents.",
+      "Struggles to connect principles and values to essential documents, with many inaccuracies.",
+      "Can connect some principles and values to some documents, but struggles with accurate and complete explanations.",
+      "Connects principles and values to documents with reasonable accuracy and explanation.",
+      "Connects principles and values to documents accurately and provides strong explanations.",
+      "Insightfully connects principles and values to documents, providing comprehensive and nuanced explanations."
+    ],
+    [
+      "Provides no evidence to support claims.",
+      "Provides minimal evidence, which is often irrelevant or inaccurate.",
+      "Provides some evidence, but it is weak or not clearly connected to claims.",
+      "Provides adequate evidence to support most claims.",
+      "Provides strong evidence to support claims.",
+      "Provides compelling and well-analyzed evidence to support all claims, demonstrating critical thinking."
+    ]
+  ]
+}

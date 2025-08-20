@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Structure of State Government",
+    "Knowledge of the Functions of State Government",
+    "Understanding of the Roles and Responsibilities of Elected Officials",
+    "Ability to Explain How State Government Impacts Citizens"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the structure of state government.",
+      "Student shows minimal understanding, with significant gaps in knowledge about the branches of government or key roles.",
+      "Student identifies the basic branches of state government (executive, legislative, judicial) but struggles to explain their relationships.",
+      "Student accurately describes the three branches of state government and their general functions, but lacks detail.",
+      "Student provides a comprehensive overview of the structure of state government, including the functions and interactions of its branches.",
+      "Student demonstrates an advanced understanding of the structure of state government, including the nuances of power distribution and checks and balances."
+    ],
+    [
+      "Student demonstrates no knowledge of the functions of state government.",
+      "Student shows limited awareness of state government functions, unable to provide specific examples.",
+      "Student identifies a few key functions of state government (e.g., education, transportation) but struggles to explain their importance.",
+      "Student accurately describes several important functions of state government and their impact on citizens.",
+      "Student provides a detailed explanation of the diverse functions of state government, including examples of specific programs or policies.",
+      "Student demonstrates an advanced understanding of the functions of state government and their complex relationship to federal and local governance."
+    ],
+    [
+      "Student demonstrates no understanding of the roles and responsibilities of elected officials in state government.",
+      "Student shows minimal awareness of the roles of elected officials, unable to name specific positions or their duties.",
+      "Student identifies a few key elected officials (e.g., governor, state legislators) but struggles to explain their responsibilities.",
+      "Student accurately describes the roles and responsibilities of several elected officials in state government.",
+      "Student provides a detailed explanation of the roles and responsibilities of various elected officials, including their powers and limitations.",
+      "Student demonstrates an advanced understanding of the roles and responsibilities of elected officials, including the influence of political parties and interest groups."
+    ],
+    [
+      "Student cannot explain how state government impacts citizens.",
+      "Student struggles to connect state government actions to their impact on citizens' lives.",
+      "Student identifies a few ways state government impacts citizens (e.g., taxes, laws) but lacks detail.",
+      "Student accurately explains several ways state government impacts citizens, providing examples of specific policies or programs.",
+      "Student provides a detailed explanation of how state government impacts citizens in various areas, such as education, healthcare, and infrastructure.",
+      "Student demonstrates an advanced understanding of the complex ways state government impacts citizens and analyzes the effectiveness of state policies."
+    ]
+  ]
+}

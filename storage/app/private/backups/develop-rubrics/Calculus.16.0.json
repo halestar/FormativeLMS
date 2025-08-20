@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Application of Substitution Technique",
+    "Application of Integration by Parts Technique",
+    "Application of Trigonometric Substitution Technique",
+    "Combining Integration Techniques"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the substitution technique for integration.",
+      "Student attempts substitution but makes significant errors in identifying the appropriate substitution or in the execution of the method.",
+      "Student identifies a suitable substitution but struggles with correctly applying it to the entire integral, leading to an incorrect result.",
+      "Student correctly applies the substitution technique for simple integrals, but struggles with more complex examples requiring multiple steps or algebraic manipulation.",
+      "Student demonstrates a strong understanding of the substitution technique and can apply it accurately to a variety of integrals, with minimal errors.",
+      "Student expertly applies the substitution technique to solve a wide range of complex integrals, demonstrating a deep understanding of the method and its underlying principles."
+    ],
+    [
+      "Student demonstrates no understanding of the integration by parts technique.",
+      "Student attempts integration by parts but incorrectly identifies 'u' and 'dv', leading to a more complex integral or an incorrect result.",
+      "Student correctly identifies 'u' and 'dv' but makes errors in differentiating 'u' or integrating 'dv', resulting in an incorrect integral.",
+      "Student successfully applies integration by parts for relatively simple integrals, but struggles with more complex examples requiring multiple applications or algebraic manipulation.",
+      "Student demonstrates a strong understanding of the integration by parts technique and can apply it accurately to a variety of integrals, with minimal errors.",
+      "Student skillfully applies integration by parts to solve a wide range of complex integrals, demonstrating a deep understanding of the method and its strategic application."
+    ],
+    [
+      "Student demonstrates no understanding of trigonometric substitution.",
+      "Student attempts trigonometric substitution but fails to choose the correct trigonometric substitution or simplify the resulting integral.",
+      "Student selects an appropriate trigonometric substitution but makes errors in applying the substitution or simplifying the resulting trigonometric integral.",
+      "Student successfully applies trigonometric substitution for integrals with standard forms, but struggles with more complex examples requiring additional trigonometric identities.",
+      "Student demonstrates a strong understanding of trigonometric substitution and can apply it accurately to a variety of integrals, with minimal errors.",
+      "Student masterfully applies trigonometric substitution to solve a wide range of challenging integrals, demonstrating a comprehensive understanding of trigonometric identities and simplification techniques."
+    ],
+    [
+      "Student is unable to combine different integration techniques to solve integrals.",
+      "Student attempts to combine techniques but does so incorrectly, often leading to a more complicated or unsolvable integral.",
+      "Student recognizes the need to combine techniques but struggles with the order or application of the methods, leading to an incorrect result.",
+      "Student successfully combines integration techniques for relatively straightforward integrals, but struggles with more complex examples requiring strategic planning.",
+      "Student demonstrates proficiency in combining various integration techniques to solve a range of integrals, with minimal errors and a clear understanding of the most efficient approach.",
+      "Student expertly combines multiple integration techniques to solve highly complex integrals, demonstrating exceptional problem-solving skills and a deep understanding of integral calculus."
+    ]
+  ]
+}

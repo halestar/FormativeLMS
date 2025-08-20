@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Clarity and Precision of Claim",
+    "Development of Arguments and Counterclaims",
+    "Use of Transitions and Cohesion",
+    "Formal Style and Objective Tone",
+    "Concluding Statement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Claim is missing, unclear, or irrelevant to the topic.",
+      "Claim is vaguely stated and lacks focus; connection to the topic is tenuous.",
+      "Claim is identifiable but could be more precise; some connection to the topic.",
+      "Claim is clearly stated and relevant, but could benefit from further refinement.",
+      "Claim is precise, focused, and clearly relevant to the topic; alternate claims are mentioned.",
+      "Claim is exceptionally clear, precise, and directly relevant; skillfully distinguishes the claim from alternate or opposing claims."
+    ],
+    [
+      "No attempt to develop claims or counterclaims.",
+      "Arguments and counterclaims are presented without supporting evidence or data.",
+      "Arguments and counterclaims are present, but evidence is weak or not discipline-appropriate.",
+      "Arguments and counterclaims are developed with some evidence, but strengths and limitations are not clearly addressed.",
+      "Arguments and counterclaims are fairly developed with relevant data and evidence; strengths and limitations are acknowledged.",
+      "Arguments and counterclaims are expertly developed with strong, discipline-appropriate evidence; skillfully addresses strengths and limitations while considering audience."
+    ],
+    [
+      "No transitions used; writing lacks cohesion.",
+      "Transitions are minimal and ineffective; writing is disjointed.",
+      "Transitions are present but do not always clarify relationships between ideas.",
+      "Transitions are used to connect sections, but cohesion could be improved.",
+      "Transitions effectively link major sections and clarify relationships between claims, reasons, and evidence.",
+      "Transitions are seamless and enhance the flow of the text; expertly creates cohesion and clarifies complex relationships."
+    ],
+    [
+      "Writing lacks formal style and objective tone; inappropriate for academic context.",
+      "Style is inconsistent; tone is subjective or biased.",
+      "Style is somewhat formal, but tone occasionally lapses into subjectivity.",
+      "Maintains a generally formal style and objective tone, with minor inconsistencies.",
+      "Consistently maintains a formal style and objective tone appropriate for the discipline.",
+      "Exemplary use of formal style and objective tone; demonstrates a strong understanding of disciplinary conventions."
+    ],
+    [
+      "Conclusion is missing or does not relate to the argument.",
+      "Conclusion is weak and does not effectively summarize or support the argument.",
+      "Conclusion is present but adds little to the overall argument.",
+      "Conclusion summarizes the main points but does not fully support the argument.",
+      "Conclusion effectively summarizes and supports the argument presented.",
+      "Conclusion is insightful and provides a strong, memorable ending that reinforces the argument."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation: Ability to analyze provided data on natural hazards (locations, magnitudes, frequencies) and interpret it to identify patterns.",
+    "Forecasting Future Events: Ability to use analyzed data to forecast future catastrophic events.",
+    "Mitigation Technology Development: Ability to suggest and explain potential technologies to mitigate the effects of natural hazards.",
+    "Understanding of Natural Hazard Predictability: Demonstrates understanding of the varying predictability of different natural hazards (e.g., earthquakes vs. hurricanes)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze or interpret data.",
+      "Identifies basic data points but struggles to make connections or interpret their significance.",
+      "Analyzes data to identify some patterns, but interpretation is superficial and lacks depth.",
+      "Analyzes data effectively, identifies clear patterns, and provides a reasonable interpretation of their significance.",
+      "Demonstrates strong data analysis skills, identifies complex patterns, and provides insightful interpretation supported by evidence.",
+      "Exemplary data analysis and interpretation skills. Identifies subtle patterns, provides a comprehensive and insightful interpretation, and connects findings to broader scientific concepts."
+    ],
+    [
+      "No attempt to forecast future events based on data.",
+      "Attempts to forecast future events, but forecast is not based on the provided data or sound reasoning.",
+      "Forecasts future events based on data, but forecast is simplistic and lacks consideration of multiple factors.",
+      "Provides a reasonable forecast of future events based on data analysis and consideration of relevant factors.",
+      "Develops a well-supported forecast of future events, considering a range of data and potential variables.",
+      "Provides a highly sophisticated and accurate forecast of future events, demonstrating a deep understanding of underlying processes and potential uncertainties."
+    ],
+    [
+      "No attempt to suggest or explain mitigation technologies.",
+      "Suggests a technology but does not explain how it mitigates the effects of natural hazards.",
+      "Suggests a technology and provides a basic explanation of its mitigation effects, but explanation lacks detail.",
+      "Suggests a relevant technology and provides a clear explanation of how it mitigates the effects of natural hazards, with some specific examples.",
+      "Suggests a range of appropriate technologies and provides a detailed explanation of their mitigation effects, including considerations of limitations.",
+      "Suggests innovative and highly effective technologies and provides a comprehensive explanation of their mitigation effects, including considerations of social, economic, and environmental factors."
+    ],
+    [
+      "Demonstrates no understanding of the different levels of predictability among natural hazards.",
+      "Demonstrates a limited understanding of the different levels of predictability among natural hazards.",
+      "Recognizes that some natural hazards are more predictable than others but lacks specifics.",
+      "Explains how some natural hazards are preceded by phenomena that allow for reliable predictions, while others are not.",
+      "Clearly explains the factors that contribute to the predictability (or lack thereof) of different natural hazards, providing specific examples.",
+      "Provides a nuanced explanation of the science behind natural hazard predictability, discussing both the successes and limitations of current forecasting methods and linking it to the chaotic nature of natural events."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Parent and Offspring Behaviors",
+    "Understanding of Patterns in Survival Strategies",
+    "Use of Textual Evidence and Media",
+    "Application of Scientific Vocabulary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any behaviors of parents or offspring related to survival.",
+      "The student identifies a behavior of either a parent or offspring, but it is not clearly linked to survival.",
+      "The student identifies behaviors of both parents and offspring, but the connection to survival is vague or incomplete.",
+      "The student identifies behaviors of both parents and offspring and provides a basic explanation of how these behaviors aid in survival.",
+      "The student clearly identifies behaviors of both parents and offspring and provides a detailed explanation of how these behaviors significantly increase the offspring's chances of survival.",
+      "The student provides insightful identification of complex interactions between parent and offspring behaviors, demonstrating a nuanced understanding of their impact on offspring survival. They also provide relevant examples."
+    ],
+    [
+      "The student fails to recognize any patterns in how parent and offspring behaviors contribute to survival.",
+      "The student vaguely identifies a pattern but struggles to articulate it clearly or connect it to survival.",
+      "The student identifies a pattern in survival strategies but offers a limited or superficial explanation.",
+      "The student describes a pattern in how certain behaviors consistently aid offspring survival across different scenarios or species.",
+      "The student explains a complex pattern in survival strategies, demonstrating a clear understanding of the relationship between specific behaviors and positive outcomes for offspring. Mentions multiple species that demonstrate the pattern.",
+      "The student provides a sophisticated analysis of patterns in survival strategies, highlighting the adaptability and effectiveness of particular behaviors in diverse environments. They also discuss the evolutionary advantages of these patterns."
+    ],
+    [
+      "The student does not use any information from texts or media to support their claims.",
+      "The student attempts to use information from texts or media, but it is irrelevant or misinterpreted.",
+      "The student uses information from texts or media, but it is limited and not well-integrated into their explanation.",
+      "The student effectively uses information from texts and media to support their explanation of parent and offspring behaviors.",
+      "The student synthesizes information from multiple texts and media sources to provide a comprehensive and well-supported analysis of survival strategies.",
+      "The student critically evaluates and integrates information from a variety of sources, demonstrating a mastery of research skills and a deep understanding of the topic."
+    ],
+    [
+      "The student does not use any relevant scientific vocabulary.",
+      "The student uses some scientific vocabulary, but it is often misused or inaccurate.",
+      "The student uses basic scientific vocabulary correctly but struggles with more complex terms.",
+      "The student consistently uses appropriate scientific vocabulary to accurately describe parent and offspring behaviors and survival strategies.",
+      "The student demonstrates a sophisticated command of scientific vocabulary, using it precisely and effectively to communicate complex ideas.",
+      "The student uses scientific vocabulary with nuance and precision, demonstrating a mastery of scientific communication and a deep understanding of the underlying concepts."
+    ]
+  ]
+}

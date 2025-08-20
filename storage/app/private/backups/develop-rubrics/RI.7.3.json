@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Interactions",
+    "Analysis of Influence",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any interactions between individuals, events, or ideas within the text.",
+      "The student identifies interactions vaguely or inaccurately.",
+      "The student identifies at least one interaction between individuals, events, or ideas but provides limited detail.",
+      "The student identifies multiple interactions with some supporting details.",
+      "The student clearly identifies and describes several key interactions, providing relevant supporting details from the text.",
+      "The student skillfully identifies and thoroughly describes significant interactions, providing compelling textual evidence and insightful connections."
+    ],
+    [
+      "The student offers no analysis of how interactions influence individuals, events, or ideas.",
+      "The student attempts to analyze influence but is unclear or lacks supporting evidence.",
+      "The student provides a basic analysis of how one interaction influences an individual, event, or idea.",
+      "The student analyzes how multiple interactions influence individuals, events, or ideas, using some supporting details.",
+      "The student provides a detailed analysis of how interactions shape individuals, events, or ideas, using relevant textual evidence.",
+      "The student offers a nuanced and insightful analysis of the complex ways interactions influence individuals, events, and ideas, drawing upon strong textual support and reasoning."
+    ],
+    [
+      "The response is unclear, disorganized, and difficult to understand.",
+      "The response lacks clarity and organization, making it challenging to follow the analysis.",
+      "The response demonstrates some clarity and organization, but connections between ideas are not always clear.",
+      "The response is generally clear and organized with a logical flow of ideas.",
+      "The response is clearly and effectively organized, presenting a coherent and well-supported analysis.",
+      "The response is exceptionally clear, concise, and logically organized, presenting a sophisticated and persuasive analysis."
+    ]
+  ]
+}

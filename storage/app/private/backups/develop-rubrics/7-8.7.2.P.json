@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of situations requiring Standard Precautions",
+    "Accuracy in describing Standard Precautions",
+    "Justification for using Standard Precautions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any situations where Standard Precautions are necessary.",
+      "Identifies one situation inappropriately or vaguely.",
+      "Identifies one situation where Standard Precautions are appropriate, but lacks detail.",
+      "Identifies two situations where Standard Precautions are appropriate and provides some detail.",
+      "Identifies three situations where Standard Precautions are appropriate, providing clear and relevant details for each.",
+      "Identifies multiple situations (more than 3) where Standard Precautions are appropriate, clearly describing each situation and why the precautions are necessary."
+    ],
+    [
+      "Demonstrates no understanding of Standard Precautions.",
+      "Misidentifies or inaccurately describes Standard Precautions.",
+      "Identifies some elements of Standard Precautions but with significant inaccuracies or omissions.",
+      "Describes Standard Precautions with minor inaccuracies or omissions.",
+      "Accurately describes most components of Standard Precautions, such as hand hygiene, PPE usage, and safe injection practices.",
+      "Comprehensively and accurately describes all key components of Standard Precautions, demonstrating a thorough understanding."
+    ],
+    [
+      "Provides no justification for using Standard Precautions in any situation.",
+      "Offers a vague or irrelevant justification for using Standard Precautions.",
+      "Provides a basic justification for using Standard Precautions in at least one situation.",
+      "Explains why Standard Precautions are needed in some situations, linking it to infection control.",
+      "Clearly justifies the use of Standard Precautions in multiple situations, explaining the rationale behind each precaution.",
+      "Provides comprehensive and insightful justifications for using Standard Precautions, explaining the underlying principles of infection control and prevention in various scenarios."
+    ]
+  ]
+}

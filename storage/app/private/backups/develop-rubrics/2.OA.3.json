@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify even and odd numbers within a group of up to 20 objects.",
+    "Ability to express an even number as a sum of two equal addends (e.g., 6 = 3 + 3).",
+    "Ability to write an equation representing the sum of equal addends for even numbers."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify even or odd numbers and struggles to group objects.",
+      "Student can identify even or odd numbers with significant prompting and struggles to group objects effectively.",
+      "Student can identify even or odd numbers with some assistance and can group objects with some errors.",
+      "Student can generally identify even or odd numbers and group objects with minor errors.",
+      "Student can accurately identify even and odd numbers and group objects effectively with minimal errors.",
+      "Student demonstrates a thorough understanding of even and odd numbers, accurately groups objects, and can explain the reasoning behind their groupings."
+    ],
+    [
+      "Student cannot express even numbers as a sum of two equal addends.",
+      "Student struggles to express even numbers as a sum of two equal addends even with significant prompting.",
+      "Student can express even numbers as a sum of two equal addends with some assistance and may make errors.",
+      "Student can generally express even numbers as a sum of two equal addends with minor errors.",
+      "Student can accurately express even numbers as a sum of two equal addends with minimal errors.",
+      "Student demonstrates a strong understanding of expressing even numbers as a sum of two equal addends, accurately represents numbers, and can explain their reasoning."
+    ],
+    [
+      "Student cannot write an equation to represent the sum of equal addends for even numbers.",
+      "Student struggles to write an equation even with significant prompting and assistance.",
+      "Student can write an equation with some assistance and may make errors in the equation.",
+      "Student can generally write an equation with minor errors.",
+      "Student can accurately write an equation with minimal errors.",
+      "Student accurately writes equations to represent the sum of equal addends and explains the meaning of the equation clearly."
+    ]
+  ]
+}

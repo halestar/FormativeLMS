@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Inverse Trigonometric Definitions",
+    "Application of Inverse Trigonometric Properties",
+    "Expression as Indefinite Integrals",
+    "Mathematical Communication and Notation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of inverse trigonometric functions is demonstrated.",
+      "Demonstrates minimal understanding of inverse trigonometric functions and their definitions.",
+      "Demonstrates a basic understanding of inverse trigonometric functions, but with some inaccuracies.",
+      "Demonstrates a clear understanding of inverse trigonometric functions and their definitions.",
+      "Demonstrates a strong understanding of inverse trigonometric functions, including domain and range.",
+      "Demonstrates a comprehensive and nuanced understanding of inverse trigonometric functions and their properties."
+    ],
+    [
+      "Unable to apply properties of inverse trigonometric functions.",
+      "Attempts to apply properties, but with little success or accuracy.",
+      "Applies some properties of inverse trigonometric functions with limited success.",
+      "Applies properties of inverse trigonometric functions correctly in most situations.",
+      "Applies properties of inverse trigonometric functions effectively and accurately in a variety of problems.",
+      "Demonstrates mastery in applying properties of inverse trigonometric functions to solve complex problems."
+    ],
+    [
+      "No understanding of how to express inverse trigonometric functions as indefinite integrals.",
+      "Shows limited awareness of the relationship between inverse trigonometric functions and indefinite integrals.",
+      "Can express some inverse trigonometric functions as indefinite integrals, but with errors.",
+      "Expresses inverse trigonometric functions as indefinite integrals correctly.",
+      "Expresses inverse trigonometric functions as indefinite integrals, simplifying the results.",
+      "Demonstrates a deep understanding of expressing inverse trigonometric functions as indefinite integrals, including complex forms."
+    ],
+    [
+      "Uses incorrect notation or fails to explain reasoning.",
+      "Uses mathematical notation with several errors; explanation is unclear.",
+      "Uses mostly correct notation; explanation may be incomplete.",
+      "Uses correct mathematical notation and provides clear explanations.",
+      "Presents work in a clear, organized manner with meticulous notation and justification.",
+      "Presents work clearly and insightfully with flawless notation and justification."
+    ]
+  ]
+}

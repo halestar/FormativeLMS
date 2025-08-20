@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to create equations in two variables",
+    "Accuracy of graphs and labels",
+    "Ability to represent relationships between quantities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to create equations or equations are completely irrelevant.",
+      "Creates equations, but they contain significant errors or only represent a superficial understanding of the relationship.",
+      "Creates equations with some errors or inconsistencies in representing the relationships between quantities.",
+      "Creates equations that generally represent the relationships between quantities, but may lack precision or clarity.",
+      "Creates accurate and clear equations in two variables that effectively represent the relationships between quantities.",
+      "Creates sophisticated and accurate equations in two variables, demonstrating a deep understanding of the relationships between quantities. Equations are clearly presented and may offer additional insights."
+    ],
+    [
+      "No graph is present or the graph is completely inaccurate and lacks labels.",
+      "Graph is present but contains major inaccuracies, is poorly labeled, or lacks scales.",
+      "Graph has some inaccuracies, missing labels, or inconsistent scales.",
+      "Graph is mostly accurate with appropriate labels and scales, but may contain minor errors.",
+      "Accurate graph with clear labels and consistent scales, demonstrating a good understanding of graphical representation.",
+      "Precise and well-presented graph with detailed labels and consistent scales, demonstrating a comprehensive understanding of graphical representation. The graph enhances the understanding of the relationships."
+    ],
+    [
+      "Fails to identify or represent the relationships between quantities.",
+      "Attempts to represent relationships but demonstrates a poor understanding of the quantities involved.",
+      "Represents some relationships, but with significant inaccuracies or omissions.",
+      "Represents most relationships accurately, but may overlook subtle connections or complexities.",
+      "Clearly and accurately represents the relationships between quantities, demonstrating a strong understanding of the context.",
+      "Masterfully represents the relationships between quantities, providing insightful analysis and a deep understanding of the underlying principles."
+    ]
+  ]
+}

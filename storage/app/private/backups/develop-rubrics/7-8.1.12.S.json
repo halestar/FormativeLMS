@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internet Safety Hazards",
+    "Explanation of Risks",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any safety hazards associated with Internet usage.",
+      "Identifies one basic safety hazard associated with Internet usage.",
+      "Identifies a few common safety hazards associated with Internet usage, but lacks detail.",
+      "Identifies several safety hazards associated with Internet usage with some detail.",
+      "Identifies most major safety hazards associated with Internet usage with clear explanations.",
+      "Comprehensibly identifies a range of safety hazards associated with Internet usage with detailed explanations."
+    ],
+    [
+      "Does not explain any risks associated with the identified hazards.",
+      "Provides a vague or unclear explanation of risks for one hazard.",
+      "Explains risks for some hazards, but explanations lack depth or clarity.",
+      "Explains risks associated with several hazards with reasonable clarity.",
+      "Clearly explains the risks associated with most of the identified hazards.",
+      "Provides detailed and comprehensive explanations of the risks associated with all identified hazards, demonstrating a strong understanding."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat unclear and lacks organization.",
+      "Response is understandable but could be clearer and more organized.",
+      "Response is clear and organized, but lacks some detail.",
+      "Response is clear, well-organized, and easy to understand with good detail.",
+      "Response is exceptionally clear, well-organized, and communicates complex ideas effectively with strong detail."
+    ]
+  ]
+}

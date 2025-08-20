@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Precision in Defining Criteria and Constraints",
+    "Consideration of Scientific Principles",
+    "Evaluation of Potential Impacts on People and the Environment",
+    "Use of Research and Data"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The criteria and constraints of the design problem are not defined or are vaguely defined, lacking specific details.",
+      "The criteria and constraints are somewhat defined, but lack sufficient precision for a successful solution. Some relevant details are missing.",
+      "The criteria and constraints are generally defined with some precision, but there are still areas lacking clarity or detail.",
+      "The criteria and constraints of the design problem are defined with sufficient precision to generally ensure a successful solution. Most relevant details are included.",
+      "The criteria and constraints are defined with high precision, ensuring a successful solution. Consideration of scientific principles is evident.",
+      "The criteria and constraints are exceptionally well-defined, demonstrating a comprehensive understanding of scientific principles and potential impacts, ensuring a highly successful solution."
+    ],
+    [
+      "No consideration of relevant scientific principles is evident.",
+      "Minimal consideration of relevant scientific principles; understanding is superficial.",
+      "Some consideration of scientific principles, but connection to the design problem is weak or unclear.",
+      "Adequate consideration of relevant scientific principles that may limit possible solutions.",
+      "Strong consideration of relevant scientific principles, demonstrating a solid understanding of how they influence the design problem.",
+      "Thorough and insightful consideration of scientific principles, creatively applying them to optimize the design solution and address potential limitations."
+    ],
+    [
+      "No evaluation of potential impacts on people and the natural environment.",
+      "Minimal evaluation of potential impacts; overlooks key considerations.",
+      "A superficial evaluation of potential impacts, with limited understanding of consequences.",
+      "Identifies some potential impacts on people and the natural environment that may limit possible solutions.",
+      "A comprehensive evaluation of potential impacts, demonstrating awareness of short-term and long-term consequences.",
+      "A thorough evaluation of potential impacts, skillfully balancing positive and negative consequences to optimize the design's sustainability and benefit to society and the environment."
+    ],
+    [
+      "No evidence of research or data used to inform the problem definition.",
+      "Minimal research conducted; sources are questionable or irrelevant.",
+      "Some research evident, but connection to the problem definition is weak.",
+      "Research used to inform the problem definition, with appropriate sources cited.",
+      "Strong research and data analysis inform the problem definition, demonstrating a deep understanding of the issues.",
+      "Extensive and insightful research and data analysis are used to refine the problem definition, leading to innovative solutions."
+    ]
+  ]
+}

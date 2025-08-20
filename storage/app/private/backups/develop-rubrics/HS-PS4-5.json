@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Wave Properties",
+    "Explanation of Information Transfer",
+    "Communication of Technical Information",
+    "Application of Crosscutting Concepts (Cause and Effect)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of wave properties or how they are used in technological devices.",
+      "Student demonstrates a minimal understanding of wave properties, with significant misconceptions or gaps in knowledge.",
+      "Student demonstrates a basic understanding of wave properties, but struggles to connect them to technological devices or explain their applications.",
+      "Student demonstrates a satisfactory understanding of wave properties and can identify some technological devices that utilize them, but explanations lack detail or clarity.",
+      "Student demonstrates a strong understanding of wave properties and can explain how they are applied in various technological devices, providing clear and accurate explanations.",
+      "Student demonstrates a comprehensive understanding of wave properties, including advanced concepts, and can effectively communicate how these properties are utilized in complex technological devices, providing insightful explanations."
+    ],
+    [
+      "Student provides no explanation of how information is transferred using waves.",
+      "Student provides a vague or inaccurate explanation of information transfer, demonstrating a lack of understanding of the underlying principles.",
+      "Student provides a basic explanation of information transfer, but struggles to connect it to specific examples or technologies.",
+      "Student provides a satisfactory explanation of information transfer, identifying some key components and processes, but explanations lack depth or detail.",
+      "Student provides a clear and detailed explanation of information transfer, describing the key components and processes involved in transmitting and capturing information using waves.",
+      "Student provides a comprehensive and insightful explanation of information transfer, including advanced concepts and real-world applications, demonstrating a deep understanding of the underlying principles."
+    ],
+    [
+      "Student's communication of technical information is unclear, disorganized, and difficult to understand.",
+      "Student's communication of technical information is somewhat unclear and disorganized, with significant errors or omissions.",
+      "Student communicates technical information in a basic manner, but the presentation lacks clarity, coherence, or detail.",
+      "Student communicates technical information effectively, presenting ideas in a logical and organized manner, with few errors or omissions.",
+      "Student communicates technical information clearly and concisely, presenting ideas in a well-organized and engaging manner, with minimal errors or omissions.",
+      "Student communicates technical information with exceptional clarity, precision, and sophistication, presenting ideas in a compelling and insightful manner, demonstrating mastery of the subject matter."
+    ],
+    [
+      "Student fails to identify or explain any cause-and-effect relationships related to wave behavior and technological devices.",
+      "Student identifies some cause-and-effect relationships, but the explanations are vague, incomplete, or inaccurate.",
+      "Student identifies cause-and-effect relationships related to wave behavior and technological devices, but struggles to explain the connections or implications.",
+      "Student explains cause-and-effect relationships related to wave behavior and technological devices, providing some detail and supporting evidence.",
+      "Student explains cause-and-effect relationships clearly and thoroughly, providing detailed examples and supporting evidence to demonstrate the connections between wave behavior and technological outcomes.",
+      "Student analyzes and evaluates complex cause-and-effect relationships related to wave behavior and technological devices, demonstrating a deep understanding of the underlying principles and implications."
+    ]
+  ]
+}

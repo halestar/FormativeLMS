@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Frequency of Participation in Physical Activities",
+    "Variety of Activities",
+    "Initiative and Engagement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not participate in any physical activities with friends or family.",
+      "Student rarely participates in physical activities with friends or family (e.g., once a month or less).",
+      "Student occasionally participates in physical activities with friends or family (e.g., a few times a month).",
+      "Student participates in physical activities with friends or family on a semi-regular basis (e.g., once a week).",
+      "Student regularly participates in physical activities with friends or family (e.g., several times a week).",
+      "Student actively and consistently participates in physical activities with friends and family, demonstrating enthusiasm and commitment to maintaining an active lifestyle."
+    ],
+    [
+      "Student does not engage in a variety of physical activities.",
+      "Student engages in only one type of physical activity with friends or family.",
+      "Student engages in a limited range of physical activities (2-3 types) with friends or family.",
+      "Student participates in a moderate variety of physical activities with friends or family.",
+      "Student participates in a wide variety of physical activities with friends or family, showing adaptability and interest.",
+      "Student actively seeks out and participates in a diverse range of physical activities with friends and family, demonstrating a commitment to exploring different ways to stay active."
+    ],
+    [
+      "Student shows no initiative in suggesting or organizing physical activities with friends or family.",
+      "Student rarely suggests or participates actively in planning physical activities.",
+      "Student occasionally suggests or participates in planning physical activities when prompted.",
+      "Student sometimes takes initiative in suggesting or organizing physical activities with friends or family.",
+      "Student frequently takes initiative and actively engages in planning and organizing physical activities with friends or family.",
+      "Student consistently demonstrates leadership by initiating, planning, and actively engaging in physical activities with friends and family, inspiring others to participate."
+    ]
+  ]
+}

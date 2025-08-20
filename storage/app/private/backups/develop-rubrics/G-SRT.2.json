@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Similarity Transformations",
+    "Ability to Determine Similarity Between Figures",
+    "Explanation of Similarity for Triangles",
+    "Application of Proportionality and Angle Equality"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of similarity transformations is demonstrated.",
+      "Demonstrates minimal understanding of similarity transformations.",
+      "Demonstrates partial understanding of similarity transformations but struggles to apply them.",
+      "Demonstrates adequate understanding of similarity transformations and can apply them in simple cases.",
+      "Demonstrates strong understanding of similarity transformations and can apply them in most cases.",
+      "Demonstrates comprehensive understanding of similarity transformations and can apply them fluently and accurately in complex scenarios."
+    ],
+    [
+      "Unable to determine if two figures are similar using similarity transformations.",
+      "Struggles to determine if two figures are similar, even with guidance.",
+      "Can sometimes determine if two figures are similar, but makes frequent errors.",
+      "Can usually determine if two figures are similar using similarity transformations with occasional errors.",
+      "Consistently determines if two figures are similar using similarity transformations accurately.",
+      "Masterfully determines if two figures are similar using similarity transformations and explains reasoning with precision."
+    ],
+    [
+      "Unable to explain the meaning of similarity for triangles.",
+      "Provides a vague or incomplete explanation of similarity for triangles.",
+      "Explains similarity for triangles with some inaccuracies regarding angles or sides.",
+      "Explains similarity for triangles by mentioning equality of angles and proportionality of sides, but lacks clarity.",
+      "Clearly explains similarity for triangles as the equality of corresponding angles and proportionality of corresponding sides.",
+      "Provides a comprehensive and insightful explanation of similarity for triangles, including equality of corresponding angles and proportionality of corresponding sides, with clear justification."
+    ],
+    [
+      "Does not apply proportionality or angle equality concepts.",
+      "Attempts to apply proportionality or angle equality but demonstrates significant errors.",
+      "Applies proportionality or angle equality inconsistently with errors.",
+      "Adequately applies proportionality or angle equality in determining similarity.",
+      "Accurately applies proportionality and angle equality to determine similarity and solve problems.",
+      "Expertly applies proportionality and angle equality, providing clear and accurate solutions and justifications, demonstrating a deep understanding."
+    ]
+  ]
+}

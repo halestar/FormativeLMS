@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Clarity and Focus of Claim",
+    "Use of Evidence and Reasoning",
+    "Acknowledgment and Response to Counterclaims",
+    "Organization and Cohesion",
+    "Style and Tone"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Claim is missing or completely unclear; no discernible argument.",
+      "Claim is vague or confusing; the argument lacks a clear focus.",
+      "Claim is somewhat identifiable but lacks precision; the focus of the argument is not consistently maintained.",
+      "Claim is clear and identifiable; the argument generally maintains focus with occasional digressions.",
+      "Claim is clear, focused, and appropriately narrow; the argument is well-maintained throughout.",
+      "Claim is exceptionally clear, insightful, and sharply focused; the argument is compelling and consistently maintained with sophistication."
+    ],
+    [
+      "No evidence is presented, or the evidence is completely irrelevant.",
+      "Evidence is minimal, weak, or irrelevant to the claim; reasoning is absent or illogical.",
+      "Evidence is present but may be insufficient, inaccurate, or not clearly linked to the claim; reasoning is weak or underdeveloped.",
+      "Evidence is relevant and generally supports the claim; reasoning is logical but may lack depth or complexity.",
+      "Evidence is well-chosen, relevant, and effectively supports the claim; reasoning is logical, clear, and demonstrates a good understanding of the topic.",
+      "Evidence is compelling, insightful, and strongly supports the claim; reasoning is sophisticated, nuanced, and demonstrates a deep understanding of the topic."
+    ],
+    [
+      "Counterclaims are not acknowledged.",
+      "Counterclaims are mentioned but not addressed or are misrepresented.",
+      "Counterclaims are acknowledged superficially; responses are weak or irrelevant.",
+      "Counterclaims are acknowledged and addressed with some reasoning, but responses may lack depth or persuasiveness.",
+      "Counterclaims are thoughtfully acknowledged and addressed with relevant evidence and reasoning; responses demonstrate a good understanding of different perspectives.",
+      "Counterclaims are insightfully acknowledged and effectively refuted with compelling evidence and sophisticated reasoning; responses demonstrate a nuanced understanding of different perspectives."
+    ],
+    [
+      "The argument is disorganized and lacks cohesion; ideas are presented randomly.",
+      "The argument is poorly organized; transitions are lacking, making it difficult to follow the line of reasoning.",
+      "The argument shows some organization, but transitions are weak or inconsistent; the line of reasoning is sometimes unclear.",
+      "The argument is generally well-organized with clear transitions; the line of reasoning is mostly easy to follow.",
+      "The argument is logically organized with effective transitions; the line of reasoning is clear and coherent.",
+      "The argument is exceptionally well-organized with seamless transitions; the line of reasoning is compelling and sophisticated."
+    ],
+    [
+      "Style is inappropriate or absent.",
+      "Style is largely informal or inappropriate for academic writing.",
+      "Style is inconsistent; tone may be occasionally inappropriate.",
+      "Style is generally formal and appropriate; tone is mostly consistent.",
+      "Style is consistently formal and appropriate for academic writing; tone is well-maintained throughout.",
+      "Style is sophisticated and engaging; tone is consistently formal and enhances the persuasiveness of the argument."
+    ]
+  ]
+}

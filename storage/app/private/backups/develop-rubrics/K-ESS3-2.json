@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Purpose of Weather Forecasting",
+    "Asking pertinent questions about severe weather",
+    "Understanding Natural Hazards and Regional Weather Patterns"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of why weather forecasting is important.",
+      "Shows a minimal understanding of weather forecasting, but cannot articulate its purpose.",
+      "Identifies weather forecasting as something related to weather, but doesn't understand its preparation or response aspects.",
+      "Understands that weather forecasting helps predict weather, but has trouble explaining its importance in preparing for severe events.",
+      "Clearly explains that weather forecasting helps predict weather and can describe either its preparation OR response aspects regarding severe events.",
+      "Clearly explains that weather forecasting helps predict weather and can describe BOTH its preparation AND response aspects regarding severe events."
+    ],
+    [
+      "Does not ask questions or asks questions unrelated to weather forecasting or severe weather.",
+      "Asks a question that is vaguely related to weather forecasting but does not demonstrate understanding of its use.",
+      "Asks a question about weather in general, but not specifically related to forecasting or severe weather.",
+      "Asks a question related to either weather forecasting OR severe weather, but not both.",
+      "Asks a relevant question that links weather forecasting to preparation or response for severe weather.",
+      "Asks insightful questions about the specific purposes of weather forecasting in preparing for and responding to different kinds of severe weather events, demonstrating understanding of local weather patterns."
+    ],
+    [
+      "Shows no understanding of natural hazards or weather patterns.",
+      "Has a vague awareness of the existence of weather, but no understanding of natural hazards.",
+      "Identifies natural hazards as bad things, but cannot link them to weather patterns or forecasting.",
+      "Understands that certain weather events can be hazardous, but does not relate them to specific regions.",
+      "Relates certain kinds of severe weather to the idea of regional weather, but doesn't understand forecasting's relation to this.",
+      "Explains that some kinds of severe weather are more likely in certain regions, linking this to the purpose of weather forecasting for preparedness and response."
+    ]
+  ]
+}

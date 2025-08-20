@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Trusted Adults at Home",
+    "Identification of Trusted Adults at School",
+    "Understanding of the Role of Trusted Adults in Mental and Emotional Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any trusted adults at home who can assist with mental and emotional health concerns.",
+      "The student can identify one adult at home, but the choice may be questionable in terms of reliability or appropriateness.",
+      "The student can identify one trusted adult at home who can potentially assist with mental and emotional health concerns, but lacks detail.",
+      "The student can identify one or two trusted adults at home and provides a reasonable explanation of why they are considered trustworthy.",
+      "The student can identify two or more trusted adults at home, providing clear and appropriate reasons for their selection, demonstrating good understanding of supportive relationships.",
+      "The student comprehensively identifies multiple trusted adults at home, clearly articulating their roles in providing mental and emotional support, and demonstrates a nuanced understanding of healthy family dynamics."
+    ],
+    [
+      "The student cannot identify any trusted adults at school who can assist with mental and emotional health concerns.",
+      "The student identifies one adult at school, but the choice is questionable regarding their role or suitability.",
+      "The student identifies one trusted adult at school who can potentially assist with mental and emotional health concerns, but lacks detail.",
+      "The student identifies one or two trusted adults at school and provides a reasonable explanation of why they are considered trustworthy.",
+      "The student identifies two or more trusted adults at school, providing clear and appropriate reasons for their selection, demonstrating good understanding of supportive school relationships.",
+      "The student comprehensively identifies multiple trusted adults at school, clearly articulating their roles in providing mental and emotional support, and demonstrates a nuanced understanding of supportive school environments."
+    ],
+    [
+      "The student demonstrates no understanding of why one might seek help from a trusted adult for mental or emotional health concerns.",
+      "The student shows limited understanding of the role trusted adults play, offering vague or incomplete reasons.",
+      "The student identifies that trusted adults can provide help but lacks specific examples or explanations.",
+      "The student explains that trusted adults can provide support, guidance, or a listening ear, but explanation may be basic.",
+      "The student clearly articulates the various ways trusted adults can support mental and emotional health, such as providing advice, emotional support, or connecting them with resources.",
+      "The student demonstrates a comprehensive understanding of the multifaceted role trusted adults play in mental and emotional health, including specific examples of how they can provide support, advocate for well-being, and foster healthy coping mechanisms."
+    ]
+  ]
+}

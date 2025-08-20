@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Contributing Factors",
+    "Analysis of Economic and Political Conditions",
+    "Discussion of Technological Innovations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the factors that led to England's early industrialization.",
+      "Identifies one or two factors vaguely without explaining their importance or interrelation.",
+      "Identifies several factors, but explanations are superficial and lack depth.",
+      "Explains multiple factors contributing to England's industrialization, such as natural resources, population growth, and technological innovation, with reasonable clarity.",
+      "Clearly articulates several key factors and explains their significance and interrelation in facilitating England's early industrialization, providing specific examples.",
+      "Provides a comprehensive analysis of the multiple interacting factors that enabled England to industrialize first, including detailed examples and a nuanced understanding of their relative importance."
+    ],
+    [
+      "Shows no understanding of the economic or political conditions in England at the time.",
+      "Mentions economic or political conditions but does not connect them to industrialization.",
+      "Briefly describes some economic and political factors without significant analysis.",
+      "Explains how England\u2019s economic and political systems (e.g., banking, property rights) supported industrial growth with moderate detail.",
+      "Analyzes the ways in which England's economic and political structures uniquely fostered industrial development, providing clear evidence.",
+      "Offers a sophisticated analysis of the interplay between economic policies, political stability, and social structures in England and how these conditions created an environment ripe for industrialization, comparing it to conditions in other countries."
+    ],
+    [
+      "Does not mention any technological innovations.",
+      "Lists one or two inventions without explaining their impact.",
+      "Identifies a few key inventions (e.g., steam engine, cotton gin) but lacks depth in explaining their influence.",
+      "Explains how key inventions like the steam engine and textile machines drove industrial growth in England.",
+      "Analyzes the impact of specific technological advancements on different sectors of the English economy, explaining how these innovations interconnected and accelerated industrialization.",
+      "Presents a detailed account of the evolution and diffusion of critical technologies within England, assessing their long-term impacts on society and economy, and comparing England\u2019s innovative capacity to other nations."
+    ]
+  ]
+}

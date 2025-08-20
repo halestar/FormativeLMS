@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Identification",
+    "Use of Spatial Context",
+    "Use of Resources (Maps, Tables, etc.)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any geographical features or demonstrates a complete misunderstanding of the concept.",
+      "The student identifies one or two geographical features with significant inaccuracies.",
+      "The student identifies some geographical features, but with several inaccuracies or omissions.",
+      "The student identifies most of the common geographical features in their local region with minor inaccuracies.",
+      "The student accurately identifies nearly all of the expected geographical features in their local region.",
+      "The student accurately and comprehensively identifies all of the expected geographical features in their local region and demonstrates a nuanced understanding of their characteristics."
+    ],
+    [
+      "The student does not use or demonstrate any understanding of spatial context when identifying geographical features.",
+      "The student attempts to use spatial context, but the attempt is flawed and demonstrates a limited understanding.",
+      "The student inconsistently uses spatial context to identify geographical features, with some success.",
+      "The student generally uses spatial context effectively to identify geographical features, with few inconsistencies.",
+      "The student consistently and effectively uses spatial context to identify geographical features, demonstrating a solid understanding of their relative locations.",
+      "The student expertly uses spatial context to identify and explain the relationships between geographical features, demonstrating a deep understanding of spatial relationships."
+    ],
+    [
+      "The student does not use any provided resources or attempts to use them incorrectly.",
+      "The student attempts to use provided resources, but the attempt is ineffective and demonstrates a lack of understanding.",
+      "The student inconsistently uses provided resources, with limited success in identifying geographical features.",
+      "The student generally uses provided resources effectively to identify geographical features.",
+      "The student consistently and effectively uses provided resources to accurately identify geographical features.",
+      "The student skillfully and insightfully uses provided resources to identify and analyze geographical features, drawing insightful conclusions."
+    ]
+  ]
+}

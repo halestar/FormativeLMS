@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the historical context of California's water system development.",
+    "Knowledge of key components: dams, aqueducts, and reservoirs.",
+    "Tracing the evolution of the water system over time.",
+    "Understanding the interconnectedness of the water system components."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the historical context or the need for water management in California.",
+      "Shows a minimal understanding of the historical context with significant gaps in knowledge.",
+      "Identifies some aspects of the historical context but struggles to connect them to the development of the water system.",
+      "Explains the basic historical factors that led to the need for a complex water system in California.",
+      "Clearly explains the historical context, including population growth, agricultural expansion, and climate, and their impact on water system development.",
+      "Provides a comprehensive and nuanced explanation of the historical context, including socio-economic and political factors influencing water management decisions."
+    ],
+    [
+      "Cannot identify any of the key components of California's water system.",
+      "Identifies only one key component with limited accuracy.",
+      "Identifies two key components but struggles to explain their function or interconnectedness.",
+      "Identifies and describes the basic function of dams, aqueducts, and reservoirs within the water system.",
+      "Explains the function of dams, aqueducts, and reservoirs in detail, including their role in water storage, transport, and distribution.",
+      "Demonstrates an in-depth understanding of the design, engineering, and operational aspects of dams, aqueducts, and reservoirs, including challenges and innovations."
+    ],
+    [
+      "Does not attempt to trace the evolution or development of the water system.",
+      "Presents a fragmented or inaccurate timeline of the water system's development.",
+      "Identifies some key stages in the water system's evolution but lacks detail and coherence.",
+      "Describes the evolution of the water system from its early stages to its current network, highlighting major developments.",
+      "Traces the evolution of the water system with specific examples and dates, showing a clear progression of infrastructure development.",
+      "Provides a detailed and analytical account of the water system's evolution, including policy changes, technological advancements, and environmental considerations."
+    ],
+    [
+      "Fails to recognize any connections between the different components of the water system.",
+      "Suggests a vague connection between components without specific details.",
+      "Identifies some connections but struggles to explain how changes in one component affect others.",
+      "Explains how dams, aqueducts, and reservoirs work together to supply water across California.",
+      "Demonstrates a clear understanding of the complex interactions between different components of the water system and their impact on water availability.",
+      "Analyzes the interdependencies within the water system, including the environmental, economic, and social impacts of these connections."
+    ]
+  ]
+}

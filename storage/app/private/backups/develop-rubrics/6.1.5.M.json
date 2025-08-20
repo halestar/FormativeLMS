@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Individual Differences",
+    "Understanding disabilities",
+    "Use of respectful language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of individual differences or the importance of empathy.",
+      "Demonstrates a limited awareness of individual differences with minimal understanding of empathy.",
+      "Recognizes some individual differences and mentions empathy but struggles to explain its importance.",
+      "Describes various individual differences and explains the importance of empathy in general terms.",
+      "Explains the importance of empathy when interacting with individuals who have disabilities or chronic diseases, while providing examples.",
+      "Articulates a deep understanding of the importance of empathy towards individual differences, including disabilities and chronic diseases, by providing comprehensive examples."
+    ],
+    [
+      "Demonstrates no understanding of disabilities and chronic diseases.",
+      "Demonstrates a limited understanding of disabilities and chronic diseases, unable to provide any examples.",
+      "Offers basic definitions of disabilities and chronic diseases but struggles to explain the challenges individuals face.",
+      "Explains disabilities and chronic diseases, describing challenges individuals face and why an empathetic approach is helpful.",
+      "Articulates a nuanced understanding of disabilities and chronic diseases, while explaining the challenges individuals face and how empathy can help.",
+      "Demonstrates comprehensive knowledge of disabilities and chronic diseases, discussing the challenges individuals face and the critical role of empathy."
+    ],
+    [
+      "Uses language that is disrespectful or dismissive when discussing individual differences, disabilities, or chronic diseases.",
+      "Language used is sometimes disrespectful or insensitive when talking about the topic.",
+      "Uses generally neutral language but occasionally demonstrates insensitivity or lacks awareness in word choice.",
+      "Consistently uses respectful and sensitive language when discussing individual differences, disabilities and chronic diseases.",
+      "Demonstrates an advanced understanding of the impact of language and consistently uses respectful and inclusive language.",
+      "Uses language that demonstrates understanding of individual differences, while advocating for respectful communication."
+    ]
+  ]
+}

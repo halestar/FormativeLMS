@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to differentiate between linear and exponential functions based on rate of change.",
+    "Skill in recognizing situations that can be modeled by linear functions.",
+    "Skill in recognizing situations that can be modeled by exponential functions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify linear or exponential functions.",
+      "Student shows minimal understanding of linear and exponential functions and their rates of change.",
+      "Student can identify linear functions but struggles with exponential functions, or vice versa.",
+      "Student can differentiate between linear and exponential functions in simple scenarios, but struggles with more complex situations.",
+      "Student can confidently differentiate between linear and exponential functions based on their constant or changing rate of change in most scenarios.",
+      "Student can expertly differentiate between linear and exponential functions, providing clear explanations of their distinct rates of change in various complex scenarios and can apply the concepts to real-world problems."
+    ],
+    [
+      "Student cannot recognize situations that can be modeled with linear functions.",
+      "Student struggles to identify situations that can be modeled with linear functions.",
+      "Student can identify very basic situations modeled by linear functions but misses key details or struggles with application.",
+      "Student can recognize and describe situations that can be modeled with linear functions, including identifying the constant rate of change.",
+      "Student can skillfully identify, describe, and provide examples of situations that can be modeled with linear functions, explaining the significance of the constant rate of change.",
+      "Student can expertly recognize and explain nuanced situations that can be modeled with linear functions, providing insightful analysis of the constant rate of change and its implications within the given context."
+    ],
+    [
+      "Student cannot recognize situations that can be modeled with exponential functions.",
+      "Student struggles to identify situations that can be modeled with exponential functions.",
+      "Student can identify very basic situations modeled by exponential functions but misses key details or struggles with application.",
+      "Student can recognize and describe situations that can be modeled with exponential functions, identifying the changing rate of change.",
+      "Student can skillfully identify, describe, and provide examples of situations that can be modeled with exponential functions, explaining the significance of the changing rate of change.",
+      "Student can expertly recognize and explain nuanced situations that can be modeled with exponential functions, providing insightful analysis of the changing rate of change and its implications within the given context."
+    ]
+  ]
+}

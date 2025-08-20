@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Key Figures",
+    "Knowledge of Writings and Speeches",
+    "Historical Context and Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Elizabeth Cady Stanton, Margaret Fuller, Lucretia Mott, or Susan B. Anthony.",
+      "Identifies one or two key figures with minimal context.",
+      "Identifies three or four key figures but lacks detail about their contributions.",
+      "Identifies all four key figures and briefly describes their roles in the women's suffrage movement.",
+      "Describes the roles of the key figures with relevant details and connections to specific events or ideas.",
+      "Provides a comprehensive analysis of each key figure's contributions, placing them within the broader context of the 19th-century women's suffrage movement."
+    ],
+    [
+      "Shows no awareness of any writings or speeches related to the women's suffrage movement.",
+      "Mentions writings or speeches in passing without specific examples.",
+      "Identifies at least one writing or speech but struggles to explain its significance.",
+      "Describes one or two specific writings or speeches and explains their purpose or message.",
+      "Analyzes multiple writings or speeches, explaining their impact and how they reflected the key figure's perspective.",
+      "Critically evaluates several writings and speeches, assessing their rhetorical strategies and historical importance within the broader suffrage movement."
+    ],
+    [
+      "Demonstrates no understanding of the historical context surrounding the women's suffrage movement.",
+      "Shows limited awareness of the time period or the movement's goals.",
+      "Identifies the women's suffrage movement as an effort to gain voting rights but lacks broader context.",
+      "Places the movement within the 19th-century and explains the general goals of the suffragists.",
+      "Explains the social, political, and economic factors that contributed to the rise of the women's suffrage movement and discusses its immediate impact.",
+      "Analyzes the long-term significance of the movement, including its impact on later social justice movements and its connection to ongoing debates about gender equality."
+    ]
+  ]
+}

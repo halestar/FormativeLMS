@@ -2,11 +2,18 @@
 
 namespace App\Classes\Storage\Work;
 
-use App\Classes\Storage\Document\DocumentStorage;
+use App\Classes\Storage\DocumentFile;
 use App\Classes\Storage\LmsStorage;
-use Illuminate\Contracts\Support\Arrayable;
+use App\Interfaces\Fileable;
+use App\Models\Utilities\WorkFile;
+use Symfony\Component\HttpFoundation\StreamedResponse;
 
 abstract class WorkStorage extends LmsStorage
 {
-
+	abstract public function persistFile(Fileable $fileable, DocumentFile $file): ?WorkFile;
+	
+	abstract public function deleteFile(WorkFile $file): void;
+	
+	abstract public function download(WorkFile $file): StreamedResponse;
+	
 }

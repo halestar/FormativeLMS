@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation: How accurately does the student's model depict the role of gravity in the motions within galaxies and the solar system?",
+    "Clarity of Explanation: How clearly does the student explain the model and the concepts it represents?",
+    "Use of Evidence: How well does the student use evidence to support their model and explanation?",
+    "Connections to Real-World Phenomena: How effectively does the student connect their model to real-world phenomena?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, demonstrating no understanding of gravity's role.",
+      "The model shows a limited understanding of gravity's role, with significant inaccuracies.",
+      "The model shows a basic understanding of gravity's role but contains some inaccuracies or omissions.",
+      "The model is mostly accurate, demonstrating a good understanding of gravity's role in the solar system or galaxies, but not both.",
+      "The model is accurate and demonstrates a strong understanding of gravity's role in both the solar system and galaxies.",
+      "The model is highly accurate, insightful, and demonstrates a comprehensive understanding of gravity's role in the motions within galaxies and the solar system, including nuances and complexities."
+    ],
+    [
+      "The explanation is unclear, confusing, or missing altogether.",
+      "The explanation is difficult to understand and lacks clarity.",
+      "The explanation is somewhat clear but contains jargon or imprecise language.",
+      "The explanation is clear and understandable, using appropriate language.",
+      "The explanation is very clear, concise, and effectively communicates the concepts.",
+      "The explanation is exceptionally clear, insightful, and demonstrates a mastery of the subject matter."
+    ],
+    [
+      "No evidence is provided to support the model or explanation.",
+      "The evidence is weak, irrelevant, or inaccurate.",
+      "The evidence is somewhat relevant but not fully convincing.",
+      "The evidence is relevant and supports the model and explanation.",
+      "The evidence is strong, compelling, and clearly supports the model and explanation.",
+      "The evidence is exceptional, demonstrating a deep understanding of the underlying scientific principles."
+    ],
+    [
+      "No connection is made to real-world phenomena.",
+      "The connection to real-world phenomena is weak or inaccurate.",
+      "The connection to real-world phenomena is superficial or incomplete.",
+      "The connection to real-world phenomena is relevant and provides context for the model.",
+      "The connection to real-world phenomena is insightful and enhances understanding of the model.",
+      "The connection to real-world phenomena is profound and demonstrates a deep appreciation for the interconnectedness of scientific concepts."
+    ]
+  ]
+}

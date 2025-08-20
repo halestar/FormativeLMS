@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Body Parts",
+    "Description of Functions",
+    "Clarity and Precision"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any body parts.",
+      "Student can identify 1-2 major body parts but struggles with their names.",
+      "Student can identify several major body parts but may misname some.",
+      "Student can accurately identify most major body parts.",
+      "Student can accurately identify major body parts and some minor ones.",
+      "Student can comprehensively and accurately identify a wide range of body parts, including specialized ones."
+    ],
+    [
+      "Student cannot describe the function of any body part.",
+      "Student attempts to describe the function of a body part, but the description is vague or incorrect.",
+      "Student can describe the function of a few body parts, but explanations may lack detail or have minor inaccuracies.",
+      "Student can accurately describe the primary functions of most major body parts.",
+      "Student can accurately describe the functions of major body parts and explain how they contribute to overall health.",
+      "Student provides detailed and accurate descriptions of the functions of various body parts and their interrelation within body systems."
+    ],
+    [
+      "Responses are unclear, confusing, or irrelevant.",
+      "Responses are somewhat understandable but lack clarity and precision.",
+      "Responses are generally clear but may contain jargon or imprecise language.",
+      "Responses are clear, concise, and use appropriate terminology.",
+      "Responses are exceptionally clear, use precise language, and demonstrate a strong understanding of the material.",
+      "Responses are articulate, use professional terminology, and illustrate a mastery of the subject."
+    ]
+  ]
+}

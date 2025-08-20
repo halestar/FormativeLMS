@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding fractions as points on a number line.",
+    "Partitioning the number line into equal parts.",
+    "Identifying the location of 1\/b on a number line."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of fractions as numbers on a number line.",
+      "Student can identify fractions, but cannot accurately place them on a number line.",
+      "Student can represent simple fractions (e.g., 1\/2, 1\/4) on a number line, but struggles with more complex fractions or unequal partitioning.",
+      "Student can accurately represent fractions with common denominators on a number line and understands the concept of equal partitioning, but struggles to represent fractions with uncommon denominators or beyond the 0-1 interval.",
+      "Student can accurately represent various fractions on a number line, demonstrating an understanding of equal partitioning and can extrapolate the concept beyond the 0-1 interval and can perform simple calculations (addition and subtraction) based on the diagram.",
+      "Student demonstrates a comprehensive understanding of fractions as numbers on a number line, accurately representing fractions with different denominators and beyond the 0-1 interval, and can explain the relationship between fractions, decimals, and percentages on the number line, in addition to doing calculations and explaining it clearly."
+    ],
+    [
+      "Student does not understand the concept of partitioning a number line.",
+      "Student attempts to partition a number line but does not create equal parts.",
+      "Student can partition a number line into equal parts for simple fractions, but struggles with more complex fractions.",
+      "Student can partition a number line into equal parts for various fractions but may have minor inaccuracies.",
+      "Student accurately partitions a number line into equal parts for various fractions and can explain the relationship between the number of parts and the denominator of the fraction.",
+      "Student demonstrates a deep understanding of partitioning a number line into equal parts, accurately representing fractions and explaining the relationship between the number of parts, the denominator, and the size of each part, and can extend this understanding to solve complex problems."
+    ],
+    [
+      "Student cannot identify the location of a unit fraction (1\/b) on a number line.",
+      "Student attempts to identify the location of a unit fraction on a number line but is inaccurate.",
+      "Student can identify the location of simple unit fractions (e.g., 1\/2, 1\/4) on a number line, but struggles with more complex fractions.",
+      "Student can accurately identify the location of various unit fractions on a number line but may have minor inaccuracies.",
+      "Student accurately identifies the location of various unit fractions on a number line and can explain the relationship between the unit fraction and its position on the number line.",
+      "Student demonstrates a deep understanding of identifying the location of unit fractions on a number line, accurately representing fractions and explaining the relationship between the unit fraction, its position, and the overall number line, and can extend this understanding to solve complex problems and to approximate non-integer numbers (such as square roots)."
+    ]
+  ]
+}

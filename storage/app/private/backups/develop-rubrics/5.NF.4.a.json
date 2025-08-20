@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Fraction Multiplication",
+    "Interpretation of Products",
+    "Problem Solving and Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of multiplying fractions or whole numbers by a fraction.",
+      "Student demonstrates a limited understanding of multiplying fractions, struggling with basic concepts.",
+      "Student demonstrates a partial understanding of multiplying fractions, making frequent errors in calculations.",
+      "Student demonstrates a satisfactory understanding of multiplying fractions, with occasional errors.",
+      "Student demonstrates a strong understanding of multiplying fractions and whole numbers by a fraction accurately.",
+      "Student demonstrates a comprehensive understanding of multiplying fractions and can accurately solve complex problems and explain the reasoning."
+    ],
+    [
+      "Student is unable to interpret the product (a\/b) \u00d7 q as a parts of a partition of q.",
+      "Student shows difficulty in interpreting the product, struggling to relate it to parts of a partition.",
+      "Student demonstrates some ability to interpret the product but has difficulty connecting it to the context of the problem.",
+      "Student can interpret the product in simple cases but struggles with more complex scenarios.",
+      "Student consistently interprets the product and relates it to parts of a partition accurately.",
+      "Student can interpret the product in various contexts and can explain the relationship between the product and the original quantities with clear explanations."
+    ],
+    [
+      "Student is unable to apply the concept of fraction multiplication to solve problems.",
+      "Student struggles to apply fraction multiplication to problem-solving, requiring significant assistance.",
+      "Student attempts to apply fraction multiplication to problem-solving but makes frequent errors in the process.",
+      "Student can apply fraction multiplication to solve some problems but struggles with more complex or multi-step problems.",
+      "Student effectively applies fraction multiplication to solve a variety of problems accurately.",
+      "Student skillfully applies fraction multiplication to solve complex and novel problems, demonstrating a deep understanding of the concept."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation",
+    "Understanding of Chemical Reactions",
+    "Use of Evidence and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze or interpret data; conclusions are absent or based on irrelevant information.",
+      "Minimal analysis; struggles to connect data to potential chemical reactions; interpretation is unclear or inaccurate.",
+      "Basic analysis of data with limited interpretation; identifies some differences in properties but struggles to relate them to chemical reactions.",
+      "Analyzes data and provides a reasonable interpretation; identifies key properties and attempts to connect them to the occurrence of a chemical reaction, but may have some inaccuracies.",
+      "Clear and accurate analysis of data with sound interpretation; explains how changes in properties indicate a chemical reaction, with minor gaps in reasoning.",
+      "Comprehensive and insightful analysis of data; provides a clear, accurate, and thorough interpretation explaining how changes in properties demonstrate the occurrence of a chemical reaction; demonstrates strong reasoning."
+    ],
+    [
+      "Demonstrates no understanding of chemical reactions or the properties of substances.",
+      "Shows a very limited understanding of chemical reactions and struggles to identify properties of substances.",
+      "Displays some understanding of chemical reactions, but explanations are unclear or incomplete; has difficulty identifying relevant properties of substances.",
+      "Demonstrates a satisfactory understanding of chemical reactions and can identify some properties of substances, but may not fully explain the relationship between them.",
+      "Shows a strong understanding of chemical reactions and can explain the relationship between properties of substances and the occurrence of a reaction, with only minor inaccuracies.",
+      "Demonstrates a comprehensive and nuanced understanding of chemical reactions; clearly and accurately explains the relationship between properties of substances and the evidence of a chemical reaction."
+    ],
+    [
+      "Provides no evidence or reasoning to support claims; conclusions are arbitrary.",
+      "Attempts to provide evidence but it is irrelevant or inaccurate; reasoning is unclear or illogical.",
+      "Provides some evidence but struggles to connect it logically to conclusions; reasoning is weak or incomplete.",
+      "Supports claims with relevant evidence and provides logical reasoning, but connections may not always be clear or fully developed.",
+      "Effectively uses evidence to support claims and provides clear, logical reasoning; connections between evidence and conclusions are well-explained.",
+      "Masterfully uses evidence to construct a compelling argument; demonstrates exceptional reasoning skills with clear, logical connections between evidence and conclusions; anticipates and addresses potential counterarguments."
+    ]
+  ]
+}

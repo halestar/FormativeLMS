@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Physical Obstacles",
+    "Explanation of Economic Factors",
+    "Analysis of Political Factors",
+    "Understanding of Henry Clay's American System"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any physical obstacles to building infrastructure.",
+      "The student identifies one physical obstacle but provides no explanation.",
+      "The student identifies one physical obstacle and provides a limited explanation.",
+      "The student identifies two physical obstacles and provides a sufficient explanation for both.",
+      "The student identifies three physical obstacles and provides a clear and accurate explanation for each.",
+      "The student comprehensively identifies multiple physical obstacles, thoroughly explaining their impact on infrastructure development with specific examples."
+    ],
+    [
+      "The student fails to identify or explain any economic factors.",
+      "The student identifies one economic factor but provides no explanation.",
+      "The student identifies one economic factor and provides a limited explanation.",
+      "The student identifies two economic factors and provides a sufficient explanation for both.",
+      "The student identifies three economic factors and provides a clear and accurate explanation for each.",
+      "The student comprehensively explains multiple economic factors, demonstrating a strong understanding of their influence on infrastructure projects with detailed supporting evidence."
+    ],
+    [
+      "The student fails to identify or explain any political factors.",
+      "The student identifies one political factor but provides no explanation.",
+      "The student identifies one political factor and provides a limited explanation.",
+      "The student identifies two political factors and provides a sufficient explanation for both.",
+      "The student identifies three political factors and provides a clear and accurate explanation for each.",
+      "The student comprehensively analyzes multiple political factors, illustrating their complex relationship to infrastructure development and providing specific historical context."
+    ],
+    [
+      "The student demonstrates no understanding of Henry Clay's American System.",
+      "The student mentions Henry Clay's American System but provides no explanation.",
+      "The student provides a vague or inaccurate description of Henry Clay's American System.",
+      "The student provides a generally accurate description of Henry Clay's American System but lacks detail.",
+      "The student clearly explains the main components of Henry Clay's American System and its goals.",
+      "The student thoroughly analyzes Henry Clay's American System, explaining its components, goals, and its impact on infrastructure development and national economy with insightful analysis."
+    ]
+  ]
+}

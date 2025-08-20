@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Identification of Healthy Foods",
+    "Explanation of Health Benefits"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot name any healthy foods.",
+      "Student can name 1-2 healthy foods, but with inaccuracies.",
+      "Student can name 3-4 healthy foods, but explanations may lack detail.",
+      "Student can name 5-6 healthy foods and provide basic explanations.",
+      "Student can accurately name 7-8 healthy foods and provide clear explanations of their health benefits.",
+      "Student can accurately name 9 or more healthy foods, providing detailed explanations of their specific health benefits, demonstrating comprehensive understanding."
+    ],
+    [
+      "Student provides no explanation of why healthy foods are necessary.",
+      "Student attempts to explain, but the reasoning is unclear or incorrect.",
+      "Student provides a limited explanation of why healthy foods are important for general health.",
+      "Student explains several reasons why healthy foods are necessary for good health.",
+      "Student clearly explains multiple reasons why healthy foods are essential for various aspects of health, with good reasoning.",
+      "Student comprehensively explains the necessity of healthy foods for optimal health, including specific benefits for different body systems and functions, demonstrating excellent reasoning."
+    ]
+  ]
+}

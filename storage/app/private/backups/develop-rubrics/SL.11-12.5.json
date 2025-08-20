@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effective Use of Digital Media",
+    "Clarity and Understanding",
+    "Reasoning and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No digital media is used, or the media used detracts from the presentation.",
+      "Digital media is present, but its use is minimal and does not enhance understanding or interest.",
+      "Digital media is used, but its integration is awkward or only partially supports the content.",
+      "Digital media is used purposefully and generally enhances the presentation, but there are some areas for improvement in alignment with content.",
+      "Digital media is strategically used to enhance understanding and add interest, demonstrating a clear connection to the presentation's content.",
+      "Digital media is expertly integrated to create a compelling and insightful presentation that significantly enhances audience understanding and engagement. Media choices are innovative and highly effective."
+    ],
+    [
+      "The presentation is confusing and lacks a clear message. Digital media further obscures understanding.",
+      "The presentation is somewhat unclear, and digital media does little to clarify the content.",
+      "The presentation is understandable, but the digital media does not significantly enhance clarity.",
+      "The presentation is clear, and digital media is used to support key points and improve understanding.",
+      "The presentation is very clear, with digital media strategically used to highlight important findings, reasoning, and evidence.",
+      "The presentation is exceptionally clear and insightful, with digital media masterfully used to deepen understanding and engage the audience on multiple levels. Complex ideas are made accessible and compelling."
+    ],
+    [
+      "No reasoning or evidence is presented; digital media is irrelevant.",
+      "Reasoning and evidence are weak or missing, and digital media does not support the content.",
+      "Reasoning and evidence are present but not well-supported by digital media.",
+      "Reasoning and evidence are adequately supported by digital media, but connections could be stronger.",
+      "Reasoning and evidence are well-supported by digital media, enhancing the presentation's credibility.",
+      "Reasoning and evidence are powerfully reinforced by digital media, creating a persuasive and insightful argument. The media choices demonstrate a deep understanding of the subject matter."
+    ]
+  ]
+}

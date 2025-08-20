@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Climatic Changes",
+    "Understanding of Human Modifications",
+    "Connection Between Environment and Domestication",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of climatic changes during the specified period.",
+      "Identifies climatic changes with significant inaccuracies or omissions.",
+      "Describes basic climatic changes with some inaccuracies or lacks detail.",
+      "Explains climatic changes and their general impact on early human societies.",
+      "Analyzes climatic changes and their direct impact on the domestication of plants and animals.",
+      "Provides a comprehensive analysis of climatic changes, including nuanced impacts on resource availability and settlement patterns, demonstrating deep understanding."
+    ],
+    [
+      "Shows no understanding of human modifications to the environment.",
+      "Lists human modifications with major inaccuracies or irrelevance.",
+      "Identifies some human modifications but lacks context or detailed explanation.",
+      "Describes how humans modified the environment, with limited examples.",
+      "Explains human modifications and their relationship to new resources like clothing and shelter.",
+      "Provides a detailed explanation of human modifications, including specific techniques and their effects on both resource availability and social structures."
+    ],
+    [
+      "Fails to connect environmental changes to plant and animal domestication.",
+      "Attempts to connect environment and domestication but with significant errors.",
+      "Makes a superficial connection between environmental factors and domestication processes.",
+      "Explains how environmental factors influenced the domestication of specific plants and animals.",
+      "Analyzes the specific environmental conditions that facilitated the domestication of particular species.",
+      "Synthesizes information to argue how specific environmental changes directly enabled or accelerated the domestication of plants and animals, fundamentally altering human societies."
+    ],
+    [
+      "Response is incomprehensible and lacks any organization.",
+      "Response is poorly organized and difficult to understand.",
+      "Response lacks clarity and organization, making it hard to follow.",
+      "Response is generally clear and organized, with a logical structure.",
+      "Response is clear, well-organized, and logically structured, enhancing understanding.",
+      "Response is exceptionally clear, logically structured, and presented in a compelling manner that enhances understanding and engagement."
+    ]
+  ]
+}

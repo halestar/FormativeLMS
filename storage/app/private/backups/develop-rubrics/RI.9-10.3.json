@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Author's Purpose and Structure",
+    "Analysis of Idea Development",
+    "Explanation of Connections"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify the author's purpose or the structure of the text.",
+      "The student attempts to identify the author's purpose or structure but demonstrates significant misunderstanding.",
+      "The student identifies the author's purpose or structure with some inaccuracies or omissions.",
+      "The student accurately identifies the author's purpose and the overall structure of the text.",
+      "The student identifies the author's purpose and structure and provides a clear explanation of how the structure supports the author's purpose.",
+      "The student insightfully identifies the author's purpose and structure, explaining in detail how the structural choices enhance the text's effectiveness and impact."
+    ],
+    [
+      "The student does not analyze how ideas are introduced or developed in the text.",
+      "The student attempts to analyze the development of ideas but shows a limited understanding.",
+      "The student identifies some ways ideas are developed but misses key details or connections.",
+      "The student analyzes how ideas are introduced and developed, providing relevant examples from the text.",
+      "The student thoroughly analyzes the progression and development of ideas, explaining the author's choices and their impact.",
+      "The student masterfully analyzes the nuanced development of complex ideas, offering insightful commentary on the author's technique and its effectiveness."
+    ],
+    [
+      "The student does not identify any connections between ideas or events in the text.",
+      "The student attempts to identify connections but struggles to articulate them clearly.",
+      "The student identifies some connections between ideas or events but with limited explanation.",
+      "The student clearly explains the connections between ideas and events, supporting their analysis with textual evidence.",
+      "The student analyzes the connections between ideas and events, discussing their significance to the text's overall meaning.",
+      "The student perceptively analyzes the intricate connections between ideas and events, revealing layers of meaning and implication within the text."
+    ]
+  ]
+}

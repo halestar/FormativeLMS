@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Experimental Design and Execution",
+    "Evidence-Based Conclusions",
+    "Understanding of Balanced and Unbalanced Forces",
+    "Application of Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of experimental design and is unable to conduct a relevant investigation.",
+      "The student struggles to design a relevant investigation and shows minimal understanding of variable control.",
+      "The student designs a basic investigation but has difficulty controlling variables effectively. Data collection is inconsistent.",
+      "The student designs a generally sound investigation with some control of variables. Data collection is mostly consistent and relevant.",
+      "The student designs a well-thought-out investigation with controlled variables and systematic data collection.",
+      "The student designs and executes a rigorous, well-controlled investigation with meticulous data collection and demonstrates a thorough understanding of the scientific method."
+    ],
+    [
+      "The student provides no conclusions or conclusions that are completely unrelated to the data.",
+      "The student attempts to draw conclusions but does not connect them to the evidence gathered.",
+      "The student draws limited conclusions based on the evidence, with weak connections made.",
+      "The student draws reasonable conclusions supported by some of the evidence gathered.",
+      "The student draws clear and logical conclusions that are well-supported by the evidence gathered.",
+      "The student draws insightful and comprehensive conclusions that are fully supported by the evidence gathered, demonstrating a deep understanding of cause and effect relationships."
+    ],
+    [
+      "The student demonstrates no understanding of balanced and unbalanced forces.",
+      "The student shows a minimal understanding of balanced and unbalanced forces and their effects on motion.",
+      "The student identifies balanced and unbalanced forces but struggles to explain their effects on motion accurately.",
+      "The student explains the effects of balanced and unbalanced forces on motion with some accuracy.",
+      "The student accurately explains the effects of balanced and unbalanced forces on motion, providing relevant examples.",
+      "The student demonstrates a comprehensive understanding of balanced and unbalanced forces, explaining their effects on motion with precision and providing insightful examples."
+    ],
+    [
+      "The student cannot apply the concepts of forces and motion to real-world scenarios.",
+      "The student attempts to apply the concepts but struggles to make relevant connections.",
+      "The student applies the concepts with limited success, demonstrating a basic understanding.",
+      "The student applies the concepts to real-world scenarios with reasonable accuracy.",
+      "The student effectively applies the concepts to real-world scenarios, demonstrating a solid understanding.",
+      "The student expertly applies the concepts to a variety of complex real-world scenarios, demonstrating a deep and nuanced understanding."
+    ]
+  ]
+}

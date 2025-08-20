@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of U.S. and Allied wartime strategy.",
+    "Knowledge of major battles (Midway, Normandy, Iwo Jima, Okinawa, Battle of the Bulge).",
+    "Explanation of the significance of each battle in relation to the overall war effort."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of U.S. and Allied wartime strategy.",
+      "The student shows a minimal understanding of U.S. and Allied wartime strategy, with significant gaps in knowledge.",
+      "The student demonstrates a basic understanding of U.S. and Allied wartime strategy, but struggles with specific details.",
+      "The student demonstrates a satisfactory understanding of U.S. and Allied wartime strategy, with some minor inaccuracies.",
+      "The student demonstrates a strong understanding of U.S. and Allied wartime strategy, with few inaccuracies.",
+      "The student demonstrates a comprehensive and nuanced understanding of U.S. and Allied wartime strategy."
+    ],
+    [
+      "The student is unable to identify any of the major battles listed.",
+      "The student can identify one major battle but lacks any details about it.",
+      "The student can identify 2-3 major battles but struggles to provide accurate details about each.",
+      "The student can identify and provide basic details about 4 major battles.",
+      "The student can accurately describe the significance and key events of all 5 major battles.",
+      "The student demonstrates in-depth knowledge of all 5 major battles, including their strategic context and long-term impact."
+    ],
+    [
+      "The student offers no explanation of the battles' significance.",
+      "The student attempts to explain the significance of one or two battles, but explanations are unclear or inaccurate.",
+      "The student provides limited explanations of the significance of the battles, with some inaccuracies.",
+      "The student explains the significance of most battles adequately, but may miss some key connections to the overall war effort.",
+      "The student clearly explains the significance of each battle and its connection to the broader war effort.",
+      "The student provides insightful and comprehensive explanations of the battles' significance, demonstrating a deep understanding of their impact on the war's outcome."
+    ]
+  ]
+}

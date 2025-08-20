@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of the Intermediate Value Theorem",
+    "Application of the Intermediate Value Theorem",
+    "Understanding of the Extreme Value Theorem",
+    "Application of the Extreme Value Theorem",
+    "Clarity and Precision"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the Intermediate Value Theorem is demonstrated.",
+      "Struggles to recall the Intermediate Value Theorem, and provides incorrect statements of the theorem.",
+      "Recalls the Intermediate Value Theorem, but struggles to accurately state it. Has a basic grasp of the theorem's concept.",
+      "Accurately states the Intermediate Value Theorem and understands its basic implications.",
+      "Demonstrates a strong understanding of the Intermediate Value Theorem and can explain its implications with clarity.",
+      "Exhibits a comprehensive understanding of the Intermediate Value Theorem and its nuanced implications. Can apply it effectively to novel problems."
+    ],
+    [
+      "Unable to apply the Intermediate Value Theorem to solve problems.",
+      "Attempts to apply the Intermediate Value Theorem, but makes significant errors in the process.",
+      "Applies the Intermediate Value Theorem with limited success, struggling to correctly identify the necessary conditions.",
+      "Can apply the Intermediate Value Theorem to solve straightforward problems, but struggles with more complex scenarios.",
+      "Successfully applies the Intermediate Value Theorem to solve a variety of problems, including those with some complexity.",
+      "Masterfully applies the Intermediate Value Theorem to solve even the most challenging problems, demonstrating a deep understanding of its application."
+    ],
+    [
+      "No understanding of the Extreme Value Theorem is demonstrated.",
+      "Struggles to recall the Extreme Value Theorem and provides incorrect statements of the theorem.",
+      "Recalls the Extreme Value Theorem, but struggles to accurately state it. Has a basic grasp of the theorem's concept.",
+      "Accurately states the Extreme Value Theorem and understands its basic implications.",
+      "Demonstrates a strong understanding of the Extreme Value Theorem and can explain its implications with clarity.",
+      "Exhibits a comprehensive understanding of the Extreme Value Theorem and its nuanced implications. Can apply it effectively to novel problems."
+    ],
+    [
+      "Unable to apply the Extreme Value Theorem to solve problems.",
+      "Attempts to apply the Extreme Value Theorem, but makes significant errors in the process.",
+      "Applies the Extreme Value Theorem with limited success, struggling to correctly identify the necessary conditions.",
+      "Can apply the Extreme Value Theorem to solve straightforward problems, but struggles with more complex scenarios.",
+      "Successfully applies the Extreme Value Theorem to solve a variety of problems, including those with some complexity.",
+      "Masterfully applies the Extreme Value Theorem to solve even the most challenging problems, demonstrating a deep understanding of its application."
+    ],
+    [
+      "Explanations and solutions are unclear, imprecise, and difficult to follow.",
+      "Explanations and solutions lack clarity and contain significant inaccuracies.",
+      "Explanations and solutions are somewhat clear but contain some inaccuracies or lack precision.",
+      "Explanations and solutions are generally clear and accurate, with only minor areas for improvement.",
+      "Explanations and solutions are clear, accurate, and well-organized, demonstrating a strong understanding of the concepts.",
+      "Explanations and solutions are exceptionally clear, precise, and insightful, demonstrating a mastery of the concepts."
+    ]
+  ]
+}

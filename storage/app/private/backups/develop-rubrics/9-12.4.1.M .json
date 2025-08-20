@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of trusted adults",
+    "Articulating the problem",
+    "Seeking Help"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any trusted adults.",
+      "Student can identify one adult, but does not articulate why they are trustworthy.",
+      "Student can identify one trusted adult with a basic explanation of trustworthiness.",
+      "Student can identify multiple trusted adults with a basic explanation of trustworthiness.",
+      "Student can identify multiple trusted adults and provides a clear explanation of trustworthiness, referencing specific qualities.",
+      "Student can identify multiple trusted adults, provides a detailed explanation of trustworthiness, and explains how different adults might be suited for different situations."
+    ],
+    [
+      "Student cannot articulate the emotional or social health problem.",
+      "Student vaguely describes the problem but lacks specific details.",
+      "Student describes the problem with some relevant details.",
+      "Student clearly describes the problem with relevant details and identifies its impact.",
+      "Student clearly and thoroughly describes the problem, including relevant details, its impact, and potential triggers.",
+      "Student provides a comprehensive and insightful description of the problem, including relevant details, its impact, potential triggers, and possible underlying causes."
+    ],
+    [
+      "Student does not demonstrate any attempt to seek help.",
+      "Student mentions seeking help but does not describe specific actions.",
+      "Student describes asking for help but provides little detail on the approach or what was communicated.",
+      "Student describes seeking help with some detail on the approach taken and information shared.",
+      "Student proactively seeks help, clearly explains the problem to the trusted adult, and asks for specific guidance or support.",
+      "Student proactively and effectively seeks help, tailoring their approach to the situation, and clearly communicates the problem, desired outcomes, and willingness to collaborate."
+    ]
+  ]
+}

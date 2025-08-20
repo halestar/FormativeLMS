@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Influences",
+    "Examples of Risky\/Safe Passenger Behavior",
+    "Consequences of Influence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any influence of passenger behavior on the driver.",
+      "Identifies at least one potential influence, but is vague or unclear.",
+      "Identifies one clear influence of passenger behavior on the driver, but provides little explanation.",
+      "Identifies two clear influences of passenger behavior on the driver, with some explanation.",
+      "Identifies at least three clear influences of passenger behavior on the driver, providing good explanations and examples.",
+      "Identifies multiple significant influences, provides detailed explanations, and discusses the nuances of these influences."
+    ],
+    [
+      "Does not provide any examples of passenger behavior.",
+      "Provides one vague or unclear example of passenger behavior.",
+      "Provides one clear example of either risky or safe passenger behavior, but not both.",
+      "Provides one clear example of both risky and safe passenger behavior.",
+      "Provides multiple relevant examples of both risky and safe passenger behavior with explanation.",
+      "Provides detailed and insightful examples of both risky and safe passenger behavior, showing a deep understanding of the impact on the driver."
+    ],
+    [
+      "Does not mention any consequences related to passenger influence.",
+      "Mentions a consequence, but it is vague or unrealistic.",
+      "Identifies a relevant consequence to passenger influence, but with minimal detail.",
+      "Explains at least one potential consequence of risky passenger behavior in detail.",
+      "Explains several potential consequences of risky passenger behavior, linking them to real-world scenarios.",
+      "Provides a thorough analysis of the potential consequences of risky passenger behavior, linking them to statistics, and demonstrating a comprehensive understanding of real-world impact."
+    ]
+  ]
+}

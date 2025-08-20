@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Political Divisions and Systems",
+    "Knowledge of Key Leaders and Their Roles",
+    "Awareness of Religious Issues and Their Impact",
+    "Understanding of Natural Features, Resources, and Population Patterns"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the political divisions and systems in the selected regions.",
+      "Shows minimal understanding of political divisions and systems, with significant inaccuracies.",
+      "Displays a basic understanding of political divisions and systems, but lacks depth and detail.",
+      "Exhibits a satisfactory understanding of political divisions and systems, with some supporting details.",
+      "Demonstrates a strong understanding of political divisions and systems, providing relevant details and examples.",
+      "Shows a comprehensive and nuanced understanding of political divisions and systems, analyzing their impact on nation-building with insightful details."
+    ],
+    [
+      "Unable to identify or describe any key leaders in the selected regions.",
+      "Identifies a few key leaders but provides little to no information about their roles.",
+      "Describes key leaders with limited information about their roles and impact.",
+      "Explains the roles of key leaders with some detail and accuracy.",
+      "Analyzes the roles of key leaders, providing specific examples of their influence on nation-building.",
+      "Provides an in-depth analysis of key leaders, evaluating their contributions and legacies in shaping the selected regions."
+    ],
+    [
+      "Demonstrates no awareness of religious issues in the selected regions.",
+      "Shows minimal awareness of religious issues, with significant misunderstandings.",
+      "Identifies religious issues but does not explain their impact.",
+      "Explains how religious issues have influenced the regions' history and politics.",
+      "Analyzes the complex relationship between religious issues and nation-building, providing specific examples.",
+      "Offers a nuanced and insightful analysis of religious issues, evaluating their long-term impact on the regions' development and stability."
+    ],
+    [
+      "Demonstrates no understanding of the region's natural features, resources or population patterns.",
+      "Shows minimal understanding of the region's natural features, resources or population patterns, with significant inaccuracies.",
+      "Displays a basic understanding of the region's natural features, resources or population patterns, but lacks depth and detail.",
+      "Exhibits a satisfactory understanding of the region's natural features, resources or population patterns, with some supporting details.",
+      "Demonstrates a strong understanding of the region's natural features, resources or population patterns, providing relevant details and examples.",
+      "Shows a comprehensive and nuanced understanding of the region's natural features, resources or population patterns, analyzing their impact on nation-building with insightful details."
+    ]
+  ]
+}

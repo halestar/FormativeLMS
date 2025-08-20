@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Focus and Scope: How well the research project maintains a clear focus and appropriately narrows or broadens the inquiry based on findings.",
+    "Source Synthesis: The ability to effectively synthesize information from multiple sources into a cohesive and coherent understanding of the subject.",
+    "Question\/Problem Resolution: How effectively the research project answers the initial question or solves the problem posed."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The research project lacks a clear focus and demonstrates no understanding of the topic. The inquiry is not narrowed or broadened as needed.",
+      "The research project has a vague focus, and the understanding of the topic is minimal. There is little attempt to narrow or broaden the inquiry.",
+      "The research project has a somewhat clear focus, but the understanding of the topic is superficial. The inquiry is narrowed or broadened inappropriately or inconsistently.",
+      "The research project maintains a generally clear focus and demonstrates a basic understanding of the topic. The inquiry is narrowed or broadened with some awareness of its impact.",
+      "The research project maintains a clear focus throughout and demonstrates a good understanding of the topic. The inquiry is effectively narrowed or broadened to refine the research.",
+      "The research project demonstrates a sharply defined focus and a comprehensive understanding of the topic. The inquiry is expertly narrowed or broadened to maximize the depth and relevance of the research."
+    ],
+    [
+      "No attempt is made to synthesize information from multiple sources. The project relies on a single source or presents information in a disjointed manner.",
+      "There is minimal attempt to synthesize information. Sources are listed but not integrated, and the understanding of the subject remains fragmented.",
+      "Information from multiple sources is presented, but synthesis is limited and superficial. Connections between sources are weak, and the understanding of the subject is basic.",
+      "Information from multiple sources is generally synthesized, demonstrating a moderate understanding of the subject. Connections between sources are apparent but not fully developed.",
+      "Information from multiple sources is effectively synthesized, demonstrating a strong understanding of the subject. Connections between sources are clear and contribute to a coherent analysis.",
+      "Information from multiple sources is seamlessly synthesized to create a comprehensive and insightful understanding of the subject. Connections between sources are expertly woven together to form a sophisticated analysis."
+    ],
+    [
+      "The research project fails to address the question or problem. There is no attempt to provide an answer or solution.",
+      "The research project minimally addresses the question or problem, but the attempt is weak and lacks substance.",
+      "The research project partially addresses the question or problem, but the answer or solution is incomplete or superficial.",
+      "The research project adequately addresses the question or problem, providing a satisfactory answer or solution based on the research.",
+      "The research project thoroughly addresses the question or problem, providing a well-supported and insightful answer or solution.",
+      "The research project expertly addresses the question or problem, providing a nuanced and comprehensive answer or solution that demonstrates a deep understanding of the subject."
+    ]
+  ]
+}

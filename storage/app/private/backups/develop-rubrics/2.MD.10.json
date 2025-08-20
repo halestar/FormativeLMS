@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Data Representation",
+    "Appropriateness of Graph Choice and Labels",
+    "Problem-Solving Using the Graph"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The graph is missing or completely inaccurate, showing no correct representation of the data.",
+      "The graph has significant inaccuracies, with data poorly represented and difficult to interpret. Multiple errors are present.",
+      "The graph has some inaccuracies in data representation, but the general trend of the data can still be understood. Several errors are present.",
+      "The graph is mostly accurate, with only minor errors in data representation. The data is generally easy to interpret. Few errors are present.",
+      "The graph is accurate and clearly represents the data, with appropriate labels and scale. The data is easy to interpret and understand. Very few errors are present.",
+      "The graph is exceptionally accurate, clear, and insightful. It demonstrates a deep understanding of data representation with appropriate labels, scale, and presentation. No errors are present."
+    ],
+    [
+      "The type of graph is inappropriate for the data, and labels are missing or incorrect.",
+      "The type of graph is not ideal for the data, and labels are incomplete or confusing.",
+      "The type of graph is acceptable for the data, but labels could be clearer or more informative.",
+      "The type of graph is well-suited for the data, and labels are generally clear and informative.",
+      "The type of graph is highly effective for the data, with clear, concise, and informative labels.",
+      "The type of graph is perfectly suited for the data, enhanced with insightful and detailed labels, demonstrating a comprehensive understanding of data visualization principles."
+    ],
+    [
+      "Unable to solve any problems using the information presented in the graph.",
+      "Attempts to solve problems are unsuccessful or demonstrate a misunderstanding of the data.",
+      "Able to solve very simple problems, but struggles with more complex questions.",
+      "Able to solve simple put-together, take-apart, and compare problems with some guidance.",
+      "Able to independently solve simple put-together, take-apart, and compare problems using the graph.",
+      "Demonstrates a strong ability to solve complex problems and draw insightful conclusions from the data presented in the graph."
+    ]
+  ]
+}

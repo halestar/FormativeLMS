@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Properties: Demonstrates understanding of the properties of two-dimensional figures (e.g., sides, angles, symmetry).",
+    "Classification Skills: Accurately classifies figures based on their properties.",
+    "Hierarchical Reasoning: Constructs and explains a hierarchy of two-dimensional figures based on properties.",
+    "Justification and Reasoning: Provides clear and logical justifications for classifications and hierarchical arrangements."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of basic properties of two-dimensional figures.",
+      "Struggles to identify or describe the properties of two-dimensional figures.",
+      "Identifies some properties of two-dimensional figures but with inaccuracies or omissions.",
+      "Identifies and describes properties of two-dimensional figures with reasonable accuracy.",
+      "Demonstrates a strong understanding of properties, accurately describing and using them to classify figures.",
+      "Demonstrates comprehensive understanding, including less common properties and their implications for classification."
+    ],
+    [
+      "Unable to classify two-dimensional figures based on properties.",
+      "Attempts classification but is largely inaccurate or inconsistent.",
+      "Classifies some figures correctly but struggles with more complex or nuanced cases.",
+      "Classifies figures accurately in most cases, demonstrating a good grasp of classification principles.",
+      "Classifies figures accurately and efficiently, showing a strong ability to apply properties to classification.",
+      "Classifies figures with exceptional accuracy and insight, justifying classifications with detailed explanations."
+    ],
+    [
+      "Unable to create or explain a hierarchy of two-dimensional figures.",
+      "Attempts to create a hierarchy but it is flawed, incomplete, or illogical.",
+      "Creates a basic hierarchy but struggles to explain the relationships between categories.",
+      "Constructs a reasonable hierarchy and explains the relationships with some clarity.",
+      "Constructs a well-organized and accurate hierarchy, clearly explaining the logical connections between categories.",
+      "Constructs a sophisticated and insightful hierarchy, providing comprehensive explanations and justifications for the organization."
+    ],
+    [
+      "Provides no justification for classifications or hierarchical arrangements.",
+      "Provides weak or illogical justifications.",
+      "Provides some justification but lacks clarity or consistency.",
+      "Provides reasonable justifications for classifications and arrangements.",
+      "Provides clear, logical, and well-supported justifications.",
+      "Provides insightful and comprehensive justifications, demonstrating a deep understanding of the underlying mathematical principles."
+    ]
+  ]
+}

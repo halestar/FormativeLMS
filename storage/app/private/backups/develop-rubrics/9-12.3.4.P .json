@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Government Agencies",
+    "Identification of Community Agencies",
+    "Accuracy and Relevance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any government agencies that promote health and protect the environment.",
+      "The student identifies one government agency with limited accuracy or detail.",
+      "The student identifies two government agencies with some accuracy but lacks detailed explanation of their roles.",
+      "The student identifies three government agencies and provides a basic explanation of their roles in promoting health and protecting the environment.",
+      "The student identifies four government agencies and provides a clear explanation of their roles, including specific examples of their work.",
+      "The student identifies five or more government agencies and provides a comprehensive explanation of their roles, including specific examples, and demonstrates an understanding of their impact."
+    ],
+    [
+      "The student does not identify any community agencies that promote health and protect the environment.",
+      "The student identifies one community agency with limited accuracy or detail.",
+      "The student identifies two community agencies with some accuracy but lacks detailed explanation of their roles.",
+      "The student identifies three community agencies and provides a basic explanation of their roles in promoting health and protecting the environment.",
+      "The student identifies four community agencies and provides a clear explanation of their roles, including specific examples of their work.",
+      "The student identifies five or more community agencies and provides a comprehensive explanation of their roles, including specific examples, and demonstrates an understanding of their impact."
+    ],
+    [
+      "The information provided is largely inaccurate or irrelevant to the agencies' roles.",
+      "The information provided contains some inaccuracies or is only partially relevant.",
+      "The information provided is mostly accurate and relevant, but lacks depth or specific examples.",
+      "The information provided is accurate, relevant, and provides basic details about the agencies' roles.",
+      "The information provided is accurate, relevant, and provides specific details and examples that enhance understanding.",
+      "The information provided is highly accurate, relevant, and demonstrates a deep understanding of the agencies' roles and their impact on health and environmental protection."
+    ]
+  ]
+}

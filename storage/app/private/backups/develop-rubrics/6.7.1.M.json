@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Demonstrates understanding of personal responsibilities (e.g., hygiene, health habits).",
+    "Demonstrates understanding of social responsibilities (e.g., respecting others, following rules).",
+    "Demonstrates the ability to apply personal responsibilities in practical situations.",
+    "Demonstrates the ability to apply social responsibilities in practical situations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of personal responsibilities is demonstrated.",
+      "Shows minimal understanding of personal responsibilities; struggles to identify them.",
+      "Identifies basic personal responsibilities but has difficulty explaining their importance.",
+      "Explains personal responsibilities and their importance with some clarity.",
+      "Clearly explains personal responsibilities and their importance; provides relevant examples.",
+      "Demonstrates a comprehensive understanding of personal responsibilities, their importance, and consistently applies them in relevant contexts."
+    ],
+    [
+      "No understanding of social responsibilities is demonstrated.",
+      "Shows minimal understanding of social responsibilities; struggles to identify them.",
+      "Identifies basic social responsibilities but has difficulty explaining their importance.",
+      "Explains social responsibilities and their importance with some clarity.",
+      "Clearly explains social responsibilities and their importance; provides relevant examples.",
+      "Demonstrates a comprehensive understanding of social responsibilities, their importance, and consistently applies them in various social contexts."
+    ],
+    [
+      "Does not apply personal responsibilities in practical situations.",
+      "Struggles to apply personal responsibilities, even with guidance.",
+      "Attempts to apply personal responsibilities but inconsistently and with limited success.",
+      "Applies personal responsibilities with reasonable consistency in familiar situations.",
+      "Consistently applies personal responsibilities effectively in various situations.",
+      "Masterfully applies personal responsibilities, adapting strategies effectively in complex or novel situations; serves as a positive role model."
+    ],
+    [
+      "Does not apply social responsibilities in practical situations.",
+      "Struggles to apply social responsibilities, even with guidance.",
+      "Attempts to apply social responsibilities but inconsistently and with limited success.",
+      "Applies social responsibilities with reasonable consistency in familiar situations.",
+      "Consistently applies social responsibilities effectively in various situations.",
+      "Masterfully applies social responsibilities, adapting strategies effectively in complex or novel situations; promotes positive social interaction among peers."
+    ]
+  ]
+}

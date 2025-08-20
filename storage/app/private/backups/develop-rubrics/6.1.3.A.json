@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Prescription Medicine Use",
+    "Understanding of Prescription Medicine Misuse",
+    "Understanding of Nonprescription Medicine Use",
+    "Understanding of Nonprescription Medicine Misuse",
+    "Differentiation Between Prescription and Nonprescription Medicines"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of appropriate prescription medicine use.",
+      "Student demonstrates a minimal understanding of appropriate prescription medicine use, with significant misconceptions.",
+      "Student demonstrates a basic understanding of appropriate prescription medicine use, but struggles to apply it correctly.",
+      "Student demonstrates a satisfactory understanding of appropriate prescription medicine use, with minor errors.",
+      "Student demonstrates a strong understanding of appropriate prescription medicine use and can generally apply it correctly.",
+      "Student demonstrates a comprehensive understanding of appropriate prescription medicine use and can consistently apply it correctly."
+    ],
+    [
+      "Student demonstrates no understanding of prescription medicine misuse.",
+      "Student demonstrates a minimal understanding of prescription medicine misuse, with significant misconceptions.",
+      "Student demonstrates a basic understanding of prescription medicine misuse, but struggles to identify examples.",
+      "Student demonstrates a satisfactory understanding of prescription medicine misuse and can identify common examples.",
+      "Student demonstrates a strong understanding of prescription medicine misuse and can explain the potential consequences.",
+      "Student demonstrates a comprehensive understanding of prescription medicine misuse, including consequences, motivations, and prevention."
+    ],
+    [
+      "Student demonstrates no understanding of appropriate nonprescription medicine use.",
+      "Student demonstrates a minimal understanding of appropriate nonprescription medicine use, with significant misconceptions.",
+      "Student demonstrates a basic understanding of appropriate nonprescription medicine use, but struggles to apply it correctly.",
+      "Student demonstrates a satisfactory understanding of appropriate nonprescription medicine use, with minor errors.",
+      "Student demonstrates a strong understanding of appropriate nonprescription medicine use and can generally apply it correctly.",
+      "Student demonstrates a comprehensive understanding of appropriate nonprescription medicine use and can consistently apply it correctly."
+    ],
+    [
+      "Student demonstrates no understanding of nonprescription medicine misuse.",
+      "Student demonstrates a minimal understanding of nonprescription medicine misuse, with significant misconceptions.",
+      "Student demonstrates a basic understanding of nonprescription medicine misuse, but struggles to identify examples.",
+      "Student demonstrates a satisfactory understanding of nonprescription medicine misuse and can identify common examples.",
+      "Student demonstrates a strong understanding of nonprescription medicine misuse and can explain the potential consequences.",
+      "Student demonstrates a comprehensive understanding of nonprescription medicine misuse, including consequences, motivations, and prevention."
+    ],
+    [
+      "Student cannot differentiate between prescription and nonprescription medicines.",
+      "Student struggles to differentiate between prescription and nonprescription medicines and identifies few differences.",
+      "Student identifies some differences between prescription and nonprescription medicines, but with inaccuracies.",
+      "Student identifies several key differences between prescription and nonprescription medicines with minor inaccuracies.",
+      "Student accurately differentiates between prescription and nonprescription medicines, describing key differences in access, usage, and regulation.",
+      "Student comprehensively differentiates between prescription and nonprescription medicines, including nuances in access, usage, regulation, and potential risks."
+    ]
+  ]
+}

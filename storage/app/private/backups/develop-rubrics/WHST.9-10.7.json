@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Question\/Problem Identification and Focus",
+    "Source Selection and Synthesis",
+    "Understanding of Subject Matter",
+    "Inquiry Adjustment",
+    "Research Project Scope and Completion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The research question or problem is unclear, irrelevant, or missing.",
+      "The research question or problem is poorly defined and lacks focus.",
+      "The research question or problem is somewhat clear but could be more focused.",
+      "The research question or problem is clearly defined and focused.",
+      "The research question or problem is well-defined, focused, and demonstrates some complexity.",
+      "The research question or problem is insightful, sharply focused, and demonstrates a high degree of complexity and relevance."
+    ],
+    [
+      "Sources are irrelevant, missing, or not used.",
+      "Sources are of questionable quality or relevance, with little attempt to synthesize them.",
+      "Sources are adequate but lack variety or depth; synthesis is superficial.",
+      "Sources are relevant and varied; synthesis demonstrates a basic understanding of the subject.",
+      "Sources are credible, relevant, and diverse; synthesis demonstrates a strong understanding of the subject and connects multiple perspectives.",
+      "Sources are expertly chosen, highly relevant, and diverse; synthesis is insightful and demonstrates a comprehensive understanding of the subject, integrating multiple perspectives seamlessly."
+    ],
+    [
+      "Demonstrates no understanding of the subject under investigation.",
+      "Demonstrates minimal understanding of the subject; major misconceptions are evident.",
+      "Demonstrates a limited understanding of the subject; some misconceptions are present.",
+      "Demonstrates a satisfactory understanding of the subject.",
+      "Demonstrates a strong understanding of the subject, with nuanced comprehension.",
+      "Demonstrates a comprehensive and insightful understanding of the subject, with a mastery of complex concepts."
+    ],
+    [
+      "No attempt to narrow or broaden the inquiry.",
+      "Ineffective attempts to narrow or broaden the inquiry; the focus remains unclear.",
+      "Attempts to narrow or broaden the inquiry are present but not always effective.",
+      "Appropriately narrows or broadens the inquiry as needed.",
+      "Skillfully narrows or broadens the inquiry to improve focus and depth.",
+      "Demonstrates exceptional flexibility in adjusting the scope of inquiry, leading to a more nuanced and comprehensive understanding."
+    ],
+    [
+      "The project is not completed or is significantly incomplete.",
+      "The project is barely started or shows minimal effort.",
+      "The project is partially completed but lacks significant components.",
+      "The project is completed and addresses the main requirements.",
+      "The project is thorough, well-organized, and exceeds basic requirements.",
+      "The project is exceptionally well-executed, demonstrating a high level of effort, organization, and attention to detail, going far beyond the basic requirements."
+    ]
+  ]
+}

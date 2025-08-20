@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Summaries: Assesses the correctness of the information presented in the summaries of landmark Supreme Court cases.",
+    "Clarity and Conciseness: Evaluates how clearly and concisely the student presents the summaries.",
+    "Identification of Constitutional Principles: Assesses the student's ability to identify the underlying constitutional principles in each case."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the landmark U.S. Supreme Court interpretations.",
+      "Demonstrates minimal understanding of the landmark U.S. Supreme Court interpretations with significant inaccuracies.",
+      "Demonstrates some understanding of the landmark U.S. Supreme Court interpretations but with some inaccuracies or omissions.",
+      "Demonstrates a generally accurate understanding of the landmark U.S. Supreme Court interpretations with minor inaccuracies.",
+      "Demonstrates an accurate understanding of the landmark U.S. Supreme Court interpretations with very few inaccuracies.",
+      "Demonstrates a comprehensive and accurate understanding of the landmark U.S. Supreme Court interpretations."
+    ],
+    [
+      "Summaries are unclear, disorganized, and difficult to understand.",
+      "Summaries lack clarity and conciseness, making it challenging to grasp the main points.",
+      "Summaries are somewhat clear and concise but could benefit from improved organization and language.",
+      "Summaries are generally clear and concise, effectively conveying the main points.",
+      "Summaries are clear, concise, and well-organized, making it easy to understand the key aspects.",
+      "Summaries are exceptionally clear, concise, and well-organized, demonstrating excellent communication skills."
+    ],
+    [
+      "Fails to identify any underlying constitutional principles in the cases.",
+      "Identifies very few underlying constitutional principles, often inaccurately.",
+      "Identifies some underlying constitutional principles but misses key connections or provides incomplete explanations.",
+      "Identifies most underlying constitutional principles with reasonable accuracy.",
+      "Identifies all key underlying constitutional principles with accuracy and provides clear explanations.",
+      "Identifies all key underlying constitutional principles with exceptional accuracy and provides insightful explanations."
+    ]
+  ]
+}

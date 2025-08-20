@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Decomposition of Fractions",
+    "Justification with Visual Models or Equations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to decompose the given fraction or shows no understanding of fraction decomposition.",
+      "Student attempts to decompose the fraction but makes significant errors in understanding or calculation.",
+      "Student decomposes the fraction into a sum of fractions with the same denominator, but only in one way and with minor errors.",
+      "Student decomposes the fraction into a sum of fractions with the same denominator in more than one way, but lacks justification or has some inaccuracies.",
+      "Student accurately decomposes the fraction into a sum of fractions with the same denominator in multiple ways, providing a correct justification (e.g., visual model or equation).",
+      "Student demonstrates a comprehensive understanding of fraction decomposition by decomposing the fraction in multiple ways, providing clear and accurate justifications, and can apply this understanding to more complex fractions or scenarios."
+    ],
+    [
+      "No attempt to justify the decomposition is made, or the justification is completely irrelevant.",
+      "An attempt to justify the decomposition is made, but it is unclear, incorrect, or incomplete.",
+      "The justification is present but contains inaccuracies or lacks clarity. The connection between the decomposition and justification is weak.",
+      "The justification is adequate and supports the decomposition, but could be more clear or detailed. A visual model or equation is used, but not effectively.",
+      "The justification is clear, accurate, and effectively supports the decomposition. A visual model or equation is used appropriately to explain the decomposition.",
+      "The justification is thorough, insightful, and demonstrates a deep understanding of fraction decomposition. The visual model or equation is used creatively and effectively to enhance understanding."
+    ]
+  ]
+}

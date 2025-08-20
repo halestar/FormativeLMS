@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the relationship between area, multiplication, and addition",
+    "Using tiling to demonstrate the area of a rectangle with whole-number side lengths a and b + c",
+    "Applying the distributive property (a * (b + c) = a*b + a*c) to find the area of a rectangle"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of the relationship between area, multiplication, and addition.",
+      "Student struggles to relate area to multiplication and addition, showing minimal understanding.",
+      "Student shows a basic understanding of how area relates to multiplication and addition but needs further guidance.",
+      "Student demonstrates a satisfactory understanding of the relationship between area, multiplication, and addition, but may have minor errors.",
+      "Student demonstrates a strong understanding of the relationship between area, multiplication, and addition, with only minor inaccuracies.",
+      "Student demonstrates a comprehensive understanding of the relationship between area, multiplication, and addition, explaining it clearly and accurately."
+    ],
+    [
+      "Student does not use tiling to show the area of a rectangle with whole-number side lengths.",
+      "Student attempts to use tiling but is unable to accurately represent the area of a rectangle with whole-number side lengths.",
+      "Student uses tiling with some inaccuracies to represent the area of a rectangle with whole-number side lengths.",
+      "Student uses tiling to represent the area of a rectangle with whole-number side lengths, but with minor errors.",
+      "Student accurately uses tiling to represent the area of a rectangle with whole-number side lengths, demonstrating a clear understanding.",
+      "Student skillfully uses tiling to represent the area of a rectangle with whole-number side lengths and explains the concept effectively."
+    ],
+    [
+      "Student does not attempt to apply the distributive property to find the area of a rectangle.",
+      "Student struggles to apply the distributive property and cannot find the area of a rectangle.",
+      "Student attempts to apply the distributive property but makes significant errors.",
+      "Student applies the distributive property with some errors, showing a basic understanding of the concept.",
+      "Student applies the distributive property correctly, demonstrating a solid understanding of how it relates to area.",
+      "Student expertly applies the distributive property to find the area of a rectangle, showing a deep understanding of the concept."
+    ]
+  ]
+}

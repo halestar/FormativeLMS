@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Contextual Understanding",
+    "Morphological Analysis",
+    "Reference Material Usage",
+    "Verification and Confirmation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of word meaning from context.",
+      "Struggles to infer meaning from context; relies heavily on direct definitions.",
+      "Identifies some contextual clues but misinterprets their meaning.",
+      "Generally uses context to understand word meaning with occasional errors.",
+      "Effectively uses context to accurately determine the meaning of unfamiliar words and phrases.",
+      "Masterfully uses context, including subtle clues, to discern precise meanings and nuances of words and phrases."
+    ],
+    [
+      "Shows no recognition of word patterns or affixes.",
+      "Unable to identify or apply knowledge of root words, prefixes, or suffixes.",
+      "Identifies some common affixes but struggles to connect them to word meaning.",
+      "Applies knowledge of common roots and affixes to decipher word meanings with some inaccuracies.",
+      "Accurately uses morphological analysis to determine the meaning of complex words.",
+      "Expertly applies knowledge of Greek and Latin roots and affixes to understand complex vocabulary, including technical terms."
+    ],
+    [
+      "Does not attempt to use reference materials.",
+      "Unable to effectively use reference materials; cannot locate words or understand entries.",
+      "Uses reference materials inefficiently; struggles to find relevant information.",
+      "Consults reference materials to confirm or clarify word meanings with some success.",
+      "Effectively uses a variety of reference materials to determine precise word meanings, pronunciations, and etymologies.",
+      "Selects and uses reference materials strategically to gain a comprehensive understanding of words, including nuances and historical context."
+    ],
+    [
+      "Makes no attempt to verify word meaning.",
+      "Accepts the first definition found without checking for accuracy or relevance.",
+      "Attempts to verify meaning but struggles to evaluate the appropriateness of different definitions.",
+      "Generally verifies word meaning in context or with a dictionary, but may overlook subtle differences.",
+      "Consistently verifies the accuracy and appropriateness of word meanings in context and using reference materials.",
+      "Critically evaluates different definitions and contextual uses to determine the most precise and effective meaning of a word or phrase."
+    ]
+  ]
+}

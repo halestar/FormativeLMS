@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Risky Situations",
+    "Application of Refusal Skills",
+    "Clarity and Confidence in Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any risky situations.",
+      "Identifies a risky situation but lacks detail or accuracy.",
+      "Identifies a few risky situations with limited detail.",
+      "Identifies several risky situations with reasonable detail and accuracy.",
+      "Identifies most risky situations with good detail and accuracy.",
+      "Thoroughly identifies a wide range of risky situations with excellent detail and accuracy."
+    ],
+    [
+      "Does not demonstrate any refusal skills.",
+      "Attempts refusal skills but they are ineffective or inappropriate.",
+      "Demonstrates basic refusal skills with limited effectiveness.",
+      "Demonstrates refusal skills that are generally effective in most situations.",
+      "Demonstrates strong and effective refusal skills, adapting to different scenarios.",
+      "Demonstrates exceptional and versatile refusal skills, confidently navigating complex and high-pressure situations."
+    ],
+    [
+      "Communication is unclear and lacks confidence.",
+      "Communication is somewhat clear but lacks confidence or conviction.",
+      "Communication is reasonably clear and shows some confidence.",
+      "Communication is clear and delivered with moderate confidence.",
+      "Communication is very clear, confident, and assertive.",
+      "Communication is exceptionally clear, confident, and persuasive, demonstrating strong leadership qualities."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Base-Ten Numerals",
+    "Understanding Number Names",
+    "Understanding Expanded Form"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot read or write decimals to thousandths using base-ten numerals.",
+      "Student struggles to read or write decimals to thousandths using base-ten numerals; frequent errors are present.",
+      "Student can read and write simple decimals to tenths using base-ten numerals but struggles with hundredths and thousandths.",
+      "Student can accurately read and write most decimals to thousandths using base-ten numerals, with occasional minor errors.",
+      "Student consistently and accurately reads and writes decimals to thousandths using base-ten numerals.",
+      "Student demonstrates a thorough understanding and can fluently and accurately read and write complex decimals to thousandths using base-ten numerals, even with large numbers or multiple decimal places."
+    ],
+    [
+      "Student cannot read or write decimals to thousandths using number names.",
+      "Student struggles to read or write decimals to thousandths using number names; frequent errors are present.",
+      "Student can read and write simple decimals to tenths using number names but struggles with hundredths and thousandths.",
+      "Student can accurately read and write most decimals to thousandths using number names, with occasional minor errors.",
+      "Student consistently and accurately reads and writes decimals to thousandths using number names.",
+      "Student demonstrates a thorough understanding and can fluently and accurately read and write complex decimals to thousandths using number names, even with large numbers or multiple decimal places."
+    ],
+    [
+      "Student cannot read or write decimals to thousandths using expanded form.",
+      "Student struggles to read or write decimals to thousandths using expanded form; frequent errors are present.",
+      "Student can read and write simple decimals to tenths using expanded form but struggles with hundredths and thousandths.",
+      "Student can accurately read and write most decimals to thousandths using expanded form, with occasional minor errors.",
+      "Student consistently and accurately reads and writes decimals to thousandths using expanded form.",
+      "Student demonstrates a thorough understanding and can fluently and accurately read and write complex decimals to thousandths using expanded form, even with large numbers or multiple decimal places."
+    ]
+  ]
+}

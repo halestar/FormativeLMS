@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying Linear Functions",
+    "Identifying Exponential Functions",
+    "Recognizing Constant Percent Rate",
+    "Comparing Linear and Exponential Models"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot differentiate between linear and exponential situations.",
+      "Student shows minimal understanding, with frequent errors in identifying linear functions.",
+      "Student can identify linear functions in simple scenarios but struggles with more complex problems.",
+      "Student can accurately identify linear functions in most situations.",
+      "Student demonstrates a strong understanding of linear functions and can explain their characteristics.",
+      "Student can identify and explain linear functions with precision, including real-world applications and nuances."
+    ],
+    [
+      "Student cannot differentiate between linear and exponential situations.",
+      "Student shows minimal understanding, with frequent errors in identifying exponential functions.",
+      "Student can identify exponential functions in simple scenarios but struggles with more complex problems.",
+      "Student can accurately identify exponential functions in most situations.",
+      "Student demonstrates a strong understanding of exponential functions and can explain their characteristics.",
+      "Student can identify and explain exponential functions with precision, including real-world applications and nuances."
+    ],
+    [
+      "Student does not recognize constant percent rate in any context.",
+      "Student shows difficulty recognizing constant percent rate, even with guidance.",
+      "Student can identify constant percent rate in simple scenarios but not consistently.",
+      "Student can recognize constant percent rate in various contexts.",
+      "Student can explain how constant percent rate relates to exponential growth or decay.",
+      "Student can apply constant percent rate to solve complex problems and provide insightful analysis."
+    ],
+    [
+      "Student cannot compare linear and exponential models.",
+      "Student struggles to compare linear and exponential models, even with support.",
+      "Student can compare the models in simple situations but lacks depth in understanding.",
+      "Student can compare and contrast linear and exponential models with reasonable accuracy.",
+      "Student demonstrates a strong understanding of the differences between linear and exponential models.",
+      "Student can critically analyze and compare linear and exponential models in complex scenarios, explaining the implications of each."
+    ]
+  ]
+}

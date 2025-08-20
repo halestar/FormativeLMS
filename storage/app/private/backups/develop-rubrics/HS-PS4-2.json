@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to formulate relevant and focused questions about the advantages and disadvantages of digital vs. analog information transmission and storage.",
+    "Understanding of the relationship between wave properties and digital information transmission.",
+    "Ability to evaluate the impact of digital information technologies on society and modern civilization."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not formulate any questions or the questions are completely irrelevant to the topic.",
+      "Student formulates a question, but it is vague, unclear, or demonstrates a lack of understanding of digital information or wave properties.",
+      "Student formulates a question that touches on either advantages or disadvantages, but lacks depth or focus.",
+      "Student formulates questions addressing both advantages and disadvantages of digital transmission, but lacks critical evaluation.",
+      "Student formulates well-defined questions that critically evaluate the advantages and disadvantages of digital transmission and storage, showing an understanding of trade-offs.",
+      "Student formulates insightful and probing questions that challenge existing assumptions or explore nuanced aspects of digital information transmission and storage, demonstrating a sophisticated understanding of the topic."
+    ],
+    [
+      "Student demonstrates no understanding of wave properties or how they relate to digital information transmission.",
+      "Student shows a vague or inaccurate understanding of wave properties or the process of digital information transmission.",
+      "Student identifies wave properties but does not connect them to the process of transmitting digital information.",
+      "Student explains how digital information is sent as wave pulses but shows limited understanding of the underlying principles.",
+      "Student demonstrates a solid understanding of how wave properties (frequency, amplitude, etc.) are utilized in digital information transmission and storage.",
+      "Student provides a comprehensive explanation of the connection between wave properties and digital information, including error correction and modulation techniques."
+    ],
+    [
+      "Student does not address the influence of digital technologies on society.",
+      "Student mentions digital technologies but does not relate them to broader societal impacts.",
+      "Student describes some ways that digital technologies influence society but lacks depth or critical analysis.",
+      "Student analyzes the impact of digital technologies on society, providing examples of both benefits and drawbacks.",
+      "Student critically evaluates the influence of digital technologies, considering factors such as accessibility, security, and ethical considerations.",
+      "Student offers a nuanced perspective on the impact of digital technologies, exploring the complex interplay between technological advancements, societal changes, and ethical dilemmas."
+    ]
+  ]
+}

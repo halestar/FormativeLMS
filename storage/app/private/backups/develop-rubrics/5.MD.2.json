@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Line Plot Creation",
+    "Problem Solving Using Line Plot Data",
+    "Interpretation and Explanation of Results"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No line plot is created or the line plot is completely inaccurate and does not represent the data set.",
+      "The line plot is created, but contains several inaccuracies in plotting the data points. Fractions are not represented correctly.",
+      "The line plot contains some inaccuracies in plotting the data points or representing the fractions.",
+      "The line plot is mostly accurate with only minor errors in plotting the data points or representing the fractions.",
+      "The line plot is accurate and correctly represents the data set with fractions, but may have a minor oversight.",
+      "The line plot is perfectly accurate, clearly labeled, and precisely represents the data set including fractions (1\/2, 1\/4, 1\/8)."
+    ],
+    [
+      "No attempt is made to solve problems using the information presented in the line plot.",
+      "An attempt is made to solve problems, but the approach is incorrect and shows no understanding of operations with fractions.",
+      "Problems are attempted, but the solutions contain major errors in operations with fractions, leading to incorrect answers.",
+      "Problems are solved with some errors in operations with fractions, but demonstrates a basic understanding of how to use the line plot data.",
+      "Problems are mostly solved correctly using the line plot data and operations with fractions, with only minor calculation errors.",
+      "Problems are solved correctly and efficiently using the information presented in the line plot and demonstrating a thorough understanding of operations with fractions."
+    ],
+    [
+      "No interpretation or explanation of the results is provided.",
+      "Interpretation or explanation is attempted, but it is unclear or incorrect.",
+      "Provides a limited or partially correct interpretation of the results, but lacks clarity.",
+      "Interprets the results with reasonable accuracy, but the explanation could be more detailed.",
+      "Clearly interprets the results and provides a good explanation of the findings based on the line plot data.",
+      "Provides a clear, insightful, and thorough interpretation of the results, explaining the findings effectively and demonstrating a deep understanding of the data."
+    ]
+  ]
+}

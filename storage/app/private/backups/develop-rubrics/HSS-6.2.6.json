@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Trade Networks",
+    "Identification of Goods and Resources",
+    "Explanation of Economic Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of Egyptian trade networks.",
+      "Student shows minimal understanding of Egyptian trade in the eastern Mediterranean and Nile valley, with significant inaccuracies.",
+      "Student identifies some aspects of Egyptian trade, but lacks detail and clarity.",
+      "Student accurately describes the basic role of Egyptian trade, including key locations and goods.",
+      "Student provides a detailed explanation of Egyptian trade networks, including the significance of specific trade routes and goods.",
+      "Student provides a comprehensive and insightful analysis of Egyptian trade, including its impact on the economy and society of Egypt and surrounding regions, including the environmental impact."
+    ],
+    [
+      "Student does not identify any goods or resources involved in Egyptian trade.",
+      "Student names one or two items with no context.",
+      "Student lists a few goods or resources, but the connection to trade is unclear.",
+      "Student identifies several important goods and resources traded by Egyptians, such as grain, gold, and papyrus.",
+      "Student describes a wide range of goods and resources, explaining their origin and destination within the trade networks.",
+      "Student provides an exhaustive list of traded goods and resources, categorizing them and discussing their relative importance to the Egyptian economy, including which resources were not sustainable."
+    ],
+    [
+      "Student provides no explanation of the economic impact of trade.",
+      "Student makes vague references to economic effects.",
+      "Student attempts to describe the economic impact, but with limited accuracy.",
+      "Student explains how trade contributed to Egypt's wealth and prosperity.",
+      "Student analyzes the economic impact of trade on different social classes and sectors within Egypt.",
+      "Student evaluates the long-term economic consequences of Egyptian trade, including its role in the rise and fall of dynasties."
+    ]
+  ]
+}

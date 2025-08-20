@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in applying differentiation rules for higher-order derivatives.",
+    "Ability to correctly identify and apply the chain rule, product rule, and quotient rule where necessary.",
+    "Clarity and correctness in notation and mathematical presentation.",
+    "Simplification and algebraic manipulation skills after differentiation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or demonstrates no understanding of differentiation rules.",
+      "Demonstrates minimal understanding of basic differentiation rules; frequent errors.",
+      "Applies basic differentiation rules with some errors, especially in complex functions.",
+      "Generally applies differentiation rules correctly, with occasional minor errors.",
+      "Applies differentiation rules accurately for most functions, including chain rule and product rule.",
+      "Consistently and accurately applies differentiation rules to find higher-order derivatives of complex functions."
+    ],
+    [
+      "Fails to identify or apply chain, product, or quotient rules.",
+      "Attempts to apply chain, product, or quotient rules, but with significant errors.",
+      "Applies chain, product, or quotient rules inconsistently and with frequent errors.",
+      "Applies chain, product, and quotient rules with some accuracy, but may struggle with more complex problems.",
+      "Correctly identifies and applies chain, product, and quotient rules in most situations.",
+      "Masterfully identifies and applies chain, product, and quotient rules, even in complex and multi-layered problems."
+    ],
+    [
+      "Notation is unclear or incorrect; work is disorganized and difficult to follow.",
+      "Notation contains errors; work is somewhat disorganized.",
+      "Notation is generally correct, but some inconsistencies are present; work is adequately organized.",
+      "Correct notation is used, and work is generally well-organized and easy to follow.",
+      "Clear and correct notation is consistently used; work is well-organized and easy to follow.",
+      "Exemplary use of notation; work is exceptionally clear, concise, and well-organized, enhancing understanding."
+    ],
+    [
+      "Unable to simplify or manipulate expressions after differentiation.",
+      "Attempts simplification, but with significant errors.",
+      "Simplifies expressions with some errors; struggles with more complex algebraic manipulations.",
+      "Simplifies expressions correctly in most cases, with occasional minor errors.",
+      "Consistently simplifies expressions accurately after differentiation.",
+      "Demonstrates excellent algebraic manipulation skills, simplifying complex expressions efficiently and accurately."
+    ]
+  ]
+}

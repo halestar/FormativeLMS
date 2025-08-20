@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Campaign Issues: Assesses the student's comprehension of the key issues discussed during national, state, and local campaigns.",
+    "Evaluation of Candidate Positions: Assesses the student's ability to critically evaluate candidates' stances on various issues.",
+    "Analysis of Campaign Strategies: Measures the student's ability to analyze the strategies used by campaigns to influence voters.",
+    "Identification of Bias and Propaganda: Assesses the student's ability to recognize bias and propaganda techniques used in campaigns."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of campaign issues.",
+      "Shows minimal understanding of campaign issues; struggles to identify core arguments.",
+      "Identifies some campaign issues but lacks depth in explanation or understanding.",
+      "Demonstrates a satisfactory understanding of the main campaign issues with reasonable explanations.",
+      "Exhibits a strong understanding of campaign issues, providing detailed explanations and insights.",
+      "Shows a comprehensive understanding of campaign issues, offering nuanced perspectives and critical analysis."
+    ],
+    [
+      "Unable to evaluate candidates' positions.",
+      "Struggles to identify and evaluate candidates' positions on issues.",
+      "Identifies candidates' positions but offers superficial evaluation.",
+      "Evaluates candidates' positions with some reasoning and support.",
+      "Provides well-reasoned evaluations of candidates' positions, supported by evidence.",
+      "Offers insightful and critical evaluations of candidates' positions, demonstrating a deep understanding of the implications."
+    ],
+    [
+      "Unable to identify or analyze campaign strategies.",
+      "Shows limited awareness of campaign strategies and their impact.",
+      "Identifies some campaign strategies but lacks analysis of their effectiveness.",
+      "Analyzes campaign strategies with some understanding of their potential impact.",
+      "Provides thoughtful analysis of campaign strategies, discussing their strengths and weaknesses.",
+      "Offers sophisticated analysis of campaign strategies, considering their ethical implications and long-term effects."
+    ],
+    [
+      "Fails to identify bias or propaganda in campaign materials.",
+      "Shows difficulty recognizing bias and propaganda techniques.",
+      "Identifies some instances of bias or propaganda but lacks detailed explanation.",
+      "Recognizes and explains common bias and propaganda techniques in campaign materials.",
+      "Critically analyzes bias and propaganda techniques, explaining their potential impact on voters.",
+      "Demonstrates a nuanced understanding of bias and propaganda, recognizing subtle techniques and their effects on public opinion."
+    ]
+  ]
+}

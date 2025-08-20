@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Advertising Techniques",
+    "Analysis of Marketing Techniques",
+    "Understanding of Persuasive Language and Imagery",
+    "Critical Evaluation of Health Claims"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any advertising techniques used for food and beverages.",
+      "Identifies one advertising technique but struggles to explain it.",
+      "Identifies two advertising techniques but explanations lack depth.",
+      "Identifies three advertising techniques and provides basic explanations.",
+      "Identifies four advertising techniques and explains them with reasonable clarity.",
+      "Identifies multiple advertising techniques (more than 4) and explains them clearly and accurately, demonstrating a strong understanding."
+    ],
+    [
+      "Unable to analyze any marketing techniques related to food and beverages.",
+      "Attempts to analyze a marketing technique but shows significant misunderstanding.",
+      "Analyzes a single marketing technique with limited understanding.",
+      "Analyzes two marketing techniques, demonstrating a basic level of understanding of their impact.",
+      "Analyzes three marketing techniques and demonstrates a solid understanding of their intended effects.",
+      "Provides a comprehensive analysis of multiple marketing techniques, clearly articulating their strategies and potential impact on consumers."
+    ],
+    [
+      "Shows no understanding of how persuasive language and imagery are used in food and beverage advertising.",
+      "Demonstrates minimal awareness of persuasive language and imagery.",
+      "Identifies persuasive language or imagery in advertising, but struggles to explain its effect.",
+      "Explains how persuasive language and imagery are used to influence consumers, with some clarity.",
+      "Clearly explains the effects of persuasive language and imagery in advertising, providing relevant examples.",
+      "Critically analyzes the use of persuasive language and imagery in advertising, demonstrating a sophisticated understanding of their manipulative potential."
+    ],
+    [
+      "Unable to evaluate the validity of health claims made in food and beverage advertising.",
+      "Accepts health claims at face value without questioning their validity.",
+      "Begins to question health claims but lacks the ability to substantiate their doubts.",
+      "Evaluates health claims with some skepticism, providing basic reasons for their evaluation.",
+      "Critically evaluates health claims, providing sound reasoning and evidence to support their conclusions.",
+      "Provides a nuanced evaluation of health claims, identifying potential biases and hidden agendas within the advertising strategies."
+    ]
+  ]
+}

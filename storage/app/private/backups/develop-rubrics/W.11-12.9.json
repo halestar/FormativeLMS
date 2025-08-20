@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Selection of Textual Evidence",
+    "Application of Reading Standards to Literature",
+    "Application of Reading Standards to Literary Nonfiction",
+    "Quality of Analysis, Reflection, and Research"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence is selected, or the selections are completely irrelevant to the analysis, reflection, or research.",
+      "Minimal evidence is selected, and it is weakly connected to the analysis, reflection, or research.",
+      "Some evidence is selected, but its relevance to the analysis, reflection, or research is questionable or requires significant inferential leaps.",
+      "Adequate evidence is selected, and it generally supports the analysis, reflection, or research, but there may be minor gaps in relevance or explanation.",
+      "Relevant and sufficient evidence is selected to support the analysis, reflection, or research, and connections are clearly explained.",
+      "Evidence is expertly selected, providing strong and compelling support for the analysis, reflection, or research; connections are insightful and thoroughly explained."
+    ],
+    [
+      "Demonstrates no understanding of literary texts or their themes.",
+      "Demonstrates a very limited understanding of literary texts or their themes.",
+      "Demonstrates a basic understanding of literary texts and their themes, but lacks depth or critical analysis.",
+      "Demonstrates a satisfactory understanding of literary texts and their themes, making some connections between texts.",
+      "Demonstrates a strong understanding of literary texts and their themes, making insightful connections between texts from the same period.",
+      "Demonstrates an exceptional understanding of literary texts and their themes, providing a nuanced analysis of how texts from the same period treat similar topics."
+    ],
+    [
+      "Fails to identify any reasoning or arguments within seminal U.S. texts.",
+      "Identifies reasoning or arguments superficially with no evaluation.",
+      "Identifies reasoning and arguments but struggles to evaluate them or connect them to constitutional principles or legal reasoning.",
+      "Delineates and evaluates the reasoning and arguments in U.S. texts, but the application of constitutional principles or legal reasoning is basic.",
+      "Clearly delineates and evaluates the reasoning in seminal U.S. texts, demonstrating a solid understanding of constitutional principles and legal reasoning.",
+      "Insightfully delineates and evaluates the reasoning in seminal U.S. texts, providing a sophisticated analysis of constitutional principles, legal reasoning, and their implications."
+    ],
+    [
+      "Analysis, reflection, or research is absent or completely irrelevant.",
+      "Analysis, reflection, or research is minimal, superficial, and lacks focus.",
+      "Analysis, reflection, or research is basic, with limited depth and coherence.",
+      "Analysis, reflection, or research is adequate, demonstrating some understanding and coherence.",
+      "Analysis, reflection, or research is thorough, demonstrating strong understanding, insight, and coherence.",
+      "Analysis, reflection, or research is insightful, demonstrating exceptional understanding, sophisticated analysis, and compelling coherence."
+    ]
+  ]
+}

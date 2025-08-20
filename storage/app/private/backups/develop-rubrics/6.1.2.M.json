@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Feelings and Emotions",
+    "Understanding the Impact of Loss",
+    "Clarity and Organization of Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any feelings or emotions associated with loss and grief.",
+      "The student identifies only one feeling or emotion vaguely related to loss and grief.",
+      "The student identifies a few feelings or emotions, but the summary lacks depth and accuracy.",
+      "The student identifies several feelings and emotions associated with loss and grief, providing a basic summary.",
+      "The student accurately identifies and summarizes various feelings and emotions connected to loss and grief, demonstrating a good understanding.",
+      "The student comprehensively identifies, summarizes, and articulates a wide range of feelings and emotions associated with loss and grief, demonstrating a nuanced understanding."
+    ],
+    [
+      "The student demonstrates no understanding of how loss and grief can affect individuals.",
+      "The student shows a minimal understanding of the impact of loss, with no specific examples.",
+      "The student mentions the impact of loss in general terms, but lacks personal or specific details.",
+      "The student summarizes some common ways loss can affect individuals, such as sadness or anger.",
+      "The student explains several ways loss can affect individuals, including emotional, physical, and social impacts.",
+      "The student demonstrates a deep understanding of the multifaceted impact of loss, including long-term effects and individual differences in experiencing grief."
+    ],
+    [
+      "The summary is incoherent and lacks any discernible organization.",
+      "The summary is difficult to follow and lacks a clear structure.",
+      "The summary has some organization, but ideas are presented in a confusing manner.",
+      "The summary is generally clear and organized, with a logical flow of ideas.",
+      "The summary is well-organized, concise, and easy to understand, with clear transitions between ideas.",
+      "The summary is exceptionally clear, insightful, and well-organized, presenting a coherent and comprehensive overview of feelings and emotions associated with loss and grief."
+    ]
+  ]
+}

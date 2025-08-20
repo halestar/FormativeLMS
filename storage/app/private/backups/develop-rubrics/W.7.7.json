@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Focus and Clarity of Research Question",
+    "Use of Sources",
+    "Generation of Related Questions",
+    "Organization and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The research question is missing or completely unclear. There is no evidence of a focused question guiding the research.",
+      "The research question is vague and lacks focus. It is difficult to understand what the research aims to investigate.",
+      "The research question is somewhat clear but could be more focused. The connection to the research is not always evident.",
+      "The research question is clear and focused, providing a good starting point for the research project. It is evident in the research.",
+      "The research question is well-defined, focused, and clearly guides the research. It demonstrates a solid understanding of the topic.",
+      "The research question is exceptionally clear, insightful, and effectively focuses the research. It demonstrates a sophisticated understanding of the topic and its complexities."
+    ],
+    [
+      "No sources are used, or the sources are entirely irrelevant to the research question.",
+      "Few sources are used, and they are not credible or relevant to the research question.",
+      "Some sources are used, but their relevance or credibility is questionable. The sources are not well-integrated into the research.",
+      "Several sources are used, and most are relevant and credible. The sources are adequately integrated into the research.",
+      "A variety of relevant and credible sources are used effectively to support the research. The sources are well-integrated and contribute to a deeper understanding of the topic.",
+      "An impressive range of highly relevant and credible sources are expertly integrated to provide comprehensive support for the research. The sources demonstrate a nuanced understanding of the topic and its context."
+    ],
+    [
+      "No additional related questions are generated.",
+      "Few or irrelevant related questions are generated.",
+      "Some related questions are generated, but they lack focus or relevance.",
+      "Adequate related questions are generated, showing some understanding of potential avenues for further research.",
+      "Thoughtful and relevant related questions are generated, demonstrating a clear understanding of potential avenues for further research and investigation.",
+      "Insightful and probing related questions are generated, demonstrating a sophisticated understanding of potential avenues for further research and investigation. The questions reveal a deep engagement with the topic."
+    ],
+    [
+      "The research project lacks organization and coherence. Ideas are presented randomly, making it difficult to follow the line of reasoning.",
+      "The research project is poorly organized and lacks coherence. Ideas are loosely connected, making it challenging to understand the overall argument.",
+      "The research project has some organization, but coherence is lacking. Transitions between ideas are abrupt, hindering the flow of the research.",
+      "The research project is generally organized and coherent. Ideas are logically connected, and transitions are mostly smooth.",
+      "The research project is well-organized and coherent. Ideas are logically connected, and transitions are smooth, enhancing the clarity of the research.",
+      "The research project is exceptionally well-organized and coherent. Ideas flow seamlessly, creating a compelling and insightful narrative. The structure enhances the overall impact of the research."
+    ]
+  ]
+}

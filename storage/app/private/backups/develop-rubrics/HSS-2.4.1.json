@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Historical Food Production and Consumption",
+    "Understanding of Modern Food Production and Consumption",
+    "Role of Key Players (Farmers, Processors, Distributors)",
+    "Impact of Weather, Land, and Water Resources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of food production and consumption in the past.",
+      "Shows minimal awareness of historical food production and consumption with significant inaccuracies.",
+      "Identifies some aspects of food production and consumption long ago, but lacks depth and detail.",
+      "Describes food production and consumption in the past with reasonable accuracy, but misses some key elements.",
+      "Provides a detailed account of food production and consumption long ago, including the roles of key players.",
+      "Offers a comprehensive and nuanced understanding of historical food production and consumption, analyzing its impact on society."
+    ],
+    [
+      "Demonstrates no understanding of modern food production and consumption.",
+      "Shows minimal awareness of current food production and consumption with significant inaccuracies.",
+      "Identifies some aspects of modern food production and consumption, but lacks depth and detail.",
+      "Describes food production and consumption today with reasonable accuracy, but misses some key elements.",
+      "Provides a detailed account of food production and consumption today, including the roles of key players.",
+      "Offers a comprehensive and nuanced understanding of modern food production and consumption, analyzing its economic and environmental implications."
+    ],
+    [
+      "Does not identify any of the key players involved in food production and consumption.",
+      "Identifies one or two key players but shows limited understanding of their roles.",
+      "Recognizes farmers, processors, and distributors but provides a superficial description of their functions.",
+      "Explains the roles of farmers, processors, and distributors in food production and consumption with some detail.",
+      "Thoroughly describes the roles of farmers, processors, and distributors and their interrelationships.",
+      "Analyzes the complex relationships between farmers, processors, and distributors, considering factors like market forces and technological advancements."
+    ],
+    [
+      "Does not mention the influence of weather, land, or water resources on food production.",
+      "Briefly mentions weather, land, or water but does not explain their significance.",
+      "Acknowledges the role of weather, land, and water but lacks specific examples or details.",
+      "Explains how weather, land, and water resources affect food production and consumption.",
+      "Provides a detailed explanation of the impact of weather patterns, land quality, and water availability on food production, both historically and today.",
+      "Analyzes the interplay between environmental factors (weather, land, water) and food production systems, considering sustainability and resource management."
+    ]
+  ]
+}

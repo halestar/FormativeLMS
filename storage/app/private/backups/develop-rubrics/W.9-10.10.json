@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to sustain writing for extended periods.",
+    "Demonstrates adaptability to different writing tasks.",
+    "Demonstrates understanding of audience.",
+    "Effective use of time for research, reflection, and revision."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no ability to write for extended periods; writing is minimal or nonexistent.",
+      "Student struggles to write for extended periods; writing is brief and underdeveloped.",
+      "Student can write for a limited time, but struggles to maintain focus and depth.",
+      "Student adequately sustains writing for required time frames, with some lapses in focus or detail.",
+      "Student consistently writes for extended periods, demonstrating good focus and development.",
+      "Student expertly sustains writing for extended periods, showing exceptional focus, depth, and engagement."
+    ],
+    [
+      "Student is unable to adapt writing style or content to different tasks; writing is consistently inappropriate.",
+      "Student shows minimal adaptation to different tasks; writing style and content are largely uniform.",
+      "Student attempts to adapt to different tasks, but with limited success; some aspects of writing remain inappropriate.",
+      "Student generally adapts to different tasks, with occasional lapses in appropriateness or style.",
+      "Student effectively adapts writing style and content to suit a variety of tasks.",
+      "Student masterfully adapts writing to different tasks, demonstrating a sophisticated understanding of audience and purpose."
+    ],
+    [
+      "Student demonstrates no awareness of audience; writing is completely detached from audience needs or expectations.",
+      "Student shows minimal awareness of audience; writing is largely indifferent to audience needs or expectations.",
+      "Student attempts to consider the audience, but with limited success; some aspects of writing remain inappropriate.",
+      "Student generally considers the audience, with occasional lapses in appropriateness or tone.",
+      "Student effectively tailors writing to suit the intended audience, demonstrating good understanding of audience needs and expectations.",
+      "Student expertly tailors writing to suit the intended audience, demonstrating a sophisticated understanding of audience and purpose."
+    ],
+    [
+      "Student does not engage in research, reflection, or revision; writing is presented as a first draft.",
+      "Student shows minimal engagement with research, reflection, or revision; changes are superficial.",
+      "Student attempts to incorporate research, reflection, or revision, but with limited success; changes are minimal or ineffective.",
+      "Student adequately uses time for research, reflection, and revision; some improvements are evident.",
+      "Student effectively uses time for research, reflection, and revision, leading to noticeable improvements in writing quality.",
+      "Student expertly uses time for research, reflection, and revision, resulting in polished and refined writing."
+    ]
+  ]
+}

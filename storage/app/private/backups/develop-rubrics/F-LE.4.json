@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to express exponential models as logarithms.",
+    "Ability to evaluate logarithms using technology.",
+    "Understanding of the relationship between exponential and logarithmic forms."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot express the exponential model as a logarithm.",
+      "Student struggles to express the exponential model as a logarithm with significant errors.",
+      "Student can express the exponential model as a logarithm with some errors.",
+      "Student can correctly express the exponential model as a logarithm, but the solution is not simplified.",
+      "Student can correctly express the exponential model as a logarithm and simplify the solution.",
+      "Student can correctly and efficiently express exponential models as logarithms, simplifying the solution and demonstrating a thorough understanding of the relationship between exponential and logarithmic forms."
+    ],
+    [
+      "Student cannot use technology to evaluate the logarithm.",
+      "Student attempts to use technology but is unsuccessful in evaluating the logarithm.",
+      "Student can use technology to evaluate the logarithm but makes errors in input or interpretation.",
+      "Student can correctly use technology to evaluate the logarithm, but the answer is not precise.",
+      "Student can correctly use technology to evaluate the logarithm and provide a precise answer.",
+      "Student demonstrates proficiency in using technology to evaluate logarithms, providing precise answers and explaining the process clearly."
+    ],
+    [
+      "Student shows no understanding of the relationship between exponential and logarithmic forms.",
+      "Student shows limited understanding of the relationship between exponential and logarithmic forms.",
+      "Student shows some understanding of the relationship between exponential and logarithmic forms, but struggles to apply it.",
+      "Student understands the relationship between exponential and logarithmic forms and can apply it in simple cases.",
+      "Student understands the relationship between exponential and logarithmic forms and can apply it in most cases.",
+      "Student demonstrates a thorough understanding of the relationship between exponential and logarithmic forms and can apply it in complex problem-solving scenarios."
+    ]
+  ]
+}

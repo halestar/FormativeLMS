@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Geographic Locations",
+    "Knowledge of Landforms and Climates",
+    "Analysis of Economic Activities",
+    "Understanding of Urban Development"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the geographic locations of the Mayan, Aztec, and Incan civilizations.",
+      "Identifies the general region (e.g., Central America) but lacks specific details or accuracy.",
+      "Identifies the countries where these civilizations were located, but with some inaccuracies or omissions.",
+      "Accurately identifies the primary geographic locations of the Mayan, Aztec, and Incan civilizations.",
+      "Accurately identifies the geographic locations and can describe the general environmental conditions of the regions.",
+      "Provides a detailed and accurate description of the geographic locations, including specific cities or regions, and analyzes how these locations influenced the civilizations."
+    ],
+    [
+      "Shows no understanding of the landforms and climates of the regions inhabited by these civilizations.",
+      "Identifies one or two general landforms or climate characteristics, but with limited accuracy.",
+      "Identifies the primary landforms and climate characteristics of the regions with some inaccuracies.",
+      "Accurately identifies the major landforms (e.g., mountains, rainforests) and climate characteristics (e.g., tropical, arid) of the regions.",
+      "Accurately describes the landforms and climates, providing some specific examples relevant to each civilization.",
+      "Provides a comprehensive and accurate description of the landforms and climates, explaining how these environmental factors shaped the civilizations' development."
+    ],
+    [
+      "Demonstrates no understanding of the economic activities of the Mayan, Aztec, and Incan civilizations.",
+      "Identifies one or two general economic activities (e.g., farming), but lacks specific details.",
+      "Lists several economic activities but does not explain how geography affected them.",
+      "Describes the primary economic activities (e.g., agriculture, trade) of each civilization and starts to explain how geography affected them.",
+      "Explains in detail the key economic activities of each civilization and provides specific examples of how landforms and climate influenced them.",
+      "Provides a comprehensive analysis of the economic activities, explaining in detail how specific geographic features and climate conditions directly shaped trade networks, agricultural practices, and resource management."
+    ],
+    [
+      "Shows no understanding of urban development in Mayan, Aztec, and Incan societies.",
+      "Mentions the existence of cities but provides no details.",
+      "Lists the names of a few cities but does not explain how geography affected their development.",
+      "Describes the presence of urban societies and begins to explain how geographical factors influenced their development.",
+      "Explains how specific geographic conditions (e.g., access to water, fertile land) influenced the development and characteristics of urban centers.",
+      "Provides a detailed analysis of how geography influenced urban development, including the layout, architecture, and sustainability of cities in these civilizations."
+    ]
+  ]
+}

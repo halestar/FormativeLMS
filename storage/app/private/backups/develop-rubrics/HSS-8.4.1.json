@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Describing Physical Landscapes",
+    "Clarity and Accuracy of Political Divisions",
+    "Detail and Accuracy of Territorial Expansion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No description of physical landscapes provided or description is entirely inaccurate.",
+      "Provides a minimal and largely inaccurate description of the country's physical landscapes during the specified period.",
+      "Offers a basic description with some inaccuracies regarding the physical landscapes of the country during the terms of the first four presidents.",
+      "Presents a generally accurate description of the country's physical landscapes, but lacks detail or depth.",
+      "Provides a detailed and mostly accurate description of the country's physical landscapes, demonstrating a good understanding.",
+      "Offers a comprehensive and accurate description of the physical landscapes, showcasing in-depth knowledge and understanding of geographical features and their impact."
+    ],
+    [
+      "No identification or complete misunderstanding of the political divisions during the specified period.",
+      "Offers a vague and inaccurate account of the political divisions present during the terms of the first four presidents.",
+      "Identifies some political divisions but demonstrates limited understanding or contains significant inaccuracies.",
+      "Presents a moderately accurate account of the political divisions, but lacks detailed explanation or insightful connections.",
+      "Provides a clear and accurate overview of the major political divisions and ideologies, showing good comprehension.",
+      "Offers a nuanced and insightful analysis of the political divisions, demonstrating a deep understanding of their causes and effects."
+    ],
+    [
+      "No mention of territorial expansion or demonstrates a complete misunderstanding of the concept.",
+      "Provides a minimal and largely incorrect description of the country's territorial expansion during the terms of the first four presidents.",
+      "Describes some territorial expansion events but lacks detail and contains inaccuracies.",
+      "Presents a generally accurate overview of territorial expansion, but misses key details or lacks context.",
+      "Provides a detailed and mostly accurate account of the country's territorial expansion, demonstrating good knowledge of the historical context.",
+      "Offers a comprehensive and insightful analysis of the territorial expansion, showcasing in-depth understanding of its motivations, processes, and consequences."
+    ]
+  ]
+}

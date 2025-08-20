@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of Communication",
+    "Accuracy and Relevance of Information",
+    "Appropriateness of Tone and Demeanor"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to communicate or communication is completely unclear and ineffective.",
+      "Communication is attempted but is largely unclear and would likely not result in effective alerting.",
+      "Communication is somewhat clear but lacks key details or is delivered in a way that may delay appropriate action.",
+      "Communication is generally clear and includes most relevant details, but could be more concise or direct.",
+      "Communication is clear, concise, and includes all relevant details necessary to effectively alert an adult.",
+      "Communication is exceptionally clear, concise, and persuasive, demonstrating a strong understanding of the urgency and importance of the situation. It anticipates potential questions and provides proactive clarification."
+    ],
+    [
+      "Provides inaccurate or irrelevant information about the situation.",
+      "Provides mostly inaccurate or irrelevant information about the situation.",
+      "Provides some accurate and relevant information, but includes inaccuracies or omits important details.",
+      "Provides mostly accurate and relevant information, with only minor inaccuracies or omissions.",
+      "Provides accurate and relevant information about the unsafe situation, including details about the drugs or medicines involved.",
+      "Provides comprehensive, accurate, and insightful information about the unsafe situation, demonstrating a deep understanding of the potential risks and consequences."
+    ],
+    [
+      "Tone and demeanor are inappropriate, panicked, or dismissive.",
+      "Tone and demeanor are somewhat inappropriate or may not convey the necessary level of seriousness.",
+      "Tone and demeanor are generally appropriate but could be more assertive or concerned.",
+      "Tone and demeanor are appropriate and convey a sense of concern and urgency without being overly panicked.",
+      "Tone and demeanor are highly appropriate, demonstrating composure and respect while clearly conveying the seriousness of the situation.",
+      "Demonstrates an exceptional ability to manage emotions and communicate with poise and confidence, inspiring trust and encouraging a prompt and effective response from the adult."
+    ]
+  ]
+}

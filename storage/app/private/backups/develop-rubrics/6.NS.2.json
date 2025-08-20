@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Division",
+    "Understanding of the Algorithm",
+    "Efficiency and Fluency"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the division algorithm and makes significant errors.",
+      "The student attempts to use the division algorithm but makes frequent errors, resulting in an incorrect quotient.",
+      "The student uses the division algorithm with some accuracy but still makes occasional errors that affect the final answer.",
+      "The student generally divides accurately, with only minor errors that do not significantly impact the quotient.",
+      "The student divides multi-digit numbers accurately using the standard algorithm with minimal errors.",
+      "The student fluently and accurately divides multi-digit numbers using the standard algorithm with no errors."
+    ],
+    [
+      "The student shows no understanding of the steps involved in the standard division algorithm.",
+      "The student shows limited understanding of the division algorithm and struggles to explain the steps.",
+      "The student demonstrates some understanding of the algorithm but has difficulty explaining the reasoning behind each step.",
+      "The student understands the basic steps of the algorithm and can generally explain the reasoning.",
+      "The student shows a strong understanding of the division algorithm and can explain the steps clearly.",
+      "The student demonstrates a complete understanding of the standard division algorithm and can explain the reasoning behind each step with precision."
+    ],
+    [
+      "The student is unable to perform the division algorithm in a timely manner.",
+      "The student performs the division algorithm very slowly and laboriously.",
+      "The student performs the division algorithm slowly and without much fluency.",
+      "The student performs the division algorithm at a reasonable pace.",
+      "The student performs the division algorithm efficiently and with good fluency.",
+      "The student performs the division algorithm fluently and efficiently, demonstrating mastery of the process."
+    ]
+  ]
+}

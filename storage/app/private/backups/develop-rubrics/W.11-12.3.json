@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Engagement and Orientation of the Reader",
+    "Use of Narrative Techniques",
+    "Sequencing of Events",
+    "Use of Language",
+    "Conclusion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The narrative fails to engage the reader or establish a clear context. There is no discernible point of view, narrator, or characters introduced.",
+      "The narrative attempts to engage the reader, but the context is unclear. The point of view, narrator, or characters are vaguely introduced.",
+      "The narrative somewhat engages the reader and provides some context. The point of view, narrator, or characters are adequately introduced, but the progression of events is disjointed.",
+      "The narrative engages the reader by establishing a problem, situation, or observation. A point of view, narrator, and characters are introduced, and there is a somewhat smooth progression of events.",
+      "The narrative effectively engages the reader by clearly setting out a problem, situation, or observation and its significance. It establishes a clear point of view, introduces a narrator and characters, and creates a smooth progression of events.",
+      "The narrative masterfully engages the reader from the outset, presenting a compelling problem, situation, or observation with profound significance. It expertly establishes a distinct point of view, introduces a compelling narrator and characters, and crafts a seamless and captivating progression of events."
+    ],
+    [
+      "The narrative does not employ any narrative techniques such as dialogue, pacing, description, or reflection.",
+      "The narrative attempts to use narrative techniques, but they are ineffective or poorly executed.",
+      "The narrative uses some narrative techniques, such as dialogue, pacing, description, or reflection, but they are not well-developed.",
+      "The narrative effectively uses narrative techniques, such as dialogue, pacing, description, and reflection, to develop experiences, events, and\/or characters.",
+      "The narrative skillfully uses a variety of narrative techniques, such as dialogue, pacing, description, reflection, and multiple plot lines, to richly develop experiences, events, and characters.",
+      "The narrative demonstrates a masterful command of narrative techniques, seamlessly weaving together dialogue, pacing, description, reflection, and multiple plot lines to create a deeply immersive and compelling experience for the reader."
+    ],
+    [
+      "The events in the narrative are not sequenced logically and do not build on one another.",
+      "The events in the narrative are sequenced somewhat logically, but the connection between them is unclear.",
+      "The narrative attempts to sequence events so that they build on one another, but the coherence is lacking.",
+      "The narrative sequences events so that they build on one another to create a coherent whole and build toward a particular tone and outcome.",
+      "The narrative skillfully sequences events, building upon each other to create a coherent whole and effectively building toward a particular tone and outcome (e.g., a sense of mystery, suspense, growth, or resolution).",
+      "The narrative expertly sequences events with precision, crafting a seamless progression that builds upon each moment to create a profoundly coherent and resonant whole, skillfully guiding the reader toward a powerful and evocative tone and outcome."
+    ],
+    [
+      "The narrative uses imprecise language and lacks detail, failing to convey a vivid picture of the experiences, events, setting, and\/or characters.",
+      "The narrative uses somewhat precise language and includes some details, but the picture remains unclear.",
+      "The narrative uses adequate language and detail to convey a sense of the experiences, events, setting, and\/or characters.",
+      "The narrative uses precise words and phrases, telling details, and sensory language to convey a vivid picture of the experiences, events, setting, and\/or characters.",
+      "The narrative employs precise and evocative language, rich with telling details and sensory imagery, to paint a vivid and immersive picture of the experiences, events, setting, and characters.",
+      "The narrative showcases a masterful command of language, employing precise, evocative words and phrases, along with an abundance of telling details and sensory language, to create a stunningly vivid and immersive portrayal of the experiences, events, setting, and characters."
+    ],
+    [
+      "The narrative lacks a conclusion or the conclusion does not follow from the events of the narrative.",
+      "The narrative has a weak conclusion that is not clearly connected to the events of the narrative.",
+      "The narrative provides a conclusion that is somewhat related to the events of the narrative but lacks reflection.",
+      "The narrative provides a conclusion that follows from and reflects on what is experienced, observed, or resolved over the course of the narrative.",
+      "The narrative delivers a thoughtful and insightful conclusion that seamlessly follows from and reflects upon the experiences, observations, or resolutions explored throughout the narrative.",
+      "The narrative culminates in a profound and resonant conclusion that not only follows seamlessly from the narrative's events but also offers a deeply insightful reflection on the experiences, observations, or resolutions, leaving a lasting impact on the reader."
+    ]
+  ]
+}

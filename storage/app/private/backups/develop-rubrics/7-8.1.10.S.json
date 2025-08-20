@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of basic safety guidelines for emergencies.",
+    "Identification of basic safety guidelines for natural disasters.",
+    "Understanding the importance of safety guidelines."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any safety guidelines.",
+      "Student can identify one basic safety guideline for emergencies, but it is vague or incomplete.",
+      "Student can identify a few basic safety guidelines for emergencies, but there are inaccuracies or omissions.",
+      "Student can accurately identify several basic safety guidelines for emergencies, demonstrating a general understanding.",
+      "Student can comprehensively identify most basic safety guidelines for emergencies, showing a strong understanding.",
+      "Student can expertly and comprehensively identify all basic safety guidelines for emergencies, demonstrating mastery and nuanced understanding."
+    ],
+    [
+      "Student is unable to identify any safety guidelines.",
+      "Student can identify one basic safety guideline for natural disasters, but it is vague or incomplete.",
+      "Student can identify a few basic safety guidelines for natural disasters, but there are inaccuracies or omissions.",
+      "Student can accurately identify several basic safety guidelines for natural disasters, demonstrating a general understanding.",
+      "Student can comprehensively identify most basic safety guidelines for natural disasters, showing a strong understanding.",
+      "Student can expertly and comprehensively identify all basic safety guidelines for natural disasters, demonstrating mastery and nuanced understanding."
+    ],
+    [
+      "Student does not demonstrate any understanding of the importance of safety guidelines.",
+      "Student shows a limited understanding of why safety guidelines are important.",
+      "Student shows some understanding of the importance of safety guidelines but struggles to articulate specific reasons.",
+      "Student demonstrates a clear understanding of the importance of safety guidelines and provides reasonable explanations.",
+      "Student demonstrates a strong understanding of the importance of safety guidelines, offering detailed and insightful explanations.",
+      "Student demonstrates an exceptional understanding of the importance of safety guidelines and offers comprehensive, nuanced explanations with relevant examples."
+    ]
+  ]
+}

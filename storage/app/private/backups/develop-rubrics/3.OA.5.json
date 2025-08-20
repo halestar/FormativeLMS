@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and application of the commutative property (e.g., a x b = b x a).",
+    "Understanding and application of the associative property (e.g., (a x b) x c = a x (b x c)).",
+    "Understanding and application of the distributive property (e.g., a x (b + c) = (a x b) + (a x c)).",
+    "Using properties to simplify calculations and solve problems efficiently."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of the commutative property.",
+      "Student demonstrates limited understanding of the commutative property with significant errors.",
+      "Student can state the commutative property but struggles to apply it in problem-solving.",
+      "Student can apply the commutative property in simple multiplication and division problems with minor errors.",
+      "Student demonstrates a solid understanding of the commutative property and applies it accurately in various multiplication and division problems.",
+      "Student demonstrates a comprehensive understanding of the commutative property, applies it fluently in complex problems, and can explain its significance in mathematical operations."
+    ],
+    [
+      "Student does not demonstrate understanding of the associative property.",
+      "Student demonstrates limited understanding of the associative property with significant errors.",
+      "Student can state the associative property but struggles to apply it in problem-solving.",
+      "Student can apply the associative property in simple multiplication and division problems with minor errors.",
+      "Student demonstrates a solid understanding of the associative property and applies it accurately in various multiplication and division problems.",
+      "Student demonstrates a comprehensive understanding of the associative property, applies it fluently in complex problems, and can explain its significance in mathematical operations."
+    ],
+    [
+      "Student does not demonstrate understanding of the distributive property.",
+      "Student demonstrates limited understanding of the distributive property with significant errors.",
+      "Student can state the distributive property but struggles to apply it in problem-solving.",
+      "Student can apply the distributive property in simple multiplication and division problems with minor errors.",
+      "Student demonstrates a solid understanding of the distributive property and applies it accurately in various multiplication and division problems.",
+      "Student demonstrates a comprehensive understanding of the distributive property, applies it fluently in complex problems, and can explain its significance in mathematical operations."
+    ],
+    [
+      "Student cannot use properties to simplify calculations.",
+      "Student attempts to use properties but makes significant errors and does not simplify calculations effectively.",
+      "Student can sometimes use properties to simplify calculations, but struggles with efficiency.",
+      "Student can use properties to simplify calculations in some cases, but not consistently.",
+      "Student can consistently use properties to simplify calculations and solve problems with good efficiency.",
+      "Student expertly uses properties to simplify complex calculations, demonstrating a deep understanding of their application and maximizing efficiency."
+    ]
+  ]
+}

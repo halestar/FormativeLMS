@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Political Philosophies and Structures",
+    "Influence on Economic Policies",
+    "Influence on Social Welfare Policies",
+    "Influence on Human Rights Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the listed political philosophies and structures.",
+      "Demonstrates minimal understanding, with significant inaccuracies and omissions.",
+      "Demonstrates basic understanding, but struggles to differentiate between the philosophies and structures.",
+      "Demonstrates a satisfactory understanding of the philosophies and structures, with some minor inaccuracies.",
+      "Demonstrates a strong understanding of the philosophies and structures, with clear and accurate explanations.",
+      "Demonstrates a comprehensive and nuanced understanding of the philosophies and structures, including their historical context and variations."
+    ],
+    [
+      "Does not connect political systems to economic policies.",
+      "Attempts to connect political systems to economic policies, but connections are vague and inaccurate.",
+      "Identifies some connections between political systems and economic policies, but explanations are superficial.",
+      "Explains how different political systems influence economic policies with reasonable accuracy and detail.",
+      "Clearly and accurately explains how different political systems influence economic policies, providing specific examples.",
+      "Provides insightful and detailed analysis of how different political systems shape economic policies, considering both intended and unintended consequences."
+    ],
+    [
+      "Does not connect political systems to social welfare policies.",
+      "Attempts to connect political systems to social welfare policies, but connections are vague and inaccurate.",
+      "Identifies some connections between political systems and social welfare policies, but explanations are superficial.",
+      "Explains how different political systems influence social welfare policies with reasonable accuracy and detail.",
+      "Clearly and accurately explains how different political systems influence social welfare policies, providing specific examples.",
+      "Provides insightful and detailed analysis of how different political systems shape social welfare policies, considering varying perspectives and outcomes."
+    ],
+    [
+      "Does not connect political systems to human rights practices.",
+      "Attempts to connect political systems to human rights practices, but connections are vague and inaccurate.",
+      "Identifies some connections between political systems and human rights practices, but explanations are superficial.",
+      "Explains how different political systems influence human rights practices with reasonable accuracy and detail.",
+      "Clearly and accurately explains how different political systems influence human rights practices, providing specific examples.",
+      "Provides insightful and detailed analysis of how different political systems impact human rights practices, considering both historical and contemporary contexts."
+    ]
+  ]
+}

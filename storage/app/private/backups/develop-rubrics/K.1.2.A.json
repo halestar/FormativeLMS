@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding of Medicine Effects",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how medicines can be helpful or harmful.",
+      "Student shows a very basic understanding, with significant misconceptions about the effects of medicines.",
+      "Student identifies that medicines can be helpful or harmful, but struggles to provide specific examples or explanations.",
+      "Student explains that medicines can be helpful by treating illness but only mentions potential side effects.",
+      "Student effectively explains that medicines can be helpful by treating illness and harmful due to side effects, providing relevant examples.",
+      "Student comprehensively explains the dual nature of medicines, detailing specific benefits and risks with supporting reasoning and examples. Includes discussion of dosage and individual factors."
+    ],
+    [
+      "Student cannot relate the concept of helpful and harmful medicines to any real-life scenarios.",
+      "Student vaguely mentions real-life scenarios but fails to connect them to the concept of helpful or harmful medicines.",
+      "Student provides a scenario but inaccurately or incompletely explains how medicines play a role.",
+      "Student provides a somewhat accurate real-life scenario where medicine is helpful or harmful, but lacks depth.",
+      "Student clearly explains a real-life scenario where medicine is helpful or harmful, detailing the effects.",
+      "Student provides multiple, well-explained real-life scenarios demonstrating the beneficial and detrimental effects of medicines, tailored to different situations. They demonstrate an understanding of personal decision-making in these scenarios."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Multiplication as Scaling (Fraction > 1)",
+    "Understanding Multiplication as Scaling (Fraction < 1)",
+    "Relating to Fraction Equivalence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate understanding of multiplication by a fraction greater than 1 resulting in a larger product.",
+      "The student attempts to explain why multiplying by a fraction greater than 1 results in a larger product but struggles with the reasoning.",
+      "The student partially explains why multiplying by a fraction greater than 1 results in a larger product, but the explanation lacks clarity or precision.",
+      "The student accurately explains why multiplying a number by a fraction greater than 1 results in a product greater than the given number, but the explanation could benefit from more detail or examples.",
+      "The student clearly and accurately explains why multiplying a number by a fraction greater than 1 results in a product greater than the given number, providing a solid rationale.",
+      "The student provides a comprehensive and insightful explanation of why multiplying a number by a fraction greater than 1 results in a larger product, including examples and connections to multiplication by whole numbers."
+    ],
+    [
+      "The student does not demonstrate understanding of multiplication by a fraction less than 1 resulting in a smaller product.",
+      "The student attempts to explain why multiplying by a fraction less than 1 results in a smaller product but struggles with the reasoning.",
+      "The student partially explains why multiplying by a fraction less than 1 results in a smaller product, but the explanation lacks clarity or precision.",
+      "The student accurately explains why multiplying a number by a fraction less than 1 results in a product smaller than the given number, but the explanation could benefit from more detail or examples.",
+      "The student clearly and accurately explains why multiplying a number by a fraction less than 1 results in a product smaller than the given number, providing a solid rationale.",
+      "The student provides a comprehensive and insightful explanation of why multiplying a number by a fraction less than 1 results in a smaller product, including examples and real-world applications."
+    ],
+    [
+      "The student does not relate the principle of fraction equivalence a\/b = (n*a)\/(n*b) to the concept of scaling.",
+      "The student attempts to relate fraction equivalence to scaling but shows limited understanding.",
+      "The student partially relates fraction equivalence to scaling, but the connection is weak or unclear.",
+      "The student makes a connection between fraction equivalence and scaling, explaining that equivalent fractions represent the same proportional relationship.",
+      "The student clearly relates fraction equivalence to scaling, explaining how creating equivalent fractions does not change the relative size of the number.",
+      "The student demonstrates a deep understanding of the relationship between fraction equivalence and scaling, explaining how equivalent fractions maintain the same proportional relationship and providing examples."
+    ]
+  ]
+}

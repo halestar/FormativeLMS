@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Disease Transmission",
+    "Identification of Refusal Strategies",
+    "Application of Refusal Skills in Scenarios",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of how diseases spread.",
+      "Displays a very basic understanding of disease transmission, with significant gaps.",
+      "Understands some common ways diseases spread, but misses key details or specific scenarios.",
+      "Demonstrates a good understanding of disease transmission methods, including direct and indirect contact.",
+      "Exhibits a comprehensive understanding of various disease transmission methods and factors influencing spread.",
+      "Demonstrates expert understanding of disease transmission, including complex scenarios and nuanced factors; able to explain routes of transmission clearly."
+    ],
+    [
+      "Unable to identify any refusal strategies.",
+      "Identifies one or two refusal strategies, but they are weak or inappropriate.",
+      "Identifies a few refusal strategies, but struggles to apply them to specific scenarios.",
+      "Can identify several effective refusal strategies suitable for different situations.",
+      "Demonstrates a wide range of refusal strategies and can adapt them to diverse and challenging situations.",
+      "Expertly identifies and tailors refusal strategies; demonstrates a deep understanding of effective communication and assertiveness techniques."
+    ],
+    [
+      "Unable to apply refusal skills in any scenario.",
+      "Attempts to apply refusal skills, but does so ineffectively or inappropriately.",
+      "Applies refusal skills in simple scenarios, but struggles with more complex or peer-pressure situations.",
+      "Effectively applies refusal skills in a variety of scenarios, including those involving peer pressure.",
+      "Consistently and confidently applies refusal skills in diverse and challenging scenarios.",
+      "Masterfully applies and adapts refusal skills; demonstrates exceptional assertiveness, communication skills, and the ability to navigate high-pressure situations."
+    ],
+    [
+      "Response is unclear and demonstrates little to no effective communication.",
+      "Response is difficult to understand; communication is weak and lacks clarity.",
+      "Response is somewhat clear but lacks detail; communication is basic.",
+      "Response is clear and easy to understand; communication is effective.",
+      "Response is very clear, well-articulated, and persuasive; communication is highly effective.",
+      "Response is exceptionally clear, articulate, and compelling; communication is masterful."
+    ]
+  ]
+}

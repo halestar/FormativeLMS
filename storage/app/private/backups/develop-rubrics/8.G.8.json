@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Pythagorean Theorem",
+    "Application of the Pythagorean Theorem in a Coordinate System",
+    "Accuracy of Calculations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the Pythagorean Theorem is demonstrated.",
+      "Demonstrates minimal understanding of the Pythagorean Theorem; struggles to apply it.",
+      "Demonstrates partial understanding of the Pythagorean Theorem; some difficulty in application.",
+      "Demonstrates adequate understanding of the Pythagorean Theorem; generally applies it correctly.",
+      "Demonstrates strong understanding of the Pythagorean Theorem; applies it correctly and efficiently.",
+      "Demonstrates comprehensive understanding of the Pythagorean Theorem; applies it correctly, efficiently, and can explain its underlying principles."
+    ],
+    [
+      "Unable to apply the Pythagorean Theorem to find the distance between two points in a coordinate system.",
+      "Struggles to apply the Pythagorean Theorem in a coordinate system; makes significant errors.",
+      "Applies the Pythagorean Theorem in a coordinate system with some errors; requires assistance.",
+      "Generally applies the Pythagorean Theorem correctly in a coordinate system; minor errors may be present.",
+      "Applies the Pythagorean Theorem correctly and efficiently in a coordinate system.",
+      "Applies the Pythagorean Theorem correctly, efficiently, and can adapt the approach when faced with difficult problems in a coordinate system."
+    ],
+    [
+      "Calculations are consistently inaccurate, leading to incorrect results.",
+      "Calculations contain frequent errors, impacting the final result.",
+      "Calculations have occasional errors but generally demonstrates the correct process.",
+      "Calculations are mostly accurate with only minor errors that do not significantly impact the result.",
+      "Calculations are accurate and lead to correct results.",
+      "Calculations are consistently accurate, efficient, and demonstrates a strong command of mathematical principles."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Article III of the Constitution",
+    "Knowledge of Judicial Power",
+    "Understanding of the Length of Terms of Judges",
+    "Knowledge of the Supreme Court's Jurisdiction"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Article III.",
+      "Shows minimal understanding of Article III; struggles to identify key components.",
+      "Identifies Article III but provides limited or inaccurate information about its content.",
+      "Describes Article III with some accuracy but lacks depth in explaining its implications.",
+      "Explains Article III accurately, identifying the judicial power, term lengths of judges, and the Supreme Court's jurisdiction.",
+      "Provides a comprehensive and accurate explanation of Article III, including its historical context, key components, and implications for the judicial branch."
+    ],
+    [
+      "Unable to define or explain judicial power.",
+      "Attempts to define judicial power but provides an inaccurate or incomplete explanation.",
+      "Provides a basic definition of judicial power but struggles to connect it to Article III.",
+      "Explains judicial power with some accuracy and relates it to the role of the courts.",
+      "Clearly explains judicial power and its significance in the U.S. government, referencing Article III.",
+      "Demonstrates a deep understanding of judicial power, including its limits, checks and balances, and historical interpretations."
+    ],
+    [
+      "Demonstrates no understanding of the term lengths of judges.",
+      "Shows minimal understanding of the term lengths of judges; may provide inaccurate information.",
+      "Identifies that judges have terms but does not specify the length or significance.",
+      "Describes the term lengths of judges with some accuracy but lacks context.",
+      "Accurately explains the term lengths of judges (life terms) and the reasons behind this provision.",
+      "Provides a comprehensive explanation of the term lengths of judges, including the historical context, debates surrounding the issue, and implications for judicial independence."
+    ],
+    [
+      "Unable to identify or explain the jurisdiction of the Supreme Court.",
+      "Attempts to describe the Supreme Court's jurisdiction but provides an inaccurate or incomplete explanation.",
+      "Provides a basic description of the Supreme Court's jurisdiction but struggles to connect it to Article III.",
+      "Explains the Supreme Court's jurisdiction with some accuracy and relates it to the types of cases it hears.",
+      "Clearly explains the Supreme Court's jurisdiction, including original and appellate jurisdiction, and its role as the final interpreter of the Constitution.",
+      "Demonstrates a deep understanding of the Supreme Court's jurisdiction, including landmark cases that have shaped its interpretation and the ongoing debates surrounding its power."
+    ]
+  ]
+}

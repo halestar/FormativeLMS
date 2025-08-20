@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Basic Economic Indicators",
+    "Analysis of Aggregate Economic Behavior",
+    "Application of Economic Models and Theories"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of basic economic indicators such as GDP, inflation, and unemployment rates.",
+      "Student shows a limited understanding of one or two basic economic indicators.",
+      "Student identifies and defines basic economic indicators but struggles to explain their significance.",
+      "Student accurately defines basic economic indicators and explains their significance with some minor inaccuracies.",
+      "Student demonstrates a strong understanding of basic economic indicators and their significance, providing accurate explanations.",
+      "Student demonstrates a comprehensive understanding of basic economic indicators, their significance, and can analyze their interrelationships effectively."
+    ],
+    [
+      "Student cannot analyze the aggregate economic behavior of the U.S. economy.",
+      "Student attempts to analyze aggregate economic behavior but lacks a clear understanding of key concepts.",
+      "Student provides a basic analysis of aggregate economic behavior with limited supporting evidence.",
+      "Student analyzes aggregate economic behavior using relevant data and concepts, but the analysis may lack depth or clarity.",
+      "Student provides a well-reasoned analysis of aggregate economic behavior with supporting evidence and clear explanations.",
+      "Student provides a comprehensive and insightful analysis of aggregate economic behavior, demonstrating a sophisticated understanding of underlying factors and implications."
+    ],
+    [
+      "Student does not apply any economic models or theories to explain aggregate economic behavior.",
+      "Student attempts to apply economic models or theories but demonstrates a poor understanding of their relevance.",
+      "Student applies economic models or theories with limited accuracy or understanding.",
+      "Student applies relevant economic models or theories to explain aggregate economic behavior, but the application may be superficial.",
+      "Student effectively applies economic models or theories to analyze aggregate economic behavior, providing clear explanations.",
+      "Student skillfully applies economic models or theories to analyze aggregate economic behavior, demonstrating a deep understanding of their strengths and limitations."
+    ]
+  ]
+}

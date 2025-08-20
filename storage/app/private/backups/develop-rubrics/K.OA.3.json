@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Ability to decompose numbers less than or equal to 10",
+    "Representation of decomposition using drawings or equations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to decompose numbers or shows no understanding of the concept.",
+      "Student attempts to decompose numbers but struggles to find correct pairs. Demonstrates limited understanding.",
+      "Student can decompose numbers into pairs but only finds one or two ways. Shows basic understanding.",
+      "Student decomposes numbers into multiple pairs with some accuracy. Shows a good understanding of the concept.",
+      "Student decomposes numbers into various pairs accurately and efficiently. Demonstrates a strong understanding.",
+      "Student decomposes numbers into all possible pairs accurately, efficiently, and can explain the concept clearly. Shows mastery of the concept."
+    ],
+    [
+      "Student does not attempt to represent the decomposition using drawings or equations.",
+      "Student attempts to represent the decomposition but struggles with accuracy or clarity.",
+      "Student represents the decomposition using drawings or equations with some inaccuracies or lack of clarity.",
+      "Student accurately represents the decomposition using drawings or equations. The representation is clear and understandable.",
+      "Student accurately represents the decomposition using drawings and equations. The representation is clear, efficient, and well-organized.",
+      "Student accurately and creatively represents the decomposition using drawings and equations. The representation is exceptionally clear, efficient, and demonstrates deep understanding."
+    ]
+  ]
+}

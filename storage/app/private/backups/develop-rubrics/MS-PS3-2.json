@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation",
+    "Explanation of Energy Transformation",
+    "Application to Real-World Examples",
+    "System Interactions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of potential energy.",
+      "The model is rudimentary and contains significant inaccuracies in representing potential energy.",
+      "The model shows a basic understanding of potential energy but contains some inaccuracies or omissions.",
+      "The model is mostly accurate in representing potential energy but may lack detail or clarity.",
+      "The model accurately represents potential energy with good detail and clarity.",
+      "The model is exceptionally accurate, detailed, and clearly represents potential energy, demonstrating a thorough understanding."
+    ],
+    [
+      "There is no attempt to explain the transformation of potential energy.",
+      "The explanation is unclear, incomplete, or contains significant errors.",
+      "The explanation is basic and partially describes the transformation of potential energy but lacks detail.",
+      "The explanation adequately describes the transformation of potential energy with some supporting details.",
+      "The explanation clearly and accurately describes the transformation of potential energy with relevant supporting details.",
+      "The explanation is comprehensive, insightful, and accurately describes the transformation of potential energy with well-reasoned supporting details."
+    ],
+    [
+      "No real-world examples are provided or the examples are irrelevant.",
+      "The real-world examples are poorly explained or inaccurately connected to the model.",
+      "The real-world examples are vaguely connected to the model and lack detail.",
+      "The real-world examples are relevant and adequately explained in relation to the model.",
+      "The real-world examples are clearly relevant and well-explained, demonstrating a good understanding of the model's application.",
+      "The real-world examples are insightful, demonstrate a deep understanding of the model's application, and are exceptionally well-explained."
+    ],
+    [
+      "No system interactions are addressed or mentioned",
+      "Mentions system interactions incorrectly.",
+      "Mentions system interactions with minimal description.",
+      "Describes system interactions accurately with minor omissions.",
+      "Describes system interactions accurately and completely.",
+      "Describes system interactions accurately, completely, and demonstrates a clear understanding of how energy is transformed in the system."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Special Limits",
+    "Ability to Prove Special Limits",
+    "Application of Special Limits in Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of special limits such as (sin(x))\/x and (1-cos(x))\/x as x approaches 0.",
+      "Student shows minimal understanding of special limits, struggling to identify or define them.",
+      "Student identifies special limits but has difficulty applying them in simple problems.",
+      "Student correctly applies special limits in straightforward problems, showing a basic understanding.",
+      "Student demonstrates a strong understanding of special limits, applying them effectively in a variety of problems.",
+      "Student exhibits comprehensive understanding of special limits, applying them creatively and accurately in complex problems and providing clear explanations."
+    ],
+    [
+      "Student is unable to attempt any proof of special limits.",
+      "Student attempts to prove special limits but uses incorrect methods or makes significant errors.",
+      "Student shows some progress in proving special limits but struggles with key steps or justifications.",
+      "Student provides a mostly correct proof of special limits, with minor errors or omissions.",
+      "Student provides a clear and correct proof of special limits, demonstrating a solid understanding of the underlying principles.",
+      "Student presents a rigorous and elegant proof of special limits, explaining each step with precision and insight."
+    ],
+    [
+      "Student cannot apply special limits to solve any related problems.",
+      "Student attempts to use special limits in problem-solving but is largely unsuccessful.",
+      "Student uses special limits in simple problems, but makes frequent errors or requires assistance.",
+      "Student solves problems using special limits with reasonable accuracy and efficiency.",
+      "Student skillfully applies special limits to solve a variety of complex problems.",
+      "Student demonstrates mastery in applying special limits, solving challenging problems with creativity and offering alternative solution strategies."
+    ]
+  ]
+}

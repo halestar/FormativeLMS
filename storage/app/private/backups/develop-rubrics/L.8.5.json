@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Interpretation of Figurative Language",
+    "Understanding Word Relationships",
+    "Distinguishing Connotations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate understanding of figurative language and cannot identify figures of speech.",
+      "The student struggles to identify and interpret figurative language, showing limited understanding.",
+      "The student identifies some figures of speech but has difficulty interpreting their meaning in context.",
+      "The student can generally interpret figures of speech but may miss subtle nuances or complexities.",
+      "The student demonstrates a strong understanding of figurative language, accurately interpreting most figures of speech in context.",
+      "The student expertly interprets figures of speech, including complex examples, and demonstrates a nuanced understanding of their effect."
+    ],
+    [
+      "The student does not recognize relationships between words and cannot use them to understand word meanings.",
+      "The student struggles to identify relationships between words, hindering their understanding of word meanings.",
+      "The student identifies some word relationships but struggles to apply them to understand word meanings.",
+      "The student generally uses word relationships to understand word meanings but may miss subtle connections.",
+      "The student effectively uses word relationships to enhance their understanding of word meanings.",
+      "The student expertly leverages word relationships to demonstrate a sophisticated understanding of word meanings."
+    ],
+    [
+      "The student does not differentiate between connotations of words with similar denotations.",
+      "The student struggles to distinguish between connotations, showing limited awareness of subtle differences in meaning.",
+      "The student identifies some differences in connotation but struggles to articulate the nuances.",
+      "The student generally distinguishes between connotations but may not fully grasp the subtle implications.",
+      "The student accurately distinguishes between the connotations of words with similar denotations.",
+      "The student expertly differentiates between connotations, demonstrating a nuanced understanding of their impact on meaning and tone."
+    ]
+  ]
+}

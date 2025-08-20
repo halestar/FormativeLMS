@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Polynomial Identities",
+    "Ability to Prove Polynomial Identities",
+    "Application of Polynomial Identities to Describe Numerical Relationships",
+    "Accuracy and Precision"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of polynomial identities is demonstrated.",
+      "Demonstrates minimal understanding of polynomial identities; struggles to identify them.",
+      "Demonstrates partial understanding of polynomial identities; can identify some, but not all.",
+      "Demonstrates adequate understanding of polynomial identities; can identify and explain most common identities.",
+      "Demonstrates strong understanding of polynomial identities; can identify, explain, and apply them in simple cases.",
+      "Demonstrates excellent understanding of polynomial identities; can identify, explain, and apply them effectively and accurately."
+    ],
+    [
+      "Unable to prove any polynomial identities.",
+      "Attempts to prove polynomial identities, but makes significant errors.",
+      "Can prove simple polynomial identities with assistance.",
+      "Can prove most polynomial identities with occasional errors.",
+      "Can prove polynomial identities accurately and efficiently.",
+      "Can prove polynomial identities with sophisticated techniques and can explain the reasoning clearly."
+    ],
+    [
+      "Unable to apply polynomial identities to describe numerical relationships.",
+      "Struggles to apply polynomial identities to describe numerical relationships.",
+      "Can apply polynomial identities to describe basic numerical relationships with guidance.",
+      "Can apply polynomial identities to describe numerical relationships in some cases.",
+      "Can apply polynomial identities to accurately describe numerical relationships.",
+      "Can skillfully apply polynomial identities to describe complex numerical relationships and explain the connections effectively."
+    ],
+    [
+      "Work contains numerous errors and lacks precision.",
+      "Work contains several errors and demonstrates limited precision.",
+      "Work contains some errors but demonstrates reasonable precision.",
+      "Work is mostly accurate and demonstrates good precision.",
+      "Work is accurate and precise with only minor errors.",
+      "Work is consistently accurate, precise, and demonstrates a thorough understanding of the concepts."
+    ]
+  ]
+}

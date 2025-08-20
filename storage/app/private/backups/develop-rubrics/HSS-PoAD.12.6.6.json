@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Analysis of Voter Turnout Trends",
+    "Understanding of Reapportionment and Redistricting",
+    "Explanation of the Electoral College's Function"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of voter turnout trends is demonstrated.",
+      "Demonstrates a limited understanding of voter turnout trends with significant inaccuracies.",
+      "Identifies some voter turnout trends but lacks depth in analysis.",
+      "Analyzes voter turnout trends with reasonable accuracy, but may miss some key aspects.",
+      "Provides a thorough analysis of voter turnout trends, identifying key factors and patterns.",
+      "Offers a comprehensive and insightful analysis of voter turnout trends, demonstrating a nuanced understanding of underlying causes and implications."
+    ],
+    [
+      "No understanding of reapportionment and redistricting is demonstrated.",
+      "Demonstrates a limited understanding of reapportionment and redistricting with significant inaccuracies.",
+      "Identifies reapportionment and redistricting but lacks depth in analysis.",
+      "Analyzes reapportionment and redistricting with reasonable accuracy, but may miss some key aspects.",
+      "Provides a thorough analysis of reapportionment and redistricting, identifying key factors and patterns.",
+      "Offers a comprehensive and insightful analysis of reapportionment and redistricting, demonstrating a nuanced understanding of underlying causes and implications."
+    ],
+    [
+      "No understanding of the Electoral College's function is demonstrated.",
+      "Demonstrates a limited understanding of the Electoral College's function with significant inaccuracies.",
+      "Identifies some aspects of the Electoral College's function but lacks depth in explanation.",
+      "Explains the Electoral College's function with reasonable accuracy, but may miss some key aspects.",
+      "Provides a thorough explanation of the Electoral College's function, identifying key factors and mechanics.",
+      "Offers a comprehensive and insightful explanation of the Electoral College's function, demonstrating a nuanced understanding of its historical context and contemporary relevance."
+    ]
+  ]
+}

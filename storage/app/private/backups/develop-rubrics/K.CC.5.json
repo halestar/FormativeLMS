@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in counting objects arranged in a line or rectangular array (up to 20)",
+    "Accuracy in counting objects arranged in a circle (up to 20)",
+    "Accuracy in counting objects in a scattered configuration (up to 10)",
+    "Ability to count out a specified number of objects (1-20) from a larger group"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to count objects accurately and does not understand one-to-one correspondence.",
+      "Student can count a few objects (less than 5) accurately but struggles with larger quantities and maintaining correspondence.",
+      "Student can count up to 10 objects in a line or array with some errors, occasionally skipping or repeating objects.",
+      "Student can accurately count up to 15 objects in a line or rectangular array with minimal errors.",
+      "Student can accurately count up to 20 objects in a line or rectangular array with no more than one error.",
+      "Student can accurately and efficiently count up to 20 objects in a line or rectangular array with no errors, demonstrating a strong understanding of one-to-one correspondence."
+    ],
+    [
+      "Student is unable to count objects arranged in a circle and does not understand how to maintain a starting point.",
+      "Student can count a few objects (less than 5) in a circle but struggles with larger quantities and identifying the starting point.",
+      "Student can count up to 10 objects in a circle with some errors, often losing track of the starting point or skipping objects.",
+      "Student can accurately count up to 15 objects in a circle with minimal errors, demonstrating some awareness of the circular arrangement.",
+      "Student can accurately count up to 20 objects in a circle with no more than one error, maintaining a clear starting point.",
+      "Student can accurately and efficiently count up to 20 objects in a circle with no errors, demonstrating a strong understanding of how to count in a circular arrangement."
+    ],
+    [
+      "Student is unable to count objects in a scattered configuration and lacks a strategy for organizing the count.",
+      "Student can count a few objects (less than 3) in a scattered configuration but struggles significantly with larger quantities and organization.",
+      "Student can count up to 5 objects in a scattered configuration with some errors, often recounting or missing objects.",
+      "Student can accurately count up to 7 objects in a scattered configuration with minimal errors, demonstrating some strategy for organization.",
+      "Student can accurately count up to 10 objects in a scattered configuration with no more than one error, using a consistent strategy.",
+      "Student can accurately and efficiently count up to 10 objects in a scattered configuration with no errors, demonstrating a strong organizational strategy to ensure accuracy."
+    ],
+    [
+      "Student is unable to count out a specified number of objects and does not understand the concept of quantity representation.",
+      "Student can count out a few objects (less than 3) but struggles with larger quantities and stopping at the correct number.",
+      "Student can count out a specified number of objects up to 10 with some errors, often counting beyond or not reaching the target number.",
+      "Student can accurately count out a specified number of objects up to 15 with minimal errors.",
+      "Student can accurately count out a specified number of objects up to 20 with no more than one error.",
+      "Student can accurately and efficiently count out a specified number of objects up to 20 with no errors, demonstrating a strong understanding of quantity representation."
+    ]
+  ]
+}

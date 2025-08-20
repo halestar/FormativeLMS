@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Situations Requiring Adult Help",
+    "Understanding of Intimidating and Dangerous Situations",
+    "Knowledge of How to Access Help",
+    "Clarity and Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any situations requiring adult help.",
+      "The student identifies only one situation requiring adult help, but the situation is vague or unrealistic.",
+      "The student identifies 2 situations where adult help is needed.",
+      "The student identifies several situations requiring adult help, but some lack detail or clarity.",
+      "The student clearly and accurately identifies several situations requiring adult help, demonstrating understanding of potential dangers.",
+      "The student comprehensively identifies a wide range of situations requiring adult help, demonstrating a nuanced understanding of potential dangers and vulnerabilities."
+    ],
+    [
+      "The student does not demonstrate any understanding of what constitutes intimidating or dangerous situations.",
+      "The student shows limited understanding of intimidating or dangerous situations, with examples being unclear or inappropriate.",
+      "The student identifies some elements of intimidating or dangerous situations.",
+      "The student demonstrates a general understanding of intimidating and dangerous situations, providing relevant examples.",
+      "The student accurately describes the characteristics of intimidating and dangerous situations, demonstrating good awareness.",
+      "The student provides a detailed and insightful analysis of intimidating and dangerous situations, including psychological and social factors."
+    ],
+    [
+      "The student does not know how to access help for themselves or others.",
+      "The student suggests only one unrealistic or ineffective way to access help.",
+      "The student proposes some ways to access help.",
+      "The student identifies several ways to access help, but some are not entirely appropriate or effective.",
+      "The student clearly outlines multiple appropriate and effective ways to access help for themselves and others in different situations.",
+      "The student demonstrates comprehensive knowledge of resources and strategies for accessing help, including preventative measures and long-term support options."
+    ],
+    [
+      "The student is unable to communicate information clearly and accurately.",
+      "The student communicates information with poor language usage and inaccuracies.",
+      "The student has some inaccuracies and could use more clarity.",
+      "The student demonstrates clear communication with only minor inaccuracies.",
+      "The student can clearly and accurately communicate all information requested.",
+      "The student communicates clearly and accurately using appropriate vocabulary and presentation."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Textual Evidence",
+    "Analysis of Author's Distinctions",
+    "Recognition of Gaps or Inconsistencies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited.",
+      "Attempt to cite textual evidence is made, but it is irrelevant or inaccurate.",
+      "Cites some textual evidence, but it is general and not clearly connected to the analysis.",
+      "Cites relevant textual evidence to support analysis, but may not always be specific or fully explain the connection.",
+      "Cites specific and relevant textual evidence to support analysis, clearly explaining the connection to the analysis.",
+      "Consistently cites specific, relevant, and well-chosen textual evidence to support a thorough and insightful analysis, demonstrating a deep understanding of the text."
+    ],
+    [
+      "No attempt to analyze the distinctions made by the author.",
+      "Attempts to identify author's distinctions, but interpretation is flawed.",
+      "Identifies some distinctions made by the author, but analysis is superficial.",
+      "Analyzes important distinctions the author makes, but explanation could be more detailed.",
+      "Clearly analyzes important distinctions the author makes in the text, providing a solid understanding.",
+      "Insightfully analyzes important distinctions the author makes, demonstrating a nuanced understanding of the author's intent and perspective."
+    ],
+    [
+      "Fails to identify any gaps or inconsistencies in the text.",
+      "Attempts to identify gaps or inconsistencies, but the interpretation is inaccurate or unsupported.",
+      "Identifies a gap or inconsistency, but does not explain its significance.",
+      "Recognizes and acknowledges gaps or inconsistencies in the account with some explanation of their potential impact.",
+      "Addresses gaps or inconsistencies in the account, providing a clear and logical explanation of their significance.",
+      "Critically examines gaps or inconsistencies in the account, offering insightful analysis of their implications and potential impact on the text's credibility or meaning."
+    ]
+  ]
+}

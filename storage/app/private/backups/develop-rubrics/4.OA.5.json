@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to generate a number or shape pattern following a given rule.",
+    "Ability to identify apparent features of the pattern not explicit in the rule.",
+    "Ability to explain informally why the identified features will continue in the pattern."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot generate any terms in the sequence or pattern.",
+      "Student can generate only the first few terms of the sequence or pattern with significant errors.",
+      "Student can generate some terms in the sequence or pattern, but with some errors or inconsistencies.",
+      "Student can generate most terms in the sequence or pattern correctly, with only minor errors.",
+      "Student can accurately generate the terms in the sequence or pattern following the given rule.",
+      "Student can fluently and accurately generate the terms in the sequence or pattern following the given rule."
+    ],
+    [
+      "Student cannot identify any features of the pattern beyond the rule.",
+      "Student attempts to identify features but provides incorrect or irrelevant observations.",
+      "Student identifies some basic features of the pattern, but misses more subtle or complex aspects.",
+      "Student identifies several apparent features of the pattern, but may struggle to explain them clearly.",
+      "Student identifies most of the key features of the pattern that were not explicit in the rule.",
+      "Student comprehensively identifies and articulates all relevant features of the pattern, demonstrating a deep understanding."
+    ],
+    [
+      "Student provides no explanation or an incorrect explanation.",
+      "Student attempts an explanation, but it is unclear, incomplete, or contains significant errors.",
+      "Student offers a partial explanation, but it lacks clarity or supporting reasoning.",
+      "Student provides a reasonable explanation for why the features continue, but could benefit from more detail or precision.",
+      "Student clearly explains why the identified features will continue in the pattern using logical reasoning.",
+      "Student provides a thorough and insightful explanation, demonstrating a strong grasp of the underlying mathematical principles influencing the pattern."
+    ]
+  ]
+}

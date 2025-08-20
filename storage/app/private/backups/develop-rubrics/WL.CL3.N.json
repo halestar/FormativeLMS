@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Similarities",
+    "Identification of Differences",
+    "Clarity and Specificity",
+    "Use of Target Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No similarities are identified between the cultures.",
+      "The student mentions there are similarities, but is not able to name any.",
+      "The student identifies at least one similarity between the cultures that is vague or superficial.",
+      "The student identifies one clear similarity between cultures, with supporting details.",
+      "The student identifies two or more clear similarities between cultures, with supporting details.",
+      "The student identifies multiple clear similarities between cultures, providing detailed and insightful supporting explanations and is able to use the target language to do so."
+    ],
+    [
+      "No differences are identified between the cultures.",
+      "The student mentions there are differences, but is not able to name any.",
+      "The student identifies at least one difference between the cultures that is vague or superficial.",
+      "The student identifies one clear difference between cultures, with supporting details.",
+      "The student identifies two or more clear differences between cultures, with supporting details.",
+      "The student identifies multiple clear differences between cultures, providing detailed and insightful supporting explanations and is able to use the target language to do so."
+    ],
+    [
+      "Statements are unclear and lack specific examples.",
+      "Statements are somewhat clear, but lack specific examples.",
+      "Statements are generally clear, with minimal specific examples.",
+      "Statements are clear, with some relevant examples provided.",
+      "Statements are clear and specific, providing relevant examples to support claims.",
+      "Statements are exceptionally clear, specific, and insightful, with detailed examples and explanations."
+    ],
+    [
+      "No use of the target language.",
+      "Minimal attempt to use target language; heavy reliance on native language.",
+      "Limited use of the target language; frequent errors impede understanding.",
+      "Adequate use of the target language; some errors, but communication is generally clear.",
+      "Good use of the target language; few errors and effective communication.",
+      "Excellent and nuanced use of the target language, demonstrating fluency and cultural understanding."
+    ]
+  ]
+}

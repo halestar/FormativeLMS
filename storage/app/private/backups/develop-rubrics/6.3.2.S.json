@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify situations where seeking help from a trusted adult is necessary when feeling threatened or unsafe.",
+    "Effectiveness in communicating the need for help to a trusted adult.",
+    "Understanding of who qualifies as a 'trusted adult' and why they are suitable to ask for help.",
+    "Awareness of online safety and the specific risks that necessitate seeking help."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not recognize situations requiring help from a trusted adult.",
+      "Struggles to identify situations where seeking help is needed; requires significant prompting.",
+      "Identifies some situations where seeking help is necessary, but misses key indicators.",
+      "Generally identifies situations appropriately, with minor oversights.",
+      "Clearly identifies situations where seeking help from a trusted adult is necessary, both in person and online.",
+      "Consistently and accurately identifies situations, demonstrating a strong understanding of when to seek help, and can explain why it is important."
+    ],
+    [
+      "Unable to communicate the need for help.",
+      "Has extreme difficulty expressing the need for help, even with assistance.",
+      "Communicates the need for help, but lacks clarity or omits crucial details.",
+      "Communicates the need for help with reasonable clarity.",
+      "Clearly and effectively communicates the need for help, providing relevant details.",
+      "Communicates the need for help with exceptional clarity and detail, demonstrating excellent communication skills and ensuring the adult understands the urgency and nature of the situation."
+    ],
+    [
+      "Does not understand the concept of a 'trusted adult'.",
+      "Has a limited understanding of who qualifies as a trusted adult.",
+      "Identifies some appropriate adults but struggles to articulate why they are trustworthy.",
+      "Identifies appropriate trusted adults and can provide a basic explanation of their trustworthiness.",
+      "Clearly identifies appropriate trusted adults and articulates the reasons for their trustworthiness.",
+      "Demonstrates a sophisticated understanding of who qualifies as a trusted adult, providing insightful reasons for their trustworthiness and recognizing the importance of this relationship for personal safety."
+    ],
+    [
+      "Demonstrates no awareness of online safety or risks.",
+      "Has limited awareness of online risks and how they might relate to personal safety.",
+      "Recognizes some online risks but struggles to connect them to the need for seeking help.",
+      "Demonstrates a general awareness of online risks and the importance of seeking help.",
+      "Clearly articulates online risks and the specific situations where seeking help from a trusted adult is necessary.",
+      "Exhibits a comprehensive understanding of online safety, demonstrating the ability to identify and articulate a wide range of online risks and explain why seeking help from a trusted adult is crucial in those situations."
+    ]
+  ]
+}

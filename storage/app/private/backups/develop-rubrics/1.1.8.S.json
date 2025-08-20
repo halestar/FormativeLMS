@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Airbag Deployment and Safety",
+    "Explanation of Injury Risk and Prevention",
+    "Clarity and Accuracy of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how airbags deploy or their potential risks.",
+      "Shows a minimal understanding of airbags and their function, but does not address safety.",
+      "Identifies airbags as a safety feature but provides an incomplete or inaccurate explanation of how they work.",
+      "Explains how airbags deploy and mentions some safety considerations, but the connection to back seat safety is weak.",
+      "Clearly explains the mechanics of airbag deployment and relates it to potential dangers for front-seat passengers, especially young people.",
+      "Provides a comprehensive explanation of airbag deployment, including potential risks and benefits, clearly articulating why the back seat is significantly safer for young people, referencing specific safety data or reasons."
+    ],
+    [
+      "Does not address the risk of injury associated with airbags or any preventive measures.",
+      "Mentions injury risk in passing, without any supporting details.",
+      "Identifies the risk of injury but does not connect it to age or seating position.",
+      "Explains some injury risks associated with airbags and relates them to front-seat passengers.",
+      "Provides a detailed explanation of injury risks for young people in the front seat due to airbag deployment, suggesting why the back seat is safer.",
+      "Offers a thorough discussion of injury risks, including statistical data or expert opinions, clearly outlining why the back seat offers significant protection for young people."
+    ],
+    [
+      "Explanation is unclear, inaccurate, or missing key information.",
+      "Explanation is difficult to understand and contains significant inaccuracies.",
+      "Explanation is somewhat clear but contains some inaccuracies or lacks detail.",
+      "Explanation is mostly clear and accurate but could benefit from more detail.",
+      "Explanation is clear, concise, and accurate, with sufficient detail to support the reasoning.",
+      "Explanation is exceptionally clear, accurate, and comprehensive, demonstrating a deep understanding of the topic with well-supported reasoning and evidence."
+    ]
+  ]
+}

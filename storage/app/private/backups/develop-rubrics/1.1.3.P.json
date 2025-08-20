@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Germ Transmission",
+    "Knowledge of Prevention Methods",
+    "Importance of Prevention"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how germs are transmitted.",
+      "Shows a limited awareness of germ transmission, with significant misconceptions.",
+      "Identifies some methods of germ transmission but lacks depth in explanation.",
+      "Explains common ways germs spread, like coughing and sneezing, with basic accuracy.",
+      "Discusses various modes of germ transmission, including direct and indirect contact, with good accuracy.",
+      "Provides a comprehensive explanation of germ transmission, including specific vectors and environmental factors."
+    ],
+    [
+      "Is unaware of any methods to prevent germ transmission.",
+      "Names one or two methods with limited understanding of their effectiveness.",
+      "Lists several common methods, such as hand washing, but does not explain why they work.",
+      "Describes common prevention methods and explains their basic function in reducing germ spread.",
+      "Explains a variety of prevention methods and details how each disrupts the chain of infection.",
+      "Articulates a wide range of prevention strategies, including personal hygiene, environmental controls, and vaccination, detailing the rationale behind each."
+    ],
+    [
+      "Does not recognize the importance of preventing germ transmission.",
+      "Minimally acknowledges the need for prevention but provides no reasons.",
+      "States that prevention is important but does not elaborate on the consequences of not preventing transmission.",
+      "Explains that preventing transmission is important to avoid getting sick.",
+      "Details the importance of prevention in protecting individual and community health, mentioning specific diseases.",
+      "Provides a detailed account of the personal, public health, and economic impacts of preventing germ transmission, including discussions of pandemics and healthcare costs."
+    ]
+  ]
+}

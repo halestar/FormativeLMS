@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Economic Boom Factors",
+    "Analysis of Social Transformation",
+    "Impact of Technological Advancements"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the factors contributing to the post-WWII economic boom.",
+      "Identifies one or two factors contributing to the post-WWII economic boom with limited explanation.",
+      "Identifies several factors contributing to the post-WWII economic boom with basic explanations.",
+      "Explains multiple factors contributing to the post-WWII economic boom, including increased production, consumer demand, and government policies.",
+      "Analyzes the interconnectedness of various factors driving the post-WWII economic boom, providing specific examples and evidence.",
+      "Provides a comprehensive analysis of the complex factors contributing to the post-WWII economic boom, including long-term impacts and potential drawbacks."
+    ],
+    [
+      "Shows no understanding of the social transformations that occurred in post-WWII America.",
+      "Identifies one or two social changes in post-WWII America with minimal explanation.",
+      "Describes several social changes in post-WWII America, such as the rise of suburbia or the Civil Rights Movement.",
+      "Explains multiple social transformations in post-WWII America, discussing their causes and effects on American society.",
+      "Analyzes the complexities of social transformations in post-WWII America, including the impact on different groups and communities.",
+      "Offers a nuanced and insightful analysis of the social transformations in post-WWII America, connecting them to broader historical trends and contemporary issues."
+    ],
+    [
+      "Demonstrates no understanding of the role of technological advancements.",
+      "Mention one or two technological advances with no further explanation.",
+      "Describes one or two technological advances of the time",
+      "Explains technological advances of the time and how it affected the economy",
+      "Connects the technological advances to the social transformation",
+      "Offers a nuanced and insightful analysis on how technology influenced both the economy and social aspects of post-WWII America."
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding Division as an Unknown-Factor Problem",
+    "Applying Properties of Multiplication and Division"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of division as an unknown-factor problem.",
+      "Student shows minimal understanding, struggling to relate division to multiplication.",
+      "Student can sometimes relate division to multiplication but makes frequent errors or requires significant prompting.",
+      "Student generally understands division as finding an unknown factor, but may have occasional errors or hesitations.",
+      "Student demonstrates a solid understanding of division as an unknown-factor problem and can apply this concept in most situations.",
+      "Student demonstrates a comprehensive understanding of division as an unknown-factor problem and can fluently and accurately apply this concept to solve problems, including complex scenarios."
+    ],
+    [
+      "Student does not apply properties of multiplication\/division.",
+      "Student attempts but cannot accurately apply properties.",
+      "Student applies properties with some accuracy, but with errors.",
+      "Student can accurately apply properties in simple problems.",
+      "Student can accurately apply properties in a variety of problems.",
+      "Student can accurately and efficiently apply properties to complex problems and explain reasoning."
+    ]
+  ]
+}

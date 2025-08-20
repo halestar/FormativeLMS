@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Level of Participation and Involvement",
+    "Understanding and Application of Health Concepts in Activities",
+    "Promotion of Student and Family Involvement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no participation in clubs, organizations, or activities related to health in the school or community.",
+      "Student expresses interest but does not actively participate in any health-related clubs, organizations, or activities.",
+      "Student attends one or two health-related club meetings or activities but does not consistently engage.",
+      "Student actively participates in one health-related club, organization, or activity, showing moderate engagement.",
+      "Student actively participates in multiple health-related clubs, organizations, or activities, demonstrating consistent engagement and contribution.",
+      "Student takes a leadership role in health-related clubs, organizations, or activities, actively promoting student and family involvement and health initiatives."
+    ],
+    [
+      "Student does not demonstrate understanding or application of health concepts in any extracurricular activities.",
+      "Student shows limited understanding or application of health concepts in activities, needing significant guidance.",
+      "Student demonstrates basic understanding of health concepts in activities but struggles to apply them effectively.",
+      "Student applies health concepts appropriately in activities, showing a good understanding of the material.",
+      "Student effectively applies health concepts in activities, demonstrating a strong understanding and ability to connect concepts to real-world situations.",
+      "Student expertly applies and integrates health concepts in activities, innovating and educating others, and displaying a deep understanding of the material."
+    ],
+    [
+      "Student does not promote student or family involvement in health-related activities.",
+      "Student makes minimal effort to encourage student or family involvement, with no noticeable impact.",
+      "Student occasionally mentions or suggests involvement but does not actively promote it.",
+      "Student actively promotes student and family involvement in health-related activities among peers and acquaintances.",
+      "Student implements strategies to increase student and family involvement, such as organizing events or creating promotional materials, with moderate success.",
+      "Student leads initiatives to significantly increase student and family involvement, creating a supportive and inclusive environment that fosters health awareness and participation, and uses data to improve their outreach."
+    ]
+  ]
+}

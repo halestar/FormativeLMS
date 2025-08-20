@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Suicide Risk Factors",
+    "Knowledge of Prevention Strategies",
+    "Understanding of How to Seek Help"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of suicide risk factors.",
+      "Student identifies one or two suicide risk factors with limited accuracy.",
+      "Student identifies some suicide risk factors with reasonable accuracy but lacks depth.",
+      "Student accurately identifies several key suicide risk factors and provides basic explanations.",
+      "Student comprehensively identifies and explains multiple suicide risk factors with clear understanding.",
+      "Student demonstrates a thorough and nuanced understanding of a wide range of suicide risk factors, including complex or less obvious indicators."
+    ],
+    [
+      "Student is unaware of any suicide prevention strategies.",
+      "Student mentions one vague or ineffective prevention strategy.",
+      "Student lists a couple of basic prevention strategies but struggles to explain them.",
+      "Student describes several relevant suicide prevention strategies with some clarity.",
+      "Student clearly explains multiple effective suicide prevention strategies and their potential impact.",
+      "Student articulates a comprehensive understanding of various suicide prevention strategies, including their application in different scenarios and their limitations."
+    ],
+    [
+      "Student does not know how or where to seek help for suicidal individuals.",
+      "Student vaguely mentions seeking help but provides no specific resources or steps.",
+      "Student identifies one or two potential resources for help but lacks detail.",
+      "Student lists several resources for seeking help and describes the basic steps to take.",
+      "Student clearly explains how to access multiple resources for help and outlines a detailed plan of action.",
+      "Student demonstrates a sophisticated understanding of the help-seeking process, including identifying appropriate resources, overcoming barriers to access, and advocating for others."
+    ]
+  ]
+}

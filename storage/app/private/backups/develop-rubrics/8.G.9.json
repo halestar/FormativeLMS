@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in applying formulas to find the volume of cylinders.",
+    "Accuracy in applying formulas to find the volume of cones.",
+    "Accuracy in applying formulas to find the volume of spheres.",
+    "Ability to solve real-world problems involving the volume of cylinders, cones, and spheres."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or demonstrates no understanding of the formula for the volume of a cylinder.",
+      "Incorrectly states the formula for volume and arrives at wrong answer.",
+      "States the formula for volume, but makes errors with the calculation and arrives at wrong answer.",
+      "States the formula for volume, and calculates volume, but make a mistake in units.",
+      "Correctly applies the formula for the volume of cylinders with minor calculation errors.",
+      "Accurately and efficiently applies the formula for the volume of cylinders in mathematical problems."
+    ],
+    [
+      "No attempt or demonstrates no understanding of the formula for the volume of a cone.",
+      "Incorrectly states the formula for volume and arrives at wrong answer.",
+      "States the formula for volume, but makes errors with the calculation and arrives at wrong answer.",
+      "States the formula for volume, and calculates volume, but make a mistake in units.",
+      "Correctly applies the formula for the volume of cones with minor calculation errors.",
+      "Accurately and efficiently applies the formula for the volume of cones in mathematical problems."
+    ],
+    [
+      "No attempt or demonstrates no understanding of the formula for the volume of a sphere.",
+      "Incorrectly states the formula for volume and arrives at wrong answer.",
+      "States the formula for volume, but makes errors with the calculation and arrives at wrong answer.",
+      "States the formula for volume, and calculates volume, but make a mistake in units.",
+      "Correctly applies the formula for the volume of spheres with minor calculation errors.",
+      "Accurately and efficiently applies the formula for the volume of spheres in mathematical problems."
+    ],
+    [
+      "Does not attempt to solve real-world problems or demonstrates no understanding of how to apply volume formulas.",
+      "Attempts to apply volume formulas but selects the wrong formula or uses incorrect measurements.",
+      "Applies the correct volume formula but makes significant calculation errors, leading to an incorrect solution.",
+      "Solves the problem with minor calculation errors, demonstrating some understanding of the real-world context.",
+      "Accurately solves real-world problems with only minor errors in calculations or interpretations.",
+      "Demonstrates a clear and accurate understanding of how to apply volume formulas to solve complex real-world problems, including correct units."
+    ]
+  ]
+}

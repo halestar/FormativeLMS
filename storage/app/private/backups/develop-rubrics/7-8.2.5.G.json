@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Individual Differences",
+    "Understanding of Family Differences",
+    "Understanding of Cultural Differences",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of individual differences in relationships.",
+      "Shows a minimal understanding of individual differences, with significant misconceptions.",
+      "Identifies some individual differences in relationships, but lacks depth.",
+      "Recognizes individual differences in relationships, providing basic examples.",
+      "Explains individual differences in relationships with clear and relevant examples.",
+      "Demonstrates a comprehensive understanding of individual differences in relationships, providing insightful examples and analysis."
+    ],
+    [
+      "Demonstrates no understanding of family differences in relationships.",
+      "Shows a minimal understanding of family differences, with significant misconceptions.",
+      "Identifies some family differences in relationships, but lacks depth.",
+      "Recognizes family differences in relationships, providing basic examples.",
+      "Explains family differences in relationships with clear and relevant examples.",
+      "Demonstrates a comprehensive understanding of family differences in relationships, providing insightful examples and analysis."
+    ],
+    [
+      "Demonstrates no understanding of cultural differences in relationships.",
+      "Shows a minimal understanding of cultural differences, with significant misconceptions.",
+      "Identifies some cultural differences in relationships, but lacks depth.",
+      "Recognizes cultural differences in relationships, providing basic examples.",
+      "Explains cultural differences in relationships with clear and relevant examples.",
+      "Demonstrates a comprehensive understanding of cultural differences in relationships, providing insightful examples and analysis."
+    ],
+    [
+      "Unable to apply the concept of differences to real-life relationship scenarios.",
+      "Struggles to apply the concept of differences to real-life scenarios; application is illogical.",
+      "Attempts to apply understanding to scenarios, but with limited success or accuracy.",
+      "Applies the understanding of differences to real-life scenarios with some accuracy.",
+      "Applies the understanding of differences effectively and accurately to real-life scenarios.",
+      "Applies a nuanced and insightful understanding of differences to complex, real-life scenarios."
+    ]
+  ]
+}

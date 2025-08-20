@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Author's Claims",
+    "Analysis of Sentence-Level Development",
+    "Analysis of Paragraph-Level Development",
+    "Analysis of Text Feature Usage"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any of the author's claims or ideas.",
+      "Identifies an author's claim with significant inaccuracies.",
+      "Identifies an author's claim, but it lacks detail or has minor inaccuracies.",
+      "Identifies an author's main claim, though some nuances may be missing.",
+      "Accurately identifies the author's main claim and some supporting ideas.",
+      "Accurately identifies the author's central claim and key supporting ideas with precision."
+    ],
+    [
+      "Shows no understanding of how sentences develop claims.",
+      "Attempts to analyze sentences but demonstrates a lack of comprehension.",
+      "Offers a superficial analysis of how sentences contribute to the author's ideas.",
+      "Analyzes how some sentences develop the author's ideas, but the explanation is not thorough.",
+      "Explains how specific sentences develop the author's claim with relevant details.",
+      "Provides a detailed and insightful analysis of how specific sentences develop and refine the author's claims."
+    ],
+    [
+      "Shows no understanding of how paragraphs develop claims.",
+      "Attempts to analyze paragraphs but demonstrates a lack of comprehension.",
+      "Offers a superficial analysis of how paragraphs contribute to the author's ideas.",
+      "Analyzes how some paragraphs develop the author's ideas, but the explanation is not thorough.",
+      "Explains how specific paragraphs develop the author's claim with relevant details.",
+      "Provides a detailed and insightful analysis of how specific paragraphs develop and refine the author's claims."
+    ],
+    [
+      "Does not address the use of any text features.",
+      "Mentions text features but does not explain their purpose or effect.",
+      "Identifies some text features (e.g., headers, captions) but offers little analysis of their function.",
+      "Describes the function of some text features, but lacks in-depth analysis.",
+      "Analyzes how text features contribute to the development or refinement of ideas.",
+      "Provides a comprehensive analysis of how text features enhance the clarity and impact of the author's ideas."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internet Safety Hazards",
+    "Explanation of Risks Associated with Hazards",
+    "Discussion of Preventative Measures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any safety hazards related to Internet usage.",
+      "The student identifies one safety hazard related to Internet usage but lacks detail.",
+      "The student identifies two safety hazards related to Internet usage with some detail.",
+      "The student identifies three safety hazards related to Internet usage with reasonable detail.",
+      "The student identifies four safety hazards related to Internet usage with good detail and examples.",
+      "The student comprehensively identifies multiple safety hazards related to Internet usage with specific examples and demonstrates a thorough understanding."
+    ],
+    [
+      "The student does not explain any risks associated with Internet safety hazards.",
+      "The student vaguely mentions risks associated with one Internet safety hazard.",
+      "The student explains the risks associated with one or two Internet safety hazards with limited clarity.",
+      "The student explains the risks associated with several Internet safety hazards with reasonable clarity.",
+      "The student clearly explains the risks associated with multiple Internet safety hazards, providing relevant context.",
+      "The student comprehensively explains the risks associated with various Internet safety hazards, demonstrating a deep understanding of potential consequences."
+    ],
+    [
+      "The student does not discuss any preventative measures for Internet safety hazards.",
+      "The student mentions one vague preventative measure.",
+      "The student discusses one or two basic preventative measures with limited explanation.",
+      "The student discusses several preventative measures with reasonable explanation.",
+      "The student clearly discusses multiple preventative measures, explaining their effectiveness.",
+      "The student comprehensively discusses a wide range of preventative measures, critically evaluating their effectiveness and suggesting improvements."
+    ]
+  ]
+}

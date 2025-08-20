@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Early Democratic Ideas",
+    "Significance of Representative Assemblies",
+    "Significance of Town Meetings",
+    "Connection to Modern Democracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of early democratic ideas and practices during the colonial period.",
+      "Shows a minimal understanding of early democratic ideas, with significant gaps in knowledge.",
+      "Identifies some early democratic ideas but struggles to explain their significance or provide accurate details.",
+      "Explains several early democratic ideas and practices but may lack depth or clarity in explanations.",
+      "Demonstrates a strong understanding of early democratic ideas and practices, explaining their significance with detail and accuracy.",
+      "Provides a comprehensive and insightful analysis of early democratic ideas and practices, demonstrating a nuanced understanding of their historical context and long-term impact."
+    ],
+    [
+      "Does not recognize or mention representative assemblies in the colonial period.",
+      "Mentions representative assemblies but does not explain their significance.",
+      "Offers a basic explanation of representative assemblies but struggles to articulate their importance in colonial governance.",
+      "Explains the role of representative assemblies in colonial governance, highlighting some of their key functions and powers.",
+      "Analyzes the significance of representative assemblies in shaping colonial governance, demonstrating a clear understanding of their impact on political decision-making.",
+      "Provides a comprehensive and insightful analysis of representative assemblies, exploring their evolution, challenges, and lasting impact on American democracy."
+    ],
+    [
+      "Does not recognize or mention town meetings in the colonial period.",
+      "Mentions town meetings but does not explain their significance.",
+      "Offers a basic explanation of town meetings but struggles to articulate their importance in colonial governance.",
+      "Explains the role of town meetings in colonial governance, highlighting some of their key functions and powers.",
+      "Analyzes the significance of town meetings in shaping colonial governance, demonstrating a clear understanding of their impact on political decision-making at a local level.",
+      "Provides a comprehensive and insightful analysis of town meetings, exploring their evolution, challenges, and lasting impact on American democracy and civic engagement."
+    ],
+    [
+      "Fails to connect early democratic practices to modern democratic systems.",
+      "Makes a vague or unsubstantiated connection between early and modern democracy.",
+      "Identifies some basic similarities or differences between early democratic practices and modern democracy but lacks depth.",
+      "Explains how early democratic ideas and practices laid the groundwork for modern democracy, citing specific examples.",
+      "Analyzes the enduring influence of early democratic ideas and practices on modern democracy, discussing their impact on key institutions and principles.",
+      "Provides a comprehensive and insightful analysis of the complex relationship between early and modern democracy, exploring both continuities and changes in democratic thought and practice."
+    ]
+  ]
+}

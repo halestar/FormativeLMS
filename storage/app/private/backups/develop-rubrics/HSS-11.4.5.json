@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Political Ramifications",
+    "Understanding of Economic Ramifications",
+    "Understanding of Social Ramifications",
+    "Use of Historical Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the political impacts of World War I on the US home front.",
+      "Shows limited awareness of political changes, possibly mentioning one impact without detail.",
+      "Identifies a few political impacts, such as the Espionage Act, but lacks depth in analysis.",
+      "Explains several political ramifications, such as shifts in government power and restrictions on civil liberties, with some supporting details.",
+      "Analyzes the political consequences of World War I, providing specific examples and explaining their significance in shaping US policy and politics.",
+      "Provides a comprehensive and insightful analysis of the long-term political ramifications, connecting them to enduring shifts in American governance and civic life, and including nuanced perspectives."
+    ],
+    [
+      "Demonstrates no understanding of the economic impacts of World War I on the US home front.",
+      "Shows limited awareness of economic changes, possibly mentioning one impact without detail.",
+      "Identifies a few economic impacts, such as increased production, but lacks depth in analysis.",
+      "Explains several economic ramifications, such as the rise of wartime industries, labor shifts, and government control over the economy, with some supporting details.",
+      "Analyzes the economic consequences of World War I, providing specific examples like war bonds, inflation, and changes in international trade, and explaining their significance.",
+      "Provides a comprehensive and insightful analysis of the long-term economic ramifications, connecting them to shifts in American economic policy, the role of the US in the global economy, and including nuanced perspectives."
+    ],
+    [
+      "Demonstrates no understanding of the social impacts of World War I on the US home front.",
+      "Shows limited awareness of social changes, possibly mentioning one impact without detail.",
+      "Identifies a few social impacts, such as the role of women in the workforce, but lacks depth in analysis.",
+      "Explains several social ramifications, such as the Great Migration, changes in gender roles, and the rise of nativism, with some supporting details.",
+      "Analyzes the social consequences of World War I, providing specific examples of changing demographics, social tensions, and cultural shifts, and explaining their significance.",
+      "Provides a comprehensive and insightful analysis of the long-term social ramifications, connecting them to enduring shifts in American society, culture, and identity, and including nuanced perspectives."
+    ],
+    [
+      "Provides no historical evidence to support claims.",
+      "Provides minimal historical evidence, which may be vague or inaccurate.",
+      "Uses some historical evidence, but it is limited and not always relevant.",
+      "Supports explanations with relevant historical evidence, but could be more detailed.",
+      "Effectively uses a variety of historical evidence to support analysis of the war's impact.",
+      "Masterfully integrates diverse historical evidence, including primary and secondary sources, to provide a compelling and thoroughly supported analysis."
+    ]
+  ]
+}

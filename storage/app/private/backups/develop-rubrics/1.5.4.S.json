@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the risks associated with head injuries during biking, skateboarding, or in-line skating.",
+    "Explanation of how helmets protect the head and reduce the severity of injuries.",
+    "Analysis of the effectiveness of helmets in preventing or reducing the severity of head injuries, citing evidence or examples."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the risks associated with head injuries.",
+      "Identifies that head injuries are a risk but provides no specific details or explanation.",
+      "Lists some risks associated with head injuries but lacks depth in explanation.",
+      "Explains common risks associated with head injuries, such as concussions and skull fractures, with some detail.",
+      "Thoroughly explains various risks, including both short-term and long-term consequences of head injuries.",
+      "Provides a comprehensive and detailed explanation of the risks, including relevant statistics or examples of head injury consequences."
+    ],
+    [
+      "Unable to explain how helmets protect the head.",
+      "Offers a vague or incomplete explanation of helmet protection.",
+      "Describes basic helmet function but lacks details about specific protective mechanisms.",
+      "Explains how helmets absorb impact and distribute force to protect the head.",
+      "Provides a detailed explanation of helmet construction, materials, and how they contribute to impact absorption and injury reduction.",
+      "Offers an expert-level explanation of helmet technology, including advanced features and research on helmet effectiveness."
+    ],
+    [
+      "Provides no analysis of helmet effectiveness.",
+      "States that helmets are effective but offers no supporting evidence or examples.",
+      "Provides a limited analysis of helmet effectiveness with minimal supporting evidence.",
+      "Analyzes helmet effectiveness, citing examples or basic statistics to support claims.",
+      "Offers a well-supported analysis of helmet effectiveness, citing relevant studies, statistics, and real-world examples.",
+      "Presents a comprehensive and insightful analysis of helmet effectiveness, incorporating multiple sources of evidence and addressing potential limitations or counterarguments."
+    ]
+  ]
+}

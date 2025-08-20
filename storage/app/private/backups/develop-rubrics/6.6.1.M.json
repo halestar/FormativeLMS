@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Stressors",
+    "Development of Coping Strategies",
+    "Creation of a Stress Management Plan"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any stressors or identifies irrelevant factors.",
+      "Identifies only one stressor with limited accuracy.",
+      "Identifies a few stressors, but lacks detail or relevance for personalized stress management.",
+      "Identifies several stressors relevant to personal experience, showing a basic understanding.",
+      "Accurately identifies and describes multiple personal stressors, demonstrating good self-awareness.",
+      "Thoroughly identifies, describes, and categorizes personal stressors, demonstrating excellent self-awareness and analytical skills."
+    ],
+    [
+      "Proposes no coping strategies or suggests strategies unrelated to stress management.",
+      "Suggests one coping strategy that is generic and not personalized.",
+      "Suggests a few coping strategies, but they are not well-explained or clearly linked to identified stressors.",
+      "Suggests several coping strategies that are somewhat relevant to identified stressors, with a basic explanation of their use.",
+      "Develops specific and relevant coping strategies for each major stressor identified, demonstrating a clear understanding of their application.",
+      "Develops a comprehensive and innovative set of coping strategies, tailored to each stressor with detailed explanations of implementation and expected outcomes."
+    ],
+    [
+      "Does not create a plan or presents a plan that is completely disorganized and unusable.",
+      "Creates a very basic plan with minimal details and lacking a timeline or specific actions.",
+      "Creates a plan with some structure, but lacks detail on how to implement the coping strategies or monitor progress.",
+      "Develops a structured plan that includes coping strategies, a basic timeline, and some methods for monitoring stress levels.",
+      "Develops a detailed and organized plan that includes specific actions, a realistic timeline, methods for monitoring stress levels, and criteria for success.",
+      "Creates a highly detailed, personalized, and proactive stress management plan that includes contingency plans, methods for self-evaluation, and strategies for continuous improvement."
+    ]
+  ]
+}

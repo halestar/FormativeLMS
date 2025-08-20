@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the relationship between rational exponents and radicals.",
+    "Applying the properties of integer exponents to rational exponents.",
+    "Converting between radical and rational exponent notation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of rational exponents or radicals.",
+      "Student can identify rational exponents and radicals but cannot explain the relationship between them.",
+      "Student can partially explain how rational exponents relate to radicals but struggles with the underlying principles.",
+      "Student can explain how rational exponents relate to radicals using properties of exponents but may lack clarity or precision.",
+      "Student clearly explains and demonstrates the relationship between rational exponents and radicals, using exponent properties effectively.",
+      "Student provides a comprehensive and insightful explanation of the relationship between rational exponents and radicals, including justifications based on exponent properties and providing clear examples."
+    ],
+    [
+      "Student does not apply the properties of integer exponents to rational exponents.",
+      "Student attempts to apply the properties of integer exponents to rational exponents but makes significant errors.",
+      "Student applies some properties of integer exponents to rational exponents but demonstrates inconsistencies or misunderstanding.",
+      "Student applies properties of integer exponents to rational exponents correctly in basic cases, but struggles with more complex problems.",
+      "Student consistently applies properties of integer exponents to rational exponents accurately and efficiently.",
+      "Student demonstrates mastery in applying properties of integer exponents to rational exponents, including complex and non-standard problems, and can explain the reasoning behind each step."
+    ],
+    [
+      "Student cannot convert between radical and rational exponent notation.",
+      "Student attempts to convert between radical and rational exponent notation but makes frequent errors.",
+      "Student can convert between radical and rational exponent notation in simple cases but struggles with more complex expressions.",
+      "Student converts between radical and rational exponent notation with reasonable accuracy, but may require some guidance.",
+      "Student accurately and efficiently converts between radical and rational exponent notation.",
+      "Student demonstrates fluency in converting between radical and rational exponent notation, including complex and unconventional expressions, and can justify the equivalence of different notations."
+    ]
+  ]
+}

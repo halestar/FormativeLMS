@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Graph",
+    "Identification of Key Features",
+    "Appropriate Use of Technology",
+    "Understanding of Function Types"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The graph is completely inaccurate and does not represent the function.",
+      "The graph has major inaccuracies and demonstrates a poor understanding of the function's behavior.",
+      "The graph has several inaccuracies or omissions that affect the representation of the function.",
+      "The graph has minor inaccuracies that do not significantly affect the overall representation of the function.",
+      "The graph is mostly accurate with very minor errors.",
+      "The graph is perfectly accurate and precisely represents the function."
+    ],
+    [
+      "No key features are identified.",
+      "Key features are incorrectly identified or missing.",
+      "Some key features are identified, but with inaccuracies or omissions.",
+      "Most key features are correctly identified, with only minor omissions.",
+      "All key features are identified and mostly correct.",
+      "All key features are correctly and comprehensively identified."
+    ],
+    [
+      "Technology is not used or is used inappropriately.",
+      "Technology is used ineffectively or incorrectly.",
+      "Technology is used, but with limitations or errors.",
+      "Technology is used appropriately, but without maximizing its potential.",
+      "Technology is used effectively to aid in graphing and analysis.",
+      "Technology is used skillfully and effectively to enhance graphing and analysis."
+    ],
+    [
+      "Demonstrates no understanding of the function type.",
+      "Demonstrates very limited understanding of the function type.",
+      "Demonstrates some understanding of the function type, but with significant gaps.",
+      "Demonstrates a general understanding of the function type.",
+      "Demonstrates a strong understanding of the function type.",
+      "Demonstrates a comprehensive and nuanced understanding of the function type."
+    ]
+  ]
+}

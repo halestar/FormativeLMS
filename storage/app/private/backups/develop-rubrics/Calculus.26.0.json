@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Taylor Polynomial Calculation",
+    "Accuracy of Taylor Series Calculation",
+    "Understanding and Application of Remainder Term",
+    "Clarity and Organization of Work"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely incorrect Taylor polynomial calculation.",
+      "Significant errors in calculating the Taylor polynomial; demonstrates a lack of understanding of basic concepts.",
+      "Multiple errors in the Taylor polynomial calculation, indicating a partial understanding of the process.",
+      "Minor errors in the Taylor polynomial calculation; generally understands the process but needs refinement.",
+      "Mostly accurate Taylor polynomial calculation with only very minor errors.",
+      "Accurate and complete Taylor polynomial calculation, demonstrating a strong understanding of the underlying principles."
+    ],
+    [
+      "No attempt or completely incorrect Taylor Series calculation.",
+      "Significant errors in calculating the Taylor Series; demonstrates a lack of understanding of basic concepts.",
+      "Multiple errors in the Taylor Series calculation, indicating a partial understanding of the process.",
+      "Minor errors in the Taylor Series calculation; generally understands the process but needs refinement.",
+      "Mostly accurate Taylor Series calculation with only very minor errors.",
+      "Accurate and complete Taylor Series calculation, demonstrating a strong understanding of the underlying principles."
+    ],
+    [
+      "No understanding or attempt to address the remainder term.",
+      "Incorrect or irrelevant discussion of the remainder term; demonstrates a lack of understanding of its purpose.",
+      "Attempts to address the remainder term but with significant errors in its calculation or interpretation.",
+      "Understands the basic concept of the remainder term but struggles with accurate calculation or application.",
+      "Calculates or discusses the remainder term with reasonable accuracy, demonstrating a good understanding of its role.",
+      "Clearly and accurately calculates and interprets the remainder term, demonstrating a comprehensive understanding of its significance in Taylor series approximation."
+    ],
+    [
+      "Work is disorganized and difficult to follow; no clear explanation of steps.",
+      "Work lacks organization and is difficult to follow; explanation of steps is minimal or unclear.",
+      "Work shows some organization but may be difficult to follow in places; explanation of steps is partially present.",
+      "Work is generally organized and easy to follow; explanation of steps is adequate but could be improved.",
+      "Work is well-organized and easy to follow; clear explanation of steps is provided.",
+      "Work is exceptionally well-organized, clear, and concise; provides a thorough and easy-to-understand explanation of all steps."
+    ]
+  ]
+}

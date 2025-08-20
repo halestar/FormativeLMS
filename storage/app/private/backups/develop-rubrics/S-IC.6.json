@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Statistical Concepts",
+    "Data Interpretation Skills",
+    "Critical Evaluation of Reports",
+    "Justification of Conclusions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic statistical concepts related to data evaluation.",
+      "Shows limited understanding of statistical concepts; struggles to identify key components in reports.",
+      "Displays some understanding of statistical concepts but has difficulty applying them to evaluate reports.",
+      "Demonstrates a solid understanding of statistical concepts and can apply them to evaluate reports with some guidance.",
+      "Exhibits a strong understanding of statistical concepts and applies them effectively to evaluate reports.",
+      "Shows a comprehensive understanding of statistical concepts and expertly applies them to evaluate reports, demonstrating insightful analysis."
+    ],
+    [
+      "Unable to interpret data presented in reports.",
+      "Struggles to interpret data; misinterprets key findings or trends.",
+      "Shows basic data interpretation skills but misses important details or nuances.",
+      "Interprets data accurately but may overlook subtle patterns or implications.",
+      "Demonstrates strong data interpretation skills, identifying key patterns and implications effectively.",
+      "Exhibits exceptional data interpretation skills, extracting insightful and nuanced meaning from complex data sets."
+    ],
+    [
+      "Unable to critically evaluate reports or identify potential biases\/limitations.",
+      "Struggles to critically evaluate reports; accepts information at face value without questioning validity.",
+      "Identifies some strengths and weaknesses in reports but lacks depth in analysis.",
+      "Critically evaluates reports, identifying strengths, weaknesses, and potential biases with reasonable justification.",
+      "Demonstrates strong critical evaluation skills, providing well-reasoned assessments of reports and their limitations.",
+      "Exhibits exceptional critical evaluation skills, offering insightful and comprehensive assessments of reports, including nuanced discussions of biases and limitations."
+    ],
+    [
+      "Unable to justify conclusions based on data presented in reports.",
+      "Provides weak or unsupported justifications for conclusions; relies on personal opinions rather than evidence.",
+      "Offers basic justifications for conclusions but lacks depth or coherence.",
+      "Justifies conclusions effectively using data from reports but may miss some relevant details.",
+      "Demonstrates strong justification skills, providing clear and well-supported conclusions based on data analysis.",
+      "Exhibits exceptional justification skills, offering insightful and nuanced conclusions supported by comprehensive data analysis and logical reasoning."
+    ]
+  ]
+}

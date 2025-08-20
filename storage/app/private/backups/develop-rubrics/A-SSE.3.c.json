@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to rewrite exponential expressions using properties of exponents.",
+    "Interpretation of the transformed expression and its properties.",
+    "Application of equivalent forms to solve real-world problems."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student shows no understanding of exponential properties and cannot manipulate the given expression.",
+      "Student attempts to rewrite the expression but makes significant errors in applying exponential properties.",
+      "Student can rewrite the expression but makes minor errors or struggles to apply the properties correctly.",
+      "Student correctly rewrites the expression using appropriate exponential properties but provides a limited explanation.",
+      "Student accurately rewrites the expression, demonstrating a solid understanding of exponential properties, and provides a clear explanation of the transformations.",
+      "Student flawlessly rewrites the expression, clearly explains and justifies the use of exponential properties, and demonstrates a sophisticated understanding of how transformations affect the expression's properties."
+    ],
+    [
+      "Student provides no interpretation of the transformed expression or its properties.",
+      "Student attempts to interpret the expression, but the interpretation is unclear or incorrect.",
+      "Student offers a basic interpretation but struggles to connect the transformed expression to its properties.",
+      "Student provides a reasonable interpretation, relating the transformed expression to its properties with some limitations.",
+      "Student accurately interprets the transformed expression, clearly explaining the relationship between the expression and its properties.",
+      "Student provides a insightful and nuanced interpretation of the transformed expression, demonstrating a deep understanding of the properties it reveals and offering meaningful insights."
+    ],
+    [
+      "Student does not attempt to apply the equivalent form to solve any problem.",
+      "Student attempts to apply the equivalent form but demonstrates a lack of understanding and arrives at an incorrect solution.",
+      "Student struggles to correctly apply the equivalent form, making significant errors in the solution process.",
+      "Student partially applies the equivalent form to solve a problem but with some errors or inefficiencies.",
+      "Student effectively applies the equivalent form to solve a problem, demonstrating a clear understanding of its utility.",
+      "Student expertly applies the equivalent form to solve complex problems, demonstrating a comprehensive understanding of its implications and providing clear, efficient solutions."
+    ]
+  ]
+}

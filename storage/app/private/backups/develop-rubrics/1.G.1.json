@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in distinguishing defining attributes of shapes (e.g., sides, angles) versus non-defining attributes (e.g., color, orientation).",
+    "Ability to construct and draw shapes accurately based on defining attributes.",
+    "Clarity and precision in explaining the reasoning behind shape classification and construction."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not distinguish between defining and non-defining attributes of shapes.",
+      "Struggles to distinguish between defining and non-defining attributes; demonstrates significant misconceptions.",
+      "Identifies some defining attributes but confuses them with non-defining attributes occasionally.",
+      "Generally distinguishes between defining and non-defining attributes but may have minor errors.",
+      "Accurately distinguishes defining attributes from non-defining attributes with only minor oversights.",
+      "Consistently and accurately distinguishes between defining and non-defining attributes of a variety of shapes, providing clear explanations."
+    ],
+    [
+      "Unable to construct or draw shapes based on defining attributes.",
+      "Attempts to construct or draw shapes but demonstrates significant errors in representing defining attributes.",
+      "Constructs or draws shapes with some accuracy, but several defining attributes are missing or incorrect.",
+      "Constructs and draws shapes with general accuracy, but may have minor errors in representing defining attributes.",
+      "Accurately constructs and draws shapes, correctly representing all or nearly all defining attributes.",
+      "Constructs and draws a variety of shapes accurately and precisely, demonstrating a strong understanding of defining attributes."
+    ],
+    [
+      "Unable to explain the reasoning behind shape classification or construction.",
+      "Provides unclear or inaccurate explanations for shape classification and construction.",
+      "Explains the reasoning with limited clarity and some inaccuracies.",
+      "Provides a generally clear explanation of the reasoning behind shape classification and construction, with some minor omissions.",
+      "Clearly explains the reasoning behind shape classification and construction, demonstrating good understanding.",
+      "Provides clear, precise, and insightful explanations for shape classification and construction, demonstrating a comprehensive understanding of geometric principles."
+    ]
+  ]
+}

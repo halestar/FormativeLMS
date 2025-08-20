@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Economic Rights",
+    "Explanation of How Economic Rights are Secured",
+    "Application of Knowledge to Real-World Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of economic rights or their significance.",
+      "Shows minimal understanding of economic rights with significant misconceptions.",
+      "Identifies some economic rights but struggles to explain their importance to individuals or society.",
+      "Explains several economic rights and their importance to individuals, but lacks depth in societal impact.",
+      "Clearly explains various economic rights and their importance to both individuals and society, providing examples.",
+      "Demonstrates a comprehensive understanding of economic rights, their significance to individuals and society, and provides insightful examples and analysis."
+    ],
+    [
+      "Cannot explain how economic rights are secured.",
+      "Offers a vague or inaccurate explanation of how economic rights are secured.",
+      "Identifies some mechanisms for securing economic rights but lacks clarity or detail.",
+      "Explains how economic rights are secured through legal and social mechanisms.",
+      "Clearly explains the various mechanisms through which economic rights are secured, providing relevant details.",
+      "Provides a detailed and nuanced explanation of how economic rights are secured, including the complexities and challenges involved."
+    ],
+    [
+      "Unable to connect knowledge of economic rights to real-world examples.",
+      "Struggles to apply knowledge of economic rights to real-world examples.",
+      "Offers superficial or inaccurate examples of economic rights in real-world contexts.",
+      "Provides relevant examples of economic rights in real-world contexts but lacks in-depth analysis.",
+      "Effectively applies knowledge of economic rights to analyze real-world situations, demonstrating a clear understanding.",
+      "Critically analyzes complex real-world situations involving economic rights, demonstrating sophisticated understanding and insight."
+    ]
+  ]
+}

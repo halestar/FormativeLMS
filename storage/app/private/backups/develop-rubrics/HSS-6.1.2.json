@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Early Human Community Locations",
+    "Description of Human Adaptation to Environments",
+    "Understanding of the Relationship Between Environment and Community Development"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any locations of early human communities.",
+      "The student can identify one location of an early human community but struggles with others.",
+      "The student can identify a few locations of early human communities, but there are inaccuracies or omissions.",
+      "The student accurately identifies several locations of early human communities in major regions of the world.",
+      "The student accurately identifies most locations of early human communities and demonstrates a broad understanding of their geographical distribution.",
+      "The student comprehensively identifies locations of early human communities across major regions, demonstrating an expert understanding of their geographical context."
+    ],
+    [
+      "The student does not describe how humans adapted to different environments.",
+      "The student offers a vague or inaccurate description of human adaptation to one environment.",
+      "The student describes human adaptation to a couple of environments with some inaccuracies or lack of detail.",
+      "The student adequately describes how humans adapted to several different environments.",
+      "The student thoroughly describes human adaptation to a variety of environments, showing an understanding of the challenges and solutions.",
+      "The student provides detailed and nuanced descriptions of human adaptation to diverse environments, demonstrating a sophisticated understanding of the interplay between humans and their surroundings."
+    ],
+    [
+      "The student shows no understanding of how the environment influenced the development of early human communities.",
+      "The student demonstrates a minimal understanding of the environment's influence on early human communities.",
+      "The student shows some awareness of the relationship between the environment and community development, but the explanation is superficial.",
+      "The student explains how the environment influenced the development of early human communities with reasonable clarity.",
+      "The student clearly explains the relationship between the environment and community development, providing specific examples.",
+      "The student insightfully explains the complex interplay between the environment and community development, offering nuanced analysis and supporting evidence."
+    ]
+  ]
+}

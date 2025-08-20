@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model",
+    "Representation of Energy Transformation",
+    "Clarity and Communication",
+    "Use of Scientific Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing key components or contains inaccurate representations of photosynthesis.",
+      "The model includes some components of photosynthesis, but there are inaccuracies or omissions.",
+      "The model mostly accurately represents the components of photosynthesis, but there may be minor inaccuracies or omissions.",
+      "The model accurately represents the key components and processes of photosynthesis with minimal inaccuracies.",
+      "The model accurately and thoroughly represents the key components and processes of photosynthesis.",
+      "The model provides a comprehensive and accurate representation of photosynthesis, demonstrating a deep understanding of the process."
+    ],
+    [
+      "The model fails to illustrate the transformation of light energy into chemical energy.",
+      "The model attempts to show energy transformation, but it is unclear or incomplete.",
+      "The model partially illustrates the transformation of light energy into chemical energy.",
+      "The model clearly illustrates the transformation of light energy into chemical energy, showing the inputs and outputs.",
+      "The model effectively illustrates the transformation of light energy into chemical energy, detailing the inputs, outputs, and the role of chlorophyll.",
+      "The model comprehensively illustrates the transformation of light energy into chemical energy, explaining the role of key components and the overall process with clarity and detail."
+    ],
+    [
+      "The model is unclear and difficult to understand.",
+      "The model is somewhat understandable, but lacks clarity in certain areas.",
+      "The model is mostly clear and understandable, with some areas needing improvement.",
+      "The model is clear and easy to understand, effectively communicating the process of photosynthesis.",
+      "The model is exceptionally clear and well-organized, enhancing the understanding of photosynthesis.",
+      "The model is presented with exceptional clarity and includes detailed annotations or explanations that demonstrate a mastery of the subject matter."
+    ],
+    [
+      "The model uses little to no scientific terminology related to photosynthesis.",
+      "The model uses some scientific terminology, but it is often incorrect or misused.",
+      "The model uses scientific terminology, but there are occasional errors or inconsistencies.",
+      "The model accurately uses relevant scientific terminology to describe photosynthesis.",
+      "The model consistently and accurately uses advanced scientific terminology, demonstrating a strong understanding of the concepts.",
+      "The model exhibits a sophisticated understanding of photosynthesis through precise and accurate use of scientific terminology, enhancing the overall understanding of the process."
+    ]
+  ]
+}

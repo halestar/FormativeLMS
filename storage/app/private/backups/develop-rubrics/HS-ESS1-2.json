@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Evidence for the Big Bang Theory",
+    "Explanation of Redshift and Expanding Universe",
+    "Connection Between Stellar Composition and the Big Bang Theory",
+    "Use of Scientific Reasoning and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the evidence supporting the Big Bang theory is demonstrated.",
+      "Demonstrates minimal understanding of one piece of evidence for the Big Bang theory (e.g., red shift, cosmic microwave background, composition of matter).",
+      "Demonstrates partial understanding of two pieces of evidence for the Big Bang theory, but explanation lacks depth or accuracy.",
+      "Demonstrates adequate understanding of two pieces of evidence, and a basic explanation of the Big Bang theory.",
+      "Demonstrates thorough understanding of at least three pieces of evidence for the Big Bang theory and provides a clear explanation.",
+      "Demonstrates comprehensive understanding of multiple lines of evidence (redshift, CMB, composition) and provides a nuanced, accurate explanation of the Big Bang theory, including its implications."
+    ],
+    [
+      "No understanding of redshift or the expansion of the universe is evident.",
+      "Mentions redshift or the expansion of the universe but does not explain the connection.",
+      "Provides a basic explanation of either redshift or the expansion of the universe, but not both.",
+      "Explains redshift as a phenomenon and its connection to the expansion of the universe.",
+      "Clearly explains redshift, the expansion of the universe, and the relationship between them as evidence for the Big Bang.",
+      "Provides a detailed and accurate explanation of redshift and the expansion of the universe, including the underlying physics and its significance as evidence for the Big Bang."
+    ],
+    [
+      "Does not mention the composition of stars or its relevance to the Big Bang theory.",
+      "Mentions the composition of stars but does not connect it to the Big Bang theory.",
+      "Identifies hydrogen and helium as major components of stars but does not explain their origin in the context of the Big Bang.",
+      "Explains that the abundance of hydrogen and helium in stars supports the Big Bang theory.",
+      "Clearly explains how the observed composition of stars (primarily hydrogen and helium) aligns with the predictions of the Big Bang theory.",
+      "Provides a sophisticated explanation of how the observed composition of stars supports the Big Bang theory, including the processes of nucleosynthesis and the formation of heavier elements."
+    ],
+    [
+      "Explanation lacks any scientific reasoning or evidence.",
+      "Attempts to provide an explanation but does not use evidence effectively.",
+      "Uses some evidence to support the explanation, but reasoning is flawed or incomplete.",
+      "Provides a generally logical explanation supported by relevant evidence.",
+      "Constructs a well-reasoned explanation supported by multiple lines of evidence.",
+      "Presents a compelling and insightful explanation, demonstrating a strong command of scientific reasoning and the ability to synthesize evidence from multiple sources."
+    ]
+  ]
+}

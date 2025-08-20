@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Problem Definition: Clarity and completeness of the design problem definition, including needs and wants.",
+    "Criteria for Success: Specificity and relevance of criteria for determining the success of the design.",
+    "Constraints: Identification and consideration of constraints on materials, time, or cost.",
+    "Integration of Knowledge: Application of scientific and mathematical concepts in defining the problem."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The problem is not defined, or the definition is unclear and does not identify a need or want.",
+      "The problem definition is vague and only partially identifies a need or want.",
+      "The problem definition identifies a need or want, but lacks clarity or important details.",
+      "The problem definition is clear and identifies a specific need or want.",
+      "The problem definition is well-defined, clearly identifies a need or want, and provides relevant background information.",
+      "The problem definition is comprehensive, clearly articulates a significant need or want, provides context, and demonstrates a deep understanding of the problem."
+    ],
+    [
+      "No criteria for success are identified.",
+      "Criteria for success are vague or irrelevant to the problem.",
+      "Criteria for success are identified, but they are not specific or measurable.",
+      "Criteria for success are specific and relevant to the problem, but may not be comprehensive.",
+      "Criteria for success are well-defined, specific, measurable, and relevant to the problem.",
+      "Criteria for success are comprehensive, clearly defined, measurable, highly relevant, and cover all critical aspects of the problem's solution."
+    ],
+    [
+      "No constraints are identified.",
+      "Constraints are mentioned but not clearly defined or relevant.",
+      "Some constraints are identified, but their impact on the design is not considered.",
+      "Relevant constraints (materials, time, or cost) are identified and considered in the design problem.",
+      "Constraints are thoroughly identified, clearly defined, and their impact on the design process is well-considered.",
+      "Constraints are comprehensively identified, rigorously analyzed, and creatively addressed in the design problem, demonstrating resourcefulness and adaptability."
+    ],
+    [
+      "No connection to scientific or mathematical concepts is evident.",
+      "A weak or superficial connection to scientific or mathematical concepts is present.",
+      "Scientific or mathematical concepts are mentioned, but not clearly integrated into the problem definition.",
+      "Relevant scientific and mathematical concepts are applied to define the problem.",
+      "Scientific and mathematical concepts are effectively integrated into the problem definition, enhancing its clarity and precision.",
+      "The problem definition demonstrates a sophisticated integration of scientific and mathematical concepts, showcasing a deep understanding of their relevance and application to the design challenge."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Dangers at School",
+    "Understanding of Dangers at Home",
+    "Understanding of Dangers in the Community",
+    "Application of Education Code Definition"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the dangers of weapons at school.",
+      "Identifies that weapons at school are dangerous, but provides no explanation.",
+      "Offers a limited explanation of the dangers of weapons at school.",
+      "Explains some of the dangers of weapons at school, such as potential for accidental injury or violence.",
+      "Clearly explains multiple dangers of weapons at school, including the creation of a hostile environment, increased risk of violence, and legal consequences.",
+      "Comprehensively explains the dangers of weapons at school, including psychological impacts, disruption of the learning environment, and long-term community effects. Provides well-reasoned arguments."
+    ],
+    [
+      "Demonstrates no understanding of the dangers of weapons at home.",
+      "Identifies that weapons at home can be dangerous, but provides no explanation.",
+      "Offers a limited explanation of the dangers of weapons at home.",
+      "Explains some of the dangers of weapons at home, such as accidental injury or suicide.",
+      "Clearly explains multiple dangers of weapons at home, including increased risk of domestic violence, accidental shootings, and suicide. Considers the impact on children.",
+      "Comprehensively explains the dangers of weapons at home, including safe storage practices, the impact of weapon presence on mental health, and community-wide consequences. Provides nuanced perspectives."
+    ],
+    [
+      "Demonstrates no understanding of the dangers of weapons in the community.",
+      "Identifies that weapons in the community can be dangerous, but provides no explanation.",
+      "Offers a limited explanation of the dangers of weapons in the community.",
+      "Explains some of the dangers of weapons in the community, such as increased crime rates or accidental shootings.",
+      "Clearly explains multiple dangers of weapons in the community, including increased violence, fear, and the potential for mass shootings. Connects weapon availability to community safety.",
+      "Comprehensively explains the dangers of weapons in the community, including the impact on public health, the role of responsible gun ownership, and the influence of community norms on violence. Proposes solutions for safer communities."
+    ],
+    [
+      "Does not reference or demonstrate understanding of the Education Code definition of a weapon.",
+      "Mentions the Education Code definition but does not apply it to the discussion.",
+      "Attempts to relate the Education Code definition to a specific danger, but the connection is weak.",
+      "Relates the Education Code definition to specific examples of dangerous situations in at least one setting (school, home, or community).",
+      "Consistently applies the Education Code definition to illustrate dangers across multiple settings (school, home, and community).",
+      "Demonstrates a sophisticated understanding of the Education Code definition, using it to analyze the complexities of weapon-related dangers in various contexts and provides potential policy recommendations based on the Code."
+    ]
+  ]
+}

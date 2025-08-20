@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accurate Use of Academic and Domain-Specific Vocabulary",
+    "Vocabulary Knowledge Acquisition and Application",
+    "Contextual Understanding of Word Meaning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding or use of grade-appropriate academic and domain-specific vocabulary.",
+      "Demonstrates very limited understanding and use of grade-appropriate academic and domain-specific vocabulary. Vocabulary use is often inaccurate or inappropriate.",
+      "Demonstrates some understanding and use of grade-appropriate academic and domain-specific vocabulary. Vocabulary use may contain inaccuracies.",
+      "Demonstrates adequate understanding and use of grade-appropriate academic and domain-specific vocabulary. Vocabulary is generally accurate and appropriate.",
+      "Demonstrates strong understanding and use of grade-appropriate academic and domain-specific vocabulary. Vocabulary is accurate, varied, and enhances communication.",
+      "Demonstrates sophisticated understanding and skillful use of grade-appropriate academic and domain-specific vocabulary. Vocabulary is precise, nuanced, and elevates the quality of expression."
+    ],
+    [
+      "Shows no attempt to gather vocabulary knowledge when encountering unfamiliar words or phrases.",
+      "Shows minimal attempt to gather vocabulary knowledge; unable to apply new vocabulary to enhance comprehension or expression.",
+      "Attempts to gather vocabulary knowledge are inconsistent; application of new vocabulary is limited and sometimes inaccurate.",
+      "Gathers vocabulary knowledge with some consistency; demonstrates a basic ability to apply new vocabulary to aid comprehension or expression.",
+      "Actively gathers vocabulary knowledge and applies it effectively to enhance comprehension and expression.",
+      "Consistently and independently gathers vocabulary knowledge, applying it with precision and flair to elevate both comprehension and expression."
+    ],
+    [
+      "Unable to determine word meaning from context.",
+      "Struggles to determine word meaning from context; guesses are often inaccurate.",
+      "Can sometimes determine word meaning from context with prompting, but understanding is superficial.",
+      "Can usually determine word meaning from context; demonstrates adequate contextual understanding.",
+      "Demonstrates a strong ability to determine word meaning from context and to use context clues to refine understanding.",
+      "Demonstrates exceptional ability to determine word meaning from context, using subtle clues to develop a nuanced understanding."
+    ]
+  ]
+}

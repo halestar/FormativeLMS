@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Civic Republicanism",
+    "Grasp of Classical Liberal Principles",
+    "Knowledge of English Parliamentary Traditions",
+    "Ability to Connect the Three Traditions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of civic republicanism.",
+      "Student demonstrates a minimal understanding of civic republicanism, with significant misconceptions.",
+      "Student demonstrates a basic understanding of civic republicanism, but struggles to explain its key features.",
+      "Student demonstrates a satisfactory understanding of civic republicanism and can explain some of its key features.",
+      "Student demonstrates a strong understanding of civic republicanism and can clearly explain its key features and historical context.",
+      "Student demonstrates an exceptional understanding of civic republicanism, including its nuances, historical context, and lasting impact on American democracy."
+    ],
+    [
+      "Student demonstrates no understanding of classical liberal principles.",
+      "Student demonstrates a minimal understanding of classical liberal principles, with significant misconceptions.",
+      "Student demonstrates a basic understanding of classical liberal principles but struggles to explain their key concepts (e.g., individual rights, limited government).",
+      "Student demonstrates a satisfactory understanding of classical liberal principles and can explain some of their key concepts.",
+      "Student demonstrates a strong understanding of classical liberal principles and can clearly explain their key concepts and historical context.",
+      "Student demonstrates an exceptional understanding of classical liberal principles, including their nuances, historical context, and ongoing relevance to American political thought."
+    ],
+    [
+      "Student demonstrates no knowledge of English parliamentary traditions.",
+      "Student demonstrates minimal knowledge of English parliamentary traditions, with significant inaccuracies.",
+      "Student demonstrates a basic awareness of English parliamentary traditions but struggles to connect them to the development of American democracy.",
+      "Student demonstrates a satisfactory knowledge of English parliamentary traditions and can identify some of their influences on American democracy.",
+      "Student demonstrates a strong knowledge of English parliamentary traditions and can clearly explain their influences on the development of American constitutional democracy.",
+      "Student demonstrates an exceptional knowledge of English parliamentary traditions, including specific examples of their influence on American political institutions and practices."
+    ],
+    [
+      "Student is unable to connect civic republicanism, classical liberal principles, and English parliamentary traditions.",
+      "Student attempts to connect the three traditions but demonstrates a limited understanding of their relationships.",
+      "Student can identify some connections between the three traditions but struggles to explain their combined significance.",
+      "Student can explain how the three traditions contributed to the development of American constitutional democracy.",
+      "Student clearly explains how the interplay of civic republicanism, classical liberal principles, and English parliamentary traditions shaped American constitutional democracy.",
+      "Student provides a nuanced analysis of how the blend of civic republicanism, classical liberal principles, and English parliamentary traditions created a unique form of American constitutional democracy, considering both intended and unintended consequences."
+    ]
+  ]
+}

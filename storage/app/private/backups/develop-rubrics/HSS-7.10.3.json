@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Scientific Method",
+    "Influence on Democratic Ideas",
+    "Coexistence of Science and Religion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the scientific method as advanced by Bacon and Descartes.",
+      "Shows a limited understanding of either Bacon's or Descartes' contribution to the scientific method.",
+      "Identifies Bacon's and Descartes' contributions but struggles to explain the scientific method.",
+      "Explains the scientific method and identifies contributions of Bacon and Descartes with some inaccuracies.",
+      "Clearly explains the scientific method and accurately describes the contributions of Bacon and Descartes.",
+      "Provides a comprehensive explanation of the scientific method, accurately detailing the contributions of Bacon and Descartes, and analyzes their impact on scientific thought."
+    ],
+    [
+      "Shows no understanding of the relationship between new scientific rationalism and the growth of democratic ideas.",
+      "Suggests a vague connection between scientific rationalism and democratic ideas.",
+      "Identifies a link between scientific rationalism and democratic ideas but struggles to explain it.",
+      "Explains how scientific rationalism influenced democratic ideas with some gaps in reasoning.",
+      "Clearly explains how new scientific rationalism influenced the growth of democratic ideas, providing specific examples.",
+      "Provides a comprehensive analysis of how scientific rationalism influenced democratic ideas, including nuanced perspectives and historical context."
+    ],
+    [
+      "Demonstrates no awareness of the coexistence of science with traditional religious beliefs during the Scientific Revolution.",
+      "Acknowledges the existence of both science and religion but doesn't explain their relationship.",
+      "Describes the coexistence of science and religion but struggles to provide specific examples or explanations.",
+      "Explains how science coexisted with traditional religious beliefs, providing general examples.",
+      "Clearly explains the coexistence of science and traditional religious beliefs, providing specific examples and considering different perspectives.",
+      "Offers a nuanced analysis of the complex relationship between science and traditional religious beliefs during the Scientific Revolution, considering the challenges and adaptations of both."
+    ]
+  ]
+}

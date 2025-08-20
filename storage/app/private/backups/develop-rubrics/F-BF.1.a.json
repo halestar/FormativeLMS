@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify the type of function (linear, quadratic, or exponential) that best models the relationship between two quantities based on the context provided.",
+    "Skill in creating an explicit expression, a recursive process, or a step-by-step calculation method to represent the function.",
+    "Accuracy in using mathematical notation and terminology when constructing the function.",
+    "Ability to apply the function to solve problems or make predictions within the given context."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Cannot identify the type of function or incorrectly identifies it.",
+      "Identifies the function type with significant difficulty or provides an incorrect justification.",
+      "Identifies the function type but struggles to adequately explain the reasoning behind the choice.",
+      "Correctly identifies the function type and provides a basic explanation for why it fits the context.",
+      "Accurately identifies the function type and provides a clear and logical explanation supported by specific details from the context.",
+      "Demonstrates a deep understanding of the function type, providing a comprehensive and insightful explanation with strong connections to the context, including nuances of why this model is most appropriate."
+    ],
+    [
+      "Unable to create any representation of the function (explicit expression, recursive process, or step-by-step calculation).",
+      "Attempts to create a representation, but it is fundamentally flawed and does not relate to the context.",
+      "Creates a representation with significant errors or omissions, demonstrating a limited understanding of the relationship.",
+      "Creates a representation that is mostly correct but contains minor errors or lacks clarity.",
+      "Creates a correct and clear representation that accurately models the relationship between the two quantities, with only minor improvements possible.",
+      "Creates a sophisticated and accurate representation that demonstrates a deep understanding of the relationship and its underlying mathematical structure. The representation is optimized for clarity and ease of use."
+    ],
+    [
+      "Uses incorrect mathematical notation and terminology, demonstrating a lack of understanding.",
+      "Displays frequent errors in notation and terminology, confusing or misrepresenting key concepts.",
+      "Exhibits some errors in notation and terminology, but the overall meaning is still understandable.",
+      "Generally uses correct notation and terminology with occasional minor errors.",
+      "Consistently uses correct notation and terminology, enhancing the clarity and precision of the function.",
+      "Demonstrates mastery of mathematical notation and terminology, using it effectively to communicate complex ideas with precision and elegance."
+    ],
+    [
+      "Unable to apply the function to solve problems or make predictions.",
+      "Attempts to apply the function but is unsuccessful in solving the problem or making a relevant prediction.",
+      "Applies the function with limited success, making significant errors in calculations or interpretations.",
+      "Applies the function to solve the problem or make a prediction with reasonable accuracy, but may lack justification for the solution.",
+      "Applies the function correctly and accurately to solve the problem or make a prediction, providing clear and logical justification.",
+      "Demonstrates a comprehensive understanding of the function by applying it creatively and accurately to solve complex problems or make insightful predictions, justifying the approach with rigorous reasoning."
+    ]
+  ]
+}

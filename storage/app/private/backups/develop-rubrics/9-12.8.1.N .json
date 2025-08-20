@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Nutritional Needs: Assesses the student's comprehension of diverse nutritional requirements for different age groups and lifestyles within the school and community.",
+    "Advocacy Strategy Development: Evaluates the student's ability to create and implement effective advocacy strategies tailored to the school and community context.",
+    "Communication and Persuasion: Assesses the student's proficiency in communicating nutritional information and persuasively advocating for enhanced options."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic nutritional needs or the importance of advocacy.",
+      "Shows limited awareness of nutritional needs, with difficulty identifying key nutrients or target populations.",
+      "Displays a basic understanding of nutritional needs but struggles to apply this knowledge to specific advocacy situations.",
+      "Demonstrates a solid understanding of nutritional needs and can identify target populations for advocacy with some clarity.",
+      "Exhibits a strong understanding of nutritional needs and can effectively tailor advocacy messages to specific groups within the school and community.",
+      "Shows comprehensive understanding of nuanced nutritional needs and adeptly advocates for enhanced options, demonstrating leadership and proactive problem-solving."
+    ],
+    [
+      "Unable to propose any advocacy strategies or demonstrate understanding of how to implement them.",
+      "Suggests basic advocacy strategies but lacks a clear plan for implementation or adaptation to the school and community.",
+      "Develops some advocacy strategies but demonstrates limited understanding of the specific needs or challenges within the school and community.",
+      "Proposes relevant advocacy strategies with a basic implementation plan that considers some challenges within the school and community.",
+      "Creates well-thought-out advocacy strategies with a detailed implementation plan tailored to the specific context of the school and community.",
+      "Develops innovative and highly effective advocacy strategies, incorporating community feedback, demonstrating proactive problem-solving, and adaptable implementation plans."
+    ],
+    [
+      "Fails to communicate nutritional information effectively or persuasively.",
+      "Struggles to communicate nutritional information clearly and lacks persuasive techniques in their advocacy efforts.",
+      "Communicates basic nutritional information but struggles to tailor their message for different audiences within the school and community.",
+      "Effectively communicates nutritional information to a broad audience and demonstrates some persuasive techniques in their advocacy efforts.",
+      "Communicates complex nutritional information clearly and persuasively, adapting their message effectively to different audiences.",
+      "Exhibits exceptional communication and persuasive skills, inspiring action and influencing stakeholders to support enhanced nutritional options."
+    ]
+  ]
+}

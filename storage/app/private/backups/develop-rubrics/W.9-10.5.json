@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning and Organization",
+    "Revision and Editing",
+    "Purpose and Audience",
+    "Command of Language Standards 1-3"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence of planning or organizational strategies; writing appears haphazard and lacks direction.",
+      "Minimal planning evident; organization is weak, with significant gaps in coherence and logical progression.",
+      "Some planning is apparent, but the organization is inconsistent; ideas may not flow smoothly or logically.",
+      "Adequate planning and organization; ideas are generally presented in a logical order, but some transitions may be weak.",
+      "Well-planned and organized; ideas are presented logically with clear transitions, enhancing the overall coherence of the writing.",
+      "Exceptionally well-planned and organized; ideas are presented in a compelling and coherent manner, demonstrating a sophisticated understanding of structure."
+    ],
+    [
+      "No evidence of revision or editing; numerous errors in grammar, mechanics, and usage impede understanding.",
+      "Minimal revision or editing; significant errors persist, affecting clarity and credibility.",
+      "Some revision and editing evident, but errors remain; writing requires additional refinement.",
+      "Adequate revision and editing; most errors have been addressed, and writing is generally clear and accurate.",
+      "Thorough revision and editing; writing is polished and free of significant errors, demonstrating strong command of conventions.",
+      "Exemplary revision and editing; writing is flawless, demonstrating exceptional attention to detail and a mastery of language conventions."
+    ],
+    [
+      "Fails to address the specified purpose or audience; writing is irrelevant or inappropriate.",
+      "Minimal awareness of purpose or audience; writing is only vaguely related to the task.",
+      "Some awareness of purpose and audience, but the connection is weak or inconsistent.",
+      "Adequately addresses the specified purpose and audience; writing is generally appropriate and relevant.",
+      "Clearly addresses the specified purpose and audience; writing is tailored to engage and inform the intended readers.",
+      "Masterfully addresses the specified purpose and audience; writing is compelling and demonstrates a deep understanding of rhetorical strategies."
+    ],
+    [
+      "Demonstrates no command of Language Standards 1-3; frequent and severe errors impede comprehension.",
+      "Demonstrates limited command of Language Standards 1-3; numerous errors distract from the message.",
+      "Demonstrates partial command of Language Standards 1-3; errors are noticeable but do not completely obscure meaning.",
+      "Demonstrates adequate command of Language Standards 1-3; errors are minimal and do not significantly affect understanding.",
+      "Demonstrates strong command of Language Standards 1-3; writing is clear, precise, and grammatically correct.",
+      "Demonstrates exceptional command of Language Standards 1-3; writing is sophisticated, nuanced, and virtually error-free."
+    ]
+  ]
+}

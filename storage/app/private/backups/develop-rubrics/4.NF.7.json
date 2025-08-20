@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Decimal Notation",
+    "Comparing Decimals",
+    "Justification and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of decimal notation or its relationship to fractions.",
+      "Student shows minimal understanding of decimal notation and struggles to connect it to fractions.",
+      "Student understands decimal notation but has difficulty converting between decimals and fractions.",
+      "Student can convert between decimals and fractions but makes occasional errors.",
+      "Student demonstrates a solid understanding of decimal notation and can accurately convert between decimals and fractions.",
+      "Student demonstrates a comprehensive understanding of decimal notation, fluently converting between decimals and fractions with ease."
+    ],
+    [
+      "Student cannot compare decimals or recognize the importance of the same whole.",
+      "Student struggles to compare decimals, even with guidance, and does not consider the same whole.",
+      "Student can compare simple decimals but struggles with more complex comparisons or when the decimals do not refer to the same whole.",
+      "Student can compare decimals effectively when they refer to the same whole but may need prompts to remember this condition.",
+      "Student accurately compares decimals, recognizing the importance of the same whole, and uses symbols (>, =, <) correctly.",
+      "Student expertly compares decimals, consistently recognizing the importance of the same whole, accurately using comparison symbols, and justifying conclusions with visual models or number lines."
+    ],
+    [
+      "Student provides no justification for decimal comparisons.",
+      "Student attempts to justify comparisons but reasoning is unclear or incorrect.",
+      "Student provides some justification for comparisons but struggles to use appropriate models or number lines.",
+      "Student justifies comparisons using models or number lines but explanations may lack clarity.",
+      "Student clearly justifies comparisons with accurate reasoning and effective use of visual models or number lines.",
+      "Student provides thorough and insightful justifications for comparisons, demonstrating a deep understanding of decimal magnitude and utilizing visual models and number lines to enhance explanations."
+    ]
+  ]
+}

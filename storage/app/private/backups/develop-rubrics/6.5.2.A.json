@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of situations requiring adult assistance when alcohol is involved.",
+    "Identification of situations requiring adult assistance when tobacco is involved.",
+    "Identification of situations requiring adult assistance when other drugs are involved."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any situations or provides irrelevant responses.",
+      "Identifies one situation vaguely, lacking detail or clarity.",
+      "Identifies a couple of situations where adult help might be needed, but lacks depth.",
+      "Identifies several situations where adult help is needed with reasonable clarity and detail.",
+      "Clearly identifies a comprehensive range of situations involving alcohol, demonstrating a good understanding of when adult help is necessary.",
+      "Exhaustively identifies various situations involving alcohol, providing clear, detailed explanations of why adult intervention is crucial in each scenario."
+    ],
+    [
+      "Does not identify any situations or provides irrelevant responses.",
+      "Identifies one situation vaguely, lacking detail or clarity.",
+      "Identifies a couple of situations where adult help might be needed, but lacks depth.",
+      "Identifies several situations where adult help is needed with reasonable clarity and detail.",
+      "Clearly identifies a comprehensive range of situations involving tobacco, demonstrating a good understanding of when adult help is necessary.",
+      "Exhaustively identifies various situations involving tobacco, providing clear, detailed explanations of why adult intervention is crucial in each scenario."
+    ],
+    [
+      "Does not identify any situations or provides irrelevant responses.",
+      "Identifies one situation vaguely, lacking detail or clarity.",
+      "Identifies a couple of situations where adult help might be needed, but lacks depth.",
+      "Identifies several situations where adult help is needed with reasonable clarity and detail.",
+      "Clearly identifies a comprehensive range of situations involving other drugs, demonstrating a good understanding of when adult help is necessary.",
+      "Exhaustively identifies various situations involving other drugs, providing clear, detailed explanations of why adult intervention is crucial in each scenario."
+    ]
+  ]
+}

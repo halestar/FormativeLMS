@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Consistency of Protective Gear Use",
+    "Understanding of Risks",
+    "Commitment to Personal Safety"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Never uses appropriate protective gear, even when reminded.",
+      "Rarely uses appropriate protective gear and requires frequent reminders.",
+      "Inconsistently uses appropriate protective gear; sometimes forgets or needs reminders.",
+      "Mostly uses appropriate protective gear but occasionally needs a reminder or makes an exception.",
+      "Consistently uses appropriate protective gear in most situations, demonstrating good habits.",
+      "Always uses appropriate protective gear without prompting and encourages others to do the same, setting a positive example."
+    ],
+    [
+      "Demonstrates no understanding of the risks associated with not using protective gear.",
+      "Has a limited understanding of the risks involved and cannot articulate them clearly.",
+      "Understands some of the risks but may underestimate their potential impact.",
+      "Demonstrates a solid understanding of most risks associated with activities and protective gear.",
+      "Clearly articulates and understands the specific risks associated with various activities and the importance of protective gear.",
+      "Exhibits comprehensive knowledge of risks, can explain the science behind them, and advocates for safety awareness."
+    ],
+    [
+      "Shows no commitment to personal safety regarding protective gear use.",
+      "Expresses minimal interest in personal safety and requires external pressure to use protective gear.",
+      "Acknowledges the importance of personal safety but doesn't always prioritize it in practice.",
+      "Demonstrates a general commitment to personal safety but may occasionally take unnecessary risks.",
+      "Actively prioritizes personal safety by consistently using protective gear and making safe choices.",
+      "Exhibits an unwavering commitment to personal safety and proactively promotes a culture of safety among peers."
+    ]
+  ]
+}

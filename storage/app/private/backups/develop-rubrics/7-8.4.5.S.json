@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Communication Methods",
+    "Description of Effective Communication Characteristics",
+    "Application of Communication Characteristics to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any communication methods.",
+      "Student identifies only one communication method and explanation is not clear.",
+      "Student identifies two communication methods, but explanations lack depth.",
+      "Student identifies three communication methods with basic explanations.",
+      "Student identifies four communication methods with good explanations and examples.",
+      "Student identifies more than four communication methods with detailed explanations and relevant examples."
+    ],
+    [
+      "Student does not describe any characteristics of effective communication.",
+      "Student describes only one characteristic, and it is vague.",
+      "Student describes two characteristics, but lacks clarity or detail.",
+      "Student describes three characteristics of effective communication.",
+      "Student describes four characteristics with good clarity and some examples.",
+      "Student describes more than four characteristics with detailed explanations and relevant examples, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student does not apply communication characteristics to any scenario.",
+      "Student attempts to apply communication characteristics to a scenario, but it is unclear or irrelevant.",
+      "Student applies communication characteristics to a scenario, but the connection is weak.",
+      "Student applies communication characteristics to a relevant scenario with some clarity.",
+      "Student applies communication characteristics to a relevant scenario effectively, demonstrating understanding.",
+      "Student applies communication characteristics to multiple relevant scenarios effectively, demonstrating a strong understanding and insight."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Knowledge of Safe Food Handling Practices",
+    "Application of Safe Food Handling in Meal\/Snack Preparation",
+    "Explanation of Cross-Contamination Prevention"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of safe food handling practices.",
+      "Demonstrates minimal understanding of safe food handling practices; struggles to identify basic principles.",
+      "Demonstrates a limited understanding of safe food handling practices; identifies some basic principles but with inaccuracies.",
+      "Demonstrates a satisfactory understanding of safe food handling practices; correctly identifies most principles.",
+      "Demonstrates a comprehensive understanding of safe food handling practices; accurately identifies and explains principles.",
+      "Demonstrates an exceptional understanding of safe food handling practices; thoroughly and accurately explains principles, going beyond basic requirements."
+    ],
+    [
+      "Does not apply any safe food handling practices when describing meal\/snack preparation.",
+      "Applies safe food handling practices inconsistently and incorrectly when describing meal\/snack preparation.",
+      "Applies some safe food handling practices correctly when describing meal\/snack preparation, but with noticeable gaps.",
+      "Applies most safe food handling practices correctly and consistently when describing meal\/snack preparation.",
+      "Applies safe food handling practices accurately and consistently when describing meal\/snack preparation, with clear explanations.",
+      "Applies safe food handling practices expertly and comprehensively when describing meal\/snack preparation, providing detailed and insightful explanations."
+    ],
+    [
+      "Shows no awareness of cross-contamination or how to prevent it.",
+      "Shows a limited awareness of cross-contamination and struggles to explain prevention methods.",
+      "Explains cross-contamination with some inaccuracies and identifies a few basic prevention methods.",
+      "Explains cross-contamination accurately and identifies common prevention methods.",
+      "Explains cross-contamination thoroughly and provides detailed prevention methods.",
+      "Explains cross-contamination with exceptional detail and demonstrates advanced prevention strategies."
+    ]
+  ]
+}

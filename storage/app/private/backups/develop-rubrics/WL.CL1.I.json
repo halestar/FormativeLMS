@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Comprehension of Spoken Language",
+    "Ability to Initiate and Maintain Interactions",
+    "Cultural Competence and Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of simple spoken language in familiar transactional situations. Unable to identify key information or follow basic instructions.",
+      "Demonstrates limited understanding of simple spoken language. Struggles to identify key information and requires frequent repetition or clarification.",
+      "Demonstrates partial understanding of simple spoken language. Can identify some key information but may misinterpret details or require occasional assistance.",
+      "Demonstrates adequate understanding of spoken language in familiar transactional situations. Can identify key information and follow basic instructions with reasonable accuracy.",
+      "Demonstrates good understanding of spoken language. Can accurately identify key information, follow instructions, and comprehend the overall meaning in most situations.",
+      "Demonstrates excellent understanding of spoken language. Comprehends nuanced details, infers meaning, and responds appropriately in a variety of familiar transactional situations."
+    ],
+    [
+      "Unable to initiate or participate in basic interactions. Does not attempt to communicate or respond to prompts.",
+      "Struggles to initiate interactions and requires significant prompting to participate. Responses are minimal and often inappropriate.",
+      "Initiates interactions with difficulty and struggles to maintain conversations. Responses are brief and may lack relevance.",
+      "Initiates and maintains simple interactions with some effort. Can exchange basic information and respond to direct questions.",
+      "Initiates and maintains interactions effectively. Can exchange information, ask clarifying questions, and contribute to the conversation appropriately.",
+      "Initiates and maintains fluent and natural interactions. Engages actively in conversations, demonstrates cultural sensitivity, and adapts communication style to suit the situation."
+    ],
+    [
+      "Demonstrates no awareness of cultural differences or sensitivities. Exhibits behaviors that may be considered inappropriate or offensive.",
+      "Demonstrates limited awareness of cultural differences. Struggles to adapt behavior or communication style to different cultural contexts.",
+      "Demonstrates some awareness of cultural differences but may make unintentional errors or exhibit insensitivity.",
+      "Demonstrates adequate cultural competence and understanding. Generally avoids making cultural errors and shows respect for different perspectives.",
+      "Demonstrates good cultural competence and understanding. Adapts behavior and communication style to suit different cultural contexts and shows empathy for diverse perspectives.",
+      "Demonstrates excellent cultural competence and understanding. Navigates diverse cultural contexts with ease, demonstrates deep empathy, and promotes intercultural understanding."
+    ]
+  ]
+}

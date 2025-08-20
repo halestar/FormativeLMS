@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Role of DNA and Chromosomes",
+    "Asking Clarifying Questions",
+    "Application of Cause and Effect"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the relationship between DNA, chromosomes, and traits.",
+      "The student shows a limited understanding, with significant misconceptions about the roles of DNA and chromosomes.",
+      "The student identifies DNA and chromosomes as related to traits but struggles to explain the relationship.",
+      "The student accurately describes the roles of DNA and chromosomes in coding for traits, but lacks depth.",
+      "The student thoroughly explains how DNA and chromosomes code for traits and are passed from parents to offspring.",
+      "The student provides a detailed and nuanced explanation of the relationship between DNA, chromosomes, and the inheritance of traits, including the concept of genes."
+    ],
+    [
+      "The student does not ask any relevant questions or asks questions that demonstrate a lack of comprehension.",
+      "The student asks basic questions, but they do not effectively clarify the relationships between DNA, chromosomes, and traits.",
+      "The student asks some clarifying questions that touch on the main concepts, but they may be superficial.",
+      "The student asks relevant questions that help clarify the relationships between DNA, chromosomes, and traits.",
+      "The student asks insightful questions that demonstrate a deep understanding and a desire to clarify complex relationships.",
+      "The student formulates probing questions that extend beyond the basic concepts and reveal a sophisticated understanding of the underlying mechanisms."
+    ],
+    [
+      "The student does not demonstrate any understanding of cause and effect relationships in genetics.",
+      "The student struggles to identify cause and effect relationships between DNA, chromosomes, and traits.",
+      "The student identifies some cause and effect relationships, but the explanations are incomplete or inaccurate.",
+      "The student accurately describes cause and effect relationships between DNA, chromosomes, and the expression of traits.",
+      "The student explains cause and effect relationships with supporting evidence and demonstrates a clear understanding of the link between genotype and phenotype.",
+      "The student analyzes complex cause and effect relationships, considering multiple factors and providing a nuanced understanding of genetic inheritance."
+    ]
+  ]
+}

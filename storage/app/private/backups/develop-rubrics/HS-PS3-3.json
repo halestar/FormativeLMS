@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Energy Conversion Principles",
+    "Design and Construction of the Device",
+    "Application of Scientific Knowledge",
+    "Addressing Constraints and Tradeoffs"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of energy conversion principles.",
+      "Student demonstrates a very limited understanding of energy conversion principles; struggles to identify different forms of energy.",
+      "Student demonstrates a basic understanding of energy conversion principles; can identify different forms of energy but struggles to explain the conversion process.",
+      "Student demonstrates a satisfactory understanding of energy conversion principles; can explain the conversion process with some minor inaccuracies.",
+      "Student demonstrates a strong understanding of energy conversion principles; accurately explains the conversion process and provides relevant examples.",
+      "Student demonstrates a comprehensive understanding of energy conversion principles; accurately explains the conversion process, provides insightful examples, and can apply this knowledge to novel situations."
+    ],
+    [
+      "The device is non-functional or shows no evidence of energy conversion.",
+      "The device is poorly constructed and barely functional; energy conversion is minimal or nonexistent.",
+      "The device is functional but inefficient; energy conversion is present but not optimized.",
+      "The device is adequately constructed and functional; energy conversion is noticeable and reasonably efficient.",
+      "The device is well-constructed and functional; energy conversion is efficient and optimized.",
+      "The device is exceptionally well-constructed, highly functional, and demonstrates innovative design; energy conversion is maximized and highly efficient."
+    ],
+    [
+      "Student does not apply any relevant scientific knowledge to the design or explanation of the device.",
+      "Student applies limited scientific knowledge to the design or explanation of the device; explanations are vague or inaccurate.",
+      "Student applies some relevant scientific knowledge to the design or explanation of the device; explanations contain some inaccuracies.",
+      "Student applies relevant scientific knowledge to the design and explanation of the device; explanations are mostly accurate and demonstrate understanding.",
+      "Student applies relevant scientific knowledge effectively to the design and explanation of the device; explanations are accurate, clear, and concise.",
+      "Student applies relevant scientific knowledge expertly to the design and explanation of the device; explanations are thorough, insightful, and demonstrate a deep understanding of the underlying principles."
+    ],
+    [
+      "Student does not address the given constraints or consider any tradeoffs in the design.",
+      "Student attempts to address the given constraints but fails to do so effectively; tradeoffs are not considered.",
+      "Student addresses the given constraints with limited success; tradeoffs are acknowledged but not adequately addressed.",
+      "Student addresses the given constraints and considers some tradeoffs in the design process.",
+      "Student effectively addresses the given constraints and carefully considers tradeoffs to optimize the device's performance.",
+      "Student expertly addresses the given constraints, innovatively overcomes challenges, and thoroughly analyzes tradeoffs to create a highly effective and efficient device."
+    ]
+  ]
+}

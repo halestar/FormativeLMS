@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Model Accuracy: How well the simulation accurately represents the relationships among natural resource management, human sustainability, and biodiversity.",
+    "Variable Manipulation: How effectively the student manipulates variables to explore different scenarios and their impacts.",
+    "Sustainability Analysis: The depth of the analysis regarding the sustainability of human populations and the responsible management of natural resources.",
+    "Communication of Results: Clarity and effectiveness in communicating the simulation's results and implications."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The simulation does not attempt to model the relationships or shows a complete misunderstanding of the system.",
+      "The simulation includes some components of the system but demonstrates significant inaccuracies or omissions.",
+      "The simulation includes most components of the system with minor inaccuracies that do not significantly affect the results.",
+      "The simulation accurately models the relationships with clear connections between resource management, human sustainability, and biodiversity.",
+      "The simulation accurately models the relationships, demonstrating a deep understanding of the interconnections and feedback loops.",
+      "The simulation is exceptionally accurate and insightful, providing new perspectives on the system's dynamics and potential future scenarios."
+    ],
+    [
+      "No attempt to manipulate variables or explore different scenarios.",
+      "Variables are manipulated without a clear purpose or understanding of their effect on the system.",
+      "Variables are manipulated, but the exploration is limited, and the impact on the system is not well-analyzed.",
+      "Variables are effectively manipulated to explore different scenarios, and the impacts on the system are analyzed.",
+      "Variables are strategically manipulated to deeply explore various scenarios, and the impacts are comprehensively analyzed, showing a clear understanding of cause and effect.",
+      "Demonstrates mastery in variable manipulation, uncovering non-obvious relationships and insights within the system; presents findings with exceptional clarity and sophistication."
+    ],
+    [
+      "No analysis of sustainability or resource management is present.",
+      "Superficial analysis with no clear understanding of sustainability principles.",
+      "Basic analysis of sustainability is provided, but lacks depth and connection to specific variables.",
+      "Detailed analysis of sustainability, demonstrating an understanding of trade-offs and consequences.",
+      "Comprehensive analysis of sustainability issues with clear connections to the model's outcomes and real-world implications.",
+      "Insightful analysis of sustainability, offering innovative solutions and a nuanced understanding of complex interactions."
+    ],
+    [
+      "Results are not communicated or are completely incomprehensible.",
+      "Results are communicated poorly with significant difficulty in understanding the findings.",
+      "Results are communicated, but lack clarity and detail.",
+      "Results are clearly communicated with supporting evidence from the simulation.",
+      "Results are communicated effectively with compelling visuals and a clear explanation of the implications.",
+      "Presents results in a compelling, persuasive manner, demonstrating exceptional communication skills and insightful interpretation of the simulation's significance."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Completing the Square: Demonstrates the ability to correctly apply the method of completing the square to transform a quadratic equation into the form (x - p)^2 = q.",
+    "Deriving the Quadratic Formula: Demonstrates the ability to derive the quadratic formula by completing the square on the general quadratic equation ax^2 + bx + c = 0.",
+    "Solving Quadratic Equations: Demonstrates the ability to find the solutions (roots) of quadratic equations using both completing the square and the quadratic formula."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to start the process of completing the square.",
+      "Attempts to complete the square but makes significant errors in algebraic manipulation or understanding of the process.",
+      "Completes the square with some errors in algebraic manipulation, leading to an incorrect transformed equation.",
+      "Completes the square correctly for simpler quadratic equations but struggles with more complex coefficients or equations.",
+      "Completes the square accurately for a variety of quadratic equations, demonstrating a strong understanding of the method.",
+      "Completes the square flawlessly and can explain the reasoning behind each step in the process."
+    ],
+    [
+      "Unable to start the derivation of the quadratic formula.",
+      "Attempts to derive the quadratic formula but struggles with the algebraic manipulation and makes significant errors.",
+      "Derives part of the quadratic formula but cannot complete the derivation or makes critical errors in the process.",
+      "Derives the quadratic formula with some errors in algebraic manipulation or simplification.",
+      "Successfully derives the quadratic formula with only minor errors.",
+      "Derives the quadratic formula accurately and efficiently, demonstrating a clear understanding of the derivation process."
+    ],
+    [
+      "Unable to solve quadratic equations using completing the square or the quadratic formula.",
+      "Attempts to solve quadratic equations but makes significant errors in applying the methods or in algebraic manipulation.",
+      "Solves simpler quadratic equations but struggles with more complex equations or makes errors in the solution process.",
+      "Solves quadratic equations with some errors in algebraic manipulation or simplification, leading to incorrect solutions.",
+      "Solves a variety of quadratic equations accurately using completing the square and the quadratic formula.",
+      "Solves quadratic equations accurately and efficiently, and can verify the solutions obtained."
+    ]
+  ]
+}

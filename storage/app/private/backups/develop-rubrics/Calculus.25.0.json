@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Applying Power Series Differentiation and Integration",
+    "Forming New Series from Known Ones",
+    "Understanding Convergence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of how to differentiate or integrate power series.",
+      "The student attempts to differentiate or integrate a power series but makes significant errors in the process.",
+      "The student differentiates or integrates a simple power series but struggles with more complex examples.",
+      "The student can differentiate and integrate most power series correctly but may have minor errors in some cases.",
+      "The student demonstrates a strong ability to differentiate and integrate power series accurately.",
+      "The student expertly differentiates and integrates power series, demonstrating a deep understanding of the underlying concepts and can apply this to novel situations."
+    ],
+    [
+      "The student does not demonstrate an ability to form new series from known ones through differentiation or integration.",
+      "The student attempts to form new series but does so incorrectly or without a clear strategy.",
+      "The student can form new series from simple known series but struggles with more complex transformations.",
+      "The student can form new series from known ones in most cases, but may make mistakes with more complex manipulations.",
+      "The student accurately forms new series from known ones, demonstrating a solid understanding of the processes involved.",
+      "The student skillfully forms new series from known ones, demonstrating a deep understanding of series manipulation and can explain the limitations of the new series' radius of convergence."
+    ],
+    [
+      "The student does not understand the convergence properties of the new series formed through differentiation or integration.",
+      "The student attempts to analyze convergence but is unable to do so correctly.",
+      "The student can determine convergence for simple cases but struggles with more complex series.",
+      "The student generally understands convergence properties but may make mistakes in determining the interval of convergence.",
+      "The student accurately determines the convergence of the new series and the limitations of the new radius of convergence.",
+      "The student demonstrates a comprehensive understanding of the convergence of the new series including the limitations of the radius of convergence and how differentiation or integration effects that radius of convergence."
+    ]
+  ]
+}

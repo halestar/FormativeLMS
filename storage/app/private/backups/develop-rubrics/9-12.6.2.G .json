@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Short-Term Goals Related to Abstinence and Reproductive\/Sexual Health",
+    "Identification of Long-Term Goals Related to Abstinence and Reproductive\/Sexual Health",
+    "Understanding and Identification of FDA-Approved Condoms and Other Contraceptives for Pregnancy and STD Prevention",
+    "Clarity and Accuracy of Information Presented"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any short-term goals related to abstinence and reproductive\/sexual health.",
+      "Identifies one vague or inaccurate short-term goal.",
+      "Identifies one relevant short-term goal but lacks detail or clarity.",
+      "Identifies two relevant short-term goals with some detail.",
+      "Identifies three relevant short-term goals with clear and specific details.",
+      "Identifies multiple relevant short-term goals with comprehensive details, demonstrating a strong understanding of their impact."
+    ],
+    [
+      "Does not identify any long-term goals related to abstinence and reproductive\/sexual health.",
+      "Identifies one vague or inaccurate long-term goal.",
+      "Identifies one relevant long-term goal but lacks detail or clarity.",
+      "Identifies two relevant long-term goals with some detail.",
+      "Identifies three relevant long-term goals with clear and specific details.",
+      "Identifies multiple relevant long-term goals with comprehensive details, demonstrating a strong understanding of their impact."
+    ],
+    [
+      "Demonstrates no understanding or identification of FDA-approved condoms and other contraceptives.",
+      "Identifies one method inaccurately or with significant misunderstanding.",
+      "Identifies one method correctly but provides limited information.",
+      "Identifies two methods correctly with some detail regarding their use for pregnancy and STD prevention.",
+      "Identifies multiple methods correctly with clear details regarding their use for both pregnancy and STD prevention.",
+      "Demonstrates a comprehensive understanding of various FDA-approved methods, explaining their effectiveness, proper usage, and limitations in preventing pregnancy and STDs."
+    ],
+    [
+      "Information presented is unclear, inaccurate, or irrelevant to the topic.",
+      "Information presented contains inaccuracies or lacks clarity in several areas.",
+      "Information presented is mostly accurate but may have some minor inaccuracies or lack of clarity.",
+      "Information presented is accurate and clear with only minor areas for improvement.",
+      "Information presented is accurate, clear, and well-organized, demonstrating a good understanding of the concepts.",
+      "Information presented is exceptionally clear, accurate, and insightful, demonstrating a comprehensive and nuanced understanding of the concepts."
+    ]
+  ]
+}

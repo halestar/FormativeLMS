@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Self-Assessment: How accurately does the student identify their current physical activity levels?",
+    "Understanding of Physical Activity Guidelines: Does the student understand the recommended physical activity guidelines for their age group?",
+    "Application of Assessment to Personal Goals: How well does the student use their assessment to set realistic and achievable physical activity goals?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student shows no awareness of their physical activity levels or provides completely inaccurate information.",
+      "Student demonstrates a minimal understanding of their physical activity, with significant inaccuracies.",
+      "Student identifies some aspects of their physical activity levels but misses key components or provides somewhat inaccurate information.",
+      "Student provides a generally accurate assessment of their physical activity levels, with minor omissions or inaccuracies.",
+      "Student provides a comprehensive and accurate assessment of their physical activity levels, demonstrating a good understanding of their habits.",
+      "Student provides an exceptionally thorough and precise self-assessment, showing deep insight into their physical activity patterns and incorporating data or specific examples."
+    ],
+    [
+      "Student shows no understanding of physical activity guidelines.",
+      "Student demonstrates a very limited awareness of physical activity guidelines.",
+      "Student can recall some basic physical activity recommendations but struggles to apply them to their own life.",
+      "Student generally understands physical activity guidelines and can relate them to their own activity levels.",
+      "Student demonstrates a strong understanding of physical activity guidelines and can explain their importance and relevance.",
+      "Student exhibits mastery of physical activity guidelines, articulating nuanced recommendations and demonstrating the ability to adapt guidelines to individual needs."
+    ],
+    [
+      "Student does not attempt to connect their assessment to any personal goals.",
+      "Student mentions goals but does not show how they relate to their assessment.",
+      "Student sets vague goals that are loosely related to their assessment of physical activity.",
+      "Student sets somewhat specific goals related to their assessment, but these goals may not be fully realistic or achievable.",
+      "Student sets realistic and achievable goals based on their assessment, showing a clear plan for improvement.",
+      "Student sets highly specific, measurable, achievable, relevant, and time-bound (SMART) goals, demonstrating a sophisticated understanding of how to use self-assessment for self-improvement."
+    ]
+  ]
+}

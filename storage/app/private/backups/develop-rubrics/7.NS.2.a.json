@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Multiplication and Division of Rational Numbers",
+    "Application of Properties of Operations",
+    "Real-World Context Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of multiplying or dividing rational numbers.",
+      "Student struggles to multiply or divide rational numbers and shows significant errors in computation.",
+      "Student can multiply or divide simple rational numbers but makes frequent errors or struggles with negative numbers.",
+      "Student can multiply and divide rational numbers, including negative numbers, with some errors or hesitation.",
+      "Student consistently and accurately multiplies and divides rational numbers, including negative numbers, with minimal errors.",
+      "Student demonstrates a thorough understanding of multiplying and dividing rational numbers, consistently applies properties of operations correctly, and justifies solutions."
+    ],
+    [
+      "Student does not apply properties of operations (e.g., distributive property) when multiplying rational numbers.",
+      "Student attempts to apply properties of operations but demonstrates significant misunderstanding and errors.",
+      "Student applies properties of operations inconsistently and with errors.",
+      "Student applies properties of operations with some accuracy but may not fully understand their application.",
+      "Student consistently applies properties of operations accurately when multiplying rational numbers.",
+      "Student expertly applies properties of operations to simplify expressions and solve problems involving multiplication and division of rational numbers and provides clear explanations."
+    ],
+    [
+      "Student cannot interpret products of rational numbers in real-world contexts.",
+      "Student struggles to interpret products of rational numbers in real-world contexts and provides irrelevant explanations.",
+      "Student can provide a basic interpretation of products of rational numbers in real-world contexts but lacks depth.",
+      "Student interprets products of rational numbers in real-world contexts with some clarity and provides a reasonable explanation.",
+      "Student provides a clear and accurate interpretation of products of rational numbers in real-world contexts, with supporting details.",
+      "Student provides insightful and nuanced interpretations of products of rational numbers in complex real-world contexts, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

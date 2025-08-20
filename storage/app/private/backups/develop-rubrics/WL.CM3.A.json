@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Organization",
+    "Use of Language and Vocabulary",
+    "Cultural Appropriateness",
+    "Use of Media and Technologies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Presentation lacks a clear structure and is difficult to follow.",
+      "Presentation has minimal structure and is somewhat difficult to follow. Ideas are presented in a disorganized manner.",
+      "Presentation has some organization, but transitions between ideas are weak. The overall message is not always clear.",
+      "Presentation is generally well-organized with mostly clear transitions between ideas. The main message is understandable.",
+      "Presentation is well-organized with clear transitions between ideas. The main message is clear and easy to follow.",
+      "Presentation is exceptionally well-organized and engaging, with seamless transitions and a compelling message that is easy to understand and remember."
+    ],
+    [
+      "Language use is inappropriate and contains numerous errors that impede understanding. Vocabulary is limited and inaccurate.",
+      "Language use contains frequent errors that distract from the message. Vocabulary is basic and sometimes inaccurate.",
+      "Language use contains some errors but does not significantly impede understanding. Vocabulary is adequate but lacks sophistication.",
+      "Language use is generally accurate with few errors. Vocabulary is appropriate and varied.",
+      "Language use is accurate and sophisticated with very few errors. Vocabulary is precise and enhances the message.",
+      "Language use is exceptionally clear, precise, and engaging, demonstrating a mastery of vocabulary and grammar. The language elevates the presentation and captivates the audience."
+    ],
+    [
+      "Presentation demonstrates a lack of awareness and sensitivity to cultural norms and values. Content may be offensive or inappropriate.",
+      "Presentation shows limited awareness of cultural norms and values. Some elements may be insensitive or inappropriate.",
+      "Presentation demonstrates some awareness of cultural norms and values, but there are minor instances of insensitivity.",
+      "Presentation is generally culturally appropriate and respectful. Demonstrates awareness of audience and avoids potentially offensive material.",
+      "Presentation is highly culturally aware and sensitive, demonstrating a deep understanding of the audience and their values.",
+      "Presentation is exceptionally culturally appropriate, demonstrating profound insight and respect for diverse perspectives. It promotes understanding and fosters positive cross-cultural communication."
+    ],
+    [
+      "Media and technologies are not used or are used ineffectively, detracting from the presentation.",
+      "Media and technologies are used minimally and do not enhance the presentation. Technical issues may be present.",
+      "Media and technologies are used, but their application is basic and does not significantly enhance the presentation.",
+      "Media and technologies are used effectively to support the presentation. Technical execution is generally smooth.",
+      "Media and technologies are used creatively and effectively to enhance the presentation. Technical execution is polished and seamless.",
+      "Media and technologies are used innovatively and seamlessly to create a captivating and memorable presentation. Demonstrates mastery of tools and techniques."
+    ]
+  ]
+}

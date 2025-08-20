@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Tang Dynasty's Reunification of China",
+    "Knowledge of the reasons for the spread of Buddhism in Tang China",
+    "Knowledge of the spread of Buddhism in Korea and Japan",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the reunification of China under the Tang Dynasty.",
+      "Demonstrates a very limited understanding of the reunification, with significant inaccuracies.",
+      "Demonstrates a basic understanding of the reunification, but lacks detail and clarity.",
+      "Demonstrates a satisfactory understanding of the reunification of China under the Tang Dynasty, including key events and figures.",
+      "Demonstrates a strong understanding of the reunification, explaining the key factors and consequences with detail.",
+      "Demonstrates a comprehensive and insightful understanding of the reunification, providing nuanced explanations of its significance."
+    ],
+    [
+      "Demonstrates no knowledge of the reasons for the spread of Buddhism in Tang China.",
+      "Demonstrates very limited knowledge, with significant inaccuracies.",
+      "Demonstrates a basic awareness of the spread of Buddhism, but struggles to explain the reasons.",
+      "Identifies some reasons for the spread of Buddhism in Tang China, such as patronage or cultural exchange.",
+      "Explains several reasons for the spread of Buddhism, connecting them to the social and political context of Tang China.",
+      "Provides a thorough and well-supported analysis of the reasons for the spread of Buddhism, including religious, political, and cultural factors."
+    ],
+    [
+      "Demonstrates no knowledge of the spread of Buddhism in Korea and Japan.",
+      "Demonstrates very limited knowledge, with significant inaccuracies.",
+      "Demonstrates a basic awareness of the spread of Buddhism to Korea and Japan, but lacks specific details.",
+      "Identifies the spread of Buddhism to Korea and Japan during the Tang Dynasty.",
+      "Explains the spread of Buddhism to Korea and Japan, including the role of cultural exchange and political factors.",
+      "Provides a detailed and insightful account of the spread of Buddhism to Korea and Japan, comparing and contrasting the experiences of the two countries."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it difficult to follow the argument.",
+      "Response demonstrates some organization, but clarity is lacking in certain areas.",
+      "Response is generally clear and organized, presenting information in a logical manner.",
+      "Response is clear, well-organized, and easy to follow, with a coherent structure.",
+      "Response is exceptionally clear, well-organized, and presented in a compelling and insightful manner."
+    ]
+  ]
+}

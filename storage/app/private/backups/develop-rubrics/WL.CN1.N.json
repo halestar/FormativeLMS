@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Information Acquisition",
+    "Information Exchange",
+    "Information Presentation",
+    "Use of Target Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no ability to acquire information in the target language.",
+      "Struggles to understand basic information in the target language; requires significant support.",
+      "Acquires limited information in the target language; comprehension is basic and fragmented.",
+      "Acquires relevant information in the target language; demonstrates fair comprehension with occasional misunderstandings.",
+      "Effectively acquires information in the target language; demonstrates good comprehension and identifies key details.",
+      "Efficiently and accurately acquires information in the target language; demonstrates excellent comprehension and insightful analysis."
+    ],
+    [
+      "Unable to exchange information in the target language.",
+      "Exchanges information in the target language with extreme difficulty; communication is minimal and often unclear.",
+      "Exchanges basic information in the target language with limited fluency; relies heavily on memorized phrases.",
+      "Exchanges information in the target language with reasonable fluency; demonstrates fair communication skills and some spontaneity.",
+      "Effectively exchanges information in the target language; demonstrates good communication skills and clear expression of ideas.",
+      "Articulately and fluently exchanges information in the target language; demonstrates excellent communication skills and sophisticated expression of ideas."
+    ],
+    [
+      "Unable to present information in the target language.",
+      "Presents information in the target language with extreme difficulty; presentation is disorganized and incomprehensible.",
+      "Presents basic information in the target language with limited clarity; presentation lacks structure and detail.",
+      "Presents information in the target language with reasonable clarity; presentation is organized but lacks depth.",
+      "Effectively presents information in the target language; presentation is well-organized, detailed, and engaging.",
+      "Masterfully presents information in the target language; presentation is highly engaging, insightful, and demonstrates excellent command of the language."
+    ],
+    [
+      "Demonstrates no ability to use the target language.",
+      "Uses the target language with extreme difficulty; grammar and vocabulary are severely limited.",
+      "Uses basic target language with frequent errors in grammar and vocabulary.",
+      "Uses the target language with fair accuracy; some errors in grammar and vocabulary but communication is generally understandable.",
+      "Uses the target language with good accuracy; few errors in grammar and vocabulary, and demonstrates a solid command of the language.",
+      "Uses the target language with excellent accuracy and fluency; demonstrates a sophisticated command of grammar, vocabulary, and idiomatic expressions."
+    ]
+  ]
+}

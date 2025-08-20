@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates respectful communication with peers and adults.",
+    "Actively participates in creating a positive school culture.",
+    "Demonstrates understanding and empathy towards others' differences."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Consistently uses disrespectful language or tone; disregards others' opinions.",
+      "Frequently uses disrespectful language or tone; often disregards others' opinions.",
+      "Sometimes uses disrespectful language or tone; occasionally disregards others' opinions.",
+      "Generally uses respectful language and tone; mostly considers others' opinions.",
+      "Consistently uses respectful language and tone; values and considers others' opinions.",
+      "Models respectful communication; actively encourages and values diverse perspectives, fostering inclusivity."
+    ],
+    [
+      "Detracts from positive interactions and promotes negativity; isolates self from group activities.",
+      "Often detracts from positive interactions; occasionally participates in group activities.",
+      "Sometimes detracts from positive interactions; participates in some group activities when prompted.",
+      "Contributes to positive interactions; regularly participates in group activities.",
+      "Actively promotes positive interactions and constructive environments; enthusiastically participates in group activities.",
+      "Leads initiatives to promote a positive school culture; inspires others to actively participate and contribute constructively."
+    ],
+    [
+      "Shows no understanding or empathy; makes insensitive or dismissive remarks about differences.",
+      "Shows limited understanding or empathy; occasionally makes insensitive remarks.",
+      "Shows some understanding and empathy; sometimes struggles to relate to others' differences.",
+      "Shows good understanding and empathy; generally respects and values others' differences.",
+      "Demonstrates a strong understanding and empathy; actively seeks to understand and appreciate diverse perspectives.",
+      "Champions inclusivity and understanding; educates peers on empathy and cultural sensitivity, promoting a welcoming environment for all."
+    ]
+  ]
+}

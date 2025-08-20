@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning and Organization",
+    "Revisions and Editing",
+    "Purpose and Audience",
+    "Approach and Experimentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence of planning or organization is present. The writing lacks direction and clarity.",
+      "Minimal planning is evident. The organization is weak, and the writing is difficult to follow.",
+      "Some planning is apparent, but the organization is inconsistent. The writing may lack a clear focus.",
+      "Adequate planning and organization are demonstrated. The writing is generally clear and focused, with a discernible structure.",
+      "Thoughtful planning and organization are evident. The writing is clear, focused, and well-structured, enhancing the overall message.",
+      "Exceptional planning and organization are demonstrated. The writing is exceptionally clear, focused, and logically structured, effectively conveying the intended message."
+    ],
+    [
+      "No revisions or edits are made. The writing contains numerous errors and weaknesses.",
+      "Minimal revisions or edits are attempted. The writing still contains significant errors and weaknesses.",
+      "Some revisions and edits are made, but they are superficial and do not significantly improve the writing.",
+      "Adequate revisions and edits are made to address some errors and weaknesses in the writing.",
+      "Thorough revisions and edits are made to improve clarity, coherence, and correctness of the writing.",
+      "Extensive and thoughtful revisions and edits are made to refine the writing to a high level of quality, demonstrating a strong attention to detail."
+    ],
+    [
+      "The writing demonstrates no awareness of purpose or audience. It is unclear who the writing is for or why it was written.",
+      "The writing demonstrates minimal awareness of purpose or audience. The writing may be inappropriate or ineffective for the intended readers.",
+      "The writing demonstrates some awareness of purpose and audience, but the connection is weak or inconsistent.",
+      "The writing demonstrates adequate awareness of purpose and audience. The writing is generally appropriate and effective for the intended readers.",
+      "The writing demonstrates a strong understanding of purpose and audience. The writing is tailored to effectively engage and inform the intended readers.",
+      "The writing demonstrates an exceptional understanding of purpose and audience. The writing is expertly crafted to resonate with the intended readers and achieve its intended purpose."
+    ],
+    [
+      "The writing shows no evidence of trying a new approach or experimenting with different techniques.",
+      "The writing shows minimal evidence of trying a new approach or experimenting with different techniques. The writing remains conventional and uninspired.",
+      "The writing shows some evidence of trying a new approach or experimenting with different techniques, but the effort is limited or ineffective.",
+      "The writing shows an adequate attempt to try a new approach or experiment with different techniques. The writing demonstrates some creativity and originality.",
+      "The writing shows a strong effort to try a new approach or experiment with different techniques. The writing demonstrates creativity, originality, and a willingness to take risks.",
+      "The writing shows an exceptional effort to try a new approach or experiment with different techniques. The writing demonstrates outstanding creativity, originality, and a mastery of different techniques."
+    ]
+  ]
+}

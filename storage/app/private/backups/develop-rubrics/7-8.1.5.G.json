@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Condom Effectiveness in Preventing HIV\/STDs",
+    "Understanding of Condom Effectiveness in Preventing Pregnancy",
+    "Knowledge of Other Contraceptive Methods",
+    "Ability to Compare and Contrast Effectiveness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how condoms prevent HIV\/STDs or provides inaccurate information.",
+      "Student demonstrates a minimal understanding of how condoms prevent HIV\/STDs with significant gaps or inaccuracies.",
+      "Student demonstrates a basic understanding of how condoms prevent HIV\/STDs, but explanations are incomplete or contain minor inaccuracies.",
+      "Student demonstrates a satisfactory understanding of how condoms prevent HIV\/STDs with mostly accurate explanations.",
+      "Student demonstrates a strong understanding of how condoms prevent HIV\/STDs, providing accurate and reasonably detailed explanations.",
+      "Student demonstrates a comprehensive and nuanced understanding of how condoms prevent HIV\/STDs, providing accurate, detailed, and insightful explanations."
+    ],
+    [
+      "Student demonstrates no understanding of how condoms prevent pregnancy or provides inaccurate information.",
+      "Student demonstrates a minimal understanding of how condoms prevent pregnancy with significant gaps or inaccuracies.",
+      "Student demonstrates a basic understanding of how condoms prevent pregnancy, but explanations are incomplete or contain minor inaccuracies.",
+      "Student demonstrates a satisfactory understanding of how condoms prevent pregnancy with mostly accurate explanations.",
+      "Student demonstrates a strong understanding of how condoms prevent pregnancy, providing accurate and reasonably detailed explanations.",
+      "Student demonstrates a comprehensive and nuanced understanding of how condoms prevent pregnancy, providing accurate, detailed, and insightful explanations."
+    ],
+    [
+      "Student shows no awareness or provides misinformation about other FDA-approved contraceptive methods.",
+      "Student names one or two other contraceptive methods but shows limited understanding or has inaccuracies.",
+      "Student identifies a few other contraceptive methods with some understanding, but explanations lack detail or have minor inaccuracies.",
+      "Student identifies several other contraceptive methods and demonstrates a general understanding of their purpose.",
+      "Student discusses multiple contraceptive methods, describing their mechanisms and effectiveness with reasonable accuracy and detail.",
+      "Student provides a comprehensive overview of various contraceptive methods, including detailed explanations of their mechanisms, effectiveness, and potential side effects or considerations."
+    ],
+    [
+      "Student cannot compare or contrast the effectiveness of different contraceptive methods.",
+      "Student attempts to compare\/contrast but provides inaccurate or very limited information.",
+      "Student offers a superficial comparison\/contrast of contraceptive methods with some inaccuracies or omissions.",
+      "Student provides a satisfactory comparison\/contrast of the effectiveness of different contraceptive methods.",
+      "Student provides a strong comparison\/contrast of different methods, accurately highlighting the strengths and weaknesses of each.",
+      "Student demonstrates a sophisticated ability to compare\/contrast the effectiveness of different methods, including a nuanced understanding of factors influencing their efficacy in real-world scenarios."
+    ]
+  ]
+}

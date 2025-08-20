@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying Trusted Adults",
+    "Clarity and Directness of Request",
+    "Assertiveness and Communication Skills",
+    "Understanding of the Situation and Potential Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any trusted adults or resources.",
+      "Identifies one adult, but provides no clear reason for trusting them.",
+      "Identifies one trusted adult and provides a vague reason.",
+      "Identifies at least two trusted adults or resources (e.g., parents, counselors, friends).",
+      "Identifies multiple trusted adults or resources and explains why they are trustworthy and accessible.",
+      "Identifies multiple trusted adults and support systems, articulating specific reasons for trust based on past experiences or characteristics, and demonstrates proactive planning."
+    ],
+    [
+      "Unable to formulate a coherent request for help.",
+      "Asks for help vaguely, without mentioning the specific pressure related to sexual behavior.",
+      "Asks for help but lacks clarity in explaining the situation or the specific need.",
+      "Clearly asks for help, mentioning the pressure related to sexual behavior, but lacks detail.",
+      "Clearly and directly asks for help, providing enough detail about the situation and the pressure experienced.",
+      "Articulates a clear, direct, and detailed request for help, including specific examples of the pressure and desired support or intervention."
+    ],
+    [
+      "Shows no assertiveness or communication skills.",
+      "Demonstrates hesitant or passive communication.",
+      "Demonstrates some assertiveness but struggles to clearly express their boundaries.",
+      "Shows assertiveness in asking for help and expresses their boundaries, but with some hesitation.",
+      "Communicates assertively and clearly expresses their boundaries while seeking help.",
+      "Displays exceptional assertiveness and clear communication, confidently expressing boundaries and needs while proactively seeking support."
+    ],
+    [
+      "Demonstrates no understanding of the pressure or potential consequences.",
+      "Shows limited understanding of the situation or potential consequences.",
+      "Understands the pressure but struggles to articulate the potential consequences.",
+      "Understands the pressure and mentions potential consequences, but without detail.",
+      "Understands the pressure and clearly articulates the potential consequences of participating in unwanted sexual behavior.",
+      "Demonstrates a comprehensive understanding of the situation, potential consequences, and possible long-term impacts, reflecting critical thinking and awareness."
+    ]
+  ]
+}

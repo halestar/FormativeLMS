@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Factors",
+    "Understanding of Cost-Benefit Analysis",
+    "Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No factors identified.",
+      "Identifies one factor vaguely.",
+      "Identifies one factor with some detail.",
+      "Identifies two factors with reasonable detail.",
+      "Identifies three factors with good detail and provides basic examples.",
+      "Identifies three or more factors with excellent detail and provides clear, relevant examples."
+    ],
+    [
+      "Demonstrates no understanding of cost-benefit analysis.",
+      "Demonstrates minimal understanding of cost-benefit analysis.",
+      "Demonstrates a basic understanding of cost-benefit analysis, but struggles to apply it.",
+      "Demonstrates a satisfactory understanding of cost-benefit analysis and applies it adequately.",
+      "Demonstrates a strong understanding of cost-benefit analysis and applies it effectively.",
+      "Demonstrates a comprehensive understanding of cost-benefit analysis, applies it insightfully, and recognizes its limitations."
+    ],
+    [
+      "Response is unclear and incoherent.",
+      "Response is difficult to understand and lacks organization.",
+      "Response is somewhat understandable but lacks clear organization.",
+      "Response is generally clear and organized.",
+      "Response is clear, well-organized, and easy to follow.",
+      "Response is exceptionally clear, coherent, and logically structured, enhancing understanding."
+    ]
+  ]
+}

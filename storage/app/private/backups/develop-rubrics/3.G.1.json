@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and identifying shared attributes among different categories of shapes (rhombuses, rectangles, etc.).",
+    "Recognizing rhombuses, rectangles, and squares as examples of quadrilaterals.",
+    "Drawing examples of quadrilaterals that do not belong to any of the specified subcategories (rhombuses, rectangles, squares)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of shared attributes among different categories of shapes.",
+      "The student shows minimal understanding of shared attributes, with significant difficulty in identifying them.",
+      "The student identifies some shared attributes but struggles to articulate the relationship between shapes and their attributes.",
+      "The student identifies shared attributes among different categories of shapes and can explain the basic relationship.",
+      "The student demonstrates a solid understanding of shared attributes and explains how these attributes define larger categories of shapes.",
+      "The student demonstrates a comprehensive understanding of shared attributes, clearly explaining how they define larger categories and providing insightful examples."
+    ],
+    [
+      "The student cannot recognize rhombuses, rectangles, or squares as quadrilaterals.",
+      "The student recognizes one or two of the shapes as quadrilaterals with prompting.",
+      "The student recognizes most of the shapes as quadrilaterals but struggles to explain why.",
+      "The student correctly identifies rhombuses, rectangles, and squares as quadrilaterals and provides a basic explanation.",
+      "The student confidently identifies the shapes as quadrilaterals and provides a clear explanation based on their attributes.",
+      "The student demonstrates a deep understanding by explaining the relationships between these shapes and quadrilaterals, including nuanced differences."
+    ],
+    [
+      "The student does not attempt or cannot draw a quadrilateral that doesn't belong to the specified subcategories.",
+      "The student attempts to draw a quadrilateral, but it either belongs to one of the subcategories or is not a quadrilateral.",
+      "The student draws a shape that is close to being a quadrilateral but has inaccuracies or resembles a subcategory.",
+      "The student draws a valid quadrilateral that does not clearly belong to the rhombuses, rectangles, or squares subcategories.",
+      "The student draws a clear and accurate example of a quadrilateral that does not belong to any of the specified subcategories.",
+      "The student draws multiple diverse and accurate examples of quadrilaterals that do not belong to the specified subcategories, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

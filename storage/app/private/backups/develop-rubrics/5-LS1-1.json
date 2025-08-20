@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Material Requirements for Plant Growth",
+    "Quality of Argumentation and Evidence",
+    "Understanding of Matter Transformation and Transport"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the source of materials required for plant growth.",
+      "Identifies soil as the primary source of materials for plant growth, without mentioning air or water.",
+      "Acknowledges soil as a source of plant material, but does not mention the role of air and water or only mentions it vaguely.",
+      "States that plants require air, water, and soil for growth but does not emphasize the relative importance of air and water.",
+      "Supports an argument that plants use air and water for growth, but the explanation lacks depth or supporting evidence.",
+      "Provides a robust argument, supported by evidence, that plants acquire the majority of their mass from air and water, with minimal contribution from the soil. Argument contains understanding of the processes involved (e.g. photosynthesis)."
+    ],
+    [
+      "Provides no argument or provides an argument unrelated to the claim.",
+      "Provides a weak argument with no evidence.",
+      "Provides a weak argument using weak evidence or inaccurate information.",
+      "Provides an argument with some relevant evidence, but the connection between the evidence and the claim is not always clear.",
+      "Supports an argument with relevant evidence, but may have minor gaps in reasoning or use less convincing sources.",
+      "Presents a well-reasoned and logical argument, supported by strong evidence from credible sources to defend claim that plants acquire materials from air and water."
+    ],
+    [
+      "Shows no understanding of matter transformation or transport in plants.",
+      "Demonstrates a limited understanding of how matter is transported into, out of, and within plants.",
+      "Mentions matter transport in plants but does not connect it to the source of materials for growth.",
+      "Describes matter transport in plants, but the explanation is incomplete or contains minor inaccuracies.",
+      "Explains how matter is transported into, out of, and within plant systems, connecting it to the acquisition of materials for growth.",
+      "Provides a comprehensive explanation of how matter is transformed and transported within plants, clearly linking these processes to the acquisition of air and water for growth, demonstrating an understanding of photosynthesis and related processes."
+    ]
+  ]
+}

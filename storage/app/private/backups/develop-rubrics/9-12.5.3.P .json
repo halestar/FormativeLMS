@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of the Health Issue",
+    "Application of Decision-Making Process",
+    "Consideration of Community or Environmental Factors",
+    "Clarity and Organization of Presentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The health issue is not identified or is completely unclear.",
+      "The health issue is vaguely identified with little to no supporting information.",
+      "The health issue is generally identified, but lacks detail and clarity.",
+      "The health issue is clearly identified with some supporting details.",
+      "The health issue is well-identified and explained with relevant details.",
+      "The health issue is comprehensively identified, explained, and contextualized with strong supporting evidence."
+    ],
+    [
+      "No decision-making process is applied.",
+      "An attempt to apply a decision-making process is made, but it is poorly executed and unclear.",
+      "A decision-making process is applied, but it is incomplete or contains significant flaws.",
+      "A decision-making process is adequately applied with minor omissions or inconsistencies.",
+      "A decision-making process is effectively applied, demonstrating a logical and reasoned approach.",
+      "A decision-making process is expertly applied, demonstrating critical thinking and a thorough evaluation of options."
+    ],
+    [
+      "Community or environmental factors are not considered.",
+      "Community or environmental factors are mentioned but not explained or integrated into the decision-making process.",
+      "Community or environmental factors are superficially considered with limited connection to the health issue.",
+      "Community or environmental factors are considered and their relevance to the health issue is explained.",
+      "Community or environmental factors are thoroughly considered, and their impact on the health issue is well-analyzed.",
+      "Community and environmental factors are comprehensively considered, with a nuanced understanding of their complex interactions and impacts on the health issue."
+    ],
+    [
+      "The presentation is disorganized and difficult to understand.",
+      "The presentation lacks organization and clarity, making it challenging to follow the decision-making process.",
+      "The presentation is somewhat organized, but clarity is lacking in certain areas.",
+      "The presentation is generally clear and organized, facilitating understanding of the decision-making process.",
+      "The presentation is well-organized, clear, and concise, enhancing comprehension of the decision-making process.",
+      "The presentation is exceptionally clear, well-organized, and effectively communicates the decision-making process with precision and insight."
+    ]
+  ]
+}

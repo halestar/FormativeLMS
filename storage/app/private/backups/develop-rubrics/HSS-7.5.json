@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Geographic Influences",
+    "Analysis of Political Structures",
+    "Examination of Economic Systems",
+    "Understanding of Religious and Social Structures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how geography influenced Medieval Japan.",
+      "Shows a minimal understanding of how geography influenced some aspects of Medieval Japan.",
+      "Identifies some geographic factors and their influence on one or two aspects of Medieval Japan.",
+      "Explains how geography influenced several aspects of Medieval Japan (e.g., agriculture, trade, defense).",
+      "Analyzes the significant impact of geographic factors on the political, economic, and social structures of Medieval Japan.",
+      "Critically evaluates the complex interplay between geography and the development of Medieval Japanese civilization, providing nuanced insights."
+    ],
+    [
+      "Demonstrates no understanding of the political structures of Medieval Japan.",
+      "Shows a minimal understanding of one or two political figures or institutions.",
+      "Identifies key political figures (e.g., shogun, daimyo) and institutions but does not explain their roles.",
+      "Explains the roles of key political figures and institutions in Medieval Japan.",
+      "Analyzes the structure of the feudal system and its impact on Medieval Japanese society.",
+      "Evaluates the effectiveness and consequences of the political system in Medieval Japan, comparing it to other historical systems."
+    ],
+    [
+      "Demonstrates no understanding of the economic systems of Medieval Japan.",
+      "Shows a minimal understanding of one or two aspects of the Medieval Japanese economy.",
+      "Identifies basic economic activities (e.g., agriculture, trade) but does not explain their significance.",
+      "Explains the main economic activities and their significance in Medieval Japan.",
+      "Analyzes the impact of economic systems on different social classes in Medieval Japan.",
+      "Critically assesses the strengths and weaknesses of the Medieval Japanese economy and its impact on long-term development."
+    ],
+    [
+      "Demonstrates no understanding of the religious and social structures of Medieval Japan.",
+      "Shows a minimal understanding of one or two religious or social aspects.",
+      "Identifies major religions (e.g., Buddhism, Shinto) and social classes but does not explain their influence.",
+      "Explains the basic tenets of major religions and the roles of different social classes.",
+      "Analyzes the influence of religious beliefs and social hierarchies on daily life in Medieval Japan.",
+      "Evaluates the complex interactions between religious beliefs, social structures, and cultural practices in Medieval Japan."
+    ]
+  ]
+}

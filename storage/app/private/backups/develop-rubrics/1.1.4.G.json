@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Family Roles",
+    "Explanation of Responsibilities",
+    "Understanding of Individual Needs",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any family roles.",
+      "Identifies one or two family roles with inaccuracies.",
+      "Identifies basic family roles (e.g., parent, child) but lacks detail.",
+      "Identifies several family roles and provides a general description of each.",
+      "Accurately identifies a comprehensive range of family roles and provides clear descriptions.",
+      "Demonstrates a sophisticated understanding of family roles, including less traditional roles, with detailed and insightful descriptions."
+    ],
+    [
+      "Does not mention any responsibilities of family members.",
+      "Lists one or two responsibilities vaguely.",
+      "Lists basic responsibilities of common family roles, but lacks explanation.",
+      "Explains responsibilities of different family members, showing some understanding of their importance.",
+      "Clearly explains a variety of responsibilities associated with different family roles and their impact on the family unit.",
+      "Provides an in-depth analysis of responsibilities within a family, including the consequences of not fulfilling them."
+    ],
+    [
+      "Shows no awareness of individual needs within a family.",
+      "Mentions individual needs superficially.",
+      "Recognizes that family members have individual needs but does not elaborate.",
+      "Describes common individual needs (e.g., emotional, physical) but lacks connection to specific family members.",
+      "Relates specific individual needs to different family members and explains how these needs might differ.",
+      "Demonstrates a deep understanding of the complexity of individual needs within a family and how these needs intersect and influence each other."
+    ],
+    [
+      "Response is disorganized and difficult to understand.",
+      "Response lacks clarity and organization.",
+      "Response is somewhat organized but may be difficult to follow at times.",
+      "Response is generally clear and organized.",
+      "Response is clear, well-organized, and easy to follow.",
+      "Response is exceptionally clear, logically organized, and demonstrates sophisticated communication skills."
+    ]
+  ]
+}

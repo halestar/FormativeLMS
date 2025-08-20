@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately compose two-dimensional shapes to create a composite shape.",
+    "Ability to accurately compose three-dimensional shapes to create a composite shape.",
+    "Ability to compose new shapes from a composite shape."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of composing two-dimensional shapes.",
+      "Student attempts to compose two-dimensional shapes but struggles to create a composite shape.",
+      "Student can compose simple two-dimensional shapes but has difficulty with more complex shapes or composite shapes.",
+      "Student can compose most two-dimensional shapes to create a composite shape, with some minor errors.",
+      "Student accurately composes two-dimensional shapes to create a composite shape, demonstrating a solid understanding.",
+      "Student expertly composes two-dimensional shapes to create complex and accurate composite shapes, showcasing a deep understanding."
+    ],
+    [
+      "Student demonstrates no understanding of composing three-dimensional shapes.",
+      "Student attempts to compose three-dimensional shapes but struggles to create a composite shape.",
+      "Student can compose simple three-dimensional shapes but has difficulty with more complex shapes or composite shapes.",
+      "Student can compose most three-dimensional shapes to create a composite shape, with some minor errors.",
+      "Student accurately composes three-dimensional shapes to create a composite shape, demonstrating a solid understanding.",
+      "Student expertly composes three-dimensional shapes to create complex and accurate composite shapes, showcasing a deep understanding."
+    ],
+    [
+      "Student demonstrates no understanding of composing new shapes from a composite shape.",
+      "Student attempts to compose new shapes but struggles to understand the composite shape.",
+      "Student can compose simple shapes from composite shape but has difficulty with more complex shapes or composite shapes.",
+      "Student can compose most shapes from a composite shape, with some minor errors.",
+      "Student accurately composes shapes from a composite shape, demonstrating a solid understanding.",
+      "Student expertly composes shapes from composite shapes, showcasing a deep understanding."
+    ]
+  ]
+}

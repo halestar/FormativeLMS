@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Counting Unit Squares",
+    "Appropriate Use of Units",
+    "Understanding of Area Concept"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to count unit squares or completely inaccurate.",
+      "Attempts to count, but counts are largely inaccurate and do not reflect understanding.",
+      "Counts unit squares with limited accuracy; frequent errors in counting.",
+      "Counts unit squares with reasonable accuracy; some errors may be present.",
+      "Counts unit squares accurately with only minor errors or omissions.",
+      "Counts unit squares accurately and efficiently, demonstrating a clear understanding of area measurement."
+    ],
+    [
+      "No units are used or the wrong units are used.",
+      "Units are used inconsistently and often incorrectly.",
+      "Units are sometimes used correctly, but there are inconsistencies.",
+      "Units are generally used correctly, with occasional errors.",
+      "Units are used correctly in most cases, showing good understanding.",
+      "Units are always used correctly and appropriately (e.g., square cm, square in), demonstrating a strong understanding of area measurement."
+    ],
+    [
+      "Does not demonstrate an understanding of area as a measure of space.",
+      "Demonstrates very limited understanding of area; struggles to relate counting to area.",
+      "Demonstrates some understanding of area, but struggles to apply it correctly.",
+      "Demonstrates a reasonable understanding of area; can relate counting to area in simple cases.",
+      "Demonstrates a good understanding of area and its relationship to counting unit squares.",
+      "Demonstrates a comprehensive understanding of area as a measure of space, clearly linking counting unit squares to the concept of area."
+    ]
+  ]
+}

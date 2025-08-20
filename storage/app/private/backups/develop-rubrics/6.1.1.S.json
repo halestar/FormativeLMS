@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Conflict Resolution Methods",
+    "Understanding of Harassment Reduction Methods",
+    "Understanding of Violence Reduction Methods"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of methods to reduce conflict.",
+      "Identifies only one method to reduce conflict but provides no explanation.",
+      "Identifies a couple of methods to reduce conflict with limited explanation.",
+      "Explains multiple methods to reduce conflict, harassment, and violence with fair understanding.",
+      "Clearly explains various methods to reduce conflict with good understanding of each.",
+      "Thoroughly explains and provides examples of multiple methods to effectively reduce conflict, harassment, and violence with excellent understanding."
+    ],
+    [
+      "Demonstrates no understanding of methods to reduce harassment.",
+      "Identifies only one method to reduce harassment but provides no explanation.",
+      "Identifies a couple of methods to reduce harassment with limited explanation.",
+      "Explains multiple methods to reduce harassment with fair understanding.",
+      "Clearly explains various methods to reduce harassment with good understanding of each.",
+      "Thoroughly explains and provides examples of multiple methods to effectively reduce harassment with excellent understanding."
+    ],
+    [
+      "Demonstrates no understanding of methods to reduce violence.",
+      "Identifies only one method to reduce violence but provides no explanation.",
+      "Identifies a couple of methods to reduce violence with limited explanation.",
+      "Explains multiple methods to reduce violence with fair understanding.",
+      "Clearly explains various methods to reduce violence with good understanding of each.",
+      "Thoroughly explains and provides examples of multiple methods to effectively reduce violence with excellent understanding."
+    ]
+  ]
+}

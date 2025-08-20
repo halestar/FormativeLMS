@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information Regarding Travel to California",
+    "Comparison of Motivations for Travel",
+    "Understanding of Historical Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides inaccurate or irrelevant information about the reasons and routes people traveled to California.",
+      "Offers limited and mostly inaccurate details regarding why and how people traveled to California.",
+      "Presents some accurate information, but lacks depth and contains inaccuracies about motivations and routes.",
+      "Accurately describes some reasons and routes of travel to California, but misses key details and connections.",
+      "Clearly and accurately explains the reasons and routes people traveled to California, including specific examples.",
+      "Provides a comprehensive and insightful explanation of the motivations and routes of various individuals who traveled to California, demonstrating a deep understanding of the historical context."
+    ],
+    [
+      "Fails to compare the motivations of different individuals or groups traveling to California.",
+      "Offers a superficial comparison with significant omissions and inaccuracies.",
+      "Attempts to compare motivations but lacks clarity and provides limited supporting details.",
+      "Compares the motivations of some individuals or groups, but the analysis is incomplete and lacks nuance.",
+      "Effectively compares the motivations of different individuals or groups, highlighting key similarities and differences.",
+      "Provides a sophisticated and nuanced comparison of the motivations driving various individuals and groups to travel to California, demonstrating an understanding of diverse perspectives and influences."
+    ],
+    [
+      "Demonstrates no understanding of the historical context surrounding travel to California.",
+      "Shows minimal awareness of the historical context, with significant misunderstandings.",
+      "Displays some awareness of the historical context but struggles to connect it to the reasons and routes of travel.",
+      "Connects the reasons and routes of travel to California to relevant historical events and developments, but the explanation is somewhat superficial.",
+      "Clearly articulates the historical context and its influence on the reasons and routes people traveled to California.",
+      "Provides a thorough and insightful analysis of the historical context, demonstrating a deep understanding of its impact on the economic, social, and political factors influencing travel to California."
+    ]
+  ]
+}

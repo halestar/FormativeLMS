@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Different Accounts",
+    "Analysis of Emphasized Details",
+    "Comparison Across Mediums"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify or inaccurately identifies different accounts of the subject in different mediums.",
+      "Student identifies different accounts but struggles to recognize the mediums in which they are presented.",
+      "Student identifies different accounts and their mediums but shows difficulty in understanding the basic differences between them.",
+      "Student accurately identifies different accounts and their mediums and begins to understand the variations in details presented.",
+      "Student effectively identifies different accounts and their mediums, demonstrating a clear understanding of the variations in details.",
+      "Student expertly identifies different accounts and their mediums, providing insightful commentary on the nuances and variations in details presented across different mediums."
+    ],
+    [
+      "Student provides no analysis or an inaccurate analysis of the details emphasized in each account.",
+      "Student attempts to analyze emphasized details but struggles to provide supporting evidence or reasoning.",
+      "Student identifies some emphasized details but lacks depth in explaining why these details are emphasized.",
+      "Student adequately analyzes the details emphasized in each account, providing reasonable explanations for their significance.",
+      "Student thoroughly analyzes the details emphasized in each account, offering well-supported explanations for their significance and potential biases.",
+      "Student provides a comprehensive and insightful analysis of the details emphasized in each account, demonstrating a nuanced understanding of the purpose and impact of these choices."
+    ],
+    [
+      "Student does not attempt to compare accounts across different mediums or provides irrelevant comparisons.",
+      "Student attempts to compare accounts but struggles to identify meaningful similarities or differences.",
+      "Student identifies basic similarities or differences between accounts in different mediums but lacks deeper understanding.",
+      "Student provides a satisfactory comparison of accounts across mediums, highlighting some key similarities and differences.",
+      "Student offers a detailed comparison of accounts across mediums, explaining how the medium influences the presentation and interpretation of information.",
+      "Student presents a sophisticated comparison of accounts across mediums, demonstrating a nuanced understanding of how each medium shapes the narrative and impacts the audience's perception."
+    ]
+  ]
+}

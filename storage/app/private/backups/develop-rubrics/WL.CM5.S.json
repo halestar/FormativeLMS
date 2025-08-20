@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Topics",
+    "Use of Sentence-Level Elements (Morphology and Syntax)",
+    "Use of Extended Discourse (Text Structure)",
+    "Communication Using Language Text Types"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the topic.",
+      "Demonstrates limited understanding of topics, primarily sticking to basic general interests.",
+      "Demonstrates understanding of broad general interests but struggles with unfamiliar or abstract topics.",
+      "Demonstrates understanding of topics ranging from broad general interests to somewhat unfamiliar areas.",
+      "Demonstrates understanding of topics ranging from broad general interests to unfamiliar, abstract areas.",
+      "Demonstrates understanding of topics ranging from broad general interests to unfamiliar, abstract, and hypothetical areas of specialized professional and academic expertise."
+    ],
+    [
+      "Shows no understanding of sentence-level elements.",
+      "Shows minimal understanding of basic sentence structure with frequent errors.",
+      "Demonstrates basic understanding of common sentence structures with some errors.",
+      "Demonstrates good understanding of common sentence structures and attempts less common structures with some success.",
+      "Demonstrates strong understanding of common and uncommon sentence structures with few errors.",
+      "Demonstrates mastery of sentence-level elements, including morphology and syntax of common and uncommon structures."
+    ],
+    [
+      "Shows no understanding of text structure.",
+      "Demonstrates difficulty in organizing thoughts and ideas in a coherent manner.",
+      "Demonstrates basic understanding of paragraph structure but struggles with extended discourse.",
+      "Organizes thoughts and ideas into paragraphs but struggles with cohesion and transitions between paragraphs.",
+      "Demonstrates good understanding of text structure, including paragraphing, cohesion, and transitions.",
+      "Demonstrates mastery of extended discourse, using text structure effectively to communicate complex ideas."
+    ],
+    [
+      "Unable to communicate using any language text types.",
+      "Uses only learned words, signs, fingerspelling, and phrases with significant limitations.",
+      "Uses sentences and strings of sentences but struggles with coherence and accuracy.",
+      "Constructs paragraphs and strings of paragraphs but demonstrates inconsistencies in cohesion and accuracy.",
+      "Creates coherent, cohesive multi-paragraph texts with minor errors.",
+      "Consistently produces coherent, cohesive multi-paragraph texts that effectively communicate intended messages."
+    ]
+  ]
+}

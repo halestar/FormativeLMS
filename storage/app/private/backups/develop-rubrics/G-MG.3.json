@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Application of Geometric Methods",
+    "Problem Solving and Design",
+    "Mathematical Accuracy",
+    "Understanding of Geometric Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to apply geometric methods.",
+      "Applies geometric methods incorrectly; solution is flawed.",
+      "Applies basic geometric methods with some errors.",
+      "Applies geometric methods correctly but with minor inaccuracies.",
+      "Applies geometric methods effectively and accurately.",
+      "Applies geometric methods creatively and efficiently to solve the design problem."
+    ],
+    [
+      "No viable design solution is presented.",
+      "Presents a design solution that does not meet the given constraints.",
+      "Presents a design solution with significant flaws and limited problem-solving.",
+      "Presents a design solution that meets most of the constraints with some problem-solving demonstrated.",
+      "Presents a well-designed solution that meets all constraints and demonstrates effective problem-solving.",
+      "Presents an optimized and innovative design solution, demonstrating advanced problem-solving skills."
+    ],
+    [
+      "Demonstrates no understanding of mathematical principles.",
+      "Mathematical calculations are incorrect and irrelevant to the design.",
+      "Mathematical calculations contain significant errors.",
+      "Mathematical calculations are mostly accurate with minor errors.",
+      "Mathematical calculations are accurate and support the design solution.",
+      "Demonstrates precise and sophisticated mathematical accuracy in all calculations, enhancing the design solution."
+    ],
+    [
+      "Shows no understanding of relevant geometric concepts.",
+      "Demonstrates a very limited understanding of geometric concepts.",
+      "Demonstrates a partial understanding of geometric concepts; misconceptions are evident.",
+      "Demonstrates a satisfactory understanding of geometric concepts.",
+      "Demonstrates a strong understanding of geometric concepts and their application.",
+      "Demonstrates a comprehensive and insightful understanding of geometric concepts, with innovative application."
+    ]
+  ]
+}

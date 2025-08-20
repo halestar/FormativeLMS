@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Mediums",
+    "Analysis of Advantages",
+    "Analysis of Disadvantages",
+    "Comparison of Mediums"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any mediums used.",
+      "Identifies mediums, but with significant inaccuracies.",
+      "Identifies mediums with minor inaccuracies.",
+      "Correctly identifies the mediums used.",
+      "Correctly identifies the mediums and provides some context.",
+      "Correctly and thoroughly identifies the mediums used, demonstrating understanding of their characteristics."
+    ],
+    [
+      "No advantages of the mediums are mentioned.",
+      "Mentions advantages that are vague or irrelevant.",
+      "Identifies some advantages, but without clear explanation.",
+      "Clearly identifies and explains at least one advantage of each medium.",
+      "Clearly identifies and explains multiple advantages of each medium with supporting reasoning.",
+      "Insightfully analyzes the advantages of each medium with compelling examples and nuanced understanding."
+    ],
+    [
+      "No disadvantages of the mediums are mentioned.",
+      "Mentions disadvantages that are vague or irrelevant.",
+      "Identifies some disadvantages, but without clear explanation.",
+      "Clearly identifies and explains at least one disadvantage of each medium.",
+      "Clearly identifies and explains multiple disadvantages of each medium with supporting reasoning.",
+      "Insightfully analyzes the disadvantages of each medium with compelling examples and nuanced understanding."
+    ],
+    [
+      "No attempt to compare the mediums.",
+      "Attempts a comparison, but it is unclear or illogical.",
+      "Makes basic comparisons with limited insight.",
+      "Offers a clear comparison of the mediums, highlighting key differences.",
+      "Provides a thorough comparison, noting both similarities and differences with relevant examples.",
+      "Presents a sophisticated comparison, synthesizing information to draw insightful conclusions about the effectiveness of each medium."
+    ]
+  ]
+}

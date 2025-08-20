@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to locate and identify sources of information regarding alcohol, tobacco, and other drugs.",
+    "Understanding of the products and services related to alcohol, tobacco, and other drugs.",
+    "Ability to critically evaluate the accuracy and reliability of information.",
+    "Application of accessed information to make informed decisions related to personal health."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no ability to locate or identify information sources.",
+      "Student can locate very few sources of information, with significant difficulty.",
+      "Student can locate some sources of information, but struggles to identify their relevance or reliability.",
+      "Student can locate and identify several relevant sources of information, but may have minor difficulties assessing reliability.",
+      "Student can effectively locate and identify reliable and relevant sources of information.",
+      "Student can efficiently locate, identify, and critically evaluate a wide range of sources, demonstrating a comprehensive understanding of where to find pertinent information."
+    ],
+    [
+      "Student shows no understanding of related products and services.",
+      "Student demonstrates minimal awareness of related products and services, with significant misconceptions.",
+      "Student can identify some related products and services, but lacks a clear understanding of their purpose or function.",
+      "Student identifies several related products and services with a basic understanding of their purpose.",
+      "Student demonstrates a solid understanding of various products and services related to alcohol, tobacco, and other drugs, and can explain their potential impact.",
+      "Student demonstrates a comprehensive understanding of the entire range of products and services, including emerging trends and nuanced effects."
+    ],
+    [
+      "Student shows no ability to critically evaluate information.",
+      "Student accepts information at face value without questioning its validity.",
+      "Student attempts to evaluate information but demonstrates difficulty distinguishing between reliable and unreliable sources.",
+      "Student can identify some potential biases or inaccuracies in information sources.",
+      "Student demonstrates a good ability to assess the reliability and accuracy of information, identifying potential biases and limitations.",
+      "Student consistently and effectively evaluates information sources, demonstrating a sophisticated understanding of bias, methodology, and potential conflicts of interest."
+    ],
+    [
+      "Student is unable to apply the information to make informed decisions.",
+      "Student struggles to connect accessed information to personal health decisions.",
+      "Student attempts to apply information but demonstrates limited understanding of its practical implications.",
+      "Student can make basic connections between information and personal health choices.",
+      "Student uses accessed information to make informed decisions about their health and well-being.",
+      "Student uses accessed information to not only make informed decisions for themselves but can also provide guidance and education to others, demonstrating leadership and a deep understanding of the topic."
+    ]
+  ]
+}

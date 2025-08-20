@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Factors Influencing Weight",
+    "Evaluation of Weight Management Approaches",
+    "Application of Knowledge to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of factors that influence weight.",
+      "Student identifies only one or two factors influencing weight with limited accuracy.",
+      "Student identifies some factors influencing weight but demonstrates superficial understanding.",
+      "Student identifies several factors influencing weight and demonstrates a moderate level of understanding.",
+      "Student thoroughly identifies and explains multiple factors influencing weight with good understanding.",
+      "Student comprehensively identifies and analyzes factors influencing weight, demonstrating excellent and insightful understanding."
+    ],
+    [
+      "Student is unable to evaluate any weight management approaches.",
+      "Student attempts to evaluate weight management approaches but provides inaccurate or irrelevant information.",
+      "Student evaluates a few weight management approaches with limited depth or accuracy.",
+      "Student evaluates several weight management approaches with reasonable accuracy and some depth.",
+      "Student evaluates various weight management approaches with good accuracy, depth, and consideration of pros and cons.",
+      "Student critically evaluates a comprehensive range of weight management approaches, demonstrating sophisticated analysis and nuanced understanding."
+    ],
+    [
+      "Student is unable to apply knowledge of weight management to real-life scenarios.",
+      "Student struggles to apply knowledge of weight management to real-life scenarios; application is inaccurate or inappropriate.",
+      "Student attempts to apply knowledge of weight management to real-life scenarios but demonstrates limited success.",
+      "Student applies knowledge of weight management to some real-life scenarios with moderate success and accuracy.",
+      "Student effectively applies knowledge of weight management to a variety of real-life scenarios with good accuracy and relevance.",
+      "Student skillfully and insightfully applies knowledge of weight management to complex real-life scenarios, demonstrating a comprehensive grasp of the subject."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Planning and Organization",
+    "Revision and Editing",
+    "Focus and Development"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence of planning or organization; writing appears haphazard and lacks direction.",
+      "Minimal planning evident; organization is weak and unclear; purpose and audience are not considered.",
+      "Some planning is evident, but organization is inconsistent; purpose and audience are vaguely addressed.",
+      "Adequate planning and organization; writing shows a basic understanding of purpose and audience.",
+      "Good planning and organization; writing is focused and considers the purpose and audience effectively.",
+      "Excellent planning and organization; writing is highly coherent and demonstrates a strong understanding of purpose and audience."
+    ],
+    [
+      "No evidence of revision or editing; numerous errors distract from the content.",
+      "Minimal revision or editing; significant errors in grammar, mechanics, and sentence structure.",
+      "Some revision and editing; errors are present but do not completely obscure the meaning.",
+      "Adequate revision and editing; writing demonstrates a basic command of language conventions with some errors.",
+      "Good revision and editing; writing is clear and demonstrates a strong command of language conventions with few errors.",
+      "Excellent revision and editing; writing is polished and demonstrates a sophisticated command of language conventions with minimal to no errors."
+    ],
+    [
+      "Writing lacks focus and contains irrelevant information; ideas are undeveloped.",
+      "Focus is unclear, and ideas are poorly developed; purpose is not maintained.",
+      "Focus is inconsistent; ideas are partially developed but lack depth; attempts to address purpose are superficial.",
+      "Focus is generally maintained; ideas are developed with some detail; purpose is adequately addressed.",
+      "Focus is clear and consistent; ideas are well-developed and supported; purpose is effectively addressed.",
+      "Writing is sharply focused; ideas are thoroughly developed with insightful detail; purpose is masterfully addressed."
+    ]
+  ]
+}

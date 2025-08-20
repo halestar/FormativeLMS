@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Angle Formation",
+    "Understanding of Angle Measurement",
+    "Application of Angle Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not recognize angles as formed by two rays sharing a common endpoint.",
+      "Student shows limited understanding of angle formation, struggling to identify angles correctly.",
+      "Student identifies angles but lacks a clear understanding of the relationship between rays and the common endpoint.",
+      "Student demonstrates a basic understanding of angle formation but may have minor inaccuracies.",
+      "Student accurately recognizes and explains how angles are formed by two rays sharing a common endpoint.",
+      "Student demonstrates a comprehensive understanding of angle formation, including variations and complex examples."
+    ],
+    [
+      "Student does not demonstrate an understanding of angle measurement in degrees.",
+      "Student shows a limited understanding of angle measurement, unable to relate angle size to degrees.",
+      "Student attempts to explain angle measurement but struggles with accuracy and consistency.",
+      "Student demonstrates a basic understanding of angle measurement but may have some confusion with larger or smaller angles.",
+      "Student accurately explains that an angle turning through n one-degree angles has a measure of n degrees.",
+      "Student demonstrates a comprehensive understanding of angle measurement, applying it to various scenarios and providing clear explanations."
+    ],
+    [
+      "Student cannot apply angle concepts to solve simple problems.",
+      "Student struggles to apply angle concepts, requiring significant guidance to solve problems.",
+      "Student attempts to apply angle concepts but makes frequent errors and struggles with problem-solving.",
+      "Student applies angle concepts to solve basic problems but may struggle with more complex scenarios.",
+      "Student effectively applies angle concepts to solve a variety of problems with accuracy.",
+      "Student demonstrates mastery in applying angle concepts to solve complex and novel problems, providing clear and logical solutions."
+    ]
+  ]
+}

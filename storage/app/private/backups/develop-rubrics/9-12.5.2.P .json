@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Health Behaviors and Their Impact",
+    "Clarity and Depth of Explanation",
+    "Application of Knowledge to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of health behaviors or their consequences.",
+      "The student shows a minimal understanding of health behaviors and their consequences, with significant gaps in knowledge.",
+      "The student demonstrates a basic understanding of health behaviors and their consequences, but struggles to explain the impact on themselves and others.",
+      "The student demonstrates a satisfactory understanding of health behaviors and their consequences, and can explain the impact on either themselves or others, but not both consistently.",
+      "The student demonstrates a strong understanding of health behaviors and their consequences, and can clearly explain the impact on both themselves and others with supporting examples.",
+      "The student demonstrates a comprehensive understanding of health behaviors and their consequences, and can articulate the short-term and long-term impacts on themselves and others, providing insightful analysis and relevant examples."
+    ],
+    [
+      "The student's explanation is unclear, disorganized, and lacks depth.",
+      "The student's explanation is difficult to follow, poorly organized, and lacks sufficient detail.",
+      "The student's explanation is somewhat clear but lacks depth and may be disorganized.",
+      "The student provides a clear explanation with some depth, but may lack specific examples or supporting evidence.",
+      "The student provides a clear and well-organized explanation with considerable depth, including specific examples and supporting evidence.",
+      "The student provides a highly articulate, insightful, and comprehensive explanation, demonstrating a deep understanding of the topic and offering nuanced perspectives."
+    ],
+    [
+      "The student is unable to apply knowledge of health behaviors to real-life scenarios.",
+      "The student struggles to apply knowledge of health behaviors to real-life scenarios and provides irrelevant examples.",
+      "The student attempts to apply knowledge of health behaviors to real-life scenarios, but the connection is weak or unclear.",
+      "The student can apply knowledge of health behaviors to some real-life scenarios, but may struggle with more complex situations.",
+      "The student can effectively apply knowledge of health behaviors to a variety of real-life scenarios, demonstrating an understanding of the complexities involved.",
+      "The student demonstrates an exceptional ability to apply knowledge of health behaviors to a wide range of real-life scenarios, offering insightful and practical solutions to health-related challenges."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Textual Evidence",
+    "Thoroughness of Evidence",
+    "Quality of Inferences",
+    "Integration of Evidence and Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited or the cited evidence is completely irrelevant to the analysis.",
+      "The textual evidence cited is inaccurate or weakly related to the analysis.",
+      "Some textual evidence is cited, but its connection to the analysis is unclear or strained.",
+      "Generally accurate and relevant textual evidence is cited to support the analysis, but there may be minor inconsistencies.",
+      "Accurate and relevant textual evidence is consistently used to support the analysis.",
+      "Precise, accurate, and compelling textual evidence is expertly woven into the analysis, enhancing the argument's persuasiveness."
+    ],
+    [
+      "No attempt is made to provide thorough textual evidence.",
+      "Minimal textual evidence is provided; the analysis lacks depth.",
+      "Some effort is made to include textual evidence, but significant gaps remain.",
+      "A reasonable amount of textual evidence is provided, but the analysis could be strengthened with additional support.",
+      "Sufficient and well-chosen textual evidence is provided to thoroughly support the analysis.",
+      "The analysis is exceptionally well-supported by a comprehensive and insightful selection of textual evidence, demonstrating a deep understanding of the text."
+    ],
+    [
+      "No inferences are made, or the inferences are illogical and unsupported by the text.",
+      "Inferences are attempted, but they are superficial or contradict the text.",
+      "Some inferences are made, but they are not well-developed or convincingly supported.",
+      "Reasonable inferences are drawn from the text, but they may lack nuance or depth.",
+      "Thoughtful and well-supported inferences are drawn from the text, enhancing the analysis.",
+      "Profound and insightful inferences are skillfully drawn from the text, revealing a sophisticated understanding of the author's intent and underlying themes."
+    ],
+    [
+      "The textual evidence is presented without any analysis or connection to the argument.",
+      "The textual evidence is loosely connected to the analysis, resulting in a disjointed presentation.",
+      "The textual evidence is mentioned alongside the analysis, but the connection is not always clear or effective.",
+      "The textual evidence is generally integrated into the analysis, but there may be moments where the connection could be stronger.",
+      "The textual evidence is seamlessly integrated into the analysis, creating a cohesive and persuasive argument.",
+      "The textual evidence and analysis are masterfully interwoven, demonstrating a sophisticated understanding of how evidence supports and enhances the overall interpretation."
+    ]
+  ]
+}

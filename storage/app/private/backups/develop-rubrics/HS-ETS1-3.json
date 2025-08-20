@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Prioritized Criteria and Constraints",
+    "Consideration of Trade-offs",
+    "Evidence-Based Evaluation",
+    "Analysis of Potential Impacts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The solution's evaluation lacks clear identification of prioritized criteria and constraints (e.g., cost, safety, reliability, aesthetics, social, cultural, and environmental impacts).",
+      "The solution's evaluation identifies some criteria and constraints, but prioritization is unclear or missing.",
+      "The solution's evaluation identifies most relevant criteria and constraints, with a basic attempt to prioritize them.",
+      "The solution's evaluation clearly identifies and prioritizes relevant criteria and constraints, demonstrating a good understanding of their importance.",
+      "The solution's evaluation comprehensively identifies and prioritizes criteria and constraints, justifying the prioritization based on the problem's context.",
+      "The solution's evaluation expertly identifies, prioritizes, and justifies criteria and constraints, demonstrating a nuanced understanding of their interdependencies and impact on the solution's success."
+    ],
+    [
+      "The solution's evaluation fails to address trade-offs between different criteria and constraints.",
+      "The solution's evaluation mentions trade-offs but does not analyze their implications.",
+      "The solution's evaluation identifies some trade-offs and attempts a basic analysis of their implications.",
+      "The solution's evaluation analyzes trade-offs between criteria and constraints, explaining the reasoning behind necessary compromises.",
+      "The solution's evaluation thoroughly analyzes trade-offs, providing a clear rationale for decisions made and considering the consequences of each compromise.",
+      "The solution's evaluation masterfully analyzes trade-offs, optimizing the solution by creatively balancing competing criteria and constraints to achieve the best possible outcome."
+    ],
+    [
+      "The solution's evaluation is not based on evidence or data.",
+      "The solution's evaluation uses limited evidence, and the sources are not clearly cited.",
+      "The solution's evaluation uses some evidence from provided sources, but the connection to the evaluation is weak.",
+      "The solution's evaluation integrates evidence from multiple sources to support claims about the solution's effectiveness.",
+      "The solution's evaluation critically analyzes evidence from diverse sources, synthesizing information to provide a robust assessment of the solution.",
+      "The solution's evaluation demonstrates expert synthesis of evidence, going beyond provided sources to conduct independent research and provide novel insights into the solution's performance."
+    ],
+    [
+      "The solution's evaluation ignores potential social, cultural, and environmental impacts.",
+      "The solution's evaluation briefly mentions potential impacts without detailed analysis.",
+      "The solution's evaluation identifies some potential impacts but lacks depth in analysis.",
+      "The solution's evaluation analyzes potential positive and negative impacts, considering multiple perspectives.",
+      "The solution's evaluation comprehensively analyzes potential impacts, proposing mitigation strategies for negative consequences.",
+      "The solution's evaluation provides a visionary analysis of potential impacts, anticipating long-term consequences and developing innovative solutions to promote sustainability and equity."
+    ]
+  ]
+}

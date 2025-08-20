@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Rights and Obligations: Assesses the student's comprehension of the rights and obligations of democratic citizens.",
+    "Analysis of Relationships: Evaluates the student's ability to analyze the relationships among rights, obligations, and their security.",
+    "Argumentation and Defense: Measures the student's capacity to formulate and defend positions on the scope and limits of rights and obligations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of democratic rights and obligations.",
+      "Shows minimal understanding of basic rights and obligations, with significant misconceptions.",
+      "Identifies some rights and obligations but struggles to explain their scope or limits.",
+      "Demonstrates a satisfactory understanding of common rights and obligations, with some limitations in explaining complex relationships.",
+      "Exhibits a strong understanding of a wide range of rights and obligations, explaining their scope and limits effectively.",
+      "Displays a comprehensive and nuanced understanding of rights and obligations, including their historical and contemporary contexts."
+    ],
+    [
+      "Unable to identify any relationships among rights, obligations, and their security.",
+      "Struggles to connect rights, obligations, and security, with illogical or missing connections.",
+      "Identifies basic relationships but lacks depth in explaining how they interact.",
+      "Analyzes the relationships among rights, obligations, and security with reasonable clarity, but lacks sophistication.",
+      "Effectively analyzes the complex relationships among rights, obligations, and the mechanisms that secure them.",
+      "Provides insightful and nuanced analysis of the intricate relationships among rights, obligations, and security, demonstrating a mastery of the concepts."
+    ],
+    [
+      "Unable to formulate or defend any position on the scope and limits of rights and obligations.",
+      "Presents a position with little to no supporting evidence or logical reasoning.",
+      "Formulates a position but struggles to defend it with relevant evidence or coherent arguments.",
+      "Presents a defensible position with adequate supporting evidence and reasoning.",
+      "Formulates a well-reasoned and compelling position, defending it effectively with strong evidence and logical arguments.",
+      "Constructs a sophisticated and persuasive argument, anticipating counterarguments and defending their position with exceptional clarity and insight."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Pre-War International Relations",
+    "Knowledge of U.S. Foreign Policy",
+    "Understanding of Events Leading to Pearl Harbor",
+    "Causation and Contextualization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the international political landscape leading up to World War II.",
+      "Shows a limited understanding of the major countries and alliances involved but lacks specifics.",
+      "Identifies key countries and alliances but struggles to explain their relationships and motivations.",
+      "Explains the relationships and motivations of major countries and alliances with some accuracy.",
+      "Demonstrates a strong understanding of the complex web of international relations, including key treaties and agreements.",
+      "Provides a nuanced analysis of the pre-war international context, including the failures of diplomacy and the rise of aggressive ideologies."
+    ],
+    [
+      "Unable to identify any U.S. foreign policies or actions prior to Pearl Harbor.",
+      "Identifies one or two U.S. policies but cannot explain their purpose or impact.",
+      "Lists several U.S. policies but struggles to connect them to the broader international situation.",
+      "Explains the purpose and impact of several U.S. policies, such as the Neutrality Acts and Lend-Lease.",
+      "Analyzes the evolution of U.S. foreign policy from isolationism to interventionism, citing specific examples.",
+      "Critically evaluates the effectiveness and consequences of U.S. foreign policy, considering different perspectives and long-term impacts."
+    ],
+    [
+      "Shows no awareness of the events that precipitated the attack on Pearl Harbor.",
+      "Mentions Pearl Harbor but cannot explain the events leading up to it.",
+      "Identifies a few events but struggles to connect them chronologically or causally.",
+      "Describes the key events, such as Japanese expansionism and embargoes, leading to the attack on Pearl Harbor with reasonable accuracy.",
+      "Explains the complex sequence of events, including diplomatic failures, economic pressures, and military planning, that resulted in the attack.",
+      "Analyzes the causes of the attack on Pearl Harbor from multiple perspectives, including those of both the U.S. and Japan, considering historical debates and interpretations."
+    ],
+    [
+      "Presents information with no indication of cause-and-effect relationships.",
+      "Attempts to identify causes but struggles to make clear connections.",
+      "Describes some direct causes without deeper explanation of context.",
+      "Explains some of the causes of the events that lead to Pearl Harbor, including some contextualization.",
+      "Explains in detail the causes of the events, the deeper historical context that resulted in the attack on Pearl Harbor.",
+      "Presents a highly-detailed and nuanced causation for the attack with extreme attention to the context of events."
+    ]
+  ]
+}

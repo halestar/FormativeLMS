@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Derivative Calculations",
+    "Application of Derivative Formulas",
+    "Understanding of Derivative Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely incorrect application of derivative formulas.",
+      "Demonstrates minimal understanding; frequent errors in applying derivative formulas. Struggles to differentiate basic functions.",
+      "Shows some understanding but makes several errors in calculating derivatives of algebraic and trigonometric functions. Difficulty with inverse trigonometric, exponential, or logarithmic functions.",
+      "Calculates derivatives of algebraic and trigonometric functions with reasonable accuracy. Minor errors may be present. Begins to apply derivative formulas to inverse trigonometric, exponential, and logarithmic functions with some errors.",
+      "Accurately calculates derivatives of algebraic, trigonometric, and exponential functions. Demonstrates a good understanding of the derivative formulas for these functions with only minor errors.",
+      "Calculates derivatives of algebraic, trigonometric, inverse trigonometric, exponential, and logarithmic functions with high accuracy. Demonstrates a complete and thorough understanding of all derivative formulas and their application."
+    ],
+    [
+      "Unable to identify or apply appropriate derivative formulas.",
+      "Struggles to select the correct derivative formula; application is often incorrect or inappropriate.",
+      "Can sometimes identify the correct derivative formula but struggles with its application in various contexts.",
+      "Usually selects the correct derivative formula and applies it with some accuracy, but may struggle with complex problems.",
+      "Consistently selects and applies the correct derivative formulas in a variety of problems. Demonstrates a strong ability to differentiate most functions effectively.",
+      "Masterfully selects and applies the correct derivative formulas with precision and efficiency, even in highly complex and novel problems. Demonstrates an exceptional ability to differentiate any function."
+    ],
+    [
+      "Demonstrates no understanding of derivative concepts.",
+      "Displays minimal understanding of what a derivative represents. Unable to explain the basic concepts.",
+      "Shows some basic understanding but struggles to explain the meaning or significance of derivatives.",
+      "Understands the basic concepts of derivatives and can explain them in simple terms, but struggles with deeper implications.",
+      "Demonstrates a solid understanding of derivative concepts and can explain their significance in mathematical contexts.",
+      "Demonstrates a deep and nuanced understanding of derivative concepts, including their geometric and physical interpretations. Can articulate these concepts clearly and insightfully."
+    ]
+  ]
+}

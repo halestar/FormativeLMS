@@ -6,9 +6,9 @@ return
 		'content' => 'Email Body',
         'password.reset' => 'Password Reset Email Template',
 	    'password.reset.subject' => 'A request to reset your password has been received.',
-	    'password.reset.description' => 'Email template sent to users when they\'re trying to reset their password.',
-	    'password.reset.recipient' => 'Recipient\' Name',
-	    'password.reset.recipient_email' => 'Recipient\' Email',
+		'password.reset.description' => "Email template sent to users when they're trying to reset their password.",
+		'password.reset.recipient' => "Recipient's Name",
+		'password.reset.recipient_email' => "Recipient's Email",
 	    'password.reset.token' => 'Authentication Token',
 	    'password.reset.body' => <<<EOE
 <p>

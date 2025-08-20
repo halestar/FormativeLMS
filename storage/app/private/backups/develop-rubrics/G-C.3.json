@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Circle Constructions",
+    "Understanding of Angle Properties in Inscribed Quadrilaterals",
+    "Clarity and Logical Reasoning in Proofs"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely inaccurate constructions of inscribed and circumscribed circles.",
+      "Demonstrates minimal understanding; constructions are largely inaccurate with no clear method.",
+      "Attempts constructions but with significant errors; may show some understanding of the concepts but struggles with execution.",
+      "Constructions are mostly accurate with minor errors; demonstrates a general understanding of inscribed and circumscribed circles.",
+      "Accurate constructions of inscribed and circumscribed circles with clear, logical steps; demonstrates a strong understanding of the concepts.",
+      "Perfectly accurate constructions; demonstrates mastery through precise and efficient methods."
+    ],
+    [
+      "No understanding of angle properties or inability to apply them.",
+      "Minimal understanding; cannot identify or apply relevant angle properties.",
+      "Attempts to apply angle properties but with significant errors; limited understanding.",
+      "Understands and applies some angle properties correctly but may struggle with more complex problems.",
+      "Demonstrates a strong understanding of angle properties and applies them accurately to solve problems.",
+      "Demonstrates comprehensive understanding and provides insightful explanations of angle properties with flawless application."
+    ],
+    [
+      "No attempt at proofs or completely illogical reasoning.",
+      "Proofs are unclear and lack logical structure; reasoning is difficult to follow.",
+      "Attempts proofs but with significant gaps in logic and clarity; reasoning is flawed.",
+      "Proofs are mostly clear and logical with minor gaps; demonstrates a general understanding of proof construction.",
+      "Clear and logical proofs with well-supported arguments; demonstrates a strong understanding of geometric proofs.",
+      "Exemplary proofs that are exceptionally clear, concise, and logically sound; demonstrates mastery of proof construction."
+    ]
+  ]
+}

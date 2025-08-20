@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and Interpretation of Points on the Graph",
+    "Explanation of the Meaning of (0, 0)",
+    "Explanation of the Meaning of (1, r)",
+    "Contextual Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of what points on the graph represent.",
+      "Student shows minimal understanding of what points on the graph represent in the context of proportional relationships; struggles to interpret (0,0) and (1,r).",
+      "Student can identify points on the graph but struggles to explain their meaning in the context of the proportional relationship. Misinterprets (0,0) and (1,r).",
+      "Student can generally explain what points on the graph represent in the context of proportional relationships but needs prompting to interpret (0,0) and (1,r).",
+      "Student can clearly explain what points on the graph represent in the context of proportional relationships and can accurately interpret the meaning of (0,0) and (1,r).",
+      "Student provides a comprehensive explanation of what points on the graph represent in the context of proportional relationships, including a nuanced understanding of (0,0) and (1,r), demonstrating a deep understanding."
+    ],
+    [
+      "Student does not address the meaning of the point (0, 0) in the context of the proportional relationship.",
+      "Student attempts to explain the meaning of (0, 0) but the explanation is unclear or incorrect.",
+      "Student provides a basic explanation of (0, 0) but lacks context or depth.",
+      "Student adequately explains the meaning of (0, 0) within the proportional relationship.",
+      "Student clearly and accurately explains the meaning of (0, 0), relating it directly to the context of the problem.",
+      "Student provides an insightful and comprehensive explanation of the meaning of (0, 0), demonstrating a thorough understanding of its significance in proportional relationships."
+    ],
+    [
+      "Student does not address the meaning of the point (1, r) in the context of the proportional relationship.",
+      "Student attempts to explain the meaning of (1, r) but the explanation is unclear or incorrect.",
+      "Student provides a basic explanation of (1, r) but lacks context or depth.",
+      "Student adequately explains the meaning of (1, r) within the proportional relationship.",
+      "Student clearly and accurately explains the meaning of (1, r), relating it directly to the unit rate.",
+      "Student provides an insightful and comprehensive explanation of the meaning of (1, r), demonstrating a thorough understanding of its significance in determining the unit rate."
+    ],
+    [
+      "No context is provided.",
+      "Student's application of relationships into context is incomplete.",
+      "Student provides a basic explanation but lacks context or depth.",
+      "Student applies relationship into context.",
+      "Student clearly and accurately applies relationships into context.",
+      "Student provides an insightful and comprehensive explanation applying relationships into context."
+    ]
+  ]
+}

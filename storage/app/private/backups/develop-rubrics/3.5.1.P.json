@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Risks",
+    "Application of Decision-Making Process",
+    "Risk Reduction Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any risks associated with communicable diseases or illness.",
+      "Identifies only one risk associated with communicable diseases or illness with no further explanation.",
+      "Identifies some risks associated with communicable diseases or illness with limited explanation.",
+      "Identifies several risks associated with communicable diseases or illness, providing a satisfactory explanation for each.",
+      "Identifies most risks associated with communicable diseases or illness, providing a detailed explanation for each.",
+      "Identifies all significant risks associated with communicable diseases or illness, providing a comprehensive and insightful explanation for each."
+    ],
+    [
+      "Does not apply any decision-making process to reduce the risk.",
+      "Attempts to apply a decision-making process but does so incorrectly or ineffectively.",
+      "Applies a simple decision-making process with some flaws or omissions.",
+      "Applies a recognized decision-making process, demonstrating a basic understanding of its steps and application.",
+      "Effectively applies a decision-making process, showing a clear understanding of its steps and potential outcomes.",
+      "Applies a comprehensive and well-reasoned decision-making process, demonstrating a thorough understanding of risk reduction strategies and potential consequences."
+    ],
+    [
+      "Suggests no strategies to reduce the risk of communicable diseases or illness.",
+      "Suggests one ineffective or inappropriate strategy.",
+      "Suggests a few basic strategies with limited understanding of their effectiveness.",
+      "Suggests several relevant strategies with a general understanding of how they reduce risk.",
+      "Suggests a range of effective strategies, explaining how they reduce the risk of specific diseases or illnesses.",
+      "Suggests a comprehensive and tailored set of strategies, demonstrating a deep understanding of their impact on reducing the risk of communicable diseases or illness, including personal and community benefits."
+    ]
+  ]
+}

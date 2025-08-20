@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying locations and features on the grid map.",
+    "Clarity and precision of description of locations.",
+    "Understanding of the letter-number grid system."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to locate any locations or features accurately on the grid map.",
+      "Student can locate 1-2 locations or features with significant errors.",
+      "Student can locate some locations or features, but with several errors or inconsistencies.",
+      "Student can accurately locate most locations and features on the grid map with minor errors.",
+      "Student accurately locates nearly all locations and features on the grid map with minimal errors.",
+      "Student flawlessly locates all locations and features on the grid map with complete accuracy."
+    ],
+    [
+      "Student's descriptions of locations are unclear, confusing, or missing.",
+      "Student attempts to describe locations but descriptions are vague and difficult to understand.",
+      "Student's descriptions are partially clear, but lack precision or detail.",
+      "Student provides clear descriptions of locations with reasonable precision.",
+      "Student's descriptions are clear, precise, and provide sufficient detail for easy identification.",
+      "Student provides exceptionally clear, precise, and detailed descriptions, demonstrating a comprehensive understanding of location."
+    ],
+    [
+      "Student demonstrates no understanding of the letter-number grid system.",
+      "Student shows a minimal understanding of the grid system, struggling to apply it.",
+      "Student shows some understanding of the grid system, but makes frequent errors in its application.",
+      "Student demonstrates a satisfactory understanding of the grid system, applying it correctly most of the time.",
+      "Student demonstrates a strong understanding of the grid system and applies it accurately and consistently.",
+      "Student demonstrates a complete and nuanced understanding of the grid system, applying it flawlessly and able to explain its principles."
+    ]
+  ]
+}

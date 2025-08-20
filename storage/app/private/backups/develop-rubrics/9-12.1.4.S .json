@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Injury Causes",
+    "Analysis of Contributing Factors",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any injury causes related to traveling to\/from school or in the community.",
+      "Identifies one potential injury cause with minimal explanation.",
+      "Identifies two injury causes with basic explanations.",
+      "Identifies three injury causes with clear explanations and some relevant details.",
+      "Identifies four injury causes with detailed explanations and specific examples.",
+      "Identifies multiple injury causes with comprehensive explanations, specific examples, and demonstrates a thorough understanding of the risks involved."
+    ],
+    [
+      "Does not analyze factors contributing to injuries.",
+      "Attempts to analyze factors but provides vague or irrelevant information.",
+      "Analyzes one or two factors with limited clarity.",
+      "Analyzes key factors such as environmental conditions, pedestrian behavior, and traffic patterns with some detail.",
+      "Analyzes contributing factors in depth, providing specific examples and considering different perspectives.",
+      "Provides a comprehensive analysis of contributing factors, demonstrating a nuanced understanding of their interplay and impact on injury risks."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it difficult to follow the reasoning.",
+      "Response is somewhat clear but lacks a logical structure.",
+      "Response is generally clear and organized with a logical flow of information.",
+      "Response is clear, well-organized, and easy to understand with effective use of supporting details.",
+      "Response is exceptionally clear, coherent, and logically structured, demonstrating excellent communication skills."
+    ]
+  ]
+}

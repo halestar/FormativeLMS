@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to differentiate between land and water on maps and globes.",
+    "Skill in locating general areas referenced in historical legends and stories.",
+    "Overall accuracy and attention to detail in map and globe interpretation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify land or water on maps and globes.",
+      "Student can identify either land or water but not both on maps and globes.",
+      "Student can generally identify land and water but makes frequent errors or requires assistance.",
+      "Student can accurately identify land and water on most maps and globes with minimal errors.",
+      "Student can consistently and accurately identify land and water on various maps and globes.",
+      "Student demonstrates a comprehensive understanding of how land and water are represented on maps and globes, and can explain the symbols and conventions used."
+    ],
+    [
+      "Student cannot locate any areas referenced in historical legends and stories on a map or globe.",
+      "Student can locate only one or two areas with significant difficulty and inaccuracy.",
+      "Student can locate some areas with assistance, but accuracy is inconsistent.",
+      "Student can locate most areas with reasonable accuracy.",
+      "Student can accurately locate nearly all referenced areas without assistance.",
+      "Student can precisely locate and explain the significance of areas referenced in historical legends and stories, demonstrating an understanding of their historical context and geographical relevance."
+    ],
+    [
+      "Demonstrates no understanding of map or globe features",
+      "Displays minimal effort or accuracy in identifying locations.",
+      "Makes several inaccurate attempts to identify location",
+      "Locates most places with reasonable accuracy but requires prompting.",
+      "All locations can be correctly identified with few errors.",
+      "All locations are identified quickly and correctly, with an understanding of geographic features and locations."
+    ]
+  ]
+}

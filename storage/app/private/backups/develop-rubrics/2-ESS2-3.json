@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Water Locations",
+    "Understanding Water as Solid or Liquid",
+    "Effective Communication and Information Gathering"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any locations where water is found on Earth.",
+      "Identifies only one location where water is found on Earth.",
+      "Identifies a limited number of locations (2-3) where water is found on Earth, with some inaccuracies.",
+      "Identifies several locations (3-4) where water is found on Earth, with minor inaccuracies.",
+      "Identifies most major locations where water is found on Earth (e.g., oceans, rivers, lakes, ice) accurately.",
+      "Identifies a comprehensive range of locations where water is found on Earth, including less obvious locations (e.g., groundwater, atmosphere), with complete accuracy."
+    ],
+    [
+      "Does not demonstrate understanding that water can exist as solid or liquid.",
+      "Shows a vague understanding that water can be solid or liquid, but lacks specifics.",
+      "Identifies water as either solid or liquid, but not both, in their description of its location. ",
+      "Identifies water as both solid and liquid but struggles to correctly correlate to a location.",
+      "Accurately states that water can be found as solid (ice) and liquid in various locations on Earth.",
+      "Clearly explains and provides examples of water existing as both solid (ice) and liquid, relating it to specific locations and conditions on Earth with insightful detail."
+    ],
+    [
+      "Demonstrates inability to collect information from resources provided.",
+      "Attempts to gather information but struggles to present it in an understandable format.",
+      "Gathers some relevant information but presents it in a disorganized or unclear manner.",
+      "Gathers relevant information from provided sources and communicates it adequately.",
+      "Effectively gathers and communicates information using resources provided.",
+      "Skillfully gathers, synthesizes, and communicates information from a variety of sources, demonstrating clear understanding and insight."
+    ]
+  ]
+}

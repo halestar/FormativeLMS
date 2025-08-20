@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of words and phrases related to daily topics.",
+    "Use of orthography, phonology, ASL parameters, and sentence-level elements.",
+    "Ability to form simple sentences on familiar topics.",
+    "Overall communication effectiveness."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of words or phrases related to familiar daily topics.",
+      "Demonstrates very limited understanding; struggles to recognize even basic words and phrases.",
+      "Demonstrates some understanding of isolated words and phrases but struggles to connect them in a meaningful way.",
+      "Demonstrates adequate understanding of common words and phrases but may misinterpret or misuse them occasionally.",
+      "Demonstrates good understanding of words and phrases, using them appropriately in most contexts.",
+      "Demonstrates excellent understanding of a wide range of words and phrases related to daily topics, using them accurately and effectively."
+    ],
+    [
+      "Shows no evidence of using orthography, phonology, ASL parameters, or sentence-level elements.",
+      "Attempts to use these elements, but with frequent and significant errors that impede communication.",
+      "Uses these elements inconsistently, with errors that occasionally confuse the meaning.",
+      "Uses these elements adequately, with some errors that do not significantly impede communication.",
+      "Uses these elements well, with only minor errors that do not affect understanding.",
+      "Uses these elements skillfully and accurately to enhance communication."
+    ],
+    [
+      "Unable to form simple sentences on familiar topics.",
+      "Forms sentences that are incomprehensible or grammatically incorrect.",
+      "Forms very basic sentences with significant grammatical errors that often obscure the meaning.",
+      "Forms simple sentences with some grammatical errors, but the meaning is generally clear.",
+      "Forms grammatically correct simple sentences on familiar topics.",
+      "Forms complex and grammatically sound sentences, using a varied vocabulary and demonstrating nuanced understanding."
+    ],
+    [
+      "Unable to communicate any meaningful information.",
+      "Communication is severely limited and difficult to understand.",
+      "Can communicate some basic information, but with significant effort and frequent misunderstandings.",
+      "Communicates adequately on familiar topics, but may struggle with more complex ideas or unfamiliar vocabulary.",
+      "Communicates effectively on a range of familiar topics, demonstrating a clear understanding.",
+      "Communicates fluently and effectively, demonstrating a sophisticated understanding of the language and culture."
+    ]
+  ]
+}

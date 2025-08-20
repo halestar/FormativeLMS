@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Bullying Characteristics",
+    "Application of Knowledge to Scenarios",
+    "Differentiation Between Bullying and Other Behaviors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the characteristics of bullying.",
+      "The student can identify one or two characteristics of bullying with significant prompting.",
+      "The student can identify some characteristics of bullying with some prompting.",
+      "The student can identify several characteristics of bullying with minimal prompting.",
+      "The student can independently identify most characteristics of bullying and provide examples.",
+      "The student can comprehensively identify and explain various characteristics of bullying, providing relevant examples and demonstrating a nuanced understanding."
+    ],
+    [
+      "The student cannot apply knowledge of bullying characteristics to real-life scenarios.",
+      "The student struggles to apply knowledge of bullying characteristics to simple scenarios, even with guidance.",
+      "The student can apply knowledge of bullying characteristics to simple scenarios with some difficulty.",
+      "The student can apply knowledge of bullying characteristics to straightforward scenarios.",
+      "The student can apply knowledge of bullying characteristics to various scenarios, including complex ones.",
+      "The student can expertly apply knowledge of bullying characteristics to diverse and complex scenarios, demonstrating critical thinking and problem-solving skills."
+    ],
+    [
+      "The student cannot differentiate between bullying and other behaviors like teasing or conflict.",
+      "The student struggles to differentiate between bullying and other behaviors, even with clear examples.",
+      "The student can differentiate between bullying and other behaviors in simple cases with some assistance.",
+      "The student can differentiate between bullying and other behaviors in most cases.",
+      "The student can clearly differentiate between bullying and other behaviors, explaining the key distinctions.",
+      "The student can expertly differentiate between bullying and other behaviors, providing nuanced explanations of the differences and demonstrating a comprehensive understanding of the context."
+    ]
+  ]
+}

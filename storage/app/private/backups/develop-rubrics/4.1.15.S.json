@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Emergency Contacts",
+    "Understanding of Immediate Actions",
+    "Awareness of Specific Poisoning Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any emergency contacts for poisoning situations.",
+      "Identifies one emergency contact but lacks specific details.",
+      "Identifies 9-1-1 or a poison control center but misses other options.",
+      "Identifies 9-1-1 and a poison control center but doesn't include local emergency numbers.",
+      "Identifies 9-1-1, a poison control center, and a local emergency number.",
+      "Clearly and accurately identifies 9-1-1, a poison control center, and a local emergency number as appropriate contacts in poisoning situations, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Does not explain any actions to take in a poisoning situation.",
+      "Suggests inappropriate actions or actions that would worsen the situation.",
+      "Mentions calling for help but does not describe any other immediate actions.",
+      "Describes basic actions like staying calm and seeking fresh air but misses key steps.",
+      "Explains the importance of calling for help and provides one other relevant action like identifying the poison.",
+      "Provides a clear and accurate explanation of immediate actions to take, including calling for help, identifying the substance, and following instructions from emergency services, showing a complete understanding."
+    ],
+    [
+      "Demonstrates no awareness of common sources of poisoning.",
+      "Mentions a single source of poisoning but shows no understanding of the risks.",
+      "Lists some potential poisoning sources but lacks specific examples.",
+      "Identifies household cleaning or paint products as potential poisons but offers no additional detail.",
+      "Explains the risks of household cleaning or paint products with some specific information.",
+      "Clearly explains the risks of household cleaning and paint products as sources of poisoning, offering specific details about the dangers and demonstrating comprehensive awareness."
+    ]
+  ]
+}

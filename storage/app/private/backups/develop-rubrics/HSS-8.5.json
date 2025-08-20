@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of U.S. Foreign Policy Principles",
+    "Analysis of Key Events and Decisions",
+    "Consideration of Different Perspectives"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the basic principles guiding U.S. foreign policy in the early Republic.",
+      "Shows a limited understanding of one or two principles guiding U.S. foreign policy in the early Republic.",
+      "Identifies some principles guiding U.S. foreign policy, but lacks depth in explanation or connection to historical events.",
+      "Explains several principles of U.S. foreign policy with reasonable clarity and provides some context.",
+      "Clearly explains the main principles guiding U.S. foreign policy, providing relevant historical context and examples.",
+      "Offers a comprehensive explanation of the principles, demonstrating nuanced understanding and insightful connections to historical events and their lasting impact."
+    ],
+    [
+      "Unable to identify any key events or decisions shaping U.S. foreign policy during the early Republic.",
+      "Identifies one key event or decision with minimal explanation of its significance.",
+      "Describes a few key events or decisions, but the analysis of their impact on U.S. foreign policy is superficial.",
+      "Analyzes several key events or decisions, explaining their immediate impact on U.S. foreign policy.",
+      "Provides a thorough analysis of key events\/decisions and explains both their immediate and longer-term impact on U.S. foreign policy.",
+      "Offers a sophisticated analysis, evaluating the relative importance of different events\/decisions and their complex, cascading effects on U.S. foreign policy and global relations."
+    ],
+    [
+      "Presents only one perspective on U.S. foreign policy with no recognition of alternative viewpoints.",
+      "Acknowledges the existence of different viewpoints but does not elaborate on them.",
+      "Briefly mentions a different perspective but does not fully explain or analyze it.",
+      "Explains one or two different perspectives on U.S. foreign policy and their underlying motivations.",
+      "Analyzes several different perspectives, explaining their motivations and potential biases.",
+      "Presents a nuanced analysis of multiple perspectives, evaluating their validity and considering how they shaped the debates and outcomes of U.S. foreign policy during the early Republic."
+    ]
+  ]
+}

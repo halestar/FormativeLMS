@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning and Execution of Fair Tests",
+    "Identification and Analysis of Failure Points",
+    "Improvement of Model or Prototype",
+    "Consideration of Constraints and Criteria"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No clear plan for testing is evident. Variables are not controlled, and the testing process is not fair or systematic.",
+      "A plan for testing is presented, but it lacks detail. Some variables are mentioned, but control is inconsistent. The fairness of the test is questionable.",
+      "A basic plan for testing is in place, identifying some key variables and attempting to control them. The concept of a fair test is understood, but execution is flawed.",
+      "A detailed plan for testing is provided, with clear identification and control of variables. The testing process is generally fair and systematic, but there may be minor inconsistencies.",
+      "A comprehensive and well-reasoned plan for testing is implemented, demonstrating excellent control of variables and a strong commitment to fairness and systematic data collection.",
+      "An exemplary plan for testing is executed flawlessly, showcasing sophisticated control of variables, meticulous attention to fairness, and highly systematic data collection, setting a standard for scientific investigation."
+    ],
+    [
+      "Failure points are not identified or considered in the analysis.",
+      "Failure points are mentioned, but there is no analysis of their impact or potential solutions.",
+      "Some failure points are identified, but the analysis is superficial and lacks depth.",
+      "Failure points are identified and analyzed, with some discussion of their causes and potential solutions.",
+      "Failure points are thoroughly identified and analyzed, with insightful discussion of their causes and effective solutions proposed.",
+      "Failure points are exhaustively identified and analyzed, with profound insights into their causes and innovative solutions proposed, demonstrating exceptional problem-solving skills."
+    ],
+    [
+      "No improvements are made to the model or prototype based on test results.",
+      "Some minor improvements are attempted, but they are ineffective or poorly justified.",
+      "Some improvements are made to the model or prototype, but their impact is limited.",
+      "Significant improvements are made to the model or prototype based on test results, demonstrating a clear understanding of the data.",
+      "Substantial improvements are made to the model or prototype, resulting in significant performance gains and demonstrating a deep understanding of the data.",
+      "Transformative improvements are made to the model or prototype, resulting in groundbreaking performance enhancements and demonstrating exceptional insight and innovation."
+    ],
+    [
+      "Constraints and criteria are not considered in the design or testing process.",
+      "Constraints and criteria are mentioned, but they are not integrated into the design or testing process.",
+      "Constraints and criteria are considered, but their impact on the design and testing process is minimal.",
+      "Constraints and criteria are effectively integrated into the design and testing process, guiding decision-making and optimization.",
+      "Constraints and criteria are expertly integrated into the design and testing process, resulting in a highly optimized solution that meets all requirements.",
+      "Constraints and criteria are masterfully integrated into the design and testing process, yielding an exceptional solution that surpasses all expectations and sets a new standard for excellence."
+    ]
+  ]
+}

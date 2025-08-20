@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of P-value Concept",
+    "Calculation of P-value",
+    "Application to Normal Distribution",
+    "Interpretation of Results"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of what a P-value represents.",
+      "Student shows a very limited understanding of P-values, with significant misconceptions.",
+      "Student demonstrates a basic understanding of P-values but struggles to explain its meaning in context.",
+      "Student understands the general concept of P-values and can explain it with some clarity.",
+      "Student demonstrates a solid understanding of P-values, explaining its meaning and role in hypothesis testing clearly.",
+      "Student demonstrates a comprehensive understanding of P-values, including its interpretation and limitations, explaining it with precision and insight."
+    ],
+    [
+      "Student is unable to attempt calculating the P-value.",
+      "Student attempts to calculate the P-value but makes fundamental errors in the process.",
+      "Student calculates the P-value with significant errors or omissions.",
+      "Student calculates the P-value with minor errors that do not significantly impact the result.",
+      "Student correctly calculates the P-value, demonstrating a good understanding of the process.",
+      "Student accurately and efficiently calculates the P-value, showing mastery of the calculation techniques and attention to detail."
+    ],
+    [
+      "Student does not recognize the relevance of the normal distribution to the problem.",
+      "Student shows a limited ability to connect the sample data to the normal distribution.",
+      "Student attempts to use the normal distribution but struggles with appropriate parameters or standardization.",
+      "Student applies the normal distribution with some accuracy but may have minor inconsistencies.",
+      "Student correctly applies the normal distribution to determine the P-value.",
+      "Student expertly applies the normal distribution, demonstrating a deep understanding of its properties and relevance to the statistical test."
+    ],
+    [
+      "Student provides no interpretation of the calculated P-value.",
+      "Student attempts to interpret the P-value but provides an incorrect or irrelevant interpretation.",
+      "Student's interpretation of the P-value is vague or partially incorrect.",
+      "Student provides a correct but basic interpretation of the P-value in the context of the problem.",
+      "Student interprets the P-value accurately, relating it to the strength of evidence against the null hypothesis.",
+      "Student provides a nuanced and insightful interpretation of the P-value, considering its implications for the hypothesis test and potential limitations."
+    ]
+  ]
+}

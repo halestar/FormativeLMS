@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Preventative Care",
+    "Knowledge of Screening and Immunization",
+    "Awareness of Mental Health Services"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of preventative medical services.",
+      "Student shows minimal awareness of preventative care and its importance.",
+      "Student identifies a few preventative services but struggles to explain their importance.",
+      "Student explains several age-appropriate preventative services and their basic importance.",
+      "Student thoroughly explains a range of age-appropriate preventative services, detailing their importance in maintaining health.",
+      "Student comprehensively explains and defends the importance of various age-appropriate preventative medical services, including how these services contribute to long-term health outcomes."
+    ],
+    [
+      "Student is unaware of any screenings or immunizations.",
+      "Student vaguely mentions screenings or immunizations but lacks specific details.",
+      "Student identifies a few common screenings or immunizations but does not explain their purpose.",
+      "Student describes common screenings and immunizations and their general purpose.",
+      "Student accurately describes various screenings and immunizations relevant to their age group, explaining their purposes and benefits.",
+      "Student comprehensively discusses screenings and immunizations, including schedules, benefits, and potential risks, demonstrating a deep understanding of their importance in health maintenance."
+    ],
+    [
+      "Student is unaware of mental health services.",
+      "Student shows limited awareness of mental health services.",
+      "Student identifies mental health services but struggles to explain its importance.",
+      "Student explains what mental health services are and their general importance.",
+      "Student thoroughly explains mental health services, detailing its importance in maintaining mental well-being.",
+      "Student comprehensively explains and defends the importance of mental health services, including how these services contribute to mental well-being."
+    ]
+  ]
+}

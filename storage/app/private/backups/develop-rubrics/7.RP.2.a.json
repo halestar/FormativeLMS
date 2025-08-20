@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying Proportional Relationships from Tables",
+    "Identifying Proportional Relationships from Graphs",
+    "Testing for Equivalent Ratios",
+    "Representing Proportional Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify proportional relationships from tables.",
+      "Student can identify proportional relationships from tables with significant errors or omissions.",
+      "Student can identify proportional relationships from tables with minor errors.",
+      "Student can accurately identify proportional relationships from most tables.",
+      "Student can accurately identify proportional relationships from tables and explain the reasoning.",
+      "Student can accurately identify proportional relationships from tables, explain the reasoning, and provide examples of real-world applications."
+    ],
+    [
+      "Student cannot identify proportional relationships from graphs.",
+      "Student attempts to identify proportional relationships from graphs but demonstrates misunderstanding of key characteristics (e.g., straight line, passes through origin).",
+      "Student identifies some characteristics of proportional relationships in graphs but makes errors in interpretation.",
+      "Student can identify proportional relationships from most graphs.",
+      "Student can accurately identify proportional relationships from graphs and explain the significance of the straight line and origin.",
+      "Student can accurately identify proportional relationships from graphs, explain the significance of the straight line and origin, and relate it to the constant of proportionality."
+    ],
+    [
+      "Student does not attempt to test for equivalent ratios.",
+      "Student attempts to test for equivalent ratios but demonstrates a lack of understanding of how to compare ratios.",
+      "Student makes significant errors when testing for equivalent ratios.",
+      "Student can accurately test for equivalent ratios in simple problems.",
+      "Student can accurately test for equivalent ratios and explain why the ratios are (or are not) equivalent.",
+      "Student can accurately test for equivalent ratios, explain their equivalence, and relate it to the constant of proportionality and real-world contexts."
+    ],
+    [
+      "Student cannot represent proportional relationships.",
+      "Student attempts to represent proportional relationships but does so incorrectly or incompletely.",
+      "Student can represent proportional relationships with some errors.",
+      "Student can accurately represent proportional relationships in tables or graphs.",
+      "Student can accurately represent proportional relationships in tables and graphs and explain the connection between them.",
+      "Student can accurately represent proportional relationships in tables, graphs, and equations, and explain the connections between these representations."
+    ]
+  ]
+}

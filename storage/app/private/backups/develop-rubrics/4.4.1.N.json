@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Conciseness: How clearly and directly the student articulates their request for healthy food choices.",
+    "Use of Appropriate Language: The extent to which the student uses vocabulary and terminology related to healthy eating.",
+    "Assertiveness and Confidence: How confidently the student makes their request, demonstrating self-assurance.",
+    "Knowledge of Healthy Food Choices: Evidence that the student understands what constitutes a healthy food choice and can articulate why."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The request is unclear, rambling, and difficult to understand.",
+      "The request lacks clarity and requires significant interpretation.",
+      "The request is somewhat clear but could be more concise.",
+      "The request is clear and mostly concise, with minor areas for improvement.",
+      "The request is clear, concise, and easily understood.",
+      "The request is exceptionally clear, concise, and leaves no room for misinterpretation."
+    ],
+    [
+      "The student uses inappropriate or no relevant language.",
+      "The student's language is simplistic and doesn't demonstrate understanding of healthy eating terminology.",
+      "The student attempts to use appropriate language, but there are some inaccuracies.",
+      "The student uses appropriate language for the most part, with only minor errors.",
+      "The student uses appropriate language effectively and accurately.",
+      "The student demonstrates mastery of appropriate language and terminology related to healthy eating, using it with confidence and precision."
+    ],
+    [
+      "The student is hesitant, lacks confidence, and struggles to make their request.",
+      "The student is somewhat hesitant and lacks confidence in their request.",
+      "The student shows some assertiveness but could be more confident.",
+      "The student is generally assertive and confident in their request.",
+      "The student is assertive, confident, and makes their request with assurance.",
+      "The student is exceptionally assertive, confident, and commands attention with their request."
+    ],
+    [
+      "The student demonstrates no knowledge of healthy food choices.",
+      "The student has limited understanding of healthy food choices and struggles to explain why.",
+      "The student identifies some healthy food choices but lacks depth in their explanation.",
+      "The student demonstrates a good understanding of healthy food choices and can explain their benefits.",
+      "The student demonstrates a strong understanding of healthy food choices and articulates their benefits clearly.",
+      "The student demonstrates a comprehensive understanding of healthy food choices and eloquently explains their benefits with insightful detail."
+    ]
+  ]
+}

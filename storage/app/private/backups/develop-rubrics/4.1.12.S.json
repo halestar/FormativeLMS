@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Alternatives",
+    "Understanding of Positive Aspects",
+    "Clarity and Relevance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No alternatives to gang activity are identified.",
+      "Identifies one vague or unrealistic alternative.",
+      "Identifies one somewhat realistic alternative to gang activity.",
+      "Identifies two realistic alternatives to gang activity with limited detail.",
+      "Identifies three realistic alternatives to gang activity with some explanation.",
+      "Identifies multiple realistic alternatives to gang activity with clear and thorough explanations."
+    ],
+    [
+      "Does not demonstrate understanding of why alternatives are positive.",
+      "Shows minimal understanding of the positive aspects of identified alternatives.",
+      "Shows some understanding of the positive aspects of identified alternatives.",
+      "Explains one or two positive aspects of the alternatives.",
+      "Explains several positive aspects of the alternatives with reasonable detail.",
+      "Clearly and thoroughly explains multiple positive aspects and benefits of each alternative."
+    ],
+    [
+      "Response is unclear and does not address the prompt.",
+      "Response is difficult to understand and only vaguely relevant.",
+      "Response is understandable but lacks specific detail.",
+      "Response is generally clear and relevant to the topic.",
+      "Response is clear, concise, and relevant with supporting details.",
+      "Response is exceptionally clear, well-organized, and provides insightful, relevant information."
+    ]
+  ]
+}

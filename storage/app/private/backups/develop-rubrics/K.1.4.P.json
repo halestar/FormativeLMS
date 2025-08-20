@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Germ Transmission",
+    "Explanation of Harmful Effects",
+    "Application of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how germs are transmitted or their potential harm.",
+      "Shows a minimal understanding of germ transmission with significant misconceptions about the process and its health implications.",
+      "Displays a basic understanding of how germs are transmitted, but struggles to explain the specific ways they can harm health.",
+      "Explains the general process of germ transmission and can identify some ways in which germs can be harmful, but lacks detail.",
+      "Clearly explains the process of germ transmission and provides several specific examples of how germs can harm health, with good accuracy.",
+      "Provides a comprehensive and detailed explanation of germ transmission, including various modes of transmission, and thoroughly explains the specific mechanisms through which germs can harm health, demonstrating a strong understanding."
+    ],
+    [
+      "Unable to identify any harmful effects of germ transmission on health.",
+      "Identifies one or two very general harmful effects of germs, without specific examples or detailed explanations.",
+      "Lists a few harmful effects of germ transmission, but the explanations are vague or incomplete.",
+      "Explains several harmful effects of germs on health with some detail, but may not cover a wide range of potential health issues.",
+      "Provides clear and accurate explanations of multiple harmful effects of germ transmission, including specific diseases and health problems.",
+      "Offers a comprehensive explanation of the wide range of harmful effects associated with germ transmission, including detailed descriptions of diseases, complications, and long-term health impacts."
+    ],
+    [
+      "Does not apply knowledge to real-world scenarios or prevention strategies.",
+      "Attempts to apply knowledge to real-world scenarios, but application is flawed or irrelevant.",
+      "Applies knowledge to one or two real-world scenarios, but the application lacks depth or detail.",
+      "Applies knowledge to several real-world scenarios, such as disease prevention, but may overlook key factors or provide incomplete solutions.",
+      "Applies knowledge effectively to real-world scenarios, such as suggesting preventive measures and explaining their impact on health.",
+      "Demonstrates exceptional ability to apply knowledge to a wide range of real-world scenarios, including developing comprehensive prevention strategies and explaining the underlying scientific principles."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Market Economy Principles",
+    "Analysis of the Role of Market Economy in Liberty",
+    "Application of Adam Smith's Ideas"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of market economy principles is demonstrated.",
+      "Demonstrates a very limited understanding of basic market economy principles, such as supply and demand.",
+      "Demonstrates a basic understanding of market economy principles, but struggles to apply them to the context of political and personal liberty.",
+      "Demonstrates a solid understanding of market economy principles and can somewhat connect them to political and personal liberty.",
+      "Demonstrates a strong understanding of market economy principles and clearly connects them to the establishment and preservation of political and personal liberty.",
+      "Demonstrates a comprehensive understanding of market economy principles, clearly connects them to political and personal liberty, and provides nuanced examples, potentially referencing Adam Smith's work."
+    ],
+    [
+      "No analysis is provided.",
+      "Offers a superficial or irrelevant analysis of the role of market economy.",
+      "Provides a basic analysis, but lacks depth or supporting evidence.",
+      "Analyzes the role of market economy with some supporting evidence, but may lack nuance or critical thinking.",
+      "Provides a well-supported and thoughtful analysis of the role of market economy in establishing and preserving liberty.",
+      "Offers an insightful and comprehensive analysis, demonstrating critical thinking and nuanced understanding of the complex relationship between market economy and liberty."
+    ],
+    [
+      "No mention or understanding of Adam Smith's ideas is present.",
+      "Mentions Adam Smith but shows no understanding of his relevant ideas.",
+      "Demonstrates a limited understanding of Adam Smith's ideas (e.g., 'The Wealth of Nations') but does not connect them effectively to the topic.",
+      "Demonstrates a fair understanding of Adam Smith's ideas and attempts to connect them to the role of market economy in liberty, though the connection may be somewhat weak.",
+      "Effectively applies Adam Smith's ideas to explain how a market economy can foster political and personal liberty.",
+      "Masterfully applies Adam Smith's ideas, providing specific examples and demonstrating a sophisticated understanding of his contributions to economic and political thought."
+    ]
+  ]
+}

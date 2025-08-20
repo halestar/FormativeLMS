@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Expected Value",
+    "Application of Probability in Decision Analysis",
+    "Comparison of Strategies Based on Expected Values",
+    "Communication and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of expected value or its relevance to decision-making.",
+      "Student shows minimal understanding of expected value; unable to apply it to decision-making scenarios.",
+      "Student demonstrates a basic understanding of expected value but struggles to calculate it accurately or apply it consistently.",
+      "Student can calculate expected value and apply it to simple decision-making scenarios but may struggle with more complex problems.",
+      "Student demonstrates a solid understanding of expected value and can apply it to a variety of decision-making scenarios with reasonable accuracy.",
+      "Student demonstrates a comprehensive understanding of expected value and can apply it effectively to complex decision-making scenarios, including identifying limitations and assumptions."
+    ],
+    [
+      "Student does not use probability to weigh outcomes or evaluate decisions.",
+      "Student attempts to use probability but struggles to assign appropriate probabilities to outcomes.",
+      "Student can assign basic probabilities but struggles to integrate them into a decision-making process.",
+      "Student can use probabilities to weigh outcomes in simple decisions but struggles with more complex scenarios or inconsistent probabilities.",
+      "Student effectively uses probabilities to weigh outcomes and evaluate decisions in a variety of scenarios.",
+      "Student expertly uses probabilities to weigh outcomes, evaluate decisions, and compare strategies, demonstrating a nuanced understanding of probabilistic reasoning."
+    ],
+    [
+      "Student cannot compare different strategies or options based on expected values.",
+      "Student attempts to compare strategies but lacks a clear understanding of how to use expected values in the comparison.",
+      "Student can perform basic comparisons of strategies based on expected values but struggles to justify their reasoning.",
+      "Student can compare strategies and justify their reasoning using expected values but may overlook important factors or assumptions.",
+      "Student effectively compares strategies based on expected values, providing clear and logical justifications for their choices.",
+      "Student expertly compares strategies, considering multiple factors and assumptions, and providing nuanced and insightful justifications based on expected values."
+    ],
+    [
+      "Student's explanation is unclear, incomplete, or lacks mathematical justification.",
+      "Student attempts to explain their reasoning but struggles to articulate their thought process or provide mathematical support.",
+      "Student can explain their approach but may struggle to provide clear mathematical justification or address potential limitations.",
+      "Student can clearly explain their reasoning and provide mathematical justification, but their explanation may lack depth or nuance.",
+      "Student clearly and effectively communicates their reasoning, providing sound mathematical justification and addressing potential limitations or assumptions.",
+      "Student communicates their reasoning with exceptional clarity and depth, providing rigorous mathematical justification, addressing limitations, and demonstrating a sophisticated understanding of the decision-making process."
+    ]
+  ]
+}

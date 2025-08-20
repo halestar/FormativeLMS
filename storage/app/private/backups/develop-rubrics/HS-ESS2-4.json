@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model in Representing Energy Flows",
+    "Explanation of Natural Factors Influencing Climate",
+    "Explanation of Human Activities Influencing Climate",
+    "Use of Empirical Evidence and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is absent or completely irrelevant to energy flows within Earth's climate system.",
+      "The model vaguely attempts to represent energy flows but contains major inaccuracies or omissions.",
+      "The model represents some basic energy flows, but with noticeable inaccuracies or a lack of detail.",
+      "The model accurately represents the primary energy flows into and out of Earth's systems, with minor omissions.",
+      "The model accurately represents the energy flows, including key components like solar radiation, reflection, absorption, and re-radiation.",
+      "The model comprehensively and accurately represents energy flows, including detailed components and their interactions, demonstrating a deep understanding of the system."
+    ],
+    [
+      "No natural factors influencing climate are identified or the explanation is completely incorrect.",
+      "One or more natural factors are mentioned, but the explanation of their influence on climate is vague, inaccurate, or missing.",
+      "Identifies at least one natural factor (e.g., volcanic activity, ocean circulation) and provides a basic but incomplete explanation of its influence.",
+      "Identifies several natural factors and explains their influence on climate with reasonable accuracy and detail.",
+      "Clearly explains the influence of multiple natural factors on climate, including changes in Earth's orbit, solar output, and tectonic events.",
+      "Provides a comprehensive and nuanced explanation of how multiple natural factors interact to influence climate on various timescales, demonstrating in-depth understanding."
+    ],
+    [
+      "No human activities are identified or the explanation is completely incorrect.",
+      "Mentions human activities, but the explanation of their influence on climate is vague, inaccurate, or missing.",
+      "Identifies human activities (e.g., increased carbon dioxide) and provides a basic but incomplete explanation of its influence.",
+      "Explains how human activities influence climate with reasonable accuracy and detail.",
+      "Clearly explains the influence of human activities, specifically increased carbon dioxide concentrations, on climate.",
+      "Provides a comprehensive and nuanced explanation of how human activities influence climate, demonstrating in-depth understanding."
+    ],
+    [
+      "No empirical evidence is presented, or the reasoning is flawed.",
+      "Attempts to use evidence, but it is weak or irrelevant.",
+      "Presents some empirical evidence with limited reasoning.",
+      "Uses empirical evidence to support claims about cause and effect relationships in the climate system.",
+      "Strengthens arguments with multiple lines of evidence supporting a single explanation.",
+      "Masterfully uses empirical evidence to support claims, demonstrating a deep understanding of cause and effect relationships in the climate system."
+    ]
+  ]
+}

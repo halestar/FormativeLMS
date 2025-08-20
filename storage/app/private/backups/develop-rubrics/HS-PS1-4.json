@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model",
+    "Explanation of Energy Release\/Absorption",
+    "Understanding of Bond Energy",
+    "Use of Scientific Vocabulary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is completely inaccurate and does not represent the chemical reaction or energy changes.",
+      "The model contains significant inaccuracies regarding the representation of the chemical reaction or energy changes.",
+      "The model contains some inaccuracies, but generally attempts to represent the chemical reaction and energy changes.",
+      "The model is mostly accurate but may have minor errors or omissions in representing the chemical reaction and energy changes.",
+      "The model is accurate and represents the chemical reaction and energy changes effectively with only minor areas for improvement.",
+      "The model is exceptionally accurate, clearly representing the chemical reaction, energy changes, and their relationship with no errors."
+    ],
+    [
+      "The explanation is missing or does not address the release or absorption of energy in the chemical reaction.",
+      "The explanation is unclear and does not adequately describe the release or absorption of energy.",
+      "The explanation is basic and touches upon energy release\/absorption but lacks depth.",
+      "The explanation describes energy release\/absorption but could be more detailed or clear.",
+      "The explanation clearly describes the release or absorption of energy and its relation to the chemical reaction.",
+      "The explanation is comprehensive, clearly articulating the energy release or absorption, relating it to bond energy changes and providing insightful details."
+    ],
+    [
+      "Demonstrates no understanding of bond energy or its role in chemical reactions.",
+      "Shows very limited understanding of bond energy; explanation is confusing or incorrect.",
+      "Demonstrates some basic understanding of bond energy, but with significant gaps or misunderstandings.",
+      "Demonstrates a reasonable understanding of bond energy and its role, but lacks depth.",
+      "Demonstrates a strong understanding of bond energy, including its role in energy changes during reactions.",
+      "Demonstrates a comprehensive and nuanced understanding of bond energy, including its impact on energy changes, and can explain complex scenarios."
+    ],
+    [
+      "No scientific vocabulary is used, or it is used inappropriately.",
+      "Uses very limited scientific vocabulary; many terms are misused or absent.",
+      "Uses some basic scientific vocabulary, but inconsistently or with errors.",
+      "Uses appropriate scientific vocabulary, but could be more precise or consistent.",
+      "Uses scientific vocabulary effectively and accurately to explain the model and concepts.",
+      "Uses a wide range of scientific vocabulary precisely and effectively, enhancing the explanation and demonstrating a mastery of the subject."
+    ]
+  ]
+}

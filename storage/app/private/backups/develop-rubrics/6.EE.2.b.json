@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and identifying mathematical terms (sum, term, product, factor, quotient, coefficient) within expressions.",
+    "Ability to view parts of an expression as a single entity and as a sum\/product of terms.",
+    "Skill in writing and reading algebraic expressions from word problems or real-world scenarios.",
+    "Competence in evaluating expressions by substituting values for variables."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of mathematical terms within expressions.",
+      "Student can identify some mathematical terms but struggles with accurate application.",
+      "Student identifies basic mathematical terms but has difficulty with more complex terms like 'coefficient' or 'quotient'.",
+      "Student accurately identifies most mathematical terms within expressions.",
+      "Student accurately identifies all mathematical terms and can explain their relationships within the expression.",
+      "Student accurately identifies all mathematical terms, explains their relationships, and can apply this knowledge to manipulate expressions."
+    ],
+    [
+      "Student cannot view parts of an expression as a single entity or as a sum\/product of terms.",
+      "Student shows limited ability to view parts of an expression as a single entity or sum\/product.",
+      "Student can view parts of simple expressions as a single entity or sum\/product, but struggles with more complex expressions.",
+      "Student can view parts of most expressions as a single entity or sum\/product.",
+      "Student can consistently view parts of expressions as a single entity or sum\/product, and explain the rationale.",
+      "Student demonstrates a sophisticated understanding of viewing parts of expressions as single entities or sum\/product and can apply this to simplify or solve problems."
+    ],
+    [
+      "Student cannot translate word problems or scenarios into algebraic expressions.",
+      "Student struggles to translate word problems or scenarios into algebraic expressions and makes frequent errors.",
+      "Student can translate simple word problems into algebraic expressions, but struggles with complex scenarios.",
+      "Student can translate most word problems and scenarios into accurate algebraic expressions.",
+      "Student consistently translates word problems and scenarios into accurate algebraic expressions with clear understanding.",
+      "Student expertly translates complex word problems and scenarios into accurate algebraic expressions and can justify their approach."
+    ],
+    [
+      "Student cannot evaluate expressions by substituting values for variables.",
+      "Student attempts to evaluate expressions but makes significant errors in substitution or calculation.",
+      "Student can evaluate simple expressions with correct substitution, but struggles with order of operations or more complex expressions.",
+      "Student can accurately evaluate most expressions with correct substitution and order of operations.",
+      "Student consistently evaluates expressions accurately, showing a strong understanding of substitution and order of operations.",
+      "Student can expertly evaluate complex expressions, including those with multiple variables and operations, with accuracy and efficiency."
+    ]
+  ]
+}

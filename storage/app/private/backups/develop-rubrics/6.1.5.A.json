@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Secondhand Smoke Components",
+    "Explanation of Health Dangers",
+    "Understanding of Affected Populations",
+    "Discussion of Preventative Measures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what comprises secondhand smoke.",
+      "Identifies one or two components of secondhand smoke.",
+      "Lists some components of secondhand smoke, but with inaccuracies.",
+      "Accurately lists the major components of secondhand smoke.",
+      "Explains the major components and their origins.",
+      "Provides a detailed explanation of the components, origins, and chemical nature of secondhand smoke."
+    ],
+    [
+      "Fails to explain any dangers of secondhand smoke.",
+      "Mentions a single, vague danger with no supporting information.",
+      "Lists a few potential health risks, but lacks detail or accuracy.",
+      "Explains several health risks associated with secondhand smoke, such as respiratory issues.",
+      "Details multiple health dangers, including long-term risks like cancer and heart disease.",
+      "Provides a comprehensive overview of both short-term and long-term health risks with supporting evidence and data."
+    ],
+    [
+      "Does not identify any specific populations at risk.",
+      "Mentions that secondhand smoke is bad for everyone.",
+      "Identifies children as a population at risk.",
+      "Identifies children and pregnant women as populations at higher risk.",
+      "Explains why children, pregnant women, and individuals with respiratory conditions are at higher risk.",
+      "Analyzes how socioeconomic factors and exposure levels affect different populations' vulnerability to secondhand smoke."
+    ],
+    [
+      "Does not suggest any preventative measures.",
+      "Suggests a single, ineffective measure.",
+      "Lists a few general strategies, such as avoiding smokers.",
+      "Suggests practical ways to reduce exposure, such as smoke-free zones.",
+      "Discusses several preventative measures, including policy changes and personal choices.",
+      "Evaluates the effectiveness of different preventative measures and proposes new strategies to minimize exposure to secondhand smoke."
+    ]
+  ]
+}

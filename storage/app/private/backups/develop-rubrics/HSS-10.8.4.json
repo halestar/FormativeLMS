@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Key Leaders",
+    "Understanding of Political Roles",
+    "Understanding of Diplomatic Roles",
+    "Understanding of Military Roles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any of the key political, diplomatic, or military leaders of World War II.",
+      "Student can identify 1-2 key leaders, but provides no context or explanation.",
+      "Student can identify 3-4 key leaders with limited context or explanation of their roles.",
+      "Student can identify 5-6 key leaders and provides a basic explanation of their roles and significance during the war.",
+      "Student can identify 7-8 key leaders and provides a clear and relatively detailed explanation of their roles and significance during the war.",
+      "Student can identify the majority of the key leaders and provides a thorough and detailed explanation of their roles, impact, and significance during the war. Demonstrates comprehensive knowledge."
+    ],
+    [
+      "Student demonstrates no understanding of the political roles of leaders during World War II.",
+      "Student shows minimal understanding, possibly confusing roles or providing inaccurate information.",
+      "Student shows some understanding of the political roles, but lacks detail or clarity.",
+      "Student accurately describes the basic political roles of several key leaders.",
+      "Student clearly explains the political roles and responsibilities of key leaders, providing relevant examples.",
+      "Student demonstrates a deep understanding of the political roles, strategies, and challenges faced by leaders, providing insightful analysis."
+    ],
+    [
+      "Student demonstrates no understanding of the diplomatic roles of leaders during World War II.",
+      "Student shows minimal understanding, possibly confusing roles or providing inaccurate information.",
+      "Student shows some understanding of the diplomatic roles, but lacks detail or clarity.",
+      "Student accurately describes the basic diplomatic roles of several key leaders.",
+      "Student clearly explains the diplomatic actions and negotiations of key leaders, providing relevant examples.",
+      "Student demonstrates a deep understanding of the diplomatic relationships, negotiations, and strategies employed by leaders, providing insightful analysis."
+    ],
+    [
+      "Student demonstrates no understanding of the military roles of leaders during World War II.",
+      "Student shows minimal understanding, possibly confusing roles or providing inaccurate information.",
+      "Student shows some understanding of the military roles, but lacks detail or clarity.",
+      "Student accurately describes the basic military roles of several key leaders.",
+      "Student clearly explains the military strategies, decisions, and impact of key leaders, providing relevant examples.",
+      "Student demonstrates a deep understanding of the military campaigns, strategic decisions, and impact of key leaders, providing insightful analysis."
+    ]
+  ]
+}

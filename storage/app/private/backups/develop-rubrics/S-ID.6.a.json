@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately represent data on two quantitative variables on a scatter plot.",
+    "Ability to describe the relationship between variables on a scatter plot (correlation, association, trends).",
+    "Ability to fit a function to the data and use it to solve problems in context."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to create a scatter plot or the attempt is completely inaccurate.",
+      "The student attempts to create a scatter plot but makes significant errors in plotting the data points.",
+      "The student creates a scatter plot with some errors in plotting the data points or labeling the axes.",
+      "The student accurately represents most of the data on a scatter plot, with only minor errors.",
+      "The student accurately represents data on a scatter plot with clear labels, but may lack minor details.",
+      "The student expertly represents data on a scatter plot with clear labels and demonstrates a thorough understanding of the data's distribution."
+    ],
+    [
+      "The student does not attempt to describe the relationship between variables.",
+      "The student attempts to describe the relationship but provides an inaccurate or irrelevant description.",
+      "The student describes the relationship vaguely or with limited understanding of the correlation or association.",
+      "The student describes the relationship with some accuracy, identifying a basic trend or association.",
+      "The student clearly describes the relationship, accurately identifying the type and strength of correlation or association.",
+      "The student insightfully describes the relationship, providing nuanced observations about trends, clusters, or outliers and their potential implications."
+    ],
+    [
+      "The student does not attempt to fit a function or use it to solve problems.",
+      "The student attempts to fit a function but selects an inappropriate model or cannot apply it to solve problems.",
+      "The student fits a function with limited success, making errors in the model selection or application.",
+      "The student fits a function reasonably well and uses it to solve problems with some accuracy.",
+      "The student effectively fits an appropriate function to the data and uses it to solve problems accurately and efficiently.",
+      "The student skillfully fits the most appropriate function to the data and uses it to solve complex problems with precision and demonstrates a deep understanding of the function's implications."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Air Pollution Sources and Health Impacts",
+    "Identification of Water Pollution Sources and Health Impacts",
+    "Explanation of the Interconnectedness of Air and Water Pollution and Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any sources of air pollution or their impact on health.",
+      "Identifies only one source of air pollution and\/or a vague impact on health.",
+      "Identifies some common sources of air pollution (e.g., vehicle emissions, industrial processes) and mentions a general health impact (e.g., respiratory issues).",
+      "Identifies several sources of air pollution and provides a basic description of their specific health impacts (e.g., asthma, lung irritation).",
+      "Identifies various sources of air pollution (both indoor and outdoor) and thoroughly explains the specific health impacts associated with each (e.g., cardiovascular problems, cancer).",
+      "Demonstrates a comprehensive understanding of diverse sources of air pollution, their detailed health impacts, and provides examples of vulnerable populations. Also, provides solutions to lower air pollution impact."
+    ],
+    [
+      "Does not identify any sources of water pollution or their impact on health.",
+      "Identifies only one source of water pollution and\/or a vague impact on health.",
+      "Identifies some common sources of water pollution (e.g., sewage, agricultural runoff) and mentions a general health impact (e.g., waterborne diseases).",
+      "Identifies several sources of water pollution and provides a basic description of their specific health impacts (e.g., gastrointestinal illness, skin irritation).",
+      "Identifies various sources of water pollution (including chemical and biological contaminants) and thoroughly explains the specific health impacts associated with each (e.g., neurological damage, reproductive issues).",
+      "Demonstrates a comprehensive understanding of diverse sources of water pollution, their detailed health impacts, and provides examples of vulnerable populations. Also, provides solutions to lower water pollution impact."
+    ],
+    [
+      "Does not recognize any connection between air and water pollution or their combined effect on health.",
+      "Suggests a vague connection between air and water pollution and health.",
+      "Describes a simple relationship between air and water pollution and mentions the general impact on health.",
+      "Explains how air and water pollution can interact to exacerbate health problems or affect different populations.",
+      "Clearly articulates the interconnectedness of air and water pollution, providing specific examples of how they can combine to impact health outcomes and ecosystems.",
+      "Demonstrates a sophisticated understanding of the complex interactions between air and water pollution, their synergistic effects on health, and the broader ecological implications."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Model Development and Accuracy: Assesses the student's ability to develop a model that accurately represents matter as composed of particles too small to be seen and uses the model to explain related phenomena.",
+    "Application of Scale, Proportion, and Quantity: Evaluates the student's understanding of scale in relation to particle size and the ability to reason about the quantity of particles.",
+    "Connections to Real-World Phenomena: Focuses on the student's ability to connect the particle model to real-world observations and examples."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not present a model or the model is completely unrelated to the concept of matter being made of particles.",
+      "The student presents a model, but it is inaccurate or demonstrates a misunderstanding of matter composition. The model is not used to explain related phenomena.",
+      "The student presents a basic model showing matter is made of particles, but lacks detail or contains inaccuracies. The explanation of related phenomena is weak or missing.",
+      "The student develops a model that generally represents matter as composed of particles too small to be seen. The model is used to explain simple phenomena, such as air expanding in a basketball, with some success.",
+      "The student develops a clear and accurate model showing matter is composed of particles too small to be seen. The model effectively explains multiple phenomena, such as compression of air and dissolving sugar, with minor gaps or inconsistencies.",
+      "The student develops a sophisticated and accurate model that clearly demonstrates matter is composed of particles too small to be seen. The model is used comprehensively and accurately to explain a wide range of related phenomena, providing detailed insights."
+    ],
+    [
+      "The student does not demonstrate an understanding of scale or proportion in relation to particle size.",
+      "The student shows a limited understanding of scale, proportion, and quantity, with significant misconceptions.",
+      "The student acknowledges the concept of scale but struggles to apply it to particle size or quantity.",
+      "The student demonstrates a basic understanding of scale, proportion, and quantity in relation to particle size and provides a limited explanation.",
+      "The student effectively applies the concepts of scale, proportion, and quantity to explain particle size and quantity in most scenarios.",
+      "The student demonstrates a comprehensive understanding of scale, proportion, and quantity, and applies these concepts to explain particle size and behavior across a wide range of scenarios with precision and accuracy."
+    ],
+    [
+      "The student fails to make any connection between the particle model and real-world phenomena.",
+      "The student attempts to connect the particle model to real-world phenomena, but the connections are superficial or incorrect.",
+      "The student identifies a few real-world examples, but the explanation of how they relate to the particle model is vague or incomplete.",
+      "The student connects the particle model to real-world phenomena, such as inflating a balloon or dissolving sugar, with a satisfactory explanation.",
+      "The student effectively explains multiple real-world phenomena using the particle model, providing clear connections and accurate details.",
+      "The student demonstrates a deep understanding of how the particle model explains a wide range of real-world phenomena, offering nuanced insights and thorough explanations."
+    ]
+  ]
+}

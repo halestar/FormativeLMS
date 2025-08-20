@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Fraction as Multiple of Unit Fraction",
+    "Application of Multiplication to Multiply a Fraction by a Whole Number",
+    "Use of Visual Fraction Models",
+    "Explanation and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding that a fraction can be seen as a multiple of a unit fraction.",
+      "Student struggles to view a fraction as a multiple of a unit fraction, with significant guidance needed.",
+      "Student shows limited understanding of a fraction as a multiple of a unit fraction, requiring some assistance.",
+      "Student understands that a fraction can be seen as a multiple of a unit fraction, but may have minor calculation errors.",
+      "Student clearly understands and applies the concept of a fraction as a multiple of a unit fraction, with accurate calculations.",
+      "Student demonstrates a sophisticated understanding of fractions as multiples of unit fractions, accurately applying the concept in complex problems and explaining the reasoning clearly."
+    ],
+    [
+      "Student is unable to multiply a fraction by a whole number.",
+      "Student struggles to multiply a fraction by a whole number, requiring substantial guidance.",
+      "Student attempts to multiply a fraction by a whole number, but makes frequent errors.",
+      "Student can multiply a fraction by a whole number with some errors or inefficiencies.",
+      "Student accurately multiplies a fraction by a whole number, showing a solid understanding of the process.",
+      "Student efficiently and accurately multiplies fractions by whole numbers, demonstrating a deep understanding and ability to apply the concept in various contexts."
+    ],
+    [
+      "Student does not use or attempt to use visual fraction models.",
+      "Student attempts to use a visual fraction model but it is inaccurate or does not represent the problem.",
+      "Student uses a visual fraction model with some inaccuracies or lack of clarity.",
+      "Student uses a visual fraction model to represent the multiplication of a fraction by a whole number, but the model may have minor flaws.",
+      "Student effectively uses a visual fraction model to accurately represent and solve the multiplication of a fraction by a whole number.",
+      "Student skillfully uses and explains a visual fraction model to solve complex problems involving the multiplication of fractions and whole numbers, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student provides no explanation or reasoning for their solution.",
+      "Student's explanation is unclear, incomplete, or incorrect.",
+      "Student provides a limited explanation with some flaws in reasoning.",
+      "Student provides a reasonable explanation for their solution, with mostly accurate reasoning.",
+      "Student clearly explains their solution process and provides sound reasoning, with accurate mathematical vocabulary.",
+      "Student provides a thorough and insightful explanation, using precise mathematical vocabulary to justify their solution and demonstrating a deep understanding of the underlying concepts."
+    ]
+  ]
+}

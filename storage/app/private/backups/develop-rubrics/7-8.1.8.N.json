@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Nutritionally Balanced Diets",
+    "Application of Research-Based Guidelines",
+    "Identification of Healthy Food Preparation Methods"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes a nutritionally balanced diet.",
+      "Shows a limited understanding, with significant misconceptions about balanced nutrition.",
+      "Identifies some components of a balanced diet but lacks depth in understanding their roles.",
+      "Displays a satisfactory understanding of balanced nutrition, including major food groups and their importance.",
+      "Exhibits a strong understanding of a nutritionally balanced diet, including macro and micronutrients.",
+      "Demonstrates a comprehensive understanding of balanced nutrition, including nuanced aspects like nutrient timing and individual needs."
+    ],
+    [
+      "Does not apply any research-based guidelines in food preparation methods.",
+      "Attempts to apply guidelines but demonstrates misunderstanding or misapplication.",
+      "Applies some guidelines correctly but overlooks others or uses outdated information.",
+      "Consistently applies current research-based guidelines for healthy food preparation.",
+      "Critically evaluates and applies research-based guidelines, adapting them to specific contexts.",
+      "Innovatively applies research-based guidelines, optimizing food preparation for maximum nutritional benefit."
+    ],
+    [
+      "Cannot identify any healthy food preparation methods.",
+      "Identifies one or two methods but lacks understanding of their benefits.",
+      "Identifies several methods but struggles to explain why they are healthy.",
+      "Identifies a range of healthy food preparation methods and explains their benefits.",
+      "Provides detailed explanations of various healthy methods, comparing and contrasting their effects on nutrient retention.",
+      "Expertly analyzes and explains the impact of different preparation methods on nutrient bioavailability and overall health."
+    ]
+  ]
+}

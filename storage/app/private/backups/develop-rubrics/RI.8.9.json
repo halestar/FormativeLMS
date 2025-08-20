@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Conflicting Information",
+    "Analysis of Disagreement on Facts",
+    "Analysis of Disagreement on Interpretation",
+    "Clarity and Organization of Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify any conflicting information between texts.",
+      "Student identifies minimal conflicting information; understanding is superficial.",
+      "Student identifies some conflicting information but misses key discrepancies.",
+      "Student identifies most conflicting information, showing a good understanding of the texts.",
+      "Student identifies nearly all conflicting information and demonstrates a strong understanding of the nuances.",
+      "Student comprehensively identifies all conflicting information, demonstrating insightful understanding and clear articulation of the discrepancies."
+    ],
+    [
+      "Student does not analyze disagreements on matters of fact.",
+      "Student attempts to analyze factual disagreements but struggles to articulate them clearly.",
+      "Student identifies some factual disagreements but lacks depth in analysis.",
+      "Student provides a satisfactory analysis of factual disagreements, demonstrating a clear understanding.",
+      "Student provides a thorough analysis of factual disagreements, highlighting key differences effectively.",
+      "Student provides an incisive and comprehensive analysis of factual disagreements, demonstrating nuanced understanding and insightful interpretation."
+    ],
+    [
+      "Student does not analyze disagreements on matters of interpretation.",
+      "Student attempts to analyze interpretative disagreements but struggles to articulate them clearly.",
+      "Student identifies some interpretative disagreements but lacks depth in analysis.",
+      "Student provides a satisfactory analysis of interpretative disagreements, demonstrating a clear understanding.",
+      "Student provides a thorough analysis of interpretative disagreements, highlighting key differences effectively.",
+      "Student provides an incisive and comprehensive analysis of interpretative disagreements, demonstrating nuanced understanding and insightful interpretation."
+    ],
+    [
+      "Analysis is unclear, disorganized, and difficult to follow.",
+      "Analysis lacks clarity and organization, making it somewhat challenging to follow.",
+      "Analysis is reasonably clear but could benefit from improved organization.",
+      "Analysis is clear and organized, presenting information in a coherent manner.",
+      "Analysis is exceptionally clear, well-organized, and easy to follow, enhancing comprehension.",
+      "Analysis is exceptionally clear, logically structured, and presented with precision, demonstrating mastery of communication skills."
+    ]
+  ]
+}

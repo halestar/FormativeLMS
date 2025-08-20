@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Fertilization",
+    "Knowledge of Fetal Development",
+    "Explanation of Childbirth Process",
+    "Accuracy and Use of Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of fertilization.",
+      "Shows minimal understanding of fertilization; major concepts are missing or incorrect.",
+      "Identifies fertilization but struggles to explain the process or key components.",
+      "Explains fertilization with some inaccuracies or omissions in detail.",
+      "Clearly explains fertilization, including the union of sperm and egg and its role in initiating pregnancy.",
+      "Provides a comprehensive explanation of fertilization, including the biological mechanisms and factors influencing success."
+    ],
+    [
+      "Demonstrates no understanding of fetal development.",
+      "Shows minimal understanding of fetal development; lacks key stages or concepts.",
+      "Identifies some stages of fetal development but struggles to explain the significance of each stage.",
+      "Explains fetal development with some inaccuracies or omissions in detailing key milestones.",
+      "Clearly explains the major stages of fetal development from conception to birth, including key milestones.",
+      "Provides a comprehensive explanation of fetal development, including the influence of genetics and environmental factors on development."
+    ],
+    [
+      "Demonstrates no understanding of the childbirth process.",
+      "Shows minimal understanding of childbirth; lacks key stages or concepts.",
+      "Identifies some aspects of childbirth but struggles to explain the process.",
+      "Explains the childbirth process with some inaccuracies or omissions.",
+      "Clearly explains the stages of labor and delivery, including key physiological changes.",
+      "Provides a comprehensive explanation of the childbirth process, including potential complications and interventions."
+    ],
+    [
+      "Uses inaccurate terminology and demonstrates a lack of understanding of basic concepts.",
+      "Uses some accurate terminology but struggles to apply it correctly; several inaccuracies present.",
+      "Uses mostly accurate terminology but shows some confusion or imprecision in explanations.",
+      "Uses accurate terminology in most cases, with only minor errors or omissions.",
+      "Uses accurate terminology consistently and explains concepts with precision.",
+      "Demonstrates mastery of terminology and uses it effectively to communicate complex ideas related to reproduction and development."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to represent proportional relationships with equations.",
+    "Understanding and application of the constant of proportionality.",
+    "Clarity and accuracy in explaining the relationship between variables."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to represent the relationship with an equation or the equation is completely incorrect.",
+      "Attempts to represent the relationship with an equation, but the equation is flawed and shows a misunderstanding of proportional relationships.",
+      "Represents the relationship with an equation, but there are errors in the equation (e.g., incorrect placement of variables or constant of proportionality).",
+      "Represents the proportional relationship with a correct equation, but the explanation lacks clarity or precision.",
+      "Accurately represents the proportional relationship with a clear and correct equation, demonstrating a solid understanding of the variables and constant of proportionality.",
+      "Represents the proportional relationship with a correct and clearly explained equation, demonstrating a deep understanding. Can also explain why the equation accurately models the relationship and how it relates to real-world scenarios."
+    ],
+    [
+      "Does not identify or use the constant of proportionality.",
+      "Attempts to identify the constant of proportionality, but the value is incorrect or not used appropriately in the equation.",
+      "Identifies the constant of proportionality but struggles to correctly incorporate it into the equation representing the relationship.",
+      "Correctly identifies and uses the constant of proportionality in the equation, but explanation of its meaning is superficial.",
+      "Demonstrates a clear understanding of the constant of proportionality and accurately applies it within the equation to solve problems.",
+      "Shows a sophisticated understanding of the constant of proportionality, explaining its significance in the relationship and using it to solve complex, real-world problems."
+    ],
+    [
+      "Unable to explain the relationship between the variables or provides an inaccurate explanation.",
+      "Attempts to explain the relationship between variables, but the explanation is unclear and contains inaccuracies.",
+      "Explains the relationship between variables, but the explanation is vague and lacks specific details.",
+      "Provides a mostly clear explanation of the relationship between the variables, but may have minor inaccuracies or lack depth.",
+      "Clearly and accurately explains the relationship between the variables, demonstrating a solid understanding of how they relate to each other.",
+      "Provides a comprehensive and insightful explanation of the relationship between the variables, demonstrating a deep understanding and ability to apply this knowledge to novel situations."
+    ]
+  ]
+}

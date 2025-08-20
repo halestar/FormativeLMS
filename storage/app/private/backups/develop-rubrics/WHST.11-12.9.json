@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Quality and Relevance of Evidence",
+    "Depth of Analysis and Reflection",
+    "Integration of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence is drawn from the text, or evidence is completely irrelevant to the analysis, reflection, or research.",
+      "Evidence is minimal and largely irrelevant or weakly connected to the analysis, reflection, or research.",
+      "Some evidence is drawn from the text, but its relevance to the analysis, reflection, or research is questionable or underdeveloped.",
+      "Relevant evidence is presented from the text, and it supports the analysis, reflection, or research, but the connection could be stronger.",
+      "Well-chosen evidence is drawn from the text to clearly support the analysis, reflection, or research with a strong and evident connection.",
+      "Evidence is expertly selected from the text, powerfully enhancing the analysis, reflection, or research with insightful connections and depth."
+    ],
+    [
+      "No analysis or reflection is present.",
+      "Analysis or reflection is superficial, lacks depth, and demonstrates minimal understanding of the text.",
+      "Analysis or reflection is present but remains basic and somewhat unclear, with limited insight into the text.",
+      "Analysis or reflection shows a reasonable understanding of the text and provides some insight, but could be more developed.",
+      "Analysis or reflection is thoughtful and insightful, demonstrating a strong understanding of the text and its implications.",
+      "Analysis or reflection is exceptionally insightful, nuanced, and demonstrates a profound understanding of the text and its broader implications."
+    ],
+    [
+      "Evidence is not integrated into the writing or is presented without context.",
+      "Attempts to integrate evidence are clumsy or confusing; context is lacking.",
+      "Evidence is included, but the integration feels disjointed or forced.",
+      "Evidence is smoothly integrated and supports the points made, but further explanation or context could enhance its impact.",
+      "Evidence is seamlessly integrated into the writing, enhancing the argument or analysis with clear context and explanation.",
+      "Evidence is woven masterfully into the writing, becoming an integral part of the argument or analysis and enriching the overall impact."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of the scope and nature of violence, aggression, bullying, and harassment.",
+    "Effectiveness of the campaign's strategies in preventing violence, aggression, bullying, and harassment.",
+    "Clarity and persuasiveness of the campaign's message.",
+    "Creativity and originality of the campaign's design.",
+    "Feasibility of the campaign's implementation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of violence, aggression, bullying, or harassment.",
+      "Demonstrates limited understanding of violence, aggression, bullying, or harassment.",
+      "Demonstrates some understanding of violence, aggression, bullying, or harassment, but lacks depth.",
+      "Demonstrates a clear understanding of violence, aggression, bullying, and harassment.",
+      "Demonstrates a thorough understanding of violence, aggression, bullying, and harassment, including different forms and contexts.",
+      "Demonstrates an exceptional understanding of violence, aggression, bullying, and harassment, including nuances and underlying causes."
+    ],
+    [
+      "Campaign strategies are unrealistic and ineffective.",
+      "Campaign strategies are poorly defined and lack a clear plan of action.",
+      "Campaign strategies are somewhat defined but may not be very effective or practical.",
+      "Campaign strategies are well-defined and show potential for preventing violence, aggression, bullying, and harassment.",
+      "Campaign strategies are highly effective, practical, and demonstrate a strong understanding of prevention techniques.",
+      "Campaign strategies are exceptionally innovative, effective, and demonstrate a comprehensive understanding of prevention techniques with potential for significant impact."
+    ],
+    [
+      "The campaign's message is unclear and unpersuasive.",
+      "The campaign's message is difficult to understand and lacks persuasive elements.",
+      "The campaign's message is somewhat clear but lacks a strong persuasive impact.",
+      "The campaign's message is clear, concise, and persuasive.",
+      "The campaign's message is highly compelling, memorable, and effectively targets the intended audience.",
+      "The campaign's message is exceptionally powerful, inspiring, and demonstrates a masterful ability to connect with the audience on an emotional level."
+    ],
+    [
+      "The campaign lacks creativity and originality.",
+      "The campaign's design is uninspired and uses common ideas.",
+      "The campaign's design shows some creativity but lacks originality.",
+      "The campaign's design is creative and demonstrates some originality.",
+      "The campaign's design is highly innovative and original, capturing attention and generating interest.",
+      "The campaign's design is exceptionally creative and groundbreaking, setting a new standard for violence prevention campaigns."
+    ],
+    [
+      "The campaign is completely impractical and cannot be implemented.",
+      "The campaign's implementation is highly unlikely due to significant barriers.",
+      "The campaign's implementation faces some challenges but may be possible with adjustments.",
+      "The campaign's implementation is feasible and can be carried out with available resources.",
+      "The campaign's implementation is highly feasible and well-planned, with minimal obstacles.",
+      "The campaign's implementation is exceptionally practical and sustainable, with a clear path to long-term success."
+    ]
+  ]
+}

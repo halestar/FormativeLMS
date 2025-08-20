@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Wave Model Representation",
+    "Explanation of Amplitude and Wavelength",
+    "Demonstration of Wave-Object Interaction",
+    "Use of Patterns to Describe Wave Behavior"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of wave properties.",
+      "The model is rudimentary and contains significant inaccuracies regarding wave properties such as amplitude and wavelength.",
+      "The model is somewhat accurate but lacks detail and contains some misunderstandings of wave properties.",
+      "The model is generally accurate and represents wave properties adequately, but may lack clarity or precision.",
+      "The model is accurate, clearly representing wave properties with good detail and precision.",
+      "The model is highly accurate, detailed, and insightful, demonstrating a comprehensive understanding of wave properties and their relationships."
+    ],
+    [
+      "The explanation is missing or demonstrates no understanding of amplitude and wavelength.",
+      "The explanation is very basic and contains significant errors in defining amplitude and wavelength.",
+      "The explanation is superficial and lacks depth, with some inaccuracies in the definitions of amplitude and wavelength.",
+      "The explanation is adequate but lacks detail and precision in describing amplitude and wavelength.",
+      "The explanation is clear, accurate, and provides sufficient detail on amplitude and wavelength.",
+      "The explanation is comprehensive, insightful, and demonstrates a deep understanding of amplitude and wavelength and their significance."
+    ],
+    [
+      "There is no demonstration or understanding of how waves can cause objects to move.",
+      "The demonstration is flawed and shows a limited understanding of wave-object interaction.",
+      "The demonstration is basic and shows a partial understanding of how waves interact with objects.",
+      "The demonstration is adequate but lacks clarity or detail in explaining wave-object interaction.",
+      "The demonstration is clear, accurate, and shows a good understanding of how waves cause objects to move.",
+      "The demonstration is excellent, providing a comprehensive and insightful explanation of wave-object interaction with specific examples."
+    ],
+    [
+      "No attempt to identify or describe patterns in wave behavior.",
+      "Identifies patterns incorrectly or with no clear connection to wave properties.",
+      "Attempts to describe patterns but with limited accuracy or detail.",
+      "Describes basic patterns in wave behavior, such as repeating amplitude and wavelength.",
+      "Clearly describes and explains patterns in wave behavior, linking them to wave properties effectively.",
+      "Provides an insightful and detailed analysis of patterns in wave behavior, demonstrating a comprehensive understanding of their significance."
+    ]
+  ]
+}

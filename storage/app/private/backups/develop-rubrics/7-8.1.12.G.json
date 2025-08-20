@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Responsible Prenatal Care",
+    "Understanding of Responsible Child Care",
+    "Knowledge of California's Safely Surrendered Baby Law"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of prenatal care practices.",
+      "Student demonstrates minimal understanding of prenatal care, with significant gaps in knowledge.",
+      "Student identifies some prenatal care practices but lacks depth in explanation or demonstrates misunderstandings.",
+      "Student accurately describes several key prenatal care practices and their importance.",
+      "Student comprehensively describes prenatal care practices, explaining their benefits and potential consequences of neglect.",
+      "Student demonstrates a thorough and nuanced understanding of responsible prenatal care, including specific recommendations and adaptations for different situations."
+    ],
+    [
+      "Student demonstrates no understanding of child care practices.",
+      "Student demonstrates minimal understanding of child care, with significant gaps in knowledge.",
+      "Student identifies some child care practices but lacks depth in explanation or demonstrates misunderstandings.",
+      "Student accurately describes several key child care practices and their importance.",
+      "Student comprehensively describes child care practices, explaining their benefits and potential consequences of neglect.",
+      "Student demonstrates a thorough and nuanced understanding of responsible child care, including specific recommendations and adaptations for different situations."
+    ],
+    [
+      "Student is unaware of California's Safely Surrendered Baby Law.",
+      "Student has heard of the law but cannot accurately describe its purpose or key provisions.",
+      "Student identifies the law as related to baby abandonment but lacks detail about its specifics.",
+      "Student accurately describes the main purpose of the law and some of its key provisions, such as safe surrender locations.",
+      "Student thoroughly explains the law, including its purpose, safe surrender locations, timeframes, and protections for parents.",
+      "Student demonstrates a comprehensive understanding of the law, including its historical context, impact on infant safety, and related resources."
+    ]
+  ]
+}

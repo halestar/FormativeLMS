@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Cultural Influences on Body Image",
+    "Understanding of Media Influences on Body Image",
+    "Explanation of Other Factors Influencing Body Image",
+    "Clarity and Coherence of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how culture influences perceptions of body image, gender roles, or attractiveness.",
+      "Demonstrates a minimal understanding of how culture influences perceptions of body image, gender roles, or attractiveness. Mentions one cultural influence but lacks depth.",
+      "Demonstrates a basic understanding of how culture influences perceptions of body image, gender roles, and attractiveness. Identifies a few cultural influences.",
+      "Demonstrates a satisfactory understanding of how culture influences perceptions of body image, gender roles, and attractiveness. Provides examples of multiple cultural influences with some explanation.",
+      "Demonstrates a strong understanding of how culture influences perceptions of body image, gender roles, and attractiveness. Explains multiple cultural influences with clear and detailed examples.",
+      "Demonstrates a comprehensive understanding of how culture influences perceptions of body image, gender roles, and attractiveness. Provides insightful analysis of multiple cultural influences with detailed examples and nuanced understanding."
+    ],
+    [
+      "Demonstrates no understanding of how media influences perceptions of body image, gender roles, or attractiveness.",
+      "Demonstrates a minimal understanding of how media influences perceptions of body image, gender roles, or attractiveness. Mentions one media influence but lacks depth.",
+      "Demonstrates a basic understanding of how media influences perceptions of body image, gender roles, and attractiveness. Identifies a few media influences.",
+      "Demonstrates a satisfactory understanding of how media influences perceptions of body image, gender roles, and attractiveness. Provides examples of multiple media influences with some explanation.",
+      "Demonstrates a strong understanding of how media influences perceptions of body image, gender roles, and attractiveness. Explains multiple media influences with clear and detailed examples.",
+      "Demonstrates a comprehensive understanding of how media influences perceptions of body image, gender roles, and attractiveness. Provides insightful analysis of multiple media influences with detailed examples and nuanced understanding."
+    ],
+    [
+      "Fails to identify or explain any other factors influencing perceptions of body image, gender roles, or attractiveness.",
+      "Identifies one other factor influencing perceptions but provides minimal explanation.",
+      "Identifies a few other factors influencing perceptions and provides a basic explanation.",
+      "Identifies and explains multiple other factors influencing perceptions with reasonable detail.",
+      "Identifies and explains multiple other factors influencing perceptions with clear, detailed, and relevant examples.",
+      "Provides a comprehensive and insightful analysis of multiple other factors influencing perceptions, demonstrating a nuanced understanding of their impact."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation lacks clarity and organization, making it somewhat difficult to follow.",
+      "Explanation is generally clear but could benefit from improved organization.",
+      "Explanation is clear and well-organized, making it easy to follow the main points.",
+      "Explanation is exceptionally clear, well-organized, and presents ideas in a logical and coherent manner.",
+      "Explanation is exceptionally clear, insightful, and demonstrates a sophisticated understanding of the topic with impeccable organization and coherence."
+    ]
+  ]
+}

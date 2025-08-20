@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Solving Linear Equations",
+    "Solving Linear Inequalities",
+    "Solving Literal Equations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of solving linear equations.",
+      "Student can solve simple linear equations with integer coefficients but struggles with multi-step equations.",
+      "Student can solve most linear equations with integer coefficients, including multi-step equations, but makes occasional errors.",
+      "Student can solve linear equations with integer coefficients accurately and efficiently.",
+      "Student can solve linear equations with rational coefficients and can manipulate equations with variables on both sides.",
+      "Student can solve complex linear equations with coefficients represented by letters, demonstrating a strong understanding of algebraic manipulation."
+    ],
+    [
+      "Student demonstrates no understanding of solving linear inequalities.",
+      "Student can solve simple linear inequalities but struggles with understanding the direction of the inequality sign.",
+      "Student can solve most linear inequalities but makes errors when multiplying or dividing by a negative number.",
+      "Student can solve linear inequalities accurately, including those requiring multiplication or division by a negative number.",
+      "Student can represent the solution set of linear inequalities on a number line and can solve compound inequalities.",
+      "Student can solve and graph the solution sets of complex linear inequalities, including those with absolute value."
+    ],
+    [
+      "Student demonstrates no understanding of solving literal equations.",
+      "Student can identify the variable to be solved for in a literal equation but struggles with isolating it.",
+      "Student can solve simple literal equations for a specified variable but makes errors with more complex equations.",
+      "Student can solve literal equations for a specified variable accurately, showing a good understanding of algebraic manipulation.",
+      "Student can solve literal equations with multiple variables and can rearrange formulas to solve for different variables.",
+      "Student can solve complex literal equations and can apply them to real-world problems, demonstrating a deep understanding of their structure."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Ideological Origins",
+    "Analysis of Founding Fathers' Philosophy on Natural Rights",
+    "Knowledge of Debates on Drafting and Ratification of the Constitution",
+    "Understanding of the Bill of Rights"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the ideological origins of the American Revolution is demonstrated.",
+      "Demonstrates a very limited understanding of the ideological origins of the American Revolution.",
+      "Demonstrates a basic understanding of some of the ideological origins, but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of the main ideological origins of the American Revolution.",
+      "Demonstrates a strong understanding of the various ideological origins, including key thinkers and their influence.",
+      "Demonstrates a comprehensive and nuanced understanding of the ideological origins, including connections between different philosophies and their impact on revolutionary thought."
+    ],
+    [
+      "Unable to identify or explain the Founding Fathers' philosophy of divinely bestowed unalienable natural rights.",
+      "Identifies natural rights with significant inaccuracies or omissions.",
+      "Provides a superficial explanation of natural rights with some inaccuracies.",
+      "Accurately explains the Founding Fathers' philosophy of natural rights, citing key influences.",
+      "Analyzes the nuances of the Founding Fathers' views on natural rights, comparing and contrasting different perspectives.",
+      "Critically analyzes the historical context and implications of the Founding Fathers' philosophy of natural rights, including its limitations and contradictions."
+    ],
+    [
+      "Shows no awareness of the debates surrounding the drafting and ratification of the Constitution.",
+      "Demonstrates minimal knowledge of the debates, with significant gaps.",
+      "Identifies a few key debates but lacks understanding of the underlying issues.",
+      "Describes the major debates during the drafting and ratification of the Constitution.",
+      "Explains the key arguments and compromises made during the drafting and ratification process.",
+      "Evaluates the long-term impact of the debates and compromises on the structure and principles of American government."
+    ],
+    [
+      "Unable to identify or explain the purpose and content of the Bill of Rights.",
+      "Identifies some of the rights included in the Bill of Rights but lacks context.",
+      "Describes the main provisions of the Bill of Rights with some inaccuracies.",
+      "Explains the significance of the Bill of Rights in protecting individual liberties.",
+      "Analyzes the historical context and evolution of specific rights in the Bill of Rights.",
+      "Evaluates the ongoing debates and interpretations surrounding the application of the Bill of Rights in contemporary society."
+    ]
+  ]
+}

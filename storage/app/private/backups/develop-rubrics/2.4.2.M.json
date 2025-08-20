@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify appropriate trusted adults or friends to approach for help.",
+    "Clarity and effectiveness in formulating a help request.",
+    "Demonstrates responsible and respectful communication when asking for help."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any trusted adults or friends.",
+      "Student can identify one potential trusted adult or friend, but the choice may not be entirely appropriate.",
+      "Student can identify two potential trusted adults or friends, but the choices may not be the most appropriate.",
+      "Student can identify three appropriate trusted adults or friends.",
+      "Student can identify four or more appropriate trusted adults or friends and explains why they are trustworthy.",
+      "Student can identify multiple appropriate trusted adults or friends, explains why they are trustworthy, and considers the specific strengths of each person in relation to the type of help needed."
+    ],
+    [
+      "Student cannot formulate a coherent request for help.",
+      "Student attempts to formulate a request, but it is unclear and difficult to understand.",
+      "Student formulates a request that is understandable, but lacks specific details.",
+      "Student formulates a clear request for help, including some relevant details.",
+      "Student formulates a clear and specific request for help, including relevant details and explaining the situation.",
+      "Student formulates a clear, specific, and empathetic request for help, including all necessary details, explaining the situation, and demonstrating consideration for the other person's perspective."
+    ],
+    [
+      "Student's communication is irresponsible or disrespectful.",
+      "Student's communication shows some signs of irresponsibility or disrespect.",
+      "Student communicates politely, but does not fully demonstrate responsible communication.",
+      "Student communicates respectfully and responsibly.",
+      "Student communicates respectfully and responsibly, considering the other person's time and boundaries.",
+      "Student communicates respectfully, responsibly, and proactively manages the interaction to ensure a positive outcome."
+    ]
+  ]
+}

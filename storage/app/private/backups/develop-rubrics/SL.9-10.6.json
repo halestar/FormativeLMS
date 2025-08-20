@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Adaptability to Context",
+    "Command of Formal English",
+    "Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student shows no awareness of different contexts and makes no effort to adjust their speech.",
+      "The student shows minimal awareness of different contexts, with only slight adjustments made to their speech.",
+      "The student attempts to adjust their speech to different contexts, but the adjustments are inconsistent or not always appropriate.",
+      "The student generally adapts their speech to different contexts with reasonable appropriateness.",
+      "The student effectively adapts their speech to different contexts, demonstrating a strong awareness of audience and purpose.",
+      "The student skillfully adapts their speech to a variety of contexts, demonstrating a nuanced understanding of audience, purpose, and situation, enhancing communication effectively."
+    ],
+    [
+      "The student's speech lacks command of formal English, with frequent errors in grammar, vocabulary, and style, regardless of the indicated context.",
+      "The student demonstrates a limited command of formal English, with noticeable errors in grammar, vocabulary, and style even when formal English is indicated.",
+      "The student attempts to use formal English when indicated, but struggles with consistency, showing some errors in grammar, vocabulary, and style.",
+      "The student generally uses formal English appropriately when indicated, with few errors in grammar, vocabulary, and style.",
+      "The student demonstrates a strong command of formal English when indicated, using correct grammar, sophisticated vocabulary, and appropriate style effectively.",
+      "The student demonstrates an exceptional command of formal English, using it skillfully and precisely to enhance communication and convey meaning effectively, adapting style with finesse."
+    ],
+    [
+      "The student's speech is unclear and lacks coherence, making it difficult to understand the message.",
+      "The student's speech is somewhat unclear and lacks consistent coherence, hindering the understanding of the message.",
+      "The student attempts to speak clearly and coherently, but struggles with organization and logical flow.",
+      "The student generally speaks clearly and coherently, with a reasonable level of organization and logical flow.",
+      "The student speaks clearly and coherently, presenting ideas in a well-organized and logical manner.",
+      "The student speaks with exceptional clarity and coherence, presenting ideas in a highly organized, logical, and engaging manner that captivates the audience."
+    ]
+  ]
+}

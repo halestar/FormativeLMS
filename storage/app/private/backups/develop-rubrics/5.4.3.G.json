@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to clearly and confidently communicate refusal.",
+    "Ability to provide a reason for refusal.",
+    "Ability to suggest an alternative or redirect the situation.",
+    "Ability to recognize and respond to different types of pressure (e.g., peer pressure, direct requests, subtle persuasion)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to communicate refusal or demonstrates significant discomfort\/hesitation.",
+      "Communicates refusal unclearly and with hesitation; relies on passive or indirect language.",
+      "Communicates refusal with some clarity, but lacks confidence or uses unclear body language.",
+      "Communicates refusal clearly and confidently in most situations; maintains appropriate eye contact and body language.",
+      "Communicates refusal very clearly and confidently in a variety of situations; uses assertive language and strong nonverbal cues.",
+      "Communicates refusal exceptionally clearly, confidently, and respectfully in all situations; adapts approach to context and demonstrates exemplary assertiveness."
+    ],
+    [
+      "Unable to provide any reason for refusal.",
+      "Provides a vague or unclear reason for refusal.",
+      "Provides a reason for refusal, but it is not well-articulated or convincing.",
+      "Provides a clear and reasonable explanation for refusal.",
+      "Provides a clear and convincing reason for refusal that aligns with personal values and boundaries.",
+      "Provides a compelling and well-reasoned explanation for refusal, demonstrating strong self-awareness and ethical considerations."
+    ],
+    [
+      "Does not attempt to suggest an alternative or redirect the situation.",
+      "Suggests an alternative that is inappropriate, unsafe, or does not effectively redirect the situation.",
+      "Suggests an alternative, but it is weak or easily dismissed.",
+      "Suggests a reasonable alternative or way to redirect the situation.",
+      "Suggests a creative and effective alternative that respects boundaries and promotes positive outcomes.",
+      "Masterfully redirects the situation with a well-thought-out alternative that diffuses pressure and prioritizes personal safety and well-being."
+    ],
+    [
+      "Does not recognize or respond to pressure.",
+      "Shows limited awareness of pressure and struggles to respond effectively.",
+      "Recognizes some types of pressure, but response is inconsistent or ineffective.",
+      "Recognizes and responds appropriately to common types of pressure.",
+      "Skillfully navigates various types of pressure with confidence and resilience.",
+      "Demonstrates exceptional insight into different types of pressure and consistently responds with sophisticated and ethical strategies."
+    ]
+  ]
+}

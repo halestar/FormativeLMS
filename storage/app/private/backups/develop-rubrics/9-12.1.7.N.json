@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Essential Nutrients",
+    "Description of Nutrition Practices",
+    "Understanding of Impact on Maternal Health",
+    "Understanding of Impact on Infant Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any essential nutrients for a pregnant woman and her baby.",
+      "Identifies only one essential nutrient with limited accuracy.",
+      "Identifies 2-3 essential nutrients, but lacks specific details regarding their importance.",
+      "Identifies several essential nutrients (e.g., folate, iron, calcium) and provides a basic explanation of their roles.",
+      "Clearly identifies key essential nutrients and explains their specific roles in supporting the health of both the pregnant woman and the developing baby.",
+      "Provides a comprehensive identification of essential nutrients, detailing their roles, and explaining potential consequences of deficiencies."
+    ],
+    [
+      "Provides no description of nutrition practices.",
+      "Offers a vague or inaccurate description of general nutrition, but fails to link it to pregnancy.",
+      "Describes one or two nutrition practices with limited detail or clarity.",
+      "Describes several relevant nutrition practices (e.g., balanced diet, hydration) but lacks depth or specific recommendations.",
+      "Clearly describes various nutrition practices important for pregnancy, including dietary recommendations and specific food choices.",
+      "Provides a thorough and detailed description of comprehensive nutrition practices including meal planning, addressing specific needs during different pregnancy stages, and potential supplementation."
+    ],
+    [
+      "Demonstrates no understanding of how nutrition impacts the health of a pregnant woman.",
+      "Shows a minimal understanding, with vague statements about nutrition's role.",
+      "Identifies one or two ways nutrition affects maternal health, but lacks specifics.",
+      "Explains several ways nutrition impacts maternal health, such as energy levels or weight management.",
+      "Explains in detail how nutrition affects various aspects of maternal health, including physical and mental well-being, and potential complications.",
+      "Offers a comprehensive analysis of the impact of nutrition on maternal health, including long-term effects and strategies for managing specific conditions."
+    ],
+    [
+      "Demonstrates no understanding of how nutrition impacts the health of the baby.",
+      "Shows a minimal understanding, with vague statements about nutrition's role in infant development.",
+      "Identifies one or two ways nutrition affects the health of the baby, but lacks specifics.",
+      "Explains several ways nutrition impacts infant health, such as growth and development.",
+      "Explains in detail how nutrition affects various aspects of infant health, including organ development and immune function.",
+      "Offers a comprehensive analysis of the impact of nutrition on infant health, including long-term effects, potential birth defects, and strategies for promoting optimal development."
+    ]
+  ]
+}

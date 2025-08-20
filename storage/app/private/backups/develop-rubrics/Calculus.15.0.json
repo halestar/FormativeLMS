@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and application of the Fundamental Theorem of Calculus",
+    "Ability to interpret integrals as antiderivatives",
+    "Proof and justification of steps"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the Fundamental Theorem of Calculus is demonstrated.",
+      "Demonstrates a very limited understanding of the Fundamental Theorem of Calculus. Cannot apply it.",
+      "Shows some understanding of the theorem but struggles to apply it correctly in simple cases.",
+      "Demonstrates a satisfactory understanding of the theorem and can apply it in basic problems, but may make mistakes.",
+      "Demonstrates a strong understanding of the theorem and can apply it effectively in most problems.",
+      "Demonstrates a comprehensive understanding of the theorem, can apply it effectively and creatively in complex problems, and can explain it clearly."
+    ],
+    [
+      "Shows no ability to interpret integrals as antiderivatives.",
+      "Struggles to interpret integrals as antiderivatives.",
+      "Can interpret integrals as antiderivatives in very simple cases with significant errors.",
+      "Can interpret integrals as antiderivatives in basic cases, but may struggle with more complex scenarios.",
+      "Can effectively interpret integrals as antiderivatives in a variety of problems.",
+      "Demonstrates mastery in interpreting integrals as antiderivatives in diverse and complex situations, and can explain the connections clearly."
+    ],
+    [
+      "No attempt to provide proof or justification is made.",
+      "Attempts to provide proof or justification are unclear and lack logical reasoning.",
+      "Provides some justification, but steps are not clear and may contain logical errors.",
+      "Provides adequate justification for most steps, but may have minor gaps in reasoning.",
+      "Provides clear and logical justification for all steps.",
+      "Provides rigorous and insightful justification for all steps, demonstrating a deep understanding of the underlying concepts."
+    ]
+  ]
+}

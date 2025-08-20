@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Trigonometric Ratios",
+    "Application to Special Right Triangles",
+    "Problem-Solving Skills",
+    "Derivation of Trigonometric Ratios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of trigonometric ratios is demonstrated.",
+      "Struggles to define trigonometric ratios (sine, cosine, tangent).",
+      "Can define trigonometric ratios but struggles to apply them.",
+      "Demonstrates basic understanding of trigonometric ratios and their applications.",
+      "Shows a good understanding of trigonometric ratios and can apply them to solve basic problems.",
+      "Exhibits a comprehensive understanding of trigonometric ratios and can apply them effectively to solve complex problems."
+    ],
+    [
+      "Unable to identify or work with special right triangles.",
+      "Can identify special right triangles (30-60-90 and 45-45-90) but cannot apply trigonometric ratios.",
+      "Can apply trigonometric ratios to special right triangles with significant errors.",
+      "Applies trigonometric ratios to special right triangles with some errors.",
+      "Accurately applies trigonometric ratios to solve problems involving special right triangles.",
+      "Demonstrates mastery in applying trigonometric ratios to solve a variety of complex problems involving special right triangles, including justifications."
+    ],
+    [
+      "No attempt to solve problems involving trigonometric ratios and right triangles.",
+      "Attempts to solve problems but makes no progress or uses incorrect methods.",
+      "Solves problems with significant errors and misunderstandings.",
+      "Solves basic problems with some errors or inefficiencies.",
+      "Solves most problems correctly and efficiently.",
+      "Solves complex problems accurately, efficiently, and provides clear explanations of the reasoning."
+    ],
+    [
+      "No attempt to derive trigonometric ratios for special right triangles.",
+      "Attempts to derive ratios, but makes fundamental errors in understanding or process.",
+      "Derives ratios with significant errors or gaps in logic.",
+      "Derives ratios with some errors or inefficiencies.",
+      "Accurately derives trigonometric ratios for special right triangles with clear steps.",
+      "Demonstrates a deep understanding of the derivation process, providing clear, concise, and logical derivations with justifications."
+    ]
+  ]
+}

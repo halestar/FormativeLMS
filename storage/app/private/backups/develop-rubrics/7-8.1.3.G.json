@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Abstinence",
+    "Accuracy of Information",
+    "Clarity of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of abstinence as a method of preventing HIV, other STDs, and unintended pregnancy.",
+      "Student shows a minimal understanding of abstinence, but struggles to connect it to the prevention of HIV, other STDs, and unintended pregnancy.",
+      "Student demonstrates a basic understanding of abstinence and its role in preventing at least one of the following: HIV, other STDs, or unintended pregnancy.",
+      "Student demonstrates a satisfactory understanding of abstinence and its role in preventing two of the following: HIV, other STDs, and unintended pregnancy.",
+      "Student demonstrates a comprehensive understanding of abstinence and its role in preventing HIV, other STDs, and unintended pregnancy, providing accurate information.",
+      "Student demonstrates a sophisticated understanding of abstinence and its effectiveness in preventing HIV, other STDs, and unintended pregnancy, including nuanced explanations and supporting evidence."
+    ],
+    [
+      "Information presented is inaccurate or contains significant misconceptions about abstinence, HIV, other STDs, or unintended pregnancy.",
+      "Information presented contains some inaccuracies or misconceptions about abstinence, HIV, other STDs, or unintended pregnancy.",
+      "Information presented is mostly accurate but may lack detail or contain minor inaccuracies.",
+      "Information presented is accurate and generally complete, with only minor omissions or areas for improvement.",
+      "Information presented is accurate, complete, and well-supported with evidence.",
+      "Information presented is exceptionally accurate, detailed, and insightful, demonstrating a deep understanding of the subject matter."
+    ],
+    [
+      "Explanation is unclear, confusing, or difficult to understand.",
+      "Explanation is somewhat unclear or disorganized, making it difficult to follow the student's reasoning.",
+      "Explanation is generally clear but could be more organized or concise.",
+      "Explanation is clear, organized, and easy to understand.",
+      "Explanation is clear, concise, and persuasive, effectively conveying the student's understanding.",
+      "Explanation is exceptionally clear, articulate, and insightful, demonstrating a mastery of communication skills."
+    ]
+  ]
+}

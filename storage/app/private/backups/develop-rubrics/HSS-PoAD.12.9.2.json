@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Power Distribution in Shared Power Systems",
+    "Understanding of Power Distribution in Parliamentary Systems",
+    "Ability to Compare Power Distribution in Both Systems",
+    "Understanding the Influence and Role of Parliamentary Leaders"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how power is distributed in shared power systems.",
+      "Shows minimal understanding of power distribution in shared power systems; struggles to identify key characteristics.",
+      "Displays a basic understanding of power distribution, but lacks depth and detail in explaining the characteristics.",
+      "Demonstrates a satisfactory understanding of power distribution, identifying key characteristics of shared power systems.",
+      "Shows a strong understanding of power distribution, providing detailed explanations of the characteristics and nuances of shared power systems.",
+      "Exhibits a comprehensive understanding of power distribution, demonstrating insightful analysis of the characteristics, nuances, and complexities of shared power systems."
+    ],
+    [
+      "Demonstrates no understanding of how power is distributed in parliamentary systems.",
+      "Shows minimal understanding of power distribution in parliamentary systems; struggles to identify key characteristics.",
+      "Displays a basic understanding of power distribution, but lacks depth and detail in explaining the characteristics.",
+      "Demonstrates a satisfactory understanding of power distribution, identifying key characteristics of parliamentary systems.",
+      "Shows a strong understanding of power distribution, providing detailed explanations of the characteristics and nuances of parliamentary systems.",
+      "Exhibits a comprehensive understanding of power distribution, demonstrating insightful analysis of the characteristics, nuances, and complexities of parliamentary systems."
+    ],
+    [
+      "Unable to compare the distribution of power between shared power and parliamentary systems.",
+      "Struggles to compare power distribution; identifies few similarities or differences.",
+      "Makes a limited comparison of power distribution, with some inaccuracies or omissions.",
+      "Provides a satisfactory comparison of power distribution, identifying several key similarities and differences.",
+      "Shows a strong comparison of power distribution, offering detailed insights into the similarities and differences between the systems.",
+      "Exhibits a comprehensive and nuanced comparison of power distribution, demonstrating insightful analysis of the similarities, differences, and their implications."
+    ],
+    [
+      "Demonstrates no understanding of the influence and role of parliamentary leaders.",
+      "Shows minimal understanding of the influence and role of parliamentary leaders; struggles to identify key examples.",
+      "Displays a basic understanding of the influence and role of parliamentary leaders, but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of the influence and role of parliamentary leaders, identifying relevant examples.",
+      "Shows a strong understanding of the influence and role of parliamentary leaders, providing detailed explanations and relevant historical context.",
+      "Exhibits a comprehensive understanding of the influence and role of parliamentary leaders, demonstrating insightful analysis of their impact on political systems."
+    ]
+  ]
+}

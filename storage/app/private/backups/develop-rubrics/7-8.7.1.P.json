@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates consistent personal hygiene practices (e.g., showering, washing hands, using deodorant).",
+    "Demonstrates consistent dental hygiene practices (e.g., brushing, flossing, regular dental check-ups).",
+    "Takes responsibility for maintaining personal hygiene and dental hygiene."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any personal hygiene practices.",
+      "Student demonstrates minimal personal hygiene practices inconsistently.",
+      "Student demonstrates some personal hygiene practices, but needs reminders and is not always consistent.",
+      "Student consistently demonstrates basic personal hygiene practices with minimal prompting.",
+      "Student consistently and independently demonstrates good personal hygiene practices and understands their importance.",
+      "Student consistently and independently demonstrates excellent personal hygiene practices, understands their importance, and encourages others to do the same."
+    ],
+    [
+      "Student does not demonstrate any dental hygiene practices.",
+      "Student demonstrates minimal dental hygiene practices inconsistently.",
+      "Student demonstrates some dental hygiene practices, but needs reminders and is not always consistent.",
+      "Student consistently demonstrates basic dental hygiene practices with minimal prompting.",
+      "Student consistently and independently demonstrates good dental hygiene practices and understands their importance.",
+      "Student consistently and independently demonstrates excellent dental hygiene practices, understands their importance, and educates others about dental health."
+    ],
+    [
+      "Student does not take responsibility for any aspect of personal and dental hygiene.",
+      "Student takes very limited responsibility for personal and dental hygiene, requiring constant supervision.",
+      "Student takes some responsibility for personal and dental hygiene but needs regular reminders and assistance.",
+      "Student generally takes responsibility for personal and dental hygiene with occasional reminders.",
+      "Student consistently takes responsibility for personal and dental hygiene and seeks help when needed.",
+      "Student proactively takes responsibility for personal and dental hygiene, anticipates needs, and helps others maintain their hygiene."
+    ]
+  ]
+}

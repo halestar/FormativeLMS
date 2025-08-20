@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Major Causes of Death:",
+    "Description of Behavioral Factors:",
+    "Description of Environmental Factors:",
+    "Accuracy and Clarity of Information:"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any major causes of death in the US.",
+      "Identifies one major cause of death without providing any details.",
+      "Identifies two major causes of death with limited details.",
+      "Identifies three major causes of death and provides basic details for each.",
+      "Identifies four or more major causes of death with clear and accurate details.",
+      "Identifies multiple major causes of death, provides detailed explanations, and demonstrates a comprehensive understanding."
+    ],
+    [
+      "Does not describe any behavioral factors associated with major causes of death.",
+      "Mentions one behavioral factor without explaining its connection to a specific cause of death.",
+      "Describes two behavioral factors with a superficial connection to causes of death.",
+      "Describes three behavioral factors and provides a clear connection to specific causes of death.",
+      "Describes multiple behavioral factors with detailed explanations of their connections to causes of death.",
+      "Provides a comprehensive analysis of behavioral factors, including how they contribute to major causes of death and potential prevention strategies."
+    ],
+    [
+      "Does not describe any environmental factors associated with major causes of death.",
+      "Mentions one environmental factor without explaining its connection to a specific cause of death.",
+      "Describes two environmental factors with a superficial connection to causes of death.",
+      "Describes three environmental factors and provides a clear connection to specific causes of death.",
+      "Describes multiple environmental factors with detailed explanations of their connections to causes of death.",
+      "Provides a comprehensive analysis of environmental factors, including how they contribute to major causes of death and potential mitigation strategies."
+    ],
+    [
+      "Information is inaccurate, unclear, or irrelevant.",
+      "Information contains significant inaccuracies and lacks clarity.",
+      "Information is mostly accurate but may lack detail or clarity in some areas.",
+      "Information is accurate, clear, and well-organized.",
+      "Information is highly accurate, clear, and presented in a compelling manner.",
+      "Information is exceptionally accurate, clear, and demonstrates a deep understanding of the topic, using appropriate terminology."
+    ]
+  ]
+}

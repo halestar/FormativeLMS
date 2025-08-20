@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to gather information from multiple sources.",
+    "Ability to synthesize information into a coherent understanding.",
+    "Ability to resolve conflicting information."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no attempt to gather information from multiple sources.",
+      "Student gathers information from only one source or demonstrates significant difficulty in accessing multiple sources.",
+      "Student gathers information from a limited range of sources (2-3) with some difficulty.",
+      "Student gathers information from a variety of sources (3-4) with minor difficulty.",
+      "Student effectively gathers information from a range of sources (4-5).",
+      "Student expertly gathers information from a diverse range of sources (5+) with ease and efficiency."
+    ],
+    [
+      "Student demonstrates no understanding or synthesis of information.",
+      "Student attempts to synthesize information but fails to create a coherent understanding.",
+      "Student synthesizes information with limited coherence and understanding.",
+      "Student synthesizes information into a somewhat coherent understanding, but with gaps or inconsistencies.",
+      "Student synthesizes information into a mostly coherent and understandable explanation.",
+      "Student masterfully synthesizes information into a clear, coherent, and comprehensive understanding of the process, phenomenon, or concept."
+    ],
+    [
+      "Student ignores or is unable to identify conflicting information.",
+      "Student identifies conflicting information but does not attempt to resolve it.",
+      "Student attempts to resolve conflicting information but is unsuccessful or creates further confusion.",
+      "Student partially resolves conflicting information with limited success or explanation.",
+      "Student successfully resolves most conflicting information with clear reasoning.",
+      "Student expertly identifies, analyzes, and resolves conflicting information, providing insightful and comprehensive explanations."
+    ]
+  ]
+}

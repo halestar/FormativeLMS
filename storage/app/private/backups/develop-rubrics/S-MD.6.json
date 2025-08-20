@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Probability",
+    "Application to Fair Decisions",
+    "Use of Random Number Generators"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of probability is demonstrated.",
+      "Demonstrates a very limited understanding of probability; struggles to define or explain basic concepts.",
+      "Shows some understanding of probability but has difficulty applying it to decision-making scenarios.",
+      "Demonstrates a moderate understanding of probability and can apply it to simple decision-making scenarios.",
+      "Shows a strong understanding of probability and can apply it to most decision-making scenarios with reasonable accuracy.",
+      "Demonstrates a comprehensive understanding of probability and can apply it effectively and accurately to complex decision-making scenarios."
+    ],
+    [
+      "Unable to apply probability concepts to make fair decisions.",
+      "Struggles to apply probability to fair decision-making, with little to no success.",
+      "Can sometimes apply probability to fair decisions, but with frequent errors or misconceptions.",
+      "Applies probability to make fair decisions in simple scenarios but struggles with more complex situations.",
+      "Consistently uses probability to make fair decisions in a variety of scenarios with few errors.",
+      "Masterfully uses probability to design and implement fair decision-making processes, demonstrating deep insight."
+    ],
+    [
+      "Does not use or understand how to use random number generators for fair decisions.",
+      "Has minimal awareness of random number generators and their potential use in fair decisions.",
+      "Attempts to use random number generators but struggles with implementation or understanding of results.",
+      "Uses random number generators to make fair decisions, but may have some inconsistencies or errors.",
+      "Uses random number generators effectively to make fair decisions with clear explanations and justifications.",
+      "Expertly uses random number generators to create and analyze fair decision-making systems, showing a sophisticated understanding."
+    ]
+  ]
+}

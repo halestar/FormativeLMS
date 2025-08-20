@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in identifying critical points (maxima, minima, inflection points)",
+    "Correctness of sketching the graph based on differentiation",
+    "Clarity in indicating intervals of increasing and decreasing function values",
+    "Justification of the graph and its features using differentiation rules"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify critical points or demonstrates significant errors.",
+      "Identifies only a few critical points with limited accuracy.",
+      "Identifies most critical points but with some inaccuracies.",
+      "Identifies all critical points with reasonable accuracy; minor errors may be present.",
+      "Accurately identifies all critical points with clear and correct calculations.",
+      "Accurately and comprehensively identifies all critical points, demonstrating a deep understanding of their significance and relationship to the function."
+    ],
+    [
+      "Graph is completely inaccurate and does not reflect the function's behavior.",
+      "Graph shows minimal resemblance to the function; major errors in shape and direction.",
+      "Graph has some correct features but contains significant errors in shape or key characteristics.",
+      "Graph is mostly correct, with only minor errors in shape or key characteristics.",
+      "Graph is accurate and reflects the function's behavior, with only very minor imperfections.",
+      "Graph is perfectly accurate and expertly represents the function's behavior, demonstrating a strong command of calculus principles."
+    ],
+    [
+      "Unable to identify or incorrectly identifies intervals of increasing and decreasing function values.",
+      "Identifies intervals with significant errors or omissions.",
+      "Identifies most intervals correctly, but with some confusion or lack of clarity.",
+      "Identifies all intervals with reasonable accuracy and clarity.",
+      "Clearly and accurately identifies all intervals of increasing and decreasing function values.",
+      "Masterfully identifies and explains all intervals, providing clear reasoning and demonstrating a thorough understanding of the function's behavior."
+    ],
+    [
+      "Provides no justification or uses incorrect differentiation rules.",
+      "Attempts to justify the graph but uses flawed or incomplete differentiation.",
+      "Provides some justification using differentiation but with errors or gaps in reasoning.",
+      "Justifies the graph using appropriate differentiation rules with minor omissions.",
+      "Clearly and accurately justifies the graph and its features using differentiation rules.",
+      "Provides a comprehensive and insightful justification of the graph, skillfully applying differentiation rules and demonstrating a deep understanding of the relationship between the function and its derivative."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Defining Events as Subsets",
+    "Using Unions, Intersections, and Complements",
+    "Interpretation and Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate the ability to define events as subsets of a sample space.",
+      "The student struggles to define events as subsets, showing limited understanding of sample space.",
+      "The student can define simple events as subsets but has difficulty with more complex scenarios.",
+      "The student consistently defines events as subsets of a sample space, using characteristics of outcomes.",
+      "The student accurately defines events as subsets, demonstrating a strong understanding of sample spaces and their characteristics.",
+      "The student expertly defines events as subsets and clearly explains the rationale behind their categorization within the sample space."
+    ],
+    [
+      "The student does not use unions, intersections, or complements to describe events.",
+      "The student attempts to use unions, intersections, or complements but demonstrates significant errors.",
+      "The student uses unions, intersections, or complements with some accuracy but struggles with application.",
+      "The student can effectively use unions, intersections, and complements to describe events, including 'or,' 'and,' 'not.'",
+      "The student skillfully uses unions, intersections, and complements to describe various events, showcasing a solid grasp of set theory.",
+      "The student masterfully applies unions, intersections, and complements to describe events, providing clear and concise explanations of their use in complex scenarios."
+    ],
+    [
+      "The student provides no interpretation or explanation of the events.",
+      "The student's interpretation or explanation is unclear, incomplete, or incorrect.",
+      "The student offers a basic interpretation or explanation with some flaws.",
+      "The student provides a clear interpretation and explanation of the events, linking them to the sample space.",
+      "The student's interpretation and explanation are thorough, insightful, and well-supported by evidence.",
+      "The student provides a comprehensive interpretation and explanation, demonstrating a deep understanding of the relationships between events, sample space, and probability."
+    ]
+  ]
+}

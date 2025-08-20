@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Observation Quality",
+    "Comparison of Habitats",
+    "Data Collection and Organization",
+    "Scientific Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No observations are made or recorded.",
+      "Observations are minimal, lacking detail and relevance to habitat diversity.",
+      "Observations are basic, with limited detail and some relevance to habitat diversity.",
+      "Observations are detailed, showing a clear understanding of different organisms in various habitats.",
+      "Observations are thorough, detailed, and clearly demonstrate the diversity of life in different habitats, showing an understanding of species and habitats.",
+      "Observations are exceptionally detailed, insightful, and comprehensively demonstrate the diversity of life in different habitats, including unique adaptations and ecological relationships."
+    ],
+    [
+      "No comparison is made between different habitats.",
+      "Comparison is attempted but lacks accuracy and detail.",
+      "Comparison is made with some accurate details, but lacks depth.",
+      "Comparison is clear and accurate, highlighting key differences between habitats.",
+      "Comparison is insightful, detailing specific differences in species diversity and environmental factors between habitats.",
+      "Comparison is comprehensive, insightful, and demonstrates a deep understanding of the ecological factors driving diversity differences between habitats."
+    ],
+    [
+      "No data is collected or organized.",
+      "Data collection is minimal and disorganized.",
+      "Data is collected but lacks organization and clarity.",
+      "Data is collected, organized, and presented in a clear manner.",
+      "Data is collected thoroughly, organized effectively, and presented with appropriate visual aids.",
+      "Data is meticulously collected, expertly organized, and presented with compelling visual aids that enhance understanding and analysis."
+    ],
+    [
+      "No reasoning is evident or accurate.",
+      "Reasoning is attempted but lacks accuracy.",
+      "Reasoning is present and is accurate, but lacks depth.",
+      "Reasoning is clear, accurate, and provides an adequate explanation.",
+      "Reasoning is insightful, providing a detailed explanation that shows an understanding of patterns and order.",
+      "Reasoning is exceptionally insightful and comprehensive, providing a nuanced explanation that connects observations to broader ecological principles."
+    ]
+  ]
+}

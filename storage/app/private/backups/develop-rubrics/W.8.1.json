@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Claim Introduction and Organization",
+    "Evidence and Reasoning",
+    "Cohesion and Clarity",
+    "Formal Style",
+    "Concluding Statement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No clear claim is introduced; no distinction from opposing claims; reasons and evidence are not logically organized.",
+      "Claim is vague or unclear; minimal acknowledgment of opposing claims; organization of reasons and evidence is weak.",
+      "Claim is present but lacks focus; opposing claims are mentioned but not clearly distinguished; organization is inconsistent.",
+      "Clear claim is introduced; opposing claims are acknowledged; reasons and evidence are generally organized logically.",
+      "Well-defined claim is introduced and clearly distinguished from opposing claims; reasons and evidence are logically organized and support the claim.",
+      "Compelling claim is introduced with sophistication and nuance; opposing claims are thoroughly distinguished; reasons and evidence are expertly organized for maximum impact."
+    ],
+    [
+      "No evidence is provided; reasoning is absent or illogical.",
+      "Minimal or irrelevant evidence; flawed or weak reasoning.",
+      "Some evidence is present but may not be relevant or credible; reasoning is simplistic or contains fallacies.",
+      "Relevant evidence is provided from credible sources; reasoning is logical and supports the claim.",
+      "Strong and relevant evidence is provided from credible sources; reasoning is well-developed and effectively supports the claim; demonstrates a clear understanding of the topic.",
+      "Compelling and insightful evidence is skillfully integrated from a variety of credible sources; reasoning is sophisticated and nuanced, demonstrating a deep understanding of the topic."
+    ],
+    [
+      "Lack of transitional words\/phrases; relationships between ideas are unclear.",
+      "Few transitional elements; relationships between ideas are vague.",
+      "Transitional words\/phrases are used inconsistently; relationships between ideas are sometimes unclear.",
+      "Transitional words\/phrases are used to create cohesion and clarify relationships between claims, counterclaims, reasons, and evidence.",
+      "Skillful use of transitional words\/phrases to enhance cohesion and clarity of relationships between all elements of the argument.",
+      "Masterful use of transitional elements to create a seamless and compelling argument with crystal-clear relationships between all components."
+    ],
+    [
+      "Informal language; inappropriate tone.",
+      "Inconsistent tone; some informal language.",
+      "Attempts to maintain a formal style but with lapses.",
+      "Maintains a consistently formal style throughout the argument.",
+      "Maintains a formal style with precision and attention to detail, enhancing the credibility of the argument.",
+      "Exemplary command of formal style, elevating the argument with sophisticated language and tone."
+    ],
+    [
+      "No concluding statement or section.",
+      "Concluding statement is weak or unrelated to the argument.",
+      "Concluding statement is present but does not effectively summarize the argument.",
+      "Concluding statement summarizes the argument and follows logically from the evidence presented.",
+      "Concluding statement effectively reinforces the argument and provides a clear sense of closure.",
+      "Compelling concluding statement that leaves a lasting impression and reinforces the significance of the argument."
+    ]
+  ]
+}

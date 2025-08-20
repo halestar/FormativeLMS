@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Introduction and Thesis Statement",
+    "Organization and Structure",
+    "Development of Topic",
+    "Use of Language and Vocabulary",
+    "Formal Style and Objective Tone",
+    "Concluding Statement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The introduction is missing or does not introduce the topic. There is no thesis statement.",
+      "The introduction is weak and the topic is not clearly introduced. The thesis statement is vague or missing.",
+      "The introduction introduces the topic, but lacks engagement. The thesis statement is present but not clearly focused.",
+      "The introduction is engaging and clearly introduces the topic. The thesis statement is clear and focused.",
+      "The introduction is compelling and effectively introduces the topic. The thesis statement is well-defined and provides a clear direction for the essay.",
+      "The introduction is exceptionally engaging and provides a sophisticated introduction to the topic. The thesis statement is insightful and precisely defines the scope and argument of the essay."
+    ],
+    [
+      "The essay lacks organization and coherence. Ideas are presented randomly and are difficult to follow.",
+      "The essay has minimal organization, with some ideas presented in a logical order, but overall coherence is lacking.",
+      "The essay is generally organized, but transitions are weak and the structure is not always clear.",
+      "The essay is well-organized with clear transitions between paragraphs and ideas. The structure supports the thesis statement.",
+      "The essay is exceptionally well-organized with seamless transitions and a clear, logical flow of ideas. The structure enhances the argument.",
+      "The essay demonstrates a sophisticated understanding of organization and structure. The arrangement of ideas is masterful and significantly enhances the impact of the essay."
+    ],
+    [
+      "The topic is not developed. There is a lack of supporting evidence or examples.",
+      "The topic is minimally developed with limited supporting evidence or examples.",
+      "The topic is developed with some supporting evidence and examples, but further detail is needed.",
+      "The topic is well-developed with relevant and sufficient supporting evidence and examples.",
+      "The topic is thoroughly developed with compelling and insightful supporting evidence and examples that enhance the argument.",
+      "The topic is expertly developed with a wealth of meticulously chosen and analyzed supporting evidence and examples that provide a comprehensive and nuanced understanding."
+    ],
+    [
+      "The language is imprecise and inappropriate. Vocabulary is limited and misused.",
+      "The language is basic and sometimes imprecise. Vocabulary is limited and occasionally misused.",
+      "The language is generally precise and appropriate. Vocabulary is adequate but lacks sophistication.",
+      "The language is precise and varied. Domain-specific vocabulary is used effectively.",
+      "The language is sophisticated and precise. Domain-specific vocabulary is used skillfully to enhance the complexity of the topic.",
+      "The language is elegant and demonstrates mastery. Domain-specific vocabulary is used with precision and flair to create a nuanced and compelling argument."
+    ],
+    [
+      "The essay lacks a formal style and objective tone. Language is informal and biased.",
+      "The essay attempts to maintain a formal style and objective tone, but inconsistencies are present.",
+      "The essay mostly maintains a formal style and objective tone, with occasional lapses.",
+      "The essay consistently maintains a formal style and objective tone throughout.",
+      "The essay exemplifies a formal style and objective tone, enhancing the credibility of the argument.",
+      "The essay showcases a masterful command of formal style and objective tone, creating a persuasive and authoritative voice."
+    ],
+    [
+      "The essay is missing a conclusion or the conclusion does not follow from the information presented.",
+      "The conclusion is weak and does not effectively summarize the main points or provide a sense of closure.",
+      "The conclusion summarizes the main points but lacks depth or insight.",
+      "The conclusion effectively summarizes the main points and provides a clear sense of closure.",
+      "The conclusion provides a thoughtful summary of the main points and offers insightful implications or significance of the topic.",
+      "The conclusion is profound and offers a lasting impression, articulating the broader implications and significance of the topic in a memorable way."
+    ]
+  ]
+}

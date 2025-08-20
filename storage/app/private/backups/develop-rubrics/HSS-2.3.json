@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Governmental Institutions",
+    "Explanation of Practices",
+    "Comparison of US and Other Countries"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of governmental institutions or practices.",
+      "Shows a very limited understanding of governmental institutions, with significant inaccuracies.",
+      "Displays a basic understanding of governmental institutions and practices but struggles to explain complex concepts.",
+      "Demonstrates a satisfactory understanding of governmental institutions and practices in the United States and\/or other countries, with some minor gaps.",
+      "Exhibits a strong understanding of governmental institutions and practices, explaining them clearly and accurately.",
+      "Shows a comprehensive and insightful understanding of governmental institutions and practices, providing detailed explanations and relevant examples."
+    ],
+    [
+      "Unable to explain any governmental practices.",
+      "Explanation of practices is unclear, inaccurate, or missing key details.",
+      "Provides a limited explanation of governmental practices with some inaccuracies.",
+      "Explains governmental practices adequately, but may lack depth or critical analysis.",
+      "Clearly explains governmental practices with relevant details and examples.",
+      "Provides a thorough and insightful explanation of governmental practices, demonstrating a deep understanding of their significance and impact."
+    ],
+    [
+      "Makes no attempt to compare governmental institutions or practices between the U.S. and other countries.",
+      "Attempts to compare, but comparisons are vague, inaccurate, or irrelevant.",
+      "Offers a superficial comparison of governmental institutions or practices with limited insight.",
+      "Compares governmental institutions and practices between the U.S. and other countries with some relevant observations.",
+      "Provides a well-developed comparison of governmental institutions and practices, highlighting key similarities and differences.",
+      "Presents a sophisticated and nuanced comparison of governmental institutions and practices, drawing insightful conclusions about their respective strengths and weaknesses."
+    ]
+  ]
+}

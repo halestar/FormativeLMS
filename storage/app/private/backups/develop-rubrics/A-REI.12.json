@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Graphing a Single Linear Inequality",
+    "Graphing a System of Linear Inequalities",
+    "Understanding Boundary Conditions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to graph the inequality or the graph is completely incorrect.",
+      "Attempts to graph the inequality but makes significant errors in identifying the line or shading the correct region.",
+      "Graphs the line correctly but incorrectly shades the region or uses the wrong type of line (solid vs. dashed).",
+      "Graphs the line correctly and shades the correct region, but makes a minor error, such as not extending the shading far enough.",
+      "Accurately graphs the line and shades the correct region, using the appropriate type of line (solid or dashed).",
+      "Graphs the solution to the linear inequality in two variables as a half-plane with complete accuracy and clarity, including correct boundary line and shading; presents the graph neatly and precisely."
+    ],
+    [
+      "No attempt to graph the system of inequalities or the graph is completely incorrect.",
+      "Attempts to graph the system but struggles to graph individual inequalities correctly.",
+      "Graphs each inequality somewhat correctly but does not accurately identify the intersection of the half-planes.",
+      "Graphs each inequality mostly correctly and identifies the intersection, but makes minor shading errors.",
+      "Accurately graphs each inequality and correctly identifies the intersection of the corresponding half-planes.",
+      "Graphs the solution set to a system of linear inequalities in two variables with complete accuracy, clearly indicating the intersection of the corresponding half-planes; uses different colors or line styles to distinguish the inequalities, presenting the graph in a clear, understandable manner."
+    ],
+    [
+      "Shows no understanding of how to represent strict vs. non-strict inequalities graphically.",
+      "Shows limited understanding, consistently using the wrong type of line (solid\/dashed) or not understanding when to exclude the boundary.",
+      "Understands the concept but makes frequent errors in applying it to specific problems.",
+      "Generally uses the correct type of line but occasionally makes errors with strict inequalities.",
+      "Consistently uses the correct type of line (solid for \u2264\/\u2265, dashed for <\/>) to represent strict and non-strict inequalities.",
+      "Demonstrates a comprehensive understanding of boundary conditions by flawlessly representing strict and non-strict inequalities graphically, clearly differentiating between included and excluded boundaries in all scenarios."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Law-Making Processes",
+    "Understanding of Law Enforcement and Legal Systems",
+    "Comparison of Legal Systems",
+    "Use of Evidence and Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how laws are made in the United States or other countries.",
+      "Shows a very limited understanding of the law-making process, with significant inaccuracies or omissions.",
+      "Identifies some basic steps in the law-making process but lacks depth or detail.",
+      "Explains the general process of how laws are made in the United States and at least one other country, with some supporting details.",
+      "Provides a detailed explanation of the law-making process in the United States and other countries, including the roles of different governmental bodies.",
+      "Demonstrates a comprehensive and nuanced understanding of law-making processes, including comparisons between different systems and potential areas of influence."
+    ],
+    [
+      "Demonstrates no understanding of how laws are carried out, how violations are determined, or how wrongdoers are punished.",
+      "Shows a very limited understanding of law enforcement and legal systems, with significant inaccuracies or omissions.",
+      "Identifies some basic elements of law enforcement and legal systems but lacks depth or detail.",
+      "Explains the general processes of carrying out laws, determining violations, and punishing wrongdoers in the United States and at least one other country, with some supporting details.",
+      "Provides a detailed explanation of law enforcement and legal systems in the United States and other countries, including the roles of different actors and institutions.",
+      "Demonstrates a comprehensive and nuanced understanding of law enforcement and legal systems, including comparisons between different systems and potential areas of influence."
+    ],
+    [
+      "Does not attempt to compare legal systems between countries.",
+      "Attempts a comparison, but the comparison is superficial or inaccurate.",
+      "Identifies one or two basic differences between legal systems.",
+      "Compares legal systems, identifying several key differences and similarities.",
+      "Provides a detailed comparison of legal systems, including the historical or cultural influences on those systems.",
+      "Demonstrates an expert understanding of comparative legal systems, including nuanced differences and similarities as well as potential areas of influence."
+    ],
+    [
+      "Provides no evidence or examples to support claims.",
+      "Provides limited or irrelevant evidence or examples.",
+      "Provides some evidence or examples, but they are not always clearly linked to the claims.",
+      "Provides relevant evidence and examples to support claims.",
+      "Provides strong and compelling evidence and examples to support claims.",
+      "Provides insightful and original evidence and examples to support claims, demonstrating a deep understanding of the topic."
+    ]
+  ]
+}

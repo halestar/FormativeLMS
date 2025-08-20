@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Nazi Racial Policy",
+    "Explanation of the Transformation into the Final Solution",
+    "Knowledge of the Holocaust and its Consequences",
+    "Historical Context and Connections"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Nazi racial policies or their goals.",
+      "Shows minimal understanding of Nazi racial policy, with significant inaccuracies.",
+      "Displays a basic understanding of Nazi racial policy, but lacks depth and detail.",
+      "Explains Nazi racial policies and the concept of racial purity with reasonable accuracy.",
+      "Analyzes Nazi racial policies, explaining their ideological underpinnings and discriminatory practices.",
+      "Provides a comprehensive analysis of Nazi racial policies, including historical context, ideological roots, and societal impact."
+    ],
+    [
+      "Unable to explain the transition from racial policy to the Final Solution.",
+      "Provides a vague or inaccurate account of how Nazi racial policy led to the Final Solution.",
+      "Describes the Final Solution, but does not adequately connect it to earlier Nazi racial policies.",
+      "Explains the Final Solution as the culmination of Nazi racial policies, with some details on the process.",
+      "Analyzes the steps and decisions that led to the implementation of the Final Solution, highlighting key turning points.",
+      "Offers a nuanced understanding of the Final Solution, examining the bureaucratic, ideological, and political factors that enabled its implementation."
+    ],
+    [
+      "Demonstrates no knowledge of the Holocaust or its consequences.",
+      "Displays minimal knowledge of the Holocaust, with significant inaccuracies.",
+      "Shows a basic understanding of the Holocaust, but lacks detail about its scope and impact.",
+      "Describes the Holocaust and its impact on European Jews, including the number of victims.",
+      "Analyzes the Holocaust, explaining the methods used by the Nazis and the long-term consequences for survivors and society.",
+      "Provides a comprehensive analysis of the Holocaust, including its historical context, impact on Jewish communities, and lasting legacy on global human rights."
+    ],
+    [
+      "Fails to place Nazi racial policy and the Holocaust in their broader historical context.",
+      "Makes limited connections between Nazi actions and the broader history of World War II.",
+      "Identifies some historical factors related to Nazi racial policy and the Holocaust.",
+      "Discusses the historical context of Nazi racial policy and the Holocaust, including relevant social and political factors.",
+      "Analyzes the historical context of Nazi racial policy and the Holocaust, drawing connections to other events and movements of the time.",
+      "Provides a sophisticated analysis of the historical context, demonstrating a deep understanding of the complex factors that contributed to Nazi racial policy and the Holocaust."
+    ]
+  ]
+}

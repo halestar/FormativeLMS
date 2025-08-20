@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Counting",
+    "Understanding of Cardinality",
+    "Consistency Across Arrangements"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of one-to-one correspondence and struggles to count objects accurately.",
+      "Student demonstrates minimal understanding of counting principles and often miscounts objects, especially when the arrangement is complex.",
+      "Student can count objects in simple arrangements but makes frequent errors with larger sets or when objects are disorganized.",
+      "Student accurately counts objects in most arrangements, but occasionally makes mistakes in more complex scenarios.",
+      "Student consistently counts objects accurately, regardless of arrangement, and understands that the last number said represents the total quantity.",
+      "Student demonstrates a strong understanding of counting principles, accurately counts objects in any arrangement, and can explain the relationship between counting and cardinality."
+    ],
+    [
+      "Student does not understand that the last number counted represents the total number of objects.",
+      "Student shows a limited understanding of cardinality and struggles to identify the total number of objects after counting.",
+      "Student can sometimes identify the total number of objects after counting but relies heavily on repetition and struggles with abstract representations.",
+      "Student generally understands that the last number counted represents the total, but may need prompting or support in complex situations.",
+      "Student clearly understands that the last number counted represents the total number of objects and can apply this knowledge in various contexts.",
+      "Student demonstrates a deep understanding of cardinality and can explain why the last number counted is significant, even with large or abstract sets."
+    ],
+    [
+      "Student incorrectly counts different arrangements of the same objects, demonstrating a lack of understanding that quantity remains constant.",
+      "Student struggles to maintain consistent counts across different arrangements and believes the quantity changes with the arrangement.",
+      "Student recognizes that the quantity should remain the same but struggles to count accurately when the arrangement is altered.",
+      "Student generally counts consistently across arrangements but may become confused with more complex rearrangements.",
+      "Student consistently counts the same quantity regardless of arrangement, demonstrating a solid understanding of conservation of number.",
+      "Student confidently and accurately counts the same quantity in any arrangement and can explain why the number remains constant despite changes in appearance."
+    ]
+  ]
+}

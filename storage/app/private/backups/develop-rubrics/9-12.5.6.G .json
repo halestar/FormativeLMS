@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Social Effects",
+    "Understanding of Emotional Effects",
+    "Understanding of Physical Effects",
+    "Understanding of Economic Effects",
+    "Application of Decision-Making Process"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the social effects of teen pregnancy on the child, teen parent, family, or society.",
+      "Demonstrates a minimal understanding of the social effects of teen pregnancy, with significant gaps in knowledge.",
+      "Demonstrates a basic understanding of the social effects of teen pregnancy on one or two affected parties (child, parent, family, or society).",
+      "Demonstrates a satisfactory understanding of the social effects of teen pregnancy on most affected parties, with some minor omissions.",
+      "Demonstrates a comprehensive understanding of the social effects of teen pregnancy on the child, teen parent, family, and society, with clear explanations.",
+      "Demonstrates an exceptional understanding of the social effects of teen pregnancy, providing nuanced insights and considering multiple perspectives, and can apply this understanding to novel situations."
+    ],
+    [
+      "Demonstrates no understanding of the emotional effects of teen pregnancy on the child, teen parent, family, or society.",
+      "Demonstrates a minimal understanding of the emotional effects of teen pregnancy, with significant gaps in knowledge.",
+      "Demonstrates a basic understanding of the emotional effects of teen pregnancy on one or two affected parties (child, parent, family, or society).",
+      "Demonstrates a satisfactory understanding of the emotional effects of teen pregnancy on most affected parties, with some minor omissions.",
+      "Demonstrates a comprehensive understanding of the emotional effects of teen pregnancy on the child, teen parent, family, and society, with clear explanations.",
+      "Demonstrates an exceptional understanding of the emotional effects of teen pregnancy, providing nuanced insights and considering multiple perspectives, and can apply this understanding to novel situations."
+    ],
+    [
+      "Demonstrates no understanding of the physical effects of teen pregnancy on the child, teen parent, family, or society.",
+      "Demonstrates a minimal understanding of the physical effects of teen pregnancy, with significant gaps in knowledge.",
+      "Demonstrates a basic understanding of the physical effects of teen pregnancy on one or two affected parties (child, parent, family, or society).",
+      "Demonstrates a satisfactory understanding of the physical effects of teen pregnancy on most affected parties, with some minor omissions.",
+      "Demonstrates a comprehensive understanding of the physical effects of teen pregnancy on the child, teen parent, family, and society, with clear explanations.",
+      "Demonstrates an exceptional understanding of the physical effects of teen pregnancy, providing nuanced insights and considering multiple perspectives, and can apply this understanding to novel situations."
+    ],
+    [
+      "Demonstrates no understanding of the economic effects of teen pregnancy on the child, teen parent, family, or society.",
+      "Demonstrates a minimal understanding of the economic effects of teen pregnancy, with significant gaps in knowledge.",
+      "Demonstrates a basic understanding of the economic effects of teen pregnancy on one or two affected parties (child, parent, family, or society).",
+      "Demonstrates a satisfactory understanding of the economic effects of teen pregnancy on most affected parties, with some minor omissions.",
+      "Demonstrates a comprehensive understanding of the economic effects of teen pregnancy on the child, teen parent, family, and society, with clear explanations.",
+      "Demonstrates an exceptional understanding of the economic effects of teen pregnancy, providing nuanced insights and considering multiple perspectives, and can apply this understanding to novel situations."
+    ],
+    [
+      "Does not apply a decision-making process to evaluate the effects of teen pregnancy.",
+      "Attempts to apply a decision-making process but struggles to identify relevant factors or consequences.",
+      "Applies a decision-making process with limited effectiveness, identifying some effects but missing key considerations.",
+      "Applies a decision-making process adequately, evaluating most of the major effects of teen pregnancy on the affected parties.",
+      "Applies a decision-making process effectively, providing a well-reasoned evaluation of the social, emotional, physical, and economic effects of teen pregnancy.",
+      "Applies a sophisticated decision-making process, demonstrating critical thinking and providing a comprehensive and insightful evaluation of the effects of teen pregnancy, including potential long-term consequences and alternative solutions."
+    ]
+  ]
+}

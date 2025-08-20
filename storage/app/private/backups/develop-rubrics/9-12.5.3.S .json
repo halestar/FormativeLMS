@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Consequences for Self",
+    "Understanding of Consequences for Family",
+    "Understanding of Consequences for the Community",
+    "Analysis and Critical Thinking"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of the consequences of gang involvement for oneself.",
+      "Demonstrates minimal understanding of the consequences of gang involvement for oneself; understanding is vague or superficial.",
+      "Demonstrates a basic understanding of some consequences of gang involvement for oneself, but lacks depth or detail.",
+      "Demonstrates a clear understanding of several consequences of gang involvement for oneself, with some supporting details.",
+      "Demonstrates a thorough understanding of multiple consequences of gang involvement for oneself, providing relevant and specific details.",
+      "Demonstrates a comprehensive and insightful understanding of the wide-ranging consequences of gang involvement for oneself, providing well-reasoned explanations and examples."
+    ],
+    [
+      "Does not demonstrate any understanding of the consequences of gang involvement for family.",
+      "Demonstrates minimal understanding of the consequences of gang involvement for family; understanding is vague or superficial.",
+      "Demonstrates a basic understanding of some consequences of gang involvement for family, but lacks depth or detail.",
+      "Demonstrates a clear understanding of several consequences of gang involvement for family, with some supporting details.",
+      "Demonstrates a thorough understanding of multiple consequences of gang involvement for family, providing relevant and specific details.",
+      "Demonstrates a comprehensive and insightful understanding of the wide-ranging consequences of gang involvement for family, providing well-reasoned explanations and examples."
+    ],
+    [
+      "Does not demonstrate any understanding of the consequences of gang involvement for the community.",
+      "Demonstrates minimal understanding of the consequences of gang involvement for the community; understanding is vague or superficial.",
+      "Demonstrates a basic understanding of some consequences of gang involvement for the community, but lacks depth or detail.",
+      "Demonstrates a clear understanding of several consequences of gang involvement for the community, with some supporting details.",
+      "Demonstrates a thorough understanding of multiple consequences of gang involvement for the community, providing relevant and specific details.",
+      "Demonstrates a comprehensive and insightful understanding of the wide-ranging consequences of gang involvement for the community, providing well-reasoned explanations and examples."
+    ],
+    [
+      "Does not provide any analysis of the consequences or demonstrate critical thinking.",
+      "Provides minimal analysis of the consequences, with limited critical thinking.",
+      "Provides a basic analysis of the consequences, but lacks depth or critical insight.",
+      "Provides a clear analysis of the consequences with some critical thinking, identifying some underlying issues.",
+      "Provides a thorough analysis of the consequences with strong critical thinking, identifying underlying issues and offering potential solutions or preventative measures.",
+      "Provides a comprehensive and insightful analysis of the consequences with sophisticated critical thinking, identifying complex underlying issues, offering well-reasoned solutions and preventative measures, and demonstrating a nuanced understanding of the topic."
+    ]
+  ]
+}

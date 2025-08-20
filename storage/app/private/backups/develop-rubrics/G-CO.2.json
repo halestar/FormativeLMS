@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Representing Transformations",
+    "Describing Transformations as Functions",
+    "Comparing Transformations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of transformations or how to represent them.",
+      "Student can vaguely recall some information of the concept, but is unable to represent any kind of transformations.",
+      "Student can represent only basic transformations (e.g., translations) with significant errors or omissions.",
+      "Student can represent basic transformations but struggles with more complex ones (rotations, reflections, dilations).",
+      "Student can represent most transformations accurately using transparencies or geometry software.",
+      "Student can effectively represent various transformations accurately and provides clear explanations."
+    ],
+    [
+      "Student does not describe transformations as functions.",
+      "Student attempts to describe transformations as functions with little to no understanding.",
+      "Student has trouble verbalizing and describing the transformations.",
+      "Student can describe simple transformations as functions but struggles with notation or complex cases.",
+      "Student describes transformations as functions, using appropriate notation and terminology.",
+      "Student provides clear, concise descriptions of transformations as functions, including input\/output relationships."
+    ],
+    [
+      "Student does not compare transformations or identify differences between distance\/angle preserving and non-preserving transformations.",
+      "Student attempts to describe the transformations, but there is little understanding.",
+      "Student can identify that the transformations are different but cannot explain why.",
+      "Student can differentiate the transformations, but only in one domain: Angle or Distance.",
+      "Student can compare transformations and identify some differences between distance\/angle preserving and non-preserving transformations.",
+      "Student provides a comprehensive comparison of transformations, clearly explaining the differences between distance\/angle preserving and non-preserving transformations with examples."
+    ]
+  ]
+}

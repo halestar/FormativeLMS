@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding and Application of Safety Rules at Home",
+    "Understanding and Application of Safety Rules at School",
+    "Understanding and Application of Safety Rules in the Community",
+    "Knowledge of Relevant Laws and Regulations",
+    "Critical Thinking and Problem-Solving in Safety Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of safety rules at home; actions are consistently unsafe.",
+      "Shows minimal awareness of safety rules; rarely follows them at home; requires constant reminders.",
+      "Understands some basic safety rules but struggles to apply them consistently at home; may need occasional reminders.",
+      "Generally understands and applies most safety rules at home; occasionally needs reminders or guidance.",
+      "Demonstrates a strong understanding and consistently applies safety rules at home; acts independently and safely.",
+      "Exhibits exemplary understanding and consistently applies safety rules at home; proactively identifies and addresses potential hazards."
+    ],
+    [
+      "Demonstrates no understanding of safety rules at school; actions are consistently unsafe.",
+      "Shows minimal awareness of safety rules; rarely follows them at school; requires constant reminders.",
+      "Understands some basic safety rules but struggles to apply them consistently at school; may need occasional reminders.",
+      "Generally understands and applies most safety rules at school; occasionally needs reminders or guidance.",
+      "Demonstrates a strong understanding and consistently applies safety rules at school; acts independently and safely.",
+      "Exhibits exemplary understanding and consistently applies safety rules at school; proactively identifies and addresses potential hazards."
+    ],
+    [
+      "Demonstrates no understanding of safety rules in the community; actions are consistently unsafe.",
+      "Shows minimal awareness of safety rules; rarely follows them in the community; requires constant reminders.",
+      "Understands some basic safety rules but struggles to apply them consistently in the community; may need occasional reminders.",
+      "Generally understands and applies most safety rules in the community; occasionally needs reminders or guidance.",
+      "Demonstrates a strong understanding and consistently applies safety rules in the community; acts independently and safely.",
+      "Exhibits exemplary understanding and consistently applies safety rules in the community; proactively identifies and addresses potential hazards."
+    ],
+    [
+      "Shows no awareness of relevant safety laws and regulations.",
+      "Has minimal knowledge of safety laws; cannot accurately describe basic regulations.",
+      "Demonstrates some knowledge of safety laws but struggles to explain or apply them accurately.",
+      "Generally understands and accurately describes most relevant safety laws and regulations.",
+      "Exhibits a strong understanding of safety laws and can accurately apply them to various situations.",
+      "Demonstrates comprehensive knowledge of safety laws; can analyze and apply them to complex scenarios, and advocates for safety compliance."
+    ],
+    [
+      "Unable to identify hazards or react safely in simple situations.",
+      "Shows limited ability to recognize hazards; reactions are often inappropriate or delayed.",
+      "Can identify some hazards; reactions are sometimes appropriate but may require guidance.",
+      "Generally able to identify hazards and react safely with minimal guidance.",
+      "Demonstrates strong critical thinking skills; consistently identifies hazards and takes appropriate action to ensure safety.",
+      "Exhibits exceptional critical thinking skills; proactively identifies and resolves potential safety hazards, and can effectively guide others in safety procedures."
+    ]
+  ]
+}

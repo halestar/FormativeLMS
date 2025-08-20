@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Communicable Diseases: Accurately identifies various communicable diseases and explains how they are transmitted.",
+    "Preventative Measures: Describes and evaluates effective strategies to prevent the transmission of communicable diseases.",
+    "Application to Real-World Scenarios: Applies knowledge of disease transmission and prevention to analyze and propose solutions for real-world scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any communicable diseases or transmission methods.",
+      "Identifies a few communicable diseases but struggles to explain their transmission.",
+      "Identifies some common communicable diseases and provides basic explanations of transmission.",
+      "Identifies most common communicable diseases and explains their transmission methods clearly.",
+      "Accurately identifies a wide range of communicable diseases and thoroughly explains transmission methods, including specific vectors or conditions.",
+      "Demonstrates comprehensive knowledge of communicable diseases, including emerging diseases, and provides detailed explanations of complex transmission mechanisms."
+    ],
+    [
+      "Does not describe any preventative measures.",
+      "Suggests a few basic preventative measures with limited explanation.",
+      "Describes some common preventative measures, such as hand washing and vaccination, with brief explanations.",
+      "Explains several effective preventative measures in detail, discussing their impact on disease transmission.",
+      "Evaluates a wide range of preventative measures, including personal hygiene, public health policies, and vaccination programs, providing evidence of their effectiveness.",
+      "Critically analyzes and compares different preventative strategies, discussing the advantages and disadvantages of each and proposing innovative solutions for disease prevention."
+    ],
+    [
+      "Unable to apply knowledge to real-world scenarios.",
+      "Attempts to apply knowledge to simple scenarios with limited success.",
+      "Applies knowledge to some real-world scenarios, such as school or community settings, but lacks depth in analysis.",
+      "Analyzes real-world scenarios effectively, proposing relevant prevention strategies based on understanding of transmission.",
+      "Evaluates complex real-world scenarios, such as outbreaks or pandemics, and develops comprehensive prevention plans tailored to specific contexts.",
+      "Demonstrates exceptional ability to analyze and develop innovative, evidence-based solutions for preventing disease transmission in diverse and challenging real-world scenarios."
+    ]
+  ]
+}

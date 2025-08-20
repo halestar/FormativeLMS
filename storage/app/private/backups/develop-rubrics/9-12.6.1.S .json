@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of potential injuries during emergencies and natural disasters.",
+    "Development of preventative measures for identified injuries.",
+    "Inclusion of necessary resources and contacts in the plan.",
+    "Organization and clarity of the prevention plan."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any potential injuries related to emergencies and natural disasters.",
+      "Identifies only one potential injury related to emergencies and natural disasters.",
+      "Identifies a few potential injuries, but the connection to emergencies and natural disasters is not clear.",
+      "Identifies several potential injuries related to emergencies and natural disasters, demonstrating a basic understanding.",
+      "Identifies most potential injuries related to emergencies and natural disasters, demonstrating a strong understanding.",
+      "Thoroughly identifies a wide range of potential injuries related to emergencies and natural disasters, demonstrating comprehensive knowledge."
+    ],
+    [
+      "Does not develop any preventative measures for identified injuries.",
+      "Develops only one preventative measure, but it is not clearly linked to a specific injury.",
+      "Develops a few preventative measures, but their effectiveness is questionable.",
+      "Develops some relevant preventative measures for identified injuries, demonstrating a basic understanding of prevention strategies.",
+      "Develops effective preventative measures for most identified injuries, demonstrating a strong understanding of prevention strategies.",
+      "Develops comprehensive and highly effective preventative measures for all identified injuries, demonstrating advanced knowledge of prevention strategies."
+    ],
+    [
+      "The plan does not include any resources or contacts.",
+      "The plan includes only one resource or contact, but it is not clearly relevant.",
+      "The plan includes a few resources and contacts, but their relevance is questionable.",
+      "The plan includes some relevant resources and contacts, demonstrating a basic understanding of available support.",
+      "The plan includes most relevant resources and contacts, demonstrating a strong understanding of available support.",
+      "The plan includes a comprehensive list of relevant resources and contacts, demonstrating advanced knowledge of available support."
+    ],
+    [
+      "The plan is disorganized and unclear, making it difficult to understand.",
+      "The plan is somewhat organized, but clarity is lacking.",
+      "The plan is moderately organized and clear, but improvements could be made.",
+      "The plan is generally well-organized and clear, making it easy to follow.",
+      "The plan is well-organized and clear, with logical flow and easy-to-understand instructions.",
+      "The plan is exceptionally well-organized, clear, and concise, demonstrating excellent communication skills."
+    ]
+  ]
+}

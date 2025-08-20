@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Athenian (Direct) Democracy",
+    "Understanding of Representative Democracy",
+    "Distinguishing Key Differences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Athenian democracy or its key characteristics.",
+      "Shows minimal understanding of Athenian democracy, with significant inaccuracies.",
+      "Identifies Athenian democracy as a system where citizens participate, but lacks detail or accuracy in describing its features.",
+      "Describes Athenian democracy as a system where citizens directly participate in decision-making, but misses some key aspects.",
+      "Accurately describes Athenian democracy, including the direct participation of citizens in decision-making and governance.",
+      "Provides a comprehensive and nuanced explanation of Athenian democracy, including its strengths, limitations, and historical context."
+    ],
+    [
+      "Demonstrates no understanding of representative democracy or its key characteristics.",
+      "Shows minimal understanding of representative democracy, with significant inaccuracies.",
+      "Identifies representative democracy as a system where people vote, but lacks detail or accuracy in describing its features.",
+      "Describes representative democracy as a system where people elect representatives to make decisions on their behalf, but misses some key aspects.",
+      "Accurately describes representative democracy, including the election of representatives and their role in decision-making.",
+      "Provides a comprehensive and nuanced explanation of representative democracy, including its strengths, limitations, different forms (e.g., parliamentary, presidential), and historical context."
+    ],
+    [
+      "Unable to identify any differences between Athenian and representative democracy.",
+      "Identifies superficial or inaccurate differences between the two systems.",
+      "Identifies one or two basic differences, such as direct vs. indirect participation, but lacks depth.",
+      "Identifies several key differences, such as the role of citizens, the size of the population, and the complexity of decision-making, but may not fully explain their significance.",
+      "Clearly and accurately states the key differences between Athenian and representative democracy, including direct participation vs. representation, population size, and decision-making processes.",
+      "Provides a sophisticated analysis of the key differences between Athenian and representative democracy, including their historical contexts, advantages, disadvantages, and relevance to modern political systems."
+    ]
+  ]
+}

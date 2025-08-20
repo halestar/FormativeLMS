@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Counting to 120 from any number",
+    "Reading and Writing Numerals",
+    "Representing Numbers with Objects"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to count beyond single digits or struggles significantly to start from a given number.",
+      "Student can count to some extent but makes frequent errors or requires significant prompting to continue from a given number.",
+      "Student can count to 120 from a given number but may make occasional errors or hesitate.",
+      "Student can accurately count to 120 from any given number with minimal errors or hesitation.",
+      "Student confidently and accurately counts to 120 from any given number and demonstrates understanding of the counting sequence.",
+      "Student fluently and accurately counts beyond 120 from any given number, demonstrating a strong grasp of number sequencing."
+    ],
+    [
+      "Student cannot identify or write numerals beyond single digits.",
+      "Student can identify and write some numerals but struggles with two-digit numbers.",
+      "Student can read and write numerals up to 120 with some errors.",
+      "Student accurately reads and writes numerals up to 120 with minimal errors.",
+      "Student consistently reads and writes numerals up to 120 accurately.",
+      "Student can accurately read, write, and represent numerals beyond 120, demonstrating a comprehensive understanding of number representation."
+    ],
+    [
+      "Student is unable to represent numbers with objects or does so incorrectly.",
+      "Student attempts to represent numbers with objects but makes significant errors.",
+      "Student can represent numbers with objects but requires assistance or makes some mistakes.",
+      "Student accurately represents numbers up to 120 with objects, demonstrating a basic understanding of quantity.",
+      "Student accurately and efficiently represents numbers up to 120 with objects, showing a clear understanding of quantity.",
+      "Student can represent numbers beyond 120 with objects and explain their reasoning, demonstrating a strong understanding of number concepts."
+    ]
+  ]
+}

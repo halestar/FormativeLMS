@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Contextual Awareness",
+    "Formality of Language",
+    "Command of Language Standards",
+    "Task Adaptation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no awareness of context; speech is inappropriate for the situation or audience.",
+      "Shows limited awareness of context; speech is occasionally inappropriate for the situation or audience.",
+      "Demonstrates some awareness of context; speech is mostly appropriate but may have minor lapses.",
+      "Demonstrates good awareness of context; speech is appropriate for the situation and audience.",
+      "Demonstrates strong awareness of context; speech is consistently tailored to the situation and audience.",
+      "Demonstrates exceptional awareness of context; speech is masterfully adapted to maximize impact and engagement with the audience."
+    ],
+    [
+      "Uses informal language exclusively, even when formal English is required.",
+      "Attempts to use formal language but makes frequent errors in grammar, vocabulary, or tone.",
+      "Uses formal language inconsistently; may mix formal and informal elements inappropriately.",
+      "Generally uses formal language when appropriate, with occasional minor errors.",
+      "Consistently uses formal language correctly and effectively in appropriate contexts.",
+      "Masterfully employs formal language to enhance communication, demonstrating a nuanced understanding of its effects."
+    ],
+    [
+      "Demonstrates little to no command of grade-level language standards (grammar, vocabulary, syntax).",
+      "Demonstrates limited command of grade-level language standards, with frequent errors.",
+      "Demonstrates some command of grade-level language standards, but errors are noticeable and sometimes impede understanding.",
+      "Demonstrates adequate command of grade-level language standards; errors are infrequent and do not significantly impede understanding.",
+      "Demonstrates strong command of grade-level language standards; errors are rare and minor.",
+      "Demonstrates exceptional command of grade-level language standards, using language with precision and artistry."
+    ],
+    [
+      "Does not adapt speech to the specific task; communication is ineffective.",
+      "Shows limited adaptation of speech to the task; struggles to meet the demands of the assignment.",
+      "Adapts speech somewhat to the task, but adjustments are basic and may not fully address the requirements.",
+      "Adapts speech effectively to the task, meeting the demands of the assignment.",
+      "Adapts speech skillfully to the task, enhancing the quality and impact of the communication.",
+      "Masterfully adapts speech to the task, demonstrating exceptional flexibility and precision in achieving the desired outcome."
+    ]
+  ]
+}

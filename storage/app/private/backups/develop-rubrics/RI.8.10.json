@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Text Complexity and Comprehension: Demonstrates understanding of literary nonfiction texts appropriate for grades 9-10 in terms of complexity, themes, and literary devices.",
+    "Independent Reading Proficiency: Reads and comprehends literary nonfiction independently, without requiring assistance.",
+    "Analysis and Interpretation: Analyzes and interprets the text, drawing inferences and supporting conclusions with evidence."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to engage with the text or demonstrates no comprehension of basic elements.",
+      "Struggles to understand the text; misunderstands key details and main ideas; cannot identify literary devices.",
+      "Shows limited understanding; grasps some main ideas but misses nuances; identifies few literary devices with difficulty.",
+      "Demonstrates adequate comprehension; understands most main ideas and some complexities; identifies some literary devices.",
+      "Exhibits strong comprehension; understands main ideas, supporting details, and complexities; identifies and analyzes literary devices effectively.",
+      "Exhibits exemplary comprehension; demonstrates a deep and insightful understanding of the text, including subtleties and complexities; expertly analyzes literary devices and their impact."
+    ],
+    [
+      "Requires constant assistance to read and understand the text.",
+      "Requires significant assistance to read and comprehend the text; struggles with vocabulary and sentence structure.",
+      "Requires some assistance to read and comprehend the text; occasionally struggles with vocabulary and complex sentences.",
+      "Reads and comprehends the text with minimal assistance; occasionally looks up unfamiliar words or sentence structures.",
+      "Reads and comprehends the text independently; rarely needs to consult external resources.",
+      "Reads and comprehends the text with exceptional independence and fluency; demonstrates a proactive approach to understanding challenging vocabulary or complex sentence structures."
+    ],
+    [
+      "Unable to analyze or interpret the text; provides no evidence to support claims.",
+      "Struggles to analyze or interpret the text; makes unsupported claims or relies on superficial observations.",
+      "Offers limited analysis and interpretation; provides some evidence but struggles to connect it to conclusions.",
+      "Provides adequate analysis and interpretation; supports conclusions with relevant evidence but may miss deeper meanings.",
+      "Offers strong analysis and interpretation; draws insightful inferences and supports conclusions with compelling evidence.",
+      "Demonstrates exceptional analysis and interpretation; provides profound insights and supports conclusions with sophisticated and nuanced evidence."
+    ]
+  ]
+}

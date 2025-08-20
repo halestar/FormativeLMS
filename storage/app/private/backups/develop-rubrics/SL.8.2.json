@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Purpose",
+    "Evaluation of Motives",
+    "Analysis of Presentation Techniques"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the purpose of information presented in any media or format.",
+      "Struggles to identify the purpose of information; demonstrates significant misunderstanding.",
+      "Identifies the purpose of information in simple formats (e.g., text) but struggles with diverse media.",
+      "Identifies the purpose of information in most media and formats with some prompting.",
+      "Clearly identifies the purpose of information in diverse media and formats.",
+      "Insightfully identifies the purpose of information and explains how the format contributes to that purpose."
+    ],
+    [
+      "Unable to recognize or evaluate any motives behind the presentation of information.",
+      "Shows limited awareness of potential motives; unable to differentiate between types.",
+      "Recognizes obvious motives (e.g., commercial) but struggles with subtle or complex motives.",
+      "Evaluates common motives (social, commercial, political) with some gaps in understanding.",
+      "Critically evaluates the motives behind the presentation of information, providing relevant examples.",
+      "Analyzes the complex interplay of motives and their potential impact on the audience."
+    ],
+    [
+      "Does not recognize presentation techniques or their effects.",
+      "Shows minimal awareness of presentation techniques (e.g., visual cues, data representation).",
+      "Identifies basic presentation techniques but does not analyze their effect on the message.",
+      "Analyzes how presentation techniques influence the audience's understanding with limited detail.",
+      "Critically analyzes the effectiveness of presentation techniques in conveying the intended message and influencing the audience.",
+      "Provides a nuanced analysis of presentation techniques, including unintended consequences and ethical considerations."
+    ]
+  ]
+}

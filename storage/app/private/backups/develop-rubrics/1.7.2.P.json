@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of disease transmission methods",
+    "Application of preventative techniques",
+    "Explains the importance of preventative measures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of how diseases are transmitted.",
+      "Shows limited awareness of disease transmission; struggles to explain basic concepts.",
+      "Identifies some common methods of disease transmission with some inaccuracies.",
+      "Accurately describes common methods of disease transmission, such as airborne droplets and direct contact.",
+      "Clearly explains various methods of disease transmission and provides relevant examples.",
+      "Demonstrates comprehensive understanding of disease transmission, including detailed explanations of various methods and related factors."
+    ],
+    [
+      "Does not demonstrate any preventative techniques.",
+      "Attempts to demonstrate preventative techniques but performs them incorrectly or incompletely.",
+      "Demonstrates basic preventative techniques (e.g., covering cough) inconsistently or with prompting.",
+      "Consistently demonstrates basic preventative techniques correctly (e.g., covering cough, basic hand washing).",
+      "Demonstrates and explains the correct application of multiple preventative techniques (e.g., covering coughs, thorough hand washing).",
+      "Demonstrates excellent application of various preventative techniques and explains the rationale behind each technique with a nuanced approach."
+    ],
+    [
+      "Unable to explain why preventing disease transmission is important.",
+      "Provides a vague or incomplete explanation of the importance of preventative measures.",
+      "Explains the importance of preventing disease transmission in simple terms, but lacks detail.",
+      "Explains why preventing disease transmission is important for personal and public health.",
+      "Clearly articulates the importance of preventative measures and provides relevant examples of their impact.",
+      "Provides a comprehensive explanation of the importance of preventative measures, including societal and global health implications, with supporting evidence."
+    ]
+  ]
+}

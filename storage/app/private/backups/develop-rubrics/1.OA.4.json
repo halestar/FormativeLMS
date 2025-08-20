@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Subtraction as an Unknown-Addend Problem",
+    "Accuracy in Solving Subtraction Problems",
+    "Explanation and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of subtraction as an unknown-addend problem.",
+      "Student shows minimal understanding of subtraction as an unknown-addend problem; struggles to relate subtraction to addition.",
+      "Student demonstrates basic understanding of subtraction as an unknown-addend problem with significant prompting.",
+      "Student demonstrates a solid understanding of subtraction as an unknown-addend problem and can solve simple problems.",
+      "Student demonstrates a strong understanding of subtraction as an unknown-addend problem and can solve complex problems with minor errors.",
+      "Student demonstrates a comprehensive understanding of subtraction as an unknown-addend problem and can fluently and accurately solve complex problems and explain the relationship between subtraction and addition."
+    ],
+    [
+      "Student is unable to solve subtraction problems using the unknown-addend strategy.",
+      "Student attempts to solve subtraction problems but makes frequent errors and struggles with basic calculations.",
+      "Student solves some subtraction problems correctly but makes several errors, especially with larger numbers.",
+      "Student solves most subtraction problems correctly with occasional minor errors.",
+      "Student solves subtraction problems accurately and efficiently with very few errors.",
+      "Student solves subtraction problems accurately, efficiently, and demonstrates proficiency in applying the unknown-addend strategy across various problem types."
+    ],
+    [
+      "Student cannot explain their reasoning or connect subtraction to addition.",
+      "Student attempts to explain their reasoning but struggles to articulate the connection between subtraction and addition effectively.",
+      "Student can explain their reasoning with significant prompting but struggles to clearly connect subtraction and addition.",
+      "Student explains their reasoning adequately and can connect subtraction and addition in a clear manner.",
+      "Student explains their reasoning clearly and provides a strong connection between subtraction and addition.",
+      "Student explains their reasoning clearly, provides a comprehensive connection between subtraction and addition, and demonstrates a deep understanding of the underlying mathematical principles."
+    ]
+  ]
+}

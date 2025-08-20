@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of STD Rate Analysis",
+    "Identification of Trends and Patterns",
+    "Discussion of Contributing Factors",
+    "Use of Evidence and Data"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides no analysis or inaccurate data regarding STD rates among teens.",
+      "Provides a limited or superficial analysis with significant inaccuracies in data presentation.",
+      "Offers a basic analysis but includes some inaccuracies or lacks depth in understanding STD rates among teens.",
+      "Presents a generally accurate analysis of STD rates among teens with minor inaccuracies.",
+      "Presents a detailed and accurate analysis of STD rates among teens, demonstrating a solid understanding of the data.",
+      "Provides a comprehensive, insightful, and accurate analysis of STD rates among teens, showcasing exceptional understanding and interpretation of complex data."
+    ],
+    [
+      "Fails to identify any trends or patterns in STD rates among teens.",
+      "Identifies one trend or pattern with minimal supporting evidence.",
+      "Identifies a few trends or patterns with limited explanation.",
+      "Identifies several trends and patterns with reasonable explanations.",
+      "Clearly identifies and explains significant trends and patterns in STD rates among teens.",
+      "Masterfully identifies, explains, and connects complex trends and patterns in STD rates, demonstrating a sophisticated understanding."
+    ],
+    [
+      "Does not discuss any contributing factors to STD rates among teens.",
+      "Mentions one or two contributing factors superficially.",
+      "Discusses a few contributing factors but lacks depth or supporting evidence.",
+      "Discusses several contributing factors with some supporting evidence.",
+      "Provides a thorough discussion of multiple contributing factors with clear supporting evidence.",
+      "Offers a comprehensive and insightful discussion of contributing factors, demonstrating a nuanced understanding of the complexities involved."
+    ],
+    [
+      "Provides no evidence or data to support analysis.",
+      "Uses minimal and\/or irrelevant evidence or data.",
+      "Uses some evidence or data, but it is not always relevant or well-explained.",
+      "Uses relevant evidence and data to support most points.",
+      "Uses strong and relevant evidence and data to effectively support all points.",
+      "Masterfully uses and synthesizes evidence and data to create a compelling and insightful analysis."
+    ]
+  ]
+}

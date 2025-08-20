@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying States and Territories:",
+    "Accuracy in Describing Locations and Geographical Features:",
+    "Understanding of Geographical Features (Mountain Ranges, Rivers, Plant Regions):"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any states or territories that existed in 1850.",
+      "Identifies only a few states or territories with significant inaccuracies in location.",
+      "Identifies some states and territories, but with several inaccuracies in location or names.",
+      "Identifies most of the states and territories with minor inaccuracies.",
+      "Accurately identifies nearly all states and territories that existed in 1850.",
+      "Accurately and comprehensively identifies all states and territories that existed in 1850."
+    ],
+    [
+      "Unable to describe the location or geographical features of any state or territory.",
+      "Provides minimal descriptions with major inaccuracies regarding location and geographical features.",
+      "Describes location and geographical features for a few states\/territories but with inaccuracies.",
+      "Describes location and geographical features for most states\/territories with some inaccuracies.",
+      "Accurately describes locations and major geographical features for nearly all states\/territories.",
+      "Accurately and comprehensively describes locations and major geographical features for all states\/territories, including relevant details."
+    ],
+    [
+      "Demonstrates no understanding of major geographical features relevant to the states and territories.",
+      "Shows a very limited understanding, with significant inaccuracies.",
+      "Identifies some geographical features but struggles to connect them to specific states\/territories.",
+      "Connects most geographical features to the correct states\/territories with some minor errors.",
+      "Demonstrates a strong understanding of geographical features and accurately connects them to specific states\/territories.",
+      "Demonstrates comprehensive understanding, accurately connecting geographical features to states\/territories, and explains their significance."
+    ]
+  ]
+}

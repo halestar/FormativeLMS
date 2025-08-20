@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Knowledge of Sun Safety Practices",
+    "Sunscreen Selection and Application",
+    "Understanding of UV Radiation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of sun safety practices and does not identify any methods of protection.",
+      "Student demonstrates minimal understanding of sun safety, vaguely mentioning one or two methods of protection without detail.",
+      "Student identifies a few sun safety practices (e.g., sunscreen, hats) but lacks depth in explaining their effectiveness or proper usage.",
+      "Student accurately describes several sun safety practices, including sunscreen use, protective clothing, and seeking shade, but may have minor gaps in understanding.",
+      "Student comprehensively explains various sun safety practices and their importance, demonstrating a strong understanding of how each method protects against UV radiation.",
+      "Student provides an in-depth explanation of sun safety practices, including nuanced strategies for different environments and times of day, and demonstrates a thorough understanding of UV radiation and its effects."
+    ],
+    [
+      "Student is unable to discuss sunscreen or its application.",
+      "Student mentions sunscreen but does not provide any details on SPF, broad-spectrum protection, or application.",
+      "Student identifies the importance of SPF but struggles to explain broad-spectrum or proper application techniques.",
+      "Student explains the importance of SPF and broad-spectrum protection and describes the general application process but may miss key details such as reapplication.",
+      "Student accurately describes the importance of SPF and broad-spectrum, explains the proper application technique (including amount and timing), and mentions the need for reapplication.",
+      "Student provides a detailed explanation of sunscreen selection, including understanding SPF levels, broad-spectrum protection, and specific product recommendations based on skin type, as well as providing a comprehensive guide on application and reapplication."
+    ],
+    [
+      "Student shows no awareness of UV radiation or its dangers.",
+      "Student vaguely mentions UV radiation but cannot explain its source or potential harm.",
+      "Student identifies UV radiation as coming from the sun and causing harm but struggles to explain the specific types of radiation (UVA, UVB) or health risks.",
+      "Student understands that UV radiation comes from the sun and identifies general health risks such as sunburn and skin cancer, but struggles to go into details.",
+      "Student explains the sources of UV radiation, its different types (UVA, UVB), and their potential health risks, including sunburn, premature aging, and skin cancer.",
+      "Student demonstrates a deep understanding of UV radiation, its sources, types, and effects on the skin, along with an ability to explain the science behind how sun safety practices mitigate these risks."
+    ]
+  ]
+}

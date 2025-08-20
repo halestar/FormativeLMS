@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Geographic Distribution and Economic Activities",
+    "Knowledge of Legends and Religious Beliefs",
+    "Understanding of Environmental Adaptation and Modification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the geographic locations of major California Indian nations or their economic activities.",
+      "Student demonstrates a minimal understanding of either the geographic locations OR the economic activities of major California Indian nations.",
+      "Student demonstrates a basic understanding of the geographic locations AND economic activities of some major California Indian nations, but with significant gaps or inaccuracies.",
+      "Student demonstrates a satisfactory understanding of the geographic locations and economic activities of several major California Indian nations, with minor inaccuracies.",
+      "Student demonstrates a strong understanding of the geographic locations and economic activities of most major California Indian nations, providing specific examples.",
+      "Student demonstrates a comprehensive and nuanced understanding of the geographic locations and economic activities of all major California Indian nations, including regional variations and adaptations."
+    ],
+    [
+      "Student demonstrates no knowledge of the legends or religious beliefs of California Indian nations.",
+      "Student demonstrates a minimal awareness of either the legends OR the religious beliefs of California Indian nations.",
+      "Student identifies some legends and religious beliefs of California Indian nations but struggles to explain their significance or context.",
+      "Student accurately describes several legends and religious beliefs of California Indian nations, providing some context.",
+      "Student demonstrates a strong understanding of the legends and religious beliefs of California Indian nations, explaining their cultural significance and providing relevant examples.",
+      "Student demonstrates a sophisticated understanding of the legends and religious beliefs of California Indian nations, analyzing their deeper meanings and connections to cultural practices."
+    ],
+    [
+      "Student demonstrates no understanding of how California Indians depended on, adapted to, or modified their environment.",
+      "Student demonstrates a minimal understanding of how California Indians interacted with their environment, but without specific examples.",
+      "Student identifies some ways California Indians depended on, adapted to, or modified their environment, but with limited detail.",
+      "Student describes several ways California Indians depended on, adapted to, and modified their environment, including cultivation and use of sea resources.",
+      "Student provides a detailed explanation of how California Indians depended on, adapted to, and modified their environment, including specific examples of cultivation techniques and sea resource management.",
+      "Student analyzes the complex relationship between California Indians and their environment, demonstrating a deep understanding of sustainable practices and the impact of human activity on the ecosystem."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Energy Calculations",
+    "Explanation of Mathematical Expressions",
+    "System Boundaries and Energy Flows"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The computational model shows no attempt to calculate energy changes, or the calculations are completely incorrect and not based on any relevant physical principles.",
+      "The computational model attempts to calculate energy changes, but the approach is fundamentally flawed, and the calculations are largely inaccurate. Units may be missing or incorrect.",
+      "The computational model includes some relevant calculations of energy changes, but there are significant errors in the application of formulas or the use of units. The model may only address a portion of the system.",
+      "The computational model calculates energy changes with reasonable accuracy, using appropriate formulas and units. There may be minor errors or omissions, but the overall approach is sound.",
+      "The computational model accurately calculates energy changes for most components of the system, using correct formulas, units, and attention to detail. Minor improvements in clarity or completeness could be made.",
+      "The computational model flawlessly calculates energy changes for all components of the system, demonstrating a deep understanding of energy conservation principles, appropriate formulas, and correct units. The model is clear, concise, and effectively communicates the energy dynamics of the system."
+    ],
+    [
+      "There is no explanation of the mathematical expressions used in the computational model, or the explanation provided is entirely unrelated to the physics of energy conservation.",
+      "The explanation of mathematical expressions is superficial and does not demonstrate an understanding of their physical meaning or relevance to energy conservation within the system.",
+      "The explanation of mathematical expressions is partially correct but lacks depth and clarity. There is some understanding of the relationship between the math and the physical processes, but key aspects are missing or unclear.",
+      "The explanation of mathematical expressions is generally accurate and demonstrates a good understanding of their physical meaning in the context of energy conservation. However, some details may be glossed over or lack precise explanation.",
+      "The explanation of mathematical expressions is clear, accurate, and provides a thorough understanding of their physical significance in the model. The explanation connects the math to the real-world behavior of the system.",
+      "The explanation of mathematical expressions is exceptionally clear, insightful, and demonstrates a deep and nuanced understanding of their physical meaning and implications for energy conservation within the system. The explanation is well-articulated and could serve as a model for others."
+    ],
+    [
+      "The computational model fails to define the system boundaries or identify any energy flows in or out of the system.",
+      "The system boundaries and energy flows are poorly defined, with significant omissions or inaccuracies. The model does not adequately represent the interactions between the system components.",
+      "The system boundaries and energy flows are identified, but the description lacks detail or clarity. Some relevant energy transfers may be missing or incorrectly represented.",
+      "The system boundaries and energy flows are reasonably well-defined, with most relevant energy transfers included in the model. There may be minor omissions or areas where greater clarity would be beneficial.",
+      "The system boundaries and energy flows are clearly and accurately defined, providing a comprehensive representation of the energy dynamics within the system. The model demonstrates a good understanding of the interactions between components and their environment.",
+      "The system boundaries and energy flows are exceptionally well-defined, demonstrating a sophisticated understanding of the system's interactions and energy balance. The model is complete, accurate, and insightful, providing a clear and comprehensive picture of the energy dynamics."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Important Trends: Accurately identifies and describes significant trends in the chosen regions (Middle East, Africa, Mexico\/Latin America, China).",
+    "Analysis of Impact on Individual Freedom: Evaluates the degree to which identified trends serve or hinder individual freedom in the chosen regions.",
+    "Analysis of Impact on Democracy: Evaluates the degree to which identified trends serve or hinder the development and stability of democracy in the chosen regions.",
+    "Use of Evidence and Examples: Supports analysis with relevant evidence, examples, and specific details from the chosen regions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any significant trends or identifies trends that are not relevant to the regions.",
+      "Identifies one significant trend with limited description or accuracy.",
+      "Identifies two significant trends, but descriptions lack depth or contain inaccuracies.",
+      "Identifies three significant trends with generally accurate descriptions, but may lack detailed analysis.",
+      "Identifies at least four significant trends with accurate and relatively detailed descriptions.",
+      "Identifies multiple (four or more) significant trends with thorough, accurate, and insightful descriptions, demonstrating a strong understanding of the regions."
+    ],
+    [
+      "Fails to address the impact of trends on individual freedom or provides irrelevant commentary.",
+      "Offers a vague or superficial assessment of the impact on individual freedom.",
+      "Provides a basic analysis of the impact of trends on individual freedom, but lacks specific examples or supporting evidence.",
+      "Analyzes the impact of trends on individual freedom with some specific examples, but analysis may be somewhat simplistic or one-sided.",
+      "Provides a well-reasoned analysis of the impact of trends on individual freedom, using specific examples and considering multiple perspectives.",
+      "Offers a nuanced and insightful analysis of the impact of trends on individual freedom, demonstrating a sophisticated understanding of the complexities involved and using compelling evidence."
+    ],
+    [
+      "Fails to address the impact of trends on democracy or provides irrelevant commentary.",
+      "Offers a vague or superficial assessment of the impact on democracy.",
+      "Provides a basic analysis of the impact of trends on democracy, but lacks specific examples or supporting evidence.",
+      "Analyzes the impact of trends on democracy with some specific examples, but analysis may be somewhat simplistic or one-sided.",
+      "Provides a well-reasoned analysis of the impact of trends on democracy, using specific examples and considering multiple perspectives.",
+      "Offers a nuanced and insightful analysis of the impact of trends on democracy, demonstrating a sophisticated understanding of the complexities involved and using compelling evidence."
+    ],
+    [
+      "Provides no evidence or examples to support claims.",
+      "Provides minimal evidence or examples, which may be vague or irrelevant.",
+      "Provides some evidence and examples, but they may be limited or not consistently linked to the analysis.",
+      "Supports analysis with relevant evidence and examples, but could be more specific or detailed.",
+      "Effectively supports analysis with specific and relevant evidence and examples from the chosen regions.",
+      "Effectively and persuasively supports analysis with a wide range of specific, relevant, and compelling evidence and examples, demonstrating in-depth knowledge of the regions."
+    ]
+  ]
+}

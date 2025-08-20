@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Volume as an Attribute",
+    "Ability to Measure Volume with Unit Cubes",
+    "Volume as Cubic Units"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding that volume is an attribute of solid figures.",
+      "Student shows minimal understanding that volume is an attribute of solid figures; struggles to differentiate volume from area or perimeter.",
+      "Student shows some understanding that volume is an attribute of solid figures, but has difficulty applying the concept.",
+      "Student demonstrates a satisfactory understanding that volume is an attribute of solid figures; can identify volume in simple scenarios.",
+      "Student demonstrates a strong understanding that volume is an attribute of solid figures; can explain and apply the concept effectively.",
+      "Student demonstrates a comprehensive understanding that volume is an attribute of solid figures; can explain, apply, and provide examples of the concept in various contexts."
+    ],
+    [
+      "Student cannot use unit cubes to measure volume; does not understand the concept of packing without gaps or overlaps.",
+      "Student attempts to use unit cubes to measure volume but struggles with packing without gaps or overlaps; the measurement is inaccurate.",
+      "Student can use unit cubes to measure volume in simple cases, but makes errors when packing more complex figures.",
+      "Student can accurately use unit cubes to measure volume of solid figures, packing without significant gaps or overlaps.",
+      "Student demonstrates proficiency in using unit cubes to measure volume accurately and efficiently, packing without gaps or overlaps.",
+      "Student demonstrates mastery in using unit cubes to measure volume, explaining why packing without gaps or overlaps is essential for accurate measurement."
+    ],
+    [
+      "Student does not recognize or understand that volume is measured in cubic units.",
+      "Student shows limited recognition that volume is measured in cubic units, but cannot accurately express volume using correct units.",
+      "Student sometimes expresses volume in cubic units, but is inconsistent or makes mistakes in unit identification.",
+      "Student consistently expresses volume in cubic units correctly, understanding the relationship between unit cubes and total volume.",
+      "Student accurately and consistently expresses volume in cubic units, and can explain the significance of using cubic units for volume measurement.",
+      "Student demonstrates a deep understanding of volume measurement in cubic units and can articulate why cubic units are necessary for measuring three-dimensional space accurately."
+    ]
+  ]
+}

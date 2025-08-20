@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify and define relevant quantities for modeling a real-world situation.",
+    "Clarity and precision in defining the units of measure for each quantity.",
+    "Justification and reasoning behind the choice of quantities and their relevance to the modeling purpose."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to define quantities or the quantities defined are completely irrelevant to the problem.",
+      "Identifies quantities, but struggles to connect them to the context of the problem. Definitions are vague or unclear.",
+      "Identifies some relevant quantities, but misses key quantities needed for effective modeling. Definitions lack precision.",
+      "Identifies most of the relevant quantities, and attempts to define them in the context of the problem. Some definitions may lack clarity.",
+      "Clearly identifies and defines almost all relevant quantities needed for the descriptive modeling, linking them effectively to the context. Definitions are generally clear and appropriate.",
+      "Consistently and accurately identifies and defines all relevant quantities essential for descriptive modeling. Provides clear, precise definitions that demonstrate a deep understanding of the problem's context."
+    ],
+    [
+      "No units are specified, or the units used are nonsensical.",
+      "Attempts to specify units, but they are often incorrect or inconsistent.",
+      "Specifies units for some quantities, but there are inconsistencies or omissions.",
+      "Specifies appropriate units for most quantities, with only minor inconsistencies.",
+      "Consistently uses appropriate units for all defined quantities, demonstrating a good understanding of measurement.",
+      "Exemplary use of units throughout the modeling process; includes conversions when necessary and always maintains dimensional consistency."
+    ],
+    [
+      "No justification is provided.",
+      "Offers weak or irrelevant justification for the choice of quantities.",
+      "Provides some justification for the choice of quantities, but the reasoning is not always clear or convincing.",
+      "Justifies the choice of most quantities, explaining their relevance to the modeling purpose with some clarity.",
+      "Clearly explains and justifies the choice of quantities, demonstrating a solid understanding of their role in the modeling process.",
+      "Provides insightful and thorough justification for the choice of quantities, demonstrating a sophisticated understanding of their impact on the descriptive model. Shows awareness of alternative choices and explains why the selected quantities are most appropriate."
+    ]
+  ]
+}

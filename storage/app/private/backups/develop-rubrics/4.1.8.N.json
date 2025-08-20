@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Physical Activity Recommendations",
+    "Ability to Identify Strategies for Increasing Physical Activity",
+    "Knowledge of Methods for Monitoring Physical Activity",
+    "Application of Knowledge to Personal Health and Wellness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of recommended physical activity levels or guidelines.",
+      "The student shows a minimal understanding of physical activity recommendations, with significant gaps in knowledge.",
+      "The student identifies some physical activity recommendations but struggles to explain them clearly or accurately.",
+      "The student accurately describes general physical activity recommendations for their age group.",
+      "The student demonstrates a comprehensive understanding of physical activity recommendations, including frequency, intensity, time, and type (FITT).",
+      "The student demonstrates an exceptional understanding of physical activity recommendations and can tailor them to specific populations or individual needs."
+    ],
+    [
+      "The student is unable to identify any strategies for increasing physical activity.",
+      "The student identifies one or two vague or impractical strategies for increasing physical activity.",
+      "The student suggests a few basic strategies for increasing physical activity, but they may not be well-explained or relevant.",
+      "The student identifies several practical strategies for increasing physical activity in different settings (e.g., school, home, community).",
+      "The student proposes a variety of creative and effective strategies for increasing physical activity, considering individual preferences and barriers.",
+      "The student designs a comprehensive and personalized plan for increasing physical activity, incorporating behavior change techniques and addressing potential challenges."
+    ],
+    [
+      "The student is unaware of any methods for monitoring physical activity.",
+      "The student mentions one or two basic methods for monitoring physical activity, but lacks understanding of how to use them.",
+      "The student identifies a few common methods for monitoring physical activity, such as step counters or activity logs.",
+      "The student describes various methods for monitoring physical activity, including wearable devices, apps, and self-assessment tools.",
+      "The student explains the benefits and limitations of different methods for monitoring physical activity, and can select appropriate tools based on individual needs and goals.",
+      "The student designs a personalized system for monitoring physical activity, incorporating multiple methods and analyzing data to track progress and make adjustments."
+    ],
+    [
+      "The student is unable to connect the concepts of physical activity, monitoring, and personal health.",
+      "The student makes a weak attempt to relate physical activity to personal health, but their understanding is superficial.",
+      "The student acknowledges the importance of physical activity for health but struggles to apply this knowledge to their own life.",
+      "The student explains how increasing and monitoring physical activity can contribute to personal health and well-being.",
+      "The student develops a realistic and actionable plan for increasing their own physical activity and monitoring their progress.",
+      "The student demonstrates a commitment to lifelong physical activity by consistently monitoring their activity levels, adapting their plan as needed, and advocating for physical activity in their community."
+    ]
+  ]
+}

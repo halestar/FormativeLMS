@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Questioning and Prediction: Asks relevant questions about energy changes during collisions and predicts outcomes.",
+    "Understanding of Energy Transfer: Demonstrates knowledge of how energy is transferred during collisions.",
+    "Application of Concepts: Connects the concepts of energy and collisions to real-world scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not ask questions or make predictions about energy changes in collisions.",
+      "Asks basic questions about collisions, but predictions about energy changes are absent or illogical.",
+      "Asks questions related to collisions and attempts to predict outcomes, but lacks detail and accuracy regarding energy changes.",
+      "Asks relevant questions that begin to explore the relationship between colliding objects and energy transfer; predictions show some understanding of energy changes.",
+      "Asks thoughtful questions about energy changes in collisions, demonstrating understanding of variables like speed; predictions are reasonable and based on observed patterns.",
+      "Formulates insightful questions and accurately predicts outcomes concerning energy changes in collisions, showcasing a comprehensive grasp of energy transfer principles."
+    ],
+    [
+      "Shows no understanding of energy transfer during collisions.",
+      "Demonstrates a limited understanding of energy transfer, only mentioning the concept without further explanation.",
+      "Describes energy transfer in basic terms, but struggles to explain the mechanisms or factors involved during collisions.",
+      "Explains energy transfer during collisions with some accuracy, identifying that energy moves from one object to another.",
+      "Clearly explains energy transfer, including how motion changes and the role of factors like speed and sound production during collisions.",
+      "Provides a detailed explanation of energy transfer during collisions, discussing how energy is distributed and transformed into different forms (motion, sound, heat)."
+    ],
+    [
+      "Unable to connect energy and collision concepts to any real-world scenarios.",
+      "Attempts to relate energy and collisions to real-world situations, but the connection is vague or inaccurate.",
+      "Describes a real-world scenario involving collisions, but struggles to accurately apply the concept of energy transfer.",
+      "Applies concepts of energy and collisions to explain a relevant real-world scenario, with some minor inaccuracies.",
+      "Explains a real-world scenario with clear connections to energy transfer during collisions, incorporating relevant details.",
+      "Analyzes complex real-world scenarios involving collisions, demonstrating a nuanced understanding of energy transfer and its implications."
+    ]
+  ]
+}

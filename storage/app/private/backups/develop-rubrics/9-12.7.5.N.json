@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Active Participation in School-Based Fitness\/Health Activities",
+    "Active Participation in Community-Based Fitness\/Health Activities",
+    "Demonstrates Knowledge of Health and Fitness Principles in Activities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not participate in any school-based activities promoting fitness and health.",
+      "Student participates in one school-based activity with minimal engagement.",
+      "Student participates in one school-based activity with moderate engagement.",
+      "Student participates in two or more school-based activities with moderate engagement.",
+      "Student actively participates in two or more school-based activities, demonstrating enthusiasm and contributing positively.",
+      "Student takes a leadership role in organizing or promoting school-based fitness\/health activities, demonstrating a strong commitment to wellness."
+    ],
+    [
+      "Student does not participate in any community-based activities promoting fitness and health.",
+      "Student participates in one community-based activity with minimal engagement.",
+      "Student participates in one community-based activity with moderate engagement.",
+      "Student participates in two or more community-based activities with moderate engagement.",
+      "Student actively participates in two or more community-based activities, demonstrating enthusiasm and contributing positively.",
+      "Student takes a leadership role in organizing or promoting community-based fitness\/health activities, demonstrating a strong commitment to wellness."
+    ],
+    [
+      "Student shows no understanding of basic health and fitness principles in their participation.",
+      "Student demonstrates a limited understanding of health and fitness principles, sometimes applying them incorrectly.",
+      "Student demonstrates a basic understanding of health and fitness principles and attempts to apply them.",
+      "Student demonstrates a solid understanding of health and fitness principles and applies them correctly in most situations.",
+      "Student demonstrates a comprehensive understanding of health and fitness principles and consistently applies them correctly and effectively.",
+      "Student demonstrates expert understanding of health and fitness principles, applying them effectively and educating others on their importance."
+    ]
+  ]
+}

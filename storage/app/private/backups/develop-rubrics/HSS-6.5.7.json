@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Sanskrit Literature (including the Bhagavad Gita)",
+    "Knowledge of Advancements in Medicine",
+    "Knowledge of Advancements in Metallurgy",
+    "Understanding of Mathematical Concepts (Hindu-Arabic numerals and the zero)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Sanskrit literature or the Bhagavad Gita.",
+      "Shows minimal awareness of Sanskrit literature or the Bhagavad Gita.",
+      "Identifies Sanskrit literature and the Bhagavad Gita but lacks detail.",
+      "Describes Sanskrit literature and the Bhagavad Gita with some accuracy and provides basic examples.",
+      "Explains the significance of Sanskrit literature and the Bhagavad Gita, providing relevant details and examples.",
+      "Provides a comprehensive analysis of Sanskrit literature and the Bhagavad Gita, including their historical and cultural impact, with insightful examples."
+    ],
+    [
+      "Shows no understanding of medical advancements in early India.",
+      "Demonstrates a very basic awareness of medical practices.",
+      "Identifies medicine as an area of advancement but provides no specifics.",
+      "Describes some basic medical practices or discoveries in early India.",
+      "Explains significant medical advancements, such as early surgical techniques or herbal remedies, with some detail.",
+      "Provides a detailed analysis of medical advancements in early India, including their impact on healthcare and society, with specific examples."
+    ],
+    [
+      "Shows no understanding of metallurgical advancements in early India.",
+      "Demonstrates a very basic awareness of metallurgy.",
+      "Identifies metallurgy as an area of advancement but provides no specifics.",
+      "Describes some basic metallurgical practices or products in early India.",
+      "Explains significant metallurgical advancements, such as the creation of high-quality steel, with some detail.",
+      "Provides a detailed analysis of metallurgical advancements in early India, including their techniques, uses, and impact on trade and technology, with specific examples."
+    ],
+    [
+      "Demonstrates no understanding of Hindu-Arabic numerals or the concept of zero.",
+      "Shows minimal awareness of Hindu-Arabic numerals or the concept of zero.",
+      "Identifies Hindu-Arabic numerals and the concept of zero but lacks detail.",
+      "Describes Hindu-Arabic numerals and the concept of zero with some accuracy and provides basic examples.",
+      "Explains the significance of Hindu-Arabic numerals and the concept of zero, providing relevant details about their impact on mathematics and science.",
+      "Provides a comprehensive analysis of Hindu-Arabic numerals and the concept of zero, including their origin, spread, and profound impact on global mathematics and science, with insightful examples."
+    ]
+  ]
+}

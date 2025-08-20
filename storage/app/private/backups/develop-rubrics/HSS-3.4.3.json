@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Historical Information",
+    "Connection to Community and Ideals",
+    "Depth of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the historical landmarks, symbols, or essential documents.",
+      "Demonstrates minimal and often inaccurate understanding of historical landmarks, symbols, or essential documents.",
+      "Demonstrates some understanding of the historical landmarks, symbols, or essential documents, but with inaccuracies or omissions.",
+      "Demonstrates a generally accurate understanding of historical landmarks, symbols, and essential documents, with minor omissions.",
+      "Demonstrates a strong and accurate understanding of historical landmarks, symbols, and essential documents, with few omissions.",
+      "Demonstrates a comprehensive and accurate understanding of historical landmarks, symbols, and essential documents, including nuances and complexities."
+    ],
+    [
+      "Fails to connect historical items to the sense of community or cherished ideals.",
+      "Makes a weak or unclear connection between historical items and the sense of community or cherished ideals.",
+      "Connects historical items to the sense of community or cherished ideals, but the explanation lacks depth.",
+      "Clearly connects historical items to the sense of community and cherished ideals with a satisfactory explanation.",
+      "Effectively connects historical items to the sense of community and cherished ideals with a detailed explanation.",
+      "Insightfully connects historical items to the sense of community and cherished ideals, demonstrating a deep understanding of their significance."
+    ],
+    [
+      "Shows no knowledge of the history or significance beyond surface-level recognition.",
+      "Shows limited knowledge of the history or significance beyond surface-level recognition.",
+      "Shows a basic understanding of the history and significance, but lacks depth.",
+      "Demonstrates a good understanding of the history and significance of landmarks, symbols, and documents.",
+      "Demonstrates a strong understanding of the history and significance, including relevant details.",
+      "Demonstrates a comprehensive understanding of the history and significance, including context and long-term impact."
+    ]
+  ]
+}

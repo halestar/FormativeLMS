@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Cultural Borrowings",
+    "Explanation of Reasons for Borrowings",
+    "Use of Target Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No cultural borrowings are identified.",
+      "Identifies one or two cultural borrowings without providing clear reasons.",
+      "Identifies a few cultural borrowings and attempts to provide reasons, but explanations are superficial.",
+      "Identifies several cultural borrowings and provides somewhat clear reasons for their existence.",
+      "Identifies numerous cultural borrowings, providing clear and logical reasons supported by evidence.",
+      "Demonstrates exceptional understanding by identifying a comprehensive range of cultural borrowings and providing insightful, well-supported reasons for their occurrence, showcasing deep knowledge of cultural interaction."
+    ],
+    [
+      "No reasons are given for any cultural borrowings.",
+      "Reasons are vague or do not reflect a true understanding of cultural exchange.",
+      "Reasons are somewhat relevant but lack depth or specific examples.",
+      "Provides clear and relevant reasons for cultural borrowings, showing a basic understanding of cultural dynamics.",
+      "Explains reasons for cultural borrowings with insightful detail and relevant supporting examples, demonstrating a strong grasp of intercultural influence.",
+      "Offers a sophisticated analysis of the reasons behind cultural borrowings, supported by compelling evidence and demonstrating a nuanced understanding of historical and social contexts driving cultural exchange."
+    ],
+    [
+      "No use of the target language.",
+      "Minimal use of target language; communication is significantly impaired.",
+      "Basic use of target language, but with frequent errors that occasionally impede understanding.",
+      "Adequate use of target language; errors do not generally impede understanding.",
+      "Good command of target language; effectively uses language to explain reasons for cultural borrowings with only minor errors.",
+      "Excellent command of target language; articulately and fluently explains reasons for cultural borrowings, demonstrating mastery of vocabulary and grammar."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Mathematical Representation and Explanation",
+    "Use of Evidence",
+    "Understanding of Ecosystem Dynamics"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No mathematical representation is used, and no explanation of factors affecting biodiversity and populations is present.",
+      "A mathematical representation is attempted, but it is inaccurate or irrelevant. The explanation is weak and does not connect factors to biodiversity and population changes.",
+      "A basic mathematical representation is used, but it may contain minor inaccuracies. The explanation identifies some factors affecting biodiversity and populations, but the connection is not clearly established.",
+      "A relevant mathematical representation is used with reasonable accuracy. The explanation identifies and describes several factors affecting biodiversity and populations, with a general connection made.",
+      "A clear and accurate mathematical representation is used effectively to support the explanation. The explanation thoroughly describes the factors affecting biodiversity and populations, demonstrating a strong connection with supporting evidence.",
+      "Sophisticated and precise mathematical representation is skillfully used to support a nuanced explanation. The explanation provides a comprehensive and insightful analysis of the factors affecting biodiversity and populations, including scale considerations and supported by strong, clear evidence."
+    ],
+    [
+      "No evidence is used to support claims.",
+      "Little or no relevant evidence is used to support claims. Any cited evidence is irrelevant.",
+      "Some evidence is used, but the connection to claims is weak or unclear. Evidence may not be fully explained or analyzed.",
+      "Relevant evidence is used to support claims, and is explained in the context of the claim.",
+      "Strong and specific evidence is used to support claims, and is explained in detail. Evidence is clearly connected to the explanation.",
+      "Comprehensive evidence, including quantitative data, is expertly used to support claims, and is critically analyzed. The connection between evidence and the explanation is insightful and persuasive."
+    ],
+    [
+      "Demonstrates no understanding of ecosystem dynamics, carrying capacity, or limiting factors.",
+      "Demonstrates a limited understanding of ecosystem dynamics and related concepts. Key terms may be misused or undefined.",
+      "Demonstrates a basic understanding of ecosystem dynamics, including carrying capacity and limiting factors, but may oversimplify complex interactions.",
+      "Demonstrates a solid understanding of ecosystem dynamics, explaining how factors such as resource availability, competition, and predation affect populations.",
+      "Demonstrates a strong understanding of ecosystem dynamics, explaining complex interactions and feedback loops that influence population sizes and biodiversity.",
+      "Demonstrates a nuanced and comprehensive understanding of ecosystem dynamics, including resilience, stability, and the impact of disturbances on ecosystems of different scales."
+    ]
+  ]
+}

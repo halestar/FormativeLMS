@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Geometric Theorems",
+    "Logical Reasoning and Proof Construction",
+    "Application of Theorems to Parallel Lines and Transversals",
+    "Understanding of Perpendicular Bisectors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of geometric theorems related to lines and angles.",
+      "Student demonstrates minimal understanding of geometric theorems. Struggles to recall or apply basic definitions.",
+      "Student demonstrates some understanding of geometric theorems but requires prompting to apply them in proofs.",
+      "Student demonstrates a good understanding of geometric theorems and can apply them in simple proofs with some guidance.",
+      "Student demonstrates a strong understanding of geometric theorems and can apply them effectively in most proofs.",
+      "Student demonstrates excellent understanding of geometric theorems and can apply them effectively and independently in complex proofs."
+    ],
+    [
+      "Student is unable to construct logical arguments or proofs related to lines and angles.",
+      "Student struggles to construct logical arguments and proofs, with significant errors in reasoning.",
+      "Student can construct simple proofs with significant gaps in reasoning or justification.",
+      "Student constructs proofs with mostly sound reasoning but may have minor gaps in justification or logical flow.",
+      "Student constructs well-reasoned proofs with clear justification, demonstrating a strong understanding of logical connections.",
+      "Student constructs rigorous and elegant proofs with impeccable reasoning, demonstrating mastery of logical deduction and justification."
+    ],
+    [
+      "Student does not demonstrate knowledge of theorems related to parallel lines cut by a transversal.",
+      "Student struggles to identify and apply theorems related to angles formed by parallel lines and transversals.",
+      "Student can identify some angle relationships but struggles to correctly apply theorems in problem-solving.",
+      "Student applies theorems related to parallel lines and transversals with some accuracy, but may make minor errors in calculation or justification.",
+      "Student consistently and accurately applies theorems related to parallel lines and transversals to solve problems.",
+      "Student demonstrates a deep understanding of angle relationships and theorems, applying them creatively to solve complex problems involving parallel lines and transversals."
+    ],
+    [
+      "Student demonstrates no understanding of perpendicular bisectors and their properties.",
+      "Student struggles to define or identify perpendicular bisectors and their relationship to equidistant points.",
+      "Student identifies perpendicular bisectors but struggles to apply the theorem relating them to equidistant points.",
+      "Student applies the perpendicular bisector theorem with some accuracy, but may struggle with more complex problems.",
+      "Student accurately applies the perpendicular bisector theorem to solve problems, demonstrating a clear understanding of its properties.",
+      "Student demonstrates a thorough understanding of the perpendicular bisector theorem, applying it effectively in a variety of geometric contexts and problems."
+    ]
+  ]
+}

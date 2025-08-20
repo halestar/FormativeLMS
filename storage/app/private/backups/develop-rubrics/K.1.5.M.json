@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Appropriateness of Usage",
+    "Understanding of Social Context",
+    "Ability to Practice Polite Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not use polite language in any situation.",
+      "Student rarely uses polite language, even when prompted.",
+      "Student uses polite language in some situations, but struggles to identify appropriate contexts.",
+      "Student generally uses polite language in most situations, but with occasional lapses.",
+      "Student consistently uses polite language appropriately in a variety of situations.",
+      "Student expertly and naturally uses polite language in all relevant situations, adapting usage for nuance and context."
+    ],
+    [
+      "Student does not demonstrate any understanding of how social context dictates the use of polite language.",
+      "Student shows minimal awareness of how social context influences the use of polite language.",
+      "Student recognizes that social context is important, but cannot explain how it affects language use.",
+      "Student can describe some ways social context affects language use, but struggles with application.",
+      "Student understands and can clearly explain how social context affects polite language use.",
+      "Student deeply understands the nuances of social context and uses it to guide the use of polite language skillfully, explaining rationale clearly."
+    ],
+    [
+      "Student is unable to practice using any polite language.",
+      "Student attempts to practice polite language, but struggles significantly with correct usage.",
+      "Student practices polite language with several errors in usage and appropriateness.",
+      "Student practices polite language with minor errors, showing general competence.",
+      "Student practices polite language accurately and appropriately in a variety of scenarios.",
+      "Student confidently and skillfully practices polite language in diverse and challenging scenarios, demonstrating mastery."
+    ]
+  ]
+}

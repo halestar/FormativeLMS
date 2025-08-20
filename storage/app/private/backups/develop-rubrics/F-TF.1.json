@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Radian Measure",
+    "Application of Radian Measure",
+    "Unit Circle Connection"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of radian measure as arc length on the unit circle.",
+      "Student shows minimal understanding of radian measure; struggles to relate it to arc length.",
+      "Student demonstrates some understanding of radian measure but has difficulty applying it to find arc length or vice versa.",
+      "Student understands radian measure and its relationship to arc length on the unit circle but may make minor errors in calculations.",
+      "Student accurately relates radian measure to arc length and can solve problems with only occasional errors.",
+      "Student demonstrates a comprehensive understanding of radian measure, accurately calculates arc lengths, and can explain the relationship clearly and precisely."
+    ],
+    [
+      "Student cannot apply radian measure in any context.",
+      "Student struggles to apply radian measure to find arc length or angle measure; makes significant errors.",
+      "Student can apply radian measure in simple cases but struggles with more complex problems.",
+      "Student can apply radian measure to find arc length and angle measure but may need assistance with problem-solving strategies.",
+      "Student consistently applies radian measure accurately and efficiently to solve a variety of problems.",
+      "Student expertly applies radian measure in diverse and complex problems, demonstrating a deep understanding of its applications."
+    ],
+    [
+      "Student does not understand the unit circle or its relationship to radian measure.",
+      "Student shows limited understanding of the unit circle and its connection to radian measure.",
+      "Student recognizes the unit circle but struggles to relate it to radian measure calculations.",
+      "Student can relate the unit circle to radian measure but may make errors when finding corresponding angles or arc lengths.",
+      "Student demonstrates a solid understanding of the unit circle and its relationship to radian measure, accurately finding angles and arc lengths.",
+      "Student exhibits a comprehensive understanding of the unit circle, effortlessly relating it to radian measure and explaining its significance in trigonometry."
+    ]
+  ]
+}

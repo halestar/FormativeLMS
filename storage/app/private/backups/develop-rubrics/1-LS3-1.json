@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Observation and Data Collection: How effectively does the student gather and document observations of similarities and differences between parents and offspring?",
+    "Evidence-Based Account: How well does the student construct an explanation that is supported by evidence from their observations?",
+    "Understanding of Core Ideas: How well does the student demonstrate an understanding of inheritance and variation of traits?",
+    "Application of Patterns: How effectively does the student identify and use patterns to describe and explain the phenomena of inheritance and variation?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No observations are made or recorded.",
+      "Limited observations are made with little detail or accuracy.",
+      "Basic observations are recorded, but some details are missing or unclear.",
+      "Detailed observations are recorded, showing a good understanding of similarities and differences.",
+      "Comprehensive observations are recorded with clear and accurate details, demonstrating a strong understanding.",
+      "Exceptional observations are recorded with insightful details, demonstrating a thorough and nuanced understanding."
+    ],
+    [
+      "No explanation is provided.",
+      "Explanation is attempted, but lacks supporting evidence.",
+      "Explanation includes some evidence, but the connection is weak or unclear.",
+      "Explanation is clearly supported by evidence, demonstrating a logical connection between observations and conclusions.",
+      "Explanation is well-reasoned and thoroughly supported by strong evidence, showing a deep understanding of the concepts.",
+      "Explanation is insightful, synthesizing evidence in a novel way to provide a comprehensive and nuanced account."
+    ],
+    [
+      "Demonstrates no understanding of inheritance and variation of traits.",
+      "Demonstrates a limited understanding of inheritance and variation of traits.",
+      "Demonstrates a basic understanding of inheritance and variation of traits, but with some inaccuracies.",
+      "Demonstrates a good understanding of inheritance and variation of traits, with accurate explanations.",
+      "Demonstrates a strong understanding of inheritance and variation of traits, explaining concepts clearly and accurately.",
+      "Demonstrates an exceptional understanding of inheritance and variation of traits, explaining concepts with depth and nuance."
+    ],
+    [
+      "Does not identify any patterns.",
+      "Identifies patterns, but struggles to use them to explain the phenomena.",
+      "Identifies and uses patterns to explain the phenomena with some limitations.",
+      "Effectively identifies and uses patterns to describe and explain the phenomena.",
+      "Skillfully identifies and uses patterns to provide a comprehensive explanation of the phenomena.",
+      "Masterfully identifies and uses patterns to offer a novel and insightful explanation of the phenomena."
+    ]
+  ]
+}

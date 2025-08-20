@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of appropriate individuals who can assist with health-related issues.",
+    "Recognition of individuals who can assist with potentially life-threatening health conditions.",
+    "Understanding of how to access assistance for health-related issues and emergencies."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any individuals who can assist with health-related issues.",
+      "The student identifies one or two individuals vaguely related to health assistance.",
+      "The student identifies some individuals who can assist but demonstrates limited understanding of their roles.",
+      "The student accurately identifies several individuals (e.g., school nurse, doctor) and their general roles in health assistance.",
+      "The student identifies a comprehensive range of individuals (e.g., EMT, counselors, specialists) and accurately describes their roles in various health scenarios.",
+      "The student demonstrates an exceptional understanding by identifying specialized individuals and explaining their specific expertise in different health emergencies, including when and how to access them."
+    ],
+    [
+      "The student does not recognize anyone who can assist in life-threatening situations.",
+      "The student names one or two general responders (e.g., 911) without specifying their role.",
+      "The student identifies some individuals who can help in emergencies, but with unclear understanding of their immediate actions.",
+      "The student correctly identifies key responders for common emergencies like asthma or seizures (e.g., school nurse, EMT).",
+      "The student identifies appropriate responders for a variety of life-threatening conditions and explains the importance of their quick intervention.",
+      "The student exhibits advanced knowledge by identifying specialized medical professionals and outlining detailed steps for responding to complex or rare health emergencies."
+    ],
+    [
+      "The student does not know how to access help for any health-related issue.",
+      "The student mentions calling 911 but provides no further details.",
+      "The student has a basic understanding of how to seek help (e.g., telling a teacher) but lacks specifics.",
+      "The student describes basic procedures for accessing assistance, such as contacting a school nurse or calling emergency services.",
+      "The student provides a detailed explanation of how to access different types of health assistance, including knowing when to call emergency services versus seeking other help.",
+      "The student demonstrates a sophisticated understanding of resource allocation and explains how to navigate complex healthcare systems to ensure timely and effective assistance in various situations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Simplification of Logarithmic Expressions",
+    "Identification of Approximate Values",
+    "Understanding and Application of Logarithmic Properties"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to simplify the expression or demonstrates a complete misunderstanding of logarithmic properties.",
+      "Attempts to simplify the expression, but makes significant errors in applying logarithmic properties.",
+      "Simplifies the expression with some errors in applying logarithmic properties.",
+      "Simplifies the expression correctly, demonstrating a basic understanding of logarithmic properties.",
+      "Simplifies the expression correctly and efficiently, demonstrating a strong understanding of logarithmic properties.",
+      "Simplifies complex logarithmic expressions accurately and provides clear justifications for each step using logarithmic properties."
+    ],
+    [
+      "Unable to identify or approximate the value of the logarithmic expression.",
+      "Attempts to identify the approximate value but provides an answer that is significantly incorrect.",
+      "Identifies the approximate value with some degree of accuracy, but the answer is not precise.",
+      "Identifies the approximate value with reasonable accuracy.",
+      "Accurately identifies the approximate value of the logarithmic expression.",
+      "Provides a precise approximation of the logarithmic expression and explains the reasoning behind the approximation method."
+    ],
+    [
+      "Shows no understanding of logarithmic properties.",
+      "Demonstrates a limited understanding of logarithmic properties, with frequent errors in application.",
+      "Shows a basic understanding of logarithmic properties but struggles to apply them consistently.",
+      "Understands and applies most logarithmic properties correctly.",
+      "Demonstrates a strong understanding and application of logarithmic properties.",
+      "Exhibits a comprehensive understanding of logarithmic properties and applies them creatively to solve complex problems."
+    ]
+  ]
+}

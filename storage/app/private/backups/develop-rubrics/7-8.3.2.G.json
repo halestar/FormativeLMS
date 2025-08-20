@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify medically and scientifically accurate sources.",
+    "Demonstrates understanding of source credibility.",
+    "Provides valid reasons for source choice."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Cannot identify any medically or scientifically accurate sources related to reproductive health.",
+      "Identifies sources that are not medically or scientifically accurate.",
+      "Identifies a few sources, but accuracy is questionable or not consistently maintained.",
+      "Identifies several sources, but accuracy needs improvement.",
+      "Identifies medically and scientifically accurate sources with only minor issues in source quality.",
+      "Consistently identifies medically and scientifically accurate sources related to reproductive health."
+    ],
+    [
+      "Does not understand what would make a source credible.",
+      "Unable to differentiate between credible and non-credible sources.",
+      "Shows limited understanding of source credibility.",
+      "Shows some understanding of source credibility but may not apply it consistently.",
+      "Demonstrates a solid understanding of source credibility.",
+      "Demonstrates a comprehensive understanding of source credibility."
+    ],
+    [
+      "Provides no reasons for source choice.",
+      "Reasons for source choice are unclear.",
+      "Reasons for source choice are somewhat relevant.",
+      "Reasons for source choice are clearly relevant.",
+      "Reasons for source choice are well-explained and relevant.",
+      "Reasons for source choice are insightful, well-explained, and demonstrates a deeper understanding of the topic."
+    ]
+  ]
+}

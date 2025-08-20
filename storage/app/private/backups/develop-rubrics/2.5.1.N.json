@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Nutritional Needs",
+    "Applying Decision-Making Process",
+    "Evaluating Food Options"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of basic nutritional needs or the role of food in health.",
+      "Shows minimal understanding of nutritional needs; struggles to connect food choices with health outcomes.",
+      "Demonstrates basic understanding of some nutritional needs; can identify a few healthy food choices.",
+      "Demonstrates a satisfactory understanding of nutritional needs and connects food choices to health, but lacks depth.",
+      "Shows a strong understanding of nutritional needs and explains how different foods contribute to health and well-being.",
+      "Exhibits a comprehensive understanding of nutritional needs, articulates the impact of food choices on overall health, and considers individual dietary requirements."
+    ],
+    [
+      "Unable to apply any decision-making process to select healthy foods.",
+      "Attempts to use a decision-making process but struggles to apply it effectively to food choices.",
+      "Applies a simple decision-making process to select healthy foods, but the reasoning is limited.",
+      "Applies a decision-making process to select healthy foods, considering some factors such as calories and nutrients.",
+      "Applies a comprehensive decision-making process to select healthy foods, considering factors such as nutritional value, personal preferences, and availability.",
+      "Applies a sophisticated decision-making process to select healthy foods, demonstrating critical evaluation of food labels, marketing, and personal needs; justifies choices with evidence."
+    ],
+    [
+      "Unable to evaluate food options based on health criteria.",
+      "Struggles to evaluate food options and identify healthy choices.",
+      "Identifies some healthy food options but lacks detailed reasoning.",
+      "Evaluates food options and identifies healthy choices with adequate reasoning.",
+      "Evaluates food options effectively, providing clear and detailed reasoning for healthy choices.",
+      "Critically evaluates a variety of food options, providing nuanced and evidence-based justifications for healthy choices, while also considering potential drawbacks of certain foods."
+    ]
+  ]
+}

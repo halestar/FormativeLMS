@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of School Health Services",
+    "Identification of Community Health Services",
+    "Ability to Access School Health Services",
+    "Ability to Access Community Health Services"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any school health services.",
+      "The student identifies one school health service but struggles to accurately describe it.",
+      "The student identifies two school health services with limited accuracy in their descriptions.",
+      "The student identifies three school health services and describes them with reasonable accuracy.",
+      "The student accurately identifies four school health services and provides clear descriptions of each.",
+      "The student accurately identifies all school health services and provides comprehensive descriptions, including their purpose and accessibility."
+    ],
+    [
+      "The student does not identify any community health services.",
+      "The student identifies one community health service but struggles to accurately describe it.",
+      "The student identifies two community health services with limited accuracy in their descriptions.",
+      "The student identifies three community health services and describes them with reasonable accuracy.",
+      "The student accurately identifies four community health services and provides clear descriptions of each.",
+      "The student accurately identifies all five community health services and provides comprehensive descriptions, including their purpose and accessibility."
+    ],
+    [
+      "The student cannot explain how to access school health services.",
+      "The student provides a vague or inaccurate explanation of how to access one school health service.",
+      "The student provides a partially accurate explanation of how to access two school health services.",
+      "The student explains how to access three school health services with reasonable clarity and accuracy.",
+      "The student clearly and accurately explains how to access four school health services, including any necessary steps or requirements.",
+      "The student thoroughly explains how to access all school health services, including detailed information on procedures, contact information, and necessary documentation."
+    ],
+    [
+      "The student cannot explain how to access community health services.",
+      "The student provides a vague or inaccurate explanation of how to access one community health service.",
+      "The student provides a partially accurate explanation of how to access two community health services.",
+      "The student explains how to access three community health services with reasonable clarity and accuracy.",
+      "The student clearly and accurately explains how to access four community health services, including any necessary steps or requirements.",
+      "The student thoroughly explains how to access all five community health services, including detailed information on procedures, contact information, and necessary documentation."
+    ]
+  ]
+}

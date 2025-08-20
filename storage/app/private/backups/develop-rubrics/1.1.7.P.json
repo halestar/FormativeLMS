@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Individual Impact",
+    "Clarity and Accuracy of Explanation",
+    "Application of Knowledge to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how individual behaviors affect the environment and community.",
+      "Student shows a limited understanding of how individual behaviors affect the environment and community, with significant misconceptions.",
+      "Student identifies some ways individual behaviors affect the environment and community, but the explanation lacks depth and clarity.",
+      "Student explains several ways individual behaviors affect the environment and community, providing basic examples.",
+      "Student clearly explains how various individual behaviors affect the environment and community, providing detailed examples and demonstrating a good understanding of the connections.",
+      "Student comprehensively explains and analyzes how individual behaviors affect the environment and community, providing insightful examples, demonstrating a deep understanding of the connections, and suggesting potential solutions for positive change."
+    ],
+    [
+      "Explanation is unclear, inaccurate, and lacks supporting evidence.",
+      "Explanation is difficult to understand, contains several inaccuracies, and provides minimal supporting evidence.",
+      "Explanation is somewhat clear but contains some inaccuracies and provides limited supporting evidence.",
+      "Explanation is generally clear and accurate, with some supporting evidence.",
+      "Explanation is clear, accurate, and well-supported with relevant evidence.",
+      "Explanation is exceptionally clear, accurate, and thoroughly supported with compelling evidence, demonstrating a sophisticated understanding of the topic."
+    ],
+    [
+      "Student does not apply knowledge to real-world scenarios.",
+      "Student attempts to apply knowledge to real-world scenarios, but the application is irrelevant or inappropriate.",
+      "Student applies knowledge to real-world scenarios with limited success or relevance.",
+      "Student applies knowledge to real-world scenarios in a relevant and appropriate manner.",
+      "Student effectively applies knowledge to real-world scenarios, demonstrating a clear understanding of the implications.",
+      "Student creatively and insightfully applies knowledge to real-world scenarios, demonstrating a deep understanding of the implications and proposing innovative solutions."
+    ]
+  ]
+}

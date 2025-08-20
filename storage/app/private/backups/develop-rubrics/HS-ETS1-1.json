@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identification of Global Challenge",
+    "Specification of Qualitative Criteria",
+    "Specification of Quantitative Constraints",
+    "Accounting for Societal Needs and Wants",
+    "Analysis of Tradeoffs and Impacts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No global challenge is identified.",
+      "A global challenge is mentioned, but it is vague and lacks specific details.",
+      "A global challenge is identified, but the description is limited and lacks depth.",
+      "A global challenge is clearly identified and described with some relevant details.",
+      "A significant global challenge is identified, well-described, and contextualized with supporting information.",
+      "A critical global challenge is expertly identified, thoroughly described, and comprehensively contextualized with relevant and compelling supporting evidence."
+    ],
+    [
+      "No qualitative criteria are specified.",
+      "One or two vague qualitative criteria are mentioned without clear connection to the challenge.",
+      "A few qualitative criteria are specified, but their relevance to the challenge is not always clear.",
+      "Relevant qualitative criteria are specified, reflecting societal needs and wants.",
+      "Well-defined qualitative criteria are thoroughly specified and justified with clear links to societal needs and wants.",
+      "Comprehensive and insightful qualitative criteria are expertly specified, rigorously justified, and deeply aligned with nuanced societal needs and wants."
+    ],
+    [
+      "No quantitative constraints are specified.",
+      "One or two vague quantitative constraints are mentioned without clear connection to the challenge.",
+      "A few quantitative constraints are specified, but their relevance to the challenge is not always clear or measurable.",
+      "Measurable quantitative constraints are specified and connected to the challenge.",
+      "Well-defined and measurable quantitative constraints are thoroughly specified and justified with clear links to resource limitations or other constraints.",
+      "Comprehensive and insightful quantitative constraints are expertly specified, rigorously justified, and deeply aligned with nuanced resource limitations and societal considerations."
+    ],
+    [
+      "Societal needs and wants are not considered.",
+      "Societal needs and wants are vaguely mentioned.",
+      "Societal needs and wants are considered, but their connection to the challenge is not always clear.",
+      "Societal needs and wants are clearly considered and connected to the challenge and proposed solutions.",
+      "Societal needs and wants are thoroughly considered and integrated into the analysis of the challenge and potential solutions, with explicit attention to diverse perspectives and ethical considerations.",
+      "Societal needs and wants are expertly and comprehensively integrated into the analysis of the challenge and potential solutions, with nuanced attention to diverse perspectives, ethical implications, and long-term societal impact."
+    ],
+    [
+      "Tradeoffs and impacts of potential solutions are not considered.",
+      "Tradeoffs and impacts are vaguely mentioned without analysis.",
+      "Some potential tradeoffs and impacts of solutions are identified, but the analysis is superficial.",
+      "Relevant tradeoffs and impacts of potential solutions are analyzed, considering both positive and negative consequences.",
+      "A thorough analysis of tradeoffs and impacts of potential solutions is conducted, considering a wide range of consequences and stakeholders.",
+      "A comprehensive and insightful analysis of tradeoffs and impacts is conducted, considering long-term consequences, diverse stakeholders, and ethical implications with nuanced understanding and critical evaluation."
+    ]
+  ]
+}

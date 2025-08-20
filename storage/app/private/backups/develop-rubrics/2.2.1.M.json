@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internal Factors",
+    "Identification of External Factors",
+    "Understanding of Influence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any internal factors influencing mental, emotional, and social health.",
+      "Student identifies one internal factor with limited accuracy or detail.",
+      "Student identifies two internal factors with some accuracy and basic details.",
+      "Student identifies three internal factors with reasonable accuracy and details.",
+      "Student identifies four internal factors with good accuracy and clear details.",
+      "Student comprehensively identifies multiple internal factors with excellent accuracy, providing thorough details and demonstrating a strong understanding of their impact."
+    ],
+    [
+      "Student does not identify any external factors influencing mental, emotional, and social health.",
+      "Student identifies one external factor with limited accuracy or detail.",
+      "Student identifies two external factors with some accuracy and basic details.",
+      "Student identifies three external factors with reasonable accuracy and details.",
+      "Student identifies four external factors with good accuracy and clear details.",
+      "Student comprehensively identifies multiple external factors with excellent accuracy, providing thorough details and demonstrating a strong understanding of their impact."
+    ],
+    [
+      "Student demonstrates no understanding of how internal and external factors influence mental, emotional, and social health.",
+      "Student shows a minimal understanding of how one internal or external factor influences health.",
+      "Student demonstrates a basic understanding of how several internal and external factors influence health, but lacks depth.",
+      "Student demonstrates a reasonable understanding of how multiple internal and external factors influence health with some specific examples.",
+      "Student demonstrates a good understanding of how internal and external factors influence various aspects of health, providing clear and relevant examples.",
+      "Student demonstrates a comprehensive and nuanced understanding of how internal and external factors interact to influence mental, emotional, and social health, providing insightful examples and demonstrating critical thinking."
+    ]
+  ]
+}

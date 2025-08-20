@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Application of Distributive Property",
+    "Generating Equivalent Expressions",
+    "Use of Properties of Operations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of the distributive property.",
+      "Student attempts to apply the distributive property but makes significant errors.",
+      "Student applies the distributive property with some errors, showing a basic understanding.",
+      "Student applies the distributive property correctly in simple expressions.",
+      "Student applies the distributive property correctly in more complex expressions, with minimal errors.",
+      "Student demonstrates a thorough understanding of the distributive property, applying it accurately and efficiently in complex expressions."
+    ],
+    [
+      "Student cannot generate equivalent expressions.",
+      "Student attempts to generate equivalent expressions but struggles with basic concepts.",
+      "Student generates equivalent expressions with frequent errors.",
+      "Student generates equivalent expressions for simple problems but struggles with complex problems.",
+      "Student generates equivalent expressions with minor errors in more complex problems.",
+      "Student accurately and efficiently generates equivalent expressions for a variety of problems, demonstrating a strong understanding."
+    ],
+    [
+      "Student does not use properties of operations.",
+      "Student attempts to use properties of operations but makes significant errors.",
+      "Student uses properties of operations with some errors, showing a basic understanding.",
+      "Student uses properties of operations correctly in simple expressions.",
+      "Student uses properties of operations correctly in more complex expressions, with minimal errors.",
+      "Student demonstrates a thorough understanding of properties of operations, applying them accurately and efficiently in complex expressions."
+    ]
+  ]
+}

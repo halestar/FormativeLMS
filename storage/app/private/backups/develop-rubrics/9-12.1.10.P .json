@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Public Health Policies",
+    "Understanding of Government Regulations",
+    "Ability to Explain Influence on Health Promotion",
+    "Ability to Explain Influence on Disease Prevention"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of public health policies.",
+      "Shows a limited understanding of public health policies; struggles to define what they are.",
+      "Demonstrates a basic understanding of public health policies; can define what they are but struggles with examples.",
+      "Demonstrates a satisfactory understanding of public health policies; can define and give basic examples.",
+      "Demonstrates a strong understanding of public health policies; can define, give examples, and explain their purpose.",
+      "Demonstrates a comprehensive understanding of public health policies; can define, give examples, explain their purpose, and analyze their effectiveness."
+    ],
+    [
+      "Demonstrates no understanding of government regulations related to health.",
+      "Shows a limited understanding of government regulations related to health; struggles to define what they are.",
+      "Demonstrates a basic understanding of government regulations related to health; can define what they are but struggles with examples.",
+      "Demonstrates a satisfactory understanding of government regulations related to health; can define and give basic examples.",
+      "Demonstrates a strong understanding of government regulations related to health; can define, give examples, and explain their purpose.",
+      "Demonstrates a comprehensive understanding of government regulations related to health; can define, give examples, explain their purpose, and analyze their effectiveness."
+    ],
+    [
+      "Unable to explain how policies and regulations influence health promotion.",
+      "Struggles to explain how policies and regulations influence health promotion; connection is unclear.",
+      "Explains a limited connection between policies\/regulations and health promotion; explanation is superficial.",
+      "Explains how policies and regulations influence health promotion with some clarity and examples.",
+      "Clearly explains how policies and regulations influence health promotion with specific examples and reasoning.",
+      "Insightfully explains how policies and regulations influence health promotion, providing nuanced examples and demonstrating a deep understanding of the mechanisms at play."
+    ],
+    [
+      "Unable to explain how policies and regulations influence disease prevention.",
+      "Struggles to explain how policies and regulations influence disease prevention; connection is unclear.",
+      "Explains a limited connection between policies\/regulations and disease prevention; explanation is superficial.",
+      "Explains how policies and regulations influence disease prevention with some clarity and examples.",
+      "Clearly explains how policies and regulations influence disease prevention with specific examples and reasoning.",
+      "Insightfully explains how policies and regulations influence disease prevention, providing nuanced examples and demonstrating a deep understanding of the mechanisms at play."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Trusted Adults",
+    "Understanding of Reporting Procedures",
+    "Clarity and Relevance of Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any trusted adults.",
+      "Student can identify one adult, but it is unclear why they are trustworthy.",
+      "Student identifies one trusted adult and gives a basic reason why they are trustworthy.",
+      "Student identifies two trusted adults and provides clear reasons for their trustworthiness.",
+      "Student identifies three trusted adults and explains their trustworthiness with specific examples.",
+      "Student identifies multiple trusted adults from both school and community, providing detailed explanations of their trustworthiness and roles in reporting violence."
+    ],
+    [
+      "Student does not understand the need to report violence.",
+      "Student vaguely mentions reporting but lacks specific understanding.",
+      "Student understands reporting is necessary but doesn't know how.",
+      "Student knows how to report to one identified trusted adult.",
+      "Student knows how to report to several identified trusted adults and understands different reporting methods.",
+      "Student demonstrates a comprehensive understanding of reporting procedures, including when, why, and how to report violence to various trusted adults in different situations."
+    ],
+    [
+      "The adults named are not relevant to school or community violence reporting.",
+      "The relevance of adults named is unclear.",
+      "The adults named are somewhat relevant, but could be better choices.",
+      "The adults named are clearly relevant and appropriate choices.",
+      "The adults named are highly relevant, showing a clear understanding of their roles in violence prevention.",
+      "The adults named demonstrate insightful and nuanced understanding of how to handle violence related problems. The demonstration is superior."
+    ]
+  ]
+}

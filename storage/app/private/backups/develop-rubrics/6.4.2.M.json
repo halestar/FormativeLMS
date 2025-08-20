@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Prejudice, Discrimination, and Bias:",
+    "Ability to Connect to Violence:",
+    "Clarity and Accuracy of Description:"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of prejudice, discrimination, or bias.",
+      "Shows a limited understanding of prejudice, discrimination, or bias, with significant misconceptions.",
+      "Demonstrates a basic understanding of prejudice, discrimination, and bias, but lacks depth.",
+      "Shows a satisfactory understanding of prejudice, discrimination, and bias, with some accurate examples.",
+      "Demonstrates a strong understanding of prejudice, discrimination, and bias, providing clear and accurate examples.",
+      "Exhibits a comprehensive understanding of prejudice, discrimination, and bias, including nuanced examples and complexities."
+    ],
+    [
+      "Unable to make any connection between prejudice, discrimination, and bias and violence.",
+      "Struggles to connect prejudice, discrimination, and bias to violence, with unclear or illogical reasoning.",
+      "Makes a weak connection between prejudice, discrimination, and bias and violence, with limited supporting evidence.",
+      "Connects prejudice, discrimination, and bias to violence with some supporting evidence and logical reasoning.",
+      "Clearly connects prejudice, discrimination, and bias to violence, providing relevant examples and logical reasoning.",
+      "Demonstrates a sophisticated understanding of how prejudice, discrimination, and bias can lead to violence, providing compelling evidence and insightful analysis."
+    ],
+    [
+      "Description is unclear, inaccurate, and lacks relevant details.",
+      "Description is somewhat unclear, with inaccuracies or missing details.",
+      "Description is generally clear but contains some inaccuracies or lacks sufficient detail.",
+      "Description is clear, mostly accurate, and includes relevant details.",
+      "Description is clear, accurate, and provides comprehensive details.",
+      "Description is exceptionally clear, accurate, and insightful, demonstrating a deep understanding of the topic."
+    ]
+  ]
+}

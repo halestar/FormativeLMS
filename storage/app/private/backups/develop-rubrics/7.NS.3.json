@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Performing Operations: Assesses the student's ability to correctly add, subtract, multiply, and divide rational numbers.",
+    "Application to Real-World Problems: Assesses the student's ability to apply operations with rational numbers to solve real-world mathematical problems.",
+    "Understanding of Complex Fractions: Assesses the student's ability to extend the rules for manipulating fractions to complex fractions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of operations with rational numbers and makes significant errors in calculations.",
+      "Student demonstrates limited understanding of operations with rational numbers and makes frequent errors in calculations.",
+      "Student demonstrates some understanding of operations with rational numbers but still makes several errors in calculations.",
+      "Student demonstrates a general understanding of operations with rational numbers and makes occasional errors in calculations.",
+      "Student demonstrates a solid understanding of operations with rational numbers and makes few errors in calculations.",
+      "Student demonstrates a comprehensive understanding of operations with rational numbers and performs calculations accurately with no errors."
+    ],
+    [
+      "Student is unable to apply operations with rational numbers to solve real-world problems and demonstrates no understanding of problem-solving strategies.",
+      "Student attempts to apply operations with rational numbers to solve real-world problems but is unsuccessful and demonstrates limited understanding of problem-solving strategies.",
+      "Student is partially successful in applying operations with rational numbers to solve real-world problems but struggles with problem-solving strategies.",
+      "Student applies operations with rational numbers to solve real-world problems with some success but may require assistance with problem-solving strategies.",
+      "Student applies operations with rational numbers to solve real-world problems effectively and demonstrates a good understanding of problem-solving strategies.",
+      "Student applies operations with rational numbers to solve real-world problems proficiently and demonstrates a comprehensive understanding of problem-solving strategies."
+    ],
+    [
+      "Student demonstrates no understanding of complex fractions and is unable to manipulate them.",
+      "Student demonstrates limited understanding of complex fractions and struggles to manipulate them.",
+      "Student demonstrates some understanding of complex fractions but requires assistance to manipulate them.",
+      "Student manipulates complex fractions with some success but may make occasional errors.",
+      "Student manipulates complex fractions effectively with few errors.",
+      "Student manipulates complex fractions proficiently and accurately with no errors."
+    ]
+  ]
+}

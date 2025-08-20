@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Experimental Design and Procedure",
+    "Data Collection and Representation",
+    "Analysis and Interpretation of Results",
+    "Understanding of Forces and Motion",
+    "Communication of Findings"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to design or conduct an investigation.",
+      "The investigation lacks a clear plan or procedure, and the variables are not controlled.",
+      "The investigation has a basic plan, but the procedure is not well-defined, and some variables are not controlled.",
+      "The investigation has a clear plan and procedure, and most variables are controlled, but there are some minor issues.",
+      "The investigation has a well-defined plan and procedure, and all relevant variables are controlled effectively.",
+      "The investigation is exceptionally well-designed and executed, with a clear and efficient procedure and meticulous control of variables, demonstrating a deep understanding of experimental design."
+    ],
+    [
+      "No data collected or data is irrelevant.",
+      "Data is collected haphazardly and is not well-organized or represented.",
+      "Data is collected but lacks organization and clarity in representation (e.g., tables, graphs).",
+      "Data is collected and represented adequately, but there is room for improvement in clarity or accuracy.",
+      "Data is collected systematically and represented clearly and accurately using appropriate tables or graphs.",
+      "Data collection is exemplary, with meticulous attention to detail, and data is represented in a highly informative and visually appealing manner."
+    ],
+    [
+      "No attempt to analyze or interpret the results.",
+      "Attempts to analyze the results, but interpretation is flawed or missing.",
+      "Basic analysis of results is present, but interpretation is superficial and lacks depth.",
+      "Results are analyzed and interpreted with some understanding, but there may be gaps in reasoning.",
+      "Results are analyzed and interpreted logically and thoughtfully, with clear connections to the investigation's purpose.",
+      "The analysis and interpretation of results are insightful and comprehensive, demonstrating a deep understanding of the underlying scientific principles and their implications."
+    ],
+    [
+      "Demonstrates no understanding of forces and motion.",
+      "Displays a very limited understanding of forces and motion.",
+      "Demonstrates a basic understanding of forces and motion concepts, but may have misconceptions.",
+      "Demonstrates a solid understanding of forces and motion, with few misconceptions.",
+      "Demonstrates a comprehensive and accurate understanding of forces and motion principles.",
+      "Demonstrates an exceptional and nuanced understanding of forces and motion, applying concepts accurately and insightfully to explain complex phenomena."
+    ],
+    [
+      "Findings are not communicated effectively.",
+      "Communication of findings is unclear and difficult to understand.",
+      "Findings are communicated, but lack clarity or organization.",
+      "Findings are communicated adequately with some clarity and organization.",
+      "Findings are communicated clearly, concisely, and in an organized manner.",
+      "Communication of findings is exemplary, with exceptional clarity, coherence, and attention to detail, effectively conveying complex information to the audience."
+    ]
+  ]
+}

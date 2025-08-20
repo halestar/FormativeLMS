@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately dial 9-1-1 or other emergency numbers (if applicable in their region).",
+    "Clarity and accuracy in providing essential information to the dispatcher (location, nature of emergency, assistance needed).",
+    "Demonstrates the ability to remain calm and composed while simulating the emergency call."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to dial or provide any emergency number.",
+      "Student attempts to dial an incorrect number or hesitates significantly.",
+      "Student dials the correct number with some prompting or minor errors.",
+      "Student confidently dials the correct number with minimal assistance.",
+      "Student dials the correct number quickly and efficiently without any assistance.",
+      "Student dials the correct number swiftly and accurately; explains why this number is important in emergencies."
+    ],
+    [
+      "Student is unable to provide any relevant information or speaks incoherently.",
+      "Student provides fragmented or unclear information, making it difficult to understand the emergency.",
+      "Student provides some essential information but omits important details or struggles to articulate clearly.",
+      "Student provides most essential information clearly and concisely, with minor omissions.",
+      "Student provides all essential information accurately, clearly, and concisely.",
+      "Student provides all essential information with exceptional clarity and anticipates follow-up questions a dispatcher might ask."
+    ],
+    [
+      "Student exhibits extreme panic or inability to speak.",
+      "Student is visibly anxious and struggles to maintain composure.",
+      "Student shows some nervousness but manages to convey the necessary information.",
+      "Student remains relatively calm and focused throughout the simulation.",
+      "Student demonstrates a calm and reassuring demeanor, effectively communicating the situation.",
+      "Student projects a calm, confident, and reassuring presence, able to guide others and maintain control of the simulated situation."
+    ]
+  ]
+}

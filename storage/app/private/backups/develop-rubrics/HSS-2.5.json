@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Historical Figures' Impact",
+    "Connection to Individual Action and Character",
+    "Use of Examples and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the actions or impact of historical figures.",
+      "Student shows minimal understanding, with significant inaccuracies or omissions.",
+      "Student identifies a historical figure but struggles to explain their actions or impact.",
+      "Student adequately explains the actions and impact of a historical figure, but lacks depth or specific details.",
+      "Student clearly explains the actions and impact of a historical figure with relevant details and examples.",
+      "Student thoroughly and insightfully explains the actions and impact of a historical figure, demonstrating a deep understanding of their significance."
+    ],
+    [
+      "Student fails to connect historical figures' actions to individual character or broader themes.",
+      "Student makes a weak or unclear connection between actions and character.",
+      "Student identifies a connection but struggles to explain its significance.",
+      "Student adequately explains the connection between actions, character, and impact, but lacks depth.",
+      "Student clearly explains the connection with relevant examples and demonstrates a good understanding of the themes.",
+      "Student thoroughly and insightfully explains the connection, demonstrating a deep understanding of individual agency and character."
+    ],
+    [
+      "Student provides no examples or evidence to support their claims.",
+      "Student provides irrelevant or inaccurate examples.",
+      "Student provides limited or vague examples.",
+      "Student provides adequate examples to support their claims.",
+      "Student provides clear and relevant examples with supporting details.",
+      "Student provides compelling and insightful examples with strong supporting evidence."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Individual Differences",
+    "Analysis of Benefits of Respecting Individual Differences",
+    "Application of a Decision-Making Process"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any individual differences in growth and development, physical appearance, gender roles, or sexual orientation.",
+      "Identifies only one type of individual difference with limited accuracy.",
+      "Identifies two types of individual differences with some accuracy but lacks depth.",
+      "Identifies three types of individual differences with reasonable accuracy and some detail.",
+      "Identifies all four types of individual differences accurately and with good detail.",
+      "Identifies all four types of individual differences comprehensively, demonstrating a nuanced understanding."
+    ],
+    [
+      "Fails to analyze any benefits of respecting individual differences.",
+      "Provides a superficial analysis of one benefit of respecting individual differences.",
+      "Analyzes a few benefits of respecting individual differences with limited depth.",
+      "Analyzes several benefits of respecting individual differences with reasonable depth.",
+      "Analyzes multiple benefits of respecting individual differences thoroughly and thoughtfully.",
+      "Provides a comprehensive analysis of the benefits, demonstrating insightful understanding of the positive impacts of respect."
+    ],
+    [
+      "Does not apply a decision-making process.",
+      "Attempts to apply a decision-making process but does so incorrectly or incompletely.",
+      "Applies a decision-making process with limited effectiveness or clarity.",
+      "Applies a decision-making process appropriately, demonstrating a basic understanding.",
+      "Applies a decision-making process effectively, showing clear reasoning and consideration of consequences.",
+      "Applies a decision-making process skillfully and comprehensively, showing advanced critical thinking and ethical considerations."
+    ]
+  ]
+}

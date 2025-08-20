@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Location Identification",
+    "Depth of Comparison and Contrast",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of location identification.",
+      "Struggles to accurately identify locations of people, places, and environments.",
+      "Identifies locations with limited accuracy; some characteristics are misplaced or confused.",
+      "Identifies most locations accurately and provides generally correct characteristics.",
+      "Accurately identifies locations and describes their characteristics with good detail.",
+      "Identifies locations with excellent accuracy, providing comprehensive and insightful descriptions of their characteristics."
+    ],
+    [
+      "Offers no comparison or contrast between locations.",
+      "Attempts to compare and contrast, but lacks depth and clarity.",
+      "Presents superficial comparisons and contrasts, missing key differences or similarities.",
+      "Provides a satisfactory comparison and contrast of locations, identifying some key characteristics.",
+      "Offers a thorough comparison and contrast, highlighting significant similarities and differences with supporting details.",
+      "Presents a sophisticated comparison and contrast, demonstrating a deep understanding of the nuances and complexities of different locations."
+    ],
+    [
+      "Responses are unclear, disorganized, and difficult to follow.",
+      "Demonstrates limited organization and clarity, making it hard to understand the comparisons.",
+      "Presents information with some organization, but clarity is inconsistent.",
+      "Communicates comparisons and contrasts in a generally clear and organized manner.",
+      "Presents information clearly and logically, enhancing the understanding of comparisons and contrasts.",
+      "Communicates complex comparisons and contrasts with exceptional clarity and logical organization."
+    ]
+  ]
+}

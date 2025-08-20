@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Urban Land Use: Assesses the student's comprehension of how land is utilized in urban environments within California.",
+    "Understanding of Suburban Land Use: Evaluates the student's knowledge of how land is utilized in suburban environments within California.",
+    "Understanding of Rural Land Use: Evaluates the student's knowledge of how land is utilized in rural environments within California.",
+    "Comparison and Contrast: Assesses the student's ability to compare and contrast land use across urban, suburban, and rural environments in California."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of land use in urban environments.",
+      "Shows minimal understanding of urban land use; descriptions are vague and lack specific examples.",
+      "Identifies some aspects of urban land use but lacks depth and comparison.",
+      "Describes various aspects of urban land use with reasonable clarity and provides some examples relevant to California.",
+      "Clearly describes and explains different types of land use in urban environments, providing specific Californian examples and demonstrating good understanding.",
+      "Provides a comprehensive and insightful description of urban land use in California, including detailed examples, analysis of their impacts, and clear understanding of the complexities involved."
+    ],
+    [
+      "Demonstrates no understanding of land use in suburban environments.",
+      "Shows minimal understanding of suburban land use; descriptions are vague and lack specific examples.",
+      "Identifies some aspects of suburban land use but lacks depth and comparison.",
+      "Describes various aspects of suburban land use with reasonable clarity and provides some examples relevant to California.",
+      "Clearly describes and explains different types of land use in suburban environments, providing specific Californian examples and demonstrating good understanding.",
+      "Provides a comprehensive and insightful description of suburban land use in California, including detailed examples, analysis of their impacts, and clear understanding of the complexities involved."
+    ],
+    [
+      "Demonstrates no understanding of land use in rural environments.",
+      "Shows minimal understanding of rural land use; descriptions are vague and lack specific examples.",
+      "Identifies some aspects of rural land use but lacks depth and comparison.",
+      "Describes various aspects of rural land use with reasonable clarity and provides some examples relevant to California.",
+      "Clearly describes and explains different types of land use in rural environments, providing specific Californian examples and demonstrating good understanding.",
+      "Provides a comprehensive and insightful description of rural land use in California, including detailed examples, analysis of their impacts, and clear understanding of the complexities involved."
+    ],
+    [
+      "Does not attempt to compare or contrast land use in different environments.",
+      "Attempts a comparison but lacks clarity and accuracy.",
+      "Identifies some differences or similarities in land use but lacks depth and specific examples.",
+      "Compares and contrasts land use in urban, suburban, and rural environments with reasonable clarity, providing some supporting examples.",
+      "Clearly compares and contrasts land use, highlighting key differences and similarities with specific examples from California.",
+      "Provides a sophisticated and insightful comparison and contrast of land use, analyzing the reasons behind the differences and similarities and demonstrating a thorough understanding of the environments."
+    ]
+  ]
+}

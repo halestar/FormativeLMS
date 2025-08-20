@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Nutrients",
+    "Understanding of Metabolism",
+    "Relationship between Nutrient Intake and Metabolism",
+    "Application and Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of nutrients.",
+      "Identifies some nutrients but lacks understanding of their roles.",
+      "Identifies major nutrients and some of their basic functions.",
+      "Explains the roles of major nutrients in the body with reasonable accuracy.",
+      "Demonstrates a clear understanding of the roles of various nutrients and their impact on health.",
+      "Provides a comprehensive explanation of nutrient functions and their significance, including examples of specific nutrients."
+    ],
+    [
+      "Does not demonstrate any understanding of metabolism.",
+      "Provides a vague or inaccurate definition of metabolism.",
+      "Defines metabolism as a process but does not explain its components.",
+      "Explains the basic processes of metabolism (anabolism and catabolism).",
+      "Describes the key processes of metabolism and their roles in energy production and use.",
+      "Explains metabolic processes in detail, including enzyme functions and regulatory mechanisms."
+    ],
+    [
+      "Unable to connect nutrient intake to metabolic processes.",
+      "Suggests a connection between nutrients and metabolism but lacks detail.",
+      "Describes a general relationship between nutrient intake and energy production.",
+      "Explains how nutrients are used in metabolic pathways to produce energy or build tissues.",
+      "Demonstrates a solid understanding of how nutrient intake affects metabolic rate and overall health.",
+      "Provides a detailed explanation of how different nutrients impact specific metabolic pathways and overall metabolic health, including potential imbalances."
+    ],
+    [
+      "No application or examples are provided.",
+      "Provides irrelevant or inaccurate examples.",
+      "Provides basic examples of nutrients and their roles.",
+      "Relates nutrient intake to specific metabolic processes with relevant examples.",
+      "Uses examples to illustrate how dietary choices impact metabolic health.",
+      "Offers insightful examples and demonstrates a sophisticated understanding of the practical implications of nutrient metabolism."
+    ]
+  ]
+}

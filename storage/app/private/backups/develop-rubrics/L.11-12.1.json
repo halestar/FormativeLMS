@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and Application of Grammar Conventions",
+    "Usage as a Matter of Convention",
+    "Resolution of Complex or Contested Usage Issues"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of standard English grammar and usage.",
+      "Demonstrates minimal understanding of grammar conventions with frequent errors that impede comprehension.",
+      "Demonstrates a basic understanding of grammar conventions but makes several errors that occasionally confuse the meaning.",
+      "Demonstrates a satisfactory understanding of grammar conventions with some errors that do not significantly affect clarity.",
+      "Demonstrates a strong understanding of grammar conventions with only minor errors that do not affect clarity.",
+      "Demonstrates a comprehensive understanding of grammar conventions with virtually no errors, enhancing the clarity and precision of writing or speaking."
+    ],
+    [
+      "Shows no awareness that usage is a matter of convention.",
+      "Shows limited awareness that usage is a matter of convention and does not apply this understanding.",
+      "Shows some awareness that usage is a matter of convention but struggles to apply this understanding in practice.",
+      "Understands that usage is a matter of convention and can generally apply this understanding in most situations.",
+      "Clearly understands that usage is a matter of convention, and applies this understanding effectively in writing or speaking.",
+      "Demonstrates a sophisticated understanding of usage conventions, including their evolution and contested nature."
+    ],
+    [
+      "Unable to identify or resolve any complex or contested usage issues.",
+      "Identifies complex or contested usage issues but is unable to resolve them effectively.",
+      "Attempts to resolve complex or contested usage issues with limited success.",
+      "Resolves simple usage issues and attempts to resolve complex or contested issues, sometimes successfully.",
+      "Effectively resolves most complex or contested usage issues, typically using appropriate references.",
+      "Consistently and effectively resolves complex or contested usage issues, demonstrating skillful use of references."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Cultural Comparison: Assessing the degree to which the student accurately compares and contrasts beliefs, customs, ceremonies, traditions, and social practices across varied cultures.",
+    "Use of Folklore to Support Analysis: Evaluating how effectively the student utilizes folklore to support their comparisons and analysis of cultural elements.",
+    "Clarity and Organization of Presentation: Assessing the clarity, coherence, and organization of the student's presentation of their cultural comparisons."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to compare or contrast cultural elements; demonstrates no understanding of different cultures.",
+      "Demonstrates minimal effort to compare cultural elements; inaccuracies or overgeneralizations are prevalent.",
+      "Identifies a few cultural elements but struggles with accurate comparisons; understanding of cultural nuances is limited.",
+      "Accurately compares some cultural elements, showing a basic understanding of cultural differences and similarities.",
+      "Compares and contrasts a wide range of cultural elements with good accuracy, demonstrating a solid understanding of cultural diversity.",
+      "Provides comprehensive and nuanced comparisons of cultural elements, demonstrating deep insight into cultural diversity and the ability to analyze cultural practices effectively."
+    ],
+    [
+      "No use of folklore in the analysis.",
+      "Attempts to include folklore but it is irrelevant or used inaccurately.",
+      "Uses folklore but it is limited and does not significantly support the analysis.",
+      "Folklore is used adequately to support some points in the analysis, enhancing understanding.",
+      "Effectively integrates folklore to enrich the analysis, providing clear examples that support the comparisons.",
+      "Masterfully uses folklore to deeply enhance the analysis, providing insightful and comprehensive examples that significantly support the cultural comparisons and reveal complex cultural dynamics."
+    ],
+    [
+      "Presentation is disorganized and incomprehensible.",
+      "Presentation lacks organization; ideas are difficult to follow.",
+      "Some organization is present, but clarity is lacking in parts.",
+      "Presentation is generally clear and organized with a logical flow of ideas.",
+      "Presentation is clear, well-organized, and effectively communicates cultural comparisons.",
+      "Presentation is exceptionally clear, insightful, and masterfully organized, enhancing the understanding and impact of the cultural comparisons."
+    ]
+  ]
+}

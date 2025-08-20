@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Collection and Accuracy",
+    "Probability Approximation",
+    "Prediction and Justification",
+    "Understanding of Long-Run Relative Frequency"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No data collected or data collected is completely inaccurate and irrelevant to the chance process.",
+      "Minimal data collected; significant inaccuracies present, hindering meaningful analysis.",
+      "Limited data collected with some inaccuracies. Demonstrates a basic attempt but lacks precision.",
+      "Sufficient data collected with minor inaccuracies. Generally aligns with the chance process being investigated.",
+      "Comprehensive and accurate data collected, directly relevant to the chance process. Shows attention to detail.",
+      "Exhaustive, meticulously accurate data collection. Demonstrates a deep understanding of the data's importance to approximating probability."
+    ],
+    [
+      "No attempt to approximate probability or approximation is entirely illogical.",
+      "Attempt to approximate probability is flawed with no clear connection to collected data.",
+      "Basic approximation of probability, but significant errors in calculation or reasoning are present.",
+      "Reasonable approximation of probability based on data, with minor calculation or reasoning errors.",
+      "Accurate approximation of probability supported by collected data. Demonstrates sound reasoning.",
+      "Precise and insightful approximation of probability, clearly justified by data and demonstrating a sophisticated understanding of relative frequency."
+    ],
+    [
+      "No prediction made or prediction is completely disconnected from the probability approximation.",
+      "Prediction made with no justification or justification is nonsensical.",
+      "Prediction made, but justification is weak or based on flawed reasoning.",
+      "Prediction made with a reasonable attempt at justification using the probability approximation.",
+      "Clear and accurate prediction supported by a logical justification rooted in the calculated probability.",
+      "Compelling and insightful prediction, thoroughly justified with a nuanced understanding of probability and potential variations in outcomes."
+    ],
+    [
+      "Demonstrates no understanding of long-run relative frequency.",
+      "Demonstrates very limited understanding of long-run relative frequency.",
+      "Shows some understanding of long-run relative frequency but struggles to apply it.",
+      "Understands that probability is a long-run average, but explanation lacks detail.",
+      "Clearly articulates that probability is a long-run average and applies the concept effectively.",
+      "Demonstrates a deep and nuanced understanding of long-run relative frequency, including its implications and limitations."
+    ]
+  ]
+}

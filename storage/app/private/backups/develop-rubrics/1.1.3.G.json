@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Health-Promoting Behaviors",
+    "Explanation of How Behaviors Promote Growth and Development",
+    "Variety of Behaviors Identified"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any behaviors that promote healthy growth and development.",
+      "The student identifies one behavior that promotes healthy growth and development, but the explanation is unclear or incomplete.",
+      "The student identifies two behaviors that promote healthy growth and development, but the explanations lack detail or accuracy.",
+      "The student identifies three behaviors that promote healthy growth and development with adequate explanations, but there may be some minor inaccuracies.",
+      "The student identifies four behaviors that promote healthy growth and development with clear and accurate explanations.",
+      "The student identifies five or more behaviors that promote healthy growth and development with comprehensive, accurate, and insightful explanations. Demonstrates a thorough understanding of how these behaviors contribute to overall well-being."
+    ],
+    [
+      "The student does not provide any explanation of how behaviors promote healthy growth and development.",
+      "The student provides a vague or irrelevant explanation of how behaviors promote healthy growth and development.",
+      "The student provides a limited explanation of how behaviors promote healthy growth and development, with minimal supporting details.",
+      "The student provides a satisfactory explanation of how behaviors promote healthy growth and development, with some relevant supporting details.",
+      "The student provides a clear and detailed explanation of how behaviors promote healthy growth and development, with strong supporting details.",
+      "The student provides a comprehensive and insightful explanation of how behaviors promote healthy growth and development, demonstrating a deep understanding of the underlying mechanisms."
+    ],
+    [
+      "The student fails to identify any variety of behaviors.",
+      "The student identifies only one type of behavior.",
+      "The student identifies two behaviors that fall into same category.",
+      "The student identifies three behaviors, with only one category repeated.",
+      "The student identifies four behaviors with no repeating categories.",
+      "The student identifies five or more behaviors covering a comprehensive variety of health areas."
+    ]
+  ]
+}

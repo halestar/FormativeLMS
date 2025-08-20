@@ -3,9 +3,11 @@
 namespace App\Classes\Storage;
 
 use App\Classes\Settings\StorageSettings;
+use App\Classes\Storage\Document\DocumentStorage;
 use App\Models\People\Person;
 use Illuminate\Contracts\Support\Arrayable;
-use Illuminate\Support\Facades\Blade;
+use Illuminate\Http\UploadedFile;
+use Illuminate\Support\Facades\File;
 use JsonSerializable;
 
 class DocumentFile implements Arrayable, JsonSerializable
@@ -25,7 +27,27 @@ class DocumentFile implements Arrayable, JsonSerializable
 		public bool $canPreview = false,
 		public bool $canDelete = true,
 		public bool $canChangeName = false,
+		public bool $isUpload = false
 	){}
+	
+	public static function fromUploadedFile(UploadedFile $file): DocumentFile
+	{
+		return new DocumentFile
+		(
+			0,
+			false,
+			$file->getClientOriginalName() . "." . $file->getClientOriginalExtension(),
+			'',
+			$file->path(),
+			'',
+			$file->getMimeType(),
+			$file->getSize(),
+			false,
+			false,
+			false,
+			true
+		);
+	}
 	
 	public function safeName()
 	{
@@ -46,6 +68,7 @@ class DocumentFile implements Arrayable, JsonSerializable
 			'canPreview' => $this->canPreview,
 			'canDelete' => $this->canDelete,
 			'canChangeName' => $this->canChangeName,
+			'isUpload' => $this->isUpload,
 		];
 	}
 	
@@ -69,6 +92,7 @@ class DocumentFile implements Arrayable, JsonSerializable
 			$data['canPreview'],
 			$data['canDelete'],
 			$data['canChangeName'],
+			$data['isUpload'],
 		);
 	}
 	
@@ -77,10 +101,33 @@ class DocumentFile implements Arrayable, JsonSerializable
 		return Person::where('school_id', $this->person_id)->first();
 	}
 	
+	public function storageInstance(): DocumentStorage
+	{
+		$storageSettings = app()->make(StorageSettings::class);
+		return $storageSettings->getInstance($this->storageInstance);
+	}
+	
 	public function preview(): string
 	{
 		$storageSettings = app()->make(StorageSettings::class);
 		$storage = $storageSettings->getInstance($this->storageInstance);
 		return $storage->previewFile($this->person(), $this);
+	}
+	
+	public function getExportFile(): ?ExportFile
+	{
+		if($this->isUpload) {
+			$info = pathinfo($this->path);
+			return new ExportFile
+			(
+				$info['filename'],
+				File::get($this->path),
+				$this->mimeType,
+				$info['extension'],
+				$this->size
+			);
+		}
+		return $this->storageInstance()
+		            ->exportFile($this->person(), $this);
 	}
 }

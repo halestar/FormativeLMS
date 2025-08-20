@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Connections and Distinctions",
+    "Analysis of Textual Strategies",
+    "Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any connections or distinctions within the text.",
+      "Identifies connections or distinctions, but lacks accuracy or relevance.",
+      "Identifies simple connections or distinctions with some accuracy, but lacks depth.",
+      "Identifies relevant connections or distinctions within the text with reasonable accuracy.",
+      "Identifies insightful connections and distinctions, demonstrating a strong understanding of the text.",
+      "Identifies sophisticated and nuanced connections and distinctions, revealing a deep comprehension of the text's complexities."
+    ],
+    [
+      "Does not address how the text creates connections or distinctions.",
+      "Attempts to describe textual strategies, but lacks clarity or relevance.",
+      "Describes basic textual strategies (e.g., comparisons), but does not analyze their effect.",
+      "Analyzes how the text uses basic strategies to create connections or distinctions.",
+      "Analyzes textual strategies (e.g., analogies, categories) with specific examples to explain how connections\/distinctions are made.",
+      "Provides a comprehensive and insightful analysis of the author's use of textual strategies, demonstrating a mastery of analytical skills."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat understandable, but lacks organization and clarity.",
+      "Response is generally clear, but may lack focus or coherence in certain areas.",
+      "Response is clear, organized, and coherent, with logical connections between ideas.",
+      "Response is exceptionally clear, well-organized, and presents a sophisticated argument.",
+      "Response is articulate, insightful, and demonstrates a mastery of language and expression."
+    ]
+  ]
+}

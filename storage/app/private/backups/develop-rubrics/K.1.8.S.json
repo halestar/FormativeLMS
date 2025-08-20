@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Safe Street Crossing Practices",
+    "Knowledge of Bicycle Safety",
+    "Awareness of Safe Play Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate any understanding of safe street crossing practices.",
+      "The student shows minimal understanding of safe street crossing, mentioning one or two basic practices.",
+      "The student identifies some safe street crossing practices, but the explanation lacks detail or clarity.",
+      "The student adequately explains several safe street crossing practices, such as using crosswalks and looking both ways.",
+      "The student thoroughly explains safe street crossing practices, including awareness of pedestrian signals and potential hazards.",
+      "The student comprehensively explains and demonstrates a deep understanding of safe street crossing practices, including defensive strategies and awareness of various environmental factors."
+    ],
+    [
+      "The student does not demonstrate any knowledge of bicycle safety practices.",
+      "The student mentions one or two basic bicycle safety practices with little detail.",
+      "The student identifies some bicycle safety practices, but the explanation lacks completeness.",
+      "The student adequately explains several bicycle safety practices, such as wearing a helmet and using hand signals.",
+      "The student thoroughly explains bicycle safety practices, including proper bike maintenance and awareness of traffic laws.",
+      "The student comprehensively explains and demonstrates a deep understanding of bicycle safety, including advanced techniques for handling various road conditions and potential hazards."
+    ],
+    [
+      "The student shows no awareness of safe play practices.",
+      "The student mentions one or two general safety rules for playing with little detail.",
+      "The student identifies some safe play practices, but the explanation lacks specific examples or relevance.",
+      "The student adequately explains several safe play practices, such as playing in designated areas and avoiding dangerous equipment.",
+      "The student thoroughly explains safe play practices, including awareness of environmental hazards and the importance of adult supervision.",
+      "The student comprehensively explains and demonstrates a deep understanding of safe play practices, including risk assessment, injury prevention, and emergency response procedures."
+    ]
+  ]
+}

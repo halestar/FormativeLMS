@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify claims made by fitness products.",
+    "Ability to evaluate the accuracy of the claims.",
+    "Ability to use evidence to support evaluation.",
+    "Clarity and organization of evaluation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any claims made by fitness products.",
+      "Identifies claims without understanding their context.",
+      "Identifies claims with partial understanding.",
+      "Identifies most claims with good understanding.",
+      "Identifies all claims with clear understanding.",
+      "Identifies and explains nuances of the claims made by fitness products."
+    ],
+    [
+      "Unable to evaluate the accuracy of claims.",
+      "Attempts to evaluate claims but without reasoning.",
+      "Provides basic evaluation with flawed reasoning.",
+      "Provides adequate evaluation with some reasoning.",
+      "Provides thorough evaluation with sound reasoning.",
+      "Provides insightful evaluation with critical and nuanced reasoning, using scientific and\/or expert sources."
+    ],
+    [
+      "No evidence provided to support evaluation.",
+      "Provides evidence that does not support evaluation.",
+      "Provides limited evidence with questionable relevance.",
+      "Provides evidence that supports evaluation but may be limited.",
+      "Provides sufficient evidence that clearly supports evaluation.",
+      "Provides comprehensive and compelling evidence from credible sources to support evaluation."
+    ],
+    [
+      "Evaluation is unclear and disorganized.",
+      "Evaluation is difficult to follow with little organization.",
+      "Evaluation is somewhat clear but lacks logical organization.",
+      "Evaluation is clear and organized logically.",
+      "Evaluation is very clear, well-organized, and easy to follow.",
+      "Evaluation is exceptionally clear, logically structured, and demonstrates sophisticated communication skills."
+    ]
+  ]
+}

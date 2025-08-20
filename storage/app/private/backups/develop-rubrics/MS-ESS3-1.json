@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Resource Distribution",
+    "Explanation of Geoscience Processes",
+    "Impact of Human Activity",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how Earth's resources are distributed unevenly.",
+      "Demonstrates a minimal understanding of resource distribution but lacks specifics.",
+      "Identifies that resources are unevenly distributed but doesn't explain why.",
+      "Explains that resources are unevenly distributed due to geological processes, with a general example.",
+      "Provides a clear explanation of uneven resource distribution and links it to specific past\/current geoscience processes with one example.",
+      "Provides a comprehensive explanation of uneven resource distribution, linking it to multiple specific past and current geoscience processes with multiple examples."
+    ],
+    [
+      "No understanding of geoscience processes.",
+      "Mentions geoscience processes vaguely.",
+      "Identifies some geoscience processes, but doesn't relate them to resource distribution.",
+      "Relates geoscience processes to resource distribution in a limited way.",
+      "Clearly explains how specific geoscience processes have led to the distribution of resources.",
+      "Provides an in-depth explanation of how multiple geoscience processes interact to create the current distribution of resources."
+    ],
+    [
+      "No mention of human impact on resource distribution.",
+      "Vaguely acknowledges that humans use resources.",
+      "States that humans impact resource distribution, but provides no details.",
+      "Describes human impact on resource distribution in a limited way, perhaps with one general consequence.",
+      "Explains how human removal of resources impacts their distribution, citing specific consequences.",
+      "Provides a detailed analysis of the short and long-term consequences (both positive and negative) of human activity on resource distribution and the environment."
+    ],
+    [
+      "Explanation is not based on evidence.",
+      "Attempts to use evidence, but it is irrelevant or inaccurate.",
+      "Uses some evidence, but it is not clearly linked to the explanation.",
+      "Supports explanation with valid evidence from provided sources.",
+      "Supports explanation with valid and reliable evidence from multiple sources, including textual evidence.",
+      "Synthesizes information from multiple sources, providing a well-reasoned and thoroughly supported explanation using cited evidence."
+    ]
+  ]
+}

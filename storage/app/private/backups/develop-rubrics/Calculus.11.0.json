@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Problem Setup and Formulation:  How well the student translates the word problem into a mathematical model suitable for calculus-based optimization.",
+    "Differentiation and Critical Points:  Accuracy in taking derivatives and finding critical points of the objective function.",
+    "Justification and Reasoning:  The logical flow and justification of the steps taken to arrive at the optimal solution.",
+    "Solution and Interpretation:  Correctness of the optimal solution and its interpretation in the context of the original problem."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to set up the problem or the formulation is completely incorrect.",
+      "The student attempts to set up the problem, but the formulation contains significant errors or omissions.",
+      "The problem setup is partially correct, but there are still noticeable errors in defining variables, constraints, or the objective function.",
+      "The problem setup is mostly correct, with only minor errors in formulation. The variables, constraints, and objective function are reasonably well-defined.",
+      "The problem setup is correct and clearly formulated.  The variables, constraints, and objective function are well-defined and accurate.",
+      "The problem setup is correct, clearly formulated, and insightful. The student demonstrates a deep understanding of the problem's structure and nuances, leading to an elegant mathematical model."
+    ],
+    [
+      "No attempt to differentiate or find critical points, or the differentiation is entirely incorrect.",
+      "The student attempts differentiation, but there are major errors in applying differentiation rules. No critical points are found, or they are completely incorrect.",
+      "Differentiation is partially correct, but significant errors remain. The student may find some critical points, but not all, or some are calculated incorrectly.",
+      "Differentiation is mostly correct, with only minor errors. The student finds most of the critical points, but there may be a few calculation errors.",
+      "Differentiation is entirely correct, and all critical points are found accurately.",
+      "Differentiation is flawless, and the student demonstrates a sophisticated understanding of the function's behavior around the critical points, including concavity and inflection points."
+    ],
+    [
+      "No justification is provided, or the reasoning is completely illogical.",
+      "The student attempts to provide justification, but the reasoning is unclear, incomplete, or contains major flaws.",
+      "The justification is partially present, but there are gaps in the reasoning or a lack of clarity in explaining the steps taken.",
+      "The justification is mostly present and logically sound, with only minor gaps or areas needing further clarification.",
+      "The justification is clear, complete, and logically sound.  The student provides a well-reasoned explanation of the steps taken to arrive at the optimal solution.",
+      "The justification is exceptionally clear, insightful, and logically rigorous. The student demonstrates a deep understanding of the mathematical principles underlying the optimization process, providing a compelling and elegant argument for the solution."
+    ],
+    [
+      "No solution is provided, or the solution is completely incorrect and not related to the original problem.",
+      "The student attempts to find a solution, but it is far from the optimal value or is misinterpreted in the context of the problem.",
+      "The solution is partially correct, but there are significant errors in the calculation or interpretation of the optimal value.",
+      "The solution is mostly correct, with only minor errors in the calculation or interpretation. The student demonstrates a reasonable understanding of the optimal value in the context of the problem.",
+      "The solution is entirely correct, and the optimal value is accurately interpreted in the context of the original problem.",
+      "The solution is correct, and the student demonstrates a sophisticated understanding of the implications of the optimal value within the context of the original problem, including sensitivity analysis and potential limitations."
+    ]
+  ]
+}

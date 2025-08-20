@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Rigid Motions",
+    "Application of Rigid Motions to Triangle Congruence Criteria (ASA, SAS, SSS)",
+    "Clarity and Precision of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rigid motions.",
+      "Student demonstrates a minimal understanding of rigid motions, struggling to define or identify them.",
+      "Student demonstrates a basic understanding of rigid motions, able to define and identify them but struggles to connect them to congruence.",
+      "Student demonstrates a satisfactory understanding of rigid motions, connecting them to congruence with some prompting.",
+      "Student demonstrates a strong understanding of rigid motions and their relationship to congruence, explaining the connection clearly.",
+      "Student demonstrates a comprehensive understanding of rigid motions, clearly and accurately explaining their relationship to congruence and providing insightful examples."
+    ],
+    [
+      "Student does not apply rigid motions to explain triangle congruence criteria.",
+      "Student attempts to apply rigid motions but demonstrates significant misunderstandings of how they relate to ASA, SAS, or SSS.",
+      "Student identifies ASA, SAS, and SSS but struggles to explain how rigid motions justify these criteria.",
+      "Student partially explains how rigid motions justify ASA, SAS, and SSS, but with some inaccuracies or omissions.",
+      "Student clearly explains how rigid motions justify ASA, SAS, and SSS, demonstrating a solid understanding of the connection.",
+      "Student expertly explains how rigid motions justify ASA, SAS, and SSS, providing rigorous and insightful justifications."
+    ],
+    [
+      "Explanation is unclear, imprecise, and difficult to follow.",
+      "Explanation is somewhat unclear and imprecise, with significant gaps in logic.",
+      "Explanation is understandable but lacks precision and detail.",
+      "Explanation is mostly clear and precise, with minor areas for improvement.",
+      "Explanation is clear, precise, and easy to follow, demonstrating strong communication skills.",
+      "Explanation is exceptionally clear, precise, and insightful, demonstrating mastery of the concepts and excellent communication skills."
+    ]
+  ]
+}

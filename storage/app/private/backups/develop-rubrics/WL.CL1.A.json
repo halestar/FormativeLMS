@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of cultural norms and practices in interactions.",
+    "Effectively uses language to navigate cultural contexts.",
+    "Adapts behavior and communication style to different cultural settings."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no awareness or understanding of cultural norms; interactions are inappropriate or disrespectful.",
+      "Shows limited awareness of cultural norms; interactions occasionally demonstrate misunderstanding.",
+      "Shows some awareness of cultural norms; interactions are generally appropriate but may have some missteps.",
+      "Shows good understanding of cultural norms; interactions are mostly appropriate and respectful.",
+      "Shows strong understanding of cultural norms; interactions are consistently appropriate and respectful, demonstrating cultural sensitivity.",
+      "Shows exceptional understanding of cultural norms; interactions are seamless, culturally nuanced, and demonstrate a high level of empathy and respect."
+    ],
+    [
+      "Unable to use language appropriately in cultural contexts; communication is ineffective and may cause offense.",
+      "Struggles to use language appropriately in cultural contexts; communication is often unclear or misinterpreted.",
+      "Uses basic language skills to navigate cultural contexts; communication is sometimes effective but may lack nuance.",
+      "Uses language effectively to navigate cultural contexts; communication is generally clear and appropriate.",
+      "Uses language skillfully to navigate cultural contexts; communication is clear, nuanced, and culturally sensitive.",
+      "Uses language with exceptional skill and cultural fluency; communication is highly effective, persuasive, and demonstrates deep cultural understanding."
+    ],
+    [
+      "Shows no adaptability in behavior or communication style; treats all cultural settings the same, regardless of appropriateness.",
+      "Shows limited adaptability in behavior or communication style; struggles to adjust to different cultural settings.",
+      "Shows some adaptability in behavior or communication style; makes an effort to adjust but may not always be successful.",
+      "Adapts behavior and communication style effectively to most cultural settings; demonstrates flexibility and awareness.",
+      "Adapts behavior and communication style seamlessly to various cultural settings; demonstrates strong cultural awareness and adaptability.",
+      "Exhibits mastery in adapting behavior and communication style to any cultural setting; demonstrates exceptional cultural intelligence and adaptability."
+    ]
+  ]
+}

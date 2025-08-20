@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Medical Recommendations",
+    "Understanding the risks of NOT following medical recommendations",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of medical recommendations for prescription and nonprescription medicines.",
+      "Shows minimal understanding, with significant misconceptions about following medical advice.",
+      "Demonstrates a basic understanding, but struggles to explain the importance of adherence to recommendations.",
+      "Explains some reasons for following medical recommendations, but may lack depth or clarity.",
+      "Clearly explains multiple reasons for following medical recommendations, showing good comprehension.",
+      "Provides a comprehensive and nuanced explanation of the importance of following medical recommendations, demonstrating excellent understanding and insights."
+    ],
+    [
+      "Does not demonstrate any understanding of risks of ignoring medical advice.",
+      "Shows minimal understanding, with significant misconceptions about following medical advice.",
+      "Demonstrates a basic understanding, but struggles to explain the risks of ignoring medical advice.",
+      "Explains some risks of ignoring medical recommendations, but may lack depth or clarity.",
+      "Clearly explains multiple risks of ignoring medical recommendations, showing good comprehension.",
+      "Provides a comprehensive and nuanced explanation of the risks of ignoring medical recommendations, demonstrating excellent understanding and insights."
+    ],
+    [
+      "Unable to apply knowledge to real-life scenarios or provide relevant examples.",
+      "Struggles to apply knowledge to real-life scenarios; examples are vague or incorrect.",
+      "Can provide a simple example but doesn't fully explain the connection to medical recommendations.",
+      "Provides relevant examples of real-life scenarios and explains the importance of following recommendations in those contexts.",
+      "Offers well-explained and insightful examples, demonstrating a strong ability to apply knowledge to practical situations.",
+      "Presents multiple, complex real-life scenarios and thoroughly analyzes the implications of following or not following medical recommendations."
+    ]
+  ]
+}

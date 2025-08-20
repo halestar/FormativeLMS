@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Polygon Drawing",
+    "Correctness of Length Calculation",
+    "Application to Real-World Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to draw the polygon or the drawing is completely inaccurate.",
+      "The student attempts to draw the polygon, but the drawing contains significant errors in vertices or sides.",
+      "The student draws a polygon with some inaccuracies, such as misplacing one or two vertices or misrepresenting side lengths.",
+      "The student mostly accurately draws the polygon with minor errors that do not significantly affect the shape.",
+      "The student accurately draws the polygon with correct vertices and sides, but may have very minor cosmetic issues.",
+      "The student draws the polygon flawlessly, demonstrating a clear understanding of coordinate plane geometry."
+    ],
+    [
+      "The student does not attempt to calculate side lengths or uses an entirely incorrect method.",
+      "The student attempts to calculate side lengths, but the calculations are fundamentally flawed and incorrect.",
+      "The student calculates some side lengths correctly, but makes errors in other calculations.",
+      "The student calculates most side lengths correctly, with only minor errors in calculation.",
+      "The student accurately calculates all side lengths using coordinates, showing a strong understanding of the coordinate plane.",
+      "The student calculates all side lengths accurately and efficiently, demonstrating a deep understanding of the coordinate plane and its properties."
+    ],
+    [
+      "The student does not attempt to apply polygon drawing or length calculation to real-world problems.",
+      "The student attempts to apply polygon drawing or length calculation to real-world problems, but the application is illogical or irrelevant.",
+      "The student makes a weak connection between polygon drawing\/length calculation and real-world problems.",
+      "The student applies polygon drawing and length calculation to real-world problems with some relevance, but the connection could be stronger.",
+      "The student applies polygon drawing and length calculation effectively to solve real-world problems, demonstrating a solid understanding of their practical applications.",
+      "The student demonstrates a sophisticated understanding of how polygon drawing and length calculation can be used to model and solve complex real-world problems."
+    ]
+  ]
+}

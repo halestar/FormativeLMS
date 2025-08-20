@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of the Cell Model",
+    "Explanation of Cell Functions",
+    "Clarity and Organization of the Model and Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or fundamentally inaccurate, showing no understanding of cell structures or functions.",
+      "The model contains significant inaccuracies and omissions, demonstrating a limited understanding of cell structures and functions.",
+      "The model has some inaccuracies or omissions but generally represents the basic structure of a cell and its main components.",
+      "The model accurately depicts the cell and most of its key structures (nucleus, cell membrane, etc.) but may lack detail in some areas.",
+      "The model is accurate and detailed, showing a strong understanding of cell structures and their basic functions. All key components are correctly represented.",
+      "The model is exceptionally accurate, detailed, and insightful, demonstrating a comprehensive understanding of cell structures and functions, including the relationships between different parts."
+    ],
+    [
+      "The explanation of cell functions is missing, irrelevant, or entirely incorrect.",
+      "The explanation is very limited and contains significant inaccuracies, demonstrating little understanding of cell functions.",
+      "The explanation is basic and touches on some cell functions but lacks depth or accuracy in several areas.",
+      "The explanation describes the primary functions of the cell and its main components, but may lack detail or clarity in certain areas.",
+      "The explanation clearly and accurately describes the functions of the cell and its key components, demonstrating a strong understanding.",
+      "The explanation is comprehensive, insightful, and demonstrates a deep understanding of cell functions and their interrelationships. Includes accurate and relevant details."
+    ],
+    [
+      "The model and explanation are presented in a confusing and disorganized manner, making it difficult to understand.",
+      "The model and explanation lack clarity and organization, making it challenging to follow the student's reasoning.",
+      "The model and explanation are somewhat clear but could benefit from improved organization and presentation.",
+      "The model and explanation are generally clear and organized, facilitating understanding of the concepts.",
+      "The model and explanation are presented in a clear, organized, and logical manner, making it easy to follow the student's reasoning.",
+      "The model and explanation are exceptionally clear, concise, and well-organized, demonstrating excellent communication skills and a mastery of the subject matter."
+    ]
+  ]
+}

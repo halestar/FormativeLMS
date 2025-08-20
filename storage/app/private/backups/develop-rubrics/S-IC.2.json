@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Random Processes",
+    "Evaluation of Statistical Models",
+    "Use of Simulation",
+    "Consistency and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of random processes.",
+      "Student shows minimal understanding of random processes and struggles to identify them.",
+      "Student identifies random processes with some difficulty and limited accuracy.",
+      "Student demonstrates a basic understanding of random processes and can identify them in simple scenarios.",
+      "Student demonstrates a strong understanding of random processes and can accurately identify them in various scenarios.",
+      "Student demonstrates a comprehensive understanding of random processes and can accurately identify and explain them in complex scenarios."
+    ],
+    [
+      "Student cannot evaluate if a specified model is consistent with the data.",
+      "Student attempts to evaluate the model but demonstrates significant errors in their reasoning.",
+      "Student evaluates the model with some inconsistencies and may struggle to justify their conclusions.",
+      "Student evaluates the model and can provide a reasonable justification for their conclusion.",
+      "Student effectively evaluates the model using the results and provides a clear and logical justification.",
+      "Student thoroughly evaluates the model using the results, provides a clear and logical justification, and identifies potential limitations or alternative explanations."
+    ],
+    [
+      "Student does not use simulation to evaluate the model.",
+      "Student attempts to use simulation but cannot correctly set it up or interpret the results.",
+      "Student uses simulation with some errors in setup or interpretation of results.",
+      "Student correctly uses simulation to evaluate the model.",
+      "Student correctly uses simulation to evaluate the model and explains how the simulation results support or contradict the model.",
+      "Student expertly uses simulation to evaluate the model, explains how the simulation results support or contradict the model, and discusses the limitations of the simulation."
+    ],
+    [
+      "Student's conclusion is inconsistent with the data or lacks justification.",
+      "Student's conclusion is weakly supported by the data and the justification is unclear.",
+      "Student's conclusion is generally consistent with the data, but the justification could be stronger.",
+      "Student's conclusion is consistent with the data and provides a reasonable justification.",
+      "Student's conclusion is well-supported by the data and provides a clear and logical justification.",
+      "Student's conclusion is strongly supported by the data, provides a comprehensive and insightful justification, and considers alternative perspectives."
+    ]
+  ]
+}

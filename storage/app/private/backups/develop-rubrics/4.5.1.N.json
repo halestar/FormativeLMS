@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Decision-Making Process Steps",
+    "Application to Nutritious Food and Beverage Choices",
+    "Understanding of Nutritional Value"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any steps of a decision-making process.",
+      "The student identifies one or two steps of a decision-making process but lacks clarity.",
+      "The student identifies some steps of a decision-making process with limited explanation.",
+      "The student accurately identifies most steps of a decision-making process with reasonable clarity.",
+      "The student clearly and accurately identifies the steps of a decision-making process.",
+      "The student comprehensively identifies the steps of a decision-making process and provides insightful explanations."
+    ],
+    [
+      "The student fails to connect the decision-making process to selecting nutritious foods and beverages.",
+      "The student vaguely attempts to connect the decision-making process to food and beverage choices but lacks specific examples.",
+      "The student provides limited examples of how the decision-making process applies to food and beverage choices.",
+      "The student demonstrates a good understanding of how the decision-making process can be used to make nutritious choices with some relevant examples.",
+      "The student clearly illustrates how the decision-making process supports the selection of nutritious foods and beverages with detailed examples.",
+      "The student expertly demonstrates the application of the decision-making process in selecting nutritious foods and beverages, providing comprehensive examples and considering various factors."
+    ],
+    [
+      "The student demonstrates no understanding of nutritional value.",
+      "The student shows minimal awareness of nutritional value.",
+      "The student presents a basic understanding of nutritional value but struggles to apply it.",
+      "The student exhibits a solid understanding of nutritional value and can apply it to food choices.",
+      "The student displays a strong understanding of nutritional value and provides insightful examples.",
+      "The student showcases an exceptional understanding of nutritional value and critically analyzes its role in food and beverage choices."
+    ]
+  ]
+}

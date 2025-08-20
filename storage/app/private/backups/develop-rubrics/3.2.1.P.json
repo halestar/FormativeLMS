@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifies and explains the influence of culture on health practices.",
+    "Identifies and explains the influence of family on health practices.",
+    "Identifies and explains the influence of friends on health practices.",
+    "Identifies and explains the influence of media on health practices."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any cultural influences on health practices.",
+      "Identifies culture as an influence but provides no explanation.",
+      "Identifies a cultural influence and offers a limited explanation.",
+      "Identifies a cultural influence and provides a clear explanation of its impact on health practices.",
+      "Identifies multiple cultural influences and clearly explains their impact on health practices, providing specific examples.",
+      "Identifies multiple cultural influences, explains their impact on health practices with detailed examples, and analyzes the complexities of these influences."
+    ],
+    [
+      "Does not identify any family influences on health practices.",
+      "Identifies family as an influence but provides no explanation.",
+      "Identifies a family influence and offers a limited explanation.",
+      "Identifies a family influence and provides a clear explanation of its impact on health practices.",
+      "Identifies multiple family influences and clearly explains their impact on health practices, providing specific examples.",
+      "Identifies multiple family influences, explains their impact on health practices with detailed examples, and analyzes the complexities of these influences."
+    ],
+    [
+      "Does not identify any peer influences on health practices.",
+      "Identifies friends as an influence but provides no explanation.",
+      "Identifies a peer influence and offers a limited explanation.",
+      "Identifies a peer influence and provides a clear explanation of its impact on health practices.",
+      "Identifies multiple peer influences and clearly explains their impact on health practices, providing specific examples.",
+      "Identifies multiple peer influences, explains their impact on health practices with detailed examples, and analyzes the complexities of these influences."
+    ],
+    [
+      "Does not identify any media influences on health practices.",
+      "Identifies media as an influence but provides no explanation.",
+      "Identifies a media influence and offers a limited explanation.",
+      "Identifies a media influence and provides a clear explanation of its impact on health practices.",
+      "Identifies multiple media influences and clearly explains their impact on health practices, providing specific examples.",
+      "Identifies multiple media influences, explains their impact on health practices with detailed examples, and analyzes the complexities of these influences."
+    ]
+  ]
+}

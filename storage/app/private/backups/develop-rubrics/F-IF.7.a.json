@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Graph",
+    "Identification of Intercepts",
+    "Identification of Maxima and Minima",
+    "Use of Technology (if applicable)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The graph is completely incorrect or missing.",
+      "The graph has significant errors, and key features are not identified.",
+      "The graph has some errors, but some key features are identified.",
+      "The graph is mostly accurate, with minor errors. Key features are mostly correct.",
+      "The graph is accurate, and all key features are correctly identified and labeled.",
+      "The graph is perfectly accurate, with all key features correctly identified, labeled, and explained thoroughly."
+    ],
+    [
+      "Intercepts are not identified or are completely incorrect.",
+      "Intercepts are attempted but are largely incorrect or missing.",
+      "Some intercepts are correctly identified, but others are missing or incorrect.",
+      "Most intercepts are correctly identified with minor errors.",
+      "All intercepts are correctly identified and labeled.",
+      "All intercepts are correctly identified, labeled, and their significance to the function is explained."
+    ],
+    [
+      "Maxima and minima are not identified or are completely incorrect.",
+      "Maxima and minima are attempted but are largely incorrect or missing.",
+      "Some maxima or minima are correctly identified, but others are missing or incorrect.",
+      "Most maxima and minima are correctly identified with minor errors.",
+      "All maxima and minima are correctly identified and labeled.",
+      "All maxima and minima are correctly identified, labeled, and their significance to the function's behavior is explained."
+    ],
+    [
+      "Technology is not used or is used inappropriately.",
+      "Technology is used, but the results are misinterpreted or not helpful.",
+      "Technology is used with some success, but there are errors in its application.",
+      "Technology is used effectively, with only minor errors.",
+      "Technology is used effectively and accurately to enhance the graphing process.",
+      "Technology is used expertly to analyze and graph the function, providing additional insights and explanations."
+    ]
+  ]
+}

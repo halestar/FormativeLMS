@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately identify and describe the roles of parents, guardians, and trusted adults as sources of information and guidance regarding medicines.",
+    "Understanding the types of information parents\/guardians\/trusted adults can provide about medicines (e.g., dosage, side effects, interactions).",
+    "Recognizing the importance of seeking guidance from parents, guardians, and trusted adults regarding medicine use and safety."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any appropriate adults or provides inaccurate information about their roles.",
+      "The student identifies one appropriate adult but struggles to explain their role in providing medicine-related guidance.",
+      "The student identifies at least two appropriate adults and provides a basic description of their roles.",
+      "The student identifies multiple appropriate adults and accurately explains their roles in providing information and guidance about medicines.",
+      "The student comprehensively identifies appropriate adults, accurately explains their roles, and provides examples of situations where these individuals can offer support.",
+      "The student demonstrates exceptional understanding by not only identifying and explaining the roles of appropriate adults but also recognizing the importance of seeking guidance from them and understanding their limitations."
+    ],
+    [
+      "The student shows no understanding of the types of information parents, guardians, or trusted adults can provide.",
+      "The student demonstrates a vague understanding of one type of information these adults can provide.",
+      "The student identifies at least two types of information these adults can provide.",
+      "The student accurately explains multiple types of information these adults can provide, such as dosage, side effects, and interactions.",
+      "The student comprehensively explains the types of information and emphasizes the importance of accurate and reliable information.",
+      "The student provides an insightful explanation of the nuances of information, potentially mentioning the need to verify information and the consequences of misinformation."
+    ],
+    [
+      "The student does not recognize the importance of seeking guidance from appropriate adults.",
+      "The student acknowledges the importance of seeking guidance but struggles to explain why.",
+      "The student provides a basic explanation of why it's important to seek guidance from appropriate adults.",
+      "The student clearly explains the importance of seeking guidance, emphasizing safety and accuracy.",
+      "The student demonstrates a deep understanding of the importance of seeking guidance and relates it to personal health and well-being.",
+      "The student articulates the importance of seeking guidance and demonstrates an ability to advocate for seeking advice from trusted adults, promoting responsible medicine use."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Definition of a Function",
+    "Identifying Functions from Various Representations",
+    "Graphing Functions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of what a function is.",
+      "The student shows a limited understanding of a function, with significant misconceptions.",
+      "The student understands that a function relates inputs and outputs but struggles to articulate the uniqueness of the output.",
+      "The student correctly defines a function as a rule that assigns each input to exactly one output.",
+      "The student clearly defines a function and provides examples to illustrate the concept.",
+      "The student provides a precise definition of a function and can explain why certain relationships are or are not functions with clear justifications."
+    ],
+    [
+      "The student cannot identify functions represented graphically or as ordered pairs.",
+      "The student struggles to identify functions and makes frequent errors.",
+      "The student can identify some functions but is inconsistent in their application of the definition.",
+      "The student can accurately identify functions from graphs and ordered pairs.",
+      "The student can confidently identify functions and explain their reasoning.",
+      "The student can explain subtle cases of functions and non-functions, justifying their answers with a deep understanding of the definition."
+    ],
+    [
+      "The student cannot graph a function.",
+      "The student attempts to graph a function, but the graph is inaccurate or incomplete.",
+      "The student can create a basic graph of a function but may have errors in plotting points or understanding the overall shape.",
+      "The student can accurately graph a function, including plotting points and representing the function's behavior.",
+      "The student can graph functions with precision and attention to detail.",
+      "The student can graph complex functions accurately and can explain the key features of the graph, such as intercepts and slope."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identify Similarities in Sentence-Level Elements",
+    "Identify Differences in Sentence-Level Elements",
+    "Identify Similarities in Extended Discourse (Text Structure)",
+    "Identify Differences in Extended Discourse (Text Structure)",
+    "Reflect on the Nature of Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify similarities in sentence-level elements.",
+      "Struggles to identify even basic similarities in morphology or syntax.",
+      "Identifies a few simple similarities but misses more complex connections.",
+      "Identifies most common similarities in sentence structure and morphology.",
+      "Clearly identifies similarities in both common and some uncommon sentence-level elements.",
+      "Demonstrates a comprehensive understanding by identifying nuanced similarities and explaining their impact on meaning."
+    ],
+    [
+      "No attempt to identify differences in sentence-level elements.",
+      "Unable to distinguish differences in basic sentence structure.",
+      "Identifies superficial differences without understanding their significance.",
+      "Recognizes key differences in syntax and morphology between languages.",
+      "Explains differences with relevant examples, showing a solid understanding.",
+      "Articulates subtle differences and their implications for linguistic expression and interpretation."
+    ],
+    [
+      "No attempt to identify similarities in text structure.",
+      "Fails to recognize even basic similarities in how texts are organized.",
+      "Identifies only the most obvious similarities in text structure.",
+      "Describes common text structures shared between languages.",
+      "Analyzes similarities in text structure with supporting details and examples.",
+      "Provides insightful comparisons of text structures, exploring cultural and rhetorical influences."
+    ],
+    [
+      "No attempt to identify differences in text structure.",
+      "Unable to pinpoint any differences in how texts are organized.",
+      "Recognizes basic differences in text structure without explaining them.",
+      "Lists differences in text structure, such as organizational patterns.",
+      "Explains differences in text structure with relevant examples and cultural context.",
+      "Analyzes differences in text structure, offering a deep understanding of how they reflect cultural values and communicative goals."
+    ],
+    [
+      "Shows no reflection on the nature of language.",
+      "Struggles to connect linguistic observations to broader concepts about language.",
+      "Makes superficial statements about language without in-depth analysis.",
+      "Reflects on the nature of language, using examples from the analysis.",
+      "Provides thoughtful reflections on the nature of language, showing an understanding of linguistic principles.",
+      "Offers profound reflections on the nature of language, connecting linguistic observations to relevant cultural and historical contexts."
+    ]
+  ]
+}

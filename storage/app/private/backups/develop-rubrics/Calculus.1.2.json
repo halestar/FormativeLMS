@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Limit Estimation",
+    "Verification of Limits",
+    "Understanding of Limit Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely inaccurate estimation of limits using graphical calculator.",
+      "Struggles to use the graphical calculator and provides inaccurate limit estimations.",
+      "Uses the graphical calculator but with frequent errors, resulting in somewhat inaccurate limit estimations.",
+      "Generally uses the graphical calculator correctly, but with minor errors in interpreting graphs for limit estimation.",
+      "Accurately uses the graphical calculator to estimate limits with clear understanding and minimal errors.",
+      "Masterfully uses the graphical calculator to accurately estimate limits and explains the estimation process clearly and thoroughly."
+    ],
+    [
+      "Unable to use the graphical calculator to verify limits.",
+      "Attempts to verify limits with the graphical calculator but cannot produce meaningful results.",
+      "Can use the graphical calculator to verify some limits, but with significant difficulty and errors.",
+      "Verifies limits with the graphical calculator, but explanation lacks clarity.",
+      "Clearly and accurately verifies limits using the graphical calculator, showing good understanding.",
+      "Demonstrates expert-level ability to verify limits using the graphical calculator, and provides comprehensive explanations of the verification process."
+    ],
+    [
+      "Demonstrates no understanding of limits or how to estimate\/verify them.",
+      "Shows minimal understanding of limits and their estimation\/verification.",
+      "Understands basic concepts of limits but struggles to apply them with a graphical calculator.",
+      "Shows a good understanding of limit concepts and can apply them using a graphical calculator with some guidance.",
+      "Demonstrates a strong understanding of limit concepts and applies them effectively with a graphical calculator.",
+      "Exhibits a comprehensive understanding of limit concepts, applies them flawlessly using a graphical calculator, and can explain them in detail."
+    ]
+  ]
+}

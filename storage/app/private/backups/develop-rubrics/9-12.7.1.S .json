@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Injury Prevention Techniques",
+    "Application of Prevention Strategies",
+    "Awareness of Risks"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of injury prevention techniques related to athletic, social, or motor vehicle activities.",
+      "Shows minimal understanding of injury prevention, with significant gaps in knowledge.",
+      "Displays basic understanding of injury prevention but struggles to apply it to different activities.",
+      "Demonstrates a solid understanding of injury prevention techniques and can apply them to some activities.",
+      "Exhibits a comprehensive understanding of injury prevention and consistently applies it across various activities.",
+      "Demonstrates expert-level understanding and application of injury prevention, adapting strategies to unique situations and promoting safety effectively."
+    ],
+    [
+      "Does not apply any injury prevention strategies in practical scenarios.",
+      "Attempts to apply prevention strategies but does so incorrectly or ineffectively.",
+      "Applies some prevention strategies correctly in familiar situations but struggles in new or complex scenarios.",
+      "Consistently applies appropriate prevention strategies in a variety of common situations.",
+      "Proactively applies prevention strategies and adapts them effectively to different contexts.",
+      "Models and promotes injury prevention strategies, demonstrating a commitment to safety in all activities and encouraging others to do the same."
+    ],
+    [
+      "Shows no awareness of potential injury risks in athletic, social, or motor vehicle activities.",
+      "Displays limited awareness of risks and does not recognize potential hazards.",
+      "Identifies some common risks but may overlook less obvious dangers.",
+      "Demonstrates good awareness of common risks and takes steps to mitigate them.",
+      "Exhibits strong awareness of a wide range of risks and proactively identifies potential hazards.",
+      "Expertly assesses risks and implements comprehensive strategies to minimize potential injuries, demonstrating leadership in promoting safety culture."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the effects of diet pills",
+    "Understanding of the effects of anabolic steroids",
+    "Analysis of the comparison of the health risks of diet pills and anabolic steroids"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the harmful effects of diet pills is demonstrated.",
+      "Demonstrates minimal understanding of one or two harmful effects of diet pills.",
+      "Identifies a few harmful effects of diet pills with limited explanation.",
+      "Explains several harmful effects of diet pills with some detail.",
+      "Analyzes multiple harmful effects of diet pills with clear explanations and examples.",
+      "Provides a comprehensive analysis of the harmful effects of diet pills, including long-term consequences and related health risks, demonstrating excellent understanding."
+    ],
+    [
+      "No understanding of the harmful effects of anabolic steroids is demonstrated.",
+      "Demonstrates minimal understanding of one or two harmful effects of anabolic steroids.",
+      "Identifies a few harmful effects of anabolic steroids with limited explanation.",
+      "Explains several harmful effects of anabolic steroids with some detail.",
+      "Analyzes multiple harmful effects of anabolic steroids with clear explanations and examples.",
+      "Provides a comprehensive analysis of the harmful effects of anabolic steroids, including long-term consequences, psychological effects, and related health risks, demonstrating excellent understanding."
+    ],
+    [
+      "No comparative analysis is present.",
+      "Offers a basic comparison with inaccuracies.",
+      "Provides a simple comparison with limited detail.",
+      "Compares and contrasts the effects of both substances with some detail.",
+      "Presents a detailed analysis comparing and contrasting the effects of both substances.",
+      "Presents an insightful and comprehensive comparative analysis, highlighting nuances and potential interactions, while accurately portraying the health implications of diet pills and anabolic steroids."
+    ]
+  ]
+}

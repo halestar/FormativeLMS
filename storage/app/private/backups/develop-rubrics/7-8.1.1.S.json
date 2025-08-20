@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Physical Violence",
+    "Understanding of Verbal Violence",
+    "Understanding of Sexual Violence",
+    "Differentiation and Comparison of Violence Types"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of physical violence.",
+      "Identifies physical violence but lacks detail or accuracy.",
+      "Describes physical violence with some accuracy but misses key elements.",
+      "Clearly describes physical violence, providing relevant examples.",
+      "Demonstrates a thorough understanding of physical violence, including its causes and consequences.",
+      "Provides a comprehensive and nuanced explanation of physical violence, including real-world examples and potential solutions."
+    ],
+    [
+      "Demonstrates no understanding of verbal violence.",
+      "Identifies verbal violence but lacks detail or accuracy.",
+      "Describes verbal violence with some accuracy but misses key elements.",
+      "Clearly describes verbal violence, providing relevant examples.",
+      "Demonstrates a thorough understanding of verbal violence, including its causes and consequences.",
+      "Provides a comprehensive and nuanced explanation of verbal violence, including real-world examples and potential solutions."
+    ],
+    [
+      "Demonstrates no understanding of sexual violence.",
+      "Identifies sexual violence but lacks detail or accuracy.",
+      "Describes sexual violence with some accuracy but misses key elements.",
+      "Clearly describes sexual violence, providing relevant examples.",
+      "Demonstrates a thorough understanding of sexual violence, including its causes and consequences.",
+      "Provides a comprehensive and nuanced explanation of sexual violence, including real-world examples and potential solutions."
+    ],
+    [
+      "Unable to differentiate between the different types of violence.",
+      "Attempts to differentiate but provides inaccurate or incomplete comparisons.",
+      "Identifies some differences but struggles to explain the nuances between violence types.",
+      "Clearly differentiates between physical, verbal, and sexual violence with supporting details.",
+      "Provides a detailed comparison of the three types of violence, highlighting similarities and differences.",
+      "Offers a sophisticated analysis of the relationships between physical, verbal, and sexual violence, including social and cultural contexts."
+    ]
+  ]
+}

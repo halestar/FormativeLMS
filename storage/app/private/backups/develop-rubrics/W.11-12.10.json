@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to write routinely over extended time frames for various tasks, purposes, and audiences, demonstrating research, reflection, and revision.",
+    "Capacity to write routinely within shorter time frames (single sitting or a day or two) for various tasks, purposes, and audiences.",
+    "Effectiveness in adapting writing style and content to suit different tasks, purposes, and audiences."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not write routinely or fails to engage in tasks requiring extended time frames, research, reflection, or revision.",
+      "The student attempts to write routinely but struggles to manage time effectively or incorporate research, reflection, or revision processes.",
+      "The student writes routinely for some tasks but shows limited engagement with research, reflection, or revision; purpose and audience are not always clear.",
+      "The student routinely writes over extended time frames, incorporating basic research, reflection, and revision for a limited range of tasks, purposes, and audiences.",
+      "The student writes routinely and effectively over extended time frames, demonstrating good research, reflection, and revision skills for a variety of tasks, purposes, and audiences.",
+      "The student excels at writing routinely over extended time frames, skillfully integrating research, reflection, and revision to produce high-quality work tailored to diverse tasks, purposes, and audiences."
+    ],
+    [
+      "The student does not write routinely within shorter time frames or struggles to complete tasks within the given timeframe.",
+      "The student attempts to write within shorter time frames but struggles with time management and producing coherent work.",
+      "The student writes within shorter time frames for some tasks, but the quality, purpose, or audience awareness is limited.",
+      "The student routinely writes within shorter time frames, demonstrating adequate coherence and awareness of purpose and audience for a limited range of tasks.",
+      "The student writes routinely and effectively within shorter time frames, showing good coherence and adaptation to purpose and audience across various tasks.",
+      "The student excels at writing routinely within shorter time frames, producing highly coherent and effective work that is finely tuned to its purpose and audience across a diverse range of tasks."
+    ],
+    [
+      "The student's writing shows no adaptation to different tasks, purposes, or audiences.",
+      "The student attempts to adapt writing but shows minimal understanding of how to tailor content or style.",
+      "The student adapts writing in a limited way, showing some awareness of task, purpose, or audience but lacking consistency.",
+      "The student demonstrates a basic understanding of adapting writing to different tasks, purposes, and audiences, with some successful adjustments in style and content.",
+      "The student effectively adapts writing style and content to suit different tasks, purposes, and audiences, showing a strong understanding of rhetorical strategies.",
+      "The student masterfully adapts writing to diverse tasks, purposes, and audiences, demonstrating sophisticated rhetorical skills and producing highly effective communication."
+    ]
+  ]
+}

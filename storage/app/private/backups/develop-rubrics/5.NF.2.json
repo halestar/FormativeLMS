@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in solving word problems involving addition and subtraction of fractions with unlike denominators.",
+    "Use of visual fraction models or equations to represent the problem.",
+    "Reasonableness of answer and estimation using benchmark fractions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or demonstrates no understanding of adding or subtracting fractions with unlike denominators.",
+      "Incorrectly solves the word problem, showing no clear strategy or understanding of equivalent fractions.",
+      "Attempts to solve the word problem but makes significant errors in finding common denominators or performing operations.",
+      "Solves the word problem with minor errors in computation or in determining the correct operation, but shows a basic understanding of equivalent fractions.",
+      "Solves the word problem correctly, showing a clear understanding of equivalent fractions and the operations involved.  May have a small calculation error.",
+      "Solves the word problem correctly and efficiently, demonstrating a strong understanding of equivalent fractions and fraction operations.  Solution is clearly explained."
+    ],
+    [
+      "No visual models or equations are used.",
+      "Attempts to use visual models or equations, but they are inaccurate or do not represent the problem effectively.",
+      "Uses visual models or equations with some inaccuracies or limitations in representing the problem.",
+      "Uses visual models or equations that accurately represent the problem, but the representation may lack clarity or detail.",
+      "Effectively uses visual models or equations to represent the problem clearly and accurately.",
+      "Masterfully uses visual models or equations to represent the problem, enhancing understanding and providing a clear pathway to the solution."
+    ],
+    [
+      "Does not attempt to estimate or assess the reasonableness of the answer.",
+      "Attempts to estimate but demonstrates little to no understanding of benchmark fractions or number sense.",
+      "Estimates the answer but struggles to justify its reasonableness using benchmark fractions.",
+      "Uses benchmark fractions to estimate and assess the reasonableness of the answer with some inconsistencies.",
+      "Uses benchmark fractions effectively to estimate and justify the reasonableness of the answer.",
+      "Uses benchmark fractions expertly to estimate and thoroughly justify the reasonableness of the answer, demonstrating a strong number sense."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning the Investigation",
+    "Conducting the Investigation and Data Collection",
+    "Analysis and Interpretation of Data",
+    "Communication of Findings"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No clear plan for the investigation is presented; the student does not identify variables or controls.",
+      "The investigation plan is incomplete, lacking key elements like a control or only identifies variables without a method to test them.",
+      "The investigation plan is basic, identifying the need for sunlight and water, but the method is not fully detailed or has flaws.",
+      "A sound investigation plan is presented that identifies the variables to be tested (sunlight and water) and includes a control group. The method is clearly described.",
+      "A well-thought-out and detailed investigation plan is presented that includes controls and variables, as well as anticipates potential challenges and limitations.",
+      "The investigation plan is comprehensive, innovative, and addresses potential sources of error; the student demonstrates a sophisticated understanding of experimental design."
+    ],
+    [
+      "The investigation is not conducted, or no data is collected.",
+      "The investigation is started, but data collection is minimal or inaccurate.",
+      "Basic data is collected, but there are gaps or inconsistencies in the data.",
+      "Data is collected systematically and accurately, providing a basis for evidence.",
+      "Data is meticulously collected, organized logically, and presented clearly with appropriate units and labels.",
+      "Data collection is thorough and includes observations beyond the planned measurements, showing a keen awareness of the experimental process."
+    ],
+    [
+      "No attempt is made to analyze or interpret the collected data.",
+      "The analysis is superficial, and interpretation is limited or incorrect.",
+      "Data is analyzed, but interpretations are basic and may not fully connect to the investigation question.",
+      "Data is appropriately analyzed, and interpretations are supported by the evidence collected, linking sunlight and water to plant growth.",
+      "The student provides insightful interpretations of the data, drawing clear conclusions about the necessity of sunlight and water for plant growth while acknowledging any limitations or uncertainties.",
+      "The student demonstrates a deep understanding of the data, including statistical analysis or error assessment, and provides nuanced interpretations that consider alternative explanations."
+    ],
+    [
+      "Findings are not communicated, or the communication is incomprehensible.",
+      "The findings are communicated poorly, lacking clarity and detail.",
+      "The findings are communicated, but the report is disorganized or lacks key details.",
+      "Findings are clearly communicated in a well-organized report, including the purpose, methods, results, and conclusions.",
+      "The report is exceptionally clear, concise, and logically organized, effectively conveying the investigation process and outcomes.",
+      "The student presents the investigation and findings in a professional manner, incorporating visuals and engaging explanations that demonstrate a thorough understanding of the scientific concepts."
+    ]
+  ]
+}

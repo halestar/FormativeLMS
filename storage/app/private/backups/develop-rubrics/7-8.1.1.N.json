@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Short-Term Impacts",
+    "Understanding of Long-Term Impacts",
+    "Connection Between Nutritional Choices and Health",
+    "Accuracy and Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of short-term impacts of nutritional choices is demonstrated.",
+      "Demonstrates a minimal understanding of short-term impacts, with significant inaccuracies.",
+      "Identifies some short-term impacts but lacks depth and detail.",
+      "Describes several short-term impacts of nutritional choices on health with reasonable accuracy.",
+      "Explains short-term impacts of various nutritional choices on health with clear examples.",
+      "Provides a comprehensive and accurate explanation of short-term impacts, including specific examples and potential consequences."
+    ],
+    [
+      "No understanding of long-term impacts of nutritional choices is demonstrated.",
+      "Demonstrates a minimal understanding of long-term impacts, with significant inaccuracies.",
+      "Identifies some long-term impacts but lacks depth and detail.",
+      "Describes several long-term impacts of nutritional choices on health with reasonable accuracy.",
+      "Explains long-term impacts of various nutritional choices on health with clear examples.",
+      "Provides a comprehensive and accurate explanation of long-term impacts, including specific examples and potential consequences."
+    ],
+    [
+      "Fails to make any connection between nutritional choices and overall health.",
+      "Makes a vague or inaccurate connection between nutritional choices and health.",
+      "Identifies a general connection between nutrition and health, but lacks specific examples.",
+      "Describes how some nutritional choices impact health, but the connection is not always clear.",
+      "Clearly explains how various nutritional choices affect health, providing relevant examples.",
+      "Demonstrates a deep understanding of the intricate relationship between nutritional choices and health, providing comprehensive explanations and examples."
+    ],
+    [
+      "Information presented is inaccurate or completely unsupported by evidence.",
+      "Presents some information, but it contains inaccuracies or lacks proper support.",
+      "Information is generally accurate, but the evidence is weak or not clearly linked.",
+      "Presents mostly accurate information supported by some evidence.",
+      "Presents accurate information supported by relevant and credible evidence.",
+      "Presents accurate, detailed information supported by strong, credible evidence, demonstrating a mastery of the topic."
+    ]
+  ]
+}

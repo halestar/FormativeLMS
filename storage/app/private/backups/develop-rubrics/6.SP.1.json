@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to differentiate between statistical and non-statistical questions.",
+    "Understanding of variability in data related to statistical questions.",
+    "Ability to generate statistical questions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of statistical questions. Unable to identify any statistical questions.",
+      "Student shows minimal understanding. Struggles to differentiate between statistical and non-statistical questions; makes frequent errors.",
+      "Student demonstrates some understanding. Can identify simple statistical questions but struggles with more complex scenarios.",
+      "Student demonstrates adequate understanding. Can generally differentiate between statistical and non-statistical questions with occasional errors.",
+      "Student demonstrates strong understanding. Can accurately differentiate between statistical and non-statistical questions in most scenarios.",
+      "Student demonstrates excellent understanding. Can consistently and accurately differentiate between statistical and non-statistical questions, and explains the reasoning clearly."
+    ],
+    [
+      "Student does not recognize the concept of variability in data related to statistical questions.",
+      "Student shows minimal recognition of variability; does not understand how it relates to statistical questions.",
+      "Student demonstrates some awareness of variability but struggles to explain its relevance to statistical questions.",
+      "Student adequately understands variability and its relevance, but the explanation may lack clarity.",
+      "Student demonstrates strong understanding of variability and can explain its relevance to statistical questions with good clarity.",
+      "Student demonstrates excellent understanding of variability and provides a clear, insightful explanation of its relevance to statistical questions."
+    ],
+    [
+      "Student is unable to generate any statistical questions.",
+      "Student attempts to generate statistical questions but they are not well-formed or appropriate.",
+      "Student can generate some statistical questions, but they may be simplistic or lack clear variability.",
+      "Student can generate adequate statistical questions that demonstrate some understanding of variability.",
+      "Student can generate strong statistical questions that clearly demonstrate understanding of variability and relevance.",
+      "Student can generate excellent and insightful statistical questions that demonstrate a comprehensive understanding of variability and its implications."
+    ]
+  ]
+}

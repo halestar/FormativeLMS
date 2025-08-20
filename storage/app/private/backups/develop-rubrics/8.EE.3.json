@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to convert numbers into scientific notation.",
+    "Understanding of integer exponents.",
+    "Ability to estimate very large or very small quantities using scientific notation.",
+    "Ability to compare quantities using scientific notation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot convert numbers into scientific notation.",
+      "Student can convert simple numbers into scientific notation but struggles with more complex numbers.",
+      "Student can convert most numbers into scientific notation with some errors.",
+      "Student consistently converts numbers into scientific notation with only minor errors.",
+      "Student accurately converts numbers into scientific notation.",
+      "Student accurately and efficiently converts numbers into scientific notation, demonstrating a strong understanding of the concept."
+    ],
+    [
+      "Student does not understand the concept of integer exponents.",
+      "Student shows limited understanding of integer exponents and struggles to apply them.",
+      "Student demonstrates some understanding of integer exponents but makes frequent errors.",
+      "Student generally understands integer exponents and applies them correctly with occasional errors.",
+      "Student demonstrates a solid understanding of integer exponents and applies them correctly.",
+      "Student demonstrates a comprehensive understanding of integer exponents and applies them accurately and effectively."
+    ],
+    [
+      "Student cannot estimate quantities using scientific notation.",
+      "Student struggles to estimate quantities and does not effectively use scientific notation.",
+      "Student can estimate quantities with limited accuracy using scientific notation.",
+      "Student estimates quantities with reasonable accuracy using scientific notation.",
+      "Student accurately estimates quantities using scientific notation.",
+      "Student accurately and efficiently estimates quantities using scientific notation, demonstrating a strong grasp of the concept."
+    ],
+    [
+      "Student cannot compare quantities using scientific notation.",
+      "Student struggles to compare quantities and does not effectively use scientific notation.",
+      "Student can compare quantities with limited accuracy using scientific notation.",
+      "Student compares quantities with reasonable accuracy using scientific notation.",
+      "Student accurately compares quantities using scientific notation.",
+      "Student accurately and efficiently compares quantities using scientific notation, demonstrating a strong grasp of the concept."
+    ]
+  ]
+}

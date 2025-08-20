@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Buddha's Life and Moral Teachings",
+    "Knowledge of the Spread of Buddhism",
+    "Analysis of Geographic, Political, Economic, Religious, and Social Structures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Buddha's life or moral teachings.",
+      "Demonstrates a very limited understanding of Buddha's life or moral teachings. Shows significant misconceptions.",
+      "Demonstrates a basic understanding of Buddha's life and moral teachings. Some key details are missing or inaccurate.",
+      "Demonstrates a satisfactory understanding of Buddha's life and moral teachings. Minor details may be missing.",
+      "Demonstrates a strong understanding of Buddha's life and moral teachings. Provides accurate details and explanations.",
+      "Demonstrates a comprehensive and insightful understanding of Buddha's life and moral teachings. Connects teachings to broader historical and philosophical contexts."
+    ],
+    [
+      "Demonstrates no knowledge of how Buddhism spread.",
+      "Demonstrates a very limited knowledge of the spread of Buddhism. Identifies only one or no locations.",
+      "Demonstrates a basic knowledge of the spread of Buddhism. Identifies India, but struggles with Ceylon and Central Asia.",
+      "Demonstrates a satisfactory knowledge of the spread of Buddhism. Identifies India, Ceylon, and Central Asia, but lacks detail.",
+      "Demonstrates a strong knowledge of the spread of Buddhism in India, Ceylon, and Central Asia. Provides specific examples.",
+      "Demonstrates a comprehensive knowledge of the spread of Buddhism, including the routes, reasons, and impact on India, Ceylon, and Central Asia."
+    ],
+    [
+      "Unable to provide any analysis.",
+      "Demonstrates minimal understanding of the connections to geographic, political, economic, religious and\/or social structures.",
+      "Demonstrates some understanding of the connections to geographic, political, economic, religious and\/or social structures.",
+      "Demonstrates general understanding of the connections to geographic, political, economic, religious and\/or social structures.",
+      "Demonstrates solid understanding of the connections to geographic, political, economic, religious and\/or social structures.",
+      "Demonstrates excellent and insightful understanding of the connections to geographic, political, economic, religious and\/or social structures."
+    ]
+  ]
+}

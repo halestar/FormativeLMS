@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Depth of Research and Analysis",
+    "Quality of Comparison",
+    "Clarity of Discussion and Hypothesis",
+    "Use of Target Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no attempt to research or analyze the target cultures' products, practices, and perspectives.",
+      "Demonstrates minimal research with superficial analysis; struggles to identify cultural elements.",
+      "Presents some research but analysis is basic; identifies a few cultural elements but lacks depth.",
+      "Conducts adequate research and analysis; identifies and discusses several cultural elements with reasonable depth.",
+      "Conducts thorough research with insightful analysis; clearly identifies, discusses, and compares a range of cultural elements.",
+      "Conducts comprehensive research with sophisticated analysis; demonstrates a deep understanding of cultural elements and their interconnections."
+    ],
+    [
+      "Makes no comparisons between target cultures, US cultures, or own cultures.",
+      "Attempts comparisons but they are unclear, irrelevant, or inaccurate.",
+      "Makes basic comparisons, but lacks specificity and detail.",
+      "Provides relevant comparisons between cultures, identifying some similarities and differences.",
+      "Offers thoughtful and well-supported comparisons, highlighting key similarities and differences.",
+      "Demonstrates nuanced understanding through insightful and detailed comparisons; explores complex relationships between cultures."
+    ],
+    [
+      "Discussion is absent or incomprehensible; no hypothesis is presented.",
+      "Discussion is vague and unclear; hypothesis is weak or missing.",
+      "Discussion is understandable but lacks focus; hypothesis is present but simplistic.",
+      "Presents a clear and organized discussion; formulates a reasonable hypothesis based on analysis.",
+      "Engages in a thoughtful and well-supported discussion; presents a compelling and insightful hypothesis.",
+      "Demonstrates exceptional clarity and insight in discussion; formulates a sophisticated and well-reasoned hypothesis."
+    ],
+    [
+      "No target language used.",
+      "Minimal use of target language; frequent errors impede understanding.",
+      "Basic use of target language; some errors affect clarity.",
+      "Adequate use of target language; errors do not significantly impede understanding.",
+      "Good command of target language; few errors and effective communication.",
+      "Excellent command of target language; fluent and accurate communication with sophisticated vocabulary and grammar."
+    ]
+  ]
+}

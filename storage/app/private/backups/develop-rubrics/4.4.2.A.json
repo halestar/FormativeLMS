@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Directness: How clearly and directly the student requests assistance, ensuring the message is easily understood.",
+    "Assertiveness and Confidence: The degree to which the student demonstrates assertiveness and confidence in their verbal communication.",
+    "Appropriateness of Language: The student's use of language that is suitable for the situation, avoiding slang or language that may be offensive.",
+    "Situational Awareness: The degree to which the student demonstrates an understanding of the situation and its potential consequences."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to communicate or the communication is entirely unclear and irrelevant.",
+      "The student's attempt to communicate is vague and hard to understand, lacking a clear request for assistance.",
+      "The student communicates the need for assistance, but the message lacks clarity and may be confusing to the listener.",
+      "The student clearly communicates the need for assistance, but could be more direct in the request.",
+      "The student communicates clearly and directly, making a straightforward request for assistance.",
+      "The student communicates exceptionally clearly and directly, ensuring the message is easily understood and actionable, leaving no room for misinterpretation."
+    ],
+    [
+      "The student is unable to demonstrate any assertiveness or confidence in their verbal communication.",
+      "The student demonstrates minimal assertiveness or confidence, appearing hesitant and uncertain.",
+      "The student demonstrates some assertiveness and confidence, but still appears somewhat hesitant.",
+      "The student demonstrates a moderate level of assertiveness and confidence, making a reasonably convincing request.",
+      "The student demonstrates strong assertiveness and confidence, making a convincing and persuasive request.",
+      "The student demonstrates exceptional assertiveness and confidence, persuasively and effectively requesting assistance with poise."
+    ],
+    [
+      "The student uses entirely inappropriate language, including offensive terms or slang, making the request unsuitable.",
+      "The student uses mostly inappropriate language, with limited awareness of suitable terminology.",
+      "The student uses some inappropriate language or slang, with some awareness of suitable terminology.",
+      "The student mostly uses appropriate language, with only minor instances of inappropriate terms or slang.",
+      "The student consistently uses appropriate language, with no instances of inappropriate terms or slang.",
+      "The student uses exceptionally appropriate and articulate language, demonstrating a sophisticated awareness of suitable terminology."
+    ],
+    [
+      "The student demonstrates no awareness of the situation or its potential consequences.",
+      "The student demonstrates minimal awareness of the situation or its potential consequences.",
+      "The student demonstrates some awareness of the situation or its potential consequences.",
+      "The student demonstrates a moderate level of awareness of the situation and its potential consequences.",
+      "The student demonstrates a strong understanding of the situation and its potential consequences.",
+      "The student demonstrates an exceptional understanding of the situation and its potential consequences, taking into account all relevant factors."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Sun Hazards",
+    "Identification of Water Hazards",
+    "Identification of Ice Hazards"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any hazards related to the sun.",
+      "Identifies one basic hazard related to the sun (e.g., sunburn).",
+      "Identifies a few hazards related to the sun, but lacks detail or accuracy.",
+      "Identifies several hazards related to the sun, including sunburn, heatstroke, and skin cancer, with some detail.",
+      "Clearly describes multiple hazards associated with sun exposure, including long-term risks and preventative measures.",
+      "Provides a comprehensive and accurate description of sun-related hazards, including specific types of skin cancer, UV index, and effective prevention strategies, demonstrating thorough understanding."
+    ],
+    [
+      "Does not identify any hazards related to water.",
+      "Identifies one basic hazard related to water (e.g., drowning).",
+      "Identifies a few hazards related to water, but lacks detail or accuracy (e.g., mentions drowning and dehydration).",
+      "Identifies several hazards related to water, including drowning, waterborne illnesses, and dehydration, with some detail.",
+      "Clearly describes multiple hazards associated with water activities, including rip currents, contamination, and hypothermia, and some preventative measures.",
+      "Provides a comprehensive and accurate description of water-related hazards, including specific types of waterborne pathogens, risks associated with different bodies of water, and detailed prevention and treatment strategies."
+    ],
+    [
+      "Does not identify any hazards related to ice.",
+      "Identifies one basic hazard related to ice (e.g., slipping).",
+      "Identifies a few hazards related to ice, but lacks detail or accuracy (e.g., slipping, frostbite).",
+      "Identifies several hazards related to ice, including slipping, frostbite, and hypothermia, with some detail.",
+      "Clearly describes multiple hazards associated with ice and cold environments, including ice thickness, avalanche danger, and appropriate safety gear.",
+      "Provides a comprehensive and accurate description of ice-related hazards, including the physics of ice formation, risks associated with different types of ice, and detailed survival strategies in cold environments."
+    ]
+  ]
+}

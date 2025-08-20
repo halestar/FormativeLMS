@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Planning and Organization",
+    "Revision and Editing",
+    "Purpose and Audience Awareness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence of planning or organization. The writing lacks a clear structure and appears haphazard.",
+      "Minimal planning is evident. The writing lacks a clear structure, and the organization is weak, making it difficult to follow the writer's ideas.",
+      "Some planning is evident, but the organization is inconsistent. The writing may have a discernible structure but lacks smooth transitions and logical sequencing of ideas.",
+      "Adequate planning and organization are evident. The writing has a clear structure with mostly logical sequencing of ideas. Transitions are present but may be somewhat mechanical.",
+      "Well-developed planning and organization are evident. The writing demonstrates a clear and logical structure with smooth transitions that enhance the flow of ideas.",
+      "Exceptional planning and organization are evident. The writing exhibits a sophisticated and compelling structure with seamless transitions that create a cohesive and engaging piece."
+    ],
+    [
+      "No evidence of revision or editing. The writing contains numerous errors in grammar, mechanics, and usage.",
+      "Minimal revision or editing is evident. The writing contains frequent errors that impede understanding.",
+      "Some revision and editing are evident, but errors persist. The writing may show attempts to correct errors, but inconsistencies remain.",
+      "Adequate revision and editing are evident. The writing contains few errors that do not significantly impede understanding. Some attempts to refine clarity and style are apparent.",
+      "Thorough revision and editing are evident. The writing is largely free of errors and demonstrates attention to detail. Clear attempts to refine clarity and style are apparent.",
+      "Exceptional revision and editing are evident. The writing is polished and refined, demonstrating mastery of grammar, mechanics, and usage. The writing exhibits a high level of clarity, precision, and stylistic sophistication."
+    ],
+    [
+      "No awareness of purpose or audience. The writing lacks a clear focus and fails to engage the intended reader.",
+      "Minimal awareness of purpose or audience. The writing demonstrates a limited understanding of the intended reader and may lack a clear focus.",
+      "Some awareness of purpose and audience. The writing attempts to address the intended reader but may lack a consistent focus or fail to fully engage the audience.",
+      "Adequate awareness of purpose and audience. The writing addresses the intended reader and maintains a mostly consistent focus. The writing effectively engages the audience.",
+      "Well-developed awareness of purpose and audience. The writing effectively engages the intended reader and demonstrates a strong understanding of the audience's needs and expectations.",
+      "Exceptional awareness of purpose and audience. The writing demonstrates a deep understanding of the intended reader and effectively engages the audience through a compelling and purposeful message."
+    ]
+  ]
+}

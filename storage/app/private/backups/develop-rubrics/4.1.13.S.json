@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Posture and Body Alignment",
+    "Use of Leg Muscles",
+    "Carrying Technique and Load Distribution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates incorrect posture, bending at the waist and not maintaining a straight back, showing no awareness of proper body mechanics.",
+      "Student occasionally maintains a somewhat straight back, but frequently bends at the waist, showing minimal effort to align their body properly.",
+      "Student often keeps a straight back while lifting, but posture is inconsistent, and body alignment is not maintained throughout the lifting and carrying process.",
+      "Student generally uses proper posture with a straight back, bending at the knees, and maintains good body alignment for most of the lifting and carrying activity.",
+      "Student consistently uses proper posture, maintaining a straight back and bending at the knees, with excellent body alignment throughout the entire lifting and carrying task.",
+      "Student expertly demonstrates perfect posture and body alignment, maintaining a straight back, bending at the knees, and exhibiting exceptional control and balance during lifting and carrying."
+    ],
+    [
+      "Student lifts with their back muscles instead of using their legs, showing no understanding of how to engage leg muscles for lifting.",
+      "Student makes a slight attempt to use leg muscles, but primarily relies on the back when lifting, showing limited engagement of the legs.",
+      "Student sometimes uses leg muscles for lifting, but the effort is inconsistent, and there is noticeable strain on the back during the process.",
+      "Student mostly uses leg muscles to lift, reducing strain on the back, and shows good awareness of how to engage the legs for a more efficient lift.",
+      "Student effectively uses leg muscles for lifting, demonstrating proper technique and minimizing strain on the back, showing a strong understanding of biomechanics.",
+      "Student expertly and efficiently uses leg muscles to lift, exhibiting flawless technique and optimal biomechanics, with no visible strain on the back, demonstrating a deep understanding of safe lifting practices."
+    ],
+    [
+      "Student carries the backpack with one strap, allowing it to hang to one side, showing no understanding of proper load distribution or balance.",
+      "Student occasionally uses both straps but still allows the backpack to sag, showing minimal attention to load distribution and balance.",
+      "Student often uses both straps, but the backpack is not properly adjusted, and the load is not evenly distributed, leading to some imbalance.",
+      "Student generally uses both straps and adjusts them somewhat to distribute the load, showing a reasonable attempt to maintain balance and reduce strain.",
+      "Student effectively uses both straps, adjusts them properly, and distributes the load evenly, demonstrating good balance and minimizing strain on the body.",
+      "Student expertly uses both straps, adjusts them perfectly, and distributes the load with precision, exhibiting exceptional balance and minimizing any potential strain on the body, while also demonstrating an understanding of ergonomic principles."
+    ]
+  ]
+}

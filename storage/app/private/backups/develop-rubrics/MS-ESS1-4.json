@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rock Strata and Relative Dating",
+    "Use of Evidence to Support Explanation",
+    "Construction of Scientific Explanation",
+    "Understanding of Geologic Time Scale"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of rock strata or relative dating is demonstrated.",
+      "Demonstrates minimal understanding of rock strata or relative dating.",
+      "Demonstrates a basic understanding of rock strata and relative dating, but with some inaccuracies.",
+      "Demonstrates a clear understanding of rock strata and relative dating, with minor omissions.",
+      "Demonstrates a strong understanding of rock strata and relative dating, explaining the relationship effectively.",
+      "Demonstrates a comprehensive understanding of rock strata and relative dating, providing detailed explanations and insightful connections."
+    ],
+    [
+      "No evidence from rock strata is used to support the explanation.",
+      "Minimal evidence from rock strata is used, and it is not well-integrated into the explanation.",
+      "Some evidence from rock strata is used, but the connection to the explanation is not always clear.",
+      "Evidence from rock strata is used to support the explanation, but with some gaps or inconsistencies.",
+      "Strong evidence from rock strata is used to support the explanation, with clear connections made.",
+      "Compelling and comprehensive evidence from rock strata is used to support the explanation, demonstrating a deep understanding of the data."
+    ],
+    [
+      "No attempt to construct a scientific explanation is made.",
+      "A weak attempt to construct a scientific explanation is made, but it lacks coherence.",
+      "A basic scientific explanation is constructed, but it is not well-organized or clearly articulated.",
+      "A clear and organized scientific explanation is constructed, but with some minor flaws.",
+      "A well-constructed and clearly articulated scientific explanation is presented, demonstrating a strong understanding of the concepts.",
+      "An exceptionally well-constructed, insightful, and comprehensive scientific explanation is presented, demonstrating a mastery of the concepts."
+    ],
+    [
+      "No understanding of the geologic time scale is demonstrated.",
+      "Demonstrates minimal understanding of the geologic time scale.",
+      "Demonstrates a basic understanding of the geologic time scale, but with significant gaps.",
+      "Demonstrates a clear understanding of the geologic time scale and its use in organizing Earth's history.",
+      "Demonstrates a strong understanding of the geologic time scale, including its relative nature.",
+      "Demonstrates a comprehensive understanding of the geologic time scale, its construction, and its significance in understanding Earth's history."
+    ]
+  ]
+}

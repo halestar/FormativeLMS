@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Equation Solving Steps",
+    "Justification of Solution Method",
+    "Accuracy of Solutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of the steps involved in solving equations.",
+      "Identifies some steps in solving equations but cannot explain the reasoning behind them.",
+      "Explains some steps in solving equations with limited understanding of the underlying mathematical principles.",
+      "Explains most steps in solving equations, demonstrating a basic understanding of the mathematical principles involved.",
+      "Clearly explains each step in solving equations, showing a strong understanding of the mathematical principles and their logical connections.",
+      "Masterfully explains each step in solving equations, demonstrating a comprehensive understanding of the underlying mathematical principles, their logical connections, and potential alternative approaches."
+    ],
+    [
+      "Unable to provide any justification for the solution method used.",
+      "Attempts to justify the solution method but the argument is unclear or incomplete.",
+      "Provides a limited justification for the solution method with some flaws in reasoning.",
+      "Justifies the solution method with a viable argument, demonstrating a good understanding of mathematical reasoning.",
+      "Constructs a strong and well-reasoned argument to justify the solution method, demonstrating a deep understanding of mathematical principles.",
+      "Presents a compelling and insightful argument to justify the solution method, demonstrating a sophisticated understanding of mathematical principles and their implications."
+    ],
+    [
+      "Unable to solve the equation or arrives at an incorrect solution with no valid steps shown.",
+      "Attempts to solve the equation but makes significant errors in the process, leading to an incorrect solution.",
+      "Solves the equation with some errors, demonstrating a partial understanding of the solution process.",
+      "Solves the equation correctly with minor errors or omissions in the steps shown.",
+      "Solves the equation correctly and shows all steps clearly and accurately.",
+      "Solves the equation correctly, shows all steps clearly and accurately, and provides alternative solution methods or insights."
+    ]
+  ]
+}

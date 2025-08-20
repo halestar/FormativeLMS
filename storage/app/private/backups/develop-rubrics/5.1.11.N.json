@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Physical Benefits",
+    "Identification of Academic Benefits",
+    "Identification of Mental Benefits",
+    "Identification of Social Benefits"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No physical benefits are identified or the explanation is completely irrelevant.",
+      "Identifies one physical benefit inaccurately or with minimal understanding.",
+      "Identifies one physical benefit with a basic understanding.",
+      "Identifies two physical benefits with reasonable explanations.",
+      "Identifies three physical benefits and provides clear explanations.",
+      "Identifies multiple physical benefits, provides comprehensive explanations, and demonstrates a thorough understanding of their impact."
+    ],
+    [
+      "No academic benefits are identified or the explanation is completely irrelevant.",
+      "Identifies one academic benefit inaccurately or with minimal understanding.",
+      "Identifies one academic benefit with a basic understanding.",
+      "Identifies two academic benefits with reasonable explanations.",
+      "Identifies three academic benefits and provides clear explanations.",
+      "Identifies multiple academic benefits, provides comprehensive explanations, and demonstrates a thorough understanding of their impact on school performance."
+    ],
+    [
+      "No mental benefits are identified or the explanation is completely irrelevant.",
+      "Identifies one mental benefit inaccurately or with minimal understanding.",
+      "Identifies one mental benefit with a basic understanding.",
+      "Identifies two mental benefits with reasonable explanations.",
+      "Identifies three mental benefits and provides clear explanations.",
+      "Identifies multiple mental benefits, provides comprehensive explanations, and demonstrates a thorough understanding of the psychological impact."
+    ],
+    [
+      "No social benefits are identified or the explanation is completely irrelevant.",
+      "Identifies one social benefit inaccurately or with minimal understanding.",
+      "Identifies one social benefit with a basic understanding.",
+      "Identifies two social benefits with reasonable explanations.",
+      "Identifies three social benefits and provides clear explanations.",
+      "Identifies multiple social benefits, provides comprehensive explanations, and demonstrates a thorough understanding of their impact on social interactions and relationships."
+    ]
+  ]
+}

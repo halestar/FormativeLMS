@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model",
+    "Explanation of Lunar Phases",
+    "Explanation of Eclipses",
+    "Explanation of Seasons"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is completely inaccurate and does not represent the Earth-sun-moon system.",
+      "The model contains significant inaccuracies, showing a limited understanding of the Earth-sun-moon system.",
+      "The model has some inaccuracies but represents the basic components of the Earth-sun-moon system.",
+      "The model is mostly accurate, with minor errors that do not significantly impact understanding.",
+      "The model is accurate and clearly represents the Earth-sun-moon system with all key components correctly placed and labeled.",
+      "The model is exceptionally accurate, detailed, and demonstrates a comprehensive understanding of the Earth-sun-moon system, including relative sizes and distances."
+    ],
+    [
+      "The explanation of lunar phases is missing or completely incorrect.",
+      "The explanation shows a limited understanding of lunar phases and their causes.",
+      "The explanation identifies some lunar phases but does not fully explain their cyclical nature.",
+      "The explanation accurately describes the cyclical pattern of lunar phases but lacks detail.",
+      "The explanation clearly and accurately describes the cyclical pattern of lunar phases and relates it to the relative positions of the Earth, sun, and moon.",
+      "The explanation is thorough, accurate, and provides a detailed understanding of why lunar phases occur, including diagrams or examples to enhance clarity."
+    ],
+    [
+      "The explanation of solar and lunar eclipses is missing or completely incorrect.",
+      "The explanation shows a limited understanding of eclipses and their causes.",
+      "The explanation identifies solar and lunar eclipses but does not fully explain the conditions required for them to occur.",
+      "The explanation accurately describes solar and lunar eclipses but lacks detail about alignment and shadows.",
+      "The explanation clearly and accurately describes solar and lunar eclipses, explaining the necessary alignment of the Earth, sun, and moon, and the formation of shadows.",
+      "The explanation is thorough, accurate, and demonstrates a deep understanding of why eclipses occur, including different types of eclipses (e.g., partial, total) and their relative frequency."
+    ],
+    [
+      "The explanation of the seasons is missing or completely incorrect.",
+      "The explanation shows a limited understanding of seasons and their causes.",
+      "The explanation attempts to explain the seasons but does not correctly relate them to Earth's tilt and orbit.",
+      "The explanation accurately describes the seasons but lacks detail about the differential intensity of sunlight.",
+      "The explanation clearly and accurately describes the seasons, explaining the role of Earth's tilt and its orbit around the sun in creating variations in sunlight intensity.",
+      "The explanation is thorough, accurate, and provides a detailed understanding of why seasons occur, including diagrams or examples to show the angle of sunlight and its effect on different hemispheres."
+    ]
+  ]
+}

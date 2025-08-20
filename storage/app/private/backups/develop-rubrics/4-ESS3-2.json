@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Natural Hazards",
+    "Solution Generation",
+    "Comparison of Solutions",
+    "Consideration of Constraints",
+    "Application of Scientific Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of natural hazards and their impact on humans is demonstrated.",
+      "Demonstrates a minimal understanding of natural hazards. Fails to identify specific impacts on humans.",
+      "Demonstrates a basic understanding of natural hazards and identifies one or two general impacts on humans.",
+      "Demonstrates a clear understanding of natural hazards and provides several specific examples of their impacts on humans.",
+      "Demonstrates a comprehensive understanding of natural hazards, including the complexities of their impacts on various human populations and environments.",
+      "Demonstrates an insightful and nuanced understanding of natural hazards, including long-term and cascading impacts. Connects understanding to real-world scenarios and case studies."
+    ],
+    [
+      "No solutions are proposed.",
+      "Proposes a solution that is unrealistic or unsafe.",
+      "Proposes one solution that is relevant but lacks detail or feasibility.",
+      "Generates multiple solutions with some consideration of feasibility and potential impact.",
+      "Generates multiple well-thought-out solutions that are feasible, and provides a clear rationale for their potential effectiveness.",
+      "Generates innovative and comprehensive solutions, thoroughly analyzing their feasibility, potential impacts, and limitations. Considers multiple perspectives and stakeholders."
+    ],
+    [
+      "No attempt to compare solutions.",
+      "Attempts to compare solutions with no specific criteria provided.",
+      "Compares solutions using one basic criterion (e.g., cost).",
+      "Compares solutions using multiple relevant criteria (e.g., cost, effectiveness, environmental impact).",
+      "Compares solutions thoroughly, weighing the pros and cons of each based on well-defined criteria and constraints.",
+      "Compares solutions with a sophisticated understanding of trade-offs, uncertainties, and ethical considerations. Justifies the optimal solution with a compelling and evidence-based argument."
+    ],
+    [
+      "Fails to acknowledge any constraints (e.g., resources, technology, societal impact).",
+      "Acknowledges constraints but does not address them in the solution design.",
+      "Attempts to address constraints but demonstrates limited understanding of their implications.",
+      "Adequately addresses major constraints and considers their impact on the feasibility and effectiveness of the proposed solutions.",
+      "Demonstrates a comprehensive understanding of relevant constraints and incorporates them thoughtfully into the design and comparison of solutions.",
+      "Demonstrates an exceptional ability to innovate within constraints, identifying creative solutions that balance competing demands and maximize positive outcomes."
+    ],
+    [
+      "Does not apply any scientific principles to support solutions.",
+      "Applies scientific principles inaccurately or irrelevantly.",
+      "Applies basic scientific principles with limited explanation.",
+      "Applies relevant scientific principles correctly to support solutions and provides a reasonable explanation.",
+      "Applies scientific principles effectively to justify solutions, providing clear and accurate explanations with supporting evidence.",
+      "Demonstrates a deep and integrated understanding of scientific principles, using them to develop innovative solutions and predict their long-term impacts with precision."
+    ]
+  ]
+}

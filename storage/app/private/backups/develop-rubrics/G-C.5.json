@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Arc Length and Proportionality: Demonstrates understanding of the relationship between arc length, radius, and angle measure in radians and degrees.",
+    "Application of the Area of a Sector Formula: Accurately applies the formula for the area of a sector to solve mathematical problems.",
+    "Conversion Between Degrees and Radians: Converts accurately and efficiently between degree and radian measures."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of arc length or its relationship to radius and angle is demonstrated.",
+      "Struggles to identify arc length or its relationship to radius and angle measure.",
+      "Can identify arc length but has difficulty explaining its relationship to radius and angle measure. Fails to convert between radians and degrees.",
+      "Understands arc length and its relationship to radius and angle measure but makes errors in calculations or explanations. Can convert between radians and degrees with some errors.",
+      "Clearly understands arc length and its relationship to radius and angle measure. Explains the concept accurately and performs calculations with minor errors. Can convert between radians and degrees accurately.",
+      "Demonstrates a comprehensive understanding of arc length, radian measure, and their proportional relationship. Explains clearly and accurately and performs calculations flawlessly. Demonstrates how similarity can be used to prove proportionality."
+    ],
+    [
+      "Cannot recall or apply the formula for the area of a sector.",
+      "Attempts to use the formula for the area of a sector but is unsuccessful due to fundamental errors.",
+      "Can recall the formula for the area of a sector but struggles with applying it correctly. Shows issues isolating variables.",
+      "Applies the formula for the area of a sector with some errors in calculation or substitution.",
+      "Accurately applies the formula for the area of a sector in most problems with only minor errors.",
+      "Consistently and accurately applies the formula for the area of a sector, demonstrating a solid understanding of its components and how it relates to different parts of the circle."
+    ],
+    [
+      "Does not attempt to convert between degrees and radians or demonstrates no understanding of the conversion process.",
+      "Attempts to convert but shows significant errors and misunderstandings of the radian measure.",
+      "Can perform basic conversions with prompting or assistance, but makes frequent errors. Demonstrates shaky understanding of how to do conversions.",
+      "Converts between degrees and radians with occasional errors, demonstrating a general understanding of the process.",
+      "Converts between degrees and radians accurately in most cases, showing a good understanding of the relationship between the two units.",
+      "Demonstrates effortless and accurate conversion between degrees and radians, explaining the underlying principles with clarity."
+    ]
+  ]
+}

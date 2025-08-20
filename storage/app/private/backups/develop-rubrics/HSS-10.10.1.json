@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Geopolitical Challenges",
+    "Understanding of Cultural Challenges",
+    "Understanding of Military Challenges",
+    "Understanding of Economic Challenges",
+    "Understanding of International Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of geopolitical challenges in the selected regions.",
+      "Demonstrates a minimal understanding of geopolitical challenges, with significant inaccuracies or omissions.",
+      "Identifies basic geopolitical challenges but lacks depth and connection to specific regions.",
+      "Explains several geopolitical challenges with reasonable accuracy and connects them to specific regions, but lacks comprehensive analysis.",
+      "Analyzes geopolitical challenges with strong accuracy, providing specific examples and showing a good understanding of their impact on the regions.",
+      "Provides a comprehensive and insightful analysis of geopolitical challenges, demonstrating a deep understanding of their complexities and impacts, and offering nuanced perspectives."
+    ],
+    [
+      "Demonstrates no understanding of cultural challenges in the selected regions.",
+      "Demonstrates a minimal understanding of cultural challenges, with significant inaccuracies or omissions.",
+      "Identifies basic cultural challenges but lacks depth and connection to specific regions.",
+      "Explains several cultural challenges with reasonable accuracy and connects them to specific regions, but lacks comprehensive analysis.",
+      "Analyzes cultural challenges with strong accuracy, providing specific examples and showing a good understanding of their impact on the regions.",
+      "Provides a comprehensive and insightful analysis of cultural challenges, demonstrating a deep understanding of their complexities and impacts, and offering nuanced perspectives."
+    ],
+    [
+      "Demonstrates no understanding of military challenges in the selected regions.",
+      "Demonstrates a minimal understanding of military challenges, with significant inaccuracies or omissions.",
+      "Identifies basic military challenges but lacks depth and connection to specific regions.",
+      "Explains several military challenges with reasonable accuracy and connects them to specific regions, but lacks comprehensive analysis.",
+      "Analyzes military challenges with strong accuracy, providing specific examples and showing a good understanding of their impact on the regions.",
+      "Provides a comprehensive and insightful analysis of military challenges, demonstrating a deep understanding of their complexities and impacts, and offering nuanced perspectives."
+    ],
+    [
+      "Demonstrates no understanding of economic challenges in the selected regions.",
+      "Demonstrates a minimal understanding of economic challenges, with significant inaccuracies or omissions.",
+      "Identifies basic economic challenges but lacks depth and connection to specific regions.",
+      "Explains several economic challenges with reasonable accuracy and connects them to specific regions, but lacks comprehensive analysis.",
+      "Analyzes economic challenges with strong accuracy, providing specific examples and showing a good understanding of their impact on the regions.",
+      "Provides a comprehensive and insightful analysis of economic challenges, demonstrating a deep understanding of their complexities and impacts, and offering nuanced perspectives."
+    ],
+    [
+      "Demonstrates no understanding of international relationships related to the selected regions.",
+      "Demonstrates a minimal understanding of international relationships, with significant inaccuracies or omissions.",
+      "Identifies basic international relationships but lacks depth and connection to specific regions.",
+      "Explains several international relationships with reasonable accuracy and connects them to specific regions, but lacks comprehensive analysis.",
+      "Analyzes international relationships with strong accuracy, providing specific examples and showing a good understanding of their impact on the regions.",
+      "Provides a comprehensive and insightful analysis of international relationships, demonstrating a deep understanding of their complexities and impacts, and offering nuanced perspectives."
+    ]
+  ]
+}

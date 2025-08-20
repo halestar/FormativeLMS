@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Algebraic Manipulation",
+    "Understanding of Mathematical Relationships",
+    "Clarity and Organization of Work"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of algebraic manipulation; unable to isolate the target variable.",
+      "Attempts to rearrange the formula but makes significant errors in algebraic manipulation, leading to an incorrect result.",
+      "Rearranges the formula with some errors in algebraic manipulation, indicating a partial understanding of the process.",
+      "Rearranges the formula with minor errors, demonstrating a general understanding of algebraic manipulation.",
+      "Rearranges the formula correctly using appropriate algebraic manipulation, showing a good understanding of the process.",
+      "Rearranges the formula correctly and efficiently, demonstrating a thorough understanding of algebraic manipulation and can explain the reasoning behind each step."
+    ],
+    [
+      "Shows no understanding of the relationship between variables in the formula.",
+      "Demonstrates a limited understanding of the relationships between variables, leading to inappropriate rearrangements.",
+      "Shows a basic understanding of the relationships between variables but struggles to apply this understanding consistently.",
+      "Understands the relationships between variables and generally applies this understanding correctly when rearranging the formula.",
+      "Demonstrates a strong understanding of the relationships between variables and uses this understanding to effectively rearrange the formula.",
+      "Exhibits a deep understanding of the mathematical relationships and can explain how the rearrangement highlights the quantity of interest and its relationship to other variables."
+    ],
+    [
+      "Work is disorganized and difficult to follow; steps are unclear or missing.",
+      "Work lacks organization, making it difficult to follow the steps taken to rearrange the formula.",
+      "Work is somewhat organized, but some steps may be unclear or missing.",
+      "Work is generally organized and easy to follow, with most steps clearly shown.",
+      "Work is well-organized and easy to follow, with clear and logical steps shown.",
+      "Work is exceptionally clear, organized, and presented in a logical manner, making it easy to understand the process and solution."
+    ]
+  ]
+}

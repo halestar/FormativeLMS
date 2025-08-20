@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Reliable Sources",
+    "Identification of Unreliable Sources",
+    "Differentiation Between Source Types"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any reliable sources of information about puberty.",
+      "Student can identify one reliable source but struggles to explain why it is reliable.",
+      "Student can identify two reliable sources but provides limited explanations of their reliability.",
+      "Student can identify three reliable sources and provides adequate explanations of their reliability.",
+      "Student can identify four reliable sources and provides good explanations of their reliability, including specific criteria.",
+      "Student can identify multiple reliable sources and provides thorough, well-reasoned explanations of their reliability, including specific criteria and examples."
+    ],
+    [
+      "Student cannot identify any unreliable sources of information about puberty.",
+      "Student can identify one unreliable source but struggles to explain why it is unreliable.",
+      "Student can identify two unreliable sources but provides limited explanations of their unreliability.",
+      "Student can identify three unreliable sources and provides adequate explanations of their unreliability.",
+      "Student can identify four unreliable sources and provides good explanations of their unreliability, including specific examples.",
+      "Student can identify multiple unreliable sources and provides thorough, well-reasoned explanations of their unreliability, including specific examples and potential consequences of using such sources."
+    ],
+    [
+      "Student demonstrates no understanding of the differences between reliable and unreliable sources.",
+      "Student shows a limited ability to differentiate between source types, with significant confusion.",
+      "Student can identify some differences between source types but struggles to articulate them clearly.",
+      "Student can differentiate between source types and provides basic explanations for their choices.",
+      "Student can clearly differentiate between source types, providing detailed explanations supported by evidence.",
+      "Student demonstrates a sophisticated understanding of the nuances between reliable and unreliable sources, providing insightful analysis and well-supported arguments."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Shape Construction",
+    "Use of Materials and Tools",
+    "Application to Real-World Modeling"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student's attempt to construct or draw the shape is completely inaccurate or missing.",
+      "The student's construction or drawing of the shape contains significant inaccuracies and does not resemble the intended shape.",
+      "The student's construction or drawing contains some inaccuracies in angles, sides, or overall form, but the general shape is recognizable.",
+      "The student generally constructs or draws the shape accurately, with only minor errors in proportion or detail.",
+      "The student accurately constructs or draws the shape, demonstrating a good understanding of its properties and characteristics.",
+      "The student expertly constructs or draws the shape with precision and demonstrates a thorough understanding of its properties, including accurate angles, side lengths, and overall form."
+    ],
+    [
+      "The student does not use materials or tools effectively, or the attempt is missing entirely.",
+      "The student struggles to use the materials or tools provided, resulting in a poorly constructed or drawn shape.",
+      "The student uses materials or tools with limited effectiveness, showing some understanding but lacking precision.",
+      "The student uses materials or tools effectively to construct or draw the shape, demonstrating basic competency.",
+      "The student uses materials or tools skillfully, resulting in a well-constructed or drawn shape with attention to detail.",
+      "The student expertly uses materials and tools with precision and finesse to create a flawless representation of the shape, demonstrating mastery."
+    ],
+    [
+      "The student fails to connect the shape construction or drawing to real-world examples or modeling.",
+      "The student struggles to relate the shape construction or drawing to real-world examples, showing minimal understanding of its practical applications.",
+      "The student identifies a basic real-world example related to the shape but does not elaborate on its relevance or application.",
+      "The student provides a relevant real-world example and explains how the constructed or drawn shape models or represents it.",
+      "The student provides a detailed and accurate explanation of how the constructed or drawn shape models or represents a real-world object or structure.",
+      "The student provides insightful and nuanced examples of how the constructed or drawn shape models or represents complex real-world objects or structures, demonstrating a deep understanding of geometric principles."
+    ]
+  ]
+}

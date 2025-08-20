@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Clarity of Thesis and Organization",
+    "Development of Topic with Relevant Information",
+    "Use of Transitions and Cohesion",
+    "Precise Language and Vocabulary",
+    "Formal Style and Tone",
+    "Concluding Statement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The thesis is missing or unclear. The organization is nonexistent, and the structure is confusing.",
+      "The thesis is vague and difficult to identify. The organization is weak, with little to no discernible structure.",
+      "The thesis is present but lacks focus. The organization is basic but may have some inconsistencies.",
+      "The thesis is clear and identifiable. The organization is logical and easy to follow, with a clear structure.",
+      "The thesis is well-defined and clearly states the main point. The organization is strong, with a logical flow of ideas.",
+      "The thesis is exceptionally clear, insightful, and effectively introduces the topic. The organization is seamless, sophisticated, and enhances the argument."
+    ],
+    [
+      "The topic is not developed, and there is no relevant information provided.",
+      "The topic is underdeveloped, with minimal relevant information.",
+      "The topic is somewhat developed, but the information is limited or not always relevant.",
+      "The topic is developed with relevant facts, details, and examples.",
+      "The topic is well-developed with specific and relevant information that supports the thesis effectively.",
+      "The topic is comprehensively developed with insightful and compelling evidence, demonstrating a deep understanding of the subject matter."
+    ],
+    [
+      "There are no transitions, and the writing lacks cohesion.",
+      "Transitions are minimal, and the writing lacks cohesion.",
+      "Transitions are present but may be weak or ineffective. Cohesion is inconsistent.",
+      "Transitions are used appropriately to connect ideas and create cohesion.",
+      "Transitions are used skillfully to enhance the flow of ideas and create strong cohesion.",
+      "Transitions are seamless and sophisticated, creating a fluid and compelling narrative with exceptional cohesion."
+    ],
+    [
+      "The language is imprecise and inappropriate, with no domain-specific vocabulary.",
+      "The language is vague and lacks precision, with limited domain-specific vocabulary.",
+      "The language is generally precise, with some attempts at using domain-specific vocabulary.",
+      "The language is precise and appropriate, with effective use of domain-specific vocabulary.",
+      "The language is sophisticated and precise, demonstrating a strong command of domain-specific vocabulary.",
+      "The language is eloquent and precise, using domain-specific vocabulary with finesse and enhancing the overall impact of the writing."
+    ],
+    [
+      "The writing lacks a formal style and tone.",
+      "The writing has an inconsistent or inappropriate style and tone.",
+      "The writing attempts a formal style but may have inconsistencies.",
+      "The writing maintains a consistent and appropriate formal style and tone.",
+      "The writing demonstrates a strong command of formal style and tone, enhancing the credibility of the work.",
+      "The writing exhibits a sophisticated and polished formal style and tone, showcasing a mastery of academic writing conventions."
+    ],
+    [
+      "There is no concluding statement.",
+      "The concluding statement is weak or missing.",
+      "The concluding statement is present but does not effectively summarize the information or support the explanation.",
+      "The concluding statement summarizes the information and supports the explanation presented.",
+      "The concluding statement effectively summarizes the information, supports the explanation, and provides a clear sense of closure.",
+      "The concluding statement is insightful, memorable, and provides a thought-provoking synthesis of the information presented, leaving a lasting impression on the reader."
+    ]
+  ]
+}

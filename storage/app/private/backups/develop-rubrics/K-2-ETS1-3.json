@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Collection and Organization",
+    "Comparison of Strengths and Weaknesses",
+    "Analysis and Interpretation of Test Results",
+    "Use of Mathematical and Digital Tools"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No data is collected or the collected data is irrelevant to the problem.",
+      "Data is collected but is poorly organized and difficult to interpret. Limited relevance to the problem.",
+      "Data is collected and organized, but some inconsistencies or gaps are present. Interpretation is basic.",
+      "Data is collected, organized, and presented in a clear format (e.g., graph, table). Interpretation is generally accurate.",
+      "Data is collected thoroughly, organized effectively, and presented clearly with accurate interpretation and identification of trends.",
+      "Data collection is comprehensive and meticulously organized. Presentation is exceptionally clear, with insightful interpretation, trend analysis, and consideration of potential sources of error."
+    ],
+    [
+      "No attempt to compare the strengths and weaknesses of the two designs.",
+      "A superficial attempt to compare designs, lacking specific details or justification.",
+      "Basic comparison of designs, identifying a few strengths and weaknesses, but lacking depth.",
+      "Clear comparison of designs, identifying several key strengths and weaknesses with some justification.",
+      "Detailed comparison of designs, thoroughly analyzing strengths and weaknesses with clear justification based on data.",
+      "Comprehensive and insightful comparison of designs, demonstrating a deep understanding of the strengths and weaknesses of each with well-supported justifications and consideration of design trade-offs."
+    ],
+    [
+      "Unable to analyze the test results or draw any meaningful conclusions.",
+      "Attempts to analyze test results are flawed or incomplete, with inaccurate conclusions.",
+      "Basic analysis of test results with limited interpretation or connection to the design performance.",
+      "Sound analysis of test results, with reasonable interpretations about design performance.",
+      "Thorough analysis of test results, drawing insightful interpretations about design performance and potential improvements.",
+      "Exceptional analysis of test results, providing a comprehensive interpretation of design performance, including unexpected results, and offering innovative suggestions for improvement with clear reasoning."
+    ],
+    [
+      "No use of mathematical or digital tools to support the analysis.",
+      "Incorrect or ineffective use of mathematical or digital tools.",
+      "Basic use of mathematical or digital tools, but with limited impact on the analysis.",
+      "Appropriate use of mathematical or digital tools to enhance the analysis and presentation of data.",
+      "Effective and strategic use of mathematical or digital tools to analyze and present data with clarity and precision.",
+      "Sophisticated and innovative use of mathematical and digital tools to provide in-depth analysis and compelling presentation of data, demonstrating a clear understanding of their capabilities."
+    ]
+  ]
+}

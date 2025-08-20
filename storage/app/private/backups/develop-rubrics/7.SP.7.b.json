@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to develop a probability model based on observed frequencies.",
+    "Ability to use the probability model to find probabilities of events.",
+    "Ability to compare probabilities from the model to observed frequencies and explain discrepancies."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to create a probability model or the attempt shows no understanding of observed frequencies.",
+      "Attempts to create a probability model, but it is inaccurate and doesn't reflect the observed frequencies.",
+      "Creates a basic probability model that partially reflects observed frequencies but contains significant errors.",
+      "Develops a probability model that mostly aligns with observed frequencies, with minor inaccuracies.",
+      "Creates a well-developed probability model that accurately reflects observed frequencies and demonstrates a good understanding of the data.",
+      "Develops a highly accurate and insightful probability model, demonstrating a deep understanding of the observed frequencies and potential biases."
+    ],
+    [
+      "Unable to use the developed model to determine probabilities of events.",
+      "Attempts to use the model, but calculates probabilities incorrectly or misunderstands the model's application.",
+      "Calculates some probabilities correctly using the model, but makes frequent errors or struggles with more complex scenarios.",
+      "Accurately calculates probabilities for most events using the model, with only occasional errors.",
+      "Consistently and accurately calculates probabilities for a variety of events using the developed model.",
+      "Demonstrates a sophisticated understanding of how to use the probability model to accurately predict probabilities and analyze complex scenarios."
+    ],
+    [
+      "Does not compare model probabilities to observed frequencies or provide any explanation for discrepancies.",
+      "Attempts to compare model probabilities and observed frequencies but does not identify discrepancies or provide an explanation.",
+      "Identifies some discrepancies between model probabilities and observed frequencies, but the explanation is vague or inaccurate.",
+      "Clearly identifies discrepancies between model probabilities and observed frequencies and provides a plausible explanation.",
+      "Provides a clear and insightful comparison of model probabilities and observed frequencies, offering well-reasoned explanations for any discrepancies.",
+      "Demonstrates a deep understanding of the relationship between model probabilities and observed frequencies, providing comprehensive and insightful explanations for discrepancies, including potential sources of error or bias."
+    ]
+  ]
+}

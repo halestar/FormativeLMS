@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Demonstrates understanding of positive food choices.",
+    "Demonstrates understanding of positive physical activity choices.",
+    "Offers support and encouragement to peers in making healthy choices.",
+    "Demonstrates an ability to tailor support to meet individual needs."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of positive food choices.",
+      "Struggles to identify even basic positive food choices.",
+      "Identifies some positive food choices but lacks detail.",
+      "Consistently identifies positive food choices, with some explanation.",
+      "Clearly identifies and explains positive food choices with detail and examples.",
+      "Provides insightful and comprehensive understanding of positive food choices, going beyond basic knowledge."
+    ],
+    [
+      "Does not demonstrate any understanding of positive physical activity choices.",
+      "Struggles to identify even basic positive physical activity choices.",
+      "Identifies some positive physical activity choices but lacks detail.",
+      "Consistently identifies positive physical activity choices, with some explanation.",
+      "Clearly identifies and explains positive physical activity choices with detail and examples.",
+      "Provides insightful and comprehensive understanding of positive physical activity choices, going beyond basic knowledge."
+    ],
+    [
+      "Does not offer any support or encouragement to peers.",
+      "Offers minimal support or encouragement, lacking enthusiasm or sincerity.",
+      "Offers some support or encouragement, but inconsistently or without clear intention.",
+      "Consistently offers support and encouragement, demonstrating genuine care for peers' well-being.",
+      "Actively seeks opportunities to support and encourage peers, tailoring their approach to individual needs.",
+      "Serves as a role model for healthy choices and inspires peers to make positive changes, creating a supportive environment."
+    ],
+    [
+      "Support is not tailored to others' needs.",
+      "Provides generic support without considering individual differences.",
+      "Attempts to tailor support but struggles to understand individual needs.",
+      "Successfully tailors support to meet most individual needs, showing empathy and understanding.",
+      "Demonstrates a strong ability to tailor support to diverse individual needs, providing personalized advice and encouragement.",
+      "Expertly tailors support to meet complex individual needs, creating a safe and empowering environment for positive change."
+    ]
+  ]
+}

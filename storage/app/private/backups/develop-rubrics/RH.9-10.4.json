@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding of Vocabulary in Context",
+    "Application of Vocabulary Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of words and phrases as used in the text; unable to identify any vocabulary related to political, social, or economic aspects of history\/social science.",
+      "Demonstrates minimal understanding of words and phrases; struggles to identify vocabulary related to political, social, or economic aspects with significant inaccuracies.",
+      "Demonstrates partial understanding of words and phrases; identifies some vocabulary related to political, social, or economic aspects, but with some inaccuracies or incomplete understanding.",
+      "Demonstrates a satisfactory understanding of most words and phrases; identifies vocabulary related to political, social, or economic aspects and generally uses them appropriately, with occasional minor errors.",
+      "Demonstrates a strong understanding of words and phrases; accurately identifies and uses vocabulary related to political, social, or economic aspects, showing a clear grasp of their meanings within the text.",
+      "Demonstrates a comprehensive understanding of words and phrases; expertly identifies and uses vocabulary related to political, social, or economic aspects, showing nuanced comprehension and application within the text's context."
+    ],
+    [
+      "Unable to apply vocabulary knowledge to explain or analyze the text.",
+      "Attempts to apply vocabulary knowledge, but application is flawed or irrelevant.",
+      "Limited application of vocabulary knowledge; explanation or analysis is superficial.",
+      "Satisfactorily applies vocabulary knowledge to explain or analyze the text; explanation is generally accurate but lacks depth.",
+      "Strong application of vocabulary knowledge; explanation or analysis is insightful and well-supported by textual evidence.",
+      "Expertly applies vocabulary knowledge to provide a thorough and nuanced explanation or analysis of the text, demonstrating sophisticated understanding."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Conflict Resolution Steps",
+    "Application of Conflict Resolution Steps",
+    "Understanding of the Importance of Conflict Resolution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any steps of conflict resolution.",
+      "The student identifies one step of conflict resolution incorrectly.",
+      "The student identifies one step of conflict resolution correctly.",
+      "The student identifies two steps of conflict resolution correctly.",
+      "The student identifies three steps of conflict resolution correctly.",
+      "The student correctly identifies all key steps of conflict resolution: (1) Define the source of the conflict. (2) Look beyond the incident. (3) Request solutions. (4) Identify solutions both parties can support. (5) Agreement."
+    ],
+    [
+      "The student does not demonstrate the ability to apply any conflict resolution steps.",
+      "The student attempts to apply one conflict resolution step but does so incorrectly.",
+      "The student applies one conflict resolution step correctly.",
+      "The student applies two conflict resolution steps correctly.",
+      "The student applies three conflict resolution steps correctly.",
+      "The student effectively applies all key steps of conflict resolution in a given scenario."
+    ],
+    [
+      "The student does not express any understanding of the importance of conflict resolution.",
+      "The student minimally expresses the importance of conflict resolution with little justification.",
+      "The student expresses the importance of conflict resolution with some justification.",
+      "The student clearly expresses the importance of conflict resolution with reasonable justification.",
+      "The student thoroughly explains the importance of conflict resolution with strong justification.",
+      "The student demonstrates a deep understanding of the importance of conflict resolution, including its benefits for relationships and overall well-being."
+    ]
+  ]
+}

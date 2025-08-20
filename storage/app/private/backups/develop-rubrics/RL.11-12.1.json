@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Explicit Textual Evidence",
+    "Quality of Inferences Drawn",
+    "Identification of Uncertainties in the Text"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited or the evidence provided is completely irrelevant to the analysis.",
+      "The textual evidence cited is minimal, inaccurate, or does not clearly support the analysis.",
+      "Some textual evidence is cited, but it is weakly connected to the analysis or contains minor inaccuracies.",
+      "Relevant textual evidence is cited to support the analysis, but the connection could be stronger or more clearly explained.",
+      "Strong and relevant textual evidence is cited to effectively support the analysis of explicit meanings in the text.",
+      "Exemplary use of textual evidence that precisely and comprehensively supports the analysis of explicit meanings, demonstrating a deep understanding of the text."
+    ],
+    [
+      "No inferences are drawn, or the inferences made are illogical and unsupported by the text.",
+      "Inferences are attempted but are vague, unsupported, or contradict the textual evidence.",
+      "Simple inferences are drawn, but they are not well-developed or fully supported by the text.",
+      "Reasonable inferences are drawn from the text, showing some understanding of implicit meanings.",
+      "Well-reasoned and insightful inferences are drawn, demonstrating a strong ability to interpret implicit meanings from textual evidence.",
+      "Sophisticated and nuanced inferences are drawn that reveal a comprehensive understanding of the text's implicit meanings, supported by compelling evidence."
+    ],
+    [
+      "Fails to identify any areas of uncertainty or ambiguity in the text.",
+      "Attempts to identify uncertainties, but the observations are superficial or not grounded in the text.",
+      "Identifies some areas of uncertainty, but the explanation lacks depth or specific textual support.",
+      "Recognizes and identifies specific instances where the text leaves matters uncertain, providing some explanation.",
+      "Clearly identifies and explains areas of uncertainty in the text, providing strong textual support and insightful analysis.",
+      "Masterfully identifies and analyzes complex uncertainties within the text, offering profound insights and demonstrating a comprehensive grasp of textual nuances."
+    ]
+  ]
+}

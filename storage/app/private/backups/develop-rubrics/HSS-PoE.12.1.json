@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Basic Economic Terms (e.g., supply, demand, scarcity, opportunity cost)",
+    "Application of Economic Reasoning (e.g., cost-benefit analysis, rational decision-making)",
+    "Ability to Differentiate Between Different Economic Systems (e.g. command economy, free market, mixed economy)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic economic terms.",
+      "Struggles to define or use basic economic terms; definitions are often incorrect.",
+      "Can define some basic economic terms but struggles to apply them in context.",
+      "Demonstrates a satisfactory understanding of basic economic terms and can apply them in simple scenarios.",
+      "Demonstrates a strong understanding of basic economic terms and can apply them effectively in most scenarios.",
+      "Demonstrates a comprehensive understanding of basic economic terms and can apply them effectively and insightfully in various complex scenarios."
+    ],
+    [
+      "Unable to apply any form of economic reasoning.",
+      "Attempts to apply economic reasoning, but application is flawed or irrelevant.",
+      "Can apply economic reasoning in a limited way, but struggles with more complex problems.",
+      "Applies economic reasoning adequately in straightforward situations.",
+      "Applies economic reasoning effectively in a variety of situations, including some complex ones.",
+      "Applies economic reasoning expertly, demonstrating nuanced understanding and insightful analysis in complex and novel situations."
+    ],
+    [
+      "Unable to distinguish between different types of economic systems.",
+      "Shows confusion about the differences between economic systems.",
+      "Can identify some characteristics of different economic systems, but cannot fully differentiate.",
+      "Can generally differentiate between the main types of economic systems.",
+      "Clearly and accurately differentiates between types of economic systems, pointing out key features.",
+      "Expertly differentiates between the types of economic systems and the advantages and disadvantages of each."
+    ]
+  ]
+}

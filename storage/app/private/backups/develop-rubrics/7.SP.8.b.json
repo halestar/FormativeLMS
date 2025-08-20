@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Representation of Sample Spaces",
+    "Calculating Probabilities of Compound Events",
+    "Identification of Outcomes for Events Described in Everyday Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to represent the sample space or representation is completely inaccurate.",
+      "Representation of sample space is attempted but contains significant errors and omissions.",
+      "Representation of sample space is partially correct but lacks detail or contains some inaccuracies.",
+      "Representation of sample space is mostly accurate but may have minor errors or omissions.",
+      "Representation of sample space is accurate and includes most relevant outcomes.",
+      "Representation of sample space is comprehensive, accurate, and clearly organized using appropriate methods (lists, tables, tree diagrams)."
+    ],
+    [
+      "No attempt to calculate probabilities or calculations are completely incorrect.",
+      "Attempts to calculate probabilities, but demonstrates a fundamental misunderstanding of compound events.",
+      "Calculates probabilities with significant errors or only addresses simple compound events.",
+      "Calculates probabilities with some errors or omissions, struggles with more complex compound events.",
+      "Calculates probabilities accurately for most compound events, but may have minor errors in more complex scenarios.",
+      "Accurately calculates probabilities for a variety of compound events, demonstrating a strong understanding of probability models."
+    ],
+    [
+      "Unable to identify outcomes in the sample space for events described in everyday language.",
+      "Attempts to identify outcomes, but demonstrates a significant misunderstanding of the event.",
+      "Identifies some outcomes, but misses key components or includes incorrect outcomes.",
+      "Identifies most outcomes correctly, but may struggle with nuanced or complex descriptions.",
+      "Identifies outcomes accurately for most events described in everyday language.",
+      "Consistently and accurately identifies outcomes in the sample space for events described in everyday language, demonstrating clear understanding of the event's composition."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Angle Sum of Triangles",
+    "Understanding Exterior Angles of Triangles",
+    "Understanding Angles Formed by Parallel Lines and a Transversal",
+    "Applying Angle-Angle (AA) Criterion for Similarity of Triangles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of the angle sum property of triangles.",
+      "Shows limited understanding of the angle sum property, with significant errors.",
+      "Demonstrates partial understanding of the angle sum property but struggles to apply it correctly.",
+      "Accurately states the angle sum property and applies it in simple cases.",
+      "Applies the angle sum property effectively in various problems, including multi-step problems.",
+      "Provides insightful explanations and justifications for the angle sum property, applying it to complex geometric situations and novel problems."
+    ],
+    [
+      "Does not demonstrate understanding of exterior angles and their relationship to interior angles.",
+      "Shows limited understanding of exterior angles, with significant errors in identification and calculation.",
+      "Demonstrates partial understanding of exterior angles but struggles to apply the exterior angle theorem.",
+      "Accurately states the exterior angle theorem and applies it in simple cases.",
+      "Applies the exterior angle theorem effectively in various problems, including those involving algebraic expressions.",
+      "Provides insightful explanations and justifications for the exterior angle theorem, applying it to complex geometric situations and providing proofs."
+    ],
+    [
+      "Does not demonstrate understanding of the relationships between angles formed by parallel lines and a transversal.",
+      "Shows limited understanding of the angle relationships, with significant errors in identification.",
+      "Demonstrates partial understanding of angle relationships but struggles to apply them correctly to find missing angles.",
+      "Accurately identifies and uses angle relationships (e.g., alternate interior, corresponding) in simple cases.",
+      "Applies angle relationships effectively in various problems, including those involving algebraic expressions and multi-step solutions.",
+      "Provides insightful explanations and justifications for angle relationships, applying them to complex geometric situations and providing logical arguments."
+    ],
+    [
+      "Does not demonstrate understanding of the AA criterion for triangle similarity.",
+      "Shows limited understanding of the AA criterion, with significant errors in identifying similar triangles.",
+      "Demonstrates partial understanding of the AA criterion but struggles to apply it correctly to prove similarity.",
+      "Accurately states the AA criterion and applies it in simple cases to determine if triangles are similar.",
+      "Applies the AA criterion effectively in various problems, including those involving overlapping triangles and algebraic expressions.",
+      "Provides insightful explanations and justifications for the AA criterion, applying it to complex geometric situations, constructing proofs, and explaining the implications of similarity."
+    ]
+  ]
+}

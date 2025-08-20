@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Representing Rational Numbers on a Number Line",
+    "Understanding Opposite Numbers",
+    "Applying the Opposite of the Opposite Concept"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot represent rational numbers, including negative numbers, on a number line.",
+      "Student struggles to represent rational numbers on a number line, particularly with negative numbers and fractions.",
+      "Student can represent positive rational numbers on a number line but has difficulty with negative numbers or fractions.",
+      "Student can accurately represent integers and simple fractions on a number line, including negative numbers.",
+      "Student accurately represents rational numbers, including fractions and decimals, on a number line.",
+      "Student accurately and precisely represents rational numbers on a number line and can explain the placement of each number."
+    ],
+    [
+      "Student does not understand the concept of opposite numbers and their relation to 0.",
+      "Student shows limited understanding of opposite numbers and their position relative to 0 on the number line.",
+      "Student can identify opposite numbers but struggles to explain their relationship to 0.",
+      "Student can identify opposite numbers and explain that they are on opposite sides of 0 but does not grasp the equal distance.",
+      "Student understands that opposite numbers are equidistant from 0 on the number line and can provide examples.",
+      "Student clearly explains the concept of opposite numbers, their equal distance from 0, and can apply this understanding in various contexts."
+    ],
+    [
+      "Student does not understand that the opposite of the opposite of a number is the number itself.",
+      "Student struggles to apply the concept that -(-x) = x.",
+      "Student can sometimes simplify -(-x) but makes frequent errors.",
+      "Student generally understands that -(-x) = x and can apply it to integers.",
+      "Student accurately simplifies expressions of the form -(-x) and explains the concept clearly.",
+      "Student fluently simplifies expressions of the form -(-x), explains the underlying concept, and applies it to more complex expressions."
+    ]
+  ]
+}

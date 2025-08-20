@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Plotted Points",
+    "Interpretation of Coordinate Values",
+    "Application to Real-World Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No points are plotted or points are plotted randomly without any relation to the problem.",
+      "Few points are plotted, but the accuracy is very poor, showing a lack of understanding of the coordinate plane.",
+      "Some points are plotted with limited accuracy. There are noticeable errors in determining the coordinates.",
+      "Most points are plotted with reasonable accuracy, with minor errors that do not significantly affect the interpretation.",
+      "All points are plotted accurately, demonstrating a solid understanding of coordinate values.",
+      "All points are plotted accurately and precisely, showing a mastery of the coordinate plane."
+    ],
+    [
+      "No interpretation is provided or the interpretation is completely irrelevant to the context.",
+      "Provides a vague or incorrect interpretation of the coordinate values, showing a basic misunderstanding.",
+      "Attempts to interpret the coordinate values but struggles to connect them to the real-world context.",
+      "Interprets most coordinate values correctly, relating them to the context of the problem.",
+      "Clearly and accurately interprets the coordinate values, providing meaningful insights into the situation.",
+      "Provides a comprehensive and insightful interpretation of the coordinate values, demonstrating a deep understanding of their significance in the real-world context."
+    ],
+    [
+      "No attempt to apply the graphing to solve the real-world problem.",
+      "Makes a minimal attempt to connect the graph to the problem, but lacks clarity and understanding.",
+      "Connects the graph to the real-world problem with some difficulty and limited success.",
+      "Uses the graph to solve the real-world problem with reasonable accuracy and clarity.",
+      "Effectively uses the graph to solve the real-world problem, demonstrating a clear understanding of its applications.",
+      "Masterfully applies the graphing to solve the real-world problem, providing a comprehensive and insightful solution."
+    ]
+  ]
+}

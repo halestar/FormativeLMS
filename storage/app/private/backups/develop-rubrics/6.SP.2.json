@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Center (Mean, Median, Mode)",
+    "Understanding of Spread (Range, IQR, Standard Deviation)",
+    "Description of Overall Shape (Symmetry, Skewness, Modality)",
+    "Application to Statistical Questions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of measures of center.",
+      "Student demonstrates minimal understanding of measures of center, with significant errors.",
+      "Student demonstrates some understanding of measures of center but struggles to apply them correctly.",
+      "Student accurately identifies and calculates measures of center but may not fully explain their significance.",
+      "Student accurately calculates and explains the significance of measures of center in describing the distribution.",
+      "Student demonstrates a comprehensive understanding of measures of center, explains their significance, and can compare\/contrast their uses."
+    ],
+    [
+      "Student does not demonstrate understanding of measures of spread.",
+      "Student demonstrates minimal understanding of measures of spread, with significant errors.",
+      "Student demonstrates some understanding of measures of spread but struggles to apply them correctly.",
+      "Student accurately identifies and calculates measures of spread but may not fully explain their significance.",
+      "Student accurately calculates and explains the significance of measures of spread in describing the distribution.",
+      "Student demonstrates a comprehensive understanding of measures of spread, explains their significance, and can compare\/contrast their uses."
+    ],
+    [
+      "Student does not attempt to describe the shape of the distribution.",
+      "Student's description of the shape is inaccurate or incomplete.",
+      "Student identifies some aspects of the shape but misses key features.",
+      "Student provides a generally accurate description of the shape, including symmetry\/skewness and modality.",
+      "Student provides a detailed and accurate description of the shape, including symmetry\/skewness, modality, and unusual features (outliers, gaps).",
+      "Student provides a sophisticated analysis of the shape, relating it to the context of the data and drawing meaningful conclusions."
+    ],
+    [
+      "Student cannot connect the data distribution to the statistical question.",
+      "Student struggles to connect the data distribution to the statistical question.",
+      "Student makes a superficial connection between the data distribution and the statistical question.",
+      "Student connects the center, spread, and shape of the distribution to the statistical question.",
+      "Student effectively uses the center, spread, and shape of the distribution to answer the statistical question.",
+      "Student thoroughly and insightfully uses the center, spread, and shape of the distribution to answer the statistical question, drawing well-supported conclusions."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Figures and Events",
+    "Understanding of Triumphs and Contributions",
+    "Historical Context and Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any of the listed figures or associated events.",
+      "Student can identify 1-2 figures but struggles to connect them to specific events or triumphs.",
+      "Student can identify 3-4 figures and briefly mention related events but lacks depth and accuracy.",
+      "Student accurately identifies most of the key figures and connects them to relevant events, demonstrating a basic understanding of their roles.",
+      "Student demonstrates a solid understanding of the key figures and events, providing accurate and detailed information about their triumphs and contributions.",
+      "Student demonstrates a comprehensive understanding of the key figures and events, providing insightful analysis of their triumphs and contributions, including historical context and significance."
+    ],
+    [
+      "Student demonstrates no understanding of the triumphs or contributions of the figures.",
+      "Student shows a limited understanding of the triumphs or contributions of the figures, with significant inaccuracies.",
+      "Student identifies some triumphs or contributions but struggles to explain their significance or impact.",
+      "Student accurately describes the triumphs and contributions of the figures, demonstrating a clear understanding of their importance.",
+      "Student provides a detailed explanation of the triumphs and contributions, analyzing their impact on American history and society.",
+      "Student provides a nuanced and insightful analysis of the triumphs and contributions, exploring their long-term significance and relevance to contemporary issues."
+    ],
+    [
+      "Student fails to provide any historical context or explain the significance of the figures or events.",
+      "Student provides minimal historical context and struggles to explain the significance of the figures or events.",
+      "Student attempts to provide historical context but lacks accuracy or depth in explaining the significance.",
+      "Student provides relevant historical context and explains the significance of the figures and events in a clear and coherent manner.",
+      "Student provides detailed historical context and analyzes the significance of the figures and events within a broader historical framework.",
+      "Student demonstrates a sophisticated understanding of the historical context and provides a nuanced analysis of the significance of the figures and events, considering multiple perspectives and interpretations."
+    ]
+  ]
+}

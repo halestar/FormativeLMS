@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Importance of Screenings: Demonstrates comprehension of why medical screenings are vital for maintaining reproductive health.",
+    "Knowledge of Specific Screenings: Demonstrates knowledge of specific screenings for breast, cervical, testicular, and prostate health.",
+    "Awareness of Other Relevant Testing: Shows awareness of other relevant medical testing necessary to maintain reproductive health."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any medical screenings or their importance.",
+      "Identifies at least one screening but struggles to explain its importance.",
+      "Identifies several screenings (breast, cervical, testicular, prostate) but provides limited explanation of their importance in maintaining reproductive health.",
+      "Identifies and adequately explains the importance of common medical screenings (breast, cervical, testicular, prostate) for reproductive health.",
+      "Clearly explains the importance of various medical screenings and provides specific reasons why they are crucial for maintaining reproductive health, including early detection and prevention.",
+      "Provides a comprehensive explanation of the importance of medical screenings, including specific examples and a detailed discussion of their role in maintaining reproductive health, including long-term health outcomes."
+    ],
+    [
+      "Shows no awareness of specific screenings for breast, cervical, testicular, and prostate health.",
+      "Names a few screenings but cannot associate them with the correct area of reproductive health.",
+      "Identifies screenings for at least two areas (breast, cervical, testicular, prostate) but lacks detail.",
+      "Accurately identifies common screenings for breast, cervical, testicular, and prostate health.",
+      "Demonstrates thorough knowledge of screenings for all areas, including the purpose and age-appropriateness of each.",
+      "Demonstrates expert knowledge of various screenings, including less common tests, and explains the nuances of each screening for different populations."
+    ],
+    [
+      "Shows no awareness of other relevant medical testing.",
+      "Mentions one or two other tests but does not explain their purpose.",
+      "Identifies several other tests (e.g., STI testing) but provides limited context.",
+      "Identifies relevant medical testing beyond the core four and explains their importance.",
+      "Clearly explains several relevant medical tests and their specific benefits for maintaining reproductive health.",
+      "Provides a detailed discussion of numerous relevant medical tests, including emerging technologies and their potential impact on reproductive health."
+    ]
+  ]
+}

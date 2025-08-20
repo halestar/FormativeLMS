@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Central Ideas\/Conclusions",
+    "Tracing Explanation\/Depiction of Complex Process\/Phenomenon\/Concept",
+    "Accuracy of Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any central ideas or conclusions from the text.",
+      "Identifies a central idea or conclusion, but it is vague, inaccurate, or incomplete.",
+      "Identifies a central idea or conclusion, but lacks depth or sufficient connection to the text.",
+      "Identifies a central idea or conclusion with reasonable accuracy and connection to the text.",
+      "Clearly and accurately identifies the central ideas or conclusions of the text, demonstrating a solid understanding.",
+      "Masterfully identifies the central ideas or conclusions, providing insightful connections and interpretations of the text's core message."
+    ],
+    [
+      "Unable to trace the text's explanation or depiction of a complex process, phenomenon, or concept.",
+      "Attempts to trace the text's explanation, but the attempt is confused, incomplete, or inaccurate.",
+      "Traces the text's explanation with some gaps in understanding or connections.",
+      "Traces the text's explanation or depiction with reasonable accuracy and completeness.",
+      "Clearly and accurately traces the text's explanation or depiction, showing a good understanding of the complexities involved.",
+      "Expertly traces the text's explanation, providing insightful analysis of the complex process, phenomenon, or concept."
+    ],
+    [
+      "Provides a summary that is entirely inaccurate or missing.",
+      "Provides a summary that contains significant inaccuracies or omissions.",
+      "Provides a summary that is partially accurate but misses key details or contains minor inaccuracies.",
+      "Provides a generally accurate summary with only minor omissions or inaccuracies.",
+      "Provides an accurate and concise summary of the text's main points.",
+      "Provides a comprehensive, accurate, and insightful summary that captures the essence of the text with exceptional clarity."
+    ]
+  ]
+}

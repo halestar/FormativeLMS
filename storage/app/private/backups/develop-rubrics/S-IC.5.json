@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Experimental Design",
+    "Ability to Compare Two Treatments",
+    "Use of Simulations to Determine Significance",
+    "Justification of Conclusions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of randomized experiments or the concept of treatments.",
+      "Student shows limited understanding, struggling to identify components of a randomized experiment.",
+      "Student identifies basic components but misunderstands the purpose of randomization or control groups.",
+      "Student correctly identifies components and explains the purpose of randomization, but struggles to explain the importance of control groups.",
+      "Student demonstrates a strong understanding of experimental design, including the importance of randomization and control groups, but makes minor errors in their explanations.",
+      "Student provides a comprehensive and nuanced explanation of experimental design, including the roles of randomization and control groups."
+    ],
+    [
+      "Student is unable to use data to compare two treatments.",
+      "Student attempts to compare treatments but makes significant errors in data interpretation.",
+      "Student can perform basic calculations with the data but struggles to draw meaningful comparisons between treatments.",
+      "Student compares treatments using appropriate data analysis techniques, but their interpretations are superficial or lack context.",
+      "Student effectively compares treatments, drawing logical conclusions from data and acknowledging limitations.",
+      "Student conducts a thorough analysis of treatment effects, supporting their conclusions with well-reasoned arguments and acknowledging potential confounding variables."
+    ],
+    [
+      "Student does not attempt to use simulations or demonstrates no understanding of their purpose.",
+      "Student attempts a simulation but struggles with the process and cannot interpret the results.",
+      "Student can perform a simulation but misinterprets the results or fails to connect them to the significance of differences between parameters.",
+      "Student uses simulations to assess the significance of differences but struggles to explain the underlying logic.",
+      "Student correctly uses simulations to assess significance, explaining the connection between simulation results and the likelihood of observed differences.",
+      "Student demonstrates a deep understanding of using simulations to assess significance, explaining the logic clearly and considering the limitations of the simulation approach."
+    ],
+    [
+      "Student provides no justification for their conclusions.",
+      "Student's justification is weak and unsupported by evidence.",
+      "Student provides some justification, but it is superficial or based on flawed reasoning.",
+      "Student justifies their conclusions using relevant data, but the reasoning is not always clear or convincing.",
+      "Student provides a clear and logical justification for their conclusions, supported by appropriate evidence.",
+      "Student provides a comprehensive and nuanced justification, considering alternative explanations and acknowledging limitations."
+    ]
+  ]
+}

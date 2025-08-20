@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Media Usage by Public Officials",
+    "Clarity and Accuracy of Explanation",
+    "Connection to Shaping Public Opinion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how public officials use the media.",
+      "Shows a minimal understanding of how public officials use the media, with significant gaps in knowledge.",
+      "Identifies some ways public officials use the media, but the explanation lacks depth and detail.",
+      "Explains several ways public officials use the media to communicate and shape public opinion, but may lack specific examples.",
+      "Clearly explains multiple ways public officials use the media, providing relevant examples and demonstrating a solid understanding of the strategies involved.",
+      "Provides a comprehensive and insightful explanation of how public officials strategically use the media to communicate with the citizenry and shape public opinion, including nuanced examples and analysis."
+    ],
+    [
+      "Explanation is unclear, inaccurate, or irrelevant.",
+      "Explanation is difficult to understand and contains several inaccuracies.",
+      "Explanation is somewhat clear but contains some inaccuracies or lacks supporting details.",
+      "Explanation is generally clear and accurate, with some supporting details.",
+      "Explanation is clear, accurate, and well-supported with relevant details and examples.",
+      "Explanation is exceptionally clear, accurate, insightful, and thoroughly supported with compelling evidence and examples."
+    ],
+    [
+      "Fails to connect media usage to the shaping of public opinion.",
+      "Shows a weak or unclear connection between media usage and its effect on public opinion.",
+      "Identifies a basic connection between media usage and public opinion, but lacks specific examples.",
+      "Explains how media usage can influence public opinion, providing some relevant examples.",
+      "Clearly explains how specific media strategies used by public officials can shape public opinion, providing well-chosen examples.",
+      "Offers a sophisticated analysis of how public officials leverage media to strategically shape public opinion, including consideration of diverse perspectives and potential counter-arguments."
+    ]
+  ]
+}

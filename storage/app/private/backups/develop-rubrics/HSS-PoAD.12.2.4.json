@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Civic Obligations",
+    "Application to Real-World Scenarios",
+    "Engagement with Civic Issues"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of civic obligations such as voting, staying informed, volunteering, or serving the public.",
+      "Shows a minimal understanding of one or two civic obligations with significant misconceptions.",
+      "Identifies a few civic obligations but struggles to explain their importance or practical application.",
+      "Demonstrates a satisfactory understanding of several civic obligations and their importance in a democracy.",
+      "Exhibits a strong understanding of various civic obligations, explaining their significance with relevant examples.",
+      "Displays a comprehensive understanding of civic obligations, their interconnectedness, and effectively articulates their role in maintaining a healthy democracy."
+    ],
+    [
+      "Unable to connect civic obligations to real-world situations or examples.",
+      "Attempts to connect civic obligations to real-world scenarios but demonstrates flawed reasoning.",
+      "Provides simplistic or superficial examples of how civic obligations apply to real-world scenarios.",
+      "Connects civic obligations to relevant real-world scenarios, explaining the connections adequately.",
+      "Analyzes complex real-world situations and effectively explains how civic obligations are relevant and impactful.",
+      "Critically analyzes various real-world scenarios, offering nuanced insights into the application and consequences of fulfilling or neglecting civic obligations."
+    ],
+    [
+      "Shows no awareness or engagement with current civic issues.",
+      "Demonstrates minimal awareness of civic issues, primarily relying on misinformation or biased sources.",
+      "Identifies a few civic issues but lacks a deeper understanding of their complexities.",
+      "Shows a general awareness of current civic issues and can discuss them with some understanding.",
+      "Actively engages with civic issues, demonstrating a clear understanding of their complexities and multiple perspectives.",
+      "Demonstrates a deep and critical engagement with civic issues, offering well-reasoned insights and potential solutions."
+    ]
+  ]
+}

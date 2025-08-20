@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Measures of Center (Mean, Median, Mode)",
+    "Understanding Measures of Variability (Range, IQR, Standard Deviation)",
+    "Drawing Comparative Inferences",
+    "Application to Random Samples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of measures of center.",
+      "Student can identify measures of center but struggles to apply them.",
+      "Student can calculate measures of center for a single dataset but not compare two.",
+      "Student can calculate and compare measures of center for two datasets, but the interpretation is superficial.",
+      "Student effectively uses measures of center to compare two datasets and draws reasonable inferences.",
+      "Student demonstrates a sophisticated understanding of measures of center, using them to draw insightful and nuanced comparative inferences about two populations."
+    ],
+    [
+      "Student demonstrates no understanding of measures of variability.",
+      "Student can identify measures of variability but struggles to apply them.",
+      "Student can calculate measures of variability for a single dataset but not compare two.",
+      "Student can calculate and compare measures of variability for two datasets, but the interpretation is superficial.",
+      "Student effectively uses measures of variability to compare two datasets and draws reasonable inferences.",
+      "Student demonstrates a sophisticated understanding of measures of variability, using them to draw insightful and nuanced comparative inferences about two populations."
+    ],
+    [
+      "Student is unable to draw any comparative inferences from the data.",
+      "Student attempts to draw inferences but they are not supported by the data or are illogical.",
+      "Student draws basic comparative inferences based on a single measure (either center or variability).",
+      "Student draws comparative inferences considering both measures of center and variability, but the reasoning is not always clear.",
+      "Student draws well-supported comparative inferences based on both measures of center and variability, providing clear reasoning.",
+      "Student draws insightful and nuanced comparative inferences, acknowledging limitations of the data and potential biases."
+    ],
+    [
+      "Student does not understand the concept of random samples or their importance.",
+      "Student shows some awareness of random samples but does not understand their significance in drawing inferences.",
+      "Student applies measures of center and variability to random samples but doesn't connect it to the population.",
+      "Student connects the analysis of random samples to the populations from which they were drawn, but the explanation is incomplete.",
+      "Student clearly explains how the analysis of random samples allows for inferences about the larger populations.",
+      "Student demonstrates a deep understanding of how random sampling allows for valid statistical inferences, addressing potential sources of error or bias."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation",
+    "Application of Scientific Knowledge",
+    "Experimental Design and Cause-Effect Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze data or identify material properties.",
+      "Attempts to analyze data but fails to correctly identify relevant properties of the materials.",
+      "Analyzes data and identifies at least one relevant material property but struggles with connecting it to the intended purpose.",
+      "Analyzes data, identifies relevant material properties, and makes a basic connection to the intended purpose.",
+      "Analyzes data, identifies relevant material properties, and clearly connects these properties to the suitability for the intended purpose.",
+      "Analyzes data thoroughly, identifies all relevant material properties, clearly and accurately connects these properties to the suitability for the intended purpose, and provides justification for the selection."
+    ],
+    [
+      "Demonstrates no understanding of the relationship between material properties and their suitability for specific purposes.",
+      "Demonstrates a limited understanding of the relationship between material properties and their suitability for specific purposes.",
+      "Shows some understanding of how material properties relate to their suitability for specific purposes, but with significant gaps.",
+      "Demonstrates a satisfactory understanding of how material properties relate to their suitability for specific purposes.",
+      "Demonstrates a strong understanding of how material properties relate to their suitability for specific purposes, providing clear examples.",
+      "Demonstrates a comprehensive and nuanced understanding of how material properties relate to their suitability for specific purposes, including insightful examples and justifications."
+    ],
+    [
+      "Unable to connect data analysis to the cause-effect relationship between material properties and intended use.",
+      "Weak attempt to link data analysis to cause-effect relationships.  Does not clearly articulate why a material property makes the material adequate for the stated intended purpose.",
+      "Identifies a simple cause-effect relationship, for instance, stronger materials are good for holding a heavy load, but fails to account for second order effects.",
+      "Designs a test that would provide data that demonstrates a cause-effect relationship between material properties and intended use. May not demonstrate a full command.",
+      "Designs a strong test and applies it to determine the cause-effect relationship between material properties and intended use.",
+      "Designs a strong test and applies it to determine the cause-effect relationship between material properties and intended use.  Can expand on the limits of the experimental design."
+    ]
+  ]
+}

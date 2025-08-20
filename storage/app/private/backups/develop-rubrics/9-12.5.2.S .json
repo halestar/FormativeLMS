@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Sexual Harassment Laws",
+    "Analysis of Detrimental Effects",
+    "Application of Knowledge to Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of sexual harassment laws.",
+      "Demonstrates a minimal understanding of sexual harassment laws, with significant inaccuracies.",
+      "Demonstrates a basic understanding of sexual harassment laws, but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of sexual harassment laws, with some supporting details.",
+      "Demonstrates a strong understanding of sexual harassment laws, providing accurate and relevant details.",
+      "Demonstrates a comprehensive and nuanced understanding of sexual harassment laws, including relevant legal precedents and complexities."
+    ],
+    [
+      "Fails to identify any detrimental effects of sexual harassment.",
+      "Identifies one or two detrimental effects of sexual harassment, but lacks explanation.",
+      "Identifies some detrimental effects of sexual harassment with limited explanation.",
+      "Analyzes several detrimental effects of sexual harassment, providing clear explanations and examples.",
+      "Analyzes the detrimental effects of sexual harassment, providing well-supported explanations, examples, and connections to personal\/social well-being.",
+      "Provides a comprehensive and insightful analysis of the detrimental effects of sexual harassment, including long-term consequences and broader societal impacts."
+    ],
+    [
+      "Unable to apply knowledge of sexual harassment laws and effects to given scenarios.",
+      "Struggles to apply knowledge of sexual harassment laws and effects to given scenarios, with significant errors.",
+      "Applies knowledge of sexual harassment laws and effects to scenarios with some inaccuracies or omissions.",
+      "Applies knowledge of sexual harassment laws and effects to most scenarios accurately and appropriately.",
+      "Consistently applies knowledge of sexual harassment laws and effects to scenarios, demonstrating critical thinking and ethical considerations.",
+      "Expertly applies knowledge of sexual harassment laws and effects to complex scenarios, demonstrating sophisticated understanding and insightful solutions."
+    ]
+  ]
+}

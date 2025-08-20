@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Conditional Probability Definition",
+    "Application of Conditional Probability Formula",
+    "Problem-Solving in Finite Sample Spaces",
+    "Clear Communication of Solution Process"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of conditional probability.",
+      "Student demonstrates minimal understanding of conditional probability, with significant misconceptions.",
+      "Student shows some understanding of conditional probability but struggles to accurately define it.",
+      "Student can define conditional probability with minor inaccuracies or omissions.",
+      "Student accurately defines conditional probability and demonstrates a solid understanding of its components.",
+      "Student provides a precise and comprehensive definition of conditional probability, demonstrating a deep understanding."
+    ],
+    [
+      "Student cannot apply the conditional probability formula.",
+      "Student attempts to apply the formula but makes significant errors in setup or calculation.",
+      "Student applies the formula with some errors, showing a partial understanding of its components.",
+      "Student applies the formula correctly with minor errors in calculation or setup.",
+      "Student accurately applies the conditional probability formula to solve problems.",
+      "Student expertly applies the formula, demonstrating a strong command of its use in problem-solving."
+    ],
+    [
+      "Student cannot solve problems involving conditional probability in finite sample spaces.",
+      "Student struggles significantly with solving problems and demonstrates minimal understanding of how to apply conditional probability in these contexts.",
+      "Student solves problems with frequent errors, indicating gaps in understanding.",
+      "Student solves problems with occasional errors, but generally demonstrates a good understanding of the process.",
+      "Student consistently solves problems accurately and efficiently in finite sample spaces.",
+      "Student demonstrates mastery in problem-solving, offering efficient and insightful solutions in various finite sample space scenarios."
+    ],
+    [
+      "Student does not attempt to explain their solution process.",
+      "Student's explanation is unclear, incomplete, or difficult to understand.",
+      "Student provides a limited explanation of their solution process with some ambiguity.",
+      "Student explains their solution process adequately, with minor areas for improvement in clarity.",
+      "Student clearly explains their solution process, making it easy to follow and understand.",
+      "Student provides a comprehensive and insightful explanation of their solution process, demonstrating a deep understanding of the underlying concepts."
+    ]
+  ]
+}

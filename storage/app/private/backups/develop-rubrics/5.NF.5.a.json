@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Scaling Effect",
+    "Comparison of Product Size to Factor Size",
+    "Application to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of how multiplication affects the size of a number.",
+      "Student shows minimal understanding, struggling to identify if the product will be larger or smaller.",
+      "Student can sometimes identify if the product will be larger or smaller, but with frequent errors or requiring significant prompting.",
+      "Student can usually identify if the product will be larger or smaller based on the multiplier, but struggles with more complex scenarios (e.g., fractions less than 1).",
+      "Student consistently and accurately identifies if the product will be larger or smaller based on the multiplier, including fractions less than 1.",
+      "Student provides a clear and thorough explanation of why the product is larger or smaller, demonstrating a deep understanding of scaling."
+    ],
+    [
+      "Student cannot compare the size of the product to the size of the original factor.",
+      "Student attempts to compare sizes but demonstrates a misunderstanding of the relationship.",
+      "Student can sometimes compare sizes correctly but struggles to articulate the relationship or explain their reasoning.",
+      "Student generally compares sizes correctly and provides a basic explanation of the relationship.",
+      "Student accurately compares sizes and provides a clear explanation of the relationship, using appropriate mathematical vocabulary.",
+      "Student provides insightful comparisons and demonstrates a nuanced understanding of how the multiplier affects the scale of the original factor. Able to use multiple strategies to check answers."
+    ],
+    [
+      "Student cannot apply the concept of scaling to solve real-world problems.",
+      "Student struggles to apply the concept of scaling to real-world problems, even with significant guidance.",
+      "Student can sometimes apply the concept of scaling to real-world problems but makes frequent errors.",
+      "Student can apply the concept of scaling to solve simple real-world problems.",
+      "Student can apply the concept of scaling to solve a variety of real-world problems accurately.",
+      "Student can apply the concept of scaling to solve complex real-world problems and explain the implications of the scaling factor in the context of the problem."
+    ]
+  ]
+}

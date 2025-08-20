@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Accurately partitions circles and rectangles into two and four equal shares.",
+    "Correctly describes the shares using the words halves, fourths, and quarters.",
+    "Effectively uses the phrases half of, fourth of, and quarter of to describe parts of a whole.",
+    "Understands and describes the whole as two of or four of the shares.",
+    "Understands that decomposing into more equal shares creates smaller shares."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to partition circles or rectangles into equal shares.",
+      "Student attempts to partition shapes but struggles to create equal shares.",
+      "Student can partition circles and rectangles into two equal shares (halves) with limited accuracy.",
+      "Student can partition circles and rectangles into two and four equal shares with reasonable accuracy.",
+      "Student consistently and accurately partitions circles and rectangles into two and four equal shares.",
+      "Student expertly and accurately partitions circles and rectangles into two and four equal shares, demonstrating a strong understanding of equal parts."
+    ],
+    [
+      "Student does not use or incorrectly uses the terms halves, fourths, and quarters.",
+      "Student attempts to use the terms but demonstrates confusion or misapplication.",
+      "Student can identify halves but struggles with fourths and quarters.",
+      "Student can correctly use the terms halves, fourths, and quarters to describe shares in most cases.",
+      "Student consistently and accurately uses the terms halves, fourths, and quarters to describe shares.",
+      "Student fluently and accurately uses the terms halves, fourths, and quarters, demonstrating a nuanced understanding of their meaning."
+    ],
+    [
+      "Student does not use or incorrectly uses the phrases half of, fourth of, and quarter of.",
+      "Student attempts to use the phrases but demonstrates confusion or misapplication.",
+      "Student can use 'half of' correctly in simple situations, but struggles with 'fourth of' and 'quarter of'.",
+      "Student can correctly use the phrases 'half of', 'fourth of', and 'quarter of' to describe parts of a whole in most cases.",
+      "Student consistently and accurately uses the phrases 'half of', 'fourth of', and 'quarter of' to describe parts of a whole.",
+      "Student expertly and accurately uses the phrases 'half of', 'fourth of', and 'quarter of', demonstrating a deep comprehension of fractional parts."
+    ],
+    [
+      "Student cannot relate the shares back to the whole.",
+      "Student attempts to relate shares to the whole but demonstrates confusion.",
+      "Student can describe the whole as two halves but struggles to articulate the relationship with fourths and quarters.",
+      "Student can describe the whole as two halves or four quarters in most cases.",
+      "Student consistently and accurately describes the whole as two halves or four quarters.",
+      "Student demonstrates a complete understanding of how shares combine to make a whole and can clearly articulate this relationship in various contexts."
+    ],
+    [
+      "Student does not demonstrate an understanding that more shares result in smaller shares.",
+      "Student shows a limited awareness of the relationship between the number of shares and their size.",
+      "Student recognizes that more shares can lead to smaller shares but struggles to explain why.",
+      "Student understands and can explain that decomposing into more equal shares creates smaller shares.",
+      "Student clearly articulates and demonstrates the inverse relationship between the number of shares and their size.",
+      "Student demonstrates a deep and intuitive understanding of how dividing into more equal shares results in smaller shares, applying this concept to various scenarios."
+    ]
+  ]
+}

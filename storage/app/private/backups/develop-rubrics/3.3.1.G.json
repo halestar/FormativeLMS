@@ -1,0 +1,23 @@
+{
+  "criteria": [
+    "Identification of trusted adults and their relationship to the student."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any trusted adults or incorrectly identifies individuals. Demonstrates no understanding of appropriate relationships for discussing sensitive topics.",
+      "Student identifies one trusted adult but struggles to articulate their relationship or the appropriateness of discussing the topic with them.",
+      "Student identifies one or two trusted adults and somewhat explains their relationship but lacks clarity on why they are appropriate for such discussions.",
+      "Student identifies two or three trusted adults, clearly states their relationship, and gives a basic explanation of why they are appropriate for discussing the cycle of life.",
+      "Student identifies multiple trusted adults, thoroughly explains their relationship (parents, guardians, family friends), and articulates clearly why these individuals are appropriate resources for discussing the cycle of life.",
+      "Student confidently identifies a diverse range of trusted adults (parents, guardians, mentors, counselors), provides insightful explanations of their relationships, and comprehensively justifies why each is a suitable resource for discussing the cycle of birth, growth, aging, and death, including considerations of comfort, knowledge, and support."
+    ]
+  ]
+}

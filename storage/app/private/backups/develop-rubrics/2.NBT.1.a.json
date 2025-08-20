@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Place Value (Hundreds)",
+    "Understanding of Place Value (Tens)",
+    "Understanding of Place Value (Ones)",
+    "Understanding of 'Bundling' (100 as ten tens)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding that a three-digit number includes a hundreds place.",
+      "Student incorrectly identifies the number of hundreds in a three-digit number.",
+      "Student struggles to accurately identify the number of hundreds in a three-digit number, even with prompts.",
+      "Student can identify the number of hundreds in a three-digit number, but may struggle with numbers containing zero in the tens or ones place.",
+      "Student accurately identifies the number of hundreds in various three-digit numbers.",
+      "Student demonstrates a strong understanding of the hundreds place and can explain how it relates to the overall value of the number."
+    ],
+    [
+      "Student does not demonstrate an understanding that a three-digit number includes a tens place.",
+      "Student incorrectly identifies the number of tens in a three-digit number.",
+      "Student struggles to accurately identify the number of tens in a three-digit number, even with prompts.",
+      "Student can identify the number of tens in a three-digit number, but may struggle with numbers containing zero in the tens place.",
+      "Student accurately identifies the number of tens in various three-digit numbers.",
+      "Student demonstrates a strong understanding of the tens place and how it relates to the overall value of the number."
+    ],
+    [
+      "Student does not demonstrate an understanding that a three-digit number includes a ones place.",
+      "Student incorrectly identifies the number of ones in a three-digit number.",
+      "Student struggles to accurately identify the number of ones in a three-digit number, even with prompts.",
+      "Student can identify the number of ones in a three-digit number.",
+      "Student accurately identifies the number of ones in various three-digit numbers.",
+      "Student demonstrates a strong understanding of the ones place and how it relates to the overall value of the number."
+    ],
+    [
+      "Student does not demonstrate an understanding that 100 can be thought of as a bundle of ten tens.",
+      "Student cannot relate 100 to groups of ten tens.",
+      "Student struggles to understand the relationship between 100 and ten tens, even with prompting.",
+      "Student shows some understanding of the relationship between 100 and ten tens, but struggles to explain it.",
+      "Student accurately explains that 100 can be seen as a bundle of ten tens.",
+      "Student demonstrates a strong understanding of how 100 is composed of ten tens and can apply this concept to other place value relationships."
+    ]
+  ]
+}

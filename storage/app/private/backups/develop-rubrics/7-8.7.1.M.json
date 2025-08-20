@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Stressors",
+    "Description of Coping Mechanisms",
+    "Application of Coping Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any personal stressors.",
+      "Student identifies one stressor but lacks detail or accuracy.",
+      "Student identifies a few stressors but demonstrates limited understanding of their impact.",
+      "Student identifies several personal stressors and demonstrates a basic understanding of their impact.",
+      "Student accurately identifies a range of personal stressors and explains their impact with some detail.",
+      "Student comprehensively identifies and articulates a deep understanding of a wide range of personal stressors and their nuanced impacts."
+    ],
+    [
+      "Student is unable to describe any coping mechanisms.",
+      "Student describes one ineffective or unhealthy coping mechanism.",
+      "Student describes a few coping mechanisms, but they are mostly ineffective or unhealthy.",
+      "Student describes some coping mechanisms, including at least one healthy strategy.",
+      "Student describes a variety of coping mechanisms, including several healthy and effective strategies, but lacks explanation of their proper application.",
+      "Student describes a wide range of healthy and effective coping mechanisms, explaining how and when to use them appropriately."
+    ],
+    [
+      "Student does not attempt to apply any coping strategies to a given scenario.",
+      "Student attempts to apply a coping strategy, but it is inappropriate or ineffective for the scenario.",
+      "Student attempts to apply coping strategies, but they are poorly executed or have limited effectiveness.",
+      "Student applies coping strategies with some success, but may require prompting or guidance.",
+      "Student effectively applies appropriate coping strategies to manage stress in a given scenario, demonstrating self-awareness.",
+      "Student skillfully and independently applies a diverse range of coping strategies to effectively manage stress in complex scenarios, demonstrating adaptability and resilience."
+    ]
+  ]
+}

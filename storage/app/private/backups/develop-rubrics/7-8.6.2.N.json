@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting",
+    "Action Planning",
+    "Reflection on Habits"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal is set; no plan for physical activity increase is evident.",
+      "Goal is vague and lacks specifics; the plan is unclear and unrealistic.",
+      "Goal is somewhat specific but lacks measurable elements; the plan is basic but may not be fully practical.",
+      "Goal is specific and measurable, but the plan could be more detailed or personalized.",
+      "Goal is well-defined, measurable, achievable, relevant, and time-bound (SMART); the plan is detailed and considers personal preferences and barriers.",
+      "Goal is exceptionally well-defined and SMART; the plan is comprehensive, highly personalized, and includes strategies for overcoming potential challenges."
+    ],
+    [
+      "No actions identified.",
+      "One or two vague actions identified.",
+      "A few actions identified, but missing key information.",
+      "Actions identified are clear, but not easily measurable.",
+      "Multiple and clear actions identified with frequency and time included.",
+      "Detailed actions identified that incorporate multiple methods to incorporate into their daily life."
+    ],
+    [
+      "No reflection.",
+      "Identifies habits that they consider unhealthy.",
+      "Reflection is surface level and doesn't indicate true feelings.",
+      "Reflection on habits is present and indicates what they will need to do in order to change them.",
+      "Thoroughly describes old habits and shows what they will need to do in order to meet goals.",
+      "Student uses critical thinking to identify habits and what will be involved in change and any possible external influences to create a solid plan."
+    ]
+  ]
+}

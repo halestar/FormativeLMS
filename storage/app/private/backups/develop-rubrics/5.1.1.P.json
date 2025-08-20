@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Personal Health Strategies",
+    "Understanding of the strategies",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No strategies are identified or the strategies are not related to personal health.",
+      "Identifies one personal health strategy that is vaguely related to reducing illness and injury.",
+      "Identifies one or two personal health strategies, but the explanation of their effectiveness is minimal or unclear.",
+      "Identifies three personal health strategies with a basic explanation of how they reduce illness and injury.",
+      "Identifies four or five personal health strategies with a clear explanation of how they reduce illness and injury.",
+      "Identifies multiple effective personal health strategies (more than 5) with a detailed and accurate explanation of how they reduce illness and injury."
+    ],
+    [
+      "Demonstrates no understanding of how personal health strategies reduce illness and injury.",
+      "Demonstrates limited understanding; explanations are vague or incorrect.",
+      "Demonstrates some understanding; explanation contains inaccuracies or lacks detail.",
+      "Demonstrates a general understanding; provides accurate, but simple explanations.",
+      "Demonstrates a clear understanding; provides accurate and detailed explanations.",
+      "Demonstrates a comprehensive understanding; provides insightful, accurate, and detailed explanations, including potential long-term benefits."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization; ideas are presented illogically.",
+      "Response is somewhat clear and organized; ideas are generally presented logically.",
+      "Response is mostly clear and organized; ideas are presented in a logical order.",
+      "Response is clear, well-organized, and easy to understand; ideas are presented logically and coherently.",
+      "Response is exceptionally clear, well-organized, and engaging; ideas are presented logically, coherently, and with sophistication."
+    ]
+  ]
+}

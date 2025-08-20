@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Major Reproductive Organs",
+    "Description of Organ Structure",
+    "Explanation of Organ Function",
+    "Understanding of the Reproductive System as a Whole"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any major reproductive organs or identifies them incorrectly.",
+      "The student identifies only 1 major reproductive organ correctly.",
+      "The student identifies 2 major reproductive organs correctly.",
+      "The student identifies most major reproductive organs (3-4) correctly, with some minor errors.",
+      "The student identifies all major reproductive organs correctly.",
+      "The student identifies all major reproductive organs correctly and provides additional relevant details about their location or development."
+    ],
+    [
+      "The student provides no description of organ structure.",
+      "The student provides a very vague or inaccurate description of the structure of one reproductive organ.",
+      "The student describes the structure of at least one reproductive organ with some accuracy.",
+      "The student accurately describes the structure of several (2-3) reproductive organs, but may miss key details.",
+      "The student accurately describes the structure of most major reproductive organs, including key details.",
+      "The student accurately and thoroughly describes the structure of all major reproductive organs, including how the structure relates to function."
+    ],
+    [
+      "The student does not explain the function of any reproductive organs.",
+      "The student provides a vague or inaccurate explanation of the function of one reproductive organ.",
+      "The student explains the function of at least one reproductive organ with some accuracy.",
+      "The student accurately explains the function of several (2-3) reproductive organs, but may miss key details or connections.",
+      "The student accurately explains the function of most major reproductive organs, including key details and how they interrelate.",
+      "The student accurately and thoroughly explains the function of all major reproductive organs, including their interrelationships and hormonal controls."
+    ],
+    [
+      "The student demonstrates no understanding of how the different parts of the reproductive system work together.",
+      "The student shows a limited understanding of how one or two parts of the reproductive system relate to each other.",
+      "The student begins to connect the function of a few different organs in the reproductive system.",
+      "The student explains how several key organs in the reproductive system interact.",
+      "The student demonstrates a strong understanding of how the major parts of the reproductive system work together to achieve reproduction.",
+      "The student provides a comprehensive explanation of the reproductive system, including hormonal regulation, feedback loops, and the influence of external factors."
+    ]
+  ]
+}

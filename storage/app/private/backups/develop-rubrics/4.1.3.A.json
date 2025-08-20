@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Medicines: Demonstrates comprehension of the definition, types, and uses of medicines.",
+    "Understanding of Illicit Drugs: Demonstrates comprehension of the definition, types, and harmful effects of illicit drugs.",
+    "Distinction between Medicines and Illicit Drugs: Clearly articulates the key differences between medicines and illicit drugs regarding their purpose, regulation, and potential harm.",
+    "Accuracy and Use of Terminology: Uses accurate and appropriate terminology when discussing medicines and illicit drugs."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of what medicines are.",
+      "Demonstrates a limited understanding of medicines, with significant inaccuracies.",
+      "Identifies medicines but struggles to explain their purpose or types.",
+      "Explains what medicines are and their general uses, but with some gaps in understanding.",
+      "Clearly explains what medicines are, their various types (prescription, OTC), and their intended uses.",
+      "Provides a comprehensive explanation of medicines, including their regulation, development, and responsible use."
+    ],
+    [
+      "No understanding of what illicit drugs are.",
+      "Demonstrates a limited understanding of illicit drugs, with significant inaccuracies.",
+      "Identifies illicit drugs but struggles to explain their harmful effects.",
+      "Explains what illicit drugs are and their general harmful effects, but with some gaps in understanding.",
+      "Clearly explains what illicit drugs are, their various types, and their potential health and social consequences.",
+      "Provides a comprehensive explanation of illicit drugs, including their addictive properties, long-term health effects, and societal impact."
+    ],
+    [
+      "Unable to differentiate between medicines and illicit drugs.",
+      "Struggles to differentiate between medicines and illicit drugs, with significant inaccuracies.",
+      "Identifies some differences between medicines and illicit drugs but lacks depth in explanation.",
+      "Explains some key differences between medicines and illicit drugs regarding their purpose or regulation.",
+      "Clearly explains the key differences between medicines and illicit drugs regarding their purpose, regulation, and potential harm.",
+      "Provides a comprehensive comparison of medicines and illicit drugs, including nuanced differences in their effects and societal implications."
+    ],
+    [
+      "Use of incorrect or inappropriate terminology.",
+      "Frequent use of incorrect terminology; demonstrates a lack of understanding of key terms.",
+      "Uses some correct terminology but struggles with precise definitions.",
+      "Generally uses correct terminology with occasional inaccuracies.",
+      "Consistently uses correct and appropriate terminology when discussing medicines and illicit drugs.",
+      "Demonstrates a sophisticated understanding of terminology related to medicines and illicit drugs, using it accurately and effectively."
+    ]
+  ]
+}

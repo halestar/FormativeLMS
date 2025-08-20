@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Costs and Benefits",
+    "Consideration of Constraints",
+    "Evaluation of Competing Design Solutions",
+    "Use of Evidence and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any costs or benefits associated with the design solutions.",
+      "The student identifies only one or two costs or benefits, and the explanation is superficial.",
+      "The student identifies some costs and benefits, but the explanation lacks depth or accuracy.",
+      "The student identifies several costs and benefits with reasonable explanations, but there may be some inaccuracies or omissions.",
+      "The student identifies most of the relevant costs and benefits with clear and accurate explanations.",
+      "The student comprehensively identifies and explains all relevant costs and benefits, demonstrating a thorough understanding."
+    ],
+    [
+      "The student fails to consider any constraints (e.g., cost, safety, reliability, aesthetics, social, cultural, environmental impacts).",
+      "The student mentions only one constraint, without any meaningful discussion of its impact.",
+      "The student considers a couple of constraints, but the discussion is superficial and lacks connection to the design solutions.",
+      "The student considers several constraints and attempts to connect them to the design solutions, but the explanation may lack depth.",
+      "The student thoroughly considers most relevant constraints and clearly connects them to the strengths and weaknesses of the design solutions.",
+      "The student comprehensively considers all relevant constraints with detailed and insightful explanations of how they impact the feasibility and desirability of the design solutions."
+    ],
+    [
+      "The student does not attempt to evaluate the design solutions or provide any comparison.",
+      "The student offers a vague or unsubstantiated opinion about the design solutions.",
+      "The student provides a superficial comparison of the design solutions with little supporting evidence.",
+      "The student provides a reasonable comparison of the design solutions using some relevant evidence and arguments.",
+      "The student provides a well-reasoned and supported comparison of the design solutions, identifying their relative strengths and weaknesses.",
+      "The student provides a comprehensive and insightful evaluation of the design solutions, synthesizing evidence and arguments to justify a well-supported conclusion."
+    ],
+    [
+      "The student presents no evidence or reasoning to support their evaluation.",
+      "The student uses irrelevant or inaccurate information.",
+      "The student uses some evidence, but it is poorly explained or connected to the argument.",
+      "The student uses relevant evidence and provides some reasoning, but there may be gaps or inconsistencies.",
+      "The student effectively uses relevant evidence and logical reasoning to support their evaluation.",
+      "The student skillfully integrates evidence and reasoning to construct a compelling and well-supported argument."
+    ]
+  ]
+}

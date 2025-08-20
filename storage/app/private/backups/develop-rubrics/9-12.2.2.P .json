@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Influences",
+    "Explanation of Influence Mechanisms",
+    "Evaluation of Influence Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any influences on personal health care product\/service selection.",
+      "Identifies one influence on personal health care product\/service selection with limited accuracy.",
+      "Identifies two influences on personal health care product\/service selection with some inaccuracies.",
+      "Identifies three influences on personal health care product\/service selection with minor inaccuracies.",
+      "Identifies four influences on personal health care product\/service selection with good accuracy.",
+      "Accurately identifies multiple influences (more than four) on personal health care product\/service selection, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Does not explain how influences affect selection of health care products\/services.",
+      "Provides a vague or unclear explanation of how one influence affects selection.",
+      "Explains how two influences affect selection, but explanations lack detail.",
+      "Explains how three influences affect selection with reasonable detail and clarity.",
+      "Clearly explains how four influences affect selection, providing specific examples.",
+      "Clearly and thoroughly explains how multiple influences affect selection, providing insightful examples and demonstrating a deep understanding of the mechanisms involved."
+    ],
+    [
+      "Does not evaluate the impact of influences on health-related decisions.",
+      "Attempts to evaluate the impact of one influence, but lacks depth or accuracy.",
+      "Evaluates the impact of two influences with limited analysis.",
+      "Evaluates the impact of three influences with reasonable analysis and consideration of different perspectives.",
+      "Evaluates the impact of four influences with thorough analysis, considering potential benefits and drawbacks.",
+      "Critically evaluates the impact of multiple influences, demonstrating a nuanced understanding of their potential effects on health-related decisions, and proposes strategies for making informed choices."
+    ]
+  ]
+}

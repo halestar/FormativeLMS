@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Comparing Numbers",
+    "Understanding of Number Representation",
+    "Clarity of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot compare the numbers and provides an incorrect or no response.",
+      "Student demonstrates minimal understanding and makes significant errors in comparing the numbers.",
+      "Student shows some understanding but makes frequent errors when comparing the numbers.",
+      "Student can compare the numbers with occasional minor errors.",
+      "Student accurately compares the numbers with clear understanding.",
+      "Student accurately and efficiently compares the numbers, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student does not understand number representation as written numerals.",
+      "Student struggles to recognize and understand number representation as written numerals.",
+      "Student shows limited understanding of number representation as written numerals and requires assistance.",
+      "Student understands number representation as written numerals with some consistency.",
+      "Student demonstrates a solid understanding of number representation as written numerals.",
+      "Student exhibits a complete and nuanced understanding of number representation as written numerals."
+    ],
+    [
+      "Student's explanation is unclear or missing.",
+      "Student attempts to explain, but the explanation is confusing and incomplete.",
+      "Student provides a partially clear explanation, but key details are missing.",
+      "Student's explanation is generally clear and understandable.",
+      "Student provides a clear and concise explanation of their comparison.",
+      "Student offers an exceptionally clear, insightful, and thorough explanation, demonstrating a deep understanding."
+    ]
+  ]
+}

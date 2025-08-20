@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Location Representation: How accurately does the map or model represent the locations of key neighborhood structures relative to each other?",
+    "Inclusion of Required Structures: Does the map or model include all the structures specified in the standard (police and fire stations, airports, banks, hospitals, supermarkets, harbors, schools, homes, places of worship, and transportation lines)?",
+    "Clarity and Organization: How clear and organized is the map or model in presenting information? Are labels clear? Is the layout logical?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The map or model is missing almost all key structures, and the few present are placed randomly with no regard for actual location.",
+      "The map or model includes very few key structures, and their placement shows minimal understanding of actual locations.",
+      "The map or model includes some key structures, but the locations are often inaccurate or misplaced, showing a limited understanding of neighborhood layout.",
+      "The map or model generally represents the locations of key structures accurately, with only minor errors or omissions.",
+      "The map or model accurately represents the locations of most key structures, demonstrating a good understanding of neighborhood layout and spatial relationships.",
+      "The map or model precisely and accurately represents the locations of all key structures, demonstrating a comprehensive understanding of neighborhood layout and spatial relationships."
+    ],
+    [
+      "The map or model includes none of the required structures.",
+      "The map or model includes only 1-2 of the required structures.",
+      "The map or model includes 3-4 of the required structures.",
+      "The map or model includes 5-7 of the required structures.",
+      "The map or model includes 8-10 of the required structures.",
+      "The map or model includes all the required structures."
+    ],
+    [
+      "The map or model is extremely disorganized and unclear, making it impossible to understand the spatial relationships between structures.",
+      "The map or model is poorly organized and difficult to understand, with unclear labels and a confusing layout.",
+      "The map or model has some organizational issues and unclear labels, making it somewhat difficult to interpret.",
+      "The map or model is generally clear and organized, with mostly clear labels and a logical layout.",
+      "The map or model is clear, well-organized, and easy to understand, with clear labels and a logical layout.",
+      "The map or model is exceptionally clear, well-organized, and visually appealing, with precise labels and a highly logical layout that enhances understanding."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Nation-Building Concepts",
+    "Analysis of Instances in Specified Regions\/Countries",
+    "Use of Supporting Evidence",
+    "Clarity and Organization of Presentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of nation-building concepts.",
+      "Shows minimal understanding of nation-building; struggles to define it.",
+      "Identifies nation-building but lacks depth in explaining its components.",
+      "Explains nation-building with some accuracy, identifying key components.",
+      "Demonstrates a solid understanding of nation-building, explaining its complexities.",
+      "Exhibits a comprehensive understanding of nation-building, including nuanced aspects and challenges."
+    ],
+    [
+      "Fails to analyze nation-building in any of the specified regions\/countries.",
+      "Attempts analysis in one region\/country, but lacks supporting evidence.",
+      "Presents superficial analysis in one region\/country with limited evidence.",
+      "Analyzes nation-building in two regions\/countries with basic evidence.",
+      "Provides detailed analysis in two regions\/countries with strong evidence and some comparative elements.",
+      "Offers insightful and comprehensive analysis in multiple regions\/countries, demonstrating strong comparative skills and nuanced understanding."
+    ],
+    [
+      "Provides no supporting evidence for claims.",
+      "Offers minimal and irrelevant evidence.",
+      "Includes some relevant evidence, but lacks proper citation or explanation.",
+      "Supports analysis with relevant evidence, but may lack depth or consistency.",
+      "Consistently uses credible evidence to support analysis, citing sources appropriately.",
+      "Masterfully integrates diverse and compelling evidence to support a sophisticated analysis, with impeccable citation."
+    ],
+    [
+      "Presentation is unclear, disorganized, and difficult to follow.",
+      "Presentation lacks clear structure and contains significant grammatical errors.",
+      "Presentation is somewhat organized but contains noticeable grammatical or stylistic issues.",
+      "Presents information in a generally clear and organized manner with few errors.",
+      "Presents information clearly and logically, with strong organization and minimal errors.",
+      "Presents information in a compelling, exceptionally clear, and expertly organized manner with flawless grammar and style."
+    ]
+  ]
+}

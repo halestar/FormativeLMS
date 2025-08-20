@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the role of rules and laws in daily life",
+    "Knowledge of the basic structure of the U.S. government",
+    "Ability to connect rules, laws, and government structure to current events"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the role of rules and laws.",
+      "Student shows minimal awareness of rules and laws but cannot connect them to daily life.",
+      "Student identifies some rules and laws but struggles to explain their purpose or relevance.",
+      "Student explains the role of rules and laws in specific contexts but lacks a broader understanding.",
+      "Student comprehensively explains the role of rules and laws and provides relevant examples of their impact on daily life.",
+      "Student demonstrates a sophisticated understanding of the role and impact of rules and laws, including their historical and societal implications, providing nuanced examples and analyses."
+    ],
+    [
+      "Student demonstrates no knowledge of the structure of the U.S. government.",
+      "Student identifies one or two branches of government but lacks understanding of their functions.",
+      "Student names the three branches of government but struggles to describe their roles and relationships.",
+      "Student accurately describes the three branches of government and their basic functions.",
+      "Student explains the structure of the U.S. government and the system of checks and balances.",
+      "Student demonstrates a deep understanding of the U.S. government structure, including its origins, evolution, and contemporary challenges, and can analyze its effectiveness and limitations."
+    ],
+    [
+      "Student is unable to connect rules, laws, or government structure to any current events.",
+      "Student attempts to connect rules, laws, or government structure to current events but demonstrates misunderstanding or inaccuracy.",
+      "Student can identify a connection between a current event and a rule, law, or part of the government, but the connection is superficial.",
+      "Student accurately connects a current event to a relevant rule, law, or government function, explaining the relationship.",
+      "Student analyzes the relationship between current events and the broader system of rules, laws, and government, offering insightful commentary.",
+      "Student demonstrates a masterful ability to critically analyze and evaluate the complex interplay between current events, legal frameworks, and governmental structures, offering well-supported arguments and potential solutions to challenges."
+    ]
+  ]
+}

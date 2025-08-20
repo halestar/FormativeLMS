@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Tens and Ones",
+    "Recognition of Numbers as Tens with Zero Ones",
+    "Application of Place Value Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding that two-digit numbers are composed of tens and ones.",
+      "Student shows limited understanding, struggling to differentiate between tens and ones in a two-digit number.",
+      "Student can identify tens and ones but struggles to explain their quantitative value within the number.",
+      "Student correctly identifies and explains the value of tens and ones in simple two-digit numbers.",
+      "Student demonstrates a solid understanding of tens and ones, accurately explaining their value and relationship in various two-digit numbers.",
+      "Student exhibits a comprehensive understanding of tens and ones, including their value in complex scenarios, and can apply this knowledge to solve related problems."
+    ],
+    [
+      "Student does not recognize numbers like 10, 20, 30...90 as a specific number of tens with zero ones.",
+      "Student has difficulty recognizing that numbers such as 10, 20, 30...90 represent a certain amount of tens.",
+      "Student recognizes numbers like 10, 20, 30...90 as tens but doesn't connect it to the concept of zero ones.",
+      "Student understands that numbers such as 10, 20, 30...90 are composed of a number of tens and zero ones.",
+      "Student clearly explains the concept that numbers like 10, 20, 30...90 are made of a specific amount of tens, with zero ones and can give example",
+      "Student demonstrates mastery by applying the concept of tens and zero ones to solve complex place value problems."
+    ],
+    [
+      "Student cannot apply place value understanding to solve any problems.",
+      "Student attempts to apply place value understanding but is largely unsuccessful.",
+      "Student can apply place value to solve very basic problems but struggles with more complex scenarios.",
+      "Student correctly applies place value understanding to solve most problems related to tens and ones.",
+      "Student consistently and accurately applies place value understanding to solve problems, with the ability to explain reasoning.",
+      "Student expertly applies place value understanding to solve complex problems and can explain the underlying mathematical principles effectively."
+    ]
+  ]
+}

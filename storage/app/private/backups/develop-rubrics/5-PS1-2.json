@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Collection & Measurement:  Accuracy in measuring and recording weight\/mass before and after changes (heating, cooling, mixing).",
+    "Data Representation & Graphing:  Construction of graph to display the relationship between initial and final weights.",
+    "Analysis & Interpretation:  Ability to analyze data and provide evidence for conservation of mass.",
+    "Experimental Design & Controls:  Ability to design an experiment that controls extraneous variables such that the change in mass can be clearly measured."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to measure or record data; measurements are completely inaccurate or missing.",
+      "Attempts to measure, but data is largely inaccurate with no clear units; significant errors in recording.",
+      "Measurements are attempted but with noticeable inaccuracies; units may be missing or incorrect; data recording has some errors.",
+      "Measurements are mostly accurate with appropriate units; minor errors in data recording; some inconsistencies.",
+      "Accurate measurements with correct units, and well-organized data recording with minimal errors.",
+      "Precise measurements with appropriate units; data is meticulously recorded in a clear, organized manner with no errors."
+    ],
+    [
+      "No graph is present or attempted.",
+      "Graph is attempted but is missing axes labels and units; no discernible data representation.",
+      "Graph has basic axes labels but lacks units or correct scaling; data points are poorly represented.",
+      "Graph includes labeled axes with units and a reasonable attempt at data representation, but may have scaling issues or minor inaccuracies.",
+      "Well-constructed graph with clearly labeled axes and units; data is accurately represented with appropriate scaling.",
+      "Exemplary graph with all elements clearly labeled and accurate; data is presented effectively to highlight conservation of mass, and the student correctly identifies any unexpected error and explains the causes."
+    ],
+    [
+      "No analysis is provided, or the interpretation is completely unrelated to the data.",
+      "Attempts to analyze the data, but provides incorrect interpretation.",
+      "Offers a basic analysis but struggles to link it to the concept of conservation of mass.",
+      "Provides a reasonable analysis, supporting the claim that the total weight of matter is conserved, but explanations have minor flaws.",
+      "Clear and accurate analysis of the data; effectively supports the claim with evidence, and demonstrates a thorough understanding of the concept.",
+      "insightful analysis with strong evidence; demonstrates deep understanding of the principle with potential exceptions and caveats."
+    ],
+    [
+      "No experimental design provided.",
+      "Experimental design does not have a control, and does not take into account any extraneous variables that may affect results.",
+      "Experimental design has a control, but fails to take into account extraneous variables that can affect results.",
+      "Experimental design mostly accounts for extraneous variables, but may have some shortcomings.",
+      "Well-thought-out experimental design that takes into account most extraneous variables.",
+      "Excellent experimental design that takes into account nearly all extraneous variables."
+    ]
+  ]
+}

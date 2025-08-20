@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of External Influences",
+    "Analysis of External Influences' Impact",
+    "Identification of Internal Influences",
+    "Analysis of Internal Influences' Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any external influences on mental, emotional, and social health.",
+      "Identifies one external influence with limited accuracy or detail.",
+      "Identifies two external influences with some accuracy and basic detail.",
+      "Identifies three external influences with reasonable accuracy and relevant detail.",
+      "Identifies four or more external influences with strong accuracy and specific detail.",
+      "Identifies multiple external influences with comprehensive accuracy, specific detail, and insightful connections between them."
+    ],
+    [
+      "Unable to analyze how external influences affect mental, emotional, and social health.",
+      "Offers a superficial analysis of how one external influence affects health.",
+      "Provides a basic analysis of how two external influences affect health, with limited depth.",
+      "Analyzes how three external influences affect health, providing reasonable depth and connecting them to specific health outcomes.",
+      "Analyzes how multiple external influences affect health, demonstrating a strong understanding of the relationships and providing detailed examples.",
+      "Provides a comprehensive analysis of how multiple external influences interact to affect health, demonstrating deep insight, nuanced understanding, and well-supported conclusions."
+    ],
+    [
+      "Fails to identify any internal influences on mental, emotional, and social health.",
+      "Identifies one internal influence with limited accuracy or detail.",
+      "Identifies two internal influences with some accuracy and basic detail.",
+      "Identifies three internal influences with reasonable accuracy and relevant detail.",
+      "Identifies four or more internal influences with strong accuracy and specific detail.",
+      "Identifies multiple internal influences with comprehensive accuracy, specific detail, and insightful connections between them."
+    ],
+    [
+      "Unable to analyze how internal influences affect mental, emotional, and social health.",
+      "Offers a superficial analysis of how one internal influence affects health.",
+      "Provides a basic analysis of how two internal influences affect health, with limited depth.",
+      "Analyzes how three internal influences affect health, providing reasonable depth and connecting them to specific health outcomes.",
+      "Analyzes how multiple internal influences affect health, demonstrating a strong understanding of the relationships and providing detailed examples.",
+      "Provides a comprehensive analysis of how multiple internal influences interact to affect health, demonstrating deep insight, nuanced understanding, and well-supported conclusions."
+    ]
+  ]
+}

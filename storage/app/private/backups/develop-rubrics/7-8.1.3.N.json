@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Food Contaminants",
+    "Explanation of Health Risks",
+    "Understanding of Prevention and Mitigation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any food contaminants or demonstrates a misunderstanding of the concept.",
+      "Student identifies one food contaminant but lacks detail or accuracy.",
+      "Student identifies two food contaminants with basic descriptions.",
+      "Student identifies three food contaminants and provides a clear description of each.",
+      "Student identifies four food contaminants, providing detailed descriptions and some examples of their sources.",
+      "Student comprehensively identifies multiple food contaminants, provides detailed descriptions, examples of sources, and explains how they enter the food supply."
+    ],
+    [
+      "Student does not explain any health risks associated with food contaminants.",
+      "Student vaguely mentions a health risk but lacks specific details or accuracy.",
+      "Student explains one health risk associated with a food contaminant.",
+      "Student explains two health risks and connects them to specific food contaminants.",
+      "Student explains multiple health risks, connecting them to specific contaminants and providing some details on their effects.",
+      "Student comprehensively explains multiple health risks, connecting them to specific contaminants, detailing their effects on the body, and discussing vulnerable populations."
+    ],
+    [
+      "Student does not demonstrate any understanding of prevention or mitigation strategies.",
+      "Student mentions one vague strategy without detail.",
+      "Student identifies one specific strategy for preventing or mitigating food contamination.",
+      "Student identifies two specific strategies and explains how they reduce risk.",
+      "Student identifies multiple strategies and explains how they reduce risk, with specific examples.",
+      "Student comprehensively discusses multiple strategies, explains their effectiveness with detailed examples, and analyzes the challenges in implementing them."
+    ]
+  ]
+}

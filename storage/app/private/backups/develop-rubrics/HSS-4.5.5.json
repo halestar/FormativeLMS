@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying and describing components of California's governance structure",
+    "Understanding of the relationships and interactions between different levels\/components of California's government",
+    "Clarity and organization of the response"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The response fails to identify or describe any components of California's governance structure.",
+      "The response identifies only one component of California's governance structure with minimal or inaccurate description.",
+      "The response identifies 2 components of California's governance structure, but descriptions are vague or contain minor inaccuracies.",
+      "The response identifies at least 3 components of California's governance structure with generally accurate descriptions, but lacks depth.",
+      "The response identifies most of the major components of California's governance structure with accurate and relatively detailed descriptions.",
+      "The response comprehensively identifies and describes the major components of California's governance structure (cities, counties, school districts, etc.) with accuracy, detail, and demonstrates a clear understanding of their roles."
+    ],
+    [
+      "The response shows no understanding of the relationships between different parts of California's government.",
+      "The response makes a vague or inaccurate attempt to describe relationships between governmental components.",
+      "The response shows a limited understanding of the relationships between some governmental components.",
+      "The response accurately describes the relationships between a few components of California's government, like how cities relate to counties.",
+      "The response describes several key relationships between state and local government and shows an understanding of how they interact.",
+      "The response demonstrates a comprehensive understanding of the complex relationships and interactions between different levels and components of California's governance structure, providing insightful examples."
+    ],
+    [
+      "The response is unclear, disorganized, and difficult to understand.",
+      "The response is poorly organized and contains significant clarity issues.",
+      "The response is somewhat organized but contains noticeable clarity issues.",
+      "The response is generally clear and organized, though improvements could be made.",
+      "The response is clear, well-organized, and easy to follow.",
+      "The response is exceptionally clear, concise, logically organized, and demonstrates sophisticated communication skills."
+    ]
+  ]
+}

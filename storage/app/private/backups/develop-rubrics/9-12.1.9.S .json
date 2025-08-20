@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Impact on Individuals",
+    "Understanding the Impact on Families",
+    "Understanding the Impact on Communities",
+    "Ability to Connect Effects Across Levels"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how violence affects individuals is demonstrated.",
+      "Shows a limited understanding of how violence affects individuals, with vague or incomplete explanations.",
+      "Demonstrates a basic understanding of some ways violence affects individuals, such as physical harm.",
+      "Explains several effects of violence on individuals, including physical, emotional, and psychological impacts.",
+      "Clearly explains a wide range of effects of violence on individuals, providing examples and showing a comprehensive understanding.",
+      "Insightfully analyzes the complex, multi-faceted effects of violence on individuals, including long-term consequences and resilience factors."
+    ],
+    [
+      "No understanding of how violence affects families is demonstrated.",
+      "Shows a limited understanding of how violence affects families, with vague or incomplete explanations.",
+      "Demonstrates a basic understanding of some ways violence affects families, such as breakdown of relationships.",
+      "Explains several effects of violence on families, including impacts on family dynamics, communication, and support systems.",
+      "Clearly explains a wide range of effects of violence on families, providing examples and showing a comprehensive understanding.",
+      "Insightfully analyzes the complex, multi-faceted effects of violence on families, including intergenerational patterns and the impact on child development."
+    ],
+    [
+      "No understanding of how violence affects communities is demonstrated.",
+      "Shows a limited understanding of how violence affects communities, with vague or incomplete explanations.",
+      "Demonstrates a basic understanding of some ways violence affects communities, such as increased fear or crime.",
+      "Explains several effects of violence on communities, including impacts on safety, social cohesion, and economic stability.",
+      "Clearly explains a wide range of effects of violence on communities, providing examples and showing a comprehensive understanding.",
+      "Insightfully analyzes the complex, multi-faceted effects of violence on communities, including systemic factors, resource allocation, and collective action."
+    ],
+    [
+      "Unable to connect the effects of violence on individuals, families, and communities.",
+      "Attempts to connect the effects, but connections are superficial or unclear.",
+      "Identifies some connections between the effects of violence on individuals, families, and communities.",
+      "Explains how violence affecting one level (individual, family, or community) can impact the other levels.",
+      "Clearly explains the interconnectedness of violence across individual, family, and community levels, providing specific examples.",
+      "Insightfully analyzes the complex interplay of violence across individual, family, and community levels, demonstrating a nuanced understanding of systemic effects."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Collision Theory and Reaction Rates",
+    "Application of Scientific Principles to Explain Effects of Temperature\/Concentration",
+    "Use of Evidence to Support Explanation",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of collision theory or how it relates to reaction rates.",
+      "Student shows a limited understanding of collision theory and its connection to reaction rates; explanation is vague and incomplete.",
+      "Student demonstrates a basic understanding of collision theory and its connection to reaction rates; explanation includes some relevant details but may lack depth.",
+      "Student demonstrates a clear understanding of collision theory and its connection to reaction rates; explanation is detailed and mostly accurate.",
+      "Student demonstrates a thorough understanding of collision theory and its connection to reaction rates; explanation is detailed, accurate, and insightful.",
+      "Student demonstrates a comprehensive and nuanced understanding of collision theory and its connection to reaction rates; explanation is exceptionally clear, accurate, and demonstrates deep insight."
+    ],
+    [
+      "Student does not apply scientific principles to explain the effects of changing temperature or concentration on reaction rate.",
+      "Student attempts to apply scientific principles but provides an inaccurate or incomplete explanation of the effects of temperature or concentration.",
+      "Student applies scientific principles to explain the effects of temperature or concentration on reaction rate, but the explanation may lack detail or clarity.",
+      "Student applies scientific principles to provide a clear and accurate explanation of the effects of temperature or concentration on reaction rate.",
+      "Student effectively applies scientific principles to provide a detailed and well-reasoned explanation of the effects of temperature and concentration on reaction rate, including the relationship between particle collisions and reaction rate.",
+      "Student expertly applies scientific principles to provide a comprehensive, insightful, and nuanced explanation of the effects of temperature and concentration on reaction rate, demonstrating a deep understanding of the underlying mechanisms."
+    ],
+    [
+      "Student provides no evidence to support their explanation.",
+      "Student provides limited or irrelevant evidence to support their explanation.",
+      "Student provides some evidence to support their explanation, but it may be weak or not clearly connected to the explanation.",
+      "Student provides relevant evidence to support their explanation, demonstrating a clear connection between evidence and explanation.",
+      "Student provides strong and compelling evidence to support their explanation, demonstrating a clear and logical connection between evidence and explanation.",
+      "Student provides exceptionally strong and comprehensive evidence to support their explanation, demonstrating a sophisticated understanding of the relationship between evidence and explanation."
+    ],
+    [
+      "The explanation is unclear, disorganized, and difficult to understand.",
+      "The explanation is somewhat unclear and disorganized, making it difficult to follow.",
+      "The explanation is generally clear and organized, but there may be some areas that lack clarity or coherence.",
+      "The explanation is clear, well-organized, and easy to understand.",
+      "The explanation is exceptionally clear, well-organized, and logically presented, making it easy to follow and understand.",
+      "The explanation is a model of clarity, organization, and logical presentation, demonstrating exceptional communication skills."
+    ]
+  ]
+}

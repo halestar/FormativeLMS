@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify a health need within their family.",
+    "Clarity and feasibility of the proposed plan.",
+    "Consideration of family dynamics and resources."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any health needs within their family.",
+      "The student struggles to identify a health need and requires significant guidance.",
+      "The student identifies a basic health need with some prompting.",
+      "The student identifies a relevant health need with minor prompting.",
+      "The student independently identifies a significant and relevant health need.",
+      "The student proactively identifies a complex health need and demonstrates a deep understanding of its impact on the family."
+    ],
+    [
+      "The student's plan is unclear and completely unfeasible.",
+      "The student's plan is vague, unrealistic, and lacks specific steps.",
+      "The student's plan includes some steps, but is not very clear or realistic.",
+      "The student's plan is reasonably clear and includes mostly feasible steps.",
+      "The student's plan is clear, well-organized, and includes realistic and achievable steps.",
+      "The student's plan is exceptionally clear, detailed, and demonstrates a strong understanding of resource availability and potential challenges."
+    ],
+    [
+      "The student completely fails to consider family dynamics or available resources.",
+      "The student shows little awareness of family dynamics or resources.",
+      "The student acknowledges family dynamics and resources but does not adequately incorporate them into the plan.",
+      "The student incorporates some family dynamics and resources into the plan.",
+      "The student thoughtfully considers family dynamics and resources when creating the plan.",
+      "The student demonstrates a nuanced understanding of family dynamics and resources, creatively adapting the plan to maximize its effectiveness and sustainability."
+    ]
+  ]
+}

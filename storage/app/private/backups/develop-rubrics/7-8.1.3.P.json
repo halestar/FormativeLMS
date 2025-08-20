@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Standard Precautions",
+    "Explanation of the Importance of Standard Precautions",
+    "Understanding of Universal Precautions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any standard precautions.",
+      "Student identifies only one standard precaution.",
+      "Student identifies a few standard precautions but misses key elements.",
+      "Student identifies most standard precautions with minor omissions.",
+      "Student accurately identifies all standard precautions.",
+      "Student accurately identifies all standard precautions and provides examples of their application in various scenarios."
+    ],
+    [
+      "Student does not explain why standard precautions are important.",
+      "Student provides a vague or inaccurate explanation of the importance of standard precautions.",
+      "Student provides a limited explanation of the importance of standard precautions, focusing on one or two aspects.",
+      "Student explains the importance of standard precautions, covering several key reasons.",
+      "Student clearly and accurately explains the importance of standard precautions, including the prevention of disease transmission.",
+      "Student provides a comprehensive and insightful explanation of the importance of standard precautions, including ethical considerations and public health implications."
+    ],
+    [
+      "Student does not demonstrate understanding of universal precautions.",
+      "Student confuses standard and universal precautions.",
+      "Student shows basic awareness of universal precautions but struggles with specifics.",
+      "Student correctly defines universal precautions.",
+      "Student accurately defines universal precautions and explains their relationship to standard precautions.",
+      "Student demonstrates a deep understanding of universal precautions, including their historical context and evolution into standard precautions."
+    ]
+  ]
+}

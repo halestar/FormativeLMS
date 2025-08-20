@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Use of Technology for Writing",
+    "Responsiveness to Feedback",
+    "Integration of New Arguments or Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not use technology to produce, publish, or update writing.",
+      "The student attempts to use technology for writing but struggles significantly.",
+      "The student uses technology to produce writing, but struggles to publish or update it based on feedback.",
+      "The student uses technology to produce and publish writing, but updates are minimal or not responsive to feedback.",
+      "The student effectively uses technology to produce and publish writing, incorporating some feedback into updates.",
+      "The student skillfully uses technology to produce, publish, and update writing, thoroughly incorporating feedback and new information to refine arguments."
+    ],
+    [
+      "The student does not incorporate feedback into their writing.",
+      "The student attempts to incorporate feedback but misunderstands or misapplies it.",
+      "The student acknowledges feedback but struggles to implement it effectively in their writing.",
+      "The student incorporates some feedback into their writing, but inconsistencies or gaps remain.",
+      "The student demonstrates a good understanding of feedback and incorporates it thoughtfully into their writing.",
+      "The student expertly integrates feedback, showing a deep understanding of its implications and using it to significantly improve the quality and persuasiveness of their arguments."
+    ],
+    [
+      "The student does not include new arguments or information in their writing.",
+      "The student includes new arguments or information, but they are irrelevant or poorly integrated.",
+      "The student attempts to integrate new arguments or information, but they disrupt the flow or coherence of the writing.",
+      "The student includes new arguments or information, but they are not fully developed or connected to the main points.",
+      "The student effectively integrates new arguments or information, enhancing the depth and complexity of their writing.",
+      "The student seamlessly integrates new arguments or information, strengthening their claims and demonstrating a comprehensive understanding of the topic."
+    ]
+  ]
+}

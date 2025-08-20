@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify and differentiate between reliable and unreliable sources of information regarding healthy foods.",
+    "Understanding of the criteria that make a source reliable (e.g., scientific backing, expert consensus, peer review).",
+    "Practical application of identified resources to make informed decisions about healthy eating."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any resources or identifies only unreliable resources.",
+      "Identifies only one unreliable resource.",
+      "Identifies one reliable resource or multiple unreliable resources with no distinction made between them.",
+      "Identifies a mix of reliable and unreliable resources but struggles to differentiate between them effectively.",
+      "Identifies multiple reliable resources and attempts to explain the differences between reliable and unreliable resources with some inaccuracies.",
+      "Identifies multiple reliable resources and clearly articulates the differences between reliable and unreliable resources, providing detailed explanations and examples."
+    ],
+    [
+      "Demonstrates no understanding of the criteria for evaluating the reliability of a source.",
+      "Demonstrates minimal understanding of the criteria for evaluating the reliability of a source.",
+      "Demonstrates some understanding of the criteria for evaluating the reliability of a source but cannot consistently apply them.",
+      "Demonstrates a satisfactory understanding of the criteria for evaluating the reliability of a source and can usually apply them.",
+      "Demonstrates a strong understanding of the criteria for evaluating the reliability of a source and consistently applies them.",
+      "Demonstrates an exceptional understanding of the criteria for evaluating the reliability of a source, consistently applies them, and can explain the nuances and complexities involved."
+    ],
+    [
+      "Unable to use identified resources to inform healthy eating decisions.",
+      "Struggles to use identified resources to inform healthy eating decisions.",
+      "Can use identified resources to make simple healthy eating decisions with guidance.",
+      "Can use identified resources to make basic healthy eating decisions independently.",
+      "Can use identified resources to make well-informed healthy eating decisions, considering multiple factors.",
+      "Can use identified resources to make highly informed healthy eating decisions, demonstrating a deep understanding of nutritional principles and their application to real-world scenarios."
+    ]
+  ]
+}

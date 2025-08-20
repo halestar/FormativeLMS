@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Analysis of Food Intake",
+    "Application of Decision-Making Process",
+    "Accuracy of Nutritional Evaluation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of daily food intake or nutritional requirements.",
+      "Student identifies some components of daily food intake but shows limited understanding of nutritional requirements.",
+      "Student identifies most components of daily food intake but struggles to link them to specific nutritional requirements.",
+      "Student adequately analyzes daily food intake, linking most components to relevant nutritional requirements, but with some inaccuracies.",
+      "Student thoroughly analyzes daily food intake, accurately linking components to nutritional requirements with minor omissions or errors.",
+      "Student expertly analyzes daily food intake, comprehensively and accurately linking all components to nutritional requirements, demonstrating a deep understanding."
+    ],
+    [
+      "Student does not apply a decision-making process to evaluate food intake.",
+      "Student attempts to apply a decision-making process but struggles to organize steps or provide rationale.",
+      "Student applies a basic decision-making process with limited rationale and incomplete steps.",
+      "Student applies a decision-making process with a mostly clear rationale, but may miss some steps or considerations.",
+      "Student effectively applies a decision-making process with a clear rationale, covering most relevant steps and considerations.",
+      "Student expertly applies a comprehensive decision-making process with a sophisticated rationale, covering all relevant steps and considerations in detail."
+    ],
+    [
+      "Student's evaluation of nutritional requirements is completely inaccurate or absent.",
+      "Student's evaluation contains major inaccuracies and misunderstandings of nutritional requirements.",
+      "Student's evaluation contains several inaccuracies and some misunderstandings of nutritional requirements.",
+      "Student's evaluation is mostly accurate but contains some minor inaccuracies or omissions.",
+      "Student's evaluation is highly accurate, with only very minor inaccuracies or omissions.",
+      "Student's evaluation is perfectly accurate, comprehensive, and demonstrates a complete understanding of nutritional requirements."
+    ]
+  ]
+}

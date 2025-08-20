@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Addition and Subtraction:",
+    "Speed and Efficiency:",
+    "Conceptual Understanding:"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of addition or subtraction within 5. Answers are consistently incorrect or absent.",
+      "Student struggles to add and subtract within 5. Answers are frequently incorrect, and the student shows little understanding of the processes.",
+      "Student can perform basic addition and subtraction within 5, but makes frequent errors and lacks fluency. Requires significant prompting and correction.",
+      "Student can add and subtract within 5 with some accuracy, but may still make occasional errors. Demonstrates a basic understanding of the processes.",
+      "Student demonstrates good accuracy and fluency in adding and subtracting within 5. Errors are rare, and the student can usually self-correct.",
+      "Student demonstrates excellent accuracy and fluency in adding and subtracting within 5. Answers are consistently correct, and the student demonstrates a strong understanding of the processes."
+    ],
+    [
+      "Student is unable to complete addition or subtraction problems within a reasonable time frame.",
+      "Student is very slow to complete addition and subtraction problems, requiring excessive time for each calculation.",
+      "Student completes addition and subtraction problems slowly and inefficiently, often relying on counting or other time-consuming strategies.",
+      "Student completes addition and subtraction problems at a moderate pace, with some reliance on efficient strategies.",
+      "Student completes addition and subtraction problems quickly and efficiently, demonstrating fluency and automaticity.",
+      "Student completes addition and subtraction problems very quickly and efficiently, demonstrating mastery of basic facts and efficient strategies."
+    ],
+    [
+      "Student shows no understanding of the concepts of addition or subtraction.",
+      "Student demonstrates very limited understanding of the concepts of addition or subtraction.",
+      "Student demonstrates a basic understanding of addition and subtraction, but struggles to apply these concepts in problem-solving situations.",
+      "Student demonstrates a solid understanding of addition and subtraction, and can apply these concepts in simple problem-solving situations.",
+      "Student demonstrates a strong understanding of addition and subtraction, and can apply these concepts in a variety of problem-solving situations.",
+      "Student demonstrates a deep and thorough understanding of addition and subtraction, and can apply these concepts in complex and novel problem-solving situations."
+    ]
+  ]
+}

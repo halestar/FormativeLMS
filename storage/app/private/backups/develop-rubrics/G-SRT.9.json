@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to derive the formula A = 1\/2 ab sin(C) using an auxiliary line.",
+    "Understanding of trigonometric relationships and their application in the derivation.",
+    "Clarity and correctness of mathematical steps and reasoning."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to derive the formula or incorrect approach.",
+      "Attempts to draw an auxiliary line but does not proceed correctly or make significant progress.",
+      "Draws an auxiliary line and identifies right triangles, but struggles to relate it to the area formula.",
+      "Draws an appropriate auxiliary line and sets up the trigonometric relationships, but makes minor errors in the derivation process.",
+      "Correctly derives the formula A = 1\/2 ab sin(C) with clear steps, but some explanation may be lacking.",
+      "Clearly and correctly derives the formula A = 1\/2 ab sin(C) with a well-explained and logical approach, demonstrating a strong understanding of the underlying principles."
+    ],
+    [
+      "Shows no understanding of trigonometric relationships.",
+      "Demonstrates a limited or incorrect understanding of trigonometric relationships.",
+      "Shows some understanding of trigonometric relationships but struggles to apply them in the derivation.",
+      "Understands and applies trigonometric relationships in the derivation but may have minor inconsistencies.",
+      "Demonstrates a strong understanding of trigonometric relationships and applies them effectively in the derivation.",
+      "Demonstrates a comprehensive understanding of trigonometric relationships and expertly applies them in the derivation with clear and accurate reasoning."
+    ],
+    [
+      "The mathematical steps are unclear, incorrect, or missing.",
+      "The mathematical steps are unclear or contain significant errors.",
+      "The mathematical steps have some clarity but contain several errors or omissions.",
+      "The mathematical steps are mostly clear with few errors or omissions.",
+      "The mathematical steps are clear, logical, and contain only minor errors.",
+      "The mathematical steps are exceptionally clear, logical, and error-free, demonstrating a mastery of mathematical reasoning."
+    ]
+  ]
+}

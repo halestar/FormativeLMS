@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Forces and Motion",
+    "Application of Science and Engineering Ideas",
+    "Evaluation and Refinement of Device",
+    "Consideration of Constraints and Criteria"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of forces and motion is demonstrated.",
+      "Demonstrates minimal understanding of forces and motion; struggles to define force or motion.",
+      "Demonstrates a basic understanding of forces and motion; can define force and motion but struggles to connect them.",
+      "Demonstrates a satisfactory understanding of forces and motion; can explain force and motion and provide simple examples.",
+      "Demonstrates a strong understanding of forces and motion; can explain and apply the concepts of force and motion with detailed examples.",
+      "Demonstrates a comprehensive understanding of forces and motion; can explain, apply, and analyze complex scenarios involving forces and motion with sophisticated examples."
+    ],
+    [
+      "Unable to apply science and engineering ideas to design a device.",
+      "Struggles to apply science and engineering ideas; the designed device is not related to minimizing force during a collision.",
+      "Applies science and engineering ideas with limited success; the designed device has minimal impact on minimizing force during a collision.",
+      "Applies science and engineering ideas adequately; the designed device shows some promise in minimizing force during a collision.",
+      "Applies science and engineering ideas effectively; the designed device significantly minimizes force during a collision.",
+      "Applies science and engineering ideas exceptionally well; the designed device optimally minimizes force during a collision through innovative design."
+    ],
+    [
+      "No attempt to evaluate or refine the device.",
+      "Attempts to evaluate or refine the device but lacks a clear methodology or criteria.",
+      "Evaluates and refines the device with limited success; improvements are minimal.",
+      "Evaluates and refines the device adequately; identifies and addresses some weaknesses in the design.",
+      "Evaluates and refines the device effectively; identifies and addresses most weaknesses, leading to significant improvements.",
+      "Evaluates and refines the device comprehensively; demonstrates a deep understanding of the device's performance and implements optimal improvements based on thorough analysis."
+    ],
+    [
+      "Fails to consider constraints or criteria in the design process.",
+      "Considers constraints or criteria superficially; the design does not effectively address these considerations.",
+      "Considers constraints and criteria with limited success; the design partially addresses these considerations.",
+      "Considers constraints and criteria adequately; the design addresses most of these considerations.",
+      "Considers constraints and criteria effectively; the design demonstrates a strong understanding of the requirements and limitations.",
+      "Considers constraints and criteria comprehensively; the design demonstrates an exceptional understanding of requirements, limitations, and trade-offs, leading to an optimized solution."
+    ]
+  ]
+}

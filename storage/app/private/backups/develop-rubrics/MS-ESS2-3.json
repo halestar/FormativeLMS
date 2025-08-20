@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Evidence for Plate Tectonics",
+    "Interpretation of Data",
+    "Application of Scientific Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the evidence supporting past plate motions is demonstrated.",
+      "Demonstrates a limited understanding of one type of evidence (fossils, rocks, continental shapes, or seafloor structures) but lacks connection to plate motions.",
+      "Identifies at least two types of evidence but struggles to accurately connect them to past plate motions.",
+      "Demonstrates a clear understanding of at least two types of evidence and explains how they support the idea of past plate motions, but lacks detail.",
+      "Analyzes multiple lines of evidence (fossils, rocks, continental shapes, and seafloor structures) and accurately interprets them to support the theory of past plate motions.",
+      "Synthesizes multiple lines of evidence, providing a comprehensive and insightful explanation of how the distribution of fossils, rocks, continental shapes, and seafloor structures provides compelling evidence for past plate motions, including potential complexities or uncertainties in the data."
+    ],
+    [
+      "Unable to interpret data related to fossils, rocks, continental shapes, or seafloor structures.",
+      "Attempts to interpret data but provides inaccurate or irrelevant explanations.",
+      "Interprets basic data with some accuracy but struggles to draw meaningful conclusions about plate motions.",
+      "Interprets data effectively and draws connections to past plate motions, but explanation lacks depth.",
+      "Analyzes and interprets data effectively, providing clear and logical explanations of how the data supports the theory of plate tectonics.",
+      "Demonstrates sophisticated data analysis skills, providing nuanced interpretations and drawing insightful conclusions about the complexities of plate tectonics and Earth's history."
+    ],
+    [
+      "Demonstrates no understanding of the underlying scientific principles related to plate tectonics.",
+      "Shows a limited understanding of relevant scientific concepts but fails to apply them correctly.",
+      "Applies some scientific knowledge to the analysis but makes errors or omissions.",
+      "Applies relevant scientific knowledge to explain plate motions, but explanation lacks depth and complexity.",
+      "Effectively applies scientific knowledge to analyze and explain the evidence for plate tectonics, demonstrating a solid understanding of the underlying principles.",
+      "Demonstrates a deep and nuanced understanding of the scientific principles underlying plate tectonics, applying this knowledge to provide a sophisticated and insightful analysis of the evidence."
+    ]
+  ]
+}

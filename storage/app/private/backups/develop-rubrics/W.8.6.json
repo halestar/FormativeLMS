@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effective Use of Technology for Writing and Publishing",
+    "Effective Use of Technology for Presentation of Relationships Between Information and Ideas",
+    "Effective Use of Technology for Interaction and Collaboration with Others"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no use of technology in writing and publishing.",
+      "Attempts to use technology but struggles with basic functions; output is minimal and ineffective.",
+      "Uses basic technology tools (e.g., word processor) for writing and publishing with some errors or inefficiencies.",
+      "Competently uses a range of technology tools for writing and publishing; demonstrates adequate efficiency.",
+      "Skillfully uses technology to enhance writing and publishing; demonstrates efficiency and creativity.",
+      "Masterfully uses technology to create compelling and polished writing and publishing pieces; highly efficient and innovative."
+    ],
+    [
+      "Demonstrates no use of technology to present relationships between information and ideas.",
+      "Attempts to use technology but struggles with basic functions; presentation is unclear and ineffective.",
+      "Uses basic technology tools (e.g., slideshow software) to present relationships between information and ideas with some errors or inefficiencies.",
+      "Competently uses a range of technology tools to present relationships between information and ideas; demonstrates adequate efficiency.",
+      "Skillfully uses technology to enhance the presentation of relationships between information and ideas; demonstrates efficiency and creativity.",
+      "Masterfully uses technology to create compelling and polished presentations of relationships between information and ideas; highly efficient and innovative."
+    ],
+    [
+      "Demonstrates no use of technology to interact and collaborate with others.",
+      "Attempts to use technology but struggles with basic functions; interaction and collaboration is minimal and ineffective.",
+      "Uses basic technology tools (e.g., email, chat) to interact and collaborate with others with some errors or inefficiencies.",
+      "Competently uses a range of technology tools to interact and collaborate with others; demonstrates adequate efficiency.",
+      "Skillfully uses technology to enhance interaction and collaboration with others; demonstrates efficiency and creativity.",
+      "Masterfully uses technology to create compelling and polished interactions and collaborations with others; highly efficient and innovative."
+    ]
+  ]
+}

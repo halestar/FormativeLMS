@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to formulate questions about evidence related to global temperature rise.",
+    "Understanding of human activities as a major factor in global warming.",
+    "Ability to connect global climate change to environmental principles."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not ask any questions related to the evidence of global temperature rise or the factors causing it.",
+      "Student asks a question that is vaguely related to global temperature rise but lacks focus or clarity.",
+      "Student asks a somewhat relevant question about global temperature rise, but it may be superficial or lack depth.",
+      "Student asks a relevant question that seeks clarification on evidence of factors contributing to global temperature rise.",
+      "Student asks well-formulated questions that demonstrate an understanding of the complexities of global temperature rise and its causes, including both human activities and natural processes.",
+      "Student asks insightful and probing questions that go beyond the basic evidence, demonstrating a sophisticated understanding of the factors influencing global temperature rise and potential areas of uncertainty."
+    ],
+    [
+      "Student demonstrates no understanding of the role of human activities in global warming.",
+      "Student acknowledges human activities but does not articulate the connection to global warming clearly.",
+      "Student identifies human activities as a factor in global warming but lacks detail or specific examples.",
+      "Student explains that human activities, such as burning fossil fuels, contribute to the increase in greenhouse gases and global warming.",
+      "Student elaborates on the significant impact of various human activities (fossil fuel combustion, cement production, agriculture) on global warming, linking them to greenhouse gas emissions.",
+      "Student comprehensively explains the multifaceted ways human activities drive global warming, including specific examples and data, and discusses the relative importance of different factors."
+    ],
+    [
+      "Student does not make any connections between global climate change and environmental principles.",
+      "Student vaguely mentions environmental principles but fails to link them to global climate change.",
+      "Student identifies an environmental principle but struggles to explain its relevance to global climate change.",
+      "Student connects global climate change to either the health of natural systems or the relationship between ecosystems and human societies.",
+      "Student connects global climate change to both the health of natural systems and the relationship between ecosystems and human societies, explaining the impact on human lives and communities.",
+      "Student provides a nuanced explanation of how global climate change threatens the health of natural systems, human lives, and communities, while also discussing the long-term consequences for terrestrial, freshwater, coastal, and marine ecosystems."
+    ]
+  ]
+}

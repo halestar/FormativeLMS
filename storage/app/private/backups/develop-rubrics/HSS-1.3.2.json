@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification and Explanation of National Holidays",
+    "Understanding Heroism and Achievements",
+    "Connection to Continuity and Community"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any national holidays or provide any explanation of their significance.",
+      "Student can identify one national holiday but struggles to explain its significance or the people associated with it.",
+      "Student can identify a few national holidays and offers limited explanations of their significance. Mentions people associated but lacks detail.",
+      "Student identifies several national holidays and provides adequate explanations of their significance and the people associated with them.",
+      "Student accurately identifies and explains the significance of major national holidays, including the heroism and achievements of associated figures. Demonstrates a solid understanding.",
+      "Student provides comprehensive explanations of the significance of a wide range of national holidays, including historical context and the impact of associated figures. Demonstrates insightful understanding and analysis."
+    ],
+    [
+      "Student does not demonstrate an understanding of heroism or achievements related to national holidays.",
+      "Student shows a minimal understanding of heroism or achievements, with vague or incorrect examples.",
+      "Student identifies some examples of heroism or achievements but struggles to connect them to specific national holidays.",
+      "Student connects examples of heroism and achievements to national holidays, providing a basic explanation of their importance.",
+      "Student clearly explains the acts of heroism and significant achievements associated with national holidays, demonstrating a strong understanding of their impact.",
+      "Student analyzes the acts of heroism and achievements associated with national holidays, providing insightful commentary on their lasting impact and relevance."
+    ],
+    [
+      "Student fails to connect national holidays and associated figures to the concepts of continuity and community.",
+      "Student makes a weak or unclear connection between national holidays and the concepts of continuity and community.",
+      "Student attempts to connect national holidays to continuity and community but lacks clarity or supporting evidence.",
+      "Student explains how national holidays contribute to a sense of continuity and community in the United States.",
+      "Student effectively explains how national holidays and the people associated with them reinforce continuity and strengthen the sense of community across time in the United States.",
+      "Student critically analyzes how national holidays and associated figures shape the ongoing narrative of continuity and community in the United States, considering diverse perspectives."
+    ]
+  ]
+}

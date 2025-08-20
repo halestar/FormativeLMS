@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Conditional Probability",
+    "Interpreting Independence",
+    "Application to Data"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of conditional probability.",
+      "Student struggles to define conditional probability or identify its components (event A given event B).",
+      "Student can define conditional probability as P(A and B)\/P(B) but struggles to apply it in practical scenarios.",
+      "Student demonstrates a basic understanding of conditional probability and can apply the formula P(A and B)\/P(B) in simple problems.",
+      "Student demonstrates a strong understanding of conditional probability and can apply it to solve complex problems. Student understands the components and can explain the reasoning clearly.",
+      "Student demonstrates a comprehensive understanding of conditional probability, can apply it to solve complex problems, and can explain the reasoning clearly and concisely. Student can extend this understanding to novel situations."
+    ],
+    [
+      "Student does not demonstrate an understanding of independence between events.",
+      "Student struggles to define independence between events or recognize its implications.",
+      "Student can define independence but struggles to connect it to conditional probabilities.",
+      "Student can interpret independence as P(A|B) = P(A) and P(B|A) = P(B) and applies it to simple scenarios.",
+      "Student can accurately interpret independence between events using conditional probabilities and apply it in a variety of problems. Student can explain the implications of independence.",
+      "Student demonstrates a deep understanding of independence, can apply it in complex scenarios, and can clearly explain the implications of independence in various contexts. Student extends this understanding to more advanced probability concepts."
+    ],
+    [
+      "Student cannot apply conditional probability or independence to interpret data.",
+      "Student struggles to identify relevant information in data sets to apply conditional probability or independence concepts.",
+      "Student can apply conditional probability and independence formulas to data but struggles to draw meaningful conclusions.",
+      "Student can apply conditional probability and independence to interpret data in simple scenarios.",
+      "Student can effectively apply conditional probability and independence to interpret data and draw meaningful conclusions in a variety of scenarios. Student clearly explains their reasoning.",
+      "Student can skillfully apply conditional probability and independence to interpret data, draw insightful conclusions, and explain their reasoning clearly and concisely. Student can identify potential biases and limitations in the data."
+    ]
+  ]
+}

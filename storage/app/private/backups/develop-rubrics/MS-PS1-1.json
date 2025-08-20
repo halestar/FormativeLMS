@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Atomic Representation",
+    "Clarity and Organization of the Model",
+    "Application of Scientific Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Model demonstrates no understanding of atomic composition or is entirely inaccurate.",
+      "Model includes significant inaccuracies in atomic representation or lacks key components.",
+      "Model contains some inaccuracies in atomic representation but shows a basic understanding of the concept.",
+      "Model is mostly accurate in atomic representation but may have minor errors or omissions.",
+      "Model accurately represents the atomic composition of simple molecules and extended structures with only minor imperfections.",
+      "Model flawlessly and accurately represents the atomic composition of simple molecules and extended structures with clear and precise labeling."
+    ],
+    [
+      "Model is disorganized and difficult to understand, lacking clear labels or explanations.",
+      "Model is somewhat disorganized and lacks clear labels or explanations in several areas.",
+      "Model has some organizational issues and may lack clarity in certain aspects of the representation.",
+      "Model is generally clear and organized, with most components properly labeled and explained.",
+      "Model is clear, well-organized, and easy to understand with accurate labels and explanations.",
+      "Model is exceptionally clear, well-organized, and visually appealing with comprehensive labels and explanations, enhancing understanding of atomic composition."
+    ],
+    [
+      "Model does not demonstrate the application of scientific practices or principles.",
+      "Model weakly demonstrates the application of scientific practices with no clear rationale or justification.",
+      "Model shows a basic application of scientific practices but lacks depth or consistency.",
+      "Model demonstrates an adequate application of scientific practices and principles.",
+      "Model effectively applies scientific practices to describe and predict phenomena related to atomic composition.",
+      "Model expertly applies scientific practices, providing insightful explanations and predictions regarding atomic behavior and interactions within molecules and extended structures."
+    ]
+  ]
+}

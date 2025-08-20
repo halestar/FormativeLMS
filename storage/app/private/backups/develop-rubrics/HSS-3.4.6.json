@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of American Heroes",
+    "Description of Risks Taken",
+    "Understanding of Contribution to Freedoms"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any American heroes who took risks to secure our freedoms.",
+      "Identifies only one American hero but lacks detail or accuracy in the description.",
+      "Identifies two American heroes but provides limited information on their contributions and risks.",
+      "Identifies three American heroes and provides a basic description of their contributions and risks.",
+      "Identifies four or more American heroes, providing detailed descriptions of their contributions and the risks they faced.",
+      "Identifies multiple American heroes, providing comprehensive and insightful descriptions of their contributions, the risks they faced, and the impact of their actions on securing freedoms."
+    ],
+    [
+      "Does not describe any risks taken by the American heroes.",
+      "Mentions risks in a vague or general manner, lacking specifics.",
+      "Describes risks taken by the heroes with limited detail and accuracy.",
+      "Describes the risks taken by the heroes with reasonable detail and accuracy.",
+      "Clearly and accurately describes the significant risks taken by the heroes, demonstrating a strong understanding of the challenges they faced.",
+      "Provides a nuanced and comprehensive analysis of the risks taken by the heroes, including the personal, social, and political implications of their actions."
+    ],
+    [
+      "Demonstrates no understanding of how the heroes contributed to securing freedoms.",
+      "Shows a minimal understanding of the heroes' contributions, lacking specifics.",
+      "Describes the heroes' contributions with limited accuracy and detail.",
+      "Accurately describes how the heroes contributed to securing specific freedoms.",
+      "Explains clearly and accurately how the heroes contributed to securing specific freedoms, demonstrating a strong understanding of their impact.",
+      "Provides a comprehensive and insightful analysis of how the heroes' actions and sacrifices led to the advancement and protection of American freedoms, connecting their work to broader historical contexts."
+    ]
+  ]
+}

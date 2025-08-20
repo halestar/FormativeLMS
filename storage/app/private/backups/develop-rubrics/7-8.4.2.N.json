@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Accuracy of Information: How clearly and accurately the student conveys information about healthy nutrition and physical activity.",
+    "Effectiveness of Communication Strategy: How well the student tailors their communication to be effective for parents, guardians, or trusted adults.",
+    "Use of Supporting Evidence: How well the student uses evidence or examples to support their recommendations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student's communication is unclear, inaccurate, or contains misinformation about healthy nutrition and physical activity.",
+      "The student's communication contains some inaccuracies or lacks clarity, making it difficult to understand the key information.",
+      "The student generally communicates accurate information, but there are areas where clarity could be improved.",
+      "The student communicates accurate information about healthy nutrition and physical activity with reasonable clarity.",
+      "The student communicates accurate and clear information about healthy nutrition and physical activity effectively.",
+      "The student communicates accurate, clear, and detailed information about healthy nutrition and physical activity in a manner that is easily understood and engaging."
+    ],
+    [
+      "The student does not demonstrate an understanding of how to communicate effectively with adults.",
+      "The student's communication strategy is not well-suited to the intended audience and may be ineffective.",
+      "The student attempts to tailor their communication, but the approach is not fully effective.",
+      "The student demonstrates a reasonable understanding of effective communication strategies for adults.",
+      "The student effectively tailors their communication to be appropriate and persuasive for parents, guardians, or trusted adults.",
+      "The student demonstrates a sophisticated understanding of communication strategies, adapting their approach to ensure maximum effectiveness and engagement with the intended adult audience."
+    ],
+    [
+      "The student provides no supporting evidence or examples to back up their claims.",
+      "The student attempts to use supporting evidence, but it is weak, irrelevant, or inaccurate.",
+      "The student provides some supporting evidence, but it is not consistently used or fully explained.",
+      "The student provides relevant supporting evidence to strengthen their communication.",
+      "The student effectively uses supporting evidence and examples to make a compelling case for healthy nutrition and physical activity choices.",
+      "The student skillfully integrates a variety of strong, relevant evidence and compelling examples to create a highly persuasive and informative communication."
+    ]
+  ]
+}

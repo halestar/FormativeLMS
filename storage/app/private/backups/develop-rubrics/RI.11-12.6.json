@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Author's Point of View or Purpose",
+    "Analysis of Rhetorical Effectiveness",
+    "Explanation of How Style and Content Contribute to Power, Persuasiveness, or Beauty"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify the author's point of view or purpose.",
+      "The student vaguely identifies the author's point of view or purpose with no supporting evidence.",
+      "The student identifies the author's point of view or purpose, but the explanation is superficial.",
+      "The student accurately identifies the author's point of view or purpose and provides a somewhat detailed explanation.",
+      "The student accurately identifies the author's point of view or purpose and provides a well-developed explanation with relevant examples.",
+      "The student expertly identifies the author's point of view or purpose, providing a nuanced and insightful explanation supported by strong textual evidence."
+    ],
+    [
+      "The student does not address the effectiveness of the author's rhetoric.",
+      "The student mentions the rhetoric but does not analyze its effectiveness.",
+      "The student offers a basic analysis of the rhetoric's effectiveness, but lacks depth and specific examples.",
+      "The student provides a solid analysis of the rhetoric's effectiveness, citing some examples from the text.",
+      "The student thoroughly analyzes the rhetoric's effectiveness, providing specific examples and explaining their impact.",
+      "The student offers a comprehensive and insightful analysis of the rhetoric's effectiveness, demonstrating a deep understanding of its nuances and impact on the reader."
+    ],
+    [
+      "The student fails to explain how style and content contribute to the text's power, persuasiveness, or beauty.",
+      "The student vaguely mentions style and content but does not connect them to the text's power, persuasiveness, or beauty.",
+      "The student attempts to explain the connection between style\/content and the text's impact, but the explanation is weak and lacks specific examples.",
+      "The student adequately explains how style and content contribute to the text's power, persuasiveness, or beauty, providing some supporting details.",
+      "The student clearly explains how style and content contribute to the text's power, persuasiveness, or beauty, using well-chosen examples to illustrate the connection.",
+      "The student masterfully explains how style and content contribute to the text's power, persuasiveness, or beauty, offering a sophisticated analysis with compelling evidence."
+    ]
+  ]
+}

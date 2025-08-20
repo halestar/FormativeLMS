@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Identification of Trusted Adults",
+    "Relevance of Choices to Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any trusted adults in their family, school, or community for advice on healthy eating and physical activity.",
+      "Student identifies one or two adults, but their roles are not clearly defined or relevant to health advice.",
+      "Student identifies some adults in their family, school or community, but their explanations are vague regarding how these adults can provide advice related to healthy eating and physical activity.",
+      "Student identifies multiple adults and provides a basic explanation of how they can offer advice on healthy eating or physical activity.",
+      "Student clearly identifies multiple trusted adults in various settings (family, school, community) and explains their potential roles in providing health-related advice and support.",
+      "Student comprehensively identifies multiple trusted adults, detailing their specific expertise and how they can provide advice and counseling on both healthy eating and physical activity with insightful reasoning."
+    ],
+    [
+      "Chosen adults demonstrate no relevance or expertise in providing health advice.",
+      "Some chosen adults have questionable relevance to health-related advice.",
+      "Most adults chosen might have some relevance to health, but it's tenuous.",
+      "Adults chosen generally can provide health advice.",
+      "Adults chosen are highly relevant and can provide health advice.",
+      "Adults chosen are all extremely relevant and are excellent choices for providing health advice."
+    ]
+  ]
+}

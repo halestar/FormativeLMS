@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding different forms of expressing friendship",
+    "Understanding different forms of expressing attraction",
+    "Understanding different forms of expressing affection",
+    "Recognizing the variety and appropriateness of different expressions in different contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how friendship can be expressed.",
+      "Student demonstrates a limited understanding of how friendship can be expressed, mentioning only one or two ways.",
+      "Student demonstrates a basic understanding of how friendship can be expressed, mentioning a few common ways, but lacks depth.",
+      "Student demonstrates a satisfactory understanding of how friendship can be expressed, providing several examples with some explanation.",
+      "Student demonstrates a strong understanding of how friendship can be expressed, providing diverse examples and explaining the nuances of each.",
+      "Student demonstrates a comprehensive understanding of how friendship can be expressed, providing insightful examples, and analyzing the cultural and individual differences in expressing friendship."
+    ],
+    [
+      "Student demonstrates no understanding of how attraction can be expressed.",
+      "Student demonstrates a limited understanding of how attraction can be expressed, mentioning only one or two ways.",
+      "Student demonstrates a basic understanding of how attraction can be expressed, mentioning a few common ways, but lacks depth.",
+      "Student demonstrates a satisfactory understanding of how attraction can be expressed, providing several examples with some explanation.",
+      "Student demonstrates a strong understanding of how attraction can be expressed, providing diverse examples and explaining the nuances of each.",
+      "Student demonstrates a comprehensive understanding of how attraction can be expressed, providing insightful examples, and analyzing the cultural and individual differences in expressing attraction."
+    ],
+    [
+      "Student demonstrates no understanding of how affection can be expressed.",
+      "Student demonstrates a limited understanding of how affection can be expressed, mentioning only one or two ways.",
+      "Student demonstrates a basic understanding of how affection can be expressed, mentioning a few common ways, but lacks depth.",
+      "Student demonstrates a satisfactory understanding of how affection can be expressed, providing several examples with some explanation.",
+      "Student demonstrates a strong understanding of how affection can be expressed, providing diverse examples and explaining the nuances of each.",
+      "Student demonstrates a comprehensive understanding of how affection can be expressed, providing insightful examples, and analyzing the cultural and individual differences in expressing affection."
+    ],
+    [
+      "Student does not recognize the different contexts in which friendship, attraction, and affection are expressed.",
+      "Student recognizes only one context in which friendship, attraction, and affection are expressed.",
+      "Student recognizes a few common contexts in which friendship, attraction, and affection are expressed, but lacks depth.",
+      "Student recognizes several contexts in which friendship, attraction, and affection are expressed with some explanation.",
+      "Student recognizes diverse contexts in which friendship, attraction, and affection are expressed and explains the nuances of each.",
+      "Student recognizes diverse contexts in which friendship, attraction, and affection are expressed and analyzes the cultural and individual differences in these expressions."
+    ]
+  ]
+}

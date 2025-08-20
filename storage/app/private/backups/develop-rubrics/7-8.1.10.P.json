@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Human Activities Contributing to Air Pollution",
+    "Identification of Human Activities Contributing to Water Pollution",
+    "Identification of Human Activities Contributing to Noise Pollution",
+    "Understanding of the Environmental Challenges Posed by Identified Activities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No human activities contributing to air pollution are identified.",
+      "Identifies one human activity vaguely related to air pollution.",
+      "Identifies one specific human activity that contributes to air pollution with minimal explanation.",
+      "Identifies two specific human activities that contribute to air pollution with a basic explanation of their impact.",
+      "Identifies three specific human activities that contribute to air pollution with a clear explanation of their impact.",
+      "Identifies multiple human activities contributing to air pollution, explains their impacts in detail, and provides potential solutions or mitigation strategies."
+    ],
+    [
+      "No human activities contributing to water pollution are identified.",
+      "Identifies one human activity vaguely related to water pollution.",
+      "Identifies one specific human activity that contributes to water pollution with minimal explanation.",
+      "Identifies two specific human activities that contribute to water pollution with a basic explanation of their impact.",
+      "Identifies three specific human activities that contribute to water pollution with a clear explanation of their impact.",
+      "Identifies multiple human activities contributing to water pollution, explains their impacts in detail, and provides potential solutions or mitigation strategies."
+    ],
+    [
+      "No human activities contributing to noise pollution are identified.",
+      "Identifies one human activity vaguely related to noise pollution.",
+      "Identifies one specific human activity that contributes to noise pollution with minimal explanation.",
+      "Identifies two specific human activities that contribute to noise pollution with a basic explanation of their impact.",
+      "Identifies three specific human activities that contribute to noise pollution with a clear explanation of their impact.",
+      "Identifies multiple human activities contributing to noise pollution, explains their impacts in detail, and provides potential solutions or mitigation strategies."
+    ],
+    [
+      "Demonstrates no understanding of environmental challenges.",
+      "Demonstrates a limited understanding of environmental challenges.",
+      "Demonstrates a basic understanding of environmental challenges, but lacks detail.",
+      "Clearly explains the environmental challenges related to at least one type of pollution (air, water, or noise).",
+      "Clearly explains the environmental challenges related to two types of pollution (air, water, and\/or noise).",
+      "Comprehensively explains the environmental challenges related to air, water, and noise pollution, demonstrating a deep understanding of their interconnectedness and long-term impacts."
+    ]
+  ]
+}

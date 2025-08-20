@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Ordinances of 1785 and 1787",
+    "Explanation of Privatization of National Resources",
+    "Explanation of Land Transfer into Private Holdings, Townships, and States"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Ordinances of 1785 and 1787.",
+      "Student shows minimal understanding, with significant inaccuracies or omissions regarding the ordinances.",
+      "Student identifies the Ordinances but struggles to explain their purpose or impact.",
+      "Student explains the basic purposes of the Ordinances but lacks detail regarding the privatization of national resources and land transfer.",
+      "Student accurately describes the Ordinances of 1785 and 1787 and explains how they led to the privatization of national resources and the transfer of federally owned lands.",
+      "Student provides a comprehensive explanation of the Ordinances, including their historical context, impact on land ownership, and long-term consequences for the development of townships and states."
+    ],
+    [
+      "Student does not address the concept of privatization or its connection to the Ordinances.",
+      "Student mentions privatization but does not accurately explain its meaning or relevance to the Ordinances.",
+      "Student attempts to explain privatization but demonstrates confusion or misunderstanding.",
+      "Student provides a basic explanation of how the Ordinances facilitated the privatization of national resources.",
+      "Student clearly explains how the Ordinances led to the privatization of national resources, providing specific examples.",
+      "Student offers a nuanced explanation of the Ordinances' role in privatization, including discussion of the economic and social implications."
+    ],
+    [
+      "Student does not address the transfer of federally owned lands.",
+      "Student mentions land transfer but provides no details or inaccurate information.",
+      "Student identifies that the Ordinances led to land transfer but cannot explain how or to whom.",
+      "Student explains that land was transferred into private holdings, townships, and states but lacks specific details.",
+      "Student accurately explains the process of land transfer, including the roles of private individuals, townships, and states.",
+      "Student provides a detailed analysis of the land transfer process, including the legal and political mechanisms involved and the impact on settlement patterns."
+    ]
+  ]
+}

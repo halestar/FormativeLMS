@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Food Group Classification",
+    "Understanding of Food Group Importance",
+    "Variety of Foods Classified"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to classify foods into any food groups or demonstrates significant misunderstanding of food groups.",
+      "Student can classify a few foods into the correct food groups with major errors and demonstrates limited understanding of food groups.",
+      "Student can classify some foods into the correct food groups with noticeable errors and demonstrates some understanding of food groups.",
+      "Student can classify most foods into the correct food groups with minor errors and demonstrates a general understanding of food groups.",
+      "Student can accurately classify almost all foods into the correct food groups and demonstrates a solid understanding of food groups.",
+      "Student can accurately classify all foods into the correct food groups and demonstrates a comprehensive understanding of food groups, including subgroups and variations."
+    ],
+    [
+      "Student does not demonstrate any understanding of why food groups are important for health.",
+      "Student demonstrates minimal understanding of why food groups are important for health with little to no explanation.",
+      "Student demonstrates a basic understanding of why food groups are important for health with a limited explanation.",
+      "Student demonstrates a satisfactory understanding of why food groups are important for health with a reasonable explanation.",
+      "Student demonstrates a strong understanding of why food groups are important for health with a clear and detailed explanation.",
+      "Student demonstrates an exceptional understanding of why food groups are important for health, providing a comprehensive and insightful explanation, including the role of each food group in maintaining overall health and preventing diseases."
+    ],
+    [
+      "Student classifies only one or two foods.",
+      "Student classifies a limited range of foods (3-4).",
+      "Student classifies a moderate range of foods (5-6).",
+      "Student classifies a good range of foods (7-8).",
+      "Student classifies a wide range of foods (9-10).",
+      "Student classifies an extensive range of foods (more than 10), demonstrating knowledge of diverse dietary options within each food group."
+    ]
+  ]
+}

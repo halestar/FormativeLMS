@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rotations",
+    "Understanding of Reflections",
+    "Understanding of Translations",
+    "Use of Geometric Terms"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of rotations is demonstrated.",
+      "Demonstrates a minimal understanding of rotations, with significant errors.",
+      "Demonstrates a partial understanding of rotations; struggles with specific examples.",
+      "Demonstrates a satisfactory understanding of rotations, but lacks precision.",
+      "Demonstrates a strong understanding of rotations, with clear definitions and accurate examples.",
+      "Demonstrates a comprehensive and precise understanding of rotations, including applications and complex examples."
+    ],
+    [
+      "No understanding of reflections is demonstrated.",
+      "Demonstrates a minimal understanding of reflections, with significant errors.",
+      "Demonstrates a partial understanding of reflections; struggles with specific examples.",
+      "Demonstrates a satisfactory understanding of reflections, but lacks precision.",
+      "Demonstrates a strong understanding of reflections, with clear definitions and accurate examples.",
+      "Demonstrates a comprehensive and precise understanding of reflections, including applications and complex examples."
+    ],
+    [
+      "No understanding of translations is demonstrated.",
+      "Demonstrates a minimal understanding of translations, with significant errors.",
+      "Demonstrates a partial understanding of translations; struggles with specific examples.",
+      "Demonstrates a satisfactory understanding of translations, but lacks precision.",
+      "Demonstrates a strong understanding of translations, with clear definitions and accurate examples.",
+      "Demonstrates a comprehensive and precise understanding of translations, including applications and complex examples."
+    ],
+    [
+      "Does not use or incorrectly uses geometric terms (angles, circles, perpendicular lines, parallel lines, and line segments).",
+      "Uses some geometric terms but with frequent errors or omissions.",
+      "Uses geometric terms with some accuracy but lacks precision or completeness.",
+      "Uses geometric terms accurately in most cases, demonstrating a general understanding.",
+      "Consistently uses geometric terms accurately and precisely, demonstrating a strong understanding.",
+      "Masterfully uses geometric terms to provide clear, accurate, and insightful definitions of transformations."
+    ]
+  ]
+}

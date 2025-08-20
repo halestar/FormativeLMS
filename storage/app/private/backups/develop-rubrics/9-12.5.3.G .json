@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Unhealthy Situations",
+    "Application of Decision-Making Process",
+    "Analysis of When to Seek Help or Leave"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any unhealthy situations or identifies them incorrectly.",
+      "Student identifies unhealthy situations with significant inaccuracies or omissions.",
+      "Student identifies some unhealthy situations but lacks depth in understanding their potential impact.",
+      "Student identifies most unhealthy situations and shows a basic understanding of their impact.",
+      "Student accurately identifies various unhealthy situations and demonstrates a solid understanding of their potential impact.",
+      "Student comprehensively identifies and analyzes a wide range of unhealthy situations, demonstrating a nuanced understanding of their impact and potential consequences."
+    ],
+    [
+      "Student does not apply any decision-making process.",
+      "Student attempts to apply a decision-making process but does so ineffectively or illogically.",
+      "Student applies a decision-making process with some flaws or inconsistencies.",
+      "Student generally applies a decision-making process appropriately but may miss some key considerations.",
+      "Student effectively applies a decision-making process, considering relevant factors and potential outcomes.",
+      "Student skillfully applies a comprehensive decision-making process, demonstrating critical thinking and foresight in analyzing the situation and potential consequences of each choice."
+    ],
+    [
+      "Student does not demonstrate an understanding of when it is necessary to seek help or leave an unhealthy situation.",
+      "Student shows limited understanding of when to seek help or leave, often making inappropriate judgments.",
+      "Student identifies some situations where seeking help or leaving is necessary but lacks consistency in their analysis.",
+      "Student generally identifies appropriate times to seek help or leave, but their reasoning may lack depth.",
+      "Student thoughtfully analyzes situations and accurately determines when it is necessary to seek help or leave, providing sound reasoning.",
+      "Student expertly analyzes complex situations, demonstrating a sophisticated understanding of when and how to seek help or leave, considering various factors and potential long-term impacts."
+    ]
+  ]
+}

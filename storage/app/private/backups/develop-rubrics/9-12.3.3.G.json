@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of data presented on condom effectiveness in preventing HIV, STDs, and pregnancy.",
+    "Accuracy of data presented on other contraceptive methods' effectiveness in preventing HIV, STDs, and pregnancy.",
+    "Comparison of success and failure rates between condoms and other contraceptive methods.",
+    "Clarity and organization of information."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No information or data is presented on condom effectiveness.",
+      "Presents inaccurate or irrelevant information regarding condom effectiveness. Shows a significant misunderstanding.",
+      "Presents some data on condom effectiveness, but with significant inaccuracies or omissions. Demonstrates a basic understanding but lacks depth.",
+      "Presents mostly accurate data on condom effectiveness, but may have minor omissions or generalizations.",
+      "Presents accurate and specific data on condom effectiveness, including success and failure rates. Demonstrates a thorough understanding.",
+      "Presents comprehensive, accurate, and nuanced data on condom effectiveness, including success and failure rates, and acknowledges limitations. Demonstrates mastery."
+    ],
+    [
+      "No information or data is presented on other contraceptive methods.",
+      "Presents inaccurate or irrelevant information regarding other contraceptive methods' effectiveness. Shows a significant misunderstanding.",
+      "Presents some data on other contraceptive methods' effectiveness, but with significant inaccuracies or omissions. Demonstrates a basic understanding but lacks depth.",
+      "Presents mostly accurate data on other contraceptive methods' effectiveness, but may have minor omissions or generalizations.",
+      "Presents accurate and specific data on other contraceptive methods' effectiveness, including success and failure rates. Demonstrates a thorough understanding.",
+      "Presents comprehensive, accurate, and nuanced data on other contraceptive methods' effectiveness, including success and failure rates, and acknowledges limitations. Demonstrates mastery."
+    ],
+    [
+      "No comparison is made between condoms and other contraceptive methods.",
+      "Attempts a comparison but is largely inaccurate, irrelevant, or lacks logical reasoning.",
+      "Provides a basic comparison with some accurate points, but lacks depth and may contain inaccuracies.",
+      "Compares condoms and other methods, noting some key differences in success and failure rates, with mostly accurate information.",
+      "Clearly and accurately compares the success and failure rates of condoms and other methods, providing relevant data to support the comparison.",
+      "Provides a comprehensive and nuanced comparison, analyzing the factors contributing to the success and failure rates of both condoms and other methods, and discusses implications."
+    ],
+    [
+      "Information is presented in a disorganized and unclear manner.",
+      "Information is difficult to follow and lacks logical organization.",
+      "Information is somewhat organized but may lack clarity in certain areas.",
+      "Information is generally clear and organized, with a logical flow.",
+      "Information is presented in a clear, concise, and well-organized manner.",
+      "Information is presented in an exceptionally clear, concise, and well-organized manner, enhancing understanding."
+    ]
+  ]
+}

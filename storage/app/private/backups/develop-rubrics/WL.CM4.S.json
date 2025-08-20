@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to engage in conversations on familiar topics using culturally authentic language.",
+    "Application of real-world and academic language in discussions and presentations.",
+    "Initiation and sustainment of language use opportunities outside the classroom."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to participate in conversations, even on the most familiar topics, and demonstrates no understanding of culturally authentic language.",
+      "Student struggles to participate in conversations, even on familiar topics. Shows limited understanding of culturally authentic language.",
+      "Student can participate in simple conversations on familiar topics with prompting. Demonstrates some understanding of culturally authentic language in predictable contexts.",
+      "Student can participate in conversations on familiar topics with minimal prompting. Uses some culturally authentic language appropriately.",
+      "Student confidently engages in conversations on a variety of familiar topics, using culturally authentic language accurately and effectively.",
+      "Student skillfully engages in conversations on familiar topics and can extend the conversation to related unfamiliar topics using culturally authentic language with nuance and sophistication."
+    ],
+    [
+      "Student does not demonstrate the use of real-world or academic language in discussions or presentations.",
+      "Student attempts to use real-world or academic language but struggles with accuracy and relevance.",
+      "Student uses some real-world and academic language in structured discussions or presentations with noticeable errors.",
+      "Student uses real-world and academic language appropriately in most discussions and presentations.",
+      "Student demonstrates strong command of real-world and academic language in a variety of discussions and presentations.",
+      "Student expertly integrates real-world and academic language in discussions and presentations, demonstrating a deep understanding of the nuances of language use."
+    ],
+    [
+      "Student does not seek or participate in any language use opportunities outside of the classroom.",
+      "Student rarely participates in language use opportunities outside the classroom and requires significant encouragement.",
+      "Student participates in required language use opportunities outside the classroom but does not initiate them independently.",
+      "Student occasionally initiates language use opportunities outside the classroom.",
+      "Student regularly initiates and sustains language use opportunities outside the classroom, seeking out opportunities to practice and improve.",
+      "Student actively seeks, creates, and sustains multiple language use opportunities outside the classroom, serving as a model for others."
+    ]
+  ]
+}

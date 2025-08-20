@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of protective equipment for teeth during sports and recreational activities.",
+    "Identification of protective equipment for eyes during sports and recreational activities.",
+    "Identification of protective equipment for head during sports and recreational activities.",
+    "Identification of protective equipment for neck during sports and recreational activities."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No identification of protective equipment for teeth.",
+      "Identifies one piece of protective equipment for teeth, but it may be incorrect or not suitable for the activity.",
+      "Identifies one appropriate piece of protective equipment for teeth for some activities.",
+      "Identifies appropriate protective equipment for teeth for most activities, but lacks detail.",
+      "Clearly identifies and explains the use of appropriate protective equipment for teeth across a variety of sports and recreational activities.",
+      "Provides a comprehensive overview of protective equipment for teeth, including specific examples and justifications for their use in various sports and recreational activities; also addresses maintenance and care."
+    ],
+    [
+      "No identification of protective equipment for eyes.",
+      "Identifies one piece of protective equipment for eyes, but it may be incorrect or not suitable for the activity.",
+      "Identifies one appropriate piece of protective equipment for eyes for some activities.",
+      "Identifies appropriate protective equipment for eyes for most activities, but lacks detail.",
+      "Clearly identifies and explains the use of appropriate protective equipment for eyes across a variety of sports and recreational activities.",
+      "Provides a comprehensive overview of protective equipment for eyes, including specific examples and justifications for their use in various sports and recreational activities; also addresses maintenance and care."
+    ],
+    [
+      "No identification of protective equipment for head.",
+      "Identifies one piece of protective equipment for head, but it may be incorrect or not suitable for the activity.",
+      "Identifies one appropriate piece of protective equipment for head for some activities.",
+      "Identifies appropriate protective equipment for head for most activities, but lacks detail.",
+      "Clearly identifies and explains the use of appropriate protective equipment for head across a variety of sports and recreational activities.",
+      "Provides a comprehensive overview of protective equipment for head, including specific examples and justifications for their use in various sports and recreational activities; also addresses maintenance and care."
+    ],
+    [
+      "No identification of protective equipment for neck.",
+      "Identifies one piece of protective equipment for neck, but it may be incorrect or not suitable for the activity.",
+      "Identifies one appropriate piece of protective equipment for neck for some activities.",
+      "Identifies appropriate protective equipment for neck for most activities, but lacks detail.",
+      "Clearly identifies and explains the use of appropriate protective equipment for neck across a variety of sports and recreational activities.",
+      "Provides a comprehensive overview of protective equipment for neck, including specific examples and justifications for their use in various sports and recreational activities; also addresses maintenance and care."
+    ]
+  ]
+}

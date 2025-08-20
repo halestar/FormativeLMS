@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Risks",
+    "Analysis of Harmful Effects",
+    "Importance of Physician Supervision"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the risks associated with using diet pills without physician supervision.",
+      "Shows a minimal understanding of the risks; may confuse different types of pills or side effects.",
+      "Identifies some risks, such as potential side effects, but lacks depth in explanation or understanding of long-term consequences.",
+      "Explains several risks clearly, including potential side effects and interactions with other medications, but may not fully articulate long-term health impacts.",
+      "Thoroughly explains a wide range of risks, including cardiovascular issues, psychological effects, and dependency, and provides some explanation of long-term health impacts.",
+      "Demonstrates a comprehensive and nuanced understanding of the immediate and long-term risks, including detailed explanations of physiological and psychological effects, as well as potential for addiction and severe health complications, all backed by credible information."
+    ],
+    [
+      "Unable to analyze or describe any harmful effects of diet pills.",
+      "Lists one or two general harmful effects without providing specific details or analysis.",
+      "Identifies some specific harmful effects like increased heart rate or insomnia but provides limited analysis of how these effects occur.",
+      "Analyzes several harmful effects, explaining how they impact the body's systems, but lacks in-depth discussion of potential long-term consequences.",
+      "Provides a detailed analysis of multiple harmful effects, explaining physiological mechanisms and potential long-term consequences such as organ damage or mental health disorders.",
+      "Conducts a comprehensive and insightful analysis of the interconnected harmful effects, including potential for multi-system organ failure, severe psychological disorders, and provides a nuanced understanding of the factors influencing these effects."
+    ],
+    [
+      "Does not recognize the importance of physician supervision when using diet pills.",
+      "Acknowledges the need for some supervision, but does not elaborate or understand why it is essential.",
+      "Explains that a doctor should be consulted, but lacks specifics on the benefits of medical oversight.",
+      "Details several reasons why physician supervision is important, such as monitoring side effects and preventing drug interactions, but may not mention individual health considerations.",
+      "Clearly articulates the multiple critical benefits of physician supervision, including personalized health assessment, tailored dosage adjustments, and management of potential interactions with pre-existing conditions or medications.",
+      "Presents a compelling and thoroughly reasoned argument for the absolute necessity of physician supervision, discussing ethical considerations, legal ramifications, and the potential for irreversible harm if diet pills are used without medical oversight, demonstrating a deep understanding of patient safety and responsible healthcare practices."
+    ]
+  ]
+}

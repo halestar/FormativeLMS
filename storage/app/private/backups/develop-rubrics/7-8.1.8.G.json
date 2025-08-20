@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Individual Differences",
+    "Recognition of Growth and Development Variations",
+    "Sensitivity and Respect Towards Gender Roles and Sexual Orientation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of individual differences in growth, development, physical appearance, gender roles, or sexual orientation.",
+      "Demonstrates a limited understanding of individual differences; struggles to identify or explain these differences.",
+      "Identifies some individual differences but explanation is superficial or incomplete.",
+      "Adequately recognizes and explains individual differences, providing basic examples.",
+      "Clearly recognizes and explains individual differences, offering detailed examples and showing good understanding.",
+      "Demonstrates a comprehensive understanding of individual differences, provides insightful examples, and explains the importance of acceptance and respect."
+    ],
+    [
+      "Does not recognize or acknowledge differences in growth and development.",
+      "Shows minimal awareness of variations in growth and development; cannot provide examples.",
+      "Acknowledges variations in growth and development but lacks depth in explanation.",
+      "Recognizes and explains variations in growth and development with adequate detail.",
+      "Clearly articulates variations in growth and development, providing specific examples and explanations.",
+      "Demonstrates a thorough understanding of variations in growth and development, including factors influencing these differences."
+    ],
+    [
+      "Shows a lack of sensitivity or respect towards different gender roles and sexual orientations.",
+      "Demonstrates limited sensitivity or respect; may use inappropriate language or stereotypes.",
+      "Shows some awareness of gender roles and sexual orientation but may struggle with respectful communication.",
+      "Communicates respectfully regarding gender roles and sexual orientation with limited detail.",
+      "Clearly communicates respectfully and sensitively regarding gender roles and sexual orientation, showing awareness of diverse perspectives.",
+      "Demonstrates exceptional sensitivity and respect, advocating for inclusivity and understanding of diverse gender roles and sexual orientations."
+    ]
+  ]
+}

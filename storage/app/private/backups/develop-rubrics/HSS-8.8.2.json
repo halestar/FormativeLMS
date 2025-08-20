@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the purpose and economic incentives of Westward Expansion.",
+    "Knowledge of key events and concepts related to Westward Expansion (e.g., Lewis and Clark expedition, Manifest Destiny, Trail of Tears).",
+    "Awareness of the challenges associated with Westward Expansion, including the impact on Native Americans.",
+    "Understanding of territorial acquisitions and their timeline."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the purposes or economic incentives behind westward expansion.",
+      "Demonstrates a limited understanding of either the purposes OR the economic incentives behind westward expansion.",
+      "Demonstrates a basic understanding of the purposes and economic incentives behind westward expansion, but lacks depth.",
+      "Demonstrates a satisfactory understanding of the purposes and economic incentives behind westward expansion, providing some supporting details.",
+      "Demonstrates a strong understanding of the purposes and economic incentives behind westward expansion, providing clear and relevant supporting details.",
+      "Demonstrates a comprehensive and nuanced understanding of the purposes and economic incentives behind westward expansion, providing insightful supporting details and analysis."
+    ],
+    [
+      "Shows no knowledge of key events or concepts related to westward expansion.",
+      "Shows minimal knowledge of key events or concepts; struggles to identify or define them.",
+      "Identifies some key events and concepts, but demonstrates limited understanding or provides inaccurate details.",
+      "Accurately identifies and describes key events and concepts, demonstrating a general understanding of their significance.",
+      "Demonstrates a strong understanding of key events and concepts, explaining their significance and interconnections with relevant and accurate details.",
+      "Demonstrates a comprehensive and nuanced understanding of key events and concepts, providing insightful analysis of their significance, interconnections, and long-term impact."
+    ],
+    [
+      "Shows no awareness of the challenges associated with westward expansion or its impact on Native Americans.",
+      "Demonstrates a limited awareness of the challenges associated with westward expansion, with minimal or inaccurate information about the impact on Native Americans.",
+      "Identifies some challenges associated with westward expansion and acknowledges the impact on Native Americans, but lacks depth or detail.",
+      "Describes several challenges associated with westward expansion, including the impact on Native Americans, providing some supporting details.",
+      "Explains the significant challenges associated with westward expansion, including a clear and detailed explanation of the impact on Native Americans, providing relevant supporting details.",
+      "Analyzes the complex challenges associated with westward expansion, including a comprehensive and nuanced understanding of the devastating impact on Native Americans, providing insightful supporting details and analysis of multiple perspectives."
+    ],
+    [
+      "Demonstrates no understanding of territorial acquisitions.",
+      "Demonstrates minimal understanding of territorial acquisitions, or a misunderstanding of the acquisitions themselves.",
+      "Identifies some territorial acquisitions, but unable to create an understanding of the timeline.",
+      "Accurately identifies and describes many territorial acquisitions, and can generally explain the timeline.",
+      "Demonstrates a strong understanding of the territorial acquisitions and can accurately describe the timeline and impacts of those acquisitions.",
+      "Demonstrates a comprehensive and nuanced understanding of territorial acquisitions, with a excellent knowledge of the timeline, impacts, and overall significance."
+    ]
+  ]
+}

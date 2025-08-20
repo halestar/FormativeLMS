@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Hierarchical Relationships",
+    "Application of Properties",
+    "Explanation and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of how shapes are related, nor can they identify the attributes of the shapes themselves.",
+      "Student can identify the attributes of some shapes, but they do not understand the hierarchical relationships (e.g., knows a square has 4 right angles but doesn't realize it's also a rectangle).",
+      "Student shows basic understanding of hierarchical relationships, but with significant gaps or misconceptions. They might confuse subcategories or misattribute properties.",
+      "Student correctly classifies most two-dimensional figures into categories based on their properties and recognizes some subcategories, but may struggle with more complex shapes or less obvious relationships.",
+      "Student demonstrates a strong understanding of hierarchical relationships, accurately classifying figures and explaining how attributes apply across categories and subcategories with only minor errors.",
+      "Student demonstrates a comprehensive understanding of hierarchical relationships between two-dimensional figures, flawlessly classifying figures and clearly explaining how attributes are inherited across categories and subcategories. They can also provide counterexamples and justifications."
+    ],
+    [
+      "Student is unable to apply the properties of shapes to classify them or identify relationships.",
+      "Student can identify some basic properties but struggles to use them for classification.",
+      "Student can apply properties to classify simple shapes but struggles with more complex figures or nuanced properties.",
+      "Student generally applies properties correctly for classification but may make occasional errors or lack precision.",
+      "Student consistently applies properties accurately and efficiently to classify a wide range of shapes.",
+      "Student expertly applies properties, including those not explicitly taught, to classify and analyze two-dimensional figures, demonstrating a deep understanding of geometric principles."
+    ],
+    [
+      "Student cannot explain or justify their classifications.",
+      "Student provides minimal explanations that are unclear or inaccurate.",
+      "Student's explanations are partially correct but lack detail or clarity.",
+      "Student provides adequate explanations and justifications for their classifications, but may lack precision or depth.",
+      "Student clearly and accurately explains and justifies their classifications, using appropriate terminology and logical reasoning.",
+      "Student provides insightful and comprehensive explanations and justifications, demonstrating a deep understanding of the underlying geometric principles and relationships."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Model of Particle Motion",
+    "Relationship Between Temperature and Particle Motion",
+    "Prediction of State Changes",
+    "Understanding of Thermal Energy and Heat"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No model is presented, or the model does not represent particles.",
+      "The model includes particles, but their motion is not represented.",
+      "The model represents particle motion, but it is inaccurate or incomplete.",
+      "The model accurately represents particle motion in one state of matter (solid, liquid, or gas).",
+      "The model accurately represents particle motion in multiple states of matter but does not show the transition between them.",
+      "The model accurately represents particle motion in different states of matter and demonstrates the transitions between them with changing thermal energy."
+    ],
+    [
+      "No relationship between temperature and particle motion is indicated.",
+      "A vague or inaccurate relationship between temperature and particle motion is suggested.",
+      "The relationship between temperature and particle motion is mentioned, but without clear connections.",
+      "The relationship between temperature and particle motion is correctly described for one state of matter.",
+      "The relationship between temperature and particle motion is correctly described for multiple states of matter.",
+      "The relationship between temperature, particle motion, and kinetic energy is clearly and accurately described for all states of matter and their transitions."
+    ],
+    [
+      "No prediction of state changes is attempted.",
+      "An attempt to predict state changes is made, but it is incorrect or based on flawed reasoning.",
+      "State changes are mentioned, but there is no clear prediction based on thermal energy.",
+      "The model predicts one state change (e.g., solid to liquid) based on the addition or removal of thermal energy.",
+      "The model predicts multiple state changes but lacks detailed explanation.",
+      "The model accurately predicts and explains multiple state changes (solid, liquid, gas) based on the addition or removal of thermal energy, including detailed reasoning about molecular behavior."
+    ],
+    [
+      "Demonstrates no understanding of thermal energy or heat.",
+      "Confuses thermal energy with other forms of energy or demonstrates significant misconceptions.",
+      "Demonstrates a basic understanding of thermal energy but struggles to differentiate it from temperature.",
+      "Correctly defines thermal energy and heat, but cannot clearly explain the difference between the two.",
+      "Clearly defines thermal energy and heat, and explains the difference, but does not accurately use the terms.",
+      "Clearly and accurately defines thermal energy and heat, correctly using both terms and explaining how they relate to particle motion and temperature."
+    ]
+  ]
+}

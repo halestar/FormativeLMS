@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately compare the number of objects in two groups.",
+    "Use of appropriate strategies (matching and counting) to compare groups.",
+    "Accuracy in identifying if a group is greater than, less than, or equal to another group."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot compare the number of objects in the groups.",
+      "Student attempts to compare but makes significant errors in counting or matching.",
+      "Student can compare groups with assistance, showing some understanding of matching or counting but still makes frequent mistakes.",
+      "Student accurately compares the number of objects in most groups using matching or counting strategies, with only minor errors.",
+      "Student consistently and accurately compares the number of objects in the groups using efficient matching or counting strategies.",
+      "Student demonstrates a thorough understanding of comparison by accurately comparing the number of objects in various arrangements, and can explain the reasoning behind the comparison."
+    ],
+    [
+      "Student does not use matching or counting strategies.",
+      "Student attempts to use matching or counting strategies but cannot execute them effectively.",
+      "Student uses matching or counting strategies with significant guidance and support.",
+      "Student can use matching or counting strategies independently for simpler comparisons.",
+      "Student effectively uses matching and counting strategies independently to accurately compare number of objects.",
+      "Student demonstrates a sophisticated understanding of comparison strategies, using them flexibly and accurately, and can explain why they chose a particular strategy."
+    ],
+    [
+      "Student cannot correctly identify 'greater than', 'less than', or 'equal to'.",
+      "Student occasionally identifies the correct relationship but makes numerous errors.",
+      "Student needs prompting to identify the correct relationship and often confuses 'greater than' and 'less than'.",
+      "Student accurately identifies 'greater than', 'less than', or 'equal to' for most comparisons.",
+      "Student consistently and accurately identifies 'greater than', 'less than', or 'equal to' for all comparisons.",
+      "Student demonstrates mastery in identifying relationships, can explain their reasoning, and can apply the concept to real-world scenarios."
+    ]
+  ]
+}

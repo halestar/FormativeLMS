@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Cooperation: Accurately identifies instances of cooperation between colonists and American Indians during the 1600s and 1700s.",
+    "Description of Cooperation: Describes the nature and extent of cooperation in specific areas such as agriculture, fur trade, military alliances, treaties, and cultural interchanges.",
+    "Analysis of Cooperation: Analyzes the reasons for and benefits of cooperation for both colonists and American Indians."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any instances of cooperation between colonists and American Indians.",
+      "Identifies only one instance of cooperation, but it is vague or inaccurate.",
+      "Identifies a few instances of cooperation, but lacks detail or accuracy.",
+      "Identifies several instances of cooperation with some detail and reasonable accuracy.",
+      "Identifies multiple instances of cooperation with good detail and accuracy, demonstrating a solid understanding.",
+      "Identifies a comprehensive range of cooperative interactions with excellent detail and accuracy, showcasing a thorough understanding."
+    ],
+    [
+      "Unable to describe the nature or extent of cooperation in any area.",
+      "Provides a superficial description of cooperation in one area, lacking specific details.",
+      "Describes cooperation in a few areas, but the descriptions are basic and lack depth.",
+      "Provides reasonably detailed descriptions of cooperation in several areas, demonstrating a good understanding.",
+      "Offers detailed and insightful descriptions of cooperation in multiple areas, showcasing a strong grasp of the subject.",
+      "Presents comprehensive and nuanced descriptions of cooperation across various areas, revealing an exceptional understanding and ability to synthesize information."
+    ],
+    [
+      "Offers no analysis of the reasons for or benefits of cooperation.",
+      "Provides a very basic or inaccurate analysis of the reasons or benefits of cooperation for one group.",
+      "Analyzes the reasons or benefits of cooperation for both groups, but lacks depth or clarity.",
+      "Offers a reasonably clear analysis of the reasons for and benefits of cooperation for both colonists and American Indians.",
+      "Provides a detailed and insightful analysis of the reasons for and benefits of cooperation, demonstrating a strong understanding of historical context.",
+      "Presents a sophisticated and nuanced analysis of the reasons for and benefits of cooperation, demonstrating exceptional insight and ability to connect cooperation to broader historical themes."
+    ]
+  ]
+}

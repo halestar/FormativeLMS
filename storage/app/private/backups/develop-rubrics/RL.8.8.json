@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Author's Purpose",
+    "Evaluating the Validity of Arguments",
+    "Analyzing the Relevance and Sufficiency of Evidence",
+    "Identifying False Statements and Fallacious Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the author's purpose in providing arguments or claims in a text.",
+      "The student shows minimal understanding of the author's purpose, struggling to identify the main reason for specific arguments or claims.",
+      "The student identifies the author's purpose with some difficulty, providing vague or partially accurate explanations.",
+      "The student adequately identifies the author's purpose, providing clear explanations with supporting details from the text.",
+      "The student demonstrates a strong understanding of the author's purpose, thoroughly explaining how specific arguments or claims support that purpose.",
+      "The student demonstrates an exceptional understanding of the author's purpose, providing insightful analysis and evaluation of how the author's arguments or claims effectively achieve that purpose."
+    ],
+    [
+      "The student does not evaluate the validity of arguments presented in the text.",
+      "The student attempts to evaluate the validity of arguments but provides irrelevant or unsupported claims.",
+      "The student identifies some valid arguments but struggles to provide evidence or justification.",
+      "The student evaluates the validity of arguments with reasonable support, identifying both strengths and weaknesses.",
+      "The student provides a comprehensive evaluation of the validity of arguments, offering well-reasoned support and considering alternative perspectives.",
+      "The student offers a sophisticated and nuanced evaluation of the validity of arguments, demonstrating critical thinking and independent judgment."
+    ],
+    [
+      "The student does not analyze the relevance or sufficiency of evidence presented in the text.",
+      "The student attempts to analyze evidence but struggles to determine its relevance or sufficiency.",
+      "The student identifies some relevant evidence but fails to assess its sufficiency or adequately explain its significance.",
+      "The student analyzes the relevance and sufficiency of evidence with reasonable clarity and coherence.",
+      "The student provides a comprehensive analysis of the relevance and sufficiency of evidence, offering well-reasoned explanations and considering alternative interpretations.",
+      "The student demonstrates exceptional insight in analyzing the relevance and sufficiency of evidence, offering a nuanced and critical evaluation of its implications."
+    ],
+    [
+      "The student does not identify any false statements or instances of fallacious reasoning in the text.",
+      "The student struggles to identify false statements or fallacious reasoning, providing inaccurate or unsubstantiated claims.",
+      "The student identifies some false statements or fallacious reasoning but fails to adequately explain their significance or impact.",
+      "The student accurately identifies false statements and instances of fallacious reasoning, providing clear explanations with supporting evidence.",
+      "The student thoroughly analyzes false statements and fallacious reasoning, explaining their impact on the overall argument.",
+      "The student demonstrates exceptional insight in identifying and analyzing false statements and fallacious reasoning, offering a nuanced and critical evaluation of their implications."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Geographic Features",
+    "Explanation of Impact on Governance",
+    "Explanation of Impact on the Spread of Ideas and Goods",
+    "Explanation of China's Isolation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of China's geographic features.",
+      "Student identifies one or two geographic features of China but struggles to explain their impact.",
+      "Student identifies some geographic features (mountains, deserts, rivers) and provides a limited explanation of their influence on governance, spread of ideas, and isolation.",
+      "Student identifies key geographic features of China and explains how they made governance and the spread of ideas\/goods challenging. Mentions the country's relative isolation.",
+      "Student clearly explains how specific geographic features (e.g., Himalayas, Gobi Desert, Yangtze River) significantly hindered governance, limited the spread of ideas and goods, and contributed to China's isolation.",
+      "Student provides a comprehensive analysis of how China's geographic features profoundly shaped its governance, commerce, and cultural exchange, with detailed examples of both challenges and adaptations. Student also compares China to another civilization and how geography affected them."
+    ],
+    [
+      "Student does not attempt to explain how geographic features impacted governance.",
+      "Student makes a vague or inaccurate statement about the relationship between geography and governance.",
+      "Student offers a basic explanation of how one or two geographic features affected governance.",
+      "Student explains how geographic features presented challenges to centralized control and communication across China.",
+      "Student provides specific examples of how geographic barriers complicated governance (e.g., difficulty in tax collection, enforcing laws, military campaigns).",
+      "Student analyzes the long-term effects of geographic challenges on the evolution of Chinese political systems and strategies for maintaining control. Compares different dynasties and how they overcame these challenges."
+    ],
+    [
+      "Student does not address how geographic features affected the spread of ideas and goods.",
+      "Student makes an irrelevant or incorrect statement about the spread of ideas and goods.",
+      "Student identifies that geographic features made trade and communication difficult but lacks detail.",
+      "Student explains how geographic barriers slowed down or restricted the movement of people, goods, and ideas within and beyond China.",
+      "Student provides specific examples of how geographic features (e.g., mountain passes, river systems) either facilitated or hindered trade routes and cultural exchange.",
+      "Student evaluates the impact of geographic constraints on China's economic development, technological innovation, and cultural interactions with other regions, including an analysis of the Silk Road."
+    ],
+    [
+      "Student does not mention China's isolation.",
+      "Student mentions China's isolation but provides no explanation.",
+      "Student states that geographic features contributed to China's isolation but provides a weak explanation.",
+      "Student explains how geographic features contributed to China's relative isolation from other civilizations.",
+      "Student analyzes how geographic isolation influenced China's unique cultural development and its perception of the outside world.",
+      "Student compares and contrasts China's experience of isolation with that of other civilizations, evaluating the consequences and adaptations that resulted."
+    ]
+  ]
+}

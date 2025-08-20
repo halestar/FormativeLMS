@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Complementary Angles",
+    "Application of Sine and Cosine Relationship",
+    "Explanation of the Relationship"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of complementary angles is demonstrated.",
+      "Demonstrates minimal understanding of complementary angles; struggles to define or identify them.",
+      "Demonstrates basic understanding of complementary angles but has difficulty applying it to trigonometric ratios.",
+      "Demonstrates satisfactory understanding of complementary angles and can relate them to sine and cosine in simple cases.",
+      "Demonstrates strong understanding of complementary angles and effectively applies this knowledge to explain the relationship between sine and cosine.",
+      "Demonstrates comprehensive understanding of complementary angles, applies this knowledge to explain the relationship between sine and cosine in complex scenarios, and can provide insightful examples."
+    ],
+    [
+      "No application of sine and cosine relationship is demonstrated.",
+      "Struggles to apply the relationship between sine and cosine of complementary angles; unable to solve related problems.",
+      "Attempts to apply the relationship but makes significant errors; can solve only the most basic problems.",
+      "Applies the relationship with some errors; can solve moderately complex problems with guidance.",
+      "Applies the relationship accurately and solves complex problems involving sine and cosine of complementary angles with minimal errors.",
+      "Applies the relationship flawlessly, solves complex problems efficiently, and can explain the reasoning behind each step."
+    ],
+    [
+      "Unable to explain the relationship between sine and cosine of complementary angles.",
+      "Provides a vague or inaccurate explanation of the relationship.",
+      "Provides a basic explanation but lacks clarity and detail.",
+      "Provides a clear explanation of the relationship with some supporting details.",
+      "Provides a thorough and well-supported explanation of the relationship, using correct terminology and examples.",
+      "Provides an exceptionally clear, insightful, and comprehensive explanation of the relationship, demonstrating a deep understanding of the underlying concepts."
+    ]
+  ]
+}

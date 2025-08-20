@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Complex Numbers",
+    "Application of Polynomial Identities",
+    "Extension to Higher Degree Polynomials",
+    "Accuracy of Calculations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of complex numbers is demonstrated.",
+      "Struggles to identify complex numbers and their components (real and imaginary parts).",
+      "Identifies complex numbers but shows limited understanding of their properties.",
+      "Understands complex numbers and their basic properties.",
+      "Demonstrates a solid understanding of complex numbers, including operations and representations.",
+      "Exhibits a comprehensive understanding of complex numbers and their applications in various mathematical contexts."
+    ],
+    [
+      "Unable to apply polynomial identities to complex numbers.",
+      "Attempts to apply polynomial identities but makes significant errors in calculations or reasoning.",
+      "Applies polynomial identities with some accuracy but struggles with more complex problems.",
+      "Applies polynomial identities to complex numbers with reasonable accuracy.",
+      "Effectively applies polynomial identities to solve problems involving complex numbers.",
+      "Skillfully applies polynomial identities to solve complex problems involving complex numbers and provides clear, concise explanations."
+    ],
+    [
+      "Unable to extend polynomial identities to higher-degree polynomials with complex numbers.",
+      "Attempts to extend polynomial identities but struggles with the algebraic manipulations involved.",
+      "Extends polynomial identities with limited success, making errors in simplification or factorization.",
+      "Extends polynomial identities to higher-degree polynomials with some accuracy.",
+      "Extends polynomial identities effectively to solve problems involving higher-degree polynomials with complex numbers.",
+      "Demonstrates mastery in extending polynomial identities to higher-degree polynomials with complex numbers and can apply these techniques to novel problems."
+    ],
+    [
+      "Calculations are consistently incorrect, leading to incorrect solutions.",
+      "Makes frequent errors in calculations, impacting the accuracy of solutions.",
+      "Calculations are mostly accurate but contains occasional errors.",
+      "Performs calculations accurately for the most part.",
+      "Performs calculations with a high degree of accuracy, with only minor errors.",
+      "Demonstrates consistently accurate calculations, with no errors."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Interest Rates",
+    "Explanation of Relative Significance",
+    "Application to the U.S. Economy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of interest rates.",
+      "The student demonstrates a minimal understanding of interest rates, with significant misconceptions.",
+      "The student demonstrates a basic understanding of interest rates but struggles to differentiate between short-term and long-term rates.",
+      "The student can differentiate between short-term and long-term interest rates but struggles to explain their significance.",
+      "The student accurately distinguishes between short-term and long-term interest rates and explains their significance with some minor gaps.",
+      "The student clearly and accurately distinguishes between short-term and long-term interest rates and thoroughly explains their significance, demonstrating a strong understanding."
+    ],
+    [
+      "The student does not attempt to explain the significance of interest rates.",
+      "The student attempts to explain the significance of interest rates but provides irrelevant or inaccurate information.",
+      "The student provides a vague explanation of the significance of interest rates with limited detail.",
+      "The student explains the significance of interest rates with some inaccuracies or omissions.",
+      "The student provides a generally accurate explanation of the significance of interest rates, relating them to economic activity.",
+      "The student provides a comprehensive and insightful explanation of the significance of interest rates, clearly linking them to economic activity and providing relevant examples."
+    ],
+    [
+      "The student does not connect interest rates to the U.S. economy.",
+      "The student attempts to connect interest rates to the U.S. economy but demonstrates a lack of understanding of how they interact.",
+      "The student makes a superficial connection between interest rates and the U.S. economy.",
+      "The student explains how interest rates affect the U.S. economy but omits key details.",
+      "The student accurately explains how interest rates affect the U.S. economy.",
+      "The student explains how interest rates affect the U.S. economy with specific examples and demonstrates a comprehensive understanding of the complexities involved."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Data Representation",
+    "Appropriateness of Plot Choice",
+    "Interpretation of Data"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to represent the data, or the representation is completely inaccurate and irrelevant.",
+      "The student attempts to represent the data, but the representation contains significant errors and does not accurately reflect the data.",
+      "The student represents the data, but there are noticeable inaccuracies that affect the interpretation.",
+      "The student accurately represents the data with minor errors that do not significantly impact interpretation.",
+      "The student accurately represents the data with clear and precise plots, with attention to detail.",
+      "The student flawlessly represents the data, demonstrating a sophisticated understanding of data representation techniques with perfectly precise plots."
+    ],
+    [
+      "The student selects a plot type that is completely inappropriate for the data, or no plot is chosen.",
+      "The student selects a plot type that is poorly suited for the data, hindering effective data display.",
+      "The student selects a plot type that is somewhat appropriate, but a more suitable option exists.",
+      "The student selects an appropriate plot type that generally suits the data and its characteristics.",
+      "The student thoughtfully selects a plot type that is well-suited for highlighting key aspects of the data.",
+      "The student expertly selects the most effective plot type, demonstrating a deep understanding of how different plots showcase data."
+    ],
+    [
+      "The student provides no interpretation of the data, or the interpretation is entirely unrelated to the representation.",
+      "The student attempts to interpret the data, but the interpretation is superficial and contains major misconceptions.",
+      "The student's interpretation is partially correct but lacks depth and insight.",
+      "The student provides a reasonable interpretation of the data, identifying basic patterns and trends.",
+      "The student offers a thorough and insightful interpretation of the data, drawing valid conclusions.",
+      "The student presents a sophisticated and nuanced interpretation of the data, uncovering subtle patterns and providing comprehensive insights."
+    ]
+  ]
+}

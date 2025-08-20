@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Importance of Personal Hygiene",
+    "Ability to Develop Specific Hygiene Plans",
+    "Knowledge of Hygiene Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of why personal hygiene is important during puberty.",
+      "The student shows a limited understanding of the importance of personal hygiene during puberty, with significant gaps in knowledge.",
+      "The student demonstrates a basic understanding of the importance of personal hygiene during puberty, but struggles to explain the reasons why.",
+      "The student demonstrates a satisfactory understanding of the importance of personal hygiene during puberty and can explain some of the reasons.",
+      "The student demonstrates a strong understanding of the importance of personal hygiene during puberty and clearly articulates the reasons why it's important.",
+      "The student demonstrates a comprehensive understanding of the importance of personal hygiene during puberty, clearly articulates the reasons, and can connect it to overall health and well-being."
+    ],
+    [
+      "The student is unable to develop any plans for maintaining personal hygiene during puberty.",
+      "The student attempts to develop hygiene plans, but they are vague, incomplete, and impractical.",
+      "The student develops basic hygiene plans that cover some essential aspects but lack detail and consistency.",
+      "The student develops reasonably detailed hygiene plans that address most essential aspects of personal hygiene during puberty.",
+      "The student develops comprehensive and practical hygiene plans that address all essential aspects of personal hygiene during puberty.",
+      "The student develops highly detailed, comprehensive, and personalized hygiene plans that demonstrate a deep understanding of individual needs and circumstances during puberty."
+    ],
+    [
+      "The student demonstrates no knowledge of specific hygiene practices relevant to puberty.",
+      "The student demonstrates limited knowledge of specific hygiene practices, with several inaccuracies.",
+      "The student identifies a few basic hygiene practices, but demonstrates uncertainty about their correct application.",
+      "The student demonstrates a good understanding of several hygiene practices and generally understands how to apply them correctly.",
+      "The student demonstrates a comprehensive understanding of a wide range of hygiene practices and their correct application.",
+      "The student demonstrates expert knowledge of a wide range of hygiene practices, their correct application, and can explain the scientific rationale behind them."
+    ]
+  ]
+}

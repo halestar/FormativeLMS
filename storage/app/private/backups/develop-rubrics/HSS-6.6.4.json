@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Political Problems",
+    "Identification of Cultural Problems",
+    "Explanation of Confucius's Solutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify any political problems prevalent during Confucius's time.",
+      "Student identifies one political problem with limited accuracy or detail.",
+      "Student identifies two political problems with some accuracy but lacks depth in explanation.",
+      "Student identifies three political problems with reasonable accuracy and provides basic explanations.",
+      "Student identifies four political problems accurately and provides detailed explanations, demonstrating a good understanding.",
+      "Student comprehensively identifies and explains multiple political problems prevalent during Confucius's time, demonstrating a deep and nuanced understanding."
+    ],
+    [
+      "Student fails to identify any cultural problems prevalent during Confucius's time.",
+      "Student identifies one cultural problem with limited accuracy or detail.",
+      "Student identifies two cultural problems with some accuracy but lacks depth in explanation.",
+      "Student identifies three cultural problems with reasonable accuracy and provides basic explanations.",
+      "Student identifies four cultural problems accurately and provides detailed explanations, demonstrating a good understanding.",
+      "Student comprehensively identifies and explains multiple cultural problems prevalent during Confucius's time, demonstrating a deep and nuanced understanding."
+    ],
+    [
+      "Student fails to explain how Confucius sought to solve the identified problems.",
+      "Student offers a vague or inaccurate explanation of Confucius's solutions.",
+      "Student provides a basic explanation of one or two of Confucius's solutions with limited detail.",
+      "Student explains several of Confucius's solutions with reasonable accuracy and some detail.",
+      "Student clearly and accurately explains how Confucius sought to solve the political and cultural problems, demonstrating a good understanding of his philosophy.",
+      "Student provides a comprehensive and insightful explanation of Confucius's solutions, including the underlying principles and their intended impact, demonstrating a deep understanding of Confucianism."
+    ]
+  ]
+}

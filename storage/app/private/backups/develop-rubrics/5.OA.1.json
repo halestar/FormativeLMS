@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Order of Operations (PEMDAS\/BODMAS)",
+    "Accurate Use of Parentheses, Brackets, and Braces",
+    "Simplification and Evaluation Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of order of operations or the role of parentheses, brackets, and braces.",
+      "Demonstrates a limited understanding of order of operations, often making errors when evaluating expressions with multiple operations and grouping symbols.",
+      "Shows a basic understanding of order of operations but struggles with more complex expressions or makes occasional errors with grouping symbols.",
+      "Demonstrates a solid understanding of order of operations and correctly evaluates expressions with parentheses, brackets, and braces in most cases.",
+      "Consistently applies the order of operations correctly to evaluate numerical expressions, including those with nested grouping symbols.",
+      "Demonstrates a comprehensive understanding of order of operations and grouping symbols, accurately evaluating complex numerical expressions and explaining the reasoning behind each step."
+    ],
+    [
+      "Incorrectly uses or omits parentheses, brackets, and braces, leading to incorrect evaluations.",
+      "Shows inconsistent use of parentheses, brackets, and braces, sometimes using them correctly but often making errors.",
+      "Generally uses parentheses, brackets, and braces correctly, but may struggle with nested or more complex expressions.",
+      "Consistently uses parentheses, brackets, and braces correctly in a variety of numerical expressions.",
+      "Demonstrates accurate and strategic use of parentheses, brackets, and braces to clarify and simplify numerical expressions.",
+      "Uses parentheses, brackets, and braces with precision and insight, demonstrating a deep understanding of their impact on the evaluation of expressions."
+    ],
+    [
+      "Unable to simplify or evaluate numerical expressions with grouping symbols.",
+      "Struggles to simplify and evaluate expressions, making frequent errors in arithmetic or application of order of operations.",
+      "Can simplify and evaluate basic expressions with grouping symbols, but struggles with more complex or multi-step problems.",
+      "Demonstrates proficiency in simplifying and evaluating a variety of numerical expressions with grouping symbols, with only minor errors.",
+      "Consistently simplifies and evaluates numerical expressions accurately and efficiently, showing a strong command of arithmetic and algebraic techniques.",
+      "Demonstrates mastery in simplifying and evaluating complex numerical expressions, employing sophisticated strategies and justifying each step with clarity and precision."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of strategies for increasing fruit consumption.",
+    "Identification of strategies for increasing vegetable consumption.",
+    "Understanding of the benefits of consuming more fruits and vegetables."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No strategies are identified.",
+      "Identifies only one strategy, but it is vague or impractical.",
+      "Identifies 1-2 strategies that are somewhat practical, but lack detail.",
+      "Identifies 2-3 practical strategies with some detail.",
+      "Identifies 3-4 practical strategies with clear and detailed explanations.",
+      "Identifies 4 or more practical strategies with comprehensive and insightful explanations."
+    ],
+    [
+      "No strategies are identified.",
+      "Identifies only one strategy, but it is vague or impractical.",
+      "Identifies 1-2 strategies that are somewhat practical, but lack detail.",
+      "Identifies 2-3 practical strategies with some detail.",
+      "Identifies 3-4 practical strategies with clear and detailed explanations.",
+      "Identifies 4 or more practical strategies with comprehensive and insightful explanations."
+    ],
+    [
+      "Demonstrates no understanding of the benefits.",
+      "Demonstrates a limited understanding of the benefits.",
+      "Demonstrates a basic understanding of the benefits.",
+      "Demonstrates a satisfactory understanding of the benefits.",
+      "Demonstrates a thorough understanding of the benefits.",
+      "Demonstrates a comprehensive and insightful understanding of the benefits, including specific examples."
+    ]
+  ]
+}

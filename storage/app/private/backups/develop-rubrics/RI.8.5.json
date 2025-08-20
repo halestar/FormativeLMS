@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of the paragraph's purpose and its central idea.",
+    "Analysis of how individual sentences contribute to the development of the central idea.",
+    "Understanding and analysis of text features (graphics, headers, captions) in consumer materials."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the paragraph's purpose or central idea.",
+      "Incorrectly identifies the paragraph's purpose or central idea.",
+      "Identifies the paragraph's purpose and central idea superficially.",
+      "Identifies the paragraph's purpose and central idea with some accuracy.",
+      "Clearly identifies the paragraph's purpose and central idea, demonstrating understanding.",
+      "Insightfully identifies the paragraph's purpose and central idea, showing a nuanced understanding."
+    ],
+    [
+      "Unable to analyze the role of individual sentences.",
+      "Attempts to analyze individual sentences, but analysis is flawed.",
+      "Provides a basic analysis of how some sentences relate to the central idea.",
+      "Analyzes how most sentences contribute to the development of the central idea.",
+      "Provides a thorough analysis of how each sentence develops the central idea, explaining the connection clearly.",
+      "Offers a sophisticated and insightful analysis of how each sentence intricately develops and refines the central idea."
+    ],
+    [
+      "Demonstrates no understanding of text features or their purpose.",
+      "Shows a limited understanding of text features and their purpose.",
+      "Identifies some text features but struggles to explain their function.",
+      "Identifies and explains the function of most text features.",
+      "Clearly explains how text features contribute to the overall message in consumer materials.",
+      "Insightfully analyzes how text features enhance the message and target the audience in consumer materials."
+    ]
+  ]
+}

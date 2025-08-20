@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Spanish Exploration and Colonization",
+    "Knowledge of Relationships among Soldiers, Missionaries, and Indians",
+    "Historical Accuracy and Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Spanish exploration and colonization of California.",
+      "Shows minimal understanding of Spanish exploration and colonization, with significant inaccuracies.",
+      "Demonstrates basic understanding of Spanish exploration and colonization, but lacks depth and detail.",
+      "Demonstrates a solid understanding of Spanish exploration and colonization, including key events and figures.",
+      "Demonstrates a comprehensive understanding of Spanish exploration and colonization, providing detailed explanations and examples.",
+      "Demonstrates an exceptional understanding of Spanish exploration and colonization, including nuanced perspectives and insightful analysis."
+    ],
+    [
+      "Demonstrates no understanding of the relationships among soldiers, missionaries, and Indians.",
+      "Shows minimal understanding of the relationships, with significant inaccuracies.",
+      "Demonstrates basic understanding of the relationships, but lacks specific examples and detail.",
+      "Demonstrates a solid understanding of the relationships, including the roles of key figures like Juan Crespi, Junipero Serra, and Gaspar de Portola.",
+      "Demonstrates a comprehensive understanding of the relationships, providing detailed explanations and examples of interactions and impacts.",
+      "Demonstrates an exceptional understanding of the relationships, including nuanced perspectives on the impacts and consequences of these interactions."
+    ],
+    [
+      "Presents information with significant historical inaccuracies and no supporting evidence.",
+      "Presents information with some historical inaccuracies and minimal supporting evidence.",
+      "Presents generally accurate information with limited supporting evidence.",
+      "Presents accurate information with relevant supporting evidence.",
+      "Presents accurate information with strong and varied supporting evidence.",
+      "Presents accurate information with compelling and insightful supporting evidence, demonstrating a deep understanding of historical context."
+    ]
+  ]
+}

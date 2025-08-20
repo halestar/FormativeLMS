@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Direct Democracy Features",
+    "Application of Concepts to Specific States",
+    "Clarity and Precision of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of direct democracy features like referendums or recall elections.",
+      "Student can identify one feature of direct democracy but struggles to explain it.",
+      "Student can identify and somewhat explain one or two features of direct democracy with limited detail.",
+      "Student identifies and explains two features of direct democracy, providing basic examples of how they function.",
+      "Student comprehensively explains at least two features of direct democracy, including the process and purpose of each, with clear examples.",
+      "Student demonstrates a deep understanding of multiple features of direct democracy, can compare and contrast them, and provides insightful examples of their impact on state governance."
+    ],
+    [
+      "Student does not apply the concept of direct democracy to any specific state.",
+      "Student mentions a state but does not accurately connect it to direct democracy practices.",
+      "Student attempts to connect one state to a specific feature of direct democracy, but the connection is vague or partially inaccurate.",
+      "Student accurately connects one or two states to specific direct democracy practices, providing basic details.",
+      "Student clearly describes how direct democracy functions in one or two specific states, providing relevant examples of referendums or recall elections.",
+      "Student provides a detailed analysis of how direct democracy is implemented in multiple states, comparing and contrasting the nuances of their systems with specific examples and historical context."
+    ],
+    [
+      "Student's explanation is unclear, confusing, and lacks relevant terminology.",
+      "Student's explanation is difficult to follow and uses imprecise language.",
+      "Student's explanation is understandable but lacks precision and detail.",
+      "Student's explanation is clear and uses appropriate terminology, but could benefit from more detail.",
+      "Student's explanation is clear, concise, and uses precise terminology to effectively communicate the features of direct democracy.",
+      "Student's explanation is exceptionally clear, demonstrating mastery of the subject matter, and uses sophisticated language to convey complex ideas with precision and nuance."
+    ]
+  ]
+}

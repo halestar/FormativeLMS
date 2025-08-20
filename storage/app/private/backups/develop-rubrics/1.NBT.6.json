@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Subtraction",
+    "Use of Models or Drawings",
+    "Explanation of Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of subtraction of multiples of 10 or makes significant errors in calculations.",
+      "The student attempts to subtract multiples of 10 but makes frequent errors or shows little understanding of place value.",
+      "The student subtracts multiples of 10 with some errors, demonstrating a partial understanding of place value and subtraction strategies.",
+      "The student subtracts multiples of 10 with minor errors, showing a general understanding of place value and some subtraction strategies.",
+      "The student accurately subtracts multiples of 10, demonstrating a good understanding of place value and subtraction strategies.",
+      "The student accurately and efficiently subtracts multiples of 10, demonstrating a strong understanding of place value and subtraction strategies."
+    ],
+    [
+      "The student does not use concrete models or drawings to represent subtraction of multiples of 10.",
+      "The student attempts to use models or drawings, but they are inaccurate or do not effectively represent the subtraction process.",
+      "The student uses models or drawings with limited success, showing some understanding of how they relate to the subtraction of multiples of 10.",
+      "The student uses models or drawings to represent subtraction of multiples of 10, but the representation is not always clear or accurate.",
+      "The student effectively uses concrete models or drawings to represent subtraction of multiples of 10.",
+      "The student creatively and effectively uses concrete models or drawings to clearly represent and explain the subtraction of multiples of 10."
+    ],
+    [
+      "The student is unable to explain the reasoning behind their subtraction strategy or provides an inaccurate explanation.",
+      "The student attempts to explain their reasoning but struggles to articulate their thought process or uses incorrect terminology.",
+      "The student provides a limited explanation of their reasoning, demonstrating some understanding of place value and subtraction properties.",
+      "The student explains their reasoning for subtracting multiples of 10, connecting it to place value or properties of operations, but the explanation may lack clarity.",
+      "The student clearly explains their reasoning for subtracting multiples of 10, connecting it to place value and properties of operations.",
+      "The student provides a thorough and insightful explanation of their reasoning, clearly connecting it to place value, properties of operations, and the relationship between addition and subtraction."
+    ]
+  ]
+}

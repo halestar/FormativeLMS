@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Needs and Wants",
+    "Appropriateness of Expression",
+    "Demonstration of Expressing Needs and Wants"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any needs or wants.",
+      "Student identifies a need or want, but the explanation is unclear.",
+      "Student identifies basic needs and wants with limited explanation.",
+      "Student identifies several needs and wants, providing a satisfactory explanation for each.",
+      "Student clearly identifies a wide range of needs and wants with detailed explanations.",
+      "Student expertly identifies a comprehensive range of needs and wants, providing insightful and nuanced explanations."
+    ],
+    [
+      "Student does not demonstrate or suggest any appropriate ways to express needs and wants.",
+      "Student suggests an approach to expressing needs and wants that would be considered innapropriate.",
+      "Student identifies one appropriate way to express a need or want, but provides no explanation.",
+      "Student identifies a few appropriate ways to express needs and wants, with some explanation.",
+      "Student identifies multiple appropriate ways to express needs and wants with clear explanations of appropriateness.",
+      "Student expertly demonstrates and explains a variety of highly effective and appropriate strategies for expressing needs and wants in diverse situations."
+    ],
+    [
+      "Student does not demonstrate any ways of expressing needs and wants",
+      "Student demonstrates a confusing or harmful way of expressing a need or want.",
+      "Student attempts to demonstrate expressing a need or want, but is largely ineffective.",
+      "Student demonstrates expressing basic needs and wants, but with limited success.",
+      "Student demonstrates effective expression of several needs and wants, showing clear understanding of context.",
+      "Student expertly demonstrates nuanced and effective expression of a wide range of needs and wants, adapting strategies fluidly to various complex situations."
+    ]
+  ]
+}

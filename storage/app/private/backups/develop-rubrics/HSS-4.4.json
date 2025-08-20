@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of California's agricultural transformation since the 1850s",
+    "Understanding of California's industrial growth since the 1850s",
+    "Explanation of the transformation of the California economy",
+    "Explanation of California's political development since the 1850s",
+    "Explanation of California's cultural development since the 1850s"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of California's agricultural development.",
+      "Shows minimal awareness of California's agricultural changes, lacking specific examples.",
+      "Identifies some aspects of California's agricultural development but lacks depth and detail.",
+      "Explains California's agricultural development with reasonable detail, including key factors and changes.",
+      "Analyzes California's agricultural transformation, providing specific examples and explaining their significance.",
+      "Provides a comprehensive analysis of California's agricultural transformation since the 1850s, including causes, effects, and historical context."
+    ],
+    [
+      "Demonstrates no understanding of California's industrial development.",
+      "Shows minimal awareness of California's industrial changes, lacking specific examples.",
+      "Identifies some aspects of California's industrial development but lacks depth and detail.",
+      "Explains California's industrial growth with reasonable detail, including key industries and changes.",
+      "Analyzes California's industrial transformation, providing specific examples and explaining their significance.",
+      "Provides a comprehensive analysis of California's industrial growth since the 1850s, including causes, effects, and historical context."
+    ],
+    [
+      "Cannot explain any aspect of the California economy",
+      "Demonstrates difficulty understanding the California Economy",
+      "Identifies some basic factors of the California economy.",
+      "Explains most of the factors of the transformation of the California economy",
+      "Thoroughly analyzes the different factors of the transformation of the California economy",
+      "Demonstrates a complete understanding of the factors and transformation of the California economy."
+    ],
+    [
+      "Demonstrates no understanding of California's political development.",
+      "Shows minimal awareness of California's political changes, lacking specific examples.",
+      "Identifies some aspects of California's political development but lacks depth and detail.",
+      "Explains California's political development with reasonable detail, including key events and figures.",
+      "Analyzes California's political transformation, providing specific examples and explaining their significance.",
+      "Provides a comprehensive analysis of California's political development since the 1850s, including causes, effects, and historical context."
+    ],
+    [
+      "Demonstrates no understanding of California's cultural development.",
+      "Shows minimal awareness of California's cultural changes, lacking specific examples.",
+      "Identifies some aspects of California's cultural development but lacks depth and detail.",
+      "Explains California's cultural development with reasonable detail, including key trends and movements.",
+      "Analyzes California's cultural transformation, providing specific examples and explaining their significance.",
+      "Provides a comprehensive analysis of California's cultural development since the 1850s, including causes, effects, and historical context."
+    ]
+  ]
+}

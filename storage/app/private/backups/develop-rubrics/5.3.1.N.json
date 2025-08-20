@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Relevance of Guidelines Located",
+    "Comprehensiveness of Information",
+    "Source Reliability and Credibility"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No guidelines located or guidelines are completely irrelevant and inaccurate for age group.",
+      "Guidelines located are largely inaccurate or irrelevant to the appropriate age group.",
+      "Guidelines located show some relevance to the age group, but contain significant inaccuracies or omissions.",
+      "Guidelines located are mostly accurate and relevant, with minor inaccuracies or omissions.",
+      "Guidelines are accurate and relevant to the age group, covering key areas of eating and physical activity with only slight room for improvement.",
+      "Guidelines are exceptionally accurate, relevant, and comprehensive, demonstrating a thorough understanding of age-appropriate recommendations for both eating and physical activity."
+    ],
+    [
+      "Located information is extremely limited, with few details about either eating or physical activity guidelines.",
+      "Located information is sparse and lacks key details necessary to understand the guidelines.",
+      "Information provides a basic overview but misses important aspects of either eating or physical activity guidelines.",
+      "Information covers most important aspects, but some areas lack sufficient detail or explanation.",
+      "Information is comprehensive, covering most important aspects of eating and physical activity guidelines with adequate detail.",
+      "Information is exceptionally comprehensive and detailed, providing a thorough and nuanced understanding of both eating and physical activity guidelines."
+    ],
+    [
+      "Sources are not provided, are clearly unreliable, or lack credibility.",
+      "Sources are questionable or of unknown reliability.",
+      "Sources are of mixed reliability; some sources are credible while others are not.",
+      "Sources are generally reliable and credible, with minor concerns.",
+      "Sources are reliable and credible, from established health organizations or reputable sources.",
+      "Sources are highly reliable, credible, and appropriately cited, demonstrating a strong understanding of source evaluation."
+    ]
+  ]
+}

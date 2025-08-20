@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Explanation of the Relationship Between Speed and Energy",
+    "Use of Evidence to Support the Explanation",
+    "Clarity and Coherence of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No explanation is provided or the explanation is completely unrelated to the concept of energy and speed.",
+      "The explanation mentions speed or energy but does not relate them to each other.",
+      "The explanation vaguely relates speed and energy, but lacks clarity or accuracy.",
+      "The explanation relates speed and energy, indicating that faster objects have more energy, but lacks supporting evidence or detail.",
+      "The explanation clearly relates speed and energy with supporting evidence, demonstrating a good understanding of the concept.",
+      "The explanation thoroughly relates speed and energy, provides strong supporting evidence, and demonstrates a comprehensive understanding of the concept, including real-world examples."
+    ],
+    [
+      "No evidence is provided.",
+      "Evidence is mentioned, but not provided or is irrelevant.",
+      "Weak or irrelevant evidence is provided.",
+      "Relevant evidence is provided, but the connection to the explanation is not clear.",
+      "Relevant evidence is provided and clearly supports the explanation.",
+      "Strong, relevant evidence is provided, synthesized effectively, and clearly supports the explanation, strengthening the overall argument."
+    ],
+    [
+      "The explanation is unclear and incoherent.",
+      "The explanation is difficult to understand and lacks logical flow.",
+      "The explanation is somewhat understandable but lacks clarity and coherence in certain areas.",
+      "The explanation is generally clear and coherent, but some parts could be improved.",
+      "The explanation is clear, coherent, and easy to understand.",
+      "The explanation is exceptionally clear, coherent, and effectively communicates the relationship between speed and energy in a sophisticated manner."
+    ]
+  ]
+}

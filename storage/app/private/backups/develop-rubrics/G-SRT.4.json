@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Similarity Theorems",
+    "Proof Construction",
+    "Application of Theorems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of similarity theorems related to triangles.",
+      "Struggles to recall or state similarity theorems related to triangles.",
+      "Recalls similarity theorems but cannot accurately apply them.",
+      "Applies similarity theorems with some errors in reasoning or calculation.",
+      "Correctly applies similarity theorems to solve problems, with minor errors or omissions.",
+      "Demonstrates a thorough understanding of similarity theorems and applies them correctly and efficiently to solve problems."
+    ],
+    [
+      "Unable to construct a logical proof.",
+      "Attempts to construct a proof but is disorganized and lacks logical flow.",
+      "Constructs a proof with significant gaps in reasoning or missing steps.",
+      "Constructs a mostly logical proof, but with some minor gaps or errors.",
+      "Constructs a clear and logical proof with only minor errors.",
+      "Constructs a complete, clear, and logically sound proof with accurate justifications."
+    ],
+    [
+      "Does not apply the theorems to given problem.",
+      "Tries to apply the theorems, but get mixed up on which to use.",
+      "Mixes up theorems, making the proof logically unsound.",
+      "Can apply the basic theorems, but unable to use them for anything other than straight plug and play.",
+      "Applies the theorems in a way that demonstrates insight.",
+      "Demonstrates mastery of theorems and uses them in novel ways to solve the problem."
+    ]
+  ]
+}

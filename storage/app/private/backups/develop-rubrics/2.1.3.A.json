@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Definition of a Drug",
+    "Ability to Differentiate Drugs from Other Substances",
+    "Understanding of the Impact of Drugs on the Body and Brain"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of what constitutes a drug.",
+      "The student shows minimal understanding, with significant misconceptions about what a drug is.",
+      "The student identifies a drug as a substance, but does not mention its effect on the body or brain.",
+      "The student identifies a drug and mentions it affects the body, but not the brain, or vice versa.",
+      "The student correctly identifies that a drug is a chemical that changes either the body or the brain.",
+      "The student accurately defines a drug as a chemical that changes how both the body and brain work, providing examples."
+    ],
+    [
+      "The student cannot differentiate drugs from other substances like food or water.",
+      "The student struggles to differentiate drugs, often confusing them with other types of substances.",
+      "The student can somewhat differentiate, but provides inaccurate reasons.",
+      "The student identifies some differences between drugs and other substances, but the explanation lacks clarity.",
+      "The student clearly differentiates drugs from other substances, providing a basic explanation.",
+      "The student clearly and accurately differentiates drugs from other substances, explaining the unique chemical properties and effects that define a drug."
+    ],
+    [
+      "The student shows no understanding of how drugs impact the body and\/or brain.",
+      "The student demonstrates very limited understanding, with significant inaccuracies.",
+      "The student acknowledges that drugs have an impact but cannot explain how or why.",
+      "The student provides a vague or incomplete explanation of the impacts of drugs on the body and\/or brain.",
+      "The student describes the impact of drugs on either the body or brain with some accuracy.",
+      "The student comprehensively explains the impacts of drugs on both the body and brain, including specific examples of these impacts."
+    ]
+  ]
+}

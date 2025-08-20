@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Volume as an Attribute",
+    "Understanding Unit Cubes as Measurement Tools",
+    "Accurately Calculating Volume"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding that volume is an attribute of solid figures.",
+      "Student shows limited understanding that volume is an attribute of solid figures; struggles to differentiate volume from area or perimeter.",
+      "Student demonstrates a basic understanding that volume is an attribute of solid figures but needs prompting to explain further.",
+      "Student demonstrates a clear understanding that volume is an attribute of solid figures and can explain it with some accuracy.",
+      "Student demonstrates a strong understanding that volume is an attribute of solid figures and accurately explains and provides examples.",
+      "Student demonstrates a comprehensive understanding that volume is an attribute of solid figures, explains it clearly, provides insightful examples, and connects it to real-world applications."
+    ],
+    [
+      "Student does not understand the concept of a unit cube as a tool for measuring volume.",
+      "Student shows limited understanding of unit cubes and their role in measuring volume; struggles to visualize how unit cubes fill a solid figure.",
+      "Student demonstrates a basic understanding of unit cubes but needs guidance to use them in volume measurement.",
+      "Student demonstrates a clear understanding of unit cubes and can use them to measure the volume of simple solid figures.",
+      "Student demonstrates a strong understanding of unit cubes and accurately measures the volume of various solid figures.",
+      "Student demonstrates a comprehensive understanding of unit cubes, accurately measures the volume of complex solid figures, and explains the relationship between unit cube size and measurement accuracy."
+    ],
+    [
+      "Student does not demonstrate ability to calculate volume, even of basic rectangular prisms.",
+      "Student attempts to calculate volume but makes significant errors in counting or applying formulas.",
+      "Student can calculate the volume of simple rectangular prisms with some errors or after guidance.",
+      "Student can accurately calculate the volume of rectangular prisms.",
+      "Student can accurately calculate the volume of rectangular prisms and figures composed of rectangular prisms.",
+      "Student can accurately calculate the volume of complex figures and explain why the methods used obtain the correct answer. "
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to research information in the target language from authentic sources.",
+    "Ability to analyze diverse perspectives and distinctive viewpoints presented in the target language.",
+    "Ability to discuss and hypothesize in the target language about unfamiliar, abstract, and hypothetical topics.",
+    "Demonstrates command of specialized, professional, and academic vocabulary and language structures in the target language."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to research or utilize authentic materials in the target language.",
+      "Minimal research conducted; reliance on translated materials or non-authentic sources.",
+      "Basic research conducted using some authentic materials, but lacks depth and variety.",
+      "Adequate research conducted with a mix of authentic and secondary sources, demonstrating some understanding of the materials.",
+      "Comprehensive research conducted primarily with authentic materials, demonstrating a strong understanding and ability to extract relevant information.",
+      "Extensive and insightful research conducted using a wide range of authentic materials, demonstrating a sophisticated understanding and critical analysis of the sources."
+    ],
+    [
+      "Unable to identify or discuss different perspectives or viewpoints.",
+      "Identifies one or two perspectives but lacks analysis or comparison.",
+      "Recognizes several perspectives and attempts a basic comparison, but lacks depth.",
+      "Analyzes multiple perspectives with reasonable clarity and identifies some nuances in viewpoints.",
+      "Demonstrates insightful analysis of diverse perspectives, identifying subtle differences and cultural contexts.",
+      "Exhibits sophisticated and nuanced analysis of diverse perspectives, demonstrating a comprehensive understanding of cultural contexts and biases."
+    ],
+    [
+      "Unable to express ideas or engage in discussion about abstract or hypothetical topics.",
+      "Struggles to express ideas about abstract topics, relies heavily on memorized phrases.",
+      "Participates in basic discussions about abstract topics with limited vocabulary and grammatical accuracy.",
+      "Engages in reasonably fluent discussions about abstract topics, expressing hypotheses with some clarity.",
+      "Discusses and hypothesizes about abstract topics with fluency, accuracy, and creativity.",
+      "Articulates complex hypotheses and engages in sophisticated discussions about abstract topics with a high degree of fluency, accuracy, and creativity."
+    ],
+    [
+      "Very limited vocabulary; unable to express even basic ideas.",
+      "Limited vocabulary; struggles to communicate effectively.",
+      "Basic vocabulary; can express simple ideas with some errors.",
+      "Adequate vocabulary; communicates effectively with occasional errors.",
+      "Strong vocabulary; communicates complex ideas clearly and accurately.",
+      "Exceptional vocabulary; communicates nuanced ideas with precision and sophistication."
+    ]
+  ]
+}

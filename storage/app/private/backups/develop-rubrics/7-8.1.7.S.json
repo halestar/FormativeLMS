@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Legal Consequences",
+    "Accuracy and Relevance of Information",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any legal consequences of sexual harassment and violence.",
+      "The student identifies at least one legal consequence of sexual harassment and violence, but the explanation is vague or inaccurate.",
+      "The student identifies some legal consequences of sexual harassment and violence, but lacks depth in explanation.",
+      "The student identifies several legal consequences of sexual harassment and violence and provides a satisfactory explanation for each.",
+      "The student identifies many legal consequences of sexual harassment and violence, and provides a clear and thorough explanation for most.",
+      "The student comprehensively identifies a wide range of legal consequences of sexual harassment and violence, providing clear, thorough, and accurate explanations for each, demonstrating a deep understanding of the legal landscape."
+    ],
+    [
+      "The information provided is largely inaccurate or irrelevant to the topic.",
+      "The information provided contains inaccuracies or is not always relevant.",
+      "The information provided is mostly accurate and relevant, but some details may be missing.",
+      "The information provided is accurate and relevant, with only minor omissions.",
+      "The information provided is consistently accurate, relevant, and well-supported.",
+      "The information is impeccably accurate, highly relevant, and demonstrates a sophisticated understanding of the nuances of legal consequences, including citations of relevant laws or case studies."
+    ],
+    [
+      "The explanation is unclear, disorganized, and difficult to follow.",
+      "The explanation lacks clarity and organization, making it somewhat difficult to understand.",
+      "The explanation is generally clear and organized, but there are areas where it could be improved.",
+      "The explanation is clear, well-organized, and easy to follow.",
+      "The explanation is exceptionally clear, logically organized, and presented in a coherent manner.",
+      "The explanation is articulate, insightful, and presented with exceptional clarity and organization, demonstrating a mastery of communication skills."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Short-Term Effects",
+    "Understanding Long-Term Effects",
+    "Understanding Social, Legal, and Economic Implications",
+    "Breadth of Substances Addressed"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of short-term effects of substance use is demonstrated.",
+      "Demonstrates a minimal understanding of only one short-term effect of substance use.",
+      "Demonstrates a basic understanding of a few short-term effects of substance use.",
+      "Demonstrates a satisfactory understanding of several short-term effects of substance use.",
+      "Demonstrates a comprehensive understanding of various short-term effects of substance use, with some detail.",
+      "Demonstrates an insightful and thorough understanding of a wide range of short-term effects of substance use, including specific examples."
+    ],
+    [
+      "No understanding of long-term effects of substance use is demonstrated.",
+      "Demonstrates a minimal understanding of only one long-term effect of substance use.",
+      "Demonstrates a basic understanding of a few long-term effects of substance use.",
+      "Demonstrates a satisfactory understanding of several long-term effects of substance use.",
+      "Demonstrates a comprehensive understanding of various long-term effects of substance use, with some detail.",
+      "Demonstrates an insightful and thorough understanding of a wide range of long-term effects of substance use, including specific examples."
+    ],
+    [
+      "No understanding of social, legal, and economic implications of substance use is demonstrated.",
+      "Demonstrates a minimal understanding of only one implication (social, legal, or economic).",
+      "Demonstrates a basic understanding of two implications (social, legal, or economic).",
+      "Demonstrates a satisfactory understanding of all three implications (social, legal, and economic).",
+      "Demonstrates a comprehensive understanding of all three implications with some detail and connection between them.",
+      "Demonstrates an insightful and thorough understanding of all three implications, including specific examples and nuanced connections between them."
+    ],
+    [
+      "Does not address any specific substance.",
+      "Addresses only one substance (alcohol, tobacco, inhalant, or other drug).",
+      "Addresses two substances.",
+      "Addresses three substances.",
+      "Addresses all four substances (alcohol, tobacco, inhalant, and other drug) with some detail.",
+      "Addresses all four substances thoroughly, demonstrating a wide understanding of their individual effects and implications."
+    ]
+  ]
+}

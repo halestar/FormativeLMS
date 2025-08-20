@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying emergency situations.",
+    "Understanding of the characteristics and potential consequences of each emergency situation.",
+    "Clarity and coherence in explanations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any emergency situations or provides incorrect examples.",
+      "Identifies one emergency situation with limited accuracy.",
+      "Identifies two emergency situations with some inaccuracies.",
+      "Identifies three emergency situations with generally accurate descriptions.",
+      "Identifies four or more emergency situations accurately.",
+      "Identifies a comprehensive range of emergency situations accurately and provides detailed explanations of each."
+    ],
+    [
+      "Demonstrates no understanding of the characteristics or consequences of emergency situations.",
+      "Demonstrates a minimal understanding of the characteristics or consequences of a single emergency situation.",
+      "Demonstrates a basic understanding of the characteristics or consequences of a few emergency situations.",
+      "Demonstrates a satisfactory understanding of the characteristics and consequences of several emergency situations.",
+      "Demonstrates a strong understanding of the characteristics and consequences of most emergency situations.",
+      "Demonstrates a comprehensive understanding of the characteristics and consequences of a wide range of emergency situations, including nuanced and complex scenarios."
+    ],
+    [
+      "Explanations are unclear, incoherent, and difficult to understand.",
+      "Explanations are somewhat unclear and lack coherence.",
+      "Explanations are generally clear but could benefit from improved coherence.",
+      "Explanations are clear and coherent, demonstrating a solid understanding of the material.",
+      "Explanations are exceptionally clear, concise, and well-organized, demonstrating a deep understanding of the material.",
+      "Explanations are articulate, insightful, and demonstrate a mastery of the subject matter. Effectively communicates complex information in an accessible manner."
+    ]
+  ]
+}

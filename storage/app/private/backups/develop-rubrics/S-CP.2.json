@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Definition of Independence",
+    "Applying the Product Rule to Determine Independence",
+    "Interpreting Data to Determine Independence",
+    "Using Probability Notation and Terminology Correctly"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of independent events.",
+      "Student shows minimal understanding of independent events; struggles to define or explain the concept.",
+      "Student can define independent events but has difficulty applying the definition.",
+      "Student can accurately define independent events and provide a basic explanation.",
+      "Student demonstrates a solid understanding of independent events and can explain the concept clearly with examples.",
+      "Student demonstrates a comprehensive understanding of independent events, including nuances and edge cases."
+    ],
+    [
+      "Student is unable to apply the product rule to determine if two events are independent.",
+      "Student attempts to apply the product rule but makes significant errors in calculation or logic.",
+      "Student can apply the product rule with some errors or inconsistencies.",
+      "Student can generally apply the product rule correctly to determine independence.",
+      "Student consistently applies the product rule accurately to determine independence in various scenarios.",
+      "Student expertly applies the product rule, can explain its limitations, and uses it to solve complex problems involving independence."
+    ],
+    [
+      "Student cannot interpret data to determine if events are independent.",
+      "Student struggles to extract relevant information from data to assess independence.",
+      "Student can extract some information but has difficulty drawing conclusions about independence.",
+      "Student can interpret data to make a reasonable determination about independence, with some guidance.",
+      "Student can confidently interpret data to determine independence and justify their reasoning.",
+      "Student can expertly analyze data to determine independence, identify potential confounding factors, and provide insightful interpretations."
+    ],
+    [
+      "Student does not use correct probability notation or terminology.",
+      "Student uses probability notation and terminology incorrectly, leading to confusion.",
+      "Student's use of probability notation and terminology is inconsistent or contains errors.",
+      "Student generally uses correct probability notation and terminology.",
+      "Student consistently uses correct probability notation and terminology.",
+      "Student uses probability notation and terminology with precision and clarity, enhancing the overall communication."
+    ]
+  ]
+}

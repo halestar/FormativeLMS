@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Scatter Plot Interpretation",
+    "Line of Best Fit Construction",
+    "Model Fit Assessment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to interpret the scatter plot or identify any association.",
+      "Identifies a potential association but struggles to articulate the direction (positive or negative) or strength.",
+      "Identifies the direction of the association (positive or negative) but may not accurately describe the strength or presence of a linear pattern.",
+      "Accurately identifies the direction (positive or negative) and strength (weak, moderate, strong) of the association.",
+      "Provides a detailed interpretation of the scatter plot, including the direction, strength, and form (linear or non-linear) of the association, with minor inaccuracies.",
+      "Provides a comprehensive and accurate interpretation of the scatter plot, clearly articulating the direction, strength, and form of the association, demonstrating a strong understanding of bivariate data."
+    ],
+    [
+      "No attempt to fit a line to the scatter plot.",
+      "Attempts to fit a line but the line is poorly placed and does not reflect the trend of the data.",
+      "Fits a line that roughly follows the trend of the data but has significant deviations from the data points.",
+      "Fits a line that generally follows the trend of the data with some deviations from the data points.",
+      "Fits a line that closely follows the trend of the data with minimal deviations from the data points.",
+      "Fits a line of best fit that accurately represents the linear association in the scatter plot, minimizing the distance between the line and the data points."
+    ],
+    [
+      "No attempt to assess the model fit.",
+      "Attempts to assess the model fit but provides an inaccurate or irrelevant justification.",
+      "Provides a basic assessment of the model fit, noting whether the data points are generally close to the line but lacking detail.",
+      "Provides a reasonable assessment of the model fit, considering the closeness of the data points to the line and identifying potential outliers.",
+      "Provides a thorough assessment of the model fit, discussing the closeness of the data points to the line, identifying outliers, and explaining the limitations of the linear model.",
+      "Provides a comprehensive and insightful assessment of the model fit, justifying the appropriateness of the linear model based on the distribution of data points and discussing the impact of outliers and potential sources of error."
+    ]
+  ]
+}

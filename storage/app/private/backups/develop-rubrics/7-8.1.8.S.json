@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Sexual Harassment Types",
+    "Understanding of Reporting Procedures",
+    "Clarity and Accuracy of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of sexual harassment types.",
+      "Student identifies only one type of sexual harassment incorrectly or vaguely.",
+      "Student identifies 1-2 types of sexual harassment with limited accuracy.",
+      "Student identifies 2-3 types of sexual harassment accurately.",
+      "Student identifies most major types of sexual harassment accurately and provides brief examples.",
+      "Student comprehensively identifies and explains various types of sexual harassment, including subtle forms, with clear and relevant examples."
+    ],
+    [
+      "Student shows no awareness of reporting procedures.",
+      "Student mentions reporting but demonstrates misunderstanding.",
+      "Student identifies 1-2 steps in reporting with limited accuracy.",
+      "Student outlines 2-3 steps in reporting, including who to report to.",
+      "Student accurately describes the reporting process, including relevant resources and confidentiality.",
+      "Student provides a detailed and comprehensive explanation of reporting procedures, including internal and external resources, legal aspects, and support systems."
+    ],
+    [
+      "Information provided is unclear, inaccurate, or irrelevant.",
+      "Information is partially accurate but lacks clarity.",
+      "Information is mostly accurate but contains some minor inaccuracies or omissions.",
+      "Information is clear, accurate, and relevant to the topic.",
+      "Information is presented in a clear, concise, and accurate manner, demonstrating a solid understanding of the subject.",
+      "Information is presented with exceptional clarity, accuracy, and insight, demonstrating a comprehensive and nuanced understanding of the topic."
+    ]
+  ]
+}

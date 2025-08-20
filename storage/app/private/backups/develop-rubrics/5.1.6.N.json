@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify more nutritious beverages and snacks.",
+    "Ability to identify less nutritious beverages and snacks.",
+    "Ability to differentiate between more and less nutritious options and explain reasoning.",
+    "Understanding of the nutritional content and impact on health."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any nutritious beverages or snacks.",
+      "Student can identify 1-2 nutritious beverages or snacks with significant prompting.",
+      "Student can identify a few nutritious beverages and snacks with some prompting.",
+      "Student can identify several nutritious beverages and snacks with minimal prompting.",
+      "Student can confidently identify most nutritious beverages and snacks.",
+      "Student can comprehensively identify a wide variety of nutritious beverages and snacks and explain why they are healthy choices."
+    ],
+    [
+      "Student cannot identify any less nutritious beverages or snacks.",
+      "Student can identify 1-2 less nutritious beverages or snacks with significant prompting.",
+      "Student can identify a few less nutritious beverages and snacks with some prompting.",
+      "Student can identify several less nutritious beverages and snacks with minimal prompting.",
+      "Student can confidently identify most less nutritious beverages and snacks.",
+      "Student can comprehensively identify a wide variety of less nutritious beverages and snacks and explain why they are unhealthy choices."
+    ],
+    [
+      "Student cannot differentiate or explain the difference between nutritious and less nutritious options.",
+      "Student can differentiate between 1-2 options with significant prompting, but cannot explain their reasoning.",
+      "Student can differentiate between a few options with some prompting, and offers limited reasoning.",
+      "Student can differentiate between several options with minimal prompting, and provides basic reasoning.",
+      "Student can confidently differentiate between most options and provides clear and accurate reasoning.",
+      "Student can comprehensively differentiate between a wide variety of options and provides detailed and insightful reasoning, including nutritional content and long-term health impacts."
+    ],
+    [
+      "Shows no understanding of nutritional content or its impact on health.",
+      "Demonstrates minimal understanding of nutritional content or its impact on health, even with prompting.",
+      "Shows basic understanding of some nutritional content and its impact on health.",
+      "Demonstrates adequate understanding of nutritional content and its impact on health.",
+      "Shows strong understanding of nutritional content and its impact on health, and can explain it clearly.",
+      "Demonstrates comprehensive understanding of nutritional content and its impact on health, and can analyze and explain complex relationships."
+    ]
+  ]
+}

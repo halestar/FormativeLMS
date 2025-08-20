@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Rights: Demonstrates comprehension of the various rights afforded to citizens within a democratic society.",
+    "Understanding of Responsibilities: Demonstrates comprehension of the various responsibilities that citizens have within a democratic society.",
+    "Application to Scenarios: Ability to apply knowledge of rights and responsibilities to real-world scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of citizen rights.",
+      "Identifies one or two basic rights with limited accuracy.",
+      "Lists several rights but struggles to explain them or their importance.",
+      "Accurately describes several key rights and their significance.",
+      "Demonstrates a thorough understanding of a wide range of rights and their implications.",
+      "Exhibits comprehensive knowledge of citizen rights, including nuanced understanding of landmark court cases and ongoing debates."
+    ],
+    [
+      "Shows no understanding of citizen responsibilities.",
+      "Identifies one or two basic responsibilities with limited accuracy.",
+      "Lists several responsibilities but struggles to explain them or their importance.",
+      "Accurately describes several key responsibilities and their significance.",
+      "Demonstrates a thorough understanding of a wide range of responsibilities and their implications.",
+      "Exhibits comprehensive knowledge of citizen responsibilities, including nuanced understanding of the impact of fulfilling or neglecting these duties."
+    ],
+    [
+      "Unable to apply knowledge of rights\/responsibilities to given scenarios.",
+      "Struggles to apply knowledge, with incorrect or incomplete reasoning.",
+      "Applies knowledge to simple scenarios but struggles with more complex situations.",
+      "Applies knowledge accurately to a range of scenarios, demonstrating logical reasoning.",
+      "Analyzes complex scenarios effectively, demonstrating a nuanced understanding of rights and responsibilities.",
+      "Critically evaluates scenarios, providing insightful and well-supported arguments about the interplay of rights and responsibilities."
+    ]
+  ]
+}

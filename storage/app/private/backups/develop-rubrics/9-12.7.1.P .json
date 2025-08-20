@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Environmental Barriers",
+    "Analysis of the Impact of Barriers",
+    "Strategies for Overcoming Barriers",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any environmental barriers to adopting positive personal health practices.",
+      "Identifies one environmental barrier but lacks detail or accuracy.",
+      "Identifies two environmental barriers with some detail, but understanding is limited.",
+      "Identifies three environmental barriers with reasonable detail and accuracy.",
+      "Identifies four or more environmental barriers with good detail and accuracy, demonstrating a solid understanding.",
+      "Identifies multiple environmental barriers comprehensively, with accurate details and insightful analysis, demonstrating a thorough understanding."
+    ],
+    [
+      "Does not analyze the impact of environmental barriers on personal health practices.",
+      "Offers a superficial analysis of the impact of one barrier.",
+      "Provides a basic analysis of the impact of two barriers, but lacks depth.",
+      "Analyzes the impact of three environmental barriers on adopting positive health practices with some depth.",
+      "Provides a detailed analysis of the impact of multiple environmental barriers, demonstrating a clear understanding of their effects.",
+      "Offers a comprehensive and insightful analysis of the impact of various environmental barriers, demonstrating a sophisticated understanding of their effects on personal health."
+    ],
+    [
+      "Does not propose any strategies for overcoming environmental barriers.",
+      "Suggests one strategy that is unrealistic or not clearly linked to overcoming the identified barrier.",
+      "Suggests two strategies, but they are generic and lack specific application to the identified barriers.",
+      "Proposes three strategies that are relevant and somewhat practical for overcoming the identified barriers.",
+      "Presents multiple well-thought-out and practical strategies for overcoming environmental barriers, showing a good understanding of their implementation.",
+      "Develops innovative and highly effective strategies tailored to specific environmental barriers, demonstrating a deep understanding of their practical application and potential impact."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it challenging to follow.",
+      "Response is somewhat clear but could benefit from better organization.",
+      "Response is generally clear and organized, with a logical flow of ideas.",
+      "Response is clear, well-organized, and easy to follow, with a logical and coherent presentation of ideas.",
+      "Response is exceptionally clear, concise, and logically organized, demonstrating excellent communication skills."
+    ]
+  ]
+}

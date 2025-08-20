@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Model Development and Iteration",
+    "Data Generation and Analysis",
+    "Optimization of Design"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No model is developed or the model is completely irrelevant to the proposed solution. No attempt at iteration or modification.",
+      "A basic model is presented with minimal connection to the proposed solution. Iteration is mentioned but not demonstrated.",
+      "The model has some relevance to the solution, but key elements are missing or inaccurate. A single iteration is performed with limited data informing the modification.",
+      "The model clearly represents the proposed solution, including most relevant inputs and outputs. Two iterations are performed, and modifications are loosely based on the data collected.",
+      "The model accurately represents the proposed solution and includes all relevant inputs and outputs. Multiple iterations are performed, and modifications are clearly informed by the data collected.",
+      "The model is sophisticated and accurately represents the proposed solution, including all relevant inputs, outputs, and potential confounding variables. Iterations are systematic, data-driven, and lead to significant improvements in the design. The rationale for each modification is clearly explained and justified."
+    ],
+    [
+      "No data is generated, or the data is unrelated to the model and proposed solution.",
+      "Minimal data is generated, and no analysis is performed.",
+      "Some data is generated, but it is incomplete or inconsistent. Basic analysis is attempted but contains errors.",
+      "Relevant data is generated through testing. Data analysis is performed, and basic trends are identified.",
+      "Comprehensive and relevant data is generated through systematic testing. Data analysis is thorough, and clear trends are identified and explained.",
+      "Extensive, high-quality data is generated through rigorous and systematic testing, demonstrating a deep understanding of experimental design. Data analysis is sophisticated, using appropriate statistical methods, and reveals nuanced trends and relationships. Error analysis is conducted and discussed."
+    ],
+    [
+      "No attempt to optimize the design is evident.",
+      "Optimization is mentioned, but no specific changes are made to the design.",
+      "Minor changes are made to the design, but they are not clearly linked to the data or model.",
+      "The design is modified based on the data and model, leading to some improvement in performance.",
+      "The design is significantly improved through iterative testing and modification, demonstrating a clear understanding of the optimization process.",
+      "The design is optimized to a high degree of performance through a systematic and data-driven approach. The final design reflects a deep understanding of the trade-offs and constraints involved in the engineering problem."
+    ]
+  ]
+}

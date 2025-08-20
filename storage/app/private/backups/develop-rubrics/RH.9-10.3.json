@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Events",
+    "Analysis of Causation",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any relevant events within the text.",
+      "Identifies only one or two events, with significant details missing.",
+      "Identifies a few events but struggles to provide sufficient detail or accuracy.",
+      "Identifies most of the key events in the text with reasonable detail.",
+      "Identifies all key events and provides accurate, relevant details for each.",
+      "Identifies all key events with comprehensive detail, demonstrating a deep understanding of their significance."
+    ],
+    [
+      "Shows no understanding of cause and effect relationships within the text.",
+      "Attempts to identify cause and effect, but analysis is superficial and often inaccurate.",
+      "Identifies some cause and effect relationships, but analysis lacks depth and supporting evidence.",
+      "Analyzes several cause and effect relationships with adequate reasoning and textual support.",
+      "Provides a thorough analysis of cause and effect, using specific examples and logical reasoning.",
+      "Demonstrates a nuanced understanding of complex causal relationships, distinguishing between causation and correlation effectively."
+    ],
+    [
+      "Response is disorganized and difficult to understand; writing lacks clarity.",
+      "Response is somewhat disorganized and clarity is compromised by vague language.",
+      "Response is generally organized, but some ideas are unclear or underdeveloped.",
+      "Response is clear and organized with a logical progression of ideas.",
+      "Response is well-organized, coherent, and effectively communicates analysis.",
+      "Response is exceptionally clear, concise, and logically structured, enhancing the impact of the analysis."
+    ]
+  ]
+}

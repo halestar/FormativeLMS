@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of key ideas and details within the text.",
+    "Analyzes the text's structure and how it contributes to the meaning.",
+    "Evaluates the author's point of view, purpose, and use of evidence."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of the text's central ideas or supporting details. Unable to identify key information.",
+      "Demonstrates minimal understanding. Struggles to identify main ideas and key details; comprehension is weak.",
+      "Demonstrates partial understanding. Can identify some main ideas and details, but struggles with more complex aspects of the text.",
+      "Demonstrates satisfactory understanding. Identifies main ideas and details accurately, showing a general comprehension of the text.",
+      "Demonstrates strong understanding. Accurately interprets main ideas and details, showing a comprehensive grasp of the text's meaning.",
+      "Demonstrates excellent understanding. Insightfully interprets main ideas and details, displaying a deep and nuanced comprehension of the text and its implications."
+    ],
+    [
+      "Unable to identify or analyze the text's structure or how it impacts meaning.",
+      "Shows limited awareness of the text's structure. Struggles to connect structural elements to the text's overall meaning.",
+      "Identifies basic structural elements (e.g., paragraphs, headings) but struggles to explain their function in conveying meaning.",
+      "Analyzes the text's structure and explains how it contributes to the overall meaning with reasonable clarity.",
+      "Analyzes the text's structure effectively, explaining how specific elements enhance the text's clarity and impact.",
+      "Insightfully analyzes the text's structure, demonstrating a sophisticated understanding of how the organization and rhetorical devices shape meaning and influence the reader."
+    ],
+    [
+      "Unable to identify the author's point of view or purpose. Demonstrates no understanding of how evidence is used.",
+      "Struggles to identify the author's point of view or purpose. Shows limited recognition of evidence within the text.",
+      "Identifies the author's point of view or purpose with some difficulty. Shows basic recognition of evidence, but struggles to evaluate its effectiveness.",
+      "Evaluates the author's point of view and purpose, and identifies the evidence used to support claims with reasonable accuracy.",
+      "Critically evaluates the author's point of view, purpose, and the effectiveness of the evidence presented.",
+      "Insightfully evaluates the author's point of view, purpose, and use of evidence, demonstrating a nuanced understanding of rhetorical strategies and their impact on the reader."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Risk Factors: Demonstrates comprehension of situations, environments, and relationships that could potentially lead to violence or delinquency.",
+    "Commitment to Avoidance: Expresses a personal commitment to avoiding situations and influences that promote violence or delinquency.",
+    "Development of Alternative Strategies: Displays the ability to develop and utilize alternative strategies for dealing with high-pressure situations without resorting to violence or delinquency."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of potential risk factors.",
+      "Identifies a few obvious risk factors with prompting.",
+      "Recognizes some common risk factors but struggles with specific examples.",
+      "Understands and identifies several risk factors related to violence and delinquency.",
+      "Clearly identifies and explains various risk factors, demonstrating a strong understanding.",
+      "Exhibits a comprehensive understanding of complex risk factors and their potential impact, providing nuanced examples."
+    ],
+    [
+      "Shows no commitment or intention to avoid risky situations.",
+      "Expresses a vague intention to avoid some risky situations.",
+      "States a commitment to avoidance but lacks specific strategies.",
+      "Demonstrates a clear commitment to avoiding risk factors, with some basic strategies mentioned.",
+      "Clearly articulates a personal commitment with well-defined strategies for avoidance.",
+      "Demonstrates a strong, proactive commitment with comprehensive and adaptive strategies for avoiding high-risk situations."
+    ],
+    [
+      "Unable to suggest any alternative strategies.",
+      "Suggests one or two unfeasible alternative strategies.",
+      "Suggests a few basic alternative strategies with limited effectiveness.",
+      "Can develop and suggest several reasonable alternative strategies.",
+      "Develops and effectively articulates multiple suitable strategies for various scenarios.",
+      "Demonstrates exceptional creativity in developing adaptive and effective alternative strategies, tailored to diverse and complex situations."
+    ]
+  ]
+}

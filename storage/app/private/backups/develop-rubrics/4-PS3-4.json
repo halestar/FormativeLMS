@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Energy Conversion Principles",
+    "Design and Testing of Energy Conversion Device",
+    "Application of Scientific Ideas",
+    "Addressing Constraints and Criteria"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of energy conversion principles.",
+      "The student shows a minimal understanding of energy conversion principles, with significant misconceptions.",
+      "The student demonstrates a basic understanding of energy conversion, but struggles to apply it correctly.",
+      "The student demonstrates a satisfactory understanding of energy conversion principles and can apply them to simple scenarios.",
+      "The student demonstrates a strong understanding of energy conversion principles and can apply them effectively.",
+      "The student demonstrates a comprehensive understanding of energy conversion principles, including nuances, and applies them expertly."
+    ],
+    [
+      "The student's device design is absent or does not address energy conversion.",
+      "The student attempts a device design, but it is fundamentally flawed and not testable.",
+      "The student designs a basic device, but testing is limited or poorly executed.",
+      "The student designs a functional device and conducts basic testing to evaluate its performance.",
+      "The student designs a well-thought-out device, conducts thorough testing, and identifies areas for improvement.",
+      "The student designs an innovative and efficient energy conversion device, conducts rigorous testing, and optimizes the design based on results."
+    ],
+    [
+      "The student fails to apply scientific ideas to the design and testing process.",
+      "The student's application of scientific ideas is minimal and inaccurate.",
+      "The student applies some scientific ideas, but inconsistently or with limited understanding.",
+      "The student generally applies appropriate scientific ideas to inform the design and testing of the device.",
+      "The student effectively applies relevant scientific ideas to optimize the design and testing of the device.",
+      "The student expertly applies advanced scientific ideas to create an innovative and highly effective energy conversion device."
+    ],
+    [
+      "The student does not consider constraints or criteria in the design process.",
+      "The student demonstrates limited awareness of constraints and criteria.",
+      "The student acknowledges constraints and criteria but does not effectively address them in the design.",
+      "The student considers constraints and criteria and attempts to balance them in the design.",
+      "The student effectively addresses constraints and criteria, optimizing the design for performance and feasibility.",
+      "The student skillfully navigates complex constraints and criteria to create an elegant and highly functional design."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Causes of World War II",
+    "Analyzing the Consequences of World War II",
+    "Historical Context and Connections"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the causes of World War II.",
+      "Identifies only one major cause of World War II with limited accuracy.",
+      "Identifies some major causes of World War II but lacks depth and detail in explanation.",
+      "Identifies several major causes of World War II with reasonable accuracy and some supporting details.",
+      "Clearly identifies and explains the major causes of World War II, providing relevant details and context.",
+      "Provides a comprehensive analysis of the causes of World War II, demonstrating a nuanced understanding of the complex factors involved and their interrelationships."
+    ],
+    [
+      "Demonstrates no understanding of the consequences of World War II.",
+      "Identifies only one major consequence of World War II with limited accuracy.",
+      "Identifies some major consequences of World War II but lacks depth and detail in explanation.",
+      "Identifies several major consequences of World War II with reasonable accuracy and some supporting details.",
+      "Clearly identifies and explains the major consequences of World War II, providing relevant details and context.",
+      "Provides a comprehensive analysis of the consequences of World War II, demonstrating a nuanced understanding of the long-term impacts and their global significance."
+    ],
+    [
+      "Fails to connect World War II to any broader historical context.",
+      "Makes a vague or inaccurate connection between World War II and other historical events.",
+      "Identifies a connection between World War II and other historical events, but the explanation lacks clarity.",
+      "Explains how World War II fits within the broader context of 20th-century history, providing some relevant connections.",
+      "Analyzes the connections between World War II and other historical events, demonstrating an understanding of cause and effect.",
+      "Synthesizes a deep understanding of World War II by expertly connecting it to other historical periods, themes, and global trends, highlighting its lasting legacy."
+    ]
+  ]
+}

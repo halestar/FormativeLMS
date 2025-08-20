@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to differentiate between factual information and common misconceptions about nutrition.",
+    "Understanding of the impact of nutrition on physical performance.",
+    "Knowledge of nutrition practices and products."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the difference between facts and myths related to nutrition.",
+      "Struggles to distinguish between nutritional facts and myths, with significant inaccuracies.",
+      "Identifies some nutritional facts and myths but demonstrates confusion and uncertainty.",
+      "Generally distinguishes between nutritional facts and myths with occasional errors or omissions.",
+      "Clearly differentiates between nutritional facts and myths, providing accurate examples and explanations.",
+      "Masterfully differentiates between nutritional facts and myths, providing comprehensive and nuanced explanations with supporting evidence."
+    ],
+    [
+      "Shows no understanding of how nutrition affects physical performance.",
+      "Demonstrates a very limited understanding of the relationship between nutrition and physical performance.",
+      "Identifies a few basic connections between nutrition and physical performance but lacks depth.",
+      "Understands the general impact of nutrition on physical performance with some specifics.",
+      "Clearly explains the impact of nutrition on physical performance, providing relevant examples.",
+      "Provides a detailed and insightful explanation of the impact of nutrition on physical performance, including specific nutrients and their effects, as well as how different types of physical activities require different nutritional plans."
+    ],
+    [
+      "Displays no knowledge of nutrition practices and products.",
+      "Has minimal knowledge of nutrition practices and products, with many gaps.",
+      "Identifies some common nutrition practices and products but lacks detailed information.",
+      "Demonstrates a good understanding of common nutrition practices and products with some specifics.",
+      "Clearly explains various nutrition practices and products, discussing their benefits and drawbacks.",
+      "Offers a comprehensive and critical analysis of nutrition practices and products, including their scientific basis and potential risks."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify a trusted adult and articulate a scenario involving finding a weapon.",
+    "Clarity and accuracy in explaining the reporting process to a trusted adult.",
+    "Understanding of the importance of reporting and potential consequences of not reporting."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify a trusted adult or describe a relevant scenario.",
+      "Student struggles to identify a trusted adult or describe a scenario clearly.",
+      "Student identifies a trusted adult and attempts to describe a relevant scenario but lacks clarity.",
+      "Student clearly identifies a trusted adult and describes a plausible scenario involving finding a weapon.",
+      "Student confidently identifies a trusted adult, describes a detailed scenario, and explains initial steps to take.",
+      "Student expertly identifies multiple trusted adults, describes a comprehensive scenario, and articulates a clear plan of action, demonstrating excellent understanding."
+    ],
+    [
+      "Student is unable to explain any reporting process.",
+      "Student's explanation of the reporting process is unclear and inaccurate.",
+      "Student attempts to explain the reporting process, but understanding is limited and contains inaccuracies.",
+      "Student explains the basic reporting process with some clarity and accuracy.",
+      "Student clearly and accurately explains the reporting process, including key steps and potential outcomes.",
+      "Student provides a comprehensive and nuanced explanation of the reporting process, demonstrating a deep understanding of its importance and potential impact."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of reporting or potential consequences.",
+      "Student shows limited awareness of the importance of reporting or potential consequences.",
+      "Student acknowledges the importance of reporting but struggles to articulate specific consequences.",
+      "Student understands the importance of reporting and can identify some potential consequences of not reporting.",
+      "Student clearly articulates the importance of reporting and provides a range of potential consequences of not reporting, demonstrating good understanding.",
+      "Student comprehensively explains the importance of reporting, including ethical and legal considerations, and thoroughly analyzes potential consequences with insightful reasoning."
+    ]
+  ]
+}

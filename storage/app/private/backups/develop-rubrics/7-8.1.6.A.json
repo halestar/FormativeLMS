@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Short-Term Consequences",
+    "Understanding Long-Term Consequences",
+    "Linking Substance Use to Coping Mechanisms",
+    "Overall Clarity and Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any short-term consequences of using alcohol and other drugs to cope with problems.",
+      "Identifies one short-term consequence vaguely.",
+      "Identifies one short-term consequence with some clarity.",
+      "Identifies two short-term consequences with reasonable clarity.",
+      "Identifies multiple short-term consequences and explains them clearly.",
+      "Identifies and thoroughly explains multiple short-term consequences of using alcohol and drugs, demonstrating a strong understanding."
+    ],
+    [
+      "Does not identify any long-term consequences of using alcohol and other drugs to cope with problems.",
+      "Identifies one long-term consequence vaguely.",
+      "Identifies one long-term consequence with some clarity.",
+      "Identifies two long-term consequences with reasonable clarity.",
+      "Identifies multiple long-term consequences and explains them clearly.",
+      "Identifies and thoroughly explains multiple long-term consequences of using alcohol and drugs, demonstrating a strong understanding."
+    ],
+    [
+      "Fails to connect substance use to coping with problems.",
+      "Makes a weak or unclear connection between substance use and coping.",
+      "Suggests a connection between substance use and coping with limited explanation.",
+      "Explains how substance use is sometimes used as a coping mechanism.",
+      "Clearly explains the relationship between using alcohol\/drugs and attempting to cope with underlying problems.",
+      "Provides a nuanced explanation of how and why individuals use substances to cope, including the potential for addiction and worsening problems."
+    ],
+    [
+      "Response is unclear, inaccurate, or irrelevant.",
+      "Response is difficult to understand and contains significant inaccuracies.",
+      "Response is somewhat understandable but contains some inaccuracies or omissions.",
+      "Response is generally clear and accurate with only minor inaccuracies or omissions.",
+      "Response is clear, accurate, and provides a comprehensive overview.",
+      "Response is exceptionally clear, accurate, insightful, and demonstrates a thorough understanding of the topic."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of plotting integers and rational numbers on a number line.",
+    "Accuracy of plotting pairs of integers and rational numbers on a coordinate plane.",
+    "Understanding and application of number line and coordinate plane concepts."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely incorrect placement of numbers on the number line.",
+      "Plots only integers correctly or struggles with negative numbers.",
+      "Plots integers correctly but makes errors with rational numbers or negative signs.",
+      "Plots most integers and rational numbers correctly with minor errors in placement.",
+      "Accurately plots integers and rational numbers on a number line with clear and correct representation.",
+      "Demonstrates a thorough understanding by accurately plotting integers and rational numbers, including complex fractions and decimals, with precise placement and clear labeling."
+    ],
+    [
+      "No attempt or inability to plot points on a coordinate plane.",
+      "Struggles with plotting points, especially with negative coordinates.",
+      "Plots points with integer coordinates correctly but has difficulty with rational coordinates or negative signs.",
+      "Plots most points correctly, with minor errors in identifying the correct quadrant or position.",
+      "Accurately plots pairs of integers and rational numbers on a coordinate plane with correct quadrant identification and labeling.",
+      "Demonstrates a deep understanding of the coordinate plane by accurately plotting complex rational coordinates and explaining the relationship between coordinates and their position on the plane."
+    ],
+    [
+      "No understanding of number line or coordinate plane concepts is demonstrated.",
+      "Shows limited understanding of number lines and coordinate planes.",
+      "Understands basic concepts but struggles to apply them in plotting points.",
+      "Applies number line and coordinate plane concepts with some errors.",
+      "Applies number line and coordinate plane concepts accurately and effectively.",
+      "Demonstrates a comprehensive understanding of number line and coordinate plane concepts by accurately plotting points and explaining the underlying principles."
+    ]
+  ]
+}

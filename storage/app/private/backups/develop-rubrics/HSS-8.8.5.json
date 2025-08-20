@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Mexican Settlements and Locations",
+    "Knowledge of Cultural Traditions",
+    "Understanding of Attitudes Toward Slavery",
+    "Knowledge of the Land-Grant System",
+    "Understanding of Mexican Economies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of Mexican settlements or their locations.",
+      "Student can identify a few Mexican settlements but struggles with their precise locations.",
+      "Student identifies several Mexican settlements and provides general locations, but with some inaccuracies.",
+      "Student accurately identifies and locates several major Mexican settlements.",
+      "Student demonstrates a strong understanding of the locations and significance of multiple Mexican settlements, including some lesser-known ones.",
+      "Student provides a comprehensive and detailed overview of Mexican settlements, their precise locations, and their strategic importance in the region."
+    ],
+    [
+      "Student shows no awareness of Mexican cultural traditions.",
+      "Student mentions one or two Mexican cultural traditions vaguely.",
+      "Student identifies several Mexican cultural traditions but lacks depth in explanation.",
+      "Student describes several key Mexican cultural traditions with reasonable accuracy.",
+      "Student explains the significance and impact of various Mexican cultural traditions on society.",
+      "Student provides an in-depth analysis of Mexican cultural traditions, including their origins, evolution, and influence on various aspects of life."
+    ],
+    [
+      "Student demonstrates no understanding of Mexican attitudes toward slavery.",
+      "Student expresses a vague or inaccurate understanding of Mexican attitudes toward slavery.",
+      "Student presents a basic understanding of Mexican attitudes toward slavery, but with limited detail.",
+      "Student accurately describes Mexican attitudes toward slavery and the reasons behind them.",
+      "Student analyzes the complexities and nuances of Mexican attitudes toward slavery, including regional variations.",
+      "Student provides a comprehensive and nuanced analysis of Mexican attitudes toward slavery, including its economic, social, and political dimensions, and compares it to attitudes in other regions."
+    ],
+    [
+      "Student demonstrates no understanding of the Mexican land-grant system.",
+      "Student has a vague idea of the land-grant system but cannot explain it accurately.",
+      "Student identifies the land-grant system but struggles to explain its purpose and function.",
+      "Student accurately explains the purpose and function of the Mexican land-grant system.",
+      "Student analyzes the impact of the land-grant system on settlement patterns and economic development.",
+      "Student provides a detailed and critical analysis of the land-grant system, including its benefits, drawbacks, and long-term consequences."
+    ],
+    [
+      "Student shows no understanding of Mexican economies.",
+      "Student mentions one or two aspects of Mexican economies vaguely.",
+      "Student identifies several components of Mexican economies but lacks depth in explanation.",
+      "Student describes several key aspects of Mexican economies with reasonable accuracy.",
+      "Student explains the structure, strengths, and weaknesses of Mexican economies, including trade and industry.",
+      "Student provides an in-depth analysis of Mexican economies, including their evolution, regional variations, and their relationship with global markets."
+    ]
+  ]
+}

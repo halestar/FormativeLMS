@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Demonstrates understanding of personal hygiene practices (e.g., showering\/bathing, washing hands, grooming).",
+    "Demonstrates understanding of dental hygiene practices (e.g., brushing, flossing, dental checkups).",
+    "Explains the relationship between hygiene practices and overall health and well-being.",
+    "Applies knowledge of hygiene to real-life scenarios and decision-making."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of basic personal hygiene practices.",
+      "Struggles to identify any personal hygiene practices.",
+      "Identifies some personal hygiene practices but with significant gaps or misunderstandings.",
+      "Identifies common personal hygiene practices but needs prompting to elaborate on importance.",
+      "Clearly identifies and explains common personal hygiene practices and their importance.",
+      "Demonstrates a comprehensive understanding of personal hygiene, including frequency, products, and specific techniques; explains the importance of each practice."
+    ],
+    [
+      "Shows no understanding of basic dental hygiene practices.",
+      "Struggles to identify any dental hygiene practices.",
+      "Identifies some dental hygiene practices but with significant gaps or misunderstandings.",
+      "Identifies common dental hygiene practices but needs prompting to elaborate on importance.",
+      "Clearly identifies and explains common dental hygiene practices and their importance.",
+      "Demonstrates a comprehensive understanding of dental hygiene, including brushing techniques, flossing methods, and the importance of regular dental checkups."
+    ],
+    [
+      "Unable to connect hygiene practices to health or well-being.",
+      "Attempts to connect hygiene to health but shows limited understanding.",
+      "Makes vague connections between hygiene and health, but lacks specific examples.",
+      "Explains some connections between hygiene and health, such as preventing bad breath or body odor.",
+      "Explains how hygiene practices contribute to preventing illness and promoting overall health.",
+      "Provides a detailed explanation of how specific hygiene practices prevent specific diseases and contribute to long-term health and well-being, including mental and social benefits."
+    ],
+    [
+      "Unable to apply hygiene knowledge to practical situations.",
+      "Struggles to apply hygiene knowledge even when given specific scenarios.",
+      "Applies hygiene knowledge inappropriately or with limited success in real-life scenarios.",
+      "Can apply hygiene knowledge to some simple scenarios but struggles with more complex situations.",
+      "Can apply hygiene knowledge effectively to most real-life scenarios, demonstrating sound decision-making.",
+      "Consistently applies hygiene knowledge to a wide range of complex real-life scenarios, demonstrating excellent judgment and proactive decision-making."
+    ]
+  ]
+}

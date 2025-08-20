@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of BMI Calculation and Interpretation",
+    "Application of BMI to General Health Assessment",
+    "Awareness of BMI Limitations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how BMI is calculated or what the resulting score indicates.",
+      "Student shows minimal understanding of BMI calculation and interpretation; significant inaccuracies are present.",
+      "Student can partially explain BMI calculation and interpretation, but struggles with accuracy or completeness.",
+      "Student accurately explains how to calculate BMI and provides a basic interpretation of the score in relation to weight categories.",
+      "Student demonstrates a strong understanding of BMI calculation and interpretation, including weight categories and general health implications.",
+      "Student demonstrates a comprehensive understanding of BMI, including its calculation, interpretation across various weight categories, and limitations as a health indicator. Can explain nuances and contextual factors."
+    ],
+    [
+      "Student is unable to connect BMI scores to general health or identify any related health risks.",
+      "Student makes vague connections between BMI scores and health, with little accuracy or detail.",
+      "Student identifies some general health implications related to BMI scores but lacks specific examples or explanations.",
+      "Student explains how BMI scores can indicate potential health risks associated with underweight, overweight, and obesity.",
+      "Student provides a detailed explanation of how BMI relates to general health, including specific health risks and benefits associated with different BMI ranges.",
+      "Student critically analyzes the use of BMI as a tool for measuring general health, discussing its strengths, limitations, and appropriate contexts for application, while also considering alternative measures."
+    ],
+    [
+      "Student shows no awareness of the limitations of using BMI as a health indicator.",
+      "Student vaguely acknowledges that BMI might have limitations but does not explain them.",
+      "Student identifies one or two limitations of BMI, but the explanation is superficial.",
+      "Student explains several limitations of BMI, such as not accounting for muscle mass, age, sex, or ethnicity.",
+      "Student provides a thorough explanation of the limitations of BMI and discusses how these limitations can affect the accuracy of health assessments.",
+      "Student offers a nuanced discussion of BMI limitations, providing specific examples of how these limitations can impact different populations. Student proposes alternative methods or complementary assessments for a more comprehensive health evaluation."
+    ]
+  ]
+}

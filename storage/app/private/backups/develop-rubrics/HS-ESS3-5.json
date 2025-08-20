@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation: Ability to analyze geoscience data and climate model outputs.",
+    "Evidence-Based Forecasting: Skill in making forecasts about climate change and its impacts based on evidence.",
+    "Understanding of Earth's Systems: Comprehension of the interactions and impacts of climate change on Earth's systems.",
+    "Communication of Scientific Findings: Clarity and effectiveness in communicating findings and forecasts."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze data or model outputs is made.",
+      "Attempts to analyze data or model outputs, but struggles with basic interpretation.",
+      "Analyzes data and model outputs with limited accuracy, missing key trends or patterns.",
+      "Analyzes data and model outputs adequately, identifying major trends and patterns but with some inaccuracies.",
+      "Analyzes data and model outputs effectively, identifying trends and patterns with good accuracy.",
+      "Analyzes data and model outputs thoroughly and accurately, demonstrating a strong understanding of the information presented."
+    ],
+    [
+      "No forecast is made, or the forecast is not based on any evidence.",
+      "Attempts to make a forecast, but it is not supported by evidence or is highly speculative.",
+      "Forecast is loosely based on evidence, but lacks specific details or logical reasoning.",
+      "Forecast is reasonably based on evidence, including some specific details and logical reasoning.",
+      "Forecast is well-supported by evidence, including specific details and logical reasoning, but may have minor gaps.",
+      "Forecast is comprehensively supported by evidence, demonstrating a strong understanding of climate change and its impacts with clear, logical reasoning."
+    ],
+    [
+      "Demonstrates no understanding of Earth's systems or the impacts of climate change.",
+      "Shows limited understanding of Earth's systems and the impacts of climate change.",
+      "Identifies some interactions within Earth's systems, but struggles to connect them to climate change impacts.",
+      "Describes basic interactions within Earth's systems and connects them to some climate change impacts.",
+      "Explains several interactions within Earth's systems and their relationships to climate change impacts with reasonable detail.",
+      "Demonstrates a comprehensive understanding of the complex interactions within Earth's systems and their far-reaching impacts due to climate change."
+    ],
+    [
+      "Communication is unclear, disorganized, and lacks scientific terminology.",
+      "Communication is difficult to understand, with some disorganization and limited use of scientific terminology.",
+      "Communication is somewhat clear but may lack detail or precision in the use of scientific terminology.",
+      "Communication is clear and organized, using appropriate scientific terminology with reasonable accuracy.",
+      "Communication is clear, concise, and well-organized, using scientific terminology accurately and effectively.",
+      "Communication is exceptionally clear, persuasive, and insightful, demonstrating mastery of the subject matter and effective use of scientific terminology."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Preparation and Use of Evidence",
+    "Following Discussion Rules and Roles",
+    "Questioning and Responding",
+    "Acknowledgement and Modification of Views"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is not prepared for the discussion and does not refer to any evidence.",
+      "Student is somewhat prepared but struggles to incorporate evidence from the material.",
+      "Student shows some preparation and makes limited references to evidence, but the connection to the discussion is not always clear.",
+      "Student is prepared and refers to evidence from the text or research to support their ideas.",
+      "Student is well-prepared and effectively uses evidence to support their ideas, probing and reflecting on the topic.",
+      "Student is exceptionally well-prepared, uses evidence skillfully to enhance the discussion, and demonstrates deep reflection on the topic."
+    ],
+    [
+      "Student does not follow rules for discussions and does not contribute to group goals or roles.",
+      "Student struggles to follow discussion rules and does not effectively contribute to group goals or roles.",
+      "Student generally follows discussion rules and attempts to contribute to group goals and roles with limited success.",
+      "Student follows rules for collegial discussions and participates in defining individual roles and tracking progress.",
+      "Student consistently follows discussion rules, actively contributes to achieving group goals, and effectively defines individual roles.",
+      "Student expertly facilitates discussion rules, significantly contributes to group goals, and excels in defining and adapting individual roles."
+    ],
+    [
+      "Student does not pose relevant questions or respond to others' comments.",
+      "Student poses questions or responds to comments that are often off-topic or unclear.",
+      "Student poses some relevant questions and responds to others' comments, but struggles to keep the discussion focused.",
+      "Student poses questions that elicit elaboration and responds to others' questions and comments with relevant ideas, keeping the discussion on topic.",
+      "Student skillfully poses questions that promote deeper understanding and responds thoughtfully to others, guiding the discussion effectively.",
+      "Student masterfully uses questions to drive the discussion forward, providing insightful responses that consistently bring clarity and focus."
+    ],
+    [
+      "Student does not acknowledge new information or modify their views.",
+      "Student rarely acknowledges new information or modifies their views, even when warranted.",
+      "Student acknowledges new information but struggles to modify their own views.",
+      "Student acknowledges new information and, when warranted, modifies their own views.",
+      "Student actively considers new information and thoughtfully modifies their views based on the discussion.",
+      "Student demonstrates intellectual humility by readily integrating new information and significantly refining their views based on the discussion."
+    ]
+  ]
+}

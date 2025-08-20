@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Nutritional Guidelines",
+    "Ability to Identify Healthy Eating Practices",
+    "Application to Personal Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of current research-based guidelines for a nutritionally balanced diet.",
+      "Demonstrates a minimal understanding of nutritional guidelines, with significant misconceptions.",
+      "Demonstrates a basic understanding of some nutritional guidelines but struggles to apply them.",
+      "Demonstrates a satisfactory understanding of most nutritional guidelines and can apply them with some consistency.",
+      "Demonstrates a strong understanding of nutritional guidelines and applies them effectively in most situations.",
+      "Demonstrates a comprehensive understanding of nutritional guidelines and consistently applies them effectively, integrating current research findings."
+    ],
+    [
+      "Unable to identify any healthy eating practices.",
+      "Identifies very few healthy eating practices and struggles to differentiate them from unhealthy practices.",
+      "Identifies some healthy eating practices but lacks depth in understanding their benefits.",
+      "Identifies several healthy eating practices and understands their basic benefits.",
+      "Identifies a wide range of healthy eating practices and understands their benefits in detail.",
+      "Identifies and explains a comprehensive range of healthy eating practices, including nuanced applications and benefits based on individual needs."
+    ],
+    [
+      "Does not connect nutritional guidelines to personal health or eating habits.",
+      "Makes a weak connection between nutritional guidelines and personal health, with no intention of application.",
+      "Acknowledges the relevance of nutritional guidelines to personal health but struggles to implement changes.",
+      "Can identify some areas where nutritional guidelines can be applied to improve personal eating habits.",
+      "Actively applies nutritional guidelines to personal eating habits and demonstrates a positive change.",
+      "Consistently applies nutritional guidelines to personal eating habits, monitors progress, and adjusts strategies based on personal needs and goals."
+    ]
+  ]
+}

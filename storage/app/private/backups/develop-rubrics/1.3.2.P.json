@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Importance of Health Records",
+    "Explanation of Parental\/Guardian Role",
+    "Clarity and Accuracy of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of why health records are kept.",
+      "Student shows minimal understanding, with significant misconceptions or gaps in knowledge.",
+      "Student identifies some reasons for keeping health records, but explanation lacks depth and clarity.",
+      "Student adequately explains several reasons for maintaining health records, showing a basic level of comprehension.",
+      "Student comprehensively explains multiple reasons for maintaining health records, including preventive care and historical tracking.",
+      "Student provides a thorough and insightful explanation of the importance of health records, including long-term health management and legal considerations."
+    ],
+    [
+      "Student does not mention or understand the role of parents\/guardians in maintaining health records.",
+      "Student vaguely mentions parents\/guardians but does not explain their role or responsibilities.",
+      "Student identifies parents\/guardians as keepers of records but provides limited justification.",
+      "Student explains the basic role of parents\/guardians in maintaining and providing access to health records.",
+      "Student effectively explains the responsibility of parents\/guardians in maintaining accurate and up-to-date health records for informed healthcare decisions.",
+      "Student insightfully discusses the legal and ethical responsibilities of parents\/guardians in safeguarding their child's health information and making informed healthcare decisions."
+    ],
+    [
+      "Explanation is unclear, inaccurate, and difficult to understand.",
+      "Explanation contains significant inaccuracies and lacks coherence.",
+      "Explanation contains some inaccuracies or is presented unclearly.",
+      "Explanation is generally clear and accurate but may lack detail.",
+      "Explanation is clear, accurate, and well-organized, demonstrating a solid understanding of the topic.",
+      "Explanation is exceptionally clear, accurate, and insightful, demonstrating a comprehensive understanding of the subject matter."
+    ]
+  ]
+}

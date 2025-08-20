@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Unit Circle",
+    "Extending Trigonometric Functions",
+    "Application of Radian Measures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the unit circle or its relationship to trigonometric functions.",
+      "Student shows a limited understanding of the unit circle; struggles to identify angles and coordinates.",
+      "Student can identify some angles and coordinates on the unit circle but has difficulty relating them to trigonometric functions.",
+      "Student demonstrates a basic understanding of the unit circle and its relationship to trigonometric functions for common angles.",
+      "Student clearly understands the unit circle and can accurately relate angles and coordinates to trigonometric functions.",
+      "Student demonstrates a comprehensive understanding of the unit circle, including its use in defining trigonometric functions for all real numbers; explanations are clear and insightful."
+    ],
+    [
+      "Student cannot explain how trigonometric functions are extended beyond acute angles using the unit circle.",
+      "Student struggles to explain the extension of trigonometric functions, showing confusion about radian measures and counterclockwise traversal.",
+      "Student attempts to explain the extension but demonstrates gaps in understanding, particularly with radian measures or traversal direction.",
+      "Student can explain how trigonometric functions are extended to all real numbers using the unit circle, including radian measures.",
+      "Student clearly explains and justifies how the unit circle enables the extension of trigonometric functions, including radian measures and counterclockwise traversal.",
+      "Student provides a thorough and insightful explanation of the extension of trigonometric functions, including the implications of radian measures, counterclockwise traversal, and the periodicity of the functions."
+    ],
+    [
+      "Student does not demonstrate an understanding of radian measures or their use in defining angles on the unit circle.",
+      "Student shows limited understanding of radian measures; struggles to convert between degrees and radians.",
+      "Student can convert between degrees and radians but has difficulty applying radian measures to find trigonometric values.",
+      "Student can apply radian measures to determine trigonometric values for angles on the unit circle.",
+      "Student confidently uses radian measures to determine trigonometric values and solve problems related to the unit circle.",
+      "Student demonstrates expertise in using radian measures, including complex problem-solving and insightful explanations of their significance in trigonometric functions."
+    ]
+  ]
+}

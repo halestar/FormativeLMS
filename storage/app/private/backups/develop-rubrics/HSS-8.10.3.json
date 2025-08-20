@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Nullification and Secession",
+    "Identification of Constitutional Issues",
+    "Knowledge of the Historical Origins"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of nullification or secession.",
+      "Shows minimal understanding of either nullification or secession, with significant inaccuracies.",
+      "Displays a basic understanding of either nullification or secession but struggles to define the other concept accurately.",
+      "Exhibits a satisfactory understanding of both nullification and secession, with minor inaccuracies.",
+      "Demonstrates a clear and accurate understanding of both nullification and secession, including their core principles.",
+      "Shows a comprehensive understanding of nullification and secession, including nuanced distinctions and implications."
+    ],
+    [
+      "Fails to identify any constitutional issues related to nullification or secession.",
+      "Identifies one constitutional issue vaguely, with limited accuracy.",
+      "Identifies one or two constitutional issues but struggles to explain their connection to nullification or secession.",
+      "Identifies two or three constitutional issues and demonstrates a basic understanding of their relevance.",
+      "Identifies multiple constitutional issues and clearly explains their connection to nullification and secession.",
+      "Provides a thorough and insightful analysis of the constitutional issues at stake, demonstrating a deep understanding of their historical and legal context."
+    ],
+    [
+      "Demonstrates no awareness of the historical origins of nullification or secession.",
+      "Mentions the existence of historical origins but provides no specific details.",
+      "Identifies one early origin inaccurately or vaguely.",
+      "Identifies at least one early origin of the doctrine of nullification and secession, but explanation is basic.",
+      "Accurately describes multiple early origins of the doctrine of nullification and secession and the figures associated with them.",
+      "Provides a detailed account of the earliest origins of the doctrine of nullification and secession, tracing its evolution and influences with supporting evidence."
+    ]
+  ]
+}

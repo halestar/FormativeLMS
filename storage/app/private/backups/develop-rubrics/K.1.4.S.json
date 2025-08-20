@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Personal Boundaries",
+    "Ability to Identify Inappropriate Touching",
+    "Response Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of personal boundaries or the concept of appropriate vs. inappropriate touching.",
+      "Shows a minimal understanding of personal boundaries, struggling to differentiate between appropriate and inappropriate touching in most scenarios.",
+      "Demonstrates a basic understanding of personal boundaries but may still confuse appropriate and inappropriate touching in certain situations.",
+      "Clearly understands personal boundaries and can generally differentiate between appropriate and inappropriate touching.",
+      "Exhibits a strong understanding of personal boundaries and can confidently distinguish between appropriate and inappropriate touching in various contexts.",
+      "Demonstrates a comprehensive understanding of personal boundaries, consistently differentiating between appropriate and inappropriate touching while also showing empathy and respect for others' boundaries."
+    ],
+    [
+      "Unable to identify any instances of inappropriate touching.",
+      "Can identify only the most obvious examples of inappropriate touching.",
+      "Can identify some examples of inappropriate touching with prompting.",
+      "Can independently identify many examples of inappropriate touching.",
+      "Can readily and accurately identify nearly all examples of inappropriate touching.",
+      "Can quickly and accurately identify all examples of inappropriate touching, including subtle or nuanced situations, and explains the reasoning clearly."
+    ],
+    [
+      "Does not suggest any appropriate responses to inappropriate touching.",
+      "Suggests only one or two ineffective or inappropriate responses.",
+      "Suggests a few potentially helpful responses, but may lack confidence or clarity.",
+      "Suggests several appropriate responses to inappropriate touching.",
+      "Suggests a variety of effective and appropriate responses to inappropriate touching, tailored to different situations.",
+      "Formulates and articulates a comprehensive strategy for responding to inappropriate touching, including assertive communication, seeking help, and reporting incidents."
+    ]
+  ]
+}

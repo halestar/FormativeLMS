@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of information presented regarding the causes and symptoms of diseases.",
+    "Depth of investigation into both communicable and non-communicable diseases.",
+    "Clarity and organization of presentation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Information is missing or entirely inaccurate.",
+      "Information is largely inaccurate with significant gaps in understanding.",
+      "Information contains inaccuracies or omissions regarding causes and symptoms.",
+      "Information is mostly accurate with minor omissions or inaccuracies.",
+      "Information is accurate and complete, showing a solid understanding of the causes and symptoms.",
+      "Information is exceptionally accurate, detailed, and demonstrates a comprehensive understanding of the causes and symptoms of various diseases, including nuances and complexities."
+    ],
+    [
+      "No attempt to investigate causes and symptoms of diseases.",
+      "Superficial investigation with minimal detail on either communicable or non-communicable diseases.",
+      "Investigates causes and symptoms, but lacks depth in either communicable or non-communicable diseases.",
+      "Adequately investigates causes and symptoms of both communicable and non-communicable diseases with some depth.",
+      "In-depth investigation into the causes and symptoms of both communicable and non-communicable diseases.",
+      "Extensive and thorough investigation that goes beyond basic understanding to explore the complexities and interrelationships of communicable and non-communicable diseases."
+    ],
+    [
+      "Presentation is disorganized and unclear; difficult to understand.",
+      "Presentation lacks organization and clarity; difficult to follow.",
+      "Presentation is somewhat organized but lacks clarity in places.",
+      "Presentation is generally clear and organized, but could benefit from minor improvements.",
+      "Presentation is clear, well-organized, and easy to understand.",
+      "Presentation is exceptionally clear, logically organized, and engaging, demonstrating excellent communication skills."
+    ]
+  ]
+}

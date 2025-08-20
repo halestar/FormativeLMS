@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Scatter Plot Construction: Appropriately represents data on a scatter plot.",
+    "Description of Relationship: Describes the relationship between the two variables.",
+    "Linear Function Fit: Fits a linear function to a scatter plot that suggests a linear association."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to create a scatter plot or plot is completely inaccurate and irrelevant.",
+      "Creates a scatter plot with significant errors in plotting data points or axes labeling.",
+      "Constructs a scatter plot with some inaccuracies in plotting data points or labeling. Axes are not clearly defined.",
+      "Accurately represents most data points on a scatter plot, with minor errors in labeling or scaling.",
+      "Accurately represents data on a scatter plot with clear and appropriate labeling of axes and data points.",
+      "Constructs a precise and well-labeled scatter plot that effectively displays the relationship between two quantitative variables. Demonstrates attention to detail."
+    ],
+    [
+      "Provides no description of the relationship between the variables or the description is entirely irrelevant.",
+      "Attempts to describe the relationship but provides a vague or inaccurate interpretation.",
+      "Describes the relationship with limited detail, missing key aspects of the association or correlation.",
+      "Adequately describes the relationship, identifying the general trend or association between variables.",
+      "Clearly and accurately describes the relationship, including strength and direction of the association.",
+      "Provides a comprehensive and insightful description of the relationship, including strength, direction, and any potential outliers or clusters."
+    ],
+    [
+      "Does not attempt to fit a linear function or the attempt is completely inappropriate for the data.",
+      "Attempts to fit a linear function but it is poorly aligned and does not represent the data's trend.",
+      "Fits a linear function with noticeable deviations from the data's trend.",
+      "Fits a reasonably aligned linear function to the scatter plot, representing the general trend.",
+      "Accurately fits a linear function that closely represents the linear association in the scatter plot.",
+      "Skillfully fits the best possible linear function, justifying the choice with clear reasoning and demonstrating an understanding of linear regression principles."
+    ]
+  ]
+}

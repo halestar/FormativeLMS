@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Prescription Medicines Use",
+    "Understanding of Prescription Medicines Abuse",
+    "Understanding of Nonprescription Medicines Use",
+    "Understanding of Nonprescription Medicines Abuse",
+    "Understanding of Illegal Substances Use and Abuse"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of prescription medicine use or safety demonstrated.",
+      "Demonstrates minimal understanding; struggles to explain appropriate use.",
+      "Identifies basic uses but lacks depth in explaining safety measures or potential risks.",
+      "Describes common uses and some safety guidelines; may miss nuances or detailed instructions.",
+      "Explains appropriate use, safety measures, and potential risks of prescription medicines with reasonable detail.",
+      "Comprehensive understanding; clearly articulates appropriate use, safety measures, potential risks, and consequences of misuse with specific examples."
+    ],
+    [
+      "No understanding of prescription medicine abuse or dangers demonstrated.",
+      "Demonstrates minimal awareness of abuse; struggles to define or recognize it.",
+      "Identifies abuse as a problem but lacks specific knowledge of how it occurs or its consequences.",
+      "Describes common forms of abuse and some associated dangers; may miss long-term effects or specific examples.",
+      "Explains different forms of abuse, dangers, and consequences of prescription medicine abuse with reasonable detail.",
+      "Comprehensive understanding; clearly articulates various forms of abuse, short and long-term dangers, and consequences with specific and relevant examples."
+    ],
+    [
+      "No understanding of nonprescription medicine use or safety demonstrated.",
+      "Demonstrates minimal understanding; struggles to explain appropriate use.",
+      "Identifies basic uses but lacks depth in explaining safety measures or potential risks.",
+      "Describes common uses and some safety guidelines; may miss nuances or detailed instructions.",
+      "Explains appropriate use, safety measures, and potential risks of nonprescription medicines with reasonable detail.",
+      "Comprehensive understanding; clearly articulates appropriate use, safety measures, potential risks, and consequences of misuse with specific examples."
+    ],
+    [
+      "No understanding of nonprescription medicine abuse or dangers demonstrated.",
+      "Demonstrates minimal awareness of abuse; struggles to define or recognize it.",
+      "Identifies abuse as a problem but lacks specific knowledge of how it occurs or its consequences.",
+      "Describes common forms of abuse and some associated dangers; may miss long-term effects or specific examples.",
+      "Explains different forms of abuse, dangers, and consequences of nonprescription medicine abuse with reasonable detail.",
+      "Comprehensive understanding; clearly articulates various forms of abuse, short and long-term dangers, and consequences with specific and relevant examples."
+    ],
+    [
+      "No understanding of illegal substance use\/abuse or dangers demonstrated.",
+      "Demonstrates minimal awareness; struggles to define or recognize use\/abuse.",
+      "Identifies illegal substance use\/abuse as a problem but lacks specific knowledge of dangers.",
+      "Describes common illegal substances and some associated dangers; may miss long-term effects.",
+      "Explains use\/abuse, dangers, and consequences of illegal substances with reasonable detail.",
+      "Comprehensive understanding; clearly articulates use\/abuse, short and long-term dangers, and consequences with specific, relevant examples."
+    ]
+  ]
+}

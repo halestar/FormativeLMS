@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to accurately solve systems of linear equations using algebraic methods (substitution, elimination).",
+    "Ability to accurately solve systems of linear equations using graphical methods.",
+    "Ability to interpret the solutions of systems of linear equations in context.",
+    "Ability to explain and justify the chosen method and solution clearly and logically."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely incorrect application of algebraic methods.",
+      "Demonstrates minimal understanding; makes significant errors in applying algebraic methods.",
+      "Applies algebraic methods with some accuracy but struggles with complex systems or makes occasional errors.",
+      "Solves most systems correctly using algebraic methods, with only minor errors.",
+      "Consistently solves systems accurately and efficiently using appropriate algebraic methods.",
+      "Demonstrates mastery in solving systems of linear equations algebraically and can explain the reasoning behind the steps."
+    ],
+    [
+      "No attempt or completely incorrect application of graphical methods.",
+      "Demonstrates minimal understanding; unable to graph lines accurately or identify the solution.",
+      "Graphs lines with some accuracy but struggles to find the intersection point or misinterprets the solution.",
+      "Solves most systems correctly using graphical methods, with only minor inaccuracies in graphing.",
+      "Consistently solves systems accurately and efficiently using graphical methods, identifying the solution clearly.",
+      "Demonstrates mastery in solving systems of linear equations graphically and can explain the relationship between the graph and the solution."
+    ],
+    [
+      "Unable to interpret the solution in any meaningful way.",
+      "Provides a basic interpretation but lacks understanding of the significance of the solution.",
+      "Interprets the solution with some understanding but struggles to connect it to the context of the problem.",
+      "Provides a clear interpretation of the solution in the context of the problem.",
+      "Provides a thorough and insightful interpretation of the solution, explaining its significance and implications.",
+      "Demonstrates mastery in interpreting solutions of systems of linear equations in various contexts and can explain the limitations of the solutions."
+    ],
+    [
+      "No explanation provided or explanation is completely incomprehensible.",
+      "Explanation is unclear, incomplete, and lacks logical reasoning.",
+      "Provides a partial explanation with some logical reasoning but may have gaps or inconsistencies.",
+      "Explains the chosen method and solution clearly and logically, providing justification for each step.",
+      "Provides a comprehensive and well-reasoned explanation, demonstrating a deep understanding of the concepts.",
+      "Demonstrates mastery in explaining and justifying the chosen method and solution with exceptional clarity and insight."
+    ]
+  ]
+}

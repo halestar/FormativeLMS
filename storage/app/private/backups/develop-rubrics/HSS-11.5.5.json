@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Harlem Renaissance",
+    "Knowledge of Key Figures",
+    "Analysis of Trends in Literature, Music, and Art",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Harlem Renaissance.",
+      "Shows minimal awareness of the Harlem Renaissance as a historical period.",
+      "Identifies the Harlem Renaissance but struggles to explain its significance.",
+      "Describes the Harlem Renaissance as a cultural movement and identifies some of its key aspects.",
+      "Explains the Harlem Renaissance's political, social, and cultural significance with supporting details.",
+      "Provides a comprehensive analysis of the Harlem Renaissance, including its causes, key figures, and lasting impact."
+    ],
+    [
+      "Unable to name any key figures of the Harlem Renaissance.",
+      "Names one key figure with no additional information.",
+      "Names a few key figures but provides limited information about their work.",
+      "Discusses the contributions of Zora Neale Hurston or Langston Hughes in some detail.",
+      "Discusses the contributions of Zora Neale Hurston and Langston Hughes and at least one other major figure.",
+      "Demonstrates in-depth knowledge of several key figures, analyzing their works and their impact on the Harlem Renaissance and beyond."
+    ],
+    [
+      "Shows no understanding of the trends in literature, music, and art during the Harlem Renaissance.",
+      "Identifies one trend in either literature, music or art.",
+      "Identifies trends in at least two of the categories (literature, music, and art) but lacks detail.",
+      "Describes trends in literature, music, and art with some specific examples.",
+      "Analyzes the trends in literature, music, and art, explaining how they reflected the social and political context of the time.",
+      "Provides a nuanced analysis of the interconnectedness of trends in literature, music, and art, demonstrating a deep understanding of the Harlem Renaissance's cultural landscape."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat understandable but lacks organization.",
+      "Response is generally clear but could be better organized.",
+      "Response is clear and logically organized.",
+      "Response is well-organized, coherent, and easy to follow.",
+      "Response is exceptionally clear, concise, and effectively organized, enhancing the overall impact of the analysis."
+    ]
+  ]
+}

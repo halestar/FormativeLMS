@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in identifying early land and sea routes to California",
+    "Understanding of European settlements in California and their context",
+    "Knowledge of key explorers and their explorations of the North Pacific",
+    "Understanding the importance of geographical features (mountains, deserts, ocean currents, and wind patterns)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No routes are identified or the routes identified are completely inaccurate.",
+      "Identifies only one route with major inaccuracies or omissions.",
+      "Identifies a couple of routes but with some inaccuracies or missing key details.",
+      "Identifies the major routes (land and sea) with minor inaccuracies.",
+      "Accurately identifies most early land and sea routes to California with supporting details.",
+      "Accurately and comprehensively identifies early land and sea routes to California, including specific explorers and geographical context."
+    ],
+    [
+      "Demonstrates no understanding of European settlements in California.",
+      "Mentions the existence of European settlements but lacks any detail or context.",
+      "Identifies a few European settlements but provides limited context or explanation.",
+      "Describes some European settlements with basic context, such as Spanish missions.",
+      "Explains several European settlements with good context, including their purpose and impact.",
+      "Provides a comprehensive overview of European settlements in California, including their political, social, and economic significance."
+    ],
+    [
+      "Unable to identify any key explorers of the North Pacific.",
+      "Identifies one explorer with minimal information.",
+      "Identifies a couple of explorers but lacks details about their explorations.",
+      "Identifies key explorers such as Captain James Cook and Vitus Bering, providing some information about their journeys.",
+      "Describes the explorations of key figures like Cook, Bering, and Cabrillo with accurate details.",
+      "Provides an in-depth analysis of the explorations of Cook, Bering, and Cabrillo, including their motivations, routes, and impact."
+    ],
+    [
+      "Does not mention or demonstrate understanding of the impact of geographical features.",
+      "Mentions geographical features but does not explain their importance.",
+      "Identifies a couple of geographical features and briefly mentions their importance.",
+      "Explains the importance of some geographical features (e.g., mountains, ocean currents) in influencing exploration and settlement.",
+      "Clearly articulates how geographical features impacted routes, settlement patterns, and interactions in California.",
+      "Provides a comprehensive analysis of how mountains, deserts, ocean currents, and wind patterns significantly shaped early California\u2019s history and development."
+    ]
+  ]
+}

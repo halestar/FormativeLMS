@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Federalism and State Authority",
+    "Knowledge of Constitutional Amendments and their Impact on Democratization",
+    "Ability to Analyze the History of the Constitution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the division of power between the federal and state governments.",
+      "Shows a minimal understanding of federalism, with significant inaccuracies.",
+      "Identifies federalism but struggles to explain the nuances of federal versus state authority.",
+      "Explains federalism and provides basic examples of the division of power.",
+      "Analyzes the complexities of federalism with specific historical examples, demonstrating a strong understanding of the balance of power.",
+      "Critically evaluates the evolution of federalism and its impact on American society, offering nuanced insights into ongoing debates."
+    ],
+    [
+      "Shows no awareness of any Constitutional amendments after 1787.",
+      "Names one or two amendments but cannot explain their significance or impact on democratization.",
+      "Identifies several key amendments (e.g., Bill of Rights, 19th Amendment) but lacks depth in explaining their impact.",
+      "Explains how specific amendments expanded democratic rights and participation.",
+      "Analyzes the impact of multiple amendments on different groups in society, demonstrating a comprehensive understanding of democratization.",
+      "Evaluates the long-term consequences of constitutional amendments on American democracy, considering both intended and unintended effects."
+    ],
+    [
+      "Unable to discuss any historical context related to the Constitution after 1787.",
+      "Presents fragmented or inaccurate information about the Constitution's history.",
+      "Recounts basic facts about the Constitution but struggles to connect them to broader historical trends.",
+      "Summarizes key events and debates related to the Constitution's evolution after 1787.",
+      "Analyzes the historical context surrounding key constitutional developments, demonstrating an understanding of cause and effect.",
+      "Synthesizes information from multiple sources to construct a coherent and insightful narrative of the Constitution's history, demonstrating an advanced understanding of historical interpretation."
+    ]
+  ]
+}

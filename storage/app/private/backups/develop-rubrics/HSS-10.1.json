@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Ancient Greek and Roman Philosophy's Moral and Ethical Principles",
+    "Understanding of Judaism's Moral and Ethical Principles",
+    "Understanding of Christianity's Moral and Ethical Principles",
+    "Relating Philosophical Principles to Western Political Thought"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the moral and ethical principles in ancient Greek and Roman philosophy.",
+      "Student demonstrates a minimal understanding of the moral and ethical principles in ancient Greek and Roman philosophy, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the moral and ethical principles in ancient Greek and Roman philosophy, but lacks depth and detail.",
+      "Student demonstrates a satisfactory understanding of the moral and ethical principles in ancient Greek and Roman philosophy, with some supporting details.",
+      "Student demonstrates a strong understanding of the moral and ethical principles in ancient Greek and Roman philosophy, providing clear and accurate details.",
+      "Student demonstrates a comprehensive and insightful understanding of the moral and ethical principles in ancient Greek and Roman philosophy, showcasing a nuanced perspective."
+    ],
+    [
+      "Student demonstrates no understanding of the moral and ethical principles in Judaism.",
+      "Student demonstrates a minimal understanding of the moral and ethical principles in Judaism, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the moral and ethical principles in Judaism, but lacks depth and detail.",
+      "Student demonstrates a satisfactory understanding of the moral and ethical principles in Judaism, with some supporting details.",
+      "Student demonstrates a strong understanding of the moral and ethical principles in Judaism, providing clear and accurate details.",
+      "Student demonstrates a comprehensive and insightful understanding of the moral and ethical principles in Judaism, showcasing a nuanced perspective."
+    ],
+    [
+      "Student demonstrates no understanding of the moral and ethical principles in Christianity.",
+      "Student demonstrates a minimal understanding of the moral and ethical principles in Christianity, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the moral and ethical principles in Christianity, but lacks depth and detail.",
+      "Student demonstrates a satisfactory understanding of the moral and ethical principles in Christianity, with some supporting details.",
+      "Student demonstrates a strong understanding of the moral and ethical principles in Christianity, providing clear and accurate details.",
+      "Student demonstrates a comprehensive and insightful understanding of the moral and ethical principles in Christianity, showcasing a nuanced perspective."
+    ],
+    [
+      "Student is unable to relate the moral and ethical principles to the development of Western political thought.",
+      "Student demonstrates a minimal ability to relate the moral and ethical principles to the development of Western political thought, with unclear connections.",
+      "Student demonstrates a basic ability to relate the moral and ethical principles to the development of Western political thought, but lacks specific examples.",
+      "Student adequately relates the moral and ethical principles to the development of Western political thought, providing some relevant examples.",
+      "Student clearly relates the moral and ethical principles to the development of Western political thought, providing well-explained examples.",
+      "Student insightfully relates the moral and ethical principles to the development of Western political thought, providing nuanced examples and demonstrating a sophisticated understanding of their impact."
+    ]
+  ]
+}

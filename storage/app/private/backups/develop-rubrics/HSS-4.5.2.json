@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Purpose of the California Constitution",
+    "Knowledge of Key Principles of the California Constitution",
+    "Understanding of the Relationship Between the California Constitution and the U.S. Constitution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the California Constitution's purpose.",
+      "Student shows minimal understanding of the California Constitution's purpose.",
+      "Student identifies a basic purpose of the California Constitution but lacks detail.",
+      "Student explains the main purposes of the California Constitution with some supporting details.",
+      "Student thoroughly explains the purposes of the California Constitution, providing relevant details and examples.",
+      "Student demonstrates a comprehensive understanding of the California Constitution's purpose, offering insightful analysis and connecting it to contemporary issues."
+    ],
+    [
+      "Student is unable to identify any key principles of the California Constitution.",
+      "Student identifies one key principle of the California Constitution with limited accuracy.",
+      "Student identifies a few key principles of the California Constitution but struggles to explain them.",
+      "Student explains several key principles of the California Constitution with reasonable clarity.",
+      "Student clearly explains the key principles of the California Constitution, providing supporting examples and demonstrating a solid understanding.",
+      "Student demonstrates an in-depth understanding of the key principles of the California Constitution, analyzing their historical context and contemporary relevance."
+    ],
+    [
+      "Student does not understand the relationship between the California and U.S. Constitutions.",
+      "Student demonstrates a vague understanding of the relationship between the California and U.S. Constitutions.",
+      "Student identifies a connection between the California and U.S. Constitutions but cannot explain it clearly.",
+      "Student explains the basic relationship between the California and U.S. Constitutions, including areas of overlap and difference.",
+      "Student clearly explains the relationship between the California and U.S. Constitutions, providing specific examples and demonstrating a strong understanding of federalism.",
+      "Student offers a sophisticated analysis of the relationship between the California and U.S. Constitutions, discussing the balance of power and the impact of Supreme Court decisions."
+    ]
+  ]
+}

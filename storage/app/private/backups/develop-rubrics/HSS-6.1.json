@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Paleolithic Era Developments",
+    "Understanding of Agricultural Revolution Developments",
+    "Use of Archaeological Evidence",
+    "Distinction between Physical and Cultural Developments"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Paleolithic era or its developments.",
+      "Shows minimal understanding, with significant inaccuracies or omissions regarding Paleolithic developments.",
+      "Displays a basic understanding, but struggles to accurately describe key Paleolithic developments.",
+      "Accurately describes several Paleolithic developments, but lacks depth or detail in explanations.",
+      "Demonstrates a strong understanding of Paleolithic developments, providing accurate and detailed descriptions.",
+      "Exhibits a comprehensive understanding of Paleolithic developments, including nuanced details and insightful analysis."
+    ],
+    [
+      "Demonstrates no understanding of the Agricultural Revolution or its developments.",
+      "Shows minimal understanding, with significant inaccuracies or omissions regarding developments of the Agricultural Revolution.",
+      "Displays a basic understanding, but struggles to accurately describe key developments of the Agricultural Revolution.",
+      "Accurately describes several developments of the Agricultural Revolution, but lacks depth or detail in explanations.",
+      "Demonstrates a strong understanding of developments of the Agricultural Revolution, providing accurate and detailed descriptions.",
+      "Exhibits a comprehensive understanding of developments of the Agricultural Revolution, including nuanced details and insightful analysis."
+    ],
+    [
+      "Does not mention or use archaeological evidence to support descriptions.",
+      "Mentions archaeological evidence, but inaccurately or irrelevantly.",
+      "Refers to archaeological evidence, but provides limited explanation of its significance.",
+      "Uses archaeological evidence to support some descriptions, but connections are not always clear.",
+      "Effectively uses archaeological evidence to support descriptions, explaining its significance to our understanding of the period.",
+      "Skillfully integrates archaeological evidence, offering insightful interpretations and demonstrating a deep understanding of its role in historical knowledge."
+    ],
+    [
+      "Fails to distinguish between physical and cultural developments.",
+      "Shows confusion between physical and cultural developments, mixing examples incorrectly.",
+      "Attempts to distinguish between physical and cultural developments, but with limited success or clarity.",
+      "Generally distinguishes between physical and cultural developments, providing some relevant examples.",
+      "Clearly distinguishes between physical and cultural developments, providing accurate and relevant examples for each.",
+      "Masterfully distinguishes between physical and cultural developments, offering nuanced examples and demonstrating a deep understanding of their interplay."
+    ]
+  ]
+}

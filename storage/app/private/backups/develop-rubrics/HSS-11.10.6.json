@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the 1964 Civil Rights Act",
+    "Understanding of the Voting Rights Act of 1965",
+    "Understanding of the Twenty-Fourth Amendment",
+    "Analysis of equality of access to education and the political process"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the 1964 Civil Rights Act.",
+      "Shows minimal understanding of the 1964 Civil Rights Act; struggles to identify key provisions or effects.",
+      "Identifies basic aspects of the 1964 Civil Rights Act but lacks depth in explaining its provisions or effects.",
+      "Explains the main provisions of the 1964 Civil Rights Act and some of its effects, but may miss some nuances.",
+      "Clearly explains the key provisions of the 1964 Civil Rights Act and its significant effects on American society.",
+      "Demonstrates a comprehensive understanding of the 1964 Civil Rights Act, including its provisions, effects, and long-term impact."
+    ],
+    [
+      "Demonstrates no understanding of the Voting Rights Act of 1965.",
+      "Shows minimal understanding of the Voting Rights Act of 1965; struggles to identify key provisions or effects.",
+      "Identifies basic aspects of the Voting Rights Act of 1965 but lacks depth in explaining its provisions or effects.",
+      "Explains the main provisions of the Voting Rights Act of 1965 and some of its effects, but may miss some nuances.",
+      "Clearly explains the key provisions of the Voting Rights Act of 1965 and its significant effects on American society.",
+      "Demonstrates a comprehensive understanding of the Voting Rights Act of 1965, including its provisions, effects, and long-term impact."
+    ],
+    [
+      "Demonstrates no understanding of the Twenty-Fourth Amendment.",
+      "Shows minimal understanding of the Twenty-Fourth Amendment; struggles to identify its purpose or effects.",
+      "Identifies the basic purpose of the Twenty-Fourth Amendment but lacks depth in explaining its significance.",
+      "Explains the main purpose of the Twenty-Fourth Amendment and some of its effects, but may miss some nuances.",
+      "Clearly explains the purpose of the Twenty-Fourth Amendment and its impact on voting rights.",
+      "Demonstrates a comprehensive understanding of the Twenty-Fourth Amendment, including its purpose, effects, and historical context."
+    ],
+    [
+      "Fails to address the concept of equality of access to education or the political process.",
+      "Mentions equality of access but struggles to connect it to the legislation discussed.",
+      "Identifies a basic connection between the legislation and equality of access but lacks depth in analysis.",
+      "Explains how the legislation impacted equality of access to education or the political process, but may miss some nuances.",
+      "Clearly explains how the legislation impacted equality of access to both education and the political process.",
+      "Demonstrates a comprehensive analysis of how the legislation promoted equality of access to education and the political process, including long-term effects and ongoing challenges."
+    ]
+  ]
+}

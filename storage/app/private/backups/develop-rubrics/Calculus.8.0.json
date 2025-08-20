@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and Application of Rolle's Theorem",
+    "Understanding and Application of the Mean Value Theorem",
+    "Understanding and Application of L'Hopital's Rule",
+    "Correctness of Calculus Notation and Procedures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of Rolle's Theorem.",
+      "Student shows a basic understanding of Rolle's Theorem but cannot apply it.",
+      "Student can recall Rolle's Theorem and attempts to apply it, but makes significant errors.",
+      "Student can apply Rolle's Theorem in simple cases with some guidance.",
+      "Student demonstrates a solid understanding of Rolle's Theorem and can apply it correctly in most cases.",
+      "Student demonstrates a comprehensive understanding of Rolle's Theorem and can apply it correctly and efficiently in complex problems."
+    ],
+    [
+      "Student demonstrates no understanding of the Mean Value Theorem.",
+      "Student shows a basic understanding of the Mean Value Theorem but cannot apply it.",
+      "Student can recall the Mean Value Theorem and attempts to apply it, but makes significant errors.",
+      "Student can apply the Mean Value Theorem in simple cases with some guidance.",
+      "Student demonstrates a solid understanding of the Mean Value Theorem and can apply it correctly in most cases.",
+      "Student demonstrates a comprehensive understanding of the Mean Value Theorem and can apply it correctly and efficiently in complex problems."
+    ],
+    [
+      "Student demonstrates no understanding of L'Hopital's Rule.",
+      "Student shows a basic understanding of L'Hopital's Rule but cannot apply it.",
+      "Student can recall L'Hopital's Rule and attempts to apply it, but makes significant errors.",
+      "Student can apply L'Hopital's Rule in simple indeterminate form cases with some guidance.",
+      "Student demonstrates a solid understanding of L'Hopital's Rule and can apply it correctly in most indeterminate form cases.",
+      "Student demonstrates a comprehensive understanding of L'Hopital's Rule, including limits that require multiple applications, and can apply it correctly and efficiently."
+    ],
+    [
+      "Student uses incorrect calculus notation and procedures consistently.",
+      "Student uses mostly incorrect notation, with very little correct.",
+      "Student struggles with calculus notation and procedures and makes frequent errors.",
+      "Student generally uses correct notation and procedures, but makes occasional errors.",
+      "Student uses correct notation and procedures with few errors.",
+      "Student consistently uses correct calculus notation and procedures flawlessly."
+    ]
+  ]
+}

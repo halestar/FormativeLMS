@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Geometric Shapes: Assesses the precision and correctness of the drawn geometric shapes based on given conditions.",
+    "Understanding Triangle Conditions: Evaluates the student's ability to determine if the given conditions (three measures of angles or sides) result in a unique triangle, more than one triangle, or no triangle.",
+    "Construction Technique: Assesses the quality and precision of the construction techniques used (freehand, with ruler and protractor, and\/or with technology)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The geometric shapes are either not drawn or are completely inaccurate, showing no understanding of the given conditions.",
+      "The geometric shapes are attempted, but with significant inaccuracies and deviations from the given conditions.",
+      "The geometric shapes are partially accurate, with some noticeable errors or deviations from the given conditions.",
+      "The geometric shapes are mostly accurate, with only minor errors or deviations from the given conditions. Demonstrates a basic understanding of the properties.",
+      "The geometric shapes are accurate and well-constructed, with only slight imperfections. Demonstrates a good understanding of the properties and conditions.",
+      "The geometric shapes are perfectly accurate and precisely constructed, demonstrating an excellent understanding of the properties and conditions."
+    ],
+    [
+      "The student is unable to determine the type of triangle, or whether a triangle can exist given the conditions.",
+      "The student attempts to determine the type of triangle, but the reasoning is unclear and inaccurate.",
+      "The student shows some understanding, but with significant errors in identifying the type of triangle based on the given conditions.",
+      "The student can identify the type of triangle in most cases, with occasional errors. The reasoning is somewhat clear but may lack full justification.",
+      "The student consistently and accurately identifies the type of triangle, providing clear and logical reasoning based on the given conditions.",
+      "The student demonstrates a complete understanding of the triangle conditions, accurately identifying the type of triangle and providing a rigorous, clear, and concise justification."
+    ],
+    [
+      "The construction techniques are not used, or they are used incorrectly, resulting in inaccurate or poorly constructed shapes.",
+      "The construction techniques are attempted, but with significant errors and inconsistencies. The tools are used ineffectively.",
+      "The construction techniques are partially correct, with some noticeable errors or inconsistencies. The tools are used with limited proficiency.",
+      "The construction techniques are mostly correct, with only minor errors or inconsistencies. The tools are used with reasonable proficiency.",
+      "The construction techniques are accurate and precise, with only slight imperfections. Demonstrates a good command of the tools and methods.",
+      "The construction techniques are flawless, resulting in perfectly constructed shapes with precision and accuracy. Demonstrates mastery of the tools and methods."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Tracing the Argument",
+    "Evaluating Specific Claims",
+    "Assessing Soundness of Reasoning",
+    "Judging Relevance and Sufficiency of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to identify the argument in the text.",
+      "The student identifies the general topic but struggles to pinpoint the specific argument.",
+      "The student identifies the argument, but the explanation lacks depth or accuracy.",
+      "The student accurately traces the argument, identifying the main points but missing some nuances.",
+      "The student clearly and accurately traces the argument, demonstrating a solid understanding of its progression.",
+      "The student expertly traces the argument, demonstrating a comprehensive understanding of its development and complexities."
+    ],
+    [
+      "The student does not identify any specific claims within the text.",
+      "The student identifies claims but cannot differentiate between major and minor ones.",
+      "The student identifies specific claims but struggles to evaluate their importance to the argument.",
+      "The student evaluates specific claims with some accuracy, but the analysis is superficial.",
+      "The student effectively evaluates specific claims, explaining their relevance to the overall argument.",
+      "The student thoroughly evaluates specific claims, providing insightful analysis of their role in the argument's success."
+    ],
+    [
+      "The student does not address the soundness of the reasoning.",
+      "The student attempts to assess the reasoning but provides irrelevant or illogical comments.",
+      "The student superficially assesses the reasoning, lacking specific examples.",
+      "The student identifies strengths and weaknesses in the reasoning, but the assessment is not fully developed.",
+      "The student provides a well-reasoned assessment of the soundness of the argument, supporting the claims with examples.",
+      "The student offers a nuanced and insightful assessment of the soundness of the argument, identifying subtle flaws or strengths."
+    ],
+    [
+      "The student makes no attempt to assess the relevance or sufficiency of the evidence.",
+      "The student mentions evidence but does not connect it to the claims or argument.",
+      "The student identifies evidence but struggles to evaluate its relevance or sufficiency.",
+      "The student provides a basic assessment of the relevance and sufficiency of the evidence.",
+      "The student clearly explains how the evidence supports the claims and argument, assessing its relevance and sufficiency.",
+      "The student provides a comprehensive and compelling assessment of the evidence, demonstrating a sophisticated understanding of its role in the argument."
+    ]
+  ]
+}

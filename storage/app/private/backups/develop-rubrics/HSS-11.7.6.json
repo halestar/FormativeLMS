@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Aviation Developments",
+    "Knowledge of Weaponry Advancements",
+    "Grasp of Communication Technologies",
+    "Awareness of Medical Innovations",
+    "Analysis of Industrial and Resource Impacts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of aviation developments during World War II.",
+      "Identifies one minor aviation development with limited accuracy.",
+      "Identifies 1-2 aviation developments, but lacks detailed explanation.",
+      "Describes 2-3 aviation developments, explaining their basic impact on the war.",
+      "Explains multiple aviation developments with clear examples of their impact on military strategies or outcomes.",
+      "Provides an in-depth analysis of aviation developments, including technological advancements and their strategic implications during World War II, along with potential long-term impacts."
+    ],
+    [
+      "Shows no awareness of weaponry advancements during the war.",
+      "Mentions one type of weapon used in WWII without context.",
+      "Identifies a couple of weapon advancements, but struggles to explain their significance.",
+      "Describes several weaponry advancements and their general effects on warfare.",
+      "Explains specific weaponry advancements, detailing how they changed military tactics and effectiveness.",
+      "Offers a comprehensive overview of weaponry advancements, analyzing their technological sophistication, ethical considerations, and lasting effects on global conflict."
+    ],
+    [
+      "Exhibits no understanding of communication technologies used.",
+      "Identifies one communication method used during the war.",
+      "Names a couple of communication technologies, but cannot explain their functions.",
+      "Describes how a few communication technologies were used to coordinate efforts.",
+      "Explains how specific communication technologies (e.g., radar, codebreaking) influenced the war's progression and outcomes.",
+      "Provides a detailed analysis of the evolution and impact of communication technologies on military intelligence, strategic planning, and civilian life during World War II."
+    ],
+    [
+      "Displays no knowledge of medical innovations during World War II.",
+      "Identifies one medical practice used during the war.",
+      "Names a couple of medical innovations, but cannot explain their importance.",
+      "Describes how some medical innovations improved treatment of the wounded.",
+      "Explains key medical innovations such as penicillin, blood transfusions, and their impact on survival rates and long-term health outcomes.",
+      "Presents a thorough examination of medical advancements, discussing their impacts on casualty rates, long-term healthcare practices, and the ethical dilemmas presented by wartime medicine."
+    ],
+    [
+      "Shows no comprehension of how the war impacted American industry and resource usage.",
+      "States that the war affected American industry without providing specifics.",
+      "Identifies that the war affected the location of American industry and resource usage, but lacks depth.",
+      "Describes in general terms how the war led to shifts in American industry and resource usage.",
+      "Explains the significant shifts in American industry and resource usage, providing specific examples like increased manufacturing in certain regions or rationing of resources.",
+      "Analyzes in depth the long-term impacts of World War II on the location of American industry, resource management policies, and the economic transformation of the United States."
+    ]
+  ]
+}

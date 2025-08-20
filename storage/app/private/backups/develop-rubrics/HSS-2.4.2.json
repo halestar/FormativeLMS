@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the basic roles of buyers and sellers in an economy.",
+    "Explaining the interdependence between buyers and sellers.",
+    "Applying economic reasoning to real-world scenarios involving buyers and sellers."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the roles of buyers and sellers.",
+      "Student shows minimal understanding, with significant misconceptions about the roles of buyers and sellers.",
+      "Student identifies buyers and sellers but struggles to explain their respective roles.",
+      "Student adequately explains the roles of buyers and sellers, but lacks depth or clarity.",
+      "Student clearly explains the roles of buyers and sellers in an economy, demonstrating good understanding.",
+      "Student comprehensively explains the roles of buyers and sellers, providing clear examples and demonstrating a deep understanding of their functions."
+    ],
+    [
+      "Student does not recognize any connection or interdependence between buyers and sellers.",
+      "Student vaguely mentions a connection but cannot articulate the nature of the interdependence.",
+      "Student attempts to describe interdependence but provides a limited or inaccurate explanation.",
+      "Student explains the interdependence of buyers and sellers, but the explanation lacks detail and examples.",
+      "Student clearly explains how buyers and sellers depend on each other, providing relevant examples.",
+      "Student provides a thorough explanation of the interdependence, including the impact of changes in supply and demand and demonstrating a nuanced understanding of the economic relationships."
+    ],
+    [
+      "Student cannot apply economic reasoning to analyze scenarios involving buyers and sellers.",
+      "Student attempts to apply economic reasoning but struggles to connect it to the scenario.",
+      "Student identifies some relevant economic concepts but does not effectively apply them to the scenario.",
+      "Student applies basic economic reasoning to the scenario, but the analysis is limited or incomplete.",
+      "Student effectively uses economic reasoning to analyze the scenario and draw logical conclusions.",
+      "Student demonstrates sophisticated economic reasoning, providing a comprehensive analysis of the scenario and considering multiple perspectives and potential outcomes."
+    ]
+  ]
+}

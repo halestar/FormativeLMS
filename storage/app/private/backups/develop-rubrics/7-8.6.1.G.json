@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Comprehensiveness of the plan to avoid HIV, AIDS, other STDs, and pregnancy.",
+    "Accuracy and currency of information presented in the plan.",
+    "Feasibility and practicality of the plan in real-life scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The plan is missing or does not address key elements for prevention.",
+      "The plan includes some elements of prevention but lacks depth and detail.",
+      "The plan addresses most elements of prevention but may have minor gaps in information.",
+      "The plan is comprehensive and addresses all key elements of prevention with adequate detail.",
+      "The plan is very thorough, well-explained, and includes additional resources or strategies.",
+      "The plan is exceptionally detailed, demonstrates a deep understanding of prevention methods, and is tailored to specific scenarios or individual needs."
+    ],
+    [
+      "The plan contains inaccurate or outdated information regarding prevention methods.",
+      "The plan includes some accurate information but also contains inaccuracies or outdated details.",
+      "The plan is mostly accurate but may have minor errors or lack the most current information.",
+      "The plan presents accurate and up-to-date information regarding prevention methods.",
+      "The plan demonstrates a strong understanding of current guidelines and recommendations for prevention.",
+      "The plan reflects expert-level knowledge of the most current research and best practices in prevention."
+    ],
+    [
+      "The plan is unrealistic or impractical for implementation in real-life situations.",
+      "The plan includes some feasible elements but may not be practical in certain scenarios.",
+      "The plan is mostly feasible but may require adjustments for specific situations or individuals.",
+      "The plan is practical and can be realistically implemented in various real-life scenarios.",
+      "The plan is highly adaptable and provides contingency plans for overcoming potential barriers.",
+      "The plan is exceptionally well-suited for individual needs and circumstances, demonstrating a deep understanding of practical challenges and solutions."
+    ]
+  ]
+}

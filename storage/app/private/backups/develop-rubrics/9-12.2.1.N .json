@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Evaluation of Impact of Influences",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any internal influences on food choices.",
+      "Identifies one internal influence on food choices with limited accuracy.",
+      "Identifies two internal influences on food choices with some accuracy.",
+      "Identifies three internal influences on food choices with reasonable accuracy.",
+      "Identifies four internal influences on food choices with accuracy and provides a basic explanation for each.",
+      "Identifies multiple internal influences on food choices with excellent accuracy and provides detailed explanations for each."
+    ],
+    [
+      "Does not identify any external influences on food choices.",
+      "Identifies one external influence on food choices with limited accuracy.",
+      "Identifies two external influences on food choices with some accuracy.",
+      "Identifies three external influences on food choices with reasonable accuracy.",
+      "Identifies four external influences on food choices with accuracy and provides a basic explanation for each.",
+      "Identifies multiple external influences on food choices with excellent accuracy and provides detailed explanations for each."
+    ],
+    [
+      "Does not evaluate the impact of any influences on food choices.",
+      "Attempts to evaluate the impact of one influence on food choices with limited success.",
+      "Evaluates the impact of two influences on food choices with some success.",
+      "Evaluates the impact of multiple influences on food choices with reasonable understanding.",
+      "Evaluates the impact of several influences on food choices with clear understanding and provides supporting examples.",
+      "Evaluates the impact of a comprehensive range of influences on food choices with sophisticated understanding, providing insightful examples and analysis."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat unclear and disorganized, making it difficult to follow.",
+      "Response is generally clear and organized with minor lapses.",
+      "Response is clear, well-organized, and easy to follow.",
+      "Response is exceptionally clear, well-organized, and logically structured.",
+      "Response demonstrates superior clarity, organization, and logical structure, enhancing the overall impact."
+    ]
+  ]
+}

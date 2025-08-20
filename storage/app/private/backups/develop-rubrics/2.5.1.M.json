@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identification of the Problem",
+    "Generation of Potential Solutions",
+    "Analysis of Solutions",
+    "Selection of the Best Solution",
+    "Implementation and Evaluation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any problem in the scenario.",
+      "The student vaguely identifies a problem but lacks specificity.",
+      "The student identifies a problem, but it is not clearly connected to the scenario.",
+      "The student identifies a relevant problem in the scenario with some clarity.",
+      "The student clearly and accurately identifies the central problem in the scenario.",
+      "The student expertly identifies the core problem and nuances within the scenario."
+    ],
+    [
+      "The student does not propose any solutions.",
+      "The student suggests one irrelevant or unrealistic solution.",
+      "The student suggests one solution that is somewhat relevant but not well-developed.",
+      "The student suggests two basic solutions with limited elaboration.",
+      "The student suggests three or more reasonable solutions with some explanation of each.",
+      "The student creatively suggests multiple effective solutions, weighing pros and cons of each."
+    ],
+    [
+      "The student offers no analysis of potential solutions.",
+      "The student attempts to analyze a solution but provides inaccurate information.",
+      "The student provides a superficial analysis of a single solution.",
+      "The student provides a basic analysis of multiple solutions without considering consequences.",
+      "The student analyzes multiple solutions, considering both positive and negative consequences.",
+      "The student provides a thorough and insightful analysis of multiple solutions, considering long-term consequences."
+    ],
+    [
+      "The student does not select a solution.",
+      "The student selects a solution without justification.",
+      "The student selects a solution that is not well-suited to the problem.",
+      "The student selects a solution with a limited explanation.",
+      "The student selects a solution that is well-suited to the problem and provides a clear rationale.",
+      "The student expertly selects the most effective solution, justifying the choice with persuasive reasoning and evidence."
+    ],
+    [
+      "The student does not discuss implementation or evaluation.",
+      "The student mentions implementation or evaluation vaguely.",
+      "The student describes a basic implementation plan without evaluation.",
+      "The student outlines a simple implementation plan and mentions the need for evaluation.",
+      "The student provides a detailed implementation plan and suggests methods for evaluating the solution's effectiveness.",
+      "The student presents a comprehensive implementation plan with clear, measurable evaluation strategies and potential adjustments."
+    ]
+  ]
+}

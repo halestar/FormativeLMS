@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Basic Nutrition Principles",
+    "Identification of Chronic Diseases Related to Nutrition",
+    "Explanation of the Impact of Nutrition on Chronic Diseases",
+    "Application of Knowledge to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic nutrition principles.",
+      "Shows minimal understanding of basic nutrition principles; struggles to define key terms.",
+      "Identifies some basic nutrition principles but lacks depth in explanation.",
+      "Demonstrates a good understanding of basic nutrition principles and can define key terms.",
+      "Demonstrates a strong understanding of basic nutrition principles, explaining them clearly and accurately.",
+      "Exhibits a comprehensive understanding of basic nutrition principles, applying them effectively."
+    ],
+    [
+      "Unable to identify any chronic diseases linked to nutrition.",
+      "Identifies one or two chronic diseases but struggles to explain the connection to nutrition.",
+      "Identifies a few chronic diseases related to nutrition but with limited explanation.",
+      "Identifies several chronic diseases related to nutrition and provides a basic explanation of the connection.",
+      "Identifies numerous chronic diseases and thoroughly explains their connection to nutrition.",
+      "Demonstrates expert knowledge of various chronic diseases related to nutrition, including nuanced connections and impacts."
+    ],
+    [
+      "Cannot explain the impact of nutrition on chronic diseases.",
+      "Offers a vague or incomplete explanation of the impact of nutrition on chronic diseases.",
+      "Provides a basic explanation of how nutrition impacts chronic diseases but lacks specific examples.",
+      "Explains the impact of nutrition on chronic diseases with relevant examples and reasonable detail.",
+      "Clearly and comprehensively explains the impact of nutrition on chronic diseases, providing specific and accurate examples.",
+      "Articulates a sophisticated and insightful explanation of the impact of nutrition on chronic diseases, demonstrating a deep understanding of complex relationships."
+    ],
+    [
+      "Unable to apply knowledge of nutrition to real-world scenarios related to chronic disease.",
+      "Struggles to apply knowledge of nutrition to real-world scenarios; application is unclear or inaccurate.",
+      "Attempts to apply knowledge of nutrition to real-world scenarios but with limited success.",
+      "Applies knowledge of nutrition to real-world scenarios and provides a reasonable analysis.",
+      "Effectively applies knowledge of nutrition to real-world scenarios, offering insightful and accurate analysis.",
+      "Masterfully applies knowledge of nutrition to complex, real-world scenarios, providing comprehensive and nuanced analysis."
+    ]
+  ]
+}

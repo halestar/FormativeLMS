@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Angle Relationships",
+    "Ability to Set Up Equations",
+    "Problem-Solving Skills",
+    "Accuracy in Calculations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of supplementary, complementary, vertical, and adjacent angles.",
+      "Struggles to identify angle relationships; may incorrectly label angles.",
+      "Identifies some angle relationships but makes errors in applying them.",
+      "Correctly identifies supplementary, complementary, vertical, and adjacent angles in simple diagrams.",
+      "Accurately uses angle relationships to set up equations.",
+      "Demonstrates a thorough understanding of angle relationships and applies them effectively in complex diagrams."
+    ],
+    [
+      "Unable to set up equations based on angle relationships.",
+      "Attempts to set up equations but does so incorrectly.",
+      "Sets up equations with significant errors or omissions.",
+      "Sets up simple equations based on angle relationships with minor errors.",
+      "Sets up accurate equations based on angle relationships in most cases.",
+      "Consistently sets up accurate and appropriate equations based on angle relationships in various problem scenarios."
+    ],
+    [
+      "Unable to solve for unknown angles.",
+      "Attempts to solve for unknown angles but makes no progress.",
+      "Solves for unknown angles with significant errors or by using incorrect methods.",
+      "Solves for unknown angles in simple problems but struggles with multi-step problems.",
+      "Solves for unknown angles in multi-step problems with minor errors.",
+      "Accurately solves for unknown angles in complex, multi-step problems."
+    ],
+    [
+      "Calculations are consistently inaccurate, leading to incorrect solutions.",
+      "Frequent errors in calculations.",
+      "Makes several calculation errors that affect the accuracy of the solution.",
+      "Makes occasional calculation errors.",
+      "Calculations are mostly accurate with only minor errors.",
+      "Consistently performs accurate calculations, leading to correct solutions."
+    ]
+  ]
+}

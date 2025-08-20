@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Communicable Diseases",
+    "Understanding of Non-Communicable Diseases",
+    "Distinguishing Between Communicable and Non-Communicable Diseases"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of communicable diseases; unable to define or provide examples.",
+      "Student demonstrates a very limited understanding of communicable diseases; provides a vague definition or an incorrect example.",
+      "Student demonstrates a basic understanding of communicable diseases; provides a general definition and a simple example, but lacks depth.",
+      "Student demonstrates a satisfactory understanding of communicable diseases; provides a clear definition and relevant examples.",
+      "Student demonstrates a strong understanding of communicable diseases; provides a detailed definition, multiple relevant examples, and explains modes of transmission.",
+      "Student demonstrates an exceptional understanding of communicable diseases; provides a comprehensive definition, diverse examples, explains transmission, and discusses prevention strategies."
+    ],
+    [
+      "Student demonstrates no understanding of non-communicable diseases; unable to define or provide examples.",
+      "Student demonstrates a very limited understanding of non-communicable diseases; provides a vague definition or an incorrect example.",
+      "Student demonstrates a basic understanding of non-communicable diseases; provides a general definition and a simple example, but lacks depth.",
+      "Student demonstrates a satisfactory understanding of non-communicable diseases; provides a clear definition and relevant examples.",
+      "Student demonstrates a strong understanding of non-communicable diseases; provides a detailed definition, multiple relevant examples, and explains risk factors.",
+      "Student demonstrates an exceptional understanding of non-communicable diseases; provides a comprehensive definition, diverse examples, explains risk factors, and discusses management and prevention strategies."
+    ],
+    [
+      "Student is unable to differentiate between communicable and non-communicable diseases; shows no understanding of the key differences.",
+      "Student demonstrates difficulty distinguishing between communicable and non-communicable diseases; provides inaccurate or confused explanations.",
+      "Student identifies some differences between communicable and non-communicable diseases, but explanations are superficial or incomplete.",
+      "Student clearly distinguishes between communicable and non-communicable diseases; provides accurate explanations of the key differences.",
+      "Student thoroughly distinguishes between communicable and non-communicable diseases; explains the differences in terms of causes, transmission, and prevention.",
+      "Student expertly distinguishes between communicable and non-communicable diseases; provides insightful explanations of the differences, including epidemiological and societal impacts."
+    ]
+  ]
+}

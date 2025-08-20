@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Understanding of How Influences Affect Substance Use",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No internal influences are identified.",
+      "Identifies one vague or incorrect internal influence.",
+      "Identifies one relevant internal influence with limited explanation.",
+      "Identifies two relevant internal influences with some explanation.",
+      "Identifies three relevant internal influences with clear explanations.",
+      "Identifies multiple relevant internal influences with detailed explanations and examples."
+    ],
+    [
+      "No external influences are identified.",
+      "Identifies one vague or incorrect external influence.",
+      "Identifies one relevant external influence with limited explanation.",
+      "Identifies two relevant external influences with some explanation.",
+      "Identifies three relevant external influences with clear explanations.",
+      "Identifies multiple relevant external influences with detailed explanations and examples."
+    ],
+    [
+      "Demonstrates no understanding of how influences affect substance use.",
+      "Demonstrates a limited understanding of how influences affect substance use.",
+      "Demonstrates a basic understanding of how influences affect substance use, but lacks detail.",
+      "Explains how internal and external influences can affect substance use.",
+      "Clearly explains how multiple internal and external influences can affect substance use.",
+      "Provides a comprehensive explanation, including specific examples, of how various internal and external influences can affect substance use."
+    ],
+    [
+      "Response is unclear and disorganized.",
+      "Response lacks clarity and organization.",
+      "Response is somewhat clear and organized.",
+      "Response is generally clear and organized.",
+      "Response is clear, well-organized, and easy to understand.",
+      "Response is exceptionally clear, well-organized, and presents information in a logical and coherent manner."
+    ]
+  ]
+}

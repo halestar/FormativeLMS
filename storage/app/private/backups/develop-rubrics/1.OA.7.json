@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Meaning of the Equal Sign",
+    "Accurately Identifying True and False Equations",
+    "Application of Knowledge to Different Equation Structures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not understand the concept of equality; struggles to differentiate between true and false equations.",
+      "Student demonstrates a limited understanding of equality; identifies only very simple true\/false equations.",
+      "Student shows a basic understanding of equality; can identify true and false equations in straightforward cases.",
+      "Student demonstrates a solid understanding of equality; accurately identifies true and false equations, including those with basic addition and subtraction.",
+      "Student exhibits a strong understanding of equality; can explain why equations are true or false using mathematical reasoning.",
+      "Student possesses a comprehensive understanding of equality; can apply this understanding to solve complex problems involving addition and subtraction, and explain reasoning clearly."
+    ],
+    [
+      "Student is unable to identify any true or false equations.",
+      "Student identifies true and false equations with significant errors and inconsistencies.",
+      "Student identifies true and false equations with some errors; struggles with equations involving multiple operations.",
+      "Student accurately identifies most true and false equations, demonstrating competence with basic addition and subtraction.",
+      "Student consistently identifies true and false equations correctly, including those with multiple steps and variations.",
+      "Student demonstrates mastery in identifying true and false equations, and can justify answers with clear and concise explanations."
+    ],
+    [
+      "Student cannot apply their understanding of equality to any equation structure.",
+      "Student struggles to apply knowledge of equality to equation structures beyond simple formats.",
+      "Student applies knowledge of equality to some equation structures but shows difficulty with complex arrangements.",
+      "Student applies knowledge of equality to different equation structures, demonstrating flexibility and understanding.",
+      "Student skillfully applies knowledge of equality to a wide range of equation structures, demonstrating adaptability.",
+      "Student expertly applies knowledge of equality to any equation structure, exhibiting mastery and advanced problem-solving skills."
+    ]
+  ]
+}

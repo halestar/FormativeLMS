@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Zeros",
+    "Construction of Graph",
+    "Understanding of Relationship"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of how to identify zeros of polynomials.",
+      "The student struggles to identify zeros of polynomials and makes significant errors.",
+      "The student can identify zeros of polynomials in simple cases but struggles with more complex factorizations.",
+      "The student can identify zeros of polynomials for most factorizations, but may make minor errors.",
+      "The student consistently and accurately identifies zeros of polynomials for a variety of factorizations.",
+      "The student demonstrates a thorough understanding of identifying zeros of polynomials and can explain the process clearly and accurately."
+    ],
+    [
+      "The student is unable to construct a graph of the polynomial function based on its zeros.",
+      "The student attempts to construct a graph but makes significant errors, indicating a lack of understanding of the relationship between zeros and the graph.",
+      "The student can construct a basic graph, but it lacks accuracy in terms of shape, intercepts, or end behavior.",
+      "The student constructs a graph that generally represents the polynomial function, but may have some minor inaccuracies.",
+      "The student constructs an accurate graph of the polynomial function, correctly plotting zeros and demonstrating understanding of end behavior.",
+      "The student constructs a highly accurate graph of the polynomial function, demonstrating a deep understanding of the relationship between zeros, factors, and the overall shape of the graph."
+    ],
+    [
+      "The student shows no understanding of the relationship between zeros and factors of polynomials.",
+      "The student demonstrates a limited understanding of the relationship between zeros and factors, struggling to connect them.",
+      "The student shows some understanding of the relationship but cannot consistently apply it.",
+      "The student generally understands the relationship between zeros and factors and can apply it in most cases.",
+      "The student demonstrates a strong understanding of the relationship between zeros and factors, applying it accurately in various scenarios.",
+      "The student demonstrates a comprehensive understanding of the relationship between zeros and factors, explaining it clearly and applying it to solve complex problems."
+    ]
+  ]
+}

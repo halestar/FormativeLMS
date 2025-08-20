@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information about Past American Indian Nations",
+    "Accuracy of Information about Present American Indian Nations",
+    "Demonstrates Understanding of Cultural Changes and Continuities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides no information or inaccurate information about American Indian nations in the local region long ago.",
+      "Provides minimal and largely inaccurate information about American Indian nations in the local region long ago.",
+      "Provides some accurate information about American Indian nations in the local region long ago, but with significant gaps or inaccuracies.",
+      "Provides generally accurate information about American Indian nations in the local region long ago, with minor omissions or inaccuracies.",
+      "Provides accurate and detailed information about American Indian nations in the local region long ago, demonstrating a solid understanding.",
+      "Provides exceptionally accurate, detailed, and insightful information about American Indian nations in the local region long ago, demonstrating a comprehensive understanding and nuanced perspective."
+    ],
+    [
+      "Provides no information or inaccurate information about American Indian nations in the local region in the recent past.",
+      "Provides minimal and largely inaccurate information about American Indian nations in the local region in the recent past.",
+      "Provides some accurate information about American Indian nations in the local region in the recent past, but with significant gaps or inaccuracies.",
+      "Provides generally accurate information about American Indian nations in the local region in the recent past, with minor omissions or inaccuracies.",
+      "Provides accurate and detailed information about American Indian nations in the local region in the recent past, demonstrating a solid understanding.",
+      "Provides exceptionally accurate, detailed, and insightful information about American Indian nations in the local region in the recent past, demonstrating a comprehensive understanding and nuanced perspective."
+    ],
+    [
+      "Shows no understanding of cultural changes and continuities within American Indian nations.",
+      "Demonstrates a very limited understanding of cultural changes and continuities within American Indian nations.",
+      "Demonstrates a basic understanding of some cultural changes and continuities, but with significant gaps.",
+      "Demonstrates a satisfactory understanding of cultural changes and continuities within American Indian nations.",
+      "Demonstrates a strong understanding of cultural changes and continuities within American Indian nations, providing specific examples.",
+      "Demonstrates an exceptional understanding of cultural changes and continuities, offering insightful analysis and relevant examples."
+    ]
+  ]
+}

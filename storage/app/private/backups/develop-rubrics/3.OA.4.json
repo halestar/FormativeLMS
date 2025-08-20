@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying the unknown number",
+    "Understanding of the relationship between multiplication and division",
+    "Ability to apply knowledge to different contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to solve or provides an answer that is completely unrelated to the equation.",
+      "Attempts to solve the equation but arrives at an incorrect answer due to a misunderstanding of the operation.",
+      "Solves simple multiplication or division equations but struggles with more complex problems or those involving larger numbers.",
+      "Generally solves multiplication and division equations accurately, but makes occasional errors.",
+      "Consistently solves multiplication and division equations accurately, demonstrating a strong understanding of the relationship between the three numbers.",
+      "Solves multiplication and division equations accurately and efficiently, and can explain the reasoning behind the solution."
+    ],
+    [
+      "Shows no understanding of the inverse relationship between multiplication and division.",
+      "Demonstrates a limited understanding of the relationship, struggling to apply it in problem-solving.",
+      "Understands that multiplication and division are related but has difficulty using this understanding to find the unknown number.",
+      "Can explain the relationship between multiplication and division and use it to solve some equations.",
+      "Clearly explains and applies the inverse relationship between multiplication and division to solve equations efficiently.",
+      "Demonstrates a deep understanding of the multiplicative relationship and can apply it to solve complex problems or explain mathematical concepts."
+    ],
+    [
+      "Unable to apply the concept to different equation structures or real-world scenarios.",
+      "Struggles to apply the concept to equations that are presented in a different format.",
+      "Can solve standard equations but struggles when the unknown number is in a different position.",
+      "Solves equations with the unknown number in various positions and in simple word problems.",
+      "Solves equations accurately in various contexts, including word problems, demonstrating strong application skills.",
+      "Applies the concept to complex scenarios, including multi-step problems, and can create their own equations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Pony Express and Overland Mail Service",
+    "Knowledge of Western Union and its role in California",
+    "Understanding of the Transcontinental Railroad and contributions of Chinese workers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Pony Express or Overland Mail Service.",
+      "Student shows minimal understanding, with significant inaccuracies or omissions.",
+      "Student identifies the Pony Express and Overland Mail Service but lacks detail or depth.",
+      "Student accurately describes the Pony Express and Overland Mail Service, including their purpose and key features.",
+      "Student explains the significance of the Pony Express and Overland Mail Service in the context of California's development, including their impact on communication and transportation.",
+      "Student provides a comprehensive analysis of the Pony Express and Overland Mail Service, including their impact on California's economic and political landscape, and draws insightful conclusions."
+    ],
+    [
+      "Student demonstrates no knowledge of Western Union's role.",
+      "Student mentions Western Union but provides no accurate information.",
+      "Student identifies Western Union and its connection to communication, but lacks specific details.",
+      "Student accurately describes Western Union's role in establishing telegraph communication in California.",
+      "Student explains Western Union's impact on business, news dissemination, and social connectivity in California.",
+      "Student analyzes Western Union's long-term effects on California's development, comparing and contrasting its role with other communication technologies of the time."
+    ],
+    [
+      "Student demonstrates no understanding of the Transcontinental Railroad or the role of Chinese workers.",
+      "Student mentions the Transcontinental Railroad but lacks accuracy or detail regarding its construction or the involvement of Chinese workers.",
+      "Student identifies the Transcontinental Railroad and the presence of Chinese workers but lacks depth in explaining their contributions.",
+      "Student accurately describes the construction of the Transcontinental Railroad and acknowledges the significant contributions of Chinese workers.",
+      "Student explains the specific contributions of Chinese workers to the Transcontinental Railroad, including the challenges they faced and their impact on its completion.",
+      "Student analyzes the complex historical context surrounding the Chinese workers, including discriminatory practices, their resilience, and the lasting impact of their contributions on California and the nation."
+    ]
+  ]
+}

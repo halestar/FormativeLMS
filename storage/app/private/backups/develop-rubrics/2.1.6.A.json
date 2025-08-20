@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Rules for Taking Medicine at School",
+    "Understanding of Rules for Taking Medicine at Home",
+    "Ability to Differentiate Between School and Home Medication Rules"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the rules for taking medicine at school.",
+      "Student shows minimal understanding of rules, with significant inaccuracies.",
+      "Student identifies some rules but with omissions or minor inaccuracies.",
+      "Student correctly identifies most rules for taking medicine at school but may lack detail.",
+      "Student accurately describes the rules for taking medicine at school with good detail.",
+      "Student comprehensively and accurately describes all rules for taking medicine at school, including nuances and rationale."
+    ],
+    [
+      "Student demonstrates no understanding of the rules for taking medicine at home.",
+      "Student shows minimal understanding of rules, with significant inaccuracies.",
+      "Student identifies some rules but with omissions or minor inaccuracies.",
+      "Student correctly identifies most rules for taking medicine at home but may lack detail.",
+      "Student accurately describes the rules for taking medicine at home with good detail.",
+      "Student comprehensively and accurately describes all rules for taking medicine at home, including nuances and rationale."
+    ],
+    [
+      "Student cannot differentiate between rules for taking medicine at school versus at home.",
+      "Student attempts to differentiate but demonstrates confusion and significant errors.",
+      "Student identifies some differences but misses key distinctions.",
+      "Student correctly identifies most differences between school and home medication rules.",
+      "Student clearly differentiates between school and home rules with accurate explanations.",
+      "Student thoroughly and accurately explains the differences between school and home medication rules, demonstrating a comprehensive understanding of the rationale behind them."
+    ]
+  ]
+}

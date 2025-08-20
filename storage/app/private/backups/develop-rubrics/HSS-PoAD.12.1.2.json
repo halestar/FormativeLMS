@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of American Democracy's Principles",
+    "Discussion of American Democracy's Character, Promise, and Perils as Articulated by Alexis de Tocqueville",
+    "Clarity and Coherence of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the fundamental principles and moral values of American democracy as expressed in the U.S. Constitution and other essential documents.",
+      "Student demonstrates a minimal understanding of the fundamental principles and moral values of American democracy.",
+      "Student shows a basic understanding of some principles and values but struggles to connect them to the U.S. Constitution and essential documents.",
+      "Student adequately explains the fundamental principles and moral values of American democracy, referencing the U.S. Constitution and other documents with some accuracy.",
+      "Student clearly explains the fundamental principles and moral values of American democracy, providing accurate references to the U.S. Constitution and other essential documents.",
+      "Student comprehensively explains the fundamental principles and moral values of American democracy, providing insightful references and demonstrating a deep understanding of their significance."
+    ],
+    [
+      "Student does not discuss the character of American democracy or its promise and perils as articulated by Alexis de Tocqueville.",
+      "Student mentions Alexis de Tocqueville but does not discuss his views on American democracy's character, promise, and perils.",
+      "Student provides a limited discussion of Tocqueville's views, with significant inaccuracies or omissions.",
+      "Student adequately discusses Tocqueville's articulation of American democracy's character, promise, and perils, though with some superficiality.",
+      "Student thoroughly discusses Tocqueville's articulation of American democracy's character, promise, and perils, demonstrating a good understanding of his arguments.",
+      "Student provides an insightful and nuanced discussion of Tocqueville's articulation of American democracy's character, promise, and perils, demonstrating a deep understanding of his arguments and their relevance."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation is somewhat unclear and disorganized, making it difficult to follow the student's reasoning.",
+      "Explanation is understandable but lacks clarity and coherence in some areas.",
+      "Explanation is generally clear and coherent, with a logical flow of ideas.",
+      "Explanation is clear, coherent, and well-organized, making it easy to understand the student's reasoning.",
+      "Explanation is exceptionally clear, coherent, and insightful, demonstrating a mastery of communication skills."
+    ]
+  ]
+}

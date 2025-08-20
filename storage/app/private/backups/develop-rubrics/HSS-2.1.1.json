@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Collection and Use of Primary Sources",
+    "Collection and Use of Secondary Sources",
+    "Analysis and Interpretation of Historical Evidence",
+    "Presentation and Clarity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No primary sources are included or attempted.",
+      "Limited attempt to include primary sources, but sources are irrelevant or inaccurately presented.",
+      "Some primary sources are included, but their connection to the family history is weak or unclear.",
+      "Adequate collection of primary sources relevant to tracing family history; sources are generally well-integrated.",
+      "Comprehensive and relevant primary sources are skillfully used to trace family history.",
+      "Exceptional use of diverse primary sources provides deep insight into family history with thoughtful analysis."
+    ],
+    [
+      "No secondary sources are included or attempted.",
+      "Limited attempt to include secondary sources, but sources are irrelevant or inaccurately presented.",
+      "Some secondary sources are included, but their connection to the family history is weak or unclear.",
+      "Adequate collection of secondary sources relevant to tracing family history; sources are generally well-integrated.",
+      "Comprehensive and relevant secondary sources are skillfully used to trace family history.",
+      "Exceptional use of diverse secondary sources provides deep insight into family history with thoughtful analysis."
+    ],
+    [
+      "No attempt to analyze or interpret sources.",
+      "Superficial analysis with misinterpretations of historical data.",
+      "Basic analysis with some accurate interpretations, but lacks depth.",
+      "Sound analysis and interpretation of historical sources to support the family history.",
+      "Insightful analysis, demonstrating a nuanced understanding of historical context and its impact on the family.",
+      "Sophisticated and insightful analysis that provides a compelling and original interpretation of family history within a broader historical framework."
+    ],
+    [
+      "Presentation is disorganized and unclear, making it difficult to follow the family history.",
+      "Presentation is somewhat disorganized with limited clarity.",
+      "Presentation is generally clear, but some aspects are disorganized or confusing.",
+      "Presentation is well-organized and clear, effectively communicating the family history.",
+      "Presentation is engaging, exceptionally clear, and well-structured, enhancing the understanding of family history.",
+      "Presentation is creative, exceptionally clear, and meticulously organized, creating a captivating narrative of the family history."
+    ]
+  ]
+}

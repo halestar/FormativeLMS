@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of Listed Benefits",
+    "Clarity and Organization of Presentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No benefits of healthy eating are listed.",
+      "Lists one benefit of healthy eating that may be vague or inaccurate.",
+      "Lists 2 benefits of healthy eating that are somewhat accurate but lack detail.",
+      "Lists 3 benefits of healthy eating with reasonable accuracy and some detail.",
+      "Lists 4 benefits of healthy eating with good accuracy and relevant details.",
+      "Lists 5 or more benefits of healthy eating comprehensively, accurately, and with clear, specific details, including examples for beverages and snacks."
+    ],
+    [
+      "The list of benefits is unclear, disorganized, and difficult to understand.",
+      "The list is poorly organized and lacks clarity, making it hard to follow.",
+      "The list is somewhat organized, but some points are unclear or difficult to understand.",
+      "The list is generally clear and organized, with a logical flow of information.",
+      "The list is clear, well-organized, and easy to understand, with logical connections between points.",
+      "The list is exceptionally clear, concise, and logically organized, demonstrating a strong understanding of the topic."
+    ]
+  ]
+}

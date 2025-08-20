@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Division of Unit Fractions by Whole Numbers",
+    "Understanding of Division of Whole Numbers by Unit Fractions",
+    "Application to Real-World Problems",
+    "Use of Visual Fraction Models and Equations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of dividing unit fractions by whole numbers.",
+      "Student attempts to divide unit fractions by whole numbers but makes significant errors in the process.",
+      "Student can divide simple unit fractions by whole numbers but struggles with more complex problems or doesn't show the work.",
+      "Student accurately divides unit fractions by whole numbers in most cases, with minor errors.",
+      "Student consistently and accurately divides unit fractions by whole numbers, showing their work and understanding the concept.",
+      "Student demonstrates a thorough understanding of dividing unit fractions by whole numbers, can solve complex problems, and explain the process clearly."
+    ],
+    [
+      "Student demonstrates no understanding of dividing whole numbers by unit fractions.",
+      "Student attempts to divide whole numbers by unit fractions but makes significant errors.",
+      "Student can divide simple whole numbers by unit fractions, but struggles with more complex problems or doesn't show the work.",
+      "Student accurately divides whole numbers by unit fractions in most cases, with minor errors.",
+      "Student consistently and accurately divides whole numbers by unit fractions, showing their work and understanding the concept.",
+      "Student demonstrates a thorough understanding of dividing whole numbers by unit fractions, can solve complex problems, and explain the process clearly."
+    ],
+    [
+      "Student cannot apply the concept of dividing fractions to solve real-world problems.",
+      "Student attempts to apply the concept to real-world problems but is unsuccessful or makes major errors.",
+      "Student can solve simple real-world problems involving division of fractions but struggles with more complex scenarios or doesn't show the work.",
+      "Student solves most real-world problems accurately but may struggle with more complex or multi-step problems.",
+      "Student consistently and accurately solves real-world problems involving division of fractions and shows their work.",
+      "Student demonstrates a strong ability to apply the concept of dividing fractions to solve complex real-world problems and clearly explains their reasoning."
+    ],
+    [
+      "Student does not use visual fraction models or equations to represent the problem.",
+      "Student attempts to use visual fraction models or equations but does so incorrectly or ineffectively.",
+      "Student uses visual fraction models or equations, but the representation is unclear or contains errors or doesn't show the work.",
+      "Student uses visual fraction models and equations effectively to represent the problem, but there may be minor errors in the representation.",
+      "Student accurately and effectively uses visual fraction models and equations to represent and solve the problem.",
+      "Student demonstrates a sophisticated understanding of visual fraction models and equations and uses them creatively to represent and solve the problem, showing all work."
+    ]
+  ]
+}

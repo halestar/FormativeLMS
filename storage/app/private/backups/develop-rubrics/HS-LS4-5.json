@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Environmental Changes and Species Impact",
+    "Evidence-Based Reasoning",
+    "Application of Scientific Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how environmental changes impact species is demonstrated.",
+      "Demonstrates a minimal understanding of how environmental changes may impact species numbers or emergence.",
+      "Identifies some environmental changes and their potential impact on species, but lacks depth and detail.",
+      "Explains how environmental changes may lead to increases or decreases in species populations, emergence of new species or extinction of other species.",
+      "Evaluates the relationship between environmental changes and species with clear examples.",
+      "Synthesizes a deep understanding of cause-and-effect relationships between environmental changes and species evolution\/extinction, providing detailed and accurate evidence."
+    ],
+    [
+      "No evidence is used to support claims.",
+      "Attempts to use evidence, but it is irrelevant or inaccurate.",
+      "Uses some evidence, but it is weakly connected to the claims made.",
+      "Supports claims with relevant evidence, but analysis is superficial.",
+      "Provides solid evidence and analysis to support claims about the impact of environmental changes on species.",
+      "Critically evaluates multiple lines of evidence to construct a compelling argument about the consequences of environmental changes on species, showing a deep understanding of data reliability and validity."
+    ],
+    [
+      "Does not apply scientific principles to the analysis.",
+      "Misunderstands or misapplies basic scientific principles related to adaptation and evolution.",
+      "Identifies some relevant scientific principles but struggles to apply them correctly.",
+      "Applies scientific principles related to adaptation, natural selection, and environmental impacts adequately.",
+      "Demonstrates a strong understanding of relevant scientific principles and applies them effectively to analyze cause and effect relationships.",
+      "Integrates a comprehensive understanding of scientific principles to provide nuanced insights into the interplay between environmental changes and species survival, evolution and extinction."
+    ]
+  ]
+}

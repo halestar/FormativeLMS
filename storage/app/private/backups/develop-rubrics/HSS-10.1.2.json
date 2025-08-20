@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Rule of Law",
+    "Understanding of Illegitimacy of Tyranny",
+    "Analysis of Plato's Republic",
+    "Analysis of Aristotle's Politics"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the concept of the rule of law.",
+      "The student shows a limited understanding of the rule of law, with significant misconceptions.",
+      "The student identifies the rule of law but struggles to explain its key components or historical context.",
+      "The student accurately defines the rule of law and identifies its importance in a society.",
+      "The student provides a detailed explanation of the rule of law, including its origins, purpose, and benefits.",
+      "The student demonstrates a comprehensive understanding of the rule of law, including its nuances, challenges, and contemporary applications, drawing from historical and modern examples."
+    ],
+    [
+      "The student demonstrates no understanding of the concept of the illegitimacy of tyranny.",
+      "The student shows a limited understanding of the illegitimacy of tyranny, with significant misconceptions.",
+      "The student identifies the illegitimacy of tyranny but struggles to explain its key components or historical context.",
+      "The student accurately defines the illegitimacy of tyranny and identifies its importance in a society.",
+      "The student provides a detailed explanation of the illegitimacy of tyranny, including its origins, purpose, and benefits.",
+      "The student demonstrates a comprehensive understanding of the illegitimacy of tyranny, including its nuances, challenges, and contemporary applications, drawing from historical and modern examples."
+    ],
+    [
+      "The student does not demonstrate any understanding of Plato's Republic.",
+      "The student mentions Plato's Republic but cannot connect it to the concepts of rule of law or illegitimacy of tyranny.",
+      "The student identifies relevant passages from Plato's Republic but struggles to explain their significance.",
+      "The student explains how selections from Plato's Republic relate to the development of the rule of law or the illegitimacy of tyranny.",
+      "The student analyzes specific passages from Plato's Republic, explaining their nuances and historical context in relation to the rule of law or illegitimacy of tyranny.",
+      "The student offers a sophisticated analysis of Plato's Republic, connecting its ideas to contemporary political thought and debates."
+    ],
+    [
+      "The student does not demonstrate any understanding of Aristotle's Politics.",
+      "The student mentions Aristotle's Politics but cannot connect it to the concepts of rule of law or illegitimacy of tyranny.",
+      "The student identifies relevant passages from Aristotle's Politics but struggles to explain their significance.",
+      "The student explains how selections from Aristotle's Politics relate to the development of the rule of law or the illegitimacy of tyranny.",
+      "The student analyzes specific passages from Aristotle's Politics, explaining their nuances and historical context in relation to the rule of law or illegitimacy of tyranny.",
+      "The student offers a sophisticated analysis of Aristotle's Politics, connecting its ideas to contemporary political thought and debates."
+    ]
+  ]
+}

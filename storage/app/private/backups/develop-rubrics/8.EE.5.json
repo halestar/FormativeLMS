@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Graphing Proportional Relationships",
+    "Interpreting Unit Rate as Slope",
+    "Comparing Proportional Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to graph the proportional relationship.",
+      "Graphs a relationship, but it is not proportional or contains significant errors.",
+      "Graphs a proportional relationship with minor inaccuracies.",
+      "Accurately graphs a proportional relationship, but the axes are not labeled or the scale is inappropriate.",
+      "Accurately graphs a proportional relationship with correctly labeled axes and appropriate scale.",
+      "Accurately and neatly graphs a proportional relationship with correctly labeled axes, appropriate scale, and a clear indication of the unit rate (slope)."
+    ],
+    [
+      "Does not attempt to interpret the unit rate or slope.",
+      "Attempts to interpret the unit rate or slope, but the interpretation is incorrect.",
+      "Identifies the unit rate or slope, but does not connect it to the graph or relationship.",
+      "Correctly identifies the unit rate as the slope, but struggles to explain its meaning in the context of the problem.",
+      "Correctly interprets the unit rate as the slope of the graph and explains its meaning in the context of the problem.",
+      "Clearly and concisely interprets the unit rate as the slope, explaining its significance and implications in the context of the problem with detailed reasoning."
+    ],
+    [
+      "No attempt to compare the proportional relationships.",
+      "Attempts to compare the relationships, but the comparison is flawed or incomplete.",
+      "Compares the relationships, but struggles to use the information presented in different formats (graph vs. equation).",
+      "Compares the relationships using information from both the graph and equation, but the reasoning is not clear.",
+      "Effectively compares the two proportional relationships presented in different ways and provides clear reasoning.",
+      "Insightfully compares the two relationships, clearly articulating the differences, similarities, and providing a comprehensive explanation of which has a greater speed and why, using both the graph and equation."
+    ]
+  ]
+}

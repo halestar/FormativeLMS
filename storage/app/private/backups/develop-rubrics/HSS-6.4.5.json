@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information: The extent to which the student accurately presents historical facts and details related to the founding, expansion, and political organization of the Persian Empire.",
+    "Clarity and Organization: How clearly and logically the student presents the information regarding the Persian Empire's history and governance.",
+    "Comprehensiveness: The degree to which the student covers all key aspects of the Persian Empire's founding, expansion, and political organization."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding or provides inaccurate information about the Persian Empire.",
+      "Presents minimal and mostly inaccurate information about the Persian Empire.",
+      "Presents some accurate information but misses key details or includes significant inaccuracies.",
+      "Presents mostly accurate information with a few minor omissions or inaccuracies.",
+      "Presents accurate and detailed information about the Persian Empire's founding, expansion, and political structure.",
+      "Presents comprehensive, accurate, and insightful information, demonstrating a deep understanding of the Persian Empire, including its context and impact."
+    ],
+    [
+      "Information is presented in a disorganized and incomprehensible manner.",
+      "Information lacks clear organization, making it difficult to follow the explanation.",
+      "Organization is somewhat present but lacks clarity in several areas.",
+      "Information is generally well-organized and clear, with minor areas needing improvement.",
+      "Information is presented clearly, logically, and in a well-organized manner.",
+      "Information is presented with exceptional clarity and organization, enhancing the understanding of the Persian Empire's complex history and governance."
+    ],
+    [
+      "Fails to address the founding, expansion, or political organization of the Persian Empire.",
+      "Addresses only one aspect (founding, expansion, or political organization) with minimal detail.",
+      "Addresses two aspects with limited detail, missing key components.",
+      "Covers all three aspects but lacks depth in one or more areas.",
+      "Covers all three aspects with sufficient detail and explanation.",
+      "Provides a comprehensive overview of the founding, expansion, and political organization, demonstrating a thorough understanding of each aspect and their interrelation."
+    ]
+  ]
+}

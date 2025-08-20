@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Macronutrients (Carbohydrates, Proteins, Fats) and their roles in the body.",
+    "Understanding of Micronutrients (Vitamins and Minerals) and their importance.",
+    "Ability to relate dietary choices to specific health benefits, referencing research-based guidelines.",
+    "Ability to describe a balanced diet that meets the body's needs."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of macronutrients or their functions.",
+      "Identifies some macronutrients but shows limited understanding of their roles.",
+      "Identifies most macronutrients and their basic roles in providing energy or building tissues.",
+      "Explains the roles of macronutrients with some accuracy, including energy provision and tissue building.",
+      "Clearly explains the roles of macronutrients in detail, including energy provision, tissue building, and hormonal regulation.",
+      "Provides a comprehensive explanation of macronutrient roles, including energy provision, tissue building, hormonal regulation, and the impact of imbalances."
+    ],
+    [
+      "Demonstrates no understanding of micronutrients or their importance.",
+      "Identifies a few micronutrients but does not understand their specific functions.",
+      "Identifies some micronutrients and their general importance for health.",
+      "Explains the importance of micronutrients for health, mentioning specific vitamins and minerals.",
+      "Clearly explains the roles of various micronutrients and the health consequences of deficiencies.",
+      "Provides a detailed explanation of micronutrient functions, deficiency consequences, and sources of these nutrients."
+    ],
+    [
+      "Unable to relate dietary choices to health benefits or reference dietary guidelines.",
+      "Makes vague connections between diet and health without referencing guidelines.",
+      "Relates some dietary choices to general health benefits, mentioning dietary guidelines.",
+      "Connects specific dietary choices to specific health benefits, referencing dietary guidelines.",
+      "Clearly explains how specific dietary choices support specific health benefits, using research-based dietary guidelines.",
+      "Provides a comprehensive analysis of how dietary choices impact health, thoroughly integrating research-based dietary guidelines and recent findings."
+    ],
+    [
+      "Unable to describe any elements of a balanced diet.",
+      "Lists only a few food groups without mentioning proportions or balance.",
+      "Describes some food groups that should be part of a diet but lacks detail.",
+      "Describes a balanced diet that includes all major food groups, with some consideration for proportions.",
+      "Explains a balanced diet that provides necessary nutrients in appropriate proportions.",
+      "Details a highly individualized balanced diet based on specific needs\/circumstances and scientific principles."
+    ]
+  ]
+}

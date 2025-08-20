@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Current Economy and Labor Market Types",
+    "Explanation of Skills Needed by Workers",
+    "Analysis of Technological Change Effects",
+    "Assessment of International Competition Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the current economy, labor market, or the types of goods and services produced.",
+      "Student demonstrates a minimal understanding, with significant gaps in knowledge about the economy, labor market, goods, and services.",
+      "Student identifies some aspects of the current economy and labor market but struggles to explain the different types of goods and services produced.",
+      "Student adequately describes the current economy and labor market, including the types of goods and services produced, but may lack depth in explanation.",
+      "Student thoroughly describes the current economy and labor market, including various types of goods and services produced with clear examples and explanations.",
+      "Student comprehensively analyzes the current economy and labor market, providing detailed examples of goods and services, and demonstrating a nuanced understanding of economic principles."
+    ],
+    [
+      "Student does not identify or explain the skills needed by workers in the current labor market.",
+      "Student vaguely mentions skills needed by workers but lacks specifics or relevant examples.",
+      "Student identifies a few skills needed by workers but struggles to connect these skills to specific jobs or industries.",
+      "Student explains several skills needed by workers in today's labor market, providing some context but lacking detailed analysis.",
+      "Student clearly explains the skills needed by workers, providing relevant examples and showing an understanding of how these skills relate to job performance.",
+      "Student insightfully analyzes the skills needed by workers, providing comprehensive examples and demonstrating an understanding of the evolving demands of the labor market."
+    ],
+    [
+      "Student demonstrates no awareness of the effects of rapid technological change on the economy or labor market.",
+      "Student acknowledges technological change but does not explain its impact on the economy or workforce.",
+      "Student identifies some effects of technological change but struggles to explain them in detail or connect them to real-world examples.",
+      "Student describes the effects of rapid technological change on the economy and labor market, providing a general overview.",
+      "Student thoroughly analyzes the effects of rapid technological change, providing clear examples of its impact on various industries and job types.",
+      "Student critically evaluates the effects of rapid technological change, providing in-depth analysis of both positive and negative impacts on the labor market and economy, including future trends."
+    ],
+    [
+      "Student demonstrates no understanding of the impact of international competition on the U.S. labor market.",
+      "Student mentions international competition but does not explain its effects on the U.S. labor market.",
+      "Student identifies some impacts of international competition but struggles to explain them clearly or provide supporting examples.",
+      "Student explains the impact of international competition on the U.S. labor market, providing a basic understanding of its effects.",
+      "Student analyzes the impact of international competition, providing detailed examples and demonstrating a solid understanding of global economic forces.",
+      "Student comprehensively evaluates the impact of international competition, providing nuanced insights into its complex effects on the U.S. labor market and proposing potential strategies for adaptation and growth."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Benefits",
+    "Explanation of How Nutritious Breakfast Impacts Health",
+    "Examples of Nutritious Breakfast Foods"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any benefits of eating a nutritious breakfast.",
+      "Identifies only one benefit of eating a nutritious breakfast, but the explanation is unclear or inaccurate.",
+      "Identifies two benefits of eating a nutritious breakfast, but explanations lack depth or accuracy.",
+      "Identifies three benefits of eating a nutritious breakfast with mostly accurate explanations.",
+      "Identifies four benefits of eating a nutritious breakfast with clear and accurate explanations.",
+      "Identifies more than four benefits of eating a nutritious breakfast with comprehensive and accurate explanations, demonstrating a thorough understanding."
+    ],
+    [
+      "Does not explain how a nutritious breakfast impacts overall health.",
+      "Provides a vague or inaccurate explanation of how a nutritious breakfast impacts overall health.",
+      "Provides a basic explanation of how a nutritious breakfast impacts health, but lacks detail or supporting evidence.",
+      "Explains how a nutritious breakfast impacts health with some supporting details, but may have minor inaccuracies.",
+      "Clearly explains how a nutritious breakfast impacts health with accurate and relevant supporting details.",
+      "Provides a comprehensive and insightful explanation of how a nutritious breakfast impacts health, demonstrating a deep understanding of the connection between nutrition and well-being."
+    ],
+    [
+      "Does not provide any examples of nutritious breakfast foods.",
+      "Provides only one example of a nutritious breakfast food, but it may be questionable or not clearly explained.",
+      "Provides two examples of nutritious breakfast foods, but the choices are limited or the explanations are lacking.",
+      "Provides three examples of nutritious breakfast foods that are generally healthy options.",
+      "Provides four examples of nutritious breakfast foods with clear explanations of their nutritional value.",
+      "Provides a diverse range of nutritious breakfast food examples with detailed explanations of their nutritional benefits, demonstrating a comprehensive understanding of healthy eating choices."
+    ]
+  ]
+}

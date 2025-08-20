@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the relationship between lifelong fitness activities and personal fitness components (blood pressure, weight, body fat percentage).",
+    "Ability to identify and describe appropriate lifelong fitness activities.",
+    "Knowledge of how to monitor and manage personal fitness components (blood pressure, weight, body fat percentage)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how lifelong fitness activities relate to personal fitness components.",
+      "Student demonstrates a minimal understanding of the relationship between lifelong fitness activities and only one personal fitness component.",
+      "Student demonstrates a basic understanding of the relationship between lifelong fitness activities and two personal fitness components.",
+      "Student demonstrates a satisfactory understanding of the relationship between lifelong fitness activities and all three personal fitness components.",
+      "Student demonstrates a strong understanding of the relationship between lifelong fitness activities and all three personal fitness components, providing specific examples.",
+      "Student demonstrates a comprehensive understanding of the relationship between lifelong fitness activities and personal fitness, explaining the physiological mechanisms involved and potential long-term benefits."
+    ],
+    [
+      "Student cannot identify any appropriate lifelong fitness activities.",
+      "Student identifies only one appropriate lifelong fitness activity, with limited description.",
+      "Student identifies two appropriate lifelong fitness activities with basic descriptions.",
+      "Student identifies three or more appropriate lifelong fitness activities with clear descriptions of each.",
+      "Student identifies and describes multiple appropriate lifelong fitness activities, explaining how they can be adapted for different fitness levels and abilities.",
+      "Student identifies and describes a wide range of appropriate lifelong fitness activities, demonstrating a deep understanding of their benefits, modifications, and considerations for diverse populations and health conditions."
+    ],
+    [
+      "Student demonstrates no knowledge of how to monitor or manage any personal fitness components.",
+      "Student demonstrates minimal knowledge of how to monitor or manage one personal fitness component.",
+      "Student demonstrates basic knowledge of how to monitor or manage two personal fitness components.",
+      "Student demonstrates satisfactory knowledge of how to monitor and manage all three personal fitness components.",
+      "Student demonstrates strong knowledge of how to monitor and manage all three personal fitness components, including discussing healthy ranges and potential risks.",
+      "Student demonstrates comprehensive knowledge of how to monitor and manage all three personal fitness components, including discussing strategies for maintaining healthy levels, addressing potential issues, and seeking professional guidance when necessary."
+    ]
+  ]
+}

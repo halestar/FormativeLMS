@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the concept of solving equations and inequalities",
+    "Ability to use substitution to verify solutions.",
+    "Identifying solution sets"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of what it means to solve an equation or inequality.",
+      "Student shows limited understanding, struggling to articulate the purpose of solving equations and inequalities.",
+      "Student demonstrates some understanding but has difficulty explaining how specific values make the equation or inequality true.",
+      "Student demonstrates a clear understanding of solving equations\/inequalities, recognizing it as finding values that satisfy the condition.",
+      "Student demonstrates a strong understanding, clearly explaining the solution process and its meaning.",
+      "Student demonstrates a comprehensive understanding, articulating the purpose of solving equations and inequalities with depth and precision."
+    ],
+    [
+      "Student cannot use substitution to check if a given value satisfies an equation or inequality.",
+      "Student attempts to use substitution but makes significant errors in the process.",
+      "Student can substitute values but struggles with arithmetic or algebraic manipulation, leading to incorrect conclusions.",
+      "Student accurately substitutes values and performs calculations to determine if a given value is a solution.",
+      "Student consistently and accurately uses substitution to verify solutions and can explain the results.",
+      "Student expertly uses substitution and clearly explains how substitution can prove or disprove an equation"
+    ],
+    [
+      "Student is unable to identify any values that satisfy the equation or inequality.",
+      "Student can identify possible solutions, but they are incomplete or inaccurate.",
+      "Student identifies some correct solutions but misses others or includes incorrect values.",
+      "Student correctly identifies the set of values that make the equation or inequality true.",
+      "Student accurately identifies and justifies the complete solution set.",
+      "Student flawlessly determines the complete solution sets even given complex equations and inequalities."
+    ]
+  ]
+}

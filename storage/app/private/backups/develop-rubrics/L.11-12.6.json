@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Use of General Academic Vocabulary",
+    "Use of Domain-Specific Vocabulary",
+    "Independence in Gathering Vocabulary Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates little to no understanding or use of general academic vocabulary.",
+      "Demonstrates limited understanding or use of general academic vocabulary; relies heavily on informal language.",
+      "Demonstrates some understanding and use of general academic vocabulary, but with noticeable gaps and inconsistencies.",
+      "Demonstrates adequate understanding and use of general academic vocabulary, appropriate for grade level; minor inconsistencies may be present.",
+      "Demonstrates strong understanding and use of general academic vocabulary, enhancing communication and comprehension effectively.",
+      "Demonstrates sophisticated understanding and use of general academic vocabulary, elevating communication and comprehension with precision and nuance."
+    ],
+    [
+      "Demonstrates no understanding or use of domain-specific vocabulary.",
+      "Demonstrates very limited understanding or use of domain-specific vocabulary; relies on vague language.",
+      "Demonstrates basic understanding and use of domain-specific vocabulary, but struggles with precision and application.",
+      "Demonstrates satisfactory understanding and use of domain-specific vocabulary, appropriate for the context; some terms may be used imprecisely.",
+      "Demonstrates clear and effective understanding and use of domain-specific vocabulary, enhancing communication within the specific subject area.",
+      "Demonstrates masterful understanding and use of domain-specific vocabulary, enriching communication with depth, accuracy, and insightful application."
+    ],
+    [
+      "Shows no effort to independently gather vocabulary knowledge; unable to determine the meaning of unfamiliar words or phrases.",
+      "Shows minimal effort to independently gather vocabulary knowledge; struggles to use resources effectively.",
+      "Attempts to independently gather vocabulary knowledge, but with limited success; may misinterpret information.",
+      "Independently gathers vocabulary knowledge with reasonable effectiveness, using appropriate resources; occasional misunderstandings may occur.",
+      "Independently gathers vocabulary knowledge effectively and efficiently, using a variety of resources; demonstrates strong comprehension.",
+      "Demonstrates exceptional independence in gathering vocabulary knowledge, using a wide array of resources with critical insight and sophisticated understanding."
+    ]
+  ]
+}

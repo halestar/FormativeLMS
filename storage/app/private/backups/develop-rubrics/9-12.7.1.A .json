@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Coping Strategies",
+    "Application to Social Situations",
+    "Understanding of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any coping strategies.",
+      "Identifies one ineffective or inappropriate coping strategy.",
+      "Identifies one appropriate coping strategy, but it is poorly explained.",
+      "Identifies two appropriate coping strategies with some explanation.",
+      "Identifies three appropriate coping strategies with clear explanations.",
+      "Identifies multiple effective and varied coping strategies relevant to different social situations involving substance use, demonstrating a thorough understanding."
+    ],
+    [
+      "Unable to apply any coping strategies to given social situations.",
+      "Attempts to apply a coping strategy, but it is inappropriate or ineffective.",
+      "Applies a coping strategy to a situation, but the explanation is weak.",
+      "Applies coping strategies to a limited range of social situations with moderate success.",
+      "Applies coping strategies effectively to a variety of social situations.",
+      "Demonstrates excellent application of coping strategies to diverse and complex social situations involving alcohol, tobacco, and other drugs, tailoring the approach appropriately."
+    ],
+    [
+      "Shows no understanding of the potential consequences of substance use in social situations.",
+      "Demonstrates a limited understanding of the consequences, primarily focusing on immediate effects.",
+      "Recognizes some consequences of substance use, but lacks depth in understanding.",
+      "Understands the potential consequences of substance use, including health and social impacts.",
+      "Clearly articulates the short-term and long-term consequences of substance use, including physical, social, and emotional effects.",
+      "Exhibits a comprehensive understanding of the multifaceted consequences of substance use, including legal, ethical, and societal implications, and can articulate these clearly."
+    ]
+  ]
+}

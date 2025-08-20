@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Basic Financial Market Functions",
+    "Knowledge of Different Types of Financial Markets",
+    "Explanation of How Financial Markets Contribute to the Economy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of financial market functions is demonstrated.",
+      "Demonstrates minimal understanding; struggles to identify any financial market functions.",
+      "Identifies one or two basic financial market functions with limited explanation.",
+      "Describes several financial market functions, such as raising capital or transferring risk, but lacks depth.",
+      "Clearly explains multiple functions of financial markets with good understanding and some specific examples.",
+      "Provides a comprehensive explanation of various financial market functions, including raising capital, transferring risk, and price discovery, with relevant examples and demonstrates understanding of the interrelation between them."
+    ],
+    [
+      "Unable to name any types of financial markets.",
+      "Names one type of financial market incorrectly or vaguely.",
+      "Names at least one type of financial market (e.g., stock market, bond market) with minimal accuracy.",
+      "Identifies a few types of financial markets (e.g., stock, bond, commodities) but struggles to differentiate their functions.",
+      "Accurately describes several different types of financial markets and their primary functions.",
+      "Demonstrates a deep understanding of different types of financial markets (e.g., stock, bond, derivatives, foreign exchange) and explains their specific functions and roles within the broader economy."
+    ],
+    [
+      "No explanation of the contribution of financial markets is provided.",
+      "Provides a vague or inaccurate explanation of how financial markets contribute to the economy.",
+      "Offers a limited explanation of how financial markets contribute to the economy (e.g., providing capital).",
+      "Explains how financial markets contribute to economic growth by allocating capital or facilitating investment.",
+      "Clearly articulates the ways financial markets support economic growth, innovation, and efficiency with some supporting details.",
+      "Provides a thorough explanation of how financial markets contribute to economic stability, growth, and innovation, supported by detailed examples and a nuanced understanding of market dynamics."
+    ]
+  ]
+}

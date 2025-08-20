@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Basic Economic Concepts",
+    "Understanding of Individual Roles in the Economy",
+    "Economic Reasoning Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic economic concepts such as supply, demand, scarcity, and opportunity cost.",
+      "Shows a limited understanding of basic economic concepts; struggles to define or explain them accurately.",
+      "Displays a partial understanding of basic economic concepts but has difficulty applying them in different contexts.",
+      "Demonstrates a satisfactory understanding of basic economic concepts and can apply them in simple scenarios.",
+      "Exhibits a strong understanding of basic economic concepts and can apply them in various scenarios with clear explanations.",
+      "Demonstrates a comprehensive understanding of basic economic concepts, can apply them effectively in complex scenarios, and explain their interrelationships."
+    ],
+    [
+      "Demonstrates no understanding of their role as consumers, producers, or taxpayers in the economy.",
+      "Shows a limited understanding of their roles in the economy and struggles to relate them to economic concepts.",
+      "Displays a partial understanding of their roles in the economy but has difficulty explaining how their actions affect the economy.",
+      "Demonstrates a satisfactory understanding of their roles in the economy and can explain how their actions influence economic activity.",
+      "Exhibits a strong understanding of their roles in the economy and can analyze how their decisions impact economic outcomes.",
+      "Demonstrates a comprehensive understanding of their roles in the economy, can critically analyze the impact of their decisions, and propose solutions for economic challenges."
+    ],
+    [
+      "Unable to apply economic reasoning to analyze economic problems or make informed decisions.",
+      "Struggles to apply economic reasoning skills and has difficulty identifying relevant economic factors.",
+      "Demonstrates some ability to apply economic reasoning but struggles to draw logical conclusions or justify their reasoning.",
+      "Applies basic economic reasoning skills to analyze economic problems and make informed decisions with some justification.",
+      "Applies economic reasoning skills effectively to analyze complex economic problems, make informed decisions, and provide clear justifications.",
+      "Demonstrates advanced economic reasoning skills, can critically evaluate different economic perspectives, and propose innovative solutions to economic problems."
+    ]
+  ]
+}

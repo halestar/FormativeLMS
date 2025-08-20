@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Safe People",
+    "Identification of Safe Places",
+    "Understanding of When to Seek Help"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any safe people to turn to when feeling unsafe or threatened.",
+      "The student can identify one safe person but struggles to articulate why they are safe or appropriate.",
+      "The student can identify 2 safe people but may not fully explain their roles or why they are safe.",
+      "The student can identify 3 safe people and briefly explains their roles and suitability in unsafe situations.",
+      "The student accurately identifies multiple safe people (e.g., school counselor, trusted teacher, family member) and clearly explains their roles and suitability in providing support and safety.",
+      "The student comprehensively identifies a wide range of safe people, providing detailed explanations of their roles, suitability, and the specific ways they can offer support in various unsafe or threatening situations. The student demonstrates a nuanced understanding of trust and safety."
+    ],
+    [
+      "The student cannot identify any safe places to go to when feeling unsafe or threatened.",
+      "The student identifies one place that is not necessarily safe or appropriate.",
+      "The student can identify one safe place but struggles to articulate why it is safe or appropriate.",
+      "The student identifies 2 safe places and adequately explains why they are safe and accessible.",
+      "The student accurately identifies multiple safe places (e.g., school, police department, fire department, community center) and clearly explains their accessibility, safety features, and the types of support available.",
+      "The student comprehensively identifies a variety of safe places, providing detailed explanations of their features, accessibility at different times, and the specific resources or support available. The student demonstrates a strong understanding of environmental safety."
+    ],
+    [
+      "The student does not demonstrate an understanding of when it is necessary to seek help from safe people or go to safe places.",
+      "The student vaguely recognizes the need for help in extreme situations only.",
+      "The student identifies a few situations where seeking help would be appropriate, but lacks clarity on when to act.",
+      "The student demonstrates a general understanding of when to seek help in unsafe or threatening situations, but may hesitate in certain scenarios.",
+      "The student clearly articulates various scenarios where seeking help from safe people or going to safe places is necessary, demonstrating a proactive approach to personal safety.",
+      "The student demonstrates a nuanced and comprehensive understanding of when to seek help, considering various factors and potential barriers. The student advocates for seeking help early and often to prevent escalation."
+    ]
+  ]
+}

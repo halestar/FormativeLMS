@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Evidence",
+    "Quality of Analysis and Reflection",
+    "Application of Reading Standards",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence is identified from the text.",
+      "Minimal or irrelevant evidence is identified; understanding of the text is lacking.",
+      "Some evidence is identified, but connection to analysis, reflection, or research is weak.",
+      "Adequate evidence is identified and supports the analysis, reflection, or research.",
+      "Strong evidence is identified, clearly supporting the analysis, reflection, or research with minor gaps.",
+      "Evidence is comprehensively and effectively used to support insightful analysis, reflection, and research."
+    ],
+    [
+      "No analysis or reflection is present.",
+      "Analysis and reflection are superficial or missing key elements.",
+      "Basic analysis and reflection are present but lack depth and insight.",
+      "Competent analysis and reflection demonstrate a good understanding of the text.",
+      "Thoughtful analysis and reflection show a clear understanding and offer some insight.",
+      "Insightful and nuanced analysis and reflection demonstrate a deep understanding of the text."
+    ],
+    [
+      "No attempt to apply 7th grade reading standards.",
+      "Attempts to apply 7th grade reading standards are irrelevant or misunderstanding.",
+      "Limited application of 7th grade reading standards is demonstrated.",
+      "Application of 7th grade reading standards is evident and supports the analysis.",
+      "Effective application of 7th grade reading standards enhances the depth of analysis.",
+      "Sophisticated application of 7th grade reading standards provides nuanced insights."
+    ],
+    [
+      "Response is unclear and disorganized.",
+      "Response is difficult to follow with significant issues in clarity and organization.",
+      "Response is somewhat clear but lacks logical organization.",
+      "Response is generally clear and organized logically.",
+      "Response is clear, well-organized, and easy to follow.",
+      "Response is exceptionally clear, coherent, and logically structured, enhancing understanding."
+    ]
+  ]
+}

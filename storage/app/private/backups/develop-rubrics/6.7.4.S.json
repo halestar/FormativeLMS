@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Recognition of Emergency Situations",
+    "Knowledge of Basic First Aid Procedures",
+    "Application of Emergency Procedures",
+    "Communication Skills During Emergencies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not recognize or identify any emergency situations.",
+      "Identifies an emergency situation, but hesitates or misinterprets the situation.",
+      "Identifies common emergency situations with prompting.",
+      "Confidently identifies most common emergency situations.",
+      "Quickly and accurately identifies a wide range of emergency situations.",
+      "Demonstrates expert-level recognition of complex or unusual emergency scenarios."
+    ],
+    [
+      "Demonstrates no knowledge of basic first aid procedures.",
+      "Shows minimal awareness of first aid, but cannot describe any procedures.",
+      "Describes basic first aid steps with significant inaccuracies or omissions.",
+      "Describes and sequences basic first aid steps for common injuries\/illnesses.",
+      "Accurately explains first aid procedures and can adapt them to different scenarios.",
+      "Demonstrates comprehensive knowledge, including advanced techniques and modifications for special populations (e.g., infants, elderly)."
+    ],
+    [
+      "Unable to apply any emergency procedures, even with guidance.",
+      "Attempts to apply a procedure but does so incorrectly and ineffectively.",
+      "Applies basic procedures with assistance and some errors.",
+      "Independently and correctly applies common emergency procedures.",
+      "Applies emergency procedures effectively, adapting to the specific situation.",
+      "Expertly applies and adapts procedures in complex or stressful situations, ensuring optimal outcomes."
+    ],
+    [
+      "Cannot communicate effectively during simulated emergencies.",
+      "Communicates poorly, providing unclear or incomplete information.",
+      "Communicates basic information with prompting.",
+      "Clearly and concisely communicates essential information to others.",
+      "Communicates effectively, providing reassurance and clear instructions.",
+      "Demonstrates exceptional communication skills, coordinating efforts and delegating tasks effectively under pressure."
+    ]
+  ]
+}

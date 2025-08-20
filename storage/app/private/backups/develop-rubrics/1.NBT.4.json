@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Place Value",
+    "Application of Addition Strategies",
+    "Relating Strategy to Written Method",
+    "Accuracy in Addition"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of place value when adding within 100.",
+      "Student shows limited understanding of place value; struggles to differentiate between tens and ones.",
+      "Student demonstrates some understanding of place value but makes frequent errors when adding two-digit numbers.",
+      "Student generally understands place value and can add two-digit numbers with occasional errors.",
+      "Student demonstrates a solid understanding of place value and accurately adds two-digit numbers, including composing a ten.",
+      "Student demonstrates a comprehensive understanding of place value, accurately adds two-digit numbers, composes a ten when necessary, and explains the reasoning clearly."
+    ],
+    [
+      "Student does not use any strategies or models to aid in addition.",
+      "Student attempts to use strategies or models but struggles to apply them effectively.",
+      "Student uses strategies or models inconsistently or incorrectly.",
+      "Student uses strategies or models with some success but may not always choose the most efficient method.",
+      "Student effectively uses strategies or models to add within 100 and explains the strategy used.",
+      "Student skillfully applies various strategies and models to add within 100, selects the most efficient method, and clearly explains the reasoning."
+    ],
+    [
+      "Student is unable to relate the addition strategy to a written method.",
+      "Student struggles to connect the addition strategy with a written representation.",
+      "Student attempts to relate the strategy to a written method but makes significant errors.",
+      "Student can somewhat relate the strategy to a written method but needs guidance.",
+      "Student accurately relates the addition strategy to a written method and explains the connection.",
+      "Student fluently connects the addition strategy to a written method, clearly explains the relationship, and justifies the written steps."
+    ],
+    [
+      "Student demonstrates no accuracy in addition problems.",
+      "Student consistently arrives at wrong answers when adding.",
+      "Student arrives at the correct solution less than half the time.",
+      "Student arrives at the correct solution most of the time.",
+      "Student rarely makes mistakes and provides right answers almost all the time.",
+      "Student always provides the correct answer."
+    ]
+  ]
+}

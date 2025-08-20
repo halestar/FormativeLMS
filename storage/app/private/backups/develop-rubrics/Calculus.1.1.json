@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Limit Laws",
+    "Application to Sums and Products",
+    "Application to Quotients and Composition",
+    "Proof of Theorems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of limit laws is demonstrated.",
+      "Demonstrates minimal understanding of limit laws; struggles to apply them.",
+      "Shows some understanding of limit laws but makes frequent errors in application.",
+      "Demonstrates a general understanding of limit laws and applies them with occasional errors.",
+      "Demonstrates a strong understanding of limit laws and applies them correctly in most cases.",
+      "Demonstrates a comprehensive understanding of limit laws and applies them correctly and efficiently."
+    ],
+    [
+      "Unable to apply limit laws to sums and products of functions.",
+      "Struggles to apply limit laws to sums and products, with little success.",
+      "Applies limit laws to sums and products with significant errors.",
+      "Applies limit laws to sums and products with some errors.",
+      "Applies limit laws to sums and products accurately in most situations.",
+      "Consistently and accurately applies limit laws to sums and products of functions."
+    ],
+    [
+      "Unable to apply limit laws to quotients and compositions of functions.",
+      "Struggles to apply limit laws to quotients and compositions, with little success.",
+      "Applies limit laws to quotients and compositions with significant errors.",
+      "Applies limit laws to quotients and compositions with some errors.",
+      "Applies limit laws to quotients and compositions accurately in most situations.",
+      "Consistently and accurately applies limit laws to quotients and compositions of functions."
+    ],
+    [
+      "No attempt to prove theorems related to limits.",
+      "Attempts to prove theorems but demonstrates no understanding.",
+      "Attempts to prove theorems with significant gaps in logic and understanding.",
+      "Provides proofs with some logical errors or omissions.",
+      "Provides mostly correct proofs of theorems with minor errors.",
+      "Provides clear, correct, and complete proofs of theorems related to evaluating limits."
+    ]
+  ]
+}

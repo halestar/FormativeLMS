@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Fire Prevention Methods",
+    "Knowledge of Risks Leading to Fire-Related Injuries",
+    "Application of Knowledge to Reduce Fire Risks"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of fire prevention methods.",
+      "Student identifies one basic fire prevention method with limited accuracy.",
+      "Student identifies a few fire prevention methods with some inaccuracies or omissions.",
+      "Student accurately describes several fire prevention methods.",
+      "Student comprehensively explains various fire prevention methods and their application in different scenarios.",
+      "Student demonstrates in-depth understanding of fire prevention, including advanced methods and the rationale behind them."
+    ],
+    [
+      "Student shows no awareness of risks associated with fire-related injuries.",
+      "Student mentions one or two risks vaguely.",
+      "Student identifies a few common risks, but lacks detail or clarity.",
+      "Student describes several key risks that can lead to fire-related injuries.",
+      "Student thoroughly explains numerous risks and their potential consequences.",
+      "Student exhibits comprehensive knowledge of risks, including specific details and advanced concepts, and can relate them to potential injuries."
+    ],
+    [
+      "Student cannot apply knowledge to suggest ways to reduce fire risks.",
+      "Student suggests one basic way to reduce fire risks.",
+      "Student suggests a few ways to reduce fire risks, but they may be simplistic or not fully effective.",
+      "Student proposes effective strategies to reduce fire risks in various situations.",
+      "Student details comprehensive and practical strategies to minimize fire risks and prevent injuries.",
+      "Student provides innovative and highly effective strategies to reduce fire risks, demonstrating a deep understanding of risk mitigation."
+    ]
+  ]
+}

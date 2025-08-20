@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Dialogue\/Incidents and their Role",
+    "Analysis of Action Propulsion",
+    "Character Revelation",
+    "Decision Provocation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No identification of specific dialogue or incidents is made.",
+      "Identifies dialogue or incidents, but struggles to connect them to plot, character, or decisions.",
+      "Identifies dialogue or incidents and makes a basic connection to plot, character, or decisions, but the explanation is superficial.",
+      "Identifies relevant dialogue or incidents and explains how they connect to plot, character, or decisions with some clarity.",
+      "Clearly identifies relevant dialogue or incidents and thoroughly explains how they propel the action, reveal character aspects, or provoke decisions.",
+      "Masterfully identifies and analyzes how specific lines of dialogue or incidents intricately propel the action, deeply reveal character, and significantly provoke decisions, demonstrating insightful understanding."
+    ],
+    [
+      "No analysis of how dialogue\/incidents propel the action is present.",
+      "Attempts to analyze action propulsion, but the analysis is unclear or inaccurate.",
+      "Provides a limited analysis of how dialogue\/incidents propel the action.",
+      "Analyzes how dialogue\/incidents contribute to the action, providing reasonable explanations.",
+      "Provides a detailed analysis of how dialogue\/incidents directly propel the action, offering specific examples.",
+      "Offers a sophisticated and nuanced analysis of how dialogue\/incidents intricately propel the action, revealing subtle cause-and-effect relationships within the narrative."
+    ],
+    [
+      "No analysis of how dialogue\/incidents reveal character is present.",
+      "Attempts to analyze character revelation, but the analysis is unclear or inaccurate.",
+      "Provides a limited analysis of how dialogue\/incidents reveal aspects of a character.",
+      "Analyzes how dialogue\/incidents contribute to character development, providing reasonable explanations.",
+      "Provides a detailed analysis of how dialogue\/incidents directly reveal aspects of a character, offering specific examples.",
+      "Offers a sophisticated and nuanced analysis of how dialogue\/incidents intricately reveal character, uncovering subtle motivations and internal conflicts."
+    ],
+    [
+      "No analysis of how dialogue\/incidents provoke decisions is present.",
+      "Attempts to analyze decision provocation, but the analysis is unclear or inaccurate.",
+      "Provides a limited analysis of how dialogue\/incidents provoke a decision.",
+      "Analyzes how dialogue\/incidents lead to a decision, providing reasonable explanations.",
+      "Provides a detailed analysis of how dialogue\/incidents directly provoke a decision, offering specific examples.",
+      "Offers a sophisticated and nuanced analysis of how dialogue\/incidents intricately provoke a decision, highlighting the character's internal reasoning and external pressures."
+    ]
+  ]
+}

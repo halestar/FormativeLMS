@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Short-Term Effects",
+    "Understanding of Long-Term Effects",
+    "Inclusion of Various Substances",
+    "Accuracy and Scientific Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of short-term effects of alcohol, tobacco, and other drugs.",
+      "Identifies one or two short-term effects with significant inaccuracies.",
+      "Identifies some short-term effects but lacks depth or contains minor inaccuracies.",
+      "Identifies several short-term effects of alcohol, tobacco, and other drugs with reasonable accuracy.",
+      "Clearly describes a variety of short-term effects with good accuracy and detail.",
+      "Provides a comprehensive and accurate description of the short-term effects, demonstrating a strong understanding."
+    ],
+    [
+      "Demonstrates no understanding of long-term effects of alcohol, tobacco, and other drugs.",
+      "Identifies one or two long-term effects with significant inaccuracies.",
+      "Identifies some long-term effects but lacks depth or contains minor inaccuracies.",
+      "Identifies several long-term effects of alcohol, tobacco, and other drugs with reasonable accuracy.",
+      "Clearly describes a variety of long-term effects with good accuracy and detail.",
+      "Provides a comprehensive and accurate description of the long-term effects, demonstrating a strong understanding."
+    ],
+    [
+      "Focuses on only one substance or fails to mention alcohol, tobacco, or other drugs.",
+      "Mentions only two categories (alcohol, tobacco, or other drugs) without much detail.",
+      "Touches on all three categories (alcohol, tobacco, and other drugs) but with limited depth.",
+      "Discusses the effects of alcohol, tobacco, and other drugs with reasonable coverage.",
+      "Provides a balanced discussion of the effects of alcohol, tobacco, and other drugs with good detail.",
+      "Offers a comprehensive and well-balanced discussion of the effects across alcohol, tobacco, and other drugs, including inhalants where applicable."
+    ],
+    [
+      "Demonstrates significant misunderstandings or inaccuracies regarding the effects of substances.",
+      "Contains several inaccuracies or relies on unsupported claims.",
+      "Generally accurate but may contain some minor inaccuracies or lack scientific backing.",
+      "Presents information with good accuracy and demonstrates some scientific understanding.",
+      "Presents accurate information supported by scientific understanding.",
+      "Demonstrates a strong scientific understanding of the effects of substances, accurately presenting complex information."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the meaning of a free press",
+    "Understanding of the importance of a free press",
+    "Understanding of the meaning of a responsible press",
+    "Ability to discuss the relationship between a free and responsible press"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of what a free press means.",
+      "The student shows a very limited understanding of a free press, primarily repeating simple definitions.",
+      "The student demonstrates a basic understanding of a free press, but struggles to explain its nuances.",
+      "The student demonstrates a satisfactory understanding of a free press, explaining its meaning with reasonable clarity.",
+      "The student demonstrates a strong understanding of a free press, clearly explaining its meaning and providing supporting details.",
+      "The student demonstrates a comprehensive understanding of a free press, clearly and insightfully explaining its meaning, providing supporting details, and addressing potential complexities or counterarguments."
+    ],
+    [
+      "The student demonstrates no understanding of why a free press is important.",
+      "The student shows a very limited understanding of the importance of a free press, primarily stating basic facts.",
+      "The student demonstrates a basic understanding of the importance of a free press, but struggles to explain its impact.",
+      "The student demonstrates a satisfactory understanding of the importance of a free press, explaining its impact with reasonable clarity.",
+      "The student demonstrates a strong understanding of the importance of a free press, clearly explaining its impact and providing supporting examples.",
+      "The student demonstrates a comprehensive understanding of the importance of a free press, clearly and insightfully explaining its impact, providing detailed examples, and addressing potential challenges to its role."
+    ],
+    [
+      "The student demonstrates no understanding of what a responsible press means.",
+      "The student shows a very limited understanding of a responsible press, primarily repeating simple definitions.",
+      "The student demonstrates a basic understanding of a responsible press, but struggles to explain what that entails.",
+      "The student demonstrates a satisfactory understanding of a responsible press, explaining the elements of responsible reporting with reasonable clarity.",
+      "The student demonstrates a strong understanding of a responsible press, clearly explaining the elements of responsible reporting and providing supporting examples.",
+      "The student demonstrates a comprehensive understanding of a responsible press, clearly and insightfully explaining the elements of responsible reporting, providing detailed examples, and addressing potential conflicts between freedom and responsibility."
+    ],
+    [
+      "The student fails to make any connection between freedom and responsibility in the context of the press.",
+      "The student vaguely acknowledges that freedom and responsibility are related for the press, but lacks specifics.",
+      "The student makes a basic connection between freedom and responsibility in the context of the press, but struggles to explain their interdependence.",
+      "The student satisfactorily discusses the relationship between freedom and responsibility in the press, highlighting some of their interconnected aspects.",
+      "The student clearly discusses the relationship between freedom and responsibility in the press, highlighting their interdependence and providing relevant examples.",
+      "The student insightfully discusses the complex relationship between freedom and responsibility in the press, providing nuanced examples and considering potential areas of conflict or tension."
+    ]
+  ]
+}

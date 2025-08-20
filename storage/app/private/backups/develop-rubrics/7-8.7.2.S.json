@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Conflict Resolution Strategies",
+    "Application of Nonviolent Communication Principles",
+    "Analysis of Conflict Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any conflict resolution strategies.",
+      "The student identifies only one conflict resolution strategy, but it is not clearly explained or appropriate for the given scenario.",
+      "The student identifies one conflict resolution strategy and provides a basic explanation, but its appropriateness is questionable.",
+      "The student identifies two conflict resolution strategies and provides a reasonable explanation for each.",
+      "The student identifies three conflict resolution strategies, explains them well, and indicates why they are appropriate for the situation.",
+      "The student identifies multiple conflict resolution strategies, explains them thoroughly, and justifies their use with nuanced understanding of the conflict dynamics."
+    ],
+    [
+      "The student does not demonstrate any understanding or application of nonviolent communication principles.",
+      "The student attempts to use nonviolent communication but demonstrates misunderstanding or misapplies the principles.",
+      "The student demonstrates a basic understanding of nonviolent communication but struggles to apply it effectively.",
+      "The student applies nonviolent communication principles adequately, with some minor inconsistencies or areas for improvement.",
+      "The student consistently and effectively applies nonviolent communication principles to propose solutions.",
+      "The student expertly applies nonviolent communication principles, demonstrating empathy, understanding, and respect for all parties involved while proposing innovative solutions."
+    ],
+    [
+      "The student fails to analyze the conflict scenario or identify the underlying issues.",
+      "The student provides a superficial analysis of the conflict scenario, missing key details and underlying issues.",
+      "The student identifies some of the surface-level issues in the conflict but does not delve into the root causes.",
+      "The student provides a reasonable analysis of the conflict, identifying most of the key issues and some of the underlying causes.",
+      "The student offers a comprehensive analysis of the conflict, identifying the key issues, underlying causes, and potential consequences.",
+      "The student demonstrates exceptional analytical skills, dissecting the conflict with keen insight, identifying subtle nuances, and predicting potential outcomes with accuracy."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy and completeness of information about prevention resources.",
+    "Accuracy and completeness of information about intervention resources.",
+    "Accuracy and completeness of information about treatment programs.",
+    "Evaluation of resources and programs including strengths and weaknesses."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No information or inaccurate information about prevention resources is provided.",
+      "Provides minimal information about prevention resources with significant inaccuracies.",
+      "Provides some information about prevention resources, but with noticeable gaps or inaccuracies.",
+      "Provides mostly accurate and complete information about prevention resources, with minor omissions.",
+      "Provides accurate and complete information about a variety of prevention resources.",
+      "Provides comprehensive, accurate, and insightful information about a wide range of prevention resources, demonstrating a deep understanding."
+    ],
+    [
+      "No information or inaccurate information about intervention resources is provided.",
+      "Provides minimal information about intervention resources with significant inaccuracies.",
+      "Provides some information about intervention resources, but with noticeable gaps or inaccuracies.",
+      "Provides mostly accurate and complete information about intervention resources, with minor omissions.",
+      "Provides accurate and complete information about a variety of intervention resources.",
+      "Provides comprehensive, accurate, and insightful information about a wide range of intervention resources, demonstrating a deep understanding."
+    ],
+    [
+      "No information or inaccurate information about treatment programs is provided.",
+      "Provides minimal information about treatment programs with significant inaccuracies.",
+      "Provides some information about treatment programs, but with noticeable gaps or inaccuracies.",
+      "Provides mostly accurate and complete information about treatment programs, with minor omissions.",
+      "Provides accurate and complete information about a variety of treatment programs.",
+      "Provides comprehensive, accurate, and insightful information about a wide range of treatment programs, demonstrating a deep understanding."
+    ],
+    [
+      "No evaluation of resources or programs is provided.",
+      "Provides a superficial evaluation with no clear strengths or weaknesses identified.",
+      "Identifies some strengths or weaknesses of the resources and programs, but lacks depth.",
+      "Evaluates resources and programs, identifying key strengths and weaknesses with reasonable support.",
+      "Provides a thorough and balanced evaluation of resources and programs, clearly articulating strengths and weaknesses with supporting evidence.",
+      "Offers a nuanced and insightful evaluation of resources and programs, demonstrating a sophisticated understanding of their strengths, weaknesses, and potential impact."
+    ]
+  ]
+}

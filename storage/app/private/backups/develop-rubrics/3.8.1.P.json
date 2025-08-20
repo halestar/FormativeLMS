@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness in Encouraging Positive Health Choices",
+    "Understanding and Application of Health Information",
+    "Ethical Considerations and Respect for Autonomy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to influence or support others' health choices.",
+      "Attempts to support others, but advice is unclear or unhelpful.",
+      "Provides basic support with limited understanding of health choices.",
+      "Offers relevant support and advice based on general health knowledge.",
+      "Demonstrates a strong understanding of health choices and effectively supports others.",
+      "Inspires and empowers others to make positive health choices with well-reasoned and personalized support."
+    ],
+    [
+      "Lacks understanding of relevant health information.",
+      "Demonstrates minimal understanding of basic health concepts.",
+      "Understands and applies some health information, but inconsistently.",
+      "Consistently applies accurate health information to support others.",
+      "Demonstrates a comprehensive understanding of health information and its practical application.",
+      "Masterfully integrates health information to provide nuanced and effective support, adapting to individual needs."
+    ],
+    [
+      "Shows disregard for ethical considerations and others' autonomy.",
+      "Demonstrates limited awareness of ethical considerations.",
+      "Acknowledges ethical considerations but struggles to apply them.",
+      "Respects others' autonomy and generally applies ethical principles.",
+      "Consistently demonstrates ethical behavior and respects others' autonomy in health choices.",
+      "Exemplifies ethical leadership by advocating for responsible and respectful health decision-making."
+    ]
+  ]
+}

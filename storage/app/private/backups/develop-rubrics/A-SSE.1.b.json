@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify individual components within a complex algebraic expression (e.g., terms, coefficients, exponents, and operations).",
+    "Skill in interpreting the meaning of individual parts of an expression within the context of a problem.",
+    "Capacity to view and interpret combined parts of an expression as a single entity to simplify understanding."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any components of the expression or misidentifies most components.",
+      "Student identifies only a few components correctly with significant errors in identification of other components.",
+      "Student identifies some components correctly but struggles with more complex terms or operations.",
+      "Student identifies most components correctly, but may have minor errors or omissions.",
+      "Student accurately identifies nearly all components of the expression with minimal errors.",
+      "Student flawlessly identifies all components of the expression, demonstrating a clear understanding of algebraic structure."
+    ],
+    [
+      "Student provides no meaningful interpretation of the expression's components within the given context.",
+      "Student attempts to interpret components but offers interpretations that are largely incorrect or irrelevant.",
+      "Student offers some correct interpretations but struggles to connect them to the context of the problem effectively.",
+      "Student interprets most components correctly within the context, but interpretations lack depth or complete understanding.",
+      "Student provides accurate and relevant interpretations for almost all components, demonstrating good contextual understanding.",
+      "Student provides insightful and comprehensive interpretations of all components, showing a strong grasp of how they relate to the problem's context."
+    ],
+    [
+      "Student does not attempt to combine parts of the expression or shows no understanding of how to simplify the expression by viewing parts as single entities.",
+      "Student attempts to combine parts, but the approach is incorrect or does not lead to simplification.",
+      "Student successfully combines some parts of the expression but struggles with more complex groupings.",
+      "Student combines parts effectively to simplify the expression, though further simplification may be possible.",
+      "Student expertly combines parts of the expression into single entities to simplify and interpret the expression effectively.",
+      "Student masterfully combines and interprets parts of the expression as single entities, demonstrating a profound understanding of simplifying complex expressions."
+    ]
+  ]
+}

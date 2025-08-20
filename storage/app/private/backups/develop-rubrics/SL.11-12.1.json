@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Preparation and Use of Evidence",
+    "Collaboration and Civil Discourse",
+    "Questioning and Promoting Divergent Perspectives",
+    "Synthesizing and Resolving Contradictions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student comes to the discussion unprepared, showing no evidence of having read or researched the material. They do not refer to any texts or research to support their ideas.",
+      "Student shows minimal preparation, with little evidence of having read or researched the material. They make only one or two vague references to texts or research.",
+      "Student is somewhat prepared, showing some evidence of having read or researched the material. They refer to texts or research, but the connection to their ideas is not always clear.",
+      "Student is generally well-prepared, showing evidence of having read and researched the material. They refer to texts and research to support their ideas, making a clear connection.",
+      "Student is well-prepared, showing strong evidence of having read and researched the material. They effectively use texts and research to support their ideas, stimulating thoughtful discussion.",
+      "Student is exceptionally well-prepared, demonstrating a deep understanding of the material. They skillfully use texts and research to enrich the discussion, providing insightful and well-reasoned contributions."
+    ],
+    [
+      "Student does not work collaboratively with peers and may disrupt the discussion with uncivil behavior. They do not contribute to setting goals or establishing roles.",
+      "Student struggles to work collaboratively with peers and may occasionally exhibit uncivil behavior. Their contribution to setting goals or establishing roles is minimal.",
+      "Student generally works collaboratively with peers and usually maintains civil behavior. They make a limited contribution to setting goals or establishing roles.",
+      "Student effectively works collaboratively with peers and maintains civil behavior. They contribute to setting goals and establishing roles as needed.",
+      "Student skillfully works collaboratively with peers, promoting civil and democratic discussions. They actively participate in setting clear goals and deadlines and establishing individual roles.",
+      "Student expertly facilitates collaboration among peers, fostering a respectful and productive discussion environment. They lead the effort in setting clear goals and deadlines and establishing individual roles, ensuring everyone's participation."
+    ],
+    [
+      "Student does not pose or respond to questions and does not ensure a hearing for diverse perspectives. They do not clarify, verify, or challenge ideas.",
+      "Student rarely poses or responds to questions and makes little effort to ensure a hearing for diverse perspectives. Their attempts to clarify, verify, or challenge ideas are minimal.",
+      "Student occasionally poses or responds to questions and sometimes ensures a hearing for diverse perspectives. They make some attempts to clarify, verify, or challenge ideas.",
+      "Student often poses and responds to questions, probing reasoning and evidence. They generally ensure a hearing for diverse perspectives and clarify, verify, or challenge ideas.",
+      "Student skillfully poses and responds to questions, promoting deeper reasoning and a thorough examination of evidence. They actively ensure a hearing for a full range of positions and effectively clarify, verify, or challenge ideas.",
+      "Student masterfully guides the conversation through insightful questions, encouraging critical thinking and a comprehensive understanding of evidence. They champion diverse perspectives, fostering an environment of intellectual curiosity and rigorous examination of ideas."
+    ],
+    [
+      "Student does not respond thoughtfully to diverse perspectives and does not attempt to synthesize comments or resolve contradictions.",
+      "Student struggles to respond thoughtfully to diverse perspectives and makes little effort to synthesize comments or resolve contradictions.",
+      "Student sometimes responds thoughtfully to diverse perspectives and makes some attempts to synthesize comments or resolve contradictions.",
+      "Student generally responds thoughtfully to diverse perspectives and attempts to synthesize comments and resolve contradictions when possible.",
+      "Student thoughtfully responds to diverse perspectives, synthesizing comments and evidence made on all sides of an issue. They resolve contradictions when possible and identify areas for further investigation.",
+      "Student expertly synthesizes diverse perspectives, constructing a cohesive understanding of the issue. They skillfully resolve contradictions and proactively identify areas for further research, driving the discussion toward deeper understanding and resolution."
+    ]
+  ]
+}

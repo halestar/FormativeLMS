@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Natural Resources Used by Local Producers",
+    "Description of Human Resources Utilized in Local Production",
+    "Explanation of Capital Resources Employed by Local Producers",
+    "Understanding of the Production of Goods and Services (Past and Present)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any natural resources used by local producers.",
+      "The student identifies one natural resource used by local producers with limited accuracy.",
+      "The student identifies two natural resources used by local producers with reasonable accuracy.",
+      "The student identifies three natural resources used by local producers accurately.",
+      "The student identifies four or more natural resources used by local producers accurately, demonstrating a solid understanding of their utilization.",
+      "The student comprehensively identifies and explains the diverse range of natural resources used by local producers, including historical and contemporary examples, demonstrating a sophisticated understanding."
+    ],
+    [
+      "The student does not describe any human resources utilized by local producers.",
+      "The student provides a vague or inaccurate description of one human resource utilized in local production.",
+      "The student describes two human resources utilized in local production with some accuracy.",
+      "The student accurately describes three human resources utilized in local production.",
+      "The student accurately describes four or more human resources utilized in local production, demonstrating a good understanding of their roles.",
+      "The student provides a comprehensive and insightful description of the various human resources involved in local production, including skilled labor, management, and entrepreneurial roles, demonstrating a sophisticated understanding."
+    ],
+    [
+      "The student does not explain any capital resources employed by local producers.",
+      "The student provides a vague or inaccurate explanation of one capital resource employed in local production.",
+      "The student explains two capital resources employed in local production with some accuracy.",
+      "The student accurately explains three capital resources employed in local production.",
+      "The student accurately explains four or more capital resources employed in local production, demonstrating a good understanding of their significance.",
+      "The student offers a comprehensive and nuanced explanation of the diverse capital resources utilized by local producers, including machinery, technology, infrastructure, and financial capital, demonstrating a sophisticated understanding."
+    ],
+    [
+      "The student demonstrates no understanding of how local producers use resources to produce goods and services.",
+      "The student shows a limited or inaccurate understanding of how local producers use resources to produce goods and services in either the past or the present.",
+      "The student shows a basic understanding of how local producers use resources to produce goods and services, but lacks detail or comparison between past and present methods.",
+      "The student demonstrates a clear understanding of how local producers use resources to produce goods and services in both the past and present.",
+      "The student demonstrates a strong understanding of the evolution of production methods, comparing and contrasting resource utilization in the past and present with specific examples.",
+      "The student provides a comprehensive analysis of the historical and contemporary production methods of local producers, demonstrating a sophisticated understanding of the interplay between resources, technology, and economic factors."
+    ]
+  ]
+}

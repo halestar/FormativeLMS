@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Correctly identifies inscribed angles, radii, and chords in diagrams and written descriptions.",
+    "Demonstrates understanding of the relationship between central, inscribed, and circumscribed angles.",
+    "Applies the theorem that inscribed angles on a diameter are right angles.",
+    "Understands and applies the relationship that the radius of a circle is perpendicular to the tangent where the radius intersects the circle."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify inscribed angles, radii, or chords.",
+      "Identifies at least one, but incorrectly.",
+      "Identifies inscribed angles, radii, and chords with some errors.",
+      "Identifies inscribed angles, radii, and chords with minor errors.",
+      "Accurately identifies inscribed angles, radii, and chords in most cases.",
+      "Consistently and accurately identifies inscribed angles, radii, and chords."
+    ],
+    [
+      "Does not demonstrate understanding.",
+      "Attempts to explain the relationship but is incorrect or unclear.",
+      "Shows limited understanding of the relationship with significant gaps.",
+      "Explains the relationship with some inaccuracies.",
+      "Clearly explains the relationship between the different angles.",
+      "Provides a comprehensive and accurate explanation of the relationship, including examples."
+    ],
+    [
+      "Does not apply the theorem.",
+      "Attempts to apply the theorem but is incorrect.",
+      "Applies the theorem incorrectly or in limited cases.",
+      "Applies the theorem with some errors.",
+      "Correctly applies the theorem to solve problems.",
+      "Consistently applies the theorem accurately and efficiently in various contexts."
+    ],
+    [
+      "Does not understand the relationship.",
+      "States the relationship incorrectly or demonstrates misunderstanding.",
+      "Shows some understanding but cannot apply it correctly.",
+      "Applies the relationship with some inaccuracies.",
+      "Correctly applies the relationship to solve problems.",
+      "Consistently applies the relationship accurately to solve complex problems."
+    ]
+  ]
+}

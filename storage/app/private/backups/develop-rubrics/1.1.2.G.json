@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Major External Body Parts",
+    "Identification of Major Internal Body Parts",
+    "Anatomical Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any major external body parts or provides incorrect names.",
+      "Student can identify 1-2 major external body parts with some accuracy.",
+      "Student can identify 3-4 major external body parts with reasonable accuracy but may have some difficulty.",
+      "Student can identify most major external body parts accurately but may have minor errors.",
+      "Student accurately identifies nearly all major external body parts.",
+      "Student accurately and comprehensively identifies all major external body parts."
+    ],
+    [
+      "Student cannot identify any major internal body parts or provides incorrect names.",
+      "Student can identify 1-2 major internal body parts with some accuracy.",
+      "Student can identify 3-4 major internal body parts with reasonable accuracy but may have some difficulty.",
+      "Student can identify most major internal body parts accurately but may have minor errors.",
+      "Student accurately identifies nearly all major internal body parts.",
+      "Student accurately and comprehensively identifies all major internal body parts."
+    ],
+    [
+      "Responses show no understanding of anatomical terminology.",
+      "Responses contain significant inaccuracies in anatomical terminology.",
+      "Responses show a basic understanding of anatomical terminology, but with several inaccuracies.",
+      "Responses are mostly accurate in anatomical terminology, with only minor errors.",
+      "Responses are accurate in anatomical terminology with very few errors.",
+      "Responses are consistently accurate and demonstrate a thorough understanding of anatomical terminology."
+    ]
+  ]
+}

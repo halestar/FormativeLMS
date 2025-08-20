@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Question Development and Focus",
+    "Source Integration and Analysis",
+    "Evidence and Reasoning",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The research question is unclear, irrelevant, or missing. No additional related questions are generated.",
+      "The research question is vague or too broad. Few or no related questions are generated, and exploration is limited.",
+      "The research question is present but lacks focus. Some related questions are generated, but their connection to the main question is unclear.",
+      "The research question is clear and relevant. Related questions are generated, showing some connection to the main question and allowing for limited exploration.",
+      "The research question is well-defined and focused. Several related questions are generated, enhancing exploration and showing a clear connection to the main question.",
+      "The research question is insightful and focused, demonstrating a deep understanding of the topic. Numerous relevant and focused related questions are generated, allowing for multiple, well-defined avenues of exploration."
+    ],
+    [
+      "No sources are used, or sources are irrelevant to the research question.",
+      "One or two sources are superficially used with little to no analysis.",
+      "Several sources are used, but integration is weak, and analysis is basic and descriptive.",
+      "Several sources are integrated with some analysis, demonstrating an understanding of the source material.",
+      "Sources are thoughtfully integrated and analyzed, demonstrating a clear understanding of their relevance to the research question.",
+      "Sources are seamlessly integrated and insightfully analyzed, demonstrating a sophisticated understanding of their relevance and providing a nuanced perspective on the research question."
+    ],
+    [
+      "No evidence is presented, or reasoning is illogical.",
+      "Minimal evidence is presented with flawed reasoning.",
+      "Some evidence is presented, but reasoning is weak or unclear.",
+      "Adequate evidence is presented to support claims, and reasoning is generally sound.",
+      "Strong evidence is presented to support claims, and reasoning is logical and persuasive.",
+      "Compelling evidence is presented to support claims, and reasoning is sophisticated, insightful, and effectively addresses counterarguments."
+    ],
+    [
+      "The project is disorganized and difficult to understand.",
+      "The project lacks clear organization, making it difficult to follow.",
+      "The project has some organization, but clarity is lacking.",
+      "The project is generally clear and organized with a logical flow.",
+      "The project is well-organized and clearly presented, enhancing understanding.",
+      "The project is exceptionally clear, concise, and logically organized, demonstrating mastery of communication skills."
+    ]
+  ]
+}

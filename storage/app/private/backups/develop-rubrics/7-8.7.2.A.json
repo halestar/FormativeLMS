@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Positive Alternatives",
+    "Understanding of the Benefits of Positive Alternatives",
+    "Application of Alternatives in Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any alternatives to alcohol, tobacco, or other drugs.",
+      "Identifies one alternative with no explanation.",
+      "Identifies one alternative with a limited explanation.",
+      "Identifies two alternatives with basic explanations.",
+      "Identifies three alternatives with clear explanations.",
+      "Identifies multiple (3+) alternatives with detailed explanations and examples of how to implement them."
+    ],
+    [
+      "Shows no understanding of the benefits of choosing positive alternatives.",
+      "Demonstrates a limited understanding of one benefit.",
+      "Describes one benefit with some clarity.",
+      "Describes two benefits with reasonable clarity.",
+      "Explains three benefits clearly and accurately.",
+      "Clearly and accurately explains multiple benefits, including physical, mental, and social well-being."
+    ],
+    [
+      "Unable to apply alternatives to real-life scenarios involving the use of alcohol, tobacco, or other drugs.",
+      "Suggests an alternative that is impractical or unsafe in a given scenario.",
+      "Suggests a single, somewhat relevant alternative to a scenario.",
+      "Suggests two relevant alternatives to a scenario.",
+      "Suggests multiple relevant alternatives and explains their effectiveness.",
+      "Demonstrates a comprehensive understanding by suggesting multiple alternatives and adapting them effectively to various complex scenarios."
+    ]
+  ]
+}

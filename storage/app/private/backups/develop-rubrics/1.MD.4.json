@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Organization",
+    "Data Representation",
+    "Interpretation and Analysis",
+    "Answering Questions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to organize data or data is completely disorganized and incomprehensible.",
+      "Data is poorly organized with significant errors or omissions. Difficult to interpret.",
+      "Data is somewhat organized, but contains several errors or omissions, hindering interpretation.",
+      "Data is generally organized with minor errors or omissions. Interpretation is possible with some effort.",
+      "Data is well-organized with minimal errors. Easy to interpret and draw conclusions.",
+      "Data is exceptionally well-organized, accurate, and presented in a clear, concise manner. Interpretation is effortless."
+    ],
+    [
+      "No attempt to represent data, or representation is completely inappropriate and misleading.",
+      "Representation is poorly chosen and significantly distorts the data. Difficult to understand.",
+      "Representation is somewhat appropriate but contains flaws that hinder understanding.",
+      "Representation is generally appropriate but could be improved for clarity.",
+      "Representation is appropriate and clearly displays the data.",
+      "Representation is exceptionally clear, insightful, and enhances understanding of the data."
+    ],
+    [
+      "No attempt to interpret the data or interpretation is completely incorrect.",
+      "Interpretation demonstrates a very limited understanding of the data.",
+      "Interpretation demonstrates a partial understanding of the data but contains significant errors.",
+      "Interpretation demonstrates a basic understanding of the data but lacks depth or insight.",
+      "Interpretation is accurate and demonstrates a good understanding of the data and its implications.",
+      "Interpretation is insightful, comprehensive, and demonstrates a deep understanding of the data, drawing valid and well-supported conclusions."
+    ],
+    [
+      "Unable to answer any questions about the data.",
+      "Answers few questions, and most are incorrect.",
+      "Answers some questions with limited accuracy.",
+      "Answers most questions correctly with some minor errors.",
+      "Answers all questions correctly and completely.",
+      "Answers all questions correctly, completely, and provides insightful explanations."
+    ]
+  ]
+}

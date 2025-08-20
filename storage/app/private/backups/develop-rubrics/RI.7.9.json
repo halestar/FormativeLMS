@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Authors and Topic",
+    "Analysis of Differing Evidence",
+    "Analysis of Differing Interpretations",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify the authors or the common topic.",
+      "The student identifies the authors or the topic, but not both.",
+      "The student identifies the authors and the topic, but with some inaccuracies or lack of clarity.",
+      "The student accurately identifies the authors and the common topic.",
+      "The student accurately identifies the authors and common topic and demonstrates an understanding of the nuances involved.",
+      "The student accurately identifies the authors and common topic and provides insightful context about the authors' backgrounds or the topic's significance."
+    ],
+    [
+      "The student does not address how the authors use different evidence.",
+      "The student mentions that the authors use different evidence but provides no specific examples.",
+      "The student provides a superficial comparison of the evidence used by the authors.",
+      "The student analyzes how the authors use different evidence to support their claims, providing specific examples from the text.",
+      "The student thoroughly analyzes the differing evidence presented by each author, explaining how these choices contribute to their overall argument.",
+      "The student demonstrates a sophisticated understanding of why each author might choose to emphasize certain evidence over others, considering the intended audience and purpose."
+    ],
+    [
+      "The student does not address how the authors present different interpretations of facts.",
+      "The student mentions that the authors have different interpretations but provides no supporting details.",
+      "The student offers a basic comparison of the authors' interpretations.",
+      "The student analyzes how the authors interpret the facts differently, providing textual evidence to support their analysis.",
+      "The student thoroughly analyzes the contrasting interpretations, explaining how these differences shape the authors' overall message.",
+      "The student demonstrates a nuanced understanding of the factors that might influence the authors' interpretations, such as bias, perspective, or ideology."
+    ],
+    [
+      "The response is unclear, disorganized, and difficult to understand.",
+      "The response lacks clarity and organization in several areas.",
+      "The response is generally understandable but could benefit from improved clarity and organization.",
+      "The response is clear, organized, and easy to follow.",
+      "The response is well-organized, uses effective transitions, and presents ideas in a logical and coherent manner.",
+      "The response is exceptionally clear, concise, and well-organized, demonstrating a mastery of written communication."
+    ]
+  ]
+}

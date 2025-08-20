@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model",
+    "Explanation of Processes",
+    "Connection to Energy Flow",
+    "Use of Scientific Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of Earth's materials cycling.",
+      "The model contains significant inaccuracies and omissions, indicating a limited understanding of the processes involved.",
+      "The model has several inaccuracies or omissions, demonstrating a partial understanding of Earth's materials cycling.",
+      "The model is mostly accurate but may have a few minor inaccuracies or omissions. Shows a general understanding of the processes.",
+      "The model is accurate and includes most of the key processes involved in Earth's materials cycling.",
+      "The model is highly accurate, comprehensive, and clearly illustrates the cycling of Earth's materials and the flow of energy that drives the process."
+    ],
+    [
+      "No explanation of the processes is provided.",
+      "The explanation is minimal and lacks clarity, showing little understanding of the processes.",
+      "The explanation is vague and incomplete, demonstrating a limited understanding of the processes involved.",
+      "The explanation is adequate but lacks detail in describing the processes.",
+      "The explanation is clear and describes the processes of melting, crystallization, weathering, deformation, and sedimentation.",
+      "The explanation is detailed, insightful, and accurately describes how energy flow drives the cycling of Earth's materials through melting, crystallization, weathering, deformation, and sedimentation."
+    ],
+    [
+      "No connection is made between the cycling of Earth's materials and the flow of energy.",
+      "A weak or unclear connection is made between the cycling of Earth's materials and the flow of energy.",
+      "The connection between the cycling of Earth's materials and the flow of energy is superficial.",
+      "The connection between energy flow and material cycling is stated but not well-explained.",
+      "The connection between energy flow and material cycling is clearly explained.",
+      "The connection between energy flow and material cycling is thoroughly explained, demonstrating a deep understanding of the relationship."
+    ],
+    [
+      "Demonstrates no use of appropriate and relevant scientific terminology.",
+      "Demonstrates limited or incorrect use of scientific terminology.",
+      "Uses some scientific terminology, but inconsistently or with inaccuracies.",
+      "Uses appropriate scientific terminology most of the time, with few inaccuracies.",
+      "Uses appropriate scientific terminology correctly and consistently.",
+      "Uses scientific terminology precisely and effectively to enhance the explanation, demonstrating a strong command of scientific language."
+    ]
+  ]
+}

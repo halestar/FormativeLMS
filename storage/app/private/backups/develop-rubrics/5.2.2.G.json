@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Basic Heredity Concepts",
+    "Explanation of How Heredity Influences Growth",
+    "Explanation of How Heredity Influences Development",
+    "Use of Accurate Scientific Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of heredity is demonstrated.",
+      "Demonstrates a very limited understanding of heredity, with significant misconceptions.",
+      "Shows a basic understanding of heredity, but struggles to explain key concepts like genes and chromosomes.",
+      "Demonstrates a satisfactory understanding of heredity, including genes, chromosomes, and basic inheritance patterns.",
+      "Shows a strong understanding of heredity, explaining key concepts clearly and accurately.",
+      "Demonstrates a comprehensive understanding of heredity, including complex inheritance patterns and genetic variations."
+    ],
+    [
+      "No explanation of the influence of heredity on growth is provided.",
+      "Provides a very vague or inaccurate explanation of how heredity influences growth.",
+      "Attempts to explain the influence of heredity on growth, but lacks specific examples or details.",
+      "Explains how heredity influences growth, providing some examples like height or predisposition to certain conditions.",
+      "Clearly explains how heredity influences growth, providing specific and relevant examples.",
+      "Demonstrates a deep understanding of how heredity influences growth, including discussions of genetic and environmental interactions."
+    ],
+    [
+      "No explanation of the influence of heredity on development is provided.",
+      "Provides a very vague or inaccurate explanation of how heredity influences development.",
+      "Attempts to explain the influence of heredity on development, but lacks specific examples or details.",
+      "Explains how heredity influences development, providing some examples related to physical or cognitive milestones.",
+      "Clearly explains how heredity influences development, providing specific and relevant examples of developmental traits.",
+      "Demonstrates a deep understanding of how heredity influences development, including discussions of genetic predispositions and developmental outcomes."
+    ],
+    [
+      "Uses inaccurate or inappropriate terminology related to heredity, growth, and development.",
+      "Uses some accurate terminology, but also includes inaccuracies or vague language.",
+      "Uses generally accurate terminology, but may lack precision or depth.",
+      "Uses accurate scientific terminology related to heredity, growth, and development.",
+      "Uses precise and accurate scientific terminology throughout the explanation.",
+      "Demonstrates mastery of scientific terminology, using it effectively to explain complex concepts."
+    ]
+  ]
+}

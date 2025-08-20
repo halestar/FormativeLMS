@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to Locate and Identify Resources",
+    "Assessment of Resource Validity",
+    "Range and Diversity of Resources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to locate or identify any resources for first aid information and training.",
+      "Student can locate one resource but struggles to identify its purpose or relevance.",
+      "Student can locate a few resources but demonstrates difficulty in understanding their content or application.",
+      "Student can locate several resources and identify their basic purpose, but lacks depth in understanding their application.",
+      "Student can locate and identify a variety of resources, demonstrating a good understanding of their content and application.",
+      "Student skillfully locates and identifies a comprehensive range of resources, demonstrating a deep understanding of their content, specific applications, and limitations."
+    ],
+    [
+      "Student does not attempt to assess the validity of any resources.",
+      "Student attempts to assess validity but uses irrelevant or inappropriate criteria.",
+      "Student uses limited criteria to assess validity, with superficial justification.",
+      "Student uses some relevant criteria to assess validity, providing a basic justification for their assessment.",
+      "Student uses relevant criteria to assess validity, providing a clear and logical justification for their assessment.",
+      "Student thoroughly assesses the validity of resources using comprehensive, relevant criteria, providing insightful and well-supported justifications, and identifying potential biases or limitations."
+    ],
+    [
+      "Student uses no resources.",
+      "Student uses only one type of resource, such as only internet resources.",
+      "Student uses only 2 types of resources, such as school and community, but no internet.",
+      "Student uses some resources found in school, community and internet.",
+      "Student uses different resources found in school, community and internet.",
+      "Student uses a diverse and expansive array of resources from school, community, and the internet, demonstrating a comprehensive approach to information gathering."
+    ]
+  ]
+}

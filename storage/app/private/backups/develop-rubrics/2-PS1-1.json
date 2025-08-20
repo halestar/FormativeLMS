@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning and Conducting an Investigation",
+    "Description and Classification of Materials",
+    "Identification of Patterns",
+    "Data Representation and Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No investigation is planned or conducted.",
+      "An attempt to plan an investigation is made, but it lacks key elements or is not feasible.",
+      "An investigation is planned, but it has significant flaws that would impact the reliability of the data collected. The investigation is conducted with some guidance.",
+      "An investigation is planned with consideration for key variables and controls. The investigation is conducted with minimal guidance and some data is collected.",
+      "A well-reasoned investigation is planned that identifies key variables and controls. The investigation is conducted effectively, and sufficient data is collected.",
+      "A comprehensive and well-designed investigation is planned and executed independently. The data collected is thorough and reliable, demonstrating a clear understanding of experimental design."
+    ],
+    [
+      "No attempt is made to describe or classify materials based on their properties.",
+      "Materials are described or classified with minimal detail or accuracy.",
+      "Materials are described and classified using some observable properties, but the descriptions lack detail or accuracy.",
+      "Materials are described and classified with reasonable detail based on their observable properties, such as color, texture, hardness, and flexibility.",
+      "Materials are thoroughly described and accurately classified based on a range of observable properties, with clear explanations.",
+      "Materials are comprehensively described and accurately classified, including detailed explanations of the relationships between properties and material types. Demonstrates understanding beyond basic observable characteristics."
+    ],
+    [
+      "No patterns are identified in the properties of materials.",
+      "An attempt is made to identify patterns, but it is unsuccessful or inaccurate.",
+      "Some patterns are identified in the properties of materials, but they are superficial or lack supporting evidence.",
+      "Patterns in the properties of different materials are identified and described with some supporting evidence.",
+      "Clear patterns are identified and explained in the properties of different materials, with strong supporting evidence and logical reasoning.",
+      "Complex patterns and relationships are identified and analyzed in the properties of materials, demonstrating a deep understanding of underlying principles and insightful connections."
+    ],
+    [
+      "No data is represented or interpreted.",
+      "Data is represented in a way that is unclear or inaccurate. Interpretation is missing or incorrect.",
+      "Data is represented in a basic format (e.g., list), but it may be incomplete or have errors. Interpretation is attempted, but it is limited.",
+      "Data is represented using graphs or charts with appropriate labels and units. Interpretation of the data is provided, but may lack depth.",
+      "Data is accurately represented using appropriate graphs or charts. Interpretation of the data is thorough and insightful, with connections made to the investigation's purpose.",
+      "Data is presented using sophisticated visualizations. Interpretation is comprehensive and demonstrates a deep understanding of the data and its implications, going beyond the immediate scope of the investigation."
+    ]
+  ]
+}

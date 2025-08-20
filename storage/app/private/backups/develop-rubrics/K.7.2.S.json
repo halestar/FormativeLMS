@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of pedestrian safety rules and regulations.",
+    "Ability to identify safe crossing locations.",
+    "Demonstrates correct street-crossing procedure.",
+    "Awareness of potential hazards and defensive strategies."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of pedestrian safety rules.",
+      "Shows limited awareness of basic pedestrian safety rules.",
+      "Identifies some pedestrian safety rules but with inaccuracies.",
+      "Understands most pedestrian safety rules but misses some details.",
+      "Clearly understands pedestrian safety rules and regulations.",
+      "Demonstrates comprehensive understanding of pedestrian safety rules and regulations, including local laws."
+    ],
+    [
+      "Unable to identify any safe crossing locations.",
+      "Identifies crossing locations randomly without consideration for safety.",
+      "Identifies some safe crossing locations, but also includes unsafe locations.",
+      "Usually identifies safe crossing locations, but makes occasional errors.",
+      "Consistently identifies appropriate and safe crossing locations.",
+      "Expertly identifies the safest crossing locations considering multiple factors (visibility, traffic flow, signals)."
+    ],
+    [
+      "Does not demonstrate any safe street-crossing procedures.",
+      "Attempts street-crossing procedures unsafely and incorrectly.",
+      "Demonstrates some elements of safe crossing, but misses key steps.",
+      "Follows most of the safe crossing procedure with minor omissions.",
+      "Follows the complete safe crossing procedure correctly and consistently.",
+      "Executes safe street-crossing flawlessly, adapting to various conditions (e.g., traffic, weather)."
+    ],
+    [
+      "Shows no awareness of potential hazards while crossing the street.",
+      "Demonstrates minimal awareness of common hazards.",
+      "Recognizes some hazards but does not react appropriately.",
+      "Identifies most hazards and attempts some defensive strategies.",
+      "Consistently identifies hazards and employs effective defensive strategies.",
+      "Anticipates potential hazards and proactively uses defensive strategies to ensure safety in all situations."
+    ]
+  ]
+}

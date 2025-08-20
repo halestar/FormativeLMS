@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Dental Hygiene Practices",
+    "Explanation of Effective Personal Hygiene Practices",
+    "Connection between Hygiene and Overall Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any dental hygiene practices.",
+      "Identifies one basic dental hygiene practice incorrectly.",
+      "Identifies one basic dental hygiene practice correctly.",
+      "Identifies two dental hygiene practices correctly.",
+      "Identifies three dental hygiene practices correctly and provides a superficial explanation.",
+      "Identifies three dental hygiene practices correctly and provides detailed explanation."
+    ],
+    [
+      "Does not explain any personal hygiene practices.",
+      "Attempts to explain one hygiene practice but provides inaccurate information.",
+      "Explains one personal hygiene practice accurately.",
+      "Explains two personal hygiene practices accurately.",
+      "Explains three personal hygiene practices accurately but lacks depth.",
+      "Explains three personal hygiene practices accurately and in detail."
+    ],
+    [
+      "Fails to make any connection between hygiene and overall health.",
+      "Attempts to connect hygiene and health, but the explanation is unclear or incorrect.",
+      "Makes a basic connection between hygiene and overall health.",
+      "Explains how hygiene impacts either dental or personal health.",
+      "Explains how hygiene impacts both dental and personal health, but the explanation lacks depth.",
+      "Clearly explains how both dental and personal hygiene practices contribute to overall health, with specific examples."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Evidence for Plate Tectonics",
+    "Explanation of Plate Tectonics and Crustal Rock Ages",
+    "Evaluation of Arguments and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the evidence supporting the theory of plate tectonics is demonstrated.",
+      "Demonstrates a minimal understanding of evidence such as the fit of continents or basic earthquake\/volcano distributions, but lacks depth.",
+      "Identifies some evidence for plate tectonics (e.g., magnetic striping, seafloor spreading) but struggles to connect it to the movement of plates or ages of rocks.",
+      "Explains the connection between multiple pieces of evidence (e.g., seafloor spreading, subduction zones, ages of oceanic crust) and the movement of plates.",
+      "Evaluates evidence such as the increasing age of oceanic crust away from mid-ocean ridges or the decreasing age of continental crust away from ancient cores, linking it clearly to plate tectonics.",
+      "Critically evaluates multiple lines of evidence and explains how they converge to strongly support the theory of plate tectonics, including discussing the limitations of the evidence."
+    ],
+    [
+      "Unable to explain the relationship between plate tectonics and the ages of crustal rocks.",
+      "Offers a vague explanation, showing difficulty in connecting plate movements with the formation or ages of rocks.",
+      "Describes the basic processes of plate tectonics (e.g., subduction, divergence) but does not clearly link these processes to the age of crustal rocks.",
+      "Explains how plate tectonics processes (e.g., seafloor spreading at mid-ocean ridges, subduction) influence the creation and destruction of crustal rocks, affecting their ages.",
+      "Clearly explains how plate tectonics accounts for the differences in ages between continental and oceanic crust, referencing specific processes and locations.",
+      "Provides a comprehensive explanation of how plate tectonics explains the distribution of crustal rock ages globally, including nuanced details about different plate boundary types and their effects."
+    ],
+    [
+      "Unable to evaluate evidence or arguments related to plate tectonics.",
+      "Identifies basic claims or observations but does not attempt to evaluate their validity or relevance.",
+      "Describes evidence or arguments presented but offers a superficial evaluation.",
+      "Evaluates the strengths and weaknesses of evidence supporting the theory of plate tectonics, identifying potential sources of error or uncertainty.",
+      "Critically evaluates competing arguments or explanations, citing textual evidence to support their analysis and conclusions.",
+      "Demonstrates a sophisticated understanding of how to evaluate scientific arguments, considering multiple sources of information and identifying potential biases or limitations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Structural Elements",
+    "Analysis of Interrelationships",
+    "Understanding of the Text's Purpose"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any structural elements within the primary source.",
+      "Identifies only one basic structural element (e.g., paragraph) with no explanation of its function.",
+      "Identifies a few structural elements (e.g., sentences, paragraphs) but struggles to explain their individual contributions to the whole.",
+      "Identifies several key structural elements and provides a general explanation of their contributions to the overall text.",
+      "Identifies key structural elements (sentences, paragraphs, sections) and explains how each contributes to the development of the central ideas.",
+      "Provides a thorough and insightful analysis of how key sentences, paragraphs, and larger sections of the text contribute to the work as a whole, demonstrating a sophisticated understanding of the author's structural choices."
+    ],
+    [
+      "Shows no understanding of how the different parts of the text relate to one another.",
+      "Shows a limited and\/or inaccurate understanding of how different parts of the text relate to each other.",
+      "Describes relationships between some textual elements, but lacks depth of analysis.",
+      "Explains how some key sentences, paragraphs, and sections connect to each other, contributing to a central idea, but doesn't delve into the complexity of these connections.",
+      "Analyzes how the key parts of the primary source relate to one another and how those relationships shape meaning and achieve the author's purpose.",
+      "Provides a detailed and insightful analysis of the complex interrelationships between the text\u2019s structural elements, revealing subtle nuances and a deep comprehension of the text's architecture."
+    ],
+    [
+      "Demonstrates no understanding of the text's intended purpose or overall message.",
+      "Offers a vague or inaccurate interpretation of the text's purpose.",
+      "States the text's purpose in a superficial manner without supporting evidence.",
+      "Explains the text's primary purpose with some supporting evidence from the source.",
+      "Analyzes the author's purpose and explains how the structure of the text enhances the effectiveness of the message.",
+      "Demonstrates a sophisticated understanding of the text's purpose and the ways in which its structure strategically achieves this purpose, with strong textual support."
+    ]
+  ]
+}

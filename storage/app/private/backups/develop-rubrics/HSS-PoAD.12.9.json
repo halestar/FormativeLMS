@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Political Systems' Origins",
+    "Analysis of Characteristics of Political Systems",
+    "Evaluation of the Development of Political Systems",
+    "Understanding of the Quest for Political Democracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the origins of different political systems.",
+      "Shows a very limited understanding of the origins of political systems, with significant inaccuracies.",
+      "Displays a basic understanding of the origins of some political systems but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of the origins of several political systems, with some supporting details.",
+      "Exhibits a strong understanding of the origins of various political systems, including specific examples and historical context.",
+      "Shows a comprehensive and nuanced understanding of the origins of diverse political systems, demonstrating insightful analysis and synthesis."
+    ],
+    [
+      "Unable to identify or analyze any characteristics of political systems.",
+      "Identifies only a few basic characteristics of political systems, with little to no analysis.",
+      "Analyzes some characteristics of political systems, but the analysis is superficial and lacks supporting evidence.",
+      "Provides a satisfactory analysis of several characteristics of political systems, with some supporting evidence.",
+      "Offers a thorough and well-supported analysis of the key characteristics of different political systems.",
+      "Presents a sophisticated and insightful analysis of the complex characteristics of various political systems, demonstrating critical thinking."
+    ],
+    [
+      "Shows no understanding of how political systems develop over time.",
+      "Demonstrates a minimal understanding of the development of political systems, with significant gaps in knowledge.",
+      "Describes the development of some political systems but lacks a clear understanding of the underlying processes and factors.",
+      "Explains the development of several political systems, including some key factors and historical events.",
+      "Evaluates the development of various political systems, analyzing the key factors, events, and processes that shaped their evolution.",
+      "Provides a comprehensive and insightful evaluation of the development of diverse political systems, demonstrating a nuanced understanding of historical context and causal relationships."
+    ],
+    [
+      "Demonstrates no awareness of the quest for political democracy or its significance.",
+      "Shows a limited understanding of the quest for political democracy, with significant inaccuracies.",
+      "Describes the quest for political democracy in general terms but lacks specific examples and historical context.",
+      "Explains the quest for political democracy, including some key milestones and challenges.",
+      "Analyzes the quest for political democracy, examining its advances, obstacles, and ongoing relevance.",
+      "Presents a comprehensive and insightful analysis of the quest for political democracy, demonstrating a nuanced understanding of its historical significance and contemporary challenges."
+    ]
+  ]
+}

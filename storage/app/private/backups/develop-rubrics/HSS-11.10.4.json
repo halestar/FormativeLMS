@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Civil Rights Advocates",
+    "Understanding of Martin Luther King, Jr.'s Works",
+    "Contextualization within the Civil Rights Movement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any civil rights advocates.",
+      "The student identifies only one civil rights advocate without providing any details.",
+      "The student identifies at least two civil rights advocates, but the descriptions are vague and lack supporting information.",
+      "The student identifies at least three civil rights advocates and provides basic descriptions of their roles.",
+      "The student identifies multiple civil rights advocates, accurately describes their roles, and offers some context about their contributions.",
+      "The student comprehensively identifies and describes the roles and contributions of various civil rights advocates, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "The student demonstrates no understanding of Martin Luther King, Jr.'s \"Letter from Birmingham Jail\" or \"I Have a Dream\" speech.",
+      "The student mentions either the \"Letter from Birmingham Jail\" or \"I Have a Dream\" speech but cannot explain its significance.",
+      "The student identifies both the \"Letter from Birmingham Jail\" and \"I Have a Dream\" speech, providing a superficial explanation of their meaning.",
+      "The student explains the main ideas of both the \"Letter from Birmingham Jail\" and \"I Have a Dream\" speech and their context within the Civil Rights Movement.",
+      "The student analyzes the key themes and arguments in both the \"Letter from Birmingham Jail\" and \"I Have a Dream\" speech, connecting them to broader issues of civil rights.",
+      "The student offers a sophisticated analysis of the historical and rhetorical significance of both the \"Letter from Birmingham Jail\" and \"I Have a Dream\" speech, demonstrating a nuanced understanding of their lasting impact."
+    ],
+    [
+      "The student shows no understanding of the broader Civil Rights Movement.",
+      "The student mentions the Civil Rights Movement but does not connect it to the advocates or King's works.",
+      "The student vaguely connects the advocates and King's works to the Civil Rights Movement.",
+      "The student explains how the advocates and King's works fit within the timeline and goals of the Civil Rights Movement.",
+      "The student analyzes the strategies and challenges faced by civil rights advocates within the context of the Civil Rights Movement.",
+      "The student synthesizes information to provide a comprehensive overview of the Civil Rights Movement, highlighting the interconnectedness of various advocates, events, and ideas."
+    ]
+  ]
+}

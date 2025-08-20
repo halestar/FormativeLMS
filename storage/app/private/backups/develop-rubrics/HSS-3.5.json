@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Basic Economic Principles",
+    "Application of Economic Reasoning to Local Region",
+    "Use of Economic Vocabulary",
+    "Data Interpretation and Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic economic principles such as supply and demand, opportunity cost, or scarcity.",
+      "Demonstrates a very limited understanding of basic economic principles, with significant misconceptions.",
+      "Demonstrates a partial understanding of basic economic principles but struggles to apply them correctly.",
+      "Demonstrates a satisfactory understanding of basic economic principles and can apply them in simple scenarios.",
+      "Demonstrates a strong understanding of basic economic principles and can apply them effectively in various scenarios.",
+      "Demonstrates a comprehensive understanding of basic economic principles and can apply them insightfully to complex scenarios."
+    ],
+    [
+      "Unable to apply any economic reasoning to the local region.",
+      "Struggles to apply economic reasoning to the local region and demonstrates significant misunderstandings.",
+      "Applies economic reasoning to the local region with limited success and frequent errors.",
+      "Satisfactorily applies economic reasoning to the local region, identifying some key economic factors.",
+      "Effectively applies economic reasoning to the local region, analyzing key economic factors and their interrelationships.",
+      "Insightfully applies economic reasoning to the local region, providing a comprehensive analysis of the local economy with well-supported arguments."
+    ],
+    [
+      "Does not use appropriate economic vocabulary.",
+      "Uses very limited economic vocabulary, often incorrectly.",
+      "Uses some economic vocabulary, but with frequent errors and imprecision.",
+      "Uses appropriate economic vocabulary with reasonable accuracy.",
+      "Uses a wide range of economic vocabulary accurately and effectively.",
+      "Uses sophisticated economic vocabulary precisely and insightfully."
+    ],
+    [
+      "Unable to interpret or analyze economic data related to the local region.",
+      "Struggles to interpret or analyze economic data, drawing incorrect conclusions.",
+      "Interprets and analyzes economic data with limited success, making some valid observations.",
+      "Satisfactorily interprets and analyzes economic data, identifying key trends and patterns.",
+      "Effectively interprets and analyzes economic data, drawing well-supported conclusions about the local economy.",
+      "Insightfully interprets and analyzes economic data, providing a nuanced understanding of the local economy with sophisticated analysis."
+    ]
+  ]
+}

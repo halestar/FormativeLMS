@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Cultural Influences",
+    "Analysis of Media Impact",
+    "Evaluation of Technology's Role",
+    "Integration of Factors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any cultural influences on health decisions.",
+      "Identifies a cultural influence but does not explain its impact.",
+      "Identifies and briefly explains how one cultural factor influences health decisions.",
+      "Explains how multiple cultural factors influence health decisions with some depth.",
+      "Analyzes in detail how various cultural factors significantly shape health decisions, providing specific examples.",
+      "Demonstrates sophisticated understanding of the complex interplay between cultural norms and health decisions, offering nuanced examples and insights."
+    ],
+    [
+      "Fails to recognize the influence of media on health decisions.",
+      "Acknowledges media influence but does not provide any explanation.",
+      "Briefly describes how media can affect health choices without significant analysis.",
+      "Explains how different types of media (e.g., advertising, news) influence health decisions.",
+      "Critically analyzes the strategies used by media to influence health decisions, including examples of bias or manipulation.",
+      "Offers a comprehensive critique of media's role in shaping health perceptions and decisions, including ethical considerations and potential biases, providing original insights."
+    ],
+    [
+      "Does not mention the role of technology in health decisions.",
+      "Mentions technology but does not explain its impact on health.",
+      "Describes how technology can affect health choices, such as through apps or online information.",
+      "Explains both positive and negative impacts of technology on health decisions.",
+      "Analyzes the implications of technology on health access, privacy, and the quality of health information.",
+      "Demonstrates a nuanced understanding of technology's transformative role in healthcare, including a critical evaluation of its benefits and challenges, proposing innovative solutions for responsible use."
+    ],
+    [
+      "Treats culture, media, and technology as separate entities without recognizing their connections.",
+      "Acknowledges that these factors can influence health decisions independently.",
+      "Makes simple connections between culture, media, or technology in the context of health decisions.",
+      "Explains how two of these elements interact to influence health decisions.",
+      "Analyzes how culture, media, and technology intersect and collectively shape health decisions.",
+      "Demonstrates a holistic understanding of how culture, media, and technology dynamically interact to influence health decisions, synthesizing complex relationships and offering predictive insights."
+    ]
+  ]
+}

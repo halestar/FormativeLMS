@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Mathematical Representation & Explanation of Carrying Capacity Factors",
+    "Analysis and Comparison of Relationships Among Interdependent Factors",
+    "Understanding Scale, Proportion, and Quantity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use mathematical or computational representations.",
+      "Uses mathematical representations with no connection to carrying capacity.",
+      "Uses mathematical representations with a weak connection to carrying capacity, explanation is missing or inaccurate.",
+      "Uses mathematical representations to partially explain factors affecting carrying capacity, explanation has minor gaps.",
+      "Uses appropriate mathematical representations to clearly explain factors affecting carrying capacity at different scales.",
+      "Uses sophisticated mathematical representations to comprehensively explain factors affecting carrying capacity at different scales, demonstrating a deep understanding of interdependent factors."
+    ],
+    [
+      "No analysis or comparison of factors is presented.",
+      "Attempts to list factors, but shows no analysis of relationship.",
+      "Identifies some factors, but provides a superficial analysis of relationships.",
+      "Analyzes relationships among several factors with some evidence.",
+      "Provides a detailed analysis of the relationships among interdependent factors, including resources, climate, and competition.",
+      "Demonstrates a sophisticated understanding of relationships by connecting the factors to specific data (historical or simulated) and drawing insightful conclusions."
+    ],
+    [
+      "Does not demonstrate understanding of scale, proportion, or quantity.",
+      "Demonstrates a limited awareness of scale, proportion, or quantity, but does not relate it to the explanation.",
+      "Attempts to address scale, proportion, or quantity, but explanation is unclear or inaccurate.",
+      "Adequately addresses scale, proportion, and quantity in the explanation of carrying capacity.",
+      "Clearly explains the significance of scale, proportion, and quantity in relation to carrying capacity and ecosystem dynamics.",
+      "Exhibits a nuanced understanding of how scale, proportion, and quantity influence the significance of carrying capacity, and applies this understanding to make predictions or solve complex problems."
+    ]
+  ]
+}

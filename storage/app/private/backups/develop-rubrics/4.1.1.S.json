@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identification of Fire Hazards",
+    "Recognition of Water-Related Dangers",
+    "Awareness of Dangers from Objects",
+    "Understanding Safety When Home Alone",
+    "Knowledge of Internet Safety Hazards"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any fire hazards.",
+      "Identifies only one basic fire hazard.",
+      "Identifies some common fire hazards but misses key dangers.",
+      "Identifies most common fire hazards with some detail.",
+      "Clearly identifies common fire hazards and explains preventative measures.",
+      "Comprehensively identifies fire hazards, explains prevention, and suggests advanced safety measures."
+    ],
+    [
+      "Fails to recognize any water-related safety issues.",
+      "Identifies one basic water hazard.",
+      "Identifies some water hazards but misses important considerations (e.g., electrical appliances).",
+      "Identifies most common water hazards and offers basic safety advice.",
+      "Clearly identifies water hazards and explains appropriate safety practices.",
+      "Thoroughly identifies water hazards, explains safety measures, and includes advanced scenarios (e.g., flood preparedness)."
+    ],
+    [
+      "Shows no awareness of dangers from objects.",
+      "Identifies one basic object-related hazard.",
+      "Identifies some object-related hazards but misses important ones (e.g., chemicals).",
+      "Identifies most common object-related hazards and offers basic safety advice.",
+      "Clearly identifies dangers from objects and explains appropriate safety practices.",
+      "Comprehensively identifies object-related dangers, explains safety, and includes less obvious hazards (e.g., ergonomic risks)."
+    ],
+    [
+      "Does not address any safety concerns related to being home alone.",
+      "Identifies one basic safety rule for being home alone.",
+      "Identifies some safety rules but misses key considerations (e.g., not opening the door to strangers).",
+      "Identifies most common safety rules for being home alone and offers basic advice.",
+      "Clearly identifies safety rules for being home alone and explains appropriate actions.",
+      "Thoroughly identifies safety rules for being home alone, explains actions, and includes emergency protocols."
+    ],
+    [
+      "Demonstrates no awareness of internet safety hazards.",
+      "Identifies one basic internet safety rule.",
+      "Identifies some internet safety rules but misses important considerations (e.g., phishing).",
+      "Identifies most common internet safety rules and offers basic advice.",
+      "Clearly identifies internet safety hazards and explains appropriate online behavior.",
+      "Comprehensively identifies internet safety hazards, explains online behavior, and includes advanced topics like cyberbullying and privacy settings."
+    ]
+  ]
+}

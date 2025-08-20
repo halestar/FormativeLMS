@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy in Naming Shapes",
+    "Application of Shape Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not correctly name any shapes, regardless of orientation or size.",
+      "Correctly names only the most basic shapes (square, circle, triangle) in standard orientations.",
+      "Correctly names basic shapes and some other shapes (rectangle, hexagon) but struggles with variations in orientation or size.",
+      "Correctly identifies most shapes, including variations in orientation and size, with occasional errors.",
+      "Consistently and correctly names almost all shapes, demonstrating a strong understanding of geometric properties.",
+      "Perfectly names all shapes, regardless of orientation, size, or complexity, demonstrating comprehensive understanding."
+    ],
+    [
+      "Unable to identify shapes in real-world objects or contexts.",
+      "Can identify very basic shapes in simple, obvious real-world examples.",
+      "Identifies basic and some other shapes in straightforward real-world contexts, but struggles with more complex examples.",
+      "Applies knowledge of shapes to identify them in a variety of real-world contexts with some prompting.",
+      "Demonstrates the ability to identify shapes in complex real-world contexts with limited prompting.",
+      "Independently and accurately identifies shapes in complex and abstract real-world contexts, demonstrating a deep understanding of shape properties and their application."
+    ]
+  ]
+}

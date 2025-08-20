@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity of Claims and Findings",
+    "Use of Evidence and Support",
+    "Organization and Cohesion",
+    "Delivery and Presentation Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The presentation lacks a clear claim or findings; it is disorganized and difficult to follow.",
+      "The presentation includes a claim, but it is vague and not well-supported. The organization is weak, and the audience struggles to understand the main points.",
+      "The presentation presents a claim or findings, but lacks focus and coherence. Some descriptions, facts, details, or examples are present, but not pertinent.",
+      "The presentation presents claims and findings with some focus and coherence, including descriptions, facts, details, and examples that are mostly pertinent.",
+      "The presentation clearly presents claims and findings in a focused and coherent manner. Pertinent descriptions, facts, details, and examples are used to emphasize salient points.",
+      "The presentation skillfully presents claims and findings, emphasizing salient points in a highly focused, coherent, and engaging manner with pertinent descriptions, facts, details, and examples that enhance understanding."
+    ],
+    [
+      "No evidence is presented to support claims.",
+      "Minimal and\/or irrelevant evidence is presented; claims are largely unsupported.",
+      "Some evidence is presented, but it is weak or not clearly connected to the claims.",
+      "Adequate evidence is presented to support most claims, but some connections could be stronger.",
+      "Strong evidence is presented to support claims, with clear explanations of how the evidence relates to the claims.",
+      "Compelling and thoroughly explained evidence is strategically used to support claims, demonstrating a deep understanding of the topic."
+    ],
+    [
+      "The argument lacks organization and is difficult to follow. There is no logical structure.",
+      "The argument has a weak organizational structure, making it difficult to follow the line of reasoning.",
+      "The argument has some organization, but transitions are weak, and the overall structure is not always clear.",
+      "The argument is generally well-organized with logical progression, but some transitions could be smoother.",
+      "The argument is logically organized with clear transitions, making it easy to follow the line of reasoning.",
+      "The argument is exceptionally well-organized with seamless transitions, creating a compelling and persuasive presentation."
+    ],
+    [
+      "Eye contact is minimal, volume is inadequate, and pronunciation is unclear, significantly hindering the audience's understanding.",
+      "Eye contact is limited, volume is inconsistent, and pronunciation is sometimes unclear, affecting the audience's engagement.",
+      "Eye contact is present but not consistent, volume is generally adequate, and pronunciation is mostly clear.",
+      "Eye contact is adequate, volume is appropriate for the setting, and pronunciation is clear, enhancing the audience's understanding.",
+      "Effective eye contact is maintained, volume is well-modulated, and pronunciation is consistently clear, engaging the audience.",
+      "Exceptional delivery with confident eye contact, controlled volume, and articulate pronunciation, captivating the audience and enhancing the message's impact."
+    ]
+  ]
+}

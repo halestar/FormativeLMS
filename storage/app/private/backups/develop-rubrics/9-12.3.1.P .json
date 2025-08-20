@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify and locate personal health products and services.",
+    "Ability to assess the validity of information about health products and services.",
+    "Knowledge of community resources for personal health."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any personal health products or services.",
+      "Student can identify at least one personal health product or service but cannot locate it.",
+      "Student can identify and locate at least one personal health product or service.",
+      "Student can identify and locate several personal health products and services, but struggles with accuracy.",
+      "Student can accurately identify and locate several personal health products and services.",
+      "Student can accurately identify and locate a comprehensive range of personal health products and services and can explain their purpose."
+    ],
+    [
+      "Student cannot assess the validity of any health information.",
+      "Student can attempt to assess the validity of health information but provides no justification.",
+      "Student can identify basic aspects of validity (e.g., source) for at least one information source.",
+      "Student can use several aspects of validity (e.g. source, date, author) to assess at least one information source.",
+      "Student consistently uses multiple criteria to assess the validity of information from various sources.",
+      "Student thoroughly assesses the validity of health information, explaining nuances and potential biases, and suggests strategies for further verification."
+    ],
+    [
+      "Student is unaware of any community health resources.",
+      "Student knows of at least one community health resource but cannot describe its purpose.",
+      "Student can describe the purpose of at least one community health resource.",
+      "Student is aware of multiple community health resources and can describe their general purposes.",
+      "Student demonstrates good knowledge of several specific community health resources, including services offered and contact information.",
+      "Student has extensive knowledge of community health resources, including eligibility requirements, costs, and alternative resources."
+    ]
+  ]
+}

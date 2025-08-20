@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of the Huang-He Valley as the Origin of Chinese Civilization",
+    "Description of the Shang Dynasty's Location and Time Period",
+    "Understanding of the Significance of the Huang-He Valley"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify the Huang-He Valley.",
+      "Student mentions the Huang-He Valley but does not connect it to Chinese civilization.",
+      "Student vaguely identifies the Huang-He Valley as related to early Chinese civilization.",
+      "Student correctly identifies the Huang-He Valley as a significant site for early Chinese civilization.",
+      "Student clearly identifies the Huang-He Valley as the origin of Chinese civilization and explains its importance.",
+      "Student thoroughly explains the significance of the Huang-He Valley as the cradle of Chinese civilization, including geographical factors."
+    ],
+    [
+      "Student does not mention the Shang Dynasty.",
+      "Student mentions the Shang Dynasty but provides no information about its location or time period.",
+      "Student vaguely mentions the Shang Dynasty's time or location.",
+      "Student provides a general timeframe and location for the Shang Dynasty.",
+      "Student accurately describes the location of the Shang Dynasty within the Huang-He Valley and provides a more specific time period.",
+      "Student provides a detailed account of the Shang Dynasty's geographical location within the Huang-He Valley and its chronological placement, referencing key dates or events."
+    ],
+    [
+      "Student shows no understanding of why the Huang-He Valley was important.",
+      "Student attempts to explain the importance of the Huang-He Valley but is inaccurate or irrelevant.",
+      "Student vaguely mentions the importance of the Huang-He Valley but lacks specifics.",
+      "Student identifies at least one reason why the Huang-He Valley was important (e.g., fertile land, water source).",
+      "Student explains multiple reasons why the Huang-He Valley was crucial for the development of the Shang Dynasty and early Chinese civilization.",
+      "Student comprehensively analyzes the geographic and environmental factors of the Huang-He Valley that facilitated the rise of the Shang Dynasty, demonstrating a nuanced understanding of its significance."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Mythological\/Traditional Elements: How accurately does the student identify themes, patterns of events, or character types from myths, traditional stories, or religious works present in the modern work?",
+    "Analysis of Transformation: How well does the student analyze how the identified elements are rendered new or transformed in the modern work?",
+    "Connection to Modern Work: How effectively does the student connect the identified mythological\/traditional elements to the overall meaning or impact of the modern work?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any themes, patterns, or character types from myths, traditional stories, or religious works in the modern work.",
+      "The student identifies one or more themes, patterns, or character types with inaccuracy.",
+      "The student identifies one theme, pattern, or character type from myths, traditional stories, or religious works present in the modern work.",
+      "The student identifies multiple themes, patterns, or character types from myths, traditional stories, or religious works present in the modern work, but with superficial explanations.",
+      "The student accurately identifies multiple themes, patterns of events, or character types from myths, traditional stories, or religious works present in the modern work, providing clear explanations.",
+      "The student accurately and comprehensively identifies multiple themes, patterns of events, or character types from myths, traditional stories, or religious works present in the modern work, providing insightful explanations and examples."
+    ],
+    [
+      "The student does not address how the identified elements are rendered new in the modern work.",
+      "The student attempts to describe how the elements are rendered new but demonstrates misunderstanding.",
+      "The student superficially describes how the identified elements are rendered new in the modern work.",
+      "The student provides a satisfactory analysis of how the identified elements are rendered new, but lacks depth.",
+      "The student provides a clear and detailed analysis of how the identified elements are rendered new, discussing specific techniques and their effects.",
+      "The student provides an insightful and comprehensive analysis of how the identified elements are rendered new, demonstrating a nuanced understanding of the author's choices and their impact on meaning."
+    ],
+    [
+      "The student fails to connect the identified elements to the modern work's meaning or impact.",
+      "The student attempts to connect the identified elements, but the connection is vague or unsupported.",
+      "The student makes a basic connection between the identified elements and the modern work's meaning, but lacks detail.",
+      "The student provides a relevant connection between the identified elements and the modern work's meaning, offering some supporting evidence.",
+      "The student effectively connects the identified elements to the modern work's meaning, providing strong supporting evidence and logical reasoning.",
+      "The student expertly connects the identified elements to the modern work's meaning, demonstrating a sophisticated understanding of how these elements contribute to the work's themes, character development, or overall impact, offering compelling evidence and insightful analysis."
+    ]
+  ]
+}

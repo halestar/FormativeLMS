@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in Calculations",
+    "Problem-Solving Strategies",
+    "Use of Units and Notation",
+    "Real-World Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student makes significant errors in calculations, demonstrating little to no understanding of monetary values.",
+      "The student struggles with calculations, often making errors that indicate a limited understanding of monetary values.",
+      "The student makes some errors in calculations, but generally shows a basic understanding of monetary values.",
+      "The student performs calculations with reasonable accuracy, demonstrating a solid understanding of monetary values and their relationships.",
+      "The student performs calculations accurately and efficiently, demonstrating a strong understanding of monetary values and their relationships.",
+      "The student performs calculations flawlessly, demonstrating a comprehensive understanding of monetary values and their relationships with clear and logical steps."
+    ],
+    [
+      "The student is unable to apply appropriate problem-solving strategies and cannot set up the problem.",
+      "The student attempts to apply problem-solving strategies but struggles to set up the problem or use the correct operations.",
+      "The student applies basic problem-solving strategies with some success but may struggle with more complex problems.",
+      "The student effectively applies appropriate problem-solving strategies and can set up equations to solve most problems.",
+      "The student demonstrates strong problem-solving skills, using efficient strategies and setting up equations correctly for all problems.",
+      "The student demonstrates exceptional problem-solving skills, using innovative strategies and providing clear justifications for their approaches with equations or models."
+    ],
+    [
+      "The student does not use correct units or notation ($, \u00a2) when expressing monetary values.",
+      "The student inconsistently uses correct units and notation, leading to confusion in the solution.",
+      "The student generally uses correct units and notation, but there may be occasional errors or omissions.",
+      "The student consistently uses correct units and notation to clearly express monetary values.",
+      "The student uses units and notation precisely and consistently, enhancing the clarity and accuracy of their solutions.",
+      "The student's use of units and notation is impeccable, demonstrating a thorough understanding of monetary conventions and enhancing the overall presentation."
+    ],
+    [
+      "The student fails to relate the problem to real-world scenarios or demonstrate an understanding of practical applications.",
+      "The student struggles to connect the problem to real-world scenarios and shows limited understanding of practical applications.",
+      "The student makes some connections to real-world scenarios but may not fully grasp the practical implications.",
+      "The student effectively relates the problem to real-world scenarios and demonstrates a good understanding of practical applications.",
+      "The student demonstrates a strong ability to apply the concept to various real-world scenarios, showing a deep understanding of practical applications.",
+      "The student provides insightful examples of real-world applications, demonstrating a comprehensive understanding of the practical implications and nuances of monetary problem-solving."
+    ]
+  ]
+}

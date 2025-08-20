@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Verbal Refusal Skills",
+    "Nonverbal Refusal Skills",
+    "Resistance to Peer Pressure"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to use verbal refusal skills or uses them ineffectively, leading to increased pressure.",
+      "Student attempts to use verbal refusal skills but struggles to articulate a clear and assertive refusal.",
+      "Student demonstrates basic verbal refusal skills but may hesitate or provide weak excuses.",
+      "Student clearly articulates refusal, providing reasons and avoiding direct confrontation effectively.",
+      "Student confidently and assertively uses verbal refusal skills, providing strong reasons and setting clear boundaries.",
+      "Student skillfully and persuasively uses verbal refusal skills, adapting their approach to different situations and maintaining a firm stance."
+    ],
+    [
+      "Student's nonverbal cues contradict their verbal refusal, indicating discomfort or uncertainty.",
+      "Student shows minimal awareness of nonverbal cues, with body language not supporting their verbal refusal.",
+      "Student attempts to use nonverbal cues but struggles to maintain consistent and assertive body language.",
+      "Student's nonverbal cues generally support their verbal refusal, conveying confidence and determination.",
+      "Student effectively uses nonverbal cues to reinforce their verbal refusal, maintaining eye contact, posture, and tone.",
+      "Student masterfully uses nonverbal cues to assert their refusal, projecting confidence and resolve while remaining respectful."
+    ],
+    [
+      "Student immediately succumbs to peer pressure and engages in the risky behavior without resistance.",
+      "Student shows initial resistance but quickly gives in to peer pressure with minimal effort.",
+      "Student resists peer pressure for a short time but eventually succumbs, showing a lack of confidence.",
+      "Student resists peer pressure effectively, using refusal skills to avoid engaging in risky behavior.",
+      "Student confidently resists peer pressure, setting boundaries and influencing peers to make healthier choices.",
+      "Student empowers others to resist peer pressure, becoming a role model for making positive choices and promoting a culture of resistance."
+    ]
+  ]
+}

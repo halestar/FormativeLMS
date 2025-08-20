@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Healthy Eating Choices",
+    "Application of Healthy Eating Choices in Social Settings",
+    "Understanding of Nutritional Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any healthy eating choices.",
+      "Identifies one or two healthy eating choices with significant inaccuracies.",
+      "Identifies some healthy eating choices but demonstrates a limited understanding of their benefits.",
+      "Identifies several healthy eating choices and shows a basic understanding of their benefits.",
+      "Identifies most healthy eating choices accurately and explains their benefits with some detail.",
+      "Consistently identifies a wide range of healthy eating choices and thoroughly explains their benefits and impact on health."
+    ],
+    [
+      "Unable to suggest healthy eating choices within friend and family contexts.",
+      "Suggests healthy eating choices with prompting but struggles to adapt them to social situations.",
+      "Suggests healthy eating choices in some social settings, but lacks consistency or adaptability.",
+      "Suggests healthy eating choices in common social settings, adapting choices reasonably well to the context.",
+      "Proactively suggests and adapts healthy eating choices in various social settings, demonstrating good awareness of social dynamics.",
+      "Expertly integrates and promotes healthy eating choices within diverse social settings, positively influencing friends and family."
+    ],
+    [
+      "Demonstrates no understanding of nutritional information (e.g., calories, macros, vitamins).",
+      "Demonstrates minimal understanding of nutritional information with significant misconceptions.",
+      "Understands basic nutritional information but struggles to apply it to food choices.",
+      "Understands and applies nutritional information to make some informed food choices.",
+      "Demonstrates a strong understanding of nutritional information and uses it to consistently make healthy food choices.",
+      "Demonstrates comprehensive understanding of nutritional information and uses it to optimize food choices for health and well-being, educating others in the process."
+    ]
+  ]
+}

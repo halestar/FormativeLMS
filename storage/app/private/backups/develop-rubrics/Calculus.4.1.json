@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the derivative as the slope of the tangent line.",
+    "Ability to calculate the derivative at a specific point and relate it to the tangent line.",
+    "Application of derivatives in real-world scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of derivatives or tangent lines.",
+      "Student shows minimal understanding, unable to connect derivatives to tangent lines.",
+      "Student can identify derivatives and tangent lines but struggles to explain the relationship.",
+      "Student understands that the derivative is related to the tangent line's slope but has some inaccuracies in their explanation.",
+      "Student accurately explains the relationship between the derivative and the slope of the tangent line with minor errors.",
+      "Student clearly and accurately explains the relationship between the derivative and the slope of the tangent line, demonstrating a strong understanding."
+    ],
+    [
+      "Student is unable to calculate derivatives or find the slope of a tangent line.",
+      "Student attempts to calculate derivatives but makes significant errors, unable to find tangent line slopes.",
+      "Student can calculate simple derivatives but struggles with more complex functions, showing limited ability to find tangent line slopes.",
+      "Student can calculate derivatives for many functions and finds tangent line slopes with occasional errors.",
+      "Student consistently calculates derivatives correctly and accurately finds tangent line slopes.",
+      "Student demonstrates mastery in calculating derivatives and finding tangent line slopes, including for complex functions."
+    ],
+    [
+      "Student cannot apply derivatives to solve problems in real-world scenarios.",
+      "Student attempts to apply derivatives but is unsuccessful in solving real-world problems.",
+      "Student can identify some real-world applications of derivatives but struggles to solve them effectively.",
+      "Student applies derivatives to solve some real-world problems but needs guidance.",
+      "Student applies derivatives to effectively solve real-world problems with minimal errors.",
+      "Student expertly applies derivatives to solve complex real-world problems, demonstrating a deep understanding."
+    ]
+  ]
+}

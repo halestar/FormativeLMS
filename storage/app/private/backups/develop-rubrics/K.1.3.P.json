@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of Definition",
+    "Understanding of Germ Types and Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not provide a definition for germs or the definition is completely inaccurate.",
+      "The student attempts to define germs, but the definition is very vague and contains significant inaccuracies.",
+      "The student provides a basic definition of germs but misses key components or includes minor inaccuracies.",
+      "The student provides a reasonably accurate definition of germs, covering most key aspects.",
+      "The student provides a comprehensive and accurate definition of germs, demonstrating a solid understanding.",
+      "The student provides an exceptionally clear, accurate, and thorough definition of germs, showing a deep understanding and potentially including relevant examples or context."
+    ],
+    [
+      "The student demonstrates no understanding of different types of germs (e.g., bacteria, viruses) or cannot provide any examples.",
+      "The student shows a limited awareness of different types of germs but struggles to name or differentiate them.",
+      "The student can name a few types of germs but has difficulty providing accurate examples or explaining their differences.",
+      "The student identifies several types of germs and provides some accurate examples, showing a basic understanding of their diversity.",
+      "The student clearly explains different types of germs with accurate examples, demonstrating a good understanding of their characteristics.",
+      "The student provides a detailed and nuanced explanation of various types of germs, including specific examples and their impact on health, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

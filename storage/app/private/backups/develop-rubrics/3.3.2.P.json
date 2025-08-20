@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Resources",
+    "Understanding of Threat and Need for Help",
+    "Clarity and Accuracy of Description"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any resources or demonstrates a lack of understanding of available help.",
+      "Identifies one potential resource but provides no details or explanation.",
+      "Identifies at least one resource and provides a vague or incomplete description of how to access it.",
+      "Identifies two or more resources and provides a basic description of how to access them.",
+      "Identifies multiple relevant resources and clearly describes the steps to access help, including contact information or specific procedures.",
+      "Identifies a comprehensive list of resources, clearly explains how to access each, and demonstrates an understanding of when and why each resource would be appropriate."
+    ],
+    [
+      "Shows no recognition of feeling threatened or the need to seek help.",
+      "Acknowledges feeling threatened but does not explain why or when help is needed.",
+      "Demonstrates a limited understanding of situations where one might feel threatened and vaguely suggests the need for help.",
+      "Describes common scenarios where individuals may feel threatened and explains the importance of seeking help.",
+      "Articulates a nuanced understanding of various threatening situations, including emotional, physical, and social threats, and clearly explains the necessity of accessing help.",
+      "Demonstrates a sophisticated understanding of threats, explains the importance of seeking help in various contexts, and recognizes potential barriers to seeking help."
+    ],
+    [
+      "Description is unclear, inaccurate, or missing.",
+      "Description contains significant inaccuracies and is difficult to understand.",
+      "Description is somewhat clear but contains some inaccuracies or omissions.",
+      "Description is generally clear and accurate but may lack detail or specificity.",
+      "Description is clear, accurate, and provides sufficient detail to understand how to access help.",
+      "Description is exceptionally clear, accurate, and comprehensive, demonstrating a thorough understanding of the process of accessing help."
+    ]
+  ]
+}

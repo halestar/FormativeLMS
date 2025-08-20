@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Following Procedures",
+    "Attention to Detail and Special Cases",
+    "Clarity and Precision in Measurements\/Tasks"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not follow the procedure or makes significant errors that invalidate the outcome.",
+      "The student attempts to follow the procedure but makes several critical errors, showing a lack of understanding of the steps involved.",
+      "The student follows most of the procedure but makes some noticeable errors or omissions, indicating partial understanding.",
+      "The student follows the procedure with minor errors or omissions that do not significantly affect the outcome.",
+      "The student accurately follows the procedure with minimal errors, demonstrating a strong understanding of the steps and their sequence.",
+      "The student flawlessly executes the procedure, demonstrating a comprehensive understanding of each step, including special cases or exceptions, leading to accurate and reliable results."
+    ],
+    [
+      "The student overlooks critical details and ignores special cases or exceptions mentioned in the procedure.",
+      "The student struggles to identify and address special cases or exceptions, missing important details that affect the procedure's outcome.",
+      "The student identifies some special cases or exceptions but does not address them effectively, leading to inconsistencies in the results.",
+      "The student generally pays attention to detail and addresses most special cases or exceptions, with minor oversights.",
+      "The student demonstrates careful attention to detail, consistently addresses special cases or exceptions as defined in the text, and ensures accuracy in the procedure.",
+      "The student demonstrates exceptional attention to detail, proactively identifies and addresses all special cases or exceptions with precision, and optimizes the procedure for accuracy and efficiency."
+    ],
+    [
+      "Measurements are not taken, or tasks are not performed. Data is absent or completely inaccurate.",
+      "Measurements\/tasks are attempted, but are largely inaccurate and lack precision, indicating a poor understanding of required techniques.",
+      "Measurements\/tasks are taken\/performed with some accuracy, but significant improvements are needed in precision and technique.",
+      "Measurements\/tasks are generally accurate and performed with reasonable precision; minor improvements could enhance reliability.",
+      "Measurements\/tasks are consistently accurate and performed with a high degree of precision, reflecting a solid understanding of required techniques.",
+      "Measurements\/tasks are executed flawlessly with exceptional precision, demonstrating mastery of the techniques and contributing to the highest quality results."
+    ]
+  ]
+}

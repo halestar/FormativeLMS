@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Relevant Laws: Assesses the student's comprehension of the legal statutes concerning sexual involvement with minors, including variations in age of consent and the implications of statutory rape.",
+    "Analysis of Legal Ramifications: Evaluates the student's ability to analyze the legal consequences and penalties associated with violating laws related to sexual involvement with minors.",
+    "Application to Real-World Scenarios: Assesses the student's ability to apply their knowledge of the laws to hypothetical or real-world scenarios, demonstrating an understanding of how the laws function in practice."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of laws related to sexual involvement with minors.",
+      "Shows minimal awareness of laws; may confuse key concepts or age ranges.",
+      "Identifies some laws but struggles to explain them accurately or completely.",
+      "Accurately describes the main laws and concepts, but may lack depth in understanding specific nuances.",
+      "Demonstrates a strong understanding of the laws, including variations in different jurisdictions and potential consequences.",
+      "Exhibits a comprehensive understanding of the legal landscape, including the rationale behind the laws and their impact on individuals and society."
+    ],
+    [
+      "Unable to analyze any legal ramifications associated with sexual involvement with minors.",
+      "Shows difficulty in identifying even the basic legal consequences.",
+      "Lists some legal consequences but does not explain their significance or impact.",
+      "Explains the main legal ramifications but may not fully explore the range of potential penalties.",
+      "Analyzes the legal ramifications in detail, including potential penalties, long-term effects, and mitigating circumstances.",
+      "Provides an insightful and nuanced analysis of the legal ramifications, including ethical considerations and potential legal challenges."
+    ],
+    [
+      "Unable to apply the laws to any real-world scenarios.",
+      "Struggles to apply the laws, offering irrelevant or inaccurate applications.",
+      "Attempts to apply the laws, but with limited success or understanding.",
+      "Applies the laws correctly in straightforward scenarios, but struggles with more complex situations.",
+      "Effectively applies the laws to a variety of scenarios, demonstrating a strong understanding of their practical application.",
+      "Demonstrates exceptional ability to apply the laws to complex and nuanced scenarios, considering multiple perspectives and potential outcomes."
+    ]
+  ]
+}

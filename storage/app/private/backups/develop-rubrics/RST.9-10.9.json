@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Findings: Accurately identifies key findings presented in the text and other sources.",
+    "Comparison and Contrast: Effectively compares and contrasts findings between the text and other sources, including their own experiments.",
+    "Analysis of Support and Contradiction: Accurately notes when findings support or contradict previous explanations or accounts.",
+    "Clarity and Organization: Presents the comparison and contrast of findings in a clear and organized manner."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any relevant findings from the text or other sources.",
+      "Struggles to identify relevant findings; misinterprets information from the text or other sources.",
+      "Identifies some findings from the text and other sources but with limited accuracy and detail.",
+      "Identifies most of the key findings from the text and other sources with reasonable accuracy.",
+      "Accurately identifies the key findings from the text and other sources, providing sufficient detail.",
+      "Masterfully identifies the key findings from the text and other sources, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Unable to compare or contrast findings from the text with other sources.",
+      "Attempts to compare and contrast findings but demonstrates significant confusion and inaccuracies.",
+      "Compares and contrasts findings with limited effectiveness, missing key similarities and differences.",
+      "Compares and contrasts findings with moderate effectiveness, identifying some similarities and differences.",
+      "Effectively compares and contrasts findings, highlighting key similarities and differences between sources.",
+      "Skillfully compares and contrasts findings, providing insightful analysis of the relationships between different sources."
+    ],
+    [
+      "Fails to recognize when findings support or contradict previous explanations or accounts.",
+      "Struggles to determine whether findings support or contradict previous explanations, often misinterpreting the relationships.",
+      "Identifies some instances of support or contradiction but with limited accuracy and understanding.",
+      "Identifies most instances of support or contradiction with reasonable accuracy.",
+      "Accurately notes when findings support or contradict previous explanations or accounts, providing clear examples.",
+      "Provides a nuanced analysis of when findings support or contradict previous explanations, demonstrating a deep understanding of the material."
+    ],
+    [
+      "Presents findings in a disorganized and confusing manner, making it difficult to understand the comparison.",
+      "Demonstrates some organization but lacks clarity, making it challenging to follow the comparison.",
+      "Presents findings with moderate clarity and organization, but there is room for improvement.",
+      "Presents findings in a generally clear and organized manner, making the comparison easy to follow.",
+      "Presents findings in a clear, well-organized, and coherent manner, enhancing the reader's understanding.",
+      "Presents findings in a highly clear, concise, and elegantly organized manner, maximizing the impact of the comparison."
+    ]
+  ]
+}

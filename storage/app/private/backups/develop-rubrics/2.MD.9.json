@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Measurements",
+    "Construction of Line Plot",
+    "Interpretation of Data"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No measurements are taken or all measurements are inaccurate.",
+      "Measurements are attempted, but most are inaccurate or not to the nearest whole unit.",
+      "Some measurements are accurate to the nearest whole unit, but there are several errors.",
+      "Most measurements are accurate to the nearest whole unit with only minor errors.",
+      "All measurements are accurate to the nearest whole unit, demonstrating a solid understanding of measurement principles.",
+      "All measurements are precise and accurate, demonstrating an excellent understanding of measurement techniques and attention to detail."
+    ],
+    [
+      "No line plot is created, or the line plot is completely incorrect with no relevant data.",
+      "A line plot is attempted, but it is poorly constructed and difficult to interpret.",
+      "The line plot has significant errors in scaling or representation of data.",
+      "The line plot is mostly correct, but there are a few minor errors in the representation of data.",
+      "The line plot is accurately constructed with clear and appropriate scaling and representation of data.",
+      "The line plot is exceptionally clear, well-organized, and accurately represents the measurement data, making it easy to interpret trends and patterns."
+    ],
+    [
+      "No interpretation of the data is provided, or the interpretation is completely unrelated to the data.",
+      "An attempt to interpret the data is made, but it is unclear or incorrect.",
+      "The interpretation of the data is superficial and misses key trends or patterns.",
+      "The interpretation identifies some trends or patterns in the data but lacks depth.",
+      "The interpretation accurately describes the main trends and patterns in the data.",
+      "The interpretation provides insightful analysis of the data, including identification of trends, patterns, and potential outliers, demonstrating a deep understanding of the data's meaning."
+    ]
+  ]
+}

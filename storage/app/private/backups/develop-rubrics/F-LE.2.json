@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify linear and exponential functions from graphs.",
+    "Ability to construct linear and exponential functions from a description of a relationship.",
+    "Ability to construct linear and exponential functions given two input-output pairs (including reading from a table).",
+    "Ability to recognize and construct arithmetic and geometric sequences."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify linear or exponential functions from a graph.",
+      "Student can identify linear functions from a graph but struggles with exponential functions.",
+      "Student can identify exponential functions from a graph but struggles with linear functions.",
+      "Student can correctly identify linear and exponential functions from a graph with minor errors.",
+      "Student can accurately identify linear and exponential functions from a graph.",
+      "Student can accurately and consistently identify linear and exponential functions from a graph and explain the key differences between them."
+    ],
+    [
+      "Student cannot construct linear or exponential functions from a description.",
+      "Student can begin to construct a linear function from a description, but struggles with the details and exponential functions.",
+      "Student can construct a linear function from a simple description but not complex ones. Can't construct exponential functions.",
+      "Student can construct a linear function from a complex description, but has errors doing so.",
+      "Student can accurately construct linear and exponential functions from a description with minor errors.",
+      "Student can accurately and consistently construct linear and exponential functions from a description, demonstrating a deep understanding of the relationship."
+    ],
+    [
+      "Student cannot construct linear or exponential functions from two input-output pairs.",
+      "Student can find the slope of a linear function, but cannot use it to create the function or understand exponential pairs.",
+      "Student can construct a linear function from two input-output pairs with significant errors, or they understand some exponential pairs.",
+      "Student can construct a linear function with minor errors and has some idea of how to deal with exponential function.",
+      "Student can accurately construct linear and exponential functions from two input-output pairs, with occasional minor errors.",
+      "Student can accurately and consistently construct linear and exponential functions from two input-output pairs, demonstrating a strong understanding of the underlying concepts."
+    ],
+    [
+      "Student cannot recognize or construct arithmetic or geometric sequences.",
+      "Student can identify arithmetic sequences, but cannot construct them or deal with geometric sequences.",
+      "Student can identify and partially construct arithmetic sequences but struggles with geometric sequences.",
+      "Student can construct arithmetic sequences and identify geometric sequences, but cannot construct them.",
+      "Student can accurately construct arithmetic and geometric sequences, with occasional minor errors.",
+      "Student can accurately and consistently construct arithmetic and geometric sequences, demonstrating a strong understanding of their properties and differences."
+    ]
+  ]
+}

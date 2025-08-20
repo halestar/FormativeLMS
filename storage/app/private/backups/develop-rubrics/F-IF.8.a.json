@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to factor quadratic functions correctly.",
+    "Ability to complete the square correctly.",
+    "Ability to identify zeros, extreme values, and symmetry from factored or completed square form.",
+    "Ability to interpret the meaning of zeros, extreme values, and symmetry in a real-world context."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot factor quadratic functions or attempts are completely incorrect.",
+      "Student shows minimal understanding of factoring; factors are incorrect.",
+      "Student can factor simple quadratic functions but struggles with more complex ones.",
+      "Student factors most quadratic functions correctly, with occasional errors.",
+      "Student consistently factors quadratic functions correctly, including complex cases.",
+      "Student demonstrates excellent factoring skills and can explain the process clearly."
+    ],
+    [
+      "Student does not attempt to complete the square or the attempt is entirely incorrect.",
+      "Student shows some understanding of completing the square, but makes significant errors.",
+      "Student can complete the square for simple quadratic functions, but struggles with more complex ones.",
+      "Student completes the square correctly for most quadratic functions, with occasional errors.",
+      "Student consistently completes the square correctly, including cases with non-leading coefficients.",
+      "Student demonstrates excellent skill in completing the square and can explain the steps and reasoning clearly."
+    ],
+    [
+      "Student cannot identify zeros, extreme values, or symmetry from either form.",
+      "Student struggles to identify zeros, extreme values, or symmetry, even with guidance.",
+      "Student can identify some features but misses others or misinterprets them.",
+      "Student identifies most features correctly, with occasional mistakes.",
+      "Student accurately identifies zeros, extreme values, and symmetry from quadratic functions.",
+      "Student expertly identifies and explains all key features of quadratic functions from factored and completed square forms."
+    ],
+    [
+      "Student cannot relate the mathematical features to a real-world context.",
+      "Student attempts to relate features to context, but the explanation is unclear or inaccurate.",
+      "Student can explain the meaning of some features in context but struggles with others.",
+      "Student explains the meaning of zeros, extreme values, and symmetry in context, with some minor inaccuracies.",
+      "Student clearly and accurately explains the meaning of mathematical features in a given context.",
+      "Student provides a comprehensive and insightful interpretation of mathematical features in a relevant real-world scenario."
+    ]
+  ]
+}

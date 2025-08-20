@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of partitioning shapes into equal shares",
+    "Use of mathematical language to describe shares and the whole",
+    "Recognition that equal shares of identical wholes need not have the same shape"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to partition shapes or demonstrates no understanding of equal shares.",
+      "Attempts to partition shapes but struggles to create equal shares. Shows minimal understanding of halves, thirds, or fourths.",
+      "Partitions shapes, but with significant inaccuracies. Can identify halves sometimes, but struggles with thirds and fourths.",
+      "Partitions shapes with minor inaccuracies. Can identify halves and thirds, but understanding of fourths is limited.",
+      "Accurately partitions circles and rectangles into two, three, or four equal shares with minimal errors.",
+      "Accurately and consistently partitions circles and rectangles into two, three, or four equal shares."
+    ],
+    [
+      "Unable to describe the shares or the whole using appropriate mathematical language.",
+      "Attempts to describe shares using basic language, but struggles with mathematical terms like halves, thirds, and fourths.",
+      "Describes shares with limited accuracy, often confusing terms like halves, thirds, and fourths.",
+      "Describes shares using appropriate mathematical language (halves, thirds, fourths) with some inconsistencies.",
+      "Consistently and accurately describes shares using mathematical language, including 'half of,' 'a third of,' etc.",
+      "Clearly and precisely describes shares and the whole using sophisticated mathematical language, demonstrating a deep understanding of the concepts."
+    ],
+    [
+      "Does not recognize that equal shares can have different shapes.",
+      "Shows limited awareness that equal shares can have different shapes; struggles to provide examples.",
+      "Recognizes that equal shares can sometimes have different shapes, but understanding is superficial.",
+      "Recognizes that equal shares of identical wholes need not have the same shape and can provide basic examples.",
+      "Clearly understands and demonstrates that equal shares of identical wholes need not have the same shape, providing relevant examples.",
+      "Demonstrates a comprehensive understanding that equal shares of identical wholes need not have the same shape, providing insightful examples and explanations."
+    ]
+  ]
+}

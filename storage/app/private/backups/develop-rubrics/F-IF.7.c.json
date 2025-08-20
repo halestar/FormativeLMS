@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Graph",
+    "Identification of Zeros",
+    "Understanding of End Behavior",
+    "Use of Technology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The graph is completely incorrect or missing.",
+      "The graph has significant errors and does not resemble the correct polynomial function.",
+      "The graph has some errors in its shape or key features.",
+      "The graph is mostly accurate, with minor errors in shape or placement.",
+      "The graph is accurate, with only very minor imperfections.",
+      "The graph is perfectly accurate and clearly represents the polynomial function."
+    ],
+    [
+      "No zeros are identified or the identified zeros are completely incorrect.",
+      "Zeros are incorrectly identified, showing a lack of understanding of factorization.",
+      "Some zeros are identified correctly, but others are missing or incorrect.",
+      "Most zeros are correctly identified, with only one or two minor errors.",
+      "All zeros are correctly identified with clear and accurate work.",
+      "All zeros are correctly identified and explained, showing a strong understanding of the relationship between factors and zeros."
+    ],
+    [
+      "End behavior is not addressed or is completely incorrect.",
+      "End behavior is described incorrectly, showing a misunderstanding of how the function behaves as x approaches infinity.",
+      "End behavior is partially correct but lacks a clear explanation.",
+      "End behavior is described accurately for one end of the graph, but not the other.",
+      "End behavior is accurately described for both ends of the graph, with a basic explanation.",
+      "End behavior is accurately described for both ends of the graph, with a detailed explanation of why the function behaves that way."
+    ],
+    [
+      "Technology is not used or is used incorrectly.",
+      "Technology is used, but the graph generated is not interpreted correctly.",
+      "Technology is used, but the settings are incorrect or the student struggles to find key features.",
+      "Technology is used effectively to generate the graph, but key features are identified manually.",
+      "Technology is used effectively to generate and analyze the graph, but the interpretation is not fully clear.",
+      "Technology is used effectively to generate and analyze the graph. The student clearly interprets the results and explains the significance of the key features."
+    ]
+  ]
+}

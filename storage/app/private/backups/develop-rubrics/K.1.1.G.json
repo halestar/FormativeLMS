@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Growth Processes",
+    "Understanding of Maturation Processes",
+    "Differentiation between Growth and Maturation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of how living things grow.",
+      "The student shows minimal understanding of growth, with significant misconceptions.",
+      "The student identifies growth as a characteristic of living things but lacks detail in explanation.",
+      "The student adequately explains growth but may not fully grasp the complexities involved.",
+      "The student clearly explains the process of growth in living things, including key stages or factors.",
+      "The student comprehensively explains growth, providing detailed examples and demonstrating a deep understanding of the underlying biological processes."
+    ],
+    [
+      "The student demonstrates no understanding of maturation.",
+      "The student shows minimal understanding of maturation, with significant misconceptions.",
+      "The student identifies maturation as a characteristic of living things but lacks detail in explanation.",
+      "The student adequately explains maturation but may not fully grasp the complexities involved.",
+      "The student clearly explains the process of maturation in living things, including key stages or factors.",
+      "The student comprehensively explains maturation, providing detailed examples and demonstrating a deep understanding of the underlying biological processes."
+    ],
+    [
+      "The student does not differentiate between growth and maturation.",
+      "The student attempts to differentiate but shows significant confusion between the two concepts.",
+      "The student recognizes that growth and maturation are different but struggles to articulate the distinctions.",
+      "The student can list some differences between growth and maturation but lacks depth in explanation.",
+      "The student clearly distinguishes between growth and maturation, providing relevant examples.",
+      "The student provides a nuanced explanation of the differences between growth and maturation, demonstrating a sophisticated understanding of both processes."
+    ]
+  ]
+}

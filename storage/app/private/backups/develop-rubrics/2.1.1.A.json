@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to differentiate between helpful and harmful substances, providing specific examples for each category.",
+    "Understanding of the potential short-term and long-term effects of using harmful substances such as alcohol, tobacco, and other drugs.",
+    "Awareness of resources and strategies available to prevent or address substance abuse."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot distinguish between helpful and harmful substances.",
+      "Student shows minimal understanding, struggling to differentiate between helpful and harmful substances.",
+      "Student can identify some helpful and harmful substances but provides limited or inaccurate examples.",
+      "Student can distinguish between helpful and harmful substances, providing basic examples for each.",
+      "Student clearly distinguishes between helpful and harmful substances, providing relevant and accurate examples.",
+      "Student provides comprehensive and insightful examples, demonstrating a deep understanding of the differences between helpful and harmful substances and their effects on the body."
+    ],
+    [
+      "Student does not demonstrate any understanding of the effects of harmful substances.",
+      "Student shows minimal understanding of the effects of harmful substances.",
+      "Student identifies some short-term or long-term effects of harmful substances, but the understanding is superficial.",
+      "Student describes some of the short-term and long-term effects of harmful substances.",
+      "Student explains the short-term and long-term effects of harmful substances with clarity and accuracy.",
+      "Student demonstrates a comprehensive understanding of the short-term and long-term effects of harmful substances, including physiological, psychological, and social consequences."
+    ],
+    [
+      "Student is not aware of any resources or strategies to prevent or address substance abuse.",
+      "Student is vaguely aware of some resources or strategies but cannot describe them accurately.",
+      "Student identifies a few resources or strategies but lacks a clear understanding of how to use them.",
+      "Student describes some resources and strategies available to prevent or address substance abuse.",
+      "Student clearly explains resources and strategies available to prevent or address substance abuse, including where to find help.",
+      "Student demonstrates a thorough knowledge of resources and strategies, including prevention programs, treatment options, and support networks, and can effectively communicate how to access and utilize them."
+    ]
+  ]
+}

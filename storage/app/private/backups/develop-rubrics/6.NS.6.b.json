@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Rational Numbers on a Number Line",
+    "Extending Number Line Diagrams and Coordinate Axes",
+    "Understanding Signs of Ordered Pairs and Quadrant Locations",
+    "Recognizing Reflections Across Axes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rational numbers as points on a number line.",
+      "Student shows minimal understanding, struggling to place simple rational numbers on a number line.",
+      "Student can place integers and some basic fractions on a number line, but struggles with negative numbers or more complex rational numbers.",
+      "Student accurately places most rational numbers, including negative numbers and common fractions, on a number line.",
+      "Student demonstrates a strong understanding of rational numbers on a number line, accurately placing various forms, including decimals and mixed numbers.",
+      "Student demonstrates comprehensive understanding and can explain the relationship between rational numbers and their position on a number line, including complex examples."
+    ],
+    [
+      "Student is unable to extend number line diagrams or use coordinate axes with negative numbers.",
+      "Student attempts to extend number lines and coordinate axes but makes significant errors in placing negative numbers.",
+      "Student can extend number lines and create coordinate axes, but struggles with accurate placement of points with negative coordinates.",
+      "Student accurately extends number lines and coordinate axes to represent points with negative number coordinates.",
+      "Student demonstrates proficiency in using extended number lines and coordinate axes to accurately represent various points, including fractions and decimals with negative signs.",
+      "Student can expertly extend number lines and coordinate axes, explaining the underlying principles and accurately representing complex numbers."
+    ],
+    [
+      "Student does not understand how signs of numbers in ordered pairs indicate locations in quadrants.",
+      "Student shows some awareness of quadrants but cannot consistently identify the correct quadrant based on the signs of ordered pairs.",
+      "Student can identify the correct quadrant for ordered pairs with positive and negative signs but struggles with more complex examples.",
+      "Student consistently identifies the correct quadrant for ordered pairs based on the signs of the numbers.",
+      "Student demonstrates a strong understanding of quadrant locations and can explain how the signs of ordered pairs determine their position.",
+      "Student can articulate the relationship between signs of ordered pairs, quadrant locations, and reflections across axes, providing clear explanations."
+    ],
+    [
+      "Student does not recognize that ordered pairs differing only by signs are related by reflections across axes.",
+      "Student attempts to identify reflections but makes significant errors in understanding the relationship between ordered pairs and axes.",
+      "Student can identify some reflections across axes but struggles with pairs differing by signs in both coordinates.",
+      "Student accurately recognizes that ordered pairs differing only by signs are related by reflections across one or both axes.",
+      "Student demonstrates proficiency in recognizing reflections and can accurately determine the reflected point across one or both axes.",
+      "Student can thoroughly explain and demonstrate the relationship between ordered pairs, reflections across axes, and the changes in signs of coordinates."
+    ]
+  ]
+}

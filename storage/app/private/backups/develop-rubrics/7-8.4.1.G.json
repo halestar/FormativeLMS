@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Accuracy of Information Conveyed",
+    "Effectiveness of Communication",
+    "Appropriateness and Respectfulness",
+    "Use of Resources and Support Systems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Information presented is unclear, inaccurate, or irrelevant to reproductive and sexual health.",
+      "Information presented is somewhat unclear or contains minor inaccuracies.",
+      "Information is generally clear and accurate but lacks detail.",
+      "Information is clear, mostly accurate, and provides some relevant details.",
+      "Information is clear, accurate, and provides relevant details, demonstrating a good understanding of the topic.",
+      "Information is exceptionally clear, accurate, detailed, and demonstrates a comprehensive understanding of reproductive and sexual health."
+    ],
+    [
+      "Communication is ineffective; the student struggles to convey the message or engage in a meaningful discussion.",
+      "Communication is somewhat ineffective; the student has difficulty expressing ideas clearly.",
+      "Communication is moderately effective; the student conveys the message adequately but may lack confidence or clarity.",
+      "Communication is generally effective; the student conveys the message clearly and engages in a discussion.",
+      "Communication is effective; the student conveys the message clearly, engages in a thoughtful discussion, and demonstrates active listening skills.",
+      "Communication is highly effective; the student conveys the message with exceptional clarity, engages in a meaningful and insightful discussion, and demonstrates strong interpersonal skills."
+    ],
+    [
+      "Communication is inappropriate, disrespectful, or insensitive to the audience or topic.",
+      "Communication is occasionally inappropriate or shows a lack of sensitivity.",
+      "Communication is generally appropriate and respectful but may lack awareness of nuances.",
+      "Communication is appropriate, respectful, and demonstrates an awareness of the audience.",
+      "Communication is consistently appropriate, respectful, and demonstrates a high level of sensitivity to the audience and topic.",
+      "Communication is exceptionally appropriate, respectful, and demonstrates a deep understanding of the audience's needs and concerns, fostering a positive and supportive environment."
+    ],
+    [
+      "The student does not identify or utilize appropriate resources or support systems.",
+      "The student identifies but does not effectively utilize resources or support systems.",
+      "The student identifies and attempts to utilize resources or support systems with limited success.",
+      "The student identifies and utilizes appropriate resources or support systems.",
+      "The student effectively utilizes appropriate resources and support systems, demonstrating resourcefulness.",
+      "The student skillfully utilizes a variety of resources and support systems, demonstrating resourcefulness and initiative in seeking help."
+    ]
+  ]
+}

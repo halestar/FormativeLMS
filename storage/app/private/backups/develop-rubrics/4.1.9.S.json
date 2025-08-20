@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Safety Equipment",
+    "Explanation of Importance",
+    "Application to Activities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any safety equipment.",
+      "Identifies one type of safety equipment but provides no explanation of its use.",
+      "Identifies two types of safety equipment without detailed explanation of their importance.",
+      "Identifies three types of safety equipment and briefly explains their use.",
+      "Identifies four types of safety equipment and explains their use during specific activities.",
+      "Identifies five or more types of safety equipment and thoroughly explains their use, including various activities."
+    ],
+    [
+      "Does not explain the importance of using safety equipment.",
+      "Mentions the importance of safety equipment in general terms but lacks specifics.",
+      "Provides a basic explanation of why safety equipment is important, with limited detail.",
+      "Explains the importance of safety equipment by referencing risk reduction.",
+      "Clearly explains the importance of safety equipment by describing reduced injuries and improved health.",
+      "Thoroughly explains the importance of safety equipment with clear examples, including detailed descriptions of injury prevention, and provides statistics."
+    ],
+    [
+      "Does not connect safety equipment to specific athletic or outdoor activities.",
+      "Lists activities and equipment separately, without linking them.",
+      "Vaguely connects safety equipment to activities.",
+      "Links specific equipment to specific activities.",
+      "Links specific equipment to multiple activities and justifies the choice.",
+      "Masterfully links specific equipment to a wide range of activities, justifying each choice with detailed reasoning."
+    ]
+  ]
+}

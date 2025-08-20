@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of the Issue",
+    "Understanding of Consumer Rights",
+    "Effective Communication",
+    "Proposed Solution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No issue is identified or the identified issue is not health-related.",
+      "Identifies a health-related issue but lacks clarity or detail.",
+      "Identifies a health-related issue with some clarity and basic details.",
+      "Clearly identifies a relevant health-related issue with supporting details.",
+      "Clearly and thoroughly identifies a significant health-related issue with well-developed supporting details.",
+      "Exceptionally andinsightfully identifies a crucial health-related issue, demonstrating a comprehensive understanding and providing extensive, detailed support."
+    ],
+    [
+      "Demonstrates no understanding of consumer rights or protections.",
+      "Shows a minimal understanding of consumer rights with significant misconceptions.",
+      "Displays a basic understanding of consumer rights but with some inaccuracies.",
+      "Demonstrates a solid understanding of consumer rights and protections.",
+      "Shows a strong and detailed understanding of consumer rights, including relevant laws or regulations.",
+      "Exhibits an exceptional and nuanced understanding of consumer rights, including relevant laws and regulations, and their practical implications."
+    ],
+    [
+      "Communication is unclear, disorganized, and ineffective.",
+      "Communication is difficult to understand and lacks organization.",
+      "Communication is somewhat clear but lacks effective organization.",
+      "Communication is clear, organized, and generally effective.",
+      "Communication is highly clear, persuasive, and effectively organized.",
+      "Communication is exceptionally clear, persuasive, and masterfully organized, demonstrating a superior command of language and rhetoric."
+    ],
+    [
+      "No solution is proposed or the proposed solution is unrealistic and irrelevant.",
+      "Proposes a solution that is vague, unrealistic, or not directly related to the issue.",
+      "Proposes a solution that is somewhat relevant but lacks detail and feasibility.",
+      "Proposes a relevant and realistic solution with some supporting details.",
+      "Proposes a well-developed, realistic, and effective solution with strong supporting details.",
+      "Proposes an innovative, highly effective, and exceptionally well-supported solution, demonstrating a deep understanding of the issue and potential remedies."
+    ]
+  ]
+}

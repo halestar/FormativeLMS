@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the American Creed's Core Tenets",
+    "Explanation of the Importance of Safeguarding Individual Liberty",
+    "Analysis of the Role of Rule of Law",
+    "Examination of the significance of Preserving the Constitution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the American Creed or its principles.",
+      "Shows a very limited understanding of the American Creed, missing key components.",
+      "Displays a basic understanding of the American Creed but struggles to articulate its meaning.",
+      "Demonstrates a satisfactory understanding of the American Creed, identifying its key tenets.",
+      "Exhibits a strong understanding of the American Creed, explaining its significance and interconnectedness of its tenets.",
+      "Demonstrates a comprehensive and nuanced understanding of the American Creed, including its historical context, contemporary relevance, and the importance of safeguarding liberty, respecting the rule of law, and preserving the Constitution."
+    ],
+    [
+      "Does not address the importance of individual liberty or its connection to the American Creed.",
+      "Mentions individual liberty but does not explain its significance within the American context.",
+      "Provides a superficial explanation of individual liberty, lacking depth and connection to the nation's values.",
+      "Explains the importance of safeguarding individual liberty as a key component of the American Creed.",
+      "Clearly articulates the importance of safeguarding individual liberty, providing examples of how it is protected within the American system.",
+      "Offers a sophisticated analysis of the role of individual liberty within the American Creed, discussing its historical evolution, potential challenges, and ongoing relevance in contemporary society."
+    ],
+    [
+      "Demonstrates no understanding of the concept of 'rule of law'.",
+      "Mentions 'rule of law' but cannot explain what it means in any real context.",
+      "Provides a limited understanding of the 'rule of law', but doesn't explain how it pertains to society.",
+      "Explains 'rule of law' as it applies to the american creed and its importance.",
+      "Explains the importance of the 'rule of law', giving detailed examples of how it pertains to society.",
+      "Provides a sophisticated analysis of the 'rule of law', giving examples of how the american creed has either helped the 'rule of law' or diminished its stature."
+    ],
+    [
+      "Does not address the significance of preserving the Constitution or its connection to the American Creed.",
+      "Mentions the Constitution but does not explain why it is important to preserve it.",
+      "Offers a basic explanation of the Constitution, lacking depth in its connection to the American Creed.",
+      "Explains the significance of preserving the Constitution as a fundamental aspect of the American Creed.",
+      "Clearly articulates the importance of preserving the Constitution, providing historical and contemporary examples of its relevance.",
+      "Provides a comprehensive analysis of the role of the Constitution in upholding the American Creed, discussing its amendments, interpretations, and ongoing debates about its meaning and application."
+    ]
+  ]
+}

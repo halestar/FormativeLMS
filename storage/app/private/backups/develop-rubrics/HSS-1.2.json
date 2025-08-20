@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding and application of absolute location (coordinates, addresses) and relative location (location in relation to other places).",
+    "Identification and description of physical characteristics of places (climate, landforms, resources).",
+    "Identification and description of human characteristics of places (culture, population, economy, political systems).",
+    "Comparison and contrasting of locations and their characteristics."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of absolute or relative location.",
+      "Student shows minimal understanding of either absolute or relative location.",
+      "Student can identify absolute and relative location but struggles to apply them.",
+      "Student can identify and generally apply absolute and relative location with some inaccuracies.",
+      "Student demonstrates a clear understanding of absolute and relative locations and applies them accurately in most cases.",
+      "Student demonstrates a comprehensive understanding of absolute and relative locations, applying them accurately and effectively to describe places."
+    ],
+    [
+      "Student fails to identify or describe any physical characteristics of places.",
+      "Student identifies very few physical characteristics, and descriptions are vague and inaccurate.",
+      "Student identifies some physical characteristics but lacks detail or accuracy in the descriptions.",
+      "Student identifies and describes physical characteristics with some accuracy, but the descriptions lack depth.",
+      "Student provides accurate and relatively detailed descriptions of the physical characteristics of places.",
+      "Student provides comprehensive, accurate, and detailed descriptions of the physical characteristics of places, demonstrating a strong understanding of their significance."
+    ],
+    [
+      "Student fails to identify or describe any human characteristics of places.",
+      "Student identifies very few human characteristics, and descriptions are vague and inaccurate.",
+      "Student identifies some human characteristics but lacks detail or accuracy in the descriptions.",
+      "Student identifies and describes human characteristics with some accuracy, but the descriptions lack depth.",
+      "Student provides accurate and relatively detailed descriptions of the human characteristics of places.",
+      "Student provides comprehensive, accurate, and detailed descriptions of the human characteristics of places, demonstrating a strong understanding of their significance."
+    ],
+    [
+      "Student makes no attempt to compare or contrast locations.",
+      "Student attempts to compare or contrast locations, but the connections are unclear or inaccurate.",
+      "Student makes basic comparisons and contrasts, but lacks depth or specific examples.",
+      "Student makes relevant comparisons and contrasts between locations, providing some supporting details.",
+      "Student effectively compares and contrasts locations, providing clear and accurate supporting details.",
+      "Student skillfully compares and contrasts locations, providing insightful analysis and comprehensive supporting details."
+    ]
+  ]
+}

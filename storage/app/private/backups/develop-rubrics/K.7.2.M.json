@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and articulation of care, consideration, and concern",
+    "Ability to describe positive actions demonstrating care, consideration, and concern.",
+    "Awareness of the impact of actions on others' feelings and well-being."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of care, consideration, or concern for others.",
+      "Student demonstrates a minimal understanding of care, consideration, and concern for others, but struggles to articulate it.",
+      "Student demonstrates a basic understanding of care, consideration, and concern for others, but the articulation is limited or unclear.",
+      "Student demonstrates a satisfactory understanding of care, consideration, and concern for others and articulates it adequately.",
+      "Student demonstrates a strong understanding of care, consideration, and concern for others and articulates it clearly and thoughtfully.",
+      "Student demonstrates a comprehensive and insightful understanding of care, consideration, and concern for others, articulating it with nuance and depth."
+    ],
+    [
+      "Student cannot describe any positive actions that show care, consideration, or concern for others.",
+      "Student struggles to describe positive actions showing care, consideration, and concern, and the descriptions are vague or unrealistic.",
+      "Student describes a few positive actions showing care, consideration, and concern, but the descriptions are somewhat generic or lack detail.",
+      "Student describes several positive actions showing care, consideration, and concern with reasonable clarity and relevance.",
+      "Student describes a variety of positive and relevant actions showing care, consideration, and concern with specific details.",
+      "Student describes a wide range of positive and impactful actions showing care, consideration, and concern, demonstrating a sophisticated understanding of practical application."
+    ],
+    [
+      "Student demonstrates no awareness of how actions can affect others' feelings and well-being.",
+      "Student shows minimal awareness of the impact of actions on others' feelings, with little or no connection to real-life scenarios.",
+      "Student acknowledges that actions can affect others' feelings but provides limited examples or explanation.",
+      "Student demonstrates a general understanding of how actions can impact others' feelings and well-being.",
+      "Student clearly articulates how specific actions can positively impact others' feelings and well-being, providing thoughtful examples.",
+      "Student demonstrates a deep and nuanced understanding of the complex ways in which actions can influence others' feelings and well-being, showing empathy and insight."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Recitation and Singing",
+    "Understanding of American Ideals Expressed",
+    "Demonstration of Respect and Reverence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to recite any part of the Pledge of Allegiance or sing any portion of the song.",
+      "The student attempts to recite the Pledge or sing the song but struggles significantly with the words and rhythm.",
+      "The student can recite some parts of the Pledge or sing some parts of the song, but makes several errors.",
+      "The student recites most of the Pledge or sings most of the song with only minor errors.",
+      "The student recites the Pledge or sings the song accurately with good rhythm and pronunciation, but may lack confidence.",
+      "The student recites the Pledge or sings the song flawlessly with confidence, clear pronunciation, and appropriate rhythm."
+    ],
+    [
+      "The student demonstrates no understanding of the American ideals expressed in the Pledge or the song.",
+      "The student shows a very limited understanding of the American ideals, with significant misconceptions.",
+      "The student identifies a few American ideals but struggles to explain their meaning or relevance.",
+      "The student explains some American ideals expressed in the Pledge or the song with reasonable accuracy and relevance.",
+      "The student clearly explains the American ideals expressed and their importance, with only minor gaps in understanding.",
+      "The student demonstrates a comprehensive understanding of the American ideals, explaining their historical and contemporary relevance with insightful connections."
+    ],
+    [
+      "The student shows a lack of respect or reverence during the recitation or singing.",
+      "The student shows minimal respect or reverence, appearing disengaged or disruptive.",
+      "The student attempts to show respect but displays some inappropriate behavior or distractions.",
+      "The student generally shows respect and reverence during the activity with only minor distractions.",
+      "The student consistently demonstrates respect and reverence through attentive posture and engaged participation.",
+      "The student demonstrates exceptional respect and reverence, inspiring others through their active engagement and thoughtful demeanor."
+    ]
+  ]
+}

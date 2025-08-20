@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Parallel and Perpendicular Lines",
+    "Classification based on Angles",
+    "Classification of Two-Dimensional Figures",
+    "Identification of Right Triangles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of parallel or perpendicular lines.",
+      "Student can identify parallel or perpendicular lines with significant errors and requires assistance.",
+      "Student can identify parallel and perpendicular lines with some errors and requires some assistance.",
+      "Student accurately identifies parallel and perpendicular lines in simple figures but struggles with complex figures.",
+      "Student accurately identifies parallel and perpendicular lines in various two-dimensional figures.",
+      "Student accurately and consistently identifies parallel and perpendicular lines and can explain their properties in various contexts."
+    ],
+    [
+      "Student cannot identify or classify angles.",
+      "Student attempts to classify angles but demonstrates a lack of understanding and makes frequent errors.",
+      "Student can classify right angles but struggles with acute, obtuse, and reflex angles.",
+      "Student classifies angles with some accuracy but may confuse acute and obtuse angles.",
+      "Student accurately classifies angles (right, acute, obtuse, reflex) and identifies them in two-dimensional figures.",
+      "Student accurately classifies angles and uses angle properties to classify complex two-dimensional figures and explain their relationships."
+    ],
+    [
+      "Student cannot classify two-dimensional figures.",
+      "Student attempts to classify figures but demonstrates a lack of understanding of their properties and makes frequent errors.",
+      "Student can classify basic shapes (squares, rectangles, triangles) but struggles with more complex figures (parallelograms, trapezoids, rhombuses).",
+      "Student classifies two-dimensional figures with some accuracy but may confuse similar shapes or misidentify properties.",
+      "Student accurately classifies two-dimensional figures based on their properties, including sides and angles.",
+      "Student accurately classifies and differentiates between various two-dimensional figures, including special triangles and quadrilaterals, and justifies their classifications with clear explanations."
+    ],
+    [
+      "Student cannot identify right triangles.",
+      "Student attempts to identify right triangles but demonstrates a lack of understanding of their properties.",
+      "Student can identify some right triangles but struggles with variations in orientation or size.",
+      "Student identifies right triangles with some accuracy but may confuse them with other types of triangles.",
+      "Student accurately identifies right triangles in various orientations and contexts.",
+      "Student accurately identifies right triangles and explains their defining properties, including the presence of a 90-degree angle."
+    ]
+  ]
+}

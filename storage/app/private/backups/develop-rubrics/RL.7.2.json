@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Theme or Central Idea",
+    "Analysis of Theme Development",
+    "Objectivity of Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify a theme or central idea.",
+      "Student identifies a theme or central idea, but it is vague or inaccurate.",
+      "Student identifies a theme or central idea, but it is oversimplified or lacks depth.",
+      "Student identifies a relevant theme or central idea of the text.",
+      "Student identifies a clear and relevant theme or central idea of the text with supporting details.",
+      "Student identifies a clear, insightful, and relevant theme or central idea of the text with strong supporting details and nuanced understanding."
+    ],
+    [
+      "Student provides no analysis of the theme's development.",
+      "Student attempts to analyze the theme's development, but the analysis is unclear or unsupported.",
+      "Student provides a superficial analysis of the theme's development with limited supporting evidence.",
+      "Student analyzes the theme's development with some relevant evidence from the text.",
+      "Student analyzes the theme's development effectively, using relevant textual evidence to support their claims.",
+      "Student provides a thorough and insightful analysis of the theme's development, using well-chosen textual evidence to support their claims, demonstrating a deep understanding of the text."
+    ],
+    [
+      "Student's summary is missing or entirely subjective, including personal opinions or biases.",
+      "Student's summary includes significant personal opinions or biases, lacking objectivity.",
+      "Student's summary demonstrates some objectivity, but personal opinions or biases are still present.",
+      "Student provides a mostly objective summary, with minimal personal opinions or biases.",
+      "Student provides a clear and objective summary of the text, avoiding personal opinions or biases.",
+      "Student provides a concise, comprehensive, and objective summary of the text, demonstrating a thorough understanding of the content and purpose."
+    ]
+  ]
+}

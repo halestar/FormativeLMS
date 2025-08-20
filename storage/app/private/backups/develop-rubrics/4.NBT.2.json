@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Place Value: Demonstrates comprehension of place value concepts (ones, tens, hundreds, thousands, etc.) and how they relate to the value of digits in a number.",
+    "Ability to Read and Write Numbers: Accurately reads and writes multi-digit whole numbers using base-ten numerals, number names, and expanded form.",
+    "Comparison of Numbers: Compares two multi-digit numbers based on the meanings of the digits in each place, using >, =, and < symbols to record the results of comparisons."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of place value. Cannot identify the value of digits in a number.",
+      "Demonstrates limited understanding of place value. Struggles to identify the value of digits in numbers beyond the hundreds place.",
+      "Demonstrates basic understanding of place value up to the thousands place but may make errors when working with larger numbers.",
+      "Demonstrates a solid understanding of place value and can accurately identify the value of digits in multi-digit whole numbers.",
+      "Demonstrates a strong understanding of place value and can explain the relationship between digits in different places. Can apply this understanding to solve problems.",
+      "Demonstrates a comprehensive understanding of place value and can explain its significance in representing numbers. Can apply this understanding to complex problems and real-world scenarios."
+    ],
+    [
+      "Cannot read or write multi-digit whole numbers in any form.",
+      "Struggles to read and write multi-digit whole numbers in base-ten numerals, number names, or expanded form.",
+      "Can read and write multi-digit whole numbers in base-ten numerals and number names, but struggles with expanded form.",
+      "Can accurately read and write multi-digit whole numbers using base-ten numerals, number names, and expanded form.",
+      "Can fluently read and write multi-digit whole numbers using base-ten numerals, number names, and expanded form. Can explain the advantages of each form.",
+      "Can read and write multi-digit whole numbers using base-ten numerals, number names, and expanded form with exceptional fluency and accuracy. Can apply this skill to solve complex problems and communicate mathematical ideas effectively."
+    ],
+    [
+      "Cannot compare multi-digit numbers or use >, =, and < symbols correctly.",
+      "Struggles to compare multi-digit numbers and often uses >, =, and < symbols incorrectly.",
+      "Can compare multi-digit numbers with guidance but may make errors when using >, =, and < symbols.",
+      "Can accurately compare two multi-digit numbers and use >, =, and < symbols to record the results of comparisons.",
+      "Can confidently compare multi-digit numbers and justify comparisons based on the meaning of the digits in each place. Uses >, =, and < symbols accurately.",
+      "Can expertly compare multi-digit numbers and provide insightful explanations of the comparisons. Uses >, =, and < symbols accurately and demonstrates a deep understanding of their meaning."
+    ]
+  ]
+}

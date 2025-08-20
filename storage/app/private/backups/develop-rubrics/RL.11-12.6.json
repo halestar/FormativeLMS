@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Point of View: Accurately identifies the narrator or speaker and their perspective in the text.",
+    "Distinction Between Stated and Meant: Recognizes instances where what is explicitly stated differs from the intended meaning.",
+    "Analysis of Techniques: Analyzes the use of satire, sarcasm, irony, or understatement to understand the author's deeper message."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the point of view or misinterprets it completely.",
+      "Struggles to identify the point of view, providing vague or inaccurate information.",
+      "Identifies the point of view but does not fully explain its significance or impact on the text.",
+      "Identifies the point of view and explains its basic significance to the text.",
+      "Clearly identifies the point of view, explaining its significance and how it shapes the reader's understanding.",
+      "Masterfully identifies the point of view, providing insightful analysis of its impact on the text and reader interpretation."
+    ],
+    [
+      "Does not recognize any instances of satire, sarcasm, irony, or understatement.",
+      "Identifies potential instances but struggles to differentiate between the literal and intended meanings.",
+      "Recognizes some instances but lacks a clear understanding of the techniques being used.",
+      "Identifies instances and provides basic explanations of the difference between stated and meant.",
+      "Clearly distinguishes between stated and meant, providing examples and explaining the author's intent.",
+      "Provides a nuanced analysis of the use of satire, sarcasm, irony, or understatement, demonstrating a deep understanding of the author's craft."
+    ],
+    [
+      "Offers no analysis of the author's techniques or their effect on the text.",
+      "Attempts to analyze the techniques but struggles to articulate their purpose or effect.",
+      "Provides a superficial analysis of the techniques, lacking depth and insight.",
+      "Analyzes the techniques and explains their general effect on the tone and meaning of the text.",
+      "Offers a detailed analysis of how the techniques contribute to the text's overall message and impact.",
+      "Provides a sophisticated and insightful analysis of the techniques, revealing subtle nuances and complexities in the author's message."
+    ]
+  ]
+}

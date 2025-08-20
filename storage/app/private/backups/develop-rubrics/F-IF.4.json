@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Features from Graphs and Tables",
+    "Interpretation of Key Features in Context",
+    "Sketching Graphs from Verbal Descriptions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify any key features (intercepts, increasing\/decreasing intervals, etc.) from graphs or tables.",
+      "Student can identify one or two key features with significant errors or omissions.",
+      "Student can identify some key features, but demonstrates misunderstanding or misses important details.",
+      "Student accurately identifies most key features from graphs and tables, but may have minor omissions or errors.",
+      "Student accurately and thoroughly identifies all key features from graphs and tables with only minor imperfections.",
+      "Student flawlessly identifies and explains all key features from graphs and tables, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student provides no interpretation of the key features in the context of the problem.",
+      "Student attempts to interpret key features but interpretations are nonsensical or completely detached from the context.",
+      "Student offers basic interpretations of some key features, but struggles to connect them to the context or makes significant errors.",
+      "Student interprets most key features in the context of the problem with reasonable accuracy, but may lack depth or precision.",
+      "Student effectively interprets key features in the context of the problem, demonstrating a good understanding of the relationship between the quantities.",
+      "Student provides insightful and nuanced interpretations of key features, demonstrating a deep and thorough understanding of the context and the relationships between quantities."
+    ],
+    [
+      "Student is unable to sketch a graph from the verbal description or produces a graph that bears no resemblance to the description.",
+      "Student attempts to sketch a graph, but the result is largely inaccurate, missing key features or misrepresenting the relationship.",
+      "Student sketches a graph that captures some of the key features from the description, but makes significant errors in shape, scale, or other important details.",
+      "Student sketches a graph that generally represents the verbal description accurately, but may have minor imperfections or omissions.",
+      "Student accurately sketches a graph that includes all key features described verbally, demonstrating a strong understanding of the relationship.",
+      "Student skillfully sketches a graph that perfectly represents the verbal description, demonstrating a comprehensive understanding of the relationship with precise detail."
+    ]
+  ]
+}

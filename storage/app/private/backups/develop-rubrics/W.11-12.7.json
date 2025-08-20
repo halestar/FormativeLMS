@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Focus and Purpose: How well the research project maintains a clear focus on the research question or problem.",
+    "Source Integration and Synthesis: How effectively the project synthesizes information from multiple sources to demonstrate understanding.",
+    "Inquiry and Breadth: The effectiveness of the inquiry process, including narrowing or broadening the scope as needed.",
+    "Understanding of the Subject: the degree to which the student demonstrates comprehension of the subject under investigation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The project lacks a clear focus, and the purpose is undefined.",
+      "The focus is vague, and the purpose is not clearly articulated.",
+      "The focus is somewhat defined, and the purpose is generally identifiable.",
+      "The focus is clear, and the purpose is well-defined and maintained throughout most of the project.",
+      "The focus is sharp, and the purpose is consistently maintained with minor digressions.",
+      "The focus is exceptionally clear and compelling, and the purpose is rigorously maintained throughout the project."
+    ],
+    [
+      "No sources are used, or the project relies on a single source without synthesis.",
+      "Sources are superficially integrated, with minimal synthesis of information.",
+      "Sources are integrated, but synthesis is limited and lacks depth.",
+      "Sources are effectively integrated, demonstrating a basic understanding of the subject through synthesis.",
+      "Sources are skillfully integrated, showing a strong understanding of the subject with insightful synthesis.",
+      "Sources are seamlessly integrated, demonstrating a comprehensive and nuanced understanding of the subject through sophisticated synthesis."
+    ],
+    [
+      "No inquiry is evident, and the scope is either too narrow or too broad without adjustment.",
+      "Inquiry is minimal, and the scope remains inappropriately narrow or broad.",
+      "Some inquiry is present, but the scope is not effectively adjusted.",
+      "The inquiry process is evident, with some adjustment of scope as appropriate.",
+      "The inquiry is well-executed, with effective narrowing or broadening of the scope to enhance understanding.",
+      "The inquiry is insightful and adaptive, demonstrating a sophisticated approach to adjusting the scope for optimal understanding and problem-solving."
+    ],
+    [
+      "Demonstrates no understanding of the subject matter.",
+      "Demonstrates very little understanding of the subject matter; misunderstanding of key elements.",
+      "Demonstrates some understanding of the subject matter; gaps in knowledge are apparent.",
+      "Demonstrates an adequate understanding of the subject matter; able to accurately describe most key aspects.",
+      "Demonstrates a strong understanding of the subject matter; comprehensive knowledge with some nuance.",
+      "Demonstrates a comprehensive and nuanced understanding of the subject matter; insightful grasp of complex issues."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Aims of Monetary Policy",
+    "Knowledge of the Tools of Monetary Policy",
+    "Analysis of the Influence on Economic Activity",
+    "Understanding the role of The Federal Reserve"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the aims of monetary policy.",
+      "Student demonstrates a very limited understanding of the aims of monetary policy, with significant misconceptions.",
+      "Student demonstrates a basic understanding of the aims of monetary policy, but struggles to explain them clearly.",
+      "Student demonstrates a satisfactory understanding of the aims of monetary policy, explaining them adequately.",
+      "Student demonstrates a strong understanding of the aims of monetary policy, explaining them clearly and accurately.",
+      "Student demonstrates a comprehensive understanding of the aims of monetary policy, explaining them clearly, accurately, and with insightful connections."
+    ],
+    [
+      "Student is unable to identify any tools of monetary policy.",
+      "Student identifies only one tool of monetary policy and demonstrates limited knowledge of it.",
+      "Student identifies some tools of monetary policy but struggles to explain how they work.",
+      "Student identifies several tools of monetary policy and explains how they work with some accuracy.",
+      "Student identifies most of the key tools of monetary policy and explains how they work accurately.",
+      "Student identifies all the key tools of monetary policy and explains how they work accurately and with insightful examples."
+    ],
+    [
+      "Student provides no analysis of the influence of monetary policy on economic activity.",
+      "Student provides a very basic and unclear analysis of the influence of monetary policy on economic activity.",
+      "Student provides a limited analysis of the influence of monetary policy on economic activity, with some inaccuracies.",
+      "Student provides a satisfactory analysis of the influence of monetary policy on economic activity, with reasonable accuracy.",
+      "Student provides a strong analysis of the influence of monetary policy on economic activity, demonstrating a clear understanding of the connections.",
+      "Student provides a comprehensive and insightful analysis of the influence of monetary policy on economic activity, demonstrating a deep understanding of the connections and complexities."
+    ],
+    [
+      "Student demonstrates no understanding of the role of the Federal Reserve.",
+      "Student demonstrates a very limited understanding of the role of the Federal Reserve, with significant misconceptions.",
+      "Student demonstrates a basic understanding of the role of the Federal Reserve, but struggles to explain it clearly.",
+      "Student demonstrates a satisfactory understanding of the role of the Federal Reserve, explaining it adequately.",
+      "Student demonstrates a strong understanding of the role of the Federal Reserve, explaining it clearly and accurately.",
+      "Student demonstrates a comprehensive understanding of the role of the Federal Reserve, explaining it clearly, accurately, and with insightful connections."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rights",
+    "Understanding of Obligations",
+    "Explanation of Reciprocity",
+    "Application to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of rights and their importance in a democratic society.",
+      "Shows a limited understanding of basic rights, with significant misconceptions.",
+      "Identifies some rights but struggles to explain their meaning or relevance.",
+      "Identifies and accurately describes several key rights in a democratic society.",
+      "Demonstrates a strong understanding of a wide range of rights and their significance.",
+      "Exhibits a comprehensive understanding of rights, including their historical context and contemporary relevance."
+    ],
+    [
+      "Demonstrates no understanding of obligations and their importance in a democratic society.",
+      "Shows a limited understanding of basic obligations, with significant misconceptions.",
+      "Identifies some obligations but struggles to explain their meaning or relevance.",
+      "Identifies and accurately describes several key obligations in a democratic society.",
+      "Demonstrates a strong understanding of a wide range of obligations and their significance.",
+      "Exhibits a comprehensive understanding of obligations, including their historical context and contemporary relevance."
+    ],
+    [
+      "Unable to explain any connection between rights and obligations.",
+      "Suggests a vague or inaccurate connection between rights and obligations.",
+      "Identifies that rights and obligations are related but struggles to explain how.",
+      "Explains the basic reciprocity between rights and obligations with a simple example.",
+      "Clearly explains the reciprocity between rights and obligations with multiple examples.",
+      "Provides a nuanced explanation of the reciprocity between rights and obligations, demonstrating a deep understanding of the concept and its implications."
+    ],
+    [
+      "Unable to apply the concept of reciprocity to any real-world scenarios.",
+      "Attempts to apply the concept to a scenario but demonstrates significant misunderstandings.",
+      "Can apply the concept to a simple scenario but struggles with more complex situations.",
+      "Applies the concept of reciprocity to a variety of real-world scenarios with reasonable accuracy.",
+      "Applies the concept effectively to a wide range of complex scenarios, demonstrating critical thinking.",
+      "Critically analyzes complex real-world scenarios, demonstrating a sophisticated understanding of how the reciprocity between rights and obligations plays out in practice."
+    ]
+  ]
+}

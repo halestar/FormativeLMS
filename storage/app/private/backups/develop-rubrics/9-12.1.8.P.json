@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Cancer Types",
+    "Description of Symptoms",
+    "Understanding of Cancer"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any types of cancer.",
+      "The student identifies one type of cancer.",
+      "The student identifies at least two common types of cancer but lacks accuracy.",
+      "The student accurately identifies at least three common types of cancer.",
+      "The student accurately identifies at least four common types of cancer and provides basic information about each.",
+      "The student accurately identifies multiple common types of cancer, providing detailed information about each type."
+    ],
+    [
+      "The student does not describe any symptoms of cancer.",
+      "The student mentions one symptom of cancer.",
+      "The student mentions a couple of symptoms but lacks understanding of the connection to cancer.",
+      "The student accurately describes at least three common symptoms of cancer.",
+      "The student accurately describes at least four common symptoms of cancer and explains their relevance.",
+      "The student comprehensively describes multiple common symptoms of cancer, explaining their relevance and variability across different cancers."
+    ],
+    [
+      "Demonstrates no understanding of cancer.",
+      "Demonstrates a very limited understanding of cancer, with significant misconceptions.",
+      "Demonstrates some basic understanding of cancer but does not show any understanding of the connection to symptoms.",
+      "Demonstrates an adequate understanding of cancer and can correctly relate some cancer types and symptoms.",
+      "Demonstrates a strong and detailed understanding of cancer and some cancer types and symptoms.",
+      "Demonstrates a comprehensive and nuanced understanding of cancer, including various cancer types, symptoms, and related factors."
+    ]
+  ]
+}

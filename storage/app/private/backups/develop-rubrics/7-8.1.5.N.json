@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Health-Promoting Diets: Assesses the student's ability to identify and describe the characteristics of diets that contribute to overall health and well-being.",
+    "Understanding of Diets Linked to Disease: Assesses the student's ability to identify and describe the characteristics of diets that increase the risk of disease.",
+    "Differentiation and Comparison: Assesses the student's ability to effectively compare and contrast health-promoting diets with diets linked to disease."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of health-promoting diets.",
+      "The student can vaguely identify a health-promoting diet but lacks specific details or explanations.",
+      "The student can identify a health-promoting diet and provide some basic characteristics, but with limited depth.",
+      "The student clearly identifies and describes the key characteristics of a health-promoting diet, including examples of beneficial foods and nutrients.",
+      "The student provides a comprehensive description of health-promoting diets, explaining the rationale behind their benefits and how they support various bodily functions.",
+      "The student demonstrates an advanced understanding of health-promoting diets, including the ability to tailor dietary recommendations to specific individual needs and health conditions."
+    ],
+    [
+      "The student demonstrates no understanding of diets linked to disease.",
+      "The student can vaguely identify a diet linked to disease but lacks specific details or explanations.",
+      "The student can identify a diet linked to disease and provide some basic characteristics, but with limited depth.",
+      "The student clearly identifies and describes the key characteristics of diets linked to disease, including examples of harmful foods and nutrients.",
+      "The student provides a comprehensive description of diets linked to disease, explaining the specific mechanisms by which they contribute to various health problems.",
+      "The student demonstrates an advanced understanding of diets linked to disease, including the ability to analyze and critique popular diet trends and their potential health consequences."
+    ],
+    [
+      "The student is unable to differentiate between health-promoting diets and diets linked to disease.",
+      "The student struggles to compare and contrast the two types of diets, providing only superficial observations.",
+      "The student identifies some key differences between the two types of diets but lacks a clear and organized comparison.",
+      "The student effectively compares and contrasts health-promoting diets and diets linked to disease, highlighting key differences in their composition and health effects.",
+      "The student provides a nuanced comparison of the two types of diets, considering factors such as portion size, food preparation methods, and individual dietary needs.",
+      "The student demonstrates a sophisticated ability to differentiate between health-promoting diets and diets linked to disease, including the ability to critically evaluate conflicting information and draw evidence-based conclusions."
+    ]
+  ]
+}

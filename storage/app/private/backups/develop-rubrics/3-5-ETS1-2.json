@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of potential solutions",
+    "Consideration of criteria and constraints",
+    "Quality of comparison and justification",
+    "Use of evidence and reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No potential solutions are identified.",
+      "One potential solution is identified, but it is not clearly related to the problem.",
+      "One potential solution is identified, and it is related to the problem, but lacks detail.",
+      "Two potential solutions are identified, both related to the problem, but lack detail or comparison.",
+      "Multiple potential solutions are identified, all related to the problem, with some detail and a basic comparison.",
+      "Multiple potential solutions are clearly identified and well-detailed, all related to the problem, with a thorough and insightful comparison."
+    ],
+    [
+      "Criteria and constraints are not mentioned or considered.",
+      "Criteria or constraints are mentioned, but not clearly defined or related to the solutions.",
+      "Criteria and constraints are mentioned and generally defined, but their impact on the solutions is not well-explained.",
+      "Criteria and constraints are clearly defined, and their impact on the solutions is discussed, but lacks depth.",
+      "Criteria and constraints are clearly defined, and their impact on the solutions is well-explained, demonstrating a good understanding of the problem's limitations.",
+      "Criteria and constraints are thoroughly defined, and their impact on the solutions is insightfully analyzed, demonstrating a sophisticated understanding of the problem's complexities."
+    ],
+    [
+      "No comparison or justification is provided.",
+      "A superficial comparison is made without clear justification.",
+      "A basic comparison is made with limited justification based on criteria and constraints.",
+      "A reasonable comparison is made with justification linked to some criteria and constraints.",
+      "A strong comparison is made with clear justification based on the defined criteria and constraints, highlighting strengths and weaknesses.",
+      "An insightful comparison is made with comprehensive justification based on a deep understanding of the criteria and constraints, clearly articulating the optimal solution."
+    ],
+    [
+      "No evidence or reasoning is presented.",
+      "Minimal or irrelevant evidence is presented with little reasoning.",
+      "Some evidence is presented, but the reasoning connecting it to the solutions is weak.",
+      "Adequate evidence is presented with reasonable reasoning to support the comparison of solutions.",
+      "Strong evidence is presented with clear and logical reasoning to support the comparison and evaluation of solutions.",
+      "Compelling evidence is presented with insightful and sophisticated reasoning, demonstrating a deep understanding of the problem and the proposed solutions."
+    ]
+  ]
+}

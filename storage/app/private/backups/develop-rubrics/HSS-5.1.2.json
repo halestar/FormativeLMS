@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Detail of Describing Customs",
+    "Accuracy and Detail of Describing Folklore Traditions",
+    "Breadth of Coverage of Various pre-Columbian Settlements"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the customs of pre-Columbian settlements.",
+      "The student mentions pre-Columbian settlements but provides inaccurate or very superficial details about their customs.",
+      "The student identifies pre-Columbian settlements and attempts to describe their customs, but the description lacks detail and may contain inaccuracies.",
+      "The student accurately describes a limited range of customs of pre-Columbian settlements, providing some detail.",
+      "The student comprehensively describes a variety of customs of pre-Columbian settlements with accurate and relevant details.",
+      "The student provides an exceptionally detailed and accurate description of a wide range of customs, demonstrating a deep understanding of their significance within pre-Columbian societies."
+    ],
+    [
+      "The student demonstrates no understanding of the folklore traditions of pre-Columbian settlements.",
+      "The student mentions pre-Columbian settlements but provides inaccurate or very superficial details about their folklore traditions.",
+      "The student identifies pre-Columbian settlements and attempts to describe their folklore traditions, but the description lacks detail and may contain inaccuracies.",
+      "The student accurately describes a limited range of folklore traditions of pre-Columbian settlements, providing some detail.",
+      "The student comprehensively describes a variety of folklore traditions of pre-Columbian settlements with accurate and relevant details.",
+      "The student provides an exceptionally detailed and accurate description of a wide range of folklore traditions, demonstrating a deep understanding of their significance within pre-Columbian societies."
+    ],
+    [
+      "The student does not address any pre-Columbian settlements.",
+      "The student mentions only one pre-Columbian settlement without describing its customs or folklore traditions.",
+      "The student identifies multiple pre-Columbian settlements but only describes the customs and folklore traditions of one.",
+      "The student describes the customs and folklore traditions of a few pre-Columbian settlements.",
+      "The student describes the customs and folklore traditions of several key pre-Columbian settlements, showcasing a good understanding of their diversity.",
+      "The student demonstrates comprehensive knowledge by describing the customs and folklore traditions of a wide range of pre-Columbian settlements, illustrating the breadth of pre-Columbian cultures."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Quality of Cited Textual Evidence",
+    "Accuracy and Depth of Analysis",
+    "Clarity and Coherence of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited, or the evidence is completely irrelevant to the analysis.",
+      "Cited textual evidence is weak, inaccurate, or does not support the analysis.",
+      "Some textual evidence is cited, but it is not always strong or clearly connected to the analysis.",
+      "Adequate textual evidence is cited and generally supports the analysis, but there may be inconsistencies or gaps.",
+      "Strong textual evidence is consistently cited to support the analysis, and connections are clearly explained.",
+      "Thorough and compelling textual evidence is cited to provide insightful support for the analysis, demonstrating a deep understanding of the text."
+    ],
+    [
+      "Analysis is missing, irrelevant, or demonstrates a complete misunderstanding of the text.",
+      "Analysis is superficial, inaccurate, or demonstrates a limited understanding of the text.",
+      "Analysis is present but may be simplistic, unclear, or based on misinterpretations.",
+      "Analysis is generally accurate and demonstrates a basic understanding of the text, but may lack depth or complexity.",
+      "Analysis is insightful and demonstrates a strong understanding of the text, with well-supported interpretations.",
+      "Analysis is nuanced, sophisticated, and demonstrates a deep and comprehensive understanding of the text, with original and well-reasoned interpretations."
+    ],
+    [
+      "Explanation is missing, incoherent, or impossible to understand.",
+      "Explanation is unclear, disorganized, or difficult to follow.",
+      "Explanation is somewhat clear but may lack logical organization or transitions.",
+      "Explanation is generally clear and organized, with mostly logical transitions between ideas.",
+      "Explanation is clear, concise, and well-organized, with smooth transitions between ideas.",
+      "Explanation is exceptionally clear, articulate, and logically structured, demonstrating mastery of communication skills."
+    ]
+  ]
+}

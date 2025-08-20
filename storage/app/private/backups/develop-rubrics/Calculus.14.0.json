@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately set up the integral based on the problem description.",
+    "Understanding and accurate application of integration techniques.",
+    "Correct interpretation of the integral in the context of the original problem."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to set up an integral that represents the given problem.",
+      "Attempts to set up the integral, but the representation is fundamentally flawed or missing key components.",
+      "Sets up the integral with significant errors or omissions, demonstrating a limited understanding of the problem's parameters.",
+      "Sets up the integral with minor errors or inconsistencies, showing a basic understanding of the problem.",
+      "Sets up the integral correctly with only very minor oversights, demonstrating a strong understanding of the problem.",
+      "Accurately and completely sets up the integral, demonstrating a comprehensive understanding of the problem's mathematical structure and physical context."
+    ],
+    [
+      "Displays no understanding of how to solve the integral.",
+      "Attempts to apply integration techniques, but the methods are inappropriate or incorrectly applied.",
+      "Applies integration techniques with significant errors, indicating a weak grasp of the necessary calculus skills.",
+      "Applies integration techniques with some errors, but generally follows a correct methodology.",
+      "Applies integration techniques correctly with only minor calculation errors.",
+      "Applies appropriate integration techniques flawlessly and arrives at the correct integral representation, showing mastery of calculus concepts."
+    ],
+    [
+      "Unable to relate the integral back to the original problem or context.",
+      "Attempts to interpret the integral, but the interpretation is nonsensical or unrelated to the problem.",
+      "Provides an interpretation of the integral that contains major conceptual errors or misunderstandings.",
+      "Offers a partially correct interpretation of the integral, but misses key nuances or implications.",
+      "Interprets the integral correctly, relating it back to the problem with a good level of detail and accuracy.",
+      "Provides a complete and insightful interpretation of the integral, clearly explaining its significance and implications within the original problem's context."
+    ]
+  ]
+}

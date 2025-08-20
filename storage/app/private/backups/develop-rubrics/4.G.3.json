@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying lines of symmetry",
+    "Ability to draw lines of symmetry",
+    "Understanding of line-symmetric figures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify lines of symmetry or demonstrates complete misunderstanding.",
+      "Identifies lines of symmetry with significant inaccuracies or only in very simple figures.",
+      "Identifies lines of symmetry in some figures, but makes frequent errors or omissions.",
+      "Generally identifies lines of symmetry correctly in most figures, with occasional minor errors.",
+      "Accurately identifies lines of symmetry in a variety of two-dimensional figures with few errors.",
+      "Consistently and accurately identifies all lines of symmetry in complex two-dimensional figures, demonstrating a thorough understanding."
+    ],
+    [
+      "Unable to draw lines of symmetry or demonstrates a complete misunderstanding of the concept.",
+      "Attempts to draw lines of symmetry, but the lines are inaccurate or misplaced.",
+      "Draws lines of symmetry with some accuracy, but may have difficulty with more complex figures.",
+      "Generally draws lines of symmetry correctly, with occasional minor errors in placement or orientation.",
+      "Accurately draws lines of symmetry in a variety of figures, demonstrating good understanding.",
+      "Consistently and accurately draws lines of symmetry in complex figures, demonstrating precision and a deep understanding of symmetry."
+    ],
+    [
+      "Demonstrates no understanding of line-symmetric figures.",
+      "Demonstrates limited understanding of line-symmetric figures; struggles to differentiate between symmetric and non-symmetric figures.",
+      "Identifies some line-symmetric figures, but shows inconsistencies or misunderstandings.",
+      "Generally understands line-symmetric figures and can identify them correctly in most cases.",
+      "Clearly understands line-symmetric figures and can accurately identify them and explain their properties.",
+      "Demonstrates a comprehensive understanding of line-symmetric figures, including the ability to explain their properties and identify them in novel or complex situations."
+    ]
+  ]
+}

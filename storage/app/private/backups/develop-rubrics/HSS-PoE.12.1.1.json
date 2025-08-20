@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Scarcity",
+    "Understanding of Choices and Trade-offs",
+    "Causal Relationship between Scarcity and Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of scarcity as an economic concept.",
+      "Student shows minimal understanding of scarcity, with significant misconceptions.",
+      "Student identifies scarcity but struggles to explain it accurately or provide relevant examples.",
+      "Student generally understands scarcity and can provide a basic explanation with limited examples.",
+      "Student demonstrates a clear understanding of scarcity and provides relevant examples.",
+      "Student demonstrates a comprehensive understanding of scarcity, providing nuanced examples and explaining its impact on economic decisions."
+    ],
+    [
+      "Student does not recognize that scarcity necessitates choices.",
+      "Student vaguely acknowledges the need for choices but fails to connect it to scarcity.",
+      "Student identifies choices but struggles to explain the concept of trade-offs or opportunity cost.",
+      "Student understands that choices involve trade-offs but provides simplistic explanations.",
+      "Student clearly explains how scarcity leads to choices and trade-offs, providing relevant examples of opportunity cost.",
+      "Student demonstrates a sophisticated understanding of how scarcity forces individuals and societies to make choices, analyzing the trade-offs and opportunity costs associated with different decisions."
+    ],
+    [
+      "Student does not recognize any relationship between scarcity and choices.",
+      "Student attempts to connect scarcity and choices, but the explanation is unclear and inaccurate.",
+      "Student identifies a link between scarcity and choices but struggles to explain the causal nature of the relationship.",
+      "Student explains the causal relationship between scarcity and choices in a general way, but the explanation lacks depth.",
+      "Student clearly explains the causal relationship between scarcity and choices, providing examples to illustrate how scarcity necessitates choices.",
+      "Student provides a comprehensive and insightful analysis of the causal relationship between scarcity and choices, demonstrating an understanding of how this relationship shapes economic behavior and decision-making at various levels."
+    ]
+  ]
+}

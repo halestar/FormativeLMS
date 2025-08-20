@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Naming the Five Senses",
+    "Clarity and Completeness of Descriptions",
+    "Understanding of the Function of Each Sense"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not name any of the five senses.",
+      "Names only one of the five senses correctly.",
+      "Names two of the five senses correctly.",
+      "Names three of the five senses correctly.",
+      "Names four of the five senses correctly.",
+      "Names all five senses correctly."
+    ],
+    [
+      "Provides no description or a completely irrelevant description.",
+      "Provides a description, but it lacks clarity and is incomplete.",
+      "Provides a somewhat clear, but still incomplete description for each sense.",
+      "Provides a generally clear description for each sense, but with minor omissions.",
+      "Provides clear and relatively complete descriptions for each sense.",
+      "Provides clear, complete, and accurate descriptions for all five senses."
+    ],
+    [
+      "Shows no understanding of the function of any of the senses.",
+      "Shows minimal understanding of the function of one sense.",
+      "Shows some understanding of the function of two senses.",
+      "Demonstrates a moderate understanding of the function of three senses.",
+      "Demonstrates a good understanding of the function of four senses.",
+      "Demonstrates a comprehensive understanding of the function of all five senses."
+    ]
+  ]
+}

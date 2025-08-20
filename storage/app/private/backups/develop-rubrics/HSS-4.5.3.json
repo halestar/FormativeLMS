@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Similarities Among Federal, State, and Local Governments",
+    "Understanding of the Differences Among Federal, State, and Local Governments",
+    "Accuracy and Specificity of Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the similarities among federal, state, and local governments.",
+      "The student identifies only one similarity among federal, state, and local governments.",
+      "The student identifies a few similarities (2-3) among federal, state, and local governments, but lacks depth in explanation.",
+      "The student identifies several similarities among federal, state, and local governments and provides basic explanations.",
+      "The student comprehensively identifies and explains several key similarities among federal, state, and local governments with clear examples.",
+      "The student expertly identifies and analyzes the nuances of the similarities among federal, state, and local governments, demonstrating a deep understanding of their shared foundational principles."
+    ],
+    [
+      "The student demonstrates no understanding of the differences among federal, state, and local governments.",
+      "The student identifies only one difference among federal, state, and local governments.",
+      "The student identifies a few differences (2-3) among federal, state, and local governments, but lacks depth in explanation.",
+      "The student identifies several differences among federal, state, and local governments and provides basic explanations.",
+      "The student comprehensively identifies and explains several key differences among federal, state, and local governments with clear examples.",
+      "The student expertly identifies and analyzes the nuances of the differences among federal, state, and local governments, demonstrating a deep understanding of their distinct functions and powers."
+    ],
+    [
+      "The student provides no examples or provides inaccurate examples.",
+      "The student provides one vague or partially accurate example.",
+      "The student provides a few (2-3) basic examples with limited accuracy or detail.",
+      "The student provides several accurate examples related to the similarities and differences among the levels of government.",
+      "The student provides detailed and accurate examples that clearly illustrate the similarities and differences among federal, state, and local governments.",
+      "The student provides insightful, accurate, and specific examples that demonstrate a sophisticated understanding of the complexities of governmental structures and powers."
+    ]
+  ]
+}

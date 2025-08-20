@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Public Policy Formation",
+    "Clarity and Accuracy in Explaining Key Concepts",
+    "Application of Knowledge to Real-World Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how public policy is formed.",
+      "Shows a very limited understanding of public policy formation, with significant gaps in knowledge.",
+      "Identifies some elements of public policy formation (agenda setting, regulations, executive orders) but struggles to explain the process.",
+      "Explains the basic process of public policy formation, including agenda setting and either regulations or executive orders, but not both.",
+      "Clearly explains the process of public policy formation, including agenda setting, regulations, and executive orders, with a good level of detail.",
+      "Provides a comprehensive explanation of public policy formation, including agenda setting, regulations, and executive orders, and can provide relevant examples and demonstrate critical thinking."
+    ],
+    [
+      "Explanation is unclear, inaccurate, or missing.",
+      "Explanation contains significant inaccuracies and lacks clarity.",
+      "Explanation is partially accurate but lacks clarity and depth.",
+      "Explanation is generally accurate and clear but could benefit from more detail.",
+      "Explanation is accurate, clear, and provides sufficient detail.",
+      "Explanation is exceptionally clear, accurate, detailed, and demonstrates a strong command of the subject matter."
+    ],
+    [
+      "Does not provide any real-world examples or attempts to apply knowledge.",
+      "Attempts to provide real-world examples but is unsuccessful or inaccurate.",
+      "Provides a weak or irrelevant real-world example.",
+      "Provides a relevant real-world example but does not fully explain its connection to public policy formation.",
+      "Provides a relevant real-world example and clearly explains its connection to public policy formation.",
+      "Provides multiple relevant and insightful real-world examples and thoroughly explains their connection to public policy formation, demonstrating a nuanced understanding."
+    ]
+  ]
+}

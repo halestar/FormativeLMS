@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Stellar Evolution and Element Production",
+    "Accuracy and Clarity in Communication",
+    "Application of Crosscutting Concepts (Energy and Matter)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how stars produce elements or the stages of stellar evolution.",
+      "Shows a limited understanding of either stellar evolution or element production, with significant misconceptions.",
+      "Displays a basic understanding of stellar evolution and element production but struggles to connect the two concepts.",
+      "Demonstrates a clear understanding of stellar evolution stages and how stars produce elements through nuclear fusion, but lacks depth.",
+      "Communicates a strong understanding of stellar evolution, element production, and the relationship between a star's mass and the elements it produces.",
+      "Provides a comprehensive and nuanced explanation of stellar evolution, nucleosynthesis, and the varying processes in stars of different masses, including supernova events."
+    ],
+    [
+      "Fails to communicate scientific ideas effectively; information is inaccurate and disorganized.",
+      "Communication is unclear and contains significant inaccuracies; struggles to use appropriate scientific terminology.",
+      "Communicates basic scientific ideas with some inaccuracies; organization is weak and terminology is sometimes inappropriate.",
+      "Communicates scientific ideas clearly and accurately, using appropriate terminology and organized in a logical manner.",
+      "Communicates scientific ideas with precision and clarity, using appropriate terminology and presenting information in a coherent and well-organized manner.",
+      "Communicates complex scientific ideas with exceptional clarity, accuracy, and sophistication; demonstrates mastery of scientific terminology and presents information in a compelling and insightful way."
+    ],
+    [
+      "Does not address the conservation of protons and neutrons in nuclear processes.",
+      "Shows a limited awareness of the role of energy and matter in stellar processes, with significant misconceptions.",
+      "Displays a basic understanding of the conservation of protons and neutrons, but does not connect this to the energy released during nuclear fusion.",
+      "Demonstrates an understanding of energy and matter conservation in nuclear processes within stars, but lacks depth.",
+      "Explains the role of energy and matter conservation in nuclear processes, relating it to element production in stars.",
+      "Provides a comprehensive and nuanced explanation of energy and matter conservation in stellar nucleosynthesis, including the conditions required for different nuclear reactions."
+    ]
+  ]
+}

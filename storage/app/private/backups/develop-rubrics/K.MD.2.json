@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately compare two objects based on a measurable attribute and describe the difference.",
+    "Understanding and application of appropriate units of measurement.",
+    "Clarity and precision in describing the comparison process and results."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify the measurable attribute or compare the objects.",
+      "Student identifies the measurable attribute but struggles to compare the objects or describe the difference.",
+      "Student compares the objects but provides an inaccurate description of the difference.",
+      "Student accurately compares the objects and provides a basic description of the difference.",
+      "Student accurately compares the objects and provides a detailed and clear description of the difference, using appropriate vocabulary.",
+      "Student accurately compares the objects, provides a detailed and clear description of the difference, and explains the comparison in the context of real-world scenarios, using precise mathematical language."
+    ],
+    [
+      "Student does not use or understand any units of measurement.",
+      "Student attempts to use units of measurement but uses them incorrectly or inconsistently.",
+      "Student uses units of measurement, but with some inaccuracies or inconsistencies.",
+      "Student generally uses appropriate units of measurement with minor inconsistencies.",
+      "Student consistently uses appropriate units of measurement correctly.",
+      "Student consistently and accurately uses appropriate units of measurement, and justifies the choice of units based on the context of the comparison."
+    ],
+    [
+      "Student's description is unclear and lacks precision, making it difficult to understand the comparison.",
+      "Student's description is somewhat unclear and lacks precision in some areas.",
+      "Student's description is understandable but could be more precise and clear.",
+      "Student provides a clear and reasonably precise description of the comparison.",
+      "Student provides a clear and precise description of the comparison, demonstrating a strong understanding of the process.",
+      "Student provides an exceptionally clear, precise, and insightful description of the comparison, reflecting a deep understanding and ability to communicate mathematical concepts effectively."
+    ]
+  ]
+}

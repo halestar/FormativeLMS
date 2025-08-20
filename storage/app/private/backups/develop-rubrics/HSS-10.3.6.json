@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Capitalism:",
+    "Knowledge of Alternative Economic Systems:",
+    "Analysis of Responses to Capitalism:"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the basic principles of capitalism.",
+      "The student shows a minimal understanding of capitalism, with significant inaccuracies.",
+      "The student identifies some key aspects of capitalism but struggles to explain them clearly.",
+      "The student explains the basic principles of capitalism, including private ownership and free markets, with reasonable clarity.",
+      "The student clearly explains the principles of capitalism and provides relevant examples of its implementation.",
+      "The student provides a comprehensive and nuanced explanation of capitalism, including its historical development and contemporary forms."
+    ],
+    [
+      "The student is unaware of any alternative economic systems to capitalism.",
+      "The student mentions one or two alternative systems but cannot describe them.",
+      "The student briefly describes one or two alternative systems, such as Utopianism or Socialism, but lacks depth.",
+      "The student describes at least three alternative systems (Utopianism, Social Democracy, Socialism, Communism) with some understanding of their core tenets.",
+      "The student clearly articulates the core principles and historical context of multiple alternative economic systems, demonstrating good comprehension.",
+      "The student provides an in-depth comparative analysis of capitalism and various alternative economic systems, including their strengths, weaknesses, and historical impact."
+    ],
+    [
+      "The student provides no analysis of the responses to capitalism.",
+      "The student mentions that some responses to capitalism exist but provides no details.",
+      "The student identifies one or two responses to capitalism but struggles to explain the reasons behind them.",
+      "The student explains how at least two alternative economic systems emerged as responses to perceived issues with capitalism.",
+      "The student analyzes the social, political, and economic factors that led to the development of various responses to capitalism.",
+      "The student offers a sophisticated analysis of the complex interplay between capitalism and the alternative systems that arose in response, considering diverse perspectives and long-term consequences."
+    ]
+  ]
+}

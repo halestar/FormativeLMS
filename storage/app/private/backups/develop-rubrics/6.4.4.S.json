@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Gang Involvement Risks",
+    "Effective Communication Skills",
+    "Refusal Skills Application",
+    "Knowledge of Alternative Resources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of the risks and consequences associated with gang involvement.",
+      "Demonstrates minimal awareness of the risks of gang involvement.",
+      "Identifies some risks of gang involvement, but with limited detail.",
+      "Understands several risks and consequences of gang involvement.",
+      "Clearly articulates numerous risks and consequences of gang involvement, showing good understanding.",
+      "Demonstrates comprehensive understanding of the risks and consequences of gang involvement, including social, legal, and personal impacts."
+    ],
+    [
+      "Unable to demonstrate effective communication skills in refusal scenarios.",
+      "Shows difficulty in using communication skills to refuse gang involvement.",
+      "Attempts to use communication skills but struggles to be assertive or clear.",
+      "Uses communication skills adequately to refuse gang involvement in some scenarios.",
+      "Effectively uses communication skills, including assertive language and body language, to refuse gang involvement.",
+      "Masterfully employs a variety of communication strategies to confidently and clearly refuse gang involvement, adapting to different social contexts."
+    ],
+    [
+      "Does not demonstrate any refusal skills in simulated scenarios.",
+      "Shows limited ability to apply refusal skills.",
+      "Attempts to use refusal skills but is easily swayed by peer pressure.",
+      "Applies refusal skills in some situations, but not consistently.",
+      "Consistently uses refusal skills to resist pressure to join a gang in various scenarios.",
+      "Demonstrates exceptional ability to use and adapt refusal skills in complex and challenging situations, effectively resisting pressure to join a gang."
+    ],
+    [
+      "Is unaware of any alternative resources or support systems.",
+      "Knows of one or two alternative resources but lacks detail.",
+      "Identifies a few alternative resources but doesn't explain how they can help.",
+      "Describes several alternative resources and support systems available in the community.",
+      "Demonstrates good knowledge of various alternative resources and explains how they can be accessed and utilized.",
+      "Exhibits comprehensive knowledge of numerous alternative resources, including community programs and support networks, and can effectively advocate for their use."
+    ]
+  ]
+}

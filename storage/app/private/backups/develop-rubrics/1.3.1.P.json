@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify and list individuals who promote health within the school environment.",
+    "Ability to identify and list individuals in the community who promote health.",
+    "Demonstrates understanding of the specific actions and roles that constitute 'promoting health'."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any individuals in the school who promote health.",
+      "Identifies one individual in the school who promotes health, but the choice may be vague or not clearly health-related.",
+      "Identifies 2 individuals in the school, but descriptions of their roles in promoting health are minimal.",
+      "Identifies 3 individuals in the school and provides a basic description of how they promote health.",
+      "Identifies 4 individuals in the school and clearly explains their roles in promoting health with specific examples.",
+      "Identifies 5 or more individuals in the school, thoroughly explains their roles in promoting health, and provides insightful examples of their impact."
+    ],
+    [
+      "Does not identify any individuals in the community who promote health.",
+      "Identifies one individual in the community who promotes health, but the choice may be vague or not clearly health-related.",
+      "Identifies 2 individuals in the community, but descriptions of their roles in promoting health are minimal.",
+      "Identifies 3 individuals in the community and provides a basic description of how they promote health.",
+      "Identifies 4 individuals in the community and clearly explains their roles in promoting health with specific examples.",
+      "Identifies 5 or more individuals in the community, thoroughly explains their roles in promoting health, and provides insightful examples of their impact."
+    ],
+    [
+      "Shows no understanding of what actions or roles constitute promoting health.",
+      "Demonstrates a limited understanding, with vague or incorrect examples of how individuals promote health.",
+      "Demonstrates some understanding, but the explanations of how individuals promote health are superficial.",
+      "Demonstrates a clear understanding, providing accurate descriptions of how individuals promote health.",
+      "Demonstrates a strong understanding, providing detailed and relevant explanations of how individuals promote health with supporting reasons.",
+      "Demonstrates an exceptional understanding, providing insightful and nuanced explanations of how individuals promote health, including analysis of the effectiveness of their actions."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Organisms and Abiotic Components",
+    "Description of Interactions Between Organisms",
+    "Prediction of Interaction Patterns",
+    "Consideration of Environmental Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify organisms or abiotic components in the ecosystem.",
+      "Identifies only organisms or only abiotic components, but not both.",
+      "Identifies some organisms and abiotic components, but with significant omissions or inaccuracies.",
+      "Identifies most of the significant organisms and abiotic components in the ecosystem with minor inaccuracies.",
+      "Identifies nearly all significant organisms and abiotic components accurately.",
+      "Accurately and comprehensively identifies all significant organisms and abiotic components, demonstrating a thorough understanding of their roles."
+    ],
+    [
+      "Fails to describe any interactions between organisms in the ecosystem.",
+      "Describes a single type of interaction (e.g., predation) with limited detail.",
+      "Describes multiple types of interactions, but lacks depth or accuracy.",
+      "Describes several key interactions (competitive, predatory, mutually beneficial) with reasonable accuracy.",
+      "Provides detailed and accurate descriptions of competitive, predatory, and mutually beneficial interactions.",
+      "Offers comprehensive and insightful descriptions of interactions, including their complexities and nuances within the ecosystem."
+    ],
+    [
+      "Does not attempt to predict any interaction patterns.",
+      "Attempts a prediction, but it is illogical or unsupported by evidence.",
+      "Predicts patterns with limited justification or understanding of cause-and-effect relationships.",
+      "Predicts interaction patterns based on some evidence, but the explanation lacks depth.",
+      "Clearly predicts interaction patterns based on evidence and explains cause-and-effect relationships.",
+      "Predicts interaction patterns accurately, thoroughly explains cause-and-effect relationships, and extends the prediction to other ecosystems."
+    ],
+    [
+      "Demonstrates no awareness of environmental principles.",
+      "Mentions one environmental principle vaguely.",
+      "Mentions multiple environmental principles but does not connect them to the ecosystem.",
+      "Connects some environmental principles to the functioning of the ecosystem, but the connections are superficial.",
+      "Connects multiple environmental principles to the ecosystem, explaining how human actions influence ecosystem health.",
+      "Deeply integrates environmental principles, thoroughly explaining how human societies and natural systems interact, and proposes solutions for sustainability."
+    ]
+  ]
+}

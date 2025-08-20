@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Healthy Alternatives",
+    "Realism and Feasibility of the Plan",
+    "Understanding of Risks Associated with Tobacco and Drug Use"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The plan does not identify any healthy alternatives to tobacco and drug use.",
+      "The plan identifies at least one unhealthy alternative to tobacco and drug use.",
+      "The plan identifies one healthy alternative, but it is poorly explained or unrealistic.",
+      "The plan identifies two healthy alternatives, with a basic explanation of their benefits.",
+      "The plan identifies three healthy alternatives and explains their benefits clearly.",
+      "The plan identifies multiple healthy alternatives, explains their benefits in detail, and shows how they can be integrated into daily life."
+    ],
+    [
+      "The plan is completely unrealistic and impossible to implement.",
+      "The plan contains unrealistic elements and lacks practical steps for implementation.",
+      "The plan is somewhat realistic but lacks detail on how to overcome potential barriers.",
+      "The plan is realistic and includes some strategies for overcoming potential barriers.",
+      "The plan is highly realistic, detailed, and provides effective strategies for overcoming potential barriers.",
+      "The plan is exceptionally realistic, detailed, and offers innovative and personalized strategies for overcoming potential barriers, demonstrating a deep understanding of personal circumstances and resources."
+    ],
+    [
+      "The plan does not demonstrate any understanding of the risks associated with tobacco and drug use.",
+      "The plan demonstrates a minimal understanding of the risks associated with tobacco and drug use.",
+      "The plan acknowledges some risks but lacks specific details or accurate information.",
+      "The plan identifies several risks associated with tobacco and drug use and provides some accurate information.",
+      "The plan clearly and accurately explains multiple risks associated with tobacco and drug use, demonstrating a solid understanding of the consequences.",
+      "The plan provides a comprehensive and nuanced understanding of the risks associated with tobacco and drug use, including long-term health effects, social consequences, and potential for addiction. It demonstrates the ability to apply this knowledge to make informed decisions."
+    ]
+  ]
+}

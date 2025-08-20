@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Clarity and Precision of Claim(s)",
+    "Development of Claim(s) and Counterclaims",
+    "Use of Language to Connect Ideas",
+    "Style, Tone, and Conventions",
+    "Concluding Statement or Section"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The claim is missing, unclear, or completely irrelevant to the topic.",
+      "The claim is vague, lacks focus, and is not clearly connected to the topic.",
+      "The claim is identifiable but lacks precision and a clear connection to the topic. Significance is not established.",
+      "The claim is reasonably clear and connected to the topic. Significance is addressed, but could be stronger.",
+      "The claim is precise, clearly connected to the topic, and its significance is well-established. Alternate claims are acknowledged.",
+      "The claim is exceptionally clear, insightful, and precisely connected to the topic. The significance is compellingly established, and alternate claims are thoughtfully distinguished."
+    ],
+    [
+      "No claims or counterclaims are present.",
+      "Claims and counterclaims are stated without any supporting data or evidence.",
+      "Claims and counterclaims are superficially developed with limited or irrelevant data and evidence.",
+      "Claims and counterclaims are developed with relevant data and evidence, but some limitations are not addressed.",
+      "Claims and counterclaims are thoroughly developed with relevant and sufficient data and evidence. Strengths and limitations are acknowledged.",
+      "Claims and counterclaims are expertly developed with compelling data and evidence. Strengths and limitations are thoroughly analyzed, anticipating audience biases."
+    ],
+    [
+      "The writing lacks cohesion, and there are no transitions between ideas.",
+      "Transitions are minimal, awkward, or inappropriate, leading to disjointed writing.",
+      "Transitions are present but simplistic and do not effectively link major sections or clarify relationships between ideas.",
+      "Transitions are used to connect sections and clarify relationships, but some connections are weak or unclear.",
+      "Varied syntax and effective transitions are used to create cohesion and clarify the relationships between claims, reasons, and evidence.",
+      "Sophisticated language and syntax are skillfully used to create seamless cohesion and illuminate the complex relationships between claims, reasons, evidence, and counterclaims."
+    ],
+    [
+      "The writing is informal, inappropriate for the discipline, and lacks objectivity.",
+      "The style is inconsistent, the tone is not objective, and conventions are largely ignored.",
+      "The style is somewhat formal, and the tone is mostly objective, but there are lapses in following conventions.",
+      "The writing generally maintains a formal style and objective tone, with reasonable adherence to disciplinary conventions.",
+      "The writing consistently maintains a formal style and objective tone, with strong adherence to disciplinary conventions.",
+      "The writing exemplifies a formal style and objective tone, demonstrating a sophisticated understanding of disciplinary conventions and norms."
+    ],
+    [
+      "There is no concluding statement or section.",
+      "The conclusion is abrupt, missing, or does not follow from the argument.",
+      "The conclusion is weak and only vaguely related to the argument presented.",
+      "The conclusion summarizes the argument but does not add new insight or support.",
+      "The conclusion effectively summarizes and supports the argument presented.",
+      "The conclusion provides a compelling synthesis of the argument, leaving the reader with a clear understanding of its significance and implications."
+    ]
+  ]
+}

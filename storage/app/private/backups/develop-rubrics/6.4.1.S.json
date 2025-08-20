@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates clear and respectful communication.",
+    "Identifies and articulates potential risks and consequences.",
+    "Applies communication strategies to navigate risky situations effectively."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to communicate respectfully; communication is unclear or inappropriate.",
+      "Communication is sometimes unclear or disrespectful.",
+      "Communication is generally clear but may lack respect or sensitivity.",
+      "Communication is clear and generally respectful, considering the audience.",
+      "Communication is consistently clear, respectful, and tailored to the situation.",
+      "Communication is exceptionally clear, respectful, and effectively prevents or avoids risky situations through thoughtful articulation."
+    ],
+    [
+      "Fails to identify potential risks or consequences.",
+      "Identifies very few potential risks or consequences.",
+      "Identifies some risks and consequences, but lacks detail.",
+      "Identifies most risks and consequences relevant to the situation.",
+      "Clearly identifies and articulates potential risks and consequences with considerable detail.",
+      "Thoroughly and insightfully identifies and articulates potential risks and consequences, demonstrating a deep understanding of the situation."
+    ],
+    [
+      "Does not attempt to apply communication strategies.",
+      "Attempts to use strategies, but they are inappropriate or ineffective.",
+      "Uses basic strategies with limited effectiveness.",
+      "Applies appropriate communication strategies to navigate the situation with some success.",
+      "Effectively applies a range of communication strategies to navigate the risky situation.",
+      "Masterfully applies a variety of communication strategies to expertly navigate the risky situation, demonstrating adaptability and problem-solving skills."
+    ]
+  ]
+}

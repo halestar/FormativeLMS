@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Reading Comprehension: Ability to understand explicit and implicit meanings within the text.",
+    "Textual Analysis: Skill in interpreting and analyzing literary devices, figurative language, and structural elements.",
+    "Vocabulary and Language Use: Command of vocabulary and ability to understand and use language appropriate for the text's complexity.",
+    "Independent Reading: Ability to read and comprehend texts independently and proficiently within the grade level's complexity band."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the text; unable to identify basic plot points or character information.",
+      "Struggles to understand the text; misinterprets key plot points and character motivations.",
+      "Demonstrates a basic understanding of the text; identifies some plot points and character information, but misses nuances.",
+      "Comprehends the main ideas of the text; accurately identifies plot points, characters, and themes.",
+      "Demonstrates a strong understanding of the text; analyzes plot points, characters, and themes with supporting evidence.",
+      "Exhibits a deep and insightful understanding of the text; analyzes complex themes, literary devices, and character development with sophisticated reasoning."
+    ],
+    [
+      "Unable to identify any literary devices or figurative language in the text.",
+      "Identifies a few literary devices or figurative language, but struggles to explain their purpose or effect.",
+      "Identifies some literary devices and figurative language, but provides superficial analysis.",
+      "Analyzes literary devices and figurative language with a basic understanding of their effect on the text.",
+      "Analyzes literary devices and figurative language with a clear understanding of their effect on the text; provides relevant examples.",
+      "Demonstrates a sophisticated understanding of literary devices and figurative language; provides insightful analysis of their complex effects on the text."
+    ],
+    [
+      "Demonstrates limited vocabulary; struggles to understand the language used in the text.",
+      "Misunderstands many vocabulary words; has difficulty comprehending complex sentences.",
+      "Understands basic vocabulary; may struggle with more complex or nuanced language.",
+      "Demonstrates a good command of vocabulary; comprehends complex sentences and nuanced language.",
+      "Demonstrates a strong command of vocabulary; accurately interprets nuanced language and understands complex sentences.",
+      "Exhibits a sophisticated command of vocabulary and language; demonstrates a nuanced understanding of complex sentence structures and literary language."
+    ],
+    [
+      "Unable to read the text independently; requires significant assistance to understand basic meaning.",
+      "Reads the text with difficulty; requires frequent assistance to understand key plot points and character information.",
+      "Reads the text with some difficulty; occasionally requires assistance to clarify meaning.",
+      "Reads the text independently with a general understanding of the content.",
+      "Reads the text independently and comprehends the content proficiently.",
+      "Reads the text independently, comprehends the content proficiently, and engages with the text critically and thoughtfully."
+    ]
+  ]
+}

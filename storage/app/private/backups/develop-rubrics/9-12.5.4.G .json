@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Risks Associated with Sexual Activities",
+    "Understanding of Consequences Associated with Sexual Activities",
+    "Ability to Evaluate Risks and Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the risks associated with sexual activities, including HIV, other STDs, and pregnancy.",
+      "Demonstrates a minimal understanding of the risks associated with sexual activities. Shows significant gaps in knowledge.",
+      "Demonstrates a basic understanding of some risks associated with sexual activities but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of most risks associated with sexual activities, including HIV, other STDs, and pregnancy.",
+      "Demonstrates a comprehensive understanding of the risks associated with sexual activities. Explains the risks clearly and accurately.",
+      "Demonstrates an exceptional understanding of the risks associated with sexual activities and can analyze the potential consequences in detail."
+    ],
+    [
+      "Demonstrates no understanding of the consequences associated with sexual activities, including HIV, other STDs, and pregnancy.",
+      "Demonstrates a minimal understanding of the consequences associated with sexual activities. Shows significant gaps in knowledge.",
+      "Demonstrates a basic understanding of some consequences associated with sexual activities but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of most consequences associated with sexual activities, including HIV, other STDs, and pregnancy.",
+      "Demonstrates a comprehensive understanding of the consequences associated with sexual activities. Explains the consequences clearly and accurately.",
+      "Demonstrates an exceptional understanding of the consequences associated with sexual activities and can analyze the potential consequences in detail."
+    ],
+    [
+      "Unable to evaluate the risks and consequences associated with sexual activities.",
+      "Shows limited ability to evaluate the risks and consequences associated with sexual activities.",
+      "Demonstrates some ability to evaluate the risks and consequences but struggles with complex scenarios.",
+      "Demonstrates a satisfactory ability to evaluate the risks and consequences associated with sexual activities.",
+      "Demonstrates a strong ability to evaluate the risks and consequences associated with sexual activities and can apply this knowledge to different situations.",
+      "Demonstrates an exceptional ability to evaluate the risks and consequences associated with sexual activities. Can provide nuanced and insightful analysis."
+    ]
+  ]
+}

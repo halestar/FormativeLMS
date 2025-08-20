@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Argument",
+    "Use of Evidence",
+    "Understanding of Cause and Effect",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Argument is missing or completely inaccurate, showing no understanding of how organisms survive in a habitat.",
+      "Argument is present but contains significant inaccuracies or lacks supporting evidence.",
+      "Argument is mostly accurate but may have minor inaccuracies or weak connections to evidence.",
+      "Argument is accurate and supported by some evidence, demonstrating a basic understanding of organism survival in a habitat.",
+      "Argument is accurate, well-supported by evidence, and demonstrates a clear understanding of how different organisms thrive or struggle in a habitat.",
+      "Argument is exceptionally accurate, insightful, and thoroughly supported by compelling evidence, demonstrating a deep understanding of the complex relationships between organisms and their habitat."
+    ],
+    [
+      "No evidence is presented, or the evidence is irrelevant.",
+      "Limited evidence is presented, and it is not clearly connected to the argument.",
+      "Some evidence is presented, but its relevance to the argument is questionable.",
+      "Relevant evidence is presented to support the argument, but further details would strengthen it.",
+      "Strong evidence is presented to support the argument, with clear explanations of its relevance.",
+      "Comprehensive and compelling evidence is presented, demonstrating a sophisticated understanding of the organisms and their habitat. The evidence is woven seamlessly into the argument."
+    ],
+    [
+      "Demonstrates no understanding of cause and effect relationships between organisms and their environment.",
+      "Shows a limited or inaccurate understanding of cause and effect relationships.",
+      "Identifies some cause and effect relationships, but the explanation lacks depth.",
+      "Clearly identifies cause and effect relationships between organisms and their ability to survive in a habitat.",
+      "Explains cause and effect relationships in detail, showing how environmental factors impact the survival of organisms.",
+      "Demonstrates a sophisticated understanding of the complex interplay of cause and effect relationships within the habitat, including long-term consequences for organisms."
+    ],
+    [
+      "The argument is unclear, disorganized, and difficult to follow.",
+      "The argument lacks clarity and organization, making it challenging to understand.",
+      "The argument is somewhat organized but could be clearer and more concise.",
+      "The argument is presented in a clear and organized manner, making it easy to follow.",
+      "The argument is exceptionally clear, well-organized, and logically structured.",
+      "The argument is presented with exceptional clarity, logical flow, and sophisticated use of language, enhancing the overall impact and persuasiveness."
+    ]
+  ]
+}

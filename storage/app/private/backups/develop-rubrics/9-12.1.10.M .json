@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying warning signs of suicide.",
+    "Understanding the importance of seeking help.",
+    "Ability to distinguish between myths and facts about suicide."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any warning signs or provides incorrect information.",
+      "Identifies one or two vague signs that could possibly relate to suicide but lacks detail or accuracy.",
+      "Identifies a few common warning signs but misses more subtle or less obvious indicators.",
+      "Identifies several key warning signs of suicide with reasonable accuracy.",
+      "Accurately identifies most warning signs of suicide and demonstrates a solid understanding of their significance.",
+      "Comprehensively and accurately identifies a wide range of warning signs, including subtle indicators, and explains their significance with depth and insight."
+    ],
+    [
+      "Does not demonstrate an understanding of seeking help or believes it is not important.",
+      "Minimally acknowledges the importance of seeking help but does not provide specific reasons why.",
+      "Understands seeking help is important in certain situations, but struggles to explain when and why.",
+      "Explains that seeking help is important and provides some reasons why, such as preventing harm.",
+      "Clearly articulates the importance of seeking help and provides detailed reasons, demonstrating empathy and understanding.",
+      "Demonstrates a deep understanding of the importance of seeking help, advocating for it proactively and understanding barriers that might prevent individuals from seeking support."
+    ],
+    [
+      "Unable to distinguish between myths and facts about suicide or believes in common misconceptions.",
+      "Distinguishes one or two myths about suicide from facts, but still holds onto some misconceptions.",
+      "Correctly identifies a few myths about suicide, but struggles with more nuanced or less common misconceptions.",
+      "Identifies several common myths about suicide and explains why they are incorrect.",
+      "Accurately identifies most common myths about suicide and replaces them with factual information, demonstrating critical thinking.",
+      "Comprehensively identifies a wide range of myths about suicide, articulates why they are incorrect, and provides accurate information with detailed explanations and supporting evidence."
+    ]
+  ]
+}

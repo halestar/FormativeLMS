@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Seminal Documents",
+    "Analysis of Themes and Concepts",
+    "Comparison and Connection of Related Themes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any seminal U.S. documents.",
+      "The student identifies one seminal U.S. document but struggles to provide relevant context.",
+      "The student identifies two seminal U.S. documents but provides limited context or explanation.",
+      "The student identifies three seminal U.S. documents and provides adequate context for each.",
+      "The student identifies four seminal U.S. documents and provides thorough context, demonstrating understanding of their historical and literary significance.",
+      "The student identifies multiple seminal U.S. documents and provides comprehensive context, demonstrating a nuanced understanding of their historical and literary significance."
+    ],
+    [
+      "The student fails to analyze themes or concepts within the documents.",
+      "The student attempts to analyze themes or concepts but demonstrates a superficial understanding.",
+      "The student identifies one theme or concept within the documents but provides limited analysis.",
+      "The student identifies two themes or concepts and provides adequate analysis of their significance.",
+      "The student identifies multiple themes or concepts and provides thorough analysis, connecting them to broader historical or literary contexts.",
+      "The student identifies and analyzes multiple complex themes and concepts with insightful connections to their historical and literary significance."
+    ],
+    [
+      "The student fails to make connections between related themes across different documents.",
+      "The student attempts to connect related themes but demonstrates a weak understanding of the connections.",
+      "The student identifies a basic connection between themes in two documents but lacks depth in their explanation.",
+      "The student draws reasonable connections between themes across multiple documents, supporting their claims with examples.",
+      "The student makes insightful connections between related themes and concepts across different documents, providing detailed explanations and textual evidence.",
+      "The student synthesizes complex, related themes and concepts across multiple documents, offering a nuanced perspective on their interconnectedness and lasting impact."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of transactional and informal topics",
+    "Use of basic sentence-level elements (morphology and syntax)",
+    "Ability to communicate using structures for major time frames and text structures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of transactional and informal topics related to self and immediate environment.",
+      "Demonstrates minimal understanding of transactional and informal topics; struggles to grasp basic concepts.",
+      "Shows limited understanding of transactional and informal topics, with frequent misunderstandings.",
+      "Demonstrates a general understanding of transactional and informal topics related to self and immediate environment.",
+      "Shows a strong understanding of transactional and informal topics, with clear and accurate interpretations.",
+      "Demonstrates a comprehensive and nuanced understanding of transactional and informal topics; able to apply knowledge effectively."
+    ],
+    [
+      "No use of basic sentence-level elements; complete lack of morphology and syntax.",
+      "Struggles to form basic sentences; morphology and syntax are largely incorrect.",
+      "Demonstrates limited use of sentence-level elements; frequent errors in morphology and syntax impede communication.",
+      "Generally uses basic sentence-level elements, with some errors in morphology and syntax.",
+      "Uses basic sentence-level elements effectively, with few errors in morphology and syntax.",
+      "Demonstrates mastery of basic sentence-level elements; morphology and syntax are consistently accurate and enhance communication."
+    ],
+    [
+      "Unable to use structures for major time frames or text structures.",
+      "Rarely attempts to use structures for major time frames and text structures; demonstration is confusing and hard to follow.",
+      "Attempts to use structures for major time frames and text structures, but struggles with accurate application.",
+      "Generally demonstrates communication using structures for major time frames and text structures, but struggles with accurate application.",
+      "Demonstrates effective communication using structures for major time frames and text structures, enhancing clarity.",
+      "Masterfully uses structures for major time frames and text structures to communicate effectively."
+    ]
+  ]
+}

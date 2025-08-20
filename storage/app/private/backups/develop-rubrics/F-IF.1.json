@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Function Notation",
+    "Defining Domain and Range",
+    "Interpreting Functions",
+    "Graphing Functions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of function notation.",
+      "Student struggles to use function notation and often misinterprets its meaning.",
+      "Student shows a basic understanding of function notation but makes frequent errors in its application.",
+      "Student correctly uses function notation in most cases but may occasionally make mistakes or lack precision.",
+      "Student demonstrates a strong understanding of function notation and accurately applies it in various contexts.",
+      "Student exhibits a comprehensive understanding of function notation, using it flawlessly and explaining its nuances with clarity."
+    ],
+    [
+      "Student is unable to identify or define the domain and range of a function.",
+      "Student demonstrates limited understanding of domain and range and struggles to identify them correctly.",
+      "Student can identify domain and range in simple functions but has difficulty with more complex examples.",
+      "Student accurately identifies domain and range for most functions but may need assistance with unconventional cases.",
+      "Student consistently and accurately defines and identifies the domain and range of various functions.",
+      "Student demonstrates a deep understanding of domain and range, including constraints and implications, and can explain them effectively."
+    ],
+    [
+      "Student cannot interpret a function's meaning or behavior based on its notation or graph.",
+      "Student attempts to interpret functions but struggles to draw accurate conclusions or make meaningful inferences.",
+      "Student can interpret basic functions but has difficulty with more abstract or complex representations.",
+      "Student correctly interprets functions in most situations but may occasionally miss subtle details or nuances.",
+      "Student demonstrates a strong ability to interpret functions accurately and draw relevant conclusions from them.",
+      "Student exhibits a sophisticated understanding of function interpretation, including predicting behavior and explaining implications with insight."
+    ],
+    [
+      "Student is unable to create or interpret graphs of functions.",
+      "Student struggles to create or interpret function graphs and makes frequent errors.",
+      "Student can create and interpret basic function graphs but has difficulty with more complex examples or transformations.",
+      "Student accurately creates and interprets most function graphs but may need assistance with specific features or details.",
+      "Student consistently and accurately creates and interprets graphs of various functions, demonstrating a strong understanding of graphical representation.",
+      "Student exhibits a comprehensive understanding of function graphing, including transformations, asymptotes, and intercepts, and can explain their significance effectively."
+    ]
+  ]
+}

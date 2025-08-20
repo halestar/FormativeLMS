@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Factors Contributing to Injuries",
+    "Analysis of Prevention Strategies",
+    "Critical Thinking and Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of factors contributing to injuries.",
+      "Identifies very few factors contributing to injuries.",
+      "Identifies some factors contributing to injuries, but explanation lacks depth.",
+      "Identifies several factors contributing to injuries with a basic explanation.",
+      "Clearly identifies and explains multiple factors contributing to injuries, including the role of self and others.",
+      "Provides a comprehensive and insightful analysis of multiple factors contributing to injuries, including a nuanced understanding of the role of self and others, and provides supporting examples."
+    ],
+    [
+      "Suggests no strategies for preventing injuries.",
+      "Suggests a few ineffective or unrealistic strategies for preventing injuries.",
+      "Suggests some basic strategies for preventing injuries, but they are not well-explained.",
+      "Suggests several relevant strategies for preventing injuries with some explanation.",
+      "Clearly articulates and explains multiple effective strategies for preventing injuries, addressing both self and others.",
+      "Provides a detailed and insightful analysis of a wide range of prevention strategies, demonstrating a comprehensive understanding of their effectiveness and application to self and others, including specific examples."
+    ],
+    [
+      "Demonstrates no critical thinking or application of concepts.",
+      "Shows limited critical thinking or application of concepts.",
+      "Shows some critical thinking, but application to real-world scenarios is limited.",
+      "Demonstrates reasonable critical thinking and application of concepts to real-world scenarios.",
+      "Demonstrates strong critical thinking and applies concepts effectively to real-world scenarios, demonstrating understanding of the consequences.",
+      "Demonstrates exceptional critical thinking and insightful application of concepts to a variety of complex real-world scenarios, anticipating potential consequences and offering innovative solutions."
+    ]
+  ]
+}

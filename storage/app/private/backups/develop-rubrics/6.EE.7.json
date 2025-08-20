@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Equation Structure",
+    "Ability to Formulate Equations",
+    "Accuracy in Solving Equations",
+    "Application of Solutions to Real-World Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic equation structure or the roles of variables and constants.",
+      "Shows a limited understanding of equation structure, struggling to identify variables, constants, and operations.",
+      "Identifies variables, constants, and operations but struggles to relate them in the context of the equation.",
+      "Understands the relationship between variables and constants within the equation structure.",
+      "Clearly and accurately explains the structure of the equation and the relationship between its components.",
+      "Demonstrates a comprehensive understanding of equation structure, including complex relationships and implications for solving."
+    ],
+    [
+      "Unable to translate real-world problems into mathematical equations.",
+      "Struggles significantly to translate real-world problems into mathematical equations.",
+      "Can identify some elements of a real-world problem that can be translated into an equation, but has difficulty with full formulation.",
+      "Formulates basic equations from real-world problems with some guidance.",
+      "Independently and accurately formulates equations from real-world problems.",
+      "Skillfully translates complex real-world scenarios into accurate and solvable mathematical equations."
+    ],
+    [
+      "Unable to solve equations of the form x + p = q or px = q.",
+      "Attempts to solve equations but makes significant errors in applying operations.",
+      "Solves simple equations with frequent errors or relies heavily on assistance.",
+      "Solves equations of the form x + p = q and px = q with minor errors.",
+      "Consistently solves equations accurately and efficiently, showing all necessary steps.",
+      "Demonstrates mastery in solving equations, including providing alternative solution methods and verifying accuracy."
+    ],
+    [
+      "Unable to relate the solution of an equation back to the original real-world problem.",
+      "Struggles to interpret the solution of an equation in the context of the real-world problem.",
+      "Provides a solution but does not fully explain its relevance to the real-world context.",
+      "Explains the solution in the context of the real-world problem with some clarity.",
+      "Clearly and accurately interprets the solution in relation to the original real-world problem.",
+      "Provides insightful interpretations of the solution, discussing its implications and limitations within the real-world context."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Physical Benefits",
+    "Understanding of Mental Benefits",
+    "Understanding of Social Benefits",
+    "Analysis and Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of physical benefits is demonstrated.",
+      "Demonstrates a minimal understanding of physical benefits with significant inaccuracies.",
+      "Demonstrates a basic understanding of physical benefits with some inaccuracies.",
+      "Demonstrates a satisfactory understanding of physical benefits with minor inaccuracies.",
+      "Demonstrates a comprehensive understanding of physical benefits with minimal errors.",
+      "Demonstrates an exceptional understanding of physical benefits with accurate and detailed examples."
+    ],
+    [
+      "No understanding of mental benefits is demonstrated.",
+      "Demonstrates a minimal understanding of mental benefits with significant inaccuracies.",
+      "Demonstrates a basic understanding of mental benefits with some inaccuracies.",
+      "Demonstrates a satisfactory understanding of mental benefits with minor inaccuracies.",
+      "Demonstrates a comprehensive understanding of mental benefits with minimal errors.",
+      "Demonstrates an exceptional understanding of mental benefits with accurate and detailed examples."
+    ],
+    [
+      "No understanding of social benefits is demonstrated.",
+      "Demonstrates a minimal understanding of social benefits with significant inaccuracies.",
+      "Demonstrates a basic understanding of social benefits with some inaccuracies.",
+      "Demonstrates a satisfactory understanding of social benefits with minor inaccuracies.",
+      "Demonstrates a comprehensive understanding of social benefits with minimal errors.",
+      "Demonstrates an exceptional understanding of social benefits with accurate and detailed examples."
+    ],
+    [
+      "Unable to analyze or apply the benefits of physical activity to real-life situations.",
+      "Attempts to analyze and apply the benefits but demonstrates significant difficulties and misunderstandings.",
+      "Analyzes and applies the benefits with limited success and some inaccuracies.",
+      "Satisfactorily analyzes and applies the benefits with minor errors.",
+      "Effectively analyzes and applies the benefits with a high degree of accuracy.",
+      "Masterfully analyzes and applies the benefits with insightful examples and demonstrates a deep understanding."
+    ]
+  ]
+}

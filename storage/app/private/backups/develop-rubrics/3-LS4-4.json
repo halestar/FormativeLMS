@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying the Environmental Change and its Impact",
+    "Proposing a Solution to the Problem",
+    "Supporting the Claim with Evidence",
+    "Addressing System Components and Interactions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify an environmental change or its impact on plants and animals.",
+      "Identifies an environmental change but does not explain its impact, or vice versa.",
+      "Identifies an environmental change and provides a vague or incomplete description of its impact on plants and animals.",
+      "Identifies an environmental change and provides a clear description of its impact on plants and animals, but lacks detail.",
+      "Identifies an environmental change and provides a detailed and accurate description of its impact on plants and animals.",
+      "Identifies an environmental change and provides a comprehensive and insightful description of its impact on plants and animals, including potential long-term effects."
+    ],
+    [
+      "Does not propose a solution to the problem caused by the environmental change.",
+      "Proposes a solution that is not relevant to the environmental change or is not feasible.",
+      "Proposes a solution that is somewhat relevant but lacks detail or a clear explanation of how it addresses the problem.",
+      "Proposes a solution that is relevant and provides a basic explanation of how it addresses the problem.",
+      "Proposes a well-reasoned solution and provides a clear and detailed explanation of how it addresses the problem.",
+      "Proposes an innovative and well-reasoned solution and provides a comprehensive and insightful explanation of how it effectively addresses the problem, considering potential challenges and unintended consequences."
+    ],
+    [
+      "Does not provide any evidence to support the claim about the merit of the solution.",
+      "Provides irrelevant or weak evidence that does not support the claim.",
+      "Provides some evidence, but it is not clearly linked to the claim or the criteria and constraints of the problem.",
+      "Provides relevant evidence to support the claim, but the explanation of how it meets the criteria and constraints is limited.",
+      "Provides strong and relevant evidence to support the claim and clearly explains how it meets the criteria and constraints of the problem.",
+      "Provides compelling and comprehensive evidence to support the claim and demonstrates a deep understanding of how the solution effectively meets the criteria and constraints of the problem, considering alternative perspectives."
+    ],
+    [
+      "Fails to consider the system components or their interactions related to the environmental change and proposed solution.",
+      "Shows a limited understanding of system components and interactions.",
+      "Identifies some system components and interactions but does not explain their relationship to the problem or solution.",
+      "Describes the main system components and their interactions related to the environmental change and proposed solution.",
+      "Provides a detailed analysis of the system components and their interactions and how they are affected by the environmental change and influenced by the proposed solution.",
+      "Demonstrates a sophisticated understanding of the complex interactions within the system and provides insightful analysis of how the proposed solution impacts the system as a whole, including potential feedback loops and unintended consequences."
+    ]
+  ]
+}

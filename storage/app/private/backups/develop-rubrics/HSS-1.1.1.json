@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Direct Democracy Rule-Making Process",
+    "Understanding of Representative Democracy Rule-Making Process",
+    "Providing Examples of Direct and Representative Democracies in Classroom, School, and Community"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the rule-making process in a direct democracy.",
+      "Student demonstrates a minimal understanding of the rule-making process in a direct democracy with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the rule-making process in a direct democracy with some inaccuracies.",
+      "Student demonstrates a satisfactory understanding of the rule-making process in a direct democracy with minor inaccuracies.",
+      "Student demonstrates a strong understanding of the rule-making process in a direct democracy with very few inaccuracies.",
+      "Student demonstrates a comprehensive and accurate understanding of the rule-making process in a direct democracy."
+    ],
+    [
+      "Student demonstrates no understanding of the rule-making process in a representative democracy.",
+      "Student demonstrates a minimal understanding of the rule-making process in a representative democracy with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the rule-making process in a representative democracy with some inaccuracies.",
+      "Student demonstrates a satisfactory understanding of the rule-making process in a representative democracy with minor inaccuracies.",
+      "Student demonstrates a strong understanding of the rule-making process in a representative democracy with very few inaccuracies.",
+      "Student demonstrates a comprehensive and accurate understanding of the rule-making process in a representative democracy."
+    ],
+    [
+      "Student provides no examples of direct or representative democracies in their classroom, school, or community.",
+      "Student provides one inaccurate or irrelevant example.",
+      "Student provides one accurate example or two inaccurate examples.",
+      "Student provides two accurate examples.",
+      "Student provides three accurate examples, demonstrating a good understanding of the concepts in different contexts.",
+      "Student provides multiple accurate and insightful examples, demonstrating a comprehensive understanding of the concepts in various contexts."
+    ]
+  ]
+}

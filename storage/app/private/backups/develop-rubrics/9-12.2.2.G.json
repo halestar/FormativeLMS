@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Internal Influences on Growth and Development",
+    "Understanding of External Influences on Growth and Development",
+    "Evaluation of Internal and External Influences on Relationships",
+    "Evaluation of Internal and External Influences on Sexual Behaviors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of internal influences (e.g., genetics, hormones) on growth and development.",
+      "Demonstrates a minimal understanding of internal influences on growth and development, with significant misconceptions.",
+      "Identifies some internal influences on growth and development but lacks depth in explanation.",
+      "Explains several internal influences on growth and development with reasonable accuracy.",
+      "Thoroughly explains multiple internal influences on growth and development, providing clear examples.",
+      "Demonstrates a comprehensive understanding of internal influences, including complex interactions and nuanced effects on growth and development."
+    ],
+    [
+      "Demonstrates no understanding of external influences (e.g., nutrition, environment) on growth and development.",
+      "Demonstrates a minimal understanding of external influences on growth and development, with significant misconceptions.",
+      "Identifies some external influences on growth and development but lacks depth in explanation.",
+      "Explains several external influences on growth and development with reasonable accuracy.",
+      "Thoroughly explains multiple external influences on growth and development, providing clear examples.",
+      "Demonstrates a comprehensive understanding of external influences, including complex interactions and nuanced effects on growth and development."
+    ],
+    [
+      "Demonstrates no ability to evaluate how internal or external influences affect relationships.",
+      "Attempts to evaluate influences on relationships, but shows significant misunderstandings or inaccuracies.",
+      "Identifies some influences on relationships but struggles to explain how they affect them.",
+      "Explains how several internal and external influences can affect relationships, with some examples.",
+      "Clearly evaluates how various internal and external influences impact the dynamics and health of relationships.",
+      "Provides a sophisticated evaluation of the complex interplay between internal\/external influences and their profound effects on relationships, considering diverse perspectives."
+    ],
+    [
+      "Demonstrates no ability to evaluate how internal or external influences affect sexual behaviors.",
+      "Attempts to evaluate influences on sexual behaviors, but shows significant misunderstandings or inaccuracies.",
+      "Identifies some influences on sexual behaviors but struggles to explain how they affect them.",
+      "Explains how several internal and external influences can affect sexual behaviors, with some examples.",
+      "Clearly evaluates how various internal and external influences impact choices and responsible sexual behaviors.",
+      "Provides a sophisticated evaluation of the complex interplay between internal\/external influences and their profound effects on sexual behaviors, considering diverse perspectives and ethical implications."
+    ]
+  ]
+}

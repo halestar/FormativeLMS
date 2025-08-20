@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Demonstrates awareness of potential dangers in different scenarios (home, car, street).",
+    "Effectiveness of verbal responses to a stranger in each scenario.",
+    "Demonstrates appropriate non-verbal responses (body language, actions) in each scenario.",
+    "Ability to seek help or remove themselves from a dangerous situation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of potential dangers in any scenario.",
+      "Identifies potential dangers in only one scenario.",
+      "Identifies potential dangers in two scenarios but lacks detail.",
+      "Identifies potential dangers in all three scenarios with some detail.",
+      "Clearly identifies potential dangers in all three scenarios with good detail and awareness.",
+      "Exceeds expectations by identifying nuanced potential dangers in all three scenarios with excellent detail and awareness, demonstrating proactive thinking."
+    ],
+    [
+      "Unable to formulate any verbal response or responds inappropriately.",
+      "Verbal response is unclear, hesitant, or ineffective in at least two scenarios.",
+      "Verbal response is somewhat clear and effective in at least two scenarios, but lacks confidence.",
+      "Formulates clear and assertive verbal responses in all three scenarios, demonstrating understanding of personal safety.",
+      "Demonstrates clear, assertive, and situationally appropriate verbal responses in all three scenarios, showcasing confidence and good judgment.",
+      "Consistently uses exceptionally clear, assertive, and situationally appropriate verbal responses, adapting communication style effectively to each scenario while maintaining personal safety."
+    ],
+    [
+      "Non-verbal responses are absent or inappropriate in all scenarios.",
+      "Non-verbal responses are limited and ineffective in at least two scenarios.",
+      "Non-verbal responses are somewhat appropriate in at least two scenarios, but lack consistency.",
+      "Exhibits appropriate non-verbal responses in all three scenarios, such as maintaining distance, avoiding eye contact, and seeking help.",
+      "Consistently uses appropriate and effective non-verbal responses in all three scenarios, enhancing personal safety and demonstrating awareness.",
+      "Masterfully integrates non-verbal cues to de-escalate potentially dangerous situations across all three scenarios, displaying exceptional situational awareness and self-control."
+    ],
+    [
+      "Does not attempt to seek help or remove themselves from the dangerous situation in any scenario.",
+      "Attempts to seek help or remove themselves in only one scenario, but the attempt is ineffective.",
+      "Attempts to seek help or remove themselves in two scenarios, but the actions are hesitant or unclear.",
+      "Demonstrates the ability to seek help from trusted adults or remove themselves from the dangerous situation in all three scenarios.",
+      "Proactively seeks help or removes themselves from the dangerous situation quickly and effectively in all three scenarios, demonstrating good problem-solving skills.",
+      "Creatively and effectively utilizes available resources to seek help or remove themselves from each dangerous situation, exhibiting resourcefulness and quick thinking beyond expectations."
+    ]
+  ]
+}

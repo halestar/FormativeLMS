@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Mass Production Techniques",
+    "Analysis of Urban Growth",
+    "Impact of New Technologies",
+    "Understanding of Prosperity and its Effects on the American Landscape"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of mass production techniques.",
+      "Shows a minimal understanding of mass production techniques; struggles to define or explain.",
+      "Displays a basic understanding of mass production techniques; can define but lacks depth.",
+      "Exhibits a solid understanding of mass production techniques; can explain with some detail.",
+      "Demonstrates a strong understanding of mass production techniques; provides clear explanations and examples.",
+      "Shows a comprehensive understanding of mass production techniques; explains complex concepts and their implications effectively."
+    ],
+    [
+      "Does not address the growth of cities in the 1920s.",
+      "Mentions urban growth but offers no analysis or context.",
+      "Describes urban growth with limited analysis of its causes or effects.",
+      "Analyzes the causes and effects of urban growth with reasonable clarity.",
+      "Provides a detailed analysis of urban growth, including social and economic factors.",
+      "Offers a nuanced analysis of urban growth, considering diverse perspectives and long-term consequences."
+    ],
+    [
+      "Fails to identify or discuss the impact of new technologies.",
+      "Identifies new technologies but does not explain their impact.",
+      "Describes the impact of new technologies superficially.",
+      "Explains the impact of new technologies on American society and economy.",
+      "Analyzes the complex impact of new technologies, including both positive and negative effects.",
+      "Provides an insightful analysis of the transformative impact of new technologies, considering their cultural and environmental consequences."
+    ],
+    [
+      "Shows no understanding of the prosperity of the 1920s or its impact.",
+      "Mentions prosperity but does not connect it to changes in the American landscape.",
+      "Describes the prosperity and its effects with limited detail.",
+      "Explains how the prosperity of the 1920s influenced the American landscape.",
+      "Analyzes the diverse ways in which prosperity reshaped the American landscape, including urban sprawl and environmental changes.",
+      "Offers a comprehensive analysis of the relationship between prosperity and the American landscape, considering social, economic, and environmental factors."
+    ]
+  ]
+}

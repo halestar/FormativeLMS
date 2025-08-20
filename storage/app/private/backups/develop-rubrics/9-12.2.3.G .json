@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Actual vs. Perceived Social Norms",
+    "Assessment of Discrepancies",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of actual vs. perceived social norms related to sexual activity among teenagers.",
+      "Student demonstrates a minimal understanding, with significant misconceptions or inaccuracies.",
+      "Student demonstrates a basic understanding but struggles to differentiate between actual and perceived norms or provides superficial examples.",
+      "Student demonstrates a satisfactory understanding, identifying some discrepancies but lacking depth in analysis.",
+      "Student demonstrates a strong understanding, clearly differentiating between actual and perceived norms with relevant examples and analysis.",
+      "Student demonstrates a comprehensive understanding, providing insightful analysis of discrepancies between actual and perceived norms, including contributing factors and potential consequences."
+    ],
+    [
+      "Student provides no assessment of discrepancies.",
+      "Student attempts to assess discrepancies, but the assessment is unclear, irrelevant, or inaccurate.",
+      "Student provides a limited assessment, identifying few discrepancies and lacking supporting evidence.",
+      "Student provides a general assessment of discrepancies, identifying several points but without in-depth exploration.",
+      "Student provides a detailed assessment of discrepancies, supporting claims with evidence and examples.",
+      "Student provides a nuanced and insightful assessment of discrepancies, exploring underlying causes and broader implications."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response is somewhat unclear and disorganized, hindering understanding.",
+      "Response is generally clear but lacks organization in certain areas.",
+      "Response is clear and organized, facilitating understanding of key points.",
+      "Response is very clear, well-organized, and effectively communicates complex ideas.",
+      "Response is exceptionally clear, concise, and powerfully communicates complex ideas with sophistication."
+    ]
+  ]
+}

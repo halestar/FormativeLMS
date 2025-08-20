@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Definition",
+    "Completeness of Examples",
+    "Clarity of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not provide a definition or provides a definition that is completely inaccurate.",
+      "Student provides a definition, but it contains significant inaccuracies or omits key components.",
+      "Student provides a basic definition but misses some important details or includes minor inaccuracies.",
+      "Student provides a mostly accurate definition with only minor omissions or inaccuracies.",
+      "Student provides an accurate and comprehensive definition, demonstrating a good understanding of the concept.",
+      "Student provides an accurate, comprehensive, and nuanced definition, demonstrating a deep understanding of the concept and its implications."
+    ],
+    [
+      "Student fails to list any examples of life-threatening situations.",
+      "Student lists only one example, or the example is not clearly life-threatening.",
+      "Student lists a couple of examples, but some are unclear or not fully life-threatening.",
+      "Student lists a few appropriate examples, but the range is limited.",
+      "Student lists several relevant and varied examples of life-threatening situations.",
+      "Student lists a comprehensive range of relevant and varied examples of life-threatening situations, demonstrating a broad understanding."
+    ],
+    [
+      "Explanation is unclear, incoherent, or absent.",
+      "Explanation is difficult to understand and lacks logical flow.",
+      "Explanation is somewhat understandable but contains confusing elements.",
+      "Explanation is generally clear and understandable with minor areas of confusion.",
+      "Explanation is clear, concise, and easy to understand.",
+      "Explanation is exceptionally clear, concise, insightful, and demonstrates a sophisticated understanding."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and representation of positive and negative numbers in real-world contexts.",
+    "Explanation of the meaning of zero in different real-world situations.",
+    "Ability to use positive and negative numbers to accurately represent quantities."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of positive and negative numbers or their use in describing real-world quantities.",
+      "Student shows minimal understanding of positive and negative numbers, struggling to apply them to real-world contexts.  Representation is often incorrect or nonsensical.",
+      "Student demonstrates a basic understanding of positive and negative numbers but has difficulty consistently applying them to real-world contexts. Representation may contain some errors.",
+      "Student demonstrates a satisfactory understanding of positive and negative numbers and can generally apply them to real-world contexts with reasonable accuracy.  Representation is mostly correct.",
+      "Student demonstrates a strong understanding of positive and negative numbers, accurately applying them to various real-world contexts.  Clear and correct representation is shown.",
+      "Student demonstrates a comprehensive understanding of positive and negative numbers, expertly applying them to complex real-world contexts. Provides insightful and accurate representations, going beyond basic expectations."
+    ],
+    [
+      "Student cannot explain the meaning of zero in any real-world context.",
+      "Student struggles to explain the meaning of zero, providing explanations that are unclear, inaccurate, or irrelevant.",
+      "Student demonstrates a limited understanding of the meaning of zero in some real-world contexts, with explanations lacking clarity or completeness.",
+      "Student can adequately explain the meaning of zero in common real-world contexts, such as temperature or elevation.",
+      "Student clearly and accurately explains the meaning of zero in a variety of real-world contexts, demonstrating a strong grasp of the concept.",
+      "Student provides insightful and nuanced explanations of the meaning of zero in diverse and complex real-world situations, showcasing a deep understanding."
+    ],
+    [
+      "Student is unable to represent quantities using positive and negative numbers.",
+      "Student attempts to represent quantities but struggles with the correct sign or magnitude, resulting in inaccurate representations.",
+      "Student can represent some quantities with positive and negative numbers but makes frequent errors or inconsistencies.",
+      "Student generally represents quantities accurately using positive and negative numbers, with occasional minor errors.",
+      "Student consistently and accurately represents quantities using positive and negative numbers, demonstrating a strong command of the concept.",
+      "Student expertly and precisely represents quantities using positive and negative numbers, even in complex or ambiguous situations, demonstrating a mastery of the skill."
+    ]
+  ]
+}

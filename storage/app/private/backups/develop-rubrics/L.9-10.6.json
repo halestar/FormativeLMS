@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Breadth of Vocabulary",
+    "Accuracy of Word Use",
+    "Independence in Vocabulary Acquisition",
+    "Application of Vocabulary in Different Contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates minimal understanding of academic and domain-specific vocabulary. Struggles to use new words correctly.",
+      "Demonstrates limited understanding of academic and domain-specific vocabulary. Uses new words incorrectly or inappropriately.",
+      "Demonstrates basic understanding of academic and domain-specific vocabulary. Uses some new words correctly, but struggles with others.",
+      "Demonstrates satisfactory understanding of academic and domain-specific vocabulary. Generally uses new words correctly, but may make occasional errors.",
+      "Demonstrates strong understanding of academic and domain-specific vocabulary. Uses new words correctly and effectively in most contexts.",
+      "Demonstrates excellent understanding of academic and domain-specific vocabulary. Uses new words correctly, effectively, and creatively across a variety of contexts."
+    ],
+    [
+      "Uses words inaccurately and inappropriately, hindering comprehension.",
+      "Uses words inaccurately in several instances, affecting comprehension.",
+      "Uses words with some inaccuracies, occasionally affecting comprehension.",
+      "Generally uses words accurately, with only minor errors that do not impede comprehension.",
+      "Uses words accurately and appropriately in most cases, enhancing clarity.",
+      "Uses words with precision and nuance, enhancing clarity and sophistication of expression."
+    ],
+    [
+      "Shows no initiative in independently gathering vocabulary knowledge.",
+      "Rarely attempts to independently gather vocabulary knowledge, even when prompted.",
+      "Occasionally attempts to independently gather vocabulary knowledge, but relies heavily on direct instruction.",
+      "Independently gathers vocabulary knowledge with some success, but may need occasional guidance.",
+      "Actively and independently gathers vocabulary knowledge, demonstrating resourcefulness and effective strategies.",
+      "Demonstrates exceptional independence in gathering vocabulary knowledge, employing a variety of strategies and resources to expand understanding."
+    ],
+    [
+      "Unable to apply newly acquired vocabulary in reading, writing, speaking, or listening.",
+      "Struggles to apply newly acquired vocabulary consistently across different contexts.",
+      "Applies newly acquired vocabulary in some contexts, but struggles with others.",
+      "Generally applies newly acquired vocabulary effectively in reading, writing, speaking, and listening.",
+      "Applies newly acquired vocabulary skillfully and appropriately across a variety of contexts.",
+      "Seamlessly integrates newly acquired vocabulary into reading, writing, speaking, and listening, enhancing communication and comprehension."
+    ]
+  ]
+}

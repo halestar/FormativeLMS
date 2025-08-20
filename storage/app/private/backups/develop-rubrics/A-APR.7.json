@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rational Expressions as a System",
+    "Ability to Add and Subtract Rational Expressions",
+    "Ability to Multiply and Divide Rational Expressions",
+    "Closure Under Operations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding that rational expressions form a system analogous to rational numbers.",
+      "Student shows a limited understanding that rational expressions form a system analogous to rational numbers.",
+      "Student shows some understanding that rational expressions form a system analogous to rational numbers, but struggles to explain the analogy.",
+      "Student demonstrates a general understanding that rational expressions form a system analogous to rational numbers.",
+      "Student demonstrates a clear understanding that rational expressions form a system analogous to rational numbers, providing a good explanation of the analogy.",
+      "Student demonstrates a thorough understanding that rational expressions form a system analogous to rational numbers, providing insightful explanations and examples of the analogy."
+    ],
+    [
+      "Student cannot add or subtract rational expressions.",
+      "Student attempts to add or subtract rational expressions but makes significant errors.",
+      "Student can add or subtract simple rational expressions but struggles with more complex problems.",
+      "Student can generally add and subtract rational expressions with some errors.",
+      "Student can add and subtract rational expressions with few errors.",
+      "Student can add and subtract rational expressions accurately and efficiently."
+    ],
+    [
+      "Student cannot multiply or divide rational expressions.",
+      "Student attempts to multiply or divide rational expressions but makes significant errors.",
+      "Student can multiply or divide simple rational expressions but struggles with more complex problems.",
+      "Student can generally multiply and divide rational expressions with some errors.",
+      "Student can multiply and divide rational expressions with few errors.",
+      "Student can multiply and divide rational expressions accurately and efficiently."
+    ],
+    [
+      "Student does not understand the concept of closure under addition, subtraction, multiplication, and division.",
+      "Student shows limited understanding of the concept of closure.",
+      "Student understands the concept of closure but cannot apply it to rational expressions.",
+      "Student generally understands closure and can apply it to some rational expressions.",
+      "Student demonstrates a good understanding of closure and can apply it to rational expressions.",
+      "Student demonstrates a comprehensive understanding of closure and can explain why rational expressions are closed under the given operations."
+    ]
+  ]
+}

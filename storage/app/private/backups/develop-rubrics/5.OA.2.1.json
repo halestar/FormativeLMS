@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Prime Factorization",
+    "Clarity and Organization of Work",
+    "Application of Prime Factorization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely incorrect prime factorization.",
+      "Demonstrates minimal understanding of prime factorization; attempts to find factors but with significant errors.",
+      "Identifies some prime factors, but the final expression is incomplete or contains composite numbers.",
+      "Expresses the number as a product of factors, but there are some errors in identifying all prime factors or in the final expression.",
+      "Expresses the number as a product of its prime factors with only minor errors or omissions.",
+      "Accurately expresses the whole number as a product of its prime factors, demonstrating a clear and complete understanding of the concept."
+    ],
+    [
+      "Work is disorganized and difficult to follow; no clear steps shown.",
+      "Shows some attempt to organize work, but it is still difficult to follow the process.",
+      "Work is somewhat organized; some steps are shown, but may be unclear or missing explanations.",
+      "Work is generally organized with most steps shown, but some explanations may be lacking.",
+      "Work is clearly organized and easy to follow; all steps are shown with clear explanations.",
+      "Work is exceptionally clear, organized, and easy to follow; includes detailed steps and explanations, demonstrating a thorough understanding."
+    ],
+    [
+      "No recognition of the application of prime factorization.",
+      "Attempts to apply prime factorization but struggles with the concept.",
+      "Applies prime factorization with limited success.",
+      "Demonstrates an understanding of prime factorization by applying it.",
+      "Effectively applies prime factorization, demonstrating a clear grasp of the concept.",
+      "Skillfully applies prime factorization with a high degree of accuracy."
+    ]
+  ]
+}

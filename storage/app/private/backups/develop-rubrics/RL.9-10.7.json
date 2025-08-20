@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Subject\/Scene: Accurately identifies the subject or key scene being represented in both artistic mediums.",
+    "Analysis of Representation: Analyzes how the subject\/scene is represented differently in each medium.",
+    "Emphasis and Omission: Explains what aspects are emphasized or absent in each artistic treatment.",
+    "Comparison and Contrast: Compares and contrasts the effects achieved by each medium's representation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify the subject or key scene in either medium.",
+      "Identifies the subject\/scene in only one medium with inaccuracies.",
+      "Identifies the subject\/scene in both mediums, but with significant inaccuracies or omissions.",
+      "Identifies the subject\/scene in both mediums with minor inaccuracies.",
+      "Accurately identifies the subject\/scene in both mediums.",
+      "Accurately and thoroughly identifies the subject\/scene in both mediums, demonstrating a clear understanding."
+    ],
+    [
+      "Provides no analysis of the representation in either medium.",
+      "Offers a superficial analysis of the representation in only one medium.",
+      "Attempts to analyze the representation in both mediums, but the analysis is vague or inaccurate.",
+      "Analyzes the representation in both mediums, identifying some differences but lacking depth.",
+      "Analyzes the representation in both mediums, identifying clear differences and providing supporting details.",
+      "Provides a thorough and insightful analysis of the representation in both mediums, demonstrating a nuanced understanding of the artistic choices."
+    ],
+    [
+      "Does not address emphasis or omission in either medium.",
+      "Addresses emphasis or omission in only one medium, with limited detail.",
+      "Identifies some aspects of emphasis or omission in both mediums, but lacks clear explanation.",
+      "Explains what is emphasized or absent in both mediums, providing some reasoning.",
+      "Clearly explains what is emphasized or absent in both mediums, providing well-supported reasoning and examples.",
+      "Insightfully explains what is emphasized or absent in both mediums, providing compelling reasoning and demonstrating a sophisticated understanding of artistic intent."
+    ],
+    [
+      "Offers no comparison or contrast between the mediums.",
+      "Offers a minimal comparison or contrast, lacking specific examples.",
+      "Attempts to compare and contrast the mediums, but the connections are unclear or superficial.",
+      "Compares and contrasts the mediums, identifying some key differences and similarities.",
+      "Effectively compares and contrasts the mediums, explaining the impact of different artistic choices.",
+      "Provides a sophisticated comparison and contrast of the mediums, analyzing the nuances of each representation and their overall effects on the audience."
+    ]
+  ]
+}

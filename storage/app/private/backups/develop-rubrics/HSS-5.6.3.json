@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Women's Roles",
+    "Accuracy and Specificity of Examples",
+    "Contextual Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any roles women played during the American Revolution.",
+      "The student identifies only one role women played during the American Revolution with significant inaccuracies.",
+      "The student identifies one role women played during the American Revolution with minor inaccuracies or omissions.",
+      "The student identifies two roles women played during the American Revolution with some details.",
+      "The student identifies at least three roles women played during the American Revolution, providing relevant details for each.",
+      "The student comprehensively identifies multiple roles women played during the American Revolution, providing detailed explanations and specific examples (e.g., Abigail Adams, Martha Washington, Molly Pitcher, Phillis Wheatley, Mercy Otis Warren)."
+    ],
+    [
+      "No examples of women or their contributions are provided, or the information is entirely inaccurate.",
+      "Provides one inaccurate example or demonstrates a misunderstanding of the roles.",
+      "Provides a correct example but lacks detail or provides a slightly inaccurate detail.",
+      "Provides correct examples for at least two roles, with reasonable accuracy and detail.",
+      "Provides correct and specific examples for multiple roles, demonstrating a good understanding of their contributions.",
+      "Provides comprehensive and nuanced examples, demonstrating a deep understanding of the specific contributions and challenges faced by women during the American Revolution."
+    ],
+    [
+      "Demonstrates no understanding of the historical context or significance of women's roles.",
+      "Shows a limited understanding of the context, with significant gaps or inaccuracies.",
+      "Demonstrates a basic understanding of the context, but lacks depth or nuanced explanation.",
+      "Connects women's roles to the broader context of the American Revolution, showing a reasonable understanding.",
+      "Explains the significance of women's roles within the context of the American Revolution, highlighting their impact.",
+      "Analyzes the complex interplay between women's roles, societal expectations, and the overall trajectory of the American Revolution, demonstrating a sophisticated understanding."
+    ]
+  ]
+}

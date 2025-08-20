@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Knowledge of Injury Prevention Strategies",
+    "Application of Injury Prevention in Different Settings",
+    "Advocacy and Promotion of Injury Prevention"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of injury prevention strategies.",
+      "Shows a limited understanding of injury prevention strategies; struggles to identify relevant examples.",
+      "Identifies some injury prevention strategies but lacks depth in explaining how they work.",
+      "Demonstrates a solid understanding of various injury prevention strategies and can explain them adequately.",
+      "Exhibits a comprehensive understanding of injury prevention strategies and provides detailed explanations.",
+      "Displays an exceptional understanding of injury prevention strategies and can articulate their importance with clarity and insight."
+    ],
+    [
+      "Unable to apply injury prevention knowledge to real-world scenarios.",
+      "Struggles to apply injury prevention knowledge to different settings (school, home, community).",
+      "Can apply injury prevention knowledge to one or two settings but not consistently across all.",
+      "Applies injury prevention strategies to school, home, and community settings with reasonable accuracy.",
+      "Effectively applies injury prevention strategies to various settings, demonstrating adaptability.",
+      "Expertly applies injury prevention strategies to diverse settings, tailoring approaches for maximum effectiveness."
+    ],
+    [
+      "Shows no effort to advocate for or promote injury prevention.",
+      "Demonstrates minimal effort to advocate for injury prevention.",
+      "Participates in basic advocacy efforts with limited enthusiasm.",
+      "Actively advocates for injury prevention and promotes its importance.",
+      "Demonstrates leadership in advocating for injury prevention, inspiring others to take action.",
+      "Leads comprehensive injury prevention initiatives, creating a culture of safety and well-being."
+    ]
+  ]
+}

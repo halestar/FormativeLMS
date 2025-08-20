@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Ability to write routinely over extended time frames (time for research, reflection, and revision)",
+    "Ability to write over shorter time frames (a single sitting or a day or two)",
+    "Ability to adapt writing for a range of discipline-specific tasks",
+    "Ability to adapt writing for different purposes",
+    "Ability to adapt writing for various audiences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence of routine writing practice or ability to extend writing over time.",
+      "Rarely writes routinely; demonstrates minimal ability to extend writing over time.",
+      "Occasionally writes routinely; demonstrates some ability to extend writing over time, but struggles with consistency.",
+      "Writes routinely with moderate consistency; demonstrates a developing ability to extend writing over time with some planning and reflection.",
+      "Writes routinely and consistently; demonstrates a strong ability to extend writing over time, incorporating research and reflection effectively.",
+      "Writes routinely and consistently with excellent time management; demonstrates a sophisticated ability to extend writing over time, seamlessly integrating research, reflection, and revision to produce high-quality work."
+    ],
+    [
+      "Unable to produce coherent writing within shorter time frames.",
+      "Struggles to write within shorter time frames, producing disorganized or incomplete work.",
+      "Can write within shorter time frames, but the work lacks depth and coherence.",
+      "Writes adequately within shorter time frames, producing work that meets basic requirements with some organization and clarity.",
+      "Writes effectively within shorter time frames, producing well-organized and clear work with insightful ideas.",
+      "Writes skillfully within shorter time frames, producing polished, coherent, and insightful work that exceeds expectations."
+    ],
+    [
+      "Unable to adapt writing to different tasks or disciplines.",
+      "Rarely adapts writing to specific tasks; struggles to understand the requirements of different disciplines.",
+      "Occasionally adapts writing to specific tasks, but often misses key elements or conventions of the discipline.",
+      "Adapts writing to discipline-specific tasks with moderate success, demonstrating a growing understanding of different disciplines.",
+      "Adapts writing effectively to a variety of discipline-specific tasks, showing a strong understanding of the conventions and expectations of each discipline.",
+      "Adapts writing masterfully to a wide range of discipline-specific tasks, demonstrating a nuanced understanding of the conventions, expectations, and nuances of each discipline to produce exceptional work."
+    ],
+    [
+      "Unable to identify or write for different purposes.",
+      "Shows minimal awareness of different writing purposes.",
+      "Recognizes different writing purposes but struggles to adapt writing accordingly.",
+      "Adapts writing to different purposes with some success, demonstrating a basic understanding of rhetorical strategies.",
+      "Adapts writing effectively to a variety of purposes, demonstrating a strong command of rhetorical strategies.",
+      "Adapts writing expertly to a wide range of purposes, demonstrating a sophisticated understanding of rhetorical strategies and their impact on the audience."
+    ],
+    [
+      "Unable to tailor writing to different audiences.",
+      "Shows little awareness of audience when writing.",
+      "Attempts to tailor writing to the audience but struggles with appropriateness and clarity.",
+      "Adapts writing to different audiences with moderate success, demonstrating a basic understanding of audience awareness.",
+      "Adapts writing effectively to various audiences, demonstrating a strong awareness of audience needs and expectations.",
+      "Adapts writing seamlessly to a wide range of audiences, demonstrating a sophisticated understanding of audience demographics, values, and perspectives to create targeted and impactful communication."
+    ]
+  ]
+}

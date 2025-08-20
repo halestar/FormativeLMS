@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Emergency Plans",
+    "Application of Emergency Plans at Home",
+    "Application of Emergency Plans at School",
+    "Knowledge of Safety Procedures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of emergency, fire, and safety plans.",
+      "Student shows minimal awareness of emergency plans but cannot describe them accurately.",
+      "Student can identify some elements of emergency plans but lacks detail and clarity.",
+      "Student demonstrates a basic understanding of emergency plans, including key steps and procedures.",
+      "Student demonstrates a comprehensive understanding of emergency plans and can explain their importance.",
+      "Student demonstrates an exceptional understanding of emergency plans and can articulate their implementation in various scenarios."
+    ],
+    [
+      "Student does not apply or discuss emergency plans at home.",
+      "Student mentions the existence of emergency plans at home but does not actively participate in them.",
+      "Student occasionally participates in emergency plan drills at home but lacks consistency.",
+      "Student regularly participates in emergency plan drills at home and understands their role.",
+      "Student actively applies emergency plans at home and can explain their importance to family members.",
+      "Student takes a leadership role in implementing and improving emergency plans at home, ensuring preparedness."
+    ],
+    [
+      "Student does not apply or discuss emergency plans at school.",
+      "Student is vaguely aware of emergency plans at school but does not actively participate.",
+      "Student sometimes participates in emergency drills at school but lacks engagement.",
+      "Student consistently participates in emergency drills at school and follows instructions.",
+      "Student actively applies emergency plans at school and helps others during drills.",
+      "Student demonstrates leadership in emergency drills at school, ensuring the safety and preparedness of peers."
+    ],
+    [
+      "Student shows no knowledge of safety procedures.",
+      "Student has minimal awareness of safety procedures but cannot describe them accurately.",
+      "Student can identify some safety procedures but lacks detail and clarity.",
+      "Student demonstrates a basic understanding of safety procedures.",
+      "Student demonstrates a comprehensive understanding of safety procedures and their importance.",
+      "Student demonstrates an exceptional understanding of safety procedures and can articulate their implementation in various scenarios."
+    ]
+  ]
+}

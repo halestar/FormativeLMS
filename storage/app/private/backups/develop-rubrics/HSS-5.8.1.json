@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Immigration Waves (1789-1850)",
+    "Knowledge of Transportation Modes",
+    "Connections to Geographic Locations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of immigration waves from Europe between 1789 and 1850.",
+      "Shows limited awareness of immigration waves but lacks specific details or accurate timeframe.",
+      "Identifies immigration waves but struggles to explain the reasons for migration and settlement patterns.",
+      "Describes the major immigration waves from Europe between 1789 and 1850 and identifies key factors driving migration.",
+      "Explains the immigration waves, providing context and insight into the motivations behind the movements and their impact on settlement patterns.",
+      "Demonstrates a comprehensive understanding of the immigration waves, including nuanced explanations of motivations, settlement patterns, and the broader historical context."
+    ],
+    [
+      "Shows no knowledge of the transportation modes used by immigrants during the period.",
+      "Identifies one or two transportation modes but lacks detail or accuracy.",
+      "Lists several transportation modes but struggles to explain their significance or routes (e.g., Ohio and Mississippi Valleys, Cumberland Gap).",
+      "Describes the major transportation modes used by immigrants (overland wagons, canals, flatboats, steamboats) and their routes.",
+      "Explains the transportation modes, providing details on their function and importance to westward expansion.",
+      "Demonstrates a comprehensive understanding of transportation modes, including specific details on their operation, impact on migration, and geographic considerations."
+    ],
+    [
+      "Fails to connect transportation modes with specific geographic locations.",
+      "Makes vague references to geographic locations but lacks specifics.",
+      "Identifies some geographic locations but struggles to link them to transportation routes and settlement patterns.",
+      "Connects transportation modes with the Ohio and Mississippi Valleys and the Cumberland Gap, demonstrating an understanding of their routes.",
+      "Explains the geographic context of transportation routes, highlighting the challenges and opportunities presented by these locations.",
+      "Demonstrates a deep understanding of the geographic influences on transportation and settlement, including the impact of terrain, waterways, and other features."
+    ]
+  ]
+}

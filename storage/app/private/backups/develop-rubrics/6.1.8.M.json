@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Common Elements: Assesses the student's ability to identify shared characteristics across different forms of violent behavior.",
+    "Understanding of Motivations and Consequences: Focuses on the student's comprehension of the reasons behind violent behaviors and their resultant effects.",
+    "Clarity and Precision of Communication: Assesses how effectively the student articulates their understanding of the similarities between types of violent behavior."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No similarities between violent behaviors are identified or described.",
+      "Student mentions one or two behaviors but does not explain or makes superficial attempts to explain the similarities.",
+      "Student names a few different violent behaviors and attempts to identify one or two similarities. However, the explanation is vague and lacks depth.",
+      "Student successfully identifies and describes 2-3 similarities between the violent behaviors listed (bullying, hazing, fighting, and verbal abuse).",
+      "Student comprehensively describes the similarities in motivation, impact, and social context across several types of violent behaviors.",
+      "Student demonstrates an exceptional understanding of the underlying commonalities in violent behaviors, offering detailed insights into psychological, social, and ethical dimensions."
+    ],
+    [
+      "No understanding of motivations or consequences is displayed.",
+      "Student makes statements with no support for how motivations and consequences are related to types of violent behaviors.",
+      "Student identifies at least one motivation or consequence for the different behaviors, but the connections are weak.",
+      "Student explains how motivations (e.g., power, control, peer pressure) lead to violent behaviors and briefly touches on the emotional and social consequences for victims and perpetrators.",
+      "Student thoroughly analyzes the motivations and consequences, explaining the psychological, social, and physical impacts on all parties involved. The student also makes clear links between the behaviors.",
+      "Student provides a sophisticated analysis of the interplay between motivations and consequences, displaying a mature grasp of the long-term effects on community, mental health, and ethical standards."
+    ],
+    [
+      "Communication is unclear with no use of health terminology.",
+      "Responses are confusing and hard to understand, with poor grammar.",
+      "Student provides explanation that could be confusing to other. Some effort in grammar.",
+      "Student clearly communicates ideas with minimal errors in grammar and vocabulary. Definitions are precise and aid understanding.",
+      "Student communicates ideas effectively, using precise language, and demonstrates logical thought in their explanations. All medical terms are correctly used.",
+      "Student exhibits exceptional clarity and sophistication in their communication, employing advanced vocabulary and rhetoric to convey complex ideas about violence and its impact."
+    ]
+  ]
+}

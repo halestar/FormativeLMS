@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to accurately set up ratios and proportions based on the problem's context.",
+    "Skill in solving for unknown values using ratio and proportion techniques.",
+    "Application of ratio reasoning to convert measurement units and manipulate them appropriately.",
+    "Ability to apply ratio and rate reasoning to real-world problems, showing context comprehension."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to set up ratios or proportions, or the setup is completely incorrect and irrelevant to the problem.",
+      "Student attempts to set up ratios or proportions, but the setup contains significant errors or misunderstandings.",
+      "Student sets up ratios or proportions with some errors, indicating a partial understanding of the relationship between quantities.",
+      "Student generally sets up ratios and proportions correctly, but may have minor errors in identifying the relevant quantities.",
+      "Student consistently sets up ratios and proportions accurately, demonstrating a strong understanding of how quantities relate to one another.",
+      "Student flawlessly sets up ratios and proportions, demonstrating a comprehensive understanding and insightful interpretation of the problem's context."
+    ],
+    [
+      "Student is unable to solve for unknown values or uses methods that are entirely inappropriate and do not lead to a solution.",
+      "Student attempts to solve for unknown values, but the approach is flawed, and no progress is made towards a correct solution.",
+      "Student demonstrates some understanding of how to solve for unknown values but makes significant calculation errors or uses inefficient methods.",
+      "Student solves for unknown values with some accuracy, but may struggle with more complex problems or require assistance.",
+      "Student solves for unknown values accurately and efficiently, demonstrating a solid understanding of ratio and proportion techniques.",
+      "Student masterfully solves for unknown values, employing sophisticated techniques and demonstrating a deep understanding of proportional relationships."
+    ],
+    [
+      "Student shows no understanding of how to convert measurement units or manipulate them using ratio reasoning.",
+      "Student attempts to convert measurement units but demonstrates a fundamental misunderstanding of the process and makes significant errors.",
+      "Student converts measurement units with limited success, making errors in calculation or not applying the conversion appropriately.",
+      "Student generally converts measurement units correctly, but may struggle with more complex conversions or mixed units.",
+      "Student accurately converts measurement units and manipulates them effectively, demonstrating a strong understanding of the relationships between units.",
+      "Student expertly converts measurement units, displaying exceptional precision and a thorough understanding of the mathematical principles underlying unit conversion."
+    ],
+    [
+      "Student fails to apply ratio and rate reasoning to real-world problems, demonstrating no comprehension of the problem's context.",
+      "Student attempts to apply ratio and rate reasoning to real-world problems, but their approach is misguided, and the solution is nonsensical.",
+      "Student applies ratio and rate reasoning to real-world problems with limited success, struggling to connect the mathematics to the context.",
+      "Student generally applies ratio and rate reasoning to real-world problems correctly, but may miss subtle aspects of the context or make minor errors.",
+      "Student effectively applies ratio and rate reasoning to real-world problems, demonstrating a solid understanding of the context and providing accurate solutions.",
+      "Student adeptly applies ratio and rate reasoning to real-world problems, showcasing an exceptional understanding of the context and providing insightful solutions."
+    ]
+  ]
+}

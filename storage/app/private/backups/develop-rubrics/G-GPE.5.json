@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Slope Criteria for Parallel Lines",
+    "Understanding of Slope Criteria for Perpendicular Lines",
+    "Ability to Solve Geometric Problems Involving Parallel Lines",
+    "Ability to Solve Geometric Problems Involving Perpendicular Lines",
+    "Ability to Find the Equation of a Line Parallel\/Perpendicular to a Given Line"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of slope criteria for parallel lines is demonstrated.",
+      "Demonstrates minimal understanding; struggles to define parallel lines or their slopes.",
+      "Shows some understanding, but explanation is unclear or contains inaccuracies.",
+      "Understands that parallel lines have equal slopes, but struggles to apply this knowledge.",
+      "Clearly explains that parallel lines have equal slopes and applies this knowledge accurately in most cases.",
+      "Clearly and accurately explains and applies the slope criteria for parallel lines in all contexts, demonstrating a thorough understanding."
+    ],
+    [
+      "No understanding of slope criteria for perpendicular lines is demonstrated.",
+      "Demonstrates minimal understanding; struggles to define perpendicular lines or their slopes.",
+      "Shows some understanding, but explanation is unclear or contains inaccuracies regarding negative reciprocals.",
+      "Understands that perpendicular lines have negative reciprocal slopes, but struggles to apply this knowledge.",
+      "Clearly explains that perpendicular lines have negative reciprocal slopes and applies this knowledge accurately in most cases.",
+      "Clearly and accurately explains and applies the slope criteria for perpendicular lines in all contexts, demonstrating a thorough understanding."
+    ],
+    [
+      "Unable to solve geometric problems involving parallel lines.",
+      "Attempts to solve problems, but makes significant errors in applying slope criteria.",
+      "Can solve simple problems with guidance, but struggles with more complex scenarios.",
+      "Solves most problems correctly, but may make minor errors or require some assistance.",
+      "Independently and accurately solves geometric problems involving parallel lines.",
+      "Independently and accurately solves complex geometric problems involving parallel lines, demonstrating a strong problem-solving ability."
+    ],
+    [
+      "Unable to solve geometric problems involving perpendicular lines.",
+      "Attempts to solve problems, but makes significant errors in applying slope criteria.",
+      "Can solve simple problems with guidance, but struggles with more complex scenarios.",
+      "Solves most problems correctly, but may make minor errors or require some assistance.",
+      "Independently and accurately solves geometric problems involving perpendicular lines.",
+      "Independently and accurately solves complex geometric problems involving perpendicular lines, demonstrating a strong problem-solving ability."
+    ],
+    [
+      "Unable to find the equation of a line parallel or perpendicular to a given line.",
+      "Attempts to find the equation, but demonstrates a lack of understanding of slope-intercept form or point-slope form.",
+      "Can find the equation with significant guidance, but struggles with algebraic manipulation.",
+      "Finds the equation correctly in simple cases, but struggles with more complex scenarios or negative reciprocal slopes.",
+      "Independently finds the equation of parallel\/perpendicular lines accurately in most cases.",
+      "Independently and accurately finds the equation of parallel\/perpendicular lines in all scenarios, demonstrating mastery of the concept."
+    ]
+  ]
+}

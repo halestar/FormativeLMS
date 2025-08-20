@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Technological Developments: Assesses the student's comprehension of specific technological advancements (computer revolution, communication changes, medicine advances, agricultural improvements) post-1945.",
+    "Analysis of Societal Effects: Evaluates the student's ability to analyze and explain how technological developments have shaped society.",
+    "Analysis of Economic Effects: Assesses the student's understanding of the economic consequences of technological advancements.",
+    "Connections and Synthesis: Measures the student's ability to connect different technological developments and synthesize their combined effects on society and the economy."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of any technological developments since 1945.",
+      "Identifies one or two technological developments since 1945 with limited accuracy.",
+      "Identifies at least three technological developments since 1945 but lacks detailed explanation of their impact.",
+      "Accurately describes several technological developments since 1945, providing some explanation of their societal or economic effects.",
+      "Provides a comprehensive overview of several technological developments, thoroughly explaining their societal and economic impacts with supporting evidence.",
+      "Offers an insightful and nuanced analysis of multiple technological developments, demonstrating a sophisticated understanding of their complex and far-reaching societal and economic consequences, including unforeseen consequences."
+    ],
+    [
+      "Unable to identify any societal effects of technological developments.",
+      "Identifies one societal effect of technology with inaccuracies.",
+      "Identifies a few societal effects of technology with limited explanation.",
+      "Explains several societal effects of technology, demonstrating a basic understanding of their influence.",
+      "Analyzes multiple societal effects of technology, providing clear explanations and supporting examples.",
+      "Offers a comprehensive and insightful analysis of the societal effects of technology, demonstrating a deep understanding of their interconnectedness and long-term impact. Includes exploration of cultural shifts, demographic changes, and evolving social norms."
+    ],
+    [
+      "Unable to identify any economic effects of technological developments.",
+      "Identifies one economic effect of technology with inaccuracies.",
+      "Identifies a few economic effects of technology with limited explanation.",
+      "Explains several economic effects of technology, demonstrating a basic understanding of their influence.",
+      "Analyzes multiple economic effects of technology, providing clear explanations and supporting examples.",
+      "Offers a comprehensive and insightful analysis of the economic effects of technology, demonstrating a deep understanding of their impact on labor markets, global trade, and economic inequality. Critically evaluates the role of automation, outsourcing, and the digital economy in shaping modern economic structures."
+    ],
+    [
+      "Fails to make any connections between different technological developments or their effects.",
+      "Attempts to connect one or two technological developments but struggles to explain the relationships.",
+      "Identifies some connections between technologies and their effects but lacks depth in explanation.",
+      "Connects several technological developments and explains their combined effects on society and the economy.",
+      "Synthesizes information from multiple sources to provide a comprehensive analysis of the interconnectedness of technological developments and their far-reaching consequences.",
+      "Offers a novel and insightful synthesis of information, demonstrating a profound understanding of the complex relationships between technological developments and their effects on society and the economy. Critically evaluates the feedback loops and unintended consequences of technological innovation."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Nutrients",
+    "Analysis of Personal Diet",
+    "Critique and Recommendations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any key nutrients or identifies them incorrectly.",
+      "Student identifies 1-2 key nutrients but struggles with their importance.",
+      "Student identifies 3-4 key nutrients but with limited understanding of their functions.",
+      "Student identifies most key nutrients (5-6) and demonstrates a basic understanding of their functions in the body.",
+      "Student accurately identifies all key nutrients (7+) and explains their primary functions effectively.",
+      "Student comprehensively identifies all key nutrients, explains their functions, and provides examples of food sources for each."
+    ],
+    [
+      "Student does not attempt to analyze their diet or provides irrelevant information.",
+      "Student provides a superficial analysis of their diet with no mention of specific nutrients.",
+      "Student identifies some components of their diet but struggles to connect them to nutrient intake.",
+      "Student provides a basic analysis of their diet, identifying some areas of strength and weakness in terms of nutrient intake.",
+      "Student provides a detailed analysis of their diet, highlighting both strengths and weaknesses in relation to key nutrient needs.",
+      "Student provides a comprehensive and insightful analysis of their diet, demonstrating a clear understanding of how their food choices impact nutrient intake and overall health."
+    ],
+    [
+      "Student fails to provide any critique or recommendations for improving their diet.",
+      "Student offers vague and unsubstantiated recommendations with no connection to identified deficiencies.",
+      "Student provides some recommendations, but they are general and lack specific details.",
+      "Student offers relevant recommendations for improving their diet based on identified nutrient imbalances, but lacks depth.",
+      "Student provides well-reasoned and specific recommendations for improving their diet, addressing identified nutrient deficiencies or excesses.",
+      "Student provides comprehensive, personalized, and actionable recommendations for optimizing their diet, including specific food choices and meal planning strategies, supported by a strong understanding of nutritional principles."
+    ]
+  ]
+}

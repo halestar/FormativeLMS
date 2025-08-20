@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Earth's Interior Model",
+    "Explanation of Thermal Convection",
+    "Use of Evidence to Support the Model",
+    "Connection to Plate Tectonics"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing key components of Earth's interior or contains significant inaccuracies.",
+      "The model identifies the basic layers (core, mantle, crust) but lacks detail or contains some inaccuracies in their properties or relative sizes.",
+      "The model correctly identifies the core, mantle, and crust with some accurate details, but may have minor omissions or inaccuracies regarding their properties or relative sizes.",
+      "The model accurately represents the core (inner and outer), mantle, and crust, including details such as composition and relative size, with only minor omissions.",
+      "The model provides a comprehensive and accurate representation of Earth's interior, including the inner and outer core, mantle, and crust, with accurate details of their composition, state, and relative sizes.",
+      "The model is exceptionally detailed and accurate, demonstrating a deep understanding of Earth's interior layers, including the inner and outer core, mantle, and crust, with precise details of their composition, state, relative sizes, and relevant physical properties; Model is well-presented and easy to understand."
+    ],
+    [
+      "Explanation demonstrates no understanding of thermal convection or its role in the cycling of matter.",
+      "Explanation mentions thermal convection but does not accurately describe the process or its driving forces.",
+      "Explanation describes thermal convection in basic terms but lacks details about the source of heat or the movement of materials.",
+      "Explanation accurately describes thermal convection as a process driven by heat from Earth's interior, causing the movement of matter, but lacks connection to plate tectonics.",
+      "Explanation clearly articulates thermal convection as a process driven by heat from Earth's interior and relates it to the cycling of matter and the movement of materials within the mantle.",
+      "Explanation provides a comprehensive and insightful description of thermal convection, accurately explaining its driving forces, the cycling of matter, its connection to plate tectonics, and its role in shaping Earth's surface; Explanation is clear, concise, and scientifically accurate."
+    ],
+    [
+      "The model is not supported by evidence or the evidence provided is irrelevant.",
+      "The model includes some evidence, but it is poorly connected to the model or not clearly explained.",
+      "The model is supported by some relevant evidence (e.g., seismic waves, magnetic field data), but the connection to the model is not fully developed.",
+      "The model is clearly supported by relevant evidence such as seismic waves, magnetic field data, and composition of Earth's layers, with a reasonable explanation of how the evidence informs the model.",
+      "The model is strongly supported by a range of relevant evidence, including seismic waves, magnetic field data, composition of Earth's layers, and high-pressure experiments, with a clear explanation of how each piece of evidence informs the model.",
+      "The model is exceptionally well-supported by a comprehensive and diverse range of empirical evidence, demonstrating a sophisticated understanding of how scientific data informs and validates the model of Earth's interior; Explanation of evidence is thorough, insightful, and clearly articulated."
+    ],
+    [
+      "No mention of plate tectonics.",
+      "Plate tectonics is mentioned, but the connection to convection is not clear.",
+      "States that Plate Tectonics is the result of mantle convection.",
+      "Clearly states and explains that Plate Tectonics is the surface expression of mantle convection.",
+      "Clearly states and explains that Plate Tectonics is the surface expression of mantle convection and provides an example.",
+      "Clearly states and explains that Plate Tectonics is the surface expression of mantle convection, provides multiple examples, and correctly identifies that radioactive decay of isotopes drives mantle convection."
+    ]
+  ]
+}

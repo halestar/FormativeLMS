@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Addition Rule Formula",
+    "Application of the Addition Rule in Problem Solving",
+    "Interpretation of Results in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of the Addition Rule formula P(A or B) = P(A) + P(B) - P(A and B).",
+      "Shows limited understanding of the formula; may confuse the components or misapply it.",
+      "Demonstrates partial understanding of the formula but struggles to apply it correctly in all cases.",
+      "Understands the formula and can apply it in simple scenarios, but may have difficulty with more complex problems.",
+      "Demonstrates a strong understanding of the formula and can apply it accurately in most scenarios.",
+      "Demonstrates a comprehensive understanding of the formula and applies it flawlessly, even in complex and novel scenarios."
+    ],
+    [
+      "Unable to apply the Addition Rule to solve probability problems.",
+      "Attempts to apply the rule but makes significant errors in calculation or interpretation.",
+      "Applies the rule with some errors, particularly in identifying the correct probabilities to include in the formula.",
+      "Applies the rule correctly in straightforward problems but struggles with problems that require rearranging the formula or interpreting the results in context.",
+      "Applies the rule effectively in a variety of problems, showing a good understanding of how to manipulate and interpret the formula.",
+      "Demonstrates mastery in applying the Addition Rule to solve complex and non-routine problems, and can explain the reasoning clearly."
+    ],
+    [
+      "Unable to interpret the result of the Addition Rule in the context of the problem.",
+      "Provides a superficial interpretation that does not fully explain the meaning of the probability in the given context.",
+      "Interprets the result with some inaccuracies or limitations, failing to fully connect the probability to the real-world scenario.",
+      "Provides a reasonable interpretation of the result in context, but may lack depth or clarity.",
+      "Offers a clear and insightful interpretation of the result, explaining its implications in the context of the problem.",
+      "Provides a thorough and nuanced interpretation, demonstrating a deep understanding of the probability and its significance in the context of the problem."
+    ]
+  ]
+}

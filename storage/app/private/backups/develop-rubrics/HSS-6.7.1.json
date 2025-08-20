@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Location and Describing the Rise of the Roman Republic",
+    "Understanding the Importance of Mythical and Historical Figures",
+    "Depth of Knowledge and Historical Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify the location of the Roman Republic and provides no description of its rise.",
+      "The student identifies the location of the Roman Republic with significant inaccuracies and provides a very limited or flawed description of its rise.",
+      "The student identifies the location of the Roman Republic with some inaccuracies and provides a basic description of its rise with significant omissions or misunderstandings.",
+      "The student accurately identifies the location of the Roman Republic and provides a satisfactory description of its rise, but lacks depth and detail.",
+      "The student accurately identifies the location of the Roman Republic and provides a detailed and clear description of its rise, demonstrating a good understanding of the key events and factors.",
+      "The student accurately identifies the location of the Roman Republic and provides a comprehensive and insightful description of its rise, demonstrating a deep understanding of the complex factors and influences at play."
+    ],
+    [
+      "The student fails to mention or demonstrate any understanding of the importance of Aeneas, Romulus and Remus, Cincinnatus, Julius Caesar, and Cicero.",
+      "The student mentions a few of the figures but demonstrates little to no understanding of their importance to the rise of the Roman Republic.",
+      "The student identifies several figures but provides superficial or inaccurate explanations of their importance.",
+      "The student accurately describes the importance of most of the figures to the rise of the Roman Republic, but the explanation lacks depth or insight.",
+      "The student clearly explains the importance of all the figures to the rise of the Roman Republic, demonstrating a solid understanding of their roles and contributions.",
+      "The student provides a nuanced and insightful analysis of the importance of each figure, demonstrating a deep understanding of their roles and contributions, and the interplay between them."
+    ],
+    [
+      "The student demonstrates no understanding of the historical context surrounding the rise of the Roman Republic and the figures mentioned.",
+      "The student shows a very limited awareness of the historical context, with significant gaps in knowledge.",
+      "The student demonstrates a basic understanding of the historical context but with significant omissions or misunderstandings.",
+      "The student demonstrates a satisfactory understanding of the historical context, but lacks depth and detail.",
+      "The student demonstrates a strong understanding of the historical context, providing relevant details and explanations.",
+      "The student demonstrates a comprehensive and insightful understanding of the historical context, connecting events and figures to broader historical trends and influences."
+    ]
+  ]
+}

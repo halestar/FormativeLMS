@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Stressors",
+    "Understanding Positive Coping Mechanisms",
+    "Understanding Negative Coping Mechanisms",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any stressors or methods for dealing with stress.",
+      "Identifies only one or two stressors with no methods for dealing with stress.",
+      "Identifies a few stressors but struggles to differentiate between positive and negative coping mechanisms.",
+      "Identifies several stressors and some coping mechanisms, but may confuse positive and negative strategies.",
+      "Clearly identifies a variety of stressors and distinguishes between positive and negative coping mechanisms.",
+      "Thoroughly identifies a wide range of stressors and provides nuanced explanations of positive and negative coping mechanisms, demonstrating a deep understanding."
+    ],
+    [
+      "Demonstrates no understanding of positive ways to deal with stress.",
+      "Mentions one or two positive coping mechanisms superficially.",
+      "Identifies some positive coping mechanisms but lacks depth in explanation or understanding.",
+      "Explains several positive coping mechanisms, but may not fully grasp their benefits.",
+      "Clearly explains a variety of positive coping mechanisms and their benefits.",
+      "Provides insightful explanations of numerous positive coping mechanisms, demonstrating a comprehensive understanding of their benefits and application."
+    ],
+    [
+      "Demonstrates no understanding of negative ways of dealing with stress.",
+      "Mentions one or two negative coping mechanisms without explaining their consequences.",
+      "Identifies some negative coping mechanisms but does not fully explain their harmful effects.",
+      "Explains several negative coping mechanisms, but may not fully grasp their potential harm.",
+      "Clearly explains a variety of negative coping mechanisms and their harmful effects.",
+      "Provides insightful explanations of numerous negative coping mechanisms, demonstrating a comprehensive understanding of their potential harm and long-term consequences."
+    ],
+    [
+      "Unable to apply knowledge of stress management to real-life scenarios.",
+      "Attempts to apply knowledge to scenarios, but explanations are unclear or inaccurate.",
+      "Applies knowledge to some scenarios, but struggles with more complex or nuanced situations.",
+      "Applies knowledge to a variety of scenarios, but may lack depth in analysis or recommendations.",
+      "Applies knowledge effectively to a range of real-life scenarios, providing clear and relevant recommendations.",
+      "Demonstrates exceptional ability to apply knowledge to complex real-life scenarios, offering insightful analysis and well-reasoned recommendations for effective stress management."
+    ]
+  ]
+}

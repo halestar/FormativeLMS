@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Personal Factors",
+    "Understanding Family Influences",
+    "Assessment of School and Community Resources",
+    "Overall Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any personal factors that reduce the risk of engaging in sexual activity.",
+      "Identifies one personal factor with limited accuracy.",
+      "Identifies two personal factors with some inaccuracies or lack of detail.",
+      "Identifies three personal factors with reasonable accuracy and detail.",
+      "Identifies four personal factors with good accuracy, providing relevant details.",
+      "Identifies multiple relevant personal factors with excellent accuracy and comprehensive details, demonstrating a clear understanding of their impact."
+    ],
+    [
+      "Demonstrates no understanding of how family factors can reduce risk.",
+      "Mentions family influence vaguely with no specific examples.",
+      "Provides a basic example of how family can influence risk reduction with limited detail.",
+      "Describes two ways family can influence risk reduction with reasonable detail.",
+      "Explains multiple family factors that can reduce risk, providing specific and relevant examples.",
+      "Comprehensively analyzes family factors, providing insightful examples and demonstrating a deep understanding of their impact on reducing sexual risk."
+    ],
+    [
+      "Fails to identify any school or community resources.",
+      "Identifies one school or community resource with minimal description.",
+      "Identifies two resources but lacks detail about their role in reducing risk.",
+      "Describes three resources and their general role in risk reduction.",
+      "Explains multiple resources and how they specifically contribute to reducing sexual risk.",
+      "Demonstrates a comprehensive understanding of various school and community resources, analyzing their effectiveness in reducing sexual risk with detailed examples."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it hard to follow.",
+      "Response is somewhat clear but could be better organized.",
+      "Response is generally clear and organized, with a logical flow.",
+      "Response is clear, well-organized, and easy to understand, demonstrating effective communication skills.",
+      "Response is exceptionally clear, concise, and logically structured, showcasing superior communication and analytical skills."
+    ]
+  ]
+}

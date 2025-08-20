@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Arithmetic Patterns",
+    "Explanation Using Properties of Operations",
+    "Clarity and Precision of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify arithmetic patterns.",
+      "Identifies only the most obvious arithmetic patterns with prompting.",
+      "Identifies simple arithmetic patterns, such as even\/odd number sequences, with some errors.",
+      "Identifies various arithmetic patterns (addition, multiplication) but struggles to articulate the underlying rule or property.",
+      "Accurately identifies arithmetic patterns and can describe them, but struggles to connect the patterns to properties of operations.",
+      "Accurately identifies arithmetic patterns, clearly explains them, and connects them to relevant properties of operations with examples."
+    ],
+    [
+      "No attempt to explain patterns using properties of operations.",
+      "Mentions properties of operations, but explanation is unclear or incorrect.",
+      "Attempts to explain patterns using properties of operations, but explanation is incomplete and contains inaccuracies.",
+      "Explains patterns using properties of operations, but the connection between the pattern and the property is not always clear.",
+      "Clearly explains patterns using properties of operations with minimal prompting and provides a relevant example.",
+      "Clearly and thoroughly explains patterns using properties of operations, providing insightful examples and demonstrating a strong understanding of the underlying mathematical principles."
+    ],
+    [
+      "Explanation is unclear and lacks precision.",
+      "Explanation is difficult to follow and contains significant mathematical inaccuracies.",
+      "Explanation is understandable but lacks detail and contains some mathematical inaccuracies.",
+      "Explanation is mostly clear and precise, with minor mathematical inaccuracies.",
+      "Explanation is clear, precise, and mathematically sound.",
+      "Explanation is exceptionally clear, precise, and mathematically sound, demonstrating a deep understanding of the concepts."
+    ]
+  ]
+}

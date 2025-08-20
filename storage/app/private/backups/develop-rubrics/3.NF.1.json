@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Unit Fractions (1\/b)",
+    "Understanding of Non-Unit Fractions (a\/b)",
+    "Representation of Fractions",
+    "Application in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of fractions as equal parts of a whole.",
+      "Student shows minimal understanding, struggling to represent a unit fraction when a whole is partitioned.",
+      "Student can represent a unit fraction for simple partitions (e.g., 1\/2, 1\/4) but struggles with others.",
+      "Student understands a fraction 1\/b as one part of a whole partitioned into b equal parts for denominators 2, 3, 4, 6, and 8.",
+      "Student can accurately represent and explain unit fractions for various partitions and can relate them to real-world contexts.",
+      "Student demonstrates a comprehensive understanding of unit fractions, including the ability to compare and order them, and can explain their significance in more complex fractions."
+    ],
+    [
+      "Student does not understand the meaning of a fraction a\/b.",
+      "Student shows difficulty understanding that a\/b represents 'a' parts of size 1\/b.",
+      "Student can sometimes represent a\/b with guidance but struggles to explain its meaning.",
+      "Student understands a fraction a\/b as the quantity formed by a parts of size 1\/b, for denominators 2, 3, 4, 6, and 8.",
+      "Student can accurately represent and explain non-unit fractions and relate them to unit fractions.",
+      "Student demonstrates a strong understanding of the relationship between unit and non-unit fractions and can apply this knowledge to solve problems and compare fractions."
+    ],
+    [
+      "Student cannot represent fractions using visual models or diagrams.",
+      "Student struggles to create accurate representations of fractions, even with assistance.",
+      "Student can represent fractions with some inaccuracies or inconsistencies.",
+      "Student accurately represents fractions (both unit and non-unit) using visual models such as area models, number lines, or sets.",
+      "Student consistently and accurately represents fractions in multiple ways, showing flexibility in their approach.",
+      "Student creatively and accurately represents fractions, adapting their representations to suit different problem-solving contexts and explaining their reasoning clearly."
+    ],
+    [
+      "Student is unable to apply the concept of fractions to solve simple problems.",
+      "Student struggles to relate fractions to real-world scenarios.",
+      "Student can solve basic problems involving fractions with significant guidance.",
+      "Student can solve simple problems involving fractions in context, such as sharing equally or measuring.",
+      "Student can solve a variety of problems involving fractions, demonstrating an understanding of their practical applications.",
+      "Student can apply their understanding of fractions to solve complex, multi-step problems and can explain their reasoning clearly and accurately."
+    ]
+  ]
+}

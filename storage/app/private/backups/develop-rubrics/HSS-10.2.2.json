@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and completeness in listing the principles of the Magna Carta, the English Bill of Rights, the American Declaration of Independence, the French Declaration of the Rights of Man and the Citizen, and the U.S. Bill of Rights.",
+    "Understanding of historical context and significance of the listed principles.",
+    "Clarity and organization of the list of principles."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to list any principles from the documents or demonstrates a complete misunderstanding of the documents.",
+      "The student lists principles from only one of the documents with significant inaccuracies or omissions.",
+      "The student lists principles from at least two of the documents with some inaccuracies or omissions.",
+      "The student lists principles from at least three of the documents with minor inaccuracies or omissions.",
+      "The student lists principles from four of the documents accurately and completely.",
+      "The student accurately and completely lists the key principles from all five documents, demonstrating a strong understanding of each."
+    ],
+    [
+      "The student shows no understanding of the historical context or significance of any of the listed principles.",
+      "The student shows minimal understanding of the historical context or significance of the principles from only one document.",
+      "The student shows some understanding of the historical context or significance of the principles from at least two documents.",
+      "The student demonstrates a reasonable understanding of the historical context and significance of the principles from at least three documents.",
+      "The student demonstrates a strong understanding of the historical context and significance of the principles from four of the documents.",
+      "The student demonstrates a comprehensive understanding of the historical context and significance of the principles from all five documents, including their impact on the development of self-government and individual liberty."
+    ],
+    [
+      "The student's list is disorganized and unclear, making it difficult to understand the principles.",
+      "The student's list is poorly organized and lacks clarity, making it difficult to identify the principles.",
+      "The student's list has some organization, but lacks sufficient clarity, and only key principles are not immediately evident.",
+      "The student's list is generally organized and clear, making the principles relatively easy to identify.",
+      "The student's list is well-organized and clear, with principles easily identifiable and logically presented.",
+      "The student's list is exceptionally well-organized, clear, and concise, with principles presented in a logical and coherent manner that enhances understanding."
+    ]
+  ]
+}

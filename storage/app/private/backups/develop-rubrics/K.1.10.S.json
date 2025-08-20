@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Who Strangers Are",
+    "Ability to Identify Strategies to Avoid Contact with Strangers",
+    "Understanding of the Importance of Avoiding Contact with Strangers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of who strangers are.",
+      "Student demonstrates a limited understanding of who strangers are, with significant misconceptions.",
+      "Student identifies some characteristics of strangers but struggles with nuanced situations.",
+      "Student accurately identifies strangers in most common scenarios.",
+      "Student demonstrates a comprehensive understanding of who strangers are, including complex situations and varying contexts.",
+      "Student demonstrates an exceptional understanding of who strangers are, including complex situations and varying contexts. Student can also explain why certain individuals might be perceived as strangers and what factors influence that perception."
+    ],
+    [
+      "Student cannot identify any strategies to avoid contact with strangers.",
+      "Student suggests inappropriate or unsafe strategies to avoid contact with strangers.",
+      "Student identifies one or two basic strategies to avoid contact with strangers.",
+      "Student identifies several appropriate strategies to avoid contact with strangers but struggles to apply them to specific scenarios.",
+      "Student identifies and explains a variety of effective strategies to avoid contact with strangers, applying them appropriately to different scenarios.",
+      "Student identifies and explains a variety of effective strategies to avoid contact with strangers, applying them appropriately to different scenarios. Student can also evaluate the effectiveness of different strategies in different contexts and propose creative solutions to avoid contact with strangers in challenging situations."
+    ],
+    [
+      "Student does not understand why avoiding contact with strangers is important.",
+      "Student demonstrates a limited understanding of the importance of avoiding contact with strangers, with significant misconceptions.",
+      "Student identifies some risks associated with contact with strangers but struggles to explain them clearly.",
+      "Student understands the importance of avoiding contact with strangers and can explain the potential risks.",
+      "Student demonstrates a comprehensive understanding of the importance of avoiding contact with strangers, explaining the potential risks and consequences in detail.",
+      "Student demonstrates an exceptional understanding of the importance of avoiding contact with strangers, explaining the potential risks and consequences in detail. Student can also analyze the social and psychological factors that contribute to the vulnerability of individuals to strangers."
+    ]
+  ]
+}

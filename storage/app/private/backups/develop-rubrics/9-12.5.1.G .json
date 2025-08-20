@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Abstinence Benefits",
+    "Understanding of Monogamy Benefits",
+    "Understanding of Avoiding Multiple Partners",
+    "Application of Decision-Making Process"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the physical, emotional, or social benefits of abstinence.",
+      "Demonstrates a minimal understanding of one or two benefits of abstinence.",
+      "Identifies some physical, emotional, and social benefits of abstinence, but explanation lacks depth.",
+      "Clearly explains the physical, emotional, and social benefits of abstinence.",
+      "Provides a comprehensive explanation of the physical, emotional, and social benefits of abstinence, with examples.",
+      "Demonstrates a thorough and nuanced understanding of the benefits of abstinence, including potential challenges and misconceptions."
+    ],
+    [
+      "Demonstrates no understanding of the physical, emotional, or social benefits of monogamy.",
+      "Demonstrates a minimal understanding of one or two benefits of monogamy.",
+      "Identifies some physical, emotional, and social benefits of monogamy, but explanation lacks depth.",
+      "Clearly explains the physical, emotional, and social benefits of monogamy.",
+      "Provides a comprehensive explanation of the physical, emotional, and social benefits of monogamy, with examples.",
+      "Demonstrates a thorough and nuanced understanding of the benefits of monogamy, including potential challenges and misconceptions."
+    ],
+    [
+      "Demonstrates no understanding of the physical, emotional, or social benefits of avoiding multiple sexual partners.",
+      "Demonstrates a minimal understanding of one or two benefits of avoiding multiple sexual partners.",
+      "Identifies some physical, emotional, and social benefits of avoiding multiple sexual partners, but explanation lacks depth.",
+      "Clearly explains the physical, emotional, and social benefits of avoiding multiple sexual partners.",
+      "Provides a comprehensive explanation of the physical, emotional, and social benefits of avoiding multiple sexual partners, with examples.",
+      "Demonstrates a thorough and nuanced understanding of the benefits of avoiding multiple sexual partners, including potential challenges and misconceptions."
+    ],
+    [
+      "Does not use a decision-making process to evaluate the options.",
+      "Attempts to use a decision-making process, but it is incomplete or flawed.",
+      "Uses a decision-making process to evaluate the options, but the analysis is superficial.",
+      "Applies a decision-making process to thoroughly evaluate the physical, emotional, and social benefits of all options.",
+      "Demonstrates a refined and well-reasoned decision-making process, considering various perspectives.",
+      "Critically evaluates the decision-making process itself, identifying potential biases and limitations."
+    ]
+  ]
+}

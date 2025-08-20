@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to construct accurate graphical displays of data representing the relationship between kinetic energy, mass, and speed.",
+    "Ability to interpret the graphical displays to describe the relationships between kinetic energy, mass, and speed.",
+    "Application of proportional relationships (e.g., speed as the ratio of distance traveled to time taken) to analyze the magnitude of properties and processes related to kinetic energy."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to construct a graph or the graph is completely irrelevant.",
+      "The graph is attempted but contains major errors in axes labeling, data plotting, or choice of graph type.",
+      "The graph contains some errors in axes labeling, data plotting, or choice of graph type. The relationship is not clearly represented.",
+      "The graph is mostly accurate with minor errors. The relationship between kinetic energy, mass, and speed is somewhat represented.",
+      "The graph is accurate and clearly represents the relationship between kinetic energy, mass, and speed. Minor details may be missing.",
+      "The graph is exceptionally accurate, clearly represents the relationship, and includes all relevant details, demonstrating a thorough understanding."
+    ],
+    [
+      "No interpretation of the graph is provided or the interpretation is completely incorrect.",
+      "The interpretation is attempted but demonstrates a lack of understanding of the relationship between kinetic energy, mass, and speed.",
+      "The interpretation contains some correct elements but is incomplete or contains significant misunderstandings.",
+      "The interpretation is mostly correct but lacks depth or clarity in explaining the relationships.",
+      "The interpretation is accurate and describes the relationships clearly and effectively. Minor details may be missing.",
+      "The interpretation is exceptionally clear, insightful, and thoroughly explains the relationships between kinetic energy, mass, and speed, demonstrating a deep understanding."
+    ],
+    [
+      "No application of proportional relationships is evident.",
+      "Incorrect or irrelevant proportional relationships are applied.",
+      "Proportional relationships are mentioned, but the application is weak or unclear.",
+      "Proportional relationships are applied correctly, but the explanation lacks depth.",
+      "Proportional relationships are effectively applied to analyze kinetic energy processes with a clear explanation.",
+      "Proportional relationships are expertly applied to provide a comprehensive and insightful analysis of kinetic energy processes."
+    ]
+  ]
+}

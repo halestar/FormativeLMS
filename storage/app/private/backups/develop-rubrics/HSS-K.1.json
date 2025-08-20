@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Civic Responsibilities",
+    "Application of Citizenship Concepts",
+    "Awareness of Community Engagement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of civic responsibilities or the actions of a good citizen.",
+      "Student demonstrates a minimal understanding of civic responsibilities. Struggles to identify actions of a good citizen.",
+      "Student demonstrates a basic understanding of civic responsibilities. Can identify a few actions of a good citizen but lacks depth.",
+      "Student demonstrates a satisfactory understanding of civic responsibilities. Can identify and describe several actions of a good citizen with some explanation.",
+      "Student demonstrates a strong understanding of civic responsibilities. Can thoroughly explain various actions of a good citizen and their importance.",
+      "Student demonstrates an exceptional understanding of civic responsibilities. Can articulate, analyze, and evaluate various actions of a good citizen and their impact on society."
+    ],
+    [
+      "Student is unable to apply citizenship concepts to real-world scenarios or examples.",
+      "Student struggles to apply citizenship concepts to real-world scenarios, with significant inaccuracies.",
+      "Student can somewhat apply citizenship concepts to simple, real-world scenarios but lacks consistency.",
+      "Student applies citizenship concepts to real-world scenarios with reasonable accuracy and provides adequate examples.",
+      "Student effectively applies citizenship concepts to a variety of real-world scenarios, demonstrating clear understanding and thoughtful examples.",
+      "Student expertly applies citizenship concepts to complex, real-world scenarios, providing insightful analysis and demonstrating a nuanced understanding."
+    ],
+    [
+      "Student shows no awareness of the importance of community engagement or participation.",
+      "Student shows minimal awareness of community engagement and its relevance to good citizenship.",
+      "Student acknowledges community engagement but struggles to explain its significance.",
+      "Student explains the importance of community engagement and can provide basic examples of participation.",
+      "Student clearly articulates the importance of community engagement and provides detailed examples of effective participation.",
+      "Student passionately advocates for community engagement, providing comprehensive examples and demonstrating a commitment to active participation."
+    ]
+  ]
+}

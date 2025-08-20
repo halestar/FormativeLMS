@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Personal Enjoyment Factors",
+    "Clarity and Articulation",
+    "Relevance and Specificity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any aspects of physical activity they find enjoyable.",
+      "Student struggles to identify aspects of physical activity that they find enjoyable, requiring significant prompting.",
+      "Student identifies at least one aspect of physical activity they find enjoyable, but struggles to explain why.",
+      "Student identifies several aspects of physical activity they find enjoyable and provides a basic explanation for why.",
+      "Student clearly and confidently explains several aspects of physical activity they find personally enjoyable, providing reasonable explanations.",
+      "Student articulates multiple, diverse aspects of physical activity they find personally enjoyable with insightful explanations, demonstrating a deep understanding of their preferences."
+    ],
+    [
+      "Student is unable to communicate their ideas about enjoying physical activity.",
+      "Student struggles to express ideas clearly and understandably.",
+      "Student's explanation is understandable but lacks detail and clarity.",
+      "Student explains their ideas clearly, but may lack precision or depth.",
+      "Student articulates their ideas with clarity and precision, making their enjoyment easily understandable to others.",
+      "Student communicates their ideas eloquently and persuasively, captivating their audience and conveying a genuine sense of enjoyment."
+    ],
+    [
+      "Student's statements are vague and lack relevance to physical activity.",
+      "Student's statements are somewhat relevant but lack specific examples.",
+      "Student provides examples that are somewhat relevant to physical activity but lacks detail.",
+      "Student provides relevant and specific examples of enjoyable aspects of physical activity.",
+      "Student provides detailed and relevant examples, clearly linking them to the enjoyment derived from the activity.",
+      "Student provides insightful and nuanced examples, demonstrating a deep understanding of how specific aspects of physical activity contribute to their enjoyment."
+    ]
+  ]
+}

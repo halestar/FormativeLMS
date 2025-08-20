@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Comparison of Daily Life Aspects",
+    "Recognition of Change and Continuity",
+    "Understanding of Cultural and Geographical Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to compare or contrast daily life aspects is made.",
+      "The comparison or contrast of daily life aspects is minimal and lacks detail.",
+      "The comparison or contrast of daily life aspects is somewhat developed but contains some inaccuracies.",
+      "The comparison and contrast of daily life aspects is clearly developed and mostly accurate.",
+      "The comparison and contrast of daily life aspects is detailed, accurate, and includes multiple examples.",
+      "The comparison and contrast of daily life aspects is comprehensive, insightful, and demonstrates a nuanced understanding."
+    ],
+    [
+      "No recognition of change or continuity in different times and places is demonstrated.",
+      "Minimal recognition of change or continuity is shown, with limited accuracy.",
+      "Recognition of change or continuity is evident but lacks depth and may contain some generalizations.",
+      "Recognition of change and continuity is clear and accurate, with relevant examples.",
+      "Recognition of change and continuity is detailed, insightful, and demonstrates a clear understanding of historical context.",
+      "Recognition of change and continuity is sophisticated, nuanced, and demonstrates a deep understanding of the complexities of historical trends."
+    ],
+    [
+      "Demonstrates no understanding of the cultural and geographical context of the selected times and places.",
+      "Demonstrates a limited understanding of the cultural and geographical context, with significant gaps in knowledge.",
+      "Demonstrates a basic understanding of the cultural and geographical context, but lacks depth and detail.",
+      "Demonstrates a good understanding of the cultural and geographical context, with accurate and relevant information.",
+      "Demonstrates a strong understanding of the cultural and geographical context, with insightful analysis and connections.",
+      "Demonstrates a comprehensive and nuanced understanding of the cultural and geographical context, with sophisticated analysis and synthesis."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifies appropriate trusted adults and demonstrates willingness to seek help.",
+    "Demonstrates understanding of emotional and social health problems.",
+    "Effectively communicates the problem to the trusted adult."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any trusted adults or expresses unwillingness to seek help.",
+      "Identifies at least one trusted adult but is hesitant or unwilling to seek help.",
+      "Identifies one trusted adult and shows some willingness to seek help, but expresses reservations.",
+      "Identifies multiple trusted adults and is generally willing to seek help when prompted.",
+      "Confidently identifies multiple trusted adults and independently seeks help when needed.",
+      "Proactively identifies trusted adults, seeks help for self and others, and encourages peers to do the same."
+    ],
+    [
+      "Does not demonstrate any understanding of emotional or social health problems.",
+      "Shows limited understanding of emotional and social health problems.",
+      "Understands basic emotional and social health problems but struggles to apply the understanding.",
+      "Understands common emotional and social health problems and can generally apply that understanding.",
+      "Demonstrates a strong understanding of various emotional and social health problems and can apply that understanding effectively.",
+      "Displays comprehensive understanding of emotional and social health problems, including nuanced situations, and can effectively apply that understanding."
+    ],
+    [
+      "Unable to communicate the problem to a trusted adult.",
+      "Struggles to communicate the problem clearly to a trusted adult.",
+      "Communicates the problem with some clarity but may omit important details.",
+      "Communicates the problem clearly and concisely to a trusted adult.",
+      "Communicates the problem effectively, providing relevant details and context to a trusted adult.",
+      "Communicates the problem with exceptional clarity, empathy, and detail, ensuring the trusted adult fully understands the situation."
+    ]
+  ]
+}

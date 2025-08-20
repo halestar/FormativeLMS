@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation",
+    "Clarity and Effectiveness of Communication",
+    "Application of Systems Thinking",
+    "Use of Evidence & Scientific Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing key components or demonstrates a misunderstanding of the hierarchical organization of systems within multicellular organisms.",
+      "The model includes some relevant components but contains inaccuracies or omissions that impact its overall representation of the system.",
+      "The model represents the basic hierarchical organization but may have minor inaccuracies or lack detail in certain areas.",
+      "The model accurately represents the hierarchical organization of interacting systems, including most relevant components and relationships.",
+      "The model is highly accurate and detailed, effectively illustrating the hierarchical organization and interactions within multicellular organisms.",
+      "The model is exceptionally accurate, detailed, and insightful, demonstrating a deep understanding of the hierarchical organization and complex interactions within multicellular organisms. It goes beyond expectations by providing additional relevant information or novel perspectives."
+    ],
+    [
+      "The model is unclear and difficult to understand.  Explanations are missing or incomprehensible.",
+      "The model's communication is limited; explanations are unclear or incomplete, hindering understanding.",
+      "The model communicates the basic concepts but lacks clarity in some areas, potentially causing confusion.",
+      "The model is generally clear and easy to understand, with adequate explanations of the represented systems.",
+      "The model is exceptionally clear, concise, and well-organized, facilitating a strong understanding of the illustrated concepts.",
+      "The model is exceptionally clear, engaging, and insightful, demonstrating a mastery of communication through visual representation and detailed, well-articulated explanations. It captivates the audience and leaves a lasting impression."
+    ],
+    [
+      "The model fails to represent the connections and interactions among systems within multicellular organisms.",
+      "The model shows a limited understanding of the interconnections between systems.",
+      "The model shows some understanding of the interconnections between systems but is missing key interactions.",
+      "The model adequately illustrates the interactions between the systems represented, supporting the explanation of how the entire system functions.",
+      "The model clearly and effectively demonstrates the relationships between systems, emphasizing the emergent properties and functions that arise from their interactions.",
+      "The model demonstrates a sophisticated understanding of systems thinking, revealing nuanced insights into the complex interactions and emergent properties within multicellular organisms. It highlights feedback loops, cascading effects, and other advanced systems concepts."
+    ],
+    [
+      "The model does not accurately reflect scientific knowledge or principles related to the hierarchical structure of organisms.",
+      "The model contains some connection to the scientific knowledge, but lacks strong scientific reasoning.",
+      "The model represents the scientific knowledge and principles, but has minor inaccuracies or lacks detail.",
+      "The model is based on sound scientific evidence and demonstrates a clear understanding of the relevant scientific principles.",
+      "The model is based on sound scientific evidence and demonstrates a clear understanding of the relevant scientific principles, using a number of sources.",
+      "The model is based on sound scientific evidence and demonstrates a clear understanding of the relevant scientific principles, using a number of sources in order to highlight a novel connection or discovery."
+    ]
+  ]
+}

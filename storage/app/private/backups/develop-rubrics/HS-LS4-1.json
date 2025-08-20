@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Evidence for Common Ancestry and Biological Evolution",
+    "Communication of Scientific Information",
+    "Application of Crosscutting Concepts (Patterns)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the evidence supporting common ancestry and biological evolution.",
+      "Identifies at least one piece of evidence but struggles to explain its connection to common ancestry and biological evolution.",
+      "Identifies multiple pieces of evidence but demonstrates a superficial understanding of their connection to common ancestry and biological evolution.",
+      "Explains how multiple lines of evidence (e.g., DNA sequences, anatomical structures, embryological development) support common ancestry and biological evolution.",
+      "Provides a detailed explanation of how multiple lines of evidence support common ancestry and biological evolution, including specific examples and relevant terminology.",
+      "Provides a comprehensive and insightful explanation of how multiple lines of evidence strongly support common ancestry and biological evolution, demonstrating a nuanced understanding of the scientific theory and its implications."
+    ],
+    [
+      "Unable to communicate any scientific information related to common ancestry and biological evolution.",
+      "Attempts to communicate scientific information but lacks clarity and organization.",
+      "Communicates some scientific information but struggles to use appropriate formats (e.g., orally, graphically, textually).",
+      "Communicates scientific information effectively in at least one format, with reasonable clarity and organization.",
+      "Communicates scientific information effectively in multiple formats, with clear explanations, appropriate visuals, and well-organized presentation.",
+      "Communicates scientific information exceptionally well in multiple formats, demonstrating mastery of the subject matter and effective communication skills."
+    ],
+    [
+      "Does not recognize or apply the concept of patterns in the context of biological evolution.",
+      "Identifies patterns superficially but fails to connect them to evidence for causality in explanations of phenomena.",
+      "Recognizes some patterns in the evidence for biological evolution but struggles to explain their significance.",
+      "Explains how patterns observed at different scales provide evidence for causality in explanations of biological evolution.",
+      "Demonstrates a strong understanding of how patterns at different scales provide evidence for causality in explanations of biological evolution, using relevant examples.",
+      "Provides a sophisticated analysis of how patterns at different scales provide compelling evidence for causality in explanations of biological evolution, demonstrating a deep understanding of the interplay between evidence and theory."
+    ]
+  ]
+}

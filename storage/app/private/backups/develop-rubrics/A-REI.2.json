@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to solve simple rational equations",
+    "Ability to solve simple radical equations",
+    "Understanding of extraneous solutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how to solve rational equations.",
+      "Student attempts to solve rational equations but struggles with basic algebraic manipulations.",
+      "Student can solve simple rational equations with some errors in algebraic manipulation or simplification.",
+      "Student can solve most simple rational equations correctly, with only minor errors.",
+      "Student can solve simple rational equations correctly and efficiently, showing a clear understanding of the process.",
+      "Student can solve simple rational equations correctly, efficiently, and can explain the reasoning behind each step."
+    ],
+    [
+      "Student demonstrates no understanding of how to solve radical equations.",
+      "Student attempts to solve radical equations but struggles with isolating the radical or squaring both sides.",
+      "Student can solve simple radical equations with some errors in algebraic manipulation or simplification.",
+      "Student can solve most simple radical equations correctly, with only minor errors.",
+      "Student can solve simple radical equations correctly and efficiently, showing a clear understanding of the process.",
+      "Student can solve simple radical equations correctly, efficiently, and can explain the reasoning behind each step."
+    ],
+    [
+      "Student does not recognize the possibility of extraneous solutions.",
+      "Student acknowledges the existence of extraneous solutions but does not know how to identify them.",
+      "Student attempts to check for extraneous solutions but makes errors in the process.",
+      "Student can identify extraneous solutions in most cases, but may miss some.",
+      "Student consistently checks for and identifies extraneous solutions, explaining why they arise.",
+      "Student consistently checks for and identifies extraneous solutions, and can explain the mathematical reason behind why extraneous solutions arise."
+    ]
+  ]
+}

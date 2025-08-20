@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of Objection",
+    "Understanding of Personal Characteristics",
+    "Respect and Empathy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not object to teasing or participates in it.",
+      "Shows minimal objection to teasing, but it's weak or easily dismissed.",
+      "Objects to teasing, but the objection is not always clear or consistent.",
+      "Clearly objects to teasing based on personal characteristics, with some rationale.",
+      "Forcefully and clearly objects to teasing, providing a solid rationale for why it's inappropriate.",
+      "Consistently and effectively objects to teasing, demonstrating a strong understanding of why it's harmful and suggesting alternative behaviors."
+    ],
+    [
+      "Does not recognize or acknowledge personal characteristics being the basis of teasing.",
+      "Shows limited understanding of how personal characteristics are related to the teasing.",
+      "Recognizes personal characteristics as the basis of teasing but doesn't articulate it well.",
+      "Understands and can articulate that teasing is based on personal characteristics.",
+      "Clearly understands and explains how specific personal characteristics are targeted in the teasing.",
+      "Demonstrates a nuanced understanding of how teasing based on personal characteristics can be hurtful and discriminatory, suggesting ways to address the root causes."
+    ],
+    [
+      "Shows no respect or empathy for those being teased.",
+      "Shows minimal respect or empathy, perhaps only in certain situations.",
+      "Demonstrates some respect and empathy, but inconsistently.",
+      "Consistently shows respect and empathy when objecting to teasing.",
+      "Demonstrates a high level of respect and empathy, considering the feelings of those being teased.",
+      "Exhibits exceptional respect and empathy, actively supporting and advocating for those being teased and fostering a positive environment."
+    ]
+  ]
+}

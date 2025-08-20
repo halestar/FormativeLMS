@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately complete the square for a quadratic expression.",
+    "Ability to correctly identify the maximum or minimum value of the function from the completed square form.",
+    "Ability to explain the properties of the quantity represented by the expression in the completed square form."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to complete the square or completely incorrect.",
+      "Attempts to complete the square, but makes significant errors in algebraic manipulation or identification of key values.",
+      "Completes the square with some errors in calculations or signs, leading to an incorrect vertex form.",
+      "Completes the square with only minor errors that do not significantly impact the final vertex form.",
+      "Accurately completes the square, resulting in the correct vertex form of the quadratic expression.",
+      "Accurately and efficiently completes the square, demonstrating a strong understanding of the process."
+    ],
+    [
+      "Unable to identify the maximum or minimum value, or provides an incorrect answer without justification.",
+      "Attempts to identify the maximum or minimum value, but misinterprets the vertex form or makes an error in sign.",
+      "Identifies the maximum or minimum value, but with an incorrect sign or confuses maximum with minimum.",
+      "Correctly identifies either the maximum or minimum value, but not both, or makes a minor error in the value.",
+      "Correctly identifies both the maximum or minimum value and its corresponding x-value from the vertex form.",
+      "Clearly and accurately identifies the maximum or minimum value and explains its significance in the context of the problem."
+    ],
+    [
+      "No explanation provided or the explanation is completely irrelevant to the expression's properties.",
+      "Provides a limited explanation that demonstrates a weak understanding of the relationship between the vertex form and the quantity's properties.",
+      "Attempts to explain the properties, but the explanation is unclear, incomplete, or contains inaccuracies.",
+      "Provides a mostly correct explanation of the properties, but lacks depth or clarity in connecting the vertex form to the quantity.",
+      "Clearly explains the properties of the quantity represented by the expression and demonstrates a solid understanding of the relationship between the vertex form and the quantity.",
+      "Provides a comprehensive and insightful explanation of the properties of the quantity, demonstrating a deep understanding of how completing the square reveals these properties."
+    ]
+  ]
+}

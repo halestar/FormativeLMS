@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Trigonometric Ratios (Sine, Cosine, Tangent)",
+    "Application of Trigonometric Ratios to Solve for Sides",
+    "Application of Trigonometric Ratios to Solve for Angles",
+    "Use of the Pythagorean Theorem",
+    "Solving Applied Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of trigonometric ratios is demonstrated.",
+      "Demonstrates minimal understanding of trigonometric ratios; struggles to identify opposite, adjacent, and hypotenuse.",
+      "Demonstrates partial understanding of trigonometric ratios; can identify sides but struggles with applying the correct ratio.",
+      "Demonstrates a general understanding of trigonometric ratios; can apply the correct ratio but makes minor errors.",
+      "Demonstrates a strong understanding of trigonometric ratios; correctly applies ratios with accuracy.",
+      "Demonstrates an exceptional understanding of trigonometric ratios; applies ratios accurately and explains the concepts clearly."
+    ],
+    [
+      "Unable to apply trigonometric ratios to solve for unknown sides.",
+      "Struggles to apply trigonometric ratios to solve for unknown sides; makes significant errors.",
+      "Attempts to apply trigonometric ratios but makes frequent errors in setting up the equation or solving.",
+      "Can apply trigonometric ratios to solve for unknown sides with some accuracy; may make minor calculation errors.",
+      "Applies trigonometric ratios accurately to solve for unknown sides; demonstrates a strong problem-solving ability.",
+      "Applies trigonometric ratios flawlessly to solve for unknown sides; provides clear and concise solutions."
+    ],
+    [
+      "Unable to apply trigonometric ratios to solve for unknown angles.",
+      "Struggles to apply trigonometric ratios to solve for unknown angles; demonstrates a lack of understanding of inverse trigonometric functions.",
+      "Attempts to apply trigonometric ratios but makes frequent errors in using inverse trigonometric functions.",
+      "Can apply trigonometric ratios to solve for unknown angles with some accuracy; may have trouble with calculator usage.",
+      "Applies trigonometric ratios accurately to solve for unknown angles; demonstrates proficiency in using inverse trigonometric functions.",
+      "Applies trigonometric ratios flawlessly to solve for unknown angles; clearly explains the steps and reasoning."
+    ],
+    [
+      "No understanding of Pythagorean Theorem is demonstrated.",
+      "Demonstrates minimal understanding of the Pythagorean Theorem; unable to apply it correctly.",
+      "Demonstrates partial understanding; makes errors in identifying sides or applying the theorem.",
+      "Applies the Pythagorean Theorem with some accuracy but may make minor calculation errors.",
+      "Applies the Pythagorean Theorem accurately to solve for unknown sides.",
+      "Applies the Pythagorean Theorem flawlessly and can explain its relationship to trigonometric ratios."
+    ],
+    [
+      "Unable to set up or solve applied problems involving right triangles.",
+      "Struggles to set up and solve applied problems; demonstrates difficulty translating word problems into mathematical equations.",
+      "Attempts to solve applied problems but makes frequent errors in setting up the problem or applying the correct trigonometric ratio.",
+      "Can solve some applied problems with some accuracy; may struggle with more complex scenarios.",
+      "Solves applied problems accurately and efficiently; demonstrates a strong understanding of real-world applications.",
+      "Solves complex applied problems flawlessly; provides clear explanations of the problem-solving process."
+    ]
+  ]
+}

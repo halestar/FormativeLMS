@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Harding's Policies",
+    "Understanding of Coolidge's Policies",
+    "Understanding of Hoover's Policies",
+    "Comparison of the Policies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Warren Harding's policies.",
+      "Shows a very limited understanding of Warren Harding's policies, with significant inaccuracies.",
+      "Displays a basic understanding of Warren Harding's policies but lacks depth and detail.",
+      "Accurately describes Warren Harding's policies with some supporting details.",
+      "Demonstrates a strong understanding of Warren Harding's policies, including key initiatives and their impact.",
+      "Provides a comprehensive and insightful analysis of Warren Harding's policies, including their context, implementation, and long-term consequences."
+    ],
+    [
+      "Demonstrates no understanding of Calvin Coolidge's policies.",
+      "Shows a very limited understanding of Calvin Coolidge's policies, with significant inaccuracies.",
+      "Displays a basic understanding of Calvin Coolidge's policies but lacks depth and detail.",
+      "Accurately describes Calvin Coolidge's policies with some supporting details.",
+      "Demonstrates a strong understanding of Calvin Coolidge's policies, including key initiatives and their impact.",
+      "Provides a comprehensive and insightful analysis of Calvin Coolidge's policies, including their context, implementation, and long-term consequences."
+    ],
+    [
+      "Demonstrates no understanding of Herbert Hoover's policies.",
+      "Shows a very limited understanding of Herbert Hoover's policies, with significant inaccuracies.",
+      "Displays a basic understanding of Herbert Hoover's policies but lacks depth and detail.",
+      "Accurately describes Herbert Hoover's policies with some supporting details.",
+      "Demonstrates a strong understanding of Herbert Hoover's policies, including key initiatives and their impact.",
+      "Provides a comprehensive and insightful analysis of Herbert Hoover's policies, including their context, implementation, and long-term consequences."
+    ],
+    [
+      "Makes no attempt to compare the policies of Harding, Coolidge and Hoover.",
+      "Offers a superficial comparison with several inaccuracies.",
+      "Identifies a few similarities or differences in policies but lacks depth.",
+      "Presents a balanced comparison of the policies, highlighting key similarities and differences.",
+      "Demonstrates a strong understanding of the nuances of each president's policies and can articulate nuanced comparisons.",
+      "Provides an insightful and well-supported comparative analysis, showing a deep understanding of the presidents' policies and their historical context."
+    ]
+  ]
+}

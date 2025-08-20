@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify healthy food options",
+    "Understanding of nutritional information",
+    "Ability to make healthy food choices in different settings",
+    "Consideration of dietary needs and preferences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any healthy food options.",
+      "Student can identify very few healthy food options (1-2) with significant prompting.",
+      "Student can identify some healthy food options (3-4) with some prompting.",
+      "Student can identify several healthy food options (5-6) with minimal prompting.",
+      "Student can independently identify many healthy food options and explain why they are healthy.",
+      "Student can comprehensively identify a wide variety of healthy food options, explain why they are healthy, and compare them to less healthy alternatives."
+    ],
+    [
+      "Student does not demonstrate understanding of nutritional information (e.g., calories, macronutrients, vitamins).",
+      "Student demonstrates very limited understanding of nutritional information, requiring significant assistance.",
+      "Student demonstrates some understanding of nutritional information, but struggles to apply it to food choices.",
+      "Student demonstrates a solid understanding of nutritional information and can apply it to basic food choices.",
+      "Student demonstrates a strong understanding of nutritional information and can apply it to complex food choices and dietary needs.",
+      "Student demonstrates expert understanding of nutritional information, can apply it to a wide range of food choices, and can critically evaluate nutritional claims."
+    ],
+    [
+      "Student consistently makes unhealthy food choices in all settings.",
+      "Student makes unhealthy food choices most of the time and requires significant guidance to make healthier choices.",
+      "Student occasionally makes healthy food choices, but inconsistently and often with prompting.",
+      "Student makes healthy food choices in some settings (e.g., at home) but struggles in others (e.g., at restaurants).",
+      "Student consistently makes healthy food choices in a variety of settings with minimal prompting.",
+      "Student consistently makes healthy food choices in all settings and can advocate for healthy options in challenging environments."
+    ],
+    [
+      "Student does not consider dietary needs or preferences when making food choices.",
+      "Student shows minimal awareness of dietary needs and preferences.",
+      "Student shows some awareness of dietary needs and preferences, but struggles to apply it to food choices.",
+      "Student considers basic dietary needs and preferences (e.g., allergies, vegetarianism) when making food choices.",
+      "Student thoughtfully considers a variety of dietary needs and preferences when making food choices.",
+      "Student proactively seeks out and accommodates diverse dietary needs and preferences in various settings."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Environmental Influence",
+    "Use of Evidence",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of how the environment can influence traits.",
+      "The student shows a limited understanding of how the environment can influence traits, with vague or inaccurate explanations.",
+      "The student demonstrates a basic understanding of how the environment can influence traits, but the explanation lacks depth or specific examples.",
+      "The student demonstrates a satisfactory understanding of how the environment can influence traits, providing some relevant examples.",
+      "The student demonstrates a strong understanding of how the environment can influence traits, providing clear and accurate examples.",
+      "The student demonstrates a comprehensive understanding of how the environment can influence traits, providing detailed examples and explaining the underlying mechanisms."
+    ],
+    [
+      "The student provides no evidence to support their explanation.",
+      "The student provides irrelevant or no valid evidence to support their explanation.",
+      "The student provides limited evidence to support their explanation, and the evidence may not be clearly connected to the explanation.",
+      "The student provides sufficient evidence to support their explanation, with some connection to the explanation.",
+      "The student provides strong evidence to support their explanation, clearly linking the evidence to the explanation.",
+      "The student provides compelling evidence to support their explanation, thoroughly linking the evidence to the explanation and demonstrating a deep understanding of the concepts."
+    ],
+    [
+      "The explanation is unclear, disorganized, and difficult to understand.",
+      "The explanation is somewhat unclear and disorganized, making it difficult to follow the student's reasoning.",
+      "The explanation is generally clear but could be better organized to improve understanding.",
+      "The explanation is clear and organized, making it easy to follow the student's reasoning.",
+      "The explanation is very clear, well-organized, and presented in a logical manner.",
+      "The explanation is exceptionally clear, logically organized, and effectively communicates the student's understanding of the concepts."
+    ]
+  ]
+}

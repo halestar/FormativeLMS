@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Origins of Judaism",
+    "Comprehension of Monotheism",
+    "Knowledge of Moral Laws",
+    "Articulation of Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the origins of Judaism.",
+      "Student demonstrates a minimal understanding of the origins of Judaism, with significant gaps in knowledge.",
+      "Student demonstrates a basic understanding of the origins of Judaism, but lacks depth and detail.",
+      "Student demonstrates a satisfactory understanding of the origins of Judaism, including key figures and events.",
+      "Student demonstrates a strong understanding of the origins of Judaism, providing detailed explanations and connections.",
+      "Student demonstrates a comprehensive and insightful understanding of the origins of Judaism, including historical context and diverse perspectives."
+    ],
+    [
+      "Student does not understand the concept of monotheism.",
+      "Student shows limited understanding of monotheism and its distinction from other religious structures.",
+      "Student demonstrates a basic understanding of monotheism, but struggles to articulate its unique characteristics.",
+      "Student demonstrates a satisfactory understanding of monotheism as the core belief of Judaism.",
+      "Student demonstrates a strong understanding of monotheism, explaining its significance in shaping Jewish identity and practice.",
+      "Student demonstrates a comprehensive understanding of monotheism, comparing and contrasting it with other religious beliefs, and analyzing its impact on Jewish history and culture."
+    ],
+    [
+      "Student is unaware of the moral laws associated with Judaism.",
+      "Student shows minimal awareness of moral laws in Judaism.",
+      "Student can identify some moral laws in Judaism, but struggles to explain their significance.",
+      "Student demonstrates a satisfactory knowledge of the moral laws in Judaism and their importance.",
+      "Student demonstrates a strong knowledge of the moral laws in Judaism, providing specific examples and explaining their relevance.",
+      "Student demonstrates a comprehensive understanding of the moral laws in Judaism, analyzing their ethical implications and historical context."
+    ],
+    [
+      "Student cannot articulate the significance of Judaism as the first monotheistic religion.",
+      "Student struggles to articulate the significance of Judaism.",
+      "Student provides a limited explanation of the significance of Judaism, lacking detail and analysis.",
+      "Student adequately explains the significance of Judaism.",
+      "Student clearly articulates the significance of Judaism.",
+      "Student provides a comprehensive and insightful analysis of the significance of Judaism, connecting it to broader historical and cultural trends."
+    ]
+  ]
+}

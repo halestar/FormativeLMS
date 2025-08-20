@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Explanation of Variation and Advantage",
+    "Use of Evidence",
+    "Understanding of Natural Selection",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No explanation of how variations in characteristics may provide advantages is provided.",
+      "Provides a minimal explanation of how variations in characteristics may provide advantages, but lacks clarity or supporting evidence.",
+      "Explains how variations in characteristics may provide advantages in a limited context, with some supporting evidence.",
+      "Explains how variations in characteristics may provide advantages in surviving, finding mates, or reproducing, with relevant evidence.",
+      "Clearly explains how variations in characteristics provide advantages in multiple contexts (surviving, finding mates, reproducing), supported by specific and accurate evidence.",
+      "Provides a comprehensive and insightful explanation of how variations in characteristics provide significant advantages, demonstrating a deep understanding of natural selection. Includes detailed and compelling evidence."
+    ],
+    [
+      "No evidence is used to support claims or explanations.",
+      "Minimal or irrelevant evidence is presented, with no clear connection to the explanation.",
+      "Some evidence is presented, but it is weak or not clearly linked to the explanation.",
+      "Uses relevant evidence to support the explanation, but may lack detail or depth.",
+      "Uses specific and accurate evidence to strongly support the explanation, demonstrating a clear understanding of cause and effect relationships.",
+      "Masterfully uses a variety of compelling evidence to construct a nuanced and insightful explanation, demonstrating a sophisticated understanding of cause and effect relationships and the role of evidence in scientific reasoning."
+    ],
+    [
+      "Demonstrates no understanding of natural selection.",
+      "Demonstrates a very limited understanding of natural selection, with significant misconceptions.",
+      "Demonstrates a basic understanding of natural selection, but with some inaccuracies or gaps in knowledge.",
+      "Demonstrates a satisfactory understanding of natural selection and its role in providing advantages.",
+      "Demonstrates a strong understanding of natural selection, including its mechanisms and implications for survival and reproduction.",
+      "Demonstrates a comprehensive and nuanced understanding of natural selection, including its complex interactions and long-term effects on evolution."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation is somewhat unclear and disorganized, making it difficult to follow the reasoning.",
+      "Explanation is generally clear, but could be better organized or more concise.",
+      "Explanation is clear, organized, and easy to understand, using appropriate scientific vocabulary.",
+      "Explanation is exceptionally clear, concise, and well-organized, demonstrating excellent communication skills.",
+      "Explanation is articulate, insightful, and engaging, demonstrating a mastery of scientific communication. Conveys complex ideas with precision and clarity."
+    ]
+  ]
+}

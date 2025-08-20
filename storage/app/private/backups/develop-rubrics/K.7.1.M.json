@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Recognition of Emotions",
+    "Appropriateness of Emotional Expression",
+    "Understanding the Impact of Emotional Expression"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student struggles to identify basic emotions in themselves and others.",
+      "Student can identify basic emotions (e.g., happiness, sadness, anger) in themselves and others with prompting.",
+      "Student can identify basic emotions in themselves and others, but may struggle with more complex emotions or nuanced expressions.",
+      "Student can accurately identify a range of emotions in themselves and others, including complex emotions like frustration or disappointment.",
+      "Student demonstrates a strong ability to recognize and understand a wide range of emotions in themselves and others, including subtle cues and non-verbal communication.",
+      "Student exhibits exceptional emotional awareness, demonstrating a deep understanding of their own emotions and the emotions of others, including the ability to interpret complex emotional expressions and contextual factors."
+    ],
+    [
+      "Student expresses emotions in ways that are consistently inappropriate or harmful to themselves or others.",
+      "Student sometimes expresses emotions inappropriately, such as through aggression or withdrawal, but can be redirected with guidance.",
+      "Student generally expresses emotions in an appropriate manner, but may occasionally struggle in challenging situations or when experiencing intense emotions.",
+      "Student consistently expresses emotions in ways that are respectful and considerate of others, even in challenging situations.",
+      "Student demonstrates a high level of emotional regulation, expressing emotions in a way that is both authentic and appropriate for the context, showing sensitivity to the feelings of others.",
+      "Student excels at expressing emotions in a way that promotes healthy communication, empathy, and positive relationships, serving as a role model for others in managing their emotions effectively."
+    ],
+    [
+      "Student is unaware of the impact their emotional expressions have on others.",
+      "Student shows limited awareness of how their emotional expressions affect those around them.",
+      "Student recognizes that their emotions can impact others, but may struggle to anticipate the consequences of their actions.",
+      "Student understands how their emotional expressions affect others and can generally adjust their behavior accordingly.",
+      "Student demonstrates a strong understanding of the impact of their emotional expressions on others, adapting their behavior to promote positive interactions and avoid causing harm.",
+      "Student exhibits exceptional emotional intelligence, skillfully managing their own emotions and understanding the impact of their expressions on others, fostering empathy, and creating supportive relationships."
+    ]
+  ]
+}

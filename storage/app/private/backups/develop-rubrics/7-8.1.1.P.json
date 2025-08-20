@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of the Importance of Adequate Sleep",
+    "Understanding of the Importance of Ergonomics",
+    "Understanding of the Importance of Sun Safety",
+    "Understanding of the Importance of Hearing Protection",
+    "Understanding of the Importance of Self-Examination"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the importance of adequate sleep for health.",
+      "Student mentions adequate sleep but does not explain its importance.",
+      "Student vaguely explains the importance of adequate sleep with limited details.",
+      "Student adequately explains the importance of adequate sleep for physical and mental health.",
+      "Student thoroughly explains the importance of adequate sleep, including specific benefits and potential consequences of sleep deprivation.",
+      "Student comprehensively explains the importance of adequate sleep, providing examples of how it affects various aspects of health and well-being and how it related to other health management strategies."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of ergonomics for health.",
+      "Student mentions ergonomics but does not explain its importance.",
+      "Student vaguely explains the importance of ergonomics with limited details.",
+      "Student adequately explains the importance of ergonomics for preventing physical strain and injury.",
+      "Student thoroughly explains the importance of ergonomics, including specific examples of ergonomic practices in different settings.",
+      "Student comprehensively explains the importance of ergonomics, providing detailed examples of ergonomic principles and how they contribute to long-term health and productivity."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of sun safety.",
+      "Student mentions sun safety but does not explain its importance.",
+      "Student vaguely explains the importance of sun safety with limited details.",
+      "Student adequately explains the importance of sun safety for preventing skin damage and cancer.",
+      "Student thoroughly explains the importance of sun safety, including specific methods of protection and the risks of sun exposure.",
+      "Student comprehensively explains the importance of sun safety, discussing various types of UV radiation, the impact on different skin types, and the long-term consequences of sun damage."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of hearing protection.",
+      "Student mentions hearing protection but does not explain its importance.",
+      "Student vaguely explains the importance of hearing protection with limited details.",
+      "Student adequately explains the importance of hearing protection for preventing hearing loss.",
+      "Student thoroughly explains the importance of hearing protection, including specific scenarios where protection is needed and the consequences of noise-induced hearing loss.",
+      "Student comprehensively explains the importance of hearing protection, discussing the mechanics of hearing, the impact of noise on auditory health, and strategies for advocating for hearing protection in various environments."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of self-examination.",
+      "Student mentions self-examination but does not explain its importance.",
+      "Student vaguely explains the importance of self-examination with limited details.",
+      "Student adequately explains the importance of self-examination for early detection of health issues.",
+      "Student thoroughly explains the importance of self-examination, including specific types of self-exams and the potential benefits of early detection.",
+      "Student comprehensively explains the importance of self-examination, discussing the role of self-awareness in health management, providing resources for proper self-examination techniques, and emphasizing the importance of regular medical check-ups."
+    ]
+  ]
+}

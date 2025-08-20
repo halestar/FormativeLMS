@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Addition",
+    "Application of Place Value",
+    "Use of Properties of Operations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to perform addition of two-digit numbers.",
+      "Student attempts to add two-digit numbers but makes frequent errors, demonstrating a lack of understanding of place value.",
+      "Student can add two-digit numbers but requires significant prompting and makes occasional errors.",
+      "Student accurately adds two-digit numbers with minimal errors, showing a basic understanding of place value strategies.",
+      "Student consistently and accurately adds up to four two-digit numbers, demonstrating a strong understanding of place value and carrying.",
+      "Student demonstrates mastery in adding up to four two-digit numbers efficiently and accurately, employing various strategies based on place value and properties of operations with clear explanations."
+    ],
+    [
+      "Student does not demonstrate any understanding of place value concepts.",
+      "Student shows limited understanding of place value, struggling to differentiate between tens and ones.",
+      "Student demonstrates some understanding of place value but struggles to apply it effectively in addition.",
+      "Student applies place value understanding in addition, correctly aligning numbers and carrying when necessary.",
+      "Student effectively uses place value to simplify addition problems and explains their reasoning clearly.",
+      "Student expertly manipulates place value to efficiently solve complex addition problems, showcasing a deep understanding and ability to adapt strategies."
+    ],
+    [
+      "Student does not use or understand properties of operations.",
+      "Student shows minimal awareness of properties of operations and does not apply them in addition.",
+      "Student attempts to use properties of operations but applies them incorrectly or inefficiently.",
+      "Student correctly uses properties of operations (e.g., commutative, associative) to simplify addition problems.",
+      "Student strategically applies properties of operations to efficiently solve addition problems and explains their strategy.",
+      "Student innovatively uses and combines properties of operations to solve complex addition problems with exceptional efficiency and clear, insightful explanations."
+    ]
+  ]
+}

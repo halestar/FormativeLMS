@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Jewish Migration Patterns",
+    "Knowledge of the Conflict Between Jews and Romans",
+    "Understanding of Roman Restrictions on Jews in Jerusalem",
+    "Analysis of the Effects of Conflict"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Jewish migration patterns around the Mediterranean region.",
+      "Demonstrates a minimal understanding of Jewish migration patterns, with significant inaccuracies.",
+      "Demonstrates a basic understanding of Jewish migration patterns, but lacks detail and precision.",
+      "Demonstrates a satisfactory understanding of Jewish migration patterns, including major routes and destinations.",
+      "Demonstrates a strong understanding of Jewish migration patterns, including specific examples and reasons for movement.",
+      "Demonstrates a comprehensive understanding of Jewish migration patterns, including nuanced details and connections to broader historical contexts."
+    ],
+    [
+      "Demonstrates no knowledge of the conflict between Jews and Romans.",
+      "Demonstrates minimal knowledge of the conflict, with significant inaccuracies.",
+      "Demonstrates a basic understanding of the conflict, but lacks detail and precision.",
+      "Demonstrates a satisfactory understanding of the conflict, including key events and figures.",
+      "Demonstrates a strong understanding of the conflict, including the causes and consequences of the conflict.",
+      "Demonstrates a comprehensive understanding of the conflict, including nuanced interpretations and connections to broader historical trends."
+    ],
+    [
+      "Demonstrates no understanding of Roman restrictions on Jews' right to live in Jerusalem.",
+      "Demonstrates a minimal understanding of Roman restrictions, with significant inaccuracies.",
+      "Demonstrates a basic understanding of Roman restrictions, but lacks detail and precision.",
+      "Demonstrates a satisfactory understanding of Roman restrictions, including the nature and extent of the restrictions.",
+      "Demonstrates a strong understanding of Roman restrictions, including the reasons behind the restrictions and their impact on the Jewish community.",
+      "Demonstrates a comprehensive understanding of Roman restrictions, including nuanced details and connections to broader Roman policies and Jewish resistance efforts."
+    ],
+    [
+      "Unable to identify any effects of the conflict between Jews and Romans.",
+      "Identifies minimal effects, with significant inaccuracies or irrelevant connections.",
+      "Identifies some basic effects, but lacks detail and precision in the analysis.",
+      "Identifies satisfactory effects, providing reasonable explanations and connections.",
+      "Identifies strong effects, providing well-supported explanations and insightful connections.",
+      "Identifies comprehensive effects, providing nuanced analysis, and connecting to broader historical trends and long-term consequences."
+    ]
+  ]
+}

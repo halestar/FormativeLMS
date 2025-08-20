@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Textual Evidence",
+    "Relevance of Evidence to Analysis",
+    "Attention to Precise Details"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited or the cited evidence is completely irrelevant to the analysis.",
+      "The textual evidence cited is inaccurate or does not support the analysis.",
+      "The textual evidence cited is somewhat accurate but only weakly supports the analysis; significant details are missing or misinterpreted.",
+      "The textual evidence cited is generally accurate and supports the analysis, but some details may be overlooked or slightly misinterpreted.",
+      "The textual evidence cited is accurate, relevant, and strongly supports the analysis; demonstrates a good understanding of the text.",
+      "The textual evidence cited is accurate, relevant, and powerfully supports the analysis; demonstrates a deep and nuanced understanding of the text."
+    ],
+    [
+      "The cited evidence is not relevant to the analysis provided.",
+      "The cited evidence has minimal relevance to the analysis, and the connection is unclear.",
+      "The cited evidence is somewhat relevant to the analysis, but the connection is superficial or incomplete.",
+      "The cited evidence is relevant to the analysis, and the connection is adequately explained.",
+      "The cited evidence is clearly relevant to the analysis, and the connection is well-explained and logical.",
+      "The cited evidence is highly relevant and insightful, enhancing the analysis with a sophisticated understanding of its implications."
+    ],
+    [
+      "No attention is paid to the precise details of the explanations or descriptions in the text.",
+      "Minimal attention is paid to the precise details; significant inaccuracies or omissions are present.",
+      "Some attention is paid to the precise details, but important nuances are missed or glossed over.",
+      "Adequate attention is paid to the precise details, but there may be minor oversights or simplifications.",
+      "Careful attention is paid to the precise details, and the analysis reflects a thorough understanding of the text's nuances.",
+      "Exceptional attention is paid to the precise details, and the analysis demonstrates a sophisticated and comprehensive understanding of the text's subtleties."
+    ]
+  ]
+}

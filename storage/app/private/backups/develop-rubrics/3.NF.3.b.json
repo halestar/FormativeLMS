@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Equivalent Fractions",
+    "Explanation of Equivalence",
+    "Use of Visual Models"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of equivalent fractions.",
+      "Student can identify equivalent fractions in very simple cases (e.g., 1\/2 = 2\/4) but struggles to explain why.",
+      "Student can identify and generate simple equivalent fractions but needs assistance in explaining the equivalence.",
+      "Student can recognize and generate simple equivalent fractions (e.g., 1\/2 = 2\/4, 4\/6 = 2\/3) and provides a basic explanation using visual models or other reasoning.",
+      "Student can fluently recognize and generate equivalent fractions and provides clear explanations, often using visual fraction models to support their reasoning.",
+      "Student demonstrates a comprehensive understanding of equivalent fractions, can generate complex equivalent fractions, and provides thorough explanations using various methods, including visual models, and connects it to other mathematical concepts."
+    ],
+    [
+      "Student cannot explain why fractions are equivalent.",
+      "Student attempts to explain equivalence but the explanation is unclear or incorrect.",
+      "Student can provide a limited explanation of equivalence, but the reasoning is not fully developed.",
+      "Student explains why fractions are equivalent using visual fraction models or other reasoning, demonstrating a reasonable understanding.",
+      "Student provides clear and accurate explanations of fraction equivalence, using visual models effectively to support their reasoning.",
+      "Student provides insightful and thorough explanations of fraction equivalence, using multiple methods and demonstrating a deep understanding of the underlying mathematical principles."
+    ],
+    [
+      "Student does not use visual models to explain fraction equivalence.",
+      "Student attempts to use visual models, but they are inaccurate or do not effectively demonstrate equivalence.",
+      "Student uses visual models with some accuracy but struggles to connect the model to the explanation of equivalence.",
+      "Student uses visual models effectively to explain fraction equivalence, demonstrating a clear connection between the model and the explanation.",
+      "Student uses visual models creatively and accurately to explain fraction equivalence, enhancing their explanation with detailed labels and annotations.",
+      "Student expertly uses and adapts visual models to explain complex fraction equivalencies, demonstrating a mastery of the concept and the ability to communicate it clearly through visual representation."
+    ]
+  ]
+}

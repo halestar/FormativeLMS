@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Eligibility for Office and Length of Term",
+    "Knowledge of Election and Removal from Office",
+    "Comprehension of the Oath of Office",
+    "Understanding of Enumerated Executive Powers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the eligibility requirements or term length for the executive branch.",
+      "Demonstrates a minimal understanding of either the eligibility requirements or the term length for the executive branch, with significant inaccuracies.",
+      "Demonstrates a basic understanding of the eligibility requirements and term length, but with some inaccuracies or omissions.",
+      "Demonstrates a satisfactory understanding of the eligibility requirements and term length, with minor inaccuracies.",
+      "Demonstrates a strong understanding of the eligibility requirements and term length, accurately explaining key aspects.",
+      "Demonstrates a comprehensive understanding of the eligibility requirements and term length, providing detailed explanations and insights."
+    ],
+    [
+      "Shows no awareness of the process of election to or removal from office for the executive branch.",
+      "Displays a vague understanding of either the election or removal process, with substantial misunderstandings.",
+      "Identifies the basic steps in the election and removal processes, but with some confusion or gaps in knowledge.",
+      "Describes the election and removal processes with reasonable accuracy, though lacking in detail.",
+      "Explains the election and removal processes clearly and accurately, including key mechanisms and considerations.",
+      "Provides an in-depth analysis of the election and removal processes, including historical context and potential implications."
+    ],
+    [
+      "Unable to identify or explain the purpose of the oath of office for the executive branch.",
+      "Demonstrates a superficial awareness of the oath of office, but with little understanding of its significance.",
+      "States the basic function of the oath of office, but lacks a deeper understanding of its implications.",
+      "Explains the purpose of the oath of office with reasonable clarity, highlighting its binding nature.",
+      "Analyzes the significance of the oath of office, discussing its legal and ethical implications for the executive branch.",
+      "Critically evaluates the role and impact of the oath of office, exploring its historical evolution and contemporary relevance."
+    ],
+    [
+      "Unable to identify any of the enumerated powers of the executive branch as outlined in Article II.",
+      "Identifies one or two executive powers, but with limited understanding of their scope or limitations.",
+      "Lists several enumerated powers of the executive branch, but struggles to explain their specific functions.",
+      "Describes several key enumerated powers of the executive branch, providing basic explanations of their application.",
+      "Explains the scope and limitations of the key enumerated powers of the executive branch, providing relevant examples.",
+      "Provides a comprehensive analysis of the enumerated powers of the executive branch, including their historical context and contemporary interpretation."
+    ]
+  ]
+}

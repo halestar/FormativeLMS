@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding of Gang Definition",
+    "Differentiation Between Gang and Other Groups"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not provide a definition of a gang.",
+      "Student provides a vague or inaccurate definition of a gang.",
+      "Student provides a basic definition of a gang but lacks key elements.",
+      "Student provides a clear definition of a gang, including most key elements.",
+      "Student provides a comprehensive definition of a gang, including all key elements and demonstrating a solid understanding.",
+      "Student provides an insightful and nuanced definition of a gang, demonstrating a deep understanding and awareness of complexities."
+    ],
+    [
+      "Student does not attempt to differentiate a gang from other groups.",
+      "Student provides inaccurate or irrelevant comparisons between a gang and other groups.",
+      "Student makes superficial comparisons, identifying few differences between a gang and other groups.",
+      "Student identifies several key differences between a gang and other groups (club, sports team, clique).",
+      "Student clearly and accurately explains the key differences between a gang and other groups, providing supporting examples.",
+      "Student provides a sophisticated analysis of the distinctions between a gang and other groups, highlighting subtle but important differences and demonstrating critical thinking."
+    ]
+  ]
+}

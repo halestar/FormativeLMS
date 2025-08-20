@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Environmental Pollutants:",
+    "Feasibility and Practicality of the Plan:",
+    "Clarity and Organization of the Plan:",
+    "Impact and Effectiveness of Proposed Solutions:"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any environmental pollutants or noise concerns.",
+      "Identifies one environmental pollutant or noise concern without specific details.",
+      "Identifies a few environmental pollutants and noise concerns with limited detail.",
+      "Identifies several environmental pollutants and noise concerns with some detail and relevance.",
+      "Clearly identifies major environmental pollutants and noise concerns, providing specific and relevant details.",
+      "Comprehensive identification of a wide range of environmental pollutants and noise concerns, demonstrating a thorough understanding and providing detailed examples."
+    ],
+    [
+      "Plan is unrealistic and not feasible for implementation.",
+      "Plan has limited feasibility and lacks practical steps for implementation.",
+      "Plan includes some feasible ideas but lacks detail and practicality in several areas.",
+      "Plan is generally feasible with practical steps outlined, but some areas may be challenging to implement.",
+      "Plan is highly feasible with clear, practical steps for implementation, showing consideration of potential challenges.",
+      "Plan is exceptionally feasible, demonstrating innovative and highly practical strategies for implementation with a clear understanding of real-world constraints and opportunities."
+    ],
+    [
+      "Plan is unclear, disorganized, and difficult to understand.",
+      "Plan lacks clarity and organization, making it challenging to follow.",
+      "Plan has some clarity and organization but could be improved for better understanding.",
+      "Plan is generally clear and organized with a logical flow of ideas.",
+      "Plan is clear, well-organized, and easy to understand, with a logical progression of ideas.",
+      "Plan is exceptionally clear, concise, and meticulously organized, demonstrating excellent communication skills and making it highly accessible to a wide audience."
+    ],
+    [
+      "Proposed solutions are unlikely to have any positive impact on reducing environmental pollutants or noise.",
+      "Proposed solutions have minimal potential impact on reducing environmental pollutants or noise.",
+      "Proposed solutions may have some impact, but their effectiveness is questionable.",
+      "Proposed solutions are likely to have a moderate impact on reducing environmental pollutants and noise.",
+      "Proposed solutions are highly effective and will likely have a significant positive impact on reducing environmental pollutants and noise.",
+      "Proposed solutions are innovative, highly effective, and demonstrate a deep understanding of environmental impact, with potential for widespread positive change."
+    ]
+  ]
+}

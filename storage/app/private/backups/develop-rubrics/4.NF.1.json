@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Equivalent Fractions",
+    "Application of the Principle a\/b = (n*a)\/(n*b)",
+    "Explanation of Equivalence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of equivalent fractions or the principle behind them.",
+      "Shows minimal understanding; struggles to identify or create equivalent fractions even with simple multipliers.",
+      "Identifies equivalent fractions in basic cases but has trouble explaining the multiplicative principle or applying it to more complex fractions.",
+      "Can create equivalent fractions using multiplication or division but may struggle with explaining the underlying principle clearly.",
+      "Demonstrates a solid understanding of equivalent fractions, can generate them accurately, and explains the multiplicative principle effectively.",
+      "Shows a comprehensive understanding, can easily generate and explain equivalent fractions, and apply the concept to complex problems, and teach others."
+    ],
+    [
+      "Unable to apply the principle or even recognize its relevance to creating equivalent fractions.",
+      "Attempts to apply the principle but makes frequent errors in calculation or misunderstands how 'n' affects the fraction.",
+      "Applies the principle with some success in simple cases, but struggles with more complex numbers or fractions.",
+      "Can generally apply the principle correctly but may make occasional errors in calculation or explanation.",
+      "Applies the principle accurately and efficiently, showing a clear understanding of how it works.",
+      "Masterfully applies the principle in diverse and complex situations, demonstrating a deep understanding of its implications and nuances."
+    ],
+    [
+      "Cannot explain why a\/b is equivalent to (n*a)\/(n*b).",
+      "Offers a vague or incorrect explanation, indicating a lack of conceptual understanding.",
+      "Provides a partially correct explanation but struggles to articulate the relationship between 'a', 'b', and 'n'.",
+      "Explains the equivalence adequately but may lack clarity or precision in their explanation.",
+      "Clearly and accurately explains why the fractions are equivalent, using appropriate mathematical vocabulary.",
+      "Provides a comprehensive and insightful explanation, demonstrating a deep understanding of the underlying mathematical principles and offering clear, concise examples."
+    ]
+  ]
+}

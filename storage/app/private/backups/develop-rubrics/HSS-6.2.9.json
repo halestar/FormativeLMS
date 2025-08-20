@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Development of Language",
+    "Ability to Trace the Evolution of Written Language",
+    "Clarity and Accuracy of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how language evolved or its written forms.",
+      "Student shows a very limited understanding of the development of language and written forms, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the development of language and written forms, but struggles with specific details or connections.",
+      "Student shows a satisfactory understanding of the evolution of language and its written forms, with some minor omissions or inaccuracies.",
+      "Student demonstrates a strong understanding of the evolution of language and its written forms, providing accurate details and clear explanations.",
+      "Student demonstrates a comprehensive and nuanced understanding of the evolution of language and its written forms, including insightful analysis and connections to broader historical contexts."
+    ],
+    [
+      "Student is unable to trace the evolution of written language or identify any key developments.",
+      "Student struggles to trace the evolution of written language, showing confusion about the sequence of events or the significance of certain developments.",
+      "Student can trace some aspects of the evolution of written language, but has difficulty connecting different stages or explaining the reasons for changes.",
+      "Student provides a generally accurate account of the evolution of written language, but may miss some important details or connections.",
+      "Student effectively traces the evolution of written language, explaining the key developments and their significance in a clear and organized manner.",
+      "Student provides an exceptional analysis of the evolution of written language, demonstrating a deep understanding of the processes involved and their impact on society."
+    ],
+    [
+      "Information presented is unclear, inaccurate, and difficult to understand.",
+      "Information presented is often unclear or inaccurate, making it difficult to follow the student's reasoning.",
+      "Information presented is generally understandable, but contains some inaccuracies or omissions.",
+      "Information presented is mostly clear and accurate, with only minor errors or gaps.",
+      "Information presented is clear, accurate, and well-organized, making it easy to follow the student's line of reasoning.",
+      "Information presented is exceptionally clear, accurate, and insightful, demonstrating a mastery of the subject matter."
+    ]
+  ]
+}

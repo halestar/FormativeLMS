@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Healthy Snacks",
+    "Variety and Diversity of Snack Choices",
+    "Justification of Snack Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to identify any healthy snacks.",
+      "The student can identify only one snack, but it may not be a healthy option.",
+      "The student can identify one or two healthy snacks, but the choices are limited and may not demonstrate a clear understanding of what constitutes a healthy snack.",
+      "The student identifies three or four healthy snacks, showing some understanding of nutritional value.",
+      "The student identifies five or more healthy snacks and provides a basic explanation of why these snacks are healthy.",
+      "The student accurately identifies a wide variety of healthy snacks, provides detailed explanations of their nutritional benefits, and demonstrates a comprehensive understanding of healthy eating choices."
+    ],
+    [
+      "The student does not provide any variety in snack choices.",
+      "The student suggests only one type of snack (e.g., only fruits) with no diversity.",
+      "The student provides a limited variety of snacks, with minimal diversity in food groups or nutritional content.",
+      "The student suggests snacks from a few different food groups, showing some awareness of a balanced diet.",
+      "The student includes snacks from various food groups, demonstrating an understanding of the importance of a balanced and diverse diet.",
+      "The student suggests a wide range of snacks from diverse food groups, highlighting the importance of variety for optimal health and nutrition."
+    ],
+    [
+      "The student provides no justification for their snack choices.",
+      "The student attempts to justify their snack choices but provides inaccurate or irrelevant information.",
+      "The student offers weak or superficial justifications for their snack choices.",
+      "The student provides reasonable justifications for their snack choices, referencing basic nutritional benefits.",
+      "The student provides clear and accurate justifications for their snack choices, explaining the nutritional benefits and health impacts of each snack.",
+      "The student provides insightful and comprehensive justifications for their snack choices, demonstrating a deep understanding of nutrition and the role of healthy snacks in maintaining overall well-being."
+    ]
+  ]
+}

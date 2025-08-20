@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Place Value (Tens and Ones)",
+    "Composition of Numbers 11-19",
+    "Application of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of place value. Cannot identify tens or ones in a two-digit number.",
+      "Student shows minimal understanding. Struggles to identify tens and ones, often confusing them.",
+      "Student demonstrates basic understanding. Can identify tens and ones in simple cases but struggles with numbers 11-19.",
+      "Student demonstrates satisfactory understanding. Can generally identify tens and ones, including numbers 11-19, but may make occasional errors.",
+      "Student demonstrates strong understanding. Can accurately identify tens and ones in any two-digit number and explains the composition of numbers 11-19.",
+      "Student demonstrates excellent understanding. Can explain place value concepts clearly, accurately identifies tens and ones, and can apply this knowledge to solve related problems."
+    ],
+    [
+      "Student cannot explain how numbers 11-19 are composed of a ten and ones.",
+      "Student attempts to explain the composition but lacks clarity and accuracy.",
+      "Student can identify that numbers 11-19 have tens and ones but cannot explain the exact composition (e.g., one ten and some ones).",
+      "Student can generally explain that numbers 11-19 are made of one ten and a certain number of ones, but may lack precision.",
+      "Student accurately explains the composition of numbers 11-19 as one ten and a specific number of ones.",
+      "Student clearly and thoroughly explains the composition of numbers 11-19, providing examples and demonstrating a strong grasp of the concept."
+    ],
+    [
+      "Student cannot apply place value knowledge to any related task or problem.",
+      "Student struggles to apply place value knowledge and is unsuccessful in most attempts.",
+      "Student can apply place value knowledge to simple tasks with guidance.",
+      "Student can apply place value knowledge to most tasks, although may require some assistance.",
+      "Student can independently and accurately apply place value knowledge to a variety of tasks.",
+      "Student demonstrates mastery in applying place value knowledge to complex tasks and can explain the reasoning behind their solutions."
+    ]
+  ]
+}

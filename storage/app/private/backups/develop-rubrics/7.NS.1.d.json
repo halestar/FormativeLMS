@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Calculations",
+    "Representation on Number Line",
+    "Application of Properties of Operations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of adding and subtracting rational numbers; calculations are consistently incorrect.",
+      "Demonstrates limited understanding; calculations are frequently incorrect with no clear strategy.",
+      "Demonstrates some understanding; calculations are often incorrect, but shows some attempt at a strategy.",
+      "Demonstrates reasonable understanding; calculations are mostly correct with minor errors in applying strategies.",
+      "Demonstrates strong understanding; calculations are correct with appropriate use of strategies and minimal errors.",
+      "Demonstrates excellent understanding; calculations are consistently correct, efficient, and demonstrates mastery of strategies."
+    ],
+    [
+      "Unable to represent addition or subtraction of rational numbers on a number line.",
+      "Attempts to represent on a number line but shows significant misunderstanding of the concept.",
+      "Represents addition or subtraction on a number line with frequent errors or misinterpretations.",
+      "Represents addition and subtraction on a number line with occasional errors or omissions.",
+      "Accurately represents addition and subtraction on a number line with clear labels and appropriate scaling.",
+      "Accurately and effectively represents addition and subtraction on a number line, demonstrating a deep understanding of the relationship between operations and the number line."
+    ],
+    [
+      "Does not apply properties of operations (e.g., commutative, associative, distributive) to add or subtract rational numbers.",
+      "Attempts to apply properties of operations, but demonstrates significant misunderstanding or misapplication.",
+      "Applies properties of operations with limited success or frequent errors.",
+      "Applies properties of operations correctly in some cases, but not consistently.",
+      "Consistently applies properties of operations to simplify and solve problems involving addition and subtraction of rational numbers.",
+      "Masterfully applies properties of operations to efficiently and effectively solve complex problems involving addition and subtraction of rational numbers, demonstrating a deep understanding of their utility."
+    ]
+  ]
+}

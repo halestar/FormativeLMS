@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Meaning of Correlation Coefficient",
+    "Familiarity with Properties of Correlation Coefficient",
+    "Application of Correlation Coefficient in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of correlation coefficient.",
+      "Student shows minimal understanding of correlation coefficient; struggles to define it.",
+      "Student demonstrates basic understanding of correlation coefficient but has difficulty explaining its significance.",
+      "Student accurately describes the correlation coefficient and its significance but lacks depth in explanation.",
+      "Student provides a comprehensive explanation of the correlation coefficient, including its meaning and significance.",
+      "Student demonstrates a deep and nuanced understanding of the correlation coefficient, including its applications and limitations."
+    ],
+    [
+      "Student is unfamiliar with the properties of the correlation coefficient.",
+      "Student knows 1 property of correlation coefficient, struggles to explain it or is wrong.",
+      "Student identifies a few properties of the correlation coefficient but struggles to explain them accurately.",
+      "Student accurately explains one property of correlation coefficient",
+      "Student explains two properties of correlation coefficient.",
+      "Student demonstrates a thorough understanding of the properties of the correlation coefficient."
+    ],
+    [
+      "Student is unable to apply the concept of correlation coefficient to real-world scenarios.",
+      "Student attempts to apply correlation coefficient but struggles to do so accurately.",
+      "Student applies correlation coefficient to simple scenarios but struggles with more complex situations.",
+      "Student applies correlation coefficient to various scenarios with reasonable accuracy.",
+      "Student skillfully applies correlation coefficient to a wide range of scenarios, demonstrating strong analytical skills.",
+      "Student expertly applies correlation coefficient to complex scenarios, providing insightful interpretations and predictions."
+    ]
+  ]
+}

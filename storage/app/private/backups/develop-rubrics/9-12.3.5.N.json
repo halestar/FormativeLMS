@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Identification of Community Programs and Services",
+    "Description of Access to Affordable, Healthy Foods"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any community programs or services that help people access affordable, healthy foods.",
+      "The student identifies one community program or service but provides no description or explanation of its role.",
+      "The student identifies one community program or service and provides a basic description, but the description lacks detail or clarity.",
+      "The student identifies two community programs or services and provides a clear description of each, but the connection to affordable, healthy foods is not clearly explained for both.",
+      "The student identifies at least three community programs or services, provides clear descriptions, and explains how each helps people access affordable, healthy foods.",
+      "The student identifies multiple community programs and services, provides detailed and insightful descriptions of each, and thoroughly explains how they facilitate access to affordable, healthy foods, including specific examples and benefits."
+    ],
+    [
+      "The student fails to describe how the identified programs or services help people gain access to affordable, healthy foods.",
+      "The student provides a vague or unclear description of how the identified programs or services help people gain access to affordable, healthy foods.",
+      "The student's description of how the identified programs or services help people gain access to affordable, healthy foods is somewhat limited or incomplete.",
+      "The student provides a satisfactory description of how the identified programs or services help people gain access to affordable, healthy foods, but lacks specific details.",
+      "The student provides a thorough and detailed description of how the identified programs or services help people gain access to affordable, healthy foods, including specific examples and benefits.",
+      "The student's description is comprehensive, insightful, and demonstrates a deep understanding of the mechanisms through which the identified programs or services improve access to affordable, healthy foods for community members."
+    ]
+  ]
+}

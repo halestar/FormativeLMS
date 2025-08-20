@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Casts\Rubric;
 use App\Models\CRUD\SkillCategoryDesignation;
 use App\Models\Locations\Campus;
 use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
@@ -52,8 +51,6 @@ class KnowledgeSkillSeeder extends Seeder
                         'subject_id' => $subject_id,
                         'designation' => $row[$designation],
                         'description' => nl2br($row[$description]),
-                        'rubric' => null,
-                        'active' => true,
                     ]);
                 //next, we attach the grades
                 for($i = $minGrade; $i <= $maxGrade; $i++)

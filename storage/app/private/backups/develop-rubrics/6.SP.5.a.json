@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy in Identifying the Number of Observations",
+    "Clarity and Precision in Reporting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to identify the number of observations or provides an incorrect number without context.",
+      "Attempts to identify the number of observations but makes significant errors or lacks understanding of the data's context.",
+      "Identifies the number of observations with minor inaccuracies or lacks clarity in relating it to the data's context.",
+      "Accurately identifies the number of observations and relates it to the context of the data set, but explanation lacks detail.",
+      "Accurately identifies the number of observations, clearly relates it to the data's context, and provides a solid explanation.",
+      "Demonstrates a comprehensive understanding by accurately identifying the number of observations, clearly relating it to the data's context, and providing insightful interpretations."
+    ],
+    [
+      "Reporting is unclear, imprecise, or missing, showing a lack of understanding of how to present numerical data.",
+      "Reporting is attempted but lacks clarity and precision, with significant errors in how the numerical data is presented.",
+      "Reporting has some clarity and precision but contains inaccuracies that affect the understanding of the number of observations.",
+      "Reporting is clear and precise, accurately presenting the number of observations in relation to the context.",
+      "Reporting is exceptionally clear and precise, enhancing the understanding of the data through effective presentation of the number of observations.",
+      "Reporting demonstrates mastery in clarity and precision, providing a model for effectively communicating numerical data and its context."
+    ]
+  ]
+}

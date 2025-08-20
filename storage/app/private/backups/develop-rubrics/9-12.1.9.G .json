@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Relevant Laws: Demonstrates understanding of laws pertaining to sexual behavior and the involvement of minors.",
+    "Explanation Clarity and Accuracy: Explains the laws in a clear and accurate manner, avoiding ambiguity.",
+    "Contextual Application: Applies the laws to relevant contexts, such as consent, statutory rape, and reporting requirements."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of relevant laws is demonstrated.",
+      "Demonstrates a minimal understanding of laws, with significant inaccuracies.",
+      "Demonstrates a partial understanding of laws, but with some inaccuracies or omissions.",
+      "Demonstrates a satisfactory understanding of laws, with minor inaccuracies or omissions.",
+      "Demonstrates a strong understanding of laws, with only very minor inaccuracies or omissions.",
+      "Demonstrates a comprehensive and accurate understanding of laws with no omissions."
+    ],
+    [
+      "Explanation is unclear, inaccurate, and confusing.",
+      "Explanation is somewhat unclear and contains significant inaccuracies.",
+      "Explanation is partially clear but contains some inaccuracies or ambiguities.",
+      "Explanation is mostly clear and accurate, with minor ambiguities.",
+      "Explanation is clear, accurate, and easy to understand, with very minor ambiguities.",
+      "Explanation is exceptionally clear, accurate, and comprehensive, leaving no room for ambiguity."
+    ],
+    [
+      "Fails to apply the laws to any relevant contexts.",
+      "Applies the laws to only one context, but with limited understanding.",
+      "Applies the laws to a few contexts, but with some misunderstanding.",
+      "Applies the laws to several contexts, demonstrating a satisfactory understanding.",
+      "Applies the laws to most relevant contexts, demonstrating a strong understanding.",
+      "Applies the laws to all relevant contexts, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

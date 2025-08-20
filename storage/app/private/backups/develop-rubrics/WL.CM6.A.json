@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and complexity of sentence-level elements (morphology and syntax)",
+    "Effectiveness in using paragraph-level discourse (text structure) to communicate on topics of general public interest",
+    "Ability to use learned vocabulary and language functions appropriate to the topic"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates minimal understanding of sentence structure; frequent errors in morphology and syntax impede communication.",
+      "Demonstrates limited understanding of sentence structure; errors in morphology and syntax often hinder communication.",
+      "Demonstrates basic understanding of sentence structure; some errors in morphology and syntax, but communication is generally understandable.",
+      "Demonstrates good understanding of sentence structure in major time frames; occasional errors in morphology and syntax do not impede communication.",
+      "Demonstrates strong command of sentence structure in major time frames; few errors in morphology and syntax.",
+      "Demonstrates excellent command of sentence structure; accurate and sophisticated use of morphology and syntax enhances communication."
+    ],
+    [
+      "Unable to construct coherent paragraphs; lacks understanding of basic text structures.",
+      "Struggles to create paragraphs with a discernible structure; ideas are disjointed and lack cohesion.",
+      "Constructs simple paragraphs with a basic structure; some ideas are connected, but cohesion is limited.",
+      "Creates well-organized paragraphs with clear topic sentences and supporting details; demonstrates understanding of text structure.",
+      "Effectively uses paragraph-level discourse to present ideas in a logical and coherent manner; demonstrates good understanding of text structure.",
+      "Masterfully uses paragraph-level discourse to communicate complex ideas effectively; demonstrates sophisticated understanding of text structure."
+    ],
+    [
+      "Demonstrates very limited vocabulary; struggles to express basic ideas.",
+      "Uses a restricted range of vocabulary; struggles to express ideas clearly.",
+      "Uses basic vocabulary, but lacks precision; communication is sometimes unclear.",
+      "Uses a range of vocabulary relevant to the topic; communication is generally clear and effective.",
+      "Uses a wide range of vocabulary accurately and effectively; communication is clear and precise.",
+      "Uses a sophisticated range of vocabulary with nuance and precision; communication is highly effective and engaging."
+    ]
+  ]
+}

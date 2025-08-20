@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Density Concepts",
+    "Application of Geometric Concepts",
+    "Modeling Situations",
+    "Calculations and Units"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of density as it relates to area or volume.",
+      "Shows limited understanding; struggles to define or explain density in the context of area or volume.",
+      "Understands density as a concept but has difficulty applying it to area and volume calculations.",
+      "Can explain density and its relationship to area and volume, but makes errors in application.",
+      "Clearly understands and explains density in relation to area and volume, applying it correctly in most situations.",
+      "Demonstrates a thorough understanding of density and its applications to area and volume, explaining it clearly and applying it flawlessly."
+    ],
+    [
+      "Unable to apply any geometric concepts to modeling situations.",
+      "Struggles to identify relevant geometric concepts for the situation.",
+      "Identifies some geometric concepts but cannot apply them effectively.",
+      "Applies geometric concepts with some errors or inconsistencies.",
+      "Applies appropriate geometric concepts effectively in most parts of the modeling situation.",
+      "Masterfully applies geometric concepts accurately and effectively to model the situation."
+    ],
+    [
+      "Does not attempt to create a model or the model is completely irrelevant",
+      "Creates a model that bears little resemblance to the situation.",
+      "Creates a model that has some relevance but with significant flaws.",
+      "The model has several flaws and is incomplete.",
+      "Model has minor flaws and represents most aspects of the situation.",
+      "Model is accurate, precise, and addresses all aspects of the situation."
+    ],
+    [
+      "No calculations are performed or are completely incorrect; units are ignored.",
+      "Calculations are attempted but are mostly incorrect; units are missing or wrong.",
+      "Some calculations are correct, but there are significant errors; units are sometimes used correctly.",
+      "Most calculations are correct, but there are minor errors; units are mostly correct.",
+      "Calculations are accurate, and units are consistently used correctly.",
+      "Calculations are perfectly accurate, and units are flawlessly applied and interpreted."
+    ]
+  ]
+}

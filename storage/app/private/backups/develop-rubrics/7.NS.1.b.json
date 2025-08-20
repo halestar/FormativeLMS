@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rational Number Addition and Subtraction: Demonstrates comprehension of adding and subtracting rational numbers, including positive and negative fractions and decimals.",
+    "Representation on a Number Line: Accurately represents addition and subtraction of rational numbers on a horizontal or vertical number line diagram.",
+    "Application of Additive Inverses: Demonstrates understanding that a number and its opposite have a sum of 0 (additive inverses).",
+    "Interpretation in Real-World Contexts: Interprets sums and differences of rational numbers by describing relevant real-world contexts."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of adding or subtracting rational numbers. Unable to represent operations on a number line or in real-world contexts.",
+      "Struggles to add or subtract rational numbers, often making errors with signs or fractions. Difficulty representing operations on a number line or in real-world contexts.",
+      "Can add and subtract simple rational numbers with some errors. Attempts to represent operations on a number line, but with limited accuracy. Limited understanding of real-world contexts.",
+      "Adds and subtracts rational numbers with reasonable accuracy. Represents operations on a number line with minor errors. Can describe simple real-world contexts.",
+      "Accurately adds and subtracts rational numbers, including complex fractions and decimals. Represents operations effectively on a number line. Provides clear descriptions of real-world contexts.",
+      "Demonstrates a thorough understanding of adding and subtracting rational numbers. Skillfully represents operations on a number line and interprets sums and differences in complex real-world contexts with detailed explanations."
+    ],
+    [
+      "Unable to represent addition or subtraction of rational numbers on a number line.",
+      "Attempts to represent addition or subtraction on a number line, but with significant inaccuracies.",
+      "Represents addition or subtraction on a number line with frequent errors in direction or magnitude.",
+      "Represents addition and subtraction on a number line with occasional minor errors.",
+      "Accurately represents addition and subtraction on a number line, demonstrating a clear understanding of positive and negative directions.",
+      "Masterfully represents addition and subtraction on a number line, clearly illustrating the magnitude and direction of each operation with detailed labeling and explanations."
+    ],
+    [
+      "Shows no understanding of additive inverses or their properties.",
+      "Struggles to identify additive inverses and their relationship to zero.",
+      "Identifies additive inverses but has difficulty explaining their sum is zero.",
+      "Understands that additive inverses sum to zero and can provide simple examples.",
+      "Clearly explains and demonstrates that additive inverses sum to zero and can apply this concept in problem-solving.",
+      "Demonstrates a comprehensive understanding of additive inverses, applying this concept to solve complex problems and providing insightful explanations."
+    ],
+    [
+      "Unable to interpret sums or differences of rational numbers in real-world contexts.",
+      "Struggles to relate sums or differences of rational numbers to real-world situations.",
+      "Attempts to describe real-world contexts but provides inaccurate or irrelevant interpretations.",
+      "Describes basic real-world contexts for sums and differences of rational numbers with some clarity.",
+      "Provides clear and relevant descriptions of real-world contexts for sums and differences of rational numbers.",
+      "Offers detailed and insightful interpretations of sums and differences of rational numbers in complex real-world scenarios, demonstrating a deep understanding of their practical implications."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Environmental Pollutants",
+    "Analysis of Noise Pollution",
+    "Understanding Health Effects",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any environmental pollutants.",
+      "Identifies one or two environmental pollutants without explaining how they affect health.",
+      "Identifies a few environmental pollutants and briefly mentions their effects on health.",
+      "Identifies several environmental pollutants and adequately explains their effects on health.",
+      "Identifies a comprehensive list of environmental pollutants and thoroughly explains their effects on health, including specific health conditions.",
+      "Identifies an extensive range of environmental pollutants, deeply analyzes their complex effects on health, and provides insights into long-term consequences."
+    ],
+    [
+      "Does not mention noise pollution.",
+      "Mentions noise pollution but does not explain its effects on health.",
+      "Briefly describes noise pollution and its potential effects on health.",
+      "Adequately analyzes noise pollution and its impact on various health aspects.",
+      "Thoroughly analyzes noise pollution, detailing specific health issues it can cause and providing examples.",
+      "In-depth analysis of noise pollution, including its psychological and physiological impacts, and offers innovative solutions for mitigation."
+    ],
+    [
+      "Demonstrates no understanding of how pollutants affect health.",
+      "Shows limited understanding of the relationship between pollutants and health.",
+      "Understands some basic health effects of environmental pollutants.",
+      "Demonstrates a solid understanding of how environmental pollutants, including noise, affect health.",
+      "Shows a comprehensive understanding of the complex ways environmental pollutants impact health, including both short-term and long-term effects.",
+      "Demonstrates exceptional understanding, offering nuanced insights into the intricate relationships between environmental pollutants and health, including vulnerable populations."
+    ],
+    [
+      "Responses are unclear and difficult to understand.",
+      "Responses lack clarity and coherence.",
+      "Responses are somewhat clear but lack detail.",
+      "Responses are clear, well-organized, and easy to follow.",
+      "Responses are articulate, well-organized, and demonstrate a strong command of the subject matter.",
+      "Responses are exceptionally clear, eloquent, and insightful, showcasing mastery of the topic and effective communication skills."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Exchange",
+    "Understanding of the Use of Money",
+    "Application to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the concept of exchange.",
+      "Student demonstrates a minimal understanding of the concept of exchange, with significant misconceptions.",
+      "Student demonstrates a basic understanding of the concept of exchange, but struggles to apply it in different contexts.",
+      "Student demonstrates a satisfactory understanding of the concept of exchange, with some ability to apply it.",
+      "Student demonstrates a strong understanding of the concept of exchange and can apply it in most contexts.",
+      "Student demonstrates a comprehensive understanding of the concept of exchange and can apply it effectively in various contexts, including complex scenarios."
+    ],
+    [
+      "Student demonstrates no understanding of the use of money to purchase goods and services.",
+      "Student demonstrates a minimal understanding of the use of money, with significant misconceptions.",
+      "Student demonstrates a basic understanding of the use of money, but struggles to explain its function in purchasing goods and services.",
+      "Student demonstrates a satisfactory understanding of the use of money, with some ability to explain its role in transactions.",
+      "Student demonstrates a strong understanding of the use of money and can explain its role in purchasing goods and services effectively.",
+      "Student demonstrates a comprehensive understanding of the use of money and can explain its role in complex economic transactions and financial systems."
+    ],
+    [
+      "Student cannot apply the concepts of exchange and money to real-world scenarios.",
+      "Student attempts to apply the concepts but demonstrates significant difficulty and misunderstanding.",
+      "Student can apply the concepts to simple real-world scenarios with some prompting.",
+      "Student can apply the concepts to common real-world scenarios with minimal prompting.",
+      "Student can apply the concepts to various real-world scenarios effectively.",
+      "Student can apply the concepts to complex and novel real-world scenarios with insightful analysis and understanding."
+    ]
+  ]
+}

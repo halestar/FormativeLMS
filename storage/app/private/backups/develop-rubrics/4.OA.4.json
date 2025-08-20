@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Factor Pairs Identification",
+    "Multiple Recognition",
+    "Prime\/Composite Determination"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any factor pairs for numbers within the range of 1-100.",
+      "Student can identify factor pairs for a few simple numbers (e.g., factors of 4, 6, or 10) but struggles with larger numbers or more complex factorizations.",
+      "Student can identify most factor pairs for numbers within the range of 1-50, but has difficulty with numbers above 50 or identifying all pairs.",
+      "Student can identify factor pairs for numbers within the range of 1-100 but may miss some pairs for certain numbers or make occasional errors.",
+      "Student can accurately identify all factor pairs for numbers within the range of 1-100 with minimal errors and demonstrates a solid understanding of factorization.",
+      "Student demonstrates a comprehensive understanding of factorization by accurately identifying all factor pairs for numbers within the range of 1-100 and can explain the relationship between factors and multiples."
+    ],
+    [
+      "Student does not recognize the concept of multiples and cannot identify whether a number is a multiple of a given factor.",
+      "Student shows limited understanding of multiples and can identify a few multiples of simple numbers (e.g., multiples of 2, 5, or 10) but struggles with others.",
+      "Student can identify multiples of common one-digit numbers within the range of 1-100 but may struggle with larger numbers or less familiar multiples.",
+      "Student can accurately determine whether a given number within the range of 1-100 is a multiple of a given one-digit number with some consistency.",
+      "Student consistently and accurately determines whether a given number within the range of 1-100 is a multiple of a given one-digit number, demonstrating a strong understanding of multiples.",
+      "Student demonstrates mastery of multiple recognition by accurately determining whether a given number within the range of 1-100 is a multiple of a given one-digit number and can explain the relationship between factors, multiples, and divisibility."
+    ],
+    [
+      "Student cannot differentiate between prime and composite numbers and cannot identify examples of either.",
+      "Student has a basic understanding of prime and composite numbers but struggles to classify numbers correctly or provide accurate examples.",
+      "Student can identify some prime and composite numbers within the range of 1-100 but may make errors or struggle with larger or less familiar numbers.",
+      "Student can accurately determine whether a given number within the range of 1-100 is prime or composite with some consistency.",
+      "Student consistently and accurately determines whether a given number within the range of 1-100 is prime or composite, demonstrating a strong understanding of prime and composite numbers.",
+      "Student demonstrates a comprehensive understanding of prime and composite numbers by accurately determining whether a given number within the range of 1-100 is prime or composite and can explain the properties and characteristics that define each type of number."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Geographic Feature Identification",
+    "Effective Use of Visual Aids (Maps, Charts, Pictures)",
+    "Completeness of Descriptors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of geographic features or their variations across California communities; information presented is inaccurate or irrelevant.",
+      "Shows minimal understanding; struggles to accurately identify geographic features and their variations; significant inaccuracies present.",
+      "Identifies some geographic features and variations with limited accuracy; several inaccuracies or omissions are present.",
+      "Identifies most geographic features and variations with reasonable accuracy; some minor inaccuracies or omissions are present.",
+      "Accurately identifies and describes the geographic features and their variations across California communities; only minor omissions.",
+      "Demonstrates comprehensive understanding of geographic features and variations, providing accurate and detailed descriptions across various California communities."
+    ],
+    [
+      "No visual aids are used, or they are completely irrelevant to the content.",
+      "Visual aids are used, but they are poorly chosen and do not support the descriptions.",
+      "Visual aids are somewhat relevant, but their connection to the descriptions is weak.",
+      "Visual aids support the descriptions adequately, enhancing understanding.",
+      "Visual aids are well-chosen and effectively support the descriptions, significantly enhancing understanding.",
+      "Visual aids are expertly chosen and integrated, providing substantial clarity and insight into the descriptions, showing mastery."
+    ],
+    [
+      "Descriptors for land use, vegetation, wildlife, climate, population density, architecture, services, and transportation are missing.",
+      "Descriptors are incomplete; only a few aspects are mentioned and are underdeveloped.",
+      "Descriptors cover some aspects, but key areas are missed or are not sufficiently elaborated.",
+      "Descriptors are mostly complete, covering most of the required aspects with sufficient detail.",
+      "Descriptors are comprehensive, covering nearly all aspects with good detail.",
+      "Descriptors are exceptionally thorough and insightful, providing a complete and nuanced picture of community variations."
+    ]
+  ]
+}

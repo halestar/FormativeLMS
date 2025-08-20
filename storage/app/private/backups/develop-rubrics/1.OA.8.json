@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in determining the unknown whole number.",
+    "Demonstrates understanding of the relationship between addition and subtraction.",
+    "Ability to solve equations with the unknown on either side of the equal sign."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to identify the unknown number in any of the equations.",
+      "Student can identify the unknown number in simple addition equations (e.g., 8 + ? = 11) but struggles with subtraction or equations with the unknown on the left side.",
+      "Student can identify the unknown number in simple addition and subtraction equations but makes frequent errors.",
+      "Student can accurately determine the unknown number in most addition and subtraction equations, including those with the unknown on either side of the equation.",
+      "Student consistently and accurately determines the unknown number in a variety of addition and subtraction equations, demonstrating a strong understanding of the relationship between the numbers.",
+      "Student demonstrates a complete understanding of addition and subtraction equations and can fluently and accurately determine the unknown number in complex equations, and explains the strategy used."
+    ],
+    [
+      "Student does not show any understanding of how addition and subtraction are related.",
+      "Student shows limited awareness of the inverse relationship between addition and subtraction.",
+      "Student recognizes that addition and subtraction are related but struggles to apply this understanding to find the unknown number.",
+      "Student understands the relationship between addition and subtraction and uses this understanding to solve for the unknown in most cases.",
+      "Student clearly demonstrates the inverse relationship between addition and subtraction and uses it to efficiently solve for the unknown number.",
+      "Student can explain the inverse relationship between addition and subtraction in detail and use it to solve complex problems, and teach it to other students."
+    ],
+    [
+      "Student is unable to solve equations where the unknown is on the left side (e.g., 5 = ? - 3).",
+      "Student attempts to solve equations with the unknown on the left side but struggles to correctly apply the operation.",
+      "Student can solve simple equations with the unknown on either side but makes errors in more complex problems.",
+      "Student can solve most equations with the unknown on either side of the equal sign with reasonable accuracy.",
+      "Student consistently solves equations with the unknown on either side of the equal sign accurately and efficiently.",
+      "Student solves all equations regardless of the unknown placement and provides explanations of steps."
+    ]
+  ]
+}

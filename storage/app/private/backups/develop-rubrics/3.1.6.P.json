@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Reducing",
+    "Understanding of Recycling",
+    "Understanding of Reusing",
+    "Connection to a Healthier Environment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of reducing consumption as an environmental strategy.",
+      "Student shows a minimal understanding of reducing consumption, with limited examples.",
+      "Student identifies reducing consumption as a strategy, but explanation lacks depth.",
+      "Student explains reducing consumption with relevant examples, showing a moderate level of understanding.",
+      "Student thoroughly explains reducing consumption with multiple examples and its positive impact on the environment.",
+      "Student comprehensively explains reducing consumption, provides insightful examples, and analyzes its long-term environmental benefits."
+    ],
+    [
+      "Student demonstrates no understanding of recycling as an environmental strategy.",
+      "Student shows a minimal understanding of recycling, with limited or incorrect examples.",
+      "Student identifies recycling as a strategy, but explanation lacks detail and accuracy.",
+      "Student explains recycling with correct examples, showing a moderate level of understanding of the process.",
+      "Student thoroughly explains recycling with multiple correct examples and its positive impact on resource conservation.",
+      "Student comprehensively explains recycling, including different types of recyclable materials and analyzes its impact on landfill reduction and resource sustainability."
+    ],
+    [
+      "Student demonstrates no understanding of reusing items as an environmental strategy.",
+      "Student shows a minimal understanding of reusing items, with vague or impractical examples.",
+      "Student identifies reusing items as a strategy, but explanation lacks practical application.",
+      "Student explains reusing items with practical examples, showing a moderate level of understanding.",
+      "Student thoroughly explains reusing items with multiple practical examples and its positive impact on reducing waste.",
+      "Student comprehensively explains reusing items, providing innovative examples, and analyzes its role in promoting a circular economy."
+    ],
+    [
+      "Student fails to connect reducing, recycling, and reusing to a healthier environment.",
+      "Student makes a weak connection between the 3 R's and environmental health.",
+      "Student identifies that the 3 R's contribute to a healthier environment, but doesn't explain how.",
+      "Student explains how reducing, recycling, and reusing contribute to a healthier environment with some supporting details.",
+      "Student clearly explains how the 3 R's contribute to a healthier environment, providing specific examples of positive outcomes.",
+      "Student comprehensively explains how the 3 R's contribute to a healthier environment, providing insightful examples of positive outcomes, and discusses the broader implications for public health."
+    ]
+  ]
+}

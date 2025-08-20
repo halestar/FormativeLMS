@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Carbon Cycle Model",
+    "Quantitative Representation",
+    "Explanation of Human Impact",
+    "Connections to Earth Systems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Model is missing key components of the carbon cycle or contains significant inaccuracies.",
+      "Model includes some components of the carbon cycle but has major inaccuracies or omissions.",
+      "Model includes most components of the carbon cycle but contains some inaccuracies or lacks detail.",
+      "Model accurately represents the major components of the carbon cycle (atmosphere, hydrosphere, geosphere, biosphere) but may lack some detail or minor connections.",
+      "Model accurately represents the major components and connections within the carbon cycle, demonstrating a good understanding of the system.",
+      "Model accurately and comprehensively represents the carbon cycle, including components, connections, and quantitative relationships. Demonstrates a deep understanding of the system."
+    ],
+    [
+      "Model does not include any quantitative data or representations.",
+      "Model includes minimal quantitative data, which may be inaccurate or irrelevant.",
+      "Model includes some quantitative data, but it is not well-integrated or consistently applied.",
+      "Model incorporates quantitative data to represent carbon cycling, but some values may be estimates or lack clear justification.",
+      "Model uses relevant quantitative data with appropriate units to represent the cycling of carbon. Justifications for values are provided.",
+      "Model rigorously uses quantitative data, including units and justified values, to accurately represent the carbon cycle and predict changes within the system."
+    ],
+    [
+      "Model and explanation fail to address human impacts on the carbon cycle.",
+      "Model mentions human impacts but provides little to no explanation of how these impacts affect the carbon cycle.",
+      "Model identifies some human activities that impact the carbon cycle, but the explanation lacks depth or supporting evidence.",
+      "Model describes how human activities, such as burning fossil fuels, affect carbon dioxide concentrations and climate, but the explanation could be more detailed.",
+      "Model clearly explains how specific human activities impact the carbon cycle, including the effects on carbon dioxide concentrations, climate, and other systems.",
+      "Model provides a comprehensive explanation of the various human impacts on the carbon cycle, including a discussion of feedbacks, long-term consequences, and potential solutions."
+    ],
+    [
+      "Model and explanation do not make connections to other Earth systems.",
+      "Model vaguely mentions other Earth systems but does not explain the connections to the carbon cycle.",
+      "Model identifies some connections between the carbon cycle and other Earth systems (e.g., atmosphere, hydrosphere), but the explanation is limited.",
+      "Model describes how the carbon cycle interacts with other Earth systems, such as the atmosphere and oceans, but may lack detail.",
+      "Model thoroughly explains how the carbon cycle is interconnected with other Earth systems and how changes in one system affect the others.",
+      "Model demonstrates a sophisticated understanding of the complex interactions between the carbon cycle and other Earth systems, including feedback loops and cascading effects."
+    ]
+  ]
+}

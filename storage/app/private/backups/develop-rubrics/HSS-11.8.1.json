@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Economic Sectors",
+    "Tracing the Growth of the Sectors",
+    "Connection to Business and Government"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of service sector, white collar, and professional sector jobs.",
+      "Student shows minimal understanding of the sectors, with significant inaccuracies.",
+      "Student identifies the sectors but struggles to define them accurately.",
+      "Student accurately defines the sectors with some gaps in understanding their roles.",
+      "Student demonstrates a strong understanding of the sectors and their roles in the post-WWII economy.",
+      "Student demonstrates a comprehensive understanding of the sectors, including nuances and complexities of their roles, and provides relevant examples."
+    ],
+    [
+      "Student does not trace the growth of the sectors or provide any relevant information.",
+      "Student attempts to trace the growth but presents inaccurate or irrelevant information.",
+      "Student provides a limited trace of the growth with significant omissions.",
+      "Student provides a basic trace of the growth of the sectors with some supporting information.",
+      "Student effectively traces the growth of the sectors with relevant details and supporting evidence.",
+      "Student thoroughly traces the growth, providing insightful analysis of contributing factors and long-term impacts."
+    ],
+    [
+      "Student fails to connect the sectors' growth to business and government roles.",
+      "Student attempts to connect the sectors but provides unclear or inaccurate information.",
+      "Student makes a weak connection with limited supporting details.",
+      "Student connects the sectors' growth to business and government, providing some context.",
+      "Student clearly connects the growth to both business and government, providing specific examples.",
+      "Student expertly connects the growth to business and government, illustrating the complex interplay between the sectors and these institutions."
+    ]
+  ]
+}

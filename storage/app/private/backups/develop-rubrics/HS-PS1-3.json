@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Planning the Investigation",
+    "Data Collection and Accuracy",
+    "Evidence-Based Inference",
+    "Understanding of Electrical Forces and Structure",
+    "Communication and Clarity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No clear plan for investigation; lacks focus on comparing structure and electrical forces.",
+      "Basic plan outlined, but lacks detail on how to compare substance structure and electrical forces effectively.",
+      "Plan includes some details on comparing substance structure and electrical forces, but may have gaps in methodology.",
+      "A well-defined plan is presented that identifies how to compare the structure of substances and electrical forces, but could benefit from more detail.",
+      "Comprehensive and clear plan to compare the structure of substances at the bulk scale and infer the strength of electrical forces between particles. Addresses most limitations.",
+      "Exemplary, detailed plan that meticulously compares the structure of substances at the bulk scale and infers the strength of electrical forces between particles. Proactively addresses limitations and enhances data reliability."
+    ],
+    [
+      "No data collected or data is irrelevant to the investigation's purpose.",
+      "Minimal data collected with questionable accuracy; insufficient for comparison.",
+      "Some relevant data collected, but accuracy and precision are not adequately addressed.",
+      "Sufficient relevant data is collected with generally accurate measurements, but documentation could be improved.",
+      "Relevant and accurate data collected systematically, with clear documentation of methods and attention to precision.",
+      "Meticulously collected, highly accurate, and comprehensive data, demonstrating a deep understanding of measurement precision and error mitigation. Excellently documented."
+    ],
+    [
+      "No attempt to infer the strength of electrical forces or link it to substance structure.",
+      "Weak attempt to relate electrical forces to substance structure; lacks supporting evidence.",
+      "Basic inference made but lacks sufficient evidence or explanation.",
+      "Reasonable inference made regarding the strength of electrical forces based on the structure of substances, supported by collected evidence.",
+      "Strong inference made regarding the strength of electrical forces, well-supported by substantial evidence and clear reasoning.",
+      "Insightful and compelling inference made regarding the strength of electrical forces, thoroughly supported by comprehensive evidence and sophisticated reasoning, demonstrating a nuanced understanding."
+    ],
+    [
+      "Demonstrates no understanding of the relationship between electrical forces and the structure of matter.",
+      "Limited understanding of how electrical forces influence the structure of substances.",
+      "Basic understanding of the connection between electrical forces and structure, but lacks depth.",
+      "Demonstrates a solid understanding of how electrical forces within and between atoms determine the structure of matter at the bulk scale.",
+      "Demonstrates a comprehensive understanding of how electrical forces influence the structure and properties of matter, with clear explanations.",
+      "Exhibits mastery in explaining how electrical forces dictate the structure and properties of matter, offering profound insights and nuanced perspectives."
+    ],
+    [
+      "Findings are not communicated clearly or logically.",
+      "Communication is unclear and lacks organization.",
+      "Findings are presented, but clarity and logical flow need improvement.",
+      "Findings are communicated clearly and logically, with appropriate use of scientific terminology.",
+      "Findings are communicated with exceptional clarity, logical organization, and precise use of scientific language.",
+      "Findings are communicated with unparalleled clarity, coherence, and eloquence, demonstrating sophisticated command of scientific discourse."
+    ]
+  ]
+}

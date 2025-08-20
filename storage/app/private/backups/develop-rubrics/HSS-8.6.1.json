@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Industrialization and Technological Developments",
+    "Analysis of Human Modification of the Landscape",
+    "Explanation of the Influence of Physical Geography"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of industrialization or technological developments in the Northeast during the specified period.",
+      "Demonstrates a minimal understanding of industrialization or technological developments in the Northeast; information is vague or irrelevant.",
+      "Demonstrates a basic understanding of industrialization and some technological developments in the Northeast, but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of industrialization and key technological developments in the Northeast, providing relevant examples.",
+      "Demonstrates a strong understanding of industrialization and technological developments in the Northeast, providing specific examples and explaining their influence.",
+      "Demonstrates a comprehensive understanding of industrialization and technological developments, thoroughly explaining their influence with insightful examples and analysis."
+    ],
+    [
+      "Shows no awareness of how humans modified the landscape in the Northeast during the specified period.",
+      "Shows a limited awareness of human modification of the landscape; information is unclear or missing.",
+      "Describes some ways humans modified the landscape but lacks specific details or analysis.",
+      "Explains several ways humans modified the landscape in the Northeast, such as deforestation or the growth of cities.",
+      "Analyzes the impact of human modification on the landscape, explaining the consequences of actions like deforestation and urbanization.",
+      "Provides a comprehensive analysis of human modification of the landscape, discussing its long-term effects and connecting it to broader historical trends."
+    ],
+    [
+      "Does not explain how physical geography shaped human actions in the Northeast.",
+      "Attempts to explain the influence of physical geography, but explanation is unclear or inaccurate.",
+      "Identifies some ways physical geography influenced human actions but lacks depth.",
+      "Explains how physical geography influenced human actions, providing examples such as the impact of rivers on the growth of cities or mineral extraction.",
+      "Analyzes how physical geography shaped human actions, explaining the reasons behind these influences and providing specific examples.",
+      "Demonstrates a deep understanding of how physical geography shaped human actions, providing nuanced analysis and connecting it to broader historical themes."
+    ]
+  ]
+}

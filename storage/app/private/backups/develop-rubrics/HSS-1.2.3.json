@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Cardinal Directions",
+    "Appropriateness and Clarity of Map Symbols",
+    "Overall Map Construction and Neatness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Map does not include or incorrectly depicts cardinal directions.",
+      "Map includes cardinal directions, but with significant inaccuracies.",
+      "Map includes cardinal directions with minor inaccuracies or omissions.",
+      "Map accurately depicts cardinal directions with only slight errors.",
+      "Map accurately and clearly depicts cardinal directions.",
+      "Map accurately and creatively depicts cardinal directions, enhancing the overall understanding of spatial relationships."
+    ],
+    [
+      "Map symbols are missing, unclear, or inappropriate for the map's purpose.",
+      "Map includes some symbols, but they are difficult to interpret or not consistently used.",
+      "Map symbols are generally understandable, but some may be ambiguous or poorly chosen.",
+      "Map symbols are clear, appropriate, and consistently used throughout the map.",
+      "Map symbols are well-designed, easy to understand, and effectively represent features on the map.",
+      "Map symbols are exceptionally clear, creative, and enhance the map's overall communicative power, demonstrating a deep understanding of cartographic conventions."
+    ],
+    [
+      "Map is poorly constructed, difficult to read, and lacks essential elements.",
+      "Map shows little effort in construction and is messy or incomplete.",
+      "Map construction is adequate, but some elements are poorly executed or missing.",
+      "Map is neatly constructed, easy to read, and includes all required elements.",
+      "Map is well-constructed, visually appealing, and demonstrates attention to detail.",
+      "Map is exceptionally well-constructed, aesthetically pleasing, and demonstrates a mastery of cartographic principles."
+    ]
+  ]
+}

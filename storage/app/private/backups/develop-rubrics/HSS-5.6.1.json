@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Identification and Mapping of Battles\/Campaigns",
+    "Understanding of Roles of American and British Leaders",
+    "Understanding of Indian Leaders' Alliances"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No battles or campaigns are identified or mapped.",
+      "One or two major battles\/campaigns are identified, but the mapping is inaccurate or missing.",
+      "Several major battles\/campaigns are identified with some inaccuracies in mapping or details.",
+      "Most major battles\/campaigns are accurately identified and mapped, with minor omissions or inaccuracies.",
+      "All major battles\/campaigns are accurately identified and mapped with a high level of detail.",
+      "All major battles\/campaigns are comprehensively and accurately identified and mapped, demonstrating a deep understanding of their geographical context and strategic importance."
+    ],
+    [
+      "No American or British leaders are identified.",
+      "One or two leaders are mentioned, but their roles are not explained or are inaccurate.",
+      "Several leaders are identified, but their roles are vaguely described or have inaccuracies.",
+      "Most major American and British leaders are identified, and their roles are generally accurate.",
+      "All major American and British leaders are accurately identified, and their roles are well-explained with supporting details.",
+      "Demonstrates a comprehensive understanding of the roles of American and British leaders, including their motivations, strategies, and impact on the war."
+    ],
+    [
+      "No Indian leaders or alliances are mentioned.",
+      "Indian leaders are mentioned, but the alliances are not identified.",
+      "Some Indian leaders and their alliances are identified with limited accuracy.",
+      "Most major Indian leaders and their alliances on both sides are identified with reasonable accuracy.",
+      "All major Indian leaders and their alliances are accurately identified and the impact of those alliances are explained.",
+      "Demonstrates a deep understanding of the complex relationships between Indian nations, the American colonists, and the British, explaining the motivations and consequences of their alliances."
+    ]
+  ]
+}

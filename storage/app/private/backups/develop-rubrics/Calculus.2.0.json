@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the formal definition of continuity.",
+    "Graphical interpretation of continuity.",
+    "Applying the concept of continuity to problem-solving."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student shows no understanding of the formal definition of continuity.",
+      "Student can recall the formal definition but cannot explain its components.",
+      "Student can state the formal definition but struggles to apply it in simple cases.",
+      "Student can apply the formal definition in standard cases but may struggle with more complex functions or edge cases.",
+      "Student demonstrates a solid understanding of the formal definition and can apply it to a variety of functions and situations.",
+      "Student demonstrates a deep understanding of the formal definition, can apply it to complex scenarios, and can explain its implications."
+    ],
+    [
+      "Student cannot relate continuity to the graph of a function.",
+      "Student can identify continuous graphs but cannot explain why they are continuous.",
+      "Student can explain continuity in terms of a graph, such as no breaks, but has a limited understanding of removable discontinuities.",
+      "Student can identify discontinuities on a graph and can classify some types of discontinuities.",
+      "Student can thoroughly analyze a graph for continuity, identify different types of discontinuities, and explain their significance.",
+      "Student can relate continuity to the graph of a function in a sophisticated way, and understand how different types of functions behave graphically and why."
+    ],
+    [
+      "Student is unable to apply the concept of continuity to solve problems.",
+      "Student can solve very basic problems related to continuity but requires significant guidance.",
+      "Student can solve straightforward problems related to continuity but struggles with non-standard problem types.",
+      "Student can solve most problems related to continuity but may make mistakes in more complex problems.",
+      "Student can solve a wide range of problems related to continuity accurately and efficiently.",
+      "Student can apply the concept of continuity to solve challenging and novel problems, demonstrating a high level of problem-solving skill."
+    ]
+  ]
+}

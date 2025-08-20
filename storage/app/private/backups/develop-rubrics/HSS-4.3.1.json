@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of Identifying Locations",
+    "Contextual Understanding of Settlement Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any Mexican or other settlements in California or provides inaccurate information.",
+      "Student identifies only one or two settlements with limited accuracy.",
+      "Student identifies some Mexican and other settlements but with some inaccuracies or omissions.",
+      "Student accurately identifies most of the key Mexican and other settlements, but may miss a few details or minor locations.",
+      "Student accurately identifies nearly all significant Mexican and other settlements, including Fort Ross and Sutter's Fort, with only minor omissions.",
+      "Student comprehensively and accurately identifies all key Mexican settlements (e.g., Los Angeles, Monterey, San Diego) and other settlements (e.g., Fort Ross, Sutter's Fort), demonstrating a thorough understanding of their locations and significance."
+    ],
+    [
+      "Student shows no understanding of the significance or context of the settlements identified.",
+      "Student demonstrates minimal understanding of the settlements' historical context.",
+      "Student provides a basic understanding of the settlements, but lacks depth or specific details about their roles.",
+      "Student explains the general significance of Mexican and other settlements, providing some context for their establishment and impact.",
+      "Student provides a clear explanation of the significance of the settlements, including their economic, social, or strategic roles in California's history.",
+      "Student provides a detailed and nuanced understanding of the significance of the settlements, explaining their specific roles in the economic, social, and political context of California during the specified period, including the influence of Mexican and other cultures."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Concepts",
+    "Analysis of Relationships Among Concepts",
+    "Understanding of Text Structure"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any key concepts in the text.",
+      "The student identifies only one or two key concepts, but with limited accuracy.",
+      "The student identifies some key concepts, but misses important ones or provides inaccurate definitions.",
+      "The student identifies most key concepts accurately, but may overlook nuances in their definitions.",
+      "The student accurately identifies all key concepts and provides clear definitions for each.",
+      "The student expertly identifies all key concepts, provides nuanced definitions, and demonstrates a thorough understanding of their importance within the text."
+    ],
+    [
+      "The student is unable to analyze the relationships among concepts.",
+      "The student attempts to describe relationships but struggles to articulate them clearly or accurately.",
+      "The student identifies some relationships but demonstrates a superficial understanding of their connections.",
+      "The student analyzes most relationships accurately, explaining how concepts relate to one another within the text.",
+      "The student thoroughly analyzes all relationships, providing clear explanations and demonstrating a strong understanding of their significance.",
+      "The student expertly analyzes complex relationships, offering insightful interpretations and demonstrating a comprehensive grasp of how concepts interact within the text's structure."
+    ],
+    [
+      "The student demonstrates no understanding of the text's structure.",
+      "The student shows minimal awareness of how the text is organized.",
+      "The student identifies some structural elements (e.g., introduction, conclusion) but struggles to connect them to the relationships among concepts.",
+      "The student describes how the text is structured and how this structure facilitates the presentation of relationships among concepts.",
+      "The student analyzes the text's structure in detail, explaining how it enhances the reader's understanding of the relationships among concepts.",
+      "The student provides an exceptional analysis of the text's structure, demonstrating how it intricately shapes the presentation and interpretation of relationships among concepts, offering original insights into the author's structural choices."
+    ]
+  ]
+}

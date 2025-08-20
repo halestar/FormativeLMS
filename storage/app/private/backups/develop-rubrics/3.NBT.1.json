@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Rounding to the Nearest 10",
+    "Rounding to the Nearest 100",
+    "Explanation of Rounding Process"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to round to the nearest 10, or demonstrates a complete lack of understanding of place value.",
+      "Student attempts to round to the nearest 10 but makes significant errors, indicating a limited understanding of place value.",
+      "Student can round some numbers to the nearest 10 but makes frequent errors or hesitates, showing a partial understanding of place value.",
+      "Student consistently rounds numbers to the nearest 10 with only minor errors, demonstrating a basic understanding of place value.",
+      "Student accurately rounds numbers to the nearest 10 with ease and demonstrates a solid understanding of place value.",
+      "Student expertly rounds numbers to the nearest 10, clearly understands place value, and can explain the reasoning behind the rounding process."
+    ],
+    [
+      "Student does not attempt to round to the nearest 100, or demonstrates a complete lack of understanding of place value.",
+      "Student attempts to round to the nearest 100 but makes significant errors, indicating a limited understanding of place value.",
+      "Student can round some numbers to the nearest 100 but makes frequent errors or hesitates, showing a partial understanding of place value.",
+      "Student consistently rounds numbers to the nearest 100 with only minor errors, demonstrating a basic understanding of place value.",
+      "Student accurately rounds numbers to the nearest 100 with ease and demonstrates a solid understanding of place value.",
+      "Student expertly rounds numbers to the nearest 100, clearly understands place value, and can explain the reasoning behind the rounding process."
+    ],
+    [
+      "Student cannot explain the rounding process or the role of place value.",
+      "Student attempts to explain the rounding process but provides an unclear or inaccurate explanation.",
+      "Student can explain the rounding process with some prompting but struggles to articulate the role of place value.",
+      "Student adequately explains the rounding process and the role of place value in the process.",
+      "Student clearly and accurately explains the rounding process, demonstrating a strong understanding of place value.",
+      "Student provides a comprehensive and insightful explanation of the rounding process, including the significance of place value and its application in various contexts."
+    ]
+  ]
+}

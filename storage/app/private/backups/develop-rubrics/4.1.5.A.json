@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Biological Factors",
+    "Understanding of Psychological Factors",
+    "Understanding of Social Factors",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how biological factors influence individual reactions to alcohol and drugs.",
+      "Shows a limited understanding of biological factors, with significant inaccuracies or omissions.",
+      "Identifies some biological factors (e.g., genetics, metabolism) but struggles to explain their influence on reactions.",
+      "Explains how biological factors like genetics, body weight, and metabolism can affect individual responses to alcohol and drugs, but with some simplification.",
+      "Clearly explains how various biological factors interact to influence individual reactions, providing accurate examples.",
+      "Provides a comprehensive explanation of the complex interplay of biological factors, including genetic predispositions and metabolic rates, on individual responses, demonstrating in-depth understanding."
+    ],
+    [
+      "Demonstrates no understanding of how psychological factors influence individual reactions to alcohol and drugs.",
+      "Shows a limited understanding of psychological factors, with significant inaccuracies or omissions.",
+      "Identifies some psychological factors (e.g., mood, expectations) but struggles to explain their influence on reactions.",
+      "Explains how psychological factors like mood, expectations, and personality can affect individual responses to alcohol and drugs, but with some simplification.",
+      "Clearly explains how various psychological factors interact to influence individual reactions, providing accurate examples.",
+      "Provides a comprehensive explanation of the complex interplay of psychological factors, including mental health conditions and coping mechanisms, on individual responses, demonstrating in-depth understanding."
+    ],
+    [
+      "Demonstrates no understanding of how social factors influence individual reactions to alcohol and drugs.",
+      "Shows a limited understanding of social factors, with significant inaccuracies or omissions.",
+      "Identifies some social factors (e.g., peer pressure, cultural norms) but struggles to explain their influence on reactions.",
+      "Explains how social factors like peer pressure, cultural norms, and family environment can affect individual responses to alcohol and drugs, but with some simplification.",
+      "Clearly explains how various social factors interact to influence individual reactions, providing accurate examples.",
+      "Provides a comprehensive explanation of the complex interplay of social factors, including socioeconomic status and community influences, on individual responses, demonstrating in-depth understanding."
+    ],
+    [
+      "Unable to apply understanding to real-life scenarios or provide relevant examples.",
+      "Struggles to apply knowledge to real-life scenarios, with inaccurate or irrelevant examples.",
+      "Provides simple examples but fails to fully explain how factors influence reactions in realistic situations.",
+      "Applies understanding to a variety of realistic scenarios, explaining how multiple factors interact to influence individual responses.",
+      "Applies understanding to complex and nuanced real-life scenarios, demonstrating the ability to analyze and predict potential reactions.",
+      "Demonstrates exceptional ability to analyze and predict individual reactions in a wide range of complex and ambiguous scenarios, showcasing a deep understanding of the factors involved."
+    ]
+  ]
+}

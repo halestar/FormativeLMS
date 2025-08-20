@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Moderate Physical Activity Benefits",
+    "Understanding of Vigorous Physical Activity Benefits",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the benefits of moderate physical activity is demonstrated.",
+      "Demonstrates a limited understanding of the benefits of moderate physical activity, with significant inaccuracies or omissions.",
+      "Identifies a few benefits of moderate physical activity, but lacks depth or detail in the explanation.",
+      "Describes several benefits of moderate physical activity with reasonable clarity and accuracy.",
+      "Clearly explains multiple benefits of moderate physical activity, providing supporting details and examples.",
+      "Provides a comprehensive and insightful explanation of numerous benefits of moderate physical activity, demonstrating a deep understanding."
+    ],
+    [
+      "No understanding of the benefits of vigorous physical activity is demonstrated.",
+      "Demonstrates a limited understanding of the benefits of vigorous physical activity, with significant inaccuracies or omissions.",
+      "Identifies a few benefits of vigorous physical activity, but lacks depth or detail in the explanation.",
+      "Describes several benefits of vigorous physical activity with reasonable clarity and accuracy.",
+      "Clearly explains multiple benefits of vigorous physical activity, providing supporting details and examples.",
+      "Provides a comprehensive and insightful explanation of numerous benefits of vigorous physical activity, demonstrating a deep understanding."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation is somewhat disorganized and lacks clarity in several areas.",
+      "Explanation is generally understandable but could benefit from improved organization and clarity.",
+      "Explanation is clear, organized, and easy to follow.",
+      "Explanation is well-organized, concise, and uses effective language to convey understanding.",
+      "Explanation is exceptionally clear, insightful, and presented in a compelling and well-structured manner."
+    ]
+  ]
+}

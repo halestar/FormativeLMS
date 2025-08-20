@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Terms and Symbols",
+    "Understanding of Domain-Specific Words and Phrases",
+    "Contextual Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any key terms or symbols within the text.",
+      "The student identifies a few key terms or symbols but demonstrates no understanding of their meaning in context.",
+      "The student identifies some key terms and symbols and attempts to explain their meaning, but the explanations are vague or partially incorrect.",
+      "The student identifies most key terms and symbols and provides generally accurate explanations of their meaning within the text.",
+      "The student accurately identifies almost all key terms and symbols, providing clear and correct explanations of their meanings in the specific context.",
+      "The student comprehensively identifies all key terms and symbols, explaining their nuanced meanings and significance within the scientific or technical context with precision."
+    ],
+    [
+      "The student shows no recognition of domain-specific vocabulary.",
+      "The student acknowledges some domain-specific words but cannot define or use them correctly.",
+      "The student attempts to define domain-specific words, but struggles with precision and context.",
+      "The student generally understands and correctly uses most domain-specific words and phrases within the text.",
+      "The student demonstrates a strong understanding of domain-specific vocabulary, using it accurately and effectively to explain concepts.",
+      "The student exhibits mastery of domain-specific language, using it fluently and precisely to convey complex ideas and nuances."
+    ],
+    [
+      "The student does not attempt to relate terms or symbols to the broader context of the text.",
+      "The student makes superficial connections between terms\/symbols and the context, with limited understanding.",
+      "The student begins to relate terms\/symbols to the context, but the connection lacks depth or clarity.",
+      "The student effectively relates most terms\/symbols to the specific scientific or technical context, demonstrating a good understanding of their relevance.",
+      "The student expertly integrates the meaning of terms\/symbols into the broader context, enhancing their analysis and comprehension of the text.",
+      "The student skillfully synthesizes the meaning of terms\/symbols within the larger context, revealing a sophisticated understanding of the text's scientific or technical content and implications."
+    ]
+  ]
+}

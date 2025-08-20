@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to correctly apply the quadratic formula to equations with real coefficients.",
+    "Skill in simplifying complex solutions and expressing them in standard form (a + bi).",
+    "Accuracy in identifying and interpreting complex solutions in the context of quadratic equations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of the quadratic formula or its applicability.",
+      "Student attempts to apply the quadratic formula but makes significant errors in identifying coefficients or in the formula itself.",
+      "Student applies the quadratic formula with some errors, particularly in handling negative numbers or square roots.",
+      "Student generally applies the quadratic formula correctly but makes minor arithmetic errors that lead to incorrect solutions.",
+      "Student correctly applies the quadratic formula, identifies complex solutions, but may have minor simplification errors.",
+      "Student flawlessly applies the quadratic formula, correctly identifies and simplifies complex solutions, and presents the solutions clearly."
+    ],
+    [
+      "Student is unable to simplify complex solutions or express them in standard form.",
+      "Student attempts to simplify complex solutions but demonstrates a lack of understanding of imaginary numbers.",
+      "Student simplifies complex solutions with significant errors in handling the imaginary unit 'i'.",
+      "Student generally simplifies complex solutions correctly but makes minor errors in arithmetic or algebraic manipulation.",
+      "Student correctly simplifies complex solutions but may not consistently express them in the standard a + bi form.",
+      "Student consistently simplifies complex solutions and expresses them accurately in the standard a + bi form."
+    ],
+    [
+      "Student fails to identify or interpret complex solutions.",
+      "Student identifies complex solutions but cannot explain their meaning or relevance to the original equation.",
+      "Student identifies complex solutions but misinterprets their properties or significance.",
+      "Student correctly identifies complex solutions but provides a limited explanation of their meaning.",
+      "Student accurately identifies and interprets complex solutions, explaining their role in the context of the quadratic equation.",
+      "Student provides a comprehensive and insightful interpretation of complex solutions, demonstrating a deep understanding of their properties and significance in the context of quadratic equations."
+    ]
+  ]
+}

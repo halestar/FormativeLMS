@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identifying Pressure Situations: Accurately identifies scenarios where pressure to use alcohol, tobacco, or other drugs is present.",
+    "Verbal Assertiveness: Effectively uses assertive communication to refuse substance use.",
+    "Non-Verbal Assertiveness: Uses non-verbal cues (body language, tone) to support assertive refusal.",
+    "Offering Alternatives: Proposes alternative activities or strategies to avoid substance use."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any pressure situations related to substance use.",
+      "Struggles to identify clear pressure situations; may confuse peer influence with direct pressure.",
+      "Identifies some pressure situations but may miss subtle cues or indirect pressure tactics.",
+      "Consistently identifies common pressure situations, such as direct offers or peer influence.",
+      "Accurately identifies a wide range of pressure situations, including subtle and indirect tactics.",
+      "Demonstrates exceptional ability to identify and analyze complex pressure situations, including underlying motivations and potential consequences."
+    ],
+    [
+      "Unable to verbally refuse substance use; appears passive or gives in to pressure.",
+      "Uses hesitant or unclear language when refusing; may apologize excessively or offer weak excuses.",
+      "Refuses substance use with some assertiveness, but may still show signs of discomfort or uncertainty.",
+      "Clearly and confidently refuses substance use using direct language and maintaining eye contact.",
+      "Uses assertive communication skills to clearly refuse and explain the reasons for refusal without being confrontational.",
+      "Demonstrates exceptional verbal assertiveness; uses humor, empathy, or other advanced techniques to effectively refuse and de-escalate pressure situations."
+    ],
+    [
+      "Displays non-verbal cues that contradict refusal (e.g., avoiding eye contact, fidgeting, nervous laughter).",
+      "Shows some non-verbal cues that support refusal, but inconsistencies are apparent.",
+      "Maintains mostly assertive non-verbal cues, but occasional lapses in confidence are evident.",
+      "Consistently uses assertive non-verbal cues (e.g., confident posture, steady voice, direct eye contact) to reinforce verbal refusal.",
+      "Non-verbal cues are highly congruent with verbal refusal; projects confidence and conviction.",
+      "Masterfully uses non-verbal communication to enhance assertive refusal; uses subtle cues to convey strength and determination."
+    ],
+    [
+      "Unable to suggest any alternative activities or strategies.",
+      "Suggests alternative activities that are unappealing or impractical in the given situation.",
+      "Offers some alternatives, but may not be realistic or engaging for peers.",
+      "Proposes viable and appealing alternative activities to avoid substance use, demonstrating problem-solving skills.",
+      "Suggests a range of creative and engaging alternatives that address the underlying social needs or motivations for substance use.",
+      "Demonstrates exceptional ability to offer innovative and persuasive alternatives; proactively creates opportunities for positive peer interactions."
+    ]
+  ]
+}

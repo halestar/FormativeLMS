@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Participation Means",
+    "Explanation of How Means Function",
+    "Examples of Citizen Participation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of any means citizens use to participate in the political process.",
+      "Student identifies only one means citizens use to participate in the political process with significant inaccuracies.",
+      "Student identifies one or two means citizens use to participate in the political process, but descriptions lack detail or contain some inaccuracies.",
+      "Student identifies at least three means citizens use to participate in the political process with general accuracy.",
+      "Student identifies at least four means citizens use to participate in the political process, providing clear and mostly accurate descriptions.",
+      "Student comprehensively identifies and accurately describes multiple means citizens use to participate in the political process (e.g., voting, campaigning, lobbying, filing a legal challenge, demonstrating, petitioning, picketing, running for political office), demonstrating a thorough understanding."
+    ],
+    [
+      "Student does not attempt to explain how any of the participation means function.",
+      "Student attempts to explain how one participation means function, but explanation is largely unclear or incorrect.",
+      "Student provides a limited explanation of how one or two participation means function, but lacks depth or contains inaccuracies.",
+      "Student adequately explains how at least three participation means function, demonstrating a basic understanding of their processes.",
+      "Student clearly explains how at least four participation means function, showing a good understanding of their processes and potential impact.",
+      "Student thoroughly and accurately explains how various participation means function, illustrating a deep understanding of their processes, impact, and potential limitations within the political system."
+    ],
+    [
+      "Student provides no examples of citizens engaging in the political process.",
+      "Student provides a single, vague, or inaccurate example of citizen participation.",
+      "Student provides one or two examples of citizen participation, but examples are not well-developed or clearly linked to specific means.",
+      "Student provides at least three relevant examples of citizen participation that correspond to identified means.",
+      "Student provides several clear and relevant examples of citizen participation, demonstrating a solid grasp of how citizens engage in the political process.",
+      "Student provides a variety of compelling and accurate examples of citizen participation, demonstrating a nuanced understanding of how citizens influence the political process through different means."
+    ]
+  ]
+}

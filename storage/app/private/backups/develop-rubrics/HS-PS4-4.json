@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Claims",
+    "Explanation of Electromagnetic Radiation Effects",
+    "Use of Scientific Reasoning and Evidence",
+    "Consideration of Source Reliability and Potential Biases"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No claims related to the effects of electromagnetic radiation are identified.",
+      "One or more claims related to the effects of electromagnetic radiation are identified, but there is no attempt to distinguish between them.",
+      "Claims related to the effects of electromagnetic radiation are identified, and some claims are distinguished, but no claims are assessed for validity and reliability.",
+      "Claims related to the effects of electromagnetic radiation are identified, claims are distinguished, and one of the claims is assessed for validity and reliability.",
+      "Claims related to the effects of electromagnetic radiation are identified, claims are distinguished, and more than one claim is assessed for validity and reliability.",
+      "Claims related to the effects of electromagnetic radiation are clearly identified and distinguished. All claims are thoroughly assessed for validity and reliability, considering the source, evidence, and potential biases."
+    ],
+    [
+      "No explanation is provided on how electromagnetic radiation affects matter.",
+      "Provides a vague explanation on how electromagnetic radiation affects matter.",
+      "Provides a basic explanation of how different frequencies of electromagnetic radiation affect matter, but lacks depth.",
+      "Explains how different frequencies of electromagnetic radiation (e.g., thermal energy, ionization) affect matter, providing some details.",
+      "Explains in detail how different frequencies of electromagnetic radiation affect matter, including specific effects like thermal energy conversion and ionization, while linking them to the energy of photons.",
+      "Provides a comprehensive and detailed explanation of how different frequencies of electromagnetic radiation affect matter, linking the effects to the energy of photons and providing specific examples. Explanation includes potential impacts on living cells."
+    ],
+    [
+      "No scientific reasoning or evidence is used to support the evaluation.",
+      "Scientific reasoning or evidence is mentioned but not applied to the evaluation of claims.",
+      "Uses limited scientific reasoning or evidence to support the evaluation of claims.",
+      "Uses appropriate scientific reasoning and evidence to support the evaluation of the validity and reliability of claims. Mentions texts or media reports.",
+      "Effectively uses scientific reasoning and evidence from multiple sources to support a thorough evaluation of the validity and reliability of claims, verifying data when possible.",
+      "Demonstrates sophisticated use of scientific reasoning and evidence from multiple authoritative sources to critically evaluate the validity and reliability of claims. Verifies data, corroborates findings with other sources, and challenges conclusions when necessary."
+    ],
+    [
+      "No consideration is given to the reliability of sources or potential biases.",
+      "Briefly mentions the source of information but does not assess its reliability or potential biases.",
+      "Identifies the source of information and makes a superficial attempt to assess its reliability or potential biases.",
+      "Assesses the reliability of the source and identifies potential biases that may affect the claims being evaluated.",
+      "Provides a well-reasoned assessment of the reliability of the source, thoroughly analyzing potential biases and their impact on the claims.",
+      "Demonstrates a nuanced understanding of source reliability and potential biases, providing a comprehensive analysis of their influence on the claims. Discusses advanced searches, strengths, limitations, and purpose of each source."
+    ]
+  ]
+}

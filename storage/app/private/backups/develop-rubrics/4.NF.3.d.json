@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Fractions as Sums of Unit Fractions",
+    "Solving Word Problems with Addition and Subtraction of Fractions",
+    "Using Visual Fraction Models and Equations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of fractions as sums of unit fractions.",
+      "Student can identify some fractions as sums of unit fractions with significant errors.",
+      "Student can represent simple fractions as sums of unit fractions with minor errors.",
+      "Student accurately represents fractions as sums of unit fractions.",
+      "Student accurately represents fractions as sums of unit fractions and explains the concept clearly.",
+      "Student demonstrates a deep understanding of fractions as sums of unit fractions, explaining the concept and providing multiple representations."
+    ],
+    [
+      "Student cannot solve word problems involving addition and subtraction of fractions.",
+      "Student attempts to solve word problems but demonstrates no understanding of the context or procedures.",
+      "Student can solve simple word problems with fractions but makes frequent errors in calculations or setup.",
+      "Student accurately solves most word problems involving addition and subtraction of fractions with like denominators.",
+      "Student consistently solves word problems accurately and demonstrates clear steps in their solutions.",
+      "Student solves complex word problems involving fractions, clearly explains their reasoning, and demonstrates a strong understanding of the underlying concepts."
+    ],
+    [
+      "Student does not use or incorrectly uses visual fraction models and equations.",
+      "Student attempts to use visual fraction models and equations but struggles with accuracy and representation.",
+      "Student uses visual fraction models and equations with some inaccuracies.",
+      "Student accurately uses visual fraction models and equations to represent and solve fraction problems.",
+      "Student effectively uses visual fraction models and equations to clearly communicate solutions.",
+      "Student creatively and effectively uses visual fraction models and equations to represent and solve complex fraction problems, providing insightful explanations."
+    ]
+  ]
+}

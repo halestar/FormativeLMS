@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Construction of Two-Way Frequency Tables",
+    "Calculation and Interpretation of Relative Frequencies",
+    "Identification of Associations and Trends"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to construct a two-way frequency table or the table is completely incorrect and irrelevant to the data.",
+      "Constructs a two-way frequency table with significant errors in organization and calculation of frequencies.",
+      "Constructs a two-way frequency table with some errors in organization or calculation of frequencies.",
+      "Constructs a two-way frequency table that is mostly accurate, with only minor errors.",
+      "Constructs an accurate and well-organized two-way frequency table.",
+      "Constructs an exceptionally clear, accurate, and well-organized two-way frequency table."
+    ],
+    [
+      "No attempt to calculate relative frequencies or the calculations are completely incorrect.",
+      "Calculates relative frequencies with significant errors or demonstrates no understanding of their meaning.",
+      "Calculates relative frequencies with some errors or demonstrates a limited understanding of their meaning.",
+      "Calculates relative frequencies accurately but provides a superficial or incomplete interpretation.",
+      "Accurately calculates and interprets joint, marginal, and conditional relative frequencies in the context of the data.",
+      "Provides a thorough, nuanced, and insightful interpretation of joint, marginal, and conditional relative frequencies, demonstrating a deep understanding of their implications."
+    ],
+    [
+      "No attempt to identify associations or trends in the data.",
+      "Attempts to identify associations or trends but draws incorrect or unsupported conclusions.",
+      "Identifies some associations or trends but with limited justification or explanation.",
+      "Recognizes possible associations and trends in the data with reasonable justification.",
+      "Clearly and accurately identifies associations and trends in the data, providing strong justification based on the relative frequencies.",
+      "Provides a sophisticated analysis of associations and trends in the data, including consideration of potential confounding variables and alternative explanations."
+    ]
+  ]
+}

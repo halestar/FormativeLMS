@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Coping Strategies",
+    "Application to Scenarios",
+    "Understanding of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any coping strategies.",
+      "Student identifies one coping strategy, but it is not effective or appropriate.",
+      "Student identifies one coping strategy that is somewhat effective, but lacks detail.",
+      "Student identifies two or more coping strategies, but some may not be fully effective.",
+      "Student identifies multiple effective coping strategies with some explanation.",
+      "Student identifies and clearly explains multiple effective and appropriate coping strategies."
+    ],
+    [
+      "Student does not apply coping strategies to given scenarios.",
+      "Student attempts to apply a coping strategy, but it is not relevant to the scenario.",
+      "Student applies a coping strategy that is somewhat relevant, but explanation is vague.",
+      "Student applies coping strategies to scenarios with some relevance and explanation.",
+      "Student effectively applies coping strategies to scenarios with clear and logical explanations.",
+      "Student expertly applies and justifies multiple coping strategies to diverse scenarios with thorough and insightful explanations."
+    ],
+    [
+      "Student demonstrates no understanding of the consequences of not using coping strategies.",
+      "Student shows a limited understanding of the negative consequences.",
+      "Student acknowledges some negative consequences but lacks depth.",
+      "Student understands several consequences with some explanation.",
+      "Student clearly articulates the consequences of substance abuse and the benefits of coping strategies.",
+      "Student demonstrates a comprehensive understanding of short-term and long-term consequences, including physical, emotional, and social impacts."
+    ]
+  ]
+}

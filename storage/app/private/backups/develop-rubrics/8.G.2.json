@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Transformations",
+    "Application of Congruence",
+    "Precision in Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rotations, reflections, or translations.",
+      "Student can identify rotations, reflections, or translations in isolation, but not in a sequence.",
+      "Student can identify rotations, reflections, and translations, but struggles to describe a sequence that maps one figure onto another.",
+      "Student can describe a sequence of transformations (rotations, reflections, translations) that maps one figure onto another with some errors.",
+      "Student can accurately describe a sequence of transformations (rotations, reflections, translations) that maps one figure onto another.",
+      "Student can accurately describe multiple sequences of transformations that map one figure onto another, demonstrating a deep understanding of congruence."
+    ],
+    [
+      "Student does not understand the concept of congruence in relation to transformations.",
+      "Student understands that congruent figures are the same size and shape, but cannot relate it to transformations.",
+      "Student can identify congruent figures and name transformations, but cannot link the two concepts together.",
+      "Student can explain how transformations can be used to prove congruence with some prompting.",
+      "Student can clearly explain how transformations can be used to prove congruence.",
+      "Student can apply transformations to prove congruence in complex geometric problems and explain the reasoning clearly."
+    ],
+    [
+      "Student uses inaccurate or unclear language when describing transformations and congruence.",
+      "Student uses vague language when describing transformations and congruence.",
+      "Student uses generally correct language, but lacks precision in describing specific transformations.",
+      "Student uses precise language to describe transformations and congruence most of the time.",
+      "Student consistently uses precise language to accurately describe transformations and congruence.",
+      "Student consistently uses precise and sophisticated language to explain transformations and congruence in a way that enhances understanding."
+    ]
+  ]
+}

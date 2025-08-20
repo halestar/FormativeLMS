@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Energy Sources and Their Derivation",
+    "Explanation of Environmental Effects",
+    "Application of Cause and Effect Relationships",
+    "Quality of Information and Sources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of energy sources is demonstrated. The student cannot identify any natural resources from which energy and fuels are derived.",
+      "The student shows a minimal understanding of energy sources, vaguely identifying one or two natural resources.",
+      "The student identifies some energy sources and their origin from natural resources but lacks specific details or accuracy.",
+      "The student accurately identifies several energy sources (renewable and non-renewable) and explains their derivation from natural resources with some detail.",
+      "The student comprehensively explains various energy sources, their derivation from natural resources, and provides clear examples of renewable and non-renewable resources.",
+      "The student demonstrates a deep understanding of energy sources, thoroughly explaining their derivation from natural resources with detailed examples, including nuanced distinctions between different types of renewable and non-renewable resources."
+    ],
+    [
+      "No environmental effects related to energy and fuel usage are identified or discussed.",
+      "The student vaguely mentions one environmental effect related to energy or fuel usage.",
+      "The student identifies a few environmental effects but lacks specific details or clear connections to energy\/fuel usage.",
+      "The student explains several environmental effects of energy and fuel usage with some detail and provides basic examples.",
+      "The student comprehensively explains the environmental effects of energy and fuel usage, providing clear examples and discussing various impacts like habitat loss and pollution.",
+      "The student demonstrates a deep understanding of the environmental effects, thoroughly explaining the impacts of energy and fuel usage with detailed examples, including complex issues like long-term consequences and interconnectedness."
+    ],
+    [
+      "The student fails to identify any cause-and-effect relationships between energy use and environmental impacts.",
+      "The student attempts to identify a cause-and-effect relationship, but the explanation is unclear or inaccurate.",
+      "The student identifies a simple cause-and-effect relationship between energy use and an environmental impact, but lacks depth.",
+      "The student explains several cause-and-effect relationships between different energy sources\/uses and their environmental impacts with reasonable accuracy.",
+      "The student clearly and accurately explains multiple cause-and-effect relationships, demonstrating a strong understanding of how energy choices lead to specific environmental consequences.",
+      "The student demonstrates sophisticated understanding of cause-and-effect relationships, thoroughly explaining complex interactions between energy use, environmental impacts, and potential feedback loops with insightful analysis."
+    ],
+    [
+      "The student presents information with no apparent source or relies on clearly unreliable sources.",
+      "The student mentions a source, but it is vague, questionable, or lacks credibility.",
+      "The student cites sources, but they are limited in number, variety, or relevance.",
+      "The student uses multiple sources of information, citing them appropriately, and generally presents reliable information.",
+      "The student uses a variety of credible sources, appropriately cites them, and effectively synthesizes information to support claims.",
+      "The student demonstrates exceptional skill in obtaining, evaluating, and communicating information, drawing from a wide range of reliable sources and presenting a nuanced and well-supported analysis."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Health Issues",
+    "Relevance to Community Wellness",
+    "Support and Promotion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of personal or consumer health issues.",
+      "Demonstrates limited understanding of personal or consumer health issues; struggles to identify relevant issues.",
+      "Demonstrates basic understanding of personal or consumer health issues; identifies some relevant issues.",
+      "Demonstrates a solid understanding of personal or consumer health issues; correctly identifies most relevant issues.",
+      "Demonstrates a comprehensive understanding of personal or consumer health issues; identifies and explains relevant issues effectively.",
+      "Demonstrates an insightful and thorough understanding of personal and consumer health issues, providing nuanced explanations."
+    ],
+    [
+      "Does not connect personal or consumer health issues to community wellness.",
+      "Makes a weak or unclear connection between personal\/consumer health and community wellness.",
+      "Connects personal or consumer health issues to community wellness with limited detail.",
+      "Clearly connects personal or consumer health issues to specific aspects of community wellness.",
+      "Effectively connects personal or consumer health issues to community wellness, providing relevant examples.",
+      "Insightfully connects personal or consumer health issues to multifaceted aspects of community wellness, showing deep understanding."
+    ],
+    [
+      "Provides no support or promotion of health issues to promote community wellness.",
+      "Provides minimal support or promotion; efforts are unclear or ineffective.",
+      "Provides some support or promotion, but lacks detail or clarity.",
+      "Provides adequate support and promotion of health issues; efforts are generally clear and relevant.",
+      "Provides strong support and promotion of health issues, including specific actions or strategies.",
+      "Provides exemplary support and promotion of health issues, demonstrating leadership and proactive engagement."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Natural Disasters and Emergency Situations",
+    "Description of Safety Measures",
+    "Application of Knowledge to Specific Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any natural disasters or emergency situations.",
+      "Identifies only one type of natural disaster or emergency situation.",
+      "Identifies some natural disasters or emergency situations, but misses key examples relevant to their geographic location.",
+      "Identifies most natural disasters and emergency situations relevant to their geographic location, but lacks detail.",
+      "Identifies a comprehensive list of natural disasters and emergency situations relevant to their geographic location, demonstrating a solid understanding.",
+      "Demonstrates expert-level knowledge by identifying a wide range of natural disasters and emergency situations, including those less common, and explains their potential impact with clarity."
+    ],
+    [
+      "Unable to describe any safety measures for natural disasters or emergency situations.",
+      "Describes only one basic safety measure, lacking specifics.",
+      "Describes some basic safety measures, but lacks depth and relevance to specific disasters.",
+      "Describes relevant safety measures for several natural disasters and emergency situations, showing a general understanding.",
+      "Provides detailed and relevant safety measures for a variety of natural disasters and emergency situations, demonstrating a strong understanding of how to stay safe.",
+      "Offers comprehensive and nuanced safety measures, including advanced strategies and considerations for vulnerable populations, showcasing expert-level knowledge."
+    ],
+    [
+      "Unable to apply knowledge to specific scenarios.",
+      "Attempts to apply knowledge, but demonstrates significant gaps in understanding.",
+      "Can apply knowledge to simple scenarios, but struggles with more complex situations.",
+      "Applies knowledge effectively to most common scenarios, demonstrating a good understanding of practical application.",
+      "Consistently applies knowledge accurately and effectively to a wide range of scenarios, showing strong critical thinking skills.",
+      "Demonstrates exceptional ability to analyze and apply knowledge to complex and novel scenarios, providing insightful and innovative solutions to stay safe."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Identification of Decision-Making Processes",
+    "Application to Mental Health",
+    "Application to Emotional Health",
+    "Application to Social Health",
+    "Consideration of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any decision-making processes relevant to mental, emotional, and social health situations.",
+      "Student identifies a decision-making process but struggles to relate it to health situations.",
+      "Student identifies a decision-making process and attempts to relate it to health situations with limited success.",
+      "Student identifies and relates basic decision-making processes to simple health situations.",
+      "Student identifies and relates relevant decision-making processes to a variety of health situations, demonstrating a good understanding.",
+      "Student comprehensively identifies and relates advanced decision-making processes to complex health situations, demonstrating a deep understanding and nuanced application."
+    ],
+    [
+      "Student does not apply decision-making processes to mental health scenarios.",
+      "Student attempts to apply decision-making processes to mental health scenarios, but the application is unclear or inappropriate.",
+      "Student applies decision-making processes to mental health scenarios with limited effectiveness or understanding.",
+      "Student applies decision-making processes to mental health scenarios with some effectiveness.",
+      "Student effectively applies decision-making processes to a range of mental health scenarios, demonstrating understanding and thoughtfulness.",
+      "Student expertly applies decision-making processes to complex mental health scenarios, demonstrating sophisticated understanding and insight."
+    ],
+    [
+      "Student does not apply decision-making processes to emotional health scenarios.",
+      "Student attempts to apply decision-making processes to emotional health scenarios, but the application is unclear or inappropriate.",
+      "Student applies decision-making processes to emotional health scenarios with limited effectiveness or understanding.",
+      "Student applies decision-making processes to emotional health scenarios with some effectiveness.",
+      "Student effectively applies decision-making processes to a range of emotional health scenarios, demonstrating understanding and thoughtfulness.",
+      "Student expertly applies decision-making processes to complex emotional health scenarios, demonstrating sophisticated understanding and insight."
+    ],
+    [
+      "Student does not apply decision-making processes to social health scenarios.",
+      "Student attempts to apply decision-making processes to social health scenarios, but the application is unclear or inappropriate.",
+      "Student applies decision-making processes to social health scenarios with limited effectiveness or understanding.",
+      "Student applies decision-making processes to social health scenarios with some effectiveness.",
+      "Student effectively applies decision-making processes to a range of social health scenarios, demonstrating understanding and thoughtfulness.",
+      "Student expertly applies decision-making processes to complex social health scenarios, demonstrating sophisticated understanding and insight."
+    ],
+    [
+      "Student does not consider the consequences of decisions on mental, emotional, and social health.",
+      "Student minimally considers consequences but struggles to articulate or understand their impact.",
+      "Student identifies some consequences but does not fully explain their impact on health.",
+      "Student considers and explains the immediate consequences of decisions on health.",
+      "Student thoroughly considers and explains both immediate and potential long-term consequences of decisions on mental, emotional, and social health.",
+      "Student insightfully analyzes immediate and long-term consequences, demonstrating a deep understanding of the interconnectedness of decisions and health outcomes."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Weapon Definition (EC Section 49330)",
+    "Explanation of Dangers Associated with Weapons",
+    "Understanding the Importance of Reporting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what constitutes a weapon according to the legal definition.",
+      "Demonstrates a limited understanding of what constitutes a weapon, missing key components of the legal definition.",
+      "Demonstrates a partial understanding of what constitutes a weapon, but with some inaccuracies or omissions.",
+      "Demonstrates a satisfactory understanding of the legal definition of a weapon, with minor omissions.",
+      "Demonstrates a strong understanding of the legal definition of a weapon, accurately identifying key components.",
+      "Demonstrates a comprehensive and nuanced understanding of the legal definition of a weapon, including potential ambiguities or edge cases."
+    ],
+    [
+      "Unable to identify any dangers associated with weapons.",
+      "Identifies one or two basic dangers, but lacks detail or specific examples.",
+      "Identifies several dangers, but explanations are superficial or lack supporting evidence.",
+      "Provides a general explanation of several dangers associated with weapons, including some specific examples.",
+      "Provides a detailed explanation of multiple dangers associated with weapons, including specific examples and potential consequences.",
+      "Provides a comprehensive and insightful explanation of the dangers associated with weapons, demonstrating critical thinking and awareness of broader societal impacts."
+    ],
+    [
+      "Does not recognize the importance of telling a trusted adult about weapons.",
+      "Acknowledges the importance of reporting but provides a weak or unconvincing rationale.",
+      "Explains the importance of reporting, but reasoning is somewhat limited or generalized.",
+      "Clearly explains the importance of telling a trusted adult if they see or hear about someone having a weapon, providing sound reasoning.",
+      "Provides a compelling explanation of the importance of reporting, highlighting potential benefits and consequences of not reporting.",
+      "Demonstrates a deep understanding of the ethical and practical implications of reporting, advocating for responsible action and community safety."
+    ]
+  ]
+}

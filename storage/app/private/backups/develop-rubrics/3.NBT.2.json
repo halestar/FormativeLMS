@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Addition and Subtraction",
+    "Use of Strategies and Algorithms",
+    "Understanding of Place Value"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of addition or subtraction within 1000 and makes significant errors.",
+      "The student attempts addition and subtraction but makes frequent errors, demonstrating a limited understanding of the concepts.",
+      "The student can perform simple addition and subtraction problems with some accuracy, but struggles with more complex problems or multi-step calculations.",
+      "The student generally adds and subtracts accurately within 1000, but may make occasional errors due to carelessness or misunderstanding of place value.",
+      "The student consistently adds and subtracts accurately within 1000, demonstrating a strong understanding of place value and properties of operations.",
+      "The student demonstrates mastery of addition and subtraction within 1000, consistently solving problems accurately and efficiently, and can explain their reasoning clearly."
+    ],
+    [
+      "The student does not use any recognizable strategies or algorithms for addition and subtraction.",
+      "The student attempts to use strategies or algorithms, but they are applied incorrectly or ineffectively.",
+      "The student can use basic strategies or algorithms for addition and subtraction, but struggles to apply them to more complex problems.",
+      "The student uses appropriate strategies and algorithms for addition and subtraction, but may not always choose the most efficient method.",
+      "The student effectively uses a variety of strategies and algorithms for addition and subtraction, demonstrating flexibility and adaptability.",
+      "The student expertly selects and applies the most efficient strategies and algorithms for addition and subtraction, and can explain their choices based on the problem's characteristics."
+    ],
+    [
+      "The student demonstrates no understanding of place value and its role in addition and subtraction.",
+      "The student shows a limited understanding of place value, leading to errors in calculations.",
+      "The student understands basic place value concepts, but struggles to apply them consistently in addition and subtraction.",
+      "The student demonstrates a good understanding of place value and its importance in addition and subtraction.",
+      "The student consistently applies their understanding of place value to accurately perform addition and subtraction.",
+      "The student demonstrates a deep and nuanced understanding of place value, and can explain how it underpins the strategies and algorithms used for addition and subtraction."
+    ]
+  ]
+}

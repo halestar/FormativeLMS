@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Dilation Properties: This criterion assesses the student's ability to experimentally verify that the dilation of a line segment changes in proportion to the scale factor.",
+    "Experimental Verification: This criterion evaluates the student's ability to conduct an experiment to verify the effect of dilations on line segments.",
+    "Communication and Reasoning: The clarity and logical reasoning displayed in the student's explanation of the results and their connection to the dilation properties."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of dilation or its effect on line segment length.",
+      "The student attempts to measure the original and dilated line segments but struggles with accuracy or interpreting the scale factor.",
+      "The student can measure the original and dilated line segments with reasonable accuracy but has difficulty relating the measurements to the scale factor.",
+      "The student accurately measures the original and dilated line segments and recognizes a proportional relationship to the scale factor, but the explanation lacks clarity.",
+      "The student accurately measures the original and dilated line segments and clearly explains the proportional relationship dictated by the scale factor. Minor errors may be present.",
+      "The student demonstrates a complete and accurate understanding of how dilation affects line segments, providing precise measurements and a clear explanation of the proportional relationship to the scale factor."
+    ],
+    [
+      "The student does not attempt an experiment or the attempt shows no understanding of the experimental process.",
+      "The student attempts an experiment but makes significant errors in setup or measurement, leading to unreliable results.",
+      "The student conducts an experiment with some accuracy but does not control variables effectively, resulting in questionable results.",
+      "The student designs and conducts a reasonably accurate experiment, but there are some minor flaws in procedure or data collection.",
+      "The student designs and conducts a well-organized experiment with accurate measurements and appropriate controls, yielding reliable results.",
+      "The student designs and conducts a flawless experiment with meticulous measurements, controlled variables, and a clear, replicable methodology that strongly verifies the dilation property."
+    ],
+    [
+      "The student provides no explanation or the explanation is completely irrelevant to the experiment.",
+      "The student's explanation is unclear, lacks logical structure, and does not connect the experiment to the dilation property.",
+      "The student attempts to explain the results but the reasoning is weak, and the connection to the scale factor is not clearly established.",
+      "The student provides a reasonable explanation of the results, with some logical reasoning, but the connection to the dilation property could be stronger.",
+      "The student clearly and logically explains the experimental results and their connection to the dilation property, with minor areas for improvement.",
+      "The student provides a comprehensive, clear, and logically sound explanation of the experimental results, demonstrating a deep understanding of the dilation property and its experimental verification."
+    ]
+  ]
+}

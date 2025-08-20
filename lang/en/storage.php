@@ -9,4 +9,8 @@ return
 	'document.folder.default' => 'New Folder',
 	'document.asset.drop' => 'Drop Files Here',
 	'documents.file.select' => 'Select File|Select Files',
+	'documents.file.selected' => 'Selected Files',
+	'documents.file.upload' => 'Upload File | Upload Files',
+	'documents.file.drop' => 'Drop your files here',
+	'work.browser' => "Work File Browser",
 ];

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Information Sources",
+    "Discussion of Obtaining Information",
+    "Consideration of Source Reliability and Appropriateness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any sources of health information.",
+      "Student identifies only one source of health information.",
+      "Student identifies a few sources (2-3) but lacks detail on how to obtain information.",
+      "Student identifies several sources (3-4) and provides basic information on how to access them.",
+      "Student identifies multiple sources (4-5) with good detail on access and reliability.",
+      "Student comprehensively identifies a wide range of sources (5+) with excellent detail on access, reliability, and appropriateness."
+    ],
+    [
+      "Student provides no discussion on how to obtain information from sources.",
+      "Student provides minimal discussion with limited clarity on how to obtain information.",
+      "Student provides a basic discussion but may have gaps in understanding or clarity.",
+      "Student discusses methods of obtaining information, showing a reasonable understanding.",
+      "Student discusses methods effectively, demonstrating a strong understanding of how to approach different sources.",
+      "Student provides a comprehensive and insightful discussion of obtaining information, demonstrating an exceptional understanding of various methods and considerations."
+    ],
+    [
+      "Student does not consider the reliability or appropriateness of information sources.",
+      "Student mentions reliability or appropriateness briefly but lacks detail.",
+      "Student begins to consider reliability and appropriateness, but understanding is superficial.",
+      "Student considers reliability and appropriateness in some sources, demonstrating developing awareness.",
+      "Student effectively considers reliability and appropriateness across multiple sources.",
+      "Student critically evaluates the reliability and appropriateness of sources, demonstrating a sophisticated understanding."
+    ]
+  ]
+}

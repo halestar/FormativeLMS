@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Physical Features",
+    "Description of Climate",
+    "Relationship to Surrounding Land and Water",
+    "Nomadic and Sedentary Ways of Life"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No physical features of the Arabian Peninsula are identified.",
+      "Identifies one physical feature of the Arabian Peninsula with limited accuracy.",
+      "Identifies two physical features of the Arabian Peninsula with some accuracy.",
+      "Identifies three physical features of the Arabian Peninsula accurately.",
+      "Identifies four physical features of the Arabian Peninsula accurately and provides some context.",
+      "Identifies multiple physical features of the Arabian Peninsula accurately and explains their significance."
+    ],
+    [
+      "No description of the climate of the Arabian Peninsula is provided.",
+      "Provides a vague or inaccurate description of the climate.",
+      "Describes the climate with limited detail and some inaccuracies.",
+      "Describes the climate accurately, including general temperature and precipitation patterns.",
+      "Describes the climate in detail, including seasonal variations and regional differences.",
+      "Provides a comprehensive description of the climate, explaining the factors that influence it (e.g., latitude, elevation, wind patterns)."
+    ],
+    [
+      "No mention of the relationship between the Arabian Peninsula and surrounding land and water bodies.",
+      "Mentions a relationship vaguely or inaccurately.",
+      "Identifies a relationship with limited explanation.",
+      "Describes the Arabian Peninsula's relationship to surrounding land and water bodies, such as seas, rivers, and continents.",
+      "Explains how the surrounding land and water bodies influence the climate, trade, or culture of the Arabian Peninsula.",
+      "Analyzes the complex interactions between the Arabian Peninsula and its surrounding environment, including historical and contemporary implications."
+    ],
+    [
+      "No discussion of nomadic and sedentary ways of life.",
+      "Mentions nomadic or sedentary lifestyles but without detail.",
+      "Describes either nomadic or sedentary lifestyles with some accuracy.",
+      "Describes both nomadic and sedentary lifestyles and their basic differences.",
+      "Explains the adaptations and interactions between nomadic and sedentary communities in the Arabian Peninsula.",
+      "Analyzes the social, economic, and political factors that shaped nomadic and sedentary ways of life, including their historical evolution and impact."
+    ]
+  ]
+}

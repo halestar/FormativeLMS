@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Major Internal Body Parts",
+    "Explanation of Functions of Major Internal Body Parts",
+    "Identification of Major External Body Parts",
+    "Explanation of Functions of Major External Body Parts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any major internal body parts.",
+      "The student can identify 1-2 major internal body parts with significant inaccuracies.",
+      "The student can identify 3-4 major internal body parts with some inaccuracies.",
+      "The student can identify most major internal body parts with minor inaccuracies.",
+      "The student can accurately identify nearly all major internal body parts.",
+      "The student can accurately and comprehensively identify all major internal body parts."
+    ],
+    [
+      "The student cannot explain the function of any major internal body part.",
+      "The student attempts to explain the function of 1-2 major internal body parts, but the explanations are largely incorrect or incomplete.",
+      "The student can partially explain the function of 3-4 major internal body parts with significant gaps in understanding.",
+      "The student can explain the primary function of most major internal body parts with some minor inaccuracies or omissions.",
+      "The student can accurately explain the functions of nearly all major internal body parts.",
+      "The student provides accurate, comprehensive, and detailed explanations of the functions of all major internal body parts."
+    ],
+    [
+      "The student cannot identify any major external body parts.",
+      "The student can identify 1-2 major external body parts with significant inaccuracies.",
+      "The student can identify 3-4 major external body parts with some inaccuracies.",
+      "The student can identify most major external body parts with minor inaccuracies.",
+      "The student can accurately identify nearly all major external body parts.",
+      "The student can accurately and comprehensively identify all major external body parts."
+    ],
+    [
+      "The student cannot explain the function of any major external body part.",
+      "The student attempts to explain the function of 1-2 major external body parts, but the explanations are largely incorrect or incomplete.",
+      "The student can partially explain the function of 3-4 major external body parts with significant gaps in understanding.",
+      "The student can explain the primary function of most major external body parts with some minor inaccuracies or omissions.",
+      "The student can accurately explain the functions of nearly all major external body parts.",
+      "The student provides accurate, comprehensive, and detailed explanations of the functions of all major external body parts."
+    ]
+  ]
+}

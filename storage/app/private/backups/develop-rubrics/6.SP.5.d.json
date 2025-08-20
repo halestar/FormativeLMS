@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Measures of Center (Mean, Median, Mode)",
+    "Understanding of Measures of Variability (Range, IQR, Standard Deviation)",
+    "Relating Measures to Data Distribution Shape",
+    "Contextual Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of measures of center.",
+      "Student identifies measures of center but cannot explain them.",
+      "Student can calculate measures of center but struggles to explain their meaning in context.",
+      "Student can calculate and explain measures of center, relating them to the data, but with some inaccuracies.",
+      "Student accurately calculates and explains measures of center, effectively relating them to the data's context.",
+      "Student demonstrates a thorough understanding of measures of center, skillfully interpreting and relating them to the data's context."
+    ],
+    [
+      "Student demonstrates no understanding of measures of variability.",
+      "Student identifies measures of variability but cannot explain them.",
+      "Student can calculate measures of variability but struggles to explain their meaning in context.",
+      "Student can calculate and explain measures of variability, relating them to the data, but with some inaccuracies.",
+      "Student accurately calculates and explains measures of variability, effectively relating them to the data's context.",
+      "Student demonstrates a thorough understanding of measures of variability, skillfully interpreting and relating them to the data's context."
+    ],
+    [
+      "Student does not attempt to relate measures of center\/variability to the data distribution shape.",
+      "Student vaguely mentions the data distribution shape but does not connect it to the measures.",
+      "Student attempts to relate the measures to the shape but with significant misunderstandings.",
+      "Student makes some connections between the measures and the shape, but the explanation is incomplete or contains minor errors.",
+      "Student clearly relates the measures of center\/variability to the data distribution shape, explaining how the shape influences the choice of measures.",
+      "Student demonstrates a sophisticated understanding of how the data distribution shape influences the choice and interpretation of measures of center and variability."
+    ],
+    [
+      "Student provides no context to the data.",
+      "Student provides a context but it's not related to the data.",
+      "Student provides a context and relates to the data, but explanation is not clear.",
+      "Student provides a context that is related to the data, and explains it but the explanation has inaccuracies.",
+      "Student relates data analysis to the context in a clear and accurate fashion.",
+      "Student provides insightful interpretations of the data based on the context, going beyond basic observations."
+    ]
+  ]
+}

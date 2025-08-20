@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Sources",
+    "Comparison of Topic Treatments",
+    "Contrast of Topic Treatments",
+    "Analysis of Differences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any primary or secondary sources used.",
+      "Identifies only one type of source (either primary or secondary) but not both.",
+      "Identifies both primary and secondary sources but with inaccuracies.",
+      "Correctly identifies both primary and secondary sources used.",
+      "Accurately identifies and categorizes primary and secondary sources, providing brief justifications.",
+      "Masterfully identifies, categorizes, and justifies the use of primary and secondary sources, demonstrating a clear understanding of their roles and limitations."
+    ],
+    [
+      "Does not attempt to compare treatments of the topic in the sources.",
+      "Offers a superficial comparison, lacking depth and detail.",
+      "Presents some comparisons but lacks clarity and coherence.",
+      "Compares treatments of the topic in the sources with reasonable clarity and supporting details.",
+      "Provides a thorough and insightful comparison of how the topic is treated differently across sources, using specific evidence.",
+      "Offers a nuanced and sophisticated comparison, exploring subtleties and complexities in the treatments of the topic while integrating well-chosen supporting evidence."
+    ],
+    [
+      "Does not attempt to contrast treatments of the topic in the sources.",
+      "Offers a superficial contrast, lacking depth and detail.",
+      "Presents some contrasts but lacks clarity and coherence.",
+      "Contrasts treatments of the topic in the sources with reasonable clarity and supporting details.",
+      "Provides a thorough and insightful contrast of how the topic is treated differently across sources, using specific evidence.",
+      "Offers a nuanced and sophisticated contrast, exploring subtleties and complexities in the treatments of the topic while integrating well-chosen supporting evidence."
+    ],
+    [
+      "No attempt to analyze the differences in topic treatments.",
+      "Offers a weak or irrelevant analysis of differences.",
+      "Analyzes some differences, but the reasoning is unclear or unsupported.",
+      "Presents a clear analysis of the differences in how the topic is treated, supported by some evidence.",
+      "Provides a detailed and insightful analysis of the differences, exploring potential reasons for variations.",
+      "Offers a comprehensive and nuanced analysis of the differences, connecting them to broader historical, cultural, or contextual factors with compelling evidence."
+    ]
+  ]
+}

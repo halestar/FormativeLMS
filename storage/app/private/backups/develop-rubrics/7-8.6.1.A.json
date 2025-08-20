@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting and Planning",
+    "Understanding of Risk Factors and Triggers",
+    "Use of Resources and Support Systems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goals are identified; no plan to remain drug-free is evident.",
+      "Identifies a goal, but it is vague and lacks a clear plan.",
+      "Identifies a short-term or long-term goal with a basic plan.",
+      "Identifies both short-term and long-term goals with a somewhat detailed plan, but some areas are underdeveloped.",
+      "Identifies both short-term and long-term goals with a detailed plan to remain drug-free. Most aspects of the plan are well-considered and realistic.",
+      "Identifies well-defined short-term and long-term goals with a comprehensive and highly detailed plan to remain drug-free. The plan is realistic, innovative, and considers potential challenges and solutions."
+    ],
+    [
+      "Demonstrates no understanding of risk factors or triggers associated with drug use.",
+      "Demonstrates minimal understanding of risk factors or triggers associated with drug use.",
+      "Identifies some risk factors or triggers but lacks a clear connection to personal goals.",
+      "Identifies relevant risk factors and triggers and attempts to incorporate strategies to avoid them, but may not be fully comprehensive.",
+      "Clearly identifies relevant risk factors and triggers and effectively integrates strategies to avoid them into the plan.",
+      "Demonstrates a deep understanding of risk factors and triggers and proactively develops innovative and highly effective strategies to avoid them, demonstrating resilience and adaptability."
+    ],
+    [
+      "No resources or support systems are identified or used.",
+      "Mentions resources or support systems but does not explain how they will be used.",
+      "Identifies resources or support systems that could be used, but lacks detail on how they will aid in achieving goals.",
+      "Describes how specific resources and support systems can be used to achieve goals, but may not fully address potential challenges.",
+      "Effectively integrates resources and support systems into the plan, clearly explaining how they will aid in achieving goals and addressing challenges.",
+      "Demonstrates a sophisticated approach to utilizing a diverse range of resources and support systems, showing a proactive and strategic approach to maintaining a drug-free lifestyle."
+    ]
+  ]
+}

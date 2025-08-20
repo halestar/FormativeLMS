@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Nutritional Needs",
+    "Ability to Identify Healthy Food and Beverage Options",
+    "Planning and Goal-Setting Skills",
+    "Consideration of Personal Preferences and Constraints"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of basic nutritional needs or the importance of healthy eating.",
+      "Shows a limited understanding of nutritional needs with significant misconceptions.",
+      "Identifies some basic nutritional needs but struggles to connect them to food choices.",
+      "Demonstrates a satisfactory understanding of nutritional needs and how they relate to food choices.",
+      "Shows a strong understanding of nutritional needs, explaining how different foods contribute to a balanced diet.",
+      "Exhibits a comprehensive understanding of nutritional needs, including specific recommendations and the impact of dietary choices on health."
+    ],
+    [
+      "Unable to identify healthy food and beverage options or distinguish them from unhealthy choices.",
+      "Struggles to identify healthy food and beverage options, often confusing them with less healthy choices.",
+      "Identifies a few healthy options but lacks a clear understanding of why they are considered healthy.",
+      "Identifies a range of healthy food and beverage options, providing some justification for their choices.",
+      "Confidently identifies a wide variety of healthy food and beverage options, explaining their nutritional benefits.",
+      "Demonstrates expert knowledge of healthy food and beverage options, including less common choices and their specific health benefits."
+    ],
+    [
+      "Unable to create a plan for choosing healthy foods and beverages or set achievable goals.",
+      "Creates a vague plan with unrealistic goals or lacks a clear strategy for implementation.",
+      "Develops a basic plan but struggles to set specific, measurable, achievable, relevant, and time-bound (SMART) goals.",
+      "Creates a satisfactory plan with moderately SMART goals, showing some consideration for personal preferences and constraints.",
+      "Develops a well-structured plan with clear SMART goals, demonstrating a strong understanding of personal preferences and potential challenges.",
+      "Exhibits exceptional planning skills, creating a comprehensive plan with highly SMART goals, detailed strategies for overcoming challenges, and contingency plans."
+    ],
+    [
+      "Shows no consideration for personal preferences, cultural factors, or dietary restrictions.",
+      "Acknowledges personal preferences or constraints but does not effectively incorporate them into the plan.",
+      "Attempts to incorporate personal preferences and constraints but struggles to find realistic solutions.",
+      "Satisfactorily considers personal preferences, cultural factors, and dietary restrictions when making food and beverage choices.",
+      "Demonstrates a thoughtful approach to incorporating personal preferences and constraints, finding creative and realistic solutions.",
+      "Exhibits exceptional sensitivity to personal preferences, cultural factors, and dietary restrictions, developing a highly customized and sustainable plan."
+    ]
+  ]
+}

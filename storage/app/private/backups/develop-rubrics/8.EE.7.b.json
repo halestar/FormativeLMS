@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Linear Equations",
+    "Application of Distributive Property",
+    "Collecting Like Terms",
+    "Solving Linear Equations with Rational Coefficients",
+    "Accuracy and Precision"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of linear equations or their components.",
+      "Student shows limited understanding of linear equations, struggling to identify variables, coefficients, and constants.",
+      "Student identifies variables, coefficients, and constants, but struggles to explain the relationships between them.",
+      "Student demonstrates an understanding of linear equations and the relationships between variables, coefficients, and constants.",
+      "Student clearly understands linear equations and can explain the relationships between its different components.",
+      "Student demonstrates a comprehensive understanding of linear equations, including the ability to explain the relationships between variables, coefficients, and constants and can apply this knowledge in novel situations."
+    ],
+    [
+      "Student does not apply the distributive property correctly or at all.",
+      "Student attempts to apply the distributive property but makes significant errors.",
+      "Student applies the distributive property with some errors, indicating a partial understanding.",
+      "Student generally applies the distributive property correctly, with only minor errors.",
+      "Student consistently and accurately applies the distributive property to simplify equations.",
+      "Student fluently and accurately applies the distributive property and explains why it works."
+    ],
+    [
+      "Student does not collect like terms or incorrectly combines unlike terms.",
+      "Student attempts to collect like terms but makes frequent errors.",
+      "Student collects like terms with some errors, demonstrating a basic understanding.",
+      "Student accurately collects like terms in most cases, with occasional minor errors.",
+      "Student consistently and accurately collects like terms to simplify equations.",
+      "Student explains and accurately collects like terms to simplify equations."
+    ],
+    [
+      "Student is unable to solve linear equations with rational coefficients.",
+      "Student attempts to solve equations but makes significant errors with rational coefficients.",
+      "Student solves equations with rational coefficients but struggles with fractions or decimals.",
+      "Student solves equations with rational coefficients but makes occasional errors.",
+      "Student accurately solves linear equations with rational coefficients, demonstrating fluency.",
+      "Student solves linear equations with rational coefficients and can explain why each step is valid."
+    ],
+    [
+      "Solutions are consistently incorrect with no demonstration of accurate problem-solving skills.",
+      "Solutions are frequently incorrect, with limited evidence of accurate problem-solving skills.",
+      "Solutions are sometimes correct, but errors in calculations or steps are present.",
+      "Solutions are generally correct, with only occasional minor errors in calculations or steps.",
+      "Solutions are consistently correct and demonstrate a high level of precision in problem-solving.",
+      "Solutions are always correct, efficient, and demonstrate a mastery of precision in problem-solving, including checking for reasonableness."
+    ]
+  ]
+}

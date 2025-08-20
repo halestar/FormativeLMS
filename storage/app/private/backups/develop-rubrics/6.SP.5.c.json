@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Measures of Center and Variability",
+    "Description of Overall Pattern and Deviations",
+    "Contextual Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to calculate or identify measures of center (median, mean) or variability (interquartile range, mean absolute deviation).",
+      "Calculates or identifies measures of center or variability with significant errors, demonstrating a lack of understanding of the concepts.",
+      "Calculates or identifies measures of center and variability with some errors, showing a partial understanding of the concepts.",
+      "Calculates or identifies measures of center and variability with minor errors that do not significantly impact the interpretation.",
+      "Accurately calculates and identifies measures of center and variability, demonstrating a solid understanding of these concepts.",
+      "Accurately and efficiently calculates and identifies measures of center and variability, demonstrating a comprehensive understanding and mastery of these concepts."
+    ],
+    [
+      "No attempt to describe the overall pattern or any deviations in the data set.",
+      "Provides a description of the overall pattern or deviations that is vague, inaccurate, or lacks context.",
+      "Provides a basic description of the overall pattern and some deviations, but lacks detail or connection to the context.",
+      "Describes the overall pattern and significant deviations with reasonable detail, referencing the context of the data.",
+      "Clearly and accurately describes the overall pattern and all significant deviations, providing relevant context for interpretation.",
+      "Insightfully describes the overall pattern and deviations, providing a nuanced interpretation of the data within its specific context, including possible reasons for deviations."
+    ],
+    [
+      "No connection made between the statistical measures and the context in which the data were gathered.",
+      "Attempts to relate the statistical measures to the context, but the connection is weak or inaccurate.",
+      "Relates some statistical measures to the context, but the explanation is superficial.",
+      "Explains how the statistical measures relate to the context of the data, providing some meaningful insights.",
+      "Clearly and thoroughly explains how the statistical measures reflect and are influenced by the context in which the data were gathered.",
+      "Demonstrates a deep understanding of how the context influences the data and its statistical properties, offering insightful interpretations and implications."
+    ]
+  ]
+}

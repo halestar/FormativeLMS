@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Legal Descriptions",
+    "Detail and Specificity",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides no description of California laws or demonstrates significant inaccuracies.",
+      "Offers a minimal description of California laws with major inaccuracies.",
+      "Describes California laws with some inaccuracies or omissions.",
+      "Describes California laws with reasonable accuracy but lacks detail in one or two areas.",
+      "Accurately describes California laws regarding bullying, sexual violence, and sexual harassment with minor omissions.",
+      "Provides a comprehensive and accurate description of California laws regarding bullying, sexual violence, and sexual harassment."
+    ],
+    [
+      "Provides a vague or generalized description without specific legal references.",
+      "Includes minimal specific details or legal references with limited explanation.",
+      "Includes some specific details and legal references, but lacks depth in explanation.",
+      "Provides adequate detail and legal references, but explanation could be more thorough.",
+      "Offers detailed information and specific legal references with clear explanations.",
+      "Provides thorough, detailed information and specific legal references with insightful explanations and examples."
+    ],
+    [
+      "Description is disorganized and unclear, making it difficult to understand the legal aspects.",
+      "Description lacks organization and clarity in several areas, impeding understanding.",
+      "Description has some organization and clarity, but there are areas that need improvement.",
+      "Description is generally clear and organized, but could benefit from minor improvements.",
+      "Description is clear, well-organized, and easy to understand with logical flow.",
+      "Description is exceptionally clear, concise, and logically organized, enhancing understanding of the legal aspects."
+    ]
+  ]
+}

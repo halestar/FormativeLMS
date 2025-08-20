@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Estimation",
+    "Explanation and Justification",
+    "Application to Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or estimation is completely unreasonable.",
+      "Estimates show minimal understanding of place value or problem context.",
+      "Estimates are somewhat reasonable but contain significant errors or lack refinement.",
+      "Estimates are generally reasonable and show understanding of place value.",
+      "Estimates are accurate and demonstrate a strong understanding of place value and problem context.",
+      "Estimates are highly accurate, efficient, and demonstrate a sophisticated understanding of place value and problem context."
+    ],
+    [
+      "No explanation or justification is provided.",
+      "Explanation is unclear, incomplete, or lacks connection to the estimation process.",
+      "Explanation is present but lacks depth or sufficient justification for the estimation strategy.",
+      "Explanation is clear and provides a reasonable justification for the estimation strategy used.",
+      "Explanation is thorough, clearly justifies the estimation strategy, and demonstrates an understanding of its effectiveness.",
+      "Explanation is insightful, clearly articulates the advantages of the chosen strategy, and demonstrates a deep understanding of its implications."
+    ],
+    [
+      "Estimation is not applied to the problem or is used inappropriately.",
+      "Estimation is applied but does not aid in solving the problem or leads to an incorrect solution.",
+      "Estimation is used to solve the problem, but the approach is inefficient or the solution is partially incorrect.",
+      "Estimation is used effectively to simplify the problem and leads to a correct or near-correct solution.",
+      "Estimation is used strategically to solve the problem efficiently and accurately.",
+      "Estimation is used creatively and effectively to solve the problem, demonstrating a superior understanding of its applications."
+    ]
+  ]
+}

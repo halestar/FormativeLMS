@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to identify factors influencing food and beverage choices.",
+    "Ability to analyze the impact of overconsumption on health.",
+    "Ability to model healthy decision-making related to food and beverage consumption.",
+    "Application of skills to prevent overconsumption."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any factors influencing food and beverage choices.",
+      "Identifies one factor influencing food and beverage choices with limited accuracy.",
+      "Identifies a few factors influencing food and beverage choices with some accuracy.",
+      "Identifies several factors influencing food and beverage choices with reasonable accuracy.",
+      "Identifies most factors influencing food and beverage choices with good accuracy and some detail.",
+      "Identifies all key factors influencing food and beverage choices with excellent accuracy and insightful detail."
+    ],
+    [
+      "Does not demonstrate an understanding of the impact of overconsumption on health.",
+      "Demonstrates a limited understanding of the impact of overconsumption on one aspect of health.",
+      "Demonstrates a basic understanding of the impact of overconsumption on a few aspects of health.",
+      "Demonstrates a satisfactory understanding of the impact of overconsumption on several aspects of health.",
+      "Demonstrates a strong understanding of the impact of overconsumption on many aspects of health with supporting details.",
+      "Demonstrates a comprehensive and insightful understanding of the impact of overconsumption on health with well-supported arguments."
+    ],
+    [
+      "Does not demonstrate the ability to model healthy decision-making.",
+      "Attempts to model healthy decision-making but lacks key components.",
+      "Models healthy decision-making with some flaws or omissions.",
+      "Models healthy decision-making in a generally effective manner.",
+      "Models healthy decision-making effectively, showing consideration of various factors.",
+      "Models healthy decision-making exceptionally well, demonstrating a nuanced understanding of the decision-making process and potential outcomes."
+    ],
+    [
+      "Does not apply any skills to prevent overconsumption.",
+      "Applies one skill with limited effectiveness.",
+      "Applies a couple of skills with some effectiveness.",
+      "Applies several skills reasonably effectively to prevent overconsumption.",
+      "Applies multiple skills effectively and demonstrates understanding of their impact on preventing overconsumption.",
+      "Applies a comprehensive set of skills exceptionally well to prevent overconsumption, demonstrating a deep understanding of preventative strategies."
+    ]
+  ]
+}

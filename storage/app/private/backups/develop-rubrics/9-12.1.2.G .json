@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Conception",
+    "Knowledge of Pregnancy Stages",
+    "Awareness of Parenting Responsibilities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of how conception occurs.",
+      "Student demonstrates a limited understanding of how conception occurs, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of how conception occurs, but lacks detail.",
+      "Student accurately explains the basic process of conception with some detail.",
+      "Student thoroughly explains the process of conception, including key biological components and factors influencing it.",
+      "Student demonstrates a comprehensive and nuanced understanding of conception, including variations, potential complications, and relevant terminology."
+    ],
+    [
+      "Student is unable to identify or describe any stages of pregnancy.",
+      "Student can identify one or two stages of pregnancy but provides inaccurate or incomplete descriptions.",
+      "Student identifies the main stages of pregnancy (trimesters) but lacks detail in their descriptions.",
+      "Student accurately describes the three trimesters of pregnancy, highlighting key developments in each stage.",
+      "Student provides a detailed explanation of each stage of pregnancy, including specific fetal developments and maternal changes.",
+      "Student demonstrates an in-depth understanding of the physical and hormonal changes during each stage of pregnancy, as well as potential complications and variations."
+    ],
+    [
+      "Student shows no awareness of the responsibilities associated with parenting.",
+      "Student identifies one or two basic responsibilities of parenting but lacks depth of understanding.",
+      "Student lists several responsibilities of parenting (e.g., providing food, shelter, and safety).",
+      "Student explains a range of parenting responsibilities, including physical, emotional, and financial aspects.",
+      "Student thoroughly discusses the multifaceted responsibilities of parenting, addressing the challenges and rewards involved.",
+      "Student demonstrates a comprehensive understanding of the long-term commitments and complex dynamics of parenting, including the importance of nurturing, education, and ethical guidance."
+    ]
+  ]
+}

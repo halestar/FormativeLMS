@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Active Participation and Contribution",
+    "Respect for Others' Ideas",
+    "Sharing Resources and Responsibilities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not participate or contribute to group activities or discussions.",
+      "Student occasionally participates but offers minimal contribution to the group; contribution is often off-topic or unhelpful.",
+      "Student participates somewhat regularly, contributing basic ideas and information; contribution may lack depth or insight.",
+      "Student consistently participates, offering relevant and thoughtful contributions; ideas show understanding of the material.",
+      "Student actively engages, providing valuable insights and suggestions; contributions enhance group discussions and activities.",
+      "Student leads by example, actively facilitating discussions, providing insightful analysis, and encouraging others to participate; elevates the group's understanding."
+    ],
+    [
+      "Student dismisses or disregards others' ideas, showing disrespect or intolerance.",
+      "Student occasionally interrupts or talks over others; may not fully listen to or acknowledge different perspectives.",
+      "Student generally listens to others but may not always acknowledge or value their contributions.",
+      "Student listens attentively to others and acknowledges their ideas, showing respect for diverse perspectives.",
+      "Student actively seeks to understand and value others' ideas, building upon them and fostering a collaborative environment.",
+      "Student champions inclusivity, ensuring all voices are heard and valued; skillfully mediates conflicts and promotes understanding."
+    ],
+    [
+      "Student hoards resources and avoids responsibilities, hindering group progress.",
+      "Student reluctantly shares resources and takes on minimal responsibility; contribution is inadequate or incomplete.",
+      "Student shares resources and fulfills assigned responsibilities adequately; contribution is functional but not exceptional.",
+      "Student willingly shares resources and takes on responsibilities; contribution is reliable and helpful.",
+      "Student proactively shares resources and takes on extra responsibilities, exceeding expectations and promoting efficiency.",
+      "Student optimizes resource allocation and mentors others in effectively managing responsibilities, ensuring group success and cohesion."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying caution and danger labels on products.",
+    "Understanding the meaning of labels",
+    "Application of knowledge to real-life scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any caution or danger labels.",
+      "Identifies only one or two caution or danger labels with significant inaccuracies.",
+      "Identifies some caution and danger labels but misses key information or confuses symbols.",
+      "Identifies most common caution and danger labels with minor errors or omissions.",
+      "Accurately identifies nearly all caution and danger labels, demonstrating a strong understanding.",
+      "Consistently and accurately identifies all caution and danger labels, explaining their meaning and potential consequences."
+    ],
+    [
+      "No understanding of label meaning",
+      "Attempts to explain label meaning but explanations are incorrect.",
+      "Can explain the meaning of a couple of labels, but most are still unknown",
+      "Can explain the meaning of most labels",
+      "Understands the meaning and intention of labels and how that would relate to safety",
+      "Explains the full meaning of all labels, including subtle differences and how it relates to the danger it presents."
+    ],
+    [
+      "Cannot relate label information to real-life situations or safety practices.",
+      "Struggles to apply label information to real-life situations, providing vague or incorrect examples.",
+      "Identifies basic applications of label information but lacks detail or practical understanding.",
+      "Applies label information to common real-life scenarios with reasonable accuracy and some detail.",
+      "Demonstrates a strong ability to apply label information to a variety of real-life scenarios, offering practical safety advice.",
+      "Expertly applies label information to complex or novel real-life scenarios, providing comprehensive safety strategies and demonstrating critical thinking."
+    ]
+  ]
+}

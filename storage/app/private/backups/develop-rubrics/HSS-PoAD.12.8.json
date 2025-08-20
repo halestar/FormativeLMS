@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Media Influence",
+    "Position Taking and Defense",
+    "Use of Evidence",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how media influences American political life.",
+      "Shows a minimal understanding of media influence, with significant misconceptions.",
+      "Identifies some ways media influences politics but lacks depth and accuracy.",
+      "Explains several ways media influences politics, with reasonable accuracy.",
+      "Clearly explains various ways media influences politics, providing supporting details.",
+      "Demonstrates a comprehensive understanding of media's multifaceted influence on American political life, providing insightful examples."
+    ],
+    [
+      "Fails to take a position on the media's influence or offers an undefended opinion.",
+      "Takes a position with little or no justification.",
+      "Takes a position and offers limited justification, which may be vague or unsupported.",
+      "Takes a clear position and provides some supporting evidence, although the argument may have weaknesses.",
+      "Takes a well-defined position and supports it with relevant evidence and reasoning.",
+      "Takes a nuanced position, defends it rigorously with compelling evidence, and addresses counterarguments effectively."
+    ],
+    [
+      "Provides no evidence or uses irrelevant examples.",
+      "Attempts to use evidence, but it is inaccurate, irrelevant, or poorly presented.",
+      "Uses some evidence, but it is limited or not well-connected to the argument.",
+      "Supports claims with relevant evidence, but some connections could be stronger.",
+      "Effectively uses credible evidence to support claims and strengthens the argument.",
+      "Masterfully integrates a variety of credible sources to build a compelling and well-supported argument."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it difficult to follow the argument.",
+      "Response shows some organization, but clarity is lacking in places.",
+      "Response is generally clear and organized with a logical flow of ideas.",
+      "Response is clear, well-organized, and easy to follow with a logical progression of ideas.",
+      "Response is exceptionally clear, meticulously organized, and persuasively presents a sophisticated argument."
+    ]
+  ]
+}

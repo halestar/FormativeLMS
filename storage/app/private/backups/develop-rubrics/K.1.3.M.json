@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Trusted Adults at Home",
+    "Accuracy in Identifying Trusted Adults at School",
+    "Explanation of the Characteristics of a Trusted Adult"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any trusted adults at home.",
+      "The student identifies one adult at home but is unsure or provides an inaccurate reason.",
+      "The student identifies one trusted adult at home and provides a basic reason why.",
+      "The student identifies two trusted adults at home and provides reasons that show a general understanding of trust.",
+      "The student accurately identifies multiple trusted adults at home, providing clear and thoughtful reasons based on their characteristics and actions.",
+      "The student comprehensively identifies multiple trusted adults at home, providing insightful and detailed reasons, demonstrating a deep understanding of trust and support systems."
+    ],
+    [
+      "The student cannot identify any trusted adults at school.",
+      "The student identifies one adult at school but is unsure or provides an inaccurate reason.",
+      "The student identifies one trusted adult at school and provides a basic reason why.",
+      "The student identifies two trusted adults at school and provides reasons that show a general understanding of trust.",
+      "The student accurately identifies multiple trusted adults at school, providing clear and thoughtful reasons based on their characteristics and actions.",
+      "The student comprehensively identifies multiple trusted adults at school, providing insightful and detailed reasons, demonstrating a deep understanding of trust and support systems."
+    ],
+    [
+      "The student is unable to describe any characteristics of a trusted adult.",
+      "The student attempts to describe characteristics but lacks clarity or provides irrelevant information.",
+      "The student describes basic characteristics of a trusted adult, such as being 'nice' or 'helpful.'",
+      "The student describes several key characteristics of trusted adults, such as trustworthiness, reliability, and supportiveness.",
+      "The student provides a comprehensive explanation of the characteristics of trusted adults, including empathy, confidentiality, and active listening.",
+      "The student offers a nuanced and insightful explanation of the characteristics of trusted adults, demonstrating a deep understanding of the qualities that make someone a safe and reliable source of support, including examples of how these characteristics manifest in behavior."
+    ]
+  ]
+}

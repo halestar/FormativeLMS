@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Clarity and Coherence",
+    "Development of Ideas",
+    "Organization",
+    "Style"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Writing lacks clarity and coherence; ideas are disjointed and difficult to follow.",
+      "Writing demonstrates minimal clarity and coherence; ideas are somewhat connected but often unclear.",
+      "Writing demonstrates some clarity and coherence; ideas are generally connected but may have some confusing parts.",
+      "Writing is mostly clear and coherent; ideas are logically connected and easy to follow for the most part.",
+      "Writing is clear and coherent; ideas are logically connected and easy to follow.",
+      "Writing is exceptionally clear and coherent; ideas are logically and fluidly connected, enhancing the overall impact."
+    ],
+    [
+      "Ideas are undeveloped and lack supporting evidence.",
+      "Ideas are minimally developed with limited supporting evidence.",
+      "Ideas are somewhat developed with some supporting evidence.",
+      "Ideas are adequately developed with relevant supporting evidence.",
+      "Ideas are well-developed with strong and relevant supporting evidence.",
+      "Ideas are exceptionally well-developed with compelling and insightful supporting evidence."
+    ],
+    [
+      "Writing lacks organization; ideas are presented randomly.",
+      "Writing demonstrates minimal organization; ideas are loosely grouped.",
+      "Writing demonstrates some organization; ideas are grouped but may lack logical order.",
+      "Writing is mostly organized; ideas are logically sequenced for the most part.",
+      "Writing is well-organized; ideas are logically sequenced and presented.",
+      "Writing is exceptionally well-organized; ideas are presented in a sophisticated and effective manner."
+    ],
+    [
+      "Writing style is inappropriate for the task, purpose, and audience.",
+      "Writing style is minimally appropriate for the task, purpose, and audience.",
+      "Writing style is somewhat appropriate for the task, purpose, and audience.",
+      "Writing style is mostly appropriate for the task, purpose, and audience.",
+      "Writing style is appropriate for the task, purpose, and audience.",
+      "Writing style is highly effective and enhances the impact for the task, purpose, and audience."
+    ]
+  ]
+}

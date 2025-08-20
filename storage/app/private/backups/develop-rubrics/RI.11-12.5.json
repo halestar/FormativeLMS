@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Effectiveness of Structure Analysis",
+    "Clarity of Points",
+    "Convincing Argument",
+    "Engagement",
+    "Analysis of Text Features (Graphics, Headers, Captions)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the author's structural choices.",
+      "The student identifies the structure but struggles to explain its purpose or effect.",
+      "The student identifies the structure and offers a basic explanation of its purpose but misses key nuances or complexities.",
+      "The student effectively analyzes the author's structural choices, explaining how they contribute to the clarity and persuasiveness of the argument.",
+      "The student provides a detailed and insightful analysis of the author's structural choices, demonstrating a strong understanding of their impact on the argument and audience engagement.",
+      "The student offers a sophisticated and nuanced evaluation of the author's structural choices, demonstrating a masterful understanding of their effectiveness in making points clear, convincing, and engaging."
+    ],
+    [
+      "The student fails to recognize how the structure contributes to the clarity of the author's points.",
+      "The student identifies some connections between the structure and clarity, but the explanation is superficial.",
+      "The student explains how the structure generally contributes to clarity but misses specific examples or complexities.",
+      "The student provides clear examples of how the structure enhances the clarity of the author's points.",
+      "The student demonstrates a deep understanding of how the structure enhances clarity, providing specific examples and explaining the underlying mechanisms.",
+      "The student offers a comprehensive and insightful analysis of how the structure masterfully enhances the clarity of the author's points, providing compelling examples and nuanced explanations."
+    ],
+    [
+      "The student does not recognize how the structure impacts the persuasiveness of the argument.",
+      "The student mentions the structure's role in persuasion but provides no evidence or explanation.",
+      "The student attempts to explain how the structure strengthens the argument but struggles to provide concrete examples.",
+      "The student provides valid examples of how the structure makes the argument more convincing.",
+      "The student demonstrates a strong understanding of how the structure strengthens the argument, providing specific examples and explaining the reasoning behind its effectiveness.",
+      "The student provides a nuanced and insightful analysis of how the structure masterfully enhances the persuasiveness of the argument, demonstrating a sophisticated understanding of rhetoric and audience engagement."
+    ],
+    [
+      "The student fails to address how the structure affects audience engagement.",
+      "The student briefly mentions audience engagement but provides no specific examples.",
+      "The student offers a general explanation of how the structure might engage the audience but lacks specific evidence.",
+      "The student provides specific examples of how the structure engages the audience, explaining why these choices are effective.",
+      "The student demonstrates a clear understanding of how the structure fosters audience engagement, providing insightful examples and explaining the psychological principles at play.",
+      "The student offers a nuanced and insightful analysis of how the structure masterfully engages the audience, demonstrating a sophisticated understanding of rhetoric, psychology, and audience dynamics."
+    ],
+    [
+      "The student does not address the use of text features in public documents.",
+      "The student identifies some text features but does not analyze their effectiveness.",
+      "The student attempts to analyze the effectiveness of text features but struggles to explain their purpose or impact.",
+      "The student effectively analyzes the use of text features, explaining how they contribute to the clarity and persuasiveness of the document.",
+      "The student provides a detailed and insightful analysis of the text features, demonstrating a strong understanding of their impact on the argument and audience engagement.",
+      "The student offers a sophisticated and nuanced evaluation of the text features, demonstrating a masterful understanding of their effectiveness in making points clear, convincing, and engaging."
+    ]
+  ]
+}

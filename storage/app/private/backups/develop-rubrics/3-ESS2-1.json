@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Representation Accuracy",
+    "Use of Tables and Graphical Displays",
+    "Interpretation of Weather Patterns",
+    "Predictions Based on Data"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The data is not represented, or the representation is completely inaccurate and does not reflect the provided data.",
+      "The data representation has significant inaccuracies and is difficult to interpret.",
+      "The data representation contains some inaccuracies that affect interpretation.",
+      "The data representation is mostly accurate with minor errors that do not significantly impact interpretation.",
+      "The data representation is accurate and clearly represents the data with only very minor, negligible errors.",
+      "The data representation is exceptionally accurate, clear, and effectively showcases the data's patterns and relationships."
+    ],
+    [
+      "No table or graphical display is used, or the chosen display is completely inappropriate for the data.",
+      "An attempt is made to use a table or graph, but it is poorly constructed and does not effectively display the data.",
+      "A table or graph is used, but it has significant flaws in its construction or choice of display.",
+      "A table or graph is used and is generally appropriate for the data, but there are some areas for improvement in clarity or effectiveness.",
+      "A table or graph is effectively used to display the data clearly and appropriately.",
+      "A table and\/or graph are expertly used to display the data with exceptional clarity, making patterns and relationships immediately apparent."
+    ],
+    [
+      "No attempt is made to interpret weather patterns, or the interpretation is completely incorrect.",
+      "The interpretation of weather patterns is attempted but is largely inaccurate or incomplete.",
+      "The interpretation of weather patterns identifies some basic trends but misses key details or relationships.",
+      "The interpretation of weather patterns identifies most of the key trends and relationships in the data with reasonable accuracy.",
+      "The interpretation of weather patterns is accurate, thorough, and identifies nearly all key trends and relationships.",
+      "The interpretation of weather patterns is insightful, comprehensive, and demonstrates a deep understanding of the data and its implications."
+    ],
+    [
+      "No predictions are made, or the predictions are completely unrelated to the data.",
+      "An attempt to make predictions is made, but the predictions are unrealistic or not supported by the data.",
+      "The predictions are loosely based on the data but lack specific evidence or justification.",
+      "The predictions are generally reasonable and somewhat supported by the data, but further justification could be provided.",
+      "The predictions are well-reasoned, supported by the data, and demonstrate an understanding of how patterns can be used to make forecasts.",
+      "The predictions are insightful, thoroughly justified by the data, and demonstrate a sophisticated understanding of pattern-based forecasting."
+    ]
+  ]
+}

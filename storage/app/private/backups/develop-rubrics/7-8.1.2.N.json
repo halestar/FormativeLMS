@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Nutrients",
+    "Understanding of Nutrient Functions",
+    "Relationship of Nutrients to Health",
+    "Application of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any nutrients.",
+      "Student identifies only one nutrient with inaccuracies.",
+      "Student identifies 2-3 nutrients but shows limited understanding.",
+      "Student identifies most major nutrients (e.g., carbohydrates, proteins, fats, vitamins, minerals) but with some minor inaccuracies or omissions.",
+      "Student accurately identifies all major nutrients.",
+      "Student accurately identifies all major nutrients and some micronutrients (e.g., antioxidants, phytonutrients)."
+    ],
+    [
+      "Student does not explain the function of any nutrient.",
+      "Student attempts to explain the function of at least one nutrient, but the explanation is unclear or incorrect.",
+      "Student explains the function of a few nutrients with limited detail.",
+      "Student explains the functions of most major nutrients, demonstrating a basic understanding.",
+      "Student explains the functions of major nutrients, demonstrating a clear understanding of their roles in the body.",
+      "Student comprehensively explains the functions of major nutrients and can describe how they work at a biochemical level."
+    ],
+    [
+      "Student does not make any connections between nutrients and health outcomes.",
+      "Student makes vague or inaccurate connections between nutrients and health.",
+      "Student identifies a few relationships between nutrients and health (e.g., vitamin C and immune function) but lacks detail.",
+      "Student explains how several nutrients impact health, providing some specific examples (e.g., calcium for bone health, fiber for digestive health).",
+      "Student clearly explains how various nutrients impact health, providing detailed examples and discussing both benefits and risks.",
+      "Student thoroughly explains the relationships between nutrients and health, including the impact on chronic diseases and personalized nutrition based on individual needs."
+    ],
+    [
+      "Student cannot apply knowledge to real-life scenarios.",
+      "Student struggles to apply knowledge of nutrients to real-life health choices.",
+      "Student can provide general examples of how to use nutrients for health but lacks detail.",
+      "Student provides practical examples of how to incorporate nutrients into a healthy diet.",
+      "Student can design a meal plan that meets specific nutritional needs.",
+      "Student can create comprehensive health recommendations based on nutritional science, considering individual dietary needs and health goals."
+    ]
+  ]
+}

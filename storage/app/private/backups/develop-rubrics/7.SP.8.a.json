@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Organized Lists and Tables",
+    "Tree Diagrams",
+    "Simulation",
+    "Probability Calculation and Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to create or use organized lists or tables.",
+      "Attempts to create lists\/tables but they are incomplete, disorganized, or inaccurate.",
+      "Creates lists\/tables with some organization, but contains errors or omissions that impact probability calculations.",
+      "Creates organized lists\/tables to represent sample space, but may have minor errors.",
+      "Creates clear, organized, and accurate lists\/tables to represent the sample space of a compound event.",
+      "Creates exemplary lists\/tables, clearly demonstrating all possible outcomes and facilitating accurate probability calculations; demonstrates creative and efficient organization."
+    ],
+    [
+      "No attempt to create or use tree diagrams.",
+      "Attempts to create a tree diagram but it is incomplete, disorganized, or inaccurate.",
+      "Creates a tree diagram with some organization, but contains errors or omissions that impact probability calculations.",
+      "Creates a tree diagram to represent sample space, but may have minor errors.",
+      "Creates a clear, organized, and accurate tree diagram to represent the sample space of a compound event.",
+      "Creates an exemplary tree diagram, clearly demonstrating all possible outcomes and facilitating accurate probability calculations; labels diagram effectively."
+    ],
+    [
+      "No attempt to use simulation to find probabilities.",
+      "Attempts a simulation but the methodology is flawed or not clearly defined.",
+      "Uses simulation with some success, but with limited trials or unclear representation of the compound event.",
+      "Uses simulation appropriately to estimate probabilities, but may have minor inconsistencies in the process.",
+      "Uses simulation effectively with a sufficient number of trials to estimate probabilities of compound events; clearly explains the simulation process.",
+      "Designs and executes a simulation with a high degree of accuracy and efficiency to determine probabilities; validates the simulation results with theoretical probabilities."
+    ],
+    [
+      "No understanding of how to calculate probabilities of compound events.",
+      "Attempts to calculate probabilities but demonstrates significant misunderstanding of the underlying concepts.",
+      "Calculates probabilities with some errors, showing partial understanding of compound events.",
+      "Calculates probabilities of compound events with reasonable accuracy, but may struggle with interpreting the results.",
+      "Accurately calculates and interprets probabilities of compound events, expressing results as fractions of outcomes in the sample space.",
+      "Demonstrates a deep understanding of compound event probabilities, providing clear and insightful interpretations and connecting them to real-world scenarios."
+    ]
+  ]
+}

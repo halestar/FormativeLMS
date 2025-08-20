@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Causes of Communicable Diseases",
+    "Understanding of Symptoms of Communicable Diseases",
+    "Understanding of Causes of Non-Communicable Diseases",
+    "Understanding of Symptoms of Non-Communicable Diseases"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the causes of communicable diseases.",
+      "Student identifies at least one cause of communicable diseases but with significant inaccuracies or omissions.",
+      "Student identifies some causes of communicable diseases, but explanations lack depth or clarity.",
+      "Student accurately describes several causes of communicable diseases, providing a general understanding.",
+      "Student comprehensively explains the causes of communicable diseases, including modes of transmission and risk factors.",
+      "Student provides an insightful and detailed analysis of the causes of communicable diseases, including current research and prevention strategies."
+    ],
+    [
+      "Student demonstrates no understanding of the symptoms of communicable diseases.",
+      "Student identifies at least one symptom of communicable diseases, but with significant inaccuracies or omissions.",
+      "Student identifies some symptoms of communicable diseases, but descriptions lack detail or clarity.",
+      "Student accurately describes several symptoms of communicable diseases, providing a general understanding.",
+      "Student comprehensively explains the symptoms of communicable diseases and their progression.",
+      "Student provides an insightful and detailed analysis of the symptoms of communicable diseases, including differential diagnosis and potential complications."
+    ],
+    [
+      "Student demonstrates no understanding of the causes of non-communicable diseases.",
+      "Student identifies at least one cause of non-communicable diseases, but with significant inaccuracies or omissions.",
+      "Student identifies some causes of non-communicable diseases, but explanations lack depth or clarity.",
+      "Student accurately describes several causes of non-communicable diseases, providing a general understanding.",
+      "Student comprehensively explains the causes of non-communicable diseases, including genetic, environmental, and lifestyle factors.",
+      "Student provides an insightful and detailed analysis of the causes of non-communicable diseases, including current research and prevention strategies."
+    ],
+    [
+      "Student demonstrates no understanding of the symptoms of non-communicable diseases.",
+      "Student identifies at least one symptom of non-communicable diseases, but with significant inaccuracies or omissions.",
+      "Student identifies some symptoms of non-communicable diseases, but descriptions lack detail or clarity.",
+      "Student accurately describes several symptoms of non-communicable diseases, providing a general understanding.",
+      "Student comprehensively explains the symptoms of non-communicable diseases and their progression.",
+      "Student provides an insightful and detailed analysis of the symptoms of non-communicable diseases, including differential diagnosis and potential complications."
+    ]
+  ]
+}

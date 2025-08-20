@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Development of New Industries",
+    "Knowledge of Key Industries and Their Locations",
+    "Understanding of Trade Links with the Pacific Basin"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the development and locations of new industries in California since the turn of the century.",
+      "The student shows a minimal understanding of the development of a single new industry in California since the turn of the century.",
+      "The student identifies the development of a few new industries in California but struggles to explain their locations or significance.",
+      "The student accurately describes the development and locations of several new industries in California, such as aerospace, electronics, or agriculture.",
+      "The student comprehensively explains the development, locations, and significance of several key industries in California, including aerospace, electronics, agriculture, and oil.",
+      "The student provides an in-depth analysis of the development, locations, and impact of California's major industries, including their trade links with the Pacific Basin and their influence on the state's economy."
+    ],
+    [
+      "The student cannot name any of the key industries that developed in California since the turn of the century.",
+      "The student can name one key industry but cannot identify its location in California.",
+      "The student can name a few key industries and vaguely identify their locations within California.",
+      "The student accurately identifies the locations of several key industries, such as Silicon Valley for electronics or the Central Valley for agriculture.",
+      "The student provides specific details about the geographic distribution of multiple industries across California, demonstrating a strong understanding of their locations.",
+      "The student demonstrates expert knowledge of the precise locations and geographic factors that contributed to the development of California's key industries."
+    ],
+    [
+      "The student does not mention any trade links between California and the Pacific Basin.",
+      "The student vaguely mentions trade links but cannot provide any specific examples.",
+      "The student identifies the Pacific Basin as a trading partner but lacks detail about the specific industries or goods involved.",
+      "The student accurately describes trade links between California and the Pacific Basin for a few key industries.",
+      "The student comprehensively explains the trade relationships between California and the Pacific Basin, including specific industries, goods, and economic impacts.",
+      "The student analyzes the complex trade networks between California and the Pacific Basin, evaluating the impact on California's economy and its role in global trade."
+    ]
+  ]
+}

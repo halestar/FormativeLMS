@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Content and Relevance: How well the presentation covers the topic and relates to self and the immediate environment, adhering to the standard and goal provided.",
+    "Cultural Appropriateness: How well the presentation is adapted to suit the target culture and audience, including awareness of cultural norms and sensitivities.",
+    "Language Use and Accuracy: How well the student uses sentences and strings of sentences to convey information effectively, demonstrating accuracy in grammar and vocabulary.",
+    "Use of Media and Technologies: How effectively the student integrates media and technologies to enhance the presentation and engage the audience."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The presentation is completely off-topic or irrelevant, showing no understanding of the topic or connection to the student's life.",
+      "The presentation barely touches on the topic and has very little relevance to the student's self or environment. The content is minimal and lacks depth.",
+      "The presentation addresses the topic but lacks detail and depth. The relevance to the student's self or environment is superficial.",
+      "The presentation covers the topic adequately with some relevant details related to the student's self and environment. There is a clear attempt to meet the requirements.",
+      "The presentation covers the topic thoroughly with relevant details and examples clearly connected to the student's self and immediate environment. The content is engaging and informative.",
+      "The presentation provides an in-depth exploration of the topic with insightful details and strong connections to the student's self and environment. The content is highly engaging, original, and exceeds expectations."
+    ],
+    [
+      "The presentation shows no awareness of cultural norms or sensitivities and is highly inappropriate for the target culture.",
+      "The presentation demonstrates minimal awareness of cultural norms and sensitivities, with several elements that may be inappropriate or offensive.",
+      "The presentation shows some awareness of cultural norms, but there are still a few areas that could be improved to be more culturally appropriate.",
+      "The presentation is generally culturally appropriate, with a good understanding of cultural norms and sensitivities. Minor adjustments could further enhance its appropriateness.",
+      "The presentation is highly culturally appropriate, demonstrating a strong understanding of cultural norms and sensitivities. The content is well-adapted for the target audience.",
+      "The presentation is exceptionally culturally appropriate, demonstrating a deep understanding of cultural nuances and sensitivities. The content is seamlessly integrated with the target culture, enhancing understanding and engagement."
+    ],
+    [
+      "The language used is incomprehensible, with frequent errors in grammar and vocabulary that prevent understanding.",
+      "The language used is very basic, with numerous errors in grammar and vocabulary that significantly impede understanding.",
+      "The language used is simple, with several errors in grammar and vocabulary that occasionally hinder understanding.",
+      "The language used is adequate, with some errors in grammar and vocabulary that do not significantly impede understanding.",
+      "The language used is clear and accurate, with few errors in grammar and vocabulary. The content is easily understood.",
+      "The language used is sophisticated and accurate, with virtually no errors in grammar and vocabulary. The content is conveyed effectively and persuasively."
+    ],
+    [
+      "No media or technologies are used, or their use is completely ineffective and detracts from the presentation.",
+      "Media or technologies are used minimally, and their integration is poorly executed, offering little to no enhancement to the presentation.",
+      "Media or technologies are used, but their integration is not seamless and only partially enhances the presentation.",
+      "Media and technologies are used effectively to support the presentation and engage the audience to a moderate extent.",
+      "Media and technologies are used skillfully to enhance the presentation, engage the audience, and convey information effectively.",
+      "Media and technologies are used masterfully to create a highly engaging and informative presentation. Their integration is seamless and significantly enhances the audience's understanding."
+    ]
+  ]
+}

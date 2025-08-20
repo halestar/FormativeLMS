@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Rigid Motions",
+    "Application of Congruence Definition",
+    "Clarity and Precision of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rigid motions or their properties.",
+      "Student shows minimal understanding of rigid motions, struggling to define or identify them.",
+      "Student can identify rigid motions but struggles to explain how they preserve distance and angle measures.",
+      "Student understands that rigid motions preserve distance and angle measures but has difficulty applying this knowledge to prove congruence.",
+      "Student can accurately describe and apply rigid motions to demonstrate congruence in simple cases.",
+      "Student demonstrates a comprehensive understanding of rigid motions and applies them effectively to prove congruence in various complex scenarios."
+    ],
+    [
+      "Student does not attempt to use the definition of congruence in terms of rigid motions.",
+      "Student attempts to use the definition but demonstrates significant errors in its application.",
+      "Student uses the definition with some accuracy but makes frequent mistakes in identifying corresponding sides and angles.",
+      "Student correctly identifies corresponding sides and angles but struggles to form a complete proof of congruence using rigid motions.",
+      "Student constructs a logical proof of congruence using the definition of rigid motions, with minor errors.",
+      "Student provides a clear, concise, and correct proof of congruence using the definition of rigid motions, demonstrating a strong command of the concept."
+    ],
+    [
+      "Student's explanation is unclear and lacks precision, making it difficult to understand their reasoning.",
+      "Student's explanation is difficult to follow and contains significant ambiguities.",
+      "Student provides a somewhat clear explanation but lacks the necessary precision to fully justify their reasoning.",
+      "Student provides a clear explanation, but it may lack some precision or detail in justifying the congruence.",
+      "Student provides a clear and precise explanation, effectively justifying the congruence of triangles.",
+      "Student provides an exceptionally clear, precise, and insightful explanation, demonstrating a deep understanding of the underlying concepts."
+    ]
+  ]
+}

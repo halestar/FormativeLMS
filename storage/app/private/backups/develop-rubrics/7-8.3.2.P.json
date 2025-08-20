@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Information",
+    "Identification of Diseases",
+    "Prevention Strategies",
+    "Use of Valid Sources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Information presented is inaccurate or irrelevant.",
+      "Information contains significant inaccuracies or omissions.",
+      "Information is mostly accurate but contains some minor errors.",
+      "Information is accurate and relevant, with only minor omissions.",
+      "Information is highly accurate, relevant, and well-supported by evidence.",
+      "Information is exceptionally accurate, comprehensive, and critically analyzed, demonstrating a deep understanding of the topic."
+    ],
+    [
+      "Fails to identify any common communicable diseases.",
+      "Identifies only one common communicable disease.",
+      "Identifies a few common communicable diseases but lacks detail.",
+      "Identifies several common communicable diseases with some detail.",
+      "Identifies many common communicable diseases with good detail and examples.",
+      "Identifies a comprehensive range of common communicable diseases, demonstrating a thorough understanding of their prevalence and impact."
+    ],
+    [
+      "Suggests ineffective or harmful prevention methods.",
+      "Suggests prevention methods that are vague or lack detail.",
+      "Suggests some basic prevention strategies.",
+      "Suggests common prevention strategies with reasonable detail.",
+      "Suggests a variety of effective prevention strategies tailored to specific diseases.",
+      "Presents innovative and comprehensive prevention strategies, demonstrating a nuanced understanding of disease transmission and control."
+    ],
+    [
+      "Relies on unreliable or nonexistent sources.",
+      "Uses sources that are questionable in terms of validity or authority.",
+      "Uses some valid sources but also includes questionable ones.",
+      "Uses mostly valid and reliable sources.",
+      "Uses credible sources and cites them appropriately.",
+      "Uses a wide range of highly credible and authoritative sources, citing them meticulously and demonstrating a sophisticated understanding of research methodology."
+    ]
+  ]
+}

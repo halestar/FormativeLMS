@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in calculating area of two-dimensional shapes (triangles, quadrilaterals, polygons)",
+    "Accuracy in calculating volume and surface area of three-dimensional objects (cubes, right prisms)",
+    "Ability to solve real-world problems involving area, volume, and surface area",
+    "Correctly identifies and applies relevant geometric properties and theorems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to calculate area or uses incorrect formulas and units.",
+      "Demonstrates minimal understanding; struggles to apply correct formulas; calculations are largely inaccurate; omits units or uses incorrect units.",
+      "Demonstrates partial understanding; applies correct formulas sporadically; calculations contain errors; struggles with appropriate units.",
+      "Demonstrates reasonable understanding; mostly applies correct formulas; calculations are generally accurate with minor errors; uses appropriate units for most calculations.",
+      "Demonstrates strong understanding; consistently applies correct formulas; calculations are accurate with negligible errors; consistently uses appropriate units.",
+      "Demonstrates comprehensive understanding; flawlessly applies correct formulas; calculations are perfectly accurate; consistently and appropriately uses units; explains reasoning."
+    ],
+    [
+      "No attempt to calculate volume or surface area or uses incorrect formulas and units.",
+      "Demonstrates minimal understanding; struggles to apply correct formulas; calculations are largely inaccurate; omits units or uses incorrect units.",
+      "Demonstrates partial understanding; applies correct formulas sporadically; calculations contain errors; struggles with appropriate units.",
+      "Demonstrates reasonable understanding; mostly applies correct formulas; calculations are generally accurate with minor errors; uses appropriate units for most calculations.",
+      "Demonstrates strong understanding; consistently applies correct formulas; calculations are accurate with negligible errors; consistently uses appropriate units.",
+      "Demonstrates comprehensive understanding; flawlessly applies correct formulas; calculations are perfectly accurate; consistently and appropriately uses units; explains reasoning."
+    ],
+    [
+      "Unable to apply concepts to real-world problems or provides illogical solutions.",
+      "Struggles to translate real-world scenarios into mathematical problems; offers unrealistic or incorrect solutions.",
+      "Can partially translate real-world scenarios; solutions are often incomplete or contain significant errors.",
+      "Can translate real-world scenarios into mathematical problems and provides reasonable solutions with minor errors.",
+      "Effectively translates real-world scenarios into mathematical problems and provides accurate solutions with clear reasoning.",
+      "Demonstrates a sophisticated ability to analyze and solve real-world problems; provides insightful and efficient solutions; thoroughly explains and justifies reasoning."
+    ],
+    [
+      "Fails to identify relevant geometric properties or theorems.",
+      "Identifies some relevant geometric properties or theorems, but cannot apply them correctly.",
+      "Identifies and applies some relevant geometric properties and theorems, but with inconsistencies or errors.",
+      "Generally identifies and applies relevant geometric properties and theorems correctly, with only minor errors.",
+      "Consistently identifies and applies relevant geometric properties and theorems correctly and effectively.",
+      "Demonstrates a deep understanding of geometric properties and theorems and applies them creatively and effectively to solve problems."
+    ]
+  ]
+}

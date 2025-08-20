@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding and Applying Function Notation",
+    "Evaluating Functions for Given Inputs",
+    "Interpreting Function Notation in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of function notation. Unable to identify or use f(x) correctly.",
+      "Student shows limited understanding of function notation. Struggles to apply f(x) in simple cases.",
+      "Student demonstrates some understanding of function notation but makes frequent errors in application.",
+      "Student correctly uses function notation in most cases, with occasional minor errors.",
+      "Student demonstrates a strong understanding of function notation, using it accurately and efficiently.",
+      "Student demonstrates a comprehensive understanding of function notation, applying it flawlessly and explaining its meaning in context."
+    ],
+    [
+      "Student cannot evaluate functions for given inputs. Unable to substitute values into expressions.",
+      "Student struggles to evaluate functions, making significant errors in substitution and calculation.",
+      "Student can evaluate simple functions but has difficulty with more complex expressions or negative inputs.",
+      "Student evaluates functions correctly for most inputs, with occasional errors in calculation.",
+      "Student consistently evaluates functions correctly for a variety of inputs, including complex expressions.",
+      "Student expertly evaluates functions, including piecewise functions, and explains the process clearly."
+    ],
+    [
+      "Student does not understand how to interpret function notation in a real-world context.",
+      "Student struggles to relate function notation to a given context, providing inaccurate interpretations.",
+      "Student can provide a basic interpretation of function notation in context but misses key details.",
+      "Student provides a reasonable interpretation of function notation in context, connecting it to the situation.",
+      "Student provides a clear and accurate interpretation of function notation in context, highlighting its relevance.",
+      "Student provides a sophisticated interpretation of function notation in context, drawing insightful conclusions and explaining the implications."
+    ]
+  ]
+}

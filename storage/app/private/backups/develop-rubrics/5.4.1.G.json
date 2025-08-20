@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Accuracy of Information: How clearly and accurately the student explains the changes during puberty.",
+    "Effective Communication Skills: The student's ability to communicate effectively with parents, guardians, and trusted adults.",
+    "Age-Appropriateness and Sensitivity: The student's ability to tailor their communication in an age-appropriate and sensitive manner."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding or provides inaccurate information about the changes during puberty.",
+      "The student demonstrates limited understanding and provides mostly inaccurate information about the changes during puberty.",
+      "The student demonstrates basic understanding and provides some accurate information about the changes during puberty, but with significant gaps or inaccuracies.",
+      "The student demonstrates a satisfactory understanding and provides mostly accurate information about the changes during puberty, with minor gaps or inaccuracies.",
+      "The student demonstrates a strong understanding and provides accurate information about the changes during puberty with only minor omissions.",
+      "The student demonstrates a comprehensive understanding and provides accurate and detailed information about the changes during puberty effectively."
+    ],
+    [
+      "The student is unable to communicate or demonstrates inappropriate communication skills when discussing the changes during puberty.",
+      "The student struggles to communicate and demonstrates mostly inappropriate communication skills when discussing the changes during puberty.",
+      "The student communicates with some difficulty and demonstrates some appropriate communication skills when discussing the changes during puberty, but struggles with some skills.",
+      "The student communicates adequately and demonstrates mostly appropriate communication skills when discussing the changes during puberty.",
+      "The student communicates effectively and demonstrates appropriate communication skills when discussing the changes during puberty.",
+      "The student communicates exceptionally effectively and demonstrates excellent communication skills, including active listening and empathy, when discussing the changes during puberty."
+    ],
+    [
+      "The student demonstrates no awareness of age-appropriateness or sensitivity when discussing the changes during puberty.",
+      "The student demonstrates very little awareness of age-appropriateness or sensitivity when discussing the changes during puberty.",
+      "The student demonstrates some awareness of age-appropriateness or sensitivity when discussing the changes during puberty, but with inconsistencies.",
+      "The student generally communicates in an age-appropriate and sensitive manner when discussing the changes during puberty.",
+      "The student consistently communicates in an age-appropriate and sensitive manner when discussing the changes during puberty.",
+      "The student expertly tailors their communication in an age-appropriate and sensitive manner, demonstrating exceptional empathy and understanding when discussing the changes during puberty."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Addition and Subtraction within 20",
+    "Use of Mental Strategies",
+    "Recall of Sums of Two One-Digit Numbers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to perform addition or subtraction within 20.",
+      "Student demonstrates limited ability to add and subtract within 20, with frequent errors.",
+      "Student can add and subtract within 20 with some accuracy, but makes occasional errors and hesitates.",
+      "Student accurately adds and subtracts within 20 using mental strategies most of the time, with few errors.",
+      "Student consistently and accurately adds and subtracts within 20 using mental strategies, demonstrating fluency.",
+      "Student demonstrates mastery of addition and subtraction within 20, fluently and accurately applying mental strategies, and can explain their reasoning."
+    ],
+    [
+      "Student does not use mental strategies or attempts inefficient methods.",
+      "Student attempts to use mental strategies but struggles and relies heavily on counting or other inefficient methods.",
+      "Student uses mental strategies inconsistently, sometimes reverting to less efficient methods.",
+      "Student generally uses appropriate mental strategies for addition and subtraction within 20.",
+      "Student effectively and consistently uses a variety of mental strategies to solve addition and subtraction problems within 20.",
+      "Student skillfully and flexibly applies a variety of mental strategies, adapting their approach based on the problem, and can articulate why they chose a particular strategy."
+    ],
+    [
+      "Student does not know from memory any sums of two one-digit numbers.",
+      "Student knows very few sums of two one-digit numbers and relies heavily on calculation.",
+      "Student knows some sums of two one-digit numbers but hesitates or makes errors.",
+      "Student knows most sums of two one-digit numbers and can recall them with reasonable accuracy.",
+      "Student knows from memory nearly all sums of two one-digit numbers and can recall them quickly and accurately.",
+      "Student demonstrates automaticity with sums of two one-digit numbers, recalling them instantly and accurately, and using this knowledge to solve more complex problems."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Following Procedures",
+    "Analysis and Interpretation of Results",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not follow the procedure at all or makes significant errors that invalidate the results.",
+      "The student attempts to follow the procedure but makes several critical errors that affect the outcome.",
+      "The student follows most of the procedure but misses some steps or makes minor errors.",
+      "The student follows the procedure with only one or two minor inaccuracies.",
+      "The student accurately follows the procedure with no errors, ensuring reliable results.",
+      "The student flawlessly follows the procedure, demonstrating precision and a clear understanding of each step and its impact on the outcome."
+    ],
+    [
+      "The student provides no analysis of the results or the analysis is completely unrelated to the text.",
+      "The student attempts to analyze the results but demonstrates a poor understanding of the text's explanations.",
+      "The student identifies some results and attempts to connect them to the text, but the analysis is superficial.",
+      "The student analyzes the results and makes a reasonable connection to the explanations in the text.",
+      "The student thoroughly analyzes the results, providing clear and accurate interpretations based on the text.",
+      "The student provides a nuanced and insightful analysis of the results, demonstrating a deep understanding of the text's explanations and their implications."
+    ],
+    [
+      "The student's report is disorganized and lacks clarity, making it difficult to understand the procedure or results.",
+      "The student's report is somewhat organized but lacks clarity in several areas, hindering understanding.",
+      "The student's report is generally organized and clear, but there are some areas where improvement is needed.",
+      "The student's report is well-organized and clear, effectively communicating the procedure and results.",
+      "The student's report is exceptionally clear and well-organized, presenting the procedure and results in a logical and easy-to-follow manner.",
+      "The student's report is a model of clarity and organization, demonstrating exceptional communication skills and a deep understanding of the material."
+    ]
+  ]
+}

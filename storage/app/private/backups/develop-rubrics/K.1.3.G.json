@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Similarities",
+    "Identification of Differences",
+    "Clarity and Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any ways people are similar.",
+      "Identifies one way people are similar, but it is vague or not well-explained.",
+      "Identifies two ways people are similar with limited explanation.",
+      "Identifies three ways people are similar with some explanation and relevance.",
+      "Identifies four ways people are similar with clear explanations and relevance.",
+      "Identifies five or more ways people are similar with detailed explanations, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Does not identify any ways people are different.",
+      "Identifies one way people are different, but it is vague or not well-explained.",
+      "Identifies two ways people are different with limited explanation.",
+      "Identifies three ways people are different with some explanation and relevance.",
+      "Identifies four ways people are different with clear explanations and relevance.",
+      "Identifies five or more ways people are different with detailed explanations, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Responses are unclear and contain significant inaccuracies.",
+      "Responses are somewhat unclear with some inaccuracies.",
+      "Responses are generally clear but may contain minor inaccuracies.",
+      "Responses are clear and mostly accurate with only minor errors.",
+      "Responses are very clear, accurate, and well-organized.",
+      "Responses are exceptionally clear, accurate, insightful, and well-organized, demonstrating an advanced understanding."
+    ]
+  ]
+}

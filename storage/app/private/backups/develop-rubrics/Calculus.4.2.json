@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the derivative as an instantaneous rate of change",
+    "Ability to use derivatives to solve problems involving rate of change.",
+    "Application of derivatives in various fields (physics, chemistry, economics, etc.)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the derivative as an instantaneous rate of change.",
+      "Student demonstrates a minimal understanding of the derivative as an instantaneous rate of change, with significant gaps in knowledge.",
+      "Student demonstrates a basic understanding of the derivative as an instantaneous rate of change, but struggles to apply it in different contexts.",
+      "Student demonstrates a satisfactory understanding of the derivative as an instantaneous rate of change and can apply it in some contexts.",
+      "Student demonstrates a strong understanding of the derivative as an instantaneous rate of change and can apply it in various contexts with minor errors.",
+      "Student demonstrates a comprehensive understanding of the derivative as an instantaneous rate of change and can apply it accurately and effectively in a wide range of contexts."
+    ],
+    [
+      "Student cannot use derivatives to solve problems involving rate of change.",
+      "Student attempts to use derivatives to solve problems, but is unsuccessful and shows little progress.",
+      "Student can solve basic problems involving rate of change using derivatives, but struggles with more complex scenarios.",
+      "Student can solve a variety of problems involving rate of change using derivatives, but may make occasional errors.",
+      "Student can solve a wide range of problems involving rate of change using derivatives accurately and efficiently.",
+      "Student can solve complex and novel problems involving rate of change using derivatives with a high degree of accuracy and demonstrates a deep understanding of the underlying concepts."
+    ],
+    [
+      "Student cannot apply derivatives in any of the mentioned fields.",
+      "Student attempts to apply derivatives but is unsuccessful in all fields.",
+      "Student can apply derivatives in at least one field, but with limited success.",
+      "Student can apply derivatives in multiple fields with some degree of accuracy.",
+      "Student can apply derivatives effectively in various fields, showing a good understanding of the context.",
+      "Student can apply derivatives seamlessly and accurately across multiple fields, demonstrating a mastery of the concepts and their applications."
+    ]
+  ]
+}

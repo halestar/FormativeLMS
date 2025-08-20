@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Information Gathering and Source Use",
+    "Integration and Flow of Ideas",
+    "Avoiding Plagiarism and Citation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No information is gathered from sources, or sources are entirely irrelevant and\/or unreliable.",
+      "Minimal information is gathered, primarily from non-authoritative sources. Search strategies are basic and ineffective. Source relevance is not considered.",
+      "Some relevant information is gathered from a limited range of sources. Search strategies are somewhat effective. Source relevance is superficially addressed.",
+      "Relevant information is gathered from multiple sources, including some authoritative sources. Search strategies are generally effective. Source relevance is considered with some justification.",
+      "Relevant information is gathered from a variety of authoritative sources (print and digital). Advanced search strategies are used effectively. The usefulness of each source is assessed with clear reasoning.",
+      "Comprehensive and relevant information is gathered from a wide array of authoritative sources (primary and secondary, print and digital). Advanced search strategies are used expertly. The usefulness of each source is critically assessed with insightful justification."
+    ],
+    [
+      "Information is not integrated, or integration is haphazard and disrupts the flow of ideas.",
+      "Information is poorly integrated and disrupts the flow of ideas. Attempts at integration are minimal.",
+      "Information is integrated somewhat, but the flow of ideas is often disrupted.",
+      "Information is generally integrated well, with only minor disruptions to the flow of ideas.",
+      "Information is integrated selectively to maintain a smooth flow of ideas. Transitions are logical and enhance understanding.",
+      "Information is seamlessly integrated to create a cohesive and compelling flow of ideas. Synthesis of information is masterful, demonstrating a deep understanding of the research topic."
+    ],
+    [
+      "Plagiarism is evident, and\/or no attempt is made to cite sources.",
+      "Significant instances of plagiarism are present. Citation is attempted but is inaccurate or incomplete.",
+      "Some instances of plagiarism may be present. Citation is attempted but contains errors and omissions.",
+      "Plagiarism is largely avoided. Citation is mostly accurate, with only minor errors.",
+      "Plagiarism is avoided. Citation is accurate and follows a standard format consistently.",
+      "Plagiarism is meticulously avoided. Citation is flawless and adheres to a standard format with precision. The student demonstrates a sophisticated understanding of academic integrity."
+    ]
+  ]
+}

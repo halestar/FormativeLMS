@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Comprehension and Interpretation: Demonstrates understanding of spoken and written discourse in diverse contexts.",
+    "Effective Communication: Clearly articulates ideas and conveys messages effectively in spoken, written, or signed form.",
+    "Engagement and Collaboration: Actively participates in discussions and collaborates effectively with others.",
+    "Use of Text Types and Discourse: Employs a variety of text types and cohesive discourse in both informal and formal settings."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to understand basic points in discussions or texts; misinterprets information frequently.",
+      "Struggles to understand complex ideas and nuances; requires significant clarification.",
+      "Understands straightforward information and explicit meanings, but misses subtleties.",
+      "Generally comprehends main ideas and supporting details in various discussions.",
+      "Accurately interprets complex information and demonstrates a strong understanding of context.",
+      "Exhibits exceptional comprehension, interpreting nuanced meanings and drawing insightful conclusions."
+    ],
+    [
+      "Unable to express ideas coherently; communication is unclear and confusing.",
+      "Struggles to articulate thoughts and ideas; communication is difficult to follow.",
+      "Communicates simple ideas, but lacks clarity and precision; may use inappropriate language.",
+      "Expresses ideas adequately and conveys basic messages with reasonable clarity.",
+      "Communicates ideas clearly and effectively; uses precise language and appropriate tone.",
+      "Articulates ideas eloquently and persuasively; communication is highly effective and tailored to the audience."
+    ],
+    [
+      "Does not participate in discussions or collaborate with others.",
+      "Participates minimally and struggles to collaborate effectively.",
+      "Participates occasionally but does not always contribute meaningfully.",
+      "Participates regularly and collaborates adequately with others.",
+      "Actively engages in discussions and collaborates effectively with peers.",
+      "Leads discussions and fosters a collaborative environment with exceptional engagement."
+    ],
+    [
+      "Unable to use appropriate text types or create cohesive discourse.",
+      "Struggles to adapt communication style to different settings or employ different text types.",
+      "Uses limited text types and demonstrates some awareness of cohesive discourse.",
+      "Employs various text types and creates reasonably cohesive discourse in multiple settings.",
+      "Effectively uses a wide range of text types and creates cohesive discourse tailored to the context.",
+      "Masterfully employs a diverse array of text types and creates highly cohesive and impactful discourse."
+    ]
+  ]
+}

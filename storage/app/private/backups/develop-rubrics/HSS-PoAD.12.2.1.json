@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Bill of Rights",
+    "Explanation of how each right is secured",
+    "Depth of Discussion and Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the rights guaranteed under the Bill of Rights.",
+      "Shows limited awareness of the rights, with significant inaccuracies or omissions.",
+      "Identifies some of the rights but struggles to explain their meaning or importance.",
+      "Explains most of the rights guaranteed under the Bill of Rights with reasonable accuracy.",
+      "Clearly explains the meaning and importance of most rights guaranteed under the Bill of Rights, providing relevant examples.",
+      "Demonstrates a comprehensive understanding of all rights guaranteed under the Bill of Rights, explaining their meaning, importance, and historical context with clarity and insight."
+    ],
+    [
+      "Unable to explain how any of the rights are secured.",
+      "Offers vague or inaccurate explanations of how the rights are secured.",
+      "Describes some of the mechanisms that secure the rights, but with limited detail or accuracy.",
+      "Explains how most of the rights are secured, mentioning relevant legal and social mechanisms.",
+      "Clearly explains how each of the rights are secured, providing specific examples and demonstrating a strong understanding of the relevant legal and social mechanisms.",
+      "Provides a nuanced and comprehensive explanation of how each of the rights are secured, analyzing the effectiveness of different mechanisms and considering potential challenges to their protection."
+    ],
+    [
+      "Provides minimal discussion or analysis of the rights.",
+      "Offers superficial discussion with little analysis.",
+      "Engages in some discussion and analysis, but lacks depth or insight.",
+      "Presents a reasonably detailed discussion and analysis of the rights.",
+      "Demonstrates critical thinking and provides a well-supported analysis of the rights, considering different perspectives and potential implications.",
+      "Offers an exceptionally insightful and nuanced discussion and analysis of the rights, demonstrating a deep understanding of their complexities and significance in a democratic society."
+    ]
+  ]
+}

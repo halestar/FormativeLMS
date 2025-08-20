@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Data Representation",
+    "Pattern Identification",
+    "Explanation of Relationships",
+    "Use of Mathematical and Abstract Thinking"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to represent the data is made, or the representation is completely irrelevant to the prompt.",
+      "Data is presented in a format that is very difficult to interpret or is missing key elements (e.g., labels, units).",
+      "Data is represented, but there are significant errors or omissions that affect the interpretation.",
+      "Data is adequately represented in a graphical display, but there are minor inaccuracies or areas for improvement in clarity.",
+      "Data is accurately and clearly represented in a graphical display with appropriate labels, units, and scales.",
+      "Data is exceptionally well-represented in a graphical display that is easy to interpret, effectively communicates patterns, and demonstrates a sophisticated understanding of data representation principles."
+    ],
+    [
+      "No patterns are identified, or the identified patterns are unrelated to the data.",
+      "An attempt to identify patterns is made, but it is unclear or inaccurate.",
+      "Some relevant patterns are identified, but the explanation is incomplete or contains errors.",
+      "Relevant patterns in daily changes are identified and described with reasonable accuracy.",
+      "Relevant patterns in daily changes in length and direction of shadows, day and night, and the seasonal appearance of some stars in the night sky are clearly identified and accurately described.",
+      "Comprehensive and insightful identification of patterns in daily changes is provided, demonstrating a deep understanding of the relationships between the Earth, sun, moon, and stars."
+    ],
+    [
+      "No attempt to explain the relationships between the Earth, sun, and moon is made, or the explanation is completely incorrect.",
+      "An attempt to explain the relationships is made, but it is unclear, contains significant errors, or is irrelevant.",
+      "A basic explanation of the relationships is provided, but it is incomplete or contains inaccuracies.",
+      "The relationship between Earth's rotation and the patterns of day and night is adequately explained.",
+      "The relationships between Earth's rotation, orbit, and the patterns of day and night, changes in shadows, and seasonal appearance of stars are clearly and accurately explained.",
+      "A sophisticated and insightful explanation of the relationships between Earth's movements and the observed patterns is provided, demonstrating a comprehensive understanding of the concepts."
+    ],
+    [
+      "No application of mathematical reasoning or abstract thinking is apparent.",
+      "An attempt to use mathematical reasoning or abstract thinking is made, but it is unclear, inaccurate, or inappropriate.",
+      "Mathematical reasoning or abstract thinking is used, but there are significant errors or omissions.",
+      "Mathematical reasoning is applied to interpret data, but the connection to abstract concepts is not well-developed.",
+      "Mathematical reasoning is effectively used to interpret data and model the relationships, demonstrating abstract thinking.",
+      "Sophisticated mathematical reasoning and abstract thinking are seamlessly integrated to provide a deep and insightful analysis of the data and relationships."
+    ]
+  ]
+}

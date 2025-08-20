@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Argument and Claims",
+    "Evaluation of Reasoning Soundness",
+    "Assessment of Evidence Relevance and Sufficiency",
+    "Understanding and Identification of Speaker's Attitude"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the speaker's main argument or any specific claims.",
+      "Identifies the speaker's main argument vaguely and struggles to identify specific claims.",
+      "Identifies the speaker's main argument and some specific claims, but with limited accuracy.",
+      "Identifies the speaker's main argument and most specific claims accurately.",
+      "Clearly and accurately identifies the speaker's main argument and all significant specific claims.",
+      "Identifies the speaker's main argument and specific claims with insightful detail and precision."
+    ],
+    [
+      "Unable to evaluate the soundness of the speaker's reasoning.",
+      "Attempts to evaluate the reasoning but demonstrates a lack of understanding.",
+      "Offers a superficial evaluation of the reasoning's soundness, with limited justification.",
+      "Evaluates the soundness of the reasoning with some justification, identifying some strengths or weaknesses.",
+      "Provides a well-reasoned evaluation of the soundness of the speaker's reasoning, identifying clear strengths and weaknesses.",
+      "Offers a nuanced and insightful evaluation of the reasoning's soundness, considering complexities and potential biases."
+    ],
+    [
+      "Fails to assess the relevance or sufficiency of the evidence presented.",
+      "Attempts to assess the evidence but struggles to determine its relevance or sufficiency.",
+      "Offers a weak assessment of the evidence's relevance and sufficiency, with little supporting detail.",
+      "Assesses the relevance and sufficiency of the evidence, providing some examples to support claims.",
+      "Provides a thorough assessment of the evidence's relevance and sufficiency, with specific examples and explanations.",
+      "Offers a comprehensive and insightful assessment of the evidence, considering its quality, context, and potential limitations."
+    ],
+    [
+      "Unable to identify the speaker's attitude toward the subject.",
+      "Attempts to identify the speaker's attitude but demonstrates a lack of understanding.",
+      "Offers a superficial description of the speaker's attitude, with limited justification.",
+      "Identifies the speaker's attitude and provides some evidence to support the interpretation.",
+      "Clearly identifies the speaker's attitude and provides convincing evidence from the text or speech to support the interpretation.",
+      "Offers a nuanced and insightful analysis of the speaker's attitude, considering complexities and potential subtleties."
+    ]
+  ]
+}

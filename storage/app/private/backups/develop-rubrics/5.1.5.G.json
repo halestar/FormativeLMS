@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Describing HIV Transmission Methods",
+    "Accuracy of Describing HIV Non-Transmission Methods",
+    "Clarity and Precision of Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of HIV transmission or provides incorrect information.",
+      "The student identifies only one accurate method of HIV transmission and\/or includes significant inaccuracies.",
+      "The student identifies some accurate methods of HIV transmission but includes inaccuracies or omits important information.",
+      "The student accurately describes several methods of HIV transmission, but there may be minor omissions or lack of detail.",
+      "The student thoroughly and accurately describes most methods of HIV transmission, demonstrating a solid understanding.",
+      "The student comprehensively and accurately describes various methods of HIV transmission, demonstrating a thorough and nuanced understanding."
+    ],
+    [
+      "The student demonstrates no understanding of how HIV is not transmitted or provides incorrect information.",
+      "The student identifies only one accurate method of HIV non-transmission and\/or includes significant inaccuracies.",
+      "The student identifies some accurate methods of HIV non-transmission but includes inaccuracies or omits important information.",
+      "The student accurately describes several methods of HIV non-transmission, but there may be minor omissions or lack of detail.",
+      "The student thoroughly and accurately describes most methods of HIV non-transmission, demonstrating a solid understanding.",
+      "The student comprehensively and accurately describes various methods of HIV non-transmission, demonstrating a thorough and nuanced understanding."
+    ],
+    [
+      "The student's description is unclear, confusing, and uses imprecise language.",
+      "The student's description is somewhat unclear and uses imprecise language in several instances.",
+      "The student's description is generally clear but contains some instances of imprecise language or jargon.",
+      "The student's description is clear and uses precise language most of the time.",
+      "The student's description is clear, concise, and uses precise language throughout.",
+      "The student's description is exceptionally clear, concise, and uses precise, sophisticated language to convey complex information effectively."
+    ]
+  ]
+}

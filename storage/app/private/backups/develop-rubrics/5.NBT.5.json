@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Multiplication",
+    "Application of the Standard Algorithm",
+    "Understanding of Place Value"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of multi-digit multiplication; answers are consistently incorrect.",
+      "Makes frequent errors in multiplication facts and\/or algorithm steps, leading to incorrect answers.",
+      "Makes several errors in multiplication facts or algorithm steps, impacting the accuracy of the final answer.",
+      "Makes occasional errors in multiplication facts or algorithm steps, but generally arrives at a correct answer.",
+      "Consistently multiplies multi-digit numbers correctly with minimal errors, demonstrating a strong understanding of the algorithm.",
+      "Fluently and accurately multiplies multi-digit numbers, demonstrating a comprehensive understanding of the standard algorithm with no errors."
+    ],
+    [
+      "Does not attempt to use the standard algorithm or uses it incorrectly, showing no understanding of its structure.",
+      "Attempts to use the standard algorithm but struggles with the steps and organization, leading to frequent errors.",
+      "Shows some understanding of the standard algorithm but makes mistakes in the process, such as incorrect place value alignment or carrying.",
+      "Generally applies the standard algorithm correctly, with only minor errors in place value or carrying.",
+      "Applies the standard algorithm effectively and correctly, demonstrating a solid understanding of the procedure.",
+      "Applies the standard algorithm fluently and efficiently, demonstrating a mastery of the procedure with clear and organized steps."
+    ],
+    [
+      "Demonstrates no understanding of place value concepts in the context of multi-digit multiplication.",
+      "Shows limited understanding of place value, resulting in misalignment of numbers and incorrect partial products.",
+      "Shows some understanding of place value but struggles to correctly align numbers and calculate partial products.",
+      "Generally understands place value and correctly aligns numbers, but may make occasional errors in calculating partial products.",
+      "Demonstrates a strong understanding of place value, correctly aligning numbers and calculating accurate partial products.",
+      "Demonstrates a thorough understanding of place value, accurately and consistently aligning numbers and calculating partial products to achieve correct solutions."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Point of View or Cultural Experience",
+    "Analysis of Point of View or Cultural Experience",
+    "Connection to World Literature",
+    "Use of Evidence and Support"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify a point of view or cultural experience within the selected work of literature.",
+      "The student identifies a point of view or cultural experience, but the connection to the text is vague or unsupported.",
+      "The student identifies a point of view or cultural experience, providing a superficial connection to the text.",
+      "The student identifies a point of view or cultural experience, providing a clear and relevant connection to the text.",
+      "The student identifies a point of view or cultural experience, providing a well-supported and insightful connection to the text.",
+      "The student identifies a point of view or cultural experience, providing a nuanced, insightful, and thoroughly supported connection to the text, demonstrating a deep understanding."
+    ],
+    [
+      "The student provides no analysis of the identified point of view or cultural experience.",
+      "The student attempts to analyze the point of view or cultural experience, but the analysis is unclear or lacks depth.",
+      "The student provides a basic analysis of the point of view or cultural experience with limited supporting evidence.",
+      "The student provides a detailed analysis of the point of view or cultural experience, using relevant supporting evidence from the text.",
+      "The student provides a comprehensive analysis of the point of view or cultural experience, using strong supporting evidence and demonstrating critical thinking.",
+      "The student provides an exceptional analysis of the point of view or cultural experience, demonstrating sophisticated critical thinking, nuanced understanding, and compelling supporting evidence."
+    ],
+    [
+      "The student fails to connect the analysis to the broader context of world literature.",
+      "The student attempts to connect the analysis to world literature, but the connection is unclear or irrelevant.",
+      "The student makes a superficial connection to world literature without providing sufficient context or explanation.",
+      "The student connects the analysis to world literature, providing relevant context and explanation.",
+      "The student effectively connects the analysis to world literature, demonstrating a broader understanding of literary themes and cultural contexts.",
+      "The student skillfully connects the analysis to world literature, demonstrating a sophisticated understanding of diverse literary traditions and cultural perspectives, enriching the overall interpretation."
+    ],
+    [
+      "The student provides no evidence or support from the text or external sources.",
+      "The student provides minimal and\/or irrelevant evidence or support.",
+      "The student provides some evidence or support, but it is weak or loosely connected to the analysis.",
+      "The student provides relevant evidence and support to strengthen the analysis.",
+      "The student provides strong and well-integrated evidence and support to enhance the analysis.",
+      "The student provides compelling and insightful evidence and support, seamlessly integrated to create a highly persuasive and nuanced analysis."
+    ]
+  ]
+}

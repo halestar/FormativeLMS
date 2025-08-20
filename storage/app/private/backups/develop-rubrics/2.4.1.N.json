@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Respect in Communication",
+    "Understanding of Healthy Options",
+    "Persuasion and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student's request is unclear, disrespectful, or nonexistent.",
+      "The student's request lacks clarity and\/or respect.",
+      "The student's request is somewhat clear and respectful, but there are some issues.",
+      "The student's request is clear and respectful, but there is room for improvement.",
+      "The student's request is clear, respectful, and shows effort to engage the family member.",
+      "The student's request is exceptionally clear, respectful, and tailored to engage the family member effectively in considering healthier options."
+    ],
+    [
+      "The student does not suggest or understand healthy food options.",
+      "The student demonstrates minimal understanding of healthy food options.",
+      "The student suggests some healthy food options, but they are not well-explained or justified.",
+      "The student suggests reasonable healthy food options with some justification.",
+      "The student clearly understands and suggests appropriate healthy food options, explaining why they are healthy.",
+      "The student demonstrates a deep understanding of nutrition and suggests innovative, healthy food options, providing thorough justifications and considering dietary needs or preferences."
+    ],
+    [
+      "The student does not attempt to persuade or justify their request.",
+      "The student's attempt to persuade or justify is weak and unconvincing.",
+      "The student offers a basic justification, but it is not very persuasive.",
+      "The student provides a reasonable justification for choosing healthy options.",
+      "The student provides a compelling justification, addressing potential concerns or objections.",
+      "The student skillfully persuades and justifies the request with detailed evidence, anticipating and addressing any counterarguments effectively."
+    ]
+  ]
+}

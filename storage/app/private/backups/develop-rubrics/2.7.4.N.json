@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Nutritional Criteria",
+    "Application of Criteria to Snack Choices",
+    "Consideration of Portion Size and Frequency"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the criteria for choosing a nutritious snack.",
+      "Identifies one basic criterion for choosing a nutritious snack, but with limited accuracy.",
+      "Identifies some criteria for choosing a nutritious snack, but lacks detail or has inaccuracies.",
+      "Identifies several criteria for choosing a nutritious snack with reasonable accuracy and detail.",
+      "Clearly identifies and explains most of the important criteria for choosing a nutritious snack with accuracy and detail.",
+      "Comprehensively identifies and explains all important criteria for choosing a nutritious snack with excellent accuracy, detail, and insight."
+    ],
+    [
+      "Unable to apply any nutritional criteria to snack choices.",
+      "Attempts to apply nutritional criteria to snack choices, but application is incorrect or irrelevant.",
+      "Applies some nutritional criteria to snack choices, but application is inconsistent or partially accurate.",
+      "Generally applies nutritional criteria appropriately to snack choices, with minor inconsistencies.",
+      "Consistently and accurately applies nutritional criteria to snack choices, providing clear justifications.",
+      "Masterfully applies nutritional criteria to snack choices, providing insightful justifications and demonstrating a deep understanding of nutritional impact."
+    ],
+    [
+      "Does not consider portion size or frequency when evaluating snack choices.",
+      "Mentions portion size or frequency, but does not integrate it into the evaluation of snack choices.",
+      "Briefly considers portion size or frequency, but lacks depth in the evaluation.",
+      "Adequately considers portion size and frequency when evaluating snack choices.",
+      "Clearly considers and explains the importance of portion size and frequency in making nutritious snack choices.",
+      "Demonstrates a comprehensive understanding of how portion size and frequency impact the nutritional value of snack choices, providing nuanced insights."
+    ]
+  ]
+}

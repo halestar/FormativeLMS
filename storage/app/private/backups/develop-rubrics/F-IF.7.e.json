@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Graphing Exponential and Logarithmic Functions",
+    "Accuracy of Graphing Trigonometric Functions",
+    "Identification and Labeling of Key Features"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to graph exponential or logarithmic functions, or the attempt shows no understanding of the functions' basic shapes.",
+      "The student attempts to graph the functions but makes significant errors in plotting points or identifying key features such as intercepts.",
+      "The student graphs the functions with some errors in plotting points or identifying intercepts. The overall shape of the graph is recognizable but not accurate.",
+      "The student accurately graphs either an exponential or a logarithmic function, showing intercepts and a generally correct shape, but struggles with the other function type.",
+      "The student accurately graphs both exponential and logarithmic functions, showing intercepts and generally correct shapes, but may have minor errors in scaling or labeling.",
+      "The student precisely graphs both exponential and logarithmic functions, correctly showing intercepts, end behavior, and accurate scaling. Graphs are clear and well-labeled."
+    ],
+    [
+      "The student does not attempt to graph trigonometric functions, or the attempt shows no understanding of the functions' periodic nature.",
+      "The student attempts to graph trigonometric functions but makes significant errors in plotting points or identifying key features such as period, midline, or amplitude.",
+      "The student graphs trigonometric functions with some errors in plotting points or identifying key features. The periodic nature of the graph is recognizable but not accurate.",
+      "The student accurately graphs one trigonometric function (sine, cosine, or tangent), showing period, midline, and amplitude, but struggles with the other function types.",
+      "The student accurately graphs multiple trigonometric functions, showing period, midline, and amplitude, but may have minor errors in scaling or labeling.",
+      "The student precisely graphs trigonometric functions, correctly showing period, midline, amplitude, and accurate scaling. Graphs are clear, well-labeled, and demonstrate a strong understanding of trigonometric behavior."
+    ],
+    [
+      "The student does not identify or label any key features of the graphs.",
+      "The student attempts to identify key features but misidentifies or incorrectly labels them.",
+      "The student identifies some key features but misses others or provides incomplete labeling.",
+      "The student identifies and labels most key features of the graphs, such as intercepts, period, midline, and amplitude, with minor errors.",
+      "The student correctly identifies and labels all key features of the graphs, but the presentation may lack clarity.",
+      "The student precisely identifies and clearly labels all key features of the graphs, demonstrating a comprehensive understanding of their significance."
+    ]
+  ]
+}

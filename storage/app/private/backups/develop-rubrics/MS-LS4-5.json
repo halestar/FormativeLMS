@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Artificial Selection",
+    "Gathering and Synthesizing Information",
+    "Impact of Technology on Inheritance",
+    "Cause and Effect Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of artificial selection is demonstrated.",
+      "Demonstrates a minimal understanding of artificial selection, with significant inaccuracies.",
+      "Demonstrates a partial understanding of artificial selection but lacks depth or clarity.",
+      "Demonstrates a satisfactory understanding of artificial selection, including its basic principles.",
+      "Demonstrates a strong understanding of artificial selection, including specific examples and applications.",
+      "Demonstrates a comprehensive understanding of artificial selection, including its nuances, ethical considerations, and historical context."
+    ],
+    [
+      "No information is gathered or synthesized.",
+      "Gathers information from a single unreliable source, with no attempt at synthesis.",
+      "Gathers information from multiple sources, but synthesis is minimal or inaccurate.",
+      "Gathers and synthesizes information from multiple sources, but some sources may be unreliable or biased.",
+      "Gathers and synthesizes information from multiple reliable sources, demonstrating an ability to identify and address potential biases.",
+      "Gathers and synthesizes information from multiple reliable sources, demonstrating a sophisticated ability to evaluate credibility, accuracy, and bias, and to integrate information into a coherent whole."
+    ],
+    [
+      "No understanding of the impact of technology is demonstrated.",
+      "Demonstrates a minimal understanding of how technology influences inheritance, with significant inaccuracies.",
+      "Demonstrates a partial understanding of how technology influences inheritance but lacks depth or clarity.",
+      "Demonstrates a satisfactory understanding of how technology influences inheritance, including at least one specific example.",
+      "Demonstrates a strong understanding of how technology influences inheritance, including multiple specific examples and their societal impacts.",
+      "Demonstrates a comprehensive understanding of how technology influences inheritance, including its nuances, ethical considerations, societal impacts, and potential future developments."
+    ],
+    [
+      "No cause and effect relationships related to the topic are identified.",
+      "Identifies a single cause and effect relationship, but it is inaccurate or poorly explained.",
+      "Identifies multiple cause and effect relationships, but the connections are weak or unclear.",
+      "Identifies multiple cause and effect relationships and explains them adequately.",
+      "Identifies and explains multiple complex cause and effect relationships, including the role of probability.",
+      "Demonstrates a sophisticated understanding of complex cause and effect relationships, including the role of probability and the potential for unintended consequences."
+    ]
+  ]
+}

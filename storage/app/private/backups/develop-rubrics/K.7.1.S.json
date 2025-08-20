@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Safety Rules",
+    "Adherence to Safety Routines",
+    "Response to Unsafe Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the safety rules for play or safety routines.",
+      "The student shows a minimal understanding of safety rules, often requiring reminders and corrections.",
+      "The student demonstrates a basic understanding of safety rules but occasionally needs prompting to follow them.",
+      "The student generally understands and follows safety rules with minor inconsistencies.",
+      "The student consistently understands and follows safety rules, demonstrating good awareness.",
+      "The student demonstrates a comprehensive understanding of safety rules, proactively promoting safety and correcting others when necessary."
+    ],
+    [
+      "The student does not follow any safety routines.",
+      "The student inconsistently follows safety routines and needs constant supervision.",
+      "The student follows some safety routines but needs frequent reminders.",
+      "The student generally follows safety routines with occasional lapses.",
+      "The student consistently follows safety routines, demonstrating self-discipline.",
+      "The student meticulously follows all safety routines and encourages others to do the same, acting as a role model."
+    ],
+    [
+      "The student does not recognize or respond to unsafe situations.",
+      "The student rarely recognizes unsafe situations and does not know how to respond appropriately.",
+      "The student recognizes some unsafe situations but struggles to respond effectively.",
+      "The student usually recognizes unsafe situations and responds adequately.",
+      "The student consistently recognizes unsafe situations and responds appropriately, showing quick thinking.",
+      "The student anticipates and prevents unsafe situations, demonstrating exceptional awareness and responsibility."
+    ]
+  ]
+}

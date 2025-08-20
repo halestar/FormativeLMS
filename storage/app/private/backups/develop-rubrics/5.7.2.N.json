@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Sanitary Food Preparation",
+    "Sanitary Food Storage",
+    "Nutritional Balance",
+    "Recipe Following & Preparation Quality"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of sanitary food preparation practices; cross-contamination is evident.",
+      "Demonstrates minimal understanding of sanitary food preparation; several unsafe practices observed.",
+      "Demonstrates some understanding of sanitary food preparation; some unsafe practices observed.",
+      "Demonstrates satisfactory understanding of sanitary food preparation; minor unsafe practices observed.",
+      "Demonstrates good understanding of sanitary food preparation; safe practices mostly observed.",
+      "Demonstrates excellent understanding of sanitary food preparation; consistently uses safe and sanitary practices."
+    ],
+    [
+      "Demonstrates no understanding of sanitary food storage practices; food is stored incorrectly and unsafely.",
+      "Demonstrates minimal understanding of sanitary food storage; food storage is mostly incorrect and unsafe.",
+      "Demonstrates some understanding of sanitary food storage; some food storage practices are incorrect or unsafe.",
+      "Demonstrates satisfactory understanding of sanitary food storage; most food storage practices are safe and correct.",
+      "Demonstrates good understanding of sanitary food storage; food is stored safely and correctly with few exceptions.",
+      "Demonstrates excellent understanding of sanitary food storage; food is consistently stored safely and correctly."
+    ],
+    [
+      "Meal\/snack lacks nutritional value; consists primarily of unhealthy ingredients.",
+      "Meal\/snack has minimal nutritional value; heavily imbalanced with few healthy ingredients.",
+      "Meal\/snack demonstrates some nutritional awareness; contains some healthy elements but lacks balance.",
+      "Meal\/snack is reasonably nutritious; contains a mix of healthy and less healthy ingredients with a decent balance.",
+      "Meal\/snack is nutritious and well-balanced; contains a variety of healthy ingredients in appropriate proportions.",
+      "Meal\/snack is exceptionally nutritious and balanced; optimized for health with a wide range of beneficial ingredients."
+    ],
+    [
+      "Unable to follow a recipe; final product is inedible or significantly different from the intended outcome.",
+      "Struggles to follow a recipe; several errors made that negatively impact the final product.",
+      "Follows the recipe with some difficulty; some minor errors or substitutions affect the final product.",
+      "Adequately follows the recipe; final product is acceptable but could be improved.",
+      "Follows the recipe well; final product is appealing and accurately reflects the intended outcome.",
+      "Demonstrates excellent recipe following skills; final product is of high quality, well-presented, and delicious."
+    ]
+  ]
+}

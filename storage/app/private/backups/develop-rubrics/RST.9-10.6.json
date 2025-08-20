@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Author's Purpose",
+    "Analysis of Author's Methods",
+    "Definition of the Question Addressed"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the author's purpose or provides an inaccurate purpose statement.",
+      "Identifies the author's purpose vaguely or with limited accuracy.",
+      "Identifies the author's purpose but lacks depth in explaining its significance.",
+      "Clearly identifies the author's purpose in providing an explanation, procedure, or experiment.",
+      "Accurately identifies the author's purpose and provides a solid understanding of its role in the text.",
+      "Insightfully identifies the author's purpose, explaining its nuances and impact on the text's message and audience."
+    ],
+    [
+      "Does not analyze the author's methods or provides an irrelevant analysis.",
+      "Attempts to analyze the author's methods, but the analysis is superficial or unclear.",
+      "Identifies some of the author's methods without explaining how they serve the author's purpose.",
+      "Analyzes the author's methods (explanation, procedure, experiment) and connects them to the author's purpose.",
+      "Provides a detailed analysis of the author's methods, explaining how these choices effectively contribute to the text's purpose.",
+      "Offers a sophisticated analysis of the author's methods, demonstrating a deep understanding of how these choices shape the text and influence the reader's understanding."
+    ],
+    [
+      "Fails to define the question the author seeks to address or provides an unrelated question.",
+      "Attempts to define the question, but the definition is vague or inaccurate.",
+      "Defines the question the author addresses but does not fully explain its relevance to the text.",
+      "Clearly defines the question the author seeks to address in the text.",
+      "Accurately defines the question and explains its significance in the context of the author's purpose.",
+      "Insightfully defines the question, exploring its complexities and implications for the author's argument or explanation."
+    ]
+  ]
+}

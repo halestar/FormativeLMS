@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness in promoting safety behaviors among peers.",
+    "Clarity and accuracy of information provided about safety.",
+    "Consistency in demonstrating and advocating for safety in various situations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to encourage safety behaviors; may even discourage them.",
+      "Rarely encourages safety behaviors; minimal effort.",
+      "Inconsistently encourages safety behaviors; some effort shown.",
+      "Consistently encourages safety behaviors with moderate effectiveness; demonstrates understanding of safety.",
+      "Effectively encourages safety behaviors, positively influencing peers; shows strong understanding.",
+      "Highly effective in promoting and reinforcing safety behaviors, serving as a role model and significantly impacting peer choices."
+    ],
+    [
+      "Provides inaccurate or misleading information about safety behaviors.",
+      "Information about safety is unclear or partially incorrect.",
+      "Provides mostly accurate information, but lacks detail or clarity.",
+      "Provides clear and accurate information about safety behaviors.",
+      "Provides detailed, accurate, and compelling information about safety behaviors.",
+      "Presents exceptionally clear, accurate, and persuasive information, tailored effectively to the audience, promoting deep understanding and adoption of safety behaviors."
+    ],
+    [
+      "Never demonstrates or advocates for safety.",
+      "Rarely demonstrates or advocates for safety; only in prompted situations.",
+      "Demonstrates safety inconsistently, with limited advocacy.",
+      "Consistently demonstrates and advocates for safety in familiar situations.",
+      "Proactively demonstrates and advocates for safety across diverse situations, adapting approach as needed.",
+      "Serves as a constant advocate for safety, creatively applying strategies across all situations and inspiring others to prioritize safety."
+    ]
+  ]
+}

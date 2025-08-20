@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Characteristics",
+    "Distinguishing Between Friends and Adults",
+    "Relevance to Health and Well-being"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any characteristics of a trusted friend or adult.",
+      "The student identifies one or two basic characteristics of a trusted friend or adult.",
+      "The student identifies some characteristics, but they are vague or not clearly linked to trust.",
+      "The student identifies several relevant characteristics of a trusted friend and adult, providing some explanation.",
+      "The student clearly and accurately identifies several important characteristics of a trusted friend and adult, providing good explanations.",
+      "The student comprehensively and insightfully identifies key characteristics of a trusted friend and adult, providing detailed explanations and examples."
+    ],
+    [
+      "The student makes no distinction between the characteristics of a trusted friend and a trusted adult.",
+      "The student struggles to differentiate between the characteristics of a trusted friend and adult.",
+      "The student attempts to differentiate between friend and adult characteristics, but the distinctions are unclear.",
+      "The student identifies some differences between the characteristics of a trusted friend and adult.",
+      "The student clearly distinguishes between the characteristics of a trusted friend and adult, providing relevant explanations.",
+      "The student clearly and insightfully distinguishes between the characteristics of a trusted friend and adult, explaining the reasons for these differences."
+    ],
+    [
+      "The student does not connect the characteristics to health or well-being.",
+      "The student vaguely mentions a connection to health or well-being.",
+      "The student makes a superficial connection between some characteristics and health or well-being.",
+      "The student explains how several characteristics relate to health and well-being.",
+      "The student clearly explains how the identified characteristics are important for maintaining health and well-being.",
+      "The student provides a comprehensive and insightful explanation of how the characteristics of trusted friends and adults contribute to overall health and well-being, including mental and emotional aspects."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Establishment Clause",
+    "Understanding of the Free Exercise Clause",
+    "Understanding of the separation of church and state debate",
+    "Ability to articulate principles of religious liberty"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Establishment Clause.",
+      "Demonstrates a minimal understanding of the Establishment Clause, with significant inaccuracies.",
+      "Demonstrates a basic understanding of the Establishment Clause, but with some gaps in knowledge.",
+      "Demonstrates a satisfactory understanding of the Establishment Clause, with minor inaccuracies.",
+      "Demonstrates a strong understanding of the Establishment Clause, with few inaccuracies.",
+      "Demonstrates a comprehensive and nuanced understanding of the Establishment Clause, including its historical context and contemporary relevance."
+    ],
+    [
+      "Demonstrates no understanding of the Free Exercise Clause.",
+      "Demonstrates a minimal understanding of the Free Exercise Clause, with significant inaccuracies.",
+      "Demonstrates a basic understanding of the Free Exercise Clause, but with some gaps in knowledge.",
+      "Demonstrates a satisfactory understanding of the Free Exercise Clause, with minor inaccuracies.",
+      "Demonstrates a strong understanding of the Free Exercise Clause, with few inaccuracies.",
+      "Demonstrates a comprehensive and nuanced understanding of the Free Exercise Clause, including its historical context and contemporary relevance."
+    ],
+    [
+      "Demonstrates no understanding of the debate on the separation of church and state.",
+      "Demonstrates a minimal understanding of the debate on the separation of church and state, with significant inaccuracies.",
+      "Demonstrates a basic understanding of the debate on the separation of church and state, but with some gaps in knowledge.",
+      "Demonstrates a satisfactory understanding of the debate on the separation of church and state, with minor inaccuracies.",
+      "Demonstrates a strong understanding of the debate on the separation of church and state, with few inaccuracies.",
+      "Demonstrates a comprehensive and nuanced understanding of the debate on the separation of church and state, including its historical context and contemporary relevance."
+    ],
+    [
+      "Unable to articulate any principles of religious liberty.",
+      "Struggles to articulate principles of religious liberty, with significant inaccuracies.",
+      "Articulates principles of religious liberty with some difficulty and gaps in explanation.",
+      "Articulates principles of religious liberty satisfactorily, with minor inaccuracies.",
+      "Articulates principles of religious liberty clearly and accurately, with few inaccuracies.",
+      "Articulates principles of religious liberty clearly, accurately, and insightfully, demonstrating a sophisticated understanding."
+    ]
+  ]
+}

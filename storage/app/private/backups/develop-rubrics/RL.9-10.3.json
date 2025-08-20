@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Character Development Analysis",
+    "Interaction with Other Characters",
+    "Advancement of Plot and Theme"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify or analyze any character development.",
+      "The student identifies a character but offers minimal analysis of their development.",
+      "The student identifies a character and offers a basic analysis of their development, but lacks depth or specific examples.",
+      "The student analyzes a character's development with some depth, providing relevant examples from the text.",
+      "The student thoroughly analyzes a character's complex development with specific textual evidence, demonstrating a strong understanding.",
+      "The student provides an insightful and nuanced analysis of a character's complex development, using textual evidence effectively and demonstrating a sophisticated understanding."
+    ],
+    [
+      "The student fails to discuss how the character interacts with others.",
+      "The student mentions interactions but provides no analysis.",
+      "The student describes how the character interacts with other characters in a superficial way.",
+      "The student analyzes how the character interacts with other characters, showing how these interactions influence them.",
+      "The student analyzes how the character interacts with other characters, providing insightful observations on how these interactions shape the character and other characters.",
+      "The student offers a comprehensive and insightful analysis of the character's interactions, demonstrating a deep understanding of their impact on both the character and the narrative."
+    ],
+    [
+      "The student does not connect character development to the plot or theme.",
+      "The student makes a vague connection between character and plot or theme.",
+      "The student identifies how the character advances the plot or develops the theme, but with limited explanation.",
+      "The student explains how the character's development is related to the advancement of the plot or development of the theme.",
+      "The student analyzes how the character's complex development significantly advances the plot or deepens the theme, with clear reasoning and textual examples.",
+      "The student provides a compelling and original analysis of how the character's development intricately advances the plot and enriches the theme, demonstrating a masterful understanding of the text."
+    ]
+  ]
+}

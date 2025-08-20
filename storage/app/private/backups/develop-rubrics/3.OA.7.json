@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Multiplication Facts",
+    "Accuracy of Division Facts",
+    "Application of Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to recall or apply multiplication facts within 100.",
+      "Student recalls few multiplication facts correctly and struggles significantly with fluency.",
+      "Student recalls some multiplication facts correctly but is slow and makes frequent errors.",
+      "Student recalls most multiplication facts correctly with occasional errors and hesitations.",
+      "Student recalls multiplication facts accurately and fluently with few errors.",
+      "Student demonstrates mastery of multiplication facts within 100 with speed and accuracy, and can apply them in problem-solving."
+    ],
+    [
+      "Student is unable to recall or apply division facts within 100.",
+      "Student recalls few division facts correctly and struggles significantly with fluency.",
+      "Student recalls some division facts correctly but is slow and makes frequent errors.",
+      "Student recalls most division facts correctly with occasional errors and hesitations.",
+      "Student recalls division facts accurately and fluently with few errors.",
+      "Student demonstrates mastery of division facts within 100 with speed and accuracy, and can apply them in problem-solving."
+    ],
+    [
+      "Student does not attempt to use strategies or understand the relationship between multiplication and division.",
+      "Student attempts to use strategies but applies them incorrectly or inefficiently.",
+      "Student uses some strategies with limited success, showing partial understanding of the relationship between multiplication and division.",
+      "Student uses appropriate strategies to solve multiplication and division problems, demonstrating understanding of their relationship.",
+      "Student effectively uses a variety of strategies to solve multiplication and division problems efficiently.",
+      "Student creatively and flexibly applies strategies to solve complex multiplication and division problems, demonstrating a deep understanding of their relationship."
+    ]
+  ]
+}

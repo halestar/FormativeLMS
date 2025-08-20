@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifying situations that require help from a trusted adult.",
+    "Explaining the importance of seeking help from trusted adults in specific scenarios.",
+    "Distinguishing between situations that require adult help and those that can be handled independently."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any situations requiring help from a trusted adult.",
+      "Identifies one situation with significant inaccuracies or irrelevance.",
+      "Identifies one situation with minor inaccuracies or limited relevance.",
+      "Identifies two situations that could benefit from adult intervention.",
+      "Identifies three relevant situations demonstrating good understanding.",
+      "Identifies multiple relevant situations, demonstrating thorough understanding and nuanced application."
+    ],
+    [
+      "Unable to explain why a trusted adult's help would be needed.",
+      "Offers a vague or inaccurate explanation of the importance.",
+      "Provides a basic explanation with limited reasoning.",
+      "Explains the importance of seeking help in the identified scenarios with reasonable clarity.",
+      "Clearly explains the importance of adult intervention, providing sound reasoning.",
+      "Provides a comprehensive and insightful explanation, demonstrating a deep understanding of the benefits of seeking help from trusted adults."
+    ],
+    [
+      "Unable to differentiate between situations requiring adult help and those that do not.",
+      "Shows confusion or inaccurate judgment in distinguishing situations.",
+      "Distinguishes with limited accuracy, showing some inconsistencies.",
+      "Generally distinguishes between situations appropriately, with minor lapses.",
+      "Consistently distinguishes between situations requiring adult help and those that do not, demonstrating sound judgment.",
+      "Demonstrates exceptional ability to differentiate situations, providing nuanced reasoning for their decisions."
+    ]
+  ]
+}

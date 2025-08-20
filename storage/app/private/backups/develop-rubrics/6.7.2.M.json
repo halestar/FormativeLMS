@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Stressors",
+    "Application of Stress Management Techniques",
+    "Evaluation of Technique Effectiveness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any stressors or provides inaccurate information.",
+      "Student identifies 1-2 stressors with limited accuracy.",
+      "Student identifies 3-4 stressors with some inaccuracies.",
+      "Student identifies 3-4 stressors accurately and generally understands their impact.",
+      "Student identifies multiple stressors accurately and explains their impact on well-being.",
+      "Student comprehensively identifies various stressors, accurately explains their impact, and demonstrates insightful understanding of personal triggers."
+    ],
+    [
+      "Student does not suggest or attempt any stress management techniques.",
+      "Student suggests one ineffective or inappropriate stress management technique.",
+      "Student suggests 1-2 basic stress management techniques but struggles with application.",
+      "Student lists 2-3 stress management techniques and can generally describe how to use them.",
+      "Student appropriately applies several stress management techniques, showing some understanding of their effectiveness.",
+      "Student skillfully and creatively applies a variety of stress management techniques, demonstrating a clear understanding of their personal effectiveness and making adjustments as necessary."
+    ],
+    [
+      "Student does not attempt to evaluate the effectiveness of any stress management techniques.",
+      "Student provides a vague or inaccurate evaluation of technique effectiveness.",
+      "Student provides a limited evaluation of technique effectiveness with little justification.",
+      "Student provides a general evaluation of technique effectiveness with some supporting reasons.",
+      "Student evaluates the effectiveness of techniques used, providing clear and logical reasons for their assessment.",
+      "Student provides a thorough and insightful evaluation of technique effectiveness, considering various factors and adapting strategies for optimal results."
+    ]
+  ]
+}

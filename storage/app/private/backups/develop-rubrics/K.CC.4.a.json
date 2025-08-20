@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accurate Counting and Number Naming",
+    "Understanding of Cardinality",
+    "Connecting Numbers and Quantities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to count objects or does not assign number names correctly.",
+      "Student can count a small number of objects (less than 5) but struggles with one-to-one correspondence or naming numbers in the correct order.",
+      "Student can count up to 10 objects with some errors in one-to-one correspondence or number naming.",
+      "Student can accurately count up to 20 objects, maintaining one-to-one correspondence and using correct number names, but may hesitate or make occasional errors.",
+      "Student can fluently and accurately count up to 30 objects, demonstrating a strong understanding of one-to-one correspondence and number naming.",
+      "Student demonstrates mastery in counting objects beyond 30, exhibiting fluency, accuracy, and a deep understanding of the relationship between numbers and quantities, and can explain the counting process."
+    ],
+    [
+      "Student does not demonstrate an understanding that the last number counted represents the total quantity of objects.",
+      "Student shows limited understanding of cardinality, sometimes recounting objects to determine the total.",
+      "Student can identify the total number of objects counted with prompting, but struggles to explain the concept of cardinality.",
+      "Student understands that the last number counted represents the total quantity, but may not always apply this understanding consistently.",
+      "Student consistently demonstrates understanding of cardinality by accurately stating the total number of objects counted and explaining its significance.",
+      "Student demonstrates a sophisticated understanding of cardinality, explaining the concept clearly and applying it to various counting scenarios, including larger sets of objects."
+    ],
+    [
+      "Student fails to connect numbers with the corresponding quantities of objects.",
+      "Student struggles to connect numbers and quantities, often miscounting or assigning incorrect numbers to sets of objects.",
+      "Student can match numbers to quantities for small sets of objects (up to 5) with some assistance.",
+      "Student can connect numbers and quantities for sets of objects up to 10 with minimal errors.",
+      "Student accurately connects numbers and quantities for sets of objects up to 20, demonstrating a solid understanding of the relationship between them.",
+      "Student demonstrates a strong connection between numbers and quantities for various sets of objects, explaining the relationship and applying it to problem-solving scenarios involving counting and quantity."
+    ]
+  ]
+}

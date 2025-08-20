@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Basic Economic Concepts",
+    "Role of Individual Choice in a Free-Market Economy",
+    "Application of Economic Concepts to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of basic economic concepts such as supply, demand, scarcity, and opportunity cost.",
+      "Demonstrates a very limited understanding of basic economic concepts; struggles to define or apply them.",
+      "Demonstrates a partial understanding of basic economic concepts; can define some terms but struggles with application.",
+      "Demonstrates a satisfactory understanding of basic economic concepts; can define and apply them in simple scenarios.",
+      "Demonstrates a strong understanding of basic economic concepts; can apply them in various scenarios and explain their interrelation.",
+      "Demonstrates a comprehensive understanding of basic economic concepts; can apply them in complex scenarios, analyze their impact, and explain their significance."
+    ],
+    [
+      "Shows no understanding of the role of individual choice or the characteristics of a free-market economy.",
+      "Demonstrates a very limited understanding of individual choice and free-market economies; struggles to identify key features.",
+      "Demonstrates a partial understanding of individual choice and free-market economies; can identify some features but struggles to explain their impact.",
+      "Demonstrates a satisfactory understanding of individual choice and free-market economies; can explain how individual choices impact the market.",
+      "Demonstrates a strong understanding of individual choice and free-market economies; can analyze how individual choices shape market outcomes.",
+      "Demonstrates a comprehensive understanding of individual choice and free-market economies; can evaluate the effectiveness and consequences of individual choices within the market."
+    ],
+    [
+      "Unable to apply economic concepts to real-world situations or provide relevant examples.",
+      "Struggles to apply economic concepts to real-world scenarios; examples are inaccurate or irrelevant.",
+      "Attempts to apply economic concepts to real-world scenarios with limited success; explanations are unclear or incomplete.",
+      "Can apply economic concepts to simple real-world scenarios and provide basic explanations.",
+      "Can effectively apply economic concepts to a variety of real-world scenarios and provide clear, well-supported explanations.",
+      "Demonstrates mastery in applying economic concepts to complex real-world scenarios, providing insightful analysis and drawing informed conclusions."
+    ]
+  ]
+}

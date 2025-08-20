@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the 13th Amendment (Abolition of Slavery)",
+    "Understanding the 14th Amendment (Citizenship and Equal Protection)",
+    "Understanding the 15th Amendment (Voting Rights)",
+    "Connection to Reconstruction"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the 13th Amendment.",
+      "Identifies the 13th Amendment but cannot explain its purpose or impact.",
+      "Describes the 13th Amendment as abolishing slavery but lacks detail on its implications.",
+      "Explains the 13th Amendment and its immediate impact on ending slavery, but doesn't discuss limitations.",
+      "Analyzes the 13th Amendment, including its role in abolishing slavery and its limitations (e.g., loopholes leading to convict leasing).",
+      "Provides a comprehensive analysis of the 13th Amendment, including its intended purpose, its impact on society, and its unintended consequences or limitations."
+    ],
+    [
+      "Demonstrates no understanding of the 14th Amendment.",
+      "Identifies the 14th Amendment but cannot explain its purpose or significance.",
+      "Describes the 14th Amendment as granting citizenship and equal protection but lacks specific details.",
+      "Explains the 14th Amendment's clauses on citizenship, due process, and equal protection, but doesn't connect it to Reconstruction policies.",
+      "Analyzes the 14th Amendment, explaining how it aimed to protect the rights of formerly enslaved people and its impact on Reconstruction-era laws.",
+      "Provides a comprehensive analysis of the 14th Amendment, including its long-term impact on civil rights, its use in landmark Supreme Court cases, and its ongoing relevance in contemporary society."
+    ],
+    [
+      "Demonstrates no understanding of the 15th Amendment.",
+      "Identifies the 15th Amendment but cannot explain its purpose or the rights it was supposed to protect.",
+      "Describes the 15th Amendment as granting voting rights but lacks detail on who was enfranchised and the limitations.",
+      "Explains the 15th Amendment's guarantee of voting rights regardless of race or previous condition of servitude, but doesn't address the methods used to undermine it.",
+      "Analyzes the 15th Amendment, discussing its impact on African American suffrage and the various methods (e.g., poll taxes, literacy tests) used to disenfranchise Black voters.",
+      "Provides a comprehensive analysis of the 15th Amendment, including its initial impact, the strategies used to circumvent it, and its legacy in the ongoing struggle for voting rights in the United States."
+    ],
+    [
+      "Demonstrates no understanding of how the Amendments relate to Reconstruction.",
+      "Mentions the Amendments and Reconstruction separately but does not connect them.",
+      "Identifies that the Amendments were part of Reconstruction but cannot explain their role in the process.",
+      "Explains how the Amendments were intended to reshape the South during Reconstruction, but doesn't analyze the effectiveness of these changes.",
+      "Analyzes the connection between the Amendments and Reconstruction, discussing how they aimed to establish legal equality and reshape Southern society, while also noting the resistance and ultimate failures of Reconstruction.",
+      "Provides a comprehensive analysis of the Amendments' role in Reconstruction, including their successes, limitations, and lasting impact on American society and the struggle for civil rights."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accurately defines sexually transmitted diseases (STDs) and human immunodeficiency virus (HIV).",
+    "Understanding of the transmission methods and prevention strategies for STDs and HIV.",
+    "Knowledge of the potential health consequences and long-term impacts of STDs and HIV."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not define STDs or HIV.",
+      "Provides a definition that is inaccurate or incomplete for either STDs or HIV.",
+      "Provides definitions that are partially accurate for both STDs and HIV but lacks key information.",
+      "Defines STDs and HIV with mostly accurate information, but with minor omissions or inaccuracies.",
+      "Clearly and accurately defines both STDs and HIV with comprehensive understanding.",
+      "Provides clear, accurate, and comprehensive definitions of STDs and HIV, demonstrating a thorough understanding of the differences, transmission, and impacts of each."
+    ],
+    [
+      "Demonstrates no understanding of transmission methods or prevention strategies.",
+      "Displays minimal understanding of how STDs and HIV are transmitted or prevented.",
+      "Identifies some transmission methods and prevention strategies but with significant gaps or inaccuracies.",
+      "Explains common transmission methods and prevention strategies with reasonable accuracy.",
+      "Clearly explains various transmission methods and prevention strategies for STDs and HIV, showing good understanding.",
+      "Demonstrates a deep and nuanced understanding of transmission methods and prevention strategies, including specific measures to reduce risk and promote safer behaviors."
+    ],
+    [
+      "Shows no awareness of health consequences or long-term impacts of STDs and HIV.",
+      "Has limited knowledge of the potential health consequences or long-term impacts of STDs and HIV.",
+      "Identifies some health consequences but lacks detail or accuracy.",
+      "Describes common health consequences and long-term impacts of STDs and HIV with general accuracy.",
+      "Explains the health consequences and long-term impacts of STDs and HIV, demonstrating a solid understanding.",
+      "Demonstrates a comprehensive understanding of health consequences and long-term impacts, including physical, emotional, and social implications, and shows knowledge of resources and support systems."
+    ]
+  ]
+}

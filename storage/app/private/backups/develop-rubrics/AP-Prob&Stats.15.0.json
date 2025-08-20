@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Statistic Concepts",
+    "Knowledge of Sampling Distribution",
+    "Awareness of Variability"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of basic statistical concepts such as mean, median, mode, and standard deviation.",
+      "The student shows a limited understanding of basic statistical concepts and struggles to define or differentiate between them.",
+      "The student can identify basic statistical concepts but has difficulty applying them in simple scenarios.",
+      "The student can define and apply basic statistical concepts in straightforward situations but struggles with more complex applications.",
+      "The student demonstrates a solid understanding of statistical concepts and can apply them effectively in various scenarios.",
+      "The student exhibits a comprehensive understanding of statistical concepts and can apply them adeptly in complex and novel situations, demonstrating a mastery of the fundamental principles."
+    ],
+    [
+      "The student does not understand the concept of a sampling distribution.",
+      "The student shows minimal understanding of sampling distributions and is unable to explain their purpose.",
+      "The student can define a sampling distribution but cannot explain its significance in statistical inference.",
+      "The student understands the concept of a sampling distribution and its role in statistical inference but has difficulty interpreting it.",
+      "The student can interpret and explain the importance of a sampling distribution in making inferences about a population.",
+      "The student demonstrates a deep understanding of sampling distributions and can use them to make accurate and well-supported inferences about populations, showcasing a sophisticated grasp of statistical reasoning."
+    ],
+    [
+      "The student is unaware of the concept of variability in statistics.",
+      "The student has a limited understanding of variability and cannot explain its impact on statistical analysis.",
+      "The student can identify variability in a dataset but struggles to quantify or interpret it.",
+      "The student can measure and describe variability but has difficulty relating it to the reliability of statistical estimates.",
+      "The student understands the relationship between variability and the reliability of statistical estimates and can account for it in their analysis.",
+      "The student demonstrates a sophisticated understanding of variability and can use it to assess the robustness of statistical conclusions, demonstrating a nuanced appreciation of statistical uncertainty."
+    ]
+  ]
+}

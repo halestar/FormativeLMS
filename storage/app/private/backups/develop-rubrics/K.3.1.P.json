@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Healthcare Workers",
+    "Understanding of Healthy Practices",
+    "Application of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any relevant healthcare workers.",
+      "Identifies one or two healthcare workers but provides no explanation of their roles in promoting healthy practices.",
+      "Identifies a few healthcare workers but struggles to accurately describe their roles in promoting healthy practices.",
+      "Identifies several healthcare workers and generally describes their roles in promoting healthy practices with some inaccuracies.",
+      "Identifies a variety of healthcare workers and accurately describes their roles in promoting healthy practices, demonstrating a good understanding.",
+      "Identifies a comprehensive range of healthcare workers and expertly describes their roles in promoting healthy practices, showing a deep understanding and providing relevant examples."
+    ],
+    [
+      "Demonstrates no understanding of what constitutes healthy practices.",
+      "Shows a minimal understanding of healthy practices, with limited connection to healthcare workers' roles.",
+      "Displays a basic understanding of healthy practices, but the link to healthcare workers' roles is weak.",
+      "Exhibits a satisfactory understanding of healthy practices and relates them to the roles of healthcare workers with some clarity.",
+      "Demonstrates a strong understanding of healthy practices and clearly articulates how healthcare workers contribute to promoting them.",
+      "Demonstrates an exceptional understanding of healthy practices, providing nuanced insights into how healthcare workers promote them effectively, including preventative measures."
+    ],
+    [
+      "Unable to apply knowledge to real-world scenarios or examples.",
+      "Attempts to apply knowledge to simple scenarios but lacks clarity and accuracy.",
+      "Applies knowledge to some scenarios, but the connection is superficial or incomplete.",
+      "Applies knowledge to relevant scenarios, demonstrating a reasonable understanding of how healthcare workers promote healthy practices in those situations.",
+      "Applies knowledge effectively to various scenarios, showcasing a solid grasp of how healthcare workers promote healthy practices in different contexts.",
+      "Applies knowledge adeptly to complex scenarios, providing insightful analysis of how healthcare workers promote healthy practices, including addressing challenges and ethical considerations."
+    ]
+  ]
+}

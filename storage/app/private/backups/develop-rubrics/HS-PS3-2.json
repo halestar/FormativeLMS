@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Energy Representation in the Model",
+    "Clarity and Organization of the Model",
+    "Explanation of Energy Transformations",
+    "Application of Macroscopic and Microscopic Scale Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model does not accurately represent energy types or transformations.",
+      "The model represents energy types, but there are significant inaccuracies in energy transformations.",
+      "The model represents basic energy types and transformations with some inaccuracies.",
+      "The model mostly accurately represents energy types and transformations with minor inaccuracies.",
+      "The model accurately represents various energy types and transformations with clear labels.",
+      "The model accurately and comprehensively represents energy types and transformations, including detailed labels and explanations."
+    ],
+    [
+      "The model is disorganized and difficult to understand with no clear labels or structure.",
+      "The model is somewhat disorganized and lacks clear labels, making it challenging to follow.",
+      "The model has some organization, but labels are minimal, and clarity is lacking in some areas.",
+      "The model is generally organized with adequate labels and a mostly clear structure.",
+      "The model is well-organized with clear and concise labels, making it easy to understand.",
+      "The model is exceptionally well-organized, visually appealing, and very easy to understand, with comprehensive labeling."
+    ],
+    [
+      "No explanation of energy transformations is provided.",
+      "A minimal attempt is made to explain energy transformations, but it is unclear and incomplete.",
+      "The explanation of energy transformations is basic and contains some inaccuracies.",
+      "The explanation of energy transformations is mostly accurate and complete, covering major points.",
+      "The explanation of energy transformations is accurate, complete, and clearly articulates the relationships.",
+      "The explanation of energy transformations is thorough, insightful, and demonstrates a deep understanding of the concepts."
+    ],
+    [
+      "The model fails to connect macroscopic energy phenomena to microscopic particle behavior.",
+      "The model makes a weak attempt to connect macroscopic and microscopic scales but lacks detail.",
+      "The model partially connects macroscopic phenomena to microscopic particle behavior with some understanding.",
+      "The model reasonably connects macroscopic phenomena to microscopic particle behavior with good understanding.",
+      "The model effectively connects macroscopic phenomena to microscopic particle behavior, showing a strong understanding.",
+      "The model expertly connects macroscopic phenomena to microscopic particle behavior, demonstrating comprehensive mastery."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Proportional Relationships",
+    "Solving Multi-Step Ratio Problems",
+    "Solving Multi-Step Percent Problems",
+    "Application to Real-World Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of proportional relationships.",
+      "Student demonstrates a minimal understanding of proportional relationships; struggles to identify them.",
+      "Student demonstrates a basic understanding of proportional relationships but makes frequent errors in application.",
+      "Student demonstrates a satisfactory understanding of proportional relationships and can apply them with some accuracy.",
+      "Student demonstrates a strong understanding of proportional relationships and applies them accurately in most contexts.",
+      "Student demonstrates an exceptional understanding of proportional relationships and applies them accurately and efficiently in all contexts."
+    ],
+    [
+      "Student cannot solve multi-step ratio problems.",
+      "Student attempts to solve multi-step ratio problems but is unsuccessful.",
+      "Student can solve simple multi-step ratio problems with significant errors.",
+      "Student can solve multi-step ratio problems with some errors.",
+      "Student can solve multi-step ratio problems accurately in most cases.",
+      "Student can solve complex multi-step ratio problems accurately and efficiently."
+    ],
+    [
+      "Student cannot solve multi-step percent problems.",
+      "Student attempts to solve multi-step percent problems but is unsuccessful.",
+      "Student can solve simple multi-step percent problems with significant errors.",
+      "Student can solve multi-step percent problems with some errors.",
+      "Student can solve multi-step percent problems accurately in most cases.",
+      "Student can solve complex multi-step percent problems accurately and efficiently, including simple interest, tax, markups\/downs, gratuities, commissions, fees, increase\/decrease and error."
+    ],
+    [
+      "Student cannot apply proportional relationships to real-world problems.",
+      "Student struggles to apply proportional relationships to real-world problems.",
+      "Student can apply proportional relationships to simple real-world problems with significant errors.",
+      "Student can apply proportional relationships to real-world problems with some errors.",
+      "Student can apply proportional relationships accurately to most real-world problems.",
+      "Student can apply proportional relationships accurately and efficiently to complex real-world problems."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Legal Definition of a Weapon",
+    "Identification of Risks at Home",
+    "Identification of Risks at School",
+    "Identification of Risks in the Community"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of what constitutes a weapon according to Education Code (EC) Section 49330 and the Glossary.",
+      "Student demonstrates a limited understanding of what constitutes a weapon, missing key components of the legal definition.",
+      "Student demonstrates a basic understanding of the legal definition of a weapon but with some inaccuracies or omissions.",
+      "Student demonstrates a satisfactory understanding of the legal definition of a weapon, accurately identifying most components.",
+      "Student demonstrates a strong understanding of the legal definition of a weapon, accurately and comprehensively explaining its components.",
+      "Student demonstrates a comprehensive and nuanced understanding of the legal definition of a weapon, including its implications and potential ambiguities."
+    ],
+    [
+      "Student fails to identify any risks associated with possessing a weapon at home.",
+      "Student identifies only one or two very basic risks associated with possessing a weapon at home.",
+      "Student identifies some risks associated with possessing a weapon at home, but the explanation lacks detail or depth.",
+      "Student identifies several relevant risks associated with possessing a weapon at home, providing adequate explanations.",
+      "Student identifies numerous and varied risks associated with possessing a weapon at home, providing detailed explanations and examples.",
+      "Student provides a comprehensive and insightful analysis of the risks associated with possessing a weapon at home, including less obvious or commonly considered dangers."
+    ],
+    [
+      "Student fails to identify any risks associated with possessing a weapon at school.",
+      "Student identifies only one or two very basic risks associated with possessing a weapon at school.",
+      "Student identifies some risks associated with possessing a weapon at school, but the explanation lacks detail or depth.",
+      "Student identifies several relevant risks associated with possessing a weapon at school, providing adequate explanations.",
+      "Student identifies numerous and varied risks associated with possessing a weapon at school, providing detailed explanations and examples.",
+      "Student provides a comprehensive and insightful analysis of the risks associated with possessing a weapon at school, including legal ramifications and impact on school climate."
+    ],
+    [
+      "Student fails to identify any risks associated with possessing a weapon in the community.",
+      "Student identifies only one or two very basic risks associated with possessing a weapon in the community.",
+      "Student identifies some risks associated with possessing a weapon in the community, but the explanation lacks detail or depth.",
+      "Student identifies several relevant risks associated with possessing a weapon in the community, providing adequate explanations.",
+      "Student identifies numerous and varied risks associated with possessing a weapon in the community, providing detailed explanations and examples.",
+      "Student provides a comprehensive and insightful analysis of the risks associated with possessing a weapon in the community, including social, economic, and public health implications."
+    ]
+  ]
+}

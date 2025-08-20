@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Remainder Theorem",
+    "Application of the Remainder Theorem to find Factors",
+    "Connection Between Zeros and Factors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of the Remainder Theorem. Unable to relate p(a) to the remainder of polynomial division.",
+      "Shows limited understanding of the Remainder Theorem. Struggles to connect p(a) with the remainder when dividing by x - a.",
+      "Demonstrates a basic understanding of the Remainder Theorem. Can sometimes relate p(a) to the remainder, but with inconsistencies.",
+      "Understands the Remainder Theorem and can relate p(a) to the remainder when dividing by x - a in simple cases.",
+      "Demonstrates a strong understanding of the Remainder Theorem. Can accurately relate p(a) to the remainder and apply it to various polynomials.",
+      "Exhibits a comprehensive understanding of the Remainder Theorem. Can fluently relate p(a) to the remainder, apply it to complex polynomials, and explain the underlying concepts."
+    ],
+    [
+      "Unable to apply the Remainder Theorem to determine if (x - a) is a factor of p(x).",
+      "Struggles to apply the Remainder Theorem to find factors, making frequent errors.",
+      "Can apply the Remainder Theorem to find factors in simple cases but struggles with more complex polynomials.",
+      "Applies the Remainder Theorem to find factors of polynomials with some accuracy.",
+      "Effectively uses the Remainder Theorem to find factors of various polynomials.",
+      "Masterfully uses the Remainder Theorem to efficiently find factors of complex polynomials and justifies their reasoning clearly."
+    ],
+    [
+      "Does not recognize the relationship between zeros of a polynomial and its factors.",
+      "Shows a weak understanding of the connection between zeros and factors.",
+      "Recognizes the connection between zeros and factors in simple cases, but not consistently.",
+      "Understands that if p(a) = 0, then (x - a) is a factor, and vice versa.",
+      "Clearly articulates the relationship between zeros and factors and uses it effectively in problem-solving.",
+      "Provides a nuanced explanation of the deep relationship between zeros and factors and applies this understanding to solve challenging problems."
+    ]
+  ]
+}

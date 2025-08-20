@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Route Tracing",
+    "Completeness of Exploration Descriptions",
+    "Understanding of Explorers' Motivations and Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to trace any routes or the attempt is entirely inaccurate.",
+      "The student attempts to trace routes, but demonstrates significant inaccuracies and omissions.",
+      "The student traces some routes with moderate accuracy, but several inaccuracies or omissions are present.",
+      "The student accurately traces most of the major routes, with only minor inaccuracies or omissions.",
+      "The student traces the routes of early explorers with a high degree of accuracy and includes almost all significant routes.",
+      "The student meticulously traces the routes of early explorers with complete accuracy and includes all significant routes, demonstrating a comprehensive understanding."
+    ],
+    [
+      "The student provides no description of early explorations or the description is irrelevant.",
+      "The student attempts to describe early explorations, but the description is very brief and lacks detail.",
+      "The student provides a basic description of some early explorations, but it is incomplete and lacks depth.",
+      "The student describes several early explorations with reasonable detail, but some important explorations are missing.",
+      "The student comprehensively describes the early explorations of the Americas, including most major expeditions and their impact.",
+      "The student provides an exceptionally detailed and comprehensive description of early explorations, including lesser-known expeditions, and analyzes their lasting impact on the Americas."
+    ],
+    [
+      "The student shows no understanding of the explorers' motivations or the impact of their explorations.",
+      "The student demonstrates a minimal understanding of the explorers' motivations or impact.",
+      "The student identifies some motivations or impacts, but the explanation is superficial.",
+      "The student explains the explorers' motivations and the impact of their explorations with some clarity and provides supporting details.",
+      "The student clearly explains the explorers' motivations and the impact of their explorations, providing relevant supporting details and demonstrating a solid understanding of the historical context.",
+      "The student provides a nuanced and insightful analysis of the explorers' motivations and the complex impact of their explorations, demonstrating a deep understanding of the historical context and its long-term consequences."
+    ]
+  ]
+}

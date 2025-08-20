@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Chemical Reactions and Energy Transfer",
+    "Design and Construction of the Device",
+    "Testing and Modification of the Device",
+    "Controlling Energy Transfer",
+    "Application of Scientific Practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of chemical reactions or energy transfer concepts.",
+      "Student shows limited understanding of chemical reactions and energy transfer, with significant misconceptions.",
+      "Student demonstrates basic understanding of chemical reactions and energy transfer but struggles to connect the concepts.",
+      "Student demonstrates a satisfactory understanding of chemical reactions and energy transfer and can somewhat connect the concepts within the context of the design project.",
+      "Student demonstrates a strong understanding of chemical reactions and energy transfer and effectively connects these concepts within the design project.",
+      "Student demonstrates a comprehensive and nuanced understanding of chemical reactions and energy transfer, clearly and accurately connecting these concepts and applying them effectively to the design project."
+    ],
+    [
+      "Student makes no attempt to design or construct a device.",
+      "Student attempts to design and construct a device, but the design is fundamentally flawed or incomplete, and construction is unsuccessful.",
+      "Student designs and constructs a basic device, but it exhibits significant flaws in design or construction.",
+      "Student designs and constructs a functional device, but the design and construction could be improved.",
+      "Student designs and constructs a well-designed and functional device that effectively demonstrates the principles of energy transfer.",
+      "Student designs and constructs an innovative and highly effective device that demonstrates a deep understanding of energy transfer principles and showcases exceptional craftsmanship."
+    ],
+    [
+      "Student does not test or modify the device.",
+      "Student attempts to test the device, but the testing is incomplete or inaccurate, and no modifications are made.",
+      "Student conducts basic testing of the device and attempts modifications, but the modifications are ineffective or not based on test results.",
+      "Student conducts satisfactory testing of the device and makes some modifications based on the test results, leading to moderate improvement.",
+      "Student conducts thorough and accurate testing of the device, and makes effective modifications based on the test results, leading to significant improvement in performance.",
+      "Student conducts rigorous testing of the device, analyzes the data effectively, and makes innovative and impactful modifications based on test results, leading to optimal performance."
+    ],
+    [
+      "Student demonstrates no control over the energy transfer in the device.",
+      "Student shows limited control over the energy transfer, with little consideration for environmental factors.",
+      "Student demonstrates some control over the energy transfer but struggles to manage the amount, time, or temperature effectively.",
+      "Student demonstrates satisfactory control over energy transfer, managing the amount, time, and temperature to a reasonable degree.",
+      "Student demonstrates strong control over energy transfer, effectively managing the amount, time, and temperature to optimize device performance and minimize environmental impact.",
+      "Student demonstrates exceptional control over energy transfer, optimizing the device for maximum efficiency and minimal environmental impact, while providing a comprehensive explanation of the underlying principles."
+    ],
+    [
+      "Student does not apply scientific practices in the design process.",
+      "Student attempts to apply scientific practices, but the application is superficial and lacks rigor.",
+      "Student applies some scientific practices in the design process, but the application is inconsistent or incomplete.",
+      "Student applies scientific practices effectively in the design process, demonstrating an understanding of the design cycle.",
+      "Student applies scientific practices thoroughly and effectively in the design process, demonstrating a strong understanding of the design cycle and its iterative nature.",
+      "Student applies scientific practices expertly in the design process, demonstrating a deep understanding of the design cycle, optimizing solutions through rigorous testing and analysis."
+    ]
+  ]
+}

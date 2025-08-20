@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Riemann Sums Definition",
+    "Accuracy in Approximating Integrals",
+    "Clarity and Precision in Calculations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the Riemann sums definition of the definite integral is demonstrated.",
+      "Demonstrates minimal understanding of the Riemann sums definition; unable to apply it.",
+      "Shows some understanding of the Riemann sums definition but struggles to explain it clearly.",
+      "Understands and can explain the Riemann sums definition, but has difficulty connecting it to integral approximation.",
+      "Clearly understands and explains the Riemann sums definition and its connection to approximating integrals.",
+      "Demonstrates a comprehensive understanding of the Riemann sums definition, explains it clearly, and applies it effectively to approximate integrals with precision."
+    ],
+    [
+      "Unable to approximate integrals using the Riemann sums definition.",
+      "Attempts to approximate integrals, but calculations are incorrect and show a lack of understanding.",
+      "Approximates integrals with significant errors, indicating a partial understanding of the process.",
+      "Approximates integrals with some errors, but the overall approach is correct.",
+      "Approximates integrals accurately with only minor errors.",
+      "Approximates integrals accurately and efficiently, demonstrating a strong command of the method and minimizing errors."
+    ],
+    [
+      "Calculations are missing or completely unclear.",
+      "Calculations are disorganized and difficult to follow.",
+      "Calculations are somewhat organized but lack precision.",
+      "Calculations are mostly clear and precise, with minor organizational issues.",
+      "Calculations are clear, precise, and well-organized.",
+      "Calculations are exceptionally clear, precise, and well-organized, demonstrating a deep understanding of the underlying concepts."
+    ]
+  ]
+}

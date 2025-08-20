@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Core Principles",
+    "Application to Contemporary Political Systems",
+    "Analysis of Influence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the core principles and structure of the U.S. Constitution.",
+      "Demonstrates a minimal understanding of the core principles and structure of the U.S. Constitution.",
+      "Demonstrates a basic understanding of the core principles and structure of the U.S. Constitution.",
+      "Demonstrates a satisfactory understanding of the core principles and structure of the U.S. Constitution, with some minor gaps.",
+      "Demonstrates a strong understanding of the core principles and structure of the U.S. Constitution.",
+      "Demonstrates a comprehensive and nuanced understanding of the core principles and structure of the U.S. Constitution."
+    ],
+    [
+      "Unable to make any connections between the U.S. Constitution and contemporary political systems.",
+      "Struggles to connect the U.S. Constitution to contemporary political systems; connections are vague and unsubstantiated.",
+      "Identifies some connections between the U.S. Constitution and contemporary political systems, but lacks depth and detail.",
+      "Adequately connects the U.S. Constitution to contemporary political systems, providing examples with reasonable explanations.",
+      "Clearly and effectively connects the U.S. Constitution to contemporary political systems, providing specific and well-explained examples.",
+      "Insightfully connects the U.S. Constitution to contemporary political systems, providing sophisticated analysis and relevant examples with perceptive explanations."
+    ],
+    [
+      "Provides no analysis of the U.S. Constitution's influence on political systems.",
+      "Offers a superficial analysis of the U.S. Constitution's influence, lacking critical thought.",
+      "Presents a limited analysis of the U.S. Constitution's influence, with some descriptive elements.",
+      "Provides a balanced analysis of the U.S. Constitution's influence, considering different perspectives.",
+      "Offers a thorough and insightful analysis of the U.S. Constitution's influence, demonstrating critical thinking.",
+      "Presents an exceptionally comprehensive and nuanced analysis of the U.S. Constitution's influence, demonstrating sophisticated critical thinking and synthesis."
+    ]
+  ]
+}

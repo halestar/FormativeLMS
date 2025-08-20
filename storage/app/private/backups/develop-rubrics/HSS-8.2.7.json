@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Federalism and Dual Sovereignty",
+    "Knowledge of Separation of Powers and Checks and Balances",
+    "Understanding of Majority Rule and Protection of Individual Rights"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of federalism or dual sovereignty.",
+      "Struggles to define federalism and dual sovereignty; explanations are unclear or inaccurate.",
+      "Can define federalism and dual sovereignty but lacks depth in explaining the relationship between state and federal powers.",
+      "Explains federalism and dual sovereignty with reasonable accuracy and provides some examples of shared and distinct powers.",
+      "Clearly explains federalism and dual sovereignty, detailing the division of powers between state and federal governments with relevant examples.",
+      "Provides a comprehensive explanation of federalism and dual sovereignty, including historical context and contemporary implications, demonstrating a nuanced understanding of the balance of power."
+    ],
+    [
+      "Demonstrates no understanding of separation of powers or checks and balances.",
+      "Has difficulty identifying the three branches of government and how they interact.",
+      "Identifies the three branches but struggles to explain the checks and balances system.",
+      "Explains the separation of powers and checks and balances with some accuracy, providing basic examples.",
+      "Clearly explains the separation of powers and checks and balances, detailing the functions of each branch and their ability to limit the power of the others with examples.",
+      "Provides a comprehensive explanation of the separation of powers and checks and balances, including historical context, landmark Supreme Court cases, and contemporary implications, demonstrating a nuanced understanding of the balance of power."
+    ],
+    [
+      "Demonstrates no understanding of majority rule or individual rights.",
+      "Struggles to define majority rule and its potential impact on individual rights.",
+      "Can define majority rule and acknowledges the existence of individual rights but struggles to explain how constitutionalism protects those rights.",
+      "Explains majority rule and the role of constitutionalism in protecting individual rights, providing some examples.",
+      "Clearly explains majority rule and details how the American idea of constitutionalism, including the Bill of Rights, preserves individual rights with relevant examples.",
+      "Provides a comprehensive explanation of majority rule and the safeguards for individual rights within the American constitutional system, including historical context, relevant court cases, and contemporary implications, demonstrating a nuanced understanding of the balance between collective decision-making and individual liberties."
+    ]
+  ]
+}

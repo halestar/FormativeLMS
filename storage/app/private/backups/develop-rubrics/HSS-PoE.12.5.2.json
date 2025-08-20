@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Definitions",
+    "Calculation Proficiency",
+    "Explanation of Significance"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides no definitions or definitions are completely inaccurate.",
+      "Provides definitions but they contain significant inaccuracies or omissions.",
+      "Provides mostly accurate definitions for some of the key terms (unemployment rate, new jobs, inflation\/deflation, economic growth).",
+      "Provides accurate definitions for most of the key terms, with minor errors or omissions.",
+      "Provides accurate and clear definitions for all key terms.",
+      "Provides accurate, clear, and nuanced definitions for all key terms, demonstrating a deep understanding of the concepts."
+    ],
+    [
+      "Unable to perform any of the calculations.",
+      "Attempts calculations but demonstrates significant errors and misunderstanding.",
+      "Can perform some calculations with significant errors, demonstrating a partial understanding.",
+      "Performs calculations with minor errors, demonstrating a general understanding of the formulas.",
+      "Performs calculations accurately and demonstrates a solid understanding of the formulas.",
+      "Performs calculations accurately, demonstrates a deep understanding of the formulas, and can explain the underlying mathematical principles."
+    ],
+    [
+      "Provides no explanation of the significance of the economic indicators.",
+      "Attempts to explain the significance but demonstrates significant misunderstanding.",
+      "Provides a basic explanation of the significance of some economic indicators.",
+      "Explains the significance of most economic indicators with reasonable clarity.",
+      "Clearly and accurately explains the significance of all economic indicators.",
+      "Clearly, accurately, and insightfully explains the significance of all economic indicators, demonstrating a comprehensive understanding of their impact on the U.S. economy."
+    ]
+  ]
+}

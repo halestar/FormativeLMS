@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Clarity and Precision of Claims",
+    "Development and Fairness of Counterclaims",
+    "Use of Transitions and Cohesion",
+    "Formal Style and Objective Tone",
+    "Concluding Statement or Section"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The claim is unclear, vague, or missing. The topic's significance is not established.",
+      "The claim is somewhat clear, but lacks precision. The significance of the topic is mentioned but not well-established.",
+      "The claim is clear and precise, and the significance of the topic is adequately established.",
+      "The claim is clear, precise, and insightful. The significance of the topic is well-established and explained.",
+      "The claim is exceptionally clear, precise, and insightful. The significance of the topic is compellingly established and thoroughly explained.",
+      "The claim is masterfully articulated, setting a new standard for clarity and insight. The significance of the topic is profoundly established, demonstrating an exceptional understanding of its importance."
+    ],
+    [
+      "Counterclaims are not addressed or are misrepresented.",
+      "Counterclaims are mentioned but not fairly developed. Strengths and limitations are not discussed.",
+      "Counterclaims are developed with some fairness, and strengths\/limitations are acknowledged but superficially.",
+      "Counterclaims are fairly and thoroughly developed, with relevant evidence and a balanced discussion of strengths and limitations.",
+      "Counterclaims are expertly developed with compelling evidence, demonstrating a nuanced understanding of strengths and limitations, tailored to the audience.",
+      "Counterclaims are masterfully dissected, revealing a depth of understanding that surpasses expectations. The analysis of strengths and limitations is exceptionally insightful, reshaping the audience's perspective."
+    ],
+    [
+      "The writing lacks transitions, leading to a disjointed and unclear argument.",
+      "Transitions are minimal and ineffective, making it difficult to follow the argument.",
+      "Transitions are present but sometimes awkward, with limited cohesion between sections.",
+      "Transitions are used effectively to link major sections, creating cohesion and clarifying relationships between ideas.",
+      "Transitions are skillfully used, enhancing cohesion and creating a seamless flow of ideas that reinforces the argument.",
+      "Transitions are used with such artistry that the argument unfolds effortlessly, captivating the reader and solidifying understanding with unparalleled clarity."
+    ],
+    [
+      "The writing is informal, inappropriate, or lacks objectivity.",
+      "The writing is mostly formal but may contain lapses in tone or convention.",
+      "The writing maintains a formal style and objective tone, adhering to most conventions.",
+      "The writing consistently maintains a formal style and objective tone, adhering to all conventions of the discipline.",
+      "The writing exemplifies formal style and objective tone, skillfully employing conventions to enhance credibility and impact.",
+      "The writing is a paragon of formal style and objective tone, setting a new benchmark for scholarly communication within the discipline."
+    ],
+    [
+      "The conclusion is missing or does not relate to the argument.",
+      "The conclusion is weak or summarizes without supporting the argument.",
+      "The conclusion summarizes the argument but does not fully extend its implications.",
+      "The conclusion effectively follows from and supports the argument presented.",
+      "The conclusion compellingly reinforces the argument, leaving a lasting impression and prompting further reflection.",
+      "The conclusion is a masterstroke, synthesizing the argument with unparalleled elegance and extending its implications to new horizons, leaving an indelible mark on the reader's understanding."
+    ]
+  ]
+}

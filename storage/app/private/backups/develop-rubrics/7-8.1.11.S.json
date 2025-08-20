@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Climate-Related Physical Conditions",
+    "Prevention Strategies for Climate-Related Physical Conditions",
+    "Application of Prevention Strategies to Specific Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any climate-related physical conditions.",
+      "Student identifies one climate-related physical condition, but does not describe its cause.",
+      "Student identifies one climate-related physical condition and briefly describes its cause.",
+      "Student identifies two climate-related physical conditions and describes their causes.",
+      "Student identifies three climate-related physical conditions and accurately describes their causes.",
+      "Student identifies multiple climate-related physical conditions, accurately describes their causes, and explains their physiological effects."
+    ],
+    [
+      "Student does not suggest any prevention strategies.",
+      "Student suggests one inadequate or inappropriate prevention strategy.",
+      "Student suggests one relevant prevention strategy.",
+      "Student suggests two relevant prevention strategies.",
+      "Student suggests three relevant and practical prevention strategies.",
+      "Student suggests multiple relevant, practical, and comprehensive prevention strategies, demonstrating a thorough understanding of protective measures."
+    ],
+    [
+      "Student does not apply prevention strategies to any scenarios.",
+      "Student attempts to apply prevention strategies but demonstrates misunderstanding.",
+      "Student applies prevention strategies to a scenario with limited success.",
+      "Student appropriately applies prevention strategies to a single scenario.",
+      "Student appropriately applies prevention strategies to multiple scenarios.",
+      "Student expertly applies prevention strategies to a variety of scenarios, adapting strategies based on context and demonstrating a nuanced understanding."
+    ]
+  ]
+}

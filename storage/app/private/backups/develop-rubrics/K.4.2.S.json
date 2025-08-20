@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Safe Introduction: Assesses the student's ability to answer the phone in a way that doesn't reveal personal information or indicate vulnerability.",
+    "Information Control: Evaluates the student's capacity to gather necessary information without divulging sensitive details about themselves or their household.",
+    "Handling Suspicious Calls: Assesses the student's awareness and handling of potentially dangerous or suspicious phone calls."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not answer the phone safely or reveals personal information immediately.",
+      "Student shows minimal awareness of phone safety, revealing some personal information.",
+      "Student attempts a safe introduction but includes some unnecessary personal details.",
+      "Student provides a generally safe introduction, avoiding major personal information disclosures.",
+      "Student consistently answers the phone with a secure and non-revealing introduction.",
+      "Student demonstrates mastery in crafting a safe and professional phone introduction, effectively protecting personal information while clearly identifying the purpose of the call."
+    ],
+    [
+      "Student shares excessive personal information when answering the phone.",
+      "Student shares more information than necessary, showing poor judgment.",
+      "Student occasionally shares personal details unintentionally while answering.",
+      "Student generally controls the flow of information effectively.",
+      "Student adeptly balances information gathering and personal information security.",
+      "Student showcases exceptional skill in extracting crucial information without revealing sensitive details, demonstrating a deep understanding of privacy protection in phone conversations."
+    ],
+    [
+      "Student is unaware of potential dangers of suspicious calls and engages naively.",
+      "Student shows some awareness of suspicious calls but lacks appropriate response strategies.",
+      "Student hesitantly identifies and responds to suspicious calls, but with some uncertainty.",
+      "Student appropriately identifies and manages most suspicious calls using provided guidelines.",
+      "Student confidently identifies and handles various suspicious call scenarios effectively.",
+      "Student exhibits expert judgment in discerning and handling suspicious calls, employing advanced techniques to protect themselves and others from potential harm."
+    ]
+  ]
+}

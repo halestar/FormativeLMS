@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Dental Health Principles",
+    "Completeness and Accuracy of the Plan",
+    "Feasibility and Practicality of the Plan",
+    "Clarity and Organization of the Plan"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of preventive dental health principles.",
+      "Demonstrates a minimal understanding of preventive dental health principles; major misconceptions are evident.",
+      "Demonstrates a basic understanding of preventive dental health principles, but with some inaccuracies.",
+      "Demonstrates a satisfactory understanding of preventive dental health principles with minor inaccuracies.",
+      "Demonstrates a strong understanding of preventive dental health principles.",
+      "Demonstrates a comprehensive and nuanced understanding of preventive dental health principles."
+    ],
+    [
+      "Plan is missing or includes inaccurate information.",
+      "Plan is incomplete and contains several inaccuracies.",
+      "Plan is somewhat complete but contains some inaccuracies or omissions.",
+      "Plan is mostly complete and accurate, with only minor omissions.",
+      "Plan is complete and accurate with only very minor suggestions for improvement.",
+      "Plan is exceptionally complete, accurate, and demonstrates a deep understanding of the topic."
+    ],
+    [
+      "Plan is unrealistic and impractical.",
+      "Plan is largely impractical and difficult to implement.",
+      "Plan has questionable feasibility and practicality in a real-world context.",
+      "Plan is reasonably feasible and practical, with some minor limitations.",
+      "Plan is feasible and practical for most individuals.",
+      "Plan is highly feasible, practical, and tailored to individual needs and circumstances."
+    ],
+    [
+      "Plan is unclear, disorganized, and difficult to understand.",
+      "Plan is poorly organized and lacks clarity in several areas.",
+      "Plan is somewhat organized, but clarity could be improved.",
+      "Plan is generally clear and organized.",
+      "Plan is clear, concise, and well-organized.",
+      "Plan is exceptionally clear, logically organized, and easy to follow."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Measurement Limitations and Accuracy",
+    "Application in Problem Solving",
+    "Clarity and Precision in Reporting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of measurement limitations or the concept of accuracy in reporting quantities.",
+      "Student shows minimal understanding of measurement limitations and struggles to apply appropriate accuracy when reporting quantities.",
+      "Student demonstrates some understanding of measurement limitations but inconsistently applies appropriate accuracy when reporting quantities.",
+      "Student generally understands measurement limitations and usually chooses an appropriate level of accuracy when reporting quantities, but with occasional errors.",
+      "Student demonstrates a solid understanding of measurement limitations and consistently chooses an appropriate level of accuracy when reporting quantities.",
+      "Student demonstrates a comprehensive understanding of measurement limitations and expertly chooses a level of accuracy that is highly appropriate given the limitations of the measurement and context, clearly articulating the reasoning."
+    ],
+    [
+      "Student cannot apply the concept of appropriate accuracy to solve quantitative problems.",
+      "Student struggles to apply the concept of appropriate accuracy and makes significant errors in problem-solving.",
+      "Student sometimes applies the concept of appropriate accuracy in problem-solving, but with frequent errors.",
+      "Student generally applies the concept of appropriate accuracy in problem-solving, with some minor errors.",
+      "Student consistently applies the concept of appropriate accuracy effectively to solve quantitative problems.",
+      "Student expertly applies the concept of appropriate accuracy in complex problem-solving scenarios, demonstrating a deep understanding of its impact on the validity of results."
+    ],
+    [
+      "Student's reporting of quantities lacks clarity and precision and does not consider measurement limitations.",
+      "Student's reporting of quantities is often unclear and imprecise, with little consideration of measurement limitations.",
+      "Student's reporting of quantities is sometimes clear and precise, with some consideration of measurement limitations.",
+      "Student's reporting of quantities is generally clear and precise, with good consideration of measurement limitations.",
+      "Student's reporting of quantities is consistently clear, precise, and directly reflects appropriate consideration of measurement limitations.",
+      "Student's reporting of quantities is exceptionally clear, precise, and insightful, demonstrating a nuanced understanding of how measurement limitations affect the interpretation of results."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation: Demonstrates the ability to analyze and interpret data related to the scale properties of objects in the solar system.",
+    "Understanding of Scale Properties: Demonstrates understanding of the scale properties of objects in the solar system, including sizes of layers, surface features, and orbital radius.",
+    "Use of Evidence: Effectively uses data from Earth-based instruments, space-based telescopes, and spacecraft to support analysis and interpretation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze or interpret data; provides irrelevant or inaccurate information.",
+      "Demonstrates minimal ability to analyze and interpret data. Struggles to identify relevant information or draw accurate conclusions.",
+      "Demonstrates some ability to analyze and interpret data. Identifies relevant information but struggles to draw clear conclusions or explain findings effectively.",
+      "Demonstrates a moderate ability to analyze and interpret data. Identifies relevant information and draws reasonable conclusions, but explanation may lack detail or clarity.",
+      "Demonstrates a strong ability to analyze and interpret data. Identifies relevant information, draws clear and accurate conclusions, and provides detailed explanations of findings.",
+      "Demonstrates exceptional ability to analyze and interpret data. Identifies relevant information, draws insightful and accurate conclusions, and provides comprehensive explanations of findings with sophisticated reasoning."
+    ],
+    [
+      "Demonstrates no understanding of scale properties; provides irrelevant or inaccurate information.",
+      "Demonstrates minimal understanding of scale properties. Struggles to identify or define basic concepts.",
+      "Demonstrates some understanding of scale properties. Identifies basic concepts but struggles to explain their significance or relevance.",
+      "Demonstrates a moderate understanding of scale properties. Explains basic concepts and their significance, but explanation may lack detail or clarity.",
+      "Demonstrates a strong understanding of scale properties. Explains concepts clearly and accurately, providing detailed examples and explanations.",
+      "Demonstrates exceptional understanding of scale properties. Explains concepts comprehensively and insightfully, providing detailed examples, explanations, and connections to real-world phenomena."
+    ],
+    [
+      "No evidence of using data to support analysis or interpretation; provides irrelevant or inaccurate information.",
+      "Demonstrates minimal use of data to support analysis. Struggles to identify relevant evidence or use it effectively.",
+      "Demonstrates some use of data to support analysis. Identifies some relevant evidence but struggles to explain its significance or relevance.",
+      "Demonstrates a moderate use of data to support analysis. Uses relevant evidence to support conclusions, but explanation may lack detail or clarity.",
+      "Demonstrates a strong use of data to support analysis. Uses relevant evidence effectively to support conclusions, providing detailed explanations and interpretations.",
+      "Demonstrates exceptional use of data to support analysis. Uses relevant evidence insightfully to support conclusions, providing comprehensive explanations, interpretations, and connections to real-world applications."
+    ]
+  ]
+}

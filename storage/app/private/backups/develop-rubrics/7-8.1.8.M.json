@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Diet Pills",
+    "Identification of Harmful Effects",
+    "Analysis of Risks Without Supervision",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of what diet pills are and what they do.",
+      "The student demonstrates a very limited understanding of diet pills, with significant misconceptions.",
+      "The student shows a basic understanding of diet pills but struggles to explain their mechanisms of action.",
+      "The student adequately explains what diet pills are and how they are intended to function.",
+      "The student demonstrates a strong understanding of diet pills, including their intended functions and potential variations.",
+      "The student demonstrates a comprehensive and nuanced understanding of diet pills, including their history, various types, and specific mechanisms of action."
+    ],
+    [
+      "The student fails to identify any harmful effects associated with the unsupervised use of diet pills.",
+      "The student identifies one or two general harmful effects, but with limited detail or accuracy.",
+      "The student identifies several harmful effects but struggles to explain them or connect them to the unsupervised use of diet pills.",
+      "The student identifies and explains several harmful effects of diet pills, including physical and psychological risks.",
+      "The student thoroughly explains a wide range of harmful effects, including short-term and long-term risks, and acknowledges the potential for individual variability.",
+      "The student provides an exhaustive analysis of harmful effects, including physiological, psychological, and sociological impacts, with specific examples and supporting evidence."
+    ],
+    [
+      "The student does not address the importance of physician supervision or why it is necessary when using diet pills.",
+      "The student vaguely mentions the need for caution but does not explain the specific risks of unsupervised use.",
+      "The student explains that unsupervised use can be risky but provides limited justification or examples.",
+      "The student clearly explains why physician supervision is crucial, including the potential for misdiagnosis, drug interactions, and underlying health conditions.",
+      "The student comprehensively analyzes the risks of unsupervised use, including detailed explanations of potential complications and the importance of personalized medical advice.",
+      "The student synthesizes information from multiple sources to provide a nuanced analysis of the ethical and practical implications of using diet pills without physician supervision, including considerations of informed consent and patient autonomy."
+    ],
+    [
+      "The response is disorganized and difficult to understand, with no clear structure or logical flow.",
+      "The response lacks a clear structure and contains significant errors in grammar and spelling.",
+      "The response is somewhat organized but contains some grammatical errors and lacks clear transitions between ideas.",
+      "The response is generally clear and well-organized, with few grammatical errors.",
+      "The response is exceptionally clear, concise, and well-organized, with sophisticated language and effective use of transitions.",
+      "The response is exceptionally clear, concise, and well-organized; uses sophisticated language and effective transitions; and is presented in a compelling and engaging manner."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Viral Impact on the Immune System",
+    "Understanding of Bacterial Impact on the Immune System",
+    "Explanation of Impact on Health",
+    "Clarity and Accuracy of Scientific Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how viruses affect the immune system.",
+      "Demonstrates minimal understanding of viral impact, with significant misconceptions.",
+      "Shows basic understanding of how viruses affect the immune system, but lacks depth.",
+      "Explains how viruses affect the immune system with reasonable clarity, but may miss some details.",
+      "Clearly explains how viruses affect the immune system, providing accurate details.",
+      "Provides a comprehensive and insightful explanation of how viruses affect the immune system, including specific mechanisms and examples."
+    ],
+    [
+      "No understanding of how bacteria affect the immune system.",
+      "Demonstrates minimal understanding of bacterial impact, with significant misconceptions.",
+      "Shows basic understanding of how bacteria affect the immune system, but lacks depth.",
+      "Explains how bacteria affect the immune system with reasonable clarity, but may miss some details.",
+      "Clearly explains how bacteria affect the immune system, providing accurate details.",
+      "Provides a comprehensive and insightful explanation of how bacteria affect the immune system, including specific mechanisms and examples."
+    ],
+    [
+      "No understanding of how viral and bacterial infections impact overall health.",
+      "Demonstrates a weak understanding of the impact on health, with significant misconceptions.",
+      "Shows some understanding of how infections affect health, but lacks specific details.",
+      "Explains how viral and bacterial infections impact health with reasonable clarity, but may miss some connections.",
+      "Clearly explains the impact of viral and bacterial infections on health, providing accurate and relevant details.",
+      "Provides a comprehensive and insightful explanation of the health impacts of viral and bacterial infections, including long-term consequences and preventative measures."
+    ],
+    [
+      "Use of inaccurate or inappropriate scientific terminology.",
+      "Frequent misuse of scientific terms, hindering understanding.",
+      "Uses basic scientific terminology, but with some inaccuracies.",
+      "Uses scientific terminology appropriately, with only minor inaccuracies.",
+      "Uses scientific terminology accurately and effectively.",
+      "Demonstrates mastery of scientific terminology, enhancing the clarity and precision of the explanation."
+    ]
+  ]
+}

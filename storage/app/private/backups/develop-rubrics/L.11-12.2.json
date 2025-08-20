@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Capitalization",
+    "Punctuation",
+    "Spelling",
+    "Hyphenation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of capitalization rules; errors are frequent and random.",
+      "Demonstrates limited understanding of capitalization rules; errors are frequent and interfere with readability.",
+      "Demonstrates some understanding of capitalization rules; errors are noticeable but do not significantly impede readability.",
+      "Demonstrates a good understanding of capitalization rules; occasional errors do not impede readability.",
+      "Demonstrates a strong understanding of capitalization rules; very few errors.",
+      "Demonstrates mastery of capitalization rules; no errors."
+    ],
+    [
+      "Demonstrates no understanding of punctuation rules; errors are frequent and random.",
+      "Demonstrates limited understanding of punctuation rules; errors are frequent and interfere with readability.",
+      "Demonstrates some understanding of punctuation rules; errors are noticeable but do not significantly impede readability.",
+      "Demonstrates a good understanding of punctuation rules; occasional errors do not impede readability.",
+      "Demonstrates a strong understanding of punctuation rules; very few errors.",
+      "Demonstrates mastery of punctuation rules; no errors."
+    ],
+    [
+      "Demonstrates no understanding of spelling rules; errors are frequent and random.",
+      "Demonstrates limited understanding of spelling rules; errors are frequent and interfere with readability.",
+      "Demonstrates some understanding of spelling rules; errors are noticeable but do not significantly impede readability.",
+      "Demonstrates a good understanding of spelling rules; occasional errors do not impede readability.",
+      "Demonstrates a strong understanding of spelling rules; very few errors.",
+      "Demonstrates mastery of spelling rules; no errors."
+    ],
+    [
+      "Demonstrates no understanding of hyphenation conventions; errors are frequent and random.",
+      "Demonstrates limited understanding of hyphenation conventions; errors are frequent and interfere with readability.",
+      "Demonstrates some understanding of hyphenation conventions; errors are noticeable but do not significantly impede readability.",
+      "Demonstrates a good understanding of hyphenation conventions; occasional errors do not impede readability.",
+      "Demonstrates a strong understanding of hyphenation conventions; very few errors.",
+      "Demonstrates mastery of hyphenation conventions; no errors."
+    ]
+  ]
+}

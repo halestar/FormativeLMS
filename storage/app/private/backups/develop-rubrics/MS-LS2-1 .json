@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Data Interpretation: Ability to accurately analyze and interpret provided data (graphs, charts, etc.) related to resource availability and population sizes.",
+    "Evidence-Based Reasoning: The extent to which conclusions are supported by evidence from the data.",
+    "Understanding of Ecosystem Dynamics: Demonstrates an understanding of how resource availability affects organisms and populations within an ecosystem."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze or interpret the data; draws no conclusions.",
+      "Attempts to analyze data, but interpretations are inaccurate or irrelevant to the relationship between resource availability and population sizes.",
+      "Identifies some trends in the data but struggles to connect them to resource availability and population sizes. Interpretation lacks depth.",
+      "Accurately interprets data, identifying trends related to resource availability and population sizes. Explanation of the connection is somewhat superficial.",
+      "Provides a clear and accurate interpretation of the data, explicitly linking resource availability to changes in population sizes with supporting evidence.",
+      "Offers a sophisticated and nuanced interpretation of the data, thoroughly explaining the relationship between resource availability and population sizes, including potential limitations or confounding factors."
+    ],
+    [
+      "Conclusions are not supported by the data; makes claims without evidence.",
+      "Provides minimal evidence, and it is weakly connected to the conclusions.",
+      "Some evidence is provided, but the connection to the conclusion is unclear or incomplete.",
+      "Conclusions are generally supported by evidence from the data, but some connections could be stronger.",
+      "Clearly supports conclusions with specific evidence from the data, showing a strong connection between the two.",
+      "Masterfully uses evidence from the data to support well-reasoned conclusions, demonstrating a deep understanding of the cause-and-effect relationships."
+    ],
+    [
+      "Demonstrates no understanding of ecosystem dynamics or the role of resources.",
+      "Shows a limited understanding of ecosystem dynamics; struggles to explain how resource availability impacts organisms or populations.",
+      "Displays a basic understanding of ecosystem dynamics but may oversimplify the relationships between resources and organisms.",
+      "Understands the general relationship between resource availability and ecosystem dynamics, but the explanation lacks detail.",
+      "Clearly explains how resource availability influences organisms and populations within an ecosystem, providing relevant examples.",
+      "Demonstrates a comprehensive understanding of ecosystem dynamics, including complex interactions and feedback loops related to resource availability and its impact on organisms and populations."
+    ]
+  ]
+}

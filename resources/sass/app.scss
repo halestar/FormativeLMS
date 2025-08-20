@@ -126,8 +126,13 @@ select[multiple]
 //border addons
 .border-dotted
 {
-    border-style: dotted;
+    border-style: dotted !important;
 }
+
+.border-dashed {
+    border-style: dashed !important;
+}
+
 $pos-values: ("top": top, "bottom": bottom, "start": left, "end": right);
 @each $name, $pos in $pos-values
 {

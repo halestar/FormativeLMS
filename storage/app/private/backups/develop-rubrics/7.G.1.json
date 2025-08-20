@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Scale Drawings",
+    "Accuracy in Computations",
+    "Ability to Reproduce Scale Drawings",
+    "Problem-Solving Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of scale drawings is demonstrated.",
+      "Struggles to identify scale factors and their impact on geometric figures.",
+      "Identifies scale factors but makes errors in calculations of actual lengths and areas.",
+      "Understands scale factors and performs basic calculations with some accuracy.",
+      "Accurately calculates actual lengths and areas from scale drawings; may have minor errors in complex problems.",
+      "Demonstrates a thorough understanding of scale drawings, accurately calculates lengths and areas, and explains the relationships effectively."
+    ],
+    [
+      "Computations are inaccurate and do not reflect an understanding of mathematical principles.",
+      "Significant errors in computations with little understanding of mathematical concepts.",
+      "Some errors in computations; demonstrates partial understanding of mathematical principles.",
+      "Computations are mostly accurate, with occasional errors; demonstrates a solid understanding of mathematical principles.",
+      "Computations are accurate and precise; demonstrates a strong understanding of mathematical principles.",
+      "Computations are consistently accurate and precise; demonstrates a deep understanding of mathematical principles and provides clear explanations."
+    ],
+    [
+      "Unable to reproduce scale drawings at a different scale.",
+      "Attempts to reproduce scale drawings but makes significant errors in proportion and dimensions.",
+      "Reproduces scale drawings with some errors in proportion and dimensions.",
+      "Reproduces scale drawings with reasonable accuracy, demonstrating understanding of scale factors.",
+      "Accurately reproduces scale drawings at a different scale, with precise attention to proportion and dimensions.",
+      "Consistently reproduces scale drawings with exceptional accuracy, demonstrating a deep understanding of scale factors and their effects on geometric figures."
+    ],
+    [
+      "Unable to approach or solve problems involving scale drawings.",
+      "Attempts to solve problems but struggles with basic concepts and calculations.",
+      "Solves simple problems with some errors but struggles with more complex problems.",
+      "Solves most problems correctly, demonstrating a good understanding of scale drawings.",
+      "Solves complex problems accurately and efficiently, demonstrating a strong understanding of scale drawings.",
+      "Consistently solves complex problems accurately and efficiently, demonstrating a deep understanding of scale drawings and provides clear, logical solutions."
+    ]
+  ]
+}

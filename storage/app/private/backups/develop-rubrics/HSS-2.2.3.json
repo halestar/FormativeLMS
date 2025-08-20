@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Ancestral Location Identification and Mapping",
+    "Clarity and Detail in Describing the Family's Migration",
+    "Insightfulness of Reasons for Migration"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to locate their ancestors' original homeland on a map or the information provided is entirely inaccurate.",
+      "Student attempts to locate their ancestors' homeland, but the location is significantly misplaced or vaguely identified. Map skills are not demonstrated.",
+      "Student identifies the general region of their ancestors' homeland, but the location lacks precision. Map skills are rudimentary.",
+      "Student accurately locates their ancestors' homeland on a map with reasonable precision. Map skills are adequately demonstrated.",
+      "Student precisely locates their ancestors' homeland on a map, demonstrating good map skills and attention to detail. Minor details might be missing regarding migrations.",
+      "Student expertly locates their ancestors' homeland on a map with exceptional precision and clearly demonstrates advanced map skills. The migration to their current local community is clearly mapped as well."
+    ],
+    [
+      "Student provides no information about their family's migration to the local community or the information is incomprehensible.",
+      "Student offers a vague or incomplete account of their family's migration, lacking key details about the timing, route, or reasons for the trip.",
+      "Student describes the family's migration with some clarity but misses important details about when, how, or why the move occurred.",
+      "Student provides a clear description of the family's migration, including the approximate time, mode of travel, and a basic explanation of the reasons for the move.",
+      "Student offers a detailed and coherent account of the family's migration, including specific information about the timing, route, mode of travel, and the primary motivations behind the move. Only some minor details are missing.",
+      "Student presents a comprehensive and insightful narrative of the family's migration, including specific dates, detailed route descriptions, mode of travel, and a nuanced understanding of the social, economic, or political factors influencing the move."
+    ],
+    [
+      "Student provides no reason or a completely irrelevant reason for the family's migration.",
+      "Student provides a reason for the family's migration that is superficial or lacks connection to historical or personal context.",
+      "Student provides a basic reason for the family's migration, but lacks depth or supporting evidence.",
+      "Student provides a reasonable explanation for the family's migration, connecting it to broader historical or personal circumstances.",
+      "Student provides an insightful explanation for the family's migration, demonstrating an understanding of the complex factors that influenced the decision.",
+      "Student provides a nuanced and sophisticated explanation for the family's migration, demonstrating a deep understanding of the historical, social, economic, and\/or political context that shaped the family's decision and experience."
+    ]
+  ]
+}

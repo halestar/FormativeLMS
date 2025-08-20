@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to recognize and name appropriate individuals for assistance with health issues.",
+    "Understanding of when and how to seek help for health-related issues.",
+    "Knowledge of specific procedures for potentially life-threatening health conditions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any individuals who can assist with health-related issues or life-threatening conditions.",
+      "Student can identify only one type of individual (e.g., school nurse) who can assist with health issues.",
+      "Student can identify a few individuals (e.g., school nurse, family doctor) but shows limited understanding of their roles.",
+      "Student can identify several individuals (e.g., school nurse, family doctor, EMT) and demonstrates a basic understanding of their roles in health assistance.",
+      "Student can accurately identify a variety of individuals and resources (e.g., school nurse, family doctor, EMT, crisis hotline) and clearly explains their respective roles in providing health assistance.",
+      "Student can comprehensively identify a wide range of individuals and resources, accurately explains their roles, and demonstrates an understanding of when and how to access them effectively in various health-related situations."
+    ],
+    [
+      "Student does not demonstrate understanding of when it is necessary to seek help for health issues.",
+      "Student shows minimal awareness of situations requiring assistance, primarily focusing on obvious emergencies.",
+      "Student recognizes some situations needing assistance but lacks clarity on how to seek help effectively.",
+      "Student generally understands when to seek help for common health issues and can describe basic steps to take.",
+      "Student demonstrates a clear understanding of when to seek help for a range of health issues and explains the process of seeking assistance in detail.",
+      "Student exhibits a comprehensive understanding of when and how to seek help, demonstrating the ability to prioritize situations and navigate complex systems for assistance."
+    ],
+    [
+      "Student is unable to identify any procedures related to life-threatening health conditions.",
+      "Student can identify one procedure (e.g., calling 911) but shows no further knowledge.",
+      "Student identifies a few procedures but lacks specifics and may confuse steps.",
+      "Student knows basic steps for handling common conditions like asthma or seizures but lacks detail.",
+      "Student accurately describes several steps for handling conditions and knows when to implement them.",
+      "Student can expertly detail comprehensive procedures for multiple conditions, including necessary precautions and follow-up actions."
+    ]
+  ]
+}

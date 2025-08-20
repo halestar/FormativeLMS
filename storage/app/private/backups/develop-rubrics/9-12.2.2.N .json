@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Personal Barriers",
+    "Explanation of Impact",
+    "Relevance and Specificity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any personal barriers to healthy eating and physical activity.",
+      "Student identifies one or two vague or superficial barriers.",
+      "Student identifies some personal barriers, but the explanation lacks depth or connection to their own life.",
+      "Student identifies several relevant personal barriers to healthy eating and physical activity with reasonable explanations.",
+      "Student thoroughly identifies and explains multiple relevant personal barriers, demonstrating a clear understanding of their impact.",
+      "Student comprehensively identifies and analyzes personal barriers, providing insightful explanations and demonstrating a deep understanding of their impact on healthy choices."
+    ],
+    [
+      "Student does not explain the impact of the identified barriers.",
+      "Student provides a minimal or unclear explanation of the impact of the barriers.",
+      "Student offers a basic explanation of how the identified barriers can affect healthy choices.",
+      "Student explains how the identified barriers can impact their ability to eat healthily and be physically active, providing some specific examples.",
+      "Student clearly explains the impact of the barriers on their health behaviors, providing detailed and relevant examples.",
+      "Student provides a comprehensive analysis of the impact of barriers, including short-term and long-term consequences, and offers potential solutions."
+    ],
+    [
+      "Barriers identified are not relevant or specific to the student's life.",
+      "Barriers identified are somewhat relevant but lack specific details.",
+      "Barriers identified are generally relevant to healthy eating and physical activity, but specificity is lacking.",
+      "Barriers identified are relevant and somewhat specific to the student's experiences and circumstances.",
+      "Barriers identified are highly relevant and specific, reflecting the student's personal challenges.",
+      "Barriers identified are exceptionally relevant and specific, demonstrating a deep self-awareness and understanding of their personal context."
+    ]
+  ]
+}

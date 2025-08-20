@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Similarity Transformations: Assesses the student's ability to explain how similarity transformations (dilation, rotation, translation, reflection) preserve shape but not necessarily size.",
+    "Application of Dilation: Evaluates the student's ability to use dilation to change the radius of a circle and map it onto another circle.",
+    "Logical Reasoning and Proof Construction: Assesses the student's ability to construct a logical argument to prove that all circles are similar."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of similarity transformations or their properties.",
+      "Shows minimal understanding of similarity transformations; struggles to explain how they affect circles.",
+      "Identifies similarity transformations but provides incomplete explanations of how they relate to circle similarity.",
+      "Explains how similarity transformations can map one circle onto another, but lacks precision or detail.",
+      "Clearly explains how similarity transformations preserve the shape of circles while altering size, providing relevant details.",
+      "Provides a comprehensive and insightful explanation of how similarity transformations are used to prove that all circles are similar, including detailed examples."
+    ],
+    [
+      "Unable to apply dilation or understand its effect on a circle's radius.",
+      "Attempts to apply dilation but struggles to determine the correct scale factor or resulting radius.",
+      "Applies dilation with some accuracy but makes errors in calculating the scale factor or resulting radius.",
+      "Accurately applies dilation to map one circle onto another, but the explanation lacks clarity.",
+      "Effectively uses dilation to demonstrate the similarity between circles, providing a clear and accurate explanation of the process.",
+      "Demonstrates a sophisticated understanding of dilation, using it creatively and precisely to prove circle similarity, including justification of the scale factor."
+    ],
+    [
+      "Presents no logical argument or proof to support the claim that all circles are similar.",
+      "Attempts to construct a proof but presents a disorganized or incomplete argument with logical gaps.",
+      "Constructs a partially logical argument but makes some errors in reasoning or omits key steps.",
+      "Presents a generally logical argument, but the proof may lack rigor or clarity in its steps.",
+      "Constructs a clear and logical proof that all circles are similar, with well-defined steps and justifications.",
+      "Develops a rigorous and elegant proof, demonstrating a deep understanding of geometric principles and providing comprehensive justifications for each step."
+    ]
+  ]
+}

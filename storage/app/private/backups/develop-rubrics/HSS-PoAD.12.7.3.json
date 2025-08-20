@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Reserved Powers",
+    "Understanding of Concurrent Powers",
+    "Comparison of Reserved and Concurrent Powers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of reserved powers.",
+      "Student struggles to define reserved powers and provides inaccurate examples.",
+      "Student can define reserved powers but struggles to provide relevant examples or explain their significance.",
+      "Student accurately defines reserved powers and provides a basic example.",
+      "Student accurately defines reserved powers and provides relevant examples, explaining their importance in the federal system.",
+      "Student demonstrates a comprehensive understanding of reserved powers, providing insightful examples and explaining their implications for state autonomy and federalism."
+    ],
+    [
+      "Student demonstrates no understanding of concurrent powers.",
+      "Student struggles to define concurrent powers and provides inaccurate examples.",
+      "Student can define concurrent powers but struggles to provide relevant examples or explain their significance.",
+      "Student accurately defines concurrent powers and provides a basic example.",
+      "Student accurately defines concurrent powers and provides relevant examples, explaining their shared nature between state and federal governments.",
+      "Student demonstrates a comprehensive understanding of concurrent powers, providing insightful examples and analyzing their impact on the balance of power between state and federal entities."
+    ],
+    [
+      "Student does not attempt to compare reserved and concurrent powers.",
+      "Student attempts to compare the powers but demonstrates significant misunderstandings and inaccuracies.",
+      "Student identifies some differences between reserved and concurrent powers but lacks clarity and depth in their comparison.",
+      "Student provides a basic comparison of reserved and concurrent powers, highlighting key differences and similarities.",
+      "Student provides a clear and accurate comparison of reserved and concurrent powers, explaining their distinct characteristics and areas of overlap.",
+      "Student provides a sophisticated analysis comparing reserved and concurrent powers, exploring the nuances of their relationship and the implications for governance."
+    ]
+  ]
+}

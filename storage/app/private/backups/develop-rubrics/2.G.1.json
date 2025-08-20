@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in identifying and drawing shapes with specified attributes (angles, equal faces).",
+    "Ability to differentiate between triangles, quadrilaterals, pentagons, hexagons, and cubes.",
+    "Clarity and precision in drawings."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to recognize or draw basic shapes; shows no understanding of attributes.",
+      "Struggles to identify and draw shapes; frequently confuses attributes.",
+      "Identifies and draws some shapes correctly but makes several errors with attributes.",
+      "Generally accurately identifies and draws shapes with mostly correct attributes.",
+      "Accurately identifies and draws shapes with correct attributes with only minor errors.",
+      "Consistently and accurately identifies and draws shapes with specified attributes; demonstrates a thorough understanding."
+    ],
+    [
+      "Unable to differentiate between different types of shapes.",
+      "Shows minimal understanding of differences between shapes; significant confusion.",
+      "Identifies some shapes correctly but confuses others frequently.",
+      "Can usually differentiate between shapes but occasionally makes mistakes.",
+      "Clearly differentiates between most shapes with only rare errors.",
+      "Consistently and accurately differentiates between triangles, quadrilaterals, pentagons, hexagons, and cubes."
+    ],
+    [
+      "Drawings are unclear, imprecise, and do not represent the specified shapes.",
+      "Drawings are rough and lack precision; shapes are poorly represented.",
+      "Drawings are somewhat clear but lack detail and precision.",
+      "Drawings are generally clear and represent the shapes adequately.",
+      "Drawings are clear, neat, and represent the shapes accurately.",
+      "Drawings are exceptionally clear, precise, and accurately represent the shapes and their attributes."
+    ]
+  ]
+}

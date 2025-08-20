@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Agricultural Development Factors",
+    "Understanding of Industrial Development Factors",
+    "Mapping Skills",
+    "Relationship Between Agricultural and Industrial Development"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding demonstrated of factors influencing agricultural development (climate, resources, markets, trade).",
+      "Minimal understanding; struggles to identify even one factor.",
+      "Identifies a few factors (e.g., climate OR resources) but lacks depth in explanation.",
+      "Identifies multiple factors (climate, resources, markets, trade) with some explanation of their influence.",
+      "Clearly explains how climate, resources, markets, and trade individually impact agricultural development.",
+      "Provides a comprehensive analysis of how climate, resources, markets, and trade interact to shape agricultural development, including specific examples."
+    ],
+    [
+      "No understanding demonstrated of factors influencing industrial development (climate, resources, markets, trade).",
+      "Minimal understanding; struggles to identify even one factor.",
+      "Identifies a few factors (e.g., resources OR markets) but lacks depth in explanation.",
+      "Identifies multiple factors (climate, resources, markets, trade) with some explanation of their influence.",
+      "Clearly explains how climate, resources, markets, and trade individually impact industrial development.",
+      "Provides a comprehensive analysis of how climate, resources, markets, and trade interact to shape industrial development, including specific examples."
+    ],
+    [
+      "Unable to accurately locate areas of agricultural or industrial development on a map.",
+      "Struggles to locate areas, demonstrates significant inaccuracies.",
+      "Locates a few areas with limited accuracy.",
+      "Locates most areas of agricultural and industrial development with reasonable accuracy.",
+      "Accurately locates areas of both agricultural and industrial development on a map.",
+      "Accurately locates areas and provides a key or annotations connecting map locations to specific factors driving development in that area."
+    ],
+    [
+      "Fails to recognize any relationship between agricultural and industrial development.",
+      "Suggests a vague or inaccurate relationship.",
+      "Identifies a basic relationship (e.g., agriculture provides food for industrial workers).",
+      "Explains how agricultural development supports industrial development through resources or labor.",
+      "Explains the reciprocal relationship: how agriculture supports industry AND how industry impacts agricultural practices.",
+      "Analyzes the complex and evolving relationship between agricultural and industrial development over time, including both positive and negative consequences."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Causes of World War I",
+    "Knowledge of the War's Nature and Impact",
+    "Understanding of Colonial Contributions",
+    "Analysis of Human Costs"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the causes of World War I.",
+      "Identifies only one cause of World War I with limited accuracy.",
+      "Identifies a few causes of World War I but lacks depth in explanation.",
+      "Identifies several causes of World War I and provides some explanation.",
+      "Clearly explains multiple causes of World War I, demonstrating good understanding.",
+      "Provides a comprehensive analysis of the causes of World War I, including nuanced perspectives and historical context."
+    ],
+    [
+      "Shows no understanding of the nature of World War I or its impact.",
+      "Demonstrates minimal knowledge of the war's nature and impact, with significant inaccuracies.",
+      "Identifies some aspects of the war's nature and impact but struggles with details.",
+      "Describes the nature of the war and its impact with moderate accuracy and detail.",
+      "Explains the nature of World War I (e.g., trench warfare, new technologies) and its impact on military and civilians with clear details.",
+      "Offers a detailed and insightful analysis of the war's nature, its human costs, and the broader societal impacts."
+    ],
+    [
+      "Shows no awareness of colonial peoples' contributions to the war effort.",
+      "Mentions colonial involvement but lacks specifics or accuracy.",
+      "Briefly describes colonial contributions with limited understanding.",
+      "Describes some ways in which colonial peoples contributed to the war effort.",
+      "Explains the significant contributions of colonial peoples, providing specific examples.",
+      "Analyzes the multifaceted contributions of colonial peoples, exploring motivations, consequences, and differing experiences."
+    ],
+    [
+      "Fails to address the human costs of the war.",
+      "Acknowledges human costs superficially, without detail.",
+      "Lists some human costs (military or civilian) but lacks depth.",
+      "Describes the human costs on at least one side of the conflict with moderate detail.",
+      "Explains the human costs on multiple sides of the conflict, including both military and civilian impacts.",
+      "Provides a comprehensive analysis of the human costs on all sides, comparing and contrasting experiences and offering insightful commentary."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Demonstrates understanding of positive role modeling.",
+    "Exhibits positive role modeling behaviors in school settings.",
+    "Exhibits positive role modeling behaviors in community settings.",
+    "Demonstrates empathy and respect towards peers."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of what constitutes positive peer role modeling.",
+      "Shows limited understanding; struggles to identify positive role model behaviors.",
+      "Demonstrates basic understanding; can identify some positive role model behaviors.",
+      "Demonstrates solid understanding; can accurately identify and describe positive role model behaviors.",
+      "Demonstrates strong understanding; can analyze and explain the impact of positive role modeling.",
+      "Demonstrates exceptional understanding; can critically evaluate and synthesize information about positive role modeling and its effects."
+    ],
+    [
+      "Rarely or never exhibits positive behaviors; may display negative behaviors.",
+      "Inconsistently exhibits positive behaviors; may require prompting.",
+      "Sometimes exhibits positive behaviors; occasionally requires prompting.",
+      "Frequently exhibits positive behaviors; generally self-directed.",
+      "Consistently exhibits positive behaviors; proactively promotes positive interactions.",
+      "Exemplifies positive behaviors; serves as a mentor and inspires others to act positively."
+    ],
+    [
+      "Rarely or never exhibits positive behaviors in the community.",
+      "Shows limited engagement in positive community behaviors.",
+      "Participates in some positive community activities with guidance.",
+      "Actively participates in positive community activities.",
+      "Initiates and leads positive activities in the community.",
+      "Is a recognized leader and advocate for positive change in the community."
+    ],
+    [
+      "Shows a lack of empathy and respect; may be dismissive or disrespectful.",
+      "Demonstrates limited empathy and respect; may struggle to understand others' perspectives.",
+      "Demonstrates basic empathy and respect; acknowledges others' feelings and opinions.",
+      "Demonstrates consistent empathy and respect; actively listens and values diverse perspectives.",
+      "Demonstrates advanced empathy and respect; effectively supports and encourages peers.",
+      "Demonstrates exceptional empathy and respect; advocates for the needs and rights of others."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Claims: Demonstrates comprehension of the claims made about food and dietary supplements.",
+    "Accuracy Evaluation: Assesses the accuracy of claims based on provided information and evidence.",
+    "Evidence Use: Uses relevant evidence to support evaluations of claims.",
+    "Identification of Bias: Recognizes and identifies potential biases in claims about food and dietary supplements."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of the claims.",
+      "Struggles to understand the claims with significant misconceptions.",
+      "Demonstrates a basic understanding of the claims but misses some key aspects.",
+      "Shows a clear understanding of the claims, accurately identifying main points.",
+      "Exhibits a thorough and nuanced understanding of the claims, including subtleties.",
+      "Demonstrates an exceptional understanding of the claims, including complex and technical aspects."
+    ],
+    [
+      "Does not attempt to evaluate the accuracy of claims.",
+      "Attempts to evaluate but provides inaccurate or irrelevant assessments.",
+      "Identifies some accurate and inaccurate claims but lacks supporting evidence.",
+      "Accurately evaluates the majority of claims with some supporting evidence.",
+      "Provides accurate and well-supported evaluations for all claims, demonstrating critical thinking.",
+      "Offers insightful and evidence-based evaluations, going beyond the obvious to reveal deeper inaccuracies or validities."
+    ],
+    [
+      "Provides no evidence to support evaluations.",
+      "Uses irrelevant or weak evidence.",
+      "Uses some relevant evidence, but it is not effectively integrated.",
+      "Effectively uses relevant evidence to support most evaluations.",
+      "Consistently uses strong, relevant evidence to support all evaluations.",
+      "Critically evaluates and synthesizes diverse evidence sources to provide compelling support for evaluations."
+    ],
+    [
+      "Shows no awareness of potential biases.",
+      "Mentions bias superficially without explanation.",
+      "Identifies bias in some claims but does not explain the impact.",
+      "Clearly identifies bias and explains how it might affect the interpretation of claims.",
+      "Thoroughly analyzes potential biases and their implications on the reliability of claims.",
+      "Critically assesses the impact of bias, offering strategies to mitigate its effects on decision-making."
+    ]
+  ]
+}

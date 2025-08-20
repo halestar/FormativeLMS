@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Angle Formation",
+    "Understanding Angle Measurement",
+    "Application of Angle Measurement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not recognize angles as formed by two rays sharing a common endpoint.",
+      "Student shows limited understanding of angle formation, with significant misconceptions.",
+      "Student recognizes angles as formed by two rays but struggles to explain the concept clearly.",
+      "Student adequately understands and explains that angles are formed by two rays sharing a common endpoint.",
+      "Student clearly understands and explains angle formation and provides accurate examples.",
+      "Student demonstrates a thorough understanding of angle formation, including complex or non-standard examples."
+    ],
+    [
+      "Student does not demonstrate understanding of angle measurement with reference to a circle.",
+      "Student shows minimal understanding of relating angles to fractions of a circle, with major misconceptions.",
+      "Student attempts to relate angles to a circle but struggles with accuracy and explanation.",
+      "Student adequately explains angle measurement using fractions of a circle and the concept of a degree.",
+      "Student clearly explains angle measurement and its relation to a circle, including the definition of a degree.",
+      "Student provides a comprehensive understanding of angle measurement, including detailed explanations of the relationship between degrees and circular arcs, and can apply this knowledge to solve complex problems."
+    ],
+    [
+      "Student cannot apply the concept of angle measurement to determine the size of an angle.",
+      "Student attempts to apply angle measurement but is largely unsuccessful, with many errors.",
+      "Student can apply angle measurement to simple angles but struggles with more complex angles or diagrams.",
+      "Student can accurately measure angles in most scenarios, using the concept of degrees and circular fractions.",
+      "Student consistently and accurately measures angles in a variety of scenarios, including complex diagrams.",
+      "Student demonstrates mastery in applying angle measurement, including solving complex problems and justifying solutions with clear reasoning."
+    ]
+  ]
+}

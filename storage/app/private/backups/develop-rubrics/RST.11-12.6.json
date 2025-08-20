@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Author's Purpose",
+    "Analysis of Explanation\/Procedure\/Experiment",
+    "Identification of Unresolved Issues",
+    "Clarity and Coherence of Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify the author's purpose.",
+      "The student attempts to identify the author's purpose but is inaccurate or incomplete.",
+      "The student identifies the author's purpose with limited accuracy or detail.",
+      "The student identifies the author's purpose with reasonable accuracy and some detail.",
+      "The student accurately identifies the author's purpose and provides supporting details from the text.",
+      "The student accurately and insightfully identifies the author's purpose, providing strong textual evidence and demonstrating a clear understanding of its significance."
+    ],
+    [
+      "The student fails to analyze the explanation, procedure, or experiment presented in the text.",
+      "The student's analysis is superficial and lacks depth.",
+      "The student provides a basic analysis but misses key components or complexities.",
+      "The student provides a comprehensive analysis of the explanation, procedure, or experiment.",
+      "The student provides a detailed analysis of the explanation, procedure, or experiment, including its strengths and limitations.",
+      "The student provides an insightful and nuanced analysis, demonstrating a sophisticated understanding of the subject matter."
+    ],
+    [
+      "The student does not identify any unresolved issues in the text.",
+      "The student identifies irrelevant and unsupported issues.",
+      "The student identifies a few vague or poorly supported unresolved issues.",
+      "The student identifies one or two relevant unresolved issues with some supporting evidence.",
+      "The student identifies multiple relevant unresolved issues and provides supporting evidence from the text.",
+      "The student identifies and thoroughly explains multiple relevant unresolved issues, demonstrating a deep understanding of the topic and its complexities."
+    ],
+    [
+      "The student's analysis is unclear and disorganized.",
+      "The student's analysis is difficult to follow and lacks logical organization.",
+      "The student's analysis is somewhat coherent but lacks clarity in certain areas.",
+      "The student's analysis is generally clear and well-organized.",
+      "The student's analysis is clear, concise, and logically organized.",
+      "The student's analysis is exceptionally clear, insightful, and persuasively presented."
+    ]
+  ]
+}

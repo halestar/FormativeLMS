@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Definitions",
+    "Computation Skills",
+    "Application and Problem-Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of mean, median, or mode.",
+      "Student demonstrates a limited understanding of only one measure (mean, median, or mode).",
+      "Student demonstrates a partial understanding of two measures (mean, median, and mode).",
+      "Student demonstrates an understanding of all three measures (mean, median, and mode) but with some inaccuracies.",
+      "Student demonstrates a clear understanding of all three measures (mean, median, and mode) with minor errors.",
+      "Student demonstrates a comprehensive and accurate understanding of all three measures (mean, median, and mode)."
+    ],
+    [
+      "Student is unable to compute the mean, median, or mode in any situation.",
+      "Student can compute only one measure (mean, median, or mode) in very simple situations.",
+      "Student can compute two measures (mean, median, and mode) in simple situations.",
+      "Student can compute all three measures (mean, median, and mode) in simple situations but struggles with more complex data sets.",
+      "Student can accurately compute all three measures (mean, median, and mode) in most situations with minimal errors.",
+      "Student can accurately and efficiently compute all three measures (mean, median, and mode) in a variety of complex situations."
+    ],
+    [
+      "Student is unable to apply the measures of central tendency to solve problems.",
+      "Student can attempt to apply one measure to solve a problem but demonstrates significant misunderstandings.",
+      "Student can apply measures to solve very basic problems but struggles with interpretation.",
+      "Student can apply measures to solve problems but may make errors in selecting the appropriate measure.",
+      "Student can apply measures to solve problems effectively, choosing appropriate measures with only minor errors in calculation or interpretation.",
+      "Student can apply measures to solve complex problems effectively, demonstrating a strong ability to interpret the results in context."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Cultural Contact: Assessing the student's ability to describe and explain how products, practices, and perspectives change when cultures interact.",
+    "Use of Target Language: Evaluating the student's ability to effectively use the target language to investigate and discuss cultural influences.",
+    "Depth of Investigation: Assessing the extent to which the student delves into the topic and explores the reasons and outcomes of cultural changes."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how cultural contact leads to changes in products, practices, or perspectives.",
+      "Shows a very limited understanding of cultural contact with vague or inaccurate descriptions of changes.",
+      "Identifies some changes in products, practices, or perspectives due to cultural contact, but explanations are superficial.",
+      "Describes several changes in products, practices, and perspectives due to cultural contact with reasonable clarity and accuracy.",
+      "Explains in detail how cultural contact leads to significant changes in products, practices, and perspectives, providing specific examples.",
+      "Provides a comprehensive and insightful analysis of how cultural contact transforms products, practices, and perspectives, demonstrating a nuanced understanding with well-supported examples."
+    ],
+    [
+      "Unable to use the target language to discuss cultural contact or influences.",
+      "Uses the target language with significant errors that impede understanding of cultural influences.",
+      "Uses basic target language to describe cultural influences, but with limited vocabulary and grammatical accuracy.",
+      "Communicates adequately in the target language to discuss cultural influences, with some errors that do not significantly impede understanding.",
+      "Uses the target language effectively to investigate and discuss cultural influences with good vocabulary and grammatical control.",
+      "Demonstrates excellent command of the target language to thoroughly investigate and articulate complex ideas about cultural influences with precision and fluency."
+    ],
+    [
+      "Does not investigate the reasons or outcomes of cultural changes resulting from contact.",
+      "Offers minimal investigation into the reasons or outcomes, with no supporting details.",
+      "Investigates some reasons and outcomes of cultural changes, but the analysis is shallow and lacks detail.",
+      "Explores several reasons and outcomes of cultural changes with some supporting evidence and analysis.",
+      "Conducts a detailed investigation into the reasons and outcomes of cultural changes, providing well-supported analysis.",
+      "Presents a thorough and insightful investigation into the underlying reasons and significant outcomes of cultural changes, demonstrating comprehensive research and critical thinking."
+    ]
+  ]
+}

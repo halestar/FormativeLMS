@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Sugar Content in Common Foods and Beverages",
+    "Ability to Identify and Evaluate Personal Sugar Consumption Habits",
+    "Application of Strategies to Limit Sugar Consumption",
+    "Awareness of Health Implications Related to Sugar Consumption"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of sugar content in common foods and beverages.",
+      "Shows minimal awareness of sugar content, struggles to identify sources of added sugars.",
+      "Identifies some common sources of sugar but lacks a comprehensive understanding of nutritional labels.",
+      "Understands how to read nutritional labels and identify sugar content in most common foods and beverages.",
+      "Demonstrates a strong understanding of sugar content and can accurately assess sugar levels in various food products, including hidden sources.",
+      "Exhibits expert-level knowledge of sugar content, including different types of sugars and their impact on health, and effectively analyzes complex nutritional information."
+    ],
+    [
+      "Unable to identify personal sugar consumption habits or sources of sugar intake.",
+      "Identifies one or two sources of sugar intake but lacks a complete picture of personal consumption.",
+      "Recognizes several sources of sugar intake and can roughly estimate daily consumption.",
+      "Accurately identifies most sources of sugar intake and can estimate daily consumption with reasonable accuracy.",
+      "Demonstrates a comprehensive understanding of personal sugar consumption habits and accurately tracks daily intake.",
+      "Provides a detailed analysis of personal sugar consumption habits, including patterns and triggers, and maintains meticulous records."
+    ],
+    [
+      "Does not attempt or suggest any strategies for limiting sugar consumption.",
+      "Suggests one or two basic strategies but shows little effort in applying them.",
+      "Attempts some strategies to limit sugar consumption with limited success.",
+      "Consistently applies several strategies to limit sugar consumption and demonstrates moderate success.",
+      "Implements a variety of effective strategies to limit sugar consumption and shows significant improvement in reducing intake.",
+      "Masterfully applies a comprehensive set of strategies to limit sugar consumption, achieving a substantial and sustained reduction in intake while advocating for healthier choices."
+    ],
+    [
+      "Demonstrates no awareness of the negative health implications related to sugar consumption.",
+      "Shows minimal awareness of one or two health risks associated with high sugar intake.",
+      "Identifies several common health risks but lacks a deeper understanding of the mechanisms involved.",
+      "Understands the common health risks associated with high sugar intake, such as weight gain and tooth decay.",
+      "Demonstrates a strong understanding of various health implications, including metabolic disorders and cardiovascular issues.",
+      "Exhibits in-depth knowledge of the multifaceted health impacts of excessive sugar consumption, including its effects on mental health and chronic disease development."
+    ]
+  ]
+}

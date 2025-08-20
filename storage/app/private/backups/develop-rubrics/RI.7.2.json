@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Central Ideas",
+    "Analysis of Development",
+    "Objectivity of Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any central ideas.",
+      "Identifies only one central idea inaccurately.",
+      "Identifies one central idea, but struggles with accuracy or relevance.",
+      "Identifies two central ideas with basic accuracy.",
+      "Identifies two or more central ideas accurately, but lacks depth.",
+      "Accurately identifies and articulates multiple central ideas within the text."
+    ],
+    [
+      "Provides no analysis of the development of central ideas.",
+      "Attempts to analyze development, but is unclear or irrelevant.",
+      "Provides a superficial analysis of the development of one central idea.",
+      "Analyzes the development of two central ideas with limited insight.",
+      "Provides a detailed analysis of how central ideas develop over the text.",
+      "Offers a comprehensive and insightful analysis of the development of central ideas throughout the text."
+    ],
+    [
+      "Summary is missing or completely subjective.",
+      "Summary is heavily biased or lacks key information.",
+      "Summary contains some subjective elements or omits important details.",
+      "Provides a mostly objective summary with minor lapses.",
+      "Provides a clear and objective summary of the text.",
+      "Delivers a concise, comprehensive, and entirely objective summary of the text, accurately reflecting the author's intent."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Key Countries' Losses",
+    "Understanding of Human Costs",
+    "Contextualization of Losses"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any of the specified countries or their losses during WWII.",
+      "Identifies one or two of the specified countries, but provides inaccurate or incomplete information about their losses.",
+      "Identifies three or four of the specified countries and provides basic information about their losses, but lacks depth or detail.",
+      "Identifies five or six of the specified countries and provides adequate information about their losses, but may have minor inaccuracies.",
+      "Accurately identifies all specified countries and provides detailed information about their civilian and military losses, demonstrating a solid understanding.",
+      "Accurately identifies all specified countries, provides comprehensive and nuanced information about their losses, and offers insightful comparisons or analyses."
+    ],
+    [
+      "Demonstrates no understanding of the human costs of WWII.",
+      "Shows limited understanding of the human costs, mainly focusing on numbers without context.",
+      "Recognizes the human costs but does not elaborate on the specific impacts on different populations.",
+      "Explains the human costs with some attention to the civilian and military impacts, but lacks detailed examples.",
+      "Clearly articulates the human costs of the war, providing specific examples of civilian and military suffering and loss.",
+      "Provides a deep and empathetic analysis of the human costs, exploring the long-term impacts on societies and individuals, and showing nuanced understanding."
+    ],
+    [
+      "Provides no context for the losses, presenting figures without any interpretive framework.",
+      "Offers minimal context, failing to relate the losses to the broader historical context of the war.",
+      "Attempts to provide context, but the connections to the war's events are weak or unclear.",
+      "Connects the losses to some of the war's events, providing a basic historical framework.",
+      "Effectively contextualizes the losses within the major events and turning points of WWII, demonstrating good historical understanding.",
+      "Masterfully contextualizes the losses, providing a sophisticated historical analysis that integrates political, social, and military factors, showing keen insight."
+    ]
+  ]
+}

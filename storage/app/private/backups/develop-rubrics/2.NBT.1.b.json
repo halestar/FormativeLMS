@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Hundreds",
+    "Understanding Tens",
+    "Understanding Ones",
+    "Special Cases (Hundreds)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding that the first digit in a three-digit number represents the amount of hundreds.",
+      "Student struggles to identify the value of the hundreds place in a three-digit number with guidance.",
+      "Student can identify the value of the hundreds place in most three-digit numbers but makes occasional errors.",
+      "Student accurately identifies the value of the hundreds place in any three-digit number.",
+      "Student can explain the value of the hundreds place and relate it to other place values.",
+      "Student demonstrates a thorough understanding of hundreds, including numbers with 0 tens and 0 ones."
+    ],
+    [
+      "Student does not demonstrate an understanding that the second digit in a three-digit number represents the amount of tens.",
+      "Student struggles to identify the value of the tens place in a three-digit number with guidance.",
+      "Student can identify the value of the tens place in most three-digit numbers but makes occasional errors.",
+      "Student accurately identifies the value of the tens place in any three-digit number.",
+      "Student can explain the value of the tens place and relate it to other place values.",
+      "Student demonstrates a thorough understanding of tens, including numbers with 0 ones."
+    ],
+    [
+      "Student does not demonstrate an understanding that the third digit in a three-digit number represents the amount of ones.",
+      "Student struggles to identify the value of the ones place in a three-digit number with guidance.",
+      "Student can identify the value of the ones place in most three-digit numbers but makes occasional errors.",
+      "Student accurately identifies the value of the ones place in any three-digit number.",
+      "Student can explain the value of the ones place and relate it to other place values.",
+      "Student demonstrates a thorough understanding of ones and its relationship to tens and hundreds."
+    ],
+    [
+      "Student is unable to recognize numbers like 100, 200, 300, etc. as representing a specific number of hundreds.",
+      "Student requires significant prompting to associate numbers like 100, 200, 300, etc. with their respective hundreds value.",
+      "Student identifies numbers like 100, 200, 300, etc. as hundreds, but struggles to articulate why.",
+      "Student correctly identifies numbers like 100, 200, 300, etc. as representing a specific number of hundreds.",
+      "Student explains with minor errors numbers like 100, 200, 300, etc. represent one, two, three... hundreds.",
+      "Student expertly explains how numbers such as 100, 200, 300, etc., represent one, two, three, etc. hundreds, respectively, with no errors."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Symbols and Key Terms",
+    "Understanding of Domain-Specific Vocabulary",
+    "Contextual Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any symbols or key terms in the text.",
+      "The student identifies a few symbols or key terms, but the identifications are largely inaccurate or irrelevant.",
+      "The student identifies some symbols and key terms with limited accuracy. Understanding of their meaning within the text is superficial.",
+      "The student identifies most symbols and key terms correctly. The student demonstrates a basic understanding of their meaning within the text.",
+      "The student correctly identifies nearly all symbols and key terms. The student demonstrates a clear understanding of their meaning within the specific scientific or technical context.",
+      "The student accurately and comprehensively identifies all symbols and key terms, demonstrating a sophisticated understanding of their nuanced meanings and implications within the scientific or technical context. Demonstrates the ability to apply understanding in novel contexts."
+    ],
+    [
+      "The student does not demonstrate understanding of any domain-specific vocabulary.",
+      "The student attempts to define domain-specific vocabulary, but definitions are largely incorrect or missing.",
+      "The student provides partially correct definitions for some domain-specific vocabulary but struggles with applying these definitions to the text.",
+      "The student demonstrates a generally accurate understanding of domain-specific vocabulary and applies it to the text with some success.",
+      "The student demonstrates a strong understanding of domain-specific vocabulary and effectively applies it to interpret the text accurately.",
+      "The student exhibits mastery of domain-specific vocabulary, using it seamlessly to interpret complex information and draw insightful conclusions relevant to the scientific or technical field."
+    ],
+    [
+      "The student fails to apply any identified terms or symbols to the scientific or technical context.",
+      "The student attempts to apply identified terms and symbols to the context, but the application is illogical or irrelevant.",
+      "The student shows a limited ability to connect the meaning of terms and symbols to the broader context of the scientific or technical text.",
+      "The student makes reasonable connections between the terms\/symbols and the context, enhancing their interpretation of the text.",
+      "The student skillfully applies the meaning of terms and symbols to enhance comprehension and draw conclusions about the scientific or technical context.",
+      "The student demonstrates an exceptional ability to use the meaning of symbols, key terms, and domain-specific vocabulary to fully comprehend and analyze the scientific or technical context, synthesizing information to form sophisticated insights."
+    ]
+  ]
+}

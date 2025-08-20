@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the law-making process",
+    "Knowledge of citizen participation opportunities",
+    "Understanding of constitutional provisions for citizen influence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the basic law-making process.",
+      "Shows minimal understanding of the law-making process with significant inaccuracies.",
+      "Identifies some steps in the law-making process, but with gaps in understanding and some inaccuracies.",
+      "Describes the basic law-making process with general accuracy, but may miss some details or nuances.",
+      "Explains the law-making process accurately and includes key steps, but may not fully address the complexities.",
+      "Provides a comprehensive and accurate description of the law-making process, including its complexities and potential challenges."
+    ],
+    [
+      "Demonstrates no knowledge of opportunities for citizens to participate in the political process.",
+      "Identifies few opportunities for citizen participation and struggles to explain their function.",
+      "Lists some ways citizens can participate in the political process but provides limited explanation.",
+      "Describes several opportunities for citizen participation with basic explanations of their purpose.",
+      "Explains multiple ways citizens can participate in the political process and provides clear examples.",
+      "Analyzes and explains various opportunities for citizen participation, including their impact and limitations, and provides insightful examples."
+    ],
+    [
+      "Shows no understanding of how the Constitution allows citizens to influence government.",
+      "Displays a limited awareness of the Constitution's role in providing avenues for citizen influence.",
+      "Identifies some constitutional provisions that enable citizen influence but lacks depth in explanation.",
+      "Describes how the Constitution provides opportunities for citizens to influence government, such as through elections and political parties.",
+      "Explains specific constitutional provisions and mechanisms that enable citizens to monitor and influence government effectively.",
+      "Provides a comprehensive analysis of the constitutional basis for citizen participation, including its historical context and contemporary relevance."
+    ]
+  ]
+}

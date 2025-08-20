@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifying elements of interpersonal communication",
+    "Analyzing the impact of communication on relationships",
+    "Application of communication skills in scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any elements of interpersonal communication (verbal, non-verbal, listening, feedback).",
+      "Student can identify 1 element of interpersonal communication, but explanation is unclear or incomplete.",
+      "Student can identify 2 elements of interpersonal communication with some explanation.",
+      "Student can identify 3 elements of interpersonal communication and provides a basic explanation of each.",
+      "Student accurately identifies 4 elements of interpersonal communication and explains how each contributes to effective communication.",
+      "Student accurately identifies multiple elements of interpersonal communication, thoroughly explains their contribution, and provides examples of effective and ineffective use."
+    ],
+    [
+      "Student cannot make any connection between interpersonal communication and relationship quality.",
+      "Student makes a vague or inaccurate statement about how communication affects relationships.",
+      "Student states that communication affects relationships, but lacks specific details or examples.",
+      "Student explains how communication can both positively and negatively affect relationships, providing general examples.",
+      "Student analyzes how specific communication techniques (e.g., active listening, assertive communication) impact different types of relationships (e.g., family, friends, romantic).",
+      "Student provides a nuanced analysis of the complex interplay between communication patterns and relationship dynamics, including the impact of cultural context and individual differences."
+    ],
+    [
+      "Student does not attempt to apply communication concepts to the scenario or provides irrelevant information.",
+      "Student's response to the scenario is unrealistic, inappropriate, or ineffective.",
+      "Student suggests a communication strategy that is partially appropriate for the scenario but lacks detail.",
+      "Student suggests a relevant communication strategy and explains how it could improve the scenario.",
+      "Student suggests a well-reasoned and effective communication strategy, considering the perspectives of all parties involved.",
+      "Student suggests a sophisticated and highly effective communication strategy, anticipating potential challenges and adapting their approach as needed. Demonstrates empathy and understanding of complex relationship dynamics."
+    ]
+  ]
+}

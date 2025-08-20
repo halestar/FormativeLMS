@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Experimental Design and Procedure",
+    "Evidence of Vibrating Materials Producing Sound",
+    "Evidence of Sound Making Materials Vibrate",
+    "Data Collection and Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to design or conduct an investigation.",
+      "The investigation lacks a clear question or any attempt to control variables.",
+      "The investigation has a question, but the procedure is unclear or has major flaws that would prevent gathering useful data. There is little to no control of variables.",
+      "The investigation has a somewhat clear question, and the procedure attempts to gather data, but there are some flaws in controlling variables that could affect results.",
+      "The investigation has a clear question, and the procedure is well-defined for gathering data with mostly controlled variables. Minor improvements could be made.",
+      "The investigation is well-designed with a clear question, a detailed and repeatable procedure, and careful control of variables to ensure accurate data collection."
+    ],
+    [
+      "No evidence presented.",
+      "Presents a vague understanding or guesses with no supporting evidence of vibrating materials making sound.",
+      "Attempts to describe vibrating materials creating sound, but lacks specific examples or accurate connections.",
+      "Provides some evidence of vibrating materials making sound, but lacks detail or clarity in explanations.",
+      "Clearly provides evidence of vibrating materials making sound with supporting details and accurate connections.",
+      "Provides comprehensive evidence of vibrating materials making sound, detailing specific examples with clear and accurate explanations. Demonstrates a deep understanding of the concept."
+    ],
+    [
+      "No evidence presented.",
+      "Presents a vague understanding or guesses with no supporting evidence of sound making materials vibrate.",
+      "Attempts to describe sound causing matter to vibrate, but lacks specific examples or accurate connections.",
+      "Provides some evidence of sound making materials vibrate, but lacks detail or clarity in explanations.",
+      "Clearly provides evidence of sound making materials vibrate with supporting details and accurate connections.",
+      "Provides comprehensive evidence of sound making materials vibrate, detailing specific examples with clear and accurate explanations. Demonstrates a deep understanding of the concept."
+    ],
+    [
+      "No data collected or presented.",
+      "Data collection is attempted but is incomplete, inaccurate, or irrelevant.",
+      "Data is collected but is poorly organized and difficult to interpret.  Analysis is superficial or missing.",
+      "Data is collected and presented in an organized manner, but analysis is limited and conclusions are not well-supported.",
+      "Data is collected, well-organized, and clearly presented. Analysis is thorough, and conclusions are generally supported by the data.",
+      "Data is meticulously collected, organized, and presented with clarity. Analysis is insightful, and conclusions are strongly supported by the data, demonstrating a sophisticated understanding of cause and effect."
+    ]
+  ]
+}

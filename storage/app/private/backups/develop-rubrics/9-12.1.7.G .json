@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of HIV\/AIDS Short-Term Effects",
+    "Understanding of HIV\/AIDS Long-Term Effects",
+    "Understanding of Short-Term Effects of Other STDs",
+    "Understanding of Long-Term Effects of Other STDs"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the short-term effects of HIV\/AIDS.",
+      "Student demonstrates minimal understanding, with significant inaccuracies or omissions.",
+      "Student identifies some short-term effects but lacks detail or has minor inaccuracies.",
+      "Student accurately describes several short-term effects of HIV\/AIDS.",
+      "Student comprehensively describes the short-term effects of HIV\/AIDS, including physiological aspects.",
+      "Student provides a detailed and nuanced explanation of the short-term effects of HIV\/AIDS, including an understanding of the underlying mechanisms and potential variations."
+    ],
+    [
+      "Student demonstrates no understanding of the long-term effects of HIV\/AIDS.",
+      "Student demonstrates minimal understanding, with significant inaccuracies or omissions.",
+      "Student identifies some long-term effects but lacks detail or has minor inaccuracies.",
+      "Student accurately describes several long-term effects of HIV\/AIDS, such as opportunistic infections and neurological complications.",
+      "Student comprehensively describes the long-term effects of HIV\/AIDS, including the progression of the disease and its impact on various organ systems.",
+      "Student provides a detailed and nuanced explanation of the long-term effects of HIV\/AIDS, including an understanding of the management of the disease, potential co-morbidities and quality of life issues."
+    ],
+    [
+      "Student demonstrates no understanding of the short-term effects of other STDs.",
+      "Student demonstrates minimal understanding, with significant inaccuracies or omissions.",
+      "Student identifies some short-term effects of other STDs but lacks detail or has minor inaccuracies.",
+      "Student accurately describes several short-term effects of common STDs (e.g., Chlamydia, Gonorrhea, Syphilis).",
+      "Student comprehensively describes the short-term effects of a variety of STDs, including symptoms and potential complications if untreated.",
+      "Student provides a detailed and nuanced explanation of the short-term effects of various STDs, including an understanding of the biological mechanisms and factors influencing the severity of symptoms."
+    ],
+    [
+      "Student demonstrates no understanding of the long-term effects of other STDs.",
+      "Student demonstrates minimal understanding of the long-term effects of STDs, with significant inaccuracies or omissions.",
+      "Student identifies some long-term effects of other STDs but lacks detail or has minor inaccuracies.",
+      "Student accurately describes several long-term effects of common STDs (e.g., infertility, pelvic inflammatory disease, increased risk of certain cancers).",
+      "Student comprehensively describes the long-term effects of a variety of STDs, including the potential for chronic health problems and impact on reproductive health.",
+      "Student provides a detailed and nuanced explanation of the long-term effects of various STDs, including an understanding of the pathophysiology, the factors that can influence disease progression, and the impact on quality of life."
+    ]
+  ]
+}

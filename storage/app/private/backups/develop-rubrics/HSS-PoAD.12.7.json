@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of National Government Powers",
+    "Understanding of State Government Powers",
+    "Understanding of Tribal Government Powers",
+    "Understanding of Local Government Powers",
+    "Comparison of Governmental Powers and Procedures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the powers of the national government.",
+      "Student demonstrates a minimal understanding of the powers of the national government, with significant inaccuracies.",
+      "Student identifies some powers of the national government but struggles to explain them accurately.",
+      "Student accurately describes several key powers of the national government.",
+      "Student comprehensively describes the powers of the national government, including specific examples.",
+      "Student demonstrates an insightful and thorough understanding of the national government's powers, including implied and inherent powers, with relevant examples."
+    ],
+    [
+      "Student demonstrates no understanding of the powers of state governments.",
+      "Student demonstrates a minimal understanding of the powers of state governments, with significant inaccuracies.",
+      "Student identifies some powers of state governments but struggles to explain them accurately.",
+      "Student accurately describes several key powers of state governments.",
+      "Student comprehensively describes the powers of state governments, including specific examples.",
+      "Student demonstrates an insightful and thorough understanding of the state government's powers, including reserved powers, with relevant examples."
+    ],
+    [
+      "Student demonstrates no understanding of the powers of tribal governments.",
+      "Student demonstrates a minimal understanding of the powers of tribal governments, with significant inaccuracies.",
+      "Student identifies some powers of tribal governments but struggles to explain them accurately.",
+      "Student accurately describes several key powers of tribal governments.",
+      "Student comprehensively describes the powers of tribal governments, including specific examples.",
+      "Student demonstrates an insightful and thorough understanding of the tribal government's powers, including treaty rights and inherent sovereignty, with relevant examples."
+    ],
+    [
+      "Student demonstrates no understanding of the powers of local governments.",
+      "Student demonstrates a minimal understanding of the powers of local governments, with significant inaccuracies.",
+      "Student identifies some powers of local governments but struggles to explain them accurately.",
+      "Student accurately describes several key powers of local governments.",
+      "Student comprehensively describes the powers of local governments, including specific examples.",
+      "Student demonstrates an insightful and thorough understanding of the local government's powers, including municipal authority and services, with relevant examples."
+    ],
+    [
+      "Student makes no attempt to compare the powers and procedures of different levels of government.",
+      "Student attempts to compare governmental powers and procedures but demonstrates significant misunderstandings.",
+      "Student identifies some similarities or differences between governmental powers and procedures but lacks depth.",
+      "Student accurately compares the powers and procedures of at least two levels of government.",
+      "Student effectively compares the powers and procedures of national, state, tribal, and local governments, highlighting key similarities and differences.",
+      "Student provides a nuanced and insightful comparison of the powers and procedures of all levels of government, explaining the reasons for the similarities and differences and their implications."
+    ]
+  ]
+}

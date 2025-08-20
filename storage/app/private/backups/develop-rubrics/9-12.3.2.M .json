@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Professional Services",
+    "Evaluation of Benefits",
+    "Application to Specific Conditions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of professional services available for mental, emotional, or social health conditions.",
+      "Student shows limited awareness of professional services and their purpose.",
+      "Student identifies some professional services but struggles to explain their benefits.",
+      "Student accurately identifies several professional services and provides basic explanations of their benefits.",
+      "Student comprehensively explains a variety of professional services and their specific benefits for different conditions.",
+      "Student demonstrates a deep understanding of professional services, including their benefits, limitations, and how to access them, while also considering ethical implications."
+    ],
+    [
+      "Student does not attempt to evaluate the benefits of professional services.",
+      "Student superficially mentions benefits without any supporting reasoning.",
+      "Student provides a basic evaluation of benefits but lacks depth and critical thinking.",
+      "Student offers a reasonable evaluation of benefits with some supporting evidence and logical reasoning.",
+      "Student provides a thorough and well-supported evaluation of benefits, demonstrating strong critical thinking skills.",
+      "Student offers an insightful and nuanced evaluation of benefits, considering diverse perspectives and potential drawbacks, while also highlighting innovative approaches."
+    ],
+    [
+      "Student fails to connect professional services to specific mental, emotional, or social health conditions.",
+      "Student vaguely references conditions without specific connections to services.",
+      "Student connects some services to conditions, but the connections are weak or inaccurate.",
+      "Student appropriately connects several services to specific conditions with clear explanations.",
+      "Student demonstrates a nuanced understanding of how different services are tailored to specific conditions, considering individual needs.",
+      "Student adeptly analyzes the effectiveness of various services for different conditions, proposing tailored approaches and considering long-term outcomes."
+    ]
+  ]
+}

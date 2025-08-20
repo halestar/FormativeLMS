@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of the Author's Claim",
+    "Assessment of Reasoning",
+    "Evaluation of Evidence",
+    "Overall Support of Claim\/Recommendation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the author's central claim.",
+      "Identifies the author's claim inaccurately or with significant misunderstanding.",
+      "Identifies the author's claim, but the description lacks clarity or depth.",
+      "Identifies the author's claim with reasonable accuracy.",
+      "Clearly and accurately identifies the author's claim, demonstrating good comprehension.",
+      "Clearly, accurately, and insightfully identifies the author's claim, demonstrating excellent comprehension."
+    ],
+    [
+      "Shows no understanding of the author's reasoning.",
+      "Demonstrates a limited or flawed understanding of the author's reasoning.",
+      "Describes the author's reasoning, but analysis is superficial or incomplete.",
+      "Adequately assesses the author's reasoning, identifying some strengths and weaknesses.",
+      "Thoroughly assesses the author's reasoning, providing specific examples to support judgments.",
+      "Critically and insightfully assesses the author's reasoning, offering a nuanced understanding of its effectiveness."
+    ],
+    [
+      "Fails to identify any evidence used by the author.",
+      "Identifies evidence inaccurately or without explaining its relevance.",
+      "Lists some of the evidence presented, but lacks evaluation of its quality or relevance.",
+      "Evaluates the evidence, noting its relevance and strength in supporting the claim.",
+      "Critically evaluates the evidence, discussing its strengths, weaknesses, and potential biases.",
+      "Insightfully evaluates the evidence, demonstrating a sophisticated understanding of its impact on the author's argument."
+    ],
+    [
+      "Does not assess the overall support for the author's claim or recommendation.",
+      "Offers a vague or unsubstantiated opinion on the support for the claim.",
+      "Provides a basic assessment of the support, but lacks specific justification.",
+      "Presents a balanced assessment of the support, considering both strengths and weaknesses.",
+      "Clearly articulates the extent to which the reasoning and evidence support the claim, providing a well-reasoned argument.",
+      "Provides a compelling and nuanced assessment of the support, demonstrating a deep understanding of the text and its implications."
+    ]
+  ]
+}

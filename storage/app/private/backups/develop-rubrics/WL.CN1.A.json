@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy and Clarity of Information",
+    "Use of Target Language",
+    "Presentation and Organization",
+    "Relevance and Depth of Content"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Information is completely inaccurate or incomprehensible. No clear understanding of the topic is demonstrated.",
+      "Information contains significant inaccuracies and is difficult to understand. Minimal understanding of the topic is demonstrated.",
+      "Information contains some inaccuracies and lacks clarity in certain areas. Basic understanding of the topic is demonstrated.",
+      "Information is mostly accurate and clear, with minor areas needing improvement. Good understanding of the topic is demonstrated.",
+      "Information is accurate and clear, demonstrating a strong understanding of the topic. Only minor refinements could be made.",
+      "Information is exceptionally accurate, clear, and insightful, demonstrating a comprehensive understanding of the topic."
+    ],
+    [
+      "Target language use is absent or completely incorrect, hindering communication.",
+      "Target language use is very limited and contains frequent errors, severely impeding communication.",
+      "Target language use is basic with noticeable errors that occasionally impede communication.",
+      "Target language use is adequate with some errors that do not significantly impede communication.",
+      "Target language use is proficient with only minor errors that do not impede communication.",
+      "Target language use is excellent, demonstrating a high level of fluency and accuracy with sophisticated vocabulary and grammar."
+    ],
+    [
+      "Presentation is disorganized and lacks coherence, making it difficult to follow.",
+      "Presentation is somewhat disorganized and lacks a clear structure, making it challenging to follow.",
+      "Presentation has a basic structure but lacks fluidity and transitions between ideas.",
+      "Presentation is generally well-organized with a logical flow of ideas.",
+      "Presentation is well-organized, engaging, and easy to follow with clear transitions.",
+      "Presentation is exceptionally well-organized, captivating, and demonstrates a mastery of presentation skills."
+    ],
+    [
+      "Content is irrelevant or superficial, failing to address the topic adequately.",
+      "Content is minimally relevant and lacks depth, providing only a superficial overview.",
+      "Content is somewhat relevant but lacks sufficient depth and analysis.",
+      "Content is relevant and provides a good overview of the topic with some analysis.",
+      "Content is highly relevant, in-depth, and demonstrates critical thinking and analysis.",
+      "Content is exceptionally relevant, insightful, and demonstrates a sophisticated understanding of the topic with original thought."
+    ]
+  ]
+}

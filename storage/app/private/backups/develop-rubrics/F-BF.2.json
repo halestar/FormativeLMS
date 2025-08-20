@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Arithmetic Sequences",
+    "Understanding of Geometric Sequences",
+    "Recursive Formula Construction",
+    "Explicit Formula Construction",
+    "Modeling Situations and Translation Between Forms"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of arithmetic sequences is demonstrated.",
+      "Struggles to identify arithmetic sequences and their components (common difference, first term).",
+      "Identifies arithmetic sequences but has difficulty applying the concept or formulating expressions.",
+      "Understands arithmetic sequences and can apply the concept, but with some errors in calculations or formulations.",
+      "Demonstrates a solid understanding of arithmetic sequences. Can formulate expressions and solve problems with minor errors.",
+      "Demonstrates a comprehensive understanding of arithmetic sequences. Can accurately formulate expressions, solve problems, and explain the concepts clearly."
+    ],
+    [
+      "No understanding of geometric sequences is demonstrated.",
+      "Struggles to identify geometric sequences and their components (common ratio, first term).",
+      "Identifies geometric sequences but has difficulty applying the concept or formulating expressions.",
+      "Understands geometric sequences and can apply the concept, but with some errors in calculations or formulations.",
+      "Demonstrates a solid understanding of geometric sequences. Can formulate expressions and solve problems with minor errors.",
+      "Demonstrates a comprehensive understanding of geometric sequences. Can accurately formulate expressions, solve problems, and explain the concepts clearly."
+    ],
+    [
+      "Cannot construct recursive formulas for arithmetic or geometric sequences.",
+      "Struggles to construct recursive formulas, even with guidance.",
+      "Can construct recursive formulas with significant errors or omissions.",
+      "Constructs recursive formulas with some errors or requires prompting.",
+      "Constructs mostly accurate recursive formulas for both arithmetic and geometric sequences.",
+      "Constructs accurate and complete recursive formulas for both arithmetic and geometric sequences, demonstrating a clear understanding of the process."
+    ],
+    [
+      "Cannot construct explicit formulas for arithmetic or geometric sequences.",
+      "Struggles to construct explicit formulas, even with guidance.",
+      "Can construct explicit formulas with significant errors or omissions.",
+      "Constructs explicit formulas with some errors or requires prompting.",
+      "Constructs mostly accurate explicit formulas for both arithmetic and geometric sequences.",
+      "Constructs accurate and complete explicit formulas for both arithmetic and geometric sequences, demonstrating a clear understanding of the process."
+    ],
+    [
+      "Unable to model situations with sequences or translate between recursive and explicit forms.",
+      "Struggles to model situations and translate between forms, even with considerable guidance.",
+      "Attempts to model situations and translate between forms, but with limited success and significant errors.",
+      "Can model simple situations and translate between forms with some errors or omissions.",
+      "Models situations and translates between recursive and explicit forms with reasonable accuracy.",
+      "Accurately models complex situations and translates fluently between recursive and explicit forms, demonstrating a deep understanding of the relationship between the two."
+    ]
+  ]
+}

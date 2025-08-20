@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates proper technique for brushing all tooth surfaces (outer, inner, and chewing surfaces).",
+    "Demonstrates correct flossing technique, including proper insertion, hugging the tooth, and using a clean section of floss for each tooth.",
+    "Effectively removes plaque and debris from all areas of the mouth."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any attempt to brush teeth or brushes only one surface without proper technique.",
+      "Student attempts to brush but misses several surfaces or uses incorrect technique (e.g., scrubbing harshly).",
+      "Student brushes most surfaces but misses some areas or the technique is inconsistent.",
+      "Student brushes all surfaces with generally good technique, but minor improvements could be made.",
+      "Student brushes all surfaces thoroughly with proper technique, demonstrating good coverage and motion.",
+      "Student demonstrates expert-level brushing technique on all surfaces with excellent coverage, motion, and attention to detail. They also articulate why this technique is important."
+    ],
+    [
+      "Student does not demonstrate any attempt to floss or uses floss incorrectly and potentially harmfully.",
+      "Student attempts to floss but struggles with insertion or does not hug the tooth properly.",
+      "Student flosses some teeth but misses many or doesn't use a clean section of floss consistently.",
+      "Student flosses most teeth with generally good technique but may have some inconsistencies or miss a few spots.",
+      "Student flosses all teeth correctly, hugging each tooth and using a clean section of floss effectively.",
+      "Student demonstrates expert-level flossing technique on all teeth, showing exceptional care, cleanliness, and understanding of the importance of flossing for gum health."
+    ],
+    [
+      "No plaque or debris removed during demonstration.",
+      "Minimal plaque or debris removed; significant visible buildup remains.",
+      "Some plaque and debris removed, but noticeable buildup remains in several areas.",
+      "Most plaque and debris removed, but minor traces remain in hard-to-reach areas.",
+      "Almost all plaque and debris effectively removed; mouth appears clean.",
+      "All plaque and debris completely removed; mouth appears exceptionally clean and healthy."
+    ]
+  ]
+}

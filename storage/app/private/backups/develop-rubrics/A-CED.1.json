@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to translate real-world scenarios into mathematical equations or inequalities.",
+    "Proficiency in including equations with absolute values, linear, quadratic, simple rational and exponential functions.",
+    "Accuracy and correctness of the created equations and inequalities.",
+    "Ability to solve problems using the created equations and inequalities."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to create any equation or inequality from the given scenario.",
+      "Student attempts to create an equation or inequality but it is fundamentally incorrect or irrelevant to the scenario.",
+      "Student creates a partially correct equation or inequality, but it contains significant errors or omissions.",
+      "Student creates a mostly correct equation or inequality, but it has minor errors or lacks complete clarity.",
+      "Student creates a correct equation or inequality that accurately represents the scenario, but may lack complexity or optimization.",
+      "Student creates a correct and well-optimized equation or inequality that accurately and comprehensively represents the scenario, demonstrating a deep understanding of the relationships involved."
+    ],
+    [
+      "Student does not include any absolute value, linear, quadratic, simple rational and exponential functions in their equations.",
+      "Student attempts to include equations with absolute value, linear, quadratic, simple rational and exponential functions, but fails or includes them incorrectly.",
+      "Student includes some absolute value, linear, quadratic, simple rational and exponential functions, but there are errors or omissions.",
+      "Student includes mostly correct absolute value, linear, quadratic, simple rational and exponential functions, but there may be minor errors.",
+      "Student correctly includes absolute value, linear, quadratic, simple rational and exponential functions, but lacks complexity or optimization.",
+      "Student expertly and correctly includes absolute value, linear, quadratic, simple rational and exponential functions, demonstrating a comprehensive understanding of their properties and relationships."
+    ],
+    [
+      "The equations and inequalities created are fundamentally incorrect and do not reflect the given scenario.",
+      "The equations and inequalities created contain significant errors that lead to incorrect solutions or interpretations.",
+      "The equations and inequalities created contain some errors, but the overall structure is partially correct.",
+      "The equations and inequalities created are mostly correct with only minor errors that do not significantly impact the solution.",
+      "The equations and inequalities created are accurate and correct, leading to valid solutions and interpretations.",
+      "The equations and inequalities created are flawless, demonstrating a mastery of algebraic concepts and attention to detail."
+    ],
+    [
+      "Student is unable to solve the problem using the created equations and inequalities.",
+      "Student attempts to solve the problem but makes no progress or arrives at an incorrect solution due to fundamental errors.",
+      "Student makes some progress in solving the problem but is unable to arrive at a correct solution due to errors or misconceptions.",
+      "Student solves the problem with some errors, arriving at a solution that is partially correct or incomplete.",
+      "Student solves the problem correctly, arriving at a complete and accurate solution.",
+      "Student solves the problem correctly and efficiently, demonstrating a deep understanding of the underlying mathematical principles and problem-solving strategies."
+    ]
+  ]
+}

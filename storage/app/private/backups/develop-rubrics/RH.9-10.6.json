@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Authors' Points of View",
+    "Comparison of Topic Treatment",
+    "Analysis of Included and Emphasized Details",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify the point of view of either author.",
+      "The student identifies the point of view of only one author, but provides little to no supporting evidence.",
+      "The student identifies the points of view of both authors, but the descriptions are vague and lack supporting details.",
+      "The student identifies the points of view of both authors and provides some relevant details to support their claims.",
+      "The student clearly and accurately identifies the points of view of both authors, providing specific and relevant details from the texts to support their analysis.",
+      "The student expertly identifies the points of view of both authors, providing insightful and well-supported analysis with strong textual evidence."
+    ],
+    [
+      "The student does not attempt to compare how the authors treat the topic.",
+      "The student attempts to compare the authors' treatment of the topic, but the comparison is superficial and lacks specific examples.",
+      "The student makes a basic comparison of how the authors treat the topic, but the analysis is limited and underdeveloped.",
+      "The student compares how the authors treat the topic, identifying some similarities and differences with supporting examples.",
+      "The student provides a detailed comparison of how the authors treat the topic, identifying significant similarities and differences with specific textual evidence.",
+      "The student offers a nuanced and insightful comparison of how the authors treat the topic, demonstrating a deep understanding of their perspectives and providing compelling textual evidence."
+    ],
+    [
+      "The student does not analyze which details the authors include or emphasize.",
+      "The student attempts to analyze the details included and emphasized, but the analysis is unclear and lacks supporting evidence.",
+      "The student identifies some details that the authors include and emphasize, but the analysis is superficial.",
+      "The student analyzes some of the details that the authors include and emphasize, explaining how these choices shape their accounts.",
+      "The student provides a thorough analysis of the details the authors include and emphasize, explaining how these choices contribute to their overall points of view with specific examples.",
+      "The student offers a sophisticated analysis of the details the authors include and emphasize, demonstrating a deep understanding of how these choices shape the authors' perspectives and impact the reader."
+    ],
+    [
+      "The response is unclear, disorganized, and difficult to understand.",
+      "The response is somewhat unclear and disorganized, making it difficult to follow the student's reasoning.",
+      "The response is generally clear and organized, but there are some areas where clarity and coherence could be improved.",
+      "The response is clear, well-organized, and easy to understand, with a logical flow of ideas.",
+      "The response is exceptionally clear, well-organized, and logically coherent, demonstrating strong writing skills.",
+      "The response is exceptionally clear, well-organized and sophisticated in its demonstration of thoughts and writing abilities."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Stress Signs and Causes",
+    "Explanation of Health Effects of Stress",
+    "Identification of Loss and Depression Signs and Causes",
+    "Explanation of Health Effects of Loss and Depression"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any signs or causes of stress.",
+      "The student identifies only one sign or cause of stress, with limited accuracy.",
+      "The student identifies a few signs and causes of stress, but some inaccuracies are present.",
+      "The student accurately identifies several common signs and causes of stress.",
+      "The student comprehensively identifies most signs and causes of stress with clear understanding.",
+      "The student expertly identifies a wide range of signs and causes of stress, including nuanced or less obvious factors, demonstrating a sophisticated understanding."
+    ],
+    [
+      "The student does not explain any health effects of stress.",
+      "The student provides a vague or inaccurate explanation of one health effect of stress.",
+      "The student explains a few health effects of stress, but the explanations lack detail or contain inaccuracies.",
+      "The student accurately explains several common health effects of stress.",
+      "The student comprehensively explains most health effects of stress, demonstrating a solid understanding.",
+      "The student expertly explains a wide range of health effects of stress, including physiological and psychological impacts, demonstrating a sophisticated understanding."
+    ],
+    [
+      "The student fails to identify any signs or causes of loss and depression.",
+      "The student identifies only one sign or cause of loss and depression, with limited accuracy.",
+      "The student identifies a few signs and causes of loss and depression, but some inaccuracies are present.",
+      "The student accurately identifies several common signs and causes of loss and depression.",
+      "The student comprehensively identifies most signs and causes of loss and depression with clear understanding.",
+      "The student expertly identifies a wide range of signs and causes of loss and depression, including nuanced or less obvious factors, demonstrating a sophisticated understanding."
+    ],
+    [
+      "The student does not explain any health effects of loss and depression.",
+      "The student provides a vague or inaccurate explanation of one health effect of loss and depression.",
+      "The student explains a few health effects of loss and depression, but the explanations lack detail or contain inaccuracies.",
+      "The student accurately explains several common health effects of loss and depression.",
+      "The student comprehensively explains most health effects of loss and depression, demonstrating a solid understanding.",
+      "The student expertly explains a wide range of health effects of loss and depression, including physiological and psychological impacts, demonstrating a sophisticated understanding."
+    ]
+  ]
+}

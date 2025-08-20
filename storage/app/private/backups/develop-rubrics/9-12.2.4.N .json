@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Nutritional Impact on Reproductive Health",
+    "Analysis of Nutritional Impact on Prenatal Health",
+    "Application to Future Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how nutritional choices affect reproductive health.",
+      "Shows a limited understanding of how nutritional choices affect reproductive health, with significant gaps.",
+      "Displays a basic understanding of how nutritional choices can affect reproductive health, identifying some key nutrients and their roles.",
+      "Exhibits a solid understanding of how specific nutritional choices impact reproductive health, explaining the roles of several key nutrients.",
+      "Demonstrates a comprehensive understanding of the complex relationship between nutritional choices and reproductive health, including potential long-term effects.",
+      "Displays an exceptional and nuanced understanding of how a wide range of nutritional choices impact reproductive health, including detailed explanations of physiological mechanisms and long-term consequences."
+    ],
+    [
+      "Shows no understanding of how nutritional choices during pregnancy affect prenatal health.",
+      "Shows a limited understanding of how nutritional choices during pregnancy affect prenatal health, with significant gaps.",
+      "Displays a basic understanding of how nutritional choices can affect prenatal health, identifying some key nutrients and their roles.",
+      "Exhibits a solid understanding of how specific nutritional choices impact prenatal health, explaining the roles of several key nutrients during pregnancy.",
+      "Demonstrates a comprehensive understanding of the complex relationship between nutritional choices and prenatal health, including potential long-term effects on both mother and child.",
+      "Displays an exceptional and nuanced understanding of how a wide range of nutritional choices impact prenatal health, including detailed explanations of physiological mechanisms and long-term consequences for both mother and child."
+    ],
+    [
+      "Unable to apply knowledge of nutritional choices to future health outcomes.",
+      "Shows difficulty in connecting current nutritional choices with potential future health outcomes.",
+      "Makes simple connections between some nutritional choices and future health outcomes.",
+      "Provides relevant examples of how current nutritional choices can impact future reproductive and prenatal health.",
+      "Articulates a clear and well-supported argument about how current nutritional choices significantly affect future reproductive and prenatal health.",
+      "Synthesizes information to create a compelling and insightful analysis of the long-term consequences of nutritional choices on reproductive and prenatal health, including potential interventions and preventative measures."
+    ]
+  ]
+}

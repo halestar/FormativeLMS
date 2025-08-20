@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rational vs. Irrational Numbers",
+    "Decimal Expansion and Rational Numbers",
+    "Conversion of Repeating Decimals to Rational Numbers",
+    "Explanation and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of rational or irrational numbers.",
+      "Student shows minimal understanding, with significant misconceptions about rational and irrational numbers.",
+      "Student can identify some rational and irrational numbers but struggles to explain the difference.",
+      "Student can differentiate between rational and irrational numbers and provide basic explanations.",
+      "Student clearly understands the difference between rational and irrational numbers and can provide examples.",
+      "Student demonstrates a comprehensive understanding of rational and irrational numbers, including their properties and differences, and can provide sophisticated examples."
+    ],
+    [
+      "Student is unable to relate decimal expansions to rational numbers.",
+      "Student demonstrates limited understanding of decimal expansions and their connection to rational numbers.",
+      "Student recognizes that rational numbers have decimal expansions but cannot consistently identify repeating decimals.",
+      "Student can identify repeating decimal expansions of rational numbers but struggles to convert them to fractions.",
+      "Student can convert repeating decimal expansions to rational numbers with some errors.",
+      "Student can fluently convert repeating decimal expansions to rational numbers and explain the process clearly."
+    ],
+    [
+      "Student cannot convert repeating decimals into rational numbers.",
+      "Student attempts to convert repeating decimals but does not understand the process.",
+      "Student demonstrates some understanding of the conversion process but makes significant errors.",
+      "Student can convert simple repeating decimals to rational numbers with guidance.",
+      "Student can convert most repeating decimals to rational numbers independently.",
+      "Student can accurately and efficiently convert complex repeating decimals to rational numbers, demonstrating a strong understanding of the underlying principles."
+    ],
+    [
+      "Student provides no explanation or justification for their answers.",
+      "Student attempts to explain their reasoning, but it is unclear or incorrect.",
+      "Student can explain some steps but struggles to justify the reasoning behind them.",
+      "Student provides a basic explanation of their process and can justify some steps.",
+      "Student clearly explains their process and provides a logical justification for each step.",
+      "Student provides a clear, concise, and mathematically sound explanation of their process, demonstrating a deep understanding of the concepts involved."
+    ]
+  ]
+}

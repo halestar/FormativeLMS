@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Articles of Confederation",
+    "Understanding the U.S. Constitution",
+    "Comparing the Articles of Confederation and the U.S. Constitution",
+    "Evaluating the Implementation of the Ideals of the Declaration of Independence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Articles of Confederation.",
+      "Shows minimal understanding; struggles to identify key features or weaknesses.",
+      "Identifies some features and weaknesses but lacks depth in explanation.",
+      "Explains the key features and weaknesses of the Articles of Confederation with reasonable clarity.",
+      "Analyzes the features, weaknesses, and overall impact of the Articles of Confederation with strong understanding.",
+      "Provides a comprehensive and insightful analysis of the Articles, including nuanced understanding of its successes, failures, and long-term impact."
+    ],
+    [
+      "Demonstrates no understanding of the U.S. Constitution.",
+      "Shows minimal understanding; struggles to identify key principles or structures.",
+      "Identifies some principles and structures, but lacks depth in explanation.",
+      "Explains the key principles and structures of the U.S. Constitution with reasonable clarity.",
+      "Analyzes the principles, structures, and overall impact of the Constitution with strong understanding.",
+      "Provides a comprehensive and insightful analysis of the Constitution, including nuanced understanding of its principles, structures, amendments, and ongoing relevance."
+    ],
+    [
+      "Makes no attempt to compare the two documents.",
+      "Offers a superficial comparison with significant inaccuracies.",
+      "Identifies a few basic differences and similarities, but lacks detail.",
+      "Compares the Articles and the Constitution, highlighting key differences and similarities in structure and powers.",
+      "Analyzes the strengths and weaknesses of each document in comparison to the other, with reasoned arguments.",
+      "Provides a sophisticated and insightful comparison, evaluating the relative success of each document in addressing the challenges of governing the new nation."
+    ],
+    [
+      "Does not address the ideals of the Declaration of Independence.",
+      "Mentions the Declaration but fails to connect it to the Articles or the Constitution.",
+      "Attempts to connect the Declaration's ideals to the documents but with limited success.",
+      "Evaluates how the Articles and the Constitution attempted to implement the ideals of the Declaration (liberty, equality, etc.).",
+      "Analyzes the extent to which each document successfully embodied the Declaration's ideals, providing specific examples.",
+      "Offers a nuanced and historically informed evaluation of the successes and failures of both the Articles and the Constitution in realizing the vision of the Declaration of Independence."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Introduction and Organization",
+    "Development of Topic",
+    "Use of Transitions and Sentence Structure",
+    "Language and Vocabulary",
+    "Conclusion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The introduction is missing or does not clearly introduce the topic. The organization of ideas is unclear and disjointed.",
+      "The introduction is weak or vague. The organization of ideas is attempted, but lacks clarity and coherence. Minimal use of formatting, graphics, or multimedia.",
+      "The introduction introduces the topic, but lacks depth. The organization of ideas is present, but some elements are out of place or unclear. Formatting, graphics, or multimedia are used sparingly and may not always aid comprehension.",
+      "The introduction clearly introduces the topic and provides some context. The organization of ideas is logical and generally easy to follow. Formatting, graphics, or multimedia are used to enhance comprehension.",
+      "The introduction is engaging and clearly introduces the topic and its significance. The organization of ideas is well-structured and creates a unified whole. Effective use of formatting, graphics, or multimedia to aid comprehension.",
+      "The introduction is compelling and expertly introduces the topic, captivating the reader. The organization of ideas is seamless and creates a cohesive, unified whole. Skillful and strategic use of formatting, graphics, and multimedia to maximize comprehension and engagement."
+    ],
+    [
+      "The topic is not developed or supported with relevant information. Lacks facts, definitions, details, quotations, or examples.",
+      "The topic is underdeveloped and lacks sufficient supporting information. Minimal use of facts, definitions, details, quotations, or examples. Information is not always relevant to the audience's knowledge.",
+      "The topic is developed with some supporting information, but lacks depth and detail. Some facts, definitions, details, quotations, or examples are included, but may not always be relevant or significant.",
+      "The topic is developed with relevant facts, definitions, details, quotations, and examples. Information is appropriate for the audience's knowledge of the topic.",
+      "The topic is thoroughly developed with significant and relevant facts, extended definitions, concrete details, quotations, and examples that enhance understanding. Information is tailored to the audience's knowledge of the topic.",
+      "The topic is expertly developed with insightful and compelling facts, extended definitions, concrete details, quotations, and examples that demonstrate a deep understanding. Information is precisely tailored to the audience, maximizing engagement and comprehension."
+    ],
+    [
+      "Transitions are missing or ineffective. Sentence structures are simple and repetitive. Lacks cohesion and clarity.",
+      "Transitions are used minimally and may be awkward or unclear. Sentence structures are basic and lack variety. Cohesion and clarity are weak.",
+      "Transitions are present, but may not always effectively link ideas. Sentence structures are somewhat varied, but lack sophistication. Cohesion and clarity are inconsistent.",
+      "Transitions are used to link the major sections of the text and create some cohesion. Sentence structures are varied and generally clear.",
+      "Varied transitions are effectively used to link the major sections of the text, creating cohesion and clarifying relationships among ideas. Sentence structures are sophisticated and enhance clarity.",
+      "Seamless and artful use of varied transitions expertly links the major sections of the text, creating exceptional cohesion and clarifying complex relationships among ideas. Sentence structures are masterfully crafted, enhancing clarity and engagement."
+    ],
+    [
+      "Language is imprecise and lacks domain-specific vocabulary. Demonstrates a lack of knowledge and understanding.",
+      "Language is basic and contains limited domain-specific vocabulary. Demonstrates a limited understanding of the topic.",
+      "Language is generally precise, but may lack sophistication or domain-specific vocabulary. Demonstrates a basic understanding of the topic.",
+      "Precise language and domain-specific vocabulary are used to manage the complexity of the topic. Conveys a knowledgeable stance.",
+      "Precise language, domain-specific vocabulary, and techniques such as metaphor, simile, and analogy are used effectively to manage the complexity of the topic. Conveys a knowledgeable stance in a style appropriate for the discipline and context.",
+      "Masterful use of precise language, domain-specific vocabulary, and sophisticated techniques such as metaphor, simile, and analogy expertly manages the complexity of the topic. Conveys a commanding and insightful stance in a style perfectly tailored to the discipline, context, and audience."
+    ],
+    [
+      "The conclusion is missing or does not follow from the information provided.",
+      "The conclusion is weak or unrelated to the information provided.",
+      "The conclusion summarizes the main points, but lacks depth or insight.",
+      "The conclusion follows from and supports the information provided.",
+      "The conclusion effectively summarizes the main points and articulates implications or the significance of the topic.",
+      "The conclusion is insightful and compelling, providing a memorable summary of the main points and a thought-provoking articulation of the implications or significance of the topic."
+    ]
+  ]
+}

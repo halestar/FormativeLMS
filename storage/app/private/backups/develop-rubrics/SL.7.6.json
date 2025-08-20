@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Contextual Appropriateness",
+    "Command of Formal English",
+    "Adaptation to Audience"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no awareness of context or task; speech is consistently inappropriate.",
+      "Demonstrates minimal awareness of context or task; speech is often inappropriate.",
+      "Demonstrates some awareness of context and task; speech is occasionally inappropriate.",
+      "Demonstrates general awareness of context and task; speech is mostly appropriate.",
+      "Demonstrates good awareness of context and task; speech is appropriate with only minor lapses.",
+      "Demonstrates excellent awareness of context and task; speech is consistently appropriate and enhances communication."
+    ],
+    [
+      "Displays virtually no command of formal English; frequent and significant errors impede understanding.",
+      "Displays very limited command of formal English; numerous errors significantly impede understanding.",
+      "Displays limited command of formal English; errors often impede understanding.",
+      "Displays adequate command of formal English; some errors may occasionally impede understanding.",
+      "Displays strong command of formal English; few errors do not impede understanding.",
+      "Displays masterful command of formal English; virtually no errors and enhances communication."
+    ],
+    [
+      "Shows no adaptation to the audience; language and tone are consistently unsuitable.",
+      "Shows minimal adaptation to the audience; language and tone are often unsuitable.",
+      "Shows some adaptation to the audience; language and tone are occasionally unsuitable.",
+      "Shows general adaptation to the audience; language and tone are mostly suitable.",
+      "Shows good adaptation to the audience; language and tone are suitable with only minor lapses.",
+      "Shows excellent adaptation to the audience; language and tone are consistently suitable and enhance engagement."
+    ]
+  ]
+}

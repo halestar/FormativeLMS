@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Social Influences",
+    "Analysis of Encouraging Influences",
+    "Analysis of Discouraging Influences",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any social influences related to sun-safety practices.",
+      "Identifies one social influence, but the explanation is unclear or inaccurate.",
+      "Identifies at least two social influences with a basic understanding.",
+      "Identifies several social influences and provides a clear explanation of each.",
+      "Identifies multiple relevant social influences and explains them in detail, showing good understanding.",
+      "Identifies a comprehensive range of social influences and provides insightful explanations, demonstrating excellent understanding."
+    ],
+    [
+      "Fails to discuss any social influences that encourage sun-safety.",
+      "Mentions an encouraging influence but does not provide sufficient analysis.",
+      "Offers a superficial analysis of how a social influence encourages sun-safety.",
+      "Analyzes how multiple social influences encourage sun-safety practices.",
+      "Provides a thorough analysis of how social influences encourage sun-safety, with specific examples.",
+      "Presents a sophisticated analysis of the interplay between various social influences that promote sun-safety, with compelling examples."
+    ],
+    [
+      "Does not address any social influences that discourage sun-safety.",
+      "Briefly mentions a discouraging influence without adequate analysis.",
+      "Provides a basic analysis of how a social influence discourages sun-safety.",
+      "Analyzes how multiple social influences discourage sun-safety practices.",
+      "Presents a detailed analysis of how social influences discourage sun-safety, with specific examples.",
+      "Offers a nuanced analysis of the complex ways social influences undermine sun-safety, with persuasive examples."
+    ],
+    [
+      "The analysis is unclear, disorganized, and difficult to follow.",
+      "The analysis lacks clarity and organization in several areas.",
+      "The analysis is generally clear but could benefit from better organization.",
+      "The analysis is clear, well-organized, and easy to follow.",
+      "The analysis is exceptionally clear, logically organized, and effectively communicates key points.",
+      "The analysis is presented with outstanding clarity, impeccable organization, and a compelling narrative."
+    ]
+  ]
+}

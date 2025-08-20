@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to factor quadratic expressions to find zeros.",
+    "Understanding of the relationship between equivalent forms of an expression and the properties they reveal.",
+    "Clarity and accuracy of mathematical explanations."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to factor the quadratic expression or demonstrates no understanding of factoring.",
+      "Student attempts to factor the quadratic expression but makes significant errors, demonstrating a limited understanding of the process. The zeros are not correctly identified.",
+      "Student factors the quadratic expression with some errors, indicating a partial understanding of factoring. The zeros are either incorrect or not fully simplified.",
+      "Student correctly factors the quadratic expression, but there may be minor errors in identifying or stating the zeros of the function.",
+      "Student accurately factors the quadratic expression and correctly identifies the zeros of the function, demonstrating a solid understanding of the relationship between factors and zeros.",
+      "Student accurately factors the quadratic expression, correctly identifies the zeros, and provides a clear explanation of how factoring reveals the zeros of the function. Demonstrates a comprehensive understanding."
+    ],
+    [
+      "Student does not recognize or use equivalent forms of expressions to reveal properties.",
+      "Student attempts to use equivalent forms but demonstrates a limited understanding, with significant errors in application or interpretation.",
+      "Student uses equivalent forms with some success, but the explanation of the revealed properties is unclear or contains inaccuracies.",
+      "Student correctly uses equivalent forms and identifies some of the properties revealed by the equivalent form, but the explanation lacks depth or clarity.",
+      "Student effectively uses equivalent forms to reveal and explain properties of the quantity represented by the expression, demonstrating a good understanding.",
+      "Student skillfully uses equivalent forms to reveal and explain properties, providing a thorough and insightful analysis. Demonstrates a deep and nuanced understanding."
+    ],
+    [
+      "Explanations are unclear, inaccurate, or missing.",
+      "Explanations are difficult to understand and contain significant mathematical errors.",
+      "Explanations are partially clear but contain some mathematical inaccuracies or omissions.",
+      "Explanations are generally clear and accurate, with only minor issues in clarity or precision.",
+      "Explanations are clear, accurate, and easy to follow, demonstrating a good understanding of mathematical concepts.",
+      "Explanations are exceptionally clear, precise, and insightful, demonstrating a comprehensive and nuanced understanding of the mathematical concepts involved."
+    ]
+  ]
+}

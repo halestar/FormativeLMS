@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Identification of Safety Changes",
+    "Supporting Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any changes in the home, school, or community that promote safety.",
+      "Identifies one change in either the home, school, or community, but lacks support for its safety benefits.",
+      "Identifies changes in two of the three environments (home, school, or community) with limited support for their safety benefits.",
+      "Identifies changes in all three environments (home, school, and community), but the support for their safety benefits is superficial or incomplete.",
+      "Clearly identifies changes in all three environments (home, school, and community) and provides solid support for how these changes promote safety.",
+      "Identifies changes in all three environments and insightfully supports with detailed evidence, reasoning and analysis how these changes significantly improve safety."
+    ],
+    [
+      "Provides no reasoning or justification for how the identified changes promote safety.",
+      "Offers minimal or irrelevant reasoning for how the identified changes promote safety.",
+      "Offers some reasoning for how changes promote safety, but reasoning is unclear or not fully developed.",
+      "Provides adequate reasoning and justification for how the identified changes promote safety in the home, school and community.",
+      "Provides well-reasoned and logical justification for how the identified changes promote safety, showing a clear understanding of cause and effect.",
+      "Provides exceptional, insightful and thoroughly detailed reasoning, with well-articulated evidence, demonstrating a comprehensive understanding of the impact of the proposed changes on safety."
+    ]
+  ]
+}

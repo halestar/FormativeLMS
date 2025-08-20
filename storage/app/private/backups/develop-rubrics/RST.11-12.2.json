@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Central Ideas\/Conclusions",
+    "Quality of Summarization and Paraphrasing",
+    "Accuracy and Completeness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The summary fails to identify any central ideas or conclusions from the text.",
+      "The summary vaguely identifies a central idea or conclusion, but it is not clearly stated or accurate.",
+      "The summary identifies a central idea or conclusion, but it lacks depth or detail.",
+      "The summary identifies the main central ideas or conclusions of the text, providing a basic understanding.",
+      "The summary accurately identifies the key central ideas and conclusions of the text, demonstrating a strong understanding.",
+      "The summary thoroughly and insightfully identifies the central ideas and conclusions, demonstrating a comprehensive grasp of the text's purpose and key takeaways."
+    ],
+    [
+      "The summary is not in the student's own words and does not simplify the text.",
+      "The summary attempts to paraphrase, but it relies too heavily on the original text or introduces inaccuracies.",
+      "The summary paraphrases some parts of the text, but the language is not consistently simpler or more accessible.",
+      "The summary paraphrases the text into simpler terms, but there are areas where clarity could be improved.",
+      "The summary effectively paraphrases complex concepts into simpler, accurate terms, showing a strong command of language.",
+      "The summary skillfully paraphrases even the most complex aspects of the text, making them easily understandable while maintaining accuracy and nuance."
+    ],
+    [
+      "The summary contains significant inaccuracies or omits essential information.",
+      "The summary has some inaccuracies or omits important details, leading to a misunderstanding of the text.",
+      "The summary is mostly accurate but misses some key details that contribute to a fuller understanding.",
+      "The summary is generally accurate and includes most of the important information, providing a reliable overview of the text.",
+      "The summary is accurate and comprehensive, capturing all the essential information and conveying a complete understanding of the text.",
+      "The summary is exceptionally accurate, thorough, and nuanced, demonstrating a complete and insightful understanding of the text without omitting any crucial information."
+    ]
+  ]
+}

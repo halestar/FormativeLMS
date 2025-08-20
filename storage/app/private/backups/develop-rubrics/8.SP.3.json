@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Slope and Intercept",
+    "Applying the Linear Model Equation",
+    "Contextual Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of slope or intercept is demonstrated. The student cannot identify or explain these concepts in the context of the data.",
+      "The student shows minimal understanding of slope and intercept. They may be able to identify them but cannot explain their meaning in context.",
+      "The student shows some understanding of slope and intercept. They can identify and provide a basic explanation of their meaning but struggle with applying it to solve problems.",
+      "The student demonstrates a good understanding of slope and intercept. They can accurately identify and explain their meaning in the context of the data.",
+      "The student demonstrates a strong understanding of slope and intercept. They can accurately identify, explain, and use these concepts to solve problems effectively.",
+      "The student demonstrates a comprehensive understanding of slope and intercept. They can accurately identify, explain, and use these concepts to solve complex problems and provide insightful interpretations."
+    ],
+    [
+      "The student does not attempt to use the linear model equation to solve problems.",
+      "The student attempts to use the linear model equation but struggles to apply it correctly. The solution is incorrect or incomplete.",
+      "The student uses the linear model equation with some errors. The solution is partially correct but may contain inaccuracies.",
+      "The student correctly uses the linear model equation to solve problems. The solution is accurate and complete.",
+      "The student effectively uses the linear model equation to solve problems, showing a clear understanding of the relationship between variables.",
+      "The student expertly uses the linear model equation to solve complex problems, demonstrating a deep understanding of the relationship between variables and providing insightful interpretations."
+    ],
+    [
+      "The student fails to interpret the results in the context of the given data.",
+      "The student attempts to interpret the results but provides a vague or inaccurate explanation.",
+      "The student provides a basic interpretation of the results in the context of the data but may miss important nuances.",
+      "The student provides a clear and accurate interpretation of the results in the context of the data.",
+      "The student provides a detailed and insightful interpretation of the results, demonstrating a strong understanding of the context.",
+      "The student provides a comprehensive and nuanced interpretation of the results, demonstrating a deep understanding of the context and offering insightful conclusions."
+    ]
+  ]
+}

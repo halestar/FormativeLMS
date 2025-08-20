@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Push Factors",
+    "Understanding of Pull Factors",
+    "Knowledge of Geographic Destinations",
+    "Understanding of Differing Experiences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of push factors that caused former slaves to move.",
+      "Identifies one push factor vaguely.",
+      "Identifies one push factor with some clarity.",
+      "Identifies two push factors with reasonable clarity.",
+      "Identifies multiple push factors with good clarity and provides some supporting details.",
+      "Thoroughly explains multiple push factors with clear, specific details and demonstrates a strong understanding of their impact."
+    ],
+    [
+      "Demonstrates no understanding of pull factors attracting former slaves.",
+      "Identifies one pull factor vaguely.",
+      "Identifies one pull factor with some clarity.",
+      "Identifies two pull factors with reasonable clarity.",
+      "Identifies multiple pull factors with good clarity and provides some supporting details.",
+      "Thoroughly explains multiple pull factors with clear, specific details and demonstrates a strong understanding of their allure."
+    ],
+    [
+      "Does not identify any destinations of former slaves.",
+      "Vaguely mentions one destination.",
+      "Identifies one specific destination (North or West).",
+      "Identifies both the North and the West as destinations.",
+      "Identifies specific cities or regions within the North and West.",
+      "Provides detailed information about specific destinations and reasons for their appeal."
+    ],
+    [
+      "Shows no awareness of different experiences in different regions.",
+      "Suggests that experiences were the same everywhere.",
+      "Acknowledges that experiences might have differed.",
+      "Identifies one difference between experiences in the North and West.",
+      "Explains multiple differences between experiences in the North and West and provides some details.",
+      "Provides a comprehensive analysis of the differing experiences, including specific examples (e.g., Buffalo Soldiers) and connects them to larger social and economic conditions."
+    ]
+  ]
+}

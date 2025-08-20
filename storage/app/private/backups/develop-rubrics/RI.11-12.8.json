@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Constitutional Principles and Legal Reasoning",
+    "Analysis of Premises, Purposes, and Arguments",
+    "Evaluation of Reasoning and Rhetorical Effectiveness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any constitutional principles or legal reasoning within the text.",
+      "The student identifies constitutional principles or legal reasoning, but the explanation is incomplete or contains inaccuracies.",
+      "The student identifies constitutional principles and legal reasoning but struggles to connect them to the text's arguments.",
+      "The student accurately identifies constitutional principles and legal reasoning and provides a basic explanation of their application within the text.",
+      "The student effectively identifies constitutional principles and legal reasoning, explaining their significance and application in the text with relevant examples.",
+      "The student expertly identifies and analyzes constitutional principles and legal reasoning, demonstrating a sophisticated understanding of their impact on the text's arguments and broader implications."
+    ],
+    [
+      "The student does not identify or analyze the premises, purposes, or arguments of the text.",
+      "The student attempts to identify the premises, purposes, or arguments but demonstrates a limited understanding.",
+      "The student identifies the premises, purposes, and arguments but struggles to analyze their relationship to each other or the text's overall message.",
+      "The student provides a clear analysis of the premises, purposes, and arguments, demonstrating an understanding of their individual components.",
+      "The student analyzes the interplay between premises, purposes, and arguments, explaining how they contribute to the text's overall effectiveness and persuasiveness.",
+      "The student offers a nuanced and insightful analysis of the premises, purposes, and arguments, revealing underlying assumptions and evaluating their validity in the context of the text and its historical setting."
+    ],
+    [
+      "The student does not evaluate the effectiveness of the reasoning or rhetoric used in the text.",
+      "The student offers a superficial or unsupported evaluation of the reasoning or rhetoric.",
+      "The student identifies strengths and weaknesses in the reasoning and rhetoric but does not provide sufficient evidence or explanation.",
+      "The student provides a balanced evaluation of the reasoning and rhetoric, supporting their claims with specific examples from the text.",
+      "The student offers a compelling and well-supported evaluation of the reasoning and rhetoric, considering the text's intended audience and purpose.",
+      "The student presents a sophisticated and insightful critique of the reasoning and rhetoric, demonstrating a deep understanding of their effectiveness and potential limitations in achieving the text's goals."
+    ]
+  ]
+}

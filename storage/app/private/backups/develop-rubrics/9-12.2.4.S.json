@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Risks",
+    "Analysis of Social Factors",
+    "Critical Thinking"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the risks associated with gang membership.",
+      "Identifies one or two risks associated with gang membership, but lacks detail.",
+      "Identifies several risks of gang membership but explanation is vague or incomplete.",
+      "Clearly identifies and explains the main risks associated with gang membership, such as violence and legal consequences.",
+      "Provides a thorough analysis of the risks, explaining various risks like violence, legal issues, health risks and exploitation.",
+      "Offers a comprehensive and insightful analysis of the risks, including long-term consequences and impact on personal development and well-being. Provides well-supported examples."
+    ],
+    [
+      "Does not address social factors related to gang involvement.",
+      "Mentions social factors, such as peer pressure, but does not analyze their impact.",
+      "Identifies some social factors contributing to gang involvement but analysis is superficial.",
+      "Analyzes the role of social factors such as poverty, lack of opportunity, and peer pressure in gang membership.",
+      "Explores the complex interplay of social factors, including family dynamics, community influences, and cultural factors, in gang involvement.",
+      "Demonstrates a deep understanding of the root causes and complex social factors that lead individuals to join gangs, with insightful connections to real-world situations."
+    ],
+    [
+      "Offers no critical evaluation or original thought on the subject.",
+      "Demonstrates limited critical thinking about the risks and social factors.",
+      "Shows some evidence of critical thinking but lacks depth or originality.",
+      "Applies critical thinking to evaluate the risks and social factors associated with gang membership, providing reasoning.",
+      "Demonstrates strong critical thinking by challenging assumptions, considering multiple perspectives, and forming well-reasoned arguments.",
+      "Demonstrates exceptional critical thinking and offers original insights and perspectives on the complexities of gang involvement and its impact on individuals and communities."
+    ]
+  ]
+}

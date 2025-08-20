@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Preparation and Use of Evidence",
+    "Following Discussion Rules and Roles",
+    "Questioning and Responding",
+    "Acknowledgement and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student comes to discussions unprepared and does not refer to evidence to support their ideas.",
+      "The student is minimally prepared for discussions and makes vague references to evidence.",
+      "The student shows some preparation for discussions and attempts to use evidence, but the connection to the topic is unclear.",
+      "The student comes to discussions prepared and refers to evidence, but the explanation or connection to their ideas could be stronger.",
+      "The student is well-prepared, using relevant evidence to support their ideas and probe the topic under discussion effectively.",
+      "The student is exceptionally well-prepared, using compelling evidence to support their ideas, reflect deeply on the topic, and enhance the discussion."
+    ],
+    [
+      "The student disregards the rules for collegial discussions and does not contribute to progress or define roles.",
+      "The student occasionally follows discussion rules but does not actively contribute to progress or role definition.",
+      "The student generally follows discussion rules and makes a minimal effort to contribute to progress or role definition.",
+      "The student follows discussion rules, tracks progress towards goals, and participates in defining individual roles as needed.",
+      "The student consistently follows discussion rules, actively tracks progress, and effectively defines roles to facilitate discussion.",
+      "The student expertly adheres to discussion rules, skillfully guides progress towards goals, and effectively defines roles, enhancing the collaborative environment."
+    ],
+    [
+      "The student does not pose questions or respond to others' comments.",
+      "The student poses irrelevant questions and provides unrelated responses to others' comments.",
+      "The student attempts to pose relevant questions and respond to comments, but struggles to connect ideas or provide evidence.",
+      "The student poses questions that connect ideas and responds to others with relevant observations and ideas.",
+      "The student skillfully poses questions that connect multiple speakers' ideas and responds thoughtfully with relevant evidence and observations.",
+      "The student masterfully poses insightful questions that synthesize ideas and provides compelling, evidence-based responses that elevate the discussion."
+    ],
+    [
+      "The student ignores new information and does not qualify or justify their views.",
+      "The student briefly acknowledges new information but does not adjust or justify their own views.",
+      "The student acknowledges new information, but struggles to qualify or justify their views effectively.",
+      "The student acknowledges new information and, when warranted, qualifies or justifies their views in light of the evidence presented.",
+      "The student thoughtfully acknowledges new information and adeptly qualifies or justifies their views based on presented evidence.",
+      "The student demonstrates a sophisticated understanding by acknowledging new information and expertly qualifying or justifying their views with compelling evidence and reasoning."
+    ]
+  ]
+}

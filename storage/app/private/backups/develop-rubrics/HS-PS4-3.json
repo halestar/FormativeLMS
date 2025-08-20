@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Wave and Particle Models: Demonstrates comprehension of both wave and particle models of electromagnetic radiation.",
+    "Application of Models: Appropriately applies wave or particle models to explain specific phenomena.",
+    "Evaluation of Claims, Evidence, and Reasoning: Assesses the validity of claims and the strength of evidence supporting each model.",
+    "Communication and Clarity: Clearly and effectively communicates their understanding of the models and their applications."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student shows no understanding of wave or particle models.",
+      "Student demonstrates minimal understanding of either wave or particle models.",
+      "Student shows basic understanding of either wave or particle models, but struggles to explain the other.",
+      "Student adequately explains both wave and particle models, but lacks depth in their explanations.",
+      "Student demonstrates a strong understanding of both wave and particle models, including key characteristics and differences.",
+      "Student demonstrates a comprehensive understanding of both wave and particle models, explaining nuances and complexities with clarity and insight."
+    ],
+    [
+      "Student cannot apply either model to explain any phenomena.",
+      "Student attempts to apply a model, but application is inappropriate or incorrect.",
+      "Student can apply one model to a simple phenomenon, but struggles with more complex scenarios.",
+      "Student applies both models to some phenomena, but with limited accuracy or justification.",
+      "Student applies both models accurately to a variety of phenomena, justifying their choices with some reasoning.",
+      "Student skillfully applies both models to complex phenomena, providing clear, insightful justifications for their model selection based on the situation."
+    ],
+    [
+      "Student cannot evaluate claims or evidence related to either model.",
+      "Student attempts to evaluate claims, but lacks the ability to assess the validity of the evidence or reasoning.",
+      "Student can identify some evidence supporting a claim, but struggles to evaluate the strength of the reasoning.",
+      "Student evaluates claims and evidence with some success, but lacks critical analysis skills.",
+      "Student effectively evaluates claims, evidence, and reasoning, identifying strengths and weaknesses in the arguments.",
+      "Student demonstrates exceptional critical thinking skills, thoroughly evaluating claims, evidence, and reasoning to provide a nuanced and insightful assessment of each model's validity."
+    ],
+    [
+      "Student's communication is unclear and demonstrates a lack of understanding.",
+      "Student struggles to communicate their ideas effectively, with significant gaps in clarity.",
+      "Student communicates basic ideas, but the explanation is often unclear or incomplete.",
+      "Student communicates ideas adequately, but lacks precision and detail.",
+      "Student communicates ideas clearly and effectively, providing a solid understanding of the concepts.",
+      "Student communicates ideas with exceptional clarity, precision, and insight, demonstrating a mastery of the subject matter."
+    ]
+  ]
+}

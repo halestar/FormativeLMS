@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Explicit Textual Evidence",
+    "Strength of Connection Between Evidence and Analysis\/Inference",
+    "Depth of Analysis and Inference"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No textual evidence is cited.",
+      "Minimal attempt to cite textual evidence; evidence is irrelevant or inaccurate.",
+      "Identifies some textual evidence, but it is weakly connected to the analysis or inference.",
+      "Cites relevant textual evidence that supports the analysis or inference, but the connection could be stronger.",
+      "Effectively cites textual evidence that clearly supports the analysis of explicit content or inferences drawn, demonstrating a good understanding of the text.",
+      "Masterfully selects the most compelling textual evidence, providing insightful analysis of explicit meanings and inferences, demonstrating a deep comprehension of the text."
+    ],
+    [
+      "No analysis or inference is made.",
+      "Analysis or inference is illogical or completely unsupported by the cited evidence.",
+      "Weak connection between textual evidence and analysis or inference; the reasoning is unclear.",
+      "Adequate connection between evidence and analysis\/inference, but the reasoning could be more explicit.",
+      "Strong connection between cited evidence and analysis or inference; reasoning is logical and clearly explained.",
+      "Exemplary connection between evidence and analysis\/inference; reasoning is insightful, nuanced, and convincingly demonstrates a thorough understanding of the text."
+    ],
+    [
+      "Demonstrates no understanding of the text.",
+      "Superficial understanding of the text; analysis is basic and inferences are missing or irrelevant.",
+      "Demonstrates a limited understanding of the text; analysis is simplistic, and inferences are weakly supported.",
+      "Demonstrates a satisfactory understanding of the text; analysis is adequate, and inferences are reasonable but lack depth.",
+      "Demonstrates a strong understanding of the text; analysis is insightful, and inferences are well-supported and thoughtful.",
+      "Demonstrates an exceptional understanding of the text; analysis is profound, and inferences are perceptive, original, and thoroughly justified."
+    ]
+  ]
+}

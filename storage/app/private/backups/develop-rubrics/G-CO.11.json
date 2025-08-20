@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Parallelogram Properties",
+    "Logical Reasoning and Proof Construction",
+    "Application of Theorems (Opposite Sides\/Angles, Diagonals)",
+    "Clarity and Precision of Mathematical Language"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of parallelogram properties.",
+      "Identifies some basic properties of parallelograms but struggles with application.",
+      "States properties of parallelograms but has difficulty connecting them to theorems.",
+      "Understands and states parallelogram properties but makes errors in applying them within proofs.",
+      "Clearly understands and applies parallelogram properties to construct logical arguments but may miss minor details.",
+      "Demonstrates a comprehensive understanding of parallelogram properties and applies them flawlessly in constructing rigorous and valid proofs."
+    ],
+    [
+      "Unable to construct a logical argument or proof related to parallelograms.",
+      "Attempts to construct a proof but demonstrates flawed or incomplete reasoning.",
+      "Constructs a proof with some logical steps but contains gaps or incorrect statements.",
+      "Presents a mostly logical proof of parallelogram theorems, but some steps lack clarity or justification.",
+      "Constructs a clear, logical proof of parallelogram theorems with appropriate justifications for each step.",
+      "Constructs elegant, concise, and logically sound proofs of parallelogram theorems, demonstrating mastery of proof techniques."
+    ],
+    [
+      "Does not recognize or attempt to use relevant theorems about parallelograms.",
+      "Attempts to apply theorems but selects inappropriate or irrelevant ones.",
+      "Applies some relevant theorems but demonstrates a limited understanding of their implications.",
+      "Correctly applies theorems about opposite sides\/angles and diagonals but may not fully utilize them in proofs.",
+      "Effectively applies theorems about opposite sides\/angles and diagonals to construct complete and correct proofs.",
+      "Masterfully applies theorems about opposite sides\/angles and diagonals, demonstrating a deep understanding of their relationships and implications within complex proofs."
+    ],
+    [
+      "Uses incorrect or imprecise mathematical language, making it difficult to understand the reasoning.",
+      "Uses some correct mathematical terms but struggles to communicate ideas clearly.",
+      "Uses generally correct mathematical language but may have occasional lapses in precision.",
+      "Communicates mathematical ideas clearly and uses precise language most of the time.",
+      "Consistently uses clear, precise, and appropriate mathematical language to convey reasoning effectively.",
+      "Exemplifies the use of precise and sophisticated mathematical language, enhancing the clarity and rigor of the proofs."
+    ]
+  ]
+}

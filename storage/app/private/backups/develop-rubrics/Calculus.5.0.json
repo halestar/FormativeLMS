@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Chain Rule",
+    "Application of the Chain Rule",
+    "Proof of the Chain Rule"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the chain rule is demonstrated.",
+      "Struggles to recall the chain rule formula and its components.",
+      "Recalls the chain rule but cannot correctly identify inner and outer functions.",
+      "Correctly states the chain rule but makes errors in applying it to problems.",
+      "Demonstrates a solid understanding of the chain rule and can apply it to basic composite functions.",
+      "Exhibits a thorough understanding of the chain rule, including its proof, and applies it accurately to complex composite functions."
+    ],
+    [
+      "Unable to apply the chain rule in any context.",
+      "Attempts to apply the chain rule but makes significant errors in the process.",
+      "Can apply the chain rule to simple composite functions with guidance.",
+      "Applies the chain rule to a variety of composite functions but occasionally makes mistakes.",
+      "Consistently applies the chain rule accurately to various composite functions, including trigonometric, exponential, and logarithmic functions.",
+      "Masterfully applies the chain rule to a wide range of complex composite functions, including those involving multiple layers and implicit differentiation."
+    ],
+    [
+      "No attempt or understanding of the proof is evident.",
+      "Mentions some components of the proof but cannot connect them logically.",
+      "Recalls some steps of the proof but struggles to explain the reasoning behind them.",
+      "Presents a partial proof of the chain rule but misses key steps or justifications.",
+      "Presents a complete and accurate proof of the chain rule with clear explanations.",
+      "Provides a rigorous and insightful proof of the chain rule, demonstrating a deep understanding of its underlying principles and implications."
+    ]
+  ]
+}

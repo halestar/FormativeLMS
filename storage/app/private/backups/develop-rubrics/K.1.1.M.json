@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately name and differentiate between basic emotions (e.g., happiness, sadness, anger, fear).",
+    "Ability to recognize and name more complex emotions (e.g., frustration, disappointment, anxiety, relief).",
+    "Ability to understand and articulate the physical sensations and behavioral expressions associated with different emotions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any emotions or provides inaccurate responses.",
+      "Student can identify 1-2 basic emotions with limited accuracy.",
+      "Student can identify 3-4 basic emotions with some inaccuracies or hesitation.",
+      "Student can accurately identify most basic emotions with minimal errors.",
+      "Student can accurately identify all basic emotions and provide simple examples of situations that might evoke them.",
+      "Student demonstrates mastery by accurately identifying basic emotions, providing examples, and explaining subtle differences between related emotions."
+    ],
+    [
+      "Student cannot identify any complex emotions or confuses them with basic emotions.",
+      "Student can identify 1 complex emotion with limited accuracy.",
+      "Student can identify 2-3 complex emotions with some inaccuracies or needs prompting.",
+      "Student can accurately identify most complex emotions but struggles to differentiate them.",
+      "Student accurately identifies complex emotions and can provide relevant examples.",
+      "Student demonstrates mastery by accurately identifying complex emotions, providing nuanced examples, and explaining their potential impact on behavior."
+    ],
+    [
+      "Student cannot connect emotions to physical sensations or behaviors.",
+      "Student attempts to connect emotions to physical sensations\/behaviors but demonstrates significant inaccuracies.",
+      "Student can make some connections between emotions and physical sensations\/behaviors with prompting.",
+      "Student can accurately describe some physical sensations or behaviors associated with common emotions.",
+      "Student can describe multiple physical sensations and behavioral expressions associated with a range of emotions.",
+      "Student demonstrates a thorough understanding of the connections between emotions, physical sensations, and behaviors, and can explain how these connections can vary between individuals."
+    ]
+  ]
+}

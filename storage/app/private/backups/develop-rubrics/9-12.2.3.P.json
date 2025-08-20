@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Environmental Conditions",
+    "Analysis of Personal Health Impact",
+    "Analysis of Community Health Impact",
+    "Solutions and Prevention Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any environmental conditions affecting health.",
+      "Identifies one environmental condition without explaining its effect.",
+      "Identifies one environmental condition and vaguely mentions its effect on health.",
+      "Identifies two environmental conditions and briefly describes their effects on health.",
+      "Identifies three environmental conditions and clearly explains their effects on health.",
+      "Identifies multiple environmental conditions, explains their effects on health, and provides relevant examples."
+    ],
+    [
+      "Does not connect environmental conditions to personal health.",
+      "Makes a weak or unclear connection between one environmental condition and personal health.",
+      "Describes a basic connection between two environmental conditions and personal health.",
+      "Analyzes how two environmental conditions directly affect personal health with some supporting details.",
+      "Analyzes how multiple environmental conditions affect personal health, providing clear explanations and relevant examples.",
+      "Provides a comprehensive analysis of how various environmental conditions affect personal health, including specific and insightful examples."
+    ],
+    [
+      "Does not connect environmental conditions to community health.",
+      "Makes a weak or unclear connection between one environmental condition and community health.",
+      "Describes a basic connection between two environmental conditions and community health.",
+      "Analyzes how two environmental conditions directly affect community health with some supporting details.",
+      "Analyzes how multiple environmental conditions affect community health, providing clear explanations and relevant examples.",
+      "Provides a comprehensive analysis of how various environmental conditions affect community health, including specific and insightful examples."
+    ],
+    [
+      "Does not suggest any solutions or prevention strategies.",
+      "Suggests one solution or prevention strategy without explaining its effectiveness.",
+      "Suggests one solution or prevention strategy and vaguely mentions its potential impact.",
+      "Suggests two solutions or prevention strategies and briefly describes their potential impact.",
+      "Suggests multiple relevant solutions and prevention strategies and clearly explains their potential impact on improving health outcomes.",
+      "Provides a comprehensive and innovative plan with multiple solutions and prevention strategies, explaining their potential impact with detailed examples and strong justification."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rational Numbers",
+    "Addition and Subtraction of Rational Numbers",
+    "Representation of Addition and Subtraction on a Number Line",
+    "Application to Real-World Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rational numbers or their representation.",
+      "Student struggles to identify rational numbers and their representation on a number line.",
+      "Student identifies rational numbers but makes frequent errors in representing them on a number line.",
+      "Student can represent rational numbers on a number line with occasional errors.",
+      "Student accurately represents rational numbers on a number line and understands their values.",
+      "Student demonstrates a comprehensive understanding of rational numbers and can accurately represent and explain their values on a number line."
+    ],
+    [
+      "Student cannot add or subtract rational numbers.",
+      "Student attempts to add or subtract rational numbers but makes significant errors.",
+      "Student can add or subtract simple rational numbers but struggles with more complex problems.",
+      "Student can add and subtract rational numbers with some errors.",
+      "Student accurately adds and subtracts rational numbers.",
+      "Student demonstrates fluency in adding and subtracting rational numbers and can explain the processes involved."
+    ],
+    [
+      "Student cannot represent addition or subtraction of rational numbers on a number line.",
+      "Student attempts to represent addition or subtraction on a number line but makes significant errors.",
+      "Student can represent simple addition or subtraction on a number line but struggles with more complex problems or negative numbers.",
+      "Student can represent addition and subtraction on a number line with some errors.",
+      "Student accurately represents addition and subtraction of rational numbers on a number line.",
+      "Student demonstrates a clear understanding of how to represent addition and subtraction of rational numbers on a number line and can explain the process."
+    ],
+    [
+      "Student cannot apply addition and subtraction of rational numbers to real-world situations.",
+      "Student struggles to apply addition and subtraction of rational numbers to real-world situations.",
+      "Student can apply addition and subtraction of rational numbers to simple real-world situations.",
+      "Student applies addition and subtraction of rational numbers to real-world situations with some errors.",
+      "Student accurately applies addition and subtraction of rational numbers to real-world situations.",
+      "Student can fluently apply addition and subtraction of rational numbers to complex real-world situations and explain the reasoning."
+    ]
+  ]
+}

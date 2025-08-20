@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Rules and Regulations: Demonstrates comprehension of family, school, and community rules and regulations.",
+    "Analysis of Impact on Safety: Analyzes how following rules impacts personal and community safety.",
+    "Application to Real-Life Scenarios: Applies knowledge of rules and safety to real-life scenarios."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of rules and regulations.",
+      "Demonstrates minimal understanding of rules and regulations; struggles to identify them.",
+      "Identifies some rules and regulations but demonstrates a limited understanding of their purpose.",
+      "Understands and identifies most rules and regulations, explaining their purpose with some clarity.",
+      "Clearly understands and identifies rules and regulations, thoroughly explaining their purpose and providing relevant examples.",
+      "Exhibits a comprehensive understanding of rules and regulations, articulating their purpose with exceptional clarity and providing insightful examples."
+    ],
+    [
+      "Unable to analyze the impact of following rules on safety.",
+      "Demonstrates a weak attempt to analyze the impact of following rules on safety; analysis lacks depth.",
+      "Analyzes the impact of following rules on safety with limited insight; identifies basic connections.",
+      "Analyzes the impact of following rules on safety, providing a reasonable explanation of the connections.",
+      "Provides a thorough analysis of the impact of following rules on safety, demonstrating a clear understanding of the connections.",
+      "Offers a comprehensive and insightful analysis of the impact of following rules on safety, demonstrating a nuanced understanding of the connections and potential consequences."
+    ],
+    [
+      "Unable to apply knowledge to real-life scenarios.",
+      "Struggles to apply knowledge to real-life scenarios; application is often irrelevant or incorrect.",
+      "Applies knowledge to real-life scenarios with limited success; struggles to make accurate connections.",
+      "Applies knowledge to real-life scenarios with reasonable accuracy; identifies relevant connections.",
+      "Applies knowledge to real-life scenarios effectively, demonstrating a clear understanding of the connections and implications.",
+      "Applies knowledge to real-life scenarios with exceptional insight, demonstrating a nuanced understanding of the connections, implications, and potential solutions."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Angle Measurement using a Protractor",
+    "Precision in Sketching Angles of Specified Measure",
+    "Understanding of Angle Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to use a protractor to measure angles or makes significant errors.",
+      "Student attempts to use a protractor but struggles with alignment and scale reading, resulting in inaccurate measurements.",
+      "Student can use a protractor to measure angles, but measurements are frequently off by more than 5 degrees.",
+      "Student can accurately measure most angles using a protractor, with errors typically within 5 degrees.",
+      "Student consistently measures angles accurately using a protractor, with errors generally within 2 degrees.",
+      "Student demonstrates mastery in using a protractor for precise angle measurement, with negligible to no errors."
+    ],
+    [
+      "Student is unable to sketch angles of specified measure or sketches are wildly inaccurate.",
+      "Student attempts to sketch angles but struggles with relating the degree measure to the angle's opening.",
+      "Student can sketch angles, but they are often off by more than 10 degrees from the specified measure.",
+      "Student can sketch angles reasonably close to the specified measure, generally within 10 degrees.",
+      "Student sketches angles that are consistently within 5 degrees of the specified measure.",
+      "Student accurately sketches angles of specified measure with high precision, consistently within 2 degrees."
+    ],
+    [
+      "Student demonstrates no understanding of basic angle concepts (e.g., acute, obtuse, right angles).",
+      "Student shows limited understanding of angle concepts and struggles to apply them.",
+      "Student understands basic angle concepts but has difficulty applying them in measurement or sketching.",
+      "Student demonstrates a solid understanding of angle concepts and can apply them in most situations.",
+      "Student exhibits a strong understanding of angle concepts and can effectively apply them in various contexts.",
+      "Student demonstrates mastery of angle concepts, including acute, obtuse, right, straight, and reflex angles, and applies them flawlessly."
+    ]
+  ]
+}

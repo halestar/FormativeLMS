@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Safe Food Purchasing Practices",
+    "Knowledge of Safe Food Preparation Techniques",
+    "Application of Safe Food Storage Methods"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of safe food purchasing practices.",
+      "The student demonstrates a minimal understanding of safe food purchasing practices, with significant gaps in knowledge.",
+      "The student demonstrates a basic understanding of safe food purchasing practices, but struggles with specific examples.",
+      "The student demonstrates a satisfactory understanding of safe food purchasing practices, providing some relevant examples.",
+      "The student demonstrates a strong understanding of safe food purchasing practices, providing clear and accurate examples.",
+      "The student demonstrates a comprehensive understanding of safe food purchasing practices, providing detailed examples and explaining the reasoning behind each practice."
+    ],
+    [
+      "The student demonstrates no understanding of safe food preparation techniques.",
+      "The student demonstrates a minimal understanding of safe food preparation techniques, with significant misconceptions.",
+      "The student demonstrates a basic understanding of safe food preparation techniques, but struggles to apply them correctly.",
+      "The student demonstrates a satisfactory understanding of safe food preparation techniques, and can apply them with some consistency.",
+      "The student demonstrates a strong understanding of safe food preparation techniques, and consistently applies them correctly.",
+      "The student demonstrates a comprehensive understanding of safe food preparation techniques, explaining the scientific reasoning behind each technique and adapting them to different situations."
+    ],
+    [
+      "The student demonstrates no understanding of safe food storage methods.",
+      "The student demonstrates a minimal understanding of safe food storage methods, with significant gaps in knowledge.",
+      "The student demonstrates a basic understanding of safe food storage methods, but struggles with specific examples.",
+      "The student demonstrates a satisfactory understanding of safe food storage methods, providing some relevant examples.",
+      "The student demonstrates a strong understanding of safe food storage methods, providing clear and accurate examples.",
+      "The student demonstrates a comprehensive understanding of safe food storage methods, providing detailed examples, explaining the reasoning behind each method, and considering factors like expiration dates and cross-contamination."
+    ]
+  ]
+}

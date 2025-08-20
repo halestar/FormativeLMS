@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Basic Constructions: Copying a segment, copying an angle.",
+    "Proficiency in Bisecting: Bisecting a segment and an angle.",
+    "Construction of Perpendicular and Parallel Lines.",
+    "Use of Tools and Methods."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to copy a segment or an angle accurately. Demonstrates no understanding of the tools or methods required.",
+      "Student attempts to copy a segment or an angle but makes significant errors, indicating a lack of understanding of the basic principles.",
+      "Student can copy a segment or an angle with some inaccuracies, requiring assistance or multiple attempts to achieve a partially correct result.",
+      "Student accurately copies a segment and an angle using appropriate tools and methods with minimal errors.",
+      "Student demonstrates a solid understanding of copying segments and angles, executing constructions accurately and efficiently.",
+      "Student demonstrates mastery in copying segments and angles, executing constructions flawlessly and explaining the underlying geometric principles clearly."
+    ],
+    [
+      "Student is unable to bisect a segment or an angle. Shows no understanding of bisection principles.",
+      "Student attempts to bisect a segment or an angle but demonstrates significant errors, indicating a lack of understanding of the process.",
+      "Student can bisect a segment or an angle with some inaccuracies, requiring assistance or multiple attempts to achieve a partially correct result.",
+      "Student accurately bisects a segment and an angle using appropriate tools and methods with minimal errors.",
+      "Student demonstrates a solid understanding of bisecting segments and angles, executing constructions accurately and efficiently.",
+      "Student demonstrates mastery in bisecting segments and angles, executing constructions flawlessly and explaining the underlying geometric principles clearly."
+    ],
+    [
+      "Student is unable to construct perpendicular or parallel lines. Shows no understanding of the properties of these lines.",
+      "Student attempts to construct perpendicular or parallel lines but makes significant errors, indicating a lack of understanding of the geometric principles.",
+      "Student can construct perpendicular or parallel lines with some inaccuracies, requiring assistance or multiple attempts to achieve a partially correct result.",
+      "Student accurately constructs perpendicular lines and a line parallel to a given line through a point not on the line, using appropriate tools and methods with minimal errors.",
+      "Student demonstrates a solid understanding of constructing perpendicular and parallel lines, executing constructions accurately and efficiently.",
+      "Student demonstrates mastery in constructing perpendicular and parallel lines, executing constructions flawlessly and explaining the underlying geometric principles clearly."
+    ],
+    [
+      "Student is unable to use the tools (compass, straightedge, etc.) or methods effectively. Demonstrates no understanding of how to apply them in geometric constructions.",
+      "Student attempts to use the tools and methods but struggles with their application, resulting in inaccurate constructions.",
+      "Student can use the tools and methods with some proficiency, but requires guidance to ensure accurate constructions.",
+      "Student effectively uses the tools and methods to create accurate geometric constructions with minimal errors.",
+      "Student demonstrates skillful use of tools and methods, choosing the appropriate techniques for efficient and accurate constructions.",
+      "Student demonstrates mastery in the use of tools and methods, exhibiting precision and adaptability in various construction scenarios."
+    ]
+  ]
+}

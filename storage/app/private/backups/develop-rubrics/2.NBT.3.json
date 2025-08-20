@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in reading and writing numbers using base-ten numerals",
+    "Ability to read and write numbers using number names (word form)",
+    "Competence in expressing numbers in expanded form"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to read or write numbers to 1000 using base-ten numerals.",
+      "Student can read or write only very basic numbers (e.g., single-digit) using base-ten numerals with significant errors.",
+      "Student can read and write some numbers to 1000 using base-ten numerals but makes frequent errors or requires assistance.",
+      "Student can read and write most numbers to 1000 using base-ten numerals with occasional minor errors.",
+      "Student can accurately read and write numbers to 1000 using base-ten numerals with very few errors.",
+      "Student demonstrates consistent accuracy in reading and writing numbers to 1000 using base-ten numerals and can explain the place value concept effectively."
+    ],
+    [
+      "Student is unable to read or write numbers to 1000 using number names.",
+      "Student can read or write only very basic numbers using number names with significant errors.",
+      "Student can read and write some numbers to 1000 using number names but struggles with more complex numbers or makes frequent errors.",
+      "Student can read and write most numbers to 1000 using number names with occasional errors.",
+      "Student can accurately read and write numbers to 1000 using number names with few errors.",
+      "Student demonstrates consistent accuracy in reading and writing numbers to 1000 using number names and can fluently convert between numeral and word form."
+    ],
+    [
+      "Student does not understand or cannot express numbers in expanded form.",
+      "Student attempts to express numbers in expanded form but demonstrates a lack of understanding of place value, resulting in significant errors.",
+      "Student can express some numbers in expanded form with limited accuracy or requires significant assistance.",
+      "Student can express most numbers in expanded form with occasional minor errors.",
+      "Student can accurately express numbers in expanded form with very few errors.",
+      "Student demonstrates a strong understanding of place value and can express numbers in expanded form accurately and fluently."
+    ]
+  ]
+}

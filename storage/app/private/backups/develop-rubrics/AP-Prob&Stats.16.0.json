@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the relationship between the mean of a sampling distribution and the mean of the population distribution.",
+    "Understanding of the relationship between the standard deviation of a sampling distribution and the standard deviation of the population distribution.",
+    "Ability to apply knowledge to solve problems."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding demonstrated; incorrect or irrelevant response.",
+      "Demonstrates minimal understanding; states that the means are related but cannot explain how.",
+      "Demonstrates partial understanding; explains that the means are related, but with some inaccuracies or omissions.",
+      "Demonstrates satisfactory understanding; explains that the mean of the sampling distribution is equal to the mean of the population distribution.",
+      "Demonstrates good understanding; accurately explains the relationship and provides a relevant example.",
+      "Demonstrates excellent understanding; clearly and accurately explains the relationship, provides examples, and explains why this relationship holds true."
+    ],
+    [
+      "No understanding demonstrated; incorrect or irrelevant response.",
+      "Demonstrates minimal understanding; states that the standard deviations are related but cannot explain how.",
+      "Demonstrates partial understanding; explains that the standard deviations are related, but with some inaccuracies or omissions.",
+      "Demonstrates satisfactory understanding; explains that the standard deviation of the sampling distribution (standard error) is related to the population standard deviation and the sample size.",
+      "Demonstrates good understanding; accurately explains the relationship, including the role of sample size, and provides a relevant example.",
+      "Demonstrates excellent understanding; clearly and accurately explains the relationship, including the square root of n, provides examples, and explains the implications of this relationship for statistical inference."
+    ],
+    [
+      "Unable to apply knowledge to solve problems.",
+      "Attempts to apply knowledge but makes significant errors.",
+      "Applies knowledge with some errors or omissions.",
+      "Applies knowledge to solve problems with reasonable accuracy.",
+      "Applies knowledge effectively to solve problems accurately.",
+      "Applies knowledge expertly to solve complex problems accurately and efficiently."
+    ]
+  ]
+}

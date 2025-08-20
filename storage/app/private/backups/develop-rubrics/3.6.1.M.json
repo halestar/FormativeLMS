@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Contribution to household tasks and responsibilities.",
+    "Demonstration of responsibility and reliability.",
+    "Understanding of family needs and dynamics."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No contribution or plan to help at home.",
+      "Minimal contribution with prompting; plan lacks detail and consistency.",
+      "Some contribution with occasional prompting; plan includes a few tasks but may not be consistently followed.",
+      "Regular contribution to household tasks; plan includes a variety of tasks and is mostly followed.",
+      "Significant contribution to household responsibilities; plan is comprehensive, well-organized, and consistently followed.",
+      "Exceptional contribution, independently takes initiative; plan demonstrates a deep understanding of family needs and is executed flawlessly."
+    ],
+    [
+      "Unreliable and avoids responsibility.",
+      "Shows little responsibility and requires constant supervision.",
+      "Demonstrates some responsibility with reminders.",
+      "Generally responsible and reliable; requires occasional reminders.",
+      "Consistently responsible and reliable; takes ownership of tasks.",
+      "Exemplary responsibility; proactively seeks out opportunities to help and consistently exceeds expectations."
+    ],
+    [
+      "No awareness of family needs.",
+      "Limited understanding of family needs.",
+      "Basic understanding of common family needs.",
+      "Good understanding of general family needs and dynamics.",
+      "Clear understanding of specific family needs and demonstrates empathy.",
+      "Exceptional understanding of family needs, anticipates challenges, and offers solutions."
+    ]
+  ]
+}

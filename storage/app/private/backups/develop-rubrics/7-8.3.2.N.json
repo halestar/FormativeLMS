@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify claims made about dietary supplements and popular diets.",
+    "Ability to evaluate the accuracy of claims using credible sources and evidence.",
+    "Critical thinking and reasoning applied to the evaluation of claims."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any claims or misinterprets information.",
+      "Identifies claims, but struggles to accurately represent them.",
+      "Identifies some claims and represents them with limited accuracy.",
+      "Identifies most claims and represents them with reasonable accuracy.",
+      "Identifies nearly all claims and represents them accurately.",
+      "Identifies all claims accurately and provides a comprehensive summary of the information presented."
+    ],
+    [
+      "Unable to use credible sources to evaluate the accuracy of claims.",
+      "Attempts to use sources, but struggles to find credible information.",
+      "Uses sources, but the information provided has limited relevance.",
+      "Uses relevant sources to evaluate the claims, but some information is missing.",
+      "Uses relevant sources to evaluate claims accurately and comprehensively.",
+      "Uses relevant sources and synthesizes information accurately and comprehensively."
+    ],
+    [
+      "Displays no critical thinking or reasoning skills.",
+      "Displays limited critical thinking or reasoning skills.",
+      "Displays some critical thinking and reasoning skills, but lacks depth.",
+      "Displays solid critical thinking and reasoning skills, and shows understanding of the evaluation.",
+      "Displays strong critical thinking and reasoning skills with a solid and accurate understanding of the evaluation.",
+      "Displays exceptional critical thinking and reasoning skills, with clear, insightful, and accurate understanding of the evaluation."
+    ]
+  ]
+}

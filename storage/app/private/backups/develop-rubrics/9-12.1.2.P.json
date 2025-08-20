@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Importance of Regular Medical Checkups",
+    "Understanding the Importance of Regular Dental Checkups",
+    "Understanding the Importance of Vaccinations",
+    "Understanding the Importance of Examinations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the importance of regular medical checkups.",
+      "Student shows a minimal understanding, mentioning checkups but not explaining their significance.",
+      "Student identifies regular checkups as important but provides limited reasons why.",
+      "Student explains the importance of regular medical checkups, including some specific benefits.",
+      "Student comprehensively explains the importance of regular medical checkups, detailing various benefits and potential preventative measures.",
+      "Student demonstrates an in-depth understanding of the importance of regular medical checkups, providing detailed explanations, examples, and potential long-term health benefits. They also connect checkups to proactive healthcare management."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of regular dental checkups.",
+      "Student shows a minimal understanding, mentioning dental checkups but not explaining their significance.",
+      "Student identifies regular dental checkups as important but provides limited reasons why.",
+      "Student explains the importance of regular dental checkups, including some specific benefits like preventing cavities.",
+      "Student comprehensively explains the importance of regular dental checkups, detailing various benefits such as preventing gum disease and maintaining oral hygiene.",
+      "Student demonstrates an in-depth understanding of the importance of regular dental checkups, providing detailed explanations, examples, and potential long-term oral health benefits. They also connect dental checkups to overall health."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of vaccinations.",
+      "Student shows a minimal understanding, mentioning vaccinations but not explaining their significance.",
+      "Student identifies vaccinations as important but provides limited reasons why.",
+      "Student explains the importance of vaccinations in preventing the spread of diseases.",
+      "Student comprehensively explains the importance of vaccinations, detailing how they work and the benefits of herd immunity.",
+      "Student demonstrates an in-depth understanding of the importance of vaccinations, addressing common misconceptions and providing evidence-based arguments for their use in public health."
+    ],
+    [
+      "Student demonstrates no understanding of the importance of regular medical examinations.",
+      "Student shows a minimal understanding, mentioning medical examinations but not explaining their significance.",
+      "Student identifies regular medical examinations as important but provides limited reasons why.",
+      "Student explains the importance of regular medical examinations, including some specific benefits.",
+      "Student comprehensively explains the importance of regular medical examinations, detailing various benefits and potential preventative measures.",
+      "Student demonstrates an in-depth understanding of the importance of regular medical examinations, providing detailed explanations, examples, and potential long-term health benefits. They also connect examinations to proactive healthcare management."
+    ]
+  ]
+}

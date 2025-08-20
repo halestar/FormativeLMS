@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Trigonometric Integrals",
+    "Application of Integration Techniques",
+    "Accuracy of Computations",
+    "Problem-Solving Approach"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of trigonometric integrals is demonstrated.",
+      "Demonstrates minimal understanding of trigonometric integrals; struggles to apply basic rules.",
+      "Shows some understanding of trigonometric integrals but makes frequent errors in application.",
+      "Demonstrates a fair understanding of trigonometric integrals; can apply rules with occasional errors.",
+      "Shows a strong understanding of trigonometric integrals and applies rules accurately in most cases.",
+      "Demonstrates a comprehensive understanding of trigonometric integrals and applies rules accurately and efficiently."
+    ],
+    [
+      "Unable to apply any integration techniques to trigonometric functions.",
+      "Attempts to apply integration techniques but is largely unsuccessful.",
+      "Applies some integration techniques with limited success and frequent errors.",
+      "Applies integration techniques with moderate success and some errors.",
+      "Applies integration techniques accurately and effectively in most cases.",
+      "Applies integration techniques flawlessly and efficiently to solve complex problems."
+    ],
+    [
+      "Computations are consistently incorrect and demonstrate a lack of understanding.",
+      "Computations are frequently incorrect with significant errors.",
+      "Computations contain several errors that impact the final result.",
+      "Computations are mostly accurate with minor errors that do not significantly impact the result.",
+      "Computations are accurate with only minor or negligible errors.",
+      "Computations are consistently accurate and precise, demonstrating a strong command of mathematical principles."
+    ],
+    [
+      "No attempt to solve the problem or apply appropriate strategies.",
+      "Attempts to solve the problem but lacks a coherent strategy.",
+      "Demonstrates a limited problem-solving approach with frequent missteps.",
+      "Applies a basic problem-solving approach with some effectiveness.",
+      "Demonstrates a strategic problem-solving approach with clear steps and reasoning.",
+      "Exhibits a sophisticated and efficient problem-solving approach with clear and logical reasoning."
+    ]
+  ]
+}

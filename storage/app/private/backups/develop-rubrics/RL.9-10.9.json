@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Source Material and Transformation",
+    "Analysis of Author's Purpose and Technique",
+    "Clarity and Coherence of Argument"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any source material or transformation within the text.",
+      "The student identifies source material with inaccuracies or provides a superficial understanding of the transformation.",
+      "The student identifies source material and transformation but lacks depth in analysis or provides limited examples.",
+      "The student accurately identifies source material and transformation, providing relevant examples and demonstrating a basic understanding of their relationship.",
+      "The student thoroughly identifies source material and transformation, providing detailed examples and demonstrating a clear understanding of their significance within the text.",
+      "The student expertly identifies source material and transformation, providing insightful analysis and demonstrating a nuanced understanding of their impact on the work as a whole."
+    ],
+    [
+      "The student does not address the author's purpose or technique in drawing on and transforming the source material.",
+      "The student provides a vague or unsubstantiated explanation of the author's purpose or technique.",
+      "The student identifies the author's purpose or technique but struggles to connect it to the transformation of the source material.",
+      "The student analyzes the author's purpose and technique, providing evidence from the text to support their claims and demonstrating a connection to the transformation of source material.",
+      "The student offers a well-reasoned analysis of the author's purpose and technique, providing compelling evidence from the text and demonstrating a clear understanding of their impact on the work.",
+      "The student provides a sophisticated analysis of the author's purpose and technique, offering original insights and demonstrating a deep understanding of their artistic and thematic implications."
+    ],
+    [
+      "The student's analysis is unclear, disorganized, and lacks a central argument.",
+      "The student's analysis is difficult to follow, with weak connections between ideas and a poorly defined argument.",
+      "The student presents an argument with some clarity but may lack sufficient evidence or logical organization.",
+      "The student presents a clear and organized argument with supporting evidence and logical reasoning.",
+      "The student presents a well-developed and coherent argument with strong evidence and insightful analysis.",
+      "The student presents a sophisticated and compelling argument with exceptional clarity, insight, and persuasive evidence."
+    ]
+  ]
+}

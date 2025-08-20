@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Citizenship Acquisition Methods",
+    "Accuracy and Completeness of Information",
+    "Understanding of Naturalization Requirements"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how one becomes a citizen of the United States.",
+      "Demonstrates a very limited understanding of the ways one can become a citizen, with significant inaccuracies.",
+      "Shows a basic understanding of either birthright citizenship OR the naturalization process, but not both. Contains some inaccuracies.",
+      "Explains both birthright citizenship AND the naturalization process but lacks detail or clarity in one or both explanations.",
+      "Clearly explains both birthright citizenship and the naturalization process, including some of the basic requirements. Minor details may be missing.",
+      "Provides a comprehensive and accurate explanation of both birthright citizenship and the naturalization process, including specific requirements and potential challenges."
+    ],
+    [
+      "Information presented is largely inaccurate or irrelevant to the topic.",
+      "Presents some accurate information, but major inaccuracies or omissions are present.",
+      "Presents mostly accurate information with minor inaccuracies or omissions.",
+      "Presents accurate information with few omissions, but lacks depth.",
+      "Presents accurate and complete information with sufficient depth.",
+      "Presents exceptionally accurate, complete, and detailed information, demonstrating a mastery of the topic."
+    ],
+    [
+      "Shows no understanding of naturalization requirements.",
+      "Mentions naturalization requirements but does not list specific examples, or examples given are inaccurate.",
+      "Lists one or two naturalization requirements (e.g., literacy, language) but lacks elaboration.",
+      "Lists several naturalization requirements but may not explain the purpose or significance of each.",
+      "Clearly explains several naturalization requirements, including literacy, language, and residency.",
+      "Provides an in-depth explanation of a wide range of naturalization requirements, including historical context and potential barriers."
+    ]
+  ]
+}

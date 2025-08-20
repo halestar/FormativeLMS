@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Knowledge of CPR Procedures",
+    "Knowledge of First Aid Techniques",
+    "Ability to Describe Bleeding Control Methods",
+    "Application of Emergency Care Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of CPR procedures is demonstrated.",
+      "Demonstrates minimal understanding of CPR procedures; major steps are missing or incorrect.",
+      "Demonstrates some understanding of CPR procedures; several steps are missing or incorrect.",
+      "Demonstrates a general understanding of CPR procedures; minor steps may be missing or incorrect.",
+      "Demonstrates a clear understanding of CPR procedures; all major steps are included and mostly accurate.",
+      "Demonstrates a comprehensive understanding of CPR procedures; all steps are accurate and thorough."
+    ],
+    [
+      "No understanding of basic first aid techniques is demonstrated.",
+      "Demonstrates minimal understanding of first aid techniques; knowledge is very limited and inaccurate.",
+      "Demonstrates some understanding of first aid techniques; knowledge is incomplete and contains errors.",
+      "Demonstrates a general understanding of first aid techniques; knowledge is mostly accurate but lacks detail.",
+      "Demonstrates a clear understanding of first aid techniques; knowledge is accurate and covers essential techniques.",
+      "Demonstrates a comprehensive understanding of first aid techniques; knowledge is detailed, accurate, and includes advanced techniques."
+    ],
+    [
+      "Unable to describe any methods for controlling bleeding.",
+      "Describes only one method for controlling bleeding, but explanation is unclear or incorrect.",
+      "Describes a couple of methods for controlling bleeding, but explanations contain significant gaps or inaccuracies.",
+      "Describes several methods for controlling bleeding, with some inaccuracies or omissions.",
+      "Describes various methods for controlling bleeding accurately and completely.",
+      "Describes various methods for controlling bleeding accurately, completely, and explains the rationale behind each method."
+    ],
+    [
+      "Unable to apply knowledge of emergency care in a given scenario.",
+      "Demonstrates difficulty applying knowledge of emergency care; responses are inappropriate or harmful.",
+      "Applies some knowledge of emergency care, but with significant errors or omissions.",
+      "Generally applies knowledge of emergency care appropriately, with minor errors or omissions.",
+      "Applies knowledge of emergency care effectively and appropriately in a given scenario.",
+      "Applies knowledge of emergency care expertly and appropriately, demonstrating critical thinking and problem-solving skills."
+    ]
+  ]
+}

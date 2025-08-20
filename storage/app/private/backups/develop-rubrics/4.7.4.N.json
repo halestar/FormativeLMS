@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Personal Responsibility",
+    "Planning and Goal Setting",
+    "Engagement and Participation",
+    "Self-Monitoring and Reflection"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of what personal responsibility means in the context of physical activity.",
+      "Shows a limited understanding of personal responsibility, mainly relying on external factors.",
+      "Understands personal responsibility but struggles to articulate or demonstrate how it applies to physical activity.",
+      "Can explain personal responsibility and its connection to physical activity, but may not consistently apply it.",
+      "Clearly understands and articulates the importance of personal responsibility in engaging in physical activity, demonstrating consistent application.",
+      "Exemplifies a deep understanding of personal responsibility by consistently taking initiative and ownership in physical activity, also motivating others."
+    ],
+    [
+      "Does not attempt to plan physical activities or set goals.",
+      "Makes vague attempts at planning but lacks specific goals or strategies.",
+      "Can create a basic plan with some goals, but lacks detail or feasibility.",
+      "Develops a reasonable plan with achievable goals, but may need guidance in refining it.",
+      "Independently creates a well-structured plan with specific, measurable, achievable, relevant, and time-bound (SMART) goals.",
+      "Proactively designs and implements comprehensive and personalized physical activity plans with SMART goals, adapting strategies as needed for optimal results."
+    ],
+    [
+      "Shows no engagement or participation in physical activities.",
+      "Participates passively with minimal effort or enthusiasm.",
+      "Engages in activities when prompted, but lacks initiative.",
+      "Actively participates in planned activities and demonstrates a willingness to try new things.",
+      "Enthusiastically engages in a variety of physical activities, demonstrating consistent effort and commitment.",
+      "Models exemplary engagement and participation, inspiring peers and actively seeking opportunities to enhance physical activity experiences."
+    ],
+    [
+      "Does not monitor own progress or reflect on experiences.",
+      "Occasionally acknowledges progress but lacks specific insights.",
+      "Can identify some successes and challenges, but struggles to analyze them.",
+      "Regularly monitors progress and reflects on experiences, identifying areas for improvement.",
+      "Critically analyzes progress, identifies strengths and weaknesses, and uses insights to adjust future plans effectively.",
+      "Demonstrates exceptional self-awareness by consistently monitoring progress, deeply reflecting on experiences, and proactively adapting strategies for continuous improvement and growth."
+    ]
+  ]
+}

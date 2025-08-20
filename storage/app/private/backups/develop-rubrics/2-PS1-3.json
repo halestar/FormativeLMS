@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Observation and Data Collection",
+    "Evidence-Based Account",
+    "Understanding of Structure and Properties of Matter",
+    "Communication and Clarity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No observations are made, and no data is collected.",
+      "Minimal observations are made with little to no relevant data collected.",
+      "Some relevant observations are made, and some data is collected, but there are gaps or inaccuracies.",
+      "Relevant observations are made, and data is collected, but there could be more detail or accuracy.",
+      "Detailed and relevant observations are made, and comprehensive data is collected accurately.",
+      "Exceptional observations are made with insightful data collection, demonstrating a deep understanding of the object's properties and changes."
+    ],
+    [
+      "No attempt is made to construct an evidence-based account.",
+      "An attempt is made to construct an account, but it lacks evidence and clarity.",
+      "An account is constructed with some evidence, but the reasoning is unclear or incomplete.",
+      "A clear account is constructed with supporting evidence, but connections between evidence and conclusions could be stronger.",
+      "A well-reasoned and evidence-based account is constructed, clearly explaining how the object was disassembled and reassembled.",
+      "A sophisticated and compelling evidence-based account is constructed, demonstrating a deep understanding of the underlying principles and concepts."
+    ],
+    [
+      "Demonstrates no understanding of the structure and properties of matter.",
+      "Demonstrates a limited understanding of the structure and properties of matter.",
+      "Demonstrates a basic understanding of the structure and properties of matter, but struggles to apply it.",
+      "Demonstrates a solid understanding of the structure and properties of matter and applies it effectively.",
+      "Demonstrates a strong understanding of the structure and properties of matter and applies it creatively.",
+      "Demonstrates an exceptional understanding of the structure and properties of matter and applies it insightfully."
+    ],
+    [
+      "The account is unclear and difficult to understand.",
+      "The account is somewhat understandable but lacks clarity and organization.",
+      "The account is generally clear but could benefit from improved organization and vocabulary.",
+      "The account is clear, well-organized, and uses appropriate vocabulary.",
+      "The account is articulate, coherent, and uses precise scientific language.",
+      "The account is exceptionally well-written, engaging, and demonstrates a mastery of scientific communication."
+    ]
+  ]
+}

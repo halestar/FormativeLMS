@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Physical Benefits",
+    "Understanding of Physiological Impact",
+    "Comprehension of Mental\/Emotional Benefits"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any benefits of physical activity.",
+      "Identifies only one benefit of physical activity.",
+      "Identifies two benefits of physical activity, but the descriptions are vague.",
+      "Identifies three benefits of physical activity with some detail.",
+      "Clearly identifies four distinct benefits of physical activity with good detail.",
+      "Clearly and comprehensively identifies five or more distinct benefits of physical activity with excellent detail and provides supporting information."
+    ],
+    [
+      "Demonstrates no understanding of how physical activity impacts the body.",
+      "Shows minimal understanding of the physiological impact of physical activity.",
+      "Shows basic understanding of how physical activity affects one bodily system (e.g., cardiovascular).",
+      "Explains how physical activity impacts at least two bodily systems with some accuracy.",
+      "Explains how physical activity impacts multiple bodily systems with good accuracy and provides examples.",
+      "Demonstrates a comprehensive understanding of how physical activity impacts various bodily systems, explaining the physiological mechanisms with excellent accuracy and relevant examples."
+    ],
+    [
+      "Does not recognize any mental or emotional benefits of physical activity.",
+      "Mentions only one vague mental or emotional benefit.",
+      "Identifies a basic mental or emotional benefit, such as stress reduction.",
+      "Describes two mental\/emotional benefits with some explanation.",
+      "Clearly articulates three or more mental\/emotional benefits of physical activity with supporting details.",
+      "Provides a thorough and insightful explanation of multiple mental\/emotional benefits, including the relationship between physical activity and mental well-being, and potentially cites relevant research or examples."
+    ]
+  ]
+}

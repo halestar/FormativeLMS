@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of American Symbols and Landmarks",
+    "Understanding of Essential Documents",
+    "Knowledge of Associated People and Events"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify any American symbols or landmarks.",
+      "Student identifies only one American symbol or landmark with significant inaccuracies.",
+      "Student identifies 2-3 American symbols or landmarks, but with limited accuracy or detail.",
+      "Student identifies 3-4 American symbols and landmarks with reasonable accuracy and some detail.",
+      "Student accurately identifies at least 4 American symbols and landmarks with good detail and context.",
+      "Student comprehensively identifies multiple American symbols and landmarks with thorough accuracy, detail, and historical context."
+    ],
+    [
+      "Student demonstrates no understanding of essential documents like the Constitution or Declaration of Independence.",
+      "Student mentions essential documents but shows no understanding of their content or significance.",
+      "Student identifies essential documents but provides minimal information and\/or inaccuracies.",
+      "Student identifies essential documents and provides a basic understanding of their purpose and content.",
+      "Student demonstrates a solid understanding of the essential documents, their purpose, and key principles.",
+      "Student exhibits a comprehensive understanding of essential documents, their historical context, key principles, and ongoing relevance."
+    ],
+    [
+      "Student is unable to connect any people or events to the identified symbols, landmarks, or documents.",
+      "Student attempts to connect people or events but provides incorrect or irrelevant information.",
+      "Student connects a few relevant people or events, but with limited detail or accuracy.",
+      "Student connects several relevant people and events with reasonable accuracy and some detail.",
+      "Student accurately connects people and events to the symbols, landmarks, and documents, providing good detail and context.",
+      "Student comprehensively connects significant people and events with thorough accuracy, detail, historical context, and their impact on American identity."
+    ]
+  ]
+}

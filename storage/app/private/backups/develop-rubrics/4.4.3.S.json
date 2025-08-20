@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifying and Reporting Bullying and Harassment",
+    "Reporting Dangerous Situations",
+    "Understanding Reporting Protocols"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not recognize or report instances of bullying or harassment.",
+      "Shows minimal recognition of bullying or harassment, but does not report it.",
+      "Recognizes bullying or harassment in obvious situations but hesitates to report or does so incompletely.",
+      "Identifies bullying and harassment and reports it with prompting or assistance.",
+      "Independently identifies and reports bullying and harassment, providing sufficient detail.",
+      "Proactively identifies, accurately reports, and takes appropriate action (e.g., seeks help from trusted adults) in bullying and harassment situations."
+    ],
+    [
+      "Does not recognize or report dangerous situations.",
+      "Shows minimal recognition of dangerous situations but does not report it.",
+      "Recognizes dangerous situations in obvious contexts but hesitates to report or does so incompletely.",
+      "Identifies dangerous situations and reports it with prompting or assistance.",
+      "Independently identifies and reports dangerous situations, providing relevant details.",
+      "Proactively identifies dangerous situations, reports them accurately, and takes immediate, appropriate action to ensure safety."
+    ],
+    [
+      "Demonstrates no understanding of reporting protocols or procedures.",
+      "Shows minimal awareness of reporting protocols, but cannot articulate them.",
+      "Understands some basic reporting protocols but is unsure of specific steps.",
+      "Demonstrates understanding of the steps to report dangerous situations.",
+      "Can accurately describe and follow reporting protocols for various dangerous situations.",
+      "Demonstrates thorough understanding of reporting protocols and can adapt them to novel or complex dangerous situations, while also assisting others in understanding these protocols."
+    ]
+  ]
+}

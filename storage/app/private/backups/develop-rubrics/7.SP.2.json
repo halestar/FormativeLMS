@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding Random Sampling",
+    "Drawing Inferences About a Population",
+    "Generating and Analyzing Multiple Samples",
+    "Applying Concepts to Real-World Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of random sampling techniques.",
+      "Student shows a minimal understanding of random sampling, with significant misconceptions.",
+      "Student can identify random samples but struggles to explain why they are important for making inferences.",
+      "Student understands random sampling and can explain its basic purpose in data collection.",
+      "Student can apply random sampling techniques and explain their importance in reducing bias and improving the accuracy of inferences.",
+      "Student demonstrates a thorough understanding of random sampling, including its advantages and limitations, and can design effective sampling strategies for various scenarios."
+    ],
+    [
+      "Student is unable to draw any meaningful inferences from sample data.",
+      "Student attempts to draw inferences but demonstrates significant errors in reasoning and interpretation.",
+      "Student can draw simple inferences from sample data but struggles with more complex scenarios.",
+      "Student can draw reasonable inferences from sample data and explain the reasoning behind them.",
+      "Student can accurately draw inferences about a population from sample data, considering potential sources of error and bias.",
+      "Student excels at drawing nuanced and well-supported inferences about a population, demonstrating a deep understanding of statistical reasoning and the limitations of sample data."
+    ],
+    [
+      "Student does not attempt to generate or analyze multiple samples.",
+      "Student attempts to generate multiple samples but is unable to analyze them effectively.",
+      "Student can generate multiple samples but struggles to identify patterns or variation among them.",
+      "Student can generate and compare multiple samples, identifying basic trends and variations.",
+      "Student can systematically generate and analyze multiple samples to gauge the variability in estimates or predictions.",
+      "Student demonstrates a sophisticated ability to generate, analyze, and interpret multiple samples, using statistical measures to quantify the uncertainty in estimates or predictions."
+    ],
+    [
+      "Student is unable to apply random sampling and inference techniques to real-world examples.",
+      "Student attempts to apply the concepts but demonstrates significant misunderstandings of the context or data.",
+      "Student can apply the concepts to simple real-world examples but struggles with more complex scenarios.",
+      "Student can apply random sampling and inference techniques to a variety of real-world examples.",
+      "Student can critically evaluate the use of random sampling and inference in real-world studies, identifying potential biases and limitations.",
+      "Student can design and conduct their own studies using random sampling and inference to answer real-world questions, demonstrating a mastery of the concepts and their applications."
+    ]
+  ]
+}

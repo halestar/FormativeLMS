@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Magna Carta Principles",
+    "Connection to English Bill of Rights",
+    "Connection to the American Declaration of Independence",
+    "Clarity and Accuracy of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Magna Carta or its principles.",
+      "Student shows minimal understanding of the Magna Carta, struggling to identify any of its key principles.",
+      "Student identifies a few principles of the Magna Carta but struggles to explain them or their significance.",
+      "Student accurately identifies and explains some key principles of the Magna Carta, such as due process and rule of law.",
+      "Student clearly explains the key principles of the Magna Carta and their historical significance.",
+      "Student demonstrates a comprehensive understanding of the Magna Carta, its principles, and its long-term impact on legal and political thought."
+    ],
+    [
+      "Student fails to make any connection between the Magna Carta and the English Bill of Rights.",
+      "Student attempts to connect the Magna Carta to the English Bill of Rights but the connection is vague and unsupported.",
+      "Student identifies a superficial similarity between the Magna Carta and the English Bill of Rights.",
+      "Student explains how some principles of the Magna Carta, such as limited government, influenced the English Bill of Rights.",
+      "Student provides a detailed explanation of the ways in which the English Bill of Rights builds upon the principles established in the Magna Carta.",
+      "Student analyzes the specific clauses in both documents, demonstrating a deep understanding of the historical and intellectual lineage between the Magna Carta and the English Bill of Rights."
+    ],
+    [
+      "Student fails to make any connection between the Magna Carta and the American Declaration of Independence.",
+      "Student attempts to connect the Magna Carta to the American Declaration of Independence but the connection is vague and unsupported.",
+      "Student identifies a superficial similarity between the Magna Carta and the American Declaration of Independence.",
+      "Student explains how some principles of the Magna Carta, such as individual rights, influenced the American Declaration of Independence.",
+      "Student provides a detailed explanation of the ways in which the American Declaration of Independence reflects the principles established in the Magna Carta.",
+      "Student analyzes the specific grievances listed in the Declaration of Independence, demonstrating how they relate to violations of principles first articulated in the Magna Carta."
+    ],
+    [
+      "Student's explanation is unclear, inaccurate, and demonstrates a lack of understanding.",
+      "Student's explanation is difficult to follow and contains significant inaccuracies.",
+      "Student's explanation is somewhat clear but contains some inaccuracies or oversimplifications.",
+      "Student's explanation is generally clear and accurate, with only minor errors.",
+      "Student's explanation is clear, concise, and accurate, demonstrating a strong understanding of the material.",
+      "Student's explanation is exceptionally clear, insightful, and demonstrates a nuanced understanding of the historical and philosophical connections between the documents."
+    ]
+  ]
+}

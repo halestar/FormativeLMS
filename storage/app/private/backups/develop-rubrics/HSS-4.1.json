@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification and Description of Physical Features",
+    "Identification and Description of Human Geographic Features",
+    "Understanding of the Interrelationship Between Physical and Human Features"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify or incorrectly identifies physical features of California. Description is missing or inaccurate.",
+      "Student identifies a few physical features of California but provides minimal or vague descriptions.",
+      "Student identifies some physical features of California and provides basic descriptions, but lacks detail or accuracy in places.",
+      "Student accurately identifies most physical features of California and provides clear and reasonably detailed descriptions.",
+      "Student accurately identifies physical features of California and provides detailed and insightful descriptions, demonstrating good understanding.",
+      "Student comprehensively identifies and describes physical features of California with exceptional detail, accuracy, and insightful analysis."
+    ],
+    [
+      "Student does not identify or incorrectly identifies human geographic features of California. Description is missing or inaccurate.",
+      "Student identifies a few human geographic features of California but provides minimal or vague descriptions.",
+      "Student identifies some human geographic features of California and provides basic descriptions, but lacks detail or accuracy in places.",
+      "Student accurately identifies most human geographic features of California and provides clear and reasonably detailed descriptions.",
+      "Student accurately identifies human geographic features of California and provides detailed and insightful descriptions, demonstrating good understanding.",
+      "Student comprehensively identifies and describes human geographic features of California with exceptional detail, accuracy, and insightful analysis."
+    ],
+    [
+      "Student fails to demonstrate any understanding of how physical and human geographic features interact or influence each other in California.",
+      "Student shows a very limited or superficial understanding of the relationship between physical and human features.",
+      "Student demonstrates a basic understanding of how physical and human geographic features may be related, but lacks depth or specific examples.",
+      "Student demonstrates a clear understanding of the interrelationship between physical and human geographic features in shaping California's places and regions, providing relevant examples.",
+      "Student demonstrates a strong understanding of the complex interrelationship between physical and human features, offering insightful analysis and well-supported examples.",
+      "Student demonstrates an exceptional understanding of the intricate connections between physical and human features, providing comprehensive analysis and demonstrating a nuanced perspective."
+    ]
+  ]
+}

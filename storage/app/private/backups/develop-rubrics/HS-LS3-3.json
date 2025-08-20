@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Application of Statistical Concepts",
+    "Probability in Trait Expression",
+    "Analysis and Interpretation of Data",
+    "Understanding Environmental Factors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of basic statistical concepts.",
+      "Student demonstrates a limited understanding of statistical concepts, struggling to apply them correctly.",
+      "Student applies basic statistical concepts with some errors or inconsistencies.",
+      "Student correctly applies statistical concepts to explain variation and distribution of traits, but the explanation lacks depth.",
+      "Student applies statistical concepts effectively to explain the variation and distribution of traits with a clear and detailed explanation.",
+      "Student demonstrates a sophisticated understanding of statistical concepts, applying them expertly to explain complex variations and distributions of traits with insightful analysis."
+    ],
+    [
+      "Student does not address probability or its role in the expression of traits.",
+      "Student mentions probability but does not explain its relevance to trait expression.",
+      "Student provides a basic explanation of probability in trait expression with some inaccuracies.",
+      "Student accurately explains the role of probability in trait expression, linking it to genetic and environmental factors.",
+      "Student provides a thorough explanation of the role of probability in trait expression, including the influence of both genetic and environmental factors with relevant examples.",
+      "Student offers a nuanced and comprehensive explanation of probability in trait expression, demonstrating a deep understanding of the interplay between genetic and environmental factors, and providing insightful examples."
+    ],
+    [
+      "Student fails to analyze or interpret data related to trait variation.",
+      "Student attempts to analyze data but struggles to draw meaningful conclusions.",
+      "Student provides a basic analysis of data with limited interpretation.",
+      "Student effectively analyzes data and provides a clear interpretation of trait variation and distribution.",
+      "Student demonstrates strong analytical skills and interprets data effectively, drawing well-supported conclusions about trait variation and distribution.",
+      "Student exhibits exceptional analytical and interpretive skills, extracting complex patterns and insights from data to provide a comprehensive understanding of trait variation and distribution, and offering potential explanations for observed trends."
+    ],
+    [
+      "Student does not recognize the influence of environmental factors on trait expression.",
+      "Student acknowledges environmental factors but does not explain their impact.",
+      "Student provides a limited explanation of how environmental factors affect trait expression.",
+      "Student accurately explains how environmental factors influence trait expression and distribution in a population.",
+      "Student offers a detailed explanation of the interplay between genetic and environmental factors in trait expression, providing specific examples.",
+      "Student demonstrates a sophisticated understanding of the complex interactions between genetic and environmental factors, providing insightful analysis of their impact on trait expression and distribution, and considering potential long-term consequences."
+    ]
+  ]
+}

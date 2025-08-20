@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information Derived",
+    "Comparison of Information Derived",
+    "Understanding of Model vs. Picture"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No information derived from either model or picture is accurate or relevant.",
+      "Very little information derived is accurate. Significant misunderstandings are present.",
+      "Some information derived is accurate, but key details are missing or misunderstood.",
+      "Most information derived is accurate, with only minor omissions or errors.",
+      "Nearly all information derived is accurate and relevant, showing a strong understanding.",
+      "All information derived is completely accurate, relevant, and demonstrates comprehensive understanding."
+    ],
+    [
+      "No attempt to compare information or identify differences\/similarities.",
+      "Attempt to compare, but comparison is superficial and lacks depth.",
+      "Comparison identifies some differences\/similarities, but explanations are limited.",
+      "Comparison identifies most key differences\/similarities with reasonable explanations.",
+      "Comparison thoroughly identifies differences\/similarities with clear and detailed explanations.",
+      "Comparison is insightful, nuanced, and demonstrates a sophisticated understanding of the information derived from each source."
+    ],
+    [
+      "Demonstrates no understanding of the strengths or weaknesses of either a 3D model or a picture for deriving information.",
+      "Demonstrates a very limited understanding of the strengths or weaknesses of either a 3D model or a picture for deriving information.",
+      "Demonstrates a basic understanding of the strengths or weaknesses of either a 3D model or a picture for deriving information. Explanations are vague.",
+      "Demonstrates a good understanding of the strengths and weaknesses of both a 3D model and a picture for deriving information. Provides reasonable explanations.",
+      "Demonstrates a strong understanding of the strengths and weaknesses of both a 3D model and a picture for deriving information. Provides clear and detailed explanations.",
+      "Demonstrates a comprehensive and nuanced understanding of the strengths and weaknesses of both a 3D model and a picture for deriving information. Provides insightful explanations."
+    ]
+  ]
+}

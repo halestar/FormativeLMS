@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the lives of free blacks.",
+    "Knowledge of laws limiting freedom and economic opportunities.",
+    "Ability to connect laws and lived experiences."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the lives of free blacks.",
+      "Shows a minimal understanding of the lives of free blacks, with significant gaps in knowledge.",
+      "Displays a basic understanding of the lives of free blacks, but lacks depth and detail.",
+      "Exhibits a satisfactory understanding of the lives of free blacks, including some details about their daily lives.",
+      "Demonstrates a strong understanding of the lives of free blacks, including specific examples and details.",
+      "Shows a comprehensive understanding of the lives of free blacks, including nuances and complexities, and can connect it to broader historical contexts."
+    ],
+    [
+      "Demonstrates no knowledge of laws limiting the freedom and economic opportunities of free blacks.",
+      "Shows minimal knowledge of laws, with significant inaccuracies or omissions.",
+      "Displays a basic knowledge of laws, but struggles to explain their impact on free blacks.",
+      "Exhibits a satisfactory knowledge of laws, including some specific examples and their effects.",
+      "Demonstrates a strong knowledge of laws, including specific examples and a clear explanation of their impact on free blacks.",
+      "Shows a comprehensive knowledge of laws, including their legal and social ramifications, and can connect them to broader systems of discrimination and inequality."
+    ],
+    [
+      "Unable to make any connections between laws and the lived experiences of free blacks.",
+      "Struggles to connect laws to lived experiences, with limited success.",
+      "Makes some basic connections between laws and lived experiences, but lacks depth and analysis.",
+      "Connects laws to lived experiences in a satisfactory manner, providing some relevant examples.",
+      "Connects laws to lived experiences in a strong and insightful manner, providing specific and relevant examples.",
+      "Connects laws to lived experiences in a comprehensive and nuanced manner, demonstrating a deep understanding of the relationship between legal structures and daily life."
+    ]
+  ]
+}

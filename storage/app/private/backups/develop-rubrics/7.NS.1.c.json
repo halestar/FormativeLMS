@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Additive Inverse",
+    "Representation on a Number Line",
+    "Calculating Distance",
+    "Application to Real-World Contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of additive inverse or its application is demonstrated.",
+      "Struggles to identify additive inverses of rational numbers.",
+      "Can identify additive inverses but has difficulty applying them in subtraction problems.",
+      "Understands and applies additive inverses to solve simple subtraction problems with rational numbers.",
+      "Confidently uses additive inverses to solve subtraction problems, including complex scenarios.",
+      "Demonstrates a deep understanding of additive inverses and can explain their use in solving complex problems and proving mathematical relationships."
+    ],
+    [
+      "Unable to represent addition or subtraction of rational numbers on a number line.",
+      "Attempts to represent addition\/subtraction but struggles with scale and direction on the number line.",
+      "Can represent simple addition\/subtraction but makes errors in more complex problems or with negative numbers.",
+      "Accurately represents addition and subtraction of rational numbers on a number line.",
+      "Uses the number line effectively to illustrate the relationship between addition, subtraction, and additive inverses.",
+      "Innovatively uses the number line to explain and solve complex problems involving multiple operations and rational numbers, showing a deep understanding of number relationships."
+    ],
+    [
+      "Unable to calculate the distance between two rational numbers.",
+      "Struggles to apply the concept of absolute value to find the distance between rational numbers.",
+      "Can calculate distance in simple cases but struggles with negative numbers or more complex scenarios.",
+      "Accurately calculates the distance between two rational numbers using absolute value.",
+      "Applies the concept of distance to solve real-world problems involving rational numbers.",
+      "Extends the concept of distance to solve complex real-world problems, providing clear and accurate solutions and justifications."
+    ],
+    [
+      "No attempt to apply concepts to real-world scenarios.",
+      "Struggles to identify relevant information or apply the concepts correctly in real-world problems.",
+      "Attempts to apply concepts but makes errors in setting up or solving real-world problems.",
+      "Can apply the concepts to solve simple real-world problems involving addition, subtraction, and distance.",
+      "Successfully solves more complex real-world problems, demonstrating a solid understanding of the concepts.",
+      "Analyzes and solves complex, multi-step real-world problems, providing clear explanations and justifying the solutions with mathematical reasoning."
+    ]
+  ]
+}

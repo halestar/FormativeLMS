@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the impact of violent behaviors on physical health",
+    "Understanding the impact of violent behaviors on mental and emotional health",
+    "Understanding the social impact of violent behaviors",
+    "Clarity and coherence of discussion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of the physical health consequences of violent behaviors.",
+      "Demonstrates a minimal understanding of the physical health consequences of violent behaviors.",
+      "Identifies some physical health consequences of violent behaviors, but lacks detail.",
+      "Discusses several physical health consequences of violent behaviors with reasonable detail.",
+      "Thoroughly discusses the physical health consequences of violent behaviors, providing specific examples.",
+      "Demonstrates a comprehensive understanding of the physical health consequences of violent behaviors, providing examples and explaining long-term effects."
+    ],
+    [
+      "Does not demonstrate understanding of the mental and emotional health consequences of violent behaviors.",
+      "Demonstrates a minimal understanding of the mental and emotional health consequences of violent behaviors.",
+      "Identifies some mental and emotional health consequences of violent behaviors, but lacks detail.",
+      "Discusses several mental and emotional health consequences of violent behaviors with reasonable detail.",
+      "Thoroughly discusses the mental and emotional health consequences of violent behaviors, providing specific examples.",
+      "Demonstrates a comprehensive understanding of the mental and emotional health consequences of violent behaviors, providing examples and explaining long-term effects."
+    ],
+    [
+      "Does not demonstrate understanding of the social consequences of violent behaviors.",
+      "Demonstrates a minimal understanding of the social consequences of violent behaviors.",
+      "Identifies some social consequences of violent behaviors, but lacks detail.",
+      "Discusses several social consequences of violent behaviors with reasonable detail.",
+      "Thoroughly discusses the social consequences of violent behaviors, providing specific examples.",
+      "Demonstrates a comprehensive understanding of the social consequences of violent behaviors, providing examples and explaining societal implications."
+    ],
+    [
+      "Discussion is unclear, incoherent, and lacks logical organization.",
+      "Discussion is somewhat unclear and lacks consistent organization.",
+      "Discussion is generally clear but could benefit from better organization.",
+      "Discussion is clear and logically organized with a coherent flow.",
+      "Discussion is exceptionally clear, logically organized, and presents a compelling argument.",
+      "Discussion is exceptionally clear, logically organized, presents a compelling argument, and demonstrates sophisticated communication skills."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify a threatening situation and the need for help.",
+    "Clarity and appropriateness of the request for help.",
+    "Understanding of the role and support a parent or trusted adult can provide."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not recognize a threatening situation or the need to ask for help.",
+      "Shows minimal recognition of a threatening situation but does not understand the need to ask for help.",
+      "Identifies a threatening situation but struggles to articulate the need for adult assistance.",
+      "Identifies a threatening situation and acknowledges the need for help but does not specify asking a parent or trusted adult.",
+      "Clearly identifies a threatening situation and the need to ask a parent or trusted adult for help, providing a basic explanation.",
+      "Thoroughly identifies a threatening situation, clearly articulates the need to ask a parent or trusted adult for assistance, and provides a detailed explanation of why this is important."
+    ],
+    [
+      "Unable to formulate a request for help.",
+      "Formulates a request that is unclear or inappropriate for the situation.",
+      "Formulates a request for help that is somewhat clear but lacks detail or appropriateness.",
+      "Formulates a clear request for help, but the approach to the parent or trusted adult is not well-thought-out.",
+      "Formulates a clear and appropriate request for help, demonstrating a thoughtful approach to the parent or trusted adult.",
+      "Formulates a highly articulate and appropriate request for help, demonstrating excellent communication skills and a well-reasoned approach to the parent or trusted adult, showing empathy and awareness of the adult's perspective."
+    ],
+    [
+      "Demonstrates no understanding of the role or support a parent or trusted adult can provide.",
+      "Shows limited understanding of the role or support a parent or trusted adult can provide.",
+      "Understands that a parent or trusted adult can provide help but does not explain how.",
+      "Explains in general terms how a parent or trusted adult can provide help in a threatening situation.",
+      "Provides a specific explanation of how a parent or trusted adult can provide help and support in a threatening situation.",
+      "Demonstrates a comprehensive understanding of the various ways a parent or trusted adult can provide help and support, tailoring the explanation to the specific threatening situation and considering the adult's capabilities and resources."
+    ]
+  ]
+}

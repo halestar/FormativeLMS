@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Addition and Subtraction of Multi-Digit Decimals",
+    "Accuracy in Multiplication and Division of Multi-Digit Decimals",
+    "Application of the Standard Algorithm"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to add or subtract multi-digit decimals or demonstrates significant errors, indicating a lack of understanding of basic decimal operations.",
+      "Student attempts to add or subtract multi-digit decimals but makes frequent errors, showing limited understanding of place value and decimal alignment.",
+      "Student can add and subtract multi-digit decimals with some accuracy but still makes occasional errors in computation or alignment.",
+      "Student accurately adds and subtracts multi-digit decimals, demonstrating a good understanding of place value and the standard algorithm, but may occasionally need support.",
+      "Student consistently and accurately adds and subtracts multi-digit decimals, demonstrating a strong understanding of the standard algorithm with minimal errors.",
+      "Student demonstrates mastery in adding and subtracting multi-digit decimals, consistently applying the standard algorithm accurately and efficiently to solve complex problems."
+    ],
+    [
+      "Student is unable to multiply or divide multi-digit decimals or demonstrates significant errors, indicating a lack of understanding of basic decimal operations.",
+      "Student attempts to multiply or divide multi-digit decimals but makes frequent errors, showing limited understanding of place value and decimal movement.",
+      "Student can multiply and divide multi-digit decimals with some accuracy but still makes occasional errors in computation or decimal placement.",
+      "Student accurately multiplies and divides multi-digit decimals, demonstrating a good understanding of decimal operations and the standard algorithm, but may occasionally need support.",
+      "Student consistently and accurately multiplies and divides multi-digit decimals, demonstrating a strong understanding of the standard algorithm with minimal errors in calculation or placement.",
+      "Student demonstrates mastery in multiplying and dividing multi-digit decimals, consistently applying the standard algorithm accurately and efficiently to solve complex problems and can explain the reasoning behind the steps."
+    ],
+    [
+      "Student does not attempt to use the standard algorithm for any operation or uses it incorrectly, showing a lack of understanding of the procedural steps.",
+      "Student attempts to apply the standard algorithm but struggles with the steps, demonstrating a weak understanding of the procedure and making frequent errors.",
+      "Student applies the standard algorithm with some success but makes occasional errors in the process, indicating a partial understanding of the procedure.",
+      "Student generally applies the standard algorithm correctly for all operations, demonstrating a solid understanding of the procedure with only minor errors.",
+      "Student consistently applies the standard algorithm accurately and efficiently for all operations, demonstrating a strong understanding of the procedure.",
+      "Student demonstrates mastery of the standard algorithm for all operations, applying it accurately, efficiently, and can explain why the algorithm works and how it relates to the properties of operations."
+    ]
+  ]
+}

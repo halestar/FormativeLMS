@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Earth's Systems Coevolution",
+    "Use of Evidence to Support Argument",
+    "Explanation of Feedbacks and Interactions",
+    "Clarity and Organization of Argument"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the coevolution of Earth's systems and life.",
+      "Demonstrates a very limited understanding of the coevolution of Earth's systems and life, with significant misconceptions.",
+      "Demonstrates a basic understanding of the coevolution of Earth's systems and life, but with some gaps in knowledge.",
+      "Demonstrates a satisfactory understanding of the coevolution of Earth's systems and life, with minor inaccuracies.",
+      "Demonstrates a strong understanding of the coevolution of Earth's systems and life, providing clear and accurate explanations.",
+      "Demonstrates a comprehensive and insightful understanding of the coevolution of Earth's systems and life, including nuanced relationships and complex examples."
+    ],
+    [
+      "Provides no evidence to support the argument about the coevolution of Earth's systems and life.",
+      "Provides minimal and irrelevant evidence to support the argument, with no clear connection.",
+      "Provides some evidence, but it is weak, insufficient, or not clearly linked to the argument.",
+      "Provides adequate evidence to support the argument, but the connections could be stronger.",
+      "Provides strong and relevant evidence to support the argument, clearly explaining the connections.",
+      "Provides compelling and comprehensive evidence to support the argument, demonstrating a deep understanding of the relationship between evidence and claim."
+    ],
+    [
+      "Does not identify or explain any feedbacks or interactions between Earth's systems and life.",
+      "Identifies feedbacks or interactions vaguely, with no clear explanation of their effects.",
+      "Describes some feedbacks or interactions, but the explanation of their effects is incomplete or unclear.",
+      "Explains several feedbacks or interactions and their effects on Earth's systems and life, but with some omissions or simplifications.",
+      "Clearly explains multiple feedbacks or interactions and their effects on Earth's systems and life, providing specific examples.",
+      "Provides a comprehensive and insightful analysis of feedbacks and interactions, including complex and less obvious relationships, and their profound effects on Earth's systems and life."
+    ],
+    [
+      "The argument is unclear, disorganized, and difficult to follow.",
+      "The argument is somewhat unclear and disorganized, making it difficult to understand the main points.",
+      "The argument is generally clear and organized, but there are some areas that could be improved.",
+      "The argument is clear, logical, and well-organized, making it easy to follow.",
+      "The argument is exceptionally clear, logical, and well-organized, with a strong and coherent flow of ideas.",
+      "The argument is presented with exceptional clarity, demonstrating sophisticated organization and a compelling narrative that enhances understanding."
+    ]
+  ]
+}

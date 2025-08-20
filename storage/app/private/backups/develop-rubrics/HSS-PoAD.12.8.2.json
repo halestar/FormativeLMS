@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Broadcast Media Roles",
+    "Understanding of Print Media Roles",
+    "Understanding of Electronic Media Roles",
+    "Comprehensive Comparison and Contrast"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of broadcast media (TV, radio) roles in American politics.",
+      "Identifies broadcast media but struggles to explain its role in American politics.",
+      "Describes broadcast media's role but lacks specific examples or depth.",
+      "Explains the roles of broadcast media with some relevant examples.",
+      "Clearly explains the roles of broadcast media, providing detailed and relevant examples of their influence.",
+      "Provides a comprehensive and nuanced explanation of broadcast media's roles, including historical context and contemporary impact on American politics."
+    ],
+    [
+      "Demonstrates no understanding of print media (newspapers, magazines) roles in American politics.",
+      "Identifies print media but struggles to explain its role in American politics.",
+      "Describes print media's role but lacks specific examples or depth.",
+      "Explains the roles of print media with some relevant examples.",
+      "Clearly explains the roles of print media, providing detailed and relevant examples of their influence.",
+      "Provides a comprehensive and nuanced explanation of print media's roles, including historical context and contemporary impact on American politics."
+    ],
+    [
+      "Demonstrates no understanding of electronic media (Internet, social media) roles in American politics.",
+      "Identifies electronic media but struggles to explain its role in American politics.",
+      "Describes electronic media's role but lacks specific examples or depth.",
+      "Explains the roles of electronic media with some relevant examples.",
+      "Clearly explains the roles of electronic media, providing detailed and relevant examples of their influence.",
+      "Provides a comprehensive and nuanced explanation of electronic media's roles, including historical context and contemporary impact on American politics, including an understanding of algorithms, echo chambers, etc."
+    ],
+    [
+      "No attempt to compare or contrast the roles of different media types.",
+      "Attempts a comparison but is superficial and lacks clear connections.",
+      "Offers a basic comparison of media roles with limited detail.",
+      "Compares and contrasts the roles of different media types, identifying some key differences and similarities.",
+      "Provides a detailed comparison and contrast, analyzing the strengths and weaknesses of each medium in American politics.",
+      "Presents a sophisticated analysis of the interplay between broadcast, print, and electronic media, evaluating their relative influence and impact on American political discourse."
+    ]
+  ]
+}

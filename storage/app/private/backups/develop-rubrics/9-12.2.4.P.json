@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of various environmental issues",
+    "Ability to identify reliable sources of information.",
+    "Strategies for staying informed."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of environmental issues.",
+      "Shows minimal awareness of one or two environmental issues.",
+      "Identifies a few environmental issues but lacks depth in understanding.",
+      "Discusses several environmental issues with some understanding of their impact.",
+      "Demonstrates a solid understanding of multiple environmental issues and their broader implications.",
+      "Exhibits a comprehensive understanding of a wide range of environmental issues and their complex interconnections."
+    ],
+    [
+      "Unable to identify any sources of information.",
+      "Identifies one or two sources without evaluating their reliability.",
+      "Recognizes a few sources, but struggles to assess their credibility.",
+      "Identifies several sources and attempts to evaluate their reliability with some success.",
+      "Consistently identifies reliable sources of information, explaining their rationale.",
+      "Critically evaluates a wide range of sources, distinguishing between credible and unreliable information with nuanced reasoning."
+    ],
+    [
+      "No awareness of strategies for staying informed.",
+      "Suggests one or two strategies, but they are vague or impractical.",
+      "Identifies a few strategies, but does not elaborate on how to implement them.",
+      "Discusses several strategies for staying informed, but with limited detail.",
+      "Explains various strategies for staying informed about environmental issues, providing specific examples.",
+      "Articulates a comprehensive and personalized plan for staying informed about environmental issues, incorporating diverse strategies and resources."
+    ]
+  ]
+}

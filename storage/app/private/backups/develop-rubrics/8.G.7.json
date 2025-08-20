@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Pythagorean Theorem",
+    "Application in Two-Dimensional Problems",
+    "Application in Three-Dimensional Problems",
+    "Real-World Application and Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Pythagorean Theorem and its components (a^2 + b^2 = c^2).",
+      "Shows limited understanding of the Pythagorean Theorem; struggles to identify the sides of a right triangle.",
+      "Identifies the sides of a right triangle but makes frequent errors in applying the Pythagorean Theorem.",
+      "Applies the Pythagorean Theorem with occasional errors; generally understands the relationship between sides.",
+      "Demonstrates a solid understanding of the Pythagorean Theorem; applies it accurately in most cases.",
+      "Demonstrates a comprehensive understanding of the Pythagorean Theorem; explains the relationship between sides clearly and accurately."
+    ],
+    [
+      "Unable to apply the Pythagorean Theorem to solve for unknown side lengths in two-dimensional problems.",
+      "Attempts to apply the theorem but struggles with setting up the equation or solving for the unknown.",
+      "Solves some two-dimensional problems but makes errors in calculations or identifying the correct sides.",
+      "Applies the theorem to solve two-dimensional problems with occasional errors in calculations.",
+      "Accurately applies the theorem to solve for unknown side lengths in a variety of two-dimensional problems.",
+      "Solves complex two-dimensional problems involving the Pythagorean Theorem with accuracy and efficiency."
+    ],
+    [
+      "Unable to extend the Pythagorean Theorem to solve problems in three dimensions.",
+      "Attempts to apply the theorem in three dimensions but struggles with visualization and setting up the problem.",
+      "Solves some three-dimensional problems but makes significant errors in applying the theorem.",
+      "Applies the theorem to solve three-dimensional problems with assistance or guidance.",
+      "Solves a variety of three-dimensional problems using the Pythagorean Theorem with minimal errors.",
+      "Confidently and accurately solves complex three-dimensional problems involving the Pythagorean Theorem; demonstrates strong spatial reasoning."
+    ],
+    [
+      "Unable to apply the Pythagorean Theorem to solve real-world problems.",
+      "Struggles to identify real-world scenarios where the Pythagorean Theorem can be applied.",
+      "Attempts to solve real-world problems but makes errors in setting up the problem or interpreting the solution.",
+      "Applies the theorem to solve some real-world problems with guidance.",
+      "Solves a variety of real-world problems using the Pythagorean Theorem accurately.",
+      "Formulates and solves complex real-world problems using the Pythagorean Theorem; demonstrates creative problem-solving skills."
+    ]
+  ]
+}

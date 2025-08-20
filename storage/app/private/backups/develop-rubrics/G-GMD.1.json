@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Circumference and Area of a Circle",
+    "Understanding of Volume Formulas for 3D Shapes (Cylinder, Pyramid, Cone)",
+    "Ability to Provide Informal Arguments for the Formulas",
+    "Use of Dissection Arguments, Cavalieri's Principle, and Informal Limit Arguments"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of the formulas for circumference or area of a circle.",
+      "Demonstrates minimal understanding of the formulas for circumference or area of a circle. Struggles to apply them.",
+      "Demonstrates partial understanding of the formulas for circumference and area of a circle. Can apply them with significant errors.",
+      "Demonstrates satisfactory understanding of the formulas for circumference and area of a circle. Can apply them with some errors.",
+      "Demonstrates good understanding of the formulas for circumference and area of a circle. Applies them accurately in most cases.",
+      "Demonstrates excellent understanding of the formulas for circumference and area of a circle. Applies them accurately and efficiently."
+    ],
+    [
+      "Does not demonstrate understanding of the volume formulas for cylinders, pyramids, or cones.",
+      "Demonstrates minimal understanding of the volume formulas for cylinders, pyramids, or cones. Struggles to apply them.",
+      "Demonstrates partial understanding of the volume formulas for cylinders, pyramids, and cones. Can apply them with significant errors.",
+      "Demonstrates satisfactory understanding of the volume formulas for cylinders, pyramids, and cones. Can apply them with some errors.",
+      "Demonstrates good understanding of the volume formulas for cylinders, pyramids, and cones. Applies them accurately in most cases.",
+      "Demonstrates excellent understanding of the volume formulas for cylinders, pyramids, and cones. Applies them accurately and efficiently."
+    ],
+    [
+      "Unable to provide any informal arguments for the formulas.",
+      "Provides very weak or unclear informal arguments for the formulas.",
+      "Provides some informal arguments for the formulas but struggles to explain the reasoning.",
+      "Provides satisfactory informal arguments for the formulas, explaining the reasoning with some clarity.",
+      "Provides good informal arguments for the formulas, clearly explaining the reasoning behind them.",
+      "Provides excellent and insightful informal arguments for the formulas, demonstrating a deep understanding of the underlying principles."
+    ],
+    [
+      "Does not attempt to use dissection arguments, Cavalieri's principle, or informal limit arguments.",
+      "Attempts to use dissection arguments, Cavalieri's principle, or informal limit arguments but demonstrates little understanding.",
+      "Uses dissection arguments, Cavalieri's principle, or informal limit arguments with significant errors or misconceptions.",
+      "Uses dissection arguments, Cavalieri's principle, or informal limit arguments adequately, but with some errors.",
+      "Uses dissection arguments, Cavalieri's principle, or informal limit arguments effectively in most cases.",
+      "Uses dissection arguments, Cavalieri's principle, and informal limit arguments effectively and accurately, demonstrating a strong understanding."
+    ]
+  ]
+}

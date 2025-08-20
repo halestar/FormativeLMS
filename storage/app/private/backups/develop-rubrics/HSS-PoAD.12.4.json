@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the roles of the Legislative Branch (Congress)",
+    "Understanding the roles of the Executive Branch (Presidency)",
+    "Understanding the roles of the Judicial Branch (Supreme Court)",
+    "Understanding of Checks and Balances"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Legislative Branch's roles or responsibilities.",
+      "Shows a minimal understanding, with significant inaccuracies or omissions.",
+      "Identifies some roles of the Legislative Branch but lacks depth or detail.",
+      "Describes the main roles of the Legislative Branch, such as making laws, but with some simplification.",
+      "Explains the key roles and responsibilities of the Legislative Branch, including lawmaking, oversight, and representation.",
+      "Provides a comprehensive and nuanced analysis of the Legislative Branch's roles, including its powers, limitations, and relationship to other branches."
+    ],
+    [
+      "Demonstrates no understanding of the Executive Branch's roles or responsibilities.",
+      "Shows a minimal understanding, with significant inaccuracies or omissions.",
+      "Identifies some roles of the Executive Branch but lacks depth or detail.",
+      "Describes the main roles of the Executive Branch, such as enforcing laws, but with some simplification.",
+      "Explains the key roles and responsibilities of the Executive Branch, including enforcing laws, commanding the military, and conducting foreign policy.",
+      "Provides a comprehensive and nuanced analysis of the Executive Branch's roles, including its powers, limitations, and relationship to other branches."
+    ],
+    [
+      "Demonstrates no understanding of the Judicial Branch's roles or responsibilities.",
+      "Shows a minimal understanding, with significant inaccuracies or omissions.",
+      "Identifies some roles of the Judicial Branch but lacks depth or detail.",
+      "Describes the main roles of the Judicial Branch, such as interpreting laws, but with some simplification.",
+      "Explains the key roles and responsibilities of the Judicial Branch, including interpreting laws, resolving disputes, and ensuring equal justice under law.",
+      "Provides a comprehensive and nuanced analysis of the Judicial Branch's roles, including its powers, limitations, and relationship to other branches."
+    ],
+    [
+      "Shows no understanding of how the branches check each other's power.",
+      "Mentions checks and balances but cannot provide accurate examples.",
+      "Identifies a few checks and balances but with limited explanation.",
+      "Describes how each branch can limit the power of the others, with some examples.",
+      "Explains the system of checks and balances, providing clear examples of how each branch can limit the power of the others to prevent tyranny.",
+      "Analyzes the effectiveness of checks and balances in maintaining a balance of power and preventing abuse of authority, citing historical and contemporary examples."
+    ]
+  ]
+}

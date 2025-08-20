@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Identification of Fire Safety Measures",
+    "Understanding Water Safety Techniques",
+    "Awareness of Motor Vehicle Safety",
+    "Pedestrian Safety Knowledge",
+    "Playground Safety Awareness",
+    "Fall Prevention Strategies"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of fire safety is demonstrated.",
+      "Identifies one basic fire safety measure.",
+      "Identifies a few fire safety measures with limited detail.",
+      "Identifies several fire safety measures and explains them adequately.",
+      "Identifies comprehensive fire safety measures and provides clear explanations.",
+      "Demonstrates a thorough understanding of fire safety, identifying a wide range of measures and explaining their importance with detail."
+    ],
+    [
+      "No understanding of water safety is demonstrated.",
+      "Identifies one basic water safety technique.",
+      "Identifies a few water safety techniques with limited detail.",
+      "Identifies several water safety techniques and explains them adequately.",
+      "Identifies comprehensive water safety techniques and provides clear explanations.",
+      "Demonstrates a thorough understanding of water safety, identifying a wide range of techniques and explaining their importance with detail."
+    ],
+    [
+      "No understanding of motor vehicle safety is demonstrated.",
+      "Identifies one basic motor vehicle safety measure.",
+      "Identifies a few motor vehicle safety measures with limited detail.",
+      "Identifies several motor vehicle safety measures and explains them adequately.",
+      "Identifies comprehensive motor vehicle safety measures and provides clear explanations.",
+      "Demonstrates a thorough understanding of motor vehicle safety, identifying a wide range of measures and explaining their importance with detail."
+    ],
+    [
+      "No understanding of pedestrian safety is demonstrated.",
+      "Identifies one basic pedestrian safety practice.",
+      "Identifies a few pedestrian safety practices with limited detail.",
+      "Identifies several pedestrian safety practices and explains them adequately.",
+      "Identifies comprehensive pedestrian safety practices and provides clear explanations.",
+      "Demonstrates a thorough understanding of pedestrian safety, identifying a wide range of practices and explaining their importance with detail."
+    ],
+    [
+      "No understanding of playground safety is demonstrated.",
+      "Identifies one basic playground safety rule.",
+      "Identifies a few playground safety rules with limited detail.",
+      "Identifies several playground safety rules and explains them adequately.",
+      "Identifies comprehensive playground safety rules and provides clear explanations.",
+      "Demonstrates a thorough understanding of playground safety, identifying a wide range of rules and explaining their importance with detail."
+    ],
+    [
+      "No understanding of fall prevention is demonstrated.",
+      "Identifies one basic strategy for preventing falls.",
+      "Identifies a few strategies for preventing falls with limited detail.",
+      "Identifies several strategies for preventing falls and explains them adequately.",
+      "Identifies comprehensive strategies for preventing falls and provides clear explanations.",
+      "Demonstrates a thorough understanding of fall prevention, identifying a wide range of strategies and explaining their importance with detail."
+    ]
+  ]
+}

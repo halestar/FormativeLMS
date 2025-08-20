@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Industrial Revolution Transformations",
+    "Analysis of Economic Changes",
+    "Analysis of Social and Political Conditions",
+    "Connection between Economy, Society and Politics"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of the transformations during the Industrial Revolution is demonstrated.",
+      "Demonstrates a minimal understanding of the transformations during the Industrial Revolution.",
+      "Identifies some transformations during the Industrial Revolution but lacks depth.",
+      "Explains several transformations of the American economy and social-political conditions, but with some gaps.",
+      "Analyzes the major transformations of the American economy and social-political conditions with good detail and accuracy.",
+      "Provides a comprehensive and insightful analysis of the transformations of the American economy and social-political conditions, demonstrating a deep understanding of the complexities of the Industrial Revolution."
+    ],
+    [
+      "Unable to identify any economic changes during the Industrial Revolution.",
+      "Identifies an economic change with significant inaccuracies.",
+      "Lists one or two basic economic changes with limited explanation.",
+      "Describes some economic changes, such as the rise of factories or new industries, but lacks detailed analysis.",
+      "Analyzes the economic changes, including industrial growth, new technologies, and their impact on different sectors of society.",
+      "Provides a thorough analysis of the economic changes, including the effects on labor, trade, and the overall structure of the American economy. Demonstrates nuanced understanding."
+    ],
+    [
+      "Unable to identify any social or political changes during the Industrial Revolution.",
+      "Identifies a social or political change with significant inaccuracies.",
+      "Lists one or two basic social or political changes with limited explanation.",
+      "Describes some social and political changes, such as urbanization or labor movements, but lacks detailed analysis.",
+      "Analyzes the social and political conditions, including urbanization, immigration, and the rise of labor movements, with supporting evidence.",
+      "Provides a thorough analysis of the social and political conditions, including the impact on different social classes, political reforms, and the changing role of government. Demonstrates nuanced understanding."
+    ],
+    [
+      "Fails to connect economic changes to social or political conditions.",
+      "Attempts to connect economic changes to social\/political conditions, but with significant inaccuracies.",
+      "Makes vague or superficial connections between economic, social, and political changes.",
+      "Explains how some economic changes influenced social or political conditions, or vice versa, but lacks depth.",
+      "Analyzes the relationships between economic changes, social transformations, and political developments during the Industrial Revolution.",
+      "Demonstrates a sophisticated understanding of the complex interactions between economic shifts, social changes, and political developments, providing detailed examples and insightful analysis."
+    ]
+  ]
+}

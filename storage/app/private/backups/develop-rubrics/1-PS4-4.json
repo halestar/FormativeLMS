@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Waves and Information Transfer: Demonstrates understanding of how waves (light or sound) can be used to transmit information over a distance.",
+    "Device Design and Functionality: Designs and builds a device that effectively uses light or sound to communicate over a distance.",
+    "Application of Tools and Materials: Effectively utilizes provided tools and materials in the design and construction of the communication device.",
+    "Problem-Solving and Iteration: Demonstrates a problem-solving approach, addressing challenges and iterating on the design to improve communication effectiveness."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of wave properties or information transfer is demonstrated.",
+      "Demonstrates minimal understanding of wave properties or information transfer.",
+      "Demonstrates a basic understanding of wave properties and information transfer, but with significant gaps.",
+      "Demonstrates a satisfactory understanding of wave properties and information transfer.",
+      "Demonstrates a strong understanding of wave properties and information transfer, with clear explanations.",
+      "Demonstrates a comprehensive understanding of wave properties and information transfer, including nuanced aspects and real-world applications."
+    ],
+    [
+      "No device is designed or built, or the attempt is completely non-functional.",
+      "A device is attempted, but it is largely non-functional or does not use light\/sound appropriately.",
+      "A device is built with limited functionality in communicating over a distance using light\/sound.",
+      "A functional device is built that communicates over a distance using light\/sound, but with some limitations or inconsistencies.",
+      "A well-designed and functional device is built that effectively communicates over a distance using light\/sound.",
+      "An innovative and highly functional device is built that effectively communicates over a distance using light\/sound, showcasing ingenuity and optimization."
+    ],
+    [
+      "Fails to use the provided tools and materials, or uses them inappropriately.",
+      "Uses the provided tools and materials with significant difficulty and limited success.",
+      "Uses the provided tools and materials with some effectiveness, but demonstrates inefficiencies or misapplications.",
+      "Competently uses the provided tools and materials in the design and construction of the device.",
+      "Skillfully and efficiently uses the provided tools and materials to enhance the design and functionality of the device.",
+      "Masterfully uses the provided tools and materials, showcasing advanced techniques and optimizing the device's performance."
+    ],
+    [
+      "No problem-solving is demonstrated, and the initial design is not improved upon.",
+      "Attempts to address challenges are unsuccessful, and there is little to no iteration on the design.",
+      "Some problem-solving is evident, but improvements to the design are minimal.",
+      "Demonstrates a reasonable problem-solving approach, with some iteration on the design to improve communication effectiveness.",
+      "Demonstrates a strong problem-solving approach, effectively addressing challenges and iterating on the design for significant improvement.",
+      "Demonstrates exceptional problem-solving skills, proactively identifying and addressing challenges, and iteratively refining the design for optimal communication effectiveness."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Accuracy in Calculations",
+    "Application of Properties of Operations",
+    "Conversion Between Forms",
+    "Reasonableness of Answers",
+    "Strategic Tool Use"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or calculations are completely incorrect.",
+      "Calculations contain significant errors, indicating a lack of understanding of basic operations with rational numbers.",
+      "Calculations contain some errors, but there is an attempt to use appropriate operations.",
+      "Most calculations are accurate, with only minor errors that do not significantly impact the final answer.",
+      "Calculations are accurate and demonstrate a strong understanding of operations with rational numbers.",
+      "Calculations are flawless and efficient, demonstrating mastery of operations with rational numbers and attention to detail."
+    ],
+    [
+      "No properties of operations are applied or mentioned.",
+      "Attempts to apply properties of operations are incorrect or irrelevant.",
+      "Properties of operations are mentioned but not correctly applied to simplify calculations.",
+      "Properties of operations are applied with some success to simplify calculations.",
+      "Properties of operations are applied effectively to simplify calculations and demonstrate understanding of their purpose.",
+      "Properties of operations are applied skillfully and strategically to simplify calculations, demonstrating a deep understanding of their utility."
+    ],
+    [
+      "No attempt to convert between different forms of rational numbers.",
+      "Attempts to convert between forms are incorrect or demonstrate a misunderstanding of the process.",
+      "Conversions between forms are attempted but contain errors.",
+      "Conversions between forms are mostly accurate, with only minor errors.",
+      "Conversions between forms are accurate and efficient.",
+      "Conversions between forms are seamless and contribute to the overall clarity and efficiency of the solution."
+    ],
+    [
+      "No attempt to assess the reasonableness of the answer.",
+      "The assessment of reasonableness is completely absent or illogical.",
+      "The assessment of reasonableness is attempted but is not based on sound reasoning or estimation strategies.",
+      "The assessment of reasonableness is somewhat accurate but lacks sufficient detail or justification.",
+      "The assessment of reasonableness is accurate and supported by clear reasoning and estimation strategies.",
+      "The assessment of reasonableness is insightful and demonstrates a strong understanding of the problem context and numerical relationships."
+    ],
+    [
+      "No tools are used strategically, or inappropriate tools are chosen.",
+      "Tools are used ineffectively or without a clear purpose.",
+      "Tools are used but not always in the most efficient or appropriate manner.",
+      "Tools are used strategically to aid in problem-solving, but there is room for improvement.",
+      "Tools are used effectively and strategically to enhance problem-solving efficiency and accuracy.",
+      "Tools are used masterfully and strategically to optimize problem-solving, demonstrating a deep understanding of their capabilities and limitations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to form basic sentences and strings of sentences to communicate about transactional topics related to self and immediate environment.",
+    "Correct usage of basic sentence-level elements (morphology and syntax).",
+    "Range of vocabulary and expressions used to discuss transactional and informal topics."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no ability to form basic sentences or strings of sentences.",
+      "Student struggles to form basic sentences and strings of sentences; communication is very limited and difficult to understand.",
+      "Student can form some basic sentences but struggles to connect them into meaningful strings; communication is limited.",
+      "Student can form basic sentences and connect them into strings of sentences, but with noticeable errors that sometimes impede understanding.",
+      "Student can effectively form basic sentences and strings of sentences with few errors; communication is generally clear.",
+      "Student consistently and accurately forms basic sentences and strings of sentences to communicate effectively and clearly on transactional topics."
+    ],
+    [
+      "Student demonstrates no understanding or usage of basic sentence-level elements.",
+      "Student's usage of basic sentence-level elements is consistently incorrect, making comprehension difficult.",
+      "Student attempts to use basic sentence-level elements, but errors are frequent and impact clarity.",
+      "Student uses basic sentence-level elements with some accuracy, but errors are still present and occasionally confusing.",
+      "Student demonstrates a good understanding of basic sentence-level elements with only minor errors that do not impede understanding.",
+      "Student demonstrates excellent command of basic sentence-level elements, using them accurately and effectively to enhance communication."
+    ],
+    [
+      "Student uses no relevant vocabulary or expressions.",
+      "Student's vocabulary is extremely limited, relying on the same words and phrases repeatedly.",
+      "Student uses a limited range of vocabulary with some attempts to vary expressions, but is often repetitive.",
+      "Student's vocabulary range is adequate for basic communication, but lacks variety and sophistication.",
+      "Student uses a good range of vocabulary and expressions to discuss various topics effectively.",
+      "Student uses a rich and diverse range of vocabulary and expressions, demonstrating a sophisticated command of the language."
+    ]
+  ]
+}

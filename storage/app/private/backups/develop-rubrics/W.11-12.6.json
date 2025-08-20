@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effective Use of Technology",
+    "Responsiveness to Feedback",
+    "Argumentation and Information Integration"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not use technology to produce, publish, or update writing.",
+      "The student attempts to use technology, but struggles significantly with basic functions. Writing is not effectively produced or published.",
+      "The student uses technology to produce writing, but struggles to publish or update it based on feedback. Minimal integration of digital tools.",
+      "The student effectively uses technology to produce and publish writing. Updates are attempted but may lack refinement or full integration of feedback.",
+      "The student proficiently uses technology to produce, publish, and update writing with clear incorporation of feedback. Demonstrates good command of digital tools.",
+      "The student skillfully uses a variety of technologies to produce, publish, and iteratively improve writing based on feedback, showing advanced digital literacy and adaptability."
+    ],
+    [
+      "The student does not incorporate any feedback into their writing.",
+      "The student acknowledges feedback but makes no visible changes to the writing or misunderstands the feedback provided.",
+      "The student attempts to incorporate feedback, but changes are superficial and do not fully address the concerns raised.",
+      "The student incorporates some feedback effectively, addressing several points for improvement. Some areas may still need refinement.",
+      "The student demonstrates a strong responsiveness to feedback, making thoughtful and effective revisions throughout the writing.",
+      "The student excels in using feedback to transform and significantly improve the writing, showing a deep understanding of the suggestions and implementing them creatively."
+    ],
+    [
+      "The student's writing lacks a clear argument and does not integrate new information.",
+      "The student presents a weak argument and struggles to include new information. The connection between ideas is unclear.",
+      "The student presents an argument and includes some new information, but the integration is awkward and the argument remains underdeveloped.",
+      "The student presents a reasonable argument and integrates new information to support it. The connection between ideas is generally clear.",
+      "The student constructs a well-reasoned argument and skillfully integrates new information, enhancing the overall effectiveness of the writing.",
+      "The student develops a compelling and nuanced argument, seamlessly integrating new information to create a sophisticated and persuasive piece of writing."
+    ]
+  ]
+}

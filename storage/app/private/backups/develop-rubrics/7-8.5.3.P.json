@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of reliable sources of health information",
+    "Analysis of health information for accuracy and validity",
+    "Application of informed choices to health-related scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any sources of health information or identifies only unreliable sources.",
+      "Identifies at least one source of health information, but its reliability is questionable.",
+      "Identifies at least one reliable source of health information, but lacks explanation.",
+      "Identifies several reliable sources of health information and provides a basic explanation of their reliability.",
+      "Identifies multiple reliable sources of health information and explains their reliability with specific examples.",
+      "Identifies a comprehensive list of reliable sources of health information, thoroughly explains their reliability, and demonstrates how to access them."
+    ],
+    [
+      "Does not analyze health information or accepts all information as valid without question.",
+      "Attempts to analyze health information but demonstrates limited understanding of accuracy and validity.",
+      "Analyzes health information for accuracy and validity with some success but misses key inconsistencies or biases.",
+      "Analyzes health information for accuracy and validity and identifies most inconsistencies and biases.",
+      "Critically analyzes health information for accuracy and validity, identifies inconsistencies and biases, and explains their potential impact.",
+      "Demonstrates sophisticated critical analysis of health information, identifies subtle inconsistencies and biases, explains their potential impact, and proposes strategies to mitigate their influence."
+    ],
+    [
+      "Does not apply informed choices to health-related scenarios or makes choices that are clearly detrimental to health.",
+      "Attempts to apply informed choices to health-related scenarios but demonstrates limited understanding of the consequences.",
+      "Applies informed choices to health-related scenarios with some success but overlooks potential risks or benefits.",
+      "Applies informed choices to health-related scenarios and considers most potential risks and benefits.",
+      "Applies informed choices to health-related scenarios, thoroughly considers potential risks and benefits, and justifies choices with evidence.",
+      "Demonstrates mastery in applying informed choices to complex health-related scenarios, weighing potential risks and benefits, justifying choices with evidence, and adapting strategies as needed."
+    ]
+  ]
+}

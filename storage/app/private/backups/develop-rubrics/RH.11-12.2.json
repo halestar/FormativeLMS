@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Central Ideas\/Information",
+    "Accuracy of Summary",
+    "Clarity of Relationships Among Details and Ideas"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The response does not identify any central ideas or information from the source.",
+      "The response identifies a central idea or information, but it is vague or inaccurate.",
+      "The response identifies a central idea or information, but lacks depth or detail.",
+      "The response identifies a central idea or information with reasonable accuracy and detail.",
+      "The response clearly and accurately identifies the central ideas or information of the source.",
+      "The response insightfully and comprehensively identifies the central ideas or information of the source."
+    ],
+    [
+      "The response provides no summary or an entirely inaccurate summary of the source.",
+      "The summary provided contains major inaccuracies or omissions.",
+      "The summary provided contains some inaccuracies or omissions.",
+      "The summary provided is generally accurate, but may lack some key details.",
+      "The summary provided is accurate and includes the most important details.",
+      "The summary provided is exceptionally accurate, comprehensive, and well-articulated."
+    ],
+    [
+      "The response fails to make clear any relationships among the key details and ideas.",
+      "The response attempts to show relationships among details and ideas, but it is unclear or confusing.",
+      "The response identifies some relationships among details and ideas, but lacks depth.",
+      "The response shows a reasonable understanding of the relationships among the key details and ideas.",
+      "The response clearly shows the relationships among the key details and ideas.",
+      "The response insightfully and comprehensively explains the relationships among all the key details and ideas."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Timeline: Demonstrates the ability to correctly sequence important life events in chronological order.",
+    "Completeness of Events: Includes a comprehensive selection of important personal events.",
+    "Clarity and Presentation: Presents the timeline in a clear, organized, and easily understandable manner."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Timeline is missing or contains no accurate sequencing of events.",
+      "Timeline includes significant errors in the order of events.",
+      "Timeline contains some inaccuracies in the sequencing of events.",
+      "Timeline is mostly accurate, with minor errors in the sequencing of events.",
+      "Timeline is accurate and sequences most events correctly.",
+      "Timeline is exceptionally accurate and presents a clear, chronological sequence of all important life events."
+    ],
+    [
+      "Timeline includes very few events, missing key milestones.",
+      "Timeline is missing several important life events.",
+      "Timeline includes some important events, but others are missing.",
+      "Timeline includes most important events, with only a few omissions.",
+      "Timeline is comprehensive, including nearly all important events.",
+      "Timeline is exceptionally comprehensive, capturing all significant life events with insightful detail."
+    ],
+    [
+      "Timeline is disorganized and difficult to understand.",
+      "Timeline lacks clarity and organization, making it hard to follow.",
+      "Timeline has some organization, but clarity is lacking.",
+      "Timeline is generally clear and organized, with minor areas for improvement.",
+      "Timeline is clear, well-organized, and easy to follow.",
+      "Timeline is exceptionally clear, visually appealing, and demonstrates a sophisticated understanding of presentation techniques."
+    ]
+  ]
+}

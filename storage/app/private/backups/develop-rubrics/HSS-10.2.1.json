@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Philosophers' Major Ideas",
+    "Connection Between Philosophers' Ideas and Democratic Revolutions",
+    "Comparison of Philosophers' Effects on Revolutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the major ideas of the philosophers listed (Locke, Montesquieu, Rousseau, Smith).",
+      "The student demonstrates a very limited understanding of the major ideas of one or more of the philosophers, with significant inaccuracies.",
+      "The student demonstrates a basic understanding of the major ideas of one or two of the philosophers, but with some inaccuracies or omissions.",
+      "The student demonstrates a satisfactory understanding of the major ideas of most of the philosophers, with minor inaccuracies or omissions.",
+      "The student demonstrates a strong understanding of the major ideas of all the philosophers, with only minor omissions.",
+      "The student demonstrates a comprehensive and nuanced understanding of the major ideas of all the philosophers, including their complexities and nuances."
+    ],
+    [
+      "The student fails to make any connection between the philosophers' ideas and the democratic revolutions.",
+      "The student makes a weak or inaccurate connection between the philosophers' ideas and one of the democratic revolutions.",
+      "The student makes a basic connection between the philosophers' ideas and one or two of the democratic revolutions, but with limited detail.",
+      "The student connects the philosophers' ideas to several of the democratic revolutions, explaining the influence with some accuracy.",
+      "The student clearly connects the philosophers' ideas to all the democratic revolutions, explaining the influence with accuracy and relevant detail.",
+      "The student provides insightful and nuanced connections between the philosophers' ideas and the democratic revolutions, demonstrating a deep understanding of the cause-and-effect relationships and historical context."
+    ],
+    [
+      "The student does not compare the effects of the philosophers on the revolutions.",
+      "The student offers a minimal or inaccurate comparison of the effects of the philosophers on the revolutions.",
+      "The student provides a limited comparison, identifying one or two similarities or differences.",
+      "The student compares the effects of the philosophers, identifying several similarities and differences with reasonable accuracy.",
+      "The student offers a thorough comparison of the effects of the philosophers, identifying multiple similarities and differences with supporting details and examples.",
+      "The student provides a sophisticated and insightful comparison of the effects of the philosophers, analyzing the nuances and complexities of their influence on the revolutions with exceptional clarity."
+    ]
+  ]
+}

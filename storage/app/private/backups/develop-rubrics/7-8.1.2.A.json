@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Risky Behaviors: Assesses the student's ability to identify various risky behaviors associated with substance use.",
+    "Explanation of Relationships: Evaluates the student's ability to explain the relationship between substance use and risky behaviors.",
+    "Clarity and Accuracy: Assesses the overall clarity, accuracy, and coherence of the student's explanation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any risky behaviors associated with alcohol, tobacco, or other drugs.",
+      "The student identifies only one risky behavior vaguely linked to substance use.",
+      "The student identifies a few risky behaviors but lacks specific details or clear connections to substance use.",
+      "The student identifies several risky behaviors and makes general connections to substance use.",
+      "The student clearly identifies multiple risky behaviors and explains their connections to substance use with some detail.",
+      "The student comprehensively identifies a wide range of risky behaviors and thoroughly explains their connections to substance use, demonstrating a strong understanding."
+    ],
+    [
+      "The student does not attempt to explain any relationship between substance use and risky behaviors.",
+      "The student attempts to explain the relationship but provides inaccurate or irrelevant information.",
+      "The student provides a basic explanation of the relationship with limited detail or clarity.",
+      "The student explains the relationship with reasonable clarity, providing some supporting details.",
+      "The student clearly and accurately explains the relationship, providing relevant details and examples.",
+      "The student provides a comprehensive and insightful explanation of the relationship, demonstrating a deep understanding and providing compelling examples."
+    ],
+    [
+      "The student's explanation is unclear, inaccurate, and incoherent.",
+      "The student's explanation is difficult to understand and contains significant inaccuracies.",
+      "The student's explanation is somewhat understandable but contains some inaccuracies or lacks coherence.",
+      "The student's explanation is generally clear and accurate, with minor issues in coherence.",
+      "The student's explanation is clear, accurate, and coherent, with well-organized ideas.",
+      "The student's explanation is exceptionally clear, accurate, and coherent, demonstrating a mastery of the subject matter."
+    ]
+  ]
+}

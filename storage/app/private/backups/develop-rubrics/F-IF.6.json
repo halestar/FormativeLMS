@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Calculating Average Rate of Change from Symbolic Representation",
+    "Calculating Average Rate of Change from a Table",
+    "Estimating Rate of Change from a Graph",
+    "Interpretation of Average Rate of Change"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to calculate the average rate of change or shows no understanding of the function.",
+      "Student attempts to calculate the average rate of change but makes significant errors in applying the formula or understanding the function.",
+      "Student calculates the average rate of change with some errors in computation or understanding of the interval.",
+      "Student correctly calculates the average rate of change from a symbolic representation but may have minor errors in simplification or notation.",
+      "Student accurately calculates the average rate of change and demonstrates a clear understanding of the process and the function's behavior.",
+      "Student accurately calculates the average rate of change, simplifies the result, and explains the meaning of the rate of change in the context of the function."
+    ],
+    [
+      "Student is unable to identify appropriate data points from the table or does not attempt to calculate the average rate of change.",
+      "Student selects incorrect data points from the table or makes significant errors in the calculation process.",
+      "Student calculates the average rate of change with some errors in identifying the correct interval or performing the computation.",
+      "Student correctly identifies the interval and calculates the average rate of change from the table but may have minor computational errors.",
+      "Student accurately calculates the average rate of change from the table and demonstrates understanding of how to select appropriate data points.",
+      "Student accurately calculates the average rate of change, explains the significance of the result in the context provided by the table, and can extrapolate beyond the given data."
+    ],
+    [
+      "Student does not attempt to estimate the rate of change or shows no understanding of the graph.",
+      "Student attempts to estimate the rate of change but demonstrates a lack of understanding of slope or tangent lines.",
+      "Student provides an estimate with significant inaccuracies or demonstrates difficulty interpreting the graph.",
+      "Student provides a reasonable estimate of the rate of change from the graph but may lack precision or clear justification.",
+      "Student accurately estimates the rate of change from the graph, using appropriate visual cues like tangent lines, and provides a clear explanation.",
+      "Student precisely estimates the rate of change, justifies the estimation with clear references to graphical features, and relates the rate of change to the function's behavior."
+    ],
+    [
+      "Student provides no interpretation of the average rate of change or demonstrates no understanding of its meaning.",
+      "Student attempts to interpret the average rate of change but provides an inaccurate or irrelevant explanation.",
+      "Student provides a basic interpretation but struggles to connect it to the context of the function or problem.",
+      "Student interprets the average rate of change in a general sense but may not fully explain its significance.",
+      "Student accurately interprets the average rate of change and explains its significance within the context of the problem, using appropriate units.",
+      "Student provides a comprehensive interpretation of the average rate of change, relates it to real-world implications, and can explain how it affects the function's overall behavior."
+    ]
+  ]
+}

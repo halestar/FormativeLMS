@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify equivalent algebraic expressions through simplification and application of properties.",
+    "Proficiency in substituting values into expressions to determine equivalence.",
+    "Explanation and justification of equivalent expressions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of algebraic expressions or equivalence.",
+      "Struggles to identify equivalent expressions and rarely applies properties correctly.",
+      "Identifies some equivalent expressions but makes frequent errors in simplification or application of properties.",
+      "Generally identifies equivalent expressions and applies properties of operations with occasional errors.",
+      "Consistently identifies equivalent expressions and correctly applies properties of operations to justify equivalence.",
+      "Demonstrates a comprehensive understanding of equivalent expressions, applying properties of operations fluently and justifying reasoning clearly and accurately."
+    ],
+    [
+      "Unable to substitute values into expressions or determine equivalence.",
+      "Attempts to substitute values but makes significant errors, failing to determine equivalence correctly.",
+      "Substitutes values with some errors, occasionally determining equivalence accurately.",
+      "Substitutes values correctly most of the time and usually determines equivalence accurately.",
+      "Consistently substitutes values accurately and determines equivalence with a clear explanation.",
+      "Demonstrates mastery in substituting values to determine equivalence, providing thorough and accurate justifications."
+    ],
+    [
+      "Provides no explanation or justification for equivalent expressions.",
+      "Provides minimal or unclear explanations for equivalent expressions.",
+      "Attempts to explain equivalent expressions but lacks clarity and accuracy.",
+      "Explains equivalent expressions with reasonable clarity and accuracy.",
+      "Clearly and accurately explains equivalent expressions, justifying the reasoning used.",
+      "Provides comprehensive and insightful explanations of equivalent expressions, demonstrating a deep understanding of underlying principles."
+    ]
+  ]
+}

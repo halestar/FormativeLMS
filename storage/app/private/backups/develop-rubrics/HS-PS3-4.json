@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Experimental Design & Data Collection: Ability to design and execute an experiment that effectively demonstrates thermal energy transfer and collect accurate, relevant data.",
+    "Data Analysis & Interpretation: Ability to analyze collected data and interpret it to explain the principles of thermal energy transfer according to the second law of thermodynamics.",
+    "Application of Concepts & Communication: Ability to clearly and accurately communicate the findings, relating them to the broader concept of energy conservation and transfer."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to design or conduct an experiment; no data collected.",
+      "Experiment design is flawed, and data collection is minimal or irrelevant. Shows little understanding of controlling variables.",
+      "Experiment design has some flaws, affecting data reliability. Data collection is incomplete or contains inaccuracies.",
+      "Experiment design is adequate but could be improved. Data collection is mostly complete and accurate, with minor inconsistencies.",
+      "Well-designed experiment with controlled variables. Data collection is thorough, accurate, and relevant to the investigation.",
+      "Exemplary experiment design demonstrating a deep understanding of thermal energy transfer principles. Data collection is comprehensive, precise, and meticulously recorded."
+    ],
+    [
+      "No attempt to analyze or interpret data.",
+      "Data analysis is incorrect or missing; interpretation is not related to the experiment or relevant scientific principles.",
+      "Basic data analysis with significant errors; interpretation is superficial and demonstrates a limited understanding of thermodynamics.",
+      "Adequate data analysis with some correct interpretations, but lacking depth or connection to the second law of thermodynamics.",
+      "Correct and insightful data analysis, providing a clear interpretation that supports the understanding of thermal energy transfer.",
+      "Sophisticated data analysis revealing a comprehensive understanding of energy transfer. Interpretation demonstrates a nuanced understanding of the second law of thermodynamics and its implications."
+    ],
+    [
+      "No communication of findings or understanding of energy transfer concepts.",
+      "Communication is unclear, inaccurate, and shows little understanding of energy conservation and transfer.",
+      "Communication is somewhat unclear with limited understanding of how energy is conserved or transferred within the system.",
+      "Findings are communicated adequately, with a basic understanding of energy conservation and transfer concepts.",
+      "Clear and accurate communication of findings, demonstrating a solid grasp of energy conservation and transfer principles.",
+      "Exceptional communication of findings with a sophisticated explanation of energy conservation and transfer principles, showcasing deep understanding and insights."
+    ]
+  ]
+}

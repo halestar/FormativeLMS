@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Construction of a Two-Way Table",
+    "Calculation and Interpretation of Relative Frequencies",
+    "Description of Association Between Variables"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to construct a two-way table or the attempt is completely incorrect.",
+      "Student constructs a two-way table with significant errors, such as mislabeling rows or columns or including incorrect data.",
+      "Student constructs a two-way table with some errors, such as minor miscalculations or omissions.",
+      "Student constructs a mostly accurate two-way table with only minor errors or omissions.",
+      "Student constructs an accurate two-way table, correctly labeling rows and columns and including all relevant data.",
+      "Student constructs a flawless two-way table, correctly labeling rows and columns, including all relevant data, and presenting it in a clear and organized manner."
+    ],
+    [
+      "Student does not attempt to calculate relative frequencies or the attempt is completely incorrect.",
+      "Student attempts to calculate relative frequencies but makes significant errors, such as dividing by the wrong total or misinterpreting the results.",
+      "Student calculates relative frequencies with some errors, such as minor miscalculations or misinterpretations.",
+      "Student calculates relative frequencies accurately for rows or columns but struggles to interpret the results in the context of the data.",
+      "Student calculates relative frequencies accurately for rows or columns and provides a basic interpretation of the results in the context of the data.",
+      "Student calculates relative frequencies accurately for both rows and columns and provides a thorough and insightful interpretation of the results in the context of the data."
+    ],
+    [
+      "Student does not attempt to describe the association between the two variables.",
+      "Student attempts to describe the association but provides a completely incorrect or irrelevant description.",
+      "Student provides a vague or superficial description of the association between the variables.",
+      "Student describes a possible association between the variables based on the relative frequencies, but the explanation is unclear or incomplete.",
+      "Student clearly describes a possible association between the variables based on the relative frequencies, providing supporting evidence from the data.",
+      "Student provides a sophisticated and nuanced description of the association between the variables, considering potential confounding factors and limitations of the data."
+    ]
+  ]
+}

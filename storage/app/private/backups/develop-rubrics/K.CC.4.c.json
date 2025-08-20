@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Counting",
+    "Understanding of Number-Quantity Relationship",
+    "Successive Number Concept"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no ability to accurately count objects.",
+      "Student can count a small number of objects (1-5) with significant errors.",
+      "Student can count a small set of objects (up to 10) but makes occasional errors or struggles with one-to-one correspondence.",
+      "Student can accurately count sets of objects up to 15, demonstrating a good understanding of one-to-one correspondence.",
+      "Student can accurately count sets of objects up to 20 and demonstrates understanding of cardinality.",
+      "Student can accurately count sets of objects beyond 20, demonstrating a strong understanding of cardinality and can explain the relationship between numbers and quantities."
+    ],
+    [
+      "Student does not show any understanding of the relationship between numbers and the quantities they represent.",
+      "Student shows limited understanding of the connection between a number and a quantity, needing significant prompting.",
+      "Student shows some understanding that numbers represent quantities, but struggles with applying this understanding.",
+      "Student demonstrates a clear understanding that numbers represent quantities, accurately matching numbers to corresponding groups of objects.",
+      "Student understands the connection between number and quantity and can explain the concept to others.",
+      "Student demonstrates a deep understanding of the relationship between numbers and quantities, explaining how numbers symbolize the amount in a set and can apply this understanding to solve complex counting problems."
+    ],
+    [
+      "Student does not demonstrate understanding that each successive number refers to a quantity one larger.",
+      "Student shows minimal understanding that each successive number increases the quantity but cannot consistently apply the concept.",
+      "Student understands that successive numbers indicate a larger quantity, but struggles to explain or demonstrate this concept with larger numbers.",
+      "Student accurately explains that each successive number refers to a quantity that is one larger, demonstrating this understanding with numbers up to 20.",
+      "Student consistently demonstrates understanding that each successive number refers to a quantity that is one larger with numbers beyond 20.",
+      "Student can explain and demonstrate the concept of successive numbers referring to increasing quantities in abstract and complex scenarios, showing a mastery of the fundamental counting principle."
+    ]
+  ]
+}

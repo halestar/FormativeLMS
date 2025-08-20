@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Organizational Structure",
+    "Analysis of Section Contribution",
+    "Analysis of Text Features (Graphics, Headers, Captions)",
+    "Clarity and Coherence of Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify the organizational structure used by the author.",
+      "Identifies the organizational structure with no accuracy.",
+      "Identifies the organizational structure, but explanation is vague.",
+      "Identifies the organizational structure and provides a somewhat clear explanation.",
+      "Clearly identifies the organizational structure with supporting details.",
+      "Accurately and thoroughly identifies the organizational structure with well-developed support."
+    ],
+    [
+      "Does not analyze how major sections contribute to the whole or development of ideas.",
+      "Attempts to analyze the section contribution, but is inaccurate and lacks depth.",
+      "Analyzes how some sections contribute, but misses key connections or provides superficial analysis.",
+      "Analyzes how most sections contribute to the whole and the development of ideas with some detail.",
+      "Clearly analyzes how major sections contribute to the overall text and development of ideas.",
+      "Insightfully analyzes how each major section contributes to the text's purpose and development of ideas with specific examples."
+    ],
+    [
+      "Does not analyze the use of text features in public documents.",
+      "Attempts to analyze text features, but is inaccurate and lacks understanding.",
+      "Analyzes some text features, but misses key examples or provides superficial analysis.",
+      "Analyzes text features and how they contribute to the public documents with some detail.",
+      "Clearly analyzes the use of text features in the public documents and their impact.",
+      "Insightfully analyzes the use of each text feature to the document\u2019s purpose with specific examples."
+    ],
+    [
+      "Analysis is unclear, disorganized, and difficult to follow.",
+      "Analysis lacks clarity and coherence, with frequent errors in grammar or mechanics.",
+      "Analysis is somewhat clear but lacks logical organization.",
+      "Analysis is generally clear and organized with few errors.",
+      "Analysis is clear, coherent, and well-organized with minimal errors.",
+      "Analysis is exceptionally clear, coherent, and sophisticated, demonstrating a strong command of language and conventions."
+    ]
+  ]
+}

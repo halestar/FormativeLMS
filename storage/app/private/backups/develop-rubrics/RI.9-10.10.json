@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates comprehension of literary nonfiction texts appropriate for grades 9-10.",
+    "Ability to independently read and comprehend literary nonfiction at the high end of the grades 9-10 text complexity band (applicable primarily to 10th grade).",
+    "Demonstrates ability to make inferences and draw conclusions from the text."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate comprehension of the text; struggles significantly with basic understanding.",
+      "Demonstrates minimal comprehension; requires significant scaffolding and support to understand the text.",
+      "Demonstrates partial comprehension; requires some scaffolding and support to understand the text.",
+      "Demonstrates adequate comprehension with occasional need for clarification or support.",
+      "Demonstrates thorough comprehension of the text with minimal need for support.",
+      "Demonstrates comprehensive and insightful understanding of the text, including nuances and subtleties, independently."
+    ],
+    [
+      "Unable to read and comprehend complex texts independently.",
+      "Requires constant support and scaffolding to attempt reading complex texts.",
+      "Attempts to read complex texts but struggles significantly with comprehension even with support.",
+      "Can read complex texts with some assistance and occasional reliance on scaffolding.",
+      "Reads and comprehends complex texts with minimal assistance, demonstrating increasing independence.",
+      "Independently and proficiently reads and comprehends literary nonfiction at the high end of the grades 9-10 text complexity band."
+    ],
+    [
+      "Unable to make inferences or draw conclusions based on the text.",
+      "Struggles to make inferences even with explicit guidance.",
+      "Makes simple inferences with prompting but struggles with more complex conclusions.",
+      "Makes reasonable inferences and draws logical conclusions with occasional support.",
+      "Confidently makes inferences and draws well-supported conclusions from the text.",
+      "Insightfully makes complex inferences and draws nuanced conclusions based on a thorough understanding of the text."
+    ]
+  ]
+}

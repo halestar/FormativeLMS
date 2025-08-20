@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Physical Changes: Accuracy and completeness in explaining the specific physical changes that occur during adolescence, such as growth spurts, hormonal changes, and the development of secondary sexual characteristics.",
+    "Understanding of Social Changes: Insight into how adolescents' relationships with family, friends, and peers evolve, and the impact of these changes on identity and behavior.",
+    "Understanding of Emotional Changes: Understanding of the emotional fluctuations and development of self-awareness during adolescence, including mood swings, identity exploration, and the development of coping mechanisms.",
+    "Connections Between Physical, Social, and Emotional Changes: Ability to articulate how these domains interact and influence one another during adolescence."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not mention or incorrectly identifies physical changes associated with adolescence.",
+      "Identifies one or two physical changes with limited accuracy.",
+      "Identifies several physical changes but lacks detail or contains minor inaccuracies.",
+      "Explains most key physical changes accurately, providing some detail.",
+      "Provides a comprehensive explanation of physical changes, demonstrating a strong understanding of the biological processes involved.",
+      "Offers an insightful and detailed explanation of physical changes, including nuanced aspects and potential variations, reflecting a sophisticated understanding."
+    ],
+    [
+      "Does not address or misunderstands the social changes associated with adolescence.",
+      "Briefly mentions social changes but lacks depth or accuracy.",
+      "Identifies some social changes, such as peer influence, but does not explain their significance.",
+      "Explains several social changes and their impact on adolescents, demonstrating a general understanding.",
+      "Provides a thorough explanation of social changes, including the development of social skills, independence, and identity.",
+      "Offers a nuanced analysis of social changes, exploring the complexities of adolescent relationships, social pressures, and identity formation, reflecting a deep understanding."
+    ],
+    [
+      "Does not acknowledge or incorrectly describes emotional changes during adolescence.",
+      "Mentions one or two emotional changes superficially.",
+      "Identifies several emotional changes but does not explain their causes or effects.",
+      "Explains many key emotional changes, such as increased self-consciousness and mood swings, with reasonable accuracy.",
+      "Provides a detailed explanation of emotional changes, discussing the interplay between hormones, brain development, and personal experiences.",
+      "Presents a sophisticated analysis of emotional changes, exploring the psychological underpinnings of adolescent emotions, the development of emotional regulation, and the impact on mental health, reflecting a comprehensive understanding."
+    ],
+    [
+      "Treats physical, social, and emotional changes as separate and unrelated topics.",
+      "Acknowledges that these changes occur but does not explain how they are connected.",
+      "Offers a limited explanation of how one or two domains might influence each other.",
+      "Explains how physical, social, and emotional changes are interconnected, providing examples of their reciprocal influence.",
+      "Provides a detailed explanation of the complex interactions between physical, social, and emotional changes, illustrating how they collectively shape the adolescent experience.",
+      "Offers an insightful and nuanced analysis of the dynamic interplay between physical, social, and emotional changes, demonstrating a holistic understanding of adolescent development."
+    ]
+  ]
+}

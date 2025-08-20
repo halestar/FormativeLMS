@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Different Points of View",
+    "Analysis of Author's Development of Points of View",
+    "Contrast of Different Points of View",
+    "Understanding of the Impact of Point of View on the Text"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any points of view within the text.",
+      "The student identifies only one point of view, with limited accuracy.",
+      "The student identifies multiple points of view, but struggles to distinguish them clearly.",
+      "The student accurately identifies the main points of view present in the text.",
+      "The student accurately identifies the main points of view and provides some context as to why these are used.",
+      "The student accurately identifies all points of view, including subtle or implied perspectives."
+    ],
+    [
+      "The student offers no analysis of how the author develops the points of view.",
+      "The student's analysis is superficial and does not explain the author's methods.",
+      "The student attempts to explain how the author develops the points of view, but the analysis is unclear or incomplete.",
+      "The student provides a clear explanation of the author's methods in developing the points of view.",
+      "The student insightfully analyzes how the author uses literary devices to develop the points of view.",
+      "The student offers a sophisticated and nuanced analysis of the author's techniques, demonstrating a deep understanding of the author's craft."
+    ],
+    [
+      "The student does not attempt to contrast the different points of view.",
+      "The student identifies differences but fails to show contrast between any points of view.",
+      "The student attempts to contrast the points of view, but the contrasts are vague or unsubstantiated.",
+      "The student provides clear and supported contrasts between the different points of view.",
+      "The student insightfully contrasts the points of view, exploring the implications of these differences.",
+      "The student offers a nuanced and insightful contrast of the points of view, revealing subtle nuances and complex relationships."
+    ],
+    [
+      "The student fails to recognize the impact of point of view on the text.",
+      "The student mentions the impact of point of view but does not elaborate.",
+      "The student identifies the impact of point of view, but the connection to the text is weak.",
+      "The student connects point of view to theme and character development.",
+      "The student provides a complete and accurate description of the impact of point of view and the relevant elements of the story.",
+      "The student offers a novel and useful explanation of how point of view alters the narrative."
+    ]
+  ]
+}

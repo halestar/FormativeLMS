@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Similarity and Side Ratios",
+    "Defining Trigonometric Ratios",
+    "Application to Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of similarity in right triangles or side ratios.",
+      "Student shows limited understanding of similarity and its relation to side ratios in right triangles.",
+      "Student demonstrates partial understanding of similarity and side ratios, but struggles to connect the concepts.",
+      "Student understands similarity and side ratios and can generally explain their relationship in right triangles.",
+      "Student demonstrates a strong understanding of similarity and side ratios, clearly explaining their relationship and providing examples.",
+      "Student demonstrates comprehensive understanding of similarity and side ratios, clearly explaining their relationship, providing sophisticated examples, and extending the concept to novel situations."
+    ],
+    [
+      "Student cannot define trigonometric ratios (sine, cosine, tangent).",
+      "Student can identify trigonometric ratios but cannot accurately define them.",
+      "Student provides definitions for trigonometric ratios, but the definitions are incomplete or contain inaccuracies.",
+      "Student accurately defines sine, cosine, and tangent in terms of side ratios in a right triangle.",
+      "Student accurately defines sine, cosine, and tangent and explains their relationships to each other and the angles of a right triangle.",
+      "Student provides precise definitions of trigonometric ratios and explains their relationships, including reciprocal functions, and connects them to the unit circle."
+    ],
+    [
+      "Student cannot apply trigonometric ratios to solve problems involving right triangles.",
+      "Student attempts to use trigonometric ratios but struggles to set up the problem correctly.",
+      "Student can set up some problems using trigonometric ratios but makes errors in calculations or identifying correct ratios.",
+      "Student can solve basic problems involving right triangles using trigonometric ratios with minimal errors.",
+      "Student can solve a variety of problems involving right triangles using trigonometric ratios, demonstrating accuracy and efficiency.",
+      "Student can solve complex problems involving right triangles, including multi-step problems and real-world applications, using trigonometric ratios and providing clear justifications."
+    ]
+  ]
+}

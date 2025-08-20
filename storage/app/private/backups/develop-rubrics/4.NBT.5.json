@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Multiplication",
+    "Application of Place Value",
+    "Use of Strategies and Models",
+    "Explanation and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student shows no understanding of multiplication and arrives at an incorrect answer.",
+      "The student attempts multiplication but makes significant errors, demonstrating a lack of understanding of basic multiplication facts or algorithms.",
+      "The student can perform simple multiplication accurately but struggles with multi-digit numbers or more complex problems, resulting in frequent errors.",
+      "The student generally multiplies accurately, with occasional minor errors, demonstrating a reasonable understanding of multiplication strategies.",
+      "The student consistently multiplies accurately, demonstrating a strong understanding of multiplication strategies and algorithms. Minor errors may occur but are quickly identified and corrected.",
+      "The student demonstrates a mastery of multiplication, consistently multiplying accurately and efficiently, even with multi-digit numbers and complex problems. The student can also explain their reasoning."
+    ],
+    [
+      "The student does not demonstrate any understanding of place value and its role in multiplication.",
+      "The student shows limited understanding of place value, struggling to align numbers correctly or apply place value concepts in multiplication.",
+      "The student demonstrates some understanding of place value but makes errors in aligning numbers or applying place value concepts in multiplication.",
+      "The student generally applies place value concepts correctly in multiplication, with occasional errors in alignment or understanding.",
+      "The student consistently applies place value concepts correctly in multiplication, demonstrating a strong understanding of how place value affects the process.",
+      "The student demonstrates a deep understanding of place value and can explain how it impacts the multiplication process. The student uses place value to efficiently solve problems."
+    ],
+    [
+      "The student does not attempt to use any strategies or models to illustrate or explain the multiplication process.",
+      "The student attempts to use strategies or models but does so incorrectly or ineffectively, demonstrating a lack of understanding of how to apply them.",
+      "The student uses strategies or models with limited success, making errors or struggling to connect the model to the multiplication process.",
+      "The student uses strategies or models effectively, demonstrating a reasonable understanding of how they can be used to illustrate and explain multiplication.",
+      "The student effectively uses strategies and models to illustrate and explain the multiplication process, demonstrating a strong understanding of their application.",
+      "The student skillfully uses a variety of strategies and models to illustrate and explain the multiplication process, demonstrating a deep understanding of their application and connections between them."
+    ],
+    [
+      "The student is unable to explain their reasoning or justify their answers.",
+      "The student attempts to explain their reasoning but struggles to articulate their thoughts or provide a clear justification for their answers.",
+      "The student provides a limited explanation of their reasoning, with some gaps in logic or clarity.",
+      "The student provides a reasonable explanation of their reasoning, justifying their answers with some clarity and logic.",
+      "The student provides a clear and logical explanation of their reasoning, justifying their answers with sound mathematical principles.",
+      "The student provides a thorough and insightful explanation of their reasoning, justifying their answers with sophisticated mathematical principles and demonstrating a deep understanding of the underlying concepts."
+    ]
+  ]
+}

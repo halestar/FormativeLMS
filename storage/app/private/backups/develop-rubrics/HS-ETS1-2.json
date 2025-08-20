@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Problem Decomposition",
+    "Solution Design based on Scientific Knowledge",
+    "Prioritization of Criteria & Trade-offs",
+    "Consideration of Real-World Constraints"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to break down the complex problem or does so in a way that is not helpful.",
+      "The student attempts to break down the problem, but the sub-problems identified are not clearly defined or manageable.",
+      "The student breaks down the problem into smaller parts, but there is limited logical connection to the overall complex problem.",
+      "The student breaks down the problem into manageable sub-problems, but the connection to the overall problem and potential solutions is not fully clear.",
+      "The student effectively breaks down the complex problem into smaller, manageable sub-problems that are logically connected.",
+      "The student expertly breaks down the complex problem into manageable, well-defined sub-problems, demonstrating a clear understanding of their interdependencies and relevance to the overall solution."
+    ],
+    [
+      "The student's proposed solution shows no connection to scientific knowledge or evidence.",
+      "The student's proposed solution mentions scientific knowledge, but it is vague or inaccurately applied.",
+      "The student's solution uses some scientific knowledge, but the connection to the problem and solution is weak.",
+      "The student's solution is generally based on scientific knowledge, but there are gaps in the application or justification.",
+      "The student's solution is clearly based on sound scientific knowledge and principles, with a clear rationale.",
+      "The student's solution is innovative and expertly integrates scientific knowledge and principles to address the problem, demonstrating a deep understanding."
+    ],
+    [
+      "The student does not identify or consider any criteria or trade-offs in the design solution.",
+      "The student mentions criteria or trade-offs, but without clear prioritization or justification.",
+      "The student identifies some relevant criteria and trade-offs, but the prioritization is not well-explained.",
+      "The student considers multiple criteria and trade-offs and attempts to prioritize them, but the reasoning is not always clear or consistent.",
+      "The student clearly identifies, prioritizes, and justifies the criteria and trade-offs considered in the design solution.",
+      "The student demonstrates a sophisticated understanding of the interplay between criteria and trade-offs, making well-reasoned decisions to optimize the solution."
+    ],
+    [
+      "The student shows no awareness of real-world constraints (e.g., cost, safety, environmental impact).",
+      "The student mentions constraints but does not explain how they affect the design solution.",
+      "The student identifies some relevant constraints, but the consideration is superficial.",
+      "The student considers several real-world constraints, but their impact on the solution is not fully analyzed.",
+      "The student thoroughly considers real-world constraints and demonstrates how the design solution addresses them.",
+      "The student proactively identifies and creatively addresses real-world constraints, optimizing the design solution for feasibility and sustainability."
+    ]
+  ]
+}

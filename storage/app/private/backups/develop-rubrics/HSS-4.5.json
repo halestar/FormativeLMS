@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Structure of the U.S. Government",
+    "Understanding of the Functions of the U.S. Government",
+    "Understanding of the Powers of the U.S. Government",
+    "Application of Knowledge to Contemporary Issues"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the structure of the U.S. government as described in the Constitution.",
+      "Student demonstrates a minimal understanding of the structure of the U.S. government, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the structure of the U.S. government but struggles to accurately describe all branches and their roles.",
+      "Student demonstrates a satisfactory understanding of the structure of the U.S. government, accurately describing the three branches and their basic roles.",
+      "Student demonstrates a strong understanding of the structure of the U.S. government, accurately describing the three branches and their roles, and can identify some checks and balances.",
+      "Student demonstrates a comprehensive understanding of the structure of the U.S. government, accurately describing the three branches, their roles, and the system of checks and balances, and can explain how this structure impacts governance."
+    ],
+    [
+      "Student demonstrates no understanding of the functions of the U.S. government.",
+      "Student demonstrates a minimal understanding of the functions of the U.S. government, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the functions of the U.S. government but struggles to accurately describe the roles of different branches.",
+      "Student demonstrates a satisfactory understanding of the functions of the U.S. government, accurately describing the basic roles of each branch.",
+      "Student demonstrates a strong understanding of the functions of the U.S. government, accurately describing the roles of each branch and can provide examples of how these functions are carried out.",
+      "Student demonstrates a comprehensive understanding of the functions of the U.S. government, accurately describing the roles of each branch, providing examples, and explaining how these functions impact the lives of citizens."
+    ],
+    [
+      "Student demonstrates no understanding of the powers of the U.S. government.",
+      "Student demonstrates a minimal understanding of the powers of the U.S. government, with significant inaccuracies.",
+      "Student demonstrates a basic understanding of the powers of the U.S. government but struggles to differentiate between the powers of different branches.",
+      "Student demonstrates a satisfactory understanding of the powers of the U.S. government, accurately describing the basic powers of each branch.",
+      "Student demonstrates a strong understanding of the powers of the U.S. government, accurately describing the powers of each branch and can provide examples of how these powers are used.",
+      "Student demonstrates a comprehensive understanding of the powers of the U.S. government, accurately describing the powers of each branch, providing examples, and explaining the limits on these powers as defined by the Constitution."
+    ],
+    [
+      "Student is unable to connect knowledge of government structures, functions, and powers to contemporary issues.",
+      "Student attempts to connect knowledge to contemporary issues but demonstrates significant misunderstandings.",
+      "Student makes a limited connection between government principles and current events.",
+      "Student can connect government principles to some current events, providing basic explanations.",
+      "Student effectively connects government principles to multiple current events, providing clear explanations.",
+      "Student demonstrates a sophisticated understanding of how government structures, functions, and powers relate to a wide range of contemporary issues, providing insightful analysis."
+    ]
+  ]
+}

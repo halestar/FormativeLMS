@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Moderation",
+    "Application to Real-Life Scenarios",
+    "Identification of Potential Benefits and Risks"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of what eating in moderation means.",
+      "The student shows a very limited understanding of eating in moderation, with significant misconceptions.",
+      "The student shows some understanding of eating in moderation, but struggles to fully explain the concept.",
+      "The student adequately explains eating in moderation but lacks depth or detail.",
+      "The student clearly explains eating in moderation, providing relevant details and examples.",
+      "The student comprehensively explains eating in moderation, demonstrating a deep understanding and providing insightful examples."
+    ],
+    [
+      "The student cannot apply the concept of eating in moderation to any real-life scenarios.",
+      "The student struggles to apply the concept and offers unrealistic or inappropriate examples.",
+      "The student attempts to apply the concept to real-life scenarios, but the examples are vague or unclear.",
+      "The student provides somewhat relevant examples of eating in moderation in real-life scenarios.",
+      "The student provides clear and relevant examples of how to eat in moderation in various real-life situations.",
+      "The student provides insightful and practical examples of applying moderation in diverse real-life scenarios, demonstrating a nuanced understanding."
+    ],
+    [
+      "The student does not identify any potential benefits or risks associated with eating in moderation.",
+      "The student mentions vague or incorrect benefits\/risks related to eating in moderation.",
+      "The student identifies some potential benefits or risks, but the explanation is superficial.",
+      "The student identifies several benefits and risks of eating in moderation with adequate explanation.",
+      "The student clearly articulates the key benefits and risks of eating in moderation with detailed explanations.",
+      "The student provides a comprehensive analysis of the benefits and risks of eating in moderation, showing a sophisticated understanding."
+    ]
+  ]
+}

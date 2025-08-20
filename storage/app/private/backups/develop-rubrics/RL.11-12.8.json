@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Logical Argumentation and Reasoning",
+    "Use of Evidence and Examples",
+    "Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The response demonstrates no understanding of logical argumentation or reasoning. The claims are unsupported and irrelevant.",
+      "The response shows a minimal understanding of logical argumentation or reasoning. Claims are weakly supported or vaguely connected to the topic.",
+      "The response demonstrates a basic understanding of logical argumentation and reasoning. Claims are present, but the support is superficial or inconsistent.",
+      "The response demonstrates a satisfactory understanding of logical argumentation and reasoning. Claims are generally supported with relevant evidence, and reasoning is mostly clear.",
+      "The response demonstrates a strong understanding of logical argumentation and reasoning. Claims are well-supported with specific evidence, and reasoning is logical and coherent.",
+      "The response demonstrates an exceptional understanding of logical argumentation and reasoning. Claims are thoroughly supported with compelling evidence, and reasoning is sophisticated and insightful."
+    ],
+    [
+      "No evidence or examples are provided.",
+      "Minimal or irrelevant evidence\/examples are provided.",
+      "Some evidence\/examples are provided, but they are weak or loosely connected.",
+      "Adequate evidence\/examples are used to support claims.",
+      "Strong evidence\/examples are used effectively to support claims.",
+      "Compelling and insightful evidence\/examples are seamlessly integrated to support claims."
+    ],
+    [
+      "The response is unclear, disorganized, and difficult to understand.",
+      "The response lacks clarity and coherence, making it challenging to follow the argument.",
+      "The response is somewhat clear and coherent, but there are organizational issues.",
+      "The response is generally clear and coherent with a logical flow of ideas.",
+      "The response is clear, coherent, and well-organized with smooth transitions.",
+      "The response is exceptionally clear, coherent, and elegantly structured with seamless transitions and a compelling narrative."
+    ]
+  ]
+}

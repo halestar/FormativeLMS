@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding of Word Meanings: Determining the meaning of words and phrases as they are used in a text, including figurative, connotative, and technical meanings.",
+    "Analysis of Author's Use of Key Terms: Analyzing how an author uses and refines the meaning of a key term or terms over the course of a text."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of word meanings in the text.",
+      "Struggles to determine the meaning of most words and phrases; shows little awareness of figurative, connotative, or technical meanings.",
+      "Identifies the literal meaning of some words and phrases but misses nuances like figurative or connotative meanings.",
+      "Generally determines the meaning of words and phrases, including figurative and connotative, but may struggle with technical meanings or subtle nuances.",
+      "Accurately determines the meaning of words and phrases, including figurative, connotative, and technical meanings, demonstrating a strong understanding of language.",
+      "Masterfully determines the meaning of words and phrases, including complex figurative, connotative, and technical meanings; demonstrates a sophisticated understanding of language and its nuances."
+    ],
+    [
+      "Shows no ability to analyze how an author uses or refines the meaning of key terms.",
+      "Attempts to identify key terms but does not analyze how the author's use of these terms evolves throughout the text.",
+      "Identifies a key term and makes a limited attempt to describe how the author uses it, but the analysis lacks depth.",
+      "Analyzes how the author uses a key term over the course of the text, providing some evidence of refinement in meaning.",
+      "Clearly and effectively analyzes how the author uses and refines the meaning of a key term, providing specific examples from the text.",
+      "Insightfully analyzes the author's use and refinement of key terms, demonstrating a comprehensive understanding of the author's purpose and rhetorical strategies; connects the analysis to broader themes or arguments in the text."
+    ]
+  ]
+}

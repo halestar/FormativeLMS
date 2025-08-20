@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Scatter Plot Representation",
+    "Description of Relationship Between Variables",
+    "Analysis of Residuals (Informal Assessment of Fit)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The scatter plot is missing or completely inaccurate. Variables are not correctly identified or plotted.",
+      "The scatter plot has significant errors in plotting data points or identifying variables.",
+      "The scatter plot has some inaccuracies in plotting data points, but the variables are generally correctly identified.",
+      "The scatter plot is mostly accurate with minor errors in plotting or variable identification.",
+      "The scatter plot is accurate and clearly represents the data with correctly identified variables.",
+      "The scatter plot is exceptionally clear, accurate, and well-labeled, demonstrating a strong understanding of data representation."
+    ],
+    [
+      "No attempt is made to describe the relationship between the variables, or the description is completely irrelevant.",
+      "The description of the relationship is vague, inaccurate, or lacks supporting evidence from the scatter plot.",
+      "The description identifies a potential relationship but lacks detail or sufficient justification.",
+      "The description identifies a relationship between the variables and provides some supporting evidence from the scatter plot.",
+      "The description clearly and accurately explains the relationship between the variables, using evidence from the scatter plot to support the analysis.",
+      "The description provides a comprehensive and insightful analysis of the relationship, including discussion of its strength, direction, and possible confounding variables, all well-supported by the data."
+    ],
+    [
+      "No attempt is made to analyze residuals, or the analysis is completely nonsensical.",
+      "The analysis of residuals is attempted but is inaccurate or irrelevant to assessing the fit of a function.",
+      "The analysis of residuals is basic and identifies some patterns but lacks depth or clear conclusions about the fit of a function.",
+      "The analysis of residuals identifies patterns and attempts to relate them to the fit of a function, with some justification.",
+      "The analysis of residuals clearly relates patterns to the fit of a function, providing a reasoned argument for whether the function is a good fit.",
+      "The analysis of residuals is thorough and insightful, providing a well-supported argument for the suitability (or unsuitability) of a function based on residual patterns, and suggesting potential improvements or alternative models."
+    ]
+  ]
+}

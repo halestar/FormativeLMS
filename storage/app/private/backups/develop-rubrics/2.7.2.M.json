@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding and empathy towards individual differences.",
+    "Uses inclusive and respectful language.",
+    "Actively listens to and values diverse perspectives."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no awareness or understanding of individual differences; may exhibit disrespectful behavior or language.",
+      "Shows limited awareness of individual differences; may occasionally use insensitive language or behavior.",
+      "Acknowledges individual differences but struggles to demonstrate empathy or understanding in practical situations.",
+      "Generally shows respect for individual differences; attempts to understand others' perspectives but may occasionally fall short.",
+      "Consistently demonstrates respect and empathy towards individual differences; actively seeks to understand and appreciate diverse perspectives.",
+      "Exemplifies a deep understanding and appreciation of individual differences; consistently advocates for inclusivity and demonstrates exceptional empathy and respect in all interactions."
+    ],
+    [
+      "Uses offensive or discriminatory language; shows no regard for the impact of language on others.",
+      "Occasionally uses insensitive or exclusive language; requires prompting to correct language.",
+      "Generally uses respectful language but may occasionally slip up or use language that is not fully inclusive.",
+      "Uses inclusive and respectful language in most situations; avoids offensive or discriminatory terms.",
+      "Consistently uses inclusive and respectful language; demonstrates awareness of the impact of language on others.",
+      "Models the use of inclusive and respectful language; actively promotes the use of language that celebrates diversity and fosters understanding."
+    ],
+    [
+      "Dismisses or ignores diverse perspectives; shows no interest in understanding others' viewpoints.",
+      "Shows limited interest in diverse perspectives; may interrupt or dismiss others' opinions.",
+      "Acknowledges diverse perspectives but struggles to actively listen or engage with them.",
+      "Generally listens to and values diverse perspectives; attempts to understand others' viewpoints but may occasionally struggle.",
+      "Actively listens to and values diverse perspectives; demonstrates a genuine interest in understanding others' viewpoints.",
+      "Seeks out and amplifies diverse perspectives; demonstrates a deep commitment to understanding and valuing the contributions of all individuals."
+    ]
+  ]
+}

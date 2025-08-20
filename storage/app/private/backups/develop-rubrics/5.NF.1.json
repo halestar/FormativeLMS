@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Equivalent Fractions",
+    "Application of Equivalent Fractions to Add\/Subtract Unlike Denominators",
+    "Simplification of Fractions",
+    "Problem Solving and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of equivalent fractions is demonstrated.",
+      "Demonstrates limited understanding of equivalent fractions; struggles to identify or generate them.",
+      "Demonstrates some understanding of equivalent fractions but makes frequent errors in generating or applying them.",
+      "Demonstrates a satisfactory understanding of equivalent fractions; can generate and identify them with occasional errors.",
+      "Demonstrates a strong understanding of equivalent fractions; can accurately generate and identify them to solve problems.",
+      "Demonstrates a comprehensive understanding of equivalent fractions; can fluently generate, identify, and apply them in complex problem-solving scenarios."
+    ],
+    [
+      "Unable to apply equivalent fractions to add or subtract fractions with unlike denominators.",
+      "Attempts to add or subtract fractions with unlike denominators but does not use equivalent fractions effectively; unable to find a common denominator.",
+      "Can find a common denominator but makes errors in converting fractions or in the addition\/subtraction process.",
+      "Applies equivalent fractions to add or subtract fractions with unlike denominators with some accuracy; minor errors may be present.",
+      "Accurately applies equivalent fractions to add or subtract fractions with unlike denominators; demonstrates a clear process and arrives at the correct answer.",
+      "Masterfully applies equivalent fractions to add or subtract fractions with unlike denominators, including mixed numbers, demonstrating a clear, efficient, and accurate process."
+    ],
+    [
+      "Does not simplify fractions or incorrectly simplifies them.",
+      "Attempts to simplify fractions but is unsuccessful or makes significant errors.",
+      "Simplifies fractions inconsistently or makes minor errors in the simplification process.",
+      "Generally simplifies fractions correctly but may overlook opportunities for simplification.",
+      "Consistently simplifies fractions to their lowest terms with accuracy.",
+      "Demonstrates excellent skill in simplifying fractions, including complex fractions, and always provides the answer in simplest form."
+    ],
+    [
+      "Unable to solve problems involving addition and subtraction of fractions with unlike denominators.",
+      "Attempts to solve problems but demonstrates poor reasoning and arrives at incorrect solutions.",
+      "Solves some problems correctly but struggles with more complex scenarios or multi-step problems.",
+      "Solves problems accurately but may not fully explain their reasoning or justify their solutions.",
+      "Solves problems accurately and provides clear reasoning for each step, justifying their solutions effectively.",
+      "Demonstrates exceptional problem-solving skills; can solve complex problems involving addition and subtraction of fractions, providing insightful and comprehensive reasoning."
+    ]
+  ]
+}

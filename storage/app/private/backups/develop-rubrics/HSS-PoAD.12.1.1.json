@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Ancient Greek and Roman Political Thought",
+    "Understanding of English and European Political Thinkers (Locke, Montesquieu)",
+    "Ability to Analyze and Connect Historical Political Thought to American Democracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the influence of ancient Greek and Roman political thought on American democracy.",
+      "Shows a limited understanding of the influence of ancient Greek or Roman political thought on American democracy.",
+      "Identifies some basic connections between ancient Greek or Roman political ideas and American democracy.",
+      "Explains the influence of either ancient Greek or Roman political thought on specific aspects of American democracy with some detail.",
+      "Explains the influence of both ancient Greek and Roman political thought on different aspects of American democracy with clear examples.",
+      "Provides a comprehensive analysis of the influence of ancient Greek and Roman political thought on the fundamental principles and moral values of American democracy, including specific examples and connections."
+    ],
+    [
+      "Demonstrates no understanding of the influence of English and European political thinkers like Locke and Montesquieu on American democracy.",
+      "Shows a limited understanding of the influence of either English or European political thinkers on American democracy.",
+      "Identifies some basic connections between the ideas of Locke or Montesquieu and American democracy.",
+      "Explains the influence of either Locke or Montesquieu on specific aspects of American democracy with some detail.",
+      "Explains the influence of both Locke and Montesquieu on different aspects of American democracy with clear examples.",
+      "Provides a comprehensive analysis of the influence of Locke and Montesquieu on the fundamental principles and moral values of American democracy, including specific examples and connections."
+    ],
+    [
+      "Unable to make any connections between historical political thought and American democracy.",
+      "Struggles to connect historical political thought to American democracy, with vague or inaccurate connections.",
+      "Identifies connections between historical political thought and American democracy but lacks depth in analysis.",
+      "Analyzes the connections between historical political thought and specific elements of American democracy, demonstrating a basic understanding.",
+      "Demonstrates a strong ability to analyze the connections between historical political thought and American democracy, providing clear and relevant examples.",
+      "Provides a sophisticated and insightful analysis of the connections between historical political thought and the core principles of American democracy, demonstrating a comprehensive understanding and critical thinking."
+    ]
+  ]
+}

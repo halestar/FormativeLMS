@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of physical activity recommendations.",
+    "Identification of strategies to increase daily physical activity.",
+    "Application of strategies to personal life."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of physical activity recommendations.",
+      "Student shows limited awareness of physical activity recommendations, unable to identify specific guidelines.",
+      "Student identifies general physical activity recommendations but lacks detail or accuracy.",
+      "Student accurately describes physical activity recommendations, including frequency and duration.",
+      "Student demonstrates a strong understanding of physical activity recommendations, including different types of activities and their benefits.",
+      "Student comprehensively understands physical activity recommendations and can tailor them to individual needs and circumstances."
+    ],
+    [
+      "Student cannot identify any strategies to increase daily physical activity.",
+      "Student suggests one or two vague strategies to increase physical activity.",
+      "Student identifies a few basic strategies to increase daily physical activity, such as walking or taking the stairs.",
+      "Student identifies several concrete strategies to increase daily physical activity, considering different contexts (e.g., school, home, community).",
+      "Student identifies a wide range of effective strategies to increase daily physical activity, demonstrating creativity and resourcefulness.",
+      "Student identifies and analyzes a comprehensive set of strategies to increase daily physical activity, considering personal preferences, environmental factors, and potential barriers."
+    ],
+    [
+      "Student does not attempt to apply strategies to their personal life.",
+      "Student mentions a vague desire to increase physical activity but does not suggest any specific changes.",
+      "Student suggests one or two simple changes to increase their personal physical activity but lacks a clear plan.",
+      "Student develops a realistic plan to incorporate several strategies into their daily routine, considering potential challenges.",
+      "Student creates a detailed and personalized plan to increase daily physical activity, outlining specific goals, timelines, and strategies for overcoming obstacles.",
+      "Student not only creates a comprehensive plan but also reflects on its potential impact and identifies strategies for long-term adherence."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Accuracy of Attribute Description: How clearly and accurately the student describes the nature of the attribute under investigation.",
+    "Explanation of Measurement Method and Units: How well the student explains how the attribute was measured and specifies the units of measurement.",
+    "Contextual Understanding: Demonstrates an understanding of how the data relates to the real-world context."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to describe the attribute or provides a description that is completely unclear or inaccurate.",
+      "The student's description of the attribute is vague and lacks clarity, with significant inaccuracies.",
+      "The student provides a somewhat clear description of the attribute but includes some inaccuracies or omits important details.",
+      "The student clearly describes the attribute with minor inaccuracies or omissions.",
+      "The student provides a clear and accurate description of the attribute, including relevant details.",
+      "The student provides a clear, accurate, and comprehensive description of the attribute, demonstrating a deep understanding of its nature."
+    ],
+    [
+      "The student does not mention how the attribute was measured or fails to provide any units of measurement.",
+      "The student's explanation of the measurement method is unclear or incorrect, and the units of measurement are missing or incorrect.",
+      "The student provides a basic explanation of the measurement method but lacks detail, and the units of measurement may be missing or unclear.",
+      "The student explains the measurement method with some detail and provides mostly correct units of measurement.",
+      "The student clearly explains the measurement method and provides correct units of measurement.",
+      "The student provides a detailed and precise explanation of the measurement method, including its limitations, and clearly specifies the correct units of measurement, demonstrating a thorough understanding."
+    ],
+    [
+      "No attempt is made to connect the data and its attributes to a real-world context.",
+      "The attempt to connect the data to a real-world context is superficial and lacks depth.",
+      "A basic connection is made between the data and a real-world context, but the explanation is limited.",
+      "The relationship between the data and its real-world context is explained with reasonable clarity.",
+      "The student clearly explains the connection between the data, the attributes, and the real-world context.",
+      "The student provides a comprehensive and insightful explanation of the data within its real-world context, demonstrating a deep understanding of its implications."
+    ]
+  ]
+}

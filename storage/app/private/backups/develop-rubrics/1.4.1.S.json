@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information: How accurately does the student describe the correct procedures and information needed when reporting dangerous situations?",
+    "Clarity and Organization: How clearly and logically does the student present the steps and details for reporting dangerous situations?",
+    "Completeness of Information: Does the student include all critical components necessary for effectively reporting a dangerous situation (who to contact, what information to provide, etc.)?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student provides no relevant information or completely misunderstands how to report dangerous situations.",
+      "The student shows minimal understanding, providing inaccurate or very basic information with significant omissions.",
+      "The student provides some correct information, but there are noticeable gaps or inaccuracies in their description.",
+      "The student generally describes the correct procedures, but lacks detail or misses some important steps.",
+      "The student accurately describes most of the necessary procedures and information, with only minor omissions.",
+      "The student comprehensively and accurately describes all the necessary procedures and information needed when reporting dangerous situations, demonstrating a thorough understanding."
+    ],
+    [
+      "The student\u2019s explanation is incomprehensible and lacks any form of organization.",
+      "The explanation is very unclear and disorganized, making it difficult to follow the steps for reporting.",
+      "The student's explanation is somewhat unclear and lacks logical structure, making it challenging to understand the reporting process.",
+      "The student presents the information in a way that is understandable, but the organization could be improved to enhance clarity.",
+      "The student clearly presents the information in a logical order, making it easy to follow the steps for reporting.",
+      "The student presents the information with exceptional clarity and organization, providing a seamless and easy-to-understand guide for reporting dangerous situations."
+    ],
+    [
+      "The student omits all critical components, showing no understanding of what is necessary to report.",
+      "The student misses almost all critical components, showing a very limited understanding of necessary reporting elements.",
+      "The student includes very few critical components, with significant omissions that would hinder effective reporting.",
+      "The student includes some critical components, but misses key elements necessary for effective reporting.",
+      "The student includes most critical components necessary for effectively reporting a dangerous situation, with only minor omissions.",
+      "The student includes all critical components necessary for effectively reporting a dangerous situation, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

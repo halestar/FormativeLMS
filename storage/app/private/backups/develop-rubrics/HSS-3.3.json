@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and thoroughness in organizing the sequence of local historical events.",
+    "Ability to describe the impact of each period of settlement on the land.",
+    "Effective use of historical and community resources."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to organize local historical events; significant inaccuracies.",
+      "Limited attempt to organize events; major inaccuracies or omissions.",
+      "Organizes some local historical events with several inaccuracies or omissions.",
+      "Mostly accurate organization of local historical events with minor omissions.",
+      "Accurate organization of most local historical events; few omissions.",
+      "Comprehensive and accurate organization of local historical events with no omissions."
+    ],
+    [
+      "No description of the impact of settlement periods on the land.",
+      "Minimal description of settlement impacts; significant misunderstandings.",
+      "Describes some impacts of settlement periods with limited detail or accuracy.",
+      "Describes most impacts of settlement periods with reasonable detail and accuracy.",
+      "Clearly describes the impacts of settlement periods with strong detail and accuracy.",
+      "Insightful and comprehensive description of the impacts of each settlement period on the land, demonstrating deep understanding."
+    ],
+    [
+      "No use of historical or community resources.",
+      "Ineffective or inappropriate use of resources.",
+      "Limited or superficial use of resources.",
+      "Adequate use of resources to support the organization of events and description of impacts.",
+      "Effective and purposeful use of resources to enhance understanding.",
+      "Masterful integration of diverse resources, providing nuanced insights."
+    ]
+  ]
+}

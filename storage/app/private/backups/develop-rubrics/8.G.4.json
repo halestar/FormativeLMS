@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Transformations",
+    "Describing the Sequence of Transformations",
+    "Use of Mathematical Vocabulary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of rotations, reflections, translations, or dilations.",
+      "Student can identify some of the transformations (rotations, reflections, translations, or dilations) but struggles to apply them.",
+      "Student can identify and apply rotations, reflections, or translations, but not dilations.",
+      "Student can identify and apply rotations, reflections, translations, and dilations in simple scenarios.",
+      "Student demonstrates a strong understanding of rotations, reflections, translations, and dilations, and can apply them to determine similarity.",
+      "Student demonstrates a comprehensive understanding of rotations, reflections, translations, and dilations. Student can clearly explain and apply them in complex scenarios to determine similarity and describe the sequence of transformations."
+    ],
+    [
+      "Student cannot describe any sequence of transformations between two similar figures.",
+      "Student attempts to describe a sequence of transformations but the description is unclear or incorrect.",
+      "Student can describe a sequence of transformations, but the sequence does not accurately map one figure onto the other.",
+      "Student can describe a sequence of transformations that maps one figure onto the other, but the description lacks precision or detail.",
+      "Student accurately describes a sequence of transformations that exhibits the similarity between two figures, including the order and type of transformations.",
+      "Student precisely and comprehensively describes a sequence of transformations that exhibits the similarity between two figures, including the order, type of transformations, and scale factors (if any). Student explains why this sequence works."
+    ],
+    [
+      "Student does not use appropriate mathematical vocabulary related to transformations and similarity.",
+      "Student uses some mathematical vocabulary, but it is often misused or imprecise.",
+      "Student uses basic mathematical vocabulary related to transformations and similarity with some accuracy.",
+      "Student uses mathematical vocabulary accurately to describe transformations and similarity.",
+      "Student consistently uses precise and appropriate mathematical vocabulary to describe transformations and similarity.",
+      "Student expertly uses mathematical vocabulary to clearly and effectively communicate about transformations and similarity, demonstrating a deep understanding of the concepts."
+    ]
+  ]
+}

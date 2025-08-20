@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Permutations",
+    "Understanding of Combinations",
+    "Application to Probability Problems",
+    "Problem-Solving Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of permutations.",
+      "Student shows minimal understanding of permutations; struggles to differentiate it from other counting methods.",
+      "Student can identify permutations in simple scenarios but struggles with more complex problems.",
+      "Student can apply permutations to solve most problems but may make occasional errors.",
+      "Student demonstrates a strong understanding of permutations and can solve a wide range of problems accurately.",
+      "Student demonstrates a comprehensive understanding of permutations, can solve complex problems, and can explain the concept clearly and accurately."
+    ],
+    [
+      "Student demonstrates no understanding of combinations.",
+      "Student shows minimal understanding of combinations; struggles to differentiate it from other counting methods.",
+      "Student can identify combinations in simple scenarios but struggles with more complex problems.",
+      "Student can apply combinations to solve most problems but may make occasional errors.",
+      "Student demonstrates a strong understanding of combinations and can solve a wide range of problems accurately.",
+      "Student demonstrates a comprehensive understanding of combinations, can solve complex problems, and can explain the concept clearly and accurately."
+    ],
+    [
+      "Student cannot apply permutations or combinations to compute probabilities.",
+      "Student struggles to apply permutations or combinations to probability problems and makes significant errors.",
+      "Student can apply permutations or combinations to solve simple probability problems but struggles with more complex scenarios.",
+      "Student can solve most probability problems using permutations and combinations but may make occasional errors in setup or calculation.",
+      "Student demonstrates proficiency in applying permutations and combinations to solve a variety of probability problems accurately.",
+      "Student demonstrates mastery in applying permutations and combinations to solve complex probability problems and can explain their reasoning clearly."
+    ],
+    [
+      "Student cannot solve problems involving permutations, combinations, and probability.",
+      "Student struggles to set up and solve problems; makes significant errors in reasoning.",
+      "Student can solve simple problems but struggles with multi-step or more complex scenarios.",
+      "Student can solve most problems but may make occasional errors or require assistance.",
+      "Student demonstrates strong problem-solving skills and can accurately solve a wide range of problems.",
+      "Student demonstrates exceptional problem-solving skills, can solve complex and novel problems, and can explain their solution process clearly and logically."
+    ]
+  ]
+}

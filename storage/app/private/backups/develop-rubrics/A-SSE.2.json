@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify and extract common factors from polynomial expressions to rewrite them in a simplified or factored form.",
+    "Skill in recognizing and applying algebraic identities (e.g., difference of squares, perfect square trinomials) to rewrite expressions.",
+    "Competence in manipulating and simplifying rational expressions by factoring, canceling common factors, and combining terms."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify or extract common factors.",
+      "Identifies a common factor but is unable to correctly extract it from the expression.",
+      "Correctly identifies and extracts a simple common factor from the expression, but makes errors in rewriting the expression.",
+      "Identifies and extracts common factors from polynomial expressions and rewrites the expression with minor errors.",
+      "Accurately identifies and extracts complex common factors from polynomial expressions, rewriting the expression correctly.",
+      "Demonstrates a comprehensive understanding by efficiently identifying and extracting even the most complex common factors, rewriting the expression in an optimal form and explaining the reasoning."
+    ],
+    [
+      "Does not recognize or attempt to apply any algebraic identities.",
+      "Recognizes an algebraic identity but is unable to apply it correctly.",
+      "Applies a simple algebraic identity with some errors in the rewriting process.",
+      "Applies common algebraic identities with minor errors.",
+      "Consistently and accurately applies algebraic identities to rewrite expressions effectively.",
+      "Masterfully applies algebraic identities, selects the most efficient identity for rewriting, and clearly explains the strategy used."
+    ],
+    [
+      "Unable to manipulate or simplify rational expressions.",
+      "Attempts to simplify rational expressions but makes significant errors in factoring or canceling.",
+      "Simplifies rational expressions with limited success, making some errors in the process.",
+      "Simplifies rational expressions correctly, with only minor errors.",
+      "Consistently simplifies rational expressions accurately, demonstrating a strong understanding of factoring and cancellation.",
+      "Demonstrates a deep understanding of rational expressions, simplifying them efficiently and accurately, and explaining each step clearly."
+    ]
+  ]
+}

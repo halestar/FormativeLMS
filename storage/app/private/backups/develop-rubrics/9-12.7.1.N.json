@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to identify healthy food and beverage options.",
+    "Ability to make healthy selections in different settings.",
+    "Understanding of nutritional information and its impact on health."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any healthy food or beverage options.",
+      "Student can identify 1-2 healthy food or beverage options with prompting.",
+      "Student can identify a few healthy food and beverage options with some prompting.",
+      "Student can identify several healthy food and beverage options with minimal prompting.",
+      "Student can independently identify many healthy food and beverage options.",
+      "Student can comprehensively and independently identify a wide range of healthy food and beverage options and explain why they are healthy."
+    ],
+    [
+      "Student does not make healthy selections in any setting and consistently chooses unhealthy options.",
+      "Student makes healthy selections in one setting with significant guidance.",
+      "Student makes healthy selections in a couple of settings with some guidance.",
+      "Student makes mostly healthy selections in a variety of settings with minimal guidance.",
+      "Student independently and consistently makes healthy selections in a variety of settings.",
+      "Student expertly and consistently makes healthy selections in various complex scenarios, demonstrating a thorough understanding of nutritional needs and situational factors."
+    ],
+    [
+      "Student demonstrates no understanding of nutritional information or its impact on health.",
+      "Student demonstrates a very basic understanding of nutritional information (e.g., calories) but does not connect it to health.",
+      "Student demonstrates a basic understanding of some nutritional information and makes a limited connection to health.",
+      "Student demonstrates a good understanding of nutritional information and its connection to health with some prompting.",
+      "Student demonstrates a strong and independent understanding of nutritional information and its impact on health.",
+      "Student demonstrates a comprehensive and nuanced understanding of nutritional information, its impact on health, and can apply this knowledge in complex and varied situations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Recommended Water Intake",
+    "Knowledge of Health Benefits of Water",
+    "Connection to Research-Based Guidelines"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of recommended daily water intake.",
+      "Shows minimal awareness of general recommendations for daily water intake but lacks specifics.",
+      "Identifies a general range for daily water intake but does not specify units or provide context.",
+      "Accurately states a recommended daily water intake amount with correct units (e.g., ounces, liters).",
+      "Explains the recommended daily water intake and factors that may influence individual needs (e.g., activity level, climate).",
+      "Provides a comprehensive explanation of recommended water intake, including specific amounts, influencing factors, and potential consequences of inadequate intake."
+    ],
+    [
+      "Does not identify any health benefits of drinking water.",
+      "Identifies one vague or general health benefit of drinking water.",
+      "Lists 1-2 basic health benefits of water consumption (e.g., hydration, thirst quenching).",
+      "Describes 2-3 specific health benefits of adequate water intake (e.g., regulates body temperature, aids digestion).",
+      "Explains multiple health benefits of water with some detail (e.g., supports organ function, improves skin health, boosts energy).",
+      "Provides a thorough and detailed explanation of numerous health benefits of water, including physiological mechanisms and relevant examples."
+    ],
+    [
+      "Does not mention or reference any research or guidelines.",
+      "Vaguely mentions that recommendations are based on research but provides no specifics.",
+      "States that guidelines exist but does not identify sources or describe their origin.",
+      "Refers to a general source for water intake guidelines (e.g., health organizations) without specific citation.",
+      "Cites a specific organization or research study related to water intake recommendations (e.g., NIH, CDC).",
+      "Accurately cites multiple research-based sources and explains how they inform current health guidelines regarding water consumption."
+    ]
+  ]
+}

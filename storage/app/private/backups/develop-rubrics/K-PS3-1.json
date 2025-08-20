@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Observation and Data Collection: Assessing the student's ability to make relevant observations about the effect of sunlight on Earth's surfaces and collect appropriate data.",
+    "Understanding Cause and Effect: Evaluating the student's understanding of the cause-and-effect relationship between sunlight and the warming of Earth's surfaces.",
+    "Scientific Investigation Skills: Assessing the student's ability to plan and carry out an investigation to determine the effect of sunlight on Earth's surface."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No observations are made, and no data is collected.",
+      "Limited observations are made with no relevant data collected.",
+      "Basic observations are made, but the data collected is incomplete or inaccurate.",
+      "Relevant observations are made, and some data is collected, but there are gaps in the data or inconsistencies.",
+      "Clear and relevant observations are made, and accurate data is collected, with minor inconsistencies.",
+      "Comprehensive and insightful observations are made, and accurate, detailed data is collected systematically."
+    ],
+    [
+      "No understanding of the cause-and-effect relationship is demonstrated.",
+      "A vague or inaccurate understanding of the cause-and-effect relationship is demonstrated.",
+      "A basic understanding of the cause-and-effect relationship is demonstrated, but with significant gaps.",
+      "A general understanding of the cause-and-effect relationship is demonstrated with some connections made.",
+      "A clear understanding of the cause-and-effect relationship is demonstrated with supporting evidence.",
+      "A sophisticated understanding of the cause-and-effect relationship is demonstrated with detailed explanations and examples."
+    ],
+    [
+      "No attempt to plan or carry out an investigation.",
+      "An attempt to plan an investigation is made, but it is incomplete or flawed.",
+      "A basic investigation is carried out, but it is poorly planned and executed.",
+      "A reasonably well-planned investigation is carried out, but with some weaknesses in execution.",
+      "A well-planned and executed investigation is carried out, with only minor flaws.",
+      "A skillfully planned and executed investigation is carried out, demonstrating a thorough understanding of scientific methods."
+    ]
+  ]
+}

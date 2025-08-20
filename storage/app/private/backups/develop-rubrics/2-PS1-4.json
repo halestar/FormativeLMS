@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity of Argument",
+    "Understanding of Reversible and Irreversible Changes",
+    "Use of Scientific Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The argument is unclear, lacks a discernible claim, and provides no relevant evidence.",
+      "The argument presents a claim, but it is vague or unclear. Evidence is limited and not clearly connected to the claim.",
+      "The argument presents a somewhat clear claim with some evidence, but the connection between the two is not always evident.",
+      "The argument presents a clear claim supported by relevant evidence. The connection between the claim and evidence is mostly clear.",
+      "The argument presents a clear and logical claim supported by strong evidence. The connection between the claim and evidence is clear and well-explained.",
+      "The argument is exceptionally clear, logical, and compelling, supported by comprehensive evidence and insightful explanations."
+    ],
+    [
+      "Demonstrates no understanding of reversible and irreversible changes or provides inaccurate examples.",
+      "Demonstrates a limited understanding of reversible and irreversible changes with some inaccurate examples.",
+      "Demonstrates a basic understanding of reversible and irreversible changes, but the examples provided are not always appropriate.",
+      "Demonstrates a good understanding of reversible and irreversible changes and provides appropriate examples.",
+      "Demonstrates a strong understanding of reversible and irreversible changes, providing clear and accurate examples, and explaining the differences between them.",
+      "Demonstrates an exceptional understanding of reversible and irreversible changes, providing insightful examples and explaining the underlying mechanisms that differentiate them."
+    ],
+    [
+      "Argument lacks scientific reasoning and does not connect to cause-and-effect relationships.",
+      "Argument shows a limited attempt to use scientific reasoning, but the connection to cause-and-effect is weak.",
+      "Argument uses some scientific reasoning, but the connection to cause-and-effect is not always clear or accurate.",
+      "Argument effectively uses scientific reasoning to explain cause-and-effect relationships in the context of heating and cooling.",
+      "Argument demonstrates a strong understanding of scientific reasoning and clearly explains the cause-and-effect relationships with supporting details.",
+      "Argument demonstrates an exceptional grasp of scientific reasoning, providing insightful analysis of cause-and-effect relationships, and offering nuanced perspectives."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Religious Intolerance Incidents",
+    "Accuracy and Factual Correctness",
+    "Contextual Understanding"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No incidents of religious intolerance are identified.",
+      "Student identifies one incident of religious intolerance with limited accuracy.",
+      "Student identifies two incidents of religious intolerance with some inaccuracies or omissions.",
+      "Student identifies three incidents of religious intolerance with reasonable accuracy and detail.",
+      "Student identifies four incidents of religious intolerance with good accuracy, providing some context.",
+      "Student identifies multiple (five or more) incidents of religious intolerance accurately and provides detailed context for each."
+    ],
+    [
+      "Information presented is largely inaccurate or fabricated.",
+      "Information contains significant factual errors or relies on unreliable sources.",
+      "Information contains some factual errors or relies on sources of questionable reliability.",
+      "Information is mostly accurate with minor errors; sources are generally reliable.",
+      "Information is accurate and factually correct; sources are reliable and properly cited.",
+      "Information is consistently accurate, well-researched, and demonstrates a strong command of the historical facts."
+    ],
+    [
+      "Demonstrates no understanding of the historical context surrounding the incidents.",
+      "Demonstrates minimal understanding of the historical context; explanations are superficial.",
+      "Demonstrates some understanding of the historical context but lacks depth or nuance.",
+      "Demonstrates a reasonable understanding of the historical context, explaining contributing factors.",
+      "Demonstrates a strong understanding of the historical context, connecting incidents to broader social and political trends.",
+      "Demonstrates a comprehensive understanding of the historical context, analyzing the complex causes and consequences of religious intolerance."
+    ]
+  ]
+}

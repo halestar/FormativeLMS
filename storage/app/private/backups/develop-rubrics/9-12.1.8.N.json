@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Prevalence of Unhealthy Eating: Assesses the student's ability to describe how common unhealthy eating habits are.",
+    "Identification of Causes of Unhealthy Eating: Evaluates the student's knowledge of the factors contributing to unhealthy eating habits.",
+    "Explanation of Long-Term Consequences: Assesses the student's ability to articulate the health outcomes associated with prolonged unhealthy eating habits."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the prevalence of unhealthy eating.",
+      "Shows a very limited understanding of how common unhealthy eating is; struggles to provide any relevant details.",
+      "Displays a basic understanding of the prevalence of unhealthy eating, but lacks depth and specific examples.",
+      "Adequately describes the prevalence of unhealthy eating with some supporting details and examples.",
+      "Clearly and accurately describes the prevalence of unhealthy eating, providing relevant statistics or examples to illustrate the scope of the issue.",
+      "Demonstrates a comprehensive understanding of the prevalence of unhealthy eating, including nuanced insights and detailed supporting evidence."
+    ],
+    [
+      "Unable to identify any causes of unhealthy eating.",
+      "Identifies one or two basic causes of unhealthy eating with minimal explanation.",
+      "Identifies some causes of unhealthy eating, but the explanations are superficial or incomplete.",
+      "Describes several causes of unhealthy eating with reasonable explanations.",
+      "Clearly and accurately describes multiple causes of unhealthy eating, providing insightful explanations and examples.",
+      "Demonstrates a thorough understanding of the complex causes of unhealthy eating, including social, economic, and psychological factors, with detailed explanations and supporting evidence."
+    ],
+    [
+      "Unable to describe any long-term consequences of unhealthy eating.",
+      "Mentions one or two general consequences of unhealthy eating with no elaboration.",
+      "Describes some long-term consequences of unhealthy eating, but the explanations are vague or lack detail.",
+      "Explains several long-term consequences of unhealthy eating with some supporting information.",
+      "Clearly and accurately explains multiple long-term consequences of unhealthy eating, providing specific examples and details.",
+      "Demonstrates a comprehensive understanding of the long-term consequences of unhealthy eating, including specific health conditions, potential severity, and relevant research or data."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Selection and Proper Use of Protective Gear",
+    "Awareness of Risks and Safety Procedures",
+    "Maintenance and Storage of Equipment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify or use any protective gear or equipment.",
+      "Student identifies some protective gear but does not use it or uses it incorrectly.",
+      "Student identifies and attempts to use protective gear, but demonstrates significant errors in usage.",
+      "Student generally selects and uses appropriate protective gear and equipment but may have minor errors or omissions.",
+      "Student consistently selects and correctly uses appropriate protective gear and equipment with only minor oversights.",
+      "Student expertly selects and uses all appropriate protective gear and equipment, demonstrating a comprehensive understanding of safety protocols."
+    ],
+    [
+      "Student demonstrates no awareness of potential risks or safety procedures.",
+      "Student shows minimal awareness of risks and safety procedures, unable to articulate or apply them.",
+      "Student acknowledges some risks and safety procedures but struggles to apply them effectively.",
+      "Student demonstrates a general awareness of risks and safety procedures, applying them with some consistency.",
+      "Student consistently demonstrates a strong awareness of risks and safety procedures, applying them effectively in most situations.",
+      "Student comprehensively understands risks and safety procedures, proactively applies them, and can explain the rationale behind them."
+    ],
+    [
+      "Student shows no understanding of proper equipment maintenance or storage.",
+      "Student demonstrates a limited understanding of maintenance and storage, with no practical application.",
+      "Student attempts basic maintenance and storage but makes significant errors.",
+      "Student generally maintains and stores equipment properly, with some minor oversights.",
+      "Student consistently maintains and stores equipment according to guidelines, ensuring its longevity and safety.",
+      "Student expertly maintains and stores equipment, demonstrating a deep understanding of its care and contributing to a safe environment for all."
+    ]
+  ]
+}

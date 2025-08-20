@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of the Speaker's Point of View",
+    "Evaluation of Reasoning",
+    "Analysis of Evidence and Rhetoric",
+    "Detection of Fallacious Reasoning and Distorted Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify the speaker's point of view.",
+      "Identifies the speaker's point of view inaccurately or incompletely.",
+      "Identifies the speaker's point of view but misses key nuances.",
+      "Clearly identifies the speaker's point of view with some supporting details.",
+      "Accurately identifies the speaker's point of view with comprehensive supporting details.",
+      "Insightfully identifies the speaker's point of view, demonstrating a deep understanding of its complexities and context."
+    ],
+    [
+      "Does not evaluate the speaker's reasoning.",
+      "Attempts to evaluate the speaker's reasoning, but the evaluation is unclear or irrelevant.",
+      "Provides a superficial evaluation of the speaker's reasoning.",
+      "Evaluates the speaker's reasoning, identifying some strengths and weaknesses.",
+      "Critically evaluates the speaker's reasoning, providing specific examples to support the evaluation.",
+      "Demonstrates a sophisticated understanding of the speaker's reasoning, offering insightful analysis and relevant examples."
+    ],
+    [
+      "Fails to analyze the speaker's use of evidence and rhetoric.",
+      "Attempts to analyze evidence and rhetoric but demonstrates a lack of understanding.",
+      "Provides a basic analysis of evidence and rhetoric, identifying some techniques.",
+      "Analyzes the speaker's use of evidence and rhetoric with some attention to detail.",
+      "Thoroughly analyzes the speaker's use of evidence and rhetoric, explaining their effects.",
+      "Offers a nuanced and insightful analysis of the speaker's use of evidence and rhetoric, demonstrating a strong command of rhetorical devices."
+    ],
+    [
+      "Does not identify any fallacious reasoning or distorted evidence.",
+      "Incorrectly identifies fallacious reasoning or distorted evidence.",
+      "Identifies fallacious reasoning or distorted evidence, but the explanation is unclear.",
+      "Identifies instances of fallacious reasoning or distorted evidence with basic explanations.",
+      "Clearly identifies and explains instances of fallacious reasoning or distorted evidence with supporting examples.",
+      "Demonstrates a keen ability to detect subtle instances of fallacious reasoning or distorted evidence, providing insightful analysis of their impact."
+    ]
+  ]
+}

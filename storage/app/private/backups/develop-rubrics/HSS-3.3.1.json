@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Historical Research",
+    "Identification of Explorers, Settlers, and Contemporary Groups",
+    "Description of Cultural and Religious Traditions",
+    "Analysis of Contributions to the Region"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No research is evident, or information presented is factually incorrect.",
+      "Research is minimal, with significant inaccuracies or omissions.",
+      "Research shows some effort but contains several inaccuracies or lacks depth.",
+      "Research is generally accurate, with minor inaccuracies or omissions.",
+      "Research is thorough and accurate, with only minor omissions.",
+      "Research is comprehensive, accurate, and demonstrates a deep understanding of historical sources."
+    ],
+    [
+      "Fails to identify any explorers, settlers, or contemporary groups.",
+      "Identifies only one group with minimal information.",
+      "Identifies at least two groups with limited information.",
+      "Identifies most of the relevant groups with basic information.",
+      "Identifies all relevant groups with detailed information.",
+      "Identifies all relevant groups with extensive details, demonstrating a nuanced understanding of their presence and impact."
+    ],
+    [
+      "No cultural or religious traditions are described.",
+      "Describes at least one tradition superficially.",
+      "Describes at least two traditions with limited detail.",
+      "Describes several traditions with some detail.",
+      "Describes multiple traditions with significant detail and context.",
+      "Provides comprehensive descriptions of cultural and religious traditions, demonstrating a deep understanding of their significance and impact."
+    ],
+    [
+      "No contributions are identified or discussed.",
+      "Identifies at least one contribution superficially.",
+      "Identifies at least two contributions with limited analysis.",
+      "Identifies several contributions with some analysis.",
+      "Identifies multiple contributions with detailed analysis and examples.",
+      "Provides a comprehensive analysis of contributions, demonstrating a nuanced understanding of their lasting impact on the region."
+    ]
+  ]
+}

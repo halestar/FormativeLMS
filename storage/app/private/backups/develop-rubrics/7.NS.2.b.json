@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Rational Numbers",
+    "Applying Multiplication and Division to Rational Numbers",
+    "Interpreting Quotients in Real-World Contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of rational numbers or their representation.",
+      "Student can identify integers but struggles with representing fractions as rational numbers.",
+      "Student can represent simple fractions as rational numbers but struggles with negative fractions and complex quotients.",
+      "Student understands that integers can be divided (except by zero) and represented as rational numbers but struggles to explain the relationship between -(p\/q), (-p)\/q, and p\/(-q).",
+      "Student demonstrates a solid understanding of representing integers and fractions as rational numbers. Student explains the equivalence of -(p\/q), (-p)\/q, and p\/(-q).",
+      "Student demonstrates a comprehensive understanding of rational numbers. Student clearly explains and justifies the equivalence of different representations of negative rational numbers (-(p\/q), (-p)\/q, and p\/(-q))."
+    ],
+    [
+      "Student is unable to perform multiplication or division with rational numbers.",
+      "Student can perform multiplication and division with simple positive rational numbers but struggles with negative numbers and fractions.",
+      "Student can perform multiplication and division with positive and negative rational numbers but makes frequent errors in calculations.",
+      "Student can perform multiplication and division with rational numbers but struggles with complex problems involving multiple operations.",
+      "Student accurately performs multiplication and division with rational numbers, including complex problems. Student can estimate the relative size of numbers.",
+      "Student demonstrates fluency and accuracy in multiplying and dividing rational numbers, including complex problems with multiple operations. Student shows estimation skills."
+    ],
+    [
+      "Student cannot interpret quotients of rational numbers in real-world contexts.",
+      "Student attempts to interpret quotients but provides inaccurate or nonsensical explanations.",
+      "Student can interpret simple quotients in real-world contexts but struggles with negative numbers and complex scenarios.",
+      "Student interprets quotients of rational numbers in real-world contexts but struggles to provide clear and accurate explanations.",
+      "Student provides accurate and relevant interpretations of quotients of rational numbers in various real-world contexts. Student can verbalize the impact of dividing by various numbers.",
+      "Student demonstrates a deep understanding of quotients of rational numbers and can provide insightful and nuanced interpretations in complex real-world contexts. Student can create novel examples."
+    ]
+  ]
+}

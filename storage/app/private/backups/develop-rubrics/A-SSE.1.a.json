@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Correctly identifies terms, factors, and coefficients in linear expressions.",
+    "Correctly identifies terms, factors, and coefficients in polynomial expressions.",
+    "Correctly identifies terms, factors, and coefficients in rational expressions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify terms, factors, or coefficients.",
+      "Identifies at least one term, factor, or coefficient incorrectly.",
+      "Identifies at least one term, factor, or coefficient correctly, but has trouble with at least one other.",
+      "Correctly identifies terms, factors, and coefficients, but struggles to explain their role in the expression.",
+      "Correctly identifies terms, factors, and coefficients and explains their role in the expression.",
+      "Correctly identifies terms, factors, and coefficients, explains their role in the expression, and can use the information to explain the characteristics of the expression."
+    ],
+    [
+      "Does not identify terms, factors, or coefficients.",
+      "Identifies at least one term, factor, or coefficient incorrectly.",
+      "Identifies at least one term, factor, or coefficient correctly, but has trouble with at least one other.",
+      "Correctly identifies terms, factors, and coefficients, but struggles to explain their role in the expression.",
+      "Correctly identifies terms, factors, and coefficients and explains their role in the expression.",
+      "Correctly identifies terms, factors, and coefficients, explains their role in the expression, and can use the information to explain the characteristics of the expression."
+    ],
+    [
+      "Does not identify terms, factors, or coefficients.",
+      "Identifies at least one term, factor, or coefficient incorrectly.",
+      "Identifies at least one term, factor, or coefficient correctly, but has trouble with at least one other.",
+      "Correctly identifies terms, factors, and coefficients, but struggles to explain their role in the expression.",
+      "Correctly identifies terms, factors, and coefficients and explains their role in the expression.",
+      "Correctly identifies terms, factors, and coefficients, explains their role in the expression, and can use the information to explain the characteristics of the expression."
+    ]
+  ]
+}

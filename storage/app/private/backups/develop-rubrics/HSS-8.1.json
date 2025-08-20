@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Key Events: Demonstrates knowledge of major events leading to the founding of the U.S.",
+    "Relating Events to Constitutional Democracy: Connects historical events to the development of American constitutional democracy.",
+    "Clarity and Coherence: Presents information in a clear, organized, and coherent manner."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of any events leading up to the founding of the U.S.",
+      "Can recall one major event with significant inaccuracies.",
+      "Identifies one or two major events but struggles to explain their significance.",
+      "Identifies several major events and provides a basic explanation of their significance.",
+      "Clearly identifies and explains the significance of multiple major events, demonstrating a solid understanding.",
+      "Demonstrates a comprehensive understanding of numerous major events, explaining their complex significance and interrelation with insightful detail."
+    ],
+    [
+      "Does not attempt to connect historical events to the development of American constitutional democracy.",
+      "Makes a vague or inaccurate attempt to connect events to American constitutional democracy.",
+      "Identifies a superficial connection between events and American constitutional democracy.",
+      "Explains a clear connection between historical events and specific aspects of American constitutional democracy.",
+      "Analyzes how historical events significantly influenced the key principles and structures of American constitutional democracy.",
+      "Provides a nuanced and insightful analysis of how historical events shaped the evolution of American constitutional democracy, considering various perspectives and long-term consequences."
+    ],
+    [
+      "Information is presented in a disorganized and incomprehensible manner.",
+      "Presentation lacks clarity and coherence, making it difficult to follow.",
+      "Presents information with some organization, but clarity and coherence are limited.",
+      "Presents information in a generally clear and organized manner with reasonable coherence.",
+      "Presents information clearly, logically, and coherently, enhancing understanding.",
+      "Presents information with exceptional clarity, organization, and coherence, creating a compelling and insightful narrative."
+    ]
+  ]
+}

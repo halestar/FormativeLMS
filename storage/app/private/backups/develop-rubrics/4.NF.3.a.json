@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Fractions as Sums of Unit Fractions",
+    "Addition and Subtraction of Fractions with Like Denominators",
+    "Application of Fraction Concepts to Real-World Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of fractions as sums of unit fractions.",
+      "Student can identify simple unit fractions but struggles to represent fractions as a sum of unit fractions.",
+      "Student can represent some fractions as sums of unit fractions but makes frequent errors or struggles with more complex fractions.",
+      "Student can represent most fractions as sums of unit fractions, with occasional errors.",
+      "Student can accurately represent fractions as sums of unit fractions and explains the concept clearly.",
+      "Student demonstrates a deep understanding of fractions as sums of unit fractions, can apply this understanding to complex problems, and explains the concept with precision and clarity."
+    ],
+    [
+      "Student is unable to add or subtract fractions, even with like denominators.",
+      "Student struggles to add or subtract fractions with like denominators and makes frequent errors.",
+      "Student can add and subtract simple fractions with like denominators but struggles with more complex problems.",
+      "Student can accurately add and subtract fractions with like denominators, with occasional errors in simplification.",
+      "Student can accurately add and subtract fractions with like denominators and simplify the results correctly.",
+      "Student demonstrates fluency in adding and subtracting fractions with like denominators, can solve complex problems, and explains the process clearly and concisely."
+    ],
+    [
+      "Student cannot apply fraction concepts to solve real-world problems.",
+      "Student struggles to apply fraction concepts to real-world problems and is unable to set up the problem correctly.",
+      "Student can apply fraction concepts to solve simple real-world problems but struggles with more complex scenarios.",
+      "Student can apply fraction concepts to solve most real-world problems, with occasional errors in calculations or reasoning.",
+      "Student can accurately apply fraction concepts to solve real-world problems and provides clear explanations of their reasoning.",
+      "Student demonstrates a strong ability to apply fraction concepts to solve complex real-world problems, providing clear, concise, and accurate solutions."
+    ]
+  ]
+}

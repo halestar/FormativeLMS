@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to Differentiate Between Valid and Invalid Sources",
+    "Comprehension of Source Reliability",
+    "Application of Knowledge to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any valid sources of information regarding alcohol, tobacco, and other drugs.",
+      "Student struggles to differentiate between valid and invalid sources and provides inaccurate information.",
+      "Student can identify some valid sources but needs prompting and guidance to distinguish them from invalid sources.",
+      "Student demonstrates a basic understanding of valid sources and can identify them with minimal assistance.",
+      "Student confidently identifies valid sources of information and can explain why they are reliable.",
+      "Student expertly identifies and evaluates a wide range of valid sources, explaining their reliability with depth and insight."
+    ],
+    [
+      "Student shows no understanding of what makes a source reliable or unreliable.",
+      "Student has a limited understanding of source reliability and struggles to articulate the characteristics of a reliable source.",
+      "Student can identify some characteristics of a reliable source but needs prompting to fully explain them.",
+      "Student demonstrates a general understanding of source reliability and can explain some key characteristics.",
+      "Student clearly articulates the characteristics of a reliable source and provides examples to support their explanation.",
+      "Student demonstrates a deep and nuanced understanding of source reliability, considering multiple factors and perspectives."
+    ],
+    [
+      "Student cannot apply their knowledge of valid sources to real-world scenarios involving alcohol, tobacco, and other drugs.",
+      "Student struggles to apply their knowledge and provides inaccurate or irrelevant information in real-world scenarios.",
+      "Student can apply their knowledge to some real-world scenarios but needs guidance to make connections.",
+      "Student demonstrates the ability to apply their knowledge to real-world scenarios with minimal assistance.",
+      "Student confidently applies their knowledge to real-world scenarios and provides accurate and relevant information.",
+      "Student expertly applies their knowledge to a variety of complex real-world scenarios, demonstrating critical thinking and problem-solving skills."
+    ]
+  ]
+}

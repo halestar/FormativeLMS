@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Geoscience Processes",
+    "Explanation of Earth's Surface Changes",
+    "Use of Evidence",
+    "Consideration of Time and Spatial Scales"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of geoscience processes is demonstrated.",
+      "Demonstrates minimal understanding of geoscience processes. Explanation lacks detail and accuracy.",
+      "Demonstrates some understanding of geoscience processes. Explanation is partially accurate but lacks depth.",
+      "Demonstrates a satisfactory understanding of geoscience processes. Explanation is generally accurate and includes some relevant details.",
+      "Demonstrates a strong understanding of geoscience processes. Explanation is accurate, detailed, and includes relevant examples.",
+      "Demonstrates a comprehensive and insightful understanding of geoscience processes. Explanation is accurate, detailed, and includes insightful examples and connections to real-world phenomena."
+    ],
+    [
+      "No explanation of how geoscience processes change Earth's surface is provided.",
+      "Explanation of Earth's surface changes is unclear and lacks supporting evidence.",
+      "Explanation of Earth's surface changes is basic and partially supported by evidence.",
+      "Explanation of Earth's surface changes is clear and supported by relevant evidence.",
+      "Explanation of Earth's surface changes is detailed and well-supported by strong evidence.",
+      "Explanation of Earth's surface changes is comprehensive, insightful, and supported by compelling evidence, demonstrating a deep understanding of the interconnections."
+    ],
+    [
+      "No evidence is presented to support the explanation.",
+      "Minimal evidence is presented, and its relevance is questionable.",
+      "Some evidence is presented, but its connection to the explanation is not always clear.",
+      "Relevant evidence is presented to support the explanation.",
+      "Strong and relevant evidence is presented to effectively support the explanation.",
+      "Compelling and comprehensive evidence is used to support the explanation, demonstrating a sophisticated understanding of the scientific concepts."
+    ],
+    [
+      "Time and spatial scales are not considered in the explanation.",
+      "Time and spatial scales are mentioned but not adequately explained or integrated.",
+      "Time and spatial scales are considered, but the explanation lacks depth.",
+      "Time and spatial scales are appropriately considered in the explanation.",
+      "Time and spatial scales are well-integrated into the explanation, demonstrating a good understanding of their importance.",
+      "Time and spatial scales are expertly integrated into the explanation, demonstrating a comprehensive understanding of their influence on geoscience processes."
+    ]
+  ]
+}

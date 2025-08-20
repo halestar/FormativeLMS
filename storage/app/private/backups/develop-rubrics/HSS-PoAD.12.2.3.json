@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Legal Obligations",
+    "Clarity and Accuracy",
+    "Connection to Democratic Citizenship"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of individual legal obligations.",
+      "Shows minimal understanding of one legal obligation (obeying the law, serving as a juror, or paying taxes).",
+      "Identifies at least two legal obligations but lacks depth in explanation.",
+      "Explains three legal obligations, but with limited detail or accuracy.",
+      "Clearly explains three legal obligations with accurate details and examples.",
+      "Provides a comprehensive and nuanced explanation of three legal obligations, including the rationale behind them and potential consequences of non-compliance."
+    ],
+    [
+      "Information presented is unclear, inaccurate, or irrelevant.",
+      "Information is presented with significant inaccuracies or lacks clarity.",
+      "Information is mostly accurate but lacks clarity in some areas.",
+      "Information is clear and mostly accurate, but could benefit from further detail.",
+      "Information is clear, accurate, and well-organized.",
+      "Information is exceptionally clear, accurate, well-organized, and demonstrates a sophisticated understanding of the topic."
+    ],
+    [
+      "Fails to connect legal obligations to the broader context of democratic citizenship.",
+      "Makes a weak or unclear connection between legal obligations and democratic citizenship.",
+      "Identifies a link between legal obligations and democratic citizenship but lacks elaboration.",
+      "Explains how legal obligations contribute to the functioning of a democratic society.",
+      "Clearly articulates how fulfilling legal obligations strengthens democratic citizenship and societal well-being.",
+      "Offers a sophisticated analysis of the reciprocal relationship between individual legal obligations and the health and stability of a democratic society."
+    ]
+  ]
+}

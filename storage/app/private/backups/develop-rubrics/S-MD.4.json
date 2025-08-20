@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Probability Distribution",
+    "Calculation of Expected Value",
+    "Application to Problem Solving",
+    "Interpretation and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of probability distributions.",
+      "Student shows minimal understanding of probability distributions; struggles to identify components.",
+      "Student shows basic understanding of probability distributions but has difficulty applying it.",
+      "Student shows a clear understanding of probability distributions and can apply it to simple problems.",
+      "Student demonstrates a strong understanding of probability distributions and can apply it effectively.",
+      "Student demonstrates a comprehensive understanding of probability distributions, can apply it to complex problems, and can explain the concepts clearly."
+    ],
+    [
+      "Student is unable to calculate expected values.",
+      "Student struggles to calculate expected values and makes significant errors.",
+      "Student can calculate expected values in simple scenarios with some errors.",
+      "Student accurately calculates expected values in most scenarios.",
+      "Student consistently and accurately calculates expected values in various scenarios.",
+      "Student flawlessly calculates expected values, can explain the process, and can identify potential sources of error."
+    ],
+    [
+      "Student cannot apply expected values to solve problems.",
+      "Student struggles to apply expected values to problem-solving and makes significant errors.",
+      "Student can apply expected values to solve simple problems with some guidance.",
+      "Student can apply expected values to solve problems accurately.",
+      "Student can effectively apply expected values to solve a variety of problems.",
+      "Student expertly applies expected values to solve complex problems and can interpret the results in a meaningful way."
+    ],
+    [
+      "Student is unable to interpret or communicate the results of expected value calculations.",
+      "Student struggles to interpret or communicate the results of expected value calculations.",
+      "Student can provide a basic interpretation of expected value calculations.",
+      "Student clearly interprets and communicates the results of expected value calculations.",
+      "Student provides insightful interpretations and communicates results effectively.",
+      "Student expertly interprets, communicates, and contextualizes the results of expected value calculations, providing valuable insights."
+    ]
+  ]
+}

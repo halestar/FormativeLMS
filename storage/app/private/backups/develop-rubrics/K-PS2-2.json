@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Data Analysis and Interpretation",
+    "Understanding of Forces and Motion Principles",
+    "Application of Engineering Design Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to analyze data or interpret results related to changes in speed or direction.",
+      "Identifies some data points but struggles to relate them to changes in speed or direction caused by pushes or pulls. Interpretation is minimal.",
+      "Analyzes data with limited success, identifying basic relationships between forces and changes in motion. Interpretation lacks depth and clarity.",
+      "Analyzes data to determine how a design solution attempts to change the speed or direction of an object. Interpretation is generally accurate but could benefit from more detail.",
+      "Effectively analyzes data to determine how a design solution changes the speed or direction of an object with a push or pull. Interpretation is clear and supported by evidence from the data.",
+      "Thoroughly analyzes data to determine how a design solution effectively changes the speed or direction of an object with a push or pull. Provides a comprehensive and insightful interpretation, demonstrating a strong understanding of cause and effect."
+    ],
+    [
+      "Demonstrates no understanding of forces and motion principles.",
+      "Shows a minimal understanding of forces and motion, confusing pushes and pulls or their effects on objects.",
+      "Identifies forces and motion principles but struggles to explain their relationship to changes in speed or direction.",
+      "Explains how pushes and pulls can change the speed or direction of an object, but lacks depth in explaining the underlying principles.",
+      "Clearly explains how pushes and pulls can change the speed or direction of an object, demonstrating a solid understanding of forces and motion principles.",
+      "Demonstrates a deep and nuanced understanding of how pushes and pulls affect an object's speed and direction, accurately applying forces and motion principles to the analysis."
+    ],
+    [
+      "Shows no understanding of engineering design principles or their application to solving a problem.",
+      "Attempts to relate the design solution to the problem, but lacks a clear understanding of engineering design principles.",
+      "Identifies the design solution and its intended effect but struggles to explain the engineering principles behind it.",
+      "Explains how the design solution attempts to solve the problem by changing the speed or direction of an object, demonstrating a basic understanding of engineering design.",
+      "Clearly explains how the design solution addresses the problem and effectively changes the speed or direction of an object, demonstrating a strong application of engineering design principles.",
+      "Demonstrates a comprehensive understanding of engineering design, thoroughly explaining how the design solution solves the problem and optimizes changes in speed or direction. Critically evaluates the solution's effectiveness."
+    ]
+  ]
+}

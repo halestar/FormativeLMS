@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Fraction Division Concepts",
+    "Accuracy in Computation",
+    "Application to Word Problems",
+    "Use of Visual Fraction Models and Equations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of fraction division concepts.  Unable to explain or apply the concept of dividing fractions.",
+      "Student demonstrates a limited understanding of fraction division.  Struggles to explain or apply the concept, even with assistance.",
+      "Student demonstrates a partial understanding of fraction division. Can perform simple calculations with significant errors or requires prompting.",
+      "Student demonstrates a satisfactory understanding of fraction division. Can perform calculations with some errors and can explain the concept with prompting.",
+      "Student demonstrates a strong understanding of fraction division. Can accurately perform calculations and explain the concept clearly.",
+      "Student demonstrates a comprehensive understanding of fraction division. Can accurately perform calculations, explain the concept clearly, and apply it to novel situations."
+    ],
+    [
+      "Student makes numerous errors in fraction division calculations, indicating a lack of procedural fluency.",
+      "Student makes frequent errors in fraction division calculations, demonstrating a weak grasp of the procedure.",
+      "Student makes some errors in fraction division calculations, but shows some understanding of the procedure.",
+      "Student makes occasional errors in fraction division calculations, but generally demonstrates competence.",
+      "Student makes few errors in fraction division calculations, demonstrating a high level of accuracy.",
+      "Student makes no errors in fraction division calculations, demonstrating mastery of the procedure."
+    ],
+    [
+      "Student is unable to apply fraction division to solve word problems. Cannot identify the operation needed or set up the problem correctly.",
+      "Student struggles to apply fraction division to solve word problems. May identify the correct operation but has difficulty setting up the problem.",
+      "Student can apply fraction division to solve simple word problems with significant errors.  Requires significant guidance.",
+      "Student can apply fraction division to solve most word problems with some errors.  Can set up the problem correctly with some assistance.",
+      "Student can apply fraction division to solve word problems accurately. Can set up the problem correctly and arrive at the correct solution.",
+      "Student can apply fraction division to solve complex word problems accurately and efficiently. Can explain their reasoning clearly and justify their solution."
+    ],
+    [
+      "Student does not use visual fraction models or equations to represent fraction division problems.",
+      "Student attempts to use visual fraction models or equations, but they are inaccurate or do not represent the problem correctly.",
+      "Student uses visual fraction models or equations with some accuracy, but they may be incomplete or unclear.",
+      "Student uses visual fraction models or equations effectively to represent fraction division problems, but there may be minor errors.",
+      "Student uses visual fraction models or equations accurately and effectively to represent fraction division problems.",
+      "Student uses visual fraction models or equations creatively and effectively to represent and solve fraction division problems, demonstrating a deep understanding of the concepts."
+    ]
+  ]
+}

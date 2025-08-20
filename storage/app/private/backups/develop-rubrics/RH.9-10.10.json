@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Reading Comprehension of complex texts",
+    "Ability to Independently Read and Understand",
+    "Proficiency in Reading and Understanding Texts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no comprehension of the text and is unable to identify key ideas or details.",
+      "Student demonstrates minimal comprehension of the text, struggling to identify key ideas and details. Shows significant difficulty with vocabulary and complex sentence structures.",
+      "Student demonstrates partial comprehension of the text, identifying some key ideas and details but missing others. Struggles with vocabulary and complex sentence structures impact comprehension.",
+      "Student demonstrates adequate comprehension of the text, identifying most key ideas and details with some accuracy. Shows some understanding of vocabulary and complex sentence structures.",
+      "Student demonstrates strong comprehension of the text, accurately identifying key ideas and details. Shows a good understanding of vocabulary and complex sentence structures.",
+      "Student demonstrates excellent comprehension of the text, accurately and insightfully identifying key ideas and details. Shows a sophisticated understanding of vocabulary and complex sentence structures, and can analyze the author's purpose and perspective."
+    ],
+    [
+      "Student requires significant support to access and understand the text. Cannot read independently at all.",
+      "Student requires frequent support to access and understand the text. Struggles to read independently for more than a few sentences.",
+      "Student requires occasional support to access and understand the text. Can read independently for short periods with some difficulty.",
+      "Student reads independently with minimal support, demonstrating the ability to access and understand the text most of the time.",
+      "Student reads independently with confidence, demonstrating the ability to access and understand the text with minimal effort.",
+      "Student reads independently with exceptional confidence and fluency, demonstrating a mastery of the ability to access and understand complex texts without any support."
+    ],
+    [
+      "Student is unable to demonstrate any level of proficiency in reading and understanding the text.",
+      "Student demonstrates very low proficiency in reading and understanding the text, struggling with basic vocabulary and comprehension.",
+      "Student demonstrates low proficiency in reading and understanding the text, with frequent errors in comprehension and interpretation.",
+      "Student demonstrates moderate proficiency in reading and understanding the text, with some errors but an overall grasp of the main ideas.",
+      "Student demonstrates high proficiency in reading and understanding the text, with few errors and a strong grasp of the main ideas and supporting details.",
+      "Student demonstrates exceptional proficiency in reading and understanding the text, with no errors and a sophisticated analysis of the author's purpose and techniques."
+    ]
+  ]
+}

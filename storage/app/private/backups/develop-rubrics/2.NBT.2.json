@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Ability to accurately count within 1000",
+    "Proficiency in skip-counting by 2s",
+    "Proficiency in skip-counting by 5s",
+    "Proficiency in skip-counting by 10s",
+    "Proficiency in skip-counting by 100s"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to count beyond 100 or makes frequent errors.",
+      "Student can count to 300 with some errors.",
+      "Student can count to 500 with occasional errors.",
+      "Student can accurately count to 700 with minimal errors.",
+      "Student can accurately count to 1000, but may hesitate or make a few corrections.",
+      "Student can fluently and accurately count to 1000 without any errors."
+    ],
+    [
+      "Student cannot skip-count by 2s or makes significant errors.",
+      "Student can skip-count by 2s up to 20 with many errors.",
+      "Student can skip-count by 2s up to 50 with some errors.",
+      "Student can skip-count by 2s up to 100 with minor errors.",
+      "Student can accurately skip-count by 2s beyond 100, but hesitates or makes a few corrections.",
+      "Student can fluently and accurately skip-count by 2s to a high number without any errors."
+    ],
+    [
+      "Student cannot skip-count by 5s or makes significant errors.",
+      "Student can skip-count by 5s up to 50 with many errors.",
+      "Student can skip-count by 5s up to 100 with some errors.",
+      "Student can skip-count by 5s up to 200 with minor errors.",
+      "Student can accurately skip-count by 5s beyond 200, but hesitates or makes a few corrections.",
+      "Student can fluently and accurately skip-count by 5s to a high number without any errors."
+    ],
+    [
+      "Student cannot skip-count by 10s or makes significant errors.",
+      "Student can skip-count by 10s up to 100 with many errors.",
+      "Student can skip-count by 10s up to 200 with some errors.",
+      "Student can skip-count by 10s up to 500 with minor errors.",
+      "Student can accurately skip-count by 10s beyond 500, but hesitates or makes a few corrections.",
+      "Student can fluently and accurately skip-count by 10s to a high number without any errors."
+    ],
+    [
+      "Student cannot skip-count by 100s or makes significant errors.",
+      "Student can skip-count by 100s up to 300 with many errors.",
+      "Student can skip-count by 100s up to 500 with some errors.",
+      "Student can skip-count by 100s up to 800 with minor errors.",
+      "Student can accurately skip-count by 100s to 1000, but hesitates or makes a few corrections.",
+      "Student can fluently and accurately skip-count by 100s to 1000 and beyond without any errors."
+    ]
+  ]
+}

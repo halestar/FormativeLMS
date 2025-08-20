@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Ordering Rational Numbers",
+    "Understanding of Absolute Value",
+    "Interpretation and Explanation of Order in Real-World Contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of ordering rational numbers.",
+      "Student can order simple rational numbers (e.g., integers) but struggles with fractions or decimals.",
+      "Student can order rational numbers, including fractions and decimals, but makes frequent errors or struggles with negative numbers.",
+      "Student can generally order rational numbers accurately, including negative numbers, fractions, and decimals, but may make occasional mistakes.",
+      "Student consistently orders rational numbers accurately and can explain the reasoning behind the order.",
+      "Student demonstrates a deep understanding of ordering rational numbers, including complex scenarios and can explain the reasoning clearly and concisely."
+    ],
+    [
+      "Student demonstrates no understanding of absolute value.",
+      "Student shows a limited understanding of absolute value as distance from zero but cannot apply it correctly.",
+      "Student can find the absolute value of simple numbers but struggles with applying it in context or with negative numbers.",
+      "Student can find the absolute value of most numbers and apply it in simple contexts, but may make occasional errors.",
+      "Student consistently and accurately finds the absolute value of numbers and applies it in various contexts.",
+      "Student demonstrates a thorough understanding of absolute value and can apply it to solve complex problems, explaining the concept clearly."
+    ],
+    [
+      "Student cannot interpret or explain statements of order for rational numbers in real-world contexts.",
+      "Student attempts to interpret statements of order but struggles to relate them to real-world scenarios.",
+      "Student can interpret simple statements of order in real-world contexts but provides incomplete or unclear explanations.",
+      "Student can interpret and explain statements of order in most real-world contexts with reasonable clarity.",
+      "Student clearly and accurately interprets and explains statements of order in a variety of real-world contexts.",
+      "Student provides insightful and comprehensive interpretations and explanations of statements of order in complex real-world contexts, demonstrating a strong connection between mathematical concepts and real-world applications."
+    ]
+  ]
+}

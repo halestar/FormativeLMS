@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Major Social Problems",
+    "Analysis of Domestic Policy Issues",
+    "Understanding of Social and Political Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any major social problems in contemporary American society.",
+      "Identifies one major social problem vaguely and without supporting details.",
+      "Identifies one or two major social problems with some supporting details, but lacks depth.",
+      "Identifies two or three major social problems with clear supporting details and explanation.",
+      "Identifies three or four major social problems with thorough supporting details, explanation, and connection to contemporary society.",
+      "Identifies multiple major social problems with comprehensive supporting details, insightful explanations, and clear connections to contemporary society, demonstrating a nuanced understanding."
+    ],
+    [
+      "Does not analyze any domestic policy issues in contemporary American society.",
+      "Attempts to analyze one domestic policy issue, but analysis is superficial and lacks supporting details.",
+      "Analyzes one or two domestic policy issues with some supporting details, but lacks depth and critical thinking.",
+      "Analyzes two or three domestic policy issues with clear supporting details and explanation of different perspectives.",
+      "Analyzes three or four domestic policy issues with thorough supporting details, explanation of different perspectives, and evaluation of policy effectiveness.",
+      "Analyzes multiple domestic policy issues with comprehensive supporting details, insightful explanations of different perspectives, critical evaluation of policy effectiveness, and proposes potential solutions, demonstrating a sophisticated understanding."
+    ],
+    [
+      "Demonstrates no understanding of the social and political context surrounding the problems and issues.",
+      "Demonstrates a limited understanding of the social or political context.",
+      "Demonstrates some understanding of the social and political context, but connections are not always clear.",
+      "Demonstrates a good understanding of the social and political context and makes clear connections to the problems and issues.",
+      "Demonstrates a strong understanding of the social and political context, making insightful connections and considering diverse perspectives.",
+      "Demonstrates a comprehensive understanding of the social and political context, making nuanced connections, considering diverse perspectives, and evaluating the impact of historical events and ideologies."
+    ]
+  ]
+}

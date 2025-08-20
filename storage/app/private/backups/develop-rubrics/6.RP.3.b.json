@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Ratios and Proportional Relationships",
+    "Application of Ratio and Rate Reasoning in Problem Solving",
+    "Use of Visual Models and Equations",
+    "Accuracy of Calculations and Solutions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of ratios, rates, or proportional relationships. Unable to identify or apply relevant concepts.",
+      "Student shows minimal understanding of ratios and proportional relationships. Struggles to identify them in problems and cannot apply them effectively.",
+      "Student demonstrates a basic understanding of ratios and proportional relationships but has difficulty applying them to solve problems accurately.",
+      "Student demonstrates a satisfactory understanding of ratios and proportional relationships. Can solve some problems correctly but may make occasional errors.",
+      "Student demonstrates a strong understanding of ratios and proportional relationships. Can accurately solve most problems and explain their reasoning.",
+      "Student demonstrates a comprehensive understanding of ratios and proportional relationships. Accurately solves complex problems, explains reasoning clearly, and can apply concepts to novel situations."
+    ],
+    [
+      "Student cannot apply ratio or rate reasoning to solve real-world problems. Unable to set up proportions or use other strategies.",
+      "Student attempts to apply ratio or rate reasoning but struggles to set up problems correctly. Makes significant errors in calculations and reasoning.",
+      "Student can sometimes apply ratio or rate reasoning to solve problems but needs assistance. Makes frequent errors and struggles to explain their steps.",
+      "Student generally applies ratio and rate reasoning correctly to solve problems. May make minor errors but demonstrates a reasonable understanding of the process.",
+      "Student consistently applies ratio and rate reasoning accurately to solve real-world problems. Shows clear steps and can explain their solutions effectively.",
+      "Student expertly applies ratio and rate reasoning to solve complex real-world problems. Demonstrates sophisticated problem-solving strategies and provides clear, insightful explanations."
+    ],
+    [
+      "Student does not use visual models (e.g., tables, diagrams) or equations to represent and solve problems involving ratios and rates.",
+      "Student attempts to use visual models or equations but does so incorrectly or ineffectively. Struggles to connect them to the problem context.",
+      "Student can use visual models or equations to represent simple ratio and rate problems but has difficulty with more complex situations.",
+      "Student uses visual models and equations appropriately to solve most ratio and rate problems. May occasionally struggle with more complex representations.",
+      "Student effectively uses visual models and equations to represent and solve a variety of ratio and rate problems. Explains the connections clearly.",
+      "Student creatively and effectively uses visual models and equations to solve complex ratio and rate problems. Demonstrates a deep understanding of the relationships between representations and solutions."
+    ],
+    [
+      "Student's calculations are consistently inaccurate, leading to incorrect solutions. Shows a lack of attention to detail.",
+      "Student makes frequent calculation errors, resulting in incorrect solutions. Struggles to check their work or correct mistakes.",
+      "Student makes occasional calculation errors that sometimes lead to incorrect solutions. Can correct some errors with guidance.",
+      "Student's calculations are generally accurate, leading to correct solutions in most cases. May make minor errors but can usually identify and correct them.",
+      "Student's calculations are consistently accurate, resulting in correct solutions. Shows attention to detail and can explain their process clearly.",
+      "Student's calculations are flawless, leading to correct and insightful solutions. Demonstrates mastery of computational skills and can explain their reasoning with precision."
+    ]
+  ]
+}

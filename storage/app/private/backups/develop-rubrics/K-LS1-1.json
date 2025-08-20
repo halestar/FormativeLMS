@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Basic Survival Needs",
+    "Understanding of Matter and Energy Flow",
+    "Observation and Pattern Recognition"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any survival needs for plants or animals.",
+      "Student identifies only one survival need, but it is vague or partially incorrect.",
+      "Student identifies two basic survival needs for either plants or animals, but lacks detail.",
+      "Student identifies basic survival needs (food, water, light) for both plants and animals with some accuracy.",
+      "Student accurately describes the basic survival needs for both plants and animals and provides a relevant example.",
+      "Student comprehensively explains the survival needs of plants and animals, providing detailed examples and explaining how these needs are met in different environments."
+    ],
+    [
+      "Student demonstrates no understanding of how organisms obtain matter and energy.",
+      "Student shows a limited understanding of matter and energy flow, with significant inaccuracies.",
+      "Student describes that animals need food and plants need light\/water, but does not connect it to energy or growth.",
+      "Student explains that animals obtain food from plants or other animals and plants need light and water for growth, but lacks detail on energy.",
+      "Student accurately explains how animals and plants obtain matter and energy, connecting food and light to growth and survival.",
+      "Student demonstrates a comprehensive understanding of matter and energy flow in organisms, explaining the relationship between food, light, growth, and survival with detailed examples."
+    ],
+    [
+      "Student does not use observations to identify any patterns in survival needs.",
+      "Student attempts to use observations but struggles to identify relevant patterns.",
+      "Student identifies simple patterns (e.g., animals eat), but cannot relate them to survival needs.",
+      "Student uses observations to describe a pattern related to survival needs (e.g., different animals eat different foods).",
+      "Student accurately describes patterns of survival needs based on observations and relates them to specific organisms.",
+      "Student analyzes observations to identify complex patterns in survival needs, providing evidence and explaining the underlying reasons for these patterns."
+    ]
+  ]
+}

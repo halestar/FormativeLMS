@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of School Policies",
+    "Understanding of Community Laws",
+    "Ability to Interpret Policies and Laws",
+    "Knowledge of Consequences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of school policies related to alcohol, tobacco, and illegal drugs.",
+      "Demonstrates a minimal understanding of school policies, with significant inaccuracies.",
+      "Demonstrates a basic understanding of school policies but misses key details or shows some inaccuracies.",
+      "Demonstrates a satisfactory understanding of school policies, with minor omissions or inaccuracies.",
+      "Demonstrates a strong understanding of school policies, with only minor errors.",
+      "Demonstrates a comprehensive and accurate understanding of school policies related to alcohol, tobacco, and illegal drugs."
+    ],
+    [
+      "Demonstrates no understanding of community laws related to alcohol, tobacco, and illegal drugs.",
+      "Demonstrates a minimal understanding of community laws, with significant inaccuracies.",
+      "Demonstrates a basic understanding of community laws but misses key details or shows some inaccuracies.",
+      "Demonstrates a satisfactory understanding of community laws, with minor omissions or inaccuracies.",
+      "Demonstrates a strong understanding of community laws, with only minor errors.",
+      "Demonstrates a comprehensive and accurate understanding of community laws related to alcohol, tobacco, and illegal drugs."
+    ],
+    [
+      "Unable to interpret school policies or community laws related to alcohol, tobacco, and illegal drugs.",
+      "Struggles to interpret school policies and community laws, with frequent errors.",
+      "Can interpret simple aspects of school policies and community laws but struggles with more complex elements.",
+      "Can interpret most aspects of school policies and community laws with occasional guidance.",
+      "Demonstrates a proficient ability to interpret school policies and community laws.",
+      "Demonstrates an exceptional ability to interpret school policies and community laws, providing insightful analysis."
+    ],
+    [
+      "Shows no awareness of the consequences of violating school policies and community laws.",
+      "Shows limited awareness of the consequences, with significant misunderstandings.",
+      "Shows basic awareness of some consequences but lacks detail and accuracy.",
+      "Shows a satisfactory understanding of the consequences, with minor omissions.",
+      "Shows a strong understanding of the consequences of violating these policies and laws.",
+      "Demonstrates a comprehensive and nuanced understanding of the consequences of violating school policies and community laws."
+    ]
+  ]
+}

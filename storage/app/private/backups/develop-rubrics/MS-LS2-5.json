@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Evaluating Design Solutions",
+    "Understanding of Biodiversity and Ecosystem Services",
+    "Application of Scientific Evidence",
+    "Consideration of Constraints"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evaluation of design solutions is presented.",
+      "Offers a superficial evaluation of design solutions without clear criteria.",
+      "Evaluates design solutions based on limited criteria, lacking depth.",
+      "Evaluates design solutions using several relevant criteria, but may miss key considerations.",
+      "Provides a comprehensive evaluation of design solutions using well-defined and justified criteria.",
+      "Offers a nuanced and insightful evaluation of competing design solutions, considering scientific, economic, and social factors with exceptional clarity."
+    ],
+    [
+      "Demonstrates no understanding of biodiversity or ecosystem services.",
+      "Shows a minimal understanding of biodiversity or ecosystem services.",
+      "Identifies biodiversity and ecosystem services but struggles to explain their importance.",
+      "Explains the importance of biodiversity and ecosystem services in maintaining ecosystem health.",
+      "Demonstrates a thorough understanding of the role of biodiversity and ecosystem services, including their impact on humans.",
+      "Exhibits an advanced understanding of the complex interactions between biodiversity, ecosystem services, and human well-being, including a discussion of potential consequences of biodiversity loss."
+    ],
+    [
+      "No scientific evidence is used to support claims.",
+      "Uses limited or irrelevant scientific evidence.",
+      "Applies some scientific evidence, but the connection to the argument is weak.",
+      "Supports claims with appropriate scientific evidence and reasoning.",
+      "Effectively integrates scientific evidence to strengthen the evaluation of design solutions.",
+      "Masterfully synthesizes scientific evidence from multiple sources to construct a compelling and well-supported argument for the best design solution."
+    ],
+    [
+      "Fails to consider constraints on design solutions.",
+      "Acknowledges constraints but does not integrate them into the evaluation.",
+      "Considers some constraints, such as economic factors, but overlooks others.",
+      "Addresses scientific, economic, and social constraints in the evaluation of design solutions.",
+      "Analyzes the impact of various constraints on the feasibility and effectiveness of design solutions.",
+      "Provides a sophisticated analysis of the trade-offs between different constraints, demonstrating a deep understanding of the complexities of real-world design challenges."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Civil Society",
+    "Comparison of Government and Civil Society in Different Regimes",
+    "Clarity and Accuracy of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of what civil society is or its role in any type of government.",
+      "Student demonstrates a very limited understanding of civil society, with significant misconceptions about its nature or role.",
+      "Student demonstrates a basic understanding of civil society but struggles to articulate its function or importance in relation to government.",
+      "Student demonstrates a satisfactory understanding of civil society and can describe its general function in relation to government, though may lack depth.",
+      "Student demonstrates a strong understanding of civil society and clearly articulates its function and importance in relation to different forms of government.",
+      "Student demonstrates a comprehensive understanding of civil society, including its nuances and complexities, and expertly articulates its critical role in shaping and maintaining different forms of government."
+    ],
+    [
+      "Student is unable to compare the relationship between government and civil society in different regimes.",
+      "Student attempts to compare the relationship but demonstrates significant inaccuracies or a lack of understanding of the regimes.",
+      "Student makes a superficial comparison, identifying only basic differences without explaining the underlying reasons.",
+      "Student compares the relationship with some accuracy, identifying key differences and offering some explanation.",
+      "Student provides a clear and accurate comparison, explaining the key differences in the relationship and offering solid reasoning.",
+      "Student provides an insightful and nuanced comparison, demonstrating a deep understanding of the complexities of the relationship in different regimes and offering sophisticated reasoning."
+    ],
+    [
+      "Explanation is unclear, disorganized, and contains significant inaccuracies.",
+      "Explanation is difficult to follow, lacks organization, and contains several inaccuracies.",
+      "Explanation is somewhat clear but may lack organization or contain some inaccuracies.",
+      "Explanation is generally clear, organized, and accurate, with only minor issues.",
+      "Explanation is clear, well-organized, and accurate, demonstrating a strong grasp of the concepts.",
+      "Explanation is exceptionally clear, concise, well-organized, and accurate, demonstrating a mastery of the concepts."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to construct a two-way frequency table from given data.",
+    "Ability to interpret data within the two-way frequency table.",
+    "Ability to decide if events are independent using the two-way frequency table.",
+    "Ability to approximate conditional probabilities from the two-way frequency table."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to construct a two-way frequency table or the attempt is completely incorrect.",
+      "Student attempts to construct a two-way frequency table but makes significant errors in organization and data placement.",
+      "Student constructs a two-way frequency table with some errors in data placement or organization, but the table is partially functional.",
+      "Student constructs a mostly accurate two-way frequency table with only minor errors that do not significantly impact its utility.",
+      "Student accurately constructs a two-way frequency table with clear organization and correct data placement.",
+      "Student flawlessly constructs a two-way frequency table with exceptional organization, correct data placement, and clear labels."
+    ],
+    [
+      "Student is unable to interpret the data in the two-way frequency table.",
+      "Student attempts to interpret the data but demonstrates a lack of understanding of basic relationships within the table.",
+      "Student can identify some basic relationships within the table but struggles with more complex interpretations.",
+      "Student can interpret most relationships within the table accurately, but may struggle with conditional probabilities.",
+      "Student accurately interprets the data within the table, including relationships and basic conditional probabilities.",
+      "Student demonstrates a sophisticated understanding of the data, accurately interpreting complex relationships, conditional probabilities, and drawing insightful conclusions."
+    ],
+    [
+      "Student is unable to use the two-way frequency table to assess independence of events.",
+      "Student attempts to assess independence but shows no understanding of the criteria or calculations involved.",
+      "Student attempts to assess independence but struggles with the calculations or misinterprets the results.",
+      "Student can perform the calculations needed to assess independence but may struggle to articulate the conclusion.",
+      "Student correctly performs the calculations and clearly explains whether events are independent based on the table.",
+      "Student provides a comprehensive analysis of independence, including calculations, clear explanations, and a discussion of the limitations or assumptions involved."
+    ],
+    [
+      "Student is unable to approximate conditional probabilities from the table.",
+      "Student attempts to approximate conditional probabilities but demonstrates a fundamental misunderstanding of the concept.",
+      "Student can identify the relevant data for calculating conditional probabilities but makes errors in the calculations.",
+      "Student can approximate conditional probabilities with some accuracy, but may struggle with more complex scenarios.",
+      "Student accurately approximates conditional probabilities and clearly explains the process.",
+      "Student demonstrates a deep understanding of conditional probabilities, accurately approximating them in various scenarios and explaining the reasoning with precision."
+    ]
+  ]
+}

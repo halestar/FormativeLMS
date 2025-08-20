@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Ability to accurately acquire information from various sources in the target language.",
+    "Ability to effectively exchange information in the target language.",
+    "Ability to present information clearly and coherently in the target language.",
+    "Use of appropriate vocabulary and grammar in the target language."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No information is acquired or understood.",
+      "Struggles to understand basic information; relies heavily on assistance.",
+      "Understands some basic information with occasional errors and some reliance on assistance.",
+      "Generally understands information presented, with minor errors.",
+      "Accurately understands information from a variety of sources with minimal errors.",
+      "Demonstrates excellent comprehension of complex information from various sources; no errors."
+    ],
+    [
+      "Unable to exchange information in the target language.",
+      "Limited ability to exchange basic information; communication is difficult.",
+      "Can exchange some simple information with errors and hesitations.",
+      "Communicates adequately, but with noticeable errors that occasionally impede understanding.",
+      "Effectively exchanges information with few errors; communication is generally clear.",
+      "Communicates fluently and accurately, demonstrating a strong command of the target language."
+    ],
+    [
+      "Presentation is incomprehensible and disorganized.",
+      "Presentation is poorly organized and difficult to understand.",
+      "Presentation lacks clarity and coherence; difficult to follow.",
+      "Presentation is generally clear and organized with some minor issues.",
+      "Presents information clearly, coherently, and in an organized manner.",
+      "Presents information in a compelling, engaging, and highly organized manner with exceptional clarity."
+    ],
+    [
+      "Vocabulary and grammar are completely inaccurate and impede understanding.",
+      "Very limited vocabulary and grammar usage with frequent and significant errors.",
+      "Basic vocabulary and grammar are used, but with numerous errors.",
+      "Adequate vocabulary and grammar with some errors that do not significantly impede understanding.",
+      "Good vocabulary and grammar usage with few errors.",
+      "Excellent command of vocabulary and grammar; usage is accurate and sophisticated."
+    ]
+  ]
+}

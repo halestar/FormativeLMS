@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Comprehensiveness of the preventive health plan",
+    "Accuracy and relevance of health information",
+    "Feasibility and practicality of the plan",
+    "Personalization and individualization of the plan"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The plan is missing and does not address any preventive health measures.",
+      "The plan is very basic and includes only one or two preventive health measures.",
+      "The plan includes a few preventive health measures but lacks detail and depth.",
+      "The plan covers several important preventive health measures with some detail.",
+      "The plan is comprehensive, covering a wide range of preventive health measures with good detail and justification.",
+      "The plan is exceptionally comprehensive, covering a wide range of preventive health measures with excellent detail, justification, and personalized considerations."
+    ],
+    [
+      "The plan includes inaccurate or irrelevant health information.",
+      "The plan contains some inaccuracies or irrelevant information.",
+      "The plan contains mostly accurate and relevant information but may have minor flaws.",
+      "The plan includes accurate and relevant health information with only minor omissions.",
+      "The plan presents accurate, relevant, and well-researched health information.",
+      "The plan demonstrates an exceptional understanding of health information, presenting it accurately, relevantly, and with thorough research and proper citations."
+    ],
+    [
+      "The plan is completely unrealistic and impractical.",
+      "The plan includes elements that are largely unfeasible or impractical.",
+      "The plan has some feasibility issues and may not be easily implemented.",
+      "The plan is mostly feasible and practical with only minor challenges.",
+      "The plan is highly feasible and practical, taking into account real-world constraints.",
+      "The plan is exceptionally feasible and practical, demonstrating a deep understanding of real-world constraints and offering innovative solutions."
+    ],
+    [
+      "The plan is generic and shows no consideration for individual needs or circumstances.",
+      "The plan makes a minimal attempt to address individual needs or circumstances.",
+      "The plan includes some personalization but lacks depth and relevance.",
+      "The plan addresses individual needs and circumstances with reasonable consideration.",
+      "The plan is well-personalized, taking into account specific individual needs, preferences, and risk factors.",
+      "The plan is exceptionally personalized, demonstrating a deep understanding of individual needs, preferences, and risk factors, and tailoring recommendations accordingly."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Health Choices",
+    "Evaluation of Benefits",
+    "Application to Real-Life Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any health choices.",
+      "Identifies a health choice without further explanation.",
+      "Identifies a health choice and provides a basic explanation.",
+      "Identifies a health choice and provides a clear explanation of its potential impact.",
+      "Identifies multiple health choices and clearly explains their potential impacts.",
+      "Identifies multiple health choices, explains their potential impacts, and provides relevant examples or supporting evidence."
+    ],
+    [
+      "Does not evaluate any benefits of informed health choices.",
+      "Attempts to evaluate the benefits but lacks clarity or accuracy.",
+      "Provides a general evaluation of the benefits of informed health choices.",
+      "Provides a detailed evaluation of the benefits, including specific examples.",
+      "Provides a comprehensive evaluation of the benefits, considering multiple perspectives and factors.",
+      "Provides an insightful and nuanced evaluation of the benefits, demonstrating critical thinking and a deep understanding of the topic."
+    ],
+    [
+      "Does not apply the evaluation to real-life scenarios.",
+      "Attempts to apply the evaluation to a real-life scenario but lacks clarity or relevance.",
+      "Applies the evaluation to a real-life scenario with some explanation.",
+      "Applies the evaluation to a real-life scenario with a clear and detailed explanation.",
+      "Applies the evaluation to multiple real-life scenarios, demonstrating versatility and adaptability.",
+      "Applies the evaluation to complex real-life scenarios, demonstrating critical thinking and problem-solving skills."
+    ]
+  ]
+}

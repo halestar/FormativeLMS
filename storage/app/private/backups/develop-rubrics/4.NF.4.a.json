@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Fraction as Multiple of Unit Fraction",
+    "Applying Multiplication to Multiply Fraction by Whole Number",
+    "Visual Fraction Models"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of a fraction as a multiple of a unit fraction. Shows no attempt to relate the fraction to repeated addition of a unit fraction.",
+      "Student shows minimal understanding of a fraction as a multiple of a unit fraction. May attempt to represent the fraction but does so inaccurately or incompletely.",
+      "Student shows partial understanding of a fraction as a multiple of a unit fraction. Can represent the fraction as a sum of unit fractions, but struggles to connect it to multiplication.",
+      "Student understands a fraction as a multiple of a unit fraction. Can represent the fraction as repeated addition and begin to relate it to multiplication, but may have minor calculation errors.",
+      "Student demonstrates a solid understanding of a fraction as a multiple of a unit fraction. Accurately represents the fraction as both repeated addition and multiplication, with clear explanations.",
+      "Student demonstrates a comprehensive understanding of a fraction as a multiple of a unit fraction. Can fluently represent the fraction in multiple ways, accurately calculate, and explain the relationship between repeated addition and multiplication with precision."
+    ],
+    [
+      "Student cannot apply multiplication to find the product of a fraction and a whole number. No attempt to use multiplication strategies.",
+      "Student attempts to multiply a fraction by a whole number but demonstrates significant errors in understanding and application of multiplication principles.",
+      "Student shows some understanding of multiplying a fraction by a whole number. May use repeated addition correctly but struggles with converting to multiplication or simplifies incorrectly.",
+      "Student can multiply a fraction by a whole number with minor errors in calculation or simplification. Demonstrates understanding of the concept but needs refinement.",
+      "Student accurately multiplies a fraction by a whole number, showing clear understanding of the multiplication process and simplifying the result correctly.",
+      "Student fluently multiplies fractions by whole numbers, simplifying results accurately and efficiently. Demonstrates a strong understanding of the underlying mathematical principles and can apply them to complex problems."
+    ],
+    [
+      "No visual fraction model is present or the model is completely unrelated to the problem.",
+      "Visual fraction model is attempted, but is inaccurate and does not represent the fraction or multiplication problem correctly.",
+      "Visual fraction model is partially accurate, representing the fraction but not clearly showing the multiplication process or the result.",
+      "Visual fraction model is mostly accurate and represents the multiplication of a fraction by a whole number. May have minor inaccuracies or be slightly unclear.",
+      "Visual fraction model accurately and clearly represents the multiplication of a fraction by a whole number, showing the process and the resulting product.",
+      "Visual fraction model is exceptionally clear, precise, and insightful, providing a deep understanding of the multiplication of a fraction by a whole number. Model may extend beyond the basic problem to show further understanding or connections."
+    ]
+  ]
+}

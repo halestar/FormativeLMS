@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to derive the equation of a circle given its center and radius using the Pythagorean Theorem.",
+    "Skill in completing the square to find the center and radius of a circle from its equation.",
+    "Accuracy in identifying the center and radius from the derived equation or completed square form."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to derive the equation or demonstrates no understanding of the Pythagorean Theorem.",
+      "Attempts to use the Pythagorean Theorem but makes significant errors in application or derivation.",
+      "Derives the equation with some errors, indicating a partial understanding of the Pythagorean Theorem.",
+      "Derives the equation correctly with minor errors or omissions.",
+      "Accurately derives the equation of a circle using the Pythagorean Theorem with clear and logical steps.",
+      "Demonstrates a thorough understanding by deriving the equation efficiently and explaining the connection to the Pythagorean Theorem comprehensively."
+    ],
+    [
+      "No attempt to complete the square or demonstrates no understanding of the process.",
+      "Attempts to complete the square but makes significant algebraic errors.",
+      "Completes the square with some errors, indicating a partial understanding of the process.",
+      "Completes the square correctly with minor errors or omissions in finding the center and radius.",
+      "Accurately completes the square and correctly identifies the center and radius of the circle.",
+      "Demonstrates a thorough understanding by efficiently completing the square and explaining each step with precision."
+    ],
+    [
+      "Unable to identify the center or radius from any form of the equation.",
+      "Incorrectly identifies both the center and radius, showing a lack of understanding of their relationship to the equation.",
+      "Identifies either the center or the radius correctly, but not both.",
+      "Identifies both the center and radius with minor errors in sign or magnitude.",
+      "Accurately identifies the center and radius from the circle's equation.",
+      "Clearly and accurately identifies the center and radius, explaining their significance in the context of the circle's properties."
+    ]
+  ]
+}

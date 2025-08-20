@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Linear Equations",
+    "Identification of Non-Linear Functions",
+    "Interpretation of y = mx + b"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of linear equations or struggles to identify them.",
+      "Student shows limited understanding of linear equations, needing significant guidance to identify them.",
+      "Student can identify linear equations with some accuracy but struggles with providing justifications.",
+      "Student accurately identifies linear equations and provides basic justifications based on the form y = mx + b.",
+      "Student demonstrates a strong understanding of linear equations, justifying their identification with clear explanations of slope and y-intercept.",
+      "Student demonstrates a comprehensive understanding of linear equations, justifying their identification with clear explanations and connecting them to real-world scenarios."
+    ],
+    [
+      "Student cannot identify non-linear functions and struggles to differentiate them from linear equations.",
+      "Student shows limited ability to identify non-linear functions, requiring significant assistance.",
+      "Student can identify some non-linear functions but struggles to provide explanations.",
+      "Student identifies non-linear functions and provides basic explanations based on the shape of their graphs or equations.",
+      "Student accurately identifies non-linear functions and provides clear explanations, using examples like quadratic or exponential functions.",
+      "Student demonstrates a comprehensive understanding of non-linear functions, providing detailed explanations and connecting them to real-world applications."
+    ],
+    [
+      "Student cannot interpret the equation y = mx + b or explain its components.",
+      "Student shows limited ability to interpret the equation y = mx + b, needing significant guidance.",
+      "Student can identify some components of the equation y = mx + b but struggles with their meanings.",
+      "Student interprets the equation y = mx + b and explains the basic meanings of slope (m) and y-intercept (b).",
+      "Student accurately interprets the equation y = mx + b and provides detailed explanations of slope and y-intercept, including their significance.",
+      "Student demonstrates a comprehensive understanding of the equation y = mx + b, providing detailed explanations and connecting it to real-world scenarios and applications."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Accuracy of choosing the appropriate trigonometric function (sine or cosine) based on the periodic phenomenon.",
+    "Accuracy in determining and applying the amplitude of the trigonometric function to match the periodic phenomena.",
+    "Accuracy in determining and applying the frequency of the trigonometric function to match the periodic phenomena.",
+    "Accuracy in determining and applying the midline of the trigonometric function to match the periodic phenomena.",
+    "Overall correctness and completeness of the trigonometric function in modeling the periodic phenomenon."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to choose a trigonometric function or chooses an inappropriate function with no justification.",
+      "Chooses a trigonometric function (sine or cosine) but with no rationale.",
+      "Chooses a trigonometric function, but the rationale is superficial or incorrect.",
+      "Chooses an appropriate trigonometric function for the phenomenon, providing a basic rationale. May have minor flaws.",
+      "Correctly chooses an appropriate trigonometric function with a clear explanation of why it fits the phenomenon.",
+      "Demonstrates a sophisticated understanding of why the chosen trigonometric function accurately models the phenomenon with a detailed explanation."
+    ],
+    [
+      "Does not attempt to determine or apply amplitude.",
+      "Attempts to determine amplitude, but it is highly inaccurate and not applied correctly.",
+      "Calculates amplitude with significant errors, leading to a poor model.",
+      "Calculates amplitude with minor errors that slightly affect the accuracy of the model.",
+      "Accurately determines and applies the amplitude, resulting in a good fit for the phenomenon.",
+      "Demonstrates a precise understanding of amplitude and its role in modeling the periodic phenomena accurately and effectively."
+    ],
+    [
+      "Does not attempt to determine or apply frequency.",
+      "Attempts to determine frequency, but it is highly inaccurate and not applied correctly.",
+      "Calculates frequency with significant errors, leading to a poor model.",
+      "Calculates frequency with minor errors that slightly affect the accuracy of the model.",
+      "Accurately determines and applies the frequency, resulting in a good fit for the phenomenon.",
+      "Demonstrates a precise understanding of frequency and its role in modeling the periodic phenomena accurately and effectively."
+    ],
+    [
+      "Does not attempt to determine or apply the midline.",
+      "Attempts to determine the midline, but it is highly inaccurate and not applied correctly.",
+      "Calculates the midline with significant errors, leading to a poor model.",
+      "Calculates the midline with minor errors that slightly affect the accuracy of the model.",
+      "Accurately determines and applies the midline, resulting in a good fit for the phenomenon.",
+      "Demonstrates a precise understanding of the midline and its role in modeling the periodic phenomena accurately and effectively."
+    ],
+    [
+      "The constructed trigonometric function bears no resemblance to the periodic phenomenon.",
+      "The constructed trigonometric function has major flaws and does not accurately model the periodic phenomenon.",
+      "The trigonometric function is incomplete or contains significant errors.",
+      "The trigonometric function models the periodic phenomenon, but with noticeable inaccuracies or omissions.",
+      "The trigonometric function accurately models the periodic phenomenon with all key components correctly represented.",
+      "The constructed trigonometric function is a precise, complete, and insightful representation of the periodic phenomenon, demonstrating a deep understanding of the concepts."
+    ]
+  ]
+}

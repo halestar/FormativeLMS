@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Safe Physical Activity Guidelines",
+    "Ability to Identify Safe Physical Activities",
+    "Application of Safety Measures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of physical activity guidelines.",
+      "Demonstrates minimal understanding of physical activity guidelines.",
+      "Identifies some physical activity guidelines with limited accuracy.",
+      "Identifies several physical activity guidelines with reasonable accuracy.",
+      "Clearly identifies and explains multiple physical activity guidelines accurately.",
+      "Thoroughly explains and applies physical activity guidelines, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Unable to identify any safe physical activities.",
+      "Identifies one or two activities, but safety concerns are not addressed.",
+      "Identifies a few activities with vague references to safety.",
+      "Identifies several activities and mentions some relevant safety considerations.",
+      "Identifies numerous activities with clear and accurate safety explanations.",
+      "Provides a wide range of activities with comprehensive safety analysis and risk mitigation strategies."
+    ],
+    [
+      "Does not mention any safety measures related to physical activity.",
+      "Mentions one or two basic safety measures with little detail.",
+      "Suggests a few safety measures but lacks specific application to activities.",
+      "Describes several relevant safety measures and their application to specific activities.",
+      "Explains and applies safety measures effectively, showing a clear understanding of their importance.",
+      "Critically evaluates and adapts safety measures for various activities, considering individual needs and environmental factors."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Potential Dangers",
+    "Knowledge of Escape Strategies",
+    "Application of Escape Strategies",
+    "Decision-Making Under Pressure"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any potential dangers or unsafe situations.",
+      "Identifies one or two potential dangers, but misses obvious hazards.",
+      "Identifies some potential dangers but lacks detail and depth.",
+      "Identifies most potential dangers and provides some explanation.",
+      "Accurately identifies almost all potential dangers and explains the risks clearly.",
+      "Accurately identifies all potential dangers, explains the risks, and provides insights beyond the obvious."
+    ],
+    [
+      "Unable to name or describe any escape strategies.",
+      "Names one escape strategy but cannot explain it effectively.",
+      "Names a few basic escape strategies but lacks detailed knowledge.",
+      "Describes multiple escape strategies with reasonable understanding.",
+      "Describes multiple escape strategies with clear understanding and provides context.",
+      "Demonstrates comprehensive knowledge of escape strategies and adapts them to different scenarios."
+    ],
+    [
+      "Unable to apply any escape strategies to given scenarios.",
+      "Attempts to apply escape strategies but does so ineffectively.",
+      "Applies escape strategies with limited success or relevance.",
+      "Applies escape strategies to scenarios effectively in most cases.",
+      "Consistently applies appropriate escape strategies to scenarios with good judgment.",
+      "Masterfully applies and adapts escape strategies to complex situations, demonstrating excellent judgment."
+    ],
+    [
+      "Demonstrates poor decision-making in pressure situations.",
+      "Struggles to make sound decisions in pressure situations.",
+      "Makes some reasonable decisions but often hesitates or makes errors.",
+      "Generally makes good decisions in pressure situations with minor hesitation.",
+      "Consistently makes sound and timely decisions in pressure situations.",
+      "Excels at making quick, effective, and well-reasoned decisions in high-pressure scenarios."
+    ]
+  ]
+}

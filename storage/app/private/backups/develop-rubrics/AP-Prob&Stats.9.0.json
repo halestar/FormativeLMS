@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Central Limit Theorem (CLT)",
+    "Application of the CLT to approximate binomial probabilities",
+    "Problem-solving in finite sample spaces with binomial distributions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the Central Limit Theorem.",
+      "Student shows minimal understanding of the CLT, struggling to define it or explain its purpose.",
+      "Student demonstrates a basic understanding of the CLT but has difficulty explaining its application.",
+      "Student shows a good understanding of the CLT and can generally explain its application.",
+      "Student demonstrates a strong understanding of the CLT and can clearly explain its application and limitations.",
+      "Student demonstrates a comprehensive understanding of the CLT, can explain its nuances, and articulate its broader implications in statistical analysis."
+    ],
+    [
+      "Student is unable to apply the CLT to approximate binomial probabilities.",
+      "Student attempts to apply the CLT but makes significant errors in calculations or setup.",
+      "Student can apply the CLT with some success but struggles with accuracy or consistency.",
+      "Student applies the CLT correctly to approximate binomial probabilities in most cases.",
+      "Student consistently and accurately applies the CLT to approximate binomial probabilities, showing a strong command of the process.",
+      "Student expertly applies the CLT, demonstrating a deep understanding of the conditions under which it provides a good approximation and can explain any discrepancies."
+    ],
+    [
+      "Student cannot identify or set up problems involving finite sample spaces with binomial distributions.",
+      "Student struggles to set up problems correctly and shows limited ability to solve them.",
+      "Student can set up and solve basic problems but has trouble with more complex scenarios.",
+      "Student can solve a variety of problems in finite sample spaces with binomial distributions, demonstrating a solid understanding of the concepts.",
+      "Student can solve complex problems accurately and efficiently, demonstrating strong problem-solving skills.",
+      "Student demonstrates exceptional problem-solving skills, can analyze and solve novel problems, and can explain the underlying statistical principles with clarity."
+    ]
+  ]
+}

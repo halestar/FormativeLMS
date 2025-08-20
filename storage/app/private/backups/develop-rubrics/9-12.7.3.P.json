@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Knowledge of sun protection methods",
+    "Application of sun protection steps",
+    "Understanding of harmful effects of the sun"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of sun protection methods.",
+      "Identifies one sun protection method but cannot explain it.",
+      "Identifies and briefly explains one sun protection method.",
+      "Identifies and explains two sun protection methods with some detail.",
+      "Identifies and explains three sun protection methods with good detail.",
+      "Identifies and explains multiple sun protection methods comprehensively, including appropriate usage."
+    ],
+    [
+      "Does not describe any steps for applying sun protection.",
+      "Lists one step for sun protection but is unclear or incorrect.",
+      "Describes one step for applying sun protection correctly.",
+      "Describes two steps for applying sun protection correctly and in a logical order.",
+      "Describes three steps for applying sun protection correctly, logically, and considers timing\/frequency.",
+      "Demonstrates a comprehensive understanding of applying sun protection, including timing, frequency, and specific product recommendations (e.g., SPF level)."
+    ],
+    [
+      "Shows no awareness of the harmful effects of the sun.",
+      "Mentions one harmful effect of the sun but lacks understanding.",
+      "Identifies one harmful effect of the sun with basic understanding.",
+      "Identifies two harmful effects of the sun with reasonable understanding.",
+      "Explains multiple harmful effects of the sun with good understanding and connection to sun exposure.",
+      "Demonstrates a deep understanding of the harmful effects of the sun, including short-term and long-term consequences, and relates them to personal choices."
+    ]
+  ]
+}

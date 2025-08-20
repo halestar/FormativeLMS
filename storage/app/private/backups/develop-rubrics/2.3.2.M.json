@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Caring Individuals",
+    "Justification of Qualities",
+    "Relevance to Community Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any individuals or identifies individuals inaccurately as caring, supportive, and trustworthy.",
+      "Identifies one individual with limited explanation of why they are considered caring, supportive, and trustworthy.",
+      "Identifies two individuals with basic explanations of their caring, supportive, and trustworthy qualities.",
+      "Identifies three individuals and provides clear explanations of their caring, supportive, and trustworthy attributes.",
+      "Identifies four individuals, providing detailed explanations and specific examples of their caring, supportive, and trustworthy behaviors within the community.",
+      "Identifies multiple individuals (more than 4) and provides comprehensive, insightful explanations, including various specific examples and demonstrating a nuanced understanding of caring, supportive, and trustworthy qualities in a community context."
+    ],
+    [
+      "Provides no justification or explanation for why identified individuals are considered caring, supportive, and trustworthy.",
+      "Offers weak or vague justifications for the identified individual's qualities.",
+      "Provides some justification but lacks depth and specific examples to support claims.",
+      "Clearly justifies why identified individuals are caring, supportive, and trustworthy with some specific examples.",
+      "Provides strong, well-reasoned justifications with multiple specific examples and demonstrates a good understanding of the qualities.",
+      "Offers exceptional, insightful justifications, demonstrating a deep understanding of the qualities with compelling and diverse examples, including consideration of different perspectives."
+    ],
+    [
+      "Identifications and justifications are not relevant or connected to the community context.",
+      "Shows minimal connection to the community; relevance is unclear or superficial.",
+      "Connects identified individuals to the community but lacks detail or specific examples.",
+      "Clearly relates the identified individuals and their qualities to the community with relevant examples.",
+      "Demonstrates a strong understanding of how the identified individuals contribute to the community in caring, supportive, and trustworthy ways, with specific and insightful examples.",
+      "Exhibits an exceptional understanding of the community context, providing profound insights into how the identified individuals positively impact the community and demonstrating an awareness of broader implications."
+    ]
+  ]
+}

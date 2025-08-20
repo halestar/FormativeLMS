@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Nutrient Content",
+    "Ability to Determine Sugar Content",
+    "Application of Knowledge to Make Informed Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to locate or identify any nutrient information on the food label.",
+      "Can locate some nutrient information, but makes significant errors in identifying specific nutrients.",
+      "Identifies some basic nutrients (e.g., calories, fats) with limited accuracy.",
+      "Identifies most basic nutrients with reasonable accuracy but may miss some details or have minor errors.",
+      "Accurately identifies most nutrients and their quantities, showing a good understanding of the information presented.",
+      "Demonstrates comprehensive understanding by accurately identifying all nutrients, including micronutrients, and their respective quantities with no errors."
+    ],
+    [
+      "Unable to locate or identify any information about sugar content on the food label.",
+      "Attempts to find sugar content but is unable to correctly identify total sugars or added sugars.",
+      "Identifies total sugars but may confuse it with added sugars or other carbohydrate types.",
+      "Can differentiate between total sugars and added sugars but may have difficulty interpreting the amounts.",
+      "Clearly identifies and accurately states both total sugars and added sugars, showing an understanding of their relevance.",
+      "Demonstrates an advanced understanding by accurately identifying total and added sugars, interpreting their amounts in the context of daily recommendations, and explaining potential health impacts."
+    ],
+    [
+      "Unable to relate the information on the label to making any kind of informed dietary choice.",
+      "Shows limited awareness of how nutrient or sugar content might influence food choices.",
+      "Begins to consider how nutrient and sugar content might affect dietary choices but lacks specifics.",
+      "Describes a basic connection between label information and making healthier choices.",
+      "Explains how to use the information from the label to make healthier food choices, providing specific examples.",
+      "Demonstrates a sophisticated understanding of how to use food labels to make optimal dietary choices, considering factors like portion size, individual needs, and overall diet balance."
+    ]
+  ]
+}

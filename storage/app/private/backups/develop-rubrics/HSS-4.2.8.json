@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Land Grants and Rancho Economy",
+    "Knowledge of the Secularization of the Missions",
+    "Understanding of Mexican Rule Attributes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of land grants or the rancho economy.",
+      "Shows minimal understanding; struggles to explain either land grants or the rancho economy.",
+      "Understands either land grants or the rancho economy, but not both, with limited detail.",
+      "Can explain both land grants and the rancho economy but lacks depth or connection between the two.",
+      "Clearly explains land grants and the rancho economy, demonstrating a good understanding of their characteristics and impact.",
+      "Provides a comprehensive explanation of land grants and the rancho economy, including specific examples and insightful analysis of their significance in shaping Mexican California."
+    ],
+    [
+      "Demonstrates no understanding of the secularization of the missions.",
+      "Shows minimal awareness of the secularization, with significant misunderstandings.",
+      "Identifies the secularization but cannot explain its causes or consequences.",
+      "Explains the secularization with some accuracy but lacks detail on its impact on Californian society.",
+      "Demonstrates a solid understanding of the secularization process and its effects on the missions and indigenous populations.",
+      "Offers a nuanced analysis of the secularization, including its political and social motivations, and its long-term consequences for California."
+    ],
+    [
+      "Unable to identify any attributes of the period of Mexican rule in California.",
+      "Struggles to identify attributes, with significant inaccuracies.",
+      "Identifies one or two attributes of the period but provides no supporting details.",
+      "Identifies several attributes of Mexican rule but lacks depth in explanation.",
+      "Explains multiple attributes of Mexican rule in California, demonstrating a good understanding of the period.",
+      "Presents a comprehensive overview of the attributes of Mexican rule, including insightful analysis of their interconnectedness and lasting impact on California's development."
+    ]
+  ]
+}

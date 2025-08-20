@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Safe Driving Practices",
+    "Application of Knowledge to Encourage Safe Driving",
+    "Communication and Persuasion"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of safe driving practices or related concepts.",
+      "Demonstrates minimal understanding of safe driving practices; struggles to identify key elements.",
+      "Demonstrates basic understanding of safe driving practices but lacks depth and detail.",
+      "Demonstrates a satisfactory understanding of safe driving practices, identifies key elements, and explains them adequately.",
+      "Demonstrates a strong understanding of safe driving practices, explains key elements in detail, and connects them to real-world scenarios.",
+      "Demonstrates a comprehensive and insightful understanding of safe driving practices, explains key elements thoroughly, connects them to real-world scenarios, and offers innovative ideas for promoting safe driving."
+    ],
+    [
+      "Unable to apply knowledge to encourage safe driving actions.",
+      "Struggles to apply knowledge to encourage safe driving actions; suggestions are unclear or ineffective.",
+      "Applies knowledge to encourage safe driving actions with limited effectiveness; suggestions are somewhat vague.",
+      "Applies knowledge to encourage safe driving actions effectively; provides clear and relevant suggestions.",
+      "Applies knowledge effectively to encourage safe driving actions; provides well-reasoned and persuasive suggestions.",
+      "Applies knowledge exceptionally well to encourage safe driving actions; provides insightful, innovative, and highly persuasive suggestions, demonstrating a deep commitment to promoting safe driving experiences."
+    ],
+    [
+      "Communication is unclear and unpersuasive.",
+      "Communication is somewhat unclear and lacks persuasive elements.",
+      "Communication is generally clear but could be more persuasive.",
+      "Communication is clear, organized, and moderately persuasive.",
+      "Communication is clear, concise, and highly persuasive; effectively conveys the importance of safe driving.",
+      "Communication is exceptional; conveys the importance of safe driving in a compelling and memorable way, inspiring others to take action."
+    ]
+  ]
+}

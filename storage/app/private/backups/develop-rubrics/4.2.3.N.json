@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Explanation of Impact on Physical Activity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No internal influences are identified.",
+      "Identifies one internal influence with limited accuracy.",
+      "Identifies two internal influences with some inaccuracies.",
+      "Identifies three internal influences with reasonable accuracy.",
+      "Identifies four internal influences accurately.",
+      "Identifies multiple internal influences comprehensively and accurately, demonstrating a strong understanding of their impact."
+    ],
+    [
+      "No external influences are identified.",
+      "Identifies one external influence with limited accuracy.",
+      "Identifies two external influences with some inaccuracies.",
+      "Identifies three external influences with reasonable accuracy.",
+      "Identifies four external influences accurately.",
+      "Identifies multiple external influences comprehensively and accurately, demonstrating a strong understanding of their impact."
+    ],
+    [
+      "No explanation of the impact of influences on physical activity.",
+      "Provides a superficial explanation of the impact of one influence.",
+      "Provides a basic explanation of the impact of two influences, but lacks depth.",
+      "Explains how several influences affect physical activity with some detail and accuracy.",
+      "Clearly explains how multiple internal and external influences affect physical activity with detail and accuracy.",
+      "Provides a comprehensive and insightful explanation of how multiple influences interact to affect physical activity, demonstrating a nuanced understanding."
+    ]
+  ]
+}

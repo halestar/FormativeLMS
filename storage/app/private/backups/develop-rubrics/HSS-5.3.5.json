@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Internecine Indian Conflicts",
+    "Knowledge of Competing Claims for Control of Lands",
+    "Ability to Connect Conflicts to Overarching Standard"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of internecine Indian conflicts or competing land claims.",
+      "Shows a minimal understanding of internecine Indian conflicts, with significant inaccuracies.",
+      "Identifies some internecine conflicts but struggles to explain the reasons behind them or the groups involved.",
+      "Describes several internecine conflicts and identifies the major groups involved (e.g., Iroquois, Huron, Lakota).",
+      "Explains multiple internecine conflicts, including the motivations of different Indian nations and the impact on land control.",
+      "Provides a comprehensive analysis of multiple internecine conflicts, including the complex motivations, alliances, and consequences for land control, demonstrating nuanced understanding."
+    ],
+    [
+      "Displays no knowledge of competing claims for land among Indian nations.",
+      "Shows a limited awareness of competing land claims with significant gaps in factual knowledge.",
+      "Identifies a few instances of competing land claims but lacks specifics about the groups or territories involved.",
+      "Describes several examples of competing land claims, naming specific Indian nations and the territories in dispute.",
+      "Explains the historical context and consequences of competing land claims among Indian nations, referencing specific treaties or agreements.",
+      "Analyzes the long-term effects of competing land claims on the relationships between Indian nations and their interactions with new settlers, demonstrating insightful comprehension."
+    ],
+    [
+      "Unable to connect any specific conflict to the overarching standard of cooperation and conflict between American Indians and new settlers.",
+      "Struggles to make meaningful connections between specific conflicts and the overarching standard.",
+      "Identifies simple connections between specific internecine conflicts and the overarching standard, but explanation is weak.",
+      "Connects specific internecine conflicts and land claims to the broader context of cooperation and conflict with new settlers.",
+      "Clearly explains how internecine conflicts and land claims influenced relationships with new settlers.",
+      "Critically analyzes the interplay between internecine conflicts, land claims, and the broader context of cooperation and conflict with new settlers."
+    ]
+  ]
+}

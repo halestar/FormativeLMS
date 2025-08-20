@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Clarity and Focus: How well the writing establishes and maintains a clear, focused purpose and point of view.",
+    "Development and Support: How effectively the writing develops ideas with specific and relevant evidence, examples, and reasoning.",
+    "Organization and Structure: How logically and effectively the writing is organized, with clear transitions and a coherent flow of ideas.",
+    "Language and Style: How effectively the writing uses precise language, varied sentence structure, and appropriate tone to engage the reader.",
+    "Conventions: The extent to which the writing follows the rules of grammar, usage, mechanics, and spelling."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The writing lacks a clear purpose or point of view. It is unfocused and difficult to understand.",
+      "The writing shows a limited sense of purpose or point of view. It may drift off-topic or lack clarity.",
+      "The writing establishes a purpose and point of view, but it may not be consistently maintained throughout.",
+      "The writing maintains a clear purpose and point of view, with only minor lapses in focus.",
+      "The writing demonstrates a strong, consistent purpose and point of view. It is well-focused and easy to follow.",
+      "The writing exhibits an exceptionally clear, insightful, and sustained focus, demonstrating a sophisticated understanding of the topic and purpose."
+    ],
+    [
+      "The writing lacks development and provides little to no evidence or support for claims.",
+      "The writing provides minimal development with weak or irrelevant evidence and support.",
+      "The writing develops ideas with some evidence and support, but it may be superficial or lack depth.",
+      "The writing develops ideas with relevant evidence and support, showing a good understanding of the topic.",
+      "The writing effectively develops ideas with well-chosen evidence, examples, and reasoning, enhancing the reader's understanding.",
+      "The writing demonstrates exceptional development with insightful and compelling evidence, examples, and reasoning that significantly enhance the impact and persuasiveness of the writing."
+    ],
+    [
+      "The writing lacks organization and structure, making it difficult to follow the writer's train of thought.",
+      "The writing shows some attempt at organization, but it lacks clear transitions and a coherent flow of ideas.",
+      "The writing is organized with some logical progression, but transitions may be weak or missing.",
+      "The writing is well-organized with clear transitions and a logical flow of ideas, enhancing clarity.",
+      "The writing exhibits a strong, coherent structure with effective transitions that guide the reader smoothly through the text.",
+      "The writing demonstrates an exceptional command of organization and structure, using sophisticated transitions and a seamless flow of ideas to create a highly effective and engaging piece."
+    ],
+    [
+      "The writing uses imprecise language, lacks sentence variety, and has an inappropriate tone for the audience and purpose.",
+      "The writing uses basic language, limited sentence structure, and an inconsistent tone.",
+      "The writing uses appropriate language and tone, with some variety in sentence structure.",
+      "The writing demonstrates effective use of language and style, with varied sentence structure and an engaging tone.",
+      "The writing exhibits precise language, varied sentence structure, and a tone that is highly appropriate for the audience and purpose, enhancing the reader's engagement.",
+      "The writing showcases exceptional command of language and style, using sophisticated vocabulary, nuanced sentence structure, and a compelling tone to create a powerful and memorable piece."
+    ],
+    [
+      "The writing contains numerous errors in grammar, usage, mechanics, and spelling that significantly impede understanding.",
+      "The writing contains frequent errors in conventions that distract the reader and interfere with understanding.",
+      "The writing contains some errors in conventions, but they do not significantly impede understanding.",
+      "The writing demonstrates control of conventions with only minor errors that do not distract the reader.",
+      "The writing exhibits strong control of conventions, with only occasional errors that do not detract from the overall quality.",
+      "The writing is virtually free of errors in conventions, demonstrating a mastery of grammar, usage, mechanics, and spelling."
+    ]
+  ]
+}

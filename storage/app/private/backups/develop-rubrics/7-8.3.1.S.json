@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information",
+    "Source Evaluation",
+    "Comprehensiveness of Analysis"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Information presented is inaccurate or completely irrelevant to injury and violence prevention.",
+      "Information presented contains several inaccuracies and shows a limited understanding of injury and violence prevention.",
+      "Information includes some inaccuracies. Demonstrates a basic understanding of injury and violence prevention.",
+      "Information is generally accurate with minor errors. Demonstrates a satisfactory understanding of injury and violence prevention.",
+      "Information is accurate and well-researched. Demonstrates a strong understanding of injury and violence prevention.",
+      "Information is exceptionally accurate, insightful, and clearly demonstrates a comprehensive understanding of injury and violence prevention."
+    ],
+    [
+      "Sources are not evaluated or are entirely unreliable.",
+      "Limited evaluation of sources; reliability is questionable.",
+      "Basic evaluation of sources with some consideration of reliability.",
+      "Adequate evaluation of sources, considering reliability and relevance.",
+      "Thorough evaluation of sources, demonstrating an understanding of credibility and bias.",
+      "Exceptional evaluation of sources, demonstrating a sophisticated understanding of source credibility, bias, and relevance to injury and violence prevention."
+    ],
+    [
+      "Analysis is missing or completely superficial.",
+      "Analysis is minimal and lacks depth.",
+      "Analysis is basic and identifies some relevant points.",
+      "Analysis is adequate and covers multiple relevant points related to injury and violence prevention.",
+      "Analysis is thorough, insightful, and covers a wide range of relevant points related to injury and violence prevention.",
+      "Analysis is exceptionally comprehensive, demonstrating a deep understanding of the complexities of injury and violence prevention with nuanced insights."
+    ]
+  ]
+}

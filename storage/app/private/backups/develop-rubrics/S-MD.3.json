@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Probability Distributions",
+    "Calculation of Expected Values",
+    "Application to Problem Solving",
+    "Theoretical Probability Calculation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of probability distributions.",
+      "Student shows a limited understanding of probability distributions and struggles to define or explain them.",
+      "Student can define probability distributions but struggles to apply them in problem-solving scenarios.",
+      "Student demonstrates a satisfactory understanding of probability distributions and can apply them to simple problems.",
+      "Student exhibits a strong understanding of probability distributions and can apply them to solve moderately complex problems.",
+      "Student demonstrates a comprehensive understanding of probability distributions and can apply them to solve complex problems, including novel scenarios."
+    ],
+    [
+      "Student cannot calculate expected values.",
+      "Student attempts to calculate expected values but makes significant errors in the process.",
+      "Student can calculate expected values in simple scenarios but struggles with more complex situations.",
+      "Student can calculate expected values in most scenarios with reasonable accuracy.",
+      "Student can accurately calculate expected values in a variety of scenarios, demonstrating a strong command of the process.",
+      "Student demonstrates mastery in calculating expected values, including complex and abstract scenarios, and can explain the underlying principles."
+    ],
+    [
+      "Student cannot apply expected values to solve problems.",
+      "Student struggles to apply expected values to problem-solving, even with guidance.",
+      "Student can apply expected values to solve simple problems with some assistance.",
+      "Student can apply expected values to solve routine problems independently.",
+      "Student can apply expected values to solve a variety of problems, including those with multiple steps or requiring interpretation.",
+      "Student can creatively and effectively apply expected values to solve complex and novel problems, demonstrating a deep understanding of their application."
+    ],
+    [
+      "Student cannot calculate theoretical probabilities.",
+      "Student attempts to calculate theoretical probabilities but demonstrates significant misunderstandings.",
+      "Student can calculate theoretical probabilities in basic scenarios but struggles with more complex situations.",
+      "Student can calculate theoretical probabilities in most scenarios with reasonable accuracy.",
+      "Student can accurately calculate theoretical probabilities in a variety of scenarios, demonstrating a strong understanding of the underlying principles.",
+      "Student demonstrates mastery in calculating theoretical probabilities, including complex scenarios, and can explain the reasoning behind their calculations."
+    ]
+  ]
+}

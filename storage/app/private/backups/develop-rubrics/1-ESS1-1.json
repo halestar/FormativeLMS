@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Observation and Description of Celestial Patterns",
+    "Prediction of Celestial Events",
+    "Application of Scientific Knowledge and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to observe or describe patterns of the sun, moon, and stars.",
+      "Identifies celestial objects (sun, moon, stars) but does not describe any patterns.",
+      "Describes at least one pattern of the sun, moon, or stars (e.g., the sun rises and sets) with limited accuracy.",
+      "Describes multiple patterns of the sun, moon, and stars (e.g., rising\/setting, visibility at night) with reasonable accuracy but lacks detail.",
+      "Clearly describes multiple patterns of the sun, moon, and stars, providing specific details and accurate observations.",
+      "Provides a comprehensive description of celestial patterns, including specific observations and accurate details. Demonstrates a clear understanding of these patterns."
+    ],
+    [
+      "No attempt to predict celestial events.",
+      "Attempts to predict celestial events but predictions are inaccurate or lack justification.",
+      "Predicts at least one celestial event (e.g., sunrise, moonrise) with some accuracy but provides limited reasoning.",
+      "Predicts multiple celestial events with reasonable accuracy, providing basic reasoning based on observed patterns.",
+      "Predicts multiple celestial events with accuracy, providing clear reasoning based on observed patterns and prior knowledge.",
+      "Accurately predicts celestial events, providing thorough reasoning based on observed patterns, prior knowledge, and connections to scientific concepts."
+    ],
+    [
+      "Demonstrates no understanding of the underlying scientific concepts.",
+      "Shows a limited understanding of the scientific concepts related to celestial patterns.",
+      "Connects observed patterns to basic scientific ideas (e.g., Earth's rotation) with some inaccuracies.",
+      "Applies scientific knowledge to explain observed patterns with reasonable accuracy and detail.",
+      "Clearly applies scientific knowledge to explain observed patterns, demonstrating a solid understanding of the concepts.",
+      "Demonstrates a deep understanding of the scientific concepts underlying celestial patterns, providing insightful explanations and connections to other scientific principles."
+    ]
+  ]
+}

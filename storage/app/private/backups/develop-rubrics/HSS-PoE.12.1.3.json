@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Monetary Incentives",
+    "Understanding of Nonmonetary Incentives",
+    "Ability to Differentiate Between Monetary and Nonmonetary Incentives",
+    "Explanation of How Changes in Incentives Cause Changes in Behavior"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of monetary incentives.",
+      "Student struggles to define monetary incentives and provides inaccurate examples.",
+      "Student can define monetary incentives but provides limited or unclear examples.",
+      "Student accurately defines monetary incentives and provides basic examples.",
+      "Student clearly defines monetary incentives and provides relevant examples, demonstrating a good understanding.",
+      "Student comprehensively defines monetary incentives, provides insightful examples, and explains their impact on behavior with clarity."
+    ],
+    [
+      "Student demonstrates no understanding of nonmonetary incentives.",
+      "Student struggles to define nonmonetary incentives and provides inaccurate examples.",
+      "Student can define nonmonetary incentives but provides limited or unclear examples.",
+      "Student accurately defines nonmonetary incentives and provides basic examples.",
+      "Student clearly defines nonmonetary incentives and provides relevant examples, demonstrating a good understanding.",
+      "Student comprehensively defines nonmonetary incentives, provides insightful examples, and explains their impact on behavior with clarity."
+    ],
+    [
+      "Student cannot differentiate between monetary and nonmonetary incentives.",
+      "Student struggles to differentiate between monetary and nonmonetary incentives, with significant confusion.",
+      "Student shows some ability to differentiate but makes several errors or omissions.",
+      "Student can generally differentiate between the two types of incentives but may lack detail.",
+      "Student clearly differentiates between monetary and nonmonetary incentives with supporting details.",
+      "Student expertly differentiates between monetary and nonmonetary incentives, providing nuanced explanations and examples."
+    ],
+    [
+      "Student does not explain how changes in incentives affect behavior.",
+      "Student struggles to explain the relationship between changes in incentives and changes in behavior.",
+      "Student attempts to explain the relationship but provides a superficial or inaccurate account.",
+      "Student explains how changes in incentives can cause changes in behavior, providing a basic understanding.",
+      "Student clearly explains how changes in incentives cause changes in behavior, with supporting examples.",
+      "Student comprehensively explains how changes in incentives cause changes in behavior, demonstrating a sophisticated understanding of cause-and-effect."
+    ]
+  ]
+}

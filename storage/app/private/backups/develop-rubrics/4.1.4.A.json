@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Family Rules Regarding Substance Use",
+    "Identification of School Rules Regarding Substance Use",
+    "Accuracy and Completeness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any family rules regarding alcohol, tobacco, or drug use.",
+      "The student identifies one family rule, but it is vague or unclear.",
+      "The student identifies one specific family rule regarding substance use.",
+      "The student identifies two specific family rules regarding substance use.",
+      "The student identifies three or more specific family rules regarding substance use.",
+      "The student identifies multiple specific family rules and explains the rationale behind them."
+    ],
+    [
+      "The student does not identify any school rules regarding alcohol, tobacco, or drug use.",
+      "The student identifies one school rule, but it is vague or unclear.",
+      "The student identifies one specific school rule regarding substance use.",
+      "The student identifies two specific school rules regarding substance use.",
+      "The student identifies three or more specific school rules regarding substance use.",
+      "The student identifies multiple specific school rules and explains the consequences of breaking them."
+    ],
+    [
+      "The student provides inaccurate or incomplete information about family and school rules.",
+      "The student provides mostly inaccurate or incomplete information about family and school rules.",
+      "The student provides some accurate and complete information, but with significant gaps.",
+      "The student provides mostly accurate and complete information with minor gaps.",
+      "The student provides accurate and complete information about both family and school rules.",
+      "The student provides accurate and complete information and demonstrates a comprehensive understanding of the rules."
+    ]
+  ]
+}

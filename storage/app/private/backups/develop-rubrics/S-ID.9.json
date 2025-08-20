@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Correlation vs. Causation",
+    "Application to Real-World Scenarios",
+    "Critical Analysis of Linear Models"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the difference between correlation and causation.",
+      "Student shows a limited understanding, confusing correlation and causation frequently.",
+      "Student identifies correlation and causation but struggles to explain the difference.",
+      "Student can differentiate between correlation and causation in simple scenarios.",
+      "Student clearly distinguishes between correlation and causation, providing examples.",
+      "Student demonstrates a comprehensive understanding of correlation and causation, explaining nuances and potential confounding variables."
+    ],
+    [
+      "Student cannot apply the concepts of correlation and causation to real-world examples.",
+      "Student attempts to apply concepts but struggles to identify valid relationships.",
+      "Student identifies some relationships but misinterprets them as either correlation or causation.",
+      "Student correctly identifies correlation and causation in some real-world scenarios.",
+      "Student applies concepts accurately to a variety of real-world scenarios, justifying their reasoning.",
+      "Student expertly applies concepts to complex real-world scenarios, considering limitations and biases."
+    ],
+    [
+      "Student cannot analyze linear models in terms of correlation and causation.",
+      "Student struggles to interpret linear models and the relationships they represent.",
+      "Student identifies trends in linear models but cannot determine if they represent correlation or causation.",
+      "Student can analyze linear models and identify correlation and causation, but struggles with explanation.",
+      "Student critically analyzes linear models, identifying correlation and causation with clear explanations.",
+      "Student expertly analyzes linear models, considering potential confounding variables and biases, and drawing well-supported conclusions about causality."
+    ]
+  ]
+}

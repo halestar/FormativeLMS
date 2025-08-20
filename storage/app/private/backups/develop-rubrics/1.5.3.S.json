@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Legal and Ethical Obligations",
+    "Identification of Reportable Situations",
+    "Knowledge of Reporting Procedures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the legal or ethical obligations related to reporting weapons possession.",
+      "Demonstrates a minimal understanding of the legal or ethical obligations related to reporting weapons possession.",
+      "Demonstrates a basic understanding of the legal and ethical obligations related to reporting weapons possession; however, some aspects are unclear or misunderstood.",
+      "Demonstrates a satisfactory understanding of the legal and ethical obligations related to reporting weapons possession, including EC Section 49330.",
+      "Demonstrates a thorough understanding of the legal and ethical obligations related to reporting weapons possession, including EC Section 49330, and can explain the rationale behind these obligations.",
+      "Demonstrates an exceptional understanding of the legal and ethical obligations related to reporting weapons possession, including EC Section 49330, and can critically analyze and discuss the implications of these obligations in various scenarios."
+    ],
+    [
+      "Unable to identify situations that require reporting weapons possession.",
+      "Struggles to identify situations that require reporting weapons possession; identifies only the most obvious cases.",
+      "Identifies some situations that require reporting weapons possession but misses more subtle or complex cases.",
+      "Identifies most situations that require reporting weapons possession, demonstrating a good awareness of potential risks.",
+      "Consistently identifies situations that require reporting weapons possession, even in complex or ambiguous circumstances.",
+      "Proactively identifies and analyzes situations that may require reporting weapons possession, demonstrating a comprehensive understanding of risk assessment."
+    ],
+    [
+      "Demonstrates no knowledge of the proper procedures for reporting weapons possession.",
+      "Demonstrates a minimal knowledge of the proper procedures for reporting weapons possession; information is vague or incomplete.",
+      "Demonstrates a basic knowledge of the proper procedures for reporting weapons possession but lacks confidence or clarity.",
+      "Demonstrates a satisfactory knowledge of the proper procedures for reporting weapons possession, including who to contact and what information to provide.",
+      "Demonstrates a thorough knowledge of the proper procedures for reporting weapons possession and can explain the steps involved in detail.",
+      "Demonstrates an exceptional knowledge of the proper procedures for reporting weapons possession and can adapt these procedures to unique or challenging situations."
+    ]
+  ]
+}

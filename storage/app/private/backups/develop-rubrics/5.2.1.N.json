@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Description of the Effects of Internal Influences",
+    "Description of the Effects of External Influences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any internal influences on food choices and physical activity.",
+      "Student identifies one internal influence with limited accuracy.",
+      "Student identifies two internal influences with some accuracy.",
+      "Student identifies three internal influences with reasonable accuracy.",
+      "Student identifies four internal influences with good accuracy and provides basic examples.",
+      "Student comprehensively identifies multiple internal influences with excellent accuracy, providing detailed examples and showing a strong understanding of their impact."
+    ],
+    [
+      "Student does not identify any external influences on food choices and physical activity.",
+      "Student identifies one external influence with limited accuracy.",
+      "Student identifies two external influences with some accuracy.",
+      "Student identifies three external influences with reasonable accuracy.",
+      "Student identifies four external influences with good accuracy and provides basic examples.",
+      "Student comprehensively identifies multiple external influences with excellent accuracy, providing detailed examples and showing a strong understanding of their impact."
+    ],
+    [
+      "Student does not describe the effects of internal influences.",
+      "Student attempts to describe the effect of one internal influence, but the description is unclear or inaccurate.",
+      "Student describes the effects of one or two internal influences with limited clarity.",
+      "Student describes the effects of multiple internal influences with reasonable clarity.",
+      "Student clearly describes the effects of multiple internal influences, providing relevant examples.",
+      "Student expertly describes the effects of multiple internal influences, providing insightful examples and demonstrating a thorough understanding of the relationships."
+    ],
+    [
+      "Student does not describe the effects of external influences.",
+      "Student attempts to describe the effect of one external influence, but the description is unclear or inaccurate.",
+      "Student describes the effects of one or two external influences with limited clarity.",
+      "Student describes the effects of multiple external influences with reasonable clarity.",
+      "Student clearly describes the effects of multiple external influences, providing relevant examples.",
+      "Student expertly describes the effects of multiple external influences, providing insightful examples and demonstrating a thorough understanding of the relationships."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Physical Activity vs. Exercise",
+    "Understanding of Health-Related Fitness",
+    "Understanding of Skill-Related Fitness",
+    "Differentiation Between Health-Related and Skill-Related Fitness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of the difference between physical activity and exercise.",
+      "Student shows minimal understanding, with significant misconceptions about physical activity and exercise.",
+      "Student identifies some differences but struggles to articulate the nuanced distinctions between physical activity and exercise.",
+      "Student accurately differentiates between physical activity and exercise, providing clear examples.",
+      "Student comprehensively explains the differences between physical activity and exercise, providing relevant examples and demonstrating a solid grasp of the concepts.",
+      "Student demonstrates a deep and nuanced understanding of the differences between physical activity and exercise, including how they contribute differently to overall health and fitness."
+    ],
+    [
+      "Student does not demonstrate understanding of the components of health-related fitness.",
+      "Student identifies one or two components of health-related fitness with limited explanation.",
+      "Student lists several components of health-related fitness but struggles to explain their importance or relationship to overall health.",
+      "Student accurately identifies and explains the key components of health-related fitness (e.g., cardiovascular endurance, muscular strength, muscular endurance, flexibility, body composition).",
+      "Student clearly explains the components of health-related fitness and gives examples of activities to improve each component. The relationship to overall health is discussed.",
+      "Student thoroughly explains and provides detailed examples of each component of health-related fitness, discussing how they contribute to long-term health and well-being. Demonstrates synthesis of information."
+    ],
+    [
+      "Student does not demonstrate understanding of the components of skill-related fitness.",
+      "Student identifies one or two components of skill-related fitness with limited explanation.",
+      "Student lists several components of skill-related fitness but struggles to explain their importance or relationship to specific activities.",
+      "Student accurately identifies and explains the key components of skill-related fitness (e.g., agility, balance, coordination, power, reaction time, speed).",
+      "Student clearly explains the components of skill-related fitness and gives examples of activities and sports where each component is important. The relationship to specific skills is discussed.",
+      "Student thoroughly explains and provides detailed examples of each component of skill-related fitness, discussing how they contribute to performance in various activities and sports. Demonstrates synthesis of information."
+    ],
+    [
+      "Student is unable to differentiate between health-related and skill-related fitness.",
+      "Student attempts to differentiate but demonstrates significant confusion between health-related and skill-related fitness components.",
+      "Student identifies some differences between health-related and skill-related fitness but lacks clarity in their explanations.",
+      "Student accurately distinguishes between health-related and skill-related fitness, providing examples of each.",
+      "Student comprehensively differentiates between health-related and skill-related fitness, explaining their distinct benefits and applications.",
+      "Student demonstrates a nuanced understanding of the interplay between health-related and skill-related fitness, explaining how they can complement each other for optimal health and performance."
+    ]
+  ]
+}

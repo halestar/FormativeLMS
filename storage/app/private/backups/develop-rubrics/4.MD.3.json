@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Area and Perimeter Formulas",
+    "Application to Real-World Problems",
+    "Problem-Solving Skills"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of area or perimeter formulas is demonstrated.",
+      "Demonstrates minimal understanding of area and perimeter formulas; struggles to recall or apply them.",
+      "Demonstrates a basic understanding of area and perimeter formulas but makes frequent errors in application.",
+      "Demonstrates a satisfactory understanding of area and perimeter formulas with occasional errors.",
+      "Demonstrates a strong understanding of area and perimeter formulas with minimal errors.",
+      "Demonstrates a comprehensive understanding of area and perimeter formulas; can accurately and efficiently apply them in various contexts."
+    ],
+    [
+      "Unable to apply area and perimeter formulas to real-world problems.",
+      "Struggles to apply area and perimeter formulas to real-world problems; application is illogical or inaccurate.",
+      "Can apply area and perimeter formulas to simple real-world problems with significant guidance and some errors.",
+      "Can apply area and perimeter formulas to moderately complex real-world problems with some accuracy and occasional errors.",
+      "Can apply area and perimeter formulas to complex real-world problems with accuracy and minimal errors.",
+      "Can apply area and perimeter formulas to a wide range of real-world problems with accuracy, efficiency, and insightful interpretations."
+    ],
+    [
+      "No attempt to solve the problem or uses an entirely inappropriate strategy.",
+      "Attempts to solve the problem but demonstrates a flawed strategy and makes significant errors.",
+      "Uses a partially correct strategy but struggles to execute it effectively, leading to an incorrect solution.",
+      "Uses a generally correct strategy but makes minor errors that impact the accuracy of the solution.",
+      "Uses an appropriate and effective strategy to solve the problem with minimal errors.",
+      "Uses an efficient and insightful strategy to solve the problem accurately and provides a clear and logical explanation of the solution process."
+    ]
+  ]
+}

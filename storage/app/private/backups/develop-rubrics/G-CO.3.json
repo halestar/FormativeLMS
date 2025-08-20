@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Rotational Symmetries",
+    "Identification of Reflectional Symmetries",
+    "Description of Transformations",
+    "Mathematical Reasoning and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify rotational symmetries.",
+      "Incorrectly identifies rotational symmetries.",
+      "Identifies only trivial rotational symmetries (e.g., 360-degree rotation).",
+      "Correctly identifies some, but not all, rotational symmetries for simple shapes (rectangle, parallelogram).",
+      "Correctly identifies rotational symmetries for rectangles, parallelograms, and trapezoids.",
+      "Correctly identifies rotational symmetries for all given shapes, including regular polygons, and explains the reasoning."
+    ],
+    [
+      "No attempt to identify reflectional symmetries.",
+      "Incorrectly identifies reflectional symmetries.",
+      "Identifies only some obvious reflectional symmetries without clear understanding.",
+      "Correctly identifies reflectional symmetries for simple shapes (rectangle, parallelogram) but struggles with trapezoids.",
+      "Correctly identifies reflectional symmetries for rectangles, parallelograms, and trapezoids.",
+      "Correctly identifies reflectional symmetries for all given shapes, including regular polygons, and justifies the selection of lines of symmetry."
+    ],
+    [
+      "Unable to describe transformations or uses incorrect terminology.",
+      "Attempts to describe transformations but lacks precision and clarity.",
+      "Describes transformations with limited accuracy; struggles with angles of rotation or correct lines of reflection.",
+      "Describes transformations accurately for rectangles and parallelograms, but has difficulty with trapezoids and regular polygons.",
+      "Clearly and accurately describes the rotations and reflections for rectangles, parallelograms, and trapezoids.",
+      "Provides precise and mathematically sound descriptions of all rotations and reflections, including angles and lines of symmetry, for all given shapes."
+    ],
+    [
+      "No reasoning or justification provided.",
+      "Provides reasoning that is unclear, incomplete, or incorrect.",
+      "Offers some justification, but it lacks mathematical rigor and precision.",
+      "Justifies identification of symmetries for basic shapes but struggles with more complex polygons.",
+      "Provides logical and clear justifications for all identified rotations and reflections for rectangles, parallelograms, and trapezoids.",
+      "Offers mathematically sound and thorough justifications, demonstrating a deep understanding of geometric properties and transformations for all shapes."
+    ]
+  ]
+}

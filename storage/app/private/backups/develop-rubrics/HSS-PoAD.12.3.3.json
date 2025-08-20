@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Religion's Historical Role",
+    "Recognition of Religious Diversity",
+    "Analysis of Religion's Impact on Society"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the historical role of religion.",
+      "Shows minimal awareness of religion's historical presence, lacking specifics.",
+      "Identifies religion as a historical factor but struggles to explain its influence or provide examples.",
+      "Describes religion's role in a few historical events or contexts but lacks depth or breadth.",
+      "Explains religion's historical role with relevant examples and demonstrates a good understanding of its impact.",
+      "Provides a comprehensive analysis of religion's historical role, illustrating its complex influence with specific examples and insights."
+    ],
+    [
+      "Shows no awareness of religious diversity.",
+      "Acknowledges the existence of different religions but without any specifics.",
+      "Names a few different religions but does not elaborate on their distinct characteristics or interactions.",
+      "Identifies religious diversity in specific historical contexts but lacks detailed explanations.",
+      "Discusses religious diversity, providing examples of different religions and their interactions within historical contexts.",
+      "Analyzes the complexities of religious diversity, providing nuanced examples and demonstrating an understanding of its social and political impacts throughout history."
+    ],
+    [
+      "Fails to connect religion to societal developments.",
+      "Suggests a vague connection between religion and society without clear examples.",
+      "Identifies religion as an influence on society but struggles to explain how or why.",
+      "Describes how religion has influenced specific aspects of society, like art or architecture, but without broader context.",
+      "Explains how religion has shaped societal norms, values, and institutions, providing concrete examples.",
+      "Offers a critical analysis of religion's multifaceted impact on society, considering both positive and negative consequences with supporting evidence."
+    ]
+  ]
+}

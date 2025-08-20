@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Communicable Diseases",
+    "Understanding of Non-Communicable Diseases",
+    "Distinguishing Between Communicable and Non-Communicable Diseases"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of communicable diseases.",
+      "Struggles to define communicable diseases and provides inaccurate examples.",
+      "Can define communicable diseases with limited accuracy but struggles to provide relevant examples.",
+      "Accurately defines communicable diseases and provides basic examples.",
+      "Clearly defines communicable diseases and provides relevant and varied examples.",
+      "Demonstrates a comprehensive understanding of communicable diseases, provides insightful examples, and explains the mechanisms of transmission."
+    ],
+    [
+      "Shows no understanding of non-communicable diseases.",
+      "Struggles to define non-communicable diseases and provides inaccurate examples.",
+      "Can define non-communicable diseases with limited accuracy but struggles to provide relevant examples.",
+      "Accurately defines non-communicable diseases and provides basic examples.",
+      "Clearly defines non-communicable diseases and provides relevant and varied examples.",
+      "Demonstrates a comprehensive understanding of non-communicable diseases, provides insightful examples, and explains the risk factors associated with them."
+    ],
+    [
+      "Cannot differentiate between communicable and non-communicable diseases.",
+      "Struggles to identify the key differences between the two types of diseases.",
+      "Identifies some differences between the two but lacks clarity and accuracy.",
+      "Clearly distinguishes between communicable and non-communicable diseases based on transmission.",
+      "Clearly distinguishes between communicable and non-communicable diseases, providing examples of each and explaining the mechanisms of transmission and risk factors.",
+      "Demonstrates a comprehensive understanding of the differences between communicable and non-communicable diseases, including transmission, risk factors, prevention strategies, and societal impact."
+    ]
+  ]
+}

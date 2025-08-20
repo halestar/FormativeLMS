@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Short-Term Effects of HIV\/AIDS and other STDs",
+    "Identification of Long-Term Effects of HIV\/AIDS and other STDs",
+    "Distinguishes Between HIV, AIDS, and other STDs",
+    "Overall Understanding and Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No short-term effects are identified.",
+      "Identifies one short-term effect with limited accuracy.",
+      "Identifies two short-term effects with some inaccuracies.",
+      "Identifies three or more short-term effects with minor inaccuracies.",
+      "Accurately identifies several short-term effects of HIV\/AIDS and other STDs.",
+      "Comprehensively and accurately identifies a wide range of short-term effects, demonstrating a strong understanding."
+    ],
+    [
+      "No long-term effects are identified.",
+      "Identifies one long-term effect with limited accuracy.",
+      "Identifies two long-term effects with some inaccuracies.",
+      "Identifies three or more long-term effects with minor inaccuracies.",
+      "Accurately identifies several long-term effects of HIV\/AIDS and other STDs.",
+      "Comprehensively and accurately identifies a wide range of long-term effects, demonstrating a strong understanding."
+    ],
+    [
+      "Does not distinguish between HIV, AIDS, and other STDs.",
+      "Shows a basic attempt to differentiate, but with significant confusion.",
+      "Identifies some differences but lacks clarity and detail.",
+      "Differentiates among HIV, AIDS, and other STDs with reasonable accuracy.",
+      "Clearly and accurately distinguishes between HIV, AIDS, and several other STDs.",
+      "Demonstrates a comprehensive understanding of the distinctions between HIV, AIDS, and a wide range of other STDs, including their relationships."
+    ],
+    [
+      "Demonstrates no understanding of the effects of HIV\/AIDS and other STDs.",
+      "Demonstrates a minimal understanding with significant inaccuracies.",
+      "Demonstrates a partial understanding with several inaccuracies.",
+      "Demonstrates a general understanding with minor inaccuracies.",
+      "Demonstrates a strong understanding with very few inaccuracies.",
+      "Demonstrates a comprehensive and accurate understanding of the short- and long-term effects of HIV\/AIDS and other STDs."
+    ]
+  ]
+}

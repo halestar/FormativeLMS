@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Protective Gear",
+    "Explanation of Purpose",
+    "Appropriateness in Different Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any protective gear or equipment.",
+      "Identifies one piece of protective gear or equipment with limited accuracy.",
+      "Identifies two pieces of protective gear or equipment with basic accuracy.",
+      "Identifies three pieces of protective gear or equipment with reasonable accuracy.",
+      "Identifies four pieces of protective gear and equipment with good accuracy and detail.",
+      "Identifies multiple pieces of protective gear and equipment comprehensively and accurately."
+    ],
+    [
+      "Unable to explain the purpose of any protective gear or equipment.",
+      "Provides a vague or inaccurate explanation for one piece of gear.",
+      "Explains the purpose of two pieces of gear with some inaccuracies.",
+      "Explains the purpose of three pieces of gear with reasonable clarity and accuracy.",
+      "Clearly explains the purpose of multiple pieces of gear with good accuracy.",
+      "Provides comprehensive and accurate explanations of the purpose of protective gear, demonstrating a thorough understanding."
+    ],
+    [
+      "Does not demonstrate an understanding of when to use specific protective gear.",
+      "Shows limited awareness of appropriate usage for one type of gear.",
+      "Identifies appropriate scenarios for two types of gear, but with some inaccuracies.",
+      "Describes appropriate scenarios for multiple types of gear with reasonable accuracy.",
+      "Clearly articulates appropriate scenarios for different types of protective gear.",
+      "Demonstrates a sophisticated understanding of when and why to use specific protective gear in various scenarios."
+    ]
+  ]
+}

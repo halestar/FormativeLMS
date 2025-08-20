@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Comparison",
+    "Variety of Settings",
+    "Understanding of Health Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of healthy and less-healthy food choices.",
+      "Struggles to identify any healthy or less-healthy food choices with major inaccuracies.",
+      "Identifies a few healthy and less-healthy food choices with some inaccuracies in comparison.",
+      "Compares some healthy and less-healthy food choices with minor inaccuracies.",
+      "Accurately compares most healthy and less-healthy food choices with only minor omissions.",
+      "Accurately and thoroughly compares healthy and less-healthy food choices, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Does not consider any specific settings.",
+      "Attempts to discuss food choices in only one setting with limited detail.",
+      "Discusses food choices in a limited number of settings (e.g., home) with basic descriptions.",
+      "Discusses food choices in a moderate number of settings (e.g., school, home) with some detail.",
+      "Discusses food choices in a variety of settings (e.g., restaurants, school, home) with good detail.",
+      "Discusses food choices in a wide variety of settings with comprehensive and insightful detail, showcasing adaptability of food choices."
+    ],
+    [
+      "Shows no awareness of the impact of food choices on health.",
+      "Shows minimal awareness of the health impacts with significant misunderstandings.",
+      "Identifies some basic health impacts (e.g., weight gain) but lacks detail.",
+      "Connects food choices to some specific health impacts (e.g., energy levels, nutrient intake).",
+      "Clearly explains the health impacts of various food choices with good accuracy and detail.",
+      "Provides a nuanced and comprehensive explanation of the health impacts, including long-term effects and specific nutritional information."
+    ]
+  ]
+}

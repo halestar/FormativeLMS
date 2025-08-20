@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Required PPE",
+    "Understanding of PPE Purpose",
+    "Application to Specific Activities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any of the personal protection equipment (PPE) needed for sports and recreational activities.",
+      "The student can identify one type of personal protection equipment (PPE) needed for sports and recreational activities.",
+      "The student can identify two types of personal protection equipment (PPE) needed for sports and recreational activities, but explanation lacks detail.",
+      "The student can identify three types of personal protection equipment (PPE) needed for sports and recreational activities and offers a somewhat detailed explanation.",
+      "The student can accurately identify most of the personal protection equipment (PPE) needed for sports and recreational activities and offers detailed explanations.",
+      "The student can comprehensively identify all the personal protection equipment (PPE) needed for sports and recreational activities, with thorough and accurate explanations, demonstrating a deep understanding."
+    ],
+    [
+      "The student does not demonstrate any understanding of why personal protection equipment is needed.",
+      "The student demonstrates a minimal understanding of why personal protection equipment is needed.",
+      "The student demonstrates some understanding of why personal protection equipment is needed, but explanation is limited.",
+      "The student demonstrates a satisfactory understanding of why personal protection equipment is needed and offers a somewhat detailed explanation.",
+      "The student demonstrates a strong understanding of why personal protection equipment is needed and offers detailed explanations.",
+      "The student demonstrates a comprehensive understanding of why personal protection equipment is needed, with thorough and accurate explanations, demonstrating a deep understanding."
+    ],
+    [
+      "The student cannot relate PPE to any specific sports or recreational activities.",
+      "The student can relate PPE to only one specific sport or recreational activity.",
+      "The student can relate PPE to a couple of specific sports or recreational activities.",
+      "The student can relate PPE to several specific sports or recreational activities, but lacks some detail.",
+      "The student can accurately relate PPE to a wide range of specific sports or recreational activities with detailed explanations.",
+      "The student demonstrates expert ability to relate PPE to specific sports and recreational activities, providing insightful and comprehensive examples."
+    ]
+  ]
+}

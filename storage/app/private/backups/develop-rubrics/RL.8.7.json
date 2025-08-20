@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Original Text",
+    "Analysis of Fidelity",
+    "Evaluation of Director\/Actor Choices",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the original text or script.",
+      "Shows minimal understanding of the original text, with significant inaccuracies.",
+      "Demonstrates basic understanding of the original text but misses key nuances.",
+      "Displays a good understanding of the original text, identifying most key elements.",
+      "Exhibits a strong understanding of the original text, including subtleties and complexities.",
+      "Demonstrates a comprehensive and nuanced understanding of the original text, recognizing intricate details and themes."
+    ],
+    [
+      "Provides no analysis of the production's fidelity to the original text.",
+      "Offers a superficial or inaccurate analysis of the production's fidelity.",
+      "Identifies some instances where the production stays faithful to or departs from the text, but lacks depth.",
+      "Analyzes several instances of fidelity and departure, providing reasonable explanations.",
+      "Provides a thorough analysis of fidelity, offering insightful observations and well-supported reasoning.",
+      "Presents a comprehensive and perceptive analysis of the production's fidelity, demonstrating a sophisticated understanding of adaptation."
+    ],
+    [
+      "Offers no evaluation of the director's or actors' choices.",
+      "Provides a superficial or unsupported evaluation of choices made by the director or actors.",
+      "Identifies some choices made by the director or actors, but lacks a clear evaluation.",
+      "Evaluates several choices made by the director or actors, providing some justification.",
+      "Offers a well-reasoned and insightful evaluation of the director's or actors' choices, supporting claims with evidence.",
+      "Presents a comprehensive and nuanced evaluation of the director's and actors' choices, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, with frequent errors.",
+      "Response is somewhat clear but lacks consistent organization.",
+      "Response is generally clear and organized, with a logical flow of ideas.",
+      "Response is clear, well-organized, and easy to follow, with strong transitions.",
+      "Response is exceptionally clear, coherent, and logically structured, demonstrating mastery of communication skills."
+    ]
+  ]
+}

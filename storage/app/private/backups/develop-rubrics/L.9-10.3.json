@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding and application of language in various contexts",
+    "Adherence to style manual guidelines"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how language functions in different contexts.",
+      "Shows minimal understanding of how language functions in different contexts; struggles to make effective choices for meaning or style.",
+      "Demonstrates a basic understanding of how language functions in some contexts but has difficulty applying this knowledge consistently.",
+      "Applies knowledge of language to understand how it functions in many contexts and makes generally effective choices for meaning and style.",
+      "Demonstrates a strong understanding of how language functions across diverse contexts; makes effective choices for meaning and style to enhance comprehension.",
+      "Exhibits a sophisticated understanding of language in various contexts, skillfully employing language to create nuanced meaning and effectively engaging the audience."
+    ],
+    [
+      "Work does not conform to any guidelines in a style manual.",
+      "Work shows minimal attempt to conform to style manual guidelines and contains numerous errors.",
+      "Work attempts to follow style manual guidelines, but contains several errors.",
+      "Work generally conforms to style manual guidelines with only a few minor errors.",
+      "Work adheres closely to style manual guidelines with only very minor inconsistencies.",
+      "Work meticulously adheres to style manual guidelines, demonstrating a mastery of the conventions appropriate for the discipline and writing type."
+    ]
+  ]
+}

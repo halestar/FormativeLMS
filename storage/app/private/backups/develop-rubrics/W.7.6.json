@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Use of technology to produce and publish writing.",
+    "Linking to and citing sources appropriately.",
+    "Interaction and collaboration with others using technology."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No use of technology to produce or publish writing.",
+      "Limited attempt to use technology; writing is not effectively produced or published.",
+      "Technology is used, but the output is basic with minimal formatting or design.",
+      "Technology is adequately used to produce and publish writing; basic formatting is present.",
+      "Technology is effectively used, with good formatting and design enhancing the writing.",
+      "Skillfully uses technology to produce and publish writing with advanced formatting and design elements that significantly enhance the presentation."
+    ],
+    [
+      "No sources are linked or cited.",
+      "Attempt to link or cite sources is made, but is incorrect or incomplete.",
+      "Some sources are linked and cited, but with errors in formatting or relevance.",
+      "Sources are linked and cited adequately, with minor errors in formatting.",
+      "Sources are accurately linked and cited, following a consistent citation style.",
+      "Sources are expertly linked and cited, enhancing the credibility and depth of the writing while following a consistent citation style."
+    ],
+    [
+      "No interaction or collaboration with others is demonstrated.",
+      "Minimal attempt to interact or collaborate with others using technology.",
+      "Basic interaction or collaboration is demonstrated, but effectiveness is limited.",
+      "Adequate interaction and collaboration with others is evident through technology.",
+      "Effective interaction and collaboration with others, enhancing the overall quality of the work.",
+      "Exemplary interaction and collaboration with others using technology, significantly contributing to the project's success."
+    ]
+  ]
+}

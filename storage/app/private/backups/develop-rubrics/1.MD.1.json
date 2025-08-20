@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Ordering Three Objects by Length",
+    "Indirect Comparison Using a Third Object"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to order the three objects or demonstrates a complete misunderstanding of length comparison.",
+      "Student attempts to order the three objects but struggles with the concept, making significant errors in judgment.",
+      "Student can order the three objects with some difficulty, requiring assistance or making minor errors in comparison.",
+      "Student accurately orders the three objects by length, demonstrating a basic understanding of length comparison.",
+      "Student confidently and accurately orders the three objects by length, showing a strong understanding of relative length.",
+      "Student not only accurately orders the objects but also explains the reasoning behind the ordering, demonstrating a comprehensive understanding of length comparison."
+    ],
+    [
+      "Student does not attempt to use a third object for indirect comparison or shows no understanding of how it could be applied.",
+      "Student attempts to use a third object but struggles with the process, leading to an incorrect conclusion about the lengths of the original two objects.",
+      "Student uses a third object for comparison with some difficulty, making minor errors in the process or in the final conclusion.",
+      "Student accurately uses a third object to compare the lengths of the two objects indirectly, demonstrating a basic understanding of the concept.",
+      "Student confidently and accurately compares the lengths of two objects using a third, showing a strong grasp of indirect measurement.",
+      "Student clearly explains the process of indirect comparison and justifies their conclusion with sound reasoning, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

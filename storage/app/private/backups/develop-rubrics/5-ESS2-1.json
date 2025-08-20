@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model",
+    "Representation of Systems",
+    "Explanation of Interactions",
+    "Use of Scientific Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate, showing no understanding of Earth's systems.",
+      "The model contains significant inaccuracies and demonstrates a limited understanding of Earth's systems and their interactions.",
+      "The model contains some inaccuracies, but generally shows a basic understanding of Earth's systems. The interactions between systems may be unclear or incomplete.",
+      "The model is mostly accurate and demonstrates a good understanding of Earth's systems and their interactions. Minor details may be missing or slightly inaccurate.",
+      "The model is accurate and clearly demonstrates a strong understanding of Earth's systems and their interactions. All components are correctly represented and explained.",
+      "The model is exceptionally accurate, detailed, and insightful. It demonstrates a comprehensive understanding of Earth's systems and their complex interactions, including nuances and interdependencies."
+    ],
+    [
+      "The model fails to represent the geosphere, biosphere, hydrosphere, and atmosphere, or misrepresents them entirely.",
+      "The model attempts to represent the systems, but representation is incomplete or confusing. Key components are missing.",
+      "The model represents the systems, but lacks detail or clarity. It is difficult to distinguish between the systems.",
+      "The model clearly represents the systems with sufficient detail. The components of each system are identifiable.",
+      "The model represents the systems with accuracy and detail. Key components are well-defined, and the representation enhances understanding.",
+      "The model provides an exceptional representation of the systems, demonstrating a deep understanding of their components and complexities."
+    ],
+    [
+      "The model does not explain any interactions between Earth's systems, or the explanation is completely irrelevant.",
+      "The model attempts to explain interactions, but the explanation is unclear, inaccurate, or incomplete.",
+      "The model explains some interactions between the systems, but the explanation lacks depth or detail. Connections may be superficial.",
+      "The model explains several interactions between the systems with reasonable clarity and detail. The explanations demonstrate a basic understanding of cause and effect.",
+      "The model clearly explains multiple interactions between the systems, providing detailed and accurate explanations of cause and effect.",
+      "The model provides a sophisticated and insightful explanation of the complex interactions between Earth's systems, demonstrating a deep understanding of cause and effect, feedbacks, and interdependencies."
+    ],
+    [
+      "The model uses no scientific terminology or uses it incorrectly, demonstrating a lack of understanding.",
+      "The model uses limited scientific terminology, and some terms are used incorrectly or inappropriately.",
+      "The model uses some scientific terminology, but the usage is inconsistent or lacks precision.",
+      "The model uses appropriate scientific terminology correctly and consistently, demonstrating a solid understanding of key concepts.",
+      "The model uses a wide range of scientific terminology accurately and effectively, enhancing the clarity and precision of the model.",
+      "The model demonstrates a mastery of scientific terminology, using it with precision and sophistication to communicate complex ideas effectively."
+    ]
+  ]
+}

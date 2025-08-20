@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Disaster Preparedness Procedures at Home",
+    "Identification of Disaster Preparedness Procedures at School",
+    "Identification of Disaster Preparedness Procedures in the Community",
+    "Accuracy and Completeness of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any disaster preparedness procedures at home.",
+      "The student identifies only one basic disaster preparedness procedure at home.",
+      "The student identifies a few basic disaster preparedness procedures at home, but with limited detail.",
+      "The student identifies several disaster preparedness procedures at home with some detail.",
+      "The student thoroughly identifies most key disaster preparedness procedures at home, demonstrating good understanding.",
+      "The student comprehensively identifies and explains key disaster preparedness procedures at home, demonstrating excellent understanding and providing relevant examples."
+    ],
+    [
+      "The student does not identify any disaster preparedness procedures at school.",
+      "The student identifies only one basic disaster preparedness procedure at school.",
+      "The student identifies a few basic disaster preparedness procedures at school, but with limited detail.",
+      "The student identifies several disaster preparedness procedures at school with some detail.",
+      "The student thoroughly identifies most key disaster preparedness procedures at school, demonstrating good understanding.",
+      "The student comprehensively identifies and explains key disaster preparedness procedures at school, demonstrating excellent understanding and providing relevant examples."
+    ],
+    [
+      "The student does not identify any disaster preparedness procedures in the community.",
+      "The student identifies only one basic disaster preparedness procedure in the community.",
+      "The student identifies a few basic disaster preparedness procedures in the community, but with limited detail.",
+      "The student identifies several disaster preparedness procedures in the community with some detail.",
+      "The student thoroughly identifies most key disaster preparedness procedures in the community, demonstrating good understanding.",
+      "The student comprehensively identifies and explains key disaster preparedness procedures in the community, demonstrating excellent understanding and providing relevant examples."
+    ],
+    [
+      "The information provided is inaccurate or severely incomplete.",
+      "The information provided contains significant inaccuracies or omissions.",
+      "The information provided has some inaccuracies or omissions.",
+      "The information provided is mostly accurate and complete, with minor errors.",
+      "The information provided is accurate and complete, demonstrating a solid understanding of the procedures.",
+      "The information provided is exceptionally accurate, complete, and demonstrates a comprehensive understanding of disaster preparedness procedures."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Volume Calculation Methods",
+    "Application of Formulas V = lwh and V = bh",
+    "Use of Unit Cubes to Determine Volume",
+    "Problem-Solving in Real-World Contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how to calculate the volume of a right rectangular prism is demonstrated.",
+      "Demonstrates minimal understanding of volume calculation, with significant errors in application.",
+      "Shows partial understanding of volume calculation but struggles with fractional edge lengths or unit cubes.",
+      "Understands the basic principles of volume calculation but may have minor errors in complex problems with fractional lengths.",
+      "Can accurately calculate the volume of right rectangular prisms with fractional edge lengths using unit cubes and formulas, but may lack clear explanations.",
+      "Demonstrates a comprehensive understanding of volume calculation methods, accurately applies both unit cubes and formulas with clear and thorough explanations."
+    ],
+    [
+      "Unable to apply the formulas V = lwh or V = bh to find the volume of right rectangular prisms.",
+      "Attempts to use the formulas but makes significant errors in identifying or substituting values.",
+      "Can sometimes apply the formulas correctly but struggles with fractional edge lengths or real-world problems.",
+      "Applies the formulas with some accuracy but may make minor errors in calculations or in complex real-world scenarios.",
+      "Accurately applies the formulas V = lwh and V = bh to find volumes, but explanations lack depth.",
+      "Expertly applies the formulas V = lwh and V = bh, providing clear and insightful explanations in various contexts, including complex real-world problems."
+    ],
+    [
+      "No attempt to use unit cubes to find volume.",
+      "Attempts to use unit cubes, but does so incorrectly or inefficiently, leading to an inaccurate volume calculation.",
+      "Uses unit cubes with some accuracy, but struggles with fractional edge lengths or visualizing the packing process.",
+      "Uses unit cubes effectively to find the volume of simple prisms, but struggles with more complex shapes or fractional lengths.",
+      "Proficiently uses unit cubes to find the volume of right rectangular prisms, but explanations lack detail.",
+      "Masterfully uses unit cubes to accurately determine the volume of right rectangular prisms, providing clear, detailed explanations of the packing process and its relation to fractional edge lengths."
+    ],
+    [
+      "Unable to apply volume calculations to solve real-world problems.",
+      "Attempts to solve real-world problems but makes significant errors in setting up the problem or performing calculations.",
+      "Can solve simple real-world problems involving volume but struggles with more complex scenarios or fractional dimensions.",
+      "Solves real-world problems with some accuracy but may lack clear explanations or have minor calculation errors.",
+      "Accurately solves real-world problems involving volume, but explanations lack detail.",
+      "Expertly solves complex real-world problems involving volume, providing clear, insightful explanations and accurate calculations."
+    ]
+  ]
+}

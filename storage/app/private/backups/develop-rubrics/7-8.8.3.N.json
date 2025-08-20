@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of Encouragement",
+    "Clarity and Accuracy of Information",
+    "Engagement and Creativity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to encourage peers or encouragement is completely ineffective.",
+      "Attempts to encourage peers are minimal and have little impact.",
+      "Encouragement is present but lacks consistency or depth; some positive impact.",
+      "Provides moderate encouragement to peers with some specific examples, showing a noticeable impact.",
+      "Consistently encourages peers with detailed and thoughtful strategies, showing a significant positive impact.",
+      "Inspires and motivates peers effectively through innovative and personalized encouragement, fostering a culture of health and activity."
+    ],
+    [
+      "Information provided is inaccurate, misleading, or absent.",
+      "Information contains inaccuracies or is too vague to be useful.",
+      "Information is generally accurate but lacks detail or supporting evidence.",
+      "Provides accurate information with some supporting details and sources.",
+      "Presents accurate and well-researched information with clear and compelling details.",
+      "Demonstrates expertise in the subject matter by providing precise, insightful, and thoroughly researched information that promotes healthy behaviors."
+    ],
+    [
+      "Presentation or encouragement is dull, uninspired, and fails to capture attention.",
+      "Lacks creativity and fails to engage peers effectively.",
+      "Shows some effort to engage peers but lacks originality or flair.",
+      "Demonstrates moderate creativity and successfully engages some peers.",
+      "Highly creative and engaging, effectively capturing the attention and interest of peers.",
+      "Exhibits exceptional creativity and innovation, inspiring and captivating peers to adopt healthier lifestyles."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Demographic and Social Changes",
+    "Explanation of Governmental Responses",
+    "Connection between Changes and Responses",
+    "Use of Evidence and Examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of demographic or social changes.",
+      "Identifies demographic and social changes with significant inaccuracies.",
+      "Identifies demographic and social changes with minor inaccuracies.",
+      "Accurately identifies several demographic and social changes but lacks depth.",
+      "Demonstrates a solid understanding of multiple demographic and social changes, providing accurate details.",
+      "Demonstrates a comprehensive understanding of a wide range of demographic and social changes, including nuances and complexities."
+    ],
+    [
+      "Provides no explanation of how governments have responded.",
+      "Offers an inaccurate or irrelevant explanation of governmental responses.",
+      "Offers a vague and general explanation of governmental responses with limited accuracy.",
+      "Explains some governmental responses at one level (federal, state, or local) with some accuracy.",
+      "Explains governmental responses at multiple levels (federal, state, and local) with good accuracy, but lacks specific examples.",
+      "Provides a detailed and accurate explanation of governmental responses at federal, state, and local levels, including specific policies and their impacts."
+    ],
+    [
+      "Fails to connect demographic\/social changes with governmental responses.",
+      "Attempts to connect changes and responses, but connections are illogical or inaccurate.",
+      "Makes superficial connections between changes and responses.",
+      "Connects some demographic\/social changes to corresponding governmental responses with some rationale.",
+      "Clearly connects multiple demographic\/social changes to specific governmental responses, explaining the rationale behind the responses.",
+      "Insightfully connects a broad range of demographic\/social changes to governmental responses, analyzing the effectiveness and consequences of those responses."
+    ],
+    [
+      "Provides no evidence or examples to support claims.",
+      "Provides irrelevant or inaccurate evidence\/examples.",
+      "Provides limited and weakly relevant evidence\/examples.",
+      "Provides some relevant evidence\/examples to support claims.",
+      "Provides strong and relevant evidence\/examples to support claims, demonstrating research skills.",
+      "Provides compelling and diverse evidence\/examples to support claims, demonstrating in-depth research and critical analysis."
+    ]
+  ]
+}

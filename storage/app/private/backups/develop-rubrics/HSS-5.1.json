@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and Completeness of Descriptions: Assessing the student's ability to accurately and comprehensively describe the major pre-Columbian settlements as outlined in the standard.",
+    "Contextual Understanding: Evaluating the student's ability to place these settlements within their geographic and historical context.",
+    "Clarity and Organization: Assessing how clearly and logically the student presents the information."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding or provides no information about the major pre-Columbian settlements.",
+      "The student attempts to describe settlements but provides inaccurate or very incomplete information, showing minimal understanding.",
+      "The student identifies and describes one or two settlements with some accuracy but lacks detail or omits key information.",
+      "The student describes several settlements with reasonable accuracy, including some details about their locations and characteristics, but may miss nuances or further details.",
+      "The student accurately describes most of the specified settlements (cliff dwellers\/pueblo people, Pacific Northwest Indians, Great Plains nomads, and woodland peoples), providing relevant details about their locations, lifestyles, and cultural traits.",
+      "The student provides a comprehensive and accurate description of all specified pre-Columbian settlements, including detailed information about their locations, lifestyles, cultural traits, and interactions with the environment. Demonstrates a thorough understanding of the diversity among these societies."
+    ],
+    [
+      "The student does not demonstrate any contextual understanding of the settlements, or their relationship to the environment and time period.",
+      "The student shows a limited ability to contextualize settlements, providing vague or inaccurate information about their environment or historical period.",
+      "The student identifies the general geographic location of some settlements but does not explain how the environment influenced their way of life.",
+      "The student explains how the environment influenced the way of life for some settlements, but lacks depth or omits crucial details.",
+      "The student effectively explains how the geographic and historical context influenced the development and characteristics of multiple settlements, providing specific examples.",
+      "The student demonstrates a deep understanding of the interplay between the environment, historical period, and the development of pre-Columbian settlements, providing nuanced explanations and insightful connections."
+    ],
+    [
+      "The student's response is incomprehensible and lacks any semblance of organization.",
+      "The student struggles to communicate ideas clearly; the response is disorganized and difficult to follow.",
+      "The student presents information in a somewhat organized manner, but lacks clarity in some areas, making it difficult to fully understand.",
+      "The student generally communicates ideas clearly and presents information in a logical order, with minor lapses in clarity or organization.",
+      "The student presents information clearly and logically, making it easy to follow and understand the key points about each settlement.",
+      "The student communicates ideas with exceptional clarity and presents information in a highly organized and coherent manner, enhancing the reader's understanding of the subject matter."
+    ]
+  ]
+}

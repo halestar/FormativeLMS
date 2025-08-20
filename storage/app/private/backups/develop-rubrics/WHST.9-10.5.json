@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Focus and Purpose",
+    "Revision and Editing",
+    "Adaptation and Innovation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The writing lacks a clear focus or purpose. There is no evidence of planning or revision.",
+      "The writing has a vague focus or purpose. There is minimal evidence of planning or revision.",
+      "The writing demonstrates a somewhat clear focus and purpose, but it may drift occasionally. There is some evidence of planning and revision.",
+      "The writing has a clear focus and purpose that is mostly maintained throughout. The student demonstrates planning and revision, addressing some key areas.",
+      "The writing has a strong, consistent focus and purpose that is well-maintained. The student demonstrates effective planning and revision, addressing significant aspects for the intended audience.",
+      "The writing is sharply focused with a compelling purpose that is expertly sustained. The student demonstrates sophisticated planning and revision, strategically addressing the most significant elements for the specific audience and purpose."
+    ],
+    [
+      "The writing shows no evidence of revision or editing. Errors are frequent and impede understanding.",
+      "The writing shows minimal revision or editing. Errors are noticeable and sometimes distract the reader.",
+      "The writing shows some revision and editing, but errors are still present. The writing is understandable, but improvements are needed.",
+      "The writing demonstrates revision and editing. Errors are minimal and do not significantly impede understanding.",
+      "The writing demonstrates careful revision and editing. Errors are rare and do not distract the reader.",
+      "The writing is polished and refined through comprehensive revision and editing. It is virtually error-free and enhances the reader's experience."
+    ],
+    [
+      "The writing does not attempt any new approaches or adaptations. It is formulaic and uninspired.",
+      "The writing attempts a new approach or adaptation, but it is not effective or well-executed.",
+      "The writing attempts a new approach or adaptation with some success, but it may be inconsistent or underdeveloped.",
+      "The writing demonstrates a new approach or adaptation that enhances the writing in some way.",
+      "The writing demonstrates a thoughtful and effective new approach or adaptation that significantly improves the writing.",
+      "The writing demonstrates an innovative and masterful new approach or adaptation that elevates the writing to a higher level."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Landform and Water Body Representation",
+    "Clarity and Organization of the Model",
+    "Application of Patterns and Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Model demonstrates no recognizable landforms or bodies of water; inaccurate representation.",
+      "Model includes some basic landforms or bodies of water, but with significant inaccuracies.",
+      "Model identifies several landforms and\/or bodies of water, but accuracy is limited and details are missing.",
+      "Model accurately represents most common landforms and bodies of water with reasonable detail.",
+      "Model accurately depicts a wide range of landforms and bodies of water with specific details and accurate proportions.",
+      "Model provides an exceptionally accurate and detailed representation of various landforms and bodies of water, showcasing a deep understanding of their characteristics and relationships."
+    ],
+    [
+      "Model is disorganized and lacks clarity; difficult to understand what is being represented.",
+      "Model shows minimal organization; somewhat difficult to identify different components.",
+      "Model is generally organized, but some aspects are unclear or difficult to distinguish.",
+      "Model is well-organized and clear, with easily identifiable landforms and bodies of water.",
+      "Model is exceptionally clear and well-organized, enhancing understanding of the represented area; labels and keys are used effectively.",
+      "Model's clarity and organization are exemplary; the visual presentation significantly enhances understanding and insight into the represented geographical features."
+    ],
+    [
+      "Model does not demonstrate any understanding of patterns or relationships between landforms and bodies of water.",
+      "Model hints at patterns or relationships but lacks clear articulation.",
+      "Model recognizes some basic patterns or relationships between landforms and bodies of water.",
+      "Model explains several patterns and relationships with supporting evidence.",
+      "Model thoroughly analyzes various patterns and relationships using specific details from the model.",
+      "Model provides an insightful and comprehensive analysis of complex patterns and relationships, demonstrating an advanced understanding of Earth's systems and interactions."
+    ]
+  ]
+}

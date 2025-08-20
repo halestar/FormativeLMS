@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information",
+    "Scope of Understanding",
+    "Clarity of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides no information or information is completely inaccurate.",
+      "Provides minimal information with significant inaccuracies.",
+      "Provides some accurate information but includes several inaccuracies or omissions.",
+      "Provides mostly accurate information with minor inaccuracies or omissions.",
+      "Provides accurate information with only very minor omissions.",
+      "Provides comprehensive and accurate information about school policies and community laws."
+    ],
+    [
+      "Demonstrates no understanding of the policies and laws.",
+      "Demonstrates a very limited understanding, covering only one aspect.",
+      "Demonstrates a basic understanding, covering a few aspects but missing key elements.",
+      "Demonstrates a good understanding, covering most aspects with some depth.",
+      "Demonstrates a strong understanding, covering all aspects in detail.",
+      "Demonstrates a comprehensive understanding of all policies and laws, including nuances and connections."
+    ],
+    [
+      "Explanation is incomprehensible.",
+      "Explanation is unclear and difficult to understand.",
+      "Explanation is somewhat clear but contains confusing elements.",
+      "Explanation is generally clear and understandable.",
+      "Explanation is clear, concise, and easy to understand.",
+      "Explanation is exceptionally clear, well-organized, and effectively communicates complex information."
+    ]
+  ]
+}

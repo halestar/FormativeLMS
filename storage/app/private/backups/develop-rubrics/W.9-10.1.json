@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Clarity and Precision of Claim(s)",
+    "Organization and Structure",
+    "Use of Evidence and Reasoning",
+    "Awareness of Audience and Counterclaims",
+    "Use of Language and Style"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Claim is missing, unclear, or does not address the topic.",
+      "Claim is vague, lacks precision, or only partially addresses the topic.",
+      "Claim is identifiable but could be more focused or directly related to the topic.",
+      "Claim is clear, focused, and relevant to the topic, with a discernible position.",
+      "Claim is precise, insightful, and clearly establishes the writer's position on the topic.",
+      "Claim is exceptionally clear, sophisticated, and offers a nuanced perspective on the topic."
+    ],
+    [
+      "No discernible organization; ideas are presented randomly.",
+      "Organization is weak and confusing; connections between ideas are unclear.",
+      "Organization is present but inconsistent; transitions are weak or missing.",
+      "Organization is logical and supports the argument; transitions are generally smooth.",
+      "Organization is well-developed and enhances the argument; transitions are effective and create cohesion.",
+      "Organization is masterful, creating a seamless flow of ideas that strengthens the argument and engages the reader."
+    ],
+    [
+      "No evidence is provided, or reasoning is completely absent.",
+      "Evidence is minimal, irrelevant, or reasoning is flawed.",
+      "Evidence is present but insufficient to support claims; reasoning may contain gaps or fallacies.",
+      "Evidence is relevant and supports claims; reasoning is generally sound and logical.",
+      "Evidence is compelling and strengthens claims; reasoning is insightful and addresses counterclaims effectively.",
+      "Evidence is abundant, persuasive, and masterfully integrated; reasoning is sophisticated and thoroughly addresses counterclaims with nuance."
+    ],
+    [
+      "No awareness of audience or counterclaims is demonstrated.",
+      "Minimal awareness of audience or counterclaims; counterclaims are ignored or misrepresented.",
+      "Awareness of audience and counterclaims is superficial; counterclaims are acknowledged but not adequately addressed.",
+      "Awareness of audience is evident; counterclaims are acknowledged and addressed with some consideration.",
+      "Demonstrates a strong awareness of audience and effectively addresses counterclaims with relevant evidence and reasoning.",
+      "Demonstrates a sophisticated understanding of audience and skillfully anticipates and refutes counterclaims with compelling evidence and nuanced reasoning."
+    ],
+    [
+      "Language is unclear, inappropriate, and contains numerous errors.",
+      "Language is simplistic, imprecise, and contains frequent errors.",
+      "Language is adequate but lacks sophistication; errors may distract from the argument.",
+      "Language is clear, precise, and appropriate for the audience; errors are minimal.",
+      "Language is sophisticated, engaging, and enhances the argument; errors are negligible.",
+      "Language is eloquent, compelling, and demonstrates a mastery of style and tone; errors are absent."
+    ]
+  ]
+}

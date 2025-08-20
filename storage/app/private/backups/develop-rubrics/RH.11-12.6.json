@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Differing Viewpoints",
+    "Assessment of Claims",
+    "Evaluation of Reasoning",
+    "Analysis of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify different points of view presented by authors on the same event or issue.",
+      "Identifies different points of view, but with significant inaccuracies or omissions.",
+      "Identifies different points of view, but lacks depth and clarity.",
+      "Identifies different points of view with reasonable accuracy and clarity.",
+      "Clearly and accurately identifies different points of view presented by the authors.",
+      "Clearly, accurately, and insightfully identifies different points of view, demonstrating a nuanced understanding."
+    ],
+    [
+      "Unable to assess the validity or relevance of authors' claims.",
+      "Attempts to assess claims, but with significant errors in understanding or analysis.",
+      "Provides a superficial assessment of claims without substantial reasoning.",
+      "Assesses claims with some reasoning, but may lack depth or critical insight.",
+      "Effectively assesses the validity and relevance of authors' claims using sound reasoning.",
+      "Critically and insightfully assesses authors' claims, demonstrating a comprehensive understanding of their validity and underlying assumptions."
+    ],
+    [
+      "Does not evaluate the authors' reasoning or logic.",
+      "Attempts to evaluate reasoning, but demonstrates flawed understanding or analysis.",
+      "Provides a basic evaluation of reasoning, but lacks critical analysis or justification.",
+      "Evaluates reasoning with some critical thought, but may have minor gaps in analysis.",
+      "Thoroughly evaluates the authors' reasoning, identifying strengths and weaknesses with clear justification.",
+      "Insightfully and critically evaluates the authors' reasoning, demonstrating a sophisticated understanding of logical fallacies and persuasive techniques."
+    ],
+    [
+      "Fails to analyze the evidence presented by the authors.",
+      "Attempts to analyze evidence, but with significant misinterpretations or omissions.",
+      "Provides a superficial analysis of evidence without connecting it to the authors' claims or reasoning.",
+      "Analyzes evidence and connects it to the authors' claims and reasoning with some clarity.",
+      "Effectively analyzes the evidence, explaining how it supports or undermines the authors' viewpoints.",
+      "Critically and insightfully analyzes the evidence, demonstrating a comprehensive understanding of its strengths, limitations, and potential biases."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Perspectives",
+    "Understanding of Cultural Context",
+    "Analysis of Viewpoints"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any perspectives or viewpoints from the provided materials.",
+      "The student identifies only one perspective with significant inaccuracies or misunderstandings.",
+      "The student identifies one perspective with reasonable accuracy but struggles to articulate its viewpoint.",
+      "The student identifies two perspectives with reasonable accuracy and articulates their viewpoints with some limitations.",
+      "The student identifies multiple perspectives accurately, articulates their viewpoints clearly, and demonstrates a good understanding of their nuances.",
+      "The student expertly identifies and analyzes multiple perspectives, articulates their viewpoints with exceptional clarity and insight, and demonstrates a comprehensive understanding of their cultural context."
+    ],
+    [
+      "Demonstrates no understanding of the cultural context of the identified perspectives.",
+      "Shows minimal awareness of the cultural context, with significant misunderstandings.",
+      "Displays some awareness of the cultural context, but struggles to connect it to the identified perspectives.",
+      "Connects the cultural context to the identified perspectives with some limitations and minor inaccuracies.",
+      "Clearly connects the cultural context to the identified perspectives, demonstrating a solid understanding of their relationship.",
+      "Demonstrates a deep and nuanced understanding of the cultural context and expertly connects it to the identified perspectives, providing insightful analysis."
+    ],
+    [
+      "Provides no analysis of the identified viewpoints.",
+      "Attempts to analyze viewpoints, but the analysis is superficial and lacks depth.",
+      "Provides a basic analysis of viewpoints, but struggles to support claims with evidence from the materials.",
+      "Offers a reasonable analysis of viewpoints, supporting claims with some evidence from the materials.",
+      "Presents a thorough and well-supported analysis of viewpoints, using relevant evidence from the materials effectively.",
+      "Delivers an insightful and sophisticated analysis of viewpoints, using evidence from the materials masterfully to support compelling arguments."
+    ]
+  ]
+}

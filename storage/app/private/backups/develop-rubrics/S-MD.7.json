@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Probability Concepts",
+    "Analyzing Decisions and Strategies",
+    "Application to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of basic probability concepts.",
+      "Student demonstrates a limited understanding of basic probability concepts, struggling to apply them.",
+      "Student shows a basic understanding of probability concepts but makes frequent errors in application.",
+      "Student demonstrates a solid understanding of probability concepts and applies them correctly in most situations.",
+      "Student shows a strong understanding of probability concepts and applies them accurately and effectively.",
+      "Student demonstrates a comprehensive understanding of probability concepts, applying them insightfully and precisely."
+    ],
+    [
+      "Student cannot analyze decisions or strategies using probability.",
+      "Student attempts to analyze decisions but struggles to connect probability concepts to the analysis.",
+      "Student can identify some relevant probability concepts but has difficulty integrating them into a coherent analysis.",
+      "Student analyzes decisions and strategies using probability concepts, with occasional minor errors or omissions.",
+      "Student effectively analyzes decisions and strategies using probability concepts, providing clear justifications.",
+      "Student expertly analyzes complex decisions and strategies using probability concepts, demonstrating a sophisticated understanding and insightful conclusions."
+    ],
+    [
+      "Student does not apply probability concepts to real-world scenarios.",
+      "Student struggles to relate probability concepts to real-world scenarios.",
+      "Student can identify real-world scenarios but cannot effectively apply probability concepts to them.",
+      "Student applies probability concepts to analyze real-world scenarios with reasonable accuracy.",
+      "Student effectively uses probability concepts to evaluate outcomes and make informed decisions in real-world scenarios.",
+      "Student demonstrates exceptional ability to use probability concepts to analyze and provide optimal solutions to real-world scenarios."
+    ]
+  ]
+}

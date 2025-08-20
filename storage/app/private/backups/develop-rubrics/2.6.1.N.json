@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting",
+    "Nutritional Awareness",
+    "Practical Application"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal is set for choosing healthy foods.",
+      "A goal is mentioned, but it is vague and not focused on healthy food choices.",
+      "A goal is set, but it is either not realistic or not specific enough regarding healthy food choices.",
+      "A short-term goal is set for choosing healthy foods, but it lacks clarity or a plan for implementation.",
+      "A clear, short-term goal is set for choosing healthy foods, with some basic planning.",
+      "A well-defined, realistic short-term goal is set for choosing healthy foods for snacks and meals, including a detailed plan for implementation and potential obstacles."
+    ],
+    [
+      "Demonstrates no awareness of what constitutes healthy food choices.",
+      "Shows minimal understanding of healthy food choices.",
+      "Displays some awareness of healthy food choices but lacks detail.",
+      "Demonstrates adequate awareness of healthy food choices, identifying some key nutritional aspects.",
+      "Shows good awareness of healthy food choices, explaining nutritional benefits.",
+      "Exhibits comprehensive awareness of healthy food choices, detailing nutritional benefits and making informed decisions."
+    ],
+    [
+      "Does not attempt to apply the goal to real-life snack and meal choices.",
+      "Makes a weak attempt to apply the goal but with little connection to actual food choices.",
+      "Applies the goal to some snack or meal choices, but inconsistently.",
+      "Applies the goal to several snack and meal choices with reasonable consistency.",
+      "Consistently applies the goal to snack and meal choices, demonstrating practical understanding.",
+      "Masterfully applies the goal to all snack and meal choices, showing a deep understanding of how to make healthy food choices a regular part of their diet."
+    ]
+  ]
+}

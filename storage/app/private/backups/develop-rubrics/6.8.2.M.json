@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Recognizing Bullying and Teasing Based on Personal Characteristics or Sexual Orientation",
+    "Expressing Disapproval or Objection to Teasing and Bullying",
+    "Supporting Peers Targeted by Teasing and Bullying"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not recognize or acknowledge instances of teasing or bullying.",
+      "Shows minimal recognition of teasing or bullying, may require prompting to identify it.",
+      "Recognizes some instances of teasing or bullying but struggles to identify the underlying personal characteristics or perceived sexual orientation.",
+      "Consistently recognizes teasing and bullying and can identify the personal characteristics or perceived sexual orientation that are targeted.",
+      "Clearly and consistently recognizes instances of teasing and bullying, accurately identifies the targeted characteristics, and explains why such behavior is inappropriate.",
+      "Demonstrates a comprehensive understanding of teasing and bullying dynamics, including targeted characteristics, and proactively identifies and addresses these issues."
+    ],
+    [
+      "Remains silent or indifferent to teasing or bullying, does not express any form of disapproval.",
+      "Shows passive disapproval (e.g., facial expression) but does not verbally object to the behavior.",
+      "Verbalizes mild disapproval, such as stating that the teasing or bullying is \u2018not nice\u2019 but provides no further rationale.",
+      "Clearly and directly objects to the teasing or bullying, stating that it is wrong or unfair.",
+      "Articulates a thoughtful objection, explaining why the teasing or bullying is harmful or discriminatory.",
+      "Forcefully and articulately objects to the teasing or bullying, and encourages others to do the same."
+    ],
+    [
+      "Does not offer support or assistance to peers who are being teased or bullied.",
+      "Offers minimal support (e.g., a comforting pat) without taking further action.",
+      "Offers basic verbal support, such as saying \u2018I\u2019m sorry that happened to you.\u2019",
+      "Provides active support, such as intervening in the situation or offering to help the targeted peer report the incident.",
+      "Demonstrates strong support by advocating for the targeted peer, confronting the bullies, and seeking help from adults.",
+      "Takes a leadership role in supporting targeted peers, organizing group efforts to address bullying, and creating a more inclusive environment."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Consequences of Alcohol Use During Pregnancy",
+    "Understanding of Consequences of Tobacco Use During Pregnancy",
+    "Understanding of Consequences of Other Drug Use During Pregnancy",
+    "Understanding of Fetal Alcohol Spectrum Disorders (FASDs)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the consequences of alcohol use during pregnancy.",
+      "The student shows a minimal understanding, with significant inaccuracies or omissions regarding the effects of alcohol on the fetus.",
+      "The student identifies some consequences but lacks depth or detail in their explanation of the specific effects of alcohol on the developing fetus.",
+      "The student accurately describes several consequences of alcohol use during pregnancy, including some effects on fetal development, but may lack comprehensive detail.",
+      "The student provides a detailed explanation of the consequences of alcohol use during pregnancy, including specific effects on fetal development and potential long-term health issues.",
+      "The student comprehensively explains the consequences of alcohol use during pregnancy, including detailed effects on fetal development, potential long-term health issues, and demonstrates understanding of Fetal Alcohol Spectrum Disorders (FASDs)."
+    ],
+    [
+      "The student demonstrates no understanding of the consequences of tobacco use during pregnancy.",
+      "The student shows a minimal understanding, with significant inaccuracies or omissions regarding the effects of tobacco on the fetus.",
+      "The student identifies some consequences but lacks depth or detail in their explanation of the specific effects of tobacco on the developing fetus.",
+      "The student accurately describes several consequences of tobacco use during pregnancy, including some effects on fetal development, but may lack comprehensive detail.",
+      "The student provides a detailed explanation of the consequences of tobacco use during pregnancy, including specific effects on fetal development and potential long-term health issues.",
+      "The student comprehensively explains the consequences of tobacco use during pregnancy, including detailed effects on fetal development, potential long-term health issues, and potential consequences to the mother."
+    ],
+    [
+      "The student demonstrates no understanding of the consequences of other drug use during pregnancy.",
+      "The student shows a minimal understanding, with significant inaccuracies or omissions regarding the effects of drug use on the fetus.",
+      "The student identifies some consequences but lacks depth or detail in their explanation of the specific effects of drug use on the developing fetus.",
+      "The student accurately describes several consequences of drug use during pregnancy, including some effects on fetal development, but may lack comprehensive detail.",
+      "The student provides a detailed explanation of the consequences of drug use during pregnancy, including specific effects on fetal development and potential long-term health issues.",
+      "The student comprehensively explains the consequences of drug use during pregnancy, including detailed effects on fetal development, potential long-term health issues, and can cite specific examples of drugs and their effects."
+    ],
+    [
+      "The student demonstrates no understanding of Fetal Alcohol Spectrum Disorders.",
+      "The student shows a minimal understanding of FASDs, with significant inaccuracies or omissions regarding the nature and effects of these disorders.",
+      "The student identifies FASDs but lacks depth or detail in their explanation of the specific characteristics and impacts of these disorders.",
+      "The student accurately describes several characteristics and impacts of FASDs, but may lack comprehensive detail or understanding of the full spectrum of disorders.",
+      "The student provides a detailed explanation of the characteristics, impacts, and range of disorders included in FASDs.",
+      "The student comprehensively explains the characteristics, impacts, range of disorders included in FASDs, demonstrates understanding of the causes and prevention strategies, and can discuss the long-term implications for individuals and families."
+    ]
+  ]
+}

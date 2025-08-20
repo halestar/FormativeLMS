@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Analog vs. Digital Signals",
+    "Reliability of Digitized Signals",
+    "Examples of Wave Applications in Communication",
+    "Integration of Information from Multiple Sources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the difference between analog and digital signals.",
+      "The student shows a very basic understanding of either analog or digital signals, but not both.",
+      "The student can identify analog and digital signals but struggles to explain the difference in their encoding and transmission.",
+      "The student can explain the difference between analog and digital signals and how they encode information.",
+      "The student clearly explains the difference between analog and digital signals, including how they encode and transmit information, and provides a simple example.",
+      "The student provides a comprehensive explanation of analog and digital signals, their encoding and transmission methods, and offers detailed examples, highlighting the advantages and disadvantages of each."
+    ],
+    [
+      "The student does not understand why digitized signals are more reliable.",
+      "The student vaguely mentions reliability but does not provide a reason.",
+      "The student states that digital signals are more reliable but provides a weak or inaccurate reason.",
+      "The student provides a valid reason why digital signals are more reliable than analog signals.",
+      "The student clearly explains why digitized signals are more reliable, mentioning noise reduction or error correction.",
+      "The student provides an in-depth explanation of the reliability of digital signals, including noise immunity, error correction, and the ability to reproduce signals perfectly."
+    ],
+    [
+      "The student cannot provide any examples of how waves are used for communication.",
+      "The student provides an irrelevant or incorrect example.",
+      "The student provides a single, basic example of wave-based communication.",
+      "The student provides two relevant examples of wave-based communication, such as fiber optics or radio waves.",
+      "The student describes multiple examples of wave-based communication with some explanation of how they function.",
+      "The student provides multiple detailed examples of wave-based communication, explaining their functions and the type of waves used in each case."
+    ],
+    [
+      "The student presents information solely from one source without attempting to integrate it with other sources.",
+      "The student attempts to use multiple sources but shows no connection between them.",
+      "The student mentions multiple sources, but the information is presented separately without integration.",
+      "The student integrates information from at least two sources to support their claims.",
+      "The student effectively integrates information from various sources (text, media, visual displays) to support their claims and clarify their findings.",
+      "The student masterfully integrates information from a wide range of sources, synthesizing the information to create a coherent and insightful explanation."
+    ]
+  ]
+}

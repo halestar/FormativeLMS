@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Construction of Scatter Plot",
+    "Interpretation of Association",
+    "Identification of Patterns",
+    "Communication and Clarity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Scatter plot is not constructed or is completely inaccurate, bearing no resemblance to the data.",
+      "Scatter plot is poorly constructed with multiple errors in plotting points or axes labeling.",
+      "Scatter plot has some errors in plotting points or axes labeling, but the overall structure is visible.",
+      "Scatter plot is mostly accurate with minor errors that do not significantly impact interpretation.",
+      "Scatter plot is accurately constructed with clear axes labels and correctly plotted points.",
+      "Scatter plot is exceptionally well-constructed, demonstrating precision and clarity in representing the data."
+    ],
+    [
+      "No attempt to interpret the association between variables is made.",
+      "Interpretation is incorrect or demonstrates a misunderstanding of association types.",
+      "Interpretation is vague or superficial, lacking specific details about the association.",
+      "Interpretation identifies the general direction (positive or negative) of the association but lacks depth.",
+      "Interpretation accurately describes the direction and strength of the association, referencing the scatter plot.",
+      "Interpretation provides a thorough and insightful analysis of the association, including consideration of potential influencing factors."
+    ],
+    [
+      "No patterns (clustering, outliers, linearity) are identified.",
+      "Patterns are incorrectly identified or misunderstood.",
+      "Some patterns are mentioned, but the description is unclear or inaccurate.",
+      "Patterns such as clustering or outliers are identified, but the description lacks detail.",
+      "Patterns are accurately identified and described with specific references to the scatter plot.",
+      "Patterns are comprehensively analyzed, including discussion of potential causes or implications of the observed patterns."
+    ],
+    [
+      "Explanation is unclear and difficult to understand.",
+      "Explanation is poorly organized and lacks coherence.",
+      "Explanation is understandable but lacks detail and supporting evidence.",
+      "Explanation is generally clear and organized, but some aspects could be improved.",
+      "Explanation is clear, well-organized, and supported by relevant details.",
+      "Explanation is exceptionally clear, concise, and insightful, demonstrating a deep understanding of the concepts."
+    ]
+  ]
+}

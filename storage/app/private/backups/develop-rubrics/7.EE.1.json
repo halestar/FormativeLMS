@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Applying the distributive property to expand linear expressions with rational coefficients.",
+    "Factoring linear expressions with rational coefficients.",
+    "Adding and subtracting linear expressions with rational coefficients."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt to expand the expression or demonstrates no understanding of the distributive property.",
+      "Student attempts to apply the distributive property but makes significant errors in multiplying coefficients or combining like terms.",
+      "Student applies the distributive property with some errors, resulting in an incorrect expansion of the linear expression.",
+      "Student correctly applies the distributive property to expand the linear expression but may have minor errors in simplification.",
+      "Student accurately applies the distributive property and simplifies the expanded linear expression with rational coefficients, demonstrating a strong understanding.",
+      "Student demonstrates a sophisticated understanding of the distributive property, accurately expands and simplifies the expression, and can explain the reasoning behind each step."
+    ],
+    [
+      "Student does not attempt to factor the expression or demonstrates no understanding of factoring.",
+      "Student attempts to factor but cannot identify a common factor or makes significant errors in the process.",
+      "Student identifies a common factor but factors the expression incorrectly, leading to an inaccurate result.",
+      "Student factors the expression correctly but may not fully simplify or identify the greatest common factor.",
+      "Student accurately factors the linear expression, identifies the greatest common factor, and presents the factored form correctly.",
+      "Student demonstrates a deep understanding of factoring, accurately factors the expression, simplifies completely, and can explain the relationship between factoring and the distributive property."
+    ],
+    [
+      "Student does not attempt to add or subtract the expressions or shows no understanding of combining like terms.",
+      "Student attempts to add or subtract but makes significant errors in identifying and combining like terms.",
+      "Student adds or subtracts with some errors, resulting in an incorrect simplified expression.",
+      "Student correctly adds or subtracts the linear expressions but may have minor errors in simplification or combining all like terms.",
+      "Student accurately adds and subtracts the linear expressions, simplifies the result completely, and demonstrates a strong understanding of combining like terms with rational coefficients.",
+      "Student demonstrates a sophisticated understanding of adding and subtracting linear expressions, simplifies accurately, and can explain the properties of operations used in the process."
+    ]
+  ]
+}

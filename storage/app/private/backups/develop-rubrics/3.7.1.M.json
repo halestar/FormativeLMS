@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Emotions",
+    "Evaluation of Coping Strategies",
+    "Application to Self and Others",
+    "Understanding of Long-Term Impact"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify or recognize any emotions (fear, stress, anger, loss, grief) in oneself or others.",
+      "Identifies only one emotion with limited accuracy.",
+      "Identifies two emotions, but demonstrates a superficial understanding.",
+      "Identifies most emotions and demonstrates a basic understanding of their triggers and manifestations.",
+      "Accurately identifies all emotions and demonstrates a solid understanding of their triggers and manifestations.",
+      "Accurately identifies all emotions, demonstrates a comprehensive understanding of their triggers and manifestations, and articulates the complexity of emotional experiences."
+    ],
+    [
+      "Unable to evaluate or suggest any coping strategies for dealing with emotions.",
+      "Suggests one or two coping strategies, but they are ineffective or inappropriate.",
+      "Suggests a few coping strategies with limited evaluation of their effectiveness.",
+      "Evaluates several coping strategies and identifies some benefits and drawbacks.",
+      "Evaluates a range of coping strategies and provides a detailed analysis of their effectiveness and suitability for different situations.",
+      "Evaluates a wide array of coping strategies, provides a nuanced analysis of their effectiveness and suitability, and demonstrates an understanding of personalized approaches to emotional regulation."
+    ],
+    [
+      "Unable to apply coping strategies to oneself or others.",
+      "Demonstrates difficulty in applying coping strategies to either oneself or others.",
+      "Applies coping strategies to either oneself or others with limited effectiveness.",
+      "Applies coping strategies to both oneself and others with some degree of effectiveness.",
+      "Effectively applies coping strategies to both oneself and others, demonstrating empathy and understanding.",
+      "Skillfully applies coping strategies to both oneself and others, demonstrating empathy, understanding, and adaptability in diverse situations."
+    ],
+    [
+      "Shows no understanding of the long-term impact of unmanaged emotions.",
+      "Demonstrates a limited awareness of the long-term impact of unmanaged emotions.",
+      "Recognizes some potential long-term consequences of unmanaged emotions.",
+      "Understands the potential long-term consequences of unmanaged emotions on mental and physical health.",
+      "Articulates the long-term consequences of unmanaged emotions and the importance of proactive coping strategies.",
+      "Provides a comprehensive analysis of the long-term consequences of unmanaged emotions, emphasizing the importance of resilience and proactive strategies for maintaining well-being."
+    ]
+  ]
+}

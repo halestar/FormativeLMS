@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Lawmaking Processes",
+    "Comparison of Lawmaking Processes",
+    "Role of Lobbying and Media"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of lawmaking processes at any level of government.",
+      "Demonstrates a very limited understanding of lawmaking processes, with significant inaccuracies or omissions.",
+      "Demonstrates a basic understanding of lawmaking processes at one level of government (national, state, or local) but lacks understanding of the others.",
+      "Demonstrates a satisfactory understanding of lawmaking processes at two levels of government, with some minor inaccuracies or omissions.",
+      "Demonstrates a comprehensive understanding of lawmaking processes at all three levels of government, with only minor errors.",
+      "Demonstrates a thorough and insightful understanding of lawmaking processes at all three levels of government, including nuances and complexities."
+    ],
+    [
+      "Makes no attempt to compare lawmaking processes across different levels of government.",
+      "Attempts to compare lawmaking processes but provides inaccurate or superficial comparisons.",
+      "Provides a limited comparison of lawmaking processes, identifying only a few similarities or differences.",
+      "Provides a satisfactory comparison of lawmaking processes, identifying several similarities and differences at different levels of government.",
+      "Provides a comprehensive comparison of lawmaking processes, identifying key similarities and differences, and explaining the reasons for them.",
+      "Provides an insightful and nuanced comparison of lawmaking processes, demonstrating a deep understanding of the factors that shape lawmaking at different levels of government."
+    ],
+    [
+      "Does not address the role of lobbying or the media in lawmaking.",
+      "Mentions lobbying or the media but provides inaccurate or irrelevant information.",
+      "Describes the role of lobbying or the media in lawmaking in a limited or superficial way.",
+      "Explains the role of lobbying and the media in lawmaking at one or two levels of government, with some limitations.",
+      "Explains the role of lobbying and the media in lawmaking at all three levels of government, providing relevant examples.",
+      "Analyzes the role of lobbying and the media in lawmaking, demonstrating a critical understanding of their influence and impact."
+    ]
+  ]
+}

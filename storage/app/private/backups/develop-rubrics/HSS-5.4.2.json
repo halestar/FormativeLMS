@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Founders and Colonies",
+    "Reasons for Founding",
+    "Historical Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to identify any founders or the colonies they founded.",
+      "The student can identify one founder and the colony they founded with significant inaccuracies.",
+      "The student can identify one or two founders and their colonies with some inaccuracies or omissions.",
+      "The student can identify three to four founders and their respective colonies with minor inaccuracies.",
+      "The student can accurately identify five to six founders and their colonies.",
+      "The student accurately identifies all major individuals and groups responsible for founding the various colonies, demonstrating a comprehensive understanding."
+    ],
+    [
+      "The student does not provide any reasons for the founding of the colonies.",
+      "The student provides a reason for the founding of a colony, but it is largely inaccurate or irrelevant.",
+      "The student provides a reason for the founding of one or two colonies, but the reasons are simplistic or partially inaccurate.",
+      "The student provides somewhat accurate reasons for the founding of three to four colonies.",
+      "The student provides mostly accurate reasons for the founding of five to six colonies, demonstrating a good understanding of the motivations behind colonization.",
+      "The student provides accurate and detailed reasons for the founding of all the colonies mentioned, demonstrating a deep understanding of the diverse motivations including political, religious, social, and economic factors."
+    ],
+    [
+      "The student demonstrates no understanding of the historical context surrounding the founding of the colonies.",
+      "The student shows a minimal understanding of the historical context, with significant inaccuracies.",
+      "The student shows some understanding of the historical context, but struggles to connect it to the founding of the colonies.",
+      "The student connects the historical context to the founding of some of the colonies, but lacks depth.",
+      "The student effectively connects the historical context to the founding of most of the colonies, demonstrating a solid understanding.",
+      "The student expertly connects the historical context (political, religious, social, and economic) to the founding of all colonies discussed, demonstrating a nuanced and comprehensive understanding."
+    ]
+  ]
+}

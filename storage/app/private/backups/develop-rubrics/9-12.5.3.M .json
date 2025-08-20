@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Stress and Coping Mechanisms",
+    "Understanding Loss and Grief",
+    "Analysis of Unrealistic Body Image and its Impact",
+    "Understanding Depression and Seeking Help"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student fails to identify situations where help is needed for stress and demonstrates no understanding of coping mechanisms.",
+      "Student identifies situations with significant prompting and demonstrates a limited understanding of coping mechanisms.",
+      "Student identifies basic situations where help is needed for stress and demonstrates a basic understanding of coping mechanisms.",
+      "Student accurately identifies common situations where help is needed for stress and describes some coping mechanisms.",
+      "Student accurately identifies various situations where help is needed for stress and explains a variety of coping mechanisms.",
+      "Student comprehensively analyzes situations where help is needed for stress, explains a variety of coping mechanisms, and evaluates their effectiveness."
+    ],
+    [
+      "Student fails to recognize situations involving loss and demonstrates no understanding of the grieving process.",
+      "Student recognizes situations involving loss with prompting and demonstrates a limited understanding of the grieving process.",
+      "Student identifies basic situations involving loss and demonstrates a basic understanding of the grieving process.",
+      "Student accurately identifies common situations involving loss and describes aspects of the grieving process.",
+      "Student accurately identifies various situations involving loss and explains the stages and complexities of the grieving process.",
+      "Student comprehensively analyzes situations involving loss, explains the grieving process, and discusses healthy ways to cope with grief."
+    ],
+    [
+      "Student demonstrates no understanding of unrealistic body image and its potential impact.",
+      "Student demonstrates a limited understanding of unrealistic body image and its potential impact with significant prompting.",
+      "Student identifies unrealistic body image and mentions its potential impact.",
+      "Student describes the characteristics of unrealistic body image and explains its impact on mental and emotional health.",
+      "Student analyzes the factors contributing to unrealistic body image and explains its impact on mental, emotional, and physical health.",
+      "Student comprehensively analyzes the societal pressures contributing to unrealistic body image, evaluates its impact on overall well-being, and suggests strategies for promoting positive body image."
+    ],
+    [
+      "Student demonstrates no understanding of depression and the importance of seeking help.",
+      "Student demonstrates a limited understanding of depression and the importance of seeking help with significant prompting.",
+      "Student identifies basic symptoms of depression and acknowledges the importance of seeking help.",
+      "Student describes common symptoms of depression and explains the importance of seeking professional help.",
+      "Student analyzes the causes and symptoms of depression and explains the importance of seeking professional help and support.",
+      "Student comprehensively analyzes the multifaceted nature of depression, differentiates various types of depression, and advocates for seeking timely professional help and support, while also recognizing and addressing the stigma associated with mental health issues."
+    ]
+  ]
+}

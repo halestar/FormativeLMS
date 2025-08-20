@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the consequences of alcohol use during pregnancy",
+    "Understanding the consequences of tobacco use during pregnancy",
+    "Understanding the consequences of other drug use during pregnancy",
+    "Analysis of consequences for both mother and child"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of the effects of alcohol on the mother or child during pregnancy.",
+      "Demonstrates a minimal understanding of the effects of alcohol on the mother or child during pregnancy. Mentions one or two general effects.",
+      "Demonstrates a basic understanding of the effects of alcohol on the mother or child during pregnancy. Identifies some specific effects such as premature birth, but lacks depth.",
+      "Demonstrates a satisfactory understanding of the effects of alcohol on the mother and child during pregnancy. Explains specific effects on both the mother and child.",
+      "Demonstrates a thorough understanding of the effects of alcohol on the mother and child during pregnancy. Explains in detail specific effects such as Fetal Alcohol Spectrum Disorders (FASD) and other potential health problems.",
+      "Demonstrates a comprehensive understanding of the effects of alcohol on the mother and child during pregnancy. Explains in detail specific effects such as FASD, including the range of disorders, and other potential health problems with scientific accuracy."
+    ],
+    [
+      "Does not demonstrate any understanding of the effects of tobacco on the mother or child during pregnancy.",
+      "Demonstrates a minimal understanding of the effects of tobacco on the mother or child during pregnancy. Mentions one or two general effects.",
+      "Demonstrates a basic understanding of the effects of tobacco on the mother or child during pregnancy. Identifies some specific effects such as low birth weight, but lacks depth.",
+      "Demonstrates a satisfactory understanding of the effects of tobacco on the mother and child during pregnancy. Explains specific effects on both the mother and child.",
+      "Demonstrates a thorough understanding of the effects of tobacco on the mother and child during pregnancy. Explains in detail specific effects such as premature birth, low birth weight, and respiratory issues.",
+      "Demonstrates a comprehensive understanding of the effects of tobacco on the mother and child during pregnancy. Explains in detail specific effects, including the correlation between tobacco use and SIDS (Sudden Infant Death Syndrome), and other long-term health problems with scientific accuracy."
+    ],
+    [
+      "Does not demonstrate any understanding of the effects of other drugs on the mother or child during pregnancy.",
+      "Demonstrates a minimal understanding of the effects of other drugs on the mother or child during pregnancy. Mentions one or two general effects.",
+      "Demonstrates a basic understanding of the effects of other drugs on the mother or child during pregnancy. Identifies some specific effects such as addiction in the newborn, but lacks depth.",
+      "Demonstrates a satisfactory understanding of the effects of other drugs on the mother and child during pregnancy. Explains specific effects on both the mother and child.",
+      "Demonstrates a thorough understanding of the effects of other drugs on the mother and child during pregnancy. Explains in detail specific effects such as addiction in the newborn, developmental delays, and other potential health problems.",
+      "Demonstrates a comprehensive understanding of the effects of other drugs on the mother and child during pregnancy. Explains in detail specific effects, including the different classes of drugs and their varying effects on the fetus, with scientific accuracy."
+    ],
+    [
+      "Demonstrates no understanding of the consequences for both the mother and the child.",
+      "Demonstrates limited understanding, focusing primarily on either the mother or the child.",
+      "Identifies some consequences for both the mother and the child but lacks detail.",
+      "Adequately analyzes the consequences for both the mother and the child.",
+      "Thoroughly analyzes the consequences for both the mother and the child, providing specific examples.",
+      "Comprehensively analyzes the consequences for both the mother and the child, providing insightful examples and demonstrating a nuanced understanding of the complex relationships between substance use and health outcomes."
+    ]
+  ]
+}

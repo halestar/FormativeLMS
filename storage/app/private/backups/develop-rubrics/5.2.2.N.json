@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Family Influences on Food Choices",
+    "Understanding of Cultural Influences on Food Choices",
+    "Ability to Connect Family and Cultural Influences to Personal Food Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of how family influences food choices.",
+      "Student shows minimal awareness of family influences on food choices; response is vague or incomplete.",
+      "Student identifies some family influences on food choices, but explanation lacks depth and detail.",
+      "Student adequately explains how family influences food choices, providing relevant examples.",
+      "Student thoroughly explains how family influences food choices, providing specific and insightful examples.",
+      "Student demonstrates a comprehensive understanding of how family influences food choices, providing nuanced examples and showing a grasp of the complexities involved."
+    ],
+    [
+      "Student does not demonstrate any understanding of how culture influences food choices.",
+      "Student shows minimal awareness of cultural influences on food choices; response is vague or incomplete.",
+      "Student identifies some cultural influences on food choices, but explanation lacks depth and detail.",
+      "Student adequately explains how culture influences food choices, providing relevant examples.",
+      "Student thoroughly explains how culture influences food choices, providing specific and insightful examples.",
+      "Student demonstrates a comprehensive understanding of how culture influences food choices, providing nuanced examples and showing a grasp of the complexities involved."
+    ],
+    [
+      "Student is unable to connect family and\/or cultural influences to their own food choices or preferences.",
+      "Student makes a weak or superficial connection between family\/cultural influences and personal food choices.",
+      "Student identifies a connection between family\/cultural influences and personal food choices, but the explanation is limited.",
+      "Student adequately connects family and cultural influences to their own food choices, providing some explanation.",
+      "Student clearly connects family and cultural influences to their own food choices, providing detailed explanations and relevant examples.",
+      "Student insightfully connects family and cultural influences to their own food choices, demonstrating a strong understanding of the interplay between these factors and personal preferences."
+    ]
+  ]
+}

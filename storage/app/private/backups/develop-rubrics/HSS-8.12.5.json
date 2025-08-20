@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Location of Urbanization, Immigration, and Industrialization",
+    "Analyzing the Effects on the Social Fabric of Cities",
+    "Analyzing the Impact on Wealth and Economic Opportunity",
+    "Understanding the Conservation Movement"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of where urbanization, immigration, and industrialization occurred during the Industrial Revolution.",
+      "Identifies some locations of urbanization, immigration, or industrialization, but with significant inaccuracies.",
+      "Identifies major locations of urbanization, immigration, and industrialization with some minor inaccuracies.",
+      "Accurately identifies the key locations of urbanization, immigration, and industrialization during the Industrial Revolution.",
+      "Accurately identifies key locations and provides additional relevant details about these locations.",
+      "Accurately identifies key locations, provides detailed context, and explains why these locations were significant."
+    ],
+    [
+      "Shows no understanding of the effects of urbanization, immigration, and industrialization on the social structure and demographics of cities.",
+      "Identifies a few basic effects on the social fabric of cities with little explanation.",
+      "Describes some effects on the social fabric of cities, but lacks depth or specific examples.",
+      "Explains several effects of urbanization, immigration, and industrialization on the social fabric of cities with relevant examples.",
+      "Analyzes the complex effects on the social fabric, including changes in demographics, social classes, and community structures.",
+      "Provides a nuanced analysis of the far-reaching effects on urban social dynamics and can compare those effects across different cities or time periods."
+    ],
+    [
+      "Shows no understanding of the impact of urbanization, immigration, and industrialization on wealth and economic opportunity.",
+      "Mentions that wealth and economic opportunity changed, but provides no specifics.",
+      "Describes some basic impacts on wealth and economic opportunity with limited detail.",
+      "Explains how urbanization, immigration, and industrialization affected the distribution of wealth and economic opportunity.",
+      "Analyzes the complex economic effects, including the creation of new industries, the growth of a wage-earning class, and the accumulation of wealth.",
+      "Demonstrates a sophisticated understanding of the economic forces at play, including the impact on different social classes and the long-term consequences of these changes."
+    ],
+    [
+      "Demonstrates no understanding of the conservation movement during the Industrial Revolution.",
+      "Identifies the conservation movement, but does not explain its causes or goals.",
+      "Describes the conservation movement with limited detail about its aims and motivations.",
+      "Explains the key events, figures, and goals of the conservation movement in response to industrialization.",
+      "Analyzes the broader effects of the conservation movement on environmental policy and public awareness.",
+      "Provides a detailed analysis of the long-term impact of the conservation movement and relates it to contemporary environmental issues."
+    ]
+  ]
+}

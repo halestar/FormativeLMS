@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of the Main Idea",
+    "Comprehension of Supporting Details",
+    "Understanding of Authentic Texts",
+    "Use of Technology to Access Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the main idea in the text.",
+      "Student struggles to identify the main idea, even with significant prompting.",
+      "Student identifies a vague main idea but misses key components or misinterprets the overall message.",
+      "Student identifies the main idea with some accuracy but may overlook nuances or supporting context.",
+      "Student accurately identifies the main idea and provides relevant context, showing good comprehension.",
+      "Student skillfully identifies the main idea, provides insightful context, and demonstrates a deep understanding of its significance within the text."
+    ],
+    [
+      "Student demonstrates no comprehension of supporting details in the text.",
+      "Student struggles to identify any supporting details, even when explicitly pointed out.",
+      "Student identifies a few supporting details but misinterprets their relevance or connection to the main idea.",
+      "Student identifies some supporting details and understands their basic connection to the main idea.",
+      "Student accurately identifies and explains several key supporting details, demonstrating a clear understanding of their role in reinforcing the main idea.",
+      "Student skillfully identifies and analyzes a comprehensive range of supporting details, demonstrating a nuanced understanding of how they contribute to the overall message and impact of the text."
+    ],
+    [
+      "Student demonstrates no understanding of authentic texts.",
+      "Student struggles to understand even simple authentic texts, even with significant assistance.",
+      "Student understands basic vocabulary but cannot grasp the overall meaning or context of the authentic text.",
+      "Student understands the general topic but misses subtleties, cultural references, or implied meanings in the authentic text.",
+      "Student demonstrates a good understanding of the authentic text, including most key details, cultural references, and implied meanings.",
+      "Student demonstrates a sophisticated understanding of the authentic text, including subtle nuances, cultural implications, and deeper meanings."
+    ],
+    [
+      "Student does not use technology or is unable to use it to access information related to the text.",
+      "Student attempts to use technology but struggles to find relevant information or navigate digital resources effectively.",
+      "Student finds some relevant information using technology but struggles to evaluate its credibility or relevance to the topic.",
+      "Student uses technology to access relevant information and demonstrates a basic ability to evaluate its credibility.",
+      "Student effectively uses technology to access a variety of credible sources and synthesize information relevant to the text.",
+      "Student skillfully uses technology to conduct in-depth research, critically evaluate sources, and synthesize information from diverse perspectives, enhancing their understanding of the text."
+    ]
+  ]
+}

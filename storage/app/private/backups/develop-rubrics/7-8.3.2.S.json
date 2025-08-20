@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Accurate Sources",
+    "Application of Information",
+    "Understanding of Key Concepts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any sources of information or identifies sources that are clearly unreliable and inaccurate.",
+      "Student identifies one source, but it is of questionable accuracy or relevance.",
+      "Student identifies two sources, but their accuracy or relevance is limited.",
+      "Student identifies three sources that are generally accurate and relevant but may have minor limitations.",
+      "Student identifies four sources that are accurate, relevant, and credible, demonstrating a good understanding of source evaluation.",
+      "Student identifies multiple sources (5+) that are highly accurate, relevant, and credible, demonstrating a comprehensive understanding of source evaluation and selection."
+    ],
+    [
+      "Student does not apply information from the sources or misinterprets the information.",
+      "Student attempts to apply information but demonstrates significant misunderstandings.",
+      "Student applies information with some inaccuracies or incomplete understanding.",
+      "Student applies information accurately in some instances, but understanding is not consistent.",
+      "Student consistently applies information accurately and demonstrates a clear understanding of the concepts.",
+      "Student expertly applies information, demonstrating a nuanced and comprehensive understanding of the concepts, and synthesizes information from multiple sources effectively."
+    ],
+    [
+      "Student demonstrates no understanding of abuse, violence, or bullying.",
+      "Student demonstrates very limited understanding of abuse, violence, or bullying.",
+      "Student demonstrates a basic understanding of some aspects of abuse, violence, or bullying, but with significant gaps.",
+      "Student demonstrates a general understanding of abuse, violence, and bullying, including some of the key dynamics and impacts.",
+      "Student demonstrates a strong understanding of abuse, violence, and bullying, including their causes, consequences, and prevention strategies.",
+      "Student demonstrates a comprehensive and nuanced understanding of abuse, violence, and bullying, including the complexities of these issues and their societal implications."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Volume as Packing with Unit Cubes",
+    "Relating Volume to Multiplication",
+    "Solving Real-World Problems Involving Volume"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of volume as the space occupied by unit cubes.",
+      "Student attempts to pack a prism with unit cubes but struggles to do so accurately or completely.",
+      "Student can pack a simple prism with unit cubes but makes errors with more complex shapes or larger volumes.",
+      "Student accurately packs a right rectangular prism with unit cubes but may not clearly connect it to multiplication.",
+      "Student accurately packs prisms with unit cubes and explains the connection to multiplying side lengths.",
+      "Student demonstrates a deep understanding of volume by accurately packing various prisms and clearly explaining the relationship to multiplication, including the associative property."
+    ],
+    [
+      "Student does not relate volume to multiplication.",
+      "Student vaguely attempts to relate volume to multiplication but shows no understanding.",
+      "Student can calculate volume using multiplication for simple prisms but struggles with more complex shapes.",
+      "Student calculates the volume of right rectangular prisms using multiplication, showing basic understanding.",
+      "Student explains how multiplying edge lengths yields the volume and understands the different ways to group the multiplication.",
+      "Student fluently relates volume to multiplication, using the associative property to explain different calculation methods and demonstrating a complete understanding."
+    ],
+    [
+      "Student does not attempt or is unable to solve real-world problems involving volume.",
+      "Student attempts to solve real-world problems but makes significant errors.",
+      "Student can solve simple real-world problems involving volume but struggles with multi-step problems.",
+      "Student solves real-world problems involving volume with some accuracy, showing an ability to apply the concept.",
+      "Student solves real-world problems accurately and demonstrates an understanding of the practical applications of volume.",
+      "Student solves complex real-world problems involving volume with ease, providing clear explanations and demonstrating a deep understanding of the concept."
+    ]
+  ]
+}

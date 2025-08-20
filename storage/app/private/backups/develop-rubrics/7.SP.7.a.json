@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Probability Models",
+    "Comparison of Model Probabilities to Observed Frequencies",
+    "Development of Uniform Probability Models",
+    "Application of Probability Models to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of probability models or their use in finding probabilities.",
+      "Demonstrates minimal understanding of probability models; struggles to apply them.",
+      "Shows basic understanding of probability models but has difficulty in applying them to find probabilities.",
+      "Demonstrates a satisfactory understanding of probability models and can apply them to find probabilities in simple scenarios.",
+      "Shows a strong understanding of probability models and can apply them effectively to find probabilities in various scenarios.",
+      "Demonstrates an exceptional understanding of probability models and can expertly apply them to find probabilities in complex scenarios."
+    ],
+    [
+      "Unable to compare probabilities from a model to observed frequencies.",
+      "Struggles to compare probabilities from a model to observed frequencies and identify discrepancies.",
+      "Can make basic comparisons between model probabilities and observed frequencies but struggles to explain discrepancies.",
+      "Compares probabilities from a model to observed frequencies and identifies possible sources of discrepancy with some accuracy.",
+      "Effectively compares probabilities from a model to observed frequencies and clearly explains possible sources of discrepancy.",
+      "Masterfully compares probabilities from a model to observed frequencies, provides insightful explanations of discrepancies, and suggests improvements to the model."
+    ],
+    [
+      "Unable to develop a uniform probability model.",
+      "Struggles to develop a uniform probability model or assign equal probabilities.",
+      "Can develop a basic uniform probability model but struggles to use it to determine probabilities of events.",
+      "Develops a uniform probability model and uses it to determine probabilities of events with reasonable accuracy.",
+      "Develops a uniform probability model effectively and uses it accurately to determine probabilities of events.",
+      "Develops and expertly uses uniform probability models to determine probabilities of events and provides justification for the model's appropriateness."
+    ],
+    [
+      "Unable to apply probability models to real-world scenarios.",
+      "Struggles to apply probability models to real-world scenarios.",
+      "Attempts to apply probability models to real-world scenarios but with limited success.",
+      "Applies probability models to real-world scenarios with some degree of accuracy and relevance.",
+      "Applies probability models to real-world scenarios effectively and accurately, demonstrating a clear understanding of their applicability.",
+      "Applies probability models to real-world scenarios expertly, demonstrating a deep understanding and providing insightful interpretations of the results."
+    ]
+  ]
+}

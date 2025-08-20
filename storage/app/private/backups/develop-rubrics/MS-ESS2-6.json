@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of Model Representation",
+    "Explanation of Atmospheric Circulation",
+    "Explanation of Oceanic Circulation",
+    "Connection to Regional Climates"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or completely inaccurate and does not represent the Earth's heating and rotation.",
+      "The model contains significant inaccuracies and provides a poor representation of the Earth's heating and rotation.",
+      "The model has some inaccuracies but generally represents the Earth's heating and rotation.",
+      "The model is mostly accurate in representing the Earth's heating and rotation, with only minor errors.",
+      "The model accurately represents the Earth's heating and rotation and includes most key components.",
+      "The model accurately and comprehensively represents the Earth's heating and rotation, including all key components and their interactions."
+    ],
+    [
+      "There is no explanation, or the explanation provided is completely incorrect and irrelevant.",
+      "The explanation is very basic, contains major errors, and lacks clarity regarding the causes of atmospheric circulation.",
+      "The explanation is partially correct but incomplete, with some confusion regarding the causes of atmospheric circulation.",
+      "The explanation is generally correct and identifies some causes of atmospheric circulation, but lacks depth or detail.",
+      "The explanation is clear, correct, and identifies most of the key causes of atmospheric circulation.",
+      "The explanation is comprehensive, clear, correct, and identifies all key causes of atmospheric circulation, including sunlight-driven latitudinal banding and the Coriolis effect."
+    ],
+    [
+      "There is no explanation, or the explanation provided is completely incorrect and irrelevant.",
+      "The explanation is very basic, contains major errors, and lacks clarity regarding the causes of oceanic circulation.",
+      "The explanation is partially correct but incomplete, with some confusion regarding the causes of oceanic circulation.",
+      "The explanation is generally correct and identifies some causes of oceanic circulation, but lacks depth or detail.",
+      "The explanation is clear, correct, and identifies most of the key causes of oceanic circulation.",
+      "The explanation is comprehensive, clear, correct, and identifies all key causes of oceanic circulation, including the transfer of heat by the global ocean convection cycle and the Coriolis effect."
+    ],
+    [
+      "No connection is made between atmospheric and oceanic circulation and regional climates.",
+      "A weak or inaccurate connection is made between atmospheric and oceanic circulation and regional climates.",
+      "A basic connection is made between atmospheric and oceanic circulation and regional climates, but lacks detail.",
+      "A clear connection is made between atmospheric and oceanic circulation and regional climates, with some supporting details.",
+      "A strong and clear connection is made between atmospheric and oceanic circulation and regional climates, with specific examples.",
+      "A comprehensive and insightful connection is made between atmospheric and oceanic circulation and regional climates, demonstrating a deep understanding of the relationships."
+    ]
+  ]
+}

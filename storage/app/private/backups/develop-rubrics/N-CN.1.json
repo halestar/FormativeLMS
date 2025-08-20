@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Understanding of i",
+    "Understanding the form a + bi"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding that i is a complex number.",
+      "Student recognizes i but does not know that i^2 = -1.",
+      "Student knows i^2 = -1 but cannot explain what this means.",
+      "Student understands that i is a complex number, knows that i^2 = -1, and can give a basic explanation of its meaning.",
+      "Student understands that i is a complex number, knows that i^2 = -1, and can clearly explain its meaning with examples.",
+      "Student understands that i is a complex number, knows that i^2 = -1, can clearly explain its meaning, and can apply this knowledge to solve complex problems."
+    ],
+    [
+      "Student does not recognize the form a + bi as a complex number.",
+      "Student recognizes a + bi but cannot identify 'a' and 'b' as real numbers.",
+      "Student can identify 'a' and 'b' as real numbers but cannot explain what this form represents.",
+      "Student understands that a + bi is a complex number, can identify 'a' and 'b' as real numbers, and can give a basic explanation of its meaning.",
+      "Student understands that a + bi is a complex number, can identify 'a' and 'b' as real numbers, and can clearly explain its meaning with examples.",
+      "Student understands that a + bi is a complex number, can identify 'a' and 'b' as real numbers, can clearly explain its meaning, and can apply this knowledge to solve complex problems."
+    ]
+  ]
+}

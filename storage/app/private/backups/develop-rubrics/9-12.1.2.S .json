@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of different types of harmful relationships (physical, emotional, verbal, digital)",
+    "Ability to recognize warning signs of abuse in relationships",
+    "Knowledge of resources and strategies for seeking help in abusive situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of harmful relationships or their various forms.",
+      "Shows a limited awareness of only one type of harmful relationship.",
+      "Recognizes two types of harmful relationships but struggles to differentiate them.",
+      "Identifies and differentiates between three types of harmful relationships.",
+      "Clearly identifies and explains four types of harmful relationships, providing examples.",
+      "Comprehensively explains various types of harmful relationships (physical, emotional, verbal, digital), providing detailed examples and demonstrating a nuanced understanding."
+    ],
+    [
+      "Unable to identify any warning signs of abuse in relationships.",
+      "Identifies one or two vague signs of potential abuse.",
+      "Recognizes a few general warning signs but cannot apply them to specific scenarios.",
+      "Identifies several common warning signs of abuse and can relate them to possible situations.",
+      "Accurately recognizes and explains multiple warning signs of abuse, demonstrating an understanding of their implications.",
+      "Demonstrates a sophisticated understanding of subtle and overt warning signs of abuse, providing insightful analysis of their potential impact and escalation."
+    ],
+    [
+      "Is unaware of any resources or strategies for seeking help.",
+      "Names one possible resource but lacks specific details.",
+      "Identifies a couple of resources but doesn't explain how to access or utilize them effectively.",
+      "Knows several resources and can generally explain how to seek help.",
+      "Clearly articulates multiple resources and outlines practical strategies for seeking help in abusive situations.",
+      "Demonstrates comprehensive knowledge of diverse resources and develops detailed, personalized strategies for seeking help, considering various factors (e.g., safety, confidentiality)."
+    ]
+  ]
+}

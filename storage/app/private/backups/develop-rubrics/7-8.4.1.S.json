@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Risk",
+    "Appropriateness of Reporting",
+    "Clarity and Detail in Reporting"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any risks or potentially harmful situations.",
+      "Identifies a risk vaguely or inaccurately.",
+      "Identifies a potential risk but lacks detail or context.",
+      "Clearly identifies a specific risk and provides some context.",
+      "Clearly identifies a specific risk with detailed context and potential consequences.",
+      "Accurately and thoroughly identifies a range of specific risks with detailed context, potential consequences, and proactive solutions."
+    ],
+    [
+      "Does not understand the need to report risky situations.",
+      "Suggests reporting to an inappropriate or unhelpful individual.",
+      "Suggests reporting to a somewhat appropriate individual, but lacks clarity.",
+      "Suggests reporting to a trusted adult but provides limited justification.",
+      "Justifies reporting to a specific, trusted adult and explains why.",
+      "Clearly justifies reporting to the most appropriate trusted adult, providing a rationale based on the situation and the adult's role\/capacity."
+    ],
+    [
+      "Unable to articulate the situation or potential harm.",
+      "Provides a vague or confusing description of the situation.",
+      "Provides a basic description of the situation but lacks key details.",
+      "Clearly describes the situation with sufficient detail.",
+      "Provides a comprehensive and detailed account of the situation, including relevant factors.",
+      "Articulates the situation with exceptional clarity, detail, and demonstrates critical thinking about the potential harm and its implications."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Ratios and Proportions",
+    "Application of Coordinates and Algebraic Concepts",
+    "Accuracy in Calculations",
+    "Clarity and Completeness of Solution"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of ratios or proportions is demonstrated.",
+      "Demonstrates minimal understanding of ratios and proportions; struggles to apply them in any context.",
+      "Demonstrates partial understanding of ratios and proportions; attempts to apply them, but with significant errors.",
+      "Demonstrates a basic understanding of ratios and proportions; can apply them in simple problems with some accuracy.",
+      "Demonstrates a solid understanding of ratios and proportions; can apply them accurately in most problems.",
+      "Demonstrates a comprehensive understanding of ratios and proportions and applies them fluently and accurately in complex problems."
+    ],
+    [
+      "Unable to use coordinates or algebraic concepts to solve the problem.",
+      "Struggles to apply coordinates and algebraic concepts; unable to set up the problem correctly.",
+      "Applies coordinates and algebraic concepts with limited success; makes significant errors in calculations or setup.",
+      "Applies coordinates and algebraic concepts with some accuracy; minor errors may be present.",
+      "Applies coordinates and algebraic concepts accurately to find the partitioning point.",
+      "Applies coordinates and algebraic concepts expertly, demonstrating a clear and efficient method for finding the partitioning point. Shows how to generalized the problem to arbitrary ratios and points."
+    ],
+    [
+      "Incorrect calculations throughout the entire process.",
+      "Numerous calculation errors that prevent finding the correct partitioning point.",
+      "Several calculation errors that impact the accuracy of the solution.",
+      "Minor calculation errors that do not significantly affect the outcome.",
+      "Accurate calculations with only very minor or negligible errors.",
+      "Perfectly accurate calculations leading to the correct and precise partitioning point."
+    ],
+    [
+      "Solution is unclear and incomplete, with no logical steps provided.",
+      "Solution is difficult to follow and lacks essential steps or explanations.",
+      "Solution is partially complete but lacks clarity in the explanation of steps.",
+      "Solution is reasonably clear and complete, with most steps explained.",
+      "Solution is clear, complete, and well-organized, with all steps thoroughly explained.",
+      "Solution is exceptionally clear, complete, and presented in a highly organized manner, demonstrating a deep understanding of the problem and solution process."
+    ]
+  ]
+}

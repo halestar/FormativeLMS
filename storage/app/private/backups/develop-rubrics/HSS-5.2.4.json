@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Land Claim Identification and Location",
+    "Completeness of Geographic Representation",
+    "Clarity and Organization of Presentation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No land claims are identified or located on the maps.",
+      "Identifies or locates only one land claim with significant inaccuracies.",
+      "Identifies and locates a few land claims (2-3) but with several inaccuracies in location or claimant.",
+      "Identifies and locates most of the land claims (4-5) with some inaccuracies in location or claimant.",
+      "Identifies and locates nearly all land claims (6-7) with only minor inaccuracies.",
+      "Accurately identifies and locates all land claims by Spain, France, England, Portugal, the Netherlands, Sweden, and Russia on maps of North and South America."
+    ],
+    [
+      "Maps of North and South America are not included or are incomplete with large portions missing.",
+      "Maps are included but lack key geographic features necessary for accurate land claim location.",
+      "Maps are mostly complete but have some missing or poorly represented geographic features.",
+      "Maps are complete and include most relevant geographic features, but some details are lacking.",
+      "Maps are detailed and complete, accurately representing most geographic features relevant to the land claims.",
+      "Maps are exceptionally detailed and complete, accurately representing all geographic features relevant to the land claims, enhancing the clarity of land claim locations."
+    ],
+    [
+      "Presentation is disorganized and unclear, making it difficult to understand the location of land claims.",
+      "Presentation lacks organization, with land claims poorly labeled or identified.",
+      "Presentation has some organization, but labels and identifications are sometimes unclear or missing.",
+      "Presentation is generally organized, with most land claims clearly labeled and identified.",
+      "Presentation is well-organized, with land claims clearly and consistently labeled and identified.",
+      "Presentation is exceptionally clear, organized, and visually appealing, providing an intuitive understanding of the land claims and their locations."
+    ]
+  ]
+}

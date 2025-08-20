@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Federal Government Spending Categories",
+    "Analysis of Spending on Defense",
+    "Analysis of Spending on Welfare",
+    "Analysis of Spending on Education",
+    "Connection to California Master Plan"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of federal government spending categories (defense, welfare, national debt interest, education).",
+      "Shows a limited or inaccurate understanding of one or more federal government spending categories.",
+      "Identifies federal government spending categories but struggles to provide specific details or examples.",
+      "Identifies and generally describes federal government spending categories, including defense, welfare, interest on the national debt and education.",
+      "Clearly explains federal government spending categories, providing specific examples of programs or initiatives within each category.",
+      "Provides a comprehensive explanation of federal government spending categories, including historical context and their impact on post-WWII America."
+    ],
+    [
+      "Does not address federal government spending on defense.",
+      "Mentions defense spending but provides no analysis or context.",
+      "Describes the increase in defense spending but offers limited insight into the reasons behind it.",
+      "Explains the increase in defense spending and connects it to the Cold War and military-industrial complex.",
+      "Analyzes the impact of defense spending on the economy and society during the post-WWII era.",
+      "Critically evaluates the long-term consequences of increased defense spending on American society and foreign policy."
+    ],
+    [
+      "Does not address federal government spending on welfare.",
+      "Mentions welfare spending but provides no analysis or context.",
+      "Describes the increase in welfare spending but offers limited insight into the reasons behind it.",
+      "Explains the increase in welfare spending and connects it to the Great Society programs.",
+      "Analyzes the impact of welfare spending on poverty rates and social mobility during the post-WWII era.",
+      "Critically evaluates the long-term consequences of increased welfare spending on American society and individual liberty."
+    ],
+    [
+      "Does not address federal government spending on education.",
+      "Mentions education spending but provides no analysis or context.",
+      "Describes the increase in education spending but offers limited insight into the reasons behind it.",
+      "Explains the increase in education spending and connects it to the California Master Plan.",
+      "Analyzes the impact of education spending on access to higher education and workforce development during the post-WWII era.",
+      "Critically evaluates the long-term consequences of increased education spending on American society and educational outcomes."
+    ],
+    [
+      "Makes no mention of the California Master Plan.",
+      "Mentions the California Master Plan but provides no details or connection to federal spending.",
+      "Describes the California Master Plan but struggles to connect it to federal and state spending on education.",
+      "Explains the main components of the California Master Plan and its impact on higher education in the state.",
+      "Analyzes the connection between the California Master Plan and federal government spending on education.",
+      "Evaluates the success and limitations of the California Master Plan in expanding access to higher education."
+    ]
+  ]
+}

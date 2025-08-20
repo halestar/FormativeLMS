@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Factors",
+    "Identification of External Factors",
+    "Explanation of Impact on Friendships",
+    "Explanation of Impact on Family Relationships"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any internal factors affecting friendships and family relationships.",
+      "Student identifies one internal factor with limited accuracy.",
+      "Student identifies two internal factors but lacks depth in explanation.",
+      "Student identifies three internal factors and provides a basic explanation of their impact.",
+      "Student identifies four internal factors with clear explanations and examples.",
+      "Student comprehensively identifies and explains multiple internal factors, demonstrating a nuanced understanding of their effects on relationships."
+    ],
+    [
+      "Student does not identify any external factors affecting friendships and family relationships.",
+      "Student identifies one external factor with limited accuracy.",
+      "Student identifies two external factors but lacks depth in explanation.",
+      "Student identifies three external factors and provides a basic explanation of their impact.",
+      "Student identifies four external factors with clear explanations and examples.",
+      "Student comprehensively identifies and explains multiple external factors, demonstrating a nuanced understanding of their effects on relationships."
+    ],
+    [
+      "Student fails to explain how internal and external factors affect friendships.",
+      "Student provides a vague explanation of the impact of one factor on friendships.",
+      "Student explains how two factors affect friendships with limited clarity.",
+      "Student explains how several factors influence friendships, providing some examples.",
+      "Student clearly explains how various factors impact friendships, using relevant examples.",
+      "Student thoroughly analyzes and explains the complex ways internal and external factors influence friendships, providing insightful examples."
+    ],
+    [
+      "Student fails to explain how internal and external factors affect family relationships.",
+      "Student provides a vague explanation of the impact of one factor on family relationships.",
+      "Student explains how two factors affect family relationships with limited clarity.",
+      "Student explains how several factors influence family relationships, providing some examples.",
+      "Student clearly explains how various factors impact family relationships, using relevant examples.",
+      "Student thoroughly analyzes and explains the complex ways internal and external factors influence family relationships, providing insightful examples."
+    ]
+  ]
+}

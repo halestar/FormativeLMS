@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of water-related injury risks",
+    "Explanation of risk reduction strategies in water environments",
+    "Application of risk reduction strategies to specific water environments"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any risks of injuries in or around water.",
+      "Identifies one general risk of injury in or around water.",
+      "Identifies a few general risks of injuries in or around water, lacking specifics.",
+      "Identifies several specific risks of injuries in and around water, but lacks depth.",
+      "Clearly identifies most of the specific risks of injuries in and around water, showing good understanding.",
+      "Exhaustively identifies specific risks of injuries in and around water, demonstrating comprehensive knowledge."
+    ],
+    [
+      "Does not provide any strategies to reduce risks of injury in or around water.",
+      "Suggests one vague or ineffective strategy to reduce risks of injury in or around water.",
+      "Provides a few basic strategies to reduce risks of injury in or around water, but they are not well-explained.",
+      "Explains several relevant strategies to reduce the risk of injuries in and around water with some detail.",
+      "Clearly explains multiple effective strategies to reduce the risk of injuries in and around water, showing good understanding of their application.",
+      "Provides a comprehensive explanation of effective strategies to reduce the risk of injuries in and around water, including situational adaptations and nuances."
+    ],
+    [
+      "Does not apply risk reduction strategies to any specific water environment.",
+      "Attempts to apply a risk reduction strategy to a water environment, but the connection is unclear or inappropriate.",
+      "Applies risk reduction strategies to a single type of water environment (e.g., pools) with limited detail.",
+      "Applies risk reduction strategies to multiple types of water environments (e.g., pools, beaches) with some accuracy.",
+      "Accurately applies risk reduction strategies to several distinct water environments, demonstrating sound judgment.",
+      "Expertly applies and adapts risk reduction strategies to a wide variety of specific water environments, demonstrating comprehensive understanding and practical application."
+    ]
+  ]
+}

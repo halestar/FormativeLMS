@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Communicable Diseases and Transmission Methods",
+    "Prevention Strategies",
+    "Application of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any communicable diseases or methods of transmission.",
+      "Identifies at least one communicable disease and one method of transmission with significant inaccuracies.",
+      "Identifies one communicable disease and one method of transmission with minor inaccuracies.",
+      "Identifies multiple communicable diseases and methods of transmission with some inaccuracies.",
+      "Identifies multiple communicable diseases and methods of transmission with only minor inaccuracies.",
+      "Accurately identifies multiple communicable diseases and their methods of transmission."
+    ],
+    [
+      "Does not suggest any prevention strategies.",
+      "Suggests at least one prevention strategy that is not effective or appropriate.",
+      "Suggests at least one prevention strategy, but it is not clearly linked to a specific disease.",
+      "Suggests multiple prevention strategies, but some are not effective or clearly explained.",
+      "Suggests multiple relevant and effective prevention strategies with minor gaps in explanation.",
+      "Suggests multiple relevant and effective prevention strategies, clearly explaining how they prevent transmission."
+    ],
+    [
+      "Demonstrates no understanding of how to apply preventative measures in real-life scenarios.",
+      "Demonstrates a limited understanding of how to apply preventative measures in a single, unrealistic scenario.",
+      "Demonstrates basic understanding of how to apply preventative measures in one realistic scenario.",
+      "Demonstrates a good understanding of how to apply preventative measures in multiple scenarios, but connections are not clearly articulated.",
+      "Demonstrates a comprehensive understanding of how to apply preventative measures in various scenarios with clear articulation of connections.",
+      "Demonstrates a sophisticated understanding of how to apply preventative measures in a wide range of scenarios, analyzing complex connections and potential challenges."
+    ]
+  ]
+}

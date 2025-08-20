@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the dangers of ingesting unknown substances.",
+    "Ability to apply knowledge to real-world scenarios.",
+    "Clarity and accuracy of explanation."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of the dangers of tasting, swallowing, sniffing, or playing with unknown substances.",
+      "Shows a minimal understanding. Mentions one or two potential dangers with no elaboration.",
+      "Identifies some dangers (e.g., poisoning, illness) but lacks specific details or explanations.",
+      "Explains several dangers with some detail. Includes concepts like toxicity, allergic reactions, or skin irritation.",
+      "Thoroughly explains multiple dangers, providing clear examples and explanations of how substances can harm the body.",
+      "Demonstrates a comprehensive understanding of the dangers, including long-term health effects, and provides specific examples. Explains how different routes of exposure (tasting, swallowing, sniffing, touching) can affect the body differently."
+    ],
+    [
+      "Unable to apply knowledge to any real-world scenarios.",
+      "Struggles to connect the dangers to real-life situations; responses are vague or irrelevant.",
+      "Can identify one or two real-world situations where these dangers exist but lacks detailed explanation.",
+      "Provides several relevant real-world scenarios (e.g., household chemicals, medications) but may lack specific details.",
+      "Applies knowledge effectively to various real-world scenarios, describing the potential consequences of interacting with unknown substances.",
+      "Demonstrates exceptional ability to connect knowledge to complex real-world scenarios, including prevention strategies and appropriate responses to accidental exposure."
+    ],
+    [
+      "Explanation is unclear, inaccurate, or uses inappropriate terminology.",
+      "Explanation is difficult to understand due to poor organization or vague language.",
+      "Explanation is mostly understandable but contains some inaccuracies or lacks precision.",
+      "Explanation is clear, accurate, and uses appropriate terminology, but could benefit from more detail.",
+      "Explanation is clear, accurate, and well-organized, using precise terminology and supporting details.",
+      "Explanation is exceptionally clear, concise, and accurate, demonstrating a mastery of the subject matter with sophisticated use of terminology and supporting evidence."
+    ]
+  ]
+}

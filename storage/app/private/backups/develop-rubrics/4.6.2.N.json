@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Physical Activities",
+    "Personalization of the Plan",
+    "Feasibility and Safety Considerations",
+    "Structure and Organization of the Plan"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any physical activities.",
+      "Student identifies one or two physical activities without clear justification.",
+      "Student identifies a few physical activities at either school or home, but not both.",
+      "Student identifies several physical activities at both school and home, but lacks detail.",
+      "Student identifies a variety of physical activities suitable for both school and home settings, with some detail.",
+      "Student comprehensively identifies a wide range of physical activities suitable for both school and home, providing clear and detailed justifications."
+    ],
+    [
+      "Plan does not reflect personal preferences or interests.",
+      "Plan minimally reflects personal preferences, but lacks feasibility.",
+      "Plan shows some consideration for personal interests, but lacks a clear connection to activities.",
+      "Plan integrates personal interests with specific activities, showing a moderate level of personalization.",
+      "Plan is well-tailored to personal interests and abilities, demonstrating a clear understanding of individual needs.",
+      "Plan is highly personalized, reflecting a deep understanding of personal interests, abilities, and goals, leading to a sustainable fitness approach."
+    ],
+    [
+      "Plan lacks any consideration of feasibility or safety.",
+      "Plan mentions feasibility or safety vaguely, without specific details.",
+      "Plan includes basic considerations for feasibility and safety, but lacks depth.",
+      "Plan provides reasonable considerations for feasibility and safety, addressing common concerns.",
+      "Plan thoroughly addresses feasibility and safety concerns, with specific strategies for risk management.",
+      "Plan comprehensively addresses feasibility and safety, including detailed contingency plans and proactive risk assessment, ensuring a safe and sustainable approach."
+    ],
+    [
+      "Plan is unstructured and disorganized.",
+      "Plan lacks clear structure or organization, making it difficult to follow.",
+      "Plan has some structure, but lacks logical flow and coherence.",
+      "Plan is reasonably well-organized, with a clear structure and logical progression.",
+      "Plan is well-organized, with a clear structure, logical progression, and effective use of formatting.",
+      "Plan is exceptionally well-organized, with a clear structure, logical progression, effective formatting, and supplementary materials for enhanced understanding."
+    ]
+  ]
+}

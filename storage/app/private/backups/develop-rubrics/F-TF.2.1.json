@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Graphs",
+    "Understanding of Key Features",
+    "Use of Mathematical Terminology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No graphs are presented or all graphs are completely incorrect.",
+      "Graphs are attempted, but most have major errors in shape, intercepts, or asymptotes.",
+      "Some graphs are accurate, but others contain significant errors.",
+      "Most graphs are accurate, with only minor errors in intercepts or asymptotes.",
+      "All graphs are accurate with only very minor errors.",
+      "All six trigonometric functions are graphed accurately, showing correct shape, intercepts, asymptotes, and domain\/range."
+    ],
+    [
+      "Demonstrates no understanding of amplitude, period, phase shift, or vertical shift.",
+      "Demonstrates very limited understanding of key features; struggles to identify any correctly.",
+      "Identifies some key features correctly, but struggles with others or provides incomplete explanations.",
+      "Identifies most key features correctly and provides reasonable explanations.",
+      "Clearly understands and correctly identifies all key features of the trigonometric functions.",
+      "Demonstrates comprehensive understanding of key features and explains their impact on the graphs of trigonometric functions."
+    ],
+    [
+      "Uses no appropriate mathematical terminology.",
+      "Uses very little mathematical terminology, or uses it incorrectly.",
+      "Uses some mathematical terminology, but with some inaccuracies.",
+      "Uses appropriate mathematical terminology most of the time.",
+      "Uses appropriate mathematical terminology accurately and consistently.",
+      "Uses mathematical terminology precisely and effectively to communicate understanding of trigonometric functions."
+    ]
+  ]
+}

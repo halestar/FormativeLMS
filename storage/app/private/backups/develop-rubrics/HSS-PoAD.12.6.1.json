@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Origin of Political Parties",
+    "Analyzing the Development of Political Parties",
+    "Explaining the Role of Political Parties",
+    "Recognizing Periods of Single or Multiple Major Parties"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the origins of political parties.",
+      "Student shows a limited understanding of the origins of political parties, with significant gaps.",
+      "Student identifies the general origins of political parties but lacks specific details or historical context.",
+      "Student explains the origins of political parties with some specific details and historical context but may have minor inaccuracies.",
+      "Student thoroughly explains the origins of political parties, providing specific details, historical context, and demonstrating a solid understanding.",
+      "Student demonstrates a comprehensive and insightful understanding of the origins of political parties, including nuanced details and relevant historical context."
+    ],
+    [
+      "Student shows no understanding of how political parties have developed over time.",
+      "Student demonstrates a limited understanding of the development of political parties, missing key historical events.",
+      "Student identifies basic developmental stages of political parties but lacks depth in analysis.",
+      "Student analyzes the development of political parties with some specific examples, but the analysis may lack complexity.",
+      "Student provides a detailed analysis of the development of political parties, including specific examples and historical events.",
+      "Student offers a sophisticated analysis of the development of political parties, including nuanced interpretations and comprehensive historical knowledge."
+    ],
+    [
+      "Student is unable to describe the role of political parties.",
+      "Student provides a vague or inaccurate description of the role of political parties.",
+      "Student identifies some roles of political parties but lacks a clear explanation or examples.",
+      "Student explains the role of political parties with some detail and examples, but may overlook key aspects.",
+      "Student thoroughly explains the role of political parties, providing clear examples and discussing key aspects.",
+      "Student demonstrates a comprehensive understanding of the multifaceted roles of political parties, providing insightful examples and detailed explanations."
+    ],
+    [
+      "Student does not recognize periods with one or more than two major parties.",
+      "Student vaguely recognizes periods with one or more than two major parties but lacks specific examples.",
+      "Student identifies periods with one or more than two major parties but provides limited context or analysis.",
+      "Student describes periods with one or more than two major parties with some specific examples and context.",
+      "Student analyzes periods with one or more than two major parties, providing specific examples and historical context.",
+      "Student offers a nuanced analysis of periods with one or more than two major parties, demonstrating a deep understanding of the historical and political factors involved."
+    ]
+  ]
+}

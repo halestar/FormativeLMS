@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Central Idea",
+    "Analysis of Development",
+    "Objective Summary"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify a central idea or identifies an idea that is not central to the text.",
+      "The student attempts to identify a central idea, but the idea is vague, inaccurate, or only partially related to the text.",
+      "The student identifies a central idea, but it is stated too broadly or narrowly, lacking nuance or specific connection to the text.",
+      "The student identifies a central idea that is relevant to the text, but the explanation lacks depth or sufficient textual support.",
+      "The student accurately identifies a central idea of the text and provides a clear explanation of its importance.",
+      "The student skillfully identifies a central idea and provides insightful commentary on its significance and complexity within the text."
+    ],
+    [
+      "The student provides no analysis of how the central idea develops or changes throughout the text.",
+      "The student attempts to describe the development of the central idea, but the analysis is superficial or incorrect.",
+      "The student describes the development of the central idea but does not fully explain how specific details shape or refine it.",
+      "The student explains the development of the central idea with some reference to specific details, but the connection is not always clear or convincing.",
+      "The student effectively analyzes how the central idea develops, explaining how specific details shape and refine it over the course of the text.",
+      "The student masterfully analyzes the nuanced development of the central idea, demonstrating a sophisticated understanding of how specific details contribute to its evolution and complexity."
+    ],
+    [
+      "The student does not provide a summary, or the summary is entirely subjective and unrelated to the text.",
+      "The student attempts a summary, but it is overly brief, inaccurate, or includes personal opinions and interpretations.",
+      "The student provides a summary that includes some relevant information but is not consistently objective or omits key details.",
+      "The student provides a generally objective summary, but it may lack depth, focus, or a comprehensive overview of the text.",
+      "The student provides a clear and objective summary of the text, accurately representing the main points and key details.",
+      "The student crafts a concise, insightful, and impeccably objective summary that captures the essence of the text while maintaining a neutral perspective."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Positive Health Practices",
+    "Explanation of How Practices Reduce Illness and Disease",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any positive health practices.",
+      "The student identifies one positive health practice, but it is vague or inaccurate.",
+      "The student identifies two positive health practices with limited detail or accuracy.",
+      "The student identifies three positive health practices with reasonable detail and accuracy.",
+      "The student identifies four positive health practices with good detail and accuracy.",
+      "The student identifies five or more positive health practices with excellent detail and accuracy, demonstrating a comprehensive understanding."
+    ],
+    [
+      "The student does not explain how the identified practices reduce illness and disease.",
+      "The student offers a vague or inaccurate explanation for one practice.",
+      "The student provides a limited explanation for two practices, but understanding is superficial.",
+      "The student adequately explains how three practices reduce illness and disease.",
+      "The student clearly and accurately explains how four practices reduce illness and disease.",
+      "The student thoroughly and accurately explains how multiple practices reduce illness and disease, demonstrating a strong understanding of the underlying mechanisms."
+    ],
+    [
+      "The explanation is unclear, disorganized, and difficult to understand.",
+      "The explanation lacks clarity and organization, making it difficult to follow.",
+      "The explanation is somewhat organized but lacks clarity in certain areas.",
+      "The explanation is generally clear and organized, but could benefit from improved structure.",
+      "The explanation is clear, well-organized, and easy to understand.",
+      "The explanation is exceptionally clear, concise, and logically organized, demonstrating excellent communication skills."
+    ]
+  ]
+}

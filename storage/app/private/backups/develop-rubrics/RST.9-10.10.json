@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Demonstrates understanding of explicit information and inferences in science\/technical texts.",
+    "Analyzes the structure of science\/technical texts, including how authors use sections and paragraphs to develop their ideas.",
+    "Evaluates the credibility and accuracy of sources and distinguishes facts from opinions in science\/technical texts."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of the text; unable to identify explicit information or make reasonable inferences.",
+      "Struggles to understand the text; identifies minimal explicit information and makes inaccurate inferences.",
+      "Understands basic explicit information with difficulty and makes some inferences, but they may not always be accurate or well-supported.",
+      "Demonstrates adequate understanding of explicit information and makes generally accurate inferences with some support from the text.",
+      "Demonstrates clear understanding of explicit information and makes accurate inferences with strong textual support.",
+      "Demonstrates thorough and insightful understanding of explicit information and makes nuanced, well-supported inferences; accurately analyzes complex ideas."
+    ],
+    [
+      "Unable to identify or describe the structure of the text or how the author uses sections and paragraphs.",
+      "Identifies the structure of the text superficially, with limited understanding of how sections and paragraphs contribute to the development of ideas.",
+      "Identifies the text structure and some elements of how the author uses sections and paragraphs, but struggles to connect them to the overall development of ideas.",
+      "Analyzes the structure of the text, describing how the author uses sections and paragraphs to develop ideas in a general way.",
+      "Analyzes the structure of the text, explaining how the author purposefully uses sections and paragraphs to develop specific ideas and arguments.",
+      "Provides a sophisticated analysis of the text structure, demonstrating a deep understanding of how the author strategically uses sections and paragraphs to develop complex ideas and achieve specific purposes."
+    ],
+    [
+      "Unable to evaluate the credibility or accuracy of sources; cannot distinguish between facts and opinions.",
+      "Struggles to evaluate the credibility of sources and has difficulty distinguishing facts from opinions.",
+      "Makes some attempts to evaluate sources and distinguish facts from opinions, but the analysis is superficial and may contain inaccuracies.",
+      "Evaluates the credibility and accuracy of sources and distinguishes facts from opinions with reasonable accuracy, providing some justification.",
+      "Evaluates the credibility and accuracy of sources effectively, distinguishing facts from opinions with clear justification and strong evidence.",
+      "Critically evaluates the credibility and accuracy of sources, skillfully distinguishing facts from opinions with insightful justification and nuanced understanding of potential biases."
+    ]
+  ]
+}

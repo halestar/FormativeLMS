@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Algebraic Manipulation",
+    "Graphical Representation",
+    "Accuracy of Solutions",
+    "Explanation and Justification"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to solve the system algebraically.",
+      "Incorrectly sets up the system or makes significant algebraic errors early in the solving process.",
+      "Sets up the system with minor errors, but struggles to isolate variables or substitute correctly.",
+      "Correctly sets up the system and attempts to isolate variables and substitute, but makes minor algebraic errors.",
+      "Successfully isolates variables and substitutes to solve the system algebraically with only minor errors.",
+      "Successfully and accurately solves the system of equations algebraically."
+    ],
+    [
+      "No attempt to represent the equations graphically.",
+      "Incorrectly graphs both equations or only graphs one equation.",
+      "Graphs both equations, but with significant errors in shape or intercepts.",
+      "Graphs both equations with minor errors, such as slightly incorrect intercepts or curves.",
+      "Accurately graphs both equations but struggles to identify points of intersection on the graph.",
+      "Accurately graphs both equations and clearly identifies all points of intersection."
+    ],
+    [
+      "Provides no correct solutions.",
+      "Provides incorrect solutions with no clear connection to the equations.",
+      "Provides solutions that do not satisfy both equations when checked.",
+      "Provides solutions that satisfy one equation but not the other, or misses one solution.",
+      "Provides solutions that are mostly correct but contains a minor error.",
+      "Provides all correct solutions that accurately satisfy both equations."
+    ],
+    [
+      "No explanation or justification is provided.",
+      "Explanation is unclear, incomplete, or contains significant errors.",
+      "Explanation describes the steps taken but lacks justification for why those steps were chosen.",
+      "Explanation describes the steps taken and provides some justification, but may lack clarity.",
+      "Clear explanation of the steps taken, with justification for the approach.",
+      "Provides a clear, concise, and well-justified explanation of both the algebraic and graphical methods used, demonstrating a thorough understanding of the solution process."
+    ]
+  ]
+}

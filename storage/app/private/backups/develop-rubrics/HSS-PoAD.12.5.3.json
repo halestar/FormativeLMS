@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Marbury v. Madison",
+    "Understanding of McCulloch v. Maryland",
+    "Understanding of United States v. Nixon",
+    "Analysis of Arguments Espoused by Each Side"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the case, its context, or its significance.",
+      "Student demonstrates a minimal understanding, with significant inaccuracies or omissions.",
+      "Student identifies the case and its basic outcome but struggles to explain its context or significance accurately.",
+      "Student accurately describes the case, its key players, and the central question before the Court.",
+      "Student explains the case's historical context, the Court's decision, and its immediate impact on the balance of power between the branches of government.",
+      "Student provides a nuanced analysis of the case, its long-term implications for judicial review, and its continued relevance in constitutional law."
+    ],
+    [
+      "Student demonstrates no understanding of the case, its context, or its significance.",
+      "Student demonstrates a minimal understanding, with significant inaccuracies or omissions.",
+      "Student identifies the case and its basic outcome but struggles to explain its context or significance accurately.",
+      "Student accurately describes the case, its key players, and the central question before the Court regarding implied powers.",
+      "Student explains the case's historical context, the Court's decision, and its impact on federalism and the scope of congressional power.",
+      "Student provides a nuanced analysis of the case, its lasting impact on the interpretation of the Necessary and Proper Clause, and its relevance to modern debates about federal authority."
+    ],
+    [
+      "Student demonstrates no understanding of the case, its context, or its significance.",
+      "Student demonstrates a minimal understanding, with significant inaccuracies or omissions.",
+      "Student identifies the case and its basic outcome but struggles to explain its context or significance accurately.",
+      "Student accurately describes the case, its key players, and the central question before the Court regarding executive privilege.",
+      "Student explains the case's historical context (Watergate), the Court's decision, and its impact on the limits of executive power and the rule of law.",
+      "Student provides a nuanced analysis of the case, its implications for presidential accountability, and its continued relevance in debates about the balance of power between the executive and judicial branches."
+    ],
+    [
+      "Student demonstrates no understanding of the arguments presented by either side in any of the cases.",
+      "Student identifies arguments for one side in one case, but the explanation is minimal and lacks detail.",
+      "Student identifies basic arguments for each side in at least one case but struggles to explain the reasoning behind them.",
+      "Student accurately summarizes the primary arguments for both sides in each of the three cases.",
+      "Student analyzes the legal and constitutional reasoning behind the arguments for each side, demonstrating a strong grasp of the key issues at stake.",
+      "Student critically evaluates the arguments, considering the historical context, the legal precedents, and the long-term consequences of each side's position, showing a sophisticated understanding of constitutional law."
+    ]
+  ]
+}

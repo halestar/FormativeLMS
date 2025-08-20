@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Accuracy of Measurements",
+    "Relationship Between Unit Size and Measurement Number"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to measure or measurements are completely inaccurate and unrelated to the object\u2019s actual length.",
+      "Measurements are attempted but highly inaccurate, with no clear understanding of using a standard unit.",
+      "Measurements show some understanding of using standard units, but significant errors are present.",
+      "Measurements are reasonably accurate, with minor errors that do not significantly impact the overall understanding.",
+      "Measurements are accurate and demonstrate a good understanding of using standard units.",
+      "Measurements are precise and accurate, demonstrating a thorough understanding of the properties and usage of standard units."
+    ],
+    [
+      "No recognition that different length units will produce different measurements.",
+      "Attempts to measure using 2 different length units, but no attempt to relate the number of measurements to the size of the unit used.",
+      "The number of measurement when using 2 different length units are correctly identified, but no reasonable relationship is established between them.",
+      "The student can describe the general relationship between the number of measurements with different length units, but not precise. Ex: 'the bigger the unit, the smaller the number of measurements needed'.",
+      "The student can describe the precise relationship between the number of measurements with different length units. Ex: 'If the first unit is twice as big, then the number of measurements will be approximately half of the second unit'.",
+      "The student can describe the precise relationship between the number of measurements with different length units and provide clear and accurate reasoning about the number of measurements."
+    ]
+  ]
+}

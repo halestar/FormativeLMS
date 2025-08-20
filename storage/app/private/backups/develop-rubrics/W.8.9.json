@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Quality and Relevance of Evidence",
+    "Application of Grade 8 Reading Standards to Literature",
+    "Application of Grade 8 Reading Standards to Literary Nonfiction"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No evidence is drawn from the text, or evidence is completely irrelevant to the analysis, reflection, or research.",
+      "Evidence is minimal and largely irrelevant, showing little understanding of the text.",
+      "Evidence is present but may be weak, loosely connected to the analysis, reflection, or research, and\/or demonstrates a superficial understanding of the text.",
+      "Evidence is adequately chosen and relevant, supporting the analysis, reflection, or research with reasonable clarity. Demonstrates a general understanding of the text.",
+      "Evidence is well-chosen, relevant, and clearly supports the analysis, reflection, or research. Demonstrates a strong understanding of the text and its nuances.",
+      "Evidence is exceptionally well-chosen, insightful, and powerfully supports a sophisticated analysis, reflection, or research. Demonstrates a comprehensive and nuanced understanding of the text."
+    ],
+    [
+      "Does not attempt to apply Grade 8 Reading standards to literature or shows a complete misunderstanding of the standards.",
+      "Attempts to apply Grade 8 Reading standards but demonstrates significant errors or omissions.",
+      "Applies Grade 8 Reading standards with some inaccuracies or incomplete understanding. The connection to the literary text is weak.",
+      "Applies Grade 8 Reading standards to the literature effectively, demonstrating a satisfactory understanding of the standards and their relevance to the text.",
+      "Applies Grade 8 Reading standards skillfully, offering insightful analysis and demonstrating a strong connection to the literary text.",
+      "Applies Grade 8 Reading standards masterfully, providing a nuanced and sophisticated analysis of the literature. Demonstrates a comprehensive grasp of the standards and their implications."
+    ],
+    [
+      "Does not attempt to apply Grade 8 Reading standards to literary nonfiction or shows a complete misunderstanding of the standards.",
+      "Attempts to apply Grade 8 Reading standards but demonstrates significant errors or omissions.",
+      "Applies Grade 8 Reading standards with some inaccuracies or incomplete understanding. The connection to the literary nonfiction text is weak.",
+      "Applies Grade 8 Reading standards to the literary nonfiction effectively, demonstrating a satisfactory understanding of the standards and their relevance to the text.",
+      "Applies Grade 8 Reading standards skillfully, offering insightful analysis and demonstrating a strong connection to the literary nonfiction text.",
+      "Applies Grade 8 Reading standards masterfully, providing a nuanced and sophisticated analysis of the literary nonfiction. Demonstrates a comprehensive grasp of the standards and their implications."
+    ]
+  ]
+}

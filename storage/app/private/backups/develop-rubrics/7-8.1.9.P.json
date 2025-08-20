@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Environmental Factors",
+    "Explanation of Health Impacts",
+    "Connection of Air Quality to Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any environmental factors affecting health.",
+      "Student identifies one environmental factor affecting health, but explanation lacks detail or accuracy.",
+      "Student identifies two environmental factors affecting health, but explanations are basic and may contain inaccuracies.",
+      "Student identifies three environmental factors affecting health with reasonable explanations and some accurate details.",
+      "Student identifies four environmental factors affecting health, providing clear and accurate explanations with supporting details.",
+      "Student comprehensively identifies multiple environmental factors affecting health, providing detailed, accurate explanations and demonstrating a thorough understanding of their impact."
+    ],
+    [
+      "Student does not explain how environmental factors affect health.",
+      "Student provides a vague or inaccurate explanation of how environmental factors affect health.",
+      "Student provides a basic explanation of how environmental factors affect health, but lacks depth or specific examples.",
+      "Student explains how environmental factors affect health with reasonable clarity and some supporting examples.",
+      "Student clearly explains how environmental factors affect health, providing accurate details and relevant examples.",
+      "Student comprehensively explains how environmental factors affect health, providing detailed, accurate explanations, relevant examples, and demonstrating a deep understanding of the complex relationships involved."
+    ],
+    [
+      "Student does not connect air quality to health outcomes.",
+      "Student makes a weak or inaccurate connection between air quality and health outcomes.",
+      "Student makes a basic connection between air quality and health outcomes, but explanation is limited.",
+      "Student connects air quality to health outcomes with reasonable clarity and some specific examples.",
+      "Student clearly connects air quality to various health outcomes, providing accurate details and relevant examples.",
+      "Student comprehensively connects air quality to a wide range of health outcomes, providing detailed, accurate explanations, relevant examples, and demonstrating a nuanced understanding of the impact of air quality on health."
+    ]
+  ]
+}

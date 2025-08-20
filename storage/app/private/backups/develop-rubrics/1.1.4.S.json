@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Hazards",
+    "Understanding of Preventative Measures",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student fails to identify any safety hazards in the home, school, or community.",
+      "The student identifies one safety hazard in either the home, school, or community, but the description lacks detail.",
+      "The student identifies safety hazards in two out of the three environments (home, school, community), but some descriptions may be vague or incomplete.",
+      "The student identifies safety hazards in all three environments (home, school, community) with mostly clear descriptions.",
+      "The student accurately identifies a comprehensive list of safety hazards in the home, school, and community, providing clear and detailed descriptions for each.",
+      "The student not only identifies a comprehensive list of safety hazards in the home, school, and community with detailed descriptions but also demonstrates an understanding of the potential consequences of each hazard."
+    ],
+    [
+      "The student does not suggest any preventative measures for the identified safety hazards.",
+      "The student suggests one basic preventative measure, but it may not be appropriate or effective for the identified hazard.",
+      "The student suggests preventative measures for some of the identified hazards, but some measures may be impractical or insufficient.",
+      "The student suggests appropriate and practical preventative measures for most of the identified hazards.",
+      "The student suggests effective and practical preventative measures for all identified hazards, demonstrating a clear understanding of risk reduction.",
+      "The student suggests innovative and comprehensive preventative measures for all identified hazards, demonstrating a deep understanding of risk reduction and proactive safety practices."
+    ],
+    [
+      "The student's identification of hazards and preventative measures is unclear and disorganized.",
+      "The student's identification of hazards and preventative measures lacks organization and clarity, making it difficult to understand.",
+      "The student's identification of hazards and preventative measures is somewhat organized, but clarity could be improved.",
+      "The student presents their identification of hazards and preventative measures in a clear and organized manner.",
+      "The student presents their identification of hazards and preventative measures in a clear, concise, and well-organized manner.",
+      "The student presents their identification of hazards and preventative measures in an exceptionally clear, concise, and well-organized manner, using visual aids or other enhancements to improve understanding."
+    ]
+  ]
+}

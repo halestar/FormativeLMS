@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model: How accurately does the model represent the movement of matter among plants, animals, decomposers, and the environment?",
+    "Clarity of Representation: How clearly does the model communicate the interactions within the ecosystem?",
+    "Inclusion of Key Components: Does the model include all the necessary components (plants, animals, decomposers, environment) and their interactions?",
+    "Explanation of Matter Cycling: How well does the student explain the cycling of matter within the model?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing key components or shows inaccurate movement of matter.",
+      "The model includes some components but contains significant inaccuracies in the representation of matter movement.",
+      "The model includes most components with minor inaccuracies in the movement of matter.",
+      "The model accurately represents the main components and movement of matter, but lacks detail.",
+      "The model is detailed and accurately represents the components and movement of matter within the ecosystem.",
+      "The model is exceptionally detailed, accurate, and insightful, demonstrating a comprehensive understanding of matter movement within the ecosystem."
+    ],
+    [
+      "The model is confusing and difficult to understand.",
+      "The model is somewhat unclear and requires significant interpretation.",
+      "The model is generally clear but could benefit from improved labeling or organization.",
+      "The model is clear and easy to understand, with well-labeled components.",
+      "The model is very clear, well-organized, and effectively communicates the interactions within the ecosystem.",
+      "The model is exceptionally clear, visually appealing, and provides an intuitive understanding of ecosystem interactions."
+    ],
+    [
+      "The model is missing several key components.",
+      "The model is missing some key components or does not show clear interactions.",
+      "The model includes most key components but may lack detail in their interactions.",
+      "The model includes all key components and shows their basic interactions.",
+      "The model includes all key components and thoroughly illustrates their interactions.",
+      "The model includes all key components, illustrates their interactions in exceptional detail, and demonstrates a deep understanding of their roles."
+    ],
+    [
+      "The student cannot explain the cycling of matter or provides incorrect explanations.",
+      "The student attempts to explain the cycling of matter but demonstrates significant misunderstandings.",
+      "The student explains some aspects of matter cycling but misses key details.",
+      "The student accurately explains the basic cycling of matter within the model.",
+      "The student thoroughly and accurately explains the cycling of matter, including the roles of different organisms.",
+      "The student provides an exceptionally clear, insightful, and comprehensive explanation of matter cycling, demonstrating a deep understanding of the processes involved."
+    ]
+  ]
+}

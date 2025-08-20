@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Rigid Motions",
+    "Transforming Figures Using Rigid Motions",
+    "Predicting the Effect of Rigid Motions",
+    "Determining Congruence Using Rigid Motions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of rigid motions is demonstrated.",
+      "Demonstrates minimal understanding of rigid motions, with significant errors.",
+      "Demonstrates partial understanding of rigid motions, with some errors.",
+      "Demonstrates adequate understanding of rigid motions, with minor errors.",
+      "Demonstrates strong understanding of rigid motions, with very few errors.",
+      "Demonstrates a comprehensive and thorough understanding of rigid motions with no errors."
+    ],
+    [
+      "Unable to transform figures using rigid motions.",
+      "Attempts to transform figures using rigid motions, but is largely unsuccessful.",
+      "Transforms figures with rigid motions, but makes several errors.",
+      "Transforms figures using rigid motions with only minor errors.",
+      "Transforms figures accurately using rigid motions with minimal errors.",
+      "Transforms figures accurately and efficiently using rigid motions."
+    ],
+    [
+      "Unable to predict the effect of a rigid motion on a figure.",
+      "Attempts to predict the effect, but predictions are incorrect.",
+      "Predicts the effect of rigid motions with limited accuracy.",
+      "Predicts the effect of rigid motions with reasonable accuracy.",
+      "Accurately predicts the effect of rigid motions on a figure.",
+      "Accurately and comprehensively predicts the effect of rigid motions on various figures."
+    ],
+    [
+      "Unable to determine congruence using the definition of rigid motions.",
+      "Attempts to determine congruence, but demonstrates little understanding of the definition.",
+      "Determines congruence with limited accuracy and understanding.",
+      "Determines congruence with reasonable accuracy, but may lack clear justification.",
+      "Accurately determines congruence using the definition of rigid motions.",
+      "Accurately and clearly determines congruence using rigid motions, providing comprehensive justification."
+    ]
+  ]
+}

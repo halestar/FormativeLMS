@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Identification of External Influences",
+    "Analysis of Influence on Personal Safety",
+    "Analysis of Influence on Family and Community Safety"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any internal influences on safety.",
+      "Identifies one internal influence with limited accuracy or detail.",
+      "Identifies some internal influences (e.g., emotions, stress) with basic descriptions.",
+      "Identifies several internal influences and explains their impact on safety with moderate clarity.",
+      "Clearly identifies and analyzes multiple internal influences (e.g., emotional state, risk-taking behavior) and their effects on safety decisions.",
+      "Provides a comprehensive analysis of a wide range of internal influences, demonstrating a deep understanding of their complex interactions and significant impact on safety outcomes."
+    ],
+    [
+      "Does not identify any external influences on safety.",
+      "Identifies one external influence with limited accuracy or detail.",
+      "Identifies some external influences (e.g., peers, media) with basic descriptions.",
+      "Identifies several external influences and explains their impact on safety with moderate clarity.",
+      "Clearly identifies and analyzes multiple external influences (e.g., family, community norms, advertising) and their effects on safety behaviors.",
+      "Provides a comprehensive analysis of a wide range of external influences, demonstrating a deep understanding of their complex interactions and significant impact on safety outcomes."
+    ],
+    [
+      "Fails to connect influences to personal safety.",
+      "Attempts to connect influences to personal safety, but the explanation is unclear or inaccurate.",
+      "Describes how some influences can affect personal safety in general terms.",
+      "Explains how specific internal and external influences can impact personal safety decisions and behaviors with reasonable clarity.",
+      "Analyzes the complex ways in which various influences interact to affect personal safety, providing specific examples and detailed explanations.",
+      "Offers a nuanced and insightful analysis of the interplay between internal and external influences on personal safety, demonstrating a sophisticated understanding of risk assessment and decision-making."
+    ],
+    [
+      "Does not address the influence on family and community safety.",
+      "Mentions family or community safety, but lacks analysis of the influences.",
+      "Describes some ways influences can affect family or community safety in general terms.",
+      "Explains how specific internal and external influences can impact family and community safety with moderate clarity.",
+      "Analyzes the complex ways in which various influences interact to affect family and community safety, providing specific examples and detailed explanations.",
+      "Offers a nuanced and insightful analysis of the interplay between internal and external influences on family and community safety, demonstrating a sophisticated understanding of collective well-being and preventative measures."
+    ]
+  ]
+}

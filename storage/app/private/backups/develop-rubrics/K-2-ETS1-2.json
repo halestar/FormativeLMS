@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Accuracy of Sketch\/Drawing\/Model",
+    "Explanation of How Shape Relates to Function",
+    "Use of Evidence and Scientific Principles"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The sketch, drawing, or model is missing or completely irrelevant to the problem.",
+      "The sketch, drawing, or model is unclear, inaccurate, and difficult to understand. It does not represent the object's shape effectively.",
+      "The sketch, drawing, or model has some clarity and accuracy issues. Key features are missing or misrepresented, hindering understanding of the object's shape and function.",
+      "The sketch, drawing, or model is generally clear and accurate, representing the object's shape adequately. Minor details may be missing or slightly inaccurate.",
+      "The sketch, drawing, or model is clear, accurate, and provides a good representation of the object's shape and key functional features. Only minor improvements could be made.",
+      "The sketch, drawing, or model is exceptionally clear, accurate, and detailed, providing a comprehensive representation of the object's shape and how it contributes to its function. It is easy to understand and could be used as an exemplar."
+    ],
+    [
+      "There is no explanation of how the object's shape relates to its function in solving the problem.",
+      "The explanation is minimal and does not clearly connect the object's shape to its function. The reasoning is vague or missing.",
+      "The explanation attempts to connect the object's shape to its function, but the reasoning is incomplete or contains inaccuracies. The connection is not fully developed.",
+      "The explanation clearly connects the object's shape to its function in solving the problem. The reasoning is logical and generally accurate, although some details may be lacking.",
+      "The explanation thoroughly connects the object's shape to its function, providing a clear and well-reasoned argument. The explanation demonstrates a strong understanding of the relationship.",
+      "The explanation is insightful and demonstrates a deep understanding of how the object's shape directly contributes to its function in solving the problem. The reasoning is sophisticated and clearly articulated."
+    ],
+    [
+      "The sketch, drawing, or model does not show the application of the scientific principles or concepts related to the problem.",
+      "The sketch, drawing, or model shows minimal evidence of how scientific principles or concepts relate to the solution.",
+      "The sketch, drawing, or model shows some application of scientific principles or concepts but may contain some inaccuracies or inconsistencies.",
+      "The sketch, drawing, or model clearly integrates scientific principles or concepts relevant to the problem, providing an accurate and informed solution.",
+      "The sketch, drawing, or model demonstrates a strong connection between scientific principles and the problem, providing logical and effective solution.",
+      "The sketch, drawing, or model highlights the principles that support the design solution, demonstrating a sophisticated application of scientific understanding."
+    ]
+  ]
+}

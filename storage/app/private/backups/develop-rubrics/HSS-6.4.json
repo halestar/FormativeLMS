@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Geographic Factors",
+    "Analysis of Political Structures",
+    "Knowledge of Economic Systems",
+    "Understanding of Religious Beliefs and Practices",
+    "Analysis of Social Structures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the geographic factors influencing Ancient Greece.",
+      "Shows minimal understanding of how geography affected Ancient Greece, with significant inaccuracies.",
+      "Identifies some geographic factors (e.g., mountains, seas) but struggles to explain their influence on Greek civilization.",
+      "Explains how key geographic features (e.g., mountains, coastline) influenced Greek development, with some gaps in understanding.",
+      "Clearly explains the significant impact of geography on various aspects of Ancient Greek society (e.g., trade, agriculture, city-state development).",
+      "Provides a comprehensive analysis of the interplay between geography and the development of Ancient Greek civilization, including nuanced understanding of specific regional variations and their consequences."
+    ],
+    [
+      "Demonstrates no understanding of the political structures of Ancient Greece.",
+      "Shows minimal understanding of Ancient Greek politics, with significant inaccuracies.",
+      "Identifies some political entities (e.g., city-states) but struggles to explain their functions or relationships.",
+      "Describes the basic political structures of Ancient Greece (e.g., democracy, oligarchy) with some inaccuracies.",
+      "Explains the main political systems of Ancient Greece, including their strengths, weaknesses, and evolution.",
+      "Provides a detailed analysis of the political structures of Ancient Greece, comparing and contrasting different systems, and explaining their impact on society and historical events."
+    ],
+    [
+      "Demonstrates no understanding of the economic systems of Ancient Greece.",
+      "Shows minimal understanding of Ancient Greek economics, with significant inaccuracies.",
+      "Identifies some economic activities (e.g., trade, agriculture) but struggles to explain their importance.",
+      "Describes the main economic activities in Ancient Greece (e.g., trade, agriculture, slavery) with some inaccuracies.",
+      "Explains the economic foundations of Ancient Greek society, including trade networks, agricultural practices, and the role of slavery.",
+      "Provides a comprehensive analysis of the economic systems of Ancient Greece, explaining their impact on social structures, political power, and technological development."
+    ],
+    [
+      "Demonstrates no understanding of the religious beliefs and practices of Ancient Greece.",
+      "Shows minimal understanding of Ancient Greek religion, with significant inaccuracies.",
+      "Identifies some Greek gods and myths but struggles to explain their significance.",
+      "Describes the basic religious beliefs and practices of Ancient Greece (e.g., polytheism, mythology) with some inaccuracies.",
+      "Explains the role of religion in Ancient Greek society, including its influence on art, literature, and daily life.",
+      "Provides a detailed analysis of Ancient Greek religion, explaining its evolution, its impact on social and political structures, and its lasting legacy."
+    ],
+    [
+      "Demonstrates no understanding of the social structures of Ancient Greece.",
+      "Shows minimal understanding of Ancient Greek society, with significant inaccuracies.",
+      "Identifies some social groups (e.g., citizens, slaves) but struggles to explain their roles and relationships.",
+      "Describes the basic social structure of Ancient Greece (e.g., classes, gender roles) with some inaccuracies.",
+      "Explains the social hierarchy of Ancient Greece, including the roles of different classes, genders, and ethnicities.",
+      "Provides a comprehensive analysis of the social structures of Ancient Greece, explaining their evolution, their impact on individual lives, and their relationship to political and economic systems."
+    ]
+  ]
+}

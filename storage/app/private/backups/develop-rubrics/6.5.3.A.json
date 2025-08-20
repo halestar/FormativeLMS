@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Legal Consequences",
+    "Understanding of Emotional Consequences",
+    "Understanding of Social Consequences",
+    "Understanding of Health Consequences",
+    "Ability to Analyze and Synthesize Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the legal consequences of alcohol and drug use.",
+      "Shows minimal awareness of legal consequences, with significant inaccuracies.",
+      "Identifies some legal consequences but lacks depth and detail.",
+      "Accurately describes several legal consequences of alcohol and drug use.",
+      "Thoroughly explains a wide range of legal consequences and their implications.",
+      "Provides an exhaustive analysis of legal consequences, including variations based on jurisdiction and specific substances."
+    ],
+    [
+      "Demonstrates no understanding of the emotional consequences of alcohol and drug use.",
+      "Shows minimal awareness of emotional consequences, with significant inaccuracies.",
+      "Identifies some emotional consequences but lacks depth and detail.",
+      "Accurately describes several emotional consequences of alcohol and drug use.",
+      "Thoroughly explains a wide range of emotional consequences and their implications.",
+      "Provides an exhaustive analysis of emotional consequences, including the interplay with mental health and individual vulnerabilities."
+    ],
+    [
+      "Demonstrates no understanding of the social consequences of alcohol and drug use.",
+      "Shows minimal awareness of social consequences, with significant inaccuracies.",
+      "Identifies some social consequences but lacks depth and detail.",
+      "Accurately describes several social consequences of alcohol and drug use.",
+      "Thoroughly explains a wide range of social consequences and their implications.",
+      "Provides an exhaustive analysis of social consequences, including the impact on relationships, community, and societal norms."
+    ],
+    [
+      "Demonstrates no understanding of the health consequences of alcohol and drug use.",
+      "Shows minimal awareness of health consequences, with significant inaccuracies.",
+      "Identifies some health consequences but lacks depth and detail.",
+      "Accurately describes several health consequences of alcohol and drug use.",
+      "Thoroughly explains a wide range of health consequences and their implications.",
+      "Provides an exhaustive analysis of health consequences, including long-term effects, specific organ damage, and potential for addiction."
+    ],
+    [
+      "Unable to analyze or connect different types of consequences.",
+      "Struggles to analyze information and make connections between different types of consequences.",
+      "Identifies some connections between consequences but lacks a cohesive analysis.",
+      "Analyzes different types of consequences and identifies clear connections between them.",
+      "Synthesizes information to provide a comprehensive analysis of the interplay between legal, emotional, social, and health consequences.",
+      "Demonstrates exceptional analytical skills by providing nuanced insights into the complex relationships between various consequences and their long-term impacts."
+    ]
+  ]
+}

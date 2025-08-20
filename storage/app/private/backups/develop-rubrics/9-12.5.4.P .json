@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Physiological Effects of Substance Use",
+    "Analysis of the Impact on Behaviors",
+    "Understanding the Interplay Between Substance Use, Health, and Other Behaviors"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how alcohol, tobacco, or other drugs affect the body.",
+      "Shows a limited understanding of one or two physiological effects of substance use.",
+      "Identifies several physiological effects of substance use with some inaccuracies or omissions.",
+      "Accurately describes multiple physiological effects of alcohol, tobacco, and other drugs on the body.",
+      "Explains in detail the physiological effects, including short-term and long-term impacts on various body systems.",
+      "Provides a comprehensive analysis of the physiological effects, including detailed explanations of the mechanisms involved and potential for lasting damage."
+    ],
+    [
+      "Does not address or incorrectly identifies how substance use influences behavior.",
+      "Identifies one or two ways substance use can affect behavior in a limited manner.",
+      "Describes several behavioral changes associated with substance use, but lacks depth.",
+      "Explains how substance use can influence various behaviors, such as decision-making, social interactions, and risk-taking.",
+      "Analyzes the complex ways substance use can alter behaviors, providing specific examples and considering individual differences.",
+      "Offers a sophisticated analysis of the neurobiological and psychological mechanisms through which substance use impacts behavior, including addiction."
+    ],
+    [
+      "Fails to recognize the relationships between substance use, health, and other behaviors.",
+      "Acknowledges a basic connection between substance use and either health or other behaviors.",
+      "Describes how substance use can impact both health and other behaviors, but lacks integration.",
+      "Explains how substance use, health, and other behaviors are interrelated, providing examples of how they influence each other.",
+      "Analyzes the complex interplay between substance use, health outcomes, and various behaviors, considering long-term consequences.",
+      "Provides a comprehensive and nuanced analysis of the interconnectedness of substance use, health, and behaviors, including potential feedback loops and societal impacts."
+    ]
+  ]
+}

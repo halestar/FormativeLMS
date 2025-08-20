@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Comparison",
+    "Understanding of Place Value",
+    "Use of Symbols"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to compare the numbers or uses incorrect symbols without justification.",
+      "Attempts to compare numbers but frequently makes errors in identifying the place values or uses the incorrect symbols.",
+      "Compares numbers, but makes occasional errors in using the correct symbols (=, >, <) or in identifying the place values.",
+      "Mostly accurately compares three-digit numbers but may need slight prompting to correct minor errors or omissions.",
+      "Accurately compares most three-digit numbers, using the correct symbols, with minimal to no errors. Shows clear understanding of place value.",
+      "Consistently and accurately compares three-digit numbers using >, =, and < symbols, demonstrating a thorough understanding of place value concepts. Can also explain the reasoning behind the comparisons."
+    ],
+    [
+      "Shows no understanding of place value (hundreds, tens, ones) and cannot identify the value of digits in the numbers.",
+      "Demonstrates a limited understanding of place value, struggling to identify the values of digits in the hundreds, tens, and ones places.",
+      "Understands place value to some extent but has difficulty in accurately determining the values of digits when comparing numbers.",
+      "Demonstrates a solid understanding of place value, accurately identifying the values of digits in most cases when comparing numbers.",
+      "Shows a strong understanding of place value and accurately uses this knowledge to compare numbers and justify their answers.",
+      "Exhibits a comprehensive understanding of place value and can articulate how the values of digits influence the comparison of numbers. Can also apply this understanding to more complex scenarios."
+    ],
+    [
+      "Does not use the correct symbols or is unable to record the comparison using the appropriate symbols.",
+      "Uses the symbols incorrectly or confuses the meaning of the symbols, demonstrating a lack of understanding of their use.",
+      "Uses the symbols with some accuracy but makes errors in placing them correctly between the numbers being compared.",
+      "Mostly uses the correct symbols but may occasionally make mistakes in recording the comparison.",
+      "Consistently uses the correct symbols (>, =, <) to accurately record the comparison of three-digit numbers.",
+      "Expertly uses and interprets the symbols to accurately record comparisons, and can also explain why a particular symbol is appropriate in a given comparison scenario."
+    ]
+  ]
+}

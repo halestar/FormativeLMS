@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in applying formulas for cylinders, pyramids, cones, and spheres",
+    "Ability to identify and extract relevant information from the problem.",
+    "Clarity and organization of the solution process."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to apply any volume formulas or shows no understanding of the formulas.",
+      "Attempts to use volume formulas but makes significant errors in identifying the correct formula or in substituting values.",
+      "Applies volume formulas with some accuracy but makes frequent errors in calculations or substitutions, leading to incorrect solutions.",
+      "Applies most volume formulas correctly but may have occasional errors in calculations or substitutions. Solutions are mostly accurate.",
+      "Applies volume formulas correctly and accurately in most cases, with only minor errors. Solutions are generally correct and well-supported.",
+      "Consistently and accurately applies volume formulas for cylinders, pyramids, cones, and spheres to solve problems. Demonstrates a strong understanding of the formulas and their application."
+    ],
+    [
+      "Unable to identify necessary information from the problem to apply volume formulas.",
+      "Struggles to identify relevant information and extract it to apply volume formulas.",
+      "Identifies and extracts some relevant information with errors in applying volume formulas.",
+      "Identifies and extracts most of the relevant information and applies it to volume formulas, with some prompting",
+      "Identifies and extracts most of the relevant information and applies it to volume formulas correctly with minor errors",
+      "Accurately identifies and extracts all relevant information from problems and uses it effectively to solve problems using volume formulas."
+    ],
+    [
+      "Solution process is unclear, disorganized, and difficult to follow.",
+      "Solution process is somewhat disorganized and lacks clarity, making it difficult to understand the steps taken.",
+      "Solution process is partially organized but may have gaps or unclear explanations.",
+      "Solution process is generally clear and organized, with most steps explained adequately.",
+      "Solution process is clear, organized, and easy to follow, with logical steps and explanations.",
+      "Solution process is exceptionally clear, well-organized, and easy to follow, with detailed explanations and logical reasoning throughout."
+    ]
+  ]
+}

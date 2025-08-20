@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of the Structure of Federal, State, and Local Courts",
+    "Knowledge of Court Jurisdiction",
+    "Understanding of Interrelationships Among Courts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the court system structure.",
+      "Student can identify at least one court type (federal, state, or local) but does not understand its place in the overall system.",
+      "Student identifies the three court levels but struggles to articulate their specific roles and responsibilities.",
+      "Student accurately describes the structure of federal, state, and local courts and begins to explain the functions of each.",
+      "Student clearly explains the structure of the three court levels, detailing their distinct roles and responsibilities within their respective jurisdictions.",
+      "Student provides a comprehensive explanation of the court system structure, including its different levels and their functions, and can also identify any trends in the evolution of the court system."
+    ],
+    [
+      "Student demonstrates no understanding of what jurisdiction means in the context of courts.",
+      "Student vaguely mentions that courts have different powers but cannot explain what jurisdiction means.",
+      "Student partially understands jurisdiction but struggles to differentiate between the jurisdictions of federal, state, and local courts.",
+      "Student correctly defines jurisdiction and can provide basic examples of cases handled at each court level.",
+      "Student clearly differentiates between federal, state, and local court jurisdictions, providing specific examples of the types of cases each handles.",
+      "Student demonstrates in-depth knowledge of court jurisdictions, including nuances and overlaps, and can explain how jurisdictional disputes are resolved."
+    ],
+    [
+      "Student does not understand that the court systems are related in any way.",
+      "Student acknowledges that the courts are connected but cannot explain how.",
+      "Student identifies some connections between court levels but struggles to describe the flow of cases from one level to another.",
+      "Student explains the basic interrelationships among federal, state, and local courts, including the appeal process.",
+      "Student thoroughly explains the interrelationships among the courts, including the appeal process and how decisions in one court level can impact others.",
+      "Student provides a sophisticated analysis of the interrelationships among the courts, including vertical relationships from trial to appellate courts, and horizontal relationships that account for differences across states or circuits."
+    ]
+  ]
+}

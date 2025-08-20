@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Influences",
+    "Analysis of Environmental Impact",
+    "Analysis of Other Influences",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any influences on eating habits or weight management attitudes.",
+      "Identifies one influence on eating habits or weight management attitudes with limited accuracy.",
+      "Identifies two influences on eating habits or weight management attitudes, but explanations lack depth.",
+      "Identifies three influences on eating habits and weight management attitudes with reasonable explanations.",
+      "Identifies four influences on eating habits and weight management attitudes with detailed explanations.",
+      "Identifies multiple influences (more than 4) on eating habits and weight management attitudes with comprehensive and insightful explanations."
+    ],
+    [
+      "Fails to analyze the impact of the environment on eating habits or weight management.",
+      "Attempts to analyze environmental impact, but lacks clarity and accuracy.",
+      "Provides a superficial analysis of environmental impact on eating habits or weight management.",
+      "Analyzes the environmental impact on either eating habits or weight management with some detail.",
+      "Analyzes the environmental impact on both eating habits and weight management with good detail and examples.",
+      "Provides a thorough and insightful analysis of the environmental impact on eating habits and weight management, including specific examples and connections."
+    ],
+    [
+      "Fails to analyze other influences on eating habits or weight management.",
+      "Attempts to analyze other influences, but lacks clarity and accuracy.",
+      "Provides a superficial analysis of other influences on eating habits or weight management.",
+      "Analyzes the influence of either eating habits or weight management with some detail.",
+      "Analyzes the other influences on both eating habits and weight management with good detail and examples.",
+      "Provides a thorough and insightful analysis of the other influences on eating habits and weight management, including specific examples and connections."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization in several areas.",
+      "Response is somewhat clear and organized, but improvements are needed.",
+      "Response is generally clear and organized with a logical flow of ideas.",
+      "Response is clear, well-organized, and easy to follow with a logical progression of ideas.",
+      "Response is exceptionally clear, well-organized, and presents a coherent and insightful analysis."
+    ]
+  ]
+}

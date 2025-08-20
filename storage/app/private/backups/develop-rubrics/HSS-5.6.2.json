@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy and completeness of information regarding France's contributions.",
+    "Accuracy and completeness of information regarding other nations' contributions.",
+    "Accuracy and completeness of information regarding individuals' contributions.",
+    "Understanding of the impact of these contributions on the outcome of the Revolution."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Provides no information or inaccurate information about France's contributions to the American Revolution.",
+      "Provides minimal and mostly inaccurate information about France's contributions.",
+      "Identifies a few of France's contributions, but lacks detail and contains some inaccuracies.",
+      "Describes some of France's key contributions, such as financial aid or military support, with reasonable accuracy.",
+      "Explains France's significant contributions, including Benjamin Franklin's role and the French navy, with strong accuracy and relevant details.",
+      "Provides a comprehensive and accurate account of France's multifaceted contributions, including diplomatic, financial, and military support, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "Provides no information or inaccurate information about other nations' contributions to the American Revolution.",
+      "Provides minimal and mostly inaccurate information about other nations' contributions.",
+      "Identifies a few of other nations' contributions, but lacks detail and contains some inaccuracies.",
+      "Describes some of other nations' key contributions, such as the Netherlands or Russia, with reasonable accuracy.",
+      "Explains other nations' significant contributions, accurately describing their support and impact on the Revolution.",
+      "Provides a comprehensive and accurate account of other nations' multifaceted contributions, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "Provides no information or inaccurate information about individuals' contributions to the American Revolution.",
+      "Provides minimal and mostly inaccurate information about individuals' contributions.",
+      "Identifies a few of individuals' contributions, but lacks detail and contains some inaccuracies.",
+      "Describes some of key individuals' contributions, such as Lafayette, Kosciuszko, or Von Steuben, with reasonable accuracy.",
+      "Explains significant individuals' contributions, accurately describing their support and impact on the Revolution.",
+      "Provides a comprehensive and accurate account of individuals' multifaceted contributions, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "Shows no understanding of how foreign contributions impacted the outcome of the Revolution.",
+      "Demonstrates a very limited and unclear understanding of the impact of foreign contributions.",
+      "Suggests a basic understanding of the impact, but lacks specifics and may contain inaccuracies.",
+      "Explains how the contributions of France, other nations, and individuals played a role in the American victory.",
+      "Analyzes the significant impact of foreign assistance on key events and the overall success of the Revolution.",
+      "Critically evaluates the extent to which foreign contributions were essential to the American victory, providing nuanced and well-supported arguments."
+    ]
+  ]
+}

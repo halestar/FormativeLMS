@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding of Mean and Standard Deviation",
+    "Fitting Data to a Normal Distribution",
+    "Estimating Population Percentages",
+    "Appropriateness of Normal Distribution",
+    "Use of Technology (Calculators, Spreadsheets, Tables)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of mean or standard deviation is demonstrated.",
+      "Demonstrates minimal understanding of mean or standard deviation.",
+      "Demonstrates a basic understanding of mean and standard deviation but struggles with application.",
+      "Demonstrates a clear understanding of mean and standard deviation and can apply them to simple data sets.",
+      "Demonstrates a strong understanding of mean and standard deviation and can apply them to a variety of data sets.",
+      "Demonstrates a comprehensive understanding of mean and standard deviation and can explain their significance in detail."
+    ],
+    [
+      "Unable to fit data to a normal distribution.",
+      "Attempts to fit data to a normal distribution but is unsuccessful.",
+      "Fits data to a normal distribution with significant errors.",
+      "Fits data to a normal distribution with minor errors.",
+      "Accurately fits data to a normal distribution.",
+      "Accurately fits data to a normal distribution and can explain the process."
+    ],
+    [
+      "Unable to estimate population percentages using the normal distribution.",
+      "Attempts to estimate population percentages but is unsuccessful.",
+      "Estimates population percentages with significant errors.",
+      "Estimates population percentages with minor errors.",
+      "Accurately estimates population percentages.",
+      "Accurately estimates population percentages and can justify the reasoning."
+    ],
+    [
+      "Does not recognize when the normal distribution is inappropriate.",
+      "Recognizes that the normal distribution is not always appropriate but cannot explain why.",
+      "Identifies some situations where the normal distribution is inappropriate but misses others.",
+      "Generally identifies when the normal distribution is appropriate but may have some confusion.",
+      "Consistently identifies when the normal distribution is appropriate and provides clear explanations.",
+      "Demonstrates a deep understanding of the limitations of the normal distribution and can explain complex scenarios."
+    ],
+    [
+      "Unable to use calculators, spreadsheets, or tables to estimate areas under the normal curve.",
+      "Struggles to use calculators, spreadsheets, or tables to estimate areas under the normal curve.",
+      "Uses technology with significant errors or inefficiencies.",
+      "Uses technology effectively but may need some guidance.",
+      "Uses technology efficiently and accurately.",
+      "Demonstrates mastery of technology and can teach others how to use it."
+    ]
+  ]
+}

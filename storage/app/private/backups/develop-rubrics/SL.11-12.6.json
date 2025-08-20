@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Adaptation to Context",
+    "Command of Formal English",
+    "Clarity and Articulation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no awareness of context; speech is inappropriate for the situation.",
+      "Shows minimal awareness of context; speech is occasionally inappropriate.",
+      "Demonstrates some awareness of context; speech is generally appropriate but may have lapses.",
+      "Adapts speech to most contexts effectively; demonstrates a good understanding of audience and purpose.",
+      "Adapts speech skillfully to a variety of contexts; demonstrates a strong command of audience awareness and purpose.",
+      "Masterfully adapts speech to any context; demonstrates exceptional understanding of audience, purpose, and situational dynamics, enhancing communication impact."
+    ],
+    [
+      "Shows no command of formal English; language is consistently informal or incorrect.",
+      "Demonstrates limited command of formal English; frequent errors in grammar and vocabulary.",
+      "Shows some command of formal English; noticeable errors but generally understandable.",
+      "Demonstrates good command of formal English; few errors in grammar and vocabulary.",
+      "Exhibits strong command of formal English; language is precise and grammatically correct.",
+      "Demonstrates impeccable command of formal English; language is sophisticated, precise, and enhances the impact of communication, exhibiting mastery."
+    ],
+    [
+      "Speech is unintelligible; articulation is poor, and ideas are unclear.",
+      "Speech is difficult to understand; articulation is weak, and ideas are somewhat unclear.",
+      "Speech is mostly clear; articulation is adequate, and ideas are understandable.",
+      "Speech is clear and articulate; ideas are well-organized and easy to follow.",
+      "Speech is exceptionally clear and articulate; ideas are presented logically and persuasively.",
+      "Speech is remarkably clear, articulate, and engaging; ideas are masterfully conveyed with precision and impact, captivating the audience."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Le Chatelier's Principle",
+    "Specifying Changes to Increase Product Amounts",
+    "Connection Between Macroscopic and Molecular Levels",
+    "Refining the Design of a Chemical System"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of Le Chatelier's Principle is demonstrated.",
+      "Demonstrates a minimal understanding of Le Chatelier's Principle, with significant misconceptions.",
+      "Demonstrates a partial understanding of Le Chatelier's Principle, but struggles to apply it correctly.",
+      "Demonstrates a satisfactory understanding of Le Chatelier's Principle and can apply it in simple scenarios.",
+      "Demonstrates a strong understanding of Le Chatelier's Principle and can apply it to predict the effects of changes in conditions on equilibrium.",
+      "Demonstrates a comprehensive understanding of Le Chatelier's Principle and can apply it to predict and explain the effects of changes in conditions on equilibrium in complex systems."
+    ],
+    [
+      "Unable to specify any changes that would increase product amounts at equilibrium.",
+      "Specifies changes that are unlikely to increase product amounts or demonstrates a misunderstanding of the factors affecting equilibrium.",
+      "Specifies changes that might increase product amounts, but the reasoning is unclear or incomplete.",
+      "Specifies a change that would likely increase product amounts at equilibrium, with a reasonable explanation.",
+      "Specifies a change that would effectively increase product amounts at equilibrium, with a clear and accurate explanation based on Le Chatelier's Principle.",
+      "Specifies an optimal change that would maximize product amounts at equilibrium, with a comprehensive and insightful explanation of the underlying principles."
+    ],
+    [
+      "No connection is made between changes at the macroscopic level and what happens at the molecular level.",
+      "Attempts to connect macroscopic changes to molecular behavior, but the explanation is vague or inaccurate.",
+      "Provides a basic connection between macroscopic changes and molecular behavior, but lacks detail or clarity.",
+      "Explains how changes at the macroscopic level affect molecular behavior at equilibrium.",
+      "Provides a clear and detailed explanation of how changes at the macroscopic level influence molecular interactions and equilibrium shifts.",
+      "Offers a sophisticated and nuanced explanation of the dynamic interplay between macroscopic conditions and molecular behavior, demonstrating a deep understanding of the underlying chemistry."
+    ],
+    [
+      "Unable to refine the design of a chemical system.",
+      "Suggests refinements that are not practical or effective.",
+      "Suggests a refinement that might improve the system, but without clear justification.",
+      "Suggests a reasonable refinement to the system, with some justification based on equilibrium principles.",
+      "Suggests a significant and well-justified refinement to the system that would noticeably increase product formation.",
+      "Proposes an innovative and highly effective refinement to the system, with a thorough and insightful explanation of its impact on equilibrium and product yield."
+    ]
+  ]
+}

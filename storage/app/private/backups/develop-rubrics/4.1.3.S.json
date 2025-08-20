@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Bullying Types",
+    "Description of Bullying Types",
+    "Identification of Harassment Types",
+    "Description of Harassment Types"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student cannot identify any types of bullying.",
+      "The student identifies one type of bullying.",
+      "The student identifies two types of bullying but with limited accuracy.",
+      "The student identifies three types of bullying with reasonable accuracy.",
+      "The student identifies four types of bullying accurately.",
+      "The student accurately identifies and provides examples of five or more types of bullying."
+    ],
+    [
+      "The student provides no description of bullying types.",
+      "The student provides a vague or inaccurate description of one type of bullying.",
+      "The student describes two types of bullying with some inaccuracies.",
+      "The student accurately describes three types of bullying.",
+      "The student accurately describes four types of bullying.",
+      "The student accurately describes five or more types of bullying, demonstrating a comprehensive understanding."
+    ],
+    [
+      "The student cannot identify any types of harassment.",
+      "The student identifies one type of harassment.",
+      "The student identifies two types of harassment but with limited accuracy.",
+      "The student identifies three types of harassment with reasonable accuracy.",
+      "The student identifies four types of harassment accurately.",
+      "The student accurately identifies and provides examples of five or more types of harassment."
+    ],
+    [
+      "The student provides no description of harassment types.",
+      "The student provides a vague or inaccurate description of one type of harassment.",
+      "The student describes two types of harassment with some inaccuracies.",
+      "The student accurately describes three types of harassment.",
+      "The student accurately describes four types of harassment.",
+      "The student accurately describes five or more types of harassment, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

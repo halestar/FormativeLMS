@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Family Structures",
+    "Description of Family Characteristics",
+    "Understanding of Family Dynamics and Functions"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any family structures.",
+      "Identifies only one family structure with significant inaccuracies.",
+      "Identifies 1 to 2 common family structures (e.g., nuclear, single-parent) with minor inaccuracies.",
+      "Identifies 2 to 3 common family structures accurately and provides basic definitions.",
+      "Identifies 3 to 4 diverse family structures (e.g., blended, extended, adoptive) accurately, including definitions.",
+      "Identifies multiple diverse family structures accurately, provides comprehensive definitions, and recognizes variations within them."
+    ],
+    [
+      "Unable to describe any characteristics of families.",
+      "Describes one characteristic vaguely or inaccurately.",
+      "Describes 1-2 characteristics (e.g., roles, responsibilities, values) with limited detail.",
+      "Describes 2-3 characteristics of families with some explanation and examples.",
+      "Describes 3-4 key characteristics of families, explaining their significance and providing relevant examples.",
+      "Provides a thorough description of multiple characteristics of families, analyzing their importance and illustrating with insightful examples."
+    ],
+    [
+      "Demonstrates no understanding of family dynamics or functions.",
+      "Shows a minimal understanding of family dynamics.",
+      "Identifies at least one function of families (e.g., support, socialization) with limited explanation.",
+      "Describes 1 to 2 functions of families and their roles in society.",
+      "Explains multiple functions of families and analyzes how they contribute to individual and societal well-being.",
+      "Demonstrates a comprehensive understanding of family dynamics and functions, including their impact on individual development and cultural transmission."
+    ]
+  ]
+}

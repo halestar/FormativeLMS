@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Partial Fraction Decomposition",
+    "Ability to Complete the Square",
+    "Integration of Rational Functions",
+    "Accuracy and Precision"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of partial fraction decomposition.",
+      "Shows minimal understanding of partial fraction decomposition; struggles to set up the problem.",
+      "Demonstrates basic understanding of partial fraction decomposition, but makes significant errors in setting up or solving the equations.",
+      "Demonstrates satisfactory understanding of partial fraction decomposition; may make minor errors in setting up or solving the equations.",
+      "Demonstrates strong understanding of partial fraction decomposition; sets up and solves equations accurately with minimal errors.",
+      "Demonstrates excellent understanding of partial fraction decomposition; sets up and solves equations accurately and efficiently, showing a clear and comprehensive grasp of the concept."
+    ],
+    [
+      "Unable to complete the square.",
+      "Struggles significantly with completing the square, making numerous errors.",
+      "Demonstrates some understanding of completing the square, but makes frequent errors in application.",
+      "Completes the square with some errors, but generally understands the process.",
+      "Completes the square accurately with only minor errors.",
+      "Completes the square accurately and efficiently, demonstrating a strong command of the technique."
+    ],
+    [
+      "Unable to integrate rational functions or identify appropriate integration techniques.",
+      "Attempts to integrate rational functions, but demonstrates a lack of understanding of appropriate techniques.",
+      "Integrates simple rational functions with some errors; struggles with more complex functions.",
+      "Integrates most rational functions correctly, but may struggle with more complex functions or require assistance.",
+      "Integrates rational functions accurately and efficiently, showing a good understanding of integration techniques.",
+      "Integrates rational functions accurately, efficiently, and creatively, demonstrating a deep understanding of integration techniques and problem-solving skills."
+    ],
+    [
+      "Work is disorganized and contains numerous errors, showing a lack of attention to detail.",
+      "Work contains many errors and lacks precision.",
+      "Work contains some errors that impact the final result; lacks precision in calculations.",
+      "Work contains minor errors that do not significantly impact the final result; generally precise in calculations.",
+      "Work is accurate and precise with minimal errors.",
+      "Work is consistently accurate, precise, and meticulously presented, demonstrating a strong commitment to quality."
+    ]
+  ]
+}

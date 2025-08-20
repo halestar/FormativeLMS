@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Variety of Healthy Snacks Identified",
+    "Accuracy of Health Information",
+    "Justification of Snack Choices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No healthy snacks are identified.",
+      "Identifies only one snack, and it may not be a healthy option.",
+      "Identifies 1-2 snacks, but understanding of 'healthy' is limited or choices are questionable.",
+      "Identifies 2-3 snacks that are generally considered healthy, but lacks variety or detailed understanding.",
+      "Identifies 3-4 snacks, showing a good range of options and a solid understanding of what constitutes a healthy snack.",
+      "Identifies 4 or more snacks, demonstrating a broad understanding of healthy eating options with reasoning for the choices."
+    ],
+    [
+      "Information provided is inaccurate or completely absent.",
+      "Provides some information, but it contains significant inaccuracies.",
+      "Mostly accurate information, but with a few minor errors or omissions.",
+      "Accurate information provided, but lacks depth or supporting details.",
+      "Provides accurate and detailed information about the identified snacks, demonstrating good comprehension.",
+      "Provides accurate, detailed information and offers insightful reasoning about the nutritional benefits of the snacks, demonstrating excellent comprehension."
+    ],
+    [
+      "No justification is provided for why the snacks are considered healthy.",
+      "Provides weak or irrelevant justification for snack choices.",
+      "Offers basic justification, but lacks specific details or understanding.",
+      "Provides a reasonable explanation for snack choices, connecting them to health benefits.",
+      "Offers a clear and convincing explanation for why the snacks are healthy, referencing specific nutritional aspects.",
+      "Provides a thorough and insightful justification, demonstrating a deep understanding of nutrition and the role of healthy snacks in a balanced diet."
+    ]
+  ]
+}

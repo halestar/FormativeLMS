@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accurately represents word problems with drawings or equations.",
+    "Correctly solves word problems involving length using addition and subtraction.",
+    "Uses correct units of measurement in the solution."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to use drawings or equations.",
+      "Attempts to use drawings or equations, but they are inaccurate or do not represent the problem.",
+      "Uses drawings or equations, but with significant errors or omissions.",
+      "Represents the problem with drawings or equations, but may have minor errors.",
+      "Accurately represents the problem with drawings or equations, demonstrating a clear understanding.",
+      "Accurately and efficiently represents the problem with drawings and equations, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Does not attempt to solve the problem or uses incorrect operations.",
+      "Attempts to solve the problem, but the approach is flawed, and the answer is incorrect.",
+      "Solves the problem with significant errors in addition or subtraction, leading to an incorrect answer.",
+      "Solves the problem with minor errors in calculation, resulting in a nearly correct answer.",
+      "Correctly solves the problem using addition and subtraction, showing a good understanding of the operations.",
+      "Correctly and efficiently solves the problem, demonstrating a deep understanding and mastery of addition and subtraction in the context of length."
+    ],
+    [
+      "Does not include units of measurement or uses incorrect units.",
+      "Includes units of measurement, but they are inconsistently applied or often incorrect.",
+      "Uses correct units of measurement for some parts of the solution but makes errors.",
+      "Generally uses correct units of measurement with only occasional errors.",
+      "Consistently uses correct units of measurement throughout the solution.",
+      "Demonstrates a thorough understanding of units of measurement, using them correctly and explaining their significance in the context of the problem."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Active Participation and Engagement",
+    "Impact on Self and Others",
+    "Understanding of Health-Related Issues"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is not involved in any clubs, organizations, or activities related to health in the school or community.",
+      "Student shows minimal awareness of available opportunities for involvement.",
+      "Student occasionally attends meetings or events but does not actively participate.",
+      "Student is a member of at least one club, organization, or activity and attends regularly.",
+      "Student actively participates in at least one club, organization, or activity, contributing ideas and efforts.",
+      "Student takes a leadership role in a health-related club, organization, or activity, demonstrating commitment and initiative."
+    ],
+    [
+      "Participation has no noticeable impact on student's personal health or the health of others.",
+      "Student reports minimal personal benefit from participation.",
+      "Student identifies some positive impacts on their own health and well-being.",
+      "Student contributes positively to the group and encourages participation from others.",
+      "Student demonstrates a clear understanding of how their involvement positively impacts both their own health and the health of others.",
+      "Student leads initiatives that promote health and well-being within the school or community, creating a positive impact on a larger scale."
+    ],
+    [
+      "Student demonstrates no understanding of health-related issues discussed or addressed in activities.",
+      "Student shows limited understanding of health-related issues.",
+      "Student demonstrates a basic understanding of health-related issues discussed or addressed in activities.",
+      "Student demonstrates a solid understanding of health-related issues discussed or addressed in activities and can articulate them effectively.",
+      "Student applies their understanding of health-related issues to real-world situations and actively seeks to educate others.",
+      "Student analyzes complex health-related issues, develops innovative solutions, and advocates for positive change within the school or community."
+    ]
+  ]
+}

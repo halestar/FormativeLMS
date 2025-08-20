@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Caloric Balance",
+    "Knowledge of Nutritional Content",
+    "Ability to Assess Physical Activity",
+    "Application to Personal Health"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the relationship between caloric intake and energy expenditure.",
+      "Demonstrates a limited understanding of caloric intake and energy expenditure.",
+      "Demonstrates a basic understanding of caloric balance, but struggles to apply it to real-life scenarios.",
+      "Demonstrates a solid understanding of caloric balance and its impact on weight management.",
+      "Demonstrates a comprehensive understanding of caloric balance and can apply it to create personalized health plans.",
+      "Demonstrates an expert understanding of caloric balance and can explain it effectively to others, incorporating nuanced factors."
+    ],
+    [
+      "Shows no awareness of the nutritional content of different food groups.",
+      "Shows limited awareness of the nutritional content of different food groups.",
+      "Identifies the main nutrients in common food groups, but cannot explain their roles.",
+      "Understands the main nutrients in common food groups and can explain their roles in maintaining health.",
+      "Demonstrates in-depth knowledge of the nutritional content of a wide variety of foods and can make informed dietary choices.",
+      "Demonstrates expert knowledge and can analyze complex nutritional information, such as food labels, to optimize health."
+    ],
+    [
+      "Unable to identify different types of physical activity or their benefits.",
+      "Identifies a few types of physical activity but struggles to assess their intensity.",
+      "Identifies various types of physical activity and can estimate their intensity levels.",
+      "Can accurately assess the intensity and duration of different types of physical activity.",
+      "Can create personalized physical activity plans based on individual needs and goals.",
+      "Can design and lead physical activity programs for diverse populations, considering individual needs and safety."
+    ],
+    [
+      "Unable to apply the concepts to personal health choices.",
+      "Shows limited ability to connect the concepts to personal health.",
+      "Can identify some ways to improve personal health through diet and exercise.",
+      "Can create a basic plan to balance food intake and physical activity for personal health.",
+      "Can create a detailed and realistic plan, and can adapt it based on changing circumstances.",
+      "Consistently demonstrates healthy habits and serves as a role model for others."
+    ]
+  ]
+}

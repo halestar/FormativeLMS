@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Gathering Information on Synthetic Materials",
+    "Understanding the Origin of Synthetic Materials",
+    "Analyzing the Impact of Synthetic Materials on Society",
+    "Application of scientific and engineering practices"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to gather information or relies solely on unsubstantiated claims.",
+      "Gathers information from a single source with no evaluation of its credibility.",
+      "Gathers information from multiple sources but lacks a critical assessment of their credibility or accuracy.",
+      "Gathers information from multiple sources and makes a basic attempt to assess their credibility and accuracy.",
+      "Gathers information from multiple credible sources, assessing their credibility and accuracy with supporting evidence.",
+      "Synthesizes information from multiple credible sources, thoroughly assessing credibility, accuracy, and potential bias, and explaining how evidence supports claims."
+    ],
+    [
+      "Demonstrates no understanding of the relationship between synthetic materials and natural resources.",
+      "States that synthetic materials come from natural resources but provides no specific examples or explanation.",
+      "Identifies some natural resources used to create synthetic materials but with limited understanding of the chemical processes involved.",
+      "Describes the natural resources and basic chemical processes involved in creating specific synthetic materials.",
+      "Explains the chemical processes by which natural resources are transformed into synthetic materials, providing specific examples.",
+      "Provides a detailed explanation of the chemical processes that transform natural resources into synthetic materials, including the manipulation of molecular structures, and gives relevant examples."
+    ],
+    [
+      "Does not address the societal impact of synthetic materials.",
+      "Mentions the societal impact of synthetic materials in a vague or general way.",
+      "Identifies one or two potential impacts of synthetic materials on society, without much detail.",
+      "Describes several impacts of synthetic materials on society, including both benefits and drawbacks.",
+      "Analyzes the societal impacts of specific synthetic materials, discussing both the benefits and drawbacks with supporting evidence.",
+      "Critically evaluates the complex and multifaceted societal impacts of synthetic materials, considering economic, environmental, and ethical dimensions, and offering nuanced perspectives."
+    ],
+    [
+      "Student does not apply practices to address the problem.",
+      "Student identifies limited application of scientific and engineering practices.",
+      "Student applies some scientific and engineering practices with limited effectiveness.",
+      "Student generally applies scientific and engineering practices appropriately.",
+      "Student demonstrates strong and effective application of scientific and engineering practices.",
+      "Student exhibits innovative and exemplary application of scientific and engineering practices."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Immigration Sources",
+    "Understanding of Immigrant Contributions",
+    "Analysis of Assimilation and Cultural Diversity",
+    "Discussion of Nativism"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to identify new sources of large-scale immigration.",
+      "Identifies one or two new sources of large-scale immigration with limited accuracy.",
+      "Identifies some new sources of large-scale immigration, but lacks depth or detail.",
+      "Identifies several new sources of large-scale immigration with reasonable accuracy and detail.",
+      "Identifies the major new sources of large-scale immigration with good accuracy and provides supporting details.",
+      "Thoroughly identifies the major new sources of large-scale immigration with excellent accuracy, providing comprehensive and insightful supporting details."
+    ],
+    [
+      "No attempt to explain the contributions of immigrants to the building of cities and the economy.",
+      "Offers a vague or inaccurate explanation of immigrant contributions.",
+      "Explains some contributions of immigrants, but lacks depth or specificity.",
+      "Explains several contributions of immigrants to the building of cities and the economy with reasonable detail.",
+      "Clearly explains significant contributions of immigrants with supporting evidence.",
+      "Provides a comprehensive and insightful explanation of the multifaceted contributions of immigrants to the building of cities and the economy, supported by strong evidence."
+    ],
+    [
+      "No attempt to explain how social and economic patterns encouraged assimilation.",
+      "Offers a limited or inaccurate explanation of assimilation.",
+      "Describes some ways in which social and economic patterns encouraged assimilation amidst growing cultural diversity, but lacks depth.",
+      "Explains how new social and economic patterns encouraged assimilation amidst growing cultural diversity with reasonable detail.",
+      "Clearly explains the ways in which new social and economic patterns encouraged assimilation amidst growing cultural diversity, providing supporting examples.",
+      "Provides a comprehensive and nuanced analysis of the ways in which new social and economic patterns encouraged assimilation of newcomers into the mainstream amidst growing cultural diversity, supported by insightful examples."
+    ],
+    [
+      "No attempt to discuss the new wave of nativism.",
+      "Offers a vague or inaccurate discussion of nativism.",
+      "Describes some aspects of the new wave of nativism, but lacks depth or context.",
+      "Discusses the new wave of nativism with reasonable detail and accuracy.",
+      "Clearly discusses the new wave of nativism, providing historical context and examples.",
+      "Provides a comprehensive and insightful discussion of the new wave of nativism, analyzing its causes, consequences, and impact on society."
+    ]
+  ]
+}

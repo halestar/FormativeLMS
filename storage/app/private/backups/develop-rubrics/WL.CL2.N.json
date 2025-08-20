@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Cultural Products",
+    "Application of Cultural Practices",
+    "Insight into Cultural Perspectives",
+    "Integration of Products, Practices, and Perspectives"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no recognition of cultural products or misunderstands them entirely.",
+      "Identifies a cultural product but struggles to explain its significance or relevance.",
+      "Recognizes a cultural product and provides a basic explanation of its role within the culture.",
+      "Demonstrates a clear understanding of a cultural product and explains its significance with some detail.",
+      "Provides a comprehensive explanation of a cultural product, including its historical context and impact on the culture.",
+      "Offers insightful analysis of a cultural product, connecting it to broader cultural themes and demonstrating nuanced understanding."
+    ],
+    [
+      "Unable to apply or recognize cultural practices in familiar settings.",
+      "Attempts to apply cultural practices but demonstrates limited understanding or incorrect application.",
+      "Applies cultural practices with some accuracy but lacks consistency or depth.",
+      "Consistently applies cultural practices in familiar settings with reasonable accuracy and understanding.",
+      "Demonstrates a strong ability to apply cultural practices effectively, adapting to different familiar situations.",
+      "Masterfully applies cultural practices, demonstrating cultural sensitivity and a deep understanding of their nuances."
+    ],
+    [
+      "Shows no awareness of cultural perspectives or demonstrates significant misunderstandings.",
+      "Recognizes the existence of cultural perspectives but cannot articulate them effectively.",
+      "Describes cultural perspectives in a superficial way, lacking depth and nuance.",
+      "Explains cultural perspectives with reasonable clarity, providing some supporting details.",
+      "Offers a well-developed analysis of cultural perspectives, considering multiple viewpoints.",
+      "Provides profound insights into cultural perspectives, connecting them to broader social and historical contexts."
+    ],
+    [
+      "Fails to connect cultural products, practices, and perspectives or presents unrelated information.",
+      "Attempts to link cultural products, practices, and perspectives but struggles to make meaningful connections.",
+      "Identifies some relationships among cultural products, practices, and perspectives but lacks depth and analysis.",
+      "Explains the relationships among cultural products, practices, and perspectives with reasonable clarity and supporting examples.",
+      "Demonstrates a strong ability to integrate cultural products, practices, and perspectives, providing a coherent and insightful analysis.",
+      "Offers a sophisticated synthesis of cultural products, practices, and perspectives, revealing nuanced understandings and connections."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Tariffs and Their Impact",
+    "Knowledge of Banking Policies and Their Role",
+    "Explanation of Land Grants and Subsidies",
+    "Clarity and Accuracy of Information"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of tariffs or their role in encouraging business expansion.",
+      "The student shows a minimal understanding of tariffs, but cannot explain how they encouraged business expansion.",
+      "The student identifies tariffs but provides a limited explanation of their impact on business expansion.",
+      "The student adequately explains how tariffs encouraged business expansion but lacks depth or specific examples.",
+      "The student thoroughly explains how tariffs encouraged business expansion, providing relevant examples and demonstrating a solid understanding.",
+      "The student provides a comprehensive and insightful analysis of how tariffs encouraged business expansion, including nuanced details and potential drawbacks."
+    ],
+    [
+      "The student demonstrates no understanding of banking policies or their role in encouraging business expansion.",
+      "The student shows a minimal understanding of banking policies, but cannot explain how they encouraged business expansion.",
+      "The student identifies banking policies but provides a limited explanation of their impact on business expansion.",
+      "The student adequately explains how banking policies encouraged business expansion but lacks depth or specific examples.",
+      "The student thoroughly explains how banking policies encouraged business expansion, providing relevant examples and demonstrating a solid understanding.",
+      "The student provides a comprehensive and insightful analysis of how banking policies encouraged business expansion, including nuanced details and potential drawbacks."
+    ],
+    [
+      "The student demonstrates no understanding of land grants or subsidies or their role in encouraging business expansion.",
+      "The student shows a minimal understanding of land grants and subsidies, but cannot explain how they encouraged business expansion.",
+      "The student identifies land grants and subsidies but provides a limited explanation of their impact on business expansion.",
+      "The student adequately explains how land grants and subsidies encouraged business expansion but lacks depth or specific examples.",
+      "The student thoroughly explains how land grants and subsidies encouraged business expansion, providing relevant examples and demonstrating a solid understanding.",
+      "The student provides a comprehensive and insightful analysis of how land grants and subsidies encouraged business expansion, including nuanced details and potential drawbacks."
+    ],
+    [
+      "The student's response is unclear, inaccurate, and demonstrates a lack of understanding of the topic.",
+      "The student's response is somewhat unclear and contains inaccuracies, demonstrating a limited understanding of the topic.",
+      "The student's response is mostly clear but contains some inaccuracies, demonstrating a basic understanding of the topic.",
+      "The student's response is clear and accurate, demonstrating an adequate understanding of the topic.",
+      "The student's response is clear, accurate, and well-organized, demonstrating a strong understanding of the topic.",
+      "The student's response is exceptionally clear, accurate, and insightful, demonstrating a comprehensive understanding of the topic."
+    ]
+  ]
+}

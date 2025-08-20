@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in converting between radical and rational exponent forms.",
+    "Application of exponent properties in rewriting expressions.",
+    "Simplification of expressions after converting between forms."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt or incorrectly converts radical and rational exponent forms.",
+      "Struggles to convert between radical and rational exponent forms with frequent errors.",
+      "Can convert between simple radical and rational exponent forms, but makes errors with more complex expressions.",
+      "Accurately converts between most radical and rational exponent forms, with only minor errors.",
+      "Consistently and accurately converts between radical and rational exponent forms.",
+      "Demonstrates mastery in converting between radical and rational exponent forms, including complex expressions, with flawless accuracy."
+    ],
+    [
+      "Does not apply exponent properties or applies them incorrectly.",
+      "Attempts to apply exponent properties but demonstrates a limited understanding, resulting in errors.",
+      "Applies some exponent properties correctly, but struggles with more complex properties or combinations of properties.",
+      "Applies most exponent properties correctly, with only occasional errors in complex expressions.",
+      "Consistently applies exponent properties accurately to rewrite expressions.",
+      "Demonstrates a deep understanding of exponent properties, applying them skillfully and accurately to rewrite even the most complex expressions."
+    ],
+    [
+      "Does not attempt to simplify or incorrectly simplifies expressions.",
+      "Attempts to simplify expressions but makes significant errors, indicating a lack of understanding of simplification rules.",
+      "Simplifies some expressions correctly, but struggles with more complex simplifications or makes errors in the process.",
+      "Simplifies most expressions correctly, with only minor errors in complex cases.",
+      "Consistently simplifies expressions accurately after converting between radical and rational exponent forms.",
+      "Demonstrates mastery in simplifying expressions, applying advanced techniques and showing impeccable accuracy and efficiency."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting and Specificity",
+    "Relevance to Positive Health Practices",
+    "Feasibility and Attainability"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal is set or the goal is completely vague and unrelated to health practices.",
+      "A goal is mentioned, but it is very broad and lacks any specific details.",
+      "The goal is somewhat specific, but lacks clear actions or measures for achievement.",
+      "The goal is specific and includes some actions, but may not be fully measurable or realistic.",
+      "The goal is well-defined, specific, measurable, and includes realistic actions for achievement.",
+      "The goal is exceptionally well-defined, specific, measurable, realistic, and time-bound, demonstrating a strong understanding of effective goal setting."
+    ],
+    [
+      "The goal is not related to positive health practices or promotes unhealthy behaviors.",
+      "The goal has a very weak connection to positive health practices.",
+      "The goal is somewhat related to positive health practices, but the connection is not clear.",
+      "The goal is clearly related to positive health practices and could lead to improved health outcomes.",
+      "The goal is directly and significantly related to positive health practices, promoting well-being.",
+      "The goal exemplifies a deep understanding of positive health practices and demonstrates a commitment to improving overall health and wellness."
+    ],
+    [
+      "The goal is completely unrealistic or impossible to achieve in the short term.",
+      "The goal is likely unattainable given the student's current circumstances or resources.",
+      "The goal may be difficult to achieve and lacks a clear path for success.",
+      "The goal is reasonably attainable and the student identifies some resources or strategies for success.",
+      "The goal is highly attainable and the student demonstrates a clear plan and access to necessary resources.",
+      "The goal is not only attainable but also challenging, pushing the student to grow and develop healthy habits with exceptional planning and resourcefulness."
+    ]
+  ]
+}

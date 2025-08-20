@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Bacterial Infections: Assesses the student's comprehension of how bacteria invade and affect the body's systems.",
+    "Understanding of Viral Infections: Assesses the student's comprehension of how viruses invade and affect the body's systems.",
+    "Comparison and Contrast: Assesses the student's ability to compare and contrast bacterial and viral infections."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how bacteria affect the body.",
+      "Demonstrates a minimal understanding of bacteria, with significant misconceptions about their effects on the body.",
+      "Shows a basic understanding of bacterial infections but lacks detail on specific mechanisms or effects.",
+      "Explains bacterial infections with some accuracy, identifying common bacteria and their general effects on the body.",
+      "Clearly describes how bacteria invade the body, discussing specific mechanisms of infection and resulting symptoms.",
+      "Provides a comprehensive explanation of bacterial infections, including detailed mechanisms, specific examples, and potential complications or treatments."
+    ],
+    [
+      "No understanding of how viruses affect the body.",
+      "Demonstrates a minimal understanding of viruses, with significant misconceptions about their effects on the body.",
+      "Shows a basic understanding of viral infections but lacks detail on specific mechanisms or effects.",
+      "Explains viral infections with some accuracy, identifying common viruses and their general effects on the body.",
+      "Clearly describes how viruses invade the body, discussing specific mechanisms of infection and resulting symptoms.",
+      "Provides a comprehensive explanation of viral infections, including detailed mechanisms, specific examples, and potential complications or treatments."
+    ],
+    [
+      "Unable to compare or contrast bacterial and viral infections.",
+      "Attempts to compare and contrast, but with significant inaccuracies and confusion.",
+      "Offers a limited comparison, identifying only one or two basic differences between bacterial and viral infections.",
+      "Compares and contrasts bacterial and viral infections with some accuracy, identifying several key differences.",
+      "Clearly articulates the differences between bacterial and viral infections, discussing key characteristics and mechanisms.",
+      "Provides a thorough comparison and contrast, discussing detailed mechanisms, examples, and implications for treatment."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Correlation vs. Causation",
+    "Explanation of the Risks Associated with Weapons",
+    "Clarity and Accuracy"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not demonstrate an understanding of the correlation between weapons and violence.",
+      "The student recognizes a connection between weapons and violence but does not understand it.",
+      "The student identifies weapons as related to violence, with a poor understanding.",
+      "The student describes how weapons relate to violence, but doesn't really explain the relationship.",
+      "The student accurately explains how the presence of weapons relates to an increased risk of violence.",
+      "The student explains clearly how weapons can be statistically related to violence."
+    ],
+    [
+      "The student does not mention any risks of weapons.",
+      "The student mentions risks vaguely.",
+      "The student identifies one or two risks associated with the presence of weapons, but lacks detail.",
+      "The student describes several risks.",
+      "The student comprehensively describes multiple risks associated with the presence of weapons, including physical harm and escalation of conflicts.",
+      "The student thoroughly analyzes the risks, with real-world statistics, and the escalation of violence from weapons."
+    ],
+    [
+      "The student shows no attempt to be clear, with the answer incomprehensible.",
+      "The student shows an attempt to communicate the idea, but the answer is still incomprehensible",
+      "The student attempts to explain the risks of weapons with poor clarity or contains inaccuracies.",
+      "The student's explanation is somewhat clear but may contain minor inaccuracies or omissions.",
+      "The student provides a clear and accurate description of the risks associated with weapons.",
+      "The student communicates clearly and accurately. No mistakes."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Solving Absolute Value Equations",
+    "Solving Absolute Value Inequalities",
+    "Graphing Solutions on a Number Line",
+    "Interpreting Solutions in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or completely incorrect approach to solving absolute value equations.",
+      "Begins to solve absolute value equations but struggles with setting up the two cases or isolating the absolute value.",
+      "Sets up and solves one case of the absolute value equation correctly but misses the other case or makes a significant error.",
+      "Correctly sets up both cases of the absolute value equation but makes minor errors in the algebraic steps, leading to incorrect solutions.",
+      "Solves absolute value equations correctly, showing all necessary steps and obtaining the correct solutions. Demonstrates understanding of the two cases.",
+      "Solves absolute value equations efficiently and accurately, showing a clear understanding of the underlying principles. Can explain why absolute value equations result in two cases."
+    ],
+    [
+      "No attempt or completely incorrect approach to solving absolute value inequalities.",
+      "Begins to solve absolute value inequalities but struggles with setting up the correct compound inequality or isolating the absolute value.",
+      "Sets up one part of the compound inequality correctly but misses the other part or makes a significant error in the setup.",
+      "Correctly sets up the compound inequality but makes minor errors in the algebraic steps, leading to incorrect solutions.",
+      "Solves absolute value inequalities correctly, showing all necessary steps and obtaining the correct solution set. Demonstrates understanding of the compound inequality.",
+      "Solves absolute value inequalities efficiently and accurately, showing a clear understanding of the underlying principles and the relationship between absolute value and distance."
+    ],
+    [
+      "Unable to graph the solution set of absolute value equations or inequalities on a number line.",
+      "Attempts to graph the solution set but makes significant errors in identifying the correct intervals or points.",
+      "Graphs part of the solution set correctly but misses other parts or uses incorrect notation (e.g., open vs. closed circles).",
+      "Graphs the solution set with minor errors in precision or notation but demonstrates a general understanding of the solution set.",
+      "Accurately graphs the solution set of absolute value equations and inequalities on a number line, using correct notation.",
+      "Graphs the solution set precisely and clearly, using appropriate notation and labels. Can explain the connection between the graph and the algebraic solution."
+    ],
+    [
+      "Unable to interpret the solutions of absolute value equations or inequalities in the given context.",
+      "Attempts to interpret the solutions but provides a nonsensical or irrelevant interpretation.",
+      "Provides a partial interpretation of the solutions but misses key aspects of the context or the meaning of the absolute value.",
+      "Interprets the solutions in context but lacks precision or clarity in the explanation.",
+      "Provides a clear and accurate interpretation of the solutions in the given context, explaining the meaning of the absolute value.",
+      "Provides a insightful and comprehensive interpretation of the solutions in context, demonstrating a deep understanding of the problem and its implications."
+    ]
+  ]
+}

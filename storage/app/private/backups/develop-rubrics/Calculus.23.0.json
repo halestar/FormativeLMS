@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Convergence and Divergence Definitions",
+    "Application of Convergence Tests",
+    "Justification and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of convergence or divergence.",
+      "Student shows minimal understanding of convergence or divergence definitions, with significant misconceptions.",
+      "Student demonstrates a basic understanding of convergence and divergence definitions but struggles to explain them clearly.",
+      "Student demonstrates a satisfactory understanding of convergence and divergence definitions and can explain them adequately.",
+      "Student demonstrates a strong understanding of convergence and divergence definitions and can explain them clearly with examples.",
+      "Student demonstrates a comprehensive and nuanced understanding of convergence and divergence definitions, and can explain them clearly and apply them to various contexts."
+    ],
+    [
+      "Student cannot apply any convergence tests.",
+      "Student attempts to apply convergence tests but is unsuccessful or applies them incorrectly.",
+      "Student can apply one convergence test (e.g., comparison test) but struggles with others.",
+      "Student can apply multiple convergence tests (e.g., comparison, ratio, alternating series test) with some errors.",
+      "Student can apply convergence tests accurately and can determine convergence\/divergence for most series presented.",
+      "Student expertly applies convergence tests, justifies their selection, and accurately determines convergence\/divergence for a wide range of series."
+    ],
+    [
+      "Student provides no justification or reasoning for their answers.",
+      "Student attempts to provide justification but it is unclear, incomplete, or incorrect.",
+      "Student provides some justification for their answers, but it may lack clarity or be partially flawed.",
+      "Student provides adequate justification for their answers, explaining the steps taken and the reasoning behind them.",
+      "Student provides clear and logical justification for their answers, demonstrating a solid understanding of the underlying concepts.",
+      "Student provides thorough and insightful justification for their answers, demonstrating a deep understanding and the ability to connect concepts."
+    ]
+  ]
+}

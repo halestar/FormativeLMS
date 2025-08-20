@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding the impact of age on nutritional needs.",
+    "Understanding the impact of gender on nutritional needs.",
+    "Understanding the impact of activity level on nutritional needs.",
+    "Understanding the impact of pregnancy on nutritional needs.",
+    "Understanding the impact of health status on nutritional needs."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate understanding of how age affects nutritional needs.",
+      "Shows a minimal understanding of how age impacts nutritional needs, with significant gaps.",
+      "Identifies some ways age influences nutritional needs, but lacks detail or accuracy in explanations.",
+      "Explains how age impacts nutritional needs with reasonable accuracy, providing examples.",
+      "Clearly and accurately explains how age affects nutritional needs, providing detailed examples and considering different life stages.",
+      "Demonstrates a comprehensive understanding of the nuanced ways age influences nutritional needs, including specific examples across the lifespan, and insightful analysis of the underlying biological and social factors."
+    ],
+    [
+      "Does not demonstrate understanding of how gender affects nutritional needs.",
+      "Shows a minimal understanding of how gender impacts nutritional needs, with significant gaps.",
+      "Identifies some ways gender influences nutritional needs, but lacks detail or accuracy in explanations.",
+      "Explains how gender impacts nutritional needs with reasonable accuracy, providing examples.",
+      "Clearly and accurately explains how gender affects nutritional needs, providing detailed examples and considering hormonal and physiological differences.",
+      "Demonstrates a comprehensive understanding of the nuanced ways gender influences nutritional needs, including specific examples of hormonal and physiological differences, and insightful analysis of the underlying biological and social factors."
+    ],
+    [
+      "Does not demonstrate understanding of how activity level affects nutritional needs.",
+      "Shows a minimal understanding of how activity level impacts nutritional needs, with significant gaps.",
+      "Identifies some ways activity level influences nutritional needs, but lacks detail or accuracy in explanations.",
+      "Explains how activity level impacts nutritional needs with reasonable accuracy, providing examples.",
+      "Clearly and accurately explains how activity level affects nutritional needs, providing detailed examples and considering different types of activities.",
+      "Demonstrates a comprehensive understanding of the nuanced ways activity level influences nutritional needs, including specific examples of different types of activities and insightful analysis of the underlying metabolic factors."
+    ],
+    [
+      "Does not demonstrate understanding of how pregnancy affects nutritional needs.",
+      "Shows a minimal understanding of how pregnancy impacts nutritional needs, with significant gaps.",
+      "Identifies some ways pregnancy influences nutritional needs, but lacks detail or accuracy in explanations.",
+      "Explains how pregnancy impacts nutritional needs with reasonable accuracy, providing examples.",
+      "Clearly and accurately explains how pregnancy affects nutritional needs, providing detailed examples and considering all trimesters.",
+      "Demonstrates a comprehensive understanding of the nuanced ways pregnancy influences nutritional needs, including specific examples for each trimester and insightful analysis of the underlying hormonal and physiological factors."
+    ],
+    [
+      "Does not demonstrate understanding of how health status affects nutritional needs.",
+      "Shows a minimal understanding of how health status impacts nutritional needs, with significant gaps.",
+      "Identifies some ways health status influences nutritional needs, but lacks detail or accuracy in explanations.",
+      "Explains how health status impacts nutritional needs with reasonable accuracy, providing examples of common conditions.",
+      "Clearly and accurately explains how health status affects nutritional needs, providing detailed examples and considering a variety of health conditions.",
+      "Demonstrates a comprehensive understanding of the nuanced ways health status influences nutritional needs, including specific examples of various conditions and insightful analysis of the underlying physiological factors."
+    ]
+  ]
+}

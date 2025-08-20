@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding the Problem",
+    "Using Visual Fraction Models or Equations",
+    "Accuracy of Solution",
+    "Explanation and Reasoning"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to solve the problem or demonstrates no understanding of the problem.",
+      "Shows minimal understanding of the problem, misinterprets the context, and struggles to identify necessary information.",
+      "Demonstrates some understanding of the problem but may overlook key details or misinterpret some information.",
+      "Understands the problem and identifies most of the necessary information, but may have minor calculation errors.",
+      "Clearly understands the problem, identifies all necessary information, and sets up the problem correctly with no calculation errors.",
+      "Demonstrates a comprehensive understanding of the problem, accurately identifies all necessary information, and can explain the problem in their own words."
+    ],
+    [
+      "Does not use visual fraction models or equations to represent the problem.",
+      "Attempts to use visual fraction models or equations but demonstrates significant errors or misunderstandings.",
+      "Uses visual fraction models or equations but makes some errors in representation or calculation.",
+      "Uses visual fraction models or equations effectively, with only minor errors in representation or calculation.",
+      "Uses visual fraction models or equations accurately and effectively to represent and solve the problem.",
+      "Uses visual fraction models or equations in an exemplary manner, providing clear and accurate representations, and can explain the reasoning behind their approach."
+    ],
+    [
+      "Provides an incorrect solution or no solution at all.",
+      "Provides a solution that is far from the correct answer, with significant errors in calculation or reasoning.",
+      "Provides a solution that is close to the correct answer but contains errors in calculation or reasoning.",
+      "Provides a correct solution but may have minor calculation errors or lacks clear justification.",
+      "Provides a correct solution with clear and accurate calculations, showing a strong understanding of the concept.",
+      "Provides a correct solution, demonstrates a deep understanding of the concept, and offers alternative solution methods or generalizations."
+    ],
+    [
+      "Provides no explanation or reasoning for the solution.",
+      "Attempts to explain the solution but provides unclear, incomplete, or inaccurate reasoning.",
+      "Explains the solution with some clarity but may lack sufficient detail or justification.",
+      "Clearly explains the solution with accurate reasoning but may not fully justify all steps.",
+      "Provides a clear, accurate, and well-reasoned explanation of the solution, justifying all steps.",
+      "Offers a comprehensive and insightful explanation of the solution, demonstrating a deep understanding of the underlying concepts and providing clear justifications for all steps."
+    ]
+  ]
+}

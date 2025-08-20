@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Related Rates Concepts",
+    "Application of Differentiation Techniques",
+    "Problem-Solving and Interpretation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of related rates concepts is demonstrated.",
+      "Demonstrates minimal understanding of related rates concepts; struggles to identify variables or relevant formulas.",
+      "Demonstrates partial understanding of related rates concepts; can identify variables and some relevant formulas with assistance.",
+      "Demonstrates adequate understanding of related rates concepts; can identify variables and relevant formulas but may struggle with setting up the problem.",
+      "Demonstrates good understanding of related rates concepts; can correctly identify variables, relevant formulas, and set up the problem.",
+      "Demonstrates excellent understanding of related rates concepts; can correctly identify variables, relevant formulas, set up the problem, and explain the relationships between the rates."
+    ],
+    [
+      "No application of differentiation techniques is evident.",
+      "Applies differentiation techniques incorrectly or inappropriately; unable to differentiate the related rates equation.",
+      "Applies differentiation techniques with significant errors; struggles to differentiate the related rates equation.",
+      "Applies differentiation techniques with some errors; can differentiate the related rates equation but makes algebraic mistakes.",
+      "Applies differentiation techniques correctly with minor errors; can differentiate the related rates equation and solve for the unknown rate.",
+      "Applies differentiation techniques correctly and efficiently; can differentiate the related rates equation, solve for the unknown rate, and verify the solution."
+    ],
+    [
+      "No attempt to solve the related rates problem or interpret the result.",
+      "Attempts to solve the related rates problem but makes significant errors in calculations or interpretation.",
+      "Solves the related rates problem with assistance but struggles to interpret the result in the context of the problem.",
+      "Solves the related rates problem with some errors in calculations or interpretation; can provide a basic interpretation of the result.",
+      "Solves the related rates problem correctly and provides a reasonable interpretation of the result in the context of the problem.",
+      "Solves the related rates problem correctly, provides a clear and accurate interpretation of the result, and discusses the implications of the solution."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Understanding angle measure as additive",
+    "Solving addition problems to find unknown angles",
+    "Solving subtraction problems to find unknown angles",
+    "Applying knowledge to real-world and mathematical problems",
+    "Using equations with symbols for unknown angle measures"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of angle measure as additive.",
+      "Student shows limited understanding of angle measure as additive; struggles to apply the concept.",
+      "Student demonstrates partial understanding of angle measure as additive; can apply the concept in simple cases.",
+      "Student understands angle measure as additive and can apply it in most cases with some prompting.",
+      "Student demonstrates a solid understanding of angle measure as additive and applies it effectively in various problems.",
+      "Student demonstrates a comprehensive understanding of angle measure as additive and applies it fluently and accurately in complex problems."
+    ],
+    [
+      "Student cannot solve addition problems to find unknown angles.",
+      "Student struggles to set up and solve addition problems to find unknown angles.",
+      "Student can solve simple addition problems to find unknown angles with significant errors.",
+      "Student can solve most addition problems to find unknown angles but makes occasional errors.",
+      "Student can solve addition problems to find unknown angles accurately and efficiently.",
+      "Student solves complex addition problems to find unknown angles accurately and efficiently, demonstrating a strong command of the concept."
+    ],
+    [
+      "Student cannot solve subtraction problems to find unknown angles.",
+      "Student struggles to set up and solve subtraction problems to find unknown angles.",
+      "Student can solve simple subtraction problems to find unknown angles with significant errors.",
+      "Student can solve most subtraction problems to find unknown angles but makes occasional errors.",
+      "Student can solve subtraction problems to find unknown angles accurately and efficiently.",
+      "Student solves complex subtraction problems to find unknown angles accurately and efficiently, demonstrating a strong command of the concept."
+    ],
+    [
+      "Student cannot apply knowledge of angle measures to real-world or mathematical problems.",
+      "Student struggles to relate angle measures to real-world or mathematical contexts.",
+      "Student can apply knowledge of angle measures to simple real-world or mathematical problems with limited success.",
+      "Student can apply knowledge of angle measures to most real-world or mathematical problems with some assistance.",
+      "Student applies knowledge of angle measures effectively to a variety of real-world and mathematical problems.",
+      "Student demonstrates a sophisticated understanding of angle measures and applies it seamlessly to complex real-world and mathematical problems."
+    ],
+    [
+      "Student does not use equations with symbols to represent unknown angle measures.",
+      "Student attempts to use equations but struggles to correctly represent unknown angle measures with symbols.",
+      "Student can use equations to represent unknown angle measures but makes frequent errors.",
+      "Student uses equations with symbols to represent unknown angle measures, with occasional errors.",
+      "Student accurately uses equations with symbols to represent and solve for unknown angle measures.",
+      "Student fluently and accurately uses equations with symbols to solve complex problems involving unknown angle measures, demonstrating a deep understanding of algebraic representation."
+    ]
+  ]
+}

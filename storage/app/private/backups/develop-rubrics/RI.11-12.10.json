@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Text Complexity and Comprehension",
+    "Analysis and Interpretation",
+    "Use of Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not attempt the reading or demonstrates no understanding of the text.",
+      "Student attempts the reading but struggles significantly with comprehension, even with substantial scaffolding. The text selected is far below the expected complexity band.",
+      "Student demonstrates limited comprehension of the text, requiring considerable scaffolding. The text may be slightly below the expected complexity band.",
+      "Student comprehends the text with some scaffolding. The text is within the grades 11-CCR text complexity band, but the student struggles with more nuanced aspects.",
+      "Student independently comprehends the text at the grades 11-CCR text complexity band proficiently. Minor areas of misunderstanding may be present, but do not significantly impede overall comprehension.",
+      "Student independently and proficiently comprehends literary nonfiction at the high end of the grades 11-CCR text complexity band, demonstrating a nuanced understanding of complex ideas and rhetorical strategies."
+    ],
+    [
+      "Student provides no analysis or interpretation of the text.",
+      "Student attempts to analyze the text but offers only superficial or inaccurate interpretations.",
+      "Student identifies some key ideas but struggles to develop a coherent interpretation. Analysis is often unsupported by textual evidence.",
+      "Student provides a basic analysis of the text, supported by some textual evidence. Interpretation may be somewhat simplistic or incomplete.",
+      "Student offers a well-supported analysis and interpretation of the text, demonstrating an understanding of the author's purpose and key themes.",
+      "Student provides a sophisticated and insightful analysis of the text, demonstrating a deep understanding of complex themes, rhetorical strategies, and the author's purpose. Interpretation is nuanced and supported by compelling textual evidence."
+    ],
+    [
+      "Student does not use evidence from the text.",
+      "Student attempts to use evidence, but the selections are irrelevant or inaccurately cited.",
+      "Student uses some evidence from the text, but it is often weak or poorly explained.",
+      "Student provides relevant evidence from the text to support claims, but the connection between evidence and analysis is not always clear.",
+      "Student effectively uses textual evidence to support analysis and interpretation, explaining the connection between evidence and claims.",
+      "Student skillfully integrates textual evidence to support a sophisticated and nuanced analysis, demonstrating a clear and compelling understanding of the text."
+    ]
+  ]
+}

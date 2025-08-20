@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Safety Issues",
+    "Proposed Changes and Solutions",
+    "Support and Advocacy for Safety"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Fails to identify any safety issues in the home, school, or community.",
+      "Identifies only one safety issue with minimal detail.",
+      "Identifies a few safety issues but lacks depth in explanation or relevance.",
+      "Identifies several safety issues with reasonable explanations and relevance to the context.",
+      "Clearly identifies multiple safety issues, providing detailed explanations and showing a strong understanding of their relevance.",
+      "Identifies a comprehensive range of safety issues, providing insightful explanations and demonstrating a deep understanding of their potential impact."
+    ],
+    [
+      "Does not propose any changes or solutions to address identified safety issues.",
+      "Proposes one vague or impractical change without adequate justification.",
+      "Proposes a few changes, but they are poorly developed or lack feasibility.",
+      "Proposes several changes with some justification and feasibility considerations.",
+      "Proposes well-thought-out changes with clear justifications and consideration of potential challenges and benefits.",
+      "Proposes innovative and highly effective changes, demonstrating a comprehensive understanding of their potential impact and feasibility."
+    ],
+    [
+      "Shows no evidence of supporting or advocating for safety in the home, school, or community.",
+      "Expresses minimal support for safety with no specific actions or plans.",
+      "Shows some support for safety but lacks concrete actions or advocacy efforts.",
+      "Demonstrates support for safety through basic actions or advocacy efforts.",
+      "Actively supports and advocates for safety through well-planned actions and effective communication.",
+      "Serves as a strong advocate for safety, inspiring others to take action and creating a positive impact on the community."
+    ]
+  ]
+}

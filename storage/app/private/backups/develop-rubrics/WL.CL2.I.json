@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Cultural Products",
+    "Insight into Cultural Practices",
+    "Cultural Perspectives Articulation",
+    "Application in Transactional Situations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of cultural products related to the target culture.",
+      "Shows minimal awareness of cultural products; struggles to identify or describe them.",
+      "Identifies a few cultural products but lacks depth in explaining their significance or context.",
+      "Identifies and describes several cultural products, showing a basic understanding of their relevance.",
+      "Demonstrates a solid understanding of various cultural products and their significance within the target culture.",
+      "Exhibits a comprehensive understanding of cultural products, analyzing their impact and significance with nuanced insights."
+    ],
+    [
+      "Shows no awareness of cultural practices within the target culture.",
+      "Displays limited understanding of cultural practices; struggles to describe or explain them.",
+      "Identifies a few cultural practices but lacks depth in explaining their significance or context.",
+      "Identifies and describes several cultural practices, showing a basic understanding of their relevance.",
+      "Demonstrates a solid understanding of various cultural practices and their significance within the target culture.",
+      "Exhibits a comprehensive understanding of cultural practices, analyzing their impact and significance with nuanced insights."
+    ],
+    [
+      "Unable to identify or articulate any cultural perspectives from the target culture.",
+      "Struggles to identify or explain cultural perspectives, showing minimal understanding.",
+      "Identifies a few cultural perspectives but lacks depth in explaining their origins or implications.",
+      "Identifies and describes several cultural perspectives, showing a basic understanding of their influence.",
+      "Demonstrates a solid understanding of various cultural perspectives and their influence within the target culture.",
+      "Exhibits a comprehensive understanding of cultural perspectives, analyzing their impact and significance with nuanced insights."
+    ],
+    [
+      "Unable to apply cultural knowledge in transactional situations or informal settings.",
+      "Struggles to apply cultural knowledge, showing minimal awareness of appropriate behavior or communication.",
+      "Applies some cultural knowledge in transactional situations, but may make errors or lack confidence.",
+      "Demonstrates adequate application of cultural knowledge in various transactional situations.",
+      "Consistently applies cultural knowledge effectively in transactional situations and informal settings.",
+      "Demonstrates exceptional cultural competence by adapting behavior and communication effectively in diverse transactional situations."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Incentives and the Law of Supply",
+    "Understanding of Incentives, Substitutes, and the Law of Demand",
+    "Application of Concepts to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of incentives or the law of supply.",
+      "Student demonstrates a minimal understanding of incentives and\/or the law of supply. Explanation is unclear or incorrect.",
+      "Student demonstrates a partial understanding of incentives and the law of supply. Explanation lacks depth or contains some inaccuracies.",
+      "Student demonstrates a satisfactory understanding of incentives and the law of supply. Explanation is generally accurate but could benefit from further detail.",
+      "Student demonstrates a strong understanding of incentives and the law of supply. Explanation is clear, accurate, and provides relevant details.",
+      "Student demonstrates a comprehensive understanding of incentives and the law of supply. Explanation is insightful, accurate, and provides relevant examples and connections."
+    ],
+    [
+      "Student demonstrates no understanding of incentives, substitutes, or the law of demand.",
+      "Student demonstrates a minimal understanding of incentives, substitutes, and\/or the law of demand. Explanation is unclear or incorrect.",
+      "Student demonstrates a partial understanding of incentives, substitutes, and the law of demand. Explanation lacks depth or contains some inaccuracies.",
+      "Student demonstrates a satisfactory understanding of incentives, substitutes, and the law of demand. Explanation is generally accurate but could benefit from further detail.",
+      "Student demonstrates a strong understanding of incentives, substitutes, and the law of demand. Explanation is clear, accurate, and provides relevant details.",
+      "Student demonstrates a comprehensive understanding of incentives, substitutes, and the law of demand. Explanation is insightful, accurate, and provides relevant examples and connections."
+    ],
+    [
+      "Student is unable to apply the concepts to any real-world scenarios.",
+      "Student attempts to apply the concepts to a real-world scenario, but the application is flawed or irrelevant.",
+      "Student applies the concepts to a real-world scenario with limited success or accuracy.",
+      "Student applies the concepts to a real-world scenario with reasonable accuracy and relevance.",
+      "Student effectively applies the concepts to a real-world scenario, demonstrating a clear understanding of their impact.",
+      "Student insightfully applies the concepts to multiple real-world scenarios, demonstrating a sophisticated understanding of their impact and nuances."
+    ]
+  ]
+}

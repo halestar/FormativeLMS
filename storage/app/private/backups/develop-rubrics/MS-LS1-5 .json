@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Environmental Factors",
+    "Understanding of Genetic Factors",
+    "Use of Evidence",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how environmental factors influence organism growth is demonstrated.",
+      "Demonstrates minimal understanding of environmental factors; explanation is vague or inaccurate.",
+      "Identifies environmental factors (e.g., food, light, water) but struggles to explain their influence on growth.",
+      "Explains how several environmental factors influence growth, providing basic examples.",
+      "Provides a clear explanation of how multiple environmental factors interact to influence organism growth, with relevant examples.",
+      "Offers a comprehensive explanation of the complex interactions between various environmental factors and their significant impact on organism growth, supported by detailed examples."
+    ],
+    [
+      "No understanding of how genetic factors influence organism growth is demonstrated.",
+      "Demonstrates minimal understanding of genetic factors; explanation is vague or inaccurate.",
+      "Identifies genetic factors but struggles to explain their influence on growth.",
+      "Explains how genetic factors influence growth, providing basic examples.",
+      "Provides a clear explanation of how genetic factors influence organism growth, with relevant examples.",
+      "Offers a comprehensive explanation of the complex role of genetic factors in influencing organism growth, supported by detailed examples."
+    ],
+    [
+      "No evidence is presented to support the explanation.",
+      "Presents irrelevant or weak evidence.",
+      "Uses evidence that is vaguely related to the explanation or is not clearly explained.",
+      "Uses relevant evidence to support the explanation, but connection could be clearer.",
+      "Uses relevant and specific evidence to support the explanation, clearly explaining the connection.",
+      "Uses a variety of strong and relevant evidence to thoroughly support the explanation, demonstrating a deep understanding of the concepts."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation lacks clarity and organization, making it difficult to follow.",
+      "Explanation is somewhat clear but could benefit from better organization.",
+      "Explanation is generally clear and organized.",
+      "Explanation is clear, well-organized, and easy to understand.",
+      "Explanation is exceptionally clear, logically organized, and effectively communicates the relationship between environmental and genetic factors."
+    ]
+  ]
+}

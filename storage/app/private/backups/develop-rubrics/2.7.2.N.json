@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Nutrient Balance",
+    "Variety and Food Groups",
+    "Practicality and Cost-Effectiveness",
+    "Adherence to Dietary Guidelines"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Meal plan lacks essential nutrients; portions are disproportionate.",
+      "Meal plan shows limited understanding of nutrient balance; portion sizes are inconsistent.",
+      "Meal plan includes some essential nutrients but may be lacking in variety; portion sizes are somewhat appropriate.",
+      "Meal plan includes a good balance of nutrients with mostly appropriate portion sizes.",
+      "Meal plan demonstrates a strong understanding of nutrient balance and includes appropriate portion sizes.",
+      "Meal plan demonstrates an exceptional understanding of nutrient balance, variety, and optimal portion sizes for health."
+    ],
+    [
+      "Meal plan includes very limited variety and fails to represent multiple food groups.",
+      "Meal plan includes a few food items with minimal variety; may be missing key food groups.",
+      "Meal plan shows some variety but lacks representation from all food groups.",
+      "Meal plan incorporates foods from all food groups with reasonable variety.",
+      "Meal plan demonstrates excellent variety and includes diverse options from all food groups.",
+      "Meal plan showcases exceptional variety with creative and diverse options from all food groups, promoting a balanced diet."
+    ],
+    [
+      "Meal plan is impractical and unrealistic, using costly or inaccessible ingredients.",
+      "Meal plan is somewhat impractical or uses some ingredients that are not easily accessible or cost-effective.",
+      "Meal plan is reasonably practical but could be more cost-effective or easier to prepare.",
+      "Meal plan is practical, uses accessible ingredients, and is relatively cost-effective.",
+      "Meal plan is highly practical, cost-effective, and easy to prepare with readily available ingredients.",
+      "Meal plan is exceptionally practical, highly cost-effective, easy to prepare, and creatively utilizes readily available ingredients."
+    ],
+    [
+      "Meal plan completely disregards dietary guidelines and recommendations.",
+      "Meal plan shows little awareness of dietary guidelines.",
+      "Meal plan addresses some dietary guidelines but misses key recommendations.",
+      "Meal plan generally adheres to dietary guidelines.",
+      "Meal plan closely follows dietary guidelines and recommendations.",
+      "Meal plan exceeds dietary guidelines, demonstrating a deep understanding of nutritional needs."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Relevant Resources",
+    "Understanding of Resource Accessibility",
+    "Appropriate Use of Resources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to identify any school or community resources related to mental, emotional, or social health.",
+      "The student identifies a resource, but it is not clearly relevant or appropriate for addressing mental, emotional, or social health concerns.",
+      "The student identifies one relevant school or community resource, but provides limited information about it.",
+      "The student identifies two relevant school or community resources and provides a basic description of each.",
+      "The student identifies at least three relevant school or community resources and provides a clear description of each, including contact information and services offered.",
+      "The student identifies multiple relevant school and community resources, provides detailed descriptions, and explains how each resource can effectively address specific mental, emotional, or social health concerns."
+    ],
+    [
+      "The student demonstrates no understanding of how to access school and community resources.",
+      "The student demonstrates a limited understanding of how to access resources, with significant gaps in knowledge.",
+      "The student vaguely describes how to access resources but misses key steps or considerations.",
+      "The student describes the basic steps for accessing school and community resources but may not address potential barriers.",
+      "The student clearly explains the process for accessing resources, including contact information, eligibility requirements, and any associated costs.",
+      "The student demonstrates a thorough understanding of resource accessibility, including how to overcome potential barriers, navigate complex systems, and advocate for oneself or others."
+    ],
+    [
+      "The student does not demonstrate an understanding of how to appropriately use school and community resources.",
+      "The student mentions using resources but describes inappropriate or potentially harmful uses.",
+      "The student describes using resources in a general way but lacks specificity or consideration for ethical implications.",
+      "The student explains appropriate ways to use resources for addressing mental, emotional, and social health concerns, but may not consider diverse needs or perspectives.",
+      "The student provides a detailed explanation of appropriate resource use, considering ethical implications, confidentiality, and diverse needs or perspectives.",
+      "The student demonstrates a sophisticated understanding of appropriate resource use, adapting strategies to meet individual needs, promoting ethical practices, and advocating for responsible resource allocation."
+    ]
+  ]
+}

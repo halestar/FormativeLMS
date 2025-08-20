@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Unit Rate Concept",
+    "Application of Rate Language",
+    "Problem Solving with Ratios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of unit rate is demonstrated.",
+      "Struggles to define or identify unit rate in simple ratios.",
+      "Can define unit rate but has difficulty applying it in context.",
+      "Understands unit rate and can apply it to solve basic ratio problems.",
+      "Clearly understands and applies unit rate to solve complex ratio problems.",
+      "Demonstrates a thorough understanding of unit rate and can explain and apply it effectively in various contexts and solve advanced problems."
+    ],
+    [
+      "Unable to use rate language to describe ratio relationships.",
+      "Struggles to express ratio relationships using appropriate rate language.",
+      "Can use rate language but makes errors in expressing relationships.",
+      "Uses rate language correctly to express ratio relationships in simple scenarios.",
+      "Confidently uses rate language to explain ratio relationships in various contexts.",
+      "Masterfully uses rate language to articulate complex ratio relationships and explain their significance in real-world scenarios."
+    ],
+    [
+      "Unable to solve problems involving ratios or unit rates.",
+      "Attempts to solve ratio problems but is unsuccessful.",
+      "Can solve some basic ratio problems with guidance.",
+      "Independently solves a variety of ratio problems accurately.",
+      "Solves complex ratio problems efficiently and accurately.",
+      "Solves challenging ratio problems with multiple steps, demonstrating a deep understanding of ratio concepts and applying them creatively."
+    ]
+  ]
+}

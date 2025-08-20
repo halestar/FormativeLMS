@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Ratios and Rates",
+    "Creating and Interpreting Tables of Equivalent Ratios",
+    "Use of Visual Representations (Tape Diagrams, Double Number Lines, Coordinate Plane)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of ratios or rates.",
+      "Student demonstrates minimal understanding of ratios or rates, struggling to identify them in simple contexts.",
+      "Student demonstrates a basic understanding of ratios and rates but struggles to apply them to solve problems.",
+      "Student can identify and use ratios and rates in some real-world and mathematical problems, but makes frequent errors.",
+      "Student can effectively use ratios and rates to solve real-world and mathematical problems with occasional errors.",
+      "Student demonstrates a comprehensive understanding of ratios and rates and can accurately solve complex real-world and mathematical problems."
+    ],
+    [
+      "Student is unable to create or interpret tables of equivalent ratios.",
+      "Student struggles to create tables of equivalent ratios and cannot accurately find missing values.",
+      "Student can create basic tables of equivalent ratios but has difficulty finding missing values or comparing ratios.",
+      "Student can create tables of equivalent ratios, find missing values, and compare ratios with some errors.",
+      "Student can accurately create tables of equivalent ratios, find missing values, and use them to compare ratios effectively.",
+      "Student demonstrates mastery in creating and interpreting tables of equivalent ratios, using them to solve complex problems and make insightful comparisons."
+    ],
+    [
+      "Student does not use or understand visual representations of ratios.",
+      "Student attempts to use visual representations but struggles to create accurate or meaningful diagrams.",
+      "Student can create basic visual representations but struggles to use them to solve problems.",
+      "Student can use visual representations to solve some problems, but the diagrams may contain errors or be unclear.",
+      "Student effectively uses visual representations to solve problems, with clear and accurate diagrams.",
+      "Student demonstrates skillful use of visual representations to solve complex ratio problems, providing clear and insightful diagrams."
+    ]
+  ]
+}

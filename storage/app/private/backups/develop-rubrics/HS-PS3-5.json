@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Model accurately represents two objects interacting through electric or magnetic fields.",
+    "Model illustrates the forces between objects due to the interaction.",
+    "Model explains changes in energy of the objects due to the interaction.",
+    "Explanation of Cause and Effect relationships are presented."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Model is missing or does not show any interaction between objects.",
+      "Model attempts to show interaction but is unclear or contains significant inaccuracies.",
+      "Model shows basic interaction between objects but lacks detail or precision.",
+      "Model clearly represents the interaction between objects with reasonable detail and accuracy.",
+      "Model accurately and clearly represents the interaction, including relevant components of the electric\/magnetic fields.",
+      "Model is exceptionally clear, detailed, and accurate, demonstrating a thorough understanding of the interaction and field dynamics."
+    ],
+    [
+      "Model does not indicate any forces acting between the objects.",
+      "Model attempts to represent forces but is unclear, inaccurate, or incomplete.",
+      "Model shows the presence of forces but does not clearly illustrate their direction or relative magnitude.",
+      "Model illustrates forces with correct direction, but relative magnitude may be approximate.",
+      "Model accurately illustrates forces, including direction and relative magnitude, providing a clear representation of their effect.",
+      "Model provides an exemplary illustration of forces, including clear indication of direction, magnitude, and points of application, demonstrating a nuanced understanding of force dynamics."
+    ],
+    [
+      "Model fails to address changes in energy related to the interaction.",
+      "Model mentions changes in energy but does not provide a clear or accurate explanation.",
+      "Model partially explains energy changes, but the explanation contains gaps or inaccuracies.",
+      "Model provides a reasonable explanation of how the interaction leads to changes in energy of the objects.",
+      "Model clearly and accurately explains energy changes, linking them directly to the forces and field interactions.",
+      "Model provides an in-depth and insightful explanation of energy changes, demonstrating a comprehensive understanding of energy transfer and transformation within the system."
+    ],
+    [
+      "Explanation is missing or does not make an attempt to show any cause and effect relationships.",
+      "Explanation attempts to show cause and effect but is unclear or contains significant inaccuracies.",
+      "Explanation shows basic cause and effect between objects but lacks detail or precision.",
+      "Explanation clearly represents cause and effect with reasonable detail and accuracy.",
+      "Explanation accurately and clearly represents the cause and effect, including relevant components of the electric\/magnetic fields.",
+      "Explanation is exceptionally clear, detailed, and accurate, demonstrating a thorough understanding of the relationship and system dynamics."
+    ]
+  ]
+}

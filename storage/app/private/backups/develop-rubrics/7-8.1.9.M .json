@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Anorexia Nervosa Signs",
+    "Identification of Bulimia Nervosa Signs",
+    "Identification of Binge Eating Disorder Signs",
+    "Differentiation Between Eating Disorders"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any signs of anorexia nervosa.",
+      "Student identifies only 1-2 basic signs of anorexia nervosa, with limited accuracy.",
+      "Student identifies some signs of anorexia nervosa, but shows gaps in understanding or omits key indicators.",
+      "Student accurately identifies several signs of anorexia nervosa, demonstrating a reasonable understanding.",
+      "Student comprehensively identifies most major signs of anorexia nervosa, showing good understanding and detail.",
+      "Student thoroughly and accurately identifies a wide range of signs of anorexia nervosa, demonstrating excellent understanding and insightful awareness."
+    ],
+    [
+      "Student cannot identify any signs of bulimia nervosa.",
+      "Student identifies only 1-2 basic signs of bulimia nervosa, with limited accuracy.",
+      "Student identifies some signs of bulimia nervosa, but shows gaps in understanding or omits key indicators.",
+      "Student accurately identifies several signs of bulimia nervosa, demonstrating a reasonable understanding.",
+      "Student comprehensively identifies most major signs of bulimia nervosa, showing good understanding and detail.",
+      "Student thoroughly and accurately identifies a wide range of signs of bulimia nervosa, demonstrating excellent understanding, including compensatory behaviors."
+    ],
+    [
+      "Student cannot identify any signs of binge eating disorder.",
+      "Student identifies only 1-2 basic signs of binge eating disorder, with limited accuracy.",
+      "Student identifies some signs of binge eating disorder, but shows gaps in understanding or omits key indicators.",
+      "Student accurately identifies several signs of binge eating disorder, demonstrating a reasonable understanding.",
+      "Student comprehensively identifies most major signs of binge eating disorder, showing good understanding and detail.",
+      "Student thoroughly and accurately identifies a wide range of signs of binge eating disorder, demonstrating excellent understanding of both eating behaviors and related distress."
+    ],
+    [
+      "Student is unable to differentiate between the signs of different eating disorders.",
+      "Student shows minimal ability to distinguish between eating disorders, confusing signs and symptoms.",
+      "Student demonstrates some ability to differentiate, but with inaccuracies or omissions.",
+      "Student can generally differentiate between the main signs of anorexia, bulimia, and binge eating disorder.",
+      "Student clearly differentiates between the signs of various eating disorders, demonstrating a solid understanding of their unique characteristics.",
+      "Student expertly differentiates between eating disorders, highlighting nuanced differences in signs and symptoms and demonstrating a comprehensive understanding."
+    ]
+  ]
+}

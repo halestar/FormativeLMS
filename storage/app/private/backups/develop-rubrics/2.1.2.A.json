@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Harmful Substances",
+    "Explanation of Harmful Effects",
+    "Application of Knowledge to Real-World Scenarios"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any household products or their potential harm.",
+      "Identifies at least one household product, but does not explain the harmful effect of ingestion or inhalation.",
+      "Identifies one or two household products and briefly mentions potential harm upon ingestion or inhalation.",
+      "Identifies several household products and provides a basic explanation of why they are harmful if ingested or inhaled.",
+      "Identifies multiple household products and explains in detail the specific harmful effects of ingestion and inhalation, linking it to the chemicals in the product.",
+      "Provides a comprehensive overview of various household products, detailing their chemical composition and explaining the specific health hazards associated with ingestion and inhalation, including long-term effects."
+    ],
+    [
+      "Does not explain any harmful effects.",
+      "Attempts to explain harmful effects, but provides inaccurate or irrelevant information.",
+      "Provides a vague or general explanation of potential harm, without specific details.",
+      "Explains some of the harmful effects of ingestion or inhalation, such as poisoning or irritation.",
+      "Explains the harmful effects, including chemical reactions within the body, damage to organs, and other health complications.",
+      "Presents a clear, detailed, and scientifically accurate explanation of the physiological and toxicological effects of the harmful substances when ingested or inhaled, showcasing a thorough understanding of the subject matter."
+    ],
+    [
+      "Does not apply knowledge to real-world scenarios.",
+      "Attempts to relate the information to real-world scenarios but fails to provide a clear connection.",
+      "Provides one basic example of a real-world scenario related to household product harm.",
+      "Describes a few real-world scenarios and relates them to the harmful effects of specific products.",
+      "Clearly connects the harmful properties of household products to potential real-world scenarios, such as accidental poisoning or improper use.",
+      "Analyzes and evaluates multiple real-world scenarios, offers preventive measures, and provides insightful recommendations for the safe handling and storage of household products to avoid potential harm."
+    ]
+  ]
+}

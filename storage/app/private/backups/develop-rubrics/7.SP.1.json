@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Random Sampling",
+    "Ability to Identify Representative Samples",
+    "Making Valid Inferences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of random sampling or its purpose.",
+      "Student shows minimal understanding of random sampling; struggles to explain its basic principles.",
+      "Student demonstrates a basic understanding of random sampling but has difficulty explaining why it's important for creating representative samples.",
+      "Student understands random sampling and can explain that it helps create representative samples, but struggles to connect it to making inferences about a population.",
+      "Student demonstrates a solid understanding of random sampling, its role in creating representative samples, and its importance in making valid inferences about a population.",
+      "Student demonstrates a comprehensive understanding of random sampling, can articulate its importance in creating representative samples, and clearly explains how it supports valid inferences about a population, providing clear examples."
+    ],
+    [
+      "Student cannot identify a representative sample from a given scenario.",
+      "Student struggles to identify a representative sample, even with guidance.",
+      "Student can identify a representative sample in simple scenarios, but struggles with more complex situations.",
+      "Student can identify representative samples in most scenarios, but may occasionally struggle with nuanced situations.",
+      "Student consistently identifies representative samples and can explain why they are representative of the population.",
+      "Student expertly identifies representative samples and provides insightful explanations of why they accurately reflect the population, even in complex or ambiguous scenarios."
+    ],
+    [
+      "Student cannot make any valid inferences from a given sample.",
+      "Student struggles to make valid inferences, even when provided with a representative sample.",
+      "Student can make basic inferences from a representative sample, but struggles to justify their reasoning.",
+      "Student makes generally valid inferences from representative samples and can provide some justification for their reasoning.",
+      "Student consistently makes valid inferences from representative samples and provides clear and logical justifications for their reasoning.",
+      "Student expertly makes valid inferences from representative samples, providing insightful and well-reasoned justifications, and can identify potential biases or limitations in the inferences."
+    ]
+  ]
+}

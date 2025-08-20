@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Rules and Consequences",
+    "Application of Rules in Practical Scenarios",
+    "Sharing and Taking Turns"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of rules or the consequences of breaking them.",
+      "Shows a limited understanding of rules and consequences, with significant misconceptions.",
+      "Identifies some rules and consequences but struggles to explain the connection between them.",
+      "Understands most common rules and can generally explain the direct consequences of breaking them.",
+      "Clearly understands rules and consequences, providing accurate examples and explanations.",
+      "Demonstrates a sophisticated understanding of rules and consequences, including nuanced or complex scenarios, and can articulate the rationale behind them."
+    ],
+    [
+      "Unable to apply knowledge of rules to practical scenarios.",
+      "Struggles to apply knowledge of rules, often misinterpreting scenarios or suggesting inappropriate actions.",
+      "Can identify the relevant rule in simple scenarios but struggles to determine the appropriate action.",
+      "Applies knowledge of rules appropriately in most straightforward scenarios.",
+      "Consistently applies knowledge of rules accurately and effectively in a variety of scenarios.",
+      "Demonstrates exceptional ability to apply knowledge of rules in complex or ambiguous scenarios, making sound judgments and justifying their actions."
+    ],
+    [
+      "Never shares or takes turns.",
+      "Rarely shares or takes turns without prompting and significant guidance.",
+      "Occasionally shares or takes turns, but often requires reminders.",
+      "Shares and takes turns in most situations with occasional need for reminders.",
+      "Consistently shares and takes turns willingly and appropriately.",
+      "Actively promotes sharing and taking turns, demonstrating leadership in fostering cooperative behavior."
+    ]
+  ]
+}

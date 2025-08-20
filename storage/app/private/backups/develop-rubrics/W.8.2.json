@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Clarity of Thesis and Organization",
+    "Development of Topic with Relevant Information",
+    "Use of Transitions and Cohesion",
+    "Language and Vocabulary",
+    "Formal Style and Tone",
+    "Concluding Statement or Section"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The topic or thesis is unclear or missing. There is no discernible organization of ideas.",
+      "The topic or thesis is vague and the organization is weak and difficult to follow.",
+      "The topic or thesis is identifiable, but lacks clarity. The organization is basic and somewhat unclear.",
+      "The topic or thesis is clear, and the organization is generally logical, but may have some inconsistencies.",
+      "The topic or thesis is clearly stated and the organization is logical and supports the development of ideas.",
+      "The topic or thesis is compelling and clearly stated, with a sophisticated and effective organization that enhances the presentation of ideas."
+    ],
+    [
+      "The topic is not developed, or the information provided is irrelevant or inaccurate.",
+      "The topic is underdeveloped, with minimal and\/or irrelevant information.",
+      "The topic is developed with some relevant information, but lacks depth and detail.",
+      "The topic is adequately developed with relevant facts, details, and examples, but could benefit from further elaboration.",
+      "The topic is well-developed with relevant, well-chosen facts, details, quotations, and examples that support the thesis.",
+      "The topic is exceptionally well-developed with a rich array of relevant, insightful, and compelling evidence that enhances understanding."
+    ],
+    [
+      "Transitions are absent, resulting in a lack of cohesion between ideas.",
+      "Transitions are minimal and ineffective, resulting in disjointed ideas.",
+      "Transitions are present, but often weak or inappropriate, leading to some confusion.",
+      "Transitions are generally appropriate and contribute to the cohesion of ideas, but may be somewhat repetitive or predictable.",
+      "Transitions are varied and effectively connect ideas, creating a clear and logical flow.",
+      "Transitions are seamless and sophisticated, enhancing the cohesion and clarity of the text."
+    ],
+    [
+      "Language is imprecise and vocabulary is inappropriate or limited, hindering understanding.",
+      "Language is somewhat imprecise and vocabulary is basic, with little domain-specific terminology.",
+      "Language is generally clear, but may lack precision. Vocabulary includes some domain-specific terms, but usage is inconsistent.",
+      "Language is precise and vocabulary is appropriate for the topic, with consistent use of domain-specific terminology.",
+      "Language is precise and engaging, with a sophisticated command of domain-specific vocabulary.",
+      "Language is exceptionally precise and nuanced, with a masterful command of domain-specific vocabulary that enhances the impact of the text."
+    ],
+    [
+      "The style is informal and inappropriate for the task.",
+      "The style is inconsistent and often inappropriate for the task.",
+      "The style is generally formal, but may occasionally lapse into informality.",
+      "The style is consistently formal and appropriate for the task.",
+      "The style is consistently formal, polished, and enhances the credibility of the writer.",
+      "The style is impeccably formal, demonstrating a sophisticated understanding of audience and purpose."
+    ],
+    [
+      "A concluding statement or section is missing or irrelevant.",
+      "The concluding statement or section is weak and does not adequately summarize or reinforce the main points.",
+      "The concluding statement or section summarizes the main points, but lacks depth or insight.",
+      "The concluding statement or section effectively summarizes the main points and provides a sense of closure.",
+      "The concluding statement or section provides a thoughtful and insightful summary of the main points and leaves the reader with a clear understanding of the topic.",
+      "The concluding statement or section is compelling and memorable, leaving the reader with a lasting impression of the topic."
+    ]
+  ]
+}

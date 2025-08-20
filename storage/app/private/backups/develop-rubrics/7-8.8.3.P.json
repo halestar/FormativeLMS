@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Natural Resource Conservation: Demonstrates comprehension of why conserving natural resources is important and the impact of human actions.",
+    "Personal Responsibility and Action Planning: Identifies and plans personal actions to conserve natural resources in daily life.",
+    "Advocacy and Promotion: Effectively advocates for natural resource conservation and encourages others to take responsibility."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Shows no understanding of natural resource conservation or its importance.",
+      "Displays a very limited understanding of natural resource conservation, struggles to explain its importance.",
+      "Demonstrates a basic understanding of natural resource conservation but needs prompting to discuss its importance or impacts.",
+      "Exhibits a satisfactory understanding of natural resource conservation, explaining its importance and some impacts of human actions with minor gaps.",
+      "Shows a strong understanding of natural resource conservation, clearly explaining its importance and the significant impacts of human actions on resource depletion.",
+      "Demonstrates a comprehensive understanding of natural resource conservation, articulates its critical importance, and thoroughly explains the complex impacts of human actions, including specific examples."
+    ],
+    [
+      "Unable to identify any personal actions for conserving natural resources.",
+      "Suggests one or two vague actions without a clear plan for implementation.",
+      "Identifies a few basic actions but lacks a cohesive plan or specific strategies for implementation.",
+      "Presents several relevant actions with a reasonable plan, but some strategies may be unrealistic or lack detail.",
+      "Clearly articulates multiple effective actions with a well-thought-out plan that includes feasible strategies and specific steps.",
+      "Presents a comprehensive and innovative plan with a variety of effective, feasible actions, demonstrating a deep commitment to integrating conservation into daily life, and includes methods for self-monitoring and improvement."
+    ],
+    [
+      "Does not attempt to advocate for conservation or encourage others.",
+      "Makes a minimal effort to mention conservation but does not actively encourage others.",
+      "Attempts to advocate for conservation but struggles to convey the message effectively or engage others.",
+      "Advocates for conservation in a clear and understandable manner, encouraging others with some success.",
+      "Effectively advocates for conservation, inspiring others through persuasive communication and thoughtful examples.",
+      "Serves as a compelling advocate for conservation, inspiring action through passionate communication, proactive community engagement, and demonstration of leadership in promoting sustainable practices."
+    ]
+  ]
+}

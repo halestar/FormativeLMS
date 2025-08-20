@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Market Economy Elements",
+    "Analysis of Domestic Competition",
+    "Analysis of International Competition",
+    "Understanding of Effects on Quality, Quantity, and Price"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of market economy elements.",
+      "Student demonstrates a minimal understanding of market economy elements, with significant gaps.",
+      "Student demonstrates a basic understanding of market economy elements, but struggles to connect them to competition.",
+      "Student demonstrates a satisfactory understanding of market economy elements and can identify some connections to competition.",
+      "Student demonstrates a strong understanding of market economy elements and can clearly explain their relationship to competition.",
+      "Student demonstrates a comprehensive understanding of market economy elements and can expertly explain their complex relationships to competition."
+    ],
+    [
+      "Student provides no analysis of domestic competition.",
+      "Student attempts to analyze domestic competition, but the analysis is superficial and lacks supporting evidence.",
+      "Student identifies some aspects of domestic competition, but the analysis is limited and may contain inaccuracies.",
+      "Student analyzes domestic competition and its effects on goods\/services with some supporting evidence.",
+      "Student provides a thorough analysis of domestic competition and its effects on goods\/services, using specific examples and evidence.",
+      "Student provides an insightful and nuanced analysis of domestic competition, demonstrating a deep understanding of its effects on goods\/services."
+    ],
+    [
+      "Student provides no analysis of international competition.",
+      "Student attempts to analyze international competition, but the analysis is superficial and lacks supporting evidence.",
+      "Student identifies some aspects of international competition, but the analysis is limited and may contain inaccuracies.",
+      "Student analyzes international competition and its effects on goods\/services with some supporting evidence.",
+      "Student provides a thorough analysis of international competition and its effects on goods\/services, using specific examples and evidence.",
+      "Student provides an insightful and nuanced analysis of international competition, demonstrating a deep understanding of its effects on goods\/services."
+    ],
+    [
+      "Student demonstrates no understanding of how competition affects quality, quantity, and price.",
+      "Student demonstrates a minimal understanding of how competition affects quality, quantity, and price, with significant gaps.",
+      "Student identifies some effects of competition on quality, quantity, or price, but the explanation is incomplete.",
+      "Student explains how competition affects at least two of the following: quality, quantity, and price.",
+      "Student thoroughly explains how competition affects quality, quantity, and price, providing specific examples.",
+      "Student expertly explains the complex and interconnected effects of competition on quality, quantity, and price, demonstrating a comprehensive understanding."
+    ]
+  ]
+}

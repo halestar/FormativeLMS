@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Identification",
+    "Understanding of Roles",
+    "Use of Resources"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any current representatives in the legislative branch.",
+      "Student identifies at least one representative with significant inaccuracies or provides information that is clearly incorrect.",
+      "Student identifies one or two representatives but with minor inaccuracies or omissions.",
+      "Student identifies all current representatives (House and Senate) from their district\/state with mostly accurate information but may have a few minor omissions.",
+      "Student accurately identifies all current representatives from their district\/state in the legislative branch with correct names and roles.",
+      "Student accurately identifies all current representatives and can also provide additional relevant information, such as party affiliation, key committees, or recent legislative actions."
+    ],
+    [
+      "Student demonstrates no understanding of the roles of representatives in the legislative branch.",
+      "Student shows minimal understanding, with significant misconceptions about the roles and responsibilities.",
+      "Student demonstrates some basic understanding of the role of a representative but lacks specifics.",
+      "Student understands the general roles and responsibilities of representatives, such as voting on laws and representing constituents.",
+      "Student clearly understands the roles of representatives, including their responsibilities in creating laws, representing constituents, and participating in committees.",
+      "Student demonstrates a comprehensive understanding of the roles of representatives and can explain how they impact policy-making and address constituent needs, including examples."
+    ],
+    [
+      "Student does not use any resources to identify representatives.",
+      "Student attempts to use resources, but the resources are inappropriate or the student misinterprets the information.",
+      "Student uses a resource, but the resource is unreliable or outdated.",
+      "Student uses appropriate resources (e.g., official government websites) to identify representatives but may need some guidance.",
+      "Student independently and effectively uses reliable sources to accurately identify representatives.",
+      "Student uses a variety of reliable sources to confirm their identification of representatives and critically evaluates the information presented."
+    ]
+  ]
+}

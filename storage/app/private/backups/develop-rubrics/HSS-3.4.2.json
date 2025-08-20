@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Public Virtue",
+    "Role of Citizens",
+    "Participation in Civic Life"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of public virtue or its relevance.",
+      "Demonstrates a very limited understanding of public virtue.",
+      "Demonstrates a basic understanding of public virtue but struggles to explain its importance.",
+      "Demonstrates a satisfactory understanding of public virtue and can explain its general importance.",
+      "Demonstrates a strong understanding of public virtue, explains its importance with relevant examples.",
+      "Demonstrates a comprehensive understanding of public virtue, explains its importance thoroughly, and provides insightful examples."
+    ],
+    [
+      "Shows no awareness of the roles and responsibilities of citizens.",
+      "Shows minimal awareness of the roles and responsibilities of citizens.",
+      "Identifies a few roles of citizens but struggles to explain their significance.",
+      "Identifies several roles of citizens and explains their significance adequately.",
+      "Clearly articulates the various roles of citizens and explains their importance in a democratic society.",
+      "Demonstrates an exceptional understanding of the diverse roles of citizens and provides insightful analysis of their impact."
+    ],
+    [
+      "Shows no understanding of how to participate in classroom, community, or civic life.",
+      "Shows limited understanding of how to participate in classroom, community, or civic life.",
+      "Identifies a few ways to participate but struggles to articulate the impact of participation.",
+      "Identifies several ways to participate and articulates the potential impact of participation.",
+      "Demonstrates a clear understanding of how to participate actively and explains the benefits of civic engagement.",
+      "Demonstrates exceptional understanding of how to participate effectively and provides insightful examples of impactful civic engagement."
+    ]
+  ]
+}

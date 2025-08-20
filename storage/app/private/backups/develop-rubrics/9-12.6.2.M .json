@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Goal Setting and Planning",
+    "Application of Health-Enhancing Strategies",
+    "Monitoring and Adjustment"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No goal is set, or the goal is unrealistic and not health-enhancing. No plan is evident.",
+      "A goal is vaguely identified, but it is not specific or measurable. The plan is unclear and lacks detail.",
+      "A goal is identified but lacks specific details or measurable outcomes. The plan is basic and has some steps, but lacks depth.",
+      "A specific and measurable goal is set to reduce life stressors. A detailed plan with clear steps is developed, but may lack some adaptability.",
+      "A well-defined, specific, and measurable goal is set to reduce life stressors in a health-enhancing way. A comprehensive and adaptable plan with detailed steps is developed.",
+      "A well-defined, specific, and measurable goal is innovatively set to reduce life stressors in a health-enhancing way. A highly comprehensive and adaptable plan with detailed, insightful steps is developed, showing a deep understanding of stress reduction."
+    ],
+    [
+      "No strategies are applied or the student relies on mal-adaptive or harmful strategies.",
+      "Attempts to apply some strategies are made, but they are ineffective or not clearly health-enhancing.",
+      "Some health-enhancing strategies are applied, but their effectiveness is limited.",
+      "Health-enhancing strategies are consistently applied, showing a basic understanding of their benefits.",
+      "Health-enhancing strategies are effectively and consistently applied, demonstrating a good understanding of their impact.",
+      "Health-enhancing strategies are innovatively and consistently applied, demonstrating a deep understanding of their impact and adaptability in various situations."
+    ],
+    [
+      "No monitoring or adjustment of the plan is evident.",
+      "Monitoring is mentioned, but no adjustments are made, or adjustments are ineffective.",
+      "Basic monitoring is conducted, and minor adjustments are made as needed.",
+      "Regular monitoring is conducted, and adjustments are made to the plan based on progress and challenges.",
+      "Consistent and insightful monitoring is conducted, and the plan is adapted effectively based on progress, challenges, and new information.",
+      "Consistent, insightful, and proactive monitoring is conducted, and the plan is creatively adapted based on progress, challenges, and new information, demonstrating a sophisticated understanding of self-regulation."
+    ]
+  ]
+}

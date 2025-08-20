@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accurately identifies the location of the Pacific Ocean and its influence on California's development.",
+    "Accurately identifies the location of rivers and valleys and explains their effects on the growth of towns.",
+    "Accurately identifies the location of mountain passes and explains their effects on the growth of towns."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify the Pacific Ocean or its influence.",
+      "Identifies the Pacific Ocean but does not explain its influence.",
+      "Identifies the Pacific Ocean and vaguely mentions its influence.",
+      "Identifies the Pacific Ocean and explains one way it influenced California's development (e.g., trade routes).",
+      "Accurately identifies the Pacific Ocean and explains two ways it influenced California's development (e.g., climate moderation, trade).",
+      "Accurately identifies the Pacific Ocean and comprehensively explains multiple ways it influenced California's development, including specific examples and details."
+    ],
+    [
+      "Does not identify rivers or valleys or their influence.",
+      "Identifies rivers or valleys but does not explain their influence.",
+      "Identifies rivers and valleys and vaguely mentions their influence.",
+      "Identifies rivers and valleys and explains one way they influenced the growth of towns (e.g., water source, fertile land).",
+      "Accurately identifies rivers and valleys and explains two ways they influenced the growth of towns (e.g., agriculture, transportation).",
+      "Accurately identifies rivers and valleys and comprehensively explains multiple ways they influenced the growth of towns, including specific examples of towns and geographic details."
+    ],
+    [
+      "Does not identify mountain passes or their influence.",
+      "Identifies mountain passes but does not explain their influence.",
+      "Identifies mountain passes and vaguely mentions their influence.",
+      "Identifies mountain passes and explains one way they influenced the growth of towns (e.g., trade routes).",
+      "Accurately identifies mountain passes and explains two ways they influenced the growth of towns (e.g., migration, transportation).",
+      "Accurately identifies mountain passes and comprehensively explains multiple ways they influenced the growth of towns, including specific examples of passes, towns, and strategic importance."
+    ]
+  ]
+}

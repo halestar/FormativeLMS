@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Newton's Method",
+    "Accuracy of Approximations",
+    "Application of Derivatives"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of Newton's method is demonstrated.",
+      "Demonstrates a very limited understanding of Newton's method; struggles to apply the formula.",
+      "Shows some understanding of Newton's method but makes significant errors in application or explanation.",
+      "Demonstrates a satisfactory understanding of Newton's method and can apply it with occasional errors.",
+      "Exhibits a strong understanding of Newton's method and can apply it accurately in most cases.",
+      "Demonstrates a comprehensive understanding of Newton's method, can apply it accurately and explain its underlying principles effectively."
+    ],
+    [
+      "Unable to produce any reasonable approximations using Newton's method.",
+      "Approximations are highly inaccurate with no clear improvement through iterations.",
+      "Approximations show minimal accuracy and slow convergence towards the actual zero.",
+      "Approximations are reasonably accurate, converging towards the zero with some iterations.",
+      "Approximations are accurate and converge efficiently towards the zero of the function.",
+      "Approximations are highly accurate, demonstrating optimal convergence and minimal error."
+    ],
+    [
+      "Does not attempt to use derivatives or uses them incorrectly.",
+      "Attempts to use derivatives but demonstrates a fundamental misunderstanding of differentiation rules.",
+      "Calculates derivatives with significant errors that impact the accuracy of Newton's method.",
+      "Calculates derivatives correctly but may have minor errors that slightly affect the approximation.",
+      "Accurately calculates and applies derivatives to Newton's method, ensuring precise approximations.",
+      "Demonstrates mastery in calculating and applying derivatives, showcasing a deep understanding of their role in Newton's method."
+    ]
+  ]
+}

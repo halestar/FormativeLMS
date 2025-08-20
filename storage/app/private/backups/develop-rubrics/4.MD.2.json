@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy in Calculations and Conversions: Assessing the correctness of calculations involving distances, intervals of time, liquid volumes, masses, and money, including converting measurements from larger to smaller units.",
+    "Problem Solving with Fractions and Decimals: Evaluating the ability to solve word problems involving simple fractions and decimals within measurement contexts.",
+    "Representation Using Diagrams: Assessing the use of diagrams, such as number lines, to represent measurement quantities and solve problems.",
+    "Application to Real-World Problems: Evaluating the ability to apply measurement skills to solve realistic word problems."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt or demonstrates no understanding of measurement conversions and calculations.",
+      "Demonstrates minimal accuracy in calculations and conversions, with frequent errors.",
+      "Calculations and conversions are sometimes accurate, but errors are present and impact the final answer.",
+      "Generally accurate calculations and conversions, with occasional minor errors that do not significantly impact the final answer.",
+      "Accurate calculations and conversions with only very minor errors or omissions.",
+      "Consistently accurate and precise calculations and conversions, demonstrating a thorough understanding of measurement principles."
+    ],
+    [
+      "Unable to approach problems involving fractions and decimals in measurement contexts.",
+      "Struggles significantly with problems involving fractions and decimals, unable to set up a correct equation or process.",
+      "Attempts to solve problems with fractions and decimals, but makes significant errors in setting up or executing the solution.",
+      "Solves problems with fractions and decimals with some errors, but shows an understanding of the necessary operations.",
+      "Accurately solves most problems involving fractions and decimals, demonstrating a good understanding of the concepts.",
+      "Consistently and accurately solves problems involving fractions and decimals, demonstrating a deep and nuanced understanding."
+    ],
+    [
+      "No attempt to use diagrams to represent measurement quantities.",
+      "Attempts to use diagrams, but they are inaccurate or do not effectively represent the problem.",
+      "Diagrams are partially accurate, but not fully utilized to solve the problem effectively.",
+      "Diagrams are generally accurate and used to aid in problem-solving, but could be clearer or more effective.",
+      "Effectively uses accurate diagrams to represent measurement quantities and solve problems.",
+      "Masterfully uses clear, accurate, and insightful diagrams to represent measurement quantities, enhancing the problem-solving process and providing deeper understanding."
+    ],
+    [
+      "Unable to apply measurement skills to solve real-world problems.",
+      "Struggles to understand real-world problems and apply appropriate measurement concepts.",
+      "Attempts to apply measurement skills to real-world problems, but demonstrates limited understanding or makes significant errors.",
+      "Can solve some real-world problems involving measurement with guidance or minor errors.",
+      "Successfully applies measurement skills to solve most real-world problems with accuracy.",
+      "Consistently and accurately applies measurement skills to solve complex real-world problems, demonstrating a strong understanding of the practical applications of measurement."
+    ]
+  ]
+}

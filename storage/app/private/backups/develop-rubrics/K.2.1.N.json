@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of advertising techniques used to promote health-related products.",
+    "Ability to differentiate between credible and non-credible sources of health information.",
+    "Awareness of the potential negative impacts of certain advertised products on health and well-being."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of advertising techniques or their impact on consumer choices.",
+      "Shows a limited understanding of advertising techniques with no connection to health-related products.",
+      "Identifies a few advertising techniques but struggles to explain their purpose or relevance to health products.",
+      "Recognizes common advertising techniques and explains how they are used to promote health-related products, but lacks depth.",
+      "Demonstrates a solid understanding of various advertising techniques and their persuasive effects on consumers of health products.",
+      "Critically analyzes and evaluates the effectiveness of advertising techniques used in health-related products, identifying potential manipulation or misinformation."
+    ],
+    [
+      "Cannot identify any credible sources of health information and believes everything presented in advertisements.",
+      "Struggles to distinguish between credible and non-credible sources, often relying on biased or unreliable information.",
+      "Identifies a few credible sources but does not fully understand the criteria for credibility or the limitations of non-credible sources.",
+      "Recognizes and can explain the importance of credible sources, providing examples of both credible and non-credible sources of health information.",
+      "Consistently identifies and evaluates the credibility of sources based on evidence, expertise, and potential biases.",
+      "Independently researches and critically evaluates health information from various sources, recognizing subtle biases and hidden agendas."
+    ],
+    [
+      "Shows no awareness of potential negative impacts and believes all advertised products are beneficial.",
+      "Demonstrates limited awareness of potential negative impacts, focusing only on obvious or immediate effects.",
+      "Identifies some potential negative impacts, but struggles to connect them to specific products or explain the underlying mechanisms.",
+      "Recognizes and explains potential negative impacts of certain products on health and well-being, providing examples and supporting evidence.",
+      "Analyzes the long-term health consequences of using certain advertised products, considering individual differences and risk factors.",
+      "Advocates for responsible consumption and critical evaluation of advertised products, raising awareness about potential health risks and promoting informed decision-making."
+    ]
+  ]
+}

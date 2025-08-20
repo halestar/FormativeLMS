@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Description of Internal Influences",
+    "Identification of External Influences",
+    "Description of External Influences"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No internal influences on physical activity are identified.",
+      "Student identifies one internal influence with limited accuracy or detail.",
+      "Student identifies two internal influences with some accuracy and basic detail.",
+      "Student identifies three internal influences with reasonable accuracy and adequate detail.",
+      "Student identifies four internal influences with good accuracy and thorough detail.",
+      "Student comprehensively identifies and accurately describes multiple internal influences on physical activity, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "No description of internal influences on physical activity is given.",
+      "Description contains inaccuracies.",
+      "Description is unclear and lacks depth.",
+      "Description has some clarity.",
+      "Clear description given with supporting facts.",
+      "Clear, concise description given with supporting facts that makes logical sense."
+    ],
+    [
+      "No external influences on physical activity are identified.",
+      "Student identifies one external influence with limited accuracy or detail.",
+      "Student identifies two external influences with some accuracy and basic detail.",
+      "Student identifies three external influences with reasonable accuracy and adequate detail.",
+      "Student identifies four external influences with good accuracy and thorough detail.",
+      "Student comprehensively identifies and accurately describes multiple external influences on physical activity, demonstrating a deep understanding of their impact."
+    ],
+    [
+      "No description of external influences on physical activity is given.",
+      "Description contains inaccuracies.",
+      "Description is unclear and lacks depth.",
+      "Description has some clarity.",
+      "Clear description given with supporting facts.",
+      "Clear, concise description given with supporting facts that makes logical sense."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Place Value: Demonstrates the ability to break down numbers 11-19 into tens and ones.",
+    "Representation: Effectively uses drawings or equations to represent the composition or decomposition.",
+    "Explanation: Clearly explains the understanding that numbers 11-19 are composed of ten ones and some further ones."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to decompose numbers 11-19 into tens and ones or provide any representation.",
+      "Student attempts to decompose numbers but struggles with the concept of place value. Representation is unclear or incorrect.",
+      "Student can decompose some numbers into tens and ones but makes frequent errors or requires significant prompting. Representation is partially accurate.",
+      "Student can accurately decompose numbers 11-19 into tens and ones using objects or drawings. Representation is generally clear but may have minor inaccuracies.",
+      "Student consistently and accurately decomposes numbers 11-19 into tens and ones. Representation is clear, accurate, and demonstrates a solid understanding of place value.",
+      "Student demonstrates a deep understanding of place value by accurately and efficiently decomposing numbers 11-19 into tens and ones. Representation is exceptionally clear, detailed, and may include multiple methods of decomposition."
+    ],
+    [
+      "No attempt to use drawings or equations to represent composition or decomposition.",
+      "Drawings or equations are used, but are inaccurate or do not relate to the numbers being decomposed.",
+      "Drawings or equations are partially accurate but contain errors or are difficult to interpret.",
+      "Drawings or equations are mostly accurate and represent the composition or decomposition of numbers 11-19, but some minor improvements could be made.",
+      "Drawings or equations are accurate, clear, and effectively represent the composition or decomposition of numbers 11-19.",
+      "Drawings or equations are exceptionally clear, creative, and insightful, demonstrating a sophisticated understanding of how numbers 11-19 are composed of tens and ones."
+    ],
+    [
+      "Unable to explain the composition of numbers 11-19 or demonstrate any understanding of the concept.",
+      "Attempts to explain the composition but provides inaccurate or unclear information.",
+      "Explanation is partially accurate but lacks clarity or detail. Demonstrates a limited understanding of the concept.",
+      "Explanation is generally accurate and conveys the basic understanding that numbers 11-19 are composed of ten ones and some further ones.",
+      "Explanation is clear, accurate, and provides a comprehensive understanding of the composition of numbers 11-19.",
+      "Explanation is exceptionally clear, insightful, and demonstrates a deep understanding of the relationship between tens and ones in numbers 11-19. Can explain the concept in multiple ways."
+    ]
+  ]
+}

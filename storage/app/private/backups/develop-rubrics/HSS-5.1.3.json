@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Major Pre-Columbian Settlements",
+    "Explanation of Varied Economies",
+    "Explanation of Systems of Government",
+    "Connection between Economy and Government"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not identify any pre-Columbian settlements.",
+      "Student identifies one pre-Columbian settlement with limited accuracy.",
+      "Student identifies two pre-Columbian settlements with some accuracy.",
+      "Student identifies three pre-Columbian settlements with reasonable accuracy.",
+      "Student identifies four pre-Columbian settlements accurately.",
+      "Student accurately identifies and describes more than four pre-Columbian settlements, demonstrating a comprehensive understanding."
+    ],
+    [
+      "Student does not explain the economies of any settlements.",
+      "Student attempts to explain the economy of one settlement, but explanation lacks detail or accuracy.",
+      "Student explains the economies of one or two settlements with some accuracy, but lacks depth.",
+      "Student explains the economies of at least two settlements with reasonable accuracy and some detail.",
+      "Student explains the economies of multiple settlements with accurate details and demonstrates understanding of the variations.",
+      "Student comprehensively explains the diverse economies of multiple settlements, including factors influencing them, and makes insightful comparisons."
+    ],
+    [
+      "Student does not explain the systems of government of any settlements.",
+      "Student attempts to explain the system of government of one settlement, but explanation lacks detail or accuracy.",
+      "Student explains the systems of government of one or two settlements with some accuracy, but lacks depth.",
+      "Student explains the systems of government of at least two settlements with reasonable accuracy and some detail.",
+      "Student explains the systems of government of multiple settlements with accurate details and demonstrates understanding of the variations.",
+      "Student comprehensively explains the diverse systems of government of multiple settlements, including factors influencing them, and makes insightful comparisons."
+    ],
+    [
+      "Student does not make any connection between the economy and government of the settlements.",
+      "Student makes a weak or inaccurate connection between the economy and government of one settlement.",
+      "Student makes a basic connection between the economy and government of one or two settlements.",
+      "Student explains how the economy and government interacted in at least two settlements.",
+      "Student clearly connects the economy and government in multiple settlements, showing how they influenced each other.",
+      "Student provides a nuanced explanation of the complex relationship between the economy and government in multiple settlements, demonstrating advanced analytical skills."
+    ]
+  ]
+}

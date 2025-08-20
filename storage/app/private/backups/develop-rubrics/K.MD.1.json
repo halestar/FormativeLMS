@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Identifying Measurable Attributes",
+    "Clarity and Precision in Descriptions",
+    "Comparison of Attributes"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not attempt to identify measurable attributes or provides completely inaccurate attributes.",
+      "The student identifies a few measurable attributes with significant inaccuracies.",
+      "The student identifies some measurable attributes, but with some inaccuracies or omissions.",
+      "The student accurately identifies several measurable attributes of a single object, but may miss some obvious ones or includes minor inaccuracies.",
+      "The student accurately describes most measurable attributes of an object, demonstrating a solid understanding of the concept.",
+      "The student comprehensively and accurately describes all relevant measurable attributes of an object, demonstrating a thorough and nuanced understanding."
+    ],
+    [
+      "The student's descriptions are unclear and lack precision, making it difficult to understand the attributes.",
+      "The student's descriptions are somewhat vague and lack sufficient detail to clearly define the attributes.",
+      "The student provides descriptions that are understandable but lack precision in defining the attributes.",
+      "The student offers clear and relatively precise descriptions of the attributes, using appropriate terminology.",
+      "The student's descriptions are clear, precise, and use accurate terminology to effectively communicate the attributes.",
+      "The student provides exceptionally clear, precise, and insightful descriptions, demonstrating a mastery of relevant terminology and concepts."
+    ],
+    [
+      "No attempt to compare or contrast attributes.",
+      "Attempts to compare or contrast are illogical or inaccurate.",
+      "Comparison of attributes is attempted, but is superficial, focusing only on the obvious.",
+      "Comparison of attributes is clear, but doesn't dive deep into the more subtle differences.",
+      "Comparison of attributes displays understanding of attributes and how to compare them.",
+      "Comparison of attributes shows mastery in describing subtle differences."
+    ]
+  ]
+}

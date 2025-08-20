@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Presidential Powers",
+    "Analysis of Case Studies",
+    "Comparison of Governmental Powers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of presidential powers or decision-making in the case studies.",
+      "Student demonstrates a minimal understanding of presidential powers, with significant inaccuracies or omissions regarding the case studies.",
+      "Student demonstrates a basic understanding of presidential powers but struggles to apply it accurately to the case studies or omits key details.",
+      "Student demonstrates a satisfactory understanding of presidential powers and decision-making in most of the case studies, with minor inaccuracies or omissions.",
+      "Student demonstrates a strong understanding of presidential powers, accurately applying it to the case studies and providing relevant details.",
+      "Student demonstrates a comprehensive and insightful understanding of presidential powers and decision-making in all case studies, providing detailed analysis and relevant context."
+    ],
+    [
+      "Student fails to analyze any of the case studies or provides irrelevant information.",
+      "Student attempts to analyze at least one case study, but the analysis is superficial and lacks depth.",
+      "Student provides a basic analysis of some case studies, identifying some relevant factors but lacking in detail or critical evaluation.",
+      "Student provides a satisfactory analysis of most case studies, identifying relevant factors and demonstrating some critical evaluation.",
+      "Student provides a strong analysis of all case studies, identifying relevant factors and demonstrating critical evaluation and insight.",
+      "Student provides an exceptional analysis of all case studies, demonstrating a deep understanding of the complexities, nuances, and long-term implications of presidential decisions."
+    ],
+    [
+      "Student does not compare powers across different levels of government.",
+      "Student attempts to compare powers, but the comparison is unclear, inaccurate, or incomplete.",
+      "Student provides a basic comparison of powers, identifying some similarities or differences but lacking depth.",
+      "Student provides a satisfactory comparison of powers, identifying relevant similarities and differences with reasonable accuracy.",
+      "Student provides a strong comparison of powers, clearly identifying relevant similarities and differences and providing supporting evidence.",
+      "Student provides a comprehensive and insightful comparison of powers, demonstrating a deep understanding of the complexities of governmental powers and their interactions."
+    ]
+  ]
+}

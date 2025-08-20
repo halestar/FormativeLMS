@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Human Impact on Earth Systems",
+    "Use of Evidence to Support Argument",
+    "Explanation of Cause and Effect Relationships",
+    "Clarity and Organization of Argument"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of how human activities impact Earth's systems is demonstrated.",
+      "Demonstrates a limited understanding of how human activities impact Earth's systems. The explanation lacks detail and may contain inaccuracies.",
+      "Demonstrates a basic understanding of how human activities impact Earth's systems, but the explanation is superficial and lacks supporting evidence.",
+      "Demonstrates a satisfactory understanding of how human activities impact Earth's systems, providing some supporting evidence and examples.",
+      "Demonstrates a strong understanding of how human activities impact Earth's systems, providing clear and relevant evidence to support the argument.",
+      "Demonstrates a comprehensive understanding of how human activities impact Earth's systems, providing compelling evidence and insightful analysis to support the argument."
+    ],
+    [
+      "No evidence is presented to support the argument.",
+      "Presents minimal evidence, which is irrelevant or inaccurate, to support the argument.",
+      "Presents some evidence to support the argument, but the evidence is weak or not clearly connected to the claim.",
+      "Presents relevant evidence to support the argument, but the connection between evidence and claim could be stronger.",
+      "Presents strong and relevant evidence to support the argument, clearly explaining the connection between evidence and claim.",
+      "Presents compelling and comprehensive evidence to support the argument, demonstrating a deep understanding of the evidence and its implications."
+    ],
+    [
+      "No cause and effect relationships are identified or explained.",
+      "Identifies cause and effect relationships superficially or inaccurately.",
+      "Identifies some cause and effect relationships, but the explanation is incomplete or lacks detail.",
+      "Explains cause and effect relationships with reasonable clarity and detail, connecting human activities to their impacts on Earth's systems.",
+      "Clearly and thoroughly explains cause and effect relationships, demonstrating a strong understanding of how human activities lead to specific impacts on Earth's systems.",
+      "Insightfully analyzes and explains complex cause and effect relationships, demonstrating a deep understanding of the interconnectedness of human activities and Earth's systems."
+    ],
+    [
+      "The argument is unclear, disorganized, and difficult to follow.",
+      "The argument lacks clarity and organization, making it difficult to understand the main points.",
+      "The argument is somewhat clear and organized, but there are areas where improvement is needed.",
+      "The argument is generally clear and organized, with a logical flow of ideas.",
+      "The argument is clear, well-organized, and easy to follow, with a logical progression of ideas and supporting evidence.",
+      "The argument is exceptionally clear, concise, and logically organized, demonstrating excellent communication skills."
+    ]
+  ]
+}

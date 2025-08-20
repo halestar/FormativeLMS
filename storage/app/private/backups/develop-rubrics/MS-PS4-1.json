@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Mathematical Representation of Waves",
+    "Explanation of Wave Properties",
+    "Application of Scientific Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to use mathematical representations to describe waves or the relationship between amplitude and energy.",
+      "Uses mathematical representations with significant inaccuracies or omissions, demonstrating a limited understanding of wave properties.",
+      "Uses mathematical representations with some inaccuracies or omissions. Partially describes the relationship between amplitude and energy in waves.",
+      "Uses mathematical representations to generally describe waves, including amplitude, but with minor inaccuracies or lack of detail. Identifies the relationship between amplitude and energy.",
+      "Accurately uses mathematical representations to describe waves, including amplitude, wavelength and frequency and how they related to each other. Explains how the amplitude of a wave relates to the energy in a wave.",
+      "Accurately and comprehensively uses mathematical representations to describe waves, including amplitude, wavelength and frequency. Provides a detailed explanation of the relationship between amplitude and energy in waves, including quantitative examples and real-world applications."
+    ],
+    [
+      "Demonstrates no understanding of wave properties or the relationship between them.",
+      "Provides a very basic and unclear description of wave properties, with significant misunderstandings.",
+      "Identifies some wave properties (e.g., wavelength, frequency, amplitude) but struggles to explain them accurately or completely.",
+      "Describes wave properties with reasonable accuracy, including wavelength, frequency, and amplitude, but lacks depth or connection to energy.",
+      "Clearly and accurately explains wave properties (wavelength, frequency, amplitude) and relates them to the energy of the wave.",
+      "Provides a comprehensive and insightful explanation of wave properties and their interrelationships, including a detailed discussion of how amplitude relates to energy, supported by examples and accurate terminology."
+    ],
+    [
+      "Fails to connect wave properties to real-world phenomena or applications.",
+      "Attempts to connect wave properties to real-world phenomena but demonstrates a lack of understanding or provides inaccurate examples.",
+      "Identifies some real-world phenomena related to wave properties but struggles to explain the connection or relevance.",
+      "Connects wave properties to relevant real-world phenomena or applications, providing a basic explanation of the relationship.",
+      "Clearly and accurately connects wave properties to real-world phenomena or applications, providing a detailed explanation of the relationship and its significance.",
+      "Provides a sophisticated and insightful analysis of how wave properties are applied in various real-world phenomena or technologies, demonstrating a deep understanding of the underlying scientific principles."
+    ]
+  ]
+}

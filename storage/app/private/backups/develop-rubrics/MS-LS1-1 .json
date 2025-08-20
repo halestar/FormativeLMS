@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Experimental Design and Data Collection: Assesses the student's ability to design a clear and valid investigation, gather accurate data, and record observations systematically.",
+    "Evidence-Based Reasoning: Assesses the student's ability to analyze the collected data to support or refute the hypothesis and draw logical conclusions.",
+    "Understanding of Cellular Structures and Functions: Assesses the student's comprehension of cell theory, cell types, and the basic functions of cells in living organisms.",
+    "Communication of Scientific Findings: Assesses the student's ability to present their investigation and findings clearly, accurately, and in a scientific manner."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No experimental design is evident. Data collection is absent or completely irrelevant.",
+      "Experimental design is poorly defined, lacking controls or clear variables. Data collection is minimal and disorganized.",
+      "Experimental design includes basic elements, but lacks sufficient controls. Data collection is attempted, but contains inaccuracies and gaps.",
+      "Experimental design is generally sound, with most variables identified and controlled. Data collection is reasonably accurate and organized.",
+      "Well-designed experiment with clear controls and variables. Data collection is thorough, accurate, and well-organized.",
+      "Exemplary experimental design demonstrating a deep understanding of controls and variables. Data collection is meticulous, accurate, and presented in a highly organized manner."
+    ],
+    [
+      "No attempt to analyze data or draw conclusions. No connection to the investigation's purpose.",
+      "Data analysis is superficial or absent. Conclusions are not supported by the data and lack reasoning.",
+      "Basic data analysis attempted, but with limited interpretation. Conclusions are weakly connected to the evidence.",
+      "Data analysis is adequate and supports the major conclusions. Reasoning is generally sound, but may have minor flaws.",
+      "Thorough data analysis with clear and logical interpretations. Conclusions are strongly supported by the evidence and demonstrate sound reasoning.",
+      "Sophisticated data analysis revealing insightful patterns and trends. Conclusions are compelling and demonstrate a deep understanding of the underlying scientific principles."
+    ],
+    [
+      "Demonstrates no understanding of cells as the basic unit of life. Does not distinguish between living and non-living things.",
+      "Limited understanding of cell theory and cell types. Struggles to differentiate between living and non-living things.",
+      "Basic understanding of cell theory and recognizes that living things are made of cells, but with significant gaps in knowledge.",
+      "Adequate understanding of cell theory and can identify different types of cells. Explains the basic functions of cells in living organisms.",
+      "Strong understanding of cell theory, cell types, and their functions. Clearly distinguishes between unicellular and multicellular organisms.",
+      "Comprehensive understanding of cell theory, cell structures, and their functions. Explains the complexity and diversity of cells in various organisms with clarity and insight."
+    ],
+    [
+      "Communication is unclear and disorganized. Lacks scientific vocabulary and proper formatting.",
+      "Communication is difficult to understand. Limited use of scientific vocabulary. Formatting is poor.",
+      "Communication is understandable, but lacks clarity and detail. Some use of scientific vocabulary, but with errors.",
+      "Communication is clear and presents the investigation and findings in an organized manner. Uses appropriate scientific vocabulary.",
+      "Communication is highly effective and presents the investigation and findings with clarity, precision, and scientific rigor.",
+      "Communication is exemplary, demonstrating a mastery of scientific language and presentation techniques. Effectively conveys complex information in a clear and engaging manner."
+    ]
+  ]
+}

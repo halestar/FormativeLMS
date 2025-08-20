@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Accuracy of the Model: How accurately does the model represent the cycling of carbon among the biosphere, atmosphere, hydrosphere, and geosphere?",
+    "Representation of Photosynthesis and Cellular Respiration: How well does the model illustrate the roles of photosynthesis and cellular respiration in the carbon cycle?",
+    "Connections between Spheres: How well does the model show the connections and exchanges of carbon between the biosphere, atmosphere, hydrosphere, and geosphere?",
+    "Model Clarity and Organization: How clear and organized is the model in presenting information about the carbon cycle?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The model is missing or fundamentally flawed, showing no understanding of the carbon cycle.",
+      "The model is rudimentary and contains significant inaccuracies in representing the carbon cycle.",
+      "The model shows some understanding of the carbon cycle but contains noticeable inaccuracies or omissions.",
+      "The model is mostly accurate, representing the main components of the carbon cycle with minor inaccuracies.",
+      "The model is accurate and clearly represents the cycling of carbon among the biosphere, atmosphere, hydrosphere, and geosphere.",
+      "The model is highly accurate, detailed, and insightful, demonstrating a deep understanding of the carbon cycle and its complexities."
+    ],
+    [
+      "The model does not include or incorrectly represents photosynthesis and cellular respiration.",
+      "The model mentions photosynthesis and cellular respiration but does not accurately depict their roles in the carbon cycle.",
+      "The model partially represents the roles of photosynthesis and cellular respiration, but with significant gaps or inaccuracies.",
+      "The model adequately represents the roles of photosynthesis and cellular respiration in the carbon cycle.",
+      "The model clearly and accurately illustrates the roles of photosynthesis and cellular respiration in the carbon cycle.",
+      "The model provides a comprehensive and insightful representation of the roles of photosynthesis and cellular respiration, including their interdependencies and significance in the carbon cycle."
+    ],
+    [
+      "The model fails to show any connections or exchanges of carbon between the different spheres.",
+      "The model attempts to show connections but does so inaccurately or incompletely.",
+      "The model shows some connections but misses key exchanges or interactions between the spheres.",
+      "The model adequately represents the main connections and exchanges of carbon between the different spheres.",
+      "The model clearly and accurately illustrates the connections and exchanges of carbon between the biosphere, atmosphere, hydrosphere, and geosphere.",
+      "The model provides a detailed and insightful representation of the connections and exchanges, highlighting the complex interactions and feedback loops between the spheres."
+    ],
+    [
+      "The model is disorganized and unclear, making it difficult to understand the carbon cycle.",
+      "The model is somewhat disorganized and lacks clarity in presenting information.",
+      "The model is understandable but could benefit from improved organization and clarity.",
+      "The model is generally clear and organized, presenting information about the carbon cycle in a coherent manner.",
+      "The model is clear, well-organized, and easy to understand, effectively presenting information about the carbon cycle.",
+      "The model is exceptionally clear, visually appealing, and highly organized, enhancing understanding of the carbon cycle through effective presentation."
+    ]
+  ]
+}

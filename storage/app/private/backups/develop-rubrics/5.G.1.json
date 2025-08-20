@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the Coordinate System",
+    "Accurate Plotting of Points",
+    "Application to Real-World Problems"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of coordinate system components (axes, origin, coordinates).",
+      "Student shows limited understanding of coordinate system, struggling with axes or origin identification.",
+      "Student identifies axes and origin but has difficulty relating coordinates to points on the plane.",
+      "Student can locate points using coordinates but struggles to explain the relationship between the numbers and axes.",
+      "Student correctly uses coordinates to locate points, demonstrating understanding of axes and origin. Can explain the relationship between points and coordinates.",
+      "Student demonstrates a complete understanding of the coordinate system and can accurately locate and explain the relationship between points and their coordinates. Can apply this understanding to complex problems."
+    ],
+    [
+      "Student is unable to plot points correctly on the coordinate plane.",
+      "Student struggles to plot points, with frequent errors in direction or distance from the origin.",
+      "Student plots some points correctly but makes several errors in either x or y coordinate placement.",
+      "Student generally plots points correctly but occasionally reverses coordinates or miscounts distance.",
+      "Student plots points accurately with only minor errors. Demonstrates a good understanding of how to translate coordinates to points.",
+      "Student consistently plots points accurately and efficiently. Demonstrates a strong command of coordinate placement and can quickly adjust to different scales."
+    ],
+    [
+      "Student cannot apply coordinate plane concepts to solve real-world problems.",
+      "Student struggles to connect real-world situations to the coordinate plane, unable to formulate a solution.",
+      "Student attempts to apply coordinate plane but struggles to accurately represent the problem or interpret the results.",
+      "Student can set up the problem on the coordinate plane but may have difficulty interpreting the results in the context of the real-world situation.",
+      "Student successfully uses the coordinate plane to solve real-world problems, demonstrating a good understanding of how the coordinate system can model situations.",
+      "Student expertly applies coordinate plane skills to solve complex, real-world problems, demonstrating an exceptional ability to model situations and interpret results with clear and insightful explanations."
+    ]
+  ]
+}

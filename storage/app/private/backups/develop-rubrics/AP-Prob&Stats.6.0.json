@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Variance Definition",
+    "Ability to Calculate Variance",
+    "Application of Variance in Context"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of variance or a discrete random variable.",
+      "Student shows minimal understanding of variance; struggles to define it in the context of a discrete random variable.",
+      "Student can provide a basic definition of variance but has difficulty relating it to discrete random variables.",
+      "Student accurately defines variance in the context of discrete random variables but lacks depth in explanation.",
+      "Student clearly defines variance for discrete random variables, providing a solid explanation of its components.",
+      "Student provides a comprehensive and insightful definition of variance for discrete random variables, demonstrating a deep understanding of the concept."
+    ],
+    [
+      "Student is unable to attempt calculating the variance for a given discrete random variable.",
+      "Student attempts to calculate variance but makes significant errors in the process.",
+      "Student can set up the calculation for variance but struggles to complete it accurately.",
+      "Student calculates variance with some errors, indicating a partial understanding of the computational process.",
+      "Student accurately calculates variance for a given discrete random variable with only minor errors.",
+      "Student flawlessly calculates the variance for a given discrete random variable, demonstrating mastery of the calculation process."
+    ],
+    [
+      "Student does not understand how to apply the concept of variance to a real-world context.",
+      "Student struggles to relate the calculated variance to the characteristics of the discrete random variable.",
+      "Student can partially explain the meaning of the calculated variance but lacks clarity.",
+      "Student provides a reasonable explanation of the variance in relation to the discrete random variable.",
+      "Student clearly explains how the variance reflects the spread or dispersion of the discrete random variable.",
+      "Student provides an insightful interpretation of the variance, connecting it to the underlying characteristics and implications of the discrete random variable in context."
+    ]
+  ]
+}

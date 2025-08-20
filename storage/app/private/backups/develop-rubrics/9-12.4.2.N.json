@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of Refusal Strategy",
+    "Understanding of Social Context",
+    "Communication Clarity and Assertiveness"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not attempt to refuse or uses an ineffective strategy that is easily dismissed.",
+      "Attempts to refuse but lacks confidence or provides weak excuses.",
+      "Refuses with some clarity but wavers or shows susceptibility to peer pressure.",
+      "Clearly refuses the food, providing a reasonable explanation or alternative.",
+      "Confidently refuses the food, offering a healthy alternative or a clear boundary while respecting social dynamics.",
+      "Masterfully refuses the food, demonstrating assertiveness, respect for others, and the ability to influence peers toward healthier choices."
+    ],
+    [
+      "Fails to recognize social cues or pressures related to food choices.",
+      "Shows limited awareness of social dynamics influencing food decisions.",
+      "Recognizes social pressures but struggles to navigate them effectively.",
+      "Understands the social context and adapts refusal strategies accordingly.",
+      "Demonstrates a strong understanding of social cues and uses them to enhance the effectiveness of refusal.",
+      "Exhibits exceptional social intelligence, adeptly navigating complex social situations while maintaining commitment to healthy choices."
+    ],
+    [
+      "Unable to communicate refusal clearly or assertively; appears passive or easily swayed.",
+      "Communication is unclear or hesitant; assertiveness is lacking.",
+      "Communicates refusal with some clarity but lacks conviction or assertiveness.",
+      "Clearly and assertively communicates refusal, maintaining eye contact and a confident demeanor.",
+      "Communicates refusal with exceptional clarity and assertiveness, using persuasive language when appropriate.",
+      "Demonstrates mastery of communication, using a variety of assertive techniques to reinforce refusal while maintaining positive social relationships."
+    ]
+  ]
+}

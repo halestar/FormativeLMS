@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Identification of Human Impacts on Natural Systems",
+    "Evaluation of Technological Solutions",
+    "Consideration of Constraints and Tradeoffs",
+    "Application of Scientific Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No identification of human activities impacting natural systems.",
+      "Identifies at least one human activity that impacts a natural system, but lacks detail or accuracy.",
+      "Identifies a human activity and a general impact on a natural system with limited explanation.",
+      "Identifies a human activity and explains a specific impact on a natural system with some supporting details.",
+      "Identifies a human activity and clearly explains a specific impact on a natural system with supporting details and evidence.",
+      "Identifies and thoroughly explains a human activity's impact on a natural system, providing detailed evidence and demonstrating a strong understanding of the cause-and-effect relationship."
+    ],
+    [
+      "No evaluation or refinement of a technological solution is presented.",
+      "Attempts to evaluate or refine a technological solution, but lacks a clear connection to reducing human impacts.",
+      "Provides a basic evaluation of a technological solution with a superficial connection to reducing human impacts.",
+      "Evaluates a technological solution, explaining how it could potentially reduce human impacts on natural systems.",
+      "Evaluates and refines a technological solution, explaining how it effectively reduces human impacts on natural systems with supporting reasoning.",
+      "Provides a comprehensive evaluation and refinement of a technological solution, demonstrating a deep understanding of its effectiveness in reducing human impacts, considering costs, benefits, and potential unintended consequences."
+    ],
+    [
+      "No consideration of constraints (cost, safety, etc.) or tradeoffs is evident.",
+      "Mentions one or more constraints or tradeoffs, but without clear explanation or relevance.",
+      "Acknowledges constraints and tradeoffs in a general sense, but lacks specific examples.",
+      "Discusses specific constraints (e.g., cost, safety) and tradeoffs associated with the solution, providing some reasoning.",
+      "Analyzes constraints and tradeoffs in detail, providing a balanced assessment of the solution's viability and potential drawbacks.",
+      "Demonstrates a sophisticated understanding of constraints and tradeoffs, providing a comprehensive analysis of the solution's feasibility, ethical implications, and long-term consequences, suggesting alternative solutions."
+    ],
+    [
+      "Demonstrates no application of scientific knowledge to support the evaluation or refinement.",
+      "Attempts to apply scientific knowledge, but with significant inaccuracies or irrelevant information.",
+      "Applies some relevant scientific knowledge, but with limited depth or explanation.",
+      "Applies relevant scientific knowledge to explain the solution's effectiveness in reducing human impacts.",
+      "Effectively applies scientific knowledge, using evidence and reasoning to justify the evaluation and refinement of the solution.",
+      "Masterfully applies scientific knowledge, demonstrating a deep understanding of underlying principles and using evidence-based reasoning to provide a compelling argument for the solution's effectiveness and sustainability."
+    ]
+  ]
+}

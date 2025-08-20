@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Dental Hygiene Practices",
+    "Application of Personal Hygiene Knowledge",
+    "Explanation of the Importance of Hygiene"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of dental hygiene practices.",
+      "Shows a very limited understanding of dental hygiene practices; misconceptions are evident.",
+      "Displays a basic understanding of dental hygiene practices, but with some inaccuracies.",
+      "Exhibits a satisfactory understanding of dental hygiene practices, including brushing and flossing techniques.",
+      "Presents a strong understanding of dental hygiene practices, including techniques and the importance of regular dental check-ups.",
+      "Demonstrates a comprehensive and nuanced understanding of dental hygiene practices, including their long-term impact on oral health."
+    ],
+    [
+      "Shows no application of personal hygiene knowledge.",
+      "Demonstrates minimal application of personal hygiene knowledge; unable to connect hygiene to health.",
+      "Applies personal hygiene knowledge in a limited way, with some inconsistencies.",
+      "Applies personal hygiene knowledge effectively, understanding the connection between hygiene and overall health.",
+      "Consistently applies personal hygiene knowledge and explains the importance of various hygiene practices.",
+      "Exemplifies a comprehensive application of personal hygiene knowledge and can articulate the scientific rationale behind each practice."
+    ],
+    [
+      "Unable to explain the importance of hygiene.",
+      "Struggles to explain the importance of hygiene; explanation is unclear and incomplete.",
+      "Provides a limited explanation of the importance of hygiene, with some gaps in understanding.",
+      "Explains the importance of hygiene with reasonable clarity and accuracy.",
+      "Clearly and accurately explains the importance of hygiene, including its impact on preventing diseases.",
+      "Articulates a sophisticated explanation of the importance of hygiene, integrating its impact on physical, mental, and social well-being."
+    ]
+  ]
+}

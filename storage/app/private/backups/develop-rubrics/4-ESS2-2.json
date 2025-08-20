@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately locate and identify Earth's features (mountains, volcanoes, earthquakes, continental boundaries, ocean trenches) on maps.",
+    "Ability to analyze and interpret data from maps to describe patterns of Earth's features.",
+    "Understanding of the relationship between plate tectonics and the location of Earth's features."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot locate or identify any Earth's features on the map.",
+      "Student can locate or identify one Earth's feature with significant inaccuracies.",
+      "Student can locate or identify at least two Earth's features with some inaccuracies.",
+      "Student can accurately locate and identify at least three Earth's features with minor inaccuracies.",
+      "Student can accurately locate and identify most Earth's features with very few inaccuracies.",
+      "Student can accurately and comprehensively locate and identify all Earth's features on the map."
+    ],
+    [
+      "Student cannot analyze or interpret data from the map to describe any patterns.",
+      "Student attempts to analyze and interpret data but does not identify any valid patterns or the reasoning is flawed.",
+      "Student identifies a pattern but the description is incomplete or contains inaccuracies.",
+      "Student identifies and describes a pattern of Earth's features, but the explanation lacks depth.",
+      "Student effectively analyzes the map data to describe patterns and provides a reasonable explanation.",
+      "Student thoroughly analyzes and interprets the map data to comprehensively describe patterns of Earth's features with insightful explanations, demonstrating a deep understanding."
+    ],
+    [
+      "Student demonstrates no understanding of the relationship between plate tectonics and Earth's features.",
+      "Student shows a limited understanding of the role of plate tectonics in the location of Earth's features.",
+      "Student explains in vague terms the relationship between plate tectonics and one type of Earth's feature.",
+      "Student demonstrates a basic understanding of how plate tectonics influences the location of multiple Earth's features.",
+      "Student provides a clear explanation of how plate tectonics contributes to the patterns observed in the location of Earth's features.",
+      "Student provides a detailed and insightful explanation of how plate tectonics and large-scale system interactions determine the patterns observed in the location of various Earth's features, demonstrating a sophisticated understanding."
+    ]
+  ]
+}

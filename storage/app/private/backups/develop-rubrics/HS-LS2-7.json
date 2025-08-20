@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Problem Identification and Solution Design",
+    "Evaluation and Refinement of Solution",
+    "Use of Scientific Knowledge and Evidence",
+    "Consideration of Tradeoffs and Prioritized Criteria"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No identification of environmental impacts or proposed solutions.",
+      "Identifies a human activity impacting the environment but does not propose a solution or the solution is not related to the identified impact.",
+      "Identifies a relevant human activity and proposes a basic solution, but lacks detail or feasibility.",
+      "Identifies a specific human activity, describes its impact on the environment and biodiversity, and proposes a feasible solution.",
+      "Clearly identifies a complex problem, thoroughly describes its impacts using scientific knowledge, and proposes a well-reasoned solution with supporting evidence.",
+      "Demonstrates a deep understanding of the complex interactions, identifies a critical problem with significant environmental impacts, proposes an innovative and highly effective solution, and justifies it with comprehensive evidence and scientific reasoning."
+    ],
+    [
+      "No attempt to evaluate or refine the proposed solution.",
+      "Attempts to evaluate the solution, but lacks specific criteria or relevant considerations.",
+      "Evaluates the solution based on a limited set of criteria (e.g., cost or feasibility) with minimal refinement.",
+      "Evaluates the solution considering multiple constraints (cost, safety, reliability) and refines the solution based on the evaluation.",
+      "Critically evaluates the solution considering a wide range of constraints (cost, safety, reliability, aesthetics, social, cultural, and environmental impacts) and thoroughly refines the solution based on the comprehensive evaluation.",
+      "Demonstrates exceptional ability to critically evaluate the solution from multiple perspectives, identifies potential unintended consequences, and creatively refines the solution to maximize positive impacts and minimize negative impacts."
+    ],
+    [
+      "No evidence of using scientific knowledge or data to support the solution.",
+      "Uses some scientific knowledge, but it is inaccurate or irrelevant to the solution.",
+      "Uses basic scientific knowledge to justify the solution, but lacks specific evidence or data.",
+      "Uses relevant scientific knowledge and data to support the solution, citing sources appropriately.",
+      "Effectively integrates a wide range of scientific knowledge and data from multiple sources to strongly support the solution.",
+      "Demonstrates mastery of relevant scientific concepts, synthesizes information from diverse sources, and uses data analysis to provide compelling evidence that supports the effectiveness and sustainability of the solution."
+    ],
+    [
+      "No consideration of tradeoffs or prioritized criteria in designing the solution.",
+      "Acknowledges tradeoffs, but does not prioritize criteria or explain the reasoning behind the choices.",
+      "Considers some tradeoffs and prioritizes criteria, but the reasoning is superficial.",
+      "Clearly articulates tradeoffs and prioritizes criteria based on a logical rationale.",
+      "Demonstrates a sophisticated understanding of the complex tradeoffs involved in the solution and clearly justifies the prioritization of criteria based on ethical, social, and environmental considerations.",
+      "Exhibits exceptional ability to analyze complex tradeoffs, creatively identifies win-win solutions, and prioritizes criteria based on a holistic understanding of long-term sustainability and societal impact."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Finding Perimeter Given Side Lengths",
+    "Finding an Unknown Side Length",
+    "Exhibiting Rectangles with Same Perimeter\/Different Areas OR Same Area\/Different Perimeters"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to calculate perimeter even with assistance.",
+      "Student can calculate the perimeter of simple polygons (e.g., rectangles, triangles) with whole number side lengths, but makes frequent errors or requires significant guidance.",
+      "Student can calculate the perimeter of simple polygons with whole number side lengths, but struggles with more complex shapes or side lengths involving fractions\/decimals.",
+      "Student can accurately calculate the perimeter of most polygons, including those with fractional or decimal side lengths, but may occasionally make minor errors or struggle with word problems.",
+      "Student can accurately calculate the perimeter of various polygons, including those with fractional or decimal side lengths, and can solve related word problems with minimal errors.",
+      "Student demonstrates a thorough understanding of perimeter and can accurately calculate it for complex polygons with various side lengths, including those presented in real-world contexts. Student can also explain the reasoning behind their calculations clearly and concisely."
+    ],
+    [
+      "Student is unable to find an unknown side length even when provided with perimeter and all other side lengths.",
+      "Student can find an unknown side length in simple polygons (e.g., rectangles) with whole number side lengths, but requires significant guidance or makes frequent errors.",
+      "Student can find an unknown side length in simple polygons, but struggles with more complex shapes or side lengths involving fractions\/decimals.",
+      "Student can accurately find an unknown side length in most polygons, including those with fractional or decimal side lengths, but may occasionally make minor errors or struggle with word problems.",
+      "Student can accurately find an unknown side length in various polygons, including those with fractional or decimal side lengths, and can solve related word problems with minimal errors.",
+      "Student demonstrates a thorough understanding of how to find unknown side lengths and can accurately solve for them in complex polygons with various side lengths, including those presented in real-world contexts. Student can also explain the reasoning behind their calculations clearly and concisely."
+    ],
+    [
+      "Student cannot exhibit an example of rectangles with the same perimeter and different areas OR with the same area and different perimeters.",
+      "Student can exhibit rectangles with the same perimeter and different areas OR with the same area and different perimeters with prompting, but the examples provided are inaccurate or incomplete.",
+      "Student can exhibit rectangles with the same perimeter and different areas OR with the same area and different perimeters, but struggles to provide accurate examples.",
+      "Student can create rectangles with the same perimeter and different areas AND rectangles with the same area and different perimeters, but may make some calculation errors or struggle to explain the differences.",
+      "Student can create accurate examples of rectangles with the same perimeter and different areas AND rectangles with the same area and different perimeters, and can explain the differences in a clear and concise manner.",
+      "Student demonstrates a deep understanding of the relationship between perimeter and area, and can explain with how different dimensions can lead to same perimeters but different areas and vice versa. Student provides multiple accurate examples and can generalize the concept to other polygons."
+    ]
+  ]
+}

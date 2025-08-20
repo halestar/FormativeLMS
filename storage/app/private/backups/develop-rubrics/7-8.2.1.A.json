@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internal Influences",
+    "Analysis of Impact on Substance Use",
+    "Clarity and Organization"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No internal influences are identified.",
+      "Student identifies one internal influence vaguely related to substance use.",
+      "Student identifies one internal influence and provides a basic description.",
+      "Student identifies two internal influences and provides a clear description for each.",
+      "Student identifies three internal influences, provides clear descriptions, and shows understanding of their impact.",
+      "Student identifies multiple internal influences, provides detailed descriptions, explains their impact, and demonstrates a comprehensive understanding of their role in substance use."
+    ],
+    [
+      "No analysis of the impact of internal influences on substance use is provided.",
+      "Analysis is attempted but lacks clarity or accuracy.",
+      "Basic analysis of how internal influences might affect substance use is provided.",
+      "Clear analysis of how internal influences affect decisions about alcohol, tobacco, and other drugs is provided.",
+      "Detailed analysis of how internal influences significantly affect decisions about substance use, with specific examples, is provided.",
+      "Comprehensive analysis of the complex relationship between internal influences and substance use is provided, including nuanced understanding and relevant examples."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization, making it difficult to follow.",
+      "Response is somewhat clear and organized, but improvements are needed.",
+      "Response is generally clear, organized, and easy to follow.",
+      "Response is clear, well-organized, and logically structured.",
+      "Response is exceptionally clear, concise, logically structured, and presents information in a compelling manner."
+    ]
+  ]
+}

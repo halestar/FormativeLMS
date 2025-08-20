@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Clarity and Accuracy of Request: How clearly and accurately does the student articulate the health-related problem and the type of assistance needed?",
+    "Appropriateness of Language and Tone: How appropriate is the student's language and tone when asking for assistance, considering the context and the person being asked?",
+    "Understanding of Resources: How well does the student demonstrate an understanding of available resources and who to ask for specific health-related problems?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to articulate the health-related problem or the type of assistance needed.",
+      "The student struggles to articulate the health-related problem, and the assistance needed is unclear.",
+      "The student can somewhat articulate the health-related problem, but the assistance needed is not clearly defined.",
+      "The student clearly articulates the health-related problem and the type of assistance needed with minor inaccuracies.",
+      "The student clearly and accurately articulates the health-related problem and the specific assistance needed.",
+      "The student expertly articulates the health-related problem with precision, demonstrating a comprehensive understanding of the situation and assistance needed."
+    ],
+    [
+      "The student's language and tone are highly inappropriate for seeking assistance.",
+      "The student's language or tone is inappropriate, showing a lack of awareness of the context.",
+      "The student's language and tone are somewhat appropriate but could be improved for better communication.",
+      "The student uses mostly appropriate language and tone, showing consideration for the person being asked.",
+      "The student uses appropriate language and tone, demonstrating respect and consideration for the context and the person being asked.",
+      "The student's language and tone are exceptionally appropriate, showing high levels of empathy, respect, and understanding of the situation and the person being asked."
+    ],
+    [
+      "The student shows no understanding of available resources or who to ask for assistance.",
+      "The student has a limited understanding of available resources or who to ask for assistance.",
+      "The student shows some understanding of available resources but may not know who to ask for specific problems.",
+      "The student generally understands available resources and who to ask for common health-related problems.",
+      "The student demonstrates a good understanding of available resources and knows who to ask for specific health-related problems.",
+      "The student demonstrates an exceptional understanding of a wide range of available resources and knows exactly who to ask for any specific health-related problem, showing initiative in seeking the most appropriate help."
+    ]
+  ]
+}

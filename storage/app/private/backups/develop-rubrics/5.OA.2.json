@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Expression Writing: Ability to translate verbal descriptions of calculations into correct numerical expressions.",
+    "Interpretation of Numerical Expressions: Ability to explain the calculations described by a numerical expression without solving it.",
+    "Use of Mathematical Vocabulary: Correct and precise use of mathematical terms when writing and interpreting expressions."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Unable to translate verbal descriptions into numerical expressions or demonstrates significant errors.",
+      "Struggles to translate verbal descriptions, resulting in expressions with critical errors.",
+      "Can translate simple descriptions, but makes errors with more complex or multi-step calculations.",
+      "Generally writes correct expressions for calculations, with occasional minor errors.",
+      "Writes accurate expressions for a variety of calculations, demonstrating a strong understanding of order of operations.",
+      "Consistently and accurately writes complex numerical expressions from verbal descriptions, demonstrating a mastery of translation and order of operations."
+    ],
+    [
+      "Unable to interpret numerical expressions or provides interpretations that are completely unrelated to the expression.",
+      "Provides interpretations that are vague, incomplete, or contain significant misunderstandings.",
+      "Can identify some operations but struggles with the order or relationship between them.",
+      "Generally interprets expressions correctly, with some difficulty in explaining the nuances of complex expressions.",
+      "Clearly and accurately interprets a variety of numerical expressions, explaining the order of operations and relationships.",
+      "Provides insightful and comprehensive interpretations of complex numerical expressions, demonstrating a deep understanding of mathematical structure."
+    ],
+    [
+      "Does not use mathematical vocabulary or uses it incorrectly, indicating a lack of understanding.",
+      "Uses limited mathematical vocabulary, with frequent errors or inaccuracies.",
+      "Uses some mathematical vocabulary correctly but struggles to apply it consistently or appropriately.",
+      "Generally uses mathematical vocabulary correctly, with occasional lapses in precision or clarity.",
+      "Uses mathematical vocabulary accurately and effectively to enhance the clarity and precision of explanations and expressions.",
+      "Demonstrates sophisticated use of mathematical vocabulary, enhancing explanations and expressions with precision and insight."
+    ]
+  ]
+}

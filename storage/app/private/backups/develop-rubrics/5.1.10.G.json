@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Identification of Personal Hygiene Practices",
+    "Recognition of Health and Safety Issues Related to Puberty"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify any personal hygiene practices related to puberty.",
+      "Student identifies one personal hygiene practice, but the explanation is vague or incomplete.",
+      "Student identifies two personal hygiene practices, but explanations lack detail or connection to puberty.",
+      "Student identifies three personal hygiene practices with adequate explanations relevant to puberty.",
+      "Student identifies four personal hygiene practices with clear and detailed explanations specific to puberty.",
+      "Student comprehensively identifies and explains multiple personal hygiene practices, demonstrating a thorough understanding of their importance during puberty."
+    ],
+    [
+      "Student does not recognize any health and safety issues related to puberty.",
+      "Student vaguely mentions one health or safety issue, but lacks specific details.",
+      "Student identifies one health and one safety issue, but the explanation is superficial and lacks understanding.",
+      "Student identifies two health or safety issues, providing adequate explanations of the risks associated with puberty.",
+      "Student identifies two or more health and safety issues with detailed explanations, showing a clear understanding of their implications during puberty.",
+      "Student comprehensively identifies and explains multiple health and safety issues, demonstrating a thorough understanding of their potential impact and prevention strategies during puberty."
+    ]
+  ]
+}

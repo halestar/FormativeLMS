@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of the State Capital",
+    "Description of California's Regions and Their Characteristics",
+    "Understanding of How Physical Environments Affect Human Activity"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student cannot identify the state capital of California.",
+      "Student incorrectly identifies the state capital of California.",
+      "Student hesitates but eventually identifies Sacramento as the state capital.",
+      "Student correctly identifies Sacramento as the state capital.",
+      "Student confidently identifies Sacramento as the state capital and provides a basic fact about it.",
+      "Student confidently identifies Sacramento as the state capital and provides detailed and relevant information about its significance."
+    ],
+    [
+      "Student is unable to describe any regions of California or their characteristics.",
+      "Student attempts to describe regions but provides inaccurate or irrelevant information.",
+      "Student identifies a few regions with limited and somewhat inaccurate descriptions of their characteristics.",
+      "Student identifies several regions of California and provides a general description of their characteristics.",
+      "Student accurately describes multiple regions of California, including key characteristics such as physical environment and human activity.",
+      "Student comprehensively and accurately describes multiple regions of California, demonstrating a deep understanding of how their physical environments affect human activity with specific examples."
+    ],
+    [
+      "Student demonstrates no understanding of how physical environments (water, landforms, vegetation, climate) affect human activity in California.",
+      "Student attempts to connect physical environments to human activity but provides illogical or inaccurate connections.",
+      "Student makes vague or superficial connections between physical environments and human activity.",
+      "Student identifies some ways in which physical environments influence human activity in California.",
+      "Student clearly explains how specific physical environment characteristics affect human activity in various regions of California, providing relevant examples.",
+      "Student provides a nuanced and detailed explanation of how the interplay between water, landforms, vegetation, climate, and human activity shapes different regions of California, offering insightful examples and analysis."
+    ]
+  ]
+}

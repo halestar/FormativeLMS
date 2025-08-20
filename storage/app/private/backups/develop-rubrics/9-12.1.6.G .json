@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Prenatal Care",
+    "Understanding of Perinatal Care",
+    "Understanding of Responsible Parenting",
+    "Knowledge of California's Safely Surrendered Baby Law"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of prenatal care practices.",
+      "Identifies one or two basic prenatal care practices with limited explanation.",
+      "Describes several prenatal care practices but lacks depth in explanation.",
+      "Explains multiple prenatal care practices with reasonable detail and accuracy.",
+      "Thoroughly explains various prenatal care practices, including their importance and potential impact on maternal and fetal health.",
+      "Demonstrates a comprehensive understanding of prenatal care, including advanced concepts and considerations, and explains the impact on both the mother and the child's long-term health."
+    ],
+    [
+      "Demonstrates no understanding of perinatal care practices.",
+      "Identifies one or two basic perinatal care practices with limited explanation.",
+      "Describes several perinatal care practices but lacks depth in explanation.",
+      "Explains multiple perinatal care practices with reasonable detail and accuracy during and immediately after birth.",
+      "Thoroughly explains various perinatal care practices, including their importance and potential impact on maternal and infant health.",
+      "Demonstrates a comprehensive understanding of perinatal care, including advanced concepts and considerations, and explains the impact on both the mother and the child's long-term health."
+    ],
+    [
+      "Demonstrates no understanding of responsible parenting practices.",
+      "Identifies one or two basic aspects of responsible parenting with limited explanation.",
+      "Describes several aspects of responsible parenting but lacks depth in explanation.",
+      "Explains multiple facets of responsible parenting with reasonable detail and accuracy.",
+      "Thoroughly explains various aspects of responsible parenting, including the emotional, financial, and physical demands.",
+      "Demonstrates a comprehensive understanding of responsible parenting, including advanced concepts and considerations of child development and well-being."
+    ],
+    [
+      "Is unaware of California's Safely Surrendered Baby Law.",
+      "Has heard of the law but cannot explain its purpose or key provisions.",
+      "Can state the basic premise of the law but lacks details.",
+      "Explains the purpose and key provisions of the law with reasonable accuracy.",
+      "Thoroughly explains the purpose, key provisions, and potential benefits of California's Safely Surrendered Baby Law.",
+      "Demonstrates a comprehensive understanding of the law, including its history, impact, and related resources, and compares to similar laws."
+    ]
+  ]
+}

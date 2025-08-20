@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Formulas",
+    "Application to Problem Solving",
+    "Derivation of Relationship"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of area or circumference formulas is demonstrated.",
+      "Demonstrates minimal understanding of area and circumference formulas.  Struggles to identify the correct formula or apply it.",
+      "Demonstrates partial understanding of area and circumference formulas.  May make errors in selecting the appropriate formula or applying it correctly.",
+      "Demonstrates a good understanding of area and circumference formulas.  Can select and apply the formulas with some accuracy, but may need assistance.",
+      "Demonstrates a strong understanding of area and circumference formulas.  Can accurately select and apply the formulas to solve problems with minor errors.",
+      "Demonstrates a comprehensive understanding of area and circumference formulas.  Can accurately select and apply the formulas to solve complex problems with no errors."
+    ],
+    [
+      "Unable to apply the formulas to solve problems related to area and circumference.",
+      "Struggles to apply the formulas to solve problems.  Unable to proceed without significant assistance.",
+      "Attempts to apply the formulas to solve problems, but makes significant errors in the process.",
+      "Successfully applies the formulas to solve simple problems related to area and circumference, but struggles with more complex problems.",
+      "Successfully applies the formulas to solve most problems related to area and circumference, with only minor errors.",
+      "Consistently and accurately applies the formulas to solve a variety of complex problems related to area and circumference."
+    ],
+    [
+      "No attempt to explain the relationship between circumference and area.",
+      "Attempts to explain the relationship between circumference and area, but the explanation is unclear and inaccurate.",
+      "Provides a limited explanation of the relationship between circumference and area with some inaccuracies.",
+      "Provides a basic explanation of the relationship between circumference and area, but may lack depth or detail.",
+      "Provides a clear and accurate explanation of the relationship between circumference and area, demonstrating a good understanding.",
+      "Provides a thorough and insightful explanation of the relationship between circumference and area, including informal derivation."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Personal Boundaries",
+    "Ability to Differentiate Between Safe and Unsafe Touches",
+    "Knowledge of Reporting Mechanisms"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of personal boundaries.",
+      "Struggles to identify personal boundaries in simple scenarios.",
+      "Can identify personal boundaries in some familiar scenarios but not consistently.",
+      "Consistently identifies personal boundaries in most scenarios.",
+      "Clearly and accurately identifies personal boundaries in various complex scenarios.",
+      "Demonstrates a nuanced understanding of personal boundaries and can apply this understanding to complex and unfamiliar situations, demonstrating empathy and respect for others' boundaries."
+    ],
+    [
+      "Cannot differentiate between safe and unsafe touches.",
+      "Struggles to differentiate between safe and unsafe touches, even with guidance.",
+      "Can differentiate between safe and unsafe touches in simple, clear-cut scenarios.",
+      "Consistently differentiates between safe and unsafe touches in most common scenarios.",
+      "Clearly and accurately differentiates between safe and unsafe touches in a variety of scenarios, including those with ambiguous cues.",
+      "Demonstrates a sophisticated understanding of safe and unsafe touches, including the context and intention behind them. Can articulate these distinctions clearly and respectfully."
+    ],
+    [
+      "Is unaware of any reporting mechanisms for inappropriate touching.",
+      "Knows of one reporting mechanism but cannot describe it accurately.",
+      "Can name one or two reporting mechanisms but is unsure of the process.",
+      "Knows and can accurately describe at least two reporting mechanisms.",
+      "Knows multiple reporting mechanisms and can explain the steps involved in reporting.",
+      "Demonstrates comprehensive knowledge of reporting mechanisms and can advocate for others to use them, showing an understanding of the importance of seeking help."
+    ]
+  ]
+}

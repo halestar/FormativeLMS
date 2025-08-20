@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Data Representation",
+    "Appropriateness of Method Selection",
+    "Clarity and Interpretation of Visuals"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to organize or describe data; significant errors present.",
+      "Data representation is attempted but contains numerous errors or omissions, demonstrating a lack of understanding.",
+      "Data representation is partially accurate, but with noticeable errors or inconsistencies that affect interpretation.",
+      "Data representation is mostly accurate, with minor errors that do not significantly impact interpretation.",
+      "Data representation is accurate and well-organized, with only very minor imperfections.",
+      "Data representation is exceptionally accurate, meticulously organized, and enhances understanding of the data."
+    ],
+    [
+      "No method selected or method is completely inappropriate for the data provided.",
+      "Method selected is inappropriate for the data, indicating a misunderstanding of when to use different methods.",
+      "Method selected is marginally appropriate, but a more suitable method exists for the data characteristics.",
+      "Method selected is appropriate for the data, but justification may be lacking or incomplete.",
+      "Method selected is highly appropriate for the data, with clear justification based on data characteristics.",
+      "Method selected is exceptionally appropriate and insightful, demonstrating a deep understanding of data representation techniques."
+    ],
+    [
+      "Visuals are unclear, confusing, and lack labels or context, making interpretation impossible.",
+      "Visuals are difficult to interpret due to poor labeling, organization, or significant omissions.",
+      "Visuals are somewhat interpretable, but lack clarity or sufficient detail to draw meaningful conclusions.",
+      "Visuals are mostly clear and interpretable, with adequate labeling and organization.",
+      "Visuals are clear, well-labeled, and effectively communicate key insights from the data.",
+      "Visuals are exceptionally clear, insightful, and provide a comprehensive understanding of the data's patterns and relationships."
+    ]
+  ]
+}

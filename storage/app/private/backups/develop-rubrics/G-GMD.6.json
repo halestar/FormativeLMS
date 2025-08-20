@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Angle-Side Relationships in Triangles",
+    "Applying Triangle Inequality Theorem",
+    "Problem-Solving in Real-World Contexts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the relationship between angles and sides in a triangle.",
+      "Student shows minimal understanding; struggles to identify basic relationships between angles and sides.",
+      "Student identifies some angle-side relationships but has difficulty applying them to specific triangles.",
+      "Student correctly identifies angle-side relationships and applies them in simple cases.",
+      "Student demonstrates a strong understanding of angle-side relationships and applies them accurately in various triangle configurations.",
+      "Student demonstrates comprehensive understanding, accurately applies angle-side relationships, and can explain the underlying principles with clear reasoning."
+    ],
+    [
+      "Student does not demonstrate understanding of the Triangle Inequality Theorem.",
+      "Student shows minimal understanding; unable to determine if given side lengths can form a triangle.",
+      "Student attempts to apply the Triangle Inequality Theorem but makes frequent errors.",
+      "Student correctly applies the Triangle Inequality Theorem in most cases to determine if side lengths can form a triangle.",
+      "Student consistently applies the Triangle Inequality Theorem accurately and explains the reasoning.",
+      "Student demonstrates thorough understanding, applies the Triangle Inequality Theorem to solve complex problems, and explains its significance in geometric constructions."
+    ],
+    [
+      "Student cannot apply angle-side relationships or the Triangle Inequality Theorem to real-world problems.",
+      "Student struggles to translate real-world scenarios into mathematical problems involving triangles.",
+      "Student attempts to solve real-world problems but makes significant errors in applying geometric principles.",
+      "Student solves some real-world problems correctly, demonstrating a basic understanding of the application of geometric concepts.",
+      "Student accurately solves real-world problems, demonstrating a strong ability to connect geometric principles to practical situations.",
+      "Student excels at solving complex real-world problems, provides clear and logical solutions, and explains the relevance of geometric principles in various contexts."
+    ]
+  ]
+}

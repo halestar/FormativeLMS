@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding Personal Nutrition Needs",
+    "Assessment of Physical Activity Level",
+    "Application of Knowledge to Personal Health Goals"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of personal nutrition needs.",
+      "Student shows minimal understanding of personal nutrition, lacking specific details.",
+      "Student identifies some personal nutrition needs but with limited accuracy and depth.",
+      "Student accurately identifies most personal nutrition needs with reasonable explanations.",
+      "Student comprehensively understands and accurately assesses personal nutrition needs with detailed explanations.",
+      "Student demonstrates exceptional understanding of personal nutrition, accurately assesses needs, and proposes insightful strategies for improvement."
+    ],
+    [
+      "Student demonstrates no ability to assess their physical activity level.",
+      "Student shows a basic awareness of physical activity but cannot accurately assess their own level.",
+      "Student attempts to assess physical activity level but with significant inaccuracies and omissions.",
+      "Student provides a generally accurate assessment of their physical activity level with some supporting details.",
+      "Student accurately assesses their physical activity level with clear and specific examples.",
+      "Student provides a comprehensive and insightful assessment of their physical activity level, including analysis of its impact on health and well-being."
+    ],
+    [
+      "Student does not connect nutrition or activity assessment to personal health goals.",
+      "Student makes a weak connection between assessment results and general health goals.",
+      "Student identifies a basic link between their assessment and health goals but lacks specifics.",
+      "Student explains how their nutritional and activity assessment relates to achieving specific health goals.",
+      "Student clearly articulates how their assessment informs strategies for achieving personal health goals, providing concrete examples.",
+      "Student synthesizes assessment results into a comprehensive plan for achieving personal health goals, demonstrating a deep understanding of the relationship between nutrition, activity, and overall well-being."
+    ]
+  ]
+}

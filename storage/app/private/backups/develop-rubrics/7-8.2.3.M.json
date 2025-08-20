@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Cultural Influence",
+    "Analysis of Family Values",
+    "Clarity and Coherence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how culture influences family values and practices.",
+      "Shows minimal understanding of cultural influence, with significant misconceptions.",
+      "Identifies some ways culture influences family values and practices, but lacks depth.",
+      "Explains how culture influences some family values and practices with reasonable depth.",
+      "Clearly explains how culture significantly influences family values and practices, providing specific examples.",
+      "Insightfully analyzes the multifaceted influence of culture on family values and practices, demonstrating comprehensive understanding and nuanced examples."
+    ],
+    [
+      "Does not identify or discuss any family values or practices.",
+      "Lists family values or practices without relating them to cultural influence.",
+      "Briefly describes family values or practices, attempting to connect them to culture with limited success.",
+      "Analyzes several family values or practices, linking them to cultural influences with some supporting details.",
+      "Provides a thorough analysis of multiple family values and practices, clearly illustrating their cultural origins and impacts.",
+      "Offers an in-depth, critical analysis of a wide range of family values and practices, expertly connecting them to their cultural roots and societal impacts."
+    ],
+    [
+      "Response is unclear, disorganized, and difficult to understand.",
+      "Response lacks clarity and organization; difficult to follow the line of reasoning.",
+      "Response is somewhat clear but could benefit from improved organization and coherence.",
+      "Response is generally clear and organized, with a logical flow of ideas.",
+      "Response is clear, well-organized, and easy to follow, with smooth transitions between ideas.",
+      "Response is exceptionally clear, coherent, and logically structured, demonstrating mastery of communication."
+    ]
+  ]
+}

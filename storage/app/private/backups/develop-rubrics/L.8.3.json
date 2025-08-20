@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Active and Passive Voice",
+    "Conditional and Subjunctive Mood",
+    "Effects and Purpose"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of active and passive voice.",
+      "Student demonstrates minimal understanding of active and passive voice; struggles to identify or use them correctly.",
+      "Student demonstrates basic understanding of active and passive voice but makes frequent errors in usage.",
+      "Student demonstrates satisfactory understanding of active and passive voice, using them correctly in most instances.",
+      "Student demonstrates strong understanding of active and passive voice, using them effectively to achieve specific effects.",
+      "Student demonstrates excellent command of active and passive voice, using them skillfully to enhance writing and convey nuanced meaning."
+    ],
+    [
+      "Student does not demonstrate understanding of conditional and subjunctive mood.",
+      "Student demonstrates minimal understanding of conditional and subjunctive mood; struggles to identify or use them correctly.",
+      "Student demonstrates basic understanding of conditional and subjunctive mood but makes frequent errors in usage.",
+      "Student demonstrates satisfactory understanding of conditional and subjunctive mood, using them correctly in most instances.",
+      "Student demonstrates strong understanding of conditional and subjunctive mood, using them effectively to express uncertainty or hypothetical situations.",
+      "Student demonstrates excellent command of conditional and subjunctive mood, using them skillfully to convey complex or contrary-to-fact scenarios."
+    ],
+    [
+      "Student does not demonstrate an ability to identify the effects of using active\/passive voice or conditional\/subjunctive mood.",
+      "Student struggles to identify the effects of different verb choices; purpose is unclear.",
+      "Student identifies some effects of verb choices but lacks consistency; purpose is somewhat evident.",
+      "Student demonstrates an understanding of how verb choices affect the meaning and tone of writing; purpose is generally clear.",
+      "Student strategically uses verb choices to create particular effects and enhance the overall impact of their writing; purpose is evident.",
+      "Student masterfully manipulates verb choices to achieve precise effects, demonstrating a sophisticated understanding of language; purpose is artfully achieved."
+    ]
+  ]
+}

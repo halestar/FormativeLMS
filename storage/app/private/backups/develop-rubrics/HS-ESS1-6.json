@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Evidence for Earth's Formation",
+    "Application of Scientific Reasoning",
+    "Understanding of Radiometric Dating",
+    "Understanding of Earth's Early History"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student demonstrates no understanding of the evidence used to support Earth's formation and early history.",
+      "The student can identify some types of evidence (e.g., meteorites) but cannot explain how they support the account of Earth's formation.",
+      "The student can identify multiple types of evidence (e.g., meteorites, lunar rocks) and provides a limited explanation of how they support the account of Earth's formation.",
+      "The student can identify and explain multiple types of evidence (e.g., radiometric dating, impact cratering) and relates them to the timeline of Earth's early history.",
+      "The student constructs a clear account of Earth's formation, using multiple lines of evidence to support the narrative and explaining the significance of each.",
+      "The student constructs a comprehensive and insightful account of Earth's formation, synthesizing evidence from various sources and critically evaluating the strengths and limitations of the evidence."
+    ],
+    [
+      "The student does not apply scientific reasoning to link evidence to claims about Earth's formation.",
+      "The student attempts to link evidence to claims but demonstrates flawed or incomplete reasoning.",
+      "The student applies some scientific reasoning to connect evidence to claims, but the connections are not always clear or well-supported.",
+      "The student applies scientific reasoning to clearly link evidence to claims about Earth's formation and early history.",
+      "The student effectively applies scientific reasoning to synthesize evidence and construct a logical and well-supported explanation of Earth's formation.",
+      "The student demonstrates sophisticated scientific reasoning, critically evaluating the evidence and constructing a nuanced and insightful explanation of Earth's formation."
+    ],
+    [
+      "The student demonstrates no understanding of radiometric dating.",
+      "The student identifies radiometric dating as a method but cannot explain how it works or its importance.",
+      "The student provides a basic explanation of radiometric dating but does not connect it to the age of Earth.",
+      "The student explains how radiometric dating works and its role in determining the age of Earth and other materials.",
+      "The student explains radiometric dating in detail, including the concept of half-life and its application to dating ancient materials.",
+      "The student demonstrates a deep understanding of radiometric dating, including its underlying principles, limitations, and applications in determining the age of various materials and events in Earth's history."
+    ],
+    [
+      "The student demonstrates no understanding of Earth's early history.",
+      "The student demonstrates a vague idea about Earth's early history with no details or chronology",
+      "The student provides a brief account of Earth's early history, with some inaccuracies or omissions.",
+      "The student provides a mostly accurate account of Earth's early history, mentioning key events and processes.",
+      "The student constructs a detailed and accurate account of Earth's early history, including major events, processes, and their approximate timing.",
+      "The student provides a comprehensive account of Earth's early history, integrating evidence from various sources and critically evaluating the uncertainties and controversies surrounding different aspects of the early Earth."
+    ]
+  ]
+}

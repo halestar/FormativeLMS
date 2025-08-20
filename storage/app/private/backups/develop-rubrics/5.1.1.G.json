@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Accurately describes the stages of the human reproductive cycle (fertilization, pregnancy, childbirth).",
+    "Explains the process of birth and the stages of labor.",
+    "Describes the stages of human growth and development from infancy to adulthood.",
+    "Explains the aging process and common health issues associated with aging.",
+    "Discusses the concept of death and the stages of grief."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not describe the human reproductive cycle.",
+      "Provides a very basic or incomplete description of the reproductive cycle, with significant inaccuracies.",
+      "Describes the reproductive cycle with some inaccuracies or omissions in the stages.",
+      "Describes the main stages of the reproductive cycle with general accuracy but lacks detail.",
+      "Accurately describes the stages of the reproductive cycle with good detail.",
+      "Provides a comprehensive and accurate description of the reproductive cycle, including key processes and hormones involved."
+    ],
+    [
+      "Does not explain the process of birth.",
+      "Provides a minimal or inaccurate explanation of the birth process.",
+      "Explains the birth process with some inaccuracies or omits important stages of labor.",
+      "Explains the stages of labor with general accuracy but lacks detail.",
+      "Accurately explains the stages of labor and the key events of the birth process.",
+      "Provides a detailed and accurate explanation of the birth process, including potential complications and interventions."
+    ],
+    [
+      "Does not describe human growth and development.",
+      "Provides a very basic or inaccurate description of growth and development.",
+      "Describes growth and development with some inaccuracies or omissions of key stages.",
+      "Describes the major stages of growth and development with general accuracy but lacks specific details.",
+      "Accurately describes the stages of growth and development, including physical, cognitive, and emotional changes.",
+      "Provides a comprehensive and accurate description of human growth and development, including the factors that influence each stage."
+    ],
+    [
+      "Does not explain the aging process.",
+      "Provides a minimal or inaccurate explanation of aging.",
+      "Explains aging with some inaccuracies or omits important health issues.",
+      "Explains the aging process and some health issues with general accuracy.",
+      "Accurately explains the aging process and common health issues, including lifestyle factors that can affect aging.",
+      "Provides a detailed and accurate explanation of the aging process, including physiological changes, common diseases, and strategies for healthy aging."
+    ],
+    [
+      "Does not discuss death or grief.",
+      "Provides a minimal or insensitive discussion of death and grief.",
+      "Discusses death and grief with some inaccuracies or omissions of important concepts.",
+      "Discusses the concept of death and the stages of grief with general accuracy.",
+      "Accurately discusses the concept of death and the stages of grief, including emotional and social considerations.",
+      "Provides a comprehensive and sensitive discussion of death, dying, and the grieving process, including cultural perspectives and coping mechanisms."
+    ]
+  ]
+}

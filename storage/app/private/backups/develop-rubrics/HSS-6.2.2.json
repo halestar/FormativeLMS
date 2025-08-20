@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Agricultural Techniques",
+    "Connection to Economic Surplus",
+    "Emergence of Cities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of agricultural techniques used in early civilizations.",
+      "Shows minimal understanding of agricultural techniques; struggles to identify specific techniques.",
+      "Identifies a few agricultural techniques but lacks depth in explaining their function or impact.",
+      "Describes several agricultural techniques and their basic functions; connects techniques to food surplus.",
+      "Explains multiple agricultural techniques in detail, demonstrating a solid understanding of their role in creating economic surplus.",
+      "Provides a comprehensive analysis of various agricultural techniques, explaining their impact on economic surplus and the rise of cities."
+    ],
+    [
+      "Fails to connect agricultural techniques to the concept of economic surplus.",
+      "Attempts to connect agricultural techniques to economic surplus but struggles to articulate the relationship.",
+      "States that agricultural techniques led to economic surplus but provides little supporting detail.",
+      "Explains how specific agricultural techniques contributed to an economic surplus.",
+      "Clearly explains the relationship between agricultural techniques, increased food production, and the creation of an economic surplus.",
+      "Offers a nuanced explanation of how agricultural innovations led to significant economic surplus, impacting social and political structures."
+    ],
+    [
+      "Does not connect economic surplus to the emergence of cities.",
+      "Mentions cities but does not link their emergence to economic surplus or agricultural advancements.",
+      "Suggests a connection between economic surplus and cities but lacks specific details.",
+      "Explains how economic surplus supported the growth and development of cities.",
+      "Details how economic surplus facilitated specialization, social hierarchies, and cultural development within cities.",
+      "Analyzes the multifaceted relationship between agricultural surplus, the rise of cities as centers of culture and power, and the resulting societal changes."
+    ]
+  ]
+}

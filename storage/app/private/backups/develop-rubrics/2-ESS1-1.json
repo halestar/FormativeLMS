@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Earth Events and Timescales",
+    "Use of Information from Multiple Sources",
+    "Evidence-Based Reasoning",
+    "Clarity and Organization of Explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of Earth events or the concept of different timescales.",
+      "Shows minimal understanding of Earth events and struggles to differentiate between quick and slow processes.",
+      "Identifies some Earth events but has difficulty providing evidence or examples of both quick and slow timescales.",
+      "Provides examples of Earth events and correctly identifies them as either quick or slow, but lacks detailed explanations.",
+      "Explains Earth events with relevant examples of both quick and slow timescales, demonstrating good comprehension.",
+      "Clearly explains Earth events with detailed examples of both quick and slow timescales, demonstrating a comprehensive understanding of the processes involved."
+    ],
+    [
+      "No attempt to use information from any source.",
+      "Uses information from a single source without proper context or understanding.",
+      "Uses information from a limited number of sources with some difficulty in integrating the information.",
+      "Uses information from multiple sources, but struggles to synthesize the information effectively.",
+      "Effectively uses information from multiple sources to support explanations of Earth events and timescales.",
+      "Masterfully integrates information from a variety of sources to provide a compelling and well-supported explanation of Earth events and timescales."
+    ],
+    [
+      "Provides no evidence to support claims about Earth events and timescales.",
+      "Attempts to provide evidence, but the evidence is irrelevant or inaccurate.",
+      "Provides some evidence, but it is weak or not clearly connected to the explanation.",
+      "Provides relevant evidence to support claims, but the reasoning is not always clear or logical.",
+      "Supports claims with clear and relevant evidence, demonstrating sound reasoning about Earth events and timescales.",
+      "Constructs a compelling evidence-based account for natural phenomena related to Earth events, demonstrating sophisticated reasoning skills."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation is somewhat disorganized and lacks clarity in certain areas.",
+      "Explanation is generally understandable but could benefit from improved organization and clarity.",
+      "Explanation is clear and organized, presenting information in a logical manner.",
+      "Explanation is very clear, well-organized, and easy to follow, with effective use of scientific vocabulary.",
+      "Explanation is exceptionally clear, concise, and logically structured, demonstrating mastery of scientific communication."
+    ]
+  ]
+}

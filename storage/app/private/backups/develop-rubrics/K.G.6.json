@@ -1,0 +1,32 @@
+{
+  "criteria": [
+    "Ability to combine basic shapes to create more complex shapes as described by prompt.",
+    "Understanding of the properties of combined shapes (e.g., angles, side lengths, symmetry)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to combine basic shapes or does so incorrectly.",
+      "Student attempts to combine shapes but struggles to form the intended shape, requiring significant guidance.",
+      "Student can combine shapes with some difficulty, achieving the target shape with some errors or inefficiencies.",
+      "Student can accurately combine shapes to create the target shape, demonstrating a basic understanding of spatial relations.",
+      "Student combines shapes accurately and efficiently, showing a good understanding of spatial relations and shape properties.",
+      "Student demonstrates an exceptional ability to combine shapes creatively and accurately, forming complex shapes beyond the initial prompt, and explaining the geometric properties involved."
+    ],
+    [
+      "Student shows no understanding of the properties of shapes formed by combining basic shapes.",
+      "Student attempts to identify properties but struggles significantly and cannot accurately describe basic attributes like angles or sides.",
+      "Student identifies some properties of the combined shapes but may confuse terminology or make inaccurate statements.",
+      "Student correctly identifies and describes basic properties of the combined shapes, such as angles, side lengths, and symmetry.",
+      "Student demonstrates a solid understanding of shape properties, accurately explaining how combining shapes affects the overall attributes and providing clear reasoning.",
+      "Student provides a comprehensive and insightful analysis of the properties of combined shapes, including advanced concepts like congruence, similarity, and transformations, with clear explanations and justifications."
+    ]
+  ]
+}

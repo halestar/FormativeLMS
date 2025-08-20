@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Place Value",
+    "Application of Properties of Operations",
+    "Clarity and Accuracy of Explanation",
+    "Use of Supporting Representations"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of place value concepts in relation to addition and subtraction.",
+      "Student demonstrates a limited understanding of place value; explanations are unclear or incorrect.",
+      "Student shows some understanding of place value but struggles to consistently apply it to explain strategies.",
+      "Student demonstrates a satisfactory understanding of place value and uses it to explain addition and subtraction strategies with some accuracy.",
+      "Student demonstrates a strong understanding of place value and effectively uses it to explain addition and subtraction strategies clearly and accurately.",
+      "Student demonstrates a comprehensive understanding of place value and expertly uses it to explain and justify addition and subtraction strategies with precision and insightful connections."
+    ],
+    [
+      "Student does not apply properties of operations (e.g., commutative, associative, distributive) to explain strategies.",
+      "Student attempts to apply properties of operations but does so incorrectly or irrelevantly.",
+      "Student shows limited understanding or application of properties of operations in their explanations.",
+      "Student applies some properties of operations correctly to explain strategies, but the connection may not always be clear.",
+      "Student effectively applies properties of operations to clearly explain and justify addition and subtraction strategies.",
+      "Student skillfully and insightfully applies properties of operations to rigorously explain and justify addition and subtraction strategies, demonstrating a deep understanding."
+    ],
+    [
+      "Student's explanation is unclear, incomplete, or inaccurate.",
+      "Student's explanation is difficult to understand and contains significant inaccuracies.",
+      "Student's explanation is somewhat understandable but lacks clarity and contains some inaccuracies.",
+      "Student's explanation is generally clear and accurate but could benefit from further detail or precision.",
+      "Student's explanation is clear, accurate, and provides sufficient detail to demonstrate understanding.",
+      "Student's explanation is exceptionally clear, precise, and insightful, demonstrating a deep and nuanced understanding."
+    ],
+    [
+      "Student does not use drawings or objects to support their explanations.",
+      "Student attempts to use drawings or objects, but they are irrelevant or unclear.",
+      "Student uses drawings or objects, but they are not well-connected to the explanation.",
+      "Student uses drawings or objects to support their explanation, but the connection could be stronger.",
+      "Student effectively uses drawings or objects to support and enhance their explanation.",
+      "Student expertly uses drawings or objects to provide a compelling and insightful demonstration of their understanding."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Measurements",
+    "Construction of Line Plot",
+    "Interpretation of Data"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Measurements are not taken or are completely inaccurate, showing no understanding of using a ruler.",
+      "Measurements are mostly inaccurate, with significant errors in reading the ruler markings.",
+      "Measurements show some accuracy, but there are noticeable errors in reading halves and fourths of an inch.",
+      "Measurements are generally accurate, with only minor errors in reading the ruler markings.",
+      "Measurements are accurate, demonstrating a good understanding of reading halves and fourths of an inch on a ruler.",
+      "Measurements are precise and consistently accurate, demonstrating a thorough understanding of reading and using a ruler with halves and fourths of an inch."
+    ],
+    [
+      "No line plot is created, or the attempt is completely irrelevant to the data.",
+      "The line plot is poorly constructed, with incorrect labeling and scaling, making it difficult to interpret the data.",
+      "The line plot has significant errors in scaling or labeling, affecting the clarity and interpretation of the data.",
+      "The line plot is mostly accurate, with minor errors in scaling or labeling that do not significantly impact interpretation.",
+      "The line plot is accurately constructed with appropriate scaling and labeling, making the data easy to interpret.",
+      "The line plot is exceptionally clear and accurate, with precise scaling, labeling, and a clear representation of the data distribution."
+    ],
+    [
+      "No attempt is made to interpret the data, or the interpretation is completely incorrect.",
+      "Interpretation of the data is minimal and shows a lack of understanding of the information presented in the line plot.",
+      "Interpretation of the data is superficial and contains significant inaccuracies.",
+      "Interpretation of the data is reasonable but lacks depth or specific insights.",
+      "Interpretation of the data is accurate and provides relevant insights based on the line plot.",
+      "Interpretation of the data is insightful, comprehensive, and demonstrates a deep understanding of the patterns and trends in the data."
+    ]
+  ]
+}

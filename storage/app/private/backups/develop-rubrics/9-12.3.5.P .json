@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identifies and explains various factors influencing health product choices (e.g., advertising, peer pressure, cost).",
+    "Evaluates the reliability and validity of health information sources (e.g., websites, advertisements, healthcare professionals).",
+    "Applies strategies for responsible decision-making when selecting health products and services."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any factors or demonstrates misunderstanding of factors influencing health choices.",
+      "Identifies one factor with limited explanation or demonstrates significant misunderstanding.",
+      "Identifies a few factors but explanation lacks depth or accuracy in some areas.",
+      "Identifies several factors and provides a basic explanation for each.",
+      "Clearly identifies and explains multiple factors influencing health choices, demonstrating good understanding.",
+      "Thoroughly identifies and explains a comprehensive range of factors influencing health choices, demonstrating excellent understanding and insightful analysis."
+    ],
+    [
+      "Unable to evaluate the reliability or validity of health information sources.",
+      "Attempts to evaluate sources but demonstrates a lack of understanding of key criteria (e.g., author credentials, evidence-based information).",
+      "Identifies some criteria for evaluating sources, but evaluation is superficial or contains inaccuracies.",
+      "Evaluates sources using basic criteria such as author and date, and indicates potential biases.",
+      "Critically evaluates sources by assessing credibility, relevance, and possible biases and explains why the source is trustworthy.",
+      "Demonstrates a sophisticated ability to critically evaluate health information sources, considering multiple factors (e.g., peer review, conflicts of interest, statistical data) and providing a comprehensive and nuanced assessment."
+    ],
+    [
+      "Does not suggest any strategies for responsible decision-making.",
+      "Suggests a strategy that is not realistic, nor appropriate.",
+      "Suggests one strategy for responsible decision-making, but it is not fully developed or appropriate.",
+      "Suggests several strategies for responsible decision-making.",
+      "Suggests and explains appropriate strategies, and explains their use in health setting.",
+      "Demonstrates sophisticated strategies for responsible decision-making in a complex range of factors. Provides justification for strategy."
+    ]
+  ]
+}

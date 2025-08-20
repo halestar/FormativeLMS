@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of common myths related to alcohol, tobacco, and other drug use among adolescents.",
+    "Ability to differentiate between facts and myths regarding substance use prevalence among adolescents.",
+    "Communication of clarified information to dispel myths effectively."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of common myths or misconceptions.",
+      "Identifies one or two myths but struggles to provide accurate information.",
+      "Identifies some common myths but has difficulty explaining the facts accurately.",
+      "Identifies several myths and provides some accurate information, but may still perpetuate some misconceptions.",
+      "Clearly identifies most common myths and provides accurate information, demonstrating a solid understanding.",
+      "Thoroughly identifies and debunks common myths with accurate information, demonstrating a comprehensive understanding and ability to explain these concepts clearly."
+    ],
+    [
+      "Unable to differentiate between facts and myths regarding prevalence.",
+      "Struggles to distinguish facts from myths; demonstrates confusion about the scope of substance use.",
+      "Shows some ability to differentiate between facts and myths, but still accepts some misconceptions.",
+      "Generally differentiates between facts and myths, using data but still may not provide a good overview.",
+      "Clearly differentiates between facts and myths, using data to support their claims and providing a good overview of prevalence.",
+      "Masterfully differentiates between facts and myths, presenting data on prevalence, and explains the implications of both the myths and the realities with sophistication."
+    ],
+    [
+      "Unable to communicate any clear information to dispel myths.",
+      "Attempts to communicate information, but is unclear and perpetuates misinformation.",
+      "Communicates some clarified information, but not very effectively and may be confusing.",
+      "Communicates clarified information adequately, but without much clarity or impact.",
+      "Communicates clarified information clearly and effectively, dispelling myths and providing accurate data.",
+      "Communicates clarified information masterfully, dispelling myths effectively and presenting accurate data with sophistication and clarity."
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Claim Articulation: How well does the student formulate a clear and concise claim about the merit of a design solution?",
+    "Evidence Quality: How relevant and sufficient is the evidence provided to support the claim?",
+    "Reasoning and Explanation: How well does the student explain the cause and effect relationships between the design solution and its impact on reducing weather-related hazards?",
+    "Consideration of Constraints and Criteria: How well does the student address the criteria and constraints of the problem when evaluating the design solution?"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No claim is made or the claim is unclear and irrelevant.",
+      "The claim is vague and does not directly address the design solution's merit.",
+      "The claim is identifiable but lacks clarity or focus on the specific design solution.",
+      "The claim is clear, identifies the design solution, and states its merit, but lacks sophistication.",
+      "The claim is well-articulated, clearly states the merit of the design solution, and shows a good understanding of the context.",
+      "The claim is exceptionally clear, insightful, and provides a compelling statement about the design solution's merit with nuanced understanding."
+    ],
+    [
+      "No evidence is provided, or the evidence is completely irrelevant to the claim.",
+      "The evidence is minimal, and\/or not directly related to the claim.",
+      "Some evidence is provided, but its relevance to the claim is questionable or weak.",
+      "Relevant evidence is provided and supports the claim, but more evidence is needed to strengthen the argument.",
+      "Sufficient and relevant evidence is provided to support the claim effectively, demonstrating a clear link between the evidence and the claim.",
+      "Compelling and comprehensive evidence is presented, demonstrating a deep understanding of the subject matter and providing strong support for the claim."
+    ],
+    [
+      "No reasoning or explanation is provided.",
+      "The reasoning is unclear, illogical, or missing key steps.",
+      "A basic attempt at reasoning is made, but the explanation is superficial and lacks depth.",
+      "The reasoning is logical and connects the evidence to the claim, but the explanation could be more detailed.",
+      "The reasoning is clear and effectively explains how the evidence supports the claim, showing a good understanding of cause and effect.",
+      "The reasoning is sophisticated and insightful, providing a thorough explanation of the cause and effect relationships with a deep understanding of the underlying science."
+    ],
+    [
+      "Criteria and constraints are not addressed.",
+      "Criteria and constraints are mentioned, but their relevance to the evaluation is unclear.",
+      "Some criteria and constraints are considered, but the evaluation is incomplete or superficial.",
+      "The major criteria and constraints are considered, and the evaluation shows an understanding of their impact.",
+      "The criteria and constraints are thoroughly considered, and the evaluation demonstrates a deep understanding of their influence on the design solution.",
+      "The criteria and constraints are expertly addressed, and the evaluation shows a nuanced understanding of their complex interactions and implications."
+    ]
+  ]
+}

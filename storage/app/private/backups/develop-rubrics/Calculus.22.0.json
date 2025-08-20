@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Improper Integrals",
+    "Ability to Compute Improper Integrals",
+    "Application of Limits"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate any understanding of improper integrals or their relation to definite integrals.",
+      "Student shows minimal understanding of improper integrals; cannot relate them to definite integrals.",
+      "Student can identify improper integrals but struggles to explain them as limits of definite integrals.",
+      "Student generally understands improper integrals as limits of definite integrals but has difficulty with specific examples.",
+      "Student demonstrates a solid understanding of improper integrals, explaining them as limits of definite integrals with some accuracy.",
+      "Student demonstrates a comprehensive understanding of improper integrals and clearly explains them as limits of definite integrals, providing accurate examples."
+    ],
+    [
+      "Student is unable to compute any improper integrals.",
+      "Student attempts to compute improper integrals but is unsuccessful and makes significant errors.",
+      "Student can compute simple improper integrals but struggles with more complex examples.",
+      "Student computes improper integrals with some errors or inefficiencies.",
+      "Student accurately computes most improper integrals, demonstrating a good understanding of the process.",
+      "Student accurately and efficiently computes improper integrals, demonstrating a strong command of the techniques."
+    ],
+    [
+      "Student does not use or understand the concept of limits in the context of improper integrals.",
+      "Student shows some awareness of limits but cannot apply them correctly to improper integrals.",
+      "Student attempts to apply limits but makes significant errors in their calculations.",
+      "Student applies limits to improper integrals with some accuracy but may struggle with notation or algebraic manipulation.",
+      "Student correctly applies limits to evaluate improper integrals with only minor errors.",
+      "Student demonstrates a strong understanding of limits and applies them flawlessly to evaluate improper integrals."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding prevalence of non-violence",
+    "Ability to explain alternatives to violence",
+    "Understanding reasons for choosing non-violence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the prevalence of non-violence among young people.",
+      "Student vaguely acknowledges that some young people choose non-violence, but lacks supporting details.",
+      "Student mentions that many young people choose non-violence, but with limited reasoning or evidence.",
+      "Student explains that a majority of young people choose non-violence, providing some reasoning and examples.",
+      "Student clearly explains that most young people choose non-violence, providing relevant examples and elaborating on possible reasons.",
+      "Student comprehensively explains that most young people choose non-violence, providing specific examples, insightful reasoning, and demonstrating a nuanced understanding of societal influences."
+    ],
+    [
+      "Student is unable to identify any alternatives to violence.",
+      "Student identifies one vague alternative to violence.",
+      "Student identifies a couple of general alternatives to violence without much detail.",
+      "Student identifies and explains a few common alternatives to violence.",
+      "Student identifies and explains several alternatives to violence, including conflict resolution and de-escalation techniques.",
+      "Student identifies and thoroughly explains a wide range of alternatives to violence, including specific techniques and strategies for different situations, demonstrating sophisticated understanding."
+    ],
+    [
+      "Student shows no understanding of the reasons why young people might choose non-violence.",
+      "Student suggests one simplistic reason for choosing non-violence.",
+      "Student mentions a couple of basic reasons for choosing non-violence.",
+      "Student explains several reasons for choosing non-violence, such as avoiding harm and maintaining relationships.",
+      "Student explains several reasons for choosing non-violence, including ethical considerations and potential consequences of violence.",
+      "Student provides a comprehensive explanation of the reasons why young people choose non-violence, including personal values, social norms, and long-term consequences, demonstrating critical thinking."
+    ]
+  ]
+}

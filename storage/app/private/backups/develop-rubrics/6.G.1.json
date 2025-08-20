@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy in Calculating Area",
+    "Application of Techniques in Problem Solving",
+    "Understanding of Decomposition and Composition"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student is unable to calculate the area of any shapes or demonstrates significant errors.",
+      "The student can calculate the area of right triangles but struggles with other shapes, or makes frequent errors.",
+      "The student can calculate the area of right triangles and some special quadrilaterals with occasional errors.",
+      "The student can accurately calculate the area of right triangles, special quadrilaterals, and simple polygons.",
+      "The student can accurately calculate the area of various triangles, special quadrilaterals, and polygons, showing a strong understanding of the concepts.",
+      "The student demonstrates mastery in calculating the area of complex polygons by decomposing them into simpler shapes and applying appropriate formulas."
+    ],
+    [
+      "The student is unable to apply area calculations to solve real-world or mathematical problems.",
+      "The student attempts to apply area calculations but struggles to connect them to the problem context.",
+      "The student can apply area calculations to solve simple real-world and mathematical problems with some guidance.",
+      "The student can effectively apply area calculations to solve a variety of real-world and mathematical problems.",
+      "The student demonstrates a strong ability to apply area calculations in complex real-world and mathematical scenarios.",
+      "The student excels in applying area calculations to solve challenging and novel real-world problems, demonstrating creativity and insight."
+    ],
+    [
+      "The student does not understand the concepts of decomposing shapes into triangles or composing them into rectangles.",
+      "The student shows limited understanding of decomposition and composition, struggling to apply these techniques.",
+      "The student can decompose or compose shapes in simple cases but struggles with more complex figures.",
+      "The student demonstrates a good understanding of decomposing shapes into triangles and composing them into rectangles to find area.",
+      "The student effectively uses decomposition and composition techniques to solve area problems with various shapes.",
+      "The student exhibits a deep understanding of decomposition and composition, applying these techniques creatively and efficiently to solve complex area problems."
+    ]
+  ]
+}

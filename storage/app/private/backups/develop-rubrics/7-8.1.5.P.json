@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Personal Hygiene Practices",
+    "Understanding of Dental Hygiene Practices",
+    "Connection Between Hygiene and Illness Prevention",
+    "Application of Knowledge"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of personal hygiene practices is demonstrated.",
+      "Demonstrates minimal understanding of personal hygiene practices.",
+      "Identifies some personal hygiene practices with limited explanation.",
+      "Describes common personal hygiene practices and their general benefits.",
+      "Explains personal hygiene practices and their importance in preventing illness.",
+      "Comprehensively explains various personal hygiene practices, detailing their specific benefits and impact on preventing illness."
+    ],
+    [
+      "No understanding of dental hygiene practices is demonstrated.",
+      "Demonstrates minimal understanding of dental hygiene practices.",
+      "Identifies some dental hygiene practices with limited explanation.",
+      "Describes common dental hygiene practices and their general benefits.",
+      "Explains dental hygiene practices and their importance in preventing illness.",
+      "Comprehensively explains various dental hygiene practices, detailing their specific benefits and impact on preventing illness."
+    ],
+    [
+      "Fails to make any connection between hygiene practices and illness prevention.",
+      "Makes a vague or unclear connection between hygiene and illness prevention.",
+      "States a basic connection between hygiene and illness prevention.",
+      "Explains how hygiene practices can help prevent some illnesses.",
+      "Details multiple ways hygiene practices prevent a range of illnesses.",
+      "Provides a comprehensive explanation of how specific hygiene practices directly prevent the spread and contraction of various illnesses, including detailed examples."
+    ],
+    [
+      "Unable to apply knowledge of hygiene to real-life scenarios.",
+      "Struggles to apply knowledge of hygiene to real-life scenarios.",
+      "Can somewhat apply knowledge of hygiene to simple real-life scenarios.",
+      "Applies knowledge of hygiene to common real-life scenarios.",
+      "Applies knowledge of hygiene to a variety of real-life scenarios, showing good insight.",
+      "Skillfully applies knowledge of hygiene to diverse and complex real-life scenarios, demonstrating a thorough understanding and ability to adapt practices as needed."
+    ]
+  ]
+}

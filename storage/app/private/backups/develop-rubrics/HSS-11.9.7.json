@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Key Economic Issues",
+    "Understanding of Key Political Issues",
+    "Understanding of Key Immigration Issues",
+    "Understanding of Key Environmental Issues"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of economic issues in US-Mexico relations.",
+      "Student identifies a single economic issue with limited accuracy.",
+      "Student identifies a few economic issues but lacks depth in explanation.",
+      "Student explains several economic issues with reasonable accuracy and some context.",
+      "Student analyzes key economic issues, providing specific examples and demonstrating good understanding of their impact.",
+      "Student comprehensively analyzes key economic issues, demonstrating nuanced understanding, insightful examples, and clear connections to broader historical trends."
+    ],
+    [
+      "Student demonstrates no understanding of political issues in US-Mexico relations.",
+      "Student identifies a single political issue with limited accuracy.",
+      "Student identifies a few political issues but lacks depth in explanation.",
+      "Student explains several political issues with reasonable accuracy and some context.",
+      "Student analyzes key political issues, providing specific examples and demonstrating good understanding of their impact.",
+      "Student comprehensively analyzes key political issues, demonstrating nuanced understanding, insightful examples, and clear connections to broader historical trends."
+    ],
+    [
+      "Student demonstrates no understanding of immigration issues in US-Mexico relations.",
+      "Student identifies a single immigration issue with limited accuracy.",
+      "Student identifies a few immigration issues but lacks depth in explanation.",
+      "Student explains several immigration issues with reasonable accuracy and some context.",
+      "Student analyzes key immigration issues, providing specific examples and demonstrating good understanding of their impact.",
+      "Student comprehensively analyzes key immigration issues, demonstrating nuanced understanding, insightful examples, and clear connections to broader historical trends."
+    ],
+    [
+      "Student demonstrates no understanding of environmental issues in US-Mexico relations.",
+      "Student identifies a single environmental issue with limited accuracy.",
+      "Student identifies a few environmental issues but lacks depth in explanation.",
+      "Student explains several environmental issues with reasonable accuracy and some context.",
+      "Student analyzes key environmental issues, providing specific examples and demonstrating good understanding of their impact.",
+      "Student comprehensively analyzes key environmental issues, demonstrating nuanced understanding, insightful examples, and clear connections to broader historical trends."
+    ]
+  ]
+}

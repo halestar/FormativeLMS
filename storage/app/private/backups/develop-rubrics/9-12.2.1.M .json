@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Internal Issues",
+    "Identification of External Issues",
+    "Analysis of the Interplay Between Internal and External Issues"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not identify any internal issues related to seeking mental health assistance.",
+      "The student identifies one vague or unclear internal issue related to seeking mental health assistance.",
+      "The student identifies one specific internal issue related to seeking mental health assistance but lacks detail.",
+      "The student identifies two specific internal issues related to seeking mental health assistance with some detail.",
+      "The student identifies three specific internal issues related to seeking mental health assistance and provides clear explanations for each.",
+      "The student comprehensively identifies and explains multiple relevant internal issues, demonstrating a deep understanding of how these issues affect seeking mental health assistance."
+    ],
+    [
+      "The student does not identify any external issues related to seeking mental health assistance.",
+      "The student identifies one vague or unclear external issue related to seeking mental health assistance.",
+      "The student identifies one specific external issue related to seeking mental health assistance but lacks detail.",
+      "The student identifies two specific external issues related to seeking mental health assistance with some detail.",
+      "The student identifies three specific external issues related to seeking mental health assistance and provides clear explanations for each.",
+      "The student comprehensively identifies and explains multiple relevant external issues, demonstrating a deep understanding of how these issues affect seeking mental health assistance."
+    ],
+    [
+      "The student fails to analyze the interplay between internal and external issues related to seeking mental health assistance.",
+      "The student attempts to analyze the interplay between internal and external issues, but the analysis is superficial or unclear.",
+      "The student briefly mentions the interplay between internal and external issues but lacks depth.",
+      "The student provides a basic analysis of how internal and external issues may interact when seeking mental health assistance.",
+      "The student provides a detailed analysis of how internal and external issues interact, including specific examples.",
+      "The student provides a sophisticated analysis of the complex interplay between internal and external issues, demonstrating a nuanced understanding of the challenges in seeking mental health assistance."
+    ]
+  ]
+}

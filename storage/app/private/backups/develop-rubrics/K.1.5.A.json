@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Health Risks",
+    "Identification of Harmful Components",
+    "Awareness of Secondhand Smoke Dangers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the health risks associated with tobacco smoke.",
+      "Demonstrates a minimal understanding of the health risks; may confuse them or state them inaccurately.",
+      "Demonstrates a basic understanding of some health risks, such as lung cancer, but lacks depth or detail.",
+      "Demonstrates a solid understanding of several health risks, including respiratory issues and cardiovascular problems.",
+      "Demonstrates a comprehensive understanding of a wide range of health risks, including short-term and long-term effects.",
+      "Demonstrates an exceptional understanding of the health risks and can explain the biological mechanisms through which tobacco smoke harms the body."
+    ],
+    [
+      "Unable to identify any harmful components of tobacco smoke.",
+      "Identifies one or two harmful components but struggles to explain their effects.",
+      "Identifies several harmful components, such as nicotine and tar, but lacks detail in their explanations.",
+      "Identifies most of the major harmful components, including carcinogens and particulate matter, and briefly explains their effects.",
+      "Identifies a wide range of harmful components and provides detailed explanations of how they damage the body.",
+      "Identifies obscure and emerging harmful components, discussing their specific mechanisms of toxicity with precision."
+    ],
+    [
+      "Shows no awareness of the dangers of secondhand smoke.",
+      "Shows minimal awareness, possibly believing secondhand smoke is not very harmful.",
+      "Recognizes that secondhand smoke is harmful but lacks specific details.",
+      "Understands that secondhand smoke poses a risk to others, especially children and those with respiratory issues.",
+      "Explains the specific health risks associated with secondhand smoke, citing relevant statistics and research.",
+      "Expertly articulates the disproportionate impact of secondhand smoke on vulnerable populations, advocating for stricter public health policies with detailed understanding."
+    ]
+  ]
+}

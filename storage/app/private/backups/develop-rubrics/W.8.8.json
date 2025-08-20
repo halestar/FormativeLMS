@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Effectiveness of Information Gathering: This criterion assesses the student's ability to gather relevant information from multiple sources.",
+    "Source Credibility and Accuracy: This criterion evaluates the student's ability to assess the credibility and accuracy of the sources used.",
+    "Use of Information (Quoting, Paraphrasing, and Avoiding Plagiarism): This assesses how well the student integrates information while avoiding plagiarism.",
+    "Citation Format: This criterion measures the student's adherence to a standard citation format."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No information gathered or information is completely irrelevant.",
+      "Information gathered is minimal and largely irrelevant to the topic.",
+      "Some relevant information gathered, but sources are limited and may not fully support the topic.",
+      "Adequate information gathered from a variety of sources, generally relevant to the topic.",
+      "Comprehensive information gathered from a wide range of sources, all relevant to the topic.",
+      "Extensive and insightful information gathered from diverse sources, demonstrating a thorough understanding of the topic."
+    ],
+    [
+      "Sources are not evaluated for credibility or accuracy.",
+      "Little to no attempt made to assess source credibility or accuracy; questionable sources used.",
+      "Some attempt to assess source credibility, but accuracy is not addressed.",
+      "Credibility and accuracy of sources are addressed, but evaluation is superficial.",
+      "Credibility and accuracy of sources are thoroughly assessed, with reasoned justifications.",
+      "Exceptional evaluation of source credibility and accuracy, demonstrating a sophisticated understanding of bias and reliability."
+    ],
+    [
+      "Information is poorly integrated, with evidence of plagiarism.",
+      "Information is awkwardly integrated; plagiarism may be present.",
+      "Some attempt to quote or paraphrase, but plagiarism is evident.",
+      "Information is generally integrated well, with limited evidence of plagiarism.",
+      "Information is smoothly integrated, with no evidence of plagiarism; effective use of quotes and paraphrases.",
+      "Information is seamlessly integrated, with skillful use of quotes and paraphrases to enhance understanding and credibility; no plagiarism."
+    ],
+    [
+      "No citations are provided.",
+      "Citations are missing or incomplete.",
+      "Some citations are provided, but format is inconsistent and incorrect.",
+      "Citations are mostly correct, with minor formatting errors.",
+      "Citations are consistently correct and follow a standard format.",
+      "Citations are flawless and meticulously follow a standard format, enhancing the work's credibility."
+    ]
+  ]
+}

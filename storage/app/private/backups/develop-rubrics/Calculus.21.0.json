@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Simpson's Rule",
+    "Understanding of Newton's Method",
+    "Accuracy in Numerical Approximation",
+    "Use of Calculators\/Computers"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of Simpson's Rule is demonstrated.",
+      "Minimal understanding of Simpson's Rule. Unable to apply the algorithm.",
+      "Basic understanding of Simpson's Rule but struggles with application. Errors in calculations are frequent.",
+      "Adequate understanding of Simpson's Rule. Can apply the algorithm with occasional errors.",
+      "Good understanding of Simpson's Rule. Applies the algorithm accurately and efficiently.",
+      "Excellent understanding of Simpson's Rule. Applies the algorithm flawlessly and can explain its underlying principles."
+    ],
+    [
+      "No understanding of Newton's Method is demonstrated.",
+      "Minimal understanding of Newton's Method. Unable to apply the algorithm.",
+      "Basic understanding of Newton's Method but struggles with application. Errors in calculations are frequent.",
+      "Adequate understanding of Newton's Method. Can apply the algorithm with occasional errors.",
+      "Good understanding of Newton's Method. Applies the algorithm accurately and efficiently.",
+      "Excellent understanding of Newton's Method. Applies the algorithm flawlessly and can explain its underlying principles."
+    ],
+    [
+      "Unable to perform numerical approximations.",
+      "Numerical approximations are significantly inaccurate.",
+      "Numerical approximations contain frequent errors.",
+      "Numerical approximations are mostly accurate with some errors.",
+      "Numerical approximations are accurate with minimal errors.",
+      "Numerical approximations are highly accurate and precise."
+    ],
+    [
+      "Unable to use calculators or computers for numerical approximation.",
+      "Struggles to use calculators or computers effectively. Makes errors in input or operation.",
+      "Basic use of calculators or computers but requires assistance. Errors in input or operation are common.",
+      "Adequate use of calculators or computers. Can perform calculations with some assistance.",
+      "Good use of calculators or computers. Performs calculations accurately and efficiently.",
+      "Excellent use of calculators or computers. Uses advanced functions and features to enhance numerical approximation."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Conception Process",
+    "Knowledge of Pregnancy Stages",
+    "Awareness of Parenting Responsibilities"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how conception occurs.",
+      "Shows limited understanding; major misconceptions present.",
+      "Identifies basic components of conception but lacks detail.",
+      "Explains the process of conception with some accuracy, but may miss key details.",
+      "Clearly explains the process of conception, including key biological components and their roles.",
+      "Provides a comprehensive and accurate explanation of the conception process, including biological mechanisms, potential challenges, and variations."
+    ],
+    [
+      "Demonstrates no knowledge of pregnancy stages.",
+      "Shows minimal awareness of pregnancy; unable to name or describe stages.",
+      "Identifies a few pregnancy stages but with significant inaccuracies or omissions.",
+      "Describes pregnancy stages with some accuracy, but lacks depth or clarity.",
+      "Accurately describes the main stages of pregnancy, including key developments and changes.",
+      "Provides a detailed and nuanced description of all pregnancy stages, including key developments, hormonal changes, and potential complications."
+    ],
+    [
+      "Shows no awareness of the responsibilities associated with parenting.",
+      "Identifies few or unrealistic parenting responsibilities.",
+      "Lists some basic parenting responsibilities but lacks understanding of their implications.",
+      "Describes several parenting responsibilities with some understanding of their importance.",
+      "Clearly articulates the diverse responsibilities associated with parenting, including emotional, financial, and physical aspects.",
+      "Provides a comprehensive overview of parenting responsibilities, including long-term implications, challenges, and the importance of support systems."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Foundational Works",
+    "Demonstrates Understanding of Themes",
+    "Comparison of Texts"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student shows no ability to identify relevant foundational works of American literature from the specified period.",
+      "The student struggles to identify foundational works, and the selections are largely inaccurate or irrelevant.",
+      "The student can identify one relevant foundational work, but struggles with providing context or further examples.",
+      "The student identifies two relevant foundational works but does not elaborate on their significance.",
+      "The student accurately identifies multiple foundational works of American literature from the eighteenth, nineteenth, and early-twentieth centuries and briefly explains their significance.",
+      "The student expertly identifies several foundational works, providing insightful commentary on their historical and cultural context."
+    ],
+    [
+      "The student demonstrates no understanding of themes or topics present in American Literature",
+      "The student demonstrates minimal understanding of themes or topics, offering responses that are mostly incorrect.",
+      "The student vaguely identifies a theme or topic without providing supporting details.",
+      "The student is able to identify a theme and provide a somewhat accurate description of one work of literature that relates to it.",
+      "The student clearly identifies a theme or topic and accurately connects it to at least two works of literature.",
+      "The student offers a nuanced explanation of one or more themes or topics, demonstrating an advanced level of comprehension."
+    ],
+    [
+      "The student doesn't attempt to compare texts or their themes.",
+      "The student makes a vague attempt to compare texts, but the comparison is inaccurate and irrelevant.",
+      "The student presents a superficial comparison that identifies a similarity, but lacks depth and insight.",
+      "The student compares two texts, identifying one or two basic similarities or differences in themes or topics.",
+      "The student draws thoughtful comparisons between texts, highlighting similarities and differences in how they address specific themes or topics.",
+      "The student provides a sophisticated analysis of how multiple texts from the same period treat similar themes or topics, showcasing a deep understanding of literary connections and nuances."
+    ]
+  ]
+}

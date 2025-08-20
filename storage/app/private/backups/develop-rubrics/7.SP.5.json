@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding the concept of probability as a number between 0 and 1.",
+    "Relating probability values to the likelihood of an event occurring.",
+    "Interpreting and explaining the meaning of different probability values."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding that probability is represented numerically.",
+      "Student shows limited understanding that probability is represented numerically but struggles with the scale.",
+      "Student understands that probability is a number between 0 and 1 but has difficulty applying it.",
+      "Student correctly identifies probability as a number between 0 and 1 and begins to relate it to likelihood.",
+      "Student clearly understands and applies probability as a number between 0 and 1 to describe likelihood accurately.",
+      "Student demonstrates a comprehensive understanding of probability as a number between 0 and 1, applying it effectively and explaining its implications with precision."
+    ],
+    [
+      "Student is unable to relate probability values to the likelihood of events.",
+      "Student struggles to relate probability values to likelihood, often misinterpreting the scale.",
+      "Student can sometimes relate probability values to likelihood but with inconsistencies.",
+      "Student generally relates probability values to likelihood, distinguishing between unlikely, neither unlikely nor likely, and likely events.",
+      "Student accurately relates probability values to the likelihood of events, providing clear explanations.",
+      "Student expertly relates probability values to the likelihood of events, providing nuanced explanations and examples."
+    ],
+    [
+      "Student cannot interpret or explain the meaning of different probability values.",
+      "Student attempts to interpret probability values but demonstrates significant misunderstanding.",
+      "Student can interpret some probability values but struggles with nuanced cases (e.g., values near 0 or 1).",
+      "Student interprets and explains the meaning of most probability values accurately.",
+      "Student consistently interprets and explains the meaning of various probability values, providing clear context.",
+      "Student expertly interprets and explains the meaning of probability values, providing insightful context and implications."
+    ]
+  ]
+}

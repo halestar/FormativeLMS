@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Information Analysis: Assesses the student's ability to dissect information about alcohol, tobacco, and drugs to determine its correctness.",
+    "Understanding of Products and Services: Evaluates the student's knowledge of various products and services related to substance use and their potential impact.",
+    "Critical Evaluation of Sources: Examines the student's ability to critically assess the sources of information, considering bias, reliability, and credibility."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student presents information without assessing its accuracy or validity.",
+      "The student attempts to analyze the information, but the analysis contains significant inaccuracies or misunderstandings.",
+      "The student identifies some valid points and inaccuracies, but the analysis lacks depth and clarity.",
+      "The student accurately analyzes the information, identifying key valid points and inaccuracies with reasonable clarity.",
+      "The student thoroughly analyzes the information, clearly distinguishing between valid claims and inaccuracies, and provides supporting evidence.",
+      "The student expertly analyzes the information, providing a nuanced understanding of valid claims and inaccuracies, supported by strong evidence and insightful reasoning."
+    ],
+    [
+      "The student demonstrates no understanding of products or services related to alcohol, tobacco, and other drugs.",
+      "The student shows a limited understanding of products and services, with significant gaps in knowledge.",
+      "The student identifies some products and services but struggles to explain their effects or relevance.",
+      "The student describes common products and services and their potential effects with reasonable accuracy.",
+      "The student explains the effects of various products and services, demonstrating a comprehensive understanding of their impact.",
+      "The student critically evaluates the role and impact of products and services, offering insightful perspectives and nuanced understanding."
+    ],
+    [
+      "The student does not evaluate the sources of information, accepting claims at face value.",
+      "The student attempts to evaluate sources but lacks the skills to identify bias or assess credibility.",
+      "The student identifies some sources but struggles to assess their reliability or potential bias.",
+      "The student evaluates sources, considering reliability and potential bias with reasonable accuracy.",
+      "The student critically evaluates sources, providing clear reasoning and evidence to support their assessments of reliability and bias.",
+      "The student expertly evaluates sources, offering insightful analysis of potential bias, reliability, and credibility, and providing strong evidence to support their claims."
+    ]
+  ]
+}

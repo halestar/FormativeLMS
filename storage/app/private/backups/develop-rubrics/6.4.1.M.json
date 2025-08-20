@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Initiating the conversation with a trusted adult.",
+    "Describing the mental, emotional, or social health problem.",
+    "Expressing feelings and needs.",
+    "Demonstrating trust and respect towards the adult."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not initiate any conversation or attempt to ask for help.",
+      "Student attempts to initiate a conversation but struggles to express the need for help clearly.",
+      "Student initiates a conversation and indicates a need for help but lacks detail.",
+      "Student clearly initiates a conversation, expresses the need for help, and provides some detail.",
+      "Student confidently initiates a conversation, clearly expresses the need for help, and provides relevant details.",
+      "Student confidently and effectively initiates a conversation, clearly articulates the need for help with specific details, and creates an environment for constructive dialogue."
+    ],
+    [
+      "Student does not attempt to describe the problem.",
+      "Student struggles to articulate the problem and provides vague or unclear details.",
+      "Student describes the problem but lacks depth or specific examples.",
+      "Student provides a clear description of the problem with relevant examples.",
+      "Student describes the problem in detail with specific examples and demonstrates self-awareness.",
+      "Student provides a comprehensive and insightful description of the problem, demonstrating a deep understanding of their feelings and situation, and provides context for the trusted adult."
+    ],
+    [
+      "Student does not express any feelings or needs related to the problem.",
+      "Student hints at feelings but struggles to express them directly or identify specific needs.",
+      "Student expresses some feelings and identifies basic needs related to the problem.",
+      "Student clearly expresses feelings and identifies specific needs with some clarity.",
+      "Student effectively expresses feelings and articulates specific needs related to the problem with confidence.",
+      "Student articulates feelings and needs with exceptional clarity and empathy, fostering a supportive and understanding environment for the trusted adult."
+    ],
+    [
+      "Student shows reluctance or distrust towards the adult.",
+      "Student demonstrates minimal trust or respect towards the adult.",
+      "Student shows some trust and respect towards the adult.",
+      "Student displays trust and respect towards the adult through their words and actions.",
+      "Student demonstrates a high level of trust and respect towards the adult, creating a positive and open dialogue.",
+      "Student cultivates a strong sense of trust and respect towards the adult, fostering a safe and supportive environment for open communication and problem-solving."
+    ]
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "criteria": [
+    "Understanding the Purpose of Sample Surveys",
+    "Understanding the Purpose of Experiments",
+    "Understanding the Purpose of Observational Studies",
+    "Explaining the Role of Randomization in Sample Surveys",
+    "Explaining the Role of Randomization in Experiments",
+    "Differentiating Among Study Types"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate understanding of the purpose of sample surveys.",
+      "Student shows minimal understanding of what a sample survey aims to achieve.",
+      "Student identifies the general purpose of sample surveys but struggles with specifics.",
+      "Student understands that sample surveys are used to gather information about a population.",
+      "Student accurately describes the purpose of sample surveys and can provide a simple example.",
+      "Student comprehensively explains the purpose of sample surveys, including their applications and limitations."
+    ],
+    [
+      "Student does not demonstrate understanding of the purpose of experiments.",
+      "Student shows minimal understanding of what an experiment aims to achieve.",
+      "Student identifies the general purpose of experiments but struggles with specifics.",
+      "Student understands that experiments are used to test cause-and-effect relationships.",
+      "Student accurately describes the purpose of experiments and can provide a simple example.",
+      "Student comprehensively explains the purpose of experiments, including the need for controlled variables and replication."
+    ],
+    [
+      "Student does not demonstrate understanding of the purpose of observational studies.",
+      "Student shows minimal understanding of what an observational study aims to achieve.",
+      "Student identifies the general purpose of observational studies but struggles with specifics.",
+      "Student understands that observational studies are used to observe and record behavior without intervention.",
+      "Student accurately describes the purpose of observational studies and can provide a simple example.",
+      "Student comprehensively explains the purpose of observational studies, including the ethical considerations and potential biases."
+    ],
+    [
+      "Student does not understand the role of randomization in sample surveys.",
+      "Student vaguely mentions randomization without explaining its importance.",
+      "Student attempts to describe randomization in sample surveys but lacks clarity.",
+      "Student explains that randomization helps to create a representative sample.",
+      "Student clearly explains how randomization reduces bias in sample surveys.",
+      "Student thoroughly explains the statistical rationale behind randomization in sample surveys and its impact on validity."
+    ],
+    [
+      "Student does not understand the role of randomization in experiments.",
+      "Student vaguely mentions randomization without explaining its importance.",
+      "Student attempts to describe randomization in experiments but lacks clarity.",
+      "Student explains that randomization helps to create equivalent groups in experiments.",
+      "Student clearly explains how randomization controls for confounding variables in experiments.",
+      "Student thoroughly explains the statistical rationale behind randomization in experiments and its impact on causal inference."
+    ],
+    [
+      "Student cannot differentiate among sample surveys, experiments, and observational studies.",
+      "Student shows minimal ability to distinguish among the three study types.",
+      "Student identifies some differences but confuses key aspects of each study type.",
+      "Student correctly identifies the key differences among the three study types.",
+      "Student clearly articulates the strengths and weaknesses of each study type.",
+      "Student provides nuanced explanations of when each study type is most appropriate, considering ethical and practical constraints."
+    ]
+  ]
+}

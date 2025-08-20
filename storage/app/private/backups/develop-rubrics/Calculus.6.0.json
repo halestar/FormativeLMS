@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately find derivatives of parametrically defined functions.",
+    "Competence in applying implicit differentiation to solve problems.",
+    "Skill in applying calculus concepts to real-world problems in physics, chemistry, and economics."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of parametric functions or derivatives.",
+      "Student attempts to find derivatives but makes significant errors in understanding parametric functions or derivative rules.",
+      "Student can find derivatives of simple parametric functions but struggles with more complex examples.",
+      "Student can find derivatives of most parametric functions with some minor errors.",
+      "Student accurately finds derivatives of a wide range of parametric functions with minimal errors.",
+      "Student expertly and accurately finds derivatives of complex parametric functions, demonstrating a strong understanding of the underlying concepts."
+    ],
+    [
+      "Student shows no understanding of implicit differentiation.",
+      "Student attempts implicit differentiation but demonstrates significant errors in the process.",
+      "Student can perform implicit differentiation on simple equations but struggles with more complex scenarios.",
+      "Student applies implicit differentiation to solve most problems but may make some algebraic errors.",
+      "Student accurately applies implicit differentiation to solve a variety of problems with minimal errors.",
+      "Student expertly and accurately applies implicit differentiation in complex and novel problems, demonstrating a deep understanding of the technique."
+    ],
+    [
+      "Student is unable to apply calculus concepts to any real-world problems.",
+      "Student attempts to apply calculus concepts but demonstrates a fundamental misunderstanding of the problem or relevant calculus techniques.",
+      "Student can apply calculus to solve very basic real-world problems with significant guidance.",
+      "Student can apply calculus to solve some real-world problems but struggles with complexity or interdisciplinary connections.",
+      "Student applies calculus concepts to solve a variety of real-world problems with reasonable accuracy and understanding.",
+      "Student expertly applies calculus concepts to solve complex, interdisciplinary real-world problems, demonstrating a sophisticated understanding of the relationship between calculus and other fields."
+    ]
+  ]
+}

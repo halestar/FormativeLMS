@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Ability to accurately set up a quadratic function that models the problem",
+    "Ability to interpret the components of the quadratic function (coefficients, constants) in the context of the physical problem.",
+    "Ability to use the quadratic function to solve for unknowns related to the physical problem (e.g., time, height, distance)."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student is unable to set up a function at all.",
+      "Student attempts to set up a function but it doesn't correctly model the problem and does not label the variables.",
+      "Student sets up a function with significant errors, and labels variables correctly",
+      "Student sets up a function with minor errors that models the problem, but does not simplify it. Variables are properly labeled",
+      "Student sets up a function that accurately models the problem, but does not simplify it. Variables are properly labeled",
+      "Student sets up a fully simplified function that accurately models the problem. Variables are properly labeled"
+    ],
+    [
+      "Student cannot identify any components or relate them to the problem.",
+      "Student identifies components but provides incorrect interpretations or struggles to connect them to the physical problem.",
+      "Student identifies most components but misinterprets some or provides vague connections to the physical problem.",
+      "Student correctly identifies and interprets most components, providing clear connections to the physical problem.",
+      "Student correctly identifies and interprets all components, providing clear and accurate connections to the physical problem.",
+      "Student provides insightful and nuanced interpretations of all components, demonstrating a deep understanding of their relationship to the physical problem."
+    ],
+    [
+      "Student cannot use the function to solve for any unknowns.",
+      "Student attempts to solve for unknowns but demonstrates a lack of understanding of the appropriate methods or makes significant errors.",
+      "Student solves for some unknowns with errors or uses inefficient methods.",
+      "Student solves for most unknowns correctly, using appropriate methods with minor errors.",
+      "Student solves for all unknowns correctly, using appropriate methods with clear and accurate calculations.",
+      "Student demonstrates mastery in solving for unknowns, employing efficient methods and providing clear explanations of the problem-solving process."
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    "Accuracy and completeness of the description of the birth stage",
+    "Accuracy and completeness of the description of the growth stage",
+    "Accuracy and completeness of the description of the aging stage",
+    "Accuracy and completeness of the description of the death stage",
+    "Ability to explain the cyclical nature of birth, growth, aging, and death."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "The student does not describe the birth stage or provides inaccurate information.",
+      "The student attempts to describe the birth stage but provides incomplete or partially inaccurate information.",
+      "The student describes the birth stage with some accuracy but misses key details.",
+      "The student accurately describes the birth stage, including key details about the beginning of life.",
+      "The student provides a comprehensive and accurate description of the birth stage, including variations and complexities.",
+      "The student provides an exceptionally detailed and accurate description of the birth stage, demonstrating a deep understanding of the biological processes involved."
+    ],
+    [
+      "The student does not describe the growth stage or provides inaccurate information.",
+      "The student attempts to describe the growth stage but provides incomplete or partially inaccurate information.",
+      "The student describes the growth stage with some accuracy but misses key details.",
+      "The student accurately describes the growth stage, including key details about development and maturation.",
+      "The student provides a comprehensive and accurate description of the growth stage, including different rates and patterns of growth.",
+      "The student provides an exceptionally detailed and accurate description of the growth stage, demonstrating a deep understanding of the factors influencing growth and development."
+    ],
+    [
+      "The student does not describe the aging stage or provides inaccurate information.",
+      "The student attempts to describe the aging stage but provides incomplete or partially inaccurate information.",
+      "The student describes the aging stage with some accuracy but misses key details.",
+      "The student accurately describes the aging stage, including key details about the changes that occur over time.",
+      "The student provides a comprehensive and accurate description of the aging stage, including variations in the aging process among different organisms.",
+      "The student provides an exceptionally detailed and accurate description of the aging stage, demonstrating a deep understanding of the biological mechanisms underlying aging."
+    ],
+    [
+      "The student does not describe the death stage or provides inaccurate information.",
+      "The student attempts to describe the death stage but provides incomplete or partially inaccurate information.",
+      "The student describes the death stage with some accuracy but misses key details.",
+      "The student accurately describes the death stage, including key details about the end of life and its impact on ecosystems.",
+      "The student provides a comprehensive and accurate description of the death stage, including the processes of decomposition and nutrient cycling.",
+      "The student provides an exceptionally detailed and accurate description of the death stage, demonstrating a deep understanding of the ecological significance of death."
+    ],
+    [
+      "The student does not recognize the cyclical nature of the processes.",
+      "The student mentions the stages but does not explain how they are connected.",
+      "The student attempts to explain the cycle but shows a limited understanding of the connections.",
+      "The student accurately explains how birth, growth, aging, and death form a cycle.",
+      "The student thoroughly explains the cyclical nature, including the flow of energy and matter through ecosystems.",
+      "The student provides a nuanced explanation of the cycle, including the role of environmental factors and evolutionary pressures."
+    ]
+  ]
+}

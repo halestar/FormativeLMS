@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of the Pythagorean Theorem",
+    "Ability to explain a proof of the Pythagorean Theorem",
+    "Ability to explain a proof of the converse of the Pythagorean Theorem",
+    "Clarity and precision of explanation"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of the Pythagorean Theorem or its converse.",
+      "Demonstrates a limited understanding of the Pythagorean Theorem. Struggles to explain the theorem or its converse.",
+      "Demonstrates a basic understanding of the Pythagorean Theorem. Can state the theorem but struggles to explain it fully or its converse.",
+      "Demonstrates a satisfactory understanding of the Pythagorean Theorem. Can explain the theorem and its converse with some minor inaccuracies.",
+      "Demonstrates a strong understanding of the Pythagorean Theorem. Can accurately explain the theorem and its converse with clear reasoning.",
+      "Demonstrates a comprehensive understanding of the Pythagorean Theorem. Can explain the theorem and its converse in detail, providing clear and logical reasoning and examples."
+    ],
+    [
+      "Unable to explain any proof of the Pythagorean Theorem.",
+      "Attempts to explain a proof but is unable to provide a coherent explanation or correct steps.",
+      "Can identify some elements of a proof but struggles to explain the logical progression.",
+      "Explains a proof with some inaccuracies or missing steps in the logical reasoning.",
+      "Explains a proof accurately, demonstrating a clear understanding of the logical progression.",
+      "Presents a complete and accurate proof of the Pythagorean Theorem, clearly explaining each step and its logical justification. May also offer alternative proofs."
+    ],
+    [
+      "Unable to explain any proof of the converse of the Pythagorean Theorem.",
+      "Attempts to explain a proof but is unable to provide a coherent explanation or correct steps.",
+      "Can identify some elements of a proof but struggles to explain the logical progression.",
+      "Explains a proof with some inaccuracies or missing steps in the logical reasoning.",
+      "Explains a proof accurately, demonstrating a clear understanding of the logical progression.",
+      "Presents a complete and accurate proof of the converse of the Pythagorean Theorem, clearly explaining each step and its logical justification. May also offer alternative proofs."
+    ],
+    [
+      "Explanation is unclear, disorganized, and lacks precision.",
+      "Explanation is difficult to follow and lacks clarity in several areas.",
+      "Explanation is understandable but could be clearer and more precise in some areas.",
+      "Explanation is generally clear and precise, with only minor areas for improvement.",
+      "Explanation is clear, precise, and easy to understand.",
+      "Explanation is exceptionally clear, precise, and demonstrates a deep understanding of the concepts. Uses appropriate mathematical terminology effectively."
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of well-being promotion by family",
+    "Identification of well-being promotion by friends",
+    "Clarity and accuracy of examples"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No identification of how family promotes well-being.",
+      "Identifies one limited way family might promote well-being with no explanation.",
+      "Identifies one basic way family promotes well-being with a vague explanation.",
+      "Identifies two clear ways family promotes well-being with some explanation.",
+      "Identifies three or more clear ways family promotes well-being with good explanations.",
+      "Identifies multiple, detailed ways family promotes well-being, providing insightful explanations and examples."
+    ],
+    [
+      "No identification of how friends promote well-being.",
+      "Identifies one limited way friends might promote well-being with no explanation.",
+      "Identifies one basic way friends promote well-being with a vague explanation.",
+      "Identifies two clear ways friends promote well-being with some explanation.",
+      "Identifies three or more clear ways friends promote well-being with good explanations.",
+      "Identifies multiple, detailed ways friends promote well-being, providing insightful explanations and examples."
+    ],
+    [
+      "Examples are absent or completely irrelevant.",
+      "Provides irrelevant examples that do not relate to the ways family and friends promote well-being.",
+      "Examples are vague, difficult to understand, or contain inaccuracies.",
+      "Examples are generally clear and accurate but lack detail.",
+      "Examples are clear, accurate, and provide sufficient detail to support claims.",
+      "Examples are exceptionally clear, insightful, and demonstrate a deep understanding of how family and friends promote well-being."
+    ]
+  ]
+}

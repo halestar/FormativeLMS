@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Potential Harm: Assesses the student's ability to identify potential dangers associated with common substances and activities if not used correctly.",
+    "Application of Safety Measures: This criterion evaluates the student's ability to suggest appropriate safety measures to mitigate risks associated with potentially harmful substances or activities.",
+    "Analysis of Real-World Scenarios: This criterion measures the student's ability to analyze real-world situations and determine whether substances or activities are being used safely."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Demonstrates no understanding of how common items can be harmful if misused.",
+      "Shows minimal awareness; struggles to identify potential hazards with common items.",
+      "Identifies some hazards but misses important details or provides superficial explanations.",
+      "Recognizes multiple hazards and provides adequate explanations for potential harm.",
+      "Clearly identifies and explains a wide range of potential hazards, demonstrating good understanding.",
+      "Exemplifies comprehensive understanding by detailing nuanced potential hazards and safe usage practices, offering insightful examples."
+    ],
+    [
+      "Unable to suggest any safety measures to prevent harm.",
+      "Suggests irrelevant or ineffective safety measures.",
+      "Offers basic safety measures with limited detail or understanding.",
+      "Proposes several relevant safety measures that address some potential risks.",
+      "Recommends well-thought-out safety measures that comprehensively address potential hazards.",
+      "Proposes innovative and highly effective safety measures, demonstrating an advanced understanding of risk mitigation."
+    ],
+    [
+      "Unable to analyze or comment on the safety of real-world scenarios.",
+      "Provides inaccurate or irrelevant analyses of real-world scenarios.",
+      "Identifies obvious safety issues but misses subtle or complex risks.",
+      "Provides generally accurate analyses of safety in real-world scenarios.",
+      "Offers detailed and accurate analyses, identifying both obvious and subtle safety risks.",
+      "Demonstrates exceptional analytical skills, offering insightful commentary and practical solutions for enhancing safety in complex real-world scenarios."
+    ]
+  ]
+}

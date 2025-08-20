@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy of Correlation Coefficient Calculation",
+    "Interpretation of the Correlation Coefficient",
+    "Use of Technology"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to calculate the correlation coefficient or the method used is fundamentally flawed.",
+      "Incorrect calculation of the correlation coefficient with significant errors, demonstrating a lack of understanding of the formula or technology used.",
+      "Calculation contains some errors, but shows a basic understanding of how to use technology to find the correlation coefficient.",
+      "The correlation coefficient is mostly correct, with only minor errors in calculation or use of technology.",
+      "The correlation coefficient is calculated correctly using technology.",
+      "The correlation coefficient is calculated correctly using technology, and the student demonstrates a clear understanding of the process and potential sources of error."
+    ],
+    [
+      "No interpretation is provided, or the interpretation shows a complete misunderstanding of what the correlation coefficient means.",
+      "The interpretation is very superficial and does not accurately describe the strength or direction of the linear relationship.",
+      "The interpretation mentions the direction (positive or negative) but does not accurately assess the strength of the relationship.",
+      "The interpretation correctly identifies the direction and provides a general assessment of the strength of the relationship but lacks specific details.",
+      "Accurate interpretation of the correlation coefficient, including both direction and strength of the linear relationship, in the context of the data.",
+      "Provides a nuanced and insightful interpretation of the correlation coefficient, relating it to the context of the data and discussing potential limitations or confounding factors."
+    ],
+    [
+      "No technology is used, or the attempt to use technology is completely unsuccessful.",
+      "Demonstrates difficulty using the technology, requiring significant assistance to perform the calculation.",
+      "Can use the technology to perform the calculation but struggles with selecting the appropriate function or interpreting the output.",
+      "Uses technology effectively to calculate the correlation coefficient, with minimal errors or need for assistance.",
+      "Uses technology proficiently to calculate the correlation coefficient and can explain the steps taken.",
+      "Demonstrates mastery in using technology for correlation coefficient calculation, capable of troubleshooting issues and adapting the method for different data sets."
+    ]
+  ]
+}

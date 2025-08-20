@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Genetic Variation and Trait Probability",
+    "Use of Evidence and Reasoning",
+    "Clarity and Communication"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No understanding of genetic variation or its impact on survival and reproduction probability.",
+      "Demonstrates a minimal understanding of genetic variation, but does not connect it to survival and reproduction.",
+      "Identifies genetic variation and its role, but explanation lacks depth and clarity.",
+      "Explains how genetic variations can affect survival and reproduction, providing a basic example.",
+      "Clearly explains how genetic variations increase the probability of survival and reproduction in a specific environment with relevant examples.",
+      "Provides a comprehensive explanation of the relationship between genetic variations, environmental factors, and the increased probability of survival and reproduction, using detailed examples and reasoning."
+    ],
+    [
+      "No evidence provided or reasoning used to support claims.",
+      "Provides minimal evidence or reasoning, which is irrelevant or inaccurate.",
+      "Includes some evidence, but it is weak or not clearly connected to the explanation.",
+      "Uses relevant evidence and reasoning to support the explanation, but connections may be somewhat unclear.",
+      "Effectively uses evidence and reasoning to support the explanation, clearly demonstrating the relationship between genetic variation and survival\/reproduction.",
+      "Masterfully uses a variety of evidence and logical reasoning to construct a compelling and well-supported explanation, thoroughly addressing the relationship between genetic variation, environmental pressures, and survival\/reproduction probability."
+    ],
+    [
+      "Explanation is unclear, disorganized, and difficult to understand.",
+      "Explanation is somewhat unclear and disorganized with significant gaps in logic.",
+      "Explanation is understandable, but lacks clarity and organization in certain areas.",
+      "Explanation is clear and organized, using appropriate language and terminology.",
+      "Explanation is exceptionally clear, concise, and well-organized, effectively communicating the concepts.",
+      "Explanation is presented with exceptional clarity, precision, and sophistication, demonstrating a deep understanding of the concepts and communicating them effectively to the audience."
+    ]
+  ]
+}

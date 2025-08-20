@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Effectiveness of objecting to teasing or bullying.",
+    "Clarity and Reason in Objection",
+    "Support and Advocacy for the Target"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not object to teasing or bullying; may participate or encourage it.",
+      "Objects weakly or inconsistently, with little impact on the situation.",
+      "Objects passively, such as stating disagreement without actively intervening or supporting the target.",
+      "Objects directly to the teasing or bullying, but without clear reasoning or support.",
+      "Clearly and directly objects to the teasing or bullying, providing reasons why it is inappropriate and offering support to the target.",
+      "Forcefully and effectively objects to teasing or bullying, challenges the behavior, and advocates for a respectful and inclusive environment. Actively supports the person being teased and educates others on the harm caused by such behavior."
+    ],
+    [
+      "Objection is unclear, absent, or does not address the nature of the teasing.",
+      "Objection lacks a clear explanation of why the teasing or bullying is inappropriate.",
+      "Objection mentions that the teasing is wrong but does not elaborate or provide specific reasons.",
+      "Objection clearly states why the teasing is wrong, referencing perceived personal characteristics or sexual orientation, but may lack depth.",
+      "Objection provides a well-reasoned explanation of why teasing based on personal characteristics or sexual orientation is harmful and unacceptable.",
+      "Objection demonstrates a sophisticated understanding of the impact of teasing and bullying on individuals and communities, and articulates a compelling argument for respect and inclusion."
+    ],
+    [
+      "Provides no support or advocacy for the target of the teasing or bullying.",
+      "Offers minimal support to the target, such as a brief expression of sympathy.",
+      "Offers passive support to the target, such as privately acknowledging their distress.",
+      "Actively supports the target by standing with them and speaking out against the teasing or bullying.",
+      "Demonstrates strong advocacy for the target by actively intervening, offering comfort, and seeking help from trusted adults or resources.",
+      "Leads efforts to support the target and promote a culture of empathy and respect within the peer group or community, organizing initiatives to address bullying and discrimination."
+    ]
+  ]
+}

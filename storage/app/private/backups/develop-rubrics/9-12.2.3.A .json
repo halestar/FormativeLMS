@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Identification of Influences",
+    "Description of Influences",
+    "Examples and Evidence"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not identify any financial, political, social, or legal influences on substance use.",
+      "Identifies only one type of influence (financial, political, social, or legal) on substance use, with limited accuracy.",
+      "Identifies two types of influences on substance use, with some inaccuracies or omissions.",
+      "Identifies three types of influences on substance use, with minor inaccuracies or omissions.",
+      "Identifies all four types of influences (financial, political, social, and legal) on substance use with reasonable accuracy.",
+      "Clearly and accurately identifies all four types of influences (financial, political, social, and legal) on substance use."
+    ],
+    [
+      "Provides no description of how financial, political, social, and legal factors influence substance use.",
+      "Provides a superficial description of one or two influences; lacks depth and clarity.",
+      "Describes at least two influences with some depth, but explanations may be unclear or incomplete.",
+      "Adequately describes three influences, showing a basic understanding of their impact on substance use.",
+      "Describes all four influences with good detail, explaining how each factor affects substance use.",
+      "Provides a thorough and insightful description of all four influences, demonstrating a strong understanding of their complex interactions and impact on substance use."
+    ],
+    [
+      "Does not provide any examples or evidence to support the description of influences.",
+      "Provides one weak or irrelevant example related to substance use influences.",
+      "Provides a few examples, but they may be generic or not clearly linked to the described influences.",
+      "Provides relevant examples for at least three influences, strengthening the explanation.",
+      "Provides strong and specific examples for all four influences, demonstrating a clear understanding of real-world applications.",
+      "Provides compelling, well-explained examples and evidence for all four influences, showing sophisticated insight and critical thinking."
+    ]
+  ]
+}

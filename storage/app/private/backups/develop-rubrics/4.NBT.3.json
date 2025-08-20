@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Place Value",
+    "Rounding Accuracy",
+    "Explanation of Rounding Process"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student does not demonstrate an understanding of place value.",
+      "Student shows limited understanding of place value concepts; struggles to identify place values beyond the ones and tens places.",
+      "Student demonstrates a basic understanding of place value, but may make errors when identifying places in larger numbers or when explaining the value of a digit.",
+      "Student demonstrates a solid understanding of place value for whole numbers up to the millions place, and can explain the value of a digit correctly most of the time.",
+      "Student demonstrates a strong understanding of place value, accurately identifying and explaining the value of digits in multi-digit whole numbers.",
+      "Student demonstrates a comprehensive and nuanced understanding of place value, accurately identifying and explaining the value of digits in multi-digit whole numbers, and can apply this understanding to complex problems."
+    ],
+    [
+      "Student is unable to round numbers or demonstrates no understanding of rounding rules.",
+      "Student attempts to round numbers but consistently makes errors, indicating a lack of understanding of rounding rules.",
+      "Student can round numbers to the nearest ten or hundred with some accuracy, but struggles with rounding to other places or with larger numbers.",
+      "Student can accurately round numbers to the nearest ten, hundred, or thousand, but may make occasional errors with larger numbers or less common place values.",
+      "Student accurately rounds multi-digit whole numbers to any place value with few errors, demonstrating a strong grasp of rounding concepts.",
+      "Student consistently and accurately rounds multi-digit whole numbers to any place value, demonstrating a deep understanding of rounding concepts and their application."
+    ],
+    [
+      "Student cannot explain the process of rounding or why it is used.",
+      "Student attempts to explain the rounding process but provides an unclear or inaccurate explanation.",
+      "Student can explain the basic steps of rounding but struggles to articulate the reasoning behind them.",
+      "Student can adequately explain the process of rounding and the general reasoning behind it.",
+      "Student clearly and concisely explains the process of rounding, including the rules and the reasoning behind them.",
+      "Student provides a thorough and insightful explanation of the rounding process, including the rules, the reasoning, and the practical applications of rounding in various contexts."
+    ]
+  ]
+}

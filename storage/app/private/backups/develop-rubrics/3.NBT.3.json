@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Place Value",
+    "Accuracy of Calculations",
+    "Application to Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Does not demonstrate any understanding of place value when multiplying by multiples of 10.",
+      "Demonstrates limited understanding of place value; struggles to multiply by multiples of 10.",
+      "Demonstrates some understanding of place value, but makes frequent errors when multiplying by multiples of 10.",
+      "Demonstrates a general understanding of place value and can multiply by multiples of 10 with occasional errors.",
+      "Demonstrates a solid understanding of place value and can accurately multiply by multiples of 10.",
+      "Demonstrates a comprehensive understanding of place value and can accurately and efficiently multiply by multiples of 10, explaining the reasoning."
+    ],
+    [
+      "Calculations are consistently incorrect.",
+      "Calculations are frequently incorrect with no clear strategy.",
+      "Calculations are often incorrect, but some attempts show understanding.",
+      "Calculations are mostly correct, with occasional errors.",
+      "Calculations are consistently correct with clear steps shown.",
+      "Calculations are always correct, efficient, and clearly demonstrate understanding of the underlying mathematical principles."
+    ],
+    [
+      "Unable to apply multiplication of multiples of 10 to solve problems.",
+      "Struggles to apply multiplication of multiples of 10 to solve problems; attempts are often irrelevant.",
+      "Can sometimes apply multiplication of multiples of 10 to solve simple problems with assistance.",
+      "Can apply multiplication of multiples of 10 to solve routine problems.",
+      "Can apply multiplication of multiples of 10 to solve a variety of problems.",
+      "Can apply multiplication of multiples of 10 to solve complex problems, demonstrating adaptability and strategic thinking."
+    ]
+  ]
+}

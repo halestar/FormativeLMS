@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Planning the Investigation",
+    "Conducting the Investigation and Data Collection",
+    "Evidence and Explanation",
+    "Crosscutting Concepts: Cause and Effect"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No clear plan is evident, or the proposed plan is not related to the phenomenon being investigated.",
+      "The plan is incomplete or shows a limited understanding of how to investigate the relationship between electric current and magnetic fields.",
+      "The plan identifies some relevant variables but lacks a clear strategy for controlling them or collecting sufficient data.",
+      "The plan is generally sound, identifying relevant variables and suggesting a method for data collection, but may have minor flaws.",
+      "The plan is well-defined, identifying key variables, controls, and a clear method for data collection. It demonstrates a good understanding of experimental design.",
+      "The plan is comprehensive, demonstrating a sophisticated understanding of experimental design. It includes detailed procedures, controls for extraneous variables, and a strategy for collecting precise and accurate data to provide strong evidence."
+    ],
+    [
+      "No attempt to conduct the investigation, or data collected is irrelevant or non-existent.",
+      "The investigation is started, but data collected is minimal, inaccurate, or does not address the investigation's purpose.",
+      "Data collection is attempted, but there are significant errors in the process, affecting the reliability of the data.",
+      "The investigation is conducted, and some relevant data is collected, but there may be inconsistencies or gaps in the data set.",
+      "The investigation is carried out effectively, with relevant data collected systematically and accurately.",
+      "The investigation is carried out with precision and attention to detail, ensuring reliable and comprehensive data collection. The student anticipates and addresses potential sources of error."
+    ],
+    [
+      "No evidence is presented, or the explanation is completely unrelated to the investigation's purpose.",
+      "Evidence is minimal and does not support the claim, or the explanation is vague and lacks scientific reasoning.",
+      "Evidence is presented, but the connection to the claim is weak, and the explanation contains inaccuracies or misconceptions.",
+      "Evidence is relevant but may not fully support the claim. The explanation shows some understanding of the relationship between electric current and magnetic fields.",
+      "Evidence clearly supports the claim, and the explanation provides a logical and scientifically accurate connection between the evidence and the phenomenon.",
+      "Evidence is compelling and provides strong support for the claim. The explanation demonstrates a deep and nuanced understanding of the underlying scientific principles, including the relationship between electric current, magnetic fields, and energy transfer."
+    ],
+    [
+      "Fails to identify cause and effect or confuses correlation with causation.",
+      "Identifies a potential cause and effect but provides no evidence or reasoning to support the relationship.",
+      "Attempts to differentiate between cause and correlation, but the explanation is superficial or contains flaws.",
+      "Provides evidence to support a cause-and-effect relationship but does not fully address alternative explanations or confounding factors.",
+      "Clearly differentiates between cause and correlation, providing empirical evidence and logical reasoning to support claims about specific causes and effects.",
+      "Demonstrates a sophisticated understanding of cause-and-effect relationships, considering multiple factors and potential feedback loops. The explanation is thorough, well-supported, and addresses potential limitations."
+    ]
+  ]
+}

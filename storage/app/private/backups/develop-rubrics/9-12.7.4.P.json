@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Accuracy and completeness of steps described for breast self-exam.",
+    "Accuracy and completeness of steps described for testicular self-exam.",
+    "Clarity and organization of the description."
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "No attempt to describe the steps or provides completely inaccurate information.",
+      "Describes one or two steps with limited accuracy.",
+      "Describes some of the steps with some inaccuracies or omissions.",
+      "Describes most of the steps accurately but misses a minor detail or two.",
+      "Describes all key steps accurately with only minor omissions.",
+      "Describes all steps accurately and comprehensively, demonstrating a thorough understanding."
+    ],
+    [
+      "No attempt to describe the steps or provides completely inaccurate information.",
+      "Describes one or two steps with limited accuracy.",
+      "Describes some of the steps with some inaccuracies or omissions.",
+      "Describes most of the steps accurately but misses a minor detail or two.",
+      "Describes all key steps accurately with only minor omissions.",
+      "Describes all steps accurately and comprehensively, demonstrating a thorough understanding."
+    ],
+    [
+      "Description is disorganized and unclear, making it difficult to understand the steps.",
+      "Description lacks organization and clarity, making it somewhat difficult to follow.",
+      "Description is somewhat organized but lacks clarity in certain areas.",
+      "Description is generally clear and organized, with minor areas for improvement.",
+      "Description is clear, well-organized, and easy to follow.",
+      "Description is exceptionally clear, well-organized, and presented in a logical and concise manner."
+    ]
+  ]
+}

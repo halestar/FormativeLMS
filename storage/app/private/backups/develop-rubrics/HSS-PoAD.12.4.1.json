@@ -1,0 +1,50 @@
+{
+  "criteria": [
+    "Understanding of Legislative Branch Eligibility and Terms",
+    "Knowledge of Election to Office and Impeachment Proceedings",
+    "Understanding of the Vice President's Role and Enumerated Legislative Powers",
+    "Knowledge of the Legislative Process (How a Bill Becomes Law)"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the eligibility requirements for representatives and senators, or their respective term lengths.",
+      "Student shows minimal understanding of either the eligibility requirements or term lengths for members of the legislative branch.",
+      "Student demonstrates a partial understanding of the eligibility requirements and\/or term lengths, but with significant gaps or inaccuracies.",
+      "Student accurately describes the eligibility requirements and term lengths for either representatives or senators, but not both.",
+      "Student accurately describes the eligibility requirements and term lengths for both representatives and senators.",
+      "Student accurately and thoroughly explains the eligibility requirements and term lengths for both representatives and senators, and can compare and contrast the differences."
+    ],
+    [
+      "Student shows no understanding of how members of the legislative branch are elected or the roles of the House and Senate in impeachment.",
+      "Student demonstrates minimal understanding of either the election process or the impeachment process.",
+      "Student shows a partial understanding of the election and\/or impeachment processes, but with significant inaccuracies.",
+      "Student accurately describes either the election process for members of Congress or the roles of the House and Senate in impeachment proceedings.",
+      "Student accurately describes both the election process for members of Congress and the roles of the House and Senate in impeachment proceedings.",
+      "Student provides a comprehensive explanation of the election process and impeachment proceedings, including the specific powers and responsibilities of each chamber."
+    ],
+    [
+      "Student demonstrates no understanding of the Vice President's role in the legislative branch or the concept of enumerated legislative powers.",
+      "Student shows minimal understanding of either the Vice President's role or enumerated legislative powers.",
+      "Student demonstrates a limited understanding of the Vice President's role and\/or enumerated legislative powers, with significant gaps or inaccuracies.",
+      "Student can accurately describe either the Vice President's role in the Senate or provide examples of enumerated legislative powers.",
+      "Student accurately describes the Vice President's role in the Senate and provides several examples of enumerated legislative powers.",
+      "Student comprehensively explains the Vice President's role as President of the Senate and thoroughly discusses the concept of enumerated legislative powers, providing specific examples and explaining their significance."
+    ],
+    [
+      "Student demonstrates no understanding of the process by which a bill becomes a law.",
+      "Student identifies only one or two steps in the legislative process.",
+      "Student identifies several steps in the legislative process, but with significant omissions or inaccuracies.",
+      "Student accurately describes the basic steps of the legislative process (introduction, committee review, floor debate, voting).",
+      "Student accurately and sequentially describes the legislative process, including the roles of both the House and Senate.",
+      "Student thoroughly explains the legislative process, including potential points of failure (e.g., veto, filibuster) and the role of conference committees in resolving differences between House and Senate versions of a bill."
+    ]
+  ]
+}

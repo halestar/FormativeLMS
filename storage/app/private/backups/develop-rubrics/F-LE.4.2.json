@@ -1,0 +1,41 @@
+{
+  "criteria": [
+    "Understanding of Logarithmic Definition",
+    "Ability to Translate Between Logarithmic Forms",
+    "Application of Logarithms in Problem Solving"
+  ],
+  "points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "descriptions": [
+    [
+      "Student demonstrates no understanding of the definition of logarithms.",
+      "Student shows a minimal understanding of logarithms and struggles to recall the definition.",
+      "Student can state the definition of logarithms but has difficulty applying it.",
+      "Student understands the definition of logarithms and can apply it in simple cases.",
+      "Student demonstrates a solid understanding of the logarithmic definition and can apply it to a variety of problems.",
+      "Student exhibits mastery of the logarithmic definition, applying it fluently and accurately to complex problems and explaining its significance."
+    ],
+    [
+      "Student is unable to translate between logarithmic forms.",
+      "Student attempts to translate but makes significant errors and shows confusion between bases.",
+      "Student can sometimes translate between logarithmic forms but struggles with different bases.",
+      "Student can translate between logarithmic forms in most cases with some minor errors or confusion with bases.",
+      "Student consistently translates accurately between logarithmic forms, including different bases, with minimal errors.",
+      "Student flawlessly translates between logarithmic forms, demonstrating a deep understanding of base conversions and can explain the mathematical reasoning behind each step."
+    ],
+    [
+      "Student does not attempt to use logarithms to solve problems.",
+      "Student attempts to use logarithms but is unable to set up the problem correctly or solve it.",
+      "Student can sometimes apply logarithms to solve problems but makes frequent errors.",
+      "Student applies logarithms to solve problems with some accuracy but may struggle with more complex equations.",
+      "Student accurately applies logarithms to solve a variety of problems, including those with different bases and complexities.",
+      "Student expertly applies logarithms to solve complex problems, exhibiting a strong problem-solving strategy and insightful application of logarithmic properties."
+    ]
+  ]
+}
