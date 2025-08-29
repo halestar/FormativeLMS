@@ -3,8 +3,8 @@
 namespace App\Traits;
 
 use App\Classes\Settings\EmailSetting;
-use App\Mail\ResetPasswordMail;
 use App\Models\Utilities\SystemSetting;
+use Illuminate\Mail\Attachment;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Support\Facades\Blade;
@@ -57,7 +57,15 @@ trait IsSchoolEmail
 	 */
 	public function attachments(): array
 	{
-		return [];
+		$files = $this->emailSetting->workFiles()
+		                            ->shown()
+		                            ->get();
+		$attachments = [];
+		foreach($files as $file)
+			$attachments[] = Attachment::fromData(fn() => $file->storageInstance()
+			                                                   ->fileContents($file), $file->name)
+			                           ->withMime($file->mime);
+		return $attachments;
 	}
 	
 	public static function getSetting(): EmailSetting

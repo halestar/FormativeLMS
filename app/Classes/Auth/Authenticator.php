@@ -5,8 +5,6 @@ namespace App\Classes\Auth;
 use App\Models\People\Person;
 use App\Models\Utilities\SystemSetting;
 use Carbon\Carbon;
-use Illuminate\Contracts\View\View;
-use Illuminate\Support\Facades\Log;
 
 abstract class Authenticator
 {
@@ -21,12 +19,12 @@ abstract class Authenticator
 			'locked' => false,
 			'locked_until' => null,
 		];
-
-	protected function getPasswordSettings(): array
+	
+	public function getPasswordSettings(): array
 	{
 		$settingKey = "authenticators." . static::driverName() . "." . $this->user->id;
 		$setting = SystemSetting::find($settingKey);
-		if($setting && is_array($setting->value) && isset($setting->value['password']))
+		if($setting && is_array($setting->value))
 			return $setting->value;
 		return $this->settingSkeleton;
 	}

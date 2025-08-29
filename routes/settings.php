@@ -20,5 +20,12 @@ Route::get('/school/settings/name/{role}', [SchoolSettingsController::class, 'na
 Route::get('/school/settings/emails', SchoolEmailsEditor::class)->name('school.emails')->middleware('can:school.emails');
 
 //storage settings
-Route::get('/work-files/{work_file}', [\App\Http\Controllers\Storage\StorageController::class, 'downloadWorkFile'])
-     ->name('work.file.get');
+Route::get('/work-files/private/{work_file}',
+	[\App\Http\Controllers\Storage\StorageController::class, 'downloadWorkFile'])
+     ->name('work.file.private')
+     ->whereUuid('work_file');
+
+Route::get('/work-files/{work_file}',
+	[\App\Http\Controllers\Storage\StorageController::class, 'downloadPublicWorkFile'])
+     ->name('work.file.public')
+     ->whereUuid('work_file');

@@ -8000,7 +8000,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _popperjs_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @popperjs/core */ "./node_modules/@popperjs/core/lib/index.js");
 /* harmony import */ var _popperjs_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @popperjs/core */ "./node_modules/@popperjs/core/lib/popper.js");
 /*!
-  * Bootstrap v5.3.7 (https://getbootstrap.com/)
+  * Bootstrap v5.3.8 (https://getbootstrap.com/)
   * Copyright 2011-2025 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
@@ -8644,7 +8644,7 @@ class Config {
  * Constants
  */
 
-const VERSION = '5.3.7';
+const VERSION = '5.3.8';
 
 /**
  * Class definition
@@ -9850,9 +9850,6 @@ class Dropdown extends BaseComponent {
     this._element.setAttribute('aria-expanded', 'false');
     Manipulator.removeDataAttribute(this._menu, 'popper');
     EventHandler.trigger(this._element, EVENT_HIDDEN$5, relatedTarget);
-
-    // Explicitly return focus to the trigger element
-    this._element.focus();
   }
   _getConfig(config) {
     config = super._getConfig(config);

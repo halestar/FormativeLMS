@@ -4,9 +4,10 @@ namespace App\Classes\Auth;
 
 use App\Models\People\Person;
 use Carbon\Carbon;
-use Illuminate\Contracts\View\View;
+use Google\Service\Drive;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Log;
 use Laravel\Socialite\Facades\Socialite;
 
 class GoogleAuthenticator extends Authenticator
@@ -48,8 +49,36 @@ class GoogleAuthenticator extends Authenticator
 	public function redirect(): \Illuminate\Http\RedirectResponse | \Symfony\Component\HttpFoundation\RedirectResponse | null
 	{
 		return Socialite::driver('google')
-			->with(['login_hint' => $this->user->system_email])
+			->with(
+				[
+					'login_hint' => $this->user->system_email,
+					'prompt' => 'consent',
+					'access_type' => 'offline'
+				])
+			->scopes([Drive::DRIVE])
 			->redirect();
+	}
+	
+	public function shouldRefresh(): bool
+	{
+		$settings = $this->getPasswordSettings();
+		return Carbon::parse($settings['oauth_expires_in'])
+		             ->isPast();
+	}
+	
+	public function refreshToken(): void
+	{
+		if(!$this->shouldRefresh()) return;
+		$settings = $this->getPasswordSettings();
+		if(!$settings['oauth_refresh_token']) return;
+		$oldRefreshToken = $settings['oauth_refresh_token'];
+		$newToken = Socialite::driver('google')
+		                     ->refreshToken($oldRefreshToken);
+		if(!$newToken->token || !$newToken->refreshToken) return;
+		$settings['oauth_token'] = $newToken->token;
+		$settings['oauth_refresh_token'] = $newToken->refreshToken;
+		$settings['oauth_expires_in'] = now()->addSeconds($newToken->expiresIn)->timestamp;
+		$this->setPasswordSettings($settings);
 	}
 
 	public static function callback(): \Illuminate\Http\RedirectResponse | \Symfony\Component\HttpFoundation\RedirectResponse | null
@@ -62,12 +91,16 @@ class GoogleAuthenticator extends Authenticator
 			//if there's no user, we go back to the login place
 			return redirect()->route('login');
 		}
+		Log::debug(print_r($gUser, true));
 		//since the user exists, save some data
 		$authDriver = $user->auth_driver;
 		$settings = $authDriver->getPasswordSettings();
 		$settings['google_id'] = $gUser->id;
 		$settings['avatar'] = $gUser->avatar;
 		$settings['avatar_original'] = $gUser->avatar_original;
+		$settings['oauth_token'] = $gUser->token;
+		$settings['oauth_refresh_token'] = $gUser->refreshToken;
+		$settings['oauth_expires_in'] = now()->addSeconds($gUser->expiresIn)->timestamp;
 		$authDriver->setPasswordSettings($settings);
 		//do we have a cookie that remembers us?
 		$rememberMe = Cookie::has('remember-me');

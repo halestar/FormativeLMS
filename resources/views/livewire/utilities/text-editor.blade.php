@@ -3,6 +3,18 @@
 </div>
 @script
 <script>
+    if (tinymce.activeEditor !== null)
+        tinymce.EditorManager.execCommand('mceRemoveEditor', false, 'lms-text-editor');
+
+    // prevent all the defaults first
+    window.addEventListener("dragover", function (e) {
+        e = e || event;
+        e.preventDefault();
+    }, false);
+    window.addEventListener("drop", function (e) {
+        e = e || event;
+        e.preventDefault();
+    }, false);
     $wire.on('text-editor.insert-image', (event) => tinymce.activeEditor.execCommand('selectLmsImage', event.work_file));
 
     tinymce.PluginManager.add('loadlmsimg', function (editor, url) {
@@ -18,7 +30,8 @@
                                 multiple: false,
                                 mimeTypes: ['image/jpeg', 'image/png', 'image/gif', 'image/svg+xml', 'image/webp', 'image/bmp', 'image/tiff',],
                                 allowUpload: true,
-                                canSelectFolders: false
+                                canSelectFolders: false,
+                                cb_instance: 'text-editor'
                             }
                     });
             },
@@ -87,6 +100,7 @@
                 'searchreplace', 'wordcount', 'visualblocks', 'visualchars', 'code', 'fullscreen', 'insertdatetime',
                 'media', 'table', 'emoticons', 'help', 'loadlmsimg'
             ],
+        toolbar_mode: 'wrap',
         toolbar: 'undo redo | styles | bold italic | alignleft aligncenter alignright alignjustify | ' +
             'bullist numlist outdent indent | link loadlmsimg | print preview media fullscreen | ' +
             'forecolor backcolor emoticons | help | inserttoken',
@@ -143,6 +157,14 @@
                     subtree: true
                 });
         },
+        images_upload_handler: (blobInfo, progress) => new Promise((resolve, reject) => {
+            $wire.upload('uploadedFile', blobInfo.blob(), async (uploadedFilename) => resolve(await $wire.uploadFile()),
+                () => reject('Upload failed'),
+                (event) => {
+                },
+                () => reject('Upload failed'));
+        }),
+        images_reuse_filename: true,
         @verbatim
         noneditable_regexp: /\{\{\s*\$[a-zA-Z][a-zA-Z0-9_]*\s*\}\}|\{!!\s*\$[a-zA-Z][a-zA-Z0-9_]*\s*!!\}/gu
         @endverbatim

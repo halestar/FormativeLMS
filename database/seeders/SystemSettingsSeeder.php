@@ -2,6 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Classes\Storage\Document\GoogleDocumentStorage;
+use App\Classes\Storage\Document\LocalDocumentStorage;
+use App\Classes\Storage\Work\LocalWorkStorage;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Seeder;
 
@@ -86,5 +89,31 @@ class SystemSettingsSeeder extends Seeder
                 'value' => json_decode($idStr, true),
             ]
         );
+	    
+	    $storage_settings =
+		    [
+			    "document_storages" =>
+				    [
+					    LocalDocumentStorage::class,
+					    GoogleDocumentStorage::class,
+				    ],
+			    "work_storages" =>
+				    [
+					    LocalWorkStorage::class,
+				    ],
+			    'employee_documents' => [],
+			    'student_documents' => [],
+			    'student_work' => null,
+			    'employee_work' => null,
+			    'class_work' => null,
+			    'email_work' => null,
+		    ];
+	    SystemSetting::create
+	    (
+		    [
+			    'name' => 'storage',
+			    'value' => $storage_settings,
+		    ]
+	    );
     }
 }

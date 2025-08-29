@@ -4,6 +4,11 @@ return
     [
 		'subject' => 'Subject',
 		'content' => 'Email Body',
+		'preview' => 'Preview Email',
+		'revert.confirm' => 'Are you sure you wish to undo your changes?',
+		'test.sent.title' => 'Test Message Sent',
+		'test.sent.message' => 'A test message with this content was sent to :email',
+		'send.test' => 'Send Test Email to Myself',
         'password.reset' => 'Password Reset Email Template',
 	    'password.reset.subject' => 'A request to reset your password has been received.',
 		'password.reset.description' => "Email template sent to users when they're trying to reset their password.",

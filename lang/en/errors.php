@@ -57,4 +57,5 @@ return
         'storage.files.multiple' => 'You can only upload a single file.',
         'storage.files.images' => 'You can only upload image files',
         'storage.files.mimetype' => 'You cannot upload that type of file',
+        'emails.tokens.missing' => 'You are required to insert the :token information in the email.'
     ];

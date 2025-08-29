@@ -25,6 +25,7 @@ mix.scripts(
         'resources/js/area_drawing.js',
         'resources/js/map_drawings.js',
         'resources/js/session_settings.js',
+        'resources/js/lms_toast.js',
     ],
     'public/js/lms-tools.js'
 );

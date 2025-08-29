@@ -36,7 +36,7 @@ class LocalWorkStorage extends WorkStorage
 			];
 	}
 	
-	public function persistFile(Fileable $fileable, DocumentFile $file): ?WorkFile
+	public function persistFile(Fileable $fileable, DocumentFile $file, bool $hidden = false): ?WorkFile
 	{
 		$exportFile = $file->getExportFile();
 		if(!$exportFile) return null;
@@ -53,6 +53,8 @@ class LocalWorkStorage extends WorkStorage
 		$workFile->mime = $exportFile->mime;
 		$workFile->size = $exportFile->size;
 		$workFile->extension = $exportFile->extension;
+		$workFile->hidden = $hidden;
+		$workFile->public = $fileable->shouldBePublic();
 		$workFile->save();
 		//finally, we link the file
 		$fileable->workFiles()
@@ -82,5 +84,12 @@ class LocalWorkStorage extends WorkStorage
 		              );
 	}
 	
+	
 	protected function hydrateElements(array $data): void {}
+	
+	public function fileContents(WorkFile $file): ?string
+	{
+		return Storage::disk(config('lms.storage.work'))
+		              ->get($file->path);
+	}
 }

@@ -47,8 +47,6 @@ class LocalDocumentStorage extends DocumentStorage
 	{
 		$files = [];
 		$basePath = $this->instanceProperty . "/" . $person->school_id;
-		$baseRealPath = Storage::disk(config('lms.storage.documents'))
-		                       ->path($basePath);
 		$folderPath = '';
 		if($directory && $directory->isFolder)
 			$folderPath = "/" . $directory->path;

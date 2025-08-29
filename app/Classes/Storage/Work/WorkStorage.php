@@ -10,10 +10,12 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 
 abstract class WorkStorage extends LmsStorage
 {
-	abstract public function persistFile(Fileable $fileable, DocumentFile $file): ?WorkFile;
+	abstract public function persistFile(Fileable $fileable, DocumentFile $file, bool $hidden = false): ?WorkFile;
 	
 	abstract public function deleteFile(WorkFile $file): void;
 	
 	abstract public function download(WorkFile $file): StreamedResponse;
+	
+	abstract public function fileContents(WorkFile $file): ?string;
 	
 }

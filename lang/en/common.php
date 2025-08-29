@@ -94,4 +94,6 @@ return [
 	'unlocked' => 'Unlocked',
 	'lock' => 'Lock',
 	'unlock' => 'Unlock',
+    'saved' => 'Saved',
+    'dirty' => 'Not Saved',
 ];

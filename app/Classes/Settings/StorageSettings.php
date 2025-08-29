@@ -4,6 +4,7 @@ namespace App\Classes\Settings;
 
 use App\Casts\Utilities\SystemSettings\AsDocumentStorage;
 use App\Casts\Utilities\SystemSettings\AsWorkStorage;
+use App\Classes\Storage\Document\GoogleDocumentStorage;
 use App\Classes\Storage\Document\LocalDocumentStorage;
 use App\Classes\Storage\LmsStorage;
 use App\Classes\Storage\Work\LocalWorkStorage;
@@ -33,6 +34,7 @@ class StorageSettings extends SystemSetting
                 "document_storages" =>
                     [
                         LocalDocumentStorage::class,
+                        GoogleDocumentStorage::class,
                     ],
                 "work_storages" =>
                     [

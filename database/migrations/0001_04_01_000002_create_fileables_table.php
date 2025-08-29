@@ -12,8 +12,10 @@ return new class extends Migration
 	public function up(): void
 	{
 		Schema::create('fileables', function(Blueprint $table) {
-			$table->foreignId('work_file_id')
-			      ->constrained('work_files')
+			$table->uuid('work_file_id');
+			$table->foreign('work_file_id')
+			      ->references('id')
+			      ->on('work_files')
 			      ->cascadeOnDelete();
 			$table->bigInteger('fileable_id');
 			$table->string('fileable_type');

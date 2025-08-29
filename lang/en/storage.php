@@ -13,4 +13,5 @@ return
 	'documents.file.upload' => 'Upload File | Upload Files',
 	'documents.file.drop' => 'Drop your files here',
 	'work.browser' => "Work File Browser",
+	'work.file.remove.prompt' => 'Are you sure you wish to delete this file?'
 ];

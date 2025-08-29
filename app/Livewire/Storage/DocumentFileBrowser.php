@@ -32,7 +32,7 @@ class DocumentFileBrowser extends Component
 		$this->assets = $this->documentStorage->rootFiles($this->person);
 	}
 	
-	public function clearFiter()
+	public function clearFilter()
 	{
 		$this->filterTerms = "";
 	}

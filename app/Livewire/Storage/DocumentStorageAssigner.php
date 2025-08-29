@@ -38,10 +38,10 @@ class DocumentStorageAssigner extends Component
 			return;
 		$storage = DocumentStorage::hydrate($lmsStorage);
 		//next, we find the string in the $documentStorages array and replace it with the storage instance
-		for($i = 0; $i < count($this->documentStorages); $i++) {
-			if(is_string($this->documentStorages[$i]) && $this->documentStorages[$i] == get_class($storage)) {
+		foreach($this->documentStorages as $key => $storageInstance) {
+			if(is_string($this->documentStorages[$key]) && $this->documentStorages[$key] == get_class($storage)) {
 				//found it!
-				$this->documentStorages[$i] = $storage;
+				$this->documentStorages[$key] = $storage;
 				$this->saved = false;
 				break;
 			}
@@ -56,10 +56,10 @@ class DocumentStorageAssigner extends Component
 			return;
 		$storage = DocumentStorage::hydrate($lmsStorage);
 		//find the storage instance in the $documentStorages array
-		for($i = 0; $i < count($this->documentStorages); $i++) {
-			if($this->documentStorages[$i] instanceof DocumentStorage && $this->documentStorages[$i]->instanceProperty == $storage->instanceProperty) {
+		foreach($this->documentStorages as $key => $storageInstance) {
+			if($this->documentStorages[$key] instanceof DocumentStorage && $this->documentStorages[$key]->instanceProperty == $storage->instanceProperty) {
 				//found it
-				$this->documentStorages[$i] = $storage;
+				$this->documentStorages[$key] = $storage;
 				$this->saved = false;
 				break;
 			}

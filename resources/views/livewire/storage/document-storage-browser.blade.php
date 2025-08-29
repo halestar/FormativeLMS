@@ -62,7 +62,7 @@
                                         :multiple="$multiple"
                                         :canSelectFolders="$canSelectFolders"
                                         :mimeTypes="$mimeTypes"
-                                        wire:key="{{ $selectedTab }}"
+                                        wire:key="{{ $selectedTab . $browserKey }}"
                                 />
                             @endif
                         </div>
@@ -90,7 +90,7 @@
                             @foreach($selectedItems as $selectedItem)
                                 <span class="text-bg-light rounded p-2 m-2">
                                 <i class="fa-solid fa-file text-info me-2 pe-2 border-end"></i>
-                                {{ $selectedItems['name'] }}
+                                {{ $selectedItem->name }}
                             </span>
                             @endforeach
                         @else

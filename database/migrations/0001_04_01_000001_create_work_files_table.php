@@ -12,7 +12,8 @@ return new class extends Migration
 	public function up(): void
 	{
 		Schema::create('work_files', function(Blueprint $table) {
-			$table->id();
+			$table->uuid('id')
+			      ->primary();
 			$table->string('name');
 			$table->string('storage_instance');
 			$table->string('path');
@@ -23,6 +24,10 @@ return new class extends Migration
 			      ->nullable();
 			$table->string('icon')
 			      ->nullable();
+			$table->boolean('hidden')
+			      ->default(false);
+			$table->boolean('public')
+			      ->default(false);
 			$table->timestamps();
 			$table->unique(['storage_instance', 'path']);
 		});

@@ -9,6 +9,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Str;
 
 class ResetPasswordMail extends Mailable implements SchoolEmail, ShouldQueue
 {
@@ -60,6 +61,11 @@ class ResetPasswordMail extends Mailable implements SchoolEmail, ShouldQueue
 
 	public static function requiredTokens(): array
 	{
-		return [ 'token' ];
+		return ['{!! $token !!}'];
+	}
+	
+	public static function testEmail(Person $person): Mailable
+	{
+		return new ResetPasswordMail($person, Str::random(6));
 	}
 }

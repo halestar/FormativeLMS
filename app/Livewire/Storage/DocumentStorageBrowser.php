@@ -25,12 +25,19 @@ class DocumentStorageBrowser extends Component
 	public array $tabs = [];
 	public string $selectedTab = '';
 	public $uploadedFiles;
+	public string $cb_instance;
+	public string $browserKey;
 	
 	public null|DocumentFile|array $selectedItems = null;
 	
 	#[On('document-storage-browser.open-browser')]
 	public function open(array $config = null)
 	{
+		if(!isset($config['cb_instance']) || $config['cb_instance'] == null || $config['cb_instance'] == '') {
+			$this->failOpen('cb_instance is not set');
+			return;
+		}
+		$this->cb_instance = $config['cb_instance'];
 		$this->multiple = $config['multiple'] ?? false;
 		$this->mimeTypes = $config['mimetypes'] ?? [];
 		$this->allowUpload = $config['allowUpload'] ?? false;
@@ -41,6 +48,8 @@ class DocumentStorageBrowser extends Component
 			$this->selectedItems = null;
 		if(!$this->init)
 			$this->init();
+		//generate a browser key
+		$this->browserKey = uniqid();
 		$this->open = true;
 		$this->js("$('#document-browser-modal').modal('show');");
 	}
@@ -71,6 +80,7 @@ class DocumentStorageBrowser extends Component
 			$this->selectedItems = [];
 		else
 			$this->selectedItems = null;
+		//we also need to
 		$this->dispatch('document-file-browser.file-selected', selected_items: $this->selectedItems);
 		
 	}
@@ -122,7 +132,8 @@ class DocumentStorageBrowser extends Component
 	{
 		$this->open = false;
 		$this->js("$('#document-browser-modal').modal('hide')");
-		$this->dispatch('document-storage-browser.files-selected', selected_items: $this->selectedItems);
+		$this->dispatch('document-storage-browser.files-selected', selected_items: $this->selectedItems,
+			cb_instance: $this->cb_instance);
 	}
 	
 	public function render()

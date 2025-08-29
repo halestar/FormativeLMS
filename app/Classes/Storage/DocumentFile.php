@@ -25,7 +25,7 @@ class DocumentFile implements Arrayable, JsonSerializable
 		public string $mimeType = '',
 		public int $size = 0,
 		public bool $canPreview = false,
-		public bool $canDelete = true,
+		public bool $canDelete = false,
 		public bool $canChangeName = false,
 		public bool $isUpload = false
 	){}
@@ -36,7 +36,7 @@ class DocumentFile implements Arrayable, JsonSerializable
 		(
 			0,
 			false,
-			$file->getClientOriginalName() . "." . $file->getClientOriginalExtension(),
+			$file->getClientOriginalName(),
 			'',
 			$file->path(),
 			'',
@@ -120,7 +120,7 @@ class DocumentFile implements Arrayable, JsonSerializable
 			$info = pathinfo($this->path);
 			return new ExportFile
 			(
-				$info['filename'],
+				$this->name,
 				File::get($this->path),
 				$this->mimeType,
 				$info['extension'],
