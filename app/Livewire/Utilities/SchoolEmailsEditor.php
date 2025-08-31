@@ -7,7 +7,6 @@ use App\Classes\Settings\StorageSettings;
 use App\Classes\Storage\Work\WorkStorage;
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Attributes\Computed;
 use Livewire\Component;
@@ -37,7 +36,6 @@ class SchoolEmailsEditor extends Component
 						$tokenNames = ($this->emailClass)::availableTokens();
 						foreach($requiredTokens as $token) {
 							if($value == "" || !str_contains($value, $token)) {
-								Log::debug("Missing token: $token");
 								$fail('errors.emails.tokens.missing')
 									->translate(['token' => $tokenNames[$token] ?? "Token"]);
 							}

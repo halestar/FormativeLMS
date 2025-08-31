@@ -9,7 +9,6 @@ use App\Models\Schedules\Period;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rule;
 
 class PeriodController extends Controller implements HasMiddleware
@@ -46,7 +45,6 @@ class PeriodController extends Controller implements HasMiddleware
             'start' => 'required|date_format:H:i',
             'end' => 'required|date_format:H:i',
         ], static::errors());
-        Log::debug(print_r($request->all(), true));
         $period = new Period();
         $period->fill($data);
         $period->campus_id = $campus->id;

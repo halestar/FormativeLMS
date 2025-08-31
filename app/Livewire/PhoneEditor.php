@@ -4,7 +4,6 @@ namespace App\Livewire;
 
 use App\Models\People\Phone;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Log;
 use Livewire\Component;
 
 class PhoneEditor extends Component
@@ -169,7 +168,6 @@ class PhoneEditor extends Component
     {
         foreach ($models as $model)
         {
-            Log::debug("Attempting update pivot on id " . $model['value'] . " setting order to " . $model['order']);
             $this->phoneable->phones()
                 ->updateExistingPivot($model['value'], ['order' => $model['order']]);
         }

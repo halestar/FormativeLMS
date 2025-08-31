@@ -7,7 +7,6 @@ use Carbon\Carbon;
 use Google\Service\Drive;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Cookie;
-use Illuminate\Support\Facades\Log;
 use Laravel\Socialite\Facades\Socialite;
 
 class GoogleAuthenticator extends Authenticator
@@ -91,7 +90,6 @@ class GoogleAuthenticator extends Authenticator
 			//if there's no user, we go back to the login place
 			return redirect()->route('login');
 		}
-		Log::debug(print_r($gUser, true));
 		//since the user exists, save some data
 		$authDriver = $user->auth_driver;
 		$settings = $authDriver->getPasswordSettings();

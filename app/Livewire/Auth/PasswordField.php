@@ -61,7 +61,6 @@ class PasswordField extends Component
 	#[On('password-field.load-password')]
 	public function loadPassword($password)
 	{
-		\Log::debug(print_r($password, true));
 		$this->password = $password;
 	}
 }

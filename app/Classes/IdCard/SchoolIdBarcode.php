@@ -4,7 +4,6 @@ namespace App\Classes\IdCard;
 
 use App\Models\People\Person;
 use Illuminate\Support\Facades\Blade;
-use Illuminate\Support\Facades\Log;
 
 class SchoolIdBarcode extends IdCardElement
 {
@@ -22,7 +21,6 @@ class SchoolIdBarcode extends IdCardElement
     private function barcodeElement(BarcodeGenerator $barcode): string
     {
         $this->barcodeStyle($barcode);
-        Log::debug(print_r($barcode, true));
         return "<div class='m-auto'>" . $barcode->toSVG() . "</div>";
     }
 

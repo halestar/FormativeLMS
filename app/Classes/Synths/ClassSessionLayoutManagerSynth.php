@@ -4,7 +4,6 @@ namespace App\Classes\Synths;
 
 use App\Classes\ClassManagement\ClassSessionLayoutManager;
 use App\Models\SubjectMatter\ClassSession;
-use Illuminate\Support\Facades\Log;
 use Livewire\Mechanisms\HandleComponents\Synthesizers\Synth;
 
 class ClassSessionLayoutManagerSynth extends Synth
@@ -26,7 +25,6 @@ class ClassSessionLayoutManagerSynth extends Synth
 
     public function hydrate($value)
     {
-        Log::debug('Hydrating ClassSessionLayoutManager with ' . print_r($value, true));
         $layout = $value['layout'];
         $owner = ClassSession::find($value['owner']);
         return new ClassSessionLayoutManager($layout, $owner);

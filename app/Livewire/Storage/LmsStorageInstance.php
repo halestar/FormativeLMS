@@ -3,7 +3,6 @@
 namespace App\Livewire\Storage;
 
 use App\Classes\Storage\LmsStorage;
-use Illuminate\Support\Facades\Log;
 use Livewire\Attributes\On;
 use Livewire\Component;
 
@@ -40,7 +39,6 @@ class LmsStorageInstance extends Component
 		$this->validate();
 		$className = $this->className;
 		$newLmsStorage = (!$this->lmsStorage);
-		Log::info(($newLmsStorage ? 'creating' : 'updating') . ' lms storage ' . $className . ' and display name ' . $this->displayName);
 		//are we creating or updating?
 		if($newLmsStorage)
 			$this->lmsStorage = new ($className)($this->displayName);
