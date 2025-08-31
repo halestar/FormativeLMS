@@ -51,7 +51,7 @@ class FreshDb extends Command
 	    }
 	    $this->info("Refreshing and Seeding the DB");
         //resfresh the db
-        $this->call('migrate:fresh', ['--seed' => true]);
+	    $this->call('migrate:fresh', ['--seed' => true, '--force' => true]);
 	    $this->info('Removing all local files');
 	    //delete all the work files.
 	    $allDirs = File::directories(storage_path('/'));
