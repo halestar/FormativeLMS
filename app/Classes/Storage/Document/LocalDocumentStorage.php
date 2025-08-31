@@ -18,16 +18,6 @@ class LocalDocumentStorage extends DocumentStorage
 		return __('settings.storage.documents.local');
 	}
 	
-	public static function instancePropertyName(): string
-	{
-		return __('settings.storage.documents.local.instance');
-	}
-	
-	public static function instancePropertyNameHelp(): string
-	{
-		return __('settings.storage.documents.local.instance.help');
-	}
-	
 	public function toArray()
 	{
 		return

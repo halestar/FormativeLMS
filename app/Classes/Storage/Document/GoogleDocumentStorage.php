@@ -14,9 +14,9 @@ class GoogleDocumentStorage extends DocumentStorage
 {
 	protected Client $client;
 	
-	public function __construct(string $instanceProperty, string $displayName)
+	public function __construct(string $displayName)
 	{
-		parent::__construct($instanceProperty, $displayName);
+		parent::__construct($displayName);
 		$this->client = new Client();
 		$this->client->setClientId(config('services.google.client_id'));
 		$this->client->setClientSecret(config('services.google.client_secret'));
@@ -25,16 +25,6 @@ class GoogleDocumentStorage extends DocumentStorage
 	public static function prettyName(): string
 	{
 		return __('settings.storage.documents.google');
-	}
-	
-	public static function instancePropertyName(): string
-	{
-		return __('settings.storage.documents.google.instance');
-	}
-	
-	public static function instancePropertyNameHelp(): string
-	{
-		return __('settings.storage.documents.google.instance.help');
 	}
 	
 	/**

@@ -2,37 +2,15 @@
     @if($editing)
         <h5>{{ ($className)::prettyName() }}</h5>
         <form wire:submit="updateLmsStorage">
-            <div class="row mb-3">
-                <div class="col">
-                    <label for="instanceProperty_{{ $instanceProperty }}"
-                           class="form-label">{{ ($className)::instancePropertyName() }}</label>
-                    <input
-                            type="text"
-                            id="instanceProperty_{{ $instanceProperty }}"
-                            wire:model="instanceProperty"
-                            class="form-control @error('instanceProperty') is-invalid @enderror"
-                            @if($lmsStorage)
-                                readonly
-                            disabled
-                            @endif
-                            aria-describedby="instanceProperty_{{ $instanceProperty }}_help"
-                    />
-                    <x-error-display key="instanceProperty">{{ $errors->first('instanceProperty') }}</x-error-display>
-                    <div id="instanceProperty_{{ $instanceProperty }}_help"
-                         class="form-text">{{ ($className)::instancePropertyNameHelp() }}</div>
-                </div>
-                <div class="col">
-                    <label for="display-name" class="form-label">{{ __('settings.storage.display') }}</label>
-                    <input
-                            type="text"
-                            id="display-name"
-                            wire:model="displayName"
-                            class="form-control @error('displayName') is-invalid @enderror"
-                    />
-                    <x-error-display key="displayName">{{ $errors->first('displayName') }}</x-error-display>
-                    <div id="display-name-help" class="form-text">{{ __('settings.storage.display.help') }}</div>
-                </div>
-            </div>
+            <label for="display-name" class="form-label">{{ __('settings.storage.display') }}</label>
+            <input
+                    type="text"
+                    id="display-name"
+                    wire:model="displayName"
+                    class="form-control @error('displayName') is-invalid @enderror"
+            />
+            <x-error-display key="displayName">{{ $errors->first('displayName') }}</x-error-display>
+            <div id="display-name-help" class="form-text">{{ __('settings.storage.display.help') }}</div>
             <!-- Add extra options here -->
             <div class="row">
                 <button type="submit" class="col btn btn-primary mx-2">

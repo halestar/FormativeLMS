@@ -3,19 +3,18 @@
 namespace App\Classes\Storage;
 
 use App\Classes\Settings\StorageSettings;
-use App\Classes\Storage\Work\WorkStorage;
 use Illuminate\Contracts\Support\Arrayable;
-use Illuminate\Validation\Rule;
 use JsonSerializable;
 
 abstract class LmsStorage implements Arrayable, JsonSerializable
 {
-    public function __construct(public string $instanceProperty, public string $displayName){}
+	public string $instanceProperty;
+	
+	public function __construct(public string $displayName)
+	{
+		$this->instanceProperty = uniqid();
+	}
     abstract public static function prettyName(): string;
-
-    abstract public static function instancePropertyName(): string;
-
-    abstract public static function instancePropertyNameHelp(): string;
 
     public function hasAdditionalProperties(): bool
     {
@@ -38,7 +37,8 @@ abstract class LmsStorage implements Arrayable, JsonSerializable
 		// the hydrate method REQUIRES that the class name is stored in the data array
 		// in the key 'className'
 		$className = $data['className'];
-		$instance = new $className($data['instanceProperty'], $data['displayName']);
+		$instance = new $className($data['displayName']);
+		$instance->instanceProperty = $data['instanceProperty'];
 		$instance->hydrateElements($data);
 		return $instance;
 	}
@@ -50,7 +50,7 @@ abstract class LmsStorage implements Arrayable, JsonSerializable
         $settings = app()->make(StorageSettings::class);
         return
         [
-            'instanceProperty' => ['required', 'min:3', Rule::notIn($settings->instances($except)), 'max:255', 'regex:/^[a-zA-Z0-9_]+$/'],
+	        'displayName' => ['required', 'min:3'],
         ];
     }
 }

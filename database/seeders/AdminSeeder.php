@@ -10,8 +10,6 @@ use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Str;
 
 class AdminSeeder extends Seeder
 {
@@ -26,19 +24,19 @@ class AdminSeeder extends Seeder
                 'first' => "Admin",
                 'middle' => null,
                 'last' => "Kalinec",
-                'email' => config('lms.superadmin_email'),
+                'email' => env('ADMIN_USERNAME'),
                 'nick' => null,
                 'dob' => "1969-06-09",
                 'portrait_url' => 'https://dev.kalinec.net/storage/cms/TE2rVueMTcPsC6SlC5lLHjW0ljbyfYJUZBAu422O.png',
                 'school_id' => 1,
-	            'auth_driver' => config('lms.superadmin_auth'),
+                'auth_driver' => env('ADMIN_AUTH'),
             ]);
 		$admin->refresh();
         $admin->assignRole(SchoolRoles::$ADMIN);
         $admin->assignRole(SchoolRoles::$EMPLOYEE);
         $admin->assignRole(SchoolRoles::$STAFF);
-		if(config('lms.superadmin_auth') == "local")
-			$admin->auth_driver->setPassword(config('lms.superadmin_password'));
+	    if(env('ADMIN_AUTH') == "local")
+		    $admin->auth_driver->setPassword(env('ADMIN_PASSWORD'));
 
 
         //now we make some other fake people for testing.
@@ -157,6 +155,32 @@ class AdminSeeder extends Seeder
         //next, we assign the bi-directinal child-parent relationship between the parent and child accounts.
         $student->relationships()->attach($parent->id, ['relationship_id' => Relationship::CHILD]);
         $parent->relationships()->attach($student->id, ['relationship_id' => Relationship::PARENT]);
+	    
+	    //finally, we add additional admins
+	    $i = 1;
+	    while(env('ADD_ADMIN_USER_' . $i, false))
+	    {
+		    $admin = Person::create(
+			    [
+				    'first' => env('ADD_ADMIN_FIRST_' . $i),
+				    'middle' => null,
+				    'last' => env('ADD_ADMIN_LAST_' . $i),
+				    'email' => env('ADD_ADMIN_USER_' . $i),
+				    'nick' => null,
+				    'dob' => "1969-06-09",
+				    'portrait_url' => env('APP_URL') . '/storage/idpics/' . ($i + 7) . '.jpg',
+				    'thumbnail_url' => env('APP_URL') . '/storage/idpics/' . ($i + 7) . '.jpg',
+				    'school_id' => ($i + 7),
+				    'auth_driver' => env('ADD_ADMIN_AUTH_' . $i),
+			    ]);
+		    $admin->refresh();
+		    $admin->assignRole(SchoolRoles::$ADMIN);
+		    $admin->assignRole(SchoolRoles::$EMPLOYEE);
+		    $admin->assignRole(SchoolRoles::$STAFF);
+		    if(env('ADMIN_AUTH') == "local")
+			    $admin->auth_driver->setPassword(env('ADD_ADMIN_PASS_' . $i));
+		    $i++;
+	    }
 
     }
 }

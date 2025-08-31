@@ -16,17 +16,17 @@ class StorageSeeder extends Seeder
 	{
 		$storageSettings = app()->make(StorageSettings::class);
 		//student documents
-		$storageSettings->employee_documents = [new LocalDocumentStorage('employees', 'My Documents')];
+		$storageSettings->employee_documents = [new LocalDocumentStorage('My Documents')];
 		//employee documents
-		$storageSettings->student_documents = [new LocalDocumentStorage('students', 'My Documents')];
+		$storageSettings->student_documents = [new LocalDocumentStorage('My Documents')];
 		//student work
-		$storageSettings->student_work = new LocalWorkStorage('students_inc', 'incoming');
+		$storageSettings->student_work = new LocalWorkStorage('incoming');
 		//student work
-		$storageSettings->employee_work = new LocalWorkStorage('employee_inc', 'incoming');
+		$storageSettings->employee_work = new LocalWorkStorage('incoming');
 		//student work
-		$storageSettings->class_work = new LocalWorkStorage('class_inc', 'incoming');
+		$storageSettings->class_work = new LocalWorkStorage('incoming');
 		//student work
-		$storageSettings->email_work = new LocalWorkStorage('emails_inc', 'incoming');
+		$storageSettings->email_work = new LocalWorkStorage('incoming');
 		$storageSettings->save();
 	}
 }

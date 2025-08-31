@@ -37,14 +37,16 @@ class FreshDb extends Command
 	    //first, is there CMS data backed up?
 	    $cmsSave = new SystemBackup();
 	    if(!Storage::disk('local')
-	               ->exists('cms-backup.json')) {
+		    ->exists('cms-backup.json'))
+	    {
 		    //save the cms data. to the file.
 		    $this->info('Backing up CMS Data...');
 		    $cmsData = $cmsSave->getBackupData();
 		    Storage::disk('local')
-		           ->put('cms-backup.json', json_encode($cmsData));
+			    ->put('cms-backup.json', $cmsData);
 	    }
-	    else {
+	    else
+	    {
 		    $this->info('CMS Data backed up previously, using this data.');
 	    }
 	    $this->info("Refreshing and Seeding the DB");
@@ -53,9 +55,11 @@ class FreshDb extends Command
 	    $this->info('Removing all local files');
 	    //delete all the work files.
 	    $allDirs = File::directories(storage_path('/'));
-	    foreach($allDirs as $dir) {
+	    foreach($allDirs as $dir)
+	    {
 		    $dirName = basename($dir);
-		    if(!in_array($dirName, $this->keepDirs)) {
+		    if(!in_array($dirName, $this->keepDirs))
+		    {
 			    $this->info('Deleting Folder ' . $dirName);
 			    File::deleteDirectory($dir);
 		    }
