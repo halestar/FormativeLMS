@@ -76,7 +76,7 @@ return
     'are_you_trying_to_add_any_of_these_people' => 'Are you trying to add any of these people?',
     'is_a' => ':name is a',
     'update_reciprocal' => 'Update Reciprocal',
-    'to2' => 'to :name',
+    'to2' => 'a :name',
     'update_relation' => 'Update Relation',
     'search_for_person' => 'Search for Person',
     'add_reciprocal' => 'Add Reciprocal',

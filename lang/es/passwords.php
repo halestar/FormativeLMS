@@ -14,7 +14,7 @@ return [
 	*/
 	
 	'reset' => 'Su contraseña ha sido reseteada.',
-	'sent' => 'Le enviamos el enlace para resetear su contraseña por correo electrónico.
+	'sent' => 'Le enviamos el enlace para resetear su contraseña por correo electrónico.',
     'token' => 'Este símbolo para resetear su contraseña no es válido . ',
     'user' => "No podemos encontrar un usuario con esa dirección de correo electrónico.",
 

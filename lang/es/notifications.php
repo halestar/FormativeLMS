@@ -2,6 +2,5 @@
 
 return
 	[
-		'messages.title' => 'De :Remitente',
-	
+		'messages.title' => 'De :sender',
 	];
