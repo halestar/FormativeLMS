@@ -14,8 +14,8 @@ return [
     | Supported: "reverb", "pusher", "ably", "redis", "log", "null"
     |
     */
-
-    'default' => env('BROADCAST_CONNECTION', 'null'),
+    
+    'default' => env('BROADCAST_CONNECTION', 'reverb'),
 
     /*
     |--------------------------------------------------------------------------

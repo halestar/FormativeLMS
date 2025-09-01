@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="{{ asset('images/fablms-512.png') }}" alt="FABLMS" width="32" height="32">
+            <img src="{{ asset('images/fablms-512.png', true) }}" alt="FABLMS" width="32" height="32">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
