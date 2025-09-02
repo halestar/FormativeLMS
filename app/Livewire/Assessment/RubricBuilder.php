@@ -71,7 +71,7 @@ class RubricBuilder extends Component
             $this->saved = false;
         }
         $this->newScore = (isset($this->rubric->points) && count($this->rubric->points) > 0)?
-                $this->rubric->points[0] + 1: 1;
+	        $this->rubric->points[(count($this->rubric->points) - 1)] + 1 : 1;
     }
 
     public function save()
@@ -182,6 +182,12 @@ class RubricBuilder extends Component
         $this->rubric->reorderCriteria($newOrder);
         $this->saveLocally();
     }
+	
+	public function clearRubric()
+	{
+		$this->rubric = new Rubric();
+		$this->saved = false;
+	}
 
     public function render()
     {

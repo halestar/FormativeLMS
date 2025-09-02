@@ -5,6 +5,7 @@ namespace App\Casts;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Log;
 use JsonSerializable;
 
 class Rubric implements CastsAttributes, Arrayable, JsonSerializable
@@ -49,40 +50,54 @@ class Rubric implements CastsAttributes, Arrayable, JsonSerializable
 
     public function addPoint(float $score)
     {
+	    Log::info("addPoint " . $score);
         if($score < 0)
             return;
         //first, we find the pos
         //pos, can never be 0, as that will be max_poinst, or last element, as that will be 0
         $points = [];
         $pos = -1;
+	    Log::info("points: " . implode(", ", $this->points));
         for($i = 0; $i < count($this->points); $i++)
         {
+	        Log::info("i: " . $i . " points is " . $this->points[$i]);
             if($score == $this->points[$i])
                 return;
-            if($this->points[$i] < $score && $pos == -1)
+	        if($this->points[$i] < $score || $pos != -1)
+		        $points[] = $this->points[$i];
+	        else
             {
-                $points[] = $score;
+	            $points[] = $score;
                 $pos = $i;
+	            $points[] = $this->points[$i];
             }
-            $points[] = $this->points[$i];
         }
         if($pos == -1)
         {
+	        //each case, we add at the end
             $points[] = $score;
+	        
         }
+	    Log::info("points: " . implode(", ", $points));
 
         $descriptions = [];
         for($i = 0; $i < count($this->descriptions); $i++)
         {
             $descriptionRow = [];
-            for($j = 0; $j < count($this->descriptions[$i]); $j++)
-            {
-                if($j == $pos)
-                    $descriptionRow[] = __('subjects.skills.rubric.builder.description.change');
-                $descriptionRow[] = $this->descriptions[$i][$j];
-            }
-            if($pos == -1)
-                $descriptionRow[] = __('subjects.skills.rubric.builder.description.change');
+	        if($pos == -1)
+	        {
+		        $descriptionRow = $this->descriptions[$i];
+		        $descriptionRow[] = __('subjects.skills.rubric.builder.description.change');
+	        }
+	        else
+	        {
+		        for($j = 0; $j < count($this->descriptions[$i]); $j++)
+		        {
+			        if($j == $pos)
+				        $descriptionRow[] = __('subjects.skills.rubric.builder.description.change');
+			        $descriptionRow[] = $this->descriptions[$i][$j];
+		        }
+	        }
             $descriptions[] = $descriptionRow;
         }
         $this->points = $points;
@@ -134,9 +149,12 @@ class Rubric implements CastsAttributes, Arrayable, JsonSerializable
                 return;
             if($this->points[$i] == $oldScore)
                 $oldPos = $i;
-            if($newScore > $this->points[$i] && $newPos == -1)
+	        if($newScore < $this->points[$i] && $newPos == -1)
                 $newPos = $i;
         }
+	    if($newPos == -1)
+		    $newPos = count($this->points) - 1;
+	    Log::info("oldPos: " . $oldPos . " newPos: " . $newPos);
         //are we staying in place?
         if($oldPos == $newPos)
         {
@@ -144,34 +162,18 @@ class Rubric implements CastsAttributes, Arrayable, JsonSerializable
             $this->points[$oldPos] = $newScore;
             return;
         }
-        //re-order the points
-        $points = [];
-        for($i = 0; $i < count($this->points); $i++)
-        {
-            if($i == $oldPos)
-                continue;
-            if($i == $newPos)
-                $points[] = $newScore;
-            $points[] = $this->points[$i];
-        }
-        if($newPos == -1)
-            $points[] = $newScore;
-        //and we re-order the descriptions
+	    //first, we splice the old value at the old pos
+	    $points = $this->points;
+	    array_splice($points, $oldPos, 1);
+	    array_splice($points, $newPos, 0, $newScore);
+	    //and we do the same thing for the descriptions
         $descriptions = [];
         for($i = 0; $i < count($this->descriptions); $i++)
         {
-            $descriptionRow = [];
-            for($j = 0; $j < count($this->descriptions[$i]); $j++)
-            {
-                if($j == $oldPos)
-                    continue;
-                if($j == $newPos)
-                    $descriptionRow[] = $this->descriptions[$i][$oldPos];
-                $descriptionRow[] = $this->descriptions[$i][$j];
-            }
-            if($newPos == -1)
-                $descriptionRow[] = $this->descriptions[$i][$oldPos];
-            $descriptions[] = $descriptionRow;
+	        $descriptionRow = $this->descriptions[$i];
+	        $oldVals = array_splice($descriptionRow, $oldPos, 1);
+	        array_splice($descriptionRow, $newPos, 0, $oldVals[0]);
+	        $descriptions[] = $descriptionRow;
         }
         $this->points = $points;
         $this->descriptions = $descriptions;

@@ -5,7 +5,6 @@ namespace Database\Seeders;
 use App\Models\CRUD\Relationship;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
-use App\Models\People\InternalUser;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\Utilities\SchoolRoles;
@@ -21,22 +20,22 @@ class AdminSeeder extends Seeder
         //first, we add the super admin
         $admin = Person::create(
             [
-                'first' => "Admin",
+	            'first' => config('seeder.admin_first'),
                 'middle' => null,
-                'last' => "Kalinec",
-                'email' => env('ADMIN_USERNAME'),
+	            'last' => config('seeder.admin_last'),
+	            'email' => config('seeder.admin_email'),
                 'nick' => null,
                 'dob' => "1969-06-09",
-                'portrait_url' => 'https://dev.kalinec.net/storage/cms/TE2rVueMTcPsC6SlC5lLHjW0ljbyfYJUZBAu422O.png',
+	            'portrait_url' => config('seeder.admin_portrait'),
                 'school_id' => 1,
-                'auth_driver' => env('ADMIN_AUTH'),
+	            'auth_driver' => config('seeder.admin_auth'),
             ]);
 		$admin->refresh();
         $admin->assignRole(SchoolRoles::$ADMIN);
         $admin->assignRole(SchoolRoles::$EMPLOYEE);
         $admin->assignRole(SchoolRoles::$STAFF);
-	    if(env('ADMIN_AUTH') == "local")
-		    $admin->auth_driver->setPassword(env('ADMIN_PASSWORD'));
+	    if(config('seeder.admin_auth') == "local")
+		    $admin->auth_driver->setPassword(config('seeder.admin_pass'));
 
 
         //now we make some other fake people for testing.
@@ -158,27 +157,25 @@ class AdminSeeder extends Seeder
 	    
 	    //finally, we add additional admins
 	    $i = 1;
-	    while(env('ADD_ADMIN_USER_' . $i, false))
+	    while(config('seeder.admin' . $i . ".email", false))
 	    {
 		    $admin = Person::create(
 			    [
-				    'first' => env('ADD_ADMIN_FIRST_' . $i),
+				    'first' => config('seeder.admin' . $i . ".first"),
 				    'middle' => null,
-				    'last' => env('ADD_ADMIN_LAST_' . $i),
-				    'email' => env('ADD_ADMIN_USER_' . $i),
+				    'last' => config('seeder.admin' . $i . ".last"),
+				    'email' => config('seeder.admin' . $i . ".email"),
 				    'nick' => null,
 				    'dob' => "1969-06-09",
-				    'portrait_url' => env('APP_URL') . '/storage/idpics/' . ($i + 7) . '.jpg',
-				    'thumbnail_url' => env('APP_URL') . '/storage/idpics/' . ($i + 7) . '.jpg',
 				    'school_id' => ($i + 7),
-				    'auth_driver' => env('ADD_ADMIN_AUTH_' . $i),
+				    'auth_driver' => config('seeder.admin' . $i . ".auth"),
 			    ]);
 		    $admin->refresh();
 		    $admin->assignRole(SchoolRoles::$ADMIN);
 		    $admin->assignRole(SchoolRoles::$EMPLOYEE);
 		    $admin->assignRole(SchoolRoles::$STAFF);
-		    if(env('ADMIN_AUTH') == "local")
-			    $admin->auth_driver->setPassword(env('ADD_ADMIN_PASS_' . $i));
+		    if(config('seeder.admin' . $i . ".auth") == "local")
+			    $admin->auth_driver->setPassword(config('seeder.admin' . $i . ".auth"));
 		    $i++;
 	    }
 

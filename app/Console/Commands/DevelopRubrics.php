@@ -60,11 +60,13 @@ class DevelopRubrics extends Command
 				'max_criteria' => 10,
 				'max_skills_per_criteria' => 5
 			];
-		try {
+		try
+		{
 			$settingVals = $developRubricSetting->value;
 			$this->info('Statistics for this run:' . print_r($settingVals, true));
 			foreach(KnowledgeSkill::where('id', '>', $developRubricSetting->value['knowledge_index'])
-			                      ->get() as $skill) {
+				->get() as $skill)
+			{
 				$this->info("Developing rubric for knowledge skill: " . $skill->designation);
 				$this->info("Asking Ai...");
 				$response = Prism::structured()

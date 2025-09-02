@@ -1,54 +1,68 @@
 <div>
     @use(App\Casts\Rubric)
-    <div class="d-flex mb-4">
-        <div class="align-self-start d-flex flex-column">
-            <div class="border rounded border-secondary p-3 text-bg-secondary d-flex mb-2">
-                <div class="d-flex flex-column me-1">
-                    <button
-                        type="button"
-                        class="btn btn-primary mb-1 text-nowrap"
-                        wire:click="addCriteria()"
-                    >{{ __('subjects.skills.rubric.builder.criteria.add') }}</button>
-                    <button
-                        type="button"
-                        class="btn btn-success text-nowrap"
-                        wire:click="save()"
-                    >{{ __('subjects.skills.rubric.builder.save') }}</button>
+    <div class="row mb-4">
+        <div class="col-4">
+            <div class="align-self-start d-flex flex-column">
+                <div class="border rounded border-secondary p-3 text-bg-secondary mb-2">
+                    <div class="input-group mb-2">
+                        <span class="input-group-text">{{ __('subjects.skills.rubric.builder.score.add') }}</span>
+                        <input
+                                class="form-control text-center @error('newScore') is-invalid @enderror text-nowrap"
+                                type="number"
+                                min="0"
+                                step="1"
+                                wire:model.blur="newScore"
+                        />
+                        <span class="input-group-text">{{ __('subjects.skills.rubric.builder.score.points') }}</span>
+                        <button
+                                type="button"
+                                class="btn btn-primary text-nowrap"
+                                wire:click="addScore()"
+                        >{{ __('common.add') }}</button>
+                        <x-error-display key="newScore">{{ $errors->first('newScore') }}</x-error-display>
+                    </div>
+                    <div class="row px-3 mb-2">
+                        <button
+                                type="button"
+                                class="col btn btn-primary text-nowrap"
+                                wire:click="addCriteria()"
+                        >{{ __('subjects.skills.rubric.builder.criteria.add') }}</button>
+                    </div>
+                    <div class="row px-3 mb-2">
+                        <button
+                                type="button"
+                                class="col btn btn-danger text-nowrap"
+                                wire:click="clearRubric()"
+                                wire:confirm="{{ __('subjects.skills.rubric.builder.clear.confirm') }}"
+                        >{{ __('subjects.skills.rubric.builder.clear') }}</button>
+                    </div>
                 </div>
-                <div class="d-flex flex-column">
-                    <input
-                        class="form-control mb-1 text-center @error('newScore') is-invalid @enderror text-nowrap"
-                        type="number"
-                        min="0"
-                        step="1"
-                        wire:model.blur="newScore"
-                    />
-                    <button
-                        type="button"
-                        class="btn btn-primary text-nowrap"
-                        wire:click="addScore()"
-                    >{{ __('subjects.skills.rubric.builder.score.add') }}</button>
-                    <x-error-display key="newScore">{{ $errors->first('newScore') }}</x-error-display>
-                </div>
+                @if($saved)
+                    <div class="alert alert-success">
+                        {{ __('subjects.skills.rubric.builder.saved') }}
+                    </div>
+                @else
+                    <div class="alert alert-warning fw-bold">
+                        {{ __('subjects.skills.rubric.builder.saved.no') }}
+                        <button
+                                type="button"
+                                class="btn btn-success btn-sm ms-2"
+                                wire:click="save()"
+                        >{{ __('subjects.skills.rubric.builder.save') }}</button>
+                        <button
+                                type="button"
+                                class="btn btn-danger btn-sm ms-2"
+                                wire:click="discardChanges()"
+                                wire:confirm="{{ __('subjects.skills.rubric.builder.saved.discard.confirm') }}"
+                        >{{ __('subjects.skills.rubric.builder.saved.discard') }}</button>
+                    </div>
+                @endif
             </div>
-            @if($saved)
-                <div class="alert alert-success">
-                    {{ __('subjects.skills.rubric.builder.saved') }}
-                </div>
-            @else
-                <div class="alert alert-warning">
-                    {{ __('subjects.skills.rubric.builder.saved.no') }}
-                    <button
-                        type="button"
-                        class="btn btn-danger btn-sm ms-2"
-                        wire:click="discardChanges()"
-                        wire:confirm="{{ __('subjects.skills.rubric.builder.saved.discard.confirm') }}"
-                    >{{ __('subjects.skills.rubric.builder.saved.discard') }}</button>
-                </div>
-            @endif
         </div>
-        <div class="alert alert-info ms-2">
-            {!! $skill->getDescription() !!}
+        <div class="col-8">
+            <div class="alert alert-info ms-2">
+                {!! $skill->getDescription() !!}
+            </div>
         </div>
     </div>
     <table class="table table-bordered" style="table-layout: fixed;">
