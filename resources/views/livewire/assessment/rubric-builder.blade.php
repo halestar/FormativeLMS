@@ -67,7 +67,7 @@
     </div>
     @if($canUseAI)
         <div class="row justify-content-md-center text-center">
-            <livewire:ai.run-model-prompt :model="$skill" classes="col-lg-12" />
+            <livewire:ai.run-model-prompt :model="$skill" classes="col-lg-12"/>
         </div>
     @endif
     <div class="table-responsive-lg p-5">

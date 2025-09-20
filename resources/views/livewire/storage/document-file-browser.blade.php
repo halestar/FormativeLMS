@@ -1,9 +1,9 @@
 <div class="mw-100 mh-100 overflow-hidden p-3 position-relative h-100 pb-5">
     <h5 class="card-header d-flex justify-content-start align-items-center">
         @if($connection->canPersistFiles())
-        <button class="btn btn-outline-light" wire:click="addFolder()">
-            <i class="fa-solid fa-folder-plus text-warning"></i>
-        </button>
+            <button class="btn btn-outline-light" wire:click="addFolder()">
+                <i class="fa-solid fa-folder-plus text-warning"></i>
+            </button>
         @endif
         <div class="flex-grow-1 me-2">
             <div class="input-group">
@@ -26,7 +26,7 @@
 
     <div
             @if($connection->canPersistFiles())
-            x-data="{asset_dragging: false, asset_path: '', external_dragging: false, ul_error: false, ul_progress: -1, ul_success: false}"
+                x-data="{asset_dragging: false, asset_path: '', external_dragging: false, ul_error: false, ul_progress: -1, ul_success: false}"
             x-on:dragenter="external_dragging = !asset_dragging"
             x-on:dragover.prevent="external_dragging = !asset_dragging"
             x-on:dragend="external_dragging = false"
@@ -177,7 +177,7 @@
                                                 wire:click="viewFile('{{ $asset->path }}')"
                                         ><i class="fa fa-search"></i></button>
                                     @endif
-                                        @if($connection->canPersistFiles() && $asset->canDelete)
+                                    @if($connection->canPersistFiles() && $asset->canDelete)
                                         <button
                                                 type="button"
                                                 class="btn btn-outline-danger btn-sm rounded"
@@ -231,11 +231,11 @@
             @endforeach
         </div>
         @if($connection->canPersistFiles())
-        <div
-                x-on:dragenter="external_dragging = !asset_dragging"
-                x-on:dragover.prevent="external_dragging = !asset_dragging"
-                x-on:dragleave="external_dragging = false"
-                x-on:drop="
+            <div
+                    x-on:dragenter="external_dragging = !asset_dragging"
+                    x-on:dragover.prevent="external_dragging = !asset_dragging"
+                    x-on:dragleave="external_dragging = false"
+                    x-on:drop="
                     files = $event.dataTransfer.files;
                     if(files.length === 1)
                     {
@@ -252,16 +252,16 @@
                             () => {});
                     }
                     external_dragging = false"
-                class="position-absolute top-0 start-0 w-100 h-100 text-bg-secondary opacity-75 d-flex justify-content-center align-items-center"
-                :class="external_dragging || 'd-none'"
-                id="ul-overlay"
-        >
+                    class="position-absolute top-0 start-0 w-100 h-100 text-bg-secondary opacity-75 d-flex justify-content-center align-items-center"
+                    :class="external_dragging || 'd-none'"
+                    id="ul-overlay"
+            >
             <span
                     class="display-2"
                     x-on:dragenter="external_dragging = true"
                     x-on:dragover.prevent="external_dragging = true"
             >{{ __('storage.document.asset.drop') }}</span>
-        </div>
+            </div>
         @endif
 
     </div>

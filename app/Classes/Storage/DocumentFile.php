@@ -28,7 +28,7 @@ class DocumentFile implements Arrayable, JsonSerializable
 		public bool $canDelete = false,
 		public bool $canChangeName = false,
 		public bool $isUpload = false
-	){}
+	) {}
 	
 	public static function fromUploadedFile(UploadedFile $file): DocumentFile
 	{
@@ -47,34 +47,6 @@ class DocumentFile implements Arrayable, JsonSerializable
 			false,
 			true
 		);
-	}
-	
-	public function safeName()
-	{
-		return preg_replace('/[^a-zA-Z0-9\-_.]/', '', $this->name);
-	}
-	public function toArray()
-	{
-		return
-		[
-			'school_id' => $this->school_id,
-			'isFolder' => $this->isFolder,
-			'name' => $this->name,
-			'path' => $this->path,
-			'mimeType' => $this->mimeType,
-			'size' => $this->size,
-			'connection_id' => $this->connection_id,
-			'icon' => $this->icon,
-			'canPreview' => $this->canPreview,
-			'canDelete' => $this->canDelete,
-			'canChangeName' => $this->canChangeName,
-			'isUpload' => $this->isUpload,
-		];
-	}
-	
-	public function jsonSerialize(): mixed
-	{
-		return $this->toArray();
 	}
 	
 	public static function hydrate(array $data): DocumentFile
@@ -96,25 +68,58 @@ class DocumentFile implements Arrayable, JsonSerializable
 		);
 	}
 	
+	public function safeName()
+	{
+		return preg_replace('/[^a-zA-Z0-9\-_.]/', '', $this->name);
+	}
+	
+	public function jsonSerialize(): mixed
+	{
+		return $this->toArray();
+	}
+	
+	public function toArray()
+	{
+		return
+			[
+				'school_id' => $this->school_id,
+				'isFolder' => $this->isFolder,
+				'name' => $this->name,
+				'path' => $this->path,
+				'mimeType' => $this->mimeType,
+				'size' => $this->size,
+				'connection_id' => $this->connection_id,
+				'icon' => $this->icon,
+				'canPreview' => $this->canPreview,
+				'canDelete' => $this->canDelete,
+				'canChangeName' => $this->canChangeName,
+				'isUpload' => $this->isUpload,
+			];
+	}
+	
 	public function person(): Person
 	{
-		return Person::where('school_id', $this->school_id)->first();
+		return Person::where('school_id', $this->school_id)
+		             ->first();
+	}
+	
+	public function preview(): string
+	{
+		return $this->connection()
+		            ->previewFile($this);
 	}
 	
 	public function connection(): ?DocumentFilesConnection
 	{
 		if($this->connection_id == 0) return null;
-		return IntegrationConnection::where('id', $this->connection_id)->first();
-	}
-	
-	public function preview(): string
-	{
-		return $this->connection()->previewFile($this);
+		return IntegrationConnection::where('id', $this->connection_id)
+		                            ->first();
 	}
 	
 	public function getExportFile(): ?ExportFile
 	{
-		if($this->isUpload) {
+		if($this->isUpload)
+		{
 			$info = pathinfo($this->path);
 			return new ExportFile
 			(
@@ -125,6 +130,7 @@ class DocumentFile implements Arrayable, JsonSerializable
 				$this->size
 			);
 		}
-		return $this->connection()->exportFile($this);
+		return $this->connection()
+		            ->exportFile($this);
 	}
 }

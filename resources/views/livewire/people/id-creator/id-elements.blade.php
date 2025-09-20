@@ -9,15 +9,15 @@
 </div>
 <ul class="list-group">
     @foreach(config('lms.school_id_elements') as $element)
-    <li
-        class="list-group-item show-as-grab list-group-item-action d-flex align-items-center"
-        draggable="true"
-        x-on:dragstart="
+        <li
+                class="list-group-item show-as-grab list-group-item-action d-flex align-items-center"
+                draggable="true"
+                x-on:dragstart="
             draggingType = 'element';
             draggingContent = '{!! str_replace('\\', '\\\\', $element) !!}';
         "
-    >
-        <span class="fs-4">{{ $element::getName() }}</span>
-    </li>
+        >
+            <span class="fs-4">{{ $element::getName() }}</span>
+        </li>
     @endforeach
 </ul>

@@ -7,7 +7,8 @@
                         <option value="prompt">{{ __('ai.prompt') }}</option>
                         <option value="system">{{ __('ai.prompt.system') }}</option>
                     </select>
-                    <button type="button" class="btn btn-warning" wire:click="resetPrompt">{{ __('ai.prompt.reset') }}</button>
+                    <button type="button" class="btn btn-warning"
+                            wire:click="resetPrompt">{{ __('ai.prompt.reset') }}</button>
                 </div>
                 <div class="alert alert-info mb-3">{{ __('ai.prompt.description') }}</div>
                 <livewire:utilities.text-editor
@@ -39,8 +40,10 @@
             </div>
         </div>
         <div class="row">
-            <button type="button" wire:click="updatePrompt" class="col btn btn-primary mx-2" id="update_button">{{ __('common.update') }}</button>
-            <button type="button" wire:click="revert" class="col btn btn-warning mx-2">{{ __('common.revert') }}</button>
+            <button type="button" wire:click="updatePrompt" class="col btn btn-primary mx-2"
+                    id="update_button">{{ __('common.update') }}</button>
+            <button type="button" wire:click="revert"
+                    class="col btn btn-warning mx-2">{{ __('common.revert') }}</button>
         </div>
     </div>
 </div>

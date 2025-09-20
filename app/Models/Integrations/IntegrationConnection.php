@@ -16,24 +16,17 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 class IntegrationConnection extends Pivot
 {
 	use HasUuids;
+	
 	/*************************************************
 	 * PROPERTIES
 	 */
 	use UsesJsonValue;
-	protected $table = "integration_connections";
+	
 	public $timestamps = false;
 	public $incrementing = false;
+	protected $table = "integration_connections";
 	protected $primaryKey = "id";
 	protected $keyType = 'string';
-	
-	protected function casts(): array
-	{
-		return
-			[
-				'data' => AsJsonData::class,
-				'enabled' => 'boolean',
-			];
-	}
 	
 	public function isSystemConnection(): bool
 	{
@@ -74,6 +67,15 @@ class IntegrationConnection extends Pivot
 			'id', 'id', 'service_id', 'integrator_id');
 	}
 	
+	protected function casts(): array
+	{
+		return
+			[
+				'data' => AsJsonData::class,
+				'enabled' => 'boolean',
+			];
+	}
+	
 	/*****************************************************************
 	 * SCOPES
 	 */
@@ -88,6 +90,7 @@ class IntegrationConnection extends Pivot
 	{
 		$query->whereNull('integration_connections.person_id');
 	}
+	
 	#[Scope]
 	protected function personal(Builder $query): void
 	{

@@ -25,157 +25,159 @@ use Illuminate\Support\Collection;
 #[ScopedBy(OrderByOrderScope::class)]
 class Campus extends Model
 {
-    use Phoneable, Addressable, Leveable;
-    public $timestamps = true;
-    protected $table = "campuses";
-    protected $primaryKey = "id";
-    public $incrementing = true;
-    protected $fillable =
-        [
-            'name',
-            'abbr',
-            'title',
-            'established',
-            'order',
-            'img',
-            'color_pri',
-            'color_sec',
-        ];
-
-    protected function casts(): array
-    {
-        return
-            [
-                'established' => 'date: Y',
-            ];
-    }
-
-    public function img(): Attribute
-    {
-        return Attribute::make
-        (
-            get: fn(?string $img) => $img?? asset('images/campus_img_placeholder.png'),
-        );
-    }
-
-    public function canDelete(): bool
-    {
-        return true;
-    }
-
-    public function canRemoveLevel(Level|int $level): bool
-    {
-        return true;
-    }
-
-    public function terms():HasMany
-    {
-        return $this->hasMany(Term::class, 'campus_id');
-    }
-
-    public function yearTerms(Year $year): HasMany
-    {
-        return $this->terms()->where('year_id', $year->id);
-    }
-
-    public function iconHtml($size = "normal", $css = null): string
-    {
-        return '<div class="border rounded p-2 icon-container ' . $css . '" style="background-color:' .
-                $this->color_pri . ';"><div class="campus-icon-' . $size .
-                '" style="color: ' . $this->color_sec . ';">' . $this->icon . '</div></div>';
-    }
-
-    public function rooms(): BelongsToMany
-    {
-        return $this->belongsToMany(Room::class, 'campuses_rooms', 'campus_id', 'room_id')
-            ->using(CampusRoom::class)
-            ->as('info')
-            ->withPivot(
-                [
-                    'label', 'classroom',
-                ]);
-    }
-
-    public function buildings(): Collection
-    {
-        return Building::select('buildings.*')
-            ->join('buildings_areas', 'buildings.id', '=', 'buildings_areas.building_id')
-            ->join('rooms', 'rooms.area_id', '=', 'buildings_areas.id')
-            ->join('campuses_rooms', 'rooms.id', '=', 'campuses_rooms.room_id')
-            ->where('campuses_rooms.campus_id', $this->id)
-            ->groupBy('buildings.id')
-            ->get();
-    }
-
-    public function buildingAreas(Building $building = null): Collection
-    {
-        $query = BuildingArea::select('buildings_areas.*')
-            ->join('rooms', 'rooms.area_id', '=', 'buildings_areas.id')
-            ->join('campuses_rooms', 'rooms.id', '=', 'campuses_rooms.room_id')
-            ->where('campuses_rooms.campus_id', $this->id);
-        if($building)
-            $query->where('buildings_areas.building_id', $building->id);
-        $query->groupBy('buildings_areas.id');
-        return $query->get();
-    }
-
-    public function subjects(): HasMany
-    {
-        return $this->hasMany(Subject::class, 'campus_id');
-    }
-
-    public function courses(): HasManyThrough
-    {
-        return $this->hasManyThrough(Course::class, Subject::class, 'campus_id', 'subject_id');
-    }
-
-    public function employees(): BelongsToMany
-    {
-        return $this->morphedByMany(Person::class, 'campusable', 'campusables');
-    }
-
-    public function students(Year $year = null): HasMany
-    {
-        if(!$year)
-            $year = Year::currentYear();
-        return $this->hasMany(StudentRecord::class, 'campus_id')
-            ->where('year_id', $year->id);
-    }
-
-    public function parents(Year $year = null): ?Collection
-    {
-        if(!$year)
-            $year = Year::currentYear();
-        return Person::select('people.*')
-            ->join('people_relations', 'people.id', '=', 'people_relations.to_person_id')
-            ->join('student_records', 'people_relations.from_person_id', '=', 'student_records.person_id')
-            ->where('student_records.year_id', $year->id)
-            ->where('student_records.campus_id', $this->id)
-            ->where('people_relations.relationship_id', Relationship::CHILD)
-            ->groupBy('people.id')
-            ->get();
-    }
-
-    public function employeesByRole(string $role): ?Collection
-    {
-        return $this->employees()
-            ->join('model_has_roles', 'model_has_roles.model_id', '=', 'people.id')
-            ->join('roles', 'roles.id', '=', 'model_has_roles.role_id')
-            ->where('model_has_roles.model_type', Person::class)
-            ->where('roles.name', '=', $role)
-            ->get();
-    }
-
-    public function periods(int $day = null): HasMany
-    {
-        $query = $this->hasMany(Period::class, 'campus_id');
-        if($day)
-            $query->where('day', $day);
-        return $query;
-    }
-
-    public function blocks(): HasMany
-    {
-        return $this->hasMany(Block::class, 'campus_id');
-    }
+	use Phoneable, Addressable, Leveable;
+	
+	public $timestamps = true;
+	public $incrementing = true;
+	protected $table = "campuses";
+	protected $primaryKey = "id";
+	protected $fillable =
+		[
+			'name',
+			'abbr',
+			'title',
+			'established',
+			'order',
+			'img',
+			'color_pri',
+			'color_sec',
+		];
+	
+	public function img(): Attribute
+	{
+		return Attribute::make
+		(
+			get: fn(?string $img) => $img ?? asset('images/campus_img_placeholder.png'),
+		);
+	}
+	
+	public function canDelete(): bool
+	{
+		return true;
+	}
+	
+	public function canRemoveLevel(Level|int $level): bool
+	{
+		return true;
+	}
+	
+	public function yearTerms(Year $year): HasMany
+	{
+		return $this->terms()
+		            ->where('year_id', $year->id);
+	}
+	
+	public function terms(): HasMany
+	{
+		return $this->hasMany(Term::class, 'campus_id');
+	}
+	
+	public function iconHtml($size = "normal", $css = null): string
+	{
+		return '<div class="border rounded p-2 icon-container ' . $css . '" style="background-color:' .
+			$this->color_pri . ';"><div class="campus-icon-' . $size .
+			'" style="color: ' . $this->color_sec . ';">' . $this->icon . '</div></div>';
+	}
+	
+	public function rooms(): BelongsToMany
+	{
+		return $this->belongsToMany(Room::class, 'campuses_rooms', 'campus_id', 'room_id')
+		            ->using(CampusRoom::class)
+		            ->as('info')
+		            ->withPivot(
+			            [
+				            'label', 'classroom',
+			            ]);
+	}
+	
+	public function buildings(): Collection
+	{
+		return Building::select('buildings.*')
+		               ->join('buildings_areas', 'buildings.id', '=', 'buildings_areas.building_id')
+		               ->join('rooms', 'rooms.area_id', '=', 'buildings_areas.id')
+		               ->join('campuses_rooms', 'rooms.id', '=', 'campuses_rooms.room_id')
+		               ->where('campuses_rooms.campus_id', $this->id)
+		               ->groupBy('buildings.id')
+		               ->get();
+	}
+	
+	public function buildingAreas(Building $building = null): Collection
+	{
+		$query = BuildingArea::select('buildings_areas.*')
+		                     ->join('rooms', 'rooms.area_id', '=', 'buildings_areas.id')
+		                     ->join('campuses_rooms', 'rooms.id', '=', 'campuses_rooms.room_id')
+		                     ->where('campuses_rooms.campus_id', $this->id);
+		if($building)
+			$query->where('buildings_areas.building_id', $building->id);
+		$query->groupBy('buildings_areas.id');
+		return $query->get();
+	}
+	
+	public function subjects(): HasMany
+	{
+		return $this->hasMany(Subject::class, 'campus_id');
+	}
+	
+	public function courses(): HasManyThrough
+	{
+		return $this->hasManyThrough(Course::class, Subject::class, 'campus_id', 'subject_id');
+	}
+	
+	public function students(Year $year = null): HasMany
+	{
+		if(!$year)
+			$year = Year::currentYear();
+		return $this->hasMany(StudentRecord::class, 'campus_id')
+		            ->where('year_id', $year->id);
+	}
+	
+	public function parents(Year $year = null): ?Collection
+	{
+		if(!$year)
+			$year = Year::currentYear();
+		return Person::select('people.*')
+		             ->join('people_relations', 'people.id', '=', 'people_relations.to_person_id')
+		             ->join('student_records', 'people_relations.from_person_id', '=', 'student_records.person_id')
+		             ->where('student_records.year_id', $year->id)
+		             ->where('student_records.campus_id', $this->id)
+		             ->where('people_relations.relationship_id', Relationship::CHILD)
+		             ->groupBy('people.id')
+		             ->get();
+	}
+	
+	public function employeesByRole(string $role): ?Collection
+	{
+		return $this->employees()
+		            ->join('model_has_roles', 'model_has_roles.model_id', '=', 'people.id')
+		            ->join('roles', 'roles.id', '=', 'model_has_roles.role_id')
+		            ->where('model_has_roles.model_type', Person::class)
+		            ->where('roles.name', '=', $role)
+		            ->get();
+	}
+	
+	public function employees(): BelongsToMany
+	{
+		return $this->morphedByMany(Person::class, 'campusable', 'campusables');
+	}
+	
+	public function periods(int $day = null): HasMany
+	{
+		$query = $this->hasMany(Period::class, 'campus_id');
+		if($day)
+			$query->where('day', $day);
+		return $query;
+	}
+	
+	public function blocks(): HasMany
+	{
+		return $this->hasMany(Block::class, 'campus_id');
+	}
+	
+	protected function casts(): array
+	{
+		return
+			[
+				'established' => 'date: Y',
+			];
+	}
 }

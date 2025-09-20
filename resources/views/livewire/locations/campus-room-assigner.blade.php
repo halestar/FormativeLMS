@@ -7,10 +7,11 @@
             @endforeach
         </select>
         <button
-            type="button"
-            wire:click="addBuilding()"
-            class="btn btn-primary"
-        >Add</button>
+                type="button"
+                wire:click="addBuilding()"
+                class="btn btn-primary"
+        >Add
+        </button>
     </div>
     <div class="input-group mb-3">
         <label for="area" class="input-group-text">Using the room above, add all rooms in the area </label>
@@ -20,10 +21,11 @@
             @endforeach
         </select>
         <button
-            type="button"
-            wire:click="addBuildingArea()"
-            class="btn btn-primary"
-        >Add</button>
+                type="button"
+                wire:click="addBuildingArea()"
+                class="btn btn-primary"
+        >Add
+        </button>
     </div>
 
     <div class="input-group mb-3">
@@ -34,10 +36,11 @@
             @endforeach
         </select>
         <button
-            type="button"
-            wire:click="addRoom()"
-            class="btn btn-primary"
-        >Add</button>
+                type="button"
+                wire:click="addRoom()"
+                class="btn btn-primary"
+        >Add
+        </button>
     </div>
 
 
@@ -46,9 +49,9 @@
             <h3 class="border-bottom d-flex justify-content-between align-items-end">
                 {{ $building->name }}
                 <button
-                    type="button"
-                    class="btn btn-danger btn-sm"
-                    wire:click="removeBuilding({{ $building->id }})"
+                        type="button"
+                        class="btn btn-danger btn-sm"
+                        wire:click="removeBuilding({{ $building->id }})"
                 ><i class="fa-solid fa-times"></i></button>
             </h3>
             @foreach($buildingAreas->where('building_id', $building->id) as $area)
@@ -56,25 +59,26 @@
                     <h4 class="border-bottom d-flex justify-content-between align-items-end">
                         {{ $area->name }}
                         <button
-                            type="button"
-                            class="btn btn-danger btn-sm"
-                            wire:click="removeBuildingArea({{ $area->id }})"
+                                type="button"
+                                class="btn btn-danger btn-sm"
+                                wire:click="removeBuildingArea({{ $area->id }})"
                         ><i class="fa-solid fa-times"></i></button>
                     </h4>
                     <ul class="list-group list-group-flush">
                         @foreach($rooms->where('area_id', $area->id) as $room)
-                            <li class="list-group-item list-group-item-action ms-3 mb-1 pb-0" wire:key="{{ $room->id }}">
+                            <li class="list-group-item list-group-item-action ms-3 mb-1 pb-0"
+                                wire:key="{{ $room->id }}">
                                 <div class="row align-items-center">
                                     <label class="col-4">
                                         {{ $room->name }}
                                     </label>
                                     <div class="form-check col-3">
                                         <input
-                                            class="form-check-input"
-                                            type="checkbox"
-                                            wire:click="toggleClassroom({{ $room->id }}, {{ $room->info->classroom ? 0 : 1 }})"
-                                            id="classroom_{{ $room->id }}"
-                                            @if($room->info->classroom)checked @endif
+                                                class="form-check-input"
+                                                type="checkbox"
+                                                wire:click="toggleClassroom({{ $room->id }}, {{ $room->info->classroom ? 0 : 1 }})"
+                                                id="classroom_{{ $room->id }}"
+                                                @if($room->info->classroom)checked @endif
                                         >
                                         <label class="form-check-label" for="classroom_{{ $room->id }}">
                                             Classroom
@@ -83,21 +87,21 @@
                                     <div class="col-4">
                                         <div class="form-floating ">
                                             <input
-                                                type="text"
-                                                class="form-control"
-                                                id="label_{{ $room->id }}"
-                                                placeholder="{{ __('locations.rooms.label') }}"
-                                                value="{{ $room->info->label }}"
-                                                wire:change="updateLabel({{ $room->id }}, $event.target.value)"
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="label_{{ $room->id }}"
+                                                    placeholder="{{ __('locations.rooms.label') }}"
+                                                    value="{{ $room->info->label }}"
+                                                    wire:change="updateLabel({{ $room->id }}, $event.target.value)"
                                             />
                                             <label for="label_{{ $room->id }}">{{ __('locations.rooms.label') }}</label>
                                         </div>
                                     </div>
                                     <div class="col-1 ms-auto">
                                         <button
-                                            type="button"
-                                            class="btn btn-danger btn-sm"
-                                            wire:click="removeRoom({{ $room->id }})"
+                                                type="button"
+                                                class="btn btn-danger btn-sm"
+                                                wire:click="removeRoom({{ $room->id }})"
                                         ><i class="fa-solid fa-times"></i></button>
                                     </div>
                                 </div>

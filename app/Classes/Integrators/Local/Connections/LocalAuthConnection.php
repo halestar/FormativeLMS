@@ -12,18 +12,39 @@ use Illuminate\Support\Facades\Hash;
 class LocalAuthConnection extends AuthConnection
 {
 	use ThrottlesLogins;
-	protected int $maxAttempts;
-	protected int $decayMinutes;
+	
 	protected static array $instanceDefaults =
 		[
 			'password' => null,
 			'must_change_password' => false,
 		];
+	protected int $maxAttempts;
+	protected int $decayMinutes;
 	
-	
-	public function username()
+	public static function requiresPassword(): bool
 	{
-		return 'email';
+		return true;
+	}
+	
+	public static function requiresRedirection(): bool
+	{
+		return false;
+	}
+	
+	public static function loginButton(): string
+	{
+		$html = <<< EOHTML
+<div class="border border-dark rounded-4 text-bg-secondary fs-5 p-2 fw-bolder">
+	<span class="pe-2 me-2"><i class="fa-solid fa-right-to-bracket"></i></span>
+	Login Locally
+</div>
+EOHTML;
+		return Blade::render($html);
+	}
+	
+	public static function callback(): \Illuminate\Http\RedirectResponse|\Symfony\Component\HttpFoundation\RedirectResponse|null
+	{
+		return null;
 	}
 	
 	protected static function booted(): void
@@ -35,14 +56,9 @@ class LocalAuthConnection extends AuthConnection
 		});
 	}
 	
-	public static function requiresPassword(): bool
+	public function username()
 	{
-		return true;
-	}
-	
-	public static function requiresRedirection(): bool
-	{
-		return false;
+		return 'email';
 	}
 	
 	public function canChangePassword(): bool
@@ -87,7 +103,8 @@ class LocalAuthConnection extends AuthConnection
 		$this->incrementLoginAttempts(request());
 		//has there been enough login attempts?
 		if($this->hasTooManyLoginAttempts(request()))
-			$this->lockUser(true, Carbon::now()->addMinutes($this->data->lockoutTimeout));
+			$this->lockUser(true, Carbon::now()
+			                            ->addMinutes($this->data->lockoutTimeout));
 		return false;
 	}
 	
@@ -107,17 +124,6 @@ class LocalAuthConnection extends AuthConnection
 		return $this->data->must_change_password;
 	}
 	
-	public static function loginButton(): string
-	{
-		$html = <<< EOHTML
-<div class="border border-dark rounded-4 text-bg-secondary fs-5 p-2 fw-bolder">
-	<span class="pe-2 me-2"><i class="fa-solid fa-right-to-bracket"></i></span>
-	Login Locally
-</div>
-EOHTML;
-		return Blade::render($html);
-	}
-	
 	public function verifyPassword(string $password): bool
 	{
 		if(!$password || !$this->data->password) return false;
@@ -125,11 +131,6 @@ EOHTML;
 	}
 	
 	public function redirect(): \Illuminate\Http\RedirectResponse|\Symfony\Component\HttpFoundation\RedirectResponse|null
-	{
-		return null;
-	}
-	
-	public static function callback(): \Illuminate\Http\RedirectResponse|\Symfony\Component\HttpFoundation\RedirectResponse|null
 	{
 		return null;
 	}

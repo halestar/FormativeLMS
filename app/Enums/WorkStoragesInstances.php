@@ -16,7 +16,7 @@ enum WorkStoragesInstances: string
 	
 	public function label(): string
 	{
-		return match($this)
+		return match ($this)
 		{
 			self::StudentWork => __('integrators.work.student_work'),
 			self::EmployeeWork => __('integrators.work.employee_work'),

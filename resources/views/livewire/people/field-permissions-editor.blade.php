@@ -6,7 +6,7 @@
                 <option value="0">{{ __('people.fields.permissions.basic') }}</option>
                 @foreach(\App\Models\Utilities\SchoolRoles::all() as $schoolRole)
                     @if(count($schoolRole->fields) > 0)
-                    <option value="{{ $schoolRole->id }}">{{ $schoolRole->name }}</option>
+                        <option value="{{ $schoolRole->id }}">{{ $schoolRole->name }}</option>
                     @endif
                 @endforeach
             </select>
@@ -35,11 +35,11 @@
             </tr>
             </thead>
             <tbody>
-                @foreach($fields as $field)
-                    <tr>
-                        <td>{{ $selectedRole? $selectedRole->fields[$field->field]->fieldName: __('people.profile.fields.' . $field->field) }}</td>
-                        <td class="text-center">
-                            <input
+            @foreach($fields as $field)
+                <tr>
+                    <td>{{ $selectedRole? $selectedRole->fields[$field->field]->fieldName: __('people.profile.fields.' . $field->field) }}</td>
+                    <td class="text-center">
+                        <input
                                 type="checkbox"
                                 value="1"
                                 class="form-check-input"
@@ -47,10 +47,10 @@
                                     checked
                                 @endif
                                 wire:click="toggleField({{ $field->id }},'by_self')"
-                            />
-                        </td>
-                        <td class="text-center">
-                            <input
+                        />
+                    </td>
+                    <td class="text-center">
+                        <input
                                 type="checkbox"
                                 value="1"
                                 class="form-check-input"
@@ -58,10 +58,10 @@
                                     checked
                                 @endif
                                 wire:click="toggleField({{ $field->id }},'editable')"
-                            />
-                        </td>
-                        <td class="text-center">
-                            <input
+                        />
+                    </td>
+                    <td class="text-center">
+                        <input
                                 type="checkbox"
                                 value="1"
                                 class="form-check-input"
@@ -69,10 +69,10 @@
                                     checked
                                 @endif
                                 wire:click="toggleField({{ $field->id }},'by_employees')"
-                            />
-                        </td>
-                        <td class="text-center">
-                            <input
+                        />
+                    </td>
+                    <td class="text-center">
+                        <input
                                 type="checkbox"
                                 value="1"
                                 class="form-check-input"
@@ -80,10 +80,10 @@
                                     checked
                                 @endif
                                 wire:click="toggleField({{ $field->id }},'by_students')"
-                            />
-                        </td>
-                        <td class="text-center">
-                            <input
+                        />
+                    </td>
+                    <td class="text-center">
+                        <input
                                 type="checkbox"
                                 value="1"
                                 class="form-check-input"
@@ -91,10 +91,10 @@
                                     checked
                                 @endif
                                 wire:click="toggleField({{ $field->id }},'by_parents')"
-                            />
-                        </td>
-                    </tr>
-                @endforeach
+                        />
+                    </td>
+                </tr>
+            @endforeach
             </tbody>
         </table>
     </div>

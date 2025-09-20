@@ -20,10 +20,11 @@
                             <p>{{ __('people.profile.links.groups.settings') }}</p>
                             <a href="{{ route('people.school-ids.show') }}">{{ __('people.id.mine') }}</a><br/>
                             @if($person->authConnection?->canChangePassword())
-                                <a href="{{ route('people.password') }}">{{ __('settings.auth.password.change') }}</a><br/>
+                                <a href="{{ route('people.password') }}">{{ __('settings.auth.password.change') }}</a>
+                                <br/>
                             @endif
                             <p>{{ __('integrators.integrations') }}</p>
-                            <livewire:auth.user-integrations />
+                            <livewire:auth.user-integrations/>
                         @endif
                     </div>
                 </div>
@@ -39,13 +40,15 @@
                             </h5>
                             <h6>
                                 <div>
-                                    <strong class="me-2">{{ __('settings.roles') }}:</strong> {{ $person->roles->pluck('name')->join(', ') }}
+                                    <strong class="me-2">{{ __('settings.roles') }}
+                                        :</strong> {{ $person->roles->pluck('name')->join(', ') }}
                                 </div>
                             </h6>
                             @if($person->isEmployee())
                                 <h6>
                                     <div>
-                                        <strong class="me-2">{{ trans_choice('locations.campus',2) }}:</strong> {{ $person->employeeCampuses->pluck('name')->join(', ') }}
+                                        <strong class="me-2">{{ trans_choice('locations.campus',2) }}
+                                            :</strong> {{ $person->employeeCampuses->pluck('name')->join(', ') }}
                                     </div>
                                 </h6>
                             @endif
@@ -69,7 +72,9 @@
                                                 {{ $student->person->name }}
                                                 ({{ $student->level->name }}, {{ $student->campus->name }})
                                             </a>
-                                            @if(!$loop->last), @endif
+                                            @if(!$loop->last)
+                                                ,
+                                            @endif
                                         @endforeach
                                     </div>
                                 </h6>
@@ -85,20 +90,20 @@
                     {{-- User Control --}}
                     <div class="col-md-4">
                         <div class="d-flex flex-column align-items-center">
-                        @can('edit', $person)
-                            <a type="button"
-                               class="btn btn-secondary profile-edit-btn mb-2"
-                               href="{{ route('people.edit', ['person' => $person->school_id]) }}"
-                            >{{ __('people.profile.edit') }}</a>
-                        @endcan
-                        @can('people.impersonate')
-                            @if($person->canBeImpersonated())
-                            <a type="button"
-                               class="btn btn-warning profile-edit-btn"
-                               href="{{ route('impersonate', $person->school_id) }}"
-                            >{{ __('people.impersonate') }}</a>
-                            @endif
-                        @endcan
+                            @can('edit', $person)
+                                <a type="button"
+                                   class="btn btn-secondary profile-edit-btn mb-2"
+                                   href="{{ route('people.edit', ['person' => $person->school_id]) }}"
+                                >{{ __('people.profile.edit') }}</a>
+                            @endcan
+                            @can('people.impersonate')
+                                @if($person->canBeImpersonated())
+                                    <a type="button"
+                                       class="btn btn-warning profile-edit-btn"
+                                       href="{{ route('impersonate', $person->school_id) }}"
+                                    >{{ __('people.impersonate') }}</a>
+                                @endif
+                            @endcan
                         </div>
                     </div>
                 </div>
@@ -212,8 +217,12 @@
                                     <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-top">
                                             <label>
-                                                @if($address->personal->primary) {{ __('addresses.primary') }} @endif
-                                                @if($address->personal->work) {{ __('addresses.work') }} @endif
+                                                @if($address->personal->primary)
+                                                    {{ __('addresses.primary') }}
+                                                @endif
+                                                @if($address->personal->work)
+                                                    {{ __('addresses.work') }}
+                                                @endif
                                                 @if($address->personal->seasonal)
                                                     {{ __('addresses.seasonal_address', ['season_start' => $address->personal->season_start, 'season_end' => $address->personal->season_end]) }}
                                                 @endif
@@ -229,9 +238,15 @@
                                     <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-top">
                                             <label>
-                                                @if($phone->personal->primary) {{ __('addresses.primary') }} @endif
-                                                @if($phone->personal->work) {{ __('addresses.work') }} @endif
-                                                @if($phone->mobile) {{ __('phones.mobile') }} @endif
+                                                @if($phone->personal->primary)
+                                                    {{ __('addresses.primary') }}
+                                                @endif
+                                                @if($phone->personal->work)
+                                                    {{ __('addresses.work') }}
+                                                @endif
+                                                @if($phone->mobile)
+                                                    {{ __('phones.mobile') }}
+                                                @endif
                                                 {{ __('phones.phone') }}:
                                             </label>
                                             <span>{!! $phone->prettyPhone !!}</span>
@@ -261,7 +276,8 @@
                         @if(count($role->fields) > 0)
                             <div
                                     class="tab-pane fade"
-                                    id="tab-pane-role-{{ $role->id }}" role="tabpanel" aria-labelledby="tab-role-{{ $role->id }}"
+                                    id="tab-pane-role-{{ $role->id }}" role="tabpanel"
+                                    aria-labelledby="tab-role-{{ $role->id }}"
                                     tabindex="{{ $loop->iteration + 10 }}"
                             >
                                 <ul class="list-group list-group-flush hoverable">
@@ -287,9 +303,9 @@
                                 tabindex="1"
                         >
                             @if($person->isStudent())
-                                <x-schedule-viewer :schedule-sources="$person->student()->classSessions" :width="700" />
+                                <x-schedule-viewer :schedule-sources="$person->student()->classSessions" :width="700"/>
                             @else
-                                <x-schedule-viewer :schedule-sources="$person->currentClassSessions" :width="700" />
+                                <x-schedule-viewer :schedule-sources="$person->currentClassSessions" :width="700"/>
                             @endif
                         </div>
                     @endif

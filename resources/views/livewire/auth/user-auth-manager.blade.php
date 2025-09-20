@@ -10,29 +10,33 @@
             </select>
         </div>
         <div class="d-flex justify-content-between align-items-center">
-            <button type="button" class="btn btn-primary" wire:click="applyChangeAuth">{{ __('common.assign') }}</button>
-            <button type="button" class="btn btn-secondary" wire:click="cancelChangeAuth">{{ __('common.cancel') }}</button>
+            <button type="button" class="btn btn-primary"
+                    wire:click="applyChangeAuth">{{ __('common.assign') }}</button>
+            <button type="button" class="btn btn-secondary"
+                    wire:click="cancelChangeAuth">{{ __('common.cancel') }}</button>
         </div>
     @elseif($changingPasswd)
         <form wire:submit="resetPassword">
             <div class="mb-3">
                 <label for="change_auth" class="form-label">{{ __('settings.auth.password.change') }}</label>
-                <livewire:auth.password-field wire:model="newPassword" show-clear-password="true" show-generate-password="true" />
+                <livewire:auth.password-field wire:model="newPassword" show-clear-password="true"
+                                              show-generate-password="true"/>
             </div>
             @if($person->authConnection && $person->authConnection->canChangePassword())
                 <div class="form-check mb-3">
                     <input
-                        type="checkbox"
-                        class="form-check-input"
-                        wire:model="mustChangePassword"
-                        id="mustChangePassword"
+                            type="checkbox"
+                            class="form-check-input"
+                            wire:model="mustChangePassword"
+                            id="mustChangePassword"
                     />
                     <label for="mustChangePassword">{{ __('settings.auth.password.force') }}</label>
                 </div>
             @endif
             <div class="d-flex justify-content-between align-items-center">
                 <button type="submit" class="btn btn-primary">{{ __('common.change') }}</button>
-                <button type="button" class="btn btn-secondary" wire:click="cancelChangePassword">{{ __('common.cancel') }}</button>
+                <button type="button" class="btn btn-secondary"
+                        wire:click="cancelChangePassword">{{ __('common.cancel') }}</button>
             </div>
         </form>
     @else
@@ -47,9 +51,11 @@
         <div class="d-grid gap-2">
             @if($person->authConnection)
                 @if($isLocked)
-                    <button class="btn btn-danger" type="button" wire:click="unlockUser"><b>{{ __('common.locked') }}</b></button>
+                    <button class="btn btn-danger" type="button" wire:click="unlockUser">
+                        <b>{{ __('common.locked') }}</b></button>
                 @else
-                    <button class="btn btn-success" type="button" wire:click="lockUser"><b>{{ __('common.unlocked') }}</b></button>
+                    <button class="btn btn-success" type="button" wire:click="lockUser">
+                        <b>{{ __('common.unlocked') }}</b></button>
                     <button
                             class="btn btn-primary"
                             type="button"
@@ -58,23 +64,27 @@
                     >{{ __('settings.auth.reset') }}</button>
                     @if($person->authConnection->canChangePassword())
                         <button
-                            class="btn @if($passwordWasChanged) btn-success @else btn-danger @endif"
-                            id="change_passwd_btn"
-                            type="button"
-                            wire:click="changePassword"
-                        >@if($passwordWasChanged) {{ __('settings.auth.password.changed') }} @else {{ __('settings.auth.password.change') }} @endif</button>
+                                class="btn @if($passwordWasChanged) btn-success @else btn-danger @endif"
+                                id="change_passwd_btn"
+                                type="button"
+                                wire:click="changePassword"
+                        >@if($passwordWasChanged)
+                                {{ __('settings.auth.password.changed') }}
+                            @else
+                                {{ __('settings.auth.password.change') }}
+                            @endif</button>
                     @endif
                 @endif
             @endif
-            <button class="btn btn-warning" type="button" wire:click="changeAuth">{{ __('settings.auth.change') }}</button>
+            <button class="btn btn-warning" type="button"
+                    wire:click="changeAuth">{{ __('settings.auth.change') }}</button>
         </div>
     @endif
 </div>
 @script
 <script>
     $wire.on('user-auth-manager.password-changed', () => {
-        setTimeout(function()
-        {
+        setTimeout(function () {
             $('#change_passwd_btn').removeClass('btn-success').addClass('btn-danger').html('{{ __('settings.auth.password.change') }}');
         }, 5000)
     });

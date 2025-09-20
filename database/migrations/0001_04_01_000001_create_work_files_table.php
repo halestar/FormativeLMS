@@ -11,12 +11,17 @@ return new class extends Migration
 	 */
 	public function up(): void
 	{
-		Schema::create('work_files', function(Blueprint $table) {
+		Schema::create('work_files', function(Blueprint $table)
+		{
 			$table->uuid('id')
 			      ->primary();
 			$table->string('name');
-			$table->uuid('connection_id')->nullable();
-			$table->foreign('connection_id')->references('id')->on('integration_connections')->onDelete('set null');
+			$table->uuid('connection_id')
+			      ->nullable();
+			$table->foreign('connection_id')
+			      ->references('id')
+			      ->on('integration_connections')
+			      ->onDelete('set null');
 			$table->string('path');
 			$table->string('mime');
 			$table->string('size');

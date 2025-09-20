@@ -8,11 +8,11 @@
             <div class="mb-3">
                 <label for="name" class="form-label">{{ __('settings.role.name') }}</label>
                 <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    class="form-control @error('name') is-invalid @enderror @if(old('__token')) is-valid @endif"
-                    value="{{ old('name') }}"
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="form-control @error('name') is-invalid @enderror @if(old('__token')) is-valid @endif"
+                        value="{{ old('name') }}"
                 />
                 <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
             </div>
@@ -26,13 +26,14 @@
                     <div class='col'>
                         <div class="form-check">
                             <input
-                                type="checkbox"
-                                name="permissions[]"
-                                id="permissions_{{ $permission->id }}"
-                                class="form-check-input"
-                                value="{{ $permission->name }}"
+                                    type="checkbox"
+                                    name="permissions[]"
+                                    id="permissions_{{ $permission->id }}"
+                                    class="form-check-input"
+                                    value="{{ $permission->name }}"
                             />
-                            <label for="permissions_{{ $permission->id }}" class="form-check-label">{{ $permission->name }}</label>
+                            <label for="permissions_{{ $permission->id }}"
+                                   class="form-check-label">{{ $permission->name }}</label>
                         </div>
                     </div>
                 @endforeach
@@ -40,7 +41,8 @@
 
             <div class="row">
                 <button class="btn btn-primary col m-1" type="submit">{{ __('settings.role.new') }}</button>
-                <a class="btn btn-secondary col-md m-1" role="button" href="{{ route('settings.roles.index') }}">{{ __('common.cancel') }}</a>
+                <a class="btn btn-secondary col-md m-1" role="button"
+                   href="{{ route('settings.roles.index') }}">{{ __('common.cancel') }}</a>
             </div>
         </form>
     </div>

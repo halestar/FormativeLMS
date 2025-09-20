@@ -16,7 +16,7 @@
 
     <!-- Stylesheets -->
     @livewireStyles
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}"/>
     @stack('stylesheets')
 
     <!-- Scripts -->
@@ -31,9 +31,9 @@
     @endauth
 </head>
 <body>
-    <div id="app">
-        @include('layouts.menu')
-        @isset($breadcrumb)
+<div id="app">
+    @include('layouts.menu')
+    @isset($breadcrumb)
         <div class="bg-primary-subtle rounded">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ route('home') }}"><span class="fa fa-home"></span></a></li>
@@ -46,82 +46,85 @@
                 @endforeach
             </ol>
         </div>
-        @endisset
-        @if($errors->count() > 0)
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="alert alert-danger">
-                            <strong>{{ __('errors.whoops_something_went_wrong') }}</strong>
-                            <br><br>
-                            <ul>
-                                @foreach ($errors->all() as $error)
-                                    <li>{{ $error }}</li>
-                                @endforeach
-                            </ul>
-                        </div>
+    @endisset
+    @if($errors->count() > 0)
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="alert alert-danger">
+                        <strong>{{ __('errors.whoops_something_went_wrong') }}</strong>
+                        <br><br>
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
                     </div>
                 </div>
             </div>
-        @endif
-        <main class="py-4 position-relative">
-            @yield('content')
-        </main>
-        <div class="toast-container position-fixed bottom-0 end-0 p-3" id="toast-container">
-            @session('success-status')
-            <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" id="success-toast">
-                <div class="toast-header bg-primary-subtle">
-                    <img src="/images/fablms-32.png" class="rounded me-2" alt="fablms-logo">
-                    <strong class="me-auto">{{ __('common.success') }}</strong>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="{{ trans('common.close') }}"></button>
-                </div>
-                <div class="toast-body">
-                    {{ $value }}
-                </div>
-            </div>
-            <script>
-                $(document).ready(function()
-                {
-                    setTimeout(function()
-                    {
-                        $('#success-toast').hide();
-                    }, 3000)
-                })
-            </script>
-            @endsession
-            <template id="toast-template">
-                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                    <div class="toast-header">
-                        <span class="toast-icon me-3"></span>
-                        <strong class="me-auto toast-title"></strong>
-                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="{{ trans('common.close') }}"></button>
-                    </div>
-                    <div class="toast-body"></div>
-                </div>
-            </template>
         </div>
+    @endif
+    <main class="py-4 position-relative">
+        @yield('content')
+    </main>
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" id="toast-container">
+        @session('success-status')
+        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" id="success-toast">
+            <div class="toast-header bg-primary-subtle">
+                <img src="/images/fablms-32.png" class="rounded me-2" alt="fablms-logo">
+                <strong class="me-auto">{{ __('common.success') }}</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast"
+                        aria-label="{{ trans('common.close') }}"></button>
+            </div>
+            <div class="toast-body">
+                {{ $value }}
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                setTimeout(function () {
+                    $('#success-toast').hide();
+                }, 3000)
+            })
+        </script>
+        @endsession
+        <template id="toast-template">
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <span class="toast-icon me-3"></span>
+                    <strong class="me-auto toast-title"></strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast"
+                            aria-label="{{ trans('common.close') }}"></button>
+                </div>
+                <div class="toast-body"></div>
+            </div>
+        </template>
     </div>
-    @auth
-    <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="#search" aria-hidden="true" data-bs-keyboard="false">
-            <livewire:search />
+</div>
+@auth
+    <div class="modal fade" id="search-modal" tabindex="-1" aria-labelledby="#search" aria-hidden="true"
+         data-bs-keyboard="false">
+        <livewire:search/>
     </div>
     <script>
-        $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() });
+        $('#search-modal').on('shown.bs.modal', function () {
+            $('#search').focus()
+        });
         window.sessionSettings = new SessionSettings('{{ Route::currentRouteName() }}');
     </script>
     <div class="modal fade" id="document-browser-modal" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
-        <livewire:storage.document-storage-browser />
+        <livewire:storage.document-storage-browser/>
     </div>
-    @endauth
-    <template id="notification-template">
-        <a class="dropdown-item notification" href="#">
-            <div class="notification-header d-flex justify-content-between align-items-center">
-                <strong class="notification-title"></strong>
-                <span class="notification-icon"></span>
-            </div>
-            <div class="notification-body"></div>
-        </a>
-    </template>
-    @stack('scripts')
+@endauth
+<template id="notification-template">
+    <a class="dropdown-item notification" href="#">
+        <div class="notification-header d-flex justify-content-between align-items-center">
+            <strong class="notification-title"></strong>
+            <span class="notification-icon"></span>
+        </div>
+        <div class="notification-body"></div>
+    </a>
+</template>
+@stack('scripts')
 </body>
 </html>

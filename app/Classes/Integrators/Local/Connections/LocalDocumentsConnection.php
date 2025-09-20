@@ -14,6 +14,24 @@ class LocalDocumentsConnection extends DocumentFilesConnection
 {
 	private const UNKN_PREVIEW = '<div class="display-1"><i class="fa-solid fa-file-circle-question"></i></div>';
 	
+	public static function getSystemInstanceDefault(): array
+	{
+		return [];
+	}
+	
+	public static function getInstanceDefault(): array
+	{
+		return [];
+	}
+	
+	/**
+	 * @inheritDoc
+	 */
+	public function rootFiles(array $mimeTypes = []): array
+	{
+		return $this->readDirectory(mimeFilter: $mimeTypes);
+	}
+	
 	/***************************************
 	 * PRIVATE PROPERTIES AND METHODS
 	 */
@@ -67,14 +85,6 @@ class LocalDocumentsConnection extends DocumentFilesConnection
 			true,
 			true
 		);
-	}
-	
-	/**
-	 * @inheritDoc
-	 */
-	public function rootFiles(array $mimeTypes = []): array
-	{
-		return $this->readDirectory(mimeFilter: $mimeTypes);
 	}
 	
 	/**
@@ -230,15 +240,5 @@ class LocalDocumentsConnection extends DocumentFilesConnection
 			File::extension($realpath),
 			File::size($realpath)
 		);
-	}
-	
-	public static function getSystemInstanceDefault(): array
-	{
-		return [];
-	}
-	
-	public static function getInstanceDefault(): array
-	{
-		return [];
 	}
 }

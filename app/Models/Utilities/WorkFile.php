@@ -12,10 +12,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class WorkFile extends Model
 {
 	use HasUuids;
+	
 	public $timestamps = true;
+	public $incrementing = false;
 	protected $table = "work_files";
 	protected $primaryKey = "id";
-	public $incrementing = false;
 	protected $keyType = 'string';
 	protected $fillable =
 		[
@@ -31,20 +32,10 @@ class WorkFile extends Model
 			'public',
 		];
 	
-	protected function casts(): array
-	{
-		return
-			[
-				'invisible' => 'boolean',
-				'public' => 'boolean',
-				'created_at' => 'datetime: m/d/Y h:i A',
-				'updated_at' => 'datetime: m/d/Y h:i A',
-			];
-	}
-	
 	protected static function booted(): void
 	{
-		static::created(function(WorkFile $workFile) {
+		static::created(function(WorkFile $workFile)
+		{
 			if($workFile->public)
 				$workFile->url = route('settings.work.file.public', ['work_file' => $workFile->id]);
 			else
@@ -52,7 +43,8 @@ class WorkFile extends Model
 			$workFile->icon = $workFile->mimeType->icon;
 			$workFile->save();
 		});
-		static::deleting(function(WorkFile $workFile) {
+		static::deleting(function(WorkFile $workFile)
+		{
 			$workFile->lmsConnection->deleteFile($workFile);
 		});
 	}
@@ -72,6 +64,27 @@ class WorkFile extends Model
 		return $this->name . "." . $this->extension;
 	}
 	
+	public function isImage(): bool
+	{
+		return $this->mimeType->is_img;
+	}
+	
+	public function mimeType(): BelongsTo
+	{
+		return $this->belongsTo(MimeType::class, 'mime');
+	}
+	
+	protected function casts(): array
+	{
+		return
+			[
+				'invisible' => 'boolean',
+				'public' => 'boolean',
+				'created_at' => 'datetime: m/d/Y h:i A',
+				'updated_at' => 'datetime: m/d/Y h:i A',
+			];
+	}
+	
 	#[Scope]
 	protected function invisible(Builder $query): void
 	{
@@ -88,15 +101,5 @@ class WorkFile extends Model
 	protected function public(Builder $query): void
 	{
 		$query->where('public', true);
-	}
-	
-	public function isImage(): bool
-	{
-		return $this->mimeType->is_img;
-	}
-	
-	public function mimeType(): BelongsTo
-	{
-		return $this->belongsTo(MimeType::class, 'mime');
 	}
 }

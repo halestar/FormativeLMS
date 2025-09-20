@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 trait Leveable
 {
-    public function levels(): MorphToMany
-    {
-        return $this->morphToMany(Level::class, 'leveable', 'leveables')
-            ->orderBy('order');
-    }
+	public function levels(): MorphToMany
+	{
+		return $this->morphToMany(Level::class, 'leveable', 'leveables')
+		            ->orderBy('order');
+	}
 }

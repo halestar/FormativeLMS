@@ -14,38 +14,6 @@ class LocalWorkFilesService extends LmsIntegrationService
 	/**
 	 * @inheritDoc
 	 */
-	public function canConnect(Person $person): bool
-	{
-		return false;
-	}
-	
-	/**
-	 * @inheritDoc
-	 */
-	public function getConnectionClass(): string
-	{
-		return '';
-	}
-	
-	/**
-	 * @inheritDoc
-	 */
-	public function getSystemConnectionClass(): string
-	{
-		return LocalWorkFilesConnection::class;
-	}
-	
-	/**
-	 * @inheritDoc
-	 */
-	public function configurationUrl(): string
-	{
-		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.work.index');
-	}
-	
-	/**
-	 * @inheritDoc
-	 */
 	public static function getServiceType(): IntegratorServiceTypes
 	{
 		return IntegratorServiceTypes::WORK;
@@ -108,6 +76,38 @@ class LocalWorkFilesService extends LmsIntegrationService
 	public static function canBeConfigured(): bool
 	{
 		return true;
+	}
+	
+	/**
+	 * @inheritDoc
+	 */
+	public function canConnect(Person $person): bool
+	{
+		return false;
+	}
+	
+	/**
+	 * @inheritDoc
+	 */
+	public function getConnectionClass(): string
+	{
+		return '';
+	}
+	
+	/**
+	 * @inheritDoc
+	 */
+	public function getSystemConnectionClass(): string
+	{
+		return LocalWorkFilesConnection::class;
+	}
+	
+	/**
+	 * @inheritDoc
+	 */
+	public function configurationUrl(): string
+	{
+		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.work.index');
 	}
 	
 	public function systemAutoconnect(): bool

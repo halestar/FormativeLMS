@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="container">
-        <livewire:people.role-fields-manager />
+        <livewire:people.role-fields-manager/>
     </div>
 @endsection

@@ -7,7 +7,8 @@
                 <span class="card-title">{{ $title }}</span>
                 <div class="settings-controls">
                     @foreach($buttons as $button)
-                        <a href="{{ $button['url'] }}" class="{{ $button['classes'] }}" role="button">{{ $button['text'] }}</a>
+                        <a href="{{ $button['url'] }}" class="{{ $button['classes'] }}"
+                           role="button">{{ $button['text'] }}</a>
                     @endforeach
                 </div>
             </h4>

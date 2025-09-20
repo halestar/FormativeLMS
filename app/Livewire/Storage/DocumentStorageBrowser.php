@@ -43,8 +43,8 @@ class DocumentStorageBrowser extends Component
 		}
 		$this->cb_instance = $config['cb_instance'];
 		$this->multiple = $config['multiple'] ?? false;
-		$this->mimeTypes = (isset($config['mimetypes']) && is_array($config['mimetypes']))?
-			array_intersect($config['mimetypes'], MimeType::allowedMimeTypes()): MimeType::allowedMimeTypes();
+		$this->mimeTypes = (isset($config['mimetypes']) && is_array($config['mimetypes'])) ?
+			array_intersect($config['mimetypes'], MimeType::allowedMimeTypes()) : MimeType::allowedMimeTypes();
 		$this->allowUpload = $config['allowUpload'] ?? false;
 		$this->canSelectFolders = $config['canSelectFolders'] ?? false;
 		if($this->multiple)
@@ -57,6 +57,11 @@ class DocumentStorageBrowser extends Component
 		$this->browserKey = uniqid();
 		$this->open = true;
 		$this->js("$('#document-browser-modal').modal('show');");
+	}
+	
+	private function failOpen(string $error): void
+	{
+		$this->js("console.error('Failed to open document storage browser. ", $error . "');");
 	}
 	
 	private function init()
@@ -115,14 +120,6 @@ class DocumentStorageBrowser extends Component
 		}
 	}
 	
-	protected function rules()
-	{
-		return [
-			'uploadedFiles' => File::types(MimeType::allowedMimeTypes())
-									->max(12 * 1024),
-		];
-	}
-	
 	public function uploadFiles()
 	{
 		$this->validate();
@@ -166,8 +163,11 @@ class DocumentStorageBrowser extends Component
 		return view('livewire.storage.document-storage-browser');
 	}
 	
-	private function failOpen(string $error): void
+	protected function rules()
 	{
-		$this->js("console.error('Failed to open document storage browser. ", $error . "');");
+		return [
+			'uploadedFiles' => File::types(MimeType::allowedMimeTypes())
+			                       ->max(12 * 1024),
+		];
 	}
 }

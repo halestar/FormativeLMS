@@ -5,12 +5,12 @@
                 <div class="col-md-8">
                     <div class="form-floating mb-0">
                         <input
-                            type="text"
-                            class="form-control"
-                            id="phone"
-                            placeholder="{{ __('phones.phone_number') }}"
-                            autocomplete="off"
-                            wire:model.live.debounce="phone"
+                                type="text"
+                                class="form-control"
+                                id="phone"
+                                placeholder="{{ __('phones.phone_number') }}"
+                                autocomplete="off"
+                                wire:model.live.debounce="phone"
                         />
                         <label for="phone">{{ __('phones.phone') }}</label>
                     </div>
@@ -19,9 +19,9 @@
                             <ul class="list-group">
                                 @foreach($suggestedPhones as $suggestion)
                                     <li
-                                        class="list-group-item list-group-item-action"
-                                        wire:key="{{ $suggestion->id }}"
-                                        wire:click="setLinking({{ $suggestion->id }})"
+                                            class="list-group-item list-group-item-action"
+                                            wire:key="{{ $suggestion->id }}"
+                                            wire:click="setLinking({{ $suggestion->id }})"
                                     >
                                         {{ $suggestion->prettyPhone }}
                                     </li>
@@ -33,12 +33,12 @@
                 <div class="col-md-4">
                     <div class="form-floating mb-0">
                         <input
-                            type="text"
-                            class="form-control"
-                            id="ext"
-                            placeholder="{{ __('phones.ext') }}"
-                            autocomplete="off"
-                            wire:model.live.debounce="ext"
+                                type="text"
+                                class="form-control"
+                                id="ext"
+                                placeholder="{{ __('phones.ext') }}"
+                                autocomplete="off"
+                                wire:model.live.debounce="ext"
                         />
                         <label for="ext">{{ __('phones.ext') }}</label>
                     </div>
@@ -46,62 +46,62 @@
                 <div class="col-md-3 mt-3">
                     <div class="form-check">
                         <input
-                            class="form-check-input"
-                            type="checkbox"
-                            id="mobile"
-                            wire:model="mobile"
+                                class="form-check-input"
+                                type="checkbox"
+                                id="mobile"
+                                wire:model="mobile"
                         />
                         <label class="form-check-label" for="mobile">
                             {{ __('phones.mobile_phone') }}
                         </label>
                     </div>
                     @if(!$singlePhoneable)
-                    <div class="form-check">
-                        <input
-                            class="form-check-input"
-                            type="checkbox"
-                            id="primary"
-                            wire:model="primary"
-                        />
-                        <label class="form-check-label" for="primary">
-                            {{ __('phones.primary_phone') }}
-                        </label>
-                    </div>
+                        <div class="form-check">
+                            <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    id="primary"
+                                    wire:model="primary"
+                            />
+                            <label class="form-check-label" for="primary">
+                                {{ __('phones.primary_phone') }}
+                            </label>
+                        </div>
                     @endif
                 </div>
                 @if(!$singlePhoneable)
-                <div class="col-md-3 mt-3">
-                    <div class="form-floating mb-0">
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="label"
-                            placeholder="{{ __('phones.label') }}"
-                            autocomplete="off"
-                            wire:model.live.debounce="label"
-                        />
-                        <label for="label">{{ __('phones.label') }}</label>
+                    <div class="col-md-3 mt-3">
+                        <div class="form-floating mb-0">
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    id="label"
+                                    placeholder="{{ __('phones.label') }}"
+                                    autocomplete="off"
+                                    wire:model.live.debounce="label"
+                            />
+                            <label for="label">{{ __('phones.label') }}</label>
+                        </div>
                     </div>
-                </div>
                 @endif
                 <div class="@if($singlePhoneable) col-md-9 @else col-md-6 @endif mt-3 align-self-center text-end">
                     @if($adding)
                         <button
-                            type="button"
-                            class="btn btn-primary btn-lg me-2"
-                            wire:click="addPhone()"
+                                type="button"
+                                class="btn btn-primary btn-lg me-2"
+                                wire:click="addPhone()"
                         >{{ __('common.add') }}</button>
                     @else
                         <button
-                            type="button"
-                            class="btn btn-primary btn-lg me-2"
-                            wire:click="updatePhone()"
+                                type="button"
+                                class="btn btn-primary btn-lg me-2"
+                                wire:click="updatePhone()"
                         >{{ __('common.update') }}</button>
                     @endif
                     <button
-                        type="button"
-                        class="btn btn-secondary btn-lg"
-                        wire:click="clearForm()"
+                            type="button"
+                            class="btn btn-secondary btn-lg"
+                            wire:click="clearForm()"
                     >{{ __('common.cancel') }}</button>
                 </div>
             </div>
@@ -113,43 +113,43 @@
                     <strong>{{ __('common.linking') }}</strong> {!! $linking->pretty_phone !!}
                 </h4>
                 @if(!$singlePhoneable)
-                <div class="col-md-4 align-self-center">
-                    <div class="form-check">
-                        <input
-                            class="form-check-input"
-                            type="checkbox"
-                            id="primary"
-                            wire:model="primary"
-                        />
-                        <label class="form-check-label" for="primary">
-                            {{ __('phones.primary_phone') }}
-                        </label>
+                    <div class="col-md-4 align-self-center">
+                        <div class="form-check">
+                            <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    id="primary"
+                                    wire:model="primary"
+                            />
+                            <label class="form-check-label" for="primary">
+                                {{ __('phones.primary_phone') }}
+                            </label>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 align-self-center">
-                    <div class="form-floating mb-0">
-                        <input
-                            type="text"
-                            class="form-control"
-                            id="label"
-                            placeholder="{{ __('phones.label') }}"
-                            autocomplete="off"
-                            wire:model.live.debounce="label"
-                        />
-                        <label for="label">{{ __('phones.label') }}</label>
+                    <div class="col-md-4 align-self-center">
+                        <div class="form-floating mb-0">
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    id="label"
+                                    placeholder="{{ __('phones.label') }}"
+                                    autocomplete="off"
+                                    wire:model.live.debounce="label"
+                            />
+                            <label for="label">{{ __('phones.label') }}</label>
+                        </div>
                     </div>
-                </div>
                 @endif
                 <div class="@if($singlePhoneable) col @else col-md-4 @endif align-self-center text-end">
                     <button
-                        type="button"
-                        class="btn btn-primary btn-lg me-2"
-                        wire:click="linkPhone()"
+                            type="button"
+                            class="btn btn-primary btn-lg me-2"
+                            wire:click="linkPhone()"
                     >{{ __('phones.link') }}</button>
                     <button
-                        type="button"
-                        class="btn btn-secondary btn-lg"
-                        wire:click="clearForm()"
+                            type="button"
+                            class="btn btn-secondary btn-lg"
+                            wire:click="clearForm()"
                     >{{ __('common.cancel') }}</button>
                 </div>
             </div>
@@ -157,12 +157,15 @@
     @else
         @if($primaryPhone)
             <ul class="list-group mb-1 shadow ">
-                <li class="list-group-item text-bg-secondary border-2 border-primary-subtle" wire:key="{{ $primaryPhone->id }}">
+                <li class="list-group-item text-bg-secondary border-2 border-primary-subtle"
+                    wire:key="{{ $primaryPhone->id }}">
                     <div class=" d-flex justify-content-between align-items-center">
                         <div>
                             <strong>
                                 {{ __('addresses.primary') }}
-                                @if($primaryPhone->mobile){{ __('phones.mobile') }} @endif
+                                @if($primaryPhone->mobile)
+                                    {{ __('phones.mobile') }}
+                                @endif
                                 @if(!$singlePhoneable)
                                     {{ $primaryPhone->personal->label }}
                                 @endif
@@ -172,15 +175,15 @@
                         </div>
                         <div>
                             <button
-                                type="button"
-                                class="btn btn-sm btn-primary p-1"
-                                wire:click="editPhone({{ $primaryPhone->id }})"
+                                    type="button"
+                                    class="btn btn-sm btn-primary p-1"
+                                    wire:click="editPhone({{ $primaryPhone->id }})"
                             ><i class="fa fa-edit"></i></button>
                             <button
-                                type="button"
-                                class="btn btn-sm btn-danger p-1"
-                                wire:confirm="Are you sure you wish to unlink this phone?"
-                                wire:click="removePhone({{ $primaryPhone->id }})"
+                                    type="button"
+                                    class="btn btn-sm btn-danger p-1"
+                                    wire:confirm="Are you sure you wish to unlink this phone?"
+                                    wire:click="removePhone({{ $primaryPhone->id }})"
                             ><i class="fa fa-times"></i></button>
                         </div>
                     </div>
@@ -193,28 +196,32 @@
                     @if($primaryPhone && $primaryPhone->id == $phone->id)
                         @continue
                     @endif
-                    <li class="list-group-item text-bg-secondary" wire:key="{{ $phone->id }}" wire:sortable.item="{{ $phone->id }}">
+                    <li class="list-group-item text-bg-secondary" wire:key="{{ $phone->id }}"
+                        wire:sortable.item="{{ $phone->id }}">
                         <div class=" d-flex justify-content-between align-items-center">
                             <div>
-                                <span wire:sortable.handle class="show-as-action me-2"><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                                <span wire:sortable.handle class="show-as-action me-2"><i
+                                            class="fa-solid fa-grip-lines-vertical"></i></span>
                                 <strong>
-                                    @if($phone->mobile){{ __('phones.mobile') }} @endif
+                                    @if($phone->mobile)
+                                        {{ __('phones.mobile') }}
+                                    @endif
                                     {{ $phone->personal->label }}
                                     {{ __('phones.phone') }}
                                 </strong>
-                                    {!! $phone->prettyPhone !!}
+                                {!! $phone->prettyPhone !!}
                             </div>
                             <div>
                                 <button
-                                    type="button"
-                                    class="btn btn-sm btn-primary p-1"
-                                    wire:click="editPhone({{ $phone->id }})"
+                                        type="button"
+                                        class="btn btn-sm btn-primary p-1"
+                                        wire:click="editPhone({{ $phone->id }})"
                                 ><i class="fa fa-edit"></i></button>
                                 <button
-                                    type="button"
-                                    class="btn btn-sm btn-danger p-1"
-                                    wire:confirm="Are you sure you wish to unlink this phone?"
-                                    wire:click="removePhone({{ $phone->id }})"
+                                        type="button"
+                                        class="btn btn-sm btn-danger p-1"
+                                        wire:confirm="Are you sure you wish to unlink this phone?"
+                                        wire:click="removePhone({{ $phone->id }})"
                                 ><i class="fa fa-times"></i></button>
                             </div>
                         </div>
@@ -223,8 +230,8 @@
             </ul>
             <div class="d-flex justify-content-center mt-3">
                 <button
-                    class="btn btn-success mx-auto"
-                    wire:click="set('adding', true)"
+                        class="btn btn-success mx-auto"
+                        wire:click="set('adding', true)"
                 ><i class="fa fa-plus border-end pe-1 me-1"></i>{{ __('phones.add_phone') }}</button>
             </div>
         @endif

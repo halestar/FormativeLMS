@@ -22,44 +22,6 @@ class MimeConfiguration extends Component
 		$this->mimeTypes = MimeType::all();
 	}
 	
-	public function clear()
-	{
-		$this->mimeType = "";
-		$this->ext = "";
-		$this->icon = "";
-		$this->isImg = false;
-		$this->selectedMimeType = null;
-	}
-	
-	protected function rules()
-	{
-		if($this->selectedMimeType)
-		{
-			$mimeType =
-				[
-					'required',
-					'regex:/^[a-z0-9\-]+\/[a-z0-9\-\+]+$/i',
-					Rule::unique('mime_types','mime')->ignore($this->selectedMimeType, 'mime')
-				];
-		}
-		else
-		{
-			$mimeType =
-				[
-					'required',
-					'regex:/^[a-z0-9\-]+\/[a-z0-9\-\+]+$/i',
-					Rule::unique('mime_types','mime'),
-				];
-		}
-		return
-			[
-				'mimeType' => $mimeType,
-				'ext' => 'required|regex:/^(?:\.[a-zA-Z0-9]{1,4}(?:\s*,\s*){0,1})+$/i',
-				'icon' => ['required', new IsValidHtml],
-				'isImg' => 'boolean',
-			];
-	}
-	
 	public function add()
 	{
 		$this->validate();
@@ -71,6 +33,15 @@ class MimeConfiguration extends Component
 		$mime->save();
 		$this->clear();
 		$this->mimeTypes = MimeType::all();
+	}
+	
+	public function clear()
+	{
+		$this->mimeType = "";
+		$this->ext = "";
+		$this->icon = "";
+		$this->isImg = false;
+		$this->selectedMimeType = null;
 	}
 	
 	public function setSelected(MimeType $mimeType)
@@ -104,8 +75,38 @@ class MimeConfiguration extends Component
 		$this->mimeTypes = MimeType::all();
 	}
 	
-    public function render()
-    {
-	    return view('livewire.storage.mime-configuration');
-    }
+	public function render()
+	{
+		return view('livewire.storage.mime-configuration');
+	}
+	
+	protected function rules()
+	{
+		if($this->selectedMimeType)
+		{
+			$mimeType =
+				[
+					'required',
+					'regex:/^[a-z0-9\-]+\/[a-z0-9\-\+]+$/i',
+					Rule::unique('mime_types', 'mime')
+					    ->ignore($this->selectedMimeType, 'mime')
+				];
+		}
+		else
+		{
+			$mimeType =
+				[
+					'required',
+					'regex:/^[a-z0-9\-]+\/[a-z0-9\-\+]+$/i',
+					Rule::unique('mime_types', 'mime'),
+				];
+		}
+		return
+			[
+				'mimeType' => $mimeType,
+				'ext' => 'required|regex:/^(?:\.[a-zA-Z0-9]{1,4}(?:\s*,\s*){0,1})+$/i',
+				'icon' => ['required', new IsValidHtml],
+				'isImg' => 'boolean',
+			];
+	}
 }

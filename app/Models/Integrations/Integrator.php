@@ -20,10 +20,20 @@ class Integrator extends Model implements HasSchoolRoles
 	 * PROPERTIES
 	 */
 	use HasSchoolRolesTrait;
+	
+	final public const INTEGRATOR_URL_PREFIX = '/integrators';
+	final public const INTEGRATOR_ACTION_PREFIX = 'integrators.';
+	public static array $serviceIcons =
+		[
+			IntegratorServiceTypes::AUTHENTICATION->value => "images/auth_service.svg",
+			IntegratorServiceTypes::DOCUMENTS->value => "images/documents_service.svg",
+			IntegratorServiceTypes::WORK->value => "images/work_service.svg",
+			IntegratorServiceTypes::AI->value => "images/ai-icon.svg",
+		];
 	public $timestamps = true;
+	public $incrementing = true;
 	protected $table = "integrators";
 	protected $primaryKey = "id";
-	public $incrementing = true;
 	protected $fillable =
 		[
 			'name',
@@ -33,18 +43,35 @@ class Integrator extends Model implements HasSchoolRoles
 			'version',
 			'configurable',
 		];
-	
 	protected $guard_name = 'web';
 	
-	public static array $serviceIcons =
-		[
-			IntegratorServiceTypes::AUTHENTICATION->value => "images/auth_service.svg",
-			IntegratorServiceTypes::DOCUMENTS->value => "images/documents_service.svg",
-			IntegratorServiceTypes::WORK->value => "images/work_service.svg",
-			IntegratorServiceTypes::AI->value => "images/ai-icon.svg",
-		];
-	final public const INTEGRATOR_URL_PREFIX = '/integrators';
-	final public const INTEGRATOR_ACTION_PREFIX = 'integrators.';
+	public function __toString()
+	{
+		return $this->name;
+	}
+	
+	/*****************************************************************
+	 * OVERRIDES
+	 */
+	
+	
+	public function newFromBuilder($attributes = [], $connection = null)
+	{
+		if($attributes instanceof \stdClass)
+			$attributes = json_decode(json_encode($attributes), true);
+		if($attributes['className'] == static::class)
+			return parent::newFromBuilder($attributes, $connection);
+		return (new $attributes['className'])->newFromBuilder($attributes, $connection);
+	}
+	
+	/*****************************************************************
+	 * RELATIONSHIPS
+	 */
+	
+	public function services(): HasMany
+	{
+		return $this->hasMany(IntegrationService::class, 'integrator_id');
+	}
 	
 	protected function casts(): array
 	{
@@ -59,36 +86,6 @@ class Integrator extends Model implements HasSchoolRoles
 				'created_at' => 'datetime: m/d/Y h:i A',
 				'updated_at' => 'datetime: m/d/Y h:i A',
 			];
-	}
-	
-	public function __toString()
-	{
-		return $this->name;
-	}
-	
-	/*****************************************************************
-	 * OVERRIDES
-	 */
-
-	
-	public function newFromBuilder($attributes = [], $connection = null)
-	{
-		if($attributes instanceof \stdClass)
-			$attributes = json_decode(json_encode($attributes), true);
-		if($attributes['className'] == static::class)
-			return parent::newFromBuilder($attributes, $connection);
-		return (new $attributes['className'])->newFromBuilder($attributes, $connection);
-	}
-
-	
-	
-	/*****************************************************************
-	 * RELATIONSHIPS
-	 */
-	
-	public function services(): HasMany
-	{
-		return $this->hasMany(IntegrationService::class, 'integrator_id');
 	}
 	
 	/*****************************************************************

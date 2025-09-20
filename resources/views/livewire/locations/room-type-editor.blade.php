@@ -3,11 +3,11 @@
     <div class="input-group mb-3">
         <div class="input-group-text">
             <input
-                type="checkbox"
-                id="free_floating"
-                wire:model="isFree"
-                class="form-check-input mt-0"
-                wire:click="toggleFreeFloat()"
+                    type="checkbox"
+                    id="free_floating"
+                    wire:model="isFree"
+                    class="form-check-input mt-0"
+                    wire:click="toggleFreeFloat()"
             />
         </div>
         <label class="input-group-text" for="free_floating">{{ trans_choice('locations.rooms.free', 1) }}</label>
@@ -29,14 +29,14 @@
                 @endforeach
             </select>
         </div>
-   @endif
+    @endif
     <div class="mb-3">
         <label class="form-label" for="notes">{{ __('locations.rooms.notes') }}</label>
         <textarea
-            class="form-control"
-            id="notes" rows="3"
-            wire:model="notes"
-            wire:change="updateNotes()"
+                class="form-control"
+                id="notes" rows="3"
+                wire:model="notes"
+                wire:change="updateNotes()"
         >{!! $room->notes !!}</textarea>
     </div>
 

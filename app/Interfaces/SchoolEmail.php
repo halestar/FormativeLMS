@@ -15,11 +15,6 @@ interface SchoolEmail
 	public static function defaults(): array;
 	
 	/**
-	 * @return array<string, mixed> The tokens passed to the blade view for this email.
-	 */
-	public function withTokens(): array;
-	
-	/**
 	 * @return array<string, string> The tokens that are available to be used in the email.
 	 */
 	public static function availableTokens(): array;
@@ -46,4 +41,9 @@ interface SchoolEmail
 	 * @return Mailable returns a fake test email that can be sent to the attached person.
 	 */
 	public static function testEmail(Person $person): Mailable;
+	
+	/**
+	 * @return array<string, mixed> The tokens passed to the blade view for this email.
+	 */
+	public function withTokens(): array;
 }

@@ -6,9 +6,9 @@
                 <ul class="list-group" style="max-height: 600px; overflow-y: auto;">
                     @foreach($mimeTypes as $mimeType)
                         <li
-                            class="list-group-item d-flex justify-content-between align-items-center list-group-item-action"
-                            wire:key="{{ $mimeType->mime }}"
-                            wire:click="setSelected('{{ $mimeType->mime }}')"
+                                class="list-group-item d-flex justify-content-between align-items-center list-group-item-action"
+                                wire:key="{{ $mimeType->mime }}"
+                                wire:click="setSelected('{{ $mimeType->mime }}')"
                         >
                             <span class="text-lowercase fs-6">{{ $mimeType->mime }}</span>
                             @if($mimeType->is_img)
@@ -92,17 +92,20 @@
                 </div>
                 <div class="row">
                     @if($selectedMimeType)
-                        <button type="button" class="col btn btn-primary mx-2" wire:click="update">{{ __('settings.storage.mimes.update') }}</button>
+                        <button type="button" class="col btn btn-primary mx-2"
+                                wire:click="update">{{ __('settings.storage.mimes.update') }}</button>
                         <button
-                            type="button"
-                            class="col btn btn-danger mx-2"
-                            wire:click="delete"
-                            wire:confirm="{{ __('settings.storage.mimes.remove.confirm') }}"
+                                type="button"
+                                class="col btn btn-danger mx-2"
+                                wire:click="delete"
+                                wire:confirm="{{ __('settings.storage.mimes.remove.confirm') }}"
                         >{{ __('settings.storage.mimes.remove') }}</button>
                     @else
-                    <button type="button" class="col btn btn-primary mx-2" wire:click="add">{{ __('settings.storage.mimes.add') }}</button>
+                        <button type="button" class="col btn btn-primary mx-2"
+                                wire:click="add">{{ __('settings.storage.mimes.add') }}</button>
                     @endif
-                    <button type="button" class="col btn btn-secondary mx-2" wire:click="clear">{{ __('common.clear') }}</button>
+                    <button type="button" class="col btn btn-secondary mx-2"
+                            wire:click="clear">{{ __('common.clear') }}</button>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@ class ModelSwitch extends Component
 		$this->model = $model;
 		$this->property = $property;
 		$this->state = $model->$property;
-		$this->elId = $elId?? uniqid();
+		$this->elId = $elId ?? uniqid();
 	}
 	
 	public function toggle()
@@ -33,8 +33,8 @@ class ModelSwitch extends Component
 		$this->model->save();
 	}
 	
-    public function render()
-    {
-        return view('livewire.utilities.model-switch');
-    }
+	public function render()
+	{
+		return view('livewire.utilities.model-switch');
+	}
 }

@@ -6,28 +6,27 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 
 trait UsesJsonValue
 {
-	protected function updateValue(string $values, string $key, mixed $value)
+	protected function basicProperty($propertyName = null): Attribute
 	{
-		$data = json_decode($values, true);
-		$data[$key] = $value;
-		return ['value' => json_encode($data)];
+		return Attribute::make
+		(
+			get: fn(mixed $value, array $attributes) => $this->getValue($attributes['value'], $propertyName,
+				(static::defaultValue())[$propertyName]),
+			set: fn(mixed $value, array $attributes) => $this->updateValue($attributes['value'], $propertyName, $value),
+		);
 	}
-
+	
 	protected function getValue(string $values, string $key, mixed $default = null)
 	{
 		$data = json_decode($values, true);
 		return $data[$key] ?? $default;
 	}
 	
-	protected function basicProperty($propertyName = null): Attribute
+	protected function updateValue(string $values, string $key, mixed $value)
 	{
-		return Attribute::make
-		(
-			get: fn(mixed $value, array $attributes) =>
-			$this->getValue($attributes['value'], $propertyName, (static::defaultValue())[$propertyName]),
-			set: fn(mixed $value, array $attributes) =>
-			$this->updateValue($attributes['value'], $propertyName, $value),
-		);
+		$data = json_decode($values, true);
+		$data[$key] = $value;
+		return ['value' => json_encode($data)];
 	}
 	
 }

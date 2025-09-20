@@ -81,7 +81,8 @@
         @if($idSettings->idStrategy == \App\Classes\Settings\IdSettings::ID_STRATEGY_GLOBAL)
             <div class="mb-3 d-flex justify-content-between align-items-center">
                 <h4 class="border-bottom">{{ trans_choice('people.id.global',1) }}</h4>
-                <a href="{{ route('people.school-ids.manage.global') }}" class="text-primary"><i class="fa-solid fa-edit"></i></a>
+                <a href="{{ route('people.school-ids.manage.global') }}" class="text-primary"><i
+                            class="fa-solid fa-edit"></i></a>
             </div>
             @if($idSettings->getGlobalId())
                 <div class="mb-3">{!! $idSettings->getGlobalId()->preview !!}</div>
@@ -91,7 +92,8 @@
         @elseif($idSettings->idStrategy == \App\Classes\Settings\IdSettings::ID_STRATEGY_ROLES)
             <div class="mb-3 d-flex justify-content-between align-items-center">
                 <h4 class="border-bottom">{{ __('people.id.student') }}</h4>
-                <a href="{{ route('people.school-ids.manage.role', \App\Models\Utilities\SchoolRoles::StudentRole()) }}" class="text-primary"><i class="fa-solid fa-edit"></i></a>
+                <a href="{{ route('people.school-ids.manage.role', \App\Models\Utilities\SchoolRoles::StudentRole()) }}"
+                   class="text-primary"><i class="fa-solid fa-edit"></i></a>
             </div>
             @if($idSettings->getRoleId(\App\Models\Utilities\SchoolRoles::StudentRole())->preview)
                 <div class="mb-3">{!! $idSettings->getRoleId(\App\Models\Utilities\SchoolRoles::StudentRole())->preview !!}</div>
@@ -101,7 +103,8 @@
 
             <div class="mb-3 d-flex justify-content-between align-items-center">
                 <h4 class="border-bottom">{{ __('people.id.parent') }}</h4>
-                <a href="{{ route('people.school-ids.manage.role', \App\Models\Utilities\SchoolRoles::ParentRole()) }}" class="text-primary"><i class="fa-solid fa-edit"></i></a>
+                <a href="{{ route('people.school-ids.manage.role', \App\Models\Utilities\SchoolRoles::ParentRole()) }}"
+                   class="text-primary"><i class="fa-solid fa-edit"></i></a>
             </div>
             @if($idSettings->getRoleId(\App\Models\Utilities\SchoolRoles::ParentRole())->preview)
                 <div class="mb-3">{!! $idSettings->getRoleId(\App\Models\Utilities\SchoolRoles::ParentRole())->preview !!}</div>
@@ -111,7 +114,8 @@
 
             <div class="mb-3 d-flex justify-content-between align-items-center">
                 <h4 class="border-bottom">{{ __('people.id.employee') }}</h4>
-                <a href="{{ route('people.school-ids.manage.role', \App\Models\Utilities\SchoolRoles::EmployeeRole()) }}" class="text-primary"><i class="fa-solid fa-edit"></i></a>
+                <a href="{{ route('people.school-ids.manage.role', \App\Models\Utilities\SchoolRoles::EmployeeRole()) }}"
+                   class="text-primary"><i class="fa-solid fa-edit"></i></a>
             </div>
             @if($idSettings->getRoleId(\App\Models\Utilities\SchoolRoles::EmployeeRole())->preview)
                 <div class="mb-3">{!! $idSettings->getRoleId(\App\Models\Utilities\SchoolRoles::EmployeeRole())->preview !!}</div>
@@ -122,7 +126,8 @@
             @foreach(\App\Models\Locations\Campus::all() as $campus)
                 <div class="mb-3 d-flex justify-content-between align-items-center">
                     <h4 class="border-bottom">{{ __('people.id.campus', ['campus' => $campus->name]) }}</h4>
-                    <a href="{{ route('people.school-ids.manage.campus', $campus) }}" class="text-primary"><i class="fa-solid fa-edit"></i></a>
+                    <a href="{{ route('people.school-ids.manage.campus', $campus) }}" class="text-primary"><i
+                                class="fa-solid fa-edit"></i></a>
                 </div>
                 @if($idSettings->getCampusId($campus)->preview)
                     <div class="mb-3">{!! $idSettings->getCampusId($campus)->preview !!}</div>
@@ -134,7 +139,8 @@
             @foreach(\App\Models\Locations\Campus::all() as $campus)
                 <div class="mb-3 d-flex justify-content-between align-items-center">
                     <h4 class="border-bottom">{{ __('people.id.both.student', ['campus' => $campus->name]) }}</h4>
-                    <a href="{{ route('people.school-ids.manage.both', ['role' => \App\Models\Utilities\SchoolRoles::StudentRole(), 'campus' => $campus]) }}" class="text-primary"><i class="fa-solid fa-edit"></i></a>
+                    <a href="{{ route('people.school-ids.manage.both', ['role' => \App\Models\Utilities\SchoolRoles::StudentRole(), 'campus' => $campus]) }}"
+                       class="text-primary"><i class="fa-solid fa-edit"></i></a>
                 </div>
                 @if($idSettings->getRoleCampusId(\App\Models\Utilities\SchoolRoles::StudentRole(), $campus)->preview)
                     <div class="mb-3">{!! $idSettings->getRoleCampusId(\App\Models\Utilities\SchoolRoles::StudentRole(), $campus)->preview !!}</div>
@@ -144,7 +150,8 @@
 
                 <div class="mb-3 d-flex justify-content-between align-items-center">
                     <h4 class="border-bottom">{{ __('people.id.both.parent', ['campus' => $campus->name]) }}</h4>
-                    <a href="{{ route('people.school-ids.manage.both', [\App\Models\Utilities\SchoolRoles::ParentRole(), $campus]) }}" class="text-primary"><i class="fa-solid fa-edit"></i></a>
+                    <a href="{{ route('people.school-ids.manage.both', [\App\Models\Utilities\SchoolRoles::ParentRole(), $campus]) }}"
+                       class="text-primary"><i class="fa-solid fa-edit"></i></a>
                 </div>
                 @if($idSettings->getRoleCampusId(\App\Models\Utilities\SchoolRoles::ParentRole(), $campus)->preview)
                     <div class="mb-3">{!! $idSettings->getRoleCampusId(\App\Models\Utilities\SchoolRoles::ParentRole(), $campus)->preview !!}</div>
@@ -153,7 +160,8 @@
                 @endif
                 <div class="mb-3 d-flex justify-content-between align-items-center">
                     <h4 class="border-bottom">{{ __('people.id.both.employee', ['campus' => $campus->name]) }}</h4>
-                    <a href="{{ route('people.school-ids.manage.both',[\App\Models\Utilities\SchoolRoles::EmployeeRole(), $campus]) }}" class="text-primary"><i class="fa-solid fa-edit"></i></a>
+                    <a href="{{ route('people.school-ids.manage.both',[\App\Models\Utilities\SchoolRoles::EmployeeRole(), $campus]) }}"
+                       class="text-primary"><i class="fa-solid fa-edit"></i></a>
                 </div>
                 @if($idSettings->getRoleCampusId(\App\Models\Utilities\SchoolRoles::EmployeeRole(), $campus)->preview)
                     <div class="mb-3">{!! $idSettings->getRoleCampusId(\App\Models\Utilities\SchoolRoles::EmployeeRole(), $campus)->preview !!}</div>

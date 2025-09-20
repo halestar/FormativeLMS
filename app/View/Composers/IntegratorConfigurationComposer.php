@@ -11,6 +11,7 @@ class IntegratorConfigurationComposer
 {
 	public Collection $integrators;
 	public bool $menuOpen;
+	
 	public function __construct(SessionSettings $sessionSettings)
 	{
 		
@@ -25,7 +26,7 @@ class IntegratorConfigurationComposer
 				__('system.menu.integrators') => route('integrators.index'),
 			];
 		$view->with('composerBreadcrumb', $composerBreadcrumb)
-				->with('integrators', $this->integrators)
-				->with('menuOpen', $this->menuOpen);
+		     ->with('integrators', $this->integrators)
+		     ->with('menuOpen', $this->menuOpen);
 	}
 }

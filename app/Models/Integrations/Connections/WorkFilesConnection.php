@@ -15,6 +15,7 @@ abstract class WorkFilesConnection extends IntegrationConnection implements Inte
 	{
 		return [];
 	}
+	
 	/**
 	 * This function will persis a file to the system storage. The file will be filed under the storage
 	 * provided by the Fileable object.  THe work document will also be linked to the fileable object.

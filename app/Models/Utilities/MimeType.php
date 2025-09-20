@@ -7,12 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class MimeType extends Model
 {
+	public const FOLDER_HTML = '<i class="fa-solid fa-folder text-warning"></i>';
 	public $timestamps = false;
+	public $incrementing = false;
+	public bool $editing = false;
 	protected $table = "mime_types";
 	protected $primaryKey = "mime";
-	public $incrementing = false;
 	protected $keyType = 'string';
-	public bool $editing = false;
 	protected $fillable =
 		[
 			'mime',
@@ -21,12 +22,18 @@ class MimeType extends Model
 			'is_img',
 		];
 	
-	protected function casts(): array
+	public static function allowedMimeTypes(): array
 	{
-		return
-			[
-				'is_img' => 'boolean',
-			];
+		return Mimetype::all()
+		               ->pluck('mime')
+		               ->toArray();
+	}
+	
+	public static function imageMimeTypes(): array
+	{
+		return MimeType::where('is_img', true)
+		               ->pluck('mime')
+		               ->toArray();
 	}
 	
 	public function __toString()
@@ -42,15 +49,11 @@ class MimeType extends Model
 		);
 	}
 	
-	public static function allowedMimeTypes(): array
+	protected function casts(): array
 	{
-		return Mimetype::all()->pluck('mime')->toArray();
+		return
+			[
+				'is_img' => 'boolean',
+			];
 	}
-	
-	public static function imageMimeTypes(): array
-	{
-		return MimeType::where('is_img', true)->pluck('mime')->toArray();
-	}
-	
-	public const FOLDER_HTML = '<i class="fa-solid fa-folder text-warning"></i>';
 }

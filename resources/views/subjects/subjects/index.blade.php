@@ -8,30 +8,31 @@
             <div class="input-group w-50">
                 <label for="campus_id" class="input-group-text">{{ __('subjects.subject.viewing') }}</label>
                 <select
-                    class="form-select"
-                    id="campus_id"
-                    name="campus_id"
-                    onchange="window.location.href = '/academics/subjects/' + this.value"
+                        class="form-select"
+                        id="campus_id"
+                        name="campus_id"
+                        onchange="window.location.href = '/academics/subjects/' + this.value"
                 >
                     @foreach(Auth::user()->employeeCampuses as $campusOption)
-                        <option value="{{ $campusOption->id }}" @if($campusOption->id == $campus->id) selected @endif>{{ $campusOption->name }}</option>
+                        <option value="{{ $campusOption->id }}"
+                                @if($campusOption->id == $campus->id) selected @endif>{{ $campusOption->name }}</option>
                     @endforeach
                 </select>
             </div>
             <div class="form-check form-switch">
                 <input
-                    class="form-check-input"
-                    type="checkbox"
-                    role="switch"
-                    id="show-inactive"
-                    onclick="$('.subject.inactive').toggleClass('d-none')"
+                        class="form-check-input"
+                        type="checkbox"
+                        role="switch"
+                        id="show-inactive"
+                        onclick="$('.subject.inactive').toggleClass('d-none')"
                 >
                 <label class="form-check-label" for="show-inactive">{{ __('subjects.subject.inactive.show') }}</label>
             </div>
             <button
-                class="btn btn-primary ms-3"
-                onclick="$('#add-container,#add-header').toggleClass('d-none')"
-                type="button"
+                    class="btn btn-primary ms-3"
+                    onclick="$('#add-container,#add-header').toggleClass('d-none')"
+                    type="button"
             >
                 <i class="fa fa-plus pe-1 me-1 border-end"></i>
                 {{ __('subjects.subject.add') }}
@@ -45,10 +46,10 @@
                         <div class="col-8">
                             <label for="name" class="form-label">{{ __('subjects.subject.name') }}</label>
                             <input
-                                type="text"
-                                class="form-control @error('name') is-invalid @enderror"
-                                name="name"
-                                id="name"
+                                    type="text"
+                                    class="form-control @error('name') is-invalid @enderror"
+                                    name="name"
+                                    id="name"
                             />
                             <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
                         </div>
@@ -59,9 +60,9 @@
                         <div class="col-2 align-self-end text-center">
                             <button type="submit" class="btn btn-primary">{{ __('subjects.subject.add') }}</button>
                             <button
-                                type="button"
-                                onclick="$('#add-container,#add-header').toggleClass('d-none')"
-                                class="btn btn-secondary"
+                                    type="button"
+                                    onclick="$('#add-container,#add-header').toggleClass('d-none')"
+                                    class="btn btn-secondary"
                             >{{ __('common.cancel') }}</button>
                         </div>
                     </div>
@@ -83,18 +84,19 @@
         <ul class="list-group subject-list">
             @foreach($campus->subjects as $subject)
                 <li
-                    class="subject list-group-item @if(!$subject->active) inactive d-none opacity-50 @endif"
-                    style="background-color: {{ $subject->color }}; color: {{ $subject->getTextHex() }}"
-                    subject-id="{{ $subject->id }}"
+                        class="subject list-group-item @if(!$subject->active) inactive d-none opacity-50 @endif"
+                        style="background-color: {{ $subject->color }}; color: {{ $subject->getTextHex() }}"
+                        subject-id="{{ $subject->id }}"
                 >
                     <div class="row" subject-id="{{ $subject->id }}">
-                        <span class="col-sm-1 align-self-center text-start sort-handle"><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                        <span class="col-sm-1 align-self-center text-start sort-handle"><i
+                                    class="fa-solid fa-grip-lines-vertical"></i></span>
                         <span class="col-sm-4 align-self-center">{{ $subject->name }}</span>
                         <span class="col-sm-2 align-self-center text-center">
                             <a
-                                href="{{ route('subjects.courses.index', ['subject' => $subject->id]) }}"
-                                class="fw-bold"
-                                style="color: {{ $subject->getTextHex() }} !important"
+                                    href="{{ route('subjects.courses.index', ['subject' => $subject->id]) }}"
+                                    class="fw-bold"
+                                    style="color: {{ $subject->getTextHex() }} !important"
                             >
                                 {{ $subject->courses()->count() }} {{ trans_choice('subjects.course', $subject->courses()->count()) }}
                             </a>
@@ -102,13 +104,13 @@
                         <span class="col-sm-2 align-self-center text-center">{{ $subject->required_terms?? __('common.na') }}</span>
                         <div class="col-sm-3 align-self-center text-end">
                             <a
-                                href="{{ route('subjects.subjects.edit', ['subject' => $subject->id]) }}"
-                                class="btn btn-primary"
+                                    href="{{ route('subjects.subjects.edit', ['subject' => $subject->id]) }}"
+                                    class="btn btn-primary"
                             ><i class="fa-solid fa-edit"></i></a>
                             @can('delete', $subject)
                                 <button
-                                    onclick="confirmDelete('{{ __('subjects.subject.delete.confirm') }}', '{{ route('subjects.subjects.destroy', ['subject' => $subject->id]) }}')"
-                                    class="btn btn-danger"
+                                        onclick="confirmDelete('{{ __('subjects.subject.delete.confirm') }}', '{{ route('subjects.subjects.destroy', ['subject' => $subject->id]) }}')"
+                                        class="btn btn-danger"
                                 ><i class="fa-solid fa-times"></i></button>
                             @endcan
                         </div>

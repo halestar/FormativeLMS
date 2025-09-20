@@ -2,12 +2,13 @@
 
 @section('content')
     <div class="container">
-        <div class="border-bottom d-flex justify-content-between align-items-baseline mb-3 @if(count($errors)) d-none @endif" id="add-header">
+        <div class="border-bottom d-flex justify-content-between align-items-baseline mb-3 @if(count($errors)) d-none @endif"
+             id="add-header">
             <h2>{{ __('system.menu.years') }}</h2>
             <button
-                class="btn btn-primary"
-                type="button"
-                onclick="$('#add-container,#add-header').toggleClass('d-none')"
+                    class="btn btn-primary"
+                    type="button"
+                    onclick="$('#add-container,#add-header').toggleClass('d-none')"
             ><i class="fa-solid fa-plus border-end pe-2 me-2"></i>{{ __('locations.years.add') }}</button>
         </div>
 
@@ -19,11 +20,11 @@
                         <div class="col-4">
                             <div class="form-floating">
                                 <input
-                                    type="text"
-                                    class="form-control @error('label') is-invalid @enderror"
-                                    id="year-label"
-                                    name="label"
-                                    placeholder="{{ __('locations.years.label') }}"
+                                        type="text"
+                                        class="form-control @error('label') is-invalid @enderror"
+                                        id="year-label"
+                                        name="label"
+                                        placeholder="{{ __('locations.years.label') }}"
                                 />
                                 <label for="year-label">{{ __('locations.years.label') }}</label>
                                 <x-error-display key="label">{{ $errors->first('label') }}</x-error-display>
@@ -32,11 +33,11 @@
                         <div class="col-3">
                             <div class="form-floating">
                                 <input
-                                    type="date"
-                                    class="form-control @error('year_start') is-invalid @enderror"
-                                    id="year_start"
-                                    name="year_start"
-                                    placeholder="{{ __('locations.years.start') }}"
+                                        type="date"
+                                        class="form-control @error('year_start') is-invalid @enderror"
+                                        id="year_start"
+                                        name="year_start"
+                                        placeholder="{{ __('locations.years.start') }}"
                                 />
                                 <label for="year_start">{{ __('locations.years.start') }}</label>
                                 <x-error-display key="year_start">{{ $errors->first('year_start') }}</x-error-display>
@@ -45,11 +46,11 @@
                         <div class="col-3">
                             <div class="form-floating">
                                 <input
-                                    type="date"
-                                    class="form-control @error('year_end') is-invalid @enderror"
-                                    id="year_end"
-                                    name="year_end"
-                                    placeholder="{{ __('locations.years.end') }}"
+                                        type="date"
+                                        class="form-control @error('year_end') is-invalid @enderror"
+                                        id="year_end"
+                                        name="year_end"
+                                        placeholder="{{ __('locations.years.end') }}"
                                 />
                                 <label for="year_end">{{ __('locations.years.end') }}</label>
                                 <x-error-display key="year_end">{{ $errors->first('year_end') }}</x-error-display>
@@ -58,9 +59,9 @@
                         <div class="col-2 align-self-center text-center">
                             <button type="submit" class="btn btn-primary">{{ __('locations.years.add') }}</button>
                             <button
-                                type="button"
-                                class="btn btn-secondary"
-                                onclick="$('#add-container,#add-header').toggleClass('d-none')"
+                                    type="button"
+                                    class="btn btn-secondary"
+                                    onclick="$('#add-container,#add-header').toggleClass('d-none')"
                             >{{ __('common.cancel') }}</button>
                         </div>
                     </div>
@@ -76,8 +77,8 @@
                         <div class="list-group list-group-flush">
                             @if($currentYear)
                                 <a
-                                    href="{{ route('locations.years.show', ['year' => $currentYear->id]) }}"
-                                    class="list-group-item list-group-item-action border-2 bg-info-subtle"
+                                        href="{{ route('locations.years.show', ['year' => $currentYear->id]) }}"
+                                        class="list-group-item list-group-item-action border-2 bg-info-subtle"
                                 >
                                     <div class="d-flex justify-content-between align-items-center">
                                         <span class="permission-name fw-bolder">{{ $currentYear->label }}</span>
@@ -88,34 +89,34 @@
                                     </div>
                                     @if($currentYear->terms()->count() > 0)
                                         <div class="d-flex justify-content-start align-items-center mb-2 lh-1">
-                                        @foreach($currentYear->campuses as $campus)
-                                            {!! $campus->iconHtml('normal', 'align-self-start me-2') !!}
+                                            @foreach($currentYear->campuses as $campus)
+                                                {!! $campus->iconHtml('normal', 'align-self-start me-2') !!}
                                                 <span class="me-3">{{ $currentYear->campusTerms($campus)->get()->pluck('label')->join(', ') }}</span>
-                                        @endforeach
+                                            @endforeach
                                         </div>
                                     @endif
                                 </a>
                             @endif
                             @foreach(\App\Models\Locations\Year::whereNot('id', $currentYear->id)->get() as $year)
-                                    <a
+                                <a
                                         href="{{ route('locations.years.show', ['year' => $year->id]) }}"
                                         class="list-group-item list-group-item-action"
-                                    >
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <span class="permission-name fw-bolder">{{ $year->label }}</span>
-                                            <span class="text-muted text-sm">
+                                >
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="permission-name fw-bolder">{{ $year->label }}</span>
+                                        <span class="text-muted text-sm">
                                                 {{ __('locations.years.duration', ['start' => $year->year_start->format(config('lms.date_format')), 'end' => $year->year_end->format(config('lms.date_format'))]) }}
                                             </span>
+                                    </div>
+                                    @if($year->terms()->count() > 0)
+                                        <div class="d-flex justify-content-start align-items-center mb-2 lh-1">
+                                            @foreach($year->campuses as $campus)
+                                                {!! $campus->iconHtml('normal', 'align-self-start me-2') !!}
+                                                <span class="me-3">{{ $year->campusTerms($campus)->get()->pluck('label')->join(', ') }}</span>
+                                            @endforeach
                                         </div>
-                                        @if($year->terms()->count() > 0)
-                                            <div class="d-flex justify-content-start align-items-center mb-2 lh-1">
-                                                @foreach($year->campuses as $campus)
-                                                    {!! $campus->iconHtml('normal', 'align-self-start me-2') !!}
-                                                    <span class="me-3">{{ $year->campusTerms($campus)->get()->pluck('label')->join(', ') }}</span>
-                                                @endforeach
-                                            </div>
-                                        @endif
-                                    </a>
+                                    @endif
+                                </a>
                             @endforeach
                         </div>
                     </div>

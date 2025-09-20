@@ -24,29 +24,6 @@ class SchoolEmailsEditor extends Component
 	public string $emailClass;
 	public string $reloadKey = '';
 	
-	protected function rules()
-	{
-		return [
-			'subject' => 'required|min:10|max:255',
-			'content' =>
-				[
-					'required',
-					function(string $attribute, mixed $value, Closure $fail) {
-						//the text of the email is located in the $value var, so we need to make sure that it contains
-						//the require token from the class.
-						$requiredTokens = ($this->emailClass)::requiredTokens();
-						$tokenNames = ($this->emailClass)::availableTokens();
-						foreach($requiredTokens as $token) {
-							if($value == "" || !str_contains($value, $token)) {
-								$fail('errors.emails.tokens.missing')
-									->translate(['token' => $tokenNames[$token] ?? "Token"]);
-							}
-						}
-					}
-				],
-		];
-	}
-	
 	#[Computed]
 	public function isDirty(): bool
 	{
@@ -97,7 +74,6 @@ class SchoolEmailsEditor extends Component
 		$this->reloadKey = uniqid();
 	}
 	
-	
 	public function send()
 	{
 		Mail::to(Auth::user()->system_email)
@@ -112,5 +88,31 @@ class SchoolEmailsEditor extends Component
 		return view('livewire.utilities.school-emails-editor')
 			->extends('layouts.app', ['breadcrumb' => $this->breadcrumb])
 			->section('content');
+	}
+	
+	protected function rules()
+	{
+		return [
+			'subject' => 'required|min:10|max:255',
+			'content' =>
+				[
+					'required',
+					function(string $attribute, mixed $value, Closure $fail)
+					{
+						//the text of the email is located in the $value var, so we need to make sure that it contains
+						//the require token from the class.
+						$requiredTokens = ($this->emailClass)::requiredTokens();
+						$tokenNames = ($this->emailClass)::availableTokens();
+						foreach($requiredTokens as $token)
+						{
+							if($value == "" || !str_contains($value, $token))
+							{
+								$fail('errors.emails.tokens.missing')
+									->translate(['token' => $tokenNames[$token] ?? "Token"]);
+							}
+						}
+					}
+				],
+		];
 	}
 }

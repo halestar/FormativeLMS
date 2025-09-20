@@ -16,10 +16,12 @@ class RubricRestoreSeeder extends Seeder
 	public function run(): void
 	{
 		foreach(Storage::disk('private')
-		               ->files(DevelopRubrics::$backupDirectory) as $file) {
+		               ->files(DevelopRubrics::$backupDirectory) as $file)
+		{
 			$skill = KnowledgeSkill::where('designation', basename($file, '.json'))
 			                       ->first();
-			if($skill) {
+			if($skill)
+			{
 				$json = json_decode(Storage::disk('private')
 				                           ->get($file), true);
 				$rubric = Rubric::hydrate($json);

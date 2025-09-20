@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 trait Campuseable
 {
-    public function campuses(): MorphToMany
-    {
-        return $this->morphToMany(Campus::class, 'campusable', 'campusables');
-    }
+	public function campuses(): MorphToMany
+	{
+		return $this->morphToMany(Campus::class, 'campusable', 'campusables');
+	}
 }

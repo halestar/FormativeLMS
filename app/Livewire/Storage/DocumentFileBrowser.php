@@ -29,7 +29,8 @@ class DocumentFileBrowser extends Component
 	{
 		$this->connection = $connection;
 		$this->assets = $this->connection->rootFiles();
-		$this->mimeTypes = $mimeTypes? array_intersect($mimeTypes, MimeType::allowedMimeTypes()): MimeType::allowedMimeTypes();
+		$this->mimeTypes = $mimeTypes ? array_intersect($mimeTypes,
+			MimeType::allowedMimeTypes()) : MimeType::allowedMimeTypes();
 	}
 	
 	public function clearFilter()
@@ -40,14 +41,16 @@ class DocumentFileBrowser extends Component
 	function viewFolder(string $path)
 	{
 		$folder = $this->connection->file($path);
-		if($folder->isFolder) {
+		if($folder->isFolder)
+		{
 			$this->selectedFolder = $folder;
 		}
 	}
 	
 	public function viewParent()
 	{
-		if($this->selectedFolder) {
+		if($this->selectedFolder)
+		{
 			$this->selectedFolder = $this->connection->parentDirectory($this->selectedFolder);
 		}
 		
@@ -104,7 +107,8 @@ class DocumentFileBrowser extends Component
 	public function selectFile(string $path)
 	{
 		$file = $this->connection->file($path);
-		if($this->multiple) {
+		if($this->multiple)
+		{
 			//since multiple is set it should ALWAYS be an array
 			if(!$this->selectedItems)
 				$this->selectedItems = [];
@@ -115,7 +119,8 @@ class DocumentFileBrowser extends Component
 			else
 				$this->selectedItems[$file->path] = $file;
 		}
-		else {
+		else
+		{
 			if(!$this->selectedItems)
 				$this->selectedItems = $file;
 			elseif($this->selectedItems instanceof DocumentFile && $this->selectedItems->path === $file->path)
@@ -126,21 +131,15 @@ class DocumentFileBrowser extends Component
 		$this->dispatch('document-file-browser.file-selected', selected_items: $this->selectedItems);
 	}
 	
-	protected function rules()
-	{
-		return [
-			'uploads' => File::types(MimeType::allowedMimeTypes())
-			                       ->max(12 * 1024),
-		];
-	}
-	
 	public function addFile()
 	{
 		$this->validate();
 		//we need the manager to convert the images.
-		if(is_array($this->uploads)) {
+		if(is_array($this->uploads))
+		{
 			//first, since we're uploading multiple files, we will need to go through each one.
-			foreach($this->uploads as $file) {
+			foreach($this->uploads as $file)
+			{
 				//make sure our mime type allows it
 				if(count($this->mimeTypes) > 0 && !in_array($file->getMimeType(), $this->mimeTypes))
 					continue;
@@ -158,7 +157,7 @@ class DocumentFileBrowser extends Component
 		if($this->selectedFolder)
 			$this->assets = $this->connection->files($this->selectedFolder, $this->mimeTypes);
 		else
-			$this->assets = $this->connection->rootFiles( $this->mimeTypes);
+			$this->assets = $this->connection->rootFiles($this->mimeTypes);
 		if($this->filterTerms)
 			$this->assets = array_filter($this->assets,
 				fn($asset) => Str::contains($asset->name, $this->filterTerms, true));
@@ -168,5 +167,13 @@ class DocumentFileBrowser extends Component
 	{
 		$this->refreshAssets();
 		return view('livewire.storage.document-file-browser');
+	}
+	
+	protected function rules()
+	{
+		return [
+			'uploads' => File::types(MimeType::allowedMimeTypes())
+			                 ->max(12 * 1024),
+		];
 	}
 }

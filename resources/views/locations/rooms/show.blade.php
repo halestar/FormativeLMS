@@ -6,13 +6,13 @@
             <div class="col-md-4">
                 <div class="profile-img">
                     <img
-                        class="img-fluid img-thumbnail"
-                        @if($room->isFreeFloating())
-                            src="/images/free-floating-rooms.png"
-                        @else
-                            src="{{ $room->building->img }}"
-                        @endif
-                        alt="{{ __('locations.buildings.img') }}"
+                            class="img-fluid img-thumbnail"
+                            @if($room->isFreeFloating())
+                                src="/images/free-floating-rooms.png"
+                            @else
+                                src="{{ $room->building->img }}"
+                            @endif
+                            alt="{{ __('locations.buildings.img') }}"
                     />
                 </div>
             </div>
@@ -37,28 +37,28 @@
                     <ul class="nav nav-tabs mt-auto" id="profile-tab" role="tablist">
                         <li class="nav-item">
                             <a
-                                class="nav-link active"
-                                id="tab-basic"
-                                data-bs-toggle="tab"
-                                data-bs-target="#tab-pane-basic"
-                                href="#tab-pane-basic"
-                                role="tab"
-                                aria-controls="#tab-pane-basic"
-                                aria-selected="true"
-                                save-tab="basic"
+                                    class="nav-link active"
+                                    id="tab-basic"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#tab-pane-basic"
+                                    href="#tab-pane-basic"
+                                    role="tab"
+                                    aria-controls="#tab-pane-basic"
+                                    aria-selected="true"
+                                    save-tab="basic"
                             >{{ __('people.profile.basic') }}</a>
                         </li>
                         <li class="nav-item">
                             <a
-                                class="nav-link"
-                                id="tab-schedule"
-                                data-bs-toggle="tab"
-                                data-bs-target="#tab-pane-schedule"
-                                href="#tab-pane-schedule"
-                                role="tab"
-                                aria-controls="#tab-pane-schedule"
-                                aria-selected="false"
-                                save-tab="schedule"
+                                    class="nav-link"
+                                    id="tab-schedule"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#tab-pane-schedule"
+                                    href="#tab-pane-schedule"
+                                    role="tab"
+                                    aria-controls="#tab-pane-schedule"
+                                    aria-selected="false"
+                                    save-tab="schedule"
                             >{{ __('locations.rooms.schedule') }}</a>
                         </li>
                     </ul>
@@ -66,9 +66,9 @@
             </div>
             <div class="col-md-2">
                 <a
-                    type="button"
-                    class="btn btn-secondary profile-edit-btn"
-                    href="{{ route('locations.rooms.edit', $room) }}"
+                        type="button"
+                        class="btn btn-secondary profile-edit-btn"
+                        href="{{ route('locations.rooms.edit', $room) }}"
                 >{{ __('locations.rooms.edit') }}</a>
             </div>
         </div>
@@ -79,15 +79,15 @@
                         <strong>{{ __('locations.rooms.capacity') }}:</strong> {{ $room->capacity }}
                     </div>
                     @if($room->isPhysical())
-                    <div class="mb-3">
-                        <a
-                            href="{{ route('locations.areas.show', $room->area_id) }}"
-                            class="btn btn-primary btn-lg d-flex justify-content-between align-items-center"
-                        >
-                            {{ __('locations.areas.bounds.define') }}
-                            <i class="fa-solid fa-arrow-up-right-from-square ps-2 ms-2 border-start"></i>
-                        </a>
-                    </div>
+                        <div class="mb-3">
+                            <a
+                                    href="{{ route('locations.areas.show', $room->area_id) }}"
+                                    class="btn btn-primary btn-lg d-flex justify-content-between align-items-center"
+                            >
+                                {{ __('locations.areas.bounds.define') }}
+                                <i class="fa-solid fa-arrow-up-right-from-square ps-2 ms-2 border-start"></i>
+                            </a>
+                        </div>
                     @endif
                     @if($room->notes)
                         <div class="alert text-bg-primary">{{ $room->notes }}</div>
@@ -97,8 +97,8 @@
             <div class="col-md-6">
                 <div class="tab-content profile-tab" id="profile-tab-content">
                     <div
-                        class="tab-pane fade show active"
-                        id="tab-pane-basic" role="tabpanel" aria-labelledby="tab-basic" tabindex="0"
+                            class="tab-pane fade show active"
+                            id="tab-pane-basic" role="tabpanel" aria-labelledby="tab-basic" tabindex="0"
                     >
                         <ul class="list-group">
                             @if($room->phone)
@@ -113,14 +113,14 @@
                             @endif
                             @if($room->isPhysical())
                                 @if($room->building->address)
-                                <li class="list-group list-group-flush border-bottom mb-2 pb-1">
-                                    <div class="d-flex justify-content-between align-items-top">
-                                        <label>
-                                            {{ __('locations.buildings.address') }}
-                                        </label>
-                                        <span>{!! nl2br($room->building->address->pretty_address) !!}</span>
-                                    </div>
-                                </li>
+                                    <li class="list-group list-group-flush border-bottom mb-2 pb-1">
+                                        <div class="d-flex justify-content-between align-items-top">
+                                            <label>
+                                                {{ __('locations.buildings.address') }}
+                                            </label>
+                                            <span>{!! nl2br($room->building->address->pretty_address) !!}</span>
+                                        </div>
+                                    </li>
                                 @endif
                                 @if($room->building->phones()->count() > 0)
                                     @foreach($room->building->phones as $phone)
@@ -129,7 +129,9 @@
                                                 <label>
                                                     {{ __('locations.buildings.phone') }}
                                                     (
-                                                    @if($phone->personal->primary) {{ __('phones.primary_phone') }}@endif
+                                                    @if($phone->personal->primary)
+                                                        {{ __('phones.primary_phone') }}
+                                                    @endif
                                                     {{ $phone->personal->label }}
                                                     )
                                                 </label>
@@ -146,10 +148,10 @@
                         @endif
                     </div>
                     <div
-                        class="tab-pane fade"
-                        id="tab-pane-schedule" role="tabpanel" aria-labelledby="tab-schedule" tabindex="0"
+                            class="tab-pane fade"
+                            id="tab-pane-schedule" role="tabpanel" aria-labelledby="tab-schedule" tabindex="0"
                     >
-                        <x-schedule-viewer :schedule-sources="$room->currentClassSessions()" :width="700" />
+                        <x-schedule-viewer :schedule-sources="$room->currentClassSessions()" :width="700"/>
                     </div>
                 </div>
             </div>
@@ -160,7 +162,7 @@
 @push('scripts')
     <script>
         @if($room->isPhysical())
-            var roomMap = new MapDrawings('blueprint-container', {{ $room->area_id }}, { highlightRoom: {{ $room->id }} });
+        var roomMap = new MapDrawings('blueprint-container', {{ $room->area_id }}, {highlightRoom: {{ $room->id }}});
         @endif
     </script>
 @endpush

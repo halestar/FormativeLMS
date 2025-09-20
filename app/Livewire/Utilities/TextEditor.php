@@ -18,6 +18,7 @@ use Livewire\WithFileUploads;
 class TextEditor extends Component
 {
 	use WithFileUploads;
+	
 	#[Modelable]
 	public string $content = '';
 	public WorkStoragesInstances $instance;
@@ -58,14 +59,6 @@ class TextEditor extends Component
 			$workFile->delete();
 	}
 	
-	protected function rules()
-	{
-		return [
-			'uploadedFile' => File::types(MimeType::allowedMimeTypes())
-			                 ->max(12 * 1024),
-		];
-	}
-	
 	public function uploadFile()
 	{
 		$docFile = DocumentFile::fromUploadedFile($this->uploadedFile);
@@ -77,5 +70,13 @@ class TextEditor extends Component
 	public function render()
 	{
 		return view('livewire.utilities.text-editor');
+	}
+	
+	protected function rules()
+	{
+		return [
+			'uploadedFile' => File::types(MimeType::allowedMimeTypes())
+			                      ->max(12 * 1024),
+		];
 	}
 }

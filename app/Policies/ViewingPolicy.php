@@ -7,11 +7,11 @@ use App\Models\People\ViewPolicies\ViewableField;
 
 class ViewingPolicy
 {
-    /**
-     * Determine whether the user can view any models.
-     */
-    public function canView(Person $viewer, ViewableField $field): bool
-    {
-        return true;
-    }
+	/**
+	 * Determine whether the user can view any models.
+	 */
+	public function canView(Person $viewer, ViewableField $field): bool
+	{
+		return true;
+	}
 }

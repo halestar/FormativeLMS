@@ -4,12 +4,12 @@
             <div class="col-md-6">
                 <div class="form-floating mb-0">
                     <input
-                        type="text"
-                        class="form-control"
-                        id="first"
-                        placeholder="{{ __('people.profile.fields.first') }}"
-                        autocomplete="off"
-                        wire:model.live.debounce="first"
+                            type="text"
+                            class="form-control"
+                            id="first"
+                            placeholder="{{ __('people.profile.fields.first') }}"
+                            autocomplete="off"
+                            wire:model.live.debounce="first"
                     />
                     <label for="first">{{ __('people.profile.fields.first') }}</label>
                 </div>
@@ -17,12 +17,12 @@
             <div class="col-md-6">
                 <div class="form-floating mb-0">
                     <input
-                        type="text"
-                        class="form-control @error('last') is-invalid @enderror"
-                        id="last"
-                        placeholder="{{ __('people.profile.fields.last') }}"
-                        autocomplete="off"
-                        wire:model.live.debounce="last"
+                            type="text"
+                            class="form-control @error('last') is-invalid @enderror"
+                            id="last"
+                            placeholder="{{ __('people.profile.fields.last') }}"
+                            autocomplete="off"
+                            wire:model.live.debounce="last"
                     />
                     <label for="first">{{ __('people.profile.fields.last') }}</label>
                 </div>
@@ -31,12 +31,12 @@
             <div class="col-md-12 mt-3">
                 <div class="form-floating mb-0">
                     <input
-                        type="text"
-                        class="form-control @error('email') is-invalid @enderror"
-                        id="email"
-                        placeholder="{{ __('people.profile.fields.email') }}"
-                        autocomplete="off"
-                        wire:model.live.debounce="email"
+                            type="text"
+                            class="form-control @error('email') is-invalid @enderror"
+                            id="email"
+                            placeholder="{{ __('people.profile.fields.email') }}"
+                            autocomplete="off"
+                            wire:model.live.debounce="email"
                     />
                     <label for="email">{{ __('people.profile.fields.email') }}</label>
                 </div>
@@ -46,8 +46,8 @@
         <div class="row-cols-auto row-cols-auto mt-3">
             <div class="col-12 text-end">
                 <button
-                    type="submit"
-                    class="btn btn-primary"
+                        type="submit"
+                        class="btn btn-primary"
                 >{{ __('people.add_person') }}</button>
             </div>
         </div>
@@ -58,14 +58,15 @@
             <h2>{{ __('people.are_you_trying_to_add_any_of_these_people') }}</h2>
             <ul class="list-group">
                 @foreach($suggestedPeople as $suggestion)
-                    <li class="list-group-item list-group-item-action" wire:key="{{ $suggestion->id }}" wire:click="showPerson({{$suggestion->id}})">
+                    <li class="list-group-item list-group-item-action" wire:key="{{ $suggestion->id }}"
+                        wire:click="showPerson({{$suggestion->id}})">
                         <div class="row">
                             <div class="col-md-2">
                                 <img
-                                    class='img-thumbnail'
-                                    src='{{ $suggestion->thumbnail_url }}'
-                                    style="height: {{ config('lms.thumb_max_height') }}px !important;"
-                                    alt='{{ __('people.profile.image') }}'
+                                        class='img-thumbnail'
+                                        src='{{ $suggestion->thumbnail_url }}'
+                                        style="height: {{ config('lms.thumb_max_height') }}px !important;"
+                                        alt='{{ __('people.profile.image') }}'
                                 />
                             </div>
                             <h3 class="col-md-7 align-self-center ">{{ $suggestion->name }}</h3>

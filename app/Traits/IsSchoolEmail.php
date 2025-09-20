@@ -12,24 +12,18 @@ use Illuminate\Support\Facades\Blade;
 trait IsSchoolEmail
 {
 	public SystemSetting $emailSetting;
-	private function loadSettings()
-	{
-		$this->emailSetting = EmailSetting::loadEmail(static::$key, static::defaults());
-		if(!$this->emailSetting->subject || !$this->emailSetting->content)
-		{
-			if(!$this->emailSetting->subject)
-				$this->emailSetting->subject = static::defaults()['subject'];
-			if(!$this->emailSetting->content)
-				$this->emailSetting->content = static::defaults()['subject'];
-			$this->emailSetting->save();
-		}
-	}
 	
 	public static function createSettings(): void
 	{
 		$emailSettings = EmailSetting::loadEmail(static::$key, static::defaults());
 		$emailSettings->save();
 	}
+	
+	public static function getSetting(): EmailSetting
+	{
+		return EmailSetting::loadEmail(static::$key, static::defaults());
+	}
+	
 	/**
 	 * Get the message envelope.
 	 */
@@ -39,7 +33,7 @@ trait IsSchoolEmail
 			subject: $this->emailSetting->subject,
 		);
 	}
-
+	
 	/**
 	 * Get the message content definition.
 	 */
@@ -49,7 +43,7 @@ trait IsSchoolEmail
 			htmlString: Blade::render($this->emailSetting->content, $this->withTokens()),
 		);
 	}
-
+	
 	/**
 	 * Get the attachments for the message.
 	 *
@@ -68,8 +62,16 @@ trait IsSchoolEmail
 		return $attachments;
 	}
 	
-	public static function getSetting(): EmailSetting
+	private function loadSettings()
 	{
-		return EmailSetting::loadEmail(static::$key, static::defaults());
+		$this->emailSetting = EmailSetting::loadEmail(static::$key, static::defaults());
+		if(!$this->emailSetting->subject || !$this->emailSetting->content)
+		{
+			if(!$this->emailSetting->subject)
+				$this->emailSetting->subject = static::defaults()['subject'];
+			if(!$this->emailSetting->content)
+				$this->emailSetting->content = static::defaults()['subject'];
+			$this->emailSetting->save();
+		}
 	}
 }

@@ -86,5 +86,5 @@ abstract class DocumentFilesConnection extends IntegrationConnection implements 
 	 * @return ExportFile Contains the file data and metadata for the exported file, null if the file doesn't exists
 	 */
 	abstract public function exportFile(DocumentFile $file, array $preferMime = []): ?ExportFile;
-
+	
 }

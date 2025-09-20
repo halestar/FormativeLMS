@@ -31,32 +31,6 @@ class AuthenticationDesignation implements Arrayable, JSONSerializable
 			$this->services = IntegrationService::find($this->service_ids);
 	}
 	
-	public function updateServices(int|array $service_ids)
-	{
-		$this->service_ids = $service_ids;
-		if(is_array($service_ids))
-			$this->services = IntegrationService::whereIn('id', $this->service_ids)
-			                                    ->get();
-		else
-			$this->services = IntegrationService::find($this->service_ids);
-	}
-	
-	
-	public function toArray(): array
-	{
-		return
-			[
-				'priority' => $this->priority,
-				'roles' => $this->roles,
-				'service_ids' => $this->service_ids,
-			];
-	}
-	
-	public function jsonSerialize(): mixed
-	{
-		return $this->toArray();
-	}
-	
 	public static function hydrate(array $data): AuthenticationDesignation
 	{
 		$priority = $data['priority'];
@@ -70,8 +44,36 @@ class AuthenticationDesignation implements Arrayable, JSONSerializable
 	{
 		$manager = App::make(IntegrationsManager::class);
 		$roles = [];
-		$service_ids = LocalIntegrator::autoload()->services()->ofType(IntegratorServiceTypes::AUTHENTICATION)->first()->id;
+		$service_ids = LocalIntegrator::autoload()
+		                              ->services()
+		                              ->ofType(IntegratorServiceTypes::AUTHENTICATION)
+		                              ->first()->id;
 		return new AuthenticationDesignation($priority, $roles, $service_ids);
+	}
+	
+	public function updateServices(int|array $service_ids)
+	{
+		$this->service_ids = $service_ids;
+		if(is_array($service_ids))
+			$this->services = IntegrationService::whereIn('id', $this->service_ids)
+			                                    ->get();
+		else
+			$this->services = IntegrationService::find($this->service_ids);
+	}
+	
+	public function jsonSerialize(): mixed
+	{
+		return $this->toArray();
+	}
+	
+	public function toArray(): array
+	{
+		return
+			[
+				'priority' => $this->priority,
+				'roles' => $this->roles,
+				'service_ids' => $this->service_ids,
+			];
 	}
 	
 	public function appliesToPerson(Person $person)
@@ -82,7 +84,8 @@ class AuthenticationDesignation implements Arrayable, JSONSerializable
 	public function prettyServices(): string
 	{
 		if($this->services instanceof Collection)
-			return $this->services->pluck('name')->implode(', ');
+			return $this->services->pluck('name')
+			                      ->implode(', ');
 		return $this->services->name;
 	}
 	

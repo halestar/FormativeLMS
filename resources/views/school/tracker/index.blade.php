@@ -12,17 +12,17 @@
         <div class="list-group course-list">
             @foreach($trackers as $tracker)
                 <a
-                    href="{{ route('subjects.student-tracker.edit', ['student_tracker' => $tracker->id]) }}"
-                    class="list-group-item list-group-item-action"
+                        href="{{ route('subjects.student-tracker.edit', ['student_tracker' => $tracker->id]) }}"
+                        class="list-group-item list-group-item-action"
                 >
                     <div class="row align-items-center">
                         <div class="h3 col-4">
                             <img
-                                class="img-thumbnail img-fluid me-2"
-                                src="{{ $tracker->thumbnail_url }}"
-                                alt="{{ $tracker->name }}"
-                                width="50"
-                                height="50"
+                                    class="img-thumbnail img-fluid me-2"
+                                    src="{{ $tracker->thumbnail_url }}"
+                                    alt="{{ $tracker->name }}"
+                                    width="50"
+                                    height="50"
                             />
                             {{ $tracker->name }}
                         </div>

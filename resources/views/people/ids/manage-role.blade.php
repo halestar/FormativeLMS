@@ -2,13 +2,12 @@
 
 @section('content')
     <div class="container">
-        <livewire:people.id-creator :schoolIdCard="$idCard" />
+        <livewire:people.id-creator :schoolIdCard="$idCard"/>
     </div>
 @endsection
 @push('scripts')
     <script>
-        Livewire.on('id-card-saved', (e) =>
-        {
+        Livewire.on('id-card-saved', (e) => {
             axios.post('{{ route('people.school-ids.manage.role.update', $role) }}', {school_id: e.idCard})
                 .then(response => {
                     console.log(response);

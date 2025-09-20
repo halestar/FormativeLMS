@@ -12,8 +12,7 @@
 <script>
 
     $wire.on('new-message-alert', () => {
-        setTimeout(function()
-        {
+        setTimeout(function () {
             $('#new-message-alert').removeClass('glowing');
         }, 5000)
     });

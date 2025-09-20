@@ -24,10 +24,11 @@ class IntegrationService extends Model implements HasSchoolRoles
 		HasSchoolRolesTrait::hasRole as traitHasRole;
 		HasSchoolRolesTrait::schoolRoles as traitSchoolRoles;
 	}
+	
 	public $timestamps = false;
+	public $incrementing = true;
 	protected $table = "integration_services";
 	protected $primaryKey = "id";
-	public $incrementing = true;
 	protected $fillable =
 		[
 			'name',
@@ -43,21 +44,6 @@ class IntegrationService extends Model implements HasSchoolRoles
 			'inherit_permissions',
 		];
 	protected $guard_name = 'web';
-	
-	protected function casts(): array
-	{
-		return
-			[
-				'service_type' => IntegratorServiceTypes::class,
-				'data' => AsJsonData::class,
-				'enabled' => 'boolean',
-				'can_connect_to_people' => 'boolean',
-				'can_connect_to_system' => 'boolean',
-				'configurable' => 'boolean',
-				'inherit_permissions' => 'boolean',
-			];
-	}
-	
 	private ?IntegrationConnection $activeConnection = null;
 	
 	public function __toString()
@@ -85,22 +71,6 @@ class IntegrationService extends Model implements HasSchoolRoles
 		return $this->traitHasRole($roles, $guard);
 	}
 	
-	protected function inheritPermissions(): Attribute
-	{
-		return Attribute::make
-		(
-			get: fn(bool $value) => $value,
-			set: function(bool $value)
-			{
-				if($value)
-					$this->roles()->detach();
-				else
-					$this->roles()->sync($this->integrator->roles->pluck('id')->toArray());
-				return ['inherit_permissions' => $value];
-			}
-		);
-	}
-	
 	/*****************************************************************
 	 * RELATIONSHIPS
 	 */
@@ -113,10 +83,10 @@ class IntegrationService extends Model implements HasSchoolRoles
 	public function personalConnections(): BelongsToMany
 	{
 		return $this->belongsToMany(Person::class, 'integration_connections', 'service_id', 'person_id')
-			->wherePivotNotNull('person_id')
-			->withPivot('id', 'data', 'enabled', 'className')
-			->as('lms_service_connection')
-			->using(IntegrationConnection::class);
+		            ->wherePivotNotNull('person_id')
+		            ->withPivot('id', 'data', 'enabled', 'className')
+		            ->as('lms_service_connection')
+		            ->using(IntegrationConnection::class);
 	}
 	
 	public function schoolRoles(): BelongsToMany
@@ -124,6 +94,39 @@ class IntegrationService extends Model implements HasSchoolRoles
 		if($this->inherit_permissions)
 			return $this->integrator->schoolRoles();
 		return $this->traitSchoolRoles();
+	}
+	
+	protected function casts(): array
+	{
+		return
+			[
+				'service_type' => IntegratorServiceTypes::class,
+				'data' => AsJsonData::class,
+				'enabled' => 'boolean',
+				'can_connect_to_people' => 'boolean',
+				'can_connect_to_system' => 'boolean',
+				'configurable' => 'boolean',
+				'inherit_permissions' => 'boolean',
+			];
+	}
+	
+	protected function inheritPermissions(): Attribute
+	{
+		return Attribute::make
+		(
+			get: fn(bool $value) => $value,
+			set: function(bool $value)
+			{
+				if($value)
+					$this->roles()
+					     ->detach();
+				else
+					$this->roles()
+					     ->sync($this->integrator->roles->pluck('id')
+					                                    ->toArray());
+				return ['inherit_permissions' => $value];
+			}
+		);
 	}
 	
 	/*****************************************************************

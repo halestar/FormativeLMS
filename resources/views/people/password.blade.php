@@ -12,7 +12,7 @@
                 <h3 class="card-title">{{ __('settings.auth.password.change') }}</h3>
             </div>
             <div class="card-body">
-                <livewire:auth.change-password-form :person="$person" />
+                <livewire:auth.change-password-form :person="$person"/>
             </div>
         </div>
     </div>

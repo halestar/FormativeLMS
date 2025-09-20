@@ -7,7 +7,8 @@ use App\Traits\EnumToArray;
 enum IntegratorServiceTypes: string
 {
 	use EnumToArray;
-    case AUTHENTICATION = 'auth';
+	
+	case AUTHENTICATION = 'auth';
 	case DOCUMENTS = 'documents';
 	case WORK = 'work';
 	case AI = 'ai';
@@ -15,7 +16,7 @@ enum IntegratorServiceTypes: string
 	
 	public function label(): string
 	{
-		return match($this)
+		return match ($this)
 		{
 			self::AUTHENTICATION => __('integrators.services.auth'),
 			self::DOCUMENTS => __('integrators.services.documents'),

@@ -1,7 +1,7 @@
 <div class="modal-dialog modal-xl">
     @if($open)
         <div
-            class="modal-content"
+                class="modal-content"
         >
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="document-browser-title">{{ __('storage.document.browser') }}</h1>
@@ -62,8 +62,11 @@
                                             x-show.important="uploading"
                                     >
                                         <div class="display-5 mb-3">{{ __('common.uploading') }}</div>
-                                        <div class="progress w-50 border border-dark" role="progressbar" :aria-valuenow="progress" aria-valuemin="0" aria-valuemax="100" style="height: 3em;">
-                                            <div class="progress-bar progress-bar-striped" :style="{ width: progress + '%'}"></div>
+                                        <div class="progress w-50 border border-dark" role="progressbar"
+                                             :aria-valuenow="progress" aria-valuemin="0" aria-valuemax="100"
+                                             style="height: 3em;">
+                                            <div class="progress-bar progress-bar-striped"
+                                                 :style="{ width: progress + '%'}"></div>
                                         </div>
                                     </div>
                                 </div>

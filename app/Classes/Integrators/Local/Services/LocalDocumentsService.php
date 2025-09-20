@@ -12,26 +12,6 @@ use App\Models\People\Person;
 class LocalDocumentsService extends LmsIntegrationService
 {
 	
-	public function canConnect(Person $person): bool
-	{
-		return true;
-	}
-	
-	public function getConnectionClass(): string
-	{
-		return LocalDocumentsConnection::class;
-	}
-	
-	public function getSystemConnectionClass(): string
-	{
-		return '';
-	}
-	
-	public function configurationUrl(): string
-	{
-		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.documents.index');
-	}
-	
 	public static function getServiceType(): IntegratorServiceTypes
 	{
 		return IntegratorServiceTypes::DOCUMENTS;
@@ -50,9 +30,9 @@ class LocalDocumentsService extends LmsIntegrationService
 	public static function getDefaultData(): array
 	{
 		return
-		[
-			'documents_disk' => config('lms.storage.documents'),
-		];
+			[
+				'documents_disk' => config('lms.storage.documents'),
+			];
 	}
 	
 	public static function canConnectToPeople(): bool
@@ -73,6 +53,26 @@ class LocalDocumentsService extends LmsIntegrationService
 	public static function canBeConfigured(): bool
 	{
 		return true;
+	}
+	
+	public function canConnect(Person $person): bool
+	{
+		return true;
+	}
+	
+	public function getConnectionClass(): string
+	{
+		return LocalDocumentsConnection::class;
+	}
+	
+	public function getSystemConnectionClass(): string
+	{
+		return '';
+	}
+	
+	public function configurationUrl(): string
+	{
+		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.documents.index');
 	}
 	
 	public function systemAutoconnect(): bool

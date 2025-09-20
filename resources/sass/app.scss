@@ -281,7 +281,7 @@ $img-icon-sizes: ("xl": 96px, "large": 48px, "normal": 32px, "small": 24px, "tin
     border: 2px solid white;
     display: inline-block !important;
     position: relative;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
     -webkit-transition: .2s ease;
     transition: .2s ease;
 }

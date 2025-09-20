@@ -8,15 +8,16 @@
         <div class="mb-3">
             <label for="maxAttempts" class="form-label">{{ __('integrators.local.auth.maxAttempts') }}</label>
             <input
-                type="number"
-                class="form-control"
-                id="maxAttempts"
-                name="maxAttempts"
-                value="{{ $authService->data->maxAttempts }}"
-                required
-                aria-describedby="maxAttempts_help"
+                    type="number"
+                    class="form-control"
+                    id="maxAttempts"
+                    name="maxAttempts"
+                    value="{{ $authService->data->maxAttempts }}"
+                    required
+                    aria-describedby="maxAttempts_help"
             />
-            <div id="maxAttempts_help" class="form-text">{!! __('integrators.local.auth.maxAttempts.description') !!}</div>
+            <div id="maxAttempts_help"
+                 class="form-text">{!! __('integrators.local.auth.maxAttempts.description') !!}</div>
         </div>
         <div class="mb-3">
             <label for="decayMinutes" class="form-label">{{ __('integrators.local.auth.decayMinutes') }}</label>
@@ -29,7 +30,8 @@
                     required
                     aria-describedby="decayMinutes_help"
             />
-            <div id="decayMinutes_help" class="form-text">{!! __('integrators.local.auth.decayMinutes.description') !!}</div>
+            <div id="decayMinutes_help"
+                 class="form-text">{!! __('integrators.local.auth.decayMinutes.description') !!}</div>
         </div>
         <div class="mb-3">
             <label for="lockoutTimeout" class="form-label">{{ __('integrators.local.auth.lockoutTimeout') }}</label>
@@ -42,7 +44,8 @@
                     required
                     aria-describedby="lockoutTimeout_help"
             />
-            <div id="lockoutTimeout_help" class="form-text">{!! __('integrators.local.auth.lockoutTimeout.description') !!}</div>
+            <div id="lockoutTimeout_help"
+                 class="form-text">{!! __('integrators.local.auth.lockoutTimeout.description') !!}</div>
         </div>
         <div class="row row-cols">
             <button type="submit" class="btn btn-primary">{{ __('integrators.service.update') }}</button>

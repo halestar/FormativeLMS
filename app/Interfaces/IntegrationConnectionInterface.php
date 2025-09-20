@@ -12,6 +12,7 @@ interface IntegrationConnectionInterface
 	 * @return array The default data to save to the instance when a connection is first established to the system.
 	 */
 	public static function getSystemInstanceDefault(): array;
+	
 	/**
 	 * @return array The default data to save to the instance when a connection is first established.
 	 */

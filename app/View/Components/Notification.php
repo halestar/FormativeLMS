@@ -9,16 +9,16 @@ use Illuminate\View\Component;
 
 class Notification extends Component
 {
-    /**
-     * Create a new component instance.
-     */
-    public function __construct(public DatabaseNotification $notification){}
-
-    /**
-     * Get the view / contents that represent the component.
-     */
-    public function render(): View|Closure|string
-    {
-        return view('components.notification');
-    }
+	/**
+	 * Create a new component instance.
+	 */
+	public function __construct(public DatabaseNotification $notification) {}
+	
+	/**
+	 * Get the view / contents that represent the component.
+	 */
+	public function render(): View|Closure|string
+	{
+		return view('components.notification');
+	}
 }

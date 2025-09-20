@@ -48,17 +48,6 @@ class LoginForm extends Component
 	public bool $canResetPassword = false;
 	public ?Carbon $lockedUntil = null;
 	
-	public function gotoStage($stage)
-	{
-		$this->promptEmail = false;
-		$this->promptMethod = false;
-		$this->promptPassword = false;
-		$this->codeVerification = false;
-		$this->codeTimeout = false;
-		$this->resetPassword = false;
-		$this->$stage = true;
-	}
-	
 	public function mount(AuthSettings $authSettings)
 	{
 		$this->authSettings = $authSettings;
@@ -70,11 +59,16 @@ class LoginForm extends Component
 		}
 	}
 	
-	private function lockUser(Carbon $until = null)
+	public function submitMethod(IntegrationService $service)
 	{
-		$this->lockedUser = true;
-		$this->lockedUntil = $until;
-		$this->gotoStage('promptEmail');
+		$connection = $service->connect($this->user);
+		if($connection)
+		{
+			$this->user->authConnection()
+			           ->associate($connection);
+			$this->user->save();
+		}
+		$this->submitEmail();
 	}
 	
 	public function submitEmail()
@@ -110,7 +104,7 @@ class LoginForm extends Component
 					$this->methodOptions[$service->id] = ($service->getConnectionClass())::loginButton();
 				return;
 			}
-			if($services instanceof Collection && $services->count()== 1)
+			if($services instanceof Collection && $services->count() == 1)
 				$services = $services->first();
 			$connection = $services->connect($this->user);
 			Log::debug(print_r($connection, true));
@@ -140,16 +134,22 @@ class LoginForm extends Component
 		}
 	}
 	
-	public function submitMethod(IntegrationService $service)
+	public function gotoStage($stage)
 	{
-		$connection = $service->connect($this->user);
-		if($connection)
-		{
-			$this->user->authConnection()
-			           ->associate($connection);
-			$this->user->save();
-		}
-		$this->submitEmail();
+		$this->promptEmail = false;
+		$this->promptMethod = false;
+		$this->promptPassword = false;
+		$this->codeVerification = false;
+		$this->codeTimeout = false;
+		$this->resetPassword = false;
+		$this->$stage = true;
+	}
+	
+	private function lockUser(Carbon $until = null)
+	{
+		$this->lockedUser = true;
+		$this->lockedUntil = $until;
+		$this->gotoStage('promptEmail');
 	}
 	
 	public function submitPassword()
@@ -203,13 +203,6 @@ class LoginForm extends Component
 		    ->send(new ResetPasswordMail($this->user, $this->authCode));
 	}
 	
-	public function timeoutTimer()
-	{
-		$this->gotoStage('codeTimeout');
-		$this->authCode = '';
-		$this->authCodeExpires = null;
-	}
-	
 	public function submitVerification()
 	{
 		if($this->authCodeExpires->isPast())
@@ -224,6 +217,13 @@ class LoginForm extends Component
 		}
 		//in this case, the code is correct, so we reset the password.
 		$this->gotoStage('resetPassword');
+	}
+	
+	public function timeoutTimer()
+	{
+		$this->gotoStage('codeTimeout');
+		$this->authCode = '';
+		$this->authCodeExpires = null;
 	}
 	
 	public function render()

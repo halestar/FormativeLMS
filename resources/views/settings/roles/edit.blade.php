@@ -13,12 +13,12 @@
             <div class="mb-3">
                 <label for="name" class="form-label">{{ __('settings.permission.name') }}</label>
                 <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    @if($role->base_role) disabled @endif
-                    class="form-control @error('name') is-invalid @enderror"
-                    value="{{ $role->name }}"
+                        type="text"
+                        name="name"
+                        id="name"
+                        @if($role->base_role) disabled @endif
+                        class="form-control @error('name') is-invalid @enderror"
+                        value="{{ $role->name }}"
                 />
                 <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
             </div>
@@ -32,14 +32,15 @@
                     <div class='col'>
                         <div class="form-check">
                             <input
-                                type="checkbox"
-                                name="permissions[]"
-                                id="permissions_{{ $permission->id }}"
-                                class="form-check-input"
-                                value="{{ $permission->name }}"
-                                @if($role->hasPermissionTo($permission->name)) checked @endif
+                                    type="checkbox"
+                                    name="permissions[]"
+                                    id="permissions_{{ $permission->id }}"
+                                    class="form-check-input"
+                                    value="{{ $permission->name }}"
+                                    @if($role->hasPermissionTo($permission->name)) checked @endif
                             />
-                            <label for="permissions_{{ $permission->id }}" class="form-check-label">{{ $permission->name }}</label>
+                            <label for="permissions_{{ $permission->id }}"
+                                   class="form-check-label">{{ $permission->name }}</label>
                         </div>
                     </div>
                 @endforeach
@@ -50,13 +51,14 @@
                 @can('settings.roles.delete')
                     @if(!$role->base_role)
                         <button
-                            class="btn btn-danger col-md m-1"
-                            type="button"
-                            onclick="confirmDelete('{{ __('settings.role.delete.confirm') }}', '{{ route('settings.roles.destroy', ['role' => $role->id]) }}')"
+                                class="btn btn-danger col-md m-1"
+                                type="button"
+                                onclick="confirmDelete('{{ __('settings.role.delete.confirm') }}', '{{ route('settings.roles.destroy', ['role' => $role->id]) }}')"
                         >{{ __('settings.role.delete') }}</button>
                     @endif
                 @endcan
-                <a class="btn btn-secondary col-md m-1" role="button" href="{{ route('settings.roles.index') }}">{{ __('common.cancel') }}</a>
+                <a class="btn btn-secondary col-md m-1" role="button"
+                   href="{{ route('settings.roles.index') }}">{{ __('common.cancel') }}</a>
             </div>
         </form>
     </div>

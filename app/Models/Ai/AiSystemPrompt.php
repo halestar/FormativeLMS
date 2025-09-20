@@ -10,9 +10,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class AiSystemPrompt extends Model
 {
 	public $timestamps = true;
+	public $incrementing = true;
 	protected $table = "ai_system_prompts";
 	protected $primaryKey = "id";
-	public $incrementing = true;
 	protected $fillable =
 		[
 			'person_id',

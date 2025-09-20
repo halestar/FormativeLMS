@@ -8,16 +8,16 @@ use Illuminate\View\Component;
 
 class TextEditor extends Component
 {
-    /**
-     * Create a new component instance.
-     */
-    public function __construct(public string $instanceName){}
-
-    /**
-     * Get the view / contents that represent the component.
-     */
-    public function render(): View|Closure|string
-    {
-        return view('components.utilities.text-editor');
-    }
+	/**
+	 * Create a new component instance.
+	 */
+	public function __construct(public string $instanceName) {}
+	
+	/**
+	 * Get the view / contents that represent the component.
+	 */
+	public function render(): View|Closure|string
+	{
+		return view('components.utilities.text-editor');
+	}
 }

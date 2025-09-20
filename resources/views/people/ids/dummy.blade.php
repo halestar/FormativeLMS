@@ -1,9 +1,9 @@
 @use(App\Casts\IdCard)
 @use(App\Classes\IdCard\IdCardElement)
 <div
-    class="card"
-    @if($idCard)
-        style="aspect-ratio: {{ $idCard->aspectRatio }} !important;
+        class="card"
+        @if($idCard)
+            style="aspect-ratio: {{ $idCard->aspectRatio }} !important;
                 background-color: {{ $idCard->getBackgroundRbga() }};
                 @if($idCard->backgroundImage)
                 background-image: url('{{ $idCard->backgroundImage }}');
@@ -17,7 +17,7 @@
                 width: 400px !important;
                 max-width: 400px;
                 "
-    @endif
+        @endif
 >
     @if($idCard)
         <table style="width: 100%; height: 100%;table-layout: fixed;">
@@ -26,16 +26,16 @@
                     @for($col = 0; $col < $idCard->columns; $col++)
                         @continue((is_numeric($idCard->getContent($row,$col)) && $idCard->getContent($row,$col) == IdCard::CONTENT_SPAN))
                         <td
-                            style="position: relative;"
-                            @if($idCard->getContent($row,$col)instanceof \App\Classes\IdCard\IdCardElement)
-                                colspan="{{ $idCard->getContent($row,$col)->colSpan }}"
-                            rowspan="{{ $idCard->getContent($row,$col)->rowSpan }}"
-                            @endif
+                                style="position: relative;"
+                                @if($idCard->getContent($row,$col)instanceof \App\Classes\IdCard\IdCardElement)
+                                    colspan="{{ $idCard->getContent($row,$col)->colSpan }}"
+                                rowspan="{{ $idCard->getContent($row,$col)->rowSpan }}"
+                                @endif
                         >
                             @if($idCard->getContent($row,$col) instanceof IdCardElement)
                                 <div class="d-flex justify-content-center align-items-center">
                                     <div
-                                        class="flex-grow-1 show-as-action d-flex justify-content-start align-items-center"
+                                            class="flex-grow-1 show-as-action d-flex justify-content-start align-items-center"
                                     >
                                         {!! $idCard->getContent($row,$col)->renderDummy() !!}
                                     </div>

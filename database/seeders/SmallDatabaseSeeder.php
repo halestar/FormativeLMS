@@ -9,27 +9,27 @@ use Illuminate\Database\Seeder;
 
 class SmallDatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     */
-    public function run(): void
-    {
-        $this->call(
-            [
-                PermissionSeeder::class,
-                RoleSeeder::class,
-                IntegrationSeeder::class,
-                SystemSettingsSeeder::class,
-                FieldPermissionsSeeder::class,
-                CrudSeeder::class,
+	/**
+	 * Seed the application's database.
+	 */
+	public function run(): void
+	{
+		$this->call(
+			[
+				PermissionSeeder::class,
+				RoleSeeder::class,
+				IntegrationSeeder::class,
+				SystemSettingsSeeder::class,
+				FieldPermissionsSeeder::class,
+				CrudSeeder::class,
 				SchoolEmailSeeder::class,
-                BuildingSeeder::class,
-                CampusSeeder::class,
-                YearSeeder::class,
-                AdminSeeder::class,
-                SchoolIdSeeder::class,
-                SchoolEmailSeeder::class,
-                WebSeeder::class,
-            ]);
-    }
+				BuildingSeeder::class,
+				CampusSeeder::class,
+				YearSeeder::class,
+				AdminSeeder::class,
+				SchoolIdSeeder::class,
+				SchoolEmailSeeder::class,
+				WebSeeder::class,
+			]);
+	}
 }

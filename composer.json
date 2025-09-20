@@ -8,6 +8,7 @@
         "php": "^8.2",
         "google/apiclient": "^2.18",
         "halestar/dicms-blogger": ">=0.7.5",
+        "halestar/fablms-google-integrator": "^0.1.1",
         "halestar/laravel-drop-in-cms": ">=0.7.5",
         "hashids/hashids": "^5.0",
         "lab404/laravel-impersonate": "^1.7",

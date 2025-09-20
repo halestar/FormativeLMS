@@ -9,22 +9,22 @@ use Illuminate\Support\ServiceProvider;
 
 class IntegrationServiceProvider extends ServiceProvider
 {
-    /**
-     * Register services.
-     */
-    public function register(): void
-    {
-	    $this->app->singleton(IntegrationsManager::class, fn(Application $app) => new IntegrationsManager());
+	/**
+	 * Register services.
+	 */
+	public function register(): void
+	{
+		$this->app->singleton(IntegrationsManager::class, fn(Application $app) => new IntegrationsManager());
 		$this->app->singleton(SecureVault::class, fn(Application $app) => new SecureVault());
-    }
-
-    /**
-     * Bootstrap services.
-     */
-    public function boot(): void
-    {
-        //
-    }
+	}
+	
+	/**
+	 * Bootstrap services.
+	 */
+	public function boot(): void
+	{
+		//
+	}
 	
 	public function provides(): array
 	{

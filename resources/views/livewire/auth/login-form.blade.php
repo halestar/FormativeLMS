@@ -20,98 +20,100 @@
                                     @endif
                                 </div>
                             @endif
-                        <form wire:submit="submitEmail">
-                            <div class="input-group mb-3 has-validation">
-                                <span class="input-group-text" id="email-span">{{ __('people.profile.fields.email') }}</span>
-                                <input
-                                        id="email"
-                                        type="email"
-                                        class="form-control @error('email') is-invalid @enderror"
-                                        name="email"
-                                        required
-                                        autocomplete="email"
-                                        autofocus
-                                        aria-label="{{ __('people.profile.fields.email') }}"
-                                        aria-describedby="email-span"
-                                        wire:model="email"
-                                >
-                                <x-utilities.error-tooltip
-                                        key="email">{{ $errors->first('email') }}</x-utilities.error-tooltip>
-                                <button class="btn btn-primary" type="submit">{{ __('common.next') }}</button>
-                            </div>
+                            <form wire:submit="submitEmail">
+                                <div class="input-group mb-3 has-validation">
+                                    <span class="input-group-text"
+                                          id="email-span">{{ __('people.profile.fields.email') }}</span>
+                                    <input
+                                            id="email"
+                                            type="email"
+                                            class="form-control @error('email') is-invalid @enderror"
+                                            name="email"
+                                            required
+                                            autocomplete="email"
+                                            autofocus
+                                            aria-label="{{ __('people.profile.fields.email') }}"
+                                            aria-describedby="email-span"
+                                            wire:model="email"
+                                    >
+                                    <x-utilities.error-tooltip
+                                            key="email">{{ $errors->first('email') }}</x-utilities.error-tooltip>
+                                    <button class="btn btn-primary" type="submit">{{ __('common.next') }}</button>
+                                </div>
 
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <div class="form-check">
-                                        <input
-                                                class="form-check-input"
-                                                type="checkbox"
-                                                name="remember"
-                                                id="remember"
-                                                wire:model="rememberMe"
-                                        >
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <div class="form-check">
+                                            <input
+                                                    class="form-check-input"
+                                                    type="checkbox"
+                                                    name="remember"
+                                                    id="remember"
+                                                    wire:model="rememberMe"
+                                            >
 
-                                        <label class="form-check-label" for="remember">
-                                            {{ __('Remember Me') }}
-                                        </label>
+                                            <label class="form-check-label" for="remember">
+                                                {{ __('Remember Me') }}
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
                         @elseif($promptPassword)
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="email-span">{{ __('people.profile.fields.email') }}</span>
-                            <input
-                                type="email"
-                                class="form-control disabled"
-                                aria-label="{{ __('people.profile.fields.email') }}"
-                                aria-describedby="email-span"
-                                value="{{ $email }}"
-                                disabled
-                                readonly
-                            >
-                        </div>
-                        <form wire:submit="submitPassword">
                             <div class="input-group mb-3">
-                                <span id="password-span" class="input-group-text">{{ __('Password') }}</span>
+                                <span class="input-group-text"
+                                      id="email-span">{{ __('people.profile.fields.email') }}</span>
                                 <input
-                                    id="password"
-                                    type="password"
-                                    class="form-control @error('password') is-invalid @enderror"
-                                    name="password"
-                                    required
-                                    autocomplete="current-password"
-                                    wire:model="password"
-                                />
-                                <x-utilities.error-tooltip
-                                        key="password">{{ $errors->first('password') }}</x-utilities.error-tooltip>
-                                @if($canResetPassword)
-                                <button
-                                    type="button"
-                                    class="btn btn-warning"
-                                    wire:click="forgotPassword"
-                                >{{ __('auth.forgot') }}</button>
-                                @endif
+                                        type="email"
+                                        class="form-control disabled"
+                                        aria-label="{{ __('people.profile.fields.email') }}"
+                                        aria-describedby="email-span"
+                                        value="{{ $email }}"
+                                        disabled
+                                        readonly
+                                >
                             </div>
-                            <div class="d-flex justify-content-end">
-                                <button type="submit" class="btn btn-primary mx-2">
-                                    {{ __('Login') }}
-                                </button>
-                                <button
-                                        type="button"
-                                        class="btn btn-danger mx-2"
-                                        wire:click="returnToEmail"
-                                >{{ __('common.cancel') }}</button>
-                            </div>
-                        </form>
+                            <form wire:submit="submitPassword">
+                                <div class="input-group mb-3">
+                                    <span id="password-span" class="input-group-text">{{ __('Password') }}</span>
+                                    <input
+                                            id="password"
+                                            type="password"
+                                            class="form-control @error('password') is-invalid @enderror"
+                                            name="password"
+                                            required
+                                            autocomplete="current-password"
+                                            wire:model="password"
+                                    />
+                                    <x-utilities.error-tooltip
+                                            key="password">{{ $errors->first('password') }}</x-utilities.error-tooltip>
+                                    @if($canResetPassword)
+                                        <button
+                                                type="button"
+                                                class="btn btn-warning"
+                                                wire:click="forgotPassword"
+                                        >{{ __('auth.forgot') }}</button>
+                                    @endif
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-primary mx-2">
+                                        {{ __('Login') }}
+                                    </button>
+                                    <button
+                                            type="button"
+                                            class="btn btn-danger mx-2"
+                                            wire:click="returnToEmail"
+                                    >{{ __('common.cancel') }}</button>
+                                </div>
+                            </form>
                         @elseif($promptMethod)
                             <h3>Select a sign-in method for {{ $user->system_email }}</h3>
                             <div class="d-flex flex-column align-items-center">
-                            @foreach($methodOptions as $service_id => $button)
-                                <div class="my-2 show-as-action" wire:click="submitMethod({{ $service_id }});">
-                                    {!! $button !!}
-                                </div>
-                            @endforeach
+                                @foreach($methodOptions as $service_id => $button)
+                                    <div class="my-2 show-as-action" wire:click="submitMethod({{ $service_id }});">
+                                        {!! $button !!}
+                                    </div>
+                                @endforeach
                             </div>
                         @elseif($codeVerification)
                             <form wire:submit="submitVerification">
@@ -158,14 +160,15 @@
                                     <button type="submit" class="btn btn-success fs-1">
                                         <i class="fa-solid fa-check"></i>
                                     </button>
-                                    <button type="button" class="btn btn-danger fs-1" wire:click="gotoStage('promptPassword')">
+                                    <button type="button" class="btn btn-danger fs-1"
+                                            wire:click="gotoStage('promptPassword')">
                                         <i class="fa-solid fa-times"></i>
                                     </button>
                                 </div>
                                 @error('userAuthCode')
-                                    <div class="alert alert-danger mt-3">
-                                        {{ $errors->first('userAuthCode') }}
-                                    </div>
+                                <div class="alert alert-danger mt-3">
+                                    {{ $errors->first('userAuthCode') }}
+                                </div>
                                 @enderror
                             </form>
                         @elseif($codeTimeout)
@@ -176,13 +179,14 @@
                                 <button type="button" class="btn btn-primary mx-2" wire:click="forgotPassword">
                                     {{ __('settings.auth.verify.request') }}
                                 </button>
-                                <button type="button" class="btn btn-secondary mx-2" wire:click="gotoStage('submitEmail')">
+                                <button type="button" class="btn btn-secondary mx-2"
+                                        wire:click="gotoStage('submitEmail')">
                                     {{ __('common.cancel') }}
                                 </button>
                             </div>
                         @elseif($resetPassword)
                             <h4>{{ __('settings.auth.password.reset.for', ['user' => $user->system_email]) }}</h4>
-                            <livewire:auth.change-password-form :person="$user" :auth-first="false" />
+                            <livewire:auth.change-password-form :person="$user" :auth-first="false"/>
                         @endif
                     @endif
                 </div>

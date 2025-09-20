@@ -40,7 +40,8 @@ class DevelopRubrics extends Command
 		//grab the setting or create one
 		$developRubricSetting = SystemSetting::where('name', $this->settingName)
 		                                     ->first();
-		if(!$developRubricSetting) {
+		if(!$developRubricSetting)
+		{
 			$developRubricSetting = new SystemSetting();
 			$developRubricSetting->name = $this->settingName;
 			$developRubricSetting->value =
@@ -65,13 +66,14 @@ class DevelopRubrics extends Command
 			$settingVals = $developRubricSetting->value;
 			$this->info('Statistics for this run:' . print_r($settingVals, true));
 			foreach(KnowledgeSkill::where('id', '>', $developRubricSetting->value['knowledge_index'])
-				->get() as $skill)
+			                      ->get() as $skill)
 			{
 				$this->info("Developing rubric for knowledge skill: " . $skill->designation);
 				$this->info("Asking Ai...");
 				$response = Prism::structured()
 				                 ->using(Provider::Gemini, 'gemini-2.0-flash')
-				                 ->withSystemPrompt(view('ai.default-prompts.knowledge-skill.system-prompt', $systemPromptVars))
+				                 ->withSystemPrompt(view('ai.default-prompts.knowledge-skill.system-prompt',
+					                 $systemPromptVars))
 				                 ->withPrompt(view('ai.default-prompts.knowledge-skill.prompt', ['skill' => $skill]))
 				                 ->withSchema($this->getRubricSchema())
 				                 ->asStructured();
@@ -80,7 +82,8 @@ class DevelopRubrics extends Command
 				$skill->rubric = $rubric;
 				$skill->save();
 				$this->info("Skill updated. Making a backup");
-				if(!$this->backup($skill)) {
+				if(!$this->backup($skill))
+				{
 					$this->error("Error making backup. Figure out what went wrong");
 					return;
 				}
@@ -93,7 +96,8 @@ class DevelopRubrics extends Command
 				$developRubricSetting->save();
 			}
 		}
-		catch(PrismException $e) {
+		catch(PrismException $e)
+		{
 			$this->error("Error: " . $e->getMessage());
 			return;
 		}
@@ -105,7 +109,8 @@ class DevelopRubrics extends Command
 		$levelOfPerformanceSchema = [new StringSchema('description',
 			'The description of the criterion detailing what it is evaluating.')];
 		$reqFields = ['description'];
-		for($i = 0; $i < config('lms.rubric_max_points'); $i++) {
+		for($i = 0; $i < config('lms.rubric_max_points'); $i++)
+		{
 			$levelOfPerformanceSchema[] = new StringSchema
 			(
 				name: "pts." . $i,
@@ -142,7 +147,8 @@ class DevelopRubrics extends Command
 			$points[] = $i;
 		$criteria = [];
 		$descriptions = [];
-		foreach($rubric['criteria'] as $criterion) {
+		foreach($rubric['criteria'] as $criterion)
+		{
 			$criteria[] = $criterion['description'];
 			$descriptionRow = [];
 			for($i = 0; $i < config('lms.rubric_max_points'); $i++)

@@ -1,6 +1,6 @@
 <?php
 
 return
-[
-	'messages.title' => 'From :sender',
-];
+	[
+		'messages.title' => 'From :sender',
+	];

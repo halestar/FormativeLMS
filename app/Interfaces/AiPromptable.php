@@ -9,6 +9,15 @@ use Prism\Prism\Schema\ObjectSchema;
 interface AiPromptable
 {
 	/**
+	 * This function will return the description of the prompt for this model.
+	 * It should be specific to the object, not the information that it fills.
+	 * For example, for the KnowledgeSkill model, it should say "Generate Knowledge Skill Rubric",
+	 * since the AI will be used for the rubric and not the skill, but both should be referenced.
+	 * @return string The description of the prompt for this model.
+	 */
+	public static function promptDescription(): string;
+	
+	/**
 	 * @return string The name of the model that the AI Prompt is for.
 	 */
 	public function getEditableName(): string;
@@ -17,15 +26,6 @@ interface AiPromptable
 	 * @return array <string, string> The breadcrumb for how to reach this model. Used in the editor.
 	 */
 	public function getBreacrumb(): array;
-	
-	/**
-	 * This function will return the description of the prompt for this model.
-	 * It should be specific to the object, not the information that it fills.
-	 * For example, for the KnowledgeSkill model, it should say "Generate Knowledge Skill Rubric",
-	 * since the AI will be used for the rubric and not the skill, but both should be referenced.
-	 * @return string The description of the prompt for this model.
-	 */
-	public static function promptDescription(): string;
 	
 	/**
 	 * This function will return the default prompt for this model. The default prompt will

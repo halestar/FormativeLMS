@@ -4,7 +4,8 @@
             <div class="card">
                 <div class="card-header">
                     <div class="input-group mb-1">
-                        <label for="campus_id" class="input-group-text">{{ trans_choice('locations.campus', 1) }}</label>
+                        <label for="campus_id"
+                               class="input-group-text">{{ trans_choice('locations.campus', 1) }}</label>
                         <select id="campus_id" class="form-select" wire:model="campusId" wire:change="updateCampus()">
                             @foreach($campuses as $campus)
                                 <option value="{{ $campus->id }}">{{ $campus->name }}</option>
@@ -24,21 +25,23 @@
                         @foreach($terms as $term)
                             <div class="form-check form-check-inline" wire:key="{{ $term->id }}">
                                 <input
-                                    class="form-check-input"
-                                    type="checkbox"
-                                    id="term-{{ $term->id }}"
-                                    value="{{ $term->id }}"
-                                    name="terms[]"
-                                    wire:model="termIds"
-                                    wire:click="updateCourse()"
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        id="term-{{ $term->id }}"
+                                        value="{{ $term->id }}"
+                                        name="terms[]"
+                                        wire:model="termIds"
+                                        wire:click="updateCourse()"
                                 >
                                 <label class="form-check-label" for="term-{{ $term->id }}">{{ $term->label }}</label>
                             </div>
                         @endforeach
                     </div>
                     <div class="input-group mb-1">
-                        <label for="subject_id" class="input-group-text">{{ trans_choice('subjects.subject', 1) }}</label>
-                        <select id="subject_id" class="form-select" wire:model="subjectId" wire:change="updateSubject()">
+                        <label for="subject_id"
+                               class="input-group-text">{{ trans_choice('subjects.subject', 1) }}</label>
+                        <select id="subject_id" class="form-select" wire:model="subjectId"
+                                wire:change="updateSubject()">
                             @foreach($subjects as $subject)
                                 <option value="{{ $subject->id }}">{{ $subject->name }}</option>
                             @endforeach
@@ -57,36 +60,39 @@
                     <div class="mb-3">
                         <div class="form-check">
                             <input
-                                class="form-check-input"
-                                type="radio"
-                                value="all"
-                                id="student-filter-all"
-                                wire:model="studentFilter"
-                                wire:click="refreshStudents()"
+                                    class="form-check-input"
+                                    type="radio"
+                                    value="all"
+                                    id="student-filter-all"
+                                    wire:model="studentFilter"
+                                    wire:click="refreshStudents()"
                             />
-                            <label class="form-check-label" for="student-filter-all">{{ __('subjects.enrollment.general.students.all') }}</label>
+                            <label class="form-check-label"
+                                   for="student-filter-all">{{ __('subjects.enrollment.general.students.all') }}</label>
                         </div>
                         <div class="form-check">
                             <input
-                                class="form-check-input"
-                                type="radio"
-                                value="enrolled"
-                                id="student-filter-enrolled"
-                                wire:model="studentFilter"
-                                wire:click="refreshStudents()"
+                                    class="form-check-input"
+                                    type="radio"
+                                    value="enrolled"
+                                    id="student-filter-enrolled"
+                                    wire:model="studentFilter"
+                                    wire:click="refreshStudents()"
                             />
-                            <label class="form-check-label" for="student-filter-enrolled">{{ __('subjects.enrollment.general.students.enrolled') }}</label>
+                            <label class="form-check-label"
+                                   for="student-filter-enrolled">{{ __('subjects.enrollment.general.students.enrolled') }}</label>
                         </div>
                         <div class="form-check">
                             <input
-                                class="form-check-input"
-                                type="radio"
-                                value="unenrolled"
-                                id="student-filter-unenrolled"
-                                wire:model="studentFilter"
-                                wire:click="refreshStudents()"
+                                    class="form-check-input"
+                                    type="radio"
+                                    value="unenrolled"
+                                    id="student-filter-unenrolled"
+                                    wire:model="studentFilter"
+                                    wire:click="refreshStudents()"
                             />
-                            <label class="form-check-label" for="student-filter-unenrolled">{{ __('subjects.enrollment.general.students.unenrolled') }}</label>
+                            <label class="form-check-label"
+                                   for="student-filter-unenrolled">{{ __('subjects.enrollment.general.students.unenrolled') }}</label>
                         </div>
                     </div>
                     <div class="row">
@@ -105,10 +111,13 @@
                             </select>
                         </div>
                         <div class="col-4 text-center">
-                            <label for="levels" class="form-label">{{ trans_choice('crud.level',$levels->count()) }}</label>
-                            <select id="levels" wire:model="levelIds" class="form-select" multiple wire:change="refreshStudents()">
+                            <label for="levels"
+                                   class="form-label">{{ trans_choice('crud.level',$levels->count()) }}</label>
+                            <select id="levels" wire:model="levelIds" class="form-select" multiple
+                                    wire:change="refreshStudents()">
                                 @foreach($levels as $level)
-                                    <option value="{{ $level->id }}" wire:key="{{ $level->id }}">{{ $level->name }}</option>
+                                    <option value="{{ $level->id }}"
+                                            wire:key="{{ $level->id }}">{{ $level->name }}</option>
                                 @endforeach
                             </select>
                         </div>
@@ -132,7 +141,9 @@
                                         @foreach($schoolClass->sessions()->whereIn('term_id', $termIds)->get() as $session)
                                             {{ $session->locationString() }}
                                             ({{ $session->term->label }})
-                                            @if(!$loop->last) <br /> @endif
+                                            @if(!$loop->last)
+                                                <br/>
+                                            @endif
                                         @endforeach
                                     </div>
                                 </div>
@@ -141,32 +152,36 @@
                                         @foreach($schoolClass->sessions()->whereIn('term_id', $termIds)->get() as $session)
                                             {{ $session->teachers->pluck('name')->join(', ') }}
                                             ({{ $session->term->label }})
-                                            @if(!$loop->last) <br /> @endif
+                                            @if(!$loop->last)
+                                                <br/>
+                                            @endif
                                         @endforeach
                                     </div>
                                     <div class="col-7 text-end">
                                         @foreach($schoolClass->sessions()->whereIn('term_id', $termIds)->get() as $session)
                                             {{ $session->scheduleString() }}
                                             ({{ $session->term->label }})
-                                            @if(!$loop->last) <br /> @endif
+                                            @if(!$loop->last)
+                                                <br/>
+                                            @endif
                                         @endforeach
                                     </div>
                                 </div>
                             </div>
                             <div class="card-body p-0" style="height: 400px;">
                                 <select
-                                    id="enrolled-students-{{ $schoolClass->id }}"
-                                    class="form-select h-100 @if(isset($highlight) && $highlight == $schoolClass->id) glow-{{ $enroll? 'success': 'danger' }} @endif"
-                                    multiple
+                                        id="enrolled-students-{{ $schoolClass->id }}"
+                                        class="form-select h-100 @if(isset($highlight) && $highlight == $schoolClass->id) glow-{{ $enroll? 'success': 'danger' }} @endif"
+                                        multiple
                                 >
                                     @foreach($schoolClass->students($this->termIds)->sortBy('person.last') as $student)
                                         <option
-                                            value="{{ $student->id }}"
-                                            @if(!$schoolClass->isEnrolled($student, $termIds))
-                                                class="bg-danger-subtle @if(isset($highlight) && $enroll && in_array($student->id, $studentIds)) glow-success @endif"
-                                            @elseif(isset($highlight) && $enroll && in_array($student->id, $studentIds))
-                                                class="glow-success"
-                                            @endif
+                                                value="{{ $student->id }}"
+                                                @if(!$schoolClass->isEnrolled($student, $termIds))
+                                                    class="bg-danger-subtle @if(isset($highlight) && $enroll && in_array($student->id, $studentIds)) glow-success @endif"
+                                                @elseif(isset($highlight) && $enroll && in_array($student->id, $studentIds))
+                                                    class="glow-success"
+                                                @endif
                                         >
                                             {{ $student->level->name }} &nbsp;
                                             {{ $student->person->name }}
@@ -180,14 +195,14 @@
                             <div class="card-footer">
                                 <div class="row">
                                     <button
-                                        type="button"
-                                        class="btn btn-primary btn-sm col mx-2"
-                                        wire:click="enrollStudents({{ $schoolClass->id }}, $('#students').val())"
+                                            type="button"
+                                            class="btn btn-primary btn-sm col mx-2"
+                                            wire:click="enrollStudents({{ $schoolClass->id }}, $('#students').val())"
                                     >{{ __('common.enroll') }}</button>
                                     <button
-                                        type="button"
-                                        class="btn btn-primary btn-sm col mx-2"
-                                        wire:click="unenrollStudents({{ $schoolClass->id }}, $('#enrolled-students-{{ $schoolClass->id }}').val())"
+                                            type="button"
+                                            class="btn btn-primary btn-sm col mx-2"
+                                            wire:click="unenrollStudents({{ $schoolClass->id }}, $('#enrolled-students-{{ $schoolClass->id }}').val())"
                                     >{{ __('common.unenroll') }}</button>
                                 </div>
                                 <div class="text-end fs-5 fw-bold">
@@ -202,14 +217,12 @@
     </div>
 </div>
 @script
-    <script>
-        $wire.on('unhighlight-changes', () =>
-        {
-            setTimeout(() =>
-            {
-                $('.glow-danger').removeClass('glow-danger');
-                $('.glow-success').removeClass('glow-success');
-            }, 3000)
-        });
-    </script>
+<script>
+    $wire.on('unhighlight-changes', () => {
+        setTimeout(() => {
+            $('.glow-danger').removeClass('glow-danger');
+            $('.glow-success').removeClass('glow-success');
+        }, 3000)
+    });
+</script>
 @endscript

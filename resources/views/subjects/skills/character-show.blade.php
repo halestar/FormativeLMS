@@ -11,7 +11,8 @@
                     <span class="ms-3 badge text-bg-danger">{{ __('common.inactive') }}</span>
                 @endif
             </h3>
-            <a href="{{ route('subjects.skills.edit.character', $skill) }}" class="btn btn-primary btn-sm"><i class="fa-solid fa-edit"></i></a>
+            <a href="{{ route('subjects.skills.edit.character', $skill) }}" class="btn btn-primary btn-sm"><i
+                        class="fa-solid fa-edit"></i></a>
         </div>
         @if($skill->name)
             <h4 class="mb-3">{{ __('subjects.skills.name') }}: {{ $skill->name }}</h4>
@@ -26,22 +27,22 @@
                     <h5>{{ __('subjects.skills.rubric') }}</h5>
                     @if($skill->rubric)
                         <a
-                            href="{{ route('subjects.skills.rubric.character', ['skill' => $skill->id]) }}"
-                            class="btn btn-primary btn-sm"
-                            role="button"
+                                href="{{ route('subjects.skills.rubric.character', ['skill' => $skill->id]) }}"
+                                class="btn btn-primary btn-sm"
+                                role="button"
                         ><i class="fa-solid fa-edit"></i></a>
                     @else
                         <a
-                            href="{{ route('subjects.skills.rubric.character', ['skill' => $skill->id]) }}"
-                            class="btn btn-primary btn-sm"
-                            role="button"
+                                href="{{ route('subjects.skills.rubric.character', ['skill' => $skill->id]) }}"
+                                class="btn btn-primary btn-sm"
+                                role="button"
                         ><i class="fa-solid fa-plus"></i></a>
                     @endif
                 </div>
                 @if(!$skill->rubric)
                     <div class="alert alert-warning">{{ __('subjects.skills.rubric.no') }}</div>
                 @else
-                    <x-assessment.rubric-viewer :rubric="$skill->rubric" />
+                    <x-assessment.rubric-viewer :rubric="$skill->rubric"/>
                 @endif
             </div>
         </div>
@@ -51,7 +52,8 @@
         </div>
         <div class="mb-3 border-bottom d-flex justify-content-between align-items-between">
             <h5>{{ trans_choice('subjects.skills.category', $skill->categories()->count()) }}</h5>
-            <button type="button" class="btn btn-primary btn-sm" onclick="$('#link-container').removeClass('d-none')">{{ __('subjects.skills.category.link') }}</button>
+            <button type="button" class="btn btn-primary btn-sm"
+                    onclick="$('#link-container').removeClass('d-none')">{{ __('subjects.skills.category.link') }}</button>
         </div>
         <form action="{{ route('subjects.skills.link.character', $skill) }}" method="POST">
             @csrf
@@ -69,8 +71,10 @@
                     <livewire:assessment.category-selector/>
                 </div>
                 <div class="d-flex justify-content-end align-items-center">
-                    <button type="submit" class="btn btn-primary me-3">{{ __('subjects.skills.category.link') }}</button>
-                    <button type="button" class="btn btn-secondary" onclick="$('#link-container').addClass('d-none')">{{ __('common.cancel') }}</button>
+                    <button type="submit"
+                            class="btn btn-primary me-3">{{ __('subjects.skills.category.link') }}</button>
+                    <button type="button" class="btn btn-secondary"
+                            onclick="$('#link-container').addClass('d-none')">{{ __('common.cancel') }}</button>
                 </div>
             </div>
         </form>
@@ -80,16 +84,16 @@
                     <span><strong>{{ $category->info->designation->name }}:</strong> {{ $category->name }}</span>
                     <div>
                         <a
-                            href="#"
-                            class="btn btn-primary btn-sm me-2"
-                            role="button"
+                                href="#"
+                                class="btn btn-primary btn-sm me-2"
+                                role="button"
                         ><i class="fa-solid fa-edit"></i></a>
                         @if($skill->categories->count() > 1)
                             <a
-                                href="#"
-                                class="btn btn-danger btn-sm"
-                                role="button"
-                                onclick="confirmDelete('{{ __('subjects.skills.category.unlink.confirm') }}', '{{ route('subjects.skills.unlink.character', ['skill' => $skill->id, 'category' => $category->id]) }}')"
+                                    href="#"
+                                    class="btn btn-danger btn-sm"
+                                    role="button"
+                                    onclick="confirmDelete('{{ __('subjects.skills.category.unlink.confirm') }}', '{{ route('subjects.skills.unlink.character', ['skill' => $skill->id, 'category' => $category->id]) }}')"
                             ><i class="fa-solid fa-times"></i></a>
                         @endif
                     </div>

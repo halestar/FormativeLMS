@@ -22,85 +22,86 @@ use Prism\Prism\Schema\StringSchema;
 
 class KnowledgeSkill extends Model implements HasRubric, AiPromptable
 {
-    use Searchable, Leveable, IsAiPromptable;
-    protected $with = ['subject'];
-    public $timestamps = true;
-    protected $table = "knowledge_skills";
-    protected $primaryKey = "id";
-    public $incrementing = true;
-    protected $fillable =
-        [
-            'subject_id',
-            'designation',
-            'name',
-            'description',
-        ];
-
-    protected function casts(): array
-    {
-        return
-            [
-                'rubric' => Rubric::class,
-                'active' => 'boolean',
-            ];
-    }
-
-    public function toSearchableArray(): array
-    {
-        return
-            [
-                'designation' => $this->designation,
-                'name' => $this->name,
-                'description' => $this->description,
-            ];
-    }
-
-    public function subject(): BelongsTo
-    {
-        return $this->belongsTo(Subject::class);
-    }
-
-    public function categories(): MorphToMany
-    {
-        return $this->morphToMany(SkillCategory::class, 'skill', 'skill_category_designation', 'skill_id', 'category_id')
-            ->withPivot(['designation_id'])
-            ->as('info')
-            ->using(SkillCategoryDesignation::class);
-    }
-
-    public function canActivate(): bool
-    {
-        return ($this->rubric != null);
-    }
-
-    public function getRubric(): ?Rubric
-    {
-        return $this->rubric;
-    }
-
-    public function setRubric(Rubric $rubric)
-    {
-        $this->rubric = $rubric;
-    }
-
-    public function getDescription(): string
-    {
-        return $this->description;
-    }
-
-    public function getSkillId(): int
-    {
-        return $this->id;
-    }
+	use Searchable, Leveable, IsAiPromptable;
+	
+	public $timestamps = true;
+	public $incrementing = true;
+	protected $with = ['subject'];
+	protected $table = "knowledge_skills";
+	protected $primaryKey = "id";
+	protected $fillable =
+		[
+			'subject_id',
+			'designation',
+			'name',
+			'description',
+		];
+	
+	public static function promptDescription(): string
+	{
+		return __('ai.prompt.skills.knowledge.description');
+	}
+	
+	public function toSearchableArray(): array
+	{
+		return
+			[
+				'designation' => $this->designation,
+				'name' => $this->name,
+				'description' => $this->description,
+			];
+	}
+	
+	public function subject(): BelongsTo
+	{
+		return $this->belongsTo(Subject::class);
+	}
+	
+	public function categories(): MorphToMany
+	{
+		return $this->morphToMany(SkillCategory::class, 'skill', 'skill_category_designation', 'skill_id',
+			'category_id')
+		            ->withPivot(['designation_id'])
+		            ->as('info')
+		            ->using(SkillCategoryDesignation::class);
+	}
+	
+	public function canActivate(): bool
+	{
+		return ($this->rubric != null);
+	}
+	
+	public function getRubric(): ?Rubric
+	{
+		return $this->rubric;
+	}
+	
+	public function setRubric(Rubric $rubric)
+	{
+		$this->rubric = $rubric;
+	}
+	
+	public function getDescription(): string
+	{
+		return $this->description;
+	}
+	
+	public function getSkillId(): int
+	{
+		return $this->id;
+	}
+	
 	public function getSkillName(): string
 	{
-		return $this->name?? $this->designation;
+		return $this->name ?? $this->designation;
 	}
 	
 	public function getDefaultPrompt(bool $overwrite = false): AiPrompt
 	{
 		//do we have one?
-		if($this->ai_prompts()->where('person_id', null)->exists())
+		if($this->ai_prompts()
+		        ->where('person_id', null)
+		        ->exists())
 		{
 			if(!$overwrite)
 				return $this->ai_prompts()
@@ -115,10 +116,27 @@ class KnowledgeSkill extends Model implements HasRubric, AiPromptable
 			$defaultPrompt = new AiPrompt();
 		$defaultPrompt->prompt = Blade::render('ai.default-prompts.knowledge-skill.prompt', ['skill' => $this]);
 		$defaultPrompt->structured = true;
-		$defaultPrompt->ai_promptable()->associate($this);
-		$defaultPrompt->systemPrompt()->associate($this->getDefaultSystemPrompt());
+		$defaultPrompt->ai_promptable()
+		              ->associate($this);
+		$defaultPrompt->systemPrompt()
+		              ->associate($this->getDefaultSystemPrompt());
 		$defaultPrompt->save();
 		return $defaultPrompt;
+	}
+	
+	public function getDefaultSystemPrompt(bool $overwrite = false): AiSystemPrompt
+	{
+		$systemPrompt = AiSystemPrompt::whereNull('person_id')
+		                              ->where('className', static::class)
+		                              ->first();
+		if($systemPrompt && !$overwrite)
+			return $systemPrompt;
+		if(!$systemPrompt)
+			$systemPrompt = new AiSystemPrompt();
+		$systemPrompt->className = static::class;
+		$systemPrompt->prompt = Blade::render('ai.default-prompts.knowledge-skill.system-prompt');
+		$systemPrompt->save();
+		return $systemPrompt;
 	}
 	
 	/**
@@ -130,7 +148,8 @@ class KnowledgeSkill extends Model implements HasRubric, AiPromptable
 		$levelOfPerformanceSchema = [new StringSchema('description',
 			'The description of the criterion detailing what it is evaluating.')];
 		$reqFields = ['description'];
-		for($i = 0; $i < config('lms.rubric_max_points'); $i++) {
+		for($i = 0; $i < config('lms.rubric_max_points'); $i++)
+		{
 			$levelOfPerformanceSchema[] = new StringSchema
 			(
 				name: "pts." . $i,
@@ -160,17 +179,9 @@ class KnowledgeSkill extends Model implements HasRubric, AiPromptable
 		);
 	}
 	
-	public function getDefaultSystemPrompt(bool $overwrite = false): AiSystemPrompt
+	public function aiFill(AiPrompt $prompt): void
 	{
-		$systemPrompt = AiSystemPrompt::whereNull('person_id')->where('className', static::class)->first();
-		if($systemPrompt && !$overwrite)
-			return $systemPrompt;
-		if(!$systemPrompt)
-			$systemPrompt = new AiSystemPrompt();
-		$systemPrompt->className = static::class;
-		$systemPrompt->prompt = Blade::render('ai.default-prompts.knowledge-skill.system-prompt');
-		$systemPrompt->save();
-		return $systemPrompt;
+		$this->rubric = $this->fillRubric($prompt->last_results);
 	}
 	
 	private function fillRubric(array $data): ?Rubric
@@ -178,7 +189,7 @@ class KnowledgeSkill extends Model implements HasRubric, AiPromptable
 		if(count($data['criteria']) == 0)
 			return null;
 		//max points
-		$maxPoints  = (count($data['criteria'][0])) - 1;
+		$maxPoints = (count($data['criteria'][0])) - 1;
 		$points = [];
 		for($i = 0; $i < $maxPoints; $i++)
 			$points[] = $i;
@@ -201,16 +212,6 @@ class KnowledgeSkill extends Model implements HasRubric, AiPromptable
 		return Rubric::hydrate($data);
 	}
 	
-	public function aiFill(AiPrompt $prompt): void
-	{
-		$this->rubric = $this->fillRubric($prompt->last_results);
-	}
-	
-	public static function promptDescription(): string
-	{
-		return __('ai.prompt.skills.knowledge.description');
-	}
-	
 	public function getEditableName(): string
 	{
 		return __('ai.editable.skill.knowledge', ['name' => $this->name]);
@@ -230,5 +231,14 @@ class KnowledgeSkill extends Model implements HasRubric, AiPromptable
 	{
 		$rubricViewer = new RubricViewer($this->fillRubric($prompt->last_results));
 		return Blade::renderComponent($rubricViewer);
+	}
+	
+	protected function casts(): array
+	{
+		return
+			[
+				'rubric' => Rubric::class,
+				'active' => 'boolean',
+			];
 	}
 }

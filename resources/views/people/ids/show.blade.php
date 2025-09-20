@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
-            <x-people.id-viewer />
+            <x-people.id-viewer/>
         </div>
     </div>
 @endsection

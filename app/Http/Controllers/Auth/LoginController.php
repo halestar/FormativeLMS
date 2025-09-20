@@ -19,25 +19,32 @@ class LoginController extends Controller implements HasMiddleware
 				new Middleware('auth', only: ['logout', 'impersonate', 'unimpersonate']),
 			];
 	}
-
+	
 	public function showLoginForm()
 	{
 		return view('auth.login');
 	}
-
+	
 	public function logout(Request $request)
 	{
 		$user = Auth::user();
-		Auth::guard()->logout();
-		$request->session()->invalidate();
-		$request->session()->regenerateToken();
+		Auth::guard()
+		    ->logout();
+		$request->session()
+		        ->invalidate();
+		$request->session()
+		        ->regenerateToken();
 		return redirect('/');
 	}
 	
 	public function impersonate(Person $person)
 	{
-		session(['impersonating_from' => redirect()->back()->getTargetUrl()]);
-		auth()->user()->impersonate($person);
+		session(['impersonating_from' => redirect()
+			->back()
+			->getTargetUrl()]);
+		auth()
+			->user()
+			->impersonate($person);
 		return redirect(route('home'));
 	}
 	
@@ -46,7 +53,9 @@ class LoginController extends Controller implements HasMiddleware
 		$manager = app('impersonate');
 		if($manager->isImpersonating())
 		{
-			auth()->user()->leaveImpersonation();
+			auth()
+				->user()
+				->leaveImpersonation();
 			$url = session()->pull('impersonating_from', route('home'));
 			return redirect($url);
 		}

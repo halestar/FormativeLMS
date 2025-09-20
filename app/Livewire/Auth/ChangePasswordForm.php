@@ -19,7 +19,7 @@ class ChangePasswordForm extends Component
 	public bool $authFirst = true;
 	public bool $passwordChangedSuccessfully = false;
 	public bool $mustChangePassword = false;
-
+	
 	public function mount(Person $person, AuthSettings $authSettings)
 	{
 		$this->authSettings = $authSettings;
@@ -27,13 +27,13 @@ class ChangePasswordForm extends Component
 		$this->mustChangePassword = $person->authConnection->mustChangePassword();
 		Log::info("Must change password: " . $this->mustChangePassword);
 	}
-
+	
 	#[On('password-field.password-generated')]
 	public function passwordGenerated($password)
 	{
 		$this->confirmPassword = $password;
 	}
-
+	
 	public function resetPassword()
 	{
 		$connection = $this->person->authConnection;
@@ -47,12 +47,12 @@ class ChangePasswordForm extends Component
 		$this->passwordChangedSuccessfully = true;
 		$this->dispatch('change-password-form.password-changed');
 	}
-
-    public function render()
-    {
-        return view('livewire.auth.change-password-form');
-    }
-
+	
+	public function render()
+	{
+		return view('livewire.auth.change-password-form');
+	}
+	
 	protected function rules(): array
 	{
 		return

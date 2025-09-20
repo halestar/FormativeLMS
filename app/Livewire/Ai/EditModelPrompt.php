@@ -19,7 +19,9 @@ class EditModelPrompt extends Component
 	public function mount(AiPrompt $aiPrompt)
 	{
 		//should the person be here?
-		if($aiPrompt->isDefaultPrompt() && !auth()->user()->can('system.ai'))
+		if($aiPrompt->isDefaultPrompt() && !auth()
+				->user()
+				->can('system.ai'))
 			abort(403);
 		elseif(!$aiPrompt->isDefaultPrompt() && auth()->user()->id != $aiPrompt->person_id)
 			abort(403);
@@ -35,7 +37,7 @@ class EditModelPrompt extends Component
 	
 	public function setPromptType()
 	{
-		$this->promptType = ($this->promptType == 'prompt' || $this->promptType == 'system')? $this->promptType: 'prompt';
+		$this->promptType = ($this->promptType == 'prompt' || $this->promptType == 'system') ? $this->promptType : 'prompt';
 		if($this->promptType == 'prompt')
 		{
 			$this->prompt = $this->aiPrompt->prompt;
@@ -84,10 +86,10 @@ class EditModelPrompt extends Component
 		$this->reloadKey = uniqid();
 	}
 	
-    public function render()
-    {
-        return view('livewire.ai.edit-model-prompt')
-	        ->extends('layouts.app', ['breadcrumb' => $this->breadcrumb])
-	        ->section('content');
-    }
+	public function render()
+	{
+		return view('livewire.ai.edit-model-prompt')
+			->extends('layouts.app', ['breadcrumb' => $this->breadcrumb])
+			->section('content');
+	}
 }

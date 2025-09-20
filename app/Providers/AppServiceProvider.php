@@ -19,37 +19,37 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     */
-    public function register(): void
-    {
-	    $this->app->bind(SessionSettings::class, fn(Application $app) => SessionSettings::instance());
-	    
-    }
-
-    /**
-     * Bootstrap any application services.
-     */
-    public function boot(): void
-    {
+	/**
+	 * Register any application services.
+	 */
+	public function register(): void
+	{
+		$this->app->bind(SessionSettings::class, fn(Application $app) => SessionSettings::instance());
+		
+	}
+	
+	/**
+	 * Bootstrap any application services.
+	 */
+	public function boot(): void
+	{
 		if(app()->environment('production') || env('FORCE_SSL', false))
 			URL::forceScheme('https');
-        Gate::before(function(Person $person, $ability)
-        {
-            return $person->hasRole(SchoolRoles::$ADMIN)? true: null;
-        });
-        Gate::define('has-permission', function (Person $person, string $permission)
-        {
-            return $person->hasRole(SchoolRoles::$ADMIN) ||
-                $person->hasPermissionTo($permission);
-        });
-        Gate::policy(SchoolRoles::class, RolePolicy::class);
-        Gate::policy(Person::class, PersonPolicy::class);
-        Paginator::useBootstrapFive();
+		Gate::before(function(Person $person, $ability)
+		{
+			return $person->hasRole(SchoolRoles::$ADMIN) ? true : null;
+		});
+		Gate::define('has-permission', function(Person $person, string $permission)
+		{
+			return $person->hasRole(SchoolRoles::$ADMIN) ||
+				$person->hasPermissionTo($permission);
+		});
+		Gate::policy(SchoolRoles::class, RolePolicy::class);
+		Gate::policy(Person::class, PersonPolicy::class);
+		Paginator::useBootstrapFive();
 		//Composer Views
-	    View::composer('layouts.integrations', IntegratorConfigurationComposer::class);
-		Blade::directive('svg', function ($arguments)
+		View::composer('layouts.integrations', IntegratorConfigurationComposer::class);
+		Blade::directive('svg', function($arguments)
 		{
 			$args = array_pad(explode(',', trim($arguments, "() ")), 2, '');
 			$path = trim($args[0], "' ");
@@ -63,5 +63,5 @@ class AppServiceProvider extends ServiceProvider
 			
 			return $output;
 		});
-    }
+	}
 }

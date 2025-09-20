@@ -12,6 +12,12 @@ class UserIntegrations extends Component
 	public Person $person;
 	public array $integrators = [];
 	
+	public function mount(?Person $person = null)
+	{
+		$this->person = $person->id ? $person : auth()->user();
+		$this->refreshIntegrators();
+	}
+	
 	public function refreshIntegrators()
 	{
 		$this->integrators = [];
@@ -20,11 +26,6 @@ class UserIntegrations extends Component
 			if($integrator->ableToIntegrate($this->person))
 				$this->integrators[] = $integrator;
 		}
-	}
-	public function mount(?Person $person = null)
-	{
-		$this->person = $person->id? $person: auth()->user();
-		$this->refreshIntegrators();
 	}
 	
 	public function removeIntegration(Integrator $integrator)
@@ -58,8 +59,8 @@ class UserIntegrations extends Component
 		$this->refreshIntegrators();
 	}
 	
-    public function render()
-    {
-        return view('livewire.auth.user-integrations');
-    }
+	public function render()
+	{
+		return view('livewire.auth.user-integrations');
+	}
 }

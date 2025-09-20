@@ -18,5 +18,5 @@
             <option value="{{ $category->id }}">{{ $category->name }}</option>
         @endforeach
     </select>
-    <input type="hidden" name="category_id" id="category_id" value="{{ $selectedCategoryId }}" />
+    <input type="hidden" name="category_id" id="category_id" value="{{ $selectedCategoryId }}"/>
 </div>

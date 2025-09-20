@@ -9,28 +9,32 @@ use Illuminate\Validation\Rule;
 
 class LocalIntegratorController extends Controller
 {
-    public function auth()
-    {
+	public function auth()
+	{
 		//load the auth service
-	    $authService = IntegrationService::select('integration_services.*')
-		    ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
-		    ->where('integration_services.service_type', IntegratorServiceTypes::AUTHENTICATION)
-		    ->where('integrators.path', 'local')
-		    ->first();
-	    $breadcrumb =
-		    [
-			    __('system.menu.integrators') => route('integrators.index'),
-			    $authService->integrator->name => '#',
-			    $authService->name => '#',
-		    ];
+		$authService = IntegrationService::select('integration_services.*')
+		                                 ->join('integrators', 'integrators.id', '=',
+			                                 'integration_services.integrator_id')
+		                                 ->where('integration_services.service_type',
+			                                 IntegratorServiceTypes::AUTHENTICATION)
+		                                 ->where('integrators.path', 'local')
+		                                 ->first();
+		$breadcrumb =
+			[
+				__('system.menu.integrators') => route('integrators.index'),
+				$authService->integrator->name => '#',
+				$authService->name => '#',
+			];
 		return view('integrators.local.auth', compact('authService', 'breadcrumb'));
-    }
+	}
 	
 	public function auth_update(Request $request)
 	{
 		$authService = IntegrationService::select('integration_services.*')
-		                                 ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
-		                                 ->where('integration_services.service_type', IntegratorServiceTypes::AUTHENTICATION)
+		                                 ->join('integrators', 'integrators.id', '=',
+			                                 'integration_services.integrator_id')
+		                                 ->where('integration_services.service_type',
+			                                 IntegratorServiceTypes::AUTHENTICATION)
 		                                 ->where('integrators.path', 'local')
 		                                 ->first();
 		$data = $request->validate(
@@ -41,14 +45,18 @@ class LocalIntegratorController extends Controller
 			]);
 		$authService->data = $data;
 		$authService->save();
-		return redirect()->back()->with('success-status', __('integrators.local.auth.update.success'));
+		return redirect()
+			->back()
+			->with('success-status', __('integrators.local.auth.update.success'));
 	}
 	
 	public function documents()
 	{
 		$documentsService = IntegrationService::select('integration_services.*')
-		                                      ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
-		                                      ->where('integration_services.service_type', IntegratorServiceTypes::DOCUMENTS)
+		                                      ->join('integrators', 'integrators.id', '=',
+			                                      'integration_services.integrator_id')
+		                                      ->where('integration_services.service_type',
+			                                      IntegratorServiceTypes::DOCUMENTS)
 		                                      ->where('integrators.path', 'local')
 		                                      ->first();
 		$disks = config('filesystems.disks');
@@ -64,26 +72,31 @@ class LocalIntegratorController extends Controller
 	public function documents_update(Request $request)
 	{
 		$documentsService = IntegrationService::select('integration_services.*')
-		                                 ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
-		                                 ->where('integration_services.service_type', IntegratorServiceTypes::DOCUMENTS)
-		                                 ->where('integrators.path', 'local')
-		                                 ->first();
+		                                      ->join('integrators', 'integrators.id', '=',
+			                                      'integration_services.integrator_id')
+		                                      ->where('integration_services.service_type',
+			                                      IntegratorServiceTypes::DOCUMENTS)
+		                                      ->where('integrators.path', 'local')
+		                                      ->first();
 		$data = $request->validate(
 			[
 				'documents_disk' => ['required', Rule::in(array_keys(config('filesystems.disks')))],
 			]);
 		$documentsService->data = $data;
 		$documentsService->save();
-		return redirect()->back()->with('success-status', __('integrators.local.documents.update.success'));
+		return redirect()
+			->back()
+			->with('success-status', __('integrators.local.documents.update.success'));
 	}
 	
 	public function work()
 	{
 		$workService = IntegrationService::select('integration_services.*')
-		                                      ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
-		                                      ->where('integration_services.service_type', IntegratorServiceTypes::WORK)
-		                                      ->where('integrators.path', 'local')
-		                                      ->first();
+		                                 ->join('integrators', 'integrators.id', '=',
+			                                 'integration_services.integrator_id')
+		                                 ->where('integration_services.service_type', IntegratorServiceTypes::WORK)
+		                                 ->where('integrators.path', 'local')
+		                                 ->first();
 		$disks = config('filesystems.disks');
 		$breadcrumb =
 			[
@@ -97,7 +110,8 @@ class LocalIntegratorController extends Controller
 	public function work_update(Request $request)
 	{
 		$workService = IntegrationService::select('integration_services.*')
-		                                 ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
+		                                 ->join('integrators', 'integrators.id', '=',
+			                                 'integration_services.integrator_id')
 		                                 ->where('integration_services.service_type', IntegratorServiceTypes::WORK)
 		                                 ->where('integrators.path', 'local')
 		                                 ->first();
@@ -107,6 +121,8 @@ class LocalIntegratorController extends Controller
 			]);
 		$workService->data = $data;
 		$workService->save();
-		return redirect()->back()->with('success-status', __('integrators.local.work.update.success'));
+		return redirect()
+			->back()
+			->with('success-status', __('integrators.local.work.update.success'));
 	}
 }

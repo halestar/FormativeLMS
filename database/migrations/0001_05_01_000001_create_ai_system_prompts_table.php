@@ -5,26 +5,31 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
-{
-    /**
-     * Run the migrations.
-     */
-    public function up(): void
-    {
-        Schema::create('ai_system_prompts', function (Blueprint $table) {
-            $table->id();
-			$table->foreignId('person_id')->nullable()->constrained()->cascadeOnDelete();
+	{
+	/**
+	 * Run the migrations.
+	 */
+	public function up(): void
+	{
+		Schema::create('ai_system_prompts', function(Blueprint $table)
+		{
+			$table->id();
+			$table->foreignId('person_id')
+			      ->nullable()
+			      ->constrained()
+			      ->cascadeOnDelete();
 			$table->string('className');
-			$table->text('prompt')->nullable();
-            $table->timestamps();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
-    {
-        Schema::dropIfExists('ai_system_prompts');
-    }
-};
+			$table->text('prompt')
+			      ->nullable();
+			$table->timestamps();
+		});
+	}
+	
+	/**
+	 * Reverse the migrations.
+	 */
+	public function down(): void
+	{
+		Schema::dropIfExists('ai_system_prompts');
+	}
+	};

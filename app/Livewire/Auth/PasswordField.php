@@ -22,15 +22,15 @@ class PasswordField extends Component
 	public string $id = 'password';
 	public string $name = 'password';
 	public bool $required = false;
-
+	
 	public string $prependText = '';
 	public bool $validate = true;
-
+	
 	public function mount(AuthSettings $authSettings)
 	{
 		$this->authSettings = $authSettings;
 	}
-
+	
 	public function generatePassword()
 	{
 		$this->resetValidation();
@@ -38,29 +38,29 @@ class PasswordField extends Component
 			$this->authSettings->numbers, $this->authSettings->symbols, false);
 		$this->dispatch('password-field.password-generated', password: $this->password);
 	}
-
-    public function render()
-    {
-        return view('livewire.auth.password-field');
-    }
-
-	protected function rules(): array
+	
+	public function render()
 	{
-		if(!$this->validate)
-			return [ 'password' => 'nullable'];
-		return
-			[
-				'password' =>
-					[
-						$this->required? 'required':'nullable',
-						Password::defaults(),
-					],
-			];
+		return view('livewire.auth.password-field');
 	}
-
+	
 	#[On('password-field.load-password')]
 	public function loadPassword($password)
 	{
 		$this->password = $password;
+	}
+	
+	protected function rules(): array
+	{
+		if(!$this->validate)
+			return ['password' => 'nullable'];
+		return
+			[
+				'password' =>
+					[
+						$this->required ? 'required' : 'nullable',
+						Password::defaults(),
+					],
+			];
 	}
 }

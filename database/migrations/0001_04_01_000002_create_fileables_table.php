@@ -11,7 +11,8 @@ return new class extends Migration
 	 */
 	public function up(): void
 	{
-		Schema::create('fileables', function(Blueprint $table) {
+		Schema::create('fileables', function(Blueprint $table)
+		{
 			$table->uuid('work_file_id');
 			$table->foreign('work_file_id')
 			      ->references('id')

@@ -13,10 +13,11 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 class AiPrompt extends Model implements Fileable
 {
 	use HasWorkFiles;
+	
 	public $timestamps = true;
+	public $incrementing = true;
 	protected $table = "ai_prompts";
 	protected $primaryKey = "id";
-	public $incrementing = true;
 	protected $fillable =
 		[
 			'system_prompt_id',
@@ -28,25 +29,14 @@ class AiPrompt extends Model implements Fileable
 			'last_results'
 		];
 	
-	protected function casts(): array
-	{
-		return
-			[
-				'structured' => 'boolean',
-				'temperature' => 'float',
-				'tools' => 'array',
-				'last_results' => 'array',
-			];
-	}
-	
 	/**
 	 * Get the promtable model, which will always implement AiPromptable.
 	 * @return AiPromptable The object that owns this prompt.
 	 */
-    public function ai_promptable(): MorphTo
-    {
+	public function ai_promptable(): MorphTo
+	{
 		return $this->morphTo();
-    }
+	}
 	
 	public function systemPrompt(): BelongsTo
 	{
@@ -66,5 +56,16 @@ class AiPrompt extends Model implements Fileable
 	public function isDefaultPrompt(): bool
 	{
 		return ($this->person_id == null);
+	}
+	
+	protected function casts(): array
+	{
+		return
+			[
+				'structured' => 'boolean',
+				'temperature' => 'float',
+				'tools' => 'array',
+				'last_results' => 'array',
+			];
 	}
 }

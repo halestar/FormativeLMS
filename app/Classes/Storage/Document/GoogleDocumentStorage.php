@@ -72,7 +72,8 @@ class GoogleDocumentStorage extends DocumentStorage
 	
 	private function createDocumentFile(Person $person, DriveFile $file): ?DocumentFile
 	{
-		if($file->mimeType == 'application/vnd.google-apps.folder') {
+		if($file->mimeType == 'application/vnd.google-apps.folder')
+		{
 			//make a folder
 			return new DocumentFile
 			(
@@ -205,11 +206,13 @@ class GoogleDocumentStorage extends DocumentStorage
 	{
 		$drive = $this->personalDrive($person);
 		//we can do a straight download if the file is an image file or a pdf
-		if(str_starts_with($file->mimeType, 'image/') || $file->mimeType == 'application/pdf') {
+		if(str_starts_with($file->mimeType, 'image/') || $file->mimeType == 'application/pdf')
+		{
 			$response = $drive->files->get($file->path, ['alt' => 'media']);
 			$fileContents = $response->getBody()
 			                         ->getContents();
-			switch($file->mimeType) {
+			switch($file->mimeType)
+			{
 				case 'image/jpeg':
 					$ext = "jpg";
 					break;

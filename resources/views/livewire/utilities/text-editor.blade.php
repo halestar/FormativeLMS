@@ -16,7 +16,7 @@
         e.preventDefault();
     }, false);
 
-    window.addEventListener('document-storage-browser.files-selected', (event) => (event.cb_instance === 'text-editor')? tinymce.activeEditor.setProgressState(true): null);
+    window.addEventListener('document-storage-browser.files-selected', (event) => (event.cb_instance === 'text-editor') ? tinymce.activeEditor.setProgressState(true) : null);
     $wire.on('text-editor.insert-image', (event) => tinymce.activeEditor.execCommand('selectLmsImage', event.work_file));
 
     tinymce.PluginManager.add('loadlmsimg', function (editor, url) {

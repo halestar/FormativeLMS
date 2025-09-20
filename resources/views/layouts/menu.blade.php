@@ -142,7 +142,8 @@
                         </li>
                     @endcanany
                     <li class="nav-item dropdown">
-                        <a id="userDD" class="nav-link dropdown-toggle position-relative" href="#" role="button" data-bs-toggle="dropdown"
+                        <a id="userDD" class="nav-link dropdown-toggle position-relative" href="#" role="button"
+                           data-bs-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }}
                             @impersonating()
@@ -170,16 +171,16 @@
                                 {{ __('people.impersonate.leave') }}
                             </a>
                             @else
-                            <a class="dropdown-item" href="{{ route('logout') }}"
-                               onclick="event.preventDefault();
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                {{ __('Logout') }}
-                            </a>
+                                    {{ __('Logout') }}
+                                </a>
 
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                @csrf
-                            </form>
-                            @endImpersonating
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                    @csrf
+                                </form>
+                                @endImpersonating
                         </div>
                     </li>
                 @endauth

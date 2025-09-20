@@ -84,12 +84,11 @@ class LocalWorkStorage extends WorkStorage
 		              );
 	}
 	
-	
-	protected function hydrateElements(array $data): void {}
-	
 	public function fileContents(WorkFile $file): ?string
 	{
 		return Storage::disk(config('lms.storage.work'))
 		              ->get($file->path);
 	}
+	
+	protected function hydrateElements(array $data): void {}
 }

@@ -83,13 +83,13 @@
     </div>
     @enderror
     @if($passwordChangedSuccessfully)
-    <div class="row justify-content-center">
-        <div class="col-8">
-            <div class="alert alert-success">
-                {{ __('settings.auth.password.change.success') }}
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="alert alert-success">
+                    {{ __('settings.auth.password.change.success') }}
+                </div>
             </div>
         </div>
-    </div>
     @endif
     <div class="row justify-content-center mt-4">
         <button type="submit" class="btn btn-primary col-6">{{ __('settings.auth.password.change') }}</button>

@@ -6,15 +6,16 @@
                     <ul class="list-group list-group-flush">
                         @foreach($sessions as $session)
                             <li
-                                class="rounded list-group-item list-group-item-action show-as-action p-2 border-bottom d-flex justify-content-between @if($selectedSession && $session->id == $selectedSession->id) active @endif"
-                                wire:click="setSession({{ $session->id }})"
-                                wire:key="{{ $session->id }}"
+                                    class="rounded list-group-item list-group-item-action show-as-action p-2 border-bottom d-flex justify-content-between @if($selectedSession && $session->id == $selectedSession->id) active @endif"
+                                    wire:click="setSession({{ $session->id }})"
+                                    wire:key="{{ $session->id }}"
                             >
                                 <div class="d-flex flex-row">
                                     <div>
                                         <img
-                                            src="{{ $session->teachers()->first()->thumbnail_url }}"
-                                            alt="{{ $session->teachers()->first()->name }}" class="d-flex align-self-center me-3 person-thumbnail rounded-circle">
+                                                src="{{ $session->teachers()->first()->thumbnail_url }}"
+                                                alt="{{ $session->teachers()->first()->name }}"
+                                                class="d-flex align-self-center me-3 person-thumbnail rounded-circle">
                                     </div>
                                     <div class="pt-1">
                                         <p class="fw-bold mb-0">{{ $session->name }}</p>
@@ -40,7 +41,8 @@
             </div>
 
             @if($student && $selectedSession)
-                <livewire:school.class-chat :session="$selectedSession" :student="$student" :key="$selectedSession->id" />
+                <livewire:school.class-chat :session="$selectedSession" :student="$student"
+                                            :key="$selectedSession->id"/>
             @endif
         </div>
 

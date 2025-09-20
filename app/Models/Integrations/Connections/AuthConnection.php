@@ -38,6 +38,19 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
 	 * PASSWORD FUNCTIONS
 	 */
 	
+	abstract public static function callback(): \Illuminate\Http\RedirectResponse|\Symfony\Component\HttpFoundation\RedirectResponse|null;
+	
+	/**
+	 * @return array Will ALWAYS return the instance defaults defined by the subclass, plus the locked settings.
+	 */
+	final public static function getInstanceDefault(): array
+	{
+		// we need to ensure that the locking mechanism is always included in the instance defaults.
+		return static::$instanceDefaults + ['locked' => false, 'locked_until' => null];
+	}
+	
+	final public static function getSystemInstanceDefault(): array { return []; }
+	
 	/**
 	 * @return bool Whether this authenticator can be assigned a password by an
 	 * administrator
@@ -72,6 +85,11 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
 	 */
 	abstract public function verifyPassword(string $password): bool;
 	
+	
+	/**************************************************************
+	 * USER LOCKING FUNCTIONS
+	 */
+	
 	/**
 	 * @return bool Whether this authenticator can set if user must change their password.
 	 */
@@ -88,11 +106,6 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
 	 * @return bool Returns whether the user must change their password.
 	 */
 	abstract public function mustChangePassword(): bool;
-	
-	
-	/**************************************************************
-	 * USER LOCKING FUNCTIONS
-	 */
 	
 	/**
 	 * @param bool $locked Whether to lock this user. Defaults to true
@@ -111,6 +124,20 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
 	}
 	
 	/**
+	 * @return Carbon|null Returns the Carbon date that this is locked until, or null if foreever.
+	 */
+	public function lockedUntil(): ?Carbon
+	{
+		if($this->isLocked())
+			return $this->data->locked_until ? Carbon::parse($this->data->locked_until) : null;
+		return null;
+	}
+	
+	/**************************************************************
+	 * FINAL FUNCTIONS
+	 */
+	
+	/**
 	 * @return bool Whether this user is locked.
 	 */
 	public function isLocked(): bool
@@ -120,7 +147,8 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
 		if(!$this->data->locked_until)
 			return true;
 		//else, we need to determine if the time has past
-		if(Carbon::now()->isAfter($this->data->locked_until))
+		if(Carbon::now()
+		         ->isAfter($this->data->locked_until))
 		{
 			$this->data->locked = false;
 			$this->data->locked_until = null;
@@ -130,34 +158,9 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
 		return true;
 	}
 	
-	/**
-	 * @return Carbon|null Returns the Carbon date that this is locked until, or null if foreever.
-	 */
-	public function lockedUntil(): ?Carbon
-	{
-		if($this->isLocked())
-			return $this->data->locked_until? Carbon::parse($this->data->locked_until): null;
-		return null;
-	}
-	
 	/**************************************************************
 	 * REDIRECTION FUNCTIONS
 	 */
-	abstract public function redirect(): \Illuminate\Http\RedirectResponse | \Symfony\Component\HttpFoundation\RedirectResponse | null;
-	abstract public static function callback(): \Illuminate\Http\RedirectResponse | \Symfony\Component\HttpFoundation\RedirectResponse | null;
-	
-	/**************************************************************
-	 * FINAL FUNCTIONS
-	 */
-	
-	/**
-	 * @return array Will ALWAYS return the instance defaults defined by the subclass, plus the locked settings.
-	 */
-	final public static function getInstanceDefault(): array
-	{
-		// we need to ensure that the locking mechanism is always included in the instance defaults.
-		return static::$instanceDefaults + ['locked' => false, 'locked_until' => null];
-	}
-	final public static function getSystemInstanceDefault(): array { return [];	}
+	abstract public function redirect(): \Illuminate\Http\RedirectResponse|\Symfony\Component\HttpFoundation\RedirectResponse|null;
 	
 }

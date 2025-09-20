@@ -31,7 +31,7 @@ class WorkStorageBrowser extends Component
 	
 	public function mount(Fileable $fileable, StorageSettings $settings, string $title = null)
 	{
-		$this->title = $title?? __('storage.work.browser');
+		$this->title = $title ?? __('storage.work.browser');
 		$this->fileable = $fileable;
 		$this->storageInstance = $this->fileable->getWorkStorageKey();
 		$this->settings = $settings;
@@ -46,21 +46,15 @@ class WorkStorageBrowser extends Component
 		                                  ->get();
 	}
 	
-	protected function rules()
-	{
-		return [
-			'uploadedFiles' => File::types(MimeType::allowedMimeTypes())
-			                       ->max(12 * 1024),
-		];
-	}
-	
 	public function uploadFiles($fileName)
 	{
 		$this->validate();
 		//we need the manager to convert the images.
-		if(is_array($this->uploadedFiles)) {
+		if(is_array($this->uploadedFiles))
+		{
 			//first, since we're uploading multiple files, we will need to go through each one.
-			foreach($this->uploadedFiles as $file) {
+			foreach($this->uploadedFiles as $file)
+			{
 				//make sure our mime type allows it
 				if(count($this->mimeTypes) > 0 && !in_array($file->getMimeType(), $this->mimeTypes))
 					continue;
@@ -68,7 +62,8 @@ class WorkStorageBrowser extends Component
 				$this->connection->persistFile($this->fileable, $docFile);
 			}
 		}
-		elseif(count($this->mimeTypes) == 0 || in_array($this->uploadedFiles->getMimeType(), $this->mimeTypes)) {
+		elseif(count($this->mimeTypes) == 0 || in_array($this->uploadedFiles->getMimeType(), $this->mimeTypes))
+		{
 			$docFile = DocumentFile::fromUploadedFile($this->uploadedFiles);
 			$this->connection->persistFile($this->fileable, $docFile);
 		}
@@ -86,16 +81,24 @@ class WorkStorageBrowser extends Component
 	{
 		Log::debug('selected items: ' . print_r($selected_items, true));
 		if($cb_instance != 'work-storage-browser') return;
-		foreach($selected_items as $item) {
+		foreach($selected_items as $item)
+		{
 			$documentFile = DocumentFile::hydrate($item);
 			$this->connection->persistFile($this->fileable, $documentFile);
 		}
 		$this->refreshFiles();
 	}
 	
-	
 	public function render()
 	{
 		return view('livewire.storage.work-storage-browser');
+	}
+	
+	protected function rules()
+	{
+		return [
+			'uploadedFiles' => File::types(MimeType::allowedMimeTypes())
+			                       ->max(12 * 1024),
+		];
 	}
 }

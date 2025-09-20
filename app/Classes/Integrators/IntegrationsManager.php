@@ -28,7 +28,8 @@ class IntegrationsManager
 	 */
 	public function availableIntegrators(): Collection
 	{
-		return Integrator::enabled()->get();
+		return Integrator::enabled()
+		                 ->get();
 	}
 	
 	/**
@@ -40,12 +41,13 @@ class IntegrationsManager
 	public function getAvailableServices(?IntegratorServiceTypes $type = null): Collection
 	{
 		$services = IntegrationService::select('integration_services.*')
-			->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id');
+		                              ->join('integrators', 'integrators.id', '=',
+			                              'integration_services.integrator_id');
 		if($type)
 			$services->where('integration_services.service_type', $type);
 		return $services->where('integrators.enabled', true)
-			->where('integration_services.enabled', true)
-			->get();
+		                ->where('integration_services.enabled', true)
+		                ->get();
 	}
 	
 	/**
@@ -58,7 +60,8 @@ class IntegrationsManager
 	{
 		//search for an existing model
 		/* @var Integrator $integratorClass */
-		$integrator = Integrator::where('className', $integratorClass)->first();
+		$integrator = Integrator::where('className', $integratorClass)
+		                        ->first();
 		if(!$integrator)
 		{
 			//in this case, we need to create it.
@@ -91,11 +94,14 @@ class IntegrationsManager
 	 * @param bool $force Whether the service should be reverted to the original, default settings.
 	 * @return IntegrationService|null
 	 */
-	public function registerService(Integrator $integrator, string $serviceClass, bool $force = false): ?IntegrationService
+	public function registerService(Integrator $integrator, string $serviceClass,
+		bool $force = false): ?IntegrationService
 	{
 		/** @var IntegrationService $serviceClass */
 		//next, we check if we already have a service defined for this type
-		$service = $integrator->services()->ofType(($serviceClass)::getServiceType())->first();
+		$service = $integrator->services()
+		                      ->ofType(($serviceClass)::getServiceType())
+		                      ->first();
 		if(!$service)
 		{
 			//in this case, we need to build the model.

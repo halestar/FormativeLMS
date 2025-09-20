@@ -9,13 +9,14 @@
                              @mouseover="hovering = true"
                              @mouseout="hovering = false"
                         >
-                            <span x-show="!hovering" x-cloak class="text-success"><i class="fa-solid fa-circle"></i></span>
+                            <span x-show="!hovering" x-cloak class="text-success"><i
+                                        class="fa-solid fa-circle"></i></span>
                             <button x-show="hovering"
-                               type="button"
-                               class="btn btn-danger btn-sm"
-                               role="button"
-                               x-cloak
-                               wire:click="removeIntegration({{ $integrator->id }})"
+                                    type="button"
+                                    class="btn btn-danger btn-sm"
+                                    role="button"
+                                    x-cloak
+                                    wire:click="removeIntegration({{ $integrator->id }})"
                             >{{ __('common.disconnect') }}</button>
                         </div>
                     @else
@@ -23,7 +24,8 @@
                              @mouseover="hovering = true"
                              @mouseout="hovering = false"
                         >
-                            <span x-show="!hovering" x-cloak class="text-danger"><i class="fa-solid fa-circle"></i></span>
+                            <span x-show="!hovering" x-cloak class="text-danger"><i
+                                        class="fa-solid fa-circle"></i></span>
                             <a x-show="hovering"
                                class="btn btn-success btn-sm"
                                role="button"
@@ -34,56 +36,57 @@
                     @endif
                 </div>
             </li>
-                @if($integrator->isIntegrated($person))
-                    @foreach($integrator->services()->personal()->get() as $service)
-                        @continue(!$service->canConnect($person) && !$service->canRegister())
-                        <li class="list-group-item text-bg-secondary d-flex justify-content-between align-items-center ps-5" wire:key="{{ $integrator->id . "_" . $service->id }}">
-                            <span>{{ $service->name }}</span>
-                            @if($service->connect($person))
-                                <div x-data="{ hovering: false }"
-                                     @mouseover="hovering = true"
-                                     @mouseout="hovering = false"
-                                >
-                                    <span x-show="!hovering" x-cloak class="text-success"><i class="fa-solid fa-circle"></i></span>
-                                    <button x-show="hovering"
-                                            x-cloak
-                                            type="button"
-                                            class="btn btn-danger btn-sm"
-                                            role="button"
-                                            wire:click="disableService({{ $service->id }})"
-                                    >{{ __('common.disconnect') }}</button>
-                                </div>
-                            @elseif($service->canRegister())
-                                <div x-data="{ hovering: false }"
-                                     @mouseover="hovering = true"
-                                     @mouseout="hovering = false"
-                                >
-                                    <span x-show="!hovering" x-cloak class="text-danger"><i class="fa-solid fa-circle"></i></span>
-                                    <a x-show="hovering"
-                                            x-cloak
-                                            class="btn btn-success btn-sm text-lowercase text-sm"
-                                            role="button"
-                                            href="{{ $service->registrationUrl() }}"
-                                    >{{ __('common.register') }}</a>
-                                </div>
-                            @else
-                                <div x-data="{ hovering: false }"
-                                     @mouseover="hovering = true"
-                                     @mouseout="hovering = false"
-                                >
-                                    <span x-show="!hovering" x-cloak class="text-danger"><i class="fa-solid fa-circle"></i></span>
-                                    <button x-show="hovering"
-                                            x-cloak
-                                       type="button"
-                                       class="btn btn-success btn-sm"
-                                       role="button"
-                                       wire:click="enableService({{ $service->id }})"
-                                    >{{ __('common.connect') }}</button>
-                                </div>
-                            @endif
-                        </li>
-                    @endforeach
-                @endif
+            @if($integrator->isIntegrated($person))
+                @foreach($integrator->services()->personal()->get() as $service)
+                    @continue(!$service->canConnect($person) && !$service->canRegister())
+                    <li class="list-group-item text-bg-secondary d-flex justify-content-between align-items-center ps-5"
+                        wire:key="{{ $integrator->id . "_" . $service->id }}">
+                        <span>{{ $service->name }}</span>
+                        @if($service->connect($person))
+                            <div x-data="{ hovering: false }"
+                                 @mouseover="hovering = true"
+                                 @mouseout="hovering = false"
+                            >
+                                <span x-show="!hovering" x-cloak class="text-success"><i class="fa-solid fa-circle"></i></span>
+                                <button x-show="hovering"
+                                        x-cloak
+                                        type="button"
+                                        class="btn btn-danger btn-sm"
+                                        role="button"
+                                        wire:click="disableService({{ $service->id }})"
+                                >{{ __('common.disconnect') }}</button>
+                            </div>
+                        @elseif($service->canRegister())
+                            <div x-data="{ hovering: false }"
+                                 @mouseover="hovering = true"
+                                 @mouseout="hovering = false"
+                            >
+                                <span x-show="!hovering" x-cloak class="text-danger"><i class="fa-solid fa-circle"></i></span>
+                                <a x-show="hovering"
+                                   x-cloak
+                                   class="btn btn-success btn-sm text-lowercase text-sm"
+                                   role="button"
+                                   href="{{ $service->registrationUrl() }}"
+                                >{{ __('common.register') }}</a>
+                            </div>
+                        @else
+                            <div x-data="{ hovering: false }"
+                                 @mouseover="hovering = true"
+                                 @mouseout="hovering = false"
+                            >
+                                <span x-show="!hovering" x-cloak class="text-danger"><i class="fa-solid fa-circle"></i></span>
+                                <button x-show="hovering"
+                                        x-cloak
+                                        type="button"
+                                        class="btn btn-success btn-sm"
+                                        role="button"
+                                        wire:click="enableService({{ $service->id }})"
+                                >{{ __('common.connect') }}</button>
+                            </div>
+                        @endif
+                    </li>
+                @endforeach
+            @endif
         @endforeach
     </ul>
 </div>

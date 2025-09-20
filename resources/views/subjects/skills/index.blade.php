@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="container">
-        <livewire:assessment.skill-category-browser />
+        <livewire:assessment.skill-category-browser/>
     </div>
 @endsection

@@ -29,15 +29,15 @@
                                                 <livewire:role-assigner :attach-obj="$integrator"/>
                                             </div>
 
-                                        @if($integrator->configurable)
+                                            @if($integrator->configurable)
                                                 <a
-                                                    class="btn btn-primary btn-sm text-lowercase mb-1"
-                                                    href="{{ $integrator->configurationUrl() }}"
+                                                        class="btn btn-primary btn-sm text-lowercase mb-1"
+                                                        href="{{ $integrator->configurationUrl() }}"
                                                 >{{ __('integrators.configure') }}</a>
                                             @endif
                                             <a
-                                                class="btn btn-primary btn-sm text-lowercase mb-1"
-                                                href="{{ route('integrators.register', $integrator) }}"
+                                                    class="btn btn-primary btn-sm text-lowercase mb-1"
+                                                    href="{{ route('integrators.register', $integrator) }}"
                                             >{{ __('integrators.register.update') }}</a>
                                             <a
                                                     class="btn btn-danger btn-sm text-lowercase mb-1"
@@ -53,14 +53,15 @@
                                                             <strong class="col-8">{{ $service->name }}</strong>
                                                             <div class="col-2 mx-auto text-center">
                                                                 @if($service->configurable)
-                                                                <a href="{{ $service->configurationUrl() }}"
-                                                                  class="link-underline-opacity-0">
-                                                                    <i class="fa-solid fa-gear"></i>
-                                                                </a>
+                                                                    <a href="{{ $service->configurationUrl() }}"
+                                                                       class="link-underline-opacity-0">
+                                                                        <i class="fa-solid fa-gear"></i>
+                                                                    </a>
                                                                 @endif
                                                                 <a href="{{ route('integrators.services.permissions', $service)}}"
                                                                    class="link-underline-opacity-0">
-                                                                    <img src="/images/permissions_icon.svg" class="img-fluid img-icon-tiny rounded ms-2" />
+                                                                    <img src="/images/permissions_icon.svg"
+                                                                         class="img-fluid img-icon-tiny rounded ms-2"/>
                                                                 </a>
                                                             </div>
                                                             <livewire:utilities.model-switch

@@ -6,11 +6,12 @@
                     <h5 class="card-header d-flex justify-content-between align-items-center">
                         <span>{{ __('people.student.record.manage') }}</span>
                         <button
-                            type="button"
-                            class="btn btn-danger btn-sm rounded rounded-pill"
-                            x-on:click="$wire.set('editing', false)"
-                            aria-label="{{ trans('common.close') }}"
-                        >Editing Student Records</button>
+                                type="button"
+                                class="btn btn-danger btn-sm rounded rounded-pill"
+                                x-on:click="$wire.set('editing', false)"
+                                aria-label="{{ trans('common.close') }}"
+                        >Editing Student Records
+                        </button>
                     </h5>
                     <div class="card-body">
                         <div class="table-responsive">
@@ -27,9 +28,11 @@
                                 </thead>
                                 <tbody>
                                 @foreach($studentRecords as $record)
-                                    <tr wire:key="{{ $record->id }}" @if(!$record->end_date) class="border-bottom" @endif>
+                                    <tr wire:key="{{ $record->id }}"
+                                        @if(!$record->end_date) class="border-bottom" @endif>
                                         <td>
-                                            <select class="form-select" wire:change="updateYear({{ $record->id }}, $event.target.value)">
+                                            <select class="form-select"
+                                                    wire:change="updateYear({{ $record->id }}, $event.target.value)">
                                                 @foreach(\App\Models\Locations\Year::all() as $year)
                                                     <option value="{{ $year->id }}"
                                                             @if($year->id == $record->year_id) selected @endif>{{ $year->label }}</option>
@@ -37,7 +40,8 @@
                                             </select>
                                         </td>
                                         <td>
-                                            <select class="form-select" wire:change="updateLevel({{ $record->id }}, $event.target.value)">
+                                            <select class="form-select"
+                                                    wire:change="updateLevel({{ $record->id }}, $event.target.value)">
                                                 @foreach(\App\Models\CRUD\Level::all() as $level)
                                                     <option value="{{ $level->id }}"
                                                             @if($level->id == $record->level_id) selected @endif>{{ $level->name }}</option>
@@ -45,7 +49,8 @@
                                             </select>
                                         </td>
                                         <td>
-                                            <select class="form-select" wire:change="updateCampus({{ $record->id }}, $event.target.value)">
+                                            <select class="form-select"
+                                                    wire:change="updateCampus({{ $record->id }}, $event.target.value)">
                                                 @foreach($record->level->campuses as $campus)
                                                     <option value="{{ $campus->id }}"
                                                             @if($campus->id == $record->campus_id) selected @endif>{{ $campus->name }}</option>
@@ -54,25 +59,27 @@
                                         </td>
                                         <td>
                                             <input
-                                                type="date"
-                                                class="form-control @error('startDate-' . $record->id) is-invalid @enderror"
-                                                wire:change="updateStartDate({{ $record->id }}, $event.target.value)"
-                                                value="{{ $record->start_date->format('Y-m-d') }}"
+                                                    type="date"
+                                                    class="form-control @error('startDate-' . $record->id) is-invalid @enderror"
+                                                    wire:change="updateStartDate({{ $record->id }}, $event.target.value)"
+                                                    value="{{ $record->start_date->format('Y-m-d') }}"
                                             />
-                                            <x-error-display key="startDate-{{ $record->id }}">{{ $errors->first('startDate-' . $record->id) }}</x-error-display>
+                                            <x-error-display
+                                                    key="startDate-{{ $record->id }}">{{ $errors->first('startDate-' . $record->id) }}</x-error-display>
                                         </td>
                                         <td>
                                             @if($record->end_date)
                                                 <span class="badge text-bg-danger">{{ __('people.student.withdrawn') }}</span>
                                             @else
-                                                <button type="button" class="btn btn-warning btn-sm" wire:click="withdrawStudent({{ $record->id }})">{{ __('people.student.withdraw') }}</button>
+                                                <button type="button" class="btn btn-warning btn-sm"
+                                                        wire:click="withdrawStudent({{ $record->id }})">{{ __('people.student.withdraw') }}</button>
                                             @endif
                                         </td>
                                         <td>
                                             <button
-                                                type="button"
-                                                class="btn btn-danger btn-sm rounded rounded-pill"
-                                                wire:click="deleteRecord({{ $record->id }})"
+                                                    type="button"
+                                                    class="btn btn-danger btn-sm rounded rounded-pill"
+                                                    wire:click="deleteRecord({{ $record->id }})"
                                             >
                                                 <i class="fa fa-times"></i>
                                             </button>
@@ -83,14 +90,15 @@
                                             <td>
                                                 <div class="form-floating">
                                                     <select
-                                                        class="form-select"
-                                                        id="withdraw-reason-{{ $record->id }}"
-                                                        aria-label="Withdraw Reason"
-                                                        wire:change="updateDismissalReason({{ $record->id }}, $event.target.value)"
+                                                            class="form-select"
+                                                            id="withdraw-reason-{{ $record->id }}"
+                                                            aria-label="Withdraw Reason"
+                                                            wire:change="updateDismissalReason({{ $record->id }}, $event.target.value)"
                                                     >
                                                         <option selected>{{ __('people.student.withdraw.reason.select') }}</option>
                                                         @foreach(\App\Models\CRUD\DismissalReason::all() as $reason)
-                                                            <option value="{{ $reason->id }}" @if($reason->id == $record->dismissal_reason_id) selected @endif>{{ $reason->name }}</option>
+                                                            <option value="{{ $reason->id }}"
+                                                                    @if($reason->id == $record->dismissal_reason_id) selected @endif>{{ $reason->name }}</option>
                                                         @endforeach
                                                     </select>
                                                     <label for="withdraw-reason-{{ $record->id }}">{{ __('people.student.withdraw.reason') }}</label>
@@ -99,34 +107,35 @@
                                             <td>
                                                 <div class="form-floating">
                                                     <input
-                                                        type="date"
-                                                        class="form-control @error('endDate-' . $record->id) is-invalid @enderror"
-                                                        id="end_date-{{ $record->id }}"
-                                                        placeholder="{{ date('Y-m-d') }}"
-                                                        value="{{ $record->end_date->format('Y-m-d') }}"
-                                                        wire:change="updateEndDate({{ $record->id }}, $event.target.value)"
-                                                        aria-label="Withdraw Date"
+                                                            type="date"
+                                                            class="form-control @error('endDate-' . $record->id) is-invalid @enderror"
+                                                            id="end_date-{{ $record->id }}"
+                                                            placeholder="{{ date('Y-m-d') }}"
+                                                            value="{{ $record->end_date->format('Y-m-d') }}"
+                                                            wire:change="updateEndDate({{ $record->id }}, $event.target.value)"
+                                                            aria-label="Withdraw Date"
                                                     >
                                                     <label for="floatingInput">{{ __('people.student.withdraw.date') }}</label>
-                                                    <x-error-display key="endDate-{{ $record->id }}">{{ $errors->first('endDate-' . $record->id) }}</x-error-display>
+                                                    <x-error-display
+                                                            key="endDate-{{ $record->id }}">{{ $errors->first('endDate-' . $record->id) }}</x-error-display>
                                                 </div>
                                             </td>
                                             <td colspan="2">
                                                 <div class="form-floating">
                                                     <textarea
-                                                        class="form-control"
-                                                        placeholder="Withdraw Notes"
-                                                        id="dismissal_note_{{ $record->id }}"
-                                                        wire:change="updateDismissalNote({{ $record->id }}, $event.target.value)"
+                                                            class="form-control"
+                                                            placeholder="Withdraw Notes"
+                                                            id="dismissal_note_{{ $record->id }}"
+                                                            wire:change="updateDismissalNote({{ $record->id }}, $event.target.value)"
                                                     >{!! $record->dismissal_note !!}</textarea>
                                                     <label for="dismissal_note_{{ $record->id }}">{{ __('people.student.withdraw.notes') }}</label>
                                                 </div>
                                             </td>
                                             <td colspan="2">
                                                 <button
-                                                    type="button"
-                                                    class="btn btn-primary"
-                                                    wire:click="undoWithdrawal({{ $record->id }})"
+                                                        type="button"
+                                                        class="btn btn-primary"
+                                                        wire:click="undoWithdrawal({{ $record->id }})"
                                                 >{{ __('people.student.withdraw.undo') }}</button>
                                             </td>
                                         </tr>
@@ -136,7 +145,8 @@
                             </table>
                         </div>
                         <div class="d-flex justify-content-end">
-                            <button type="button" class="btn btn-primary" wire:click="addRecord()">{{ trans_choice('people.student.record.add',1) }}</button>
+                            <button type="button" class="btn btn-primary"
+                                    wire:click="addRecord()">{{ trans_choice('people.student.record.add',1) }}</button>
                         </div>
                     </div>
                 </div>
@@ -155,9 +165,9 @@
             </div>
             @can('people.edit')
                 <button
-                    type="button"
-                    x-on:click="$wire.set('editing', true)"
-                    class="btn btn-primary btn-sm rounded rounded-pill"
+                        type="button"
+                        x-on:click="$wire.set('editing', true)"
+                        class="btn btn-primary btn-sm rounded rounded-pill"
                 >{{ trans_choice('people.student.record.edit',2) }}</button>
             @endcan
         </h6>

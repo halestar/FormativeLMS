@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "366837f5f0f2bf57509beea8a89eb70a",
+    "content-hash": "1d14616d544ad65e52360bb40536e1c8",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1666,6 +1666,55 @@
                 "source": "https://github.com/halestar/DiCmsBlogger/tree/0.7.5.4"
             },
             "time": "2025-08-31T18:26:45+00:00"
+        },
+        {
+            "name": "halestar/fablms-google-integrator",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/halestar/FabLmsGoogleIntegrator.git",
+                "reference": "946ac3beb853d90e1c099ddaaed81d048e713741"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/halestar/FabLmsGoogleIntegrator/zipball/946ac3beb853d90e1c099ddaaed81d048e713741",
+                "reference": "946ac3beb853d90e1c099ddaaed81d048e713741",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=12.0",
+                "livewire/livewire": "^v3.5.4",
+                "php": "^8.2"
+            },
+            "type": "add-on",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "halestar\\FablmsGoogleIntegrator\\GoogleIntegratorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "halestar\\FablmsGoogleIntegrator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "German Kalinec",
+                    "email": "german@kalinec.net"
+                }
+            ],
+            "description": "An integration module for FabLMS (dev.kalinec.net) to integrate with Google Services.",
+            "support": {
+                "issues": "https://github.com/halestar/FabLmsGoogleIntegrator/issues",
+                "source": "https://github.com/halestar/FabLmsGoogleIntegrator/tree/0.1.1"
+            },
+            "time": "2025-09-20T05:58:44+00:00"
         },
         {
             "name": "halestar/laravel-drop-in-cms",

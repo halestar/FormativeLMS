@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="container">
-        <livewire:subject-matter.general-class-enrollment />
+        <livewire:subject-matter.general-class-enrollment/>
     </div>
 @endsection

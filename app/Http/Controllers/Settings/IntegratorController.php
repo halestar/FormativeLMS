@@ -13,6 +13,15 @@ use Illuminate\Routing\Controllers\Middleware;
 class IntegratorController extends Controller
 {
 	
+	public static function middleware()
+	{
+		return
+			[
+				new Middleware('auth', except: ['auth_callback']),
+				new Middleware('can:settings.integrators', except: ['auth_callback']),
+			];
+	}
+	
 	public function index()
 	{
 		$breadcrumb =
@@ -52,16 +61,9 @@ class IntegratorController extends Controller
 	public function auth_callback(Request $request, Integrator $integrator)
 	{
 		//determine the auth service
-		$auth = $integrator->services()->ofType(IntegratorServiceTypes::AUTHENTICATION)->first();
+		$auth = $integrator->services()
+		                   ->ofType(IntegratorServiceTypes::AUTHENTICATION)
+		                   ->first();
 		return ($auth->getConnectionClass())::callback();
-	}
-	
-	public static function middleware()
-	{
-		return
-			[
-				new Middleware('auth', except: ['auth_callback']),
-				new Middleware('can:settings.integrators', except: ['auth_callback']),
-			];
 	}
 }

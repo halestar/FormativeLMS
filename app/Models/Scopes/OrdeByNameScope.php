@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\Scope;
 
 class OrdeByNameScope implements Scope
 {
-    /**
-     * Apply the scope to a given Eloquent query builder.
-     */
-    public function apply(Builder $builder, Model $model): void
-    {
-        $builder->orderBy('name');
-    }
+	/**
+	 * Apply the scope to a given Eloquent query builder.
+	 */
+	public function apply(Builder $builder, Model $model): void
+	{
+		$builder->orderBy('name');
+	}
 }

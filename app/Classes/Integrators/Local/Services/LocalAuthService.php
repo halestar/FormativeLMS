@@ -15,14 +15,6 @@ class LocalAuthService extends LmsIntegrationService
 	/**
 	 * @inheritDoc
 	 */
-	public function canConnect(Person $person): bool
-	{
-		return true;
-	}
-	
-	/**
-	 * @inheritDoc
-	 */
 	public static function getServiceType(): IntegratorServiceTypes
 	{
 		return IntegratorServiceTypes::AUTHENTICATION;
@@ -69,6 +61,30 @@ class LocalAuthService extends LmsIntegrationService
 		return 'auth';
 	}
 	
+	public static function canBeConfigured(): bool
+	{
+		return true;
+	}
+	
+	public static function loginButton(): string
+	{
+		$html = <<< EOHTML
+<div class="border border-dark rounded-4 text-bg-secondary fs-5 p-2 fw-bolder">
+	<span class="pe-2 me-2"><i class="fa-solid fa-right-to-bracket"></i></span>
+	Login Locally
+</div>
+EOHTML;
+		return Blade::render($html);
+	}
+	
+	/**
+	 * @inheritDoc
+	 */
+	public function canConnect(Person $person): bool
+	{
+		return true;
+	}
+	
 	/**
 	 * @inheritDoc
 	 */
@@ -90,12 +106,6 @@ class LocalAuthService extends LmsIntegrationService
 		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.auth.index');
 	}
 	
-	public static function canBeConfigured(): bool
-	{
-		return true;
-	}
-	
-	
 	public function systemAutoconnect(): bool
 	{
 		return false;
@@ -104,17 +114,6 @@ class LocalAuthService extends LmsIntegrationService
 	public function canSystemConnect(): bool
 	{
 		return false;
-	}
-	
-	public static function loginButton(): string
-	{
-		$html = <<< EOHTML
-<div class="border border-dark rounded-4 text-bg-secondary fs-5 p-2 fw-bolder">
-	<span class="pe-2 me-2"><i class="fa-solid fa-right-to-bracket"></i></span>
-	Login Locally
-</div>
-EOHTML;
-		return Blade::render($html);
 	}
 	
 	public function canRegister(): bool

@@ -42,14 +42,16 @@ class LocalDocumentStorage extends DocumentStorage
 		if($directory && $directory->isFolder)
 			$folderPath = "/" . $directory->path;
 		foreach(Storage::disk(config('lms.storage.documents'))
-		               ->directories($basePath . $folderPath) as $file) {
+		               ->directories($basePath . $folderPath) as $file)
+		{
 			$fPath = str_replace($basePath, "", $file);
 			$f = $this->createDocumentFile($person, $fPath);
 			if($f)
 				$files[] = $f;
 		}
 		foreach(Storage::disk(config('lms.storage.documents'))
-		               ->files($basePath . $folderPath) as $file) {
+		               ->files($basePath . $folderPath) as $file)
+		{
 			$fPath = str_replace($basePath, "", $file);
 			$f = $this->createDocumentFile($person, $fPath);
 			if($f && (in_array($f->mimeType, $mimeFilter) || count($mimeFilter) === 0))
@@ -118,7 +120,8 @@ class LocalDocumentStorage extends DocumentStorage
 		$realpath = $basePath . $file->path;
 		if(!File::exists($realpath) ||
 			File::isDirectory($realpath) ||
-			(substr(File::mimeType($realpath), 0, 5) === 'image/')) {
+			(substr(File::mimeType($realpath), 0, 5) === 'image/'))
+		{
 			return LocalDocumentStorage::UNKN_PREVIEW;
 		}
 		

@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 trait SingleAddressable
 {
-    public function address(): BelongsTo
-    {
-        return $this->belongsTo(Address::class, 'address_id');
-    }
-
-    public function isSingleAddressable(): bool
-    {
-        return true;
-    }
+	public function address(): BelongsTo
+	{
+		return $this->belongsTo(Address::class, 'address_id');
+	}
+	
+	public function isSingleAddressable(): bool
+	{
+		return true;
+	}
 }

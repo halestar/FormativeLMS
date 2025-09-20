@@ -36,6 +36,6 @@
         </form>
     </div>
     <div class="col-md-8">
-        <livewire:storage.mime-configuration />
+        <livewire:storage.mime-configuration/>
     </div>
 </div>

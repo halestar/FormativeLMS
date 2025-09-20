@@ -17,60 +17,65 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 #[ScopedBy(OrderByNameScope::class)]
 class Building extends Model
 {
-    use HasFactory, Phoneable, SingleAddressable;
-    public $timestamps = true;
-    protected $table = "buildings";
-    protected $primaryKey = "id";
-    public $incrementing = true;
-    protected $fillable =
-        [
-            'name',
-            'img',
-        ];
-
-    protected function casts(): array
-    {
-        return
-            [
-                'name' => 'string',
-            ];
-    }
-
-    public function buildingAreas(): HasMany
-    {
-        return $this->hasMany(BuildingArea::class, 'building_id');
-    }
-
-    public function canDelete(): bool
-    {
-        return ($this->buildingAreas()->count() == 0);
-    }
-
-    public function schoolAreas(): BelongsToMany
-    {
-        return $this->belongsToMany(SchoolArea::class, 'buildings_areas', 'building_id', 'area_id');
-    }
-
-    public function rooms(): HasManyThrough
-    {
-        return $this->hasManyThrough(Room::class, BuildingArea::class, 'building_id', 'area_id');
-    }
-
-    public function canRemoveArea(SchoolArea $area): bool
-    {
-        $buildingArea = $this->buildingAreas()->where('area_id', $area->id)->first();
-        if(!$buildingArea)
-            return true;
-        if($buildingArea->rooms()->count() > 0)
-            return false;
-        return true;
-    }
-
-    public function img(): Attribute
-    {
-        return Attribute::make
-        (
-            get: fn(?string $img) => $img?? asset('images/campus_img_placeholder.png'),
-        );
-    }
+	use HasFactory, Phoneable, SingleAddressable;
+	
+	public $timestamps = true;
+	public $incrementing = true;
+	protected $table = "buildings";
+	protected $primaryKey = "id";
+	protected $fillable =
+		[
+			'name',
+			'img',
+		];
+	
+	public function canDelete(): bool
+	{
+		return ($this->buildingAreas()
+		             ->count() == 0);
+	}
+	
+	public function buildingAreas(): HasMany
+	{
+		return $this->hasMany(BuildingArea::class, 'building_id');
+	}
+	
+	public function schoolAreas(): BelongsToMany
+	{
+		return $this->belongsToMany(SchoolArea::class, 'buildings_areas', 'building_id', 'area_id');
+	}
+	
+	public function canRemoveArea(SchoolArea $area): bool
+	{
+		$buildingArea = $this->buildingAreas()
+		                     ->where('area_id', $area->id)
+		                     ->first();
+		if(!$buildingArea)
+			return true;
+		if($buildingArea->rooms()
+		                ->count() > 0)
+			return false;
+		return true;
+	}
+	
+	public function rooms(): HasManyThrough
+	{
+		return $this->hasManyThrough(Room::class, BuildingArea::class, 'building_id', 'area_id');
+	}
+	
+	public function img(): Attribute
+	{
+		return Attribute::make
+		(
+			get: fn(?string $img) => $img ?? asset('images/campus_img_placeholder.png'),
+		);
+	}
+	
+	protected function casts(): array
+	{
+		return
+			[
+				'name' => 'string',
+			];
+	}
 }

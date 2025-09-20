@@ -3,7 +3,8 @@
 @section('integrator-content')
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-10 mx-auto" x-data="{ disabled: {{ $service->inherit_permissions? 'true': 'false' }} }">
+            <div class="col-lg-8 col-md-10 mx-auto"
+                 x-data="{ disabled: {{ $service->inherit_permissions? 'true': 'false' }} }">
                 <livewire:utilities.model-switch
                         :model="$service"
                         property="inherit_permissions"
@@ -15,7 +16,8 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8 col-md-10 mx-auto">
-                <livewire:role-assigner :attachObj="$service" editor-only="true" :disabled="$service->inherit_permissions" />
+                <livewire:role-assigner :attachObj="$service" editor-only="true"
+                                        :disabled="$service->inherit_permissions"/>
             </div>
         </div>
     </div>

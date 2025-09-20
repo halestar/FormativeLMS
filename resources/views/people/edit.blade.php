@@ -14,11 +14,13 @@
                                 alt="{{ __('people.profile.image') }}"
                         />
                         @if(!$isSelf || $self->canEditOwnField('portrait'))
-                            <form id="portrait_form" action="{{ route('people.update.portrait', ['person' => $person->school_id]) }}" method="POST" enctype="multipart/form-data">
+                            <form id="portrait_form"
+                                  action="{{ route('people.update.portrait', ['person' => $person->school_id]) }}"
+                                  method="POST" enctype="multipart/form-data">
                                 @csrf
                                 <div class="file btn btn-lg btn-dark">
                                     {{ __('people.profile.image.update') }}
-                                    <input type="file" name="portrait" onchange="$('#portrait_form').submit()" />
+                                    <input type="file" name="portrait" onchange="$('#portrait_form').submit()"/>
                                 </div>
                             </form>
                             @if($person->hasPortrait())
@@ -33,7 +35,7 @@
                     </div>
                     {{-- Personal Settings and Links --}}
                     <div class="profile-work">
-                        <livewire:auth.user-auth-manager :person="$person" />
+                        <livewire:auth.user-auth-manager :person="$person"/>
                     </div>
                 </div>
             </div>
@@ -46,12 +48,12 @@
                             <h5>
                                 {{ $person->name }}
                             </h5>
-                            <livewire:role-assigner :attachObj="$person" />
+                            <livewire:role-assigner :attachObj="$person"/>
                             @if($person->isEmployee())
-                                <livewire:people.campus-assigner :person="$person" />
+                                <livewire:people.campus-assigner :person="$person"/>
                             @endif
                             @if($person->isStudent() || $person->hasRole(\App\Models\Utilities\SchoolRoles::$OLD_STUDENT))
-                                <livewire:people.student-record-manager :person="$person" />
+                                <livewire:people.student-record-manager :person="$person"/>
                             @endif
                         </div>
                     </div>
@@ -135,16 +137,19 @@
                             aria-labelledby="tab-basic"
                             tabindex="0"
                     >
-                        <form action="{{ route('people.update.basic', ['person' => $person->school_id]) }}" method="POST">
+                        <form action="{{ route('people.update.basic', ['person' => $person->school_id]) }}"
+                              method="POST">
                             @csrf
                             @method('PUT')
                             <ul class="list-group">
                                 @if(!$isSelf || $self->canEditOwnField('first'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <label for="first" class="col-form-label">{{ __('people.profile.fields.first') }}</label>
+                                            <label for="first"
+                                                   class="col-form-label">{{ __('people.profile.fields.first') }}</label>
                                             <span class="w-50">
-                                            <input type="text" name="first" id="first" value="{{ $person->first }}" class="form-control form-control-sm text-end" />
+                                            <input type="text" name="first" id="first" value="{{ $person->first }}"
+                                                   class="form-control form-control-sm text-end"/>
                                         </span>
                                         </div>
                                     </li>
@@ -152,9 +157,11 @@
                                 @if(!$isSelf || $self->canEditOwnField('middle'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <label for="middle" class="col-form-label">{{ __('people.profile.fields.middle') }}</label>
+                                            <label for="middle"
+                                                   class="col-form-label">{{ __('people.profile.fields.middle') }}</label>
                                             <span class="w-50">
-                                            <input type="text" name="middle" id="middle" value="{{ $person->middle }}" class="form-control form-control-sm text-end" />
+                                            <input type="text" name="middle" id="middle" value="{{ $person->middle }}"
+                                                   class="form-control form-control-sm text-end"/>
                                         </span>
                                         </div>
                                     </li>
@@ -162,14 +169,15 @@
                                 @if(!$isSelf || $self->canEditOwnField('last'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <label for="last" class="col-form-label">{{ __('people.profile.fields.last') }}</label>
+                                            <label for="last"
+                                                   class="col-form-label">{{ __('people.profile.fields.last') }}</label>
                                             <span class="w-50">
                                             <input
                                                     type="text"
                                                     name="last"
                                                     id="last"
                                                     value="{{ $person->last }}"
-                                                    class="form-control form-control-sm @error('last') is-invalid @enderror text-end" />
+                                                    class="form-control form-control-sm @error('last') is-invalid @enderror text-end"/>
                                             <x-error-display key="last">{{ $errors->first('last') }}</x-error-display>
                                         </span>
                                         </div>
@@ -178,9 +186,11 @@
                                 @if(!$isSelf || $self->canEditOwnField('nick'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <label for="nick" class="col-form-label">{{ __('people.profile.fields.nick') }}</label>
+                                            <label for="nick"
+                                                   class="col-form-label">{{ __('people.profile.fields.nick') }}</label>
                                             <span class="w-50">
-                                            <input type="text" name="nick" id="nick" value="{{ $person->nick }}" class="form-control form-control-sm text-end" />
+                                            <input type="text" name="nick" id="nick" value="{{ $person->nick }}"
+                                                   class="form-control form-control-sm text-end"/>
                                         </span>
                                         </div>
                                     </li>
@@ -188,9 +198,11 @@
                                 @if(!$isSelf || $self->canEditOwnField('email'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <label for="email" class="col-form-label">{{ __('people.profile.fields.email') }}</label>
+                                            <label for="email"
+                                                   class="col-form-label">{{ __('people.profile.fields.email') }}</label>
                                             <span class="w-50">
-                                            <input type="email" name="email" id="email" value="{{ $person->email }}" class="form-control form-control-sm text-end" />
+                                            <input type="email" name="email" id="email" value="{{ $person->email }}"
+                                                   class="form-control form-control-sm text-end"/>
                                         </span>
                                         </div>
                                     </li>
@@ -198,16 +210,20 @@
                                 @if(!$isSelf || $self->canEditOwnField('dob'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
-                                            <label for="dob" class="col-form-label">{{ __('people.profile.fields.dob') }}</label>
+                                            <label for="dob"
+                                                   class="col-form-label">{{ __('people.profile.fields.dob') }}</label>
                                             <span class="w-50">
-                                            <input type="date" name="dob" id="dob" value="{{ $person->dob? $person->dob->format('Y-m-d'): "" }}" class="form-control form-control-sm text-end" />
+                                            <input type="date" name="dob" id="dob"
+                                                   value="{{ $person->dob? $person->dob->format('Y-m-d'): "" }}"
+                                                   class="form-control form-control-sm text-end"/>
                                         </span>
                                         </div>
                                     </li>
                                 @endif
                             </ul>
                             <div class="row">
-                                <button type="submit" class="btn btn-primary col mt-3">{{ __('people.profile.basic.update') }}</button>
+                                <button type="submit"
+                                        class="btn btn-primary col mt-3">{{ __('people.profile.basic.update') }}</button>
                             </div>
                         </form>
                     </div>
@@ -220,12 +236,12 @@
                     >
                         <div class="mb-3 p-1">
                             @if(!$isSelf || $self->canEditOwnField('addresses'))
-                                <livewire:address-editor :addressable="$person" />
+                                <livewire:address-editor :addressable="$person"/>
                             @endif
                         </div>
                         <div class="mb-3 p-1">
                             @if(!$isSelf || $self->canEditOwnField('phones'))
-                                <livewire:phone-editor :phoneable="$person" />
+                                <livewire:phone-editor :phoneable="$person"/>
                             @endif
                         </div>
                     </div>
@@ -238,7 +254,7 @@
                     >
                         <div class="mb-3 p-1">
                             @if(!$isSelf || $self->canEditOwnField('relationships'))
-                                <livewire:relationship-creator :person="$person" />
+                                <livewire:relationship-creator :person="$person"/>
                             @endif
                         </div>
                     </div>
@@ -246,10 +262,12 @@
                         @if(count($role->fields) > 0)
                             <div
                                     class="tab-pane fade"
-                                    id="tab-pane-role-{{ $role->id }}" role="tabpanel" aria-labelledby="tab-role-{{ $role->id }}"
+                                    id="tab-pane-role-{{ $role->id }}" role="tabpanel"
+                                    aria-labelledby="tab-role-{{ $role->id }}"
                                     tabindex="{{ $loop->iteration + 10 }}"
                             >
-                                <form action="{{ route('people.roles.fields.update', ['person' => $person->school_id, 'role' => $role->id]) }}" method="POST">
+                                <form action="{{ route('people.roles.fields.update', ['person' => $person->school_id, 'role' => $role->id]) }}"
+                                      method="POST">
                                     @csrf
                                     @method('PUT')
                                     <ul class="list-group my-3">
@@ -262,7 +280,8 @@
                                         @endforeach
                                     </ul>
                                     <div class="d-grid gap-2">
-                                        <button class="btn btn-primary" type="submit">{{ __('people.profile.fields.update') }}</button>
+                                        <button class="btn btn-primary"
+                                                type="submit">{{ __('people.profile.fields.update') }}</button>
                                     </div>
                                 </form>
                             </div>

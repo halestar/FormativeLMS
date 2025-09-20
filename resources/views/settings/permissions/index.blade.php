@@ -6,37 +6,39 @@
             <div class="accordion-item">
                 <h3 class="accordion-header">
                     <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#cat_{{ $category->id }}"
-                        aria-expanded="false"
-                        aria-controls="cat_{{ $category->id }}"
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#cat_{{ $category->id }}"
+                            aria-expanded="false"
+                            aria-controls="cat_{{ $category->id }}"
                     >
                         {{ $category->name }}
                     </button>
                 </h3>
-                <div id="cat_{{ $category->id }}" class="accordion-collapse collapse" data-bs-parent="#permissions_container">
+                <div id="cat_{{ $category->id }}" class="accordion-collapse collapse"
+                     data-bs-parent="#permissions_container">
                     <div class="accordion-body">
                         <div class="list-group list-group-flush">
-                        @foreach($category->permissions as $permission)
-                            <a
-                                @can('settings.permissions.edit')
-                                href="{{ route('settings.permissions.edit', ['permission' => $permission->id]) }}"
-                                @else
-                                    href="#"
-                                @endcan
-                                class="list-group-item list-group-item-action"
-                            >
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <span class="permission-name">{{ $permission->name }}</span>
-                                    <span class="text-muted text-sm">{{ $permission->description }}</span>
-                                </div>
-                                @if($permission->roles()->count() > 0)
-                                <strong>{{ __('settings.roles') }}:</strong> {{ $permission->roles->pluck('name')->join(', ') }}
-                                @endif
-                            </a>
-                        @endforeach
+                            @foreach($category->permissions as $permission)
+                                <a
+                                        @can('settings.permissions.edit')
+                                            href="{{ route('settings.permissions.edit', ['permission' => $permission->id]) }}"
+                                        @else
+                                            href="#"
+                                        @endcan
+                                        class="list-group-item list-group-item-action"
+                                >
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="permission-name">{{ $permission->name }}</span>
+                                        <span class="text-muted text-sm">{{ $permission->description }}</span>
+                                    </div>
+                                    @if($permission->roles()->count() > 0)
+                                        <strong>{{ __('settings.roles') }}
+                                            :</strong> {{ $permission->roles->pluck('name')->join(', ') }}
+                                    @endif
+                                </a>
+                            @endforeach
                         </div>
                     </div>
                 </div>

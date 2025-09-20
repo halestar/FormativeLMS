@@ -13,15 +13,15 @@ use Illuminate\Support\Facades\Log;
 
 class AuthSettings extends SystemSetting
 {
-	protected function casts():array
-	{
-		return [
-			'priorities' => AuthPriorities::class,
-		];
-	}
-
 	protected static string $settingKey = "auth";
-
+	
+	public static function applyAuthenticationPriorities()
+	{
+		//we reset all the auth to null
+		Person::query()
+		      ->update(['auth_connection_id' => null]);
+	}
+	
 	protected static function defaultValue(): array
 	{
 		return
@@ -33,36 +33,33 @@ class AuthSettings extends SystemSetting
 				"priorities" => [AuthenticationDesignation::makeDefaultDesignation()],
 			];
 	}
-
+	
 	public function minPasswordLength(): Attribute
 	{
 		return $this->basicProperty('min_password_length');
 	}
+	
 	public function numbers(): Attribute
 	{
 		return $this->basicProperty('numbers');
 	}
+	
 	public function upper(): Attribute
 	{
 		return $this->basicProperty('upper');
 	}
+	
 	public function symbols(): Attribute
 	{
 		return $this->basicProperty('symbols');
 	}
-
-	public static function applyAuthenticationPriorities()
-	{
-		//we reset all the auth to null
-		Person::query()->update(['auth_connection_id' => null]);
-	}
-
+	
 	public function determineAuthentication(Person $person): IntegrationService|Collection
 	{
 		$priorities = $this->priorities;
 		Log::info('priorities: ' . print_r($priorities, true));
 		//determine the default priority and assign it.
-		$defaultPriority = $priorities[0]?? AuthenticationDesignation::makeDefaultDesignation();
+		$defaultPriority = $priorities[0] ?? AuthenticationDesignation::makeDefaultDesignation();
 		$services = $defaultPriority->services;
 		//next we through all the priorities starting at 1 (if they exists), and exit when we
 		//find the first priority that this user applies to.
@@ -70,5 +67,12 @@ class AuthSettings extends SystemSetting
 			if($priorities[$i]->appliesToPerson($person)) return $priorities[$i]->services;
 		return $services;
 	}
-
+	
+	protected function casts(): array
+	{
+		return [
+			'priorities' => AuthPriorities::class,
+		];
+	}
+	
 }

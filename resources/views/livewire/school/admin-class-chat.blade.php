@@ -3,8 +3,10 @@
         <div class="row h-100">
             <div class="col-md-6 col-lg-5 col-xl-4 mb-4 mb-md-0 p-3 h-100 d-flex flex-column">
                 <div class="input-group mb-3">
-                    <label for="session-select" class="input-group-text">{{ __('school.student.tracking.current') }}</label>
-                    <select id="session-select" wire:model="selectedStudentId" class="form-select" wire:change="setStudent()">
+                    <label for="session-select"
+                           class="input-group-text">{{ __('school.student.tracking.current') }}</label>
+                    <select id="session-select" wire:model="selectedStudentId" class="form-select"
+                            wire:change="setStudent()">
                         @foreach($students as $tracked)
                             <option value="{{ $tracked->id }}">{{ $tracked->name }}</option>
                         @endforeach
@@ -14,25 +16,25 @@
                     <ul class="list-group list-group-flush">
                         @foreach($sessions as $rosterSession)
                             <li
-                                class="rounded list-group-item list-group-item-action show-as-action p-2 border-bottom d-flex justify-content-between @if($session && $session->id == $rosterSession->id) active @endif"
-                                wire:click="setSession({{ $rosterSession->id }})"
-                                wire:key="{{ $rosterSession->id }}"
+                                    class="rounded list-group-item list-group-item-action show-as-action p-2 border-bottom d-flex justify-content-between @if($session && $session->id == $rosterSession->id) active @endif"
+                                    wire:click="setSession({{ $rosterSession->id }})"
+                                    wire:key="{{ $rosterSession->id }}"
                             >
                                 <div class="d-flex flex-row">
                                     <div class="avatar-list-container">
                                         @if($rosterSession->teachers->count() > 1)
                                             @foreach($rosterSession->teachers as $teacher)
                                                 <img
-                                                    src="{{ $teacher->thumbnail_url }}"
-                                                    alt="{{ $teacher->name }}"
-                                                    class="d-flex align-self-center me-3 person-thumbnail rounded-circle avatar-list-item avatar-img-normal"
+                                                        src="{{ $teacher->thumbnail_url }}"
+                                                        alt="{{ $teacher->name }}"
+                                                        class="d-flex align-self-center me-3 person-thumbnail rounded-circle avatar-list-item avatar-img-normal"
                                                 />
                                             @endforeach
                                         @else
                                             <img
-                                                src="{{ $rosterSession->teachers->first()->thumbnail_url }}"
-                                                alt="{{ $rosterSession->teachers->first()->name }}"
-                                                class="d-flex align-self-center me-3 person-thumbnail rounded-circle avatar-list-item avatar-img-normal"
+                                                    src="{{ $rosterSession->teachers->first()->thumbnail_url }}"
+                                                    alt="{{ $rosterSession->teachers->first()->name }}"
+                                                    class="d-flex align-self-center me-3 person-thumbnail rounded-circle avatar-list-item avatar-img-normal"
                                             />
                                         @endif
                                     </div>
@@ -58,7 +60,7 @@
                 </div>
             </div>
             @if($selectedStudent && $session)
-                <livewire:school.class-chat :session="$session" :student="$selectedStudent" :key="$session->id" />
+                <livewire:school.class-chat :session="$session" :student="$selectedStudent" :key="$session->id"/>
             @endif
         </div>
     </div>
