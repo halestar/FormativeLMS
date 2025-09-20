@@ -5,6 +5,7 @@ namespace App\Classes\Storage\Document;
 use App\Classes\Storage\DocumentFile;
 use App\Classes\Storage\ExportFile;
 use App\Models\People\Person;
+use App\Models\Utilities\MimeType;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
@@ -66,8 +67,8 @@ class LocalDocumentStorage extends DocumentStorage
 		if(!File::exists($realpath)) return null;
 		$isDir = File::isDirectory($realpath);
 		$mimeType = File::mimeType($realpath);
-		$icon = $isDir ? config('file_icons.folder', '') :
-			config('file_icons.' . $mimeType, config('file_icons.default', ''));
+		$icon = $isDir ? MimeType::FOLDER_HTML :
+			MimeType::find($mimeType)->icon;
 		$canPreview = !$isDir && (substr($mimeType, 0, 6) === 'image/');
 		$file = new DocumentFile
 		(

@@ -2,9 +2,13 @@
 
 namespace App\Livewire\Storage;
 
-use App\Classes\Settings\StorageSettings;
 use App\Classes\Storage\DocumentFile;
+use App\Enums\IntegratorServiceTypes;
+use App\Models\Integrations\IntegrationService;
 use App\Models\People\Person;
+use App\Models\Utilities\MimeType;
+use Illuminate\Support\Collection;
+use Illuminate\Validation\Rules\File;
 use Livewire\Attributes\On;
 use Livewire\Component;
 use Livewire\WithFileUploads;
@@ -14,16 +18,15 @@ class DocumentStorageBrowser extends Component
 	use WithFileUploads;
 	
 	public bool $init = false;
-	public Person $user;
-	public StorageSettings $storageSettings;
-	public array $documentStorages = [];
+	public ?Person $user = null;
+	public Collection $connections;
 	public bool $open = false;
 	public bool $multiple = false;
 	public bool $allowUpload = false;
 	public array $mimeTypes = [];
 	public bool $canSelectFolders = false;
 	public array $tabs = [];
-	public string $selectedTab = '';
+	public int $selectedService = -1;
 	public $uploadedFiles;
 	public string $cb_instance;
 	public string $browserKey;
@@ -33,13 +36,15 @@ class DocumentStorageBrowser extends Component
 	#[On('document-storage-browser.open-browser')]
 	public function open(array $config = null)
 	{
-		if(!isset($config['cb_instance']) || $config['cb_instance'] == null || $config['cb_instance'] == '') {
+		if(!isset($config['cb_instance']) || $config['cb_instance'] == null || $config['cb_instance'] == '')
+		{
 			$this->failOpen('cb_instance is not set');
 			return;
 		}
 		$this->cb_instance = $config['cb_instance'];
 		$this->multiple = $config['multiple'] ?? false;
-		$this->mimeTypes = $config['mimetypes'] ?? [];
+		$this->mimeTypes = (isset($config['mimetypes']) && is_array($config['mimetypes']))?
+			array_intersect($config['mimetypes'], MimeType::allowedMimeTypes()): MimeType::allowedMimeTypes();
 		$this->allowUpload = $config['allowUpload'] ?? false;
 		$this->canSelectFolders = $config['canSelectFolders'] ?? false;
 		if($this->multiple)
@@ -57,25 +62,30 @@ class DocumentStorageBrowser extends Component
 	private function init()
 	{
 		$this->user = auth()->user();
-		$this->storageSettings = app()->make(StorageSettings::class);
-		//either this is an employee or a student.  At least for now.
-		if($this->user->isEmployee())
-			$this->documentStorages = $this->storageSettings->employee_documents;
-		elseif($this->user->isStudent())
-			$this->documentStorages = $this->storageSettings->student_documents;
-		//add the tabs
-		foreach($this->documentStorages as $storage)
-			$this->tabs[$storage->instanceProperty] = $storage::prettyName();
+		$services = IntegrationService::personal()
+		                              ->ofType(IntegratorServiceTypes::DOCUMENTS)
+		                              ->get();
+		$this->connections = new Collection();
+		$this->tabs = [];
+		foreach($services as $service)
+		{
+			$connection = $service->connect($this->user);
+			if($connection)
+			{
+				$this->connections[$service->id] = $connection;
+				$this->tabs[$service->id] = $connection->service->name;
+			}
+		}
 		if($this->allowUpload)
-			$this->tabs['upload'] = __('storage.documents.file.upload');
+			$this->tabs['0'] = __('storage.documents.file.upload');
 		$array = array_keys($this->tabs);
-		$this->selectedTab = reset($array);
+		$this->selectedService = reset($array);
 		$this->init = true;
 	}
 	
-	public function setTab(string $tab)
+	public function setTab(int $service_id)
 	{
-		$this->selectedTab = $tab;
+		$this->selectedService = $service_id;
 		if($this->multiple)
 			$this->selectedItems = [];
 		else
@@ -92,8 +102,10 @@ class DocumentStorageBrowser extends Component
 			$this->selectedItems = null;
 		elseif(!is_array($selected_items))
 			$this->selectedItems = null;
-		else {
-			if($this->multiple) {
+		else
+		{
+			if($this->multiple)
+			{
 				$this->selectedItems = [];
 				foreach($selected_items as $item)
 					$this->selectedItems[] = DocumentFile::hydrate($item);
@@ -103,16 +115,28 @@ class DocumentStorageBrowser extends Component
 		}
 	}
 	
+	protected function rules()
+	{
+		return [
+			'uploadedFiles' => File::types(MimeType::allowedMimeTypes())
+									->max(12 * 1024),
+		];
+	}
+	
 	public function uploadFiles()
 	{
-		if(is_array($this->uploadedFiles)) {
-			if(!$this->multiple) {
+		$this->validate();
+		$this->selectedItems = [];
+		if(is_array($this->uploadedFiles))
+		{
+			if(!$this->multiple)
+			{
 				$this->dispatch('document-storage-browser.error', message: __('errors.storage.files.multiple'));
 				return;
 			}
-			$this->selectedItems = [];
 			//first, since we're uploading multiple files, we will need to go through each one.
-			foreach($this->uploadedFiles as $file) {
+			foreach($this->uploadedFiles as $file)
+			{
 				//make sure our mime type allows it
 				if(count($this->mimeTypes) > 0 && !in_array($file->getMimeType(), $this->mimeTypes))
 					continue;
@@ -120,8 +144,9 @@ class DocumentStorageBrowser extends Component
 			}
 		}
 		elseif(count($this->mimeTypes) == 0 || in_array($this->uploads->getMimeType(), $this->mimeTypes))
-			$this->selectedItems = DocumentFile::fromUploadedFile($this->uploadedFiles);
-		else {
+			$this->selectedItems[] = DocumentFile::fromUploadedFile($this->uploadedFiles);
+		else
+		{
 			$this->dispatch('document-storage-browser.error', message: __('errors.storage.files.mimetype'));
 			return;
 		}

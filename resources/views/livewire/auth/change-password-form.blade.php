@@ -1,4 +1,9 @@
 <form wire:submit="resetPassword">
+    @if($mustChangePassword)
+        <div class="alert alert-warning mb-3">
+            {{ __('passwords.change.must') }}
+        </div>
+    @endif
     <div class="row mb-3">
         <div class="col-md-8 align-content-center">
             @if($authFirst)

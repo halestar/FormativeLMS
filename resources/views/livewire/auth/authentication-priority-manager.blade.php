@@ -1,4 +1,5 @@
 <div>
+    @inject('manager', 'App\Classes\Integrators\IntegrationsManager')
     @if($editing)
     <div class="border-bottom d-flex justify-content-between align-items-center mb-3">
         <h3>{{ __('settings.auth.priorities') }}</h3>
@@ -21,40 +22,38 @@
                                 <span class="input-group-text">{{ __('settings.auth.priorities.modules.use') }}</span>
                                 <select
                                         class="form-select"
-                                        wire:change="updateAuthentication(0, $event.target.value, $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get())"
+                                        wire:change="updateAuthentication(0, ($event.target.value === 'choose'? $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get(): $event.target.value))"
                                 >
                                     <option value="">{{ __('settings.auth.priorities.modules.select') }}</option>
-                                    @foreach(\App\Classes\Auth\Authenticator::all() as $module => $moduleClass)
+                                    @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
                                         <option
-                                                value="{{ $module }}"
-                                                @selected(!is_array($priorities[0]->authModules) && $priorities[0]->authModules == $module)
-                                        >{{ ($moduleClass)::driverPrettyName() }}</option>
+                                                value="{{ $service->id }}"
+                                                @selected(!$priorities[0]->isChoice() && $priorities[0]->services->id == $service->id)
+                                        >{{ $service->name }}</option>
                                     @endforeach
                                     <option
                                             value="choose"
-                                            @if(is_array($priorities[0]->authModules))
-                                                selected
-                                            @endif
+                                            @selected($priorities[0]->isChoice())
                                     >{{ __('settings.auth.priorities.modules.choose') }}</option>
                                 </select>
                             </div>
-                            @if(is_array($priorities[0]->authModules))
+                            @if($priorities[0]->isChoice())
                                 <div class="alert alert-info p-3">
                                     <div class="row row-cols-3">
-                                        @foreach(\App\Classes\Auth\Authenticator::all() as $module => $moduleClass)
+                                        @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
                                             <div class="form-check col">
                                                 <input
                                                         type="checkbox"
                                                         class="form-check-input"
                                                         name="choose_auth_0"
-                                                        id="choose_auth_0_{{ $module }}"
-                                                        value="{{ $module }}"
-                                                        @checked(in_array($module, $priorities[0]->authModules))
-                                                        wire:click="updateAuthentication(0, 'choose', $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get())"
+                                                        id="choose_auth_0_{{ $service->id }}"
+                                                        value="{{ $service->id }}"
+                                                        @checked($priorities[0]->services->where('id', '=', $service->id)->count() > 0)
+                                                        wire:click="updateAuthentication(0, $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get())"
                                                 >
                                                 <label class="form-check-label"
-                                                       for="choose_auth_0_{{ $module }}">
-                                                    {{ ($moduleClass)::driverPrettyName() }}
+                                                       for="choose_auth_0_{{ $service->id }}">
+                                                    {{ $service->name }}
                                                 </label>
                                             </div>
                                         @endforeach
@@ -119,38 +118,38 @@
                                 <span class="input-group-text">{{ __('settings.auth.priorities.modules.use') }}</span>
                                 <select
                                         class="form-select"
-                                        wire:change="updateAuthentication({{ $priority->priority }}, $event.target.value, $('input[name=choose_auth_{{ $priority->priority }}]:checked').map((i, e) => $(e).val()).get())"
+                                        wire:change="updateAuthentication({{ $priority->priority }}, ($event.target.value === 'choose'? $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get(): $event.target.value))"
                                 >
                                     <option value="">{{ __('settings.auth.priorities.modules.select') }}</option>
-                                    @foreach(\App\Classes\Auth\Authenticator::all() as $module => $moduleClass)
+                                    @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
                                         <option
-                                                value="{{ $module }}"
-                                                @selected(!is_array($priority->authModules) && $priority->authModules == $module)
-                                        >{{ ($moduleClass)::driverPrettyName() }}</option>
+                                                value="{{ $service->id }}"
+                                                @selected(!$priority->isChoice() && $priority->services->id == $service->id)
+                                        >{{ $service->name }}</option>
                                     @endforeach
                                     <option
                                             value="choose"
-                                            @selected(is_array($priority->authModules))
+                                            @selected($priority->isChoice())
                                     >{{ __('settings.auth.priorities.modules.choose') }}</option>
                                 </select>
                             </div>
-                            @if(is_array($priority->authModules))
+                            @if($priority->isChoice())
                             <div class="alert alert-info p-3">
                                 <div class="row row-cols-3">
-                                    @foreach(\App\Classes\Auth\Authenticator::all() as $module => $moduleClass)
+                                    @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
                                         <div class="form-check col">
                                             <input
                                                     type="checkbox"
                                                     class="form-check-input"
                                                     name="choose_auth_{{ $priority->priority }}"
-                                                    id="choose_auth_{{ $priority->priority }}_{{ $module }}"
-                                                    value="{{ $module }}"
-                                                    @checked(in_array($module, $priority->authModules))
-                                                    wire:click="updateAuthentication({{ $priority->priority }}, 'choose', $('input[name=choose_auth_{{ $priority->priority }}]:checked').map((i, e) => $(e).val()).get())"
+                                                    id="choose_auth_{{ $priority->priority }}_{{ $service->id }}"
+                                                    value="{{ $service->id }}"
+                                                    @checked($priorities[0]->services->where('id', '=', $service->id)->count() > 0)
+                                                    wire:click="updateAuthentication({{ $priority->priority }}, $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get())"
                                             >
                                             <label class="form-check-label"
-                                                   for="choose_auth_{{ $priority->priority }}_{{ $module }}">
-                                                {{ ($moduleClass)::driverPrettyName() }}
+                                                   for="choose_auth_{{ $priority->priority }}_{{ $service->id }}">
+                                                {{ $service->name }}
                                             </label>
                                         </div>
                                     @endforeach
@@ -198,10 +197,10 @@
                     {{ __('settings.auth.priorities.description', ['roles' => implode(', ', $priority->roles)]) }}
                 </h5>
                 <h6>
-                    @if(is_array($priority->authModules))
-                        [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priority->prettyModules()]) }} ]
+                    @if($priority->isChoice())
+                        [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priority->prettyServices()]) }} ]
                     @else
-                        [ {{ __('settings.auth.priorities.modules.description', ['module' => $priority->prettyModules()]) }} ]
+                        [ {{ __('settings.auth.priorities.modules.description', ['module' => $priority->prettyServices()]) }} ]
                     @endif
                 </h6>
             </div>
@@ -211,10 +210,10 @@
                 {{ __('settings.auth.priorities.default') }}: {{ __('settings.auth.priorities.default.help') }}
             </h5>
             <h6>
-                @if(is_array($priority->authModules))
-                    [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priority->prettyModules()]) }} ]
+                @if($priority->isChoice())
+                    [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priority->prettyServices()]) }} ]
                 @else
-                    [ {{ __('settings.auth.priorities.modules.description', ['module' => $priority->prettyModules()]) }} ]
+                    [ {{ __('settings.auth.priorities.modules.description', ['module' => $priority->prettyServices()]) }} ]
                 @endif
             </h6>
         </div>

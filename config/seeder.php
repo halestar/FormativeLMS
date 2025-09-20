@@ -6,7 +6,7 @@ return
 		'admin_last' => env('ADMIN_LAST', 'Kalinec'),
 		'admin_email' => env('ADMIN_EMAIL', 'fablms@kalinec.net'),
 		'admin_password' => env('ADMIN_PASSWORD'),
-		'admin_auth' => env('ADMIN_AUTH', 'google'),
+		'admin_auth' => env('ADMIN_AUTH', 'local'),
 		'admin_portrait' => env('ADMIN_PORTRAIT'),
 		
 		'admin1' =>

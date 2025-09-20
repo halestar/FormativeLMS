@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Enums\IntegratorServiceTypes;
 use App\Models\CRUD\Relationship;
+use App\Models\Integrations\IntegrationService;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
 use App\Models\People\Person;
@@ -18,6 +20,15 @@ class AdminSeeder extends Seeder
     public function run(): void
     {
         //first, we add the super admin
+	    //is there an auth set?
+	    if(config('seeder.admin_auth', false))
+	    {
+			$authService = IntegrationService::select('integration_services.*')
+				->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
+				->where('integrators.path', config('seeder.admin_auth'))
+				->where('integration_services.service_type', IntegratorServiceTypes::AUTHENTICATION)
+				->first();
+	    }
         $admin = Person::create(
             [
 	            'first' => config('seeder.admin_first'),
@@ -28,16 +39,23 @@ class AdminSeeder extends Seeder
                 'dob' => "1969-06-09",
 	            'portrait_url' => config('seeder.admin_portrait'),
                 'school_id' => 1,
-	            'auth_driver' => config('seeder.admin_auth'),
             ]);
 		$admin->refresh();
-        $admin->assignRole(SchoolRoles::$ADMIN);
-        $admin->assignRole(SchoolRoles::$EMPLOYEE);
-        $admin->assignRole(SchoolRoles::$STAFF);
-	    if(config('seeder.admin_auth') == "local")
-		    $admin->auth_driver->setPassword(config('seeder.admin_pass'));
-
-
+        $admin->assignRole([SchoolRoles::$ADMIN, SchoolRoles::$EMPLOYEE, SchoolRoles::$STAFF]);
+		if(config('seeder.admin_password', false) && $authService)
+			if(($connection = $authService->connect($admin)))
+			{
+				$connection->setPassword(config('seeder.admin_password'));
+				$admin->authConnection()->associate($connection);
+				$admin->save();
+			}
+	    
+		//for the following we will be using the local auth driver.
+	    $authService = IntegrationService::select('integration_services.*')
+	                                     ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
+	                                     ->where('integrators.path', 'local')
+	                                     ->where('integration_services.service_type', IntegratorServiceTypes::AUTHENTICATION)
+	                                     ->first();
         //now we make some other fake people for testing.
         $staff = Person::create(
             [
@@ -47,19 +65,27 @@ class AdminSeeder extends Seeder
                 'email' => 'staff@kalinec.net',
                 'nick' => null,
                 'dob' => "1969-06-09",
-                'portrait_url' => env('APP_URL').'/storage/idpics/2.jpg',
-                'thumbnail_url' => env('APP_URL').'/storage/idpics/2.jpg',
+                'portrait_url' => config('app.url').'/storage/idpics/2.jpg',
+                'thumbnail_url' => config('app.url').'/storage/idpics/2.jpg',
                 'school_id' => 2,
-	            'auth_driver' => 'local',
             ]);
 	    $staff->refresh();
-        $staff->assignRole(SchoolRoles::$EMPLOYEE);
-        $staff->assignRole(SchoolRoles::$STAFF);
-        $staff->assignRole("DB Editor");
-        $staff->assignRole("Academic Manager");
-        $staff->assignRole("Locations Manager");
-        $staff->assignRole("Schedule Manager");
-	    $staff->auth_driver->setPassword('staff');
+        $staff->assignRole(
+			[
+				SchoolRoles::$EMPLOYEE,
+				SchoolRoles::$STAFF,
+				"DB Editor",
+				"Academic Manager",
+				"Locations Manager",
+				"Schedule Manager",
+			]);
+		if($authService)
+			if($connection = $authService->connect($staff))
+			{
+				$connection->setPassword('staff');
+				$staff->authConnection()->associate($connection);
+				$staff->save();
+			}
 
 
 
@@ -71,15 +97,19 @@ class AdminSeeder extends Seeder
                 'email' => 'faculty@kalinec.net',
                 'nick' => null,
                 'dob' => "1969-06-09",
-                'portrait_url' => env('APP_URL').'/storage/idpics/3.jpg',
-                'thumbnail_url' => env('APP_URL').'/storage/idpics/3.jpg',
+                'portrait_url' => config('app.url').'/storage/idpics/3.jpg',
+                'thumbnail_url' => config('app.url').'/storage/idpics/3.jpg',
                 'school_id' => 3,
-	            'auth_driver' => 'local',
             ]);
 	    $faculty->refresh();
-        $faculty->assignRole(SchoolRoles::$FACULTY);
-        $faculty->assignRole(SchoolRoles::$EMPLOYEE);
-	    $faculty->auth_driver->setPassword('faculty');
+        $faculty->assignRole([SchoolRoles::$EMPLOYEE, SchoolRoles::$FACULTY]);
+	    if($authService)
+		    if($connection = $authService->connect($faculty))
+		    {
+			    $connection->setPassword('faculty');
+			    $faculty->authConnection()->associate($connection);
+			    $faculty->save();
+		    }
 
 
         $coach = Person::create(
@@ -90,15 +120,19 @@ class AdminSeeder extends Seeder
                 'email' => 'coach@kalinec.net',
                 'nick' => null,
                 'dob' => "2010-06-09",
-                'portrait_url' => env('APP_URL').'/storage/idpics/4.jpg',
-                'thumbnail_url' => env('APP_URL').'/storage/idpics/4.jpg',
+                'portrait_url' => config('app.url').'/storage/idpics/4.jpg',
+                'thumbnail_url' => config('app.url').'/storage/idpics/4.jpg',
                 'school_id' => 4,
-	            'auth_driver' => 'local',
             ]);
 	    $coach->refresh();
-        $coach->assignRole(SchoolRoles::$COACH);
-        $coach->assignRole(SchoolRoles::$EMPLOYEE);
-	    $coach->auth_driver->setPassword('coach');
+        $coach->assignRole([SchoolRoles::$COACH, SchoolRoles::$EMPLOYEE]);
+	    if($authService)
+		    if($connection = $authService->connect($coach))
+		    {
+			    $connection->setPassword('coach');
+			    $coach->authConnection()->associate($connection);
+			    $coach->save();
+		    }
 
         //to the admin accounts, we add all the campuses
         foreach(Campus::all() as $campus)
@@ -117,14 +151,19 @@ class AdminSeeder extends Seeder
                 'email' => 'student@kalinec.net',
                 'nick' => null,
                 'dob' => "2010-06-09",
-                'portrait_url' => env('APP_URL').'/storage/idpics/5.jpg',
-                'thumbnail_url' => env('APP_URL').'/storage/idpics/5.jpg',
+                'portrait_url' => config('app.url').'/storage/idpics/5.jpg',
+                'thumbnail_url' => config('app.url').'/storage/idpics/5.jpg',
                 'school_id' => 5,
-	            'auth_driver' => 'local',
             ]);
 	    $student->refresh();
         $student->assignRole(SchoolRoles::$STUDENT);
-	    $student->auth_driver->setPassword('student');
+	    if($authService)
+		    if($connection = $authService->connect($student))
+		    {
+			    $connection->setPassword('student');
+			    $student->authConnection()->associate($connection);
+			    $student->save();
+		    }
         //to this student, we assign a student role of a 9th grader at the HS campus
         $studentRecord = StudentRecord::create(
             [
@@ -143,14 +182,19 @@ class AdminSeeder extends Seeder
                 'email' => 'parent@kalinec.net',
                 'nick' => null,
                 'dob' => "2010-06-09",
-                'portrait_url' => env('APP_URL').'/storage/idpics/6.jpg',
-                'thumbnail_url' => env('APP_URL').'/storage/idpics/6.jpg',
+                'portrait_url' => config('app.url').'/storage/idpics/6.jpg',
+                'thumbnail_url' => config('app.url').'/storage/idpics/6.jpg',
                 'school_id' => 6,
-	            'auth_driver' => 'local',
             ]);
 	    $parent->refresh();
         $parent->assignRole(SchoolRoles::$PARENT);
-	    $parent->auth_driver->setPassword('parent');
+	    if($authService)
+		    if($connection = $authService->connect($parent))
+		    {
+			    $connection->setPassword('parent');
+			    $parent->authConnection()->associate($connection);
+			    $parent->save();
+		    }
         //next, we assign the bi-directinal child-parent relationship between the parent and child accounts.
         $student->relationships()->attach($parent->id, ['relationship_id' => Relationship::CHILD]);
         $parent->relationships()->attach($student->id, ['relationship_id' => Relationship::PARENT]);
@@ -159,6 +203,14 @@ class AdminSeeder extends Seeder
 	    $i = 1;
 	    while(config('seeder.admin' . $i . ".email", false))
 	    {
+		    if(config('seeder.admin' . $i . '.auth', false))
+		    {
+			    $authService = IntegrationService::select('integration_services.*')
+			                                     ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
+			                                     ->where('integrators.path', config('seeder.admin' . $i . '.auth'))
+			                                     ->where('integration_services.service_type', IntegratorServiceTypes::AUTHENTICATION)
+			                                     ->first();
+		    }
 		    $admin = Person::create(
 			    [
 				    'first' => config('seeder.admin' . $i . ".first"),
@@ -168,14 +220,16 @@ class AdminSeeder extends Seeder
 				    'nick' => null,
 				    'dob' => "1969-06-09",
 				    'school_id' => ($i + 7),
-				    'auth_driver' => config('seeder.admin' . $i . ".auth"),
 			    ]);
 		    $admin->refresh();
-		    $admin->assignRole(SchoolRoles::$ADMIN);
-		    $admin->assignRole(SchoolRoles::$EMPLOYEE);
-		    $admin->assignRole(SchoolRoles::$STAFF);
-		    if(config('seeder.admin' . $i . ".auth") == "local")
-			    $admin->auth_driver->setPassword(config('seeder.admin' . $i . ".auth"));
+		    $admin->assignRole([SchoolRoles::$ADMIN, SchoolRoles::$EMPLOYEE, SchoolRoles::$STAFF]);
+		    if(config('seeder.admin' . $i . ".password", false) && $authService)
+			    if(($connection = $authService->connect($admin)))
+			    {
+				    $connection->setPassword(config('seeder.admin' . $i . ".password"));
+				    $admin->authConnection()->associate($connection);
+				    $admin->save();
+			    }
 		    $i++;
 	    }
 

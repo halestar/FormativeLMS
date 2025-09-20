@@ -17,16 +17,13 @@ class StorageController extends Controller
 	public function downloadWorkFile(Request $request, WorkFile $work_file)
 	{
 		//get the storage
-		$storage = $work_file->storageInstance();
-		return $storage->download($work_file);
+		return $work_file->lmsConnection->download($work_file);
 	}
 	
 	public function downloadPublicWorkFile(Request $request, WorkFile $work_file)
 	{
 		if(!$work_file->public)
 			abort(404);
-		//get the storage
-		$storage = $work_file->storageInstance();
-		return $storage->download($work_file);
+		return $work_file->lmsConnection->download($work_file);
 	}
 }

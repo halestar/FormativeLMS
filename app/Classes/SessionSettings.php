@@ -112,4 +112,17 @@ class SessionSettings
         $instance = self::instance();
         return isset($instance->settings[$key]);
     }
+	
+	public function getPageSetting(string $page, string $setting, mixed $default = null): mixed
+	{
+		$setting = $this->get($page, []);
+		return $setting[$setting] ?? $default;
+	}
+	
+	public function setPageSetting(string $page, string $setting, mixed $value): void
+	{
+		$setting = $this->get($page, []);
+		$setting[$setting] = $value;
+		$this->set($page, $setting);
+	}
 }

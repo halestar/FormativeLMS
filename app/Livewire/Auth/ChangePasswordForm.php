@@ -4,6 +4,7 @@ namespace App\Livewire\Auth;
 
 use App\Classes\Settings\AuthSettings;
 use App\Models\People\Person;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rules\Password;
 use Livewire\Attributes\On;
 use Livewire\Component;
@@ -17,11 +18,14 @@ class ChangePasswordForm extends Component
 	public string $confirmPassword = '';
 	public bool $authFirst = true;
 	public bool $passwordChangedSuccessfully = false;
+	public bool $mustChangePassword = false;
 
 	public function mount(Person $person, AuthSettings $authSettings)
 	{
 		$this->authSettings = $authSettings;
 		$this->person = $person;
+		$this->mustChangePassword = $person->authConnection->mustChangePassword();
+		Log::info("Must change password: " . $this->mustChangePassword);
 	}
 
 	#[On('password-field.password-generated')]
@@ -32,14 +36,13 @@ class ChangePasswordForm extends Component
 
 	public function resetPassword()
 	{
-		if($this->authFirst && !$this->person->auth_driver->verifyPassword($this->currentPassword))
+		$connection = $this->person->authConnection;
+		if($this->authFirst && !$connection->verifyPassword($this->currentPassword))
 		{
 			$this->addError('currentPassword', __('errors.auth.password'));
 			return;
 		}
-		$this->person->auth_driver->setPassword($this->newPassword);
-		$this->person->auth_driver->setMustChangePassword(false);
-		$this->person->save();
+		$connection->setPassword($this->newPassword);
 		$this->reset('currentPassword', 'newPassword', 'confirmPassword');
 		$this->passwordChangedSuccessfully = true;
 		$this->dispatch('change-password-form.password-changed');

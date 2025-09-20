@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             [
                 PermissionSeeder::class,
                 RoleSeeder::class,
+                IntegrationSeeder::class,
                 SystemSettingsSeeder::class,
                 FieldPermissionsSeeder::class,
                 CrudSeeder::class,
@@ -43,9 +44,9 @@ class DatabaseSeeder extends Seeder
                 StudentTrackerSeeder::class,
                 SkillCategorySeeder::class,
                 KnowledgeSkillSeeder::class,
-                StorageSeeder::class,
                 RubricRestoreSeeder::class,
                 SchoolEmailSeeder::class,
+                MimeSeeder::class,
             ]);
     }
 }

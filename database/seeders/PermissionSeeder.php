@@ -18,8 +18,9 @@ class PermissionSeeder extends Seeder
             'System',
             'School Administration'
         ];
-    private static array $permissions =
-        [
+    private static function permissions(): array
+	{
+        return [
             'Roles/Permissions' =>
                 [
                     ['name' => 'settings.permissions.view', 'description' => 'View permissions in the system'],
@@ -44,6 +45,7 @@ class PermissionSeeder extends Seeder
                     ['name' => 'people.roles.fields', 'description' => 'Ability to define special fields for roles'],
                     ['name' => 'people.ids.manage', 'description' => 'Ability to manage IDs for people in the system'],
 	                ['name' => 'people.password', 'description' => 'Ability to change user\'s passwords'],
+                    ['name' => 'people.impersonate', 'description' => 'Ability to impersonate other users'],
                 ],
             'Locations' =>
                 [
@@ -76,12 +78,15 @@ class PermissionSeeder extends Seeder
             ],
             'System' =>
                 [
-                    ['name' => 'cms', 'description' => 'Access to the site\'s CSM'],
-                    ['name' => 'crud', 'description' => 'Access to the admin dashboard for CRUD editors'],
-                    ['name' => 'school', 'description' => 'Access to the global school settings'],
-                    ['name' => 'school.emails', 'description' => 'Access to edit what the school email\'s look like.'],
+                    ['name' => 'cms', 'description' => __('permissions.cms')],
+                    ['name' => 'crud', 'description' => __('permissions.crud')],
+                    ['name' => 'school', 'description' => __('permissions.school')],
+                    ['name' => 'school.emails', 'description' => __('permissions.school.emails')],
+                    ['name' => 'settings.integrators', 'description' => __('permissions.settings.integrators')],
+                    ['name' => 'system.ai', 'description' => __('permissions.system.ai')],
                 ],
         ];
+	}
     /**
      * Run the database seeds.
      */
@@ -90,7 +95,7 @@ class PermissionSeeder extends Seeder
         foreach(static::$categories as $category)
         {
             $cat = PermissionCategory::create(['name' => $category]);
-            foreach(static::$permissions[$category] as $permission)
+            foreach((static::permissions())[$category] as $permission)
                 SchoolPermission::create($permission + ['category_id' => $cat->id]);
         }
     }

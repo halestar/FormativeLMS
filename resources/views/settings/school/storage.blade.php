@@ -1,27 +1,41 @@
 @inject('storageSettings','App\Classes\Settings\StorageSettings')
-<div class="row">
-    <div class="col">
-        <h3>{{ __('settings.storage.documents') }}</h3>
-        <div class="mb-3">
-            <livewire:storage.document-storage-assigner :title="__('settings.storage.documents.employee')" updated-property="employee_documents" />
-        </div>
-        <div class="mb-3">
-            <livewire:storage.document-storage-assigner :title="__('settings.storage.documents.student')" updated-property="student_documents" />
-        </div>
+<div class="row mt-3">
+    <div class="col-md-4">
+        <form action="{{ route('settings.school.update.storage') }}" method="post">
+            @csrf
+            @method('PATCH')
+            <div class="card">
+                <h3 class="card-header">{{ __('settings.storage.work') }}</h3>
+                <div class="card-body">
+                    @foreach(\App\Enums\WorkStoragesInstances::cases() as $storage)
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">{{ $storage->label() }}</span>
+                            <select class="form-select @error($storage->value) is-invalid @enderror"
+                                    name="{{ $storage }}"
+                                    id="{{ $storage }}">
+                                <option value="">{{ __('settings.storage.work.none') }}</option>
+                                @foreach($workConnections as $connection)
+                                    <option
+                                            value="{{ $connection->id }}"
+                                            @selected($storageSettings->work_storages[$storage->value] == $connection->id)
+                                    >{{ $connection->service->name }}</option>
+                                @endforeach
+                            </select>
+                            <x-error-display
+                                    key="{{ $storage->value }}">{{ $errors->first($storage->value) }}</x-error-display>
+                        </div>
+                    @endforeach
+                </div>
+                <div class="card-footer ">
+                    <div class="row justify-content-center">
+                        <button type="submit"
+                                class="btn btn-primary col">{{ __('settings.storage.work.update') }}</button>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
-    <div class="col">
-        <h3>{{ __('settings.storage.work') }}</h3>
-        <div class="mb-3">
-            <livewire:storage.work-storage-assigner :title="__('settings.storage.work.employee')" updated-property="employee_work" />
-        </div>
-        <div class="mb-3">
-            <livewire:storage.work-storage-assigner :title="__('settings.storage.work.student')" updated-property="student_work" />
-        </div>
-        <div class="mb-3">
-            <livewire:storage.work-storage-assigner :title="__('settings.storage.work.class')" updated-property="class_work" />
-        </div>
-        <div class="mb-3">
-            <livewire:storage.work-storage-assigner :title="__('settings.storage.work.email')" updated-property="email_work" />
-        </div>
+    <div class="col-md-8">
+        <livewire:storage.mime-configuration />
     </div>
 </div>

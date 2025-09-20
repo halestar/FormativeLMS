@@ -18,7 +18,10 @@ class AuthPriorities implements CastsAttributes
      */
     public function get(Model $model, string $key, mixed $value, array $attributes): array
     {
-	    $pris = $this->getValue($attributes['value'], 'properties',[]);
+		$pris = $attributes['value'];
+		if(is_string($pris))
+			$pris = json_decode($pris, true);
+	    $pris = $pris['priorities'];
 	    if(count($pris) == 0)
 		    return [AuthenticationDesignation::makeDefaultDesignation()];
 	    $priorities = [];

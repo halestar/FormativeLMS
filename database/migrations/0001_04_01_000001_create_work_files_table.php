@@ -15,7 +15,8 @@ return new class extends Migration
 			$table->uuid('id')
 			      ->primary();
 			$table->string('name');
-			$table->string('storage_instance');
+			$table->uuid('connection_id')->nullable();
+			$table->foreign('connection_id')->references('id')->on('integration_connections')->onDelete('set null');
 			$table->string('path');
 			$table->string('mime');
 			$table->string('size');
@@ -24,12 +25,12 @@ return new class extends Migration
 			      ->nullable();
 			$table->string('icon')
 			      ->nullable();
-			$table->boolean('hidden')
+			$table->boolean('invisible')
 			      ->default(false);
 			$table->boolean('public')
 			      ->default(false);
 			$table->timestamps();
-			$table->unique(['storage_instance', 'path']);
+			$table->unique(['connection_id', 'path']);
 		});
 	}
 	

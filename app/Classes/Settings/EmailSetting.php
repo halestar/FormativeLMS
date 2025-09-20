@@ -2,12 +2,14 @@
 
 namespace App\Classes\Settings;
 
+use App\Enums\WorkStoragesInstances;
+use App\Interfaces\Fileable;
 use App\Mail\ResetPasswordMail;
 use App\Models\Utilities\SystemSetting;
 use App\Models\Utilities\WorkFile;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 
-class EmailSetting extends SystemSetting
+class EmailSetting extends SystemSetting implements Fileable
 {
 	protected static string $settingKey = "emails.";
 
@@ -80,14 +82,14 @@ class EmailSetting extends SystemSetting
 			array_shift($fileRefs);
 			//we need to iterate through each model and delete each one individually, since that's the way to
 			//trigger the file delete for each model.
-			foreach(WorkFile::hidden()
+			foreach(WorkFile::invisible()
 			                ->whereNotIn('id', $fileRefs)
 			                ->get() as $file)
 				$file->delete();
 		}
 		else {
 			//there are no file refs in the content, so we delete all hidden files
-			foreach(WorkFile::hidden()
+			foreach(WorkFile::invisible()
 			                ->get() as $file)
 				$file->delete();
 		}
@@ -96,5 +98,10 @@ class EmailSetting extends SystemSetting
 	public function shouldBePublic(): bool
 	{
 		return true;
+	}
+	
+	public function getWorkStorageKey(): WorkStoragesInstances
+	{
+		return WorkStoragesInstances::EmailWork;
 	}
 }

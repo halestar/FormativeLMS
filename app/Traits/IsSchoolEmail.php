@@ -58,7 +58,7 @@ trait IsSchoolEmail
 	public function attachments(): array
 	{
 		$files = $this->emailSetting->workFiles()
-		                            ->shown()
+		                            ->visible()
 		                            ->get();
 		$attachments = [];
 		foreach($files as $file)

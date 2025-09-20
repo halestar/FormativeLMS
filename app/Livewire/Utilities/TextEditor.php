@@ -2,10 +2,14 @@
 
 namespace App\Livewire\Utilities;
 
+use App\Classes\Settings\StorageSettings;
 use App\Classes\Storage\DocumentFile;
-use App\Classes\Storage\Work\WorkStorage;
+use App\Enums\WorkStoragesInstances;
 use App\Interfaces\Fileable;
+use App\Models\Integrations\IntegrationConnection;
+use App\Models\Utilities\MimeType;
 use App\Models\Utilities\WorkFile;
+use Illuminate\Validation\Rules\File;
 use Livewire\Attributes\Modelable;
 use Livewire\Attributes\On;
 use Livewire\Component;
@@ -16,15 +20,17 @@ class TextEditor extends Component
 	use WithFileUploads;
 	#[Modelable]
 	public string $content = '';
-	public WorkStorage $workStorage;
+	public WorkStoragesInstances $instance;
+	public IntegrationConnection $connection;
 	public Fileable $fileable;
 	public array|null $availableTokens = null;
 	public $uploadedFile;
 	
-	public function mount(WorkStorage $workStorage, Fileable $fileable)
+	public function mount(Fileable $fileable, StorageSettings $settings)
 	{
-		$this->workStorage = $workStorage;
 		$this->fileable = $fileable;
+		$this->instance = $fileable->getWorkStorageKey();
+		$this->connection = $settings->getWorkConnection($this->instance);
 	}
 	
 	#[On('document-storage-browser.files-selected')]
@@ -33,7 +39,7 @@ class TextEditor extends Component
 		if($cb_instance != 'text-editor') return;
 		$documentFile = DocumentFile::hydrate($selected_items);
 		//store the file
-		$workFile = $this->workStorage->persistFile($this->fileable, $documentFile, true);
+		$workFile = $this->connection->persistFile($this->fileable, $documentFile, true);
 		$this->dispatch('text-editor.insert-image', work_file: $workFile);
 	}
 	
@@ -52,11 +58,19 @@ class TextEditor extends Component
 			$workFile->delete();
 	}
 	
+	protected function rules()
+	{
+		return [
+			'uploadedFile' => File::types(MimeType::allowedMimeTypes())
+			                 ->max(12 * 1024),
+		];
+	}
+	
 	public function uploadFile()
 	{
 		$docFile = DocumentFile::fromUploadedFile($this->uploadedFile);
 		//store the file
-		$workFile = $this->workStorage->persistFile($this->fileable, $docFile, true);
+		$workFile = $this->connection->persistFile($this->fileable, $docFile, true);
 		return $workFile->url;
 	}
 	

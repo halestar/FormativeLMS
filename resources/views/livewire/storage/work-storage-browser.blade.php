@@ -1,5 +1,10 @@
-<div class="card text-bg-primary">
-    <div class="card-header d-flex justify-content-between align-items-center">
+<div
+    class="card text-bg-primary position-relative"
+
+>
+    <div
+        class="card-header d-flex justify-content-between align-items-center"
+    >
         <h5>{{ $title }}</h5>
         <button
                 type="button"
@@ -9,7 +14,7 @@
                         config:
                             {
                                 multiple: true,
-                                mimeTypes: [],
+                                mimetypes: [],
                                 allowUpload: true,
                                 canSelectFolders: false,
                                 cb_instance: 'work-storage-browser'
@@ -20,29 +25,36 @@
     <div
             class="card-body"
             style="min-height: 400px;"
-            x-data="{ dragging: false }"
+            x-data="{ dragging: false, uploading: false, progress: 0, ul_error: false }"
             x-on:dragenter="dragging = true"
             x-on:dragover.prevent="dragging = true"
             x-on:dragleave="dragging = false"
             x-on:drop.prevent="
         files = $event.dataTransfer.files;
+        uploading = true;
         if(files.length === 1)
         {
-            $wire.upload('uploadedFiles', files[0], (uploadedFilename) => $wire.uploadFiles(uploadedFilename),
-                () => ul_error = true,
-                (event) => {},
+            $wire.upload('uploadedFiles', files[0], (uploadedFilename) => { uploading = false; $wire.uploadFiles(uploadedFilename)},
+                (event) => { ul_error = true; console.log(event)},
+                (event) => { progress = event.detail.progress },
                 () => {});
         }
         else if(files.length > 1)
         {
-            $wire.uploadMultiple('uploadedFiles', files, (uploadedFilename) => $wire.uploadFiles(),
-                () => ul_error = true,
-                (event) => {},
+            $wire.upload('uploadedFiles', files[0], (uploadedFilename) => { uploading = false; $wire.uploadFiles(uploadedFilename)},
+                (event) => { ul_error = true; console.log(event)},
+                (event) => { progress = event.detail.progress },
                 () => {});
         }
         dragging = false"
             :class="dragging && 'text-bg-info'"
     >
+        @error('uploadedFiles')
+            <div class="alert alert-danger">
+                {{ $message }}
+            </div>
+        @enderror
+        <div class=""
         @if(count($workFiles) == 0)
             <div class="display-4 text-center">
                 {{ __('storage.documents.file.drop') }}
@@ -62,6 +74,15 @@
             @endforeach
         </ul>
         @endif
+        <div
+                class="position-absolute top-0 start-0 w-100 h-100 text-bg-secondary opacity-60 d-flex justify-content-center align-items-center flex-column"
+                x-show.important="uploading"
+        >
+            <div class="display-5 mb-3">{{ __('common.uploading') }}</div>
+            <div class="progress w-50 border border-dark" role="progressbar" :aria-valuenow="progress" aria-valuemin="0" aria-valuemax="100" style="height: 3em;">
+                <div class="progress-bar progress-bar-striped" :style="{ width: progress + '%'}"></div>
+            </div>
+        </div>
     </div>
 </div>
 @script
@@ -75,5 +96,7 @@
         e = e || event;
         e.preventDefault();
     }, false);
+    window.addEventListener('document-storage-browser.files-selected',
+        (event) => (event.detail.cb_instance === 'work-storage-browser')? $('#work_storage_browser_loading').removeClass('d-none'):null);
 </script>
 @endscript

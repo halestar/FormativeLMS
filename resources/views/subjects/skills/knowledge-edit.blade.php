@@ -6,12 +6,12 @@
             @csrf
             @method('PUT')
             <div class="row mb-3">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <label for="subject_id" class="form-label">{{ trans_choice('subjects.skills.subject',1   ) }}</label>
                     <livewire:subject-matter.subject-matter-selector :openTo="$skill->subject" />
                     <div id="subjectId" class="form-text">{{ __('subjects.skills.subject.help') }}</div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6">
                     <label for="designation" class="form-label">{{ __('subjects.skills.designation')  }}</label>
                     <input
                         type="text"

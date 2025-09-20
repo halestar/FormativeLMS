@@ -16,6 +16,7 @@ Route::patch('/school/settings/school', [SchoolSettingsController::class, 'updat
 Route::patch('/school/settings/classes', [SchoolSettingsController::class, 'updateClasses'])->name('school.update.classes');
 Route::patch('/school/settings/ids', [SchoolSettingsController::class, 'updateId'])->name('school.update.ids');
 Route::patch('/school/settings/auth', [SchoolSettingsController::class, 'updateAuth'])->name('school.update.auth');
+Route::patch('/school/settings/storage', [SchoolSettingsController::class, 'updateStorage'])->name('school.update.storage');
 Route::get('/school/settings/name/{role}', [SchoolSettingsController::class, 'nameCreator'])->name('school.name');
 Route::get('/school/settings/emails', SchoolEmailsEditor::class)->name('school.emails')->middleware('can:school.emails');
 

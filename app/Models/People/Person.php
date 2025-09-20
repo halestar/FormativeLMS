@@ -3,12 +3,14 @@
 namespace App\Models\People;
 
 use App\Casts\LogItem;
-use App\Classes\Auth\Authenticator;
 use App\Classes\PreferenceManager;
 use App\Classes\RoleField;
-use App\Classes\Settings\AuthSettings;
 use App\Classes\Settings\SchoolSettings;
+use App\Enums\IntegratorServiceTypes;
+use App\Interfaces\HasSchoolRoles;
 use App\Models\CRUD\Relationship;
+use App\Models\Integrations\IntegrationConnection;
+use App\Models\Integrations\IntegrationService;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Term;
 use App\Models\Locations\Year;
@@ -19,6 +21,7 @@ use App\Notifications\NewClassMessageNotification;
 use App\Traits\Addressable;
 use App\Traits\Campuseable;
 use App\Traits\HasLogs;
+use App\Traits\HasSchoolRolesTrait;
 use App\Traits\Phoneable;
 use Auth;
 use Carbon\Carbon;
@@ -27,6 +30,7 @@ use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
@@ -39,18 +43,19 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Drivers\Imagick\Driver;
 use Intervention\Image\ImageManager;
+use Lab404\Impersonate\Models\Impersonate;
 use Laravel\Scout\Searchable;
-use Spatie\Permission\Traits\HasRoles;
 
 
-class Person extends Authenticatable
+class Person extends Authenticatable implements HasSchoolRoles
 {
-    use HasFactory, HasLogs, SoftDeletes, HasRoles, Phoneable, Addressable, Notifiable, Searchable, Campuseable;
+    use HasFactory, HasLogs, SoftDeletes, HasSchoolRolesTrait, Phoneable, Addressable, Notifiable, Searchable, Campuseable, Impersonate;
     protected $with = ['schoolRoles'];
     public $timestamps = true;
     protected $table = "people";
     protected $primaryKey = "id";
     public $incrementing = true;
+	
     protected $fillable =
         [
             'first',
@@ -248,24 +253,6 @@ class Person extends Authenticatable
         );
     }
 
-	public function authDriver(): Attribute
-	{
-		return Attribute::make
-		(
-			get: function (?string $value, array $attributes): ?Authenticator
-			{
-				if(!$value)
-				{
-					$settings = app(AuthSettings::class);
-					$value = $settings->determineAuthentication($this);
-					if(is_array($value))
-						return null;
-				}
-				return $value? new (config('auth.drivers.' . $value . '.class'))($this): null;
-			},
-		);
-	}
-
     /**********
      * Relationships
      */
@@ -286,11 +273,6 @@ class Person extends Authenticatable
         return $this->campuses();
     }
 
-    public function schoolRoles(): BelongsToMany
-    {
-        return $this->roles()->withPivot('field_values');
-    }
-
     public function studentRecords(): HasMany
     {
         return $this->hasMany(StudentRecord::class, 'person_id');
@@ -305,6 +287,19 @@ class Person extends Authenticatable
     {
         return $this->belongsToMany(StudentRecord::class, 'student_trackers', 'person_id', 'student_id');
     }
+	
+	public function connectedServices(): BelongsToMany
+	{
+		return $this->belongsToMany(IntegrationService::class, 'integration_connections', 'person_id', 'service_id')
+			->withPivot('id', 'data', 'enabled', 'className')
+			->as('lms_service_connection')
+			->using(IntegrationConnection::class);
+	}
+	
+	public function authConnection(): BelongsTo
+	{
+		return $this->belongsTo(IntegrationConnection::class, 'auth_connection_id');
+	}
 
     /**********
      * Scopes
@@ -595,5 +590,74 @@ class Person extends Authenticatable
     {
         return $this->notifications()->unread()->where('type', NewClassMessageNotification::class);
     }
+	
+	/*****
+	 * Integration Functions
+	 */
+	public function hasIntegrationService(IntegrationService $service)
+	{
+		return $this->connectedServices()->where('service_id', $service->id)->exists();
+	}
+	
+	public function getIntegrationServices(IntegratorServiceTypes $type = null): Collection
+	{
+		if(!$type)
+			return $this->connectedServices;
+		return $this->connectedServices()->where('service_type', $type)->get();
+	}
+	
+	public function removeIntegrationService(IntegrationService $service)
+	{
+		if($this->hasIntegrationService($service))
+			$this->connectedServices()->detach($service->id);
+	}
+	
+	public function getServiceConnection(IntegrationService $service): ?IntegrationConnection
+	{
+		return $this->connectedServices()->where('service_id', $service->id)->first()?->lms_service_connection;
+	}
+	
+	public function aiAccess(): null|Collection
+	{
+		$connections = new Collection();
+		//AI services
+		$aiServices = IntegrationService::where('service_type', IntegratorServiceTypes::AI)->get();
+		//check if the user has access to the system's AI
+		if($this->can('system.ai'))
+		{
+			//they do, so cycle through each, connecting to it
+			foreach($aiServices as $service)
+			{
+				$conn = $service->connectToSystem();
+				//if we establish a connection, add it to the list
+				if($conn)
+					$connections->push($conn);
+			}
+		}
+		//next, do we have any personal connections to the AI system?
+		foreach($aiServices as $service)
+		{
+			$conn = $service->connect($this);
+			//if we establish a connection, add it to the list
+			if($conn)
+				$connections->push($conn);
+		}
+		return $aiServices->count() > 0 ? $connections : null;
+	}
+	
+	public function __toString()
+	{
+		return $this->name;
+	}
+	
+	public function canImpersonate()
+	{
+		return $this->can('people.impersonate');
+	}
+	
+	public function canBeImpersonated()
+	{
+		return !$this->hasRole(SchoolRoles::$ADMIN) && ($this->id != auth()->user()->id);
+	}
 
 }

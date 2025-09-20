@@ -6,7 +6,11 @@ use App\Classes\Days;
 use App\Classes\Settings\AuthSettings;
 use App\Classes\Settings\IdSettings;
 use App\Classes\Settings\SchoolSettings;
+use App\Classes\Settings\StorageSettings;
+use App\Enums\IntegratorServiceTypes;
+use App\Enums\WorkStoragesInstances;
 use App\Http\Controllers\Controller;
+use App\Models\Integrations\IntegrationConnection;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
@@ -41,9 +45,14 @@ class SchoolSettingsController extends Controller implements HasMiddleware
             ->where('model_has_roles.role_id', $parentRole->id)
             ->inRandomOrder()
             ->first();
+		$workConnections = IntegrationConnection::select('integration_connections.*')
+			->join('integration_services', 'integration_services.id', '=', 'integration_connections.service_id')
+			->whereNull('integration_connections.person_id')
+			->where('integration_services.service_type', IntegratorServiceTypes::WORK)
+			->get();
         return view('settings.school.show',
 	        compact('breadcrumb', 'studentRole',
-		        'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole'));
+		        'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole', 'workConnections'));
     }
 
     public function update(Request $request, SchoolSettings $settings)
@@ -113,6 +122,17 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 		$settings->numbers = $request->has('numbers');
 		$settings->upper = $request->has('upper');
 		$settings->symbols = $request->has('symbols');
+		$settings->save();
+		return redirect()->route('settings.school')->with('success-status', __('system.settings.update.success'));
+	}
+	
+	public function updateStorage(Request $request, StorageSettings $settings)
+	{
+		$rules = [];
+		foreach(WorkStoragesInstances::cases() as $work)
+			$rules[$work->value] = "required|uuid|exists:integration_connections,id";
+		$data = $request->validate($rules);
+		$settings->work_storages = $data;
 		$settings->save();
 		return redirect()->route('settings.school')->with('success-status', __('system.settings.update.success'));
 	}

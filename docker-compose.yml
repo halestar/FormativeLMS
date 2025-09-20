@@ -12,7 +12,7 @@ services:
             - SSL_ALT_NAME=${SSL_ALT_NAME:-DNS:localhost}
         volumes:
             - 'sail-nginx:/etc/nginx/certs'
-            - './vendor/ryoluo/sail-ssl/nginx/templates:/etc/nginx/templates'
+            - './nginx/templates:/etc/nginx/templates'
             - './vendor/ryoluo/sail-ssl/nginx/generate-ssl-cert.sh:/docker-entrypoint.d/99-generate-ssl-cert.sh'
         depends_on:
             - ${APP_SERVICE:-laravel.test}
@@ -30,7 +30,6 @@ services:
         ports:
             - '${APP_PORT:-80}:80'
             - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
-            - '${REVERB_SERVER_PORT:-8080}:8080'
         environment:
             WWWUSER: '${WWWUSER}'
             LARAVEL_SAIL: 1

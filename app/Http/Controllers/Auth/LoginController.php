@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use App\Models\People\Person;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Routing\Controllers\Middleware;
@@ -15,8 +15,8 @@ class LoginController extends Controller implements HasMiddleware
 	{
 		return
 			[
-				new Middleware('guest', except: ['logout']),
-				new Middleware('auth', only: ['logout']),
+				new Middleware('guest', except: ['logout', 'impersonate', 'unimpersonate']),
+				new Middleware('auth', only: ['logout', 'impersonate', 'unimpersonate']),
 			];
 	}
 
@@ -32,5 +32,24 @@ class LoginController extends Controller implements HasMiddleware
 		$request->session()->invalidate();
 		$request->session()->regenerateToken();
 		return redirect('/');
+	}
+	
+	public function impersonate(Person $person)
+	{
+		session(['impersonating_from' => redirect()->back()->getTargetUrl()]);
+		auth()->user()->impersonate($person);
+		return redirect(route('home'));
+	}
+	
+	public function unimpersonate()
+	{
+		$manager = app('impersonate');
+		if($manager->isImpersonating())
+		{
+			auth()->user()->leaveImpersonation();
+			$url = session()->pull('impersonating_from', route('home'));
+			return redirect($url);
+		}
+		return redirect(route('home'));
 	}
 }

@@ -13,10 +13,10 @@
                         @if($promptEmail)
                             @if($lockedUser)
                                 <div class="alert alert-danger">
-                                    @if(!$user->auth_driver->lockedUntil())
+                                    @if(!$lockedUntil)
                                         {{ __('errors.auth.locked.admin') }}
                                     @else
-                                        {{ __('errors.auth.locked', ['time' => $user->auth_driver->lockedUntil()->diffForHumans()]) }}
+                                        {{ __('errors.auth.locked', ['time' => $lockedUntil->diffForHumans()]) }}
                                     @endif
                                 </div>
                             @endif
@@ -85,7 +85,7 @@
                                 />
                                 <x-utilities.error-tooltip
                                         key="password">{{ $errors->first('password') }}</x-utilities.error-tooltip>
-                                @if($user->auth_driver->canResetPassword())
+                                @if($canResetPassword)
                                 <button
                                     type="button"
                                     class="btn btn-warning"
@@ -107,9 +107,9 @@
                         @elseif($promptMethod)
                             <h3>Select a sign-in method for {{ $user->system_email }}</h3>
                             <div class="d-flex flex-column align-items-center">
-                            @foreach($methodOptions as $driver => $className)
-                                <div class="my-2 show-as-action" wire:click="submitMethod('{{ $driver }}');">
-                                    {!! ($className)::loginButton() !!}
+                            @foreach($methodOptions as $service_id => $button)
+                                <div class="my-2 show-as-action" wire:click="submitMethod({{ $service_id }});">
+                                    {!! $button !!}
                                 </div>
                             @endforeach
                             </div>
@@ -158,7 +158,7 @@
                                     <button type="submit" class="btn btn-success fs-1">
                                         <i class="fa-solid fa-check"></i>
                                     </button>
-                                    <button type="submit" class="btn btn-danger fs-1" wire:click="gotoStage('promptPassword')">
+                                    <button type="button" class="btn btn-danger fs-1" wire:click="gotoStage('promptPassword')">
                                         <i class="fa-solid fa-times"></i>
                                     </button>
                                 </div>

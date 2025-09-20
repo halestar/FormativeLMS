@@ -4,9 +4,12 @@ namespace App\Classes\Settings;
 
 use App\Casts\Utilities\SystemSettings\AuthPriorities;
 use App\Classes\Auth\AuthenticationDesignation;
+use App\Models\Integrations\IntegrationService;
 use App\Models\People\Person;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Eloquent\Casts\Attribute;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Log;
 
 class AuthSettings extends SystemSetting
 {
@@ -51,26 +54,21 @@ class AuthSettings extends SystemSetting
 	public static function applyAuthenticationPriorities()
 	{
 		//we reset all the auth to null
-		Person::query()->update(['auth_driver' => null]);
+		Person::query()->update(['auth_connection_id' => null]);
 	}
 
-	public function determineAuthentication(Person $person): string | array
+	public function determineAuthentication(Person $person): IntegrationService|Collection
 	{
 		$priorities = $this->priorities;
+		Log::info('priorities: ' . print_r($priorities, true));
 		//determine the default priority and assign it.
 		$defaultPriority = $priorities[0]?? AuthenticationDesignation::makeDefaultDesignation();
-		$authenticator = $defaultPriority->authModules;
+		$services = $defaultPriority->services;
 		//next we through all the priorities starting at 1 (if they exists), and exit when we
 		//find the first priority that this user applies to.
 		for($i = 1; $i < count($priorities); $i++)
-		{
-			if($priorities[$i]->appliesToPerson($person))
-			{
-				$authenticator = $priorities[$i]->authModules;
-				break;
-			}
-		}
-		return $authenticator;
+			if($priorities[$i]->appliesToPerson($person)) return $priorities[$i]->services;
+		return $services;
 	}
 
 }

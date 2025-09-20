@@ -1,6 +1,6 @@
 <div class="mw-100 mh-100 overflow-hidden p-3 position-relative h-100 pb-5">
     <h5 class="card-header d-flex justify-content-start align-items-center">
-        @if($documentStorage->canPersistFiles())
+        @if($connection->canPersistFiles())
         <button class="btn btn-outline-light" wire:click="addFolder()">
             <i class="fa-solid fa-folder-plus text-warning"></i>
         </button>
@@ -25,7 +25,7 @@
     </h5>
 
     <div
-            @if($documentStorage->canPersistFiles())
+            @if($connection->canPersistFiles())
             x-data="{asset_dragging: false, asset_path: '', external_dragging: false, ul_error: false, ul_progress: -1, ul_success: false}"
             x-on:dragenter="external_dragging = !asset_dragging"
             x-on:dragover.prevent="external_dragging = !asset_dragging"
@@ -43,8 +43,8 @@
                             draggable="false"
                             x-on:dblclick='$wire.viewParent("{{ $selectedFolder->path }}")'
                             style="height: 100px;"
-                            path="{{ $documentStorage->parentDirectory($person, $selectedFolder)?->path }}"
-                            @if($documentStorage->canPersistFiles())
+                            path="{{ $connection->parentDirectory($selectedFolder)?->path }}"
+                            @if($connection->canPersistFiles())
                                 x-data="{dropping: false}"
                             :class="dropping && 'asset-drop'"
                             x-on:dragenter="dropping = asset_dragging"
@@ -82,7 +82,7 @@
                                 @endif
                                 style="height: 100px;"
                                 path="{{ $asset->path }}"
-                                @if($documentStorage->canPersistFiles())
+                                @if($connection->canPersistFiles())
                                     x-data="{dropping: false}"
                                 :class="dropping && 'asset-drop'"
                                 x-on:dragstart="asset_dragging = true;
@@ -104,7 +104,7 @@
                             <span class="display-3 m-auto">{!! $asset->icon !!}</span>
                             <div class="card-img-overlay">
                                 <div class="d-flex justify-content-end">
-                                    @if($documentStorage->canPersistFiles() && $asset->canDelete)
+                                    @if($connection->canPersistFiles() && $asset->canDelete)
                                         <button
                                                 type="button"
                                                 class="btn btn-outline-danger btn-sm rounded"
@@ -122,14 +122,14 @@
                             >
                                 <div
                                         class="text-wrap fs-6 col-12"
-                                        @if($documentStorage->canPersistFiles() && $asset->canChangeName)
+                                        @if($connection->canPersistFiles() && $asset->canChangeName)
                                             onclick="$('#span-{{ $asset->safeName() }}').hide();$('#name-{{ $asset->safeName() }}').removeClass('d-none');"
                                         @endif
                                 >
                                     {{ $asset->name }}
                                 </div>
                             </div>
-                            @if($documentStorage->canPersistFiles() && $asset->canChangeName)
+                            @if($connection->canPersistFiles() && $asset->canChangeName)
                                 <div
                                         class="input-group d-none"
                                         id="name-{{ $asset->safeName() }}"
@@ -160,7 +160,7 @@
                                 style="height: 100px;"
                                 wire:click="selectFile('{{ $asset->path }}')"
                                 path="{{ $asset->path }}"
-                                @if($documentStorage->canPersistFiles())
+                                @if($connection->canPersistFiles())
                                     draggable="true"
                                 x-on:dragstart="asset_dragging = true;
                                                 asset_path = $el.getAttribute('path');"
@@ -177,7 +177,7 @@
                                                 wire:click="viewFile('{{ $asset->path }}')"
                                         ><i class="fa fa-search"></i></button>
                                     @endif
-                                        @if($documentStorage->canPersistFiles() && $asset->canDelete)
+                                        @if($connection->canPersistFiles() && $asset->canDelete)
                                         <button
                                                 type="button"
                                                 class="btn btn-outline-danger btn-sm rounded"
@@ -195,14 +195,14 @@
                             >
                                 <div
                                         class="text-break fs-6 col-12"
-                                        @if($documentStorage->canPersistFiles() && $asset->canChangeName)
+                                        @if($connection->canPersistFiles() && $asset->canChangeName)
                                             onclick="$('#span-{{ $asset->safeName() }}').hide();$('#name-{{ $asset->safeName() }}').removeClass('d-none');"
                                         @endif
                                 >
                                     {{ $asset->name }}
                                 </div>
                             </div>
-                            @if($documentStorage->canPersistFiles() && $asset->canChangeName)
+                            @if($connection->canPersistFiles() && $asset->canChangeName)
                                 <div
                                         class="input-group d-none"
                                         id="name-{{ $asset->safeName() }}"
@@ -230,7 +230,7 @@
                 </div>
             @endforeach
         </div>
-        @if($documentStorage->canPersistFiles())
+        @if($connection->canPersistFiles())
         <div
                 x-on:dragenter="external_dragging = !asset_dragging"
                 x-on:dragover.prevent="external_dragging = !asset_dragging"

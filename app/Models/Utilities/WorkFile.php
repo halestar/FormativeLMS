@@ -2,12 +2,12 @@
 
 namespace App\Models\Utilities;
 
-use App\Classes\Settings\StorageSettings;
-use App\Classes\Storage\Work\WorkStorage;
+use App\Models\Integrations\IntegrationConnection;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class WorkFile extends Model
 {
@@ -20,14 +20,14 @@ class WorkFile extends Model
 	protected $fillable =
 		[
 			'name',
-			'storage_instance',
+			'connection_id',
 			'path',
 			'mime',
 			'size',
 			'extension',
 			'url',
 			'icon',
-			'hidden',
+			'invisible',
 			'public',
 		];
 	
@@ -35,7 +35,7 @@ class WorkFile extends Model
 	{
 		return
 			[
-				'hidden' => 'boolean',
+				'invisible' => 'boolean',
 				'public' => 'boolean',
 				'created_at' => 'datetime: m/d/Y h:i A',
 				'updated_at' => 'datetime: m/d/Y h:i A',
@@ -49,19 +49,17 @@ class WorkFile extends Model
 				$workFile->url = route('settings.work.file.public', ['work_file' => $workFile->id]);
 			else
 				$workFile->url = route('settings.work.file.private', ['work_file' => $workFile->id]);
-			$workFile->icon = config('file_icons.' . $workFile->mime, config('file_icons.default'));
+			$workFile->icon = $workFile->mimeType->icon;
 			$workFile->save();
 		});
 		static::deleting(function(WorkFile $workFile) {
-			$storageInstance = $workFile->storageInstance();
-			$storageInstance->deleteFile($workFile);
+			$workFile->lmsConnection->deleteFile($workFile);
 		});
 	}
 	
-	public function storageInstance(): WorkStorage
+	public function lmsConnection(): BelongsTo
 	{
-		$storageSettings = app()->make(StorageSettings::class);
-		return $storageSettings->getInstance($this->storage_instance);
+		return $this->belongsTo(IntegrationConnection::class, 'connection_id');
 	}
 	
 	public function shouldAttach(): bool
@@ -75,15 +73,15 @@ class WorkFile extends Model
 	}
 	
 	#[Scope]
-	protected function hidden(Builder $query): void
+	protected function invisible(Builder $query): void
 	{
-		$query->where('hidden', true);
+		$query->where('invisible', true);
 	}
 	
 	#[Scope]
-	protected function shown(Builder $query): void
+	protected function visible(Builder $query): void
 	{
-		$query->where('hidden', false);
+		$query->where('invisible', false);
 	}
 	
 	#[Scope]
@@ -92,4 +90,13 @@ class WorkFile extends Model
 		$query->where('public', true);
 	}
 	
+	public function isImage(): bool
+	{
+		return $this->mimeType->is_img;
+	}
+	
+	public function mimeType(): BelongsTo
+	{
+		return $this->belongsTo(MimeType::class, 'mime');
+	}
 }

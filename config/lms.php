@@ -2,15 +2,6 @@
 
 return [
     'internal_email_suffix' => env('INTERNAL_EMAIL_SUFFIX', '@kalinec.net'),
-    'google' =>
-        [
-            'project_id' => env('GOOGLE_CLOUD_PROJECT_ID'),
-            'storage_bucket' => env('GOOGLE_CLOUD_STORAGE_BUCKET'),
-            'google_cloud_storage_url' => "https://storage.googleapis.com/",
-            'secrets_location' => env('GOOGLE_SECRETS_FILE', storage_path('app/google_cloud.json')),
-            'cms_storage_path' => env('GOOGLE_CLOUD_CMS_STORAGE_PREFIX', 'cms/'),
-        ],
-    'viewable_classes' => [],
     'date_format' => env('DATE_FORMAT', 'm/d/Y'),
     'datetime_format' => env('DATETIME_FORMAT', 'm/d/Y h:i A'),
     'default_country' => env('DEFAULT_COUNTRY', 'US'),
@@ -20,13 +11,6 @@ return [
     'campus_img_width' => env('CAMPUS_IMG_WIDTH', 400),
     'rubric_max_points' => env('RUBRIC_MAX_POINTS', 6),
     'school_id_length' => env('SCHOOL_ID_LENGTH', 10),
-    'prefs' =>
-        [
-            'defaults' =>
-                [
-
-                ],
-        ],
     'school_id_elements' =>
     [
         \App\Classes\IdCard\CustomText::class,
@@ -63,5 +47,10 @@ return [
     [
         'documents' => 'local-document-storage',
         'work' => 'local-work-storage',
+    ],
+    'vault' =>
+    [
+		'disk' => 'private',
+		'path' => 'vault',
     ],
 ];

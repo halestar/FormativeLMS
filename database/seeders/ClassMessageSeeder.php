@@ -24,9 +24,9 @@ class ClassMessageSeeder extends Seeder
             $term = $session->term;
             foreach($session->students as $student)
             {
-                //now we will create 1-5 random student messages
+                //now we will create 0-5 random student messages
                 ClassMessage::factory()
-                    ->count(rand(5,10))
+                    ->count(rand(0, 5))
                     ->randomDateInTerm($term)
                     ->withSession($session)
                     ->withStudent($student)
@@ -35,7 +35,7 @@ class ClassMessageSeeder extends Seeder
                     ->create();
                 //and 5 more from the teacher
                 ClassMessage::factory()
-                    ->count(rand(5,10))
+                    ->count(rand(0, 5))
                     ->randomDateInTerm($term)
                     ->withSession($session)
                     ->withStudent($student)
@@ -45,7 +45,7 @@ class ClassMessageSeeder extends Seeder
 
                 //and 5 more from a parent
                 ClassMessage::factory()
-                    ->count(rand(5,10))
+                    ->count(rand(0, 5))
                     ->randomDateInTerm($term)
                     ->withSession($session)
                     ->withStudent($student)

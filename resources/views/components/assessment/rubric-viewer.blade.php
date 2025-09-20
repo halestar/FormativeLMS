@@ -1,6 +1,6 @@
-<div>
+<div class="table-responsive">
     @use(App\Casts\Rubric)
-    <table class="table table-bordered" style="table-layout: fixed;">
+    <table class="table table-bordered">
         <thead>
         <tr>
             <th scope="col" class="p-0">
@@ -20,15 +20,11 @@
         @foreach($rubric->criteria as $crit)
             <tr>
                 <th scope="row" class="align-top position-relative">
-                    <div class="d-flex h-100">
-                        <div class="flex-grow-1">{{ $crit }}</div>
-                    </div>
+                    {{ $crit }}
                 </th>
                 @foreach($rubric->descriptions[$loop->index] as $description)
                     <td>
-                        <div class="d-flex">
-                            <div class="flex-grow-1">{!! nl2br($description) !!}</div>
-                        </div>
+                        {!! nl2br($description) !!}
                     </td>
                 @endforeach
             </tr>

@@ -2,8 +2,8 @@
 
 namespace App\Classes\Storage;
 
-use App\Classes\Settings\StorageSettings;
-use App\Classes\Storage\Document\DocumentStorage;
+use App\Models\Integrations\Connections\DocumentFilesConnection;
+use App\Models\Integrations\IntegrationConnection;
 use App\Models\People\Person;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\UploadedFile;
@@ -16,10 +16,10 @@ class DocumentFile implements Arrayable, JsonSerializable
 	
 	public function __construct
 	(
-		public int $person_id,
+		public int $school_id,
 		public bool $isFolder,
 		public string $name,
-		public string $storageInstance,
+		public string $connection_id,
 		public string $path,
 		public string $icon = '',
 		public string $mimeType = '',
@@ -37,7 +37,7 @@ class DocumentFile implements Arrayable, JsonSerializable
 			0,
 			false,
 			$file->getClientOriginalName(),
-			'',
+			0,
 			$file->path(),
 			'',
 			$file->getMimeType(),
@@ -57,13 +57,13 @@ class DocumentFile implements Arrayable, JsonSerializable
 	{
 		return
 		[
-			'person_id' => $this->person_id,
+			'school_id' => $this->school_id,
 			'isFolder' => $this->isFolder,
 			'name' => $this->name,
 			'path' => $this->path,
 			'mimeType' => $this->mimeType,
 			'size' => $this->size,
-			'storageInstance' => $this->storageInstance,
+			'connection_id' => $this->connection_id,
 			'icon' => $this->icon,
 			'canPreview' => $this->canPreview,
 			'canDelete' => $this->canDelete,
@@ -81,10 +81,10 @@ class DocumentFile implements Arrayable, JsonSerializable
 	{
 		return new DocumentFile
 		(
-			$data['person_id'],
+			$data['school_id'],
 			$data['isFolder'],
 			$data['name'],
-			$data['storageInstance'],
+			$data['connection_id'],
 			$data['path'],
 			$data['icon'],
 			$data['mimeType'],
@@ -98,20 +98,18 @@ class DocumentFile implements Arrayable, JsonSerializable
 	
 	public function person(): Person
 	{
-		return Person::where('school_id', $this->person_id)->first();
+		return Person::where('school_id', $this->school_id)->first();
 	}
 	
-	public function storageInstance(): DocumentStorage
+	public function connection(): ?DocumentFilesConnection
 	{
-		$storageSettings = app()->make(StorageSettings::class);
-		return $storageSettings->getInstance($this->storageInstance);
+		if($this->connection_id == 0) return null;
+		return IntegrationConnection::where('id', $this->connection_id)->first();
 	}
 	
 	public function preview(): string
 	{
-		$storageSettings = app()->make(StorageSettings::class);
-		$storage = $storageSettings->getInstance($this->storageInstance);
-		return $storage->previewFile($this->person(), $this);
+		return $this->connection()->previewFile($this);
 	}
 	
 	public function getExportFile(): ?ExportFile
@@ -127,7 +125,6 @@ class DocumentFile implements Arrayable, JsonSerializable
 				$this->size
 			);
 		}
-		return $this->storageInstance()
-		            ->exportFile($this->person(), $this);
+		return $this->connection()->exportFile($this);
 	}
 }

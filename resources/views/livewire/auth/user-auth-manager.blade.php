@@ -1,11 +1,11 @@
-<div class="border rounded m-1 p-2 @if(!$person->auth_driver) text-bg-danger @elseif($person->auth_driver->isLocked()) text-bg-warning @else text-bg-secondary @endif">
+<div class="border rounded m-1 p-2 @if($person->authConnection == null) text-bg-danger @elseif($isLocked) text-bg-warning @else text-bg-secondary @endif">
     <h4 class="border-bottom">{{ __('settings.auth.user') }}</h4>
     @if($changingAuth)
         <div class="mb-3">
             <label for="change_auth" class="form-label">{{ __('settings.auth.change.to') }}</label>
-            <select id="change_auth" class="form-select" wire:model="authDriver">
-                @foreach(\App\Classes\Auth\Authenticator::all() as $driver => $driverClass)
-                    <option value="{{ $driver }}" @selected($driver == $authDriver)>{{ ($driverClass)::driverPrettyName() }}</option>
+            <select id="change_auth" class="form-select" wire:model="newServiceId">
+                @foreach($authServices as $service)
+                    <option value="{{ $service->id }}">{{ $service->name }}</option>
                 @endforeach
             </select>
         </div>
@@ -19,7 +19,7 @@
                 <label for="change_auth" class="form-label">{{ __('settings.auth.password.change') }}</label>
                 <livewire:auth.password-field wire:model="newPassword" show-clear-password="true" show-generate-password="true" />
             </div>
-            @if($person->auth_driver->canSetMustChangePassword())
+            @if($person->authConnection && $person->authConnection->canChangePassword())
                 <div class="form-check mb-3">
                     <input
                         type="checkbox"
@@ -36,29 +36,27 @@
             </div>
         </form>
     @else
-        @if(!$person->auth_driver)
+        @if(!$person->authConnection)
             <h5>{{ __('settings.auth.reset.success') }}</h5>
         @else
-            <h5 class="mb-3 text-info-emphasis fw-bold">{{ $person->auth_driver::driverPrettyName() }}</h5>
+            <h5 class="mb-3 text-info-emphasis fw-bold">{{ $person->authConnection->service->name }}</h5>
             <div class="alert alert-info">
-                {{ $person->auth_driver::driverDescription() }}
+                {{ $person->authConnection->service->description }}
             </div>
         @endif
         <div class="d-grid gap-2">
-            @if($person->auth_driver != null)
-                @if($person->auth_driver->isLocked())
-                    <button class="btn btn-danger" type="button" wire:click="unlockUser"><b>{{ __('common.locked') }}</b>
-                        {{ __('settings.auth.lock') }}</button>
+            @if($person->authConnection)
+                @if($isLocked)
+                    <button class="btn btn-danger" type="button" wire:click="unlockUser"><b>{{ __('common.locked') }}</b></button>
                 @else
-                    <button class="btn btn-success" type="button" wire:click="lockUser"><b>{{ __('common.unlocked') }}</b>
-                        {{ __('settings.auth.unlock') }}</button>
+                    <button class="btn btn-success" type="button" wire:click="lockUser"><b>{{ __('common.unlocked') }}</b></button>
                     <button
                             class="btn btn-primary"
                             type="button"
                             wire:confirm="{{ __('settings.auth.reset.confirm') }}"
                             wire:click="resetAuth()"
                     >{{ __('settings.auth.reset') }}</button>
-                    @if($person->auth_driver->canChangePassword())
+                    @if($person->authConnection->canChangePassword())
                         <button
                             class="btn @if($passwordWasChanged) btn-success @else btn-danger @endif"
                             id="change_passwd_btn"

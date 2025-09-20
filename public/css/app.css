@@ -2655,10 +2655,9 @@ legend + * {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
-
 [type=search]::-webkit-search-cancel-button {
-    cursor: pointer;
-    filter: grayscale(1);
+  cursor: pointer;
+  filter: grayscale(1);
 }
 
 /* rtl:raw:
@@ -8298,7 +8297,7 @@ textarea.form-control-lg {
 .spinner-grow,
 .spinner-border {
   display: inline-block;
-    flex-shrink: 0;
+  flex-shrink: 0;
   width: var(--bs-spinner-width);
   height: var(--bs-spinner-height);
   vertical-align: var(--bs-spinner-vertical-align);
@@ -15517,11 +15516,11 @@ select[multiple] {
 }
 
 .border-dotted {
-    border-style: dotted !important;
+  border-style: dotted !important;
 }
 
 .border-dashed {
-    border-style: dashed !important;
+  border-style: dashed !important;
 }
 
 .border-top-dotted {
@@ -15983,4 +15982,42 @@ select[multiple] {
 .asset-drop {
   border: 2px dashed black !important;
   background-color: lightgray !important;
+}
+
+.list-group.list-group-flush.hoverable > li.list-group-item:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-multi-color {
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text; /* For Webkit browsers */
+  background-clip: text;
+  color: transparent;
+}
+
+@property --gradient-percent {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+.ai-thinking {
+  background-color: #e9ecef;
+  --gradient-percent: 0%;
+  animation-name: thinking;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-image: radial-gradient(circle at 50% 60%, rgb(245, 237, 3) 0%, rgba(245, 237, 3, 0) var(--gradient-percent));
+}
+
+@keyframes thinking {
+  0% {
+    --gradient-percent: 0% ;
+  }
+  50% {
+    --gradient-percent: 100% ;
+  }
+  100% {
+    --gradient-percent: 0% ;
+  }
 }

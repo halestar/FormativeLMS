@@ -669,6 +669,22 @@ let SessionSettings = (function()
             .catch((error) => console.log(error));
     }
 
+    SessionSettings.prototype.saveTo = function (key, value)
+    {
+        let params =
+            {
+                key: key,
+                value: value
+            };
+        axios.post(SessionSettings.url, params)
+            .then(function(response)
+            {
+                console.log(response);
+            })
+            .catch((error) => console.log(error));
+    }
+
+
     return SessionSettings;
 })();
 

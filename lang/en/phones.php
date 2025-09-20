@@ -2,14 +2,14 @@
 
 return
 [
-    'phone' => 'Phone',
+	'add_phone' => 'Add Phone',
+	'ext' => 'Ext',
+	'label' => 'Phone Label',
+	'link' => 'Link',
+	'mobile' => 'Mobile',
+	'mobile_phone' => 'Mobile Phone',
+	'phone' => 'Phone',
 	'phone_number' => 'Phone Number',
-    'ext' => 'Ext',
-    'mobile_phone' => 'Mobile Phone',
-    'primary_phone' => 'Primary Phone',
-    'label' => 'Phone Label',
-    'add_phone' => 'Add Phone',
-    'update_phone' => 'Update Phone',
-    'mobile' => 'Mobile',
-    'link' => 'Link',
+	'primary_phone' => 'Primary Phone',
+	'update_phone' => 'Update Phone',
 ];

@@ -2,6 +2,8 @@
 
 namespace App\Traits;
 
+use Illuminate\Database\Eloquent\Casts\Attribute;
+
 trait UsesJsonValue
 {
 	protected function updateValue(string $values, string $key, mixed $value)
@@ -16,4 +18,16 @@ trait UsesJsonValue
 		$data = json_decode($values, true);
 		return $data[$key] ?? $default;
 	}
+	
+	protected function basicProperty($propertyName = null): Attribute
+	{
+		return Attribute::make
+		(
+			get: fn(mixed $value, array $attributes) =>
+			$this->getValue($attributes['value'], $propertyName, (static::defaultValue())[$propertyName]),
+			set: fn(mixed $value, array $attributes) =>
+			$this->updateValue($attributes['value'], $propertyName, $value),
+		);
+	}
+	
 }

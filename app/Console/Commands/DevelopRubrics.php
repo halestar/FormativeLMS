@@ -71,8 +71,8 @@ class DevelopRubrics extends Command
 				$this->info("Asking Ai...");
 				$response = Prism::structured()
 				                 ->using(Provider::Gemini, 'gemini-2.0-flash')
-				                 ->withSystemPrompt(view('ai.develop-rubrics.system-prompt', $systemPromptVars))
-				                 ->withPrompt(view('ai.develop-rubrics.prompt', ['skill' => $skill]))
+				                 ->withSystemPrompt(view('ai.default-prompts.knowledge-skill.system-prompt', $systemPromptVars))
+				                 ->withPrompt(view('ai.default-prompts.knowledge-skill.prompt', ['skill' => $skill]))
 				                 ->withSchema($this->getRubricSchema())
 				                 ->asStructured();
 				$this->info("Response received. Updating Skill...");

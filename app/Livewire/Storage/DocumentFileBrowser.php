@@ -2,10 +2,11 @@
 
 namespace App\Livewire\Storage;
 
-use App\Classes\Storage\Document\DocumentStorage;
 use App\Classes\Storage\DocumentFile;
-use App\Models\People\Person;
+use App\Models\Integrations\Connections\DocumentFilesConnection;
+use App\Models\Utilities\MimeType;
 use Illuminate\Support\Str;
+use Illuminate\Validation\Rules\File;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 
@@ -13,8 +14,7 @@ class DocumentFileBrowser extends Component
 {
 	use WithFileUploads;
 	
-	public DocumentStorage $documentStorage;
-	public Person $person;
+	public DocumentFilesConnection $connection;
 	public array $assets;
 	public string $filterTerms = '';
 	public ?DocumentFile $selectedFolder = null;
@@ -22,14 +22,14 @@ class DocumentFileBrowser extends Component
 	public null|DocumentFile|array $selectedItems = null;
 	public bool $multiple = false;
 	public bool $canSelectFolders = false;
-	public array $mimeTypes = [];
+	public array $mimeTypes;
 	public $uploads;
 	
-	public function mount(Person $person, DocumentStorage $documentStorage)
+	public function mount(DocumentFilesConnection $connection, array $mimeTypes = null)
 	{
-		$this->documentStorage = $documentStorage;
-		$this->person = $person;
-		$this->assets = $this->documentStorage->rootFiles($this->person);
+		$this->connection = $connection;
+		$this->assets = $this->connection->rootFiles();
+		$this->mimeTypes = $mimeTypes? array_intersect($mimeTypes, MimeType::allowedMimeTypes()): MimeType::allowedMimeTypes();
 	}
 	
 	public function clearFilter()
@@ -39,7 +39,7 @@ class DocumentFileBrowser extends Component
 	
 	function viewFolder(string $path)
 	{
-		$folder = $this->documentStorage->file($this->person, $path);
+		$folder = $this->connection->file($path);
 		if($folder->isFolder) {
 			$this->selectedFolder = $folder;
 		}
@@ -48,14 +48,14 @@ class DocumentFileBrowser extends Component
 	public function viewParent()
 	{
 		if($this->selectedFolder) {
-			$this->selectedFolder = $this->documentStorage->parentDirectory($this->person, $this->selectedFolder);
+			$this->selectedFolder = $this->connection->parentDirectory($this->selectedFolder);
 		}
 		
 	}
 	
 	public function viewFile(string $path)
 	{
-		$file = $this->documentStorage->file($this->person, $path);
+		$file = $this->connection->file($path);
 		if(!$file->isFolder && $file->canPreview)
 			$this->viewingFile = $file;
 	}
@@ -67,30 +67,30 @@ class DocumentFileBrowser extends Component
 	
 	public function removeFile(string $path)
 	{
-		$file = $this->documentStorage->file($this->person, $path);
-		$this->documentStorage->deleteFile($this->person, $file);
+		$file = $this->connection->file($path);
+		$this->connection->deleteFile($file);
 	}
 	
 	public function updateName(string $path, string $newName)
 	{
-		$file = $this->documentStorage->file($this->person, $path);
-		$this->documentStorage->changeName($this->person, $file, $newName);
+		$file = $this->connection->file($path);
+		$this->connection->changeName($file, $newName);
 	}
 	
 	public function addFolder()
 	{
 		$defaultName = __('storage.document.folder.default');
-		$this->documentStorage->persistFolder($this->person, $defaultName, $this->selectedFolder);
+		$this->connection->persistFolder($defaultName, $this->selectedFolder);
 	}
 	
 	public function moveToFolder(string $path, string $folderPath = '')
 	{
-		$file = $this->documentStorage->file($this->person, $path);
+		$file = $this->connection->file($path);
 		if(!$folderPath || $folderPath == '')
 			$targetFolder = null;
 		else
-			$targetFolder = $this->documentStorage->file($this->person, $folderPath);
-		$this->documentStorage->changeParent($this->person, $file, $targetFolder);
+			$targetFolder = $this->connection->file($folderPath);
+		$this->connection->changeParent($file, $targetFolder);
 	}
 	
 	public function isSelected(DocumentFile $file): bool
@@ -103,7 +103,7 @@ class DocumentFileBrowser extends Component
 	
 	public function selectFile(string $path)
 	{
-		$file = $this->documentStorage->file($this->person, $path);
+		$file = $this->connection->file($path);
 		if($this->multiple) {
 			//since multiple is set it should ALWAYS be an array
 			if(!$this->selectedItems)
@@ -126,8 +126,17 @@ class DocumentFileBrowser extends Component
 		$this->dispatch('document-file-browser.file-selected', selected_items: $this->selectedItems);
 	}
 	
+	protected function rules()
+	{
+		return [
+			'uploads' => File::types(MimeType::allowedMimeTypes())
+			                       ->max(12 * 1024),
+		];
+	}
+	
 	public function addFile()
 	{
+		$this->validate();
 		//we need the manager to convert the images.
 		if(is_array($this->uploads)) {
 			//first, since we're uploading multiple files, we will need to go through each one.
@@ -135,11 +144,11 @@ class DocumentFileBrowser extends Component
 				//make sure our mime type allows it
 				if(count($this->mimeTypes) > 0 && !in_array($file->getMimeType(), $this->mimeTypes))
 					continue;
-				$this->documentStorage->persistFile($this->person, $file, $this->selectedFolder);
+				$this->connection->persistFile($file, $this->selectedFolder);
 			}
 		}
 		elseif(count($this->mimeTypes) == 0 || in_array($this->uploads->getMimeType(), $this->mimeTypes))
-			$this->documentStorage->persistFile($this->person, $this->uploads, $this->selectedFolder);
+			$this->connection->persistFile($this->uploads, $this->selectedFolder);
 		
 		$this->refreshAssets();
 	}
@@ -147,9 +156,9 @@ class DocumentFileBrowser extends Component
 	public function refreshAssets()
 	{
 		if($this->selectedFolder)
-			$this->assets = $this->documentStorage->files($this->person, $this->selectedFolder, $this->mimeTypes);
+			$this->assets = $this->connection->files($this->selectedFolder, $this->mimeTypes);
 		else
-			$this->assets = $this->documentStorage->rootFiles($this->person, $this->mimeTypes);
+			$this->assets = $this->connection->rootFiles( $this->mimeTypes);
 		if($this->filterTerms)
 			$this->assets = array_filter($this->assets,
 				fn($asset) => Str::contains($asset->name, $this->filterTerms, true));

@@ -41,7 +41,7 @@ class RelationshipCreator extends Component
     public function linkTarget(Person $person)
     {
         $this->to_person_id = $person->school_id;
-        $this->to_person = Person::find($this->to_person_id);
+        $this->to_person = $person;
         $this->relation_search = "";
     }
 
@@ -97,7 +97,7 @@ class RelationshipCreator extends Component
 
     public function addRelationship()
     {
-        $this->person->relationships()->attach($this->to_person_id, ['relationship_id' => $this->relationship_id]);
+        $this->person->relationships()->attach($this->to_person->id, ['relationship_id' => $this->relationship_id]);
         if($this->reciprocal)
             $this->to_person->relationships()->attach($this->person->id, ['relationship_id' => $this->reciprocal_id]);
         $this->clearForm();

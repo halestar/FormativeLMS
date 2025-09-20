@@ -5,6 +5,7 @@ namespace App\Classes\Storage\Document;
 use App\Classes\Storage\DocumentFile;
 use App\Classes\Storage\ExportFile;
 use App\Models\People\Person;
+use App\Models\Utilities\MimeType;
 use Google\Client;
 use Google\Service\Drive\DriveFile;
 use Google_Service_Drive;
@@ -80,7 +81,7 @@ class GoogleDocumentStorage extends DocumentStorage
 				$file->name,
 				$this->instanceProperty,
 				$file->id,
-				config('file_icons.folder', ''),
+				MimeType::FOLDER_HTML,
 				'',
 				0,
 				false,
@@ -96,8 +97,7 @@ class GoogleDocumentStorage extends DocumentStorage
 			$file->name,
 			$this->instanceProperty,
 			$file->id,
-			$file->thumbnailLink ? '<img src="' . $file->thumbnailLink . '" alt="' . $file->name . '" />' :
-				config('file_icons.' . $file->mimeType, config('file_icons.default', '')),
+			MimeType::find($file->mimeType)->icon,
 			$file->mimeType,
 			$file->size ?? 0,
 			false,

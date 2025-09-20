@@ -2,16 +2,16 @@
 
 namespace Database\Factories\People;
 
+use App\Enums\IntegratorServiceTypes;
 use App\Models\CRUD\Level;
 use App\Models\CRUD\Relationship;
+use App\Models\Integrations\IntegrationService;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Str;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\People\Person>
@@ -53,7 +53,15 @@ class PersonFactory extends Factory
 	{
 		return $this->afterCreating(function (Person $person) use ($password)
 		{
-			$authDriver = $person->auth_driver->setPassword($password);
+			//we set up the local driver
+			$authService = IntegrationService::select('integration_services.*')
+			                                 ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
+			                                 ->where('integrators.path', 'local')
+			                                 ->where('integration_services.service_type', IntegratorServiceTypes::AUTHENTICATION)
+			                                 ->first()?->getService();
+			if($authService)
+				if(($connection = $authService->connect($person)))
+					$connection->setPassword($password);
 		});
 	}
 

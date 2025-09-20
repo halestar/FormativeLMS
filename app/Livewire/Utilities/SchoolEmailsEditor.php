@@ -4,7 +4,9 @@ namespace App\Livewire\Utilities;
 
 use App\Classes\Settings\EmailSetting;
 use App\Classes\Settings\StorageSettings;
-use App\Classes\Storage\Work\WorkStorage;
+use App\Enums\WorkStoragesInstances;
+use App\Interfaces\SchoolEmail;
+use App\Models\Integrations\IntegrationConnection;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
@@ -18,7 +20,7 @@ class SchoolEmailsEditor extends Component
 	public ?EmailSetting $emailSetting = null;
 	public string $subject = "";
 	public string $content = "";
-	public WorkStorage $workStorage;
+	public IntegrationConnection $connection;
 	public string $emailClass;
 	public string $reloadKey = '';
 	
@@ -55,25 +57,19 @@ class SchoolEmailsEditor extends Component
 	{
 		$this->breadcrumb = [__('system.menu.school.emails') => "#"];
 		$storageSettings = app()->make(StorageSettings::class);;
-		$this->workStorage = $storageSettings->email_work;
+		$this->connection = $storageSettings->getWorkConnection(WorkStoragesInstances::EmailWork);
 	}
 	
 	public function loadEmail(string $emailClass)
 	{
 		$this->emailClass = $emailClass;
+		/** @var SchoolEmail $emailClass */
 		$this->emailSetting = ($emailClass)::getSetting();
-		if($this->emailSetting) {
-			$this->emailSetting->cleanup();
-			$this->subject = $this->emailSetting->subject;
-			$this->content = $this->emailSetting->content;
-			$this->editing = true;
-			$this->reloadKey = uniqid();
-		}
-		else {
-			$this->subject = "";
-			$this->content = "";
-			$this->editing = false;
-		}
+		$this->emailSetting->cleanup();
+		$this->subject = $this->emailSetting->subject;
+		$this->content = $this->emailSetting->content;
+		$this->editing = true;
+		$this->reloadKey = uniqid();
 	}
 	
 	public function updateEmail()

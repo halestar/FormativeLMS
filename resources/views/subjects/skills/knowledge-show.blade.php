@@ -21,11 +21,11 @@
         <h4 class="mb-3">{{ __('subjects.skills.name') }}: {{ $skill->name }}</h4>
     @endif
     <div class="row border-bottom mb-3">
-        <div class="col-4">
+        <div class="col-lg-4">
             <h5 class="mb-3 border-bottom">{{ __('subjects.skills.description') }}</h5>
             {!! $skill->description !!}
         </div>
-        <div class="col-8">
+        <div class="col-lg-8">
             <div class="mb-3 d-flex justify-content-between align-items-baseline border-bottom">
                 <h5>{{ __('subjects.skills.rubric') }}</h5>
                 @if($skill->rubric)

@@ -1,6 +1,6 @@
 <?php
 
 return
-	[
-		'messages.title' => 'De :sender',
-	];
+[
+	'messages.title' => 'De :sender',
+];

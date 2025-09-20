@@ -2,14 +2,12 @@
 
 namespace App\Models\Utilities;
 
-use App\Interfaces\Fileable;
 use App\Traits\UsesJsonValue;
-use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
-class SystemSetting extends Model implements Fileable
+class SystemSetting extends Model
 {
 	// This gives us an easy way to e
 	use UsesJsonValue;
@@ -55,26 +53,10 @@ class SystemSetting extends Model implements Fileable
 		}
 		return $setting;
 	}
-
-	protected function basicProperty($propertyName = null): Attribute
-	{
-		return Attribute::make
-		(
-			get: fn(mixed $value, array $attributes) =>
-				$this->getValue($attributes['value'], $propertyName, (static::defaultValue())[$propertyName]),
-			set: fn(mixed $value, array $attributes) =>
-				$this->updateValue($attributes['value'], $propertyName, $value),
-		);
-	}
 	
 	public function workFiles(): MorphToMany|BelongsToMany
 	{
 		return $this->belongsToMany(WorkFile::class, 'system_files', 'name', 'work_file_id');
-	}
-	
-	public function getWorkStorageKey(): string
-	{
-		return $this->name;
 	}
 	
 	public function shouldBePublic(): bool

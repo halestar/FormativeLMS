@@ -28,14 +28,13 @@
                     </div>
                     <livewire:utilities.text-editor
                             wire:model.live.debounce="content"
-                            :workStorage="$workStorage"
                             :fileable="$emailSetting"
                             :availableTokens="($emailClass)::availableTokens()"
                             :key="$reloadKey"
                     ></livewire:utilities.text-editor>
                 </div>
                 <div class="col-md-3">
-                    <livewire:storage.work-storage-browser :workStorage="$workStorage" :fileable="$emailSetting"/>
+                    <livewire:storage.work-storage-browser :fileable="$emailSetting"/>
                 </div>
             </div>
 
@@ -73,6 +72,3 @@
         </div>
     @endif
 </div>
-@push('head_scripts')
-    <x-utilities.text-editor instance-name="textarea#content"/>
-@endpush

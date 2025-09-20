@@ -64,7 +64,7 @@
                 </div>
             </div>
         @endif
-        <main class="py-4">
+        <main class="py-4 position-relative">
             @yield('content')
         </main>
         <div class="toast-container position-fixed bottom-0 end-0 p-3" id="toast-container">
@@ -106,8 +106,8 @@
             <livewire:search />
     </div>
     <script>
-        $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() })
-            window.sessionSettings = new SessionSettings('{{ Route::currentRouteName() }}');
+        $('#search-modal').on('shown.bs.modal', function(){ $('#search').focus() });
+        window.sessionSettings = new SessionSettings('{{ Route::currentRouteName() }}');
     </script>
     <div class="modal fade" id="document-browser-modal" data-bs-backdrop="static" tabindex="-1" aria-hidden="true">
         <livewire:storage.document-storage-browser />

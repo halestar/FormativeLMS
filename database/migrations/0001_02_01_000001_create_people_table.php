@@ -28,7 +28,7 @@ return new class extends Migration
             $table->json('global_log')->nullable();
             $table->json('prefs')->nullable();
             $table->bigInteger('school_id')->unsigned()->unique()->index();
-	        $table->string('auth_driver')->nullable();
+			$table->uuid('auth_connection_id')->nullable();
             $table->rememberToken();
             $table->softDeletes();
             $table->timestamps();

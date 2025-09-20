@@ -2,6 +2,7 @@
 
 namespace App\Interfaces;
 
+use App\Enums\WorkStoragesInstances;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
@@ -13,9 +14,9 @@ interface Fileable
 	public function workFiles(): MorphToMany|BelongsToMany;
 	
 	/**
-	 * @return string The key used to store the work files in the work storage.
+	 * @return WorkStoragesInstances The type of work storage that this filable uses.
 	 */
-	public function getWorkStorageKey(): string;
+	public function getWorkStorageKey(): WorkStoragesInstances;
 	
 	/**
 	 * @return bool Whether or not this file should be publicly accessible.

@@ -15,8 +15,6 @@ $breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/
 @import 'schedule';
 @import 'school_layout';
 
-
-
 .count-message {
     margin-top: -20px;
     margin-right: 5px;
@@ -303,4 +301,46 @@ $img-icon-sizes: ("xl": 96px, "large": 48px, "normal": 32px, "small": 24px, "tin
 {
   border: 2px dashed black !important;
   background-color: lightgray !important;
+}
+
+.list-group.list-group-flush.hoverable > li.list-group-item:hover
+{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-multi-color
+{
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text; /* For Webkit browsers */
+  background-clip: text;
+  color: transparent;
+}
+
+@property --gradient-percent {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 0%;
+}
+
+.ai-thinking
+{
+  background-color: $secondary;
+  --gradient-percent: 0%;
+  animation-name: thinking;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-image: radial-gradient(circle at 50% 60%, rgba(245,237,3, 1) 0%, rgba(245,237,3,0) var(--gradient-percent));
+}
+
+@keyframes thinking {
+  0% {
+    --gradient-percent: 0%
+  }
+  50% {
+    --gradient-percent: 100%
+  }
+  100% {
+    --gradient-percent: 0%
+  }
 }

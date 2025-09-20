@@ -41,7 +41,7 @@ class NameToken implements Arrayable, JsonSerializable
             'last' => __('people.profile.fields.last'),
             'nick' => __('people.profile.fields.nick'),
             'email' => __('people.profile.fields.email'),
-            'preferred_first' => __('people.profile.fields.preferred_name'),
+            'preferred_first' => __('people.profile.fields.preferred_first'),
         ];
     }
 

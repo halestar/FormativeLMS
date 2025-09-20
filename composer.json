@@ -10,6 +10,7 @@
         "halestar/dicms-blogger": ">=0.7.5",
         "halestar/laravel-drop-in-cms": ">=0.7.5",
         "hashids/hashids": "^5.0",
+        "lab404/laravel-impersonate": "^1.7",
         "laravel/framework": "^12.0",
         "laravel/reverb": "^1.0",
         "laravel/scout": "^10.14",
@@ -24,8 +25,9 @@
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.13",
-        "barryvdh/laravel-ide-helper": "^3.0",
+        "barryvdh/laravel-ide-helper": "^3.6",
         "fakerphp/faker": "^1.23",
+        "laravel/pail": "^1.2",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
@@ -45,7 +47,8 @@
         "psr-4": {
             "Tests\\": "tests/",
             "halestar\\DiCmsBlogger\\": "packages/halestar/DiCmsBlogger/src",
-            "halestar\\LaravelDropInCms\\": "packages/halestar/LaravelDropInCms/src"
+            "halestar\\LaravelDropInCms\\": "packages/halestar/LaravelDropInCms/src",
+            "halestar\\FabLmsGoogleIntegrator\\": "packages/halestar/FabLmsGoogleIntegrator/src"
         }
     },
     "scripts": {
@@ -68,12 +71,16 @@
             "chmod -R 755 bootstrap\/cache",
             "php artisan optimize:clear",
             "php artisan optimize"
-        ]
+        ],
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
     },
     "extra": {
         "laravel": {
             "dont-discover": []
-        }
+        },
+        "google/apiclient-services": [
+          "Drive"
+        ]
     },
     "config": {
         "optimize-autoloader": true,

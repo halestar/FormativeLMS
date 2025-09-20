@@ -1,20 +1,22 @@
 <div class="modal-dialog modal-xl">
     @if($open)
-        <div class="modal-content">
+        <div
+            class="modal-content"
+        >
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="document-browser-title">{{ __('storage.document.browser') }}</h1>
             </div>
             <div class="modal-body mw-100 position-relative">
                 @if(count($tabs) > 0)
                     <ul class="nav nav-tabs">
-                        @foreach($tabs as $instance => $tab)
+                        @foreach($tabs as $service_id => $service)
                             <li class="nav-item">
-                                <button class="nav-link {{ $selectedTab == $instance? 'active': '' }}"
-                                        type="button" wire:click="setTab('{{ $instance }}')">
-                                    @if($instance == "upload")
+                                <button class="nav-link {{ $selectedService == $service_id? 'active': '' }}"
+                                        type="button" wire:click="setTab('{{ $service_id }}')">
+                                    @if($service_id == 0)
                                         {{ trans_choice('storage.documents.file.upload', ($multiple? 2: 1)) }}
                                     @else
-                                        {{ $tab }}
+                                        {{ $service }}
                                     @endif
                                 </button>
                             </li>
@@ -26,43 +28,52 @@
                                 tabindex="-1"
                                 style="height: 600px;"
                         >
-                            @if($allowUpload && $selectedTab == "upload")
+                            @if($allowUpload && $selectedService == 0)
                                 <div
-                                        x-data="{dragging: false}"
+                                        x-data="{dragging: false, uploading: false, progress: 0, ul_error: false}"
                                         x-on:dragenter="dragging = true"
                                         x-on:dragover.prevent="dragging = true"
                                         x-on:dragleave="dragging = false"
                                         x-on:drop="
                                     files = $event.dataTransfer.files;
+                                    uploading = true;
                                     if(files.length === 1)
                                     {
-                                            $wire.upload('uploadedFiles', files[0], (uploadedFilename) => $wire.uploadFiles(),
-                                                () => ul_error = true,
-                                                (event) => {},
+                                            $wire.upload('uploadedFiles', files[0], (uploadedFilename) => { uploading = false; $wire.uploadFiles()},
+                                                (event) => { ul_error = true; console.log(event)},
+                                                (event) => { progress = event.detail.progress },
                                                 () => {});
                                     }
                                     else if(files.length > 1)
                                     {
-                                        $wire.uploadMultiple('uploadedFiles', files, (uploadedFilename) => $wire.uploadFiles(),
-                                            () => ul_error = true,
-                                            (event) => {},
-                                            () => {});
+                                            $wire.upload('uploadedFiles', files[0], (uploadedFilename) => { uploading = false; $wire.uploadFiles()},
+                                                (event) => { ul_error = true; console.log(event)},
+                                                (event) => { progress = event.detail.progress },
+                                                () => {});
                                     }
                                     dragging = false"
-                                        class="overflow-hidden text-center border border-5 border-dashed p-3 m-3 h-100 rounded d-flex"
+                                        class="position-relative overflow-hidden text-center border border-5 border-dashed p-3 m-3 h-100 rounded d-flex"
                                         :class="dragging && 'text-bg-secondary'"
 
                                 >
                                     <div class="m-auto display-2 text-uppercase fw-bold">{{ __('storage.documents.file.drop') }}</div>
+                                    <div
+                                            class="position-absolute top-0 start-0 w-100 h-100 text-bg-secondary opacity-60 d-flex justify-content-center align-items-center flex-column"
+                                            x-show.important="uploading"
+                                    >
+                                        <div class="display-5 mb-3">{{ __('common.uploading') }}</div>
+                                        <div class="progress w-50 border border-dark" role="progressbar" :aria-valuenow="progress" aria-valuemin="0" aria-valuemax="100" style="height: 3em;">
+                                            <div class="progress-bar progress-bar-striped" :style="{ width: progress + '%'}"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             @else
                                 <livewire:storage.document-file-browser
-                                        :documentStorage="$documentStorages[$selectedTab]"
-                                        :person="$user"
+                                        :connection="$connections['' . $selectedService]"
                                         :multiple="$multiple"
                                         :canSelectFolders="$canSelectFolders"
                                         :mimeTypes="$mimeTypes"
-                                        wire:key="{{ $selectedTab . $browserKey }}"
+                                        wire:key="{{ $selectedService . $browserKey }}"
                                 />
                             @endif
                         </div>

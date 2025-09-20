@@ -2,11 +2,12 @@
 
 namespace Database\Seeders;
 
-use App\Classes\Storage\Document\GoogleDocumentStorage;
-use App\Classes\Storage\Document\LocalDocumentStorage;
-use App\Classes\Storage\Work\LocalWorkStorage;
+use App\Enums\IntegratorServiceTypes;
+use App\Enums\WorkStoragesInstances;
+use App\Models\Integrations\IntegrationConnection;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Log;
 
 class SystemSettingsSeeder extends Seeder
 {
@@ -90,24 +91,21 @@ class SystemSettingsSeeder extends Seeder
             ]
         );
 	    
+		$work = [];
+		//get the local work connection
+	    $localConnection = IntegrationConnection::select('integration_connections.*')
+		    ->join('integration_services', 'integration_services.id', '=', 'integration_connections.service_id')
+		    ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
+		    ->where('integrators.path', '=', 'local')
+		    ->where('integration_services.service_type', IntegratorServiceTypes::WORK)
+		    ->first();
+		foreach(WorkStoragesInstances::cases() as $workStorage)
+			$work[$workStorage->value] = $localConnection?->id;
 	    $storage_settings =
 		    [
-			    "document_storages" =>
-				    [
-					    LocalDocumentStorage::class,
-					    GoogleDocumentStorage::class,
-				    ],
-			    "work_storages" =>
-				    [
-					    LocalWorkStorage::class,
-				    ],
-			    'employee_documents' => [],
-			    'student_documents' => [],
-			    'student_work' => null,
-			    'employee_work' => null,
-			    'class_work' => null,
-			    'email_work' => null,
+			    'work' =>$work
 		    ];
+		Log::info(print_r($storage_settings, true));
 	    SystemSetting::create
 	    (
 		    [
