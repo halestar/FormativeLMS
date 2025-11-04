@@ -7,8 +7,7 @@ use App\Interfaces\AiPromptable;
 use App\Interfaces\Fileable;
 use App\Traits\HasWorkFiles;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Facades\Blade;
 
 class AiPrompt extends Model implements Fileable
 {
@@ -20,28 +19,15 @@ class AiPrompt extends Model implements Fileable
 	protected $primaryKey = "id";
 	protected $fillable =
 		[
-			'system_prompt_id',
 			'person_id',
 			'prompt',
+			'system_prompt',
 			'structured',
 			'temperature',
 			'tools',
 			'last_results'
 		];
 	
-	/**
-	 * Get the promtable model, which will always implement AiPromptable.
-	 * @return AiPromptable The object that owns this prompt.
-	 */
-	public function ai_promptable(): MorphTo
-	{
-		return $this->morphTo();
-	}
-	
-	public function systemPrompt(): BelongsTo
-	{
-		return $this->belongsTo(AiSystemPrompt::class, 'system_prompt_id');
-	}
 	
 	public function getWorkStorageKey(): WorkStoragesInstances
 	{
@@ -67,5 +53,19 @@ class AiPrompt extends Model implements Fileable
 				'tools' => 'array',
 				'last_results' => 'array',
 			];
+	}
+	
+	public function resetPrompt(): void
+	{
+		$this->prompt = ($this->className)::defaultPrompt($this->property);
+		$this->system_prompt = ($this->className)::defaultSystemPrompt($this->property);
+		$this->temperature = ($this->className)::defaultTemperature($this->property);
+		$this->tools = ($this->className)::defaultTools($this->property);
+		$this->save();
+	}
+	
+	public function renderPrompt(AiPromptable $target): string
+	{
+		return Blade::render($this->prompt, $target->withTokens());
 	}
 }

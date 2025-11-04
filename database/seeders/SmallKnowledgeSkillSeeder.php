@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\CRUD\SkillCategoryDesignation;
 use App\Models\Locations\Campus;
-use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
+use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\SubjectMatter\Assessment\SkillCategory;
+use App\Models\SystemTables\SkillCategoryDesignation;
 use Faker\Generator;
 use Illuminate\Container\Container;
 use Illuminate\Database\Seeder;
@@ -102,7 +102,7 @@ class SmallKnowledgeSkillSeeder extends Seeder
 				$startGrade = $row[$minGrade] + 1;
 				$endGrade = $row[$maxGrade] + 1;
 				$subject_id = $startGrade <= 6 ? $subjects['es'] : ($startGrade <= 9 ? $subjects['ms'] : $subjects['hs']);
-				$skill = KnowledgeSkill::create(
+				$skill = Skill::create(
 					[
 						'subject_id' => $subject_id,
 						'designation' => $row[$designation],

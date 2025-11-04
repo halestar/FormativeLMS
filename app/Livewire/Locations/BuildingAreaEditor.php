@@ -2,10 +2,10 @@
 
 namespace App\Livewire\Locations;
 
-use App\Models\CRUD\SchoolArea;
 use App\Models\Locations\Building;
 use App\Models\Locations\BuildingArea;
 use App\Models\Locations\Room;
+use App\Models\SystemTables\SchoolArea;
 use Illuminate\Support\Collection;
 use Livewire\Attributes\Validate;
 use Livewire\Component;

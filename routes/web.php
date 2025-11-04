@@ -3,8 +3,8 @@
 use App\Classes\Integrators\IntegrationsManager;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\Settings\CrudController;
 use App\Http\Controllers\Settings\IntegratorController;
+use App\Http\Controllers\Settings\SystemTablesController;
 use App\Models\Integrations\Integrator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -76,7 +76,7 @@ Route::prefix('cms')
      });
 
 //crud
-Route::get('/crud', [CrudController::class, 'index'])
+Route::get('/crud', [SystemTablesController::class, 'index'])
      ->name('crud');
 
 //settings

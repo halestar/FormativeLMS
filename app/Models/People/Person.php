@@ -8,7 +8,6 @@ use App\Classes\RoleField;
 use App\Classes\Settings\SchoolSettings;
 use App\Enums\IntegratorServiceTypes;
 use App\Interfaces\HasSchoolRoles;
-use App\Models\CRUD\Relationship;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\Locations\Campus;
@@ -16,10 +15,14 @@ use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use App\Models\SubjectMatter\ClassSession;
 use App\Models\SubjectMatter\Components\ClassMessage;
+use App\Models\SubjectMatter\Learning\LearningDemonstrationTemplate;
+use App\Models\SubjectMatter\SchoolClass;
+use App\Models\SystemTables\Relationship;
 use App\Models\Utilities\SchoolRoles;
 use App\Notifications\NewClassMessageNotification;
 use App\Traits\Addressable;
 use App\Traits\Campuseable;
+use App\Traits\HasFullTextSearch;
 use App\Traits\HasLogs;
 use App\Traits\HasSchoolRolesTrait;
 use App\Traits\Phoneable;
@@ -44,12 +47,11 @@ use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Drivers\Imagick\Driver;
 use Intervention\Image\ImageManager;
 use Lab404\Impersonate\Models\Impersonate;
-use Laravel\Scout\Searchable;
 
 
 class Person extends Authenticatable implements HasSchoolRoles
 {
-	use HasFactory, HasLogs, SoftDeletes, HasSchoolRolesTrait, Phoneable, Addressable, Notifiable, Searchable, Campuseable, Impersonate;
+	use HasFactory, HasLogs, SoftDeletes, HasSchoolRolesTrait, Phoneable, Addressable, Notifiable, HasFullTextSearch, Campuseable, Impersonate;
 	
 	public const UKN_IMG = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
 	protected static string $logField = 'global_log';
@@ -98,18 +100,6 @@ class Person extends Authenticatable implements HasSchoolRoles
 	public function receivesBroadcastNotificationsOn(): string
 	{
 		return 'people.' . $this->id;
-	}
-	
-	public function toSearchableArray(): array
-	{
-		return
-			[
-				'first' => $this->first,
-				'middle' => $this->middle,
-				'last' => $this->last,
-				'email' => $this->email,
-				'nick' => $this->nick,
-			];
 	}
 	
 	/**********
@@ -525,6 +515,20 @@ class Person extends Authenticatable implements HasSchoolRoles
 		            ->whereBetweenColumns(DB::raw(date("'Y-m-d'")), ['terms.term_start', 'terms.term_end']);
 	}
 	
+	public function currentSchoolClasses(): Collection
+	{
+		return SchoolClass::select('school_classes.*')
+			->join('class_sessions', 'class_sessions.class_id', '=', 'school_classes.id')
+			->join('terms', 'terms.id', '=', 'class_sessions.term_id')
+			->join('class_sessions_teachers', 'class_sessions_teachers.session_id', '=', 'class_sessions.id')
+			->join('courses', 'courses.id', '=', 'school_classes.course_id')
+			->whereBetweenColumns(DB::raw(date("'Y-m-d'")), ['terms.term_start', 'terms.term_end'])
+			->where('class_sessions_teachers.person_id', $this->id)
+			->orderBy('courses.name')
+			->groupBy('school_classes.id')
+			->get();
+	}
+	
 	public function teachesClassSession(ClassSession $session): bool
 	{
 		return $this->classesTaught()
@@ -535,6 +539,11 @@ class Person extends Authenticatable implements HasSchoolRoles
 	public function classesTaught(): BelongsToMany
 	{
 		return $this->belongsToMany(ClassSession::class, 'class_sessions_teachers', 'person_id', 'session_id');
+	}
+	
+	public function learningDemonstrationTemplates(): HasMany
+	{
+		return $this->hasMany(LearningDemonstrationTemplate::class, 'person_id');
 	}
 	
 	/**

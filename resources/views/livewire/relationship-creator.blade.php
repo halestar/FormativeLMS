@@ -11,7 +11,7 @@
                             id="relationship_id"
                             wire:model.live="relationship_id"
                     >
-                        {!! \App\Models\CRUD\Relationship::htmlOptions() !!}
+                        {!! \App\Models\SystemTables\Relationship::htmlOptions() !!}
                     </select>
                     <label class="input-group-text">
                         {!! __('common.to') !!} &nbsp;
@@ -32,7 +32,7 @@
                                 id="reciprocal_id"
                                 wire:model.live="reciprocal_id"
                         >
-                            {!! \App\Models\CRUD\Relationship::htmlOptions() !!}
+                            {!! \App\Models\SystemTables\Relationship::htmlOptions() !!}
                         </select>
                         <label class="input-group-text">
                             {{ __('people.to2', ['name' => $person->name]) }}
@@ -64,7 +64,7 @@
                             id="relationship_id"
                             wire:model.live="relationship_id"
                     >
-                        {!! \App\Models\CRUD\Relationship::htmlOptions() !!}
+                        {!! \App\Models\SystemTables\Relationship::htmlOptions() !!}
                     </select>
                     @if(!$to_person_id)
                         <label class="input-group-text">
@@ -140,7 +140,7 @@
                                 id="reciprocal_id"
                                 wire:model="reciprocal_id"
                         >
-                            {!! \App\Models\CRUD\Relationship::htmlOptions() !!}
+                            {!! \App\Models\SystemTables\Relationship::htmlOptions() !!}
                         </select>
                         <label class="input-group-text">
                             {{ __('people.to2', ['name' => $person->name]) }}

@@ -1,5 +1,5 @@
 <div class="table-responsive">
-    @use(App\Casts\Rubric)
+    @use(App\Casts\Learning\Rubric)
     <table class="table table-bordered">
         <thead>
         <tr>

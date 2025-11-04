@@ -62,7 +62,7 @@
         @else
             <ul class="list-group list-group-flush">
                 @foreach($workFiles as $file)
-                    <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">
+                    <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center" wire:key="work-file-{{ $file->id }}">
                         <div class="flex-grow-1 text-truncate">{{ $file->name }}</div>
                         <button
                                 type="button"

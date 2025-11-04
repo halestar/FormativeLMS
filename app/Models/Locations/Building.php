@@ -2,7 +2,7 @@
 
 namespace App\Models\Locations;
 
-use App\Models\CRUD\SchoolArea;
+use App\Models\SystemTables\SchoolArea;
 use App\Traits\Phoneable;
 use App\Traits\SingleAddressable;
 use halestar\LaravelDropInCms\Models\Scopes\OrderByNameScope;

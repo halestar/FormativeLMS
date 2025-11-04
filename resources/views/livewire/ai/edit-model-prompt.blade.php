@@ -7,14 +7,29 @@
                         <option value="prompt">{{ __('ai.prompt') }}</option>
                         <option value="system">{{ __('ai.prompt.system') }}</option>
                     </select>
-                    <button type="button" class="btn btn-warning"
-                            wire:click="resetPrompt">{{ __('ai.prompt.reset') }}</button>
+                    <div>
+                        <button type="button" class="btn btn-warning"
+                                wire:click="resetPrompt">{{ __('ai.prompt.reset') }}</button>
+                        <button type="button" class="btn btn-info" wire:click="previewPrompt">{{ __('ai.prompt.preview') }}</button>
+                    </div>
                 </div>
+
+                @if($preview)
+                    <div class="alert alert-info mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="alert-heading">{{ $prompt == "prompt"? __('ai.prompt'): __('ai.prompt.system') }}</div>
+                            <button type="button" class="btn btn-sm btn-danger" wire:click="set('preview', null)"><i class="fas fa-times"></i></button>
+                        </div>
+                        {!! $preview !!}
+                    </div>
+                @endif
+
                 <div class="alert alert-info mb-3">{{ __('ai.prompt.description') }}</div>
                 <livewire:utilities.text-editor
                         wire:model.live.debounce="prompt"
                         :fileable="$aiPrompt"
                         :key="$reloadKey"
+                        :available-tokens="($className)::availableTokens($property)"
                 ></livewire:utilities.text-editor>
             </div>
             <div class="col-md-4">
@@ -39,7 +54,7 @@
                 <livewire:storage.work-storage-browser :fileable="$aiPrompt" title="{{ __('ai.prompt.work') }}"/>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-3">
             <button type="button" wire:click="updatePrompt" class="col btn btn-primary mx-2"
                     id="update_button">{{ __('common.update') }}</button>
             <button type="button" wire:click="revert"

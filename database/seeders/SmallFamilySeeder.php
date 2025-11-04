@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\CRUD\Level;
-use App\Models\CRUD\Relationship;
 use App\Models\People\Address;
 use App\Models\People\Person;
 use App\Models\People\Phone;
+use App\Models\SystemTables\Level;
+use App\Models\SystemTables\Relationship;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Log;
 use Spatie\Permission\Exceptions\RoleDoesNotExist;

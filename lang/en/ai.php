@@ -2,11 +2,12 @@
 
 return
 	[
-		'editable.skill.knowledge' => 'Knowledge Skill :name Rubric',
+		'editable.skill.knowledge' => 'Skill :name Rubric',
 		'execute' => 'Execute Prompt and Show me Results',
 		'execute.save' => 'Execute Prompt and Save Results',
 		'model' => 'AI Model',
 		'prompt' => 'AI Prompt',
+		'prompt.preview' => 'Preview Prompt',
 		'prompt.custom.create' => 'Create Custom Prompt',
 		'prompt.custom.use' => 'Use Custom Prompt',
 		'prompt.description' => 'This is the prompt that actually tells the AI what to do.',
@@ -17,7 +18,7 @@ return
 		'prompt.results.again' => 'Generate Again',
 		'prompt.results.discard' => 'Discard Results',
 		'prompt.results.save' => 'Save Results',
-		'prompt.skills.knowledge.description' => 'Generate Knowledge Skill Rubric',
+		'prompt.skills.rubric' => 'Generate Skill Rubric',
 		'prompt.system' => 'AI System Prompt',
 		'prompt.system.custom.create' => 'Create Custom System Prompt',
 		'prompt.system.custom.use' => 'Use Custom System Prompt',

@@ -3,13 +3,13 @@
 namespace Database\Factories\People;
 
 use App\Enums\IntegratorServiceTypes;
-use App\Models\CRUD\Level;
-use App\Models\CRUD\Relationship;
 use App\Models\Integrations\IntegrationService;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
+use App\Models\SystemTables\Level;
+use App\Models\SystemTables\Relationship;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Database\Eloquent\Factories\Factory;
 

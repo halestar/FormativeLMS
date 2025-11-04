@@ -4,7 +4,7 @@ namespace App\Models\SubjectMatter;
 
 use App\Models\Locations\Campus;
 use App\Models\Scopes\OrderByOrderScope;
-use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
+use App\Models\SubjectMatter\Assessment\Skill;
 use App\Traits\DeterminesTextColor;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
@@ -60,7 +60,7 @@ class Subject extends Model
 	
 	public function skills(): HasMany
 	{
-		return $this->hasMany(KnowledgeSkill::class, 'subject_id');
+		return $this->hasMany(Skill::class, 'subject_id');
 	}
 	
 	protected function casts(): array

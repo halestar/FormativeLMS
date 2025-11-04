@@ -20,6 +20,8 @@ return
 		'menu.school.emails' => 'School Emails',
 		'menu.school.settings' => 'School Settings',
 		'menu.years' => 'Years & Semesters',
+		'menu.teaching' => 'Teaching',
+		'menu.criteria' => 'Class Criteria',
 		'settings.classes.max_msg' => 'Messages Per Page',
 		'settings.classes.max_msg.help' => 'Max number of messages on each page of the school chat.',
 		'settings.classes.year_messages' => 'Show Messages for',

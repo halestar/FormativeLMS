@@ -3,8 +3,9 @@
 namespace App\Livewire\Assessment;
 
 use App\Models\SubjectMatter\Assessment\CharacterSkill;
-use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
+use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\SubjectMatter\Assessment\SkillCategory;
+use App\Models\SystemTables\Level;
 use Illuminate\Support\Collection;
 use Livewire\Attributes\On;
 use Livewire\Component;
@@ -17,8 +18,9 @@ class SkillCategoryBrowser extends Component
 	public bool $editingDescription = false;
 	public array $openTo;
 	public string $search = '';
-	public ?Collection $knowledgeResults = null;
-	public ?Collection $characterResults = null;
+	public ?Collection $skills = null;
+	public array $filterLevels = [];
+	public Collection $levels;
 	
 	public function mount()
 	{
@@ -37,6 +39,8 @@ class SkillCategoryBrowser extends Component
 		}
 		if($selected_id)
 			$this->selectedCategory = SkillCategory::find($selected_id);
+		$this->levels = Level::all();
+		$this->filterLevels = [];
 	}
 	
 	public function createCategory()
@@ -131,22 +135,13 @@ class SkillCategoryBrowser extends Component
 		$this->dispatch('refresh-parent', parentId: $parentId);
 	}
 	
+	
 	public function render()
 	{
 		if($this->search && strlen($this->search) > 2)
-		{
-			$this->knowledgeResults = KnowledgeSkill::search($this->search)
-			                                        ->get()
-			                                        ->sortBy('designation');
-			$this->characterResults = CharacterSkill::search($this->search)
-			                                        ->get()
-			                                        ->sortBy('designation');
-		}
+			$this->skills = Skill::search($this->search)->forLevels($this->filterLevels)->get();
 		else
-		{
-			$this->knowledgeResults = null;
-			$this->characterResults = null;
-		}
+			$this->skills = null;
 		return view('livewire.assessment.skill-category-browser');
 	}
 }

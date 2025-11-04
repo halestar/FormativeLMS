@@ -2,12 +2,12 @@
 
 namespace App\Livewire\People;
 
-use App\Models\CRUD\DismissalReason;
-use App\Models\CRUD\Level;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
+use App\Models\SystemTables\DismissalReason;
+use App\Models\SystemTables\Level;
 use Illuminate\Support\Collection;
 use Livewire\Component;
 

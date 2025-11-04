@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 class SkillCategory extends Model
 {
@@ -32,17 +32,7 @@ class SkillCategory extends Model
 	
 	public function canDelete(): bool
 	{
-		//we can only delete if we don't have any subcategories
-		$canDelete = true;
-		if($this->subCategories()
-		        ->count() > 0)
-			return false;
-		//and no skills
-		if($this->knowledgeSkills()
-		        ->count() > 0 || $this->characterSkills()
-		                              ->count() > 0)
-			return false;
-		return $canDelete;
+		return ($this->subCategories()->count() == 0) && ($this->skills()->count() == 0);
 	}
 	
 	public function subCategories(): HasMany
@@ -50,22 +40,12 @@ class SkillCategory extends Model
 		return $this->hasMany(self::class, 'parent_id');
 	}
 	
-	public function knowledgeSkills(): MorphToMany
+	public function skills(): BelongsToMany
 	{
-		return $this->morphedByMany(KnowledgeSkill::class, 'skill', 'skill_category_designation', 'category_id',
+		return $this->belongsToMany(Skill::class, 'skill_category_designation', 'category_id',
 			'skill_id')
-		            ->withPivot(['designation_id'])
-		            ->as('info')
-		            ->using(SkillCategoryDesignation::class);
-	}
-	
-	public function characterSkills(): MorphToMany
-	{
-		return $this->morphedByMany(CharacterSkill::class, 'skill', 'skill_category_designation', 'category_id',
-			'skill_id')
-		            ->withPivot(['designation_id'])
-		            ->as('info')
-		            ->using(SkillCategoryDesignation::class);
+		            ->withPivot('designation')
+		            ->as('designation');
 	}
 	
 	#[Scope]

@@ -214,7 +214,7 @@
                                     <li
                                             class="list-group-item list-group-item-action"
                                             wire:key="{{ $suggestion->id }}"
-                                            wire:click="addTeacher({{ $suggestion->id }})"
+                                            wire:click="addTeacher({{ $suggestion->school_id }})"
                                     >
                                         <div class="row">
                                             <div class="col-2">

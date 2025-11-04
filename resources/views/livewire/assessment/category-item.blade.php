@@ -2,14 +2,14 @@
     <div
             class="category-container d-flex justify-content-start align-items-center rounded @if($selected) bg-primary-subtle @endif p-2"
             droppable="true"
-            categor_id="{{ $category->id }}"
+            category_id="{{ $category->id }}"
             x-on:dragover.prevent="$event.target.classList.add('bg-warning-subtle');$event.dataTransfer.effectAllowed = 'move';"
             x-on:dragleave="$event.target.classList.remove('bg-warning-subtle')"
             x-on:dragstart=" $event.dataTransfer.setData('text/plain', {{ $category->id }})"
             wire:drop.prevent="$dispatchTo('assessment.skill-category-browser', 'move-category',
                 { categoryId: $event.dataTransfer.getData('text/plain'), parentId: {{ $category->id }} });"
     >
-        @if(!$children || $children->count() > 0)
+        @if($numChildren > 0)
             <div class="me-2">
                 @if($open)
                     <i class="fa-solid fa-caret-down show-as-action" wire:click="toggleCategory()"></i>
@@ -30,7 +30,7 @@
                                 wire:model="name"
                                 wire:change="updateName()"
                         />
-                        <label for="floatingInput">Category Name</label>
+                        <label for="floatingInput">{{ __('subjects.skills.category.name') }}</label>
                     </div>
                     <button
                             class="btn btn-secondary"
@@ -44,11 +44,8 @@
                 >
                     {{ $category->name }}
 
-                    @if($category->knowledgeSkills()->count() > 0)
-                        <span class="badge text-bg-success ms-3">{{ $category->knowledgeSkills()->count() }}</span>
-                    @endif
-                    @if($category->characterSkills()->count() > 0)
-                        <span class="badge text-bg-warning ms-1">{{ $category->characterSkills()->count() }}</span>
+                    @if($category->skills()->count() > 0)
+                        <span class="badge text-bg-success ms-3">{{ $category->skills()->count() }}</span>
                     @endif
                 </div>
             @endif

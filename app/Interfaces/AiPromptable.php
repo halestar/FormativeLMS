@@ -4,59 +4,79 @@ namespace App\Interfaces;
 
 use App\Models\Ai\AiPrompt;
 use App\Models\People\Person;
+use Illuminate\Database\Eloquent\Builder;
 use Prism\Prism\Schema\ObjectSchema;
 
 interface AiPromptable
 {
-	/**
-	 * This function will return the description of the prompt for this model.
-	 * It should be specific to the object, not the information that it fills.
-	 * For example, for the KnowledgeSkill model, it should say "Generate Knowledge Skill Rubric",
-	 * since the AI will be used for the rubric and not the skill, but both should be referenced.
-	 * @return string The description of the prompt for this model.
-	 */
-	public static function promptDescription(): string;
+	/*******************************************************************************
+	 * The following functions are used by the system to display meta-data information about this
+	 * model.
+	 *******************************************************************************/
 	
 	/**
-	 * @return string The name of the model that the AI Prompt is for.
+	 * This function will return the propertied that are available for AI to work with. Each property will define
+	 * a section of the model that AI can fill in through a prompt.  For example, the Skill model will have a single
+	 * property, rubric, that will allow AI to fill in the rubric property for the skill. The LearningDemonstrationTemplate,
+	 * on the other hand, will have multiple properties. The "description" property will allow AI to fill in the description
+	 * for the LD. The "skills" property will allow AI to select the appropriate assessment skill(s) and rubrics for
+	 * the learning demonstration to assess.
+	 * @return array <string, string> The list of properties that AI can fill in for this model in the format of [property_name => property_label]
 	 */
-	public function getEditableName(): string;
+	public static function availableProperties(): array;
+	
+	/*******************************************************************************
+	 * The following functions are used to define and register the AIPrompt model
+	 * for this model and a passed property.
+	 *******************************************************************************/
+	/**
+	 * The default prompt for this model
+	 * @param string $property The property that the prompt is for.
+	 * @return string The default prompt for this model as a string. Can be formatted in any way.
+	 */
+	public static function defaultPrompt(string $property): string;
 	
 	/**
-	 * @return array <string, string> The breadcrumb for how to reach this model. Used in the editor.
+	 * The default system prompt for this model.
+	 * @param string $property The property that the prompt is for.
+	 * @return string The default system prompt for this model as a string. Can be formatted in any way.
 	 */
-	public function getBreacrumb(): array;
+	public static function defaultSystemPrompt(string $property): string;
+	
 	
 	/**
-	 * This function will return the default prompt for this model. The default prompt will
-	 * ALWAYS be the system prompt, meaning that the person_id in the prompt column will be
-	 * set to null. If the prompt is not found, it will create a new prompt and return it.
-	 * @param bool $overwrite Default false. If set to true, it will overwrite the changes made to
-	 * the default prompt using the value at creation time.
-	 * @return AiPrompt The system prompt for this model.
+	 * Gets the default AI temperature for this model.
+	 * @param string $property The property that the prompt is for.
+	 * @return float The default AI temperature for this model.
 	 */
-	public function getDefaultPrompt(bool $overwrite = false): AiPrompt;
+	public static function defaultTemperature(string $property): float;
 	
 	/**
-	 * This function is used to determine if the person has a prompt for this model.
-	 * @param Person $person The person to check for a prompt.
-	 * @return bool True if the person has a prompt for this model.
+	 * @return bool True if the property is structured, false if it's not.
 	 */
-	public function hasCustomPrompt(Person $person): bool;
+	public static function isStructured(string $property): bool;
 	
 	/**
-	 * Returns the prompt for this model for the given person. If the person does not have a
-	 * prompt, it will create one and return it using the default prompt.
-	 * @param Person $person The person to get the prompt for.
-	 * @return AiPrompt The prompt for this model for the given person.
+	 * The default tools that this model uses.
+	 * @param string $property
+	 * @return array The array of tools for this model.
 	 */
-	public function customPrompt(Person $person): AiPrompt;
+	public static function defaultTools(string $property): array;
 	
 	/**
-	 * @return ObjectSchema The schema for this model that AI uses to generate structured responses.  We don't save
-	 * this in the DB since it might change over time.
+	 * @return array<string, string> The tokens that are available to be used in the prompt.
 	 */
-	public function getAiSchema(): ObjectSchema;
+	public static function availableTokens(string $property): array;
+	
+	/*******************************************************************************
+	 * The following functions are used by the integrator to interact with the model making the request
+	 *******************************************************************************/
+	
+	/**
+	 * @return ObjectSchema|null The schema for this model that AI uses to generate structured responses.  We don't save
+	 * this in the DB since it might change over time. Only applies to structured models, returns null for unstructured models.
+	 */
+	public static function getSchemaClass(string $property): string;
 	
 	/**
 	 * This function will return a mockup of the results that the AI prompt will generate.  WHat
@@ -68,8 +88,58 @@ interface AiPromptable
 	
 	/**
 	 * This function will fill the model with the structured result from AI. It will NOT save the model.
-	 * @param AiPrompt $prompt TThe prompt that was executed, with the latest results stored in AiPrompt::last_results
+	 * @param AiPrompt $prompt The prompt that was executed, with the latest results stored in AiPrompt::last_results
 	 * @return void
 	 */
 	public function aiFill(AiPrompt $prompt): void;
+	
+	/**
+	 * This function will return the tokens defined in the available_tokens function with the actual values
+	 * from the instanced object.
+	 * @return array <string, mixed> The definition of each token with the actual value.
+	 */
+	public function withTokens(): array;
+	
+	
+	/*******************************************************************************
+	 * Defined in App\Traits\IsAiPromptable
+	 *******************************************************************************/
+	
+	/**
+	 * This function will return the prompts that are available for this model as a Builder object.
+	 * @return Builder The query builder for the prompts that are available for this model.
+	 */
+	public static function prompts(): Builder;
+	
+	/**
+	 * This function will return the default prompt for this model. The default prompt will
+	 * ALWAYS be the system prompt, meaning that the person_id in the prompt column will be
+	 * set to null. If the prompt is not found, it will create a new prompt and return it.
+	 * @param string $property The property that the prompt is for.
+	 * @param bool $overwrite Default false. If set to true, it will overwrite the changes made to
+	 * the default prompt using the value at creation time.
+	 * @return AiPrompt The system prompt for this model.
+	 */
+	public static function getDefaultPrompt(string $property, bool $overwrite = false): AiPrompt;
+	
+	/**
+	 * This function is used to determine if the person has a prompt for this model.
+	 * @param Person $person The person to check for a prompt.
+	 * @return bool True if the person has a prompt for this model.
+	 */
+	public static function hasCustomPrompt(string $property, Person $person): bool;
+	
+	/**
+	 * Returns the prompt for this model for the given person. If the person does not have a
+	 * prompt, it will create one and return it using the default prompt.
+	 * @param Person $person The person to get the prompt for.
+	 * @return AiPrompt The prompt for this model for the given person.
+	 */
+	public static function getCustomPrompt(string $property, Person $person): AiPrompt;
+	
+	/**
+	 * @param string $property The property that the prompt is for.
+	 * @return string The "pretty" name of the property.
+	 */
+	public static function propertyName(string $property): string;
 }

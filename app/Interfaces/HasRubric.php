@@ -2,7 +2,7 @@
 
 namespace App\Interfaces;
 
-use App\Casts\Rubric;
+use App\Casts\Learning\Rubric;
 
 interface HasRubric
 {

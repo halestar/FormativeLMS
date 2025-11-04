@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Locations;
 
+use App\Classes\SessionSettings;
 use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
 use Illuminate\Http\Request;
@@ -48,7 +49,7 @@ class CampusController extends Controller implements HasMiddleware
 		];
 	}
 	
-	public function show(Campus $campus)
+	public function show(Campus $campus, SessionSettings $settings)
 	{
 		Gate::authorize('has-permission', 'locations.campuses');
 		$breadcrumb =
@@ -56,7 +57,8 @@ class CampusController extends Controller implements HasMiddleware
 				trans_choice('locations.campus', 2) => route('locations.campuses.index'),
 				$campus->name => "#",
 			];
-		return view('locations.campuses.show', compact('campus', 'breadcrumb'));
+		$schema = $campus->gradeTranslationSchema($settings->workingYear())->first();
+		return view('locations.campuses.show', compact('campus', 'breadcrumb', 'schema'));
 	}
 	
 	public function edit(Campus $campus)

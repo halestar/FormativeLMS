@@ -26,6 +26,8 @@ class TextEditor extends Component
 	public Fileable $fileable;
 	public array|null $availableTokens = null;
 	public $uploadedFile;
+	public string $height = "500px";
+	public string $width = "100%";
 	
 	public function mount(Fileable $fileable, StorageSettings $settings)
 	{

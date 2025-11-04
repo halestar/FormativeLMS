@@ -14,29 +14,33 @@ class CrudItemUpdate extends Component
 	public function mount(string $model)
 	{
 		$this->crudModel = $model;
-		$this->crudItems = $model::crudItems();
+		$this->crudItems = $model::all();
 	}
 	
 	public function updateCrudOrder($models)
 	{
 		foreach($models as $model)
-			$this->crudModel::find($model['value'])
-			                ->setCrudOrder($model['order']);
-		$this->crudItems = $this->crudModel::crudItems();
+		{
+			$item = ($this->crudModel)::find($model['value']);
+			$item->order = $model['order'];
+			$item->save();
+		}
+		$this->crudItems = ($this->crudModel)::all();
 	}
 	
 	public function updateName($id, $value)
 	{
-		$this->crudModel::find($id)
-		                ->setCrudName($value);
-		$this->crudItems = $this->crudModel::crudItems();
+		$model = $this->crudModel::find($id);
+		$model->name = $value;
+		$model->save();
+		$this->crudItems = ($this->crudModel)::all();
 	}
 	
 	#[On('change-crud-model')]
 	public function changeCrudModel(string $model)
 	{
 		$this->crudModel = $model;
-		$this->crudItems = $model::crudItems();
+		$this->crudItems = $model::all();
 	}
 	
 	public function sort($asc = true)
@@ -48,7 +52,8 @@ class CrudItemUpdate extends Component
 		$pos = 1;
 		foreach($this->crudItems as $crudItem)
 		{
-			$crudItem->setCrudOrder($pos);
+			$crudItem->order = $pos;
+			$crudItem->save();
 			$pos++;
 		}
 	}
@@ -56,17 +61,18 @@ class CrudItemUpdate extends Component
 	public function newEntry()
 	{
 		$newEntry = new ($this->crudModel)();
-		$newEntry->setCrudName(__('crud.new_entry'));
-		$newEntry->setCrudOrder(count($this->crudItems));
+		$newEntry->name = __('crud.new_entry');
+		$newEntry->order = count($this->crudItems);
+		$newEntry->className = $this->crudModel;
 		$newEntry->save();
-		$this->crudItems = $this->crudModel::crudItems();
+		$this->crudItems = $this->crudModel::all();
 	}
 	
 	public function deleteEntry($id)
 	{
 		$entry = ($this->crudModel)::findOrFail($id);
 		$entry->delete();
-		$this->crudItems = $this->crudModel::crudItems();
+		$this->crudItems = $this->crudModel::all();
 	}
 	
 	public function render()

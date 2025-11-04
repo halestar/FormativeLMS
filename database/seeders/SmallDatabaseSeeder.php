@@ -21,7 +21,7 @@ class SmallDatabaseSeeder extends Seeder
 				IntegrationSeeder::class,
 				SystemSettingsSeeder::class,
 				FieldPermissionsSeeder::class,
-				CrudSeeder::class,
+				SystemTableSeeder::class,
 				SchoolEmailSeeder::class,
 				BuildingSeeder::class,
 				CampusSeeder::class,

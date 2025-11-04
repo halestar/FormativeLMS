@@ -25,13 +25,12 @@ return new class extends Migration
 			      ->references('id')
 			      ->on('people')
 			      ->onDelete('cascade');
-			
 			$table->bigInteger('relationship_id')
 			      ->unsigned()
 			      ->nullable();
 			$table->foreign('relationship_id')
 			      ->references('id')
-			      ->on('crud_relationships')
+			      ->on('system_tables')
 			      ->onDelete('set null');
 			$table->primary(['from_person_id', 'to_person_id']);
 		});

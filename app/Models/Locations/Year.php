@@ -2,6 +2,7 @@
 
 namespace App\Models\Locations;
 
+use App\Models\SubjectMatter\Learning\GradeTranslationSchema;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -34,6 +35,7 @@ class Year extends Model
 	
 	protected static function booted(): void
 	{
+		parent::booted();
 		static::addGlobalScope('year-start-order', function(Builder $builder)
 		{
 			$builder->orderBy('year_start');
@@ -86,5 +88,17 @@ class Year extends Model
 				'year_start' => 'date: ' . config('lms.date_format'),
 				'year_end' => 'date: ' . config('lms.date_format'),
 			];
+	}
+	
+	public function gradeTranslationSchema(Campus $campus = null): HasMany
+	{
+		if(!$campus)
+			return $this->hasMany(GradeTranslationSchema::class, 'year_id');
+		return $this->hasMany(GradeTranslationSchema::class, 'year_id')->where('campus_id', $campus->id);
+	}
+	
+	public function __toString()
+	{
+		return $this->label;
 	}
 }

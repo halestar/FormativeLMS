@@ -32,7 +32,7 @@ return new class extends Migration
 			$table->foreignId('level_id');
 			$table->foreign('level_id')
 			      ->references('id')
-			      ->on('crud_levels')
+			      ->on('system_tables')
 			      ->onDelete('cascade');
 			$table->date('start_date');
 			$table->date('end_date')
@@ -41,7 +41,7 @@ return new class extends Migration
 			      ->nullable();
 			$table->foreign('dismissal_reason_id')
 			      ->references('id')
-			      ->on('crud_dismissal_reasons')
+			      ->on('system_tables')
 			      ->onDelete('set null');
 			$table->text('dismissal_note')
 			      ->nullable();

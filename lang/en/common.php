@@ -100,4 +100,9 @@ return
 		'uploading' => 'Uploading',
 		'view' => 'View',
 		'warning' => 'Warning!',
+		'yes' => 'Yes',
+		'no' => 'No',
+		'toggle' => 'Toggle',
+		'toggle.all' => 'Toggle All',
+		'category' => 'Category|Categories',
 	];

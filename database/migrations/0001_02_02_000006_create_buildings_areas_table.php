@@ -24,7 +24,7 @@ return new class extends Migration
 			      ->unsigned();
 			$table->foreign('area_id')
 			      ->references('id')
-			      ->on('crud_school_areas')
+			      ->on('system_tables')
 			      ->onDelete('cascade');
 			$table->string('blueprint_url')
 			      ->nullable();

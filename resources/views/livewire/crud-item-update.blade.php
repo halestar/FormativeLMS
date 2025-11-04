@@ -14,23 +14,24 @@
 
     <ul wire:sortable="updateCrudOrder" class="list-group">
         @foreach ($crudItems as $crudItem)
-            <li wire:sortable.item="{{ $crudItem->crudKey() }}" wire:key="crud-item-{{ $crudItem->crudKey() }}"
+            <li wire:sortable.item="{{ $crudItem->id }}" wire:key="crud-item-{{ $crudItem->id }}"
                 class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
                 <div>
                     <span wire:sortable.handle class="show-as-action me-2"><i
                                 class="fa-solid fa-grip-lines-vertical"></i></span>
-                    <span onclick="$('#crud-name-{{ $crudItem->crudKey() }}').hide();$('#crud-input-{{ $crudItem->crudKey() }}').show();"
-                          id="crud-name-{{ $crudItem->crudKey() }}">{{ $crudItem->crudName() }}</span>
-                    <input id="crud-input-{{ $crudItem->crudKey() }}" type="text"
-                           wire:change="updateName({{ $crudItem->crudKey() }}, $event.target.value)"
-                           value="{{ $crudItem->crudName() }}" style="display: none;"/>
+                    <span onclick="$('#crud-name-{{ $crudItem->id }}').hide();$('#crud-input-{{ $crudItem->id }}').show();"
+                          id="crud-name-{{ $crudItem->id }}">{{ $crudItem->name }}</span>
+                    <input id="crud-input-{{ $crudItem->id }}" type="text"
+                           wire:change="updateName({{ $crudItem->id }}, $event.target.value)"
+                           onblur="$('#crud-name-{{ $crudItem->id }}').show();$('#crud-input-{{ $crudItem->id }}').hide();"
+                           value="{{ $crudItem->name }}" style="display: none;"/>
                 </div>
                 <button
                         type="button"
                         class="btn btn-danger btn-sm"
                         @if(!$crudItem->canDelete()) disabled @endif
                         wire:confirm="{{ __('crud.remove.confirm') }}"
-                        wire:click="deleteEntry({{ $crudItem->crudKey() }})"
+                        wire:click="deleteEntry({{ $crudItem->id }})"
                 >{{ __('crud.remove') }}</button>
             </li>
         @endforeach

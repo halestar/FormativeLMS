@@ -3,15 +3,19 @@
 namespace App\Models\SubjectMatter;
 
 use App\Models\Locations\Campus;
+use App\Models\Locations\Term;
 use App\Models\Locations\Year;
+use App\Models\SubjectMatter\Assessment\Skill;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
+use Illuminate\Support\Collection;
 
-class Course extends Model
+class  Course extends Model
 {
 	public $timestamps = true;
 	public $incrementing = true;
@@ -72,6 +76,14 @@ class Course extends Model
 		            ->where('year_id', $year->id);
 	}
 	
+	public function classSessions(Term $term = null): HasManyThrough
+	{
+		if(!$term)
+			return $this->hasManyThrough(ClassSession::class, SchoolClass::class, 'course_id', 'class_id');
+		return $this->hasManyThrough(ClassSession::class, SchoolClass::class, 'course_id', 'class_id')
+		            ->where('term_id', $term->id);
+	}
+	
 	protected function casts(): array
 	{
 		return
@@ -84,5 +96,13 @@ class Course extends Model
 				'can_assign_honors' => 'boolean',
 				'active' => 'boolean',
 			];
+	}
+	
+	public function suggestedSkills(array $except = null): Collection
+	{
+		$str = trim(preg_replace('/[^a-zA-Z\s]/', '', $this->name));
+		if(!$except || count($except) == 0)
+			return Skill::search($str)->get();
+		return Skill::search($str)->whereNotIn('id', $except)->get();
 	}
 }

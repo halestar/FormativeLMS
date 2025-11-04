@@ -2,6 +2,7 @@
 
 namespace App\Models\Integrations\Connections;
 
+use App\Interfaces\AiPromptable;
 use App\Interfaces\IntegrationConnectionInterface;
 use App\Models\Ai\AiPrompt;
 use App\Models\Integrations\IntegrationConnection;
@@ -18,5 +19,5 @@ abstract class AiSystemConnection extends IntegrationConnection implements Integ
 	 * FINAL FUNCTIONS
 	 */
 	
-	abstract public function executePrompt(string $aiModel, AiPrompt $prompt): void;
+	abstract public function executePrompt(string $aiModel, AiPrompt $prompt, AiPromptable $target): void;
 }

@@ -82,6 +82,7 @@ class SessionSettings
 		session([$instance->sessionKey => $instance->settings]);
 	}
 	
+	
 	public static function workingYear(null|int|Year $year = null): ?Year
 	{
 		if(!$year)

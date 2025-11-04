@@ -42,7 +42,7 @@
                                         <td>
                                             <select class="form-select"
                                                     wire:change="updateLevel({{ $record->id }}, $event.target.value)">
-                                                @foreach(\App\Models\CRUD\Level::all() as $level)
+                                                @foreach(\App\Models\SystemTables\Level::all() as $level)
                                                     <option value="{{ $level->id }}"
                                                             @if($level->id == $record->level_id) selected @endif>{{ $level->name }}</option>
                                                 @endforeach
@@ -96,7 +96,7 @@
                                                             wire:change="updateDismissalReason({{ $record->id }}, $event.target.value)"
                                                     >
                                                         <option selected>{{ __('people.student.withdraw.reason.select') }}</option>
-                                                        @foreach(\App\Models\CRUD\DismissalReason::all() as $reason)
+                                                        @foreach(\App\Models\SystemTables\DismissalReason::all() as $reason)
                                                             <option value="{{ $reason->id }}"
                                                                     @if($reason->id == $record->dismissal_reason_id) selected @endif>{{ $reason->name }}</option>
                                                         @endforeach

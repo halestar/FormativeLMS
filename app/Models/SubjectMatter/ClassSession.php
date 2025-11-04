@@ -7,6 +7,7 @@
 namespace App\Models\SubjectMatter;
 
 use App\Classes\ClassManagement\ClassSessionLayoutManager;
+use App\Enums\AssessmentStrategyCalculationMethod;
 use App\Interfaces\HasSchedule;
 use App\Models\Locations\Room;
 use App\Models\Locations\Term;
@@ -15,6 +16,8 @@ use App\Models\People\StudentRecord;
 use App\Models\Schedules\Block;
 use App\Models\Schedules\Period;
 use App\Models\SubjectMatter\Components\ClassMessage;
+use App\Models\SubjectMatter\Learning\ClassCriteria;
+use App\Models\SubjectMatter\Learning\ClassSessionCriteria;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -40,6 +43,7 @@ class ClassSession extends Model implements HasSchedule
 			'term_id',
 			'room_id',
 			'block_id',
+			'inherit_criteria',
 		];
 	
 	public function canDelete(): bool
@@ -103,6 +107,13 @@ class ClassSession extends Model implements HasSchedule
 	{
 		return Attribute::make(
 			get: fn() => $this->name . ' (' . $this->teachersString() . ') [' . $this->scheduleString() . ']'
+		);
+	}
+	
+	public function nameWithSchedule(): Attribute
+	{
+		return Attribute::make(
+			get: fn() => $this->name . ' [' . $this->scheduleString() . ']'
 		);
 	}
 	
@@ -200,7 +211,6 @@ class ClassSession extends Model implements HasSchedule
 	
 	public function hasUnseenMessages(StudentRecord $student): bool
 	{
-		return false;
 		//what kind of user is this?
 		$viewer = Auth::user();
 		$type = null;
@@ -238,7 +248,31 @@ class ClassSession extends Model implements HasSchedule
 	{
 		return
 			[
-			
+				'setup_done' => 'boolean',
+				'inherit_criteria' => 'boolean',
+				'calc_method' => AssessmentStrategyCalculationMethod::class,
 			];
+	}
+	
+	public function classCriteria(): BelongsToMany
+	{
+		return $this->belongsToMany(ClassCriteria::class, 'class_session_criteria', 'session_id', 'criteria_id')
+			->withPivot('weight')
+			->as('sessionCriteria')
+			->using(ClassSessionCriteria::class);
+	}
+	
+	public function hasCriteria(ClassCriteria $criteria): bool
+	{
+		return $this->classCriteria()
+			->where('class_criteria.id', $criteria->id)
+			->exists();
+	}
+	
+	public function getCriteria(ClassCriteria $criteria): ?ClassCriteria
+	{
+		return $this->classCriteria()
+			->where('class_criteria.id', $criteria->id)
+			->first();
 	}
 }

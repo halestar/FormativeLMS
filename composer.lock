@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d14616d544ad65e52360bb40536e1c8",
+    "content-hash": "202655e8c4b7280812877c5fa416c929",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.356.19",
+            "version": "3.356.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4dbc87e689c4e4a6655d6b7e3d02ce2f4e87aa5c"
+                "reference": "5b3f65a158a0e822586d110192ee78c6565b4f06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4dbc87e689c4e4a6655d6b7e3d02ce2f4e87aa5c",
-                "reference": "4dbc87e689c4e4a6655d6b7e3d02ce2f4e87aa5c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5b3f65a158a0e822586d110192ee78c6565b4f06",
+                "reference": "5b3f65a158a0e822586d110192ee78c6565b4f06",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.19"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.22"
             },
-            "time": "2025-09-16T18:17:04+00:00"
+            "time": "2025-09-19T18:25:30+00:00"
         },
         {
             "name": "brick/math",
@@ -1668,55 +1668,6 @@
             "time": "2025-08-31T18:26:45+00:00"
         },
         {
-            "name": "halestar/fablms-google-integrator",
-            "version": "0.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/halestar/FabLmsGoogleIntegrator.git",
-                "reference": "946ac3beb853d90e1c099ddaaed81d048e713741"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/halestar/FabLmsGoogleIntegrator/zipball/946ac3beb853d90e1c099ddaaed81d048e713741",
-                "reference": "946ac3beb853d90e1c099ddaaed81d048e713741",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": ">=12.0",
-                "livewire/livewire": "^v3.5.4",
-                "php": "^8.2"
-            },
-            "type": "add-on",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "halestar\\FablmsGoogleIntegrator\\GoogleIntegratorServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "halestar\\FablmsGoogleIntegrator\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "German Kalinec",
-                    "email": "german@kalinec.net"
-                }
-            ],
-            "description": "An integration module for FabLMS (dev.kalinec.net) to integrate with Google Services.",
-            "support": {
-                "issues": "https://github.com/halestar/FabLmsGoogleIntegrator/issues",
-                "source": "https://github.com/halestar/FabLmsGoogleIntegrator/tree/0.1.1"
-            },
-            "time": "2025-09-20T05:58:44+00:00"
-        },
-        {
             "name": "halestar/laravel-drop-in-cms",
             "version": "0.7.5.7",
             "source": {
@@ -1839,6 +1790,62 @@
                 "source": "https://github.com/vinkla/hashids/tree/5.0.2"
             },
             "time": "2023-02-23T15:00:54+00:00"
+        },
+        {
+            "name": "inspector-apm/inspector-php",
+            "version": "3.16.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inspector-apm/inspector-php.git",
+                "reference": "40c9e72f8f973bb5ca038135f1a0b78b91bc66af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inspector-apm/inspector-php/zipball/40c9e72f8f973bb5ca038135f1a0b78b91bc66af",
+                "reference": "40c9e72f8f973bb5ca038135f1a0b78b91bc66af",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "friendsofphp/php-cs-fixer": "^3.75",
+                "inspector-apm/neuron-ai": "^1.2.22",
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^9.0",
+                "rector/rector": "^2.0",
+                "tomasvotruba/type-coverage": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inspector\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valerio Barbera",
+                    "email": "valerio@inspector.dev"
+                }
+            ],
+            "description": "Inspector monitoring for PHP applications.",
+            "keywords": [
+                "inspector",
+                "monitoring",
+                "observability",
+                "php",
+                "telemetry"
+            ],
+            "support": {
+                "issues": "https://github.com/inspector-apm/inspector-php/issues",
+                "source": "https://github.com/inspector-apm/inspector-php/tree/3.16.1"
+            },
+            "time": "2025-07-09T17:22:19+00:00"
         },
         {
             "name": "intervention/gif",
@@ -2053,16 +2060,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.29.0",
+            "version": "v12.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a9e4c73086f5ba38383e9c1d74b84fe46aac730b"
+                "reference": "7f61e8679f9142f282a0184ac7ef9e3834bfd023"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a9e4c73086f5ba38383e9c1d74b84fe46aac730b",
-                "reference": "a9e4c73086f5ba38383e9c1d74b84fe46aac730b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7f61e8679f9142f282a0184ac7ef9e3834bfd023",
+                "reference": "7f61e8679f9142f282a0184ac7ef9e3834bfd023",
                 "shasum": ""
             },
             "require": {
@@ -2090,7 +2097,7 @@
                 "monolog/monolog": "^3.0",
                 "nesbot/carbon": "^3.8.4",
                 "nunomaduro/termwind": "^2.0",
-                "phiki/phiki": "v2.0.0",
+                "phiki/phiki": "^2.0.0",
                 "php": "^8.2",
                 "psr/container": "^1.1.1|^2.0.1",
                 "psr/log": "^1.0|^2.0|^3.0",
@@ -2269,7 +2276,80 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-09-16T14:15:03+00:00"
+            "time": "2025-09-18T21:07:07+00:00"
+        },
+        {
+            "name": "laravel/mcp",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/mcp.git",
+                "reference": "dc722a4c388f172365dec70461f0413ac366f360"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/mcp/zipball/dc722a4c388f172365dec70461f0413ac366f360",
+                "reference": "dc722a4c388f172365dec70461f0413ac366f360",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "illuminate/console": "^10.49.0|^11.45.3|^12.28.1",
+                "illuminate/container": "^10.49.0|^11.45.3|^12.28.1",
+                "illuminate/contracts": "^10.49.0|^11.45.3|^12.28.1",
+                "illuminate/http": "^10.49.0|^11.45.3|^12.28.1",
+                "illuminate/json-schema": "^12.28.1",
+                "illuminate/routing": "^10.49.0|^11.45.3|^12.28.1",
+                "illuminate/support": "^10.49.0|^11.45.3|^12.28.1",
+                "illuminate/validation": "^10.49.0|^11.45.3|^12.28.1",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "laravel/pint": "1.20.0",
+                "orchestra/testbench": "^8.36.0|^9.15.0|^10.6.0",
+                "pestphp/pest": "^2.36.0|^3.8.4|^4.1.0",
+                "phpstan/phpstan": "^2.1.27",
+                "rector/rector": "^2.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Mcp": "Laravel\\Mcp\\Server\\Facades\\Mcp"
+                    },
+                    "providers": [
+                        "Laravel\\Mcp\\Server\\McpServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Mcp\\": "src/",
+                    "Laravel\\Mcp\\Server\\": "src/Server/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Rapidly build MCP servers for your Laravel applications.",
+            "homepage": "https://github.com/laravel/mcp",
+            "keywords": [
+                "laravel",
+                "mcp"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/mcp/issues",
+                "source": "https://github.com/laravel/mcp"
+            },
+            "time": "2025-10-29T14:26:01+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -4017,6 +4097,74 @@
             "time": "2025-08-06T21:43:34+00:00"
         },
         {
+            "name": "neuron-core/neuron-ai",
+            "version": "2.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neuron-core/neuron-ai.git",
+                "reference": "cba9403981ad8258618c5ffcb77eecc5adb2eda3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neuron-core/neuron-ai/zipball/cba9403981ad8258618c5ffcb77eecc5adb2eda3",
+                "reference": "cba9403981ad8258618c5ffcb77eecc5adb2eda3",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.9",
+                "inspector-apm/inspector-php": "^3.15.10",
+                "php": "^8.1",
+                "psr/http-message": "^1.0|^2.0",
+                "psr/log": "^1.0|^2.0|^3.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^3.209",
+                "elasticsearch/elasticsearch": "^8.0",
+                "ext-pdo": "*",
+                "friendsofphp/php-cs-fixer": "^3.75",
+                "html2text/html2text": "^4.3",
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^9.0",
+                "rector/rector": "^2.0",
+                "spatie/fork": "^1.2",
+                "tomasvotruba/type-coverage": "^2.0",
+                "typesense/typesense-php": "^5.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "^3.209",
+                "elasticsearch/elasticsearch": "^7.0|^8.0",
+                "php-http/curl-client": "^2.3",
+                "spatie/fork": "^1.2",
+                "symfony/process": "^4.0|^5.0|^6.0|^7.0",
+                "typesense/typesense-php": "^5.0"
+            },
+            "bin": [
+                "bin/neuron"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NeuronAI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valerio Barbera",
+                    "email": "valerio@inspector.dev"
+                }
+            ],
+            "description": "The PHP Agentic Framework.",
+            "support": {
+                "issues": "https://github.com/neuron-core/neuron-ai/issues",
+                "source": "https://github.com/neuron-core/neuron-ai/tree/2.7.0"
+            },
+            "time": "2025-11-02T21:53:10+00:00"
+        },
+        {
             "name": "nikic/php-parser",
             "version": "v5.6.1",
             "source": {
@@ -4371,16 +4519,16 @@
         },
         {
             "name": "phiki/phiki",
-            "version": "v2.0.0",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phikiphp/phiki.git",
-                "reference": "461f6dd7e91dc3a95463b42f549ac7d0aab4702f"
+                "reference": "fe51fe6dc31856cd776fd1b04ee74053a4271644"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phikiphp/phiki/zipball/461f6dd7e91dc3a95463b42f549ac7d0aab4702f",
-                "reference": "461f6dd7e91dc3a95463b42f549ac7d0aab4702f",
+                "url": "https://api.github.com/repos/phikiphp/phiki/zipball/fe51fe6dc31856cd776fd1b04ee74053a4271644",
+                "reference": "fe51fe6dc31856cd776fd1b04ee74053a4271644",
                 "shasum": ""
             },
             "require": {
@@ -4426,7 +4574,7 @@
             "description": "Syntax highlighting using TextMate grammars in PHP.",
             "support": {
                 "issues": "https://github.com/phikiphp/phiki/issues",
-                "source": "https://github.com/phikiphp/phiki/tree/v2.0.0"
+                "source": "https://github.com/phikiphp/phiki/tree/v2.0.3"
             },
             "funding": [
                 {
@@ -4438,7 +4586,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2025-08-28T18:20:27+00:00"
+            "time": "2025-09-19T11:50:41+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -4624,83 +4772,6 @@
                 }
             ],
             "time": "2025-06-26T16:29:55+00:00"
-        },
-        {
-            "name": "prism-php/prism",
-            "version": "v0.85.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/prism-php/prism.git",
-                "reference": "8f72729336b00619ff8a5181d8e1c899b87f97e2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/prism-php/prism/zipball/8f72729336b00619ff8a5181d8e1c899b87f97e2",
-                "reference": "8f72729336b00619ff8a5181d8e1c899b87f97e2",
-                "shasum": ""
-            },
-            "require": {
-                "ext-fileinfo": "*",
-                "laravel/framework": "^11.0|^12.0",
-                "php": "^8.2"
-            },
-            "require-dev": {
-                "laravel/pint": "^1.14",
-                "mockery/mockery": "^1.6",
-                "orchestra/testbench": "^10",
-                "pestphp/pest": "^3.0",
-                "pestphp/pest-plugin-arch": "^3.0",
-                "pestphp/pest-plugin-laravel": "^3.0",
-                "phpstan/extension-installer": "^1.3",
-                "phpstan/phpdoc-parser": "^1.24",
-                "phpstan/phpstan": "^1.11",
-                "phpstan/phpstan-deprecation-rules": "^1.2",
-                "projektgopher/whisky": "^0.7.0",
-                "rector/rector": "^1.1",
-                "spatie/laravel-ray": "^1.39",
-                "symplify/rule-doc-generator-contracts": "^11.2"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "aliases": {
-                        "PrismServer": "Prism\\Prism\\Facades\\PrismServer"
-                    },
-                    "providers": [
-                        "Prism\\Prism\\PrismServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
-                "psr-4": {
-                    "Prism\\Prism\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "TJ Miller",
-                    "email": "hello@echolabs.dev"
-                }
-            ],
-            "description": "A powerful Laravel package for integrating Large Language Models (LLMs) into your applications.",
-            "support": {
-                "issues": "https://github.com/prism-php/prism/issues",
-                "source": "https://github.com/prism-php/prism/tree/v0.85.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sixlive",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-08-14T15:03:28+00:00"
         },
         {
             "name": "psr/cache",
@@ -5165,16 +5236,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.10",
+            "version": "v0.12.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "6e80abe6f2257121f1eb9a4c55bf29d921025b22"
+                "reference": "cd23863404a40ccfaf733e3af4db2b459837f7e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/6e80abe6f2257121f1eb9a4c55bf29d921025b22",
-                "reference": "6e80abe6f2257121f1eb9a4c55bf29d921025b22",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/cd23863404a40ccfaf733e3af4db2b459837f7e7",
+                "reference": "cd23863404a40ccfaf733e3af4db2b459837f7e7",
                 "shasum": ""
             },
             "require": {
@@ -5237,9 +5308,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.10"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.12"
             },
-            "time": "2025-08-04T12:39:37+00:00"
+            "time": "2025-09-20T13:46:31+00:00"
         },
         {
             "name": "pusher/pusher-php-server",
@@ -9627,16 +9698,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.24.0",
+            "version": "v1.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "0345f3b05f136801af8c339f9d16ef29e6b4df8a"
+                "reference": "5016e263f95d97670d71b9a987bd8996ade6d8d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/0345f3b05f136801af8c339f9d16ef29e6b4df8a",
-                "reference": "0345f3b05f136801af8c339f9d16ef29e6b4df8a",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/5016e263f95d97670d71b9a987bd8996ade6d8d9",
+                "reference": "5016e263f95d97670d71b9a987bd8996ade6d8d9",
                 "shasum": ""
             },
             "require": {
@@ -9647,9 +9718,9 @@
                 "php": "^8.2.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.82.2",
-                "illuminate/view": "^11.45.1",
-                "larastan/larastan": "^3.5.0",
+                "friendsofphp/php-cs-fixer": "^3.87.2",
+                "illuminate/view": "^11.46.0",
+                "larastan/larastan": "^3.7.1",
                 "laravel-zero/framework": "^11.45.0",
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^2.3.1",
@@ -9660,9 +9731,6 @@
             ],
             "type": "project",
             "autoload": {
-                "files": [
-                    "overrides/Runner/Parallel/ProcessFactory.php"
-                ],
                 "psr-4": {
                     "App\\": "app/",
                     "Database\\Seeders\\": "database/seeders/",
@@ -9692,7 +9760,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2025-07-10T18:09:32+00:00"
+            "time": "2025-09-19T02:57:12+00:00"
         },
         {
             "name": "laravel/sail",

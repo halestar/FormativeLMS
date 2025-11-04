@@ -1,5 +1,5 @@
 <div>
-    @use(App\Casts\Rubric)
+    @use(App\Casts\Learning\Rubric)
     <div class="row mb-4">
         <div class="col-lg-4">
             <div class="align-self-start d-flex flex-column">
@@ -61,13 +61,13 @@
         </div>
         <div class="col-lg-8">
             <div class="alert alert-info ms-2">
-                {!! $skill->getDescription() !!}
+                {!! $skill->description !!}
             </div>
         </div>
     </div>
     @if($canUseAI)
         <div class="row justify-content-md-center text-center">
-            <livewire:ai.run-model-prompt :model="$skill" classes="col-lg-12"/>
+            <livewire:ai.run-model-prompt :model="$skill" property="rubric" classes=" border rounded border-dark text-bg-secondary m-1 p-2 position-relative"/>
         </div>
     @endif
     <div class="table-responsive-lg p-5">

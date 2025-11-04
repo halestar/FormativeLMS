@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-use App\Models\CRUD\Level;
 use App\Models\SubjectMatter\ClassSession;
+use App\Models\SystemTables\Level;
 use Illuminate\Database\Seeder;
 
 class StudentEnrollmentSeeder extends Seeder

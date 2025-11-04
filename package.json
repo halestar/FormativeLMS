@@ -23,6 +23,7 @@
         "sass-loader": "^12.6.0"
     },
     "dependencies": {
+        "@alpinejs/collapse": "^3.15.0",
         "bootstrap-icons": "^1.11.3",
         "jquery": "^3.7.1",
         "popper": "^1.0.1"

@@ -2,17 +2,18 @@
 
 namespace App\Models\Locations;
 
-use App\Models\CRUD\Level;
-use App\Models\CRUD\Relationship;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\Schedules\Block;
 use App\Models\Schedules\Period;
 use App\Models\Scopes\OrderByOrderScope;
 use App\Models\SubjectMatter\Course;
+use App\Models\SubjectMatter\Learning\GradeTranslationSchema;
 use App\Models\SubjectMatter\Subject;
+use App\Models\SystemTables\Level;
+use App\Models\SystemTables\Relationship;
 use App\Traits\Addressable;
-use App\Traits\Leveable;
+use App\Traits\HasLevels;
 use App\Traits\Phoneable;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Casts\Attribute;
@@ -25,7 +26,7 @@ use Illuminate\Support\Collection;
 #[ScopedBy(OrderByOrderScope::class)]
 class Campus extends Model
 {
-	use Phoneable, Addressable, Leveable;
+	use Phoneable, Addressable, HasLevels;
 	
 	public $timestamps = true;
 	public $incrementing = true;
@@ -179,5 +180,12 @@ class Campus extends Model
 			[
 				'established' => 'date: Y',
 			];
+	}
+	
+	public function gradeTranslationSchema(Year $year = null): HasMany
+	{
+		if(!$year)
+			return $this->hasMany(GradeTranslationSchema::class, 'campus_id');
+		return $this->hasMany(GradeTranslationSchema::class, 'campus_id')->where('year_id', $year->id);
 	}
 }

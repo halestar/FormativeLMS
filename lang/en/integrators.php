@@ -50,4 +50,7 @@ return
 		'work.email_work' => 'Email Storage',
 		'work.employee_work' => 'Employee Storage',
 		'work.student_work' => 'Student Work Storage',
+		'work.ld_work' => 'Learning Demonstration Work Storage',
+		'work.ldo_work' => 'Learning Demonstration Opportunity Work Storage',
+		'work.temp' => 'Temporary Storage',
 	];

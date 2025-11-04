@@ -1,9 +1,9 @@
-<div class="{{ $classes }} border rounded border-dark text-bg-secondary m-1 p-2 position-relative">
+<div class="{{ $classes }}">
     @if($buttonMode)
         <button type="button" class="btn btn-light" wire:click="setMode('runMode')" x-data="{ thinking: false }"
                 x-on:thinking="thinking = true">
             @svg('images/ai-icon.svg', 'img-icon-small')
-            <span class="border-start ps-2 ms-2">{{ $model->promptDescription() }}</span>
+            <span class="border-start ps-2 ms-2">{{ $propertyName }}</span>
         </button>
     @elseif($runMode)
         <div class="row mb-3">

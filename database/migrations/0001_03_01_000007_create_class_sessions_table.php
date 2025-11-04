@@ -1,5 +1,6 @@
 <?php
 
+use App\Enums\AssessmentStrategyCalculationMethod;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -38,6 +39,10 @@ return new class extends Migration
 			      ->nullOnDelete();
 			$table->json('layout')
 			      ->nullable();
+			$table->boolean('setup_completed')->default(false);
+			$table->boolean('inherit_criteria')->default(true);
+			$table->string('calc_method')->default(AssessmentStrategyCalculationMethod::Percent->value);
+			
 			$table->timestamps();
 		});
 	}

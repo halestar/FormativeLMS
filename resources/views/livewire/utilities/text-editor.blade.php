@@ -97,6 +97,8 @@
         selector: '#lms-text-editor',
         license_key: "gpl",
         promotion: false,
+        width: '{{ $width }}',
+        height: '{{ $height }}',
         plugins:
             [
                 'advlist', 'autolink', 'link', 'lists', 'charmap', 'preview', 'anchor', 'pagebreak',

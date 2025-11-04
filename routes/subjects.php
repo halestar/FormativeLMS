@@ -93,36 +93,25 @@ Route::prefix('skills')
      {
 	     Route::get('/', 'index')
 	          ->name('index');
-	     Route::post('/store/knowledge', 'storeKnowledge')
-	          ->name('store.knowledge');
-	     Route::post('/store/character', 'storeCharacter')
-	          ->name('store.character');
-	     Route::get('/create/{category}/knowledge', 'createKnowledge')
-	          ->name('create.knowledge');
-	     Route::get('/create/{category}/character', 'createCharacter')
-	          ->name('create.character');
-	     Route::get('/knowledge/{skill}/rubric', 'knowledgeRubric')
-	          ->name('rubric.knowledge');
-	     Route::get('/character/{skill}/rubric', 'characterRubric')
-	          ->name('rubric.character');
-	     Route::get('/knowledge/{skill}/edit', 'editKnowledge')
-	          ->name('edit.knowledge');
-	     Route::get('/character/{skill}/edit', 'editCharacter')
-	          ->name('edit.character');
-	     Route::put('/knowledge/{skill}/update', 'updateKnowledge')
-	          ->name('update.knowledge');
-	     Route::put('/character/{skill}/update', 'updateCharacter')
-	          ->name('update.character');
-	     Route::delete('/knowledge/{skill}/unlink/{category}', 'unlinkKnowledgeCategory')
-	          ->name('unlink.knowledge');
-	     Route::delete('/character/{skill}/unlink/{category}', 'unlinkCharacterCategory')
-	          ->name('unlink.character');
-	     Route::post('/knowledge/{skill}/link', 'linkKnowledgeCategory')
-	          ->name('link.knowledge');
-	     Route::post('/character/{skill}/link', 'linkCharacterCategory')
-	          ->name('link.character');
-	     Route::get('/knowledge/{skill}', 'showKnowledge')
-	          ->name('show.knowledge');
-	     Route::get('/character/{skill}', 'showCharacter')
-	          ->name('show.character');
+	     Route::post('/store', 'store')
+	          ->name('store');
+	     Route::get('/create/{category?}', 'create')
+	          ->name('create');
+	     Route::get('/{skill}/rubric', 'rubric')
+	          ->name('rubric');
+	     Route::get('/{skill}/edit', 'edit')
+	          ->name('edit');
+	     Route::put('/{skill}/update', 'update')
+	          ->name('update');
+	     Route::delete('/{skill}/unlink/{category}', 'unlinkCategory')
+	          ->name('unlink');
+	     Route::post('/{skill}/link', 'linkCategory')
+	          ->name('link');
+	     Route::get('/{skill}/subject/{subject}', 'linkSubject')
+	          ->name('link.subject');
+		 Route::delete('/{skill}/subject/{subject}', 'unlinkSubject')
+			 ->name('unlink.subject');
+	     Route::get('/{skill}', 'show')
+	          ->name('show');
+		 Route::delete('/{skill}', 'destroy')->name('delete');
      });

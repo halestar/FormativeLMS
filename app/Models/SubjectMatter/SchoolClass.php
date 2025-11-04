@@ -4,7 +4,9 @@ namespace App\Models\SubjectMatter;
 
 use App\Models\Locations\Term;
 use App\Models\Locations\Year;
+use App\Models\People\Person;
 use App\Models\People\StudentRecord;
+use App\Models\SubjectMatter\Learning\ClassCriteria;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -103,5 +105,21 @@ class SchoolClass extends Model
 		if(!$termIds)
 			return ($count > 0);
 		return ($count == count($termIds));
+	}
+	
+	public function sessionsTaughtBy(Person $person): HasMany
+	{
+		return $this->sessions()
+		     ->whereAttachedTo($person, 'teachers');
+	}
+	
+	public function classCriteria(): HasMany
+	{
+		return $this->hasMany(ClassCriteria::class, 'class_id');
+	}
+	
+	public function hasCriteria(): bool
+	{
+		return $this->classCriteria()->count() > 0;
 	}
 }

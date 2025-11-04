@@ -3,10 +3,11 @@
 namespace App\Http\Controllers\ClassManagement;
 
 use App\Http\Controllers\Controller;
-use App\Models\CRUD\SkillCategoryDesignation;
 use App\Models\SubjectMatter\Assessment\CharacterSkill;
-use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
+use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\SubjectMatter\Assessment\SkillCategory;
+use App\Models\SubjectMatter\Subject;
+use App\Models\SystemTables\SkillCategoryDesignation;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
 
@@ -26,54 +27,52 @@ class SkillsController extends Controller implements HasMiddleware
 		return view('subjects.skills.index', compact('breadcrumb'));
 	}
 	
-	public function createKnowledge(SkillCategory $category)
+	public function create(SkillCategory $category = null)
 	{
 		$breadcrumb =
 			[
 				trans_choice('subjects.skills', 2) => route('subjects.skills.index'),
-				__('subjects.skills.knowledge.new') => '#',
+				__('subjects.skills.new') => '#',
 			];
-		return view('subjects.skills.knowledge', compact('breadcrumb', 'category'));
+		if($category)
+			$parentCategories  = $category->parentCategory->subCategories;
+		else
+			$parentCategories = SkillCategory::root()->get();
+		return view('subjects.skills.create', compact('breadcrumb', 'category', 'parentCategories'));
 	}
 	
-	public function createCharacter(SkillCategory $category)
-	{
-		$breadcrumb =
-			[
-				trans_choice('subjects.skills', 2) => route('subjects.skills.index'),
-				__('subjects.skills.character.new') => '#',
-			];
-		return view('subjects.skills.character', compact('breadcrumb', 'category'));
-	}
-	
-	public function storeKnowledge(Request $request)
+	public function store(Request $request)
 	{
 		$data = $request->validate([
-			'subject_id' => 'required|numeric|exists:subjects,id',
+			'skill_type' => 'required|in:subject,global',
+			'subject_id' => 'nullable|required_if:skill_type,subject|exists:subjects,id',
 			'designation' => 'required|max:255',
 			'name' => 'nullable|max:255',
-			'category_id' => 'required|exists:skill_categories,id',
-			'cat_designation_id' => 'required|exists:crud_skill_category_designations,id',
+			'category_id' => 'nullable|required_if:skill_type,subject|exists:skill_categories,id',
+			'cat_designation' => 'nullable|required_if:skill_type,subject|max: 255',
 			'levels' => 'required|array|min:1',
 			'description' => 'required',
 		], static::errors());
-		$kSkill = new KnowledgeSkill();
-		$kSkill->subject_id = $data['subject_id'];
+		$kSkill = new Skill();
+		$kSkill->global = $data['skill_type'] == "global";
 		$kSkill->designation = $data['designation'];
 		$kSkill->name = $data['name'];
 		$kSkill->description = $data['description'];
 		$kSkill->save();
-		//next we link the category.
-		$catDesignation = SkillCategoryDesignation::find($data['cat_designation_id']);
-		$category = SkillCategory::find($data['category_id']);
-		$category->knowledgeSkills()
-		         ->attach($kSkill->id, ['designation_id' => $catDesignation->id]);
+		//is this a global skill?
+		if(!$kSkill->isGlobal())
+		{
+			$category = SkillCategory::find($data['category_id']);
+			$category->skills()
+			         ->attach($kSkill->id, ['designation' => $data['cat_designation']]);
+			$kSkill->subjects()->attach($data['subject_id']);
+		}
 		//next, we attach levels.
 		foreach($data['levels'] as $level)
 			$kSkill->levels()
 			       ->attach($level);
 		return redirect()
-			->route('subjects.skills.show.knowledge', $kSkill)
+			->route('subjects.skills.show', $kSkill)
 			->with('success-status', __('subjects.skills.created'));
 	}
 	
@@ -89,87 +88,39 @@ class SkillsController extends Controller implements HasMiddleware
 		];
 	}
 	
-	public function storeCharacter(Request $request)
-	{
-		$data = $request->validate([
-			'designation' => 'required|max:255',
-			'name' => 'nullable|max:255',
-			'category_id' => 'required|exists:skill_categories,id',
-			'cat_designation_id' => 'required|exists:crud_skill_category_designations,id',
-			'levels' => 'required|array|min:1',
-			'description' => 'required',
-		], static::errors());
-		$cSkill = new CharacterSkill();
-		$cSkill->designation = $data['designation'];
-		$cSkill->name = $data['name'];
-		$cSkill->description = $data['description'];
-		$cSkill->save();
-		//next we link the category.
-		$catDesignation = SkillCategoryDesignation::find($data['cat_designation_id']);
-		$category = SkillCategory::find($data['category_id']);
-		$category->characterSkills()
-		         ->attach($cSkill->id, ['designation_id' => $catDesignation->id]);
-		//next, we attach levels.
-		foreach($data['levels'] as $level)
-			$cSkill->levels()
-			       ->attach($level);
-		return redirect()
-			->route('subjects.skills.show.character', $cSkill)
-			->with('success-status', __('subjects.skills.created'));
-	}
-	
-	public function showKnowledge(KnowledgeSkill $skill)
+	public function show(Skill $skill)
 	{
 		$breadcrumb =
 			[
 				trans_choice('subjects.skills', 2) => route('subjects.skills.index'),
 				$skill->designation => '#',
 			];
-		return view('subjects.skills.knowledge-show', compact('breadcrumb', 'skill'));
+		return view('subjects.skills.show', compact('breadcrumb', 'skill'));
 	}
 	
-	public function showCharacter(CharacterSkill $skill)
+	public function edit(Request $request, Skill $skill)
 	{
 		$breadcrumb =
 			[
 				trans_choice('subjects.skills', 2) => route('subjects.skills.index'),
-				$skill->designation => '#',
-			];
-		return view('subjects.skills.character-show', compact('breadcrumb', 'skill'));
-	}
-	
-	public function editKnowledge(Request $request, KnowledgeSkill $skill)
-	{
-		$breadcrumb =
-			[
-				trans_choice('subjects.skills', 2) => route('subjects.skills.index'),
-				$skill->designation => route('subjects.skills.show.knowledge', $skill),
+				$skill->designation => route('subjects.skills.show', $skill),
 				__('common.edit') => '#',
 			];
-		return view('subjects.skills.knowledge-edit', compact('breadcrumb', 'skill'));
+		return view('subjects.skills.edit', compact('breadcrumb', 'skill'));
 	}
 	
-	public function editCharacter(Request $request, CharacterSkill $skill)
+	public function update(Request $request, Skill $skill)
 	{
-		$breadcrumb =
+		$rules =
 			[
-				trans_choice('subjects.skills', 2) => route('subjects.skills.index'),
-				$skill->designation => route('subjects.skills.show.character', $skill),
-				__('common.edit') => '#',
+				'designation' => 'required|max:255',
+				'name' => 'nullable|max:255',
+				'levels' => 'required|array|min:1',
+				'description' => 'required',
 			];
-		return view('subjects.skills.character-edit', compact('breadcrumb', 'skill'));
-	}
-	
-	public function updateKnowledge(Request $request, KnowledgeSkill $skill)
-	{
-		$data = $request->validate([
-			'subject_id' => 'required|numeric|exists:subjects,id',
-			'designation' => 'required|max:255',
-			'name' => 'nullable|max:255',
-			'levels' => 'required|array|min:1',
-			'description' => 'required',
-		], static::errors());
-		$skill->subject_id = $data['subject_id'];
+		if(!$skill->isGlobal())
+			$rules['subject_id'] = 'required|numeric|exists:subjects,id';
+		$data = $request->validate($rules, static::errors());
 		$skill->designation = $data['designation'];
 		$skill->name = $data['name'];
 		$skill->description = $data['description'];
@@ -180,99 +131,65 @@ class SkillsController extends Controller implements HasMiddleware
 		$skill->levels()
 		      ->sync($data['levels']);
 		return redirect()
-			->route('subjects.skills.show.knowledge', $skill)
+			->route('subjects.skills.show', $skill)
 			->with('success-status', __('subjects.skills.updated'));
 	}
 	
-	public function updateCharacter(Request $request, CharacterSkill $skill)
-	{
-		$data = $request->validate([
-			'designation' => 'required|max:255',
-			'name' => 'nullable|max:255',
-			'levels' => 'required|array|min:1',
-			'description' => 'required',
-		], static::errors());
-		$skill->designation = $data['designation'];
-		$skill->name = $data['name'];
-		$skill->description = $data['description'];
-		//can and should we activate?
-		if($skill->canActivate() && $request->has('active'))
-			$skill->active = true;
-		$skill->save();
-		$skill->levels()
-		      ->sync($data['levels']);
-		return redirect()
-			->route('subjects.skills.show.character', $skill)
-			->with('success-status', __('subjects.skills.updated'));
-	}
-	
-	public function linkKnowledgeCategory(Request $request, KnowledgeSkill $skill)
+	public function linkCategory(Request $request, Skill $skill)
 	{
 		$data = $request->validate([
 			'category_id' => 'required|numeric|exists:skill_categories,id',
-			'cat_designation_id' => 'required|exists:crud_skill_category_designations,id',
+			'cat_designation' => 'required|max:255',
 		], static::errors());
 		$category = SkillCategory::findOrFail($data['category_id']);
-		$catDesignation = SkillCategoryDesignation::findOrFail($data['cat_designation_id']);
-		$category->knowledgeSkills()
-		         ->attach($skill->id, ['designation_id' => $catDesignation->id]);
+		$category->skills()
+		         ->attach($skill->id, ['designation' => $data['cat_designation']]);
 		return redirect()
-			->route('subjects.skills.show.knowledge', $skill)
+			->route('subjects.skills.show', $skill)
 			->with('success-status', __('subjects.skills.updated'));
 	}
 	
-	public function linkCharacterCategory(Request $request, CharacterSkill $skill)
+	public function unlinkCategory(Request $request, Skill $skill, SkillCategory $category)
 	{
-		$data = $request->validate([
-			'category_id' => 'required|numeric|exists:skill_categories,id',
-			'cat_designation_id' => 'required|exists:crud_skill_category_designations,id',
-		], static::errors());
-		$category = SkillCategory::findOrFail($data['category_id']);
-		$catDesignation = SkillCategoryDesignation::findOrFail($data['cat_designation_id']);
-		$category->characterSkills()
-		         ->attach($skill->id, ['designation_id' => $catDesignation->id]);
-		return redirect()
-			->route('subjects.skills.show.character', $skill)
-			->with('success-status', __('subjects.skills.updated'));
-	}
-	
-	public function unlinkKnowledgeCategory(Request $request, KnowledgeSkill $skill, SkillCategory $category)
-	{
-		$category->knowledgeSkills()
+		$category->skills()
 		         ->detach($skill->id);
 		return redirect()
-			->route('subjects.skills.show.knowledge', $skill)
+			->route('subjects.skills.show', $skill)
 			->with('success-status', __('subjects.skills.updated'));
 	}
 	
-	public function unlinkCharacterCategory(Request $request, CharacterSkill $skill, SkillCategory $category)
-	{
-		$category->characterSkills()
-		         ->detach($skill->id);
-		return redirect()
-			->route('subjects.skills.show.character', $skill)
-			->with('success-status', __('subjects.skills.updated'));
-	}
-	
-	public function knowledgeRubric(Request $request, KnowledgeSkill $skill)
+	public function rubric(Request $request, Skill $skill)
 	{
 		$breadcrumb =
 			[
 				trans_choice('subjects.skills', 2) => route('subjects.skills.index'),
-				$skill->designation => route('subjects.skills.show.knowledge', $skill),
+				$skill->designation => route('subjects.skills.show', $skill),
 				__('subjects.skills.rubric.builder') => '#',
 			];
 		return view('subjects.skills.rubric', compact('breadcrumb', 'skill'));
 	}
 	
-	public function characterRubric(Request $request, CharacterSkill $skill)
+	public function destroy(Skill $skill)
 	{
-		$breadcrumb =
-			[
-				trans_choice('subjects.skills', 2) => route('subjects.skills.index'),
-				$skill->designation => route('subjects.skills.show.character', $skill),
-				__('subjects.skills.rubric.builder') => '#',
-			];
-		return view('subjects.skills.rubric', compact('breadcrumb', 'skill'));
+		$skill->delete();
+		return redirect()
+			->route('subjects.skills.index')
+			->with('success-status', __('subjects.skills.deleted'));
+	}
+	
+	public function linkSubject(Skill $skill, Subject $subject)
+	{
+		$skill->subjects()->attach($subject->id);
+		return redirect()
+			->route('subjects.skills.edit', $skill)
+			->with('success-status', __('subjects.skills.updated'));
+	}
+	
+	public function unlinkSubject(Skill $skill, Subject $subject)
+	{
+		$skill->subjects()->detach($subject->id);
+		return redirect()
+			->route('subjects.skills.edit', $skill)
+			->with('success-status', __('subjects.skills.updated'));
 	}
 }

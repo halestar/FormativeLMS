@@ -127,7 +127,7 @@
                             <div class="alert alert-danger">{{ __('errors.buildings.areas') }}</div>
                             @enderror
                             <ul class="list-group">
-                                @foreach(\App\Models\CRUD\SchoolArea::all() as $area)
+                                @foreach(\App\Models\SystemTables\SchoolArea::all() as $area)
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-top">
                                             <label for="areas_{{ $area->id }}">

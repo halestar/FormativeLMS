@@ -38,6 +38,11 @@ return Application::configure(basePath: dirname(__DIR__))
 		                       ->name('settings.')
 		                       ->group(base_path('routes/settings.php'));
 		                  
+		                  Route::middleware(['web', 'auth'])
+		                       ->prefix('learning')
+		                       ->name('learning.')
+		                       ->group(base_path('routes/learning.php'));
+		                  
 		                  \halestar\LaravelDropInCms\DiCMS::publicRoutes();
 	                  },
                   )

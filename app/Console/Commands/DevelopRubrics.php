@@ -2,9 +2,9 @@
 
 namespace App\Console\Commands;
 
-use App\Casts\Rubric;
+use App\Casts\Learning\Rubric;
 use App\Interfaces\HasRubric;
-use App\Models\SubjectMatter\Assessment\KnowledgeSkill;
+use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Storage;
@@ -65,16 +65,16 @@ class DevelopRubrics extends Command
 		{
 			$settingVals = $developRubricSetting->value;
 			$this->info('Statistics for this run:' . print_r($settingVals, true));
-			foreach(KnowledgeSkill::where('id', '>', $developRubricSetting->value['knowledge_index'])
-			                      ->get() as $skill)
+			foreach(Skill::where('id', '>', $developRubricSetting->value['knowledge_index'])
+			             ->get() as $skill)
 			{
 				$this->info("Developing rubric for knowledge skill: " . $skill->designation);
 				$this->info("Asking Ai...");
 				$response = Prism::structured()
 				                 ->using(Provider::Gemini, 'gemini-2.0-flash')
-				                 ->withSystemPrompt(view('ai.default-prompts.knowledge-skill.system-prompt',
+				                 ->withSystemPrompt(view('ai.default-prompts.skill.system-prompt',
 					                 $systemPromptVars))
-				                 ->withPrompt(view('ai.default-prompts.knowledge-skill.prompt', ['skill' => $skill]))
+				                 ->withPrompt(view('ai.default-prompts.skill.prompt', ['skill' => $skill]))
 				                 ->withSchema($this->getRubricSchema())
 				                 ->asStructured();
 				$this->info("Response received. Updating Skill...");

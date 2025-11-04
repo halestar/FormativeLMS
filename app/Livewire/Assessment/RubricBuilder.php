@@ -2,14 +2,14 @@
 
 namespace App\Livewire\Assessment;
 
-use App\Casts\Rubric;
-use App\Interfaces\HasRubric;
+use App\Casts\Learning\Rubric;
+use App\Models\SubjectMatter\Assessment\Skill;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
 
 class RubricBuilder extends Component
 {
-	public HasRubric $skill;
+	public Skill $skill;
 	public Rubric $rubric;
 	public bool $updating = false;
 	public ?string $updateType = null;
@@ -23,19 +23,19 @@ class RubricBuilder extends Component
 	
 	public bool $canUseAI = false;
 	
-	public function mount(HasRubric $skill)
+	public function mount(Skill $skill)
 	{
 		$this->skill = $skill;
-		$rubric = auth()->user()->prefs->get('rubric-builder.' . $this->skill->getSkillId(), null);
+		$rubric = auth()->user()->prefs->get('rubric-builder.' . $this->skill->id, null);
 		if($rubric)
 		{
 			$rubric = Rubric::hydrate($rubric);
 			$this->rubric = $rubric;
 			$this->saved = false;
 		}
-		elseif($this->skill->getRubric())
+		elseif($this->skill->rubric)
 		{
-			$this->rubric = $skill->getRubric();
+			$this->rubric = $skill->rubric;
 			$this->saved = true;
 		}
 		else
@@ -56,21 +56,21 @@ class RubricBuilder extends Component
 	
 	public function discardChanges()
 	{
-		$this->rubric = $this->skill->getRubric() ?? new Rubric();
+		$this->rubric = $this->skill->rubric ?? new Rubric();
 		$this->clearLocalSave();
 	}
 	
 	private function clearLocalSave()
 	{
 		$user = auth()->user();
-		$user->prefs->set('rubric-builder.' . $this->skill->getSkillId(), null);
+		$user->prefs->set('rubric-builder.' . $this->skill->id, null);
 		$user->save();
 		$this->saved = true;
 	}
 	
 	public function save()
 	{
-		$this->skill->setRubric($this->rubric);
+		$this->skill->rubric = $this->rubric;
 		$this->skill->save();
 		$this->clearLocalSave();
 	}
@@ -84,7 +84,7 @@ class RubricBuilder extends Component
 	private function saveLocally()
 	{
 		$user = auth()->user();
-		$user->prefs->set('rubric-builder.' . $this->skill->getSkillId(), $this->rubric);
+		$user->prefs->set('rubric-builder.' . $this->skill->id, $this->rubric);
 		$user->save();
 		$this->saved = false;
 	}

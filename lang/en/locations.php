@@ -161,4 +161,5 @@ return
 		'years.start' => 'Year Start',
 		'years.update' => 'Update Year',
 		'years.updated' => 'Year was successfully updated',
+		'years.select' => 'Select Year',
 	];

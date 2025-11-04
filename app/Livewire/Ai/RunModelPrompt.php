@@ -16,6 +16,7 @@ class RunModelPrompt extends Component
 	public bool $buttonMode = true;
 	public bool $runMode = false;
 	public AiPromptable $model;
+	public string $property;
 	public AiPrompt $defaultPrompt;
 	public ?AiPrompt $customPrompt = null;
 	public string $selectedAiId;
@@ -24,8 +25,9 @@ class RunModelPrompt extends Component
 	public bool $resultsMode = false;
 	public ?string $results = null;
 	public string $promptType;
+	public string $propertyName;
 	
-	public function mount(AiPromptable $model)
+	public function mount(AiPromptable $model, string $property)
 	{
 		$this->person = auth()->user();
 		$this->aiConnections = $this->person->aiAccess();
@@ -34,11 +36,13 @@ class RunModelPrompt extends Component
 		                                  ->getLlms();
 		$this->selectedLlm = $this->Llms[0];
 		$this->model = $model;
-		$this->defaultPrompt = $this->model->getDefaultPrompt();
+		$this->property = $property;
+		$this->propertyName = $model::availableProperties()[$property];
+		$this->defaultPrompt = $model::getDefaultPrompt($property);
 		$this->promptType = "default";
-		if($model->hasCustomPrompt($this->person))
+		if($model::hasCustomPrompt($property, $this->person))
 		{
-			$this->customPrompt = $model->customPrompt($this->person);
+			$this->customPrompt = $model::getCustomPrompt($property, $this->person);
 			$this->promptType = "custom";
 		}
 		
@@ -77,7 +81,7 @@ class RunModelPrompt extends Component
 		$selectedConnection = $this->aiConnections->where('id', $this->selectedAiId)
 		                                          ->first();
 		$selectedConnection->executePrompt($this->selectedLlm,
-			($this->promptType == "default" ? $this->defaultPrompt : $this->customPrompt));
+			($this->promptType == "default" ? $this->defaultPrompt : $this->customPrompt), $this->model);
 		if($this->promptType == "default")
 			$this->defaultPrompt->refresh();
 		else
@@ -125,7 +129,7 @@ class RunModelPrompt extends Component
 	
 	public function createCustomPrompt()
 	{
-		$this->customPrompt = $this->model->customPrompt($this->person);
+		$this->customPrompt = ($this->model)::getCustomPrompt($this->property, $this->person);
 		$this->redirect(route('ai.prompt.editor', $this->customPrompt));
 	}
 	

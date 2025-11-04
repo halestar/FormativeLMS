@@ -6,19 +6,19 @@
             <div class="col-4">
                 <h4 class="border-bottom pb-1 mb-2">{{ __('crud.system_tables') }}</h4>
                 <div class="list-group" id="table_container">
-                    @foreach(\App\Models\CRUD\CrudItem::crudModels() as $crudModel)
+                    @foreach(\App\Models\SystemTables\SystemTable::tableModels() as $crudModel)
                         <button
                                 id="table_selector_{{ $loop->index }}"
                                 class="list-group-item list-group-item-action @if($loop->first) active @endif"
                                 @if($loop->first) aria-bs-current="true" @endif
-                                onclick="setCrudTable('{{ str_replace("\\", "\\\\", $crudModel::getCrudModel()) }}', {{ $loop->index }})">
+                                onclick="setCrudTable('{{ str_replace("\\", "\\\\", $crudModel) }}', {{ $loop->index }})">
                             {{ $crudModel::getCrudModelName() }}
                         </button>
                     @endforeach
                 </div>
             </div>
             <div class="col">
-                <livewire:crud-item-update :model="\App\Models\CRUD\Relationship::class"/>
+                <livewire:crud-item-update :model="(\App\Models\SystemTables\SystemTable::tableModels()[0])"/>
             </div>
         </div>
     </div>

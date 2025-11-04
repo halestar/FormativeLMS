@@ -3,18 +3,21 @@
 namespace App\Livewire\Ai;
 
 use App\Models\Ai\AiPrompt;
-use App\Models\Ai\AiSystemPrompt;
+use Illuminate\Support\Facades\Blade;
 use Livewire\Component;
 
 class EditModelPrompt extends Component
 {
 	public array $breadcrumb;
 	public AiPrompt $aiPrompt;
-	public AiSystemPrompt $aiSystemPrompt;
+	public string $className;
+	public string $property;
 	public string $reloadKey;
 	public string $prompt;
 	public float $temperature;
 	public string $promptType;
+	public string $backLink;
+	public ?string $preview = null;
 	
 	public function mount(AiPrompt $aiPrompt)
 	{
@@ -26,9 +29,14 @@ class EditModelPrompt extends Component
 		elseif(!$aiPrompt->isDefaultPrompt() && auth()->user()->id != $aiPrompt->person_id)
 			abort(403);
 		$this->aiPrompt = $aiPrompt;
-		$this->aiSystemPrompt = $aiPrompt->systemPrompt;
-		$this->breadcrumb = $this->aiPrompt->ai_promptable->getBreacrumb();
-		$this->breadcrumb[__('ai.prompt.editor')] = '#';
+		$this->className = $aiPrompt->className;
+		$this->property = $aiPrompt->property;
+		$this->backLink = redirect()->back()->getTargetUrl();
+		$this->breadcrumb =
+			[
+				($this->className)::propertyName($this->property) => $this->backLink,
+				__('ai.prompt.editor') => '#',
+			];
 		$this->reloadKey = uniqid();
 		$this->prompt = $this->aiPrompt->prompt;
 		$this->temperature = $this->aiPrompt->temperature;
@@ -45,7 +53,7 @@ class EditModelPrompt extends Component
 		}
 		else
 		{
-			$this->prompt = $this->aiSystemPrompt->prompt;
+			$this->prompt = $this->aiPrompt->system_prompt;
 			$this->reloadKey = uniqid();
 		}
 	}
@@ -54,6 +62,7 @@ class EditModelPrompt extends Component
 	{
 		$this->prompt = $this->aiPrompt->prompt;
 		$this->temperature = $this->aiPrompt->temperature;
+		$this->promptType = 'prompt';
 		$this->reloadKey = uniqid();
 	}
 	
@@ -62,10 +71,7 @@ class EditModelPrompt extends Component
 		if($this->promptType == 'prompt')
 			$this->aiPrompt->prompt = $this->prompt;
 		else
-		{
-			$this->aiSystemPrompt->prompt = $this->prompt;
-			$this->aiSystemPrompt->save();
-		}
+			$this->aiPrompt->system_prompt = $this->prompt;
 		$this->aiPrompt->temperature = $this->temperature;
 		$this->aiPrompt->save();
 		$this->dispatch('saved');
@@ -73,17 +79,17 @@ class EditModelPrompt extends Component
 	
 	public function resetPrompt()
 	{
-		if($this->promptType == 'prompt')
-		{
-			$this->aiPrompt = $this->aiPrompt->ai_promptable->getDefaultPrompt(true);
-			$this->prompt = $this->aiPrompt->prompt;
-		}
-		else
-		{
-			$this->aiSystemPrompt = $this->aiPrompt->ai_promptable->getDefaultSystemPrompt(true);
-			$this->prompt = $this->aiSystemPrompt->prompt;
-		}
+		$this->aiPrompt->resetPrompt();
+		$this->prompt = $this->aiPrompt->prompt;
+		$this->temperature = $this->aiPrompt->temperature;
 		$this->reloadKey = uniqid();
+	}
+	
+	public function previewPrompt()
+	{
+		//load a random model.
+		$model = ($this->className)::inRandomOrder()->first();
+		$this->preview = Blade::render($this->prompt, $model->withTokens());
 	}
 	
 	public function render()

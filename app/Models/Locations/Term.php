@@ -54,6 +54,7 @@ class Term extends Model
 	
 	protected static function booted(): void
 	{
+		parent::booted();
 		static::addGlobalScope('term-start-order', function(Builder $builder)
 		{
 			$builder->orderBy('term_start');

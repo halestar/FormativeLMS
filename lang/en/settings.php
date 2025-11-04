@@ -113,6 +113,7 @@ return
 		'storage.work.email' => 'Email Work Storage',
 		'storage.work.employee' => 'Employee Work Storage',
 		'storage.work.local' => 'Local Work Storage',
+		'storage.work.temporary' => 'Temporary Work Storage',
 		'storage.work.local.instance' => 'Folder Name',
 		'storage.work.local.instance.help' => 'Name of the folder that these documents will reside. Use only letters, numbers and underscores "_"',
 		'storage.work.none' => 'Select a Storage Type',

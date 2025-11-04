@@ -20,6 +20,7 @@ class CategoryItem extends Component
 	public ?Collection $children = null;
 	public string $classes = '';
 	public array $openTo = [];
+	public int $numChildren;
 	
 	public function mount(SkillCategory $category, int $depth, string $classes = '', array $openTo = [])
 	{
@@ -29,6 +30,7 @@ class CategoryItem extends Component
 		$this->children = null;
 		$this->classes = $classes;
 		$this->openTo = $openTo;
+		$this->numChildren = $category->subCategories->count();
 		if(count($this->openTo) > 0)
 		{
 			if(isset($this->openTo[$this->category->id]))
@@ -109,9 +111,10 @@ class CategoryItem extends Component
 		if($this->category->canDelete())
 		{
 			//since we know we don't have anything to worry about, we can safely delete the category
+			$parentId = $this->category->parent_id;
 			$this->category->delete();
 			//tell the parent to refresh
-			$this->dispatch('refresh-parent', parentId: $this->category->parent_id);
+			$this->dispatch('refresh-parent', parentId: $parentId);
 			if($this->selected)
 			{
 				//since we're selected, unselect us.

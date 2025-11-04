@@ -2,7 +2,7 @@
 
 namespace App\Classes\Synths;
 
-use App\Casts\Rubric;
+use App\Casts\Learning\Rubric;
 use Livewire\Mechanisms\HandleComponents\Synthesizers\Synth;
 
 class RubricSynth extends Synth
@@ -25,5 +25,15 @@ class RubricSynth extends Synth
 	public function hydrate($value): Rubric
 	{
 		return Rubric::hydrate($value);
+	}
+	
+	public function get(&$target, $key)
+	{
+		return $target->{$key};
+	}
+	
+	public function set(&$target, $key, $value)
+	{
+		$target->{$key} = $value;
 	}
 }

@@ -94,6 +94,23 @@
                             </div>
                         </li>
                     @endcanany
+                    @hasanyrole(\App\Models\Utilities\SchoolRoles::$FACULTY . "|" . \App\Models\Utilities\SchoolRoles::$OLD_FACULTY)
+                    <li class="nav-item dropdown">
+                        <a id="learningManagementDD" class="nav-link dropdown-toggle" href="#" role="button"
+                           data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            {{ __('system.menu.teaching') }}
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="learningManagementDD">
+                            <a class="dropdown-item" href="{{ route('learning.criteria') }}">
+                                {{ __('system.menu.criteria') }}
+                            </a>
+                            <a class="dropdown-item" href="{{ route('learning.ld.create') }}">
+                                {{ trans_choice('learning.demonstrations', 2) }}
+                            </a>
+                        </div>
+                    </li>
+                    @endhasanyrole
                     @canany(['crud', 'cms', 'people.roles.fields', 'people.field.permissions'])
                         <li class="nav-item dropdown">
                             <a id="adminDD" class="nav-link dropdown-toggle" href="#" role="button"
@@ -147,7 +164,7 @@
                            aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }}
                             @impersonating()
-                            <span class="badge text-bg-warning rounded-pill position-absolute top-0 start-100 translate-middle">I</span>
+                            <span class="badge text-bg-warning rounded-pill">I</span>
                             @endImpersonating
                         </a>
 

@@ -43,6 +43,7 @@ return new class extends Migration
 			      ->index();
 			$table->uuid('auth_connection_id')
 			      ->nullable();
+			$table->fullText(['first', 'middle', 'last', 'email', 'nick'], 'search_index');
 			$table->rememberToken();
 			$table->softDeletes();
 			$table->timestamps();

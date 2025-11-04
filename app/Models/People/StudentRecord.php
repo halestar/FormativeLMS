@@ -2,13 +2,13 @@
 
 namespace App\Models\People;
 
-use App\Models\CRUD\DismissalReason;
-use App\Models\CRUD\Level;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use App\Models\SubjectMatter\ClassSession;
 use App\Models\SubjectMatter\Components\ClassMessage;
+use App\Models\SystemTables\DismissalReason;
+use App\Models\SystemTables\Level;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

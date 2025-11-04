@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Locations\Building;
 use App\Models\Locations\Campus;
 use App\Models\People\Phone;
+use App\Models\SystemTables\Level;
 use Illuminate\Database\Seeder;
 
 class CampusSeeder extends Seeder
@@ -23,6 +24,7 @@ class CampusSeeder extends Seeder
 		                 ->create();
 		$admissionPhone = Phone::factory()
 		                       ->create();
+		$hsLevels = Level::whereIn('name', ['12th', '11th', '10th', '9th'])->get();
 		$hs = Campus::create(
 			[
 				'name' => 'Kalinec High School',
@@ -36,7 +38,7 @@ class CampusSeeder extends Seeder
 				'order' => '1',
 			]);
 		$hs->levels()
-		   ->sync([1, 2, 3, 4]);
+		   ->sync($hsLevels->pluck('id')->toArray());
 		$hs->addresses()
 		   ->attach($buildingA->address_id, ['primary' => true]);
 		$hs->phones()
@@ -54,6 +56,7 @@ class CampusSeeder extends Seeder
 		                 ->create();
 		$admissionPhone = Phone::factory()
 		                       ->create();
+		$msLevels = Level::whereIn('name', ['8th', '7th', '6th'])->get();
 		$ms = Campus::create(
 			[
 				'name' => 'Kalinec Middle School',
@@ -67,7 +70,7 @@ class CampusSeeder extends Seeder
 				'order' => '2',
 			]);
 		$ms->levels()
-		   ->sync([5, 6, 7]);
+		   ->sync($msLevels->pluck('id')->toArray());
 		$ms->addresses()
 		   ->attach($buildingB->address_id, ['primary' => true]);
 		$ms->phones()
@@ -85,6 +88,7 @@ class CampusSeeder extends Seeder
 		                 ->create();
 		$admissionPhone = Phone::factory()
 		                       ->create();
+		$esLevels = Level::whereIn('name', ['5th', '4th', '3rd', '2nd', '1st', 'Kindergarten'])->get();
 		$es = Campus::create(
 			[
 				'name' => 'Kalinec Elementary School',
@@ -98,7 +102,7 @@ class CampusSeeder extends Seeder
 				'order' => '3',
 			]);
 		$es->levels()
-		   ->sync([8, 9, 10, 11, 12, 13]);
+		   ->sync($esLevels->pluck('id')->toArray());
 		$es->addresses()
 		   ->attach($buildingA->address_id, ['primary' => true]);
 		$es->addresses()

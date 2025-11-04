@@ -2,7 +2,7 @@
 
 namespace App\Models\People;
 
-use App\Models\CRUD\Relationship;
+use App\Models\SystemTables\Relationship;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
