@@ -17,7 +17,7 @@
                             <option value="{{ $area->id }}">{{ $area->name }}</option>
                         @endforeach
                     </select>
-                    <x-error-display key="area_id">{{ $errors->first('area_id') }}</x-error-display>
+                    <x-utilities.error-display key="area_id">{{ $errors->first('area_id') }}</x-utilities.error-display>
                 </div>
             @endif
             <div class="row mb-3">
@@ -32,7 +32,7 @@
                             value="{{ old('name') }}"
                             required
                     />
-                    <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                    <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                 </div>
                 <div class="col-md-4">
                     <label for="capacity" class="form-label">{{ __('locations.rooms.capacity') }}</label>
@@ -45,7 +45,7 @@
                             value="{{ old('capacity') }}"
                             required
                     />
-                    <x-error-display key="capacity">{{ $errors->first('capacity') }}</x-error-display>
+                    <x-utilities.error-display key="capacity">{{ $errors->first('capacity') }}</x-utilities.error-display>
                 </div>
             </div>
             <div class="mb-3">

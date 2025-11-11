@@ -54,7 +54,7 @@
                                                 onchange="$('#basic-info-form').submit()"
                                         />
                                         <label for="name">{{ __('locations.buildings.name') }}</label>
-                                        <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                                        <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                                     </div>
                                 </div>
                             </div>

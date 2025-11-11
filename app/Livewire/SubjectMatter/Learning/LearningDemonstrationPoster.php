@@ -7,6 +7,7 @@ use App\Classes\Learning\UrlResource;
 use App\Models\People\Person;
 use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationTemplate;
+use Illuminate\Support\Facades\Log;
 use Livewire\Attributes\On;
 use Livewire\Component;
 
@@ -28,6 +29,7 @@ class LearningDemonstrationPoster extends Component
 	public bool $open_submission = false;
 	public bool $submit_after_due = false;
 	public bool $share_submissions = false;
+    public bool $canUseAI = false;
 	
 	protected function rules()
 	{
@@ -71,6 +73,8 @@ class LearningDemonstrationPoster extends Component
 		$this->open_submission = $ld->open_submission;
 		$this->submit_after_due = $ld->submit_after_due;
 		$this->share_submissions = $ld->share_submissions;
+        // Do we have system AI permissions?
+        $this->canUseAI = $this->faculty->canUseAi();
 	}
 	
 	public function post()
@@ -122,8 +126,8 @@ class LearningDemonstrationPoster extends Component
 		$this->ld->name = $this->name;
 		$this->ld->abbr = $this->abbr;
 		$this->ld->demonstration = $this->demonstration;
-		$this->ld->links = array_map(fn($link) => UrlResource::hydrate($link), $this->links);
-		$this->ld->questions = array_map(fn($question) => DemonstrationQuestion::hydrate($question), $this->questions);
+		$this->ld->links = count($this->links) > 0? array_map(fn($link) => UrlResource::hydrate($link), $this->links): [];
+		$this->ld->questions = count($this->questions) > 0? array_map(fn($question) => DemonstrationQuestion::hydrate($question), $this->questions): [];
 		$this->ld->allow_rating = $this->allow_rating;
 		$this->ld->online_submission = $this->online_submission;
 		$this->ld->open_submission = $this->open_submission;

@@ -10,6 +10,7 @@ use App\Models\SubjectMatter\Assessment\CharacterSkill;
 use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\SubjectMatter\ClassSession;
 use App\Models\SubjectMatter\Course;
+use App\Models\SubjectMatter\SchoolClass;
 use App\Traits\HasUuidWorkFiles;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
@@ -20,7 +21,7 @@ use Illuminate\Database\Eloquent\Relations\MorphToMany;
 class LearningDemonstration extends Model implements Fileable
 {
 	use HasUuids, HasUuidWorkFiles;
-	protected $with = ['type', 'knowledgeSkills', 'characterSkills', 'criteria'];
+	protected $with = ['type', 'skills', 'criteria'];
 	public $timestamps = true;
 	public $incrementing = false;
 	protected $table = "learning_demonstrations";
@@ -53,9 +54,9 @@ class LearningDemonstration extends Model implements Fileable
 		return $this->belongsTo(Person::class, 'person_id');
 	}
 	
-	public function course(): BelongsTo
+	public function schoolClass(): BelongsTo
 	{
-		return $this->belongsTo(Course::class, 'course_id');
+		return $this->belongsTo(SchoolClass::class, 'class_id');
 	}
 	
 	public function type(): BelongsTo
@@ -78,19 +79,11 @@ class LearningDemonstration extends Model implements Fileable
 		return $this->belongsTo(ClassCriteria::class, 'criteria_id');
 	}
 	
-	public function knowledgeSkills(): MorphToMany
+	public function skills(): BelongsToMany
 	{
-		return $this->morphToMany(Skill::class, 'skillable', 'learning_demonstration_template_skill', 'template_id')
+		return $this->belongsToMany(Skill::class, 'learning_demonstration_template_skill', 'template_id')
 		            ->withPivot(['rubric', 'id'])
-		            ->as('knowledge')
-		            ->using(LearningDemonstrationTemplateSkill::class);
-	}
-	
-	public function characterSkills(): MorphToMany
-	{
-		return $this->morphToMany(CharacterSkill::class, 'skillable', 'learning_demonstration_template_skill', 'template_id')
-		            ->withPivot(['rubric', 'id'])
-		            ->as('character')
+					->as('assessment')
 		            ->using(LearningDemonstrationTemplateSkill::class);
 	}
 	

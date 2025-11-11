@@ -20,7 +20,7 @@
                                 @if($permission->category_id == $category->id) selected @endif >{{ $category->name }}</option>
                     @endforeach
                 </select>
-                <x-error-display key="category_id">{{ $errors->first('category_id') }}</x-error-display>
+                <x-utilities.error-display key="category_id">{{ $errors->first('category_id') }}</x-utilities.error-display>
             </div>
 
             <div class="mb-3">
@@ -32,7 +32,7 @@
                         class="form-control @error('name') is-invalid @enderror"
                         value="{{ $permission->name }}"
                 />
-                <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
             </div>
 
             <div class="mb-3">
@@ -43,7 +43,7 @@
                         id="description"
                         class="form-control no-resize @error('description') is-invalid @enderror"
                 >{{ $permission->description }}</textarea>
-                <x-error-display key="description">{{ $errors->first('description') }}</x-error-display>
+                <x-utilities.error-display key="description">{{ $errors->first('description') }}</x-utilities.error-display>
             </div>
 
             <h5 class="border-bottom">{{ __('settings.role.assign') }}</h5>

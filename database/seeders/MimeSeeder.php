@@ -38,7 +38,21 @@ class MimeSeeder extends Seeder
 				'mime' => 'application/pdf',
 				'extension' => '.pdf',
 				'icon' => '<i class="bi bi-file-pdf"></i>',
-				'is_img' => false,
+				'is_document' => true,
+			]);
+		MimeType::create(
+			[
+				'mime' => 'audio/mpeg',
+				'extension' => '.mp3,.mpga',
+				'icon' => '<i class="bi bi-filetype-mp3"></i>',
+				'is_audio' => true,
+			]);
+		MimeType::create(
+			[
+				'mime' => 'video/mp4',
+				'extension' => '.mp4',
+				'icon' => '<i class="bi bi-filetype-mp4"></i>',
+				'is_video' => true,
 			]);
 	}
 }

@@ -34,6 +34,16 @@ return [
 			'driver' => 'local',
 			'root' => storage_path('app'),
 			'throw' => false,
+			'permissions' => [
+				'file' => [
+					'public' => 0644,
+					'private' => 0660,
+				],
+				'dir' => [
+					'public' => 0755,
+					'private' => 0770,
+				],
+			],
 		],
 		
 		'public' =>
@@ -43,6 +53,16 @@ return [
 				'url' => env('APP_URL') . '/storage',
 				'visibility' => 'public',
 				'throw' => false,
+				'permissions' => [
+					'file' => [
+						'public' => 0644,
+						'private' => 0660,
+					],
+					'dir' => [
+						'public' => 0755,
+						'private' => 0770,
+					],
+				],
 			],
 		
 		'private' =>
@@ -51,6 +71,16 @@ return [
 				'root' => storage_path('app/private'),
 				'visibility' => 'private',
 				'throw' => false,
+				'permissions' => [
+					'file' => [
+						'public' => 0644,
+						'private' => 0660,
+					],
+					'dir' => [
+						'public' => 0755,
+						'private' => 0770,
+					],
+				],
 			],
 		
 		'cms' => [
@@ -59,6 +89,16 @@ return [
 			'url' => env('APP_URL') . '/storage/cms',
 			'visibility' => 'public',
 			'throw' => false,
+			'permissions' => [
+				'file' => [
+					'public' => 0644,
+					'private' => 0660,
+				],
+				'dir' => [
+					'public' => 0755,
+					'private' => 0770,
+				],
+			],
 		],
 		
 		'idpics' => [
@@ -67,6 +107,16 @@ return [
 			'url' => env('APP_URL') . '/storage/idpics',
 			'visibility' => 'public',
 			'throw' => false,
+			'permissions' => [
+				'file' => [
+					'public' => 0644,
+					'private' => 0660,
+				],
+				'dir' => [
+					'public' => 0755,
+					'private' => 0770,
+				],
+			],
 		],
 		
 		'local-document-storage' =>
@@ -75,6 +125,16 @@ return [
 				'root' => storage_path('documents'),
 				'visibility' => 'private',
 				'throw' => false,
+				'permissions' => [
+					'file' => [
+						'public' => 0644,
+						'private' => 0660,
+					],
+					'dir' => [
+						'public' => 0755,
+						'private' => 0770,
+					],
+				],
 			],
 		
 		'local-work-storage' =>
@@ -83,6 +143,16 @@ return [
 				'root' => storage_path('work'),
 				'visibility' => 'private',
 				'throw' => false,
+                'permissions' => [
+                    'file' => [
+                        'public' => 0644,
+                        'private' => 0660,
+                    ],
+                    'dir' => [
+                        'public' => 0755,
+                        'private' => 0770,
+                    ],
+                ],
 			],
 	
 	],

@@ -9,58 +9,34 @@ use Illuminate\Database\Eloquent\Builder;
 
 trait IsAiPromptable
 {
+    protected const PROMPT_VIEW_PATH = 'ai.prompts.';
 	public static function prompts(string $property = null): Builder
 	{
 		if(!$property)
 			return AiPrompt::where('className', static::class);
 		return AiPrompt::where('className', static::class)->where('property', $property);
 	}
+
 	
-	public static function getDefaultPrompt(string $property, bool $overwrite = false): AiPrompt
+	public static function getUserPrompt(string $property, Person $person): AiPrompt
 	{
-		$prompt = static::prompts($property)->whereNull('person_id');
-		//do we have one?
-		if($prompt->exists())
-		{
-			$defaultPrompt = $prompt->first();
-			if(!$overwrite)
-				return $prompt->first();
-		}
-		else
-		{
-			$defaultPrompt = new AiPrompt();
-			$defaultPrompt->person_id = null;
-			$defaultPrompt->className = static::class;
-			$defaultPrompt->property = $property;
-			$defaultPrompt->structured = static::isStructured($property);
-			$defaultPrompt->tools = static::defaultTools($property);
-		}
-		$defaultPrompt->temperature = static::defaultTemperature($property);
-		$defaultPrompt->prompt = static::defaultPrompt($property);
-		$defaultPrompt->system_prompt = static::defaultSystemPrompt($property);
-		$defaultPrompt->save();
-		return $defaultPrompt;
-	}
-	
-	public static function hasCustomPrompt(string $property, Person $person): bool
-	{
-		return static::prompts($property)->where('person_id', $person->id)->exists();
-	}
-	
-	public static function getCustomPrompt(string $property, Person $person): AiPrompt
-	{
-		if(static::hasCustomPrompt($property, $person))
-			return static::prompts($property)
-			            ->where('person_id', $person->id)
-			            ->first();
-		//else, we create one based on the default prompt
-		$defaultPrompt = static::getDefaultPrompt($property);
-		$customPrompt = $defaultPrompt->replicate()
-		                              ->fill(['person_id' => $person->id]);
-		$customPrompt->save();
-		$customPrompt->workFiles()
-		             ->sync($defaultPrompt->workFiles->pluck('id'));
-		return $customPrompt;
+		$prompt = AiPrompt::where('className', static::class)
+            ->where('property', $property)
+            ->where('person_id', $person->id)
+            ->first();
+        if($prompt)
+            return $prompt;
+        //else, we create one based on the defaults
+        $prompt = new AiPrompt();
+        $prompt->className = static::class;
+        $prompt->property = $property;
+        $prompt->person_id = $person->id;
+        $prompt->prompt = static::defaultPrompt($property);
+        $prompt->system_prompt = static::defaultSystemPrompt($property);
+        $prompt->structured = static::isStructured($property);
+        $prompt->temperature = static::defaultTemperature($property);
+		$prompt->save();
+		return $prompt;
 	}
 	
 	public static function propertyName(string $property): string

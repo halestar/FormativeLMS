@@ -28,7 +28,7 @@
                                     name="name"
                                     id="name"
                             />
-                            <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                            <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                         </div>
                         <div class="col-2 align-self-end text-center">
                             <button type="submit" class="btn btn-primary">{{ __('locations.buildings.add') }}</button>

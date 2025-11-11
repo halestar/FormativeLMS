@@ -2,6 +2,11 @@
 
 namespace App\Mcp\Servers;
 
+use App\Mcp\Tools\FollowLinkTool;
+use App\Mcp\Tools\GetLearningDemonstrationTool;
+use App\Mcp\Tools\GetSkillInformationTool;
+use App\Mcp\Tools\GreetTool;
+use App\Mcp\Tools\SearchSkillsTool;
 use App\Mcp\Tools\WorkFileAccessor;
 use Laravel\Mcp\Server;
 
@@ -30,7 +35,10 @@ class FabLmsAiLearning extends Server
      * @var array<int, class-string<\Laravel\Mcp\Server\Tool>>
      */
     protected array $tools = [
-        WorkFileAccessor::class,
+        FollowLinkTool::class,
+        SearchSkillsTool::class,
+        GetSkillInformationTool::class,
+        GetLearningDemonstrationTool::class,
     ];
 
     /**

@@ -20,7 +20,6 @@ class RubricBuilder extends Component
 	#[Validate]
 	public float $newScore;
 	public bool $saved;
-	
 	public bool $canUseAI = false;
 	
 	public function mount(Skill $skill)
@@ -47,11 +46,7 @@ class RubricBuilder extends Component
 			$this->rubric->points[(count($this->rubric->points) - 1)] + 1 : 1;
 		
 		// Do we have system AI permissions?
-		$this->canUseAI = (auth()
-				->user()
-				->aiAccess()
-				?->count() > 0) ?? false;
-		
+		$this->canUseAI = auth()->user()->canUseAi();
 	}
 	
 	public function discardChanges()

@@ -12,6 +12,7 @@ class LearningDemonstrationIndex extends Component
 	public Person $faculty;
 	public Collection $courses;
 	public int $selectedCourseId;
+    public Collection $demonstrations;
 	
 	public function mount($course = null)
 	{
@@ -28,6 +29,12 @@ class LearningDemonstrationIndex extends Component
 			$this->selectedCourseId = $course;
 		else
 			$this->selectedCourseId = $this->courses->first()->id;
+        $this->demonstrations = $this->faculty->learningDemonstrationTemplates()->inCourse($this->selectedCourseId)->get();
+	}
+
+	public function setCourse()
+	{
+		$this->demonstrations = $this->faculty->learningDemonstrationTemplates()->inCourse($this->selectedCourseId)->get();
 	}
 	
     public function render()

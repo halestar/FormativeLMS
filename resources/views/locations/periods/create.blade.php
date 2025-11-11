@@ -16,7 +16,7 @@
                                 name="name"
                                 value="{{ old('name') }}"
                         />
-                        <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                        <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -29,7 +29,7 @@
                                 name="abbr"
                                 value="{{ old('abbr') }}"
                         />
-                        <x-error-display key="abbr">{{ $errors->first('abbr') }}</x-error-display>
+                        <x-utilities.error-display key="abbr">{{ $errors->first('abbr') }}</x-utilities.error-display>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                             <option value="{{ $id }}" @if(old('day') == $id) selected @endif>{{ $day }}</option>
                         @endforeach
                     </select>
-                    <x-error-display key="day">{{ $errors->first('day') }}</x-error-display>
+                    <x-utilities.error-display key="day">{{ $errors->first('day') }}</x-utilities.error-display>
                 </div>
                 <div class="col-md-4">
                     <label for="start" class="form-label">{{ __('locations.period.start') }}</label>
@@ -52,7 +52,7 @@
                             name="start"
                             value="{{ old('start') }}"
                     />
-                    <x-error-display key="start">{{ $errors->first('start') }}</x-error-display>
+                    <x-utilities.error-display key="start">{{ $errors->first('start') }}</x-utilities.error-display>
                 </div>
                 <div class="col-md-4">
                     <label for="start" class="form-label">{{ __('locations.period.end') }}</label>
@@ -63,7 +63,7 @@
                             name="end"
                             value="{{ old('end') }}"
                     />
-                    <x-error-display key="end">{{ $errors->first('end') }}</x-error-display>
+                    <x-utilities.error-display key="end">{{ $errors->first('end') }}</x-utilities.error-display>
                 </div>
             </div>
             <div class="row">

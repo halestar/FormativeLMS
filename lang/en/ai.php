@@ -35,4 +35,9 @@ return
 		'prompt.work.description' => 'Here you can add any documents, images or files for the AI to use.',
 		'system' => 'AI System',
 		'thinking' => 'Thinking...',
+        'prompt.ld.templates.skills' => 'Suggest Learning Demonstration Skills',
+        'prompt.ld.templates.demonstration' => 'Suggest Learning Demonstration',
+		'prompt.ld.templates.skills.reason' => 'Reason Skill was Suggested',
+		'prompt.ld.templates.links' => 'Suggest Links',
+		'prompt.ld.templates.questions' => 'Suggest Guiding Questions',
 	];

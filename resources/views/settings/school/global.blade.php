@@ -19,7 +19,7 @@
                 <label class="form-check-label" for="day_{{ $dayId }}">{{ $day }}</label>
             </div>
         @endforeach
-        <x-error-display key="days">{{ $errors->first('days') }}</x-error-display>
+        <x-utilities.error-display key="days">{{ $errors->first('days') }}</x-utilities.error-display>
         <div id="daysHelp" class="form-text">{{ __('system.settings.days.help') }}</div>
     </div>
     <div class="school-setting mb-3">
@@ -27,7 +27,7 @@
         <input type="time" class="form-control @error('start_time') is-invalid @enderror"
                id="start_time" name="start_time"
                value="{{ $schoolSettings->startTime }}" aria-describedby="startTimeHelp"/>
-        <x-error-display key="start_time">{{ $errors->first('start_time') }}</x-error-display>
+        <x-utilities.error-display key="start_time">{{ $errors->first('start_time') }}</x-utilities.error-display>
         <div id="startTimeHelp" class="form-text">{{ __('system.settings.start.help') }}</div>
     </div>
     <div class="school-setting mb-3">
@@ -35,7 +35,7 @@
         <input type="time" class="form-control @error('end_time') is-invalid @enderror" id="end_time"
                name="end_time"
                value="{{ $schoolSettings->endTime }}" aria-describedby="endTimeHelp"/>
-        <x-error-display key="end_time">{{ $errors->first('end_time') }}</x-error-display>
+        <x-utilities.error-display key="end_time">{{ $errors->first('end_time') }}</x-utilities.error-display>
         <div id="endTimeHelp" class="form-text">{{ __('system.settings.end.help') }}</div>
     </div>
     <div class="school-setting mb-3">

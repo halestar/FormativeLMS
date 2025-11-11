@@ -24,7 +24,7 @@
                            class="input-group-text">{{ __('subjects.school.top-announcement.color') }}</label>
                     <input type="color" id="announcementColor" wire:model="announcementColor"
                            class="form-control form-control-color @error('announcement_color') is-invalid @enderror"/>
-                    <x-error-display key="announcementColor">{{ $errors->first('announcementColor') }}</x-error-display>
+                    <x-utilities.error-display key="announcementColor">{{ $errors->first('announcementColor') }}</x-utilities.error-display>
                 </div>
             </div>
             <div class="col-7">
@@ -34,8 +34,8 @@
                     <input type="date" id="announcementExpiry"
                            class="form-control @error('announcementExpiry') is-invalid @enderror"
                            wire:model="announcementExpiry"/>
-                    <x-error-display
-                            key="announcementExpiry">{{ $errors->first('announcementExpiry') }}</x-error-display>
+                    <x-utilities.error-display
+                            key="announcementExpiry">{{ $errors->first('announcementExpiry') }}</x-utilities.error-display>
                 </div>
             </div>
         </div>

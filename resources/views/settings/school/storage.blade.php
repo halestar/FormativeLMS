@@ -21,8 +21,8 @@
                                     >{{ $connection->service->name }}</option>
                                 @endforeach
                             </select>
-                            <x-error-display
-                                    key="{{ $storage->value }}">{{ $errors->first($storage->value) }}</x-error-display>
+                            <x-utilities.error-display
+                                    key="{{ $storage->value }}">{{ $errors->first($storage->value) }}</x-utilities.error-display>
                         </div>
                     @endforeach
                 </div>

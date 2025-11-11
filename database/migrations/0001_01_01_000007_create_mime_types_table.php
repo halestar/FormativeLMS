@@ -20,6 +20,12 @@ return new class extends Migration
 			      ->nullable();
 			$table->boolean('is_img')
 			      ->default(false);
+			$table->boolean('is_video')
+				->default(false);
+			$table->boolean('is_audio')
+				->default(false);
+			$table->boolean('is_document')
+				->default(false);
 		});
 	}
 	

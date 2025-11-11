@@ -3,10 +3,7 @@
         <div class="row mb-3">
             <div class="col-md-8">
                 <div class="mb-3 d-flex justify-content-between align-content-center">
-                    <select class="form-select w-50" wire:model="promptType" wire:change="setPromptType">
-                        <option value="prompt">{{ __('ai.prompt') }}</option>
-                        <option value="system">{{ __('ai.prompt.system') }}</option>
-                    </select>
+                    <h5>{{ __('ai.prompt') }}</h5>
                     <div>
                         <button type="button" class="btn btn-warning"
                                 wire:click="resetPrompt">{{ __('ai.prompt.reset') }}</button>
@@ -26,10 +23,17 @@
 
                 <div class="alert alert-info mb-3">{{ __('ai.prompt.description') }}</div>
                 <livewire:utilities.text-editor
-                        wire:model.live.debounce="prompt"
+                        wire:model="prompt"
+                        instance-id="prompt"
                         :fileable="$aiPrompt"
-                        :key="$reloadKey"
                         :available-tokens="($className)::availableTokens($property)"
+                ></livewire:utilities.text-editor>
+
+                <div class="alert alert-info my-3">{{ __('ai.prompt.system.description') }}</div>
+                <livewire:utilities.text-editor
+                        wire:model="system_prompt"
+                        instance-id="system_prompt"
+                        :fileable="$aiPrompt"
                 ></livewire:utilities.text-editor>
             </div>
             <div class="col-md-4">

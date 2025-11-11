@@ -28,7 +28,7 @@ class AsUrlResources implements CastsAttributes
      */
     public function set(Model $model, string $key, mixed $value, array $attributes): mixed
     {
-	    if(!$value) return [];
+	    if(!$value) return json_encode([]);
 	    $links = [];
 	    foreach($value as $link)
 	    {

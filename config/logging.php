@@ -63,7 +63,16 @@ return [
 			'path' => storage_path('logs/laravel.log'),
 			'level' => env('LOG_LEVEL', 'debug'),
 			'replace_placeholders' => true,
+			'permission' => 0664,
 		],
+
+        'ai-calls' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/ai-calls.log'),
+            'level' => env('LOG_LEVEL', 'debug'),
+            'replace_placeholders' => true,
+            'permission' => 0664,
+        ],
 		
 		'daily' => [
 			'driver' => 'daily',
@@ -71,7 +80,7 @@ return [
 			'level' => env('LOG_LEVEL', 'debug'),
 			'days' => env('LOG_DAILY_DAYS', 14),
 			'replace_placeholders' => true,
-			'permissions' => env('LOG_FILE_PERMISSIONS', 0664),
+			'permission' => 0664,
 		],
 		
 		'slack' => [

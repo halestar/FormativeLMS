@@ -16,7 +16,7 @@
                     placeholder="{{ __('learning.demonstrations.name') }}"
                     aria-describedby="name_help"
             />
-            <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+            <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
             <div id="name_help"
                  class="form-text">{!! __('learning.demonstrations.name.description') !!}</div>
         </div>
@@ -30,7 +30,7 @@
                     placeholder="{{ __('learning.demonstrations.abbr') }}"
                     aria-describedby="abbr_help"
             />
-            <x-error-display key="abbr">{{ $errors->first('abbr') }}</x-error-display>
+            <x-utilities.error-display key="abbr">{{ $errors->first('abbr') }}</x-utilities.error-display>
             <div id="abbr_help"
                  class="form-text">{!! __('learning.demonstrations.abbr.description') !!}</div>
         </div>
@@ -78,6 +78,14 @@
                 </ul>
             </div>
             <div class="tab-pane fade" role="tabpanel" :class="selectedTab === 'skills' ? 'show active' : ''">
+                @if($canUseAI)
+                    <div class="d-flex justify-content-center">
+                        <livewire:ai.run-model-prompt
+                            :model="$ld" property="skills"
+                            classes="m-1 p-2 mx-auto flex-grow-1 position-relative"
+                        />
+                    </div>
+                @endif
                 @error('skills')
                 <div class="alert alert-danger my-2">{{ $message }}</div>
                 @enderror
@@ -114,13 +122,21 @@
         </div>
     </div>
 
-    <div class="form-label">{{ __('learning.demonstrations.demonstration') }}</div>
+    <h4>{{ __('learning.demonstrations.demonstration') }}</h4>
+    @if($canUseAI)
+        <div class="d-flex justify-content-center">
+            <livewire:ai.run-model-prompt
+                    :model="$ld" property="demonstration"
+                    classes="m-1 p-2 mx-auto flex-grow-1 position-relative"
+            />
+        </div>
+    @endif
     @error('demonstration')
     <div class="alert alert-danger my-2">{{ $message }}</div>
     @enderror
     <div class="row mb-3">
         <div class="col-md-9">
-            <livewire:utilities.text-editor :fileable="$ld" wire:model="demonstration"/>
+            <livewire:utilities.text-editor instance-id="demonstration" :fileable="$ld" wire:model="demonstration"/>
         </div>
         <div class="col-md-3">
             <livewire:storage.work-storage-browser :fileable="$ld" :title="__('learning.demonstrations.files')" />
@@ -128,10 +144,11 @@
     </div>
     <div class="row my-3">
         <div class="col-md-6">
-            <livewire:subject-matter.learning.learning-demonstration-url-editor wire:model="links" wire:key="links-{{ time() }}" />
+            <livewire:subject-matter.learning.learning-demonstration-url-editor :learning-demonstration="$ld" wire:model="links" wire:key="links-{{ time() }}" />
         </div>
         <div class="col-md-6">
             <livewire:subject-matter.learning.learning-demonstration-questions-editor
+                :learning-demonstration="$ld"
                 wire:model="questions"
                 wire:key="questions-{{ time() }}"
             />

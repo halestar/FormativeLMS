@@ -108,7 +108,6 @@ class SystemSettingsSeeder extends Seeder
 			[
 				'work' => $work
 			];
-		Log::info(print_r($storage_settings, true));
 		SystemSetting::create
 		(
 			[

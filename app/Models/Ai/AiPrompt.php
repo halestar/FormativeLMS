@@ -24,8 +24,8 @@ class AiPrompt extends Model implements Fileable
 			'system_prompt',
 			'structured',
 			'temperature',
-			'tools',
-			'last_results'
+			'last_results',
+			'last_id',
 		];
 	
 	
@@ -50,8 +50,8 @@ class AiPrompt extends Model implements Fileable
 			[
 				'structured' => 'boolean',
 				'temperature' => 'float',
-				'tools' => 'array',
 				'last_results' => 'array',
+				'last_id' => 'string',
 			];
 	}
 	
@@ -60,7 +60,6 @@ class AiPrompt extends Model implements Fileable
 		$this->prompt = ($this->className)::defaultPrompt($this->property);
 		$this->system_prompt = ($this->className)::defaultSystemPrompt($this->property);
 		$this->temperature = ($this->className)::defaultTemperature($this->property);
-		$this->tools = ($this->className)::defaultTools($this->property);
 		$this->save();
 	}
 	

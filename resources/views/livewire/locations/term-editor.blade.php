@@ -24,7 +24,7 @@
                                             placeholder="{{ __('locations.terms.label') }}"
                                     />
                                     <label for="name">{{ __('locations.terms.label') }}</label>
-                                    <x-error-display key="label">{{ $errors->first('label') }}</x-error-display>
+                                    <x-utilities.error-display key="label">{{ $errors->first('label') }}</x-utilities.error-display>
                                 </div>
                             </div>
                             <div class="col-3 text-center">
@@ -39,8 +39,8 @@
                                             placeholder="{{ __('locations.terms.start') }}"
                                     />
                                     <label for="term_start">{{ __('locations.terms.start') }}</label>
-                                    <x-error-display
-                                            key="term_start">{{ $errors->first('term_start') }}</x-error-display>
+                                    <x-utilities.error-display
+                                            key="term_start">{{ $errors->first('term_start') }}</x-utilities.error-display>
                                 </div>
                             </div>
                             <div class="col-3 text-center">
@@ -55,7 +55,7 @@
                                             placeholder="{{ __('locations.terms.end') }}"
                                     />
                                     <label for="term_end">{{ __('locations.terms.end') }}</label>
-                                    <x-error-display key="term_end">{{ $errors->first('term_end') }}</x-error-display>
+                                    <x-utilities.error-display key="term_end">{{ $errors->first('term_end') }}</x-utilities.error-display>
                                 </div>
                             </div>
                             <div class="col-3 text-end">
@@ -84,7 +84,7 @@
                                                 placeholder="{{ __('locations.terms.label') }}"
                                         />
                                         <label for="name">{{ __('locations.terms.label') }}</label>
-                                        <x-error-display key="label">{{ $errors->first('label') }}</x-error-display>
+                                        <x-utilities.error-display key="label">{{ $errors->first('label') }}</x-utilities.error-display>
                                     </div>
                                 </div>
                                 <div class="col-3 text-center">
@@ -99,8 +99,8 @@
                                                 placeholder="{{ __('locations.terms.start') }}"
                                         />
                                         <label for="term_start">{{ __('locations.terms.start') }}</label>
-                                        <x-error-display
-                                                key="term_start">{{ $errors->first('term_start') }}</x-error-display>
+                                        <x-utilities.error-display
+                                                key="term_start">{{ $errors->first('term_start') }}</x-utilities.error-display>
                                     </div>
                                 </div>
                                 <div class="col-3 text-center">
@@ -115,8 +115,8 @@
                                                 placeholder="{{ __('locations.terms.end') }}"
                                         />
                                         <label for="term_end">{{ __('locations.terms.end') }}</label>
-                                        <x-error-display
-                                                key="term_end">{{ $errors->first('term_end') }}</x-error-display>
+                                        <x-utilities.error-display
+                                                key="term_end">{{ $errors->first('term_end') }}</x-utilities.error-display>
                                     </div>
                                 </div>
                                 <div class="col-3 text-end">

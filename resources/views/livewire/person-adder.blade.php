@@ -26,7 +26,7 @@
                     />
                     <label for="first">{{ __('people.profile.fields.last') }}</label>
                 </div>
-                <x-error-display key="last">{{ $errors->first('last') }}</x-error-display>
+                <x-utilities.error-display key="last">{{ $errors->first('last') }}</x-utilities.error-display>
             </div>
             <div class="col-md-12 mt-3">
                 <div class="form-floating mb-0">
@@ -40,7 +40,7 @@
                     />
                     <label for="email">{{ __('people.profile.fields.email') }}</label>
                 </div>
-                <x-error-display key="email">{{ $errors->first('email') }}</x-error-display>
+                <x-utilities.error-display key="email">{{ $errors->first('email') }}</x-utilities.error-display>
             </div>
         </div>
         <div class="row-cols-auto row-cols-auto mt-3">

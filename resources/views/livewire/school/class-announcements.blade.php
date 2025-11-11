@@ -32,7 +32,7 @@
                 <input type="text" id="announcement_title"
                        class="form-control @error('announcementTitle') is-invalid @enderror"
                        wire:model="announcementTitle"/>
-                <x-error-display key="announcementTitle">{{ $errors->first('announcementTitle') }}</x-error-display>
+                <x-utilities.error-display key="announcementTitle">{{ $errors->first('announcementTitle') }}</x-utilities.error-display>
             </div>
             <div class="mb-3">
                 <label for="announcement"
@@ -40,7 +40,7 @@
                 <div wire:ignore>
                     <textarea id="announcement" class="form-control" wire:model="announcement"></textarea>
                 </div>
-                <x-error-display key="announcement">{{ $errors->first('announcement') }}</x-error-display>
+                <x-utilities.error-display key="announcement">{{ $errors->first('announcement') }}</x-utilities.error-display>
             </div>
             <div class="row mb-3">
                 <div class="col-md-6">
@@ -49,7 +49,7 @@
                                class="input-group-text">{{ __('subjects.school.widgets.class-announcements.post.from') }}</label>
                         <input type="date" class="form-control @error('postFrom') is-invalid @enderror"
                                wire:model="postFrom"/>
-                        <x-error-display key="announcement">{{ $errors->first('announcement') }}</x-error-display>
+                        <x-utilities.error-display key="announcement">{{ $errors->first('announcement') }}</x-utilities.error-display>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -58,7 +58,7 @@
                                class="input-group-text">{{ __('subjects.school.widgets.class-announcements.post.to') }}</label>
                         <input type="date" class="form-control @error('postTo') is-invalid @enderror"
                                wire:model="postTo"/>
-                        <x-error-display key="postTo">{{ $errors->first('postTo') }}</x-error-display>
+                        <x-utilities.error-display key="postTo">{{ $errors->first('postTo') }}</x-utilities.error-display>
                     </div>
                 </div>
             </div>
@@ -70,8 +70,8 @@
                         <input type="color"
                                class="form-control form-control-color @error('announcementColor') is-invalid @enderror"
                                wire:model="announcementColor"/>
-                        <x-error-display
-                                key="announcementColor">{{ $errors->first('announcementColor') }}</x-error-display>
+                        <x-utilities.error-display
+                                key="announcementColor">{{ $errors->first('announcementColor') }}</x-utilities.error-display>
                     </div>
                 </div>
                 @if($adding)

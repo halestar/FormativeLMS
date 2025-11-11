@@ -23,13 +23,13 @@
                 <label for="link_text" class="form-label">{{ __('subjects.school.widgets.class-links.text') }}</label>
                 <input type="text" id="link_text" class="form-control @error('linkText') is-invalid @enderror"
                        wire:model="linkText"/>
-                <x-error-display key="linkText">{{ $errors->first('linkText') }}</x-error-display>
+                <x-utilities.error-display key="linkText">{{ $errors->first('linkText') }}</x-utilities.error-display>
             </div>
             <div class="mb-3">
                 <label for="link_url" class="form-label">{{ __('subjects.school.widgets.class-links.link') }}</label>
                 <input type="text" id="link_url" class="form-control @error('linkUrl') is-invalid @enderror"
                        wire:model="linkUrl"/>
-                <x-error-display key="linkUrl">{{ $errors->first('linkUrl') }}</x-error-display>
+                <x-utilities.error-display key="linkUrl">{{ $errors->first('linkUrl') }}</x-utilities.error-display>
             </div>
             <div class="row">
                 @if($adding)

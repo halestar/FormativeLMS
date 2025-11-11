@@ -88,10 +88,12 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 		$data = $request->validate([
 			'max_msg' => 'required|numeric|min:1',
 			'year_messages' => ['required', 'numeric', Rule::in([1, 2])],
+            'rubrics_max_points' => 'required|numeric|min:1',
 		], static::errors());
 		//update days
 		$settings->max_msg = $data['max_msg'];
 		$settings->year_messages = $data['year_messages'];
+        $settings->rubrics_max_points = $data['rubrics_max_points'];
 		$settings->save();
 		return redirect()
 			->route('settings.school')

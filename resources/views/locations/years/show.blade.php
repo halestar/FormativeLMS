@@ -54,7 +54,7 @@
                                     @endforeach
                                 </select>
                                 <label for="campus_id">{{ trans_choice('locations.campus', 1) }}</label>
-                                <x-error-display key="campus_id">{{ $errors->first('campus_id') }}</x-error-display>
+                                <x-utilities.error-display key="campus_id">{{ $errors->first('campus_id') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-3">
@@ -67,7 +67,7 @@
                                         placeholder="{{ __('locations.terms.label') }}"
                                 />
                                 <label for="term-label">{{ __('locations.terms.label') }}</label>
-                                <x-error-display key="term_label">{{ $errors->first('term_label') }}</x-error-display>
+                                <x-utilities.error-display key="term_label">{{ $errors->first('term_label') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-2">
@@ -83,7 +83,7 @@
                                         value="{{ $year->year_start->format('Y-m-d') }}"
                                 />
                                 <label for="term_start">{{ __('locations.terms.start') }}</label>
-                                <x-error-display key="term_start">{{ $errors->first('term_start') }}</x-error-display>
+                                <x-utilities.error-display key="term_start">{{ $errors->first('term_start') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-2">
@@ -99,7 +99,7 @@
                                         value="{{ $year->year_end->format('Y-m-d') }}"
                                 />
                                 <label for="term_end">{{ __('locations.terms.end') }}</label>
-                                <x-error-display key="term_end">{{ $errors->first('term_end') }}</x-error-display>
+                                <x-utilities.error-display key="term_end">{{ $errors->first('term_end') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-2 align-self-center text-center">
@@ -133,7 +133,7 @@
                                         placeholder="{{ __('locations.years.label') }}"
                                 />
                                 <label for="year-label">{{ __('locations.years.label') }}</label>
-                                <x-error-display key="label">{{ $errors->first('label') }}</x-error-display>
+                                <x-utilities.error-display key="label">{{ $errors->first('label') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-3">
@@ -147,7 +147,7 @@
                                         value="{{ $year->year_start->format('Y-m-d') }}"
                                 />
                                 <label for="year_start">{{ __('locations.years.start') }}</label>
-                                <x-error-display key="year_start">{{ $errors->first('year_start') }}</x-error-display>
+                                <x-utilities.error-display key="year_start">{{ $errors->first('year_start') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-3">
@@ -161,7 +161,7 @@
                                         value="{{ $year->year_end->format('Y-m-d') }}"
                                 />
                                 <label for="year_end">{{ __('locations.years.end') }}</label>
-                                <x-error-display key="year_end">{{ $errors->first('year_end') }}</x-error-display>
+                                <x-utilities.error-display key="year_end">{{ $errors->first('year_end') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-2 align-self-center text-center">

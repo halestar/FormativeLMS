@@ -17,7 +17,7 @@
                                 name="name"
                                 value="{{ $block->name }}"
                         />
-                        <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                        <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                     </div>
                 </div>
                 <div class="col-md-2 align-self-center">

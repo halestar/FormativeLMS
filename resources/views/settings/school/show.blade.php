@@ -27,7 +27,7 @@
                         aria-controls="tab-pane-classes"
                         aria-selected="false"
                         save-tab="classes"
-                >{{ __('system.settings.tabs.classes') }}</a>
+                >{{ __('system.settings.tabs.learning') }}</a>
             </li>
             <li class="nav-item" role="presentation">
                 <a

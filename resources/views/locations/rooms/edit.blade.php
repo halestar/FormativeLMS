@@ -34,7 +34,7 @@
                                         onchange="$('#basic-info-form').submit()"
                                 />
                                 <label for="name">{{ __('locations.rooms.name') }}</label>
-                                <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                                <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                             </div>
                         </h5>
                         <h6 class="d-flex flex-column">
@@ -49,7 +49,7 @@
                                         onchange="$('#basic-info-form').submit()"
                                 />
                                 <label for="capacity">{{ __('locations.rooms.capacity') }}</label>
-                                <x-error-display key="capacity">{{ $errors->first('capacity') }}</x-error-display>
+                                <x-utilities.error-display key="capacity">{{ $errors->first('capacity') }}</x-utilities.error-display>
                             </div>
                         </h6>
                     </form>

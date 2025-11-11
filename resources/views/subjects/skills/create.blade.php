@@ -49,7 +49,7 @@
                             required
                     />
                     <div id="designationHelp" class="form-text">{{ __('subjects.skills.designation.help') }}</div>
-                    <x-error-display key="designation">{{ $errors->first('designation') }}</x-error-display>
+                    <x-utilities.error-display key="designation">{{ $errors->first('designation') }}</x-utilities.error-display>
                 </div>
             </div>
             <div class="row mb-3">
@@ -118,7 +118,7 @@
                             rows="5"
                     />
                     <div id="descriptionHelp" class="form-text">{{ __('subjects.skills.description.help') }}</div>
-                    <x-error-display key="description">{{ $errors->first('description') }}</x-error-display>
+                    <x-utilities.error-display key="description">{{ $errors->first('description') }}</x-utilities.error-display>
                 </div>
             </div>
             <div class="row">

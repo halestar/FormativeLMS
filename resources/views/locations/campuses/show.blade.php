@@ -287,8 +287,8 @@
                                                 id="block_name"
                                                 name="block_name"
                                         />
-                                        <x-error-display
-                                                key="block_name">{{ $errors->first('block_name') }}</x-error-display>
+                                        <x-utilities.error-display
+                                                key="block_name">{{ $errors->first('block_name') }}</x-utilities.error-display>
                                     </div>
                                     <div class="col-sm-4 align-self-end">
                                         <button type="submit"

@@ -178,7 +178,7 @@
                                                     id="last"
                                                     value="{{ $person->last }}"
                                                     class="form-control form-control-sm @error('last') is-invalid @enderror text-end"/>
-                                            <x-error-display key="last">{{ $errors->first('last') }}</x-error-display>
+                                            <x-utilities.error-display key="last">{{ $errors->first('last') }}</x-utilities.error-display>
                                         </span>
                                         </div>
                                     </li>

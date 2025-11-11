@@ -1,44 +1,22 @@
 <div class="{{ $classes }}">
     @if($buttonMode)
-        <button type="button" class="btn btn-light" wire:click="setMode('runMode')" x-data="{ thinking: false }"
+        <div class="text-center">
+            <button type="button" class="btn btn-light mx-auto" wire:click="setMode('runMode')" x-data="{ thinking: false
+                }"
                 x-on:thinking="thinking = true">
-            @svg('images/ai-icon.svg', 'img-icon-small')
-            <span class="border-start ps-2 ms-2">{{ $propertyName }}</span>
-        </button>
+                @svg('images/ai-icon.svg', 'img-icon-small')
+                <span class="border-start ps-2 ms-2">{{ $propertyName }}</span>
+                </button>
+        </div>
     @elseif($runMode)
         <div class="row mb-3">
             <div class="col-md-4 d-flex justify-content-center align-items-center flex-column">
                 <h5>{{ __('ai.prompt') }}</h5>
                 <div class="form-check">
-                    <input class="form-check-input me-2" type="radio" value="default" id="default_prompt"
-                           wire:model="promptType">
-                    <label class="form-check-label" for="default_prompt">
-                        {{ __('ai.prompt.use') }}
-                        @can('system.ai')
-                            <a class="ms-2 link-primary link-underline-opacity-0"
-                               href="{{ route('ai.prompt.editor', $defaultPrompt) }}"><i
-                                        class="fa-solid fa-edit"></i></a>
-                        @endcan
-                    </label>
+                    <a role="button" class="btn btn-sm btn-primary" href="{{ route('ai.prompt.editor', $prompt) }}">
+                        {{ __('ai.prompt.editor') }}
+                    </a>
                 </div>
-                <div class="text-center my-2 text-uppercase fs-6">
-                    &mdash; {{ __('common.or') }} &mdash;
-                </div>
-                @if($customPrompt)
-                    <div class="form-check">
-                        <input class="form-check-input me-3" type="radio" value="custom" id="custom_prompt"
-                               wire:model="promptType">
-                        <label class="form-check-label" for="custom_prompt">
-                            {{ __('ai.prompt.custom.use') }}
-                            <a class="ms-2 link-primary link-underline-opacity-0"
-                               href="{{ route('ai.prompt.editor', $customPrompt) }}"><i
-                                        class="fa-solid fa-edit"></i></a>
-                        </label>
-                    </div>
-                @else
-                    <button type="button" class="btn btn-primary btn-sm"
-                            wire:click="createCustomPrompt">{{ __('ai.prompt.custom.create') }}</button>
-                @endif
             </div>
             <div class="col-md-4">
                 <div class="mb-3">

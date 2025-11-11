@@ -12,7 +12,7 @@
                         placeholder="{{ __('learning.demonstrations.name') }}"
                         aria-describedby="name_help"
                 />
-                <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                 <div id="name_help"
                      class="form-text">{!! __('learning.demonstrations.name.description') !!}</div>
             </div>
@@ -26,7 +26,7 @@
                         placeholder="{{ __('learning.demonstrations.abbr') }}"
                         aria-describedby="abbr_help"
                 />
-                <x-error-display key="abbr">{{ $errors->first('abbr') }}</x-error-display>
+                <x-utilities.error-display key="abbr">{{ $errors->first('abbr') }}</x-utilities.error-display>
                 <div id="abbr_help"
                      class="form-text">{!! __('learning.demonstrations.abbr.description') !!}</div>
             </div>
@@ -40,7 +40,7 @@
                         <option value="{{ $course->id }}">{{ $course->name }}</option>
                     @endforeach
                 </select>
-                <x-error-display key="course">{{ $errors->first('course') }}</x-error-display>
+                <x-utilities.error-display key="course">{{ $errors->first('course') }}</x-utilities.error-display>
                 <div id="course_help"
                      class="form-text">{!! __('learning.demonstrations.course.description') !!}</div>
             </div>
@@ -51,7 +51,7 @@
                         <option value="{{ $demonstrationType->id }}">{{ $demonstrationType->name }}</option>
                     @endforeach
                 </select>
-                <x-error-display key="type">{{ $errors->first('type') }}</x-error-display>
+                <x-utilities.error-display key="type">{{ $errors->first('type') }}</x-utilities.error-display>
                 <div id="type_help"
                      class="form-text">{!! __('learning.demonstrations.type.description') !!}</div>
             </div>

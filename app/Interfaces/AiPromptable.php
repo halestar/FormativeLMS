@@ -2,6 +2,7 @@
 
 namespace App\Interfaces;
 
+use App\Classes\AI\AiSchema;
 use App\Models\Ai\AiPrompt;
 use App\Models\People\Person;
 use Illuminate\Database\Eloquent\Builder;
@@ -35,7 +36,7 @@ interface AiPromptable
 	 * @return string The default prompt for this model as a string. Can be formatted in any way.
 	 */
 	public static function defaultPrompt(string $property): string;
-	
+
 	/**
 	 * The default system prompt for this model.
 	 * @param string $property The property that the prompt is for.
@@ -57,13 +58,6 @@ interface AiPromptable
 	public static function isStructured(string $property): bool;
 	
 	/**
-	 * The default tools that this model uses.
-	 * @param string $property
-	 * @return array The array of tools for this model.
-	 */
-	public static function defaultTools(string $property): array;
-	
-	/**
 	 * @return array<string, string> The tokens that are available to be used in the prompt.
 	 */
 	public static function availableTokens(string $property): array;
@@ -71,12 +65,12 @@ interface AiPromptable
 	/*******************************************************************************
 	 * The following functions are used by the integrator to interact with the model making the request
 	 *******************************************************************************/
-	
+
 	/**
-	 * @return ObjectSchema|null The schema for this model that AI uses to generate structured responses.  We don't save
+	 * @return AiSchema|null The schema for this model that AI uses to generate structured responses.  We don't save
 	 * this in the DB since it might change over time. Only applies to structured models, returns null for unstructured models.
 	 */
-	public static function getSchemaClass(string $property): string;
+	public static function getSchemaClass(string $property): ?AiSchema;
 	
 	/**
 	 * This function will return a mockup of the results that the AI prompt will generate.  WHat
@@ -110,24 +104,7 @@ interface AiPromptable
 	 * @return Builder The query builder for the prompts that are available for this model.
 	 */
 	public static function prompts(): Builder;
-	
-	/**
-	 * This function will return the default prompt for this model. The default prompt will
-	 * ALWAYS be the system prompt, meaning that the person_id in the prompt column will be
-	 * set to null. If the prompt is not found, it will create a new prompt and return it.
-	 * @param string $property The property that the prompt is for.
-	 * @param bool $overwrite Default false. If set to true, it will overwrite the changes made to
-	 * the default prompt using the value at creation time.
-	 * @return AiPrompt The system prompt for this model.
-	 */
-	public static function getDefaultPrompt(string $property, bool $overwrite = false): AiPrompt;
-	
-	/**
-	 * This function is used to determine if the person has a prompt for this model.
-	 * @param Person $person The person to check for a prompt.
-	 * @return bool True if the person has a prompt for this model.
-	 */
-	public static function hasCustomPrompt(string $property, Person $person): bool;
+
 	
 	/**
 	 * Returns the prompt for this model for the given person. If the person does not have a
@@ -135,7 +112,7 @@ interface AiPromptable
 	 * @param Person $person The person to get the prompt for.
 	 * @return AiPrompt The prompt for this model for the given person.
 	 */
-	public static function getCustomPrompt(string $property, Person $person): AiPrompt;
+	public static function getUserPrompt(string $property, Person $person): AiPrompt;
 	
 	/**
 	 * @param string $property The property that the prompt is for.

@@ -20,7 +20,7 @@
                         class="form-control @error('name') is-invalid @enderror"
                         value="{{ $role->name }}"
                 />
-                <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
             </div>
 
             <h5 class="border-bottom">{{ __('settings.permission.assign') }}</h5>

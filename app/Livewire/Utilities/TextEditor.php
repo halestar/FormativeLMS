@@ -28,18 +28,25 @@ class TextEditor extends Component
 	public $uploadedFile;
 	public string $height = "500px";
 	public string $width = "100%";
+    public string $classes = "";
+    public string $style = "";
+    public ?string $name = null;
+    public string $id;
+    public string $regex = "/{{\s*$[a-zA-Z][a-zA-Z0-9_]*\s*}}|{!!\s*$[a-zA-Z][a-zA-Z0-9_]*\s*!!}/gu";
 	
-	public function mount(Fileable $fileable, StorageSettings $settings)
+	public function mount(string $instanceId, Fileable $fileable, StorageSettings $settings)
 	{
 		$this->fileable = $fileable;
 		$this->instance = $fileable->getWorkStorageKey();
 		$this->connection = $settings->getWorkConnection($this->instance);
+        $this->id = $instanceId;
+        $this->name = $this->name?? $this->id;
 	}
 	
 	#[On('document-storage-browser.files-selected')]
 	public function filesSelected($cb_instance, $selected_items)
 	{
-		if($cb_instance != 'text-editor') return;
+		if($cb_instance != $this->id) return;
 		$documentFile = DocumentFile::hydrate($selected_items);
 		//store the file
 		$workFile = $this->connection->persistFile($this->fileable, $documentFile, true);

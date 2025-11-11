@@ -280,16 +280,3 @@
         </div>
     @endif
 </div>
-@script
-<script>
-    // prevent all the defaults first
-    window.addEventListener("dragover", function (e) {
-        e = e || event;
-        e.preventDefault();
-    }, false);
-    window.addEventListener("drop", function (e) {
-        e = e || event;
-        e.preventDefault();
-    }, false);
-</script>
-@endscript

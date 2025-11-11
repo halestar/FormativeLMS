@@ -11,7 +11,7 @@
                 name="max_msg"
                 value="{{ $schoolSettings->max_msg }}"
                 aria-describedby="maxMsgHelp"/>
-        <x-error-display key="max_msg">{{ $errors->first('max_msg') }}</x-error-display>
+        <x-utilities.error-display key="max_msg">{{ $errors->first('max_msg') }}</x-utilities.error-display>
         <div id="maxMsgHelp" class="form-text">{{ __('system.settings.classes.max_msg.help') }}</div>
     </div>
 
@@ -48,9 +48,22 @@
                 {{ __('system.settings.classes.year_messages.year') }}
             </label>
         </div>
-        <x-error-display key="days">{{ $errors->first('days') }}</x-error-display>
+        <x-utilities.error-display key="days">{{ $errors->first('days') }}</x-utilities.error-display>
         <div id="daysHelp"
              class="form-text">{{ __('system.settings.classes.year_messages.help') }}</div>
+    </div>
+
+    <div class="school-setting mb-3">
+        <label for="rubrics_max_points">{{ __('system.settings.classes.rubrics_max_points') }}</label>
+        <input
+                type="number"
+                class="form-control @error('rubrics_max_points') is-invalid @enderror"
+                id="rubrics_max_points"
+                name="rubrics_max_points"
+                value="{{ $schoolSettings->rubrics_max_points }}"
+                aria-describedby="rubrics_max_pointsHelp"/>
+        <x-utilities.error-display key="rubrics_max_points">{{ $errors->first('rubrics_max_points') }}</x-utilities.error-display>
+        <div id="rubrics_max_pointsHelp" class="form-text">{{ __('system.settings.classes.rubrics_max_points.help') }}</div>
     </div>
 
     <div class="row">

@@ -16,8 +16,8 @@
                                 name="min_password_length"
                                 value="{{ $authSettings->min_password_length }}"
                                 aria-describedby="min_password_lengthHelp"/>
-                        <x-error-display
-                                key="min_password_length">{{ $errors->first('min_password_length') }}</x-error-display>
+                        <x-utilities.error-display
+                                key="min_password_length">{{ $errors->first('min_password_length') }}</x-utilities.error-display>
                         <div id="min_password_lengthHelp"
                              class="form-text">{{ __('settings.auth.min_pass_length.help') }}</div>
                     </div>

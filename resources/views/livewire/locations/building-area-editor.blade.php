@@ -53,7 +53,7 @@
                                 wire:change="updateRoomName"
                         />
                         <label for="name">{{ __('locations.rooms.name') }}</label>
-                        <x-error-display key="name">{{ $errors->first('name') }}</x-error-display>
+                        <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                     </div>
                     <div class="form-floating mb-3">
                         <input
@@ -69,7 +69,7 @@
                                 wire:change="updateRoomCapacity"
                         />
                         <label for="name">{{ __('locations.rooms.capacity') }}</label>
-                        <x-error-display key="capacity">{{ $errors->first('capacity') }}</x-error-display>
+                        <x-utilities.error-display key="capacity">{{ $errors->first('capacity') }}</x-utilities.error-display>
                     </div>
                     <livewire:phone-editor :phoneable="$viewing" wire:key="{{ $viewing->id }}"/>
                     <button

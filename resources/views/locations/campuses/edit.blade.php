@@ -118,8 +118,8 @@
                                                         onchange="$('#basic-info-form').submit()"
                                                 />
                                                 <label for="name">{{ __('locations.campus.name') }}</label>
-                                                <x-error-display
-                                                        key="name">{{ $errors->first('name') }}</x-error-display>
+                                                <x-utilities.error-display
+                                                        key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                                             </div>
                                         </div>
                                         <div class="col-4">
@@ -134,8 +134,8 @@
                                                         onchange="$('#basic-info-form').submit()"
                                                 />
                                                 <label for="abbr">{{ __('locations.campus.abbr') }}</label>
-                                                <x-error-display
-                                                        key="abbr">{{ $errors->first('abbr') }}</x-error-display>
+                                                <x-utilities.error-display
+                                                        key="abbr">{{ $errors->first('abbr') }}</x-utilities.error-display>
                                             </div>
                                         </div>
                                     </div>

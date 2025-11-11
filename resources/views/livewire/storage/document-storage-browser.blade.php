@@ -31,10 +31,10 @@
                             @if($allowUpload && $selectedService == 0)
                                 <div
                                         x-data="{dragging: false, uploading: false, progress: 0, ul_error: false}"
-                                        x-on:dragenter="dragging = true"
-                                        x-on:dragover.prevent="dragging = true"
-                                        x-on:dragleave="dragging = false"
-                                        x-on:drop="
+                                        @dragenter="dragging = true"
+                                        @dragover.prevent="dragging = true"
+                                        @dragleave="dragging = false"
+                                        @drop.prevent="
                                     files = $event.dataTransfer.files;
                                     uploading = true;
                                     if(files.length === 1)

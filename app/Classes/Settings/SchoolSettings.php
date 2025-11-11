@@ -23,6 +23,7 @@ class SchoolSettings extends SystemSetting
 				"studentName" => [],
 				"employeeName" => [],
 				"parentName" => [],
+                "rubrics_max_points" => 5,
 			];
 	}
 	
@@ -40,6 +41,11 @@ class SchoolSettings extends SystemSetting
 	{
 		return $this->basicProperty('end');
 	}
+
+    public function rubricsMaxPoints(): Attribute
+    {
+        return $this->basicProperty('rubrics_max_points');
+    }
 	
 	public function maxMsg(): Attribute
 	{

@@ -27,7 +27,7 @@
                                         placeholder="{{ __('locations.years.label') }}"
                                 />
                                 <label for="year-label">{{ __('locations.years.label') }}</label>
-                                <x-error-display key="label">{{ $errors->first('label') }}</x-error-display>
+                                <x-utilities.error-display key="label">{{ $errors->first('label') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-3">
@@ -40,7 +40,7 @@
                                         placeholder="{{ __('locations.years.start') }}"
                                 />
                                 <label for="year_start">{{ __('locations.years.start') }}</label>
-                                <x-error-display key="year_start">{{ $errors->first('year_start') }}</x-error-display>
+                                <x-utilities.error-display key="year_start">{{ $errors->first('year_start') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-3">
@@ -53,7 +53,7 @@
                                         placeholder="{{ __('locations.years.end') }}"
                                 />
                                 <label for="year_end">{{ __('locations.years.end') }}</label>
-                                <x-error-display key="year_end">{{ $errors->first('year_end') }}</x-error-display>
+                                <x-utilities.error-display key="year_end">{{ $errors->first('year_end') }}</x-utilities.error-display>
                             </div>
                         </div>
                         <div class="col-2 align-self-center text-center">

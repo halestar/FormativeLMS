@@ -9,6 +9,14 @@
         >{{ __('learning.demonstrations.questions.add') }}</button>
     </div>
     <div class="card-body">
+        @if($canUseAI)
+            <div class="d-flex justify-content-center">
+                <livewire:ai.run-model-prompt
+                        :model="$ld" property="questions"
+                        classes="mx-auto flex-grow-1 position-relative mb-2"
+                />
+            </div>
+        @endif
         <ul class="list-group list-group-flush">
             @foreach($questions as $question)
                 <li class="list-group-item d-flex justify-content-between align-items-center" wire:key="question-{{$loop->index}}">

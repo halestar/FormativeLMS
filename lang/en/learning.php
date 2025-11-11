@@ -55,6 +55,7 @@ return
 	'demonstrations.abbr' => 'Learning Demonstration Abbreviation',
 	'demonstrations.abbr.description' => 'The abbreviation for this Learning Demonstration. Max 10 characters.',
 	'demonstrations.course' => 'Learning Demonstration Class',
+	'demonstrations.id' => 'Learning Demonstration ID',
 	'demonstrations.course.description' => 'The class that this Learning Demonstration will be attached to. You can always post it to more classes later.',
 	'demonstrations.strategy.pick' => 'Choose a Strategy to Build your Learning Demonstration',
 	'demonstrations.strategy.assessment' => 'Assessment Strategy',

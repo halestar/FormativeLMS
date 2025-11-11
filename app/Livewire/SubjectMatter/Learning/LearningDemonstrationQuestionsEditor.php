@@ -3,6 +3,7 @@
 namespace App\Livewire\SubjectMatter\Learning;
 
 use App\Classes\Learning\DemonstrationQuestion;
+use App\Models\SubjectMatter\Learning\LearningDemonstrationTemplate;
 use Illuminate\Support\Facades\Log;
 use Livewire\Attributes\Modelable;
 use Livewire\Component;
@@ -11,6 +12,16 @@ class LearningDemonstrationQuestionsEditor extends Component
 {
 	#[Modelable]
 	public array $questions = [];
+	public LearningDemonstrationTemplate $ld;
+	public bool $canUseAI = false;
+
+	public function mount(LearningDemonstrationTemplate $learningDemonstration)
+	{
+		$this->ld = $learningDemonstration;
+		$this->canUseAI = auth()->user()->canUseAi();
+		if(count($this->questions) == 0)
+			$this->questions = array_map(fn($question) => $question->toArray(), $this->ld->questions);
+	}
 	
 	public function addQuestion()
 	{

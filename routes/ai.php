@@ -1,5 +1,7 @@
 <?php
 
+use App\Mcp\Servers\FabLmsAiLearning;
 use Laravel\Mcp\Facades\Mcp;
 
-Mcp::local('ai-learning', \App\Mcp\Servers\FabLmsAiLearning::class);
+Mcp::local('learning', FabLmsAiLearning::class);
+Mcp::web('/mcp/learning', FabLmsAiLearning::class)->middleware('auth:sanctum');

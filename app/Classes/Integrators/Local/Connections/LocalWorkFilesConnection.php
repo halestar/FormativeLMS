@@ -6,6 +6,7 @@ use App\Classes\Storage\DocumentFile;
 use App\Interfaces\Fileable;
 use App\Models\Integrations\Connections\WorkFilesConnection;
 use App\Models\Utilities\WorkFile;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 

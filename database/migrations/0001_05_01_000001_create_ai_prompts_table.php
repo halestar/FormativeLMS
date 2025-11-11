@@ -15,7 +15,6 @@ return new class extends Migration
 		{
 			$table->id();
 			$table->foreignId('person_id')
-			      ->nullable()
 			      ->constrained()
 			      ->cascadeOnDelete();
 			$table->string('className');
@@ -28,10 +27,9 @@ return new class extends Migration
 			      ->nullable();
 			$table->float('temperature')
 			      ->default(0);
-			$table->json('tools')
-			      ->nullable();
 			$table->json('last_results')
 			      ->nullable();
+			$table->string('last_id')->nullable();
 			$table->unique(['className', 'property', 'person_id']);
 			$table->timestamps();
 		});

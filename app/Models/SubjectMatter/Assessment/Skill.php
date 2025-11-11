@@ -3,7 +3,10 @@
 namespace App\Models\SubjectMatter\Assessment;
 
 use App\Casts\Learning\Rubric;
+use App\Classes\AI\AiSchema;
 use App\Classes\Ai\RubricSchema;
+use App\Classes\Settings\SchoolSettings;
+use App\Enums\AiSchemaType;
 use App\Interfaces\AiPromptable;
 use App\Models\Ai\AiPrompt;
 use App\Models\Ai\AiSystemPrompt;
@@ -13,6 +16,10 @@ use App\Traits\HasFullTextSearch;
 use App\Traits\HasLevels;
 use App\Traits\IsAiPromptable;
 use App\View\Components\Assessment\RubricViewer;
+use Gemini\Data\GenerationConfig;
+use Gemini\Data\Schema;
+use Gemini\Enums\DataType;
+use Gemini\Enums\ResponseMimeType;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\AsStringable;
@@ -130,6 +137,8 @@ class Skill extends Model implements AiPromptable
 					return $l->id;
 				if(is_numeric($l))
 					return $l;
+				if(is_string($l))
+					return Level::where('name', $l)->first()?->id;
 				return false;
 			})->filter(fn($level_id) => $level_id)->toArray();
 		}
@@ -145,6 +154,8 @@ class Skill extends Model implements AiPromptable
 					return $l->id;
 				if(is_numeric($l))
 					return $l;
+				if(is_string($l))
+					return Level::where('name', $l)->first()?->id;
 				return null;
 			}, $levels);
 			$level_ids = array_filter($level_ids, fn($level_id) => ($level_id != null));
@@ -209,22 +220,17 @@ class Skill extends Model implements AiPromptable
 	
 	public static function defaultPrompt(string $property): string
 	{
-		return file_get_contents(resource_path('views/ai/prompts/skill/prompt.blade.php'));
+		return file_get_contents(view(self::PROMPT_VIEW_PATH . 'skill.prompt')->getPath());
 	}
 	
 	public static function defaultSystemPrompt(string $property): string
 	{
-		return file_get_contents(resource_path('views/ai/prompts/skill/system.blade.php'));
+		return file_get_contents(view(self::PROMPT_VIEW_PATH . 'skill.system')->getPath());
 	}
 	
 	public static function isStructured(string $property): bool
 	{
 		return true;
-	}
-	
-	public static function defaultTools(string $property): array
-	{
-		return [];
 	}
 	
 	public static function availableTokens(string $property): array
@@ -250,10 +256,45 @@ class Skill extends Model implements AiPromptable
 				'skill_description' => $this->description,
 			];
 	}
-	
-	public static function getSchemaClass(string $property): string
+
+	public static function getSchemaClass(string $property): ?AiSchema
 	{
-		return RubricSchema::class;
+        $settings = app()->make(SchoolSettings::class);
+        $criteriaConf =
+            [
+                'criteria' => new AiSchema
+                (
+                    AiSchemaType::STRING,
+                    name: "criteria",
+                    description: "The criteria being evaluated in the the rubric."
+                ),
+            ];
+        for($i = 0; $i < $settings->rubrics_max_points; $i++)
+        {
+            $name = 'points' . $i;
+            $criteriaConf[$name] = new AiSchema
+            (
+                type: AiSchemaType::STRING,
+                name: $name,
+                description: "Description of the minimum that the student has to do in order to achieve " . $i .
+                " points out of " . $settings->rubrics_max_points . " points."
+            );
+        }
+
+        return new AiSchema
+        (
+            AiSchemaType::ARRAY,
+            name: "Rubric",
+            description: "The criteria information of how to assess the skill",
+            items: new AiSchema
+            (
+                AiSchemaType::OBJECT,
+                name: "criteria_assessment",
+                description: "A single criteria with descriptions of how to assess it",
+                properties: $criteriaConf,
+                required: array_keys($criteriaConf),
+            )
+        );
 	}
 	
 	public function fillMockup(AiPrompt $prompt): string
@@ -269,21 +310,20 @@ class Skill extends Model implements AiPromptable
 	
 	private function fillRubric(array $data): ?Rubric
 	{
-		if(count($data['criteria']) == 0)
-			return null;
+        $settings = app()->make(SchoolSettings::class);
 		//max points
-		$maxPoints = (count($data['criteria'][0])) - 1;
+		$maxPoints = $settings->rubrics_max_points;
 		$points = [];
 		for($i = 0; $i < $maxPoints; $i++)
 			$points[] = $i;
 		$criteria = [];
 		$descriptions = [];
-		foreach($data['criteria'] as $criterion)
+		foreach($data as $criterion)
 		{
-			$criteria[] = $criterion['description'];
+			$criteria[] = $criterion['criteria'];
 			$descriptionRow = [];
 			for($i = 0; $i < $maxPoints; $i++)
-				$descriptionRow[] = $criterion['pts.' . $i];
+				$descriptionRow[] = $criterion['points' . $i];
 			$descriptions[] = $descriptionRow;
 		}
 		$data =

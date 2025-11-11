@@ -119,4 +119,10 @@ return
 		'storage.work.none' => 'Select a Storage Type',
 		'storage.work.student' => 'Student Work Storage',
 		'storage.work.update' => 'Update System Storage Settings',
+		'storage.mimes.video' => 'File type is a video type',
+		'storage.mimes.video.description' => 'If this is checked, the mime type will set as a video file that can be embedded in the browser.',
+		'storage.mimes.audio' => 'File type is an audio type',
+		'storage.mimes.audio.description' => 'If this is checked, the mime type will set as an audio file that can be embedded in the browser.',
+		'storage.mimes.document' => 'File type is a document',
+		'storage.mimes.document.description' => 'If this is checked, the mime type will set as a document file that can be downloaded',
 	];

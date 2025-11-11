@@ -19,7 +19,7 @@
                                 class="btn btn-primary text-nowrap"
                                 wire:click="addScore()"
                         >{{ __('common.add') }}</button>
-                        <x-error-display key="newScore">{{ $errors->first('newScore') }}</x-error-display>
+                        <x-utilities.error-display key="newScore">{{ $errors->first('newScore') }}</x-utilities.error-display>
                     </div>
                     <div class="row px-3 mb-2">
                         <button

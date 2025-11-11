@@ -20,8 +20,22 @@ class MimeType extends Model
 			'extension',
 			'icon',
 			'is_img',
+			'is_video',
+			'is_audio',
+			'is_document',
 		];
-	
+
+
+	protected function casts(): array
+	{
+		return
+			[
+				'is_img' => 'boolean',
+				'is_video' => 'boolean',
+				'is_audio' => 'boolean',
+				'is_document' => 'boolean',
+			];
+	}
 	public static function allowedMimeTypes(): array
 	{
 		return Mimetype::all()
@@ -35,7 +49,28 @@ class MimeType extends Model
 		               ->pluck('mime')
 		               ->toArray();
 	}
-	
+
+	public static function videoMimeTypes(): array
+	{
+		return MimeType::where('is_video', true)
+		               ->pluck('mime')
+		               ->toArray();
+	}
+
+	public static function audioMimeTypes(): array
+	{
+		return MimeType::where('is_audio', true)
+		               ->pluck('mime')
+		               ->toArray();
+	}
+
+	public static function documentMimeTypes(): array
+	{
+		return MimeType::where('is_document', true)
+		               ->pluck('mime')
+		               ->toArray();
+	}
+
 	public function __toString()
 	{
 		return $this->mime;
@@ -47,13 +82,5 @@ class MimeType extends Model
 		(
 			get: fn($value) => implode([",", " , ", ", "], $value)
 		);
-	}
-	
-	protected function casts(): array
-	{
-		return
-			[
-				'is_img' => 'boolean',
-			];
 	}
 }

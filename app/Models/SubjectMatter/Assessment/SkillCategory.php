@@ -47,6 +47,14 @@ class SkillCategory extends Model
 		            ->withPivot('designation')
 		            ->as('designation');
 	}
+
+	public function getCategoryPath(): string
+	{
+		if($this->isRoot())
+			return '';
+		$path = $this->parentCategory->getCategoryPath();
+		return $path == ''?: ' > ' . $this->name;
+	}
 	
 	#[Scope]
 	protected function root(Builder $query): void

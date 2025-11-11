@@ -64,8 +64,8 @@
                                                     wire:change="updateStartDate({{ $record->id }}, $event.target.value)"
                                                     value="{{ $record->start_date->format('Y-m-d') }}"
                                             />
-                                            <x-error-display
-                                                    key="startDate-{{ $record->id }}">{{ $errors->first('startDate-' . $record->id) }}</x-error-display>
+                                            <x-utilities.error-display
+                                                    key="startDate-{{ $record->id }}">{{ $errors->first('startDate-' . $record->id) }}</x-utilities.error-display>
                                         </td>
                                         <td>
                                             @if($record->end_date)
@@ -116,8 +116,8 @@
                                                             aria-label="Withdraw Date"
                                                     >
                                                     <label for="floatingInput">{{ __('people.student.withdraw.date') }}</label>
-                                                    <x-error-display
-                                                            key="endDate-{{ $record->id }}">{{ $errors->first('endDate-' . $record->id) }}</x-error-display>
+                                                    <x-utilities.error-display
+                                                            key="endDate-{{ $record->id }}">{{ $errors->first('endDate-' . $record->id) }}</x-utilities.error-display>
                                                 </div>
                                             </td>
                                             <td colspan="2">

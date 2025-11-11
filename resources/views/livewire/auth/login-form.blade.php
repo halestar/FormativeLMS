@@ -74,7 +74,7 @@
                                 >
                             </div>
                             <form wire:submit="submitPassword">
-                                <div class="input-group mb-3">
+                                <div class="input-group mb-3" x-data x-init="$refs.password.focus()">
                                     <span id="password-span" class="input-group-text">{{ __('Password') }}</span>
                                     <input
                                             id="password"
@@ -84,6 +84,7 @@
                                             required
                                             autocomplete="current-password"
                                             wire:model="password"
+                                            x-ref="password"
                                     />
                                     <x-utilities.error-tooltip
                                             key="password">{{ $errors->first('password') }}</x-utilities.error-tooltip>

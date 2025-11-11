@@ -15,6 +15,9 @@ class MimeConfiguration extends Component
 	public string $ext = "";
 	public string $icon = "";
 	public bool $isImg = false;
+	public bool $isVideo = false;
+	public bool $isAudio = false;
+	public bool $isDoc = true;
 	public ?string $selectedMimeType = null;
 	
 	public function mount()
@@ -30,6 +33,9 @@ class MimeConfiguration extends Component
 		$mime->extension = $this->ext;
 		$mime->icon = $this->icon;
 		$mime->is_img = $this->isImg;
+		$mime->is_video = $this->isVideo;
+		$mime->is_audio = $this->isAudio;
+		$mime->is_document = $this->isDoc;
 		$mime->save();
 		$this->clear();
 		$this->mimeTypes = MimeType::all();
@@ -41,6 +47,9 @@ class MimeConfiguration extends Component
 		$this->ext = "";
 		$this->icon = "";
 		$this->isImg = false;
+		$this->isVideo = false;
+		$this->isAudio = false;
+		$this->isDoc = false;
 		$this->selectedMimeType = null;
 	}
 	
@@ -51,6 +60,9 @@ class MimeConfiguration extends Component
 		$this->ext = $mimeType->extension;
 		$this->icon = $mimeType->icon;
 		$this->isImg = $mimeType->is_img;
+		$this->isVideo = $mimeType->is_video;
+		$this->isAudio = $mimeType->is_audio;
+		$this->isDoc = $mimeType->is_document;
 	}
 	
 	public function update()
@@ -61,6 +73,9 @@ class MimeConfiguration extends Component
 		$mime->extension = $this->ext;
 		$mime->icon = $this->icon;
 		$mime->is_img = $this->isImg;
+		$mime->is_video = $this->isVideo;
+		$mime->is_audio = $this->isAudio;
+		$mime->is_document = $this->isDoc;
 		$mime->save();
 		$this->clear();
 		$this->mimeTypes = MimeType::all();

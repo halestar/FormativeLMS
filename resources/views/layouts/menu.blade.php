@@ -105,7 +105,7 @@
                             <a class="dropdown-item" href="{{ route('learning.criteria') }}">
                                 {{ __('system.menu.criteria') }}
                             </a>
-                            <a class="dropdown-item" href="{{ route('learning.ld.create') }}">
+                            <a class="dropdown-item" href="{{ route('learning.ld.index') }}">
                                 {{ trans_choice('learning.demonstrations', 2) }}
                             </a>
                         </div>

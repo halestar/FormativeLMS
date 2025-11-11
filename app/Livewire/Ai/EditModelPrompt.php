@@ -14,8 +14,8 @@ class EditModelPrompt extends Component
 	public string $property;
 	public string $reloadKey;
 	public string $prompt;
+    public string $system_prompt;
 	public float $temperature;
-	public string $promptType;
 	public string $backLink;
 	public ?string $preview = null;
 	
@@ -39,56 +39,38 @@ class EditModelPrompt extends Component
 			];
 		$this->reloadKey = uniqid();
 		$this->prompt = $this->aiPrompt->prompt;
+        $this->system_prompt = $this->aiPrompt->system_prompt;
 		$this->temperature = $this->aiPrompt->temperature;
-		$this->promptType = 'prompt';
-	}
-	
-	public function setPromptType()
-	{
-		$this->promptType = ($this->promptType == 'prompt' || $this->promptType == 'system') ? $this->promptType : 'prompt';
-		if($this->promptType == 'prompt')
-		{
-			$this->prompt = $this->aiPrompt->prompt;
-			$this->reloadKey = uniqid();
-		}
-		else
-		{
-			$this->prompt = $this->aiPrompt->system_prompt;
-			$this->reloadKey = uniqid();
-		}
 	}
 	
 	public function revert()
 	{
 		$this->prompt = $this->aiPrompt->prompt;
 		$this->temperature = $this->aiPrompt->temperature;
-		$this->promptType = 'prompt';
-		$this->reloadKey = uniqid();
+		$this->system_prompt = $this->aiPrompt->system_prompt;
 	}
 	
 	public function updatePrompt()
 	{
-		if($this->promptType == 'prompt')
-			$this->aiPrompt->prompt = $this->prompt;
-		else
-			$this->aiPrompt->system_prompt = $this->prompt;
+        $this->aiPrompt->prompt = $this->prompt;
+        $this->aiPrompt->system_prompt = $this->system_prompt;
 		$this->aiPrompt->temperature = $this->temperature;
 		$this->aiPrompt->save();
-		$this->dispatch('saved');
+		$this->dispatch('edit-model-prompt.prompt-updated');
 	}
 	
 	public function resetPrompt()
 	{
 		$this->aiPrompt->resetPrompt();
 		$this->prompt = $this->aiPrompt->prompt;
+        $this->system_prompt = $this->aiPrompt->system_prompt;
 		$this->temperature = $this->aiPrompt->temperature;
-		$this->reloadKey = uniqid();
 	}
 	
 	public function previewPrompt()
 	{
 		//load a random model.
-		$model = ($this->className)::inRandomOrder()->first();
+		$model = ($this->className)::find($this->aiPrompt->last_id);
 		$this->preview = Blade::render($this->prompt, $model->withTokens());
 	}
 	

@@ -24,7 +24,7 @@
                                 class="form-control @error('subject') is-invalid @enderror"
                                 wire:model="subject"
                         />
-                        <x-error-display key="subject">{{ $errors->first('subject') }}</x-error-display>
+                        <x-utilities.error-display key="subject">{{ $errors->first('subject') }}</x-utilities.error-display>
                     </div>
                     <livewire:utilities.text-editor
                             wire:model.live.debounce="content"

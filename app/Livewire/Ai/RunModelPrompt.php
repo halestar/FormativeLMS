@@ -17,14 +17,12 @@ class RunModelPrompt extends Component
 	public bool $runMode = false;
 	public AiPromptable $model;
 	public string $property;
-	public AiPrompt $defaultPrompt;
-	public ?AiPrompt $customPrompt = null;
+	public AiPrompt $prompt;
 	public string $selectedAiId;
 	public array $Llms = [];
 	public string $selectedLlm;
 	public bool $resultsMode = false;
 	public ?string $results = null;
-	public string $promptType;
 	public string $propertyName;
 	
 	public function mount(AiPromptable $model, string $property)
@@ -38,27 +36,22 @@ class RunModelPrompt extends Component
 		$this->model = $model;
 		$this->property = $property;
 		$this->propertyName = $model::availableProperties()[$property];
-		$this->defaultPrompt = $model::getDefaultPrompt($property);
-		$this->promptType = "default";
-		if($model::hasCustomPrompt($property, $this->person))
+		$this->prompt = $model::getUserPrompt($property, $this->person);
+
+		//are we in the correct model?
+		if($this->prompt->last_id != (string)$this->model->getKey())
 		{
-			$this->customPrompt = $model::getCustomPrompt($property, $this->person);
-			$this->promptType = "custom";
+			//in this case, save the id and clear the results.
+			$this->prompt->last_results = null;
+			$this->prompt->last_id = (string)$this->model->getKey();
+			$this->prompt->save();
 		}
-		
-		//do we have saved results?
-		if($this->defaultPrompt->last_results)
+		elseif ($this->prompt->last_results)
 		{
-			$this->results = $this->model->fillMockup($this->defaultPrompt);
+			$this->results = $this->model->fillMockup($this->prompt);
 			$this->setMode('resultsMode');
-			$this->promptType = "default";
 		}
-		elseif($this->customPrompt && $this->customPrompt->last_results)
-		{
-			$this->results = $this->model->fillMockup($this->customPrompt);
-			$this->setMode('resultsMode');
-			$this->promptType = "custom";
-		}
+
 	}
 	
 	public function setMode(string $mode)
@@ -72,7 +65,7 @@ class RunModelPrompt extends Component
 	public function showPromptResults()
 	{
 		$this->runPrompt();
-		$this->results = $this->model->fillMockup(($this->promptType == "default" ? $this->defaultPrompt : $this->customPrompt));
+		$this->results = $this->model->fillMockup($this->prompt);
 		$this->setMode('resultsMode');
 	}
 	
@@ -81,11 +74,8 @@ class RunModelPrompt extends Component
 		$selectedConnection = $this->aiConnections->where('id', $this->selectedAiId)
 		                                          ->first();
 		$selectedConnection->executePrompt($this->selectedLlm,
-			($this->promptType == "default" ? $this->defaultPrompt : $this->customPrompt), $this->model);
-		if($this->promptType == "default")
-			$this->defaultPrompt->refresh();
-		else
-			$this->customPrompt->refresh();
+			$this->prompt, $this->model);
+		$this->prompt->refresh();
 	}
 	
 	public function executePrompt()
@@ -96,41 +86,18 @@ class RunModelPrompt extends Component
 	
 	public function saveModel()
 	{
-		$this->model->aiFill(($this->promptType == "default" ? $this->defaultPrompt : $this->customPrompt));
+		$this->model->aiFill($this->prompt);
 		$this->model->save();
-		if($this->promptType == "default")
-		{
-			$this->defaultPrompt->last_results = null;
-			$this->defaultPrompt->save();
-		}
-		else
-		{
-			$this->customPrompt->last_results = null;
-			$this->customPrompt->save();
-		}
+        $this->prompt->last_results = null;
+        $this->prompt->save();
 		$this->js('window.location.reload()');
 	}
 	
 	public function discard()
 	{
-		$this->results = null;
-		if($this->promptType == "default")
-		{
-			$this->defaultPrompt->last_results = null;
-			$this->defaultPrompt->save();
-		}
-		else
-		{
-			$this->customPrompt->last_results = null;
-			$this->customPrompt->save();
-		}
+        $this->prompt->last_results = null;
+        $this->prompt->save();
 		$this->setMode('buttonMode');
-	}
-	
-	public function createCustomPrompt()
-	{
-		$this->customPrompt = ($this->model)::getCustomPrompt($this->property, $this->person);
-		$this->redirect(route('ai.prompt.editor', $this->customPrompt));
 	}
 	
 	public function render()

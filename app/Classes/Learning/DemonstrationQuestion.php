@@ -7,9 +7,9 @@ use JsonSerializable;
 
 class DemonstrationQuestion implements Arrayable, JsonSerializable
 {
-	public string $question;
-	public int $type;
-	public array $options;
+	public string $question = "";
+	public int $type = self::TYPE_SHORT;
+	public array $options = [];
 	public const TYPE_SHORT = 1;
 	public const TYPE_LONG = 2;
 	public const TYPE_MULTIPLE = 3;
@@ -50,5 +50,10 @@ class DemonstrationQuestion implements Arrayable, JsonSerializable
 		$question->question = $data['question'];
 		$question->options = $data['options'] ?? [];
 		return $question;
+	}
+
+	public function hasOptions(): bool
+	{
+		return count($this->options) > 0;
 	}
 }

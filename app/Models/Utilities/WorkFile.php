@@ -68,7 +68,22 @@ class WorkFile extends Model
 	{
 		return $this->mimeType->is_img;
 	}
-	
+
+	public function isVideo(): bool
+	{
+		return $this->mimeType->is_video;
+	}
+
+	public function isAudio(): bool
+	{
+		return $this->mimeType->is_audio;
+	}
+
+	public function isDocument(): bool
+	{
+		return $this->mimeType->is_document;
+	}
+
 	public function mimeType(): BelongsTo
 	{
 		return $this->belongsTo(MimeType::class, 'mime');
@@ -102,4 +117,9 @@ class WorkFile extends Model
 	{
 		$query->where('public', true);
 	}
+
+    public function contents(): string
+    {
+        return $this->lmsConnection->fileContents($this);
+    }
 }

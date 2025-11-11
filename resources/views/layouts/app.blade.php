@@ -21,9 +21,9 @@
 
     <!-- Scripts -->
     @livewireScripts
+    <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ mix('js/lms-tools.js') }}"></script>
-    <script src="{{ asset('js/tinymce/tinymce.min.js') }}" referrerpolicy="origin"></script>
     <script src="https://kit.fontawesome.com/d18ee59f88.js" crossorigin="anonymous"></script>
     @stack('head_scripts')
     @auth
