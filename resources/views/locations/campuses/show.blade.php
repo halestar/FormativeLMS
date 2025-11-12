@@ -266,7 +266,7 @@
                             class="tab-pane fade"
                             id="tab-pane-blocks" role="tabpanel" aria-labelledby="tab-blocks" tabindex="0"
                     >
-                        @can('create', \App\Models\Schedules\Block::class, $campus)
+                        @can('create')
                             <div class="row" id="block-add-control">
                                 <button
                                         type="button"

@@ -11,13 +11,10 @@ class SchoolClassPolicy
 	/**
 	 * Determine whether the user can view any models.
 	 */
-	public function viewAny(Person $person, Campus $campus): bool
+	public function viewAny(Person $person): bool
 	{
 		return ($person->can('subjects.classes') &&
-			$person->isEmployee() &&
-			$person->employeeCampuses()
-			       ->where('campus_id', $campus->id)
-			       ->exists());
+			$person->isEmployee());
 	}
 	
 	/**

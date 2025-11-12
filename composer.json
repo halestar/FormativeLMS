@@ -7,6 +7,9 @@
     "require": {
         "php": "^8.3",
         "google/apiclient": "^2.18",
+        "halestar/dicms-blogger": "^0.7.5",
+        "halestar/fablms-google-integrator": "^0.1.2",
+        "halestar/laravel-drop-in-cms": "^0.7.5",
         "hashids/hashids": "^5.0",
         "lab404/laravel-impersonate": "^1.7",
         "laravel/framework": "^12.0",
@@ -23,18 +26,12 @@
         "tinymce/tinymce": "^7.8"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.13",
-        "barryvdh/laravel-ide-helper": "^3.6",
         "fakerphp/faker": "^1.23",
         "laravel/pail": "^1.2",
         "laravel/pint": "^1.13",
-        "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.0",
-        "phpunit/phpunit": "^11.0.1",
-        "prism-php/prism": "^0.98.0",
-        "prism-php/relay": "^1.3",
-        "ryoluo/sail-ssl": "^1.3"
+        "phpunit/phpunit": "^11.0.1"
     },
     "autoload": {
         "psr-4": {
@@ -46,10 +43,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/",
-            "halestar\\DiCmsBlogger\\": "packages/halestar/DiCmsBlogger/src",
-            "halestar\\LaravelDropInCms\\": "packages/halestar/LaravelDropInCms/src",
-            "halestar\\FabLmsGoogleIntegrator\\": "packages/halestar/FabLmsGoogleIntegrator/src"
+            "Tests\\": "tests/"
         }
     },
     "scripts": {
