@@ -81,7 +81,7 @@
 
                                     {
                                         type: 'menuitem',
-                                        text: '{!! $tokenName !!}',
+                                        text: '{!! str_replace("'", "\\'", $tokenName) !!}',
                                         onAction: () => editor.insertContent('{!! $token !!}')
                                     },
 

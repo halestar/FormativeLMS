@@ -28,6 +28,7 @@
                     </div>
                     <livewire:utilities.text-editor
                             wire:model.live.debounce="content"
+                            instance-id="content"
                             :fileable="$emailSetting"
                             :availableTokens="($emailClass)::availableTokens()"
                             :key="$reloadKey"
