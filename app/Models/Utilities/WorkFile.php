@@ -2,6 +2,8 @@
 
 namespace App\Models\Utilities;
 
+use App\Classes\Settings\StorageSettings;
+use App\Interfaces\Fileable;
 use App\Models\Integrations\IntegrationConnection;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
@@ -122,4 +124,11 @@ class WorkFile extends Model
     {
         return $this->lmsConnection->fileContents($this);
     }
+
+	public function copyTo(Fileable $destination): WorkFile
+	{
+		$settings = app(StorageSettings::class);
+		$connection = $settings->getWorkConnection($destination->getWorkStorageKey());
+		return $connection->copyWorkFile($this, $destination);
+	}
 }

@@ -125,4 +125,9 @@ class LocalIntegratorController extends Controller
 			->back()
 			->with('success-status', __('integrators.local.work.update.success'));
 	}
+
+	public function classes()
+	{
+
+	}
 }

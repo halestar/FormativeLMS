@@ -8,6 +8,7 @@ use App\Classes\RoleField;
 use App\Classes\Settings\SchoolSettings;
 use App\Enums\IntegratorServiceTypes;
 use App\Interfaces\HasSchoolRoles;
+use App\Models\Integrations\Connections\ClassesConnection;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\Locations\Campus;
@@ -548,6 +549,7 @@ class Person extends Authenticatable implements HasSchoolRoles
 	{
 		return $this->hasMany(LearningDemonstrationTemplate::class, 'person_id');
 	}
+
 	
 	/**
 	 * Notifications

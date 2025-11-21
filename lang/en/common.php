@@ -6,6 +6,7 @@ return
 		'add' => 'Add',
 		'adding' => 'Adding',
 		'apply' => 'Apply',
+		'apply.all' => 'Apply To All',
 		'apply.changes' => 'Apply Changes',
 		'assign' => 'Assign',
 		'cancel' => 'Cancel',
@@ -105,4 +106,8 @@ return
 		'toggle' => 'Toggle',
 		'toggle.all' => 'Toggle All',
 		'category' => 'Category|Categories',
+		'expand' => 'Expand',
+		'collapse' => 'Collapse',
+		'more' => 'More',
+		'less' => 'Less',
 	];

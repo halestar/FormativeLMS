@@ -120,8 +120,8 @@
 
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="adminDD">
                                 @can('crud')
-                                    <a class="dropdown-item" href="{{ route('crud') }}">
-                                        {{ __('system.menu.crud') }}
+                                    <a class="dropdown-item" href="{{ route('settings.system.tables') }}">
+                                        {{ __('system.menu.system.tables') }}
                                     </a>
                                 @endcan
                                 @can('cms')

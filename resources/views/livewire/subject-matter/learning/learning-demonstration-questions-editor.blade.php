@@ -2,6 +2,16 @@
     @use('\App\Classes\Learning\DemonstrationQuestion')
     <div class="card-header d-flex justify-content-between align-items-center">
         <div class="card-title">{{ __('learning.demonstrations.questions') }}</div>
+        @if($canUseAI)
+            <div class="d-flex justify-content-center">
+                <livewire:ai.run-model-prompt
+                        :model="$ld" property="questions"
+                        classes="m-2 p-2 border rounded text-bg-light"
+                        btn-classes="btn btn-sm btn-light border"
+                        teleport-to="#questions-ai-results"
+                />
+            </div>
+        @endif
         <button
                 type="button"
                 class="btn btn-sm btn-primary"
@@ -9,14 +19,7 @@
         >{{ __('learning.demonstrations.questions.add') }}</button>
     </div>
     <div class="card-body">
-        @if($canUseAI)
-            <div class="d-flex justify-content-center">
-                <livewire:ai.run-model-prompt
-                        :model="$ld" property="questions"
-                        classes="mx-auto flex-grow-1 position-relative mb-2"
-                />
-            </div>
-        @endif
+        <div id="questions-ai-results"></div>
         <ul class="list-group list-group-flush">
             @foreach($questions as $question)
                 <li class="list-group-item d-flex justify-content-between align-items-center" wire:key="question-{{$loop->index}}">

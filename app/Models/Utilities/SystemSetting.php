@@ -2,6 +2,7 @@
 
 namespace App\Models\Utilities;
 
+use App\Traits\HasWorkFiles;
 use App\Traits\UsesJsonValue;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -10,7 +11,7 @@ use Illuminate\Database\Eloquent\Relations\MorphToMany;
 class SystemSetting extends Model
 {
 	// This gives us an easy way to e
-	use UsesJsonValue;
+	use UsesJsonValue, HasWorkFiles;
 	
 
 	protected static string $settingKey;

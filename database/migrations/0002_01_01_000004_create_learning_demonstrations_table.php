@@ -14,12 +14,10 @@ return new class extends Migration
         Schema::create('learning_demonstrations', function (Blueprint $table) {
 	        $table->uuid('id')->primary();
 	        $table->foreignId('person_id')->nullable()->constrained('people')->nullOnDelete();
-	        $table->foreignId('class_id')->constrained('school_classes')->cascadeOnDelete();
 	        $table->foreignId('type_id')->constrained('learning_demonstration_types')->cascadeOnDelete();
 			$table->foreignUuid('template_id')->nullable()->constrained('learning_demonstration_templates')->nullOnDelete();
-			$table->foreignId('criteria_id')->constrained('class_criteria')->cascadeOnDelete();
-			$table->float('criteria_weight')->default(1);
-	        $table->string('name');
+	        $table->foreignId('year_id')->constrained('years')->cascadeOnDelete();
+			$table->string('name');
 	        $table->string('abbr', 10);
 	        $table->text('demonstration')->nullable();
 	        $table->json('links')->nullable();

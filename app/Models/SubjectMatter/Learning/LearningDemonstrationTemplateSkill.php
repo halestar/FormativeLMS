@@ -13,7 +13,7 @@ class LearningDemonstrationTemplateSkill extends Pivot implements HasRubric
 {
 	use HasUuids;
 	public $timestamps = false;
-	protected $table = "learning_demonstration_template_skill";
+	protected $table = "learning_demonstration_template_skills";
 	public $incrementing = false;
 	protected $primaryKey = "id";
 	protected $keyType = 'string';

@@ -327,7 +327,7 @@ $img-icon-sizes: ("xl": 96px, "large": 48px, "normal": 32px, "small": 24px, "tin
   background-color: $secondary;
   --gradient-percent: 0%;
   animation-name: thinking;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   background-image: radial-gradient(circle at 50% 60%, rgba(245,237,3, 1) 0%, rgba(245,237,3,0) var(--gradient-percent));

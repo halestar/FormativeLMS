@@ -4,6 +4,7 @@ namespace App\Classes\Integrators\Local;
 
 use App\Classes\Integrators\IntegrationsManager;
 use App\Classes\Integrators\Local\Services\LocalAuthService;
+use App\Classes\Integrators\Local\Services\LocalClassesService;
 use App\Classes\Integrators\Local\Services\LocalDocumentsService;
 use App\Classes\Integrators\Local\Services\LocalWorkFilesService;
 use App\Enums\IntegratorServiceTypes;
@@ -55,6 +56,7 @@ class LocalIntegrator extends LmsIntegrator
 		$manager->registerService($this, LocalAuthService::class, $overwrite);
 		$manager->registerService($this, LocalDocumentsService::class, $overwrite);
 		$manager->registerService($this, LocalWorkFilesService::class, $overwrite);
+		$manager->registerService($this, LocalClassesService::class, $overwrite);
 	}
 	
 	public function isOutdated(): bool
@@ -91,6 +93,9 @@ class LocalIntegrator extends LmsIntegrator
 		     ->name('work.index');
 		Route::patch('/work', [LocalIntegratorController::class, 'work_update'])
 		     ->name('work.update');
+		//classes Service
+		Route::get('/classes', [LocalIntegratorController::class, 'classes'])
+		     ->name('classes.index');
 	}
 	
 	public function configurationUrl(): string

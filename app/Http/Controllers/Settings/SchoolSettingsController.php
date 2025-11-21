@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Settings;
 
 use App\Classes\Days;
+use App\Classes\SessionSettings;
 use App\Classes\Settings\AuthSettings;
 use App\Classes\Settings\IdSettings;
 use App\Classes\Settings\SchoolSettings;
@@ -49,9 +50,15 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 		                                        ->where('integration_services.service_type',
 			                                        IntegratorServiceTypes::WORK)
 		                                        ->get();
+		$classManagementConnection = IntegrationConnection::select('integration_connections.*')
+			->join('integration_services', 'integration_services.id', '=', 'integration_connections.service_id')
+			->whereNull('integration_connections.person_id')
+			->where('integration_services.service_type', IntegratorServiceTypes::CLASSES)
+			->get();
 		return view('settings.school.show',
 			compact('breadcrumb', 'studentRole',
-				'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole', 'workConnections'));
+				'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole', 'workConnections',
+				'classManagementConnection'));
 	}
 	
 	public function update(Request $request, SchoolSettings $settings)
@@ -89,11 +96,15 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 			'max_msg' => 'required|numeric|min:1',
 			'year_messages' => ['required', 'numeric', Rule::in([1, 2])],
             'rubrics_max_points' => 'required|numeric|min:1',
+			'force_class_management' => 'required|boolean',
+			'class_management_connection_id' => 'required|exists:integration_connections,id'
 		], static::errors());
 		//update days
 		$settings->max_msg = $data['max_msg'];
 		$settings->year_messages = $data['year_messages'];
         $settings->rubrics_max_points = $data['rubrics_max_points'];
+		$settings->force_class_management = $data['force_class_management'];
+		$settings->class_management_connection_id = $data['class_management_connection_id'];
 		$settings->save();
 		return redirect()
 			->route('settings.school')
@@ -155,5 +166,22 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 		return redirect()
 			->route('settings.school')
 			->with('success-status', __('system.settings.update.success'));
+	}
+
+	public function getSessionSetting(Request $request)
+	{
+		$key = $request->input('key');
+		$s = SessionSettings::instance();
+		$default = $request->input('default', []);
+		return response()->json($s->get($key, $default), 200);
+	}
+
+	public function setSessionSetting(Request $request)
+	{
+		$s = SessionSettings::instance();
+		$key = $request->input('key');
+		$value = $request->input('value');
+		$s->set($key, $value);
+		return response()->json([], 200);
 	}
 }

@@ -2,6 +2,7 @@
 
 
 use App\Livewire\SubjectMatter\Learning\ClassCriteriaManager;
+use App\Livewire\SubjectMatter\Learning\LearningDemonstrationAssessor;
 use App\Livewire\SubjectMatter\Learning\LearningDemonstrationCreator;
 use App\Livewire\SubjectMatter\Learning\LearningDemonstrationIndex;
 use App\Livewire\SubjectMatter\Learning\LearningDemonstrationPoster;
@@ -15,9 +16,11 @@ Route::prefix('learning-demonstrations')
 		Route::get('/index/{course?}', LearningDemonstrationIndex::class)->name('index');
 		Route::get('/create/{course?}', LearningDemonstrationCreator::class)->name('create');
 	    Route::get('/post/{ld}', LearningDemonstrationPoster::class)->name('post');
+	    Route::get('/assess/{ld}/{classSession?}', LearningDemonstrationAssessor::class)->name('assess');
 	 });
 
 Route::get('/class-criteria', ClassCriteriaManager::class)->name('criteria');
+
 
 
 

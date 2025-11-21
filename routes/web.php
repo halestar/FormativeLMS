@@ -10,7 +10,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
 
-//Auth Routes
+/********************************************************************
+ * AUTHENTICATION ROUTES
+ */
 Route::get('/login', [LoginController::class, 'showLoginForm'])
      ->name('login');
 Route::post('/logout', [LoginController::class, 'logout'])
@@ -20,7 +22,9 @@ Route::get('/impersonate/{person}', [LoginController::class, 'impersonate'])
 Route::get('/unimpersonate', [LoginController::class, 'unimpersonate'])
      ->name('unimpersonate');
 
-//Integrator Routes
+/********************************************************************
+ * INTEGRATION ROUTES
+ */
 if(Schema::hasTable('integrators'))
 {
 	$manager = app()->make(IntegrationsManager::class);
@@ -60,14 +64,21 @@ if(Schema::hasTable('integrators'))
 	     });
 }
 
+/********************************************************************
+ * AI ROUTES
+ */
 Route::get('/ai/prompt/{aiPrompt}', \App\Livewire\Ai\EditModelPrompt::class)
      ->name('ai.prompt.editor');
 
-//auth pages
+/********************************************************************
+ * HOME
+ */
 Route::get('/home', [HomeController::class, 'index'])
      ->name('home');
 
-//cms
+/********************************************************************
+ * CMS ADMIN ROUTES
+ */
 Route::prefix('cms')
      ->middleware(['can:cms', 'auth'])
      ->group(function()
@@ -75,13 +86,10 @@ Route::prefix('cms')
 	     \halestar\LaravelDropInCms\DiCMS::adminRoutes();
      });
 
-//crud
-Route::get('/crud', [SystemTablesController::class, 'index'])
-     ->name('crud');
 
 //settings
-Route::post('/settings', [HomeController::class, 'setSessionSetting']);
-Route::get('/settings', [HomeController::class, 'getSessionSetting']);
+Route::post('/settings', [\App\Http\Controllers\Settings\SchoolSettingsController::class, 'setSessionSetting']);
+Route::get('/settings', [\App\Http\Controllers\Settings\SchoolSettingsController::class, 'getSessionSetting']);
 
 //language changes
 Route::post('/langsw', function(Request $request)

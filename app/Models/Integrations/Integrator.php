@@ -23,13 +23,6 @@ class Integrator extends Model implements HasSchoolRoles
 	
 	final public const INTEGRATOR_URL_PREFIX = '/integrators';
 	final public const INTEGRATOR_ACTION_PREFIX = 'integrators.';
-	public static array $serviceIcons =
-		[
-			IntegratorServiceTypes::AUTHENTICATION->value => "images/auth_service.svg",
-			IntegratorServiceTypes::DOCUMENTS->value => "images/documents_service.svg",
-			IntegratorServiceTypes::WORK->value => "images/work_service.svg",
-			IntegratorServiceTypes::AI->value => "images/ai-icon.svg",
-		];
 	public $timestamps = true;
 	public $incrementing = true;
 	protected $table = "integrators";

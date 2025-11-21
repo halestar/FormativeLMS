@@ -1,14 +1,23 @@
 <?php
 
 use App\Http\Controllers\Settings\SchoolSettingsController;
+use App\Http\Controllers\Settings\SystemTablesController;
 use App\Livewire\Utilities\SchoolEmailsEditor;
 use Illuminate\Support\Facades\Route;
 
+/********************************************************************
+ * PERMISSIONS ROUTES
+ */
 Route::resource('permissions', \App\Http\Controllers\Settings\PermissionController::class)
      ->except(['show']);
-
 Route::resource('roles', \App\Http\Controllers\Settings\RoleController::class)
      ->except(['show']);
+
+/********************************************************************
+ * SYSTEM TABLES ROUTES
+ */
+Route::get('/system/tables', [SystemTablesController::class, 'index'])
+     ->name('system.tables');
 
 //school Settings
 Route::get('/school/settings', [SchoolSettingsController::class, 'show'])
@@ -39,3 +48,4 @@ Route::get('/work-files/{work_file}',
 	[\App\Http\Controllers\Storage\StorageController::class, 'downloadPublicWorkFile'])
      ->name('work.file.public')
      ->whereUuid('work_file');
+

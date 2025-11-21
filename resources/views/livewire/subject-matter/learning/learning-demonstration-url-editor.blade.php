@@ -1,21 +1,22 @@
 <div class="card">
     <div class="card-header d-flex justify-content-between align-items-center">
         <div class="card-title">{{ __('learning.demonstrations.resources') }}</div>
-        <button
-            type="button"
-            class="btn btn-sm btn-primary"
-            wire:click="addResource"
-        >{{ __('learning.demonstrations.resources.add') }}</button>
-    </div>
-    <div class="card-body">
-        @if($canUseAI)
-            <div class="d-flex justify-content-center">
+            @if($canUseAI)
                 <livewire:ai.run-model-prompt
                         :model="$ld" property="links"
-                        classes="mx-auto flex-grow-1 position-relative mb-2"
+                        classes="m-2 p-2 border rounded text-bg-light"
+                        btn-classes="btn btn-sm btn-light border"
+                        teleport-to="#links-ai-results"
                 />
-            </div>
-        @endif
+            @endif
+            <button
+                type="button"
+                class="btn btn-sm btn-primary"
+                wire:click="addResource"
+            >{{ __('learning.demonstrations.resources.add') }}</button>
+    </div>
+    <div class="card-body">
+        <div id="links-ai-results"></div>
         <ul class="list-group list-group-flush">
             @foreach($resources as $resource)
                 <li class="list-group-item d-flex justify-content-between align-items-center" wire:key="link-{{$loop->index}}">

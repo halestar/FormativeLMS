@@ -5,7 +5,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
-	{
+{
 	/**
 	 * Run the migrations.
 	 */
@@ -18,9 +18,10 @@ return new class extends Migration
 			      ->references('id')
 			      ->on('work_files')
 			      ->cascadeOnDelete();
-			$table->bigInteger('fileable_id');
+			$table->bigInteger('fileable_id')->nullable();
+			$table->uuid('fileable_uuid')->nullable();
 			$table->string('fileable_type');
-			$table->primary(['work_file_id', 'fileable_id', 'fileable_type']);
+			$table->unique(['work_file_id', 'fileable_id', 'fileable_uuid', 'fileable_type'], 'fileable_unique');
 		});
 	}
 	
@@ -31,4 +32,4 @@ return new class extends Migration
 	{
 		Schema::dropIfExists('fileables');
 	}
-	};
+};

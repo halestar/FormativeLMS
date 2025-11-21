@@ -98,7 +98,7 @@ class PermissionSeeder extends Seeder
 			'System' =>
 				[
 					['name' => 'cms', 'description' => __('permissions.cms')],
-					['name' => 'crud', 'description' => __('permissions.crud')],
+					['name' => 'system.tables', 'description' => __('permissions.system.tables')],
 					['name' => 'school', 'description' => __('permissions.school')],
 					['name' => 'school.emails', 'description' => __('permissions.school.emails')],
 					['name' => 'settings.integrators', 'description' => __('permissions.settings.integrators')],

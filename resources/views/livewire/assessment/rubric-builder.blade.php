@@ -36,6 +36,17 @@
                                 wire:confirm="{{ __('subjects.skills.rubric.builder.clear.confirm') }}"
                         >{{ __('subjects.skills.rubric.builder.clear') }}</button>
                     </div>
+
+                    @if($canUseAI)
+                        <div class="row px-3 mb-2">
+                            <livewire:ai.run-model-prompt
+                                    :model="$skill" property="rubric"
+                                    classes="m-2 p-2 border rounded text-bg-light"
+                                    btn-classes="w-100 btn btn-light border text-nowrap"
+                                    teleport-to="#skills-ai-results"
+                            />
+                        </div>
+                    @endif
                 </div>
                 @if($saved)
                     <div class="alert alert-success">
@@ -65,11 +76,7 @@
             </div>
         </div>
     </div>
-    @if($canUseAI)
-        <div class="row justify-content-md-center text-center">
-            <livewire:ai.run-model-prompt :model="$skill" property="rubric" classes=" border rounded border-dark text-bg-secondary m-1 p-2 position-relative"/>
-        </div>
-    @endif
+    <div id="skills-ai-results"></div>
     <div class="table-responsive-lg p-5">
         <table class="table table-bordered">
             <thead>

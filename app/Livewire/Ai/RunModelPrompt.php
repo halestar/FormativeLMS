@@ -13,7 +13,6 @@ class RunModelPrompt extends Component
 	public string $classes = "";
 	public Person $person;
 	public Collection $aiConnections;
-	public bool $buttonMode = true;
 	public bool $runMode = false;
 	public AiPromptable $model;
 	public string $property;
@@ -24,6 +23,8 @@ class RunModelPrompt extends Component
 	public bool $resultsMode = false;
 	public ?string $results = null;
 	public string $propertyName;
+	public ?string $teleportTo = null;
+	public string $btnClasses = "btn btn-light";
 	
 	public function mount(AiPromptable $model, string $property)
 	{
@@ -49,24 +50,17 @@ class RunModelPrompt extends Component
 		elseif ($this->prompt->last_results)
 		{
 			$this->results = $this->model->fillMockup($this->prompt);
-			$this->setMode('resultsMode');
+			$this->resultsMode = true;
 		}
 
-	}
-	
-	public function setMode(string $mode)
-	{
-		$this->buttonMode = false;
-		$this->runMode = false;
-		$this->resultsMode = false;
-		$this->$mode = true;
 	}
 	
 	public function showPromptResults()
 	{
 		$this->runPrompt();
 		$this->results = $this->model->fillMockup($this->prompt);
-		$this->setMode('resultsMode');
+		$this->runMode = false;
+		$this->resultsMode = true;
 	}
 	
 	private function runPrompt()
@@ -97,7 +91,8 @@ class RunModelPrompt extends Component
 	{
         $this->prompt->last_results = null;
         $this->prompt->save();
-		$this->setMode('buttonMode');
+		$this->runMode = false;
+		$this->resultsMode = false;
 	}
 	
 	public function render()

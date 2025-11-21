@@ -54,7 +54,6 @@
             {{ $message }}
         </div>
         @enderror
-        <div class=""
         @if(count($workFiles) == 0)
             <div class="display-4 text-center">
                 {{ __('storage.documents.file.drop') }}

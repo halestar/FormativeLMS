@@ -47,6 +47,7 @@
                         class="form-control"
                         wire:model.live.debounce.400ms="search"
                         placeholder="{{ __('subjects.skills.search') }}"
+                        @keydown.enter.prevent=""
                     />
                 </div>
             </div>

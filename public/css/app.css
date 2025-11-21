@@ -16004,7 +16004,7 @@ select[multiple] {
   background-color: #e9ecef;
   --gradient-percent: 0%;
   animation-name: thinking;
-  animation-duration: 4s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   background-image: radial-gradient(circle at 50% 60%, rgb(245, 237, 3) 0%, rgba(245, 237, 3, 0) var(--gradient-percent));

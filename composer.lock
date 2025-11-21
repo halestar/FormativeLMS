@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "756b1b60bac815fa7fdf9287362f0cc5",
+    "content-hash": "697b4807902c2146a84f0ec50e891d1b",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -9073,6 +9073,161 @@
             "time": "2025-08-08T12:00:00+00:00"
         },
         {
+            "name": "halestar/dicms-blogger",
+            "version": "0.7.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/halestar/DiCmsBlogger.git",
+                "reference": "b17fe90fe1c0a83307ed85b2559bce5297070934"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/halestar/DiCmsBlogger/zipball/b17fe90fe1c0a83307ed85b2559bce5297070934",
+                "reference": "b17fe90fe1c0a83307ed85b2559bce5297070934",
+                "shasum": ""
+            },
+            "require": {
+                "halestar/laravel-drop-in-cms": ">=0.7.5",
+                "laravel/scout": "^10.13"
+            },
+            "type": "plugin",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "halestar\\DiCmsBlogger\\Providers\\DiCmsBloggerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "halestar\\DiCmsBlogger\\": "src/",
+                    "halestar\\DiCmsBlogger\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "German Kalinec",
+                    "email": "german@kalinec.net"
+                }
+            ],
+            "description": "A plugin to the halestar/laravel-drop-in-cms that adds blogging capabilities to the CMS.",
+            "support": {
+                "issues": "https://github.com/halestar/DiCmsBlogger/issues",
+                "source": "https://github.com/halestar/DiCmsBlogger/tree/0.7.5.4"
+            },
+            "time": "2025-08-31T18:26:45+00:00"
+        },
+        {
+            "name": "halestar/fablms-google-integrator",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/halestar/FabLmsGoogleIntegrator.git",
+                "reference": "1ce9b3dcbcd546e7aae715e55ce4b5afe23ee880"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/halestar/FabLmsGoogleIntegrator/zipball/1ce9b3dcbcd546e7aae715e55ce4b5afe23ee880",
+                "reference": "1ce9b3dcbcd546e7aae715e55ce4b5afe23ee880",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=12.0",
+                "livewire/livewire": "^v3.5.4",
+                "php": "^8.3",
+                "prism-php/prism": "^0.98.0",
+                "prism-php/relay": "^1.3"
+            },
+            "type": "add-on",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "halestar\\FablmsGoogleIntegrator\\GoogleIntegratorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "halestar\\FablmsGoogleIntegrator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "German Kalinec",
+                    "email": "german@kalinec.net"
+                }
+            ],
+            "description": "An integration module for FabLMS (dev.kalinec.net) to integrate with Google Services.",
+            "support": {
+                "issues": "https://github.com/halestar/FabLmsGoogleIntegrator/issues",
+                "source": "https://github.com/halestar/FabLmsGoogleIntegrator/tree/0.1.2"
+            },
+            "time": "2025-11-11T22:00:12+00:00"
+        },
+        {
+            "name": "halestar/laravel-drop-in-cms",
+            "version": "0.7.5.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/halestar/LaravelDropInCms.git",
+                "reference": "ab2e03a2a518cd512b361d9de3e18c87e1a0e00a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/halestar/LaravelDropInCms/zipball/ab2e03a2a518cd512b361d9de3e18c87e1a0e00a",
+                "reference": "ab2e03a2a518cd512b361d9de3e18c87e1a0e00a",
+                "shasum": ""
+            },
+            "require": {
+                "intervention/image": "^v3.7",
+                "laravel/framework": ">=11.0",
+                "livewire/livewire": "^v3.5.4",
+                "maennchen/zipstream-php": "^3.2.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^11.2"
+            },
+            "type": "add-on",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "halestar\\LaravelDropInCms\\Providers\\CmsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "halestar\\LaravelDropInCms\\": "src/",
+                    "halestar\\LaravelDropInCms\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "German Kalinec",
+                    "email": "german@kalinec.net"
+                }
+            ],
+            "description": "An extremely simple content management system meant to be dropped into existing laravel projects. It makes no assumptions about users and permissions and uses as much as possible from the host's project. It has plugins to add functionality, but at it's hears it is simply meant to build pages. Initial release will also come with a Blogging plugin.",
+            "support": {
+                "issues": "https://github.com/halestar/LaravelDropInCms/issues",
+                "source": "https://github.com/halestar/LaravelDropInCms/tree/0.7.5.7"
+            },
+            "time": "2025-08-31T17:56:45+00:00"
+        },
+        {
             "name": "hamcrest/hamcrest-php",
             "version": "v2.1.1",
             "source": {
@@ -9122,6 +9277,150 @@
                 "source": "https://github.com/hamcrest/hamcrest-php/tree/v2.1.1"
             },
             "time": "2025-04-30T06:54:44+00:00"
+        },
+        {
+            "name": "intervention/gif",
+            "version": "4.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Intervention/gif.git",
+                "reference": "5999eac6a39aa760fb803bc809e8909ee67b451a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Intervention/gif/zipball/5999eac6a39aa760fb803bc809e8909ee67b451a",
+                "reference": "5999eac6a39aa760fb803bc809e8909ee67b451a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^10.0 || ^11.0  || ^12.0",
+                "slevomat/coding-standard": "~8.0",
+                "squizlabs/php_codesniffer": "^3.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Intervention\\Gif\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Vogel",
+                    "email": "oliver@intervention.io",
+                    "homepage": "https://intervention.io/"
+                }
+            ],
+            "description": "Native PHP GIF Encoder/Decoder",
+            "homepage": "https://github.com/intervention/gif",
+            "keywords": [
+                "animation",
+                "gd",
+                "gif",
+                "image"
+            ],
+            "support": {
+                "issues": "https://github.com/Intervention/gif/issues",
+                "source": "https://github.com/Intervention/gif/tree/4.2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/interventionio",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/Intervention",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/interventionphp",
+                    "type": "ko_fi"
+                }
+            ],
+            "time": "2025-03-29T07:46:21+00:00"
+        },
+        {
+            "name": "intervention/image",
+            "version": "3.11.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Intervention/image.git",
+                "reference": "8c49eb21a6d2572532d1bc425964264f3e496846"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/8c49eb21a6d2572532d1bc425964264f3e496846",
+                "reference": "8c49eb21a6d2572532d1bc425964264f3e496846",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "intervention/gif": "^4.2",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.6",
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^10.0 || ^11.0 || ^12.0",
+                "slevomat/coding-standard": "~8.0",
+                "squizlabs/php_codesniffer": "^3.8"
+            },
+            "suggest": {
+                "ext-exif": "Recommended to be able to read EXIF data properly."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Intervention\\Image\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Vogel",
+                    "email": "oliver@intervention.io",
+                    "homepage": "https://intervention.io/"
+                }
+            ],
+            "description": "PHP image manipulation",
+            "homepage": "https://image.intervention.io/",
+            "keywords": [
+                "gd",
+                "image",
+                "imagick",
+                "resize",
+                "thumbnail",
+                "watermark"
+            ],
+            "support": {
+                "issues": "https://github.com/Intervention/image/issues",
+                "source": "https://github.com/Intervention/image/tree/3.11.4"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/interventionio",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/Intervention",
+                    "type": "github"
+                },
+                {
+                    "url": "https://ko-fi.com/interventionphp",
+                    "type": "ko_fi"
+                }
+            ],
+            "time": "2025-07-30T13:13:19+00:00"
         },
         {
             "name": "laravel/pail",
@@ -9267,6 +9566,84 @@
                 "source": "https://github.com/laravel/pint"
             },
             "time": "2025-09-19T02:57:12+00:00"
+        },
+        {
+            "name": "maennchen/zipstream-php",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maennchen/ZipStream-PHP.git",
+                "reference": "9712d8fa4cdf9240380b01eb4be55ad8dcf71416"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/9712d8fa4cdf9240380b01eb4be55ad8dcf71416",
+                "reference": "9712d8fa4cdf9240380b01eb4be55ad8dcf71416",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-zlib": "*",
+                "php-64bit": "^8.3"
+            },
+            "require-dev": {
+                "brianium/paratest": "^7.7",
+                "ext-zip": "*",
+                "friendsofphp/php-cs-fixer": "^3.16",
+                "guzzlehttp/guzzle": "^7.5",
+                "mikey179/vfsstream": "^1.6",
+                "php-coveralls/php-coveralls": "^2.5",
+                "phpunit/phpunit": "^12.0",
+                "vimeo/psalm": "^6.0"
+            },
+            "suggest": {
+                "guzzlehttp/psr7": "^2.4",
+                "psr/http-message": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZipStream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Duncan",
+                    "email": "pabs@pablotron.org"
+                },
+                {
+                    "name": "Jonatan Männchen",
+                    "email": "jonatan@maennchen.ch"
+                },
+                {
+                    "name": "Jesse Donat",
+                    "email": "donatj@gmail.com"
+                },
+                {
+                    "name": "András Kolesár",
+                    "email": "kolesar@kolesar.hu"
+                }
+            ],
+            "description": "ZipStream is a library for dynamically streaming dynamic zip files from PHP without writing to the disk at all on the server.",
+            "keywords": [
+                "stream",
+                "zip"
+            ],
+            "support": {
+                "issues": "https://github.com/maennchen/ZipStream-PHP/issues",
+                "source": "https://github.com/maennchen/ZipStream-PHP/tree/3.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/maennchen",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-07-17T11:15:13+00:00"
         },
         {
             "name": "mockery/mockery",

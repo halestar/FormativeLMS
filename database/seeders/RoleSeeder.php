@@ -26,10 +26,7 @@ class RoleSeeder extends Seeder
 					'school.emails',
 					'settings.integrators',
 					'system.ai',
-				],
-			"CRUD Editor" =>
-				[
-					'crud'
+					'system.tables'
 				],
 			"Impersonator" =>
 				[

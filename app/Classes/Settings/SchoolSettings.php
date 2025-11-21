@@ -4,13 +4,14 @@ namespace App\Classes\Settings;
 
 use App\Casts\Utilities\SystemSettings\SchoolNames;
 use App\Classes\Days;
+use App\Models\Integrations\IntegrationConnection;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 
 class SchoolSettings extends SystemSetting
 {
-	public const TERM = 1;
-	public const YEAR = 2;
+	public const int TERM = 1;
+	public const int YEAR = 2;
 	protected static string $settingKey = "school";
 	
 	protected static function defaultValue(): array
@@ -24,6 +25,8 @@ class SchoolSettings extends SystemSetting
 				"employeeName" => [],
 				"parentName" => [],
                 "rubrics_max_points" => 5,
+				"force_class_management" => true,
+				"class_management_connection_id" => null,
 			];
 	}
 	
@@ -46,6 +49,34 @@ class SchoolSettings extends SystemSetting
     {
         return $this->basicProperty('rubrics_max_points');
     }
+
+	public function forceClassManagement(): Attribute
+	{
+		return $this->basicProperty('force_class_management');
+	}
+
+	public function classManagementConnectionId(): Attribute
+	{
+		return $this->basicProperty('class_management_connection_id');
+	}
+
+	public function classManagementConnection(): Attribute
+	{
+		return Attribute::make
+		(
+			get: function(mixed $value, array $attributes)
+			{
+				$connectionId = $this->getValue($attributes['value'], 'class_management_connection_id', null);
+				if(!$connectionId) return null;
+				return IntegrationConnection::find($connectionId);
+			},
+			set: function(mixed $value, array $attributes)
+			{
+				if($value instanceof IntegrationConnection)
+					$this->updateValue($attributes['value'], 'class_management_connection_id', $value->id);
+			}
+		);
+	}
 	
 	public function maxMsg(): Attribute
 	{
@@ -55,6 +86,8 @@ class SchoolSettings extends SystemSetting
 			set: fn(mixed $value, array $attributes) => $this->updateValue($attributes['value'], 'max_msg', $value),
 		);
 	}
+
+
 	
 	public function yearMessages(): Attribute
 	{

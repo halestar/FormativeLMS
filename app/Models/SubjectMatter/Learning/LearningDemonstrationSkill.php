@@ -12,7 +12,7 @@ class LearningDemonstrationSkill extends Pivot implements HasRubric
 {
 	use HasUuids;
 	public $timestamps = false;
-	protected $table = "learning_demonstration_skill";
+	protected $table = "learning_demonstration_skills";
 	public $incrementing = false;
 	protected $primaryKey = "id";
 	protected $keyType = 'string';
@@ -21,14 +21,19 @@ class LearningDemonstrationSkill extends Pivot implements HasRubric
 	{
 		return $this->belongsTo(LearningDemonstration::class, 'demonstration_id');
 	}
+
 	public function skill(): BelongsTo
 	{
 		return $this->belongsTo($this->skillable_type, 'skill_id');
 	}
-	
+
 	protected function casts()
 	{
-		return ['rubric' => Rubric::class];
+		return
+			[
+				'rubric' => Rubric::class,
+				'weight' => 'float',
+			];
 	}
 	
 	public function getRubric(): ?Rubric
@@ -55,5 +60,4 @@ class LearningDemonstrationSkill extends Pivot implements HasRubric
 	{
 		return $this->skill->name;
 	}
-	
 }

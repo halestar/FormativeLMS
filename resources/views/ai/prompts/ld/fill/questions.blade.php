@@ -6,7 +6,7 @@
             [TYPE: {{ \App\Classes\Learning\DemonstrationQuestion::typeOptions()[$question['type']] }}]
             @if($question['type'] == \App\Classes\Learning\DemonstrationQuestion::TYPE_MULTIPLE ||
                 $question['type'] == \App\Classes\Learning\DemonstrationQuestion::TYPE_CHOICE)
-                Choices: {!! implode(', ', $question['choices']) !!}
+                Choices: {!! implode(', ', ($question['options']?? [])) !!}
             @endif
         </li>
     @endforeach

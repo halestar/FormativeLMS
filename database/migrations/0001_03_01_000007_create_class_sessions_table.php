@@ -37,6 +37,12 @@ return new class extends Migration
 			      ->references('id')
 			      ->on('blocks')
 			      ->nullOnDelete();
+			$table->uuid('class_management_id')
+				->nullable();
+			$table->foreign('class_management_id')
+				->references('id')
+				->on('integration_connections')
+				->nullOnDelete();
 			$table->json('layout')
 			      ->nullable();
 			$table->boolean('setup_completed')->default(false);

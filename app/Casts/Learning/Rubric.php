@@ -235,4 +235,9 @@ class Rubric implements CastsAttributes, Arrayable, JsonSerializable
 	{
 		return count($this->points);
 	}
+
+	public function createAssessment(): RubricAssessment
+	{
+		return new RubricAssessment($this);
+	}
 }

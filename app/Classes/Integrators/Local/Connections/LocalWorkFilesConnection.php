@@ -76,4 +76,28 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 		return Storage::disk($this->service->data->work_disk)
 		              ->get($file->path);
 	}
+
+	public function copyWorkFile(WorkFile $file, Fileable $destination): WorkFile
+	{
+		//generate a md5 name for the file.
+		$fpath = $destination->getWorkStorageKey()->value . "/" . uniqid() . '.' . $file->extension;
+		//persist the file.
+		$path = Storage::disk($this->service->data->work_disk)
+		               ->put($fpath, $file->contents());
+		//create the WorkFile
+		$workFile = new WorkFile();
+		$workFile->name = $file->name;
+		$workFile->connection_id = $this->id;
+		$workFile->path = $fpath;
+		$workFile->mime = $file->mime;
+		$workFile->size = $file->size;
+		$workFile->extension = $file->extension;
+		$workFile->invisible = $file->invisible;
+		$workFile->public = $destination->shouldBePublic();
+		$workFile->save();
+		//finally, we link the file
+		$destination->workFiles()
+		         ->attach($workFile);
+		return $workFile;
+	}
 }

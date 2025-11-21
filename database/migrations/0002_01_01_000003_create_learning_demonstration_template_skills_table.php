@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('learning_demonstration_template_skill', function (Blueprint $table)
+        Schema::create('learning_demonstration_template_skills', function (Blueprint $table)
         {
 			$table->uuid('id')->primary();
             $table->foreignUuid('template_id')->constrained('learning_demonstration_templates')->cascadeOnDelete();
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('learning_demonstration_template_skill');
+        Schema::dropIfExists('learning_demonstration_template_skills');
     }
 };

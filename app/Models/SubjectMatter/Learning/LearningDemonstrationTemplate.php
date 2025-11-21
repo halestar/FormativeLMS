@@ -19,6 +19,7 @@ use App\Models\Scopes\OrdeByNameScope;
 use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\SubjectMatter\Course;
 use App\Models\Utilities\WorkFile;
+use App\Traits\HasWorkFiles;
 use App\Traits\IsAiPromptable;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
@@ -35,7 +36,7 @@ use Illuminate\Support\Facades\Log;
 #[ScopedBy(OrdeByNameScope::class)]
 class LearningDemonstrationTemplate extends Model implements Fileable, AiPromptable
 {
-	use HasUuids, isAiPromptable;
+	use HasUuids, isAiPromptable, HasWorkFiles;
 	public $timestamps = true;
 	public $incrementing = false;
 	protected $table = "learning_demonstration_templates";
@@ -67,11 +68,6 @@ class LearningDemonstrationTemplate extends Model implements Fileable, AiPrompta
 				'share_submissions' => 'boolean',
 				'shareable' => 'boolean',
 			];
-	}
-	
-	public function workFiles(): MorphToMany|BelongsToMany
-	{
-		return $this->morphToMany(WorkFile::class, 'fileable');
 	}
 	
 	public function getWorkStorageKey(): WorkStoragesInstances
@@ -116,7 +112,7 @@ class LearningDemonstrationTemplate extends Model implements Fileable, AiPrompta
 	
 	public function skills(): BelongsToMany
 	{
-		return $this->belongsToMany(Skill::class, 'learning_demonstration_template_skill',
+		return $this->belongsToMany(Skill::class, 'learning_demonstration_template_skills',
 			'template_id', 'skill_id')
 			->withPivot(['rubric', 'weight', 'id'])
 			->as('assessment')
@@ -246,8 +242,16 @@ class LearningDemonstrationTemplate extends Model implements Fileable, AiPrompta
 		    {
 			    //attempt match
 			    $matches = [];
-			    if(preg_match('/QUESTION:\s*(.*),\s*TYPE:\s*(\d)\s*,\s*OPTIONS:\s*\[(.*)]$/', $line, $matches))
-				    $questions[] = ['question' => $matches[1], 'type' => $matches[2], 'options' => explode(',', $matches[3])];
+			    if(preg_match('/QUESTION:\s*(.*)[,]?\s*TYPE:\s*(\d)(\s*[,]?\s*OPTIONS:\s*\[(.*)]\s*)?$/', $line, $matches))
+			    {
+					if($matches[2] != DemonstrationQuestion::TYPE_MULTIPLE && $matches[2] != DemonstrationQuestion::TYPE_CHOICE)
+				        $questions[] = ['question' => $matches[1], 'type' => $matches[2], 'options' => []];
+					else
+					{
+						$options = explode(',', $matches[4]);
+						$questions[] = ['question' => $matches[1], 'type' => $matches[2], 'options' => $options];
+					}
+			    }
 		    }
 		    return Blade::render('ai.prompts.ld.fill.questions', ['questions' => $questions, 'prompt' => $prompt]);
 	    }
@@ -308,13 +312,13 @@ class LearningDemonstrationTemplate extends Model implements Fileable, AiPrompta
 		    {
 			    //attempt match
 			    $matches = [];
-			    if(preg_match('/QUESTION:\s*(.*),\s*TYPE:\s*(\d)\s*,\s*OPTIONS:\s*\[(.*)]$/', $line, $matches))
+			    if(preg_match('/QUESTION:\s*(.*)[,]?\s*TYPE:\s*(\d)(\s*[,]?\s*OPTIONS:\s*\[(.*)]\s*)?$/', $line, $matches))
 			    {
 				    $questions[] = DemonstrationQuestion::hydrate(
 				    [
 					    'question' => $matches[1],
 					    'type' => $matches[2],
-					    'options' => explode(',', $matches[3])
+					    'options' => explode(',', $matches[4]?? '')?? []
 				    ]);
 			    }
 		    }

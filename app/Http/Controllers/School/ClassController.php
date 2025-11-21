@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\School;
 
+use App\Classes\Settings\SchoolSettings;
+use App\Enums\ClassViewer;
 use App\Http\Controllers\Controller;
 use App\Models\SubjectMatter\ClassSession;
 use App\Models\SubjectMatter\Components\ClassMessage;
@@ -20,10 +22,10 @@ class ClassController extends Controller implements HasMiddleware
 		return ['auth'];
 	}
 	
-	public function show(ClassSession $classSession)
+	public function show(ClassSession $classSession, SchoolSettings $schoolSettings)
 	{
+		//authorize that we can be here first.
 		Gate::authorize('view', $classSession);
-		$breadcrumb = [$classSession->name => "#"];
 		//mark all notifications for this class.
 		$user = Auth::user();
 		foreach($user->unreadNotifications as $notification)
@@ -33,7 +35,15 @@ class ClassController extends Controller implements HasMiddleware
 				$notification->data['session_id'] == $classSession->id)
 				$notification->markAsRead();
 		}
-		return view('school.class.show', compact('classSession', 'breadcrumb'));
+		//finally, determine the viewing type in this scenario.
+		$viewingAs = ClassViewer::determineType($user, $classSession);
+		//next, we pull the settings to get the class management connections
+		//in this case, we'll force the user to go to the system's class management.
+		if($schoolSettings->force_class_management)
+			return $schoolSettings->classManagementConnection->manageClass($user, $classSession, $viewingAs);
+		else //in this case, we use the user's preferences
+			return $user->classManagementSystem()->manageClass($user, $classSession, $viewingAs);
+
 	}
 	
 	public function classMessages(Request $request)

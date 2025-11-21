@@ -70,7 +70,7 @@
                                                 x-show="!menuExpanded"
                                         >
                                             <img
-                                                    src="{{ asset($integrator::$serviceIcons[$service->service_type->value]) }}"
+                                                    src="{{ asset($service->service_type->icons()) }}"
                                                     alt="{{ $service->name }}"
                                                     class="img-fluid img-icon-tiny rounded"
                                             />

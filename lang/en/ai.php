@@ -36,7 +36,7 @@ return
 		'system' => 'AI System',
 		'thinking' => 'Thinking...',
         'prompt.ld.templates.skills' => 'Suggest Learning Demonstration Skills',
-        'prompt.ld.templates.demonstration' => 'Suggest Learning Demonstration',
+        'prompt.ld.templates.demonstration' => 'Suggest Learning Objective',
 		'prompt.ld.templates.skills.reason' => 'Reason Skill was Suggested',
 		'prompt.ld.templates.links' => 'Suggest Links',
 		'prompt.ld.templates.questions' => 'Suggest Guiding Questions',

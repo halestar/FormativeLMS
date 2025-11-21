@@ -46,5 +46,13 @@ abstract class WorkFilesConnection extends IntegrationConnection implements Inte
 	 * @return string|null The contents of the file, null if there is an error.
 	 */
 	abstract public function fileContents(WorkFile $file): ?string;
+
+	/**
+	 * This function will copy a persisted work file from one fileable object to this one.
+	 * How the file is copied is left to the integrator class.
+	 * @param WorkFile $file The file to copy.
+	 * @return WorkFile Returns the new file created.
+	 */
+	abstract public function copyWorkFile(WorkFile $file, Fileable $destination): WorkFile;
 	
 }

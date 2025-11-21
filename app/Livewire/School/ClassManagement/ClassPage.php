@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire\School;
+namespace App\Livewire\School\ClassManagement;
 
 use App\Classes\ClassManagement\ClassSessionLayoutManager;
 use App\Classes\ClassManagement\ClassTab;

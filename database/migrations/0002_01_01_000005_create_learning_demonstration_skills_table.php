@@ -11,13 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('learning_demonstration_class_session', function (Blueprint $table) {
-			$table->id();
+        Schema::create('learning_demonstration_skills', function (Blueprint $table)
+        {
+	        $table->uuid('id')->primary();
 	        $table->foreignUuid('demonstration_id')->constrained('learning_demonstrations')->cascadeOnDelete();
-			$table->foreignId('session_id')->constrained('class_sessions')->cascadeOnDelete();
-	        $table->unique(['demonstration_id', 'session_id'], 'ls_session_demonstration_unique');
-			$table->dateTime('posted_on');
-			$table->dateTime('due_on');
+	        $table->foreignId('skill_id')->constrained('skills')->cascadeOnDelete();
+	        $table->json('rubric')->nullable();
+	        $table->float('weight')->default(1);
         });
     }
 
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('learning_demonstration_class_session');
+        Schema::dropIfExists('learning_demonstration_skills');
     }
 };
