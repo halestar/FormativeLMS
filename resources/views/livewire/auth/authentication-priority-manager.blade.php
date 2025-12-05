@@ -25,11 +25,11 @@
                                             class="form-select"
                                             wire:change="updateAuthentication(0, ($event.target.value === 'choose'? $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get(): $event.target.value))"
                                     >
-                                        <option value="">{{ __('settings.auth.priorities.modules.select') }}</option>
+                                        <option value="">{{ __('auth.block') }}</option>
                                         @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
                                             <option
                                                     value="{{ $service->id }}"
-                                                    @selected(!$priorities[0]->isChoice() && $priorities[0]->services->id == $service->id)
+                                                    @selected($priorities[0]->services && !$priorities[0]->isChoice() && $priorities[0]->services->id == $service->id)
                                             >{{ $service->name }}</option>
                                         @endforeach
                                         <option
@@ -81,8 +81,8 @@
                     class="list-group-item">
                     <div class="row align-items-center">
                         <div class="col-1">
-                    <span wire:sortable.handle class="show-as-grab me-2 display-1"><i
-                                class="fa-solid fa-grip-lines-vertical"></i></span>
+                            <span wire:sortable.handle class="show-as-grab me-2 display-1"><i
+                                        class="fa-solid fa-grip-lines-vertical"></i></span>
                         </div>
                         <div class="col-10">
                             <div class="row align-content-start border-bottom mb-2">
@@ -104,15 +104,17 @@
                                         </select>
                                     </div>
                                     <div class="alert alert-info p-3">
-                                        @foreach($priority->roles as $roleId => $role)
+                                        @forelse($priority->roles as $roleId => $role)
                                             <span class="badge text-bg-primary mx-2 p-2 show-as-action align-items-center">
-                                        {{ $role }}
-                                        <span
-                                                class="mx-1 border-start ps-2"
-                                                wire:click="removeRoleFromPriority({{$priority->priority}}, {{ $roleId }})"
-                                        ><i class="text-danger fs-6 fa fa-times"></i></span>
-                                    </span>
-                                        @endforeach
+                                                {{ $role }}
+                                                <span
+                                                        class="mx-1 border-start ps-2"
+                                                        wire:click="removeRoleFromPriority({{$priority->priority}}, {{ $roleId }})"
+                                                ><i class="text-danger fs-6 fa fa-times"></i></span>
+                                            </span>
+                                        @empty
+                                            <h4>{{ __('auth.roles.min') }}</h4>
+                                        @endforelse
                                     </div>
                                 </div>
                                 <div class="col">
@@ -120,13 +122,13 @@
                                         <span class="input-group-text">{{ __('settings.auth.priorities.modules.use') }}</span>
                                         <select
                                                 class="form-select"
-                                                wire:change="updateAuthentication({{ $priority->priority }}, ($event.target.value === 'choose'? $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get(): $event.target.value))"
+                                                wire:change="updateAuthentication({{ $priority->priority }}, ($event.target.value === 'choose'? []: $event.target.value))"
                                         >
-                                            <option value="">{{ __('settings.auth.priorities.modules.select') }}</option>
+                                            <option value="">{{ __('auth.block') }}</option>
                                             @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
                                                 <option
                                                         value="{{ $service->id }}"
-                                                        @selected(!$priority->isChoice() && $priority->services->id == $service->id)
+                                                        @selected($priority->services && !$priority->isChoice() && $priority->services->id == $service->id)
                                                 >{{ $service->name }}</option>
                                             @endforeach
                                             <option
@@ -146,8 +148,8 @@
                                                                 name="choose_auth_{{ $priority->priority }}"
                                                                 id="choose_auth_{{ $priority->priority }}_{{ $service->id }}"
                                                                 value="{{ $service->id }}"
-                                                                @checked($priorities[0]->services->where('id', '=', $service->id)->count() > 0)
-                                                                wire:click="updateAuthentication({{ $priority->priority }}, $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get())"
+                                                                @checked($priority->services->where('id', '=', $service->id)->count() > 0)
+                                                                wire:click="updateAuthentication({{ $priority->priority }}, $('input[name=choose_auth_{{ $priority->priority }}]:checked').map((i, e) => $(e).val()).get())"
                                                         >
                                                         <label class="form-check-label"
                                                                for="choose_auth_{{ $priority->priority }}_{{ $service->id }}">
@@ -217,11 +219,13 @@
                 {{ __('settings.auth.priorities.default') }}: {{ __('settings.auth.priorities.default.help') }}
             </h5>
             <h6>
-                @if($priority->isChoice())
-                    [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priority->prettyServices()]) }}
+                @if($priorities[0]->isChoice())
+                    [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priorities[0]->prettyServices()]) }}
                     ]
+                @elseif($priorities[0]->services == null)
+                    <span class="fw-bold">{{ __('auth.block') }}</span>
                 @else
-                    [ {{ __('settings.auth.priorities.modules.description', ['module' => $priority->prettyServices()]) }}
+                    [ {{ __('settings.auth.priorities.modules.description', ['module' => $priorities[0]->prettyServices()]) }}
                     ]
                 @endif
             </h6>

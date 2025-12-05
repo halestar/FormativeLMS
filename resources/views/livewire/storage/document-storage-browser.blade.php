@@ -9,11 +9,11 @@
             <div class="modal-body mw-100 position-relative">
                 @if(count($tabs) > 0)
                     <ul class="nav nav-tabs">
-                        @foreach($tabs as $service_id => $service)
+                        @foreach($tabs as $connection_id => $service)
                             <li class="nav-item">
-                                <button class="nav-link {{ $selectedService == $service_id? 'active': '' }}"
-                                        type="button" wire:click="setTab('{{ $service_id }}')">
-                                    @if($service_id == 0)
+                                <button class="nav-link {{ $selectedConnection == $connection_id? 'active': '' }}"
+                                        type="button" wire:click="setTab('{{ $connection_id }}')">
+                                    @if($connection_id == "file-upload")
                                         {{ trans_choice('storage.documents.file.upload', ($multiple? 2: 1)) }}
                                     @else
                                         {{ $service }}
@@ -28,7 +28,7 @@
                                 tabindex="-1"
                                 style="height: 600px;"
                         >
-                            @if($allowUpload && $selectedService == 0)
+                            @if($allowUpload && $selectedConnection == "file-upload")
                                 <div
                                         x-data="{dragging: false, uploading: false, progress: 0, ul_error: false}"
                                         @dragenter="dragging = true"
@@ -72,11 +72,11 @@
                                 </div>
                             @else
                                 <livewire:storage.document-file-browser
-                                        :connection="$connections['' . $selectedService]"
+                                        :connection="$connections[$selectedConnection]"
                                         :multiple="$multiple"
                                         :canSelectFolders="$canSelectFolders"
                                         :mimeTypes="$mimeTypes"
-                                        wire:key="{{ $selectedService . $browserKey }}"
+                                        wire:key="{{ $connection_id . $browserKey }}"
                                 />
                             @endif
                         </div>

@@ -18,7 +18,7 @@ class SchoolIdBarcode extends IdCardElement
 		return __('people.id.barcode');
 	}
 	
-	public static function hydrate(array $data): IdCardElement
+	public static function hydrate(array $data): static
 	{
 		$barcode = new SchoolIdBarcode();
 		$barcode->colSpan = $data['colspan'];

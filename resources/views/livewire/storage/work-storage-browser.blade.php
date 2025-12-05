@@ -1,14 +1,13 @@
-<div
-        class="card text-bg-primary position-relative"
-
->
-    <div
-            class="card-header d-flex justify-content-between align-items-center"
-    >
-        <h5>{{ $title }}</h5>
+<div class="card text-bg-primary position-relative" style="height: {{ $height }}; max-height: {{ $maxHeight }};">
+    <div class="card-header d-flex justify-content-between align-items-center p-1" style="height: 45px; max-height: 45px;">
+        <h6 class="marquee-text fw-bold my-auto">
+            <span>
+            {{ $title }}
+            </span>
+        </h6>
         <button
                 type="button"
-                class="btn btn-secondary"
+                class="btn btn-secondary btn-sm ms-3"
                 wire:click="dispatch('document-storage-browser.open-browser',
                     {
                         config:
@@ -23,8 +22,8 @@
         ><i class="fa-solid fa-folder-open"></i></button>
     </div>
     <div
-            class="card-body"
-            style="min-height: 400px;"
+            class="card-body overflow-auto p-0"
+            style="height: calc(100% - 45px); max-height: calc(100% - 45px);"
             x-data="{ dragging: false, uploading: false, progress: 0, ul_error: false }"
             x-on:dragenter="dragging = true"
             x-on:dragover.prevent="dragging = true"
@@ -61,14 +60,37 @@
         @else
             <ul class="list-group list-group-flush">
                 @foreach($workFiles as $file)
-                    <li class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center" wire:key="work-file-{{ $file->id }}">
-                        <div class="flex-grow-1 text-truncate">{{ $file->name }}</div>
-                        <button
-                                type="button"
-                                class="btn btn-danger"
-                                wire:click="removeFile('{{ $file->id }}')"
-                                wire:confirm="{{ __('storage.work.file.remove.prompt') }}"
-                        ><i class="fa fa-times"></i></button>
+                    <li
+                        class="list-group-item list-group-item-primary d-flex justify-content-between align-items-center p-2 @if($loop->first) rounded-top @endif @if($loop->last) rounded-bottom @endif"
+                        wire:key="work-file-{{ $file->id }}"
+                    >
+                        <div class="flex-grow-1 text-truncate marquee-text text-start">
+                            <span>
+                                {{ $file->name }}
+                            </span>
+                        </div>
+                        <div class="btn-group btn-group-sm ms-3" role="group">
+                            @if($showDownload)
+                                <a
+                                    role="button"
+                                    class="btn btn-primary"
+                                    href="{{ $file->url }}"
+                                ><i class="fa fa-download"></i></a>
+                            @endif
+                            @if($showLinks)
+                                <button
+                                    type="button"
+                                    class="btn btn-info"
+                                    onclick="copyLink($(this), '{{ $file->url }}', {duration: 2000})"
+                                ><i class="fa fa-link"></i></button>
+                            @endif
+                            <button
+                                    type="button"
+                                    class="btn btn-danger"
+                                    wire:click="removeFile('{{ $file->id }}')"
+                                    wire:confirm="{{ __('storage.work.file.remove.prompt') }}"
+                            ><i class="fa fa-times"></i></button>
+                        </div>
                     </li>
                 @endforeach
             </ul>

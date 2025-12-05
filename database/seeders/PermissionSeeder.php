@@ -94,6 +94,7 @@ class PermissionSeeder extends Seeder
 				[
 					['name' => 'school.tracker', 'description' => "Ability to be a tracker for a student"],
 					['name' => 'school.tracker.admin', 'description' => "Ability to assign trackers to students"],
+					['name' => 'school.settings', 'description' => "Ability to edit school settings"],
 				],
 			'System' =>
 				[

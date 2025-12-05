@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Classes\Days;
+use App\Classes\Settings\Days;
 use App\Models\Locations\Campus;
 use App\Models\Schedules\Period;
 use Illuminate\Database\Seeder;

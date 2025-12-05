@@ -12,13 +12,11 @@ class SessionSettings
 {
 	private const SETTING_KEY = 'session_settings_';
 	public static SessionSettings $instance;
-	private Person $person;
 	private string $sessionKey;
 	private array $settings = [];
 	
 	private function __construct(Person $person)
 	{
-		$this->person = $person;
 		$this->sessionKey = self::SETTING_KEY . $person->id;
 		$this->settings = session($this->sessionKey, []);
 		//there are some variables we can preset

@@ -22,6 +22,9 @@ return new class extends Migration
 			      ->references('id')
 			      ->on('integration_connections')
 			      ->onDelete('set null');
+			$table->bigInteger('fileable_id')->nullable();
+			$table->uuid('fileable_uuid')->nullable();
+			$table->string('fileable_type')->nullable();
 			$table->string('path');
 			$table->string('mime');
 			$table->string('size');

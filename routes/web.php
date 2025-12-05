@@ -76,16 +76,6 @@ Route::get('/ai/prompt/{aiPrompt}', \App\Livewire\Ai\EditModelPrompt::class)
 Route::get('/home', [HomeController::class, 'index'])
      ->name('home');
 
-/********************************************************************
- * CMS ADMIN ROUTES
- */
-Route::prefix('cms')
-     ->middleware(['can:cms', 'auth'])
-     ->group(function()
-     {
-	     \halestar\LaravelDropInCms\DiCMS::adminRoutes();
-     });
-
 
 //settings
 Route::post('/settings', [\App\Http\Controllers\Settings\SchoolSettingsController::class, 'setSessionSetting']);

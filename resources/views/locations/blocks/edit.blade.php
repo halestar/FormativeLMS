@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="d-flex mb-3 justify-content-center">
-                @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                     <div class="mx-2">
                         <label for="day-select-{{ $dayId }}" class="form-label">{{ $dayName }}</label>
                         <select

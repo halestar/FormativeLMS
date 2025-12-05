@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\Settings\SchoolSettingsController;
 use App\Http\Controllers\Settings\SystemTablesController;
-use App\Livewire\Utilities\SchoolEmailsEditor;
+use App\Livewire\Utilities\SchoolMessageEditor;
 use Illuminate\Support\Facades\Route;
 
 /********************************************************************
@@ -32,10 +32,13 @@ Route::patch('/school/settings/auth', [SchoolSettingsController::class, 'updateA
      ->name('school.update.auth');
 Route::patch('/school/settings/storage', [SchoolSettingsController::class, 'updateStorage'])
      ->name('school.update.storage');
+Route::patch('/school/settings/communications', [SchoolSettingsController::class, 'updateCommunications'])
+    ->name('school.update.communications');
+
 Route::get('/school/settings/name/{role}', [SchoolSettingsController::class, 'nameCreator'])
      ->name('school.name');
-Route::get('/school/settings/emails', SchoolEmailsEditor::class)
-     ->name('school.emails')
+Route::get('/school/settings/messages/{message}', SchoolMessageEditor::class)
+     ->name('school.messages')
      ->middleware('can:school.emails');
 
 //storage settings

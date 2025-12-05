@@ -15423,6 +15423,289 @@ h3.class-announcements-title, .class-announcements-title.h3 {
   margin-bottom: 0.5em;
 }
 
+.lms-tooltip {
+  min-width: 75px;
+  max-width: 250px;
+  text-align: center;
+  border-radius: 10%;
+  border-width: 0;
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 1;
+  box-shadow: var(--bs-box-shadow);
+  display: flex;
+}
+
+.lms-tooltip-text {
+  flex-grow: 1;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.lms-tooltip-end {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 120%;
+}
+
+.lms-tooltip-end::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+}
+
+.lms-tooltip-start {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 120%;
+}
+
+.lms-tooltip-start::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+}
+
+.lms-tooltip-top {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lms-tooltip-top::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.lms-tooltip-bottom {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lms-tooltip-bottom::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.lms-tooltip-primary {
+  color: var(--bs-primary-text-emphasis);
+  background-color: var(--bs-primary-bg-subtle);
+}
+
+.lms-tooltip-primary::after {
+  border-width: 7px;
+  border-style: solid;
+}
+
+.lms-tooltip-primary.lms-tooltip-end::after {
+  border-color: transparent var(--bs-primary-bg-subtle) transparent transparent;
+}
+
+.lms-tooltip-primary.lms-tooltip-start::after {
+  border-color: transparent transparent transparent var(--bs-primary-bg-subtle);
+}
+
+.lms-tooltip-primary.lms-tooltip-top::after {
+  border-color: var(--bs-primary-bg-subtle) transparent transparent transparent;
+}
+
+.lms-tooltip-primary.lms-tooltip-bottom::after {
+  border-color: transparent transparent var(--bs-primary-bg-subtle) transparent;
+}
+
+.lms-tooltip-secondary {
+  color: var(--bs-secondary-text-emphasis);
+  background-color: var(--bs-secondary-bg-subtle);
+}
+
+.lms-tooltip-secondary::after {
+  border-width: 7px;
+  border-style: solid;
+}
+
+.lms-tooltip-secondary.lms-tooltip-end::after {
+  border-color: transparent var(--bs-secondary-bg-subtle) transparent transparent;
+}
+
+.lms-tooltip-secondary.lms-tooltip-start::after {
+  border-color: transparent transparent transparent var(--bs-secondary-bg-subtle);
+}
+
+.lms-tooltip-secondary.lms-tooltip-top::after {
+  border-color: var(--bs-secondary-bg-subtle) transparent transparent transparent;
+}
+
+.lms-tooltip-secondary.lms-tooltip-bottom::after {
+  border-color: transparent transparent var(--bs-secondary-bg-subtle) transparent;
+}
+
+.lms-tooltip-success {
+  color: var(--bs-success-text-emphasis);
+  background-color: var(--bs-success-bg-subtle);
+}
+
+.lms-tooltip-success::after {
+  border-width: 7px;
+  border-style: solid;
+}
+
+.lms-tooltip-success.lms-tooltip-end::after {
+  border-color: transparent var(--bs-success-bg-subtle) transparent transparent;
+}
+
+.lms-tooltip-success.lms-tooltip-start::after {
+  border-color: transparent transparent transparent var(--bs-success-bg-subtle);
+}
+
+.lms-tooltip-success.lms-tooltip-top::after {
+  border-color: var(--bs-success-bg-subtle) transparent transparent transparent;
+}
+
+.lms-tooltip-success.lms-tooltip-bottom::after {
+  border-color: transparent transparent var(--bs-success-bg-subtle) transparent;
+}
+
+.lms-tooltip-info {
+  color: var(--bs-info-text-emphasis);
+  background-color: var(--bs-info-bg-subtle);
+}
+
+.lms-tooltip-info::after {
+  border-width: 7px;
+  border-style: solid;
+}
+
+.lms-tooltip-info.lms-tooltip-end::after {
+  border-color: transparent var(--bs-info-bg-subtle) transparent transparent;
+}
+
+.lms-tooltip-info.lms-tooltip-start::after {
+  border-color: transparent transparent transparent var(--bs-info-bg-subtle);
+}
+
+.lms-tooltip-info.lms-tooltip-top::after {
+  border-color: var(--bs-info-bg-subtle) transparent transparent transparent;
+}
+
+.lms-tooltip-info.lms-tooltip-bottom::after {
+  border-color: transparent transparent var(--bs-info-bg-subtle) transparent;
+}
+
+.lms-tooltip-warning {
+  color: var(--bs-warning-text-emphasis);
+  background-color: var(--bs-warning-bg-subtle);
+}
+
+.lms-tooltip-warning::after {
+  border-width: 7px;
+  border-style: solid;
+}
+
+.lms-tooltip-warning.lms-tooltip-end::after {
+  border-color: transparent var(--bs-warning-bg-subtle) transparent transparent;
+}
+
+.lms-tooltip-warning.lms-tooltip-start::after {
+  border-color: transparent transparent transparent var(--bs-warning-bg-subtle);
+}
+
+.lms-tooltip-warning.lms-tooltip-top::after {
+  border-color: var(--bs-warning-bg-subtle) transparent transparent transparent;
+}
+
+.lms-tooltip-warning.lms-tooltip-bottom::after {
+  border-color: transparent transparent var(--bs-warning-bg-subtle) transparent;
+}
+
+.lms-tooltip-danger {
+  color: var(--bs-danger-text-emphasis);
+  background-color: var(--bs-danger-bg-subtle);
+}
+
+.lms-tooltip-danger::after {
+  border-width: 7px;
+  border-style: solid;
+}
+
+.lms-tooltip-danger.lms-tooltip-end::after {
+  border-color: transparent var(--bs-danger-bg-subtle) transparent transparent;
+}
+
+.lms-tooltip-danger.lms-tooltip-start::after {
+  border-color: transparent transparent transparent var(--bs-danger-bg-subtle);
+}
+
+.lms-tooltip-danger.lms-tooltip-top::after {
+  border-color: var(--bs-danger-bg-subtle) transparent transparent transparent;
+}
+
+.lms-tooltip-danger.lms-tooltip-bottom::after {
+  border-color: transparent transparent var(--bs-danger-bg-subtle) transparent;
+}
+
+.lms-tooltip-light {
+  color: var(--bs-light-text-emphasis);
+  background-color: var(--bs-light-bg-subtle);
+}
+
+.lms-tooltip-light::after {
+  border-width: 7px;
+  border-style: solid;
+}
+
+.lms-tooltip-light.lms-tooltip-end::after {
+  border-color: transparent var(--bs-light-bg-subtle) transparent transparent;
+}
+
+.lms-tooltip-light.lms-tooltip-start::after {
+  border-color: transparent transparent transparent var(--bs-light-bg-subtle);
+}
+
+.lms-tooltip-light.lms-tooltip-top::after {
+  border-color: var(--bs-light-bg-subtle) transparent transparent transparent;
+}
+
+.lms-tooltip-light.lms-tooltip-bottom::after {
+  border-color: transparent transparent var(--bs-light-bg-subtle) transparent;
+}
+
+.lms-tooltip-dark {
+  color: var(--bs-dark-text-emphasis);
+  background-color: var(--bs-dark-bg-subtle);
+}
+
+.lms-tooltip-dark::after {
+  border-width: 7px;
+  border-style: solid;
+}
+
+.lms-tooltip-dark.lms-tooltip-end::after {
+  border-color: transparent var(--bs-dark-bg-subtle) transparent transparent;
+}
+
+.lms-tooltip-dark.lms-tooltip-start::after {
+  border-color: transparent transparent transparent var(--bs-dark-bg-subtle);
+}
+
+.lms-tooltip-dark.lms-tooltip-top::after {
+  border-color: var(--bs-dark-bg-subtle) transparent transparent transparent;
+}
+
+.lms-tooltip-dark.lms-tooltip-bottom::after {
+  border-color: transparent transparent var(--bs-dark-bg-subtle) transparent;
+}
+
 .count-message {
   margin-top: -20px;
   margin-right: 5px;
@@ -15893,8 +16176,23 @@ select[multiple] {
   width: 16px;
   height: 16px;
   display: inline-block;
-  margin-right: 5px;
   border: 1px solid black;
+}
+
+.chat-header {
+  height: 55px;
+  max-height: 55px;
+  min-height: 55px;
+  width: 100%;
+}
+
+.message-container {
+  flex: 1;
+  overflow-y: auto;
+  max-height: calc(100% - 55px);
+  height: calc(100% - 55px);
+  min-height: 0;
+  width: 100%;
 }
 
 .person-thumbnail {
@@ -15908,14 +16206,14 @@ select[multiple] {
 }
 
 .avatar-img-xl {
-  max-width: 96px;
-  max-height: 96px;
-  width: 96px;
+  max-width: 64px;
+  max-height: 64px;
+  width: 64px;
 }
 
 .avatar-list-item:nth-child(n+2):has(> .avatar-img-xl),
 .avatar-list-item:nth-child(n+2).avatar-img-xl {
-  margin-left: calc(-1 * 96px - 10px);
+  margin-left: calc(-1 * 64px - 10px);
 }
 
 .avatar-img-large {
@@ -16020,4 +16318,25 @@ select[multiple] {
   100% {
     --gradient-percent: 0% ;
   }
+}
+.shadow-inset {
+  box-shadow: inset 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.shadow-sm-inset {
+  box-shadow: inset 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.shadow-lg-inset {
+  box-shadow: inset 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+input[type=number] {
+  max-width: 75px !important;
+  text-align: center;
+}
+
+input[type=datetime-local] {
+  min-width: 200px !important;
+  max-width: 250px !important;
 }

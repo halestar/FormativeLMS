@@ -15,7 +15,7 @@ use App\Models\Ai\AiPrompt;
 use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use App\Models\People\Person;
-use App\Models\Scopes\OrdeByNameScope;
+use App\Models\Scopes\OrderByNameScope;
 use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\SubjectMatter\Course;
 use App\Models\Utilities\WorkFile;
@@ -33,7 +33,7 @@ use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Log;
 
-#[ScopedBy(OrdeByNameScope::class)]
+#[ScopedBy(OrderByNameScope::class)]
 class LearningDemonstrationTemplate extends Model implements Fileable, AiPromptable
 {
 	use HasUuids, isAiPromptable, HasWorkFiles;

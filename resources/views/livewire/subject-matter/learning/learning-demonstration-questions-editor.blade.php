@@ -1,5 +1,5 @@
 <div class="card">
-    @use('\App\Classes\Learning\DemonstrationQuestion')
+    @use('App\Classes\Learning\DemonstrationQuestion')
     <div class="card-header d-flex justify-content-between align-items-center">
         <div class="card-title">{{ __('learning.demonstrations.questions') }}</div>
         @if($canUseAI)
@@ -22,7 +22,8 @@
         <div id="questions-ai-results"></div>
         <ul class="list-group list-group-flush">
             @foreach($questions as $question)
-                <li class="list-group-item d-flex justify-content-between align-items-center" wire:key="question-{{$loop->index}}">
+                <li class="list-group-item d-flex justify-content-between align-items-center"
+                    wire:key="question-{{$loop->index}}">
                     <div class="me-3 flex-grow-1">
                         <div class="input-group mb-3">
                             <span class="input-group-text">{{ __('learning.demonstrations.questions.question') }}:</span>
@@ -51,11 +52,12 @@
                                 <h5 class="border-bottom mb-2">{{ __('learning.demonstrations.questions.options') }}</h5>
                                 <div class="d-flex flex-wrap gap-2 p-3 my-3">
                                     @foreach($question['options'] as $option)
-                                        <span class="badge bg-info" wire:key="option-{{ $loop->parent->index }}-{{ $loop->index }}">
+                                        <span class="badge bg-info"
+                                              wire:key="option-{{ $loop->parent->index }}-{{ $loop->index }}">
                                             {{ $option }}
                                             <span
-                                                class="border-start border-2 border-info ps-2 text-danger"
-                                                wire:click="removeAnswer({{$loop->parent->index}}, {{ $loop->index }})"
+                                                    class="border-start border-2 border-info ps-2 text-danger"
+                                                    wire:click="removeAnswer({{$loop->parent->index}}, {{ $loop->index }})"
                                             >
                                                 <i class="fa-solid fa-times"></i>
                                             </span>
@@ -65,10 +67,10 @@
                                 <div class="input-group">
                                     <span class="input-group-text">{{ __('learning.demonstrations.questions.options.add') }}</span>
                                     <input
-                                        type="text"
-                                        class="form-control"
-                                        id="add-answer-{{ $loop->index }}"
-                                        wire:change="addAnswer({{$loop->index}}, $event.target.value);$event.target.value = ''"
+                                            type="text"
+                                            class="form-control"
+                                            id="add-answer-{{ $loop->index }}"
+                                            wire:change="addAnswer({{$loop->index}}, $event.target.value);$event.target.value = ''"
                                     />
                                 </div>
                             </div>

@@ -3,7 +3,10 @@
 namespace App\Interfaces;
 
 use App\Enums\WorkStoragesInstances;
+use App\Observers\FileableObserver;
+use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 interface Fileable
@@ -13,7 +16,7 @@ interface Fileable
 	 * @return MorphToMany The relationships between this model and the work file models.
 	 * @see HasWorkFiles
 	 */
-	public function workFiles(): MorphToMany|BelongsToMany;
+	public function workFiles(): MorphMany;
 	
 	/**
 	 * @return WorkStoragesInstances The type of work storage that this filable uses.

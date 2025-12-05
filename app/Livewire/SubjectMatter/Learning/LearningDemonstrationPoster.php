@@ -4,6 +4,7 @@ namespace App\Livewire\SubjectMatter\Learning;
 
 use App\Classes\Learning\DemonstrationQuestion;
 use App\Classes\Learning\UrlResource;
+use App\Events\Learning\DemonstrationPostedEvent;
 use App\Models\Locations\Year;
 use App\Models\People\Person;
 use App\Models\SubjectMatter\Assessment\Skill;
@@ -188,6 +189,7 @@ class LearningDemonstrationPoster extends Component
 				$lo->student_id = $studentId;
 				$lo->posted_on = Carbon::createFromTimeString($sessionInfo['post'])->toDateTimeString();
 				$lo->due_on = Carbon::createFromTimeString($sessionInfo['due'])->toDateTimeString();
+				$lo->criteria_weight = $ldSession->criteria_weight;
 				$lo->save();
 				foreach($linkedSkills as $skillId => $skillInfo)
 				{
@@ -200,6 +202,9 @@ class LearningDemonstrationPoster extends Component
 				}
 			}
 		}
+		//finally, send the event.
+		DemonstrationPostedEvent::dispatch($learningDemonstration);
+		//and redirect to the assessment page.
 		return $this->redirect(route('learning.ld.assess', ['ld' => $learningDemonstration->id]), navigate: true);
 	}
 	

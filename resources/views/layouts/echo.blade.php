@@ -1,9 +1,9 @@
 <script>
     Echo.private('people.{{ Auth::user()->id }}')
-        .notification((notification) => {
-            if (notification.type === 'class-alert' || notification.type === 'class-message')
-                showClassNotification(notification);
-            else if (notification.type === 'new-class-message')
-                showClassMessageNotification(notification);
-        });
+        .listen('.lmsNotification', (e) => {
+            (new LmsToast(e.short_subject, e.short_body, e.action_link));
+        })
+        .listen('.classMessage', (e) => {
+            (new LmsToast(e.short_subject, e.short_body, e.action_link, LmsToast.messageToast));
+        })
 </script>

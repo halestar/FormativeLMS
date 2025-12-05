@@ -18,7 +18,7 @@ class PersonPicture extends IdCardElement
 		return "Person Picture";
 	}
 	
-	public static function hydrate(array $data): IdCardElement
+	public static function hydrate(array $data): static
 	{
 		$personPic = new PersonPicture();
 		$personPic->colSpan = $data['colspan'];

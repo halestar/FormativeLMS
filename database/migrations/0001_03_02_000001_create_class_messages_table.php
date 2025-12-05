@@ -1,5 +1,6 @@
 <?php
 
+use App\Enums\ClassViewer;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -31,9 +32,7 @@ return new class extends Migration
 			      ->on('people')
 			      ->nullOnDelete();
 			$table->text('message');
-			$table->tinyInteger('from_type')
-			      ->unsigned()
-			      ->default(0);
+			$table->enum('from_type', ClassViewer::cases());
 			
 			$table->index(['session_id', 'student_id']);
 			$table->timestamps();

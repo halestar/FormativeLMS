@@ -40,10 +40,15 @@ return [
 				'port' => env('REVERB_PORT', 443),
 				'scheme' => env('REVERB_SCHEME', 'https'),
 				'useTLS' => env('REVERB_SCHEME', 'https') === 'https',
+                'tls' =>
+                [
+                    'verify_peer' => env('APP_ENV') !== 'dev',
+                    'verify_peer_name' => env('APP_ENV') !== 'dev',
+                ],
 			],
 			'client_options' => [
-				// Guzzle client options: https://docs.guzzlephp.org/en/stable/request-options.html
-			],
+                'verify' => env('APP_ENV') !== 'dev',
+            ],
 		],
 		
 		'pusher' => [

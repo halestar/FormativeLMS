@@ -2,8 +2,11 @@
 
 namespace App\Livewire\Storage;
 
+use App\Classes\Integrators\IntegrationsManager;
 use App\Classes\Storage\DocumentFile;
 use App\Enums\IntegratorServiceTypes;
+use App\Models\Integrations\Connections\DocumentFilesConnection;
+use App\Models\Integrations\IntegrationConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\People\Person;
 use App\Models\Utilities\MimeType;
@@ -26,11 +29,11 @@ class DocumentStorageBrowser extends Component
 	public array $mimeTypes = [];
 	public bool $canSelectFolders = false;
 	public array $tabs = [];
-	public int $selectedService = -1;
+	public string $selectedConnection = "";
 	public $uploadedFiles;
 	public string $cb_instance;
 	public string $browserKey;
-	
+
 	public null|DocumentFile|array $selectedItems = null;
 	
 	#[On('document-storage-browser.open-browser')]
@@ -67,35 +70,30 @@ class DocumentStorageBrowser extends Component
 	private function init()
 	{
 		$this->user = auth()->user();
-		$services = IntegrationService::personal()
-		                              ->ofType(IntegratorServiceTypes::DOCUMENTS)
-		                              ->get();
-		$this->connections = new Collection();
+        $intManager = app(IntegrationsManager::class);
+		$connections = $intManager->personalConnections($this->user, IntegratorServiceTypes::DOCUMENTS);
+        $this->connections = collect();
 		$this->tabs = [];
-		foreach($services as $service)
-		{
-			$connection = $service->connect($this->user);
-			if($connection)
-			{
-				$this->connections[$service->id] = $connection;
-				$this->tabs[$service->id] = $connection->service->name;
-			}
-		}
+		foreach($connections as $connection)
+        {
+            $this->connections[$connection->id] = $connection;
+            $this->tabs[$connection->id] = $connection->service->name;
+        }
 		if($this->allowUpload)
-			$this->tabs['0'] = __('storage.documents.file.upload');
+			$this->tabs['file-upload'] = __('storage.documents.file.upload');
 		$array = array_keys($this->tabs);
-		$this->selectedService = reset($array);
+		$this->selectedConnection = reset($array);
 		$this->init = true;
 	}
 	
-	public function setTab(int $service_id)
+	public function setTab(string $connection_id)
 	{
-		$this->selectedService = $service_id;
+		$this->selectedConnection = $connection_id;
 		if($this->multiple)
 			$this->selectedItems = [];
 		else
 			$this->selectedItems = null;
-		//we also need to
+        $this->browserKey = uniqid();
 		$this->dispatch('document-file-browser.file-selected', selected_items: $this->selectedItems);
 		
 	}

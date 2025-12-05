@@ -8,15 +8,15 @@
                         <div class="input-group-text" wire:sortable.handle>
                             <i class="fa-solid fa-grip-lines-vertical"></i>
                         </div>
-                        @if($token->type == \App\Classes\NameToken::TYPE_BASIC_FIELD)
+                        @if($token->type == \App\Classes\People\NameToken::TYPE_BASIC_FIELD)
                             <select class="form-select form-select-sm"
                                     wire:change="updateBasicFieldName({{ $loop->index }}, $event.target.value)">
-                                @foreach(\App\Classes\NameToken::basicFields() as $field => $fieldName)
+                                @foreach(\App\Classes\People\NameToken::basicFields() as $field => $fieldName)
                                     <option
                                             value="{{ $field }}" @selected($field == $token->basicFieldName)>{{ $fieldName }}</option>
                                 @endforeach
                             </select>
-                        @elseif($token->type == \App\Classes\NameToken::TYPE_ROLE_FIELD)
+                        @elseif($token->type == \App\Classes\People\NameToken::TYPE_ROLE_FIELD)
                             <select class="form-select form-select-sm"
                                     wire:change="updateRoleField({{ $loop->index }}, $event.target.value)">
                                 @foreach($role->fields as $field)

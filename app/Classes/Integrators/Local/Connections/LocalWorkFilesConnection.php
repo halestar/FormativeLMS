@@ -17,11 +17,7 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 	{
 		return [];
 	}
-	
-	public static function getInstanceDefault(): array
-	{
-		return [];
-	}
+
 	
 	public function persistFile(Fileable $fileable, DocumentFile $file, bool $hidden = false): ?WorkFile
 	{
@@ -44,8 +40,7 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 		$workFile->public = $fileable->shouldBePublic();
 		$workFile->save();
 		//finally, we link the file
-		$fileable->workFiles()
-		         ->attach($workFile);
+		$fileable->workFiles()->save($workFile);
 		return $workFile;
 	}
 	
@@ -96,8 +91,12 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 		$workFile->public = $destination->shouldBePublic();
 		$workFile->save();
 		//finally, we link the file
-		$destination->workFiles()
-		         ->attach($workFile);
+		$destination->workFiles()->save($workFile);
 		return $workFile;
+	}
+
+	public function cleanup(): void
+	{
+		// TODO: Implement cleanup() method.
 	}
 }

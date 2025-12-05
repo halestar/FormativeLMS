@@ -60,12 +60,46 @@ let LmsToast = (function () {
             autohide: true,
             delay: 5000,
         };
+    LmsToast.messageToast =
+        {
+            fa_icon: 'fa-solid fa-message',
+            toast:
+                {
+                    classes: ''
+                },
+            toast_header:
+                {
+                    classes: 'bg-primary bg-gradient',
+                    styles:
+                        [
+                            {
+                                css: '--bs-bg-opacity',
+                                value: '0.4'
+                            }
+                        ]
+                },
+            toast_icon:
+                {
+                    classes: 'text-primary'
+                },
+            toast_title:
+                {
+                    classes: 'text-capitalize'
+                },
+            toast_body:
+                {
+                    classes: 'text-bg-light'
+                },
+            autohide: true,
+            delay: 3000,
+        };
 
 
-    function LmsToast(title, message, config = {}) {
+    function LmsToast(title, message, action_link = null, config = {}) {
         this.title = title;
         this.message = message;
         this.config = {...LmsToast.defaultToast, ...config};
+        this.action_link = action_link;
         this.showToast();
     }
 
@@ -75,9 +109,9 @@ let LmsToast = (function () {
                 element.addClass(config.classes);
             }
             if (config.hasOwnProperty('styles')) {
-                for (let i = 0; i < config.styles.length; i++) {
-                    if (config.styles[i].hasOwnProperty('css') && config.styles[i].hasOwnProperty('value')) {
-                        element.css(config.styles[i].css, config.styles[i].value);
+                for (const style of config.styles) {
+                    if (style.hasOwnProperty('css') && style.hasOwnProperty('value')) {
+                        element.css(style.css, style.value);
                     }
                 }
             }
@@ -101,6 +135,11 @@ let LmsToast = (function () {
         let toast_body = template.find('.toast-body');
         this.applyStyle(toast_body, this.config.toast_body);
         template.find('.toast-body').html(this.message);
+        if(this.action_link !== null)
+        {
+            let action_link = this.action_link;
+            template.find('.toast-body').on('click', function() { window.location.href = action_link; });
+        }
         $('#toast-container').append(template);
         if (this.config.autohide)
             template.toast({autohide: true, delay: this.config.delay}).toast('show');

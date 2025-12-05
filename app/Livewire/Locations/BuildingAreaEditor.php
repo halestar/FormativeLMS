@@ -13,7 +13,6 @@ use Livewire\Component;
 class BuildingAreaEditor extends Component
 {
 	public BuildingArea $buildingArea;
-	public SchoolArea $schoolArea;
 	public Building $building;
 	public Collection $rooms;
 	public ?Room $viewing = null;
@@ -34,7 +33,6 @@ class BuildingAreaEditor extends Component
 	public function mount(BuildingArea $area): void
 	{
 		$this->buildingArea = $area;
-		$this->schoolArea = $area->schoolArea;
 		$this->building = $area->building;
 		$this->rooms = $area->rooms;
 	}

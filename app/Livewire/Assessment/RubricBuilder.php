@@ -25,7 +25,7 @@ class RubricBuilder extends Component
 	public function mount(Skill $skill)
 	{
 		$this->skill = $skill;
-		$rubric = auth()->user()->prefs->get('rubric-builder.' . $this->skill->id, null);
+		$rubric = auth()->user()->getPreference('rubric-builder.' . $this->skill->id, null);
 		if($rubric)
 		{
 			$rubric = Rubric::hydrate($rubric);
@@ -58,7 +58,7 @@ class RubricBuilder extends Component
 	private function clearLocalSave()
 	{
 		$user = auth()->user();
-		$user->prefs->set('rubric-builder.' . $this->skill->id, null);
+		$user->setPreference('rubric-builder.' . $this->skill->id, null);
 		$user->save();
 		$this->saved = true;
 	}
@@ -79,7 +79,7 @@ class RubricBuilder extends Component
 	private function saveLocally()
 	{
 		$user = auth()->user();
-		$user->prefs->set('rubric-builder.' . $this->skill->id, $this->rubric);
+		$user->setPreference('rubric-builder.' . $this->skill->id, $this->rubric);
 		$user->save();
 		$this->saved = false;
 	}

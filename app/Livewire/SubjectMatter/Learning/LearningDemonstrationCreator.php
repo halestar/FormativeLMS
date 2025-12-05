@@ -2,6 +2,7 @@
 
 namespace App\Livewire\SubjectMatter\Learning;
 
+use App\Enums\WorkStoragesInstances;
 use App\Models\People\Person;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationTemplate;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationType;
@@ -22,6 +23,7 @@ class LearningDemonstrationCreator extends Component
 	public string $strategy = '';
 	public string $demonstration = '';
 	public array $skills = [];
+	public TemporaryFiler $filer;
 	
 	protected function rules()
 	{
@@ -54,6 +56,8 @@ class LearningDemonstrationCreator extends Component
 			$this->selectedCourseId = $this->courses->first()->id;
 		$this->demonstrationTypes = LearningDemonstrationType::all();
 		$this->type = $this->demonstrationTypes->first()->id;
+		$this->filer = TemporaryFiler::getInstance(WorkStoragesInstances::LearningDemonstrationWork);
+		$this->filer->empty();
 	}
 	
 	public function setCourse()
@@ -77,6 +81,8 @@ class LearningDemonstrationCreator extends Component
 		$ld->save();
 		if($this->strategy == 'assessment')
 			$ld->skills()->attach($this->skills);
+		if($this->strategy == 'demonstration')
+			$this->filer->transferFiles($ld);
 		return $this->redirect(route('learning.ld.post', $ld), navigate: true);
 	}
 	

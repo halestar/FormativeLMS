@@ -23,12 +23,9 @@ class ClassCriteriaManager extends Component
 	public Collection $importClasses;
 	public ?int $importClassId = null;
 	
-	public function mount()
+	public function mount(ClassSession $classSession = null)
 	{
-		$this->breadcrumb =
-			[
-				__('system.menu.criteria') => '#',
-			];
+
 		$this->faculty = auth()->user();
 		$this->schoolClasses = $this->faculty->currentSchoolClasses();
 		$this->sessions = new Collection();
@@ -37,12 +34,18 @@ class ClassCriteriaManager extends Component
 		
 		if(count($this->schoolClasses) > 0)
 		{
-			if(SessionSettings::has('class-criteria-manager.selected-class'))
+			if($classSession)
+				$this->classSelected = $classSession->class_id;
+			elseif(SessionSettings::has('class-criteria-manager.selected-class'))
 				$this->classSelected = SessionSettings::get('class-criteria-manager.selected-class');
 			else
 				$this->classSelected = $this->schoolClasses->first()->id;
 			$this->classCriteria = $this->schoolClasses->first(fn (SchoolClass $c) => $c->id == $this->classSelected)->classCriteria;
 		}
+		$this->breadcrumb = [];
+		if($classSession)
+			$this->breadcrumb[$classSession->name_with_schedule] = route('subjects.school.classes.show', $classSession);
+		$this->breadcrumb[__('system.menu.criteria')] = '#';
 		$classesTaught = $this->faculty->classesTaught()->has('classCriteria')->groupBy('class_sessions.class_id')->get();
 		$this->importYears = new Collection();
 		$this->importClasses = new Collection();

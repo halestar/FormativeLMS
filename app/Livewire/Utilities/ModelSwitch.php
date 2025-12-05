@@ -17,6 +17,7 @@ class ModelSwitch extends Component
 	public ?string $confirm = null;
 	public string $elId;
 	public ?string $onChange = null;
+    public bool $disabled = false;
 	
 	public function mount(Model $model, string $property, ?string $elId = null)
 	{

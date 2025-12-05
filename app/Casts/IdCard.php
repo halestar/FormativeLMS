@@ -3,13 +3,14 @@
 namespace App\Casts;
 
 use App\Classes\IdCard\IdCardElement;
+use App\Interfaces\Synthesizable;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Blade;
 use JsonSerializable;
 
-class IdCard implements CastsAttributes, Arrayable, JSONSerializable
+class IdCard implements CastsAttributes, Arrayable, JSONSerializable, Synthesizable
 {
 	public const CONTENT_EMPTY = 1;
 	public const CONTENT_SPAN = 2;
@@ -165,7 +166,7 @@ class IdCard implements CastsAttributes, Arrayable, JSONSerializable
 		return $this->toArray();
 	}
 	
-	public function toArray()
+	public function toArray(): array
 	{
 		$content = [];
 		foreach($this->content as $row)
@@ -208,7 +209,7 @@ class IdCard implements CastsAttributes, Arrayable, JSONSerializable
 		return null;
 	}
 	
-	public static function hydrate(array $data): IdCard
+	public static function hydrate(array $data): static
 	{
 		$idCard = new IdCard();
 		$idCard->aspectRatio = $data['aspectRatio'];

@@ -26,7 +26,7 @@ class SkillCategoryBrowser extends Component
 	{
 		$this->rootCategories = SkillCategory::root()
 		                                     ->get();
-		$this->openTo = auth()->user()->prefs->get('skill-category-browser-open-to', []);
+		$this->openTo = auth()->user()->getPreference('skill-category-browser-open-to', []);
 		//is there a selected category?
 		$selected_id = null;
 		foreach($this->openTo as $category => $state)
@@ -84,7 +84,7 @@ class SkillCategoryBrowser extends Component
 	{
 		//get the prefs
 		$self = auth()->user();
-		$prefs = $self->prefs->get('skill-category-browser-open-to', []);
+		$prefs = $self->getPreference('skill-category-browser-open-to', []);
 		//first, we unselect the old state.
 		if($this->selectedCategory && isset($prefs[$this->selectedCategory->id]))
 		{
@@ -105,7 +105,7 @@ class SkillCategoryBrowser extends Component
 			//no entry, we only worry about it if we are selecting.
 			$prefs[$selectedCategoryId] = ['open' => false, 'selected' => true];
 		}
-		$self->prefs->set('skill-category-browser-open-to', $prefs);
+		$self->setPreference('skill-category-browser-open-to', $prefs);
 		$self->save();
 		if($selectedCategoryId == null)
 			$this->selectedCategory = null;

@@ -98,7 +98,7 @@
                         </div>
                     @else
                         <div class="d-flex mb-3 justify-content-start">
-                            @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                            @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                                 <div class="mx-2 text-center">
                                     <label for="day-select-{{ $dayId }}"
                                            class="form-label fw-bold text-decoration-underline">{{ $dayName }}</label>
@@ -159,7 +159,7 @@
                                 </select>
                             </div>
                         @else
-                            @foreach(\App\Classes\Days::getWeekdays() as $dayId)
+                            @foreach(\App\Classes\Settings\Days::getWeekdays() as $dayId)
                                 @foreach($periods[$dayId] as $period)
                                     <div class="input-group mb-3" wire:key="{{ $period }}">
                                         <label for="room-period-{{ $period }}"
@@ -190,7 +190,7 @@
                                 <button
                                         type="button"
                                         class="btn btn-danger"
-                                        wire:click="removeTeacher({{ $teacher->id }})"
+                                        wire:click="removeTeacher({{ $teacher->school_id }})"
                                 ><i class="fa-solid fa-times"></i></button>
                             </li>
                         @endforeach

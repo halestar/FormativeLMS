@@ -23,7 +23,6 @@ class DatabaseSeeder extends Seeder
 				FieldPermissionsSeeder::class,
 				SystemTableSeeder::class,
 				LearningDemonstrationTypeSeeder::class,
-				SchoolEmailSeeder::class,
 				BuildingSeeder::class,
 				CampusSeeder::class,
 				YearSeeder::class,
@@ -47,8 +46,8 @@ class DatabaseSeeder extends Seeder
 				SkillCategorySeeder::class,
 				SkillSeeder::class,
 				RubricRestoreSeeder::class,
-				SchoolEmailSeeder::class,
 				MimeSeeder::class,
+                NotificationsSeeder::class,
 			]);
 	}
 }

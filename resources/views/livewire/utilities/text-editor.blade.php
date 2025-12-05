@@ -4,6 +4,8 @@
     wire:ignore
     x-data="{ value: $wire.entangle('content') }"
     x-init="
+        if (tinymce.activeEditor !== null)
+            tinymce.EditorManager.execCommand('mceRemoveEditor', false, '{{ $id }}');
         tinymce.init(
         {
             selector: '#{{ $id }}',
@@ -17,7 +19,7 @@
                 'searchreplace', 'wordcount', 'visualblocks', 'visualchars', 'code', 'fullscreen', 'insertdatetime',
                 'media', 'table', 'emoticons', 'help'
             ],
-            toolbar_mode: 'wrap',
+            toolbar_mode: '{{ $toolbarMode }}',
             toolbar: 'undo redo | styles | bold italic | alignleft aligncenter alignright alignjustify | ' +
             'bullist numlist outdent indent | link loadlmsimg | print preview media fullscreen | ' +
             'forecolor backcolor emoticons | help | inserttoken',
@@ -68,7 +70,10 @@
                     editor.setProgressState(false);
                 });
 
+
                 @if($availableTokens)
+
+
                     let toggleState = false;
                     editor.ui.registry.addMenuButton('inserttoken',
                     {
@@ -77,20 +82,29 @@
                         {
                             const items =
                                 [
+
+
                                     @foreach($availableTokens as $token => $tokenName)
+
 
                                     {
                                         type: 'menuitem',
-                                        text: '{!! str_replace("'", "\\'", $tokenName) !!}',
+                                        text: `{!! $tokenName !!}`,
                                         onAction: () => editor.insertContent('{!! $token !!}')
                                     },
 
                                     @endforeach
+
+
                                 ];
                             callback(items);
                         }
                     });
+
+
                 @endif
+
+
             },
             init_instance_callback: function (editor)
             {

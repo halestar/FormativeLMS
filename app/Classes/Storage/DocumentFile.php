@@ -2,15 +2,14 @@
 
 namespace App\Classes\Storage;
 
+use App\Interfaces\Synthesizable;
 use App\Models\Integrations\Connections\DocumentFilesConnection;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\People\Person;
-use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\File;
-use JsonSerializable;
 
-class DocumentFile implements Arrayable, JsonSerializable
+class DocumentFile implements Synthesizable
 {
 	
 	
@@ -49,8 +48,8 @@ class DocumentFile implements Arrayable, JsonSerializable
 		);
 	}
 	
-	public static function hydrate(array $data): DocumentFile
-	{
+	public static function hydrate(array $data): static
+    {
 		return new DocumentFile
 		(
 			$data['school_id'],
@@ -78,8 +77,8 @@ class DocumentFile implements Arrayable, JsonSerializable
 		return $this->toArray();
 	}
 	
-	public function toArray()
-	{
+	public function toArray(): array
+    {
 		return
 			[
 				'school_id' => $this->school_id,

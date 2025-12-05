@@ -3,15 +3,19 @@
 namespace App\Providers;
 
 use App\Classes\SessionSettings;
+use App\Events\Classes\NewClassStatusEvent;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use App\Policies\PersonPolicy;
 use App\Policies\RolePolicy;
+use App\Subscribers\ClassEventsSubscriber;
+use App\Subscribers\LearningEventsSubscriber;
 use App\View\Composers\IntegratorConfigurationComposer;
 use DOMDocument;
 use Illuminate\Foundation\Application;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Blade;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\View;
@@ -63,5 +67,9 @@ class AppServiceProvider extends ServiceProvider
 			
 			return $output;
 		});
+
+        //Events
+        Event::subscribe(ClassEventsSubscriber::class);
+		Event::subscribe(LearningEventsSubscriber::class);
 	}
 }

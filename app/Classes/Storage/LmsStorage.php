@@ -3,10 +3,11 @@
 namespace App\Classes\Storage;
 
 use App\Classes\Settings\StorageSettings;
+use App\Interfaces\Synthesizable;
 use Illuminate\Contracts\Support\Arrayable;
 use JsonSerializable;
 
-abstract class LmsStorage implements Arrayable, JsonSerializable
+abstract class LmsStorage implements Synthesizable
 {
 	public string $instanceProperty;
 	
@@ -17,7 +18,7 @@ abstract class LmsStorage implements Arrayable, JsonSerializable
 	
 	abstract public static function prettyName(): string;
 	
-	public static function hydrate(array $data)
+	public static function hydrate(array $data): static
 	{
 		// the hydrate method REQUIRES that the class name is stored in the data array
 		// in the key 'className'

@@ -13,11 +13,6 @@ use Illuminate\Routing\Controllers\Middleware;
 
 class IdController extends Controller implements HasMiddleware
 {
-	public function __construct()
-	{
-		$this->middleware('auth');
-		$this->middleware('can:school.settings', ['except' => ['show']]);
-	}
 	
 	public static function middleware()
 	{
@@ -112,6 +107,7 @@ class IdController extends Controller implements HasMiddleware
 	{
 		$breadcrumb =
 			[
+                __('people.profile.mine') => route('people.show', auth()->user()),
 				__('people.id.mine') => '#',
 			];
 		return view('people.ids.show', compact('breadcrumb'));

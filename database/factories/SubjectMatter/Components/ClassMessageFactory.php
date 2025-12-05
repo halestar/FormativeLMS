@@ -2,6 +2,7 @@
 
 namespace Database\Factories\SubjectMatter\Components;
 
+use App\Enums\ClassViewer;
 use App\Models\Locations\Term;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
@@ -62,28 +63,28 @@ class ClassMessageFactory extends Factory
 	public function fromParent()
 	{
 		return $this->state(fn(array $attributes) => [
-			'from_type' => ClassMessage::FROM_PARENT,
+			'from_type' => ClassViewer::PARENT,
 		]);
 	}
 	
 	public function fromStudent()
 	{
 		return $this->state(fn(array $attributes) => [
-			'from_type' => ClassMessage::FROM_STUDENT,
+			'from_type' => ClassViewer::STUDENT,
 		]);
 	}
 	
 	public function fromTeacher()
 	{
 		return $this->state(fn(array $attributes) => [
-			'from_type' => ClassMessage::FROM_TEACHER,
+			'from_type' => ClassViewer::FACULTY,
 		]);
 	}
 	
 	public function fromAdmin()
 	{
 		return $this->state(fn(array $attributes) => [
-			'from_type' => ClassMessage::FROM_ADMIN,
+			'from_type' => ClassViewer::ADMIN,
 		]);
 	}
 }

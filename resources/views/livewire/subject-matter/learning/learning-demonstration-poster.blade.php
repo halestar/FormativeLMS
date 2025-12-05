@@ -229,7 +229,7 @@
                  class="form-text">{{ __('learning.demonstrations.share_submissions.description') }}</div>
         </div>
     </div>
-    <div class="border-bottom d-flex justify-content-start" x-data>
+    <div class="border-bottom d-flex justify-content-start mt-5" x-data>
         <h2 class="text-nowrap flex-grow-1 me-3">
             {{ __('learning.demonstrations.post') }}
         </h2>

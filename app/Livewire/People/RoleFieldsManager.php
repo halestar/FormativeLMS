@@ -2,7 +2,7 @@
 
 namespace App\Livewire\People;
 
-use App\Classes\RoleField;
+use App\Classes\People\RoleField;
 use App\Models\Utilities\SchoolRoles;
 use App\Rules\UniqueJsonName;
 use Illuminate\Validation\Rule;

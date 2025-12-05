@@ -110,4 +110,5 @@ return
 		'collapse' => 'Collapse',
 		'more' => 'More',
 		'less' => 'Less',
+        'legend' => 'Legend',
 	];

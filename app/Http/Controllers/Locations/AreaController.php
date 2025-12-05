@@ -7,6 +7,7 @@ use App\Http\Resources\Locations\BuildingAreaResource;
 use App\Models\Locations\BuildingArea;
 use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
+use Symfony\Component\HttpFoundation\Response;
 
 class AreaController extends Controller implements HasMiddleware
 {
@@ -30,7 +31,7 @@ class AreaController extends Controller implements HasMiddleware
 	public function areaMap(BuildingArea $area)
 	{
 		if(!Gate::allows('has-permission', 'locations.areas'))
-			return response()->json([], 401);
+			return response()->json([], Response::HTTP_FORBIDDEN);
 		return new BuildingAreaResource($area);
 	}
 }

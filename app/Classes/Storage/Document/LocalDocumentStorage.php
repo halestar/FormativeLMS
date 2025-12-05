@@ -19,7 +19,7 @@ class LocalDocumentStorage extends DocumentStorage
 		return __('settings.storage.documents.local');
 	}
 	
-	public function toArray()
+	public function toArray(): array
 	{
 		return
 			[

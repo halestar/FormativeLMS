@@ -17,7 +17,7 @@ class PersonName extends IdCardElement
 		return __('people.id.person.name');
 	}
 	
-	public static function hydrate(array $data): IdCardElement
+	public static function hydrate(array $data): static
 	{
 		$personName = new PersonName();
 		$personName->colSpan = $data['colspan'];

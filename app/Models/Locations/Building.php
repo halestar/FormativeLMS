@@ -2,10 +2,10 @@
 
 namespace App\Models\Locations;
 
+use App\Models\Scopes\OrderByNameScope;
 use App\Models\SystemTables\SchoolArea;
 use App\Traits\Phoneable;
 use App\Traits\SingleAddressable;
-use halestar\LaravelDropInCms\Models\Scopes\OrderByNameScope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

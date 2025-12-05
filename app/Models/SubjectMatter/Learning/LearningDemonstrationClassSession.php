@@ -5,11 +5,13 @@ namespace App\Models\SubjectMatter\Learning;
 use App\Models\SubjectMatter\ClassSession;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
 class LearningDemonstrationClassSession extends Pivot
 {
 	use HasUuids;
+	protected $with = ['demonstration'];
 	public $timestamps = false;
 	protected $table = "learning_demonstration_class_sessions";
 	public $incrementing = false;
@@ -29,6 +31,11 @@ class LearningDemonstrationClassSession extends Pivot
 	public function criteria(): BelongsTo
 	{
 		return $this->belongsTo(ClassCriteria::class, 'criteria_id');
+	}
+
+	public function opportunities(): HasMany
+	{
+		return $this->hasMany(LearningDemonstrationOpportunity::class, 'demonstration_session_id');
 	}
 	
 	protected function casts()

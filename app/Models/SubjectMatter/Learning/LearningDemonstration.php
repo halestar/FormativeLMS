@@ -15,6 +15,8 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
 class LearningDemonstration extends Model implements Fileable
 {
@@ -90,10 +92,25 @@ class LearningDemonstration extends Model implements Fileable
 	
 	public function classSessions(): BelongsToMany
 	{
-		return $this->belongsToMany(ClassSession::class, 'learning_demonstrations_class_sessions', 'demonstration_id', 'session_id')
+		return $this->belongsToMany(ClassSession::class, 'learning_demonstration_class_sessions', 'demonstration_id', 'session_id')
 		            ->withPivot(['id', 'criteria_id', 'criteria_weight', 'posted_on', 'due_on'])
 		            ->using(LearningDemonstrationClassSession::class)
 		            ->as('session');
+	}
+
+	public function demonstrationSessions(): HasMany
+	{
+		return $this->hasMany(LearningDemonstrationClassSession::class, 'demonstration_id');
+	}
+
+	public function demonstrationSession(ClassSession $session): LearningDemonstrationClassSession
+	{
+		return $this->demonstrationSessions()->where('session_id', $session->id)->first();
+	}
+
+	public function opportunities(): HasManyThrough
+	{
+		return $this->hasManyThrough(LearningDemonstrationOpportunity::class, LearningDemonstrationClassSession::class, 'demonstration_id', 'demonstration_session_id');
 	}
 	
 }

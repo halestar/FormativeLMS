@@ -2,7 +2,7 @@
 
 namespace App\Classes\Synths;
 
-use App\Classes\ClassManagement\ClassWidget;
+use App\Classes\Integrators\Local\ClassManagement\ClassWidget;
 use Livewire\Mechanisms\HandleComponents\Synthesizers\Synth;
 
 class ClassWidgetSynth extends Synth

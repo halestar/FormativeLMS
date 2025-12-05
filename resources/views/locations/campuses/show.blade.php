@@ -233,7 +233,7 @@
                             <label class="form-check-label"
                                    for="show-inactive-periods">{{ __('locations.period.inactive.show') }}</label>
                         </div>
-                        @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                        @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                             <div class="mb-3">
                                 <h3 class="border-bottom d-flex justify-content-between align-items-end">
                                     {{ $dayName }}
@@ -251,8 +251,8 @@
                                                 >
                                                     {{ $period->dayStr() }} {{ $period->start->format('g:i A') }} &mdash; {{ $period->end->format('g:i A') }}
                                                 </a>
-                                            @else
-                                                {{ $period->dayStr() }} {{ $period->start->format('g:i A') }} &mdash; {{ $period->end->format('g:i A') }}
+                                                @else
+                                                    {{ $period->dayStr() }} {{ $period->start->format('g:i A') }} &mdash; {{ $period->end->format('g:i A') }}
                                             @endcan
                                         </span>
                                     </div>

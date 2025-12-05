@@ -56,12 +56,12 @@ class CategoryItem extends Component
 	private function saveState()
 	{
 		$self = auth()->user();
-		$state = $self->prefs->get('skill-category-browser-open-to', []);
+		$state = $self->getPreference('skill-category-browser-open-to', []);
 		if(!$this->open && !$this->selected && isset($state[$this->category->id]))
 			unset($state[$this->category->id]);
 		else
 			$state[$this->category->id] = ['open' => $this->open, 'selected' => $this->selected];
-		$self->prefs->set('skill-category-browser-open-to', $state);
+		$self->setPreference('skill-category-browser-open-to', $state);
 		$self->save();
 	}
 	

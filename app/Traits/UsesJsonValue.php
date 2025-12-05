@@ -10,9 +10,9 @@ trait UsesJsonValue
 	{
 		return Attribute::make
 		(
-			get: fn(mixed $value, array $attributes) => $this->getValue($attributes['value'], $propertyName,
+			get: fn(mixed $value, array $attributes) => $this->getValue($attributes['value'] ?? '', $propertyName,
 				(static::defaultValue())[$propertyName]),
-			set: fn(mixed $value, array $attributes) => $this->updateValue($attributes['value'], $propertyName, $value),
+			set: fn(mixed $value, array $attributes) => $this->updateValue($attributes['value'] ?? '', $propertyName, $value),
 		);
 	}
 	
@@ -24,7 +24,7 @@ trait UsesJsonValue
 	
 	protected function updateValue(string $values, string $key, mixed $value)
 	{
-		$data = json_decode($values, true);
+		$data = json_decode($values, true)?? [];
 		$data[$key] = $value;
 		return ['value' => json_encode($data)];
 	}

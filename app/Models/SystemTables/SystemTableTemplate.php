@@ -13,6 +13,11 @@ abstract class SystemTableTemplate extends SystemTable
 	{
 		return self::where('className', static::class)->orderBy('order')->get();
 	}
+
+    public static function asOptionsArray(): array
+    {
+        return static::all()->mapWithKeys(fn($model) => [$model->id => $model->name])->toArray();
+    }
 	abstract public static function getCrudModelName(): string;
 	abstract public function canDelete(): bool;
 }

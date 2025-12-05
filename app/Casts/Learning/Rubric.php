@@ -2,13 +2,14 @@
 
 namespace App\Casts\Learning;
 
+use App\Interfaces\Synthesizable;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
 use JsonSerializable;
 
-class Rubric implements CastsAttributes, Arrayable, JsonSerializable
+class Rubric implements CastsAttributes, Synthesizable
 {
 	public array $criteria, $points, $descriptions;
 	
@@ -192,7 +193,7 @@ class Rubric implements CastsAttributes, Arrayable, JsonSerializable
 		return null;
 	}
 	
-	public static function hydrate(array $data): Rubric
+	public static function hydrate(array $data): static
 	{
 		$rubric = new Rubric();
 		$rubric->criteria = $data['criteria'];
@@ -211,7 +212,7 @@ class Rubric implements CastsAttributes, Arrayable, JsonSerializable
 		return json_encode($value->toArray());
 	}
 	
-	public function toArray()
+	public function toArray(): array
 	{
 		return
 			[

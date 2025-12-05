@@ -10,11 +10,13 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 class WorkFile extends Model
 {
 	use HasUuids;
-	
+	protected $touches = ['fileable'];
+
 	public $timestamps = true;
 	public $incrementing = false;
 	protected $table = "work_files";
@@ -130,5 +132,10 @@ class WorkFile extends Model
 		$settings = app(StorageSettings::class);
 		$connection = $settings->getWorkConnection($destination->getWorkStorageKey());
 		return $connection->copyWorkFile($this, $destination);
+	}
+
+	public function fileable(): MorphTo
+	{
+		return $this->morphTo('fileable', 'fileable_type', $this->fileable_id? 'fileable_id': 'fileable_uuid');
 	}
 }

@@ -7,8 +7,10 @@ use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use App\Models\SubjectMatter\ClassSession;
 use App\Models\SubjectMatter\Components\ClassMessage;
+use App\Models\SubjectMatter\Learning\LearningDemonstrationOpportunity;
 use App\Models\SystemTables\DismissalReason;
 use App\Models\SystemTables\Level;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -117,4 +119,17 @@ class StudentRecord extends Model
 				'updated_at' => 'datetime: m/d/Y h:i A',
 			];
 	}
+
+	public function opportunities(): HasMany
+	{
+		return $this->hasMany(LearningDemonstrationOpportunity::class, 'student_id');
+	}
+
+	public function classOpportunities(ClassSession $session): HasMany
+	{
+		return $this->opportunities()
+			->whereHas('demonstrationSession',
+				fn(Builder $query) => $query->where('learning_demonstration_class_sessions.session_id', $session->id));
+	}
+
 }

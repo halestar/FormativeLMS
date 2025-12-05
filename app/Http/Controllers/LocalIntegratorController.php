@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Classes\Integrators\Local\LocalIntegrator;
 use App\Enums\IntegratorServiceTypes;
 use App\Models\Integrations\IntegrationService;
 use Illuminate\Http\Request;
@@ -12,13 +13,9 @@ class LocalIntegratorController extends Controller
 	public function auth()
 	{
 		//load the auth service
-		$authService = IntegrationService::select('integration_services.*')
-		                                 ->join('integrators', 'integrators.id', '=',
-			                                 'integration_services.integrator_id')
-		                                 ->where('integration_services.service_type',
-			                                 IntegratorServiceTypes::AUTHENTICATION)
-		                                 ->where('integrators.path', 'local')
-		                                 ->first();
+        $authService = LocalIntegrator::getService(IntegratorServiceTypes::AUTHENTICATION);
+        //load or establish the system connection.
+        $authSystemConnection = $authService->connectToSystem();
 		$breadcrumb =
 			[
 				__('system.menu.integrators') => route('integrators.index'),
@@ -30,13 +27,7 @@ class LocalIntegratorController extends Controller
 	
 	public function auth_update(Request $request)
 	{
-		$authService = IntegrationService::select('integration_services.*')
-		                                 ->join('integrators', 'integrators.id', '=',
-			                                 'integration_services.integrator_id')
-		                                 ->where('integration_services.service_type',
-			                                 IntegratorServiceTypes::AUTHENTICATION)
-		                                 ->where('integrators.path', 'local')
-		                                 ->first();
+		$authService = LocalIntegrator::getService(IntegratorServiceTypes::AUTHENTICATION);
 		$data = $request->validate(
 			[
 				'maxAttempts' => 'required|integer|min:1|max:100',
@@ -52,13 +43,7 @@ class LocalIntegratorController extends Controller
 	
 	public function documents()
 	{
-		$documentsService = IntegrationService::select('integration_services.*')
-		                                      ->join('integrators', 'integrators.id', '=',
-			                                      'integration_services.integrator_id')
-		                                      ->where('integration_services.service_type',
-			                                      IntegratorServiceTypes::DOCUMENTS)
-		                                      ->where('integrators.path', 'local')
-		                                      ->first();
+		$documentsService = LocalIntegrator::getService(IntegratorServiceTypes::DOCUMENTS);
 		$disks = config('filesystems.disks');
 		$breadcrumb =
 			[
@@ -71,13 +56,7 @@ class LocalIntegratorController extends Controller
 	
 	public function documents_update(Request $request)
 	{
-		$documentsService = IntegrationService::select('integration_services.*')
-		                                      ->join('integrators', 'integrators.id', '=',
-			                                      'integration_services.integrator_id')
-		                                      ->where('integration_services.service_type',
-			                                      IntegratorServiceTypes::DOCUMENTS)
-		                                      ->where('integrators.path', 'local')
-		                                      ->first();
+		$documentsService = LocalIntegrator::getService(IntegratorServiceTypes::DOCUMENTS);
 		$data = $request->validate(
 			[
 				'documents_disk' => ['required', Rule::in(array_keys(config('filesystems.disks')))],
@@ -91,12 +70,7 @@ class LocalIntegratorController extends Controller
 	
 	public function work()
 	{
-		$workService = IntegrationService::select('integration_services.*')
-		                                 ->join('integrators', 'integrators.id', '=',
-			                                 'integration_services.integrator_id')
-		                                 ->where('integration_services.service_type', IntegratorServiceTypes::WORK)
-		                                 ->where('integrators.path', 'local')
-		                                 ->first();
+		$workService = LocalIntegrator::getService(IntegratorServiceTypes::WORK);
 		$disks = config('filesystems.disks');
 		$breadcrumb =
 			[
@@ -109,12 +83,7 @@ class LocalIntegratorController extends Controller
 	
 	public function work_update(Request $request)
 	{
-		$workService = IntegrationService::select('integration_services.*')
-		                                 ->join('integrators', 'integrators.id', '=',
-			                                 'integration_services.integrator_id')
-		                                 ->where('integration_services.service_type', IntegratorServiceTypes::WORK)
-		                                 ->where('integrators.path', 'local')
-		                                 ->first();
+        $workService = LocalIntegrator::getService(IntegratorServiceTypes::WORK);
 		$data = $request->validate(
 			[
 				'work_disk' => ['required', Rule::in(array_keys(config('filesystems.disks')))],
@@ -128,6 +97,18 @@ class LocalIntegratorController extends Controller
 
 	public function classes()
 	{
-
+        $classesService = LocalIntegrator::getService(IntegratorServiceTypes::CLASSES);
+        $breadcrumb =
+            [
+                __('system.menu.integrators') => route('integrators.index'),
+                $classesService->integrator->name => '#',
+                $classesService->name => '#',
+            ];
+        return view('integrators.local.classes.settings', compact('classesService', 'breadcrumb'));
 	}
+
+    public function classes_update(Request $request)
+    {
+
+    }
 }

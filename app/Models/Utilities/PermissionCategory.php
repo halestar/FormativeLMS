@@ -2,12 +2,12 @@
 
 namespace App\Models\Utilities;
 
-use App\Models\Scopes\OrdeByNameScope;
+use App\Models\Scopes\OrderByNameScope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-#[ScopedBy([OrdeByNameScope::class])]
+#[ScopedBy([OrderByNameScope::class])]
 class PermissionCategory extends Model
 {
 	public $timestamps = true;

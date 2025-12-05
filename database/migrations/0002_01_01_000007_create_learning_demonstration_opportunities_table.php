@@ -21,6 +21,7 @@ return new class extends Migration
 			$table->dateTime('submitted_on')->nullable();
 			$table->text('feedback')->nullable();
 			$table->float('score')->nullable();
+			$table->float('criteria_weight')->default(1.0);
             $table->timestamps();
         });
     }

@@ -50,7 +50,7 @@
                                         aria-label="{{ __('locations.period.day') }}"
                                         wire:change="updateDay({{ $period['id'] }}, $event.target.value)"
                                 >
-                                    @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                                    @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                                         <option value="{{ $dayId }}"
                                                 @if($period['day'] === $dayId) selected @endif>{{ $dayName }}</option>
                                     @endforeach

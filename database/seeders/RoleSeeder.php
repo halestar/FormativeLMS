@@ -22,19 +22,20 @@ class RoleSeeder extends Seeder
 					'people.assign.roles',
 					'people.roles.fields',
 					'people.ids.manage',
-					'school',
-					'school.emails',
-					'settings.integrators',
-					'system.ai',
-					'system.tables'
 				],
+			"School Manager" =>
+			[
+				'people.ids.manage',
+				'school.tracker.admin',
+				'settings.integrators',
+				'system.ai',
+				'system.tables',
+				'school',
+				'school.settings',
+			],
 			"Impersonator" =>
 				[
 					'people.impersonate',
-				],
-			"Web Designer" =>
-				[
-					'school.tracker.admin',
 				],
 			"Permission Editor" =>
 				[

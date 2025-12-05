@@ -238,4 +238,14 @@ return
 		'to2' => 'a :name',
 		'update_reciprocal' => 'Update Reciprocal',
 		'update_relation' => 'Update Relation',
+        'preferences' => 'Personal Settings',
+        'preferences.communications' => 'Communications Settings',
+        'preferences.communications.updated' => 'Your Communications Settings have been updated successfully',
+        'preferences.communications.channels' => 'Communications Delivery',
+        'preferences.communications.channels.email' => 'Emails will be sent to :email',
+        'preferences.communications.channels.sms' => 'By turning this on, you agree to receive texts as outlined in our <a href=":tos" target="_blank">Terms of Service</a> and our <a href=":priv" target="_blank">Privacy Policy</a>.',
+        'preferences.communications.channels.sms.phone' => 'Phone to Text',
+        'preferences.communications.channels.sms.no' => 'There are no phone numbers associated with your account, so texts cannot be sent. If you wish to receive texts, please add a phone number to your account.',
+        'preferences.communications.channels.push' => 'Enable push notifications for the web app. If this is enabled you will get notifications as an alert if you are in the app, or as an alert in your alert center.',
+
 	];

@@ -2,8 +2,8 @@
 
 namespace App\Casts\Utilities\SystemSettings;
 
-use App\Classes\NameConstructor;
-use App\Classes\NameToken;
+use App\Classes\People\NameConstructor;
+use App\Classes\People\NameToken;
 use App\Traits\UsesJsonValue;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Database\Eloquent\Model;

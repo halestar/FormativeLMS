@@ -3,7 +3,6 @@
 namespace App\Classes\Settings;
 
 use App\Casts\Utilities\SystemSettings\SchoolNames;
-use App\Classes\Days;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Eloquent\Casts\Attribute;
@@ -27,6 +26,8 @@ class SchoolSettings extends SystemSetting
                 "rubrics_max_points" => 5,
 				"force_class_management" => true,
 				"class_management_connection_id" => null,
+                "terms_of_service" => '',
+                "privacy_policy" => '',
 			];
 	}
 	
@@ -70,11 +71,6 @@ class SchoolSettings extends SystemSetting
 				if(!$connectionId) return null;
 				return IntegrationConnection::find($connectionId);
 			},
-			set: function(mixed $value, array $attributes)
-			{
-				if($value instanceof IntegrationConnection)
-					$this->updateValue($attributes['value'], 'class_management_connection_id', $value->id);
-			}
 		);
 	}
 	
@@ -97,6 +93,16 @@ class SchoolSettings extends SystemSetting
 			set: fn(int $value, array $attributes) => $this->updateValue($attributes['value'], 'year_msg', $value),
 		);
 	}
+
+    public function termsOfService(): Attribute
+    {
+        return $this->basicProperty('terms_of_service');
+    }
+
+    public function privacyPolicy(): Attribute
+    {
+        return $this->basicProperty('privacy_policy');
+    }
 	
 	protected function casts(): array
 	{

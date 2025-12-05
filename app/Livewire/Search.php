@@ -11,16 +11,6 @@ class Search extends Component
 {
 	public string $searchTerm = "";
 	
-	public function search()
-	{
-		$this->results = Person::where('first', 'like', '%' . $this->search . '%')
-		                       ->orWhere('middle', 'like', '%' . $this->search . '%')
-		                       ->orWhere('last', 'like', '%' . $this->search . '%')
-		                       ->orWhere('nick', 'like', '%' . $this->search . '%')
-		                       ->orWhere('email', 'like', '%' . $this->search . '%')
-		                       ->get();
-	}
-	
 	public function render()
 	{
 		if(strlen($this->searchTerm) >= 3)

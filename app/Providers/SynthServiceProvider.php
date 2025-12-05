@@ -12,6 +12,7 @@ use App\Classes\Synths\GradeTranslationTableSynth;
 use App\Classes\Synths\IdCardElementSynth;
 use App\Classes\Synths\IdCardSynth;
 use App\Classes\Synths\LmsStorageSynth;
+use App\Classes\Synths\LmsSynth;
 use App\Classes\Synths\NameConstructorSynth;
 use App\Classes\Synths\NameTokenSynth;
 use App\Classes\Synths\RoleFieldSynth;
@@ -25,21 +26,7 @@ class SynthServiceProvider extends ServiceProvider
 {
 	private array $synths =
 		[
-			AuthenticationDesignationSynth::class,
-			ClassSessionLayoutManagerSynth::class,
-			ClassTabsSynth::class,
-			ClassTabSynth::class,
-			ClassWidgetSynth::class,
-			DocumentFileSynth::class,
-			IdCardElementSynth::class,
-			IdCardSynth::class,
-			LmsStorageSynth::class,
-			NameConstructorSynth::class,
-			NameTokenSynth::class,
-			RoleFieldSynth::class,
-			RubricSynth::class,
-			TopAnnouncementWidgetSynth::class,
-			GradeTranslationTableSynth::class,
+            LmsSynth::class,
 		];
 	
 	/**

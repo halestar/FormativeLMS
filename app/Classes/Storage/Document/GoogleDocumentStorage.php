@@ -31,8 +31,8 @@ class GoogleDocumentStorage extends DocumentStorage
 	/**
 	 * @inheritDoc
 	 */
-	public function toArray()
-	{
+	public function toArray(): array
+    {
 		return
 			[
 				'className' => GoogleDocumentStorage::class,

@@ -17,7 +17,7 @@ class StudentGrade extends IdCardElement
 		return __('people.id.student.grade');
 	}
 	
-	public static function hydrate(array $data): IdCardElement
+	public static function hydrate(array $data): static
 	{
 		$personName = new StudentGrade();
 		$personName->colSpan = $data['colspan'];

@@ -14,6 +14,8 @@ Route::controller(\App\Http\Controllers\People\PersonController::class)
 	          ->name('roles.fields');
 	     Route::get('/password', 'changeSelfPassword')
 	          ->name('password');
+         Route::get('/fields/permissions', 'fieldPermissions')
+             ->name('fields.permissions');
 	     Route::get('/{person}', 'show')
 	          ->name('show');
 	     Route::get('/{person}/edit', 'edit')
@@ -24,10 +26,10 @@ Route::controller(\App\Http\Controllers\People\PersonController::class)
 	          ->name('update.portrait');
 	     Route::delete('/{person}/portrait', 'deletePortrait')
 	          ->name('delete.portrait');
+
+         //Fields
 	     Route::put('/{person}/fields/{role}/update', 'updateRoleFields')
 	          ->name('roles.fields.update');
-	     Route::get('/fields/permissions', 'fieldPermissions')
-	          ->name('fields.permissions');
      });
 
 Route::controller(\App\Http\Controllers\People\IdController::class)
@@ -54,4 +56,17 @@ Route::controller(\App\Http\Controllers\People\IdController::class)
 	     Route::post('/both/{role}/{campus}', 'updateRoleCampus')
 	          ->name('manage.both.update');
      });
+
+Route::controller(\App\Http\Controllers\People\PersonalPreferencesController::class)
+    ->name('preferences.')
+    ->prefix('{person}/preferences')
+    ->group(function()
+    {
+        Route::get('/communications', 'communications')
+            ->name('communications');
+        Route::patch('/communications/delivery', 'communicationsDeliveryUpdate')
+            ->name('communications.update.delivery');
+        Route::patch('/communications/subscriptions', 'communicationsSubscriptionsUpdate')
+            ->name('communications.update.subscriptions');
+    });
 

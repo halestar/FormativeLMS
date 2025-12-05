@@ -99,7 +99,23 @@
             @error('demonstration')
             <div class="alert alert-danger my-2">{{ $message }}</div>
             @enderror
-            <livewire:utilities.simple-text-editor instance="demonstration" wire:model.live="demonstration" />
+            <div class="row">
+                <div class="col-md-9 p-2">
+                    <livewire:utilities.text-editor
+                            instance-id="demonstration"
+                            :fileable="$filer"
+                            wire:model.live="demonstration"
+                    />
+                </div>
+                <div class="col-md-3 p-2">
+                    <livewire:storage.work-storage-browser
+                            :fileable="$filer"
+                            :title="__('learning.demonstrations.files')"
+                            classes="col-md-4"
+                    />
+                </div>
+
+            </div>
         @endif
         <div class="row mt-4">
             <button type="submit" class="btn btn-primary">{{ __('learning.demonstrations.create') }}</button>

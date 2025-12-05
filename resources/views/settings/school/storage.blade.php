@@ -8,8 +8,8 @@
                 <h3 class="card-header">{{ __('settings.storage.work') }}</h3>
                 <div class="card-body">
                     @foreach(\App\Enums\WorkStoragesInstances::cases() as $storage)
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">{{ $storage->label() }}</span>
+                        <div class="mb-3">
+                            <label class="form-label" for="{{ $storage }}">{{ $storage->label() }}</label>
                             <select class="form-select @error($storage->value) is-invalid @enderror"
                                     name="{{ $storage }}"
                                     id="{{ $storage }}">

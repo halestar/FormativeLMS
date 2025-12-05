@@ -68,6 +68,7 @@
                                                                     :model="$service"
                                                                     property="enabled"
                                                                     classes="col-2 ms-auto"
+                                                                    :disabled="!$service->canEnable()"
                                                             />
                                                         </div>
                                                     </li>

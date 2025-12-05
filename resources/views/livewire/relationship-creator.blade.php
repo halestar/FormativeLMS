@@ -11,7 +11,9 @@
                             id="relationship_id"
                             wire:model.live="relationship_id"
                     >
-                        {!! \App\Models\SystemTables\Relationship::htmlOptions() !!}
+                        @foreach(\App\Models\SystemTables\Relationship::asOptionsArray() as $id => $val)
+                            <option value="{{ $id }}">{{ $val }}</option>
+                        @endforeach
                     </select>
                     <label class="input-group-text">
                         {!! __('common.to') !!} &nbsp;
@@ -32,7 +34,9 @@
                                 id="reciprocal_id"
                                 wire:model.live="reciprocal_id"
                         >
-                            {!! \App\Models\SystemTables\Relationship::htmlOptions() !!}
+                            @foreach(\App\Models\SystemTables\Relationship::asOptionsArray() as $id => $val)
+                                <option value="{{ $id }}">{{ $val }}</option>
+                            @endforeach
                         </select>
                         <label class="input-group-text">
                             {{ __('people.to2', ['name' => $person->name]) }}
@@ -64,7 +68,9 @@
                             id="relationship_id"
                             wire:model.live="relationship_id"
                     >
-                        {!! \App\Models\SystemTables\Relationship::htmlOptions() !!}
+                        @foreach(\App\Models\SystemTables\Relationship::asOptionsArray() as $id => $val)
+                            <option value="{{ $id }}">{{ $val }}</option>
+                        @endforeach
                     </select>
                     @if(!$to_person_id)
                         <label class="input-group-text">
@@ -140,7 +146,9 @@
                                 id="reciprocal_id"
                                 wire:model="reciprocal_id"
                         >
-                            {!! \App\Models\SystemTables\Relationship::htmlOptions() !!}
+                            @foreach(\App\Models\SystemTables\Relationship::asOptionsArray() as $id => $val)
+                                <option value="{{ $id }}">{{ $val }}</option>
+                            @endforeach
                         </select>
                         <label class="input-group-text">
                             {{ __('people.to2', ['name' => $person->name]) }}
@@ -166,7 +174,7 @@
         @foreach($relations as $relation)
             <div class="border rounded mb-1 p-2 text-bg-light d-flex justify-content-between align-items-center">
                 <div>
-                    {!! __('people.is_a_to', ['name' => $person->name, 'expr' => $relation->personal->relationship? $relation->personal->relationship->name: "?", 'route' => route('people.edit', ['person' => $relation->id]), 'name_2' => $relation->name]) !!}
+                    {!! __('people.is_a_to', ['name' => $person->name, 'expr' => $relation->personal->relationship? $relation->personal->relationship->name: "?", 'route' => route('people.edit', ['person' => $relation->school_id]), 'name_2' => $relation->name]) !!}
                 </div>
                 <div>
                     <button

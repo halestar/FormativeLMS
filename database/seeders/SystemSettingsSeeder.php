@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Classes\Integrators\Local\LocalIntegrator;
 use App\Enums\IntegratorServiceTypes;
 use App\Enums\WorkStoragesInstances;
 use App\Models\Integrations\IntegrationConnection;
@@ -93,15 +94,8 @@ class SystemSettingsSeeder extends Seeder
 		
 		$work = [];
 		//get the local work connection
-		$localConnection = IntegrationConnection::select('integration_connections.*')
-		                                        ->join('integration_services', 'integration_services.id', '=',
-			                                        'integration_connections.service_id')
-		                                        ->join('integrators', 'integrators.id', '=',
-			                                        'integration_services.integrator_id')
-		                                        ->where('integrators.path', '=', 'local')
-		                                        ->where('integration_services.service_type',
-			                                        IntegratorServiceTypes::WORK)
-		                                        ->first();
+		$localService = LocalIntegrator::getService(IntegratorServiceTypes::WORK);
+        $localConnection = $localService->connectToSystem();
 		foreach(WorkStoragesInstances::cases() as $workStorage)
 			$work[$workStorage->value] = $localConnection?->id;
 		$storage_settings =

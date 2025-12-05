@@ -8,11 +8,25 @@ use App\Models\People\Person;
 
 abstract class LmsIntegrator extends Integrator
 {
-	public static function autoload(): static
+    /**
+     * This function will autoload the intgrator that is was called from. For example, if you would
+     * like to load the LocalIntegrator model, you would call LocalIntegrator::autoload()
+     * @return static The Integrator class that is descended from this one, implementing the actual Integrator.
+     */
+	final public static function autoload(): static
 	{
 		return static::where('path', static::getPath())
 		             ->first();
 	}
+
+    final public static function getService(IntegratorServiceTypes $type): ?IntegrationService
+    {
+        return IntegrationService::select('integration_services.*')
+            ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
+            ->where('integrators.path', static::getPath())
+            ->where('service_type', $type)
+            ->first();
+    }
 	
 	/**
 	 * @return string THis will return the path name that it will prepend anytime a route needs to access this integrator.

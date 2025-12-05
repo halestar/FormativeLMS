@@ -57,4 +57,12 @@ return
 		'work.ld_work' => 'Learning Demonstration Work Storage',
 		'work.ldo_work' => 'Learning Demonstration Opportunity Work Storage',
 		'work.temp' => 'Temporary Storage',
+        'work.system_files' => 'System File Storage',
+        'local.email' => 'Local Email Service',
+        'local.email.description' => 'This integration will send emails using the local mail configuration.',
+        'local.sms' => 'Local SMS Service',
+        'local.sms.description' => 'This integration will send SMS messages using email. This service is unreliable, as it attempts to send messages using the mail gateway for each phone known gateway',
+        'local.classes.settings' => 'FabLMS Class Management Settings',
+        'local.classes.settings.widgets' => 'Available Widgets',
+        'local.classes.settings.help' => 'Select the widgets that you would like to be available to the teachers in the their classes.',
 	];

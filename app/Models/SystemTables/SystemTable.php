@@ -38,4 +38,5 @@ class SystemTable extends Model
 		                    ->pluck('className')
 		                    ->toArray();
 	}
+
 }

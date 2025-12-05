@@ -4,15 +4,19 @@ namespace App\Traits;
 
 use App\Interfaces\Fileable;
 use App\Models\Utilities\WorkFile;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\MorphToMany;
+use App\Observers\FileableObserver;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasWorkFiles
 {
-	public function workFiles(): MorphToMany|BelongsToMany
+	public static function bootHasWorkFiles()
+	{
+		static::observe(FileableObserver::class);
+	}
+	public function workFiles(): MorphMany
 	{
 		$relatedFK = ($this->getKeyType() == 'string')? "fileable_uuid": "fileable_id";
-		return $this->morphToMany(WorkFile::class, 'fileable', 'fileables', $relatedFK, 'work_file_id');
+		return $this->morphMany(WorkFile::class, 'fileable', 'fileable_type', $relatedFK);
 	}
 
 	public function copyWorkFilesFrom(Fileable $source): void
@@ -25,5 +29,10 @@ trait HasWorkFiles
 	{
 		foreach($this->workFiles as $file)
 			$file->copyTo($target);
+	}
+
+	public function hasFiles(): bool
+	{
+		return $this->workFiles()->count() > 0;
 	}
 }

@@ -21,22 +21,24 @@ class WorkStorageBrowser extends Component
 	use WithFileUploads;
 	
 	public string $title;
-	public WorkStoragesInstances $storageInstance;
-	public StorageSettings $settings;
 	public WorkFilesConnection $connection;
 	public Fileable $fileable;
 	public Collection $workFiles;
 	public $uploadedFiles;
 	public array $mimeTypes = [];
+    public bool $showLinks = false;
+    public bool $showDownload = true;
+    public string $height = '100%';
+    public string $maxHeight = '500px';
 	
 	public function mount(Fileable $fileable, StorageSettings $settings, string $title = null)
 	{
 		$this->title = $title ?? __('storage.work.browser');
 		$this->fileable = $fileable;
-		$this->storageInstance = $this->fileable->getWorkStorageKey();
-		$this->settings = $settings;
-		$this->connection = $this->settings->getWorkConnection($this->storageInstance);
+		$this->connection = $settings->getWorkConnection($this->fileable->getWorkStorageKey());
 		$this->refreshFiles();
+		if($this->height != "100%")
+			$this->maxHeight = $this->height;
 	}
 	
 	private function refreshFiles()
@@ -79,7 +81,6 @@ class WorkStorageBrowser extends Component
 	#[On('document-storage-browser.files-selected')]
 	public function filesSelected($cb_instance, $selected_items)
 	{
-		Log::debug('selected items: ' . print_r($selected_items, true));
 		if($cb_instance != 'work-storage-browser') return;
 		foreach($selected_items as $item)
 		{

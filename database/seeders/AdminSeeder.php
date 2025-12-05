@@ -8,6 +8,7 @@ use App\Models\Locations\Campus;
 use App\Models\Locations\Year;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
+use App\Models\SystemTables\Level;
 use App\Models\SystemTables\Relationship;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Database\Seeder;
@@ -39,10 +40,12 @@ class AdminSeeder extends Seeder
 				'email' => config('seeder.admin_email'),
 				'nick' => null,
 				'dob' => "1969-06-09",
-				'portrait_url' => config('seeder.admin_portrait'),
 				'school_id' => 1,
 			]);
 		$admin->refresh();
+		$admin->portrait_url = config('app.url') . '/storage/idpics/1.jpg';
+		$admin->thumbnail_url = config('app.url') . '/storage/idpics/1.jpg';
+		$admin->save();
 		$admin->assignRole([SchoolRoles::$ADMIN, SchoolRoles::$EMPLOYEE, SchoolRoles::$STAFF]);
 		if(config('seeder.admin_password', false) && $authService)
 			if(($connection = $authService->connect($admin)))
@@ -70,11 +73,12 @@ class AdminSeeder extends Seeder
 				'email' => 'staff@kalinec.net',
 				'nick' => null,
 				'dob' => "1969-06-09",
-				'portrait_url' => config('app.url') . '/storage/idpics/2.jpg',
-				'thumbnail_url' => config('app.url') . '/storage/idpics/2.jpg',
 				'school_id' => 2,
 			]);
 		$staff->refresh();
+		$staff->portrait_url = config('app.url') . '/storage/idpics/2.jpg';
+		$staff->thumbnail_url = config('app.url') . '/storage/idpics/2.jpg';
+		$staff->save();
 		$staff->assignRole(
 			[
 				SchoolRoles::$EMPLOYEE,
@@ -83,6 +87,11 @@ class AdminSeeder extends Seeder
 				"Academic Manager",
 				"Locations Manager",
 				"Schedule Manager",
+				"School Manager",
+				"Impersonator",
+				"Person Contact Editor",
+				"Student Tracker",
+				"Skills Administrator"
 			]);
 		if($authService)
 			if($connection = $authService->connect($staff))
@@ -102,11 +111,12 @@ class AdminSeeder extends Seeder
 				'email' => 'faculty@kalinec.net',
 				'nick' => null,
 				'dob' => "1969-06-09",
-				'portrait_url' => config('app.url') . '/storage/idpics/3.jpg',
-				'thumbnail_url' => config('app.url') . '/storage/idpics/3.jpg',
 				'school_id' => 3,
 			]);
 		$faculty->refresh();
+		$faculty->portrait_url = config('app.url') . '/storage/idpics/3.jpg';
+		$faculty->thumbnail_url = config('app.url') . '/storage/idpics/3.jpg';
+		$faculty->save();
 		$faculty->assignRole([SchoolRoles::$EMPLOYEE, SchoolRoles::$FACULTY]);
 		if($authService)
 			if($connection = $authService->connect($faculty))
@@ -126,11 +136,11 @@ class AdminSeeder extends Seeder
 				'email' => 'coach@kalinec.net',
 				'nick' => null,
 				'dob' => "2010-06-09",
-				'portrait_url' => config('app.url') . '/storage/idpics/4.jpg',
-				'thumbnail_url' => config('app.url') . '/storage/idpics/4.jpg',
 				'school_id' => 4,
 			]);
 		$coach->refresh();
+		$coach->portrait_url = config('app.url') . '/storage/idpics/4.jpg';
+		$coach->thumbnail_url = config('app.url') . '/storage/idpics/4.jpg';
 		$coach->assignRole([SchoolRoles::$COACH, SchoolRoles::$EMPLOYEE]);
 		if($authService)
 			if($connection = $authService->connect($coach))
@@ -162,11 +172,12 @@ class AdminSeeder extends Seeder
 				'email' => 'student@kalinec.net',
 				'nick' => null,
 				'dob' => "2010-06-09",
-				'portrait_url' => config('app.url') . '/storage/idpics/5.jpg',
-				'thumbnail_url' => config('app.url') . '/storage/idpics/5.jpg',
 				'school_id' => 5,
 			]);
 		$student->refresh();
+		$student->portrait_url = config('app.url') . '/storage/idpics/5.jpg';
+		$student->thumbnail_url = config('app.url') . '/storage/idpics/5.jpg';
+		$student->save();
 		$student->assignRole(SchoolRoles::$STUDENT);
 		if($authService)
 			if($connection = $authService->connect($student))
@@ -177,12 +188,13 @@ class AdminSeeder extends Seeder
 				$student->save();
 			}
 		//to this student, we assign a student role of a 9th grader at the HS campus
+        $level = Level::where('name', '9th')->first();
 		$studentRecord = StudentRecord::create(
 			[
 				'campus_id' => 1,
 				'person_id' => $student->id,
 				'year_id' => 1,
-				'level_id' => 4,
+				'level_id' => $level->id,
 				'start_date' => Year::find(1)->year_start,
 			]);
 		
@@ -194,11 +206,12 @@ class AdminSeeder extends Seeder
 				'email' => 'parent@kalinec.net',
 				'nick' => null,
 				'dob' => "2010-06-09",
-				'portrait_url' => config('app.url') . '/storage/idpics/6.jpg',
-				'thumbnail_url' => config('app.url') . '/storage/idpics/6.jpg',
 				'school_id' => 6,
 			]);
 		$parent->refresh();
+		$parent->portrait_url = config('app.url') . '/storage/idpics/6.jpg';
+		$parent->thumbnail_url = config('app.url') . '/storage/idpics/6.jpg';
+		$parent->save();
 		$parent->assignRole(SchoolRoles::$PARENT);
 		if($authService)
 			if($connection = $authService->connect($parent))

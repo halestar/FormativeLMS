@@ -4,7 +4,7 @@ namespace App\Models\SubjectMatter\Assessment;
 
 use App\Casts\Learning\Rubric;
 use App\Classes\AI\AiSchema;
-use App\Classes\Ai\RubricSchema;
+use App\Classes\AI\RubricSchema;
 use App\Classes\Settings\SchoolSettings;
 use App\Enums\AiSchemaType;
 use App\Interfaces\AiPromptable;

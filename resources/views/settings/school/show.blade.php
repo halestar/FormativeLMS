@@ -6,15 +6,28 @@
             <li class="nav-item" role="presentation">
                 <a
                         class="nav-link active"
-                        id="tab-school"
+                        id="tab-auth"
                         data-bs-toggle="tab"
-                        data-bs-target="#tab-pane-school"
-                        href="#tab-pane-school"
+                        data-bs-target="#tab-pane-auth"
+                        href="#tab-pane-auth"
                         role="tab"
-                        aria-controls="tab-pane-school"
+                        aria-controls="tab-pane-auth"
                         aria-selected="true"
-                        save-tab="school"
-                >{{ __('system.settings.tabs.school') }}</a>
+                        save-tab="auth"
+                >{{ __('auth.auth') }}</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a
+                        class="nav-link"
+                        id="tab-communications"
+                        data-bs-toggle="tab"
+                        data-bs-target="#tab-pane-communications"
+                        href="#tab-pane-communications"
+                        role="tab"
+                        aria-controls="tab-pane-communications"
+                        aria-selected="false"
+                        save-tab="communications"
+                >{{ __('settings.communications') }}</a>
             </li>
             <li class="nav-item" role="presentation">
                 <a
@@ -32,6 +45,19 @@
             <li class="nav-item" role="presentation">
                 <a
                         class="nav-link"
+                        id="tab-school"
+                        data-bs-toggle="tab"
+                        data-bs-target="#tab-pane-school"
+                        href="#tab-pane-school"
+                        role="tab"
+                        aria-controls="tab-pane-school"
+                        aria-selected="false"
+                        save-tab="school"
+                >{{ __('system.settings.tabs.school') }}</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a
+                        class="nav-link"
                         id="tab-id"
                         data-bs-toggle="tab"
                         data-bs-target="#tab-pane-id"
@@ -45,19 +71,6 @@
             <li class="nav-item" role="presentation">
                 <a
                         class="nav-link"
-                        id="tab-auth"
-                        data-bs-toggle="tab"
-                        data-bs-target="#tab-pane-auth"
-                        href="#tab-pane-auth"
-                        role="tab"
-                        aria-controls="tab-pane-auth"
-                        aria-selected="false"
-                        save-tab="auth"
-                >{{ __('auth.auth') }}</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a
-                        class="nav-link"
                         id="tab-storage"
                         data-bs-toggle="tab"
                         data-bs-target="#tab-pane-storage"
@@ -66,11 +79,11 @@
                         aria-controls="tab-pane-storage"
                         aria-selected="false"
                         save-tab="storage"
-                >{{ __('auth.storage') }}</a>
+                >{{ __('settings.storage.work') }}</a>
             </li>
         </ul>
         <div class="tab-content mt-2">
-            <div class="tab-pane fade show active" id="tab-pane-school" role="tabpanel" aria-labelledby="tab-school"
+            <div class="tab-pane fade " id="tab-pane-school" role="tabpanel" aria-labelledby="tab-school"
                  tabindex="0">
                 @include('settings.school.global')
             </div>
@@ -84,7 +97,7 @@
                 </div>
             </div>
             <div class="tab-content mt-2">
-                <div class="tab-pane fade " id="tab-pane-auth" role="tabpanel" aria-labelledby="tab-auth"
+                <div class="tab-pane fade show active" id="tab-pane-auth" role="tabpanel" aria-labelledby="tab-auth"
                      tabindex="0">
                     @include('settings.school.auth')
                 </div>
@@ -93,6 +106,12 @@
                 <div class="tab-pane fade " id="tab-pane-storage" role="tabpanel" aria-labelledby="tab-storage"
                      tabindex="0">
                     @include('settings.school.storage')
+                </div>
+            </div>
+            <div class="tab-content mt-2">
+                <div class="tab-pane fade " id="tab-pane-communications" role="tabpanel" aria-labelledby="tab-communications"
+                     tabindex="0">
+                    @include('settings.school.communications')
                 </div>
             </div>
         </div>

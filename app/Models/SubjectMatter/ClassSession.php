@@ -1,23 +1,29 @@
 <?php
 
 /**
- * @var \App\Classes\ClassManagement\ClassSessionLayoutManager $layout
+ * @var \App\Classes\Integrators\Local\ClassManagement\ClassSessionLayoutManager $layout
  */
 
 namespace App\Models\SubjectMatter;
 
-use App\Classes\ClassManagement\ClassSessionLayoutManager;
+use App\Classes\Integrators\Local\ClassManagement\ClassSessionLayoutManager;
+use App\Classes\Settings\SchoolSettings;
 use App\Enums\AssessmentStrategyCalculationMethod;
+use App\Enums\ClassViewer;
 use App\Interfaces\HasSchedule;
+use App\Models\Integrations\IntegrationConnection;
 use App\Models\Locations\Room;
 use App\Models\Locations\Term;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\Schedules\Block;
 use App\Models\Schedules\Period;
+use App\Models\SubjectMatter\Components\ClassCommunicationObject;
 use App\Models\SubjectMatter\Components\ClassMessage;
 use App\Models\SubjectMatter\Learning\ClassCriteria;
 use App\Models\SubjectMatter\Learning\ClassSessionCriteria;
+use App\Models\SubjectMatter\Learning\LearningDemonstration;
+use App\Models\SubjectMatter\Learning\LearningDemonstrationClassSession;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -26,13 +32,14 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 
 class ClassSession extends Model implements HasSchedule
 {
 	public $timestamps = true;
 	public $incrementing = true;
 	/**
-	 * @var \App\Classes\ClassManagement\ClassSessionLayoutManager $layout
+	 * @var \App\Classes\Integrators\Local\ClassManagement\ClassSessionLayoutManager $layout
 	 */
 	protected $with = ['schoolClass', 'term'];
 	protected $table = "class_sessions";
@@ -44,6 +51,7 @@ class ClassSession extends Model implements HasSchedule
 			'room_id',
 			'block_id',
 			'inherit_criteria',
+			'class_management_id',
 		];
 	
 	public function canDelete(): bool
@@ -138,14 +146,6 @@ class ClassSession extends Model implements HasSchedule
 		if(!$this->block_id)
 			return $this->periods;
 		return $this->block->periods;
-	}
-	
-	public function layout(): Attribute
-	{
-		return Attribute::make(
-			get: fn($value, $attributes) => new ClassSessionLayoutManager($value ?? "[]", $this),
-			set: fn($value, $attributes) => json_encode($value),
-		);
 	}
 	
 	public function locationString(bool $withLinks = false, string $attr = null): string
@@ -250,6 +250,7 @@ class ClassSession extends Model implements HasSchedule
 			[
 				'setup_done' => 'boolean',
 				'inherit_criteria' => 'boolean',
+                'layout' => 'array',
 				'calc_method' => AssessmentStrategyCalculationMethod::class,
 			];
 	}
@@ -274,5 +275,60 @@ class ClassSession extends Model implements HasSchedule
 		return $this->classCriteria()
 			->where('class_criteria.id', $criteria->id)
 			->first();
+	}
+
+    public function classManager(): BelongsTo
+    {
+        if(!$this->class_management_id)
+        {
+            //There isn't one set, so we use the system's default one.
+            $settings = app(SchoolSettings::class);
+            $this->class_management_id = $settings->class_management_connection_id;
+            $this->save();
+        }
+        return $this->belongsTo(IntegrationConnection::class, 'class_management_id');
+    }
+
+    public function viewingAs(ClassViewer $viewer): bool
+    {
+        $user = Auth()->user();
+        return $user->classViewRole($this) == $viewer;
+    }
+
+    public function hasConversationAccess(StudentRecord $student): bool
+    {
+        $user = Auth()->user();
+        $viewRole = $user->classViewRole($this);
+        if(!$viewRole)
+            return false;
+
+        if($viewRole == ClassViewer::FACULTY)
+            return $this->isClassTeacher($user);
+
+        if($viewRole == ClassViewer::STUDENT && $student->person_id == $user->id)
+            return true;
+
+        if($viewRole == ClassViewer::PARENT && $user->isParentOfPerson($student->person))
+            return true;
+
+        if($viewRole == ClassViewer::ADMIN && $user->studentTrackee()->where('student_records.id', $student->id)->exists())
+            return true;
+
+        return false;
+    }
+
+	public function communicationObjects(string $type): HasMany
+	{
+		return $this->hasMany(ClassCommunicationObject::class, 'session_id')
+			->where('className', $type);
+	}
+
+	public function demonstrations(): BelongsToMany
+	{
+		return $this->belongsToMany(LearningDemonstration::class, 'learning_demonstration_class_sessions', 'session_id', 'demonstration_id')
+			->withPivot(['id', 'criteria_id', 'criteria_weight', 'posted_on', 'due_on'])
+			->using(LearningDemonstrationClassSession::class)
+			->as('session')
+			->orderBy('learning_demonstration_class_sessions.posted_on', 'desc');
 	}
 }

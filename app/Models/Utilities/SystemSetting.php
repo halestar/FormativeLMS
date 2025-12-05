@@ -2,13 +2,16 @@
 
 namespace App\Models\Utilities;
 
+use App\Enums\WorkStoragesInstances;
+use App\Interfaces\Fileable;
 use App\Traits\HasWorkFiles;
 use App\Traits\UsesJsonValue;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
-class SystemSetting extends Model
+class SystemSetting extends Model implements Fileable
 {
 	// This gives us an easy way to e
 	use UsesJsonValue, HasWorkFiles;
@@ -48,9 +51,9 @@ class SystemSetting extends Model
 		return [];
 	}
 	
-	public function workFiles(): MorphToMany|BelongsToMany
+	public function workFiles(): MorphMany
 	{
-		return $this->belongsToMany(WorkFile::class, 'system_files', 'name', 'work_file_id');
+		return $this->morphMany(WorkFile::class, 'fileable', 'fileable_type', 'fileable_uuid');
 	}
 	
 	public function shouldBePublic(): bool
@@ -64,4 +67,9 @@ class SystemSetting extends Model
 			'value' => 'array',
 		];
 	}
+
+    public function getWorkStorageKey(): WorkStoragesInstances
+    {
+        return WorkStoragesInstances::SystemFiles;
+    }
 }

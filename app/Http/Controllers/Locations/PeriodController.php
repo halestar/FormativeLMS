@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Locations;
 
-use App\Classes\Days;
+use App\Classes\Settings\Days;
 use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
 use App\Models\Schedules\Period;

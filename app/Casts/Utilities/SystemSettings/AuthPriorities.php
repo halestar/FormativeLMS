@@ -46,6 +46,6 @@ class AuthPriorities implements CastsAttributes
 				return ['value' => $attributes['value']];
 			$jsonPriorities[] = $v->toArray();
 		}
-		return $this->updateValue($attributes['value'], 'properties', $jsonPriorities);
+		return $this->updateValue($attributes['value'], 'priorities', $jsonPriorities);
 	}
 }

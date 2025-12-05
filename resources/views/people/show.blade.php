@@ -17,14 +17,18 @@
                     {{-- Personal Settings and Links --}}
                     <div class="profile-work w-100">
                         @if($isSelf)
-                            <p>{{ __('people.profile.links.groups.settings') }}</p>
+                            <p>{{ __('people.preferences') }}</p>
                             <a href="{{ route('people.school-ids.show') }}">{{ __('people.id.mine') }}</a><br/>
+                            <a href="{{ route('people.preferences.communications', $person->school_id) }}">{{ __('people.preferences.communications') }}</a><br/>
                             @if($person->authConnection?->canChangePassword())
                                 <a href="{{ route('people.password') }}">{{ __('settings.auth.password.change') }}</a>
                                 <br/>
                             @endif
                             <p>{{ __('integrators.integrations') }}</p>
                             <livewire:auth.user-integrations/>
+                        @elseif($self->can('people.edit'))
+                            <p>{{ __('people.preferences') }}</p>
+                            <a href="{{ route('people.preferences.communications', $person->school_id) }}">{{ __('people.preferences.communications') }}</a><br/>
                         @endif
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 
 namespace App\Models\Schedules;
 
-use App\Classes\Days;
+use App\Classes\Settings\Days;
 use App\Models\Locations\Campus;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

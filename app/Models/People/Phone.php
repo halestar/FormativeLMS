@@ -40,7 +40,17 @@ class Phone extends Model
 	
 	private function pPhone(): string
 	{
-		$phone = $this->phone;
+        if(strlen($this->phone) == 10)
+            $phone = "(" . substr($this->phone, 0, 3) . ") " .
+                substr($this->phone, 3, 3) . "-" . substr($this->phone, 6);
+        elseif(strlen($this->phone) == 7)
+            $phone = substr($this->phone, 0, 3) . "-" . substr($this->phone, 4);
+        elseif(strlen($this->phone) > 10)
+            $phone = wordwrap(substr($this->phone, 0, -10), 2, "-", true) .
+                "(" . substr($this->phone, -10, 3) . ") " .
+                substr($this->phone, -7, 3) . "-" . substr($this->phone, -4);
+        else
+            $phone = $this->phone;
 		if($this->ext)
 			$phone .= " Ext." . $this->ext;
 		return $phone;

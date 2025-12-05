@@ -2,8 +2,12 @@
 
 namespace App\Classes\Integrators\Local\Services;
 
+use App\Classes\Integrators\Local\ClassManagement\ClassAnnouncementsWidget;
+use App\Classes\Integrators\Local\ClassManagement\ClassLinksWidget;
 use App\Classes\Integrators\Local\Connections\LocalClassesConnection;
 use App\Enums\IntegratorServiceTypes;
+use App\Livewire\School\ClassManagement\ClassAnnouncements;
+use App\Livewire\School\ClassManagement\ClassLinks;
 use App\Models\Integrations\Integrator;
 use App\Models\Integrations\LmsIntegrationService;
 use App\Models\People\Person;
@@ -39,7 +43,19 @@ class LocalClassesService extends LmsIntegrationService
 	 */
 	public static function getDefaultData(): array
 	{
-		return [];
+		return
+        [
+            'available_widgets' =>
+            [
+                ClassAnnouncements::class => __('subjects.school.widgets.class-announcements'),
+                ClassLinks::class => __('subjects.school.widgets.class-links'),
+            ],
+            'widgets_allowed' =>
+            [
+	            ClassAnnouncements::class => __('subjects.school.widgets.class-announcements'),
+	            ClassLinks::class => __('subjects.school.widgets.class-links'),
+            ],
+        ];
 	}
 
 	/**
@@ -137,4 +153,9 @@ class LocalClassesService extends LmsIntegrationService
 	{
 		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.classes.index');
 	}
+
+    public function canEnable(): bool
+    {
+        return true;
+    }
 }

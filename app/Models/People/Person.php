@@ -3,12 +3,13 @@
 namespace App\Models\People;
 
 use App\Casts\LogItem;
-use App\Classes\PreferenceManager;
-use App\Classes\RoleField;
+use App\Casts\People\Portrait;
+use App\Classes\Integrators\IntegrationsManager;
+use App\Classes\People\RoleField;
 use App\Classes\Settings\SchoolSettings;
+use App\Enums\ClassViewer;
 use App\Enums\IntegratorServiceTypes;
 use App\Interfaces\HasSchoolRoles;
-use App\Models\Integrations\Connections\ClassesConnection;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\Locations\Campus;
@@ -19,8 +20,9 @@ use App\Models\SubjectMatter\Components\ClassMessage;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationTemplate;
 use App\Models\SubjectMatter\SchoolClass;
 use App\Models\SystemTables\Relationship;
+use App\Models\Utilities\SchoolMessage;
 use App\Models\Utilities\SchoolRoles;
-use App\Notifications\NewClassMessageNotification;
+use App\Notifications\Classes\NewClassMessageNotification;
 use App\Traits\Addressable;
 use App\Traits\Campuseable;
 use App\Traits\HasFullTextSearch;
@@ -46,17 +48,20 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
-use Intervention\Image\Drivers\Imagick\Driver;
-use Intervention\Image\ImageManager;
 use Lab404\Impersonate\Models\Impersonate;
 use Laravel\Sanctum\HasApiTokens;
+use Intervention\Image\Drivers\Imagick\Driver;
+use Intervention\Image\ImageManager;
 
 
 class Person extends Authenticatable implements HasSchoolRoles
 {
 	use HasFactory, HasLogs, SoftDeletes, HasSchoolRolesTrait, Phoneable, Addressable, Notifiable, HasFullTextSearch,
 		Campuseable, Impersonate, HasApiTokens;
-	
+
+    /************************************************************************************************************
+     * TABLE DEFINITIONS
+     */
 	public const UKN_IMG = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
 	protected static string $logField = 'global_log';
 	public $timestamps = true;
@@ -72,10 +77,17 @@ class Person extends Authenticatable implements HasSchoolRoles
 			'nick',
 			'email',
 			'dob',
+            'prefs',
+			'portrait_url',
+			'thumbnail_url',
 		];
 	protected $hidden = [
 		'remember_token',
 	];
+
+    /************************************************************************************************************
+     * MODEL OVERRIDES
+     */
 	
 	protected static function booted(): void
 	{
@@ -105,67 +117,163 @@ class Person extends Authenticatable implements HasSchoolRoles
 	{
 		return 'people.' . $this->id;
 	}
-	
-	/**********
+
+    protected function casts(): array
+    {
+        return
+            [
+                'dob' => 'date: m/d/y',
+                'global_log' => LogItem::class,
+                'prefs' => 'array',
+                'portrait_url' => Portrait::class,
+                'created_at' => 'datetime: m/d/Y h:i A',
+                'updated_at' => 'datetime: m/d/Y h:i A',
+            ];
+    }
+
+    public function __toString()
+    {
+        return $this->name;
+    }
+
+    /************************************************************************************************************
+     * ROLE FUNCTIONS
+     */
+
+    public function isStudent(): bool
+    {
+        return $this->hasRole(SchoolRoles::$STUDENT);
+    }
+
+    public function isEmployee(): bool
+    {
+        return Cache::remember('person-is-employee-' . $this->id, 3600, fn() => $this->hasRole(SchoolRoles::$EMPLOYEE));
+    }
+
+    public function isParent(): bool
+    {
+        return Cache::remember('person-is-parent-' . $this->id, 3600, fn() => $this->hasRole(SchoolRoles::$PARENT));
+    }
+
+    public function isTeacher(): bool
+    {
+        return Cache::remember('isTeacher-' . $this->id, 60 * 60 * 24, function () {
+            return $this->hasRole(SchoolRoles::$FACULTY);
+        });
+    }
+
+
+    /************************************************************************************************************
 	 * Mutators/Accessors
 	 */
-	
-	public function name(): Attribute
+
+    protected function name(): Attribute
 	{
 		return Attribute::make
 		(
 			get: function(mixed $value, array $attributes)
 			{
-				$settings = app(SchoolSettings::class);
-				if($this->isStudent())
-					$name = $settings->studentName->applyName($this);
-				elseif($this->isEmployee())
-					$name = $settings->employeeName->applyName($this);
-				elseif($this->isParent())
-					$name = $settings->parentName->applyName($this);
-				else
-					$name = $this->first . " " . $this->last;
-				return $name;
+                return Cache::remember('person-name-' . $this->id, 3600, function()
+                {
+                    $settings = app(SchoolSettings::class);
+                    if ($this->isStudent())
+                        $name = $settings->studentName->applyName($this);
+                    elseif ($this->isEmployee())
+                        $name = $settings->employeeName->applyName($this);
+                    elseif ($this->isParent())
+                        $name = $settings->parentName->applyName($this);
+                    else
+                        $name = $this->first . " " . $this->last;
+                    return $name;
+                });
 			}
 		);
 	}
 	
-	public function isStudent(): bool
-	{
-		return $this->hasRole(SchoolRoles::$STUDENT);
-	}
-	
-	/**********
-	 * Boolean Functions
-	 */
-	
-	public function isEmployee(): bool
-	{
-		return $this->hasRole(SchoolRoles::$EMPLOYEE);
-	}
-	
-	public function isParent(): bool
-	{
-		return $this->hasRole(SchoolRoles::$PARENT);
-	}
-	
-	public function systemEmail(): Attribute
+
+    protected function systemEmail(): Attribute
 	{
 		return Attribute::make
 		(
-			get: fn(mixed $value, array $attributes) => $attributes['email'],
+			get: fn(mixed $value, array $attributes) => Cache::remember('system-email-' . $this->id, 3600, fn() => $attributes['email']),
 		);
 	}
 	
-	public function preferredFirst(): Attribute
+	protected function preferredFirst(): Attribute
 	{
 		return Attribute::make
 		(
-			get: fn(mixed $value, array $attributes) => Auth::user()
-			                                                ->canViewField('preferred_first',
-				                                                $this) ? $attributes['nick'] ?? $attributes['first'] : null,
+			get: fn(mixed $value, array $attributes) => Cache::remember('preferred-first-' . $this->id, 3600, fn() => $attributes['nick'] ?? $attributes['first']),
 		);
 	}
+
+    protected function dob(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Cache::remember('dob-' . $this->id, 3600, fn() => Carbon::parse($value)),
+        );
+    }
+
+    protected function thumbnailUrl(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Cache::remember('thumbnail-url-' . $this->id, 3600, fn() => $attributes['thumbnail_url']?? Person::UKN_IMG),
+        );
+    }
+
+    protected function schoolId(): Attribute
+    {
+        return Attribute::make
+        (
+            get: fn(mixed $value, array $attributes) => Cache::remember('school-id-' . $this->id, 3600, fn() => str_pad($value, 10, '0', STR_PAD_LEFT)),
+        );
+    }
+
+    /************************************************************************************************************
+     * BOOLEAN FUNCTIONS
+     */
+
+    public function hasPortrait(): bool
+    {
+        return ($this->attributes['portrait_url'] != null && $this->attributes['portrait_url'] != '');
+    }
+    public function hasChildren(): bool
+    {
+        return Cache::remember('hasChildren-' . $this->id, 60 * 60 * 24, function () {
+            return $this->relationships()
+                    ->where('relationship_id', Relationship::CHILD)
+                    ->count() > 0;
+        });
+    }
+
+    public function isParentOfPerson(Person $target): bool
+    {
+        return $target->relationships()
+                ->where('to_person_id', $this->id)
+                ->where('relationship_id', Relationship::CHILD)
+                ->count() > 0;
+    }
+
+    public function canUseAi(): bool
+    {
+        return Cache::remember('can-use-ai' . $this->id, 0,  function()
+        {
+            $intManager = app(IntegrationsManager::class);
+            return $intManager->hasPersonalConnection($this, IntegratorServiceTypes::AI);
+        });
+    }
+
+	public function isTrackingStudent(StudentRecord $student): bool
+	{
+		return $this->studentTrackee()->where('student_id', $student->id)->exists();
+	}
+
+
+    /************************************************************************************************************
+     * VIEW PERMISSIONS
+     */
 	
 	public function canViewField(RoleField|string $testingField, Person $target): bool
 	{
@@ -205,10 +313,6 @@ class Person extends Authenticatable implements HasSchoolRoles
 		                      ->get();
 	}
 	
-	/**
-	 * FIELD PERMISSIONS
-	 */
-	
 	public function viewableFields(): Collection
 	{
 		$query = FieldPermission::where('editable', '>', 10);
@@ -220,145 +324,64 @@ class Person extends Authenticatable implements HasSchoolRoles
 			$query = $query->orWhere('by_parents', true);
 		return $query->get();
 	}
-	
-	public function dob(): Attribute
-	{
-		return Attribute::make
-		(
-			get: fn(mixed $value, array $attributes) => Auth::user()
-			                                                ->canViewField('dob', $this) ? Carbon::parse($value) : null,
-		);
-	}
-	
-	public function portraitUrl(): Attribute
-	{
-		return Attribute::make
-		(
-			get: function(mixed $value, array $attributes)
-			{
-				if(Auth::user()
-				       ->canViewField('portrait', $this) && $attributes['portrait_url'])
-					return $attributes['portrait_url'];
-				return self::UKN_IMG;
-			},
-			set: function(null|UploadedFile|string $value, array $attributes)
-			{
-				$portraitDisk = config('lms.profile_pics_disk');
-				if(!$value)
-				{
-					//we should probably try to remove the image
-					Storage::disk($portraitDisk)
-					       ->delete(str_replace(Storage::disk($portraitDisk)
-					                                   ->url(''), '', $attributes['portrait_url']));
-					Storage::disk($portraitDisk)
-					       ->delete(str_replace(Storage::disk($portraitDisk)
-					                                   ->url(''), '', $attributes['thumbnail_url']));
-					return ['portrait_url' => null, 'thumbnail_url' => null];
-				}
-				elseif(is_string($value))
-				{
-					return ['portrait_url' => $value, 'thumbnail_url' => null];
-				}
-				$attr = [];
-				$portraitPath = $value->store('', $portraitDisk);
-				$attr['portrait_url'] = Storage::disk($portraitDisk)
-				                               ->url($portraitPath);
-				$manager = new ImageManager(new Driver());
-				$thmb = $manager->read(Storage::disk($portraitDisk)
-				                              ->get($portraitPath));
-				if($thmb)
-					$thmb->scaleDown(height: config('lms.thumb_max_height'));
-				$thmbPath = config('lms.profile_thumbs_path') . "/" . pathinfo($portraitPath,
-						PATHINFO_FILENAME) . ".png";
-				$path = Storage::disk($portraitDisk)
-				               ->put($thmbPath, $thmb->toPng());
-				$attr['thumbnail_url'] = Storage::disk($portraitDisk)
-				                                ->url($path);
-				return $attr;
-			}
-		);
-	}
-	
-	public function thumbnailUrl(): Attribute
-	{
-		return Attribute::make
-		(
-			get: function(mixed $value, array $attributes)
-			{
-				if(Auth::user()
-				       ->canViewField('portrait', $this) && $attributes['thumbnail_url'])
-					return $attributes['thumbnail_url'];
-				return self::UKN_IMG;
-			}
-		);
-	}
-	
-	public function prefs(): Attribute
-	{
-		return Attribute::make
-		(
-			get: function(mixed $value, array $attributes)
-			{
-				return new PreferenceManager($this, $value);
-			},
-			set: function(PreferenceManager $value, array $attributes)
-			{
-				return json_encode($value->getData());
-			}
-		);
-	}
-	
-	public function schoolId(): Attribute
-	{
-		return Attribute::make
-		(
-			get: function(mixed $value, array $attributes)
-			{
-				return str_pad($value, 10, '0', STR_PAD_LEFT);
-			},
-		);
-	}
-	
-	public function employeeCampuses(): MorphToMany
-	{
-		return $this->campuses();
-	}
-	
-	public function classMessages(): HasMany
-	{
-		return $this->hasMany(ClassMessage::class, 'person_id');
-	}
-	
-	public function studentTrackee(): BelongsToMany
-	{
-		return $this->belongsToMany(StudentRecord::class, 'student_trackers', 'person_id', 'student_id');
-	}
-	
-	public function authConnection(): BelongsTo
-	{
-		return $this->belongsTo(IntegrationConnection::class, 'auth_connection_id');
-	}
-	
-	public function isTeacher(): bool
-	{
-		return $this->hasRole(SchoolRoles::$FACULTY);
-	}
-	
-	public function hasPortrait(): bool
-	{
-		return ($this->attributes['portrait_url'] != null && $this->attributes['portrait_url'] != '');
-	}
-	
-	public function hasChildren(): bool
-	{
-		return $this->relationships()
-		            ->where('relationship_id', Relationship::CHILD)
-		            ->count() > 0;
-	}
-	
-	/**********
-	 * Relationships
-	 */
+
+    public function canEditOwnField(RoleField|string $testingField): bool
+    {
+        if($this->can('people.edit'))
+            return true;
+        if($testingField instanceof RoleField)
+        {
+            return $this->editableFields()
+                    ->where('field', '=', $testingField->fieldId)
+                    ->where('role_id', '=', $testingField->roleId)
+                    ->count() > 0;
+        }
+        else
+            return $this->editableFields()
+                    ->where('field', '=', $testingField)
+                    ->where('role_id', '=', '')
+                    ->count() > 0;
+    }
+
+    public function editableFields(): Collection
+    {
+        return FieldPermission::where('editable', true)
+            ->get();
+    }
+
+    public function classViewRole(ClassSession $session): ?ClassViewer
+    {
+        $person = $this;
+        return Cache::remember('class_view_role_' . $this->id . '_' . $session->id, 0, function() use ($session, $person)
+        {
+            return ClassViewer::determineType($person, $session);
+        });
+    }
+
+
+    /************************************************************************************************************
+     * DB RELATIONSHIPS
+     */
+
+    public function employeeCampuses(): MorphToMany
+    {
+        return $this->campuses();
+    }
+
+    public function classMessages(): HasMany
+    {
+        return $this->hasMany(ClassMessage::class, 'person_id');
+    }
+
+    public function studentTrackee(): BelongsToMany
+    {
+        return $this->belongsToMany(StudentRecord::class, 'student_trackers', 'person_id', 'student_id');
+    }
+
+    public function authConnection(): BelongsTo
+    {
+        return $this->belongsTo(IntegrationConnection::class, 'auth_connection_id');
+    }
 	
 	public function relationships(): BelongsToMany
 	{
@@ -370,62 +393,77 @@ class Person extends Authenticatable implements HasSchoolRoles
 				            'relationship_id',
 			            ]);
 	}
-	
-	public function isParentOfPerson(Person $target): bool
-	{
-		return $target->relationships()
-		              ->where('to_person_id', $this->id)
-		              ->where('relationship_id', Relationship::CHILD)
-		              ->count() > 0;
-	}
-	
-	public function canEditOwnField(RoleField|string $testingField): bool
-	{
-		if($this->can('people.edit'))
-			return true;
-		if($testingField instanceof RoleField)
-		{
-			return $this->editableFields()
-			            ->where('field', '=', $testingField->fieldId)
-			            ->where('role_id', '=', $testingField->roleId)
-			            ->count() > 0;
-		}
-		else
-			return $this->editableFields()
-			            ->where('field', '=', $testingField)
-			            ->where('role_id', '=', '')
-			            ->count() > 0;
-	}
-	
-	public function editableFields(): Collection
-	{
-		return FieldPermission::where('editable', true)
-		                      ->get();
-	}
-	
-	/**
-	 * Addresses
-	 */
+
+    public function schoolMessageSubscriptions(): BelongsToMany
+    {
+        return $this->belongsToMany(SchoolMessage::class, 'school_messages_subscriptions', 'person_id', 'message_id');
+    }
+
+    public function studentRecords(): HasMany
+    {
+        return $this->hasMany(StudentRecord::class, 'person_id');
+    }
+
+    public function parents(): BelongsToMany
+    {
+        return $this->relationships()
+            ->wherePivot('relationship_id', Relationship::CHILD);
+    }
+
+    public function allChildren(): BelongsToMany
+    {
+        return $this->relationships()
+            ->wherePivot('relationship_id', Relationship::CHILD);
+    }
+
+    public function connectedServices(): BelongsToMany
+    {
+        return $this->belongsToMany(IntegrationService::class, 'integration_connections', 'person_id', 'service_id')
+            ->withPivot('id', 'data', 'enabled', 'className')
+            ->as('lms_service_connection')
+            ->using(IntegrationConnection::class);
+    }
+
+    public function currentClassSessions(): BelongsToMany
+    {
+        return $this->belongsToMany(ClassSession::class, 'class_sessions_teachers', 'person_id', 'session_id')
+            ->join('terms', 'terms.id', '=', 'class_sessions.term_id')
+            ->whereBetweenColumns(DB::raw(date("'Y-m-d'")), ['terms.term_start', 'terms.term_end']);
+    }
+
+    public function classesTaught(): BelongsToMany
+    {
+        return $this->belongsToMany(ClassSession::class, 'class_sessions_teachers', 'person_id', 'session_id');
+    }
+
+    public function learningDemonstrationTemplates(): HasMany
+    {
+        return $this->hasMany(LearningDemonstrationTemplate::class, 'person_id');
+    }
+
+    /************************************************************************************************************
+     * ADRESSES
+     */
 	public function primaryAddress(): Address
 	{
 		return $this->addresses()
 		            ->wherePivot('primary', true)
 		            ->first();
 	}
-	
-	/**
-	 * Phones
-	 */
+
+    /************************************************************************************************************
+     * PHONES
+     */
 	public function primaryPhone(): Phone
 	{
 		return $this->phones()
 		            ->wherePivot('primary', true)
 		            ->first();
 	}
-	
-	/**
-	 * Student Functions
-	 */
+
+    /************************************************************************************************************
+     * STUDENT FUNCTIONS
+     */
 	public function student(): ?StudentRecord
 	{
 		$year = Year::currentYear();
@@ -435,10 +473,7 @@ class Person extends Authenticatable implements HasSchoolRoles
 		            ->first();
 	}
 	
-	public function studentRecords(): HasMany
-	{
-		return $this->hasMany(StudentRecord::class, 'person_id');
-	}
+
 	
 	public function studentInTerm(Term $term): ?StudentRecord
 	{
@@ -455,16 +490,10 @@ class Person extends Authenticatable implements HasSchoolRoles
 		            ->whereNull('end_date')
 		            ->first();
 	}
-	
-	public function parents(): BelongsToMany
-	{
-		return $this->relationships()
-		            ->wherePivot('relationship_id', Relationship::CHILD);
-	}
-	
-	/**
-	 * Parent Functions
-	 */
+
+    /************************************************************************************************************
+     * PARENT FUNCTIONS
+     */
 	public function currentChildStudents(): ?Collection
 	{
 		$currentYear = Year::currentYear();
@@ -493,12 +522,6 @@ class Person extends Authenticatable implements HasSchoolRoles
 		             ->get();
 	}
 	
-	public function allChildren(): BelongsToMany
-	{
-		return $this->relationships()
-		            ->wherePivot('relationship_id', Relationship::CHILD);
-	}
-	
 	public function allStudentRecords(): Collection
 	{
 		return StudentRecord::select('student_records.*')
@@ -508,16 +531,11 @@ class Person extends Authenticatable implements HasSchoolRoles
 		                    ->where('people_relations.to_person_id', $this->id)
 		                    ->get();
 	}
-	
-	/**
-	 * Teacher functions
-	 */
-	public function currentClassSessions(): BelongsToMany
-	{
-		return $this->belongsToMany(ClassSession::class, 'class_sessions_teachers', 'person_id', 'session_id')
-		            ->join('terms', 'terms.id', '=', 'class_sessions.term_id')
-		            ->whereBetweenColumns(DB::raw(date("'Y-m-d'")), ['terms.term_start', 'terms.term_end']);
-	}
+
+
+    /************************************************************************************************************
+     * TEACHER FUNCTIONS
+     */
 	
 	public function currentSchoolClasses(): Collection
 	{
@@ -539,34 +557,26 @@ class Person extends Authenticatable implements HasSchoolRoles
 		            ->where('class_sessions.id', $session->id)
 		            ->exists();
 	}
-	
-	public function classesTaught(): BelongsToMany
-	{
-		return $this->belongsToMany(ClassSession::class, 'class_sessions_teachers', 'person_id', 'session_id');
-	}
-	
-	public function learningDemonstrationTemplates(): HasMany
-	{
-		return $this->hasMany(LearningDemonstrationTemplate::class, 'person_id');
-	}
 
-	
-	/**
-	 * Notifications
-	 */
-	public function alertNotifications()
-	{
-		return $this->notifications()
-		            ->unread()
-		            ->whereNot('type', NewClassMessageNotification::class);
-	}
+
+    /************************************************************************************************************
+     * NOTIFICATIONS
+     */
+    public function lmsNotifications()
+    {
+        return $this->notifications()
+            ->where('type', 'lms-notification');
+    }
 	
 	public function classMessageNotifications()
 	{
 		return $this->notifications()
-		            ->unread()
-		            ->where('type', NewClassMessageNotification::class);
+		            ->where('type', 'class-message');
 	}
+
+    /************************************************************************************************************
+     * INTEGRATORS
+     */
 	
 	public function getIntegrationServices(IntegratorServiceTypes $type = null): Collection
 	{
@@ -577,25 +587,14 @@ class Person extends Authenticatable implements HasSchoolRoles
 		            ->get();
 	}
 	
-	public function connectedServices(): BelongsToMany
-	{
-		return $this->belongsToMany(IntegrationService::class, 'integration_connections', 'person_id', 'service_id')
-		            ->withPivot('id', 'data', 'enabled', 'className')
-		            ->as('lms_service_connection')
-		            ->using(IntegrationConnection::class);
-	}
-	
-	public function removeIntegrationService(IntegrationService $service)
+	public function removeIntegrationService(IntegrationService $service): void
 	{
 		if($this->hasIntegrationService($service))
 			$this->connectedServices()
 			     ->detach($service->id);
 	}
-	
-	/*****
-	 * Integration Functions
-	 */
-	public function hasIntegrationService(IntegrationService $service)
+
+	public function hasIntegrationService(IntegrationService $service): bool
 	{
 		return $this->connectedServices()
 		            ->where('service_id', $service->id)
@@ -608,44 +607,10 @@ class Person extends Authenticatable implements HasSchoolRoles
 		            ->where('service_id', $service->id)
 		            ->first()?->lms_service_connection;
 	}
-	
-	/**
-	 * Admin Functions
-	 */
-	
-	public function aiAccess(): null|Collection
-	{
-		$connections = new Collection();
-		//AI services
-		$aiServices = IntegrationService::where('service_type', IntegratorServiceTypes::AI)
-		                                ->get();
-		//check if the user has access to the system's AI
-		if($this->can('system.ai'))
-		{
-			//they do, so cycle through each, connecting to it
-			foreach($aiServices as $service)
-			{
-				$conn = $service->connectToSystem();
-				//if we establish a connection, add it to the list
-				if($conn)
-					$connections->push($conn);
-			}
-		}
-		//next, do we have any personal connections to the AI system?
-		foreach($aiServices as $service)
-		{
-			$conn = $service->connect($this);
-			//if we establish a connection, add it to the list
-			if($conn)
-				$connections->push($conn);
-		}
-		return $aiServices->count() > 0 ? $connections : null;
-	}
-	
-	public function __toString()
-	{
-		return $this->name;
-	}
+
+    /************************************************************************************************************
+     * ADMIN FUNCTIONS
+     */
 	
 	public function canImpersonate()
 	{
@@ -656,22 +621,70 @@ class Person extends Authenticatable implements HasSchoolRoles
 	{
 		return !$this->hasRole(SchoolRoles::$ADMIN) && ($this->id != auth()->user()->id);
 	}
-	
-	protected function casts(): array
-	{
-		return
-			[
-				'dob' => 'date: m/d/y',
-				'global_log' => LogItem::class,
-				'prefs' => 'array',
-				'created_at' => 'datetime: m/d/Y h:i A',
-				'updated_at' => 'datetime: m/d/Y h:i A',
-			];
-	}
-	
-	/**********
-	 * Scopes
-	 */
+
+    /************************************************************************************************************
+     * PREFERENCES
+     */
+    public function getPreference(string $key, mixed $default = null): mixed
+    {
+        //if the prefs are empty, init them.
+        if(!$this->prefs || !is_array($this->prefs) || count($this->prefs) == 0)
+            $this->prefs = config('lms.prefs_default', []);
+        //we assume the key is in dotted notation.
+        $keys = explode('.', $key);
+        if(!$key || count($keys) == 0)
+            return $default;
+        if(count($keys) == 1)
+            return $this->prefs[$key] ?? $default;
+        $data = $this->prefs;
+        $pointer = &$data;
+        foreach($keys as $i => $k)
+        {
+            //is this the last one?
+            if($i == count($keys) - 1)
+                return $pointer[$k] ?? $default;
+            //is it set?
+            if(!isset($pointer[$k]) || !is_array($pointer[$k]))
+                return $default;
+            $pointer = &$pointer[$k];
+        }
+        return $default;
+    }
+
+    public function setPreference(string $key, mixed $value): void
+    {
+        //if the prefs are empty, init them.
+        if(!$this->prefs || !is_array($this->prefs) || count($this->prefs) == 0)
+            $this->prefs = config('lms.prefs_default', []);
+        //we assume the key is in dotted notation.
+        $keys = explode('.', $key);
+        if(!$key || count($keys) == 0)
+            return;
+        $data = $this->prefs;
+        if(count($keys) == 1)
+            $data[$key] = $value;
+        else
+        {
+            $pointer = &$data;
+            foreach($keys as $i => $k)
+            {
+                if($i == count($keys) - 1)
+                    $pointer[$k] = $value;
+                else
+                {
+                    if(!isset($pointer[$k]) || !is_array($pointer[$k]))
+                        $pointer[$k] = [];
+                }
+                $pointer = &$pointer[$k];
+            }
+        }
+
+        $this->prefs = $data;
+    }
+
+    /************************************************************************************************************
+     * SCOPES
+     */
 	#[Scope]
 	protected function teachers(Builder $query): void
 	{
@@ -717,18 +730,6 @@ class Person extends Authenticatable implements HasSchoolRoles
 		});
 	}
 
-    public function canUseAi(): bool
-    {
-		return Cache::rememberForever('can-use-ai' . $this->id, function()
-		{
-			$canAccess = ($this->aiAccess()?->count() > 0) ?? false;
-			if($canAccess && !$this->tokens()->where('name', 'ai-token')->exists())
-				$this->createToken('ai-token');
-			elseif(!$canAccess && $this->tokens()->where('name', 'ai-token')->exists())
-				$this->tokens()->where('name', 'ai-token')->delete();
-			return $canAccess;
-		});
 
-    }
 	
 }

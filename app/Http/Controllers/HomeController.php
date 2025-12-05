@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Classes\SessionSettings;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
 

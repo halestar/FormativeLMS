@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers\Settings;
 
-use App\Classes\Days;
+use App\Classes\Integrators\IntegrationsManager;
 use App\Classes\SessionSettings;
 use App\Classes\Settings\AuthSettings;
+use App\Classes\Settings\CommunicationSettings;
+use App\Classes\Settings\Days;
 use App\Classes\Settings\IdSettings;
 use App\Classes\Settings\SchoolSettings;
 use App\Classes\Settings\StorageSettings;
@@ -13,52 +15,46 @@ use App\Enums\WorkStoragesInstances;
 use App\Http\Controllers\Controller;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\People\Person;
+use App\Models\Utilities\SchoolMessage;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
+use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Validation\Rule;
 
 class SchoolSettingsController extends Controller implements HasMiddleware
 {
 	public static function middleware()
 	{
-		return ['auth', 'can:school'];
+		return
+            [
+                'auth',
+                new Middleware('can:school', except: ['getSessionSetting', 'setSessionSetting']),
+            ];
 	}
 	
-	public function show()
+	public function show(IntegrationsManager $integrations)
 	{
 		$breadcrumb = [__('system.menu.school.settings') => "#"];
 		$studentRole = SchoolRoles::findByName(SchoolRoles::$STUDENT);
-		$sampleStudent = Person::join('model_has_roles', 'model_has_roles.model_id', '=', 'people.id')
-		                       ->where('model_has_roles.role_id', $studentRole->id)
+		$sampleStudent = Person::whereAttachedTo($studentRole)
 		                       ->inRandomOrder()
 		                       ->first();
 		$employeeRole = SchoolRoles::findByName(SchoolRoles::$EMPLOYEE);
-		$sampleEmployee = Person::join('model_has_roles', 'model_has_roles.model_id', '=', 'people.id')
-		                        ->where('model_has_roles.role_id', $employeeRole->id)
+		$sampleEmployee = Person::whereAttachedTo($employeeRole)
 		                        ->inRandomOrder()
 		                        ->first();
 		$parentRole = SchoolRoles::findByName(SchoolRoles::$PARENT);
-		$sampleParent = Person::join('model_has_roles', 'model_has_roles.model_id', '=', 'people.id')
-		                      ->where('model_has_roles.role_id', $parentRole->id)
+		$sampleParent = Person::whereAttachedTo($parentRole)
 		                      ->inRandomOrder()
 		                      ->first();
-		$workConnections = IntegrationConnection::select('integration_connections.*')
-		                                        ->join('integration_services', 'integration_services.id', '=',
-			                                        'integration_connections.service_id')
-		                                        ->whereNull('integration_connections.person_id')
-		                                        ->where('integration_services.service_type',
-			                                        IntegratorServiceTypes::WORK)
-		                                        ->get();
-		$classManagementConnection = IntegrationConnection::select('integration_connections.*')
-			->join('integration_services', 'integration_services.id', '=', 'integration_connections.service_id')
-			->whereNull('integration_connections.person_id')
-			->where('integration_services.service_type', IntegratorServiceTypes::CLASSES)
-			->get();
+		$workConnections = $integrations->systemConnections(IntegratorServiceTypes::WORK);
+		$classManagementConnection = $integrations->systemConnections(IntegratorServiceTypes::CLASSES);
+        $systemMessages = SchoolMessage::system()->get();
 		return view('settings.school.show',
 			compact('breadcrumb', 'studentRole',
 				'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole', 'workConnections',
-				'classManagementConnection'));
+				'classManagementConnection', 'systemMessages'));
 	}
 	
 	public function update(Request $request, SchoolSettings $settings)
@@ -67,14 +63,18 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 			'days' => 'required|array|min:1',
 			'start_time' => 'required|date_format:H:i',
 			'end_time' => 'required|date_format:H:i',
+            'terms_of_service' => 'required|url',
+            'privacy_policy' => 'required|url'
 		], static::errors());
 		//update days
 		$days = [];
 		foreach($data['days'] as $dayId)
 			$days[$dayId] = Days::day($dayId);
 		$settings->days = $days;
-		$settings->startTime = $data['start_time'];
-		$settings->endTime = $data['end_time'];
+		$settings->start_time = $data['start_time'];
+		$settings->end_time = $data['end_time'];
+        $settings->terms_of_service = $data['terms_of_service'];
+        $settings->privacy_policy = $data['privacy_policy'];
 		$settings->save();
 		return redirect()
 			->route('settings.school')
@@ -167,6 +167,27 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 			->route('settings.school')
 			->with('success-status', __('system.settings.update.success'));
 	}
+
+    public function updateCommunications(Request $request, CommunicationSettings $settings)
+    {
+        $data = $request->validate([
+            'email_connection_id' => 'required|uuid|exists:integration_connections,id',
+            'email_from' => 'required',
+            'email_from_address' => 'required|email',
+            'send_sms' => 'nullable',
+            'sms_connection_id' => 'nullable|exists:integration_connections,id'
+        ]);
+        //update days
+        $settings->email_connection_id = $data['email_connection_id'];
+        $settings->email_from = $data['email_from'];
+        $settings->email_from_address = $data['email_from_address'];
+        $settings->send_sms = $request->has('send_sms');
+        $settings->sms_connection_id = $data['sms_connection_id'];
+        $settings->save();
+        return redirect()
+            ->route('settings.school')
+            ->with('success-status', __('settings.communications.update.success'));
+    }
 
 	public function getSessionSetting(Request $request)
 	{

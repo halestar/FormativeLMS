@@ -18,7 +18,7 @@ class SchoolId extends IdCardElement
 		return trans_choice('people.id', 1);
 	}
 	
-	public static function hydrate(array $data): IdCardElement
+	public static function hydrate(array $data): static
 	{
 		$schoolId = new SchoolId();
 		$schoolId->colSpan = $data['colspan'];

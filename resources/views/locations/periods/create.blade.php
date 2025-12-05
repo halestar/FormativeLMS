@@ -37,7 +37,7 @@
                 <div class="col-md-4">
                     <label for="day" class="form-label">{{ __('locations.period.day') }}</label>
                     <select name="day" id="day" class="form-select @error('day') is-invalid @enderror">
-                        @foreach(\App\Classes\Days::weekdaysOptions() as $id => $day)
+                        @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $id => $day)
                             <option value="{{ $id }}" @if(old('day') == $id) selected @endif>{{ $day }}</option>
                         @endforeach
                     </select>

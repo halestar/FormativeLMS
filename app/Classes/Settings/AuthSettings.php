@@ -54,10 +54,9 @@ class AuthSettings extends SystemSetting
 		return $this->basicProperty('symbols');
 	}
 	
-	public function determineAuthentication(Person $person): IntegrationService|Collection
+	public function determineAuthentication(Person $person): IntegrationService|Collection|null
 	{
 		$priorities = $this->priorities;
-		Log::info('priorities: ' . print_r($priorities, true));
 		//determine the default priority and assign it.
 		$defaultPriority = $priorities[0] ?? AuthenticationDesignation::makeDefaultDesignation();
 		$services = $defaultPriority->services;

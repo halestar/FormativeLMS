@@ -17,7 +17,7 @@ class ParentChildren extends IdCardElement
 		return __('people.id.parents.children');
 	}
 	
-	public static function hydrate(array $data): IdCardElement
+	public static function hydrate(array $data): static
 	{
 		$personName = new ParentChildren();
 		$personName->colSpan = $data['colspan'];

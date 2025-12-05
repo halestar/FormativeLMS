@@ -21,6 +21,6 @@ class ErrorDisplay extends Component
 	 */
 	public function render(): View|Closure|string
 	{
-		return view('components.error-display');
+		return view('components.utilities.error-display');
 	}
 }

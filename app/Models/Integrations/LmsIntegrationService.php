@@ -289,4 +289,9 @@ abstract class LmsIntegrationService extends IntegrationService
 	 * @return string The url to the entry point of the configuration page for this integration service.
 	 */
 	abstract public function configurationUrl(): string;
+
+    /**
+     * @return bool Whether this service can be enabled.
+     */
+    abstract public function canEnable(): bool;
 }

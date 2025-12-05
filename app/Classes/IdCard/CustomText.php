@@ -18,7 +18,7 @@ class CustomText extends IdCardElement
 		return __('people.id.text.custom');
 	}
 	
-	public static function hydrate(array $data): IdCardElement
+	public static function hydrate(array $data): static
 	{
 		$customText = new CustomText();
 		$customText->colSpan = $data['colspan'];

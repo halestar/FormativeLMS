@@ -68,3 +68,36 @@ function generatePassword()
     return Array(8).fill('123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz!@#$')
         .map(x => x[Math.floor(crypto.getRandomValues(new Uint32Array(1))[0] / (0xffffffff + 1) * x.length)]).join('');
 }
+
+function showTooltip(element, message, config = {})
+{
+    let defaultConfig =
+    {
+        duration: 5000,
+        clickAway: true,
+        direction: 'end',
+        theme: 'primary'
+    }
+    let finalConfig = {...defaultConfig, ...config};
+    element = $(element);
+    element.css('position', 'relative');
+    let tooltip = $('<div class="lms-tooltip lms-tooltip-' + finalConfig.direction +
+        ' lms-tooltip-' + finalConfig.theme + '"><span class="lms-tooltip-text">' + message + '</span></div>');
+    element.append(tooltip);
+    if(finalConfig.clickAway)
+    {
+        tooltip.on('blur', function() { tooltip.remove(); });
+    }
+    if(finalConfig.duration > 0)
+    {
+        setTimeout(function() { tooltip.remove(); }, finalConfig.duration);
+    }
+}
+
+function copyLink(originator, url, tooltip_config = {})
+{
+    navigator.clipboard.writeText(url).then(function()
+    {
+        showTooltip(originator, 'Link Copied!', tooltip_config);
+    });
+}

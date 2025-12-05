@@ -3,9 +3,12 @@
 namespace App\Classes\Integrators\Local;
 
 use App\Classes\Integrators\IntegrationsManager;
+use App\Classes\Integrators\Local\Connections\LocalEmailConnection;
 use App\Classes\Integrators\Local\Services\LocalAuthService;
 use App\Classes\Integrators\Local\Services\LocalClassesService;
 use App\Classes\Integrators\Local\Services\LocalDocumentsService;
+use App\Classes\Integrators\Local\Services\LocalEmailService;
+use App\Classes\Integrators\Local\Services\LocalSmsService;
 use App\Classes\Integrators\Local\Services\LocalWorkFilesService;
 use App\Enums\IntegratorServiceTypes;
 use App\Http\Controllers\LocalIntegratorController;
@@ -57,6 +60,8 @@ class LocalIntegrator extends LmsIntegrator
 		$manager->registerService($this, LocalDocumentsService::class, $overwrite);
 		$manager->registerService($this, LocalWorkFilesService::class, $overwrite);
 		$manager->registerService($this, LocalClassesService::class, $overwrite);
+        $manager->registerService($this, LocalEmailService::class, $overwrite);
+        $manager->registerService($this, LocalSmsService::class, $overwrite);
 	}
 	
 	public function isOutdated(): bool
@@ -66,14 +71,17 @@ class LocalIntegrator extends LmsIntegrator
 	
 	public static function getVersion(): string
 	{
-		return "0.1";
+		return "0.2";
 	}
 	
 	public function hasService(IntegratorServiceTypes $type): bool
 	{
 		return ($type == IntegratorServiceTypes::AUTHENTICATION ||
 			$type == IntegratorServiceTypes::DOCUMENTS ||
-			$type == IntegratorServiceTypes::WORK);
+			$type == IntegratorServiceTypes::WORK ||
+			$type == IntegratorServiceTypes::CLASSES ||
+            $type == IntegratorServiceTypes::EMAIL ||
+            $type == IntegratorServiceTypes::SMS);
 	}
 	
 	public function publishRoutes(): void
@@ -96,6 +104,8 @@ class LocalIntegrator extends LmsIntegrator
 		//classes Service
 		Route::get('/classes', [LocalIntegratorController::class, 'classes'])
 		     ->name('classes.index');
+        Route::patch('/classes', [LocalIntegratorController::class, 'classes_update'])
+            ->name('classes.update');
 	}
 	
 	public function configurationUrl(): string

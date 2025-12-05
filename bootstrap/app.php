@@ -42,8 +42,7 @@ return Application::configure(basePath: dirname(__DIR__))
 		                       ->prefix('learning')
 		                       ->name('learning.')
 		                       ->group(base_path('routes/learning.php'));
-		                  
-		                  \halestar\LaravelDropInCms\DiCMS::publicRoutes();
+                          Route::fallback(function() { return redirect()->route('login'); });
 	                  },
                   )
                   ->withMiddleware(function(Middleware $middleware)

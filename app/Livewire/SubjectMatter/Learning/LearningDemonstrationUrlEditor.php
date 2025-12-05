@@ -2,24 +2,25 @@
 
 namespace App\Livewire\SubjectMatter\Learning;
 
+use App\Models\SubjectMatter\Learning\LearningDemonstration;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationTemplate;
 use Livewire\Attributes\Modelable;
 use Livewire\Component;
 
 class LearningDemonstrationUrlEditor extends Component
 {
+	public LearningDemonstrationTemplate|LearningDemonstration $ld;
 	#[Modelable]
 	public array $resources = [];
 	public bool $canUseAI = false;
-	public LearningDemonstrationTemplate $ld;
 
-	public function mount(LearningDemonstrationTemplate $learningDemonstration)
+	public function mount(LearningDemonstrationTemplate|LearningDemonstration $learningDemonstration)
 	{
-		// Do we have system AI permissions?
-		$this->canUseAI = auth()->user()->canUseAi();
 		$this->ld = $learningDemonstration;
+		// Do we have system AI permissions?
+		$this->canUseAI = ($learningDemonstration instanceof LearningDemonstrationTemplate) && auth()->user()->canUseAi();
 		if(count($this->resources) == 0)
-			$this->resources = array_map(fn($link) => $link->toArray(), $this->ld->links);
+			$this->resources = array_map(fn($link) => $link->toArray(), $learningDemonstration->links);
 	}
 	
 	public function addResource()

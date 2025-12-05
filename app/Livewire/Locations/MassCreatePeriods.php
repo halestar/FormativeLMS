@@ -2,7 +2,7 @@
 
 namespace App\Livewire\Locations;
 
-use App\Classes\Days;
+use App\Classes\Settings\Days;
 use App\Models\Locations\Campus;
 use App\Models\Schedules\Period;
 use Illuminate\Support\Carbon;

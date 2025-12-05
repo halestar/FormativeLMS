@@ -4,7 +4,6 @@ namespace App\Classes\Integrators\Local\Services;
 
 use App\Classes\Integrators\Local\Connections\LocalDocumentsConnection;
 use App\Enums\IntegratorServiceTypes;
-use App\Interfaces\Integrators\IntegrationServiceInterface;
 use App\Models\Integrations\Integrator;
 use App\Models\Integrations\LmsIntegrationService;
 use App\Models\People\Person;
@@ -95,4 +94,9 @@ class LocalDocumentsService extends LmsIntegrationService
 	{
 		return '';
 	}
+
+    public function canEnable(): bool
+    {
+        return true;
+    }
 }

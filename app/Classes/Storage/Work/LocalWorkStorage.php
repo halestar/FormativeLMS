@@ -26,7 +26,7 @@ class LocalWorkStorage extends WorkStorage
 		return __('settings.storage.work.local.instance.help');
 	}
 	
-	public function toArray()
+	public function toArray(): array
 	{
 		return
 			[
@@ -57,8 +57,7 @@ class LocalWorkStorage extends WorkStorage
 		$workFile->public = $fileable->shouldBePublic();
 		$workFile->save();
 		//finally, we link the file
-		$fileable->workFiles()
-		         ->attach($workFile);
+		$fileable->workFiles()->save($workFile);
 		return $workFile;
 	}
 	

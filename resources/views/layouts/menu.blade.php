@@ -124,9 +124,15 @@
                                         {{ __('system.menu.system.tables') }}
                                     </a>
                                 @endcan
-                                @can('cms')
-                                    <a class="dropdown-item" href="/cms">
-                                        {{ __('system.menu.cms') }}
+                                @can('school')
+                                    <a class="dropdown-item" href="{{ route('settings.school') }}">
+                                        {{ __('system.menu.school.settings') }}
+                                    </a>
+                                @endcan
+                                @can('settings.integrators')
+                                    <a class="dropdown-item"
+                                       href="{{ route(\App\Models\Integrations\Integrator::INTEGRATOR_ACTION_PREFIX . "index") }}">
+                                        {{ __('system.menu.integrators') }}
                                     </a>
                                 @endcan
                                 @can('people.roles.fields')
@@ -139,20 +145,9 @@
                                         {{ __('system.menu.fields') }}
                                     </a>
                                 @endcan
-                                @can('school')
-                                    <a class="dropdown-item" href="{{ route('settings.school') }}">
-                                        {{ __('system.menu.school.settings') }}
-                                    </a>
-                                @endcan
-                                @can('settings.integrators')
-                                    <a class="dropdown-item"
-                                       href="{{ route(\App\Models\Integrations\Integrator::INTEGRATOR_ACTION_PREFIX . "index") }}">
-                                        {{ __('system.menu.integrators') }}
-                                    </a>
-                                @endcan
-                                @can('school.emails')
-                                    <a class="dropdown-item" href="{{ route('settings.school.emails') }}">
-                                        {{ __('system.menu.school.emails') }}
+                                @can('cms')
+                                    <a class="dropdown-item" href="/cms">
+                                        {{ __('system.menu.cms') }}
                                     </a>
                                 @endcan
                             </div>
@@ -204,31 +199,17 @@
             </ul>
             <ul class="navbar-nav ms-auto">
                 @auth
-                    <li class="nav-item">
+                    <li class="nav-item my-auto">
                         <button type="button" class="btn btn-success rounded rounded-5 btn-sm" data-bs-toggle="modal"
                                 data-bs-target="#search-modal"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </li>
-                    <li class="ms-3 nav-item">
-                        <livewire:message-notifier/>
+                    <li class="ms-3 nav-item my-auto">
+                        <livewire:utilities.message-notifier/>
                     </li>
-                    <li class="nav-item dropdown ms-3  @if(Auth::user()->alertNotifications()->count() == 0) d-none @endif"
-                        id="notification-menu">
-                        <a id="user-notifications" class="nav-link dropdown-toggle p-0" href="#" role="button"
-                           data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            <i class="fa-solid fa-bell fs-1 text-bright-alert"></i>
-                        </a>
-
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="user-notifications"
-                             id="notifications-dropdown-container">
-                            @foreach(Auth::user()->alertNotifications as $notification)
-                                @continue($notification->type == \App\Notifications\NewClassMessageNotification::class)
-                                <x-notification :notification="$notification"/>
-                            @endforeach
-                        </div>
-                    </li>
+                    <livewire:utilities.alert-manager />
                 @endauth
 
-                <li class="nav-item">
+                <li class="nav-item  my-auto">
                     <x-utilities.language-switcher/>
                 </li>
             </ul>

@@ -4,8 +4,10 @@
 namespace App\Classes\Integrators;
 
 use App\Enums\IntegratorServiceTypes;
+use App\Models\Integrations\IntegrationConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\Integrations\Integrator;
+use App\Models\People\Person;
 use Illuminate\Support\Collection;
 
 class IntegrationsManager
@@ -40,14 +42,10 @@ class IntegrationsManager
 	 */
 	public function getAvailableServices(?IntegratorServiceTypes $type = null): Collection
 	{
-		$services = IntegrationService::select('integration_services.*')
-		                              ->join('integrators', 'integrators.id', '=',
-			                              'integration_services.integrator_id');
+		$services = IntegrationService::enabled()->whereHas('integrator', fn($q) => $q->enabled());
 		if($type)
-			$services->where('integration_services.service_type', $type);
-		return $services->where('integrators.enabled', true)
-		                ->where('integration_services.enabled', true)
-		                ->get();
+			$services->where('service_type', $type);
+		return $services->get();
 	}
 	
 	/**
@@ -109,6 +107,7 @@ class IntegrationsManager
 			$service->integrator_id = $integrator->id;
 			$service->data = ($service)::getDefaultData();
 			$service->service_type = ($service)::getServiceType();
+            $service->enabled = $service->canEnable();
 		}
 		//the service is already registered, so we will update the class name
 		$service->className = $serviceClass;
@@ -118,12 +117,12 @@ class IntegrationsManager
 		$service->can_connect_to_people = ($service)::canConnectToPeople();
 		$service->can_connect_to_system = ($service)::canConnectToSystem();
 		$service->configurable = ($service)::canBeConfigured();
-		$service->enabled = true;
 		//we only update the data if the forced flag is set.
 		if($force)
 		{
 			$service->data = ($service)::getDefaultData();
 			$service->inherit_permissions = true;
+            $service->enabled = $service->canEnable();
 		}
 		$service->save();
 		//is this a system service, should we autoconnect?
@@ -131,4 +130,33 @@ class IntegrationsManager
 			$service->connectToSystem();
 		return $service;
 	}
+
+    public function systemConnections(IntegratorServiceTypes $type = null): Collection
+    {
+        $query = IntegrationConnection::enabled()->whereNull('person_id');
+        if($type)
+            $query->whereHas('service', fn($q) => $q->where('service_type', $type));
+        return $query->get();
+    }
+    public function personalConnections(Person $person, IntegratorServiceTypes $type = null): Collection
+    {
+        $query = IntegrationConnection::enabled()->where('person_id', $person->id);
+        if($type)
+            $query->whereHas('service', fn($q) => $q->where('service_type', $type));
+        return $query->get();
+    }
+
+    public function unconnectedPersonalServices(Person $person, IntegratorServiceTypes $type): Collection
+    {
+        return IntegrationService::enabled()->where('service_type', $type)
+            ->whereDoesntHave('personalConnections', fn($q) => $q->where('person_id', $person->id))
+            ->get();
+    }
+
+    public function hasPersonalConnection(Person $person, IntegratorServiceTypes $type): bool
+    {
+        return IntegrationConnection::enabled()->where('person_id', $person->id)
+            ->whereHas('service', fn($q) => $q->where('service_type', $type))
+            ->exists();
+    }
 }

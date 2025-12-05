@@ -15,6 +15,9 @@
             @if($onChange)
                 @click="{!! $onChange !!}"
             @endif
+            @if($disabled)
+                disabled
+            @endif
     />
     @if($label)
         <label class="form-check-label" for="{{ $elId }}">{{ $label }}</label>

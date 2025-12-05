@@ -1,25 +1,26 @@
 <div class="container">
+    @use('App\Enums\Auth\LoginStages');
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
-
                 <div class="card-body">
-                    @if($accountError)
-                        <div class="alert alert-danger">
-                            {{ __('errors.auth.account') }}
-                        </div>
-                    @else
-                        @if($promptEmail)
-                            @if($lockedUser)
-                                <div class="alert alert-danger">
-                                    @if(!$lockedUntil)
-                                        {{ __('errors.auth.locked.admin') }}
-                                    @else
-                                        {{ __('errors.auth.locked', ['time' => $lockedUntil->diffForHumans()]) }}
-                                    @endif
-                                </div>
-                            @endif
+                    @switch($stage)
+                        @case(LoginStages::BlockedLogin)
+                            <div class="alert alert-danger">
+                                {{ __('errors.auth.account') }}
+                            </div>
+                        @break
+                        @case(LoginStages::LockedUser)
+                            <div class="alert alert-danger">
+                                @if(!$lockedUntil)
+                                    {{ __('errors.auth.locked.admin') }}
+                                @else
+                                    {{ __('errors.auth.locked', ['time' => $lockedUntil->diffForHumans()]) }}
+                                @endif
+                            </div>
+                        @break
+                        @case(LoginStages::PromptEmail)
                             <form wire:submit="submitEmail">
                                 <div class="input-group mb-3 has-validation">
                                     <span class="input-group-text"
@@ -30,7 +31,7 @@
                                             class="form-control @error('email') is-invalid @enderror"
                                             name="email"
                                             required
-                                            autocomplete="email"
+                                            autocomplete="username"
                                             autofocus
                                             aria-label="{{ __('people.profile.fields.email') }}"
                                             aria-describedby="email-span"
@@ -59,7 +60,8 @@
                                     </div>
                                 </div>
                             </form>
-                        @elseif($promptPassword)
+                        @break
+                        @case(LoginStages::PromptPassword)
                             <div class="input-group mb-3">
                                 <span class="input-group-text"
                                       id="email-span">{{ __('people.profile.fields.email') }}</span>
@@ -71,7 +73,8 @@
                                         value="{{ $email }}"
                                         disabled
                                         readonly
-                                >
+                                        autocomplete="username"
+                                />
                             </div>
                             <form wire:submit="submitPassword">
                                 <div class="input-group mb-3" x-data x-init="$refs.password.focus()">
@@ -103,11 +106,12 @@
                                     <button
                                             type="button"
                                             class="btn btn-danger mx-2"
-                                            wire:click="returnToEmail"
+                                            wire:click="set('stage', LoginStages::PromptEmail)"
                                     >{{ __('common.cancel') }}</button>
                                 </div>
                             </form>
-                        @elseif($promptMethod)
+                        @break
+                        @case(LoginStages::PromptMethod)
                             <h3>Select a sign-in method for {{ $user->system_email }}</h3>
                             <div class="d-flex flex-column align-items-center">
                                 @foreach($methodOptions as $service_id => $button)
@@ -116,7 +120,8 @@
                                     </div>
                                 @endforeach
                             </div>
-                        @elseif($codeVerification)
+                        @break
+                        @case(LoginStages::CodeVerification)
                             <form wire:submit="submitVerification">
                                 <div class="alert alert-info mb-3">
                                     {{ __('settings.auth.verify.instructions', ['email' => $user->system_email, 'time' => config('lms.auth_code_timeout')]) }}
@@ -172,7 +177,8 @@
                                 </div>
                                 @enderror
                             </form>
-                        @elseif($codeTimeout)
+                        @break
+                        @case(LoginStages::CodeTimeout)
                             <div class="alert alert-danger">
                                 {{ __('errors.auth.verification.timeout') }}
                             </div>
@@ -185,11 +191,12 @@
                                     {{ __('common.cancel') }}
                                 </button>
                             </div>
-                        @elseif($resetPassword)
+                        @break
+                        @case(LoginStages::ResetPassword)
                             <h4>{{ __('settings.auth.password.reset.for', ['user' => $user->system_email]) }}</h4>
                             <livewire:auth.change-password-form :person="$user" :auth-first="false"/>
-                        @endif
-                    @endif
+                        @break
+                    @endswitch
                 </div>
             </div>
         </div>

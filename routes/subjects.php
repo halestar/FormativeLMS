@@ -1,12 +1,19 @@
 <?php
 
+use App\Http\Controllers\ClassManagement\SkillsController;
+use App\Http\Controllers\ClassManagement\StudentEnrollmentController;
+use App\Http\Controllers\School\ClassController;
 use App\Http\Controllers\School\StudentTrackerController;
+use App\Http\Controllers\SubjectMatter\CourseController;
+use App\Http\Controllers\SubjectMatter\SchoolClassController;
+use App\Http\Controllers\SubjectMatter\SubjectsController;
+use App\Livewire\School\ClassMessages\MyMessages;
 use Illuminate\Support\Facades\Route;
 
 //Subjects
 Route::prefix('subjects')
      ->name('subjects.')
-     ->controller(\App\Http\Controllers\SubjectMatter\SubjectsController::class)
+     ->controller(SubjectsController::class)
      ->group(function()
      {
 	     Route::get('/{campus?}', 'index')
@@ -26,7 +33,7 @@ Route::prefix('subjects')
 //Courses
 Route::prefix('courses')
      ->name('courses.')
-     ->controller(\App\Http\Controllers\SubjectMatter\CourseController::class)
+     ->controller(CourseController::class)
      ->group(function()
      {
 	     Route::get('/{subject?}', 'index')
@@ -44,7 +51,7 @@ Route::prefix('courses')
 //School Class Management
 Route::prefix('classes')
      ->name('classes.')
-     ->controller(\App\Http\Controllers\SubjectMatter\SchoolClassController::class)
+     ->controller(SchoolClassController::class)
      ->group(function()
      {
 	     Route::get('/{course?}', 'index')
@@ -60,7 +67,7 @@ Route::prefix('classes')
 //Class Enrollment
 Route::prefix('enrollment')
      ->name('enrollment.')
-     ->controller(\App\Http\Controllers\ClassManagement\StudentEnrollmentController::class)
+     ->controller(StudentEnrollmentController::class)
      ->group(function()
      {
 	     Route::get('/enrollment/general', 'general')
@@ -70,12 +77,11 @@ Route::prefix('enrollment')
 //Anything related to the school's class management system
 Route::prefix('school/classes')
      ->name('school.classes.')
-     ->controller(\App\Http\Controllers\School\ClassController::class)
      ->group(function()
      {
-	     Route::get('/messages', 'classMessages')
+	     Route::get('/messages', MyMessages::class)
 	          ->name('messages');
-	     Route::get('/{classSession}', 'show')
+	     Route::get('/{classSession}', [ClassController::class, 'show'])
 	          ->name('show');
      });
 
@@ -88,7 +94,7 @@ Route::resource('student-tracker', StudentTrackerController::class)
 //skill management
 Route::prefix('skills')
      ->name('skills.')
-     ->controller(\App\Http\Controllers\ClassManagement\SkillsController::class)
+     ->controller(SkillsController::class)
      ->group(function()
      {
 	     Route::get('/', 'index')

@@ -128,4 +128,9 @@ class LocalWorkFilesService extends LmsIntegrationService
 	{
 		return '';
 	}
+
+    public function canEnable(): bool
+    {
+        return true;
+    }
 }

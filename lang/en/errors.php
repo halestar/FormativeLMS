@@ -3,7 +3,7 @@
 return
 	[
 		'attribute.html' => 'The :attribute field must be a valid HTML string.',
-		'auth.account' => 'There is a problem with your account. Please contact your administrator.',
+		'auth.blocked' => 'This account cannot login to this system. If you believe this is an error, please contact your administrator.',
 		'auth.locked' => 'This user is locked out for :time',
 		'auth.locked.admin' => 'This user is locked out by the administrator.',
 		'auth.password' => 'The provided password is incorrect.',

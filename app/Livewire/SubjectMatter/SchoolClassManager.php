@@ -2,7 +2,8 @@
 
 namespace App\Livewire\SubjectMatter;
 
-use App\Classes\Days;
+
+use App\Classes\Settings\Days;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Term;
 use App\Models\People\Person;

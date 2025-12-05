@@ -2,11 +2,12 @@
 
 namespace App\Classes\IdCard;
 
+use App\Interfaces\Synthesizable;
 use App\Models\People\Person;
 use Illuminate\Contracts\Support\Arrayable;
 use JsonSerializable;
 
-abstract class IdCardElement implements Arrayable, JSONSerializable
+abstract class IdCardElement implements Synthesizable
 {
 	protected static array $configDefaults =
 		[
@@ -76,8 +77,6 @@ abstract class IdCardElement implements Arrayable, JSONSerializable
 	public abstract function __construct();
 	
 	public abstract static function getName(): string;
-	
-	public abstract static function hydrate(array $data): IdCardElement;
 	
 	public abstract function render(Person $person): string;
 	

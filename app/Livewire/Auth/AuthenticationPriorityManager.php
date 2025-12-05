@@ -5,6 +5,7 @@ namespace App\Livewire\Auth;
 use App\Classes\Auth\AuthenticationDesignation;
 use App\Classes\Settings\AuthSettings;
 use App\Models\Utilities\SchoolRoles;
+use Illuminate\Support\Facades\Log;
 use Livewire\Component;
 
 class AuthenticationPriorityManager extends Component
@@ -46,6 +47,9 @@ class AuthenticationPriorityManager extends Component
 	
 	public function updateAuthentication($priority, $service_ids)
 	{
+        if(!is_array($service_ids) && !$service_ids)
+            $service_ids = null;
+        Log::debug("Updating priority $priority with services " . print_r($service_ids, true));
 		$this->priorities[$priority]->updateServices($service_ids);
 		$this->changed = true;
 	}

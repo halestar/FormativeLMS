@@ -3,10 +3,12 @@
 namespace App\Livewire\Auth;
 
 use App\Classes\Settings\AuthSettings;
+use App\Enums\Auth\LoginStages;
 use App\Mail\ResetPasswordMail;
 use App\Models\Integrations\IntegrationService;
 use App\Models\People\Person;
 use App\Models\Utilities\SystemSetting;
+use App\Notifications\Auth\ResetPasswordNotification;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
@@ -22,35 +24,23 @@ class LoginForm extends Component
 	public string $email = '';
 	public bool $rememberMe = false;
 	public string $password = '';
+
+    public string $userAuthCode = '';
 	
 	// User Authentication
 	public ?Person $user = null;
 	public array $methodOptions = [];
-	/* @var AuthSettings $authSettings */
-	public SystemSetting $authSettings;
-	
-	//Stage Tracking
-	public bool $promptEmail = true;
-	public bool $promptMethod = false;
-	public bool $promptPassword = false;
-	public bool $codeVerification = false;
-	public bool $codeTimeout = false;
-	public bool $resetPassword = false;
-	
-	// Account Flags
-	public bool $lockedUser = false;
-	public bool $accountError = false;
+
+	public LoginStages $stage = LoginStages::PromptEmail;
 	
 	//Verification Variables
 	public string $authCode = '';
-	public string $userAuthCode = '';
 	public ?Carbon $authCodeExpires = null;
 	public bool $canResetPassword = false;
 	public ?Carbon $lockedUntil = null;
 	
-	public function mount(AuthSettings $authSettings)
+	public function mount()
 	{
-		$this->authSettings = $authSettings;
 		//first, we check if there is a cookie set
 		if(Cookie::has('remember-me'))
 		{
@@ -59,71 +49,70 @@ class LoginForm extends Component
 		}
 	}
 	
-	public function submitMethod(IntegrationService $service)
-	{
-		$connection = $service->connect($this->user);
-		if($connection)
-		{
-			$this->user->authConnection()
-			           ->associate($connection);
-			$this->user->save();
-		}
-		$this->submitEmail();
-	}
-	
 	public function submitEmail()
 	{
 		$this->user = null;
+        //validate the email
 		$data = $this->validate([
 			'email' => 'required|email|exists:people,email',
 		]);
+        //set the cookie or forget it, depending on the checkbox.
 		if($this->rememberMe)
 			Cookie::queue(cookie()->forever('remember-me', $data['email']));
 		else
 			Cookie::forget('remember-me');
+        //get the user. We know they exist because of the email validation.
 		$this->user = Person::where('email', $data['email'])
 		                    ->first();
-		if(!$this->user->authConnection)
+        //now, we check if the user has an auth connection.
+        $connection = $this->user->authConnection;
+		if(!$connection)
 		{
 			//in this case, we need to determine which authenticator (or more) apply to this user
 			//based on the auth settings
-			$services = $this->authSettings->determineAuthentication($this->user);
+            $authSettings = app(AuthSettings::class);
+			$services = $authSettings->determineAuthentication($this->user);
+            //if the service returned null, then this type of account is blocked.
 			if(!$services)
 			{
 				//this is a bad error, so crap out.
-				$this->accountError = true;
+				$this->stage = LoginStages::BlockedLogin;
 				return;
 			}
-			//do we have a single authenticator? or does the user have to choose?
+			//If we get a Collection back, the user must select their preferred method.
 			if($services instanceof Collection && $services->count() > 1)
 			{
 				//in this case, we need to show the user the choosing form.
-				$this->gotoStage('promptMethod');
+				$this->stage = LoginStages::PromptMethod;
 				$this->methodOptions = [];
 				foreach($services as $service)
 					$this->methodOptions[$service->id] = ($service->getConnectionClass())::loginButton();
 				return;
 			}
+            //if we get a single service back, we can just connect it.
 			if($services instanceof Collection && $services->count() == 1)
 				$services = $services->first();
+            //if not, then $services is assumed to be a single service of type LmsIntegrationService.
+            //so we establish the connection.
 			$connection = $services->connect($this->user);
-			Log::debug(print_r($connection, true));
+            //and save it to the user's auth connection
 			$this->user->authConnection()
 			           ->associate($connection);
 			$this->user->save();
 			$this->user->refresh();
 		}
-		$connection = $this->user->authConnection;
 		//since we have a valid user, we know if we can reset the password.
 		$this->canResetPassword = $connection->canResetPassword();
 		//is the user locked?
-		if($connection->isLocked()) //in this case, we show a locked user error
-			$this->lockUser($connection->lockedUntil());
+		if($connection->isLocked())
+        {
+            //in this case, we show a locked user error
+            $this->lockedUntil = $connection->lockedUntil();
+            $this->stage = LoginStages::LockedUser;
+        }
 		elseif($connection->requiresPassword())
 		{
-			//In this case we have a valid user that needs to be prompted for a password.
-			$this->gotoStage('promptPassword');
-			$this->lockedUser = false;
+            $this->stage = LoginStages::PromptPassword;
 		}
 		elseif($connection->requiresRedirection())
 		{
@@ -133,24 +122,19 @@ class LoginForm extends Component
 				$this->redirect($target->getTargetUrl());
 		}
 	}
-	
-	public function gotoStage($stage)
-	{
-		$this->promptEmail = false;
-		$this->promptMethod = false;
-		$this->promptPassword = false;
-		$this->codeVerification = false;
-		$this->codeTimeout = false;
-		$this->resetPassword = false;
-		$this->$stage = true;
-	}
-	
-	private function lockUser(Carbon $until = null)
-	{
-		$this->lockedUser = true;
-		$this->lockedUntil = $until;
-		$this->gotoStage('promptEmail');
-	}
+
+
+    public function submitMethod(IntegrationService $service)
+    {
+        $connection = $service->connect($this->user);
+        if($connection)
+        {
+            $this->user->authConnection()
+                ->associate($connection);
+            $this->user->save();
+        }
+        $this->submitEmail();
+    }
 	
 	public function submitPassword()
 	{
@@ -162,15 +146,18 @@ class LoginForm extends Component
 			//The password was authenticated. If the user does not need to change their password, they're in and can be redirected.
 			if(!$connection->mustChangePassword())
 			{
-				$this->redirectIntended(route('home'));
-				return;
+				$this->redirect($connection->completeLogin($this->user));
+                return;
 			}
 			//else, we take them to the change password form.
-			$this->gotoStage('resetPassword');
+			$this->stage = LoginStages::ResetPassword;
 		}
 		//the login failed, is the account now locked?
 		if($connection->isLocked())
-			$this->lockUser($connection->lockedUntil());
+        {
+            $this->lockedUntil = $connection->lockedUntil();
+            $this->stage = LoginStages::LockedUser;
+        }
 		else
 		{
 			//the account is ok, just a wrong password, so we throw an error
@@ -178,12 +165,6 @@ class LoginForm extends Component
 			//and clear the password
 			$this->password = '';
 		}
-	}
-	
-	public function returnToEmail()
-	{
-		$this->user = null;
-		$this->gotoStage('promptEmail');
 	}
 	
 	
@@ -197,10 +178,9 @@ class LoginForm extends Component
 		$this->authCodeExpires = Carbon::now()
 		                               ->addMinutes(config('lms.auth_code_timeout'));
 		//go to the verification stage
-		$this->gotoStage('codeVerification');
+		$this->stage = LoginStages::CodeVerification;
 		//and send the code
-		Mail::to($this->user->system_email)
-		    ->send(new ResetPasswordMail($this->user, $this->authCode));
+        $this->user->notify(new ResetPasswordNotification($this->user, $this->authCode));
 	}
 	
 	public function submitVerification()
@@ -216,12 +196,12 @@ class LoginForm extends Component
 			return;
 		}
 		//in this case, the code is correct, so we reset the password.
-		$this->gotoStage('resetPassword');
+		$this->stage = LoginStages::ResetPassword;
 	}
 	
 	public function timeoutTimer()
 	{
-		$this->gotoStage('codeTimeout');
+		$this->stage = LoginStages::CodeTimeout;
 		$this->authCode = '';
 		$this->authCodeExpires = null;
 	}
@@ -235,33 +215,30 @@ class LoginForm extends Component
 	public function passwordReset()
 	{
 		//first, we are here because the user HAD to change their password?
-		$connection = $this->user->authConnection;
+		$connection = $this->user?->authConnection;
 		if($connection)
 		{
 			if($connection->mustChangePassword())
 			{
-				//yes, so we will clear the change passweord directive and log the person in.
+				//yes, so we will clear the change password directive and log the person in.
 				$connection->setMustChangePassword(false);
-				Auth::guard()
-				    ->login($this->user, $this->rememberMe);
-				//regenerate the session
-				request()
-					->session()
-					->regenerate();
-				$this->redirectIntended(route('home'));
+				$this->redirect($connection->completeLogin($this->user));
 				return;
 			}
 			$this->authCode = '';
 			$this->authCodeExpires = null;
 			$this->userAuthCode = '';
-			if($this->user)
-			{
-				$this->gotoStage('promptPassword');
-			}
-			else
-			{
-				$this->gotoStage('promptEmail');
-			}
+            $this->stage = LoginStages::PromptPassword;
 		}
+        else
+        {
+            $this->user = null;
+            $this->email = '';
+            $this->password = '';
+            $this->authCode = '';
+            $this->authCodeExpires = null;
+            $this->userAuthCode = '';
+            $this->stage = LoginStages::PromptEmail;
+        }
 	}
 }

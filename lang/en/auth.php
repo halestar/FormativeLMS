@@ -15,4 +15,7 @@ return
 		'password' => 'The provided password is incorrect.',
 		'storage' => 'Storage',
 		'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+        'block' => 'Block Access',
+        'roles.min' => 'Select at least one role.',
+        'communications' => 'Communications',
 	];

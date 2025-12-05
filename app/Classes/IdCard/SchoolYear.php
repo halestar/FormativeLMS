@@ -19,7 +19,7 @@ class SchoolYear extends IdCardElement
 		return __('people.id.year');
 	}
 	
-	public static function hydrate(array $data): IdCardElement
+	public static function hydrate(array $data): static
 	{
 		$schoolYear = new SchoolYear();
 		$schoolYear->colSpan = $data['colspan'];

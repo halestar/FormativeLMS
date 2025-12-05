@@ -2,9 +2,9 @@
 
 namespace App\Models\Locations;
 
+use App\Models\Scopes\OrderByNameScope;
 use App\Models\SubjectMatter\ClassSession;
 use App\Traits\SinglePhoneable;
-use halestar\LaravelDropInCms\Models\Scopes\OrderByNameScope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

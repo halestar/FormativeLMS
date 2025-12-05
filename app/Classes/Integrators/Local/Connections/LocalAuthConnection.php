@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Hash;
 class LocalAuthConnection extends AuthConnection
 {
 	use ThrottlesLogins;
-	
+
 	protected static array $instanceDefaults =
 		[
 			'password' => null,
@@ -86,16 +86,6 @@ EOHTML;
 		//is the password correct?
 		if(Hash::check($password, $this->data->password))
 		{
-			//log the person in
-			if($autoLogin)
-			{
-				Auth::guard()
-				    ->login($this->person, $rememberMe);
-				//regenerate the session
-				request()
-					->session()
-					->regenerate();
-			}
 			$this->clearLoginAttempts(request());
 			return true;
 		}

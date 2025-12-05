@@ -36,7 +36,7 @@
                     <select name="copy_days" id="copy_days" class="form-select" wire:model="copy_day"
                             wire:change="updateCopyPeriods()">
                         <option value="0">{{ __('locations.period.day.all') }}</option>
-                        @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                        @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                             <option value="{{ $dayId }}">{{ $dayName }}</option>
                         @endforeach
                     </select>
@@ -62,7 +62,7 @@
                            class="input-group-text">{{ __('locations.periods.mass.copy.day.from') }}</label>
                     <select id="copy_from_day" class="form-select" wire:model="copy_from_day"
                             wire:change="updateCopyToDay()">
-                        @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                        @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                             <option value="{{ $dayId }}">{{ $dayName }}</option>
                         @endforeach
                     </select>
@@ -70,7 +70,7 @@
                     <select id="copy_to_day" class="form-select" wire:model="copy_to_day"
                             wire:change="updateCopyToDay()">
                         <option value="0">{{ __('locations.period.day.all') }}</option>
-                        @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                        @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                             <option value="{{ $dayId }}">{{ $dayName }}</option>
                         @endforeach
                     </select>
@@ -89,7 +89,7 @@
                     <label for="copy_days" class="input-group-text">{{ __('locations.period.mass.create.on') }} </label>
                     <select name="copy_days" id="copy_days" class="form-select" wire:model="create_day"
                             wire:change="updateMassCreate()">
-                        @foreach(\App\Classes\Days::weekdaysOptions() as $dayId => $dayName)
+                        @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                             <option value="{{ $dayId }}">{{ $dayName }}</option>
                         @endforeach
                     </select>

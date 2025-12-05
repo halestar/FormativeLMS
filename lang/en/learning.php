@@ -104,6 +104,8 @@ return
 	'demonstrations.share_submissions' => 'Share Submissions',
 	'demonstrations.share_submissions.description' => 'This makes available submissions by other students once the student submits their work.',
 	'demonstrations.post' => 'Post Learning Demonstration',
+	'demonstrations.post.to' => 'Posted To',
+	'demonstrations.edit' => 'Edit Learning Demonstration',
 	'demonstrations.post.on' => 'Post On',
 	'demonstrations.due.on' => 'Due On',
 	'demonstrations.post.other' => 'Post to Other Classes',
@@ -111,4 +113,6 @@ return
 	'demonstrations.post.class' => 'Post to Whole Class',
 	'demonstrations.post.students.only' => 'Post only to selected students',
 	'demonstrations.assess' => 'Assess Learning Demonstration',
+	'demonstrations.opportunities' => 'Learning Demonstration Opportunity|Learning Demonstration Opportunities',
+	'demonstrations.templates' => 'Learning Template|Learning Templates',
 ];

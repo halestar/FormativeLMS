@@ -4,6 +4,7 @@ namespace App\Policies;
 
 use App\Enums\ClassViewer;
 use App\Models\People\Person;
+use App\Models\People\StudentRecord;
 use App\Models\SubjectMatter\ClassSession;
 
 class ClassSessionPolicy

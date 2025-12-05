@@ -22,6 +22,17 @@ return [
 			\App\Classes\IdCard\SchoolYear::class,
 			\App\Classes\IdCard\StudentGrade::class,
 		],
+    'prefs_default' =>
+    [
+        'communications' =>
+        [
+            'send_email' => true,
+            'send_sms' => false,
+            'send_push' => true,
+            'sms_phone_id' => null,
+            'services' => [],
+        ],
+    ],
 	'fonts' =>
 		[
 			'Arial',
@@ -53,4 +64,5 @@ return [
 			'disk' => 'private',
 			'path' => 'vault',
 		],
+	'temp-filer-expiration' => 10, //in minutes
 ];

@@ -14,6 +14,7 @@ $breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/
 @import 'profile';
 @import 'schedule';
 @import 'school_layout';
+@import 'tooltips';
 
 .count-message {
     margin-top: -20px;
@@ -242,9 +243,28 @@ $img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "t
     width: 16px;
     height: 16px;
     display: inline-block;
-    margin-right: 5px;
     border: 1px solid black;
 }
+
+
+.chat-header
+{
+  height: 55px;
+  max-height: 55px;
+  min-height: 55px;
+  width: 100%;
+}
+
+.message-container
+{
+  flex: 1;
+  overflow-y: auto;
+  max-height: calc(100% - 55px);
+  height: calc(100% - 55px);
+  min-height: 0;
+  width: 100%;
+}
+
 
 //avatar list
 //global thumbnail pics
@@ -260,7 +280,7 @@ $img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "t
     padding: 0;
 }
 
-$img-icon-sizes: ("xl": 96px, "large": 48px, "normal": 32px, "small": 24px, "tiny": 16px);
+$img-icon-sizes: ("xl": 64px, "large": 48px, "normal": 32px, "small": 24px, "tiny": 16px);
 @each $name, $size in $img-icon-sizes {
     .avatar-img-#{$name} {
         max-width: $size;
@@ -343,4 +363,32 @@ $img-icon-sizes: ("xl": 96px, "large": 48px, "normal": 32px, "small": 24px, "tin
   100% {
     --gradient-percent: 0%
   }
+}
+
+//inset box shadows
+.shadow-inset
+{
+  box-shadow: inset #{$box-shadow};
+}
+
+.shadow-sm-inset
+{
+  box-shadow: inset #{$box-shadow-sm};
+}
+
+.shadow-lg-inset
+{
+  box-shadow: inset #{$box-shadow-lg};
+}
+
+input[type=number]
+{
+  max-width: 75px !important;
+  text-align: center;
+}
+
+input[type="datetime-local"]
+{
+  min-width: 200px !important;
+  max-width: 250px !important;
 }

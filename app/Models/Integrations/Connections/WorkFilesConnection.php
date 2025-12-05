@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 
 abstract class WorkFilesConnection extends IntegrationConnection implements IntegrationConnectionInterface
 {
-	public static function getInstanceDefault(): array
+	final public static function getInstanceDefault(): array
 	{
 		return [];
 	}
@@ -54,5 +54,20 @@ abstract class WorkFilesConnection extends IntegrationConnection implements Inte
 	 * @return WorkFile Returns the new file created.
 	 */
 	abstract public function copyWorkFile(WorkFile $file, Fileable $destination): WorkFile;
+
+	/**
+	 * Shit happens. Sometimes objects don't get deleted properly, sometimes some errors in other
+	 * parts of the code lead to links not happening, etc. This function will attempt to clean up
+	 * your work files by doing two things:
+	 * 1. Deleting any of your files that do not have an entry in the work_files table.
+	 * 2. Attempting to load every work file in your connection and verify that it is linked to a fileable object,
+	 * and that the fileable object still exists. If it does not, delete the work file and the corresponding file in your
+	 * storage.
+	 * This function only runs on a script, so it can be slow if needed. You may also choose to only execute parts of
+	 * function at different intervals. You can do this by setting a last_cleaned timestamp in the data
+	 * section of the connection.
+	 * @return void
+	 */
+	abstract public function cleanup(): void;
 	
 }

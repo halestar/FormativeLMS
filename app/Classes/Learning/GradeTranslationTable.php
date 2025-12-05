@@ -2,12 +2,13 @@
 
 namespace App\Classes\Learning;
 
+use App\Interfaces\Synthesizable;
 use Illuminate\Contracts\Database\Eloquent\CastsAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 
-class GradeTranslationTable implements Arrayable, \JsonSerializable, CastsAttributes
+class GradeTranslationTable implements Synthesizable
 {
 	public Collection $rows;
 	public int $filter = 0;
@@ -19,7 +20,7 @@ class GradeTranslationTable implements Arrayable, \JsonSerializable, CastsAttrib
 			$this->rows->push(new GradeTranslationRow($row));
 	}
 	
-	public function toArray()
+	public function toArray(): array
 	{
 		$r = [];
 		foreach($this->rows as $row)
@@ -92,4 +93,9 @@ class GradeTranslationTable implements Arrayable, \JsonSerializable, CastsAttrib
 	{
 		$this->rows[$index] = $row;
 	}
+
+    public static function hydrate(array $data): static
+    {
+        return new static($data);
+    }
 }

@@ -2,7 +2,7 @@
 
     <div class="schedule-header" style="height: {{ $headerHeight }}px;">
         <div class="schedule-empty" style="width: {{ $hourWidth }}px; height: 100%;"></div>
-        @foreach(\App\Classes\Days::schoolDaysOptions() as $dayId => $day)
+        @foreach(\App\Classes\Settings\Days::schoolDaysOptions() as $dayId => $day)
             <div class="schedule-header-day"
                  style="width: {{ $hourWidth }}px; line-height: {{ $headerHeight }}px; left: {{ $loop->iteration * $hourWidth }}px">{{ $day }}</div>
         @endforeach
@@ -15,7 +15,7 @@
                      style="height: {{ $hourHeight }}px; line-height: {{ $hourHeight }}px;">{{ $time->format('h:i A') }}</div>
             @endfor
         </div>
-        @foreach(\App\Classes\Days::schoolDaysOptions() as $dayId => $day)
+        @foreach(\App\Classes\Settings\Days::schoolDaysOptions() as $dayId => $day)
             <div class="schedule-day-column @if($loop->first) first @endif"
                  style="width: {{ $hourWidth }}px; height: 100%; left: {{ $loop->iteration * $hourWidth }}px">
                 @for($time = $start->copy(); $time->lte($end); $time->addHour())

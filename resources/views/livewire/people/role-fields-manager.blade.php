@@ -24,7 +24,8 @@
                             class="form-control @error('fieldName') is-invalid @enderror"
                             wire:change="updatePreview()"
                     />
-                    <x-utilities.error-display key="fieldName">{{ $errors->first('fieldName') }}</x-utilities.error-display>
+                    <x-utilities.error-display
+                            key="fieldName">{{ $errors->first('fieldName') }}</x-utilities.error-display>
                 </div>
                 <div class="mb-3">
                     <label for="fieldType" class="form-label">{{ __('people.roles.field.name') }}</label>
@@ -36,21 +37,22 @@
                             class="form-select @error('fieldType') is-invalid @enderror"
                             wire:change="updatePreview()"
                     >
-                        @foreach(\App\Classes\RoleField::FIELDS as $id => $name)
+                        @foreach(\App\Classes\People\RoleField::FIELDS as $id => $name)
                             <option value="{{ $id }}">{{ __($name) }}</option>
                         @endforeach
                     </select>
-                    <x-utilities.error-display key="fieldType">{{ $errors->first('fieldType') }}</x-utilities.error-display>
+                    <x-utilities.error-display
+                            key="fieldType">{{ $errors->first('fieldType') }}</x-utilities.error-display>
                 </div>
                 <div class="mb-3">
                     <label for="fieldHelp" class="form-label">{{ __('people.roles.field.help') }}</label>
                     <textarea type="text" name="fieldHelp" id="fieldHelp" wire:model="fieldHelp" class="form-control"
                               wire:change="updatePreview()"></textarea>
                 </div>
-                @if($fieldType == \App\Classes\RoleField::CHECKBOX || $fieldType == \App\Classes\RoleField::SELECT ||
-                    $fieldType == \App\Classes\RoleField::RADIO)
+                @if($fieldType == \App\Classes\People\RoleField::CHECKBOX || $fieldType == \App\Classes\People\RoleField::SELECT ||
+                    $fieldType == \App\Classes\People\RoleField::RADIO)
 
-                    @if($fieldType == \App\Classes\RoleField::CHECKBOX)
+                    @if($fieldType == \App\Classes\People\RoleField::CHECKBOX)
                         <div class="mb-3">
                             <label class="form-label">{{ __('common.default') }}</label>
                             <br/>
@@ -106,7 +108,8 @@
                         <div id="optionsHelp" class="form-text">
                             {{ __('people.roles.field.options.help') }}
                         </div>
-                        <x-utilities.error-display key="fieldOptions">{{ $errors->first('fieldOptions') }}</x-utilities.error-display>
+                        <x-utilities.error-display
+                                key="fieldOptions">{{ $errors->first('fieldOptions') }}</x-utilities.error-display>
                     </div>
                 @else
                     <div class="mb-3">

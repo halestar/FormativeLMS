@@ -32,8 +32,8 @@ class TextEditor extends Component
     public string $style = "";
     public ?string $name = null;
     public string $id;
-    public string $regex = "/{{\s*$[a-zA-Z][a-zA-Z0-9_]*\s*}}|{!!\s*$[a-zA-Z][a-zA-Z0-9_]*\s*!!}/gu";
-	
+	public string $toolbarMode = "wrap";
+
 	public function mount(string $instanceId, Fileable $fileable, StorageSettings $settings)
 	{
 		$this->fileable = $fileable;

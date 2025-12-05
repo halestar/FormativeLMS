@@ -2,6 +2,8 @@
 
 namespace App\Livewire\Ai;
 
+use App\Classes\Integrators\IntegrationsManager;
+use App\Enums\IntegratorServiceTypes;
 use App\Interfaces\AiPromptable;
 use App\Models\Ai\AiPrompt;
 use App\Models\People\Person;
@@ -26,10 +28,10 @@ class RunModelPrompt extends Component
 	public ?string $teleportTo = null;
 	public string $btnClasses = "btn btn-light";
 	
-	public function mount(AiPromptable $model, string $property)
+	public function mount(AiPromptable $model, string $property, IntegrationsManager $manager)
 	{
 		$this->person = auth()->user();
-		$this->aiConnections = $this->person->aiAccess();
+		$this->aiConnections = $manager->personalConnections($this->person, IntegratorServiceTypes::AI);
 		$this->selectedAiId = $this->aiConnections->first()->id;
 		$this->Llms = $this->aiConnections->first()
 		                                  ->getLlms();
