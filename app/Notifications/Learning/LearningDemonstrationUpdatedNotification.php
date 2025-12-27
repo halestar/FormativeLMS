@@ -64,6 +64,6 @@ class LearningDemonstrationUpdatedNotification extends LmsNotification
 
 	public function actionLink(): string|null
 	{
-		return null;
+		return route('learning.ld.opportunities.demonstrator', $this->opportunity->id);
 	}
 }

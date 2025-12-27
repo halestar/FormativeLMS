@@ -2,6 +2,9 @@
 
 namespace App\Models\Locations;
 
+use App\Casts\People\Portrait;
+use App\Enums\WorkStoragesInstances;
+use App\Interfaces\Fileable;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\Schedules\Block;
@@ -12,8 +15,10 @@ use App\Models\SubjectMatter\Learning\GradeTranslationSchema;
 use App\Models\SubjectMatter\Subject;
 use App\Models\SystemTables\Level;
 use App\Models\SystemTables\Relationship;
+use App\Models\Utilities\WorkFile;
 use App\Traits\Addressable;
 use App\Traits\HasLevels;
+use App\Traits\HasWorkFiles;
 use App\Traits\Phoneable;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Casts\Attribute;
@@ -24,9 +29,9 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Support\Collection;
 
 #[ScopedBy(OrderByOrderScope::class)]
-class Campus extends Model
+class Campus extends Model implements Fileable
 {
-	use Phoneable, Addressable, HasLevels;
+	use Phoneable, Addressable, HasLevels, HasWorkFiles;
 	
 	public $timestamps = true;
 	public $incrementing = true;
@@ -39,18 +44,9 @@ class Campus extends Model
 			'title',
 			'established',
 			'order',
-			'img',
 			'color_pri',
 			'color_sec',
 		];
-	
-	public function img(): Attribute
-	{
-		return Attribute::make
-		(
-			get: fn(?string $img) => $img ?? asset('images/campus_img_placeholder.png'),
-		);
-	}
 	
 	public function canDelete(): bool
 	{
@@ -179,6 +175,7 @@ class Campus extends Model
 		return
 			[
 				'established' => 'date: Y',
+				'img' => Portrait::class,
 			];
 	}
 	
@@ -187,5 +184,20 @@ class Campus extends Model
 		if(!$year)
 			return $this->hasMany(GradeTranslationSchema::class, 'campus_id');
 		return $this->hasMany(GradeTranslationSchema::class, 'campus_id')->where('year_id', $year->id);
+	}
+
+	public function getWorkStorageKey(): WorkStoragesInstances
+	{
+		return WorkStoragesInstances::ProfileWork;
+	}
+
+	public function shouldBePublic(): bool
+	{
+		return true;
+	}
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
 	}
 }

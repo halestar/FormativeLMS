@@ -26,6 +26,7 @@ return new class extends Migration
 			$table->uuid('fileable_uuid')->nullable();
 			$table->string('fileable_type')->nullable();
 			$table->string('path');
+			$table->string('thumb_path')->nullable();
 			$table->string('mime');
 			$table->string('size');
 			$table->string('extension');

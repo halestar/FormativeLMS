@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Settings\IntegratorController;
 use App\Http\Controllers\Settings\SystemTablesController;
 use App\Models\Integrations\Integrator;
+use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Schema;
@@ -21,6 +22,11 @@ Route::get('/impersonate/{person}', [LoginController::class, 'impersonate'])
      ->name('impersonate');
 Route::get('/unimpersonate', [LoginController::class, 'unimpersonate'])
      ->name('unimpersonate');
+
+//view child student
+Route::get('/select/child/{student}', [LoginController::class, 'viewChild'])
+	->name('view.child')
+	->middleware('role:' . SchoolRoles::$PARENT . "|" . SchoolRoles::$OLD_PARENT);
 
 /********************************************************************
  * INTEGRATION ROUTES
@@ -86,8 +92,8 @@ Route::post('/langsw', function(Request $request)
 {
 	session(['language' => $request->input('lang')]);
 	return redirect()->back();
-})
-     ->name('language.switch');
+})->name('language.switch');
+
 
 
 

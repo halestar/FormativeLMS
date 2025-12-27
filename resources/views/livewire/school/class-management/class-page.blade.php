@@ -8,9 +8,27 @@
                 <div class="profile-img">
                     <img
                             class="img-fluid img-thumbnail"
-                            src="{{ $classSession->course->campus->img }}"
-                            alt="{{ __('locations.campus.img') }}"
+                            src="{{ $layout->getClassImage() }}"
+                            alt="{{ __('integrators.local.classes.image') }}"
                     />
+                    @if($editing)
+                        <button
+                            class="file btn btn-lg btn-dark"
+                            wire:click="dispatch('document-storage-browser.open-browser',
+                            {
+                                config:
+                                    {
+                                        multiple: false,
+                                        mimetypes: {{ Js::from(\App\Models\Utilities\MimeType::imageMimeTypes()) }},
+                                        allowUpload: true,
+                                        canSelectFolders: false,
+                                        cb_instance: 'class-img'
+                                    }
+                            });"
+                        >
+                            {{ __('integrators.local.classes.image.update') }}
+                        </button>
+                    @endif
                 </div>
                 {{-- Personal Settings and Links --}}
                 <div class="profile-work w-100">
@@ -23,7 +41,7 @@
                                 <div>
                                     <img
                                             class="img-fluid me-2 avatar-img-normal rounded-circle"
-                                            src="{{ $student->person->thumbnail_url }}"
+                                            src="{{ $student->person->portrait_url->thumbUrl() }}"
                                             alt="{{ $student->person->name }}"
                                     />
                                     {{ $student->person->name }}
@@ -34,7 +52,7 @@
                                         class="text-info fs-6 me-2"
                                         wire:click="dispatch('class-messages-change-conversation', { session: '{{ $classSession->id }}', student: '{{ $student->id }}' })"
                                     >
-                                        <i class="fa-solid fa-envelope"></i>
+                                        <i class="fa-solid fa-comment"></i>
                                     </a>
                                     <a href="{{ route('people.show', $student->person->school_id) }}" class="text-primary fs-6">
                                         <i class="fa fa-eye"></i>
@@ -64,11 +82,22 @@
                         <h6 class="d-flex flex-column w-100">
                             <div>
                                 {{ trans_choice('subjects.class.teacher', $classSession->teachers()->count()) }}:
-                                {{ $classSession->teachersString() }}
+                                @foreach($classSession->teachers as $teacher)
+                                    @if(!$loop->first), @endif
+                                    <a href="{{ route('people.show', $teacher->school_id) }}">{{ $teacher->name }}</a>
+                                @endforeach
                             </div>
                             <div>
                                 {{ __('subjects.class.schedule') }}:
                                 {{ $classSession->scheduleString() }}
+                            </div>
+                            <div>
+                                {{ trans_choice('locations.rooms', 1) }}
+                                @if($classSession->room)
+                                    <a href="{{ route('locations.rooms.show', $classSession->room_id) }}">{{ $classSession->room->name }}</a>
+                                @else
+                                    {{ __('locations.rooms.no') }}
+                                @endif
                             </div>
                         </h6>
                     </div>
@@ -102,10 +131,3 @@
         </div>
     </div>
 </div>
-@script
-<script>
-    $wire.on('close-add-tabs', () => {
-        $('#class-modal').modal('hide')
-    });
-</script>
-@endscript

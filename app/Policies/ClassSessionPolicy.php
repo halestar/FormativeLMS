@@ -30,11 +30,6 @@ class ClassSessionPolicy
 	 */
 	public function manage(Person $person, ClassSession $classSession): bool
 	{
-		if($person->can('subjects.classes.manage'))
-			return true;
-		//else, only the teacher for the class can do it.
-		return $classSession->teachers()
-		                    ->where('person_id', $person->id)
-		                    ->exists();
+		return $classSession->viewingAs(ClassViewer::FACULTY) || $person->can('subjects.classes.manage');
 	}
 }

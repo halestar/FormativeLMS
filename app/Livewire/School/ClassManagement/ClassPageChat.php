@@ -24,9 +24,7 @@ class ClassPageChat extends Component
 		}
 		elseif($this->classSession->viewingAs(ClassViewer::PARENT))
 		{
-			$this->student = $this->session->students()
-				->whereIn('person_id', $this->self->currentChildStudents()->pluck('person_id')->toArray())
-				->first();
+			$this->student = $this->self->viewingStudent;
 		}
 	}
 

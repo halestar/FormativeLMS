@@ -3,17 +3,14 @@
 namespace App\Models\Integrations;
 
 use App\Casts\Utilities\AsJsonData;
-use App\Enums\IntegratorServiceTypes;
 use App\Interfaces\HasSchoolRoles;
 use App\Models\Scopes\OrderByNameScope;
 use App\Traits\HasSchoolRolesTrait;
 use Illuminate\Database\Eloquent\Attributes\Scope;
-use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-#[ScopedBy(OrderByNameScope::class)]
 class Integrator extends Model implements HasSchoolRoles
 {
 	/*************************************************
@@ -55,6 +52,11 @@ class Integrator extends Model implements HasSchoolRoles
 		if($attributes['className'] == static::class)
 			return parent::newFromBuilder($attributes, $connection);
 		return (new $attributes['className'])->newFromBuilder($attributes, $connection);
+	}
+
+	protected static function booted(): void
+	{
+		static::addGlobalScope(new OrderByNameScope);
 	}
 	
 	/*****************************************************************

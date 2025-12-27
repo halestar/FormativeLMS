@@ -10,6 +10,7 @@ use App\Policies\PersonPolicy;
 use App\Policies\RolePolicy;
 use App\Subscribers\ClassEventsSubscriber;
 use App\Subscribers\LearningEventsSubscriber;
+use App\View\Composers\ClassSettingsComposer;
 use App\View\Composers\IntegratorConfigurationComposer;
 use DOMDocument;
 use Illuminate\Foundation\Application;
@@ -48,11 +49,16 @@ class AppServiceProvider extends ServiceProvider
 			return $person->hasRole(SchoolRoles::$ADMIN) ||
 				$person->hasPermissionTo($permission);
 		});
+		Gate::define('has-role', function(Person $person, string $role)
+		{
+			return $person->hasRole($role);
+		});
 		Gate::policy(SchoolRoles::class, RolePolicy::class);
 		Gate::policy(Person::class, PersonPolicy::class);
 		Paginator::useBootstrapFive();
 		//Composer Views
 		View::composer('layouts.integrations', IntegratorConfigurationComposer::class);
+		View::composer('layouts.class-settings', ClassSettingsComposer::class);
 		Blade::directive('svg', function($arguments)
 		{
 			$args = array_pad(explode(',', trim($arguments, "() ")), 2, '');

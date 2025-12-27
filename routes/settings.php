@@ -42,13 +42,13 @@ Route::get('/school/settings/messages/{message}', SchoolMessageEditor::class)
      ->middleware('can:school.emails');
 
 //storage settings
-Route::get('/work-files/private/{work_file}',
+Route::get('/work-files/{work_file}',
 	[\App\Http\Controllers\Storage\StorageController::class, 'downloadWorkFile'])
-     ->name('work.file.private')
+     ->name('work.file')
      ->whereUuid('work_file');
 
-Route::get('/work-files/{work_file}',
-	[\App\Http\Controllers\Storage\StorageController::class, 'downloadPublicWorkFile'])
-     ->name('work.file.public')
-     ->whereUuid('work_file');
+Route::get('/work-files/thumb/{work_file}',
+	[\App\Http\Controllers\Storage\StorageController::class, 'downloadWorkFileThumb'])
+	->name('work.file.thumb')
+	->whereUuid('work_file');
 

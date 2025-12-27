@@ -3,6 +3,8 @@
 namespace App\Interfaces;
 
 use App\Enums\WorkStoragesInstances;
+use App\Models\People\Person;
+use App\Models\Utilities\WorkFile;
 use App\Observers\FileableObserver;
 use Illuminate\Database\Eloquent\Attributes\ObservedBy;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -43,4 +45,11 @@ interface Fileable
 	 * @see HasWorkFiles
 	 */
 	public function copyWorkFilesTo(Fileable $target): void;
+
+	/**
+	 * @param Person $person The person to check access for.
+	 * @param WorkFile $file The file to check access for.
+	 * @return bool Whether or not the person can access the file.
+	 */
+	public function canAccessFile(Person $person, WorkFile $file): bool;
 }

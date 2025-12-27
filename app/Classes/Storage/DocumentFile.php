@@ -52,7 +52,7 @@ class DocumentFile implements Synthesizable
     {
 		return new DocumentFile
 		(
-			$data['school_id'],
+			$data['school_id']?: 0,
 			$data['isFolder'],
 			$data['name'],
 			$data['connection_id'],

@@ -26,6 +26,7 @@ return new class extends Migration
 	        $table->boolean('open_submission')->default(false);
 	        $table->boolean('submit_after_due')->default(false);
 	        $table->boolean('share_submissions')->default(false);
+			$table->date('auto_turn_in')->nullable();
 			$table->foreignUuid('created_by')->nullable()->constrained('learning_demonstration_templates')->nullOnDelete();
 	        $table->boolean('shareable')->default(false);
 	        $table->timestamps();

@@ -2,12 +2,19 @@
 
 @section('content')
     <div class="container">
-        <h1 class="border-bottom mb-3">{{ __('locations.period.edit') }}</h1>
         <form method="POST" action="{{ route('locations.periods.update', $period) }}">
             @csrf
             @method('PUT')
+            <div class="border-bottom mb-3  d-flex justify-content-between align-items-center">
+                <h3>{{ __('locations.period.edit') }}</h3>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="active" name="active"
+                           @checked($period->active) value="1">
+                    <label class="form-check-label" for="active">{{ __('locations.period.active') }}</label>
+                </div>
+            </div>
             <div class="row mb-3">
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <div>
                         <label for="name" class="form-label">{{ __('locations.period.name') }}</label>
                         <input
@@ -20,7 +27,7 @@
                         <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div>
                         <label for="abbr" class="form-label">{{ __('locations.period.abbr') }}</label>
                         <input
@@ -31,13 +38,6 @@
                                 value="{{ $period->abbr }}"
                         />
                         <x-utilities.error-display key="abbr">{{ $errors->first('abbr') }}</x-utilities.error-display>
-                    </div>
-                </div>
-                <div class="col-md-2 align-self-center">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="active" name="active"
-                               @if($period->active) checked @endif value="1">
-                        <label class="form-check-label" for="active">{{ __('locations.period.active') }}</label>
                     </div>
                 </div>
             </div>
@@ -77,13 +77,15 @@
             <div class="row">
                 <button class="btn btn-primary col mx-2"
                         type="submit">{{ trans_choice('locations.period.update', 1) }}</button>
+                @if($period->canDelete())
                 <button
                         class="btn btn-danger col mx-2"
                         type="button"
                         onclick="confirmDelete('{{ __('locations.period.delete.confirm') }}', '{{ route('locations.periods.destroy', $period) }}')"
                 >{{ trans_choice('locations.period.delete', 1) }}</button>
+                @endif
                 <a class="btn btn-secondary col mx-2" role="button"
-                   href="{{ route('locations.campuses.show', ['campus' => $period->campus_id]) }}">{{ __('common.cancel') }}</a>
+                   href="{{ route('locations.campuses.edit', ['campus' => $period->campus_id]) }}">{{ __('common.cancel') }}</a>
             </div>
         </form>
     </div>

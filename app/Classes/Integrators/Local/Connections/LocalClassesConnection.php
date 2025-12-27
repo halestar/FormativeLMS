@@ -3,11 +3,9 @@
 namespace App\Classes\Integrators\Local\Connections;
 
 use App\Classes\Integrators\Local\ClassManagement\ClassSessionLayoutManager;
-use App\Enums\ClassViewer;
 use App\Models\Integrations\Connections\ClassesConnection;
 use App\Models\SubjectMatter\ClassSession;
-use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Support\Facades\Gate;
+use App\Models\SubjectMatter\SchoolClass;
 
 class LocalClassesConnection extends ClassesConnection
 {
@@ -33,4 +31,18 @@ class LocalClassesConnection extends ClassesConnection
 		return [];
 	}
 
+	public static function getInstanceDefault(): array
+	{
+		return [];
+	}
+
+	public function hasPreferences(): bool
+	{
+		return false;
+	}
+
+	public function preferencesRoute(SchoolClass $schoolClass): string
+	{
+		return '';
+	}
 }

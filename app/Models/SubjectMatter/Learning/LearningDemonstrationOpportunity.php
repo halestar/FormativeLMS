@@ -2,11 +2,14 @@
 
 namespace App\Models\SubjectMatter\Learning;
 
+use App\Enums\ClassViewer;
 use App\Enums\WorkStoragesInstances;
 use App\Interfaces\Fileable;
+use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use App\Models\SubjectMatter\Assessment\Skill;
-use App\Models\Utilities\SchoolRoles;
+use App\Models\SubjectMatter\ClassSession;
+use App\Models\Utilities\WorkFile;
 use App\Traits\HasWorkFiles;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
@@ -28,6 +31,8 @@ class LearningDemonstrationOpportunity extends Model implements Fileable
 	protected $keyType = 'string';
 	protected $fillable =
 		[
+			'student_id',
+			'demonstration_session_id',
 			'posted_on',
 			'due_on',
 			'completed',
@@ -53,6 +58,12 @@ class LearningDemonstrationOpportunity extends Model implements Fileable
 	public function demonstrationSession(): BelongsTo
 	{
 		return $this->belongsTo(LearningDemonstrationClassSession::class, 'demonstration_session_id');
+	}
+
+	public function classSession(): HasOneThrough
+	{
+		return $this->hasOneThrough(ClassSession::class, LearningDemonstrationClassSession::class,
+			'id', 'id', 'demonstration_session_id', 'session_id');
 	}
 
 
@@ -110,7 +121,7 @@ class LearningDemonstrationOpportunity extends Model implements Fileable
 	}
 
 	#[Scope]
-	protected function completed(Builder $query): void
+	protected function assessed(Builder $query): void
 	{
 		$query->where('learning_demonstration_opportunities.completed', true);
 	}
@@ -119,5 +130,28 @@ class LearningDemonstrationOpportunity extends Model implements Fileable
 	protected function submitted(Builder $query): void
 	{
 		$query->whereNotNull('learning_demonstration_opportunities.submitted_on');
+	}
+
+	public function canWork(): bool
+	{
+		return !$this->completed && $this->classSession->viewingAs(ClassViewer::STUDENT) &&
+			($this->demonstration->submit_after_due || $this->due_on->isNowOrFuture())
+			&& (!$this->isSubmitted() || $this->demonstration->open_submission);
+	}
+
+	public function isSubmitted(): bool
+	{
+		return $this->completed || $this->submitted_on ||
+			(!$this->demonstration->online_submission && $this->demonstration->auto_turn_in->isNowOrFuture());
+	}
+
+	public function isPastDue(): bool
+	{
+		return $this->due_on->isPast() && !$this->isSubmitted();
+	}
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
 	}
 }

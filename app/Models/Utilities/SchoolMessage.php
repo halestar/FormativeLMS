@@ -139,4 +139,9 @@ class SchoolMessage extends Model implements Fileable, Arrayable, Jsonable
         $arr['short_body'] = Blade::render($arr['short_body'], $tokens);
         return $arr;
     }
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
+	}
 }

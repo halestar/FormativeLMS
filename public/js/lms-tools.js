@@ -141,33 +141,11 @@ let TextCounter = (function()
 let AreaDrawing = (function()
 {
 
-    function AreaDrawing(canvas, ctx, config)
-    {
-        this.canvas = canvas;
-        this.ctx = ctx;
-        this.config = { ...this.getDefaults(), ...config };
-        this.width = this.canvas.width;
-        this.height = this.canvas.height;
-        this.isDrawing = false;
-        this.mouseX = 0;
-        this.mouseY = 0;
-        this.points = [];
-        this.highlightBounds = false;
-        $(this.canvas).on('mouseover', this.config.mouseOver);
-        $(this.canvas).on('mouseout', this.config.mouseOut);
-        $(this.canvas).on('mousemove', this.config.mouseMove);
-        $(this.canvas).on('click', this.config.click);
-    }
-
-    AreaDrawing.prototype.getDefaults = function()
-    {
-        return {
+    // Defaults for the object.
+    AreaDrawing.defaults =
+        {
             //room data
             name: 'New Area',
-            capacity: null,
-            phone: null,
-            room_id: null,
-            action: '',
             //rendering data
             bound_background: 'rgb(0 0 0 / 40%)',
             bound_text_stroke: '#000',
@@ -181,78 +159,45 @@ let AreaDrawing = (function()
             special_text_stroke: '#fff',
             special_text_fill: '#000',
             special_text_font: '18px Monospace',
-            clearFirst: true,
             highlightSpecial: false,
-            //event data
-            mouseOver: $.proxy(this.onMouseOver, this),
-            mouseOut: $.proxy(this.onMouseOut, this),
-            mouseMove: $.proxy(this.onMouseMove, this),
-            click: $.proxy(this.onMouseClick, this),
+            points: [],
+            room_id: null,
         };
+
+    /**
+     *  Constructor for the AreaDrawing class.
+     * @param canvas The canvas to draw on.
+     * @param ctx The canva's context
+     * @param config The configuration object.
+     * @constructor
+     */
+    function AreaDrawing(canvas, ctx, config)
+    {
+        //save the passed paramenters
+        this.canvas = canvas;
+        this.ctx = ctx;
+        //merge the config
+        this.config = { ...AreaDrawing.defaults, ...config };
+        //set the canvas dimensions
+        this.width = this.canvas.width;
+        this.height = this.canvas.height;
+        //load the config variables.
+        this.points = this.config.points;
+        this.special = this.config.highlightSpecial;
+        this.name = this.config.name;
+        //set the defaults.
+        this.isDrawing = false;
+        this.highlight = false;
     }
 
-    AreaDrawing.prototype.isInsideBounds = function(pointX, pointY)
-    {
-        let isInside = false;
-        for (let i = 0, j = this.points.length - 1; i < this.points.length; j = i++) {
-            const xi = this.points[i].x, yi = this.points[i].y;
-            const xj = this.points[j].x, yj = this.points[j].y;
+    /**********************************************************************
+     * Internal Functions
+     */
 
-            const intersect = ((yi > pointY) !== (yj > pointY)) &&
-                (pointX < (xj - xi) * (pointY - yi) / (yj - yi) + xi);
-            if (intersect) isInside = !isInside;
-        }
-        return isInside;
-    }
-
-    AreaDrawing.prototype.onMouseOver = function(event)
-    {
-        if(this.isDrawing)
-        {
-            $("html").css("cursor", "crosshair");
-        }
-    };
-
-    AreaDrawing.prototype.onMouseOut = function(event)
-    {
-        if(this.isDrawing)
-        {
-            $("html").css("cursor", "pointer auto");
-        }
-    };
-
-    AreaDrawing.prototype.onMouseMove = function(event)
-    {
-        let rect = this.canvas.getBoundingClientRect();
-        let mouseX = event.clientX - ~~rect.left;
-        let mouseY = event.clientY - ~~rect.top;
-        if(this.isDrawing)
-        {
-            this.mouseX = mouseX;
-            this.mouseY = mouseY;
-            this.render();
-        }
-        else
-        {
-            if(this.points.length > 2 && this.isInsideBounds(mouseX, mouseY))
-            {
-                if(!this.highlightBounds)
-                {
-                    this.highlightBounds = true;
-                    this.render();
-                }
-            }
-            else
-            {
-                if(this.highlightBounds)
-                {
-                    this.highlightBounds = false;
-                    this.render();
-                }
-            }
-        }
-    };
-
+    /**
+     * Calculates the width of the area drawing
+     * @returns {number} The width of the area drawing in pixels
+     */
     AreaDrawing.prototype.selectionWidth = function()
     {
         if(this.points.length > 0)
@@ -271,46 +216,11 @@ let AreaDrawing = (function()
         return 0;
     }
 
-    AreaDrawing.prototype.beginDrawing = function()
-    {
-        this.isDrawing = true;
-        this.points = [];
-    }
-
-    AreaDrawing.prototype.endDrawing = function()
-    {
-        this.isDrawing = false;
-        this.render();
-    }
-
-    AreaDrawing.prototype.onMouseClick = function(event)
-    {
-        if(this.isDrawing)
-        {
-            // in this case we begin the drawing by creating a point at this location
-            let rect = this.canvas.getBoundingClientRect();
-            this.points.push({x: event.clientX - ~~rect.left, y: event.clientY - ~~rect.top });
-
-            // if there are more than 2 points (min 3 for a triangle) and the last point is
-            // within 10 pixels of the original point (where the point outline is), then
-            //we will consider this polygon "complete"
-            if(this.points.length > 2)
-            {
-                let firstX = this.points[0].x;
-                let firstY = this.points[0].y;
-                let lastX = this.points[this.points.length - 1].x;
-                let lastY = this.points[this.points.length - 1].y;
-                if((lastX >= (firstX - 5) && lastX <= (firstX + 5)) &&
-                    (lastY >= (firstY - 5) && lastY <= (firstY + 5)))
-                {
-                    this.isDrawing = false;
-                }
-            }
-
-            this.render();
-        }
-    }
-
+    /**
+     * This function wraps the text to fit the current Area Drawing
+     * @param text
+     * @returns {*[]}
+     */
     AreaDrawing.prototype.wrapText = function(text)
     {
         var words = text.split(' ');
@@ -341,9 +251,36 @@ let AreaDrawing = (function()
         return lines;
     }
 
+    /**********************************************************************
+     * API Functions
+     */
+
+    /**
+     * This function checks if a point is inside the bounds of this area drawing.
+     * @param pointX The X coordinate of the point to check.
+     * @param pointY The Y coordinate of the point to check.
+     * @returns {boolean} True if the point is inside the bounds, false otherwise.
+     */
+    AreaDrawing.prototype.isInsideBounds = function(pointX, pointY)
+    {
+        let isInside = false;
+        for (let i = 0, j = this.points.length - 1; i < this.points.length; j = i++) {
+            const xi = this.points[i].x, yi = this.points[i].y;
+            const xj = this.points[j].x, yj = this.points[j].y;
+
+            const intersect = ((yi > pointY) !== (yj > pointY)) &&
+                (pointX < (xj - xi) * (pointY - yi) / (yj - yi) + xi);
+            if (intersect) isInside = !isInside;
+        }
+        return isInside;
+    }
+
+    /**
+     * This function draws the name of the area inside the area drawing.
+     */
     AreaDrawing.prototype.drawName = function()
     {
-        if(this.config.name)
+        if(this.name)
         {
             let centerX = 0;
             let centerY = 0;
@@ -358,13 +295,13 @@ let AreaDrawing = (function()
             // Set text alignment and baseline
             this.ctx.textAlign = "center";
             this.ctx.textBaseline = "middle";
-            if(this.config.highlightSpecial)
+            if(this.special)
             {
                 this.ctx.strokeStyle = this.config.special_text_stroke;
                 this.ctx.fillStyle = this.config.special_text_fill;
                 this.ctx.font = this.config.special_text_font;
             }
-            else if(this.highlightBounds)
+            else if(this.highlight)
             {
                 this.ctx.strokeStyle = this.config.highlighted_text_stroke;
                 this.ctx.fillStyle = this.config.highlighted_text_fill;
@@ -378,7 +315,7 @@ let AreaDrawing = (function()
             }
 
             // Draw the text
-            let nameLines = this.wrapText(this.config.name);
+            let nameLines = this.wrapText(this.name);
             let lineHeight = 15;
             //adjust center for the number of lines
             for(let i = 0; i < nameLines.length; i++)
@@ -389,97 +326,155 @@ let AreaDrawing = (function()
         }
     }
 
+    /**
+     * This function sets the Area Drawing to drawing mode, which means that
+     * a line is always drawn from the last point to the current mouse position.
+     */
+    AreaDrawing.prototype.beginDrawing = function()
+    {
+        this.isDrawing = true;
+        this.points = [];
+    }
+
+    /**
+     * This functions clears all the points from the area drawing.
+     */
+    AreaDrawing.prototype.clearDrawing = function()
+    {
+        this.points = [];
+    }
+
+    /**
+     *  This function ends the drawing process, so that shape is always closed.
+     */
+    AreaDrawing.prototype.endDrawing = function()
+    {
+        this.isDrawing = false;
+    }
+
+    /**
+     * This function returns the points that make up this shape.
+     * @returns {*} An array of x,y coordinates that make up the shape.
+     */
+    AreaDrawing.prototype.getData = function()
+    {
+        return this.points;
+    }
+
+    /**
+     * This function loads the area drawing data.
+     * @param data An array of x,y coordinates that make up the shape.
+     */
+    AreaDrawing.prototype.loadData = function(data)
+    {
+        this.points = data;
+    }
+
+    /**
+     * This function sets the name of the area drawing.
+     * @param name The name to set for the area drawing.
+     */
+    AreaDrawing.prototype.setName = function(name)
+    {
+        this.name = name;
+    }
+
+    /**
+     * This function toggles whether this area drawing should be highlighted using the highlight
+     * property
+     * @param highlight True if the area drawing should be highlighted, false otherwise.
+     */
+    AreaDrawing.prototype.setHighlight = function(highlight)
+    {
+        this.highlight = highlight;
+    }
+
+    /**
+     * This function returns whether this area drawing is highlighted.
+     * @returns {boolean} True if the area drawing is highlighted, false otherwise.
+     */
+    AreaDrawing.prototype.isHighlighted = function()
+    {
+        return this.highlight;
+    }
+
+    /**
+     * Gets the room id assigned to this area drawing.
+     * @returns {null|*} The room id assigned to this area drawing, or null if no room id is assigned.
+     */
+    AreaDrawing.prototype.getRoomId = function()
+    {
+        return this.config.room_id;
+    }
+
+    /**
+     * This function adds a point to the area drawing.
+     * @param x The x coordinate of the point to add.
+     * @param y The y coordinate of the point to add.
+     */
+    AreaDrawing.prototype.addPoint = function(x, y)
+    {
+        this.points.push({x: x, y: y });
+        if(this.isDrawing && this.isShapeClosed())
+            this.endDrawing();
+    }
+
+    AreaDrawing.prototype.isShapeClosed = function()
+    {
+        // if there are more than 2 points (min 3 for a triangle) and the last point is
+        // within 10 pixels of the original point (where the point outline is), then
+        //we will consider this polygon "complete"
+        if(this.points.length <= 2)
+            return false;
+        let firstX = this.points[0].x;
+        let firstY = this.points[0].y;
+        let lastX = this.points[this.points.length - 1].x;
+        let lastY = this.points[this.points.length - 1].y;
+        return ((lastX >= (firstX - 5) && lastX <= (firstX + 5)) &&
+            (lastY >= (firstY - 5) && lastY <= (firstY + 5)));
+    }
+
+    /**
+     * This function will render the area drawing on the canvas.
+     */
     AreaDrawing.prototype.render = function()
     {
-        //clear the canvas
-        if(this.config.clearFirst)
-            this.ctx.clearRect(0, 0, this.width, this.height);
-
         //Draw the existing path
         this.ctx.strokeStyle = "#000";
         this.ctx.lineWidth = 1;
         this.ctx.beginPath();
         for(let i = 0; i < this.points.length; i++)
         {
+            //this draws a square inside a square to denote a point
             this.ctx.strokeRect(this.points[i].x - 2, this.points[i].y - 2, 4, 4);
             this.ctx.strokeRect(this.points[i].x - 5, this.points[i].y - 4, 10, 10);
+            //if this is the first point, we're simply moving the drawing point to it. Every poiont after that we draw a
+            //line from the last point to this one.
             if(i === 0)
                 this.ctx.moveTo(this.points[i].x, this.points[i].y);
             else
                 this.ctx.lineTo(this.points[i].x, this.points[i].y);
         }
 
-        if(this.isDrawing)
+        //at this point, we're done drawing the path.
+        if(!this.isDrawing)
         {
-            // if we're drawing and we have at least a starting point, draw a line
-            // from the last point to where the mouse is at
-            if(this.points.length > 0)
-            {
-                this.ctx.moveTo(this.points[this.points.length - 1].x, this.points[this.points.length - 1].y);
-                this.ctx.lineTo(this.mouseX, this.mouseY);
-            }
-            this.ctx.stroke();
-        }
-        else
-        {
+            //if we're not currently drawing this path, then close off the shape
             this.ctx.closePath();
             this.ctx.stroke();
-            if(this.config.highlightSpecial)
+            //we will also fill the shape with one of 3 colors:
+            // 1. special_background if this area drawing is special (usually a selected room)
+            // 2. highlighted_background if this area drawing is highlighted (usually a mouse-over area.
+            if(this.special)
                 this.ctx.fillStyle = this.config.special_background;
-            else if(this.highlightBounds)
+            else if(this.highlight)
                 this.ctx.fillStyle = this.config.highlighted_background;
             else
                 this.ctx.fillStyle = this.config.bound_background;
             this.ctx.fill();
+            //finally, we draw the area name.
             this.drawName();
         }
-
-    }
-
-    AreaDrawing.prototype.clear = function()
-    {
-        this.points = [];
-        this.isDrawing = true;
-        this.render();
-    }
-
-    AreaDrawing.prototype.selectionHeight = function()
-    {
-        if(this.points.length > 0)
-        {
-            let minY = this.points[0].y;
-            let maxY = this.points[0].y;
-            for(let i = 1; i < this.points.length; i++)
-            {
-                if(this.points[i].y < minY)
-                    minY = this.points[i].y;
-                if(this.points[i].y > maxY)
-                    maxY = this.points[i].y;
-            }
-            return maxY - minY;
-        }
-        return 0;
-    }
-
-    AreaDrawing.prototype.getData = function()
-    {
-        return this.points;
-    }
-
-    AreaDrawing.prototype.loadData = function(data)
-    {
-        this.points = data;
-        this.render();
-    }
-
-    AreaDrawing.prototype.setName = function(name)
-    {
-        this.config.name = name;
-    }
-
-    AreaDrawing.prototype.setAction = function(action)
-    {
-        this.config.action = action;
     }
 
     return AreaDrawing;
@@ -487,53 +482,71 @@ let AreaDrawing = (function()
 
 let MapDrawings = (function()
 {
+    //Default config paranments
     MapDrawings.defaults =
     {
         height: 600,
         width: 600,
         highlightRoom: 0,
+        action: null
     };
 
+    //Default URLS
     MapDrawings.urls =
         {
-            get_building_area: "/locations/maps/area",
+            get_building_area: "/locations/areas/map",
         };
 
+    /**
+     * Constructor for the MapDrawings class.
+     * @param container The container ID that will hold the map
+     * @param buildingAreaId THe id of the building area that will be drawn on the map.
+     * @param config The configuration parameters for the map.
+     * @constructor
+     */
     function MapDrawings(container, buildingAreaId, config)
     {
-        this.container = $('#' + container);
+        //get the root container parent.
+        this.containerName = container;
+        this.container = $('#' + this.containerName);
+        //save the config parameters
         this.config = { ...MapDrawings.defaults, ...config };
-        this.buildingAreaId = buildingAreaId;
-        //first, we create the elements we need and attach a loading icon.
+        //set some defaults.
+        this.isDrawing = false;
+        this.newDrawing = null;
+        //we create the canvas
         this.container.addClass('blueprint-container');
-        this.container.append("<canvas id='blueprint-" + this.buildingAreaId +
+        this.container.append("<canvas id='blueprint-" + this.containerName +
             "' class='w-100 h-100' width='" + this.config.width + "' height='" +
             this.config.height + "'></canvas>");
+        //we also create the overlay that will be applied when loading maps
         this.overlay = $("<div class='position-absolute top-0 left-0 w-100 h-100 bg-secondary d-flex flex-columns'>" +
             "<div class='spinner-border m-auto' role='status'>" +
             "<span class='visually-hidden'>Loading...</span></div></div>");
-        this.container.append(this.overlay);
-        this.canvas = document.getElementById("blueprint-" + this.buildingAreaId);
+        //save the canvas and the context for other modules.
+        this.canvas = document.getElementById("blueprint-" + this.containerName);
         this.ctx = this.canvas.getContext('2d');
-        this.loadBuildingArea();
+        //finally, we build the map
+        this.loadBuildingArea(buildingAreaId);
+        //lastly, add the event listeners to the canvas element.
+        this.canvas.addEventListener('mousemove', this.onMouseMove.bind(this));
+        this.canvas.addEventListener('click', this.onMouseClick.bind(this));
     }
 
-    MapDrawings.prototype.loadBuildingArea = function()
-    {
-        that = this;
-        // next, we initiate a call to get all the information about the building area
-        axios.get(MapDrawings.urls.get_building_area + "/" + this.buildingAreaId)
-            .then(function(response)
-            {
-                that.setupMap(response.data.data);
-            })
-            .catch((error) => console.log(error));
-    }
+    /**********************************************************************
+     * Internal Functions
+     */
 
+    /**
+     * This function will setup the map for the given map object.
+     * @param mapObj The map object you get from the API call.
+     */
     MapDrawings.prototype.setupMap = function(mapObj)
     {
+        //first, we load the map image as the background of the container element
         this.blueprintUrl = mapObj.blueprint_url;
         this.container.css('background-image', 'url("' + this.blueprintUrl + '")');
+        //next, we will be loading all the room data and adding them to the list of drawings.
         this.drawings = [];
         for(let i = 0; i < mapObj.rooms.length; i++)
         {
@@ -541,72 +554,267 @@ let MapDrawings = (function()
                 {
                     name: mapObj.rooms[i].name,
                     room_id: mapObj.rooms[i].id,
-                    phone: mapObj.rooms[i].phone?.pretty,
-                    capacity: mapObj.rooms[i].capacity,
-                    clearFirst: false,
                     highlightSpecial: (this.config.highlightRoom === mapObj.rooms[i].id),
-                    mouseOver: $.proxy(this.onMouseOver, this),
-                    mouseOut: $.proxy(this.onMouseOut, this),
-                    mouseMove: $.proxy(this.onMouseMove, this),
+                    points: mapObj.rooms[i].img_data,
                 }
             let aDrawing = new AreaDrawing(this.canvas, this.ctx, config);
-            if(mapObj.rooms[i].img_data)
-                aDrawing.loadData(mapObj.rooms[i].img_data);
             this.drawings.push(aDrawing);
         }
+        //at this point, all the data is loaded, so we remove the loading overlay
         this.overlay.remove();
+        //and we render the map.
         this.render();
     }
 
+    /**
+     * The internal rendering function for the map.
+     * This draws the map and either all the drawing in the map, or the current
+     * shape that we're drawing.
+     */
     MapDrawings.prototype.render = function ()
     {
         this.ctx.clearRect(0, 0, this.config.width, this.config.height);
-        for(let i = 0; i < this.drawings.length; i++)
+        if(this.isDrawing && this.newDrawing !== null)
         {
-            this.drawings[i].render();
+            this.newDrawing.render();
         }
+        else
+        {
+            for (let i = 0; i < this.drawings.length; i++) {
+                this.drawings[i].render();
+            }
+        }
+    };
+
+
+    /**********************************************************************
+     * API Functions
+     */
+
+    /**
+     * This function will load the map for the given building area, and
+     * clear any drawings that are happening.
+     * @param buildingAreaId The id of the building area to load.
+     */
+    MapDrawings.prototype.loadBuildingArea = function(buildingAreaId)
+    {
+        //if we were drawing, cancel it.
+        if(this.newDrawing !== null)
+        {
+            this.isDrawing = false;
+            this.newDrawing.clear();
+            this.newDrawing = null;
+        }
+        this.canvas.style.cursor = 'default';
+        that = this;
+        //save the area id and append the loading overlay
+        this.buildingAreaId = buildingAreaId;
+        this.container.append(this.overlay);
+        // call the api to get the map info
+        axios.get(MapDrawings.urls.get_building_area + "/" + this.buildingAreaId)
+            .then(function(response)
+            {
+                //here we get a valid map response, so we load the map.
+                that.setupMap(response.data.data);
+            })
+            .catch((error) => console.log(error));
     }
 
+    /**
+     * This function will reload the map for the current building area.
+     */
+    MapDrawings.prototype.reload = function()
+    {
+        this.loadBuildingArea(this.buildingAreaId);
+    };
+
+    /**
+     * Gets the canvas element that the areas will be drawn on.
+     * @returns {HTMLElement} The canvas element that the areas will be drawn on.
+     */
     MapDrawings.prototype.getCanvas = function()
     {
         return this.canvas;
-    }
+    };
 
+    /**
+     * Gets the canvas context that the areas will be drawn on.
+     * @returns {*} The canvas context that the areas will be drawn on.
+     */
     MapDrawings.prototype.getCtx = function()
     {
         return this.ctx;
-    }
+    };
 
-    MapDrawings.prototype.onMouseOver = function(event){};
+    /**
+     * This function will highlight a single room on the map. It will remove the highlight from any other room.
+     * @param roomId The id of the room to highlight.
+     */
+    MapDrawings.prototype.highlightRoom = function(roomId = null)
+    {
+        for(let i = 0; i < this.drawings.length; i++)
+            this.drawings[i].setHighlight((roomId !== null) && (this.drawings[i].getRoomId() === roomId));
+        this.render();
+    };
 
-    MapDrawings.prototype.onMouseOut = function(event){};
+    /**
+     * Same as highlightRoom, but accepts an array of room ids.
+     * @param rooms An array of room ids to highlight.
+     */
+    MapDrawings.prototype.highlightRooms = function(rooms = [])
+    {
+        for(let i = 0; i < this.drawings.length; i++)
+            this.drawings[i].setHighlight(rooms.includes( this.drawings[i].getRoomId()));
+        this.render();
+    };
 
+    /**
+     * This function will remove the highlight from all rooms on the map.
+     */
+    MapDrawings.prototype.removeHighlight = function()
+    {
+        for(let i = 0; i < this.drawings.length; i++)
+            this.drawings[i].setHighlight(false);
+        this.render();
+    };
+
+    /**
+     * This function will begin drawing a new area on the map.
+     * @param area_name The name of the area to draw. Defaults to "New Area".
+     */
+    MapDrawings.prototype.beginDrawing = function(area_name = "New Area")
+    {
+        this.isDrawing = true;
+        this.newDrawing = new AreaDrawing(this.canvas, this.ctx, {name: area_name});
+        this.newDrawing.beginDrawing();
+        this.canvas.style.cursor = 'crosshair';
+        this.render();
+    };
+
+    /**
+     * This function will end the current drawing on the map and re-render the existing shapes.
+     */
+    MapDrawings.prototype.endDrawing = function()
+    {
+        this.newDrawing.endDrawing();
+        this.isDrawing = false;
+        this.newDrawing = null;
+        this.canvas.style.cursor = 'default';
+        this.render();
+    };
+
+    /**
+     * This function will clear the currently drawn area on the map. It will NOT end drawing though.
+     */
+    MapDrawings.prototype.clearDrawing = function()
+    {
+        if(this.isDrawing && this.newDrawing !== null)
+            this.newDrawing.clearDrawing();
+    };
+
+    /**
+     * This function will return the bounds of the current drawing on the map.
+     * @returns {*|null} The bounds of the current drawing on the map. Returns null if no drawing is happening.
+     */
+    MapDrawings.prototype.getDrawingBounds = function()
+    {
+        if(this.isDrawing && this.newDrawing !== null)
+            return this.newDrawing.getData();
+        return null;
+    };
+
+    /**********************************************************************
+     * EVENT Functions
+     */
+
+    /**
+     * This function fires when the mouse is moved over the canvas. If the map is in drawing mode, then
+     * the current shape being drawn will be drawn with a line ending where the mouse is. If we're
+     * not in drawing mode, but we are currently hovering over a shape, then the shape will be highlighted.
+     * @param event
+     */
     MapDrawings.prototype.onMouseMove = function(event)
     {
+        //stop all other events from bubbling.
         event.stopPropagation();
+        //the x and y coordintes are absolute, we need to convert them to relative to the canvas.
         let rect = this.canvas.getBoundingClientRect();
         let mouseX = event.clientX - ~~rect.left;
         let mouseY = event.clientY - ~~rect.top;
-        let changes = false;
-        for(let i = 0; i < this.drawings.length; i++)
+        if(this.isDrawing && this.newDrawing !== null)
         {
-            if(this.drawings[i].isInsideBounds(mouseX, mouseY))
+            //if we're currently drawing a shape, then this is the only shape that will render.
+            this.render();
+            if(this.newDrawing.points.length > 0 && this.newDrawing.isDrawing)
             {
-                if(!this.drawings[i].highlightBounds)
+                let lastX = this.newDrawing.points[this.newDrawing.points.length - 1].x;
+                let lastY = this.newDrawing.points[this.newDrawing.points.length - 1].y;
+                this.ctx.moveTo(lastX, lastY);
+                this.ctx.lineTo(mouseX, mouseY);
+            }
+            this.ctx.stroke();
+        }
+        else
+        {
+            //if we're not currenly drawing, then we check if we're hovering a shape and set the hover over it.
+            //we will only update if there is a change though, to lessen the load on the canvas.
+            let changes = false;
+            for(let i = 0; i < this.drawings.length; i++)
+            {
+                let inside = this.drawings[i].isInsideBounds(mouseX, mouseY);
+                if(inside && !this.drawings[i].isHighlighted())
                 {
-                    this.drawings[i].highlightBounds = true;
+                    //if we're inside a shape the is not highlighted, then we highlight it.
+                    this.drawings[i].setHighlight(true);
+                    changes = true;
+                }
+                else if(!inside && this.drawings[i].isHighlighted())
+                {
+                    //if we're not inside a shape that is highlighted, then we un-highlight it.
+                    this.drawings[i].setHighlight(false);
                     changes = true;
                 }
             }
-            else if(this.drawings[i].highlightBounds)
-            {
-                this.drawings[i].highlightBounds = false;
-                changes = true;
-            }
+            //re-render the map if there was a change.
+            if(changes)
+                this.render();
         }
-        if(changes)
-            this.render();
     };
+
+    /**
+     * This function is called when the mouse is clicked on the map. If we're currently drawing on the map, then
+     * we add a point to the current shape being drawn and check if the shape is complete. If we're not drawing,
+     * and we have an action function set in the config, then we check if we're clicking on a shape and, if we
+     * are, we call the action passed to the config with the room id of the shape that was clicked.
+     * @param event The mouse event that triggered the click.
+     */
+    MapDrawings.prototype.onMouseClick = function(event)
+    {
+        //the x and y coordintes are absolute, we need to convert them to relative to the canvas.
+        let rect = this.canvas.getBoundingClientRect();
+        let mouseX = event.clientX - ~~rect.left;
+        let mouseY = event.clientY - ~~rect.top;
+        if(this.isDrawing && this.newDrawing !== null && this.newDrawing.isDrawing)
+        {
+            // in this case we begin the drawing by creating a point at this location
+            this.newDrawing.addPoint(mouseX, mouseY);
+            this.render();
+        }
+        else if(typeof this.config.action === 'function')
+        {
+            let room_id = null;
+            for(let i = 0; i < this.drawings.length; i++)
+            {
+                if(this.drawings[i].isInsideBounds(mouseX, mouseY))
+                {
+                    room_id = this.drawings[i].getRoomId();
+                    break;
+                }
+            }
+            if(room_id !== null)
+                this.config.action(room_id);
+        }
+    }
 
     return MapDrawings;
 })();

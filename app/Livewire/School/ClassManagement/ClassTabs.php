@@ -50,7 +50,7 @@ class ClassTabs extends Component
 		foreach($this->tabs as $tab)
 			$widgets = array_merge($widgets, $tab->widgets);
 		$availableWidgets = [];
-		foreach((array)$this->classSession->classManager->service->data->widgets_allowed as $className => $widget)
+		foreach((array)$this->classSession->classManager->service->data->optional as $className => $widget)
 		{
 			$found = false;
 			foreach($widgets as $w)

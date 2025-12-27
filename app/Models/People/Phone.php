@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Str;
 
 class Phone extends Model
 {
@@ -40,17 +42,18 @@ class Phone extends Model
 	
 	private function pPhone(): string
 	{
-        if(strlen($this->phone) == 10)
-            $phone = "(" . substr($this->phone, 0, 3) . ") " .
-                substr($this->phone, 3, 3) . "-" . substr($this->phone, 6);
-        elseif(strlen($this->phone) == 7)
-            $phone = substr($this->phone, 0, 3) . "-" . substr($this->phone, 4);
-        elseif(strlen($this->phone) > 10)
-            $phone = wordwrap(substr($this->phone, 0, -10), 2, "-", true) .
-                "(" . substr($this->phone, -10, 3) . ") " .
-                substr($this->phone, -7, 3) . "-" . substr($this->phone, -4);
+		$numericOnly = trim(preg_replace('/[^0-9]/', '', $this->phone));
+		if(strlen($numericOnly) == 10)
+            $phone = "(" . substr($numericOnly, 0, 3) . ") " .
+                substr($numericOnly, 3, 3) . "-" . substr($numericOnly, 6);
+        elseif(strlen($numericOnly) == 7)
+            $phone = substr($numericOnly, 0, 3) . "-" . substr($numericOnly, 4);
+        elseif(strlen($numericOnly) > 10)
+            $phone = wordwrap(substr($numericOnly, 0, -10), 2, "-", true) .
+                "(" . substr($numericOnly, -10, 3) . ") " .
+                substr($numericOnly, -7, 3) . "-" . substr($numericOnly, -4);
         else
-            $phone = $this->phone;
+            $phone = $numericOnly;
 		if($this->ext)
 			$phone .= " Ext." . $this->ext;
 		return $phone;

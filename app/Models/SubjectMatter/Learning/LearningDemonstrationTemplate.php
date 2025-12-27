@@ -345,4 +345,9 @@ class LearningDemonstrationTemplate extends Model implements Fileable, AiPrompta
 		        $this->questions)),
         ];
     }
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
+	}
 }

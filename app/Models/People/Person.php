@@ -9,6 +9,8 @@ use App\Classes\People\RoleField;
 use App\Classes\Settings\SchoolSettings;
 use App\Enums\ClassViewer;
 use App\Enums\IntegratorServiceTypes;
+use App\Enums\WorkStoragesInstances;
+use App\Interfaces\Fileable;
 use App\Interfaces\HasSchoolRoles;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\Integrations\IntegrationService;
@@ -22,14 +24,14 @@ use App\Models\SubjectMatter\SchoolClass;
 use App\Models\SystemTables\Relationship;
 use App\Models\Utilities\SchoolMessage;
 use App\Models\Utilities\SchoolRoles;
-use App\Notifications\Classes\NewClassMessageNotification;
+use App\Models\Utilities\WorkFile;
 use App\Traits\Addressable;
 use App\Traits\Campuseable;
 use App\Traits\HasFullTextSearch;
 use App\Traits\HasLogs;
 use App\Traits\HasSchoolRolesTrait;
+use App\Traits\HasWorkFiles;
 use App\Traits\Phoneable;
-use Auth;
 use Carbon\Carbon;
 use Hashids\Hashids;
 use Illuminate\Database\Eloquent\Attributes\Scope;
@@ -42,28 +44,23 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Http\UploadedFile;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Storage;
 use Lab404\Impersonate\Models\Impersonate;
 use Laravel\Sanctum\HasApiTokens;
-use Intervention\Image\Drivers\Imagick\Driver;
-use Intervention\Image\ImageManager;
 
 
-class Person extends Authenticatable implements HasSchoolRoles
+class Person extends Authenticatable implements HasSchoolRoles, Fileable
 {
-	use HasFactory, HasLogs, SoftDeletes, HasSchoolRolesTrait, Phoneable, Addressable, Notifiable, HasFullTextSearch,
-		Campuseable, Impersonate, HasApiTokens;
+	use HasFactory, SoftDeletes, HasSchoolRolesTrait, Phoneable, Addressable, Notifiable, HasFullTextSearch,
+		Campuseable, Impersonate, HasApiTokens, HasLogs, HasWorkFiles;
 
     /************************************************************************************************************
      * TABLE DEFINITIONS
      */
 	public const UKN_IMG = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
-	protected static string $logField = 'global_log';
 	public $timestamps = true;
 	public $incrementing = true;
 	protected $with = ['schoolRoles'];
@@ -79,7 +76,6 @@ class Person extends Authenticatable implements HasSchoolRoles
 			'dob',
             'prefs',
 			'portrait_url',
-			'thumbnail_url',
 		];
 	protected $hidden = [
 		'remember_token',
@@ -123,7 +119,6 @@ class Person extends Authenticatable implements HasSchoolRoles
         return
             [
                 'dob' => 'date: m/d/y',
-                'global_log' => LogItem::class,
                 'prefs' => 'array',
                 'portrait_url' => Portrait::class,
                 'created_at' => 'datetime: m/d/Y h:i A',
@@ -212,14 +207,6 @@ class Person extends Authenticatable implements HasSchoolRoles
         return Attribute::make
         (
             get: fn(mixed $value, array $attributes) => Cache::remember('dob-' . $this->id, 3600, fn() => Carbon::parse($value)),
-        );
-    }
-
-    protected function thumbnailUrl(): Attribute
-    {
-        return Attribute::make
-        (
-            get: fn(mixed $value, array $attributes) => Cache::remember('thumbnail-url-' . $this->id, 3600, fn() => $attributes['thumbnail_url']?? Person::UKN_IMG),
         );
     }
 
@@ -532,6 +519,27 @@ class Person extends Authenticatable implements HasSchoolRoles
 		                    ->get();
 	}
 
+	public function numStudentChildren(): int
+	{
+		return Cache::remember('num-children-' . $this->id, 3600, function ()
+		{
+			$currentYear = Year::currentYear();
+			return StudentRecord::select('student_records.*')
+				->join('people', 'people.id', '=', 'student_records.person_id')
+				->join('people_relations', 'people_relations.from_person_id', '=', 'people.id')
+				->where('people_relations.to_person_id', $this->id)
+				->where('student_records.year_id', $currentYear->id)
+				->whereNull('student_records.end_date')
+				->where('people_relations.relationship_id', Relationship::CHILD)
+				->count();
+		});
+	}
+
+	public function viewingStudent(): BelongsTo
+	{
+		return $this->belongsTo(StudentRecord::class, 'student_id');
+	}
+
 
     /************************************************************************************************************
      * TEACHER FUNCTIONS
@@ -731,5 +739,18 @@ class Person extends Authenticatable implements HasSchoolRoles
 	}
 
 
-	
+	public function getWorkStorageKey(): WorkStoragesInstances
+	{
+		return WorkStoragesInstances::ProfileWork;
+	}
+
+	public function shouldBePublic(): bool
+	{
+		return true;
+	}
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
+	}
 }

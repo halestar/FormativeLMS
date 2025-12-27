@@ -2,31 +2,27 @@
 
 @section('content')
     <div class="container">
-        <h1 class="border-bottom mb-3">{{ __('locations.block.edit') }}</h1>
         <form method="POST" action="{{ route('locations.blocks.update', $block) }}">
             @csrf
             @method('PUT')
-            <div class="row justify-content-center">
-                <div class="col-md-2">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">{{ __('locations.block.name') }}</label>
-                        <input
-                                type="text"
-                                class="form-control @error('name') is-invalid @enderror"
-                                id="name"
-                                name="name"
-                                value="{{ $block->name }}"
-                        />
-                        <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
-                    </div>
+            <div class="border-bottom mb-3 d-flex justify-content-between align-items-center">
+                <h3>{{ __('locations.block.edit') }}</h3>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="active" name="active"
+                           @if($block->active) checked @endif value="1">
+                    <label class="form-check-label" for="active">{{ __('locations.block.active') }}</label>
                 </div>
-                <div class="col-md-2 align-self-center">
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="active" name="active"
-                               @if($block->active) checked @endif value="1">
-                        <label class="form-check-label" for="active">{{ __('locations.block.active') }}</label>
-                    </div>
-                </div>
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">{{ __('locations.block.name') }}</label>
+                <input
+                        type="text"
+                        class="form-control @error('name') is-invalid @enderror"
+                        id="name"
+                        name="name"
+                        value="{{ $block->name }}"
+                />
+                <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
             </div>
             <div class="d-flex mb-3 justify-content-center">
                 @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
@@ -42,7 +38,7 @@
                             @foreach($block->campus->periods($dayId)->active()->get() as $period)
                                 <option
                                         value="{{ $period->id }}"
-                                        @if($block->periods()->where('id', $period->id)->exists()) selected @endif
+                                        @selected($block->periods()->where('id', $period->id)->exists())
                                 >{{ $period->abbr }}</option>
                             @endforeach
                         </select>
@@ -55,13 +51,16 @@
             <div class="row">
                 <button class="btn btn-primary col mx-2"
                         type="submit">{{ trans_choice('locations.block.update', 1) }}</button>
-                <button
+
+                @if($block->canDelete())
+                    <button
                         class="btn btn-danger col mx-2"
                         type="button"
                         onclick="confirmDelete('{{ __('locations.block.delete.confirm') }}', '{{ route('locations.blocks.destroy', $block) }}')"
-                >{{ __('locations.block.delete') }}</button>
+                    >{{ __('locations.block.delete') }}</button>
+                @endif
                 <a class="btn btn-secondary col mx-2" role="button"
-                   href="{{ route('locations.campuses.show', ['campus' => $block->campus_id]) }}">{{ __('common.cancel') }}</a>
+                   href="{{ route('locations.campuses.edit', ['campus' => $block->campus_id]) }}">{{ __('common.cancel') }}</a>
             </div>
         </form>
     </div>

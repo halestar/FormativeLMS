@@ -55,6 +55,7 @@ return
 		'inactive' => 'Inactive',
 		'internal_user' => 'Internal User',
 		'linking' => 'Linking',
+		'link' => 'Link',
 		'loading' => 'Loading',
 		'lock' => 'Lock',
 		'locked' => 'Locked',
@@ -111,4 +112,8 @@ return
 		'more' => 'More',
 		'less' => 'Less',
         'legend' => 'Legend',
+		'post' => 'Post',
+		'post.no' => 'Not Posted',
+		'post.yes' => 'Posted',
+		'post.will' => 'Will Post',
 	];

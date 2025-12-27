@@ -4,14 +4,17 @@ namespace App\Traits;
 
 use App\Interfaces\Fileable;
 use App\Models\Utilities\WorkFile;
-use App\Observers\FileableObserver;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasWorkFiles
 {
 	public static function bootHasWorkFiles()
 	{
-		static::observe(FileableObserver::class);
+		static::deleting(function(Fileable $fileable)
+		{
+			foreach($fileable->workFiles as $file)
+				$file->delete();
+		});
 	}
 	public function workFiles(): MorphMany
 	{

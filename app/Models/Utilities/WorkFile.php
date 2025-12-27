@@ -4,6 +4,7 @@ namespace App\Models\Utilities;
 
 use App\Classes\Settings\StorageSettings;
 use App\Interfaces\Fileable;
+use App\Jobs\OptimizeImageJob;
 use App\Models\Integrations\IntegrationConnection;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
@@ -11,11 +12,13 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Drivers\Imagick\Driver;
+use Intervention\Image\ImageManager;
 
 class WorkFile extends Model
 {
 	use HasUuids;
-	protected $touches = ['fileable'];
 
 	public $timestamps = true;
 	public $incrementing = false;
@@ -40,17 +43,42 @@ class WorkFile extends Model
 	{
 		static::created(function(WorkFile $workFile)
 		{
-			if($workFile->public)
-				$workFile->url = route('settings.work.file.public', ['work_file' => $workFile->id]);
-			else
-				$workFile->url = route('settings.work.file.private', ['work_file' => $workFile->id]);
+			$workFile->url = route('settings.work.file', ['work_file' => $workFile->id]);
 			$workFile->icon = $workFile->mimeType->icon;
 			$workFile->save();
+			//also, if the work file is an image, we will need to optimize it.
+			if($workFile->mimeType->is_img)
+				OptimizeImageJob::dispatch($workFile->id);
 		});
 		static::deleting(function(WorkFile $workFile)
 		{
 			$workFile->lmsConnection->deleteFile($workFile);
 		});
+	}
+
+	public function canCreateThumb(): bool
+	{
+		return $this->mimeType->is_img;
+	}
+
+	public function hasThumbnail(): bool
+	{
+		return ($this->thumb_path != null);
+	}
+
+	public function generateThumb(): void
+	{
+		if($this->canCreateThumb())
+		{
+			$manager = new ImageManager(new Driver());
+			$thmb = $manager->read($this->contents());
+			if($thmb)
+			{
+				$thmb->pad(config('lms.thumb_max_height'), config('lms.thumb_max_height'));
+				$this->thumb_path = $this->lmsConnection->storeThumbnail($this, $thmb->toJpeg());
+				$this->save();
+			}
+		}
 	}
 	
 	public function lmsConnection(): BelongsTo

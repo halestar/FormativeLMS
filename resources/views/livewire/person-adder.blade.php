@@ -64,7 +64,7 @@
                             <div class="col-md-2">
                                 <img
                                         class='img-thumbnail'
-                                        src='{{ $suggestion->thumbnail_url }}'
+                                        src='{{ $suggestion->portrait_url->thumbUrl() }}'
                                         style="height: {{ config('lms.thumb_max_height') }}px !important;"
                                         alt='{{ __('people.profile.image') }}'
                                 />

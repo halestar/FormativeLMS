@@ -4,6 +4,7 @@ namespace App\Models\Utilities;
 
 use App\Enums\WorkStoragesInstances;
 use App\Interfaces\Fileable;
+use App\Models\People\Person;
 use App\Traits\HasWorkFiles;
 use App\Traits\UsesJsonValue;
 use Illuminate\Database\Eloquent\Model;
@@ -72,4 +73,9 @@ class SystemSetting extends Model implements Fileable
     {
         return WorkStoragesInstances::SystemFiles;
     }
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
+	}
 }

@@ -81,6 +81,15 @@ class SchoolClass extends Model
 		return $query->groupBy('student_records.id')
 		             ->get();
 	}
+
+	public function currentSession(): ?ClassSession
+	{
+		$term = Term::currentTerm($this->subject->campus);
+		return $this->sessions()
+		            ->where('term_id', $term->id)
+		            ->first();
+
+	}
 	
 	/**
 	 * This function is used to determine whether a student is enrolled this in this class for

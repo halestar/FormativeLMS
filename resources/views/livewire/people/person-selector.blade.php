@@ -43,7 +43,7 @@
                     >
                         <div>
                             <img
-                                    src="{{ $person->thumbnail_url }}"
+                                    src="{{ $person->portrait_url->thumbUrl() }}"
                                     alt="{{ $person->name }}"
                                     width="32"
                                     height="32"

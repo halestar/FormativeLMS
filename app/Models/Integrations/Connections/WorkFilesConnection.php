@@ -28,6 +28,7 @@ abstract class WorkFilesConnection extends IntegrationConnection implements Inte
 	
 	/**
 	 * This function will delete a persisted file from the system storage.
+	 * It should also delete the thumbnail file, if it exists.
 	 * @param WorkFile $file The file to delete.
 	 * @return void
 	 */
@@ -48,12 +49,35 @@ abstract class WorkFilesConnection extends IntegrationConnection implements Inte
 	abstract public function fileContents(WorkFile $file): ?string;
 
 	/**
+	 * Similar to the download function, this function will download a thumbnail for a work file.
+	 * @param WorkFile $file The file to download the thumbnail for.
+	 * @return StreamedResponse
+	 */
+	abstract public function downloadThumb(WorkFile $file): StreamedResponse;
+
+	/**
+	 * Similar to the fileContents function, this function will get the contents of a thumbnail for a work file.
+	 * @param WorkFile $file The file to get the thumbnail contents of.
+	 * @return string|null The contents of the thumbnail, null if there is an error.
+	 */
+	abstract public function thumbContents(WorkFile $file): ?string;
+
+	/**
 	 * This function will copy a persisted work file from one fileable object to this one.
 	 * How the file is copied is left to the integrator class.
 	 * @param WorkFile $file The file to copy.
 	 * @return WorkFile Returns the new file created.
 	 */
 	abstract public function copyWorkFile(WorkFile $file, Fileable $destination): WorkFile;
+
+	/**
+	 * This function is called when creating a thumbnail for a work file that CAN have a thumbnail (usually an image).
+	 * This function will run on a script that will attempt to create a thumbnail for all work files that do not have one.
+	 * @param WorkFile $workFile The work file to create a thumbnail for.
+	 * @param string $contents The contents of the thumbnail file to persist. Contents are always in JPEG format
+	 * @return string The path to the thumbnail file.
+	 */
+	abstract public function storeThumbnail(WorkFile $workFile, string $contents): string;
 
 	/**
 	 * Shit happens. Sometimes objects don't get deleted properly, sometimes some errors in other

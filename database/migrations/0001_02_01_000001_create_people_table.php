@@ -30,11 +30,6 @@ return new class extends Migration
 			
 			$table->string('portrait_url')
 			      ->nullable();
-			$table->string('thumbnail_url')
-			      ->nullable();
-			
-			$table->json('global_log')
-			      ->nullable();
 			$table->json('prefs')
 			      ->nullable();
 			$table->bigInteger('school_id')

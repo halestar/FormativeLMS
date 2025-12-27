@@ -59,10 +59,50 @@
                     </div>
                 </li>
             @endforeach
-        @elseif($classSession->viewingAs(\App\Enums\ClassViewer::STUDENT))
+        @else
             @foreach($opportunities as $opportunity)
-                <li class="list-group-item">
-                    {{ $opportunity->demonstration->name }} ({{ $opportunity->demonstration->abbr }})
+                <li class="list-group-item d-flex justify-content-between align-items-center
+                    @if($opportunity->completed) list-group-item-success
+                    @elseif($opportunity->isPastDue()) list-group-item-danger
+                    @elseif($opportunity->isSubmitted()) list-group-item-warning @endif"
+                >
+                    <span class="fs-6 fw-bold">
+                        {{ $opportunity->demonstration->name }} ({{ $opportunity->demonstration->abbr }})
+                    </span>
+                    <div class="text-end">
+                        <span class="me-4">
+                            @if($opportunity->isPastDue())
+                                <span class="badge text-bg-danger">{{ __('learning.demonstrations.status.past') }}</span>
+                            @endif
+                            @if($opportunity->isSubmitted())
+                                <span class="badge text-bg-warning">{{ __('learning.demonstrations.status.submitted') }}</span>
+                            @endif
+                            @if($opportunity->completed)
+                                <span class="badge text-bg-warning">{{ __('learning.demonstrations.status.completed') }}</span>
+                            @endif
+                        </span>
+
+                        @if($opportunity->canWork())
+                            <a
+                                    class="text-primary me-2 fs-5 link-underline link-underline-opacity-0"
+                                    href="{{ route('learning.ld.opportunities.demonstrator', ['opportunity' => $opportunity->id, 'classSession' => $classSession->id]) }}"
+                                    wire:navigate
+                            >
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </a>
+                        @else
+                            <a
+                                    class="text-success me-2 fs-5 link-underline link-underline-opacity-0"
+                                    href="{{ route('learning.ld.opportunities.viewer', ['opportunity' => $opportunity->id, 'classSession' => $classSession->id]) }}"
+                                    wire:navigate
+                            >
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        @endif
+                        <span class="text-muted ms-4">
+                            {{ __('learning.demonstrations.due.on') . ": " . $opportunity->due_on->format('m/d') }}
+                        </span>
+                    </div>
                 </li>
             @endforeach
         @endif

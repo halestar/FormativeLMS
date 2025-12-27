@@ -4,10 +4,13 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\People\Person;
+use App\Models\People\StudentRecord;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Log;
 
 class LoginController extends Controller implements HasMiddleware
 {
@@ -15,8 +18,8 @@ class LoginController extends Controller implements HasMiddleware
 	{
 		return
 			[
-				new Middleware('guest', except: ['logout', 'impersonate', 'unimpersonate']),
-				new Middleware('auth', only: ['logout', 'impersonate', 'unimpersonate']),
+				new Middleware('guest', except: ['logout', 'impersonate', 'unimpersonate', 'viewChild']),
+				new Middleware('auth', only: ['logout', 'impersonate', 'unimpersonate', 'viewChild']),
 			];
 	}
 	
@@ -58,6 +61,17 @@ class LoginController extends Controller implements HasMiddleware
 				->leaveImpersonation();
 			$url = session()->pull('impersonating_from', route('home'));
 			return redirect($url);
+		}
+		return redirect(route('home'));
+	}
+
+	public function viewChild(StudentRecord $student)
+	{
+		$user = auth()->user();
+		if($user->isParent() && $user->isParentOfPerson($student->person))
+		{
+			$user->student_id = $student->id;
+			$user->save();
 		}
 		return redirect(route('home'));
 	}

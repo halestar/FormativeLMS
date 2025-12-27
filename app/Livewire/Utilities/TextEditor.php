@@ -23,7 +23,7 @@ class TextEditor extends Component
 	public string $content = '';
 	public WorkStoragesInstances $instance;
 	public IntegrationConnection $connection;
-	public Fileable $fileable;
+	public ?Fileable $fileable;
 	public array|null $availableTokens = null;
 	public $uploadedFile;
 	public string $height = "500px";
@@ -43,7 +43,7 @@ class TextEditor extends Component
         $this->name = $this->name?? $this->id;
 	}
 	
-	#[On('document-storage-browser.files-selected')]
+	#[On('document-storage-browser-files-selected')]
 	public function filesSelected($cb_instance, $selected_items)
 	{
 		if($cb_instance != $this->id) return;

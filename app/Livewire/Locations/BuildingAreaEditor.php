@@ -12,29 +12,89 @@ use Livewire\Component;
 
 class BuildingAreaEditor extends Component
 {
+	public array $breadcrumb;
 	public BuildingArea $buildingArea;
+	public int $buildAreaId;
 	public Building $building;
 	public Collection $rooms;
+	public Collection $areas;
 	public ?Room $viewing = null;
-	#[Validate('required|max:200')]
-	public ?string $name;
+
+	public string $newRoomName = "";
+
+	#[Validate('required|max:200|min:3')]
+	public ?string $name = null;
+
 	#[Validate('required|numeric')]
-	public ?int $capacity;
-	public bool $definingBounds;
+	public ?int $capacity = null;
+	public bool $definingBounds = false;
 	
 	public function messages(): array
 	{
 		return [
-			'name' => __('errors.terms.label'),
-			'capacity' => __('errors.terms.campus_id'),
+			'name' => __('errors.rooms.name'),
+			'newRoomName' => __('errors.rooms.name'),
+			'capacity' => __('errors.rooms.capacity'),
 		];
 	}
-	
-	public function mount(BuildingArea $area): void
+
+	public function loadArea(): void
 	{
-		$this->buildingArea = $area;
-		$this->building = $area->building;
-		$this->rooms = $area->rooms;
+		$this->buildingArea = BuildingArea::find($this->buildAreaId);
+		$this->building = $this->buildingArea->building;
+		$this->rooms = $this->buildingArea->rooms;
+		$this->areas = $this->building->buildingAreas;
+		$this->js("window.mapDrawings.loadBuildingArea(" . $this->buildAreaId . ")");
+	}
+	
+	public function mount(BuildingArea $area)
+	{
+		$this->authorize('has-permission', 'locations.areas');
+		$this->buildAreaId = $area->id;
+		$this->buildingArea = BuildingArea::find($this->buildAreaId);
+		$this->building = $this->buildingArea->building;
+		$this->rooms = $this->buildingArea->rooms;
+		$this->areas = $this->building->buildingAreas;
+		$this->breadcrumb =
+			[
+				__('system.menu.rooms') => route('locations.buildings.index'),
+				$area->building->name => route('locations.buildings.show', $area->building),
+				__('locations.buildings.edit') => route('locations.buildings.edit', $area->building),
+				__('locations.buildings.maps') => "#",
+			];
+	}
+
+	public function deleteRoom(Room $room): void
+	{
+		if($room->canDelete())
+			$room->delete();
+		$this->removeViewing();
+		$this->rooms = $this->buildingArea->rooms;
+	}
+
+	public function addRoom(): void
+	{
+		$this->validate(['newRoomName' => 'required|max:200|min:3'], messages: $this->messages());
+		$room = new Room();
+		$room->name = $this->newRoomName;
+		$room->area_id = $this->buildingArea->id;
+		$room->save();
+		$room->refresh();
+		$this->rooms = $this->buildingArea->rooms;
+		$this->newRoomName = "";
+		$this->viewRoom($room);
+	}
+
+	public function viewRoom(Room $room): void
+	{
+		//check that we can see this room
+		if($this->building->rooms()->where('rooms.id', $room->id)->exists())
+		{
+			$this->viewing = $room;
+			$this->name = $this->viewing->name;
+			$this->capacity = $this->viewing->capacity;
+			$this->js("window.mapDrawings.highlightRoom(" . $room->id . ")");
+		}
 	}
 	
 	public function removeViewing(): void
@@ -42,39 +102,23 @@ class BuildingAreaEditor extends Component
 		$this->viewing = null;
 		$this->name = null;
 		$this->capacity = null;
-		$this->clearDefineBounds();
-	}
-	
-	public function clearDefineBounds()
-	{
 		$this->definingBounds = false;
-		$this->dispatch('end-bounds');
+		$this->js('window.mapDrawings.reload()');
 	}
 	
-	public function updateRoomName()
+	public function updateRoom()
 	{
-		if($this->viewing && $this->name)
+		if($this->viewing)
 		{
-			$this->viewing->name = $this->name;
+			$data = $this->validate(
+				[
+					'name' => 'required|max:200|min:3',
+					'capacity' => 'required|numeric|min:1',
+				], messages: $this->messages());
+			$this->viewing->fill($data);
 			$this->viewing->save();
 			$this->rooms = $this->buildingArea->rooms;
 		}
-	}
-	
-	public function updateRoomCapacity()
-	{
-		if($this->viewing && $this->capacity)
-		{
-			$this->viewing->capacity = $this->capacity;
-			$this->viewing->save();
-			$this->rooms = $this->buildingArea->rooms;
-		}
-	}
-	
-	public function defineBounds()
-	{
-		$this->definingBounds = true;
-		$this->dispatch('begin-bounds');
 	}
 	
 	public function saveBounds(mixed $data)
@@ -83,37 +127,15 @@ class BuildingAreaEditor extends Component
 		{
 			$this->viewing->img_data = $data;
 			$this->viewing->save();
-			$this->clearDefineBounds();
+			$this->definingBounds = false;
+			$this->js('window.mapDrawings.reload()');
 		}
 	}
-	
-	public function deleteRoom(Room $room): void
-	{
-		if($room->canDelete())
-			$room->delete();
-		$this->rooms = $this->buildingArea->rooms;
-	}
-	
-	public function addRoom(): void
-	{
-		$room = new Room();
-		$room->name = __('locations.rooms.new');
-		$room->virtual = false;
-		$room->area_id = $this->buildingArea->id;
-		$room->save();
-		$this->rooms = $this->buildingArea->rooms;
-		$this->setViewing($room);
-	}
-	
-	public function setViewing(Room $room): void
-	{
-		$this->viewing = $room;
-		$this->name = $this->viewing->name;
-		$this->capacity = $this->viewing->capacity;
-	}
-	
+
 	public function render()
 	{
-		return view('livewire.locations.building-area-editor');
+		return view('livewire.locations.building-area-editor')
+			->extends('layouts.app', ['breadcrumb' => $this->breadcrumb])
+			->section('content');
 	}
 }

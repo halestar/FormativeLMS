@@ -49,7 +49,7 @@
                     class="btn btn-success"
                     wire:click="updateTab()"
             >{{ __('subjects.school.tabs.name.update') }}</button>
-            @if(!$selectedTab->isLocked())
+            @if(!$selectedTab->canDelete())
                 <button
                         type="button"
                         class="btn btn-danger"
@@ -58,19 +58,17 @@
                 >{{ __('subjects.school.tabs.delete') }}</button>
             @endif
         </div>
-        @if(!$selectedTab->isLocked())
-            <div class="input-group mt-2">
-                <label for="add-widget"
-                       class="input-group-text">{{ __('subjects.school.widgets.add') }}</label>
-                <select id="add-widget" class="form-select">
-                    @foreach($availableWidgets as $widgetClass => $widgetName)
-                        <option value="{{ $widgetClass }}">{{ $widgetName }}</option>
-                    @endforeach
-                </select>
-                <button class="btn btn-success"
-                        wire:click="addWidget($('#add-widget').val())">{{ __('common.add') }}</button>
-            </div>
-        @endif
+        <div class="input-group mt-2">
+            <label for="add-widget"
+                   class="input-group-text">{{ __('subjects.school.widgets.add') }}</label>
+            <select id="add-widget" class="form-select">
+                @foreach($availableWidgets as $widgetClass => $widgetName)
+                    <option value="{{ $widgetClass }}">{{ $widgetName }}</option>
+                @endforeach
+            </select>
+            <button class="btn btn-success"
+                    wire:click="addWidget($('#add-widget').val())">{{ __('common.add') }}</button>
+        </div>
     </div>
     @endif
     <div class="tab-content mt-3">

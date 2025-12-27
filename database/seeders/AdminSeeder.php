@@ -44,7 +44,6 @@ class AdminSeeder extends Seeder
 			]);
 		$admin->refresh();
 		$admin->portrait_url = config('app.url') . '/storage/idpics/1.jpg';
-		$admin->thumbnail_url = config('app.url') . '/storage/idpics/1.jpg';
 		$admin->save();
 		$admin->assignRole([SchoolRoles::$ADMIN, SchoolRoles::$EMPLOYEE, SchoolRoles::$STAFF]);
 		if(config('seeder.admin_password', false) && $authService)
@@ -77,7 +76,6 @@ class AdminSeeder extends Seeder
 			]);
 		$staff->refresh();
 		$staff->portrait_url = config('app.url') . '/storage/idpics/2.jpg';
-		$staff->thumbnail_url = config('app.url') . '/storage/idpics/2.jpg';
 		$staff->save();
 		$staff->assignRole(
 			[
@@ -115,7 +113,6 @@ class AdminSeeder extends Seeder
 			]);
 		$faculty->refresh();
 		$faculty->portrait_url = config('app.url') . '/storage/idpics/3.jpg';
-		$faculty->thumbnail_url = config('app.url') . '/storage/idpics/3.jpg';
 		$faculty->save();
 		$faculty->assignRole([SchoolRoles::$EMPLOYEE, SchoolRoles::$FACULTY]);
 		if($authService)
@@ -140,7 +137,6 @@ class AdminSeeder extends Seeder
 			]);
 		$coach->refresh();
 		$coach->portrait_url = config('app.url') . '/storage/idpics/4.jpg';
-		$coach->thumbnail_url = config('app.url') . '/storage/idpics/4.jpg';
 		$coach->assignRole([SchoolRoles::$COACH, SchoolRoles::$EMPLOYEE]);
 		if($authService)
 			if($connection = $authService->connect($coach))
@@ -176,7 +172,6 @@ class AdminSeeder extends Seeder
 			]);
 		$student->refresh();
 		$student->portrait_url = config('app.url') . '/storage/idpics/5.jpg';
-		$student->thumbnail_url = config('app.url') . '/storage/idpics/5.jpg';
 		$student->save();
 		$student->assignRole(SchoolRoles::$STUDENT);
 		if($authService)
@@ -210,7 +205,6 @@ class AdminSeeder extends Seeder
 			]);
 		$parent->refresh();
 		$parent->portrait_url = config('app.url') . '/storage/idpics/6.jpg';
-		$parent->thumbnail_url = config('app.url') . '/storage/idpics/6.jpg';
 		$parent->save();
 		$parent->assignRole(SchoolRoles::$PARENT);
 		if($authService)

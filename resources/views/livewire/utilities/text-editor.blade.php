@@ -185,7 +185,7 @@
 </div>
 @script
 <script>
-    window.addEventListener('document-storage-browser.files-selected',
+    window.addEventListener('document-storage-browser-files-selected',
         (event) => (event.cb_instance === '{!! $id !!}') ? tinymce.get('{!! $id !!}').setProgressState(true) : null);
     $wire.on('text-editor.insert-image', (event) => tinymce.get('{!! $id !!}').execCommand('selectLmsImage', event.work_file));
 

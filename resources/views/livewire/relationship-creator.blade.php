@@ -110,7 +110,7 @@
                                             <img
                                                     class='img-fluid img-thumbnail'
                                                     style="height: {{ config('lms.thumb_max_height') }}px !important;"
-                                                    src='{{ $suggestion->thumbnail_url }}'
+                                                    src='{{ $suggestion->portrait_url->thumbUrl() }}'
                                                     alt='{{ __('people.profile.image') }}'
                                             />
                                         </div>

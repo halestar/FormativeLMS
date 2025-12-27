@@ -209,7 +209,7 @@ class Rubric implements CastsAttributes, Synthesizable
 	 */
 	public function set(Model $model, string $key, mixed $value, array $attributes): mixed
 	{
-		return json_encode($value->toArray());
+		return json_encode($value?->toArray());
 	}
 	
 	public function toArray(): array
@@ -241,4 +241,6 @@ class Rubric implements CastsAttributes, Synthesizable
 	{
 		return new RubricAssessment($this);
 	}
+
+
 }

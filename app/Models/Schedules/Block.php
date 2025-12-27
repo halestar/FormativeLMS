@@ -4,6 +4,8 @@ namespace App\Models\Schedules;
 
 use App\Models\Locations\Campus;
 use App\Models\Scopes\OrderByOrderScope;
+use App\Models\Utilities\SchoolRoles;
+use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -39,10 +41,11 @@ class Block extends Model
 	{
 		return $this->belongsToMany(Period::class, 'blocks_periods', 'block_id', 'period_id');
 	}
-	
-	public function scopeActive(Builder $builder)
+
+	#[Scope]
+	protected function active(Builder $query): void
 	{
-		$builder->where('active', true);
+		$query->where('active', true);
 	}
 	
 	protected function casts(): array

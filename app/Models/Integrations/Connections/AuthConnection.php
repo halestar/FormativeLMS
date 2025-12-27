@@ -209,6 +209,17 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
             foreach($intManager->unconnectedPersonalServices($user, IntegratorServiceTypes::CLASSES) as $service)
                 $service->connect($user);
         }
+		//in the case of parents, set up a student to view.
+	    if($user->isParent())
+	    {
+			//do we have a saved student?
+		    if(!$user->student_id)
+		    {
+				//pick the first student we find.
+			    $user->student_id = $user->currentChildStudents()->first()?->id;
+				$user->save();
+		    }
+	    }
         return redirect()->getIntendedUrl() ?? route('home');
     }
 	

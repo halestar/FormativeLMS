@@ -92,13 +92,13 @@ class PhoneEditor extends Component
 	
 	public function editPhone(Phone $phone)
 	{
-		$this->editing = $this->phoneable->phones()
-		                                 ->find($phone->id);
+		$this->editing = $this->singlePhoneable? $this->phoneable->phone :
+			$this->phoneable->phones()->find($phone->id);
 		$this->phone = $phone->phone;
 		$this->ext = $phone->ext;
 		$this->mobile = $phone->mobile;
-		$this->primary = $this->editing->personal->primary;
-		$this->label = $this->editing->personal->label;
+		$this->primary = $this->singlePhoneable || $this->editing->personal->primary;
+		$this->label = $this->singlePhoneable? "" : $this->editing->personal->label;
 	}
 	
 	public function updatePhone()

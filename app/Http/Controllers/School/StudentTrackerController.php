@@ -8,6 +8,7 @@ use App\Models\People\StudentRecord;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
+use Illuminate\Support\Facades\Log;
 
 
 class StudentTrackerController extends Controller implements HasMiddleware
@@ -29,10 +30,9 @@ class StudentTrackerController extends Controller implements HasMiddleware
 			];
 		$self = auth()->user();
 		$trackers = Person::permission('school.tracker')
-		                  ->select('people.*')
-		                  ->join('employee_campuses', 'people.id', '=', 'employee_campuses.person_id')
-		                  ->whereIn('campus_id', $self->employeeCampuses->pluck('id'))
-		                  ->groupBy('people.id')
+						->whereHas('campuses', fn($query) => $query->whereIn('campuses.id', $self->campuses->pluck('id')->toArray()))
+						->select('people.*')
+						->groupBy('people.id')
 		                  ->get();
 		return view('school.tracker.index', compact('breadcrumb', 'trackers'));
 	}

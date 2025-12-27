@@ -1,8 +1,5 @@
 <?php
 
-/**
- * @var \App\Classes\Integrators\Local\ClassManagement\ClassSessionLayoutManager $layout
- */
 
 namespace App\Models\SubjectMatter;
 
@@ -10,6 +7,8 @@ use App\Classes\Integrators\Local\ClassManagement\ClassSessionLayoutManager;
 use App\Classes\Settings\SchoolSettings;
 use App\Enums\AssessmentStrategyCalculationMethod;
 use App\Enums\ClassViewer;
+use App\Enums\WorkStoragesInstances;
+use App\Interfaces\Fileable;
 use App\Interfaces\HasSchedule;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\Locations\Room;
@@ -24,6 +23,8 @@ use App\Models\SubjectMatter\Learning\ClassCriteria;
 use App\Models\SubjectMatter\Learning\ClassSessionCriteria;
 use App\Models\SubjectMatter\Learning\LearningDemonstration;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationClassSession;
+use App\Models\Utilities\WorkFile;
+use App\Traits\HasWorkFiles;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -34,13 +35,11 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 
-class ClassSession extends Model implements HasSchedule
+class ClassSession extends Model implements HasSchedule, Fileable
 {
+	use HasWorkFiles;
 	public $timestamps = true;
 	public $incrementing = true;
-	/**
-	 * @var \App\Classes\Integrators\Local\ClassManagement\ClassSessionLayoutManager $layout
-	 */
 	protected $with = ['schoolClass', 'term'];
 	protected $table = "class_sessions";
 	protected $primaryKey = "id";
@@ -281,10 +280,24 @@ class ClassSession extends Model implements HasSchedule
     {
         if(!$this->class_management_id)
         {
-            //There isn't one set, so we use the system's default one.
+            //There isn't a classroom management set, so we put in the default one.
             $settings = app(SchoolSettings::class);
-            $this->class_management_id = $settings->class_management_connection_id;
-            $this->save();
+			$defaultService = $settings->classManagementService;
+			//first, is tehre a system connection?
+	        if($defaultService)
+	        {
+				//check if there is a system connection for this service
+		        $conn = $defaultService->connectToSystem();
+				//if there is no system connection, then try a user connection.
+				if(!$conn)
+					$conn = $defaultService->connect($this->teachers()->first());
+				//if we have a connection now, save it.
+				if($conn)
+				{
+					$this->class_management_id = $conn->id;
+					$this->save();
+				}
+	        }
         }
         return $this->belongsTo(IntegrationConnection::class, 'class_management_id');
     }
@@ -330,5 +343,20 @@ class ClassSession extends Model implements HasSchedule
 			->using(LearningDemonstrationClassSession::class)
 			->as('session')
 			->orderBy('learning_demonstration_class_sessions.posted_on', 'desc');
+	}
+
+	public function getWorkStorageKey(): WorkStoragesInstances
+	{
+		return WorkStoragesInstances::ClassWork;
+	}
+
+	public function shouldBePublic(): bool
+	{
+		return false;
+	}
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
 	}
 }

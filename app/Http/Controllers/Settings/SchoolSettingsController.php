@@ -49,12 +49,12 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 		                      ->inRandomOrder()
 		                      ->first();
 		$workConnections = $integrations->systemConnections(IntegratorServiceTypes::WORK);
-		$classManagementConnection = $integrations->systemConnections(IntegratorServiceTypes::CLASSES);
+		$classManagementServices = $integrations->getAvailableServices(IntegratorServiceTypes::CLASSES);
         $systemMessages = SchoolMessage::system()->get();
 		return view('settings.school.show',
 			compact('breadcrumb', 'studentRole',
 				'sampleStudent', 'sampleParent', 'sampleEmployee', 'employeeRole', 'parentRole', 'workConnections',
-				'classManagementConnection', 'systemMessages'));
+				'classManagementServices', 'systemMessages'));
 	}
 	
 	public function update(Request $request, SchoolSettings $settings)
@@ -97,14 +97,14 @@ class SchoolSettingsController extends Controller implements HasMiddleware
 			'year_messages' => ['required', 'numeric', Rule::in([1, 2])],
             'rubrics_max_points' => 'required|numeric|min:1',
 			'force_class_management' => 'required|boolean',
-			'class_management_connection_id' => 'required|exists:integration_connections,id'
+			'class_management_service_id' => 'required|exists:integration_services,id'
 		], static::errors());
 		//update days
 		$settings->max_msg = $data['max_msg'];
 		$settings->year_messages = $data['year_messages'];
         $settings->rubrics_max_points = $data['rubrics_max_points'];
 		$settings->force_class_management = $data['force_class_management'];
-		$settings->class_management_connection_id = $data['class_management_connection_id'];
+		$settings->class_management_service_id = $data['class_management_service_id'];
 		$settings->save();
 		return redirect()
 			->route('settings.school')

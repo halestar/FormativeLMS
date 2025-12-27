@@ -48,6 +48,9 @@ return
 	'demonstrations' => 'Learning Demonstration|Learning Demonstrations',
 	'demonstrations.new' => 'New Learning Demonstration',
 	'demonstrations.post.save' => 'Save and Post Learning Demonstration',
+	'demonstrations.post.update' => 'Update Learning Demonstration Posting',
+	'demonstrations.post.delete' => 'Delete Learning Demonstration Posting',
+	'demonstrations.post.delete.confirm' => 'Are you sure you want to delete this Learning Demonstration Posting? The information attached to it will be lost.',
 	'demonstrations.save' => 'Save Learning Demonstration',
 	'demonstrations.saved' => 'Learning Demonstration Saved',
 	'demonstrations.index' => 'Learning Demonstrations',
@@ -115,4 +118,8 @@ return
 	'demonstrations.assess' => 'Assess Learning Demonstration',
 	'demonstrations.opportunities' => 'Learning Demonstration Opportunity|Learning Demonstration Opportunities',
 	'demonstrations.templates' => 'Learning Template|Learning Templates',
+	'demonstrations.status.past' => 'Past Due',
+	'demonstrations.status.completed' => 'Assessed',
+	'demonstrations.status.submitted' => 'Assessing',
+	'demonstrations.viewer' => 'Learning Demonstration Viewer',
 ];

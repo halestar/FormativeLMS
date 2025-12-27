@@ -4,7 +4,7 @@ return
 	[
 		'menu.admin' => 'System',
 		'menu.campuses' => 'Campuses',
-		'menu.classes' => 'Class Management',
+		'menu.classes' => 'Class Settings',
 		'menu.classes.enrollment.general' => 'General Class Enrollment',
 		'menu.classes.enrollment.student' => 'Student Schedule Builder',
 		'menu.cms' => 'CMS',
@@ -22,6 +22,7 @@ return
 		'menu.years' => 'Years & Semesters',
 		'menu.teaching' => 'Teaching',
 		'menu.criteria' => 'Class Criteria',
+		'menu.classes.settings' => 'Class Settings',
 		'settings.classes.max_msg' => 'Messages Per Page',
 		'settings.classes.max_msg.help' => 'Max number of messages on each page of the school chat.',
         'settings.classes.rubrics_max_points' => 'Rubric Max Points',

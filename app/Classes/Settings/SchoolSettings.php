@@ -4,6 +4,7 @@ namespace App\Classes\Settings;
 
 use App\Casts\Utilities\SystemSettings\SchoolNames;
 use App\Models\Integrations\IntegrationConnection;
+use App\Models\Integrations\IntegrationService;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 
@@ -25,7 +26,7 @@ class SchoolSettings extends SystemSetting
 				"parentName" => [],
                 "rubrics_max_points" => 5,
 				"force_class_management" => true,
-				"class_management_connection_id" => null,
+				"class_management_service_id" => null,
                 "terms_of_service" => '',
                 "privacy_policy" => '',
 			];
@@ -56,20 +57,20 @@ class SchoolSettings extends SystemSetting
 		return $this->basicProperty('force_class_management');
 	}
 
-	public function classManagementConnectionId(): Attribute
+	public function classManagementServiceId(): Attribute
 	{
-		return $this->basicProperty('class_management_connection_id');
+		return $this->basicProperty('class_management_service_id');
 	}
 
-	public function classManagementConnection(): Attribute
+	public function classManagementService(): Attribute
 	{
 		return Attribute::make
 		(
 			get: function(mixed $value, array $attributes)
 			{
-				$connectionId = $this->getValue($attributes['value'], 'class_management_connection_id', null);
-				if(!$connectionId) return null;
-				return IntegrationConnection::find($connectionId);
+				$serviceId = $this->getValue($attributes['value'], 'class_management_service_id', null);
+				if(!$serviceId) return null;
+				return IntegrationService::find($serviceId);
 			},
 		);
 	}

@@ -102,7 +102,7 @@ class  Course extends Model
 	{
 		$str = trim(preg_replace('/[^a-zA-Z\s]/', '', $this->name));
 		if(!$except || count($except) == 0)
-			return Skill::search($str)->get();
-		return Skill::search($str)->whereNotIn('id', $except)->get();
+			return Skill::active()->search($str)->get();
+		return Skill::active()->search($str)->whereNotIn('id', $except)->get();
 	}
 }

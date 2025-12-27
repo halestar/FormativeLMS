@@ -23,11 +23,15 @@ class LearningDemonstrations extends Component
 		$this->self = auth()->user();
 		$this->classSession = $session;
 		$this->canManage = $this->classSession->viewingAs( ClassViewer::ADMIN) || $this->classSession->viewingAs( ClassViewer::FACULTY);
+		$this->demonstrations = new Collection();
+		$this->opportunities = new Collection();
 		//in this case, we get the demonstrations for the class.
 		if($this->classSession->viewingAs(ClassViewer::FACULTY))
 			$this->demonstrations = $this->classSession->demonstrations;
 		elseif($this->classSession->viewingAs(ClassViewer::STUDENT))
 			$this->opportunities = $this->self->student()->classOpportunities($this->classSession)->get();
+		elseif($this->classSession->viewingAs(ClassViewer::PARENT))
+			$this->opportunities = $this->self->viewingStudent->classOpportunities($this->classSession)->get();
 	}
 
     public function render()

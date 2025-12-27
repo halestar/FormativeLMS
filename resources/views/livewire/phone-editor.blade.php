@@ -2,7 +2,7 @@
     @if($editing || $adding)
         <div class="border rounded p-2 text-bg-light">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-8" x-data="{ showSuggestions: false }" x-on:click.away="showSuggestions = false">
                     <div class="form-floating mb-0">
                         <input
                                 type="text"
@@ -11,11 +11,12 @@
                                 placeholder="{{ __('phones.phone_number') }}"
                                 autocomplete="off"
                                 wire:model.live.debounce="phone"
+                                x-on:focus="showSuggestions = true"
                         />
                         <label for="phone">{{ __('phones.phone') }}</label>
                     </div>
                     @if($suggestedPhones && $suggestedPhones->count() > 0)
-                        <div class="absolute m-0 rounded w-full bg-gray-200 pl-2">
+                        <div class="absolute m-0 rounded w-full bg-gray-200 pl-2" x-show="showSuggestions">
                             <ul class="list-group">
                                 @foreach($suggestedPhones as $suggestion)
                                     <li
@@ -23,7 +24,7 @@
                                             wire:key="{{ $suggestion->id }}"
                                             wire:click="setLinking({{ $suggestion->id }})"
                                     >
-                                        {{ $suggestion->prettyPhone }}
+                                        {{ $suggestion->pretty_phone }}
                                     </li>
                                 @endforeach
                             </ul>

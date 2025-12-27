@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Locations;
 
 use App\Classes\SessionSettings;
+use App\Classes\Settings\StorageSettings;
+use App\Classes\Storage\DocumentFile;
+use App\Enums\WorkStoragesInstances;
 use App\Http\Controllers\Controller;
 use App\Models\Locations\Campus;
 use Illuminate\Http\Request;
@@ -88,18 +91,25 @@ class CampusController extends Controller implements HasMiddleware
 			->with('success-status', __('locations.campus.updated'));
 	}
 	
-	public function updateImg(Request $request, Campus $campus)
+	public function updateImg(Request $request, Campus $campus, StorageSettings $storageSettings)
 	{
 		Gate::authorize('has-permission', 'locations.campuses');
-		$data = $request->validate([
-			'img' => 'nullable|url',
-		], static::errors());
-		$campus->fill($data);
-		$campus->save();
+		$campus_img = json_decode($request->input('campus_img'), true);
+		if(isset($campus_img['school_id']))
+			$doc = DocumentFile::hydrate($campus_img);
+		else
+			$doc = DocumentFile::hydrate($campus_img[0]);
+		//first, we persist the file, using the Person object as the filer.
+		$connection = $storageSettings->getWorkConnection(WorkStoragesInstances::ProfileWork);
+		$imgFile = $connection->persistFile($campus, $doc, false);
+		if($imgFile)
+		{
+			$campus->img->useWorkfile($imgFile);
+			$campus->save();
+		}
 		return redirect()
 			->back()
 			->with('success-status', __('locations.campus.updated'));
-		
 	}
 	
 	public function updateIcon(Request $request, Campus $campus)

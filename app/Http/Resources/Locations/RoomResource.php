@@ -19,8 +19,6 @@ class RoomResource extends JsonResource
 			[
 				'id' => $this->id,
 				'name' => $this->name,
-				'virtual' => $this->virtual,
-				'url' => $this->url,
 				'capacity' => $this->capacity,
 				'img_data' => $this->img_data,
 				'phone' => new PhoneResource($this->phone),

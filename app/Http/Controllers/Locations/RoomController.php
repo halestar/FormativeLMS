@@ -53,7 +53,6 @@ class RoomController extends Controller implements HasMiddleware
 	
 	public function show(Room $room)
 	{
-		Gate::authorize('has-permission', 'locations.rooms');
 		$breadcrumb =
 			[
 				__('system.menu.rooms') => route('locations.buildings.index'),

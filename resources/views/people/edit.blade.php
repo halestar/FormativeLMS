@@ -16,12 +16,35 @@
                         @if(!$isSelf || $self->canEditOwnField('portrait'))
                             <form id="portrait_form"
                                   action="{{ route('people.update.portrait', ['person' => $person->school_id]) }}"
-                                  method="POST" enctype="multipart/form-data">
+                                  method="POST" enctype="multipart/form-data"
+                                  x-data="{ docData: null }"
+                                  x-ref="profileForm"
+                                  x-on:document-storage-browser-files-selected.window="
+                                        if($event.detail.cb_instance === 'profile-img')
+                                        {
+                                            docData=JSON.stringify($event.detail.selected_items);
+                                            $nextTick(() => { $refs.profileForm.submit() });
+                                        }"
+                            >
                                 @csrf
-                                <div class="file btn btn-lg btn-dark">
+                                <input type="hidden" name="portrait" x-model="docData" />
+                                <button
+                                    type="button"
+                                    class="file btn btn-lg btn-dark"
+                                    @click="$dispatch('document-storage-browser.open-browser',
+                                            {
+                                                config:
+                                                    {
+                                                        multiple: false,
+                                                        mimetypes: {{ Js::from(\App\Models\Utilities\MimeType::imageMimeTypes()) }},
+                                                        allowUpload: true,
+                                                        canSelectFolders: false,
+                                                        cb_instance: 'profile-img'
+                                                    }
+                                            });"
+                                >
                                     {{ __('people.profile.image.update') }}
-                                    <input type="file" name="portrait" onchange="$('#portrait_form').submit()"/>
-                                </div>
+                                </button>
                             </form>
                             @if($person->hasPortrait())
                                 <button

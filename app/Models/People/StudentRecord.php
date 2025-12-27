@@ -129,7 +129,9 @@ class StudentRecord extends Model
 	{
 		return $this->opportunities()
 			->whereHas('demonstrationSession',
-				fn(Builder $query) => $query->where('learning_demonstration_class_sessions.session_id', $session->id));
+				fn(Builder $query) => $query->where('learning_demonstration_class_sessions.session_id', $session->id))
+			->orderBy('learning_demonstration_opportunities.due_on', 'desc')
+			->orderBy('learning_demonstration_opportunities.posted_on', 'desc');
 	}
 
 }

@@ -24,8 +24,8 @@ class BlockPolicy
 	{
 		return ($person->can('locations.blocks') &&
 			$person->isEmployee() &&
-			$person->employeeCampuses()
-			       ->where('campus_id', $block->campus_id)
+			$person->campuses()
+			       ->where('campuses.id', $block->campus_id)
 			       ->exists());
 	}
 	
@@ -35,10 +35,7 @@ class BlockPolicy
 	public function create(Person $person): bool
 	{
 		return ($person->can('locations.blocks') &&
-			$person->isEmployee() &&
-			$person->employeeCampuses()
-			       ->where('campus_id', $campus->id)
-			       ->exists());
+			$person->isEmployee());
 	}
 	
 	/**
@@ -46,10 +43,10 @@ class BlockPolicy
 	 */
 	public function update(Person $person, Block $block): bool
 	{
-		return ($person->can('locations.periods') &&
+		return ($person->can('locations.blocks') &&
 			$person->isEmployee() &&
-			$person->employeeCampuses()
-			       ->where('campus_id', $block->campus_id)
+			$person->campuses()
+					->where('campuses.id', $block->campus_id)
 			       ->exists());
 	}
 	
@@ -58,10 +55,10 @@ class BlockPolicy
 	 */
 	public function delete(Person $person, Block $block): bool
 	{
-		return ($person->can('subjects.subjects') &&
+		return ($person->can('subjects.blocks') &&
 			$person->isEmployee() &&
-			$person->employeeCampuses()
-			       ->where('campus_id', $block->campus_id)
+			$person->campuses()
+			       ->where('campuses.id', $block->campus_id)
 			       ->exists() &&
 			$block->canDelete());
 	}

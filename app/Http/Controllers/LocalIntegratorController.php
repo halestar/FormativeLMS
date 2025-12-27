@@ -6,6 +6,7 @@ use App\Classes\Integrators\Local\LocalIntegrator;
 use App\Enums\IntegratorServiceTypes;
 use App\Models\Integrations\IntegrationService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
 
 class LocalIntegratorController extends Controller
@@ -109,6 +110,30 @@ class LocalIntegratorController extends Controller
 
     public function classes_update(Request $request)
     {
-
+	    $classesService = LocalIntegrator::getService(IntegratorServiceTypes::CLASSES);
+		$validation = [];
+		foreach((array)$classesService->data->available as $widgetClass => $widgetName)
+			$validation[$widgetClass] = ['required', Rule::in(['required', 'optional', 'block'])];
+		$data = $request->validate($validation);
+		$settings = $classesService->data;
+		$settings->required = [];
+		$settings->optional = [];
+	    foreach((array)$classesService->data->available as $widgetClass => $widgetName)
+	    {
+			if($data[$widgetClass] == 'required')
+				$settings->required[] = $widgetClass;
+			else if($data[$widgetClass] == 'optional')
+				$settings->optional[] = $widgetClass;
+	    }
+		$classesService->data = $settings;
+		$classesService->save();
+		//the last thing we do is invalidate the layout for all the classes using this service
+	    DB::table('class_sessions')
+		    ->join('integration_connections', 'integration_connections.id', '=', 'class_sessions.class_management_id')
+		    ->where('integration_connections.service_id', $classesService->id)
+		    ->update(['class_sessions.layout' => null]);
+		return redirect()
+			->back()
+			->with('success-status', __('integrators.local.classes.update.success'));
     }
 }

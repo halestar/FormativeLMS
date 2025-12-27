@@ -5,6 +5,7 @@ namespace App\Models\Utilities;
 use App\Enums\AssessmentStrategyCalculationMethod;
 use App\Enums\WorkStoragesInstances;
 use App\Interfaces\Fileable;
+use App\Models\People\Person;
 use App\Traits\HasWorkFiles;
 use App\Traits\UsesJsonValue;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
@@ -66,5 +67,11 @@ class TemporaryFiler extends Model implements Fileable
 	{
 		foreach($this->workFiles as $file)
 			$file->delete();
+	}
+
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
 	}
 }

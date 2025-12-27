@@ -5,11 +5,13 @@ namespace App\Subscribers;
 use App\Events\Classes\NewClassAlert;
 use App\Events\Classes\NewClassMessage;
 use App\Events\Classes\NewClassStatusEvent;
+use App\Events\Learning\DemonstrationDeletedEvent;
 use App\Events\Learning\DemonstrationPostedEvent;
 use App\Events\Learning\DemonstrationUpdatedEvent;
 use App\Notifications\Classes\ClassAlert;
 use App\Notifications\Classes\NewClassMessageNotification;
 use App\Notifications\Classes\NewClassStatusNotification;
+use App\Notifications\Learning\LearningDemonstrationDeletedNotification;
 use App\Notifications\Learning\LearningDemonstrationPostedNotification;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Events\Dispatcher;
@@ -40,10 +42,20 @@ class LearningEventsSubscriber implements ShouldQueue
 		}
 	}
 
+	public function handleLearningDemonstrationDeleted(DemonstrationDeletedEvent $event)
+	{
+		foreach($event->students as $student)
+		{
+			$student->person->notify(new LearningDemonstrationDeletedNotification($event->classSession, $event->demonstrationName));
+			Notification::send($student->person->parents, new LearningDemonstrationDeletedNotification($event->classSession, $event->demonstrationName));
+		}
+	}
+
     public function subscribe(Dispatcher $events)
     {
         $events->listen(DemonstrationPostedEvent::class, [LearningEventsSubscriber::class, 'handleLearningDemonstrationPosted']);
 	    $events->listen(DemonstrationUpdatedEvent::class, [LearningEventsSubscriber::class, 'handleLearningDemonstrationUpdated']);
+	    $events->listen(DemonstrationDeletedEvent::class, [LearningEventsSubscriber::class, 'handleLearningDemonstrationDeleted']);
     }
 
 }

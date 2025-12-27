@@ -2,6 +2,8 @@
 
 namespace App\Classes\Integrators\Local\ClassManagement;
 
+use App\Classes\Integrators\Local\LocalIntegrator;
+use App\Enums\IntegratorServiceTypes;
 use App\Interfaces\Synthesizable;
 use Livewire\Component;
 
@@ -10,68 +12,49 @@ class ClassTab implements Synthesizable
 	public string $name;
 	public array $widgets;
 	private string $id;
-	private bool $locked = false;
-	public bool $containsClassChat = false;
-	public bool $containsClassLd = false;
 	
 	public function __construct(string $name)
 	{
 		$this->name = $name;
-		$this->id = self::generateId($name);
+		$this->id = uniqid();
 		$this->widgets = [];
-	}
-	
-	private static function generateId(string $name): string
-	{
-		return uniqid();
 	}
 	
 	public static function hydrate(array $data): static
 	{
 		$tab = new ClassTab($data['name']);
 		$tab->id = $data['id'];
-		$tab->locked = $data['locked'];
-		$tab->containsClassChat = $data['containsClassChat'];
-		$tab->containsClassLd = $data['containsClassLd'];
 		$tab->widgets = $data['widgets'];
 		return $tab;
 	}
-	
-	public function lock(): void
-	{
-		$this->locked = true;
-	}
-	
-	public function isLocked(): bool
-	{
-		return $this->locked;
-	}
-	
-	public function containerHtml(): string
-	{
-		return '';
-	}
-	
+
 	public function addWidget(string $widget): void
 	{
 		$this->widgets[] = $widget;
 	}
 	
-	public function removeWidget(string $widgetId): ClassWidget
+	public function removeWidget(string $widget): void
 	{
-		$widgets = [];
-		$rWidget = null;
-		foreach($this->widgets as $w)
-		{
-			if($w->getId() == $widgetId)
-			{
-				$rWidget = $w;
-				continue;
-			}
-			$widgets[] = $w;
-		}
-		$this->widgets = $widgets;
-		return $rWidget;
+		$this->widgets = array_values(array_diff($this->widgets, [$widget]));
+	}
+
+	public function hasWidget(string $widget): bool
+	{
+		return in_array($widget, $this->widgets);
+	}
+
+	public function canRemoveWidget(string $widget): bool
+	{
+		//we check if the widget is in the required array
+		$classesService = LocalIntegrator::getService(IntegratorServiceTypes::CLASSES);
+		return in_array($widget, $classesService->data->required);
+	}
+
+	public function canDelete(): bool
+	{
+		foreach($this->widgets as $widget)
+			if(!$this->canRemoveWidget($widget)) return false;
+		return true;
 	}
 	
 	public function getId(): string
@@ -85,9 +68,6 @@ class ClassTab implements Synthesizable
 		[
 			'name' => $this->name,
 			'id' => $this->id,
-			'locked' => $this->locked,
-			'containsClassLd' => $this->containsClassLd,
-			'containsClassChat' => $this->containsClassChat,
 			'widgets' => $this->widgets
 		];
 	}

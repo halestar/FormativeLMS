@@ -2,8 +2,13 @@
 
 namespace App\Http\Controllers\Locations;
 
+use App\Classes\Settings\StorageSettings;
+use App\Classes\Storage\DocumentFile;
+use App\Enums\WorkStoragesInstances;
 use App\Http\Controllers\Controller;
 use App\Models\Locations\Building;
+use App\Models\Locations\BuildingArea;
+use App\Models\Utilities\WorkFile;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Gate;
@@ -31,7 +36,7 @@ class BuildingController extends Controller implements HasMiddleware
 		$building = new Building();
 		$building->fill($data);
 		$building->save();
-		return redirect(route('locations.buildings.show', $building))
+		return redirect(route('locations.buildings.edit', $building))
 			->with('success-status', __('locations.buildings.created'));
 		
 	}
@@ -80,14 +85,22 @@ class BuildingController extends Controller implements HasMiddleware
 			->with('success-status', __('locations.buildings.updated'));
 	}
 	
-	public function updateImg(Request $request, Building $building)
+	public function updateImg(Request $request, Building $building, StorageSettings $storageSettings)
 	{
 		Gate::authorize('has-permission', 'locations.buildings');
-		$data = $request->validate([
-			'img' => 'nullable|url',
-		], static::errors());
-		$building->fill($data);
-		$building->save();
+		$building_img = json_decode($request->input('building_img'), true);
+		if(isset($building_img['school_id']))
+			$doc = DocumentFile::hydrate($building_img);
+		else
+			$doc = DocumentFile::hydrate($building_img[0]);
+		//first, we persist the file, using the Person object as the filer.
+		$connection = $storageSettings->getWorkConnection(WorkStoragesInstances::ProfileWork);
+		$imgFile = $connection->persistFile($building, $doc, false);
+		if($imgFile)
+		{
+			$building->img->useWorkfile($imgFile);
+			$building->save();
+		}
 		return redirect()
 			->back()
 			->with('success-status', __('locations.buildings.updated'));
@@ -107,6 +120,19 @@ class BuildingController extends Controller implements HasMiddleware
 		}
 		$building->schoolAreas()
 		         ->sync($data['areas']);
+		return redirect()
+			->back()
+			->with('success-status', __('locations.buildings.updated'));
+	}
+
+	public function updateMap(Request $request, Building $building, BuildingArea $area)
+	{
+		$data = $request->validate([
+			'map' => 'required|exists:work_files,id',
+		], static::errors());
+		$map = WorkFile::find($data['map']);
+		$area->blueprint_url->useWorkfile($map);
+		$area->save();
 		return redirect()
 			->back()
 			->with('success-status', __('locations.buildings.updated'));

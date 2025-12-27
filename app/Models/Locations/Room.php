@@ -4,7 +4,9 @@ namespace App\Models\Locations;
 
 use App\Models\Scopes\OrderByNameScope;
 use App\Models\SubjectMatter\ClassSession;
+use App\Models\Utilities\SchoolRoles;
 use App\Traits\SinglePhoneable;
+use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -30,6 +32,7 @@ class Room extends Model
 			'area_id',
 			'capacity',
 			'img_data',
+			'notes',
 		];
 	
 	public function canDelete(): bool
@@ -57,8 +60,9 @@ class Room extends Model
 	{
 		return $this->hasOneThrough(Building::class, BuildingArea::class, 'id', 'id', 'area_id', 'building_id');
 	}
-	
-	public function scopeFreeFloating(Builder $query): void
+
+	#[Scope]
+	protected function freeFloating(Builder $query): void
 	{
 		$query->whereNull('area_id');
 	}

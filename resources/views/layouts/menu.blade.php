@@ -102,8 +102,8 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="learningManagementDD">
-                            <a class="dropdown-item" href="{{ route('learning.criteria') }}">
-                                {{ __('system.menu.criteria') }}
+                            <a class="dropdown-item" href="{{ route('learning.classes.settings') }}">
+                                {{ __('system.menu.classes.settings') }}
                             </a>
                             <a class="dropdown-item" href="{{ route('learning.ld.index') }}">
                                 {{ trans_choice('learning.demonstrations', 2) }}
@@ -199,6 +199,46 @@
             </ul>
             <ul class="navbar-nav ms-auto">
                 @auth
+                    @if(auth()->user()->isParent() && auth()->user()->viewingStudent)
+                        @if(auth()->user()->numStudentChildren() > 1)
+                            <li class="nav-item dropdown my-auto me-4">
+
+                                <a id="parent-student-selector" class="nav-link dropdown-toggle" href="#" role="button"
+                                   data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+
+                                    <img
+                                            src="{{ auth()->user()->viewingStudent->person->portrait_url->thumbUrl() }}"
+                                            alt="{{ auth()->user()->viewingStudent->person->name }}"
+                                            class="d-flex align-self-center me-2 avatar-img-normal rounded-circle avatar-list-item"
+                                    />
+                                    <span class="fs-5 fw-bold">{{  auth()->user()->viewingStudent->person->name }}</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="parent-student-selector">
+                                    @foreach(auth()->user()->currentChildStudents() as $student)
+                                        @continue($student->id == auth()->user()->student_id)
+                                        <a class="dropdown-item" href="{{ route('view.child', ['student' => $student->id]) }}">
+                                            <img
+                                                src="{{$student->person->portrait_url->thumbUrl() }}"
+                                                alt="{{ $student->person->name }}"
+                                                class="d-flex align-self-center me-2 avatar-img-normal rounded-circle avatar-list-item"
+                                            />
+                                            <span class="fs-5 fw-bold">{{  $student->person->name }}</span>
+                                        </a>
+                                    @endforeach
+                                </div>
+                            </li>
+                        @else
+                            <li class="nav-item dropdown my-auto me-4">
+                                <img
+                                        src="{{ auth()->user()->viewingStudent->person->portrait_url->thumbUrl() }}"
+                                        alt="{{ auth()->user()->viewingStudent->person->name }}"
+                                        class="d-flex align-self-center me-2 avatar-img-normal rounded-circle avatar-list-item"
+                                />
+                                <span class="fs-5 fw-bold">{{  auth()->user()->viewingStudent->person->name }}</span>
+                            </li>
+                        @endif
+                    @endif
                     <li class="nav-item my-auto">
                         <button type="button" class="btn btn-success rounded rounded-5 btn-sm" data-bs-toggle="modal"
                                 data-bs-target="#search-modal"><i class="fa-solid fa-magnifying-glass"></i></button>

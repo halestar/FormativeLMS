@@ -11,7 +11,7 @@ use Livewire\Component;
 
 class LearningDemonstrationQuestionsEditor extends Component
 {
-	public LearningDemonstrationTemplate|LearningDemonstration $ld;
+	public LearningDemonstrationTemplate|LearningDemonstration|null $ld;
 	#[Modelable]
 	public array $questions = [];
 	public bool $canUseAI = false;

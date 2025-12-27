@@ -5,6 +5,9 @@ use App\Http\Controllers\Locations\BuildingController;
 use App\Http\Controllers\Locations\CampusController;
 use App\Http\Controllers\Locations\RoomController;
 use App\Http\Controllers\Locations\YearController;
+use App\Http\Resources\Locations\BuildingAreaResource;
+use App\Livewire\Locations\BuildingAreaEditor;
+use App\Models\Locations\BuildingArea;
 use Illuminate\Support\Facades\Route;
 
 //Campuses
@@ -28,20 +31,29 @@ Route::resource('years', YearController::class)
      ->except(['create', 'edit']);
 
 //Buildings
-Route::put('/buildings/{building}/basic', [BuildingController::class, 'updateBasicInfo'])
-     ->name('buildings.update.basic');
-Route::put('/buildings/{building}/img', [BuildingController::class, 'updateImg'])
-     ->name('buildings.update.img');
-Route::put('/buildings/{building}/areas', [BuildingController::class, 'updateAreas'])
-     ->name('buildings.update.areas');
+Route::prefix('/buildings/{building}')
+	->name('buildings.update.')
+	->controller(BuildingController::class)
+	->group(function()
+	{
+		Route::put('/basic', 'updateBasicInfo')
+			->name('basic');
+		Route::put('/img', 'updateImg')
+			->name('img');
+		Route::put('/areas', 'updateAreas')
+			->name('areas');
+		Route::put('/areas/{area}/map', 'updateMap')
+			->name('areas.map');
+	});
+
 Route::resource('buildings', BuildingController::class)
      ->except(['create', 'update']);
 
 //Building Areas
-Route::get('/maps/area/{area}', [AreaController::class, 'areaMap'])
-     ->name('maps.area');
-Route::resource('areas', AreaController::class)
-     ->only('show');
+Route::get('/areas/map/{area}', fn(BuildingArea $area) => new BuildingAreaResource($area))
+     ->name('areas.map');
+Route::get('/areas/{area}', BuildingAreaEditor::class)
+	->name('areas.show');
 
 //Rooms
 Route::put('/rooms/{room}/basic', [RoomController::class, 'updateBasicInfo'])
@@ -58,8 +70,6 @@ Route::name('periods.')
      ->controller(\App\Http\Controllers\Locations\PeriodController::class)
      ->group(function()
      {
-	     Route::get('/periods/{campus?}', 'index')
-	          ->name('index');
 	     Route::get('/periods/{campus}/create', 'create')
 	          ->name('create');
 	     Route::post('/periods/{campus}/create', 'store')

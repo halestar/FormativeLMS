@@ -13,13 +13,13 @@
         <div class="position-relative">
             @if($session->viewingAs(\App\Enums\ClassViewer::FACULTY))
                 <img
-                        src="{{ $student->person->thumbnail_url }}"
+                        src="{{ $student->person->portrait_url->thumbUrl() }}"
                         alt="{{ $student->person->name }}"
                         class="d-flex align-self-center me-3 avatar-img-xl rounded-circle avatar-list-item">
             @else
                 @foreach($session->teachers as $teacher)
                     <img
-                            src="{{ $teacher->thumbnail_url }}"
+                            src="{{ $teacher->portrait_url->thumbUrl() }}"
                             alt="{{ $teacher->name }}"
                             class="d-flex align-self-center me-3 rounded-circle avatar-list-item avatar-img-xl"
                     />

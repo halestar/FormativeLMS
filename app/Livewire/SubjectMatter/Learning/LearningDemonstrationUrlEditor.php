@@ -9,7 +9,7 @@ use Livewire\Component;
 
 class LearningDemonstrationUrlEditor extends Component
 {
-	public LearningDemonstrationTemplate|LearningDemonstration $ld;
+	public LearningDemonstrationTemplate|LearningDemonstration|null $ld;
 	#[Modelable]
 	public array $resources = [];
 	public bool $canUseAI = false;

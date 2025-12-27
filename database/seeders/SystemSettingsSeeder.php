@@ -6,6 +6,7 @@ use App\Classes\Integrators\Local\LocalIntegrator;
 use App\Enums\IntegratorServiceTypes;
 use App\Enums\WorkStoragesInstances;
 use App\Models\Integrations\IntegrationConnection;
+use App\Models\People\Person;
 use App\Models\Utilities\SystemSetting;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Log;
@@ -17,63 +18,69 @@ class SystemSettingsSeeder extends Seeder
 	 */
 	public function run(): void
 	{
+		$classManagementService = LocalIntegrator::getService(IntegratorServiceTypes::CLASSES);
 		$schoolSettings =
 			[
 				"parentName" =>
+				[
 					[
-						[
-							"type" => 1,
-							"roleId" => null,
-							"roleField" => null,
-							"spaceAfter" => true,
-							"textContent" => null,
-							"basicFieldName" => "first",
-						],
-						[
-							"type" => 1,
-							"roleId" => null,
-							"roleField" => null,
-							"spaceAfter" => false,
-							"textContent" => null,
-							"basicFieldName" => "last",
-						]
+						"type" => 1,
+						"roleId" => null,
+						"roleField" => null,
+						"spaceAfter" => true,
+						"textContent" => null,
+						"basicFieldName" => "first",
 					],
-				"studentName" =>
 					[
-						[
-							"type" => 1,
-							"roleId" => null,
-							"roleField" => null,
-							"spaceAfter" => true,
-							"textContent" => null,
-							"basicFieldName" => "preferred_first",
-						],
-						[
-							"type" => 1,
-							"roleId" => null,
-							"roleField" => null,
-							"spaceAfter" => false,
-							"textContent" => null,
-							"basicFieldName" => "last",]
-					],
-				"employeeName" =>
-					[
-						[
-							"type" => 3,
-							"roleId" => null,
-							"roleField" => null,
-							"spaceAfter" => true,
-							"textContent" => "Mx.",
-							"basicFieldName" => null,
-						],
-						[
-							"type" => 1,
-							"roleId" => null,
-							"roleField" => null,
-							"spaceAfter" => false,
-							"textContent" => null,
-							"basicFieldName" => "last",]
+						"type" => 1,
+						"roleId" => null,
+						"roleField" => null,
+						"spaceAfter" => false,
+						"textContent" => null,
+						"basicFieldName" => "last",
 					]
+				],
+				"studentName" =>
+				[
+					[
+						"type" => 1,
+						"roleId" => null,
+						"roleField" => null,
+						"spaceAfter" => true,
+						"textContent" => null,
+						"basicFieldName" => "preferred_first",
+					],
+					[
+						"type" => 1,
+						"roleId" => null,
+						"roleField" => null,
+						"spaceAfter" => false,
+						"textContent" => null,
+						"basicFieldName" => "last",]
+				],
+				"employeeName" =>
+				[
+					[
+						"type" => 3,
+						"roleId" => null,
+						"roleField" => null,
+						"spaceAfter" => true,
+						"textContent" => "Mx.",
+						"basicFieldName" => null,
+					],
+					[
+						"type" => 1,
+						"roleId" => null,
+						"roleField" => null,
+						"spaceAfter" => false,
+						"textContent" => null,
+						"basicFieldName" => "last",]
+				],
+				"max_msg" =>  "10",
+				"year_msg" => 2,
+				"rubrics_max_points" => "5",
+				"force_class_management" => true,
+				"class_management_service_id" => $classManagementService->id
 			];
 		SystemSetting::create
 		(
@@ -107,6 +114,48 @@ class SystemSettingsSeeder extends Seeder
 			[
 				'name' => 'storage',
 				'value' => $storage_settings,
+			]
+		);
+
+		$commService = LocalIntegrator::getService(IntegratorServiceTypes::EMAIL);
+		$commConnection = $commService->connectToSystem();
+		$communicationsSettings =
+		[
+			'send_sms' => false,
+			'email_from' => "FabLMS",
+			'sms_connection_id' => null,
+			'email_from_address' => "fablms@kalinec.net",
+			'email_connection_id' => $commConnection->id,
+		];
+		SystemSetting::create
+		(
+			[
+				'name' => 'communications',
+				'value' => $communicationsSettings,
+			]
+		);
+		$authService = LocalIntegrator::getService(IntegratorServiceTypes::AUTHENTICATION);
+
+		$authSettings =
+		[
+			"upper" => true,
+			"numbers" => true,
+			"symbols" => true,
+			"priorities" =>
+			[
+				[
+					"roles" => [],
+					"priority" => 0,
+					"service_ids" => $authService->id,
+				],
+			],
+			"min_password_length" => "8",
+		];
+		SystemSetting::create
+		(
+			[
+				'name' => 'auth',
+				'value' => $authSettings,
 			]
 		);
 	}

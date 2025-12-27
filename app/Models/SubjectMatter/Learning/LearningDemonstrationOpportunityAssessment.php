@@ -7,8 +7,9 @@ use App\Models\SubjectMatter\Assessment\Skill;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 
-class LearningDemonstrationOpportunityAssessment extends Model
+class LearningDemonstrationOpportunityAssessment extends Pivot
 {
 	use HasUuids;
 	public $timestamps = false;
@@ -21,6 +22,9 @@ class LearningDemonstrationOpportunityAssessment extends Model
 			'weight',
 			'score',
 			'feedback',
+			'rubric',
+			'opportunity_id',
+			'skill_id',
 		];
 
 	protected function casts(): array

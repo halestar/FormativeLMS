@@ -235,7 +235,7 @@
                     x-on:dragenter="external_dragging = !asset_dragging"
                     x-on:dragover.prevent="external_dragging = !asset_dragging"
                     x-on:dragleave="external_dragging = false"
-                    x-on:drop="
+                    x-on:drop.prevent="
                     files = $event.dataTransfer.files;
                     if(files.length === 1)
                     {

@@ -10,17 +10,23 @@ use App\Models\Locations\Year;
 use App\Models\People\Person;
 use App\Models\SubjectMatter\Assessment\Skill;
 use App\Models\SubjectMatter\ClassSession;
+use App\Models\Utilities\WorkFile;
+use App\Traits\HasLogs;
 use App\Traits\HasWorkFiles;
+use Database\Factories\Learning\DemonstrationFactory;
+use Illuminate\Database\Eloquent\Attributes\UseFactory;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
+#[UseFactory(DemonstrationFactory::class)]
 class LearningDemonstration extends Model implements Fileable
 {
-	use HasUuids, HasWorkFiles;
+	use HasUuids, HasWorkFiles, HasLogs, HasFactory;
 	public $timestamps = true;
 	public $incrementing = false;
 	protected $table = "learning_demonstrations";
@@ -36,6 +42,7 @@ class LearningDemonstration extends Model implements Fileable
 			'open_submission',
 			'submit_after_due',
 			'share_submissions',
+			'auto_turn_in',
 		];
 
 	protected function casts(): array
@@ -49,6 +56,7 @@ class LearningDemonstration extends Model implements Fileable
 				'open_submission' => 'boolean',
 				'submit_after_due' => 'boolean',
 				'share_submissions' => 'boolean',
+				'auto_turn_in' => 'date: m/d/Y',
 			];
 	}
 	
@@ -112,5 +120,14 @@ class LearningDemonstration extends Model implements Fileable
 	{
 		return $this->hasManyThrough(LearningDemonstrationOpportunity::class, LearningDemonstrationClassSession::class, 'demonstration_id', 'demonstration_session_id');
 	}
-	
+
+	public function canDelete(): bool
+	{
+		return true;
+	}
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
+	}
 }

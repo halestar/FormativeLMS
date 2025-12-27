@@ -5,6 +5,8 @@ namespace App\Models\Ai;
 use App\Enums\WorkStoragesInstances;
 use App\Interfaces\AiPromptable;
 use App\Interfaces\Fileable;
+use App\Models\People\Person;
+use App\Models\Utilities\WorkFile;
 use App\Traits\HasWorkFiles;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Blade;
@@ -66,5 +68,10 @@ class AiPrompt extends Model implements Fileable
 	public function renderPrompt(AiPromptable $target): string
 	{
 		return Blade::render($this->prompt, $target->withTokens());
+	}
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
 	}
 }

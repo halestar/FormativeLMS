@@ -46,6 +46,7 @@ class BlockController extends Controller implements HasMiddleware
 			[
 				trans_choice('locations.campus', 2) => route('locations.campuses.index'),
 				$block->campus->name => route('locations.campuses.show', ['campus' => $block->campus_id]),
+				__('locations.campus.edit') => route('locations.campuses.edit', ['campus' => $block->campus_id]),
 				__('locations.block.edit') => '#',
 			];
 		return view('locations.blocks.edit', compact('block', 'breadcrumb'));
@@ -63,7 +64,7 @@ class BlockController extends Controller implements HasMiddleware
 		$block->periods()
 		      ->sync($data['periods']);
 		$block->save();
-		return redirect(route('locations.campuses.show', $block->campus_id))
+		return redirect(route('locations.campuses.edit', $block->campus_id))
 			->with('success-status', __('locations.block.updated'));
 	}
 	
@@ -92,7 +93,7 @@ class BlockController extends Controller implements HasMiddleware
 		Gate::authorize('delete', $block);
 		$campus_id = $block->campus_id;
 		$block->delete();
-		return redirect(route('locations.campuses.show', ['campus' => $campus_id]))
+		return redirect(route('locations.campuses.edit', ['campus' => $campus_id]))
 			->with('success-status', __('locations.period.deleted'));
 	}
 }

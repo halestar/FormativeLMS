@@ -13,7 +13,6 @@ class FilterClassNameScope implements Scope
      */
     public function apply(Builder $builder, Model $model): void
     {
-        if(property_exists($model, 'className'))
-	        $builder->where('className', static::class);
+        $builder->where('className', $model::class);
     }
 }

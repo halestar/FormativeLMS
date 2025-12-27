@@ -102,20 +102,20 @@
 
     <div class="school-setting mb-3">
         <label class="form-label"
-               for="class_management_connection_id">{{ __('system.settings.classes.management.system') }}</label>
+               for="class_management_service_id">{{ __('system.settings.classes.management.system') }}</label>
         <select
                 class="form-select"
-                id="class_management_connection_id"
-                name="class_management_connection_id"
-                aria-describedby="class_management_connection_idHelp"
+                id="class_management_service_id"
+                name="class_management_service_id"
+                aria-describedby="class_management_service_idHelp"
         >
-            @foreach($classManagementConnection as $connection)
-                <option value="{{ $connection->id }}" @selected($schoolSettings->class_management_connection_id == $connection->id)>{{ $connection->service->name }}</option>
+            @foreach($classManagementServices as $service)
+                <option value="{{ $service->id }}" @selected($schoolSettings->class_management_service_id == $service->id)>{{ $service->name }}</option>
             @endforeach
         </select>
         <x-utilities.error-display
-                key="class_management_connection_id">{{ $errors->first('class_management_connection_id') }}</x-utilities.error-display>
-        <div id="class_management_connection_idHelp"
+                key="class_management_service_id">{{ $errors->first('class_management_service_id') }}</x-utilities.error-display>
+        <div id="class_management_service_idHelp"
              class="form-text">{{ __('system.settings.classes.management.system.help') }}</div>
     </div>
 

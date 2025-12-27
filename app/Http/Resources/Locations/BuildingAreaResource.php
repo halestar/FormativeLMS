@@ -17,7 +17,7 @@ class BuildingAreaResource extends JsonResource
 		return
 			[
 				'id' => $this->id,
-				'blueprint_url' => $this->blueprint_url,
+				'blueprint_url' => $this->blueprint_url->__toString(),
 				'rooms' => RoomResource::collection($this->rooms),
 			];
 	}

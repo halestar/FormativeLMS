@@ -27,7 +27,14 @@ class SchoolArea extends SystemTableTemplate
 	
 	public function buildings(): BelongsToMany
 	{
-		return $this->belongsToMany(Building::class, 'building_areas', 'area_id', 'building_id');
+		return $this->belongsToMany(Building::class, 'building_areas', 'area_id', 'building_id')
+			->using(BuildingArea::class)
+			->as('area')
+			->withPivot(
+				[
+					'id', 'blueprint_url', 'img', 'order',
+				])
+			->withTimestamps();
 	}
 }
 

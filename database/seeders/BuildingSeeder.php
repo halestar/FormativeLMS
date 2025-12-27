@@ -7,6 +7,7 @@ use App\Models\Locations\BuildingArea;
 use App\Models\Locations\Room;
 use App\Models\People\Address;
 use App\Models\People\Phone;
+use App\Models\SystemTables\SchoolArea;
 use Illuminate\Database\Seeder;
 
 class BuildingSeeder extends Seeder
@@ -14,7 +15,6 @@ class BuildingSeeder extends Seeder
 	public array $blueprints =
 		[
 			[
-				'area_id' => '1',
 				'blueprint_url' => '/images/floorplans/a-floor-1.png',
 				'rooms' =>
 					[
@@ -34,7 +34,6 @@ class BuildingSeeder extends Seeder
 					]
 			],
 			[
-				'area_id' => '2',
 				'blueprint_url' => '/images/floorplans/a-floor-2.png',
 				'rooms' =>
 					[
@@ -55,7 +54,6 @@ class BuildingSeeder extends Seeder
 					]
 			],
 			[
-				'area_id' => '1',
 				'blueprint_url' => '/images/floorplans/b-floor-1.png',
 				'rooms' =>
 					[
@@ -66,7 +64,6 @@ class BuildingSeeder extends Seeder
 					]
 			],
 			[
-				'area_id' => '2',
 				'blueprint_url' => '/images/floorplans/b-floor-2.png',
 				'rooms' =>
 					[
@@ -77,7 +74,6 @@ class BuildingSeeder extends Seeder
 					]
 			],
 			[
-				'area_id' => '3',
 				'blueprint_url' => '/images/floorplans/b-floor-3.png',
 				'rooms' =>
 					[
@@ -110,13 +106,14 @@ class BuildingSeeder extends Seeder
 			]);
 		$kalinecBuilding->phones()
 		                ->attach($mainPhone->id, ['primary' => true]);
-		
+
+		$areaTable = SchoolArea::inRandomOrder()->take(5)->get()->pluck('id');
 		for($i = 0; $i < 2; $i++)
 		{
 			$area = BuildingArea::create(
 				[
 					'building_id' => $kalinecBuilding->id,
-					'area_id' => $this->blueprints[$i]['area_id'],
+					'area_id' => $areaTable[$i],
 					'blueprint_url' => $this->blueprints[$i]['blueprint_url'],
 					'order' => ($i + 1),
 				]);
@@ -148,12 +145,13 @@ class BuildingSeeder extends Seeder
 			]);
 		$secondCampus->phones()
 		             ->attach($mainPhone->id, ['primary' => true]);
+
 		for($i = 2; $i < 5; $i++)
 		{
 			$area = BuildingArea::create(
 				[
 					'building_id' => $secondCampus->id,
-					'area_id' => $this->blueprints[$i]['area_id'],
+					'area_id' => $areaTable[$i],
 					'blueprint_url' => $this->blueprints[$i]['blueprint_url'],
 					'order' => ($i - 1),
 				]);

@@ -53,4 +53,8 @@ EOE,
 		'learning.demonstration.updated.description' => 'This notification is used whenever a Learning Demonstration is updated.',
 		'learning.demonstration.updated.subject.short' => 'Learning Demonstration Opportunity Updated',
 		'learning.demonstration.updated.body.short' => 'The Learning Demonstration Opportunity {!! $demonstration_name !!} was updated in {!! $class_name !!}',
+		'learning.demonstration.deleted.name' => 'Learning Demonstration Deleted',
+		'learning.demonstration.deleted.description' => 'This notification is used whenever a Learning Demonstration is deleted.',
+		'learning.demonstration.deleted.subject.short' => 'Learning Demonstration Opportunity Deleted',
+		'learning.demonstration.deleted.body.short' => 'The Learning Demonstration Opportunity {!! $demonstration_name !!} was deleted in {!! $class_name !!}',
 	];

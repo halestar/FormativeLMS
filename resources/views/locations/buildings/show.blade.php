@@ -2,99 +2,116 @@
 
 @section('content')
     <div class="container">
-        <div class="row profile-head-row">
-            <div class="col-md-4">
-                <div class="profile-img">
-                    <img
-                            class="img-fluid img-thumbnail"
-                            src="{{ $building->img }}"
-                            alt="{{ __('locations.buildings.img') }}"
-                    />
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="profile-head d-flex align-items-start flex-column h-100">
-                    <h5>
-                        {{ $building->name }}
-                    </h5>
-                    <ul class="nav nav-tabs mt-auto" id="profile-tab" role="tablist">
-                        <li class="nav-item">
-                            <a
-                                    class="nav-link active"
-                                    id="tab-contact"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#tab-pane-contact"
-                                    href="#tab-pane-contact"
-                                    role="tab"
-                                    aria-controls="#tab-pane-contact"
-                                    aria-selected="true"
-                                    save-tab="contact"
-                            >{{ __('locations.campus.information.contact') }}</a>
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                    class="nav-link"
-                                    id="tab-rooms"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#tab-pane-rooms"
-                                    href="#tab-pane-rooms"
-                                    role="tab"
-                                    aria-controls="#tab-pane-rooms"
-                                    aria-selected="false"
-                                    save-tab="rooms"
-                            >{{ trans_choice('locations.rooms',2) }}</a>
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                    class="nav-link"
-                                    id="tab-maps"
-                                    data-bs-toggle="tab"
-                                    data-bs-target="#tab-pane-maps"
-                                    href="#tab-pane-maps"
-                                    role="tab"
-                                    aria-controls="#tab-pane-maps"
-                                    aria-selected="false"
-                                    save-tab="maps"
-                            >{{ __('locations.areas.maps') }}</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <a
-                        type="button"
-                        class="btn btn-secondary profile-edit-btn"
-                        href="{{ route('locations.buildings.edit', ['building' => $building->id]) }}"
-                >{{ __('locations.buildings.edit') }}</a>
-            </div>
-        </div>
         <div class="row">
+            {{-- Campus Image and Settings Column --}}
             <div class="col-md-4">
-                <div class="profile-work">
-                    <p>{{ trans_choice('locations.buildings.areas', $building->buildingAreas()->count()) }}</p>
-                    <ul class="list-group">
-                        @foreach($building->buildingAreas as $area)
-                            <li class="list-group-item d-flex justify-content-between align-items-center area-control list-group-item-action"
-                                area-id="{{ $area->id }}">
-                                {{ $area->schoolArea->name }}
-                                <div>
-                                    <a
-                                            href="{{ route('locations.areas.show', $area) }}"
-                                            class="btn btn-primary btn-sm"
-                                    ><i class="fa-solid fa-eye"></i></a>
-                                    <button
-                                            onclick="filterArea({{ $area->id }})"
-                                            class="btn btn-outline-success btn-sm ms-1"
-                                            save-fn="filterArea({{ $area->id }})"
-                                    ><i class="fa-solid fa-filter"></i></button>
-                                </div>
-
-                            </li>
-                        @endforeach
-                    </ul>
+                <div class="d-flex flex-column">
+                    {{-- Campus Image --}}
+                    <div class="profile-img">
+                        <img
+                                class="img-fluid img-thumbnail"
+                                src="{{ $building->img }}"
+                                alt="{{ __('locations.buildings.img') }}"
+                        />
+                    </div>
+                    {{-- Side Menu --}}
+                    <div class="profile-work">
+                        @if($building->buildingAreas->count() > 0)
+                        <p>{{ trans_choice('locations.buildings.areas', $building->buildingAreas()->count()) }}</p>
+                        <ul
+                            class="list-group"
+                            x-data="
+                            {
+                                area_id: {{ $building->buildingAreas->first()->id }},
+                                openArea()
+                                {
+                                    $('.room-display[area-id]').addClass('d-none');
+                                    $('#blueprint-container').empty();
+                                    $('.room-display[area-id=' + this.area_id + ']').removeClass('d-none');
+                                    new MapDrawings('blueprint-container', this.area_id);
+                                }
+                            }"
+                            x-init="openArea()"
+                        >
+                            @foreach($building->buildingAreas as $area)
+                                <li
+                                    class="list-group-item list-group-item-action d-flex justify-content-between align-items-center show-as-action"
+                                    :class="(area_id == {{ $area->id }}) ? 'active' : ''"
+                                    @click="area_id = {{ $area->id }}; openArea()"
+                                >
+                                    {{ $area->schoolArea->name }}
+                                </li>
+                            @endforeach
+                        </ul>
+                        @endif
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            {{-- Main Content Column --}}
+            <div class="col-md-8">
+                <div class="row mb-4">
+                    {{-- Basic Info --}}
+                    <div class="col-md-8">
+                        <div class="profile-head d-flex align-items-start flex-column h-100">
+                            <h5>
+                                {{ $building->name }}
+                            </h5>
+                        </div>
+                    </div>
+                    {{-- User Control --}}
+                    <div class="col-md-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <a
+                                    type="button"
+                                    class="btn btn-secondary profile-edit-btn"
+                                    href="{{ route('locations.buildings.edit', ['building' => $building->id]) }}"
+                            >{{ __('locations.buildings.edit') }}</a>
+                        </div>
+                    </div>
+                </div>
+                {{-- Profile Tabs --}}
+                <ul class="nav nav-tabs mt-auto mb-4" id="profile-tab" role="tablist">
+                    <li class="nav-item">
+                        <a
+                                class="nav-link active"
+                                id="tab-contact"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tab-pane-contact"
+                                href="#tab-pane-contact"
+                                role="tab"
+                                aria-controls="#tab-pane-contact"
+                                aria-selected="true"
+                                save-tab="contact"
+                        >{{ __('locations.campus.information.contact') }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                id="tab-maps"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tab-pane-maps"
+                                href="#tab-pane-maps"
+                                role="tab"
+                                aria-controls="#tab-pane-maps"
+                                aria-selected="false"
+                                save-tab="maps"
+                        >{{ __('locations.areas.maps') }}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                id="tab-rooms"
+                                data-bs-toggle="tab"
+                                data-bs-target="#tab-pane-rooms"
+                                href="#tab-pane-rooms"
+                                role="tab"
+                                aria-controls="#tab-pane-rooms"
+                                aria-selected="false"
+                                save-tab="rooms"
+                        >{{ trans_choice('locations.rooms',2) }}</a>
+                    </li>
+                </ul>
+                {{-- Tab Content --}}
                 <div class="tab-content profile-tab" id="profile-tab-content">
                     <div
                             class="tab-pane fade show active"
@@ -147,7 +164,6 @@
                             @endforeach
                         </ul>
                     </div>
-
                     <div
                             class="tab-pane fade"
                             id="tab-pane-maps" role="tabpanel" aria-labelledby="tab-maps" tabindex="0"
@@ -158,30 +174,4 @@
             </div>
         </div>
     </div>
-
 @endsection
-@push('scripts')
-    <script>
-        function filterArea(area_id) {
-            //remove all the old filters
-            $('.area-control[area-id]').removeClass('active');
-            $('.area-control[area-id] button.btn-success').removeClass('btn-success')
-                .addClass('btn-outline-success')
-                .prop('disabled', false);
-            $('.room-display[area-id]').addClass('d-none');
-            $('#blueprint-container').empty();
-
-            $('.area-control[area-id=' + area_id + ']').addClass('active');
-            $('.area-control[area-id=' + area_id + '] button.btn-outline-success').removeClass('btn-outline-success')
-                .addClass('btn-success')
-                .prop('disabled', true);
-            $('.room-display[area-id=' + area_id + ']').removeClass('d-none');
-            new MapDrawings('blueprint-container', area_id);
-        }
-
-        @if($building->buildingAreas->count() > 0)
-        filterArea({{ $building->buildingAreas->first()->id }});
-        @endif
-
-    </script>
-@endpush

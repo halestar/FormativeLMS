@@ -25,7 +25,7 @@
                         <div class="col-md-1">
                             <img
                                     class="img-fluid img-thumbnail"
-                                    src="{{ $person->thumbnail_url }}"
+                                    src="{{ $person->portrait_url->thumbUrl() }}"
                                     alt="{{ __('people.profile.image') }}"
                             />
                         </div>

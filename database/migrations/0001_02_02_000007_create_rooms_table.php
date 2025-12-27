@@ -14,30 +14,22 @@ return new class extends Migration
 		Schema::create('rooms', function(Blueprint $table)
 		{
 			$table->id();
-			$table->bigInteger('area_id')
-			      ->unsigned()
-			      ->nullable();
-			$table->foreign('area_id')
-			      ->references('id')
-			      ->on('buildings_areas')
-			      ->onDelete('set null');
+			$table->foreignId('area_id')
+				  ->nullable()
+				  ->constrained('buildings_areas')
+				  ->cascadeOnDelete();
 			$table->string('name');
 			$table->integer('capacity')
 			      ->unsigned()
 			      ->default(50);
 			$table->text('img_data')
 			      ->nullable();
-			$table->bigInteger('phone_id')
-			      ->unsigned()
-			      ->nullable();
-			$table->foreign('phone_id')
-			      ->references('id')
-			      ->on('phones')
-			      ->onDelete('set null');
+			$table->foreignId('phone_id')
+			      ->nullable()
+			      ->constrained('phones')
+			      ->cascadeOnDelete();
 			$table->text('notes')
 			      ->nullable();
-			$table->boolean('classroom')
-			      ->default(false);
 			$table->timestamps();
 		});
 	}

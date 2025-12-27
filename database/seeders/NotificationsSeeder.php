@@ -7,9 +7,12 @@ use App\Notifications\Auth\ResetPasswordNotification;
 use App\Notifications\Classes\ClassAlert;
 use App\Notifications\Classes\NewClassMessageNotification;
 use App\Notifications\Classes\NewClassStatusNotification;
+use App\Notifications\Learning\LearningDemonstrationDeletedNotification;
 use App\Notifications\Learning\LearningDemonstrationPostedNotification;
 use App\Notifications\Learning\LearningDemonstrationUpdatedNotification;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
 
 class NotificationsSeeder extends Seeder
 {
@@ -18,6 +21,9 @@ class NotificationsSeeder extends Seeder
      */
     public function run(): void
     {
+		Schema::disableForeignKeyConstraints();
+		SchoolMessage::truncate();
+		Schema::enableForeignKeyConstraints();
         //Reset Password Notification
         SchoolMessage::insert($this->notifications());
     }
@@ -106,7 +112,7 @@ class NotificationsSeeder extends Seeder
 		        'short_body' => __('emails.learning.demonstration.posted.body.short'),
 		        'notification_class' => LearningDemonstrationPostedNotification::class,
 	        ],
-	        //New Learning Demonstration Updated Notification
+	        //Learning Demonstration Updated Notification
 	        [
 		        'system' => true,
 		        'subscribable' => true,
@@ -121,6 +127,22 @@ class NotificationsSeeder extends Seeder
 		        'short_subject' => __('emails.learning.demonstration.updated.subject.short'),
 		        'short_body' => __('emails.learning.demonstration.updated.body.short'),
 		        'notification_class' => LearningDemonstrationUpdatedNotification::class,
+	        ],
+	        //New Learning Demonstration Deleted Notification
+	        [
+		        'system' => true,
+		        'subscribable' => true,
+		        'force_subscribe' => false,
+		        'name' => __('emails.learning.demonstration.deleted.name'),
+		        'description' => __('emails.learning.demonstration.deleted.description'),
+		        'send_email' => false,
+		        'send_sms' => false,
+		        'send_push' => true,
+		        'subject' => null,
+		        'body' => null,
+		        'short_subject' => __('emails.learning.demonstration.deleted.subject.short'),
+		        'short_body' => __('emails.learning.demonstration.deleted.body.short'),
+		        'notification_class' => LearningDemonstrationDeletedNotification::class,
 	        ],
         ];
     }

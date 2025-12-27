@@ -2,8 +2,14 @@
 
 namespace App\Models\Locations;
 
+use App\Casts\People\Portrait;
+use App\Enums\WorkStoragesInstances;
+use App\Interfaces\Fileable;
+use App\Models\People\Person;
 use App\Models\Scopes\OrderByNameScope;
 use App\Models\SystemTables\SchoolArea;
+use App\Models\Utilities\WorkFile;
+use App\Traits\HasWorkFiles;
 use App\Traits\Phoneable;
 use App\Traits\SingleAddressable;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
@@ -15,9 +21,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
 #[ScopedBy(OrderByNameScope::class)]
-class Building extends Model
+class Building extends Model implements Fileable
 {
-	use HasFactory, Phoneable, SingleAddressable;
+	use HasFactory, Phoneable, SingleAddressable, HasWorkFiles;
 	
 	public $timestamps = true;
 	public $incrementing = true;
@@ -26,7 +32,6 @@ class Building extends Model
 	protected $fillable =
 		[
 			'name',
-			'img',
 		];
 	
 	public function canDelete(): bool
@@ -42,7 +47,14 @@ class Building extends Model
 	
 	public function schoolAreas(): BelongsToMany
 	{
-		return $this->belongsToMany(SchoolArea::class, 'buildings_areas', 'building_id', 'area_id');
+		return $this->belongsToMany(SchoolArea::class, 'buildings_areas', 'building_id', 'area_id')
+			->using(BuildingArea::class)
+			->as('area')
+			->withPivot(
+				[
+					'id', 'blueprint_url', 'img', 'order',
+				])
+			->withTimestamps();
 	}
 	
 	public function canRemoveArea(SchoolArea $area): bool
@@ -63,19 +75,33 @@ class Building extends Model
 		return $this->hasManyThrough(Room::class, BuildingArea::class, 'building_id', 'area_id');
 	}
 	
-	public function img(): Attribute
-	{
-		return Attribute::make
-		(
-			get: fn(?string $img) => $img ?? asset('images/campus_img_placeholder.png'),
-		);
-	}
-	
 	protected function casts(): array
 	{
 		return
 			[
-				'name' => 'string',
+				'img' => Portrait::class,
 			];
+	}
+
+	public function getWorkStorageKey(): WorkStoragesInstances
+	{
+		return WorkStoragesInstances::ProfileWork;
+	}
+
+	public function shouldBePublic(): bool
+	{
+		return true;
+	}
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
+	}
+
+	public function hasArea(SchoolArea $area): bool
+	{
+		return $this->schoolAreas()
+		            ->where('area_id', $area->id)
+		            ->exists();
 	}
 }

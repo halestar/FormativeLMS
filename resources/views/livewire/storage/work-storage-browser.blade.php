@@ -1,10 +1,10 @@
 <div class="card text-bg-primary position-relative" style="height: {{ $height }}; max-height: {{ $maxHeight }};">
     <div class="card-header d-flex justify-content-between align-items-center p-1" style="height: 45px; max-height: 45px;">
-        <h6 class="marquee-text fw-bold my-auto">
-            <span>
-            {{ $title }}
+        <div class="marquee-text fw-bold my-auto">
+            <span class="fs-5 text-white">
+                {{ $title }}
             </span>
-        </h6>
+        </div>
         <button
                 type="button"
                 class="btn btn-secondary btn-sm ms-3"
@@ -118,7 +118,7 @@
         e = e || event;
         e.preventDefault();
     }, false);
-    window.addEventListener('document-storage-browser.files-selected',
+    window.addEventListener('document-storage-browser-files-selected',
         (event) => (event.detail.cb_instance === 'work-storage-browser') ? $('#work_storage_browser_loading').removeClass('d-none') : null);
 </script>
 @endscript

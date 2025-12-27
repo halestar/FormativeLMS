@@ -2,13 +2,18 @@
 
 namespace App\Http\Controllers\People;
 
+use App\Classes\Settings\StorageSettings;
+use App\Classes\Storage\DocumentFile;
+use App\Enums\WorkStoragesInstances;
 use App\Http\Controllers\Controller;
 use App\Models\People\Person;
+use App\Models\Utilities\MimeType;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Log;
 
 class PersonController extends Controller implements HasMiddleware
 {
@@ -58,6 +63,7 @@ class PersonController extends Controller implements HasMiddleware
 		if($isSelf)
 			$breadcrumb = [__('people.profile.mine') => route('people.show', ['person' => $person->school_id]),
 			               __('people.profile.edit') => "#"];
+		Log::debug(print_r($person->portrait_url, true));
 		return view('people.edit', compact('person', 'breadcrumb', 'self', 'isSelf'));
 	}
 	
@@ -70,14 +76,23 @@ class PersonController extends Controller implements HasMiddleware
 			->with('success-status', __('people.registered.updated'));
 	}
 	
-	public function updatePortrait(Request $request, Person $person)
+	public function updatePortrait(Request $request, Person $person, StorageSettings $storageSettings)
 	{
 		Gate::authorize('edit', $person);
-		$request->validate([
-			'portrait' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-		]);
-		$person->portrait_url = $request->file('portrait');
-		$person->save();
+		//we should have the document file, either as the root, or the first element.
+		$portrait = json_decode($request->input('portrait'), true);
+		if(isset($portrait['school_id']))
+			$doc = DocumentFile::hydrate($portrait);
+		else
+			$doc = DocumentFile::hydrate($portrait[0]);
+		//first, we persist the file, using the Person object as the filer.
+		$connection = $storageSettings->getWorkConnection(WorkStoragesInstances::ProfileWork);
+		$imgFile = $connection->persistFile($person, $doc, false);
+		if($imgFile)
+		{
+			$person->portrait_url->useWorkfile($imgFile);
+			$person->save();
+		}
 		return redirect(route('people.edit', ['person' => $person->school_id]))
 			->with('success-status', __('people.registered.updated'));
 	}
@@ -98,8 +113,10 @@ class PersonController extends Controller implements HasMiddleware
 	public function deletePortrait(Request $request, Person $person)
 	{
 		Gate::authorize('edit', $person);
-		$person->portrait_url = null;
-		return redirect(route('people.edit', ['person' => $person->school_id]));
+		$person->portrait_url->remove();
+		$person->save();
+		return redirect(route('people.edit', ['person' => $person->school_id]))
+			->with('success-status', __('people.record.updated'));
 	}
 	
 	public function roleFields()

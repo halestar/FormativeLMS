@@ -181,19 +181,25 @@
                             <div class="mb-3">
                                 <h3 class="border-bottom d-flex justify-content-between align-items-end">
                                     {{ $building->name }}
+                                    <a href="{{ route('locations.buildings.show', $building) }}"><i class="fa-solid fa-eye"></i></a>
                                 </h3>
                                 @foreach($campus->buildingAreas()->where('building_id', $building->id) as $area)
                                     <div class="ms-3 mb-3">
-                                        <h4 class="border-bottom d-flex">
+                                        <h4 class="border-bottom d-flex justify-content-between align-items-end">
                                             {{ $area->name }}
+                                            <a href="{{ route('locations.areas.show', $area) }}"><i class="fa-solid fa-eye"></i></a>
                                         </h4>
                                         @foreach($campus->rooms->where('area_id', $area->id) as $room)
                                             <div class="d-flex border-bottom justify-content-between align-items-end">
                                                 <span class="col-4">
-                                                    @if($room->info->classroom)
+                                                    @if($room->info->label)
+                                                        {{ $room->info->label }}
+                                                        @if($room->info->classroom)
+                                                            ({{ __('locations.rooms.classroom') }})
+                                                        @endif
+                                                    @elseif($room->info->classroom)
                                                         {{ __('locations.rooms.classroom') }}
                                                     @endif
-                                                    {{ $room->info->label }}
                                                 </span>
                                                 <span>
                                                     <a
@@ -212,27 +218,6 @@
                             class="tab-pane fade"
                             id="tab-pane-periods" role="tabpanel" aria-labelledby="tab-periods" tabindex="0"
                     >
-                        <div class="mb-3 row">
-                            <a
-                                    class="btn btn-primary col mx-2"
-                                    href="{{ route('locations.periods.create', ['campus' => $campus]) }}"
-                            >{{ __('locations.period.new') }}</a>
-                            <a
-                                    class="col btn btn-info mx-2"
-                                    href="{{ route('locations.periods.edit.mass', ['campus' => $campus]) }}"
-                            >{{ __('locations.period.create.mass') }}</a>
-                        </div>
-                        <div class="form-check form-switch mb-3">
-                            <input
-                                    class="form-check-input"
-                                    type="checkbox"
-                                    role="switch"
-                                    onclick="$('.period.inactive').toggleClass('d-none')"
-                                    id="show-inactive-periods"
-                            />
-                            <label class="form-check-label"
-                                   for="show-inactive-periods">{{ __('locations.period.inactive.show') }}</label>
-                        </div>
                         @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $dayId => $dayName)
                             <div class="mb-3">
                                 <h3 class="border-bottom d-flex justify-content-between align-items-end">
@@ -244,16 +229,7 @@
                                             {{ $period->name }} ( {{ $period->abbr }})
                                         </span>
                                         <span>
-                                            @can('edit', $period)
-                                                <a
-                                                        href="{{ route('locations.periods.edit', $period) }}"
-                                                        class="text-decoration-none"
-                                                >
-                                                    {{ $period->dayStr() }} {{ $period->start->format('g:i A') }} &mdash; {{ $period->end->format('g:i A') }}
-                                                </a>
-                                                @else
-                                                    {{ $period->dayStr() }} {{ $period->start->format('g:i A') }} &mdash; {{ $period->end->format('g:i A') }}
-                                            @endcan
+                                            {{ $period->dayStr() }} {{ $period->start->format('g:i A') }} &mdash; {{ $period->end->format('g:i A') }}
                                         </span>
                                     </div>
                                 @empty
@@ -266,68 +242,11 @@
                             class="tab-pane fade"
                             id="tab-pane-blocks" role="tabpanel" aria-labelledby="tab-blocks" tabindex="0"
                     >
-                        @can('create')
-                            <div class="row" id="block-add-control">
-                                <button
-                                        type="button"
-                                        class="btn btn-primary col mx-2"
-                                        onclick="$('#block-add-control,#block-add-form').toggleClass('d-none')"
-                                >{{ __('locations.block.create') }}</button>
-                            </div>
-                            <form action="{{ route('locations.blocks.store', ['campus' => $campus]) }}" method="POST"
-                                  id="block-add-form-container" class="mb-4">
-                                @csrf
-                                <div class="row d-none" id="block-add-form">
-                                    <div class="col-sm-8">
-                                        <label for="block_name"
-                                               class="form-label">{{ __('locations.block.name') }}</label>
-                                        <input
-                                                type="text"
-                                                class="form-control @error('block_name') is-invalid @enderror"
-                                                id="block_name"
-                                                name="block_name"
-                                        />
-                                        <x-utilities.error-display
-                                                key="block_name">{{ $errors->first('block_name') }}</x-utilities.error-display>
-                                    </div>
-                                    <div class="col-sm-4 align-self-end">
-                                        <button type="submit"
-                                                class="btn btn-primary">{{ __('locations.block.create') }}</button>
-                                        <button
-                                                type="button"
-                                                class="btn btn-secondary"
-                                                onclick="$('#block-add-control,#block-add-form').toggleClass('d-none')"
-                                        >{{ __('common.cancel') }}</button>
-                                    </div>
-                                </div>
-                            </form>
-                        @endcan
-                        <div class="form-check form-switch mb-3">
-                            <input
-                                    class="form-check-input"
-                                    type="checkbox"
-                                    role="switch"
-                                    onclick="$('.block.inactive').toggleClass('d-none')"
-                                    id="show-inactive-blocks"
-                            />
-                            <label class="form-check-label"
-                                   for="show-inactive-blocks">{{ __('locations.block.inactive.show') }}</label>
-                        </div>
-                        @forelse($campus->blocks as $block)
-                            <div class="d-flex border-bottom justify-content-between align-items-end block @if(!$block->active) inactive d-none @endif">
-                                <span class="col-4 @if(!$block->active) text-warning @endif">{{ $block->name }}</span>
-                                <span>
-                                    @can('edit', $block)
-                                        <a
-                                                href="{{ route('locations.blocks.edit', $block) }}"
-                                                class="text-decoration-none"
-                                        >
-                                            {{ $block->periods->implode('abbr', ', ') }}
-                                        </a>
-                                    @else
-                                        {{ $block->periods->implode('abbr', ', ') }}
-                                    @endcan
-                                    </span>
+
+                        @forelse($campus->blocks()->active()->get() as $block)
+                            <div class="d-flex border-bottom justify-content-between align-items-end block">
+                                <span class="col-4">{{ $block->name }}</span>
+                                <span>{{ $block->periods->implode('abbr', ', ') }}</span>
                             </div>
                         @empty
                             <h4 class="text-center mb-5">{{ __('locations.block.no') }}</h4>

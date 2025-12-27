@@ -11,7 +11,7 @@
                         <label for="name" class="form-label">{{ __('locations.period.name') }}</label>
                         <input
                                 type="text"
-                                class="form-control @error('name') is-invalid enderror"
+                                class="form-control @error('name') is-invalid @enderror"
                                 id="name"
                                 name="name"
                                 value="{{ old('name') }}"
@@ -38,7 +38,7 @@
                     <label for="day" class="form-label">{{ __('locations.period.day') }}</label>
                     <select name="day" id="day" class="form-select @error('day') is-invalid @enderror">
                         @foreach(\App\Classes\Settings\Days::weekdaysOptions() as $id => $day)
-                            <option value="{{ $id }}" @if(old('day') == $id) selected @endif>{{ $day }}</option>
+                            <option value="{{ $id }}" @selected(old('day') == $id) >{{ $day }}</option>
                         @endforeach
                     </select>
                     <x-utilities.error-display key="day">{{ $errors->first('day') }}</x-utilities.error-display>
@@ -58,7 +58,7 @@
                     <label for="start" class="form-label">{{ __('locations.period.end') }}</label>
                     <input
                             type="time"
-                            class="form-control @error('end') is-invalid @endif"
+                            class="form-control @error('end') is-invalid @enderror"
                             id="end"
                             name="end"
                             value="{{ old('end') }}"

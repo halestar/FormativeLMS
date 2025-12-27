@@ -65,4 +65,9 @@ class SchoolClassPolicy
 			       ->exists() &&
 			$schoolClass->canDelete());
 	}
+
+	public function manage(Person $person, SchoolClass $schoolClass): bool
+	{
+		return $schoolClass->sessionsTaughtBy($person)->exists();
+	}
 }

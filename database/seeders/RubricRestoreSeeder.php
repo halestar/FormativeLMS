@@ -15,17 +15,19 @@ class RubricRestoreSeeder extends Seeder
 	 */
 	public function run(): void
 	{
-		foreach(Storage::disk('private')
-		               ->files(DevelopRubrics::$backupDirectory) as $file)
+		foreach(Skill::all() as $skill)
 		{
-			$skill = Skill::where('designation', basename($file, '.json'))
-			              ->first();
-			if($skill)
+			$fname = "backups/develop-rubrics/" . $skill->designation . '.json';
+			if(Storage::disk('private')->exists($fname))
 			{
-				$json = json_decode(Storage::disk('private')
-				                           ->get($file), true);
-				$rubric = Rubric::hydrate($json);
-				$skill->rubric = $rubric;
+				$json = json_decode(Storage::disk('private')->get($fname), true);
+				$skill->rubric = Rubric::hydrate($json);
+				$skill->active = true;
+				$skill->save();
+			}
+			else
+			{
+				$skill->active = false;
 				$skill->save();
 			}
 		}

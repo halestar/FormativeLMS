@@ -36,7 +36,7 @@
                                 x-data x-init="$el.scrollIntoView()"
                             @endif
                     >
-                        <img src="{{ $self->thumbnail_url }}"
+                        <img src="{{ $self->portrait_url->thumbUrl() }}"
                              alt="{{ $self->name }}" class="rounded-circle avatar-img-large">
                         <div class="ms-3 flex-grow-1">
                             <p class="small p-2 mb-1 rounded-3 bg-success-subtle">
@@ -63,7 +63,7 @@
                                 {{ $message->created_at->format('h:i A') }} | {{ $message->created_at->format('M j Y') }}
                             </p>
                         </div>
-                        <img src="{{ $message->postedBy? $message->postedBy->thumbnail_url: \App\Models\People\Person::UKN_IMG }}"
+                        <img src="{{ $message->postedBy? $message->postedBy->portrait_url->thumbUrl(): \App\Models\People\Person::UKN_IMG }}"
                              alt="{{ $message->postedBy? $message->postedBy->name: __('common.unknown') }}"
                              class="rounded-circle avatar-img-large"/>
                     </div>

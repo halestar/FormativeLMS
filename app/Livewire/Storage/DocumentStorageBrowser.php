@@ -138,7 +138,7 @@ class DocumentStorageBrowser extends Component
 				$this->selectedItems[] = DocumentFile::fromUploadedFile($file);
 			}
 		}
-		elseif(count($this->mimeTypes) == 0 || in_array($this->uploads->getMimeType(), $this->mimeTypes))
+		elseif(count($this->mimeTypes) == 0 || in_array($this->uploadedFiles->getMimeType(), $this->mimeTypes))
 			$this->selectedItems[] = DocumentFile::fromUploadedFile($this->uploadedFiles);
 		else
 		{
@@ -152,7 +152,7 @@ class DocumentStorageBrowser extends Component
 	{
 		$this->open = false;
 		$this->js("$('#document-browser-modal').modal('hide')");
-		$this->dispatch('document-storage-browser.files-selected', selected_items: $this->selectedItems,
+		$this->dispatch('document-storage-browser-files-selected', selected_items: $this->selectedItems,
 			cb_instance: $this->cb_instance);
 	}
 	

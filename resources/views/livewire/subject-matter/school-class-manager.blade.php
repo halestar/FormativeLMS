@@ -184,7 +184,7 @@
                         @foreach($teachers as $teacher)
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 <span>
-                                    <img src="{{ $teacher->thumbnail_url }}" class="img-thumbnail img-fluid"/>
+                                    <img src="{{ $teacher->portrait_url->thumbUrl() }}" class="img-thumbnail img-fluid"/>
                                     <span class="fs-4">{{ $teacher->name }}</span>
                                 </span>
                                 <button
@@ -218,7 +218,7 @@
                                     >
                                         <div class="row">
                                             <div class="col-2">
-                                                <img src="{{ $suggestion->thumbnail_url }}"
+                                                <img src="{{ $suggestion->portrait_url->thumbUrl() }}"
                                                      class="img-thumbnail img-fluid"/>
                                             </div>
                                             <div class="col-6">

@@ -42,12 +42,26 @@ class MimeType extends Model
 		               ->pluck('mime')
 		               ->toArray();
 	}
+
+	public static function allowedMimeTypesString(): string
+	{
+		return Mimetype::all()
+			->pluck('mime')
+			->implode(',');
+	}
 	
 	public static function imageMimeTypes(): array
 	{
 		return MimeType::where('is_img', true)
 		               ->pluck('mime')
 		               ->toArray();
+	}
+
+	public static function imageMimeTypesString(): string
+	{
+		return MimeType::where('is_img', true)
+			->pluck('mime')
+			->implode(',');
 	}
 
 	public static function videoMimeTypes(): array
@@ -57,6 +71,13 @@ class MimeType extends Model
 		               ->toArray();
 	}
 
+	public static function videoMimeTypesString(): string
+	{
+		return MimeType::where('is_video', true)
+			->pluck('mime')
+			->implode(',');
+	}
+
 	public static function audioMimeTypes(): array
 	{
 		return MimeType::where('is_audio', true)
@@ -64,11 +85,25 @@ class MimeType extends Model
 		               ->toArray();
 	}
 
+	public static function audioMimeTypesString(): string
+	{
+		return MimeType::where('is_audio', true)
+			->pluck('mime')
+			->implode(',');
+	}
+
 	public static function documentMimeTypes(): array
 	{
 		return MimeType::where('is_document', true)
 		               ->pluck('mime')
 		               ->toArray();
+	}
+
+	public static function documentMimeTypesString(): string
+	{
+		return MimeType::where('is_document', true)
+			->pluck('mime')
+			->implode(',');
 	}
 
 	public function __toString()

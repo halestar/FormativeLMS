@@ -22,7 +22,7 @@ class WorkStorageBrowser extends Component
 	
 	public string $title;
 	public WorkFilesConnection $connection;
-	public Fileable $fileable;
+	public ?Fileable $fileable;
 	public Collection $workFiles;
 	public $uploadedFiles;
 	public array $mimeTypes = [];
@@ -69,16 +69,18 @@ class WorkStorageBrowser extends Component
 			$docFile = DocumentFile::fromUploadedFile($this->uploadedFiles);
 			$this->connection->persistFile($this->fileable, $docFile);
 		}
+		$this->dispatch('work-storage-browser-files-added');
 		$this->refreshFiles();
 	}
 	
 	public function removeFile(WorkFile $workFile)
 	{
 		$workFile->delete();
+		$this->dispatch('work-storage-browser-file-removed');
 		$this->refreshFiles();
 	}
 	
-	#[On('document-storage-browser.files-selected')]
+	#[On('document-storage-browser-files-selected')]
 	public function filesSelected($cb_instance, $selected_items)
 	{
 		if($cb_instance != 'work-storage-browser') return;
@@ -87,6 +89,7 @@ class WorkStorageBrowser extends Component
 			$documentFile = DocumentFile::hydrate($item);
 			$this->connection->persistFile($this->fileable, $documentFile);
 		}
+		$this->dispatch('work-storage-browser-files-added');
 		$this->refreshFiles();
 	}
 	

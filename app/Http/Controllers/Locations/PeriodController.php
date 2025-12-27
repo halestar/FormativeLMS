@@ -25,6 +25,7 @@ class PeriodController extends Controller implements HasMiddleware
 			[
 				trans_choice('locations.campus', 2) => route('locations.campuses.index'),
 				$campus->name => route('locations.campuses.show', ['campus' => $campus->id]),
+				__('locations.campus.edit') => route('locations.campuses.edit', ['campus' => $campus->id]),
 				__('locations.period.new') => '#',
 			];
 		return view('locations.periods.create', compact('campus', 'breadcrumb'));
@@ -44,7 +45,7 @@ class PeriodController extends Controller implements HasMiddleware
 		$period->fill($data);
 		$period->campus_id = $campus->id;
 		$period->save();
-		return redirect(route('locations.campuses.show', $campus))
+		return redirect(route('locations.campuses.edit', $campus))
 			->with('success-status', __('locations.period.created'));
 	}
 	
@@ -65,6 +66,7 @@ class PeriodController extends Controller implements HasMiddleware
 			[
 				trans_choice('locations.campus', 2) => route('locations.campuses.index'),
 				$period->campus->name => route('locations.campuses.show', ['campus' => $period->campus_id]),
+				__('locations.campus.edit') => route('locations.campuses.edit', ['campus' => $period->campus_id]),
 				__('locations.period.edit') => '#',
 			];
 		return view('locations.periods.edit', compact('period', 'breadcrumb'));
@@ -83,7 +85,7 @@ class PeriodController extends Controller implements HasMiddleware
 		$data['active'] = $request->input('active', false);
 		$period->fill($data);
 		$period->save();
-		return redirect(route('locations.campuses.show', ['campus' => $period->campus_id]))
+		return redirect(route('locations.campuses.edit', ['campus' => $period->campus_id]))
 			->with('success-status', __('locations.period.updated'));
 	}
 	
@@ -92,7 +94,7 @@ class PeriodController extends Controller implements HasMiddleware
 		Gate::authorize('delete', $period);
 		$campus_id = $period->campus_id;
 		$period->delete();
-		return redirect(route('locations.campuses.show', ['campus' => $campus_id]))
+		return redirect(route('locations.campuses.edit', ['campus' => $campus_id]))
 			->with('success-status', __('locations.period.deleted'));
 	}
 	
@@ -102,7 +104,8 @@ class PeriodController extends Controller implements HasMiddleware
 		$breadcrumb =
 			[
 				trans_choice('locations.campus', 2) => route('locations.campuses.index'),
-				$campus->name => route('locations.campuses.show', ['campus' => $campus->id]),
+				$campus->name => route('locations.campuses.edit', ['campus' => $campus->id]),
+				__('locations.campus.edit') => route('locations.campuses.edit', ['campus' => $campus->id]),
 				__('locations.period.create.mass') => '#',
 			];
 		return view('locations.periods.mass', compact('campus', 'breadcrumb'));

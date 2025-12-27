@@ -31,4 +31,9 @@ return
         'messages.sent' => 'Message Sent',
         'messages.subscriptions' => 'Available Notification Subscriptions',
         'student.roster' => 'Student Roster',
+		'classes.management' => 'Class Management',
+		'classes.management.service' => 'Class Management Service',
+		'classes.management.assigned' => 'This class is currently using the :service as a class management system.',
+		'classes.management.no' => 'This class is currently not using a class management system.',
+		'classes.management.select' => 'Select a class management service.',
 	];

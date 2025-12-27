@@ -117,14 +117,20 @@ class SessionSettings
 	
 	public function getPageSetting(string $page, string $setting, mixed $default = null): mixed
 	{
-		$setting = $this->get($page, []);
-		return $setting[$setting] ?? $default;
+		$pageSetting = self::get($page, []);
+		return $pageSetting[$setting] ?? $default;
 	}
 	
 	public function setPageSetting(string $page, string $setting, mixed $value): void
 	{
-		$setting = $this->get($page, []);
-		$setting[$setting] = $value;
-		$this->set($page, $setting);
+		$pageSetting = self::get($page, []);
+		$pageSetting[$setting] = $value;
+		self::set($page, $pageSetting);
+	}
+
+	public function hasPageSetting(string $page, string $setting): bool
+	{
+		$pageSetting = self::get($page, []);
+		return isset($pageSetting[$setting]);
 	}
 }

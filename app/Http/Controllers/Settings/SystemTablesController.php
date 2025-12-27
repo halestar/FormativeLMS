@@ -16,7 +16,7 @@ class SystemTablesController extends Controller implements HasMiddleware
 	
 	public function index()
 	{
-		Gate::authorize('has-permission', 'crud');
+		Gate::authorize('has-permission', 'system.tables');
 		$breadcrumb =
 			[
 				__('system.menu.crud') => route('settings.school'),

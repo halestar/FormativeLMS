@@ -2,15 +2,17 @@
 
 namespace App\Classes\Integrators\Local\Services;
 
-use App\Classes\Integrators\Local\ClassManagement\ClassAnnouncementsWidget;
-use App\Classes\Integrators\Local\ClassManagement\ClassLinksWidget;
 use App\Classes\Integrators\Local\Connections\LocalClassesConnection;
 use App\Enums\IntegratorServiceTypes;
 use App\Livewire\School\ClassManagement\ClassAnnouncements;
 use App\Livewire\School\ClassManagement\ClassLinks;
+use App\Livewire\School\ClassManagement\ClassPageChat;
+use App\Livewire\School\ClassManagement\LearningDemonstrations;
+use App\Livewire\School\ClassManagement\TopAnnouncement;
 use App\Models\Integrations\Integrator;
 use App\Models\Integrations\LmsIntegrationService;
 use App\Models\People\Person;
+use App\Models\SubjectMatter\Components\ClassStatus;
 
 class LocalClassesService extends LmsIntegrationService
 {
@@ -45,16 +47,23 @@ class LocalClassesService extends LmsIntegrationService
 	{
 		return
         [
-            'available_widgets' =>
+            'available' =>
             [
                 ClassAnnouncements::class => __('subjects.school.widgets.class-announcements'),
                 ClassLinks::class => __('subjects.school.widgets.class-links'),
+	            ClassPageChat::class => __('school.messages'),
+	            LearningDemonstrations::class => __('learning.demonstrations.viewer'),
             ],
-            'widgets_allowed' =>
+            'required' =>
             [
-	            ClassAnnouncements::class => __('subjects.school.widgets.class-announcements'),
-	            ClassLinks::class => __('subjects.school.widgets.class-links'),
+	            ClassPageChat::class,
+	            LearningDemonstrations::class,
             ],
+	        'optional' =>
+	        [
+		        ClassAnnouncements::class,
+		        ClassLinks::class,
+	        ],
         ];
 	}
 

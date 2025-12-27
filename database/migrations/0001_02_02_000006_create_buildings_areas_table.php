@@ -14,25 +14,14 @@ return new class extends Migration
 		Schema::create('buildings_areas', function(Blueprint $table)
 		{
 			$table->id();
-			$table->bigInteger('building_id')
-			      ->unsigned();
-			$table->foreign('building_id')
-			      ->references('id')
-			      ->on('buildings')
-			      ->onDelete('cascade');
-			$table->bigInteger('area_id')
-			      ->unsigned();
-			$table->foreign('area_id')
-			      ->references('id')
-			      ->on('system_tables')
-			      ->onDelete('cascade');
+			$table->foreignId('building_id')
+			      ->constrained('buildings')
+				  ->cascadeOnDelete();
+			$table->foreignId('area_id')
+			      ->constrained('system_tables')
+				  ->cascadeOnDelete();
 			$table->string('blueprint_url')
 			      ->nullable();
-			$table->string('img')
-			      ->nullable();
-			$table->tinyInteger('order')
-			      ->unsigned()
-			      ->default(1);
 			$table->unique(['building_id', 'area_id']);
 			$table->timestamps();
 		});

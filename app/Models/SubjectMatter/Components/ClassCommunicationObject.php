@@ -6,6 +6,7 @@ use App\Enums\WorkStoragesInstances;
 use App\Interfaces\Fileable;
 use App\Models\People\Person;
 use App\Models\SubjectMatter\ClassSession;
+use App\Models\Utilities\WorkFile;
 use App\Traits\UsesJsonValue;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
@@ -56,6 +57,12 @@ class ClassCommunicationObject extends Model implements Fileable
 	}
 
 	public function shouldBePublic(): bool
+	{
+		return true;
+	}
+
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
 	{
 		return true;
 	}

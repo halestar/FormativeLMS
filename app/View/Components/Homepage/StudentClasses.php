@@ -15,9 +15,17 @@ class StudentClasses extends Component
 	/**
 	 * Create a new component instance.
 	 */
-	public function __construct(public StudentRecord $student)
+	public function __construct()
 	{
-		$this->classes = $student->classSessions;
+		$self = auth()->user();
+		$student = null;
+		if($self->isStudent())
+			$student = $self->student();
+		elseif($self->isParent())
+			$student = $self->viewingStudent;
+		$this->classes = new Collection();
+		if($student)
+			$this->classes = $student->classSessions;
 	}
 	
 	/**

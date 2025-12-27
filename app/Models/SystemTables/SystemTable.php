@@ -6,7 +6,6 @@ use App\Models\Scopes\OrderByOrderScope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Model;
 
-#[ScopedBy([OrderByOrderScope::class])]
 class SystemTable extends Model
 {
 	public $timestamps = false;

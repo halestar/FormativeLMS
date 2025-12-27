@@ -220,7 +220,7 @@
                         type="datetime-local"
                         class="form-control"
                         x-ref="post_on_default"
-                        value="{{ $ld->demonstrationSession($classSession)->posted_on->format('Y-m-d\TH:i:s') }}"
+                        value="{{ $ld->demonstrationSession($classSession)->posted_on->format('Y-m-d\TH:i') }}"
                 />
                 <button
                         class="btn btn-primary"
@@ -235,7 +235,7 @@
                         type="datetime-local"
                         class="form-control"
                         x-ref="due_on_default"
-                        value="{{ $ld->demonstrationSession($classSession)->due_on->format('Y-m-d\TH:i:s') }}"
+                        value="{{ $ld->demonstrationSession($classSession)->due_on->format('Y-m-d\TH:i') }}"
                 />
                 <button
                         class="btn btn-primary"
@@ -284,7 +284,10 @@
                 </div>
                 <ul class="list-group mt-2 ms-3">
                     @foreach($session['students'] as $student_id => $student)
-                        <li class="list-group-item border @if($student['submitted']) list-group-item-success @elseif($student['posted']) list-group-item-secondary @endif">
+                        <li
+                            class="list-group-item border @if($student['submitted']) list-group-item-success @elseif(!$student['posted']) list-group-item-danger @endif"
+                            wire:key="student-{{ $student_id }}-session-{{ $session_id }}"
+                        >
                             <div class="d-flex justify-content-between align-items-center">
                                 <h5 class="p-0 m-0 flex-nowrap text-nowrap">{{ $student['name'] }}</h5>
                                 <div class="ms-3 flex-shrink-1">
@@ -309,6 +312,23 @@
                                                 class="form-control"
                                                 wire:model="postedClasses.{{ $session_id }}.students.{{ $student_id }}.due"
                                         />
+                                        @if(!$student['posted'])
+                                            <button
+                                                    x-data="{ to_post: $wire.entangle('postedClasses.{{ $session_id }}.students.{{ $student_id }}.to_post') }"
+                                                    class="btn"
+                                                    :class="to_post ? 'btn-success': 'btn-outline-danger'"
+                                                    @click="to_post = !to_post"
+                                                    x-text="to_post ? '{{ __('common.post.will') }}': '{{ __('common.post.no') }}'"
+                                            ></button>
+                                        @else
+                                            <button
+                                                x-data="{ remove_post: $wire.entangle('postedClasses.{{ $session_id }}.students.{{ $student_id }}.remove_post') }"
+                                                class="btn"
+                                                :class="remove_post ? 'btn-outline-danger': 'btn-success'"
+                                                @click="remove_post = !remove_post"
+                                                x-text="remove_post ? '{{ __('common.post.no') }}': '{{ __('common.post.yes') }}'"
+                                            ></button>
+                                        @endif
                                     </div>
                                 </div>
                             </div>
@@ -323,16 +343,15 @@
         <button
                 type="button"
                 class="col mx-2 btn btn-primary"
-                wire:click="post"
-        >{{ __('learning.demonstrations.post.save') }}</button>
+                wire:click="updateLearningDemonstration"
+        >{{ __('learning.demonstrations.post.update') }}</button>
+        @if($ld->canDelete())
         <button
                 type="button"
-                class="col mx-2 btn"
-                :class="saved? 'btn-success' : 'btn-info'"
-                wire:click="updateTemplate"
-                x-data="{ saved: false }"
-                x-html="saved? '{{ __('learning.demonstrations.saved') }}' : '{{ __('learning.demonstrations.save') }}'"
-                x-on:template-updated.window="saved = true; setTimeout(() => saved = false, 3000)"
-        ></button>
+                class="col mx-2 btn btn-danger"
+                wire:click="deleteLearningDemonstration"
+                wire:confirm="{{ __('learning.demonstrations.post.delete.confirm') }}"
+        >{{ __('learning.demonstrations.post.delete') }}</button>
+        @endif
     </div>
 </div>

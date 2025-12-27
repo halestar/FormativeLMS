@@ -26,8 +26,8 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 		//generate a md5 name for the file.
 		$fpath = $fileable->getWorkStorageKey()->value . "/" . uniqid() . '.' . $exportFile->extension;
 		//persist the file.
-		$path = Storage::disk($this->service->data->work_disk)
-		               ->put($fpath, $exportFile->contents);
+		Storage::disk($this->service->data->work_disk)
+	               ->put($fpath, $exportFile->contents);
 		//create the WorkFile
 		$workFile = new WorkFile();
 		$workFile->name = $exportFile->name;
@@ -46,6 +46,10 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 	
 	public function deleteFile(WorkFile $file): void
 	{
+		//check if we have a thumbnail. Delete that first.
+		if($file->hasThumbnail())
+			Storage::disk($this->service->data->work_disk)->delete($file->thumb_path);
+		//then delete the file itself.
 		Storage::disk($this->service->data->work_disk)
 		       ->delete($file->path);
 	}
@@ -98,5 +102,37 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 	public function cleanup(): void
 	{
 		// TODO: Implement cleanup() method.
+	}
+
+	public function storeThumbnail(WorkFile $workFile, string $contents): string
+	{
+		$pathParts = pathinfo($workFile->path);
+		$fpath = $pathParts['dirname'] . "/" . $pathParts['filename'] . ".thmb.jpg";
+		//persist the file.
+		Storage::disk($this->service->data->work_disk)
+			->put($fpath, $contents);
+		return $fpath;
+	}
+
+	public function downloadThumb(WorkFile $file): StreamedResponse
+	{
+		$headers =
+			[
+				'Content-Type: image/jpeg',
+				'Content-Disposition: inline',
+			];
+		return Storage::disk($this->service->data->work_disk)
+			->download
+			(
+				$file->thumb_path,
+				$file->name . ".jpg",
+				$headers
+			);
+	}
+
+	public function thumbContents(WorkFile $file): ?string
+	{
+		return Storage::disk($this->service->data->work_disk)
+			->get($file->thumb_path);
 	}
 }

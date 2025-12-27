@@ -15,7 +15,7 @@
                             <div class="d-flex justify-content-start align-items-start">
                                 <img
                                         class="img-fluid img-thumbnail img-icon-normal"
-                                        src='{!! $person->thumbnail_url !!}'
+                                        src='{!! $person->portrait_url->thumbUrl() !!}'
                                         alt="{{ __('people.profile.thumb') }}"
                                 />
                                 <h3 class="ms-3 p-0 align-self-center">{{ $person->name }}</h3>

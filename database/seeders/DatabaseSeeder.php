@@ -48,6 +48,8 @@ class DatabaseSeeder extends Seeder
 				RubricRestoreSeeder::class,
 				MimeSeeder::class,
                 NotificationsSeeder::class,
+				ClassCriteriaSeeder::class,
+				DemonstrationSeeder::class,
 			]);
 	}
 }
