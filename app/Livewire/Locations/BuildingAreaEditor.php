@@ -44,6 +44,10 @@ class BuildingAreaEditor extends Component
 		$this->building = $this->buildingArea->building;
 		$this->rooms = $this->buildingArea->rooms;
 		$this->areas = $this->building->buildingAreas;
+		$this->viewing = null;
+		$this->name = null;
+		$this->capacity = null;
+		$this->definingBounds = false;
 		$this->js("window.mapDrawings.loadBuildingArea(" . $this->buildAreaId . ")");
 	}
 	
@@ -70,6 +74,7 @@ class BuildingAreaEditor extends Component
 			$room->delete();
 		$this->removeViewing();
 		$this->rooms = $this->buildingArea->rooms;
+		$this->js('window.mapDrawings.reload()');
 	}
 
 	public function addRoom(): void
@@ -103,7 +108,7 @@ class BuildingAreaEditor extends Component
 		$this->name = null;
 		$this->capacity = null;
 		$this->definingBounds = false;
-		$this->js('window.mapDrawings.reload()');
+		$this->js('window.mapDrawings.removeHighlight()');
 	}
 	
 	public function updateRoom()
@@ -118,6 +123,7 @@ class BuildingAreaEditor extends Component
 			$this->viewing->fill($data);
 			$this->viewing->save();
 			$this->rooms = $this->buildingArea->rooms;
+			$this->js('window.mapDrawings.reload()');
 		}
 	}
 	
@@ -128,6 +134,7 @@ class BuildingAreaEditor extends Component
 			$this->viewing->img_data = $data;
 			$this->viewing->save();
 			$this->definingBounds = false;
+			$this->rooms = $this->buildingArea->rooms;
 			$this->js('window.mapDrawings.reload()');
 		}
 	}

@@ -132,7 +132,7 @@
                     <button
                             type="button"
                             class="mt-3 btn btn-success w-100"
-                            wire:click="saveBounds(window.mapDrawings.drawingBounds())"
+                            wire:click="saveBounds(window.mapDrawings.getDrawingBounds())"
                             x-cloak
                             x-show="definingBounds"
                     >{{ __('locations.areas.bounds.save') }}</button>

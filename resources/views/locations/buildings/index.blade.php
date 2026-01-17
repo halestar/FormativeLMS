@@ -5,7 +5,7 @@
         <div class="border-bottom d-flex justify-content-between align-items-baseline mb-3 @if(count($errors)) d-none @endif"
              id="add-header">
             <h2>{{ __('system.menu.rooms') }}</h2>
-
+            @can('locations.buildings')
             <div>
                 <button
                         class="btn btn-primary"
@@ -13,8 +13,10 @@
                         onclick="$('#add-container,#add-header').toggleClass('d-none')"
                 ><i class="fa-solid fa-plus border-end pe-2 me-2"></i>{{ __('locations.buildings.add') }}</button>
             </div>
+            @endcan
         </div>
 
+        @can('locations.buildings')
         <div class="card mb-2 text-bg-light @if(!count($errors)) d-none @endif" id="add-container">
             <form action="{{ route('locations.buildings.store') }}" method="POST">
                 @csrf
@@ -42,6 +44,7 @@
                 </div>
             </form>
         </div>
+        @endcan
 
         <div class="accordion mt-2" id="building-container">
             <div
@@ -56,6 +59,7 @@
                         <span class="badge text-bg-primary">
                             {{ \App\Models\Locations\Room::freeFloating()->count() }} {{ trans_choice('locations.rooms', \App\Models\Locations\Room::freeFloating()->count()) }}
                         </span>
+                        @can('locations.buildings')
                         <span class="ms-auto me-5">
                             <a
                                     href="{{ route('locations.rooms.create') }}"
@@ -63,6 +67,7 @@
                                     role="button"
                             ><i class="fa-solid fa-plus border-end pe-2 me-2"></i>{{ __('locations.rooms.add') }}</a>
                         </span>
+                        @endcan
                     </div>
                     <button
                             class="accordion-button collapsed ms-auto w-auto opacity-50"
@@ -87,12 +92,15 @@
                                                         href="{{ route('locations.rooms.show', $room) }}"
                                                         class="btn btn-primary btn-sm"
                                                 ><i class="fa-solid fa-eye"></i></a>
+
+                                                @can('locations.buildings')
                                                 @if($room->canDelete())
                                                 <a
                                                         href="#"
                                                         class="btn btn-danger btn-sm"
                                                 ><i class="fa-solid fa-times"></i></a>
-                                            @endif
+                                               @endif
+                                                @endcan
                                             </span>
                                     </div>
                                 </li>
@@ -117,6 +125,7 @@
                                         href="{{ route('locations.buildings.show', ['building' => $building->id]) }}"
                                         class="btn btn-primary btn-sm"
                                 ><i class="fa fa-eye"></i></a>
+                                @can('locations.buildings')
                                 @if($building->canDelete())
                                     <button
                                             onclick="confirmDelete('{{ __('locations.buildings.delete.confirm') }}', '{{ route('locations.buildings.destroy', $building) }}')"
@@ -128,6 +137,7 @@
                                         class="btn btn-info btn-sm"
                                         role="button"
                                 ><i class="fa-solid fa-plus border-end pe-2 me-2"></i>{{ __('locations.rooms.add') }}</a>
+                                @endcan
                             </span>
                         </div>
                         <button
@@ -162,12 +172,14 @@
                                                         href="{{ route('locations.rooms.show', $room) }}"
                                                         class="btn btn-primary btn-sm"
                                                 ><i class="fa-solid fa-eye"></i></a>
+                                                @can('locations.buildings')
                                                 @if($room->canDelete())
                                                     <a
                                                             href="#"
                                                             class="btn btn-danger btn-sm"
                                                     ><i class="fa-solid fa-times"></i></a>
                                                 @endif
+                                                @endcan
                                             </div>
                                         </div>
                                     </li>

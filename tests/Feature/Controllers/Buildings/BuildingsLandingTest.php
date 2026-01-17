@@ -47,7 +47,7 @@ class BuildingsLandingTest extends TestCase
 		$faculty = Person::where('email', 'faculty@kalinec.net')->first();
 		$response = $this->actingAs($faculty)
 			->get($this->index());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_landing_student(): void
@@ -55,7 +55,7 @@ class BuildingsLandingTest extends TestCase
 		$student = Person::where('email', 'student@kalinec.net')->first();
 		$response = $this->actingAs($student)
 			->get($this->index());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_landing_parent(): void
@@ -63,7 +63,7 @@ class BuildingsLandingTest extends TestCase
 		$parent = Person::where('email', 'parent@kalinec.net')->first();
 		$response = $this->actingAs($parent)
 			->get($this->index());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_landing_guest(): void
@@ -97,7 +97,7 @@ class BuildingsLandingTest extends TestCase
 		$faculty = Person::where('email', 'faculty@kalinec.net')->first();
 		$response = $this->actingAs($faculty)
 			->get($this->show());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_show_student(): void
@@ -105,7 +105,7 @@ class BuildingsLandingTest extends TestCase
 		$student = Person::where('email', 'student@kalinec.net')->first();
 		$response = $this->actingAs($student)
 			->get($this->show());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_show_parent(): void
@@ -113,7 +113,7 @@ class BuildingsLandingTest extends TestCase
 		$parent = Person::where('email', 'parent@kalinec.net')->first();
 		$response = $this->actingAs($parent)
 			->get($this->show());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_show_guest(): void

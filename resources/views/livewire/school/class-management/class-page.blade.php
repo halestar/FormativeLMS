@@ -61,11 +61,27 @@
                             </li>
                         @endforeach
                     </ul>
-                    <div class="d-grid gap-2">
-                        <a class="btn btn-primary" role="button" href="{{ route('learning.criteria', ['classSession' => $classSession->id] ) }}">
-                            {{ __('learning.criteria') }}
-                        </a>
-                    </div>
+                    <p>
+                        {{ __('learning.criteria') }}
+                        <a href="{{ route('learning.classes.criteria', $classSession->schoolClass) }}" class="ms-3 link-primary"><i class="fa-solid fa-edit"></i></a>
+                    </p>
+                    @else
+                    <p>{{ __('learning.criteria') }}</p>
+                    @endif
+                    <table class="table table-sm table-borderless mb-3">
+                        @php
+                            $criteriaTotal = $classSession->classCriteria
+                                ->reduce(fn(?int $carry, \App\Models\SubjectMatter\Learning\ClassCriteria $c) => $carry + $c->sessionCriteria->weight);
+                        @endphp
+                        @foreach($classSession->classCriteria as $criteria)
+                            <tr>
+                                <td>{{ $criteria->name }} ({{ $criteria->abbreviation }})</td>
+                                <td>{{ round(($classSession->getCriteria($criteria)?->sessionCriteria->weight?? 0) / $criteriaTotal * 100, 2) }} %</td>
+                            </tr>
+                        @endforeach
+                    </table>
+                    @if(!$classSession->viewingAs(ClassViewer::FACULTY))
+                        <p>{{ __('learning.demonstrations.assessment.summary') }}</p>
                     @endif
                 </div>
             </div>
@@ -118,6 +134,11 @@
                                         class="btn btn-secondary profile-edit-btn"
                                         wire:click="dispatch('class-page-set-editing', {editing: true})"
                                 >{{ __('subjects.class.edit') }}</button>
+                                <a
+                                        role="button"
+                                        class="btn btn-info profile-edit-btn mt-2"
+                                        href="{{ route('learning.classes.settings', $classSession) }}"
+                                >{{ __('system.menu.classes.settings') }}</a>
                             @endif
                         @endcan
                     </div>

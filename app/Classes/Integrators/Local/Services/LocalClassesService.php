@@ -7,6 +7,8 @@ use App\Enums\IntegratorServiceTypes;
 use App\Livewire\School\ClassManagement\ClassAnnouncements;
 use App\Livewire\School\ClassManagement\ClassLinks;
 use App\Livewire\School\ClassManagement\ClassPageChat;
+use App\Livewire\School\ClassManagement\ClassRoster;
+use App\Livewire\School\ClassManagement\ClassSchedule;
 use App\Livewire\School\ClassManagement\LearningDemonstrations;
 use App\Livewire\School\ClassManagement\TopAnnouncement;
 use App\Models\Integrations\Integrator;
@@ -53,6 +55,8 @@ class LocalClassesService extends LmsIntegrationService
                 ClassLinks::class => __('subjects.school.widgets.class-links'),
 	            ClassPageChat::class => __('school.messages'),
 	            LearningDemonstrations::class => __('learning.demonstrations.viewer'),
+	            ClassSchedule::class => __('subjects.class.schedule'),
+	            ClassRoster::class => __('school.classes.roster'),
             ],
             'required' =>
             [

@@ -47,7 +47,6 @@ Route::prefix('learning-demonstrations')
 	 });
 
 
-Route::get('/class-criteria/{classSession?}', ClassCriteriaManager::class)->name('criteria');
 
 
 

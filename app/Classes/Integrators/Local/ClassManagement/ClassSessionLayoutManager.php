@@ -57,7 +57,7 @@ class ClassSessionLayoutManager implements Synthesizable
 		foreach($classesService->data->required as $widget)
 		{
 			$tab = new ClassTab($classesService->data->available->$widget);
-			$tab->addWidget($widget);
+			$tab->setWidget($widget);
 			$tabs[] = $tab->toArray();
 		}
 		$this->layout['tabs'] = $tabs;
@@ -68,11 +68,46 @@ class ClassSessionLayoutManager implements Synthesizable
 		//there is no layout set, so we build the default.
 		$this->layout = [];
 		// the class image is the campus image
-		$this->layout['class_img'] = $this->owner->course->campus->img;
+		$this->layout['class_img'] = $this->owner->course->campus->img->url;
 		//generate the top announcement
 		$this->buildTopAnnouncement();
 		//next, we need to generate the tabs
 		$this->buildTabs();
+		$this->saveLayout();
+	}
+
+	public function verifyLayout(): void
+	{
+		//check if the top announcement is set.
+		if(!$this->layout['top_announcement_id'])
+			$this->buildTopAnnouncement();
+		//check if the class image is set.
+		if(!$this->layout['class_img'])
+			$this->layout['class_img'] = $this->owner->course->campus->img->url;
+		//verify the tabs
+		$classesService = LocalIntegrator::getService(IntegratorServiceTypes::CLASSES);
+		$existingTabs = $this->getTabs();
+		foreach($classesService->data->required as $widget)
+		{
+			// is there a tab for this widget?
+			$found = false;
+			foreach($existingTabs as $tab)
+			{
+				if($tab->widget == $widget)
+				{
+					$found = true;
+					break;
+				}
+			}
+			if(!$found)
+			{
+				//add the tab.
+				$tab = new ClassTab($classesService->data->available->$widget);
+				$tab->setWidget($widget);
+				$this->layout['tabs'][] = $tab->toArray();
+			}
+		}
+		//save the layout.
 		$this->saveLayout();
 	}
 	

@@ -106,6 +106,14 @@ class LocalIntegrator extends LmsIntegrator
 		     ->name('classes.index');
         Route::patch('/classes', [LocalIntegratorController::class, 'classes_update'])
             ->name('classes.update');
+
+		//classes preferences
+		Route::get('/services/classes/preferences/{schoolClass}', [LocalIntegratorController::class, 'classPreferences'])
+			->name('services.classes.preferences')
+			->withoutMiddleware(['can:settings.integrators']);
+		Route::post('/services/classes/preferences/{schoolClass}', [LocalIntegratorController::class, 'classPreferences_update'])
+			->name('services.classes.preferences.update')
+			->withoutMiddleware(['can:settings.integrators']);
 	}
 	
 	public function configurationUrl(): string

@@ -21,7 +21,7 @@ class AreaLandingTest extends TestCase
 	protected function maps(): string
 	{
 		$area = BuildingArea::inRandomOrder()->first();
-		return route('locations.maps.area', $area);
+		return route('locations.areas.map', $area);
 	}
 
 	/**
@@ -98,7 +98,7 @@ class AreaLandingTest extends TestCase
 		$faculty = Person::where('email', 'faculty@kalinec.net')->first();
 		$response = $this->actingAs($faculty)
 			->get($this->maps());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_maps_student(): void
@@ -106,7 +106,7 @@ class AreaLandingTest extends TestCase
 		$student = Person::where('email', 'student@kalinec.net')->first();
 		$response = $this->actingAs($student)
 			->get($this->maps());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_maps_parent(): void
@@ -114,7 +114,7 @@ class AreaLandingTest extends TestCase
 		$parent = Person::where('email', 'parent@kalinec.net')->first();
 		$response = $this->actingAs($parent)
 			->get($this->maps());
-		$response->assertStatus(Response::HTTP_FORBIDDEN);
+		$response->assertStatus(Response::HTTP_OK);
 	}
 
 	public function test_maps_guest(): void

@@ -33,76 +33,21 @@ class ClassTabs extends Component
 		$this->self = auth()->user();
 		$this->layout = $session->classManager->getClassLayoutManager($session);
 		$this->tabs = $this->layout->getTabs();
-		if(count($this->tabs) < 2)
-			$this->syncTabs();
 		$tabId = $sessionSettings->get($session->id . '-selected-tab');
 		if($tabId && isset($this->tabs[$tabId]))
 			$this->selectTab($tabId);
 		elseif(count($this->tabs) > 0)
 			$this->selectTab(array_key_first($this->tabs));
 
-		$this->availableWidgets =$this->getWidgets();
+		$this->availableWidgets = $this->getWidgets();
 	}
 
 	public function getWidgets()
 	{
-		$widgets = [];
-		foreach($this->tabs as $tab)
-			$widgets = array_merge($widgets, $tab->widgets);
 		$availableWidgets = [];
-		foreach((array)$this->classSession->classManager->service->data->optional as $className => $widget)
-		{
-			$found = false;
-			foreach($widgets as $w)
-			{
-				if($className == $w)
-				{
-					$found = true;
-					break;
-				}
-			}
-			if(!$found)
-				$availableWidgets[$className] = $widget;
-		}
+		foreach((array)$this->classSession->classManager->service->data->optional as $widget)
+			$availableWidgets[$widget] = $this->classSession->classManager->service->data->available->$widget;
 		return $availableWidgets;
-	}
-
-	private function syncTabs(): void
-	{
-		$has_assignments = false;
-		$has_messages = false;
-		foreach($this->tabs as $tab)
-		{
-			if($tab->name == trans_choice('subjects.school.assignment', 2))
-				$has_assignments = true;
-			if($tab->name == trans_choice('subjects.school.message', 2))
-				$has_messages = true;
-		}
-		if(!$has_assignments)
-			$this->addAssignmentsTab();
-		if(!$has_messages)
-			$this->addMessagesTab();
-	}
-
-	private function addAssignmentsTab(): void
-	{
-		$assignmentTab = new ClassTab(trans_choice('subjects.school.assignment', 2));
-		$assignmentTab->lock();
-		$assignmentTab->containsClassLd = true;
-		// add the assignments widget here
-		$assignmentTab->addWidget(LearningDemonstrations::class);
-		//add the tab to the list
-		$this->tabs[$assignmentTab->getId()] = $assignmentTab;
-	}
-
-	private function addMessagesTab(): void
-	{
-		$messagesTab = new ClassTab(trans_choice('subjects.school.message', 2));
-		$messagesTab->lock();
-		$messagesTab->containsClassChat = true;
-		$messagesTab->addWidget(ClassPageChat::class);
-		//add the tab to the list
-		$this->tabs[$messagesTab->getId()] = $messagesTab;
 	}
 
 	public function getListeners()
@@ -171,12 +116,12 @@ class ClassTabs extends Component
 		$this->saveTabs();
 	}
 
-	public function addWidget(string $widgetClass)
+	public function setWidget(string $widget)
 	{
-		$this->selectedTab->addWidget($widgetClass);
+		$this->selectedTab->setWidget($widget);
 		$this->tabs[$this->selectedTab->getId()] = $this->selectedTab;
 		$this->saveTabs();
-		$this->availableWidgets =$this->getWidgets();
+		$this->availableWidgets = $this->getWidgets();
 	}
 
     public function render()

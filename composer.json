@@ -28,6 +28,7 @@
         "fakerphp/faker": "^1.23",
         "google/apiclient": "^2.18",
         "halestar/fablms-google-integrator": "@dev",
+        "laravel/boost": "^1.8",
         "laravel/pail": "^1.2",
         "laravel/pint": "^1.13",
         "mockery/mockery": "^1.6",

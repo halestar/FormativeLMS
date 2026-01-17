@@ -120,7 +120,7 @@ let MapDrawings = (function()
         if(this.newDrawing !== null)
         {
             this.isDrawing = false;
-            this.newDrawing.clear();
+            this.newDrawing.clearDrawing();
             this.newDrawing = null;
         }
         this.canvas.style.cursor = 'default';
@@ -171,7 +171,7 @@ let MapDrawings = (function()
     MapDrawings.prototype.highlightRoom = function(roomId = null)
     {
         for(let i = 0; i < this.drawings.length; i++)
-            this.drawings[i].setHighlight((roomId !== null) && (this.drawings[i].getRoomId() === roomId));
+            this.drawings[i].setSpecial((roomId !== null) && (this.drawings[i].getRoomId() === roomId));
         this.render();
     };
 
@@ -182,7 +182,7 @@ let MapDrawings = (function()
     MapDrawings.prototype.highlightRooms = function(rooms = [])
     {
         for(let i = 0; i < this.drawings.length; i++)
-            this.drawings[i].setHighlight(rooms.includes( this.drawings[i].getRoomId()));
+            this.drawings[i].setSpecial(rooms.includes( this.drawings[i].getRoomId()));
         this.render();
     };
 
@@ -192,7 +192,7 @@ let MapDrawings = (function()
     MapDrawings.prototype.removeHighlight = function()
     {
         for(let i = 0; i < this.drawings.length; i++)
-            this.drawings[i].setHighlight(false);
+            this.drawings[i].setSpecial(false);
         this.render();
     };
 

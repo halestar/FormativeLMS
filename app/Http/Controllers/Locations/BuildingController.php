@@ -22,7 +22,6 @@ class BuildingController extends Controller implements HasMiddleware
 	
 	public function index()
 	{
-		Gate::authorize('has-permission', 'locations.buildings');
 		$breadcrumb = [__('system.menu.rooms') => "#"];
 		return view('locations.buildings.index', compact('breadcrumb'));
 	}
@@ -51,7 +50,6 @@ class BuildingController extends Controller implements HasMiddleware
 	
 	public function show(Building $building)
 	{
-		Gate::authorize('has-permission', 'locations.buildings');
 		$breadcrumb =
 			[
 				__('system.menu.rooms') => route('locations.buildings.index'),

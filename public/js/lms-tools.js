@@ -399,6 +399,16 @@ let AreaDrawing = (function()
     }
 
     /**
+     * This function toggles whether this area drawing should be highlighted using the highlight
+     * property
+     * @param highlight True if the area drawing should be highlighted, false otherwise.
+     */
+    AreaDrawing.prototype.setSpecial = function(special)
+    {
+        this.special = special;
+    }
+
+    /**
      * Gets the room id assigned to this area drawing.
      * @returns {null|*} The room id assigned to this area drawing, or null if no room id is assigned.
      */
@@ -602,7 +612,7 @@ let MapDrawings = (function()
         if(this.newDrawing !== null)
         {
             this.isDrawing = false;
-            this.newDrawing.clear();
+            this.newDrawing.clearDrawing();
             this.newDrawing = null;
         }
         this.canvas.style.cursor = 'default';
@@ -653,7 +663,7 @@ let MapDrawings = (function()
     MapDrawings.prototype.highlightRoom = function(roomId = null)
     {
         for(let i = 0; i < this.drawings.length; i++)
-            this.drawings[i].setHighlight((roomId !== null) && (this.drawings[i].getRoomId() === roomId));
+            this.drawings[i].setSpecial((roomId !== null) && (this.drawings[i].getRoomId() === roomId));
         this.render();
     };
 
@@ -664,7 +674,7 @@ let MapDrawings = (function()
     MapDrawings.prototype.highlightRooms = function(rooms = [])
     {
         for(let i = 0; i < this.drawings.length; i++)
-            this.drawings[i].setHighlight(rooms.includes( this.drawings[i].getRoomId()));
+            this.drawings[i].setSpecial(rooms.includes( this.drawings[i].getRoomId()));
         this.render();
     };
 
@@ -674,7 +684,7 @@ let MapDrawings = (function()
     MapDrawings.prototype.removeHighlight = function()
     {
         for(let i = 0; i < this.drawings.length; i++)
-            this.drawings[i].setHighlight(false);
+            this.drawings[i].setSpecial(false);
         this.render();
     };
 

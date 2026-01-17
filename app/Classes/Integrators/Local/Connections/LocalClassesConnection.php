@@ -2,6 +2,7 @@
 
 namespace App\Classes\Integrators\Local\Connections;
 
+use App\Casts\Utilities\AsJsonData;
 use App\Classes\Integrators\Local\ClassManagement\ClassSessionLayoutManager;
 use App\Models\Integrations\Connections\ClassesConnection;
 use App\Models\SubjectMatter\ClassSession;
@@ -33,16 +34,29 @@ class LocalClassesConnection extends ClassesConnection
 
 	public static function getInstanceDefault(): array
 	{
-		return [];
+		return
+			[
+				'enabled' => false,
+				'widgets' => [],
+			];
 	}
 
 	public function hasPreferences(): bool
 	{
-		return false;
+		return true;
 	}
 
 	public function preferencesRoute(SchoolClass $schoolClass): string
 	{
-		return '';
+		return route('integrators.local.services.classes.preferences', ['schoolClass' => $schoolClass->id]);
+	}
+
+	public function setupClass(ClassSession $classSession): mixed
+	{
+		$classLayout = $this->getClassLayoutManager($classSession);
+		$classLayout->verifyLayout();
+		$classSession->setup_completed = true;
+		$classSession->save();
+		return redirect(route('subjects.school.classes.show', $classSession));
 	}
 }

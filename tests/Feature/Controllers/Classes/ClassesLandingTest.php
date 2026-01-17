@@ -99,7 +99,7 @@ class ClassesLandingTest extends TestCase
 		$class = $faculty->currentClassSessions()->inRandomOrder()->first();
 		$response = $this->actingAs($faculty)
 			->get($this->show($class));
-		$response->assertStatus(Response::HTTP_OK);
+		$response->assertStatus(Response::HTTP_FOUND);
 	}
 
 	public function test_show_student(): void

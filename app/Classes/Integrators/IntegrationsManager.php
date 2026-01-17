@@ -97,9 +97,7 @@ class IntegrationsManager
 	{
 		/** @var IntegrationService $serviceClass */
 		//next, we check if we already have a service defined for this type
-		$service = $integrator->services()
-		                      ->ofType(($serviceClass)::getServiceType())
-		                      ->first();
+		$service = $integrator->getService(($serviceClass)::getServiceType());
 		if(!$service)
 		{
 			//in this case, we need to build the model.
@@ -128,6 +126,12 @@ class IntegrationsManager
 		//is this a system service, should we autoconnect?
 		if($service::canConnectToSystem() && $service->systemAutoconnect())
 			$service->connectToSystem();
+		//If this is a classes service, we also need to invalidate all the classes that are managed by this service.
+		if($service::getServiceType() == IntegratorServiceTypes::CLASSES)
+		{
+			foreach($service->connections as $connection)
+				$connection->invalidateClasses();
+		}
 		return $service;
 	}
 

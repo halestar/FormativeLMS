@@ -15,7 +15,7 @@
                         <i class="fa-solid fa-grip-lines-vertical"></i>
                     </span>
                 @endif
-                <a
+                <button
                         class="nav-link @if(($selectedTab && $selectedTab->getId() == $tab->getId()) || (!$selectedTab && $loop->first)) active @endif"
                         id="tab-{{ $tab->getId() }}"
                         href="#"
@@ -26,7 +26,7 @@
                             aria-selected="false"
                         @endif
                         wire:click="selectTab('{{ $tab->getId() }}')"
-                >{{ $tab->name }}</a>
+                >{{ $tab->name }}</button>
             </li>
         @endforeach
         @if($editing)
@@ -49,7 +49,7 @@
                     class="btn btn-success"
                     wire:click="updateTab()"
             >{{ __('subjects.school.tabs.name.update') }}</button>
-            @if(!$selectedTab->canDelete())
+            @if($selectedTab->canDelete())
                 <button
                         type="button"
                         class="btn btn-danger"
@@ -58,17 +58,18 @@
                 >{{ __('subjects.school.tabs.delete') }}</button>
             @endif
         </div>
-        <div class="input-group mt-2">
-            <label for="add-widget"
-                   class="input-group-text">{{ __('subjects.school.widgets.add') }}</label>
-            <select id="add-widget" class="form-select">
-                @foreach($availableWidgets as $widgetClass => $widgetName)
-                    <option value="{{ $widgetClass }}">{{ $widgetName }}</option>
-                @endforeach
-            </select>
-            <button class="btn btn-success"
-                    wire:click="addWidget($('#add-widget').val())">{{ __('common.add') }}</button>
-        </div>
+        @if($selectedTab->canRemoveWidget())
+            <div class="input-group mt-2">
+                <label for="add-widget"
+                       class="input-group-text">{{ __('subjects.school.widgets.set') }}</label>
+                <select id="add-widget" class="form-select" wire:change="setWidget($event.target.value)">
+                    <option value="">{{ __('subjects.school.widgets.select') }}</option>
+                    @foreach($availableWidgets as $widgetClass => $widgetName)
+                        <option value="{{ $widgetClass }}" @selected($widgetClass == $selectedTab->widget)>{{ $widgetName }}</option>
+                    @endforeach
+                </select>
+            </div>
+        @endif
     </div>
     @endif
     <div class="tab-content mt-3">
@@ -79,11 +80,11 @@
                 tabindex="{{ $loop->index }}"
                 wire:key="{{ $tab->getId() }}"
             >
-                @foreach($tab->widgets as $widget)
-                    <div class="widget-container">
-                        <livewire:dynamic-component :is="$componentRegistry->getName($widget)" :key="$widget" :session="$classSession" />
-                    </div>
-                @endforeach
+                <div class="widget-container">
+                    @if($tab->widget)
+                    <livewire:dynamic-component :is="$componentRegistry->getName($tab->widget)" :key="$tab->widget" :session="$classSession" />
+                    @endif
+                </div>
             </div>
         @endforeach
     </div>

@@ -283,7 +283,7 @@ class ClassSession extends Model implements HasSchedule, Fileable
             //There isn't a classroom management set, so we put in the default one.
             $settings = app(SchoolSettings::class);
 			$defaultService = $settings->classManagementService;
-			//first, is tehre a system connection?
+			//first, is there a system connection?
 	        if($defaultService)
 	        {
 				//check if there is a system connection for this service

@@ -10,10 +10,22 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 abstract class ClassesConnection extends IntegrationConnection implements IntegrationConnectionInterface
 {
-    public function classSessions(): HasMany
+	/**
+	 * This function establishes the relationship between the class session and the integration connection.
+	 * Essentially, this returns all the classes that are managed by this integration connection.
+	 */
+    final public function classSessions(): HasMany
     {
         return $this->hasMany(ClassSession::class, 'class_management_id');
     }
+
+	/**
+	 *  This function invalidates the setup_complete property in all the class sessions managed by this integration connection.
+	 */
+	final public function invalidateClasses()
+	{
+		$this->classSessions()->update(['setup_completed' => false]);
+	}
 
     /**
      * This will either display or redirect the user (Auth()->user()) to the class management page for the given class ($classSession)
@@ -38,4 +50,13 @@ abstract class ClassesConnection extends IntegrationConnection implements Integr
 	 * @return string
 	 */
 	abstract public function preferencesRoute(SchoolClass $schoolClass): string;
+
+	/**
+	 * This function is called when the class is being managed, but the boolean setup_completed is false.
+	 * The class is then assumed to still need to be setup. This function should either do any setup that is needed,
+	 * or redirect the user to the setup page.
+	 * @param ClassSession $classSession The class session that is being setup.
+	 * @return mixed Ths should return a view or a redirect.
+	 */
+	abstract public function setupClass(ClassSession $classSession): mixed;
 }

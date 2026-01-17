@@ -23,12 +23,16 @@
                             x-data="
                             {
                                 area_id: {{ $building->buildingAreas->first()->id }},
+                                gotoRoom(room_id)
+                                {
+                                    window.location.href = '/locations/rooms/' + room_id;
+                                },
                                 openArea()
                                 {
                                     $('.room-display[area-id]').addClass('d-none');
                                     $('#blueprint-container').empty();
                                     $('.room-display[area-id=' + this.area_id + ']').removeClass('d-none');
-                                    new MapDrawings('blueprint-container', this.area_id);
+                                    new MapDrawings('blueprint-container', this.area_id, { action: this.gotoRoom });
                                 }
                             }"
                             x-init="openArea()"
@@ -60,6 +64,7 @@
                     </div>
                     {{-- User Control --}}
                     <div class="col-md-4">
+                        @can('locations.buildings')
                         <div class="d-flex flex-column align-items-center">
                             <a
                                     type="button"
@@ -67,6 +72,7 @@
                                     href="{{ route('locations.buildings.edit', ['building' => $building->id]) }}"
                             >{{ __('locations.buildings.edit') }}</a>
                         </div>
+                        @endcan
                     </div>
                 </div>
                 {{-- Profile Tabs --}}
@@ -158,7 +164,7 @@
                                         <label>
                                             {{ $room->buildingArea->schoolArea->name }}
                                         </label>
-                                        <span>{{ $room->name }}</span>
+                                        <a href="{{ route('locations.rooms.show', $room->id) }}" class="link-primary">{{ $room->name }}</a>
                                     </div>
                                 </li>
                             @endforeach

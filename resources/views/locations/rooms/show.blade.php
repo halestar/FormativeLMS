@@ -55,8 +55,12 @@
                                 @if($room->isFreeFloating())
                                     <p class="lead mb-2">{{ trans_choice('locations.rooms.free', 1) }}</p>
                                 @else
-                                    <p class="lead mb-2">{{ $room->buildingArea->schoolArea->name }}</p>
-                                    <p class="lead mb-2">{{ $room->building->name }}</p>
+                                    <p class="lead mb-2">
+                                        <a href="{{ route('locations.buildings.show', $room->building) }}">
+                                            {{ $room->building->name }}
+                                            ({{ $room->buildingArea->schoolArea->name }})
+                                        </a>
+                                    </p>
                                 @endif
                                 <div class="d-flex justify-content-start align-items-center">
                                     @foreach($room->campuses as $campus)

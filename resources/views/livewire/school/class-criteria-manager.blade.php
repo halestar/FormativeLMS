@@ -85,6 +85,11 @@
         </div>
     @endif
     @foreach($sessions as $session)
+        @php
+            $criteriaTotal = $session
+                ->classCriteria
+                ->reduce(fn(?int $carry, \App\Models\SubjectMatter\Learning\ClassCriteria $c) => $carry + $c->sessionCriteria->weight);
+        @endphp
         <div class="card mb-3">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h4 class="card-title">{{ $session->term->label }} {{ trans_choice('locations.terms', 1) }}</h4>
@@ -93,11 +98,12 @@
             <div class="card-body table-responsive">
                 <table class="table">
                     <thead>
-                    <th></th>
-                    <th>{{ __('learning.criteria.name') }}</th>
-                    <th>{{ __('learning.criteria.abbr') }}</th>
-                    <th>{{ __('learning.criteria.weight') }}</th>
-                    <th></th>
+                        <th></th>
+                        <th>{{ __('learning.criteria.name') }}</th>
+                        <th>{{ __('learning.criteria.abbr') }}</th>
+                        <th>{{ __('learning.criteria.weight') }}</th>
+                        <th>{{ __('learning.criteria.weight.percent') }}</th>
+                        <th></th>
                     </thead>
                     <tbody>
                     @foreach($classCriteria as $criteria)
@@ -139,19 +145,22 @@
                             <td>
                                 <div class="input-group">
                                     <input
-                                            type="number"
-                                            wire:change="updateCriteriaWeight({{ $session->id }}, {{ $criteria->id }}, $event.target.value)"
-                                            class="form-control"
-                                            id="weight_{{ $criteria->id }}"
-                                            value="{{ $session->getCriteria($criteria)?->sessionCriteria->weight ?? '' }}"
-                                            name="weight"
-                                            @disabled(!$session->hasCriteria($criteria))
-                                            wire:key="{{ $session->getCriteria($criteria)?->sessionCriteria->weight ?? '' }}"
+                                        type="number"
+                                        wire:change="updateCriteriaWeight({{ $session->id }}, {{ $criteria->id }}, $event.target.value)"
+                                        class="form-control"
+                                        id="weight_{{ $criteria->id }}"
+                                        value="{{ $session->getCriteria($criteria)?->sessionCriteria->weight ?? '' }}"
+                                        name="weight"
+                                        @disabled(!$session->hasCriteria($criteria))
+                                        wire:key="{{ $session->getCriteria($criteria)?->sessionCriteria->weight ?? '' }}"
                                     />
-                                    <span class="input-group-text">%</span>
                                 </div>
                             </td>
+                            <td class="text-center">
+                                {{ round(($session->getCriteria($criteria)?->sessionCriteria->weight?? 0) / $criteriaTotal * 100, 2) }} %
+                            </td>
                             <td>
+                                @if($criteria->canDelete())
                                 <button
                                         type="button"
                                         class="btn btn-danger btn-sm"
@@ -160,6 +169,7 @@
                                 >
                                     <i class="fa-solid fa-times"></i>
                                 </button>
+                                @endif
                             </td>
                         </tr>
                     @endforeach
@@ -167,10 +177,10 @@
                     @if(($session->classCriteria()?->count() ?? 0) > 0)
                         <tfoot class="border-top">
                         <tr>
-                            <td colspan="3"></td>
+                            <td colspan="4"></td>
                             <td class="d-flex justify-content-between align-items-center">
                                 <span class="fs-6 fw-bold">Total:</span>
-                                {{ $session->classCriteria->reduce(fn(?int $carry, \App\Models\SubjectMatter\Learning\ClassCriteria $c) => $carry + $c->sessionCriteria->weight) }}% </td>
+                                100% </td>
                             <td></td>
                         </tr>
                         </tfoot>

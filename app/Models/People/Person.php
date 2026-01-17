@@ -686,7 +686,6 @@ class Person extends Authenticatable implements HasSchoolRoles, Fileable
                 $pointer = &$pointer[$k];
             }
         }
-
         $this->prefs = $data;
     }
 

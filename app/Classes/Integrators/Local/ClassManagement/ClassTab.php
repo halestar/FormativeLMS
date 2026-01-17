@@ -10,51 +10,45 @@ use Livewire\Component;
 class ClassTab implements Synthesizable
 {
 	public string $name;
-	public array $widgets;
+	public ?string $widget;
 	private string $id;
 	
 	public function __construct(string $name)
 	{
 		$this->name = $name;
 		$this->id = uniqid();
-		$this->widgets = [];
+		$this->widget = null;
 	}
 	
 	public static function hydrate(array $data): static
 	{
 		$tab = new ClassTab($data['name']);
 		$tab->id = $data['id'];
-		$tab->widgets = $data['widgets'];
+		$tab->widget = $data['widget']?? null;
 		return $tab;
 	}
 
-	public function addWidget(string $widget): void
+	public function setWidget(string $widget): void
 	{
-		$this->widgets[] = $widget;
+		$this->widget = $widget;
 	}
 	
 	public function removeWidget(string $widget): void
 	{
-		$this->widgets = array_values(array_diff($this->widgets, [$widget]));
+		$this->widget = null;
 	}
 
-	public function hasWidget(string $widget): bool
+	public function canRemoveWidget(): bool
 	{
-		return in_array($widget, $this->widgets);
-	}
-
-	public function canRemoveWidget(string $widget): bool
-	{
+		if(!$this->widget) return true;
 		//we check if the widget is in the required array
 		$classesService = LocalIntegrator::getService(IntegratorServiceTypes::CLASSES);
-		return in_array($widget, $classesService->data->required);
+		return !in_array($this->widget, $classesService->data->required);
 	}
 
 	public function canDelete(): bool
 	{
-		foreach($this->widgets as $widget)
-			if(!$this->canRemoveWidget($widget)) return false;
-		return true;
+		return $this->canRemoveWidget();
 	}
 	
 	public function getId(): string
@@ -68,7 +62,7 @@ class ClassTab implements Synthesizable
 		[
 			'name' => $this->name,
 			'id' => $this->id,
-			'widgets' => $this->widgets
+			'widget' => $this->widget
 		];
 	}
 	

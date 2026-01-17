@@ -67,6 +67,31 @@
     <main class="py-4 position-relative">
         @yield('content')
     </main>
+    <footer class="fixed-bottom bg-primary-subtle rounded text-center text-small">
+        &copy; 2025 German Kalinec
+        &nbsp; &#9679; &nbsp;
+        {{ \App\Models\Locations\Year::currentYear()->label }}
+        @auth
+            @if(\Illuminate\Support\Facades\Auth::user()->isEmployee())
+                @foreach(\Illuminate\Support\Facades\Auth::user()->campuses as $campus)
+                    &nbsp; &#9679; &nbsp;
+                    {{ $campus->abbr }}
+                    {{ \App\Models\Locations\Term::currentTerm($campus)->label }}
+                    {{ trans_choice('locations.terms', 1) }}
+                @endforeach
+            @elseif(\Illuminate\Support\Facades\Auth::user()->isStudent())
+                &nbsp; &#9679; &nbsp;
+                {{ \Illuminate\Support\Facades\Auth::user()->student()->campus->abbr }}
+                {{ \App\Models\Locations\Term::currentTerm(\Illuminate\Support\Facades\Auth::user()->student()->campus)->label }}
+                {{ trans_choice('locations.terms', 1) }}
+            @elseif(\Illuminate\Support\Facades\Auth::user()->isParent() && \Illuminate\Support\Facades\Auth::user()->viewingStudent)
+                &nbsp; &#9679; &nbsp;
+                {{ \Illuminate\Support\Facades\Auth::user()->viewingStudent->campus->abbr }}
+                {{ \App\Models\Locations\Term::currentTerm(\Illuminate\Support\Facades\Auth::user()->viewingStudent->campus)->label }}
+                {{ trans_choice('locations.terms', 1) }}
+            @endif
+        @endauth
+    </footer>
     <div class="toast-container position-fixed bottom-0 end-0 p-3" id="toast-container">
         @session('success-status')
         <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" id="success-toast">

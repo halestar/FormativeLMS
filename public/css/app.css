@@ -2200,7 +2200,7 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?1295669cd4e305c97f2cfc16d
   --bs-tertiary-color-rgb: 73, 80, 87;
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
-  --bs-heading-color: #033c73;
+  --bs-heading-color: inherit;
   --bs-link-color: #2fa4e7;
   --bs-link-color-rgb: 47, 164, 231;
   --bs-link-decoration: underline;
@@ -7947,7 +7947,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 0.9rem;
-  --bs-popover-header-color: #033c73;
+  --bs-popover-header-color: inherit;
   --bs-popover-header-bg: var(--bs-secondary-bg);
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;

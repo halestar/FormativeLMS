@@ -259,6 +259,16 @@ let AreaDrawing = (function()
     }
 
     /**
+     * This function toggles whether this area drawing should be highlighted using the highlight
+     * property
+     * @param highlight True if the area drawing should be highlighted, false otherwise.
+     */
+    AreaDrawing.prototype.setSpecial = function(special)
+    {
+        this.special = special;
+    }
+
+    /**
      * Gets the room id assigned to this area drawing.
      * @returns {null|*} The room id assigned to this area drawing, or null if no room id is assigned.
      */

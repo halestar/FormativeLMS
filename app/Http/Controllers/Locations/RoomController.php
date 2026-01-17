@@ -19,10 +19,13 @@ class RoomController extends Controller implements HasMiddleware
 	public function create(Building $building = null)
 	{
 		Gate::authorize('has-permission', 'locations.rooms');
-		$breadcrumb = [
-			__('system.menu.rooms') => route('locations.buildings.index'),
-			__('locations.rooms.new') => '#',
-		];
+		$breadcrumb = [];
+		$breadcrumb[__('system.menu.rooms')] = route('locations.buildings.index');
+		if(!$building)
+			$breadcrumb[trans_choice('locations.rooms.free', 1)] = '#';
+		else
+			$breadcrumb[$building->name] = route('locations.buildings.show', $building);
+		$breadcrumb[__('locations.rooms.new')] = '#';
 		return view('locations.rooms.create', compact('breadcrumb', 'building'));
 	}
 	
@@ -53,11 +56,13 @@ class RoomController extends Controller implements HasMiddleware
 	
 	public function show(Room $room)
 	{
-		$breadcrumb =
-			[
-				__('system.menu.rooms') => route('locations.buildings.index'),
-				$room->name => '#',
-			];
+		$breadcrumb = [];
+		$breadcrumb[__('system.menu.rooms')] = route('locations.buildings.index');
+		if($room->isFreeFloating())
+			$breadcrumb[trans_choice('locations.rooms.free', 1)] = '#';
+		else
+			$breadcrumb[$room->building->name] = route('locations.buildings.show', $room->building);
+		$breadcrumb[$room->name] = '#';
 		return view('locations.rooms.show', compact('room', 'breadcrumb'));
 	}
 	

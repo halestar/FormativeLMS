@@ -29,7 +29,7 @@ class ClassLinks extends Component
 	public string $classes = '';
 	public string $style = '';
 	
-	public function mount(ClassSession $session, bool $canManage = false)
+	public function mount(ClassSession $session)
 	{
 		$this->classSession = $session;
 		$this->self = auth()->user();

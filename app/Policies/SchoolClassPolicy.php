@@ -24,7 +24,7 @@ class SchoolClassPolicy
 	{
 		return ($person->can('subjects.classes') &&
 			$person->isEmployee() &&
-			$person->employeeCampuses()
+			$person->campuses()
 			       ->where('campus_id', $schoolClass->course->campus->id)
 			       ->exists());
 	}
@@ -36,7 +36,7 @@ class SchoolClassPolicy
 	{
 		return ($person->can('subjects.classes') &&
 			$person->isEmployee() &&
-			$person->employeeCampuses()
+			$person->campuses()
 			       ->where('campus_id', $campus->id)
 			       ->exists());
 	}
@@ -48,7 +48,7 @@ class SchoolClassPolicy
 	{
 		return ($person->can('subjects.classes') &&
 			$person->isEmployee() &&
-			$person->employeeCampuses()
+			$person->campuses()
 			       ->where('campus_id', $schoolClass->course->campus->id)
 			       ->exists());
 	}
@@ -60,7 +60,7 @@ class SchoolClassPolicy
 	{
 		return ($person->can('subjects.courses') &&
 			$person->isEmployee() &&
-			$person->employeeCampuses()
+			$person->campuses()
 			       ->where('campus_id', $schoolClass->course->campus->id)
 			       ->exists() &&
 			$schoolClass->canDelete());

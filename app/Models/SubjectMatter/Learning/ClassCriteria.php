@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
@@ -42,5 +43,23 @@ class ClassCriteria extends Model
 			->withPivot('weight')
 			->as('sessionCriteria')
 			->using(ClassSessionCriteria::class);
+	}
+
+	public function classSessionCriteria(): HasMany
+	{
+		return $this->hasMany(ClassSessionCriteria::class, 'criteria_id');
+	}
+
+	public function learningDemonstrations(): BelongsToMany
+	{
+		return $this->belongsToMany(LearningDemonstration::class, 'learning_demonstration_class_sessions', 'criteria_id', 'demonstration_id')
+			->withPivot(['id', 'session_id', 'criteria_weight', 'posted_on', 'due_on'])
+			->using(LearningDemonstrationClassSession::class)
+			->as('session');
+	}
+
+	public function canDelete(): bool
+	{
+		return ($this->learningDemonstrations()->count() == 0);
 	}
 }

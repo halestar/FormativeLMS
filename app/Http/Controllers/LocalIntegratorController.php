@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use App\Classes\Integrators\Local\LocalIntegrator;
 use App\Enums\IntegratorServiceTypes;
 use App\Models\Integrations\IntegrationService;
+use App\Models\SubjectMatter\ClassSession;
+use App\Models\SubjectMatter\SchoolClass;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
 
@@ -128,12 +131,51 @@ class LocalIntegratorController extends Controller
 		$classesService->data = $settings;
 		$classesService->save();
 		//the last thing we do is invalidate the layout for all the classes using this service
-	    DB::table('class_sessions')
-		    ->join('integration_connections', 'integration_connections.id', '=', 'class_sessions.class_management_id')
-		    ->where('integration_connections.service_id', $classesService->id)
-		    ->update(['class_sessions.layout' => null]);
+	    foreach ($classesService->connections as $connection)
+			$connection->invalidateClasses();
 		return redirect()
 			->back()
 			->with('success-status', __('integrators.local.classes.update.success'));
     }
+
+	public function classPreferences(SchoolClass $schoolClass)
+	{
+		$breadcrumb =
+			[
+				$schoolClass->currentSession()->name_with_schedule =>
+					route('subjects.school.classes.show', $schoolClass->currentSession()),
+				__('school.classes.preferences') => "#",
+			];
+		$service = LocalIntegrator::getService(IntegratorServiceTypes::CLASSES);
+		$prefs = Auth::user()->getPreference('classes.local', ['enabled' => false, 'widgets' => []]);
+		return view('integrators.local.classes.preferences',
+			[
+				'breadcrumb' => $breadcrumb,
+				'classSelected' => $schoolClass,
+				'service' => $service,
+				'prefs' => $prefs,
+			]);
+	}
+
+	public function classPreferences_update(Request $request, SchoolClass $schoolClass)
+	{
+		$enabled = $request->input('enabled', false);
+		$user = Auth::user();
+		$prefs = Auth::user()->getPreference('classes.local', ['enabled' => false, 'widgets' => []]);
+		$prefs['enabled'] = $enabled;
+		if($enabled)
+		{
+			$prefs['widgets'] = [];
+		}
+		else
+		{
+			$prefs['widgets'] = [];
+		}
+		$user->setPreference('classes.local', $prefs);
+		$user->save();
+		return redirect()
+			->back()
+			->with('success-status', __('integrators.local.classes.update.success'));
+	}
+
 }

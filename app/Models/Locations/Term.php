@@ -90,4 +90,9 @@ class Term extends Model
 				'term_end' => 'date: ' . config('lms.date_format'),
 			];
 	}
+
+	public function __toString()
+	{
+		return $this->label;
+	}
 }

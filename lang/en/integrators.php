@@ -71,4 +71,5 @@ return
 		'local.classes.update.success' => 'The class settings have been updated.',
 		'local.classes.image' => 'Class Image',
 		'local.classes.image.update' => 'Update Class Image',
+		'local.classes.preferences.tabs' => 'Auto-Create Tabs for the Following Widgets',
 	];

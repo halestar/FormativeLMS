@@ -7,6 +7,7 @@ use App\Models\People\Person;
 use App\Models\SubjectMatter\ClassSession;
 use App\Models\SubjectMatter\Learning\ClassCriteria;
 use App\Models\SubjectMatter\SchoolClass;
+use App\Models\Utilities\SchoolRoles;
 use Illuminate\Support\Collection;
 use Livewire\Component;
 
@@ -27,7 +28,7 @@ class ClassCriteriaManager extends Component
 	
 	public function mount(SchoolClass $schoolClass = null)
 	{
-
+		$this->authorize('has-role', SchoolRoles::$FACULTY);
 		$this->faculty = auth()->user();
 		$this->sessions = $schoolClass->sessionsTaughtBy($this->faculty)->get();
 		$this->schoolClasses = $this->faculty->currentSchoolClasses();
@@ -86,7 +87,8 @@ class ClassCriteriaManager extends Component
 	
 	public function deleteCriteria(ClassCriteria $criteria)
 	{
-		$criteria->delete();
+		if($criteria->canDelete())
+			$criteria->delete();
 		$this->classCriteria = $criteria->schoolClass->classCriteria;
 	}
 	
