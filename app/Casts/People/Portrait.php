@@ -101,7 +101,7 @@ class Portrait implements CastsAttributes
     public function set(Model $model, string $key, mixed $value, array $attributes): mixed
     {
 		if(!$value instanceof Portrait && !Str::isUrl($value))
-			throw new \InvalidArgumentException("The value is not a portrait object or URL");
+			throw new \InvalidArgumentException("The value '" . $value . "' is not a portrait object or URL");
 		//next, is this a portrait object?
 	    if($value instanceof Portrait)
 			return $value->url;

@@ -40,7 +40,7 @@ class PersonFactory extends Factory
 	{
 		return $this->afterCreating(function(Person $person)
 		{
-			$person->portrait_url = env('APP_URL') . '/storage/idpics/' . $person->id . '.jpg';
+			$person->portrait_url = config('app.url') . '/storage/idpics/' . $person->id . '.jpg';
 			$person->save();
 		});
 	}
