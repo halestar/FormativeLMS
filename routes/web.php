@@ -94,8 +94,10 @@ Route::post('/langsw', function(Request $request)
 	return redirect()->back();
 })->name('language.switch');
 
-
-
+//Livewire update route to allow for othher, catch all routes.
+Livewire::setUpdateRoute(function ($handle) {
+	return Route::post('livewire/update', $handle)->name('livewire.update');
+});
 
 
 
