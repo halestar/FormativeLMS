@@ -82,6 +82,16 @@ Route::get('/ai/prompt/{aiPrompt}', \App\Livewire\Ai\EditModelPrompt::class)
 Route::get('/home', [HomeController::class, 'index'])
      ->name('home');
 
+/********************************************************************
+ * CMS ADMIN ROUTES
+ */
+Route::prefix('cms')
+     ->middleware(['can:cms', 'auth'])
+     ->group(function()
+     {
+	     \halestar\LaravelDropInCms\DiCMS::adminRoutes();
+     });
+
 
 //settings
 Route::post('/settings', [\App\Http\Controllers\Settings\SchoolSettingsController::class, 'setSessionSetting']);
@@ -94,7 +104,9 @@ Route::post('/langsw', function(Request $request)
 	return redirect()->back();
 })->name('language.switch');
 
-
+Livewire::setUpdateRoute(function ($handle) {
+	return Route::post('livewire/update', $handle)->name('livewire.update');
+});
 
 
 
