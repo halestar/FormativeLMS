@@ -4,7 +4,9 @@ use App\Classes\Integrators\IntegrationsManager;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Settings\IntegratorController;
+use App\Http\Controllers\Settings\SchoolSettingsController;
 use App\Http\Controllers\Settings\SystemTablesController;
+use App\Livewire\Ai\EditModelPrompt;
 use App\Models\Integrations\Integrator;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
@@ -14,19 +16,24 @@ use Illuminate\Support\Facades\Schema;
 /********************************************************************
  * AUTHENTICATION ROUTES
  */
-Route::get('/login', [LoginController::class, 'showLoginForm'])
-     ->name('login');
-Route::post('/logout', [LoginController::class, 'logout'])
-     ->name('logout');
-Route::get('/impersonate/{person}', [LoginController::class, 'impersonate'])
-     ->name('impersonate');
-Route::get('/unimpersonate', [LoginController::class, 'unimpersonate'])
-     ->name('unimpersonate');
+Route::controller(LoginController::class)
+	->group(function()
+	{
+		Route::get('/login', 'showLoginForm')
+			->name('login');
+		Route::post('/logout', 'logout')
+			->name('logout');
+		Route::get('/impersonate/{person}', 'impersonate')
+			->name('impersonate');
+		Route::get('/unimpersonate', 'unimpersonate')
+			->name('unimpersonate');
 
-//view child student
-Route::get('/select/child/{student}', [LoginController::class, 'viewChild'])
-	->name('view.child')
-	->middleware('role:' . SchoolRoles::$PARENT . "|" . SchoolRoles::$OLD_PARENT);
+		//view child student
+		Route::get('/select/child/{student}', 'viewChild')
+			->name('view.child')
+			->middleware('role:' . SchoolRoles::$PARENT . "|" . SchoolRoles::$OLD_PARENT);
+	});
+
 
 /********************************************************************
  * INTEGRATION ROUTES
@@ -73,7 +80,7 @@ if(Schema::hasTable('integrators'))
 /********************************************************************
  * AI ROUTES
  */
-Route::get('/ai/prompt/{aiPrompt}', \App\Livewire\Ai\EditModelPrompt::class)
+Route::livewire('/ai/prompt/{aiPrompt}', EditModelPrompt::class)
      ->name('ai.prompt.editor');
 
 /********************************************************************
@@ -84,8 +91,8 @@ Route::get('/home', [HomeController::class, 'index'])
 
 
 //settings
-Route::post('/settings', [\App\Http\Controllers\Settings\SchoolSettingsController::class, 'setSessionSetting']);
-Route::get('/settings', [\App\Http\Controllers\Settings\SchoolSettingsController::class, 'getSessionSetting']);
+Route::post('/settings', [SchoolSettingsController::class, 'setSessionSetting']);
+Route::get('/settings', [SchoolSettingsController::class, 'getSessionSetting']);
 
 //language changes
 Route::post('/langsw', function(Request $request)

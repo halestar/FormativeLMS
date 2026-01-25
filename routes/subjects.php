@@ -79,7 +79,7 @@ Route::prefix('school/classes')
      ->name('school.classes.')
      ->group(function()
      {
-	     Route::get('/messages', MyMessages::class)
+	     Route::livewire('/messages', MyMessages::class)
 	          ->name('messages');
 	     Route::get('/{classSession}', [ClassController::class, 'show'])
 	          ->name('show');

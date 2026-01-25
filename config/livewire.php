@@ -37,8 +37,8 @@ return [
 	| In this case, the view returned by CreatePost will render into $slot.
 	|
 	*/
-	
-	'layout' => 'layouts.app',
+
+	'component_layout' => 'layouts::app',
 	
 	/*
 	|---------------------------------------------------------------------------
@@ -50,7 +50,8 @@ return [
 	|
 	*/
 	
-	'lazy_placeholder' => null,
+	'component_placeholder' => null,
+	'smart_wire_keys' => true,
 	
 	/*
 	|---------------------------------------------------------------------------
@@ -158,4 +159,12 @@ return [
 	*/
 	
 	'pagination_theme' => 'bootstrap',
+	'component_locations' => [
+		resource_path('views/livewire'),
+	],
+	'component_namespaces' => [
+		'layouts' => resource_path('views/layouts'),
+		'pages' => resource_path('views/pages'),
+	],
 ];
+

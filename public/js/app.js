@@ -31829,7 +31829,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var laravel_echo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! laravel-echo */ "./node_modules/laravel-echo/dist/echo.js");
 /* harmony import */ var pusher_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pusher-js */ "./node_modules/pusher-js/dist/web/pusher.js");
 /* harmony import */ var pusher_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(pusher_js__WEBPACK_IMPORTED_MODULE_1__);
-/* provided dependency */ var process = __webpack_require__(/*! process/browser.js */ "./node_modules/process/browser.js");
 var _process$env$MIX_REVE, _process$env$MIX_REVE2, _process$env$MIX_REVE3;
 
 
@@ -31837,10 +31836,10 @@ window.Pusher = (pusher_js__WEBPACK_IMPORTED_MODULE_1___default());
 window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__["default"]({
   broadcaster: 'reverb',
   key: "dj89102ienmp0asfdg90",
-  wsHost: "fablms.app",
+  wsHost: "fablms.kalinec.net",
   wsPort: (_process$env$MIX_REVE = "443") !== null && _process$env$MIX_REVE !== void 0 ? _process$env$MIX_REVE : 80,
   wssPort: (_process$env$MIX_REVE2 = "443") !== null && _process$env$MIX_REVE2 !== void 0 ? _process$env$MIX_REVE2 : 443,
-  forceTLS: ((_process$env$MIX_REVE3 = process.env.MIX_REVERB_SCHEME) !== null && _process$env$MIX_REVE3 !== void 0 ? _process$env$MIX_REVE3 : 'https') === 'https',
+  forceTLS: ((_process$env$MIX_REVE3 = "https") !== null && _process$env$MIX_REVE3 !== void 0 ? _process$env$MIX_REVE3 : 'https') === 'https',
   enabledTransports: ['ws', 'wss']
 });
 

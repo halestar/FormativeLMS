@@ -2,8 +2,6 @@
 
 
 use App\Http\Controllers\School\ClassController;
-use App\Livewire\School\ClassCriteriaManager;
-use App\Livewire\School\ClassSettings;
 use App\Livewire\SubjectMatter\Learning\LearningDemonstrationAssessor;
 use App\Livewire\SubjectMatter\Learning\LearningDemonstrationCreator;
 use App\Livewire\SubjectMatter\Learning\LearningDemonstrationEditor;
@@ -17,8 +15,8 @@ Route::prefix('learning-demonstrations/opportunities')
 	->name('ld.opportunities.')
 	->group(function()
 	{
-		Route::get('/viewer/{opportunity}/{classSession}', OpportunityViewer::class)->name('viewer');
-		Route::get('/demonstrator/{opportunity}/{classSession}', OpportunityDemonstrator::class)
+		Route::livewire('/viewer/{opportunity}/{classSession}', OpportunityViewer::class)->name('viewer');
+		Route::livewire('/demonstrator/{opportunity}/{classSession}', OpportunityDemonstrator::class)
 			->name('demonstrator')
 			->middleware('role:' . SchoolRoles::$STUDENT . "|" . SchoolRoles::$OLD_STUDENT);
 	});
@@ -39,11 +37,11 @@ Route::prefix('learning-demonstrations')
      ->middleware('role:' . SchoolRoles::$FACULTY . "|" . SchoolRoles::$OLD_FACULTY)
 	 ->group(function()
 	 {
-		Route::get('/index/{course?}', LearningDemonstrationIndex::class)->name('index');
-		Route::get('/create/{course?}', LearningDemonstrationCreator::class)->name('create');
-	    Route::get('/post/{ld}', LearningDemonstrationPoster::class)->name('post');
-		Route::get('/edit/{ld}/{classSession}', LearningDemonstrationEditor::class)->name('edit');
-	    Route::get('/assess/{ld}/{classSession?}', LearningDemonstrationAssessor::class)->name('assess');
+		Route::livewire('/index/{course?}', LearningDemonstrationIndex::class)->name('index');
+		Route::livewire('/create/{course?}', LearningDemonstrationCreator::class)->name('create');
+	    Route::livewire('/post/{ld}', LearningDemonstrationPoster::class)->name('post');
+		Route::livewire('/edit/{ld}/{classSession}', LearningDemonstrationEditor::class)->name('edit');
+	    Route::livewire('/assess/{ld}/{classSession?}', LearningDemonstrationAssessor::class)->name('assess');
 	 });
 
 

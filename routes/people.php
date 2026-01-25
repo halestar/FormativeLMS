@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\People\IdController;
+use App\Http\Controllers\People\PersonalPreferencesController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -32,7 +34,7 @@ Route::controller(\App\Http\Controllers\People\PersonController::class)
 	          ->name('roles.fields.update');
      });
 
-Route::controller(\App\Http\Controllers\People\IdController::class)
+Route::controller(IdController::class)
      ->name('school-ids.')
      ->prefix('school-ids')
      ->group(function()
@@ -57,7 +59,7 @@ Route::controller(\App\Http\Controllers\People\IdController::class)
 	          ->name('manage.both.update');
      });
 
-Route::controller(\App\Http\Controllers\People\PersonalPreferencesController::class)
+Route::controller(PersonalPreferencesController::class)
     ->name('preferences.')
     ->prefix('{person}/preferences')
     ->group(function()
