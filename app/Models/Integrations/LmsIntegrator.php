@@ -9,7 +9,7 @@ use App\Models\People\Person;
 abstract class LmsIntegrator extends Integrator
 {
     /**
-     * This function will autoload the intgrator that is was called from. For example, if you would
+     * This function will autoload the integrator that it was called from. For example, if you would
      * like to load the LocalIntegrator model, you would call LocalIntegrator::autoload()
      * @return static The Integrator class that is descended from this one, implementing the actual Integrator.
      */
@@ -86,11 +86,12 @@ abstract class LmsIntegrator extends Integrator
 	/*****************************************
 	 * STATIC FUNCTIONS
 	 */
+
 	
 	/**
-	 * This function rgisters all the service this integrator has.
+	 * This function registers all the service this integrator has.
 	 * @param IntegrationsManager $manager The manager to register services with
-	 * @param bool $overwrite Whther to overwrite the existing settings.
+	 * @param bool $overwrite Whether to overwrite the existing settings.
 	 * @return void
 	 */
 	abstract public function registerServices(IntegrationsManager $manager, bool $overwrite = false): void;

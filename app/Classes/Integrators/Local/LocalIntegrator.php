@@ -3,7 +3,7 @@
 namespace App\Classes\Integrators\Local;
 
 use App\Classes\Integrators\IntegrationsManager;
-use App\Classes\Integrators\Local\Connections\LocalEmailConnection;
+use App\Classes\Integrators\Local\Services\LocalAiService;
 use App\Classes\Integrators\Local\Services\LocalAuthService;
 use App\Classes\Integrators\Local\Services\LocalClassesService;
 use App\Classes\Integrators\Local\Services\LocalDocumentsService;
@@ -18,120 +18,146 @@ use Illuminate\Support\Facades\Route;
 
 class LocalIntegrator extends LmsIntegrator
 {
-	static function integratorName(): string
-	{
-		return __('integrators.local');
-	}
-	
-	static function integratorDescription(): string
-	{
-		return __('integrators.local.description');
-	}
-	
-	public static function defaultData(): array
-	{
-		return [];
-	}
-	
-	public static function canConnectToPeople(): bool
-	{
-		return true;
-	}
-	
-	public static function canConnectToSystem(): bool
-	{
-		return false;
-	}
-	
-	public static function getPath(): string
-	{
-		return "local";
-	}
-	
-	public static function canBeConfigured(): bool
-	{
-		return false;
-	}
-	
-	public function registerServices(IntegrationsManager $manager, bool $overwrite = false): void
-	{
-		//register the auth service
-		$manager->registerService($this, LocalAuthService::class, $overwrite);
-		$manager->registerService($this, LocalDocumentsService::class, $overwrite);
-		$manager->registerService($this, LocalWorkFilesService::class, $overwrite);
-		$manager->registerService($this, LocalClassesService::class, $overwrite);
+    public static function integratorName(): string
+    {
+        return __('integrators.local');
+    }
+
+    public static function integratorDescription(): string
+    {
+        return __('integrators.local.description');
+    }
+
+    public static function defaultData(): array
+    {
+        return [];
+    }
+
+    public static function canConnectToPeople(): bool
+    {
+        return true;
+    }
+
+    public static function canConnectToSystem(): bool
+    {
+        return false;
+    }
+
+    public static function getPath(): string
+    {
+        return 'local';
+    }
+
+    public static function canBeConfigured(): bool
+    {
+        return false;
+    }
+
+    public function registerServices(IntegrationsManager $manager, bool $overwrite = false): void
+    {
+        // register the auth service
+        $manager->registerService($this, LocalAuthService::class, $overwrite);
+        $manager->registerService($this, LocalDocumentsService::class, $overwrite);
+        $manager->registerService($this, LocalWorkFilesService::class, $overwrite);
+        $manager->registerService($this, LocalClassesService::class, $overwrite);
         $manager->registerService($this, LocalEmailService::class, $overwrite);
         $manager->registerService($this, LocalSmsService::class, $overwrite);
-	}
-	
-	public function isOutdated(): bool
-	{
-		return ($this->integrator->version != LocalIntegrator::getVersion());
-	}
-	
-	public static function getVersion(): string
-	{
-		return "0.2";
-	}
-	
-	public function hasService(IntegratorServiceTypes $type): bool
-	{
-		return ($type == IntegratorServiceTypes::AUTHENTICATION ||
-			$type == IntegratorServiceTypes::DOCUMENTS ||
-			$type == IntegratorServiceTypes::WORK ||
-			$type == IntegratorServiceTypes::CLASSES ||
-            $type == IntegratorServiceTypes::EMAIL ||
-            $type == IntegratorServiceTypes::SMS);
-	}
-	
-	public function publishRoutes(): void
-	{
-		//auth service
-		Route::get('/auth', [LocalIntegratorController::class, 'auth'])
-		     ->name('auth.index');
-		Route::patch('/auth', [LocalIntegratorController::class, 'auth_update'])
-		     ->name('auth.update');
-		//documents service
-		Route::get('/documents', [LocalIntegratorController::class, 'documents'])
-		     ->name('documents.index');
-		Route::patch('/documents', [LocalIntegratorController::class, 'documents_update'])
-		     ->name('documents.update');
-		//work files service
-		Route::get('/work', [LocalIntegratorController::class, 'work'])
-		     ->name('work.index');
-		Route::patch('/work', [LocalIntegratorController::class, 'work_update'])
-		     ->name('work.update');
-		//classes Service
-		Route::get('/classes', [LocalIntegratorController::class, 'classes'])
-		     ->name('classes.index');
-        Route::patch('/classes', [LocalIntegratorController::class, 'classes_update'])
-            ->name('classes.update');
+        $manager->registerService($this, LocalAiService::class, $overwrite);
+    }
 
-		//classes preferences
-		Route::get('/services/classes/preferences/{schoolClass}', [LocalIntegratorController::class, 'classPreferences'])
-			->name('services.classes.preferences')
-			->withoutMiddleware(['can:settings.integrators']);
-		Route::post('/services/classes/preferences/{schoolClass}', [LocalIntegratorController::class, 'classPreferences_update'])
-			->name('services.classes.preferences.update')
-			->withoutMiddleware(['can:settings.integrators']);
-	}
-	
-	public function configurationUrl(): string
-	{
-		return '';
-	}
-	
-	public function getImageUrl(): string
-	{
-		return asset('images/local_service.png');
-	}
-	
-	public function isIntegrated(Person $person): bool { return false; }
-	
-	public function integrationUrl(Person $person): string { return ''; }
-	
-	public function removeIntegration(Person $person): void {}
-	
-	protected function canIntegrate(Person $person): bool { return false; }
-	
+    public function isOutdated(): bool
+    {
+        return $this->integrator->version != LocalIntegrator::getVersion();
+    }
+
+    public static function getVersion(): string
+    {
+        return '0.3';
+    }
+
+    public function hasService(IntegratorServiceTypes $type): bool
+    {
+        return $type == IntegratorServiceTypes::AUTHENTICATION ||
+            $type == IntegratorServiceTypes::DOCUMENTS ||
+            $type == IntegratorServiceTypes::WORK ||
+            $type == IntegratorServiceTypes::CLASSES ||
+            $type == IntegratorServiceTypes::EMAIL ||
+            $type == IntegratorServiceTypes::SMS ||
+            $type == IntegratorServiceTypes::AI;
+    }
+
+    public function publishRoutes(): void
+    {
+        Route::controller(LocalIntegratorController::class)
+            ->group(function () {// auth service
+                Route::get('/auth', 'auth')
+                    ->name('auth.index');
+                Route::patch('/auth', 'auth_update')
+                    ->name('auth.update');
+                // documents service
+                Route::get('/documents', 'documents')
+                    ->name('documents.index');
+                Route::patch('/documents', 'documents_update')
+                    ->name('documents.update');
+                // work files service
+                Route::get('/work', 'work')
+                    ->name('work.index');
+                Route::patch('/work', 'work_update')
+                    ->name('work.update');
+                // classes Service
+                Route::get('/classes', 'classes')
+                    ->name('classes.index');
+                Route::patch('/classes', 'classes_update')
+                    ->name('classes.update');
+
+                // classes preferences
+                Route::get('/services/classes/preferences/{schoolClass}', 'classPreferences')
+                    ->name('services.classes.preferences')
+                    ->withoutMiddleware(['can:settings.integrators']);
+                Route::post('/services/classes/preferences/{schoolClass}', 'classPreferences_update')
+                    ->name('services.classes.preferences.update')
+                    ->withoutMiddleware(['can:settings.integrators']);
+
+                // ai service
+                Route::get('/services/ai/preferences', 'aiPreferences')
+                    ->name('services.ai.preferences')
+                    ->withoutMiddleware(['can:settings.integrators']);
+                Route::post('/services/ai/preferences', 'aiPreferences_update')
+                    ->name('services.ai.preferences.update')
+                    ->withoutMiddleware(['can:settings.integrators']);
+
+                // ai preferences
+                Route::get('/services/ai/preferences/personal', 'aiPreferencesPersonal')
+                    ->name('services.ai.preferences.personal');
+                Route::post('/services/ai/preferences/personal', 'aiPreferencesPersonal_update')
+                    ->name('services.ai.preferences.personal.update');
+            });
+    }
+
+    public function configurationUrl(): string
+    {
+        return '';
+    }
+
+    public function getImageUrl(): string
+    {
+        return asset('images/local_service.png');
+    }
+
+    public function isIntegrated(Person $person): bool
+    {
+        return true;
+    }
+
+    public function integrationUrl(Person $person): string
+    {
+        return '#';
+    }
+
+    public function removeIntegration(Person $person): void {}
+
+    protected function canIntegrate(Person $person): bool
+    {
+        return true;
+    }
 }

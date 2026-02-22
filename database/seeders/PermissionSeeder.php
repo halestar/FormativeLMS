@@ -16,7 +16,7 @@ class PermissionSeeder extends Seeder
 			'Subject Matter',
 			'Class Management',
 			'System',
-			'School Administration'
+			'School Administration',
 		];
 	
 	/**

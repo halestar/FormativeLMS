@@ -7,5 +7,5 @@ return
 		'school' => 'Access to the global school settings',
 		'school.emails' => 'Access to edit what the school email\'s look like.',
 		'settings.integrators' => 'Access to manage the system\'s integrations and services',
-		'system.ai' => 'Access to manage the system\'s integrations and services',
+		'system.ai' => 'Access to use the system\'s AI',
 	];

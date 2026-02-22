@@ -30,7 +30,7 @@
                                class="btn btn-success btn-sm"
                                role="button"
                                x-cloak
-                               href="{{ $integrator->integrationUrl($person) }}"
+                               href="{{ $integrator->integrationUrl($person)}}"
                             >{{ __('common.connect') }}</a>
                         </div>
                     @endif

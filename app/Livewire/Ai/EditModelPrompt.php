@@ -22,9 +22,7 @@ class EditModelPrompt extends Component
 	public function mount(AiPrompt $aiPrompt)
 	{
 		//should the person be here?
-		if($aiPrompt->isDefaultPrompt() && !auth()
-				->user()
-				->can('system.ai'))
+		if($aiPrompt->isDefaultPrompt() && !auth()->user()->can('system.ai'))
 			abort(403);
 		elseif(!$aiPrompt->isDefaultPrompt() && auth()->user()->id != $aiPrompt->person_id)
 			abort(403);
@@ -34,7 +32,7 @@ class EditModelPrompt extends Component
 		$this->backLink = redirect()->back()->getTargetUrl();
 		$this->breadcrumb =
 			[
-				($this->className)::propertyName($this->property) => $this->backLink,
+				$aiPrompt->propertyName() => $this->backLink,
 				__('ai.prompt.editor') => '#',
 			];
 		$this->reloadKey = uniqid();

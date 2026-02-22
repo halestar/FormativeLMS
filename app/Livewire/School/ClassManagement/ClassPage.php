@@ -13,6 +13,7 @@ use App\Models\SubjectMatter\Components\ClassStatus;
 use App\Models\Utilities\MimeType;
 use Illuminate\Support\Facades\Log;
 use Livewire\Component;
+use Livewire\ComponentHookRegistry;
 use Livewire\WithFileUploads;
 
 class ClassPage extends Component

@@ -100,7 +100,17 @@ class IntegrationConnection extends Pivot
 	#[Scope]
 	protected function ofType(Builder $query, IntegratorServiceTypes $type): void
 	{
-		$query->join('integration_services', 'integration_services.id', '=', 'integration_connections.service_id')
+		$query->select('integration_connections.*')->join('integration_services', 'integration_services.id', '=', 'integration_connections.service_id')
 		      ->where('integration_services.service_type', $type);
+	}
+
+	public function isSystem(): bool
+	{
+		return $this->person_id == null;
+	}
+
+	public function isPersonal(): bool
+	{
+		return $this->person_id != null;
 	}
 }

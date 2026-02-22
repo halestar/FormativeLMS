@@ -3,8 +3,7 @@
 namespace App\Mcp\Tools;
 
 use App\Models\SubjectMatter\Assessment\Skill;
-use App\Models\SystemTables\Level;
-use Illuminate\JsonSchema\JsonSchema;
+use Illuminate\Contracts\JsonSchema\JsonSchema;
 use Laravel\Mcp\Request;
 use Laravel\Mcp\Response;
 use Laravel\Mcp\Server\Tool;

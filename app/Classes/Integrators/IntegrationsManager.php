@@ -3,7 +3,9 @@
 
 namespace App\Classes\Integrators;
 
+use App\Classes\Settings\AiSettings;
 use App\Enums\IntegratorServiceTypes;
+use App\Models\Ai\Llm;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\Integrations\Integrator;
@@ -142,6 +144,14 @@ class IntegrationsManager
             $query->whereHas('service', fn($q) => $q->where('service_type', $type));
         return $query->get();
     }
+
+	public function hasSystemConnection(IntegratorServiceTypes $type): bool
+	{
+		return IntegrationConnection::enabled()->whereNull('person_id')
+			->whereHas('service', fn($q) => $q->where('service_type', $type))
+			->exists();
+	}
+
     public function personalConnections(Person $person, IntegratorServiceTypes $type = null): Collection
     {
         $query = IntegrationConnection::enabled()->where('person_id', $person->id);
@@ -163,4 +173,79 @@ class IntegrationsManager
             ->whereHas('service', fn($q) => $q->where('service_type', $type))
             ->exists();
     }
+
+	public function systemAis(): Collection
+	{
+		$connections = $this->systemConnections(IntegratorServiceTypes::AI);
+		$llms = new Collection;
+		foreach($connections as $connection)
+			$llms = $llms->concat($connection->llms()->available()->get());
+		return $llms;
+	}
+
+	public function personalAis(Person $person): Collection
+	{
+		$connections = $this->personalConnections($person, IntegratorServiceTypes::AI);
+		$llms = new Collection;
+		foreach($connections as $connection)
+			$llms = $llms->concat($connection->llms()->available()->get());
+		return $llms;
+	}
+
+	public function availableLlms(Person $person): Collection
+	{
+		$aiSettings = app()->make(AiSettings::class);
+		$llms = new Collection;
+		if($aiSettings->allow_global_ai || $person->can('system.ai'))
+			$llms = $llms->concat($this->systemAis());
+		if($aiSettings->allow_user_ai)
+			$llms = $llms->concat($this->personalAis($person));
+		return $llms;
+	}
+
+	public function defaultLlm(Person $person): ?Llm
+	{
+		$aiSettings = app()->make(AiSettings::class);
+		//first, check if we have a preference set.
+		$llmId = $person->getPreference('ai.llm', null);
+		if($llmId)
+		{
+			$llm = Llm::find($llmId);
+			if($llm) return $llm;
+		}
+		//since we don't have a working preference, first option is the system's default.
+		if($aiSettings->allow_global_ai || $person->can('system.ai'))
+		{
+			if ($aiSettings->default_model)
+			{
+				//save the pref
+				$person->setPreference('ai.llm', $aiSettings->default_model->id);
+				$person->save();
+				return $aiSettings->default_model;
+			}
+			//second option is the first system LLM
+			$llms = $this->systemAis();
+			if($llms->count() > 0)
+			{
+				//save the pref
+				$person->setPreference('ai.llm', $aiSettings->default_model->id);
+				$person->save();
+				return $llms->first();
+			}
+		}
+		//next, we check if users can have their own.
+		if($aiSettings->allow_user_ai)
+		{
+			$llms = $this->personalAis($person);
+			if($llms->count() > 0)
+			{
+				//save the pref
+				$person->setPreference('ai.llm', $aiSettings->default_model->id);
+				$person->save();
+				return $llms->first();
+			}
+		}
+		//at this point we give up.
+		return null;
+	}
 }

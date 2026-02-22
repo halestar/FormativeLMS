@@ -1,5 +1,4 @@
 <div class="{{ $classes }}" style="{{ $style }}">
-    @inject('componentRegistry', 'Livewire\Mechanisms\ComponentRegistry')
     <ul
         class="nav nav-tabs mt-auto w-100" id="profile-tabs"
         role="tablist"
@@ -82,7 +81,7 @@
             >
                 <div class="widget-container">
                     @if($tab->widget)
-                    <livewire:dynamic-component :is="$componentRegistry->getName($tab->widget)" :key="$tab->widget" :session="$classSession" />
+                    <livewire:dynamic-component :is="$tab->widget" :key="$tab->widget" :session="$classSession" />
                     @endif
                 </div>
             </div>

@@ -6,6 +6,7 @@ use App\Casts\LogItem;
 use App\Casts\People\Portrait;
 use App\Classes\Integrators\IntegrationsManager;
 use App\Classes\People\RoleField;
+use App\Classes\Settings\AiSettings;
 use App\Classes\Settings\SchoolSettings;
 use App\Enums\ClassViewer;
 use App\Enums\IntegratorServiceTypes;
@@ -245,11 +246,17 @@ class Person extends Authenticatable implements HasSchoolRoles, Fileable
 
     public function canUseAi(): bool
     {
-        return Cache::remember('can-use-ai' . $this->id, 0,  function()
-        {
-            $intManager = app(IntegrationsManager::class);
-            return $intManager->hasPersonalConnection($this, IntegratorServiceTypes::AI);
-        });
+		//easiest solution is if they have the system.ai permission
+	    if($this->can('system.ai'))
+			return true;
+	    $aiSettings = app(AiSettings::class);
+	    $intManager = app(IntegrationsManager::class);
+	    //first, check the settings to see if users can use the system AI
+	    if($aiSettings->allow_global_ai)
+		    return $intManager->hasSystemConnection(IntegratorServiceTypes::AI);
+	    elseif($aiSettings->allow_user_ai)
+		    return $intManager->hasPersonalConnection($this, IntegratorServiceTypes::AI);
+	    return false;
     }
 
 	public function isTrackingStudent(StudentRecord $student): bool

@@ -2,7 +2,6 @@
 
 namespace App\Models\Utilities;
 
-use App\Classes\Settings\EmailSetting;
 use App\Enums\WorkStoragesInstances;
 use App\Interfaces\Fileable;
 use App\Models\People\Person;
@@ -15,13 +14,18 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Blade;
 
-class SchoolMessage extends Model implements Fileable, Arrayable, Jsonable
+class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable
 {
     use HasWorkFiles;
+
     public $timestamps = true;
+
     public $incrementing = true;
-    protected $table = "school_messages";
-    protected $primaryKey = "id";
+
+    protected $table = 'school_messages';
+
+    protected $primaryKey = 'id';
+
     protected $fillable =
         [
             'force_subscribe',
@@ -54,37 +58,35 @@ class SchoolMessage extends Model implements Fileable, Arrayable, Jsonable
 
     protected static function booted(): void
     {
-        //clean up on save.
-        static::saved(function(SchoolMessage $message)
-        {
+        // clean up on save.
+        static::saved(function (SchoolMessage $message) {
             $message->cleanup();
         });
     }
 
     public function cleanup()
     {
-        //cleans up the files in the conmtent. Essentially it pulls in all the files
-        //references in the content and syncs them to this email.
+        // cleans up the files in the conmtent. Essentially it pulls in all the files
+        // references in the content and syncs them to this email.
         $fileRefs = [];
-        //attempting to match src="https://fablms.app/settings/work-files/(file uuid)"
-        $pattern = '@src="' . config('app.url') .
+        // attempting to match src="https://fablms.app/settings/work-files/(file uuid)"
+        $pattern = '@src="'.config('app.url').
             '/settings/work-files/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"@';
-        if(preg_match($pattern, $this->body, $fileRefs))
-        {
+        if (preg_match($pattern, $this->body, $fileRefs)) {
             array_shift($fileRefs);
-            //we need to iterate through each model and delete each one individually, since that's the way to
-            //trigger the file delete for each model.
-            foreach(WorkFile::invisible()
-                        ->whereNotIn('id', $fileRefs)
-                        ->get() as $file)
+            // we need to iterate through each model and delete each one individually, since that's the way to
+            // trigger the file delete for each model.
+            foreach (WorkFile::invisible()
+                ->whereNotIn('id', $fileRefs)
+                ->get() as $file) {
                 $file->delete();
-        }
-        else
-        {
-            //there are no file refs in the content, so we delete all hidden files
-            foreach(WorkFile::invisible()
-                        ->get() as $file)
+            }
+        } else {
+            // there are no file refs in the content, so we delete all hidden files
+            foreach (WorkFile::invisible()
+                ->get() as $file) {
                 $file->delete();
+            }
         }
     }
 
@@ -137,11 +139,12 @@ class SchoolMessage extends Model implements Fileable, Arrayable, Jsonable
         $arr = $this->toArray();
         $arr['body'] = Blade::render($arr['body'], $tokens);
         $arr['short_body'] = Blade::render($arr['short_body'], $tokens);
+
         return $arr;
     }
 
-	public function canAccessFile(Person $person, WorkFile $file): bool
-	{
-		return true;
-	}
+    public function canAccessFile(Person $person, WorkFile $file): bool
+    {
+        return true;
+    }
 }

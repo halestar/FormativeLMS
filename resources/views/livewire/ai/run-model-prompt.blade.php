@@ -13,33 +13,41 @@
         @if($teleportTo)
             @teleport($teleportTo)
         @endif
-        <div class="{{ $classes }}" wire:loading.class="d-none" wire:target="showPromptResults,executePrompt">
+        <div class="{{ $classes }}" style="{!! $style !!}" wire:loading.class="d-none" wire:target="showPromptResults,executePrompt">
             @if($runMode)
-                <div class="row mb-3">
-                    <div class="col-md-4 d-flex justify-content-center align-items-center flex-column">
-                        <h5>{{ __('ai.prompt') }}</h5>
-                        <div class="form-check">
-                            <a role="button" class="btn btn-sm btn-primary" href="{{ route('ai.prompt.editor', $prompt) }}">
-                                {{ __('ai.prompt.editor') }}
-                            </a>
+                <div class="row mb-3" x-data="{ expanded: false }">
+                    <div class="col-md-8">
+                        <div class="alert alert-info position-relative">
+                            <div class="alert-heading d-flex align-items-center justify-content-between">
+                                <span class="align-self-center">{{ __('ai.prompt') }}</span>
+                                <a role="button" href="{{ route('ai.prompt.editor', $prompt) }}">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="mt-2 bg-light border rounded p-2 small overflow-hidden "
+                                :style="!expanded && 'height: 75px !important;'"
+                            >
+                                {!! $prompt->renderPrompt($model); !!}
+                            </div>
+                            <span class="position-absolute bottom-0 start-50 translate-middle-x text-primary" @click="expanded = !expanded">
+                                <i class="bi" :class="expanded? 'bi-arrow-up-circle-fill': 'bi-arrow-down-circle-fill'"></i>
+                            </span>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="mb-3">
                             <label class="form-label" for="ai_connection">{{ __('ai.system') }}</label>
-                            <select id="ai_connection" class="form-select" wire:model="selectedAiId">
-                                @foreach($aiConnections as $conn)
-                                    <option value="{{ $conn->id }}">{{ $conn->service->name }}</option>
-                                @endforeach
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="mb-3">
-                            <label class="form-label" for="ai_model">{{ __('ai.model') }}</label>
-                            <select id="ai_model" class="form-select" wire:model="selectedLlm">
-                                @foreach($Llms as $Llm)
-                                    <option value="{{ $Llm }}">{{ $Llm }}</option>
+                            <select id="ai_connection" class="form-select" wire:model="selectedLlmId">
+                                @foreach($llms as $llm)
+                                    <option value="{{ $llm->id }}" @selected($llm->id == $selectedLlmId)>
+                                        @if($llm->provider->isSystem())
+                                            {{ __('system.settings.ai.llm.system') }}
+                                        @else
+                                            {{ __('system.settings.ai.llm.personal') }}
+                                        @endif
+                                        : {{ $llm->name }}
+                                    </option>
                                 @endforeach
                             </select>
                         </div>
