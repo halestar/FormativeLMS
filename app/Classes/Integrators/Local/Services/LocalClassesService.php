@@ -102,7 +102,7 @@ class LocalClassesService extends LmsIntegrationService
 
     public function canConnect(?Person $person = null): bool
     {
-        return false;
+        return $person == null;
     }
 
     public function canRegister(?Person $person = null): bool

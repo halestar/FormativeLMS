@@ -8,12 +8,12 @@ use App\Classes\Integrators\Local\Services\LocalAuthService;
 use App\Models\Integrations\IntegrationConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\Integrations\Integrator;
-use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;
 
 class CoreIntegrationTest extends TestCase
 {
-    use RefreshDatabase;
+    use DatabaseTransactions;
 
     /**
      * Test that Integrator model correctly instantiates subclasses based on className.

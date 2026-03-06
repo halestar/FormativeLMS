@@ -70,7 +70,7 @@
         </div>
 
 
-        <div class="card">
+        <div class="card mb-4">
             <div class="card-body p-0">
                 <div class="accordion accordion-flush mt-2" id="years-container">
                     <div class="accordion-body p-0">

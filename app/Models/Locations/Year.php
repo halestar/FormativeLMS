@@ -85,8 +85,8 @@ class Year extends Model
 	{
 		return
 			[
-				'year_start' => 'date: ' . config('lms.date_format'),
-				'year_end' => 'date: ' . config('lms.date_format'),
+				'year_start' => 'date:' . config('lms.date_format'),
+				'year_end' => 'date:' . config('lms.date_format'),
 			];
 	}
 	

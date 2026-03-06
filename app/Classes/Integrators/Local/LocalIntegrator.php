@@ -92,41 +92,39 @@ class LocalIntegrator extends LmsIntegrator
 
     public function publishRoutes(): void
     {
-        Route::controller(LocalIntegratorController::class)
-            ->group(function () {// auth service
-                Route::get('/auth', 'auth')
-                    ->name('auth.index');
-                Route::patch('/auth', 'auth_update')
-                    ->name('auth.update');
-                // documents service
-                Route::get('/documents', 'documents')
-                    ->name('documents.index');
-                Route::patch('/documents', 'documents_update')
-                    ->name('documents.update');
-                // work files service
-                Route::get('/work', 'work')
-                    ->name('work.index');
-                Route::patch('/work', 'work_update')
-                    ->name('work.update');
-                // classes Service
-                Route::get('/classes', 'classes')
-                    ->name('classes.index');
-                Route::patch('/classes', 'classes_update')
-                    ->name('classes.update');
+        // auth service
+        Route::get('/auth', [LocalIntegratorController::class, 'auth'])
+            ->name('auth.index');
+        Route::patch('/auth', [LocalIntegratorController::class, 'auth_update'])
+            ->name('auth.update');
+        // documents service
+        Route::get('/documents', [LocalIntegratorController::class, 'documents'])
+            ->name('documents.index');
+        Route::patch('/documents', [LocalIntegratorController::class, 'documents_update'])
+            ->name('documents.update');
+        // work files service
+        Route::get('/work', [LocalIntegratorController::class, 'work'])
+            ->name('work.index');
+        Route::patch('/work', [LocalIntegratorController::class, 'work_update'])
+            ->name('work.update');
+        // classes Service
+        Route::get('/classes', [LocalIntegratorController::class, 'classes'])
+            ->name('classes.index');
+        Route::patch('/classes', [LocalIntegratorController::class, 'classes_update'])
+            ->name('classes.update');
 
-                // classes preferences
-                Route::get('/services/classes/preferences/{schoolClass}', 'classPreferences')
-                    ->name('services.classes.preferences')
-                    ->withoutMiddleware(['can:settings.integrators']);
-                Route::post('/services/classes/preferences/{schoolClass}', 'classPreferences_update')
-                    ->name('services.classes.preferences.update')
-                    ->withoutMiddleware(['can:settings.integrators']);
+        // classes preferences
+        Route::get('/services/classes/preferences/{schoolClass}', [LocalIntegratorController::class, 'classPreferences'])
+            ->name('services.classes.preferences')
+            ->withoutMiddleware(['can:settings.integrators']);
+        Route::post('/services/classes/preferences/{schoolClass}', [LocalIntegratorController::class, 'classPreferences_update'])
+            ->name('services.classes.preferences.update')
+            ->withoutMiddleware(['can:settings.integrators']);
 
-                // ai system config
-                Route::get('/services/ai/config', 'aiPreferences')
-                    ->name('services.ai.config');
-                Route::post('/services/ai/config', 'aiPreferences_update')
-                    ->name('services.ai.config.update');
-            });
+        // ai system config
+        Route::get('/services/ai/config', [LocalIntegratorController::class, 'aiPreferences'])
+            ->name('services.ai.config');
+        Route::post('/services/ai/config', [LocalIntegratorController::class, 'aiPreferences_update'])
+            ->name('services.ai.config.update');
     }
 }

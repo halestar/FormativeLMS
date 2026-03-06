@@ -23,7 +23,7 @@ class SubjectsController extends Controller
                 ->workingCampus();
         } else {
             SessionSettings::instance()
-                    ->workingCampus($campus);
+                ->workingCampus($campus);
         }
         Gate::authorize('viewAny', Subject::class, $campus);
         $breadcrumb =
@@ -38,7 +38,7 @@ class SubjectsController extends Controller
 
     public function store(Campus $campus, Request $request)
     {
-        Gate::authorize('store', Subject::class, $campus);
+        Gate::authorize('create', [Subject::class, $campus]);
         $data = $request->validate(
             [
                 'name' => 'required|max:255',

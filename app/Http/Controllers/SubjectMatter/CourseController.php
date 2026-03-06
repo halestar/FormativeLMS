@@ -51,7 +51,7 @@ class CourseController extends Controller
 
     public function store(Subject $subject, Request $request)
     {
-        Gate::authorize('store', Course::class);
+        Gate::authorize('create', [Course::class, $subject->campus]);
         $data = $request->validate(
             [
                 'name' => 'required|max:255',

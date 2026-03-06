@@ -6,7 +6,10 @@ use App\Http\Controllers\Controller;
 use App\Models\Locations\Term;
 use App\Models\Locations\Year;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Validation\Rule;
 
 class YearController extends Controller
 {
@@ -29,10 +32,9 @@ class YearController extends Controller
         Gate::authorize('has-permission', 'locations.years');
         $data = $request->validate([
             'label' => 'required|max:255',
-            'year_start' => 'required|date|before_or_equal:year_end',
-            'year_end' => 'required|date|after_or_equal:year_start',
-
-        ], static::errors());
+            'year_start' => ['required', Rule::date()->beforeOrEqual(Carbon::parse($request->input('year_end')))],
+            'year_end' => ['required', Rule::date()->afterOrEqual(Carbon::parse($request->input('year_start')))],
+        ], self::errors());
         $year = new Year;
         $year->fill($data);
         $year->save();
@@ -72,9 +74,8 @@ class YearController extends Controller
         Gate::authorize('has-permission', 'locations.years');
         $data = $request->validate([
             'label' => 'required|max:255',
-            'year_start' => 'required|date|before_or_equal:year_end',
-            'year_end' => 'required|date|after_or_equal:year_start',
-
+            'year_start' => ['required', Rule::date()->beforeOrEqual(Carbon::parse($request->input('year_end')))],
+            'year_end' => ['required', Rule::date()->afterOrEqual(Carbon::parse($request->input('year_start')))],
         ], static::errors());
         $year->fill($data);
         $year->save();
@@ -104,8 +105,16 @@ class YearController extends Controller
         $data = $request->validate([
             'term_label' => 'required|max:255',
             'campus_id' => 'required|exists:campuses,id',
-            'term_start' => 'required|date|after_or_equal:'.$year->year_start.'|before_or_equal:term_end',
-            'term_end' => 'required|date|after_or_equal:term_start|before_or_equal:'.$year->year_end,
+            'term_start' =>
+	            [
+					'required',
+					Rule::date()->afterOrEqual($year->year_start)->beforeOrEqual(Carbon::parse($request->input('term_end'))),
+	            ],
+            'term_end' =>
+	            [
+					'required',
+					Rule::date()->afterOrEqual(Carbon::parse($request->input('term_start')))->beforeOrEqual($year->year_end)
+	            ],
 
         ], static::termErrors($year));
         $term = new Term;

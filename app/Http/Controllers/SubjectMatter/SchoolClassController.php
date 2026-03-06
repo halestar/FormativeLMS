@@ -36,11 +36,11 @@ class SchoolClassController extends Controller
                     ->first();
             } else {
                 $course = SessionSettings::instance()
-                ->workingCampus()
-                ->subjects()
-                ->first()
-                ->courses()
-                ->first();
+                    ->workingCampus()
+                    ->subjects()
+                    ->first()
+                    ->courses()
+                    ->first();
             }
         }
         if ($request->has('year_id')) {
@@ -75,7 +75,7 @@ class SchoolClassController extends Controller
 
     public function store(Course $course, Request $request)
     {
-        Gate::authorize('store', SchoolClass::class);
+        Gate::authorize('create', [SchoolClass::class, $course->campus]);
         $data = $request->validate(
             [
                 'terms' => 'required|array|min:1',

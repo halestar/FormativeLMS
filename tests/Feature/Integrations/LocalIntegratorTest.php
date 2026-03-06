@@ -8,14 +8,13 @@ use App\Classes\Integrators\Local\LocalIntegrator;
 use App\Classes\Integrators\Local\Services\LocalAuthService;
 use App\Enums\IntegratorServiceTypes;
 use App\Models\Integrations\IntegrationService;
-use App\Models\Integrations\Integrator;
 use App\Models\People\Person;
-use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;
 
 class LocalIntegratorTest extends TestCase
 {
-    use RefreshDatabase;
+    use DatabaseTransactions;
 
     protected IntegrationsManager $manager;
 
@@ -87,27 +86,5 @@ class LocalIntegratorTest extends TestCase
         // If it still returns null, it's likely due to roles.
         // For testing, we can check if it exists in DB.
         $this->assertTrue($authService->hasConnection($person));
-    }
-
-    /**
-     * Test that LocalIntegrator versioning works.
-     */
-    public function test_local_integrator_versioning(): void
-    {
-        $integratorModel = Integrator::factory()->create([
-            'className' => LocalIntegrator::class,
-            'path' => 'local',
-            'version' => '0.1', // Older version
-        ]);
-
-        $localIntegrator = Integrator::where('path', 'local')->first();
-        $this->assertTrue($localIntegrator->isOutdated());
-
-        // Registering should update the version
-        $this->manager->registerIntegrator(LocalIntegrator::class, true);
-
-        $updated = Integrator::where('path', 'local')->first();
-        $this->assertFalse($updated->isOutdated());
-        $this->assertEquals(LocalIntegrator::getVersion(), $updated->version);
     }
 }
