@@ -4,15 +4,13 @@ namespace App\Classes\Integrators\Local\Services;
 
 use App\Classes\Integrators\Local\Connections\LocalEmailConnection;
 use App\Enums\IntegratorServiceTypes;
-use App\Models\Integrations\Integrator;
 use App\Models\Integrations\LmsIntegrationService;
 use App\Models\People\Person;
 
 class LocalEmailService extends LmsIntegrationService
 {
-
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getServiceType(): IntegratorServiceTypes
     {
@@ -20,7 +18,7 @@ class LocalEmailService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getServiceName(): string
     {
@@ -28,7 +26,7 @@ class LocalEmailService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getServiceDescription(): string
     {
@@ -36,7 +34,7 @@ class LocalEmailService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getDefaultData(): array
     {
@@ -44,7 +42,7 @@ class LocalEmailService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function canConnectToPeople(): bool
     {
@@ -52,7 +50,7 @@ class LocalEmailService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function canConnectToSystem(): bool
     {
@@ -60,90 +58,48 @@ class LocalEmailService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getPath(): string
     {
-        return "email";
+        return 'email';
     }
 
-    /**
-     * @inheritDoc
-     */
-    public static function canBeConfigured(): bool
-    {
-        return false;
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function canConnect(Person $person): bool
-    {
-        return false;
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function getConnectionClass(): string
-    {
-        return '';
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function canSystemConnect(): bool
+    public function canEnable(): bool
     {
         return true;
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function getSystemConnectionClass(): string
+    public function getConnectionClass(): string
     {
         return LocalEmailConnection::class;
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function canRegister(): bool
+    public function canConnect(?Person $person = null): bool
+    {
+        return $person == null;
+    }
+
+    public function canRegister(?Person $person = null): bool
     {
         return false;
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function registrationUrl(): string
+    public static function canConfigure(?Person $person = null): bool
     {
-        return '';
+        return false;
+    }
+
+    public function registrationUrl(?Person $person = null): ?string
+    {
+        return null;
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
-    public function systemAutoconnect(): bool
+    public function configurationUrl(?Person $person = null): ?string
     {
-        return true;
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function configurationUrl(): string
-    {
-        return '';
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function canEnable(): bool
-    {
-        return true;
+        return null;
     }
 }

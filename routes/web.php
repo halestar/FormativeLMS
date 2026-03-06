@@ -3,9 +3,10 @@
 use App\Classes\Integrators\IntegrationsManager;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\People\PersonalPreferencesController;
 use App\Http\Controllers\Settings\IntegratorController;
 use App\Http\Controllers\Settings\SchoolSettingsController;
-use App\Http\Controllers\Settings\SystemTablesController;
+use App\Http\Controllers\Substitutes\SubstituteAccessController;
 use App\Livewire\Ai\EditModelPrompt;
 use App\Models\Integrations\Integrator;
 use App\Models\Utilities\SchoolRoles;
@@ -17,95 +18,91 @@ use Illuminate\Support\Facades\Schema;
  * AUTHENTICATION ROUTES
  */
 Route::controller(LoginController::class)
-	->group(function()
-	{
-		Route::get('/login', 'showLoginForm')
-			->name('login');
-		Route::post('/logout', 'logout')
-			->name('logout');
-		Route::get('/impersonate/{person}', 'impersonate')
-			->name('impersonate');
-		Route::get('/unimpersonate', 'unimpersonate')
-			->name('unimpersonate');
+    ->group(function () {
+        Route::get('/login', 'showLoginForm')
+            ->name('login');
+        Route::post('/logout', 'logout')
+            ->name('logout');
+        Route::get('/impersonate/{person}', 'impersonate')
+            ->name('impersonate');
+        Route::get('/unimpersonate', 'unimpersonate')
+            ->name('unimpersonate');
 
-		//view child student
-		Route::get('/select/child/{student}', 'viewChild')
-			->name('view.child')
-			->middleware('role:' . SchoolRoles::$PARENT . "|" . SchoolRoles::$OLD_PARENT);
-	});
-
+        // view child student
+        Route::get('/select/child/{student}', 'viewChild')
+            ->name('view.child')
+            ->middleware('role:'.SchoolRoles::$PARENT.'|'.SchoolRoles::$OLD_PARENT);
+    });
 
 /********************************************************************
  * INTEGRATION ROUTES
  */
-if(Schema::hasTable('integrators'))
-{
-	$manager = app()->make(IntegrationsManager::class);
-	Route::prefix(Integrator::INTEGRATOR_URL_PREFIX)
-	     ->name(Integrator::INTEGRATOR_ACTION_PREFIX)
-	     ->middleware('can:settings.integrators')
-	     ->group(function() use ($manager)
-	     {
-		     //configuration route
-		     Route::get('/', [IntegratorController::class, 'index'])
-		          ->name('index');
-		     //Integrator Service Permissions
-		     Route::get('/services/{service}/permissions', [IntegratorController::class, 'servicePermissions'])
-		          ->name('services.permissions');
-		     
-		     foreach($manager->availableIntegrators() as $integrator)
-		     {
-			     
-			     Route::prefix($integrator->path)
-			          ->name(str_replace('/', '.', $integrator->path) . ".")
-			          ->group(function() use ($integrator)
-			          {
-				          $integrator->publishRoutes();
-			          });
-		     }
-		     //auth callback routes
-		     Route::get('/{integrator:path}/auth', [IntegratorController::class, 'auth_callback'])
-		          ->name('auth.callback')
-		          ->withoutMiddleware(['auth', 'can:settings.integrators']);
-		     
-		     //Update integrator registration route
-		     Route::get('/{integrator:path}/register', [IntegratorController::class, 'register'])
-		          ->name('register');
-		     //Clear integrator registration route
-		     Route::get('/{integrator:path}/clear', [IntegratorController::class, 'clear'])
-		          ->name('clear');
-	     });
+if (Schema::hasTable('integrators')) {
+    $manager = app()->make(IntegrationsManager::class);
+    Route::prefix(Integrator::INTEGRATOR_URL_PREFIX)
+        ->name(Integrator::INTEGRATOR_ACTION_PREFIX)
+        ->middleware('can:settings.integrators')
+        ->group(function () use ($manager) {
+            // configuration route
+            Route::get('/', [IntegratorController::class, 'index'])
+                ->name('index');
+            // Integrator Service Permissions
+            Route::get('/services/{service}/permissions', [IntegratorController::class, 'servicePermissions'])
+                ->name('services.permissions');
+
+            foreach ($manager->availableIntegrators() as $integrator) {
+
+                Route::prefix($integrator->path)
+                    ->name(str_replace('/', '.', $integrator->path).'.')
+                    ->group(function () use ($integrator) {
+                        $integrator->publishRoutes();
+                    });
+            }
+            // auth callback routes
+            Route::get('/{integrator:path}/auth', [IntegratorController::class, 'auth_callback'])
+                ->name('auth.callback')
+                ->withoutMiddleware(['auth', 'can:settings.integrators']);
+
+            // Update integrator registration route
+            Route::get('/{integrator:path}/register', [IntegratorController::class, 'register'])
+                ->name('register');
+            // Clear integrator registration route
+            Route::get('/{integrator:path}/clear', [IntegratorController::class, 'clear'])
+                ->name('clear');
+        });
 }
 
 /********************************************************************
  * AI ROUTES
  */
 Route::livewire('/ai/prompt/{aiPrompt}', EditModelPrompt::class)
-     ->name('ai.prompt.editor');
+    ->name('ai.prompt.editor');
 
 /********************************************************************
  * HOME
  */
 Route::get('/home', [HomeController::class, 'index'])
-     ->name('home');
+    ->name('home');
 
-
-//settings
+// settings
 Route::post('/settings', [SchoolSettingsController::class, 'setSessionSetting']);
 Route::get('/settings', [SchoolSettingsController::class, 'getSessionSetting']);
+Route::post('/preference', [PersonalPreferencesController::class, 'setPersonalPreference']);
 
-//language changes
-Route::post('/langsw', function(Request $request)
-{
-	session(['language' => $request->input('lang')]);
-	return redirect()->back();
+// Substitutes routes
+Route::get('/subs/verify', [SubstituteAccessController::class, 'verify'])->name('subs.verify');
+Route::post('/subs/verify', [SubstituteAccessController::class, 'verifySub'])->name('subs.verify.update');
+Route::post('/subs/accept', [SubstituteAccessController::class, 'accept'])->name('subs.accept');
+Route::get('/subs/{token}', [SubstituteAccessController::class, 'request'])->name('subs.request');
+
+// language changes
+Route::post('/langsw', function (Request $request) {
+    session(['language' => $request->input('lang')]);
+
+    return redirect()->back();
 })->name('language.switch');
 
-//Livewire update route to allow for othher, catch all routes.
+// Livewire update route to allow for other, catch all routes.
 Livewire::setUpdateRoute(function ($handle) {
-	return Route::post('livewire/update', $handle)->name('livewire.update');
+    return Route::post('livewire/update', $handle)->name('livewire.update');
 });
-
-
-
-

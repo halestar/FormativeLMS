@@ -20,11 +20,10 @@ use App\Models\People\Person;
 use App\Models\Utilities\SchoolMessage;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
-use Illuminate\Routing\Controllers\HasMiddleware;
 use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Validation\Rule;
 
-class SchoolSettingsController extends Controller implements HasMiddleware
+class SchoolSettingsController extends Controller
 {
     public static function middleware()
     {
@@ -68,8 +67,8 @@ class SchoolSettingsController extends Controller implements HasMiddleware
             'end_time' => 'required|date_format:H:i',
             'terms_of_service' => 'nullable|url',
             'privacy_policy' => 'nullable|url',
-	        'default_system_connection' => 'nullable|exists:integration_connections,id',
-	        'default_model' => 'nullable|exists:llms,id',
+            'default_system_connection' => 'nullable|exists:integration_connections,id',
+            'default_model' => 'nullable|exists:llms,id',
         ], static::errors());
         // update days
         $days = [];
@@ -83,18 +82,18 @@ class SchoolSettingsController extends Controller implements HasMiddleware
         $settings->privacy_policy = $data['privacy_policy'];
         $settings->save();
 
-		//ai settings.
-	    $aiSettings->allow_global_ai = $request->has('allow_global_ai');
-		$aiSettings->allow_user_ai = $request->has('allow_user_ai');
-		$aiSettings->capture_ai_queries = $request->has('capture_ai_queries');
-		$aiSettings->allow_prompt_editing = $request->has('allow_prompt_editing');
-		if($aiSettings->allow_global_ai)
-		{
-			$aiSettings->default_system_connection = IntegrationConnection::find($data['default_system_connection']);
-			if($aiSettings->default_system_connection)
-				$aiSettings->default_model = Llm::find($data['default_model']);
-		}
-		$aiSettings->save();
+        // ai settings.
+        $aiSettings->allow_global_ai = $request->has('allow_global_ai');
+        $aiSettings->allow_user_ai = $request->has('allow_user_ai');
+        $aiSettings->capture_ai_queries = $request->has('capture_ai_queries');
+        $aiSettings->allow_prompt_editing = $request->has('allow_prompt_editing');
+        if ($aiSettings->allow_global_ai) {
+            $aiSettings->default_system_connection = IntegrationConnection::find($data['default_system_connection']);
+            if ($aiSettings->default_system_connection) {
+                $aiSettings->default_model = Llm::find($data['default_model']);
+            }
+        }
+        $aiSettings->save();
 
         return redirect()
             ->route('settings.school')

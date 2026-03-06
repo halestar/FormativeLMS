@@ -12,17 +12,18 @@ use Illuminate\Support\Facades\App;
 
 class IntegrationSeeder extends Seeder
 {
-	/**
-	 * Run the database seeds.
-	 */
-	public function run(): void
-	{
-		//register the integrations here.
-		$manager = App::make(IntegrationsManager::class);
-		$manager->registerIntegrator(LocalIntegrator::class, true);
-		$manager->registerIntegrator(GoogleIntegrator::class, false);
-		//Assign basic permissions
-		foreach(Integrator::all() as $integrator)
-			$integrator->assignRole([SchoolRoles::$EMPLOYEE, SchoolRoles::$STUDENT, SchoolRoles::$PARENT]);
-	}
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        // register the integrations here.
+        $manager = App::make(IntegrationsManager::class);
+        $manager->registerIntegrator(LocalIntegrator::class, true);
+        // $manager->registerIntegrator(GoogleIntegrator::class, false);
+        // Assign basic permissions
+        foreach (Integrator::all() as $integrator) {
+            $integrator->assignRole([SchoolRoles::$EMPLOYEE, SchoolRoles::$STUDENT, SchoolRoles::$PARENT]);
+        }
+    }
 }

@@ -10,7 +10,7 @@
             <span class="badge text-bg-danger ms-2">{{ __('integrators.local.ai.verified.no') }}</span>
         @endif
     </h4>
-    <form action="{{ route('integrators.google.services.ai.update') }}" method="POST">
+    <form action="{{ route('integrators.local.services.ai.config.update') }}" method="POST">
         @csrf
         @error('endpoint')
         <div class="alert alert-danger" role="alert">{{ $message }}</div>

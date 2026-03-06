@@ -2,25 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Routing\Controllers\HasMiddleware;
-
-class HomeController extends Controller implements HasMiddleware
+class HomeController extends Controller
 {
-	
-	public static function middleware()
-	{
-		return ['auth'];
-	}
-	
-	/**
-	 * Show the application dashboard.
-	 *
-	 * @return \Illuminate\Contracts\Support\Renderable
-	 */
-	public function index()
-	{
-		$person = auth()->user();
-		return view('home', compact('person'));
-	}
+    public static function middleware()
+    {
+        return ['auth'];
+    }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function index()
+    {
+        $person = auth()->user();
+
+        return view('home', compact('person'));
+    }
 }

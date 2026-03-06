@@ -46,7 +46,7 @@
                                     }
                                     else if(files.length > 1)
                                     {
-                                            $wire.upload('uploadedFiles', files[0], (uploadedFilename) => { uploading = false; $wire.uploadFiles()},
+                                            $wire.uploadMultiple('uploadedFiles', files[0], (uploadedFilename) => { uploading = false; $wire.uploadFiles()},
                                                 (event) => { ul_error = true; console.log(event)},
                                                 (event) => { progress = event.detail.progress },
                                                 () => {});

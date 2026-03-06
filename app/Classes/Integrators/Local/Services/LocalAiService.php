@@ -25,7 +25,7 @@ class LocalAiService extends LmsIntegrationService
      */
     public static function getServiceName(): string
     {
-        return 'Local AI Service';
+        return __('integrators.local.ai');
     }
 
     /**
@@ -33,7 +33,7 @@ class LocalAiService extends LmsIntegrationService
      */
     public static function getServiceDescription(): string
     {
-        return 'A local AI service for testing and development purposes.';
+        return __('integrators.local.ai.description');
     }
 
     /**
@@ -49,7 +49,7 @@ class LocalAiService extends LmsIntegrationService
      */
     public static function canConnectToPeople(): bool
     {
-        return true;
+        return false;
     }
 
     /**
@@ -68,12 +68,55 @@ class LocalAiService extends LmsIntegrationService
         return 'ai';
     }
 
-    /**
-     * {@inheritDoc}
-     */
-    public static function canBeConfigured(): bool
+    public function canEnable(): bool
     {
         return true;
+    }
+
+    public function getConnectionClass(): string
+    {
+        return LocalAiConnection::class;
+    }
+
+    public function canConnect(?Person $person = null): bool
+    {
+        // a person can't ever have a personal connection
+        if ($person) {
+            return false;
+        }
+
+        // To connect to a system connection, they must register first, so they can only connect if they have a connection
+        return $this->hasConnection();
+    }
+
+    public function canRegister(?Person $person = null): bool
+    {
+        // Only the system can register a connection
+        return $person === null;
+    }
+
+    public static function canConfigure(?Person $person = null): bool
+    {
+        // only the system can configure.
+        return $person == null;
+    }
+
+    public function registrationUrl(?Person $person = null): ?string
+    {
+        if ($person) {
+            return null;
+        }
+
+        return route(Integrator::INTEGRATOR_ACTION_PREFIX.LocalIntegrator::getPath().'.services.ai.config');
+    }
+
+    public function configurationUrl(?Person $person = null): ?string
+    {
+        if (! $person) {
+            return route(Integrator::INTEGRATOR_ACTION_PREFIX.LocalIntegrator::getPath().'.services.ai.config');
+        }
+
+        return route(Integrator::INTEGRATOR_ACTION_PREFIX.LocalIntegrator::getPath().'.services.ai.config.personal');
     }
 
     public function testConnection($endpoint): bool
@@ -85,84 +128,5 @@ class LocalAiService extends LmsIntegrationService
         }
 
         return $response->body() == 'Ollama is running';
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function canConnect(Person $person): bool
-    {
-        return false;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getConnectionClass(): string
-    {
-        return LocalAiConnection::class;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function canSystemConnect(): bool
-    {
-        /*
-         * It seems like a chicken and the egg problem, where if there isn't a connection established, then
-         * it won't let you connect, but how do you establish a connection if this needs to return true?
-         * Simple, this forces the connection to have to be created manually, and the only code that has this is
-         * is delegated to is the 3-rd partyy code. Thus, they will need to register the system service, mainly
-         * through the settings URL.
-         */
-        return $this->hasSystemConnection() != null;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getSystemConnectionClass(): string
-    {
-        return LocalAiConnection::class;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function canRegister(): bool
-    {
-        return true;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function registrationUrl(): string
-    {
-        return route(Integrator::INTEGRATOR_ACTION_PREFIX.LocalIntegrator::getPath().'.services.ai.preferences.personal');
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function systemAutoconnect(): bool
-    {
-        return false;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function configurationUrl(): string
-    {
-        return route(Integrator::INTEGRATOR_ACTION_PREFIX.LocalIntegrator::getPath().'.services.ai.preferences');
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function canEnable(): bool
-    {
-        return $this->canSystemConnect();
     }
 }

@@ -8,8 +8,10 @@ use App\Models\People\Person;
 abstract class LmsIntegrationService extends IntegrationService
 {
     /*****************************************
-     * CONNECTIONS TO USERS
-     */
+     * BASIC SERVICE INFO
+     * This section describes what the service is and what it contains. Most of these
+     * methods are used when registering the service to the system.
+     *****************************************/
 
     /**
      * @return IntegratorServiceTypes The type of service this is.
@@ -32,7 +34,7 @@ abstract class LmsIntegrationService extends IntegrationService
     abstract public static function getDefaultData(): array;
 
     /**
-     * @return bool Whether this service can connect to a user in the systsem
+     * @return bool Whether this service can connect to a user in the system
      */
     abstract public static function canConnectToPeople(): bool;
 
@@ -42,277 +44,71 @@ abstract class LmsIntegrationService extends IntegrationService
     abstract public static function canConnectToSystem(): bool;
 
     /**
-     * @return string THis will return the path name that it will prepend anytime a route needs to access this service
+     * @return string This will return the path name that it will prepend anytime a route needs to access this service
      */
     abstract public static function getPath(): string;
 
     /**
-     * @return bool Whether this integration service can be configured.
-     */
-    abstract public static function canBeConfigured(): bool;
-
-    /**
-     * Attempts to connect this service to the person.
+     * This should return true if the service can be auto-enabled or if the correct conditions are set for the service
+     * to be enabled.
      *
-     * @param  Person  $person  The person to connect to
-     * @return IntegrationConnection|null Returns the connection if it was successfully connected, else null.
+     * @return bool Whether this service can be enabled at the current time.
      */
-    final public function connect(Person $person): ?IntegrationConnection
-    {
-        // check if we can connect to this person
-        if (! $this->ableToConnect($person)) {
-            return null;
-        }
-        // check if the connection already exists
-        if ($this->isConnectedTo($person)) {
-            return $this->activeConnection;
-        }
-        // if we're connected to someone else, close the connection
-        if ($this->isConnected()) {
-            $this->closeConnection();
-        }
-        // since we can connect, check if the connection is already established, else establish it.
-        if (! $this->hasServiceConnection($person)) {
-            $data =
-                [
-                    'data' => ($this->getConnectionClass())::getInstanceDefault(),
-                    'className' => $this->getConnectionClass(),
-                    'enabled' => true,
-                ];
-            $this->registerServiceConnection($person, $data);
-        }
-        // attempt to get the connection
-        $connection = $this->getServiceConnection($person);
-        // but is it enabled?
-        if ($connection->enabled) {
-            $this->activeConnection = $connection;
-        }
-
-        return $this->activeConnection;
-    }
-
-    final public function ableToConnect(Person $person)
-    {
-
-        return $this->enabled && $this->integrator->enabled && $person->hasAnyRole($this->schoolRoles) && $this->canConnect($person);
-    }
-
-    /**
-     * @param  Person  $person  The person to establish the connection with
-     * @return bool Whether a connection between this service and the person can be established. If false, it means
-     *              The user must attempt to register the connection first, thus establishing the connection.
-     */
-    abstract public function canConnect(Person $person): bool;
-
-    /**
-     * @param  Person  $person  The person to check if we're connected to.
-     * @return bool Whether we're connected to the person.
-     */
-    final public function isConnectedTo(Person $person): bool
-    {
-        return $this->isConnected() && $this->activeConnection->person_id == $person->id;
-    }
-
-    /**
-     * @return bool Whether there is a connection already established.
-     */
-    final public function isConnected(): bool
-    {
-        return $this->activeConnection !== null;
-    }
-
-    /**
-     * This function closes the existing connection
-     */
-    final public function closeConnection(): void
-    {
-        $this->activeConnection = null;
-    }
-
-    /**
-     * @param  Person  $person  The person to check if we have a connection to.
-     * @return bool Whether the person has a connection to this service.
-     */
-    public function hasServiceConnection(Person $person): bool
-    {
-        return $this->personalConnections()
-            ->where('person_id', $person->id)
-            ->exists();
-    }
+    abstract public function canEnable(): bool;
 
     /**
      * @return string The class name to use for the connection.
      */
     abstract public function getConnectionClass(): string;
 
-    public function registerServiceConnection(Person $person, $data = null): void
-    {
-        $this->personalConnections()
-            ->attach($person->id, $data);
-    }
+    /*****************************************
+     * ACCESS TO SERVICE
+     * This defines the 3 ways that the user or system can interact with this service:
+     * - Connect: whether the user or system can currently connect to this service.
+     * - Register: whether the user or system can register with the service in order to connect.
+     * - Configure: whether the connection between the user or system can be configured.
+     *****************************************/
+
+    /**
+     * @param  Person|null  $person  The person to establish the connection with or null if it's the system.
+     * @return bool Whether a connection between this service and the person/system can be established. If false, it means
+     *              The user must attempt to register the connection first to be able to connect.
+     */
+    abstract public function canConnect(?Person $person = null): bool;
+
+    /**
+     * @param  Person|null  $person  The person to register the connection with or null if it's the system.
+     * @return bool Whether the person or system can register to this service.
+     */
+    abstract public function canRegister(?Person $person = null): bool;
+
+    /**
+     * @param  Person|null  $person  The person to configure the connection with or null if it's the system.
+     * @return bool Whether this integration service can be configured by the user or service.
+     */
+    abstract public static function canConfigure(?Person $person = null): bool;
 
     /*****************************************
-     * INSTANCED ABSTRACT FUNCTIONS
-     */
-
-    public function getServiceConnection(Person $person, ?array $registerData = null): ?IntegrationConnection
-    {
-        if (is_array($registerData) && ! $this->hasServiceConnection($person)) {
-            $this->registerServiceConnection($person, $registerData);
-        }
-
-        return IntegrationConnection::where('service_id', $this->id)
-            ->where('person_id', $person->id)
-            ->first();
-    }
+     * URLs
+     * This section describes the URL's to the registration and configuration pages. Connections are all done
+     * through code, so there are no pages for that.
+     *****************************************/
 
     /**
-     * This function erasaes the connection between this service and the person.  It also erases saved settings.
+     * This is the URL that the users/system will be redirected to if they need to register to the service. This can be
+     * a redirect link to authenticate, or a form to fill in.
      *
-     * @param  Person|null  $person  The person to disconnect from. If null, we're disconnecting from the person we're currently connected to
+     * @param  Person|null  $person  The person trying to register to the service. Null if it's the system attempting this.
+     * @return string|null The route to the registration page, null if there isn't one.
      */
-    public function forgetConnection(): void
-    {
-        if ($this->activeConnection) {
-            $this->forgetServiceConnection($this->activeConnection->person);
-        }
-    }
-
-    public function forgetServiceConnection(Person $person): void
-    {
-        $this->personalConnections()
-            ->detach($person->id);
-    }
-
-    public function forgetSystemServiceConnection(): void
-    {
-        IntegrationConnection::where('service_id', $this->id)
-            ->where('person_id', null)
-            ->delete();
-    }
+    abstract public function registrationUrl(?Person $person = null): ?string;
 
     /**
-     * This function attempts to connect this service to the FABLMS system.
+     * This is the URL that the users/system will be redirected to when they need to configure this service. Note that
+     * this is only possible when the connection exists.
      *
-     * @return LmsIntegrationConnection|null Returns the established connection, null otherwise.
+     * @param  Person|null  $person  The person trying to configure to the service. Null if it's the system attempting this.
+     * @return string|null The url to the entry point of the configuration page for this integration service.
      */
-    public function connectToSystem(): ?IntegrationConnection
-    {
-        // check if we can connect to system.
-        if (! $this->canSystemConnect()) {
-            return null;
-        }
-        // check if the connection already exists
-        if ($this->isConnectedToSystem()) {
-            return $this->activeConnection;
-        }
-        // if we're connected to someone else, close the connection
-        if ($this->isConnected()) {
-            $this->closeConnection();
-        }
-        // since we can connect, check if the connection is already established.
-        if (! $this->hasSystemConnection()) {
-            $data =
-                [
-                    'data' => ($this->getSystemConnectionClass())::getSystemInstanceDefault(),
-                    'enabled' => true,
-                ];
-            $this->registerSystemServiceConnection($data);
-        }
-        // if we're connected to the system, save the connection and return true.
-        $this->activeConnection = $this->getSystemServiceConnection();
-
-        return $this->activeConnection;
-
-    }
-
-    /**
-     * Similar to the above function, but for the system connection
-     *
-     * @return bool Whether a connection between this service and the system can be established.
-     */
-    abstract public function canSystemConnect(): bool;
-
-    /**
-     * @return bool Whether we're connected to the FABLMS system.
-     */
-    public function isConnectedToSystem(): bool
-    {
-        return $this->isConnected() && $this->activeConnection->person_id == null;
-    }
-
-    /*****************************************
-     * CONNECTIONS TO SYSTEM
-     */
-
-    public function hasSystemConnection(): bool
-    {
-        return IntegrationConnection::where('service_id', $this->id)
-            ->where('person_id', null)
-            ->exists();
-    }
-
-    /*****************************************
-     * STATIC ABSTRACT FUNCTIONS
-     */
-
-    /**
-     * @return string The class name to use for the connection to the system
-     */
-    abstract public function getSystemConnectionClass(): string;
-
-    public function registerSystemServiceConnection($data = null): void
-    {
-        $data['className'] = $this->getSystemConnectionClass();
-        IntegrationConnection::updateOrCreate(['person_id' => null, 'service_id' => $this->id], $data);
-    }
-
-    public function getSystemServiceConnection(): ?IntegrationConnection
-    {
-        return IntegrationConnection::where('service_id', $this->id)
-            ->where('person_id', null)
-            ->first();
-    }
-
-    public function forgetSystemConnection(): void
-    {
-        if (! $this->isConnectedToSystem()) {
-            return;
-        }
-        $this->activeConnection->delete();
-    }
-
-    /**
-     * This function is slightly different from the connection functions. In some cases, people might be able
-     * to connect to a service, but not until they enter some data, such as a key or an authentication code.
-     * In those cases, while it is might not be possible to connect, it might be possible to register to this
-     * service in order to be able to connect. This function will return true if users (not the system, as that is
-     * handled through the autoconnect function) can register to this service.
-     *
-     * @return bool Whether users may register to the connection.
-     */
-    abstract public function canRegister(): bool;
-
-    /**
-     * If users ARE going to be able to register to this service, this function will return the route with a form
-     * that will allow them to register them for the service and connect them.
-     *
-     * @return string The route to the registration page.
-     */
-    abstract public function registrationUrl(): string;
-
-    /**
-     * @return bool Whether this service should be autoconnected to the system on registration
-     */
-    abstract public function systemAutoconnect(): bool;
-
-    /**
-     * @return string The url to the entry point of the configuration page for this integration service.
-     */
-    abstract public function configurationUrl(): string;
-
-    /**
-     * @return bool Whether this service can be enabled.
-     */
-    abstract public function canEnable(): bool;
+    abstract public function configurationUrl(?Person $person = null): ?string;
 }

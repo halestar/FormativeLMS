@@ -10,6 +10,8 @@ return
         'menu.cms' => 'CMS',
         'menu.system.tables' => 'System Tables',
         'menu.fields' => 'Field Permissions',
+        'menu.features' => 'Features',
+        'menu.features.substitutes' => 'Substitutes',
         'menu.home' => 'Home',
         'menu.id' => 'Manage School Ids',
         'menu.integrators' => 'Integrators',

@@ -1,92 +1,40 @@
 <div>
     <ul class="list-group">
-        @foreach($integrators as $integrator)
-            <li class="list-group-item text-bg-secondary" wire:key="{{ $integrator->id }}">
+        @forelse($integrators as $integrator)
+            <li class="list-group-item text-bg-secondary" wire:key="{{ $integrator['integrator']->id }}">
                 <div class="integrator-container d-flex justify-content-between align-items-center">
-                    <span>{{ $integrator->name }}</span>
-                    @if($integrator->isIntegrated($person))
-                        <div x-data="{ hovering: false }"
-                             @mouseover="hovering = true"
-                             @mouseout="hovering = false"
-                        >
-                            <span x-show="!hovering" x-cloak class="text-success"><i
-                                        class="fa-solid fa-circle"></i></span>
-                            <button x-show="hovering"
-                                    type="button"
-                                    class="btn btn-danger btn-sm"
-                                    role="button"
-                                    x-cloak
-                                    wire:click="removeIntegration({{ $integrator->id }})"
-                            >{{ __('common.disconnect') }}</button>
-                        </div>
-                    @else
-                        <div x-data="{ hovering: false }"
-                             @mouseover="hovering = true"
-                             @mouseout="hovering = false"
-                        >
-                            <span x-show="!hovering" x-cloak class="text-danger"><i
-                                        class="fa-solid fa-circle"></i></span>
-                            <a x-show="hovering"
-                               class="btn btn-success btn-sm"
-                               role="button"
-                               x-cloak
-                               href="{{ $integrator->integrationUrl($person)}}"
-                            >{{ __('common.connect') }}</a>
-                        </div>
-                    @endif
+                    <span>{{ $integrator['integrator']->name }}</span>
                 </div>
             </li>
-            @if($integrator->isIntegrated($person))
-                @foreach($integrator->services()->personal()->get() as $service)
-                    @continue(!$service->canConnect($person) && !$service->canRegister())
-                    <li class="list-group-item text-bg-secondary d-flex justify-content-between align-items-center ps-5"
-                        wire:key="{{ $integrator->id . "_" . $service->id }}">
-                        <span>{{ $service->name }}</span>
-                        @if($service->connect($person))
-                            <div x-data="{ hovering: false }"
-                                 @mouseover="hovering = true"
-                                 @mouseout="hovering = false"
-                            >
-                                <span x-show="!hovering" x-cloak class="text-success"><i class="fa-solid fa-circle"></i></span>
-                                <button x-show="hovering"
-                                        x-cloak
-                                        type="button"
-                                        class="btn btn-danger btn-sm"
-                                        role="button"
-                                        wire:click="disableService({{ $service->id }})"
-                                >{{ __('common.disconnect') }}</button>
-                            </div>
-                        @elseif($service->canRegister())
-                            <div x-data="{ hovering: false }"
-                                 @mouseover="hovering = true"
-                                 @mouseout="hovering = false"
-                            >
-                                <span x-show="!hovering" x-cloak class="text-danger"><i class="fa-solid fa-circle"></i></span>
-                                <a x-show="hovering"
-                                   x-cloak
-                                   class="btn btn-success btn-sm text-lowercase text-sm"
-                                   role="button"
-                                   href="{{ $service->registrationUrl() }}"
-                                >{{ __('common.register') }}</a>
-                            </div>
+            @foreach($integrator['services'] as $service)
+                <li class="list-group-item text-bg-secondary d-flex justify-content-between align-items-center ps-5"
+                    wire:key="{{ $integrator['integrator']->id . "_" . $service['service']->id }}">
+                    <span>{{ $service['service']->name }}</span>
+                    @if($service['connection'])
+                        @if($service['service']->canConfigure($person))
+                            <a class="btn btn-success btn-sm text-lowercase text-sm"
+                               role="button"
+                               href="{{ $service['service']->configurationUrl($person) }}"
+                            >{{ __('common.configure') }}</a>
                         @else
-                            <div x-data="{ hovering: false }"
-                                 @mouseover="hovering = true"
-                                 @mouseout="hovering = false"
-                            >
-                                <span x-show="!hovering" x-cloak class="text-danger"><i class="fa-solid fa-circle"></i></span>
-                                <button x-show="hovering"
-                                        x-cloak
-                                        type="button"
-                                        class="btn btn-success btn-sm"
-                                        role="button"
-                                        wire:click="enableService({{ $service->id }})"
-                                >{{ __('common.connect') }}</button>
-                            </div>
+                            <livewire:utilities.model-switch
+                                    :model="$service['connection']"
+                                    key="enabled"
+                                    el-id="service_{{ $service['service']->id }}"
+                            />
                         @endif
-                    </li>
-                @endforeach
-            @endif
-        @endforeach
+                    @else
+                        <a x-show="hovering"
+                           x-cloak
+                           class="btn btn-success btn-sm text-lowercase text-sm"
+                           role="button"
+                           href="{{ $service['service']->registrationUrl($person) }}"
+                        >{{ __('common.register') }}</a>
+                    @endif
+                </li>
+            @endforeach
+        @empty
+            <li class="list-group-item list-group-item-info text-muted">{{ __('integrators.integrations.available.no') }}</li>
+        @endforelse
     </ul>
 </div>

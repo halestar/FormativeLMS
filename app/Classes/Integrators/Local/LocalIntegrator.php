@@ -13,11 +13,15 @@ use App\Classes\Integrators\Local\Services\LocalWorkFilesService;
 use App\Enums\IntegratorServiceTypes;
 use App\Http\Controllers\LocalIntegratorController;
 use App\Models\Integrations\LmsIntegrator;
-use App\Models\People\Person;
 use Illuminate\Support\Facades\Route;
 
 class LocalIntegrator extends LmsIntegrator
 {
+    public static function getPath(): string
+    {
+        return 'local';
+    }
+
     public static function integratorName(): string
     {
         return __('integrators.local');
@@ -33,6 +37,11 @@ class LocalIntegrator extends LmsIntegrator
         return [];
     }
 
+    public static function getVersion(): string
+    {
+        return '0.3';
+    }
+
     public static function canConnectToPeople(): bool
     {
         return true;
@@ -41,11 +50,6 @@ class LocalIntegrator extends LmsIntegrator
     public static function canConnectToSystem(): bool
     {
         return false;
-    }
-
-    public static function getPath(): string
-    {
-        return 'local';
     }
 
     public static function canBeConfigured(): bool
@@ -67,12 +71,7 @@ class LocalIntegrator extends LmsIntegrator
 
     public function isOutdated(): bool
     {
-        return $this->integrator->version != LocalIntegrator::getVersion();
-    }
-
-    public static function getVersion(): string
-    {
-        return '0.3';
+        return $this->version != LocalIntegrator::getVersion();
     }
 
     public function hasService(IntegratorServiceTypes $type): bool
@@ -84,6 +83,11 @@ class LocalIntegrator extends LmsIntegrator
             $type == IntegratorServiceTypes::EMAIL ||
             $type == IntegratorServiceTypes::SMS ||
             $type == IntegratorServiceTypes::AI;
+    }
+
+    public function getImageUrl(): string
+    {
+        return asset('images/local_service.png');
     }
 
     public function publishRoutes(): void
@@ -118,46 +122,11 @@ class LocalIntegrator extends LmsIntegrator
                     ->name('services.classes.preferences.update')
                     ->withoutMiddleware(['can:settings.integrators']);
 
-                // ai service
-                Route::get('/services/ai/preferences', 'aiPreferences')
-                    ->name('services.ai.preferences')
-                    ->withoutMiddleware(['can:settings.integrators']);
-                Route::post('/services/ai/preferences', 'aiPreferences_update')
-                    ->name('services.ai.preferences.update')
-                    ->withoutMiddleware(['can:settings.integrators']);
-
-                // ai preferences
-                Route::get('/services/ai/preferences/personal', 'aiPreferencesPersonal')
-                    ->name('services.ai.preferences.personal');
-                Route::post('/services/ai/preferences/personal', 'aiPreferencesPersonal_update')
-                    ->name('services.ai.preferences.personal.update');
+                // ai system config
+                Route::get('/services/ai/config', 'aiPreferences')
+                    ->name('services.ai.config');
+                Route::post('/services/ai/config', 'aiPreferences_update')
+                    ->name('services.ai.config.update');
             });
-    }
-
-    public function configurationUrl(): string
-    {
-        return '';
-    }
-
-    public function getImageUrl(): string
-    {
-        return asset('images/local_service.png');
-    }
-
-    public function isIntegrated(Person $person): bool
-    {
-        return true;
-    }
-
-    public function integrationUrl(Person $person): string
-    {
-        return '#';
-    }
-
-    public function removeIntegration(Person $person): void {}
-
-    protected function canIntegrate(Person $person): bool
-    {
-        return true;
     }
 }

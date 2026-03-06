@@ -10,93 +10,76 @@ use App\Models\People\Person;
 
 class LocalDocumentsService extends LmsIntegrationService
 {
-	
-	public static function getServiceType(): IntegratorServiceTypes
-	{
-		return IntegratorServiceTypes::DOCUMENTS;
-	}
-	
-	public static function getServiceName(): string
-	{
-		return __('integrators.local.documents');
-	}
-	
-	public static function getServiceDescription(): string
-	{
-		return __('integrators.local.documents.description');
-	}
-	
-	public static function getDefaultData(): array
-	{
-		return
-			[
-				'documents_disk' => config('lms.storage.documents'),
-			];
-	}
-	
-	public static function canConnectToPeople(): bool
-	{
-		return true;
-	}
-	
-	public static function canConnectToSystem(): bool
-	{
-		return false;
-	}
-	
-	public static function getPath(): string
-	{
-		return "documents";
-	}
-	
-	public static function canBeConfigured(): bool
-	{
-		return true;
-	}
-	
-	public function canConnect(Person $person): bool
-	{
-		return true;
-	}
-	
-	public function getConnectionClass(): string
-	{
-		return LocalDocumentsConnection::class;
-	}
-	
-	public function getSystemConnectionClass(): string
-	{
-		return '';
-	}
-	
-	public function configurationUrl(): string
-	{
-		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.documents.index');
-	}
-	
-	public function systemAutoconnect(): bool
-	{
-		return false;
-	}
-	
-	public function canSystemConnect(): bool
-	{
-		return false;
-	}
-	
-	
-	public function canRegister(): bool
-	{
-		return false;
-	}
-	
-	public function registrationUrl(): string
-	{
-		return '';
-	}
+    public static function getServiceType(): IntegratorServiceTypes
+    {
+        return IntegratorServiceTypes::DOCUMENTS;
+    }
+
+    public static function getServiceName(): string
+    {
+        return __('integrators.local.documents');
+    }
+
+    public static function getServiceDescription(): string
+    {
+        return __('integrators.local.documents.description');
+    }
+
+    public static function getDefaultData(): array
+    {
+        return
+            [
+                'documents_disk' => config('lms.storage.documents'),
+            ];
+    }
+
+    public static function canConnectToPeople(): bool
+    {
+        return true;
+    }
+
+    public static function canConnectToSystem(): bool
+    {
+        return false;
+    }
+
+    public static function getPath(): string
+    {
+        return 'documents';
+    }
 
     public function canEnable(): bool
     {
         return true;
+    }
+
+    public function getConnectionClass(): string
+    {
+        return LocalDocumentsConnection::class;
+    }
+
+    public function canConnect(?Person $person = null): bool
+    {
+        return true;
+    }
+
+    public function canRegister(?Person $person = null): bool
+    {
+        return false;
+    }
+
+    public static function canConfigure(?Person $person = null): bool
+    {
+        return $person != null;
+    }
+
+    public function registrationUrl(?Person $person = null): ?string
+    {
+        return null;
+    }
+
+    public function configurationUrl(?Person $person = null): ?string
+    {
+        return route(Integrator::INTEGRATOR_ACTION_PREFIX.'local.documents.index');
     }
 }

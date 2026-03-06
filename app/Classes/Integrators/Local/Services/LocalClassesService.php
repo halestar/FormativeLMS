@@ -10,165 +10,118 @@ use App\Livewire\School\ClassManagement\ClassPageChat;
 use App\Livewire\School\ClassManagement\ClassRoster;
 use App\Livewire\School\ClassManagement\ClassSchedule;
 use App\Livewire\School\ClassManagement\LearningDemonstrations;
-use App\Livewire\School\ClassManagement\TopAnnouncement;
 use App\Models\Integrations\Integrator;
 use App\Models\Integrations\LmsIntegrationService;
 use App\Models\People\Person;
-use App\Models\SubjectMatter\Components\ClassStatus;
 
 class LocalClassesService extends LmsIntegrationService
 {
-	/**
-	 * @inheritDoc
-	 */
-	public static function getServiceType(): IntegratorServiceTypes
-	{
-		return IntegratorServiceTypes::CLASSES;
-	}
+    /**
+     * {@inheritDoc}
+     */
+    public static function getServiceType(): IntegratorServiceTypes
+    {
+        return IntegratorServiceTypes::CLASSES;
+    }
 
-	/**
-	 * @inheritDoc
-	 */
-	public static function getServiceName(): string
-	{
-		return __('integrators.local.classes');
-	}
+    /**
+     * {@inheritDoc}
+     */
+    public static function getServiceName(): string
+    {
+        return __('integrators.local.classes');
+    }
 
-	/**
-	 * @inheritDoc
-	 */
-	public static function getServiceDescription(): string
-	{
-		return __('integrators.local.classes.description');
-	}
+    /**
+     * {@inheritDoc}
+     */
+    public static function getServiceDescription(): string
+    {
+        return __('integrators.local.classes.description');
+    }
 
-	/**
-	 * @inheritDoc
-	 */
-	public static function getDefaultData(): array
-	{
-		return
+    /**
+     * {@inheritDoc}
+     */
+    public static function getDefaultData(): array
+    {
+        return
         [
-            'available' =>
-            [
+            'available' => [
                 ClassAnnouncements::class => __('subjects.school.widgets.class-announcements'),
                 ClassLinks::class => __('subjects.school.widgets.class-links'),
-	            ClassPageChat::class => __('school.messages'),
-	            LearningDemonstrations::class => __('learning.demonstrations.viewer'),
-	            ClassSchedule::class => __('subjects.class.schedule'),
-	            ClassRoster::class => __('school.classes.roster'),
+                ClassPageChat::class => __('school.messages'),
+                LearningDemonstrations::class => __('learning.demonstrations.viewer'),
+                ClassSchedule::class => __('subjects.class.schedule'),
+                ClassRoster::class => __('school.classes.roster'),
             ],
-            'required' =>
-            [
-	            ClassPageChat::class,
-	            LearningDemonstrations::class,
+            'required' => [
+                ClassPageChat::class,
+                LearningDemonstrations::class,
             ],
-	        'optional' =>
-	        [
-		        ClassAnnouncements::class,
-		        ClassLinks::class,
-	        ],
+            'optional' => [
+                ClassAnnouncements::class,
+                ClassLinks::class,
+            ],
         ];
-	}
+    }
 
-	/**
-	 * @inheritDoc
-	 */
-	public static function canConnectToPeople(): bool
-	{
-		return false;
-	}
+    /**
+     * {@inheritDoc}
+     */
+    public static function canConnectToPeople(): bool
+    {
+        return false;
+    }
 
-	/**
-	 * @inheritDoc
-	 */
-	public static function canConnectToSystem(): bool
-	{
-		return true;
-	}
+    /**
+     * {@inheritDoc}
+     */
+    public static function canConnectToSystem(): bool
+    {
+        return true;
+    }
 
-	/**
-	 * @inheritDoc
-	 */
-	public static function getPath(): string
-	{
-		return 'classes';
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public static function canBeConfigured(): bool
-	{
-		return true;
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function canConnect(Person $person): bool
-	{
-		return false;
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function getConnectionClass(): string
-	{
-		return '';
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function canSystemConnect(): bool
-	{
-		return true;
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function getSystemConnectionClass(): string
-	{
-		return LocalClassesConnection::class;
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function canRegister(): bool
-	{
-		return false;
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function registrationUrl(): string
-	{
-		return '';
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function systemAutoconnect(): bool
-	{
-		return true;
-	}
-
-	/**
-	 * @inheritDoc
-	 */
-	public function configurationUrl(): string
-	{
-		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.classes.index');
-	}
+    /**
+     * {@inheritDoc}
+     */
+    public static function getPath(): string
+    {
+        return 'classes';
+    }
 
     public function canEnable(): bool
     {
         return true;
+    }
+
+    public function getConnectionClass(): string
+    {
+        return LocalClassesConnection::class;
+    }
+
+    public function canConnect(?Person $person = null): bool
+    {
+        return false;
+    }
+
+    public function canRegister(?Person $person = null): bool
+    {
+        return false;
+    }
+
+    public static function canConfigure(?Person $person = null): bool
+    {
+        return true;
+    }
+
+    public function registrationUrl(?Person $person = null): ?string
+    {
+        return null;
+    }
+
+    public function configurationUrl(?Person $person = null): ?string
+    {
+        return route(Integrator::INTEGRATOR_ACTION_PREFIX.'local.classes.index');
     }
 }

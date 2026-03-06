@@ -9,9 +9,8 @@ use App\Models\People\Person;
 
 class LocalSmsService extends LmsIntegrationService
 {
-
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getServiceType(): IntegratorServiceTypes
     {
@@ -19,7 +18,7 @@ class LocalSmsService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getServiceName(): string
     {
@@ -27,7 +26,7 @@ class LocalSmsService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getServiceDescription(): string
     {
@@ -35,7 +34,7 @@ class LocalSmsService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getDefaultData(): array
     {
@@ -43,7 +42,7 @@ class LocalSmsService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function canConnectToPeople(): bool
     {
@@ -51,7 +50,7 @@ class LocalSmsService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function canConnectToSystem(): bool
     {
@@ -59,90 +58,45 @@ class LocalSmsService extends LmsIntegrationService
     }
 
     /**
-     * @inheritDoc
+     * {@inheritDoc}
      */
     public static function getPath(): string
     {
-        return "sms";
+        return 'sms';
     }
 
-    /**
-     * @inheritDoc
-     */
-    public static function canBeConfigured(): bool
-    {
-        return false;
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function canConnect(Person $person): bool
-    {
-        return false;
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function getConnectionClass(): string
-    {
-        return '';
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function canSystemConnect(): bool
+    public function canEnable(): bool
     {
         return true;
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function getSystemConnectionClass(): string
+    public function getConnectionClass(): string
     {
         return LocalSmsConnection::class;
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function canRegister(): bool
+    public function canConnect(?Person $person = null): bool
+    {
+        return $person == null;
+    }
+
+    public function canRegister(?Person $person = null): bool
     {
         return false;
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function registrationUrl(): string
+    public static function canConfigure(?Person $person = null): bool
     {
-        return '';
+        return false;
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function systemAutoconnect(): bool
+    public function registrationUrl(?Person $person = null): ?string
     {
-        return true;
+        return null;
     }
 
-    /**
-     * @inheritDoc
-     */
-    public function configurationUrl(): string
+    public function configurationUrl(?Person $person = null): ?string
     {
-        return '';
-    }
-
-    /**
-     * @inheritDoc
-     */
-    public function canEnable(): bool
-    {
-        return true;
+        return null;
     }
 }

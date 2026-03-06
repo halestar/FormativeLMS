@@ -94,7 +94,7 @@ class SystemSettingsSeeder extends Seeder
         $work = [];
         // get the local work connection
         $localService = LocalIntegrator::getService(IntegratorServiceTypes::WORK);
-        $localConnection = $localService->connectToSystem();
+        $localConnection = $localService->connect();
         foreach (WorkStoragesInstances::cases() as $workStorage) {
             $work[$workStorage->value] = $localConnection?->id;
         }
@@ -110,7 +110,7 @@ class SystemSettingsSeeder extends Seeder
         );
 
         $commService = LocalIntegrator::getService(IntegratorServiceTypes::EMAIL);
-        $commConnection = $commService->connectToSystem();
+        $commConnection = $commService->connect();
         $communicationsSettings =
         [
             'send_sms' => false,

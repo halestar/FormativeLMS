@@ -2,7 +2,6 @@
 
 namespace App\Classes\Settings;
 
-
 use App\Classes\Integrators\IntegrationsManager;
 use App\Enums\IntegratorServiceTypes;
 use App\Models\Integrations\IntegrationConnection;
@@ -11,19 +10,19 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 
 class CommunicationSettings extends SystemSetting
 {
-	protected static string $settingKey = "communications";
-	
-	protected static function defaultValue(): array
-	{
-		return
-			[
-				"email_connection_id" => null,
-                "email_from" => config('mail.from.name'),
-                "email_from_address" => config('mail.from.address'),
-                "send_sms" => false,
-				"sms_connection_id" => null,
-			];
-	}
+    protected static string $settingKey = 'communications';
+
+    protected static function defaultValue(): array
+    {
+        return
+            [
+                'email_connection_id' => null,
+                'email_from' => config('mail.from.name'),
+                'email_from_address' => config('mail.from.address'),
+                'send_sms' => false,
+                'sms_connection_id' => null,
+            ];
+    }
 
     public function sendSms(): Attribute
     {
@@ -37,34 +36,36 @@ class CommunicationSettings extends SystemSetting
 
     public function emailConnection(): Attribute
     {
-        return Attribute::make
-        (
-            get: function(mixed $value, array $attributes)
-            {
+        return Attribute::make(
+            get: function (mixed $value, array $attributes) {
                 $connectionId = $this->getValue($attributes['value'], 'email_connection_id', null);
-                if(!$connectionId) return null;
+                if (! $connectionId) {
+                    return null;
+                }
+
                 return IntegrationConnection::find($connectionId);
             },
         );
     }
 
-	public function smsConnectionId(): Attribute
-	{
-		return $this->basicProperty('sms_connection_id');
-	}
+    public function smsConnectionId(): Attribute
+    {
+        return $this->basicProperty('sms_connection_id');
+    }
 
-	public function smsConnection(): Attribute
-	{
-		return Attribute::make
-		(
-			get: function(mixed $value, array $attributes)
-			{
-				$connectionId = $this->getValue($attributes['value'], 'sms_connection_id', null);
-				if(!$connectionId) return null;
+    public function smsConnection(): Attribute
+    {
+        return Attribute::make(
+            get: function (mixed $value, array $attributes) {
+                $connectionId = $this->getValue($attributes['value'], 'sms_connection_id', null);
+                if (! $connectionId) {
+                    return null;
+                }
+
                 return IntegrationConnection::find($connectionId);
-			}
-		);
-	}
+            }
+        );
+    }
 
     public function emailFrom(): Attribute
     {
@@ -81,11 +82,12 @@ class CommunicationSettings extends SystemSetting
         $integrationManager = app(IntegrationsManager::class);
         $emailServices = $integrationManager->getAvailableServices(IntegratorServiceTypes::EMAIL);
         $connections = [];
-        foreach($emailServices as $service)
-        {
-            if($service->canConnectToSystem())
-                $connections[] = $service->connectToSystem();
+        foreach ($emailServices as $service) {
+            if ($service->canConnectToSystem()) {
+                $connections[] = $service->connect();
+            }
         }
+
         return $connections;
     }
 
@@ -94,11 +96,12 @@ class CommunicationSettings extends SystemSetting
         $integrationManager = app(IntegrationsManager::class);
         $smsServices = $integrationManager->getAvailableServices(IntegratorServiceTypes::SMS);
         $connections = [];
-        foreach($smsServices as $service)
-        {
-            if($service->canConnectToSystem())
-                $connections[] = $service->connectToSystem();
+        foreach ($smsServices as $service) {
+            if ($service->canConnectToSystem()) {
+                $connections[] = $service->connect();
+            }
         }
+
         return $connections;
     }
 
@@ -111,5 +114,4 @@ class CommunicationSettings extends SystemSetting
     {
         return [];
     }
-
 }

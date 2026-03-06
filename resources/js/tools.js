@@ -101,3 +101,18 @@ function copyLink(originator, url, tooltip_config = {})
         showTooltip(originator, 'Link Copied!', tooltip_config);
     });
 }
+
+function setPersonalPreference(key, value)
+{
+    let params =
+        {
+            key: key,
+            value: value
+        };
+    axios.post('/preference', params)
+        .then(function(response)
+        {
+            console.log(response);
+        })
+        .catch((error) => console.log(error));
+}

@@ -19,7 +19,7 @@ class LocalIntegratorController extends Controller
         // load the auth service
         $authService = LocalIntegrator::getService(IntegratorServiceTypes::AUTHENTICATION);
         // load or establish the system connection.
-        $authSystemConnection = $authService->connectToSystem();
+        $authSystemConnection = $authService->connect();
         $breadcrumb =
             [
                 __('system.menu.integrators') => route('integrators.index'),
@@ -122,8 +122,9 @@ class LocalIntegratorController extends Controller
     {
         $classesService = LocalIntegrator::getService(IntegratorServiceTypes::CLASSES);
         $validation = [];
-        foreach ((array) $classesService->data->available as $widgetClass => $widgetName)
+        foreach ((array) $classesService->data->available as $widgetClass => $widgetName) {
             $validation[$widgetClass] = ['required', Rule::in(['required', 'optional', 'block'])];
+        }
         $data = $request->validate($validation);
         $settings = $classesService->data;
         $settings->required = [];
@@ -172,10 +173,11 @@ class LocalIntegratorController extends Controller
         $user = Auth::user();
         $prefs = Auth::user()->getPreference('classes.local', ['enabled' => false, 'widgets' => []]);
         $prefs['enabled'] = $enabled;
-        if ($enabled)
+        if ($enabled) {
             $prefs['widgets'] = [];
-        else
+        } else {
             $prefs['widgets'] = [];
+        }
         $user->setPreference('classes.local', $prefs);
         $user->save();
 
@@ -193,7 +195,9 @@ class LocalIntegratorController extends Controller
                 $aiService->integrator->name => '#',
                 $aiService->name => '#',
             ];
-        $connection = $aiService->connectToSystem();
+        $connection = $aiService->connect();
+        Log::info(print_r($connection, true));
+
         return view('integrators.local.ai.settings', compact('aiService', 'breadcrumb', 'connection'));
     }
 
@@ -213,14 +217,19 @@ class LocalIntegratorController extends Controller
                 ],
             ])->validate();
         // if we got here, then the endpoint works, so we create a connection.
-        $aiService->registerSystemServiceConnection(
+        $aiService->registerConnection(null,
             [
-                'enabled' => true,
-                'data' => ['endpoint' => $data['endpoint'], 'verified' => true],
+                'endpoint' => $data['endpoint'],
+                'verified' => true,
             ]);
 
         return redirect()
             ->back()
             ->with('success-status', __('integrators.local.ai.connect.success'));
+    }
+
+    public static function middleware()
+    {
+        return [];
     }
 }

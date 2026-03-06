@@ -111,6 +111,22 @@
                         </div>
                     </li>
                     @endhasanyrole
+                    @canany(['substitutes.admin'])
+                        <li class="nav-item dropdown">
+                            <a id="featuresDD" class="nav-link dropdown-toggle" href="#" role="button"
+                               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                {{ __('system.menu.features') }}
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="featuresDD">
+                                @can('substitutes.admin')
+                                    <a class="dropdown-item" href="{{ route('features.substitutes.index') }}">
+                                        {{ __('system.menu.features.substitutes') }}
+                                    </a>
+                                @endcan
+                            </div>
+                        </li>
+                    @endcanany
                     @canany(['crud', 'cms', 'people.roles.fields', 'people.field.permissions'])
                         <li class="nav-item dropdown">
                             <a id="adminDD" class="nav-link dropdown-toggle" href="#" role="button"
