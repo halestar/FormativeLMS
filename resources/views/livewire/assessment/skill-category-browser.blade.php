@@ -1,4 +1,4 @@
-<div class="card text-bg-secondary p-2" style="height: 600px; overflow: hidden">
+<div class="card text-bg-info p-2" style="height: 600px; overflow: hidden">
     <div class="card-header">
         <div class="d-flex justify-content-start align-items-end">
             <div class="fw-bold fs-6 me-3">{{ trans_choice('subjects.skills.level',2) }}:</div>
@@ -51,7 +51,7 @@
                     x-data="{dragging: false}"
             >
                 <li
-                        class="list-group-item list-group-action rounded show-as-action  @if(!$selectedCategory) bg-primary-subtle @else text-bg-secondary @endif p-2"
+                        class="list-group-item list-group-action rounded show-as-action  @if(!$selectedCategory) text-bg-primary @else text-bg-light @endif p-2"
                         wire:click="dispatch('select-category', {selectedCategoryId: null})"
                 >
                     {{ trans_choice('subjects.skills.global',2) }}
@@ -62,7 +62,7 @@
                             :category="$category"
                             depth="0"
                             :key="$category->id"
-                            classes="text-bg-secondary"
+                            classes="text-bg-light"
                             :open-to="$openTo"
                             wire:key="{{$category->id}}"
                     />

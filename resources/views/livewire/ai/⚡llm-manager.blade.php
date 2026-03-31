@@ -77,7 +77,7 @@ new class extends Component
 		$errors = false;
 		foreach ($this->providerOptions as $option)
 		{
-			if(!$connection->validProviderOption($this->selectedLlm, $option))
+			if($option->validValue() && !$connection->validProviderOption($this->selectedLlm, $option))
 			{
 				$this->addError($option->field, "This field is not valid.");
 				$errors = true;
@@ -287,15 +287,26 @@ new class extends Component
 											@break
 										@case(\App\Enums\BasicDataInput::COMBO)
 											<select
-													id="provider_option_{{ $option->field }}"
-													class="form-select"
-													wire:model="providerOptions.{{ $option->field }}.value"
+                                                id="provider_option_{{ $option->field }}"
+                                                class="form-select"
+                                                wire:model="providerOptions.{{ $option->field }}.value"
 											>
 												@foreach($option->choices as $choiceValue => $choice)
 													<option value="{{ $choiceValue }}">{{ $choice }}</option>
 												@endforeach
 											</select>
 											@break
+                                        @case(\App\Enums\BasicDataInput::SWITCH)
+                                            <div class="form-check form-switch">
+                                                <input
+                                                    class="form-check-input"
+                                                    type="checkbox"
+                                                    wire:model="providerOptions.{{ $option->field }}.value"
+                                                    id="provider_option_{{ $option->field }}"
+                                                    switch
+                                                />
+                                            </div>
+                                            @break
 										@default
 											<input
 													type="text"

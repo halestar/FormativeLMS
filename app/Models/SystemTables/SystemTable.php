@@ -31,7 +31,8 @@ class SystemTable extends Model
 	
 	public static function tableModels(): array
 	{
-		return SystemTable::groupBy('className')
+		return SystemTable::select('className')
+							->groupBy('className')
 							->get()
 							->sortBy(fn($model) => $model::getCrudModelName())
 		                    ->pluck('className')

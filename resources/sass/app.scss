@@ -392,3 +392,79 @@ input[type="datetime-local"]
   min-width: 200px !important;
   max-width: 250px !important;
 }
+
+/* Add to your app.css or custom.scss */
+
+/* 1. Make the Navbar Clean */
+.navbar {
+  background: linear-gradient(135deg, #4361ee 0%, #3f37c9 100%) !important; /* Modern Gradient */
+  box-shadow: 0 4px 12px rgba(67, 97, 238, 0.3);
+}
+
+/* 2. Fix the "Blocky" Tables */
+.table thead th {
+  background-color: transparent;
+  border-bottom: 2px solid #e9ecef;
+  color: #8898aa; /* Muted uppercase headers */
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.table td {
+  vertical-align: middle;
+  padding: 1rem 0.75rem;
+}
+
+/* 3. Modernize the "Post" and "Class Criteria" sections */
+/* This targets the gray bars in your "Post Learning Demonstration" screenshot */
+.card-header, .bg-light {
+  background-color: #fff !important; /* Force white background */
+  border-bottom: 1px solid #f0f0f0; /* Very subtle separator */
+}
+
+/* 4. Chat/Messages Cleanup */
+/* Makes chat bubbles rounder and softer */
+.message-bubble {
+  border-radius: 1rem !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border: none !important;
+}
+
+/* 5. Schedule/Calendar Events */
+/* Removes the flat green look from the schedule screenshot */
+.fc-event, .badge {
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-weight: 600;
+}
+
+/* 1. The "Anchor" Sidebar/Header */
+/* If you have a sidebar container, give it this dark blue-slate color
+   to immediately reduce the "whiteness" of the screen. */
+.sidebar, .main-navigation {
+  background-color: #0f172a; /* Dark Slate */
+  color: #e2e8f0;
+}
+
+/* 2. Distinct Page Containers */
+/* Ensure the main content area actually uses the variable background */
+body, .wrapper, .main-content {
+  background-color: #eef2f6 !important;
+}
+
+/* 3. Deepen the Shadows */
+/* Since the background is darker, we need slightly stronger shadows
+   on the cards so they don't look flat. */
+.card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* 4. Table Striping Adjustment */
+/* Standard bootstrap striping is too gray. Let's make it subtle blue. */
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: rgba(59, 130, 246, 0.05); /* Very faint blue tint */
+  color: var(--bs-table-striped-color);
+}

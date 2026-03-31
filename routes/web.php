@@ -7,6 +7,7 @@ use App\Http\Controllers\People\PersonalPreferencesController;
 use App\Http\Controllers\Settings\IntegratorController;
 use App\Http\Controllers\Settings\SchoolSettingsController;
 use App\Http\Controllers\Substitutes\SubstituteAccessController;
+use App\Http\Middleware\PromptForPasskey;
 use App\Livewire\Ai\EditModelPrompt;
 use App\Models\Integrations\Integrator;
 use App\Models\Utilities\SchoolRoles;
@@ -27,6 +28,9 @@ Route::controller(LoginController::class)
             ->name('impersonate');
         Route::get('/unimpersonate', 'unimpersonate')
             ->name('unimpersonate');
+		Route::get('/login/link', 'linkLogin')
+			->name('login.link')
+			->middleware('signed');
 
         // view child student
         Route::get('/select/child/{student}', 'viewChild')
@@ -101,6 +105,9 @@ Route::post('/langsw', function (Request $request) {
 
     return redirect()->back();
 })->name('language.switch');
+
+//passkey routes
+Route::passkeys();
 
 // Livewire update route to allow for other, catch all routes.
 Livewire::setUpdateRoute(function ($handle, $path) {

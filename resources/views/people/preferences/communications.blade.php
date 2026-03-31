@@ -87,7 +87,7 @@
                 </div>
             </form>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-8">
             <form method="POST" action="{{ route('people.preferences.communications.update.subscriptions', $person) }}">
                 @csrf
                 @method('PATCH')

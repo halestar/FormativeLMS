@@ -13,6 +13,7 @@ enum BasicDataInput: string
 	case MULTIPLE_SELECTIONS = 'checkbox';
 	case CHOICE = 'radio';
 	case COMBO = 'select';
+	case SWITCH = 'switch';
 
 	public function label(): string
 	{
@@ -24,6 +25,7 @@ enum BasicDataInput: string
 			self::MULTIPLE_SELECTIONS => __('ai.fields.types.checkboxes'),
 			self::CHOICE => __('ai.fields.types.choice'),
 			self::COMBO => __('ai.fields.types.combo'),
+			self::SWITCH => __('ai.fields.types.switch'),
 		};
 	}
 
@@ -37,7 +39,7 @@ enum BasicDataInput: string
 			self::MULTIPLE_SELECTIONS => is_array($value) && is_array($options) && count($options)> 0 &&
 				array_reduce($value, fn($item, $carry) => $carry && isset($options[$item]), true),
 			self::CHOICE, self::COMBO => is_array($options) && count($options) > 0 && isset($options[$value]),
-
+			self::SWITCH => is_bool($value),
 		};
 	}
 }

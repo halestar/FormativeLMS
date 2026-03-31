@@ -4,6 +4,8 @@
         wire:ignore
         x-data="{ value: $wire.entangle('content') }"
         x-init="
+        if (tinymce.activeEditor !== null)
+            tinymce.EditorManager.execCommand('mceRemoveEditor', false, '{{ $id }}');
         tinymce.init(
         {
             selector: '#{{ $id }}',

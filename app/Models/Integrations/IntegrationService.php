@@ -47,7 +47,6 @@ class IntegrationService extends Model implements HasSchoolRoles
             'enabled',
             'can_connect_to_people',
             'can_connect_to_system',
-            'configurable',
             'inherit_permissions',
         ];
 
@@ -119,7 +118,6 @@ class IntegrationService extends Model implements HasSchoolRoles
                 'enabled' => 'boolean',
                 'can_connect_to_people' => 'boolean',
                 'can_connect_to_system' => 'boolean',
-                'configurable' => 'boolean',
                 'inherit_permissions' => 'boolean',
             ];
     }
@@ -173,12 +171,6 @@ class IntegrationService extends Model implements HasSchoolRoles
     protected function ofType(Builder $query, IntegratorServiceTypes $type)
     {
         $query->where('service_type', $type);
-    }
-
-    #[Scope]
-    protected function configurable(Builder $query)
-    {
-        $query->where('configurable', true);
     }
 
     /*****************************************************************

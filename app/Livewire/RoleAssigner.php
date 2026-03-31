@@ -4,6 +4,7 @@ namespace App\Livewire;
 
 use App\Interfaces\HasSchoolRoles;
 use App\Models\Utilities\SchoolRoles;
+use App\Traits\HasDefaultRoles;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\On;
 use Livewire\Component;
@@ -15,6 +16,7 @@ class RoleAssigner extends Component
 	public bool $editing = false;
 	public bool $editorOnly = false;
 	public bool $disabled = false;
+	public bool $canResetRoles = false;
 	
 	public function mount(HasSchoolRoles $attachObj, bool $editorOnly = false, bool $disabled = false)
 	{
@@ -24,6 +26,7 @@ class RoleAssigner extends Component
 		$this->editorOnly = $editorOnly;
 		if($this->editorOnly)
 			$this->editing = true;
+		$this->canResetRoles = in_array(HasDefaultRoles::class, class_uses_recursive($attachObj));
 	}
 	
 	private function setBaseRoles(): void
@@ -231,5 +234,13 @@ class RoleAssigner extends Component
 	{
 		$this->disabled = false;
 		unset($this->ifDisabled);
+	}
+
+	public function resetRoles()
+	{
+		if($this->canResetRoles)
+		{
+			($this->attachObj)->resetRoles();
+		}
 	}
 }

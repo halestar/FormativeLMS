@@ -7,8 +7,10 @@ use App\Classes\Settings\AiSettings;
 use App\Enums\IntegratorServiceTypes;
 use App\Interfaces\AiPromptable;
 use App\Models\Ai\AiPrompt;
+use App\Models\Ai\AiUserQuery;
 use App\Models\People\Person;
 use Illuminate\Support\Collection;
+use Livewire\Attributes\Locked;
 use Livewire\Component;
 
 class RunModelPrompt extends Component
@@ -28,7 +30,9 @@ class RunModelPrompt extends Component
 
     public bool $runMode = false;
 	public bool $resultsMode = false;
+	#[Locked]
 	public bool $canEditDefault = false;
+	#[Locked]
 	public bool $canEditPersonal = false;
 
     public AiPrompt $prompt;
@@ -47,7 +51,11 @@ class RunModelPrompt extends Component
 		$this->canEditDefault = $this->person->can('system.ai');
 		$this->canEditPersonal = $aiSettings->allow_prompt_editing;
 
-		$this->prompt = AiPrompt::userPrompt($model, $property, $this->person);
+		//we either use the user prompt if the system allows users to edit their prompt, or the system prompt.
+	    if($this->canEditPersonal)
+			$this->prompt = AiPrompt::userPrompt($model, $property, $this->person);
+		else
+			$this->prompt = AiPrompt::systemPrompt($model, $property);
 
         if ($this->prompt->last_id != (string) $this->model->getKey())
 		{
@@ -76,7 +84,12 @@ class RunModelPrompt extends Component
     {
         $selectedLlm = $this->llms->where('id', $this->selectedLlmId)->first();
 		if($selectedLlm)
+		{
+			$aiSettings = app()->make(AiSettings::class);
+			if($aiSettings->capture_ai_queries)
+				AiUserQuery::logQuery($this->person, $selectedLlm, $this->prompt, $this->model);
 			$selectedLlm->provider->executePrompt($selectedLlm, $this->prompt, $this->model);
+		}
         $this->prompt->refresh();
     }
 

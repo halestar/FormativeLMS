@@ -54,7 +54,7 @@ class EditModelPrompt extends Component
         $this->aiPrompt->system_prompt = $this->system_prompt;
 		$this->aiPrompt->temperature = $this->temperature;
 		$this->aiPrompt->save();
-		$this->dispatch('edit-model-prompt.prompt-updated');
+		$this->dispatch('edit-model-prompt-prompt-updated');
 	}
 	
 	public function resetPrompt()

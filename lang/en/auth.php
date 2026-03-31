@@ -18,4 +18,5 @@ return
         'block' => 'Block Access',
         'roles.min' => 'Select at least one role.',
         'communications' => 'Communications',
+		'passkey.required' => 'The school <strong>highly</strong> recommends using a passkey to login.'
 	];

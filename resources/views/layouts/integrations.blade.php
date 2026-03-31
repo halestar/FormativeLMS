@@ -53,52 +53,50 @@
                                 ><i class="fa-solid fa-gear"></i></a>
                             @endif
                         </div>
-                        @if($integrator->services()->configurable()->count() > 0)
-                            <ul class="list-group list-group-flush">
-                                @foreach($integrator->services as $service)
-                                    <li
-                                            class="list-group-item d-flex justify-content-between align-items-center @if(isset($selectedService) && $selectedService->id == $service->id) active @endif"
-                                            x-data="{ hovered: false }"
-                                            @mouseover="hovered = true"
-                                            @mouseout="hovered = false"
-                                            :class="{ 'bg-light rounded': hovered }"
+                        <ul class="list-group list-group-flush">
+                            @foreach($integrator->services as $service)
+                                <li
+                                        class="list-group-item d-flex justify-content-between align-items-center @if(isset($selectedService) && $selectedService->id == $service->id) active @endif"
+                                        x-data="{ hovered: false }"
+                                        @mouseover="hovered = true"
+                                        @mouseout="hovered = false"
+                                        :class="{ 'bg-light rounded': hovered }"
+                                >
+                                    <a
+                                            href="{{ $service->canConfigure()? $service->configurationUrl(): route('integrators.services.permissions', $service) }}"
+                                            class="link-underline-opacity-0"
+                                            x-cloak
+                                            x-show="!menuExpanded"
                                     >
+                                        <img
+                                                src="{{ asset($service->service_type->icons()) }}"
+                                                alt="{{ $service->name }}"
+                                                class="img-fluid img-icon-tiny rounded"
+                                        />
+                                    </a>
+                                    <h5 x-cloak x-show="menuExpanded">{{ $service->name }}</h5>
+                                    <div>
                                         <a
-                                                href="{{ $service->configurable? $service->configurationUrl(): route('integrators.services.permissions', $service) }}"
-                                                class="link-underline-opacity-0"
+                                                href="{{ route('integrators.services.permissions', $service) }}"
+                                                alt="{{ $service->name }}"
                                                 x-cloak
-                                                x-show="!menuExpanded"
-                                        >
-                                            <img
-                                                    src="{{ asset($service->service_type->icons()) }}"
-                                                    alt="{{ $service->name }}"
-                                                    class="img-fluid img-icon-tiny rounded"
-                                            />
-                                        </a>
-                                        <h5 x-cloak x-show="menuExpanded">{{ $service->name }}</h5>
-                                        <div>
+                                                x-show="menuExpanded"
+                                                class="link-info link-underline-opacity-0"
+                                        ><img src="/images/permissions_icon.svg"
+                                              class="img-fluid img-icon-tiny rounded ms-2"/></a>
+                                        @if($service->canConfigure())
                                             <a
-                                                    href="{{ route('integrators.services.permissions', $service) }}"
+                                                    href="{{ $service->configurationUrl() }}"
                                                     alt="{{ $service->name }}"
                                                     x-cloak
                                                     x-show="menuExpanded"
                                                     class="link-info link-underline-opacity-0"
-                                            ><img src="/images/permissions_icon.svg"
-                                                  class="img-fluid img-icon-tiny rounded ms-2"/></a>
-                                            @if($service->configurable)
-                                                <a
-                                                        href="{{ $service->configurationUrl() }}"
-                                                        alt="{{ $service->name }}"
-                                                        x-cloak
-                                                        x-show="menuExpanded"
-                                                        class="link-info link-underline-opacity-0"
-                                                ><i class="fa-solid fa-gear"></i></a>
-                                            @endif
-                                        </div>
-                                    </li>
-                                @endforeach
-                            </ul>
-                        @endif
+                                            ><i class="fa-solid fa-gear"></i></a>
+                                        @endif
+                                    </div>
+                                </li>
+                            @endforeach
+                        </ul>
                     </li>
                 @endforeach
             </ul>

@@ -5,6 +5,7 @@ return
 		'attribute.html' => 'The :attribute field must be a valid HTML string.',
 		'auth.blocked' => 'This account cannot login to this system. If you believe this is an error, please contact your administrator.',
 		'auth.locked' => 'This user is locked out for :time',
+		'auth.account' => 'There is a problem with your account. Please contact your Administrator.',
 		'auth.locked.admin' => 'This user is locked out by the administrator.',
 		'auth.password' => 'The provided password is incorrect.',
 		'auth.verification.incorrect' => 'That is not the correct verification code, please try again.',

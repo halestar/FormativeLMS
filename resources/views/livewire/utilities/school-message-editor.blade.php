@@ -191,6 +191,7 @@
 <script>
     $wire.on('school-message-editor.message-sent', (event) =>
     {
+        debugger;
         element = $(event.el);
         let html = element.html();
         element.removeClass('btn-warning').addClass('btn-success');

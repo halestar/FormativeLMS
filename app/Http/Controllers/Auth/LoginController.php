@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Classes\Settings\AuthSettings;
 use App\Http\Controllers\Controller;
+use App\Models\Integrations\Connections\AuthConnection;
 use App\Models\People\Person;
 use App\Models\People\StudentRecord;
 use Illuminate\Http\Request;
@@ -75,4 +77,12 @@ class LoginController extends Controller
 
         return redirect(route('home'));
     }
+
+	public function linkLogin(Request $request, AuthSettings $authSettings)
+	{
+		$person = Person::where('school_id', $request->person)->first();
+		if($person)
+			return redirect(AuthConnection::completeLogin($person));
+		abort(404);
+	}
 }

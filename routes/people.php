@@ -70,5 +70,6 @@ Route::controller(PersonalPreferencesController::class)
             ->name('communications.update.delivery');
         Route::patch('/communications/subscriptions', 'communicationsSubscriptionsUpdate')
             ->name('communications.update.subscriptions');
+		Route::get('/passkeys', 'passkeys')->name('passkeys');
     });
 

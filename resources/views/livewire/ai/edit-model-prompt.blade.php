@@ -68,7 +68,7 @@
 </div>
 @script
 <script>
-    $wire.on('saved', () => {
+    $wire.on('edit-model-prompt-prompt-updated', () => {
         setTimeout(() => {
             $('#update_button').removeClass('btn-primary').addClass('btn-success').html('{{ __('common.saved') }}');
             setTimeout(() => {

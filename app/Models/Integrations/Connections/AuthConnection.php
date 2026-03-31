@@ -3,6 +3,7 @@
 namespace App\Models\Integrations\Connections;
 
 use App\Classes\Integrators\IntegrationsManager;
+use App\Classes\Settings\AuthSettings;
 use App\Enums\IntegratorServiceTypes;
 use App\Interfaces\IntegrationConnectionInterface;
 use App\Models\Integrations\IntegrationConnection;
@@ -187,7 +188,7 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
      * @param Person $user The user to log into the system
      * @return string The URL to redirect to.
      */
-    final public function completeLogin(Person $user): string
+    final public static function completeLogin(Person $user): string
     {
         Auth::guard()
             ->login($user, true);
@@ -220,6 +221,9 @@ abstract class AuthConnection extends IntegrationConnection implements Integrati
 				$user->save();
 		    }
 	    }
+		$authSettings = app(AuthSettings::class);
+		if($authSettings->passkeys_require && $user->passkeys()->count() == 0)
+			return route('people.preferences.passkeys', $user->school_id);
         return redirect()->getIntendedUrl() ?? route('home');
     }
 	

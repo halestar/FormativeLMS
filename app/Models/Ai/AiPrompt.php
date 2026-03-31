@@ -102,7 +102,9 @@ class AiPrompt extends Model implements Fileable
 		if($prompt)
 			return $prompt;
 		//else, we create one based on the default prompt.
-		return self::systemPrompt($model, $property)->replicate(['person_id' => $person->id]);
+		$prompt = static::systemPrompt($model, $property)->replicate(['person_id'])->fill(['person_id' => $person->id]);
+		$prompt->save();
+		return $prompt;
 	}
 
 	public function propertyName(): string

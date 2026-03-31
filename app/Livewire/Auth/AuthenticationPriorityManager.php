@@ -14,16 +14,35 @@ class AuthenticationPriorityManager extends Component
 	public array $priorities = [];
 	public bool $changed = false;
 	public bool $editing = false;
+
+	private function loadPriorities()
+	{
+		$this->priorities = [];
+		foreach($this->authSettings->priorities as $priority)
+		{
+			$this->priorities[$priority->priority] =
+				[
+					'roles' => $priority->roles,
+					'auth' => $priority->isChoice()? "choose": ($priority->isBlocked()? null: ($priority->services->first()?->id ?? null)),
+					'choices' => $priority->isChoice()? $priority->services->mapWithKeys(fn($item) => [$item->id => $item->name]): [],
+				];
+		}
+	}
 	
 	public function mount(AuthSettings $authSettings)
 	{
 		$this->authSettings = $authSettings;
-		$this->priorities = $this->authSettings->priorities;
+		$this->loadPriorities();
 	}
 	
 	public function addPriority()
 	{
-		$this->priorities[] = AuthenticationDesignation::makeDefaultDesignation(count($this->priorities));
+		$this->priorities[] =
+			[
+				'roles' => [],
+				'auth' => null,
+				'choices' => [],
+			];
 		$this->changed = true;
 	}
 	
@@ -44,48 +63,30 @@ class AuthenticationPriorityManager extends Component
 		$this->priorities = $pris;
 		$this->changed = true;
 	}
-	
-	public function updateAuthentication($priority, $service_ids)
+
+	public function reorderPriorities($id, $position)
 	{
-        if(!is_array($service_ids) && !$service_ids)
-            $service_ids = null;
-        Log::debug("Updating priority $priority with services " . print_r($service_ids, true));
-		$this->priorities[$priority]->updateServices($service_ids);
-		$this->changed = true;
-	}
-	
-	public function addRoleToPriority(int $priority, SchoolRoles $role)
-	{
-		if(!in_array($role->name, $this->priorities[$priority]->roles))
-			$this->priorities[$priority]->roles[$role->id] = $role->name;
-		$this->changed = true;
-	}
-	
-	public function removeRoleFromPriority(int $priority, SchoolRoles $role)
-	{
-		$this->priorities[$priority]->roles = array_filter($this->priorities[$priority]->roles,
-			fn($r) => $r != $role->name);
-		$this->changed = true;
-	}
-	
-	public function reorderPriorities($models)
-	{
-		$pris = [];
-		//copy the default
-		$pris[0] = $this->priorities[0];
-		foreach($models as $model)
-		{
-			$pris[$model['order']] = $this->priorities[$model['value']];
-			$pris[$model['order']]->priority = $model['order'];
-		}
-		$this->priorities = $pris;
+		$element = $this->priorities[$id];
+		unset($this->priorities[$id]);
+		$this->priorities = array_values($this->priorities);
+		array_splice($this->priorities, $position + 1, 0, [$element]);
 		$this->changed = true;
 	}
 	
 	public function applyChanges()
 	{
 		$this->changed = false;
-		$this->authSettings->priorities = $this->priorities;
+		$priorities = [];
+		foreach($this->priorities as $priorityIdx => $priority)
+		{
+			$priorities[] = AuthenticationDesignation::hydrate(
+				[
+					'priority' => $priorityIdx,
+					'roles' => $priority['roles'],
+					'service_ids' => $priority['auth'] == 'choose'? $priority['choices']: [$priority['auth']],
+				]);
+		}
+		$this->authSettings->priorities = $priorities;
 		$this->authSettings->save();
 		AuthSettings::applyAuthenticationPriorities();
 		$this->editing = false;

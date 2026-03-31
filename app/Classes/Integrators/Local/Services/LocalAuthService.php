@@ -70,10 +70,6 @@ class LocalAuthService extends LmsIntegrationService
         return LocalAuthConnection::class;
     }
 
-    public static function canBeConfigured(): bool
-    {
-        return true;
-    }
 
     public function canConnect(?Person $person = null): bool
     {
@@ -85,9 +81,9 @@ class LocalAuthService extends LmsIntegrationService
         return false;
     }
 
-    public static function canConfigure(?Person $person = null): bool
+    public function canConfigure(?Person $person = null): bool
     {
-        return true;
+        return ($person ==  null);
     }
 
     public function registrationUrl(?Person $person = null): ?string

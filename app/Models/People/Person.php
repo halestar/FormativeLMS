@@ -51,12 +51,14 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Lab404\Impersonate\Models\Impersonate;
 use Laravel\Sanctum\HasApiTokens;
+use Spatie\LaravelPasskeys\Models\Concerns\HasPasskeys;
+use Spatie\LaravelPasskeys\Models\Concerns\InteractsWithPasskeys;
 
 
-class Person extends Authenticatable implements HasSchoolRoles, Fileable
+class Person extends Authenticatable implements HasSchoolRoles, Fileable, HasPasskeys
 {
 	use HasFactory, SoftDeletes, HasSchoolRolesTrait, Phoneable, Addressable, Notifiable, HasFullTextSearch,
-		Campuseable, Impersonate, HasApiTokens, HasLogs, HasWorkFiles;
+		Campuseable, Impersonate, HasApiTokens, HasLogs, HasWorkFiles, InteractsWithPasskeys;
 
     /************************************************************************************************************
      * TABLE DEFINITIONS

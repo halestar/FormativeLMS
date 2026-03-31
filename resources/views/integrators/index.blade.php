@@ -52,7 +52,7 @@
                                                         <div class="row border-bottom border-light">
                                                             <strong class="col-8">{{ $service->name }}</strong>
                                                             <div class="col-2 mx-auto text-center">
-                                                                @if($service->configurable)
+                                                                @if($service->canConfigure())
                                                                     <a href="{{ $service->configurationUrl() }}"
                                                                        class="link-underline-opacity-0">
                                                                         <i class="fa-solid fa-gear"></i>

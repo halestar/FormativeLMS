@@ -51,4 +51,9 @@ class ProviderOption implements Arrayable, JsonSerializable, Synthesizable
 	{
 		return ProviderOption::hydrate($data);
 	}
+
+	public function validValue(): bool
+	{
+		return $this->type->isValid($this->value, $this->choices);
+	}
 }

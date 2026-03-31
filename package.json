@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "@alpinejs/collapse": "^3.15.0",
+        "@simplewebauthn/browser": "^13.3.0",
         "bootstrap-icons": "^1.11.3",
         "jquery": "^3.7.1",
         "popper": "^1.0.1"

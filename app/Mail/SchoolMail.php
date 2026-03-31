@@ -3,6 +3,7 @@
 namespace App\Mail;
 
 use App\Classes\Settings\CommunicationSettings;
+use App\Models\People\Person;
 use App\Models\Utilities\SchoolMessage;
 use App\Notifications\LmsNotification;
 use Illuminate\Bus\Queueable;
@@ -12,8 +13,13 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Address;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Mail\Mailer;
+use Illuminate\Mail\Transport\ArrayTransport;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Blade;
+use RuntimeException;
+
 
 class SchoolMail extends Mailable implements ShouldQueue
 {
@@ -67,4 +73,32 @@ class SchoolMail extends Mailable implements ShouldQueue
                 ->withMime($file->mime);
         return $attachments;
     }
+
+	public function mailableToRfc2822(Person|string $recipient): string
+	{
+		$settings = app(CommunicationSettings::class);
+		$transport = new ArrayTransport();
+
+		$mailer = new Mailer(
+			'array-stringify',
+			app('view'),
+			$transport,
+			app('events'),
+		);
+
+		$mailer->alwaysFrom($settings->email_from_address, $settings->email_from);
+
+		$mailer->alwaysReplyTo($settings->email_from_address, $settings->email_from);
+		$this->to($recipient instanceof Person ? $recipient->email : $recipient);
+
+		clone($this)->send($mailer);
+
+		$sent = $transport->messages()->last();
+
+		if ($sent === null) {
+			throw new RuntimeException('Failed to build mailable.');
+		}
+
+		return $sent->getOriginalMessage()->toString();
+	}
 }

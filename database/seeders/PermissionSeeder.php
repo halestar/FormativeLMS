@@ -74,22 +74,21 @@ class PermissionSeeder extends Seeder
                 ['name' => 'locations.blocks', 'description' => 'Ability to edit campuses\' blocks in the system'],
             ],
             'Subject Matter' => [
-                ['name' => 'subjects.subjects', 'description' => 'Ability to edit Subjects in the system'],
-                ['name' => 'subjects.courses', 'description' => 'Ability to edit Courses in the system'],
-                ['name' => 'subjects.classes', 'description' => 'Ability to edit year-long classes in the system'],
-                ['name' => 'subjects.classes.view', 'description' => 'Ability to view details about ANY class'],
-                ['name' => 'subjects.classes.manage',
-                    'description' => 'Global permission to manage any class in the system'],
-                ['name' => 'subjects.skills', 'description' => 'Ability to manage skills in the system'],
+                ['name' => 'subjects.subjects', 'description' => __('permissions.subjects.subjects')],
+                ['name' => 'subjects.courses', 'description' => __('permissions.subjects.courses')],
+                ['name' => 'subjects.classes', 'description' => __('permissions.subjects.classes')],
+                ['name' => 'subjects.classes.view', 'description' => __('permissions.subjects.classes.view')],
+                ['name' => 'subjects.classes.manage', 'description' => __('permissions.subjects.classes.manage')],
+                ['name' => 'subjects.skills', 'description' => __('permissions.subjects.skills')],
             ],
             'Class Management' => [
-                ['name' => 'classes.enrollment', 'description' => 'Ability to enroll students in classes'],
+                ['name' => 'classes.enrollment', 'description' => __('permissions.classes.enrollment')],
             ],
             'School Administration' => [
-                ['name' => 'school.tracker', 'description' => 'Ability to be a tracker for a student'],
-                ['name' => 'school.tracker.admin', 'description' => 'Ability to assign trackers to students'],
-                ['name' => 'school.settings', 'description' => 'Ability to edit school settings'],
-                ['name' => 'substitute.admin', 'description' => 'Administrator access to manage substitutes and class coverage'],
+                ['name' => 'school.tracker', 'description' => __('permissions.school.tracker')],
+                ['name' => 'school.tracker.admin', 'description' => __('permissions.school.tracker.admin')],
+                ['name' => 'school.settings', 'description' => __('permissions.school.settings')],
+                ['name' => 'substitute.admin', 'description' => __('permissions.substitute.admin')],
             ],
             'System' => [
                 ['name' => 'cms', 'description' => __('permissions.cms')],
@@ -98,6 +97,7 @@ class PermissionSeeder extends Seeder
                 ['name' => 'school.emails', 'description' => __('permissions.school.emails')],
                 ['name' => 'settings.integrators', 'description' => __('permissions.settings.integrators')],
                 ['name' => 'system.ai', 'description' => __('permissions.system.ai')],
+                ['name' => 'system.ai.queries', 'description' => __('permissions.system.ai.queries')],
             ],
         ];
     }

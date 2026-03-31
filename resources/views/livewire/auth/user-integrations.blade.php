@@ -1,34 +1,32 @@
 <div>
     <ul class="list-group">
-        @forelse($integrators as $integrator)
-            <li class="list-group-item text-bg-secondary" wire:key="{{ $integrator['integrator']->id }}">
+        @forelse($integrators as $integratorId => $integrator)
+            <li class="list-group-item text-bg-secondary" wire:key="{{ $integratorId }}">
                 <div class="integrator-container d-flex justify-content-between align-items-center">
-                    <span>{{ $integrator['integrator']->name }}</span>
+                    <span>{{ $integrator['name'] }}</span>
                 </div>
             </li>
-            @foreach($integrator['services'] as $service)
+            @foreach($integrator['services'] as $serviceId => $service)
                 <li class="list-group-item text-bg-secondary d-flex justify-content-between align-items-center ps-5"
-                    wire:key="{{ $integrator['integrator']->id . "_" . $service['service']->id }}">
-                    <span>{{ $service['service']->name }}</span>
+                    wire:key="{{ $integratorId . "_" . $serviceId }}">
+                    <span>{{ $service['name'] }}</span>
                     @if($service['connection'])
-                        @if($service['service']->canConfigure($person))
+                        @if($service['configuration_url'])
                             <a class="btn btn-success btn-sm text-lowercase text-sm"
                                role="button"
-                               href="{{ $service['service']->configurationUrl($person) }}"
+                               href="{{ $service['configuration_url'] }}"
                             >{{ __('common.configure') }}</a>
                         @else
                             <livewire:utilities.model-switch
                                     :model="$service['connection']"
-                                    key="enabled"
-                                    el-id="service_{{ $service['service']->id }}"
+                                    property="enabled"
+                                    el-id="service_{{ $serviceId }}"
                             />
                         @endif
                     @else
-                        <a x-show="hovering"
-                           x-cloak
-                           class="btn btn-success btn-sm text-lowercase text-sm"
+                        <a class="btn btn-success btn-sm text-lowercase text-sm"
                            role="button"
-                           href="{{ $service['service']->registrationUrl($person) }}"
+                           href="{{ $service['registration_url'] }}"
                         >{{ __('common.register') }}</a>
                     @endif
                 </li>

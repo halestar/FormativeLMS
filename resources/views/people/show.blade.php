@@ -1,5 +1,5 @@
 @extends('layouts.app', ['breadcrumb' => $breadcrumb])
-
+@inject('authSettings', 'App\\Classes\\Settings\\AuthSettings')
 @section('content')
     <div class="container">
         <div class="row">
@@ -24,6 +24,10 @@
                                 <a href="{{ route('people.password') }}">{{ __('settings.auth.password.change') }}</a>
                                 <br/>
                             @endif
+                            @if($authSettings->passkeys_allow)
+                                <a href="{{ route('people.preferences.passkeys', $person->school_id) }}">{{ __('settings.auth.passkeys') }}</a><br/>
+                            @endif
+
                             <p>{{ __('integrators.integrations.available') }}</p>
                             <livewire:auth.user-integrations/>
                         @elseif($self->can('people.edit'))

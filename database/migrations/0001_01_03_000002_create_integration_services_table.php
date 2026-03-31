@@ -36,8 +36,6 @@ return new class extends Migration
 			      ->default(false);
 			$table->boolean('can_connect_to_system')
 			      ->default(false);
-			$table->boolean('configurable')
-			      ->default(false);
 			$table->boolean('inherit_permissions')
 			      ->default(true);
 			$table->unique(['integrator_id', 'service_type']);

@@ -39,15 +39,12 @@ class SystemSettingsProvider extends ServiceProvider implements DeferrableProvid
             $settings = app(AuthSettings::class);
             $req = Password::min($settings->min_password_length)
                 ->letters();
-            if ($settings->numbers) {
+            if ($settings->numbers)
                 $req = $req->numbers();
-            }
-            if ($settings->upper) {
+            if ($settings->upper)
                 $req = $req->mixedCase();
-            }
-            if ($settings->symbols) {
+            if ($settings->symbols)
                 $req = $req->symbols();
-            }
 
             return $req;
         });

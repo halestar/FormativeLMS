@@ -4,7 +4,10 @@ namespace App\Models\Utilities;
 
 use App\Enums\WorkStoragesInstances;
 use App\Interfaces\Fileable;
+use App\Interfaces\HasSchoolRoles;
 use App\Models\People\Person;
+use App\Traits\HasDefaultRoles;
+use App\Traits\HasSchoolRolesTrait;
 use App\Traits\HasWorkFiles;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
@@ -13,19 +16,16 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Blade;
+use Spatie\Permission\Traits\HasRoles;
 
-class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable
+class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable, HasSchoolRoles
 {
-    use HasWorkFiles;
-
+    use HasWorkFiles, HasSchoolRolesTrait, HasDefaultRoles;
+	protected $guard_name = 'web';
     public $timestamps = true;
-
     public $incrementing = true;
-
     protected $table = 'school_messages';
-
     protected $primaryKey = 'id';
-
     protected $fillable =
         [
             'force_subscribe',
@@ -66,7 +66,7 @@ class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable
 
     public function cleanup()
     {
-        // cleans up the files in the conmtent. Essentially it pulls in all the files
+        // cleans up the files in the content. Essentially, it pulls in all the file
         // references in the content and syncs them to this email.
         $fileRefs = [];
         // attempting to match src="https://fablms.app/settings/work-files/(file uuid)"
@@ -111,7 +111,13 @@ class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable
     #[Scope]
     protected function subscribable(Builder $query): void
     {
-        $query->where('force_subscribe', false)->where('subscribable', true);
+        $query->where('force_subscribe', false)->where('subscribable', true)
+	        ->where(function (Builder $query)
+	        {
+				$query->doesntHave('roles')
+					->orWhereHas('roles', fn(Builder $query) =>
+						$query->whereIn('name', auth()->user()->schoolRoles->pluck('name')));
+	        });
     }
 
     public function subscribers(): BelongsToMany
@@ -147,4 +153,11 @@ class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable
     {
         return true;
     }
+
+	public function __toString()
+	{
+		return $this->name;
+	}
+
+
 }

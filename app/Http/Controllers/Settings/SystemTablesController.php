@@ -17,7 +17,7 @@ class SystemTablesController extends Controller
         Gate::authorize('has-permission', 'system.tables');
         $breadcrumb =
             [
-                __('system.menu.crud') => route('settings.school'),
+                __('system.menu.system.tables') => route('settings.school'),
             ];
 
         return view('settings.crud.index', compact('breadcrumb'));

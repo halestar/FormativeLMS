@@ -52,7 +52,7 @@
         @yield('content')
     </main>
     <footer class="fixed-bottom bg-primary-subtle rounded text-center text-small">
-        &copy; 2025 German Kalinec
+        &copy; 2026 German Kalinec
         &nbsp; &#9679; &nbsp;
         {{ \App\Models\Locations\Year::currentYear()->label }}
         @auth

@@ -5,9 +5,11 @@ namespace App\Livewire\Auth;
 use App\Classes\Settings\AuthSettings;
 use App\Enums\Auth\LoginStages;
 use App\Mail\ResetPasswordMail;
+use App\Models\Integrations\Connections\AuthConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\People\Person;
 use App\Models\Utilities\SystemSetting;
+use App\Notifications\Auth\LoginLinkNotification;
 use App\Notifications\Auth\ResetPasswordNotification;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
@@ -15,6 +17,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\URL;
 use Livewire\Attributes\On;
 use Livewire\Component;
 
@@ -38,12 +41,15 @@ class LoginForm extends Component
 	public ?Carbon $authCodeExpires = null;
 	public bool $canResetPassword = false;
 	public ?Carbon $lockedUntil = null;
+	public bool $magicLinkSent = false;
 	
 	public function mount()
 	{
 		//first, we check if there is a cookie set
+		Log::info('cookies: ' . request()->cookie('remember-me'));
 		if(Cookie::has('remember-me'))
 		{
+			Log::info('Remember me cookie found: ' . Cookie::get('remember-me'));
 			$this->email = Cookie::get('remember-me');
 			$this->rememberMe = true;
 		}
@@ -65,7 +71,7 @@ class LoginForm extends Component
 		$this->user = Person::where('email', $data['email'])
 		                    ->first();
         //now, we check if the user has an auth connection.
-        $connection = $this->user->authConnection;
+        $connection = $this->user?->authConnection;
 		if(!$connection)
 		{
 			//in this case, we need to determine which authenticator (or more) apply to this user
@@ -73,7 +79,7 @@ class LoginForm extends Component
             $authSettings = app(AuthSettings::class);
 			$services = $authSettings->determineAuthentication($this->user);
             //if the service returned null, then this type of account is blocked.
-			if(!$services)
+			if(!$services || $services->isEmpty())
 			{
 				//this is a bad error, so crap out.
 				$this->stage = LoginStages::BlockedLogin;
@@ -93,8 +99,11 @@ class LoginForm extends Component
 			if($services instanceof Collection && $services->count() == 1)
 				$services = $services->first();
             //if not, then $services is assumed to be a single service of type LmsIntegrationService.
-            //so we establish the connection.
-			$connection = $services->connect($this->user);
+            //so we either register the connection (since this is system-wide), or use the existing connection.
+			if(!$services->hasConnection($this->user))
+				$connection = $services->registerConnection($this->user);
+			else
+				$connection = $services->connect($this->user);
             //and save it to the user's auth connection
 			$this->user->authConnection()
 			           ->associate($connection);
@@ -123,6 +132,30 @@ class LoginForm extends Component
 		}
 	}
 
+	public function sendMagicLink()
+	{
+		$this->user = null;
+		//validate the email
+		$data = $this->validate([
+			'email' => 'required|email|exists:people,email',
+		]);
+		//set the cookie or forget it, depending on the checkbox.
+		if($this->rememberMe)
+			Cookie::queue(cookie()->forever('remember-me', $data['email']));
+		else
+			Cookie::forget('remember-me');
+		//get the user. We know they exist because of the email validation.
+		$this->user = Person::where('email', $data['email'])
+			->first();
+		if($this->user)
+		{
+			//create a signed link
+			$url = URL::temporarySignedRoute('login.link', now()->addMinute(10), ['person' => $this->user->school_id]);
+			$this->user->notify(new LoginLinkNotification($this->user, $url));
+		}
+		$this->magicLinkSent = true;
+	}
+
 
     public function submitMethod(IntegrationService $service)
     {
@@ -146,7 +179,7 @@ class LoginForm extends Component
 			//The password was authenticated. If the user does not need to change their password, they're in and can be redirected.
 			if(!$connection->mustChangePassword())
 			{
-				$this->redirect($connection->completeLogin($this->user));
+				$this->redirect(AuthConnection::completeLogin($this->user));
                 return;
 			}
 			//else, we take them to the change password form.
@@ -222,7 +255,7 @@ class LoginForm extends Component
 			{
 				//yes, so we will clear the change password directive and log the person in.
 				$connection->setMustChangePassword(false);
-				$this->redirect($connection->completeLogin($this->user));
+				$this->redirect(AuthConnection::completeLogin($this->user));
 				return;
 			}
 			$this->authCode = '';

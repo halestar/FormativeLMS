@@ -105,6 +105,11 @@ class AuthenticationDesignation implements Synthesizable
 	
 	public function isChoice(): bool
 	{
-		return ($this->services instanceof Collection);
+		return ($this->services instanceof Collection) && $this->services->count() > 1;
+	}
+
+	public function isBlocked(): bool
+	{
+		return $this->services == null || ($this->services instanceof Collection && $this->services->count() == 0);
 	}
 }

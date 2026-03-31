@@ -123,7 +123,6 @@ class IntegrationsManager
         $service->description = ($service)::getServiceDescription();
         $service->can_connect_to_people = ($service)::canConnectToPeople();
         $service->can_connect_to_system = ($service)::canConnectToSystem();
-        $service->configurable = ($service)::canConfigure();
         // we only update the data if the forced flag is set.
         if ($force) {
             $service->data = ($service)::getDefaultData();
@@ -190,9 +189,8 @@ class IntegrationsManager
     {
         $connections = $this->systemConnections(IntegratorServiceTypes::AI);
         $llms = new Collection;
-        foreach ($connections as $connection) {
+        foreach ($connections as $connection)
             $llms = $llms->concat($connection->llms()->available()->get());
-        }
 
         return $llms;
     }

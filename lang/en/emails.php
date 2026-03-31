@@ -17,6 +17,18 @@ EOE,
 		'password.reset.recipient_email' => 'Recipient\'s Email',
 		'password.reset.subject' => 'A request to reset your password has been received.',
 		'password.reset.token' => 'Authentication Token',
+		'login.link' => 'Login Link',
+		'login.link.description' => 'Email sent as a login link to the user when they\'re trying to login.',
+		'login.link.subject' => 'A link to login to your account has been requested.',
+		'login.link.body' => <<<EOE
+<p>
+You are receiving this email because we received a login link request for your account.  Please click the link below to proceed:
+<div>{!! \$url !!}</div>
+<p>Thank you,</p>
+EOE,
+		'login.link.subject.short' => 'Link to to login',
+		'login.link.body.short' => 'Use this link to login to FabLMS: {!! \$url !!}',
+		'login.link.url' => 'Login Link URL',
 		'preview' => 'Preview Email',
 		'revert.confirm' => 'Are you sure you wish to undo your changes?',
 		'send.test' => 'Send Test Email to Myself',

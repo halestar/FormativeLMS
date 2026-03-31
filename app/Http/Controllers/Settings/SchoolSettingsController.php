@@ -171,6 +171,8 @@ class SchoolSettingsController extends Controller
         $settings->numbers = $request->has('numbers');
         $settings->upper = $request->has('upper');
         $settings->symbols = $request->has('symbols');
+	    $settings->passkeys_allow = $request->has('passkeys_allow');
+	    $settings->passkeys_require = $settings->passkeys_allow && $request->has('passkeys_require');
         $settings->save();
 
         return redirect()

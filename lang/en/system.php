@@ -44,6 +44,7 @@ return
         'settings.ai.default_system_connection.none' => 'No default selected',
         'settings.ai.default_system_connection.description' => 'This is the default AI connection that will be used by queries.',
         'settings.classes.max_msg.help' => 'Max number of messages on each page of the school chat.',
+        'settings.classes.max_msg' => 'Messages Per Page',
         'settings.classes.rubrics_max_points' => 'Rubric Max Points',
         'settings.classes.rubrics_max_points.help' => 'Maximum number of points when generating a rubric via AI',
         'settings.classes.year_messages' => 'Show Messages for',

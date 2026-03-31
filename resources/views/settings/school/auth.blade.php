@@ -61,6 +61,36 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <div class="school-setting">
+                        <div class="form-label">{{ __('settings.auth.passkeys') }}</div>
+                        <div class="form-check form-check-inline">
+                            <input
+                                    type="checkbox"
+                                    class="form-check-input"
+                                    id="passkeys_allow"
+                                    name="passkeys_allow"
+                                    value="1"
+                                    @checked($authSettings->passkeys_allow)
+                            />
+                            <label class="form-check-label" for="numbers">{{ __('settings.auth.passkeys.allow') }}</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input
+                                    type="checkbox"
+                                    class="form-check-input"
+                                    id="passkeys_require"
+                                    name="passkeys_require"
+                                    value="1"
+                                    @disabled(!$authSettings->passkeys_allow)
+                                    @checked($authSettings->passkeys_allow && $authSettings->passkeys_require)
+                            />
+                            <label class="form-check-label" for="upper">{{ __('settings.auth.passkeys.require') }}</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="card-footer d-flex justify-content-end">
             <button type="submit" class="btn btn-primary col">{{ __('common.update') }}</button>

@@ -60,7 +60,7 @@ class LearningDemonstrationPostedNotification extends LmsNotification
 	public static function fakeNotification(): static
 	{
 		$msg = LearningDemonstrationOpportunity::inRandomOrder()->first();
-		return new LearningDemonstrationUpdatedNotification($msg);
+		return new LearningDemonstrationPostedNotification($msg);
 	}
 
 	public function actionLink(): string|null

@@ -47,6 +47,7 @@ return
 		'fields.types.choice' => 'Radio Buttons',
 		'fields.types.combo' => 'Select Dropdown',
 		'fields.num_ctx.title' => 'Context Size',
+		'fields.types.switch' => 'On/Off Switch',
 		'fields.num_ctx.description' => 'Sets the size of the context window used to generate the next token. (Default: 2048)',
 		'fields.repeat_last_n.title' => 'Repeat Last N Tokens',
 		'fields.repeat_last_n.description' => 'Sets the number of tokens to consider when looking for previously generated tokens. (Default: 64, 0 = disabled, -1 = num_ctx)',

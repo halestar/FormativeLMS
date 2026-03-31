@@ -59,12 +59,12 @@ abstract class LmsNotification extends Notification implements ShouldQueue
         return $channels;
     }
 
-    public function toMail(): SchoolMail
+    final public function toMail(): SchoolMail
     {
         return new SchoolMail($this);
     }
 
-    public function toBroadcast(object $notifiable): BroadcastMessage
+    final public function toBroadcast(object $notifiable): BroadcastMessage
     {
         $data = $this->toArray($notifiable);
         return new BroadcastMessage($data);
@@ -98,6 +98,5 @@ abstract class LmsNotification extends Notification implements ShouldQueue
     abstract public static function requiredTokens(): array;
     abstract public static function fakeNotification(): static;
     abstract public function actionLink(): string|null;
-
 
 }

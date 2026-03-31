@@ -148,13 +148,13 @@ class LearningDemonstrationTemplate extends Model implements AiPromptable, Filea
 
     public static function defaultPrompt(string $property): string
     {
-        switch ($property) {
-            case 'skills': return file_get_contents(view(self::PROMPT_VIEW_PATH.'ld.skills')->getPath());
-            case 'demonstration': return file_get_contents(view(self::PROMPT_VIEW_PATH.'ld.demonstration')->getPath());
-            case 'links': return file_get_contents(view(self::PROMPT_VIEW_PATH.'ld.links')->getPath());
-            case 'questions': return file_get_contents(view(self::PROMPT_VIEW_PATH.'ld.questions')->getPath());
+        switch ($property)
+        {
+            case 'skills': return file_get_contents(view('ai.prompts.ld.skills')->getPath());
+            case 'demonstration': return file_get_contents(view('ai.prompts.ld.demonstration')->getPath());
+            case 'links': return file_get_contents(view('ai.prompts.ld.links')->getPath());
+            case 'questions': return file_get_contents(view('ai.prompts.ld.questions')->getPath());
         }
-
         return '';
     }
 

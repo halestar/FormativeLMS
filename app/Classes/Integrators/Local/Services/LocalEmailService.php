@@ -85,7 +85,7 @@ class LocalEmailService extends LmsIntegrationService
         return false;
     }
 
-    public static function canConfigure(?Person $person = null): bool
+    public function canConfigure(?Person $person = null): bool
     {
         return false;
     }

@@ -82,9 +82,13 @@ class CommunicationSettings extends SystemSetting
         $integrationManager = app(IntegrationsManager::class);
         $emailServices = $integrationManager->getAvailableServices(IntegratorServiceTypes::EMAIL);
         $connections = [];
-        foreach ($emailServices as $service) {
-            if ($service->canConnectToSystem()) {
-                $connections[] = $service->connect();
+        foreach ($emailServices as $service)
+		{
+            if ($service->canConnectToSystem())
+			{
+				$conn = $service->connect();
+				if($conn)
+                    $connections[] = $conn;
             }
         }
 

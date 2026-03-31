@@ -31,6 +31,8 @@ class AuthSettings extends SystemSetting
 				"upper" => true,
 				"symbols" => true,
 				"priorities" => [AuthenticationDesignation::makeDefaultDesignation()],
+				"passkeys_allow" => true,
+				"passkeys_require" => false,
 			];
 	}
 	
@@ -42,6 +44,16 @@ class AuthSettings extends SystemSetting
 	public function numbers(): Attribute
 	{
 		return $this->basicProperty('numbers');
+	}
+
+	public function passkeysAllow(): Attribute
+	{
+		return $this->basicProperty('passkeys_allow');
+	}
+
+	public function passkeysRequire(): Attribute
+	{
+		return $this->basicProperty('passkeys_require');
 	}
 	
 	public function upper(): Attribute

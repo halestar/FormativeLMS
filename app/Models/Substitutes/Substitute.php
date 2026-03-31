@@ -129,9 +129,8 @@ class Substitute extends Model
 
     public function totalSubbedInYear(?Year $year = null): int
     {
-        if (! $year) {
+        if (! $year)
             $year = Year::currentYear();
-        }
 
         return $this->subbedSubstituteCampusRequests()
             ->whereBetween('created_at', [$year->start, $year->end])

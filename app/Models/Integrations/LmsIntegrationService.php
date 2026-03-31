@@ -86,7 +86,7 @@ abstract class LmsIntegrationService extends IntegrationService
      * @param  Person|null  $person  The person to configure the connection with or null if it's the system.
      * @return bool Whether this integration service can be configured by the user or service.
      */
-    abstract public static function canConfigure(?Person $person = null): bool;
+    abstract public function canConfigure(?Person $person = null): bool;
 
     /*****************************************
      * URLs

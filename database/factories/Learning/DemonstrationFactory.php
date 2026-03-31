@@ -27,7 +27,7 @@ class DemonstrationFactory extends Factory
             "type_id" => 1,
 	        "year_id" => Year::currentYear()->id,
 	        "name" => $this->faker->sentence(3),
-	        "abbr" => $this->faker->word,
+	        "abbr" => $this->faker->lexify('?????'),
 	        "demonstration" => $this->faker->paragraphs(5, true),
         ];
     }

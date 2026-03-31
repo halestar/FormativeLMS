@@ -20,9 +20,11 @@
                         <div class="alert alert-info position-relative">
                             <div class="alert-heading d-flex align-items-center justify-content-between">
                                 <span class="align-self-center">{{ __('ai.prompt') }}</span>
+                                @if($canEditDefault || $canEditPersonal)
                                 <a role="button" href="{{ route('ai.prompt.editor', $prompt) }}">
                                     <i class="bi bi-pencil-square"></i>
                                 </a>
+                                @endif
                             </div>
                             <div
                                 class="mt-2 bg-light border rounded p-2 small overflow-hidden "

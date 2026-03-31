@@ -70,12 +70,22 @@
                     :</strong> {{ $attachObj->roles->pluck('name')->join(', ') }}
             </div>
             @can('people.assign.roles')
-                <button
-                        type="button"
-                        x-on:click="$wire.set('editing', true)"
-                        class="btn btn-primary btn-sm rounded rounded-pill ms-3"
-                        {{ $this->ifDisabled() }}
-                >{{ __('settings.edit_roles') }}</button>
+                <div>
+                    <button
+                            type="button"
+                            x-on:click="$wire.set('editing', true)"
+                            class="btn btn-primary btn-sm rounded rounded-pill ms-3"
+                            {{ $this->ifDisabled() }}
+                    >{{ __('settings.edit_roles') }}</button>
+                    @if($canResetRoles)
+                        <button
+                                type="button"
+                                wire:click="resetRoles"
+                                class="btn btn-danger btn-sm rounded rounded-pill"
+                                {{ $this->ifDisabled() }}
+                        >{{ __('settings.reset_roles') }}</button>
+                    @endif
+                </div>
             @endcan
         </h6>
     @endif

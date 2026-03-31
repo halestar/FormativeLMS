@@ -126,5 +126,13 @@ class LocalIntegrator extends LmsIntegrator
             ->name('services.ai.config');
         Route::post('/services/ai/config', [LocalIntegratorController::class, 'aiPreferences_update'])
             ->name('services.ai.config.update');
+
+	    // ai personal register
+	    Route::get('/services/ai/config/personal', [LocalIntegratorController::class, 'aiPersonalPreferences'])
+		    ->name('services.ai.config.personal')
+		    ->withoutMiddleware(['can:settings.integrators']);
+	    Route::post('/services/ai/config/personal', [LocalIntegratorController::class, 'aiPersonalPreferences_update'])
+		    ->name('services.ai.config.personal.update')
+		    ->withoutMiddleware(['can:settings.integrators']);
     }
 }

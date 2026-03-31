@@ -173,7 +173,10 @@ class LocalAiConnection extends AiConnection
         if ($target instanceof Fileable) {
             $files += $this->extractFiles($target);
         }
-
+		$options = [];
+		foreach($aiModel->provider_options->getOptions() as $field => $option)
+			$options[$field] = $option->value;
+		$options['temperature'] = $prompt->temperature;
         if ($prompt->structured)
 		{
             $response = Prism::structured()
@@ -182,10 +185,7 @@ class LocalAiConnection extends AiConnection
                         'url' => $this->data->endpoint,
                     ])
 	            ->withSchema($target->getSchema($prompt->property))
-                ->withProviderOptions(
-                    [
-                        'temperature' => $prompt->temperature,
-                    ])
+                ->withProviderOptions($options)
 	            ->withClientOptions(['timeout' => 240])
                 ->withSystemPrompt($prompt->system_prompt)
                 ->withPrompt($prompt->renderPrompt($target), $files)
@@ -200,10 +200,7 @@ class LocalAiConnection extends AiConnection
                     [
                         'url' => $this->data->endpoint,
                     ])
-                ->withProviderOptions(
-                    [
-                        'temperature' => $prompt->temperature,
-                    ])
+	            ->withProviderOptions($options)
                 ->withSystemPrompt($prompt->system_prompt)
                 ->withPrompt($prompt->renderPrompt($target), $files)
                 ->withTools(Relay::tools('local'))

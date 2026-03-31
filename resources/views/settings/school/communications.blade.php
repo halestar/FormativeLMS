@@ -124,12 +124,41 @@
             <h3 class="card-header">{{ __('settings.communications.messages.system') }}</h3>
             <div class="list-group list-group-flush">
                 @foreach($systemMessages as $message)
-                    <a
-                        class="list-group-item list-group-item-action"
-                        href="{{ route('settings.school.messages', $message->id) }}"
-                    >
-                        {{ $message->name }}
-                    </a>
+                    <div class="list-group-item py-3 border-2 border-start-0 border-end-0 border-top-0">
+                        <div class="d-flex flex-column gap-2">
+                            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-start gap-2">
+                                <div class="flex-grow-1">
+                                    <div class="d-flex flex-wrap align-items-center gap-2">
+                                        <h5 class="mb-0">{{ $message->name }}</h5>
+                                        @if($message->force_subscribe)
+                                            <span class="badge text-bg-warning">{{ __('school.messages.subscribe.force') }}</span>
+                                        @endif
+                                        @if(!$message->subscribable)
+                                            <span class="badge text-bg-secondary">{{ __('school.messages.unblockable') }}</span>
+                                        @endif
+                                    </div>
+                                    @if(filled($message->description))
+                                        <div class="small text-body-secondary mt-1">
+                                            {{ \Illuminate\Support\Str::limit(strip_tags($message->description), 120) }}
+                                        </div>
+                                    @endif
+                                </div>
+                                <div class="d-flex justify-content-md-end">
+                                    <a
+                                        class="btn btn-outline-primary btn-sm rounded-pill"
+                                        href="{{ route('settings.school.messages', $message->id) }}"
+                                    >
+                                        {{ __('common.edit') }}
+                                    </a>
+                                </div>
+                            </div>
+                            @if(!$message->force_subscribe && $message->subscribable)
+                                <div class="rounded border border-secondary-subtle bg-body-tertiary px-3 py-2">
+                                    <livewire:role-assigner :attach-obj="$message" :key="'school-message-role-assigner-'.$message->id" />
+                                </div>
+                            @endif
+                        </div>
+                    </div>
                 @endforeach
             </div>
         </div>

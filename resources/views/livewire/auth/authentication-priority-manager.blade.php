@@ -1,234 +1,184 @@
 <div>
     @inject('manager', 'App\Classes\Integrators\IntegrationsManager')
     @if($editing)
-        <div class="border-bottom d-flex justify-content-between align-items-center mb-3">
-            <h3>{{ __('settings.auth.priorities') }}</h3>
+        <div class="border-bottom d-flex justify-content-between align-items-center pb-2 mb-3">
+            <div class="fw-semibold">{{ __('settings.auth.priorities') }}</div>
             <button
                     type="button"
-                    class="btn btn-danger"
+                    class="btn btn-outline-danger btn-sm"
                     x-on:click="$wire.set('editing', false)"
             >{{ __('common.cancel') }}</button>
         </div>
-        <ul class="list-group">
-            <li class="list-group-item">
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <h3 class="row align-content-start border-bottom mb-2">
-                            {{ __('settings.auth.priorities.default') }}
-                            : {{ __('settings.auth.priorities.default.help') }}
-                        </h3>
-                        <div class="row">
-                            <div class="col">
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text">{{ __('settings.auth.priorities.modules.use') }}</span>
-                                    <select
-                                            class="form-select"
-                                            wire:change="updateAuthentication(0, ($event.target.value === 'choose'? $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get(): $event.target.value))"
+        <ul class="list-group list-group-flush mb-3">
+            <li class="list-group-item px-0 py-2">
+                <div class="d-flex flex-column gap-2">
+                    <div class="fw-semibold small text-uppercase text-muted">
+                        {{ __('settings.auth.priorities.default') }}
+                    </div>
+                    <div class="small text-muted">{{ __('settings.auth.priorities.default.help') }}</div>
+                    <div class="input-group input-group-sm">
+                        <span class="input-group-text">{{ __('settings.auth.priorities.modules.use') }}</span>
+                        <select
+                            class="form-select form-select-sm"
+                            id="default_priority_action"
+                            wire:model="priorities.0.auth"
+                            wire:change="$wire.set('changed', true)"
+                        >
+                            <option value="">{{ __('auth.block') }}</option>
+                            @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
+                                <option value="{{ $service->id }}">{{ $service->name }}</option>
+                            @endforeach
+                            <option value="choose">{{ __('settings.auth.priorities.modules.choose') }}</option>
+                        </select>
+                    </div>
+                    <div class="alert alert-info py-2 px-2 mb-0" x-show="$wire.priorities[0].auth == 'choose'">
+                        <div class="row row-cols-2 row-cols-md-3 g-2">
+                            @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
+                                <div class="form-check col small">
+                                    <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            wire:model="priorities.0.choices"
+                                            id="service_ids_0_{{ $service->id }}"
+                                            value="{{ $service->id }}"
+                                            wire:click="$wire.set('changed', true)"
                                     >
-                                        <option value="">{{ __('auth.block') }}</option>
-                                        @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
-                                            <option
-                                                    value="{{ $service->id }}"
-                                                    @selected($priorities[0]->services && !$priorities[0]->isChoice() && $priorities[0]->services->id == $service->id)
-                                            >{{ $service->name }}</option>
-                                        @endforeach
-                                        <option
-                                                value="choose"
-                                                @selected($priorities[0]->isChoice())
-                                        >{{ __('settings.auth.priorities.modules.choose') }}</option>
-                                    </select>
+                                    <label class="form-check-label"
+                                           for="service_ids_0_{{ $service->id }}">
+                                        {{ $service->name }}
+                                    </label>
                                 </div>
-                                @if($priorities[0]->isChoice())
-                                    <div class="alert alert-info p-3">
-                                        <div class="row row-cols-3">
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-2">
+            <div class="fw-semibold small text-uppercase text-muted">{{ __('settings.auth.priorities.additional') }}</div>
+            <button type="button" class="btn btn-primary btn-sm" wire:click="addPriority()">
+                <span class="border-end pe-2 me-2"><i class="fa fa-plus"></i></span>{{ __('settings.auth.priority') }}
+            </button>
+        </div>
+        <ul wire:sort="reorderPriorities" class="list-group list-group-flush">
+            @foreach($priorities as $priorityId => $priority)
+                @continue($priorityId == \App\Classes\Auth\AuthenticationDesignation::DEFAULT_PRIORITY)
+                <li wire:sort:item="{{ $priorityId }}" wire:key="{{ $priorityId }}"
+                    class="list-group-item px-0 py-2">
+                    <div class="d-flex align-items-start gap-2">
+                        <div class="pt-1">
+                            <button type="button" wire:sort:handle class="btn btn-link p-0 text-muted">
+                                <i class="fa-solid fa-grip-lines-vertical"></i>
+                            </button>
+                        </div>
+                        <div class="flex-grow-1">
+                            <div class="fw-semibold small text-uppercase text-muted mb-1">
+                                {{ __('settings.auth.priorities.number') .  $priorityId }}
+                            </div>
+                            <div class="row g-2">
+                                <livewire:auth.multi-role-selector wire:model="priorities.{{ $priorityId }}.roles" classes="col" />
+                                <div class="col">
+                                    <div class="input-group input-group-sm mb-2">
+                                        <span class="input-group-text">{{ __('settings.auth.priorities.modules.use') }}</span>
+                                        <select
+                                                class="form-select form-select-sm"
+                                                wire:model="priorities.{{ $priorityId }}.auth"
+                                                wire:click="$wire.set('changed', true)"
+                                        >
+                                            <option value="">{{ __('auth.block') }}</option>
                                             @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
-                                                <div class="form-check col">
+                                                <option value="{{ $service->id }}">{{ $service->name }}</option>
+                                            @endforeach
+                                            <option value="choose">{{ __('settings.auth.priorities.modules.choose') }}</option>
+                                        </select>
+                                    </div>
+                                    <div class="alert alert-info py-2 px-2 mb-0" x-show="$wire.priorities[{{ $priorityId }}].auth == 'choose'">
+                                        <div class="row row-cols-2 row-cols-md-3 g-2">
+                                            @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
+                                                <div class="form-check col small">
                                                     <input
                                                             type="checkbox"
                                                             class="form-check-input"
-                                                            name="choose_auth_0"
-                                                            id="choose_auth_0_{{ $service->id }}"
+                                                            id="service_ids_{{ $priorityId }}_{{ $service->id }}"
                                                             value="{{ $service->id }}"
-                                                            @checked($priorities[0]->services->where('id', '=', $service->id)->count() > 0)
-                                                            wire:click="updateAuthentication(0, $('input[name=choose_auth_0]:checked').map((i, e) => $(e).val()).get())"
+                                                            wire:model="priorities.{{ $priorityId }}.choices"
                                                     >
                                                     <label class="form-check-label"
-                                                           for="choose_auth_0_{{ $service->id }}">
+                                                           for="service_ids_{{ $priorityId }}_{{ $service->id }}">
                                                         {{ $service->name }}
                                                     </label>
                                                 </div>
                                             @endforeach
                                         </div>
                                     </div>
-                                @endif
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <div class="my-3 border-bottom d-flex justify-content-between align-items-center">
-            <h2>{{ __('settings.auth.priorities.additional') }}</h2>
-
-            <button type="button" class="btn btn-primary" wire:click="addPriority()">
-                <span class="border-end pe-2 me-2"><i class="fa fa-plus"></i></span>{{ __('settings.auth.priority') }}
-            </button>
-        </div>
-        <ul wire:sortable="reorderPriorities" class="list-group">
-            @foreach($priorities as $priority)
-                @continue($priority->priority == \App\Classes\Auth\AuthenticationDesignation::DEFAULT_PRIORITY)
-                <li wire:sortable.item="{{ $priority->priority }}" wire:key="{{ $priority->priority }}"
-                    class="list-group-item">
-                    <div class="row align-items-center">
-                        <div class="col-1">
-                            <span wire:sortable.handle class="show-as-grab me-2 display-1"><i
-                                        class="fa-solid fa-grip-lines-vertical"></i></span>
-                        </div>
-                        <div class="col-10">
-                            <div class="row align-content-start border-bottom mb-2">
-                                {{ __('settings.auth.priorities.number') .  $priority->priority }}
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text">{{ __('settings.role.assign') }}</span>
-                                        <select
-                                                class="form-select"
-                                                wire:change="addRoleToPriority({{ $priority->priority }}, $event.target.value)"
-                                                x-on:change="$event.target.selectedIndex = 0"
-                                        >
-                                            <option value="">{{ __('people.roles.select') }}</option>
-                                            @foreach(\App\Models\Utilities\SchoolRoles::whereNotIn('id', array_merge(...array_map(fn($v) => array_keys($v->roles), $priorities)))->excludeAdmin()->get() as $role)
-                                                <option value="{{ $role->id }}">{{ $role->name }}</option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                    <div class="alert alert-info p-3">
-                                        @forelse($priority->roles as $roleId => $role)
-                                            <span class="badge text-bg-primary mx-2 p-2 show-as-action align-items-center">
-                                                {{ $role }}
-                                                <span
-                                                        class="mx-1 border-start ps-2"
-                                                        wire:click="removeRoleFromPriority({{$priority->priority}}, {{ $roleId }})"
-                                                ><i class="text-danger fs-6 fa fa-times"></i></span>
-                                            </span>
-                                        @empty
-                                            <h4>{{ __('auth.roles.min') }}</h4>
-                                        @endforelse
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text">{{ __('settings.auth.priorities.modules.use') }}</span>
-                                        <select
-                                                class="form-select"
-                                                wire:change="updateAuthentication({{ $priority->priority }}, ($event.target.value === 'choose'? []: $event.target.value))"
-                                        >
-                                            <option value="">{{ __('auth.block') }}</option>
-                                            @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
-                                                <option
-                                                        value="{{ $service->id }}"
-                                                        @selected($priority->services && !$priority->isChoice() && $priority->services->id == $service->id)
-                                                >{{ $service->name }}</option>
-                                            @endforeach
-                                            <option
-                                                    value="choose"
-                                                    @selected($priority->isChoice())
-                                            >{{ __('settings.auth.priorities.modules.choose') }}</option>
-                                        </select>
-                                    </div>
-                                    @if($priority->isChoice())
-                                        <div class="alert alert-info p-3">
-                                            <div class="row row-cols-3">
-                                                @foreach($manager->getAvailableServices(\App\Enums\IntegratorServiceTypes::AUTHENTICATION) as $service)
-                                                    <div class="form-check col">
-                                                        <input
-                                                                type="checkbox"
-                                                                class="form-check-input"
-                                                                name="choose_auth_{{ $priority->priority }}"
-                                                                id="choose_auth_{{ $priority->priority }}_{{ $service->id }}"
-                                                                value="{{ $service->id }}"
-                                                                @checked($priority->services->where('id', '=', $service->id)->count() > 0)
-                                                                wire:click="updateAuthentication({{ $priority->priority }}, $('input[name=choose_auth_{{ $priority->priority }}]:checked').map((i, e) => $(e).val()).get())"
-                                                        >
-                                                        <label class="form-check-label"
-                                                               for="choose_auth_{{ $priority->priority }}_{{ $service->id }}">
-                                                            {{ $service->name }}
-                                                        </label>
-                                                    </div>
-                                                @endforeach
-                                            </div>
-                                        </div>
-                                    @endif
                                 </div>
                             </div>
                         </div>
-                        <div class="col-1">
-                    <span class="show-as-action me-2 display-1 text-danger"
-                          wire:click="removePriority({{ $priority->priority }})"><i
-                                class="fa-solid fa-times"></i></span>
+                        <div class="pt-1">
+                            <button
+                                    type="button"
+                                    class="btn btn-link p-0 text-danger"
+                                    wire:click="removePriority({{ $priorityId }})"
+                                    aria-label="{{ __('crud.remove') }}"
+                            ><i class="fa-solid fa-times"></i></button>
                         </div>
                     </div>
                 </li>
             @endforeach
         </ul>
         @if($changed)
-            <div class="alert alert-danger">
-                <h3 class="alert-heading">{{ __('settings.auth.priorities.warning.heading') }}</h3>
-                <p>
-                    {!! __('settings.auth.priorities.warning') !!}
-                </p>
-                <div class="d-flex justify-content-end">
-                    <button type="button" class="btn btn-danger mx-2"
+            <div class="alert alert-danger py-2 px-2 mt-3 mb-0">
+                <div class="fw-semibold small text-uppercase mb-1">{{ __('settings.auth.priorities.warning.heading') }}</div>
+                <div class="small mb-2">{!! __('settings.auth.priorities.warning') !!}</div>
+                <div class="d-flex justify-content-end gap-2">
+                    <button type="button" class="btn btn-danger btn-sm"
                             wire:click="applyChanges">{{ __('common.apply.changes') }}</button>
-                    <button type="button" class="btn btn-secondary mx-2"
+                    <button type="button" class="btn btn-secondary btn-sm"
                             wire:click="revertChanges">{{ __('common.revert.changes') }}</button>
                 </div>
             </div>
         @endif
 
     @else
-        <div class="border-bottom d-flex justify-content-between align-items-center mb-3">
-            <h3>{{ __('settings.auth.priorities') }}</h3>
+        <div class="border-bottom d-flex justify-content-between align-items-center pb-2 mb-3">
+            <div class="fw-semibold">{{ __('settings.auth.priorities') }}</div>
             <button
                     type="button"
-                    class="btn btn-secondary"
+                    class="btn btn-secondary btn-sm"
                     x-on:click="$wire.set('editing', true)"
             >{{ __('common.edit') }}</button>
         </div>
-        @foreach($priorities as $priority)
+        @foreach($authSettings->priorities as $priority)
             @continue($priority->priority == \App\Classes\Auth\AuthenticationDesignation::DEFAULT_PRIORITY)
-            <div class="alert alert-info">
-                <h5>
+            <div class="alert alert-info py-2 px-2 mb-2">
+                <div class="fw-semibold small">
                     {{ __('settings.auth.priorities.number') .  $priority->priority }}:
                     {{ __('settings.auth.priorities.description', ['roles' => implode(', ', $priority->roles)]) }}
-                </h5>
-                <h6>
+                </div>
+                <div class="small text-muted">
                     @if($priority->isChoice())
-                        [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priority->prettyServices()]) }}
-                        ]
+                        [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priority->prettyServices()]) }} ]
+                    @elseif($priority->isBlocked())
+                        [ {{ __('settings.auth.priorities.modules.description.blocked') }} ]
                     @else
-                        [ {{ __('settings.auth.priorities.modules.description', ['module' => $priority->prettyServices()]) }}
-                        ]
+                        [ {{ __('settings.auth.priorities.modules.description', ['module' => $priority->prettyServices()]) }} ]
                     @endif
-                </h6>
+                </div>
             </div>
         @endforeach
-        <div class="alert alert-primary">
-            <h5>
+        <div class="alert alert-primary py-2 px-2 mb-0">
+            <div class="fw-semibold small">
                 {{ __('settings.auth.priorities.default') }}: {{ __('settings.auth.priorities.default.help') }}
-            </h5>
-            <h6>
-                @if($priorities[0]->isChoice())
-                    [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $priorities[0]->prettyServices()]) }}
-                    ]
-                @elseif($priorities[0]->services == null)
-                    <span class="fw-bold">{{ __('auth.block') }}</span>
+            </div>
+            <div class="small text-muted">
+                @if($authSettings->priorities[0]->isChoice())
+                    [ {{ __('settings.auth.priorities.modules.description.choose', ['modules' => $authSettings->priorities[0]->prettyServices()]) }} ]
+                @elseif($authSettings->priorities[0]->isBlocked())
+                    [ {{ __('settings.auth.priorities.modules.description.blocked') }} ]
                 @else
-                    [ {{ __('settings.auth.priorities.modules.description', ['module' => $priorities[0]->prettyServices()]) }}
-                    ]
+                    [ {{ __('settings.auth.priorities.modules.description', ['module' => $authSettings->priorities[0]->prettyServices()]) }} ]
                 @endif
-            </h6>
+            </div>
         </div>
     @endif
 </div>

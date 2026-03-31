@@ -122,7 +122,7 @@ class SkillSeeder extends Seeder
 				$skill = Skill::create(
 					[
 						'designation' => $row[$designation],
-						'description' => nl2br($row[$description]),
+						'description' => mb_convert_encoding(nl2br($row[$description]), 'UTF-8', 'ISO-8859-1'),
 						'active' => true,
 					]);
 				//next, we attach the grades

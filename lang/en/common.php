@@ -46,6 +46,7 @@ return
         'edit' => 'Edit',
         'em' => 'em',
         'enable' => 'Enable',
+        'enabled' => 'Enabled',
         'enroll' => 'Enroll',
         'enrolled' => 'Enrolled',
         'enrolled.no' => 'Not Enrolled',

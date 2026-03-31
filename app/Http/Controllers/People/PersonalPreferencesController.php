@@ -63,4 +63,15 @@ class PersonalPreferencesController extends Controller
 
         return response([], 200);
     }
+
+	public function passkeys(Person $person)
+	{
+		$breadcrumb =
+			[
+				__('people.profile.mine') => route('people.show', $person->school_id),
+				__('settings.auth.passkeys') => '#',
+			];
+
+		return view('people.preferences.passkeys', compact('breadcrumb', 'person'));
+	}
 }

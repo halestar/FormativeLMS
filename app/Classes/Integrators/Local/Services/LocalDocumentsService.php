@@ -68,9 +68,9 @@ class LocalDocumentsService extends LmsIntegrationService
         return false;
     }
 
-    public static function canConfigure(?Person $person = null): bool
+    public function canConfigure(?Person $person = null): bool
     {
-        return $person != null;
+        return ($person == null);
     }
 
     public function registrationUrl(?Person $person = null): ?string
@@ -80,6 +80,6 @@ class LocalDocumentsService extends LmsIntegrationService
 
     public function configurationUrl(?Person $person = null): ?string
     {
-        return route(Integrator::INTEGRATOR_ACTION_PREFIX.'local.documents.index');
+        return ($person == null)? route(Integrator::INTEGRATOR_ACTION_PREFIX.'local.documents.index'): null;
     }
 }
