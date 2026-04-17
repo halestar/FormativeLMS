@@ -4,19 +4,15 @@ namespace App\Livewire\Auth;
 
 use App\Classes\Settings\AuthSettings;
 use App\Enums\Auth\LoginStages;
-use App\Mail\ResetPasswordMail;
 use App\Models\Integrations\Connections\AuthConnection;
 use App\Models\Integrations\IntegrationService;
 use App\Models\People\Person;
-use App\Models\Utilities\SystemSetting;
 use App\Notifications\Auth\LoginLinkNotification;
 use App\Notifications\Auth\ResetPasswordNotification;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\URL;
 use Livewire\Attributes\On;
 use Livewire\Component;
@@ -150,7 +146,8 @@ class LoginForm extends Component
 		if($this->user)
 		{
 			//create a signed link
-			$url = URL::temporarySignedRoute('login.link', now()->addMinute(10), ['person' => $this->user->school_id]);
+			$token = $this->user->createToken('auth-token', expiresAt: now()->addMinute(10))->plainTextToken;
+			$url = URL::temporarySignedRoute('login.link', now()->addMinute(10), ['token' => $token]);
 			$this->user->notify(new LoginLinkNotification($this->user, $url));
 		}
 		$this->magicLinkSent = true;

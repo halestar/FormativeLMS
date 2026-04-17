@@ -12,8 +12,8 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Drivers\Imagick\Driver;
+use Intervention\Image\Format;
 use Intervention\Image\ImageManager;
 
 class WorkFile extends Model
@@ -70,12 +70,12 @@ class WorkFile extends Model
 	{
 		if($this->canCreateThumb())
 		{
-			$manager = new ImageManager(new Driver());
-			$thmb = $manager->read($this->contents());
+			$manager = ImageManager::usingDriver(Driver::class);
+			$thmb = $manager->decodeBinary($this->contents());
 			if($thmb)
 			{
-				$thmb->pad(config('lms.thumb_max_height'), config('lms.thumb_max_height'));
-				$this->thumb_path = $this->lmsConnection->storeThumbnail($this, $thmb->toJpeg());
+				$thmb->containDown(config('lms.thumb_max_height'), config('lms.thumb_max_height'));
+				$this->thumb_path = $this->lmsConnection->storeThumbnail($this, $thmb->encodeUsingFormat(Format::JPEG, progressive: true, quality: 10));
 				$this->save();
 			}
 		}

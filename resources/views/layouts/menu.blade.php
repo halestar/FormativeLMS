@@ -12,12 +12,27 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav me-auto">
                 @auth
+                    @canany('requests.substitute')
+                        <li class="nav-item dropdown">
+                            <a id="requestsDD" class="nav-link dropdown-toggle" href="#" role="button"
+                               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                {{ __('system.menu.requests') }}
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="requestsDD">
+                                @can('requests.substitute')
+                                    <a class="dropdown-item" href="{{ route('features.substitutes.create') }}">
+                                        {{ __('features.substitutes.request') }}
+                                    </a>
+                                @endcan
+                            </div>
+                        </li>
+                    @endcanany
                     <li class="nav-item dropdown">
                         <a id="peopleAdminDD" class="nav-link dropdown-toggle" href="#" role="button"
                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ __('system.menu.people') }}
                         </a>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="schoolAdminDD">
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="peopleAdminDD">
                             <a class="dropdown-item" href="{{ route('people.school-ids.show') }}">
                                 {{ __('people.id.mine') }}
                             </a>

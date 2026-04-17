@@ -23,6 +23,9 @@ use App\Models\SubjectMatter\Learning\LearningDemonstration;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationClassSession;
 use App\Models\Utilities\WorkFile;
 use App\Traits\HasWorkFiles;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Attributes\Scope;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -56,10 +59,20 @@ class ClassSession extends Model implements Fileable, HasSchedule
             'class_management_id',
         ];
 
-    public function canDelete(): bool
-    {
-        return true;
-    }
+	protected function casts(): array
+	{
+		return
+			[
+				'setup_done' => 'boolean',
+				'inherit_criteria' => 'boolean',
+				'layout' => 'array',
+				'calc_method' => AssessmentStrategyCalculationMethod::class,
+			];
+	}
+
+	/*****************************************************************
+	 * ELOQUENT RELATIONSHIPS
+	 ****************************************************************/
 
     public function schoolClass(): BelongsTo
     {
@@ -93,18 +106,82 @@ class ClassSession extends Model implements Fileable, HasSchedule
             ->exists();
     }
 
-    public function students(): BelongsToMany
-    {
-        return $this->belongsToMany(StudentRecord::class, 'class_sessions_students', 'session_id', 'student_id');
-    }
+	public function students(): BelongsToMany
+	{
+		return $this->belongsToMany(StudentRecord::class, 'class_sessions_students',
+			'session_id', 'student_id');
+	}
 
-    public function periods(): BelongsToMany
-    {
-        return $this->belongsToMany(Period::class, 'class_sessions_periods', 'session_id', 'period_id')
-            ->withPivot('room_id')
-            ->using(ClassSessionPeriod::class)
-            ->as('sessionPeriod');
-    }
+	public function periods(): BelongsToMany
+	{
+		return $this->belongsToMany(Period::class, 'class_sessions_periods',
+			'session_id', 'period_id')
+			->withPivot('room_id')
+			->using(ClassSessionPeriod::class)
+			->as('sessionPeriod');
+	}
+
+	public function teachers(): BelongsToMany
+	{
+		return $this->belongsToMany(Person::class, 'class_sessions_teachers', 'session_id', 'person_id');
+	}
+
+	public function messages(): HasMany
+	{
+		return $this->hasMany(ClassMessage::class, 'session_id');
+	}
+
+	public function classCriteria(): BelongsToMany
+	{
+		return $this->belongsToMany(ClassCriteria::class, 'class_session_criteria', 'session_id', 'criteria_id')
+			->withPivot('weight')
+			->as('sessionCriteria')
+			->using(ClassSessionCriteria::class);
+	}
+
+	public function classManager(): BelongsTo
+	{
+		if (! $this->class_management_id) {
+			// There isn't a classroom management set, so we put in the default one.
+			$settings = app(SchoolSettings::class);
+			$defaultService = $settings->classManagementService;
+			// first, is there a system connection?
+			if ($defaultService) {
+				// check if there is a system connection for this service
+				$conn = $defaultService->connect();
+				// if there is no system connection, then try a user connection.
+				if (! $conn) {
+					$conn = $defaultService->connect($this->teachers()->first());
+				}
+				// if we have a connection now, save it.
+				if ($conn) {
+					$this->class_management_id = $conn->id;
+					$this->save();
+				}
+			}
+		}
+
+		return $this->belongsTo(IntegrationConnection::class, 'class_management_id');
+	}
+
+	public function communicationObjects(string $type): HasMany
+	{
+		return $this->hasMany(ClassCommunicationObject::class, 'session_id')
+			->where('className', $type);
+	}
+
+	public function demonstrations(): BelongsToMany
+	{
+		return $this->belongsToMany(LearningDemonstration::class, 'learning_demonstration_class_sessions', 'session_id', 'demonstration_id')
+			->withPivot(['id', 'criteria_id', 'criteria_weight', 'posted_on', 'due_on'])
+			->using(LearningDemonstrationClassSession::class)
+			->as('session')
+			->orderBy('learning_demonstration_class_sessions.posted_on', 'desc');
+	}
+
+	/*****************************************************************
+	 * ATTRIBUTES
+	 ****************************************************************/
 
     public function name(): Attribute
     {
@@ -127,6 +204,32 @@ class ClassSession extends Model implements Fileable, HasSchedule
         );
     }
 
+	public function startTime(string $date = null): Carbon
+	{
+		$date = $date? date('N', strtotime($date)) : date('N');
+
+		return $this->classPeriods()
+			->where('day', $date)
+			->sortBy('start')
+			->first()
+			->start;
+	}
+
+	public function endTime(string $date = null): Carbon
+	{
+		$date = $date? date('N', strtotime($date)) : date('N');
+
+		return $this->classPeriods()
+			->where('day', $date)
+			->sortBy('end')
+			->first()
+			->end;
+	}
+
+	/*****************************************************************
+	 * TEACHER FUNCTIONS
+	 ****************************************************************/
+
     public function teachersString(): string
     {
         return $this->teachers->pluck('name')
@@ -147,10 +250,8 @@ class ClassSession extends Model implements Fileable, HasSchedule
 
     public function classPeriods(): Collection
     {
-        if (! $this->block_id) {
+        if(!$this->block_id)
             return $this->periods;
-        }
-
         return $this->block->periods;
     }
 
@@ -244,34 +345,9 @@ class ClassSession extends Model implements Fileable, HasSchedule
             ->exists();
     }
 
-    public function teachers(): BelongsToMany
-    {
-        return $this->belongsToMany(Person::class, 'class_sessions_teachers', 'session_id', 'person_id');
-    }
 
-    public function messages(): HasMany
-    {
-        return $this->hasMany(ClassMessage::class, 'session_id');
-    }
 
-    protected function casts(): array
-    {
-        return
-            [
-                'setup_done' => 'boolean',
-                'inherit_criteria' => 'boolean',
-                'layout' => 'array',
-                'calc_method' => AssessmentStrategyCalculationMethod::class,
-            ];
-    }
 
-    public function classCriteria(): BelongsToMany
-    {
-        return $this->belongsToMany(ClassCriteria::class, 'class_session_criteria', 'session_id', 'criteria_id')
-            ->withPivot('weight')
-            ->as('sessionCriteria')
-            ->using(ClassSessionCriteria::class);
-    }
 
     public function hasCriteria(ClassCriteria $criteria): bool
     {
@@ -287,30 +363,7 @@ class ClassSession extends Model implements Fileable, HasSchedule
             ->first();
     }
 
-    public function classManager(): BelongsTo
-    {
-        if (! $this->class_management_id) {
-            // There isn't a classroom management set, so we put in the default one.
-            $settings = app(SchoolSettings::class);
-            $defaultService = $settings->classManagementService;
-            // first, is there a system connection?
-            if ($defaultService) {
-                // check if there is a system connection for this service
-                $conn = $defaultService->connect();
-                // if there is no system connection, then try a user connection.
-                if (! $conn) {
-                    $conn = $defaultService->connect($this->teachers()->first());
-                }
-                // if we have a connection now, save it.
-                if ($conn) {
-                    $this->class_management_id = $conn->id;
-                    $this->save();
-                }
-            }
-        }
 
-        return $this->belongsTo(IntegrationConnection::class, 'class_management_id');
-    }
 
     public function viewingAs(ClassViewer $viewer): bool
     {
@@ -346,20 +399,7 @@ class ClassSession extends Model implements Fileable, HasSchedule
         return false;
     }
 
-    public function communicationObjects(string $type): HasMany
-    {
-        return $this->hasMany(ClassCommunicationObject::class, 'session_id')
-            ->where('className', $type);
-    }
 
-    public function demonstrations(): BelongsToMany
-    {
-        return $this->belongsToMany(LearningDemonstration::class, 'learning_demonstration_class_sessions', 'session_id', 'demonstration_id')
-            ->withPivot(['id', 'criteria_id', 'criteria_weight', 'posted_on', 'due_on'])
-            ->using(LearningDemonstrationClassSession::class)
-            ->as('session')
-            ->orderBy('learning_demonstration_class_sessions.posted_on', 'desc');
-    }
 
     public function getWorkStorageKey(): WorkStoragesInstances
     {
@@ -375,4 +415,19 @@ class ClassSession extends Model implements Fileable, HasSchedule
     {
         return true;
     }
+
+	public function meets(string $date = null): bool
+	{
+		if($date)
+			$day = date('N', strtotime($date));
+		if(!$day)
+			$day = date('N');
+		return $this->classPeriods()->where('day', '=', $day)
+			->count() > 0;
+	}
+
+	public function canDelete(): bool
+	{
+		return true;
+	}
 }

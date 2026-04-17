@@ -40,7 +40,7 @@ class SubstituteClassRequest extends Model
 
     public function substitute(): BelongsTo
     {
-        return $this->belongsTo(Person::class, 'person_id');
+        return $this->belongsTo(Substitute::class, 'person_id', 'person_id');
     }
 
     public function hasSub()

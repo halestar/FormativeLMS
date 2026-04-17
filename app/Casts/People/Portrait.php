@@ -55,7 +55,7 @@ class Portrait implements CastsAttributes
 
 	public function __toString(): string
 	{
-		return $this->url;
+		return $this->url ?? asset('images/unk.svg');
 	}
 
 	public function isWorkFile(): bool

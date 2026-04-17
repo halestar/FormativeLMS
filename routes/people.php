@@ -26,8 +26,6 @@ Route::controller(\App\Http\Controllers\People\PersonController::class)
 	          ->name('update.basic');
 	     Route::post('/{person}/portrait', 'updatePortrait')
 	          ->name('update.portrait');
-	     Route::delete('/{person}/portrait', 'deletePortrait')
-	          ->name('delete.portrait');
 
          //Fields
 	     Route::put('/{person}/fields/{role}/update', 'updateRoleFields')

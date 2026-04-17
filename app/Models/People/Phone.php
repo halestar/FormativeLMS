@@ -31,18 +31,32 @@ class Phone extends Model
 				            'primary', 'label', 'order',
 			            ]);
 	}
+
+	public function phone():Attribute
+	{
+		return Attribute::make
+		(
+			get: fn(mixed $value, array $attributes) => $this->pPhone($attributes['phone']),
+			set: fn(string $value) => self::numericPhone($value),
+		);
+	}
 	
 	public function prettyPhone(): Attribute
 	{
 		return Attribute::make
 		(
-			get: fn(mixed $value) => $this->pPhone()
+			get: fn(mixed $value, array $attributes) => $this->pPhone($attributes['phone'], $attributes['ext']),
 		);
 	}
-	
-	private function pPhone(): string
+
+	public static function numericPhone(string $phone): string
 	{
-		$numericOnly = trim(preg_replace('/[^0-9]/', '', $this->phone));
+		return trim(preg_replace('/[^0-9]/', '', $phone));
+	}
+	
+	public static function pPhone(string $phone, string $ext = null): string
+	{
+		$numericOnly = self::numericPhone($phone);
 		if(strlen($numericOnly) == 10)
             $phone = "(" . substr($numericOnly, 0, 3) . ") " .
                 substr($numericOnly, 3, 3) . "-" . substr($numericOnly, 6);
@@ -54,8 +68,8 @@ class Phone extends Model
                 substr($numericOnly, -7, 3) . "-" . substr($numericOnly, -4);
         else
             $phone = $numericOnly;
-		if($this->ext)
-			$phone .= " Ext." . $this->ext;
+		if($ext)
+			$phone .= " Ext." . $ext;
 		return $phone;
 	}
 	

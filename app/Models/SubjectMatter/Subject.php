@@ -3,15 +3,19 @@
 namespace App\Models\SubjectMatter;
 
 use App\Models\Locations\Campus;
+use App\Models\People\Person;
 use App\Models\Scopes\OrderByOrderScope;
 use App\Models\SubjectMatter\Assessment\Skill;
 use App\Traits\DeterminesTextColor;
+use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
+use Illuminate\Support\Collection;
 
 #[ScopedBy(OrderByOrderScope::class)]
 class Subject extends Model
@@ -52,15 +56,21 @@ class Subject extends Model
 	{
 		return $this->hasManyThrough(SchoolClass::class, Course::class, 'subject_id', 'course_id');
 	}
-	
-	public function scopeActive(Builder $builder)
+
+	public function skills(): BelongsToMany
+	{
+		return $this->belongsToMany(Skill::class, 'skills_subjects', 'subject_id', 'skill_id');
+	}
+
+	#[Scope]
+	protected function active(Builder $builder): void
 	{
 		$builder->where('active', true);
 	}
-	
-	public function skills(): HasMany
+
+	public function teachers(): BelongsToMany
 	{
-		return $this->hasMany(Skill::class, 'subject_id');
+		return $this->belongsToMany(Person::class, 'subjects_teachers', 'subject_id', 'person_id');
 	}
 	
 	protected function casts(): array
@@ -72,5 +82,4 @@ class Subject extends Model
 				'active' => 'boolean',
 			];
 	}
-	
 }

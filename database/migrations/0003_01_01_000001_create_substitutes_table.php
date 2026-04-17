@@ -13,12 +13,11 @@ return new class extends Migration
     {
         Schema::create('substitutes', function (Blueprint $table) {
             $table->foreignId('person_id')->primary()->constrained('people')->cascadeOnDelete();
-            $table->foreignId('phone_id')->nullable()->constrained('phones')->nullOnDelete();
+			$table->foreignId('phone_id')->nullable()->constrained('phones')->cascadeOnDelete();
             $table->boolean('sms_confirmed')->default(false);
             $table->boolean('email_confirmed')->default(false);
             $table->dateTime('account_verified')->nullable();
             $table->dateTime('sms_verified')->nullable();
-            $table->boolean('active')->default(true);
             $table->timestamps();
         });
     }

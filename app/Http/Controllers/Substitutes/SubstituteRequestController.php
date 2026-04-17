@@ -14,8 +14,7 @@ class SubstituteRequestController extends Controller
         return
             [
                 'auth',
-                new Middleware('can:substitutes.admin', except: ['create', 'store']),
-                new Middleware('can:substitutes.request', only: ['create', 'store']),
+                new Middleware('can:substitutes.admin'),
             ];
     }
 
@@ -24,7 +23,7 @@ class SubstituteRequestController extends Controller
         $breadcrumb =
             [
                 __('features.features') => '#',
-                __('features.substitutes.requests') => '#',
+                trans_choice('features.substitutes.requests', 2) => '#',
             ];
         $person = auth()->user();
 
@@ -43,7 +42,6 @@ class SubstituteRequestController extends Controller
             ->with([
                 'requester:id,first,last,nick',
                 'campusRequests.campus:id,name',
-                'campusRequests.substitute:id,name',
             ])
             ->withCount('classRequests');
 

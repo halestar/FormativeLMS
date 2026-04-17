@@ -6,6 +6,7 @@ use App\Casts\Learning\Rubric;
 use App\Classes\Settings\SchoolSettings;
 use App\Interfaces\AiPromptable;
 use App\Models\Ai\AiPrompt;
+use App\Models\SubjectMatter\Course;
 use App\Models\SubjectMatter\Subject;
 use App\Models\SystemTables\Level;
 use App\Traits\HasFullTextSearch;
@@ -48,6 +49,11 @@ class Skill extends Model implements AiPromptable
     {
         return $this->belongsToMany(Subject::class, 'skills_subjects', 'skill_id', 'subject_id');
     }
+
+	public function course(): BelongsToMany
+	{
+		return $this->belongsToMany(Course::class, 'skills_subjects', 'skill_id', 'course_id');
+	}
 
     public function categories(): BelongsToMany
     {

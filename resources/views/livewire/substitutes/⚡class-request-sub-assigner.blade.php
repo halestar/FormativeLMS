@@ -1,62 +1,64 @@
 <?php
 
+use App\Models\People\Person;
+use App\Models\SubjectMatter\Subject;
+use App\Models\Substitutes\Substitute;
+use App\Models\Substitutes\SubstituteClassRequest;
+use App\Models\Utilities\SchoolRoles;
+use Illuminate\Support\Collection;
 use Livewire\Component;
+use Illuminate\Database\Eloquent\Builder;
 
 new class extends Component
 {
-	public ClassRequest $classRequest;
+	public SubstituteClassRequest $classRequest;
 	public string $subType = "subs";
 	public Collection $results;
-	public Collection $departments;
+	public Subject $subject;
 	public string $searchTerm = '';
 
-	public function mount(ClassRequest $classRequest)
+	public function mount(SubstituteClassRequest $classRequest)
 	{
 		$this->classRequest = $classRequest;
 		$this->listSubs();
-		$this->departments = $this->classRequest->session->course->departments;
+		$this->subject = $this->classRequest->session->course->subject;
 	}
 
 	public function listSubs()
 	{
-		$this->results = Substitute::active()->whereHas('campuses', fn(Builder $query) => $query->where('campuses.id', $this->classRequest->campusRequest->campus_id))
-			->get();
+		$this->results = Substitute::whereHas('person.roles', fn(Builder $query) => $query->where('roles.name', SchoolRoles::$SUBSTITUTE))->get();
 	}
 
 	public function searchSubs()
 	{
-		$this->results = Substitute::active()->whereHas('campuses', fn(Builder $query) => $query->where('campuses.id', $this->classRequest->campusRequest->campus_id))
+		$this->results = Substitute::active()->whereHas('campuses', fn (
+			Builder $query) => $query->where('campuses.id', $this->classRequest->campusRequest->campus_id))
 			->where('name', 'LIKE', '%' . $this->searchTerm . '%')
 			->get();
 	}
 
 	public function listTeachers()
 	{
-		$teachers = new Collection;
-		foreach ($this->departments as $department)
-		{
-			$teachers = $teachers->keyBy('id')->union($department->teachers()->keyBy('id'))->values();
-		}
-		$this->results = $teachers;
+		$this->results = $this->subject->teachers;
 	}
 
 	public function searchTeachers()
 	{
-		$this->results = Person::role(SchoolRoles::FACULTY->value)->search($this->searchTerm)->get();
+		$this->results = Person::role(SchoolRoles::$FACULTY->value)->search($this->searchTerm)->get();
 	}
 
 	public function search()
 	{
-		if(strlen($this->searchTerm) > 3)
+		if (strlen($this->searchTerm) > 3)
 		{
-			if($this->subType == "subs")
+			if ($this->subType == "subs")
 				$this->searchSubs();
 			else
 				$this->searchTeachers();
 		}
 		else
 		{
-			if($this->subType == "subs")
+			if ($this->subType == "subs")
 				$this->listSubs();
 			else
 				$this->listTeachers();
@@ -66,7 +68,7 @@ new class extends Component
 	public function assignPerson(int $id)
 	{
 		$sub = $this->results->firstWhere('id', '=', $id);
-		if($sub)
+		if ($sub)
 		{
 			$this->classRequest->substitutable()->associate($sub);
 			$this->classRequest->save();
@@ -90,9 +92,10 @@ new class extends Component
             <div class="row g-2 align-items-end mb-3">
                 <div class="col-12 col-md-4">
                     <label for="assignee-type" class="form-label mb-1 text-muted small">Show</label>
-                    <select id="assignee-type" wire:model="subType" wire:change="search" class="form-select form-select-sm">
+                    <select id="assignee-type" wire:model="subType" wire:change="search"
+                            class="form-select form-select-sm">
                         <option value="subs">Substitutes</option>
-                        <option value="teachers">Teachers ({{ $departments->pluck('name')->join(', ') }})</option>
+                        <option value="teachers">Teachers ({{ $subject->name }})</option>
                     </select>
                 </div>
 
@@ -112,8 +115,12 @@ new class extends Component
             <div class="border rounded-3 bg-light-subtle p-2 mb-3">
                 <div class="small text-muted fw-semibold mb-1">Legend</div>
                 <ul class="small mb-0 ps-3">
-                    <li><span class="fw-semibold"># Subbed</span>: The total number of times this person has subbed this class</li>
-                    <li><span class="fw-semibold"># Total</span>: The total number of times this person has subbed this year</li>
+                    <li><span class="fw-semibold"># Subbed</span>: The total number of times this person has subbed this
+                        class
+                    </li>
+                    <li><span class="fw-semibold"># Total</span>: The total number of times this person has subbed this
+                        year
+                    </li>
                 </ul>
             </div>
 
@@ -138,7 +145,7 @@ new class extends Component
                             <td>
                                 <div class="d-flex align-items-center gap-2">
                                     <img
-                                            src="@if($subType == "subs") {{ $person->portrait }} @else {{ $person->thumb_url }} @endif"
+                                            src="{{ $person->person->portrait_url->thumbUrl() }}"
                                             alt="Portrait of {{ $person->name }}"
                                             class="rounded-circle border"
                                             width="36"
@@ -173,7 +180,8 @@ new class extends Component
                                         type="button"
                                         class="btn btn-sm btn-outline-primary"
                                         wire:click="assignPerson({{ $person->id }})"
-                                >Assign</button>
+                                >Assign
+                                </button>
                             </td>
                         </tr>
                     @empty

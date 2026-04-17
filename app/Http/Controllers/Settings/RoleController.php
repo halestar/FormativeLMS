@@ -7,6 +7,7 @@ use App\Models\Utilities\SchoolRoles;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Validation\Rule;
 use Spatie\Permission\Models\Role;
 
@@ -110,14 +111,12 @@ class RoleController extends Controller
     public function update(Request $request, SchoolRoles $role)
     {
         Gate::authorize('update', $role);
-        $data = $request->validate([
-            'name' => ['required', 'max:255', Rule::unique('roles')
-                ->ignore($role)],
-            'permissions' => 'required|array|min:1',
-        ], static::errors());
-        if (! $role->base_role) {
+		$validation = [['permissions' => 'nullable|array']];
+		if(! $role->base_role)
+			$validation = [['name' => ['required', 'max:255', Rule::unique('roles')->ignore($role)]]];
+        $data = $request->validate($validation, static::errors());
+        if (! $role->base_role)
             $role->name = $data['name'];
-        }
         $role->syncPermissions($request->input('permissions', []));
         $role->save();
 

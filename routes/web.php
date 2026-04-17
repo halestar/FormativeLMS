@@ -29,8 +29,7 @@ Route::controller(LoginController::class)
         Route::get('/unimpersonate', 'unimpersonate')
             ->name('unimpersonate');
 		Route::get('/login/link', 'linkLogin')
-			->name('login.link')
-			->middleware('signed');
+			->name('login.link');
 
         // view child student
         Route::get('/select/child/{student}', 'viewChild')
@@ -94,10 +93,10 @@ Route::get('/settings', [SchoolSettingsController::class, 'getSessionSetting']);
 Route::post('/preference', [PersonalPreferencesController::class, 'setPersonalPreference']);
 
 // Substitutes routes
-Route::get('/subs/verify', [SubstituteAccessController::class, 'verify'])->name('subs.verify');
-Route::post('/subs/verify', [SubstituteAccessController::class, 'verifySub'])->name('subs.verify.update');
-Route::post('/subs/accept', [SubstituteAccessController::class, 'accept'])->name('subs.accept');
-Route::get('/subs/{token}', [SubstituteAccessController::class, 'request'])->name('subs.request');
+Route::get('/s/v', [SubstituteAccessController::class, 'verify'])->name('subs.verify');
+Route::post('/s/v', [SubstituteAccessController::class, 'verifySub'])->name('subs.verify.update');
+Route::post('/s/r', [SubstituteAccessController::class, 'accept'])->name('subs.request.accept');
+Route::get('/s/r', [SubstituteAccessController::class, 'request'])->name('subs.request');
 
 // language changes
 Route::post('/langsw', function (Request $request) {

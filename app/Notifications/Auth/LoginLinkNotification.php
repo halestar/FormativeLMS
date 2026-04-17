@@ -33,7 +33,7 @@ class LoginLinkNotification extends LmsNotification
             [
                 'recipient' => $this->recipient->name,
                 'recipient_email' => $this->recipient->system_email,
-                'url' => $this->url,
+                'url' => '<a href="' . $this->url . '">' . $this->url . '</a>',
             ];
     }
 

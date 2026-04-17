@@ -36,7 +36,7 @@
                 <button
                         type="button"
                         x-on:click="$wire.set('editing', true)"
-                        class="btn btn-primary btn-sm rounded rounded-pill text-nowrap"
+                        class="btn btn-primary btn-sm rounded rounded-pill text-nowrap btn-sm text-sm"
                 >{{ __('locations.campus.edit') }}</button>
             @endcan
         </h6>

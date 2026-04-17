@@ -13,7 +13,7 @@
         >
             <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
                 <div class="flex-grow-1">
-                    <h1 class="h3 mb-1">{{ __('features.substitutes.requests') }}</h1>
+                    <h1 class="h3 mb-1">{{ trans_choice('features.substitutes.requests', 2) }}</h1>
                 </div>
                 <div class="d-flex gap-2">
                     <a href="{{ route('features.substitutes.pool.index') }}" class="btn btn-primary">

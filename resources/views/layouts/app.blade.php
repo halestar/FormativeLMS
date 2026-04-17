@@ -49,7 +49,11 @@
     @endisset
 
     <main class="py-4 position-relative">
-        @yield('content')
+        @isset($livewireFullPage)
+            {{ $slot }}
+        @else
+            @yield('content')
+        @endisset
     </main>
     <footer class="fixed-bottom bg-primary-subtle rounded text-center text-small">
         &copy; 2026 German Kalinec

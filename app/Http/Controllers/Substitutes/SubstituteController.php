@@ -3,9 +3,10 @@
 namespace App\Http\Controllers\Substitutes;
 
 use App\Http\Controllers\Controller;
-use App\Mail\NewSubstituteVerification;
 use App\Models\Locations\Campus;
 use App\Models\Substitutes\Substitute;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Http\Exceptions\HttpResponseException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -16,7 +17,7 @@ class SubstituteController extends Controller
         return
             [
                 'auth',
-                'can:substitutes.admin',
+                'can:substitute.admin',
             ];
     }
 
@@ -25,21 +26,33 @@ class SubstituteController extends Controller
         $breadcrumb =
             [
                 __('features.features') => '#',
-                __('features.substitutes.requests') => route('features.substitutes.index'),
+                trans_choice('features.substitutes.requests', 2) => route('features.substitutes.index'),
                 __('features.substitutes.pool') => '#',
             ];
         $search = trim((string) $request->input('search', ''));
         $showInactive = $request->boolean('show_inactive');
 
         $subsQuery = Substitute::query()
-            ->with('campuses:id,name');
+            ->with(['campuses:id,name', 'person']);
 
         if (! $showInactive) {
             $subsQuery->where('active', true);
         }
 
         if ($search !== '') {
-            $subsQuery->where('name', 'like', '%'.$search.'%');
+            $terms = preg_split('/[\s,]+/', $search, -1, PREG_SPLIT_NO_EMPTY);
+
+            $subsQuery->whereHas('person', function (Builder $query) use ($terms) {
+                foreach ($terms as $term) {
+                    $query->where(function (Builder $query) use ($term) {
+                        $query->where('first', 'like', '%'.$term.'%')
+                            ->orWhere('middle', 'like', '%'.$term.'%')
+                            ->orWhere('last', 'like', '%'.$term.'%')
+                            ->orWhere('nick', 'like', '%'.$term.'%')
+                            ->orWhere('email', 'like', '%'.$term.'%');
+                    });
+                }
+            });
         }
 
         $subs = $subsQuery->get();
@@ -47,45 +60,10 @@ class SubstituteController extends Controller
         return view('substitutes.pool.index', compact('subs', 'search', 'showInactive', 'breadcrumb'));
     }
 
-    public function create()
-    {
-        $campuses = Campus::all();
-
-        return view('substitutes.pool.create', compact('campuses'));
-    }
-
-    public function store(Request $request)
-    {
-        $validated = $request->validate(
-            [
-                'name' => ['required', 'string', 'max:255'],
-                'email' => ['required', 'email', 'max:255'],
-                'campuses' => ['required', 'array', 'min:1'],
-                'campuses.*' => ['string', 'exists:campuses,id'],
-                'portrait' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-            ]);
-
-        $substitute = Substitute::create([
-            'name' => $validated['name'],
-            'email' => $validated['email'],
-        ]);
-
-        $substitute->campuses()->sync($validated['campuses'] ?? []);
-        if ($request->hasFile('portrait')) {
-            $substitute->portrait = $request->file('portrait');
-            $substitute->save();
-        }
-        Mail::to($substitute->email)->send(new NewSubstituteVerification($substitute));
-
-        return redirect()
-            ->route('substitutes.pool.show', $substitute)
-            ->with('status', 'Substitute added successfully.');
-    }
-
     public function edit(Substitute $substitute)
     {
         $campuses = Campus::query()->orderBy('name')->get(['id', 'name']);
-        $substitute->load('campuses:id,name');
+        $substitute->load(['campuses:id,name', 'person.phones']);
 
         return view('substitutes.pool.edit', compact('substitute', 'campuses'));
     }
@@ -93,29 +71,20 @@ class SubstituteController extends Controller
     public function update(Request $request, Substitute $substitute)
     {
         $validated = $request->validate([
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'email', 'max:255'],
-            'phone' => ['nullable', 'string', 'max:25'],
+            'phone_id' => ['nullable', 'integer', 'exists:phones,id'],
             'campuses' => ['required', 'array', 'min:1'],
             'campuses.*' => ['string', 'exists:campuses,id'],
-            'portrait' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
-        $substitute->update([
-            'name' => $validated['name'],
-            'email' => $validated['email'],
-            'phone' => $validated['phone'] ? preg_replace('/[^0-9]/', '', $validated['phone']) : null,
-        ]);
+        $phoneId =
 
-        if ($request->hasFile('portrait')) {
-            $substitute->portrait = $request->file('portrait');
-            $substitute->save();
-        }
+        $substitute->phone_id = $validated['phone_id'] ?? null;
+		$substitute->save();
 
         $substitute->campuses()->sync($validated['campuses']);
 
         return redirect()
-            ->route('substitutes.pool.show', $substitute)
-            ->with('status', 'Substitute updated successfully.');
+            ->route('features.substitutes.pool.show', $substitute->person->school_id)
+            ->with('success-status', __('features.substitutes.pool.updated'));
     }
 }

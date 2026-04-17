@@ -80,4 +80,5 @@ return
         'settings.tos.help' => 'Link to the Terms of Service for the school.',
         'settings.privacy' => 'Privacy Policy',
         'settings.privacy.help' => 'Link to the Privacy Policy for the school.',
+        'menu.requests' => 'Requests',
     ];

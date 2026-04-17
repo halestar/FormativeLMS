@@ -2,58 +2,67 @@
 
 namespace App\Notifications\Substitutes;
 
-use App\Classes\Settings\ServerSettings;
+use App\Models\People\Phone;
 use App\Models\Substitutes\Substitute;
-use App\Notifications\SystemNotification;
-use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Notifications\Notification;
+use App\Notifications\LmsNotification;
 
-class NewSubSignupNotification extends SystemNotification
+class NewSubSignupNotification extends LmsNotification
 {
     /**
      * Create a new notification instance.
      */
-    public function __construct(public Substitute $substitute) {}
-
-    /**
-     * Get the mail representation of the notification.
-     */
-    public function toMail(object $notifiable): MailMessage
+    public function __construct(public Substitute $substitute)
     {
-        $settings = app()->make(ServerSettings::class);
-
-        return (new MailMessage)
-            ->from($settings->get('server.send_email_as'), config('app.name'))
-            ->subject('New sub has been accepted!')
-            ->line('A new substitute, '.$this->substitute->name.' has been accepted as a Substitute for '.
-                $this->substitute->campuses->pluck('abbr')->join(', '))
-            ->action('View the substitute', route('substitutes.pool.show', $this->substitute));
+	    parent::__construct();
     }
 
-    /**
-     * Get the array representation of the notification.
-     *
-     * @return array<string, mixed>
-     */
-    public function toArray(object $notifiable): array
-    {
-        return
-            [
-                'title' => 'New Substitute Notification',
-                'body' => 'A new substitute, '.$this->substitute->name.' has been accepted as a Substitute for '.
-                    $this->substitute->campuses->pluck('abbr')->join(', '),
-                'action' => route('substitutes.pool.show', $this->substitute),
-            ];
-    }
+	public function toArray(object $notifiable): array
+	{
+		$data = parent::toArray($notifiable);
+		$data['person'] = $this->substitute->school_id;
+		return $data;
+	}
 
-    public function broadcastType(): string
-    {
-        return 'notification.substitute.new';
-    }
+	public static function availableTokens(): array
+	{
+		return
+			[
+				'{!! $recipient !!}' => __('emails.password.reset.recipient'),
+				'{!! $recipient_email !!}' => __('emails.password.reset.recipient_email'),
+				'{!! $email_status !!}' => __('emails.substitutes.welcome.email_status'),
+				'{!! $sms_status !!}' => __('emails.substitutes.welcome.sms_status'),
+				'{!! $campuses !!}' => __('emails.substitutes.welcome.campuses'),
+				'{!! $link_to_profile !!}' => __('emails.substitutes.welcome.link_to_profile'),
+			];
+	}
 
-    public function toSms(object $notifiable): string
-    {
-        return 'A new substitute, '.$this->substitute->name.' has been accepted as a Substitute for '.
-            $this->substitute->campuses->pluck('abbr')->join(', ');
-    }
+	public function withTokens(): array
+	{
+		return
+			[
+				'recipient' => $this->substitute->name,
+				'recipient_email' => $this->substitute->email,
+				'email_status' => $this->substitute->email_confirmed ? 'Enabled' : 'Not enabled',
+				'sms_status' => ($this->substitute->sms_confirmed && $this->substitute->phone instanceof Phone)?
+					"Enabled (" . $this->substitute->phone->prettyPhone . ")": "Not enabled",
+				'campuses' => $this->substitute->campuses->isNotEmpty()?
+					$this->substitute->campuses->pluck('name')->implode(', '): 'None assigned',
+				'link_to_profile' => route('features.substitutes.pool.show', $this->substitute),
+			];
+	}
+
+	public static function requiredTokens(): array
+	{
+		return [];
+	}
+
+	public static function fakeNotification(): static
+	{
+		return new NewSubSignupNotification(Substitute::inRandomOrder()->first());
+	}
+
+	public function actionLink(): string|null
+	{
+		return route('features.substitutes.pool.show', $this->substitute);
+	}
 }

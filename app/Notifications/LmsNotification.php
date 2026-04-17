@@ -12,11 +12,12 @@ use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\BroadcastMessage;
 use Illuminate\Notifications\Notification;
+use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Blade;
 
 abstract class LmsNotification extends Notification implements ShouldQueue
 {
-    use Queueable;
+    use Queueable, SerializesModels;
     public ?array $onlyThrough = null;
     public SchoolMessage $message;
 
@@ -92,6 +93,13 @@ abstract class LmsNotification extends Notification implements ShouldQueue
     {
         return 'lms-notification';
     }
+
+	public function sendToSubscribers(): void
+	{
+		$people = $this->message->subscribers;
+		foreach($people as $person)
+			$person->notify($this);
+	}
 
     abstract public static function availableTokens(): array;
     abstract public function withTokens(): array;

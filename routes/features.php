@@ -11,11 +11,10 @@ Route::prefix('substitutes')
         Route::prefix('pool')->name('pool.')->group(function () {
 
             Route::get('/', [SubstituteController::class, 'index'])->name('index');
-            Route::get('/create', [SubstituteController::class, 'create'])->name('create');
-            Route::post('/', [SubstituteController::class, 'store'])->name('store');
+            Route::livewire('/create', 'pages::substitutes.pool.create')->name('create');
             Route::get('/{substitute}/edit', [SubstituteController::class, 'edit'])->name('edit');
             Route::put('/{substitute}', [SubstituteController::class, 'update'])->name('update');
-            Route::livewire('/{substitute}', 'pages::substitutes.show')->name('show');
+            Route::livewire('/{person}', 'pages::substitutes.show')->name('show');
         });
         Route::livewire('/{subRequest}', 'pages::substitutes.requests')->name('show');
     });

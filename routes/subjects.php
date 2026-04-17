@@ -58,7 +58,7 @@ Route::prefix('classes')
 	          ->name('index');
 	     Route::post('/{course}', 'store')
 	          ->name('store');
-	     Route::get('/{schoolClass}/edit', 'edit')
+	     Route::livewire('/{schoolClass}/edit', 'pages::subject-matter.school-class-manager')
 	          ->name('edit');
 	     Route::delete('/{schoolClass}', 'destroy')
 	          ->name('destroy');

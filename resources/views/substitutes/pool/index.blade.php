@@ -12,6 +12,12 @@
                 </div>
             </div>
 
+            @if (session('status'))
+                <div class="alert alert-success" role="alert">
+                    {{ session('status') }}
+                </div>
+            @endif
+
             <form method="GET" action="{{ route('features.substitutes.pool.index') }}"
                   class="d-flex justify-content-between gap-2 mb-3">
                 <div class="input-group" style="max-width: 360px;">
@@ -52,12 +58,12 @@
                                 <div class="d-flex flex-column flex-xl-row align-items-start align-items-xl-center gap-2 gap-xl-3">
                                     <div class="flex-shrink-0" style="min-width: 260px;">
                                         <div class="fw-semibold">
-                                            {{ $substitute->name }}
+                                            {{ $substitute->person?->name ?? 'Unknown Person' }}
                                             @if (!$substitute->active && $showInactive)
                                                 <span class="badge text-bg-warning ms-2">{{ __('common.inactive') }}</span>
                                             @endif
                                         </div>
-                                        <div class="text-muted small">{{ $substitute->email }}</div>
+                                        <div class="text-muted small">{{ $substitute->person?->email ?? 'No email address' }}</div>
                                     </div>
 
                                     <div class="d-flex flex-wrap gap-1 flex-grow-1">
@@ -80,7 +86,7 @@
                                     </div>
 
                                     <div class="ms-xl-auto">
-                                        <a href="{{ route('features.substitutes.pool.show', $substitute) }}"
+                                        <a href="{{ route('features.substitutes.pool.show', $substitute->person->school_id) }}"
                                            class="btn btn-sm btn-outline-primary">{{ __('common.view') }}</a>
                                     </div>
                                 </div>

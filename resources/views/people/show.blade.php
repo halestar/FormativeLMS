@@ -59,6 +59,17 @@
                                             :</strong> {{ $person->employeeCampuses->pluck('name')->join(', ') }}
                                     </div>
                                 </h6>
+                                @if($person->isTeacher())
+                                    <h6>
+                                        <div>
+                                            <strong class="me-2">
+                                                {{ trans_choice('subjects.subject.taught', $person->subjectsTaught()->count()) }}:
+                                            </strong>
+                                            {{ $person->subjectsTaught->isEmpty()? __('subjects.subject.taught.no'):
+                                                $person->subjectsTaught->map(fn($subject) => $subject->name . " (" . $subject->campus->abbr . ")")->join(', ') }}
+                                        </div>
+                                    </h6>
+                                @endif
                             @endif
                             @if($person->isStudent())
                                 <h6>

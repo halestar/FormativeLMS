@@ -106,25 +106,6 @@ class SchoolClassController extends Controller
         ];
     }
 
-    public function edit(SchoolClass $schoolClass)
-    {
-        Gate::authorize('update', $schoolClass);
-        $breadcrumb =
-            [
-                $schoolClass->course->campus->name => route('locations.campuses.show',
-                    ['campus' => $schoolClass->course->campus->id]),
-                $schoolClass->subject->name => route('subjects.subjects.index',
-                    ['campus' => $schoolClass->course->campus->id]),
-                $schoolClass->course->name => route('subjects.courses.index',
-                    ['subject' => $schoolClass->course->subject_id]),
-                trans_choice('subjects.class', 2) => route('subjects.classes.index',
-                    ['course' => $schoolClass->course_id]),
-                __('subjects.class.edit') => '#',
-            ];
-
-        return view('subjects.classes.edit', compact('schoolClass', 'breadcrumb'));
-    }
-
     public function destroy(SchoolClass $schoolClass)
     {
         Gate::authorize('delete', $schoolClass);

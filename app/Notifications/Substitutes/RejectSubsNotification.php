@@ -2,55 +2,61 @@
 
 namespace App\Notifications\Substitutes;
 
-use App\Classes\Clients\SmsClient;
-use App\Classes\Settings\ServerSettings;
-use App\Models\Substitutes\SubRequest;
-use Illuminate\Bus\Queueable;
-use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Notifications\Notification;
+use App\Models\Substitutes\SubstituteRequest;
+use App\Notifications\LmsNotification;
 
-class RejectSubsNotification extends Notification
+class RejectSubsNotification extends LmsNotification
 {
-    use Queueable;
 
     /**
      * Create a new notification instance.
      */
-    public function __construct(public SubRequest $subRequest) {}
-
-    /**
-     * Get the notification's delivery channels.
-     *
-     * @return array<int, string>
-     */
-    public function via(object $notifiable): array
+    public function __construct(public SubstituteRequest $subRequest)
     {
-        $via = ['mail'];
-        if ($notifiable->sms_confirmed) {
-            $via[] = SmsClient::class;
-        }
-
-        return $via;
+	    parent::__construct();
     }
 
-    /**
-     * Get the mail representation of the notification.
-     */
-    public function toMail(object $notifiable): MailMessage
-    {
-        $settings = app()->make(ServerSettings::class);
+	public function toArray(object $notifiable): array
+	{
+		$data = parent::toArray($notifiable);
+		$data['request_id'] = $this->subRequest->id;
+		return $data;
+	}
 
-        return (new MailMessage)
-            ->from($settings->get('server.send_email_as'), config('app.name'))
-            ->subject('Coverage has been found!')
-            ->view('substitutes.mails.reject-request-sub',
-                [
-                    'subReq' => $this->subRequest,
-                ]);
-    }
+	public static function availableTokens(): array
+	{
+		return
+			[
+				'{!! $teacher_name !!}' => __('emails.substitutes.new.request.teacher'),
+				'{!! $coverage_date !!}' => __('emails.substitutes.new.request.date'),
+				'{!! $coverage_start !!}' => __('emails.substitutes.new.request.start'),
+				'{!! $coverage_end !!}' => __('emails.substitutes.new.request.end'),
+			];
+	}
 
-    public function toSms(object $notifiable): string
-    {
-        return 'Coverage has been found! Thank you for participating.';
-    }
+	public function withTokens(): array
+	{
+		return
+			[
+				'teacher_name' => $this->subRequest->requester_name,
+				'coverage_date' => $this->subRequest->requested_for->format('m/d/Y'),
+				'coverage_start' => $this->subRequest->startTime()->format('g:i A'),
+				'coverage_end' => $this->subRequest->endTime()->format('g:i A'),
+			];
+	}
+
+	public static function requiredTokens(): array
+	{
+		return [];
+	}
+
+	public static function fakeNotification(): static
+	{
+		return new RejectSubsNotification(SubstituteRequest::inRandomOrder()->first());
+	}
+
+	public function actionLink(): string|null
+	{
+		return null;
+	}
 }

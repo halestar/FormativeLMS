@@ -1,15 +1,18 @@
 <?php
 
-use App\Mail\NewSubstituteVerification;
-use App\Mail\NewSubstituteWelcomeEmail;
-use App\Models\BB\Year;
-use App\Models\Substitutes\CampusRequest;
+use App\Models\Locations\Year;
+use App\Models\People\Person;
+use App\Models\Utilities\SchoolRoles;
+use App\Notifications\Substitutes\NewSubstituteVerification;
 use App\Models\Substitutes\Substitute;
+use App\Models\Substitutes\SubstituteCampusRequest;
+use App\Traits\FullPageComponent;
 use Livewire\Component;
-use Illuminate\Support\Facades\Mail;
 
 new class extends Component
 {
+	use FullPageComponent;
+
 	public Substitute $substitute;
 	public bool $active = false;
 	public string $statusMessage = '';
@@ -17,47 +20,91 @@ new class extends Component
 	public string $yearFilter = '';
 	public $availableYears;
 
-	public function mount(Substitute $substitute)
+	public function mount(Person $person): void
 	{
-		$this->substitute = $substitute->load('campuses:id,name');
-		$this->active = (bool)$this->substitute->active;
-		$requestDates = CampusRequest::query()
+		$this->substitute = $person->substituteProfile;
+		$this->active = $person->hasRole(SchoolRoles::$SUBSTITUTE);
+		$requestDates = SubstituteCampusRequest::query()
 			->where('substitute_id', $this->substitute->id)
 			->with('subRequest:id,requested_for')
 			->get()
-			->map(fn($request) => $request->subRequest?->requested_for)
+			->map(fn ($request) => $request->subRequest?->requested_for)
 			->filter();
 
+		$this->breadcrumb = [
+			__('features.features') => '#',
+			trans_choice('features.substitutes.requests', 2) => route('features.substitutes.index'),
+			__('features.substitutes.pool') => route('features.substitutes.pool.index'),
+			trans_choice('features.substitutes', 1) => '#',
+		];
+
 		$this->availableYears = Year::query()
-			->orderByDesc('start')
-			->get(['id', 'label', 'start', 'end'])
+			->orderByDesc('year_start')
+			->get([
+				'id',
+				'label',
+				'year_start',
+				'year_end'
+			])
 			->filter(function (Year $year) use ($requestDates)
 			{
-				if ($year->start->isFuture())
+				if ($year->year_start->isFuture())
+				{
 					return false;
+				}
 
 				return $requestDates->contains(function ($date) use ($year)
 				{
-					return $date && $date->between($year->start, $year->end);
+					return $date && $date->between($year->year_start, $year->year_end);
 				});
 			})
 			->values();
 
 		$currentYear = Year::currentYear();
-		if ($currentYear && $this->availableYears->contains(fn($year) => (string)$year->id === (string)$currentYear->id))
+		if (
+			$currentYear
+			&& $this->availableYears->contains(fn ($year) => (string)$year->id === (string)$currentYear->id)
+		)
+		{
 			$this->yearFilter = (string)$currentYear->id;
+		}
 		elseif ($this->availableYears->isNotEmpty())
+		{
 			$this->yearFilter = (string)$this->availableYears->first()->id;
+		}
 
 		$this->loadSignedRequests();
 	}
 
+	public function toggleActivation()
+	: void
+	{
+		$person = $this->substitute->person;
+		if ($person->hasRole(SchoolRoles::$SUBSTITUTE))
+		{
+			$person->removeRole(SchoolRoles::$SUBSTITUTE);
+			$person->assignRole(SchoolRoles::$OLD_SUBSTITUTE);
+			$this->active = false;
+		}
+		else
+		{
+			if ($person->hasRole(SchoolRoles::$OLD_SUBSTITUTE))
+				$person->removeRole(SchoolRoles::$OLD_SUBSTITUTE);
+			$person->assignRole(SchoolRoles::$SUBSTITUTE);
+			$this->active = true;
+		}
+
+		$this->statusMessage = $this->active
+			? __('features.substitutes.pool.status.enabled')
+			: __('features.substitutes.pool.status.disabled');
+	}
+
 	public function loadSignedRequests(): void
 	{
-		$query = CampusRequest::query()
+		$query = SubstituteCampusRequest::query()
 			->where('substitute_id', $this->substitute->id)
-			->join('sub_requests', 'sub_campus_requests.request_id', '=', 'sub_requests.id')
-			->select('sub_campus_requests.*')
+			->join('substitute_requests', 'substitute_campus_requests.request_id', '=', 'substitute_requests.id')
+			->select('substitute_campus_requests.*')
 			->with([
 				'subRequest:id,requester_id,requester_name,requested_for',
 				'subRequest.requester:id,first,last,nick',
@@ -65,11 +112,16 @@ new class extends Component
 				'classRequests:id,campus_request_id,session_id,start_on,end_on',
 				'classRequests.session:id,name,identifier',
 			])
-			->orderByDesc('sub_requests.requested_for');
+			->orderByDesc('substitute_requests.requested_for');
 
 		$selectedYear = Year::query()->find($this->yearFilter);
 		if ($selectedYear)
-			$query->whereBetween('sub_requests.requested_for', [$selectedYear->start, $selectedYear->end]);
+		{
+			$query->whereBetween('substitute_requests.requested_for', [
+				$selectedYear->year_start,
+				$selectedYear->year_end
+			]);
+		}
 
 		$this->signedRequests = $query->get();
 	}
@@ -79,108 +131,133 @@ new class extends Component
 		$this->loadSignedRequests();
 	}
 
-	public function updatedActive(bool $value): void
-	{
-		$this->substitute->active = $value;
-		$this->substitute->save();
-		$this->statusMessage = $value ? 'Substitute enabled.' : 'Substitute disabled.';
-	}
-
 	public function resendWelcome(): void
 	{
-		Mail::to($this->substitute)->send(new NewSubstituteVerification($this->substitute));
-		$this->statusMessage = 'Welcome email resent.';
+		$this->substitute->person->notify(new NewSubstituteVerification($this->substitute->person));
+		$this->statusMessage = __('features.substitutes.pool.welcome.resent');
 	}
 };
 ?>
 
-<div class="py-4">
-    <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-4">
-        <h1 class="h3 mb-0">{{ $substitute->name }}</h1>
-        <a href="{{ route('substitutes.pool.index') }}" class="btn btn-outline-secondary">Back to Pool</a>
+<div class="container py-4">
+    @php($sessionStatus = session('status'))
+
+    <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
+        <div>
+            <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                <h1 class="h3 mb-0">{{ $substitute->name }}</h1>
+                <span class="badge {{ $active ? 'text-bg-success' : 'text-bg-warning' }}">
+                    {{ $active ? __('common.active') : __('common.inactive') }}
+                </span>
+            </div>
+            <p class="text-muted mb-0">{{ __('features.substitutes.pool.show.description') }}</p>
+        </div>
+
+        <a href="{{ route('features.substitutes.pool.index') }}" class="btn btn-outline-secondary">
+            {{ __('features.substitutes.pool.back') }}
+        </a>
     </div>
 
+    @if ($sessionStatus)
+        <div class="alert alert-success mb-3" role="alert">{{ $sessionStatus }}</div>
+    @endif
+
     @if ($statusMessage !== '')
-        <div x-data x-init="setTimeout(() => $wire.set('statusMessage', '') , 3000)">
+        <div x-data x-init="setTimeout(() => $wire.set('statusMessage', ''), 3000)">
             <div class="alert alert-success mb-3" role="alert">{{ $statusMessage }}</div>
         </div>
     @endif
 
-    <div class="row g-3">
+    <div class="row g-4">
         <div class="col-12 col-xl-4">
             <div class="card border-0 shadow-sm h-100">
                 <div class="card-body">
-                    <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
-                        <h2 class="h5 mb-0">Substitute Details</h2>
-                        <div class="form-check form-switch mb-0">
-                            <input
-                                    class="form-check-input"
-                                    type="checkbox"
-                                    role="switch"
-                                    id="enabled-switch"
-                                    wire:model.live="active"
-                            >
-                            <label class="form-check-label" for="enabled-switch">
-                                Enabled
-                            </label>
-                        </div>
+                    <div class="mb-4">
+                        <h2 class="h5 mb-1">{{ __('features.substitutes.pool.details') }}</h2>
+                        <p class="text-muted small mb-0">{{ __('features.substitutes.pool.details.description') }}</p>
                     </div>
-                    <div class="d-flex align-items-center gap-3 mb-3">
+
+                    <div class="d-flex align-items-center gap-3 pb-3 mb-3 border-bottom">
                         <img
-                                src="{{ $substitute->portrait }}"
+                                src="{{ $substitute->person->portrait_url }}"
                                 alt="{{ $substitute->name }}"
                                 class="rounded-circle border"
                                 style="width: 72px; height: 72px; object-fit: cover;"
                         >
                         <div>
-                            <div class="text-muted small">Portrait</div>
-                            <div class="fw-semibold">Profile Image</div>
+                            <div class="text-muted small">{{ __('people.portrait') }}</div>
+                            <div class="fw-semibold">{{ __('people.profile.image') }}</div>
                         </div>
                     </div>
-                    <dl class="row mb-0">
-                        <dt class="col-sm-4">Name</dt>
+
+                    <dl class="row mb-4">
+                        <dt class="col-sm-4">{{ __('people.name') }}</dt>
                         <dd class="col-sm-8">{{ $substitute->name }}</dd>
 
-                        <dt class="col-sm-4">Email</dt>
+                        <dt class="col-sm-4">{{ __('people.profile.fields.email') }}</dt>
                         <dd class="col-sm-8">{{ $substitute->email }}</dd>
 
-                        <dt class="col-sm-4">Phone</dt>
-                        <dd class="col-sm-8">{{ $substitute->prettyPhone() ?? '—' }}</dd>
+                        <dt class="col-sm-4">{{ __('phones.phone') }}</dt>
+                        <dd class="col-sm-8">{{ $substitute->phone?->prettyPhone ?? __('common.na') }}</dd>
 
-                        <dt class="col-sm-4">Campuses</dt>
+                        <dt class="col-sm-4">{{ trans_choice('locations.campus', 2) }}</dt>
                         <dd class="col-sm-8">
                             @if ($substitute->campuses->isNotEmpty())
                                 <div class="d-flex flex-wrap gap-1">
                                     @foreach ($substitute->campuses as $campus)
-                                        <span
-                                                class="badge rounded-pill bg-light text-dark border">{{ $campus->name }}</span>
+                                        <span class="badge rounded-pill bg-light text-dark border">{{ $campus->name }}</span>
                                     @endforeach
                                 </div>
                             @else
-                                <span class="text-muted">No campuses assigned</span>
+                                <span class="text-muted">{{ __('locations.campus.no') }}</span>
                             @endif
                         </dd>
 
-                        <dt class="col-sm-4">Communication</dt>
-                        <dd class="col-sm-8">
+                        <dt class="col-sm-5">{{ __('settings.communications') }}</dt>
+                        <dd class="col-sm-7">
                             <div class="d-flex flex-wrap align-items-center gap-3">
-                                <span class="{{ $substitute->email_confirmed ? 'text-success' : 'text-danger' }}">
+                                <span class="small {{ $substitute->email_confirmed ? 'text-success' : 'text-danger' }}">
                                     <i class="bi bi-envelope-fill"></i>
-                                    <span class="ms-1">Email</span>
+                                    <span class="ms-1">{{ __('people.profile.fields.email') }}</span>
                                 </span>
-                                <span class="{{ $substitute->sms_confirmed ? 'text-success' : 'text-danger' }}">
+                                <span class="small {{ $substitute->sms_confirmed ? 'text-success' : 'text-danger' }}">
                                     <i class="bi bi-chat-dots-fill"></i>
-                                    <span class="ms-1">Text</span>
+                                    <span class="ms-1">{{ __('settings.communications.sms') }}</span>
                                 </span>
                             </div>
                         </dd>
                     </dl>
 
-                    <div class="d-flex flex-wrap align-items-center gap-2 mt-4">
-                        <a href="{{ route('substitutes.pool.edit', $substitute) }}"
-                           class="btn btn-sm btn-outline-primary">Edit</a>
-                        <button type="button" class="btn btn-sm btn-outline-secondary" wire:click="resendWelcome">Resend
-                            Welcome
+                    <div class="border rounded-3 p-3 mb-4">
+                        <div class="d-flex flex-wrap align-items-center justify-content-between gap-3">
+                            <div>
+                                <div class="fw-semibold">{{ __('features.substitutes.pool.status') }}</div>
+                                <div class="text-muted small">{{ __('features.substitutes.pool.status.description') }}</div>
+                            </div>
+
+                            <div class="form-check form-switch m-0">
+                                <input
+                                    class="form-check-input"
+                                    type="checkbox"
+                                    role="switch"
+                                    id="substitute-status-switch"
+                                    wire:model.live="active"
+                                    wire:change="toggleActivation"
+                                >
+                                <label class="form-check-label" for="substitute-status-switch">
+                                    {{ $active ? __('common.active') : __('common.inactive') }}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-wrap align-items-center gap-2">
+                        <a href="{{ route('features.substitutes.pool.edit', $substitute) }}"
+                           class="btn btn-sm btn-outline-primary">
+                            {{ __('common.edit') }}
+                        </a>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" wire:click="resendWelcome">
+                            {{ __('features.substitutes.pool.welcome.resend') }}
                         </button>
                     </div>
                 </div>
@@ -190,33 +267,50 @@ new class extends Component
         <div class="col-12 col-xl-8">
             <div class="card border-0 shadow-sm h-100">
                 <div class="card-body">
-                    <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-3">
-                        <h2 class="h5 mb-0">Signed-Up Requests</h2>
-                        <div class="d-flex align-items-center gap-2">
-                            <label for="year-filter" class="text-muted small mb-0">Year</label>
-                            <select id="year-filter" class="form-select form-select-sm" style="width: auto;"
-                                    wire:model.live="yearFilter">
-                                @foreach ($availableYears as $year)
-                                    <option value="{{ $year->id }}">{{ $year->label }}</option>
-                                @endforeach
-                            </select>
+                    <div class="d-flex flex-wrap align-items-start justify-content-between gap-3 mb-3">
+                        <div>
+                            <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                <h2 class="h5 mb-0">{{ __('features.substitutes.pool.requests') }}</h2>
+                                <span class="badge rounded-pill bg-light text-dark border">{{ $signedRequests->count() }}</span>
+                            </div>
+                            <p class="text-muted small mb-0">{{ __('features.substitutes.pool.requests.description') }}</p>
                         </div>
+
+                        @if ($availableYears->isNotEmpty())
+                            <div class="d-flex align-items-center gap-2">
+                                <label for="year-filter"
+                                       class="text-muted small mb-0">{{ __('features.substitutes.pool.year') }}</label>
+                                <select id="year-filter" class="form-select form-select-sm" style="width: auto;"
+                                        wire:model.live="yearFilter">
+                                    @foreach ($availableYears as $year)
+                                        <option value="{{ $year->id }}">{{ $year->label }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        @endif
                     </div>
+
                     <div class="list-group list-group-flush">
                         @forelse ($signedRequests as $campusRequest)
-                            <div class="list-group-item px-0">
-                                <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-                                    <div class="fw-semibold">
-                                        {{ $campusRequest->subRequest?->requested_for?->format('m/d/Y') ?? '—' }}
+                            <div class="list-group-item px-0 py-3">
+                                <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-3">
+                                    <div class="flex-grow-1">
+                                        <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+                                            <span class="fw-semibold">
+                                                {{ $campusRequest->subRequest?->requested_for?->format('m/d/Y') ?? __('common.na') }}
+                                            </span>
+                                            <span class="badge rounded-pill bg-light text-dark border">
+                                                {{ $campusRequest->campus?->name ?? __('common.na') }}
+                                            </span>
+                                        </div>
+                                        <div class="text-muted small">
+                                            {{ __('features.substitutes.requester') }}:
+                                            <span class="text-body">
+                                                {{ $campusRequest->subRequest?->requester?->name ?? $campusRequest->subRequest?->requester_name ?? __('common.na') }}
+                                            </span>
+                                        </div>
                                     </div>
-                                    <div class="text-muted small">
-                                        {{ $campusRequest->subRequest?->requester?->name ?? $campusRequest->subRequest?->requester_name ?? '—' }}
-                                    </div>
-                                    <div>
-                                        <span class="badge rounded-pill bg-light text-dark border">
-                                            {{ $campusRequest->campus?->name ?? 'Campus N/A' }}
-                                        </span>
-                                    </div>
+
                                     <button
                                             type="button"
                                             class="btn btn-sm btn-outline-secondary"
@@ -224,37 +318,43 @@ new class extends Component
                                             data-bs-target="#classes-{{ $campusRequest->id }}"
                                             aria-expanded="false"
                                             aria-controls="classes-{{ $campusRequest->id }}"
-                                            title="Show classes"
+                                            aria-label="{{ __('features.substitutes.pool.requests.classes.toggle') }}"
+                                            title="{{ __('features.substitutes.pool.requests.classes.toggle') }}"
                                     >
                                         <i class="bi bi-caret-down-fill"></i>
                                     </button>
                                 </div>
 
-                                <div class="collapse mt-2" id="classes-{{ $campusRequest->id }}">
-                                    <div class="border rounded-3 p-2 bg-light-subtle">
-                                        <div class="small fw-semibold mb-1">Classes</div>
+                                <div class="collapse mt-3" id="classes-{{ $campusRequest->id }}">
+                                    <div class="border rounded-3 p-3 bg-light-subtle">
+                                        <div class="small fw-semibold mb-2">{{ __('features.substitutes.pool.requests.classes') }}</div>
+
                                         @if ($campusRequest->classRequests->isNotEmpty())
-                                            <ul class="mb-0 small">
+                                            <ul class="mb-0 small ps-3">
                                                 @foreach ($campusRequest->classRequests as $classRequest)
                                                     <li>
-                                                        {{ $classRequest->session?->full_name ?? $classRequest->session?->name ?? ('Session #' . $classRequest->session_id) }}
+                                                        <span class="fw-medium">
+                                                            {{ $classRequest->session?->full_name ?? $classRequest->session?->name ?? __('features.substitutes.pool.requests.classes.session_fallback', ['id' => $classRequest->session_id]) }}
+                                                        </span>
+
                                                         @if ($classRequest->start_on && $classRequest->end_on)
-                                                            ({{ $classRequest->start_on->format('g:i A') }}
-                                                            - {{ $classRequest->end_on->format('g:i A') }})
+                                                            <span class="text-muted">
+                                                                ({{ $classRequest->start_on->format('g:i A') }} - {{ $classRequest->end_on->format('g:i A') }})
+                                                            </span>
                                                         @endif
                                                     </li>
                                                 @endforeach
                                             </ul>
                                         @else
-                                            <div class="small text-muted mb-0">No class details available for this
-                                                request.
+                                            <div class="small text-muted mb-0">
+                                                {{ __('features.substitutes.pool.requests.classes.empty') }}
                                             </div>
                                         @endif
                                     </div>
                                 </div>
                             </div>
                         @empty
-                            <div class="text-muted">No signed-up requests yet.</div>
+                            <div class="text-center text-muted py-4">{{ __('features.substitutes.pool.requests.empty') }}</div>
                         @endforelse
                     </div>
                 </div>

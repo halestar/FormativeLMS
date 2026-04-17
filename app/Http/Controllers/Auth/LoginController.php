@@ -10,6 +10,7 @@ use App\Models\People\StudentRecord;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Support\Facades\Auth;
+use Laravel\Sanctum\PersonalAccessToken;
 
 class LoginController extends Controller
 {
@@ -19,6 +20,7 @@ class LoginController extends Controller
             [
                 new Middleware('guest', except: ['logout', 'impersonate', 'unimpersonate', 'viewChild']),
                 new Middleware('auth', only: ['logout', 'impersonate', 'unimpersonate', 'viewChild']),
+                new Middleware('signed', only: ['linkLogin']),
             ];
     }
 
@@ -78,11 +80,19 @@ class LoginController extends Controller
         return redirect(route('home'));
     }
 
-	public function linkLogin(Request $request, AuthSettings $authSettings)
+	public function linkLogin(Request $request)
 	{
-		$person = Person::where('school_id', $request->person)->first();
-		if($person)
+		if(!$request->token)
+			abort(401, 'Invalid token');
+		$token = PersonalAccessToken::findToken($request->token);
+		if(!$token)
+			abort(401, 'Invalid token');
+		$person = $token->tokenable;
+		if($person && $person instanceof Person)
+		{
+			$token->delete();
 			return redirect(AuthConnection::completeLogin($person));
+		}
 		abort(404);
 	}
 }

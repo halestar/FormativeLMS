@@ -74,14 +74,14 @@
                     <button
                             type="button"
                             x-on:click="$wire.set('editing', true)"
-                            class="btn btn-primary btn-sm rounded rounded-pill ms-3"
+                            class="btn btn-primary btn-sm rounded rounded-pill ms-3 text-sm"
                             {{ $this->ifDisabled() }}
                     >{{ __('settings.edit_roles') }}</button>
                     @if($canResetRoles)
                         <button
                                 type="button"
                                 wire:click="resetRoles"
-                                class="btn btn-danger btn-sm rounded rounded-pill"
+                                class="btn btn-danger btn-sm rounded rounded-pill text-sm"
                                 {{ $this->ifDisabled() }}
                         >{{ __('settings.reset_roles') }}</button>
                     @endif

@@ -1,31 +1,35 @@
-@extends('layouts.subs')
+@extends('layouts.app')
 
 @section('content')
-    <div class="py-5">
+    <div class="py-4">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
+            <div class="col-12 col-lg-8 col-xl-7">
+                <div class="text-center mb-4">
+                    <h1 class="h3 mb-1">{{ __('features.substitutes.verify') }}</h1>
+                    <p class="text-muted mb-0">{{ __('features.substitutes.success.description') }}</p>
+                </div>
+
                 <div class="card border-0 shadow-sm">
-                    <div class="card-body p-4 p-md-5">
-                        <div class="d-flex align-items-start gap-3 mb-3">
-                            <i class="bi bi-check-circle-fill text-success fs-3"></i>
-                            <div>
-                                <h1 class="h3 mb-1">Thank You, {{ $sub->name }}</h1>
-                                <p class="text-muted mb-0">Your response has been received.</p>
-                            </div>
+                    <div class="card-body p-4 p-md-5 text-center">
+                        <div class="mb-3">
+                            <i class="bi bi-check-circle-fill text-success fs-1"></i>
                         </div>
 
-                        <div class="alert alert-success mb-3" role="alert">
-                            You have confirmed that you consent to be contacted by New Roads School regarding substitute requests and schedule coordination.
+                        <h2 class="h5 mb-2">{{ __('features.substitutes.success.greeting', ['name' => $sub->name]) }}</h2>
+                        <p class="text-muted mb-4">{{ __('features.substitutes.success.received') }}</p>
+
+                        <div class="alert alert-success mb-3 text-start" role="alert">
+                            {{ __('features.substitutes.success.contact_confirmed') }}
                         </div>
 
                         @if ($sub->sms_confirmed && filled($sub->phone))
-                            <div class="alert alert-light border mb-0" role="alert">
-                                You also consented to receive text messages. We will use the mobile number you provided:
-                                <strong>{{ $sub->phone }}</strong>.
+                            <div class="alert alert-light border mb-0 text-start" role="alert">
+                                {{ __('features.substitutes.success.sms_confirmed') }}
+                                <strong>{{ $sub->phone?->prettyPhone ?? "-" }}</strong>.
                             </div>
                         @else
-                            <div class="alert alert-light border mb-0" role="alert">
-                                You did not opt in to text messages at this time. You will still receive substitute-request communications by email.
+                            <div class="alert alert-light border mb-0 text-start" role="alert">
+                                {{ __('features.substitutes.success.sms_declined') }}
                             </div>
                         @endif
                     </div>

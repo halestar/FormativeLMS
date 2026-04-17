@@ -22,7 +22,7 @@ class SubstituteRequest extends Model
 
     public $timestamps = true;
 
-    public $incrementing = false;
+    public $incrementing = true;
 
     public $guarded = ['id'];
 
@@ -60,7 +60,7 @@ class SubstituteRequest extends Model
 
     public function assignedSubstitutes(): HasManyThrough
     {
-        return $this->hasManyThrough(Substitute::class, SubstituteCampusRequest::class, 'request_id', 'id', 'id', 'substitute_id');
+        return $this->hasManyThrough(Substitute::class, SubstituteCampusRequest::class, 'request_id', 'person_id', 'id', 'substitute_id');
     }
 
     #[Scope]
@@ -90,50 +90,50 @@ class SubstituteRequest extends Model
     public function startTime(): Carbon
     {
         return new Carbon(
-            DB::table('sub_class_requests')
-                ->join('sub_campus_requests', 'sub_campus_requests.id', '=', 'sub_class_requests.campus_request_id')
-                ->where('sub_campus_requests.request_id', '=', $this->id)
-                ->orderBy('sub_class_requests.start_on')
+            DB::table('substitute_class_requests')
+                ->join('substitute_campus_requests', 'substitute_campus_requests.id', '=', 'substitute_class_requests.campus_request_id')
+                ->where('substitute_campus_requests.request_id', '=', $this->id)
+                ->orderBy('substitute_class_requests.start_on')
                 ->limit(1)
-                ->value('sub_class_requests.start_on')
+                ->value('substitute_class_requests.start_on')
         );
     }
 
     public function endTime(): Carbon
     {
         return new Carbon(
-            DB::table('sub_class_requests')
-                ->join('sub_campus_requests', 'sub_campus_requests.id', '=', 'sub_class_requests.campus_request_id')
-                ->where('sub_campus_requests.request_id', '=', $this->id)
-                ->orderBy('sub_class_requests.end_on', 'DESC')
+            DB::table('substitute_class_requests')
+                ->join('substitute_campus_requests', 'substitute_campus_requests.id', '=', 'substitute_class_requests.campus_request_id')
+                ->where('substitute_campus_requests.request_id', '=', $this->id)
+                ->orderBy('substitute_class_requests.end_on', 'DESC')
                 ->limit(1)
-                ->value('sub_class_requests.end_on')
+                ->value('substitute_class_requests.end_on')
         );
     }
 
     public function subStartTime(Substitute $sub): Carbon
     {
         return new Carbon(
-            DB::table('sub_class_requests')
-                ->join('sub_campus_requests', 'sub_campus_requests.id', '=', 'sub_class_requests.campus_request_id')
-                ->where('sub_campus_requests.request_id', '=', $this->id)
-                ->where('sub_campus_requests.substitute_id', '=', $sub->id)
-                ->orderBy('sub_class_requests.start_on')
+            DB::table('substitute_class_requests')
+                ->join('substitute_campus_requests', 'substitute_campus_requests.id', '=', 'substitute_class_requests.campus_request_id')
+                ->where('substitute_campus_requests.request_id', '=', $this->id)
+                ->where('substitute_campus_requests.substitute_id', '=', $sub->person_id)
+                ->orderBy('substitute_class_requests.start_on')
                 ->limit(1)
-                ->value('sub_class_requests.start_on')
+                ->value('substitute_class_requests.start_on')
         );
     }
 
     public function subEndTime(Substitute $sub): Carbon
     {
         return new Carbon(
-            DB::table('sub_class_requests')
-                ->join('sub_campus_requests', 'sub_campus_requests.id', '=', 'sub_class_requests.campus_request_id')
-                ->where('sub_campus_requests.request_id', '=', $this->id)
-                ->where('sub_campus_requests.substitute_id', '=', $sub->id)
-                ->orderBy('sub_class_requests.end_on', 'DESC')
+            DB::table('substitute_class_requests')
+                ->join('substitute_campus_requests', 'substitute_campus_requests.id', '=', 'substitute_class_requests.campus_request_id')
+                ->where('substitute_campus_requests.request_id', '=', $this->id)
+                ->where('substitute_campus_requests.substitute_id', '=', $sub->person_id)
+                ->orderBy('substitute_class_requests.end_on', 'DESC')
                 ->limit(1)
-                ->value('sub_class_requests.end_on')
+                ->value('substitute_class_requests.end_on')
         );
     }
 
@@ -149,33 +149,33 @@ class SubstituteRequest extends Model
 
     public function subsInvited(): HasManyThrough
     {
-        return $this->hasManyThrough(Substitute::class, SubstituteToken::class, 'request_id', 'id', 'id', 'substitute_id');
+        return $this->hasManyThrough(Substitute::class, SubstituteToken::class, 'request_id', 'person_id', 'id', 'substitute_id');
     }
 
     public function coveredClasses(Substitute $sub)
     {
-        return SubstituteClassRequest::join('sub_campus_requests', 'sub_campus_requests.id', '=', 'sub_class_requests.campus_request_id')
-            ->where('sub_campus_requests.request_id', '=', $this->id)
-            ->where('sub_campus_requests.substitute_id', '=', $sub->id)
-            ->orderBy('sub_class_requests.start_on')
+        return SubstituteClassRequest::join('substitute_campus_requests', 'substitute_campus_requests.id', '=', 'substitute_class_requests.campus_request_id')
+            ->where('substitute_campus_requests.request_id', '=', $this->id)
+            ->where('substitute_campus_requests.substitute_id', '=', $sub->person_id)
+            ->orderBy('substitute_class_requests.start_on')
             ->get();
     }
 
     public function rejectedSubs(): Collection
     {
-        $subIdAvailable = DB::table('sub_request_tokens')
-            ->join('sub_token_campuses', 'sub_token_campuses.token', '=', 'sub_request_tokens.token')
-            ->join('sub_campus_requests', 'sub_campus_requests.id', '=', 'sub_token_campuses.campus_request_id')
-            ->select('sub_request_tokens.substitute_id')
-            ->where('sub_request_tokens.request_id', '=', $this->id)
-            ->whereNull('sub_campus_requests.substitute_id')
+        $subIdAvailable = DB::table('substitute_tokens')
+            ->join('substitute_tokens_campuses', 'substitute_tokens_campuses.token', '=', 'substitute_tokens.token')
+            ->join('substitute_campus_requests', 'substitute_campus_requests.id', '=', 'substitute_tokens_campuses.campus_request_id')
+            ->select('substitute_tokens.substitute_id')
+            ->where('substitute_tokens.request_id', '=', $this->id)
+            ->whereNull('substitute_campus_requests.substitute_id')
             ->get()->pluck('substitute_id');
 
-        return Substitute::select('substitutes.*')
-            ->join('sub_request_tokens', 'sub_request_tokens.substitute_id', '=', 'substitutes.id')
-            ->where('sub_request_tokens.request_id', '=', $this->id)
-            ->whereNotIn('substitutes.id', $subIdAvailable)
-            ->groupBy('substitutes.id')
+        return Person::select('people.*')
+            ->join('substitute_tokens', 'substitute_tokens.substitute_id', '=', 'people.id')
+            ->where('substitute_tokens.request_id', '=', $this->id)
+            ->whereNotIn('people.id', $subIdAvailable)
+            ->groupBy('people.id')
             ->get();
     }
 

@@ -1,12 +1,12 @@
-@extends('layouts.subs')
+@extends('layouts.app')
 
 @section('content')
-    <div class="py-4">
+    <div class="container py-4">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 col-xl-7">
                 <div class="text-center mb-4">
-                    <h1 class="h3 mb-1">Request No Longer Available</h1>
-                    <p class="text-muted mb-0">Substitute Request System</p>
+                    <h1 class="h3 mb-1">{{ __('features.substitutes.request.access.rejected.title') }}</h1>
+                    <p class="text-muted mb-0">{{ __('features.substitutes.request.access.rejected.description') }}</p>
                 </div>
 
                 <div class="card border-0 shadow-sm">
@@ -14,9 +14,9 @@
                         <div class="mb-3">
                             <i class="bi bi-x-circle-fill text-danger fs-1"></i>
                         </div>
-                        <h2 class="h5 mb-2">This opportunity has already been claimed.</h2>
+                        <h2 class="h5 mb-2">{{ __('features.substitutes.request.access.rejected.heading') }}</h2>
                         <p class="text-muted mb-0">
-                            Thank you for responding. Another substitute has already accepted this request, so this link is no longer active.
+                            {{ __('features.substitutes.request.access.rejected.notice') }}
                         </p>
                     </div>
                 </div>

@@ -69,7 +69,7 @@ class SubstituteToken extends Model
     public function classRequests(): Collection
     {
         return SubstituteClassRequest::select('substitute_class_requests.*')
-            ->join('sub_token_campuses', 'sub_token_campuses.campus_request_id', '=', 'substitute_class_requests.campus_request_id')
+            ->join('substitute_tokens_campuses', 'substitute_tokens_campuses.campus_request_id', '=', 'substitute_class_requests.campus_request_id')
             ->where('token', $this->token)
             ->get();
     }

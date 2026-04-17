@@ -2,62 +2,64 @@
 
 namespace App\Notifications\Substitutes;
 
-use App\Classes\Clients\SmsClient;
-use App\Classes\Settings\ServerSettings;
-use App\Models\Substitutes\SubRequest;
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Notifications\Notification;
+use App\Models\Substitutes\SubstituteRequest;
+use App\Notifications\LmsNotification;
 
-class NewRequestSubNotification extends Notification implements ShouldQueue
+class NewRequestSubNotification extends LmsNotification
 {
-    use Queueable;
 
     /**
      * Create a new notification instance.
      */
-    public function __construct(public SubRequest $subRequest, public string $plainTextToken) {}
-
-    /**
-     * Get the notification's delivery channels.
-     *
-     * @return array<int, string>
-     */
-    public function via(object $notifiable): array
+    public function __construct(public SubstituteRequest $subRequest, public string $link)
     {
-        $via = ['mail'];
-        if ($notifiable->sms_confirmed) {
-            $via[] = SmsClient::class;
-        }
-
-        return $via;
+	    parent::__construct();
     }
 
-    /**
-     * Get the mail representation of the notification.
-     */
-    public function toMail(object $notifiable): MailMessage
-    {
-        $settings = app()->make(ServerSettings::class);
+	public function toArray(object $notifiable): array
+	{
+		$data = parent::toArray($notifiable);
+		$data['request_id'] = $this->subRequest->id;
+		$data['link'] = $this->link;
+		return $data;
+	}
 
-        return (new MailMessage)
-            ->from($settings->get('server.send_email_as'), config('app.name'))
-            ->subject('New Substitute Request')
-            ->view('substitutes.mails.new-request-sub',
-                [
-                    'subReq' => $this->subRequest,
-                    'link' => route('subs.request', ['token' => $this->plainTextToken]),
-                ]);
-    }
+	public static function availableTokens(): array
+	{
+		return
+			[
+				'{!! $teacher_name !!}' => __('emails.substitutes.new.request.teacher'),
+				'{!! $coverage_date !!}' => __('emails.substitutes.new.request.date'),
+				'{!! $coverage_start !!}' => __('emails.substitutes.new.request.start'),
+				'{!! $coverage_end !!}' => __('emails.substitutes.new.request.end'),
+				'{!! $link !!}' => __('emails.substitutes.new.request.link'),
+			];
+	}
 
-    public function toSms(object $notifiable): string
-    {
-        return 'Coverage is needed for '.$this->subRequest->requester_name.' on '.
-            $this->subRequest->requested_for->format('m/d').' from '.
-            $this->subRequest->startTime()->format('g:i A').' to '.
-            $this->subRequest->endTime()->format('g:i A').'. Please go to '.
-            route('subs.request', ['token' => $this->plainTextToken]).
-            ' to accept.';
-    }
+	public function withTokens(): array
+	{
+		return
+			[
+				'teacher_name' => $this->subRequest->requester_name,
+				'coverage_date' => $this->subRequest->requested_for->format('m/d/Y'),
+				'coverage_start' => $this->subRequest->startTime()->format('g:i A'),
+				'coverage_end' => $this->subRequest->endTime()->format('g:i A'),
+				'link' => '<a href="' . $this->link . '">' . $this->link . '</a>',
+			];
+	}
+
+	public static function requiredTokens(): array
+	{
+		return ['{!! $link !!}'];
+	}
+
+	public static function fakeNotification(): static
+	{
+		return new NewRequestSubNotification(SubstituteRequest::inRandomOrder()->first(), "http://fake.url");
+	}
+
+	public function actionLink(): string|null
+	{
+		return $this->link;
+	}
 }

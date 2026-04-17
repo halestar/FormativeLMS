@@ -1,41 +1,51 @@
 <?php
 
-use App\Models\Substitutes\ClassRequest;
-use App\Models\Substitutes\SubRequest;
-use App\Models\Substitutes\SubRequestToken;
+use App\Models\Substitutes\SubstituteClassRequest;
+use App\Models\Substitutes\SubstituteRequest;
+use App\Models\Substitutes\SubstituteToken;
 use App\Notifications\Substitutes\NewRequestSubNotification;
+use App\Traits\FullPageComponent;
+use Illuminate\Support\Collection;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\On;
 use Livewire\Component;
-use Illuminate\Support\Collection;
 use Livewire\WithPagination;
 
 new class extends Component
 {
-	use WithPagination;
+	use WithPagination, FullPageComponent;
 
 	protected string $paginationTheme = 'bootstrap';
 
-	public SubRequest $subRequest;
+	public SubstituteRequest $subRequest;
 	public Collection $invites;
 	public Collection $classRequests;
 	public Collection $coverageCampusRequests;
 	public ?string $invitesSent = null;
 	public bool $resolvingInternally = false;
-	public ?ClassRequest $selectedClassRequest = null;
+	public ?SubstituteClassRequest $selectedClassRequest = null;
 	public bool $showOtherRequests = false;
 	public int $perPage = 25;
 
 	private function reloadInvites()
 	{
+		$this->breadcrumb =
+        [
+	        __('features.features') => '#',
+	        trans_choice('features.substitutes.requests', 2) => route('features.substitutes.index'),
+	        trans_choice('features.substitutes.requests', 1) => '#',
+        ];
 		$this->invites = $this->subRequest
 			->subTokens()
-			->with(['substitute', 'substitute.campuses'])
+			->with([
+				'substitute',
+				'substitute.campuses'
+			])
 			->get()
-			->sort(fn($a, $b) => strcmp($a->substitute->name, $b->substitute->name));
+			->sort(fn ($a, $b) => strcmp($a->substitute->name, $b->substitute->name));
 	}
 
-	public function mount(SubRequest $subRequest)
+	public function mount(SubstituteRequest $subRequest)
 	{
 		$this->authorize('substitutes.admin');
 		$this->subRequest = $subRequest;
@@ -45,12 +55,7 @@ new class extends Component
 		$this->resolvingInternally = $this->subRequest->isResolvingInternally();
 
 		$user = auth()->user();
-		if (!isset($user->prefs['per_page']))
-		{
-			$user->prefs['per_page'] = 25;
-			$user->save();
-		}
-		$this->perPage = (int) ($user->prefs['per_page'] ?? 25);
+		$this->perPage = $user->getPreference('items_per_page', 25);
 	}
 
 	#[Computed]
@@ -58,7 +63,7 @@ new class extends Component
 	{
 		$referenceDate = $this->subRequest->requested_for?->toDateString() ?? now()->toDateString();
 
-		return SubRequest::query()
+		return SubstituteRequest::query()
 			->with(['campusRequests.campus:id,name'])
 			->withCount('classRequests')
 			->where('requester_id', $this->subRequest->requester_id)
@@ -71,27 +76,32 @@ new class extends Component
 
 	public function updatePerPage(): void
 	{
-		$value = (int) $this->perPage;
-		if (!in_array($value, [10, 25, 50, 100], true))
+		$value = (int)$this->perPage;
+		if (!in_array($value, [
+			10,
+			25,
+			50,
+			100
+		], true))
 			$value = 25;
 
 		$this->perPage = $value;
 		$this->resetPage('other_requests_page');
 
 		$user = auth()->user();
-		$user->prefs['per_page'] = $value;
+		$user->setPreference('items_per_page', $value);
 		$user->save();
 	}
 
 	public function resendInvite(string $token): void
 	{
 		//first, we load the token
-		$subToken = SubRequestToken::find($token);
+		$subToken = SubstituteToken::find($token);
 		if ($subToken && $subToken->request_id == $this->subRequest->id)
 		{
 			$subToken->regenerateToken();
 			//re-send the invite
-			Notification::send($subToken->substitute, new NewRequestSubNotification($this->subRequest, $subToken->plainTextToken));
+			$subToken->substitute->person->notify(new NewRequestSubNotification($this->subRequest, $subToken->plainTextToken));
 			$this->invitesSent = $subToken->token;
 		}
 		$this->reloadInvites();
@@ -102,7 +112,7 @@ new class extends Component
 		foreach ($this->invites as $invite)
 		{
 			$invite->regenerateToken();
-			Notification::send($invite->substitute, new NewRequestSubNotification($this->subRequest, $invite->plainTextToken));
+			$invite->substitute->person->notify(new NewRequestSubNotification($this->subRequest, $invite->plainTextToken));
 		}
 		$this->reloadInvites();
 		$this->invitesSent = "all";
@@ -127,7 +137,7 @@ new class extends Component
 	#[On('class-request-sub-assigner-assigned')]
 	public function subAssigned($classRequestId)
 	{
-		if($classRequestId == $this->selectedClassRequest->id)
+		if ($classRequestId == $this->selectedClassRequest->id)
 		{
 			$this->classRequests = $this->subRequest->classRequests()->orderBy('start_on')->get();
 			$this->selectedClassRequest = null;
@@ -137,7 +147,7 @@ new class extends Component
 	public function removeAssignment(int $id)
 	{
 		$classRequest = $this->classRequests->firstWhere('id', '=', $id);
-		if($classRequest)
+		if ($classRequest)
 		{
 			$classRequest->substitutable()->disassociate();
 			$classRequest->save();
@@ -147,7 +157,7 @@ new class extends Component
 
 };
 ?>
-<div class="py-4">
+<div class="container">
     @if ($invitesSent != null)
         <div
                 class="alert alert-success mb-3"
@@ -166,7 +176,7 @@ new class extends Component
 
     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-4">
         <h1 class="h3 mb-0">Substitute Request</h1>
-        <a href="{{ route('substitutes.index') }}" class="btn btn-outline-secondary">Back to Requests</a>
+        <a href="{{ route('features.substitutes.index') }}" class="btn btn-outline-secondary">Back to Requests</a>
     </div>
 
     <div class="row g-3">
@@ -283,7 +293,8 @@ new class extends Component
                     @if ($showOtherRequests)
                         <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
                             <div class="d-flex align-items-center gap-2">
-                                <label for="other-requests-per-page" class="form-label mb-0 text-muted small">Entries per page</label>
+                                <label for="other-requests-per-page" class="form-label mb-0 text-muted small">Entries
+                                    per page</label>
                                 <select
                                         id="other-requests-per-page"
                                         class="form-select form-select-sm"
@@ -337,12 +348,15 @@ new class extends Component
                                             </span>
                                         </td>
                                         <td class="text-end">
-                                            <a href="{{ route('substitutes.show', $otherRequest) }}" class="btn btn-sm btn-outline-primary">View</a>
+                                            <a href="{{ route('features.substitutes.show', $otherRequest) }}"
+                                               class="btn btn-sm btn-outline-primary">View</a>
                                         </td>
                                     </tr>
                                 @empty
                                     <tr>
-                                        <td colspan="6" class="text-center text-muted py-3">No other requests found for this year.</td>
+                                        <td colspan="6" class="text-center text-muted py-3">No other requests found for
+                                            this year.
+                                        </td>
                                     </tr>
                                 @endforelse
                                 </tbody>
@@ -386,7 +400,7 @@ new class extends Component
                                     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
                                         <div class="fw-semibold">
                                             @if($campusRequest->substitute)
-                                                <a href="{{ route('substitutes.pool.show', $campusRequest->substitute) }}"
+                                                <a href="{{ route('features.substitutes.pool.show', $campusRequest->substitute) }}"
                                                    class="text-decoration-none">
                                                     {{ $campusRequest->substitute->name }}
                                                 </a>
@@ -452,14 +466,14 @@ new class extends Component
                                         <div class="flex-grow-1">
                                             <div class="d-flex align-items-start gap-2">
                                                 <img
-                                                        src="{{ $invite->substitute->portrait }}"
+                                                        src="{{ $invite->substitute->person->portrait_url->thumbUrl() }}"
                                                         alt="{{ $invite->substitute->name }}"
                                                         class="rounded-circle border flex-shrink-0"
                                                         style="width: 32px; height: 32px; object-fit: cover;"
                                                 >
                                                 <div class="flex-grow-1">
                                                     <div class="fw-semibold">
-                                                        <a href="{{ route('substitutes.pool.show', $invite->substitute) }}"
+                                                        <a href="{{ route('features.substitutes.pool.show', $invite->substitute) }}"
                                                            class="text-decoration-none">
                                                             {{ $invite->substitute->name }}
                                                         </a>

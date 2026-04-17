@@ -92,6 +92,31 @@ class PersonLandingTest extends TestCase
 			->get($this->index());
 		$response->assertRedirect(route('login'));
 	}
+
+	public function test_landing_updates_items_per_page_preference(): void
+	{
+		$admin = Person::where('email', 'fablms@kalinec.net')->first();
+
+		$this->actingAs($admin)
+			->get($this->index() . '?items_per_page=25')
+			->assertStatus(Response::HTTP_OK);
+
+		$this->assertSame(25, $admin->fresh()->getPreference('items_per_page', 10));
+	}
+
+	public function test_landing_filters_by_search_and_role(): void
+	{
+		$admin = Person::where('email', 'fablms@kalinec.net')->first();
+		$student = Person::where('email', 'student@kalinec.net')->first();
+		$parent = Person::where('email', 'parent@kalinec.net')->first();
+
+		$response = $this->actingAs($admin)
+			->get($this->index() . '?role=Student&search=student@kalinec.net');
+
+		$response->assertStatus(Response::HTTP_OK)
+			->assertSee($student->name)
+			->assertDontSee($parent->name);
+	}
 	/**
 	 * fieldPermissions
 	 */

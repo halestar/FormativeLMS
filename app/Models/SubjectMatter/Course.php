@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
@@ -104,5 +105,10 @@ class  Course extends Model
 		if(!$except || count($except) == 0)
 			return Skill::active()->search($str)->get();
 		return Skill::active()->search($str)->whereNotIn('id', $except)->get();
+	}
+
+	public function skills(): BelongsToMany
+	{
+		return $this->belongsToMany(Skill::class, 'skills_courses', 'course_id', 'skill_id');
 	}
 }

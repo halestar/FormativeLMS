@@ -5,16 +5,23 @@ namespace App\Models\Substitutes;
 use App\Models\Locations\Year;
 use App\Models\People\Person;
 use App\Models\People\Phone;
+use App\Models\SubjectMatter\ClassSession;
+use App\Traits\Campuseable;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\URL;
 
 class Substitute extends Model
 {
+	use Campuseable;
+
     protected $table = 'substitutes';
 
     protected $primaryKey = 'person_id';
@@ -22,8 +29,6 @@ class Substitute extends Model
     public $timestamps = true;
 
     public $incrementing = false;
-
-    protected $with = ['person'];
 
     public $guarded = [];
 
@@ -35,39 +40,55 @@ class Substitute extends Model
                 'email_confirmed' => 'boolean',
                 'account_verified' => 'datetime',
                 'sms_verified' => 'datetime',
-                'active' => 'boolean',
             ];
     }
 
     public function person(): BelongsTo
     {
-        return $this->belongsTo(Person::class, 'person_id');
+        return $this->belongsTo(Person::class, 'person_id')
+            ->withTrashed();
     }
 
-    public function phone(): BelongsTo
-    {
-        return $this->belongsTo(Phone::class, 'phone_id');
-    }
+	public function phone(): BelongsTo
+	{
+		return $this->belongsTo(Phone::class, 'phone_id');
+	}
 
-    public function createAccessToken(): SubstituteToken
+
+    public function createAccessUrl(): string
     {
-        return SubstituteToken::create(
-            [
-                'substitute_id' => $this->id,
-                'campus_request_id' => null,
-                'expires_at' => now()->addDays(1),
-            ]);
+	    $token = SubstituteToken::create(
+		    [
+			    'substitute_id' => $this->person_id,
+			    'request_id' => null,
+			    'expires_at' => now()->addDays(1),
+		    ]);
+	    return route('subs.verify', ['sub-access-token' => $token->plainTextToken]);
     }
 
     public function createRequestToken(SubstituteRequest $subRequest): SubstituteToken
     {
         return SubstituteToken::create(
             [
-                'substitute_id' => $this->id,
+                'substitute_id' => $this->person_id,
                 'request_id' => $subRequest->id,
                 'expires_at' => now()->addDays(1),
             ]);
     }
+
+    protected function name(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->person?->name,
+        );
+    }
+
+	protected function email(): Attribute
+	{
+		return Attribute::make(
+			get: fn () => $this->person?->system_email,
+		);
+	}
 
     #[Scope]
     protected function active(Builder $query): void
@@ -109,21 +130,21 @@ class Substitute extends Model
         return $this->hasMany(SubstituteCampusRequest::class, 'substitute_id');
     }
 
-    public function subbedClassRequests(): MorphMany
+    public function subbedClassRequests(): HasMany
     {
-        return $this->morphMany(SubstituteClassRequest::class, 'substitutable');
+        return $this->hasMany(SubstituteClassRequest::class, 'person_id', 'person_id');
     }
 
-    public function subbedClassSession(SubstituteClassRequest $session): Collection
+    public function subbedClassSession(ClassSession $session): Collection
     {
-        return $this->subbedClassRequests()->where('sub_class_requests.session_id', $session->id)
+        return $this->subbedClassRequests()->where('substitute_class_requests.session_id', $session->id)
             ->union(
-                ClassRequest::select('sub_class_requests.*')
-                    ->join('sub_campus_requests', 'sub_campus_requests.id', '=', 'sub_class_requests.campus_request_id')
-                    ->where('sub_class_requests.session_id', $session->id)
-                    ->where('sub_campus_requests.substitute_id', $this->id)
+                SubstituteClassRequest::select('substitute_class_requests.*')
+                    ->join('substitute_campus_requests', 'substitute_campus_requests.id', '=', 'substitute_class_requests.campus_request_id')
+                    ->where('substitute_class_requests.session_id', $session->id)
+                    ->where('substitute_campus_requests.substitute_id', $this->id)
             )
-            ->groupBy('sub_class_requests.id')
+            ->groupBy('substitute_class_requests.id')
             ->get();
     }
 

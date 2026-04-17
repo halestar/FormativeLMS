@@ -69,12 +69,7 @@ class PersonSelector extends Component
 		{
 			$people = Person::search($this->search);
 			if($this->filterRoles->count() > 0)
-			{
-				$people = $people->query(function($query)
-				{
-					return $query->role($this->filterRoles);
-				});
-			}
+				$people = $people->role($this->filterRoles);
 			$this->people = $people->take($this->maxResults)
 			                       ->get();
 			$this->resultCount = $this->people->count();

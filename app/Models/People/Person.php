@@ -22,6 +22,8 @@ use App\Models\SubjectMatter\ClassSession;
 use App\Models\SubjectMatter\Components\ClassMessage;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationTemplate;
 use App\Models\SubjectMatter\SchoolClass;
+use App\Models\SubjectMatter\Subject;
+use App\Models\Substitutes\Substitute;
 use App\Models\SystemTables\Relationship;
 use App\Models\Utilities\SchoolMessage;
 use App\Models\Utilities\SchoolRoles;
@@ -42,6 +44,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -160,6 +163,11 @@ class Person extends Authenticatable implements HasSchoolRoles, Fileable, HasPas
         });
     }
 
+	public function isSubstitute(): bool
+	{
+		return Cache::remember('person-is-substitute-' . $this->id, 3600, fn() => $this->hasRole(SchoolRoles::$SUBSTITUTE));
+	}
+
 
     /************************************************************************************************************
 	 * Mutators/Accessors
@@ -227,7 +235,7 @@ class Person extends Authenticatable implements HasSchoolRoles, Fileable, HasPas
 
     public function hasPortrait(): bool
     {
-        return ($this->attributes['portrait_url'] != null && $this->attributes['portrait_url'] != '');
+        return ($this->attributes['portrait_url'] != null && $this->attributes['portrait_url'] != '' && $this->attributes['portrait_url'] != asset('images/unk.svg'));
     }
     public function hasChildren(): bool
     {
@@ -436,6 +444,16 @@ class Person extends Authenticatable implements HasSchoolRoles, Fileable, HasPas
     {
         return $this->hasMany(LearningDemonstrationTemplate::class, 'person_id');
     }
+
+	public function substituteProfile(): HasOne
+	{
+		return $this->hasOne(Substitute::class, 'person_id');
+	}
+
+	public function subjectsTaught(): BelongsToMany
+	{
+		return $this->belongsToMany(Subject::class, 'subjects_teachers', 'person_id', 'subject_id');
+	}
 
     /************************************************************************************************************
      * ADRESSES

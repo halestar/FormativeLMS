@@ -77,6 +77,7 @@ return
         'option' => 'Option',
         'or' => 'or',
         'parent' => 'Parent',
+        'substitute' => 'Substitute',
         'prev' => 'Prev',
         'previous' => 'Previous',
         'px' => 'px',
@@ -123,4 +124,5 @@ return
         'incomplete' => 'Incomplete',
         'upcoming' => 'Upcoming',
         'past' => 'Past',
+        'actions' => 'Actions',
     ];

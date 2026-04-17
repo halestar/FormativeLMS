@@ -17,6 +17,7 @@ class PermissionSeeder extends Seeder
             'Class Management',
             'System',
             'School Administration',
+            'Requests',
         ];
 
     /**
@@ -98,6 +99,9 @@ class PermissionSeeder extends Seeder
                 ['name' => 'settings.integrators', 'description' => __('permissions.settings.integrators')],
                 ['name' => 'system.ai', 'description' => __('permissions.system.ai')],
                 ['name' => 'system.ai.queries', 'description' => __('permissions.system.ai.queries')],
+            ],
+            'Requests' => [
+	            ['name' => 'requests.substitute', 'description' => __('features.substitutes.request.description')],
             ],
         ];
     }

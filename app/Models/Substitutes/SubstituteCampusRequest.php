@@ -3,6 +3,8 @@
 namespace App\Models\Substitutes;
 
 use App\Models\Locations\Campus;
+use App\Models\People\Person;
+use App\Models\Utilities\SchoolRoles;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -53,12 +55,6 @@ class SubstituteCampusRequest extends Model
 
     public function availableSubs(): Collection
     {
-        $campus_id = $this->campus_id;
-
-        return Substitute::whereHas('campuses', function (Builder $query) use ($campus_id) {
-            $query->where('campuses.id', $campus_id);
-        })
-            ->where('substitutes.active', true)
-            ->get();
+        return Person::role(SchoolRoles::$SUBSTITUTE)->with('substituteProfile')->get();
     }
 }

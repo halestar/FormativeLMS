@@ -39,12 +39,14 @@ class SchoolRoles extends Role
 
     public static string $SUBSTITUTE = 'Substitute';
 
+	public static string $OLD_SUBSTITUTE = 'Old Substitute';
+
     public static array $baseRolePermissions =
         [
             'Super Admin' => [],
             'Student' => [],
             'Employee' => [],
-            'Faculty' => [],
+            'Faculty' => ['requests.substitute'],
             'Staff' => ['school.tracker', 'subjects.skills'],
             'Coach' => ['school.tracker'],
             'Parent' => [],
@@ -54,6 +56,7 @@ class SchoolRoles extends Role
             'Old Coach' => [],
             'Old Parent' => [],
             'Substitute' => [],
+            'Old Substitute' => [],
         ];
 
     public static function getDefaultPermissions(string $role): array
