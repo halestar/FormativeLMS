@@ -141,4 +141,5 @@ return
 		'content' => 'Content',
 		'content.no' => 'No Content',
 		'content.empty' => 'Empty Content',
+		'pending' => 'Pending',
 	];

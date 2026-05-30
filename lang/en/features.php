@@ -48,6 +48,7 @@ return
 		'substitutes.no' => 'No Substitutes Found',
 		'substitutes.filter' => 'Filter Substitutes',
 		'substitutes.requests' => 'Substitute Request|Substitute Requests',
+		'substitutes.requests.upcoming' => 'Upcoming Substitute Requests',
 		'substitutes.resolve' => 'Resolve Request',
 		'substitutes.resolve.internally' => 'Resolve Internally',
 		'substitutes.requests.other' => 'Other Requests',

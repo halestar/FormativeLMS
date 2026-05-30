@@ -25,6 +25,7 @@ use App\Models\SubjectMatter\SchoolClass;
 use App\Models\SubjectMatter\Subject;
 use App\Models\Substitutes\Substitute;
 use App\Models\Substitutes\SubstituteClassRequest;
+use App\Models\Substitutes\SubstituteRequest;
 use App\Models\SystemTables\Relationship;
 use App\Models\Utilities\SchoolMessage;
 use App\Models\Utilities\SchoolRoles;
@@ -918,5 +919,10 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 		return $this->subbedClassRequests()
 		            ->whereBetween('created_at', [$year->start, $year->end])
 		            ->count();
+	}
+
+	public function substituteRequests(): HasMany
+	{
+		return $this->hasMany(SubstituteRequest::class, 'requester_id');
 	}
 }

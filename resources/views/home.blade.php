@@ -7,6 +7,7 @@
                 <x-homepage.student-classes></x-homepage.student-classes>
             @elseif($person->isTeacher())
                 <x-homepage.faculty-classes :faculty="$person"></x-homepage.faculty-classes>
+                <x-homepage.upcoming-sub-requests :faculty="$person"></x-homepage.upcoming-sub-requests>
             @endif
         </div>
     </div>
