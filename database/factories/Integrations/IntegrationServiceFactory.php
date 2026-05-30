@@ -8,7 +8,7 @@ use App\Models\Integrations\Integrator;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Integrations\IntegrationService>
+ * @extends Factory<IntegrationService>
  */
 class IntegrationServiceFactory extends Factory
 {
@@ -32,7 +32,6 @@ class IntegrationServiceFactory extends Factory
             'enabled' => true,
             'can_connect_to_people' => true,
             'can_connect_to_system' => false,
-            'configurable' => false,
             'inherit_permissions' => true,
         ];
     }

@@ -4,6 +4,7 @@ namespace App\Models\Schedules;
 
 use App\Classes\Settings\Days;
 use App\Models\Locations\Campus;
+use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -25,47 +26,48 @@ class Period extends Model
 			'end',
 			'active',
 		];
-	
+
 	protected static function booted(): void
 	{
-		static::addGlobalScope('period-order', function(Builder $builder)
+		static::addGlobalScope('period-order', function (Builder $builder)
 		{
 			$builder->orderBy('day', 'asc')
 			        ->orderBy('start', 'asc')
 			        ->orderBy('end', 'asc');
 		});
 	}
-	
+
 	public function canDelete(): bool
 	{
 		return true;
 	}
-	
+
 	public function campus(): BelongsTo
 	{
 		return $this->belongsTo(Campus::class, 'campus_id');
 	}
-	
+
 	public function dayStr()
 	{
 		return Days::day($this->day);
 	}
-	
-	public function scopeActive(Builder $builder)
+
+	#[Scope]
+	protected function active(Builder $builder): void
 	{
 		$builder->where('active', true);
 	}
-	
+
 	public function blocks(): BelongsToMany
 	{
 		return $this->belongsToMany(Block::class, 'blocks_periods', 'period_id', 'block_id');
 	}
-	
+
 	public function __toString(): string
 	{
 		return $this->abbr;
 	}
-	
+
 	protected function casts(): array
 	{
 		return
@@ -76,5 +78,5 @@ class Period extends Model
 				'active' => 'boolean',
 			];
 	}
-	
+
 }

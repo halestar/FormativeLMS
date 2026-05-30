@@ -27,14 +27,14 @@ new class extends Component
 
 	public function mount(): void
 	{
-		abort_unless(auth()->user()?->can('substitute.admin'), 403);
+		$this->authorize('substitute.admin');
 
 		$this->campuses = Campus::query()
-			->orderBy('name')
-			->get([
-				'id',
-				'name'
-			]);
+		                        ->orderBy('name')
+		                        ->get([
+			                        'id',
+			                        'name'
+		                        ]);
 
 		$this->breadcrumb = [
 			__('features.features') => '#',
@@ -53,8 +53,8 @@ new class extends Component
 		}
 
 		return Person::withTrashed()
-			->with('substituteProfile.campuses')
-			->find($this->selectedPersonId);
+		             ->with('substituteProfile.campuses')
+		             ->find($this->selectedPersonId);
 	}
 
 	#[Computed]
@@ -69,120 +69,58 @@ new class extends Component
 			return collect();
 		}
 
-		$query = Person::query()
-			->withTrashed()
-			->where(function (Builder $query) use ($first, $last, $email)
-			{
-				$query->whereNull('id');
+		$term = trim($first . (strlen($last) > 0 ? " " . $last : "") . (strlen($email) > 0 ? " " . $email : ""));
 
-				if ($email !== '')
-				{
-					$query->orWhere('email', 'like', '%' . $email . '%');
-				}
-
-				if (strlen($first) >= 2)
-				{
-					$query->orWhere('first', 'like', '%' . $first . '%')
-						->orWhere('nick', 'like', '%' . $first . '%');
-				}
-
-				if (strlen($last) >= 2)
-				{
-					$query->orWhere('last', 'like', '%' . $last . '%');
-				}
-
-				if (strlen($first) >= 2 && strlen($last) >= 2)
-				{
-					$query->orWhere(function (Builder $query) use ($first, $last)
-					{
-						$query->where('first', 'like', '%' . $first . '%')
-							->where('last', 'like', '%' . $last . '%');
-					});
-				}
-			})
-			->limit(8);
-
-		if ($email !== '')
-		{
-			$query->orderByRaw('LOWER(email) = ? desc', [mb_strtolower($email)]);
-		}
-
-		return $query->orderBy('last')
-			->orderBy('first')
-			->get();
+		return Person::search($term)
+		             ->withTrashed()
+		             ->whereNotIn('roles', [
+			             SchoolRoles::$SUBSTITUTE,
+			             SchoolRoles::$OLD_SUBSTITUTE,
+			             SchoolRoles::$STUDENT
+		             ])
+		             ->orderBy('last')
+		             ->orderBy('first')
+		             ->get();
 	}
 
 	public function selectExistingPerson(int $personId): void
 	{
 		$person = Person::withTrashed()
-			->with('substituteProfile.campuses')
-			->findOrFail($personId);
+		                ->findOrFail($personId);
 
 		$this->first = (string)($person->first ?? '');
 		$this->last = (string)$person->last;
 		$this->email = (string)($person->email ?? '');
 		$this->selectedPersonId = $person->id;
 		$this->confirmCreateNewPerson = false;
-
-		if ($person->substituteProfile)
-		{
-			$this->campusIds = $person->substituteProfile->campuses
-				->pluck('id')
-				->map(fn (mixed $id) => (string)$id)
-				->all();
-			$this->sendVerificationEmail = !$person->substituteProfile->email_confirmed
-			                               && !$person->substituteProfile->account_verified;
-		}
 	}
 
 	public function clearSelectedPerson(): void
 	{
 		$this->selectedPersonId = null;
+		$this->first = '';
+		$this->last = '';
+		$this->email = '';
 		$this->confirmCreateNewPerson = false;
-		$this->sendVerificationEmail = true;
-	}
-
-	public function updatedFirst(): void
-	{
-		$this->handleIdentityFieldUpdate();
-	}
-
-	public function updatedLast(): void
-	{
-		$this->handleIdentityFieldUpdate();
-	}
-
-	public function updatedEmail(): void
-	{
-		$this->handleIdentityFieldUpdate();
 	}
 
 	public function save(): mixed
 	{
-		abort_unless(auth()->user()?->can('substitute.admin'), 403);
-
 		$this->validate();
 		$this->guardAgainstDuplicatePeople();
 
 		$selectedPersonId = $this->selectedPersonId;
 		$person = null;
-		$substitute = null;
-		$usedExistingPerson = false;
-		$createdProfile = false;
 
-		DB::transaction(function () use (
-			&$person, &$substitute, &$usedExistingPerson, &$createdProfile, $selectedPersonId
-		)
+		DB::transaction(function () use (&$person)
 		{
-			if ($selectedPersonId)
+			if ($this->selectedPersonId)
 			{
-				$person = Person::withTrashed()->findOrFail($selectedPersonId);
+				$person = Person::withTrashed()->findOrFail($this->selectedPersonId);
 				$usedExistingPerson = true;
 
 				if ($person->trashed())
-				{
 					$person->restore();
-				}
 			}
 			else
 			{
@@ -193,79 +131,42 @@ new class extends Component
 				$person->save();
 			}
 
-			$substitute = $person->substituteProfile()->firstOrCreate([]);
-			$createdProfile = $substitute->wasRecentlyCreated;
-
-			$substitute->campuses()->sync($this->campusIds);
+			if ($person->substituteProfile()->exists())
+			{
+				$subProfile = $person->substituteProfile;
+				$subProfile->sms_confirmed = false;
+				$subProfile->email_confirmed = false;
+				$subProfile->account_verified = null;
+				$subProfile->sms_verified = null;
+				$subProfile->save();
+			}
+			else
+				$subProfile = $person->substituteProfile()->create([]);
+			$subProfile->campuses()->sync($this->campusIds);
 
 			if ($person->hasRole(SchoolRoles::$OLD_SUBSTITUTE))
-			{
 				$person->removeRole(SchoolRoles::$OLD_SUBSTITUTE);
-			}
 
 			if (!$person->hasRole(SchoolRoles::$SUBSTITUTE))
-			{
 				$person->assignRole(SchoolRoles::$SUBSTITUTE);
-			}
 		});
 
 		$person->notify(new NewSubstituteVerification($person));
 
-		return redirect()->route('features.substitutes.pool.show', $substitute->person->school_id)
-			->with('success-status', __('features.substitutes.pool.created'));
+		return redirect()->route('features.substitutes.pool.show', $person->school_id)
+		                 ->with('success-status', __('features.substitutes.pool.created'));
 	}
 
 	protected function rules(): array
 	{
-		return [
-			'first' => [
-				'required',
-				'string',
-				'max:255'
-			],
-			'last' => [
-				'required',
-				'string',
-				'max:255'
-			],
-			'email' => [
-				'required',
-				'email',
-				'max:255'
-			],
-			'campusIds' => [
-				'required',
-				'array',
-				'min:1'
-			],
-			'campusIds.*' => [
-				'required',
-				'exists:campuses,id'
-			],
-			'confirmCreateNewPerson' => ['boolean'],
-			'sendVerificationEmail' => ['boolean'],
-		];
-	}
-
-	private function handleIdentityFieldUpdate(): void
-	{
-		$this->confirmCreateNewPerson = false;
-
-		$selectedPerson = $this->selectedPerson;
-		if (!$selectedPerson)
-		{
-			return;
-		}
-
-		if (
-			trim((string)($selectedPerson->first ?? '')) !== trim($this->first)
-			|| trim((string)$selectedPerson->last) !== trim($this->last)
-			|| mb_strtolower(trim((string)($selectedPerson->email ?? ''))) !== mb_strtolower(trim($this->email))
-		)
-		{
-			$this->selectedPersonId = null;
-			$this->sendVerificationEmail = true;
-		}
+		return
+			[
+				'first' => 'required|string|max:255',
+				'last' => 'required|string|max:255',
+				'email' => 'required|email|max:255',
+				'campusIds' => 'required|array|min:1',
+				'campusIds.*' => 'required|exists:campuses,id',
+			];
 	}
 
 	private function guardAgainstDuplicatePeople(): void
@@ -276,8 +177,8 @@ new class extends Component
 		}
 
 		$exactEmailMatch = Person::withTrashed()
-			->whereRaw('LOWER(email) = ?', [mb_strtolower(trim($this->email))])
-			->first();
+		                         ->whereRaw('LOWER(email) = ?', [mb_strtolower(trim($this->email))])
+		                         ->first();
 
 		if ($exactEmailMatch)
 		{
@@ -297,15 +198,14 @@ new class extends Component
 ?>
 
 <div class="container py-4">
-    @php($selectedPerson = $this->selectedPerson)
-    @php($matchingPeople = $this->matchingPeople)
 
     <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-4">
         <div>
             <h1 class="h3 mb-1">{{ __('features.substitutes.pool.new') }}</h1>
             <p class="text-muted mb-0">{{ __('features.substitutes.pool.create.description') }}</p>
         </div>
-        <a href="{{ route('features.substitutes.pool.index') }}" class="btn btn-outline-secondary">{{ __('features.substitutes.pool.back') }}</a>
+        <a href="{{ route('features.substitutes.pool.index') }}"
+           class="btn btn-outline-secondary">{{ __('features.substitutes.pool.back') }}</a>
     </div>
 
     <form wire:submit="save">
@@ -318,7 +218,7 @@ new class extends Component
                                 <h2 class="h5 mb-1">{{ __('features.substitutes.pool.create.person') }}</h2>
                                 <p class="text-muted small mb-0">{{ __('features.substitutes.pool.create.person.description') }}</p>
                             </div>
-                            @if ($selectedPerson)
+                            @if ($this->selectedPerson)
                                 <button type="button" class="btn btn-sm btn-outline-secondary"
                                         wire:click="clearSelectedPerson">
                                     {{ __('features.substitutes.pool.create.person.clear') }}
@@ -326,17 +226,16 @@ new class extends Component
                             @endif
                         </div>
 
-                        @if($selectedPerson)
-                            <div class="alert {{ $selectedPerson->substituteProfile ? 'alert-warning' : 'alert-info' }} d-flex flex-column gap-2 mb-4"
+                        @if($this->selectedPerson)
+                            <div class="alert alert-info d-flex flex-column gap-2 mb-4"
                                  role="alert">
-                                <div class="fw-semibold">{{ __('features.substitutes.pool.create.person.selected', ['name' => $selectedPerson->name]) }}</div>
+                                <div class="fw-semibold">
+                                    {{ __('features.substitutes.pool.create.person.selected', ['name' => $this->selectedPerson->name]) }}
+                                </div>
                                 <div class="small">
-                                    {{ $selectedPerson->email ?: __('features.substitutes.pool.create.person.no_email_on_file') }}
-                                    @if ($selectedPerson->trashed())
+                                    {{ $this->selectedPerson->email ?: __('features.substitutes.pool.create.person.no_email_on_file') }}
+                                    @if ($this->selectedPerson->trashed())
                                         <span class="badge text-bg-warning ms-2">{{ __('features.substitutes.pool.create.badges.soft_deleted') }}</span>
-                                    @endif
-                                    @if ($selectedPerson->substituteProfile)
-                                        <span class="badge text-bg-secondary ms-2">{{ __('features.substitutes.pool.create.badges.has_profile') }}</span>
                                     @endif
                                 </div>
                             </div>
@@ -344,13 +243,14 @@ new class extends Component
 
                         <div class="row g-3">
                             <div class="col-12 col-md-6">
-                                <label for="substitute-first" class="form-label">{{ __('features.substitutes.pool.edit.person.first') }}</label>
+                                <label for="substitute-first"
+                                       class="form-label">{{ __('features.substitutes.pool.edit.person.first') }}</label>
                                 <input
                                         id="substitute-first"
                                         type="text"
                                         class="form-control @error('first') is-invalid @enderror"
                                         wire:model.live.debounce.300ms="first"
-                                        @disabled($selectedPerson !== null)
+                                        @disabled($this->selectedPerson !== null)
                                         autocomplete="off"
                                 >
                                 @error('first')
@@ -359,13 +259,14 @@ new class extends Component
                             </div>
 
                             <div class="col-12 col-md-6">
-                                <label for="substitute-last" class="form-label">{{ __('features.substitutes.pool.edit.person.last') }}</label>
+                                <label for="substitute-last"
+                                       class="form-label">{{ __('features.substitutes.pool.edit.person.last') }}</label>
                                 <input
                                         id="substitute-last"
                                         type="text"
                                         class="form-control @error('last') is-invalid @enderror"
                                         wire:model.live.debounce.300ms="last"
-                                        @disabled($selectedPerson !== null)
+                                        @disabled($this->selectedPerson !== null)
                                         autocomplete="off"
                                 >
                                 @error('last')
@@ -374,13 +275,14 @@ new class extends Component
                             </div>
 
                             <div class="col-12">
-                                <label for="substitute-email" class="form-label">{{ __('features.substitutes.pool.create.person.email_address') }}</label>
+                                <label for="substitute-email"
+                                       class="form-label">{{ __('features.substitutes.pool.create.person.email_address') }}</label>
                                 <input
                                         id="substitute-email"
                                         type="email"
                                         class="form-control @error('email') is-invalid @enderror"
                                         wire:model.live.debounce.300ms="email"
-                                        @disabled($selectedPerson !== null)
+                                        @disabled($this->selectedPerson !== null)
                                         autocomplete="off"
                                 >
                                 @error('email')
@@ -400,14 +302,14 @@ new class extends Component
                                 <h2 class="h5 mb-1">{{ __('features.substitutes.pool.create.matches') }}</h2>
                                 <p class="text-muted small mb-0">{{ __('features.substitutes.pool.create.matches.description') }}</p>
                             </div>
-                            @if ($matchingPeople->isNotEmpty() && ! $selectedPerson)
-                                <span class="badge text-bg-secondary">{{ __('features.substitutes.pool.create.matches.count', ['count' => $matchingPeople->count()]) }}</span>
+                            @if ($this->matchingPeople->isNotEmpty() && ! $this->selectedPerson)
+                                <span class="badge text-bg-secondary">{{ __('features.substitutes.pool.create.matches.count', ['count' => $this->matchingPeople->count()]) }}</span>
                             @endif
                         </div>
 
-                        @if ($matchingPeople->isNotEmpty() && ! $selectedPerson)
+                        @if ($this->matchingPeople->isNotEmpty() && ! $this->selectedPerson)
                             <div class="list-group list-group-flush">
-                                @foreach ($matchingPeople as $person)
+                                @foreach ($this->matchingPeople as $person)
                                     <div class="list-group-item px-0" wire:key="person-match-{{ $person->id }}">
                                         <div class="d-flex flex-column flex-lg-row align-items-start gap-3">
                                             <img
@@ -456,7 +358,7 @@ new class extends Component
                                 <div class="invalid-feedback d-block">{{ $message }}</div>
                                 @enderror
                             </div>
-                        @elseif ($selectedPerson)
+                        @elseif ($this->selectedPerson)
                             <div class="alert alert-success mb-0" role="alert">
                                 {{ __('features.substitutes.pool.create.matches.selected_help') }}
                             </div>
@@ -509,9 +411,10 @@ new class extends Component
         </div>
 
         <div class="d-flex justify-content-end gap-2 mt-4">
-            <a href="{{ route('features.substitutes.pool.index') }}" class="btn btn-outline-secondary">{{ __('common.cancel') }}</a>
+            <a href="{{ route('features.substitutes.pool.index') }}"
+               class="btn btn-outline-secondary">{{ __('common.cancel') }}</a>
             <button type="submit" class="btn btn-primary" wire:loading.attr="disabled">
-                {{ $selectedPerson ? __('features.substitutes.pool.create.actions.import') : __('features.substitutes.pool.create.actions.add') }}
+                {{ $this->selectedPerson ? __('features.substitutes.pool.create.actions.import') : __('features.substitutes.pool.create.actions.add') }}
             </button>
         </div>
     </form>

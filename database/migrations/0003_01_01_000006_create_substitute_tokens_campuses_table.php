@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('substitute_tokens_campuses', function (Blueprint $table) {
             $table->string('token');
-            $table->foreign('token')->references('token')->on('substitute_tokens')->cascadeOnDelete();
+            $table->foreign('token')->references('token')->on('substitute_tokens')->cascadeOnDelete()
+                ->cascadeOnUpdate();
             $table->foreignId('campus_request_id')->constrained('substitute_campus_requests')->cascadeOnDelete();
             $table->primary(['token', 'campus_request_id']);
         });

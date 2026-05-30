@@ -19,20 +19,23 @@
                         @if($isSelf)
                             <p>{{ __('people.preferences') }}</p>
                             <a href="{{ route('people.school-ids.show') }}">{{ __('people.id.mine') }}</a><br/>
-                            <a href="{{ route('people.preferences.communications', $person->school_id) }}">{{ __('people.preferences.communications') }}</a><br/>
+                            <a href="{{ route('people.preferences.communications', $person->school_id) }}">{{ __('people.preferences.communications') }}</a>
+                            <br/>
                             @if($person->authConnection?->canChangePassword())
                                 <a href="{{ route('people.password') }}">{{ __('settings.auth.password.change') }}</a>
                                 <br/>
                             @endif
                             @if($authSettings->passkeys_allow)
-                                <a href="{{ route('people.preferences.passkeys', $person->school_id) }}">{{ __('settings.auth.passkeys') }}</a><br/>
+                                <a href="{{ route('people.preferences.passkeys', $person->school_id) }}">{{ __('settings.auth.passkeys') }}</a>
+                                <br/>
                             @endif
 
                             <p>{{ __('integrators.integrations.available') }}</p>
                             <livewire:auth.user-integrations/>
                         @elseif($self->can('people.edit'))
                             <p>{{ __('people.preferences') }}</p>
-                            <a href="{{ route('people.preferences.communications', $person->school_id) }}">{{ __('people.preferences.communications') }}</a><br/>
+                            <a href="{{ route('people.preferences.communications', $person->school_id) }}">{{ __('people.preferences.communications') }}</a>
+                            <br/>
                         @endif
                     </div>
                 </div>
@@ -63,7 +66,8 @@
                                     <h6>
                                         <div>
                                             <strong class="me-2">
-                                                {{ trans_choice('subjects.subject.taught', $person->subjectsTaught()->count()) }}:
+                                                {{ trans_choice('subjects.subject.taught', $person->subjectsTaught()->count()) }}
+                                                :
                                             </strong>
                                             {{ $person->subjectsTaught->isEmpty()? __('subjects.subject.taught.no'):
                                                 $person->subjectsTaught->map(fn($subject) => $subject->name . " (" . $subject->campus->abbr . ")")->join(', ') }}
@@ -142,23 +146,6 @@
                                 save-tab="basic"
                         >{{ __('people.profile.basic') }}</a>
                     </li>
-                    @foreach($person->roles as $role)
-                        @if(count($role->fields) > 0)
-                            <li class="nav-item">
-                                <a
-                                        class="nav-link"
-                                        id="tab-role-{{ $role->id }}"
-                                        data-bs-toggle="tab"
-                                        data-bs-target="#tab-pane-role-{{ $role->id }}"
-                                        href="#tab-pane-role-{{ $role->id }}"
-                                        role="tab"
-                                        aria-controls="#tab-pane-role-{{ $role->id }}"
-                                        save-tab="role-{{ $role->id }}"
-                                        aria-selected="false"
-                                >{{ $role->name }}</a>
-                            </li>
-                        @endif
-                    @endforeach
                     @if($person->isStudent() || $person->isTeacher())
                         <li class="nav-item">
                             <a
@@ -174,6 +161,21 @@
                             >{{ $person->isStudent()? __('people.profile.schedule.student'): __('people.profile.schedule.teacher') }}</a>
                         </li>
                     @endif
+                    @if($person->isSubstitute())
+                        <li class="nav-item">
+                            <a
+                                    class="nav-link"
+                                    id="tab-substitute"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#tab-pane-substitute"
+                                    href="#tab-pane-substitute"
+                                    role="tab"
+                                    aria-controls="#tab-pane-substitute"
+                                    save-tab="substitute"
+                                    aria-selected="false"
+                            >{{  __('people.profile.substitute') }}</a>
+                        </li>
+                    @endif
                 </ul>
 
                 {{-- Tab Content --}}
@@ -182,139 +184,8 @@
                             class="tab-pane fade show active"
                             id="tab-pane-basic" role="tabpanel" aria-labelledby="tab-basic" tabindex="1"
                     >
-                        <ul class="list-group list-group-flush hoverable">
-                            @if($person->first)
-                                <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <label>{{ __('people.profile.fields.first') }}</label>
-                                        <span>{{ $person->first }}</span>
-                                    </div>
-                                </li>
-                            @endif
-                            @if($person->middle)
-                                <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <label>{{ __('people.profile.fields.middle') }}</label>
-                                        <span>{{ $person->middle }}</span>
-                                    </div>
-                                </li>
-                            @endif
-                            @if($person->last)
-                                <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <label>{{ __('people.profile.fields.last') }}</label>
-                                        <span>{{ $person->last }}</span>
-                                    </div>
-                                </li>
-                            @endif
-                            @if($person->email)
-                                <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <label>{{ __('people.profile.fields.email') }}</label>
-                                        <span>{{ $person->email }}</span>
-                                    </div>
-                                </li>
-                            @endif
-                            @if($person->nick)
-                                <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <label>{{ __('people.profile.fields.nick') }}</label>
-                                        <span>{{ $person->nick }}</span>
-                                    </div>
-                                </li>
-                            @endif
-                            @if($person->dob)
-                                <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <label>{{ __('people.profile.fields.dob') }}</label>
-                                        <span>{{ $person->dob->format(config('lms.date_format')) }}</span>
-                                    </div>
-                                </li>
-                            @endif
-                            @if($self->canViewField('addresses', $person))
-                                @foreach($person->addresses as $address)
-                                    <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                        <div class="d-flex justify-content-between align-items-top">
-                                            <label>
-                                                @if($address->personal->primary)
-                                                    {{ __('addresses.primary') }}
-                                                @endif
-                                                @if($address->personal->work)
-                                                    {{ __('addresses.work') }}
-                                                @endif
-                                                @if($address->personal->seasonal)
-                                                    {{ __('addresses.seasonal_address', ['season_start' => $address->personal->season_start, 'season_end' => $address->personal->season_end]) }}
-                                                @endif
-                                                {{ __('addresses.address') }}:
-                                            </label>
-                                            <span class="text-end">{!! nl2br($address->prettyAddress) !!}</span>
-                                        </div>
-                                    </li>
-                                @endforeach
-                            @endif
-                            @if($self->canViewField('phones', $person))
-                                @foreach($person->phones as $phone)
-                                    <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                        <div class="d-flex justify-content-between align-items-top">
-                                            <label>
-                                                @if($phone->personal->primary)
-                                                    {{ __('addresses.primary') }}
-                                                @endif
-                                                @if($phone->personal->work)
-                                                    {{ __('addresses.work') }}
-                                                @endif
-                                                @if($phone->mobile)
-                                                    {{ __('phones.mobile') }}
-                                                @endif
-                                                {{ __('phones.phone') }}:
-                                            </label>
-                                            <span>{!! $phone->prettyPhone !!}</span>
-                                        </div>
-                                    </li>
-                                @endforeach
-                            @endif
-                            @if($self->canViewField('relationships', $person))
-                                @foreach($person->relationships as $relation)
-                                    <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                        <div class="d-flex justify-content-between align-items-top">
-                                            <label>
-                                                {{ ($relation->personal->relationship? $relation->personal->relationship->name: "?") . " " . __('common.to') }}
-                                            </label>
-                                            <span>
-                                                <a href="{{ route('people.show', ['person' => $relation->school_id]) }}">
-                                                    {{ $relation->name }}
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </li>
-                                @endforeach
-                            @endif
-                        </ul>
+                        <x-people.basic-info-fields :person="$person"/>
                     </div>
-                    @foreach($person->schoolRoles as $role)
-                        @if(count($role->fields) > 0)
-                            <div
-                                    class="tab-pane fade"
-                                    id="tab-pane-role-{{ $role->id }}" role="tabpanel"
-                                    aria-labelledby="tab-role-{{ $role->id }}"
-                                    tabindex="{{ $loop->iteration + 10 }}"
-                            >
-                                <ul class="list-group list-group-flush hoverable">
-                                    @foreach($role->fields as $field)
-                                        @if($self->canViewField($field, $person) && $field->fieldValue)
-                                            <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                                                <div class="d-flex justify-content-between align-items-center">
-                                                    <label>{{ $field->fieldName }}</label>
-                                                    <span>{{ is_array($field->fieldValue)? implode(", ", $field->fieldValue): $field->fieldValue }}</span>
-                                                </div>
-                                            </li>
-                                        @endif
-                                    @endforeach
-                                </ul>
-                            </div>
-                        @endif
-                    @endforeach
-
                     @if($person->isStudent() || $person->isTeacher())
                         <div
                                 class="tab-pane fade"
@@ -326,6 +197,15 @@
                             @else
                                 <x-schedule-viewer :schedule-sources="$person->currentClassSessions" :width="700"/>
                             @endif
+                        </div>
+                    @endif
+                    @if($person->isSubstitute())
+                        <div
+                                class="tab-pane fade"
+                                id="tab-pane-substitute" role="tabpanel" aria-labelledby="tab-substitute"
+                                tabindex="1"
+                        >
+                            <x-people.substitute-info-fields :person="$person"/>
                         </div>
                     @endif
                 </div>

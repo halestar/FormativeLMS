@@ -21,11 +21,10 @@ use App\Models\SubjectMatter\Learning\ClassCriteria;
 use App\Models\SubjectMatter\Learning\ClassSessionCriteria;
 use App\Models\SubjectMatter\Learning\LearningDemonstration;
 use App\Models\SubjectMatter\Learning\LearningDemonstrationClassSession;
+use App\Models\Substitutes\SubstituteClassRequest;
 use App\Models\Utilities\WorkFile;
 use App\Traits\HasWorkFiles;
 use Carbon\Carbon;
-use Illuminate\Database\Eloquent\Attributes\Scope;
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -37,27 +36,23 @@ use Illuminate\Support\Facades\Auth;
 
 class ClassSession extends Model implements Fileable, HasSchedule
 {
-    use HasWorkFiles;
+	use HasWorkFiles;
 
-    public $timestamps = true;
+	public $timestamps = true;
+	public $incrementing = true;
+	protected $with = ['schoolClass', 'term'];
+	protected $table = 'class_sessions';
+	protected $primaryKey = 'id';
 
-    public $incrementing = true;
-
-    protected $with = ['schoolClass', 'term'];
-
-    protected $table = 'class_sessions';
-
-    protected $primaryKey = 'id';
-
-    protected $fillable =
-        [
-            'class_id',
-            'term_id',
-            'room_id',
-            'block_id',
-            'inherit_criteria',
-            'class_management_id',
-        ];
+	protected $fillable =
+		[
+			'class_id',
+			'term_id',
+			'room_id',
+			'block_id',
+			'inherit_criteria',
+			'class_management_id',
+		];
 
 	protected function casts(): array
 	{
@@ -74,51 +69,55 @@ class ClassSession extends Model implements Fileable, HasSchedule
 	 * ELOQUENT RELATIONSHIPS
 	 ****************************************************************/
 
-    public function schoolClass(): BelongsTo
-    {
-        return $this->belongsTo(SchoolClass::class, 'class_id');
-    }
+	public function schoolClass(): BelongsTo
+	{
+		return $this->belongsTo(SchoolClass::class, 'class_id');
+	}
 
-    public function course(): HasOneThrough
-    {
-        return $this->hasOneThrough(Course::class, SchoolClass::class, 'id', 'id', 'class_id', 'course_id');
-    }
+	public function course(): HasOneThrough
+	{
+		return $this->hasOneThrough(Course::class, SchoolClass::class, 'id', 'id', 'class_id', 'course_id');
+	}
 
-    public function term(): BelongsTo
-    {
-        return $this->belongsTo(Term::class, 'term_id');
-    }
+	public function term(): BelongsTo
+	{
+		return $this->belongsTo(Term::class, 'term_id');
+	}
 
-    public function room(): BelongsTo
-    {
-        return $this->belongsTo(Room::class, 'room_id');
-    }
+	public function room(): BelongsTo
+	{
+		return $this->belongsTo(Room::class, 'room_id');
+	}
 
-    public function block(): BelongsTo
-    {
-        return $this->belongsTo(Block::class, 'block_id');
-    }
+	public function block(): BelongsTo
+	{
+		return $this->belongsTo(Block::class, 'block_id');
+	}
 
-    public function isClassStudent(StudentRecord $student): bool
-    {
-        return $this->students()
-            ->where('student_records.id', $student->id)
-            ->exists();
-    }
+	public function isClassStudent(StudentRecord $student): bool
+	{
+		return $this->students()
+		            ->where('student_records.id', $student->id)
+		            ->exists();
+	}
 
 	public function students(): BelongsToMany
 	{
-		return $this->belongsToMany(StudentRecord::class, 'class_sessions_students',
-			'session_id', 'student_id');
+		return $this->belongsToMany(
+			StudentRecord::class, 'class_sessions_students',
+			'session_id', 'student_id'
+		);
 	}
 
 	public function periods(): BelongsToMany
 	{
-		return $this->belongsToMany(Period::class, 'class_sessions_periods',
-			'session_id', 'period_id')
-			->withPivot('room_id')
-			->using(ClassSessionPeriod::class)
-			->as('sessionPeriod');
+		return $this->belongsToMany(
+			Period::class, 'class_sessions_periods',
+			'session_id', 'period_id'
+		)
+		            ->withPivot('room_id')
+		            ->using(ClassSessionPeriod::class)
+		            ->as('sessionPeriod');
 	}
 
 	public function teachers(): BelongsToMany
@@ -134,27 +133,31 @@ class ClassSession extends Model implements Fileable, HasSchedule
 	public function classCriteria(): BelongsToMany
 	{
 		return $this->belongsToMany(ClassCriteria::class, 'class_session_criteria', 'session_id', 'criteria_id')
-			->withPivot('weight')
-			->as('sessionCriteria')
-			->using(ClassSessionCriteria::class);
+		            ->withPivot('weight')
+		            ->as('sessionCriteria')
+		            ->using(ClassSessionCriteria::class);
 	}
 
 	public function classManager(): BelongsTo
 	{
-		if (! $this->class_management_id) {
+		if (!$this->class_management_id)
+		{
 			// There isn't a classroom management set, so we put in the default one.
 			$settings = app(SchoolSettings::class);
 			$defaultService = $settings->classManagementService;
 			// first, is there a system connection?
-			if ($defaultService) {
+			if ($defaultService)
+			{
 				// check if there is a system connection for this service
 				$conn = $defaultService->connect();
 				// if there is no system connection, then try a user connection.
-				if (! $conn) {
+				if (!$conn)
+				{
 					$conn = $defaultService->connect($this->teachers()->first());
 				}
 				// if we have a connection now, save it.
-				if ($conn) {
+				if ($conn)
+				{
 					$this->class_management_id = $conn->id;
 					$this->save();
 				}
@@ -167,62 +170,62 @@ class ClassSession extends Model implements Fileable, HasSchedule
 	public function communicationObjects(string $type): HasMany
 	{
 		return $this->hasMany(ClassCommunicationObject::class, 'session_id')
-			->where('className', $type);
+		            ->where('className', $type);
 	}
 
 	public function demonstrations(): BelongsToMany
 	{
 		return $this->belongsToMany(LearningDemonstration::class, 'learning_demonstration_class_sessions', 'session_id', 'demonstration_id')
-			->withPivot(['id', 'criteria_id', 'criteria_weight', 'posted_on', 'due_on'])
-			->using(LearningDemonstrationClassSession::class)
-			->as('session')
-			->orderBy('learning_demonstration_class_sessions.posted_on', 'desc');
+		            ->withPivot(['id', 'criteria_id', 'criteria_weight', 'posted_on', 'due_on'])
+		            ->using(LearningDemonstrationClassSession::class)
+		            ->as('session')
+		            ->orderBy('learning_demonstration_class_sessions.posted_on', 'desc');
 	}
 
 	/*****************************************************************
 	 * ATTRIBUTES
 	 ****************************************************************/
 
-    public function name(): Attribute
-    {
-        return Attribute::make(
-            get: fn () => $this->course->name
-        );
-    }
+	public function name(): Attribute
+	{
+		return Attribute::make(
+			get: fn () => $this->course->name
+		);
+	}
 
-    public function fullName(): Attribute
-    {
-        return Attribute::make(
-            get: fn () => $this->name.' ('.$this->teachersString().') ['.$this->scheduleString().']'
-        );
-    }
+	public function fullName(): Attribute
+	{
+		return Attribute::make(
+			get: fn () => $this->name . ' (' . $this->teachersString() . ') [' . $this->scheduleString() . ']'
+		);
+	}
 
-    public function nameWithSchedule(): Attribute
-    {
-        return Attribute::make(
-            get: fn () => $this->name.' ['.$this->scheduleString().']'
-        );
-    }
+	public function nameWithSchedule(): Attribute
+	{
+		return Attribute::make(
+			get: fn () => $this->name . ' [' . $this->scheduleString() . ']'
+		);
+	}
 
 	public function startTime(string $date = null): Carbon
 	{
-		$date = $date? date('N', strtotime($date)) : date('N');
+		$date = $date ? date('N', strtotime($date)) : date('N');
 
 		return $this->classPeriods()
-			->where('day', $date)
-			->sortBy('start')
-			->first()
+		            ->where('day', $date)
+		            ->sortBy('start')
+		            ->first()
 			->start;
 	}
 
 	public function endTime(string $date = null): Carbon
 	{
-		$date = $date? date('N', strtotime($date)) : date('N');
+		$date = $date ? date('N', strtotime($date)) : date('N');
 
 		return $this->classPeriods()
-			->where('day', $date)
-			->sortBy('end')
-			->first()
+		            ->where('day', $date)
+		            ->sortBy('end')
+		            ->first()
 			->end;
 	}
 
@@ -230,204 +233,240 @@ class ClassSession extends Model implements Fileable, HasSchedule
 	 * TEACHER FUNCTIONS
 	 ****************************************************************/
 
-    public function teachersString(): string
-    {
-        return $this->teachers->pluck('name')
-            ->join(', ');
-    }
+	public function teachersString(): string
+	{
+		return $this->teachers->pluck('name')
+		                      ->join(', ');
+	}
 
-    public function scheduleString(): string
-    {
-        $periods = $this->classPeriods()
-            ->pluck('abbr')
-            ->join(', ');
-        if ($this->block_id) {
-            return $this->block->name.' ('.$periods.')';
-        }
+	public function scheduleString(): string
+	{
+		$periods = $this->classPeriods()
+		                ->pluck('abbr')
+		                ->join(', ');
+		if ($this->block_id)
+		{
+			return $this->block->name . ' (' . $periods . ')';
+		}
 
-        return $periods;
-    }
+		return $periods;
+	}
 
-    public function classPeriods(): Collection
-    {
-        if(!$this->block_id)
-            return $this->periods;
-        return $this->block->periods;
-    }
+	public function classPeriods(): Collection
+	{
+		if (!$this->block_id)
+			return $this->periods;
+		return $this->block->periods;
+	}
 
-    public function locationString(bool $withLinks = false, ?string $attr = null): string
-    {
-        if ($this->room_id) {
-            if ($withLinks) {
-                return '<a href="'.route('locations.rooms.show', ['room' => $this->room_id]).'" '.$attr.' >'.
-                    $this->room->name.'</a>';
-            }
+	public function locationString(bool $withLinks = false, ?string $attr = null): string
+	{
+		if ($this->room_id)
+		{
+			if ($withLinks)
+			{
+				return '<a href="' . route('locations.rooms.show', ['room' => $this->room_id]) . '" ' . $attr . ' >' .
+				       $this->room->name . '</a>';
+			}
 
-            return $this->room->name;
-        }
-        if ($this->block_id) {
-            return __('common.tbd');
-        }
-        $rooms = [];
-        foreach ($this->periods as $period) {
-            if ($withLinks) {
-                $room_str = '<a href="'.route('locations.rooms.show', ['room' => $period->sessionPeriod->room_id]).
-                    '" '.$attr.' >'.$period->sessionPeriod->room->name.'</a>';
-            } else {
-                $room_str = $period->sessionPeriod->room->name;
-            }
-            $rooms[$room_str][] = $period->abbr;
-        }
-        $str = [];
-        foreach ($rooms as $room => $periods) {
-            $str[] = $room.' ('.implode(', ', $periods).')';
-        }
+			return $this->room->name;
+		}
+		if ($this->block_id)
+		{
+			return __('common.tbd');
+		}
+		$rooms = [];
+		foreach ($this->periods as $period)
+		{
+			if ($withLinks)
+			{
+				$room_str = '<a href="' . route('locations.rooms.show', ['room' => $period->sessionPeriod->room_id]) .
+				            '" ' . $attr . ' >' . $period->sessionPeriod->room->name . '</a>';
+			}
+			else
+			{
+				$room_str = $period->sessionPeriod->room->name;
+			}
+			$rooms[$room_str][] = $period->abbr;
+		}
+		$str = [];
+		foreach ($rooms as $room => $periods)
+		{
+			$str[] = $room . ' (' . implode(', ', $periods) . ')';
+		}
 
-        return implode(', ', $str);
-    }
+		return implode(', ', $str);
+	}
 
-    public function isEnrolled(StudentRecord $student): bool
-    {
-        return $this->students()
-            ->where('student_records.id', $student->id)
-            ->exists();
-    }
+	public function isEnrolled(StudentRecord $student): bool
+	{
+		return $this->students()
+		            ->where('student_records.id', $student->id)
+		            ->exists();
+	}
 
-    public function getSchedule(): Collection
-    {
-        return $this->classPeriods();
-    }
+	public function getSchedule(): Collection
+	{
+		return $this->classPeriods();
+	}
 
-    public function getScheduleLabel(): string
-    {
-        return $this->name.' '.$this->scheduleString();
-    }
+	public function getScheduleLabel(): string
+	{
+		return $this->name . ' ' . $this->scheduleString();
+	}
 
-    public function getScheduleColor(): string
-    {
-        return $this->course->subject->color;
-    }
+	public function getScheduleColor(): string
+	{
+		return $this->course->subject->color;
+	}
 
-    public function getScheduleTextColor(): string
-    {
-        return $this->course->subject->getTextHex();
-    }
+	public function getScheduleTextColor(): string
+	{
+		return $this->course->subject->getTextHex();
+	}
 
-    public function getScheduleLink(): ?string
-    {
-        return null;
-    }
+	public function getScheduleLink(): ?string
+	{
+		return null;
+	}
 
-    public function hasUnseenMessages(StudentRecord $student): bool
-    {
-        // what kind of user is this?
-        $viewer = Auth::user();
-        $type = null;
-        if ($viewer->isTeacher() && $this->isClassTeacher($viewer)) {
-            $type = 'teacher_read';
-        } elseif ($viewer->isStudent() && $viewer->student->id == $student->id) {
-            $type = 'student_read';
-        } elseif ($viewer->isParent() && $viewer->isParentOfPerson($student->person)) {
-            $type = 'parent_read';
-        }
+	public function hasUnseenMessages(StudentRecord $student): bool
+	{
+		// what kind of user is this?
+		$viewer = Auth::user();
+		$type = null;
+		if ($viewer->isTeacher() && $this->isClassTeacher($viewer))
+		{
+			$type = 'teacher_read';
+		}
+		elseif ($viewer->isStudent() && $viewer->student->id == $student->id)
+		{
+			$type = 'student_read';
+		}
+		elseif ($viewer->isParent() && $viewer->isParentOfPerson($student->person))
+		{
+			$type = 'parent_read';
+		}
 
-        return $this->messages()
-            ->where('student_id', $student->id)
-            ->where($type, false)
-            ->count() > 0;
+		return $this->messages()
+		            ->where('student_id', $student->id)
+		            ->where($type, false)
+		            ->count() > 0;
 
-    }
+	}
 
-    public function isClassTeacher(Person $person): bool
-    {
-        return $this->teachers()
-            ->where('person_id', $person->id)
-            ->exists();
-    }
-
-
-
-
-
-    public function hasCriteria(ClassCriteria $criteria): bool
-    {
-        return $this->classCriteria()
-            ->where('class_criteria.id', $criteria->id)
-            ->exists();
-    }
-
-    public function getCriteria(ClassCriteria $criteria): ?ClassCriteria
-    {
-        return $this->classCriteria()
-            ->where('class_criteria.id', $criteria->id)
-            ->first();
-    }
+	public function isClassTeacher(Person $person): bool
+	{
+		return $this->teachers()
+		            ->where('person_id', $person->id)
+		            ->exists();
+	}
 
 
+	public function hasCriteria(ClassCriteria $criteria): bool
+	{
+		return $this->classCriteria()
+		            ->where('class_criteria.id', $criteria->id)
+		            ->exists();
+	}
 
-    public function viewingAs(ClassViewer $viewer): bool
-    {
-        $user = Auth()->user();
-
-        return $user->classViewRole($this) == $viewer;
-    }
-
-    public function hasConversationAccess(StudentRecord $student): bool
-    {
-        $user = Auth()->user();
-        $viewRole = $user->classViewRole($this);
-        if (! $viewRole) {
-            return false;
-        }
-
-        if ($viewRole == ClassViewer::FACULTY) {
-            return $this->isClassTeacher($user);
-        }
-
-        if ($viewRole == ClassViewer::STUDENT && $student->person_id == $user->id) {
-            return true;
-        }
-
-        if ($viewRole == ClassViewer::PARENT && $user->isParentOfPerson($student->person)) {
-            return true;
-        }
-
-        if ($viewRole == ClassViewer::ADMIN && $user->studentTrackee()->where('student_records.id', $student->id)->exists()) {
-            return true;
-        }
-
-        return false;
-    }
+	public function getCriteria(ClassCriteria $criteria): ?ClassCriteria
+	{
+		return $this->classCriteria()
+		            ->where('class_criteria.id', $criteria->id)
+		            ->first();
+	}
 
 
+	public function viewingAs(ClassViewer $viewer): bool
+	{
+		$user = Auth()->user();
 
-    public function getWorkStorageKey(): WorkStoragesInstances
-    {
-        return WorkStoragesInstances::ClassWork;
-    }
+		return $user->classViewRole($this) == $viewer;
+	}
 
-    public function shouldBePublic(): bool
-    {
-        return false;
-    }
+	public function hasConversationAccess(StudentRecord $student): bool
+	{
+		$user = Auth()->user();
+		$viewRole = $user->classViewRole($this);
+		if (!$viewRole)
+		{
+			return false;
+		}
 
-    public function canAccessFile(Person $person, WorkFile $file): bool
-    {
-        return true;
-    }
+		if ($viewRole == ClassViewer::FACULTY)
+		{
+			return $this->isClassTeacher($user);
+		}
+
+		if ($viewRole == ClassViewer::STUDENT && $student->person_id == $user->id)
+		{
+			return true;
+		}
+
+		if ($viewRole == ClassViewer::PARENT && $user->isParentOfPerson($student->person))
+		{
+			return true;
+		}
+
+		if ($viewRole == ClassViewer::ADMIN &&
+		    $user->studentTrackee()->where('student_records.id', $student->id)->exists())
+		{
+			return true;
+		}
+
+		return false;
+	}
+
+
+	public function getWorkStorageKey(): WorkStoragesInstances
+	{
+		return WorkStoragesInstances::ClassWork;
+	}
+
+	public function shouldBePublic(): bool
+	{
+		return false;
+	}
+
+	public function canAccessFile(Person $person, WorkFile $file): bool
+	{
+		return true;
+	}
 
 	public function meets(string $date = null): bool
 	{
-		if($date)
+		if ($date)
 			$day = date('N', strtotime($date));
-		if(!$day)
+		if (!$day)
 			$day = date('N');
 		return $this->classPeriods()->where('day', '=', $day)
-			->count() > 0;
+		            ->count() > 0;
 	}
 
 	public function canDelete(): bool
 	{
 		return true;
+	}
+
+	public function substituteRequests(): BelongsTo
+	{
+		return $this->belongsTo(SubstituteClassRequest::class, 'session_id');
+	}
+
+	/**
+	 * This function will return a collection of periods that this class meets in a given date. This function will be
+	 * expanded when special schedules are implemented.  For now, it just uses the resular periods it meets on the
+	 * day of the passed date.
+	 * @param Carbon|string|null $date The date to check for periods. If null, the current date is used.
+	 * @return Collection Collection of periods that this class meets on the given date.
+	 */
+	public function periodsOnDate(Carbon|string|null $date = null): Collection
+	{
+		if (!$date)
+			$date = Carbon::now();
+		elseif (is_string($date))
+			$date = Carbon::parse($date);
+		return $this->classPeriods()->where('day', '=', $date->dayOfWeekIso);
 	}
 }

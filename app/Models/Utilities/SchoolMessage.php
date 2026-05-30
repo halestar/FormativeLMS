@@ -6,26 +6,34 @@ use App\Enums\WorkStoragesInstances;
 use App\Interfaces\Fileable;
 use App\Interfaces\HasSchoolRoles;
 use App\Models\People\Person;
+use App\Models\Scopes\OrderByNameScope;
 use App\Traits\HasDefaultRoles;
 use App\Traits\HasSchoolRolesTrait;
 use App\Traits\HasWorkFiles;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Database\Eloquent\Attributes\Scope;
+use Illuminate\Database\Eloquent\Attributes\ScopedBy;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\Blade;
-use Spatie\Permission\Traits\HasRoles;
 
-class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable, HasSchoolRoles
+#[ScopedBy(OrderByNameScope::class)]
+class SchoolMessage extends Model implements Arrayable, Fileable, HasSchoolRoles, Jsonable
 {
-    use HasWorkFiles, HasSchoolRolesTrait, HasDefaultRoles;
-	protected $guard_name = 'web';
+    use HasDefaultRoles, HasSchoolRolesTrait, HasWorkFiles;
+
+    protected $guard_name = 'web';
+
     public $timestamps = true;
+
     public $incrementing = true;
+
     protected $table = 'school_messages';
+
     protected $primaryKey = 'id';
+
     protected $fillable =
         [
             'force_subscribe',
@@ -45,15 +53,15 @@ class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable, HasS
     protected function casts(): array
     {
         return
-        [
-            'system' => 'boolean',
-            'subscribable' => 'boolean',
-            'force_subscribe' => 'boolean',
-            'send_email' => 'boolean',
-            'send_sms' => 'boolean',
-            'send_push' => 'boolean',
-            'enabled' => 'boolean',
-        ];
+            [
+                'system' => 'boolean',
+                'subscribable' => 'boolean',
+                'force_subscribe' => 'boolean',
+                'send_email' => 'boolean',
+                'send_sms' => 'boolean',
+                'send_push' => 'boolean',
+                'enabled' => 'boolean',
+            ];
     }
 
     protected static function booted(): void
@@ -71,7 +79,7 @@ class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable, HasS
         $fileRefs = [];
         // attempting to match src="https://fablms.app/settings/work-files/(file uuid)"
         $pattern = '@src="'.config('app.url').
-            '/settings/work-files/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"@';
+                   '/settings/work-files/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})"@';
         if (preg_match($pattern, $this->body, $fileRefs)) {
             array_shift($fileRefs);
             // we need to iterate through each model and delete each one individually, since that's the way to
@@ -112,12 +120,11 @@ class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable, HasS
     protected function subscribable(Builder $query): void
     {
         $query->where('force_subscribe', false)->where('subscribable', true)
-	        ->where(function (Builder $query)
-	        {
-				$query->doesntHave('roles')
-					->orWhereHas('roles', fn(Builder $query) =>
-						$query->whereIn('name', auth()->user()->schoolRoles->pluck('name')));
-	        });
+            ->where(function (Builder $query) {
+                $query->doesntHave('roles')
+                    ->orWhereHas('roles', fn (
+                        Builder $query) => $query->whereIn('name', auth()->user()->schoolRoles->pluck('name')));
+            });
     }
 
     public function subscribers(): BelongsToMany
@@ -154,10 +161,8 @@ class SchoolMessage extends Model implements Arrayable, Fileable, Jsonable, HasS
         return true;
     }
 
-	public function __toString()
-	{
-		return $this->name;
-	}
-
-
+    public function __toString()
+    {
+        return $this->name;
+    }
 }

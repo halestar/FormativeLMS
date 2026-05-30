@@ -188,6 +188,6 @@ class SubstituteRequest extends Model
     protected function thisYear(Builder $query): void
     {
         $year = Year::currentYear();
-        $query->whereBetween('requested_for', [$year->start, $year->end]);
+        $query->whereBetween('requested_for', [$year->year_start, $year->year_end]);
     }
 }

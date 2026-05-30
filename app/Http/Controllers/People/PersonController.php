@@ -27,16 +27,18 @@ class PersonController extends Controller
     {
         Gate::authorize('viewAny', Person::class);
         $breadcrumb = [__('people.school.directory') => '#'];
-	    $self = Auth::user();
+        $self = Auth::user();
         $currentYear = Year::currentYear();
         $itemsPerPageOptions = [10, 25, 50, 100];
-        $requestedItemsPerPage = (int) $request->integer('items_per_page', (int) $self->getPreference('items_per_page', 10));
+        $requestedItemsPerPage =
+            (int) $request->integer('items_per_page', (int) $self->getPreference('items_per_page', 10));
         $itemsPerPage = in_array($requestedItemsPerPage, $itemsPerPageOptions, true)
             ? $requestedItemsPerPage
             : 10;
 
         if ($request->has('items_per_page')) {
             $self->setPreference('items_per_page', $itemsPerPage);
+            $self->save();
         }
 
         $roleOptions = [
@@ -71,22 +73,27 @@ class PersonController extends Controller
             ])
             ->when($search !== '', function ($query) use ($search) {
                 $query->where(function ($personQuery) use ($search) {
-                    $personQuery->where('first', 'like', '%' . $search . '%')
-                        ->orWhere('last', 'like', '%' . $search . '%')
-                        ->orWhere('nick', 'like', '%' . $search . '%')
-                        ->orWhere('email', 'like', '%' . $search . '%')
-                        ->orWhere('school_id', 'like', '%' . $search . '%');
+                    $personQuery->where('first', 'like', '%'.$search.'%')
+                        ->orWhere('last', 'like', '%'.$search.'%')
+                        ->orWhere('nick', 'like', '%'.$search.'%')
+                        ->orWhere('email', 'like', '%'.$search.'%')
+                        ->orWhere('school_id', 'like', '%'.$search.'%');
                 });
             })
             ->when($selectedRole !== '', function ($query) use ($selectedRole, $currentYear) {
                 match ($selectedRole) {
-                    SchoolRoles::$STUDENT => $query->whereHas('studentRecords', function ($studentQuery) use ($currentYear) {
+                    SchoolRoles::$STUDENT => $query->whereHas('studentRecords', function ($studentQuery) use (
+                        $currentYear
+                    ) {
                         $studentQuery->where('year_id', $currentYear->id)
                             ->whereNull('end_date');
                     }),
-                    SchoolRoles::$PARENT => $query->whereHas('relationships', function ($relationshipQuery) use ($currentYear) {
+                    SchoolRoles::$PARENT => $query->whereHas('relationships', function (
+                        $relationshipQuery) use ($currentYear) {
                         $relationshipQuery->wherePivot('relationship_id', Relationship::CHILD)
-                            ->whereHas('studentRecords', function ($studentQuery) use ($currentYear) {
+                            ->whereHas('studentRecords', function ($studentQuery) use (
+                                $currentYear
+                            ) {
                                 $studentQuery->where('year_id', $currentYear->id)
                                     ->whereNull('end_date');
                             });
@@ -97,20 +104,28 @@ class PersonController extends Controller
             })
             ->when($selectedCampus, function ($query) use ($selectedCampus, $currentYear) {
                 $query->where(function ($campusQuery) use ($selectedCampus, $currentYear) {
-                    $campusQuery->whereHas('studentRecords', function ($studentQuery) use ($selectedCampus, $currentYear) {
+                    $campusQuery->whereHas('studentRecords', function ($studentQuery) use (
+                        $selectedCampus, $currentYear
+                    ) {
                         $studentQuery->where('campus_id', $selectedCampus)
                             ->where('year_id', $currentYear->id)
                             ->whereNull('end_date');
-                    })->orWhereHas('relationships', function ($relationshipQuery) use ($selectedCampus, $currentYear) {
+                    })->orWhereHas('relationships', function ($relationshipQuery) use (
+                        $selectedCampus, $currentYear
+                    ) {
                         $relationshipQuery->wherePivot('relationship_id', Relationship::CHILD)
-                            ->whereHas('studentRecords', function ($studentQuery) use ($selectedCampus, $currentYear) {
+                            ->whereHas('studentRecords', function ($studentQuery) use (
+                                $selectedCampus, $currentYear
+                            ) {
                                 $studentQuery->where('campus_id', $selectedCampus)
                                     ->where('year_id', $currentYear->id)
                                     ->whereNull('end_date');
                             });
                     })->orWhereHas('employeeCampuses', function ($employeeCampusQuery) use ($selectedCampus) {
                         $employeeCampusQuery->where('campuses.id', $selectedCampus);
-                    })->orWhereHas('substituteProfile.campuses', function ($substituteCampusQuery) use ($selectedCampus) {
+                    })->orWhereHas('substituteProfile.campuses', function ($substituteCampusQuery) use (
+                        $selectedCampus
+                    ) {
                         $substituteCampusQuery->where('campuses.id', $selectedCampus);
                     });
                 });
@@ -121,18 +136,20 @@ class PersonController extends Controller
         $campusOptions = Campus::query()
             ->get(['id', 'name', 'abbr']);
 
-        return view('people.index', compact(
-            'breadcrumb',
-            'people',
-            'self',
-            'campusOptions',
-            'itemsPerPage',
-            'itemsPerPageOptions',
-            'roleOptions',
-            'search',
-            'selectedCampus',
-            'selectedRole'
-        ));
+        return view(
+            'people.index', compact(
+                'breadcrumb',
+                'people',
+                'self',
+                'campusOptions',
+                'itemsPerPage',
+                'itemsPerPageOptions',
+                'roleOptions',
+                'search',
+                'selectedCampus',
+                'selectedRole'
+            )
+        );
     }
 
     public function create()
@@ -163,13 +180,17 @@ class PersonController extends Controller
     public function edit(Person $person)
     {
         Gate::authorize('edit', $person);
-        $breadcrumb = [__('people.profile.view') => route('people.show', ['person' => $person->school_id]),
-            __('people.profile.edit') => '#'];
+        $breadcrumb = [
+            __('people.profile.view') => route('people.show', ['person' => $person->school_id]),
+            __('people.profile.edit') => '#',
+        ];
         $self = Auth::user();
         $isSelf = $person->id == $self->id;
         if ($isSelf) {
-            $breadcrumb = [__('people.profile.mine') => route('people.show', ['person' => $person->school_id]),
-                __('people.profile.edit') => '#'];
+            $breadcrumb = [
+                __('people.profile.mine') => route('people.show', ['person' => $person->school_id]),
+                __('people.profile.edit') => '#',
+            ];
         }
         Log::debug(print_r($person->portrait_url, true));
 
@@ -196,6 +217,7 @@ class PersonController extends Controller
         } else {
             $doc = DocumentFile::hydrate($portrait[0]);
         }
+
         // first, we persist the file, using the Person object as the filer.
         $connection = $storageSettings->getWorkConnection(WorkStoragesInstances::ProfileWork);
         $imgFile = $connection->persistFile($person, $doc, false);

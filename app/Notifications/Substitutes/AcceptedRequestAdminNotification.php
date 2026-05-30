@@ -5,21 +5,18 @@ namespace App\Notifications\Substitutes;
 use App\Classes\Settings\ServerSettings;
 use App\Models\Substitutes\CampusRequest;
 use App\Models\Substitutes\SubstituteCampusRequest;
-use App\Models\Substitutes\SubstituteRequest;
 use App\Notifications\LmsNotification;
 use App\Notifications\SystemNotification;
-use Illuminate\Notifications\Messages\MailMessage;
-use Illuminate\Support\Collection;
 
 class AcceptedRequestAdminNotification extends LmsNotification
 {
-    /**
-     * Create a new notification instance.
-     */
-    public function __construct(public SubstituteCampusRequest $subCampusRequest)
-    {
+	/**
+	 * Create a new notification instance.
+	 */
+	public function __construct(public SubstituteCampusRequest $subCampusRequest)
+	{
 		parent::__construct();
-    }
+	}
 
 	public function toArray(object $notifiable): array
 	{
@@ -47,9 +44,9 @@ class AcceptedRequestAdminNotification extends LmsNotification
 	{
 		return
 			[
-				'substitute_name' => $this->subCampusRequest->subRequest->substitute->name,
-				'substitute_email' => $this->subCampusRequest->subRequest->substitute->email,
-				'substitute_phone' => $this->subCampusRequest->subRequest->substitute->phone->prettyPhone,
+				'substitute_name' => $this->subCampusRequest->substitute->name,
+				'substitute_email' => $this->subCampusRequest->substitute->email,
+				'substitute_phone' => $this->subCampusRequest->substitute->phone->prettyPhone,
 				'teacher_name' => $this->subCampusRequest->subRequest->requester_name,
 				'coverage_date' => $this->subCampusRequest->subRequest->requested_for->format('m/d/Y'),
 				'coverage_start' => $this->subCampusRequest->subRequest->startTime()->format('g:i A'),

@@ -87,23 +87,21 @@
                                 save-tab="relationships"
                         >{{ __('people.relationships') }}</a>
                     </li>
-                    @foreach($person->roles as $role)
-                        @if(count($role->fields) > 0)
-                            <li class="nav-item">
-                                <a
-                                        class="nav-link"
-                                        id="tab-role-{{ $role->id }}"
-                                        data-bs-toggle="tab"
-                                        data-bs-target="#tab-pane-role-{{ $role->id }}"
-                                        href="#tab-pane-role-{{ $role->id }}"
-                                        role="tab"
-                                        aria-controls="#tab-pane-role-{{ $role->id }}"
-                                        aria-selected="false"
-                                        save-tab="role-{{ $role->id }}"
-                                >{{ $role->name }}</a>
-                            </li>
-                        @endif
-                    @endforeach
+                    @if($person->isSubstitute())
+                        <li class="nav-item">
+                            <a
+                                    class="nav-link"
+                                    id="tab-substitute"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#tab-pane-substitute"
+                                    href="#tab-pane-substitute"
+                                    role="tab"
+                                    aria-controls="#tab-pane-substitute"
+                                    aria-selected="true"
+                                    save-tab="substitute"
+                            >{{ __('people.profile.substitute') }}</a>
+                        </li>
+                    @endif
                 </ul>
 
                 {{-- Tab Content --}}
@@ -156,7 +154,8 @@
                                                     id="last"
                                                     value="{{ $person->last }}"
                                                     class="form-control form-control-sm @error('last') is-invalid @enderror text-end"/>
-                                            <x-utilities.error-display key="last">{{ $errors->first('last') }}</x-utilities.error-display>
+                                            <x-utilities.error-display
+                                                    key="last">{{ $errors->first('last') }}</x-utilities.error-display>
                                         </span>
                                         </div>
                                     </li>
@@ -204,6 +203,28 @@
                                         class="btn btn-primary col mt-3">{{ __('people.profile.basic.update') }}</button>
                             </div>
                         </form>
+                        @foreach($person->schoolRoles as $role)
+                            @if(count($role->fields) > 0)
+                                <form action="{{ route('people.roles.fields.update', ['person' => $person->school_id, 'role' => $role->id]) }}"
+                                      method="POST">
+                                    @csrf
+                                    @method('PUT')
+                                    <ul class="list-group my-3">
+                                        @foreach($role->fields as $field)
+                                            @if(!$isSelf || $self->canEditOwnField($field))
+                                                <li class="list-group list-group-flush border-bottom mb-2 pb-1">
+                                                    {!! $field->getHTML() !!}
+                                                </li>
+                                            @endif
+                                        @endforeach
+                                    </ul>
+                                    <div class="d-grid gap-2">
+                                        <button class="btn btn-primary"
+                                                type="submit">{{ __('people.profile.fields.update') }}</button>
+                                    </div>
+                                </form>
+                            @endif
+                        @endforeach
                     </div>
                     <div
                             class="tab-pane fade"
@@ -236,35 +257,17 @@
                             @endif
                         </div>
                     </div>
-                    @foreach($person->schoolRoles as $role)
-                        @if(count($role->fields) > 0)
-                            <div
-                                    class="tab-pane fade"
-                                    id="tab-pane-role-{{ $role->id }}" role="tabpanel"
-                                    aria-labelledby="tab-role-{{ $role->id }}"
-                                    tabindex="{{ $loop->iteration + 10 }}"
-                            >
-                                <form action="{{ route('people.roles.fields.update', ['person' => $person->school_id, 'role' => $role->id]) }}"
-                                      method="POST">
-                                    @csrf
-                                    @method('PUT')
-                                    <ul class="list-group my-3">
-                                        @foreach($role->fields as $field)
-                                            @if(!$isSelf || $self->canEditOwnField($field))
-                                                <li class="list-group list-group-flush border-bottom mb-2 pb-1">
-                                                    {!! $field->getHTML() !!}
-                                                </li>
-                                            @endif
-                                        @endforeach
-                                    </ul>
-                                    <div class="d-grid gap-2">
-                                        <button class="btn btn-primary"
-                                                type="submit">{{ __('people.profile.fields.update') }}</button>
-                                    </div>
-                                </form>
-                            </div>
-                        @endif
-                    @endforeach
+                    @if($person->isSubstitute())
+                        <div
+                                class="tab-pane fade"
+                                id="tab-pane-substitute"
+                                aria-labelledby="tab-substitute"
+                                role="tabpanel"
+                                tabindex="0"
+                        >
+                            <livewire:people.campus-assigner :person="$person->substituteProfile"/>
+                        </div>
+                    @endif
                 </div>
 
             </div>

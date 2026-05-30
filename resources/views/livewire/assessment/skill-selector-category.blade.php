@@ -1,32 +1,34 @@
-<li class="list-group-item list-group-action text-bg-secondary" style="padding: 0 0 0 0.3em;">
+<li class="list-group-item list-group-action border-0 bg-transparent p-0 mb-1">
     <div
-            class="category-container d-flex justify-content-start align-items-center rounded @if($selected) bg-primary-subtle @endif p-2"
+            class="category-container d-flex justify-content-start align-items-center rounded @if($selected) bg-primary bg-opacity-10 border border-primary border-opacity-25 @else bg-light border border-light @endif p-2"
             droppable="true"
             category_id="{{ $category->id }}"
     >
         @if($numChildren > 0)
-            <div class="me-2">
+            <div class="me-2 text-muted" style="width: 16px; text-align: center;">
                 @if($open)
-                    <i class="fa-solid fa-caret-down show-as-action" wire:click="toggleCategory()"></i>
+                    <i class="fa-solid fa-chevron-down show-as-action" wire:click="toggleCategory()"></i>
                 @else
-                    <i class="fa-solid fa-caret-right show-as-action" wire:click="toggleCategory()"></i>
+                    <i class="fa-solid fa-chevron-right show-as-action" wire:click="toggleCategory()"></i>
                 @endif
             </div>
+        @else
+            <div class="me-2" style="width: 16px;"></div>
         @endif
-        <div class="flex-grow-1">
+        <div class="flex-grow-1 text-truncate">
             <div
-                    class="show-as-action"
+                    class="show-as-action d-flex align-items-center @if($selected) fw-bold text-primary @else text-body @endif"
                     wire:click="selectCategory()"
             >
-                {{ $category->name }}
+                <span class="text-truncate" title="{{ $category->name }}">{{ $category->name }}</span>
 
                 @if($category->skills()->count() > 0)
-                    <span class="badge text-bg-success ms-3">{{ $category->skills()->count() }}</span>
+                    <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary-subtle rounded-pill ms-2">{{ $category->skills()->count() }}</span>
                 @endif
             </div>
         </div>
     </div>
-    <ul class="list-group list-group-flush @if(!$open) d-none @endif border-start border-black">
+    <ul class="list-group list-group-flush @if(!$open) d-none @endif ps-3 mt-1 border-start border-2 border-light">
         @if($children)
             @foreach($children as $child)
                 <livewire:assessment.skill-selector-category

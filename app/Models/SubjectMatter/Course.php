@@ -16,13 +16,18 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 use Illuminate\Support\Collection;
 
-class  Course extends Model
+class Course extends Model
 {
 	public $timestamps = true;
+
 	public $incrementing = true;
+
 	protected $with = ['subject'];
-	protected $table = "courses";
-	protected $primaryKey = "id";
+
+	protected $table = 'courses';
+
+	protected $primaryKey = 'id';
+
 	protected $fillable =
 		[
 			'subject_id',
@@ -38,53 +43,60 @@ class  Course extends Model
 			'can_assign_honors',
 			'active',
 		];
-	
+
 	public function courseName(): Attribute
 	{
-		return Attribute::make
-		(
-			get: fn(?string $value,
-				$attributes) => $attributes['name'] . ($attributes['subtitle'] ? ": $attributes[subtitle]" : "") .
-				($attributes['code'] ? " ($attributes[code])" : ""),
+		return Attribute::make(
+			get: fn (
+				?string $value,
+				        $attributes) => $attributes['name'] .
+				                        ($attributes['subtitle'] ? ": $attributes[subtitle]" : '') .
+				                        ($attributes['code'] ? " ($attributes[code])" : ''),
 		);
 	}
-	
+
 	public function canDelete(): bool
 	{
 		return true;
 	}
-	
+
 	public function subject(): BelongsTo
 	{
 		return $this->belongsTo(Subject::class, 'subject_id');
 	}
-	
+
 	public function campus(): HasOneThrough
 	{
 		return $this->hasOneThrough(Campus::class, Subject::class, 'id', 'id', 'subject_id', 'campus_id');
 	}
-	
+
 	public function scopeActive(Builder $builder)
 	{
 		$builder->where('active', true);
 	}
-	
-	public function schoolClasses(Year $year = null): HasMany
+
+	public function schoolClasses(?Year $year = null): HasMany
 	{
-		if(!$year)
+		if (!$year)
+		{
 			$year = Year::currentYear();
+		}
+
 		return $this->hasMany(SchoolClass::class, 'course_id')
 		            ->where('year_id', $year->id);
 	}
-	
-	public function classSessions(Term $term = null): HasManyThrough
+
+	public function classSessions(?Term $term = null): HasManyThrough
 	{
-		if(!$term)
+		if (!$term)
+		{
 			return $this->hasManyThrough(ClassSession::class, SchoolClass::class, 'course_id', 'class_id');
+		}
+
 		return $this->hasManyThrough(ClassSession::class, SchoolClass::class, 'course_id', 'class_id')
 		            ->where('term_id', $term->id);
 	}
-	
+
 	protected function casts(): array
 	{
 		return
@@ -98,13 +110,12 @@ class  Course extends Model
 				'active' => 'boolean',
 			];
 	}
-	
-	public function suggestedSkills(array $except = null): Collection
+
+	public function suggestedSkills(?array $except = null): Collection
 	{
-		$str = trim(preg_replace('/[^a-zA-Z\s]/', '', $this->name));
-		if(!$except || count($except) == 0)
-			return Skill::active()->search($str)->get();
-		return Skill::active()->search($str)->whereNotIn('id', $except)->get();
+		if ($except)
+			return $this->skills()->whereNotIn('id', $except)->get();
+		return $this->skills;
 	}
 
 	public function skills(): BelongsToMany

@@ -22332,7 +22332,7 @@ process.umask = function() { return 0; };
 (module) {
 
 /*!
- * Pusher JavaScript Library v8.4.0
+ * Pusher JavaScript Library v8.5.0
  * https://pusher.com/
  *
  * Copyright 2020, Pusher
@@ -22344,96 +22344,12 @@ process.umask = function() { return 0; };
 		module.exports = factory();
 	else // removed by dead control flow
 {}
-})(window, function() {
-return /******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __nested_webpack_require_669__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __nested_webpack_require_669__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__nested_webpack_require_669__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__nested_webpack_require_669__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__nested_webpack_require_669__.d = function(exports, name, getter) {
-/******/ 		if(!__nested_webpack_require_669__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__nested_webpack_require_669__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__nested_webpack_require_669__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __nested_webpack_require_669__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__nested_webpack_require_669__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __nested_webpack_require_669__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__nested_webpack_require_669__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__nested_webpack_require_669__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__nested_webpack_require_669__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__nested_webpack_require_669__.p = "";
-/******/
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __nested_webpack_require_669__(__nested_webpack_require_669__.s = 2);
-/******/ })
-/************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+})(self, () => {
+return /******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ 594
+(__unused_webpack_module, exports) {
 
 "use strict";
 
@@ -22452,7 +22368,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(exports, "__esModule", ({ value: true }));
 /**
  * Package base64 implements Base64 encoding and decoding.
  */
@@ -22719,15 +22635,17 @@ exports.decodedLength = function (s) {
 };
 
 
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ },
+
+/***/ 978
+(__unused_webpack_module, exports) {
 
 "use strict";
+var __webpack_unused_export__;
 
 // Copyright (C) 2016 Dmitry Chestnykh
 // MIT License. See LICENSE file for details.
-Object.defineProperty(exports, "__esModule", { value: true });
+__webpack_unused_export__ = ({ value: true });
 /**
  * Package utf8 implements UTF-8 encoding and decoding.
  */
@@ -22770,7 +22688,7 @@ function encode(s) {
     }
     return arr;
 }
-exports.encode = encode;
+__webpack_unused_export__ = encode;
 /**
  * Returns the number of bytes required to encode the given string into UTF-8.
  * Throws if the source string has invalid UTF-16 encoding.
@@ -22801,7 +22719,7 @@ function encodedLength(s) {
     }
     return result;
 }
-exports.encodedLength = encodedLength;
+__webpack_unused_export__ = encodedLength;
 /**
  * Decodes the given byte array from UTF-8 into a string.
  * Throws if encoding is invalid.
@@ -22871,26 +22789,31 @@ function decode(arr) {
     }
     return chars.join("");
 }
-exports.decode = decode;
+exports.D4 = decode;
 
 
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __nested_webpack_require_19901__) {
+/***/ },
+
+/***/ 721
+(module, __unused_webpack_exports, __nested_webpack_require_16377__) {
 
 // required so we don't have to do require('pusher').default etc.
-module.exports = __nested_webpack_require_19901__(3).default;
+module.exports = __nested_webpack_require_16377__(207)["default"];
 
 
-/***/ }),
-/* 3 */
-/***/ (function(module, __nested_webpack_exports__, __nested_webpack_require_20105__) {
+/***/ },
+
+/***/ 207
+(__unused_webpack_module, __nested_webpack_exports__, __nested_webpack_require_16590__) {
 
 "use strict";
-// ESM COMPAT FLAG
-__nested_webpack_require_20105__.r(__nested_webpack_exports__);
 
-// CONCATENATED MODULE: ./src/runtimes/web/dom/script_receiver_factory.ts
+// EXPORTS
+__nested_webpack_require_16590__.d(__nested_webpack_exports__, {
+  "default": () => (/* binding */ pusher)
+});
+
+;// ./src/runtimes/web/dom/script_receiver_factory.ts
 class ScriptReceiverFactory {
     constructor(prefix, name) {
         this.lastId = 0;
@@ -22918,9 +22841,9 @@ class ScriptReceiverFactory {
 }
 var ScriptReceivers = new ScriptReceiverFactory('_pusher_script_', 'Pusher.ScriptReceivers');
 
-// CONCATENATED MODULE: ./src/core/defaults.ts
+;// ./src/core/defaults.ts
 var Defaults = {
-    VERSION: "8.4.0",
+    VERSION: "8.5.0",
     PROTOCOL: 7,
     wsPort: 80,
     wssPort: 443,
@@ -22947,12 +22870,12 @@ var Defaults = {
     cdn_https: "https://js.pusher.com",
     dependency_suffix: "",
 };
-/* harmony default export */ var defaults = (Defaults);
+/* harmony default export */ const defaults = (Defaults);
 
-// CONCATENATED MODULE: ./src/runtimes/web/dom/dependency_loader.ts
+;// ./src/runtimes/web/dom/dependency_loader.ts
 
 
-class dependency_loader_DependencyLoader {
+class DependencyLoader {
     constructor(options) {
         this.options = options;
         this.receivers = options.receivers || ScriptReceivers;
@@ -23000,12 +22923,12 @@ class dependency_loader_DependencyLoader {
     }
 }
 
-// CONCATENATED MODULE: ./src/runtimes/web/dom/dependencies.ts
+;// ./src/runtimes/web/dom/dependencies.ts
 
 
 
 var DependenciesReceivers = new ScriptReceiverFactory('_pusher_dependencies', 'Pusher.DependenciesReceivers');
-var Dependencies = new dependency_loader_DependencyLoader({
+var Dependencies = new DependencyLoader({
     cdn_http: defaults.cdn_http,
     cdn_https: defaults.cdn_https,
     version: defaults.VERSION,
@@ -23013,7 +22936,7 @@ var Dependencies = new dependency_loader_DependencyLoader({
     receivers: DependenciesReceivers,
 });
 
-// CONCATENATED MODULE: ./src/core/utils/url_store.ts
+;// ./src/core/utils/url_store.ts
 const urlStore = {
     baseUrl: 'https://pusher.com',
     urls: {
@@ -23050,16 +22973,16 @@ const buildLogSuffix = function (key) {
         return '';
     return `${urlPrefix} ${url}`;
 };
-/* harmony default export */ var url_store = ({ buildLogSuffix });
+/* harmony default export */ const url_store = ({ buildLogSuffix });
 
-// CONCATENATED MODULE: ./src/core/auth/options.ts
+;// ./src/core/auth/options.ts
 var AuthRequestType;
 (function (AuthRequestType) {
     AuthRequestType["UserAuthentication"] = "user-authentication";
     AuthRequestType["ChannelAuthorization"] = "channel-authorization";
 })(AuthRequestType || (AuthRequestType = {}));
 
-// CONCATENATED MODULE: ./src/core/errors.ts
+;// ./src/core/errors.ts
 class BadEventName extends Error {
     constructor(msg) {
         super(msg);
@@ -23116,7 +23039,7 @@ class HTTPAuthError extends Error {
     }
 }
 
-// CONCATENATED MODULE: ./src/runtimes/isomorphic/auth/xhr_auth.ts
+;// ./src/runtimes/isomorphic/auth/xhr_auth.ts
 
 
 
@@ -23168,17 +23091,17 @@ const ajax = function (context, query, authOptions, authRequestType, callback) {
     xhr.send(query);
     return xhr;
 };
-/* harmony default export */ var xhr_auth = (ajax);
+/* harmony default export */ const xhr_auth = (ajax);
 
-// CONCATENATED MODULE: ./src/core/base64.ts
+;// ./src/core/base64.ts
 function encode(s) {
     return btoa(utob(s));
 }
 var fromCharCode = String.fromCharCode;
 var b64chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 var b64tab = {};
-for (var base64_i = 0, l = b64chars.length; base64_i < l; base64_i++) {
-    b64tab[b64chars.charAt(base64_i)] = base64_i;
+for (var i = 0, l = b64chars.length; i < l; i++) {
+    b64tab[b64chars.charAt(i)] = i;
 }
 var cb_utob = function (c) {
     var cc = c.charCodeAt(0);
@@ -23211,7 +23134,7 @@ var btoa = window.btoa ||
         return b.replace(/[\s\S]{1,3}/g, cb_encode);
     };
 
-// CONCATENATED MODULE: ./src/core/utils/timers/abstract_timer.ts
+;// ./src/core/utils/timers/abstract_timer.ts
 class Timer {
     constructor(set, clear, delay, callback) {
         this.clear = clear;
@@ -23231,9 +23154,9 @@ class Timer {
         }
     }
 }
-/* harmony default export */ var abstract_timer = (Timer);
+/* harmony default export */ const abstract_timer = (Timer);
 
-// CONCATENATED MODULE: ./src/core/utils/timers/index.ts
+;// ./src/core/utils/timers/index.ts
 
 function timers_clearTimeout(timer) {
     window.clearTimeout(timer);
@@ -23241,7 +23164,7 @@ function timers_clearTimeout(timer) {
 function timers_clearInterval(timer) {
     window.clearInterval(timer);
 }
-class timers_OneOffTimer extends abstract_timer {
+class OneOffTimer extends abstract_timer {
     constructor(delay, callback) {
         super(setTimeout, timers_clearTimeout, delay, function (timer) {
             callback();
@@ -23249,7 +23172,7 @@ class timers_OneOffTimer extends abstract_timer {
         });
     }
 }
-class timers_PeriodicTimer extends abstract_timer {
+class PeriodicTimer extends abstract_timer {
     constructor(delay, callback) {
         super(setInterval, timers_clearInterval, delay, function (timer) {
             callback();
@@ -23258,7 +23181,7 @@ class timers_PeriodicTimer extends abstract_timer {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/util.ts
+;// ./src/core/util.ts
 
 var Util = {
     now() {
@@ -23270,7 +23193,7 @@ var Util = {
         }
     },
     defer(callback) {
-        return new timers_OneOffTimer(0, callback);
+        return new OneOffTimer(0, callback);
     },
     method(name, ...args) {
         var boundArguments = Array.prototype.slice.call(arguments, 1);
@@ -23279,9 +23202,9 @@ var Util = {
         };
     },
 };
-/* harmony default export */ var util = (Util);
+/* harmony default export */ const util = (Util);
 
-// CONCATENATED MODULE: ./src/core/utils/collections.ts
+;// ./src/core/utils/collections.ts
 
 
 function extend(target, ...sources) {
@@ -23475,10 +23398,10 @@ function safeJSONStringify(source) {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/logger.ts
+;// ./src/core/logger.ts
 
 
-class logger_Logger {
+class Logger {
     constructor() {
         this.globalLog = (message) => {
             if (window.console && window.console.log) {
@@ -23513,18 +23436,18 @@ class logger_Logger {
     }
     log(defaultLoggingFunction, ...args) {
         var message = stringify.apply(this, arguments);
-        if (core_pusher.log) {
-            core_pusher.log(message);
+        if (pusher.log) {
+            pusher.log(message);
         }
-        else if (core_pusher.logToConsole) {
+        else if (pusher.logToConsole) {
             const log = defaultLoggingFunction.bind(this);
             log(message);
         }
     }
 }
-/* harmony default export */ var logger = (new logger_Logger());
+/* harmony default export */ const logger = (new Logger());
 
-// CONCATENATED MODULE: ./src/runtimes/web/auth/jsonp_auth.ts
+;// ./src/runtimes/web/auth/jsonp_auth.ts
 
 var jsonp = function (context, query, authOptions, authRequestType, callback) {
     if (authOptions.headers !== undefined ||
@@ -23548,9 +23471,9 @@ var jsonp = function (context, query, authOptions, authRequestType, callback) {
     var head = document.getElementsByTagName('head')[0] || document.documentElement;
     head.insertBefore(script, head.firstChild);
 };
-/* harmony default export */ var jsonp_auth = (jsonp);
+/* harmony default export */ const jsonp_auth = (jsonp);
 
-// CONCATENATED MODULE: ./src/runtimes/web/dom/script_request.ts
+;// ./src/runtimes/web/dom/script_request.ts
 class ScriptRequest {
     constructor(src) {
         this.src = src;
@@ -23612,10 +23535,10 @@ class ScriptRequest {
     }
 }
 
-// CONCATENATED MODULE: ./src/runtimes/web/dom/jsonp_request.ts
+;// ./src/runtimes/web/dom/jsonp_request.ts
 
 
-class jsonp_request_JSONPRequest {
+class JSONPRequest {
     constructor(url, data) {
         this.url = url;
         this.data = data;
@@ -23636,7 +23559,7 @@ class jsonp_request_JSONPRequest {
     }
 }
 
-// CONCATENATED MODULE: ./src/runtimes/web/timeline/jsonp_timeline.ts
+;// ./src/runtimes/web/timeline/jsonp_timeline.ts
 
 
 var getAgent = function (sender, useTLS) {
@@ -23661,9 +23584,9 @@ var jsonp_timeline_jsonp = {
     name: 'jsonp',
     getAgent,
 };
-/* harmony default export */ var jsonp_timeline = (jsonp_timeline_jsonp);
+/* harmony default export */ const jsonp_timeline = (jsonp_timeline_jsonp);
 
-// CONCATENATED MODULE: ./src/core/transports/url_schemes.ts
+;// ./src/core/transports/url_schemes.ts
 
 function getGenericURL(baseScheme, params, path) {
     var scheme = baseScheme + (params.useTLS ? 's' : '');
@@ -23701,9 +23624,9 @@ var sockjs = {
     },
 };
 
-// CONCATENATED MODULE: ./src/core/events/callback_registry.ts
+;// ./src/core/events/callback_registry.ts
 
-class callback_registry_CallbackRegistry {
+class CallbackRegistry {
     constructor() {
         this._callbacks = {};
     }
@@ -23753,12 +23676,12 @@ function prefix(name) {
     return '_' + name;
 }
 
-// CONCATENATED MODULE: ./src/core/events/dispatcher.ts
+;// ./src/core/events/dispatcher.ts
 
 
-class dispatcher_Dispatcher {
+class Dispatcher {
     constructor(failThrough) {
-        this.callbacks = new callback_registry_CallbackRegistry();
+        this.callbacks = new CallbackRegistry();
         this.global_callbacks = [];
         this.failThrough = failThrough;
     }
@@ -23811,13 +23734,13 @@ class dispatcher_Dispatcher {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/transports/transport_connection.ts
+;// ./src/core/transports/transport_connection.ts
 
 
 
 
 
-class transport_connection_TransportConnection extends dispatcher_Dispatcher {
+class TransportConnection extends Dispatcher {
     constructor(hooks, name, priority, key, options) {
         super();
         this.initialize = runtime.transportConnectionInitializer;
@@ -23958,9 +23881,9 @@ class transport_connection_TransportConnection extends dispatcher_Dispatcher {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/transports/transport.ts
+;// ./src/core/transports/transport.ts
 
-class transport_Transport {
+class Transport {
     constructor(hooks) {
         this.hooks = hooks;
     }
@@ -23968,16 +23891,16 @@ class transport_Transport {
         return this.hooks.isSupported(environment);
     }
     createConnection(name, priority, key, options) {
-        return new transport_connection_TransportConnection(this.hooks, name, priority, key, options);
+        return new TransportConnection(this.hooks, name, priority, key, options);
     }
 }
 
-// CONCATENATED MODULE: ./src/runtimes/isomorphic/transports/transports.ts
+;// ./src/runtimes/isomorphic/transports/transports.ts
 
 
 
 
-var WSTransport = new transport_Transport({
+var WSTransport = new Transport({
     urls: ws,
     handlesActivityChecks: false,
     supportsPing: false,
@@ -24014,23 +23937,23 @@ var xhrConfiguration = {
         return runtime.isXHRSupported();
     },
 };
-var XHRStreamingTransport = new transport_Transport((extend({}, streamingConfiguration, xhrConfiguration)));
-var XHRPollingTransport = new transport_Transport((extend({}, pollingConfiguration, xhrConfiguration)));
+var XHRStreamingTransport = new Transport((extend({}, streamingConfiguration, xhrConfiguration)));
+var XHRPollingTransport = new Transport((extend({}, pollingConfiguration, xhrConfiguration)));
 var Transports = {
     ws: WSTransport,
     xhr_streaming: XHRStreamingTransport,
     xhr_polling: XHRPollingTransport,
 };
-/* harmony default export */ var transports = (Transports);
+/* harmony default export */ const transports = (Transports);
 
-// CONCATENATED MODULE: ./src/runtimes/web/transports/transports.ts
-
-
+;// ./src/runtimes/web/transports/transports.ts
 
 
 
 
-var SockJSTransport = new transport_Transport({
+
+
+var SockJSTransport = new Transport({
     file: 'sockjs',
     urls: sockjs,
     handlesActivityChecks: true,
@@ -24061,16 +23984,16 @@ var xdrConfiguration = {
         return yes;
     },
 };
-var XDRStreamingTransport = new transport_Transport((extend({}, streamingConfiguration, xdrConfiguration)));
-var XDRPollingTransport = new transport_Transport((extend({}, pollingConfiguration, xdrConfiguration)));
+var XDRStreamingTransport = new Transport((extend({}, streamingConfiguration, xdrConfiguration)));
+var XDRPollingTransport = new Transport((extend({}, pollingConfiguration, xdrConfiguration)));
 transports.xdr_streaming = XDRStreamingTransport;
 transports.xdr_polling = XDRPollingTransport;
 transports.sockjs = SockJSTransport;
-/* harmony default export */ var transports_transports = (transports);
+/* harmony default export */ const transports_transports = (transports);
 
-// CONCATENATED MODULE: ./src/runtimes/web/net_info.ts
+;// ./src/runtimes/web/net_info.ts
 
-class net_info_NetInfo extends dispatcher_Dispatcher {
+class NetInfo extends Dispatcher {
     constructor() {
         super();
         var self = this;
@@ -24092,12 +24015,12 @@ class net_info_NetInfo extends dispatcher_Dispatcher {
         }
     }
 }
-var net_info_Network = new net_info_NetInfo();
+var Network = new NetInfo();
 
-// CONCATENATED MODULE: ./src/core/transports/assistant_to_the_transport_manager.ts
+;// ./src/core/transports/assistant_to_the_transport_manager.ts
 
 
-class assistant_to_the_transport_manager_AssistantToTheTransportManager {
+class AssistantToTheTransportManager {
     constructor(manager, transport, options) {
         this.manager = manager;
         this.transport = transport;
@@ -24137,7 +24060,7 @@ class assistant_to_the_transport_manager_AssistantToTheTransportManager {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/connection/protocol/protocol.ts
+;// ./src/core/connection/protocol/protocol.ts
 const Protocol = {
     decodeMessage: function (messageEvent) {
         try {
@@ -24228,14 +24151,14 @@ const Protocol = {
         }
     },
 };
-/* harmony default export */ var protocol_protocol = (Protocol);
+/* harmony default export */ const protocol = (Protocol);
 
-// CONCATENATED MODULE: ./src/core/connection/connection.ts
-
-
+;// ./src/core/connection/connection.ts
 
 
-class connection_Connection extends dispatcher_Dispatcher {
+
+
+class Connection extends Dispatcher {
     constructor(id, transport) {
         super();
         this.id = id;
@@ -24255,7 +24178,7 @@ class connection_Connection extends dispatcher_Dispatcher {
             event.channel = channel;
         }
         logger.debug('Event sent', event);
-        return this.send(protocol_protocol.encodeMessage(event));
+        return this.send(protocol.encodeMessage(event));
     }
     ping() {
         if (this.transport.supportsPing()) {
@@ -24273,7 +24196,7 @@ class connection_Connection extends dispatcher_Dispatcher {
             message: (messageEvent) => {
                 var pusherEvent;
                 try {
-                    pusherEvent = protocol_protocol.decodeMessage(messageEvent);
+                    pusherEvent = protocol.decodeMessage(messageEvent);
                 }
                 catch (e) {
                     this.emit('error', {
@@ -24326,8 +24249,8 @@ class connection_Connection extends dispatcher_Dispatcher {
         });
     }
     handleCloseEvent(closeEvent) {
-        var action = protocol_protocol.getCloseAction(closeEvent);
-        var error = protocol_protocol.getCloseError(closeEvent);
+        var action = protocol.getCloseAction(closeEvent);
+        var error = protocol.getCloseError(closeEvent);
         if (error) {
             this.emit('error', error);
         }
@@ -24337,11 +24260,11 @@ class connection_Connection extends dispatcher_Dispatcher {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/connection/handshake/index.ts
+;// ./src/core/connection/handshake/index.ts
 
 
 
-class handshake_Handshake {
+class Handshake {
     constructor(transport, callback) {
         this.transport = transport;
         this.callback = callback;
@@ -24356,7 +24279,7 @@ class handshake_Handshake {
             this.unbindListeners();
             var result;
             try {
-                result = protocol_protocol.processHandshake(m);
+                result = protocol.processHandshake(m);
             }
             catch (e) {
                 this.finish('error', { error: e });
@@ -24365,7 +24288,7 @@ class handshake_Handshake {
             }
             if (result.action === 'connected') {
                 this.finish('connected', {
-                    connection: new connection_Connection(result.id, this.transport),
+                    connection: new Connection(result.id, this.transport),
                     activityTimeout: result.activityTimeout,
                 });
             }
@@ -24376,8 +24299,8 @@ class handshake_Handshake {
         };
         this.onClosed = (closeEvent) => {
             this.unbindListeners();
-            var action = protocol_protocol.getCloseAction(closeEvent) || 'backoff';
-            var error = protocol_protocol.getCloseError(closeEvent);
+            var action = protocol.getCloseAction(closeEvent) || 'backoff';
+            var error = protocol.getCloseError(closeEvent);
             this.finish(action, { error: error });
         };
         this.transport.bind('message', this.onMessage);
@@ -24392,9 +24315,9 @@ class handshake_Handshake {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/timeline/timeline_sender.ts
+;// ./src/core/timeline/timeline_sender.ts
 
-class timeline_sender_TimelineSender {
+class TimelineSender {
     constructor(timeline, options) {
         this.timeline = timeline;
         this.options = options || {};
@@ -24407,13 +24330,13 @@ class timeline_sender_TimelineSender {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/channels/channel.ts
+;// ./src/core/channels/channel.ts
 
 
 
 
 
-class channel_Channel extends dispatcher_Dispatcher {
+class Channel extends Dispatcher {
     constructor(name, pusher) {
         super(function (event, data) {
             logger.debug('No callbacks on ' + name + ' for ' + event);
@@ -24509,9 +24432,9 @@ class channel_Channel extends dispatcher_Dispatcher {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/channels/private_channel.ts
+;// ./src/core/channels/private_channel.ts
 
-class private_channel_PrivateChannel extends channel_Channel {
+class PrivateChannel extends Channel {
     authorize(socketId, callback) {
         return this.pusher.config.channelAuthorizer({
             channelName: this.name,
@@ -24520,9 +24443,9 @@ class private_channel_PrivateChannel extends channel_Channel {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/channels/members.ts
+;// ./src/core/channels/members.ts
 
-class members_Members {
+class Members {
     constructor() {
         this.reset();
     }
@@ -24573,7 +24496,7 @@ class members_Members {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/channels/presence_channel.ts
+;// ./src/core/channels/presence_channel.ts
 var __awaiter = ( false) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -24587,10 +24510,10 @@ var __awaiter = ( false) || function (thisArg, _arguments, P, generator) {
 
 
 
-class presence_channel_PresenceChannel extends private_channel_PrivateChannel {
+class PresenceChannel extends PrivateChannel {
     constructor(name, pusher) {
         super(name, pusher);
-        this.members = new members_Members();
+        this.members = new Members();
     }
     authorize(socketId, callback) {
         super.authorize(socketId, (error, authData) => __awaiter(this, void 0, void 0, function* () {
@@ -24672,18 +24595,16 @@ class presence_channel_PresenceChannel extends private_channel_PrivateChannel {
 }
 
 // EXTERNAL MODULE: ./node_modules/@stablelib/utf8/lib/utf8.js
-var utf8 = __nested_webpack_require_20105__(1);
-
+var utf8 = __nested_webpack_require_16590__(978);
 // EXTERNAL MODULE: ./node_modules/@stablelib/base64/lib/base64.js
-var base64 = __nested_webpack_require_20105__(0);
-
-// CONCATENATED MODULE: ./src/core/channels/encrypted_channel.ts
-
+var base64 = __nested_webpack_require_16590__(594);
+;// ./src/core/channels/encrypted_channel.ts
 
 
 
 
-class encrypted_channel_EncryptedChannel extends private_channel_PrivateChannel {
+
+class EncryptedChannel extends PrivateChannel {
     constructor(name, pusher, nacl) {
         super(name, pusher);
         this.key = null;
@@ -24700,7 +24621,7 @@ class encrypted_channel_EncryptedChannel extends private_channel_PrivateChannel 
                 callback(new Error(`No shared_secret key in auth payload for encrypted channel: ${this.name}`), null);
                 return;
             }
-            this.key = Object(base64["decode"])(sharedSecret);
+            this.key = (0,base64.decode)(sharedSecret);
             delete authData['shared_secret'];
             callback(null, authData);
         });
@@ -24728,12 +24649,12 @@ class encrypted_channel_EncryptedChannel extends private_channel_PrivateChannel 
                 data);
             return;
         }
-        let cipherText = Object(base64["decode"])(data.ciphertext);
+        let cipherText = (0,base64.decode)(data.ciphertext);
         if (cipherText.length < this.nacl.secretbox.overheadLength) {
             logger.error(`Expected encrypted event ciphertext length to be ${this.nacl.secretbox.overheadLength}, got: ${cipherText.length}`);
             return;
         }
-        let nonce = Object(base64["decode"])(data.nonce);
+        let nonce = (0,base64.decode)(data.nonce);
         if (nonce.length < this.nacl.secretbox.nonceLength) {
             logger.error(`Expected encrypted event nonce length to be ${this.nacl.secretbox.nonceLength}, got: ${nonce.length}`);
             return;
@@ -24759,7 +24680,7 @@ class encrypted_channel_EncryptedChannel extends private_channel_PrivateChannel 
         this.emit(event, this.getDataToEmit(bytes));
     }
     getDataToEmit(bytes) {
-        let raw = Object(utf8["decode"])(bytes);
+        let raw = (0,utf8/* decode */.D4)(bytes);
         try {
             return JSON.parse(raw);
         }
@@ -24769,13 +24690,13 @@ class encrypted_channel_EncryptedChannel extends private_channel_PrivateChannel 
     }
 }
 
-// CONCATENATED MODULE: ./src/core/connection/connection_manager.ts
+;// ./src/core/connection/connection_manager.ts
 
 
 
 
 
-class connection_manager_ConnectionManager extends dispatcher_Dispatcher {
+class ConnectionManager extends Dispatcher {
     constructor(key, options) {
         super();
         this.state = 'initialized';
@@ -24801,6 +24722,11 @@ class connection_manager_ConnectionManager extends dispatcher_Dispatcher {
             }
         });
         this.updateStrategy();
+    }
+    switchCluster(key) {
+        this.key = key;
+        this.updateStrategy();
+        this.retryIn(0);
     }
     connect() {
         if (this.connection || this.runner) {
@@ -24885,7 +24811,7 @@ class connection_manager_ConnectionManager extends dispatcher_Dispatcher {
         if (delay > 0) {
             this.emit('connecting_in', Math.round(delay / 1000));
         }
-        this.retryTimer = new timers_OneOffTimer(delay || 0, () => {
+        this.retryTimer = new OneOffTimer(delay || 0, () => {
             this.disconnectInternally();
             this.connect();
         });
@@ -24897,7 +24823,7 @@ class connection_manager_ConnectionManager extends dispatcher_Dispatcher {
         }
     }
     setUnavailableTimer() {
-        this.unavailableTimer = new timers_OneOffTimer(this.options.unavailableTimeout, () => {
+        this.unavailableTimer = new OneOffTimer(this.options.unavailableTimeout, () => {
             this.updateState('unavailable');
         });
     }
@@ -24909,7 +24835,7 @@ class connection_manager_ConnectionManager extends dispatcher_Dispatcher {
     sendActivityCheck() {
         this.stopActivityCheck();
         this.connection.ping();
-        this.activityTimer = new timers_OneOffTimer(this.options.pongTimeout, () => {
+        this.activityTimer = new OneOffTimer(this.options.pongTimeout, () => {
             this.timeline.error({ pong_timed_out: this.options.pongTimeout });
             this.retryIn(0);
         });
@@ -24917,7 +24843,7 @@ class connection_manager_ConnectionManager extends dispatcher_Dispatcher {
     resetActivityCheck() {
         this.stopActivityCheck();
         if (this.connection && !this.connection.handlesActivityChecks()) {
-            this.activityTimer = new timers_OneOffTimer(this.activityTimeout, () => {
+            this.activityTimer = new OneOffTimer(this.activityTimeout, () => {
                 this.sendActivityCheck();
             });
         }
@@ -25025,12 +24951,12 @@ class connection_manager_ConnectionManager extends dispatcher_Dispatcher {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/channels/channels.ts
+;// ./src/core/channels/channels.ts
 
 
 
 
-class channels_Channels {
+class Channels {
     constructor() {
         this.channels = {};
     }
@@ -25080,7 +25006,7 @@ function createChannel(name, pusher) {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/utils/factory.ts
+;// ./src/core/utils/factory.ts
 
 
 
@@ -25092,38 +25018,38 @@ function createChannel(name, pusher) {
 
 var Factory = {
     createChannels() {
-        return new channels_Channels();
+        return new Channels();
     },
     createConnectionManager(key, options) {
-        return new connection_manager_ConnectionManager(key, options);
+        return new ConnectionManager(key, options);
     },
     createChannel(name, pusher) {
-        return new channel_Channel(name, pusher);
+        return new Channel(name, pusher);
     },
     createPrivateChannel(name, pusher) {
-        return new private_channel_PrivateChannel(name, pusher);
+        return new PrivateChannel(name, pusher);
     },
     createPresenceChannel(name, pusher) {
-        return new presence_channel_PresenceChannel(name, pusher);
+        return new PresenceChannel(name, pusher);
     },
     createEncryptedChannel(name, pusher, nacl) {
-        return new encrypted_channel_EncryptedChannel(name, pusher, nacl);
+        return new EncryptedChannel(name, pusher, nacl);
     },
     createTimelineSender(timeline, options) {
-        return new timeline_sender_TimelineSender(timeline, options);
+        return new TimelineSender(timeline, options);
     },
     createHandshake(transport, callback) {
-        return new handshake_Handshake(transport, callback);
+        return new Handshake(transport, callback);
     },
     createAssistantToTheTransportManager(manager, transport, options) {
-        return new assistant_to_the_transport_manager_AssistantToTheTransportManager(manager, transport, options);
+        return new AssistantToTheTransportManager(manager, transport, options);
     },
 };
-/* harmony default export */ var factory = (Factory);
+/* harmony default export */ const factory = (Factory);
 
-// CONCATENATED MODULE: ./src/core/transports/transport_manager.ts
+;// ./src/core/transports/transport_manager.ts
 
-class transport_manager_TransportManager {
+class TransportManager {
     constructor(options) {
         this.options = options || {};
         this.livesLeft = this.options.lives || Infinity;
@@ -25142,11 +25068,11 @@ class transport_manager_TransportManager {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/strategies/sequential_strategy.ts
+;// ./src/core/strategies/sequential_strategy.ts
 
 
 
-class sequential_strategy_SequentialStrategy {
+class SequentialStrategy {
     constructor(strategies, options) {
         this.strategies = strategies;
         this.loop = Boolean(options.loop);
@@ -25202,7 +25128,7 @@ class sequential_strategy_SequentialStrategy {
         var timer = null;
         var runner = null;
         if (options.timeout > 0) {
-            timer = new timers_OneOffTimer(options.timeout, function () {
+            timer = new OneOffTimer(options.timeout, function () {
                 runner.abort();
                 callback(true);
             });
@@ -25230,10 +25156,10 @@ class sequential_strategy_SequentialStrategy {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/strategies/best_connected_ever_strategy.ts
+;// ./src/core/strategies/best_connected_ever_strategy.ts
 
 
-class best_connected_ever_strategy_BestConnectedEverStrategy {
+class BestConnectedEverStrategy {
     constructor(strategies) {
         this.strategies = strategies;
     }
@@ -25285,12 +25211,12 @@ function abortRunner(runner) {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/strategies/websocket_prioritized_cached_strategy.ts
+;// ./src/core/strategies/websocket_prioritized_cached_strategy.ts
 
 
 
 
-class websocket_prioritized_cached_strategy_WebSocketPrioritizedCachedStrategy {
+class WebSocketPrioritizedCachedStrategy {
     constructor(strategy, transports, options) {
         this.strategy = strategy;
         this.transports = transports;
@@ -25315,7 +25241,7 @@ class websocket_prioritized_cached_strategy_WebSocketPrioritizedCachedStrategy {
                         transport: info.transport,
                         latency: info.latency,
                     });
-                    strategies.push(new sequential_strategy_SequentialStrategy([transport], {
+                    strategies.push(new SequentialStrategy([transport], {
                         timeout: info.latency * 2 + 1000,
                         failFast: true,
                     }));
@@ -25401,9 +25327,9 @@ function flushTransportCache(usingTLS) {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/strategies/delayed_strategy.ts
+;// ./src/core/strategies/delayed_strategy.ts
 
-class delayed_strategy_DelayedStrategy {
+class DelayedStrategy {
     constructor(strategy, { delay: number }) {
         this.strategy = strategy;
         this.options = { delay: number };
@@ -25414,7 +25340,7 @@ class delayed_strategy_DelayedStrategy {
     connect(minPriority, callback) {
         var strategy = this.strategy;
         var runner;
-        var timer = new timers_OneOffTimer(this.options.delay, function () {
+        var timer = new OneOffTimer(this.options.delay, function () {
             runner = strategy.connect(minPriority, callback);
         });
         return {
@@ -25434,7 +25360,7 @@ class delayed_strategy_DelayedStrategy {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/strategies/if_strategy.ts
+;// ./src/core/strategies/if_strategy.ts
 class IfStrategy {
     constructor(test, trueBranch, falseBranch) {
         this.test = test;
@@ -25451,7 +25377,7 @@ class IfStrategy {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/strategies/first_connected_strategy.ts
+;// ./src/core/strategies/first_connected_strategy.ts
 class FirstConnectedStrategy {
     constructor(strategy) {
         this.strategy = strategy;
@@ -25470,7 +25396,7 @@ class FirstConnectedStrategy {
     }
 }
 
-// CONCATENATED MODULE: ./src/runtimes/web/default_strategy.ts
+;// ./src/runtimes/web/default_strategy.ts
 
 
 
@@ -25508,11 +25434,11 @@ var getDefaultStrategy = function (config, baseOptions, defineTransport) {
         timeout: 15000,
         timeoutLimit: 60000,
     };
-    var ws_manager = new transport_manager_TransportManager({
+    var ws_manager = new TransportManager({
         minPingDelay: 10000,
         maxPingDelay: config.activityTimeout,
     });
-    var streaming_manager = new transport_manager_TransportManager({
+    var streaming_manager = new TransportManager({
         lives: 2,
         minPingDelay: 10000,
         maxPingDelay: config.activityTimeout,
@@ -25524,47 +25450,47 @@ var getDefaultStrategy = function (config, baseOptions, defineTransport) {
     var xdr_streaming_transport = defineTransportStrategy('xdr_streaming', 'xdr_streaming', 1, sockjs_options, streaming_manager);
     var xhr_polling_transport = defineTransportStrategy('xhr_polling', 'xhr_polling', 1, sockjs_options);
     var xdr_polling_transport = defineTransportStrategy('xdr_polling', 'xdr_polling', 1, sockjs_options);
-    var ws_loop = new sequential_strategy_SequentialStrategy([ws_transport], timeouts);
-    var wss_loop = new sequential_strategy_SequentialStrategy([wss_transport], timeouts);
-    var sockjs_loop = new sequential_strategy_SequentialStrategy([sockjs_transport], timeouts);
-    var streaming_loop = new sequential_strategy_SequentialStrategy([
+    var ws_loop = new SequentialStrategy([ws_transport], timeouts);
+    var wss_loop = new SequentialStrategy([wss_transport], timeouts);
+    var sockjs_loop = new SequentialStrategy([sockjs_transport], timeouts);
+    var streaming_loop = new SequentialStrategy([
         new IfStrategy(testSupportsStrategy(xhr_streaming_transport), xhr_streaming_transport, xdr_streaming_transport),
     ], timeouts);
-    var polling_loop = new sequential_strategy_SequentialStrategy([
+    var polling_loop = new SequentialStrategy([
         new IfStrategy(testSupportsStrategy(xhr_polling_transport), xhr_polling_transport, xdr_polling_transport),
     ], timeouts);
-    var http_loop = new sequential_strategy_SequentialStrategy([
-        new IfStrategy(testSupportsStrategy(streaming_loop), new best_connected_ever_strategy_BestConnectedEverStrategy([
+    var http_loop = new SequentialStrategy([
+        new IfStrategy(testSupportsStrategy(streaming_loop), new BestConnectedEverStrategy([
             streaming_loop,
-            new delayed_strategy_DelayedStrategy(polling_loop, { delay: 4000 }),
+            new DelayedStrategy(polling_loop, { delay: 4000 }),
         ]), polling_loop),
     ], timeouts);
     var http_fallback_loop = new IfStrategy(testSupportsStrategy(http_loop), http_loop, sockjs_loop);
     var wsStrategy;
     if (baseOptions.useTLS) {
-        wsStrategy = new best_connected_ever_strategy_BestConnectedEverStrategy([
+        wsStrategy = new BestConnectedEverStrategy([
             ws_loop,
-            new delayed_strategy_DelayedStrategy(http_fallback_loop, { delay: 2000 }),
+            new DelayedStrategy(http_fallback_loop, { delay: 2000 }),
         ]);
     }
     else {
-        wsStrategy = new best_connected_ever_strategy_BestConnectedEverStrategy([
+        wsStrategy = new BestConnectedEverStrategy([
             ws_loop,
-            new delayed_strategy_DelayedStrategy(wss_loop, { delay: 2000 }),
-            new delayed_strategy_DelayedStrategy(http_fallback_loop, { delay: 5000 }),
+            new DelayedStrategy(wss_loop, { delay: 2000 }),
+            new DelayedStrategy(http_fallback_loop, { delay: 5000 }),
         ]);
     }
-    return new websocket_prioritized_cached_strategy_WebSocketPrioritizedCachedStrategy(new FirstConnectedStrategy(new IfStrategy(testSupportsStrategy(ws_transport), wsStrategy, http_fallback_loop)), definedTransports, {
+    return new WebSocketPrioritizedCachedStrategy(new FirstConnectedStrategy(new IfStrategy(testSupportsStrategy(ws_transport), wsStrategy, http_fallback_loop)), definedTransports, {
         ttl: 1800000,
         timeline: baseOptions.timeline,
         useTLS: baseOptions.useTLS,
     });
 };
-/* harmony default export */ var default_strategy = (getDefaultStrategy);
+/* harmony default export */ const default_strategy = (getDefaultStrategy);
 
-// CONCATENATED MODULE: ./src/runtimes/web/transports/transport_connection_initializer.ts
+;// ./src/runtimes/web/transports/transport_connection_initializer.ts
 
-/* harmony default export */ var transport_connection_initializer = (function () {
+/* harmony default export */ function transport_connection_initializer() {
     var self = this;
     self.timeline.info(self.buildTimelineMessage({
         transport: self.name + (self.options.useTLS ? 's' : ''),
@@ -25591,11 +25517,11 @@ var getDefaultStrategy = function (config, baseOptions, defineTransport) {
     else {
         self.onClose();
     }
-});
+}
 
-// CONCATENATED MODULE: ./src/runtimes/web/http/http_xdomain_request.ts
+;// ./src/runtimes/web/http/http_xdomain_request.ts
 
-var http_xdomain_request_hooks = {
+var hooks = {
     getRequest: function (socket) {
         var xdr = new window.XDomainRequest();
         xdr.ontimeout = function () {
@@ -25625,13 +25551,13 @@ var http_xdomain_request_hooks = {
         xdr.abort();
     },
 };
-/* harmony default export */ var http_xdomain_request = (http_xdomain_request_hooks);
+/* harmony default export */ const http_xdomain_request = (hooks);
 
-// CONCATENATED MODULE: ./src/core/http/http_request.ts
+;// ./src/core/http/http_request.ts
 
 
 const MAX_BUFFER_LENGTH = 256 * 1024;
-class http_request_HTTPRequest extends dispatcher_Dispatcher {
+class HTTPRequest extends Dispatcher {
     constructor(hooks, method, url) {
         super();
         this.hooks = hooks;
@@ -25691,21 +25617,21 @@ class http_request_HTTPRequest extends dispatcher_Dispatcher {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/http/state.ts
+;// ./src/core/http/state.ts
 var State;
 (function (State) {
     State[State["CONNECTING"] = 0] = "CONNECTING";
     State[State["OPEN"] = 1] = "OPEN";
     State[State["CLOSED"] = 3] = "CLOSED";
 })(State || (State = {}));
-/* harmony default export */ var state = (State);
+/* harmony default export */ const state = (State);
 
-// CONCATENATED MODULE: ./src/core/http/http_socket.ts
+;// ./src/core/http/http_socket.ts
 
 
 
 var autoIncrement = 1;
-class http_socket_HTTPSocket {
+class HTTPSocket {
     constructor(hooks, url) {
         this.hooks = hooks;
         this.session = randomNumber(1000) + '/' + randomString(8);
@@ -25870,9 +25796,9 @@ function randomString(length) {
     }
     return result.join('');
 }
-/* harmony default export */ var http_socket = (http_socket_HTTPSocket);
+/* harmony default export */ const http_socket = (HTTPSocket);
 
-// CONCATENATED MODULE: ./src/core/http/http_streaming_socket.ts
+;// ./src/core/http/http_streaming_socket.ts
 var http_streaming_socket_hooks = {
     getReceiveURL: function (url, session) {
         return url.base + '/' + session + '/xhr_streaming' + url.queryString;
@@ -25887,9 +25813,9 @@ var http_streaming_socket_hooks = {
         socket.onClose(1006, 'Connection interrupted (' + status + ')', false);
     },
 };
-/* harmony default export */ var http_streaming_socket = (http_streaming_socket_hooks);
+/* harmony default export */ const http_streaming_socket = (http_streaming_socket_hooks);
 
-// CONCATENATED MODULE: ./src/core/http/http_polling_socket.ts
+;// ./src/core/http/http_polling_socket.ts
 var http_polling_socket_hooks = {
     getReceiveURL: function (url, session) {
         return url.base + '/' + session + '/xhr' + url.queryString;
@@ -25908,9 +25834,9 @@ var http_polling_socket_hooks = {
         }
     },
 };
-/* harmony default export */ var http_polling_socket = (http_polling_socket_hooks);
+/* harmony default export */ const http_polling_socket = (http_polling_socket_hooks);
 
-// CONCATENATED MODULE: ./src/runtimes/isomorphic/http/http_xhr_request.ts
+;// ./src/runtimes/isomorphic/http/http_xhr_request.ts
 
 var http_xhr_request_hooks = {
     getRequest: function (socket) {
@@ -25939,9 +25865,9 @@ var http_xhr_request_hooks = {
         xhr.abort();
     },
 };
-/* harmony default export */ var http_xhr_request = (http_xhr_request_hooks);
+/* harmony default export */ const http_xhr_request = (http_xhr_request_hooks);
 
-// CONCATENATED MODULE: ./src/runtimes/isomorphic/http/http.ts
+;// ./src/runtimes/isomorphic/http/http.ts
 
 
 
@@ -25961,20 +25887,20 @@ var HTTP = {
         return this.createRequest(http_xhr_request, method, url);
     },
     createRequest(hooks, method, url) {
-        return new http_request_HTTPRequest(hooks, method, url);
+        return new HTTPRequest(hooks, method, url);
     },
 };
-/* harmony default export */ var http_http = (HTTP);
+/* harmony default export */ const http_http = (HTTP);
 
-// CONCATENATED MODULE: ./src/runtimes/web/http/http.ts
+;// ./src/runtimes/web/http/http.ts
 
 
 http_http.createXDR = function (method, url) {
     return this.createRequest(http_xdomain_request, method, url);
 };
-/* harmony default export */ var web_http_http = (http_http);
+/* harmony default export */ const web_http_http = (http_http);
 
-// CONCATENATED MODULE: ./src/runtimes/web/runtime.ts
+;// ./src/runtimes/web/runtime.ts
 
 
 
@@ -26035,7 +25961,7 @@ var Runtime = {
         }
     },
     createJSONPRequest(url, data) {
-        return new jsonp_request_JSONPRequest(url, data);
+        return new JSONPRequest(url, data);
     },
     createScriptRequest(src) {
         return new ScriptRequest(src);
@@ -26064,7 +25990,7 @@ var Runtime = {
         return new ActiveXObject('Microsoft.XMLHTTP');
     },
     getNetwork() {
-        return net_info_Network;
+        return Network;
     },
     createWebSocket(url) {
         var Constructor = this.getWebSocketAPI();
@@ -26115,22 +26041,22 @@ var Runtime = {
         return Math.floor(random() * max);
     },
 };
-/* harmony default export */ var runtime = (Runtime);
+/* harmony default export */ const runtime = (Runtime);
 
-// CONCATENATED MODULE: ./src/core/timeline/level.ts
+;// ./src/core/timeline/level.ts
 var TimelineLevel;
 (function (TimelineLevel) {
     TimelineLevel[TimelineLevel["ERROR"] = 3] = "ERROR";
     TimelineLevel[TimelineLevel["INFO"] = 6] = "INFO";
     TimelineLevel[TimelineLevel["DEBUG"] = 7] = "DEBUG";
 })(TimelineLevel || (TimelineLevel = {}));
-/* harmony default export */ var timeline_level = (TimelineLevel);
+/* harmony default export */ const level = (TimelineLevel);
 
-// CONCATENATED MODULE: ./src/core/timeline/timeline.ts
+;// ./src/core/timeline/timeline.ts
 
 
 
-class timeline_Timeline {
+class Timeline {
     constructor(key, session, options) {
         this.key = key;
         this.session = session;
@@ -26148,13 +26074,13 @@ class timeline_Timeline {
         }
     }
     error(event) {
-        this.log(timeline_level.ERROR, event);
+        this.log(level.ERROR, event);
     }
     info(event) {
-        this.log(timeline_level.INFO, event);
+        this.log(level.INFO, event);
     }
     debug(event) {
-        this.log(timeline_level.DEBUG, event);
+        this.log(level.DEBUG, event);
     }
     isEmpty() {
         return this.events.length === 0;
@@ -26187,12 +26113,12 @@ class timeline_Timeline {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/strategies/transport_strategy.ts
+;// ./src/core/strategies/transport_strategy.ts
 
 
 
 
-class transport_strategy_TransportStrategy {
+class TransportStrategy {
     constructor(name, priority, transport, options) {
         this.name = name;
         this.priority = priority;
@@ -26285,14 +26211,14 @@ function failAttempt(error, callback) {
     };
 }
 
-// CONCATENATED MODULE: ./src/core/strategies/strategy_builder.ts
+;// ./src/core/strategies/strategy_builder.ts
 
 
 
 
 
 const { Transports: strategy_builder_Transports } = runtime;
-var strategy_builder_defineTransport = function (config, name, type, priority, options, manager) {
+var defineTransport = function (config, name, type, priority, options, manager) {
     var transportClass = strategy_builder_Transports[type];
     if (!transportClass) {
         throw new UnsupportedTransport(type);
@@ -26304,7 +26230,7 @@ var strategy_builder_defineTransport = function (config, name, type, priority, o
     var transport;
     if (enabled) {
         options = Object.assign({ ignoreNullOrigin: config.ignoreNullOrigin }, options);
-        transport = new transport_strategy_TransportStrategy(name, priority, manager ? manager.getAssistant(transportClass) : transportClass, options);
+        transport = new TransportStrategy(name, priority, manager ? manager.getAssistant(transportClass) : transportClass, options);
     }
     else {
         transport = strategy_builder_UnsupportedStrategy;
@@ -26328,7 +26254,7 @@ var strategy_builder_UnsupportedStrategy = {
     },
 };
 
-// CONCATENATED MODULE: ./src/core/options.ts
+;// ./src/core/options.ts
 
 function validateOptions(options) {
     if (options == null) {
@@ -26342,7 +26268,7 @@ function validateOptions(options) {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/auth/user_authenticator.ts
+;// ./src/core/auth/user_authenticator.ts
 
 
 const composeChannelQuery = (params, authOptions) => {
@@ -26375,9 +26301,9 @@ const UserAuthenticator = (authOptions) => {
         runtime.getAuthorizers()[authOptions.transport](runtime, query, authOptions, AuthRequestType.UserAuthentication, callback);
     };
 };
-/* harmony default export */ var user_authenticator = (UserAuthenticator);
+/* harmony default export */ const user_authenticator = (UserAuthenticator);
 
-// CONCATENATED MODULE: ./src/core/auth/channel_authorizer.ts
+;// ./src/core/auth/channel_authorizer.ts
 
 
 const channel_authorizer_composeChannelQuery = (params, authOptions) => {
@@ -26411,9 +26337,9 @@ const ChannelAuthorizer = (authOptions) => {
         runtime.getAuthorizers()[authOptions.transport](runtime, query, authOptions, AuthRequestType.ChannelAuthorization, callback);
     };
 };
-/* harmony default export */ var channel_authorizer = (ChannelAuthorizer);
+/* harmony default export */ const channel_authorizer = (ChannelAuthorizer);
 
-// CONCATENATED MODULE: ./src/core/auth/deprecated_channel_authorizer.ts
+;// ./src/core/auth/deprecated_channel_authorizer.ts
 const ChannelAuthorizerProxy = (pusher, authOptions, channelAuthorizerGenerator) => {
     const deprecatedAuthorizerOptions = {
         authTransport: authOptions.transport,
@@ -26430,7 +26356,7 @@ const ChannelAuthorizerProxy = (pusher, authOptions, channelAuthorizerGenerator)
     };
 };
 
-// CONCATENATED MODULE: ./src/core/config.ts
+;// ./src/core/config.ts
 
 
 
@@ -26505,10 +26431,12 @@ function getEnableStatsConfig(opts) {
     }
     return false;
 }
+const hasCustomHandler = (auth) => {
+    return 'customHandler' in auth && auth['customHandler'] != null;
+};
 function buildUserAuthenticator(opts) {
     const userAuthentication = Object.assign(Object.assign({}, defaults.userAuthentication), opts.userAuthentication);
-    if ('customHandler' in userAuthentication &&
-        userAuthentication['customHandler'] != null) {
+    if (hasCustomHandler(userAuthentication)) {
         return userAuthentication['customHandler'];
     }
     return user_authenticator(userAuthentication);
@@ -26529,24 +26457,26 @@ function buildChannelAuth(opts, pusher) {
             if ('headers' in opts.auth)
                 channelAuthorization.headers = opts.auth.headers;
         }
-        if ('authorizer' in opts)
-            channelAuthorization.customHandler = ChannelAuthorizerProxy(pusher, channelAuthorization, opts.authorizer);
+        if ('authorizer' in opts) {
+            return {
+                customHandler: ChannelAuthorizerProxy(pusher, channelAuthorization, opts.authorizer),
+            };
+        }
     }
     return channelAuthorization;
 }
 function buildChannelAuthorizer(opts, pusher) {
     const channelAuthorization = buildChannelAuth(opts, pusher);
-    if ('customHandler' in channelAuthorization &&
-        channelAuthorization['customHandler'] != null) {
+    if (hasCustomHandler(channelAuthorization)) {
         return channelAuthorization['customHandler'];
     }
     return channel_authorizer(channelAuthorization);
 }
 
-// CONCATENATED MODULE: ./src/core/watchlist.ts
+;// ./src/core/watchlist.ts
 
 
-class watchlist_WatchlistFacade extends dispatcher_Dispatcher {
+class WatchlistFacade extends Dispatcher {
     constructor(pusher) {
         super(function (eventName, data) {
             logger.debug(`No callbacks on watchlist events for ${eventName}`);
@@ -26569,7 +26499,7 @@ class watchlist_WatchlistFacade extends dispatcher_Dispatcher {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/utils/flat_promise.ts
+;// ./src/core/utils/flat_promise.ts
 function flatPromise() {
     let resolve, reject;
     const promise = new Promise((res, rej) => {
@@ -26578,15 +26508,15 @@ function flatPromise() {
     });
     return { promise, resolve, reject };
 }
-/* harmony default export */ var flat_promise = (flatPromise);
+/* harmony default export */ const flat_promise = (flatPromise);
 
-// CONCATENATED MODULE: ./src/core/user.ts
-
-
+;// ./src/core/user.ts
 
 
 
-class user_UserFacade extends dispatcher_Dispatcher {
+
+
+class UserFacade extends Dispatcher {
     constructor(pusher) {
         super(function (eventName, data) {
             logger.debug('No callbacks on user for ' + eventName);
@@ -26617,7 +26547,7 @@ class user_UserFacade extends dispatcher_Dispatcher {
                 this._newSigninPromiseIfNeeded();
             }
         });
-        this.watchlist = new watchlist_WatchlistFacade(pusher);
+        this.watchlist = new WatchlistFacade(pusher);
         this.pusher.connection.bind('message', (event) => {
             var eventName = event.event;
             if (eventName === 'pusher:signin_success') {
@@ -26675,7 +26605,7 @@ class user_UserFacade extends dispatcher_Dispatcher {
                 channel.subscribe();
             }
         };
-        this.serverToUserChannel = new channel_Channel(`#server-to-user-${this.user_data.id}`, this.pusher);
+        this.serverToUserChannel = new Channel(`#server-to-user-${this.user_data.id}`, this.pusher);
         this.serverToUserChannel.bind_global((eventName, data) => {
             if (eventName.indexOf('pusher_internal:') === 0 ||
                 eventName.indexOf('pusher:') === 0) {
@@ -26714,7 +26644,7 @@ class user_UserFacade extends dispatcher_Dispatcher {
     }
 }
 
-// CONCATENATED MODULE: ./src/core/pusher.ts
+;// ./src/core/pusher.ts
 
 
 
@@ -26728,11 +26658,11 @@ class user_UserFacade extends dispatcher_Dispatcher {
 
 
 
-class pusher_Pusher {
+class Pusher {
     static ready() {
-        pusher_Pusher.isReady = true;
-        for (var i = 0, l = pusher_Pusher.instances.length; i < l; i++) {
-            pusher_Pusher.instances[i].connect();
+        Pusher.isReady = true;
+        for (var i = 0, l = Pusher.instances.length; i < l; i++) {
+            Pusher.instances[i].connect();
         }
     }
     static getClientFeatures() {
@@ -26744,16 +26674,17 @@ class pusher_Pusher {
         checkAppKey(app_key);
         validateOptions(options);
         this.key = app_key;
-        this.config = getConfig(options, this);
+        this.options = options;
+        this.config = getConfig(this.options, this);
         this.channels = factory.createChannels();
-        this.global_emitter = new dispatcher_Dispatcher();
+        this.global_emitter = new Dispatcher();
         this.sessionID = runtime.randomInt(1000000000);
-        this.timeline = new timeline_Timeline(this.key, this.sessionID, {
+        this.timeline = new Timeline(this.key, this.sessionID, {
             cluster: this.config.cluster,
-            features: pusher_Pusher.getClientFeatures(),
+            features: Pusher.getClientFeatures(),
             params: this.config.timelineParams || {},
             limit: 50,
-            level: timeline_level.INFO,
+            level: level.INFO,
             version: defaults.VERSION,
         });
         if (this.config.enableStats) {
@@ -26763,7 +26694,7 @@ class pusher_Pusher {
             });
         }
         var getStrategy = (options) => {
-            return runtime.getDefaultStrategy(this.config, options, strategy_builder_defineTransport);
+            return runtime.getDefaultStrategy(this.config, options, defineTransport);
         };
         this.connection = factory.createConnectionManager(this.key, {
             getStrategy: getStrategy,
@@ -26801,12 +26732,19 @@ class pusher_Pusher {
         this.connection.bind('error', (err) => {
             logger.warn(err);
         });
-        pusher_Pusher.instances.push(this);
-        this.timeline.info({ instances: pusher_Pusher.instances.length });
-        this.user = new user_UserFacade(this);
-        if (pusher_Pusher.isReady) {
+        Pusher.instances.push(this);
+        this.timeline.info({ instances: Pusher.instances.length });
+        this.user = new UserFacade(this);
+        if (Pusher.isReady) {
             this.connect();
         }
+    }
+    switchCluster(options) {
+        const { appKey, cluster } = options;
+        this.key = appKey;
+        this.options = Object.assign(Object.assign({}, this.options), { cluster });
+        this.config = getConfig(this.options, this);
+        this.connection.switchCluster(this.key);
     }
     channel(name) {
         return this.channels.find(name);
@@ -26820,7 +26758,7 @@ class pusher_Pusher {
             if (!this.timelineSenderTimer) {
                 var usingTLS = this.connection.isUsingTLS();
                 var timelineSender = this.timelineSender;
-                this.timelineSenderTimer = new timers_PeriodicTimer(60000, function () {
+                this.timelineSenderTimer = new PeriodicTimer(60000, function () {
                     timelineSender.send(usingTLS);
                 });
             }
@@ -26894,24 +26832,78 @@ class pusher_Pusher {
         this.user.signin();
     }
 }
-pusher_Pusher.instances = [];
-pusher_Pusher.isReady = false;
-pusher_Pusher.logToConsole = false;
-pusher_Pusher.Runtime = runtime;
-pusher_Pusher.ScriptReceivers = runtime.ScriptReceivers;
-pusher_Pusher.DependenciesReceivers = runtime.DependenciesReceivers;
-pusher_Pusher.auth_callbacks = runtime.auth_callbacks;
-/* harmony default export */ var core_pusher = __nested_webpack_exports__["default"] = (pusher_Pusher);
+Pusher.instances = [];
+Pusher.isReady = false;
+Pusher.logToConsole = false;
+Pusher.Runtime = runtime;
+Pusher.ScriptReceivers = runtime.ScriptReceivers;
+Pusher.DependenciesReceivers = runtime.DependenciesReceivers;
+Pusher.auth_callbacks = runtime.auth_callbacks;
+/* harmony default export */ const pusher = (Pusher);
 function checkAppKey(key) {
     if (key === null || key === undefined) {
         throw 'You must pass your app key when you instantiate Pusher.';
     }
 }
-runtime.setup(pusher_Pusher);
+runtime.setup(Pusher);
 
 
-/***/ })
-/******/ ]);
+/***/ }
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __nested_webpack_require_141953__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __nested_webpack_require_141953__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__nested_webpack_require_141953__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__nested_webpack_require_141953__.o(definition, key) && !__nested_webpack_require_141953__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__nested_webpack_require_141953__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module used 'module' so it can't be inlined
+/******/ 	var __nested_webpack_exports__ = __nested_webpack_require_141953__(721);
+/******/ 	
+/******/ 	return __nested_webpack_exports__;
+/******/ })()
+;
 });
 //# sourceMappingURL=pusher.js.map
 
@@ -27862,11 +27854,13 @@ const knownAdapters = {
 _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(knownAdapters, (fn, value) => {
   if (fn) {
     try {
-      Object.defineProperty(fn, 'name', { value });
+      // Null-proto descriptors so a polluted Object.prototype.get cannot turn
+      // these data descriptors into accessor descriptors on the way in.
+      Object.defineProperty(fn, 'name', { __proto__: null, value });
     } catch (e) {
       // eslint-disable-next-line no-empty
     }
-    Object.defineProperty(fn, 'adapterName', { value });
+    Object.defineProperty(fn, 'adapterName', { __proto__: null, value });
   }
 });
 
@@ -27990,6 +27984,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../helpers/progressEventReducer.js */ "./node_modules/axios/lib/helpers/progressEventReducer.js");
 /* harmony import */ var _helpers_resolveConfig_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../helpers/resolveConfig.js */ "./node_modules/axios/lib/helpers/resolveConfig.js");
 /* harmony import */ var _core_settle_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../core/settle.js */ "./node_modules/axios/lib/core/settle.js");
+/* harmony import */ var _helpers_estimateDataURLDecodedBytes_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helpers/estimateDataURLDecodedBytes.js */ "./node_modules/axios/lib/helpers/estimateDataURLDecodedBytes.js");
+/* harmony import */ var _env_data_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../env/data.js */ "./node_modules/axios/lib/env/data.js");
+/* harmony import */ var _helpers_sanitizeHeaderValue_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../helpers/sanitizeHeaderValue.js */ "./node_modules/axios/lib/helpers/sanitizeHeaderValue.js");
+
+
+
 
 
 
@@ -28004,13 +28004,6 @@ const DEFAULT_CHUNK_SIZE = 64 * 1024;
 
 const { isFunction } = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"];
 
-const globalFetchAPI = (({ Request, Response }) => ({
-  Request,
-  Response,
-}))(_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].global);
-
-const { ReadableStream, TextEncoder } = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].global;
-
 const test = (fn, ...args) => {
   try {
     return !!fn(...args);
@@ -28020,11 +28013,20 @@ const test = (fn, ...args) => {
 };
 
 const factory = (env) => {
+  const globalObject =
+    _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].global !== undefined && _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].global !== null
+      ? _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].global
+      : globalThis;
+  const { ReadableStream, TextEncoder } = globalObject;
+
   env = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].merge.call(
     {
       skipUndefined: true,
     },
-    globalFetchAPI,
+    {
+      Request: globalObject.Request,
+      Response: globalObject.Response,
+    },
     env
   );
 
@@ -28054,18 +28056,20 @@ const factory = (env) => {
     test(() => {
       let duplexAccessed = false;
 
-      const body = new ReadableStream();
-
-      const hasContentType = new Request(_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].origin, {
-        body,
+      const request = new Request(_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].origin, {
+        body: new ReadableStream(),
         method: 'POST',
         get duplex() {
           duplexAccessed = true;
           return 'half';
         },
-      }).headers.has('Content-Type');
+      });
 
-      body.cancel();
+      const hasContentType = request.headers.has('Content-Type');
+
+      if (request.body != null) {
+        request.body.cancel();
+      }
 
       return duplexAccessed && !hasContentType;
     });
@@ -28149,7 +28153,12 @@ const factory = (env) => {
       headers,
       withCredentials = 'same-origin',
       fetchOptions,
+      maxContentLength,
+      maxBodyLength,
     } = (0,_helpers_resolveConfig_js__WEBPACK_IMPORTED_MODULE_7__["default"])(config);
+
+    const hasMaxContentLength = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isNumber(maxContentLength) && maxContentLength > -1;
+    const hasMaxBodyLength = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isNumber(maxBodyLength) && maxBodyLength > -1;
 
     let _fetch = envFetch || fetch;
 
@@ -28172,6 +28181,41 @@ const factory = (env) => {
     let requestContentLength;
 
     try {
+      // Enforce maxContentLength for data: URLs up-front so we never materialize
+      // an oversized payload. The HTTP adapter applies the same check (see http.js
+      // "if (protocol === 'data:')" branch).
+      if (hasMaxContentLength && typeof url === 'string' && url.startsWith('data:')) {
+        const estimated = (0,_helpers_estimateDataURLDecodedBytes_js__WEBPACK_IMPORTED_MODULE_9__["default"])(url);
+        if (estimated > maxContentLength) {
+          throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"](
+            'maxContentLength size of ' + maxContentLength + ' exceeded',
+            _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"].ERR_BAD_RESPONSE,
+            config,
+            request
+          );
+        }
+      }
+
+      // Enforce maxBodyLength against the outbound request body before dispatch.
+      // Mirrors http.js behavior (ERR_BAD_REQUEST / 'Request body larger than
+      // maxBodyLength limit'). Skip when the body length cannot be determined
+      // (e.g. a live ReadableStream supplied by the caller).
+      if (hasMaxBodyLength && method !== 'get' && method !== 'head') {
+        const outboundLength = await resolveBodyLength(headers, data);
+        if (
+          typeof outboundLength === 'number' &&
+          isFinite(outboundLength) &&
+          outboundLength > maxBodyLength
+        ) {
+          throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"](
+            'Request body larger than maxBodyLength limit',
+            _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"].ERR_BAD_REQUEST,
+            config,
+            request
+          );
+        }
+      }
+
       if (
         onUploadProgress &&
         supportsRequestStream &&
@@ -28209,11 +28253,27 @@ const factory = (env) => {
       // see https://github.com/cloudflare/workerd/issues/902
       const isCredentialsSupported = isRequestSupported && 'credentials' in Request.prototype;
 
+      // If data is FormData and Content-Type is multipart/form-data without boundary,
+      // delete it so fetch can set it correctly with the boundary
+      if (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isFormData(data)) {
+        const contentType = headers.getContentType();
+        if (
+          contentType &&
+          /^multipart\/form-data/i.test(contentType) &&
+          !/boundary=/i.test(contentType)
+        ) {
+          headers.delete('content-type');
+        }
+      }
+
+      // Set User-Agent header if not already set (fetch defaults to 'node' in Node.js)
+      headers.set('User-Agent', 'axios/' + _env_data_js__WEBPACK_IMPORTED_MODULE_10__.VERSION, false);
+
       const resolvedOptions = {
         ...fetchOptions,
         signal: composedSignal,
         method: method.toUpperCase(),
-        headers: headers.normalize().toJSON(),
+        headers: (0,_helpers_sanitizeHeaderValue_js__WEBPACK_IMPORTED_MODULE_11__.toByteStringHeaderObject)(headers.normalize()),
         body: data,
         duplex: 'half',
         credentials: isCredentialsSupported ? withCredentials : undefined,
@@ -28225,10 +28285,28 @@ const factory = (env) => {
         ? _fetch(request, fetchOptions)
         : _fetch(url, resolvedOptions));
 
+      // Cheap pre-check: if the server honestly declares a content-length that
+      // already exceeds the cap, reject before we start streaming.
+      if (hasMaxContentLength) {
+        const declaredLength = _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].toFiniteNumber(response.headers.get('content-length'));
+        if (declaredLength != null && declaredLength > maxContentLength) {
+          throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"](
+            'maxContentLength size of ' + maxContentLength + ' exceeded',
+            _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"].ERR_BAD_RESPONSE,
+            config,
+            request
+          );
+        }
+      }
+
       const isStreamResponse =
         supportsResponseStream && (responseType === 'stream' || responseType === 'response');
 
-      if (supportsResponseStream && (onDownloadProgress || (isStreamResponse && unsubscribe))) {
+      if (
+        supportsResponseStream &&
+        response.body &&
+        (onDownloadProgress || hasMaxContentLength || (isStreamResponse && unsubscribe))
+      ) {
         const options = {};
 
         ['status', 'statusText', 'headers'].forEach((prop) => {
@@ -28245,8 +28323,24 @@ const factory = (env) => {
             )) ||
           [];
 
+        let bytesRead = 0;
+        const onChunkProgress = (loadedBytes) => {
+          if (hasMaxContentLength) {
+            bytesRead = loadedBytes;
+            if (bytesRead > maxContentLength) {
+              throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"](
+                'maxContentLength size of ' + maxContentLength + ' exceeded',
+                _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"].ERR_BAD_RESPONSE,
+                config,
+                request
+              );
+            }
+          }
+          onProgress && onProgress(loadedBytes);
+        };
+
         response = new Response(
-          (0,_helpers_trackStream_js__WEBPACK_IMPORTED_MODULE_4__.trackStream)(response.body, DEFAULT_CHUNK_SIZE, onProgress, () => {
+          (0,_helpers_trackStream_js__WEBPACK_IMPORTED_MODULE_4__.trackStream)(response.body, DEFAULT_CHUNK_SIZE, onChunkProgress, () => {
             flush && flush();
             unsubscribe && unsubscribe();
           }),
@@ -28260,6 +28354,33 @@ const factory = (env) => {
         response,
         config
       );
+
+      // Fallback enforcement for environments without ReadableStream support
+      // (legacy runtimes). Detect materialized size from typed output; skip
+      // streams/Response passthrough since the user will read those themselves.
+      if (hasMaxContentLength && !supportsResponseStream && !isStreamResponse) {
+        let materializedSize;
+        if (responseData != null) {
+          if (typeof responseData.byteLength === 'number') {
+            materializedSize = responseData.byteLength;
+          } else if (typeof responseData.size === 'number') {
+            materializedSize = responseData.size;
+          } else if (typeof responseData === 'string') {
+            materializedSize =
+              typeof TextEncoder === 'function'
+                ? new TextEncoder().encode(responseData).byteLength
+                : responseData.length;
+          }
+        }
+        if (typeof materializedSize === 'number' && materializedSize > maxContentLength) {
+          throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"](
+            'maxContentLength size of ' + maxContentLength + ' exceeded',
+            _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"].ERR_BAD_RESPONSE,
+            config,
+            request
+          );
+        }
+      }
 
       !isStreamResponse && unsubscribe && unsubscribe();
 
@@ -28275,6 +28396,17 @@ const factory = (env) => {
       });
     } catch (err) {
       unsubscribe && unsubscribe();
+
+      // Safari can surface fetch aborts as a DOMException-like object whose
+      // branded getters throw. Prefer our composed signal reason before reading
+      // the caught error, preserving timeout vs cancellation semantics.
+      if (composedSignal && composedSignal.aborted && composedSignal.reason instanceof _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_2__["default"]) {
+        const canceledError = composedSignal.reason;
+        canceledError.config = config;
+        request && (canceledError.request = request);
+        err !== canceledError && (canceledError.cause = err);
+        throw canceledError;
+      }
 
       if (err && err.name === 'TypeError' && /Load failed|fetch/i.test(err.message)) {
         throw Object.assign(
@@ -28349,6 +28481,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../core/AxiosHeaders.js */ "./node_modules/axios/lib/core/AxiosHeaders.js");
 /* harmony import */ var _helpers_progressEventReducer_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helpers/progressEventReducer.js */ "./node_modules/axios/lib/helpers/progressEventReducer.js");
 /* harmony import */ var _helpers_resolveConfig_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helpers/resolveConfig.js */ "./node_modules/axios/lib/helpers/resolveConfig.js");
+/* harmony import */ var _helpers_sanitizeHeaderValue_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../helpers/sanitizeHeaderValue.js */ "./node_modules/axios/lib/helpers/sanitizeHeaderValue.js");
+
 
 
 
@@ -28442,7 +28576,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
           // will return status as 0 even though it's a successful request
           if (
             request.status === 0 &&
-            !(request.responseURL && request.responseURL.indexOf('file:') === 0)
+            !(request.responseURL && request.responseURL.startsWith('file:'))
           ) {
             return;
           }
@@ -28459,6 +28593,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
         }
 
         reject(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"]('Request aborted', _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"].ECONNABORTED, config, request));
+        done();
 
         // Clean up request
         request = null;
@@ -28474,6 +28609,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
         // attach the underlying event for consumers who want details
         err.event = event || null;
         reject(err);
+        done();
         request = null;
       };
 
@@ -28494,6 +28630,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
             request
           )
         );
+        done();
 
         // Clean up request
         request = null;
@@ -28504,7 +28641,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
 
       // Add headers to the request
       if ('setRequestHeader' in request) {
-        _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(requestHeaders.toJSON(), function setRequestHeader(val, key) {
+        _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach((0,_helpers_sanitizeHeaderValue_js__WEBPACK_IMPORTED_MODULE_10__.toByteStringHeaderObject)(requestHeaders), function setRequestHeader(val, key) {
           request.setRequestHeader(key, val);
         });
       }
@@ -28543,6 +28680,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
           }
           reject(!cancel || cancel.type ? new _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_4__["default"](null, config, request) : cancel);
           request.abort();
+          done();
           request = null;
         };
 
@@ -28556,7 +28694,7 @@ const isXHRAdapterSupported = typeof XMLHttpRequest !== 'undefined';
 
       const protocol = (0,_helpers_parseProtocol_js__WEBPACK_IMPORTED_MODULE_5__["default"])(_config.url);
 
-      if (protocol && _platform_index_js__WEBPACK_IMPORTED_MODULE_6__["default"].protocols.indexOf(protocol) === -1) {
+      if (protocol && !_platform_index_js__WEBPACK_IMPORTED_MODULE_6__["default"].protocols.includes(protocol)) {
         reject(
           new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_3__["default"](
             'Unsupported protocol ' + protocol + ':',
@@ -28973,13 +29111,29 @@ class Axios {
         Error.captureStackTrace ? Error.captureStackTrace(dummy) : (dummy = new Error());
 
         // slice off the Error: ... line
-        const stack = dummy.stack ? dummy.stack.replace(/^.+\n/, '') : '';
+        const stack = (() => {
+          if (!dummy.stack) {
+            return '';
+          }
+
+          const firstNewlineIndex = dummy.stack.indexOf('\n');
+
+          return firstNewlineIndex === -1 ? '' : dummy.stack.slice(firstNewlineIndex + 1);
+        })();
         try {
           if (!err.stack) {
             err.stack = stack;
             // match without the 2 top stack lines
-          } else if (stack && !String(err.stack).endsWith(stack.replace(/^.+\n.+\n/, ''))) {
-            err.stack += '\n' + stack;
+          } else if (stack) {
+            const firstNewlineIndex = stack.indexOf('\n');
+            const secondNewlineIndex =
+              firstNewlineIndex === -1 ? -1 : stack.indexOf('\n', firstNewlineIndex + 1);
+            const stackWithoutTwoTopLines =
+              secondNewlineIndex === -1 ? '' : stack.slice(secondNewlineIndex + 1);
+
+            if (!String(err.stack).endsWith(stackWithoutTwoTopLines)) {
+              err.stack += '\n' + stack;
+            }
           }
         } catch (e) {
           // ignore the case where "stack" is an un-writable property
@@ -29059,7 +29213,7 @@ class Axios {
     let contextHeaders = headers && _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].merge(headers.common, headers[config.method]);
 
     headers &&
-      _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['delete', 'get', 'head', 'post', 'put', 'patch', 'common'], (method) => {
+      _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['delete', 'get', 'head', 'post', 'put', 'patch', 'query', 'common'], (method) => {
         delete headers[method];
       });
 
@@ -29162,7 +29316,7 @@ _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['delete', 'get', 'hea
   };
 });
 
-_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['post', 'put', 'patch', 'query'], function forEachMethodWithData(method) {
   function generateHTTPMethod(isForm) {
     return function httpMethod(url, data, config) {
       return this.request(
@@ -29182,7 +29336,11 @@ _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['post', 'put', 'patch
 
   Axios.prototype[method] = generateHTTPMethod();
 
-  Axios.prototype[method + 'Form'] = generateHTTPMethod(true);
+  // QUERY is a safe/idempotent read method; multipart form bodies don't fit
+  // its semantics, so no queryForm shorthand is generated.
+  if (method !== 'query') {
+    Axios.prototype[method + 'Form'] = generateHTTPMethod(true);
+  }
 });
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Axios);
@@ -29202,9 +29360,80 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
+/* harmony import */ var _AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AxiosHeaders.js */ "./node_modules/axios/lib/core/AxiosHeaders.js");
 
 
 
+
+
+const REDACTED = '[REDACTED ****]';
+
+function hasOwnOrPrototypeToJSON(source) {
+  if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(source, 'toJSON')) {
+    return true;
+  }
+
+  let prototype = Object.getPrototypeOf(source);
+
+  while (prototype && prototype !== Object.prototype) {
+    if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(prototype, 'toJSON')) {
+      return true;
+    }
+
+    prototype = Object.getPrototypeOf(prototype);
+  }
+
+  return false;
+}
+
+// Build a plain-object snapshot of `config` and replace the value of any key
+// (case-insensitive) listed in `redactKeys` with REDACTED. Walks through arrays
+// and AxiosHeaders, and short-circuits on circular references.
+function redactConfig(config, redactKeys) {
+  const lowerKeys = new Set(redactKeys.map((k) => String(k).toLowerCase()));
+  const seen = [];
+
+  const visit = (source) => {
+    if (source === null || typeof source !== 'object') return source;
+    if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isBuffer(source)) return source;
+    if (seen.indexOf(source) !== -1) return undefined;
+
+    if (source instanceof _AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_1__["default"]) {
+      source = source.toJSON();
+    }
+
+    seen.push(source);
+
+    let result;
+    if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isArray(source)) {
+      result = [];
+      source.forEach((v, i) => {
+        const reducedValue = visit(v);
+        if (!_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isUndefined(reducedValue)) {
+          result[i] = reducedValue;
+        }
+      });
+    } else {
+      if (!_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isPlainObject(source) && hasOwnOrPrototypeToJSON(source)) {
+        seen.pop();
+        return source;
+      }
+
+      result = Object.create(null);
+      for (const [key, value] of Object.entries(source)) {
+        const reducedValue = lowerKeys.has(key.toLowerCase()) ? REDACTED : visit(value);
+        if (!_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isUndefined(reducedValue)) {
+          result[key] = reducedValue;
+        }
+      }
+    }
+
+    seen.pop();
+    return result;
+  };
+
+  return visit(config);
+}
 
 class AxiosError extends Error {
   static from(error, code, config, request, response, customProps) {
@@ -29221,42 +29450,56 @@ class AxiosError extends Error {
     return axiosError;
   }
 
-    /**
-     * Create an Error with the specified message, config, error code, request and response.
-     *
-     * @param {string} message The error message.
-     * @param {string} [code] The error code (for example, 'ECONNABORTED').
-     * @param {Object} [config] The config.
-     * @param {Object} [request] The request.
-     * @param {Object} [response] The response.
-     *
-     * @returns {Error} The created error.
-     */
-    constructor(message, code, config, request, response) {
-      super(message);
-      
-      // Make message enumerable to maintain backward compatibility
-      // The native Error constructor sets message as non-enumerable,
-      // but axios < v1.13.3 had it as enumerable
-      Object.defineProperty(this, 'message', {
-          value: message,
-          enumerable: true,
-          writable: true,
-          configurable: true
-      });
-      
-      this.name = 'AxiosError';
-      this.isAxiosError = true;
-      code && (this.code = code);
-      config && (this.config = config);
-      request && (this.request = request);
-      if (response) {
-          this.response = response;
-          this.status = response.status;
-      }
+  /**
+   * Create an Error with the specified message, config, error code, request and response.
+   *
+   * @param {string} message The error message.
+   * @param {string} [code] The error code (for example, 'ECONNABORTED').
+   * @param {Object} [config] The config.
+   * @param {Object} [request] The request.
+   * @param {Object} [response] The response.
+   *
+   * @returns {Error} The created error.
+   */
+  constructor(message, code, config, request, response) {
+    super(message);
+
+    // Make message enumerable to maintain backward compatibility
+    // The native Error constructor sets message as non-enumerable,
+    // but axios < v1.13.3 had it as enumerable
+    Object.defineProperty(this, 'message', {
+      // Null-proto descriptor so a polluted Object.prototype.get cannot turn
+      // this data descriptor into an accessor descriptor on the way in.
+      __proto__: null,
+      value: message,
+      enumerable: true,
+      writable: true,
+      configurable: true,
+    });
+
+    this.name = 'AxiosError';
+    this.isAxiosError = true;
+    code && (this.code = code);
+    config && (this.config = config);
+    request && (this.request = request);
+    if (response) {
+      this.response = response;
+      this.status = response.status;
     }
+  }
 
   toJSON() {
+    // Opt-in redaction: when the request config carries a `redact` array, the
+    // value of any matching key (case-insensitive, at any depth) is replaced
+    // with REDACTED in the serialized snapshot. Undefined or empty leaves the
+    // existing serialization behavior unchanged.
+    const config = this.config;
+    const redactKeys = config && _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(config, 'redact') ? config.redact : undefined;
+    const serializedConfig =
+      _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isArray(redactKeys) && redactKeys.length > 0
+        ? redactConfig(config, redactKeys)
+        : _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].toJSONObject(config);
+
     return {
       // Standard
       message: this.message,
@@ -29270,7 +29513,7 @@ class AxiosError extends Error {
       columnNumber: this.columnNumber,
       stack: this.stack,
       // Axios
-      config: _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].toJSONObject(this.config),
+      config: serializedConfig,
       code: this.code,
       status: this.status,
     };
@@ -29282,6 +29525,7 @@ AxiosError.ERR_BAD_OPTION_VALUE = 'ERR_BAD_OPTION_VALUE';
 AxiosError.ERR_BAD_OPTION = 'ERR_BAD_OPTION';
 AxiosError.ECONNABORTED = 'ECONNABORTED';
 AxiosError.ETIMEDOUT = 'ETIMEDOUT';
+AxiosError.ECONNREFUSED = 'ECONNREFUSED';
 AxiosError.ERR_NETWORK = 'ERR_NETWORK';
 AxiosError.ERR_FR_TOO_MANY_REDIRECTS = 'ERR_FR_TOO_MANY_REDIRECTS';
 AxiosError.ERR_DEPRECATED = 'ERR_DEPRECATED';
@@ -29290,6 +29534,7 @@ AxiosError.ERR_BAD_REQUEST = 'ERR_BAD_REQUEST';
 AxiosError.ERR_CANCELED = 'ERR_CANCELED';
 AxiosError.ERR_NOT_SUPPORT = 'ERR_NOT_SUPPORT';
 AxiosError.ERR_INVALID_URL = 'ERR_INVALID_URL';
+AxiosError.ERR_FORM_DATA_DEPTH_EXCEEDED = 'ERR_FORM_DATA_DEPTH_EXCEEDED';
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AxiosError);
 
@@ -29309,6 +29554,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
 /* harmony import */ var _helpers_parseHeaders_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/parseHeaders.js */ "./node_modules/axios/lib/helpers/parseHeaders.js");
+/* harmony import */ var _helpers_sanitizeHeaderValue_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../helpers/sanitizeHeaderValue.js */ "./node_modules/axios/lib/helpers/sanitizeHeaderValue.js");
+
 
 
 
@@ -29325,9 +29572,7 @@ function normalizeValue(value) {
     return value;
   }
 
-  return _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isArray(value)
-    ? value.map(normalizeValue)
-    : String(value).replace(/[\r\n]+$/, '');
+  return _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isArray(value) ? value.map(normalizeValue) : (0,_helpers_sanitizeHeaderValue_js__WEBPACK_IMPORTED_MODULE_2__.sanitizeHeaderValue)(String(value));
 }
 
 function parseTokens(str) {
@@ -29378,6 +29623,9 @@ function buildAccessors(obj, header) {
 
   ['get', 'set', 'has'].forEach((methodName) => {
     Object.defineProperty(obj, methodName + accessorName, {
+      // Null-proto descriptor so a polluted Object.prototype.get cannot turn
+      // this data descriptor into an accessor descriptor on the way in.
+      __proto__: null,
       value: function (arg1, arg2, arg3) {
         return this[methodName].call(this, header, arg1, arg2, arg3);
       },
@@ -29777,7 +30025,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 function buildFullPath(baseURL, requestedURL, allowAbsoluteUrls) {
   let isRelativeUrl = !(0,_helpers_isAbsoluteURL_js__WEBPACK_IMPORTED_MODULE_0__["default"])(requestedURL);
-  if (baseURL && (isRelativeUrl || allowAbsoluteUrls == false)) {
+  if (baseURL && (isRelativeUrl || allowAbsoluteUrls === false)) {
     return (0,_helpers_combineURLs_js__WEBPACK_IMPORTED_MODULE_1__["default"])(baseURL, requestedURL);
   }
   return requestedURL;
@@ -29854,8 +30102,15 @@ function dispatchRequest(config) {
     function onAdapterResolution(response) {
       throwIfCancellationRequested(config);
 
-      // Transform response data
-      response.data = _transformData_js__WEBPACK_IMPORTED_MODULE_0__["default"].call(config, config.transformResponse, response);
+      // Expose the current response on config so that transformResponse can
+      // attach it to any AxiosError it throws (e.g. on JSON parse failure).
+      // We clean it up afterwards to avoid polluting the config object.
+      config.response = response;
+      try {
+        response.data = _transformData_js__WEBPACK_IMPORTED_MODULE_0__["default"].call(config, config.transformResponse, response);
+      } finally {
+        delete config.response;
+      }
 
       response.headers = _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_4__["default"].from(response.headers);
 
@@ -29867,11 +30122,16 @@ function dispatchRequest(config) {
 
         // Transform response data
         if (reason && reason.response) {
-          reason.response.data = _transformData_js__WEBPACK_IMPORTED_MODULE_0__["default"].call(
-            config,
-            config.transformResponse,
-            reason.response
-          );
+          config.response = reason.response;
+          try {
+            reason.response.data = _transformData_js__WEBPACK_IMPORTED_MODULE_0__["default"].call(
+              config,
+              config.transformResponse,
+              reason.response
+            );
+          } finally {
+            delete config.response;
+          }
           reason.response.headers = _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_4__["default"].from(reason.response.headers);
         }
       }
@@ -29916,7 +30176,21 @@ const headersToObject = (thing) => (thing instanceof _AxiosHeaders_js__WEBPACK_I
 function mergeConfig(config1, config2) {
   // eslint-disable-next-line no-param-reassign
   config2 = config2 || {};
-  const config = {};
+
+  // Use a null-prototype object so that downstream reads such as `config.auth`
+  // or `config.baseURL` cannot inherit polluted values from Object.prototype.
+  // `hasOwnProperty` is restored as a non-enumerable own slot to preserve
+  // ergonomics for user code that relies on it.
+  const config = Object.create(null);
+  Object.defineProperty(config, 'hasOwnProperty', {
+    // Null-proto descriptor so a polluted Object.prototype.get cannot turn
+    // this data descriptor into an accessor descriptor on the way in.
+    __proto__: null,
+    value: Object.prototype.hasOwnProperty,
+    enumerable: false,
+    writable: true,
+    configurable: true,
+  });
 
   function getMergedValue(target, source, prop, caseless) {
     if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isPlainObject(target) && _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isPlainObject(source)) {
@@ -29955,9 +30229,9 @@ function mergeConfig(config1, config2) {
 
   // eslint-disable-next-line consistent-return
   function mergeDirectKeys(a, b, prop) {
-    if (prop in config2) {
+    if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(config2, prop)) {
       return getMergedValue(a, b);
-    } else if (prop in config1) {
+    } else if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(config1, prop)) {
       return getMergedValue(undefined, a);
     }
   }
@@ -29989,6 +30263,7 @@ function mergeConfig(config1, config2) {
     httpsAgent: defaultToConfig2,
     cancelToken: defaultToConfig2,
     socketPath: defaultToConfig2,
+    allowedSocketPaths: defaultToConfig2,
     responseEncoding: defaultToConfig2,
     validateStatus: mergeDirectKeys,
     headers: (a, b, prop) =>
@@ -29998,7 +30273,9 @@ function mergeConfig(config1, config2) {
   _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(Object.keys({ ...config1, ...config2 }), function computeConfigValue(prop) {
     if (prop === '__proto__' || prop === 'constructor' || prop === 'prototype') return;
     const merge = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(mergeMap, prop) ? mergeMap[prop] : mergeDeepProperties;
-    const configValue = merge(config1[prop], config2[prop], prop);
+    const a = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(config1, prop) ? config1[prop] : undefined;
+    const b = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(config2, prop) ? config2[prop] : undefined;
+    const configValue = merge(a, b, prop);
     (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isUndefined(configValue) && merge !== mergeDirectKeys) || (config[prop] = configValue);
   });
 
@@ -30038,17 +30315,13 @@ function settle(resolve, reject, response) {
   if (!response.status || !validateStatus || validateStatus(response.status)) {
     resolve(response);
   } else {
-    reject(
-      new _AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"](
-        'Request failed with status code ' + response.status,
-        [_AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"].ERR_BAD_REQUEST, _AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"].ERR_BAD_RESPONSE][
-          Math.floor(response.status / 100) - 4
-        ],
-        response.config,
-        response.request,
-        response
-      )
-    );
+    reject(new _AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"](
+      'Request failed with status code ' + response.status,
+      response.status >= 400 && response.status < 500 ? _AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"].ERR_BAD_REQUEST : _AxiosError_js__WEBPACK_IMPORTED_MODULE_0__["default"].ERR_BAD_RESPONSE,
+      response.config,
+      response.request,
+      response
+    ));
   }
 }
 
@@ -30129,6 +30402,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const own = (obj, key) => (obj != null && _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(obj, key) ? obj[key] : undefined);
+
 /**
  * It takes a string, tries to parse it, and if it fails, it returns the stringified version
  * of the input
@@ -30196,20 +30471,22 @@ const defaults = {
       let isFileList;
 
       if (isObjectPayload) {
+        const formSerializer = own(this, 'formSerializer');
         if (contentType.indexOf('application/x-www-form-urlencoded') > -1) {
-          return (0,_helpers_toURLEncodedForm_js__WEBPACK_IMPORTED_MODULE_4__["default"])(data, this.formSerializer).toString();
+          return (0,_helpers_toURLEncodedForm_js__WEBPACK_IMPORTED_MODULE_4__["default"])(data, formSerializer).toString();
         }
 
         if (
           (isFileList = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isFileList(data)) ||
           contentType.indexOf('multipart/form-data') > -1
         ) {
-          const _FormData = this.env && this.env.FormData;
+          const env = own(this, 'env');
+          const _FormData = env && env.FormData;
 
           return (0,_helpers_toFormData_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
             isFileList ? { 'files[]': data } : data,
             _FormData && new _FormData(),
-            this.formSerializer
+            formSerializer
           );
         }
       }
@@ -30225,9 +30502,10 @@ const defaults = {
 
   transformResponse: [
     function transformResponse(data) {
-      const transitional = this.transitional || defaults.transitional;
+      const transitional = own(this, 'transitional') || defaults.transitional;
       const forcedJSONParsing = transitional && transitional.forcedJSONParsing;
-      const JSONRequested = this.responseType === 'json';
+      const responseType = own(this, 'responseType');
+      const JSONRequested = responseType === 'json';
 
       if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isResponse(data) || _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isReadableStream(data)) {
         return data;
@@ -30236,17 +30514,17 @@ const defaults = {
       if (
         data &&
         _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isString(data) &&
-        ((forcedJSONParsing && !this.responseType) || JSONRequested)
+        ((forcedJSONParsing && !responseType) || JSONRequested)
       ) {
         const silentJSONParsing = transitional && transitional.silentJSONParsing;
         const strictJSONParsing = !silentJSONParsing && JSONRequested;
 
         try {
-          return JSON.parse(data, this.parseReviver);
+          return JSON.parse(data, own(this, 'parseReviver'));
         } catch (e) {
           if (strictJSONParsing) {
             if (e.name === 'SyntaxError') {
-              throw _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"].from(e, _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"].ERR_BAD_RESPONSE, this, null, this.response);
+              throw _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"].from(e, _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"].ERR_BAD_RESPONSE, this, null, own(this, 'response'));
             }
             throw e;
           }
@@ -30286,7 +30564,7 @@ const defaults = {
   },
 };
 
-_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['delete', 'get', 'head', 'post', 'put', 'patch'], (method) => {
+_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(['delete', 'get', 'head', 'post', 'put', 'patch', 'query'], (method) => {
   defaults.headers[method] = {};
 });
 
@@ -30329,7 +30607,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   VERSION: () => (/* binding */ VERSION)
 /* harmony export */ });
-const VERSION = "1.14.0";
+const VERSION = "1.16.1";
 
 /***/ },
 
@@ -30365,9 +30643,8 @@ function encode(str) {
     ')': '%29',
     '~': '%7E',
     '%20': '+',
-    '%00': '\x00',
   };
-  return encodeURIComponent(str).replace(/[!'()~]|%20|%00/g, function replacer(match) {
+  return encodeURIComponent(str).replace(/[!'()~]|%20/g, function replacer(match) {
     return charMap[match];
   });
 }
@@ -30541,7 +30818,8 @@ function bind(fn, thisArg) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ buildURL)
+/* harmony export */   "default": () => (/* binding */ buildURL),
+/* harmony export */   encode: () => (/* binding */ encode)
 /* harmony export */ });
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
 /* harmony import */ var _helpers_AxiosURLSearchParams_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/AxiosURLSearchParams.js */ "./node_modules/axios/lib/helpers/AxiosURLSearchParams.js");
@@ -30664,54 +30942,55 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const composeSignals = (signals, timeout) => {
-  const { length } = (signals = signals ? signals.filter(Boolean) : []);
+  signals = signals ? signals.filter(Boolean) : [];
 
-  if (timeout || length) {
-    let controller = new AbortController();
-
-    let aborted;
-
-    const onabort = function (reason) {
-      if (!aborted) {
-        aborted = true;
-        unsubscribe();
-        const err = reason instanceof Error ? reason : this.reason;
-        controller.abort(
-          err instanceof _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"]
-            ? err
-            : new _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_0__["default"](err instanceof Error ? err.message : err)
-        );
-      }
-    };
-
-    let timer =
-      timeout &&
-      setTimeout(() => {
-        timer = null;
-        onabort(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"](`timeout of ${timeout}ms exceeded`, _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"].ETIMEDOUT));
-      }, timeout);
-
-    const unsubscribe = () => {
-      if (signals) {
-        timer && clearTimeout(timer);
-        timer = null;
-        signals.forEach((signal) => {
-          signal.unsubscribe
-            ? signal.unsubscribe(onabort)
-            : signal.removeEventListener('abort', onabort);
-        });
-        signals = null;
-      }
-    };
-
-    signals.forEach((signal) => signal.addEventListener('abort', onabort));
-
-    const { signal } = controller;
-
-    signal.unsubscribe = () => _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].asap(unsubscribe);
-
-    return signal;
+  if (!timeout && !signals.length) {
+    return;
   }
+
+  const controller = new AbortController();
+
+  let aborted = false;
+
+  const onabort = function (reason) {
+    if (!aborted) {
+      aborted = true;
+      unsubscribe();
+      const err = reason instanceof Error ? reason : this.reason;
+      controller.abort(
+        err instanceof _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"]
+          ? err
+          : new _cancel_CanceledError_js__WEBPACK_IMPORTED_MODULE_0__["default"](err instanceof Error ? err.message : err)
+      );
+    }
+  };
+
+  let timer =
+    timeout &&
+    setTimeout(() => {
+      timer = null;
+      onabort(new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"](`timeout of ${timeout}ms exceeded`, _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"].ETIMEDOUT));
+    }, timeout);
+
+  const unsubscribe = () => {
+    if (!signals) { return; }
+    timer && clearTimeout(timer);
+    timer = null;
+    signals.forEach((signal) => {
+      signal.unsubscribe
+        ? signal.unsubscribe(onabort)
+        : signal.removeEventListener('abort', onabort);
+    });
+    signals = null;
+  };
+
+  signals.forEach((signal) => signal.addEventListener('abort', onabort));
+
+  const { signal } = controller;
+
+  signal.unsubscribe = () => _utils_js__WEBPACK_IMPORTED_MODULE_2__["default"].asap(unsubscribe);
+
+  return signal;
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (composeSignals);
@@ -30764,8 +31043,20 @@ __webpack_require__.r(__webpack_exports__);
 
       read(name) {
         if (typeof document === 'undefined') return null;
-        const match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
-        return match ? decodeURIComponent(match[1]) : null;
+        // Match name=value by splitting on the semicolon separator instead of building a
+        // RegExp from `name` — interpolating an unescaped string into a RegExp would let
+        // metacharacters (e.g. `.+?` in an attacker-influenced cookie name) cause ReDoS or
+        // match the wrong cookie. Browsers may serialize cookie pairs as either ";" or
+        // "; ", so ignore optional whitespace before each cookie name.
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+          const cookie = cookies[i].replace(/^\s+/, '');
+          const eq = cookie.indexOf('=');
+          if (eq !== -1 && cookie.slice(0, eq) === name) {
+            return decodeURIComponent(cookie.slice(eq + 1));
+          }
+        }
+        return null;
       },
 
       remove(name) {
@@ -30780,6 +31071,122 @@ __webpack_require__.r(__webpack_exports__);
       },
       remove() {},
     });
+
+
+/***/ },
+
+/***/ "./node_modules/axios/lib/helpers/estimateDataURLDecodedBytes.js"
+/*!***********************************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/estimateDataURLDecodedBytes.js ***!
+  \***********************************************************************/
+(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ estimateDataURLDecodedBytes)
+/* harmony export */ });
+/* provided dependency */ var Buffer = __webpack_require__(/*! buffer */ "./node_modules/buffer/index.js")["Buffer"];
+/**
+ * Estimate decoded byte length of a data:// URL *without* allocating large buffers.
+ * - For base64: compute exact decoded size using length and padding;
+ *               handle %XX at the character-count level (no string allocation).
+ * - For non-base64: use UTF-8 byteLength of the encoded body as a safe upper bound.
+ *
+ * @param {string} url
+ * @returns {number}
+ */
+function estimateDataURLDecodedBytes(url) {
+  if (!url || typeof url !== 'string') return 0;
+  if (!url.startsWith('data:')) return 0;
+
+  const comma = url.indexOf(',');
+  if (comma < 0) return 0;
+
+  const meta = url.slice(5, comma);
+  const body = url.slice(comma + 1);
+  const isBase64 = /;base64/i.test(meta);
+
+  if (isBase64) {
+    let effectiveLen = body.length;
+    const len = body.length; // cache length
+
+    for (let i = 0; i < len; i++) {
+      if (body.charCodeAt(i) === 37 /* '%' */ && i + 2 < len) {
+        const a = body.charCodeAt(i + 1);
+        const b = body.charCodeAt(i + 2);
+        const isHex =
+          ((a >= 48 && a <= 57) || (a >= 65 && a <= 70) || (a >= 97 && a <= 102)) &&
+          ((b >= 48 && b <= 57) || (b >= 65 && b <= 70) || (b >= 97 && b <= 102));
+
+        if (isHex) {
+          effectiveLen -= 2;
+          i += 2;
+        }
+      }
+    }
+
+    let pad = 0;
+    let idx = len - 1;
+
+    const tailIsPct3D = (j) =>
+      j >= 2 &&
+      body.charCodeAt(j - 2) === 37 && // '%'
+      body.charCodeAt(j - 1) === 51 && // '3'
+      (body.charCodeAt(j) === 68 || body.charCodeAt(j) === 100); // 'D' or 'd'
+
+    if (idx >= 0) {
+      if (body.charCodeAt(idx) === 61 /* '=' */) {
+        pad++;
+        idx--;
+      } else if (tailIsPct3D(idx)) {
+        pad++;
+        idx -= 3;
+      }
+    }
+
+    if (pad === 1 && idx >= 0) {
+      if (body.charCodeAt(idx) === 61 /* '=' */) {
+        pad++;
+      } else if (tailIsPct3D(idx)) {
+        pad++;
+      }
+    }
+
+    const groups = Math.floor(effectiveLen / 4);
+    const bytes = groups * 3 - (pad || 0);
+    return bytes > 0 ? bytes : 0;
+  }
+
+  if (typeof Buffer !== 'undefined' && typeof Buffer.byteLength === 'function') {
+    return Buffer.byteLength(body, 'utf8');
+  }
+
+  // Compute UTF-8 byte length directly from UTF-16 code units without allocating
+  // a byte buffer (TextEncoder.encode would defeat the DoS guard on large bodies).
+  // Using body.length here would undercount non-ASCII (e.g. '€' is 1 code unit
+  // but 3 UTF-8 bytes).
+  let bytes = 0;
+  for (let i = 0, len = body.length; i < len; i++) {
+    const c = body.charCodeAt(i);
+    if (c < 0x80) {
+      bytes += 1;
+    } else if (c < 0x800) {
+      bytes += 2;
+    } else if (c >= 0xd800 && c <= 0xdbff && i + 1 < len) {
+      const next = body.charCodeAt(i + 1);
+      if (next >= 0xdc00 && next <= 0xdfff) {
+        bytes += 4;
+        i++;
+      } else {
+        bytes += 3;
+      }
+    } else {
+      bytes += 3;
+    }
+  }
+  return bytes;
+}
 
 
 /***/ },
@@ -30856,7 +31263,9 @@ function formDataToJSON(formData) {
 
     if (isLast) {
       if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(target, name)) {
-        target[name] = [target[name], value];
+        target[name] = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isArray(target[name])
+          ? target[name].concat(value)
+          : [target[name], value];
       } else {
         target[name] = value;
       }
@@ -30864,7 +31273,7 @@ function formDataToJSON(formData) {
       return !isNumericKey;
     }
 
-    if (!target[name] || !_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isObject(target[name])) {
+    if (!_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasOwnProp(target, name) || !_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isObject(target[name])) {
       target[name] = [];
     }
 
@@ -31089,6 +31498,7 @@ const ignoreDuplicateOf = _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].toOb
 
   return parsed;
 });
+__webpack_require__.dn(__WEBPACK_DEFAULT_EXPORT__);
 
 
 /***/ },
@@ -31107,7 +31517,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function parseProtocol(url) {
-  const match = /^([-+\w]{1,25})(:?\/\/|:)/.exec(url);
+  const match = /^([-+\w]{1,25}):(?:\/\/)?/.exec(url);
   return (match && match[1]) || '';
 }
 
@@ -31139,13 +31549,16 @@ const progressEventReducer = (listener, isDownloadStream, freq = 3) => {
   const _speedometer = (0,_speedometer_js__WEBPACK_IMPORTED_MODULE_0__["default"])(50, 250);
 
   return (0,_throttle_js__WEBPACK_IMPORTED_MODULE_1__["default"])((e) => {
-    const loaded = e.loaded;
+    if (!e || typeof e.loaded !== 'number') {
+      return;
+    }
+    const rawLoaded = e.loaded;
     const total = e.lengthComputable ? e.total : undefined;
-    const progressBytes = loaded - bytesNotified;
+    const loaded = total != null ? Math.min(rawLoaded, total) : rawLoaded;
+    const progressBytes = Math.max(0, loaded - bytesNotified);
     const rate = _speedometer(progressBytes);
-    const inRange = loaded <= total;
 
-    bytesNotified = loaded;
+    bytesNotified = Math.max(bytesNotified, loaded);
 
     const data = {
       loaded,
@@ -31153,7 +31566,7 @@ const progressEventReducer = (listener, isDownloadStream, freq = 3) => {
       progress: total ? loaded / total : undefined,
       bytes: progressBytes,
       rate: rate ? rate : undefined,
-      estimated: rate && total && inRange ? (total - loaded) / rate : undefined,
+      estimated: rate && total ? (total - loaded) / rate : undefined,
       event: e,
       lengthComputable: total != null,
       [isDownloadStream ? 'download' : 'upload']: true,
@@ -31213,15 +31626,55 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const FORM_DATA_CONTENT_HEADERS = ['content-type', 'content-length'];
+
+function setFormDataHeaders(headers, formHeaders, policy) {
+  if (policy !== 'content-only') {
+    headers.set(formHeaders);
+    return;
+  }
+
+  Object.entries(formHeaders).forEach(([key, val]) => {
+    if (FORM_DATA_CONTENT_HEADERS.includes(key.toLowerCase())) {
+      headers.set(key, val);
+    }
+  });
+}
+
+/**
+ * Encode a UTF-8 string to a Latin-1 byte string for use with btoa().
+ * This is a modern replacement for the deprecated unescape(encodeURIComponent(str)) pattern.
+ *
+ * @param {string} str The string to encode
+ *
+ * @returns {string} UTF-8 bytes as a Latin-1 string
+ */
+const encodeUTF8 = (str) =>
+  encodeURIComponent(str).replace(/%([0-9A-F]{2})/gi, (_, hex) =>
+    String.fromCharCode(parseInt(hex, 16))
+  );
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((config) => {
   const newConfig = (0,_core_mergeConfig_js__WEBPACK_IMPORTED_MODULE_5__["default"])({}, config);
 
-  let { data, withXSRFToken, xsrfHeaderName, xsrfCookieName, headers, auth } = newConfig;
+  // Read only own properties to prevent prototype pollution gadgets
+  // (e.g. Object.prototype.baseURL = 'https://evil.com').
+  const own = (key) => (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].hasOwnProp(newConfig, key) ? newConfig[key] : undefined);
+
+  const data = own('data');
+  let withXSRFToken = own('withXSRFToken');
+  const xsrfHeaderName = own('xsrfHeaderName');
+  const xsrfCookieName = own('xsrfCookieName');
+  let headers = own('headers');
+  const auth = own('auth');
+  const baseURL = own('baseURL');
+  const allowAbsoluteUrls = own('allowAbsoluteUrls');
+  const url = own('url');
 
   newConfig.headers = headers = _core_AxiosHeaders_js__WEBPACK_IMPORTED_MODULE_6__["default"].from(headers);
 
   newConfig.url = (0,_buildURL_js__WEBPACK_IMPORTED_MODULE_7__["default"])(
-    (0,_core_buildFullPath_js__WEBPACK_IMPORTED_MODULE_4__["default"])(newConfig.baseURL, newConfig.url, newConfig.allowAbsoluteUrls),
+    (0,_core_buildFullPath_js__WEBPACK_IMPORTED_MODULE_4__["default"])(baseURL, url, allowAbsoluteUrls),
     config.params,
     config.paramsSerializer
   );
@@ -31231,11 +31684,7 @@ __webpack_require__.r(__webpack_exports__);
     headers.set(
       'Authorization',
       'Basic ' +
-        btoa(
-          (auth.username || '') +
-            ':' +
-            (auth.password ? unescape(encodeURIComponent(auth.password)) : '')
-        )
+        btoa((auth.username || '') + ':' + (auth.password ? encodeUTF8(auth.password) : ''))
     );
   }
 
@@ -31244,14 +31693,7 @@ __webpack_require__.r(__webpack_exports__);
       headers.setContentType(undefined); // browser handles it
     } else if (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isFunction(data.getHeaders)) {
       // Node.js FormData (like form-data package)
-      const formHeaders = data.getHeaders();
-      // Only set safe headers to avoid overwriting security headers
-      const allowedHeaders = ['content-type', 'content-length'];
-      Object.entries(formHeaders).forEach(([key, val]) => {
-        if (allowedHeaders.includes(key.toLowerCase())) {
-          headers.set(key, val);
-        }
-      });
+      setFormDataHeaders(headers, data.getHeaders(), own('formDataHeaderPolicy'));
     }
   }
 
@@ -31260,10 +31702,17 @@ __webpack_require__.r(__webpack_exports__);
   // Specifically not if we're in a web worker, or react-native.
 
   if (_platform_index_js__WEBPACK_IMPORTED_MODULE_0__["default"].hasStandardBrowserEnv) {
-    withXSRFToken && _utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isFunction(withXSRFToken) && (withXSRFToken = withXSRFToken(newConfig));
+    if (_utils_js__WEBPACK_IMPORTED_MODULE_1__["default"].isFunction(withXSRFToken)) {
+      withXSRFToken = withXSRFToken(newConfig);
+    }
 
-    if (withXSRFToken || (withXSRFToken !== false && (0,_isURLSameOrigin_js__WEBPACK_IMPORTED_MODULE_2__["default"])(newConfig.url))) {
-      // Add xsrf header
+    // Strict boolean check — prevents proto-pollution gadgets (e.g. Object.prototype.withXSRFToken = 1)
+    // and misconfigurations (e.g. "false") from short-circuiting the same-origin check and leaking
+    // the XSRF token cross-origin.
+    const shouldSendXSRF =
+      withXSRFToken === true || (withXSRFToken == null && (0,_isURLSameOrigin_js__WEBPACK_IMPORTED_MODULE_2__["default"])(newConfig.url));
+
+    if (shouldSendXSRF) {
       const xsrfValue = xsrfHeaderName && xsrfCookieName && _cookies_js__WEBPACK_IMPORTED_MODULE_3__["default"].read(xsrfCookieName);
 
       if (xsrfValue) {
@@ -31274,6 +31723,85 @@ __webpack_require__.r(__webpack_exports__);
 
   return newConfig;
 });
+__webpack_require__.dn(__WEBPACK_DEFAULT_EXPORT__);
+
+
+/***/ },
+
+/***/ "./node_modules/axios/lib/helpers/sanitizeHeaderValue.js"
+/*!***************************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/sanitizeHeaderValue.js ***!
+  \***************************************************************/
+(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   sanitizeByteStringHeaderValue: () => (/* binding */ sanitizeByteStringHeaderValue),
+/* harmony export */   sanitizeHeaderValue: () => (/* binding */ sanitizeHeaderValue),
+/* harmony export */   toByteStringHeaderObject: () => (/* binding */ toByteStringHeaderObject)
+/* harmony export */ });
+/* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils.js */ "./node_modules/axios/lib/utils.js");
+
+
+
+
+function trimSPorHTAB(str) {
+  let start = 0;
+  let end = str.length;
+
+  while (start < end) {
+    const code = str.charCodeAt(start);
+
+    if (code !== 0x09 && code !== 0x20) {
+      break;
+    }
+
+    start += 1;
+  }
+
+  while (end > start) {
+    const code = str.charCodeAt(end - 1);
+
+    if (code !== 0x09 && code !== 0x20) {
+      break;
+    }
+
+    end -= 1;
+  }
+
+  return start === 0 && end === str.length ? str : str.slice(start, end);
+}
+
+// The control-code ranges are intentional: header sanitization strips C0/DEL bytes.
+// eslint-disable-next-line no-control-regex
+const INVALID_UNICODE_HEADER_VALUE_CHARS = new RegExp('[\\u0000-\\u0008\\u000a-\\u001f\\u007f]+', 'g');
+// eslint-disable-next-line no-control-regex
+const INVALID_BYTE_STRING_HEADER_VALUE_CHARS = new RegExp('[^\\u0009\\u0020-\\u007e\\u0080-\\u00ff]+', 'g');
+
+function sanitizeValue(value, invalidChars) {
+  if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isArray(value)) {
+    return value.map((item) => sanitizeValue(item, invalidChars));
+  }
+
+  return trimSPorHTAB(String(value).replace(invalidChars, ''));
+}
+
+const sanitizeHeaderValue = (value) =>
+  sanitizeValue(value, INVALID_UNICODE_HEADER_VALUE_CHARS);
+
+const sanitizeByteStringHeaderValue = (value) =>
+  sanitizeValue(value, INVALID_BYTE_STRING_HEADER_VALUE_CHARS);
+
+function toByteStringHeaderObject(headers) {
+  const byteStringHeaders = Object.create(null);
+
+  _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].forEach(headers.toJSON(), (value, header) => {
+    byteStringHeaders[header] = sanitizeByteStringHeaderValue(value);
+  });
+
+  return byteStringHeaders;
+}
 
 
 /***/ },
@@ -31582,6 +32110,7 @@ function toFormData(obj, formData, options) {
   const dots = options.dots;
   const indexes = options.indexes;
   const _Blob = options.Blob || (typeof Blob !== 'undefined' && Blob);
+  const maxDepth = options.maxDepth === undefined ? 100 : options.maxDepth;
   const useBlob = _Blob && _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isSpecCompliantForm(formData);
 
   if (!_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isFunction(visitor)) {
@@ -31674,8 +32203,15 @@ function toFormData(obj, formData, options) {
     isVisitable,
   });
 
-  function build(value, path) {
+  function build(value, path, depth = 0) {
     if (_utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isUndefined(value)) return;
+
+    if (depth > maxDepth) {
+      throw new _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"](
+        'Object is too deeply nested (' + depth + ' levels). Max depth: ' + maxDepth,
+        _core_AxiosError_js__WEBPACK_IMPORTED_MODULE_1__["default"].ERR_FORM_DATA_DEPTH_EXCEEDED
+      );
+    }
 
     if (stack.indexOf(value) !== -1) {
       throw Error('Circular reference detected in ' + path.join('.'));
@@ -31689,7 +32225,7 @@ function toFormData(obj, formData, options) {
         visitor.call(formData, el, _utils_js__WEBPACK_IMPORTED_MODULE_0__["default"].isString(key) ? key.trim() : key, path, exposedHelpers);
 
       if (result === true) {
-        build(el, path ? path.concat(key) : [key]);
+        build(el, path ? path.concat(key) : [key], depth + 1);
       }
     });
 
@@ -31954,7 +32490,9 @@ function assertOptions(options, schema, allowUnknown) {
   let i = keys.length;
   while (i-- > 0) {
     const opt = keys[i];
-    const validator = schema[opt];
+    // Use hasOwnProperty so a polluted Object.prototype.<opt> cannot supply
+    // a non-function validator and cause a TypeError.
+    const validator = Object.prototype.hasOwnProperty.call(schema, opt) ? schema[opt] : undefined;
     if (validator) {
       const value = options[opt];
       const result = value === undefined || validator(value, opt, options);
@@ -32363,21 +32901,21 @@ const isFile = kindOfTest('File');
  * also have a `name` and `type` attribute to specify filename and content type
  *
  * @see https://github.com/facebook/react-native/blob/26684cf3adf4094eb6c405d345a75bf8c7c0bf88/Libraries/Network/FormData.js#L68-L71
- * 
+ *
  * @param {*} value The value to test
- * 
+ *
  * @returns {boolean} True if value is a React Native Blob, otherwise false
  */
 const isReactNativeBlob = (value) => {
   return !!(value && typeof value.uri !== 'undefined');
-}
+};
 
 /**
  * Determine if environment is React Native
  * ReactNative `FormData` has a non-standard `getParts()` method
- * 
+ *
  * @param {*} formData The formData to test
- * 
+ *
  * @returns {boolean} True if environment is React Native, otherwise false
  */
 const isReactNative = (formData) => formData && typeof formData.getParts !== 'undefined';
@@ -32396,7 +32934,7 @@ const isBlob = kindOfTest('Blob');
  *
  * @param {*} val The value to test
  *
- * @returns {boolean} True if value is a File, otherwise false
+ * @returns {boolean} True if value is a FileList, otherwise false
  */
 const isFileList = kindOfTest('FileList');
 
@@ -32428,15 +32966,17 @@ const G = getGlobal();
 const FormDataCtor = typeof G.FormData !== 'undefined' ? G.FormData : undefined;
 
 const isFormData = (thing) => {
-  let kind;
-  return thing && (
-    (FormDataCtor && thing instanceof FormDataCtor) || (
-      isFunction(thing.append) && (
-        (kind = kindOf(thing)) === 'formdata' ||
-        // detect form-data instance
-        (kind === 'object' && isFunction(thing.toString) && thing.toString() === '[object FormData]')
-      )
-    )
+  if (!thing) return false;
+  if (FormDataCtor && thing instanceof FormDataCtor) return true;
+  // Reject plain objects inheriting directly from Object.prototype so prototype-pollution gadgets can't spoof FormData.
+  const proto = getPrototypeOf(thing);
+  if (!proto || proto === Object.prototype) return false;
+  if (!isFunction(thing.append)) return false;
+  const kind = kindOf(thing);
+  return (
+    kind === 'formdata' ||
+    // detect form-data instance
+    (kind === 'object' && isFunction(thing.toString) && thing.toString() === '[object FormData]')
   );
 };
 
@@ -32572,7 +33112,7 @@ const isContextDefined = (context) => !isUndefined(context) && context !== _glob
  *
  * @returns {Object} Result of all merge properties
  */
-function merge(/* obj1, obj2, obj3, ... */) {
+function merge(...objs) {
   const { caseless, skipUndefined } = (isContextDefined(this) && this) || {};
   const result = {};
   const assignValue = (val, key) => {
@@ -32582,8 +33122,12 @@ function merge(/* obj1, obj2, obj3, ... */) {
     }
 
     const targetKey = (caseless && findKey(result, key)) || key;
-    if (isPlainObject(result[targetKey]) && isPlainObject(val)) {
-      result[targetKey] = merge(result[targetKey], val);
+    // Read via own-prop only — a bare `result[targetKey]` walks the prototype
+    // chain, so a polluted Object.prototype value could surface here and get
+    // copied into the merged result.
+    const existing = hasOwnProperty(result, targetKey) ? result[targetKey] : undefined;
+    if (isPlainObject(existing) && isPlainObject(val)) {
+      result[targetKey] = merge(existing, val);
     } else if (isPlainObject(val)) {
       result[targetKey] = merge({}, val);
     } else if (isArray(val)) {
@@ -32593,8 +33137,8 @@ function merge(/* obj1, obj2, obj3, ... */) {
     }
   };
 
-  for (let i = 0, l = arguments.length; i < l; i++) {
-    arguments[i] && forEach(arguments[i], assignValue);
+  for (let i = 0, l = objs.length; i < l; i++) {
+    objs[i] && forEach(objs[i], assignValue);
   }
   return result;
 }
@@ -32616,6 +33160,9 @@ const extend = (a, b, thisArg, { allOwnKeys } = {}) => {
     (val, key) => {
       if (thisArg && isFunction(val)) {
         Object.defineProperty(a, key, {
+          // Null-proto descriptor so a polluted Object.prototype.get cannot
+          // hijack defineProperty's accessor-vs-data resolution.
+          __proto__: null,
           value: (0,_helpers_bind_js__WEBPACK_IMPORTED_MODULE_0__["default"])(val, thisArg),
           writable: true,
           enumerable: true,
@@ -32623,6 +33170,7 @@ const extend = (a, b, thisArg, { allOwnKeys } = {}) => {
         });
       } else {
         Object.defineProperty(a, key, {
+          __proto__: null,
           value: val,
           writable: true,
           enumerable: true,
@@ -32661,12 +33209,14 @@ const stripBOM = (content) => {
 const inherits = (constructor, superConstructor, props, descriptors) => {
   constructor.prototype = Object.create(superConstructor.prototype, descriptors);
   Object.defineProperty(constructor.prototype, 'constructor', {
+    __proto__: null,
     value: constructor,
     writable: true,
     enumerable: false,
     configurable: true,
   });
   Object.defineProperty(constructor, 'super', {
+    __proto__: null,
     value: superConstructor.prototype,
   });
   props && Object.assign(constructor.prototype, props);
@@ -32848,7 +33398,7 @@ const reduceDescriptors = (obj, reducer) => {
 const freezeMethods = (obj) => {
   reduceDescriptors(obj, (descriptor, name) => {
     // skip restricted props in strict mode
-    if (isFunction(obj) && ['arguments', 'caller', 'callee'].indexOf(name) !== -1) {
+    if (isFunction(obj) && ['arguments', 'caller', 'callee'].includes(name)) {
       return false;
     }
 
@@ -32922,11 +33472,11 @@ function isSpecCompliantForm(thing) {
  * @returns {Object} The JSON-compatible object.
  */
 const toJSONObject = (obj) => {
-  const stack = new Array(10);
+  const visited = new WeakSet();
 
-  const visit = (source, i) => {
+  const visit = (source) => {
     if (isObject(source)) {
-      if (stack.indexOf(source) >= 0) {
+      if (visited.has(source)) {
         return;
       }
 
@@ -32936,15 +33486,16 @@ const toJSONObject = (obj) => {
       }
 
       if (!('toJSON' in source)) {
-        stack[i] = source;
+        // add-on descent / delete-on-ascent: preserves path semantics, so DAG nodes serialise at every occurrence (see #7230).
+        visited.add(source);
         const target = isArray(source) ? [] : {};
 
         forEach(source, (value, key) => {
-          const reducedValue = visit(value, i + 1);
+          const reducedValue = visit(value);
           !isUndefined(reducedValue) && (target[key] = reducedValue);
         });
 
-        stack[i] = undefined;
+        visited.delete(source);
 
         return target;
       }
@@ -32953,7 +33504,7 @@ const toJSONObject = (obj) => {
     return source;
   };
 
-  return visit(obj, 0);
+  return visit(obj);
 };
 
 /**
@@ -33209,6 +33760,14 @@ const isIterable = (thing) => thing != null && isFunction(thing[iterator]);
 /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/set anonymous default export name */
+/******/ 	(() => {
+/******/ 		// set .name for anonymous default exports per ES spec
+/******/ 		__webpack_require__.dn = (x) => {
+/******/ 			(Object.getOwnPropertyDescriptor(x, "name") || {}).writable || Object.defineProperty(x, "name", { value: "default", configurable: true });
 /******/ 		};
 /******/ 	})();
 /******/ 	

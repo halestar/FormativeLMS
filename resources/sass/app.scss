@@ -17,246 +17,215 @@ $breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/
 @import 'tooltips';
 
 .count-message {
-    margin-top: -20px;
-    margin-right: 5px;
-    font-size: .8em;
+  margin-top: -20px;
+  margin-right: 5px;
+  font-size: .8em;
 }
 
 .no-resize {
-    resize: none;
+  resize: none;
 }
 
-.show-as-action
-{
-    cursor: pointer;
+.show-as-action {
+  cursor: pointer;
 }
 
-.show-as-grab
-{
-    cursor: grab;
+.show-as-grab {
+  cursor: grab;
 }
 
-select[multiple]
-{
-    overflow-y: auto;
+select[multiple] {
+  overflow-y: auto;
 }
 
-.text-sm
-{
-    font-size: 0.8rem;
+.text-sm {
+  font-size: 0.8rem;
 }
 
-.campus-back-img
-{
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+.campus-back-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-.blueprint-container
-{
-    position: relative;
-    width: 600px;
-    height: 600px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border: 2px solid black;
+.blueprint-container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 2px solid black;
 }
 
-.text-bright-alert
-{
-    color: red;
+.text-bright-alert {
+  color: red;
 }
 
-.glowing
-{
-    animation-name: pulse-glow;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+.glowing {
+  animation-name: pulse-glow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes pulse-glow {
-    0% {
-        opacity: 50%;
-        transform: scale(1);
-    }
-    50% {
-        opacity: 100%;
-        transform: scale(1.2);
-    }
-    100% {
-        opacity: 50%;
-        transform: scale(1);
-    }
+  0% {
+    opacity: 50%;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 100%;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 50%;
+    transform: scale(1);
+  }
 }
 
 // Notifications
-.notification
-{
-    border-width: 1px;
-    border-style: solid;
-    padding: 0 !important;
-    margin-bottom: 0.25em;
+.notification {
+  border-width: 1px;
+  border-style: solid;
+  padding: 0 !important;
+  margin-bottom: 0.25em;
 }
 
-.notification:hover
-{
-    opacity: 0.8;
+.notification:hover {
+  opacity: 0.8;
 }
 
-.notification-header
-{
-    font-size: 1.0em;
-    font-weight: bold;
-    width: 100%;
-    padding: 0.2em 0.5em 0 0.5em;
+.notification-header {
+  font-size: 1.0em;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.2em 0.5em 0 0.5em;
 }
 
-.notification-body
-{
-    padding: 0.5em;
-    font-size: 0.8em;
-    background-color: white;
-    color: black;
+.notification-body {
+  padding: 0.5em;
+  font-size: 0.8em;
+  background-color: white;
+  color: black;
 }
 
 //border addons
-.border-dotted
-{
-    border-style: dotted !important;
+.border-dotted {
+  border-style: dotted !important;
 }
 
 .border-dashed {
-    border-style: dashed !important;
+  border-style: dashed !important;
 }
 
 $pos-values: ("top": top, "bottom": bottom, "start": left, "end": right);
-@each $name, $pos in $pos-values
-{
-    .border-#{$name}-dotted
-    {
-        border-#{$pos}-style: dotted !important;
-    }
+@each $name, $pos in $pos-values {
+  .border-#{$name}-dotted {
+    border-#{$pos}-style: dotted !important;
+  }
 
-    .border-#{$name}-dashed
-    {
-        border-#{$pos}-style: dashed !important;
+  .border-#{$name}-dashed {
+    border-#{$pos}-style: dashed !important;
+  }
+  @each $width, $pxWidth in $border-widths {
+    .border-#{$name}-#{$width} {
+      border-#{$pos}-width: $pxWidth !important;
     }
-    @each $width, $pxWidth in $border-widths
-    {
-        .border-#{$name}-#{$width}
-        {
-            border-#{$pos}-width: $pxWidth !important;
-        }
-    }
+  }
 }
 
 // Additional Mixins
 $campus-icon-sizes: ("xl": 3em, "large": 2em, "normal": 1em, "small": 0.5em, "tiny": 0.25em);
 @each $name, $size in $campus-icon-sizes {
-    .campus-icon-#{$name} {
-        max-width: $size;
-        width: $size;
-    }
-    .campus-icon-#{$name} svg{
-        fill: currentColor;
-    }
+  .campus-icon-#{$name} {
+    max-width: $size;
+    width: $size;
+  }
+  .campus-icon-#{$name} svg {
+    fill: currentColor;
+  }
 }
 
 $img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "tiny": 16px);
 @each $name, $size in $img-icon-sizes {
-    .img-icon-#{$name} {
-        max-width: $size;
-        width: $size;
-    }
+  .img-icon-#{$name} {
+    max-width: $size;
+    width: $size;
+  }
 }
 
-@each $name, $color in $theme-colors
-{
-    .glow-#{$name}
-    {
-        border-color: $color;
-        animation-name: animate-glow-#{$name};
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
+@each $name, $color in $theme-colors {
+  .glow-#{$name} {
+    border-color: $color;
+    animation-name: animate-glow-#{$name};
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
 
-    @keyframes animate-glow-#{$name} {
-        0%, 100% {
-            box-shadow: 0 0 5px $color;
-        }
-        25%, 75%
-        {
-            box-shadow: 0 0 10px $color;
-        }
-        50% {
-            box-shadow: 0 0 15px $color;
-        }
+  @keyframes animate-glow-#{$name} {
+    0%, 100% {
+      box-shadow: 0 0 5px $color;
     }
+    25%, 75% {
+      box-shadow: 0 0 10px $color;
+    }
+    50% {
+      box-shadow: 0 0 15px $color;
+    }
+  }
 }
 
 //Messages
-.chat-container
-{
-    height: 400px;
+.chat-container {
+  height: 400px;
 }
 
-.chat-container-lg
-{
-    height: 600px;
+.chat-container-lg {
+  height: 600px;
 }
 
-.chat-container-sm
-{
-    height: 200px;
+.chat-container-sm {
+  height: 200px;
 }
 
-.from-student
-{
-    background-color: #0dcaf0;
-    border-color: #17a3c1;
+.from-student {
+  background-color: #0dcaf0;
+  border-color: #17a3c1;
 }
 
-.from-parent
-{
-    background-color: #f8b258;
-    border-color: #c88e47;
+.from-parent {
+  background-color: #f8b258;
+  border-color: #c88e47;
 }
 
-.from-admin
-{
-    background-color: #f86c6b;
-    border-color: #c85c5c;
+.from-admin {
+  background-color: #f86c6b;
+  border-color: #c85c5c;
 }
 
-.from-teacher
-{
-    background-color: #b2e1a4;
-    border-color: #65ed3f;
+.from-teacher {
+  background-color: #b2e1a4;
+  border-color: #65ed3f;
 }
 
-.legend-box
-{
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    border: 1px solid black;
+.legend-box {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border: 1px solid black;
 }
 
 
-.chat-header
-{
+.chat-header {
   height: 55px;
   max-height: 55px;
   min-height: 55px;
   width: 100%;
 }
 
-.message-container
-{
+.message-container {
   flex: 1;
   overflow-y: auto;
   max-height: calc(100% - 55px);
@@ -268,68 +237,59 @@ $img-icon-sizes: ("xl": 256px, "large": 128px, "normal": 64px, "small": 32px, "t
 
 //avatar list
 //global thumbnail pics
-.person-thumbnail
-{
-    max-height: 32px;
-    max-width: 32px;
+.person-thumbnail {
+  max-height: 32px;
+  max-width: 32px;
 }
 
-.avatar-list-container
-{
-    margin: 0;
-    padding: 0;
+.avatar-list-container {
+  margin: 0;
+  padding: 0;
 }
 
 $img-icon-sizes: ("xl": 64px, "large": 48px, "normal": 32px, "small": 24px, "tiny": 16px);
 @each $name, $size in $img-icon-sizes {
-    .avatar-img-#{$name} {
-        max-width: $size;
-        max-height: $size;
-        width: $size;
-    }
+  .avatar-img-#{$name} {
+    max-width: $size;
+    max-height: $size;
+    width: $size;
+  }
 
-    .avatar-list-item:nth-child(n+2):has(> .avatar-img-#{$name}),
-    .avatar-list-item:nth-child(n+2).avatar-img-#{$name}
-    {
-        margin-left: calc(-1 * #{$size} - 10px);
-    }
+  .avatar-list-item:nth-child(n+2):has(> .avatar-img-#{$name}),
+  .avatar-list-item:nth-child(n+2).avatar-img-#{$name} {
+    margin-left: calc(-1 * #{$size} - 10px);
+  }
 
 }
 
-.avatar-list-item
-{
-    border: 2px solid white;
-    display: inline-block !important;
-    position: relative;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2);
-    -webkit-transition: .2s ease;
-    transition: .2s ease;
+.avatar-list-item {
+  border: 2px solid white;
+  display: inline-block !important;
+  position: relative;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
 }
 
-.avatar-list-container:hover .avatar-list-item:nth-child(n+2)
-{
-    margin-left: -20px;
+.avatar-list-container:hover .avatar-list-item:nth-child(n+2) {
+  margin-left: -20px;
 }
 
-.text-justify
-{
-    text-align: justify;
-    text-justify: inter-word;
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-.asset-drop
-{
+.asset-drop {
   border: 2px dashed black !important;
   background-color: lightgray !important;
 }
 
-.list-group.list-group-flush.hoverable > li.list-group-item:hover
-{
+.list-group.list-group-flush.hoverable > li.list-group-item:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.text-multi-color
-{
+.text-multi-color {
   background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   -webkit-background-clip: text; /* For Webkit browsers */
   background-clip: text;
@@ -342,15 +302,14 @@ $img-icon-sizes: ("xl": 64px, "large": 48px, "normal": 32px, "small": 24px, "tin
   initial-value: 0%;
 }
 
-.ai-thinking
-{
+.ai-thinking {
   background-color: $secondary;
   --gradient-percent: 0%;
   animation-name: thinking;
   animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  background-image: radial-gradient(circle at 50% 60%, rgba(245,237,3, 1) 0%, rgba(245,237,3,0) var(--gradient-percent));
+  background-image: radial-gradient(circle at 50% 60%, rgba(245, 237, 3, 1) 0%, rgba(245, 237, 3, 0) var(--gradient-percent));
 }
 
 @keyframes thinking {
@@ -366,105 +325,42 @@ $img-icon-sizes: ("xl": 64px, "large": 48px, "normal": 32px, "small": 24px, "tin
 }
 
 //inset box shadows
-.shadow-inset
-{
+.shadow-inset {
   box-shadow: inset #{$box-shadow};
 }
 
-.shadow-sm-inset
-{
+.shadow-sm-inset {
   box-shadow: inset #{$box-shadow-sm};
 }
 
-.shadow-lg-inset
-{
+.shadow-lg-inset {
   box-shadow: inset #{$box-shadow-lg};
 }
 
-input[type=number]
-{
+input[type=number] {
   max-width: 75px !important;
   text-align: center;
 }
 
-input[type="datetime-local"]
-{
+input[type="datetime-local"] {
   min-width: 200px !important;
   max-width: 250px !important;
 }
 
-/* Add to your app.css or custom.scss */
+$sun-color: #ffda05;
+$beam-color: rgba(255, 218, 5, 0.15); // Soft yellow
+body {
+  background-image: radial-gradient(circle at 0% 100%, $sun-color 0, $sun-color 40px, transparent 45px),
+  repeating-conic-gradient(
+          from 0deg at 0% 100%,
+          transparent 0deg,
+          $beam-color 2deg,
+          transparent 4deg,
+          transparent 10deg
+  ),
+  radial-gradient(circle at 0% 100%, rgba($sun-color, 0.2) 0%, $white 70%);
 
-/* 1. Make the Navbar Clean */
-.navbar {
-  background: linear-gradient(135deg, #4361ee 0%, #3f37c9 100%) !important; /* Modern Gradient */
-  box-shadow: 0 4px 12px rgba(67, 97, 238, 0.3);
-}
-
-/* 2. Fix the "Blocky" Tables */
-.table thead th {
-  background-color: transparent;
-  border-bottom: 2px solid #e9ecef;
-  color: #8898aa; /* Muted uppercase headers */
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.table td {
-  vertical-align: middle;
-  padding: 1rem 0.75rem;
+  background-attachment: fixed;
 }
 
-/* 3. Modernize the "Post" and "Class Criteria" sections */
-/* This targets the gray bars in your "Post Learning Demonstration" screenshot */
-.card-header, .bg-light {
-  background-color: #fff !important; /* Force white background */
-  border-bottom: 1px solid #f0f0f0; /* Very subtle separator */
-}
 
-/* 4. Chat/Messages Cleanup */
-/* Makes chat bubbles rounder and softer */
-.message-bubble {
-  border-radius: 1rem !important;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  border: none !important;
-}
-
-/* 5. Schedule/Calendar Events */
-/* Removes the flat green look from the schedule screenshot */
-.fc-event, .badge {
-  border-radius: 4px;
-  border: none;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  font-weight: 600;
-}
-
-/* 1. The "Anchor" Sidebar/Header */
-/* If you have a sidebar container, give it this dark blue-slate color
-   to immediately reduce the "whiteness" of the screen. */
-.sidebar, .main-navigation {
-  background-color: #0f172a; /* Dark Slate */
-  color: #e2e8f0;
-}
-
-/* 2. Distinct Page Containers */
-/* Ensure the main content area actually uses the variable background */
-body, .wrapper, .main-content {
-  background-color: #eef2f6 !important;
-}
-
-/* 3. Deepen the Shadows */
-/* Since the background is darker, we need slightly stronger shadows
-   on the cards so they don't look flat. */
-.card {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
-}
-
-/* 4. Table Striping Adjustment */
-/* Standard bootstrap striping is too gray. Let's make it subtle blue. */
-.table-striped > tbody > tr:nth-of-type(odd) > * {
-  --bs-table-accent-bg: rgba(59, 130, 246, 0.05); /* Very faint blue tint */
-  color: var(--bs-table-striped-color);
-}

@@ -51,7 +51,8 @@
                                     name="name"
                                     id="name"
                             />
-                            <x-utilities.error-display key="name">{{ $errors->first('name') }}</x-utilities.error-display>
+                            <x-utilities.error-display
+                                    key="name">{{ $errors->first('name') }}</x-utilities.error-display>
                         </div>
                         <div class="col-2">
                             <label for="abbr" class="form-label">{{ __('subjects.subject.color') }}</label>
@@ -70,15 +71,17 @@
             </form>
         </div>
         <div class="row fw-bold fs-6">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-4">
+            <div class="col-md-4 ps-4">
                 {{ __('subjects.subject.name') }}
             </div>
-            <div class="col-sm-2 text-center">
+            <div class="col-md-2 text-center">
                 {{ trans_choice('subjects.subject.courses', 2) }}
             </div>
-            <div class="col-sm-2 text-center">
+            <div class="col-md-2 text-center">
                 {{ __('subjects.subject.terms') }}
+            </div>
+            <div class="col-md-2 text-center">
+                {{ __('common.faculty.number') }}
             </div>
         </div>
         <ul class="list-group subject-list">
@@ -89,9 +92,10 @@
                         subject-id="{{ $subject->id }}"
                 >
                     <div class="row" subject-id="{{ $subject->id }}">
-                        <span class="col-sm-1 align-self-center text-start sort-handle"><i
-                                    class="fa-solid fa-grip-lines-vertical"></i></span>
-                        <span class="col-sm-4 align-self-center">{{ $subject->name }}</span>
+                        <span class="col-sm-4 align-self-center">
+                            <span class="sort-handle me-4"><i class="fa-solid fa-grip-lines-vertical"></i></span>
+                            {{ $subject->name }}
+                        </span>
                         <span class="col-sm-2 align-self-center text-center">
                             <a
                                     href="{{ route('subjects.courses.index', ['subject' => $subject->id]) }}"
@@ -102,15 +106,16 @@
                             </a>
                         </span>
                         <span class="col-sm-2 align-self-center text-center">{{ $subject->required_terms?? __('common.na') }}</span>
-                        <div class="col-sm-3 align-self-center text-end">
+                        <span class="col-sm-2 align-self-center text-center">{{ $subject->teachers()->count() }}</span>
+                        <div class="col-sm-2 align-self-center text-end">
                             <a
                                     href="{{ route('subjects.subjects.edit', ['subject' => $subject->id]) }}"
-                                    class="btn btn-primary"
+                                    class="btn btn-sm btn-primary"
                             ><i class="fa-solid fa-edit"></i></a>
                             @can('delete', $subject)
                                 <button
                                         onclick="confirmDelete('{{ __('subjects.subject.delete.confirm') }}', '{{ route('subjects.subjects.destroy', ['subject' => $subject->id]) }}')"
-                                        class="btn btn-danger"
+                                        class="btn btn-sm btn-danger"
                                 ><i class="fa-solid fa-times"></i></button>
                             @endcan
                         </div>

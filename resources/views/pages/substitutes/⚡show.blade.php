@@ -25,11 +25,11 @@ new class extends Component
 		$this->substitute = $person->substituteProfile;
 		$this->active = $person->hasRole(SchoolRoles::$SUBSTITUTE);
 		$requestDates = SubstituteCampusRequest::query()
-			->where('substitute_id', $this->substitute->id)
-			->with('subRequest:id,requested_for')
-			->get()
-			->map(fn ($request) => $request->subRequest?->requested_for)
-			->filter();
+		                                       ->where('substitute_id', $this->substitute->id)
+		                                       ->with('subRequest:id,requested_for')
+		                                       ->get()
+		                                       ->map(fn ($request) => $request->subRequest?->requested_for)
+		                                       ->filter();
 
 		$this->breadcrumb = [
 			__('features.features') => '#',
@@ -39,32 +39,30 @@ new class extends Component
 		];
 
 		$this->availableYears = Year::query()
-			->orderByDesc('year_start')
-			->get([
-				'id',
-				'label',
-				'year_start',
-				'year_end'
-			])
-			->filter(function (Year $year) use ($requestDates)
-			{
-				if ($year->year_start->isFuture())
-				{
-					return false;
-				}
+		                            ->orderByDesc('year_start')
+		                            ->get([
+			                            'id',
+			                            'label',
+			                            'year_start',
+			                            'year_end'
+		                            ])
+		                            ->filter(function (Year $year) use ($requestDates)
+		                            {
+			                            if ($year->year_start->isFuture())
+			                            {
+				                            return false;
+			                            }
 
-				return $requestDates->contains(function ($date) use ($year)
-				{
-					return $date && $date->between($year->year_start, $year->year_end);
-				});
-			})
-			->values();
+			                            return $requestDates->contains(function ($date) use ($year)
+			                            {
+				                            return $date && $date->between($year->year_start, $year->year_end);
+			                            });
+		                            })
+		                            ->values();
 
 		$currentYear = Year::currentYear();
-		if (
-			$currentYear
-			&& $this->availableYears->contains(fn ($year) => (string)$year->id === (string)$currentYear->id)
-		)
+		if ($currentYear &&
+		    $this->availableYears->contains(fn ($year) => (string)$year->id === (string)$currentYear->id))
 		{
 			$this->yearFilter = (string)$currentYear->id;
 		}
@@ -76,8 +74,7 @@ new class extends Component
 		$this->loadSignedRequests();
 	}
 
-	public function toggleActivation()
-	: void
+	public function toggleActivation(): void
 	{
 		$person = $this->substitute->person;
 		if ($person->hasRole(SchoolRoles::$SUBSTITUTE))
@@ -102,17 +99,16 @@ new class extends Component
 	public function loadSignedRequests(): void
 	{
 		$query = SubstituteCampusRequest::query()
-			->where('substitute_id', $this->substitute->id)
-			->join('substitute_requests', 'substitute_campus_requests.request_id', '=', 'substitute_requests.id')
-			->select('substitute_campus_requests.*')
-			->with([
-				'subRequest:id,requester_id,requester_name,requested_for',
-				'subRequest.requester:id,first,last,nick',
-				'campus:id,name',
-				'classRequests:id,campus_request_id,session_id,start_on,end_on',
-				'classRequests.session:id,name,identifier',
-			])
-			->orderByDesc('substitute_requests.requested_for');
+		                                ->where('substitute_id', $this->substitute->id)
+		                                ->join('substitute_requests', 'substitute_campus_requests.request_id', '=', 'substitute_requests.id')
+		                                ->select('substitute_campus_requests.*')
+		                                ->with([
+			                                'subRequest',
+			                                'campus',
+			                                'classRequests',
+			                                'classRequests.session',
+		                                ])
+		                                ->orderByDesc('substitute_requests.requested_for');
 
 		$selectedYear = Year::query()->find($this->yearFilter);
 		if ($selectedYear)
@@ -237,12 +233,12 @@ new class extends Component
 
                             <div class="form-check form-switch m-0">
                                 <input
-                                    class="form-check-input"
-                                    type="checkbox"
-                                    role="switch"
-                                    id="substitute-status-switch"
-                                    wire:model.live="active"
-                                    wire:change="toggleActivation"
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        role="switch"
+                                        id="substitute-status-switch"
+                                        wire:model.live="active"
+                                        wire:change="toggleActivation"
                                 >
                                 <label class="form-check-label" for="substitute-status-switch">
                                     {{ $active ? __('common.active') : __('common.inactive') }}
@@ -252,9 +248,13 @@ new class extends Component
                     </div>
 
                     <div class="d-flex flex-wrap align-items-center gap-2">
-                        <a href="{{ route('features.substitutes.pool.edit', $substitute) }}"
+                        <a href="{{ route('people.show', $substitute->person) }}"
                            class="btn btn-sm btn-outline-primary">
-                            {{ __('common.edit') }}
+                            {{ __('people.profile.view') }}
+                        </a>
+                        <a href="{{ route('people.edit', $substitute->person) }}"
+                           class="btn btn-sm btn-outline-primary">
+                            {{ __('people.profile.edit') }}
                         </a>
                         <button type="button" class="btn btn-sm btn-outline-secondary" wire:click="resendWelcome">
                             {{ __('features.substitutes.pool.welcome.resend') }}
@@ -292,7 +292,7 @@ new class extends Component
 
                     <div class="list-group list-group-flush">
                         @forelse ($signedRequests as $campusRequest)
-                            <div class="list-group-item px-0 py-3">
+                            <div class="list-group-item px-0 py-3" x-data="{ expanded: false }">
                                 <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-3">
                                     <div class="flex-grow-1">
                                         <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
@@ -314,18 +314,15 @@ new class extends Component
                                     <button
                                             type="button"
                                             class="btn btn-sm btn-outline-secondary"
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#classes-{{ $campusRequest->id }}"
-                                            aria-expanded="false"
-                                            aria-controls="classes-{{ $campusRequest->id }}"
-                                            aria-label="{{ __('features.substitutes.pool.requests.classes.toggle') }}"
                                             title="{{ __('features.substitutes.pool.requests.classes.toggle') }}"
+                                            x-on:click="expanded = !expanded"
                                     >
-                                        <i class="bi bi-caret-down-fill"></i>
+                                        <i class="bi bi-caret-up-fill" x-show="!expanded" x-cloak></i>
+                                        <i class="bi bi-caret-down-fill" x-show="expanded" x-cloak></i>
                                     </button>
                                 </div>
 
-                                <div class="collapse mt-3" id="classes-{{ $campusRequest->id }}">
+                                <div class="mt-3" x-show="expanded" x-cloak>
                                     <div class="border rounded-3 p-3 bg-light-subtle">
                                         <div class="small fw-semibold mb-2">{{ __('features.substitutes.pool.requests.classes') }}</div>
 

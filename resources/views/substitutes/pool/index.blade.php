@@ -8,7 +8,8 @@
                     <h1 class="h3 mb-1">{{ __('features.substitutes.pool') }}</h1>
                 </div>
                 <div class="d-flex gap-2">
-                    <a href="{{ route('features.substitutes.pool.create') }}" class="btn btn-primary">{{ __('features.substitutes.pool.new') }}</a>
+                    <a href="{{ route('features.substitutes.pool.create') }}"
+                       class="btn btn-primary">{{ __('features.substitutes.pool.new') }}</a>
                 </div>
             </div>
 
@@ -32,7 +33,8 @@
                     <button class="btn btn-primary" type="submit" aria-label="{{ __('features.substitutes.filter') }}">
                         <i class="bi bi-search"></i>
                     </button>
-                    <a href="{{ route('features.substitutes.pool.index') }}" class="btn btn-secondary">{{ __('common.clear') }}</a>
+                    <a href="{{ route('features.substitutes.pool.index') }}"
+                       class="btn btn-secondary">{{ __('common.clear') }}</a>
                 </div>
                 <div class="form-check form-switch ms-1">
                     <input
@@ -58,16 +60,16 @@
                                 <div class="d-flex flex-column flex-xl-row align-items-start align-items-xl-center gap-2 gap-xl-3">
                                     <div class="flex-shrink-0" style="min-width: 260px;">
                                         <div class="fw-semibold">
-                                            {{ $substitute->person?->name ?? 'Unknown Person' }}
-                                            @if (!$substitute->active && $showInactive)
+                                            {{ $substitute->name ?? 'Unknown Person' }}
+                                            @if ($substitute->hasRole(\App\Models\Utilities\SchoolRoles::$OLD_SUBSTITUTE) && $showInactive)
                                                 <span class="badge text-bg-warning ms-2">{{ __('common.inactive') }}</span>
                                             @endif
                                         </div>
-                                        <div class="text-muted small">{{ $substitute->person?->email ?? 'No email address' }}</div>
+                                        <div class="text-muted small">{{ $substitute->email ?? 'No email address' }}</div>
                                     </div>
 
                                     <div class="d-flex flex-wrap gap-1 flex-grow-1">
-                                        @forelse ($substitute->campuses as $campus)
+                                        @forelse ($substitute->substituteProfile->campuses as $campus)
                                             <span class="badge rounded-pill bg-light text-dark border">{{ $campus->name }}</span>
                                         @empty
                                             <span class="text-muted small">{{ __('locations.campus.no') }}</span>
@@ -76,17 +78,17 @@
 
                                     <div class="d-flex align-items-center gap-3 flex-shrink-0">
                                     <span class="small">
-                                        <i class="bi bi-envelope-fill {{ $substitute->email_confirmed ? 'text-success' : 'text-danger' }}"></i>
+                                        <i class="bi bi-envelope-fill {{ $substitute->substituteProfile->email_confirmed ? 'text-success' : 'text-danger' }}"></i>
                                         <span class="ms-1 d-none d-sm-inline">{{ __('people.profile.fields.email') }}</span>
                                     </span>
                                         <span class="small">
-                                        <i class="bi bi-chat-dots-fill {{ $substitute->sms_confirmed ? 'text-success' : 'text-danger' }}"></i>
+                                        <i class="bi bi-chat-dots-fill {{ $substitute->substituteProfile->sms_confirmed ? 'text-success' : 'text-danger' }}"></i>
                                         <span class="ms-1 d-none d-sm-inline">{{ __('settings.communications.sms') }}</span>
                                     </span>
                                     </div>
 
                                     <div class="ms-xl-auto">
-                                        <a href="{{ route('features.substitutes.pool.show', $substitute->person->school_id) }}"
+                                        <a href="{{ route('features.substitutes.pool.show', $substitute->school_id) }}"
                                            class="btn btn-sm btn-outline-primary">{{ __('common.view') }}</a>
                                     </div>
                                 </div>

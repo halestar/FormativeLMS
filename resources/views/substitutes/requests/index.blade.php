@@ -16,6 +16,9 @@
                     <h1 class="h3 mb-1">{{ trans_choice('features.substitutes.requests', 2) }}</h1>
                 </div>
                 <div class="d-flex gap-2">
+                    <a href="{{ route('features.substitutes.matrix') }}" class="btn btn-primary">
+                        {{ __('features.substitutes.matrix') }}
+                    </a>
                     <a href="{{ route('features.substitutes.pool.index') }}" class="btn btn-primary">
                         {{ __('features.substitutes.pool.manage') }}
                     </a>
@@ -28,7 +31,8 @@
                           class="row g-2 align-items-end">
                         <input type="hidden" name="tab" value="{{ $tab }}">
                         <div class="col-12 col-md-4 col-lg-3">
-                            <label for="requested_for" class="form-label mb-1 text-muted small">{{ __('pagination.filter.date') }}</label>
+                            <label for="requested_for"
+                                   class="form-label mb-1 text-muted small">{{ __('pagination.filter.date') }}</label>
                             <input
                                     id="requested_for"
                                     type="date"
@@ -43,7 +47,8 @@
                                class="btn btn-outline-secondary">{{ __('common.clear') }}</a>
                         </div>
                         <div class="col-12 col-md-auto ms-md-auto">
-                            <label for="per-page" class="form-label mb-1 text-muted small">{{ __('pagination.per_page.entries') }}</label>
+                            <label for="per-page"
+                                   class="form-label mb-1 text-muted small">{{ __('pagination.per_page.entries') }}</label>
                             <select
                                     id="per-page"
                                     class="form-select"
@@ -177,7 +182,7 @@
                                     @if ($config['requests']->total() > 0)
                                         {{ __('pagination.showing', ['first' => $config['requests']->firstItem(), 'last' => $config['requests']->lastItem(), 'total' => $config['requests']->total() ]) }}
                                     @else
-                                    {{ __('pagination.no_results') }}
+                                        {{ __('pagination.no_results') }}
                                     @endif
                                 </div>
                                 <div>

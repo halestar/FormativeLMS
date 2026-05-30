@@ -31,7 +31,8 @@
 
                             <div class="d-grid gap-3">
                                 <div>
-                                    <label for="campus_id" class="form-label fw-semibold mb-1">{{ trans_choice('locations.campus', 1) }}</label>
+                                    <label for="campus_id"
+                                           class="form-label fw-semibold mb-1">{{ trans_choice('locations.campus', 1) }}</label>
                                     <select
                                             class="form-select shadow-sm"
                                             id="campus_id"
@@ -46,7 +47,8 @@
                                 </div>
 
                                 <div>
-                                    <label for="year_id" class="form-label fw-semibold mb-1">{{ trans_choice('locations.year', 1) }}</label>
+                                    <label for="year_id"
+                                           class="form-label fw-semibold mb-1">{{ trans_choice('locations.years', 1) }}</label>
                                     <select
                                             class="form-select shadow-sm"
                                             id="year_id"
@@ -61,7 +63,8 @@
                                 </div>
 
                                 <div>
-                                    <label for="subject_id" class="form-label fw-semibold mb-1">{{ trans_choice('subjects.subject', 1) }}</label>
+                                    <label for="subject_id"
+                                           class="form-label fw-semibold mb-1">{{ trans_choice('subjects.subject', 1) }}</label>
                                     <select
                                             id="subject_id"
                                             class="form-select shadow-sm"
@@ -76,7 +79,8 @@
                                 </div>
 
                                 <div>
-                                    <label for="course_id" class="form-label fw-semibold mb-1">{{ trans_choice('subjects.course', 1) }}</label>
+                                    <label for="course_id"
+                                           class="form-label fw-semibold mb-1">{{ trans_choice('subjects.course', 1) }}</label>
                                     <select
                                             id="course_id"
                                             class="form-select shadow-sm"
@@ -122,14 +126,16 @@
                                                         checked
                                                         name="terms[]"
                                                 >
-                                                <label class="form-check-label ms-1" for="term-{{ $term->id }}">{{ $term->label }}</label>
+                                                <label class="form-check-label ms-1"
+                                                       for="term-{{ $term->id }}">{{ $term->label }}</label>
                                             </div>
                                         @endforeach
                                     </div>
                                 </div>
 
                                 <div class="d-flex flex-column flex-sm-row flex-lg-column justify-content-end gap-2">
-                                    <button type="submit" class="btn btn-primary px-4">{{ __('subjects.class.add') }}</button>
+                                    <button type="submit"
+                                            class="btn btn-primary px-4">{{ __('subjects.class.add') }}</button>
                                     <button
                                             type="button"
                                             onclick="$('#add-container').toggleClass('d-none')"
@@ -170,7 +176,8 @@
                                     @foreach($schoolClass->sessions as $session)
                                         <tr>
                                             @if($loop->first)
-                                                <td class="ps-3 ps-lg-4 align-middle" rowspan="{{ $schoolClass->sessions->count() }}">
+                                                <td class="ps-3 ps-lg-4 align-middle"
+                                                    rowspan="{{ $schoolClass->sessions->count() }}">
                                                     <div class="fw-semibold fs-5">{{ $schoolClass->name }}</div>
                                                     <div class="small text-body-secondary mt-1">{{ $schoolClass->sessions->count() }} {{ trans_choice('locations.terms', $schoolClass->sessions->count()) }}</div>
                                                 </td>
@@ -197,7 +204,8 @@
                                             </td>
                                             <td>{!! $session->locationString(true) !!}</td>
                                             @if($loop->first)
-                                                <td class="align-middle text-end pe-3 pe-lg-4" rowspan="{{ $schoolClass->sessions->count() }}">
+                                                <td class="align-middle text-end pe-3 pe-lg-4"
+                                                    rowspan="{{ $schoolClass->sessions->count() }}">
                                                     <div class="d-inline-flex flex-column align-items-end gap-2">
                                                         <a
                                                                 href="{{ route('subjects.classes.edit', ['schoolClass' => $schoolClass->id]) }}"

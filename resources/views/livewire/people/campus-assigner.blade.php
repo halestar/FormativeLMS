@@ -18,9 +18,9 @@
                                 class="form-check-input"
                                 type="checkbox"
                                 role="switch"
-                                wire:click="changeCampus({{ $campus->id }}, {{ !$person->employeeCampuses()->where('campus_id', $campus->id)->exists()? "true": "false" }})"
+                                wire:click="changeCampus({{ $campus->id }}, {{ !$person->campuses()->where('campus_id', $campus->id)->exists()? "true": "false" }})"
                                 id="campus_{{ $campus->id }}"
-                                @if($person->employeeCampuses()->where('campus_id', $campus->id)->exists()) checked @endif
+                                @if($person->campuses()->where('campus_id', $campus->id)->exists()) checked @endif
                         />
                     </div>
                 @endforeach
@@ -30,7 +30,7 @@
         <h6 class="d-flex justify-content-between align-items-baseline">
             <div>
                 <strong class="me-2">{{ trans_choice('locations.campus',2) }}
-                    :</strong> {{ $person->employeeCampuses->pluck('name')->join(', ') }}
+                    :</strong> {{ $person->campuses->pluck('name')->join(', ') }}
             </div>
             @can('people.edit')
                 <button

@@ -3,6 +3,7 @@
 return
 	[
 		'class' => 'Class|Classes',
+		'class.no' => 'No Class|No Classes',
 		'class.add' => 'Add Class',
 		'class.created' => 'Class was successfully created',
 		'class.delete' => 'Delete Class',
@@ -60,7 +61,7 @@ return
 		'school.assignment.template' => 'Learning Demonstration Template|Learning Demonstration Templates',
 		'school.layout' => 'Class Layout',
 		'school.message' => 'Message|Messages',
-        'school.message.mine' => 'My Class Messages',
+		'school.message.mine' => 'My Class Messages',
 		'school.message.type' => 'Type Message',
 		'school.message.view.as' => 'View Messages as',
 		'school.message.view.messages' => 'View Messages for',

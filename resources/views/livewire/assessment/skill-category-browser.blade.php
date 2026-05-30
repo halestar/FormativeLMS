@@ -10,7 +10,7 @@
                                 type="checkbox"
                                 id="level_{{ $level->id }}"
                                 wire:model="filterLevels"
-                                value="{{ $level->id }}"
+                                value="{{ $level->name }}"
                                 wire:click="$refresh()"
                         >
                         <label class="form-check-label" for="level_{{ $level->id }}">
@@ -87,8 +87,8 @@
                             <div class="list-group list-group-flush">
                                 @foreach($skills as $skill)
                                     <a
-                                        class="list-group-item list-group-item-action @if($skill->active) list-group-item-success @else list-group-item-danger @endif d-flex justify-content-between align-items-center"
-                                        href="{{ route('subjects.skills.show', $skill) }}"
+                                            class="list-group-item list-group-item-action @if($skill->active) list-group-item-success @else list-group-item-danger @endif d-flex justify-content-between align-items-center"
+                                            href="{{ route('subjects.skills.show', $skill) }}"
                                     >
                                         <span class="fw-bold">{{ $skill->designation . ($skill->name? " (" . $skill->name . ")": '') }}</span>
                                         <div class="text-end">{{ $skill->levels->pluck('name')->join(', ') }}</div>
@@ -96,7 +96,7 @@
                                 @endforeach
                             </div>
                         </div>
-                        </div>
+                    </div>
                 </div>
             @elseif($selectedCategory && $selectedCategory->skills()->forLevels($filterLevels)->count() > 0)
                 <div class="selected-category-container" style="height: 450px; overflow: auto;">
