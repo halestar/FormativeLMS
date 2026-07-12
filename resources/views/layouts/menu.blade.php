@@ -126,7 +126,7 @@
                         </div>
                     </li>
                     @endhasanyrole
-                    @canany(['substitutes.admin'])
+                    @canany(['substitute.admin'])
                         <li class="nav-item dropdown">
                             <a id="featuresDD" class="nav-link dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -134,7 +134,7 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="featuresDD">
-                                @can('substitutes.admin')
+                                @can('substitute.admin')
                                     <a class="dropdown-item" href="{{ route('features.substitutes.index') }}">
                                         {{ __('system.menu.features.substitutes') }}
                                     </a>
@@ -167,13 +167,8 @@
                                     </a>
                                 @endcan
                                 @can('people.roles.fields')
-                                    <a class="dropdown-item" href="{{ route('people.roles.fields') }}">
+                                    <a class="dropdown-item" href="{{ route('people.fields.roles') }}">
                                         {{ __('people.fields.roles') }}
-                                    </a>
-                                @endcan
-                                @can('people.field.permissions')
-                                    <a class="dropdown-item" href="{{ route('people.fields.permissions') }}">
-                                        {{ __('system.menu.fields') }}
                                     </a>
                                 @endcan
                                 @can('cms')
@@ -248,11 +243,12 @@
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="parent-student-selector">
                                     @foreach(auth()->user()->currentChildStudents() as $student)
                                         @continue($student->id == auth()->user()->student_id)
-                                        <a class="dropdown-item" href="{{ route('view.child', ['student' => $student->id]) }}">
+                                        <a class="dropdown-item"
+                                           href="{{ route('view.child', ['student' => $student->id]) }}">
                                             <img
-                                                src="{{$student->person->portrait_url->thumbUrl() }}"
-                                                alt="{{ $student->person->name }}"
-                                                class="d-flex align-self-center me-2 avatar-img-normal rounded-circle avatar-list-item"
+                                                    src="{{$student->person->portrait_url->thumbUrl() }}"
+                                                    alt="{{ $student->person->name }}"
+                                                    class="d-flex align-self-center me-2 avatar-img-normal rounded-circle avatar-list-item"
                                             />
                                             <span class="fs-5 fw-bold">{{  $student->person->name }}</span>
                                         </a>
@@ -277,7 +273,7 @@
                     <li class="ms-3 nav-item my-auto">
                         <livewire:utilities.message-notifier/>
                     </li>
-                    <livewire:utilities.alert-manager />
+                    <livewire:utilities.alert-manager/>
                 @endauth
 
                 <li class="nav-item  my-auto">

@@ -1,4 +1,4 @@
-<div>
+<div class="container">
     <ul class="nav nav-tabs" irole="tablist">
         <li class="nav-item" role="presentation">
             <button

@@ -18,4 +18,5 @@ return
 		'update_address' => 'Update Address',
 		'work_address' => 'Work Address',
 		'zip' => 'Zip',
+		'other' => 'Other Address',
 	];

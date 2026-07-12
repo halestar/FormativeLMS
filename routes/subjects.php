@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\ClassManagement\SkillsController;
-use App\Http\Controllers\ClassManagement\StudentEnrollmentController;
 use App\Http\Controllers\School\ClassController;
 use App\Http\Controllers\School\StudentTrackerController;
 use App\Http\Controllers\SubjectMatter\CourseController;
@@ -14,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('subjects')
      ->name('subjects.')
      ->controller(SubjectsController::class)
-     ->group(function()
+     ->group(function ()
      {
 	     Route::get('/{campus?}', 'index')
 	          ->name('index');
@@ -34,7 +33,7 @@ Route::prefix('subjects')
 Route::prefix('courses')
      ->name('courses.')
      ->controller(CourseController::class)
-     ->group(function()
+     ->group(function ()
      {
 	     Route::get('/{subject?}', 'index')
 	          ->name('index');
@@ -52,7 +51,7 @@ Route::prefix('courses')
 Route::prefix('classes')
      ->name('classes.')
      ->controller(SchoolClassController::class)
-     ->group(function()
+     ->group(function ()
      {
 	     Route::get('/{course?}', 'index')
 	          ->name('index');
@@ -65,19 +64,14 @@ Route::prefix('classes')
      });
 
 //Class Enrollment
-Route::prefix('enrollment')
-     ->name('enrollment.')
-     ->controller(StudentEnrollmentController::class)
-     ->group(function()
-     {
-	     Route::get('/enrollment/general', 'general')
-	          ->name('general');
-     });
+Route::livewire('enrollment/general', 'subject-matter.general-class-enrollment')
+     ->name('enrollment.general');
+
 
 //Anything related to the school's class management system
 Route::prefix('school/classes')
      ->name('school.classes.')
-     ->group(function()
+     ->group(function ()
      {
 	     Route::livewire('/messages', MyMessages::class)
 	          ->name('messages');
@@ -94,30 +88,32 @@ Route::resource('student-tracker', StudentTrackerController::class)
 //skill management
 Route::prefix('skills')
      ->name('skills.')
-     ->controller(SkillsController::class)
-     ->group(function()
+     ->group(function ()
      {
-	     Route::get('/', 'index')
-	          ->name('index');
-	     Route::post('/store', 'store')
-	          ->name('store');
-	     Route::get('/create/{category?}', 'create')
-	          ->name('create');
-	     Route::get('/{skill}/rubric', 'rubric')
-	          ->name('rubric');
-	     Route::get('/{skill}/edit', 'edit')
-	          ->name('edit');
-	     Route::put('/{skill}/update', 'update')
-	          ->name('update');
-	     Route::delete('/{skill}/unlink/{category}', 'unlinkCategory')
-	          ->name('unlink');
-	     Route::post('/{skill}/link', 'linkCategory')
-	          ->name('link');
-	     Route::get('/{skill}/subject/{subject}', 'linkSubject')
-	          ->name('link.subject');
-		 Route::delete('/{skill}/subject/{subject}', 'unlinkSubject')
-			 ->name('unlink.subject');
-	     Route::get('/{skill}', 'show')
-	          ->name('show');
-		 Route::delete('/{skill}', 'destroy')->name('delete');
+	     Route::livewire('/', 'assessment.skill-category-browser')->name('index');
+	     Route::livewire('/{skill}/rubric', 'assessment.rubric-builder')->name('rubric');
+	     Route::controller(SkillsController::class)
+	          ->group(function ()
+	          {
+		          Route::post('/store', 'store')
+		               ->name('store');
+		          Route::get('/create/{category?}', 'create')
+		               ->name('create');
+		          Route::get('/{skill}/edit', 'edit')
+		               ->name('edit');
+		          Route::put('/{skill}/update', 'update')
+		               ->name('update');
+		          Route::delete('/{skill}/unlink/{category}', 'unlinkCategory')
+		               ->name('unlink');
+		          Route::post('/{skill}/link', 'linkCategory')
+		               ->name('link');
+		          Route::get('/{skill}/subject/{subject}', 'linkSubject')
+		               ->name('link.subject');
+		          Route::delete('/{skill}/subject/{subject}', 'unlinkSubject')
+		               ->name('unlink.subject');
+		          Route::get('/{skill}', 'show')
+		               ->name('show');
+		          Route::delete('/{skill}', 'destroy')->name('delete');
+	          });
+
      });

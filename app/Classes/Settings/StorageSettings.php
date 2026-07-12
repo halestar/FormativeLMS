@@ -11,27 +11,23 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 class StorageSettings extends SystemSetting
 {
 	protected static string $settingKey = "storage";
-	
+
 	protected static function defaultValue(): array
 	{
 		$vals = [];
-		foreach(WorkStoragesInstances::values() as $val)
+		foreach (WorkStoragesInstances::values() as $val)
 			$vals[$val] = null;
 		return ['work' => $vals];
 	}
-	
+
 	public function workStorages(): Attribute
 	{
 		return $this->basicProperty('work');
 	}
-	
+
 	public function getWorkConnection(WorkStoragesInstances $instance): ?WorkFilesConnection
 	{
 		return IntegrationConnection::find($this->work_storages[$instance->value]);
 	}
-	
-	protected function casts(): array
-	{
-		return [];
-	}
+
 }

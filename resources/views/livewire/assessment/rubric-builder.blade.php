@@ -1,4 +1,4 @@
-<div>
+<div class="container">
     @use(App\Casts\Learning\Rubric)
     <div class="row mb-4">
         <div class="col-lg-4">
@@ -19,7 +19,8 @@
                                 class="btn btn-primary text-nowrap"
                                 wire:click="addScore()"
                         >{{ __('common.add') }}</button>
-                        <x-utilities.error-display key="newScore">{{ $errors->first('newScore') }}</x-utilities.error-display>
+                        <x-utilities.error-display
+                                key="newScore">{{ $errors->first('newScore') }}</x-utilities.error-display>
                     </div>
                     <div class="row px-3 mb-2">
                         <button

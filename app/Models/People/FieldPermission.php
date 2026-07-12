@@ -2,41 +2,40 @@
 
 namespace App\Models\People;
 
+use App\Enums\FieldPermissionAction;
+use App\Enums\FieldPermissionContext;
 use App\Models\Utilities\SchoolRoles;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class FieldPermission extends Model
 {
-	public $timestamps = false;
+	public $timestamps = true;
 	public $incrementing = true;
 	protected $table = "field_permissions";
 	protected $primaryKey = "id";
-	protected $fillable =
+	protected $guarded =
 		[
-			'role_id',
-			'field',
-			'by_self',
-			'by_employee',
-			'by_students',
-			'by_parent',
-			'editable',
+			'id',
 		];
-	
-	public function role(): BelongsTo
+
+	public function viewerRole(): BelongsTo
 	{
-		return $this->belongsTo(SchoolRoles::class, 'role_id');
+		return $this->belongsTo(SchoolRoles::class, 'viewer_role_id');
 	}
-	
+
+	public function targetRole(): BelongsTo
+	{
+		return $this->belongsTo(SchoolRoles::class, 'target_role_id');
+	}
+
 	protected function casts(): array
 	{
 		return
 			[
-				'by_self' => 'boolean',
-				'by_employee' => 'boolean',
-				'by_students' => 'boolean',
-				'by_parent' => 'boolean',
-				'editable' => 'boolean',
+				'context' => FieldPermissionContext::class,
+				'action'  => FieldPermissionAction::class,
+				'allow'   => 'boolean',
 			];
 	}
 }

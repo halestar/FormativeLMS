@@ -12,37 +12,37 @@ use App\Livewire\SubjectMatter\Learning\Opportunities\OpportunityViewer;
 use App\Models\Utilities\SchoolRoles;
 
 Route::prefix('learning-demonstrations/opportunities')
-	->name('ld.opportunities.')
-	->group(function()
-	{
-		Route::livewire('/viewer/{opportunity}/{classSession}', OpportunityViewer::class)->name('viewer');
-		Route::livewire('/demonstrator/{opportunity}/{classSession}', OpportunityDemonstrator::class)
-			->name('demonstrator')
-			->middleware('role:' . SchoolRoles::$STUDENT . "|" . SchoolRoles::$OLD_STUDENT);
-	});
+     ->name('ld.opportunities.')
+     ->group(function ()
+     {
+	     Route::livewire('/viewer/{opportunity}/{classSession}', OpportunityViewer::class)->name('viewer');
+	     Route::livewire('/demonstrator/{opportunity}/{classSession}', OpportunityDemonstrator::class)
+	          ->name('demonstrator')
+	          ->middleware('role:' . SchoolRoles::$STUDENT . "|" . SchoolRoles::$OLD_STUDENT);
+     });
 
 Route::prefix('classes')
-	->name('classes.')
-	->controller(ClassController::class)
-	->group(function()
-	{
-		Route::get('/settings/{classSession?}', 'settings')
-			->name('settings');
-		Route::get('/criteria/{classSession?}', 'criteria')
-			->name('criteria');
-	});
+     ->name('classes.')
+     ->controller(ClassController::class)
+     ->group(function ()
+     {
+	     Route::get('/settings/{classSession?}', 'settings')
+	          ->name('settings');
+	     Route::get('/criteria/{classSession?}', 'criteria')
+	          ->name('criteria');
+     });
 
 Route::prefix('learning-demonstrations')
      ->name('ld.')
      ->middleware('role:' . SchoolRoles::$FACULTY . "|" . SchoolRoles::$OLD_FACULTY)
-	 ->group(function()
-	 {
-		Route::livewire('/index/{course?}', LearningDemonstrationIndex::class)->name('index');
-		Route::livewire('/create/{course?}', LearningDemonstrationCreator::class)->name('create');
-	    Route::livewire('/post/{ld}', LearningDemonstrationPoster::class)->name('post');
-		Route::livewire('/edit/{ld}/{classSession}', LearningDemonstrationEditor::class)->name('edit');
-	    Route::livewire('/assess/{ld}/{classSession?}', LearningDemonstrationAssessor::class)->name('assess');
-	 });
+     ->group(function ()
+     {
+	     Route::livewire('/index/{course?}', LearningDemonstrationIndex::class)->name('index');
+	     Route::livewire('/create/{course?}', LearningDemonstrationCreator::class)->name('create');
+	     Route::livewire('/post/{ld}', LearningDemonstrationPoster::class)->name('post');
+	     Route::livewire('/edit/{ld}/{classSession}', LearningDemonstrationEditor::class)->name('edit');
+	     Route::livewire('/assess/{ld}/{classSession?}', LearningDemonstrationAssessor::class)->name('assess');
+     });
 
 
 

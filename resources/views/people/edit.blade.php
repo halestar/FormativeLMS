@@ -1,5 +1,5 @@
 @extends('layouts.app', ['breadcrumb' => $breadcrumb])
-
+@use('\App\Classes\People\RoleField')
 @section('content')
     <div class="container">
         <div class="row">
@@ -10,7 +10,7 @@
                     <livewire:people.portrait-editor :person="$person"/>
                     {{-- Personal Settings and Links --}}
                     <div class="profile-work">
-                        <livewire:auth.user-auth-manager :person="$person"/>
+                        <livewire:auth.user-auth-manager :person="$person->model"/>
                     </div>
                 </div>
             </div>
@@ -23,15 +23,15 @@
                             <h5>
                                 {{ $person->name }}
                             </h5>
-                            <livewire:role-assigner :attachObj="$person"/>
+                            <livewire:role-assigner :attachObj="$person->model"/>
                             @if($person->isEmployee())
-                                <livewire:people.campus-assigner :person="$person"/>
+                                <livewire:people.campus-assigner :person="$person->model"/>
                                 @if($person->isTeacher())
-                                    <livewire:people.subject-assigner :teacher="$person"/>
+                                    <livewire:people.subject-assigner :teacher="$person->model"/>
                                 @endif
                             @endif
                             @if($person->isStudent() || $person->hasRole(\App\Models\Utilities\SchoolRoles::$OLD_STUDENT))
-                                <livewire:people.student-record-manager :person="$person"/>
+                                <livewire:people.student-record-manager :person="$person->model"/>
                             @endif
                         </div>
                     </div>
@@ -113,118 +113,217 @@
                             aria-labelledby="tab-basic"
                             tabindex="0"
                     >
-                        <form action="{{ route('people.update.basic', ['person' => $person->school_id]) }}"
+                        <form action="{{ route('people.update', ['person' => $person->school_id]) }}"
                               method="POST">
                             @csrf
                             @method('PUT')
                             <ul class="list-group">
-                                @if(!$isSelf || $self->canEditOwnField('first'))
+                                @if($person->canEdit('first') || $person->canView('first'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <label for="first"
                                                    class="col-form-label">{{ __('people.profile.fields.first') }}</label>
                                             <span class="w-50">
-                                            <input type="text" name="first" id="first" value="{{ $person->first }}"
-                                                   class="form-control form-control-sm text-end"/>
-                                        </span>
+                                                <input type="text" name="first" id="first" value="{{ $person->first }}"
+                                                       @readonly(!$person->canEdit('first'))
+                                                       class="form-control form-control-sm text-end @error('first') is-invalid @enderror"
+                                                />
+                                                <x-utilities.error-display
+                                                        key="first">{{ $errors->first('first') }}</x-utilities.error-display>
+                                            </span>
                                         </div>
                                     </li>
                                 @endif
-                                @if(!$isSelf || $self->canEditOwnField('middle'))
+                                @if($person->canEdit('middle') || $person->canView('middle'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <label for="middle"
                                                    class="col-form-label">{{ __('people.profile.fields.middle') }}</label>
                                             <span class="w-50">
-                                            <input type="text" name="middle" id="middle" value="{{ $person->middle }}"
-                                                   class="form-control form-control-sm text-end"/>
-                                        </span>
+                                                <input type="text" name="middle" id="middle"
+                                                       value="{{ $person->middle }}"
+                                                       @readonly(!$person->canEdit('middle'))
+                                                       class="form-control form-control-sm text-end @error('middle') is-invalid @enderror"
+                                                />
+                                                <x-utilities.error-display
+                                                        key="middle">{{ $errors->first('middle') }}</x-utilities.error-display>
+                                            </span>
                                         </div>
                                     </li>
                                 @endif
-                                @if(!$isSelf || $self->canEditOwnField('last'))
+                                @if($person->canEdit('last') || $person->canView('last'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <label for="last"
                                                    class="col-form-label">{{ __('people.profile.fields.last') }}</label>
                                             <span class="w-50">
-                                            <input
-                                                    type="text"
-                                                    name="last"
-                                                    id="last"
-                                                    value="{{ $person->last }}"
-                                                    class="form-control form-control-sm @error('last') is-invalid @enderror text-end"/>
-                                            <x-utilities.error-display
-                                                    key="last">{{ $errors->first('last') }}</x-utilities.error-display>
-                                        </span>
+                                                <input
+                                                        type="text"
+                                                        name="last"
+                                                        id="last"
+                                                        value="{{ $person->last }}"
+                                                        @readonly(!$person->canEdit('last'))
+                                                        class="form-control form-control-sm @error('last') is-invalid @enderror text-end"
+                                                />
+                                                <x-utilities.error-display
+                                                        key="last">{{ $errors->first('last') }}</x-utilities.error-display>
+                                            </span>
                                         </div>
                                     </li>
                                 @endif
-                                @if(!$isSelf || $self->canEditOwnField('nick'))
+                                @if($person->canEdit('nick') || $person->canView('nick'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <label for="nick"
                                                    class="col-form-label">{{ __('people.profile.fields.nick') }}</label>
                                             <span class="w-50">
-                                            <input type="text" name="nick" id="nick" value="{{ $person->nick }}"
-                                                   class="form-control form-control-sm text-end"/>
-                                        </span>
+                                                <input type="text" name="nick" id="nick" value="{{ $person->nick }}"
+                                                       @readonly(!$person->canEdit('nick'))
+                                                       class="form-control form-control-sm text-end @error('nick') is-invalid @enderror text-end"
+                                                />
+                                                <x-utilities.error-display
+                                                        key="nick">{{ $errors->first('nick') }}</x-utilities.error-display>
+                                            </span>
                                         </div>
                                     </li>
                                 @endif
-                                @if(!$isSelf || $self->canEditOwnField('email'))
+                                @if($person->canEdit('email') || $person->canView('email'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <label for="email"
                                                    class="col-form-label">{{ __('people.profile.fields.email') }}</label>
                                             <span class="w-50">
                                             <input type="email" name="email" id="email" value="{{ $person->email }}"
-                                                   class="form-control form-control-sm text-end"/>
-                                        </span>
+                                                   @readonly(!$person->canEdit('email'))
+                                                   class="form-control form-control-sm text-end @error('email') is-invalid @enderror "
+                                            />
+                                                <x-utilities.error-display
+                                                        key="email">{{ $errors->first('email') }}</x-utilities.error-display>
+                                            </span>
                                         </div>
                                     </li>
                                 @endif
-                                @if(!$isSelf || $self->canEditOwnField('dob'))
+                                @if($person->canEdit('dob') || $person->canView('dob'))
                                     <li class="list-group list-group-flush border-bottom mb-2 pb-1">
                                         <div class="d-flex justify-content-between align-items-center">
                                             <label for="dob"
                                                    class="col-form-label">{{ __('people.profile.fields.dob') }}</label>
                                             <span class="w-50">
-                                            <input type="date" name="dob" id="dob"
-                                                   value="{{ $person->dob? $person->dob->format('Y-m-d'): "" }}"
-                                                   class="form-control form-control-sm text-end"/>
-                                        </span>
+                                                <input type="date" name="dob" id="dob"
+                                                       value="{{ $person->dob? $person->dob->format('Y-m-d'): "" }}"
+                                                       @readonly(!$person->canEdit('dob'))
+                                                       class="form-control form-control-sm text-end @error('dob') is-invalid @enderror"
+                                                />
+                                                <x-utilities.error-display
+                                                        key="dob">{{ $errors->first('dob') }}</x-utilities.error-display>
+                                            </span>
                                         </div>
                                     </li>
                                 @endif
+                                @foreach($person->schoolRoles as $role)
+                                    @continue(empty($role->fields))
+                                    @foreach($role->fields as $field)
+                                        @php
+                                            $fieldId = 'role_fields.' .$field->fieldId;
+                                        @endphp
+                                        @if($person->canEdit($fieldId) || $person->canView($fieldId))
+                                            <li class="list-group list-group-flush border-bottom mb-2 pb-1">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <label for="{{ $fieldId }}" class="col-form-label">
+                                                        {{ $field->fieldName }}
+                                                    </label>
+                                                    <span class="w-50">
+                                                        @switch($field->fieldType)
+                                                            @case(RoleField::DATE)
+                                                            @case(RoleField::DATETIME)
+                                                            @case(RoleField::TEXT)
+                                                                <input type="@if($field->fieldType === RoleField::DATE)
+                                                                                date
+                                                                            @elseif($field->fieldType == RoleField::DATETIME)
+                                                                                datetime-local
+                                                                            @elseif($field->fieldType == RoleField::URL)
+                                                                                url
+                                                                            @elseif($field->fieldType == RoleField::EMAIL)
+                                                                                email
+                                                                            @else
+                                                                                text
+                                                                            @endif"
+                                                                       name="{{ $fieldId }}"
+                                                                       id="{{ $fieldId }}"
+                                                                       class="form-control form-control-sm text-end @error($fieldId) is-invalid @enderror"
+                                                                       value="{{ $person->role_fields->{$field->fieldId} }}"
+                                                                       @readonly(!$person->canEdit($fieldId))
+                                                                       placeholder="{{ $field->fieldPlaceholder }}"
+                                                                />
+                                                                @break
+                                                            @case(RoleField::SELECT)
+                                                                <select type="text"
+                                                                        name="{{ $fieldId }}"
+                                                                        id="{{ $fieldId }}"
+                                                                        class="form-select form-select-sm text-end @error($fieldId) is-invalid @enderror"
+                                                                        @readonly(!$person->canEdit($fieldId))
+                                                                >
+                                                                    <option value=""></option>
+                                                                    @foreach ($field->fieldOptions as $option)
+                                                                        <option value="{{ $option }}" @selected($person->role_fields->{$field->fieldId} == $option)>
+                                                                            {{ $option }}
+                                                                        </option>
+                                                                    @endforeach
+                                                                </select>
+                                                                @break
+                                                            @case(RoleField::CHECKBOX)
+                                                                @foreach ($field->fieldOptions as $option)
+                                                                    <div class="form-check">
+                                                                      <input class="form-check-input"
+                                                                             type="checkbox"
+                                                                             value="{{ $option }}"
+                                                                             name="{{ $fieldId }}[]"
+                                                                             id="{{ $fieldId . "_" . $option }}"
+                                                                      />
+                                                                      <label class="form-check-label"
+                                                                             for="{{ $fieldId . "_" . $option }}">
+                                                                        {{ $option }}
+                                                                      </label>
+                                                                    </div>
+                                                                @endforeach
+                                                                @break
+                                                            @case(RoleField::RADIO)
+                                                                @foreach ($field->fieldOptions as $option)
+                                                                    <div class="form-check">
+                                                                      <input class="form-check-input"
+                                                                             type="radio"
+                                                                             value="{{ $option }}"
+                                                                             name="{{ $fieldId }}"
+                                                                             id="{{ $fieldId . "_" . $option }}"
+                                                                      />
+                                                                      <label class="form-check-label"
+                                                                             for="{{ $fieldId . "_" . $option }}">
+                                                                        {{ $option }}
+                                                                      </label>
+                                                                    </div>
+                                                                @endforeach
+                                                                @break
+                                                            @case(RoleField::TEXTAREA)
+                                                                <textarea name="{{ $fieldId }}"
+                                                                          id="{{ $fieldId }}"
+                                                                          class="form-control form-control-sm text-end @error($fieldId) is-invalid @enderror"
+                                                                          @readonly(!$person->canEdit($fieldIdd))
+                                                                          placeholder="{{ $field->fieldPlaceholder }}"
+                                                                >{{ $person->role_fields->{$field->fieldId} }}</textarea>
+                                                                @break
+                                                        @endswitch
+                                                    </span>
+                                                </div>
+                                            </li>
+                                        @endif
+                                    @endforeach
+                                @endforeach
                             </ul>
-                            <div class="row">
-                                <button type="submit"
-                                        class="btn btn-primary col mt-3">{{ __('people.profile.basic.update') }}</button>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary"
+                                        type="submit">{{ __('people.profile.fields.update') }}</button>
                             </div>
                         </form>
-                        @foreach($person->schoolRoles as $role)
-                            @if(count($role->fields) > 0)
-                                <form action="{{ route('people.roles.fields.update', ['person' => $person->school_id, 'role' => $role->id]) }}"
-                                      method="POST">
-                                    @csrf
-                                    @method('PUT')
-                                    <ul class="list-group my-3">
-                                        @foreach($role->fields as $field)
-                                            @if(!$isSelf || $self->canEditOwnField($field))
-                                                <li class="list-group list-group-flush border-bottom mb-2 pb-1">
-                                                    {!! $field->getHTML() !!}
-                                                </li>
-                                            @endif
-                                        @endforeach
-                                    </ul>
-                                    <div class="d-grid gap-2">
-                                        <button class="btn btn-primary"
-                                                type="submit">{{ __('people.profile.fields.update') }}</button>
-                                    </div>
-                                </form>
-                            @endif
-                        @endforeach
                     </div>
                     <div
                             class="tab-pane fade"
@@ -234,12 +333,12 @@
                             tabindex="0"
                     >
                         <div class="mb-3 p-1">
-                            @if(!$isSelf || $self->canEditOwnField('addresses'))
+                            @if($person->canView('addresses')|| $person->canEdit('addresses'))
                                 <livewire:address-editor :addressable="$person"/>
                             @endif
                         </div>
                         <div class="mb-3 p-1">
-                            @if(!$isSelf || $self->canEditOwnField('phones'))
+                            @if($person->canView('addresses') || $person->canEdit('phones'))
                                 <livewire:phone-editor :phoneable="$person"/>
                             @endif
                         </div>
@@ -252,8 +351,8 @@
                             tabindex="0"
                     >
                         <div class="mb-3 p-1">
-                            @if(!$isSelf || $self->canEditOwnField('relationships'))
-                                <livewire:relationship-creator :person="$person"/>
+                            @if($person->canView('addresses') || $person->canEdit('relationships'))
+                                <livewire:relationship-creator :person="$person->model"/>
                             @endif
                         </div>
                     </div>

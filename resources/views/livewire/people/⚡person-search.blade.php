@@ -21,7 +21,6 @@ new class extends Component
 
 	public function mount(string $instance, Collection|array|string|null $rolesFilter = null)
 	{
-		Log::info("from person-search: roles filter: " . json_encode($rolesFilter));
 		$this->instance = $instance;
 		$this->filterRoles = new Collection();
 		if ($rolesFilter)
@@ -34,7 +33,6 @@ new class extends Component
 				$this->filterRoles = new Collection([$rolesFilter]);
 		}
 		$this->placeholder = $this->placeholder ?? __('people.search.person');
-		Log::info("from person-search: filter roles: " . json_encode($this->filterRoles));
 	}
 
 	public function selectPerson(int $personId)
@@ -59,7 +57,6 @@ new class extends Component
 	{
 		if ($this->search && strlen($this->search) > 2)
 		{
-			Log::info("filter roles: " . json_encode($this->filterRoles));
 			$people = Person::search($this->search);
 			if ($this->filterRoles->count() > 0)
 				$people->query(fn (Builder $query) => $query->whereHas('roles', fn (

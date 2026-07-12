@@ -19,7 +19,6 @@ new class extends Component
 
 	public function mount(string $instance, Collection|array|string|null $rolesFilter = null)
 	{
-		Log::info("from create-roster: roles filter: " . json_encode($rolesFilter));
 		$this->placeholder = __('people.search.person');
 		$this->instance = $instance;
 		$this->filterRoles = new Collection();
@@ -32,7 +31,6 @@ new class extends Component
 			elseif (is_string($rolesFilter))
 				$this->filterRoles = new Collection([$rolesFilter]);
 		}
-		Log::info("from create-roster: filter roles: " . json_encode($this->filterRoles));
 	}
 
 	#[Computed]

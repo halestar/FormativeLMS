@@ -12,4 +12,5 @@ return
 		'phone_number' => 'Phone Number',
 		'primary_phone' => 'Primary Phone',
 		'update_phone' => 'Update Phone',
+		'other' => 'Other Phones',
 	];

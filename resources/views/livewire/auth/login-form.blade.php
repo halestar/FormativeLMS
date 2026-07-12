@@ -7,7 +7,8 @@
                     <div class="card-body">
                         <div class="alert alert-success mb-0 rounded-4 border-0 shadow-sm" role="alert">
                             <div class="d-flex align-items-start gap-3">
-                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle bg-success bg-opacity-10 text-success flex-shrink-0" style="width: 2.75rem; height: 2.75rem;">
+                                <span class="d-inline-flex align-items-center justify-content-center rounded-circle bg-success bg-opacity-10 text-success flex-shrink-0"
+                                      style="width: 2.75rem; height: 2.75rem;">
                                     <i class="fa-solid fa-envelope"></i>
                                 </span>
                                 <div>
@@ -28,7 +29,8 @@
                         @if(in_array($stage, [LoginStages::PromptEmail, LoginStages::PromptPassword], true))
                             <div class="mb-4">
                                 <x-authenticate-passkey>
-                                    <button type="button" class="btn btn-outline-primary btn-lg w-100 rounded-4 px-4 py-3 shadow-sm">
+                                    <button type="button"
+                                            class="btn btn-outline-primary btn-lg w-100 rounded-4 px-4 py-3 shadow-sm">
                                         <span class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-between gap-3 text-start">
                                             <span>
                                                 <span class="d-block fw-semibold">{{ __('passkeys::passkeys.authenticate_using_passkey') }}</span>
@@ -52,7 +54,7 @@
                                 <div class="alert alert-danger">
                                     {{ __('errors.auth.account') }}
                                 </div>
-                            @break
+                                @break
                             @case(LoginStages::LockedUser)
                                 <div class="alert alert-danger">
                                     @if(!$lockedUntil)
@@ -61,7 +63,7 @@
                                         {{ __('errors.auth.locked', ['time' => $lockedUntil->diffForHumans()]) }}
                                     @endif
                                 </div>
-                            @break
+                                @break
                             @case(LoginStages::PromptEmail)
                                 <form wire:submit="submitEmail">
                                     <div class="input-group mb-3 has-validation">
@@ -116,7 +118,7 @@
                                         </div>
                                     </div>
                                 </form>
-                            @break
+                                @break
                             @case(LoginStages::PromptPassword)
                                 <div class="input-group mb-3">
                                     <span class="input-group-text"
@@ -173,9 +175,9 @@
                                         </div>
                                     </div>
                                 </form>
-                            @break
+                                @break
                             @case(LoginStages::PromptMethod)
-                                <h3>Select a sign-in method for {{ $user->system_email }}</h3>
+                                <h3>Select a sign-in method for {{ $user->email }}</h3>
                                 <div class="d-flex flex-column align-items-center">
                                     @foreach($methodOptions as $service_id => $button)
                                         <div class="my-2 show-as-action" wire:click="submitMethod({{ $service_id }});">
@@ -183,11 +185,11 @@
                                         </div>
                                     @endforeach
                                 </div>
-                            @break
+                                @break
                             @case(LoginStages::CodeVerification)
                                 <form wire:submit="submitVerification">
                                     <div class="alert alert-info mb-3">
-                                        {{ __('settings.auth.verify.instructions', ['email' => $user->system_email, 'time' => config('lms.auth_code_timeout')]) }}
+                                        {{ __('settings.auth.verify.instructions', ['email' => $user->email, 'time' => config('lms.auth_code_timeout')]) }}
                                     </div>
                                     <div
                                             class="d-flex justify-content-center"
@@ -240,7 +242,7 @@
                                     </div>
                                     @enderror
                                 </form>
-                            @break
+                                @break
                             @case(LoginStages::CodeTimeout)
                                 <div class="alert alert-danger">
                                     {{ __('errors.auth.verification.timeout') }}
@@ -254,11 +256,11 @@
                                         {{ __('common.cancel') }}
                                     </button>
                                 </div>
-                            @break
+                                @break
                             @case(LoginStages::ResetPassword)
-                                <h4>{{ __('settings.auth.password.reset.for', ['user' => $user->system_email]) }}</h4>
+                                <h4>{{ __('settings.auth.password.reset.for', ['user' => $user->email]) }}</h4>
                                 <livewire:auth.change-password-form :person="$user" :auth-first="false"/>
-                            @break
+                                @break
                         @endswitch
                     </div>
                 @endif

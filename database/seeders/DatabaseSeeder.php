@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
 use Illuminate\Database\Seeder;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -14,42 +13,7 @@ class DatabaseSeeder extends Seeder
 	 */
 	public function run(): void
 	{
-		$this->call(
-			[
-				PermissionSeeder::class,
-				RoleSeeder::class,
-				IntegrationSeeder::class,
-				SystemSettingsSeeder::class,
-				FieldPermissionsSeeder::class,
-				SystemTableSeeder::class,
-				LearningDemonstrationTypeSeeder::class,
-				BuildingSeeder::class,
-				CampusSeeder::class,
-				YearSeeder::class,
-				RoomSeeder::class,
-				GradingTranslationSchemaSeeder::class,
-				AdminSeeder::class,
-				FacultySeeder::class,
-				StaffSeeder::class,
-				CoachSeeder::class,
-				FamilySeeder::class,
-				SchoolIdSeeder::class,
-				SubjectSeeder::class,
-				CourseSeeder::class,
-				PeriodSeeder::class,
-				BlockSeeder::class,
-				SchoolClassSeeder::class,
-				ClassSessionSeeder::class,
-				StudentEnrollmentSeeder::class,
-				ClassMessageSeeder::class,
-				StudentTrackerSeeder::class,
-				SkillCategorySeeder::class,
-				SkillSeeder::class,
-				RubricRestoreSeeder::class,
-				MimeSeeder::class,
-                NotificationsSeeder::class,
-				ClassCriteriaSeeder::class,
-				DemonstrationSeeder::class,
-			]);
+		$seeder = config('seeder.seederClass', EmptySeeder::class);
+		$this->call($seeder);
 	}
 }

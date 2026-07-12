@@ -5,37 +5,31 @@ use App\Http\Controllers\People\PersonalPreferencesController;
 use Illuminate\Support\Facades\Route;
 
 
+Route::livewire('/create', 'people.person-adder')->name('create');
 Route::controller(\App\Http\Controllers\People\PersonController::class)
-     ->group(function()
+     ->group(function ()
      {
 	     Route::get('/', 'index')
 	          ->name('index');
-	     Route::get('/create', 'create')
-	          ->name('create');
-	     Route::get('/roles/fields', 'roleFields')
-	          ->name('roles.fields');
 	     Route::get('/password', 'changeSelfPassword')
 	          ->name('password');
-         Route::get('/fields/permissions', 'fieldPermissions')
-             ->name('fields.permissions');
 	     Route::get('/{person}', 'show')
 	          ->name('show');
 	     Route::get('/{person}/edit', 'edit')
 	          ->name('edit');
-	     Route::put('/{person}/basic', 'updateBasic')
-	          ->name('update.basic');
-	     Route::post('/{person}/portrait', 'updatePortrait')
-	          ->name('update.portrait');
-
-         //Fields
-	     Route::put('/{person}/fields/{role}/update', 'updateRoleFields')
-	          ->name('roles.fields.update');
+	     Route::put('/{person}', 'update')
+	          ->name('update');
      });
+
+Route::livewire('/fields/roles', 'pages::people.role-fields')
+     ->name('fields.roles');
+Route::livewire('/fields/permissions', 'pages::people.field-permissions')
+     ->name('fields.permissions');
 
 Route::controller(IdController::class)
      ->name('school-ids.')
      ->prefix('school-ids')
-     ->group(function()
+     ->group(function ()
      {
 	     Route::get('/mine', 'show')
 	          ->name('show');
@@ -58,16 +52,15 @@ Route::controller(IdController::class)
      });
 
 Route::controller(PersonalPreferencesController::class)
-    ->name('preferences.')
-    ->prefix('{person}/preferences')
-    ->group(function()
-    {
-        Route::get('/communications', 'communications')
-            ->name('communications');
-        Route::patch('/communications/delivery', 'communicationsDeliveryUpdate')
-            ->name('communications.update.delivery');
-        Route::patch('/communications/subscriptions', 'communicationsSubscriptionsUpdate')
-            ->name('communications.update.subscriptions');
-		Route::get('/passkeys', 'passkeys')->name('passkeys');
-    });
+     ->name('preferences.')
+     ->prefix('preferences')
+     ->group(function ()
+     {
+	     Route::get('/communications', 'communications')
+	          ->name('communications');
+	     Route::patch('/communications/delivery', 'communicationsDeliveryUpdate')
+	          ->name('communications.update.delivery');
+	     Route::patch('/communications/subscriptions', 'communicationsSubscriptionsUpdate')
+	          ->name('communications.update.subscriptions');
+     });
 

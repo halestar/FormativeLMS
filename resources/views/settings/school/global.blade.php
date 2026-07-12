@@ -43,7 +43,8 @@
                         <input type="time" class="form-control @error('end_time') is-invalid @enderror" id="end_time"
                                name="end_time"
                                value="{{ $schoolSettings->endTime }}" aria-describedby="endTimeHelp"/>
-                        <x-utilities.error-display key="end_time">{{ $errors->first('end_time') }}</x-utilities.error-display>
+                        <x-utilities.error-display
+                                key="end_time">{{ $errors->first('end_time') }}</x-utilities.error-display>
                         <div id="endTimeHelp" class="form-text">{{ __('system.settings.end.help') }}</div>
                     </div>
                 </div>
@@ -60,7 +61,7 @@
                            role="button"><i class="fa-solid fa-edit"></i></a>
                     </div>
                     <div id="studentNameHelp"
-                         class="form-text">{{ __('system.settings.names.students.help', ['sample' => $sampleStudent->name]) }}</div>
+                         class="form-text">{{ __('system.settings.names.students.help', ['sample' => $sampleStudent?->name ?? "No Name"]) }}</div>
                 </div>
                 <div class="school-setting col-md">
                     <label for="employee_name_format">{{ __('system.settings.names.employee') }}</label>
@@ -72,7 +73,7 @@
                            role="button"><i class="fa-solid fa-edit"></i></a>
                     </div>
                     <div id="employeeNameHelp"
-                         class="form-text">{{ __('system.settings.names.employee.help', ['sample' => $sampleEmployee->name]) }}</div>
+                         class="form-text">{{ __('system.settings.names.employee.help', ['sample' => $sampleEmployee?->name ?? "No Name"]) }}</div>
                 </div>
                 <div class="school-setting col-md">
                     <label for="parent_name_format">{{ __('system.settings.names.parent') }}</label>
@@ -84,11 +85,11 @@
                            role="button"><i class="fa-solid fa-edit"></i></a>
                     </div>
                     <div id="parentNameHelp"
-                         class="form-text">{{ __('system.settings.names.parent.help', ['sample' => $sampleParent->name]) }}</div>
+                         class="form-text">{{ __('system.settings.names.parent.help', ['sample' => $sampleParent?->name ?? "No Name"]) }}</div>
                 </div>
             </div>
             <h4 class="text-primary border-bottom border-primary">{{ __('system.settings.school.ai') }}</h4>
-            <livewire:settings.ai />
+            <livewire:settings.ai/>
         </div>
         <div class="col-md-4">
             <h4 class="text-primary border-bottom border-primary">{{ __('system.settings.school.links') }}</h4>

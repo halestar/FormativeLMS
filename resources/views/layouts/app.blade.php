@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') . (isset($breadcrumb)? ": " . array_key_last($breadcrumb): '') }}</title>
-    <link rel="icon" href="https://dev.kalinec.net/storage/cms/qwo7N9rHAFb0JiCJPvavXYzHn2Vz9T0F5ap8I4GV.ico"/>
+    <link rel="icon" href="/favicon.ico"/>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">

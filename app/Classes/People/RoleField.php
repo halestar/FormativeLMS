@@ -15,7 +15,7 @@ class RoleField implements Synthesizable
 	public const CHECKBOX = "CHECKBOX";
 	public const RADIO = "RADIO";
 	public const TEXTAREA = "TEXTAREA";
-	
+
 	public const FIELDS =
 		[
 			RoleField::TEXT => "people.fields.types.text",
@@ -28,7 +28,7 @@ class RoleField implements Synthesizable
 			RoleField::RADIO => "people.fields.types.radio",
 			RoleField::TEXTAREA => "people.fields.types.textarea",
 		];
-	
+
 	public string $fieldId;
 	public string $fieldName = "";
 	public string $fieldType;
@@ -37,15 +37,15 @@ class RoleField implements Synthesizable
 	public array $fieldOptions = [];
 	public null|string|array $fieldValue = null;
 	public ?int $roleId;
-	
+
 	public function __construct($attributes = null)
 	{
-		if($attributes)
+		if ($attributes)
 		{
 			$this->fieldName = $attributes['fieldName'] ?? "";
-			$this->fieldType = $attributes['fieldType'] ?? RoleField::FIELDS[RoleField::TEXT];
+			$this->fieldType = $attributes['fieldType'] ?? RoleField::TEXT;
 			$this->fieldHelp = $attributes['fieldHelp'] ?? "";
-			if($this->fieldType == RoleField::CHECKBOX)
+			if ($this->fieldType == RoleField::CHECKBOX)
 				$this->fieldPlaceholder = $attributes['fieldPlaceholder'] ?? [];
 			else
 				$this->fieldPlaceholder = $attributes['fieldPlaceholder'] ?? "";
@@ -55,19 +55,44 @@ class RoleField implements Synthesizable
 		}
 		$this->fieldId = $this->generateId();
 	}
-	
+
+	public function validationArray(): array
+	{
+		switch ($this->fieldType)
+		{
+			case self::TEXT:
+				return ['nullable', 'string', 'max:255'];
+			case self::TEXTAREA:
+				return ['nullable', 'string'];
+			case self::EMAIL:
+				return ['nullable', 'email', 'max:255'];
+			case self::URL:
+				return ['nullable', 'url', 'max:255'];
+			case self::DATE:
+				return ['nullable', 'date'];
+			case self::DATETIME:
+				return ['nullable', 'date_format:Y-m-d H:i:s'];
+			case self::SELECT:
+			case self::RADIO:
+				return ['nullable'];
+			case self::CHECKBOX:
+				return ['nullable', 'array'];
+		}
+		return ['nullable'];
+	}
+
 	private function generateId(): string
 	{
 		return strtolower(preg_replace('/\s+/', '_', $this->fieldName));
 	}
-	
+
 	public function jsonSerialize(): mixed
 	{
-		if($this->fieldId)
+		if ($this->fieldId)
 			return [$this->fieldId => $this->toArray()];
 		return $this->toArray();
 	}
-	
+
 	public function toArray(): array
 	{
 		$this->fieldId = $this->generateId();
@@ -84,87 +109,89 @@ class RoleField implements Synthesizable
 	}
 
 
-	
 	public function getHtml(): string
 	{
-		if($this->fieldType == RoleField::SELECT)
+		if ($this->fieldType == RoleField::SELECT)
 		{
 			$input = '<div class="mb-3"><label for="' . $this->fieldId . '" class="form-label">' .
-				$this->fieldName . '</label><select name="' . $this->fieldId . '" class="form-select" ' .
-				' aria-describedby="' . $this->fieldId . '_help" id="' . $this->fieldId . '">';
-			foreach($this->fieldOptions as $option)
+			         $this->fieldName . '</label><select name="' . $this->fieldId . '" class="form-select" ' .
+			         ' aria-describedby="' . $this->fieldId . '_help" id="' . $this->fieldId . '">';
+			foreach ($this->fieldOptions as $option)
 			{
 				$input .= '<option value="' . $option . '" ';
-				if($this->fieldValue !== null)
+				if ($this->fieldValue !== null)
 				{
-					if($option == $this->fieldValue)
+					if ($option == $this->fieldValue)
 						$input .= 'selected';
 				}
-				elseif($option == $this->fieldPlaceholder)
+				elseif ($option == $this->fieldPlaceholder)
 					$input .= 'selected';
 				$input .= '>' . $option . '</option>';
 			}
 			$input .= '</select>' .
-				'<div class="form-text" id="' . $this->fieldId . '_help">' . $this->fieldHelp . '</div></div>';
+			          '<div class="form-text" id="' . $this->fieldId . '_help">' . $this->fieldHelp . '</div></div>';
 			return $input;
 		}
-		elseif($this->fieldType == RoleField::CHECKBOX)
+		elseif ($this->fieldType == RoleField::CHECKBOX)
 		{
 			$input = '<div class="mb-3"><label class="form-label" aria-describedby="' .
-				$this->fieldId . '_help">' . $this->fieldName . '</label><br />';
+			         $this->fieldId . '_help">' . $this->fieldName . '</label><br />';
 			$idx = 0;
-			foreach($this->fieldOptions as $option)
+			foreach ($this->fieldOptions as $option)
 			{
 				$input .= '<div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" value="' .
-					$option . '" id="' . $this->fieldId . $idx . '" name="' . $this->fieldId . '[]" ';
-				if($this->fieldValue !== null)
+				          $option . '" id="' . $this->fieldId . $idx . '" name="' . $this->fieldId . '[]" ';
+				if ($this->fieldValue !== null)
 				{
-					if(in_array($option, $this->fieldValue))
+					if (in_array($option, $this->fieldValue))
 						$input .= 'checked';
 				}
-				elseif(in_array($option, $this->fieldPlaceholder))
+				elseif (in_array($option, $this->fieldPlaceholder))
 					$input .= 'checked';
-				$input .= ' /><label class="form-check-label" for="' . $this->fieldId . $idx . '">' . $option . '</label></div>';
+				$input .= ' /><label class="form-check-label" for="' . $this->fieldId . $idx . '">' . $option .
+				          '</label></div>';
 				$idx++;
 			}
 			$input .= '<div class="form-text" id="' . $this->fieldId . '_help">' . $this->fieldHelp . '</div></div>';
 			return $input;
 		}
-		elseif($this->fieldType == RoleField::RADIO)
+		elseif ($this->fieldType == RoleField::RADIO)
 		{
 			$input = '<div class="mb-3"><label class="form-label aria-describedby="' .
-				$this->fieldId . '_help">' . $this->fieldName . '</label><br />';
+			         $this->fieldId . '_help">' . $this->fieldName . '</label><br />';
 			$idx = 0;
-			foreach($this->fieldOptions as $option)
+			foreach ($this->fieldOptions as $option)
 			{
 				$input .= '<div class="form-check form-check-inline"><input class="form-check-input" type="radio" value="' .
-					$option . '" id="' . $this->fieldId . $idx . '" name="' . $this->fieldId . '" ';
-				if($this->fieldValue !== null)
+				          $option . '" id="' . $this->fieldId . $idx . '" name="' . $this->fieldId . '" ';
+				if ($this->fieldValue !== null)
 				{
-					if($option == $this->fieldValue)
+					if ($option == $this->fieldValue)
 						$input .= 'checked';
 				}
-				elseif($option == $this->fieldPlaceholder)
+				elseif ($option == $this->fieldPlaceholder)
 					$input .= 'checked';
-				$input .= ' /> <label class="form-check-label" for="' . $this->fieldId . $idx . '">' . $option . '</label></div>';
+				$input .= ' /> <label class="form-check-label" for="' . $this->fieldId . $idx . '">' . $option .
+				          '</label></div>';
 				$idx++;
 			}
 			$input .= '<div class="form-text" id="' . $this->fieldId . '_help">' . $this->fieldHelp . '</div></div>';
 			return $input;
 		}
-		elseif($this->fieldType == RoleField::TEXTAREA)
+		elseif ($this->fieldType == RoleField::TEXTAREA)
 		{
 			$input = '<div class="mb-3"><label for="' . $this->fieldId . '" class="form-label">' .
-				$this->fieldName . '</label><textarea name="' . $this->fieldId . '" class="form-control" placeholder="' .
-				$this->fieldPlaceholder . '"' .
-				' aria-describedby="' . $this->fieldId . '_help">' . $this->fieldValue . '</textarea>' .
-				'<div class="form-text" id="' . $this->fieldId . '_help">' . $this->fieldHelp . '</div></div>';
+			         $this->fieldName . '</label><textarea name="' . $this->fieldId .
+			         '" class="form-control" placeholder="' .
+			         $this->fieldPlaceholder . '"' .
+			         ' aria-describedby="' . $this->fieldId . '_help">' . $this->fieldValue . '</textarea>' .
+			         '<div class="form-text" id="' . $this->fieldId . '_help">' . $this->fieldHelp . '</div></div>';
 			return $input;
 		}
 		//in this case it's a type of text input, which we handle the same
 		$input = '<div class="mb-3"><label for="' . $this->fieldId . '" class="form-label">' .
-			$this->fieldName . '</label><input type="';
-		switch($this->fieldType)
+		         $this->fieldName . '</label><input type="';
+		switch ($this->fieldType)
 		{
 			case RoleField::TEXT:
 				$input .= 'text"';
@@ -183,22 +210,31 @@ class RoleField implements Synthesizable
 				break;
 		}
 		$input .= ' name="' . $this->fieldId . '" class="form-control" placeholder="' . $this->fieldPlaceholder . '"' .
-			' aria-describedby="' . $this->fieldId . '_help" value="' . $this->fieldValue . '"/>' .
-			'<div class="form-text" id="' . $this->fieldId . '_help">' . $this->fieldHelp . '</div></div>';
+		          ' aria-describedby="' . $this->fieldId . '_help" value="' . $this->fieldValue . '"/>' .
+		          '<div class="form-text" id="' . $this->fieldId . '_help">' . $this->fieldHelp . '</div></div>';
 		return $input;
 	}
 
 
-    public static function hydrate(array $data): static
-    {
-        $instance = new RoleField();
+	public static function hydrate(array $data): static
+	{
+		$instance = new RoleField();
 
-        $instance->fieldName = $data['fieldName'];
-        $instance->fieldType = $data['fieldType'];
-        $instance->fieldHelp = $data['fieldHelp'];
-        $instance->fieldPlaceholder = $data['fieldPlaceholder'];
-        $instance->fieldOptions = $data['fieldOptions'];
+		$instance->fieldName = $data['fieldName'];
+		$instance->fieldType = $data['fieldType'];
+		$instance->fieldHelp = $data['fieldHelp'];
+		$instance->fieldPlaceholder = $data['fieldPlaceholder'];
+		$instance->fieldOptions = $data['fieldOptions'];
 
-        return $instance;
-    }
+		return $instance;
+	}
+
+	public function prettyValue(): string
+	{
+		if (!$this->fieldValue)
+			return "";
+		if (is_array($this->fieldValue))
+			return implode(", ", $this->fieldValue);
+		return (string)$this->fieldValue;
+	}
 }

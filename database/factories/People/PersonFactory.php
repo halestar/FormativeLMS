@@ -35,22 +35,22 @@ class PersonFactory extends Factory
 			'school_id' => hrtime(true),
 		];
 	}
-	
+
 	public function configure()
 	{
-		return $this->afterCreating(function(Person $person)
+		return $this->afterCreating(function (Person $person)
 		{
 			$person->portrait_url = config('app.url') . '/storage/idpics/' . $person->id . '.jpg';
 			$person->save();
 		});
 	}
-	
+
 	/**
 	 * AUTHENTICATION FUNCTIONS
 	 */
 	public function password(string $password): Factory
 	{
-		return $this->afterCreating(function(Person $person) use ($password)
+		return $this->afterCreating(function (Person $person) use ($password)
 		{
 			//we set up the local driver
 			$authService = IntegrationService::select('integration_services.*')
@@ -61,19 +61,19 @@ class PersonFactory extends Factory
 				                                 IntegratorServiceTypes::AUTHENTICATION)
 			                                 ->first()
 			                                 ?->getService();
-			if($authService)
-				if(($connection = $authService->connect($person)))
+			if ($authService)
+				if (($connection = $authService->connect($person)))
 					$connection->setPassword($password);
 		});
 	}
-	
+
 	/**
 	 * EMPLOYEE FUNCTIONS
 	 */
-	
+
 	public function faculty(): Factory
 	{
-		return $this->afterCreating(function(Person $person)
+		return $this->afterCreating(function (Person $person)
 		{
 			$person->assignRole(SchoolRoles::$FACULTY);
 			$person->assignRole(SchoolRoles::$EMPLOYEE);
@@ -85,10 +85,10 @@ class PersonFactory extends Factory
 			                      ->toArray());
 		});
 	}
-	
+
 	public function staff(): Factory
 	{
-		return $this->afterCreating(function(Person $person)
+		return $this->afterCreating(function (Person $person)
 		{
 			$person->assignRole(SchoolRoles::$STAFF);
 			$person->assignRole(SchoolRoles::$EMPLOYEE);
@@ -100,10 +100,10 @@ class PersonFactory extends Factory
 			                      ->toArray());
 		});
 	}
-	
+
 	public function coach(): Factory
 	{
-		return $this->afterCreating(function(Person $person)
+		return $this->afterCreating(function (Person $person)
 		{
 			$person->assignRole(SchoolRoles::$COACH);
 			$person->assignRole(SchoolRoles::$EMPLOYEE);
@@ -115,21 +115,21 @@ class PersonFactory extends Factory
 			                      ->toArray());
 		});
 	}
-	
+
 	/**
 	 * STUDENT FUNCTIONS
 	 */
-	
+
 	public function student(Level $level): Factory
 	{
-		return $this->state(function(array $attributes)
+		return $this->state(function (array $attributes)
 		{
 			return
 				[
 					'dob' => fake()->dateTimeBetween('-18 years', '-4 years'),
 				];
 		})
-		            ->afterCreating(function(Person $person) use ($level)
+		            ->afterCreating(function (Person $person) use ($level)
 		            {
 			            $person->assignRole(SchoolRoles::$STUDENT);
 			            //for now, we will simply be attaching a single, current student record.
@@ -144,87 +144,87 @@ class PersonFactory extends Factory
 			                   ->save($studentRecord);
 		            });
 	}
-	
+
 	public function attachParents(): Factory
 	{
-		return $this->afterCreating(function(Person $person)
+		return $this->afterCreating(function (Person $person)
 		{
 			//for each relationship that is a CHILD relationship, we will add a reverse relationship of type PARENT
-			foreach($person->relationships as $relationship)
+			foreach ($person->relationships as $relationship)
 			{
-				if($relationship->personal->relationship_id == Relationship::CHILD)
+				if ($relationship->personal->relationship_id == Relationship::CHILD)
 					$relationship->relationships()
 					             ->attach($person->id, ['relationship_id' => Relationship::PARENT]);
 			}
-			
+
 		});
 	}
-	
+
 	public function sharePrimaryAddress(): Factory
 	{
-		return $this->afterCreating(function(Person $person)
+		return $this->afterCreating(function (Person $person)
 		{
 			// for each child relationship, share the primary address.
-			foreach($person->relationships()
-			               ->wherePivot('relationship_id', Relationship::CHILD)
-			               ->get() as $relationship)
+			foreach ($person->relationships()
+			                ->wherePivot('relationship_id', Relationship::CHILD)
+			                ->get() as $relationship)
 			{
 				$relationship->addresses()
-				             ->attach($person->primaryAddress()->id, ['primary' => true]);
+				             ->attach($person->primaryAddress->id, ['primary' => true]);
 			}
 		});
 	}
-	
+
 	public function sharePrimaryPhone(): Factory
 	{
-		return $this->afterCreating(function(Person $person)
+		return $this->afterCreating(function (Person $person)
 		{
 			// for each child relationship, share the primary phone.
-			foreach($person->relationships()
-			               ->wherePivot('relationship_id', Relationship::CHILD)
-			               ->get() as $relationship)
+			foreach ($person->relationships()
+			                ->wherePivot('relationship_id', Relationship::CHILD)
+			                ->get() as $relationship)
 			{
 				$relationship->phones()
-				             ->attach($person->primaryPhone()->id, ['primary' => true]);
+				             ->attach($person->primaryPhone->id, ['primary' => true]);
 			}
 		});
 	}
-	
+
 	/**
 	 * PARENT FUNCTIONS
 	 */
-	
+
 	public function parents(): Factory
 	{
-		return $this->state(function(array $attributes)
+		return $this->state(function (array $attributes)
 		{
 			return
 				[
 					'email' => fake()->email(),
 				];
 		})
-		            ->afterCreating(function(Person $person)
+		            ->afterCreating(function (Person $person)
 		            {
 			            $person->assignRole(SchoolRoles::$PARENT);
 		            });
 	}
-	
-	
+
+
 	/**
 	 * GLOBAL FUNCTIONS
 	 */
-	
+
 	public function middleName(): Factory
 	{
-		return $this->state(function(array $attributes)
+		return $this->state(function (array $attributes)
 		{
 			return ['middle' => fake()->firstName];
 		});
 	}
-	
+
 	public function nick(): Factory
 	{
-		return $this->state(function(array $attributes)
+		return $this->state(function (array $attributes)
 		{
 			return ['nick' => fake()->firstName];
 		});

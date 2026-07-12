@@ -4,7 +4,7 @@ namespace App\Models\People;
 
 use App\Casts\People\Portrait;
 use App\Classes\Integrators\IntegrationsManager;
-use App\Classes\People\RoleField;
+use App\Classes\People\RoleFields;
 use App\Classes\Settings\AiSettings;
 use App\Classes\Settings\SchoolSettings;
 use App\Enums\ClassViewer;
@@ -36,7 +36,6 @@ use App\Traits\HasLogs;
 use App\Traits\HasSchoolRolesTrait;
 use App\Traits\HasWorkFiles;
 use App\Traits\Phoneable;
-use Carbon\Carbon;
 use Hashids\Hashids;
 use Illuminate\Database\Eloquent\Attributes\Scope;
 use Illuminate\Database\Eloquent\Builder;
@@ -53,6 +52,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use Lab404\Impersonate\Models\Impersonate;
 use Laravel\Sanctum\HasApiTokens;
 use Laravel\Scout\Searchable;
@@ -68,17 +68,11 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 	 * TABLE DEFINITIONS
 	 */
 	public const UKN_IMG = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>';
-
 	public $timestamps = true;
-
 	public $incrementing = true;
-
 	protected $with = ['schoolRoles'];
-
 	protected $table = 'people';
-
 	protected $primaryKey = 'id';
-
 	protected $fillable =
 		[
 			'first',
@@ -93,7 +87,10 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 
 	protected $hidden = [
 		'remember_token',
+		'mfa_secret',
 	];
+
+	public ?RoleFields $roleFieldsProxy = null;
 
 	/************************************************************************************************************
 	 * MODEL OVERRIDES
@@ -116,6 +113,11 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 			$person->school_id = $hashids->encode($person->id);
 			$person->save();
 		});
+		static::updated(function (Person $person)
+		{
+			Log::info('Flushing cache for person ' . $person->id);
+			Cache::tags('person-' . $person->id)->flush();
+		});
 	}
 
 	public function getRouteKeyName(): string
@@ -132,11 +134,14 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 	{
 		return
 			[
-				'dob' => 'date: m/d/y',
-				'prefs' => 'array',
-				'portrait_url' => Portrait::class,
-				'created_at' => 'datetime: m/d/Y h:i A',
-				'updated_at' => 'datetime: m/d/Y h:i A',
+				'dob'             => 'date: m/d/y',
+				'prefs'           => 'array',
+				'portrait_url'    => Portrait::class,
+				'mfa_enabled'     => 'boolean',
+				'mfa_secret'      => 'encrypted',
+				'mfa_verified_at' => 'date',
+				'created_at'      => 'datetime: m/d/Y h:i A',
+				'updated_at'      => 'datetime: m/d/Y h:i A',
 			];
 	}
 
@@ -149,21 +154,46 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 	{
 		return
 			[
-				'id' => $this->id,
-				'first' => $this->first,
-				'middle' => $this->middle,
-				'last' => $this->last,
-				'email' => $this->email,
-				'nick' => $this->nick,
-				'dob' => $this->dob?->format('m/d/y') ?? null,
+				'id'        => $this->id,
+				'first'     => $this->first,
+				'middle'    => $this->middle,
+				'last'      => $this->last,
+				'email'     => $this->email,
+				'nick'      => $this->nick,
+				'dob'       => $this->dob?->format('m/d/y') ?? null,
 				'school_id' => $this->school_id,
-				'roles' => $this->roles->pluck('name')->toArray(),
+				'roles'     => $this->roles->pluck('name')->toArray(),
 				'addresses' => $this->addresses->map(fn (Address $address) => $address->personal->prettyAddress())
 				                               ->toArray(),
-				'phones' => $this->phones->map(fn (Phone $phone) => $phone->personal->prettyPhone())->toArray(),
-				'campuses' => $this->campuses->map(fn (Campus $campus) => $campus->name . ' (' . $campus->abbr . ')')
-				                             ->toArray(),
+				'phones'    => $this->phones->map(fn (Phone $phone) => $phone->personal->prettyPhone())->toArray(),
+				'campuses'  => $this->campuses->map(fn (Campus $campus) => $campus->name . ' (' . $campus->abbr . ')')
+				                              ->toArray(),
 			];
+	}
+
+	public function save(array $options = [])
+	{
+		$proxyIsDirty = $this->roleFieldsProxy?->isDirty() ?? false;
+		$saved = parent::save($options);
+		if ($proxyIsDirty)
+		{
+			$this->roleFieldsProxy->save();
+			return true;
+		}
+		return $saved;
+	}
+
+	public function fill(array $attributes)
+	{
+		foreach ($attributes as $key => $value)
+		{
+			if (!str_starts_with($key, 'role_fields'))
+				continue;
+			$key = substr($key, strlen('role_fields.'));
+			$this->role_fields->{$key} = $value;
+			unset($attributes[$key]);
+		}
+		return parent::fill($attributes);
 	}
 
 	/************************************************************************************************************
@@ -172,36 +202,59 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 
 	public function isStudent(): bool
 	{
-		return $this->hasRole(SchoolRoles::$STUDENT);
+		return Cache::tags(
+			[
+				'people',
+				'person-' . $this->id,
+				'person-roles',
+			])->rememberForever('person_is_student_' .
+		                        $this->id, fn () => $this->hasRole(SchoolRoles::$STUDENT));
 	}
 
 	public function isEmployee(): bool
 	{
-		return Cache::remember(
-			'person-is-employee-' . $this->id, 3600, fn () => $this->hasRole(SchoolRoles::$EMPLOYEE)
-		);
+		return Cache::tags(
+			[
+				'people',
+				'person-' . $this->id,
+				'person-roles',
+			])->rememberForever('person_is_employee_' .
+		                        $this->id, fn () => $this->hasRole(SchoolRoles::$EMPLOYEE));
 	}
 
 	public function isParent(): bool
 	{
-		return Cache::remember('person-is-parent-' . $this->id, 3600, fn () => $this->hasRole(SchoolRoles::$PARENT));
+		return Cache::tags(
+			[
+				'people',
+				'person-' . $this->id,
+				'person-roles',
+			])->rememberForever('person_is_parent_' .
+		                        $this->id, fn () => $this->hasRole(SchoolRoles::$PARENT));
 	}
 
 	public function isTeacher(): bool
 	{
-		return Cache::remember('isTeacher-' . $this->id, 60 * 60 * 24, function ()
-		{
-			return $this->hasRole(SchoolRoles::$FACULTY);
-		});
+		return Cache::tags(
+			[
+				'people',
+				'person-' . $this->id,
+				'person-roles',
+			])->rememberForever('person_is_teacher_' .
+		                        $this->id, fn () => $this->hasRole(SchoolRoles::$FACULTY));
 	}
 
 	public function isSubstitute(): bool
 	{
-		return Cache::remember(
-			'person-is-substitute-' . $this->id, 3600, fn () => $this->hasRole([
+		return Cache::tags(
+			[
+				'people',
+				'person-' . $this->id,
+				'person-roles',
+			])->rememberForever('person_is_substitute_' .
+		                        $this->id, fn () => $this->hasRole([
 			SchoolRoles::$SUBSTITUTE, SchoolRoles::$OLD_SUBSTITUTE,
-		])
-		);
+		]));
 	}
 
 	/************************************************************************************************************
@@ -213,25 +266,21 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 		return Attribute::make(
 			get: function (mixed $value, array $attributes)
 			{
-				return Cache::remember('person-name-' . $this->id, 3600, function ()
+				return Cache::tags(
+					[
+						'people',
+						'person-' . $this->id,
+					])->rememberForever('person-name-' . $this->id, function ()
 				{
 					$settings = app(SchoolSettings::class);
 					if ($this->isStudent())
-					{
 						$name = $settings->studentName->applyName($this);
-					}
 					elseif ($this->isEmployee())
-					{
 						$name = $settings->employeeName->applyName($this);
-					}
 					elseif ($this->isParent())
-					{
 						$name = $settings->parentName->applyName($this);
-					}
 					else
-					{
-						$name = $this->first . ' ' . $this->last;
-					}
+						$name = $this->nick ?: ($this->first . ' ' . $this->last);
 
 					return $name;
 				});
@@ -239,41 +288,17 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 		);
 	}
 
-	protected function systemEmail(): Attribute
+	public function roleFields(): Attribute
 	{
 		return Attribute::make(
-			get: fn (mixed $value, array $attributes) => Cache::remember(
-				'system-email-' . $this->id, 3600, fn () => $attributes['email']
-			),
-		);
+			get: function ()
+			{
+				if (!$this->roleFieldsProxy)
+					$this->roleFieldsProxy = new RoleFields($this);
+				return $this->roleFieldsProxy;
+			});
 	}
 
-	protected function preferredFirst(): Attribute
-	{
-		return Attribute::make(
-			get: fn (mixed $value, array $attributes) => Cache::remember(
-				'preferred-first-' . $this->id, 3600, fn () => $attributes['nick'] ?? $attributes['first']
-			),
-		);
-	}
-
-	protected function dob(): Attribute
-	{
-		return Attribute::make(
-			get: fn (mixed $value, array $attributes) => Cache::remember(
-				'dob-' . $this->id, 3600, fn () => Carbon::parse($value)
-			),
-		);
-	}
-
-	protected function schoolId(): Attribute
-	{
-		return Attribute::make(
-			get: fn (mixed $value, array $attributes) => Cache::remember(
-				'school-id-' . $this->id, 3600, fn () => str_pad($value, 10, '0', STR_PAD_LEFT)
-			),
-		);
-	}
 
 	/************************************************************************************************************
 	 * BOOLEAN FUNCTIONS
@@ -287,7 +312,12 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 
 	public function hasChildren(): bool
 	{
-		return Cache::remember('hasChildren-' . $this->id, 60 * 60 * 24, function ()
+		return Cache::tags(
+			[
+				'people',
+				'person-' . $this->id,
+				'person-relationships',
+			])->rememberForever('hasChildren-' . $this->id, function ()
 		{
 			return $this->relationships()
 			            ->where('relationship_id', Relationship::CHILD)
@@ -334,110 +364,18 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 	 * VIEW PERMISSIONS
 	 */
 
-	public function canViewField(RoleField|string $testingField, Person $target): bool
-	{
-		if ($this->can('people.view'))
-		{
-			return true;
-		}
-		if ($target->id == $this->id)
-		{
-			if ($testingField instanceof RoleField)
-			{
-				return $this->selfViewableFields()
-				            ->where('field', '=', $testingField->fieldId)
-				            ->where('role_id', '=', $testingField->roleId)
-				            ->count() > 0;
-			}
-			else
-			{
-				return $this->selfViewableFields()
-				            ->where('field', '=', $testingField)
-				            ->where('role_id', '=', '')
-				            ->count() > 0;
-			}
-		}
-		else
-		{
-			if ($testingField instanceof RoleField)
-			{
-				return $this->viewableFields()
-				            ->where('field', '=', $testingField->fieldId)
-				            ->where('role_id', '=', $testingField->roleId)
-				            ->count() > 0;
-			}
-			else
-			{
-				return $this->viewableFields()
-				            ->where('field', '=', $testingField)
-				            ->where('role_id', '=', '')
-				            ->count() > 0;
-			}
-		}
-	}
-
-	public function selfViewableFields(): Collection
-	{
-		return FieldPermission::where('by_self', true)
-		                      ->get();
-	}
-
-	public function viewableFields(): Collection
-	{
-		$query = FieldPermission::where('editable', '>', 10);
-		if ($this->isEmployee())
-		{
-			$query = $query->orWhere('by_employees', true);
-		}
-		if ($this->isStudent())
-		{
-			$query = $query->orWhere('by_students', true);
-		}
-		if ($this->isParent())
-		{
-			$query = $query->orWhere('by_parents', true);
-		}
-
-		return $query->get();
-	}
-
-	public function canEditOwnField(RoleField|string $testingField): bool
-	{
-		if ($this->can('people.edit'))
-		{
-			return true;
-		}
-		if ($testingField instanceof RoleField)
-		{
-			return $this->editableFields()
-			            ->where('field', '=', $testingField->fieldId)
-			            ->where('role_id', '=', $testingField->roleId)
-			            ->count() > 0;
-		}
-		else
-		{
-			return $this->editableFields()
-			            ->where('field', '=', $testingField)
-			            ->where('role_id', '=', '')
-			            ->count() > 0;
-		}
-	}
-
-	public function editableFields(): Collection
-	{
-		return FieldPermission::where('editable', true)
-		                      ->get();
-	}
-
 	public function classViewRole(ClassSession $session): ?ClassViewer
 	{
-		$person = $this;
-
-		return Cache::remember('class_view_role_' . $this->id . '_' . $session->id, 0, function () use (
-			$session, $person
-		)
+		$cacheTags =
+			[
+				'class-view-role',
+				'person- ' . $this->id,
+				'session-' . $session->id,
+			];
+		return Cache::tags($cacheTags)->rememberForever('class_view_role_' . $this->id . '_' .
+		                                                $session->id, function () use ($session)
 		{
-			return ClassViewer::determineType($person, $session);
+			return ClassViewer::determineType($this, $session);
 		});
 	}
 
@@ -510,11 +448,14 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 	public function currentClassSessions(): BelongsToMany
 	{
 		return $this->belongsToMany(ClassSession::class, 'class_sessions_teachers', 'person_id', 'session_id')
-		            ->join('terms', 'terms.id', '=', 'class_sessions.term_id')
-		            ->whereBetweenColumns(DB::raw(date("'Y-m-d'")), [
-			            'terms.term_start',
-			            'terms.term_end',
-		            ]);
+		            ->whereHas('term', function (Builder $query)
+		            {
+			            $query->whereBetweenColumns(DB::raw(date("'Y-m-d'")),
+				            [
+					            'terms.term_start',
+					            'terms.term_end',
+				            ]);
+		            });
 	}
 
 	public function classesTaught(): BelongsToMany
@@ -540,21 +481,27 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 	/************************************************************************************************************
 	 * ADRESSES
 	 */
-	public function primaryAddress(): Address
+	public function primaryAddress(): Attribute
 	{
-		return $this->addresses()
-		            ->wherePivot('primary', true)
-		            ->first();
+		return Attribute::make
+		(
+			get: fn () => $this->addresses()
+			                   ->wherePivot('primary', true)
+			                   ->first(),
+		);
 	}
 
 	/************************************************************************************************************
 	 * PHONES
 	 */
-	public function primaryPhone(): Phone
+	public function primaryPhone(): Attribute
 	{
-		return $this->phones()
-		            ->wherePivot('primary', true)
-		            ->first();
+		return Attribute::make
+		(
+			get: fn () => $this->phones()
+			                   ->wherePivot('primary', true)
+			                   ->first(),
+		);
 	}
 
 	/************************************************************************************************************
@@ -631,7 +578,12 @@ class Person extends Authenticatable implements Fileable, HasCampuses, HasPasske
 
 	public function numStudentChildren(): int
 	{
-		return Cache::remember('num-children-' . $this->id, 3600, function ()
+		$cacheTags =
+			[
+				'num-children',
+				'person-' . $this->id,
+			];
+		return Cache::tags($cacheTags)->rememberForever('num_children_' . $this->id, function ()
 		{
 			$currentYear = Year::currentYear();
 

@@ -5,12 +5,11 @@ namespace App\Models\SubjectMatter;
 use App\Models\Locations\Campus;
 use App\Models\Locations\Term;
 use App\Models\Locations\Year;
-use App\Models\SubjectMatter\Assessment\Skill;
+use App\Traits\Skillable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
@@ -18,16 +17,13 @@ use Illuminate\Support\Collection;
 
 class Course extends Model
 {
+	use Skillable;
+
 	public $timestamps = true;
-
 	public $incrementing = true;
-
 	protected $with = ['subject'];
-
 	protected $table = 'courses';
-
 	protected $primaryKey = 'id';
-
 	protected $fillable =
 		[
 			'subject_id',
@@ -101,13 +97,13 @@ class Course extends Model
 	{
 		return
 			[
-				'credits' => 'float',
-				'on_transcript' => 'boolean',
-				'gb_required' => 'boolean',
-				'honors' => 'boolean',
-				'ap' => 'boolean',
+				'credits'           => 'float',
+				'on_transcript'     => 'boolean',
+				'gb_required'       => 'boolean',
+				'honors'            => 'boolean',
+				'ap'                => 'boolean',
 				'can_assign_honors' => 'boolean',
-				'active' => 'boolean',
+				'active'            => 'boolean',
 			];
 	}
 
@@ -116,10 +112,5 @@ class Course extends Model
 		if ($except)
 			return $this->skills()->whereNotIn('id', $except)->get();
 		return $this->skills;
-	}
-
-	public function skills(): BelongsToMany
-	{
-		return $this->belongsToMany(Skill::class, 'skills_courses', 'course_id', 'skill_id');
 	}
 }

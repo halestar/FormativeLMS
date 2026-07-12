@@ -1,28 +1,32 @@
-<div class="mw-100 mh-100 overflow-hidden p-3 position-relative h-100 pb-5">
-    <h5 class="card-header d-flex justify-content-start align-items-center">
+<div class="mw-100 mh-100 overflow-hidden p-0 position-relative h-100 bg-white rounded shadow-sm border border-light">
+    <div class="card-header bg-light d-flex justify-content-between align-items-center p-3 border-bottom">
         @if($connection->canPersistFiles())
-            <button class="btn btn-outline-light" wire:click="addFolder()">
-                <i class="fa-solid fa-folder-plus text-warning"></i>
+            <button class="btn btn-primary btn-sm shadow-sm me-3" wire:click="addFolder()">
+                <i class="fa-solid fa-folder-plus me-1"></i> New Folder
             </button>
         @endif
-        <div class="flex-grow-1 me-2">
-            <div class="input-group">
+        <div class="flex-grow-1">
+            <div class="input-group input-group-sm">
+                <span class="input-group-text bg-white border-end-0 text-muted">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
                 <input
                         type="text"
                         id="assets-filter-term"
-                        class="form-control border-end-0 border rounded-start-pill"
+                        class="form-control border-start-0 border-end-0"
                         placeholder="{{ __('common.search') }}"
                         wire:model.live.debounce="filterTerms"
                 />
                 <button
-                        class="btr btn-outline-secondary bg-white border-start-0 border rounded-end-pill pe-3"
+                        class="btn btn-outline-secondary bg-white border-start-0 border"
                         wire:click="clearFilter()"
+                        title="Clear filter"
                 >
                     <i class="fa fa-times"></i>
                 </button>
             </div>
         </div>
-    </h5>
+    </div>
 
     <div
             @if($connection->canPersistFiles())

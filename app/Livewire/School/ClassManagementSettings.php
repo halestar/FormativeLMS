@@ -7,7 +7,6 @@ use App\Enums\IntegratorServiceTypes;
 use App\Models\People\Person;
 use App\Models\SubjectMatter\ClassSession;
 use App\Models\SubjectMatter\SchoolClass;
-use Illuminate\Support\Facades\Log;
 use Livewire\Component;
 
 class ClassManagementSettings extends Component
@@ -27,28 +26,28 @@ class ClassManagementSettings extends Component
 
 		$this->sessionConnections = $this->schoolClass
 			->sessions
-			->mapWithKeys(fn(ClassSession $session) => [$session->id => $session->class_management_id])
+			->mapWithKeys(fn (ClassSession $session) => [$session->id => $session->class_management_id])
 			->toArray();
 		//we need to figure out the possible connections for the class manager
 		$classServices = $manager->getAvailableServices(IntegratorServiceTypes::CLASSES);
-		foreach($classServices as $service)
+		foreach ($classServices as $service)
 		{
 			//we always take the system connection first.
-			$conn = $service->connectToSystem();
+			$conn = $service->connect();
 			//if we can't connect to the system, connect to the person.
-			if(!$conn)
+			if (!$conn)
 				$conn = $service->connect($this->self);
-			if($conn)
+			if ($conn)
 				$this->connections[] = $conn;
 		}
 	}
 
 	public function apply(int $classSessionId)
 	{
-		if(isset($this->sessionConnections[$classSessionId]))
+		if (isset($this->sessionConnections[$classSessionId]))
 		{
 			$session = $this->schoolClass->sessions->find($classSessionId);
-			if($session)
+			if ($session)
 			{
 				$session->class_management_id = $this->sessionConnections[$classSessionId];
 				$session->save();
@@ -58,9 +57,9 @@ class ClassManagementSettings extends Component
 
 	public function applyToAll(int $classSessionId)
 	{
-		if(isset($this->sessionConnections[$classSessionId]))
+		if (isset($this->sessionConnections[$classSessionId]))
 		{
-			foreach($this->schoolClass->sessions as $session)
+			foreach ($this->schoolClass->sessions as $session)
 			{
 				$session->class_management_id = $this->sessionConnections[$classSessionId];
 				$session->save();
@@ -69,8 +68,8 @@ class ClassManagementSettings extends Component
 	}
 
 
-    public function render()
-    {
-        return view('livewire.school.class-management-settings');
-    }
+	public function render()
+	{
+		return view('livewire.school.class-management-settings');
+	}
 }

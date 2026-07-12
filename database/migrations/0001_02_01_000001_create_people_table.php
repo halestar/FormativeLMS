@@ -6,48 +6,52 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
-    public function up(): void
-    {
-        Schema::create('people', function (Blueprint $table) {
-            $table->id();
+	/**
+	 * Run the migrations.
+	 */
+	public function up(): void
+	{
+		Schema::create('people', function (Blueprint $table)
+		{
+			$table->id();
 
-            $table->string('first')
-                ->nullable();
-            $table->string('middle')
-                ->nullable();
-            $table->string('last');
+			$table->string('first')
+			      ->nullable();
+			$table->string('middle')
+			      ->nullable();
+			$table->string('last');
 
-            $table->string('email')
-                ->nullable();
-            $table->string('nick')
-                ->nullable();
-            $table->date('dob')
-                ->nullable();
+			$table->string('email')
+			      ->nullable();
+			$table->string('nick')
+			      ->nullable();
+			$table->date('dob')
+			      ->nullable();
 
-            $table->string('portrait_url')
-                ->nullable();
-            $table->json('prefs')
-                ->nullable();
-            $table->bigInteger('school_id')
-                ->unsigned()
-                ->unique()
-                ->index();
-            $table->uuid('auth_connection_id')
-                ->nullable();
-            $table->rememberToken();
-            $table->softDeletes();
-            $table->timestamps();
-        });
-    }
+			$table->string('portrait_url')
+			      ->nullable();
+			$table->json('prefs')
+			      ->nullable();
+			$table->bigInteger('school_id')
+			      ->unsigned()
+			      ->unique()
+			      ->index();
+			$table->uuid('auth_connection_id')
+			      ->nullable();
+			$table->boolean('mfa_enabled')->default(false);
+			$table->text('mfa_secret')->nullable();
+			$table->date('mfa_verified_at')->nullable();
+			$table->rememberToken();
+			$table->softDeletes();
+			$table->timestamps();
+		});
+	}
 
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
-    {
-        Schema::dropIfExists('people');
-    }
+	/**
+	 * Reverse the migrations.
+	 */
+	public function down(): void
+	{
+		Schema::dropIfExists('people');
+	}
 };

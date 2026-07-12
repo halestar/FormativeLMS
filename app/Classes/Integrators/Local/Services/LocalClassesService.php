@@ -16,112 +16,112 @@ use App\Models\People\Person;
 
 class LocalClassesService extends LmsIntegrationService
 {
-    /**
-     * {@inheritDoc}
-     */
-    public static function getServiceType(): IntegratorServiceTypes
-    {
-        return IntegratorServiceTypes::CLASSES;
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public static function getServiceType(): IntegratorServiceTypes
+	{
+		return IntegratorServiceTypes::CLASSES;
+	}
 
-    /**
-     * {@inheritDoc}
-     */
-    public static function getServiceName(): string
-    {
-        return __('integrators.local.classes');
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public static function getServiceName(): string
+	{
+		return __('integrators.local.classes');
+	}
 
-    /**
-     * {@inheritDoc}
-     */
-    public static function getServiceDescription(): string
-    {
-        return __('integrators.local.classes.description');
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public static function getServiceDescription(): string
+	{
+		return __('integrators.local.classes.description');
+	}
 
-    /**
-     * {@inheritDoc}
-     */
-    public static function getDefaultData(): array
-    {
-        return
-        [
-            'available' => [
-                ClassAnnouncements::class => __('subjects.school.widgets.class-announcements'),
-                ClassLinks::class => __('subjects.school.widgets.class-links'),
-                ClassPageChat::class => __('school.messages'),
-                LearningDemonstrations::class => __('learning.demonstrations.viewer'),
-                ClassSchedule::class => __('subjects.class.schedule'),
-                ClassRoster::class => __('school.classes.roster'),
-            ],
-            'required' => [
-                ClassPageChat::class,
-                LearningDemonstrations::class,
-            ],
-            'optional' => [
-                ClassAnnouncements::class,
-                ClassLinks::class,
-            ],
-        ];
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public static function getDefaultData(): array
+	{
+		return
+			[
+				'available' => [
+					ClassAnnouncements::class     => __('subjects.school.widgets.class-announcements'),
+					ClassLinks::class             => __('subjects.school.widgets.class-links'),
+					ClassPageChat::class          => __('school.messages'),
+					LearningDemonstrations::class => __('learning.demonstrations.viewer'),
+					ClassSchedule::class          => __('subjects.class.schedule'),
+					ClassRoster::class            => __('school.classes.roster'),
+				],
+				'required'  => [
+					ClassPageChat::class,
+					LearningDemonstrations::class,
+				],
+				'optional'  => [
+					ClassAnnouncements::class,
+					ClassLinks::class,
+				],
+			];
+	}
 
-    /**
-     * {@inheritDoc}
-     */
-    public static function canConnectToPeople(): bool
-    {
-        return false;
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public static function canConnectToPeople(): bool
+	{
+		return false;
+	}
 
-    /**
-     * {@inheritDoc}
-     */
-    public static function canConnectToSystem(): bool
-    {
-        return true;
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public static function canConnectToSystem(): bool
+	{
+		return true;
+	}
 
-    /**
-     * {@inheritDoc}
-     */
-    public static function getPath(): string
-    {
-        return 'classes';
-    }
+	/**
+	 * {@inheritDoc}
+	 */
+	public static function getPath(): string
+	{
+		return 'classes';
+	}
 
-    public function canEnable(): bool
-    {
-        return true;
-    }
+	public function canEnable(): bool
+	{
+		return true;
+	}
 
-    public function getConnectionClass(): string
-    {
-        return LocalClassesConnection::class;
-    }
+	public function getConnectionClass(): string
+	{
+		return LocalClassesConnection::class;
+	}
 
-    public function canConnect(?Person $person = null): bool
-    {
-        return $person == null;
-    }
+	public function canConnect(?Person $person = null): bool
+	{
+		return $person == null;
+	}
 
-    public function canRegister(?Person $person = null): bool
-    {
-        return false;
-    }
+	public function canRegister(?Person $person = null): bool
+	{
+		return false;
+	}
 
-    public function canConfigure(?Person $person = null): bool
-    {
-        return true;
-    }
+	public function canConfigure(?Person $person = null): bool
+	{
+		return true;
+	}
 
-    public function registrationUrl(?Person $person = null): ?string
-    {
-        return null;
-    }
+	public function registrationUrl(?Person $person = null): ?string
+	{
+		return null;
+	}
 
-    public function configurationUrl(?Person $person = null): ?string
-    {
-        return route(Integrator::INTEGRATOR_ACTION_PREFIX.'local.classes.index');
-    }
+	public function configurationUrl(?Person $person = null): ?string
+	{
+		return route(Integrator::INTEGRATOR_ACTION_PREFIX . 'local.classes.index');
+	}
 }

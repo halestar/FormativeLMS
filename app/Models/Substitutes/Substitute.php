@@ -85,7 +85,7 @@ class Substitute extends Model implements HasCampuses
 	protected function email(): Attribute
 	{
 		return Attribute::make(
-			get: fn () => $this->person?->system_email,
+			get: fn () => $this->person->email,
 		);
 	}
 

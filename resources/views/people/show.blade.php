@@ -1,7 +1,7 @@
 @extends('layouts.app', ['breadcrumb' => $breadcrumb])
 @inject('authSettings', 'App\\Classes\\Settings\\AuthSettings')
 @section('content')
-    <div class="container">
+    <div class="container mb-5">
         <div class="row">
             {{-- Profile Image and Settings Column --}}
             <div class="col-md-4">
@@ -19,14 +19,10 @@
                         @if($isSelf)
                             <p>{{ __('people.preferences') }}</p>
                             <a href="{{ route('people.school-ids.show') }}">{{ __('people.id.mine') }}</a><br/>
-                            <a href="{{ route('people.preferences.communications', $person->school_id) }}">{{ __('people.preferences.communications') }}</a>
+                            <a href="{{ route('people.preferences.communications') }}">{{ __('people.preferences.communications') }}</a>
                             <br/>
                             @if($person->authConnection?->canChangePassword())
                                 <a href="{{ route('people.password') }}">{{ __('settings.auth.password.change') }}</a>
-                                <br/>
-                            @endif
-                            @if($authSettings->passkeys_allow)
-                                <a href="{{ route('people.preferences.passkeys', $person->school_id) }}">{{ __('settings.auth.passkeys') }}</a>
                                 <br/>
                             @endif
 
@@ -52,7 +48,7 @@
                             <h6>
                                 <div>
                                     <strong class="me-2">{{ __('settings.roles') }}
-                                        :</strong> {{ $person->roles->pluck('name')->join(', ') }}
+                                        :</strong> {{ $person->roles?->pluck('name')->join(', ') ?? __('settings.roles.no') }}
                                 </div>
                             </h6>
                             @if($person->isEmployee())
@@ -176,6 +172,34 @@
                             >{{  __('people.profile.substitute') }}</a>
                         </li>
                     @endif
+                    @if($isSelf)
+                        <li class="nav-item">
+                            <a
+                                    class="nav-link"
+                                    id="tab-security"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#tab-pane-security"
+                                    href="#tab-pane-security"
+                                    role="tab"
+                                    aria-controls="#tab-pane-security"
+                                    aria-selected="true"
+                                    save-tab="security"
+                            >{{ __('people.profile.security') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                    class="nav-link"
+                                    id="tab-privacy"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#tab-pane-privacy"
+                                    href="#tab-pane-privacy"
+                                    role="tab"
+                                    aria-controls="#tab-pane-privacy"
+                                    aria-selected="true"
+                                    save-tab="privacy"
+                            >{{ __('people.profile.privacy') }}</a>
+                        </li>
+                    @endif
                 </ul>
 
                 {{-- Tab Content --}}
@@ -208,6 +232,36 @@
                             <x-people.substitute-info-fields :person="$person"/>
                         </div>
                     @endif
+
+                    @if($isSelf)
+                        <div
+                                class="tab-pane fade"
+                                id="tab-pane-security" role="tabpanel" aria-labelledby="tab-security"
+                                tabindex="1"
+                        >
+                            <div class="mb-3">
+                                @if($authSettings->passkeys_allow)
+                                    @if($authSettings->passkeys_require && $person->passkeys->isEmpty())
+                                        <div class="alert alert-warning shadow-sm" role="alert">
+                                            {!! __('auth.passkey.required') !!}
+                                        </div>
+                                    @endif
+
+                                    <livewire:passkeys/>
+                                @endif
+                            </div>
+                            <livewire:people.mfa/>
+                        </div>
+
+                        <div
+                                class="tab-pane fade"
+                                id="tab-pane-privacy" role="tabpanel" aria-labelledby="tab-privacy"
+                                tabindex="1"
+                        >
+
+                        </div>
+                    @endif
+
                 </div>
             </div>
         </div>

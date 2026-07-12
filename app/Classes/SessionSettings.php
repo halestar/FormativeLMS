@@ -14,40 +14,41 @@ class SessionSettings
 	public static SessionSettings $instance;
 	private string $sessionKey;
 	private array $settings = [];
-	
+
 	private function __construct(Person $person)
 	{
 		$this->sessionKey = self::SETTING_KEY . $person->id;
 		$this->settings = session($this->sessionKey, []);
 		//there are some variables we can preset
-		if(!isset($this->settings['working_campus_id']))
+		if (!isset($this->settings['working_campus_id']))
 		{
 			//determine the working campus. For emplyees, it's the first campus we get back
-			if($person->isEmployee())
-				$this->settings['working_campus_id'] = $person->employeeCampuses()
-				                                              ->first()->id;
+			if ($person->isEmployee())
+				$this->settings['working_campus_id'] = $person->campuses()
+				                                              ->first()?->id ?? null;
 			//for students there's only one campus
-			elseif($person->isStudent())
-				$this->settings['working_campus_id'] = $person->student()->campus->id;
+			elseif ($person->isStudent())
+				$this->settings['working_campus_id'] = $person->student()?->campus?->id ?? null;
 			//for parents, its the first one in the parental relationships
-			elseif($person->isParent())
-				$this->settings['working_campus_id'] = $person->parentCampuses()
-				                                              ->first()->id;
+			elseif ($person->isParent())
+				$this->settings['working_campus_id'] = $person->campuses()
+				                                              ->first()?->id ?? null;
 		}
 		//year is easy, it's always the current one
-		if(!isset($this->settings['working_year_id']))
+		if (!isset($this->settings['working_year_id']))
 			$this->settings['working_year_id'] = Year::currentYear()->id;
 		//terms is the same as years.
-		if(!isset($this->settings['working_term_id']) && isset($this->settings['working_campus_id']))
-			$this->settings['working_term_id'] = Term::currentTerm(Campus::find($this->settings['working_campus_id']))->id;
+		if (!isset($this->settings['working_term_id']) && isset($this->settings['working_campus_id']))
+			$this->settings['working_term_id'] =
+				Term::currentTerm(Campus::find($this->settings['working_campus_id']))->id;
 		self::$instance = $this;
 	}
-	
+
 	public static function workingCampus(null|int|Campus $campus = null): ?Campus
 	{
-		if(!$campus)
+		if (!$campus)
 			$campus = self::get('working_campus_id');
-		elseif(is_int($campus))
+		elseif (is_int($campus))
 			self::set('working_campus_id', $campus);
 		else
 		{
@@ -56,36 +57,36 @@ class SessionSettings
 		}
 		return Campus::find($campus);
 	}
-	
+
 	public static function get(string $key, $default = null)
 	{
 		$instance = self::instance();
-		if(isset($instance->settings[$key]))
+		if (isset($instance->settings[$key]))
 			return $instance->settings[$key];
 		$instance::set($key, $default);
 		return $default;
 	}
-	
+
 	public static function instance(): SessionSettings
 	{
-		if(isset(self::$instance))
+		if (isset(self::$instance))
 			return self::$instance;
 		return new SessionSettings(Auth::user());
 	}
-	
+
 	public static function set(string $key, $value)
 	{
 		$instance = self::instance();
 		$instance->settings[$key] = $value;
 		session([$instance->sessionKey => $instance->settings]);
 	}
-	
-	
+
+
 	public static function workingYear(null|int|Year $year = null): ?Year
 	{
-		if(!$year)
+		if (!$year)
 			$year = self::get('working_year_id');
-		elseif(is_int($year))
+		elseif (is_int($year))
 			self::set('working_year_id', $year);
 		else
 		{
@@ -94,12 +95,12 @@ class SessionSettings
 		}
 		return Year::find($year);
 	}
-	
+
 	public static function workingTerm(null|int|Term $term = null): ?Term
 	{
-		if(!$term)
+		if (!$term)
 			$term = self::get('working_term_id');
-		elseif(is_int($term))
+		elseif (is_int($term))
 			self::set('working_term_id', $term);
 		else
 		{
@@ -108,19 +109,19 @@ class SessionSettings
 		}
 		return Term::find($term);
 	}
-	
+
 	public static function has(string $key): bool
 	{
 		$instance = self::instance();
 		return isset($instance->settings[$key]);
 	}
-	
+
 	public function getPageSetting(string $page, string $setting, mixed $default = null): mixed
 	{
 		$pageSetting = self::get($page, []);
 		return $pageSetting[$setting] ?? $default;
 	}
-	
+
 	public function setPageSetting(string $page, string $setting, mixed $value): void
 	{
 		$pageSetting = self::get($page, []);

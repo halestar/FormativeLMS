@@ -47,77 +47,70 @@
             </div>
         </li>
     @endif
-    @if($self->canViewField('addresses', $person))
-        @foreach($person->addresses as $address)
-            <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                <div class="d-flex justify-content-between align-items-top">
-                    <label>
-                        @if($address->personal->primary)
-                            {{ __('addresses.primary') }}
-                        @endif
-                        @if($address->personal->work)
-                            {{ __('addresses.work') }}
-                        @endif
-                        @if($address->personal->seasonal)
-                            {{ __('addresses.seasonal_address', ['season_start' => $address->personal->season_start, 'season_end' => $address->personal->season_end]) }}
-                        @endif
-                        {{ __('addresses.address') }}:
-                    </label>
-                    <span class="text-end">{!! nl2br($address->prettyAddress) !!}</span>
-                </div>
-            </li>
-        @endforeach
-    @endif
-    @if($self->canViewField('phones', $person))
-        @foreach($person->phones as $phone)
-            <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                <div class="d-flex justify-content-between align-items-top">
-                    <label>
-                        @if($phone->personal->primary)
-                            {{ __('addresses.primary') }}
-                        @endif
-                        @if($phone->personal->work)
-                            {{ __('addresses.work') }}
-                        @endif
-                        @if($phone->mobile)
-                            {{ __('phones.mobile') }}
-                        @endif
-                        {{ __('phones.phone') }}:
-                    </label>
-                    <span>{!! $phone->prettyPhone !!}</span>
-                </div>
-            </li>
-        @endforeach
-    @endif
-    @if($self->canViewField('relationships', $person))
-        @foreach($person->relationships as $relation)
-            <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                <div class="d-flex justify-content-between align-items-top">
-                    <label>
-                        {{ ($relation->personal->relationship? $relation->personal->relationship->name: "?") . " " . __('common.to') }}
-                    </label>
-                    <span>
-                        <a href="{{ route('people.show', ['person' => $relation->school_id]) }}">
-                            {{ $relation->name }}
-                        </a>
-                    </span>
-                </div>
-            </li>
-        @endforeach
-    @endif
     <!-- Role Fields -->
-    @foreach($person->schoolRoles as $role)
-        @if(count($role->fields) > 0)
-            @foreach($role->fields as $field)
-                @if($self->canViewField($field, $person) && $field->fieldValue)
-                    <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <label>{{ $field->fieldName }}</label>
-                            <span>{{ is_array($field->fieldValue)? implode(", ", $field->fieldValue): $field->fieldValue }}</span>
-                        </div>
-                    </li>
-                @endif
-            @endforeach
-        @endif
+    @foreach($person->role_fields?->availableFields() ?? [] as $fieldKey => $fieldName)
+        @continue(!$person->role_fields->{$fieldKey})
+        <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
+            <div class="d-flex justify-content-between align-items-center">
+                <label>{{ $fieldName }}</label>
+                <span>{{ $person->role_fields->{$fieldKey} }}</span>
+            </div>
+        </li>
+    @endforeach
+    @if($person->primaryAddress)
+        <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
+            <div class="d-flex justify-content-between align-items-top">
+                <label>
+                    {{ __('addresses.primary_address') }}:
+                </label>
+                <span class="text-end">{!! nl2br($person->primaryAddress->prettyAddress) !!}</span>
+            </div>
+        </li>
+    @endif
+    @foreach($person->addresses ?? [] as $address)
+        @continue($address->personal->primary)
+        <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
+            <div class="d-flex justify-content-between align-items-top">
+                <label>
+                    {{ $address->personal->label . " " . __('addresses.address') }}:
+                </label>
+                <span class="text-end">{!! nl2br($address->prettyAddress) !!}</span>
+            </div>
+        </li>
+    @endforeach
+    @if($person->primaryPhone)
+        <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
+            <div class="d-flex justify-content-between align-items-top">
+                <label>
+                    {{ __('phones.primary_phone') }}
+                </label>
+                <span>{!! $person->primaryPhone->prettyPhone !!}</span>
+            </div>
+        </li>
+    @endif
+    @foreach($person->phones ?? [] as $phone)
+        @continue($phone->personal->primary)
+        <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
+            <div class="d-flex justify-content-between align-items-top">
+                <label>
+                    {{ $phone->personal->label . " " . __('phones.phone') }}:
+                </label>
+                <span>{!! $phone->prettyPhone !!}</span>
+            </div>
+        </li>
+    @endforeach
+    @foreach($person->relationships ?? [] as $relation)
+        <li class="list-group-item list-group-flush border-bottom mb-2 pb-1">
+            <div class="d-flex justify-content-between align-items-top">
+                <label>
+                    {{ ($relation->personal->relationship? $relation->personal->relationship->name: "?") . " " . __('common.to') }}
+                </label>
+                <span>
+                    <a href="{{ route('people.show', ['person' => $relation->school_id]) }}">
+                        {{ $relation->name }}
+                    </a>
+                </span>
+            </div>
+        </li>
     @endforeach
 </ul>

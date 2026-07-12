@@ -1,28 +1,32 @@
-<div class="modal-dialog modal-xl">
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
     @if($open)
-        <div
-                class="modal-content"
-        >
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="document-browser-title">{{ __('storage.document.browser') }}</h1>
+        <div class="modal-content shadow-lg border-0">
+            <div class="modal-header bg-primary text-white border-bottom-0">
+                <h1 class="modal-title fs-5 fw-bold" id="document-browser-title">
+                    <i class="fa-solid fa-folder-open me-2"></i>{{ __('storage.document.browser') }}
+                </h1>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
             </div>
-            <div class="modal-body mw-100 position-relative">
+            <div class="modal-body p-0 mw-100 position-relative bg-light">
                 @if(count($tabs) > 0)
-                    <ul class="nav nav-tabs">
-                        @foreach($tabs as $connection_id => $service)
-                            <li class="nav-item">
-                                <button class="nav-link {{ $selectedConnection == $connection_id? 'active': '' }}"
-                                        type="button" wire:click="setTab('{{ $connection_id }}')">
-                                    @if($connection_id == "file-upload")
-                                        {{ trans_choice('storage.documents.file.upload', ($multiple? 2: 1)) }}
-                                    @else
-                                        {{ $service }}
-                                    @endif
-                                </button>
-                            </li>
-                        @endforeach
-                    </ul>
-                    <div class="tab-content">
+                    <div class="bg-white border-bottom px-3 pt-3">
+                        <ul class="nav nav-tabs border-bottom-0">
+                            @foreach($tabs as $connection_id => $service)
+                                <li class="nav-item">
+                                    <button class="nav-link fw-semibold {{ $selectedConnection == $connection_id? 'active border-bottom-0 text-primary': 'text-muted hover-primary' }}"
+                                            type="button" wire:click="setTab('{{ $connection_id }}')">
+                                        @if($connection_id == "file-upload")
+                                            <i class="fa-solid fa-cloud-arrow-up me-1"></i>{{ trans_choice('storage.documents.file.upload', ($multiple? 2: 1)) }}
+                                        @else
+                                            <i class="fa-solid fa-hard-drive me-1"></i>{{ $service }}
+                                        @endif
+                                    </button>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    <div class="tab-content p-3">
                         <div
                                 class="tab-pane fade show active"
                                 tabindex="-1"

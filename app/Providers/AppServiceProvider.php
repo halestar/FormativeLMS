@@ -2,8 +2,10 @@
 
 namespace App\Providers;
 
+use App\Classes\People\FieldAccessService;
+use App\Classes\People\FieldRegistry;
+use App\Classes\People\GuardedPerson;
 use App\Classes\SessionSettings;
-use App\Events\Classes\NewClassStatusEvent;
 use App\Models\People\Person;
 use App\Models\Utilities\SchoolRoles;
 use App\Policies\PersonPolicy;
@@ -29,37 +31,40 @@ class AppServiceProvider extends ServiceProvider
 	 */
 	public function register(): void
 	{
-		$this->app->bind(SessionSettings::class, fn(Application $app) => SessionSettings::instance());
-		
+		$this->app->bind(SessionSettings::class, fn (Application $app) => SessionSettings::instance());
+		$this->app->singleton(FieldRegistry::class, fn () => new FieldRegistry);
+		$this->app->singleton(FieldAccessService::class, fn () => new FieldAccessService);
+
 	}
-	
+
 	/**
 	 * Bootstrap any application services.
 	 */
 	public function boot(): void
 	{
-		if(app()->environment('production') || env('FORCE_SSL', false))
+		if (app()->environment('production') || env('FORCE_SSL', false))
 			URL::forceScheme('https');
-		Gate::before(function(Person $person, $ability)
+		Gate::before(function (Person $person, $ability)
 		{
 			return $person->hasRole(SchoolRoles::$ADMIN) ? true : null;
 		});
-		Gate::define('has-permission', function(Person $person, string $permission)
+		Gate::define('has-permission', function (Person $person, string $permission)
 		{
 			return $person->hasRole(SchoolRoles::$ADMIN) ||
-				$person->hasPermissionTo($permission);
+			       $person->hasPermissionTo($permission);
 		});
-		Gate::define('has-role', function(Person $person, string $role)
+		Gate::define('has-role', function (Person $person, string $role)
 		{
 			return $person->hasRole($role);
 		});
 		Gate::policy(SchoolRoles::class, RolePolicy::class);
 		Gate::policy(Person::class, PersonPolicy::class);
+		Gate::policy(GuardedPerson::class, PersonPolicy::class);
 		Paginator::useBootstrapFive();
 		//Composer Views
 		View::composer('layouts.integrations', IntegratorConfigurationComposer::class);
 		View::composer('layouts.class-settings', ClassSettingsComposer::class);
-		Blade::directive('svg', function($arguments)
+		Blade::directive('svg', function ($arguments)
 		{
 			$args = array_pad(explode(',', trim($arguments, "() ")), 2, '');
 			$path = trim($args[0], "' ");
@@ -67,15 +72,15 @@ class AppServiceProvider extends ServiceProvider
 			// Create the dom document as per the other answers
 			$svg = new DOMDocument();
 			$svg->load(public_path($path));
-			if($class != '')
+			if ($class != '')
 				$svg->documentElement->setAttribute("class", $class);
 			$output = $svg->saveXML($svg->documentElement);
-			
+
 			return $output;
 		});
 
-        //Events
-        Event::subscribe(ClassEventsSubscriber::class);
+		//Events
+		Event::subscribe(ClassEventsSubscriber::class);
 		Event::subscribe(LearningEventsSubscriber::class);
 	}
 }

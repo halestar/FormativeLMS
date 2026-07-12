@@ -15,136 +15,133 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Integrator extends Model implements HasSchoolRoles
 {
-    use HasFactory;
-    /*************************************************
-     * PROPERTIES
-     */
-    use HasSchoolRolesTrait;
+	use HasFactory;
 
-    final public const INTEGRATOR_URL_PREFIX = '/integrators';
+	/*************************************************
+	 * PROPERTIES
+	 */
+	use HasSchoolRolesTrait;
 
-    final public const INTEGRATOR_ACTION_PREFIX = 'integrators.';
+	final public const INTEGRATOR_URL_PREFIX = '/integrators';
+	final public const INTEGRATOR_ACTION_PREFIX = 'integrators.';
+	public $timestamps = true;
+	public $incrementing = true;
+	protected $table = 'integrators';
+	protected $primaryKey = 'id';
+	protected $fillable =
+		[
+			'name',
+			'className',
+			'path',
+			'description',
+			'version',
+			'configurable',
+		];
 
-    public $timestamps = true;
+	protected $guard_name = 'web';
 
-    public $incrementing = true;
+	public function __toString()
+	{
+		return $this->name;
+	}
 
-    protected $table = 'integrators';
+	/*****************************************************************
+	 * OVERRIDES
+	 */
 
-    protected $primaryKey = 'id';
+	public function newFromBuilder($attributes = [], $connection = null)
+	{
+		if ($attributes instanceof \stdClass)
+		{
+			$attributes = json_decode(json_encode($attributes), true);
+		}
+		if ($attributes['className'] == static::class)
+		{
+			return parent::newFromBuilder($attributes, $connection);
+		}
 
-    protected $fillable =
-        [
-            'name',
-            'className',
-            'path',
-            'description',
-            'version',
-            'configurable',
-        ];
+		return (new $attributes['className'])->newFromBuilder($attributes, $connection);
+	}
 
-    protected $guard_name = 'web';
+	protected static function booted(): void
+	{
+		static::addGlobalScope(new OrderByNameScope);
+	}
 
-    public function __toString()
-    {
-        return $this->name;
-    }
+	/*****************************************************************
+	 * RELATIONSHIPS
+	 */
 
-    /*****************************************************************
-     * OVERRIDES
-     */
+	public function services(): HasMany
+	{
+		return $this->hasMany(IntegrationService::class, 'integrator_id');
+	}
 
-    public function newFromBuilder($attributes = [], $connection = null)
-    {
-        if ($attributes instanceof \stdClass) {
-            $attributes = json_decode(json_encode($attributes), true);
-        }
-        if ($attributes['className'] == static::class) {
-            return parent::newFromBuilder($attributes, $connection);
-        }
+	protected function casts(): array
+	{
+		return
+			[
+				'data'                     => AsJsonData::class,
+				'version'                  => 'string',
+				'enabled'                  => 'boolean',
+				'has_personal_connections' => 'boolean',
+				'has_system_connections'   => 'boolean',
+				'configurable'             => 'boolean',
+				'created_at'               => 'datetime: m/d/Y h:i A',
+				'updated_at'               => 'datetime: m/d/Y h:i A',
+			];
+	}
 
-        return (new $attributes['className'])->newFromBuilder($attributes, $connection);
-    }
+	/*****************************************************************
+	 * SCOPES
+	 */
+	#[Scope]
+	protected function enabled(Builder $query): void
+	{
+		$query->where('enabled', true);
+	}
 
-    protected static function booted(): void
-    {
-        static::addGlobalScope(new OrderByNameScope);
-    }
+	#[Scope]
+	protected function personal(Builder $query): void
+	{
+		$query->where('has_personal_connections', true);
+	}
 
-    /*****************************************************************
-     * RELATIONSHIPS
-     */
+	#[Scope]
+	protected function system(Builder $query): void
+	{
+		$query->where('has_system_connections', true);
+	}
 
-    public function services(): HasMany
-    {
-        return $this->hasMany(IntegrationService::class, 'integrator_id');
-    }
+	#[Scope]
+	protected function configurable(Builder $query): void
+	{
+		$query->where('configurable', true);
+	}
 
-    protected function casts(): array
-    {
-        return
-            [
-                'data' => AsJsonData::class,
-                'version' => 'string',
-                'enabled' => 'boolean',
-                'has_personal_connections' => 'boolean',
-                'has_system_connections' => 'boolean',
-                'configurable' => 'boolean',
-                'created_at' => 'datetime: m/d/Y h:i A',
-                'updated_at' => 'datetime: m/d/Y h:i A',
-            ];
-    }
+	/**
+	 * This function will autoload the integrator that it was called from. For example, if you would
+	 * like to load the LocalIntegrator model, you would call LocalIntegrator::autoload()
+	 *
+	 * @return static The Integrator class that is descended from this one, implementing the actual Integrator.
+	 */
+	final public static function autoload(): static
+	{
+		return static::where('path', static::getPath())
+		             ->first();
+	}
 
-    /*****************************************************************
-     * SCOPES
-     */
-    #[Scope]
-    protected function enabled(Builder $query): void
-    {
-        $query->where('enabled', true);
-    }
+	final public static function getService(IntegratorServiceTypes $type): ?IntegrationService
+	{
+		return IntegrationService::select('integration_services.*')
+		                         ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
+		                         ->where('integrators.path', static::getPath())
+		                         ->where('service_type', $type)
+		                         ->first();
+	}
 
-    #[Scope]
-    protected function personal(Builder $query): void
-    {
-        $query->where('has_personal_connections', true);
-    }
-
-    #[Scope]
-    protected function system(Builder $query): void
-    {
-        $query->where('has_system_connections', true);
-    }
-
-    #[Scope]
-    protected function configurable(Builder $query): void
-    {
-        $query->where('configurable', true);
-    }
-
-    /**
-     * This function will autoload the integrator that it was called from. For example, if you would
-     * like to load the LocalIntegrator model, you would call LocalIntegrator::autoload()
-     *
-     * @return static The Integrator class that is descended from this one, implementing the actual Integrator.
-     */
-    final public static function autoload(): static
-    {
-        return static::where('path', static::getPath())
-            ->first();
-    }
-
-    final public static function getService(IntegratorServiceTypes $type): ?IntegrationService
-    {
-        return IntegrationService::select('integration_services.*')
-            ->join('integrators', 'integrators.id', '=', 'integration_services.integrator_id')
-            ->where('integrators.path', static::getPath())
-            ->where('service_type', $type)
-            ->first();
-    }
-
-    public function configurationUrl(): ?string
-    {
-        return null;
-    }
+	public function configurationUrl(): ?string
+	{
+		return null;
+	}
 }

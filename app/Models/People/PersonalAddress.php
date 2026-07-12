@@ -9,38 +9,36 @@ use JsonSerializable;
 
 class PersonalAddress extends MorphPivot implements Arrayable, JsonSerializable
 {
-    public $timestamps = false;
+	public $timestamps = false;
+	protected $table = 'addressable';
+	protected $fillable =
+		[
+			'primary',
+			'label',
+			'order',
+		];
 
-    protected $table = 'addressable';
+	public function address(): BelongsTo
+	{
+		return $this->belongsTo(Address::class, 'address_id');
+	}
 
-    protected $fillable =
-        [
-            'primary',
-            'label',
-            'order',
-        ];
+	public function prettyAddress(): string
+	{
+		return $this->address->pretty_address . ($this->label ? '(' . $this->label . ')' : '') .
+		       ($this->primary ? ' [Primary]' : '');
+	}
 
-    public function address(): BelongsTo
-    {
-        return $this->belongsTo(Address::class, 'address_id');
-    }
+	public function __toString(): string
+	{
+		return $this->address->pretty_address;
+	}
 
-    public function prettyAddress(): string
-    {
-        return $this->address->pretty_address.($this->label ? '('.$this->label.')' : '').
-               ($this->primary ? ' [Primary]' : '');
-    }
-
-    public function __toString(): string
-    {
-        return $this->address->pretty_address;
-    }
-
-    protected function casts(): array
-    {
-        return
-            [
-                'primary' => 'boolean',
-            ];
-    }
+	protected function casts(): array
+	{
+		return
+			[
+				'primary' => 'boolean',
+			];
+	}
 }

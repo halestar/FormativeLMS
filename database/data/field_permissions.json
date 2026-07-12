@@ -1,0 +1,6724 @@
+{
+  "rows": [
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "first",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "last",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "email",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "nick",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "portrait_url",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Student",
+      "context": "child",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Student",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "child",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Parent",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "first",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "first",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "first",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "first",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "first",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "first",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "middle",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "middle",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "last",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "last",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "last",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "last",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "last",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "last",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "email",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "email",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "email",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "email",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "email",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "email",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "nick",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "dob",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "dob",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "portrait_url",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "portrait_url",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "portrait_url",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "portrait_url",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "portrait_url",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "portrait_url",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryAddress",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryAddress",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "primaryPhone",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "addresses",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "addresses",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "phones",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "phones",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": null,
+      "context": "self",
+      "action": "edit",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Employee",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Faculty",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Staff",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Coach",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Substitute",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 1
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Parent",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": "Student",
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Employee",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Faculty",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Staff",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Coach",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    },
+    {
+      "viewer_role": null,
+      "target_role": "Substitute",
+      "context": "other",
+      "action": "view",
+      "field": "relationships",
+      "allow": 0
+    }
+  ]
+}

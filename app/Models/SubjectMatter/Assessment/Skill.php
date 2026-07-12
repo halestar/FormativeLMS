@@ -11,11 +11,14 @@ use App\Models\SubjectMatter\Subject;
 use App\Models\SystemTables\Level;
 use App\Traits\HasLevels;
 use App\View\Components\Assessment\RubricViewer;
+use Database\Factories\SubjectMatter\SkillFactory;
 use Illuminate\Database\Eloquent\Attributes\Scope;
+use Illuminate\Database\Eloquent\Attributes\UseFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\AsStringable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Blade;
 use Laravel\Scout\Searchable;
@@ -23,22 +26,20 @@ use Prism\Prism\Schema\ArraySchema;
 use Prism\Prism\Schema\ObjectSchema;
 use Prism\Prism\Schema\StringSchema;
 
+#[UseFactory(SkillFactory::class)]
 class Skill extends Model implements AiPromptable
 {
 	use HasLevels, Searchable;
 
 	public $timestamps = true;
 	public $incrementing = true;
-
-	protected $with = [
-		'levels',
-		'subjects',
-	];
-
+	protected $with =
+		[
+			'levels',
+			'subjects',
+		];
 	protected $table = 'skills';
-
 	protected $primaryKey = 'id';
-
 	protected $fillable =
 		[
 			'global',
@@ -51,28 +52,28 @@ class Skill extends Model implements AiPromptable
 	{
 		return
 			[
-				'id' => $this->id,
-				'name' => $this->prettyName(),
+				'id'          => $this->id,
+				'name'        => $this->prettyName(),
 				'description' => $this->description,
-				'levels' => $this->levels?->pluck('name')->toArray() ?? [],
-				'subjects' => $this->subjects?->pluck('name')->toArray() ?? [],
-				'courses' => $this->course?->pluck('name')->toArray() ?? [],
-				'categories' => $this->categories?->map(fn (
+				'levels'      => $this->levels?->pluck('name')->toArray() ?? [],
+				'subjects'    => $this->subjects?->pluck('name')->toArray() ?? [],
+				'courses'     => $this->course?->pluck('name')->toArray() ?? [],
+				'categories'  => $this->categories?->map(fn (
 						SkillCategory $category) => $category->designation->designation . ': ' .
 						                            $category->getCategoryPath())->toArray() ?? [],
-				'global' => (bool)$this->global,
-				'active' => (bool)$this->active,
+				'global'      => (bool)$this->global,
+				'active'      => (bool)$this->active,
 			];
 	}
 
-	public function subjects(): BelongsToMany
+	public function subjects(): MorphToMany
 	{
-		return $this->belongsToMany(Subject::class, 'skills_subjects', 'skill_id', 'subject_id');
+		return $this->morphedByMany(Subject::class, 'skillable');
 	}
 
-	public function courses(): BelongsToMany
+	public function courses(): MorphToMany
 	{
-		return $this->belongsToMany(Course::class, 'skills_subjects', 'skill_id', 'course_id');
+		return $this->morphedByMany(Course::class, 'skillable');
 	}
 
 	public function categories(): BelongsToMany
@@ -95,9 +96,9 @@ class Skill extends Model implements AiPromptable
 		return
 			[
 				'description' => AsStringable::class,
-				'rubric' => Rubric::class,
-				'active' => 'boolean',
-				'global' => 'boolean',
+				'rubric'      => Rubric::class,
+				'active'      => 'boolean',
+				'global'      => 'boolean',
 			];
 	}
 
@@ -308,10 +309,10 @@ class Skill extends Model implements AiPromptable
 	{
 		return
 			[
-				'{!! $skill_name !!}' => __('subjects.skills.name'),
-				'{!! $skill_levels !!}' => trans_choice('subjects.skills.level', 2),
-				'{!! $skill_is_global !!}' => __('subjects.skills.global'),
-				'{!! $skill_subjects !!}' => __('subjects.skills.subject'),
+				'{!! $skill_name !!}'        => __('subjects.skills.name'),
+				'{!! $skill_levels !!}'      => trans_choice('subjects.skills.level', 2),
+				'{!! $skill_is_global !!}'   => __('subjects.skills.global'),
+				'{!! $skill_subjects !!}'    => __('subjects.skills.subject'),
 				'{!! $skill_description !!}' => __('subjects.skills.description'),
 			];
 	}
@@ -320,11 +321,11 @@ class Skill extends Model implements AiPromptable
 	{
 		return
 			[
-				'skill_name' => $this->prettyName(),
-				'skill_levels' => $this->levels->pluck('name')->join(', '),
-				'skill_is_global' => $this->isGlobal() ? __('subjects.skills.global.yes')
+				'skill_name'        => $this->prettyName(),
+				'skill_levels'      => $this->levels->pluck('name')->join(', '),
+				'skill_is_global'   => $this->isGlobal() ? __('subjects.skills.global.yes')
 					: __('subjects.skills.global.no'),
-				'skill_subjects' => $this->subjects->pluck('name')->join(', '),
+				'skill_subjects'    => $this->subjects->pluck('name')->join(', '),
 				'skill_description' => $this->description,
 			];
 	}
@@ -404,8 +405,8 @@ class Skill extends Model implements AiPromptable
 		}
 		$data =
 			[
-				'points' => $points,
-				'criteria' => $criteria,
+				'points'       => $points,
+				'criteria'     => $criteria,
 				'descriptions' => $descriptions,
 			];
 

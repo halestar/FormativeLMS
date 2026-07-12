@@ -6,28 +6,27 @@ use App\Classes\Storage\DocumentFile;
 use App\Interfaces\Fileable;
 use App\Models\Integrations\Connections\WorkFilesConnection;
 use App\Models\Utilities\WorkFile;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class LocalWorkFilesConnection extends WorkFilesConnection
 {
-	
+
 	public static function getSystemInstanceDefault(): array
 	{
 		return [];
 	}
 
-	
+
 	public function persistFile(Fileable $fileable, DocumentFile $file, bool $hidden = false): ?WorkFile
 	{
 		$exportFile = $file->getExportFile();
-		if(!$exportFile) return null;
+		if (!$exportFile) return null;
 		//generate a md5 name for the file.
 		$fpath = $fileable->getWorkStorageKey()->value . "/" . uniqid() . '.' . $exportFile->extension;
 		//persist the file.
 		Storage::disk($this->service->data->work_disk)
-	               ->put($fpath, $exportFile->contents);
+		       ->put($fpath, $exportFile->contents);
 		//create the WorkFile
 		$workFile = new WorkFile();
 		$workFile->name = $exportFile->name;
@@ -43,23 +42,24 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 		$fileable->workFiles()->save($workFile);
 		return $workFile;
 	}
-	
+
 	public function deleteFile(WorkFile $file): void
 	{
 		//check if we have a thumbnail. Delete that first.
-		if($file->hasThumbnail())
+		if ($file->hasThumbnail())
 			Storage::disk($this->service->data->work_disk)->delete($file->thumb_path);
 		//then delete the file itself.
 		Storage::disk($this->service->data->work_disk)
 		       ->delete($file->path);
 	}
-	
+
 	public function download(WorkFile $file): StreamedResponse
 	{
 		$headers =
 			[
 				'Content-Type: ' . $file->mime,
-				'Content-Disposition: ' . ($file->shouldAttach() ? 'attachment; filename="' . $file->fileName() : 'inline'),
+				'Content-Disposition: ' .
+				($file->shouldAttach() ? 'attachment; filename="' . $file->fileName() : 'inline'),
 			];
 		return Storage::disk($this->service->data->work_disk)
 		              ->download
@@ -69,7 +69,7 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 			              $headers
 		              );
 	}
-	
+
 	public function fileContents(WorkFile $file): ?string
 	{
 		return Storage::disk($this->service->data->work_disk)
@@ -101,7 +101,13 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 
 	public function cleanup(): void
 	{
-		// TODO: Implement cleanup() method.
+		$files = WorkFile::where('connection_id', $this->id)->get()->pluck('path')->toArray();
+		$diskFiles = Storage::disk($this->service->data->work_disk)->allFiles();
+		foreach ($diskFiles as $diskFile)
+		{
+			if (!in_array($diskFile, $files))
+				Storage::disk($this->service->data->work_disk)->delete($diskFile);
+		}
 	}
 
 	public function storeThumbnail(WorkFile $workFile, string $contents): string
@@ -110,7 +116,7 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 		$fpath = $pathParts['dirname'] . "/" . $pathParts['filename'] . ".thmb.jpg";
 		//persist the file.
 		Storage::disk($this->service->data->work_disk)
-			->put($fpath, $contents);
+		       ->put($fpath, $contents);
 		return $fpath;
 	}
 
@@ -122,17 +128,17 @@ class LocalWorkFilesConnection extends WorkFilesConnection
 				'Content-Disposition: inline',
 			];
 		return Storage::disk($this->service->data->work_disk)
-			->download
-			(
-				$file->thumb_path,
-				$file->name . ".jpg",
-				$headers
-			);
+		              ->download
+		              (
+			              $file->thumb_path,
+			              $file->name . ".jpg",
+			              $headers
+		              );
 	}
 
 	public function thumbContents(WorkFile $file): ?string
 	{
 		return Storage::disk($this->service->data->work_disk)
-			->get($file->thumb_path);
+		              ->get($file->thumb_path);
 	}
 }

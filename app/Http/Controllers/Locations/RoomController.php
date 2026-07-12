@@ -10,112 +10,119 @@ use Illuminate\Support\Facades\Gate;
 
 class RoomController extends Controller
 {
-    public static function middleware()
-    {
-        return ['auth'];
-    }
+	public static function middleware()
+	{
+		return ['auth'];
+	}
 
-    public function create(?Building $building = null)
-    {
-        Gate::authorize('has-permission', 'locations.rooms');
-        $breadcrumb = [];
-        $breadcrumb[__('system.menu.rooms')] = route('locations.buildings.index');
-        if (! $building) {
-            $breadcrumb[trans_choice('locations.rooms.free', 1)] = '#';
-        } else {
-            $breadcrumb[$building->name] = route('locations.buildings.show', $building);
-        }
-        $breadcrumb[__('locations.rooms.new')] = '#';
+	public function create(?Building $building = null)
+	{
+		Gate::authorize('has-permission', 'locations.rooms');
+		$breadcrumb = [];
+		$breadcrumb[__('system.menu.rooms')] = route('locations.buildings.index');
+		if (!$building)
+		{
+			$breadcrumb[trans_choice('locations.rooms.free', 1)] = '#';
+		}
+		else
+		{
+			$breadcrumb[$building->name] = route('locations.buildings.show', $building);
+		}
+		$breadcrumb[__('locations.rooms.new')] = '#';
 
-        return view('locations.rooms.create', compact('breadcrumb', 'building'));
-    }
+		return view('locations.rooms.create', compact('breadcrumb', 'building'));
+	}
 
-    public function store(Request $request)
-    {
-        Gate::authorize('has-permission', 'locations.rooms');
-        $data = $request->validate([
-            'name' => 'required|max:255',
-            'capacity' => 'required|min:1|max:10000',
-            'area_id' => 'nullable|exists:buildings_areas,id',
-        ], static::errors());
-        $room = new Room;
-        $room->fill($data);
-        $room->save();
+	public function store(Request $request)
+	{
+		Gate::authorize('has-permission', 'locations.rooms');
+		$data = $request->validate([
+			'name'     => 'required|max:255',
+			'capacity' => 'required|numeric|min:1|max:10000',
+			'area_id'  => 'nullable|exists:buildings_areas,id',
+		], static::errors());
+		$room = new Room;
+		$room->fill($data);
+		$room->save();
 
-        return redirect(route('locations.rooms.edit', $room))
-            ->with('success-status', __('locations.rooms.created'));
-    }
+		return redirect(route('locations.rooms.edit', $room))
+			->with('success-status', __('locations.rooms.created'));
+	}
 
-    private static function errors(): array
-    {
-        return [
-            'name' => __('errors.rooms.name'),
-            'capacity' => __('errors.rooms.capacity'),
-            'campuses' => __('errors.rooms.campuses'),
-            'area_id' => __('errors.rooms.area'),
-        ];
-    }
+	private static function errors(): array
+	{
+		return [
+			'name'     => __('errors.rooms.name'),
+			'capacity' => __('errors.rooms.capacity'),
+			'campuses' => __('errors.rooms.campuses'),
+			'area_id'  => __('errors.rooms.area'),
+		];
+	}
 
-    public function show(Room $room)
-    {
-        $breadcrumb = [];
-        $breadcrumb[__('system.menu.rooms')] = route('locations.buildings.index');
-        if ($room->isFreeFloating()) {
-            $breadcrumb[trans_choice('locations.rooms.free', 1)] = '#';
-        } else {
-            $breadcrumb[$room->building->name] = route('locations.buildings.show', $room->building);
-        }
-        $breadcrumb[$room->name] = '#';
+	public function show(Room $room)
+	{
+		$breadcrumb = [];
+		$breadcrumb[__('system.menu.rooms')] = route('locations.buildings.index');
+		if ($room->isFreeFloating())
+		{
+			$breadcrumb[trans_choice('locations.rooms.free', 1)] = '#';
+		}
+		else
+		{
+			$breadcrumb[$room->building->name] = route('locations.buildings.show', $room->building);
+		}
+		$breadcrumb[$room->name] = '#';
 
-        return view('locations.rooms.show', compact('room', 'breadcrumb'));
-    }
+		return view('locations.rooms.show', compact('room', 'breadcrumb'));
+	}
 
-    public function edit(Room $room)
-    {
-        Gate::authorize('has-permission', 'locations.rooms');
-        $breadcrumb =
-            [
-                __('system.menu.rooms') => route('locations.buildings.index'),
-                $room->name => route('locations.rooms.show', $room),
-                __('locations.rooms.edit') => '#',
-            ];
+	public function edit(Room $room)
+	{
+		Gate::authorize('has-permission', 'locations.rooms');
+		$breadcrumb =
+			[
+				__('system.menu.rooms')    => route('locations.buildings.index'),
+				$room->name                => route('locations.rooms.show', $room),
+				__('locations.rooms.edit') => '#',
+			];
 
-        return view('locations.rooms.edit', compact('room', 'breadcrumb'));
-    }
+		return view('locations.rooms.edit', compact('room', 'breadcrumb'));
+	}
 
-    public function updateBasicInfo(Request $request, Room $room)
-    {
-        Gate::authorize('has-permission', 'locations.rooms');
-        $data = $request->validate([
-            'name' => 'required|max:255',
-            'capacity' => 'required|max:10',
-        ], static::errors());
-        $room->fill($data);
-        $room->save();
+	public function updateBasicInfo(Request $request, Room $room)
+	{
+		Gate::authorize('has-permission', 'locations.rooms');
+		$data = $request->validate([
+			'name'     => 'required|max:255',
+			'capacity' => 'required|max:10',
+		], static::errors());
+		$room->fill($data);
+		$room->save();
 
-        return redirect(route('locations.rooms.edit', $room))
-            ->with('success-status', __('locations.rooms.updated'));
-    }
+		return redirect(route('locations.rooms.edit', $room))
+			->with('success-status', __('locations.rooms.updated'));
+	}
 
-    public function updateCampuses(Request $request, Room $room)
-    {
-        Gate::authorize('has-permission', 'locations.rooms');
-        $data = $request->validate([
-            'campuses' => 'required|array|min:1',
-        ], static::errors());
-        // we will need to create the sync array
-        $sync = [];
-        foreach ($data['campuses'] as $campus_id) {
-            $sync[$campus_id] =
-                [
-                    'label' => $request->input('label_'.$campus_id, null),
-                    'classroom' => $request->input('classroom_'.$campus_id, false),
-                ];
-        }
-        $room->campuses()
-            ->sync($sync);
+	public function updateCampuses(Request $request, Room $room)
+	{
+		Gate::authorize('has-permission', 'locations.rooms');
+		$data = $request->validate([
+			'campuses' => 'required|array|min:1',
+		], static::errors());
+		// we will need to create the sync array
+		$sync = [];
+		foreach ($data['campuses'] as $campus_id)
+		{
+			$sync[$campus_id] =
+				[
+					'label'     => $request->input('label_' . $campus_id, null),
+					'classroom' => $request->input('classroom_' . $campus_id, false),
+				];
+		}
+		$room->campuses()
+		     ->sync($sync);
 
-        return redirect(route('locations.rooms.edit', $room))
-            ->with('success-status', __('locations.rooms.updated'));
-    }
+		return redirect(route('locations.rooms.edit', $room))
+			->with('success-status', __('locations.rooms.updated'));
+	}
 }

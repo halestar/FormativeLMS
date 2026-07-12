@@ -1,5 +1,6 @@
 <?php
 
+use App\Classes\People\GuardedPerson;
 use App\Classes\Settings\StorageSettings;
 use App\Classes\Storage\DocumentFile;
 use App\Enums\WorkStoragesInstances;
@@ -13,17 +14,15 @@ new class extends Component
 {
 	use WithFileUploads;
 
-	public Person $person;
+	public GuardedPerson $person;
 	#[Locked]
 	public bool $canEdit = false;
 
-	public function mount(Person $person)
+	public function mount(GuardedPerson $person)
 	{
 		$this->person = $person;
 		$user = auth()->user();
-		$this->canEdit =
-			$user->can('people.edit') || ($user->can('substitute.admin') && $this->person->isSubstitute()) ||
-			($user->id == $this->person->id && $this->person->canEditOwnField('portrait'));
+		$this->canEdit = $this->person->canEdit('portrait_url');
 	}
 
 	public function removePortrait()
